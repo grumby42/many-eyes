@@ -12,7 +12,8 @@ Each volume is one self-contained offline HTML file. Read online via GitHub Page
 | IV | [The Notebook](many-eyes-volume-4.html) | 7 | 86 | 325 | `EYES4-20261114-0232Z` |
 | V | [The Studio](many-eyes-volume-5.html) | 8 | 104 | 384 | `EYES5-20261111-2345Z` |
 | VI | [The Room](many-eyes-volume-6.html) | 8 | 105 | 399 | `EYES6-20261114-0257Z` |
+| VII | [Getting There](many-eyes-volume-7.html) | 11 | 153 | 512 | `EYES7-20261114-1539Z` |
 
 **Sourcing rules.** All sources are real. Entries are digests; quotations are short and limited to English texts published before 1929, world-famous phrases and official US records. Memoirs written later, forgeries and legends are flagged. Contested questions are given as positions with evidence. Each volume was checked by independent fact-check passes before publication.
 
-Compiled by Ted Gransbury with Claude. Generated 2026-11-14T02:57:17Z.
+Compiled by Ted Gransbury with Claude. Generated 2026-11-14T15:40:21Z.
