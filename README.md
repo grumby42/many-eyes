@@ -16,4 +16,4 @@ Each volume is one self-contained offline HTML file. Read online via GitHub Page
 
 **Sourcing rules.** All sources are real. Entries are digests; quotations are short and limited to English texts published before 1929, world-famous phrases and official US records. Memoirs written later, forgeries and legends are flagged. Contested questions are given as positions with evidence. Each volume was checked by independent fact-check passes before publication.
 
-Compiled by Ted Gransbury with Claude. Generated 2026-11-14T15:40:21Z.
+Compiled by Ted Gransbury with Claude. Generated 2026-11-14T19:33:51Z.
