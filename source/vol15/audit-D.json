@@ -1,0 +1,759 @@
+[
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:6",
+  "severity": "error",
+  "problem": "Levin's diary was not opened; the digest adds context (road under attack, title 'presents' the city as besieged from the first entry) that the catalogue record does not support.",
+  "fix": {
+   "headline": "The diary's first date",
+   "digest": "Harry Levin's diary, published in 1950 as Jerusalem Embattled: A Diary of the City under Siege, is dated from 25 March 1948. Only that dated span is confirmed here (from library catalogues); what Levin wrote on this or any other day was not checked.",
+   "source_note": "Dated span from the title of Jerusalem Embattled (London, 1950; Cassell reissue 1997, ISBN 9780304337651), per library catalogues. Entry content not consulted.",
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:20",
+  "severity": "error",
+  "problem": "Unsupported entry: nothing confirms that Levin's diary has an entry for 14 May or what it says ('as heard in a city cut off'). The day is already covered by Jones, Gurney, Ben-Gurion and the US records.",
+  "fix": {
+   "delete": true
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:32",
+  "severity": "error",
+  "problem": "Levin entry with no verified Levin content; its only substantiated facts come from UN S/1025, not from Levin. Delete (the S/1025 facts are moved into entry 33).",
+  "fix": {
+   "delete": true
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:33",
+  "severity": "style",
+  "problem": "Keeps the verified S/1025 truce facts from the deleted Levin entry (S/1025 paras 1, 21–23 checked).",
+  "fix": {
+   "text_replace": {
+    "old": "It was one of the first times the line through the city was described on paper rather than simply held.",
+    "new": "It was one of the first times the line through the city was described on paper rather than simply held. The same report records that the first truce ran from 11 June, that food convoys under UN escort were agreed for Jewish Jerusalem on 23 June, and that no water flowed to Jerusalem during the entire truce."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:33",
+  "severity": "style",
+  "problem": "S/1025 para. 23 records the 16 June agreement between the parties; it does not attribute it to the Truce Commission.",
+  "fix": {
+   "text_replace": {
+    "old": "Under the Truce Commission, the two sides in Jerusalem agreed on 16 June",
+    "new": "The two sides in Jerusalem agreed on 16 June"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:36",
+  "severity": "error",
+  "problem": "Levin's last entry was not read; 'by then the line through the city was close to where it would be fixed' is the compiler's gloss, and the timing of the second truce in Jerusalem is stated without a source.",
+  "fix": {
+   "headline": "The diary's last date",
+   "digest": "Levin's published diary closes on 18 July 1948, the day the second UN truce came into force. Only the closing date, from the book's title, is confirmed here; the entry itself was not checked.",
+   "source_note": "End date from the title of Jerusalem Embattled (1950). Entry content not consulted.",
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "eye:levin",
+  "severity": "error",
+  "problem": "Bio characterises the diary ('best-known', 'written for an outside reader') without having read it; authenticity should name the reissue only as catalogues give it.",
+  "fix": {
+   "text_replace": {
+    "old": "Levin's diary is the best-known English-language day book of Jewish Jerusalem under siege, from the closing of the road in spring 1948 to the second truce. It was written for an outside reader, by a journalist, and published within two years of the events.",
+    "new": "Levin's diary is an English-language day book of Jewish Jerusalem under siege, dated 25 March to 18 July 1948 and published within two years of the events. Its contents were not checked for this chapter, so it appears here only by its dated span."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "convergence:3",
+  "severity": "style",
+  "problem": "Levin is listed among the eyes for 14 May but no verified Levin entry exists for that day (entry 20 deleted).",
+  "fix": {
+   "eyes": [
+    "gurney",
+    "jones",
+    "bengurion",
+    "usconsul"
+   ]
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:17",
+  "severity": "error",
+  "problem": "Gurney's final entry was not read; the digest's last clause about officials 'who had governed Palestine for nearly thirty years' going 'with him or after him' is unsupported generalisation. State only what is verifiable.",
+  "fix": {
+   "digest": "Gurney's typescript diary ends with an entry dated 14 May 1948, the day the British administration left Jerusalem; what he wrote that day was not checked for this chapter. That morning the High Commissioner, Sir Alan Cunningham, left the city by Kalandia airfield for Haifa, as Hugh Jones recorded.",
+   "headline": "The Chief Secretary's diary ends"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:37",
+  "severity": "error",
+  "problem": "The sentence characterising Joseph's 1960 memoir is unsupported (memoir not consulted). JVL's introduction says Israel rejected Bernadotte's 26 July demilitarisation suggestion on 2 August itself, so 'after' should be 'on the day'.",
+  "fix": {
+   "digest": "On the day Israel rejected the Mediator's suggestion of 26 July that Jerusalem be demilitarised, Defence Minister Ben-Gurion signed Proclamation No. 1 of the Israel Defence Forces Administration in Jerusalem, declaring that the law of the State of Israel prevailed in the Israeli-held area; it was published in the Official Gazette that day. Dov Joseph was appointed Military Governor. His memoir The Faithful City (1960) was not consulted for this chapter.",
+   "source_note": "Proclamation No. 1, Official Gazette No. 12, 2 August 1948, and its introduction (Jewish Virtual Library). The appointment of Joseph is stated in the introduction, not the proclamation text."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "eye:joseph",
+  "severity": "doubt",
+  "problem": "Bio characterises the memoir ('figures and queues matter more than battles') although it was not read.",
+  "fix": {
+   "text_replace": {
+    "old": "His memoir is the administrator's view of the siege, in which figures and queues matter more than battles.",
+    "new": "His memoir, written twelve years later, is the administrator's account of the siege; it was not consulted for this chapter."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:34",
+  "severity": "error",
+  "problem": "'His diary recounts the reactions' is unsupported (To Jerusalem not consulted); the entry rests on the official suggestions, so form and source_kind should say so. FRUS doc. 418 dates the suggestions to Rhodes, 28 June 1948, and confirms 'Inclusion of the City of Jerusalem in Arab territory' with self-government for the Jewish community and arrangements for the Holy Places.",
+  "fix": {
+   "date_iso": "1948-06-28",
+   "date_display": "Monday 28 June 1948",
+   "precision": "day",
+   "digest": "Bernadotte's first suggestions, presented to the parties at Rhodes, proposed among other things that the City of Jerusalem be included in Arab territory, with local self-government for the Jewish community and special arrangements to protect the Holy Places. Both sides rejected the suggestions. His diary, To Jerusalem (1951), was not consulted for this chapter.",
+   "form": "official proposals",
+   "source_kind": "official record",
+   "confidence": "verified",
+   "source_note": "Text of the suggestions presented at Rhodes on 28 June 1948, FRUS 1948 vol. V pt 2, doc. 418 (US government, public domain); UN S/863. Eric Lee's review of To Jerusalem summarises the proposals as refusing Israel any part of Jerusalem."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "tie:8",
+  "severity": "doubt",
+  "problem": "No source checked shows Azcárate's memoir covering the Mediator's mission or a meeting between them.",
+  "fix": {
+   "note": "Both worked for the UN on Jerusalem in 1948, Bernadotte as Mediator and Azcárate as secretary of the Consular Truce Commission.",
+   "kind": "mentioned"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:44",
+  "severity": "error",
+  "problem": "'He was present as the cease-fire line hardened into the administrative frontier' is unsupported. Ramos Tolosa (Ayer 93, 2014) confirms he was principal secretary of the Conciliation Commission for Palestine, 1949–52.",
+  "fix": {
+   "digest": "From 1949 to 1952 Azcárate served as principal secretary of the UN Conciliation Commission for Palestine, and the English edition of his memoir, Mission in Palestine 1948–1952 (1966), takes its title from those years. What it says about the line through Jerusalem was not checked for this chapter.",
+   "headline": "Staying on with the Conciliation Commission",
+   "source_note": "Ramos Tolosa, Ayer 93 (2014), on his Conciliation Commission post; memoir not consulted."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "convergence:8",
+  "severity": "error",
+  "problem": "'Azcárate watched it become routine; al-Tall ... would later write it as a betrayal' is not supported by any source consulted.",
+  "fix": {
+   "note": "The armistice signed at Rhodes on 3 April 1949 made the 30 November 1948 cease-fire lines in Jerusalem the armistice lines, without prejudice to a future settlement. Azcárate stayed on with the UN Conciliation Commission; al-Tall, by then estranged from his king, later told the story of the talks in his 1959 memoir."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "convergence:7",
+  "severity": "error",
+  "problem": "Reverses the offer: Ben-Gurion's 29 Nov 1948 diary records that al-Tall was prepared to exchange the Jewish Quarter for Qatamon (Katamon), i.e. give the Quarter in return for Qatamon, not offer Qatamon.",
+  "fix": {
+   "text_replace": {
+    "old": "Ben-Gurion's diary records al-Tall offering Qatamon for the Jewish Quarter",
+    "new": "Ben-Gurion's diary records Dayan's report that al-Tall was prepared to exchange the Jewish Quarter for Qatamon"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:41",
+  "severity": "error",
+  "problem": "The diary summary says al-Tall 'was prepared to exchange' the Jewish Quarter for Katamon; it does not say who proposed it. The meeting place is Armon HaNatsiv (Government House), and the convoy is 'to the University' every two weeks.",
+  "fix": {
+   "text_replace": {
+    "old": "Al-Tall, Dayan believed, was ready for large concessions, and proposed exchanging the Old City's Jewish Quarter for Qatamon.",
+    "new": "Al-Tall, Dayan believed, was ready for large concessions and was prepared to exchange the Old City's Jewish Quarter for Qatamon."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "claim:12",
+  "severity": "error",
+  "problem": "The diary does not say al-Tall proposed the trade, only that he was prepared to make it (as reported by Dayan).",
+  "fix": {
+   "claim": "Al-Tall said to be ready to trade the Jewish Quarter for Qatamon"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:9",
+  "severity": "error",
+  "problem": "The Hogan annotations state that the figure of about fifty bodies in the village came from the Irgun officer's account in the memorandum (with about 20 in no-man's land and about 150 in a pit he could not verify), though de Reynier later reported having seen fifty. 'Counted' overstates; the later death-toll estimate should be a position.",
+  "fix": {
+   "digest": "Two days after Irgun and Lehi forces took the village of Deir Yassin, de Reynier went there with a man who said he was an Irgun officer, two ambulances, two doctors and five or six Magen David Adom nurses. The commander told him there were about 200 dead and no wounded, and that about 150 women and children had surrendered. The memorandum gives the officer's account of about fifty bodies in the village, about twenty in no-man's land and about 150 in a pit, which de Reynier could not verify; he later reported having seen about fifty himself. He found a girl of about ten alive but comatose and had her taken away by ambulance, and he gave instructions for burial with lists of names.",
+   "source_note": "De Reynier's memorandum to the ICRC, Geneva, dated 13 April 1948, in Matthew Hogan's annotated English translation (1999). Death tolls are contested: the figure the Irgun gave him (about 200) was widely repeated in 1948; the translator's annotations, and later Israeli and Palestinian researchers, give about 100–110 for the whole village."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "claim:3",
+  "severity": "doubt",
+  "problem": "The fifty-bodies figure is in the memorandum as the officer's account; de Reynier's own count is from later reports.",
+  "fix": {
+   "claim": "About fifty bodies reported in the village (de Reynier later said he saw them); about 200 dead claimed by the Irgun officer"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:28",
+  "severity": "doubt",
+  "problem": "FRUS doc. 345 says 'Approximately 900 Jews including wounded still proceeding Old City', which is ambiguous; 'remained inside' over-reads it.",
+  "fix": {
+   "text_replace": {
+    "old": "about 900 Jews including wounded remained inside",
+    "new": "about 900 Jews including wounded were still being moved in the Old City"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:24",
+  "severity": "error",
+  "problem": "FRUS doc. 304 is dated Jerusalem, 22 May 1948, 9 a.m. (not inferred). Its Jewish reaction is elation and a wish for firm US support for the Jewish state and Jerusalem's Jews; 'absorbed in the fight for the city itself' is not in the text.",
+  "fix": {
+   "date_display": "Saturday 22 May 1948, 9 a.m.",
+   "precision": "day",
+   "confidence": "verified",
+   "digest": "In a restricted telegram after the US recognised Israel de facto, Wasson reported that Arab opinion was extremely bitter against the United States and held that it had betrayed the Arab states; some warned that defeat could bring down governments in countries such as Egypt and Iraq. Jews were elated and wanted recognition followed by firm American support for the Jewish state and for the Jews of Jerusalem.",
+   "source_note": "FRUS 1948 vol. V pt 2, doc. 304 (telegram 692, 867N.01/5–2248), dated Jerusalem, 22 May 1948, 9 a.m."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:25",
+  "severity": "error",
+  "problem": "Stabler says Wasson was shot walking back across an open street behind the consulate from the French Consulate; Jones says after leaving a Truce Commission meeting. Not 'walking to'.",
+  "fix": {
+   "text_replace": {
+    "old": "had been shot in the arm while walking to a meeting at the French Consulate and died the next day.",
+    "new": "had been shot in the arm while returning on foot from a Truce Commission meeting at the French Consulate, and died of his wounds on 23 May."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:39",
+  "severity": "error",
+  "problem": "FRUS doc. 605 is a message from Bunche relayed by the consulate; it gives 1405 GMT, says 'men in Jewish Army uniforms' and 'point blank range'.",
+  "fix": {
+   "date_display": "Friday 17 September 1948, 14:05 GMT (about 5 p.m. local time)",
+   "digest": "Consul General Macdonald relayed to Washington Ralph Bunche's message that Bernadotte had been assassinated in the Katamon quarter while driving in a three-car convoy from Government House to the YMCA. Men in Jewish Army uniforms got out of an Israeli Army type jeep at a road block and fired at point-blank range; the French observer Colonel André Sérot was killed and Bernadotte died soon after reaching hospital. Israeli military and civilian leaders expressed regret and promised to hunt the gunmen. The next day the consulate reported that the Stern group was generally assumed responsible."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:40",
+  "severity": "error",
+  "problem": "S/1018 describes one man firing several bursts through the rear left window while two others fired from the right to cover the assault; the jeep was 'similar in color' to Israeli army vehicles. The Hazit Hamoledet attribution is relayed from the Israeli Foreign Minister's letter, not Bunche's own finding.",
+  "fix": {
+   "digest": "Ralph Bunche, now acting Mediator, reported that the convoy flew UN and white flags and had no armed protection, that a jeep similar in colour to those of the Israeli army blocked the road, and that one man fired several bursts into the Mediator's car while two others fired to cover the assault. He relayed the Israeli Foreign Minister's statement that a group calling itself Hazit Hamoledet, an arm of the Stern group (Lehi), had claimed the killing, and held the Provisional Government of Israel responsible for what he called a breach of the truce of the utmost gravity."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "eye:cailingold",
+  "severity": "error",
+  "problem": "The NLI blog states the farewell letter was written in Hebrew. It gives 29 May (as does Wikipedia); the World Machal profile gives Friday 28 May — set out as positions.",
+  "fix": {
+   "language": "Hebrew (letter as described by the NLI); later printed in translation",
+   "authenticity": "Her farewell letter to her parents in London was written in Hebrew, found under her pillow after her death, and later reproduced in the National Library of Israel's book From London to Jerusalem; the NLI blog describes it. The NLI dates it to six days before her death and gives Saturday 29 May 1948 as the day she died; the World Machal profile gives the night of Friday 28 May."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "Positions on the death date are now named.",
+  "fix": {
+   "source_note": "NLI blog gives 29 May (its main text says about 5 p.m., the eulogy it quotes says 6 a.m.); Wikipedia also gives 29 May; the World Machal profile says she died on the night of Friday 28 May."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:1",
+  "severity": "error",
+  "problem": "Radai (JQ 46) cites Hala pp. 110–111 for the Semiramis explosion and the first departures; the neighbour giving first aid and the closing claim about the family's sense of safety are not supported. CZA S25/4013 is a file titled 'Hotel Semiramis – a regional Arab base in Qatamon' (8 Jan 1948); Radai does not call it Haganah intelligence.",
+  "fix": {
+   "digest": "Hala Sakakini records the explosion at the Semiramis Hotel in Qatamon, which the Haganah blew up during the night, on mistaken intelligence that it housed the headquarters of the Qatamon guard. Radai cites her pages on the blast alongside the first wave of families leaving the neighbourhood.",
+   "source_note": "Jerusalem and I (1987), pp. 110–111, as cited by Radai, JQ 46 (nn. 8–9). A Central Zionist Archives file of 8 January 1948 (S25/4013, cited by Radai) is titled 'Hotel Semiramis – a regional Arab base in Qatamon'. Casualty figures are not given here."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "convergence:0",
+  "severity": "error",
+  "problem": "The CZA file title is not identified by Radai as a Haganah paper.",
+  "fix": {
+   "text_replace": {
+    "old": "Haganah papers of the same week described the hotel as an Arab base.",
+    "new": "A Zionist archive file of the same week is titled as describing the hotel as a regional Arab base."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:12",
+  "severity": "doubt",
+  "problem": "Radai cites 23 and 26 April only for Hala's enthusiasm for Abu Dayyeh; 'stay as long as Abu Dayyeh defended them' is not in his summary.",
+  "fix": {
+   "text_replace": {
+    "old": "On 23 and 26 April she wrote that she would stay as long as Abu Dayyeh defended them.",
+    "new": "Her entries of 23 and 26 April speak warmly of Abu Dayyeh."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:14",
+  "severity": "doubt",
+  "problem": "Radai cites p. 121 for Abu Dayyeh directing the fighters, with Transjordanian soldiers joining from the Iraqi Consulate; defenders 'running short of ammunition' is not in his citation.",
+  "fix": {
+   "text_replace": {
+    "old": "Hala records the defenders running short of ammunition and Abu Dayyeh giving orders.",
+    "new": "Hala records Abu Dayyeh directing the fighters, with Transjordanian soldiers joining in from the Iraqi Consulate."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "eye:khalil",
+  "severity": "style",
+  "problem": "Born January 1878, he was 70 during 1948.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 69 in 1948",
+    "new": "aged 70 in 1948"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "eye:khalil",
+  "severity": "style",
+  "problem": "Radai's body text says only that he moved the diaries 'to a safe place'; the sister's house in the Old City is in his note 30. Fine, but attribute.",
+  "fix": {
+   "text_replace": {
+    "old": "He moved the notebooks to his sister's house in the Old City before leaving, which is how they survived.",
+    "new": "According to Radai (note 30), he had moved the notebooks to his married sister's house in the Old City, which is how they survived."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:43",
+  "severity": "style",
+  "problem": "Text checked against the Avalon copy: signed at Rhodes 3 April 1949; Art. V(1)(b) Jerusalem lines correspond to the 30 November 1948 cease-fire agreement; Art. II(2) and VI(9) without prejudice. The eltaher.org PDF cited does not contain the article text and misdates the signing.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Israel–Jordan General Armistice Agreement, Rhodes, 3 April 1949, Arts. II(2), V(1)(b), VI(9) (Avalon Project text)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "eye:un",
+  "severity": "error",
+  "problem": "The eltaher.org PDF cited for the armistice text does not contain the articles and gives wrong dates; replace with the Avalon text.",
+  "fix": {
+   "sources": [
+    {
+     "title": "S/1018, Bunche cablegram, 27 Sept 1948",
+     "url": "https://www.un.org/unispal/document/auto-insert-189552"
+    },
+    {
+     "title": "Jordanian–Israeli General Armistice Agreement, 3 April 1949 (Avalon Project)",
+     "url": "https://avalon.law.yale.edu/20th_century/arm03.asp"
+    }
+   ]
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "claim:15",
+  "severity": "style",
+  "problem": "Evidence can name the checked text.",
+  "fix": {
+   "evidence": "Israel–Jordan General Armistice Agreement, Arts. V(1)(b), VI(9) (Avalon text)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "eye:jones",
+  "severity": "doubt",
+  "problem": "The Times of Israel article confirms rediscovery about 2010 and excerpts to 25 May; that CMJ Israel made the full text available, and that the journal ends on 25 May because he posted it then, were not confirmed (ToI says only that he sent it once post to Amman resumed).",
+  "fix": {
+   "text_replace": {
+    "old": "published in excerpts by The Times of Israel in April 2012, with the full text made available by CMJ Israel. Jones posted his pages to London once mail to Transjordan resumed, which is why they end on 25 May.",
+    "new": "published in excerpts by The Times of Israel on 23 April 2012. The excerpts end on 25 May, when Jones recorded that post to Amman had been restored and sent his journal to London."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jerusalem-1948",
+  "where": "entry:10",
+  "severity": "style",
+  "problem": "The Hogan annotations report the refusal from de Reynier's memoirs without naming the 1950 book; the memorandum's own words hold the Agency 'severely to blame'.",
+  "fix": {
+   "text_replace": {
+    "old": "The refusal to sign is from his 1950 memoir, as reported in the annotations.",
+    "new": "The refusal to sign is from his memoirs, as reported in the annotations (presumably the 1950 book)."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "entry:22",
+  "severity": "error",
+  "problem": "In Satow (1921) ch. XXXI the line 'Sir Harry responded that religious toleration was a mark of civilization' belongs to Parkes's talk with Daté on landing (about 18 May), not to the 19 May Nishi Hongwanji meeting. Move the quote to entry 21.",
+  "fix": {
+   "quote": "",
+   "digest": "At a meeting at the Nishi Hongwanji with Yamashina no Miya, Sanjō, Date, Gotō, Kido and others, Parkes protested the notice. The ministers said they could not revoke the prohibition, but admitted that calling Christianity a 'pernicious sect' had been an error and agreed that the wording would be changed."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "entry:21",
+  "severity": "style",
+  "problem": "Quote checked against Satow (1921), ch. XXXI, in the Daté conversation (about 18 May 1868); pre-1929 English text.",
+  "fix": {
+   "quote": "Sir Harry responded that religious toleration was a mark of civilization"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "claim:7",
+  "severity": "error",
+  "problem": "The toleration remark is from 18 May (to Daté); 19 May is the meeting at which the ministers agreed to change the wording.",
+  "fix": {
+   "claim": "Ministers admit the 'pernicious sect' wording was an error and agree to change it; the prohibition stays"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "entry:23",
+  "severity": "doubt",
+  "problem": "Satow writes 'perhaps it was on this occasion' about the Ōkuma remark, so its tie to 24 May is his own uncertainty. Quote wording verified (ch. XXXI).",
+  "fix": {
+   "confidence": "approx",
+   "date_display": "24 May 1868, or near it (Satow: 'perhaps it was on this occasion')"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "eye:satow",
+  "severity": "style",
+  "problem": "Born June 1843, Satow was 24 in May 1868.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 25 in 1868",
+    "new": "aged 24 in May 1868"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "eye:kido",
+  "severity": "style",
+  "problem": "Born August 1833, Kido was 34 in mid-1868.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 35 in 1868",
+    "new": "aged 34 in mid-1868"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "entry:14",
+  "severity": "error",
+  "problem": "FRUS 1867 doc. 48 says Petitjean 'kindly gave me the following facts' on 27 July; it does not say the minister confirmed them with him. The governors told him the prisoners had not been beaten or tortured and had plenty to eat.",
+  "fix": {
+   "digest": "Writing to Seward, he relayed facts that Bishop Petitjean had given him on 27 July: a night arrest of men, women and children in a valley about four miles from Nagasaki. The governors told him the prisoners had not been beaten or tortured and had plenty to eat. He wrote to the ministers that the governor had acted on his own responsibility."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "tie:4",
+  "severity": "style",
+  "problem": "FRUS doc. 48 shows Petitjean supplying facts, not a confirmation.",
+  "fix": {
+   "note": "Petitjean gave the American minister the facts of the arrests, and the minister forwarded his letter to Washington."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "entry:16",
+  "severity": "error",
+  "problem": "The enclosed account (by the Abbé Girard, Nagasaki, 16 Sept 1867) says 65 were arrested on the night of 14 July; it gives changing figures for those still held (47, later 33; 110 at Ōmura). 'About 65 still held' is wrong.",
+  "fix": {
+   "text_replace": {
+    "old": "It said about 65 villagers were still held in cramped conditions, that promised releases had not happened,",
+    "new": "It said 65 Christians had been arrested on the night of 14 July, gave shifting figures for those still held in cramped conditions, said promised releases had not happened,"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "entry:16",
+  "severity": "style",
+  "problem": "FRUS identifies the author of the enclosure as the Abbé Girard; the minister's words were 'the present moment would be ill chosen'.",
+  "fix": {
+   "text_replace": {
+    "old": "an account written in Nagasaki in September by one of the French priests.",
+    "new": "an account dated Nagasaki, 16 September 1867, by the Abbé Girard of the French mission."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "entry:28",
+  "severity": "error",
+  "problem": "FRUS 1868 doc. 361 says about sixteen death sentences were 'reprieved in consequence of the representations made to the government', reported as information received; and that it would 'not be prudent to do more than has been done already'.",
+  "fix": {
+   "text_replace": {
+    "old": "About 16 death sentences had been commuted, which he credited to foreign pressure. He advised that the powers should do no more than keep urging a more humane policy.",
+    "new": "He had been informed that about sixteen had been sentenced to death and reprieved in consequence of the foreign representations. He judged it imprudent to do more than had been done, beyond urging the authorities persistently in a firm but friendly manner."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "entry:12",
+  "severity": "error",
+  "problem": "The digest rests on summaries, not on Takagi's Oboegaki (whose text and date of writing were not checked), so it is secondhand; the last sentence overstates.",
+  "fix": {
+   "source_kind": "secondhand",
+   "form": "later histories; Takagi's own memorandum not consulted",
+   "digest": "Imprisoned and tortured, the arrested villagers one by one promised to give up their faith. Takagi is recorded as the one who would not. He later wrote a memorandum (Oboegaki) of his experience, the only known account by one of the prisoners; its date of writing and text were not checked for this chapter."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "claim:4",
+  "severity": "error",
+  "problem": "Evidence is modern summaries, not Takagi's own text, and the 'official reports to Edo' are not cited; tag as secondhand.",
+  "fix": {
+   "form": "secondhand",
+   "written": "later histories drawing on magistrate's papers; Takagi's Oboegaki (date of writing not established)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "convergence:1",
+  "severity": "error",
+  "problem": "No source consulted shows how Takagi's memorandum tells the raid.",
+  "fix": {
+   "text_replace": {
+    "old": "Takagi's memorandum later tells it as a confession of faith;",
+    "new": "Takagi, arrested that night, later wrote his own memorandum, not read here;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "entry:9",
+  "severity": "style",
+  "problem": "The MLIT commentary romanises the parish temple as Seitokuji and says burials took place there without the monk; it gives no month and does not mention spies reporting to Edo.",
+  "fix": {
+   "text_replace": {
+    "old": "without calling the monk of Shōtokuji",
+    "new": "without calling the monk of Shōtokuji (romanised Seitokuji in the MLIT commentary)"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "entry:38",
+  "severity": "error",
+  "problem": "Sources differ on Tsuwano's total (153 or 154); the punishment device is described as a box about three feet (90 cm) on each side (sanjakurō), not a cage; the May 1871 inspection was not confirmed.",
+  "fix": {
+   "digest": "About 153–154 Urakami Christians were sent to Tsuwano (figures differ between accounts), and 37 of them are remembered as having died there, some after confinement in a box about three feet on each side (the sanjakurō). An inspection by a foreign-ministry official in 1871 is said to have brought some relief.",
+   "confidence": "approx",
+   "source_note": "Christian Today (2015) and Japan Travel / Religion Unplugged (154, 37 deaths); the 1871 inspection is from Christian Today only and was not confirmed."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "entry:43",
+  "severity": "doubt",
+  "problem": "Totals differ between sources and should be given as positions: MLIT gives 3,394 exiled, 613 dead and 2,911 returned (which do not add up); another MLIT commentary gives about 1,930 returned to Urakami; the English Wikipedia chronology gives 3,414 exiled and about 680 dead.",
+  "fix": {
+   "text_replace": {
+    "old": "Of about 3,394 exiled, some 613 were recorded as dead.",
+    "new": "Counts differ: the Japan Tourism Agency commentary gives about 3,394 exiled and 613 dead, other tallies 3,414 exiled and about 660–680 dead; figures for those who returned range from about 1,900 to 2,911."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "intro:1",
+  "severity": "style",
+  "problem": "Death figures range from 613 to about 680; 'about 600' understates.",
+  "fix": {
+   "text_replace": {
+    "old": "where about 600 died",
+    "new": "where more than 600 died"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "image:0",
+  "severity": "doubt",
+  "problem": "The Cultural Japan record (TNM) gives the date as 16th–17th century and CC BY 4.0 but does not state that this tablet was kept in the Nagasaki magistrate's storehouse.",
+  "fix": {
+   "text_replace": {
+    "old": "Kept in the Nagasaki magistrate's storehouse until the Meiji era.",
+    "new": "The Tokyo National Museum's fumi-e are generally said to come from the Nagasaki magistrate's office; the catalogue record itself does not say so."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "image:1",
+  "severity": "style",
+  "problem": "Record dates it 16th–17th century and gives CC BY 4.0.",
+  "fix": {
+   "date": "16th–17th century",
+   "credit": "Tokyo National Museum, via Cultural Japan (CC BY 4.0)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "image:2",
+  "severity": "style",
+  "problem": "Leiden record notes the scan is viewable on library premises only.",
+  "fix": {
+   "credit": "Leiden University Libraries, shelfmark 20448 (scanned from Mody 1969, pl. 204-2; viewable on library premises only)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "image:3",
+  "severity": "style",
+  "problem": "The MLIT commentary credits Ueno's photograph to Ezaki Bekkoten, Furet's drawing to the Paris Foreign Missions Society and the Villion illustration to Seijin Senketsu Isho.",
+  "fix": {
+   "credit": "Ueno Hikoma photograph (Ezaki Bekkoten); Furet drawing (Paris Foreign Missions Society); Aimé Villion, Histoire des martyrs du Japon (1926) (Seijin Senketsu Isho); reproduced in Japan Tourism Agency commentary 001561260"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "entry:4",
+  "severity": "doubt",
+  "problem": "MLIT 001561260 confirms 14 or 15 villagers, a woman of 'about 40 or 50', her words and the statue, and the 18 March letter, but gives no time of day; 'about midday' was not verified.",
+  "fix": {
+   "text_replace": {
+    "old": "About midday a group of fourteen or fifteen people",
+    "new": "A group of fourteen or fifteen people"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "claim:9",
+  "severity": "doubt",
+  "problem": "Kido's diary was not consulted, so 'written: 1868, Kido's diary' is unconfirmed.",
+  "fix": {
+   "written": "1868, government papers (Kido's diary not consulted); summarised in modern commentary"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "hidden-christians-1865",
+  "where": "entry:3",
+  "severity": "doubt",
+  "problem": "MLIT gives only 'February 1865' for the consecration; 19 February is the date in Japanese church chronologies.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ }
+]

@@ -1,0 +1,584 @@
+[
+ {
+  "chapter": "berlin-1961",
+  "where": "entry:7",
+  "severity": "doubt",
+  "problem": "The 13 August Abgeordnetenhaus speech text was not reached; the digest attributes specific wording ('unlawful and inhuman', appeals to both sides) that no checked source supports.",
+  "fix": {
+   "digest": "Brandt had travelled overnight from his election campaign and spoke on 13 August at a special session of the West Berlin parliament. General accounts describe him protesting the closure and urging Berliners to stay calm; the speech text was not checked, so its wording is not summarised here.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "berlin-1961",
+  "where": "entry:9",
+  "severity": "doubt",
+  "problem": "No reachable source confirms a separate Grass letter to Anna Seghers dated 14 August or its content; the checked copies of the Grass–Schnurre letter (16 Aug) name Seghers only among the Writers' Union board. Digest specifics (tanks, 'as she had once spoken against fascism') are unsupported.",
+  "fix": {
+   "digest": "Grass is reported to have written an open letter to Anna Seghers, chair of the GDR Writers' Union, in the first days after 13 August. Its date (given as 14 August) and wording were not checked against Richter's 1961 collection, so its content is not summarised here.",
+   "confidence": "approx",
+   "date_display": "Monday 14 August 1961 (date as given; not checked)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "berlin-1961",
+  "where": "entry:10",
+  "severity": "doubt",
+  "problem": "The digest rests on Leibing's photograph as described by the Deutsches Historisches Museum, not on Schumann's own later words; 'later firsthand' overstates the source.",
+  "fix": {
+   "source_kind": "secondhand"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1961",
+  "where": "claim:4",
+  "severity": "doubt",
+  "problem": "The record of the jump is another person's photograph and a museum's account; Schumann's interviews are not the source of the claim.",
+  "fix": {
+   "form": "secondhand"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1961",
+  "where": "entry:14",
+  "severity": "style",
+  "problem": "Brandt's rally speech text (willy-brandt-biografie.de PDF) confirms 'Berlin erwartet mehr als Worte' and his appeal to Volkspolizei, NVA and factory militia not to shoot their own countrymen; crowd estimates run 250,000–300,000.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Speech text, 16 August 1961 (willy-brandt-biografie.de, 'Rede_Brandt_Mauerbau_1961.pdf'); crowd about 250,000 per Stiftung Bundeskanzler-Adenauer-Haus, about 300,000 per the Brandt biography site; placards: TIME, 25 August 1961."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1961",
+  "where": "entry:14",
+  "severity": "style",
+  "problem": "Brandt's rally speech text (willy-brandt-biografie.de PDF) confirms 'Berlin erwartet mehr als Worte' and his appeal to Volkspolizei, NVA and factory militia not to shoot their own countrymen; crowd estimates run 250,000–300,000.",
+  "fix": {
+   "text_replace": {
+    "old": "he spoke directly to the East Berlin police not to fire on their own people.",
+    "new": "he spoke directly to the East German police, soldiers and factory militia at the line, telling them above all not to shoot at their own countrymen."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1961",
+  "where": "entry:18",
+  "severity": "error",
+  "problem": "An 11-word quote from a 1972 memoir exceeds the five-word limit for post-1928 publications; the headline repeats it in full.",
+  "fix": {
+   "quote": "",
+   "headline": "A wall, 'better than a war': a remark reported later"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1961",
+  "where": "entry:21",
+  "severity": "error",
+  "problem": "The note sets the unit against the division. They do not conflict: the 1st Battle Group, 18th Infantry, belonged to the 8th Infantry Division. The account rests on a Military.com profile and news reports, not on unit records. The Johns telephone call to the White House comes from that profile only.",
+  "fix": {
+   "source_kind": "secondhand",
+   "form": "news reports; later profile",
+   "source_note": "Military.com profile of Col. Glover S. Johns Jr. (about 1,500 men from Helmstedt on 20 August; his call to the White House), which names the 8th Infantry Division, of which the 1st Battle Group, 18th Infantry, was part; realtime1960s news summary of Johnson greeting 1,500 troops, 20 August. (A EUCOM page calls the unit '1st Battalion, 18th Infantry' and gives a crossing date of 18 August, at odds with the other accounts.)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "berlin-1961",
+  "where": "entry:26",
+  "severity": "doubt",
+  "problem": "The Chronik der Mauer says the press widely reported a 'fatal jump to freedom'; it does not single out one paper using that phrase.",
+  "fix": {
+   "text_replace": {
+    "old": "One called it a fatal jump to freedom.",
+    "new": "The press widely described it as a fatal jump to freedom; Bild called her death an indictment of the communist regime."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1961",
+  "where": "entry:29",
+  "severity": "doubt",
+  "problem": "Per the Chronik der Mauer the family learned of the death from the West Berlin 'Abendschau' on 26 August, the day after the arrest.",
+  "fix": {
+   "text_replace": {
+    "old": "The family learned that Günter was dead from a West Berlin television broadcast.",
+    "new": "The next day, 26 August, the family learned that Günter was dead from the West Berlin television programme 'Abendschau'."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1961",
+  "where": "claim:13",
+  "severity": "doubt",
+  "problem": "The television broadcast from which the family learned of the death was on 26 August, not 25 August.",
+  "fix": {
+   "date_display": "25–26 August 1961"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1961",
+  "where": "entry:33",
+  "severity": "error",
+  "problem": "Per the Chronik der Mauer, the wreath ('deprived of freedom') was laid outside her house after the burial by Ernst Lemmer and the Wedding district mayor. The condolences to her sister are not in the checked source.",
+  "fix": {
+   "text_replace": {
+    "old": "A wreath read that she had been deprived of freedom, and her sister, who lived a few streets away in the West, received official condolences.",
+    "new": "After the burial the federal minister Ernst Lemmer and the Wedding district mayor laid a wreath outside her house, inscribed 'deprived of freedom'."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1961",
+  "where": "entry:34",
+  "severity": "doubt",
+  "problem": "The first use of 'antifaschistischer Schutzwall' was not established by any source reached; an 'autumn 1961' start is not supported.",
+  "fix": {
+   "date_display": "1961 onward (first use not established)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "berlin-1961",
+  "where": "entry:37",
+  "severity": "doubt",
+  "problem": "FRUS spells the author 'Cates', but 'The Ides of August' (1978) is by Curtis Cate.",
+  "fix": {
+   "text_replace": {
+    "old": "Curtis Cates's history of the crisis, 'The Ides of August', reports",
+    "new": "Curtis Cate's history of the crisis, 'The Ides of August' (1978; 'Cates' in FRUS), reports"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "berlin-1961",
+  "where": "claim:14",
+  "severity": "doubt",
+  "problem": "Author is Curtis Cate (FRUS prints 'Cates'); book published 1978.",
+  "fix": {
+   "written": "1978, in Curtis Cate, 'The Ides of August' ('Cates' in FRUS); no other record found by FRUS"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "berlin-1961",
+  "where": "entry:24",
+  "severity": "style",
+  "problem": "Siekmann's death confirmed by the Chronik der Mauer: about 6:50 a.m., third-floor window, firemen's net, death on the way to the Lazarus hospital, day before her 59th birthday. Police journal entry 435 (logged 07.20) has 'eine männl. Person', so the 'man' mismatch is in the source.",
+  "fix": {
+   "source_note": "Chronik der Mauer biography by Christine Brecht, citing Berliner Morgenpost, Bild and Frankfurter Rundschau of 23 August 1961 and PdVP-Rapport Nr. 234 of 23 August 1961. The PdVP journal entry 435 (logged 07.20) records 'eine männl. Person'."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "entry:0",
+  "severity": "doubt",
+  "problem": "The Mises review quotes Burns as saying the President 'looked wild; talked like a desperate man' and 'fulminated with hatred against the press'. 'Close to irrational' is the compiler's gloss.",
+  "fix": {
+   "text_replace": {
+    "old": "Nixon struck him as agitated and close to irrational.",
+    "new": "Nixon looked wild to him, raged against the press and talked like a desperate man."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "entry:3",
+  "severity": "doubt",
+  "problem": "The tape number '273-20' does not appear on the Nixon Library almanac page and could not be checked. Haldeman also records that Connally proposed closing the gold window at once and holding the domestic measures until Monday.",
+  "fix": {
+   "source_note": "Haldeman diary, 12 Aug 1971, as summarised on the Nixon Library almanac page for that date (transcript file 37-hrhd-audiotape-ac12a-19710812)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "entry:3",
+  "severity": "doubt",
+  "problem": "The tape number '273-20' does not appear on the Nixon Library almanac page and could not be checked. Haldeman also records that Connally proposed closing the gold window at once and holding the domestic measures until Monday.",
+  "fix": {
+   "text_replace": {
+    "old": "and a warning that things were getting worse abroad.",
+    "new": "and a warning that things were getting worse abroad; he suggested closing the gold window at once and leaving the domestic measures until Monday."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "entry:5",
+  "severity": "error",
+  "problem": "As quoted by BullionStar, Volcker's text speaks of 'unspecified devaluation cover' and says 'the game was indeed over'. It does not mention gold; the link to gold is the blogger's inference.",
+  "fix": {
+   "text_replace": {
+    "old": "He writes that if Britain, the dollar's closest partner, was going to take gold for its dollars, the old game was over.",
+    "new": "He writes that after this it was clear the game was over; the request as he records it does not mention gold."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "claim:3",
+  "severity": "style",
+  "problem": "Volcker's wording as quoted is 'the game was indeed over'.",
+  "fix": {
+   "text_replace": {
+    "old": "'the game was over'",
+    "new": "'the game was indeed over'"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "entry:11",
+  "severity": "doubt",
+  "problem": "The Haldeman transcript adds that after Burns left, Nixon said he leaned towards Burns's view but needed Connally on board. Leaving that out makes the record one-sided.",
+  "fix": {
+   "text_replace": {
+    "old": "Nixon wanted Connally fully on board.",
+    "new": "After Burns left, Nixon said he leaned towards Burns's view but needed Connally fully on board."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "entry:12",
+  "severity": "style",
+  "problem": "The Nixon Library transcript confirms Burns argued for Sunday and the President first preferred Monday. Late that night the President told Haldeman Sunday was probably right.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Haldeman diary transcript, 13 Aug 1971 (Nixon Library, tape AC-12 A/B)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "entry:12",
+  "severity": "style",
+  "problem": "The Nixon Library transcript confirms Burns argued for Sunday and the President first preferred Monday. Late that night the President told Haldeman Sunday was probably right.",
+  "fix": {
+   "text_replace": {
+    "old": "In the end he spoke on Sunday night, before markets opened.",
+    "new": "Late that night he told Haldeman a Sunday announcement was probably right, and he spoke on Sunday night, before markets opened."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "entry:13",
+  "severity": "error",
+  "problem": "'Fewer than twenty people knew' is not in FRUS doc. 168 or Haldeman. Haldeman (15 Aug) says only Nixon and Connally knew the whole plan.",
+  "fix": {
+   "text_replace": {
+    "old": " Fewer than twenty people knew.",
+    "new": ""
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "entry:15",
+  "severity": "error",
+  "problem": "The Mises review does not say Burns regarded the closing as temporary. 'Temporary' in quotation marks is the reviewer's own comment. The review reports that Burns pledged full support despite reservations and wrote that the window had to be closed because the government lacked the capacity to act and lead.",
+  "fix": {
+   "text_replace": {
+    "old": "He favoured keeping the gold window open but accepted the decision to close it once it was taken. Reviewers note that he regarded the closing as temporary; it became permanent.",
+    "new": "He did not favour closing the gold window, but once the decision was taken he assured the President of his full support, writing elsewhere that the window had to be closed because the government lacked the capacity for action and leadership. The closing, announced as temporary, became permanent."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "entry:20",
+  "severity": "doubt",
+  "problem": "Per the transcript Nixon said Burns should put influential financial writers (Hobart Rowan, Ed Dale) ahead of his calls to bankers. The diary does not say Burns was sent to them.",
+  "fix": {
+   "text_replace": {
+    "old": "and Burns built up and sent to talk to the financial writers",
+    "new": "and Burns built up and urged to talk to leading financial writers before bankers"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "entry:24",
+  "severity": "doubt",
+  "problem": "FRUS doc. 170 says Volcker told the meeting Connally would be willing to host a small, informal meeting of ministers that weekend if there were a strong consensus. Volcker did not himself propose a 21–22 August meeting in Washington.",
+  "fix": {
+   "text_replace": {
+    "old": "He suggested an informal ministers' meeting in Washington on 21–22 August.",
+    "new": "He said Connally would be willing to host a small, informal ministers' meeting in the United States that weekend, 21–22 August, if there were a strong consensus for one."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "entry:29",
+  "severity": "style",
+  "problem": "The digest reads as if Asada recorded the $3.9 billion figure. The source note says it is from Jiji Press.",
+  "fix": {
+   "text_replace": {
+    "old": "For two weeks Tokyo had stayed open while the finance ministry and Bank of Japan bought some $3.9 billion to defend the old rate of 360.",
+    "new": "Tokyo had stayed open for two weeks; Jiji Press, not Asada, puts the dollars bought by the finance ministry and Bank of Japan to defend 360 at some $3.9 billion."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "entry:30",
+  "severity": "error",
+  "problem": "Asada's note dates the eight-point yen package to 4 June 1971 ('本年6月4日政府発表の「円対策8項目」'), not 6 June.",
+  "fix": {
+   "text_replace": {
+    "old": "the eight-point yen package of 6 June",
+    "new": "the eight-point yen package announced on 4 June"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "entry:33",
+  "severity": "error",
+  "problem": "Coombs reports Connally's remark and does not say he heard it. For Connally's words this is a secondhand, undated report. Popik finds earlier paraphrases ('It's their problem, not ours', Los Angeles Times, 12 March 1972), but Coombs (1976) is the earliest print of this wording.",
+  "fix": {
+   "source_kind": "secondhand",
+   "digest": "The most quoted line of the crisis, that the dollar was America's currency but other countries' problem, first appears in this form in Coombs's 1976 book, attributed to Connally. Coombs does not say when or where it was said, or whether he heard it himself. A Los Angeles Times report of March 1972 had paraphrased Connally's stance as 'their problem, not ours'. Later writers place the remark at the Rome meetings or at an earlier meeting with Europeans, without a contemporary report."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "claim:13",
+  "severity": "error",
+  "problem": "For Connally's remark, Coombs's undated report is secondhand.",
+  "fix": {
+   "form": "secondhand"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "entry:35",
+  "severity": "style",
+  "problem": "nippon.com quotes the diary ('相当高い切り上げで不況を招く事と思うが、大した事にならねばいいがと心配する') without a day, placing it in mid-December 1971. The digest matches; the dates are rightly 'about'.",
+  "fix": {
+   "source_note": "Satō Eisaku nikki, as quoted and paraphrased in nippon.com (Japanese); entry undated there (mid-December 1971). Not checked against the diary edition."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "entry:23",
+  "severity": "style",
+  "problem": "Haldeman's 16 August entry calls the market 'an all-time record, both in volume and in size of the gain'. The NY Fed Monthly Review (Sept 1971, p. 204) confirms the record 32.93-point Dow rise. The congressional leadership meeting was set for 17 August.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gold-1971",
+  "where": "entry:8",
+  "severity": "style",
+  "problem": "The letter is from Alan Bailey of HM Treasury to Robert Armstrong at 10 Downing Street, not from the Chancellor's office as such.",
+  "fix": {
+   "text_replace": {
+    "old": "A letter from the Chancellor of the Exchequer's office to Downing Street states",
+    "new": "A letter from HM Treasury (Alan Bailey) to the Prime Minister's private secretary, Robert Armstrong, states"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "private-books",
+  "where": "entry:26",
+  "severity": "error",
+  "problem": "This firsthand entry (Dick's own 1972 letter to the FBI) is filed under an eye whose role begins with 'No ... account found', which breaks the missing-voices rule. It belongs to Dick.",
+  "fix": {
+   "eye": "dick"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "private-books",
+  "where": "entry:32",
+  "severity": "error",
+  "problem": "This firsthand entry (Dick's own letter to Le Guin) is filed under an eye whose role begins with 'No ... account found', which breaks the missing-voices rule. It belongs to Dick.",
+  "fix": {
+   "eye": "dick"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "private-books",
+  "where": "entry:33",
+  "severity": "error",
+  "problem": "This firsthand entry (Dick's own letter to Claudia Bush) is filed under an eye whose role begins with 'No ... account found', which breaks the missing-voices rule. It belongs to Dick.",
+  "fix": {
+   "eye": "dick"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "private-books",
+  "where": "entry:35",
+  "severity": "error",
+  "problem": "This firsthand entry (Dick's own letter to Claudia Bush) is filed under an eye whose role begins with 'No ... account found', which breaks the missing-voices rule. It belongs to Dick.",
+  "fix": {
+   "eye": "dick"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "private-books",
+  "where": "entry:8",
+  "severity": "error",
+  "problem": "27 October 1913 is not the last letter of the published Freud/Jung correspondence: Jung's letter of 20 April 1914 ('Dear Mr. President', resigning the presidency) follows it (PEP-Web, Freud/Jung Letters p. 551).",
+  "fix": {
+   "text_replace": {
+    "old": "It is the last letter of their published correspondence.",
+    "new": "After it, the published correspondence holds only formal letters, such as Jung's of 20 April 1914 resigning the Association's presidency."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "private-books",
+  "where": "entry:9",
+  "severity": "doubt",
+  "problem": "The headline calls this the first black notebook, but the digest and the Black Books edition put the entry in Book 2. The Draft of Liber Novus also holds fantasies from October 1913, so 'first dated page of the private record' overstates.",
+  "fix": {
+   "headline": "A new black notebook: calling for his soul"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "private-books",
+  "where": "entry:9",
+  "severity": "doubt",
+  "problem": "The headline calls this the first black notebook, but the digest and the Black Books edition put the entry in Book 2. The Draft of Liber Novus also holds fantasies from October 1913, so 'first dated page of the private record' overstates.",
+  "fix": {
+   "text_replace": {
+    "old": "It is the first dated page of the private record that would become the Red Book.",
+    "new": "The entry opens the run of dated journal pages that Jung later worked into the Red Book."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "private-books",
+  "where": "eye:jung",
+  "severity": "doubt",
+  "problem": "Book 2, not the whole set of seven, begins on 12 November 1913; the edition is titled 1913–1932.",
+  "fix": {
+   "text_replace": {
+    "old": "The seven Black Books (12 November 1913 onward, with entries to at least 1932)",
+    "new": "The seven Black Books (1913–1932 in the published edition; the run that concerns this chapter opens in Book 2 on 12 November 1913)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "private-books",
+  "where": "entry:22",
+  "severity": "doubt",
+  "problem": "Jung's recollection has two moments: the inner voice saying 'it is art' at the start of the fantasies (late 1913), and a letter from the 'aesthetic' woman during the mandala sketches at Château-d'Oex, which the fan chronology dates to August 1917. Only the second fits the entry's date, and the dating comes from a fan chronology, not the edition.",
+  "fix": {
+   "date_display": "late 1913 (the voice) and about August 1917 (the letter), by Jung's later account",
+   "precision": "range"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "private-books",
+  "where": "entry:34",
+  "severity": "error",
+  "problem": "'None of those named knew' is not in the reproduced letter (Torn Branches) or in Culture.pl. The letter's date (2 Sept 1974), the enclosed Suvin letterhead, the names and the 'composite committee' wording are confirmed.",
+  "fix": {
+   "text_replace": {
+    "old": " None of those named knew.",
+    "new": ""
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "private-books",
+  "where": "entry:36",
+  "severity": "style",
+  "problem": "The Wikipedia article on the speech gives 24 September 1977 at the second Metz International Science Fiction Festival and describes a bewildered audience.",
+  "fix": {
+   "source_note": "Open Culture; Wikipedia article 'If You Find This World Bad, You Should See Some of the Others' (24 September 1977, second Metz International Science Fiction Festival)."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "private-books",
+  "where": "entry:39",
+  "severity": "style",
+  "problem": "Lance Owens places Shamdasani's inaugural presentation on the evening of 8 October 2009 at the New York Academy of Medicine.",
+  "fix": {
+   "place": "New York Academy of Medicine (inaugural presentation)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "private-books",
+  "where": "entry:32",
+  "severity": "doubt",
+  "problem": "The blog reports that Sutin cites this as a 1973 letter, while it is printed in Selected Letters 1974, p. 247. The letter's date is unsettled.",
+  "fix": {
+   "date_display": "early 1974 (letter's date unsettled; printed in Selected Letters 1974, p. 247)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "private-books",
+  "where": "threads_out:4",
+  "severity": "doubt",
+  "problem": "No documented link shows that Dick drew on Everett. The thread rests on a parallel of ideas, so it should not be called an echo.",
+  "fix": {
+   "text_replace": {
+    "old": "a popular, non-technical echo of the many-worlds idea that physics had produced two decades earlier.",
+    "new": "an idea that parallels, with no documented borrowing, the many-worlds interpretation proposed in physics two decades earlier."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "private-books",
+  "where": "entry:30",
+  "severity": "style",
+  "problem": "Sarill's blog comment says Tessa told him a reflective fish sticker on the wall, catching sunlight between 4 and 5 p.m., triggered the light. He adds that whether the delivery woman wore a necklace 'may never be known'. The digest should not make it sticker against pendant.",
+  "fix": {
+   "text_replace": {
+    "old": "As reported by the researcher Sarill, Tessa Dick said that the gleam came from sunlight on a reflective Christian fish sticker, not from a necklace.",
+    "new": "As reported by the researcher Sarill in a blog comment, Tessa Dick told him that the gleam came from sunlight on a reflective Christian fish sticker on the wall; whether the delivery woman wore a fish necklace, he adds, may never be known."
+   }
+  },
+  "confidence": "verified"
+ }
+]

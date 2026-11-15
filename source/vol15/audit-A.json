@@ -1,0 +1,616 @@
+[
+ {
+  "chapter": "dream-books",
+  "where": "intro:1",
+  "severity": "error",
+  "problem": "Descartes's two dated Latin notes do not survive only in Leibniz's hand: Adam–Tannery X prints them from Baillet's quotation of the Olympica (1691), and the 1620 note also appears in the 1650 Stockholm inventory; Leibniz's 1676 copy has a variant of the 1620 note.",
+  "fix": {
+   "text_replace": {
+    "old": "Descartes's dreams survive only through a biographer's paraphrase and two lines in Leibniz's handwriting.",
+    "new": "Descartes's dreams survive only through a biographer's paraphrase, with two dated Latin lines that the biographer and the 1650 inventory of his papers quoted from the lost notebook."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "intro:2",
+  "severity": "doubt",
+  "problem": "The Met's description of the 1225 sheet says only that Myōe met people he took for the three deities after the typhoon postponement; 'acceptance' of the ceremony is an interpretation not in the source.",
+  "fix": {
+   "text_replace": {
+    "old": "Myōe took a dream as the gods' acceptance of a postponed ceremony.",
+    "new": "Myōe met, in dreams, figures he took for the deities of a postponed ceremony."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "seam",
+  "severity": "style",
+  "problem": "'Most of these dreams reached us through someone else' overstates: Aristides, Myōe, Cardano, Dee, Pepys and Swedenborg survive in their own texts.",
+  "fix": {
+   "seam": "Each of these dreamers treated the night as a source of information about the day, and then checked it: against the body, a ceremony, a patient, a library, a year's work, or scripture. The ledger shows the other part of the story. Several of these dreams reached us through someone else, a copyist, a biographer, a hostile prosecutor or a librarian, and that person decided what counted. Like the cities of The City & the City that occupy the same ground, the dream record and the waking record sit side by side, and these diarists kept moving between them."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "calendar_note:0",
+  "severity": "doubt",
+  "problem": "No source was found for Swedenborg himself noting '15 May when the English date was 4 May'; the claim about his own annotation is unverified.",
+  "fix": {
+   "text_replace": {
+    "old": "Swedenborg in Holland used the New Style, noting that it was 15 May when the English date was 4 May.",
+    "new": "Swedenborg's journal dates are given as he wrote them; Holland used the New Style, eleven days ahead of England's Old Style in 1744."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "eye:asiye",
+  "severity": "doubt",
+  "problem": "Kafadar's title 'Mütereddit bir mutasavvıf' does mean a hesitant/wavering Sufi (DergiPark articles use it this way), but 'the record shows her questioning what the dreams meant' is not supported by any source consulted; hedge it as Kafadar's characterisation.",
+  "fix": {
+   "text_replace": {
+    "old": "Kafadar's title calls her a 'hesitant' or doubting mystic: the record shows her questioning what the dreams meant.",
+    "new": "Kafadar's title calls her a 'hesitant' (mütereddit) mystic, his characterisation of the uncertainty he found in her letters."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "eye:asiye",
+  "severity": "style",
+  "problem": "The 'only first-person narrative' description comes from Bozkurt and Günay-Erkol's 2014 abstract and should be dated.",
+  "fix": {
+   "text_replace": {
+    "old": "Described as the only first-person narrative by an Ottoman woman before the Tanzimat yet published.",
+    "new": "Described in 2014 (Bozkurt and Günay-Erkol) as the only published first-person narrative by a pre-Tanzimat Ottoman woman."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "entry:33",
+  "severity": "error",
+  "problem": "The sources consulted (DergiPark articles citing Kafadar; the 2014 CEEOL abstract) confirm only that she wrote her dreams as letters to her sheikh, 1641–1643; the specific claims that she meets holy figures and receives answers to waking questions are unverified.",
+  "fix": {
+   "digest": "Over about two years Asiye Hatun wrote her dreams down in letter form and sent them to her Sufi sheikh, so that he could judge what they meant. In Kafadar's reading the letters treat dreams as real communications between disciple, teacher and the divine; the detailed contents are known only from his edition."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "entry:34",
+  "severity": "error",
+  "problem": "The DergiPark article cites Kafadar for general Ottoman views (a Mesnevi passage ranking women's dreams below men's; an Ibn Arabi dream-book distrusting the dreams of the poor) but does not apply them to Asiye; the digest presents them as features of her record and adds that her dreams 'had to be tested' before they counted.",
+  "fix": {
+   "digest": "Kafadar titled his study of her letters 'a hesitant mystic', reading uncertainty and a wish for her sheikh's confirmation in them. Dream manuals of the period, which he also discusses, ranked women's dreams below men's and distrusted the dreams of the poor; how far those views shaped her own writing is a matter of interpretation."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "entry:13",
+  "severity": "doubt",
+  "problem": "The Met description does not say the dreams came 'that night' or that Myōe took them as acceptance of the dedication; it says that after the postponement he described two dreams in which he met people he interpreted as incarnations of the three deities.",
+  "fix": {
+   "text_replace": {
+    "old": "That night he had two dreams in which he met people he took to be those three deities in human form, as if the dedication had been accepted after all.",
+    "new": "He then described two dreams in which he met people he interpreted as those three deities in human form."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "claim:4",
+  "severity": "doubt",
+  "problem": "The Met does not say the sheet was written the same day; it records the date of the postponed ceremony and the dreams that followed.",
+  "fix": {
+   "written": "Soon after, on a dated dream-record sheet (Kōzanji; now Met 2014.719.4)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "entry:14",
+  "severity": "error",
+  "problem": "In Stoner's translation (ch. 37) Cardano reads the dream as foretelling the immortality of his name, his endless labours and imprisonment, and treats the boy as either a good spirit or, less favourably, his grandson; 'the ruin of his son' is not in the passage.",
+  "fix": {
+   "text_replace": {
+    "old": "his imprisonment and the ruin of his son.",
+    "new": "his imprisonment, and he wondered whether the boy stood for a good spirit or for his grandson."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "entry:15",
+  "severity": "doubt",
+  "problem": "The passage is in ch. 33 ('Dishonors'): Cardano found the child 'laboring in his last agonies' the next morning; the text as checked does not state that the boy died next day.",
+  "fix": {
+   "text_replace": {
+    "old": "The boy died next day, and Cardano credited the dream with saving him from blame.",
+    "new": "Next morning he found the boy in his last agonies, and Cardano credited the dream with saving him from the father's blame."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "entry:17",
+  "severity": "doubt",
+  "problem": "Ch. 37 (7 January 1558, Milan) has the city Bacchetta with palaces and a gilded house; an old woman says it has five palaces though he counts more than twenty, and he later came upon the gilded house in Rome. 'Decided the dream had shown him the last stage of his life' was not found.",
+  "fix": {
+   "text_replace": {
+    "old": "He dreamed of a festive city named Bacchetta, with a gilded house and five palaces. Years later, living in Rome, he found such a house and decided the dream had shown him the last stage of his life.",
+    "new": "He dreamed of a city of palaces named Bacchetta, with a gilded house; an old woman said it had five palaces, though he counted more than twenty. Years later, in Rome, he wrote that he had come upon the gilded house he had seen."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "eye:cardano",
+  "severity": "doubt",
+  "problem": "Cardano's 1562 book (Somniorum Synesiorum ... libri IV) is his own dream treatise titled after Synesius, not simply a commentary on Synesius.",
+  "fix": {
+   "text_replace": {
+    "old": "Cardano also published a commentary on Synesius' dream book (1562).",
+    "new": "Cardano also published his own dream treatise titled after Synesius, Somniorum Synesiorum (Basel, 1562)."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "tie:3",
+  "severity": "doubt",
+  "problem": "As above, the 1562 work is a dream book named after Synesius rather than a commentary on him.",
+  "fix": {
+   "note": "Cardano titled his own four-book dream treatise after Synesius (Somniorum Synesiorum, Basel, 1562)."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "tie:4",
+  "severity": "error",
+  "problem": "Per the Royal College of Physicians' study of Dee's books, Dee and Cardano met once in London in 1552 or 1553, and the evidence is Dee's annotation in his copy of Ficino's De vita (Folger), not a later recollection.",
+  "fix": {
+   "note": "Dee and Cardano met once in London, in 1552 or 1553, when Cardano was passing through on his way back from Scotland; Dee noted the meeting in an annotation in his copy of Ficino's De vita."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "eye:descartes",
+  "severity": "error",
+  "problem": "Adam–Tannery X prints the two dated notes ('X. Novembris 1619 ...' and 'XI. Novembris 1620 ...') from Baillet's quotations of the Olympica, and the 1620 note also from the 1650 Stockholm inventory (item C); Leibniz's copy of the Cogitationes privatae (dated 1 June 1676, printed by Foucher de Careil 1859–60) has a variant ('Anno 1620, intelligere cœpi ...').",
+  "fix": {
+   "text_replace": {
+    "old": "Two short dated Latin notes survive only in Leibniz's copy of c. 1676, printed by Foucher de Careil in 1859; the narrative of the dreams survives only in Baillet's French paraphrase (1691).",
+    "new": "Two short dated Latin notes survive because Baillet quoted them (1691), and the 1620 note also in the Stockholm inventory; Leibniz's copy of other private notes (Paris, 1 June 1676; printed by Foucher de Careil, 1859–60) preserves a variant of the 1620 note. The narrative of the dreams survives only in Baillet's French paraphrase."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "eye:leibniz",
+  "severity": "error",
+  "problem": "Leibniz's copy is not the only route for Descartes's dated words of November 1619 (Baillet quoted them); Foucher de Careil dates the copy to 1 June 1676.",
+  "fix": {
+   "text_replace": {
+    "old": "Dating of the copy to 1675–76 is approximate.",
+    "new": "Foucher de Careil dates the copy to 1 June 1676."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "eye:leibniz",
+  "severity": "error",
+  "problem": "Same issue in the bio.",
+  "fix": {
+   "text_replace": {
+    "old": "His extracts are the only route by which Descartes's own dated words about November 1619 reach us.",
+    "new": "His extracts preserve fragments of Descartes's private notes, including a version of the 1620 note; the 1619 line itself reaches us through Baillet."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "entry:25",
+  "severity": "error",
+  "problem": "Quote and source: Adam–Tannery X prints the line as 'X. Novembris 1619, cùm plenus forem Enthusiasmo, & mirabilis scientiae fundamenta reperirem' from Baillet's quotation of the Olympica, not from Leibniz's copy. Quote corrected to the AT printing (pre-1929, 1908).",
+  "fix": {
+   "quote": "X. Novembris 1619, cùm plenus forem Enthusiasmo, & mirabilis scientiae fundamenta reperirem",
+   "digest": "In his private notebook, the Olympica, Descartes dated the day he became full of enthusiasm and found the foundations of a wonderful science. The notebook is lost; the Latin line survives because Baillet quoted it in 1691.",
+   "source_note": "Olympica as quoted by Baillet (1691); Adam–Tannery X (1908)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "entry:27",
+  "severity": "error",
+  "problem": "Quote and source: AT X prints the margin note as 'XI. Novembris 1620, cœpi intelligere fundamentum Inventi mirabilis', from Baillet (who says it was added in later ink in Descartes's hand) and the 1650 inventory; Leibniz's copy reads differently ('Anno 1620, intelligere cœpi fundamentum inventi mirabilis').",
+  "fix": {
+   "quote": "XI. Novembris 1620, cœpi intelligere fundamentum Inventi mirabilis",
+   "source_note": "Margin note in the Olympica, quoted by Baillet (1691) and the Stockholm inventory (1650); Adam–Tannery X. Leibniz's copy has a variant.",
+   "digest": "A year and a day after the dreams, a note added in the margin of the same notebook, in later ink, says he began to understand the foundation of a wonderful discovery. The dreamer is checking the promise of the dream against his own progress."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "entry:38",
+  "severity": "error",
+  "problem": "Leibniz's copy did not include 'the two dated November notes' as given; it preserves a variant of the 1620 note. Foucher de Careil dates the copy 1 June 1676.",
+  "fix": {
+   "date_iso": "1676-06-01",
+   "date_display": "1 June 1676",
+   "precision": "day",
+   "digest": "In Paris, Leibniz copied extracts from Descartes's private notes held by Clerselier, including a version of the 1620 note about beginning to understand a wonderful discovery. Neither he nor anyone else copied the full Olympica, which was later lost.",
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "claim:8",
+  "severity": "error",
+  "problem": "The 1619 line survives through Baillet's quotation, not Leibniz's copy.",
+  "fix": {
+   "written": "At the time in the Olympica (lost); Latin quoted by Baillet, 1691; Adam–Tannery X, 1908"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "convergence:0",
+  "severity": "error",
+  "problem": "Same correction: the two-line note reaches us via Baillet (and the inventory), not Leibniz.",
+  "fix": {
+   "note": "One night reaches us through three hands: Descartes's own dated Latin lines, quoted by Baillet; Leibniz, who copied other fragments of the private notes in 1676; and Baillet's paraphrase of the lost full narrative. The firsthand lines record enthusiasm and a discovery; only the secondhand version tells the dreams."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "tie:1",
+  "severity": "doubt",
+  "problem": "Leibniz copied private notes from Clerselier's papers, but the dated November fragments as quoted in the chapter come from Baillet.",
+  "fix": {
+   "note": "Leibniz read Descartes's unpublished notes in Clerselier's keeping in Paris and copied extracts from them in 1676."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "entry:29",
+  "severity": "style",
+  "problem": "Lady Day year-start confirmed: in Prynne's 'An. 1626' section the January 14 and March 8 entries come after the December entries, before 'An. 1627'. Quotes checked against the EarlyPrint text.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "entry:30",
+  "severity": "style",
+  "problem": "Same: the March 8 entry falls at the end of Prynne's 'An. 1626' section, so 1626/7 is confirmed; quote checked.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "entry:32",
+  "severity": "style",
+  "problem": "Confirmed: January 24 follows the December entries in Prynne's 'Anno 1639' section, and the father (d. 1594) 'died 46. years since' fits 1640; the entry goes on 'I am not moved with dreams'. Quote checked.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "claim:11",
+  "severity": "style",
+  "problem": "Lady Day conversion confirmed (see entry 32).",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "entry:35",
+  "severity": "error",
+  "problem": "Prynne's Breviate dates the seizure exactly: the diary was 'found in his Pocket upon search of his Chamber in the Tower. May 31. 1643.' The source is Prynne's own note in his edition, not an official record.",
+  "fix": {
+   "date_iso": "1643-06-10",
+   "date_display": "31 May 1643 (O.S.)",
+   "precision": "day",
+   "confidence": "verified",
+   "source_kind": "later firsthand",
+   "digest": "With Laud a prisoner in the Tower, Prynne searched his chamber and carried off his papers to build the impeachment case. The Breviate notes that the diary was found in Laud's pocket during the search of 31 May 1643. Laud complained that even his private book of devotions was taken.",
+   "source_note": "Prynne, Breviate (1644), note on the finding of the diary; Laud's own later account of the search"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "eye:prynne",
+  "severity": "doubt",
+  "problem": "'The first time a set of dated dreams was printed in English to be read against the dreamer' is an unverified superlative.",
+  "fix": {
+   "text_replace": {
+    "old": "His edition is the first time a set of dated dreams was printed in English to be read against the dreamer.",
+    "new": "His edition is an early case of a set of dated private dreams printed in English to be read against the dreamer."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "entry:37",
+  "severity": "style",
+  "problem": "Pepys was up by four and walked to Greenwich; the dream came into his head at Captain Cocke's chamber, not on the walk.",
+  "fix": {
+   "text_replace": {
+    "old": "Walking to Greenwich at four in the morning, Pepys remembered a dream",
+    "new": "Up at four and walking to Greenwich, Pepys was reminded at Captain Cocke's of a dream"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "entry:40",
+  "severity": "style",
+  "problem": "Easter Sunday 1744 (Gregorian, used in Holland) fell on 5 April, so the night of 6–7 April is in Easter week, not Easter itself.",
+  "fix": {
+   "date_display": "Night of 6–7 April 1744 (Easter week)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "entry:41",
+  "severity": "doubt",
+  "problem": "The Public Domain Review essay quotes the 'impure to worldly reason, pure in reality' dream (no. 172) but gives no date; 24 April 1744 is unconfirmed.",
+  "fix": {
+   "confidence": "approx",
+   "date_display": "c. 24 April 1744"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "eye:swedenborg",
+  "severity": "doubt",
+  "problem": "The Public Domain Review says the journal was preserved by Swedenborg's family and bought by the Royal Library in 1858; the 1849 discovery date was not confirmed.",
+  "fix": {
+   "text_replace": {
+    "old": "it surfaced in 1849, was bought by the Royal Library in Stockholm in 1858",
+    "new": "it was preserved by his family, bought by the Royal Library in Stockholm in 1858"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dream-books",
+  "where": "entry:24",
+  "severity": "style",
+  "problem": "Baillet presents the Loreto vow as made while asking for guidance after the dreams, not as thanks; the headline says more than the digest.",
+  "fix": {
+   "headline": "A vow of pilgrimage to Loreto"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hildegard-1141",
+  "where": "entry:34",
+  "severity": "error",
+  "problem": "The quoted English phrase 'neither in sleep, nor in dream, nor in madness' is Singer's 1917 rendering (verified in his text) of the Scivias Protestificatio ('non eas in somnis, nec dormiens, nec in phrenesi'), not of the 1175 letter to Guibert. In the Guibert letter (ep. 103r) she says she sees with outward eyes open, never suffers the loss of ecstasy, and sees awake by day and night.",
+  "fix": {
+   "quote": "",
+   "digest": "Now past seventy, she answered that she had seen the vision in her soul since infancy. She saw it not with bodily eyes and ears, nor in the loss of consciousness of ecstasy, but awake and alert, with her outward eyes open, by day and night. The light she always saw she called the shadow of the living light; within it she sometimes saw a brighter light, the living light itself, and then all sadness left her.",
+   "source_note": "Hildegard to Guibert (CCCM 91A ep. 103r); description per Atherton and Fraboschi 2006. The phrase 'neither in sleep, nor in dream, nor in madness' belongs to the Scivias preface, not this letter."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hildegard-1141",
+  "where": "entry:1",
+  "severity": "style",
+  "problem": "Singer's 1917 translation of the Scivias preface (verified) gives an exact pre-1929 English phrase for this entry; the Latin age clause is confirmed (PL 197, 1855; Fraboschi 2006). Optional: cite PL 197 as the pre-1929 printing of the Latin.",
+  "fix": {
+   "source_note": "Scivias, Protestificatio (Latin, PL 197, 1855; CCCM 43); Latin text cited in Fraboschi, Stylos 15 (2006). The preface itself was written during or at the end of the ten-year composition, not on the day. The same preface says the visions came neither in sleep nor in dream nor in madness (Singer's 1917 translation)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hildegard-1141",
+  "where": "intro:4",
+  "severity": "error",
+  "problem": "Attribution: the 'never in sleep, dream or madness' formula is from the Scivias preface; to Guibert she said she saw awake, with eyes open, never in ecstasy.",
+  "fix": {
+   "text_replace": {
+    "old": "Her answer, that the light came while she was awake and never in sleep, dream or madness, is the fullest firsthand description of the experience.",
+    "new": "Her answer, that the light came while she was awake, with her eyes open and never in ecstasy, is the fullest firsthand description of the experience; the Scivias preface had already said the visions came neither in sleep nor in dream nor in madness."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hildegard-1141",
+  "where": "claim:12",
+  "severity": "error",
+  "problem": "The Guibert letter excludes ecstasy and stresses wakefulness; 'not in dream' is the Scivias wording.",
+  "fix": {
+   "claim": "She sees awake, eyes open, never in ecstasy, in the 'shadow of the living light'"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hildegard-1141",
+  "where": "threads_out:0",
+  "severity": "error",
+  "problem": "Attribution: the explicit 'not in sleep, nor in dreams' formula is in the Scivias preface; the Guibert letter stresses waking sight.",
+  "fix": {
+   "text_replace": {
+    "old": "Hildegard insisted to Guibert that her visions came neither in sleep nor in dreams",
+    "new": "Hildegard insisted in the Scivias preface that her visions came neither in sleep nor in dreams, and told Guibert she saw them wide awake"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hildegard-1141",
+  "where": "convergence:8",
+  "severity": "style",
+  "problem": "The 'neither in sleep nor dream nor madness' words are from the Scivias preface; Singer quoted them as something she 'repeatedly assures us'.",
+  "fix": {
+   "text_replace": {
+    "old": "She insisted the light came neither in sleep nor dream nor madness;",
+    "new": "In the Scivias preface she insisted the visions came neither in sleep nor dream nor madness;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hildegard-1141",
+  "where": "entry:0",
+  "severity": "error",
+  "problem": "The Scivias preface does not name Jutta: it says she told only a few religious persons, and the 'noble girl' it names as a witness is identified with Richardis. That Hildegard confided in Jutta comes from her autobiographical passages in the Vita.",
+  "fix": {
+   "digest": "Jutta of Sponheim, the anchoress who had raised her, died, and the enclosed women elected Hildegard to lead them. According to Hildegard's own recollections in the Vita, Jutta was the one person she had told about the visions, and Jutta told the monk Volmar. Hildegard was now responsible for a small community inside a men's monastery.",
+   "source_note": "Election as magistra from the Vita (Atherton chronology); Jutta as confidante per the autobiographical passages of the Vita, not the Scivias preface.",
+   "form": "Vita (with dictated memoir)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hildegard-1141",
+  "where": "entry:28",
+  "severity": "error",
+  "problem": "Elisabeth's letter (Roth 1884, III.19; Clark tr.) never names the day the punishment was due; the angel told her, on the Wednesday before Easter, not to be troubled if the things foretold did not happen on the day he had indicated. 'Did not come at Easter' goes beyond the text.",
+  "fix": {
+   "text_replace": {
+    "old": "when the predicted punishment did not come at Easter, she was mocked.",
+    "new": "when the punishment did not come on the day the angel had named, she was mocked."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hildegard-1141",
+  "where": "entry:25",
+  "severity": "style",
+  "problem": "Checked against Baird & Ehrman Letter 13: the fault 'was mine, not hers', her tearful longing for Hildegard's cloister, and 'love her as much as she loved you' are all present. 'Would have returned' slightly exceeds 'longing'.",
+  "fix": {
+   "text_replace": {
+    "old": "before her death she had longed for Hildegard's cloister and would have returned,",
+    "new": "before her death she had tearfully longed for Hildegard's cloister,"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hildegard-1141",
+  "where": "entry:22",
+  "severity": "style",
+  "problem": "Letter 64 (1151–52) checked in Baird & Ehrman: grief at Richardis's leaving and resolving to trust in the Lord rather than princes; the digest's 'high birth and worldly honour' is a paraphrase of that.",
+  "fix": {
+   "text_replace": {
+    "old": "She warned that trusting in high birth and worldly honour was dangerous.",
+    "new": "She wrote that she would now put her trust in God rather than in princes."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hildegard-1141",
+  "where": "entry:33",
+  "severity": "doubt",
+  "problem": "The phrase 'great trees are uprooted sooner' is a modern translation (Newman 1985) whose wording could not be checked; removed as a precaution.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "hildegard-1141",
+  "where": "entry:11",
+  "severity": "doubt",
+  "problem": "The phrase 'melodies of a new song' (modern translation) could not be checked against Atherton or Baird & Ehrman; removed as a precaution. Odo's letter is cited as 1148 in those translations.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "hildegard-1141",
+  "where": "entry:39",
+  "severity": "style",
+  "problem": "Checked: Singer's 1917 text has 'the medical reader or the sufferer from migraine will ... easily recognize the symptoms of scintillating scotoma'; Foxhall notes it was a four-page coda to a fifty-five-page chapter, revised in 1928 (From Magic to Science), and that Sacks (Migraine, 1970) took it up. 'While still treating her religious meaning as her own' was not checked; hedge it.",
+  "fix": {
+   "text_replace": {
+    "old": "while still treating her religious meaning as her own.",
+    "new": "in a short coda to a long chapter on her science."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "hildegard-1141",
+  "where": "eye:singer",
+  "severity": "style",
+  "problem": "Add the 1928 revision noted by Foxhall.",
+  "fix": {
+   "text_replace": {
+    "old": "building on a November 1913 lecture.",
+    "new": "building on a November 1913 lecture; revised in From Magic to Science (1928)."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hildegard-1141",
+  "where": "entry:4",
+  "severity": "style",
+  "problem": "Checked against Epistolae (B&E ep. 1, 1146–47): she told only one trusted monk, is untaught outwardly but taught inwardly, asks whether to speak or keep silent, and saw Bernard 'more than two years ago'. She also says silence had left her bedridden; could be added.",
+  "fix": {
+   "text_replace": {
+    "old": "She added that she had seen Bernard himself in a vision more than two years earlier.",
+    "new": "She added that she had seen Bernard himself in a vision more than two years earlier, and that keeping silent had left her ill in bed."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "hildegard-1141",
+  "where": "entry:29",
+  "severity": "style",
+  "problem": "The Epistolae page gives no date for the letter; the events it narrates run from 4 December 1154 to Easter 1155, so 1155 is an inference.",
+  "fix": {
+   "date_display": "1155 (letter undated; after Easter 1155)"
+  },
+  "confidence": "verified"
+ }
+]

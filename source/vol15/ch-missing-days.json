@@ -1,0 +1,1389 @@
+{
+ "id": "missing-days",
+ "title": "The Missing Days",
+ "short_title": "The Missing Days",
+ "subtitle": "The Gregorian reform and its adoptions: Rome, France, Britain and its colonies, Sweden, Japan and Russia, 1582–1918",
+ "span": "1582–1918",
+ "intro": [
+  "On the night of 4 October 1582 Teresa of Ávila died at Alba de Tormes, and the next morning in Catholic Spain was 15 October. A papal bull had removed ten days to bring the calendar back into line with the sun and with Easter. Over the next 336 years, country after country made the same change. Each time a whole society agreed to call tomorrow by a date eleven or thirteen days later.",
+  "This chapter is built mostly from official records, letters, almanacs and a few diaries, and the form tags say so. Its core is the record of what ordinary writers did on the switch day. In September 1752 the Massachusetts parson Ebenezer Parkman and John Wesley, riding through Ireland, simply skipped from the 2nd to the 14th. Wesley added one bracketed remark. Parkman noticed that the season seemed further on than the date and kept his birthday by the old reckoning. Bunin in Moscow in 1918 called the new date 'theirs' and kept his own.",
+  "Around them stand the people who made the change and the people who explained it. Gregory XIII decreed it. John Dee proposed a Protestant version in 1583, which the English bishops refused because it came from Rome. Chesterfield carried the British bill in 1751 and admitted to his son that he had not understood the astronomy. Franklin printed it for the colonies, Fukuzawa explained Japan's change in a pamphlet, and Ōkuma, years later, gave the budget reason. Montaigne wrote the first and best reflection: the calendar moved, the fields did not. A parish register in Ystad records a wedding on 30 February 1712, the one year Sweden had that day.",
+  "Two stories are tested against the record. The 'calendar riots' of 1752, with crowds crying 'Give us our eleven days', have no contemporary report behind them. Robert Poole traced the story to a placard in Hogarth's satire of the 1754 Oxfordshire election, later repeated as fact; it is entered here as legend. Japan's motive is the other case. Foreigners were told the change was modernisation, while Ōkuma later recalled that it spared the government a thirteenth month of salaries. Both reasons are recorded, each labelled by who gave it and when.",
+  "There are gaps. Teresa left no account of her last days; Ana de San Bartolomé's memory of them was written decades later. No firsthand record was found here of a Protestant German town's refusal of 1583–84, such as Strasbourg or the Augsburg calendar dispute. No diary of Ernest Satow or any other foreign resident in Japan was confirmed to mention the switch. Petrograd diaries of February 1918 by Zinaida Gippius and Alexander Blok were not found to mention the calendar. The eye for the Bolshevik decree is therefore an institution, not a person. The Earl of Macclesfield, who supplied the science in 1751, appears only through Chesterfield's letter."
+ ],
+ "calendar_note": "Every date in this chapter has two names. The Julian calendar (Old Style, O.S.) had drifted from the sun by ten days by 1582, eleven by 1700 and thirteen by 1900. The Gregorian (New Style, N.S.) removed the drift and dropped three leap days in every four hundred years. For sorting, date_iso gives each date in the Gregorian calendar, while date_display gives it as the people on the spot wrote it. Dates in Spain and Rome before 15 October 1582 are Julian, as historians cite them, so Teresa's 4 October is followed directly by 15 October. Britain and its colonies used the Old Style until 2 September 1752, and their legal year began on 25 March, so a date between 1 January and 24 March is written with both years: Dee's '26 February 1582/3' (Gregorian 8 March 1583) and Chesterfield's '18 March O.S. 1751', which was still legal 1750 (Gregorian 29 March 1751). Sweden's 30 February 1712 belongs to its own calendar, one day ahead of the Julian (Gregorian 11 March 1712). Japanese dates before 1873 are lunisolar: Meiji 5, 11th month, 9th day is 9 December 1872, and the 3rd day of the 12th month became 1 January 1873. Russian dates are Old Style until 31 January 1918; Bunin kept writing Old Style afterwards, so his '5 February' is Gregorian 18 February. Where a conversion is computed rather than printed, the source note says so.",
+ "eyes": [
+  {
+   "id": "gregory",
+   "short": "Gregory XIII",
+   "name": "Pope Gregory XIII (Ugo Boncompagni)",
+   "life": "1502–1585",
+   "role": "Pope since 1572, aged about 80 in 1582; issuer of the reform bull",
+   "side": "Catholic Church; Papal States",
+   "where": "Rome; the bull was given at Tusculum (Frascati)",
+   "lat": 41.902,
+   "lon": 12.457,
+   "waypoints": [
+    {
+     "lat": 41.807,
+     "lon": 12.68,
+     "label": "Tusculum/Frascati, bull given Feb 1582"
+    },
+    {
+     "lat": 41.902,
+     "lon": 12.457,
+     "label": "Rome, October 1582"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the authority who decreed the missing days",
+   "form": "papal bull (official record)",
+   "language": "Latin",
+   "authenticity": "Inter gravissimas survives in printed papal bullaria (e.g. Bullarium Romanum, Rome 1638, Library of Congress copy) and in the printed sheets of 1582. Its dating clause uses the Year of the Incarnation, so it reads 1581 although it was issued in February 1582 by modern reckoning. English text here is a modern Wikisource translation, so it is summarised, not quoted.",
+   "bio": "Gregory XIII did not design the reform; it rested on the scheme of the physician Aloysius Lilius, worked up by a commission that included the Jesuit Christopher Clavius. His contribution was authority: a bull binding on the Church and an appeal to Christian princes to follow. Everything in this chapter flows from the choice of which ten days to delete.",
+   "sources": [
+    {
+     "title": "Inter gravissimas, English translation (Wikisource)",
+     "url": "https://en.wikisource.org/wiki/Translation%3AInter_gravissimas"
+    },
+    {
+     "title": "Library of Congress, In Custodia Legis: Inter Gravissimas (Bullarium Romanum, 1638 copy)",
+     "url": "https://blogs.loc.gov/law/2013/01/inter-gravissimas-or-why-the-pope-is-never-late-for-tea/"
+    }
+   ]
+  },
+  {
+   "id": "ana",
+   "short": "Ana de S. Bart.",
+   "name": "Ana de San Bartolomé (Ana García Manzanas)",
+   "life": "1550–1626",
+   "role": "Discalced Carmelite lay sister, aged 32; Teresa of Ávila's nurse, secretary and travelling companion",
+   "side": "Spain; Discalced Carmelites",
+   "where": "Alba de Tormes, Salamanca, at Teresa's bedside",
+   "lat": 40.826,
+   "lon": -5.511,
+   "waypoints": [
+    {
+     "lat": 42.343,
+     "lon": -3.697,
+     "label": "Burgos foundation, 1582"
+    },
+    {
+     "lat": 40.826,
+     "lon": -5.511,
+     "label": "Alba de Tormes, Sept–Oct 1582"
+    },
+    {
+     "lat": 51.219,
+     "lon": 4.402,
+     "label": "Antwerp, later years (d. 1626)"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "at the deathbed on the night the calendar jumped",
+   "form": "memoir (written later)",
+   "language": "Spanish",
+   "authenticity": "Her autobiographical writings, preserved at Antwerp, were written decades after 1582; they were edited by Marcel Bouix (Paris, 1869–72) and translated by Darcy Donahue (Chicago, 2008). They are her own testimony but late, and shaped by the cause for Teresa's canonisation. Modern translation: summary only.",
+   "bio": "A shepherd's daughter from Almendral who learned to write in Teresa's service, Ana travelled with her on the last foundation journey and held her as she died. She later carried the Teresian reform to France and the Low Countries. Teresa herself left no account of her last days, so this chapter sees the most famous death of the reform's first night through Ana's later memory.",
+   "sources": [
+    {
+     "title": "Catholic Encyclopedia: Anne of St. Bartholomew",
+     "url": "https://www.newadvent.org/cathen/06378b.htm"
+    },
+    {
+     "title": "Ana de San Bartolomé, Autobiography and Other Writings, ed. and trans. Darcy Donahue (Chicago, 2008)",
+     "url": "https://chicagoreference.com/ucp/books/book/chicago/A/bo5780982.html"
+    },
+    {
+     "title": "ACI Prensa, Teresa de Jesús: últimos años",
+     "url": "https://www.aciprensa.com/recurso/3753/ultimos-anos"
+    }
+   ]
+  },
+  {
+   "id": "montaigne",
+   "short": "Montaigne",
+   "name": "Michel de Montaigne",
+   "life": "1533–1592",
+   "role": "Essayist and landowner, aged 49; Mayor of Bordeaux 1581–1585",
+   "side": "France; Catholic, moderate in the Wars of Religion",
+   "where": "Bordeaux and his château in Périgord",
+   "lat": 44.838,
+   "lon": -0.579,
+   "waypoints": [
+    {
+     "lat": 44.838,
+     "lon": -0.579,
+     "label": "Bordeaux, mayor, Dec 1582"
+    },
+    {
+     "lat": 44.882,
+     "lon": 0.03,
+     "label": "Château de Montaigne, writing Book III"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "a sceptic watching his neighbours ignore the decree",
+   "form": "essay (written later)",
+   "language": "French",
+   "authenticity": "The passage opens Essais III.11, 'Des boiteux', first printed in the 1588 Paris edition; Book III was written c. 1585–88. Quoted here from John Florio's English translation of 1603, which is public domain.",
+   "bio": "Montaigne was mayor of Bordeaux when France dropped ten days in December 1582. A few years later he used it to open an essay on how little humans know: the calendar changed, and nothing in the fields changed with it. His is the first literary reaction in this chapter and the first to point out that the sun had not been consulted.",
+   "sources": [
+    {
+     "title": "Montaigne, Essayes, trans. John Florio (1603), III.11 'Of the Lame or Cripple' (Renascence Editions)",
+     "url": "https://www.luminarium.org/renascence-editions/montaigne/3xi.htm"
+    }
+   ]
+  },
+  {
+   "id": "dee",
+   "short": "John Dee",
+   "name": "John Dee",
+   "life": "1527–1608/9",
+   "role": "Mathematician, astrologer and adviser to Elizabeth I, aged 55",
+   "side": "England; Protestant court",
+   "where": "Mortlake, Surrey, and the court",
+   "lat": 51.468,
+   "lon": -0.267,
+   "vantage": 2,
+   "vantage_label": "the Protestant expert whose reform was refused",
+   "form": "manuscript treatise (official proposal)",
+   "language": "English",
+   "authenticity": "His 'Playne discourse and humble advise ... concerning the needfull Reformation of the Vulgar Kalender' and a draft calendar for the 'Annus Reformationis' 1583 survive in the Bodleian Library (Ashmole MSS 179 and 1789). Never printed in his lifetime. Dates here follow the Dictionary of National Biography.",
+   "bio": "Dee accepted that the Julian calendar had drifted but argued that England should correct it to the time of Christ's birth, not to the Council of Nicaea, which meant removing eleven days rather than ten. He offered to compromise for uniformity with the Continent. The bishops rejected the whole scheme because it came from Rome, and England kept the old calendar for another 170 years.",
+   "sources": [
+    {
+     "title": "Dictionary of National Biography, vol. 14, 'Dee, John' (Wikisource page scan)",
+     "url": "https://kwx.liehendr.com/content/wikisource_en_all_maxi_2022-09/A/Page%3ADictionary_of_National_Biography_volume_14.djvu/280"
+    },
+    {
+     "title": "DNB vol. 14, Dee bibliography (Ashmole MSS 179 and 1789)",
+     "url": "https://kwx.liehendr.com/content/wikisource_en_all_maxi_2022-09/A/Page%3ADictionary_of_National_Biography_volume_14.djvu/284"
+    }
+   ]
+  },
+  {
+   "id": "ystad",
+   "short": "Ystad register",
+   "name": "Parish register of St Petri, Ystad (keeper not named)",
+   "life": "register entry 1712",
+   "role": "No surviving firsthand account found of what the clerk thought. The record is the parish register itself, whose keeper is not named in the source consulted.",
+   "side": "Sweden (then under Charles XII)",
+   "where": "Ystad, Scania",
+   "lat": 55.429,
+   "lon": 13.82,
+   "vantage": 1,
+   "vantage_label": "a church book that used a day that existed once",
+   "form": "parish register (official record)",
+   "language": "Swedish",
+   "authenticity": "The register entry is reproduced by Claus Tøndering from the Swedish National Archives (Riksarkivet). It records an ordinary marriage, not a comment on the calendar.",
+   "bio": "Sweden tried to reach the Gregorian calendar gradually by skipping leap days from 1700. It skipped only the first, gave up during the Great Northern War, and returned to the Julian calendar by adding a second leap day in 1712, so that year had a 30 February. Weddings, baptisms and burials still had to be dated, and the Ystad register shows a couple marrying on that day.",
+   "sources": [
+    {
+     "title": "Claus Tøndering, 'February 30' (almanac of 1712 and St Petri, Ystad register)",
+     "url": "https://tondering.dk/article/en/calendar/60-30feb.php"
+    }
+   ]
+  },
+  {
+   "id": "chesterfield",
+   "short": "Chesterfield",
+   "name": "Philip Dormer Stanhope, 4th Earl of Chesterfield",
+   "life": "1694–1773",
+   "role": "Statesman and wit, aged 56; introduced the calendar bill in the House of Lords",
+   "side": "Great Britain; Whig peer",
+   "where": "London, House of Lords",
+   "lat": 51.499,
+   "lon": -0.125,
+   "vantage": 0,
+   "vantage_label": "the peer who carried the bill",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "His letters to his son Philip Stanhope were published by the son's widow in 1774; this one is dated 'London, March 18, O. S. 1751' (Letter CXXXV in the Gutenberg arrangement). They are private letters written to instruct, so he dramatises his own skill as a speaker.",
+   "bio": "Chesterfield introduced the bill on 25 February 1751 (O.S.) and wrote to his son about it. He frankly admitted that he had not understood the astronomy and had won the House with style. The mathematician beside him, the Earl of Macclesfield, made the technical case. His letter is the plainest firsthand statement that a shared agreement could be changed by a vote that few of the voters understood.",
+   "sources": [
+    {
+     "title": "Chesterfield, Letters to His Son, 1751 (Project Gutenberg)",
+     "url": "https://www.gutenberg.org/cache/epub/3355/pg3355.html"
+    },
+    {
+     "title": "Encyclopaedia Romana: Chesterfield on the calendar bill",
+     "url": "https://penelope.uchicago.edu/encyclopaedia_romana/calendar/chesterfield.html"
+    },
+    {
+     "title": "History of Parliament: the calendar change of 1752 and the dating of Easter",
+     "url": "https://historyofparliament.com/2017/04/12/calendar-change-1752/"
+    }
+   ]
+  },
+  {
+   "id": "franklin",
+   "short": "Franklin",
+   "name": "Benjamin Franklin (as 'Richard Saunders')",
+   "life": "1706–1790",
+   "role": "Philadelphia printer, aged 45, publisher of the annual almanac Poor Richard Improved",
+   "side": "British colonies; Pennsylvania",
+   "where": "Philadelphia",
+   "lat": 39.95,
+   "lon": -75.146,
+   "vantage": 1,
+   "vantage_label": "the printer who made the new calendar on paper for the colonies",
+   "form": "almanac (printed annual)",
+   "language": "English",
+   "authenticity": "Poor Richard Improved for 1752 (B. Franklin and D. Hall, Philadelphia), edited in the Papers of Benjamin Franklin vol. 4 from the Yale copy. The widely repeated 'be not astonished ... pillow' passage does not appear in the Founders Online transcription and is not used here.",
+   "bio": "An almanac was the calendar most colonists actually owned. Franklin used the 1752 edition to explain the change in a 'Kind Reader' address, reprinted the Act, gave September only nineteen days, and added an Old Style column so readers could keep both reckonings side by side.",
+   "sources": [
+    {
+     "title": "Poor Richard Improved, 1752 (Founders Online, Papers of Benjamin Franklin vol. 4)",
+     "url": "https://founders.archives.gov/documents/Franklin/01-04-02-0082"
+    }
+   ]
+  },
+  {
+   "id": "parkman",
+   "short": "Parkman",
+   "name": "Ebenezer Parkman",
+   "life": "1703–1782",
+   "role": "Congregational minister of Westborough, Massachusetts, aged 48, recovering from a long illness",
+   "side": "British colonies; New England",
+   "where": "Westborough, Massachusetts",
+   "lat": 42.27,
+   "lon": -71.616,
+   "vantage": 1,
+   "vantage_label": "a country parson who slept through the gap",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Manuscript diary kept 1719–1782, held mainly by the American Antiquarian Society and the Massachusetts Historical Society; transcribed and published online, day by day, by the Ebenezer Parkman Project.",
+   "bio": "Parkman kept a daily diary for sixty years: weather, illness, farm work, visitors and sermons. His September 1752 pages simply stop on the 2nd and resume on the 14th. His first entry in the new style notes that the season seemed further on than the date, and two days later he kept his birthday by the old reckoning.",
+   "sources": [
+    {
+     "title": "The Diary of Ebenezer Parkman, September 1752 (Ebenezer Parkman Project)",
+     "url": "https://diary.ebenezerparkman.org/1752/09/"
+    },
+    {
+     "title": "Parkman diary, 14 September 1752",
+     "url": "https://diary.ebenezerparkman.org/1752/09/14/"
+    },
+    {
+     "title": "Parkman diary, 16 September 1752",
+     "url": "https://diary.ebenezerparkman.org/1752/09/16/"
+    }
+   ]
+  },
+  {
+   "id": "wesley",
+   "short": "Wesley",
+   "name": "John Wesley",
+   "life": "1703–1791",
+   "role": "Methodist leader and itinerant preacher, aged 49",
+   "side": "Great Britain and Ireland; Church of England / Methodist",
+   "where": "Touring southern Ireland: Cork, Waterford, Wexford, Dublin",
+   "lat": 52.259,
+   "lon": -7.11,
+   "waypoints": [
+    {
+     "lat": 51.898,
+     "lon": -8.475,
+     "label": "Cork, late August 1752"
+    },
+    {
+     "lat": 52.259,
+     "lon": -7.11,
+     "label": "Waterford, 2 September (O.S.)"
+    },
+    {
+     "lat": 52.676,
+     "lon": -6.294,
+     "label": "Gorey, 14 September (N.S.)"
+    },
+    {
+     "lat": 53.349,
+     "lon": -6.26,
+     "label": "Dublin, 17–18 September"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "on the road in Ireland when the days vanished",
+   "form": "journal (published in parts)",
+   "language": "English",
+   "authenticity": "Wesley's Journal was published by him in instalments during his lifetime; the standard edition (Curnock) adds the footnote marking 2 September 1752 as the last Old Style day. Text from the Wesley Center Online edition.",
+   "bio": "Wesley's journal records sermons, roads and crowds almost every day. On the last Old Style day he heard Thomas Walsh preach in Irish in the Waterford market-house; on the next day he wrote, the 14th, he added a single bracketed remark about the new style and rode on. His near-silence is itself evidence of how quietly the change went.",
+   "sources": [
+    {
+     "title": "The Journal of John Wesley, vol. 4, part 9 (Wesley Center Online)",
+     "url": "https://wesley.nnu.edu/john-wesley/the-journal-of-john-wesley-vol-4/the-ninth-part-section-two/"
+    }
+   ]
+  },
+  {
+   "id": "hogarth",
+   "short": "Hogarth",
+   "name": "William Hogarth",
+   "life": "1697–1764",
+   "role": "Painter and engraver, aged 57–58; satirist of the 1754 Oxfordshire election",
+   "side": "Great Britain; London",
+   "where": "London, Leicester Fields",
+   "lat": 51.51,
+   "lon": -0.13,
+   "vantage": 3,
+   "vantage_label": "the satirist whose picture became the legend",
+   "form": "painting and engraving (satire)",
+   "language": "English",
+   "authenticity": "An Election Entertainment, first of the four Humours of an Election paintings (c. 1754–55; Sir John Soane's Museum), engraved 1755. A placard on the floor reads 'Give us our Eleven Days'. Robert Poole (1995) showed that the 'calendar riots' story rests largely on this image and later retellings, not on contemporary reports.",
+   "bio": "Hogarth painted the Whig side of the bitter 1754 Oxfordshire election, in which a son of the Earl of Macclesfield stood as a candidate. In the corner of the scene lies a captured Tory placard demanding the eleven days back. It was a joke about an election slogan. Later writers turned it into evidence of a riot.",
+   "sources": [
+    {
+     "title": "Robert Poole, '\"Give us our eleven days!\": calendar reform in eighteenth-century England', Past & Present 149 (1995) 95–139",
+     "url": "https://research.cumbria.ac.uk/en/publications/give-us-our-eleven-days-calendar-reform-in-eighteenth-century-eng/"
+    },
+    {
+     "title": "History of Parliament: the calendar change of 1752 and the dating of Easter",
+     "url": "https://historyofparliament.com/2017/04/12/calendar-change-1752/"
+    }
+   ]
+  },
+  {
+   "id": "delong",
+   "short": "De Long",
+   "name": "Charles E. De Long",
+   "life": "1832–1876",
+   "role": "United States Minister Resident in Japan, aged 40",
+   "side": "United States",
+   "where": "United States Legation, Japan (Yokohama–Tokyo)",
+   "lat": 35.444,
+   "lon": 139.638,
+   "vantage": 4,
+   "vantage_label": "foreign diplomat notified three weeks ahead",
+   "form": "diplomatic dispatch (official record)",
+   "language": "English",
+   "authenticity": "Dispatch No. 248, De Long to Secretary of State Hamilton Fish, 21 December 1872, received 23 January 1873, printed with enclosures (Soejima's note and De Long's reply) in Papers Relating to the Foreign Relations of the United States, 1873. US government publication, so quotable.",
+   "bio": "De Long was told of the change by a note from the Foreign Minister, Soejima Taneomi, giving him less than a fortnight's warning. His reply congratulated Japan on joining the Western calendar. He also flattered the court about the new era count from Emperor Jimmu printed on the 1873 calendars. His dispatch shows how the change was presented to foreigners: as modernisation, not as a budget measure.",
+   "sources": [
+    {
+     "title": "FRUS 1873, Part 1, vol. 1, No. 248: Mr. De Long to Mr. Fish, 21 December 1872",
+     "url": "https://history.state.gov/historicaldocuments/frus1873p1v1/d251"
+    }
+   ]
+  },
+  {
+   "id": "fukuzawa",
+   "short": "Fukuzawa",
+   "name": "Fukuzawa Yukichi",
+   "life": "1835–1901",
+   "role": "Educator and writer, aged 37, founder of Keiō Gijuku in Mita, Tokyo",
+   "side": "Japan; civilian reformer outside government",
+   "where": "Mita, Tokyo",
+   "lat": 35.649,
+   "lon": 139.742,
+   "vantage": 2,
+   "vantage_label": "the explainer who sold the change to the public",
+   "form": "pamphlet",
+   "language": "Japanese",
+   "authenticity": "Kaireki-ben (改暦弁, 'On the calendar reform'), printed by Keiō Gijuku to coincide with the change, early 1873; widely pirated. Exact day of publication not confirmed here.",
+   "bio": "Fukuzawa had travelled to the United States and Europe and had already written bestsellers on Western ways. When the government gave the country three weeks' notice, he wrote a short plain-language pamphlet explaining why a solar calendar was rational. He scolded those who opposed it and ended with instructions for reading a Western clock face.",
+   "sources": [
+    {
+     "title": "Keio University, Mita Hyoron: Fukuzawa and the Kaireki-ben",
+     "url": "https://www.keio.ac.jp/ja/about/public-relations/mita-hyoron/featured-topic/02-3-4/"
+    }
+   ]
+  },
+  {
+   "id": "okuma",
+   "short": "Ōkuma",
+   "name": "Ōkuma Shigenobu",
+   "life": "1838–1922",
+   "role": "Councillor (sangi) of the Meiji government, aged 34, closely involved in its finances",
+   "side": "Japan; Meiji government",
+   "where": "Tokyo",
+   "lat": 35.685,
+   "lon": 139.753,
+   "vantage": 0,
+   "vantage_label": "the official who later admitted the budget motive",
+   "form": "reminiscences (written later)",
+   "language": "Japanese",
+   "authenticity": "Ōkuma's account of the 1872 reform comes from 大隈伯昔日譚 (Ōkuma-haku sekijitsu-tan), reminiscences compiled from his own telling and published in the mid-1890s. It is later firsthand testimony from a senior participant, written more than twenty years after the event.",
+   "bio": "Ōkuma was one of the councillors handling the government's finances in the early 1870s. Decades later he recalled a reason the decree never stated. The lunisolar year Meiji 6 would have had thirteen months, so officials on monthly salaries would have been owed a thirteenth payment. Switching at once also let the government treat the two-day stub of the twelfth month of Meiji 5 as not worth a month's pay.",
+   "sources": [
+    {
+     "title": "Gendai Business: 12月3日、日本で太陽暦が採用される (1872)",
+     "url": "https://gendai.media/articles/-/58607"
+    },
+    {
+     "title": "大隈伯昔日譚 (NDL Search record)",
+     "url": "https://ndlsearch.ndl.go.jp/en/books/R100000002-I000000731671"
+    },
+    {
+     "title": "National Diet Library, 日本の暦: 明治改暦",
+     "url": "https://www.ndl.go.jp/koyomi/chapter1/s2.html"
+    }
+   ]
+  },
+  {
+   "id": "sovnarkom",
+   "short": "Sovnarkom",
+   "name": "Council of People's Commissars (Sovnarkom) of the RSFSR",
+   "life": "decree of 1918",
+   "role": "No single diarist: the Bolshevik government's collective decree, an institutional record",
+   "side": "Soviet Russia; Bolshevik government",
+   "where": "Petrograd, Smolny",
+   "lat": 59.946,
+   "lon": 30.396,
+   "vantage": 0,
+   "vantage_label": "the government that ordered thirteen days removed",
+   "form": "decree (official record)",
+   "language": "Russian",
+   "authenticity": "Decree 'On the introduction of the Western European calendar in the Russian Republic', adopted 24 January and signed/published 26 January 1918 (O.S.); sources differ on which date counts as its date. Printed in the official gazette and in Dekrety Sovetskoi vlasti.",
+   "bio": "The Bolsheviks adopted the reform that the Russian Orthodox Church and the tsarist state had refused for three centuries. They timed it for the start of a month, so that 31 January was followed by 14 February. The Church kept the Julian calendar for its feasts, so Russia lived with two calendars side by side from then on.",
+   "sources": [
+    {
+     "title": "Scientific Russia: 1918 decree 'On the introduction of the Western European calendar'",
+     "url": "https://en.scientificrussia.ru/historical-events/v-1918-g-podpisan-dekret-snk-rsfsr-o-vvedenii-v-rossijskoj-respublike-zapadnoevropejskogo-kalendara-2"
+    }
+   ]
+  },
+  {
+   "id": "bunin",
+   "short": "Bunin",
+   "name": "Ivan Alekseyevich Bunin",
+   "life": "1870–1953",
+   "role": "Writer and poet, aged 47, hostile to the Bolsheviks",
+   "side": "Russia; anti-Bolshevik intelligentsia",
+   "where": "Moscow",
+   "lat": 55.756,
+   "lon": 37.617,
+   "vantage": 1,
+   "vantage_label": "a hostile diarist in Moscow",
+   "form": "diary (revised for publication)",
+   "language": "Russian",
+   "authenticity": "Okayannye dni ('Cursed Days'), drawn from his 1918–19 diary notes, was published in the Paris émigré paper Vozrozhdenie in 1925–26 and as a book in Berlin in 1935–36. Bunin reworked the notes for publication, so wording may not be exactly what he wrote in 1918. Summary only.",
+   "bio": "Bunin, later the first Russian Nobel laureate in literature, kept notes in Moscow through the first winter of Bolshevik rule. He headed his first 1918 entry with an explicit 'old style'. When the new style came in, he recorded it with contempt in a single line before going on to literary gossip.",
+   "sources": [
+    {
+     "title": "Бунин, Окаянные дни (Azbyka.ru text)",
+     "url": "https://azbyka.ru/fiction/okayannye-dni/"
+    },
+    {
+     "title": "Бунин, Окаянные дни (Yandex Books text)",
+     "url": "https://books.yandex.ru/books/MKvYf8no/read-online"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1582-02-24",
+   "date_display": "24 February 1582 (Julian); dated in the bull 'the sixth day before the Kalends of March, year of the Incarnation 1581'",
+   "precision": "day",
+   "eye": "gregory",
+   "place": "Tusculum (Frascati), near Rome",
+   "headline": "The bull orders ten days cut from October",
+   "digest": "Gregory XIII's bull decreed that the ten days from 5 to 14 October 1582 inclusive would be removed, so that the day after the feast of St Francis (4 October) would be counted as 15 October. It also changed the leap-year rule, so that only century years divisible by 400 keep their leap day, and it fixed a new way of finding Easter. A clause told judges to extend any annual or monthly payment falling in the removed days by ten days, so that no one would lose by the change.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Inter gravissimas, Wikisource translation (dating clause and the ten-day and payments clauses); LoC copy in Bullarium Romanum (1638).",
+   "form": "papal bull",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1582-09-20",
+   "date_display": "about 20 September 1582",
+   "precision": "range",
+   "eye": "ana",
+   "place": "Alba de Tormes",
+   "headline": "An exhausting road ends at Alba de Tormes",
+   "digest": "After the Burgos foundation, the ailing Teresa was redirected to Alba de Tormes at the Duchess of Alba's request instead of going home to Ávila. Ana later remembered a badly planned journey: Teresa fainted on the road, and one night the party had only a few figs to eat. On arrival Teresa went straight to bed.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "ACI Prensa summary of Ana's account; date of arrival not confirmed in sources consulted.",
+   "form": "memoir (written later)",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1582-09-30",
+   "date_display": "late September or early October 1582",
+   "precision": "range",
+   "eye": "ana",
+   "place": "Alba de Tormes, Carmelite convent",
+   "headline": "'My daughter, the hour of my death has come'",
+   "digest": "A few days after arriving, Teresa told Ana that her hour had come. Fr Antonio de Heredia gave her the last sacraments and asked where she wished to be buried; Teresa answered drily, asking whether they would refuse her a hole in the ground there. Ana's account preserves these exchanges in Teresa's own Spanish.",
+   "quote": "ha llegado la hora",
+   "confidence": "approx",
+   "source_note": "ACI Prensa, 'Últimos años', quoting Ana de San Bartolomé's account.",
+   "form": "memoir (written later)",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1582-10-04",
+   "date_display": "Thursday 4 October 1582, about 9 p.m. (Julian, the last Julian day in Spain)",
+   "precision": "day",
+   "eye": "ana",
+   "place": "Alba de Tormes, Carmelite convent",
+   "headline": "Teresa dies in Ana's arms on the last Julian night",
+   "digest": "Teresa of Jesus died at about nine in the evening, held by Ana. By the papal bull the next morning was 15 October, so anything recorded the following day is dated ten days after her death although only one night had passed. Ana's own account dwells on the death, not on the calendar. The ten-day gap is visible only in the dates that later writers attached to it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ACI Prensa (hour of death); Catholic Encyclopedia, 'Anne of St. Bartholomew' (died in her arms); bull for the date sequence.",
+   "form": "memoir (written later)",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1582-10-15",
+   "date_display": "Friday 15 October 1582 (first Gregorian day in Rome, Spain, Portugal and Poland–Lithuania)",
+   "precision": "day",
+   "eye": "gregory",
+   "place": "Rome",
+   "headline": "The first Gregorian morning",
+   "digest": "In Rome and in the realms that obeyed at once, Thursday 4 October was followed by Friday 15 October; the weekday sequence was not broken. Only a handful of Catholic states were ready in time; France, the Catholic Netherlands and others followed in the winter, and Protestant states refused. Teresa's later feast day, 15 October, falls on the first day of the new calendar.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Inter gravissimas (date sequence); feast date per Vatican and Carmelite calendars.",
+   "form": "papal bull",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1582-12-20",
+   "date_display": "9 December 1582 followed by 20 December 1582 (France)",
+   "precision": "day",
+   "eye": "montaigne",
+   "place": "Bordeaux",
+   "headline": "France drops ten days while Montaigne is mayor",
+   "digest": "France applied the reform two months late, by royal edict of Henri III, jumping from 9 to 20 December. Montaigne, then mayor of Bordeaux, left no dated note of the day itself. What survives is his reflection a few years later, which treats the event as something that should have upset everything and did not.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Montaigne's own dated note does not survive; the French date sequence is the standard one for Henri III's edict and is not checked against the edict text here.",
+   "form": "essay (written later)",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1583-03-08",
+   "date_display": "26 February 1582/3 (Old Style; Gregorian 8 March 1583)",
+   "precision": "day",
+   "eye": "dee",
+   "place": "Mortlake / court of Elizabeth I",
+   "headline": "Dee hands Burghley a Protestant reform",
+   "digest": "Dee delivered his treatise to Lord Burghley. He argued that the calendar should be corrected to the sun's place at the birth of Christ, which meant dropping eleven days, not the Pope's ten. For the sake of agreement with the Continent he offered to accept ten, but he wanted the true reckoning published. Thomas Digges, Henry Savile and Mr Chambers checked his figures and approved them.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DNB vol. 14, 'Dee, John' (date 26 Feb. 1582–3, Burghley, Digges, Savile, Chambers).",
+   "form": "manuscript treatise",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1583-04",
+   "date_display": "spring 1583",
+   "precision": "range",
+   "eye": "dee",
+   "place": "Lambeth / court",
+   "headline": "The bishops refuse a calendar that came from Rome",
+   "digest": "The government consulted Archbishop Grindal and Bishops Aylmer, Piers and Young. They unanimously advised rejecting the scheme, chiefly because it had come from the see of Rome. A bill was introduced in the Lords on 16 March 1584/5 but went no further after its second reading. England stayed on the Julian calendar until 1752.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "DNB vol. 14 (bishops' advice, undated here); History of Parliament blog (1584/5 bill). Bishops' letter is known through later accounts, not seen.",
+   "form": "administrative record",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1583-05",
+   "date_display": "1583 (planned 'Annus Reformationis', May–December)",
+   "precision": "month",
+   "eye": "dee",
+   "place": "Mortlake",
+   "headline": "A draft calendar that skips days through the summer",
+   "digest": "Dee drew up a calendar for the 'year of reformation' 1583 that cut the excess days in small steps from May onward instead of in one jump. That way no single feast or rent day would vanish all at once. The draft survives among his manuscripts. It was never used.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "DNB vol. 14 bibliography, item 16 (Ashmol. MS. 1789, iii); the manuscript itself was not inspected.",
+   "form": "manuscript calendar",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1588",
+   "date_display": "1588 (Essais, Book III, Paris edition); written c. 1585–88",
+   "precision": "year",
+   "eye": "montaigne",
+   "place": "Château de Montaigne / Paris printing",
+   "headline": "'Nothing remooveth from it's owne place'",
+   "digest": "Montaigne opened his essay on the lame with the calendar change. He expected the reform to unsettle everything, then noted that nothing had moved: his neighbours kept sowing, harvesting and counting their lucky and unlucky days by the same seasons as before. He used it to argue that human reckonings are approximations laid over a world that does not notice them.",
+   "quote": "TWO OR three yeares are now past since the yeere hath beene shortned tenne dayes in France. Oh how many changes are like to ensue this reformation! It was a right remooving of Heaven and Earth together, yet nothing remooveth from it's owne place:",
+   "confidence": "verified",
+   "source_note": "Florio (1603), Essayes III.11, Renascence Editions text; French original 1588.",
+   "form": "essay",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1712-03-11",
+   "date_display": "30 February 1712 (Swedish calendar; Julian 29 February; Gregorian 11 March 1712)",
+   "precision": "day",
+   "eye": "ystad",
+   "place": "St Petri church, Ystad",
+   "headline": "A wedding on a day that happened once",
+   "digest": "The St Petri register records the marriage of Svven Hall of Jordbärga and Elena Jäppdotter Duue on 30 February 1712. Sweden, having skipped the 1700 leap day and then abandoned its gradual plan, added an extra day to return to the Julian calendar. The almanac for that year prints the 30th as an 'added' day, with a weather forecast of snow.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Tøndering, 'February 30' (register image credited to Riksarkivet; 1712 almanac page).",
+   "form": "parish register",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1751-03-08",
+   "date_display": "25 February 1750/51 (Old Style; Gregorian 8 March 1751)",
+   "precision": "day",
+   "eye": "chesterfield",
+   "place": "House of Lords, Westminster",
+   "headline": "Chesterfield introduces the calendar bill",
+   "digest": "Chesterfield brought in a bill to begin the legal year on 1 January instead of 25 March and to bring the calendar into line with Europe. It had been prepared with the Earl of Macclesfield, the mathematician who would speak for it. The double year '1750/51' on documents of these weeks shows the old problem: by law the year 1750 ran until 24 March.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "History of Parliament blog (date of introduction).",
+   "form": "parliamentary record",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1751-03-29",
+   "date_display": "London, 18 March O.S. 1751 (Gregorian 29 March 1751)",
+   "precision": "day",
+   "eye": "chesterfield",
+   "place": "London",
+   "headline": "'I could just as soon have talked Celtic'",
+   "digest": "Chesterfield told his son how he had carried the bill. He admitted he could not follow the astronomy, so he gave the Lords an elegant history of calendars and took care over his delivery. Macclesfield, 'one of the greatest mathematicians and astronomers in Europe', then spoke with full knowledge but less polish. Chesterfield noted that the House unanimously gave the credit to him, which he admitted was unjust.",
+   "quote": "For my own part, I could just as soon have talked Celtic or Sclavonian to them as astronomy, and they would have understood me full as well",
+   "confidence": "verified",
+   "source_note": "Letters to His Son, Letter CXXXV, dated 'LONDON, March 18, O. S. 1751' (Gutenberg); passage as printed in Encyclopaedia Romana.",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1751-06-02",
+   "date_display": "22 May 1751 (Old Style; Gregorian 2 June 1751)",
+   "precision": "day",
+   "eye": "chesterfield",
+   "place": "Westminster",
+   "headline": "Royal assent: the Act for Correcting the Calendar",
+   "digest": "The Act (24 Geo. II c. 23) made 1 January the start of the year from 1752, so the legal year 1751 lasted only from 25 March to 31 December. It ordered that Wednesday 2 September 1752 be followed by Thursday 14 September. Interest, rents and other payments were to fall due on the natural day they would have reached, so that no one gained or lost eleven days' money.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Act text on legislation.gov.uk; date of royal assent is the standard one but was not checked against the Lords Journal here.",
+   "form": "statute",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1751-10",
+   "date_display": "autumn 1751, printed for the year 1752",
+   "precision": "range",
+   "eye": "franklin",
+   "place": "Philadelphia",
+   "headline": "Poor Richard explains the eleven lost days",
+   "digest": "Franklin's 'Kind Reader' address set out why the year had been altered: the Egyptian, Roman and Julian calendars, the true length of the solar year, Gregory's reform, and the drift that had grown to eleven days. He noted that the Protestant German states had already conformed and that the Quakers had agreed to follow, numbering their months. To make room, the almanac dropped most of its usual verses and reprinted the Act.",
+   "quote": "Since the King and Parliament have thought fit to alter our Year, by taking eleven Days out of September, 1752,",
+   "confidence": "verified",
+   "source_note": "Poor Richard Improved, 1752, Founders Online (Yale copy); month of printing approximate.",
+   "form": "almanac",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1752-09",
+   "date_display": "September 1752 (almanac page)",
+   "precision": "month",
+   "eye": "franklin",
+   "place": "Philadelphia",
+   "headline": "A September of nineteen days, with an Old Style column",
+   "digest": "The almanac's September table ran straight from Wednesday the 2nd to Thursday the 14th, giving the month nineteen days. In each monthly table Franklin added a column showing the corresponding Old Style dates. Readers could keep their old birthdays and contract days in sight beside the new ones.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Poor Richard Improved, 1752, Founders Online, editors' footnote 3.",
+   "form": "almanac",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1752-09-13",
+   "date_display": "Wednesday 2 September 1752 (Old Style; Gregorian 13 September), last Old Style day",
+   "precision": "day",
+   "eye": "parkman",
+   "place": "Westborough, Massachusetts",
+   "headline": "The last Old Style day: dull, heavy, visitors",
+   "digest": "Parkman, still weak from illness, described himself as dull and heavy. He listed visitors: Mr Stone and his wife, Mr Forbush from Brookfield, and his daughter. He wrote nothing about the calendar. The next entry in his diary is dated the 14th.",
+   "quote": "Somewhat dull and heavy.",
+   "confidence": "verified",
+   "source_note": "Parkman diary, 2 September 1752; editorial note that no entries exist for 3–13 September.",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1752-09-13",
+   "date_display": "Wednesday 2 September 1752 (Old Style; Gregorian 13 September)",
+   "precision": "day",
+   "eye": "wesley",
+   "place": "Waterford, Ireland",
+   "headline": "Preaching in Irish on the last Old Style day",
+   "digest": "At eleven o'clock Wesley's preacher Thomas Walsh began preaching in Irish in the Waterford market-house. Wesley recorded the crowd and the day's preaching as usual. The editor's footnote marks this as the last day of the Old Style; Wesley himself said nothing about it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Journal of John Wesley vol. 4, entry Sept. 2, 1752, and footnote (Wesley Center Online).",
+   "form": "journal",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1752-09-14",
+   "date_display": "Thursday 14 September 1752 (first New Style day)",
+   "precision": "day",
+   "eye": "parkman",
+   "place": "Westborough, Massachusetts",
+   "headline": "'Advanc'd into the Fall' beyond the date",
+   "digest": "Parkman recorded that he was still feeble but slowly mending; Mr Forbush was at the house preparing for the Sabbath, and his son Billy was cutting and stacking stalks. Frost had browned the bushes. He remarked that the season seemed further on than the date, even allowing for the eleven days just removed. It rained in the evening.",
+   "quote": "the Year is advanc'd into the Fall even more than in proportion to the alteration of the Date.",
+   "confidence": "verified",
+   "source_note": "Parkman diary, 14 September 1752.",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1752-09-14",
+   "date_display": "Thursday 14 September 1752 (first New Style day)",
+   "precision": "day",
+   "eye": "wesley",
+   "place": "Co. Wexford to Dublin, Ireland",
+   "headline": "One bracket for the new style",
+   "digest": "Wesley dated his entry the 14th and added a single parenthesis acknowledging the change. Then he went on with business: he rode to the bog of Boira and preached, then went on toward Gorey and Dublin. By the 17th and 18th he was in Dublin holding the first watch-night in the new preaching house.",
+   "quote": "(So we must call it now, seeing the New Style now takes place.)",
+   "confidence": "verified",
+   "source_note": "Journal of John Wesley vol. 4, entries Sept. 14–18, 1752.",
+   "form": "journal",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1752-09-16",
+   "date_display": "Saturday 16 September 1752 (5 September Old Style)",
+   "precision": "day",
+   "eye": "parkman",
+   "place": "Westborough, Massachusetts",
+   "headline": "A birthday kept by the old reckoning",
+   "digest": "Two days into the new calendar Parkman kept his birthday by the Old Style date, thanking God for 49 years of life. He copied in reflections written for his birthday on his illness and his hope to serve God better if restored. The rest of the day was ordinary: a painful thumb, a messenger from Concord about the next day's preacher, and medicine from Dr Scammell.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Parkman diary, 16 September 1752 (the transcription's ordinal for the Old Style day is unclear; the date relation is calculated).",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1755",
+   "date_display": "1755 (painting c. 1754–55; engraving published 1755)",
+   "precision": "year",
+   "eye": "hogarth",
+   "place": "London",
+   "headline": "A placard on the floor: 'Give us our Eleven Days'",
+   "digest": "Hogarth's An Election Entertainment shows Whig candidates feasting voters during the 1754 Oxfordshire election. On the floor lies a captured placard demanding the eleven days back. It is satire on an election slogan, not a report of a riot. No contemporary newspaper report of a calendar riot has been produced to match it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Poole (1995); History of Parliament blog (Hogarth's series as the main evidence).",
+   "form": "painting and engraving",
+   "source_kind": "legend"
+  },
+  {
+   "date_iso": "1820",
+   "date_display": "1820 (treason trial, retelling)",
+   "precision": "year",
+   "eye": "hogarth",
+   "place": "England, a courtroom",
+   "headline": "The joke becomes 'history' in a courtroom",
+   "digest": "At a treason trial in 1820, the prosecutor James Scarlett cited Hogarth's picture of a mob crying for its eleven days to portray crowds as ignorant. Poole opens his study with this moment, which shows the painting being cited as if it recorded a real event. From this kind of retelling came the textbook story of calendar riots, which has no contemporary record behind it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Poole, Past & Present 149 (1995), abstract (described there as a treason trial).",
+   "form": "courtroom speech (later citation)",
+   "source_kind": "legend"
+  },
+  {
+   "date_iso": "1872-12-09",
+   "date_display": "Meiji 5, 11th month, 9th day (lunisolar; Gregorian 9 December 1872)",
+   "precision": "day",
+   "eye": "okuma",
+   "place": "Tokyo, Dajōkan (Council of State)",
+   "headline": "Twenty-three days' notice: the old calendar abolished",
+   "digest": "An imperial rescript and Council of State proclamation abolished the lunisolar calendar. The 3rd day of the coming 12th month would become 1 January Meiji 6. The official reason was to align Japan with the Western world. Ōkuma, a councillor (sangi) of the government that stayed at home while the Iwakura mission was abroad, was one of its leading members when it was issued.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NDL 'Koyomi' (3 Dec Meiji 5 → 1 Jan Meiji 6; confusion); Keio Mita Hyoron (announcement 9 Nov lunisolar); Gendai Business (23 days' notice). Decree number (Dajōkan Fukoku 337) not confirmed here.",
+   "form": "imperial rescript and proclamation",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1872-12-20",
+   "date_display": "20 December 1872 (Gregorian; Meiji 5, 11th month, 20th day)",
+   "precision": "day",
+   "eye": "delong",
+   "place": "US Legation, Japan",
+   "headline": "The Foreign Minister's note reaches the Americans",
+   "digest": "Foreign Minister Soejima Taneomi informed the US Minister that the lunisolar calendar would be replaced by the 'Solar' one. The 3rd of the coming twelfth month would count as the first day of the first month. The note gave the foreign community less than two weeks' warning.",
+   "quote": "the 3d of the coming 12th month having been designated as the 1st of the 1st month",
+   "confidence": "approx",
+   "source_note": "FRUS 1873, No. 248, enclosure 1 (Soejima's note). Date inferred from De Long's 'yesterday'.",
+   "form": "diplomatic note",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1872-12-21",
+   "date_display": "21 December 1872 (Gregorian)",
+   "precision": "day",
+   "eye": "delong",
+   "place": "US Legation, Japan",
+   "headline": "De Long congratulates Japan and informs Washington",
+   "digest": "De Long reported to Secretary Fish that Japan had changed its calendar and adopted the American and European system. The same day he sent Soejima a warm reply. He praised the convenience of the reform and flattered the court about the era count from Emperor Jimmu printed on the new calendars. Nothing in the dispatch hints at a financial motive.",
+   "quote": "heartily congratulate you upon this reform, which, while it gives your government a more convenient system,",
+   "confidence": "verified",
+   "source_note": "FRUS 1873, No. 248 and enclosure 2.",
+   "form": "diplomatic dispatch",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1872-12-31",
+   "date_display": "Meiji 5, 12th month, 2nd day (Gregorian 31 December 1872)",
+   "precision": "day",
+   "eye": "okuma",
+   "place": "Tokyo",
+   "headline": "The twelfth month lasts two days",
+   "digest": "The 12th month of Meiji 5 ended after its second day. Officials paid monthly received no salary for a month that was only two days long, and the leap month that the lunisolar year Meiji 6 would have contained never came. Japanese and modern accounts give the total saving as about two months' pay for the government's salaried staff.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Gendai Business article (salary consequence; two months' total). The count depends on whether the leap month is included.",
+   "form": "administrative consequence",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1873",
+   "date_display": "1873",
+   "precision": "year",
+   "eye": "fukuzawa",
+   "place": "Tokyo and beyond",
+   "headline": "Pirated editions spread the explanation",
+   "digest": "The pamphlet sold so well that pirated editions appeared. People needed a cheap guide to a change the government had announced with little explanation. It became one of the earliest publications of Keiō and one of the main ways ordinary readers met the new calendar.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Keio Mita Hyoron (pirated editions).",
+   "form": "pamphlet",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1873-01",
+   "date_display": "early 1873 (Meiji 6)",
+   "precision": "month",
+   "eye": "fukuzawa",
+   "place": "Mita, Tokyo (Keiō Gijuku)",
+   "headline": "Kaireki-ben: why the sun is a better clock",
+   "digest": "Fukuzawa's short pamphlet explained in plain language why a solar calendar was needed and why even the Julian calendar had gone wrong. He attacked those who said the change was unnecessary as fools of the first order. He closed with a practical lesson in reading a Western clock face, which few Japanese households had yet used.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Keio University Mita Hyoron feature on Kaireki-ben; exact day of publication not confirmed.",
+   "form": "pamphlet",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1873-01-01",
+   "date_display": "1 January Meiji 6 (Gregorian 1 January 1873); formerly Meiji 5, 12th month, 3rd day",
+   "precision": "day",
+   "eye": "okuma",
+   "place": "Tokyo",
+   "headline": "The new year arrives a month early",
+   "digest": "Japan woke into Meiji 6. New Year, until then a festival tied to the turn of the lunisolar year, came almost a month early, with little time to prepare. The new printed solar calendars counted the year as 2533 from Emperor Jimmu's accession. Farmers, whose work followed the old months and solar terms, protested, and some called for the change to be reversed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NDL 'Koyomi' (date and confusion); Keio Mita Hyoron (farmers' protests); Edo-Tokyo Museum calendar for 1873.",
+   "form": "calendar in force",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1895",
+   "date_display": "mid-1890s (Meiji 28)",
+   "precision": "year",
+   "eye": "okuma",
+   "place": "Tokyo",
+   "headline": "Ōkuma recalls the salary motive",
+   "digest": "In his published reminiscences Ōkuma explained a reason the decree had not given. Adopting the solar calendar meant monthly-paid officials would get twelve payments a year, never thirteen. The government was short of money in 1872, and the calendar was one way to save it. This is a senior participant's own account, but it was told more than twenty years later.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "大隈伯昔日譚, as cited in the Gendai Business caption; publication year approximate.",
+   "form": "reminiscences (written later)",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1918-01-14",
+   "date_display": "1 January 1918 (Old Style; Gregorian 14 January)",
+   "precision": "day",
+   "eye": "bunin",
+   "place": "Moscow",
+   "headline": "Bunin heads his diary 'old style'",
+   "digest": "The first entry of what became Cursed Days is headed 1 January, with 'old style' added. Even before the decree, educated Russians were used to giving both dates, because Russia was thirteen days behind the rest of Europe. Bunin's label already places him on one side of a divided reckoning.",
+   "quote": "старого стиля",
+   "confidence": "verified",
+   "source_note": "Okayannye dni, opening heading (Azbyka text).",
+   "form": "diary (revised)",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1918-02-06",
+   "date_display": "24 January 1918 (Old Style; Gregorian 6 February)",
+   "precision": "day",
+   "eye": "sovnarkom",
+   "place": "Petrograd",
+   "headline": "Sovnarkom adopts the Western calendar",
+   "digest": "The Council of People's Commissars adopted the decree introducing the Western European calendar, to bring Russia into line with 'almost all cultural peoples'. The day after 31 January 1918 would be 14 February.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Scientific Russia (title, 31 Jan → 14 Feb); adoption date 24 Jan is the commonly cited one; dual-dating provision not confirmed here.",
+   "form": "decree",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1918-02-08",
+   "date_display": "26 January 1918 (Old Style; Gregorian 8 February)",
+   "precision": "day",
+   "eye": "sovnarkom",
+   "place": "Petrograd",
+   "headline": "The decree is signed and published",
+   "digest": "The decree was signed and published two days after adoption, giving the country about a week's notice. The Russian Orthodox Church declined to follow, so church feasts stayed on the Julian calendar. Christmas, which had been on 25 December, now fell on 7 January in civil reckoning.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Scientific Russia (signed 26 January O.S.; Church refusal).",
+   "form": "decree",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1918-02-14",
+   "date_display": "31 January 1918 (Old Style) followed by Thursday 14 February 1918 (New Style)",
+   "precision": "day",
+   "eye": "sovnarkom",
+   "place": "Russia",
+   "headline": "Thirteen days removed: 31 January, then 14 February",
+   "digest": "Russia went to bed on Wednesday 31 January and woke on Thursday 14 February. The dates 1–13 February 1918 never existed in Soviet civil life. The revolution of October 1917 was thus dated 7 November in the new style, though it kept its old name.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Scientific Russia (31 Jan → 14 Feb).",
+   "form": "decree in force",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1918-02-18",
+   "date_display": "5 February 1918 (Bunin's Old Style heading; Gregorian 18 February)",
+   "precision": "day",
+   "eye": "bunin",
+   "place": "Moscow",
+   "headline": "'By their reckoning it is already the 18th'",
+   "digest": "Bunin noted that the new style had been ordered from the first of February, so by the Bolsheviks' count it was already the 18th. He kept dating his diary the old way. In the same entry he went straight on to the previous evening's literary gathering, with Mayakovsky behaving with rough independence and Ehrenburg and Vera Inber reading their work.",
+   "quote": "новому стилю",
+   "confidence": "verified",
+   "source_note": "Okayannye dni, entry of 5 February (Azbyka and Yandex texts). Bunin later revised the diary for publication.",
+   "form": "diary (revised)",
+   "source_kind": "firsthand"
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1582-02-24",
+   "date_display": "24 February 1582",
+   "eye": "gregory",
+   "claim": "Ten days, 5–14 October 1582, are to be removed; payments falling due are extended",
+   "written": "1582, the bull itself, given at Tusculum",
+   "form": "official record",
+   "evidence": "Inter gravissimas (Bullarium Romanum; Wikisource translation)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1582-10-04",
+   "date_display": "4 October 1582, night",
+   "eye": "ana",
+   "claim": "Teresa of Ávila dies in Ana's arms on the last Julian night",
+   "written": "Decades later, Ana's autobiographical writings (manuscript at Antwerp)",
+   "form": "later firsthand",
+   "evidence": "Ana de San Bartolomé, Autobiography (ed. Bouix 1869–72; trans. Donahue 2008)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1582-12-20",
+   "date_display": "9 → 20 December 1582",
+   "eye": "montaigne",
+   "claim": "France removes ten days; the neighbours' farming goes on unchanged",
+   "written": "c. 1585–88, Essais III.11, printed Paris 1588",
+   "form": "later firsthand",
+   "evidence": "Florio translation 1603, III.11",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1583-03-08",
+   "date_display": "26 February 1582/3",
+   "eye": "dee",
+   "claim": "Dee proposes an English reform removing eleven days (or ten for uniformity)",
+   "written": "1582/3, Dee's own manuscript treatise, delivered to Burghley",
+   "form": "firsthand",
+   "evidence": "Bodleian, Ashmole MSS 179 and 1789; DNB vol. 14",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1583-04",
+   "date_display": "spring 1583",
+   "eye": "dee",
+   "claim": "Bishops reject the reform because it came from Rome",
+   "written": "1583 advice of the bishops, known through later accounts",
+   "form": "secondhand",
+   "evidence": "DNB vol. 14, 'Dee, John'",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1712-03-11",
+   "date_display": "30 February 1712 (Swedish)",
+   "eye": "ystad",
+   "claim": "A marriage is entered on 30 February",
+   "written": "1712, the St Petri parish register, Ystad, on the day",
+   "form": "official record",
+   "evidence": "Riksarkivet register image via Tøndering",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1751-03-29",
+   "date_display": "March 1751 (O.S.)",
+   "eye": "chesterfield",
+   "claim": "Chesterfield carries the bill on style, not astronomy; Macclesfield supplies the science",
+   "written": "18 March 1751 O.S., letter to his son, London; printed 1774",
+   "form": "firsthand",
+   "evidence": "Letters to His Son, Letter CXXXV",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1751-06-02",
+   "date_display": "22 May 1751 (O.S.)",
+   "eye": "chesterfield",
+   "claim": "Act fixes 2 September 1752 → 14 September and 1 January as New Year",
+   "written": "1751, the statute 24 Geo. II c. 23",
+   "form": "official record",
+   "evidence": "legislation.gov.uk",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1752-09-14",
+   "date_display": "14 September 1752",
+   "eye": "parkman",
+   "claim": "The season seems further on than even the corrected date",
+   "written": "14 September 1752, Parkman's diary, Westborough, same day",
+   "form": "firsthand",
+   "evidence": "Ebenezer Parkman Project transcription",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1752-09-14",
+   "date_display": "14 September 1752",
+   "eye": "wesley",
+   "claim": "Wesley notes the New Style in a single parenthesis",
+   "written": "1752 journal notes, published by Wesley in instalments",
+   "form": "firsthand",
+   "evidence": "Journal of John Wesley vol. 4",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1754-05",
+   "date_display": "Oxfordshire election, 1754",
+   "eye": "hogarth",
+   "claim": "Crowds demand 'Give us our eleven days' and riot",
+   "written": "1755 in Hogarth's satire; as 'riots' only in later retellings (1820 onward)",
+   "form": "legend",
+   "evidence": "Poole, Past & Present 149 (1995)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1872-12-09",
+   "date_display": "Meiji 5, 11th month, 9th day",
+   "eye": "okuma",
+   "claim": "Lunisolar calendar abolished; 3rd of 12th month becomes 1 January 1873",
+   "written": "1872, the imperial rescript and Council of State proclamation",
+   "form": "official record",
+   "evidence": "NDL 'Koyomi'; Keio Mita Hyoron",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1872-12-21",
+   "date_display": "21 December 1872",
+   "eye": "delong",
+   "claim": "Japan's change is presented to the US as a convenient modern reform",
+   "written": "21 December 1872, De Long's dispatch, printed FRUS 1873",
+   "form": "official record",
+   "evidence": "FRUS 1873, No. 248",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1873-01",
+   "date_display": "early 1873",
+   "eye": "fukuzawa",
+   "claim": "The solar calendar is rational and its opponents are fools",
+   "written": "1873, Kaireki-ben, Keiō Gijuku, Tokyo",
+   "form": "firsthand",
+   "evidence": "Keio Mita Hyoron",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1895",
+   "date_display": "mid-1890s, recalling 1872",
+   "eye": "okuma",
+   "claim": "The switch avoided paying officials a thirteenth month's salary",
+   "written": "mid-1890s, 大隈伯昔日譚 (reminiscences)",
+   "form": "later firsthand",
+   "evidence": "As cited by Gendai Business; NDL record",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1918-02-18",
+   "date_display": "5 February 1918 (O.S.)",
+   "eye": "bunin",
+   "claim": "By the Bolsheviks' new reckoning it is 'already the 18th'",
+   "written": "1918 notes, revised and published Paris 1925–26",
+   "form": "firsthand",
+   "evidence": "Okayannye dni",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1582-10-04",
+   "label": "The night of 4/15 October 1582",
+   "eyes": [
+    "gregory",
+    "ana"
+   ],
+   "note": "The bull describes the night as an administrative step from the feast of St Francis to 15 October. Ana's memory of the same night is Teresa's death, and she does not mention the jump. The ten-day gap between Teresa's death date and her feast day is the bull's doing, not anything Ana noticed."
+  },
+  {
+   "date": "1582-12-20",
+   "label": "Catholic Europe follows unevenly",
+   "eyes": [
+    "gregory",
+    "montaigne"
+   ],
+   "note": "Rome set one date for everyone; France came two months late. Montaigne's reaction was to see nothing changed: the decree moved the numbers and left the seasons where they were."
+  },
+  {
+   "date": "1583-03-08",
+   "label": "England answers Rome",
+   "eyes": [
+    "dee",
+    "gregory"
+   ],
+   "note": "Dee accepted the Pope's astronomy but not his anchor date, and was ready to compromise; the bishops refused on authority alone. The same error was acknowledged on both sides, and the agreement failed over who proposed it."
+  },
+  {
+   "date": "1751-03-29",
+   "label": "Parliament votes the change",
+   "eyes": [
+    "chesterfield",
+    "franklin"
+   ],
+   "note": "Chesterfield won the Lords without understanding the astronomy; months later Franklin printed the astronomy for colonists who would never hear the debate. One agreement was made by speechmaking and spread by an almanac."
+  },
+  {
+   "date": "1752-09-13",
+   "label": "Wednesday 2 September 1752, the last Old Style day",
+   "eyes": [
+    "parkman",
+    "wesley",
+    "franklin"
+   ],
+   "note": "A sick parson in Massachusetts records visitors; an itinerant preacher in Waterford records a sermon in Irish; Franklin's almanac has already printed the gap. None of the diarists marks the moment on the day."
+  },
+  {
+   "date": "1752-09-14",
+   "label": "Thursday 14 September 1752, the first New Style day",
+   "eyes": [
+    "parkman",
+    "wesley",
+    "franklin",
+    "chesterfield"
+   ],
+   "note": "Wesley allows the change one bracket; Parkman notices that the season seems ahead of the date. Two days later he keeps his birthday by the old reckoning. The law Chesterfield carried had foreseen exactly this, keeping rents and dues on their natural days."
+  },
+  {
+   "date": "1755",
+   "label": "The legend's source",
+   "eyes": [
+    "hogarth",
+    "chesterfield"
+   ],
+   "note": "The only 'protest' that survives in an image is a satirical placard in a painting of a Whig election feast. The reform Chesterfield had carried passed with no recorded uprising. Later writers needed a riot to make the change seem dramatic."
+  },
+  {
+   "date": "1872-12-21",
+   "label": "Japan's three-week calendar change",
+   "eyes": [
+    "okuma",
+    "delong",
+    "fukuzawa"
+   ],
+   "note": "Foreigners were told it was modernisation; the public got Fukuzawa's pamphlet on reason and clocks. Decades later Ōkuma said salaries had also been a motive. The three accounts give three different reasons for the same decree."
+  },
+  {
+   "date": "1918-02-14",
+   "label": "31 January, then 14 February 1918",
+   "eyes": [
+    "sovnarkom",
+    "bunin"
+   ],
+   "note": "The decree presents the change as joining the civilised world. Bunin records it as their reckoning and keeps his own; the Church keeps its own too. Russia was left with two calendars in use."
+  }
+ ],
+ "ties": [
+  {
+   "a": "gregory",
+   "b": "ana",
+   "kind": "influenced",
+   "note": "The bull's jump fell on the night Ana's mistress died, which is why Teresa died on 4 October but is kept on 15 October."
+  },
+  {
+   "a": "gregory",
+   "b": "montaigne",
+   "kind": "influenced",
+   "note": "France's December 1582 adoption of the bull gave Montaigne the opening of 'Des boiteux'."
+  },
+  {
+   "a": "gregory",
+   "b": "dee",
+   "kind": "opposite sides",
+   "note": "Dee's treatise was a Protestant answer to the bull: the same correction, anchored to Christ's birth rather than to Nicaea, and refused by the English bishops because it came from Rome."
+  },
+  {
+   "a": "dee",
+   "b": "chesterfield",
+   "kind": "influenced",
+   "note": "The DNB notes that Dee's unpublished treatise was much consulted when the new style was finally introduced in 1751–52."
+  },
+  {
+   "a": "ystad",
+   "b": "gregory",
+   "kind": "influenced",
+   "note": "Sweden's gradual approach to the Gregorian calendar failed, and the return to Julian gave the Ystad register its 30 February; Sweden finally adopted the reform in 1753."
+  },
+  {
+   "a": "chesterfield",
+   "b": "franklin",
+   "kind": "influenced",
+   "note": "Franklin reprinted the Act that Chesterfield carried and turned it into a printed calendar for the colonies."
+  },
+  {
+   "a": "chesterfield",
+   "b": "parkman",
+   "kind": "influenced",
+   "note": "The Act removed eleven days from a Massachusetts parson's diary as surely as from London's."
+  },
+  {
+   "a": "parkman",
+   "b": "wesley",
+   "kind": "same street",
+   "note": "Both kept daily records, born the same year (1703), and both crossed the same gap on the same two days, one in Westborough and one in southern Ireland."
+  },
+  {
+   "a": "hogarth",
+   "b": "chesterfield",
+   "kind": "mentioned",
+   "note": "Hogarth's placard 'Give us our Eleven Days' mocks opposition to the reform Chesterfield carried; the real 1754 Oxfordshire contest it satirised included the Earl of Macclesfield's son, Viscount Parker."
+  },
+  {
+   "a": "okuma",
+   "b": "fukuzawa",
+   "kind": "influenced",
+   "note": "Fukuzawa, outside government, wrote the explanation that the government's hurried decree lacked."
+  },
+  {
+   "a": "delong",
+   "b": "okuma",
+   "kind": "mentioned",
+   "note": "De Long received the government's official notice of the decree and praised it as modernisation, unaware of the financial motive Ōkuma later described."
+  },
+  {
+   "a": "sovnarkom",
+   "b": "bunin",
+   "kind": "opposite sides",
+   "note": "Bunin dated his diary by the old style the decree abolished, and called the new date 'theirs'."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v1:russia-1917",
+   "note": "The 'October' Revolution happened on 25 October 1917 by the Julian calendar, which this 1918 decree abolished; Russia-1917 diarists date their entries in the Old Style that ended on 31 January 1918."
+  },
+  {
+   "to": "v1:french-rev",
+   "note": "Revolutionary France tried a more radical change of the shared calendar in 1793, with ten-day weeks and new month names, and abandoned it in 1806. Seen against the Gregorian case, it shows how far a society will follow a new reckoning."
+  },
+  {
+   "to": "v2:black-ships",
+   "note": "The opening of Japan after Perry's ships of 1853–54 led to the Meiji reforms; the 1872 switch to the Western calendar was one of the clearest signs that Japan was adapting itself to Western systems."
+  },
+  {
+   "to": "clean-slates",
+   "note": "Each reform here had to say what happened to debts and wages in the missing days. The bull extended payments by ten days, the British Act kept rents on their natural days, and Meiji Japan saved two months' official salaries."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://blogs.loc.gov/law/2013/01/inter-gravissimas-or-why-the-pope-is-never-late-for-tea/",
+   "title": "Inter gravissimas in the Bullarium Romanum (Rome, 1638)",
+   "caption": "The Library of Congress copy of the printed bull that removed ten days from October 1582, shown on the Law Library's blog with a 1572 engraving of Gregory XIII. The blog's own summary misdates the British change; the image is the point.",
+   "date": "1582 (text); printed 1638",
+   "credit": "Library of Congress, Law Library"
+  },
+  {
+   "url": "https://tondering.dk/article/en/calendar/60-30feb.php",
+   "title": "The Swedish almanac for February 1712, with a 30th day",
+   "caption": "Two almanac pages for 'Februarius' 1712, the 30th marked 'Tillökad' (added) and forecast 'Snöö' (snow), with the St Petri, Ystad, register entry of a marriage on 30 February.",
+   "date": "1712",
+   "credit": "Swedish almanac; register image from Riksarkivet, via Claus Tøndering"
+  },
+  {
+   "url": "https://founders.archives.gov/documents/Franklin/01-04-02-0082",
+   "title": "Poor Richard Improved, 1752",
+   "caption": "Transcription of Franklin's almanac for the year of the change, with the 'Kind Reader' explanation and the editors' note on the nineteen-day September.",
+   "date": "1751 (for 1752)",
+   "credit": "Papers of Benjamin Franklin, Yale University; Founders Online"
+  },
+  {
+   "url": "https://museumcollection.tokyo/en/?p=6509380",
+   "title": "Solar Calendar for 1873 (明治六年太陽暦)",
+   "caption": "A printed Japanese solar calendar for Meiji 6, counting the year as the 2533rd since Emperor Jimmu's accession. Calendars like it had to be printed and sold within weeks of the decree.",
+   "date": "1872",
+   "credit": "Edo-Tokyo Museum, Tokyo Metropolitan Foundation for History and Culture"
+  },
+  {
+   "url": "https://www.ndl.go.jp/koyomi/chapter1/s2.html",
+   "title": "太陽暦 (Solar calendar, Meiji 6), National Diet Library",
+   "caption": "The NDL's exhibition page on the Meiji reform reproduces frames of a printed 1873 solar calendar from the Shinjō collection.",
+   "date": "1872",
+   "credit": "National Diet Library, Japan"
+  }
+ ],
+ "further": [
+  {
+   "title": "Robert Poole, '\"Give us our eleven days!\": calendar reform in eighteenth-century England', Past & Present 149 (1995) 95–139",
+   "url": "https://research.cumbria.ac.uk/en/publications/give-us-our-eleven-days-calendar-reform-in-eighteenth-century-eng/"
+  },
+  {
+   "title": "History of Parliament: the calendar change of 1752 and the dating of Easter",
+   "url": "https://historyofparliament.com/2017/04/12/calendar-change-1752/"
+  },
+  {
+   "title": "Inter gravissimas, English translation (Wikisource)",
+   "url": "https://en.wikisource.org/wiki/Translation%3AInter_gravissimas"
+  },
+  {
+   "title": "The Diary of Ebenezer Parkman, September 1752 (Ebenezer Parkman Project)",
+   "url": "https://diary.ebenezerparkman.org/1752/09/"
+  },
+  {
+   "title": "Calendar (New Style) Act 1750, 24 Geo. II c. 23 (legislation.gov.uk)",
+   "url": "https://www.legislation.gov.uk/apgb/Geo2/24/23/section/1./data.htm"
+  },
+  {
+   "title": "Keio University, Mita Hyoron: Fukuzawa and the Kaireki-ben",
+   "url": "https://www.keio.ac.jp/ja/about/public-relations/mita-hyoron/featured-topic/02-3-4/"
+  },
+  {
+   "title": "FRUS 1873, Part 1, vol. 1, No. 248: Mr. De Long to Mr. Fish, 21 December 1872",
+   "url": "https://history.state.gov/historicaldocuments/frus1873p1v1/d251"
+  }
+ ],
+ "vantage_key": "0 = those who decreed or carried the change; 1 = those who lived through the switch and wrote at the time; 2 = explainers and critics in the same country writing at a remove; 3 = makers and carriers of the later legend; 4 = foreigners told of it officially.",
+ "seam": "The records here are mostly unremarkable: a parson's visitors, a sermon in Irish, a wedding on 30 February, an almanac with a short September. That is the point. A date has no existence outside the agreement to use it, and when the agreement changed people moved with it in a single night. They noticed only in small ways: a season that seemed early, a birthday kept by the old count, a diarist who called the new date 'theirs'. Like the overlapping cities of Miéville's The City & the City, Russia after 1918 and Bunin's diary lived in two reckonings at once, and each side chose which one to see."
+}

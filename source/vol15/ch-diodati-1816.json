@@ -1,0 +1,1531 @@
+{
+ "id": "diodati-1816",
+ "title": "With Shut Eyes: The Haunted Summer at Lake Geneva",
+ "short_title": "Diodati, 1816",
+ "subtitle": "Villa Diodati and Maison Chapuis, Cologny, May–August 1816",
+ "span": "1816 (tellings to 1831)",
+ "intro": [
+  "In May 1816 two groups of English exiles arrived at the same hotel at Sécheron on Lake Geneva: Lord Byron with his young physician John Polidori, and Percy Shelley with Mary Godwin, their baby son and Mary's stepsister Claire Clairmont, who was pursuing Byron. By June Byron had taken the Villa Diodati on the hill at Cologny and the Shelleys a small house below it. The weather was dreadful. The year after the eruption of Tambora, Geneva's instruments recorded a summer several degrees colder than normal, with rain on far more days than usual and not one clear day in June.",
+  "Shut in by the rain, the friends read German ghost stories in French translation, talked late about the nature of life, and agreed to write ghost stories of their own. Byron began one and dropped it; Polidori's became The Vampyre (1819); Mary's became Frankenstein (1818). Monk Lewis, the most famous Gothic writer of the day, came in August and told tales of his own.",
+  "This chapter sets the records of that summer side by side, and they are uneven. The only day-by-day diary is Polidori's, and he stopped writing it daily on 30 June. Mary's journal for the ghost-story weeks is lost: for those weeks there is no surviving firsthand account by her, and the famous account of her waking vision was written in 1831, fifteen years later. Claire Clairmont's journal for 1816 does not survive either, and Lewis left no record of his visit. Much of what remains is dated letters, a preface, a poem, a dated fragment, and weather registers.",
+  "The record ledger therefore matters as much as the entries. It shows, for each event, when it was first written down: on the same night (Polidori on the Christabel scene), within weeks (Shelley's letter about nearly drowning), a year later (Percy's preface), three years later (the anonymous Geneva letter of 1819), or fifteen years later (Mary's Introduction). Even the night of the vision is a matter of argument: an astronomical study of 2011 placed it in the small hours of 16 June, when moonlight could have come through her shutters, while another chronology puts it about 22 June.",
+  "Beside the friends stand voices from outside the circle: Marc-Auguste Pictet's Geneva weather register and Heinrich Zschokke's weather diary in Aarau, which show the cold summer was real and nationwide; and, in London, Fanny Imlay's letters and William Godwin's diary, which record the cost of the summer when the travellers came home."
+ ],
+ "calendar_note": "All dates are Gregorian (New Style), the calendar in use in both Geneva and England in 1816. Where a source gives no day, or two firsthand sources disagree (Polidori dates the start of the lake tour to 22 June, Shelley to 23 June), the entry says so.",
+ "seam": "The new world of that summer came out of a vision Mary said she saw awake with her eyes shut — a private picture with no witness, written down fifteen years after the night. What can be checked are the things around it: a doctor's same-night diary, a register of grey skies, a poem about a dead sun, and friends feeding each other's fear by candlelight until one of them ran from the room. The ledger shows the gap between each night and its telling; the entries show how a mood shared by a few people, shut in by real rain, turned into a story others would believe. As in Le Guin's The Lathe of Heaven, the dream counts because it was told, and the telling came later.",
+ "eyes": [
+  {
+   "id": "polidori",
+   "short": "Polidori",
+   "name": "John William Polidori",
+   "life": "1795–1821",
+   "role": "Byron's salaried travelling physician, aged 20; newly qualified (Edinburgh MD 1815), with literary ambitions of his own",
+   "side": "England (Anglo-Italian family); Byron's household",
+   "where": "Hôtel d'Angleterre, Sécheron, then Villa Diodati, Cologny",
+   "lat": 46.2219,
+   "lon": 6.1747,
+   "waypoints": [
+    {
+     "lat": 46.2215,
+     "lon": 6.1495,
+     "label": "Sécheron hotel, from 25 May"
+    },
+    {
+     "lat": 46.2219,
+     "lon": 6.1747,
+     "label": "Villa Diodati, from 10 June"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "in the room, keeping the only day-by-day diary",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Polidori's diary was later copied, with passages removed, by his sister Charlotte; her copy was edited by his nephew William Michael Rossetti and published in 1911 (The Diary of Dr. John William Polidori, 1816). He dropped daily entries after 30 June and summed up July–August from memory around 5 September, so the high-summer weeks are a retrospect.",
+   "bio": "Hired by Byron's publisher circle to doctor the poet and paid extra to keep a journal, Polidori is the one witness who wrote the ghost-story nights down on the days they happened. His diary is touchy, vain and funny about himself, and it records the Christabel scene of 18 June that no one else wrote down at the time. The ghost story he began that week became The Vampyre (1819).",
+   "sources": [
+    {
+     "title": "The Diary of Dr. John William Polidori, ed. W. M. Rossetti (1911), Project Gutenberg #55017",
+     "url": "https://www.gutenberg.org/ebooks/55017"
+    },
+    {
+     "title": "Plain-text edition",
+     "url": "https://www.gutenberg.org/ebooks/55017.txt.utf-8"
+    }
+   ]
+  },
+  {
+   "id": "byron",
+   "short": "Byron",
+   "name": "George Gordon, 6th Baron Byron",
+   "life": "1788–1824",
+   "role": "Poet, aged 28, newly separated from his wife and in self-exile from England since April 1816; tenant of Villa Diodati",
+   "side": "England; the Diodati household",
+   "where": "Villa Diodati, Cologny; the lake tour with Shelley; the Bernese Oberland in September",
+   "lat": 46.2219,
+   "lon": 6.1747,
+   "waypoints": [
+    {
+     "lat": 46.2215,
+     "lon": 6.1495,
+     "label": "Sécheron, 25 May"
+    },
+    {
+     "lat": 46.2219,
+     "lon": 6.1747,
+     "label": "Diodati, 10 June"
+    },
+    {
+     "lat": 46.506,
+     "lon": 6.627,
+     "label": "Ouchy, 27–30 June"
+    },
+    {
+     "lat": 46.6242,
+     "lon": 8.0414,
+     "label": "Bernese Oberland, Sept"
+    },
+    {
+     "lat": 45.4408,
+     "lon": 12.3155,
+     "label": "Venice, 1819 letter"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the host who proposed the contest",
+   "form": "dated manuscripts, poems and letters",
+   "language": "English",
+   "authenticity": "The prose 'Fragment' carries the date 17 June 1816 and was printed with Mazeppa (1819). 'Darkness' is dated 'Diodati, July 1816' and was printed in The Prisoner of Chillon volume (December 1816). His letters are collected in Prothero's edition (1898–1901) and Marchand's (1973–94); some dates in this chapter are taken from those editions without a manuscript check.",
+   "bio": "Byron made the summer's mood and then left the most finished record of it in verse rather than prose. The one ghost story he started stopped after a few pages; his blackest piece from those weeks, 'Darkness', reads like the cold summer turned into an apocalypse. In 1819 he had to deny publicly that he wrote The Vampyre.",
+   "sources": [
+    {
+     "title": "The Vampyre (1819), with the anonymous 'Extract of a Letter from Geneva', Project Gutenberg #6087",
+     "url": "https://gutenberg.org/files/6087/6087-h/6087-h.htm"
+    },
+    {
+     "title": "Byron's September 1816 travel notes used as a weather test, Brönnimann 2020",
+     "url": "https://cp.copernicus.org/articles/16/1937/2020"
+    }
+   ]
+  },
+  {
+   "id": "pshelley",
+   "short": "P. B. Shelley",
+   "name": "Percy Bysshe Shelley",
+   "life": "1792–1822",
+   "role": "Poet, aged 23, living with Mary Godwin (they were not yet married) and their infant son William at Maison Chapuis, Montalègre",
+   "side": "England; the Shelley household",
+   "where": "Maison Chapuis below Diodati; the lake tour 23 June–1 July; Chamonix 21–27 July",
+   "lat": 46.2205,
+   "lon": 6.1765,
+   "waypoints": [
+    {
+     "lat": 46.2215,
+     "lon": 6.1495,
+     "label": "Sécheron, 13 May"
+    },
+    {
+     "lat": 46.2205,
+     "lon": 6.1765,
+     "label": "Maison Chapuis, June"
+    },
+    {
+     "lat": 46.4085,
+     "lon": 6.7225,
+     "label": "storm off Meillerie, late June"
+    },
+    {
+     "lat": 45.9237,
+     "lon": 6.8694,
+     "label": "Chamonix, 22 July"
+    },
+    {
+     "lat": 51.5705,
+     "lon": -0.7766,
+     "label": "Marlow, Sept 1817 preface"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the poet who fled the room",
+   "form": "dated letters, journal entries and a preface",
+   "language": "English",
+   "authenticity": "His two 1816 letters to T. L. Peacock (Montalègre, 12 July; Chamouni, 22 July) were printed, revised for publication, in History of a Six Weeks' Tour (November 1817). He wrote into the shared journal kept with Mary; his entry of 18 August 1816 survives. The 1818 Preface to Frankenstein, signed by neither, was written by Percy at Marlow, September 1817.",
+   "bio": "Shelley is seen most vividly through Polidori's eyes on 18 June and through his own when he nearly drowned on the lake a week later. He wrote the first published account of the story contest (the 1818 Preface), and his 18 August journal entry preserves the ghost tales Monk Lewis told at Diodati.",
+   "sources": [
+    {
+     "title": "History of a Six Weeks' Tour (1817), Project Gutenberg #52790",
+     "url": "https://gutenberg.org/files/52790/52790-h/52790-h.htm"
+    },
+    {
+     "title": "Shelley's journal, 18 Aug 1816, reprinted with text",
+     "url": "https://jayrothermel.substack.com/p/ghost-stories-of-percy-bysshe-shelley"
+    }
+   ]
+  },
+  {
+   "id": "mshelley",
+   "short": "Mary Godwin",
+   "name": "Mary Wollstonecraft Godwin (Mary Shelley)",
+   "life": "1797–1851",
+   "role": "Aged 18, daughter of William Godwin and Mary Wollstonecraft, unmarried partner of Percy Shelley and mother of a four-month-old son. For the ghost-story weeks (mid-May to 20 July 1816): No surviving firsthand account found — her journal for that span is lost, and the night of her vision is known only from her own account written in 1831.",
+   "side": "England; the Shelley household",
+   "where": "Maison Chapuis, Montalègre; Villa Diodati in the evenings; Chamonix in July",
+   "lat": 46.2205,
+   "lon": 6.1765,
+   "waypoints": [
+    {
+     "lat": 46.2215,
+     "lon": 6.1495,
+     "label": "Sécheron, 17 May letter"
+    },
+    {
+     "lat": 46.2205,
+     "lon": 6.1765,
+     "label": "Maison Chapuis, 1 June letter"
+    },
+    {
+     "lat": 45.9237,
+     "lon": 6.8694,
+     "label": "Chamonix, 24 July journal"
+    },
+    {
+     "lat": 51.3811,
+     "lon": -2.359,
+     "label": "Bath, autumn 1816"
+    },
+    {
+     "lat": 51.5072,
+     "lon": -0.1276,
+     "label": "London, 1831 introduction"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the dreamer, writing it down fifteen years later",
+   "form": "dated letters, journal (from 21 July), and a later introduction",
+   "language": "English",
+   "authenticity": "Her letters of 17 May and 1 June 1816 were printed in History of a Six Weeks' Tour (1817), possibly revised. The shared journal is missing from May to 20 July 1816 and resumes on 21 July (Bodleian, Abinger deposit; extracts printed by Marshall 1889; full edition Feldman & Scott-Kilvert 1987). Her account of the vision is the Introduction to the 1831 Frankenstein, dated London, 15 October 1831; its compressed chronology (story conceived the morning after the vision) does not fit Polidori's dated diary exactly and is treated by scholars as a recollection.",
+   "bio": "The central eye of the chapter is the one with the biggest hole in her record. What survives from the summer itself are two travel letters, then from 24 July a terse journal that says simply 'write my story'. The famous vision — seen 'with shut eyes' — exists only as a memory published fifteen years later, after Percy, Byron and Polidori were all dead.",
+   "sources": [
+    {
+     "title": "Frankenstein (1831 text with the author's Introduction), Project Gutenberg #42324",
+     "url": "https://gutenberg.org/files/42324/42324-h/42324-h.htm"
+    },
+    {
+     "title": "Letter of 1 June 1816 (Six Weeks' Tour), Romantic Circles / knarf",
+     "url": "https://knarf.english.upenn.edu/MShelley/sixlet02.html"
+    },
+    {
+     "title": "Frankenstein Chronology, Shelley-Godwin Archive",
+     "url": "https://shelleygodwinarchive.org/contents/frankenstein/frankenstein-chronology/"
+    },
+    {
+     "title": "Florence Marshall, Life and Letters of Mary W. Shelley (1889), Project Gutenberg #37955",
+     "url": "https://gutenberg.org/files/37955/37955-h/37955-h.htm"
+    }
+   ]
+  },
+  {
+   "id": "clairmont",
+   "short": "Claire",
+   "name": "Claire (Clara Mary Jane) Clairmont",
+   "life": "1798–1879",
+   "role": "Aged 18, Mary's stepsister; had begun an affair with Byron in London that spring and brought the Shelleys to Geneva to find him; pregnant by midsummer. Her own journal for 1816 does not survive (the surviving journals break off in 1815 and resume in 1818), so her summer is seen mostly through others.",
+   "side": "England; between the Shelley and Byron households",
+   "where": "Maison Chapuis; Villa Diodati, where she copied Byron's manuscripts",
+   "lat": 46.2205,
+   "lon": 6.1765,
+   "waypoints": [
+    {
+     "lat": 46.2215,
+     "lon": 6.1495,
+     "label": "Sécheron, May"
+    },
+    {
+     "lat": 46.2205,
+     "lon": 6.1765,
+     "label": "Maison Chapuis, June–Aug"
+    },
+    {
+     "lat": 51.3811,
+     "lon": -2.359,
+     "label": "Bath, Allegra born Jan 1817"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the go-between, mostly silent in her own hand",
+   "form": "dated letters (journal lost for 1816)",
+   "language": "English",
+   "authenticity": "Her letters to Byron, March 1816 to May 1820, are in the Byron Papers at the National Library of Scotland (MS 43419) and are edited in M. K. Stocking, The Clairmont Correspondence (1995). Exact dates of the Geneva notes are taken from editors and are given here as approximate.",
+   "bio": "Claire was the reason the two households met at all, yet in the record of the ghost-story nights she appears only as a name in Polidori's diary. Her pregnancy, the child Allegra born in January 1817, and Byron's cold letter about her in September 1816 show the private cost of the summer that the literary legend leaves out.",
+   "sources": [
+    {
+     "title": "Letters of Claire Clairmont to Byron, NLS MS 43419 (catalogue description)",
+     "url": "https://www.nineteenthcenturyliterarysociety.amdigital.co.uk/Documents/Details/Letters-of-Claire-Clairmont-to-Byron--with-a-letter-fragment-of-Byron/JMA_MS_43419"
+    }
+   ]
+  },
+  {
+   "id": "lewis",
+   "short": "Monk Lewis",
+   "name": "Matthew Gregory Lewis",
+   "life": "1775–1818",
+   "role": "No surviving firsthand account found. Novelist ('The Monk', 1796), aged 41, visiting Byron at Diodati in mid-August 1816; he left no known record of the visit, which is known from Mary's journal (14 August) and Percy's (18 August).",
+   "side": "England; Byron's guest",
+   "where": "Villa Diodati, August 1816",
+   "lat": 46.2219,
+   "lon": 6.1747,
+   "vantage": 1,
+   "vantage_label": "the professional teller of terrors, recorded by others",
+   "form": "none surviving for this visit (recorded by others)",
+   "language": "English",
+   "authenticity": "Lewis's own Journal of a West India Proprietor (published 1834) covers his Jamaica voyages, not Geneva. Everything here is secondhand, from the Shelleys' journal.",
+   "bio": "The most famous Gothic author of the age arrived after the contest was over and told stories rather than wrote them. Percy wrote down the plots that night and called him 'Apollo's Sexton'; Lewis also read Goethe's Faust aloud to Byron in translation.",
+   "sources": [
+    {
+     "title": "Shelley's journal, 18 Aug 1816 (text)",
+     "url": "https://jayrothermel.substack.com/p/ghost-stories-of-percy-bysshe-shelley"
+    },
+    {
+     "title": "Romantic Circles summary of summer 1816",
+     "url": "https://knarf.english.upenn.edu/MShelley/summer16.html"
+    }
+   ]
+  },
+  {
+   "id": "hobhouse",
+   "short": "Hobhouse",
+   "name": "John Cam Hobhouse",
+   "life": "1786–1869",
+   "role": "Radical politician-to-be, aged 29, Byron's closest friend; arrived at Diodati with Scrope Davies on 26 August 1816 and toured the Bernese Oberland with Byron in September",
+   "side": "England; Byron's friends",
+   "where": "Villa Diodati, late August; the Alps in September",
+   "lat": 46.2219,
+   "lon": 6.1747,
+   "waypoints": [
+    {
+     "lat": 46.2219,
+     "lon": 6.1747,
+     "label": "Diodati, 26 Aug"
+    },
+    {
+     "lat": 46.6242,
+     "lon": 8.0414,
+     "label": "Bernese Oberland, Sept"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the late arrival",
+   "form": "diary (not consulted here); recorded by others",
+   "language": "English",
+   "authenticity": "Hobhouse kept a diary throughout his life (extracts printed in his Recollections of a Long Life, 1909–11). It was not checked for this chapter; his arrival is taken from Mary's journal, and is labelled secondhand.",
+   "bio": "Hobhouse arrived as the Shelleys were packing and the ghost-story circle was breaking up. His arrival marks the moment the summer stopped being a private world of five and became Byron's ordinary social life again.",
+   "sources": [
+    {
+     "title": "Mary's journal, 26 Aug 1816, in Marshall (1889)",
+     "url": "https://gutenberg.org/files/37955/37955-h/37955-h.htm"
+    }
+   ]
+  },
+  {
+   "id": "fanny",
+   "short": "Fanny Imlay",
+   "name": "Fanny Imlay (Fanny Godwin)",
+   "life": "1794–1816",
+   "role": "Aged 22, Mary's half-sister (daughter of Mary Wollstonecraft and Gilbert Imlay), living in William Godwin's strained London household",
+   "side": "England; the Godwin household",
+   "where": "Skinner Street, London",
+   "lat": 51.517,
+   "lon": -0.104,
+   "waypoints": [
+    {
+     "lat": 51.517,
+     "lon": -0.104,
+     "label": "London, summer letters"
+    },
+    {
+     "lat": 51.6214,
+     "lon": -3.9436,
+     "label": "Swansea, 9 Oct 1816"
+    }
+   ],
+   "vantage": 4,
+   "vantage_label": "left behind in London, reading the news by letter",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Her letters to Mary of 1816 survive in the Abinger papers and were printed in part by Florence Marshall (1889).",
+   "bio": "Fanny's letters are the view from the house the travellers had escaped: rain in London too, money worries, and an eager curiosity about Byron. She took her own life at Swansea on 9 October 1816, a fortnight after the Shelleys came home; this is noted soberly here because it shaped the autumn in which Frankenstein was written.",
+   "sources": [
+    {
+     "title": "Florence Marshall, Life and Letters of Mary W. Shelley (1889), Project Gutenberg #37955",
+     "url": "https://gutenberg.org/files/37955/37955-h/37955-h.htm"
+    }
+   ]
+  },
+  {
+   "id": "godwin",
+   "short": "Godwin",
+   "name": "William Godwin",
+   "life": "1756–1836",
+   "role": "Philosopher and bookseller, aged 60, Mary's father and Fanny's stepfather; estranged from Mary since her elopement in 1814",
+   "side": "England; the Godwin household",
+   "where": "Skinner Street, London",
+   "lat": 51.517,
+   "lon": -0.104,
+   "vantage": 4,
+   "vantage_label": "the father in London, keeping a laconic daily diary",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Godwin's diary (Bodleian, Abinger papers) is fully transcribed online by the William Godwin's Diary project; its 9 October 1816 entry is thought by the editors to have been written in after the fact.",
+   "bio": "Godwin's diary is a register of names and places, not feelings. Its one-word entry for Fanny's death is the starkest example in this chapter of the gap between an event and its writing down.",
+   "sources": [
+    {
+     "title": "William Godwin's Diary: Fanny Imlay entries, 1816",
+     "url": "https://plum-otter.lnx.warwick.ac.uk/people/IML01.html"
+    }
+   ]
+  },
+  {
+   "id": "pictet",
+   "short": "Pictet",
+   "name": "Marc-Auguste Pictet (Geneva observatory registers)",
+   "life": "1752–1825",
+   "role": "Physicist, publisher of the Bibliothèque universelle, responsible for Geneva's weather observations 1799–1821",
+   "side": "Geneva (Swiss Confederation from 1815)",
+   "where": "Observing station in the old botanical garden, Bastion St-Léger, Geneva",
+   "lat": 46.1985,
+   "lon": 6.146,
+   "vantage": 2,
+   "vantage_label": "the instrument record across the lake",
+   "form": "meteorological register",
+   "language": "French",
+   "authenticity": "Twice-daily readings (sunrise and 14:00) with daily precipitation, printed in the Journal de Genève and Bibliothèque britannique/universelle; digitised and analysed by Auchmann et al. (2012). Polidori names Pictet as a dinner guest on 23 June 1816.",
+   "bio": "The register is the 'official record' eye: no ghosts, only numbers. It shows that the friends' complaint of rain was not literary mood — June 1816 had no cloud-free day at Geneva and the summer was about 3–4 °C colder in the afternoons than usual.",
+   "sources": [
+    {
+     "title": "Auchmann et al., 'Extreme climate, not extreme weather: the summer of 1816 in Geneva', Climate of the Past 8 (2012)",
+     "url": "https://cp.copernicus.org/articles/8/325/2012/"
+    },
+    {
+     "title": "Full text PDF",
+     "url": "https://cp.copernicus.org/articles/8/325/2012/cp-8-325-2012.pdf"
+    }
+   ]
+  },
+  {
+   "id": "zschokke",
+   "short": "Zschokke",
+   "name": "Heinrich Zschokke",
+   "life": "1771–1848",
+   "role": "German-born teacher, writer and politician in Aarau, keeping a twice- or thrice-daily weather diary",
+   "side": "Swiss Confederation (canton Aargau)",
+   "where": "Aarau, northern Switzerland",
+   "lat": 47.392,
+   "lon": 8.044,
+   "vantage": 3,
+   "vantage_label": "same country, a day's ride away",
+   "form": "weather diary",
+   "language": "German",
+   "authenticity": "Published in Archiv der Medizin, Chirurgie und Pharmazie (1817); used as an evaluation series by Brönnimann (2020).",
+   "bio": "Zschokke's weather diary shows the same sky over a wider Switzerland: in July 1816 Aarau had only three dry days. It places the Diodati evenings inside a national emergency that turned into the hunger of 1816–17.",
+   "sources": [
+    {
+     "title": "Brönnimann, 'Synthetic weather diaries: concept and application to Swiss weather in 1816', Climate of the Past 16 (2020)",
+     "url": "https://cp.copernicus.org/articles/16/1937/2020"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1816-05-17",
+   "date_display": "Friday 17 May 1816",
+   "precision": "day",
+   "eye": "mshelley",
+   "place": "Hôtel de Sécheron, Geneva",
+   "headline": "Arrival: a blue lake after the Alpine snows",
+   "digest": "Writing to a friend in England four days after arriving, Mary describes crossing the Jura in snow and coming down to a hotel on the lake. From the windows she sees the water and the far Alps; she promises more when they find a house. The tone is holiday excitement, before any rain.",
+   "quote": "the lovely lake, blue as the heavens which it reflects, and sparkling with golden beams",
+   "confidence": "verified",
+   "source_note": "Six Weeks' Tour (1817), Letter I, 'Hôtel de Secheron, Geneva, May 17, 1816'",
+   "form": "dated letter (printed 1817)",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-05-25",
+   "date_display": "Saturday 25 May 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Road from Lausanne to Geneva",
+   "headline": "Polidori and Byron reach the lake",
+   "digest": "Polidori records leaving Lausanne, seeing the lake and Mont Blanc far off, and listing the famous men — Voltaire, Rousseau, Bonaparte among them — who had houses along the way. He and Byron put up at Sécheron, the same hotel as the Shelleys.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Polidori, Diary (1911), 25 May 1816",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-05-26",
+   "date_display": "c. 25–27 May 1816",
+   "precision": "range",
+   "eye": "clairmont",
+   "place": "Sécheron, Geneva",
+   "headline": "Claire's notes to Byron's hotel",
+   "digest": "Claire had come to Geneva to find Byron, who had not invited her. In notes sent across the hotel she complains of being kept waiting and asks to see him. The originals survive among Byron's papers; their exact days are editors' reconstructions.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Letters of Claire Clairmont to Byron, NLS MS 43419; ed. Stocking, The Clairmont Correspondence (1995). Day not checked against the edition.",
+   "form": "dated letters",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-05-26",
+   "date_display": "Sunday 26 May 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Lake Geneva",
+   "headline": "Rowing, and a first look at Diodati",
+   "digest": "Polidori and Byron take a boat on the lake and joke about the 'firsts' they had done together on the journey, from riding over Waterloo to bathing in the lake. They look over the Villa Diodati, which Byron will rent.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Polidori, Diary (1911), 26 May 1816",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-05-27",
+   "date_display": "Monday 27 May 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Sécheron and the lake",
+   "headline": "The two households meet",
+   "digest": "Polidori runs errands — money, a boat, a failed call on Professor Pictet — and notes that Byron has met Mary Godwin, her stepsister and Percy Shelley. He ends the day lying in his boat in the middle of the lake, letting it drift.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Polidori, Diary (1911), 27 May 1816",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-05-31",
+   "date_display": "Friday 31 May 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Sécheron",
+   "headline": "Reading Italian with Mary",
+   "digest": "An ordinary day: breakfast with Shelley, Italian reading with Mary, rowing and tea with the whole party. The day before he had written down Shelley's stories about his marriage and Godwin, which the 1911 editor flags as largely inaccurate.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Polidori, Diary (1911), 30–31 May 1816 and editor's notes",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-06-01",
+   "date_display": "Saturday 1 June 1816",
+   "precision": "day",
+   "eye": "mshelley",
+   "place": "Maison Chapuis ('Campagne C——'), near Coligny",
+   "headline": "Storms over the lake, rain indoors",
+   "digest": "Now in a small house on the south-east shore, Mary writes that almost constant rain keeps them indoors, broken by spells of hot sun. At night storms cross the lake and lightning shows the pines on the Jura for an instant. She dislikes the narrow, puritan town of Geneva but enjoys the vine-dressers' evening songs.",
+   "quote": "The thunder storms that visit us are grander and more terrific than I have ever seen before.",
+   "confidence": "verified",
+   "source_note": "Six Weeks' Tour (1817), Letter II, 'Campagne C******, near Coligny, 1st June' (Romantic Circles text)",
+   "form": "dated letter (printed 1817)",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-06-01",
+   "date_display": "Saturday 1 June 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Geneva and Cologny",
+   "headline": "House-hunting for Byron and Shelley",
+   "digest": "Polidori arranges to rent a house and looks at others for Shelley, then records Byron's sharp remarks about other writers and Shelley's tales of his own life. The two households are about to settle a few minutes' walk apart.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Polidori, Diary (1911), 1 June 1816",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-06",
+   "date_display": "June 1816",
+   "precision": "month",
+   "eye": "pictet",
+   "place": "Bastion St-Léger, Geneva",
+   "headline": "Not one clear day in June",
+   "digest": "The Geneva register, read at sunrise and at two in the afternoon, records cloud on every day of June 1816. Across the summer, afternoon temperatures ran roughly 3–4 °C below the 1799–1821 average and rain fell on about 80% more days than usual, with only one high-pressure day against a normal twenty.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Auchmann et al., Climate of the Past 8 (2012), from Pictet's published registers",
+   "form": "meteorological register",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1816-06-10",
+   "date_display": "Monday 10 June 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Villa Diodati, Cologny",
+   "headline": "Moving into Diodati",
+   "digest": "Polidori moves with Byron into the Villa Diodati on the slope above the Shelleys' house, and sketches the plan of his rooms in the diary. The Shelleys come up for tea; the evening pattern of the next weeks begins.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Polidori, Diary (1911), 10 June 1816; date of the move confirmed by the Shelley-Godwin Archive chronology",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-06-15",
+   "date_display": "Saturday 15 June 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Villa Diodati",
+   "headline": "A sprained ankle and a talk about 'principles'",
+   "digest": "Polidori hurts his ankle jumping a wall (the editor notes he leapt to help Mary up the wet slope). In the evening he and Shelley argue over whether a human being is merely an instrument — the kind of talk about the nature of life that Mary later remembered as the seed of her story.",
+   "quote": "Afterwards Shelley and I had a conversation about principles,—whether man was to be thought merely an instrument.",
+   "confidence": "verified",
+   "source_note": "Polidori, Diary (1911), 15 June 1816",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-06-16",
+   "date_display": "Sunday 16 June 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Villa Diodati",
+   "headline": "Laid up; the Shelleys stay the night",
+   "digest": "With his leg up, Polidori notes that Shelley, Mary and Claire dined and slept at Diodati. It is a one-line entry, but it is the only contemporary evidence placing Mary in the house on the night the 2011 astronomical study proposes for her vision.",
+   "quote": "Shelley came, and dined and slept here, with Mrs. S[helley] and Miss Clare Clairmont.",
+   "confidence": "verified",
+   "source_note": "Polidori, Diary (1911), 16 June 1816",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-06-16",
+   "date_display": "A night in mid-June 1816 (16 June per Olson et al. 2011; c. 22 June in another chronology) — written 1831",
+   "precision": "range",
+   "eye": "mshelley",
+   "place": "Villa Diodati or Maison Chapuis (her account does not say which)",
+   "headline": "The waking vision, seen with shut eyes",
+   "digest": "Mary later wrote that after days of failing to think of a story, she lay awake past midnight and, without sleeping, saw a student kneeling beside a body he had assembled, and the body stir. She woke herself in terror, saw moonlight coming through the shutters, and knew she had her story. This is her account of 1831, not a record of the night; which night it was is disputed.",
+   "quote": "I saw—with shut eyes, but acute mental vision,—I saw the pale student of unhallowed arts kneeling beside the thing he had put together. I saw the hideous phantasm of a man stretched out, and then, on the working of some powerful engine, show signs of life, and stir with an uneasy, half vital motion.",
+   "confidence": "approx",
+   "source_note": "Frankenstein (1831), author's Introduction, dated London, 15 October 1831 (Project Gutenberg #42324). Date: Olson et al., Sky & Telescope, Nov 2011 (Texas State press release) argue 2–3 a.m. on 16 June, when a bright gibbous moon cleared the hill; they reject a 22 June chronology because there would have been no moonlight.",
+   "form": "later account (introduction)",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1816-06-16",
+   "date_display": "Mid-May to 20 July 1816",
+   "precision": "range",
+   "eye": "mshelley",
+   "place": "Lake Geneva",
+   "headline": "The journal falls silent",
+   "digest": "No surviving firsthand account found. The journal Mary and Percy kept together is missing for the whole of the ghost-story period and resumes only on 21 July. Nothing she wrote on the nights of the contest survives, so every date for her vision rests on Polidori's diary, her 1831 recollection, and later reconstruction.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Shelley-Godwin Archive, Frankenstein Chronology ('MWS's Journal for this period is now missing')",
+   "form": "journal (lost)",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1816-06-17",
+   "date_display": "Monday 17 June 1816",
+   "precision": "day",
+   "eye": "byron",
+   "place": "Villa Diodati",
+   "headline": "Byron's fragment, dated the 17th",
+   "digest": "Byron's contribution — a few pages about two travellers, one of whom, Darvell, dies at a Turkish graveyard after binding his companion to silence — breaks off almost as soon as it begins. The manuscript is dated 17 June 1816. He printed it three years later at the end of Mazeppa, partly to show what his real story had been.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "'A Fragment', dated June 17, 1816, published with Mazeppa (1819); date confirmed in the Shelley-Godwin Archive chronology",
+   "form": "dated manuscript (published 1819)",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-06-17",
+   "date_display": "Monday 17 June 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Geneva and Villa Diodati",
+   "headline": "'The ghost-stories are begun by all but me'",
+   "digest": "Polidori goes to a ball on his bad ankle, meets Polish countesses and cannot dance. Then comes the line that dates the contest: everyone but he has started a ghost story. It is the only same-day written evidence that the challenge had been set by this date.",
+   "quote": "The ghost-stories are begun by all but me.",
+   "confidence": "verified",
+   "source_note": "Polidori, Diary (1911), 17 June 1816",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-06-18",
+   "date_display": "Tuesday 18 June 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Villa Diodati, after midnight",
+   "headline": "Christabel, and Shelley runs from the room",
+   "digest": "Polidori starts his own ghost story after tea; at midnight the talk turns 'ghostly'. Byron recites lines from Coleridge's Christabel, printed only that spring, about the witch's breast, and Shelley shrieks, clutches his head and runs out with a candle. Polidori throws water in his face and gives him ether.",
+   "quote": "L[ord] B[yron] repeated some verses of Coleridge's Christabel, of the witch's breast; when silence ensued, and Shelley, suddenly shrieking and putting his hands to his head, ran out of the room",
+   "confidence": "verified",
+   "source_note": "Polidori, Diary (1911), 18 June 1816",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-06-18",
+   "date_display": "Tuesday 18 June 1816",
+   "precision": "day",
+   "eye": "pshelley",
+   "place": "Villa Diodati",
+   "headline": "What Shelley saw, as told to Polidori",
+   "digest": "Once calmed, Shelley explained that while looking at Mary he had suddenly thought of a woman he had heard of with eyes where her nipples should be, and the image overwhelmed him. Shelley himself left no account of the fit; this is Polidori's report of what Shelley said, written the same night.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Polidori, Diary (1911), 18 June 1816",
+   "form": "diary of another witness",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1816-06-19",
+   "date_display": "Wednesday 19 June 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Villa Diodati",
+   "headline": "Bonstetten's story, and a second 'began'",
+   "digest": "Still lame, Polidori receives the Swiss writer Bonstetten and Rossi; Bonstetten tells a tale of religious conflict in Appenzell. Polidori again notes beginning his ghost story — editors find the repeated 'began' on the 18th and 19th puzzling.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Polidori, Diary (1911), 19 June 1816; Shelley-Godwin Archive chronology on the two 'began' entries",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-06-22",
+   "date_display": "Saturday 22 June 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Geneva",
+   "headline": "The poets leave; the doctor stays",
+   "digest": "Polidori notes that Byron and Shelley set off for Vevey, and that he called on Rossi and Odier. Shelley's own letter dates the departure to the afternoon of the 23rd — a one-day disagreement between two firsthand sources.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Polidori, Diary (1911), 22 June 1816; compare Six Weeks' Tour, Letter III",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-06-23",
+   "date_display": "Sunday 23 June 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Villa Diodati",
+   "headline": "Dinner with Pictet and Odier",
+   "digest": "Polidori visits Mrs Shelley in town and hosts a dinner for the physicist Pictet and the physician Odier; they discuss what nitrate of silver does to the skin. The man who kept Geneva's weather register is, for one evening, at the Diodati table.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Polidori, Diary (1911), 23 June 1816",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-06-23",
+   "date_display": "Sunday 23 June 1816",
+   "precision": "day",
+   "eye": "pshelley",
+   "place": "Montalègre",
+   "headline": "Setting out round the lake",
+   "digest": "Shelley writes that he and Byron left Montalègre at half past two on the 23rd for a tour of the lake by boat, to see the places of Rousseau's Julie. Mary stayed behind; the Shelley-Godwin chronology suggests these were the days she was writing her story.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Six Weeks' Tour (1817), Letter III, dated Montalegre, July 12",
+   "form": "dated letter (written 19 days later)",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-06-25",
+   "date_display": "c. 25 June 1816 (written 12 July)",
+   "precision": "range",
+   "eye": "pshelley",
+   "place": "Off Meillerie / St Gingolph, Lake Geneva",
+   "headline": "Near drowning in a squall",
+   "digest": "A wind rose until it blew tremendously, and the boat was in real danger; Byron, an excellent swimmer, would have tried to save Shelley, who could not swim. He wrote that terror was only one of his feelings at the near prospect of death. The account was written up more than two weeks later for Peacock.",
+   "quote": "I felt in this near prospect of death a mixture of sensations, among which terror entered, though but subordinately.",
+   "confidence": "approx",
+   "source_note": "Six Weeks' Tour (1817), Letter III. Exact day of the storm not stated in the fetched text; c. 25 June per standard chronologies.",
+   "form": "dated letter (printed 1817)",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-06-27",
+   "date_display": "Thursday 27 June 1816",
+   "precision": "day",
+   "eye": "byron",
+   "place": "Ouchy, near Lausanne",
+   "headline": "Kept at Ouchy by the weather",
+   "digest": "Byron writes to his publisher that bad weather is holding him at Ouchy on the way back, and that he has been over all of Rousseau's ground with the novel in hand. In the two rain-bound days there he drafted The Prisoner of Chillon, after seeing the castle dungeons.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Byron to John Murray, Ouchy, 27 June 1816 (Prothero/Marchand). Not checked against a fetched text; Shelley's Letter III confirms the two days of rain at Ouchy.",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-06-30",
+   "date_display": "Sunday 30 June 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Maison Chapuis",
+   "headline": "Days at Mrs Shelley's; the diary lapses",
+   "digest": "Polidori notes that he has spent the day at Mrs Shelley's, as he had since the 28th. After this entry he stopped writing daily, and the high summer comes down to us only in his later summary.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Polidori, Diary (1911), 30 June 1816; editor's introduction on the lapse",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-07",
+   "date_display": "July 1816 ('Diodati, July 1816')",
+   "precision": "month",
+   "eye": "byron",
+   "place": "Villa Diodati",
+   "headline": "'Darkness': a dream that was not all a dream",
+   "digest": "In a blank-verse poem dated from Diodati that July, Byron imagines the sun going out and the last humans burning their homes for light, then turning on each other. It is a dream poem written in a summer when the sun was rarely seen; he printed it that December.",
+   "quote": "I had a dream, which was not all a dream. The bright sun was extinguish'd, and the stars Did wander darkling in the eternal space,",
+   "confidence": "verified",
+   "source_note": "'Darkness', dated Diodati, July 1816; published in The Prisoner of Chillon, and Other Poems (1816)",
+   "form": "poem (dated)",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-07",
+   "date_display": "July 1816",
+   "precision": "month",
+   "eye": "pictet",
+   "place": "Geneva",
+   "headline": "A cold, wet July",
+   "digest": "Pictet's monthly summary describes cold and rainy weather for July. Weather reconstruction for Switzerland finds every July day but one dominated by low pressure.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Brönnimann, Climate of the Past 16 (2020), comparing Pictet's Bibliothèque universelle summaries",
+   "form": "meteorological summary",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1816-07",
+   "date_display": "July 1816",
+   "precision": "month",
+   "eye": "zschokke",
+   "place": "Aarau",
+   "headline": "Three dry days",
+   "digest": "Zschokke's weather diary in Aarau records only three days without rain in July 1816 — the 20th, 21st and 23rd. It shows that the wet summer the friends complained of covered the whole country, where it was ruining the harvest.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Brönnimann, Climate of the Past 16 (2020), citing Zschokke (1817)",
+   "form": "weather diary",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1816-07-22",
+   "date_display": "Monday 22 July 1816",
+   "precision": "day",
+   "eye": "pshelley",
+   "place": "Hôtel de Londres, Chamonix",
+   "headline": "Letters from the glaciers",
+   "digest": "On the excursion to Chamonix, Shelley writes to Peacock about the valley and the glaciers. The same journey produced his poem 'Mont Blanc', which Mary later printed with the letters in the Six Weeks' Tour.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Six Weeks' Tour (1817), Letter IV, 'Hôtel de Londres, Chamouni, July 22d, 1816', and Preface",
+   "form": "dated letter (printed 1817)",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-07-24",
+   "date_display": "Wednesday 24 July 1816",
+   "precision": "day",
+   "eye": "mshelley",
+   "place": "Chamonix",
+   "headline": "'Write my story' — the first written trace",
+   "digest": "Back from a wet walk to Montanvert, Mary notes in the newly resumed journal that she read French tales and wrote her story. These three words are the earliest surviving written reference to what became Frankenstein, some five weeks after the ghost-story nights.",
+   "quote": "I read Nouvelles Nouvelles, and write my story.",
+   "confidence": "verified",
+   "source_note": "Mary's journal, 24 July 1816, in Marshall (1889); Shelley-Godwin Archive chronology",
+   "form": "journal",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-07-29",
+   "date_display": "Monday 29 July 1816",
+   "precision": "day",
+   "eye": "fanny",
+   "place": "London",
+   "headline": "Rain in London too",
+   "digest": "Fanny admits her last letter was written in an ill humour and reports that it rains every day in England as well. She says she has grown much more interested in Lord Byron since reading all his poems — a glimpse of the excitement the Geneva letters stirred at home.",
+   "quote": "Our rain has been as constant as yours, for it rains every day.",
+   "confidence": "verified",
+   "source_note": "Fanny Imlay to Mary, 29 July 1816, in Marshall (1889)",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-08-14",
+   "date_display": "Wednesday 14 August 1816",
+   "precision": "day",
+   "eye": "mshelley",
+   "place": "Maison Chapuis",
+   "headline": "'Lewis comes to Diodati'",
+   "digest": "Mary's journal notes Monk Lewis's arrival at Byron's villa; she did not meet him that day. The contest was long over, but the most famous Gothic novelist in England was now sitting at the same table.",
+   "quote": "Lewis comes to Diodati.",
+   "confidence": "verified",
+   "source_note": "Mary's journal, 14 August 1816, in Marshall (1889); Shelley-Godwin Archive chronology",
+   "form": "journal",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-08-14",
+   "date_display": "Wednesday 14 August 1816",
+   "precision": "day",
+   "eye": "pictet",
+   "place": "Geneva",
+   "headline": "The hottest afternoon of the year",
+   "digest": "The Geneva register records the year's highest temperature, 26.9 °C, on the afternoon of 14 August — a single warm day in a summer that otherwise never properly arrived.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Auchmann et al., Climate of the Past 8 (2012)",
+   "form": "meteorological register",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1816-08",
+   "date_display": "August 1816",
+   "precision": "month",
+   "eye": "lewis",
+   "place": "Villa Diodati",
+   "headline": "Faust read aloud",
+   "digest": "During his stay Lewis read and translated passages of Goethe's Faust aloud to Byron, who did not read German. The episode is known from others' accounts; Lewis wrote none of his own.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Romantic Circles, 'Summer 1816' page; Byron's later references",
+   "form": "recorded by others",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1816-08-18",
+   "date_display": "Sunday 18 August 1816",
+   "precision": "day",
+   "eye": "pshelley",
+   "place": "Villa Diodati / Geneva",
+   "headline": "'Apollo's Sexton' tells his tales",
+   "digest": "Shelley writes in the journal that he has seen Lewis, 'Apollo's Sexton', who told many mysteries of his trade. He sets down two of the tales — a German widow visited by her dead husband, and a traveller who sees cats burying a crowned coffin — and notes that Lewis told four more, all grim.",
+   "quote": "See Apollo's Sexton, who tells us many mysteries of his trade.",
+   "confidence": "verified",
+   "source_note": "Shelley's journal, 'Geneva, Sunday, 18th August 1816', reprinted in Prose Works (text via Rothermel)",
+   "form": "journal",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-08-18",
+   "date_display": "Sunday 18 August 1816",
+   "precision": "day",
+   "eye": "lewis",
+   "place": "Villa Diodati",
+   "headline": "The storyteller, as written down by another",
+   "digest": "Lewis's ghost stories reach us only because Shelley recorded them that night. They are oral tales, retold in Shelley's words, and are listed here as secondhand.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Shelley's journal, 18 August 1816",
+   "form": "recorded by others",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1816-08-21",
+   "date_display": "Wednesday 21 August 1816",
+   "precision": "day",
+   "eye": "mshelley",
+   "place": "Maison Chapuis",
+   "headline": "'Shelley and I talk about my story'",
+   "digest": "Mary's journal records a conversation with Percy about her story. Editors read this as the point where the tale began to grow into a novel, with Percy encouraging her to develop it at length.",
+   "quote": "Shelley and I talk about my story.",
+   "confidence": "verified",
+   "source_note": "Mary's journal, 21 August 1816, in Marshall (1889); Shelley-Godwin Archive chronology",
+   "form": "journal",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-08-26",
+   "date_display": "Monday 26 August 1816",
+   "precision": "day",
+   "eye": "hobhouse",
+   "place": "Villa Diodati",
+   "headline": "Hobhouse and Scrope Davies arrive",
+   "digest": "Mary notes the arrival of Byron's friends Hobhouse and Scrope Davies at Diodati. Their coming marks the end of the small, closed circle of the summer.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Mary's journal, 26 August 1816, in Marshall (1889) ('Hobhouse and Scroop Davis come to Diodati')",
+   "form": "journal of another witness",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1816-08-29",
+   "date_display": "Thursday 29 August 1816",
+   "precision": "day",
+   "eye": "mshelley",
+   "place": "Geneva",
+   "headline": "Leaving at nine in the morning",
+   "digest": "The Shelleys and Claire leave Geneva for England, carrying an unfinished story and, unknown to most, Claire's pregnancy. They reached Portsmouth on 8 September.",
+   "quote": "We depart from Geneva at 9 in the morning.",
+   "confidence": "verified",
+   "source_note": "Mary's journal, 29 August 1816, in Marshall (1889); Shelley-Godwin Archive chronology",
+   "form": "journal",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-09-05",
+   "date_display": "c. 5 September 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Villa Diodati",
+   "headline": "Summing up a summer from memory",
+   "digest": "Having neglected the diary since June, Polidori writes a long retrospective listing the people he met — Lewis and Hobhouse among them — and the quarrels with Byron and Shelley, including a moment he threatened to shoot Shelley on the water. He records that Byron decided they should part, not over any one quarrel but because they did not suit.",
+   "quote": "not upon any quarrel, but on account of our not suiting.",
+   "confidence": "verified",
+   "source_note": "Polidori, Diary (1911), retrospective entry and editor's introduction",
+   "form": "diary (retrospective)",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1816-09-08",
+   "date_display": "Sunday 8 September 1816",
+   "precision": "day",
+   "eye": "byron",
+   "place": "Villa Diodati",
+   "headline": "Byron on Claire, to his sister",
+   "digest": "Writing to his half-sister Augusta, Byron admits Claire is pregnant by him and excuses himself: he could not play the stoic with a woman who had followed him across Europe. The letter is the bluntest surviving statement of what the summer meant for Claire.",
+   "quote": "scrambled eight hundred miles to unphilosophize me",
+   "confidence": "approx",
+   "source_note": "Byron to Augusta Leigh, 8 September 1816 (Prothero/Marchand). Not checked against a fetched text.",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-09-16",
+   "date_display": "Monday 16 September 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Cologny",
+   "headline": "Dismissed, leaving at six",
+   "digest": "Polidori records leaving Cologny and Lord Byron at six in the morning, paid off, to travel in Italy on his own. He took with him the ghost story begun in June.",
+   "quote": "Left Cologny and Lord Byron at six in the morning.",
+   "confidence": "verified",
+   "source_note": "Polidori, Diary (1911), 16 September 1816",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-09-23",
+   "date_display": "c. 23 September 1816",
+   "precision": "range",
+   "eye": "byron",
+   "place": "Bernese Oberland",
+   "headline": "Woods of withered pines",
+   "digest": "On the Alpine tour with Hobhouse, Byron's travel journal for Augusta describes whole forests of dead, barkless pines and gloomy, cloudy passes. Climate historians have used these September notes as a check on reconstructed weather.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Byron's Alpine Journal, 18–29 Sept 1816; use as a weather test in Brönnimann (2020). Exact day of the pine passage not checked.",
+   "form": "travel journal",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1816-10-09",
+   "date_display": "Wednesday 9 October 1816",
+   "precision": "day",
+   "eye": "godwin",
+   "place": "London",
+   "headline": "One word: 'Swansea'",
+   "digest": "Godwin's diary for this day reads only 'Swansea', where Fanny had died alone at an inn. The editors think the word was written in after he learned of it; earlier he had searched for her without success after her letter from Bristol.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "William Godwin's Diary, 9 October 1816, with editors' note",
+   "form": "diary",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1817-01-12",
+   "date_display": "Sunday 12 January 1817",
+   "precision": "day",
+   "eye": "clairmont",
+   "place": "Bath",
+   "headline": "Allegra is born",
+   "digest": "Claire gives birth to a daughter by Byron, later named Allegra. No journal of Claire's survives for these months; the date comes from the Shelleys' records and later chronology.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Shelley-Godwin Archive, Frankenstein Chronology",
+   "form": "recorded by others",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1817-09",
+   "date_display": "September 1817 ('Marlow, September, 1817')",
+   "precision": "month",
+   "eye": "pshelley",
+   "place": "Albion House, Marlow",
+   "headline": "The first published account of the contest",
+   "digest": "In the unsigned Preface to Frankenstein, written by Percy in the author's voice, the summer is 'cold and rainy' and the friends agree to write each a supernatural story; the two poets abandon theirs for the Alps, and only this one is finished. There is no mention of a vision.",
+   "quote": "I passed the summer of 1816 in the environs of Geneva. The season was cold and rainy,",
+   "confidence": "verified",
+   "source_note": "Preface to Frankenstein (1818), dated Marlow, September 1817 (Project Gutenberg #42324)",
+   "form": "preface (written a year later)",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1818-01-12",
+   "date_display": "Monday 12 January 1818",
+   "precision": "day",
+   "eye": "clairmont",
+   "place": "Marlow",
+   "headline": "Claire praises the book to Byron",
+   "digest": "Writing to Byron eleven days after Frankenstein appeared anonymously, Claire praises the novel that came out of the summer she had arranged.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Shelley-Godwin Archive, Frankenstein Chronology (Claire Clairmont to Byron, 12 January 1818)",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1819-04-01",
+   "date_display": "1 April 1819 (entered at Stationers' Hall 27 March 1819)",
+   "precision": "range",
+   "eye": "polidori",
+   "place": "London",
+   "headline": "The Vampyre appears under Byron's name",
+   "digest": "Polidori's tale, grown from the June story and from Byron's abandoned fragment, is printed in the New Monthly Magazine as 'by Lord Byron', with an anonymous 'Extract of a Letter from Geneva' describing the contest secondhand from a lady said to know the company. Polidori protested the attribution; the book edition names him.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "The Vampyre (Sherwood, Neely and Jones, 1819), Project Gutenberg #6087; magazine date per standard bibliographies",
+   "form": "published tale with anonymous preface",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1819-04-27",
+   "date_display": "Tuesday 27 April 1819",
+   "precision": "day",
+   "eye": "byron",
+   "place": "Venice",
+   "headline": "Byron disowns the vampire",
+   "digest": "Byron writes to the Paris editor Galignani that he is not the author of The Vampyre and had not heard of it until he saw his name attached. He later had his own 1816 fragment printed with Mazeppa so readers could compare.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Byron to Galignani, Venice, 27 April 1819 (Prothero/Marchand). Not checked against a fetched text.",
+   "form": "dated letter",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1831-10-15",
+   "date_display": "Saturday 15 October 1831 (writing of June 1816)",
+   "precision": "day",
+   "eye": "mshelley",
+   "place": "London",
+   "headline": "Fifteen years on: 'Have you thought of a story?'",
+   "digest": "In the Introduction to the revised Frankenstein, Mary — now a widow, the only one of the four storytellers still alive — tells the whole tale: the wet summer, the German ghost stories read in French, Byron's 'We will each write a ghost story', days of being asked each morning if she had one, and the vision. She describes Polidori's tale mockingly, and compresses the story's growth into a single morning.",
+   "quote": "On the morrow I announced that I had thought of a story.",
+   "confidence": "verified",
+   "source_note": "Frankenstein (1831), Introduction, dated London, October 15, 1831 (Project Gutenberg #42324)",
+   "form": "later account (introduction)",
+   "source_kind": "later firsthand"
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1816-06-01",
+   "date_display": "Late May–1 June 1816",
+   "eye": "mshelley",
+   "claim": "Almost perpetual rain and violent thunderstorms keep the party indoors.",
+   "written": "1 June 1816, letter from Maison Chapuis; printed November 1817 in History of a Six Weeks' Tour",
+   "form": "firsthand",
+   "evidence": "Six Weeks' Tour, Letter II",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1816-06",
+   "date_display": "June 1816",
+   "eye": "pictet",
+   "claim": "Not a single cloud-free day at Geneva.",
+   "written": "Daily, at sunrise and 14:00, Bastion St-Léger; printed in Bibliothèque universelle 1816",
+   "form": "official record",
+   "evidence": "Auchmann et al. 2012",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1816-06-15",
+   "date_display": "15 June 1816",
+   "eye": "polidori",
+   "claim": "Shelley and Polidori debate whether man is merely an instrument.",
+   "written": "Same day, Polidori's diary, Diodati; printed 1911",
+   "form": "firsthand",
+   "evidence": "Polidori, Diary (1911)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1816-06-16",
+   "date_display": "Mid-June 1816 (16 June per Olson 2011; c. 22 June in another chronology)",
+   "eye": "mshelley",
+   "claim": "Mary sees, eyes shut, a student animating an assembled body.",
+   "written": "15 October 1831, Introduction to Frankenstein, London — about 15 years later; no 1816 record survives",
+   "form": "later firsthand",
+   "evidence": "Frankenstein (1831); Olson et al., Sky & Telescope Nov 2011",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1816-06-16",
+   "date_display": "16 June 1816",
+   "eye": "polidori",
+   "claim": "Mary, Percy and Claire dine and sleep at Diodati.",
+   "written": "Same day, Polidori's diary; printed 1911",
+   "form": "firsthand",
+   "evidence": "Polidori, Diary (1911)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1816-06-17",
+   "date_display": "By 17 June 1816",
+   "eye": "byron",
+   "claim": "Byron proposes that each write a ghost story; the contest is under way.",
+   "written": "17 June 1816 (Polidori's diary, 'begun by all but me'); first in print in Percy's Preface, September 1817, then the anonymous 'Extract of a Letter from Geneva', April 1819, then Mary's 1831 Introduction",
+   "form": "firsthand",
+   "evidence": "Polidori, Diary; Preface (1818); The Vampyre (1819); Frankenstein (1831)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1816-06-17",
+   "date_display": "17 June 1816",
+   "eye": "byron",
+   "claim": "Byron writes and abandons his vampire fragment.",
+   "written": "Manuscript dated 17 June 1816; printed 1819 with Mazeppa",
+   "form": "firsthand",
+   "evidence": "'A Fragment' (1819)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1816-06-18",
+   "date_display": "18 June 1816, after midnight",
+   "eye": "pshelley",
+   "claim": "Shelley flees the room in horror at Christabel and a vision of eyes on a woman's breasts.",
+   "written": "Same night, Polidori's diary — reported speech; Shelley wrote nothing of it; printed 1911",
+   "form": "secondhand",
+   "evidence": "Polidori, Diary (1911)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1816-06-25",
+   "date_display": "c. 25 June 1816",
+   "eye": "pshelley",
+   "claim": "Shelley, unable to swim, nearly drowns in a squall off Meillerie.",
+   "written": "12 July 1816, letter to Peacock from Montalègre (17 days later); printed 1817",
+   "form": "firsthand",
+   "evidence": "Six Weeks' Tour, Letter III",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1816-07",
+   "date_display": "July 1816",
+   "eye": "zschokke",
+   "claim": "Only three dry days in Aarau all month.",
+   "written": "Daily weather diary, Aarau; printed 1817",
+   "form": "official record",
+   "evidence": "Brönnimann 2020",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1816-07-24",
+   "date_display": "24 July 1816",
+   "eye": "mshelley",
+   "claim": "'Write my story' — earliest surviving written trace of Frankenstein.",
+   "written": "Same day, journal, Chamonix; printed in part 1889",
+   "form": "firsthand",
+   "evidence": "Marshall 1889; Shelley-Godwin Archive",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1816-08-18",
+   "date_display": "18 August 1816",
+   "eye": "lewis",
+   "claim": "Monk Lewis tells six grim ghost stories at Diodati.",
+   "written": "Same day, Percy's journal entry; Lewis left no account",
+   "form": "secondhand",
+   "evidence": "Shelley's journal, 18 Aug 1816",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1816-08",
+   "date_display": "July–August 1816",
+   "eye": "polidori",
+   "claim": "Quarrels with Byron and Shelley; Polidori is told they must part.",
+   "written": "c. 5 September 1816, retrospective diary summary, weeks after the events",
+   "form": "later firsthand",
+   "evidence": "Polidori, Diary (1911)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1816-10-09",
+   "date_display": "9 October 1816",
+   "eye": "godwin",
+   "claim": "Fanny Imlay dies at Swansea.",
+   "written": "Godwin's diary, a single word under 9 October, probably added after the news reached him",
+   "form": "firsthand",
+   "evidence": "William Godwin's Diary (online edition)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1819-04-27",
+   "date_display": "June 1816 (story) / April 1819 (dispute)",
+   "eye": "byron",
+   "claim": "The Vampyre is Byron's — denied by Byron himself.",
+   "written": "Attribution printed April 1819, New Monthly Magazine; denial in Byron's letter to Galignani, Venice, 27 April 1819",
+   "form": "later firsthand",
+   "evidence": "The Vampyre (1819); Byron's letters",
+   "confidence": "approx"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1816-06-01",
+   "label": "The rain settles in",
+   "eyes": [
+    "mshelley",
+    "polidori",
+    "pictet"
+   ],
+   "note": "Mary writes of storms and confinement indoors while Polidori house-hunts for both households; Pictet's register shows the June that followed had no clear day. Mood and measurement agree."
+  },
+  {
+   "date": "1816-06-16",
+   "label": "The disputed night",
+   "eyes": [
+    "polidori",
+    "mshelley",
+    "clairmont",
+    "pshelley"
+   ],
+   "note": "Polidori's one-line entry puts all three visitors in Diodati overnight; Mary's 1831 memory gives the vision but no date; astronomers in 2011 chose this night from the moonlight in her story. The only same-day voice says nothing about dreams."
+  },
+  {
+   "date": "1816-06-17",
+   "label": "The contest is on",
+   "eyes": [
+    "byron",
+    "polidori"
+   ],
+   "note": "Byron dates his fragment the same day Polidori writes that everyone but him has started. Byron's story stopped almost at once; Polidori's, begun late, was the one that reached print first."
+  },
+  {
+   "date": "1816-06-18",
+   "label": "Christabel at midnight",
+   "eyes": [
+    "polidori",
+    "pshelley",
+    "byron"
+   ],
+   "note": "Byron performs, Shelley breaks down, Polidori doses him with ether and writes it all down. It is the clearest record of how a shared mood of terror built up in the room — and Mary, who was there, never described it."
+  },
+  {
+   "date": "1816-06-23",
+   "label": "The poets on the lake, the women at home",
+   "eyes": [
+    "pshelley",
+    "byron",
+    "polidori",
+    "mshelley"
+   ],
+   "note": "Shelley and Byron chase Rousseau and nearly drown; Polidori dines with the scientists and spends his days at Mrs Shelley's; Mary, by editors' reckoning, writes. Polidori and Shelley disagree by a day on when the tour began."
+  },
+  {
+   "date": "1816-07",
+   "label": "A summer without sun",
+   "eyes": [
+    "byron",
+    "pictet",
+    "zschokke",
+    "fanny"
+   ],
+   "note": "Byron writes 'Darkness'; Geneva and Aarau register cold and rain; Fanny reports rain every day in London. The poem and the instruments describe the same sky."
+  },
+  {
+   "date": "1816-08-14",
+   "label": "Lewis arrives on the one hot day",
+   "eyes": [
+    "mshelley",
+    "pictet",
+    "lewis",
+    "pshelley"
+   ],
+   "note": "Mary notes Lewis's arrival on the afternoon Geneva records its warmest reading of the year; four days later Percy writes down Lewis's tales. The professional's stories survive only in an amateur's notes."
+  },
+  {
+   "date": "1819-04",
+   "label": "Whose vampire?",
+   "eyes": [
+    "polidori",
+    "byron"
+   ],
+   "note": "The anonymous Geneva letter turns the summer into gossip and puts Byron's name on Polidori's story; Byron's denial and his printing of the 1816 fragment are his reply. The first public telling of the summer was a misattribution."
+  }
+ ],
+ "ties": [
+  {
+   "a": "byron",
+   "b": "polidori",
+   "kind": "met",
+   "note": "Polidori was Byron's paid physician from April to September 1816; Byron dismissed him at Cologny."
+  },
+  {
+   "a": "pshelley",
+   "b": "mshelley",
+   "kind": "relative",
+   "note": "Partners since 1814 with a son born January 1816; they married in London on 30 December 1816."
+  },
+  {
+   "a": "mshelley",
+   "b": "clairmont",
+   "kind": "relative",
+   "note": "Stepsisters, brought up together in Godwin's house; Claire's pursuit of Byron brought the Shelleys to Geneva."
+  },
+  {
+   "a": "clairmont",
+   "b": "byron",
+   "kind": "met",
+   "note": "Lovers in London and again at Geneva; their daughter Allegra was born in January 1817."
+  },
+  {
+   "a": "byron",
+   "b": "pshelley",
+   "kind": "met",
+   "note": "Met on 27 May 1816 and toured the lake together 23 June–1 July, the start of a lasting friendship."
+  },
+  {
+   "a": "polidori",
+   "b": "pictet",
+   "kind": "met",
+   "note": "Polidori tried to call on Pictet on 27 May and dined with him at Diodati on 23 June."
+  },
+  {
+   "a": "polidori",
+   "b": "mshelley",
+   "kind": "read each other",
+   "note": "They read Italian together in May; in 1831 she summarised his ghost story with open mockery."
+  },
+  {
+   "a": "lewis",
+   "b": "pshelley",
+   "kind": "met",
+   "note": "Shelley met Lewis at Diodati and wrote down his ghost stories on 18 August 1816."
+  },
+  {
+   "a": "lewis",
+   "b": "byron",
+   "kind": "influenced",
+   "note": "Lewis read Goethe's Faust aloud to Byron in translation during the August visit."
+  },
+  {
+   "a": "fanny",
+   "b": "mshelley",
+   "kind": "relative",
+   "note": "Half-sisters, both daughters of Mary Wollstonecraft; Fanny wrote to Mary in Geneva and died weeks after Mary's return."
+  },
+  {
+   "a": "godwin",
+   "b": "mshelley",
+   "kind": "relative",
+   "note": "Father and daughter, estranged since 1814; she dedicated Frankenstein to him in 1818."
+  },
+  {
+   "a": "hobhouse",
+   "b": "byron",
+   "kind": "met",
+   "note": "Close friends since Cambridge; Hobhouse joined Byron at Diodati on 26 August and toured the Alps with him in September."
+  },
+  {
+   "a": "pictet",
+   "b": "zschokke",
+   "kind": "influenced",
+   "note": "Two independent Swiss weather series for the same summer, now read together by climate historians to reconstruct 1816."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v2:tambora-1816",
+   "note": "The cold, wet Geneva summer that kept the friends indoors was part of the climate shock that followed the April 1815 eruption of Tambora; the Geneva register and Zschokke's diary are the local face of that global event."
+  },
+  {
+   "to": "waking-ideas",
+   "note": "Mary's account of a vision seen awake, eyes shut, belongs with the other recorded moments when an idea arrived between sleep and waking — and with the same problem of a story told long after the night."
+  },
+  {
+   "to": "v5:grasmere",
+   "note": "The lines of Christabel that sent Shelley out of the room were by Coleridge, whose poem had circulated in manuscript in the Wordsworth circle at Grasmere years before it was printed in 1816."
+  },
+  {
+   "to": "darwin-1837",
+   "note": "Mary's 1831 Introduction says the talk at Diodati turned on the experiments of 'Dr. Darwin' — Erasmus Darwin, grandfather of Charles — and on galvanism and the principle of life."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://batch.artuk.org/discover/stories/sparking-the-gothic-imagination-mary-shelleys-frankenstein-and-polidoris-the-vampyre",
+   "title": "John William Polidori",
+   "caption": "Portrait of Polidori by F. G. Gainsford, about the time of the Geneva summer; he was twenty when he kept the diary.",
+   "date": "c. 1816",
+   "credit": "Francis Gainsford; National Portrait Gallery, London"
+  },
+  {
+   "url": "https://www.album-online.com/detail/en/ZGIwNGQ3MA/edward-finden-diodati-residence-lord-byron-illustration-showing-a-house-alb4064740",
+   "title": "Byron's Residence, Villa Diodati, on the Bank of Lake Geneva",
+   "caption": "Engraving of the villa on the slope above the lake, made for Brockedon's illustrated Byron books in the 1830s — a later view, not drawn in 1816.",
+   "date": "1833–34",
+   "credit": "Edward Finden after William Purser"
+  },
+  {
+   "url": "https://scufrankenstein.omeka.net/exhibits/show/makingthemonster/item/19",
+   "title": "Frontispiece to Frankenstein (1831)",
+   "caption": "Theodor von Holst's frontispiece for the revised edition whose Introduction first told the story of the vision — the image and the account appeared together, fifteen years after the summer.",
+   "date": "1831",
+   "credit": "Theodor von Holst; Colburn and Bentley edition"
+  }
+ ],
+ "further": [
+  {
+   "title": "The Diary of Dr. John William Polidori (1911), Project Gutenberg",
+   "url": "https://www.gutenberg.org/ebooks/55017"
+  },
+  {
+   "title": "History of a Six Weeks' Tour (1817), Project Gutenberg",
+   "url": "https://gutenberg.org/files/52790/52790-h/52790-h.htm"
+  },
+  {
+   "title": "Frankenstein, 1831 text with the author's Introduction, Project Gutenberg",
+   "url": "https://gutenberg.org/files/42324/42324-h/42324-h.htm"
+  },
+  {
+   "title": "Frankenstein Chronology, Shelley-Godwin Archive",
+   "url": "https://shelleygodwinarchive.org/contents/frankenstein/frankenstein-chronology/"
+  },
+  {
+   "title": "Frankenstein's moon: Texas State astronomers on the date of the vision (2011)",
+   "url": "https://news.txst.edu/about/news-archive/press-releases/2011/September-2011/Frankenstein092611.html"
+  },
+  {
+   "title": "Auchmann et al., The summer of 1816 in Geneva, Climate of the Past (2012)",
+   "url": "https://cp.copernicus.org/articles/8/325/2012/"
+  },
+  {
+   "title": "Brönnimann, Synthetic weather diaries: Swiss weather in 1816, Climate of the Past (2020)",
+   "url": "https://cp.copernicus.org/articles/16/1937/2020"
+  },
+  {
+   "title": "The Vampyre; A Tale (1819), Project Gutenberg",
+   "url": "https://gutenberg.org/files/6087/6087-h/6087-h.htm"
+  }
+ ],
+ "vantage_key": "0 = the storytellers who started the contest and the dreamer; 1 = present at Diodati (physician, stepsister, guests); 2 = Geneva's official weather register across the lake; 3 = elsewhere in Switzerland; 4 = London, by letter and diary."
+}

@@ -1,0 +1,1529 @@
+{
+ "id": "waking-ideas",
+ "title": "Waking Ideas: The Night and the Telling",
+ "short_title": "Waking Ideas",
+ "subtitle": "Ideas said to arrive in sleep or reverie, and how long before anyone wrote them down, 1858–1921",
+ "span": "1846–1993 (events 1858–1921)",
+ "intro": [
+  "Between 1858 and 1921 several of the best-known ideas in science and engineering acquired a second history: a story of how they arrived, in a reverie on a bus, by a fire, in a sunset walk, in sleep. This chapter sets those stories beside the dated documents of the same discoveries, so that the reader can see, entry by entry, when each idea was first written down and when its origin story was first told.",
+  "The record ledger is the heart of the chapter. Kekulé's chains and ring were in print in 1858 and 1865; his dreams first appear in a speech of 1890. Tesla's motor is on record in a patent application of 1887 and a lecture of 1888; the walk in Budapest's City Park first appears in a magazine memoir of 1919. Loewi's frog-heart experiment was published in 1921; his double dream comes from his own writings of the 1950s, and even its year shifted in retelling. Ramanujan's letters of 1913 survive, and they never mention the goddess Namagiri, whose part in his work reaches us through family and later biographers.",
+  "Around these principals stand the rivals and the record-keepers. Archibald Scott Couper reached Kekulé's theory weeks later and vanished from science; Josef Loschmidt printed ring formulas in 1861 that Kekulé dismissed; Richard Anschütz, Kekulé's student, restored both rivals and also preserved his teacher's dream speech; in 1984 John Wotiz and Susanna Rudofsky asked whether the dreams were invented, and others answered them. G. H. Hardy, the reader of Ramanujan's letters, stands as the skeptic of the mystical story, and S. R. Ranganathan as one of its first chroniclers.",
+  "Two famous dream stories are included as labelled controls. Mendeleev's periodic table has a dated manuscript and a dream supplied by a colleague's later anecdote. Elias Howe's needle dream has a real patent behind it and no known source at all. Tesla's companion in the park, Antal Szigeti, is given a place though he left no account: he is the witness whose silence shows how much rests on one man's memory.",
+  "Most of the record here is not diary. It is journal papers, patents, letters, a commemorative speech, a serial memoir, obituaries and biographies, each tagged with what it is and whether it is firsthand, later firsthand, secondhand or legend. Modern translations and works still in copyright are summarised; quotations come only from texts printed before 1929, including the 1890 German speech and Tesla's 1919 memoir."
+ ],
+ "calendar_note": "All dates are Gregorian except Mendeleev's Russian dates, which were recorded in the Julian (Old Style) calendar, 12 days behind in the 19th century: 17 February 1869 O.S. is 1 March 1869 N.S., and 6 March O.S. is 18 March N.S. Easter Sunday fell on 4 April 1920 and 27 March 1921, which matters for Loewi's dream: his own account gives 1920, and many retellings give 1921.",
+ "seam": "The dated papers, patents and letters in this chapter rarely contain a dream; the dreams arrive later, in jubilee speeches, magazine memoirs, autobiographies and the mouths of colleagues and families. The ledger measures that gap, from the same day to more than forty years, and shows memory turning a period of work into a single remembered night. Kekulé himself told chemists to dream but to test the dream awake before publishing, and Loewi did exactly that before dawn. Like the reshaped worlds of The Lathe of Heaven, each telling changed the past it described, and the documents are the only fixed points left.",
+ "eyes": [
+  {
+   "id": "kekule",
+   "short": "Kekulé",
+   "name": "Friedrich August Kekulé (from 1895 Kekulé von Stradonitz)",
+   "life": "1829–1896",
+   "role": "Young German chemist in London (1854–55), then Privatdozent in Heidelberg, professor at Ghent (1858–67) and Bonn (1867–96); aged 60 at the Benzolfest of 1890",
+   "side": "German organic chemistry; the structure-theory school",
+   "where": "London; Heidelberg; Ghent; Bonn; Berlin for the 1890 celebration",
+   "lat": 51.05,
+   "lon": 3.72,
+   "waypoints": [
+    {
+     "lat": 51.46,
+     "lon": -0.14,
+     "label": "Clapham Road, London, c. 1855"
+    },
+    {
+     "lat": 49.41,
+     "lon": 8.69,
+     "label": "Heidelberg, 1858 paper"
+    },
+    {
+     "lat": 51.05,
+     "lon": 3.72,
+     "label": "Ghent, 1858–67"
+    },
+    {
+     "lat": 50.73,
+     "lon": 7.1,
+     "label": "Bonn, 1867–96"
+    },
+    {
+     "lat": 52.52,
+     "lon": 13.4,
+     "label": "Berlin, Benzolfest 1890"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the dreamer who told it 35 years later",
+   "form": "published papers (firsthand) and a commemorative speech (later firsthand)",
+   "language": "German, French",
+   "authenticity": "The 1858 Annalen paper and the 1865 Bulletin paper are contemporary records and describe theory, not dreams. The two reveries are known only from his own speech at the Benzolfest of 1890, printed in Berichte der deutschen chemischen Gesellschaft 23 (1890); the German text is public domain, while the much-quoted English version (O. T. Benfey, 1958) is modern and is summarised here. Since 1984 some historians have doubted the reveries; others defend them as plausible reminiscences.",
+   "bio": "Kekulé made carbon's four bonds and its chains the grammar of organic chemistry, then proposed the six-membered benzene ring. In old age he said both ideas had first come to him as half-waking images of dancing atoms and a snake biting its tail. He is the clearest case in this chapter of an insight dated by the person who had it, decades after the fact, before an audience gathered to honour him.",
+   "sources": [
+    {
+     "title": "A. J. Rocke, 'It Began with a Daydream: The 150th Anniversary of the Kekulé Benzene Structure', Angewandte Chemie Int. Ed. 54 (2015) 46–50",
+     "url": "https://www.chem.s.u-tokyo.ac.jp/users/spectrum/Kekule.pdf"
+    },
+    {
+     "title": "K. Hafner, 'August Kekulé – dem Baumeister der Chemie zum 150. Geburtstag', Angewandte Chemie 91 (1979) 685–696 (quotes the 1890 speech in German)",
+     "url": "https://tuprints.ulb.tu-darmstadt.de/server/api/core/bitstreams/1caa0a4d-e43f-408f-aeaa-3da21811f6bc/content"
+    }
+   ]
+  },
+  {
+   "id": "couper",
+   "short": "Couper",
+   "name": "Archibald Scott Couper",
+   "life": "1831–1892",
+   "role": "Scottish chemist working in Adolphe Wurtz's laboratory in Paris, aged 27 in 1858",
+   "side": "Scottish; Paris laboratory of Wurtz",
+   "where": "Paris, then Edinburgh and Kirkintilloch",
+   "lat": 48.85,
+   "lon": 2.34,
+   "waypoints": [
+    {
+     "lat": 48.85,
+     "lon": 2.34,
+     "label": "Wurtz laboratory, Paris, 1856–58"
+    },
+    {
+     "lat": 55.95,
+     "lon": -3.19,
+     "label": "Edinburgh, autumn 1858"
+    },
+    {
+     "lat": 55.94,
+     "lon": -4.15,
+     "label": "Kirkintilloch, later life"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the rival whose paper came 26 days late",
+   "form": "published papers",
+   "language": "French, English",
+   "authenticity": "His paper was presented to the Paris Académie des Sciences on 14 June 1858 and printed in the Comptes rendus, with fuller English and French versions later that year. Wurtz had delayed presenting it. Couper left almost no other record; Richard Anschütz reconstructed his life in 1909.",
+   "bio": "Couper reached tetravalent, chain-forming carbon independently of Kekulé and drew bonds as dotted lines, the first structural diagrams of their kind. After Wurtz held his paper back he protested and reportedly lost his place in the laboratory. He fell seriously ill soon after returning to Scotland and did no further scientific work. He shows what a delay of weeks could mean for the record.",
+   "sources": [
+    {
+     "title": "Encyclopedia.com: Couper, Archibald Scott",
+     "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/archibald-scott-couper"
+    },
+    {
+     "title": "R. Anschütz, 'Life and chemical work of Archibald Scott Couper', Proc. Roy. Soc. Edinburgh (1909)",
+     "url": "https://resolve.cambridge.org/core/journals/proceedings-of-the-royal-society-of-edinburgh/article/xiiilife-and-chemical-work-of-archibald-scott-couper/E2D36691019EF06B92FA44267518233F"
+    }
+   ]
+  },
+  {
+   "id": "loschmidt",
+   "short": "Loschmidt",
+   "name": "Josef Loschmidt",
+   "life": "1821–1895",
+   "role": "Viennese schoolteacher and self-taught chemist and physicist, aged 40 in 1861; later professor at the University of Vienna",
+   "side": "Austrian; outside the university chemistry establishment in 1861",
+   "where": "Vienna",
+   "lat": 48.21,
+   "lon": 16.37,
+   "vantage": 1,
+   "vantage_label": "the drawer of rings who did not dream",
+   "form": "privately circulated booklet (firsthand)",
+   "language": "German",
+   "authenticity": "Chemische Studien I (Vienna: Gerold's Sohn, 1861) survives and was reprinted by Richard Anschütz. Its large circle for the aromatic nucleus is not Kekulé's hexagon, and how far it influenced Kekulé is disputed.",
+   "bio": "In 1861 Loschmidt published several hundred structural formulas drawn with circles and overlapping rings, including a large circle for the benzene nucleus. Kekulé knew the booklet and was dismissive of it. Loschmidt's case is the counterweight to the dream story: ring-like drawings existed in print years before the reverie Kekulé dated to Ghent.",
+   "sources": [
+    {
+     "title": "H. Rzepa, Loschmidt's 1861 structures (Imperial College)",
+     "url": "https://www.ch.ic.ac.uk/rzepa/loschmidt/loschmidt.html"
+    },
+    {
+     "title": "A. J. Rocke, 'It Began with a Daydream: The 150th Anniversary of the Kekulé Benzene Structure', Angewandte Chemie Int. Ed. 54 (2015) 46–50",
+     "url": "https://www.chem.s.u-tokyo.ac.jp/users/spectrum/Kekule.pdf"
+    }
+   ]
+  },
+  {
+   "id": "anschutz",
+   "short": "Anschütz",
+   "name": "Richard Anschütz",
+   "life": "1852–1937",
+   "role": "Kekulé's student and successor at Bonn; later his biographer, aged 77 when the biography appeared",
+   "side": "German chemistry; the Kekulé school",
+   "where": "Bonn",
+   "lat": 50.73,
+   "lon": 7.1,
+   "vantage": 2,
+   "vantage_label": "the student who rebuilt the rivals' record",
+   "form": "biography and historical papers (secondhand)",
+   "language": "German, English",
+   "authenticity": "His 1909 paper on Couper, his reprint of Loschmidt, and his two-volume August Kekulé (Berlin: Verlag Chemie, 1929) are printed works. The biography reprints the 1890 speech and collects letters, so much later retelling depends on it.",
+   "bio": "Anschütz did two things that sit oddly together. He rescued Couper and Loschmidt from obscurity, publishing their work and lives, and he also wrote the standard life of his teacher Kekulé, which carried the dream speech forward. He is the archivist who decided which voices would be heard after the principals had died.",
+   "sources": [
+    {
+     "title": "A. J. Rocke, 'It Began with a Daydream: The 150th Anniversary of the Kekulé Benzene Structure', Angewandte Chemie Int. Ed. 54 (2015) 46–50",
+     "url": "https://www.chem.s.u-tokyo.ac.jp/users/spectrum/Kekule.pdf"
+    },
+    {
+     "title": "K. Hafner, 'August Kekulé – dem Baumeister der Chemie zum 150. Geburtstag', Angewandte Chemie 91 (1979) 685–696 (quotes the 1890 speech in German)",
+     "url": "https://tuprints.ulb.tu-darmstadt.de/server/api/core/bitstreams/1caa0a4d-e43f-408f-aeaa-3da21811f6bc/content"
+    }
+   ]
+  },
+  {
+   "id": "wotiz",
+   "short": "Wotiz",
+   "name": "John H. Wotiz (with Susanna Rudofsky)",
+   "life": "Wotiz 1919–2001",
+   "role": "American chemist and historian of chemistry; with Susanna Rudofsky challenged the Kekulé dreams in 1984",
+   "side": "Modern historians of chemistry (skeptical position)",
+   "where": "United States",
+   "lat": 37.72,
+   "lon": -89.22,
+   "vantage": 4,
+   "vantage_label": "the modern auditor",
+   "form": "modern historical papers (summary only)",
+   "language": "English",
+   "authenticity": "'Kekulé's Dreams: Fact or Fiction?' by Wotiz and Rudofsky appeared in Kagakushi 1984 no. 1 (copy in the Science History Institute archives); Wotiz later edited The Kekulé Riddle (1993). Their argument and the replies by Alan Rocke and others are set out here as positions only.",
+   "bio": "Wotiz and Rudofsky argued that Kekulé's reveries were a later invention that played down earlier ring formulas, especially Loschmidt's. Their critics, chief among them Alan Rocke, accepted that the story was told late and was self-serving but found no proof that it was made up. A debate planned between Rocke and Wotiz did not take place.",
+   "sources": [
+    {
+     "title": "Science History Institute archives: 'Kekule's Dreams – Fact or Fiction', Kagakushi 1984 no. 1",
+     "url": "https://archives.sciencehistory.org/repositories/3/archival_objects/24594"
+    },
+    {
+     "title": "Science History Institute archives: correspondence on an abortive Rocke–Wotiz debate, 1984–1990",
+     "url": "https://sciencehistory.libraryhost.com/repositories/3/archival_objects/24710"
+    }
+   ]
+  },
+  {
+   "id": "tesla",
+   "short": "Tesla",
+   "name": "Nikola Tesla",
+   "life": "1856–1943",
+   "role": "Serbian engineer from the Military Frontier of Austria-Hungary, aged 25 in Budapest in 1882 and working for the telephone exchange there; later an inventor in New York",
+   "side": "Austro-Hungarian Serb; later American",
+   "where": "Budapest (1881–82), Paris and Strasbourg (1882–84), New York (from 1884)",
+   "lat": 47.515,
+   "lon": 19.08,
+   "waypoints": [
+    {
+     "lat": 47.515,
+     "lon": 19.08,
+     "label": "City Park, Budapest, 1882"
+    },
+    {
+     "lat": 48.58,
+     "lon": 7.75,
+     "label": "Strasbourg, 1883"
+    },
+    {
+     "lat": 40.73,
+     "lon": -73.99,
+     "label": "New York, 1884–"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the visionary who told it 37 years on",
+   "form": "patents and a lecture (firsthand); serial memoir (later firsthand)",
+   "language": "English",
+   "authenticity": "The patents (filed 12 October 1887, granted 1 May 1888) and the AIEE lecture of 16 May 1888 are contemporary. The story of the walk in the park is told in My Inventions, a six-part memoir in the Electrical Experimenter (February–June 1919, part III in April), which is public domain. The February 1882 month comes from his later statements.",
+   "bio": "Tesla described the rotating magnetic field arriving complete, mid-recitation of Goethe, as he walked at sunset in Budapest during a period of nervous exhaustion. He said he then built and ran machines entirely in his imagination before touching metal. The public record shows the idea only from 1887–88, and the vision itself only from 1919.",
+   "sources": [
+    {
+     "title": "N. Tesla, 'My Inventions III: My Later Endeavors', Electrical Experimenter, April 1919 (Tesla Universe text)",
+     "url": "https://teslauniverse.com/nikola-tesla/articles/my-inventions-iii-my-later-endeavors"
+    },
+    {
+     "title": "ETHW: Tesla's electro-magnetic motor (patent 381,968; AIEE lecture 16 May 1888)",
+     "url": "https://ethw.org/Tesla's_Electro-magnetic_motor"
+    },
+    {
+     "title": "Tesla Universe: US Patent 381,968",
+     "url": "https://teslauniverse.com/nikola-tesla/patents/us-patent-381968-electro-magnetic-motor"
+    }
+   ]
+  },
+  {
+   "id": "szigeti",
+   "short": "Szigeti",
+   "name": "Antal (Anthony) Szigeti",
+   "life": "dates not established",
+   "role": "No surviving firsthand account found. The friend who, by Tesla's account, walked with him in Budapest's City Park in 1882 and saw the diagrams drawn in the sand",
+   "side": "Hungarian; Tesla's friend",
+   "where": "Budapest",
+   "lat": 47.515,
+   "lon": 19.08,
+   "vantage": 1,
+   "vantage_label": "the silent witness",
+   "form": "none surviving (known only through Tesla)",
+   "language": "Hungarian",
+   "authenticity": "Known only through Tesla's own accounts; the spelling of his name varies (Szigeti, Szigety). No letter, diary or testimony by him describing the walk has been found.",
+   "bio": "Szigeti is the one person said to have been present at the moment of vision, and Tesla wrote that his companion understood the diagrams at once. Because he left no account of his own, the only witness to the walk is the man who had the idea.",
+   "sources": [
+    {
+     "title": "Tesla Science Center: Rotating Field Revelation",
+     "url": "https://teslasciencecenter.org/pivotalmoments/alternating-current/"
+    }
+   ]
+  },
+  {
+   "id": "ramanujan",
+   "short": "Ramanujan",
+   "name": "Srinivasa Ramanujan",
+   "life": "1887–1920",
+   "role": "Self-taught Tamil mathematician, a clerk at the Madras Port Trust on £20 a year, aged 25 when he wrote to Hardy; later Fellow of Trinity College and FRS",
+   "side": "Tamil Iyengar Brahmin; British India",
+   "where": "Madras (1912–14), Cambridge (1914–19), Kumbakonam (1920)",
+   "lat": 13.08,
+   "lon": 80.27,
+   "waypoints": [
+    {
+     "lat": 13.08,
+     "lon": 80.27,
+     "label": "Madras Port Trust, 1913"
+    },
+    {
+     "lat": 52.207,
+     "lon": 0.117,
+     "label": "Trinity College, Cambridge, 1914–19"
+    },
+    {
+     "lat": 10.96,
+     "lon": 79.38,
+     "label": "Kumbakonam, 1920"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the man whose letters say nothing of the goddess",
+   "form": "dated letters (firsthand)",
+   "language": "English (letters); Tamil",
+   "authenticity": "The letters of 16 January and 27 February 1913 survive (Trinity College, Cambridge) and passages were printed in the Collected Papers (1927) and in Hardy's writings. The story that the goddess Namagiri gave him formulae in dreams is not in his own letters; it reaches us through family and friends as reported by later biographers.",
+   "bio": "Ramanujan sent pages of unproved theorems to a stranger in Cambridge and asked for help. His own letters speak of poverty, food, his need for recognition and his results, and nowhere of dreams. The visionary story belongs to later tellers, which makes his case the sharpest example here of a legend gathering around firsthand documents that do not contain it.",
+   "sources": [
+    {
+     "title": "MacTutor: Srinivasa Aiyangar Ramanujan",
+     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ramanujan"
+    },
+    {
+     "title": "Stephen Wolfram, 'Who Was Ramanujan?' (2016), with images of the letters",
+     "url": "https://writings.stephenwolfram.com/2016/04/who-was-ramanujan/"
+    }
+   ]
+  },
+  {
+   "id": "hardy",
+   "short": "Hardy",
+   "name": "Godfrey Harold Hardy",
+   "life": "1877–1947",
+   "role": "Cambridge mathematician, Fellow of Trinity, aged 35 when Ramanujan's first letter arrived",
+   "side": "English; Trinity College, Cambridge",
+   "where": "Cambridge",
+   "lat": 52.207,
+   "lon": 0.117,
+   "vantage": 1,
+   "vantage_label": "the reader of the letters",
+   "form": "dated letters (firsthand) and obituary and lectures (later firsthand)",
+   "language": "English",
+   "authenticity": "His reply of 8 February 1913 survives and is printed in modern editions of the correspondence. His obituary of Ramanujan (Proc. London Math. Soc., 1921) is public domain; his Ramanujan: Twelve Lectures (1940) is in copyright and is summarised.",
+   "bio": "Hardy recognised genius in a packet of formulae and spent years insisting on proofs. He was an atheist and later wrote that Ramanujan's religion seemed to him a matter of observance rather than conviction. His is the skeptical eye on the Namagiri story, and he admitted he had never asked Ramanujan directly where his ideas came from.",
+   "sources": [
+    {
+     "title": "G. H. Hardy, obituary of S. Ramanujan, Proc. London Math. Soc. (2) 19 (1921) xl–lviii (scan)",
+     "url": "https://mathshistory.st-andrews.ac.uk/LMS/ramanujan_lms_obit.pdf"
+    },
+    {
+     "title": "MacTutor: Srinivasa Aiyangar Ramanujan",
+     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ramanujan"
+    }
+   ]
+  },
+  {
+   "id": "ranganathan",
+   "short": "Ranganathan",
+   "name": "S. R. Ranganathan",
+   "life": "1892–1972",
+   "role": "Indian mathematician turned librarian, founder of library science in India; author of the 1967 biography Ramanujan: The Man and the Mathematician",
+   "side": "Indian; Madras mathematical community",
+   "where": "Madras and Bangalore",
+   "lat": 12.97,
+   "lon": 77.59,
+   "vantage": 3,
+   "vantage_label": "the later biographer who wrote down the family story",
+   "form": "biography (secondhand)",
+   "language": "English",
+   "authenticity": "Published 1967 (Asia Publishing House); in copyright, summarised here. It records sayings attributed to Ramanujan by friends, and Robert Kanigel's 1991 biography later carried the family accounts of Namagiri to a wide audience.",
+   "bio": "Ranganathan gathered recollections nearly half a century after Ramanujan's death, including the remark, made to a friend, that an equation had meaning for him only if it expressed a thought of God. His book is a main channel through which the devotional picture of Ramanujan entered print.",
+   "sources": [
+    {
+     "title": "K. Alladi, 'Touched by the Goddess', Inference 2.3 (2016)",
+     "url": "https://inference-review.com/article/touched-by-the-goddess"
+    }
+   ]
+  },
+  {
+   "id": "loewi",
+   "short": "Loewi",
+   "name": "Otto Loewi",
+   "life": "1873–1961",
+   "role": "German-born pharmacologist, professor at Graz from 1909, aged 46 in spring 1920; Nobel laureate 1936; refugee after 1938",
+   "side": "Austrian (Graz); later émigré in Britain and the United States",
+   "where": "Graz; from 1940 New York",
+   "lat": 47.07,
+   "lon": 15.44,
+   "waypoints": [
+    {
+     "lat": 47.07,
+     "lon": 15.44,
+     "label": "Graz, 1909–38"
+    },
+    {
+     "lat": 40.74,
+     "lon": -73.97,
+     "label": "New York University, 1940–61"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the scientist who dreamed the experiment",
+   "form": "journal paper (firsthand); lectures and autobiographical sketch (later firsthand)",
+   "language": "German, English",
+   "authenticity": "The experimental paper 'Über humorale Übertragbarkeit der Herznervenwirkung', Pflügers Archiv 189 (1921) 239–242, is the contemporary record. The dream is told in his later writings, among them From the Workshop of Discoveries (1953) and 'An Autobiographic Sketch', Perspectives in Biology and Medicine 4 (1960) 3–25, which are modern and summarised. His own account places the dream at Easter 1920, though many retellings give Easter 1921.",
+   "bio": "Loewi said that an experiment proving that nerves act through chemicals came to him in sleep on two successive nights. He scribbled it down, could not read his own handwriting, dreamed it again and went straight to the laboratory. The frog hearts worked, and the 'Vagusstoff' turned out to be acetylcholine. His is the only case in this chapter where the dream led directly to a test performed the same night.",
+   "sources": [
+    {
+     "title": "A. N. McCoy & Y. S. Tan, 'Otto Loewi (1873–1961): Dreamer and Nobel laureate', Singapore Med J 55 (2014) 3–4",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4291908"
+    },
+    {
+     "title": "NobelPrize.org: Otto Loewi, biographical",
+     "url": "https://www.nobelprize.org/prizes/medicine/1936/loewi/biographical/"
+    },
+    {
+     "title": "Pflügers Archiv centenary article on Loewi's 1921 paper (2021)",
+     "url": "https://link.springer.com/10.1007/s00424-021-02580-9"
+    }
+   ]
+  },
+  {
+   "id": "mendeleev",
+   "short": "Mendeleev",
+   "name": "Dmitri Ivanovich Mendeleev",
+   "life": "1834–1907",
+   "role": "Professor of chemistry at St Petersburg University, aged 34, writing a textbook, Principles of Chemistry",
+   "side": "Russian Empire",
+   "where": "St Petersburg",
+   "lat": 59.94,
+   "lon": 30.3,
+   "vantage": 0,
+   "vantage_label": "the table-maker given a dream by others",
+   "form": "dated manuscript and printed table (firsthand)",
+   "language": "Russian",
+   "authenticity": "His draft 'Attempt at a system of elements' is dated 17 February 1869 (Old Style) and survives. The dream story is not in his own papers; it comes from a later anecdote attributed to the geologist A. A. Inostrantsev, and historians treat it as doubtful.",
+   "bio": "Mendeleev arranged the elements by atomic weight and chemical family, leaving gaps for elements not yet found. The popular story says the arrangement came to him in a dream. The dated draft shows a working day of crossings-out, and the dream reaches us only through a colleague's recollection.",
+   "sources": [
+    {
+     "title": "Berkeley Lab News Center: 'Twas the night before the periodic table (2019)",
+     "url": "https://newscenter.lbl.gov/2019/12/20/twas-the-night-before-the-periodic-table/"
+    }
+   ]
+  },
+  {
+   "id": "inostrantsev",
+   "short": "Inostrantsev",
+   "name": "Alexander Alexandrovich Inostrantsev",
+   "life": "1843–1919",
+   "role": "Geologist and professor at St Petersburg University, Mendeleev's colleague",
+   "side": "Russian Empire",
+   "where": "St Petersburg",
+   "lat": 59.94,
+   "lon": 30.3,
+   "vantage": 2,
+   "vantage_label": "the colleague who told the dream",
+   "form": "recollection (secondhand)",
+   "language": "Russian",
+   "authenticity": "The anecdote is attributed to Inostrantsev's recollections and survives through later Russian writers; when he first wrote or told it has not been established here.",
+   "bio": "Inostrantsev is said to have found Mendeleev weary at his desk and to have heard from him that he had seen the table in a dream, with only one place needing correction. Whatever Mendeleev said, the story is a colleague's memory, not Mendeleev's own record.",
+   "sources": [
+    {
+     "title": "Berkeley Lab News Center: 'Twas the night before the periodic table (2019)",
+     "url": "https://newscenter.lbl.gov/2019/12/20/twas-the-night-before-the-periodic-table/"
+    }
+   ]
+  },
+  {
+   "id": "howe",
+   "short": "Howe",
+   "name": "Elias Howe",
+   "life": "1819–1867",
+   "role": "American machinist in Cambridge, Massachusetts, aged 27 when he patented his lockstitch sewing machine",
+   "side": "United States",
+   "where": "Cambridge and Boston, Massachusetts",
+   "lat": 42.37,
+   "lon": -71.11,
+   "vantage": 0,
+   "vantage_label": "the inventor with a legend and no source",
+   "form": "patent (official record); dream story (legend)",
+   "language": "English",
+   "authenticity": "His patent, US 4,750 of 10 September 1846, is an official record. The famous story that he dreamed of spears with holes near their points, and so placed the needle's eye at the tip, has no known contemporary source in his own words and is treated here as legend. Eye-pointed needles had also been used before him.",
+   "bio": "Howe's case sits just before the chapter's span as a control: an insight story told everywhere, about a real and well-documented patent, for which no firsthand telling has been found at all. It shows how a dream narrative can attach itself to an invention with no witness behind it.",
+   "sources": [
+    {
+     "title": "US Patent 4,750, E. Howe, 'Sewing-Machine', 10 September 1846 (USPTO record)",
+     "url": ""
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1845",
+   "date_display": "1845 (undated; legend)",
+   "precision": "year",
+   "eye": "howe",
+   "place": "Cambridge, Massachusetts",
+   "headline": "The needle dream that no one recorded",
+   "digest": "Retellings say Howe, stuck on where to put the eye of a machine needle, dreamed of warriors whose spears had holes near the tips, woke and moved the eye to the point. No diary, letter or testimony by Howe telling this story has been found, and no date can be given. It is included as a labelled legend.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Popular retellings; no contemporary source traced. Included under the brief's 'flagged legends'.",
+   "form": "legend",
+   "source_kind": "legend"
+  },
+  {
+   "date_iso": "1846-09-10",
+   "date_display": "10 September 1846",
+   "precision": "day",
+   "eye": "howe",
+   "place": "Washington (US Patent Office)",
+   "headline": "Patent 4,750 issued for a lockstitch machine",
+   "digest": "The US Patent Office granted Howe a patent for a sewing machine combining an eye-pointed needle with a shuttle to form a lockstitch. The patent is a dry technical description and says nothing of how the idea arose. Years of litigation followed, and royalties eventually made him rich.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "US Patent 4,750 (10 Sept 1846).",
+   "form": "official record",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1855",
+   "date_display": "c. 1855 (told in 1890)",
+   "precision": "year",
+   "eye": "kekule",
+   "place": "On a London omnibus, riding home to Clapham",
+   "headline": "Atoms dance on the top deck of a bus",
+   "digest": "As Kekulé told it in 1890, he was lodging in Clapham during his London years and, riding home on the last omnibus one summer evening, fell into a reverie in which atoms whirled before his eyes, larger ones forming chains with smaller ones hanging at the ends. He said he spent part of the night sketching these forms, the beginning of his structure theory. No record of this from the 1850s exists.",
+   "quote": "Während meines Aufenthaltes in London wohnte ich längere Zeit in Clapham road in der Nähe des Common.",
+   "confidence": "approx",
+   "source_note": "Benzolfest speech, Berichte 23 (1890), German text as quoted in Hafner 1979 (fn. 87); Rocke 2015 gives 1855. Benfey's 1958 English translation is modern and summarised.",
+   "form": "speech (later firsthand)",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1858",
+   "date_display": "autumn 1858",
+   "precision": "range",
+   "eye": "couper",
+   "place": "Edinburgh",
+   "headline": "Back in Scotland, Couper's health collapses",
+   "digest": "Couper returned to Edinburgh to assist Lyon Playfair, but soon suffered a severe breakdown and never resumed scientific work. He lived another thirty-four years, mostly in Kirkintilloch, while structure theory became the foundation of organic chemistry under Kekulé's name.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Encyclopedia.com Couper article.",
+   "form": "biographical record (secondhand)",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1858-05-19",
+   "date_display": "19 May 1858",
+   "precision": "day",
+   "eye": "kekule",
+   "place": "Heidelberg",
+   "headline": "Carbon is fourfold and links to itself",
+   "digest": "Kekulé's paper on the constitution and metamorphoses of chemical compounds appeared in the Annalen der Chemie. It argued that carbon is tetravalent and that carbon atoms bond to one another in chains, so that molecules have a definite internal arrangement. Like any research paper of the time it describes reasoning and examples, not how the idea arrived.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Annalen der Chemie 106 (1858) 129–159 (Rocke 2015); publication date 19 May 1858 per Chemické listy article.",
+   "form": "journal paper",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1858-06-14",
+   "date_display": "Monday 14 June 1858",
+   "precision": "day",
+   "eye": "couper",
+   "place": "Paris, Académie des Sciences",
+   "headline": "Couper's chains reach print 26 days late",
+   "digest": "Jean-Baptiste Dumas presented Couper's paper on a new chemical theory to the Académie, after Wurtz had held it back for weeks. It made the same two claims as Kekulé, fourfold carbon and carbon chains, and drew bonds between atoms as lines, a notation closer to modern formulas than anything Kekulé used. Kekulé's paper had already appeared.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Comptes rendus 46 (1858); Encyclopedia.com Couper article; 26-day gap per Chemické listy.",
+   "form": "journal paper",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1858-08",
+   "date_display": "August 1858",
+   "precision": "month",
+   "eye": "kekule",
+   "place": "Heidelberg",
+   "headline": "Kekulé answers Couper on priority",
+   "digest": "Within weeks Kekulé published remarks on Couper's paper, defending his own priority and criticising details of Couper's scheme. A second reply followed in December. The exchange is the first documented sign that the two had reached the same idea independently.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Chemické listy article (Kekulé's replies dated August and December 1858).",
+   "form": "journal note",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1861",
+   "date_display": "1861",
+   "precision": "year",
+   "eye": "loschmidt",
+   "place": "Vienna",
+   "headline": "Loschmidt prints hundreds of formulas, with rings",
+   "digest": "Loschmidt issued Chemische Studien I, a booklet of several hundred structural formulas in which atoms are drawn as circles and overlapping spheres. For aromatic compounds he used a large circle to stand for the benzene nucleus, admitting he could not yet say how it was built. The booklet circulated little.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Chemische Studien I (Wien: Gerold's Sohn, 1861); Rzepa, Imperial College; Rocke 2015.",
+   "form": "booklet",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1862",
+   "date_display": "c. early 1862 (told in 1890)",
+   "precision": "range",
+   "eye": "kekule",
+   "place": "Ghent, by the fire in his study",
+   "headline": "The snake that bit its own tail",
+   "digest": "In the 1890 speech Kekulé said that while working on his textbook in Ghent he turned his chair to the fire and dozed. Atoms again danced, now in long snake-like lines, until one seized its own tail and the figure whirled mockingly before him; he woke as if struck by lightning and worked out the consequences that night. He gave no year; historians place it most likely in early 1862, nearly three years before the paper.",
+   "quote": "Eine der Schlangen erfasste den eigenen Schwanz und höhnisch wirbelte das Gebilde vor meinen Augen.",
+   "confidence": "approx",
+   "source_note": "Berichte 23 (1890), German as quoted in Hafner 1979 (fn. 88, OCR corrected); dating per Rocke 2015.",
+   "form": "speech (later firsthand)",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1862-01",
+   "date_display": "January 1862",
+   "precision": "month",
+   "eye": "kekule",
+   "place": "Ghent",
+   "headline": "Kekulé dismisses Loschmidt's drawings",
+   "digest": "In a letter to his colleague Emil Erlenmeyer, Kekulé is reported to have called Loschmidt's diagrams 'Confusionsformeln', confusing formulas. The remark, later printed in Anschütz's collection, shows that Kekulé had seen ring-like structures in print before the reverie he later placed in Ghent.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Letter as printed by Anschütz (1929); widely cited in the Loschmidt priority debate. Exact date not checked against the edition.",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1865-01-27",
+   "date_display": "Friday 27 January 1865",
+   "precision": "day",
+   "eye": "kekule",
+   "place": "Paris, Société Chimique (read by Wurtz)",
+   "headline": "The benzene ring enters the record",
+   "digest": "Adolphe Wurtz presented Kekulé's short French paper on the constitution of aromatic substances to the Société Chimique de Paris, and it was printed in the Bulletin. It proposed a closed chain of six carbon atoms with alternating bonds. By Kekulé's own later remark the draft had lain among his papers nearly a year.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bulletin de la Société Chimique de Paris 3 (1865) 98–110; Rocke 2015.",
+   "form": "journal paper",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1865-10",
+   "date_display": "October 1865",
+   "precision": "month",
+   "eye": "loschmidt",
+   "place": "Vienna, Imperial Academy",
+   "headline": "Loschmidt estimates the size of a molecule",
+   "digest": "In the same year as Kekulé's benzene paper, Loschmidt presented a paper on the size of air molecules to the Vienna Academy, using kinetic theory to give the first sound estimate of molecular dimensions. The number of molecules in a given volume of gas is still associated with his name. He was a better-known physicist than chemist in his lifetime.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "'Zur Grösse der Luftmoleküle', Sitzungsberichte der kaiserlichen Akademie der Wissenschaften Wien (1865); month from standard accounts.",
+   "form": "academy paper",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1866",
+   "date_display": "early 1866",
+   "precision": "range",
+   "eye": "kekule",
+   "place": "Ghent",
+   "headline": "The full German benzene paper",
+   "digest": "Kekulé published a long German paper in the Annalen working out the ring theory and its predictions for substituted benzenes. It reads as patient argument from isomers and reactions, with no mention of fire, sleep or snakes.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Annalen der Chemie 137 (1866) 129–196 (Rocke 2015).",
+   "form": "journal paper",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1869-03-01",
+   "date_display": "17 February 1869 (O.S.) = 1 March 1869 (N.S.)",
+   "precision": "day",
+   "eye": "mendeleev",
+   "place": "St Petersburg",
+   "headline": "A dated draft of the periodic system",
+   "digest": "Mendeleev drafted and dated a table titled 'Attempt at a system of elements based on their atomic weight and chemical affinity'. The surviving sheets show a working day of rearrangements while he was writing his textbook. Printed copies of the table were sent to chemists soon after.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dated manuscript of 17 Feb 1869 O.S. (Berkeley Lab 2019 gives 17 February 1869).",
+   "form": "dated manuscript",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1869-03-01",
+   "date_display": "event 17 February 1869 (O.S.); told later, date unknown",
+   "precision": "day",
+   "eye": "inostrantsev",
+   "place": "St Petersburg",
+   "headline": "The dream story enters through a colleague",
+   "digest": "Inostrantsev is said to have recalled that Mendeleev told him he had seen in a dream a table in which the elements fell into place, needing correction in only one spot afterwards. The words come from Inostrantsev's later recollection, not from Mendeleev's papers, and the circumstances of the telling are uncertain.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Anecdote attributed to Inostrantsev; quoted by Berkeley Lab 2019. First date of telling not established.",
+   "form": "recollection",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1869-03-18",
+   "date_display": "6 March 1869 (O.S.) = 18 March 1869 (N.S.)",
+   "precision": "day",
+   "eye": "mendeleev",
+   "place": "St Petersburg, Russian Chemical Society",
+   "headline": "The table is presented without its author",
+   "digest": "Mendeleev's paper on the relation between properties and atomic weights was read to the Russian Chemical Society by Nikolai Menshutkin, because Mendeleev was away inspecting cheese dairies. The first public telling of the periodic system came through someone else's voice, a fitting start for a discovery whose origin story would also be told by others.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Standard accounts of the Society's meeting; date conversion O.S.+12 days.",
+   "form": "society paper",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1872",
+   "date_display": "1872",
+   "precision": "year",
+   "eye": "kekule",
+   "place": "Bonn",
+   "headline": "The bonds begin to oscillate",
+   "digest": "Kekulé proposed that benzene's single and double bonds continually exchange places, answering the objection that his fixed ring predicted more isomers than chemists could make. It is a quiet working entry, showing the ring being refined by argument long after its supposed birth by the fire.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Annalen der Chemie 162 (1872) 77–123 (Rocke 2015).",
+   "form": "journal paper",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1882-02",
+   "date_display": "February 1882 (told in 1919)",
+   "precision": "month",
+   "eye": "tesla",
+   "place": "City Park, Budapest",
+   "headline": "Faust at sunset, and the rotating field",
+   "digest": "Recovering from a breakdown in which he said light and sound tormented him, Tesla walked in Budapest's City Park with his friend Szigeti, reciting Goethe's Faust as the sun set. In his account the principle of the rotating magnetic field came in a flash, and he drew the diagrams in the sand with a stick. He wrote this down for publication 37 years later.",
+   "quote": "One afternoon, which is ever present in my recollection, I was enjoying a walk with my friend in the City Park and reciting poetry.",
+   "confidence": "approx",
+   "source_note": "My Inventions III, Electrical Experimenter, April 1919 (Tesla Universe; Tesla Science Center). Month from Tesla's later statements, not from the 1919 text.",
+   "form": "serial memoir (later firsthand)",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1882-02",
+   "date_display": "February 1882 (told by Tesla)",
+   "precision": "month",
+   "eye": "szigeti",
+   "place": "City Park, Budapest",
+   "headline": "The companion who saw the sand drawing",
+   "digest": "According to Tesla, his companion understood the diagrams at once and watched him point to an imaginary motor. Szigeti's own view of that afternoon is unknown: no account by him has been found, and he enters the record only as a figure in Tesla's memoir.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Tesla, My Inventions III (1919); Tesla Science Center page names 'Anthony Szigety'.",
+   "form": "memoir mention (secondhand)",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1883",
+   "date_display": "summer 1883 (told in 1919)",
+   "precision": "range",
+   "eye": "tesla",
+   "place": "Strasbourg",
+   "headline": "The imagined motor turns in metal",
+   "digest": "Working for the Continental Edison company in Strasbourg, Tesla said he built a crude induction motor from spare parts and saw it rotate as he had pictured it. He remembered this as the confirmation of the Budapest idea. Like the park walk, it is known from his later telling.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "My Inventions (1919), as summarised in standard Tesla biographies; not checked word for word.",
+   "form": "serial memoir (later firsthand)",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1887-10-12",
+   "date_display": "12 October 1887",
+   "precision": "day",
+   "eye": "tesla",
+   "place": "New York",
+   "headline": "Patent applications for the polyphase motor",
+   "digest": "Tesla filed the application that became US Patent 381,968 for an electro-magnetic motor driven by out-of-phase alternating currents. The application is the earliest dated official record of the rotating-field idea, more than five years after the remembered walk.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ETHW: Tesla's electro-magnetic motor.",
+   "form": "patent application",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1888-05-01",
+   "date_display": "Tuesday 1 May 1888",
+   "precision": "day",
+   "eye": "tesla",
+   "place": "Washington (US Patent Office)",
+   "headline": "The motor patents are granted",
+   "digest": "The Patent Office granted Patent 381,968 along with related polyphase patents. The drawings show coils arranged around a ring so that the magnetic field sweeps round and drags the rotor with it. Nothing in them refers to Budapest.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ETHW; Tesla Universe patent drawings.",
+   "form": "patent",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1888-05-16",
+   "date_display": "Wednesday 16 May 1888",
+   "precision": "day",
+   "eye": "tesla",
+   "place": "Columbia College, New York (AIEE)",
+   "headline": "Tesla shows his system to the engineers",
+   "digest": "Before the American Institute of Electrical Engineers, Tesla delivered 'A New System of Alternate Current Motors and Transformers', explaining and demonstrating the rotating field. In 1919 he would say these were the very diagrams he had drawn in the sand six years earlier. Westinghouse soon acquired the patents.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ETHW (date, venue, title); My Inventions III for the link to the sand drawings.",
+   "form": "lecture",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1890-03-11",
+   "date_display": "11 March 1890",
+   "precision": "day",
+   "eye": "kekule",
+   "place": "Berlin, City Hall (Benzolfest)",
+   "headline": "Kekulé tells his dreams at his own jubilee",
+   "digest": "At the German Chemical Society's celebration of 25 years of the benzene theory, Kekulé answered the speeches by telling the omnibus and fireside reveries for the first time on record. He urged chemists to learn to dream, then warned them not to publish dreams before the waking mind had tested them. He did not mention Loschmidt.",
+   "quote": "Lernen wir träumen, meine Herren, dann finden wir vielleicht die Wahrheit",
+   "confidence": "approx",
+   "source_note": "Berichte 23 (1890) 1265–1312 (Rocke 2015); German quoted in Hafner 1979, which gives the date as 12 March, while most accounts give 11 March.",
+   "form": "speech (later firsthand)",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1909",
+   "date_display": "1909",
+   "precision": "year",
+   "eye": "anschutz",
+   "place": "Bonn / Edinburgh (Proc. Roy. Soc. Edinburgh)",
+   "headline": "Anschütz rescues Couper",
+   "digest": "Anschütz published a study of Couper's life and work in the Proceedings of the Royal Society of Edinburgh, having traced the forgotten Scot through his papers and family. It established Couper's independent claim to structure theory half a century after the 26-day gap.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Proc. Roy. Soc. Edinburgh paper (Cambridge Core record); Chemické listy cites Anschütz 1909.",
+   "form": "historical paper",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1913",
+   "date_display": "1913",
+   "precision": "year",
+   "eye": "anschutz",
+   "place": "Bonn / Leipzig",
+   "headline": "Loschmidt's booklet reprinted",
+   "digest": "Anschütz edited a reprint of Loschmidt's Chemische Studien, with commentary, putting the 1861 ring drawings back in front of chemists. The reprint later supplied the evidence for those who argued that Kekulé owed more to Loschmidt than he said.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Reprint in Ostwalds Klassiker (year as commonly cited); Chemické listy notes Anschütz republished Loschmidt.",
+   "form": "edited reprint",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1913-01-16",
+   "date_display": "Thursday 16 January 1913",
+   "precision": "day",
+   "eye": "ramanujan",
+   "place": "Madras",
+   "headline": "A clerk introduces himself to Cambridge",
+   "digest": "Ramanujan wrote to Hardy, describing himself as a clerk with no university education who had spent his spare time on mathematics, and enclosed pages of theorems on series, integrals and primes without proofs. He asked Hardy to publish anything of value, since he was poor. The letter speaks only of work and need.",
+   "quote": "I beg to introduce myself to you as a clerk in the Accounts Department of the Port Trust Office at Madras on a salary of only £20 per annum.",
+   "confidence": "verified",
+   "source_note": "Letter headed 'Madras, 16th January 1913' (Hardy 1921 obituary; Global Indian transcription); text as printed in Collected Papers (1927).",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1913-02-08",
+   "date_display": "Saturday 8 February 1913",
+   "precision": "day",
+   "eye": "hardy",
+   "place": "Trinity College, Cambridge",
+   "headline": "Hardy replies: proofs first",
+   "digest": "After reading the theorems with Littlewood, Hardy replied with interest and care. He sorted the results into those already known, those new but curious, and those new and important, and told Ramanujan that he must see proofs before he could judge them properly. He began at once to look for ways to bring him to Cambridge.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "MacTutor (date and content of reply); modern edition, summarised.",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1913-02-27",
+   "date_display": "Thursday 27 February 1913",
+   "precision": "day",
+   "eye": "ramanujan",
+   "place": "Madras",
+   "headline": "'A half starving man' writes again",
+   "digest": "Ramanujan's second letter thanked Hardy for his sympathy, sent more results and explained that writing out full proofs would take more space than a letter allowed. He asked for a letter of support so that he might get a scholarship. Again, he gave no account of where the formulae came from.",
+   "quote": "I am already a half starving man. To preserve my brains I want food and this is my first consideration.",
+   "confidence": "verified",
+   "source_note": "MacTutor quotation; letter of 27 Feb 1913 as printed in Collected Papers (1927).",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1913-12",
+   "date_display": "December 1913 – January 1914 (family story)",
+   "precision": "range",
+   "eye": "ramanujan",
+   "place": "Kumbakonam / Namakkal",
+   "headline": "The mother's dream that cleared the voyage",
+   "digest": "Family accounts say Ramanujan's mother, who opposed a Brahmin's crossing the sea, dreamed that the goddess Namagiri told her not to stand in her son's way. The story is told by later biographers, not in any letter of Ramanujan's or his mother's from that winter. Shortly afterwards he agreed to go to England.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Family story as retold by later biographers (Kanigel 1991; Alladi 2016 summarises it). Not firsthand.",
+   "form": "family account (secondhand)",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1914-04-14",
+   "date_display": "14 April 1914",
+   "precision": "day",
+   "eye": "ramanujan",
+   "place": "London, then Cambridge",
+   "headline": "Ramanujan arrives in England",
+   "digest": "Ramanujan reached England and went to Cambridge to work with Hardy and Littlewood. The war began four months later; his health suffered from cold, diet and isolation, and from 1917 he spent long periods in nursing homes.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "MacTutor.",
+   "form": "biographical record",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1919-02-27",
+   "date_display": "27 February 1919",
+   "precision": "day",
+   "eye": "ramanujan",
+   "place": "England, sailing for India",
+   "headline": "Ramanujan sails home",
+   "digest": "Ill but now a Fellow of the Royal Society and of Trinity, Ramanujan sailed for India, landing on 13 March. In the same weeks, Tesla's memoir was appearing month by month in New York, retelling a vision from 1882.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "MacTutor (sailing and arrival dates).",
+   "form": "biographical record",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1919-04",
+   "date_display": "April 1919",
+   "precision": "month",
+   "eye": "tesla",
+   "place": "New York (Electrical Experimenter)",
+   "headline": "The vision appears in print",
+   "digest": "Part III of My Inventions told the Budapest story at length, including Goethe's lines and the sand drawing, and claimed that the 1888 lecture diagrams were the same ones. Written for a popular magazine and in the voice of an aging celebrity, it fixed the image that most later accounts repeat.",
+   "quote": "the idea came like a flash of lightning and in an instant the truth was revealed.",
+   "confidence": "verified",
+   "source_note": "Electrical Experimenter, April 1919, pp. 864–865, 905, 907–909 (Tesla Universe).",
+   "form": "serial memoir",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1920-01",
+   "date_display": "January 1920",
+   "precision": "month",
+   "eye": "ramanujan",
+   "place": "Madras",
+   "headline": "Last letter: the mock theta functions",
+   "digest": "Weeks before his death, Ramanujan wrote to Hardy that he had found a new class of functions he called 'mock theta functions', with examples. The letter is a working mathematician's report, sent from a sickbed. Its contents took most of the following century to understand.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Letter of January 1920 (usually dated 12 January), printed in Collected Papers (1927); day not checked here.",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1920-04-04",
+   "date_display": "night of 3–4 April 1920, before Easter Sunday (often retold as Easter 1921)",
+   "precision": "day",
+   "eye": "loewi",
+   "place": "Graz",
+   "headline": "Two dreams of the same experiment",
+   "digest": "In Loewi's later account he woke in the night with an idea, scribbled it on a slip of paper and slept again; by morning he could not read the notes. The next night, at about three, the design came back: stimulate the vagus nerve of one frog heart, then pass its fluid to a second heart. He went to the laboratory at once and did it. He tied it to a hypothesis he said he had voiced seventeen years before.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Loewi's later autobiographical account as quoted in McCoy & Tan 2014 ('night before Easter Sunday' 1920); 1903 + 17 = 1920. Easter Sunday fell on 4 April 1920 and 27 March 1921.",
+   "form": "autobiographical account (later firsthand)",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1920-04-26",
+   "date_display": "26 April 1920",
+   "precision": "day",
+   "eye": "ramanujan",
+   "place": "Kumbakonam",
+   "headline": "Ramanujan dies at 32",
+   "digest": "Ramanujan died in Kumbakonam, aged 32. His notebooks and the last letter passed to Hardy and others, and the stories about the source of his ideas began to be gathered by people who outlived him.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "MacTutor.",
+   "form": "biographical record",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1921",
+   "date_display": "1921",
+   "precision": "year",
+   "eye": "loewi",
+   "place": "Graz (Pflügers Archiv 189)",
+   "headline": "Four pages proving the nerve's chemical messenger",
+   "digest": "Loewi's paper on the humoral transmissibility of cardiac nerve action reported that fluid from a heart slowed by vagus stimulation slowed a second heart, and called the agent 'Vagusstoff'. It is a terse experimental report. The Vagusstoff was later identified as acetylcholine.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pflügers Archiv 189 (1921) 239–242 (citation per Springer 2021 article).",
+   "form": "journal paper",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1921",
+   "date_display": "1921",
+   "precision": "year",
+   "eye": "hardy",
+   "place": "Cambridge",
+   "headline": "Hardy's obituary: the mathematics was his",
+   "digest": "Hardy's obituary in the Proceedings of the London Mathematical Society reprinted the opening of the first letter, assessed the work frankly, including results that were false, and noted that friends had helped with the English of the letters. It says nothing of goddesses or dreams.",
+   "quote": "I do not believe that his letters were entirely his own.",
+   "confidence": "verified",
+   "source_note": "Proc. London Math. Soc. (2) 19 (1921), St Andrews scan.",
+   "form": "obituary",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1927",
+   "date_display": "1927",
+   "precision": "year",
+   "eye": "hardy",
+   "place": "Cambridge",
+   "headline": "The Collected Papers print the letters",
+   "digest": "Hardy, with P. V. Seshu Aiyar and B. M. Wilson, edited Ramanujan's Collected Papers, with introductory memoirs and passages from the 1913 letters. The firsthand documents were now in print, without any dream story.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Collected Papers of Srinivasa Ramanujan (Cambridge, 1927); 1920 memoirs by Seshu Aiyar and Ramachandra Rao in J. Indian Math. Soc. 12 (MacTutor).",
+   "form": "edited papers",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1929",
+   "date_display": "1929",
+   "precision": "year",
+   "eye": "anschutz",
+   "place": "Bonn / Berlin (Verlag Chemie)",
+   "headline": "The standard life of Kekulé",
+   "digest": "Anschütz published August Kekulé in two volumes: a life and a collection of papers, letters and speeches including the 1890 address. The dream passages travelled onward from here into textbooks, so the same editor who had restored Couper and Loschmidt also preserved the story that overshadowed them.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Rocke (Image and Reality, abbreviations list; Rocke 2015).",
+   "form": "biography",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1936-12-12",
+   "date_display": "12 December 1936",
+   "precision": "day",
+   "eye": "loewi",
+   "place": "Stockholm",
+   "headline": "Nobel lecture on chemical transmission",
+   "digest": "Loewi, sharing the Nobel Prize with Henry Dale, lectured in Stockholm on the chemical transmission of nerve action, setting the Graz frog-heart experiment in a long chain of evidence. Within two years he would be arrested by the Gestapo after the annexation of Austria and made to surrender his prize money before he could leave.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "NobelPrize.org; McCoy & Tan 2014 (1938 arrest). Lecture date as given by the Nobel Foundation.",
+   "form": "lecture",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1953",
+   "date_display": "1953",
+   "precision": "year",
+   "eye": "loewi",
+   "place": "Lawrence, Kansas (University of Kansas Press)",
+   "headline": "The dream told in lectures",
+   "digest": "In From the Workshop of Discoveries, lectures given in the United States, Loewi described how ideas come to scientists and told his own double dream. More than thirty years separate the night in Graz from this telling.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Loewi, From the Workshop of Discoveries (1953); modern, summarised.",
+   "form": "lectures (later firsthand)",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1960",
+   "date_display": "1960",
+   "precision": "year",
+   "eye": "loewi",
+   "place": "New York",
+   "headline": "An autobiographic sketch",
+   "digest": "A year before his death Loewi published 'An Autobiographic Sketch', retelling the dream, the unreadable note and the 3 a.m. return to the laboratory. He dated it to Easter 1920 and linked it to the idea he had first stated in 1903. Later writers frequently shifted the date to Easter 1921, the year of publication.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Perspectives in Biology and Medicine 4 (1960) 3–25 (cited in Springer 2021 and McCoy & Tan 2014).",
+   "form": "autobiographical sketch",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1967",
+   "date_display": "1967",
+   "precision": "year",
+   "eye": "ranganathan",
+   "place": "Bangalore / Bombay (Asia Publishing House)",
+   "headline": "The devotional Ramanujan enters print",
+   "digest": "Ranganathan's biography gathered sayings of Ramanujan reported by friends, including the remark that an equation meant nothing to him unless it expressed a thought of God. With later family accounts, it helped spread the picture of a mathematician whose results came from Namagiri, often said to have written formulae for him in dreams. None of this is in Ramanujan's own surviving letters.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Ranganathan, Ramanujan: The Man and the Mathematician (1967), as cited by Alladi 2016; modern, summarised.",
+   "form": "biography",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1984",
+   "date_display": "1984",
+   "precision": "year",
+   "eye": "wotiz",
+   "place": "United States (Kagakushi; American chemical meetings)",
+   "headline": "Were Kekulé's dreams made up?",
+   "digest": "Wotiz and Rudofsky argued that no evidence of either reverie predates 1890, that Kekulé had seen Loschmidt's formulas, and that the dream story conveniently gave him a private, unprovable origin for the ring. Defenders replied that late and self-serving does not mean false, and that Loschmidt's circle was not Kekulé's hexagon. The question remains open.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "'Kekulé's Dreams: Fact or Fiction?', Kagakushi 1984 no. 1 (Science History Institute archives); positions summarised.",
+   "form": "historical paper",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1993",
+   "date_display": "1993",
+   "precision": "year",
+   "eye": "wotiz",
+   "place": "United States",
+   "headline": "The Kekulé Riddle",
+   "digest": "Wotiz edited The Kekulé Riddle, a collection pressing the challenge to the dream story and to Kekulé's priority. A planned public debate with Alan Rocke had come to nothing, and the archive keeps their letters about it from 1984 to 1990.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Rocke 2015 (Wotiz as 1993 editor); Science History Institute archives (debate correspondence, 1984–1990).",
+   "form": "edited volume",
+   "source_kind": "secondhand"
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1845",
+   "date_display": "c. 1845",
+   "eye": "howe",
+   "claim": "Dreamed of spears with eyes at their tips, and moved the needle's eye to the point",
+   "written": "No contemporary source found; known from later popular retellings",
+   "form": "legend",
+   "evidence": "No firsthand telling traced; patent of 1846 silent",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1855",
+   "date_display": "c. 1855",
+   "eye": "kekule",
+   "claim": "Saw atoms form chains in a reverie on a London omnibus",
+   "written": "1890, Benzolfest speech, Berlin (about 35 years later)",
+   "form": "later firsthand",
+   "evidence": "Berichte 23 (1890); Hafner 1979",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1858-05-19",
+   "date_display": "19 May 1858",
+   "eye": "kekule",
+   "claim": "Carbon is tetravalent and forms chains",
+   "written": "Same year, Annalen der Chemie 106",
+   "form": "firsthand",
+   "evidence": "Annalen 106 (1858) 129–159",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1858-06-14",
+   "date_display": "14 June 1858",
+   "eye": "couper",
+   "claim": "Same theory reached independently, with bonds drawn as lines",
+   "written": "Same day, presented to the Académie; Comptes rendus 46",
+   "form": "firsthand",
+   "evidence": "Comptes rendus 46 (1858)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1861",
+   "date_display": "1861",
+   "eye": "loschmidt",
+   "claim": "Benzene nucleus drawn as a large circle among hundreds of ring formulas",
+   "written": "1861, Chemische Studien I, Vienna",
+   "form": "firsthand",
+   "evidence": "Chemische Studien I; Anschütz reprint",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1862",
+   "date_display": "c. early 1862",
+   "eye": "kekule",
+   "claim": "A snake of atoms seized its own tail by the fire in Ghent",
+   "written": "1890, Benzolfest speech, Berlin (about 28 years later)",
+   "form": "later firsthand",
+   "evidence": "Berichte 23 (1890); dating per Rocke 2015",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1865-01-27",
+   "date_display": "27 January 1865",
+   "eye": "kekule",
+   "claim": "Benzene is a closed six-carbon ring",
+   "written": "Same day, read to the Société Chimique; Bulletin 3 (1865), with no mention of a dream",
+   "form": "firsthand",
+   "evidence": "Bull. Soc. Chim. Paris 3 (1865) 98–110",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1869-03-01",
+   "date_display": "17 Feb 1869 O.S. (1 Mar N.S.)",
+   "eye": "mendeleev",
+   "claim": "Elements arranged in a periodic system",
+   "written": "Same day, dated manuscript draft",
+   "form": "firsthand",
+   "evidence": "Dated draft, St Petersburg",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1869-03-01",
+   "date_display": "17 Feb 1869 O.S.",
+   "eye": "inostrantsev",
+   "claim": "Mendeleev saw the table in a dream",
+   "written": "Later recollection attributed to Inostrantsev; date of first telling not established",
+   "form": "secondhand",
+   "evidence": "Anecdote quoted in later accounts (e.g. Berkeley Lab 2019)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1882-02",
+   "date_display": "February 1882",
+   "eye": "tesla",
+   "claim": "Rotating magnetic field seen in a flash while reciting Faust in Budapest's City Park",
+   "written": "1919, My Inventions III, Electrical Experimenter, April (37 years later); idea itself first on record in the patent application of 12 Oct 1887",
+   "form": "later firsthand",
+   "evidence": "Electrical Experimenter, April 1919; US Patent 381,968",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1888-05-16",
+   "date_display": "16 May 1888",
+   "eye": "tesla",
+   "claim": "Polyphase motor system explained to the AIEE",
+   "written": "Same day, lecture, printed in the AIEE Transactions",
+   "form": "firsthand",
+   "evidence": "ETHW",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1913-01-16",
+   "date_display": "16 January 1913",
+   "eye": "ramanujan",
+   "claim": "A Madras clerk sends Hardy unproved theorems",
+   "written": "Same day, letter from Madras",
+   "form": "firsthand",
+   "evidence": "Letter (Trinity College); Collected Papers 1927; Hardy 1921",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1913-12",
+   "date_display": "c. Dec 1913",
+   "eye": "ramanujan",
+   "claim": "His mother dreamed Namagiri told her not to block his voyage",
+   "written": "Family accounts in later biographies (Kanigel 1991); no letter of the time",
+   "form": "secondhand",
+   "evidence": "Kanigel 1991; Alladi 2016",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1914",
+   "date_display": "undated (1910s)",
+   "eye": "ranganathan",
+   "claim": "Namagiri gave Ramanujan formulae in dreams",
+   "written": "1967 and later, biographies drawing on family and friends; absent from his own letters",
+   "form": "secondhand",
+   "evidence": "Ranganathan 1967; Kanigel 1991",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1920-04-04",
+   "date_display": "night before Easter Sunday 1920 (retold as 1921)",
+   "eye": "loewi",
+   "claim": "Dreamed, twice, the frog-heart experiment for chemical transmission",
+   "written": "1953 lectures and 1960 autobiographic sketch (33–40 years later); experiment itself in Pflügers Archiv 1921",
+   "form": "later firsthand",
+   "evidence": "Pflügers Archiv 189 (1921); Perspect. Biol. Med. 4 (1960)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1984",
+   "date_display": "1984",
+   "eye": "wotiz",
+   "claim": "Kekulé's dreams may have been invented to obscure Loschmidt's priority",
+   "written": "1984, Kagakushi no. 1; The Kekulé Riddle 1993",
+   "form": "secondhand",
+   "evidence": "Science History Institute archives",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1858-05-19",
+   "label": "Two men, one theory, 26 days apart (19 May – 14 June 1858)",
+   "eyes": [
+    "kekule",
+    "couper"
+   ],
+   "note": "Kekulé in Heidelberg and Couper in Paris published fourfold, chain-forming carbon within a month. Kekulé's paper came out while Wurtz sat on Couper's; Kekulé defended his priority in print, and Couper's career ended that autumn."
+  },
+  {
+   "date": "1862-01",
+   "label": "Rings in print, rings by the fire (1861–62)",
+   "eyes": [
+    "loschmidt",
+    "kekule"
+   ],
+   "note": "Loschmidt's booklet of ring formulas appeared in Vienna in 1861; Kekulé dismissed it in a letter, and by his own much later account dozed by the Ghent fire and saw the snake, probably in early 1862. The dated records and the remembered one sit in the same months."
+  },
+  {
+   "date": "1865",
+   "label": "The year of the ring and the molecule's size (1865)",
+   "eyes": [
+    "kekule",
+    "loschmidt"
+   ],
+   "note": "In January Wurtz read Kekulé's benzene paper in Paris; in October Loschmidt gave the first estimate of molecular size in Vienna. The schoolteacher Kekulé had brushed aside was measuring the very atoms Kekulé was arranging."
+  },
+  {
+   "date": "1869-03-01",
+   "label": "A dated draft and a remembered dream (17 Feb 1869 O.S.)",
+   "eyes": [
+    "mendeleev",
+    "inostrantsev"
+   ],
+   "note": "Mendeleev's manuscript carries the day and its corrections; Inostrantsev's anecdote supplies a dream for the same day. One is firsthand and dated, the other secondhand and undated."
+  },
+  {
+   "date": "1913-01-16",
+   "label": "The letters cross (January–February 1913)",
+   "eyes": [
+    "ramanujan",
+    "hardy"
+   ],
+   "note": "Ramanujan wrote of poverty and theorems; Hardy answered with enthusiasm and a demand for proofs. Neither letter mentions dreams; the Namagiri story would be attached to these weeks only later."
+  },
+  {
+   "date": "1919-02-27",
+   "label": "Late tellings in the same season (early 1919)",
+   "eyes": [
+    "tesla",
+    "ramanujan"
+   ],
+   "note": "While Tesla's memoir appeared month by month in New York from February 1919, recasting a vision of 1882, the ill Ramanujan sailed home from England. One man was shaping his origin story in print; the other's would be shaped by others after his death."
+  },
+  {
+   "date": "1920-04-04",
+   "label": "Spring 1920: a dream in Graz, a death in Kumbakonam",
+   "eyes": [
+    "loewi",
+    "ramanujan"
+   ],
+   "note": "Loewi's remembered double dream falls at Easter 1920, three weeks before Ramanujan died. Loewi tested his idea the same night and lived to tell it forty years later; Ramanujan's last letter carried results without proofs, and the stories about his nights were told by others."
+  },
+  {
+   "date": "1984",
+   "label": "The ledger audited (1909–1993)",
+   "eyes": [
+    "anschutz",
+    "wotiz",
+    "couper",
+    "loschmidt",
+    "kekule"
+   ],
+   "note": "Anschütz restored Couper (1909) and Loschmidt (1913) and also preserved Kekulé's dream speech (1929). Seventy years later Wotiz and Rudofsky used the rivals' restored record to question the dreams, and Kekulé's defenders used the same record to answer them."
+  }
+ ],
+ "ties": [
+  {
+   "a": "kekule",
+   "b": "couper",
+   "kind": "opposite sides",
+   "note": "Rivals for priority in structure theory in 1858; Kekulé published replies to Couper in August and December 1858."
+  },
+  {
+   "a": "kekule",
+   "b": "loschmidt",
+   "kind": "read each other",
+   "note": "Kekulé saw Loschmidt's 1861 booklet and was dismissive of its formulas; he did not mention Loschmidt in the 1890 speech."
+  },
+  {
+   "a": "anschutz",
+   "b": "kekule",
+   "kind": "influenced",
+   "note": "Kekulé's student and successor at Bonn, and author of the two-volume life of 1929 that reprinted the dream speech."
+  },
+  {
+   "a": "anschutz",
+   "b": "couper",
+   "kind": "mentioned",
+   "note": "Anschütz rediscovered Couper's work and published his life in 1909."
+  },
+  {
+   "a": "anschutz",
+   "b": "loschmidt",
+   "kind": "mentioned",
+   "note": "Anschütz republished Loschmidt's Chemische Studien and paid tribute to him."
+  },
+  {
+   "a": "wotiz",
+   "b": "kekule",
+   "kind": "opposite sides",
+   "note": "Wotiz and Rudofsky challenged the truth of Kekulé's reveries in 1984."
+  },
+  {
+   "a": "wotiz",
+   "b": "loschmidt",
+   "kind": "influenced",
+   "note": "The skeptics' case rests largely on Loschmidt's 1861 ring formulas."
+  },
+  {
+   "a": "kekule",
+   "b": "mendeleev",
+   "kind": "met",
+   "note": "Both attended the Karlsruhe Congress of chemists in September 1860, which Kekulé helped organise."
+  },
+  {
+   "a": "mendeleev",
+   "b": "inostrantsev",
+   "kind": "met",
+   "note": "Colleagues at St Petersburg University; the dream anecdote is told in Inostrantsev's voice, not Mendeleev's."
+  },
+  {
+   "a": "tesla",
+   "b": "szigeti",
+   "kind": "met",
+   "note": "Friends in Budapest; by Tesla's account Szigeti was with him in the City Park in 1882."
+  },
+  {
+   "a": "ramanujan",
+   "b": "hardy",
+   "kind": "read each other",
+   "note": "Correspondents from January 1913 and collaborators in Cambridge 1914–19."
+  },
+  {
+   "a": "hardy",
+   "b": "ranganathan",
+   "kind": "opposite sides",
+   "note": "Hardy wrote that Ramanujan's religion seemed to him a matter of observance rather than conviction; Ranganathan's 1967 biography gave the devotional picture."
+  },
+  {
+   "a": "ranganathan",
+   "b": "ramanujan",
+   "kind": "mentioned",
+   "note": "Ranganathan's biography collected sayings and stories about Ramanujan from friends, nearly fifty years after his death."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "dream-books",
+   "note": "That chapter's dreamers treated dreams as messages and recorded them in dream diaries; here the dream is claimed as the origin of a scientific idea, and the record of it usually comes decades later or from someone else."
+  },
+  {
+   "to": "v4:darwin-wallace",
+   "note": "1858 is also the year of Wallace's Ternate letter: the year Kekulé and Couper raced to print, Wallace sent Darwin a theory he later said came to him in a malarial fever, an insight he also described only years afterwards."
+  },
+  {
+   "to": "v4:double-helix",
+   "note": "Kekulé's ring began the habit of reasoning with drawn structures that led, through Pauling's resonance treatment of benzene, to the model building of 1953; the double helix story has its own contested later tellings."
+  },
+  {
+   "to": "v13:wireless-1901",
+   "note": "Tesla's alternating-current system of 1888 led to his later work on wireless power and radio, which put him in the priority disputes around Marconi's transatlantic signal of 1901."
+  },
+  {
+   "to": "v1:ww1",
+   "note": "Ramanujan's years in Cambridge (1914–19) were the war years. Rationing, the cold and the emptied college shaped the illness that sent him home, while Hardy opposed the war inside Trinity."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://teslauniverse.com/nikola-tesla/patents/us-patent-381968-electro-magnetic-motor",
+   "title": "Tesla, US Patent 381,968, Electro-Magnetic Motor",
+   "caption": "Drawings for the motor patent filed 12 October 1887 and granted 1 May 1888, the first dated official record of the rotating-field idea that Tesla later said came to him in 1882.",
+   "date": "1888",
+   "credit": "Nikola Tesla; US Patent Office (via Tesla Universe)"
+  },
+  {
+   "url": "https://writings.stephenwolfram.com/2016/04/who-was-ramanujan/",
+   "title": "Ramanujan's letters to Hardy (reproduced)",
+   "caption": "An essay reproducing pages of Ramanujan's 1913 letters held at Trinity College, Cambridge: firsthand pages full of formulae and requests, with nothing about dreams.",
+   "date": "1913",
+   "credit": "S. Ramanujan; Trinity College, Cambridge (reproduced by Stephen Wolfram)"
+  },
+  {
+   "url": "https://mathshistory.st-andrews.ac.uk/LMS/ramanujan_lms_obit.pdf",
+   "title": "Hardy's obituary of Ramanujan, 1921",
+   "caption": "Scan of the printed obituary in the Proceedings of the London Mathematical Society, which reprinted the opening of the 16 January 1913 letter.",
+   "date": "1921",
+   "credit": "G. H. Hardy; London Mathematical Society (MacTutor scan)"
+  },
+  {
+   "url": "https://www.ch.ic.ac.uk/rzepa/loschmidt/loschmidt.html",
+   "title": "Loschmidt's 1861 structural formulas",
+   "caption": "A chemist's commentary on numbered diagrams from Loschmidt's Chemische Studien I (1861), including his circles for aromatic rings, printed four years before Kekulé's benzene paper.",
+   "date": "1861",
+   "credit": "Josef Loschmidt; commentary by Henry Rzepa, Imperial College"
+  },
+  {
+   "url": "https://www.nobelprize.org/prizes/medicine/1936/loewi/facts/",
+   "title": "Otto Loewi, Nobel laureate 1936",
+   "caption": "Nobel Foundation page with Loewi's portrait and prize motivation for the discovery of chemical transmission of nerve impulses.",
+   "date": "1936",
+   "credit": "Nobel Foundation"
+  }
+ ],
+ "further": [
+  {
+   "title": "A. J. Rocke, 'It Began with a Daydream: The 150th Anniversary of the Kekulé Benzene Structure', Angewandte Chemie Int. Ed. 54 (2015) 46–50",
+   "url": "https://www.chem.s.u-tokyo.ac.jp/users/spectrum/Kekule.pdf"
+  },
+  {
+   "title": "MacTutor biography of Ramanujan",
+   "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ramanujan"
+  },
+  {
+   "title": "K. Alladi, 'Touched by the Goddess' (Inference, 2016) — on the film and the Namagiri legend",
+   "url": "https://inference-review.com/article/touched-by-the-goddess"
+  },
+  {
+   "title": "A. N. McCoy & Y. S. Tan, 'Otto Loewi (1873–1961): Dreamer and Nobel laureate', Singapore Med J 55 (2014) 3–4",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4291908"
+  },
+  {
+   "title": "N. Tesla, 'My Inventions III: My Later Endeavors', Electrical Experimenter, April 1919 (Tesla Universe text)",
+   "url": "https://teslauniverse.com/nikola-tesla/articles/my-inventions-iii-my-later-endeavors"
+  },
+  {
+   "title": "ETHW: Tesla's electro-magnetic motor",
+   "url": "https://ethw.org/Tesla's_Electro-magnetic_motor"
+  },
+  {
+   "title": "P. Ball, 'Chemistry in soft focus' — on the dream narratives",
+   "url": "https://philipball.co.uk/wp-content/uploads/2015/05/chemistry_in_soft_focus.pdf"
+  }
+ ],
+ "vantage_key": "0 = the person who had (or was said to have had) the idea; 1 = a rival or direct correspondent of the time; 2 = a colleague or student who passed the story on; 3 = a later biographer in the same country; 4 = a modern historian at a distance."
+}

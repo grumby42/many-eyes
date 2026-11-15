@@ -1,0 +1,545 @@
+[
+ {
+  "chapter": "diodati-1816",
+  "where": "entry:10",
+  "severity": "error",
+  "problem": "The 1911 diary text for 15 June says only that his foot slipped jumping a wall. The detail about helping Mary up the wet hill comes from Thomas Moore's 1830 Life of Byron, which the editor quotes in a footnote; it is not Polidori's record.",
+  "fix": {
+   "text_replace": {
+    "old": "Polidori hurts his ankle jumping a wall (the editor notes he leapt to help Mary up the wet slope).",
+    "new": "Polidori writes that his foot slipped as he jumped a wall and he strained his left ankle. (A footnote by the 1911 editor quotes Thomas Moore's later account, from Byron, that Byron dared him to jump down and offer his arm to Mary as she walked up the hill after a shower of rain; the diary itself does not mention her.)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "entry:49",
+  "severity": "error",
+  "problem": "The 1831 Introduction says the volumes were 'translated from the German into French'. 'Read in French' blurs this; the summary should say what the text says.",
+  "fix": {
+   "text_replace": {
+    "old": "the German ghost stories read in French",
+    "new": "the volumes of ghost stories 'translated from the German into French'"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "entry:20",
+  "severity": "error",
+  "problem": "The diary for 23 June says he went to town, then 'Walked to Mrs. Shelley', and that Pictet, Odier and Slaney dined with him. It does not say he visited Mrs Shelley in town, and it leaves out Slaney.",
+  "fix": {
+   "text_replace": {
+    "old": "Polidori visits Mrs Shelley in town and hosts a dinner for the physicist Pictet and the physician Odier;",
+    "new": "Polidori goes into town, walks to Mrs Shelley's, and has the physicist Pictet, the physician Odier and Dr Slaney to dinner;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "entry:22",
+  "severity": "doubt",
+  "problem": "Letter III as printed says 'My companion, an excellent swimmer'. The companion is not named in the 1817 text.",
+  "fix": {
+   "text_replace": {
+    "old": "Byron, an excellent swimmer, would have tried to save Shelley",
+    "new": "his companion (Byron, though the printed letter does not name him), an excellent swimmer, would have tried to save Shelley"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "entry:23",
+  "severity": "style",
+  "problem": "The Ouchy letter is now checked against Moore's Life of Byron (1830), vol. 3, which prints it with 'kept by stress of weather' and 'Rousseau's ground with the Heloise before me'.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Byron to John Murray, Ouchy, 27 June 1816, printed in Moore, Life of Lord Byron (1830), vol. 3 (Project Gutenberg #16548): 'kept by stress of weather' … 'traversed all Rousseau's ground with the Heloise before me'."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "entry:31",
+  "severity": "doubt",
+  "problem": "The journal line 'Lewis comes to Diodati' does not say whether Mary met him. 'She did not meet him that day' goes beyond the quoted text.",
+  "fix": {
+   "text_replace": {
+    "old": "Mary's journal notes Monk Lewis's arrival at Byron's villa; she did not meet him that day.",
+    "new": "Mary's journal notes Monk Lewis's arrival at Byron's villa."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "entry:33",
+  "severity": "doubt",
+  "problem": "The Faust reading is known from Byron's own later statement to Murray that Lewis translated much of Faust to him aloud at Diodati in 1816. The source note should name that letter, not only a summary web page.",
+  "fix": {
+   "source_note": "Byron's later letter to John Murray (1820) saying that M. G. Lewis translated much of Faust to him aloud at Coligny in 1816; Romantic Circles 'Summer 1816' page. Exact letter date not checked here."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "entry:39",
+  "severity": "style",
+  "problem": "The retrospective entry carries its own date, 'September 5', and the editor dates it the same way. The quoted 'not suiting' sentence is confirmed.",
+  "fix": {
+   "date_display": "Thursday 5 September 1816 (looking back over July–August)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "entry:40",
+  "severity": "error",
+  "problem": "The quote 'scrambled eight hundred miles to unphilosophize me' is not in Moore (1830). No pre-1929 printing could be found. The letter is cited from Prothero/Marchand without a check, and at 6 words it is over the five-word limit for later editions.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "entry:42",
+  "severity": "error",
+  "problem": "Moore's Life of Byron (1830) prints the Alpine Journal. The 'whole woods of withered pines, all withered; trunks stripped and barkless' passage is under the heading 'September 23', so the day is known.",
+  "fix": {
+   "date_display": "Monday 23 September 1816",
+   "precision": "day",
+   "confidence": "verified",
+   "source_note": "Byron's Alpine Journal for Augusta, entry headed 'September 23', printed in Moore, Life of Lord Byron (1830), vol. 3 (Project Gutenberg #16548); used as a weather test in Brönnimann (2020)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "entry:47",
+  "severity": "error",
+  "problem": "The New Monthly Magazine printing of 1 April 1819 is confirmed. But the first Sherwood, Neely and Jones book edition also gave Lord Byron as author on its title page; later printings dropped his name without adding Polidori's. So 'the book edition names him' is wrong. The Stationers' Hall date is unverified. And Polidori said the groundwork was Byron's, not his own June story.",
+  "fix": {
+   "date_display": "1 April 1819",
+   "confidence": "verified",
+   "digest": "Polidori's tale, built on the outline of Byron's abandoned 1816 fragment, is printed in the New Monthly Magazine as 'A Tale by Lord Byron', with an anonymous 'Extract of a Letter from Geneva' describing the contest secondhand. In the next issue (1 May 1819) Polidori wrote that the groundwork was Byron's but its development his own. The first book edition also carried Byron's name on its title page; later printings removed it."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "eye:polidori",
+  "severity": "doubt",
+  "problem": "Polidori later said the tale he began for the contest was Ernestus Berchtold (1819). The Vampyre was developed from Byron's fragment, and Polidori himself said 'the groundwork is ... Lord Byron's'. Saying the June story 'became The Vampyre' states one reading as fact.",
+  "fix": {
+   "text_replace": {
+    "old": "The ghost story he began that week became The Vampyre (1819).",
+    "new": "His later tale The Vampyre (1819) was built on the outline of Byron's abandoned fragment; Polidori himself said the story he began for the contest became Ernestus Berchtold (1819)."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "intro:1",
+  "severity": "doubt",
+  "problem": "Same issue as on the Polidori eye. Polidori's own contest story is usually identified, on his own word, with Ernestus Berchtold; The Vampyre grew from Byron's fragment.",
+  "fix": {
+   "text_replace": {
+    "old": "Polidori's became The Vampyre (1819);",
+    "new": "Polidori later wrote The Vampyre (1819) on the outline of Byron's fragment;"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "entry:41",
+  "severity": "doubt",
+  "problem": "The September 16 wording is confirmed. 'The ghost story begun in June' leans toward the contested identification of that story with The Vampyre.",
+  "fix": {
+   "text_replace": {
+    "old": "He took with him the ghost story begun in June.",
+    "new": "He took with him the unfinished work of the summer."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "eye:fanny",
+  "severity": "error",
+  "problem": "The Shelleys landed at Portsmouth on 8 September and Fanny died on 9 October 1816. That is about a month, not a fortnight.",
+  "fix": {
+   "text_replace": {
+    "old": "a fortnight after the Shelleys came home",
+    "new": "a month after the Shelleys came home"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "eye:hobhouse",
+  "severity": "error",
+  "problem": "Hobhouse was born on 27 June 1786, so he was 30 when he reached Diodati on 26 August 1816.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 29",
+    "new": "aged 30"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "eye:mshelley",
+  "severity": "doubt",
+  "problem": "Marshall (1889) says the shared journal and Claire's are both lost 'for a year' from May 1815, and the journal resumes on 21 July 1816. So the gap starts in May 1815, not May 1816; the ghost-story weeks are the end of a longer gap.",
+  "fix": {
+   "text_replace": {
+    "old": "The shared journal is missing from May to 20 July 1816",
+    "new": "The shared journal is missing from May 1815 to 20 July 1816"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "entry:48",
+  "severity": "style",
+  "problem": "The 27 April 1819 Venice letter denying authorship of The Vampire exists (autograph letter, Maryland Center for History and Culture, MS 144). It is a letter written at the time about the 1819 publication, so it should be 'firsthand', not 'later firsthand'.",
+  "fix": {
+   "source_kind": "firsthand",
+   "source_note": "Byron to Galignani, Venice, 27 April 1819 (denial of authorship of 'The Vampire'; autograph letter, Maryland Center for History and Culture, MS 144). Wording not checked against a printed text."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "claim:14",
+  "severity": "style",
+  "problem": "Same point for the ledger. The denial was written in 1819 about an 1819 printing, so it is a contemporaneous firsthand record.",
+  "fix": {
+   "form": "firsthand",
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "diodati-1816",
+  "where": "entry:8",
+  "severity": "style",
+  "problem": "Checked against the Auchmann et al. (2012) full text: no cloud-free day in June 1816 (15 in the whole summer); sunrise and 14:00 readings at the old botanical garden on the Bastion St-Léger; afternoon anomalies 3–4 °C; an 80% rise in precipitation-day frequency; 1 high-pressure day against a usual 20; annual maximum 26.9 °C on 14 August. No change needed beyond the confirmation.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:0",
+  "severity": "error",
+  "problem": "The pocket Journal was first printed in full by de Beer (1959), and the cited wording is de Beer's (Life and Letters 1887 paraphrases it). That is post-1928, so the quote is cut to a five-word phrase or less.",
+  "fix": {
+   "quote": "Transmutation of Species"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:1",
+  "severity": "error",
+  "problem": "The marriage memoranda were first printed in the twentieth century (Barlow 1958 / Correspondence 1986). The quote is cut to five words or fewer.",
+  "fix": {
+   "quote": "Camb. Prof. or poor man"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:2",
+  "severity": "error",
+  "problem": "The pocket-journal line is quoted from de Beer (1959), a post-1928 publication, and is longer than five words.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:5",
+  "severity": "error",
+  "problem": "Notebook M was first printed in 1974 (Barrett), so the quote may be at most five words.",
+  "fix": {
+   "quote": "To avoid stating how far"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:6",
+  "severity": "error",
+  "problem": "Notebook M was first printed in 1974, so the 12-word quote is over the five-word limit.",
+  "fix": {
+   "quote": "more toward metaphysics than Locke"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:8",
+  "severity": "error",
+  "problem": "Notebook D was first printed in 1960 (de Beer), so the 30-word 'wedges' quote breaks the five-word limit.",
+  "fix": {
+   "quote": "a hundred thousand wedges"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:9",
+  "severity": "error",
+  "problem": "Notebook E was first printed in 1960–67, so the quote may be at most five words.",
+  "fix": {
+   "quote": "objected to my theory"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:12",
+  "severity": "error",
+  "problem": "Emma's letter of [21–22] November 1838 does not appear in Litchfield's Emma Darwin (1904/1915), whose 1837–39 section was checked. Its first printing appears to be modern (Correspondence vol. 2), so the 18-word quote is cut.",
+  "fix": {
+   "quote": "concealing your opinions"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:13",
+  "severity": "error",
+  "problem": "The Journal wording is de Beer's (1959) transcription, a post-1928 publication, and is over five words.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:16",
+  "severity": "error",
+  "problem": "The Journal wording is de Beer's (1959). Life and Letters (1887) prints a different, edited form ('pencil-sketch'). The quote is over five words and does not match the pre-1929 printing.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:17",
+  "severity": "error",
+  "problem": "The Journal wording is from de Beer (1959), post-1928, and is over five words.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:19",
+  "severity": "error",
+  "problem": "Hooker's letter of 29 January 1844 is not shown to have been printed before Correspondence vol. 3 (1987). The DCP page lists only that edition, so the 47-word quote is cut.",
+  "fix": {
+   "quote": "a gradual change of species"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:24",
+  "severity": "error",
+  "problem": "The Journal wording is from de Beer (1959); Life and Letters gives 'two hundred and thirty-one pages'. The quote is cut to a short phrase.",
+  "fix": {
+   "quote": "in about 230 pages"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:30",
+  "severity": "error",
+  "problem": "The phrase is confirmed in DCP-LETT-789 (it also appears in the 25 November letter to Jenyns). No pre-1929 printing of the Hooker letter was found, so it is cut to five words.",
+  "fix": {
+   "quote": "two sides to the question"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:32",
+  "severity": "error",
+  "problem": "Hooker's 30 December 1844 letter is not known to have been printed before Correspondence vol. 3 (1987), so the quote may be at most five words.",
+  "fix": {
+   "quote": "a 9 days wonder"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:33",
+  "severity": "error",
+  "problem": "No pre-1929 printing of this letter could be confirmed: it is not in the 1844–55 letters of Life and Letters. The 40-word quote is cut to a phrase.",
+  "fix": {
+   "quote": "his zoology far worse"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:35",
+  "severity": "error",
+  "problem": "No pre-1929 printing of the Fox letter could be confirmed: it is not in the 1844–55 letters of Life and Letters. The quote is cut to five words.",
+  "fix": {
+   "quote": "by some attributed to me"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:34",
+  "severity": "error",
+  "problem": "The Life and Letters of Sedgwick (1890) text, as quoted by Today in Science, reads 'If the [Vestiges] be true': 'Vestiges' is an editor's bracketed insertion. The printed original word could not be seen, so the quote now starts at the verified wording. 'The foul book' rests only on Wikipedia and could not be confirmed.",
+  "fix": {
+   "quote": "the labours of sober induction are in vain; religion is a lie;",
+   "headline": "Sedgwick to Lyell: 'religion is a lie' if it is true"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:34",
+  "severity": "doubt",
+  "problem": "The source note relies on Today in Science and Wikipedia rather than the 1890 edition.",
+  "fix": {
+   "text_replace": {
+    "old": "as quoted by Today in Science; the 'foul book' phrase per Wikipedia.",
+    "new": "as quoted by Today in Science (which brackets [Vestiges] as an editorial insertion); not checked against the printed page."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:20",
+  "severity": "style",
+  "problem": "Checked against DCP-LETT-761 (Epsilon): the quote matches word for word, including 'If, as I believe that my theory is true &'. The £400 (or £500), Hensleigh, the marginal Hooker addition and the 'Aug. 1854' endorsement are all confirmed. The letter was printed in Life and Letters (1887).",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:18",
+  "severity": "style",
+  "problem": "Checked: DCP-LETT-729 is editorially dated [11 January 1844] (headed 'Thursday'). The quote matches the DCP transcription exactly, and the letter was printed in Life and Letters (1887).",
+  "fix": {
+   "text_replace": {
+    "old": " One DCP feature page gives 5 January.",
+    "new": ""
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:27",
+  "severity": "style",
+  "problem": "Checked: the DCP-LETT-782 wording matches exactly. Life and Letters printed it as 'co-descendants from common stocks' and dated it 1845; DCP's editors argue for 1844.",
+  "fix": {
+   "text_replace": {
+    "old": "(DCP-LETT-782, Epsilon transcription); year editorial.",
+    "new": "(DCP-LETT-782, Epsilon transcription); year editorial — Life and Letters (1887) printed it, dated 1845."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "Checked: DCP-LETT-793 contains the quote exactly. Footnote 3 confirms there is no record that Jenyns read the essay. The letter's 'wildest day-dream' is singular.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:14",
+  "severity": "style",
+  "problem": "Checked: DCP-LETT-471 contains the quote exactly, the letter was printed in Litchfield's Emma Darwin (1904/1915), and the 'beautiful letter' memo is confirmed. The quote is allowed.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "entry:28",
+  "severity": "doubt",
+  "problem": "The DCP footnotes to DCP-LETT-793 do not say that Jenyns's letter is lost. They say only that there is no record he read the essay. 'Not known to survive' should be hedged.",
+  "fix": {
+   "text_replace": {
+    "old": "the letter is not known to survive",
+    "new": "the letter has not been located by the editors consulted here"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "eye:lyell",
+  "severity": "doubt",
+  "problem": "Letters show only that Darwin did not set out his conclusion to Lyell in writing in 1837–44. Whether Lyell knew it from conversation is a matter of interpretation, so the bio should not imply a verdict.",
+  "fix": {
+   "text_replace": {
+    "old": "The man whose geology made the theory thinkable was among the last of the inner circle to hear it in full.",
+    "new": "On the letters alone, the man whose geology made the theory thinkable was not told it in full in these years; what passed in conversation is not recorded."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "intro:2",
+  "severity": "doubt",
+  "problem": "'Named but not told' is stronger than the record supports, since no surviving letter tells us what was said face to face.",
+  "fix": {
+   "text_replace": {
+    "old": "stand people who were named but not told.",
+    "new": "stand people who were named but, so far as the letters show, not told."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "darwin-1837",
+  "where": "eye:lyell",
+  "severity": "style",
+  "problem": "Lyell was born on 14 November 1797, so in July 1837 he was 39, turning 40 that November.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 40 in 1837",
+    "new": "aged 39–40 in 1837"
+   }
+  },
+  "confidence": "verified"
+ }
+]

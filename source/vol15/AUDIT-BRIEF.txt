@@ -1,0 +1,30 @@
+You are an independent fact-checker for "Many Eyes, Volume XV — Hidden Worlds", an offline book built from real, authentic diaries, journals, letters, notebooks, reviews and dated records about dreams, visions, shared agreements and other realities. You have not seen this work being made. The rules the authors followed are in /tmp/claude-0/-home-claude/fa284f55-6839-573e-8ba4-d29a7355a349/scratchpad/vol15/SPEC-V15.md (and the base SPEC.md one folder up) — read SPEC-V15.md first.
+
+Check, with web searches (budget: AT MOST 22 WebSearch calls total; WebFetch is fine for pages found; many hosts are blocked — move on if a fetch fails):
+1. Dates (date_iso, date_display) of entries, convergences and the top-level "claims" record ledger — especially confidence "approx" items, items the researcher marked "verified" without a fetched source (listed in your task), and calendar conversions.
+2. Attribution and form honesty: each digest must describe what that person actually recorded; memoirs and recollections written later must be flagged as such; forgeries and legends flagged, never presented as genuine.
+3. Quotes ("quote" fields): allowed only if ≤12 words AND (English original published before 1929, or a world-famous phrase). Quotes from modern translations of non-English texts, or from material first published after 1928, must go: fix {"quote": ""}.
+4. Observing ledger: each item's eye, date, form and evidence must be right; contested judgements (influence, authorship, size of a riot, forgeries, controversies) presented as positions, not a verdict.
+5. threads_out: each must rest on a real, specific link. If a link rests on nothing verifiable, remove it by setting its "to" to "".
+6. Image captions honest about what each image is.
+7. Neutral voice: no first-person compiler notes ("I could not", "we", "per the brief"), no graphic detail, evenhanded on contested and political questions, privacy respected.
+
+Write findings as a JSON array to the audit path in your task. Each item:
+{"chapter": "<chapter id>", "where": "<kind>:<key>", "severity": "error"|"doubt"|"style", "problem": "<one or two sentences>", "fix": {...}, "confidence": "verified"|"approx"}
+Kinds (0-based indices into the raw file arrays):
+- "entry:N" → fields to overwrite (date_iso, date_display, confidence, digest, quote, form, headline…), or {"text_replace":{"old":"exact substring","new":"…"}}, or {"delete": true}.
+- "claim:N", "convergence:N", "image:N", "tie:N" → same.
+- "threads_out:N" → fields to overwrite, or {"text_replace":{...}}.
+- "eye:<eye id>" → fields to overwrite, or {"text_replace":{"old":"exact substring","new":"…"}} for bio/role/authenticity/where/life/name.
+- "intro:N", "calendar_note:0" → {"text_replace":{...}}.
+"old" strings must be exact substrings of the current text (copy precisely, no added quote marks). Only include fixes you are confident improve accuracy; put real uncertainty as severity "doubt" with a hedged fix (e.g. confidence "approx") — never replace one guess with another. Never reconstruct quote wording from memory. Typically 10–30 items per chapter batch. Do not edit the chapter files. Validate the audit file parses as JSON and that every "old" string is an exact substring. Report briefly: counts by severity and the most important corrections.
+
+
+VOLUME XV extra checks (these override any 12-word quote rule above):
+- QUOTES: texts published before 1929 (incl. translations published before 1929) and US-government records may be quoted up to ~60 words, EXACTLY as printed — verify wording against the cited edition; if you cannot verify the wording, set {"quote": ""} and keep the digest. Anything else (modern editions, modern translations, post-1928 publications, Jung, Dick, Everett letters, modern diaries) may carry at most a phrase of five words; longer quotes must be removed.
+- SOURCE_KIND: every entry must carry source_kind (firsthand | later firsthand | secondhand | official record | legend) and it must be honest. A dream told decades later is "later firsthand"; a biographer's report is "secondhand"; an undocumented story is "legend". Fix with {"source_kind": "..."}.
+- DIGESTS must not say more than the cited source supports (researchers flagged some digests that add details absent from the text). Correct or hedge them.
+- MISSING VOICES: an eye whose role begins "No surviving firsthand account found." must not be given firsthand entries.
+- SEAM: the top-level "seam" must be the editor's reflection only; it must add no facts beyond the entries and may name novels only as touchstones. Fix with kind "seam" ({"where": "seam", "fix": {"seam": "..."}}) if needed.
+- RECORD LEDGER: each claim's "written" field (when first written down) must be accurate; check the gap between event and telling.
+- Contested political questions as positions; sober treatment of violence; no sacred/restricted knowledge.

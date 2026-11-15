@@ -1,0 +1,532 @@
+[
+ {
+  "chapter": "clean-slates",
+  "where": "entry:0",
+  "severity": "style",
+  "problem": "The digest says twice that every contract dated that year carried the year-name.",
+  "fix": {
+   "digest": "Babylonian years were named after a notable royal act, and every loan and sale dated that year carried the name. Hammurabi's second year was named for establishing justice in the land, the formula scholars connect with a misharum act at the start of a reign."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "entry:6",
+  "severity": "doubt",
+  "problem": "The ANET (Finkelstein) text says the arrears are cancelled up to the month Nisan of the year 'Ammi-saduqa the king…' (year 1). Nisan is the cut-off, not the month from which the edict took effect.",
+  "fix": {
+   "text_replace": {
+    "old": "effective from the month Nisan",
+    "new": "arrears cancelled up to the month Nisan"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "entry:7",
+  "severity": "doubt",
+  "problem": "The ANET (Finkelstein) text says the arrears are cancelled up to the month Nisan of the year 'Ammi-saduqa the king…' (year 1). Nisan is the cut-off, not the month from which the edict took effect.",
+  "fix": {
+   "text_replace": {
+    "old": "effective from the month Nisan",
+    "new": "arrears cancelled up to the month Nisan"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "entry:8",
+  "severity": "doubt",
+  "problem": "The ANET (Finkelstein) text says the arrears are cancelled up to the month Nisan of the year 'Ammi-saduqa the king…' (year 1). Nisan is the cut-off, not the month from which the edict took effect.",
+  "fix": {
+   "text_replace": {
+    "old": "effective from the month Nisan",
+    "new": "arrears cancelled up to the month Nisan"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "entry:9",
+  "severity": "doubt",
+  "problem": "The ANET (Finkelstein) text says the arrears are cancelled up to the month Nisan of the year 'Ammi-saduqa the king…' (year 1). Nisan is the cut-off, not the month from which the edict took effect.",
+  "fix": {
+   "text_replace": {
+    "old": "effective from the month Nisan",
+    "new": "arrears cancelled up to the month Nisan"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "entry:10",
+  "severity": "doubt",
+  "problem": "The ANET (Finkelstein) text says the arrears are cancelled up to the month Nisan of the year 'Ammi-saduqa the king…' (year 1). Nisan is the cut-off, not the month from which the edict took effect.",
+  "fix": {
+   "text_replace": {
+    "old": "effective from the month Nisan",
+    "new": "arrears cancelled up to the month Nisan"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "entry:11",
+  "severity": "doubt",
+  "problem": "The ANET (Finkelstein) text says the arrears are cancelled up to the month Nisan of the year 'Ammi-saduqa the king…' (year 1). Nisan is the cut-off, not the month from which the edict took effect.",
+  "fix": {
+   "text_replace": {
+    "old": "effective from the month Nisan",
+    "new": "arrears cancelled up to the month Nisan"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "entry:5",
+  "severity": "style",
+  "problem": "The ANET translation cites the year by its year-name, 'Year in which King Ammiditana remitted the debts which the land had contracted', and glosses it '= year 21'. Year 21 is the modern identification, and the source note should say so.",
+  "fix": {
+   "source_note": "Ammi-saduqa edict §2, which names the starting year as 'the year in which King Ammi-ditana remitted the debts which the land had contracted'; identification with his 21st year is the editors' (Finkelstein, ANET 3rd ed. 1969; RA 63, 1969)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "claim:3",
+  "severity": "doubt",
+  "problem": "The edict cites the remission by its year-name, so that year was officially named for the act and contracts of the year would have carried the name. 'Written only c. 1646 BC' overstates the gap. The earliest text read here is still the son's edict.",
+  "fix": {
+   "written": "in Ammi-ditana's own reign as a year-name ('the year King Ammi-ditana remitted the debts of the land'), which the edict cites; the earliest text used here is his son's edict, c. 1646 BC",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "eye:ammi-saduqa",
+  "severity": "error",
+  "problem": "Ni 632 belongs to the Istanbul Nippur collection (the 'Ni' siglum), so not all copies come from Sippar. In the ANET apparatus it is ms. A, BM 78259 is B and BM 80289 is C.",
+  "fix": {
+   "text_replace": {
+    "old": "Babylon; the copies come from northern Babylonia (Sippar)",
+    "new": "Babylon; surviving copies include British Museum tablets from Sippar and a Nippur tablet in Istanbul"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "claim:4",
+  "severity": "error",
+  "problem": "Ni 632 is a Nippur tablet in Istanbul, not one of the Sippar copies.",
+  "fix": {
+   "written": "year 1 of the reign, as a written edict; surviving copies Ni 632 (Nippur collection, Istanbul; ms. A), BM 78259 and BM 80289 (British Museum; mss. B and C)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "entry:32",
+  "severity": "error",
+  "problem": "The quote comes from J. H. Vince's Loeb translation (1935), which is under copyright. At 7 words it is over the five-word limit for copyrighted text, and the source note wrongly says it is within that limit.",
+  "fix": {
+   "quote": "",
+   "source_note": "Demosthenes 24.149, tr. J. H. Vince (Loeb, 1935), via Perseids; paraphrased because the translation is in copyright."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "entry:33",
+  "severity": "error",
+  "problem": "The phrase in quotation marks, 'moving what should not be moved', matches no printed translation. R. G. Bury's Loeb translation (1926, public domain) renders the cry as 'Hands off'. The 684d–e passage is confirmed; 736c–e was not checked.",
+  "fix": {
+   "text_replace": {
+    "old": "meets an outcry against 'moving what should not be moved'",
+    "new": "is met by a universal cry of 'Hands off' (Bury's 1926 rendering)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "Checked: Shorey's translation (1930–35, in copyright) has the rising tyrant who 'hints at the abolition of debts and the partition of lands' at Republic 565e–566a. The digest is accurate, so this can be marked verified.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Plato, Republic 565e–566a (Stephanus), checked in Shorey's translation via Perseids; paraphrased (translation in copyright)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "entry:34",
+  "severity": "style",
+  "problem": "Checked: [Demosthenes] 17.15 (Vince, 1930) does list no confiscation, no partition of lands, no cancelling of debts and no freeing of slaves for revolution. The entry can be marked verified. The speech's date (c. 336–331 BC) is disputed.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "[Demosthenes] 17.15 (On the Treaty with Alexander), checked in Vince's translation (1930) via Perseids; paraphrased. The speech's date (c. 336–331 BC) and author are uncertain."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "eye:athenian-courts",
+  "severity": "style",
+  "problem": "Speech 17 is in Vince's volume I (1930); only speech 24 is in the 1935 volume.",
+  "fix": {
+   "text_replace": {
+    "old": "English editions read (Vince, 1935) are under copyright",
+    "new": "English editions read (Vince, 1930 and 1935) are under copyright"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "entry:21",
+  "severity": "style",
+  "problem": "Checked: Perrin (1914, public domain) at Solon 16 reads that the Athenians 'offered a public sacrifice, which they called Seisactheia, or Disburdenment'. The entry can be marked verified, and this exact wording can serve as the quote.",
+  "fix": {
+   "confidence": "verified",
+   "quote": "offered a public sacrifice, which they called Seisactheia, or Disburdenment",
+   "source_note": "Plutarch, Solon 16, tr. Perrin (1914), via lexundria.com."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "entry:23",
+  "severity": "style",
+  "problem": "The lifting of the siege, which the digest relies on, is told in Jeremiah 34:21–22, not in verses 10–17.",
+  "fix": {
+   "source_note": "Jeremiah 34:10–17 (re-enslavement and oracle) and 34:21–22 (the Babylonian army 'gone up'), KJV."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "image:0",
+  "severity": "error",
+  "problem": "The University of Saskatchewan page describes a black-resin replica 96 × 76 × 5.5 cm. That is not full-size: the original stela is about 114 cm high and 28 cm thick.",
+  "fix": {
+   "text_replace": {
+    "old": "A full-size resin replica of the basalt stela",
+    "new": "A resin replica of the basalt stela"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "entry:41",
+  "severity": "style",
+  "problem": "The University of Saskatchewan page gives Rashid as the find-place (1799) but does not mention a fort. The source note credits it with more than it says.",
+  "fix": {
+   "source_note": "Rosetta decree, closing clause (Fordham Sourcebook translation); found at Rashid in 1799 (University of Saskatchewan Museum of Antiquities page). The fort is not mentioned there."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "eye:plato",
+  "severity": "style",
+  "problem": "The bio contains a compiler's note ('the brief asked for').",
+  "fix": {
+   "text_replace": {
+    "old": " He is the critic's voice that the brief asked for.",
+    "new": " He gives the critic's view."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "entry:13",
+  "severity": "style",
+  "problem": "Checked against Kenyon (MIT). The quote is exact. In the printed text 'Seisachtheia' is followed by a bracketed gloss, and the quote correctly stops before it. No change needed beyond noting this.",
+  "fix": {
+   "source_note": "Constitution of the Athenians 6.1, tr. Kenyon (MIT); quote checked, printed text continues '[= removal of burdens]'."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "entry:1",
+  "severity": "style",
+  "problem": "Checked: the quote matches the Gutenberg text of Johns 1904 §117 word for word. The printed sentence has '[as hostage]' earlier, so it is not in the quoted part. No change is needed to the wording.",
+  "fix": {
+   "source_note": "Code of Hammurabi §117, Johns 1904 translation (Project Gutenberg 28674); quote checked against the Gutenberg text. Stele date range is the conventional late-reign dating."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "clean-slates",
+  "where": "entry:42",
+  "severity": "style",
+  "problem": "HGV gives the date as 'nach 28. Apr. 118 v.Chr.', meaning the decree was issued after the cut-off, which agrees with the display. The place of writing is Kerkeosiris and the find-spot Tebtunis. Checked; no change to dates.",
+  "fix": {
+   "source_note": "P.Tebt. 1 5, opening lines; papyri.info HGV 2938 (date 'after 28 April 118 BC'); English via attalus.org (credited to A. Dollinger after APIS, translator not named)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "entry:2",
+  "severity": "error",
+  "problem": "ACI Prensa does not attribute the burial exchange to Ana, and it gives Teresa's reply as '¿Tengo que decidirlo yo?', not a remark about a hole in the ground. Only the words 'ha llegado la hora' are told as said to Ana. The digest says more than the source supports.",
+  "fix": {
+   "digest": "A few days after arriving, Teresa told Ana that her hour had come. Fr Antonio de Heredia gave her the last sacraments and asked where she wished to be buried; in the account summarised by ACI Prensa she answered with a question of her own. The words 'ha llegado la hora' are addressed to Ana; the summary does not say which witness recorded the burial exchange.",
+   "source_note": "ACI Prensa, 'Últimos años' (words to Ana; Heredia and burial question, source not named)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "entry:5",
+  "severity": "style",
+  "problem": "France's 9 → 20 December 1582 is confirmed by French sources such as Europe 1 ('20 décembre 1582, l'adoption du calendrier grégorien en France'). The date can be marked verified. Montaigne's own dated note still does not survive.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Montaigne's own dated note does not survive; French date sequence 9 → 20 December 1582 (Henri III's edict) per standard French accounts (e.g. Europe 1, 'Aujourd'hui dans l'Histoire')."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "entry:7",
+  "severity": "doubt",
+  "problem": "The DNB names the bishops (Grindal, Aylmer, Piers, Young) and their reason but gives no date for their advice. 'Spring 1583' is not supported by the source.",
+  "fix": {
+   "date_display": "1583 (after Dee's treatise; the DNB gives no date for the bishops' advice)",
+   "precision": "year",
+   "date_iso": "1583"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "claim:4",
+  "severity": "doubt",
+  "problem": "The DNB gives no date for the bishops' advice.",
+  "fix": {
+   "date_display": "1583 (date not given in the DNB)",
+   "date_iso": "1583"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "entry:13",
+  "severity": "style",
+  "problem": "Royal assent on 22 May 1751 (O.S.; 2 June N.S.) is confirmed by the standard accounts of the Act. The entry can be marked verified.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Act text on legislation.gov.uk; royal assent 22 May 1751 O.S. per standard accounts of the Calendar (New Style) Act 1750."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "claim:7",
+  "severity": "style",
+  "problem": "The royal assent date is confirmed.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "entry:16",
+  "severity": "doubt",
+  "problem": "The Parkman Project text for 2 September 1752 shows his daughter among the visitors and, in the evening, Dr Willson and Deacon Burnap from Hopkinton. 'Mr Stone and his wife' and 'Mr Forbush from Brookfield' could not be confirmed, so the digest should name only the confirmed visitors.",
+  "fix": {
+   "digest": "Parkman, still weak from illness, described himself as dull and heavy. He listed visitors who came to see him, his daughter among them, and in the evening Dr Willson and Deacon Burnap from Hopkinton. He wrote nothing about the calendar. The next entry in his diary is dated the 14th."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "entry:18",
+  "severity": "error",
+  "problem": "Parkman's 1752 diary was first printed after 1928, in the American Antiquarian Society edition and the online transcription. Under the Volume XV rule only a phrase of five words or fewer may be quoted. The 17-word quote is cut to an exact, checked four-word phrase.",
+  "fix": {
+   "quote": "advanc'd into the Fall"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "eye:wesley",
+  "severity": "style",
+  "problem": "Wesley reached Gorey on the Friday evening (15 September), not on the 14th, when he was at the bog of Boira. His journal entry says so.",
+  "fix": {
+   "waypoints": [
+    {
+     "lat": 51.898,
+     "lon": -8.475,
+     "label": "Cork, late August 1752"
+    },
+    {
+     "lat": 52.259,
+     "lon": -7.11,
+     "label": "Waterford, 2 September (O.S.)"
+    },
+    {
+     "lat": 52.676,
+     "lon": -6.294,
+     "label": "Gorey, 15 September (N.S.)"
+    },
+    {
+     "lat": 53.349,
+     "lon": -6.26,
+     "label": "Dublin, 16–18 September"
+    }
+   ]
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "eye:wesley",
+  "severity": "style",
+  "problem": "The Wesley Center Online footnote was checked, but which edition it comes from was not. 'Curnock' is unverified.",
+  "fix": {
+   "text_replace": {
+    "old": "the standard edition (Curnock) adds the footnote",
+    "new": "the edition used here adds an editor's footnote"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "entry:24",
+  "severity": "error",
+  "problem": "In FRUS the note is dated 'the 19th day of the 11th month of the 5th year Meiji', which is 19 December 1872. De Long received it 'on yesterday', i.e. 20 December. The entry dates the note 20 December (11th month, 20th day).",
+  "fix": {
+   "date_iso": "1872-12-19",
+   "date_display": "Meiji 5, 11th month, 19th day (Gregorian 19 December 1872); received by De Long on 20 December",
+   "confidence": "verified",
+   "source_note": "FRUS 1873, document No. 248, enclosure 1 (Soejima's note, dated 19th day of the 11th month, Meiji 5); receipt the day before De Long's dispatch of 21 December."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "entry:25",
+  "severity": "error",
+  "problem": "The count of years from Emperor Jimmu (the 2,533rd year) is in Soejima's note, not in De Long's reply. The reply congratulates Japan on a more convenient system and speaks of 'the great antiquity of His Majesty's throne'.",
+  "fix": {
+   "text_replace": {
+    "old": "He praised the convenience of the reform and flattered the court about the era count from Emperor Jimmu printed on the new calendars.",
+    "new": "He praised the convenience of the reform and, answering the note's count of years from Emperor Jimmu, complimented 'the great antiquity of His Majesty's throne'."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "eye:delong",
+  "severity": "error",
+  "problem": "FRUS prints it as document No. 248, but De Long's own dispatch number is 324. The bio repeats the misplaced Jimmu attribution.",
+  "fix": {
+   "text_replace": {
+    "old": "Dispatch No. 248, De Long to Secretary of State Hamilton Fish",
+    "new": "Dispatch No. 324 (FRUS document No. 248), De Long to Secretary of State Hamilton Fish"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "eye:delong",
+  "severity": "error",
+  "problem": "The Jimmu era count came from Soejima's note. De Long only complimented the throne's antiquity.",
+  "fix": {
+   "text_replace": {
+    "old": "He also flattered the court about the new era count from Emperor Jimmu printed on the 1873 calendars.",
+    "new": "Answering the note's count of years from Emperor Jimmu, he also complimented the antiquity of the throne."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "entry:30",
+  "severity": "doubt",
+  "problem": "The source consulted (a Gendai Business photo caption) supports only that Ōkuma's reminiscences link the switch to paying monthly officials twelve salaries rather than thirteen, and it presents even that as 'it is said'. 'The government was short of money in 1872' is not supported by that source.",
+  "fix": {
+   "text_replace": {
+    "old": "The government was short of money in 1872, and the calendar was one way to save it. ",
+    "new": "Secondary accounts present this as one explanation alongside the official reason of aligning with Western calendars. "
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "entry:35",
+  "severity": "style",
+  "problem": "Okayannye dni is to be summarised, but the headline puts the compiler's own 8-word English translation in quotation marks as if it were Bunin's words.",
+  "fix": {
+   "headline": "By their reckoning, Bunin notes, it is already the 18th"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "entry:33",
+  "severity": "doubt",
+  "problem": "The cited source (Scientific Russia) confirms the signing on 26 January (O.S.) but gives no publication date.",
+  "fix": {
+   "text_replace": {
+    "old": "The decree was signed and published two days after adoption,",
+    "new": "The decree was signed on 26 January (O.S.), two days after adoption,"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "intro:2",
+  "severity": "style",
+  "problem": "'The first and best reflection' is an editorial value judgement; the voice should stay neutral.",
+  "fix": {
+   "text_replace": {
+    "old": "Montaigne wrote the first and best reflection:",
+    "new": "Montaigne wrote the earliest reflection here:"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "entry:9",
+  "severity": "style",
+  "problem": "Checked against Luminarium (Florio 1603). The opening sentence, 'Oh how many changes…' and 'It was a right remooving… it's owne place:' all match as printed. No change.",
+  "fix": {
+   "source_note": "Florio (1603), Essayes III.11, Renascence Editions text (quote checked); French original 1588."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "missing-days",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "Checked: the Azbyka text heads the first entry '1 января (старого стиля).' Bunin's first publication (Vozrozhdenie, 1925–26) predates 1929, but the chapter keeps to summary, and two-word Russian phrases are within any limit. No change.",
+  "fix": {
+   "source_note": "Okayannye dni, opening heading '1 января (старого стиля)' (Azbyka text, checked)."
+  },
+  "confidence": "verified"
+ }
+]

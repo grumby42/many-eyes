@@ -1,0 +1,1527 @@
+{
+ "id": "everett-1957",
+ "title": "One Wave Function, Three Readings",
+ "short_title": "Everett's Relative States",
+ "subtitle": "Hugh Everett III's relative-state idea read in Princeton, Copenhagen and Chapel Hill, 1955–1959 (with codas to 1977)",
+ "span": "1955–1977",
+ "intro": [
+  "In 1955 and 1956 a Princeton graduate student, Hugh Everett III, wrote out a proposal that the quantum wave function never collapses. A measuring observer, on this view, does not see one outcome chosen by chance; the observer becomes correlated with every outcome, and each version of the observer has a definite record relative to its own branch. The idea later became famous as 'many worlds', a name Everett himself did not use.",
+  "This chapter follows the idea as it passed from hand to hand. In Princeton, his adviser John Wheeler admired it and worried about its language. In Copenhagen, where Wheeler carried it in May 1956, Niels Bohr's circle read it as a misunderstanding of what physics is for. At Chapel Hill, North Carolina, home of the January 1957 gravitation conference, Bryce DeWitt first rejected it and later championed it. One text, read in three places, produced three different theories of what it meant.",
+  "The record is almost entirely letters, drafts and notes, not diaries. Most of it was found in 2007–2009 in a basement belonging to Everett's son, Mark, and is scanned in the UC Irvine 'Hugh Everett III Manuscripts', alongside copies from the Wheeler papers at the American Philosophical Society and the Niels Bohr Archive. Because these are modern and under copyright, everything here is summarised, with links to the scans.",
+  "Two famous stories, that the idea arrived after a 'slosh or two of sherry' and that the 1959 meeting with Bohr was 'hell', exist only as Everett's recollections in a conversation recorded by Charles Misner in 1977. They are labelled as later accounts. Bohr himself left no known written comment on Everett; his view reaches us only through Wheeler, Petersen and Everett. Nancy Gore, who typed the long thesis and married Everett in 1957, left no firsthand account found for this chapter.",
+  "Everett left physics for the Pentagon in mid-1956, before the thesis was finished, and never returned. The theory spent the next thirteen years mostly in other people's letters until DeWitt's 1970 Physics Today article made it famous."
+ ],
+ "calendar_note": "All dates are Gregorian. One UC Irvine catalogue title gives Everett's letter to Petersen as '31 June 1957'; the item's own metadata gives 31 May 1957, which is used here. Wheeler's notes of his conversation with Bohr are dated 4 May 1956 by UC Irvine and 3 May 1956 by a published study, so they are given as a range.",
+ "eyes": [
+  {
+   "id": "everett",
+   "short": "Everett",
+   "name": "Hugh Everett III",
+   "life": "1930–1982",
+   "role": "Princeton graduate student in physics (aged 24–26), Wheeler's doctoral student; from mid-1956 an analyst at the Pentagon's Weapons Systems Evaluation Group (WSEG)",
+   "side": "Princeton; then US defence analysis",
+   "where": "Princeton, then Arlington/Washington area; Copenhagen in spring 1959; Austin in 1977",
+   "lat": 40.3487,
+   "lon": -74.6593,
+   "waypoints": [
+    {
+     "lat": 40.3487,
+     "lon": -74.6593,
+     "label": "Princeton, 1954–56"
+    },
+    {
+     "lat": 38.8719,
+     "lon": -77.0563,
+     "label": "WSEG, Pentagon, from mid-1956"
+    },
+    {
+     "lat": 55.6967,
+     "lon": 12.5716,
+     "label": "Copenhagen, spring 1959"
+    },
+    {
+     "lat": 30.2849,
+     "lon": -97.7341,
+     "label": "Austin, 1977"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "author of the idea",
+   "form": "drafts, thesis, dated letters, later recollection",
+   "language": "English",
+   "authenticity": "Drafts, carbon copies and letters were found in 2007–2009 by his son Mark Everett and the journalist Peter Byrne in Mark Everett's basement and are scanned in the UC Irvine 'Hugh Everett III Manuscripts'. Copyright is held by the Everett estate, so everything here is summarised. His accounts of the idea's origin and of the 1959 Bohr meeting come from a conversation recorded in May 1977 and are later recollections.",
+   "bio": "Everett proposed that the quantum wave function never collapses: an observer who measures becomes correlated with each outcome, so every outcome has its own 'relative state' of the observer. He wrote it out in Princeton in 1955–56, cut it down under pressure for the 1957 thesis, and then left academic physics for military operations research and, later, his own consulting firms. He rarely spoke about the theory in public afterwards.",
+   "sources": [
+    {
+     "title": "Hugh Everett III Manuscripts (Calisphere)",
+     "url": "https://calisphere.org/collections/28/"
+    },
+    {
+     "title": "Long thesis with handwritten corrections",
+     "url": "https://calisphere.org/item/ark:/81235/d81c1tv5z"
+    },
+    {
+     "title": "Everett to DeWitt, 31 May 1957",
+     "url": "https://calisphere.org/item/ark:/81235/d8bc3t979/"
+    }
+   ]
+  },
+  {
+   "id": "wheeler",
+   "short": "Wheeler",
+   "name": "John Archibald Wheeler",
+   "life": "1911–2008",
+   "role": "Princeton professor of physics, aged 44–46; Everett's thesis adviser; in spring 1956 a visitor at the Lorentz Institute, Leiden",
+   "side": "Princeton; long-time collaborator of Bohr",
+   "where": "Princeton; Leiden and Copenhagen in spring 1956; Chapel Hill in January 1957",
+   "lat": 40.3487,
+   "lon": -74.6593,
+   "waypoints": [
+    {
+     "lat": 52.1601,
+     "lon": 4.497,
+     "label": "Leiden, spring 1956"
+    },
+    {
+     "lat": 55.6967,
+     "lon": 12.5716,
+     "label": "Copenhagen, early May 1956"
+    },
+    {
+     "lat": 40.3487,
+     "lon": -74.6593,
+     "label": "Princeton, autumn 1956"
+    },
+    {
+     "lat": 35.9049,
+     "lon": -79.0469,
+     "label": "Chapel Hill, January 1957"
+    },
+    {
+     "lat": 30.2849,
+     "lon": -97.7341,
+     "label": "Austin, 1977"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "adviser and go-between",
+   "form": "dated letters, telegram, notes, published assessment",
+   "language": "English",
+   "authenticity": "Originals are in the John A. Wheeler papers at the American Philosophical Society or among Everett's papers; UC Irvine holds scanned reproductions. Modern copyright, so summarised.",
+   "bio": "Wheeler believed Everett's mathematics mattered and was also Bohr's devoted student. He carried the long thesis to Copenhagen, absorbed the criticism, and steered Everett towards a shorter, more cautious version presented as compatible with Bohr. His letters show a man trying to keep both of his loyalties.",
+   "sources": [
+    {
+     "title": "Wheeler to Everett, 26 May 1956",
+     "url": "https://calisphere.org/item/ark:/81235/d8tb0z800"
+    },
+    {
+     "title": "Wheeler to Everett, 17 Sept 1956",
+     "url": "https://calisphere.org/item/ark:/81235/d8rn30m9v"
+    }
+   ]
+  },
+  {
+   "id": "petersen",
+   "short": "Petersen",
+   "name": "Aage Petersen",
+   "life": "1927–1983",
+   "role": "Niels Bohr's personal assistant (from 1952), aged about 27–32; spent a year in Princeton with Bohr from autumn 1954",
+   "side": "Copenhagen, Bohr's Institute for Theoretical Physics",
+   "where": "Princeton in 1954–55; Copenhagen thereafter",
+   "lat": 55.6967,
+   "lon": 12.5716,
+   "waypoints": [
+    {
+     "lat": 40.3487,
+     "lon": -74.6593,
+     "label": "Princeton, 1954–55"
+    },
+    {
+     "lat": 55.6967,
+     "lon": 12.5716,
+     "label": "Copenhagen, 1956–59"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "friend in the opposing camp",
+   "form": "dated letters and telegram",
+   "language": "English",
+   "authenticity": "Petersen's letters to Everett survive among Everett's papers; his letter to Wheeler is in the Wheeler papers (APS). UC Irvine scans. Summarised.",
+   "bio": "Petersen argued with Everett over sherry in Princeton and remained his friend, so his letters are blunter than anything else from Copenhagen. He relayed Bohr's invitations and the group's verdict on the 1957 preprints, and helped host Everett's 1959 visit.",
+   "sources": [
+    {
+     "title": "Petersen to Everett, 28 May 1956",
+     "url": "https://calisphere.org/item/ark:/81235/d8n01068r"
+    },
+    {
+     "title": "Petersen to Everett, 24 April 1957",
+     "url": "https://ucispace.lib.uci.edu/bitstream/handle/10575/1180/petersen%20to%20everett%2024-april-1957.pdf?sequence=1"
+    }
+   ]
+  },
+  {
+   "id": "bohr",
+   "short": "Bohr",
+   "name": "Niels Bohr",
+   "life": "1885–1962",
+   "role": "No surviving firsthand account found. Bohr's own written comment on Everett's thesis has not been located in the digitised record; his views reach us through Wheeler's notes of their May 1956 talks, Petersen's letters and Everett's later recollection. Aged 70–73, head of the Institute for Theoretical Physics, Copenhagen.",
+   "side": "Copenhagen",
+   "where": "Copenhagen",
+   "lat": 55.6967,
+   "lon": 12.5716,
+   "vantage": 1,
+   "vantage_label": "the authority being addressed",
+   "form": "none of his own; reported by others",
+   "language": "Danish / English",
+   "authenticity": "No letter or note by Bohr about Everett has been found in the UC Irvine collection; everything attributed to him here is secondhand.",
+   "bio": "Bohr held that quantum mechanics must be stated in terms of classical descriptions of measuring arrangements. Everett's proposal, which put the observer inside a single wave function, ran against that, and everything known of Bohr's response comes through other people's pens.",
+   "sources": [
+    {
+     "title": "Wheeler to Everett, 26 May 1956 (with notes of Bohr conversation)",
+     "url": "https://calisphere.org/item/ark:/81235/d8tb0z800"
+    }
+   ]
+  },
+  {
+   "id": "stern",
+   "short": "Stern",
+   "name": "Alexander W. Stern",
+   "life": "dates not confirmed",
+   "role": "American physicist and engineer working at Bohr's institute in Copenhagen through much of the 1950s and 1960s",
+   "side": "Copenhagen (American visitor)",
+   "where": "Copenhagen",
+   "lat": 55.6967,
+   "lon": 12.5716,
+   "vantage": 2,
+   "vantage_label": "seminar leader in Copenhagen",
+   "form": "dated letter",
+   "language": "English",
+   "authenticity": "Found in Mark Everett's basement in 2007; scanned at UC Irvine. Summarised..",
+   "bio": "Stern ran a seminar on the thesis after Wheeler left Copenhagen and reported the room's reaction in a long letter. His is the only record of how a group of Copenhagen physicists discussed the long thesis together.",
+   "sources": [
+    {
+     "title": "Stern to Wheeler, 20 May 1956",
+     "url": "https://calisphere.org/item/ark:/81235/d8wd3qf2r"
+    }
+   ]
+  },
+  {
+   "id": "misner",
+   "short": "Misner",
+   "name": "Charles W. Misner",
+   "life": "1932–2023",
+   "role": "Princeton graduate student, Everett's friend and fellow Wheeler student; later professor at Maryland",
+   "side": "Princeton",
+   "where": "Princeton; Chapel Hill in January 1957; Copenhagen in 1959",
+   "lat": 40.3487,
+   "lon": -74.6593,
+   "waypoints": [
+    {
+     "lat": 40.3487,
+     "lon": -74.6593,
+     "label": "Princeton, 1954–57"
+    },
+    {
+     "lat": 35.9049,
+     "lon": -79.0469,
+     "label": "Chapel Hill, January 1957"
+    },
+    {
+     "lat": 55.6967,
+     "lon": 12.5716,
+     "label": "Copenhagen, 1959"
+    },
+    {
+     "lat": 30.2849,
+     "lon": -97.7341,
+     "label": "Austin, 1977"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "friend at the sherry table",
+   "form": "marginal notes, conference talk, recorded conversation (1977)",
+   "language": "English",
+   "authenticity": "His notes appear to be among the marginalia on Wheeler's reply to Stern (attribution made by the UC Irvine cataloguers). His May 1977 recorded conversation with Everett is cited by historians; a transcript was not seen for this chapter.",
+   "bio": "Misner was there on the night the idea came up and, two decades later, the one who switched on a recorder and asked Everett how it had happened. In between he was one of the few people defending the theory in writing.",
+   "sources": [
+    {
+     "title": "Wheeler to Stern, 25 May 1956 (with marginal notes)",
+     "url": "https://calisphere.org/item/ark:/81235/d81z4264v"
+    }
+   ]
+  },
+  {
+   "id": "dewitt",
+   "short": "DeWitt",
+   "name": "Bryce S. DeWitt",
+   "life": "1923–2004",
+   "role": "Physicist, director of the Institute of Field Physics, University of North Carolina at Chapel Hill; co-organiser of the January 1957 conference",
+   "side": "Chapel Hill",
+   "where": "Chapel Hill",
+   "lat": 35.9049,
+   "lon": -79.0469,
+   "waypoints": [
+    {
+     "lat": 35.9049,
+     "lon": -79.0469,
+     "label": "Chapel Hill, 1957–70"
+    },
+    {
+     "lat": 30.2849,
+     "lon": -97.7341,
+     "label": "Austin, 1977"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "sceptical reader, later champion",
+   "form": "dated letter; published article",
+   "language": "English",
+   "authenticity": "His 1957 letter survives in two copies (Wheeler's and the secretary's copy sent to Everett, which lacks some sentences). The 1970 article is published in Physics Today. Modern copyright; summarised.",
+   "bio": "DeWitt first rejected the branching outright because he could not feel himself split, was answered by Everett, and thirteen years later became the theory's loudest advocate. He gave it the name by which it is known and published the long thesis.",
+   "sources": [
+    {
+     "title": "DeWitt to Wheeler, 7 May 1957 (Wheeler's copy)",
+     "url": "https://calisphere.org/item/ark:/81235/d8qr4p42k/"
+    },
+    {
+     "title": "DeWitt, 'Quantum mechanics and reality', Physics Today 1970",
+     "url": "https://cqi.inf.usi.ch/qic/deWitt1970.pdf"
+    }
+   ]
+  },
+  {
+   "id": "feynman",
+   "short": "Feynman",
+   "name": "Richard P. Feynman",
+   "life": "1918–1988",
+   "role": "Caltech theoretical physicist, aged 38; Wheeler's former doctoral student; a speaker at Chapel Hill",
+   "side": "Caltech",
+   "where": "Chapel Hill conference",
+   "lat": 35.9049,
+   "lon": -79.0469,
+   "waypoints": [
+    {
+     "lat": 34.1377,
+     "lon": -118.1253,
+     "label": "Pasadena"
+    },
+    {
+     "lat": 35.9049,
+     "lon": -79.0469,
+     "label": "Chapel Hill, January 1957"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "conference critic",
+   "form": "conference transcript (official record)",
+   "language": "English",
+   "authenticity": "His remarks survive in the edited transcript issued as WADC Technical Report 57-216 (Wright Air Development Center, which funded the meeting), reissued by Edition Open Sources in 2011. The exact wording on the Everett passage was not seen for this chapter.",
+   "bio": "Feynman cared about whether a theory could be tested. At Chapel Hill he discussed where in an amplifier chain the 'amplitude' is lost, and the report's editors say he characterised the universal wave function as many worlds in order to reject it.",
+   "sources": [
+    {
+     "title": "The Role of Gravitation in Physics (Edition Open Sources)",
+     "url": "https://edition-open-sources.org/sources/5/toc.html"
+    }
+   ]
+  },
+  {
+   "id": "groenewold",
+   "short": "Groenewold",
+   "name": "Hilbrand J. Groenewold",
+   "life": "1910–1996",
+   "role": "Professor of theoretical physics, Rijksuniversiteit Groningen; former doctoral student of Léon Rosenfeld",
+   "side": "Groningen; close to Copenhagen",
+   "where": "Groningen",
+   "lat": 53.2194,
+   "lon": 6.5665,
+   "vantage": 2,
+   "vantage_label": "outside reader of both drafts",
+   "form": "dated letter",
+   "language": "English",
+   "authenticity": "Letter of 11 April 1957 survives with Everett's point-by-point annotations; an earlier letter was forwarded by Wheeler in September 1956. Summarised.",
+   "bio": "Groenewold read the long thesis in Copenhagen and the preprint a year later. He thought the short version clearer but objected on technical grounds; Everett's annotations on his letter show how irritated the author had become.",
+   "sources": [
+    {
+     "title": "Groenewold to Wheeler, 11 April 1957",
+     "url": "https://calisphere.org/item/ark:/81235/d8vd6pj4g"
+    }
+   ]
+  },
+  {
+   "id": "rosenfeld",
+   "short": "Rosenfeld",
+   "name": "Léon Rosenfeld",
+   "life": "1904–1974",
+   "role": "Belgian theoretical physicist, Bohr's close collaborator; professor at Manchester, then at Nordita, Copenhagen, from 1958",
+   "side": "Copenhagen school",
+   "where": "Manchester; Chapel Hill (January 1957); Copenhagen",
+   "lat": 55.6967,
+   "lon": 12.5716,
+   "waypoints": [
+    {
+     "lat": 53.4668,
+     "lon": -2.2339,
+     "label": "Manchester, to 1958"
+    },
+    {
+     "lat": 35.9049,
+     "lon": -79.0469,
+     "label": "Chapel Hill, January 1957"
+    },
+    {
+     "lat": 55.6967,
+     "lon": 12.5716,
+     "label": "Copenhagen, Nordita, 1958–74"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "defender of the orthodox view",
+   "form": "conference transcript; dated letters",
+   "language": "English / French",
+   "authenticity": "Letters survive in the Niels Bohr Archive; UC Irvine holds reproductions of the 1959 and 1972 letters. Modern copyright; summarised.",
+   "bio": "Rosenfeld became the Copenhagen school's sharpest critic of Everett, in letters rather than print. His tone hardened over time and he still thought the matter closed in 1972.",
+   "sources": [
+    {
+     "title": "Rosenfeld to Bergmann, 21 Dec 1959",
+     "url": "https://calisphere.org/item/ark:/81235/d8h12vm9f"
+    },
+    {
+     "title": "Rosenfeld to Belinfante, 31 Oct 1972",
+     "url": "https://calisphere.org/item/ark:/81235/d8th8c150"
+    }
+   ]
+  },
+  {
+   "id": "eisner",
+   "short": "Eisner",
+   "name": "Elmer Eisner",
+   "life": "dates not found",
+   "role": "Geophysicist at Texaco, Houston",
+   "side": "US industry",
+   "where": "Houston",
+   "lat": 29.7604,
+   "lon": -95.3698,
+   "vantage": 3,
+   "vantage_label": "reader of the published paper",
+   "form": "dated letter",
+   "language": "English",
+   "authenticity": "Letter to Wheeler survives among Everett's papers; Wheeler's reply is not in the collection. Summarised.",
+   "bio": "Eisner is the one voice from outside academic physics: an industrial scientist who read the July 1957 papers and wrote in. His letter shows the idea reaching an ordinary technical reader within months.",
+   "sources": [
+    {
+     "title": "Eisner to Wheeler, 24 Nov 1957",
+     "url": "https://calisphere.org/item/ark:/81235/d81c1tv4g"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1955",
+   "date_display": "1955",
+   "precision": "year",
+   "eye": "everett",
+   "place": "Princeton",
+   "headline": "A minipaper explains the idea with splitting amoebas",
+   "digest": "Before drafting a thesis, Everett wrote three short papers for Wheeler. 'Probability in Wave Mechanics' sets out the core claim without heavy mathematics, using the picture of an amoeba that divides: each daughter carries the same memories up to the split and a different future after it. Several handwritten drafts and a typed version with his own corrections survive.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Typed draft, 1955, UC Irvine: https://calisphere.org/item/ark:/81235/d80r9mh7g",
+   "form": "draft paper",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1955",
+   "date_display": "1955",
+   "precision": "year",
+   "eye": "wheeler",
+   "place": "Princeton",
+   "headline": "Wheeler's pencil goes into the margins",
+   "digest": "The final typed copy of the amoeba minipaper that Wheeler read carries his pencilled comments in the margins. It is the earliest surviving trace of the adviser handling the idea, and of his unease with the vivid language of splitting.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Minipaper with Wheeler's comments, UC Irvine: https://calisphere.org/item/ark:/81235/d8794173q",
+   "form": "annotated draft",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1956-01",
+   "date_display": "January 1956",
+   "precision": "month",
+   "eye": "everett",
+   "place": "Princeton",
+   "headline": "The long thesis goes to Wheeler",
+   "digest": "Everett submitted a long thesis to Wheeler, then titled 'Quantum Mechanics by the Method of the Universal Wave Function'. It treats the observer as an ordinary physical system inside one wave function that never collapses, and spends chapters on information theory and a survey of other answers to the measurement problem.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "UC Irvine catalogue of the long thesis: https://calisphere.org/item/ark:/81235/d81c1tv5z",
+   "form": "thesis draft",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1956-04",
+   "date_display": "April 1956",
+   "precision": "month",
+   "eye": "everett",
+   "place": "Princeton",
+   "headline": "Retitled and sent abroad: Wave Mechanics Without Probability",
+   "digest": "The long thesis was retitled 'Wave Mechanics Without Probability' and circulated in April 1956 to several physicists, among them Bohr in Copenhagen. A scanned title page survives. According to later accounts Nancy Gore, whom Everett married the next year, typed the manuscript.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Title page, UC Irvine: https://calisphere.org/item/ark:/81235/d8rx93s8w/; Nancy Gore typing per Wikipedia biography",
+   "form": "thesis draft",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1956-04-24",
+   "date_display": "24 April 1956",
+   "precision": "day",
+   "eye": "wheeler",
+   "place": "Leiden",
+   "headline": "Wheeler writes to Bohr to arrange a visit",
+   "digest": "From the Lorentz Institute, Wheeler wrote to Bohr setting up a visit to Copenhagen, listing what he hoped to discuss and saying he was about to send Petersen a draft of the long thesis. According to historians who have read it, he asked whether any escape from Everett's kind of formalism exists once several observers are included.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Excerpted letter, APS reproduction at UC Irvine: https://calisphere.org/item/ark:/81235/d88s4k294; content per Osnaghi et al. as summarised in https://dialnet.unirioja.es/descarga/articulo/5251244.pdf",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1956-05-03",
+   "date_display": "3–4 May 1956",
+   "precision": "range",
+   "eye": "wheeler",
+   "place": "Copenhagen",
+   "headline": "Notes from talks with Bohr",
+   "digest": "Wheeler took notes on his conversations with Bohr about the thesis; the UC Irvine catalogue dates the conversation 4 May, a published study dates the notes 3 May. Wheeler later called them three long, strong discussions. The notes travelled to Everett with his letter of 26 May.",
+   "quote": "three long and strong discussions",
+   "confidence": "approx",
+   "source_note": "Enclosure with Wheeler to Everett, 26 May 1956: https://calisphere.org/item/ark:/81235/d8tb0z800; Freire, The Quantum Dissidents (2015): https://link.springer.com/chapter/10.1007/978-3-662-44662-1_3; SciAm (Byrne)",
+   "form": "notes",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1956-05-03",
+   "date_display": "early May 1956",
+   "precision": "range",
+   "eye": "bohr",
+   "place": "Copenhagen",
+   "headline": "Bohr hears the thesis argued in person",
+   "digest": "Bohr discussed Everett's thesis with Wheeler and Petersen over several days. Nothing in his own hand is known; Wheeler's notes and letters indicate that Bohr could not accept the framing of the work, and Wheeler came away convinced that Everett himself had to come to Copenhagen.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wheeler to Everett, 22 and 26 May 1956; Wheeler telegram to Bohr, 26 May 1956 (UC Irvine)",
+   "form": "reported in others' letters",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1956-05-20",
+   "date_display": "20 May 1956",
+   "precision": "day",
+   "eye": "stern",
+   "place": "Copenhagen",
+   "headline": "A Copenhagen seminar is unconvinced",
+   "digest": "After Wheeler left, Stern held a seminar on the long thesis and wrote Wheeler a long letter giving his own objections and those of colleagues. As reported later, he dismissed the theory as theology rather than physics. The letter is the fullest record of the group's reaction.",
+   "quote": "theology",
+   "confidence": "verified",
+   "source_note": "Stern to Wheeler, 20 May 1956, UC Irvine: https://calisphere.org/item/ark:/81235/d8wd3qf2r; 'theology' per SciAm (Byrne): https://www.scientificamerican.com/article/hugh-everett-biography/",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1956-05-22",
+   "date_display": "22 May 1956",
+   "precision": "day",
+   "eye": "wheeler",
+   "place": "Leiden",
+   "headline": "Wheeler tells Everett the meeting did not go smoothly",
+   "digest": "Replying to a query from the Princeton physicist Donald Hamilton about whether Everett needed another term, Wheeler wrote to Everett directly. He said the Copenhagen discussions had not gone smoothly and the thesis needed revision, though he expected that to be quick, and he urged Everett towards an academic career.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wheeler to Everett, 22 May 1956, UC Irvine: https://calisphere.org/item/ark:/81235/d8m32np9g",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1956-05-24",
+   "date_display": "24 May 1956",
+   "precision": "day",
+   "eye": "wheeler",
+   "place": "Leiden",
+   "headline": "A follow-up letter to Bohr",
+   "digest": "Shortly after leaving Copenhagen, Wheeler wrote to Bohr to continue their discussions of the thesis. The letter survives in the Everett archive at the American Institute of Physics.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wheeler to Bohr, 24 May 1956, AIP reproduction at UC Irvine: https://calisphere.org/item/ark:/81235/d86q1sw6g",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1956-05-25",
+   "date_display": "25 May 1956",
+   "precision": "day",
+   "eye": "wheeler",
+   "place": "Leiden",
+   "headline": "Wheeler defends Everett to Stern",
+   "digest": "Wheeler answered Stern by defending Everett while insisting that the theory did not conflict with Bohr's. The same day he forwarded Stern's criticisms to Everett. The copy of the reply carries marginal notes by Wheeler and, it appears, by Misner.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wheeler to Stern, 25 May 1956: https://calisphere.org/item/ark:/81235/d81z4264v; Wheeler to Everett, 25 May 1956: https://calisphere.org/item/ark:/81235/d8sn01h8m",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1956-05-25",
+   "date_display": "late May 1956",
+   "precision": "range",
+   "eye": "misner",
+   "place": "Princeton",
+   "headline": "Misner's notes answer Stern",
+   "digest": "The copy of Wheeler's reply to Stern bears marginal notes that the UC Irvine cataloguers attribute to Misner, defending Everett point by point against Stern's criticisms.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wheeler to Stern, 25 May 1956 (annotated copy): https://calisphere.org/item/ark:/81235/d81z4264v",
+   "form": "marginal notes",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1956-05-26",
+   "date_display": "26 May 1956",
+   "precision": "day",
+   "eye": "wheeler",
+   "place": "Leiden",
+   "headline": "Come to Copenhagen, Wheeler urges",
+   "digest": "Back in Leiden, Wheeler sent Everett his notes from the Bohr conversation and pressed him to go to Copenhagen promptly, offering to pay the fare from his research funds. The same day he telegraphed Bohr, optimistic that Everett could come at once. Everett did not go.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wheeler to Everett, 26 May 1956: https://calisphere.org/item/ark:/81235/d8tb0z800; telegram to Bohr: https://calisphere.org/item/ark:/81235/d86m33h41",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1956-05-26",
+   "date_display": "26 May 1956",
+   "precision": "day",
+   "eye": "petersen",
+   "place": "Copenhagen",
+   "headline": "Petersen returns the thesis to Wheeler",
+   "digest": "Petersen thanked Wheeler for the visit and returned the copy of the long thesis that Wheeler had sent to Bohr in April.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Petersen to Wheeler, 26 May 1956, APS reproduction at UC Irvine: https://calisphere.org/item/ark:/81235/d85x25s3c",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1956-05-28",
+   "date_display": "28 May 1956",
+   "precision": "day",
+   "eye": "petersen",
+   "place": "Copenhagen",
+   "headline": "An invitation to spend months with Bohr",
+   "digest": "Following a telegram sent the same day, Petersen wrote inviting Everett to come and work with Bohr for several months, paid from Bohr's own research funds. Everett declined for now: his WSEG job began that summer.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Petersen to Everett, 28 May 1956, UC Irvine: https://calisphere.org/item/ark:/81235/d8n01068r",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1956-05-28",
+   "date_display": "28 May 1956",
+   "precision": "day",
+   "eye": "wheeler",
+   "place": "Leiden",
+   "headline": "Wheeler's report home: significant revisions needed",
+   "digest": "Writing to his Princeton colleague A. G. Shenstone about a September conference, Wheeler mentioned the thesis and its reception in Copenhagen. It would need significant revisions, he wrote, but he hoped it could be published by the Royal Danish Academy.",
+   "quote": "will need significant revisions",
+   "confidence": "verified",
+   "source_note": "Wheeler to Shenstone, 28 May 1956, APS reproduction at UC Irvine: https://calisphere.org/item/ark:/81235/d8nv99q5d",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1956-06",
+   "date_display": "June 1956",
+   "precision": "month",
+   "eye": "everett",
+   "place": "Arlington, Virginia",
+   "headline": "Everett starts at the Pentagon",
+   "digest": "Everett began work at the Weapons Systems Evaluation Group, a Pentagon operations-research unit, before his thesis was finished. Over 1956–57 he and two WSEG superiors wrote to his draft board arguing that his military work justified exemption from call-up.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Selective Service letters, 1956–57, UC Irvine: https://calisphere.org/item/ark:/81235/d8w951228; start date per Wikipedia biography",
+   "form": "dated letters (official correspondence)",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1956-09",
+   "date_display": "by September 1956",
+   "precision": "month",
+   "eye": "groenewold",
+   "place": "Groningen",
+   "headline": "Groenewold's first comments on the long draft",
+   "digest": "Groenewold had read the long thesis and written with comments, which Wheeler forwarded to Everett in September 1956. That first letter is known here only through Wheeler's covering note.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wheeler to Everett, 17 Sept 1956: https://calisphere.org/item/ark:/81235/d8rn30m9v",
+   "form": "letter (known through another)",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1956-09-17",
+   "date_display": "17 September 1956",
+   "precision": "day",
+   "eye": "wheeler",
+   "place": "Princeton",
+   "headline": "Make it javelin-proof",
+   "digest": "Back in Princeton, Wheeler told Everett, now working in Virginia, that he believed the work important but would not approve it until it was javelin-proof. He enclosed a letter from Groenewold, who had read the long draft.",
+   "quote": "javelin-proof",
+   "confidence": "verified",
+   "source_note": "Wheeler to Everett, 17 Sept 1956, UC Irvine: https://calisphere.org/item/ark:/81235/d8rn30m9v",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1957-01-18",
+   "date_display": "18–23 January 1957",
+   "precision": "range",
+   "eye": "dewitt",
+   "place": "Chapel Hill, North Carolina",
+   "headline": "Chapel Hill gathers the gravitation physicists",
+   "digest": "DeWitt and Cécile DeWitt-Morette hosted the Conference on the Role of Gravitation in Physics, paid for partly by the industrialist Agnew Bahnson and partly through the Wright Air Development Center. In a quantisation session DeWitt raised a problem: if matter is quantised, a measurement could suddenly change the gravitational field.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "WADC Technical Report 57-216, reissued 2011: https://edition-open-sources.org/sources/5/29/index.html; dates per the conference article",
+   "form": "conference transcript",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1957-01-18",
+   "date_display": "18–23 January 1957",
+   "precision": "range",
+   "eye": "feynman",
+   "place": "Chapel Hill",
+   "headline": "Feynman: somewhere the amplitude is lost",
+   "digest": "In discussion Feynman asked at what point in an amplifier chain the quantum amplitude stops mattering, and argued against treating it like dice. The 2011 editors say the report also holds what is believed to be the first, very brief presentation of Everett's idea, on page 257, where Feynman describes it as many worlds and uses that as a reductio.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Edition Open Sources, ch. 23 discussion: https://edition-open-sources.org/sources/5/30/index.html; preface: https://edition-open-sources.org/sources/5/1/index.html",
+   "form": "conference transcript",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1957-01-18",
+   "date_display": "18–23 January 1957",
+   "precision": "range",
+   "eye": "misner",
+   "place": "Chapel Hill",
+   "headline": "Everett's absent friend speaks for him",
+   "digest": "Misner gave a talk on global solutions of Einstein's equations. Everett did not attend; by one account Wheeler and Misner presented some of his ideas near the end of the meeting. Everett's paper later appeared in the July 1957 Reviews of Modern Physics issue that carried the conference papers.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Edition Open Sources table of contents: https://edition-open-sources.org/sources/5/toc.html; presentation per encyclopaedic summary of the conference",
+   "form": "conference transcript",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1957-01-18",
+   "date_display": "18–23 January 1957",
+   "precision": "range",
+   "eye": "rosenfeld",
+   "place": "Chapel Hill",
+   "headline": "Rosenfeld is in the room too",
+   "digest": "Rosenfeld, the leading Copenhagen voice at the meeting, joined the discussion of quantised gravity, remarking that the interference effects under debate had nothing to do with gravitation itself. Within months he would be writing to Bohr about Everett.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Edition Open Sources, ch. 23 discussion: https://edition-open-sources.org/sources/5/30/index.html",
+   "form": "conference transcript",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1957-03",
+   "date_display": "mid-March 1957",
+   "precision": "month",
+   "eye": "wheeler",
+   "place": "Princeton",
+   "headline": "Preprints go out to Bohr and others",
+   "digest": "Wheeler asked Everett to send preprints of the short thesis, and of Wheeler's companion assessment, to Bohr and other leading physicists. He also wanted David Bohm to see it but did not know how to reach him.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Catalogue notes to Groenewold letter: https://calisphere.org/item/ark:/81235/d8vd6pj4g and to Everett's letter to AIP, 1 June 1957: https://calisphere.org/item/ark:/81235/d8z60cf9d",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1957-03",
+   "date_display": "spring 1957",
+   "precision": "range",
+   "eye": "everett",
+   "place": "Princeton",
+   "headline": "The short thesis is defended",
+   "digest": "Everett defended the short thesis, 'On the Foundations of Quantum Mechanics', which drops the information-theory chapter, the survey of rival views and much of the branching language, and presents relative states as a framework for quantum gravity and cosmology. Accounts differ on whether submission and acceptance fell in March or April 1957.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Short thesis as defended, UC Irvine: https://calisphere.org/item/ark:/81235/d8bz61n78; dates per Freire (March) and Byrne (April)",
+   "form": "thesis",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1957-04-11",
+   "date_display": "11 April 1957",
+   "precision": "day",
+   "eye": "groenewold",
+   "place": "Groningen",
+   "headline": "A much improved abstract, but objections remain",
+   "digest": "Groenewold wrote to Everett and Wheeler that the preprint was a much improved abstract of the long thesis, while admitting he could not follow many arguments. He argued that the statistical operator is relative and conditional, like a coordinate frame, and that Everett had missed this. Everett annotated the letter point by point and concluded Groenewold had not studied the work closely.",
+   "quote": "much improved",
+   "confidence": "verified",
+   "source_note": "Groenewold to Wheeler, 11 April 1957, UC Irvine: https://calisphere.org/item/ark:/81235/d8vd6pj4g",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1957-04-24",
+   "date_display": "24 April 1957",
+   "precision": "day",
+   "eye": "petersen",
+   "place": "Copenhagen",
+   "headline": "Copenhagen's answer to the preprints",
+   "digest": "Petersen reported the Copenhagen group's response to the Everett and Wheeler preprints. As historians summarise it, he said most physicists there did not feel the difficulties that Everett's paper set out to solve.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Petersen to Everett, 24 April 1957, UC Irvine: https://ucispace.lib.uci.edu/bitstream/handle/10575/1180/petersen%20to%20everett%2024-april-1957.pdf?sequence=1",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1957-05-07",
+   "date_display": "7 May 1957",
+   "precision": "day",
+   "eye": "dewitt",
+   "place": "Chapel Hill",
+   "headline": "I simply do not branch",
+   "digest": "DeWitt sent Wheeler a long letter drawing parallels between Everett's theory and general relativity. He found the formal argument beautifully consistent but rejected the picture of a splitting observer, saying he did not branch, and he was also unhappy with collapse and with Copenhagen. Wheeler forwarded a copy to Everett, missing some lines from page 4.",
+   "quote": "I simply do not branch",
+   "confidence": "verified",
+   "source_note": "DeWitt to Wheeler, Wheeler's copy: https://calisphere.org/item/ark:/81235/d8qr4p42k/; Everett's copy: https://calisphere.org/item/ark:/81235/d8h98zs6h/",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1957-05-31",
+   "date_display": "31 May 1957",
+   "precision": "day",
+   "eye": "everett",
+   "place": "Arlington, Virginia",
+   "headline": "Like the anti-Copernicans: Everett answers DeWitt",
+   "digest": "In a handwritten draft and then a typed letter, Everett rejected DeWitt's claim of direct evidence from introspection that he does not split. He compared it to opponents of Copernicus who said they could feel the Earth stand still; the theory itself predicts that no observer would notice. DeWitt's later remarks suggest the reply persuaded him.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Everett to DeWitt, 31 May 1957: https://calisphere.org/item/ark:/81235/d8bc3t979/; handwritten draft: https://calisphere.org/item/ark:/81235/d8d795q4w",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1957-05-31",
+   "date_display": "31 May 1957",
+   "precision": "day",
+   "eye": "everett",
+   "place": "Arlington, Virginia",
+   "headline": "The same day, to Petersen and to Philip Frank",
+   "digest": "Everett answered Petersen's April criticisms irritably. To the philosopher Philip Frank, whose work Wheeler had cited, he sent preprints and compared the treatment of Copernicus in the sixteenth century to the rejection of his own formulation by Bohr and his followers. The Petersen letter is catalogued as '31 June 1957', which must mean 31 May.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Everett to Petersen: https://calisphere.org/item/ark:/81235/d8c824t65; Everett to Frank: https://calisphere.org/item/ark:/81235/d8125qp6c/",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1957-06-01",
+   "date_display": "1 June 1957",
+   "precision": "day",
+   "eye": "everett",
+   "place": "Arlington, Virginia",
+   "headline": "Looking for David Bohm",
+   "digest": "Shortly after the defence, Everett asked the American Institute of Physics how to reach David Bohm, the former Princeton physicist who had left the US after refusing to testify to the House Un-American Activities Committee, and who was then in Bristol.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Everett to AIP, 1 June 1957: https://calisphere.org/item/ark:/81235/d8z60cf9d",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1957-06-24",
+   "date_display": "24 June 1957",
+   "precision": "day",
+   "eye": "everett",
+   "place": "Arlington, Virginia",
+   "headline": "Accounting to the National Science Foundation",
+   "digest": "Required to report on his NSF graduate fellowship, Everett described his research of 1955–56 and how he came to revise the thesis. It is one of the few places where he told the story at the time rather than decades later.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Everett to NSF, 24 June 1957: https://calisphere.org/item/ark:/81235/d8ms3kf4c",
+   "form": "report letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1957-07",
+   "date_display": "July 1957",
+   "precision": "month",
+   "eye": "everett",
+   "place": "Reviews of Modern Physics",
+   "headline": "The relative state formulation appears in print",
+   "digest": "Everett's 'Relative State' Formulation of Quantum Mechanics appeared in Reviews of Modern Physics 29, pp. 454–462, in the issue that also carried the Chapel Hill papers. Corrected proofs had apparently been lost in the mail, and on 22 July he answered a telegram asking him to send them again.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Everett to AIP, 22 July 1957: https://calisphere.org/item/ark:/81235/d8n29pm1r; citation per Wikipedia biography",
+   "form": "published paper",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1957-07",
+   "date_display": "July 1957",
+   "precision": "month",
+   "eye": "wheeler",
+   "place": "Reviews of Modern Physics",
+   "headline": "Wheeler's companion assessment",
+   "digest": "Directly after Everett's paper, Wheeler's 'Assessment of Everett's Relative State Formulation of Quantum Theory' (pp. 463–465) presented the work as a new route to quantum gravity and stressed how it differed in emphasis from, rather than overturned, the established view. Wheeler had earlier written that the real issue was the words attached to the formalism.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Citation per Wikipedia biography; Wheeler's wording on 'words' per SciAm (Byrne)",
+   "form": "published paper",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1957-11-24",
+   "date_display": "24 November 1957",
+   "precision": "day",
+   "eye": "eisner",
+   "place": "Houston",
+   "headline": "A Texaco geophysicist writes in",
+   "digest": "Having read both published papers, Eisner wrote to Wheeler arguing that a deliberate measurement by an observer cannot be told apart from a 'spontaneous' one. He also considered how stray correlations with the surroundings might shape the universal wave function, a question later studied as decoherence. Wheeler's reply is lost, and it is not known whether Everett answered as Wheeler asked.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Eisner to Wheeler, 24 Nov 1957, UC Irvine: https://calisphere.org/item/ark:/81235/d81c1tv4g",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1957-12-11",
+   "date_display": "11 December 1957",
+   "precision": "day",
+   "eye": "wheeler",
+   "place": "Princeton",
+   "headline": "Wheeler forwards a note on the missile gap",
+   "digest": "After a classified briefing on Soviet military science, Wheeler urged President Eisenhower's science advisers to found a civilian Advanced Research Projects Laboratory. He sent Everett, now in defence work, a copy with a note about the Russian missile gap.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wheeler to Killian and others, Everett's copy: https://calisphere.org/item/ark:/81235/d8ns0mb4m",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1959-03",
+   "date_display": "March–April 1959",
+   "precision": "range",
+   "eye": "everett",
+   "place": "Copenhagen",
+   "headline": "Six weeks near Bohr, and an algorithm in a hotel",
+   "digest": "Everett spent about six weeks in Copenhagen and met Bohr, but neither changed the other's mind; the catalogue calls the meeting not very profitable. According to Byrne, at the Hotel Østerport he worked out a method for optimisation problems later known as the Everett algorithm.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Catalogue notes to Petersen letters (UC Irvine); Byrne, SciAm: https://www.scientificamerican.com/article/hugh-everett-biography/",
+   "form": "dated letters and later accounts",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1959-03",
+   "date_display": "March–April 1959",
+   "precision": "range",
+   "eye": "bohr",
+   "place": "Copenhagen",
+   "headline": "Bohr receives Everett",
+   "digest": "Bohr met Everett during the visit. No record by Bohr of the conversation is known; all that survives are Everett's later recollections and the catalogue's verdict that it produced little.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "UC Irvine catalogue to Petersen to Everett, 28 May 1956: https://calisphere.org/item/ark:/81235/d8n01068r",
+   "form": "reported",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1959-03-12",
+   "date_display": "12 March 1959",
+   "precision": "day",
+   "eye": "everett",
+   "place": "Arlington, Virginia",
+   "headline": "At last, an itinerary for Copenhagen",
+   "digest": "Three years after the first invitation, Everett wrote to Petersen with the plan for his trip to Copenhagen.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Everett to Petersen, 12 March 1959: https://calisphere.org/item/ark:/81235/d8gb1xw6t",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1959-12-21",
+   "date_display": "21 December 1959",
+   "precision": "day",
+   "eye": "rosenfeld",
+   "place": "Copenhagen",
+   "headline": "Rosenfeld reports the Copenhagen view",
+   "digest": "Rosenfeld wrote to a physicist named Bergmann (catalogued at UC Irvine as P. G. Bergmann, cited elsewhere as Saul Bergmann) setting out the Copenhagen verdict on the thesis. As summarised by historians, he held that Everett had misunderstood what axiomatising physics means and that the experimental arrangement cannot be absorbed into the formalism.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Rosenfeld letter, Niels Bohr Archive copy at UC Irvine: https://calisphere.org/item/ark:/81235/d8h12vm9f; content per https://dialnet.unirioja.es/descarga/articulo/5251244.pdf",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1962-10-01",
+   "date_display": "1 October 1962",
+   "precision": "day",
+   "eye": "everett",
+   "place": "Xavier University, Cincinnati",
+   "headline": "One of two public talks on the theory",
+   "digest": "At a five-day conference chaired by Boris Podolsky, Everett explained his interpretation to an audience including Wigner, Dirac, Aharonov, Furry and Rosen. The cataloguers note he disliked public speaking and that this was one of only two known occasions on which he presented the theory to peers.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Conference transcript, UC Irvine: https://calisphere.org/item/ark:/81235/d8jq0t79j",
+   "form": "conference transcript",
+   "source_kind": "official record"
+  },
+  {
+   "date_iso": "1970-09",
+   "date_display": "September 1970",
+   "precision": "month",
+   "eye": "dewitt",
+   "place": "Chapel Hill",
+   "headline": "DeWitt gives the idea its worlds",
+   "digest": "In Physics Today DeWitt described the Everett–Wheeler–Graham interpretation: the state vector never collapses and the universe keeps splitting into mutually unobservable, equally real worlds. He recalled his own shock at the thought of countless imperfect copies of oneself, called it schizophrenia with a vengeance, and nonetheless argued it was a fully causal view.",
+   "quote": "schizophrenia with a vengeance",
+   "confidence": "verified",
+   "source_note": "DeWitt, Physics Today 23(9), 30–35: https://cqi.inf.usi.ch/qic/deWitt1970.pdf",
+   "form": "published article",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1972-10-31",
+   "date_display": "31 October 1972",
+   "precision": "day",
+   "eye": "rosenfeld",
+   "place": "Copenhagen",
+   "headline": "Still not worth discussing",
+   "digest": "In the last of five letters to F. J. Belinfante of Purdue, Rosenfeld seemed to accept Belinfante's criticisms of Everett as valid but argued that the interpretation did not deserve further discussion. Earlier letters in the series held that state reduction was unavoidable.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Rosenfeld to Belinfante, 31 Oct 1972, UC Irvine: https://calisphere.org/item/ark:/81235/d8th8c150",
+   "form": "dated letter",
+   "source_kind": "firsthand"
+  },
+  {
+   "date_iso": "1977",
+   "date_display": "1977",
+   "precision": "year",
+   "eye": "dewitt",
+   "place": "Austin, Texas",
+   "headline": "DeWitt meets Everett, once",
+   "digest": "Wheeler, now at the University of Texas at Austin, invited Everett to speak at a conference there with DeWitt. It was the only time DeWitt and Everett met; the talk was well received.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Byrne, SciAm; Wikipedia biography",
+   "form": "later accounts",
+   "source_kind": "secondhand"
+  },
+  {
+   "date_iso": "1977-05",
+   "date_display": "May 1977",
+   "precision": "month",
+   "eye": "misner",
+   "place": "Austin, Texas (approx)",
+   "headline": "Misner records Everett's own story",
+   "digest": "Two decades after the sherry evening, Misner recorded a conversation with Everett about Princeton, the thesis and Copenhagen. Historians cite this May 1977 recording for Everett's recollections; its transcript was not consulted for this chapter.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Cited as 'Misner interview with Everett, May 1977' in Freire (2015): https://link.springer.com/chapter/10.1007/978-3-662-44662-1_3",
+   "form": "recorded conversation",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1977-05",
+   "date_display": "May 1977 (recalling c. 1954–55)",
+   "precision": "month",
+   "eye": "everett",
+   "place": "Austin, Texas (approx)",
+   "headline": "A slosh or two of sherry",
+   "digest": "In the 1977 conversation Everett recalled that the idea arose late one evening in Princeton, after a slosh or two of sherry, while he, Misner and Petersen talked about ridiculous implications of quantum mechanics. Accounts place the evening in 1954 or autumn 1955.",
+   "quote": "slosh or two of sherry",
+   "confidence": "approx",
+   "source_note": "Byrne, SciAm: https://www.scientificamerican.com/article/hugh-everett-biography/; Becker, SciAm: https://www.scientificamerican.com/blog/observations/the-difficult-birth-of-the-many-worlds-interpretation-of-quantum-mechanics/",
+   "form": "recorded conversation",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1977-05",
+   "date_display": "1977 (recalling spring 1959)",
+   "precision": "month",
+   "eye": "everett",
+   "place": "Austin, Texas (approx)",
+   "headline": "Copenhagen remembered as hell",
+   "digest": "Looking back on the 1959 visit, Everett called it hell and said it had been doomed from the beginning. The remark is quoted by historians; the original recording was not seen here.",
+   "quote": "doomed from the beginning",
+   "confidence": "approx",
+   "source_note": "As quoted in Becker, SciAm: https://www.scientificamerican.com/blog/observations/the-difficult-birth-of-the-many-worlds-interpretation-of-quantum-mechanics/, and in the Wikipedia biography citing Osnaghi et al. (2009)",
+   "form": "recorded conversation",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1977-06-20",
+   "date_display": "20 June 1977",
+   "precision": "day",
+   "eye": "everett",
+   "place": "McLean, Virginia (approx)",
+   "headline": "How he saw the thesis, twenty years on",
+   "digest": "Answering the historian William Harvey, Everett explained how he had regarded his thesis at the time and how far he had followed later work on the foundations of quantum mechanics.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Harvey to Everett, 8 June 1977, with reply of 20 June: https://ucispace.lib.uci.edu/bitstream/handle/10575/1150/harvey%20to%20everett%208-june-1977%20with%20everett%20reply%2020-june-1977.pdf?sequence=1",
+   "form": "dated letter",
+   "source_kind": "later firsthand"
+  },
+  {
+   "date_iso": "1977-11-15",
+   "date_display": "15 November 1977",
+   "precision": "day",
+   "eye": "everett",
+   "place": "Virginia (approx)",
+   "headline": "Agreeing where he and DeWitt differ",
+   "digest": "Everett told Jean-Marc Lévy-Leblond that he agreed with his analysis of how DeWitt's version of the theory differed from his own. The cataloguers note that in 1976 Wheeler had publicly backed away from including the observer in the wave function.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Everett to Lévy-Leblond, 15 Nov 1977, with draft: https://calisphere.org/item/ark:/81235/d89g5gs9w",
+   "form": "dated letter",
+   "source_kind": "later firsthand"
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1954",
+   "date_display": "c. 1954 (some say autumn 1955)",
+   "eye": "everett",
+   "claim": "The idea arises over sherry with Misner and Petersen in Princeton",
+   "written": "May 1977, conversation recorded by Misner",
+   "form": "later firsthand",
+   "evidence": "Byrne, Scientific American; Becker, Scientific American",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1955",
+   "date_display": "1955",
+   "eye": "everett",
+   "claim": "Splitting-amoeba minipaper written for Wheeler",
+   "written": "1955, typed draft and copy with Wheeler's comments",
+   "form": "firsthand",
+   "evidence": "UC Irvine, 'Probability in Wave Mechanics'",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1956-01",
+   "date_display": "January 1956",
+   "eye": "everett",
+   "claim": "Long thesis submitted to Wheeler",
+   "written": "1956 manuscript; retitled April 1956",
+   "form": "firsthand",
+   "evidence": "UC Irvine, long thesis and title page",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1956-05-03",
+   "date_display": "3–4 May 1956",
+   "eye": "bohr",
+   "claim": "Bohr discusses the thesis with Wheeler and is not persuaded",
+   "written": "May 1956, Wheeler's notes, Copenhagen; Wheeler's letters of 22–26 May",
+   "form": "secondhand",
+   "evidence": "Wheeler to Everett, 26 May 1956 (UC Irvine)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1956-05-20",
+   "date_display": "20 May 1956",
+   "eye": "stern",
+   "claim": "Copenhagen seminar rejects the long thesis",
+   "written": "20 May 1956, Stern's letter, Copenhagen",
+   "form": "firsthand",
+   "evidence": "UC Irvine",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1956-05-28",
+   "date_display": "28 May 1956",
+   "eye": "petersen",
+   "claim": "Bohr invites Everett for several months",
+   "written": "28 May 1956, telegram and letter, Copenhagen",
+   "form": "firsthand",
+   "evidence": "UC Irvine",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1956-06",
+   "date_display": "June 1956",
+   "eye": "everett",
+   "claim": "Everett joins WSEG at the Pentagon",
+   "written": "1956–57, letters to Selective Service Board No. 54",
+   "form": "official record",
+   "evidence": "UC Irvine; Wikipedia for start month",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1957-01-18",
+   "date_display": "18–23 January 1957",
+   "eye": "feynman",
+   "claim": "First brief public airing of Everett's idea; Feynman calls it many worlds as a reductio",
+   "written": "1957, WADC Technical Report 57-216; reissued 2011",
+   "form": "official record",
+   "evidence": "Edition Open Sources preface (p. 257 of report)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1957-04-11",
+   "date_display": "11 April 1957",
+   "eye": "groenewold",
+   "claim": "Groenewold objects to the preprint",
+   "written": "11 April 1957, letter, Groningen",
+   "form": "firsthand",
+   "evidence": "UC Irvine",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1957-04-24",
+   "date_display": "24 April 1957",
+   "eye": "petersen",
+   "claim": "Copenhagen does not feel the problem Everett solves",
+   "written": "24 April 1957, letter, Copenhagen",
+   "form": "firsthand",
+   "evidence": "UC Irvine; historians' summary",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1957-05-07",
+   "date_display": "7 May 1957",
+   "eye": "dewitt",
+   "claim": "DeWitt: consistent, but he does not branch",
+   "written": "7 May 1957, letter, Chapel Hill",
+   "form": "firsthand",
+   "evidence": "UC Irvine (two copies)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1957-05-31",
+   "date_display": "31 May 1957",
+   "eye": "everett",
+   "claim": "Everett's Copernicus reply",
+   "written": "31 May 1957, draft and letters to DeWitt and Frank",
+   "form": "firsthand",
+   "evidence": "UC Irvine",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1957-07",
+   "date_display": "July 1957",
+   "eye": "everett",
+   "claim": "Relative State Formulation published with Wheeler's assessment",
+   "written": "July 1957, Reviews of Modern Physics 29",
+   "form": "firsthand",
+   "evidence": "RMP 29: 454–465",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1959-03",
+   "date_display": "March–April 1959",
+   "eye": "everett",
+   "claim": "Copenhagen visit meets Bohr; remembered as hell",
+   "written": "1977, recorded conversation (as quoted by historians)",
+   "form": "later firsthand",
+   "evidence": "Becker; Osnaghi et al. 2009 via Wikipedia",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1970-09",
+   "date_display": "September 1970",
+   "eye": "dewitt",
+   "claim": "DeWitt presents the theory as splitting worlds",
+   "written": "September 1970, Physics Today",
+   "form": "firsthand",
+   "evidence": "Physics Today 23(9)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1977-06-20",
+   "date_display": "20 June 1977",
+   "eye": "everett",
+   "claim": "Everett explains how he saw the thesis then",
+   "written": "20 June 1977, reply to Harvey",
+   "form": "later firsthand",
+   "evidence": "UC Irvine",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1956-05-03",
+   "label": "Wheeler and Bohr discuss the thesis in Copenhagen",
+   "eyes": [
+    "wheeler",
+    "bohr",
+    "petersen"
+   ],
+   "note": "The only face-to-face Copenhagen hearing of the long thesis is known through the adviser's notes; Bohr's side is entirely reported."
+  },
+  {
+   "date": "1956-05-20",
+   "label": "The week of letters, 20–28 May 1956",
+   "eyes": [
+    "stern",
+    "wheeler",
+    "petersen",
+    "misner"
+   ],
+   "note": "Within nine days Stern reports rejection, Wheeler writes to Everett, Bohr, Stern and Shenstone, and Petersen sends Bohr's invitation: one visit produces three readings, from 'theology' to 'come and stay'."
+  },
+  {
+   "date": "1957-01-18",
+   "label": "Chapel Hill conference",
+   "eyes": [
+    "dewitt",
+    "feynman",
+    "misner",
+    "rosenfeld"
+   ],
+   "note": "Everett is absent; his idea gets a brief airing, Feynman frames it as many worlds to dismiss it, DeWitt worries about measurement and gravity, and Rosenfeld speaks for Copenhagen."
+  },
+  {
+   "date": "1957-04",
+   "label": "Responses to the preprints, April 1957",
+   "eyes": [
+    "groenewold",
+    "petersen",
+    "wheeler"
+   ],
+   "note": "Groningen finds the short version clearer but wrong; Copenhagen says it does not feel the problem; Wheeler's careful framing satisfies neither."
+  },
+  {
+   "date": "1957-05-31",
+   "label": "Everett's day of replies",
+   "eyes": [
+    "everett",
+    "dewitt",
+    "petersen"
+   ],
+   "note": "DeWitt's 'I do not branch' and Petersen's criticisms get answered on one day with the same move: the Copernican argument that the theory predicts we would not feel it."
+  },
+  {
+   "date": "1957-07",
+   "label": "Publication in Reviews of Modern Physics",
+   "eyes": [
+    "everett",
+    "wheeler",
+    "eisner"
+   ],
+   "note": "Author and adviser appear side by side with different emphases; by November a Texaco geophysicist is reading both."
+  },
+  {
+   "date": "1959-03",
+   "label": "Everett in Copenhagen",
+   "eyes": [
+    "everett",
+    "bohr",
+    "petersen",
+    "rosenfeld"
+   ],
+   "note": "Three years late the meeting happens and changes nothing; by December Rosenfeld puts the Copenhagen verdict in writing."
+  },
+  {
+   "date": "1977-05",
+   "label": "Austin and the recorded conversation",
+   "eyes": [
+    "everett",
+    "misner",
+    "dewitt"
+   ],
+   "note": "The origin story and the 'hell' memory are both written down only now, twenty years on, by the friend from the sherry evening."
+  }
+ ],
+ "ties": [
+  {
+   "a": "everett",
+   "b": "wheeler",
+   "kind": "influenced",
+   "note": "Student and adviser; Wheeler championed, cut and reframed the thesis."
+  },
+  {
+   "a": "everett",
+   "b": "petersen",
+   "kind": "met",
+   "note": "Friends from Princeton in 1954–55; their letters are the most candid in the record."
+  },
+  {
+   "a": "everett",
+   "b": "misner",
+   "kind": "met",
+   "note": "Fellow students present at the sherry evening; Misner recorded Everett in 1977."
+  },
+  {
+   "a": "wheeler",
+   "b": "bohr",
+   "kind": "met",
+   "note": "Wheeler's old mentor; their May 1956 talks shaped the revision."
+  },
+  {
+   "a": "stern",
+   "b": "wheeler",
+   "kind": "opposite sides",
+   "note": "Stern's critique and Wheeler's defence crossed within five days."
+  },
+  {
+   "a": "misner",
+   "b": "stern",
+   "kind": "opposite sides",
+   "note": "Misner's marginal notes appear to rebut Stern point by point."
+  },
+  {
+   "a": "dewitt",
+   "b": "everett",
+   "kind": "read each other",
+   "note": "DeWitt's objection and Everett's reply of 31 May 1957; they met only in 1977."
+  },
+  {
+   "a": "dewitt",
+   "b": "wheeler",
+   "kind": "met",
+   "note": "Close friends and collaborators; Wheeler forwarded DeWitt's letter."
+  },
+  {
+   "a": "groenewold",
+   "b": "rosenfeld",
+   "kind": "influenced",
+   "note": "Groenewold had taken his doctorate under Rosenfeld at Utrecht."
+  },
+  {
+   "a": "rosenfeld",
+   "b": "bohr",
+   "kind": "influenced",
+   "note": "Rosenfeld was Bohr's close collaborator and defender of his view."
+  },
+  {
+   "a": "feynman",
+   "b": "wheeler",
+   "kind": "influenced",
+   "note": "Feynman was Wheeler's doctoral student about fifteen years before Everett."
+  },
+  {
+   "a": "eisner",
+   "b": "wheeler",
+   "kind": "read each other",
+   "note": "Eisner wrote to Wheeler after reading the July 1957 papers; the reply is lost."
+  },
+  {
+   "a": "petersen",
+   "b": "bohr",
+   "kind": "met",
+   "note": "Petersen was Bohr's personal assistant and relayed his invitations."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v4:fission",
+   "note": "Wheeler, Everett's adviser, had written the 1939 Bohr–Wheeler theory of nuclear fission; the same partnership with Bohr is why the thesis went to Copenhagen for judgement."
+  },
+  {
+   "to": "v13:arpanet-1969",
+   "note": "In December 1957 Wheeler urged Eisenhower's science advisers to create a civilian advanced research projects laboratory and sent Everett a copy; the Advanced Research Projects Agency founded in 1958 later funded ARPANET."
+  },
+  {
+   "to": "v8:eclipse-1919",
+   "note": "Chapel Hill 1957 was a conference on Einstein's general relativity, the theory tested at the 1919 eclipse, and DeWitt's May 1957 letter weighed Everett's theory against it."
+  },
+  {
+   "to": "v1:japan-1945",
+   "note": "Everett left physics for the Pentagon's Weapons Systems Evaluation Group, where his work concerned nuclear war, the weapons first used in August 1945."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://calisphere.org/item/ark:/81235/d8rx93s8w/",
+   "title": "Title page of 'Wave Mechanics Without Probability'",
+   "caption": "Scan of the title page of the long thesis as retitled and circulated in April 1956, the version Bohr's institute read.",
+   "date": "1956",
+   "credit": "UC Irvine Libraries, Special Collections, Hugh Everett III Manuscripts"
+  },
+  {
+   "url": "https://calisphere.org/item/ark:/81235/d8794173q",
+   "title": "'Probability in Wave Mechanics', minipaper with Wheeler's comments",
+   "caption": "The typed 1955 minipaper using splitting amoebas, with Wheeler's pencil notes in the margin.",
+   "date": "1955",
+   "credit": "UC Irvine Libraries, Special Collections"
+  },
+  {
+   "url": "https://calisphere.org/item/ark:/81235/d8wd3qf2r",
+   "title": "Alexander Stern to John Wheeler, 20 May 1956",
+   "caption": "The Copenhagen seminar's verdict on the long thesis, found in 2007 in Mark Everett's basement.",
+   "date": "1956-05-20",
+   "credit": "UC Irvine Libraries, Special Collections"
+  },
+  {
+   "url": "https://calisphere.org/item/ark:/81235/d8qr4p42k/",
+   "title": "Bryce DeWitt to John Wheeler, 7 May 1957 (Wheeler's copy)",
+   "caption": "DeWitt's long letter with the 'I do not branch' objection; this copy keeps lines missing from Everett's.",
+   "date": "1957-05-07",
+   "credit": "UC Irvine Libraries, Special Collections"
+  },
+  {
+   "url": "https://calisphere.org/item/ark:/81235/d8bc3t979/",
+   "title": "Hugh Everett to Bryce DeWitt, 31 May 1957",
+   "caption": "Everett's reply comparing DeWitt's objection with the anti-Copernicans.",
+   "date": "1957-05-31",
+   "credit": "UC Irvine Libraries, Special Collections"
+  },
+  {
+   "url": "https://dipsy.pbs.org/wgbh/nova/manyworlds/original.html",
+   "title": "NOVA, 'Parallel Worlds, Parallel Lives': original documents",
+   "caption": "PBS page showing two pages of an early handwritten draft with the amoeba metaphor and the May 1957 letter to DeWitt.",
+   "date": "1954–1957 documents",
+   "credit": "PBS/WGBH NOVA, from the Everett papers"
+  }
+ ],
+ "further": [
+  {
+   "title": "Hugh Everett III Manuscripts (Calisphere)",
+   "url": "https://calisphere.org/collections/28/"
+  },
+  {
+   "title": "AIP finding aid, Hugh Everett III papers",
+   "url": "https://history.aip.org/ead/20130435.html"
+  },
+  {
+   "title": "The Role of Gravitation in Physics: Report from the 1957 Chapel Hill Conference (Edition Open Sources)",
+   "url": "https://edition-open-sources.org/sources/5/toc.html"
+  },
+  {
+   "title": "Peter Byrne, 'The Many Worlds of Hugh Everett', Scientific American",
+   "url": "https://www.scientificamerican.com/article/hugh-everett-biography/"
+  },
+  {
+   "title": "Olival Freire Jr., 'The Origin of the Everettian Heresy', in The Quantum Dissidents (2015)",
+   "url": "https://link.springer.com/chapter/10.1007/978-3-662-44662-1_3"
+  },
+  {
+   "title": "Bryce DeWitt, 'Quantum mechanics and reality', Physics Today (1970)",
+   "url": "https://cqi.inf.usi.ch/qic/deWitt1970.pdf"
+  },
+  {
+   "title": "Adam Becker, 'The Difficult Birth of the Many Worlds Interpretation'",
+   "url": "https://www.scientificamerican.com/blog/observations/the-difficult-birth-of-the-many-worlds-interpretation-of-quantum-mechanics/"
+  }
+ ],
+ "vantage_key": "0 = the author of the idea; 1 = people who argued it with him or his adviser directly; 2 = colleagues who read drafts or ran seminars on it; 3 = conference audiences and readers of the published paper; 4 = not used.",
+ "seam": "Everett's records show a strange idea incubated in private drafts and then sent out to be checked against the people most likely to reject it. The same pages were read as a gift to quantum gravity in Princeton, a misunderstanding in Copenhagen and a challenge to introspection in Chapel Hill, and the man who said he did not branch became the one who named the branching. Like the doubled lives of Dark Matter or Counterpart, the theory says every self has its counterparts; the archive shows something plainer, an idea that survived in other people's letters while its author worked elsewhere."
+}

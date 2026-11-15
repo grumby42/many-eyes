@@ -1,0 +1,2202 @@
+{
+ "berlin-1961:sed": {
+  "lat": 52.5096,
+  "lon": 13.3826,
+  "label": "East Berlin",
+  "waypoints": []
+ },
+ "berlin-1961:stasi": {
+  "lat": 52.5145,
+  "lon": 13.4876,
+  "label": "Stasi HQ",
+  "waypoints": []
+ },
+ "berlin-1961:vopo": {
+  "lat": 52.5215,
+  "lon": 13.417,
+  "label": "East Berlin police",
+  "waypoints": []
+ },
+ "berlin-1961:schumann": {
+  "lat": 52.5378,
+  "lon": 13.3965,
+  "label": "Bernauer Straße",
+  "waypoints": []
+ },
+ "berlin-1961:siekmann": {
+  "lat": 52.5355,
+  "lon": 13.3905,
+  "label": "Bernauer Straße",
+  "waypoints": []
+ },
+ "berlin-1961:litfin": {
+  "lat": 52.5245,
+  "lon": 13.37,
+  "label": "Humboldthafen",
+  "waypoints": []
+ },
+ "berlin-1961:brandt": {
+  "lat": 52.4851,
+  "lon": 13.3446,
+  "label": "Schöneberg",
+  "waypoints": [
+   {
+    "lat": 52.37,
+    "lon": 9.73,
+    "label": "Campaign train, night of 12/13 August (approx.)"
+   },
+   {
+    "lat": 52.4851,
+    "lon": 13.3446,
+    "label": "Rathaus Schöneberg"
+   },
+   {
+    "lat": 52.5355,
+    "lon": 13.3905,
+    "label": "Bernauer Straße, 22 August"
+   }
+  ]
+ },
+ "berlin-1961:kennedy": {
+  "lat": 38.8977,
+  "lon": -77.0365,
+  "label": "Hyannis Port",
+  "waypoints": [
+   {
+    "lat": 41.63,
+    "lon": -70.3,
+    "label": "Hyannis Port, weekend of 13 August"
+   },
+   {
+    "lat": 38.8977,
+    "lon": -77.0365,
+    "label": "White House"
+   }
+  ]
+ },
+ "berlin-1961:johnson": {
+  "lat": 52.4851,
+  "lon": 13.3446,
+  "label": "Berlin",
+  "waypoints": [
+   {
+    "lat": 50.73,
+    "lon": 7.1,
+    "label": "Bonn, talks with Adenauer, 19 August"
+   },
+   {
+    "lat": 52.4851,
+    "lon": 13.3446,
+    "label": "Rathaus Schöneberg, 19 August"
+   },
+   {
+    "lat": 52.45,
+    "lon": 13.27,
+    "label": "Greeting the battle group, 20 August"
+   }
+  ]
+ },
+ "berlin-1961:clay": {
+  "lat": 52.5075,
+  "lon": 13.3904,
+  "label": "West Berlin",
+  "waypoints": [
+   {
+    "lat": 38.8977,
+    "lon": -77.0365,
+    "label": "Washington"
+   },
+   {
+    "lat": 52.4567,
+    "lon": 13.285,
+    "label": "US headquarters, Dahlem"
+   },
+   {
+    "lat": 52.5075,
+    "lon": 13.3904,
+    "label": "Checkpoint Charlie, 27–28 October"
+   }
+  ]
+ },
+ "berlin-1961:grass": {
+  "lat": 52.47,
+  "lon": 13.33,
+  "label": "West Berlin",
+  "waypoints": []
+ },
+ "berlin-1961:hermlin": {
+  "lat": 52.58,
+  "lon": 13.4,
+  "label": "East Berlin",
+  "waypoints": []
+ },
+ "berlin-1961:reimann": {
+  "lat": 51.4378,
+  "lon": 14.24,
+  "label": "Hoyerswerda",
+  "waypoints": []
+ },
+ "berlin-1961:westpress": {
+  "lat": 52.5,
+  "lon": 13.34,
+  "label": "West Berlin",
+  "waypoints": []
+ },
+ "clean-slates:hammurabi": {
+  "lat": 32.536,
+  "lon": 44.421,
+  "label": "Babylon",
+  "waypoints": []
+ },
+ "clean-slates:samsu-iluna": {
+  "lat": 32.536,
+  "lon": 44.421,
+  "label": "Babylon",
+  "waypoints": []
+ },
+ "clean-slates:ammi-ditana": {
+  "lat": 32.536,
+  "lon": 44.421,
+  "label": "Babylon",
+  "waypoints": []
+ },
+ "clean-slates:ammi-saduqa": {
+  "lat": 33.06,
+  "lon": 44.25,
+  "label": "Babylon",
+  "waypoints": [
+   {
+    "lat": 32.536,
+    "lon": 44.421,
+    "label": "Babylon, the issuing court"
+   },
+   {
+    "lat": 33.06,
+    "lon": 44.25,
+    "label": "Sippar, where copies were found"
+   }
+  ]
+ },
+ "clean-slates:jeremiah": {
+  "lat": 31.778,
+  "lon": 35.235,
+  "label": "Jerusalem",
+  "waypoints": []
+ },
+ "clean-slates:nehemiah": {
+  "lat": 31.778,
+  "lon": 35.235,
+  "label": "Susa",
+  "waypoints": [
+   {
+    "lat": 32.19,
+    "lon": 48.25,
+    "label": "Susa, the Persian court"
+   },
+   {
+    "lat": 31.778,
+    "lon": 35.235,
+    "label": "Jerusalem, as governor from c. 445 BC"
+   }
+  ]
+ },
+ "clean-slates:judean-debtors": {
+  "lat": 31.7,
+  "lon": 35.2,
+  "label": "Judah",
+  "waypoints": []
+ },
+ "clean-slates:solon": {
+  "lat": 37.975,
+  "lon": 23.727,
+  "label": "Athens",
+  "waypoints": [
+   {
+    "lat": 37.975,
+    "lon": 23.727,
+    "label": "Athens, archonship 594/3 BC"
+   },
+   {
+    "lat": 30.9,
+    "lon": 30.6,
+    "label": "Egypt, travels after the reforms"
+   },
+   {
+    "lat": 37.975,
+    "lon": 23.727,
+    "label": "Athens, return"
+   }
+  ]
+ },
+ "clean-slates:ath-pol": {
+  "lat": 37.975,
+  "lon": 23.738,
+  "label": "Athens",
+  "waypoints": []
+ },
+ "clean-slates:plutarch": {
+  "lat": 38.494,
+  "lon": 22.843,
+  "label": "Chaeronea",
+  "waypoints": []
+ },
+ "clean-slates:plato": {
+  "lat": 37.992,
+  "lon": 23.708,
+  "label": "Athens",
+  "waypoints": []
+ },
+ "clean-slates:athenian-courts": {
+  "lat": 37.9745,
+  "lon": 23.7225,
+  "label": "Athens",
+  "waypoints": [
+   {
+    "lat": 37.9745,
+    "lon": 23.7225,
+    "label": "Athens, the courts"
+   },
+   {
+    "lat": 37.906,
+    "lon": 22.879,
+    "label": "Corinth, league treaty 338/7 BC"
+   }
+  ]
+ },
+ "clean-slates:memphis-synod": {
+  "lat": 29.85,
+  "lon": 31.25,
+  "label": "Memphis",
+  "waypoints": [
+   {
+    "lat": 29.85,
+    "lon": 31.25,
+    "label": "Memphis, the synod, 196 BC"
+   },
+   {
+    "lat": 31.4,
+    "lon": 30.42,
+    "label": "Rashid (Rosetta), stone found 1799"
+   }
+  ]
+ },
+ "clean-slates:euergetes": {
+  "lat": 31.2,
+  "lon": 29.92,
+  "label": "Alexandria",
+  "waypoints": [
+   {
+    "lat": 31.2,
+    "lon": 29.92,
+    "label": "Alexandria, the court"
+   },
+   {
+    "lat": 29.28,
+    "lon": 30.75,
+    "label": "Kerkeosiris/Tebtunis, Fayum, village copy"
+   }
+  ]
+ },
+ "darwin-1837:darwin": {
+  "lat": 51.331,
+  "lon": 0.053,
+  "label": "London",
+  "waypoints": [
+   {
+    "lat": 51.514,
+    "lon": -0.139,
+    "label": "Great Marlborough St, London 1837–38"
+   },
+   {
+    "lat": 52.94,
+    "lon": -2.32,
+    "label": "Maer Hall: engagement Nov 1838, wedding Jan 1839"
+   },
+   {
+    "lat": 51.522,
+    "lon": -0.133,
+    "label": "Upper Gower St, London 1839–42"
+   },
+   {
+    "lat": 52.713,
+    "lon": -2.766,
+    "label": "Shrewsbury and Maer: pencil sketch, June 1842"
+   },
+   {
+    "lat": 51.331,
+    "lon": 0.053,
+    "label": "Down House from Sept 1842"
+   }
+  ]
+ },
+ "darwin-1837:emma": {
+  "lat": 52.94,
+  "lon": -2.32,
+  "label": "Maer Hall",
+  "waypoints": [
+   {
+    "lat": 52.94,
+    "lon": -2.32,
+    "label": "Maer Hall 1838"
+   },
+   {
+    "lat": 51.522,
+    "lon": -0.133,
+    "label": "London 1839–42"
+   },
+   {
+    "lat": 51.331,
+    "lon": 0.053,
+    "label": "Down 1842–"
+   }
+  ]
+ },
+ "darwin-1837:hooker": {
+  "lat": 51.478,
+  "lon": -0.295,
+  "label": "Kew",
+  "waypoints": []
+ },
+ "darwin-1837:jenyns": {
+  "lat": 52.24,
+  "lon": 0.28,
+  "label": "Swaffham Bulbeck",
+  "waypoints": []
+ },
+ "darwin-1837:lyell": {
+  "lat": 51.518,
+  "lon": -0.122,
+  "label": "London",
+  "waypoints": []
+ },
+ "darwin-1837:henslow": {
+  "lat": 52.12,
+  "lon": 0.89,
+  "label": "Hitcham",
+  "waypoints": []
+ },
+ "darwin-1837:robert": {
+  "lat": 52.713,
+  "lon": -2.766,
+  "label": "Shrewsbury",
+  "waypoints": []
+ },
+ "darwin-1837:chambers": {
+  "lat": 56.34,
+  "lon": -2.8,
+  "label": "St Andrews",
+  "waypoints": [
+   {
+    "lat": 56.34,
+    "lon": -2.8,
+    "label": "St Andrews, writing Vestiges 1841–44"
+   },
+   {
+    "lat": 55.953,
+    "lon": -3.188,
+    "label": "Edinburgh 1844–"
+   }
+  ]
+ },
+ "darwin-1837:ireland": {
+  "lat": 53.48,
+  "lon": -2.24,
+  "label": "Manchester",
+  "waypoints": []
+ },
+ "darwin-1837:sedgwick": {
+  "lat": 52.206,
+  "lon": 0.118,
+  "label": "Cambridge",
+  "waypoints": []
+ },
+ "darwin-1837:wallace": {
+  "lat": 51.663,
+  "lon": -3.806,
+  "label": "Neath",
+  "waypoints": []
+ },
+ "darwin-1837:tennyson": {
+  "lat": 51.51,
+  "lon": -0.14,
+  "label": "England",
+  "waypoints": []
+ },
+ "diodati-1816:polidori": {
+  "lat": 46.2219,
+  "lon": 6.1747,
+  "label": "Sécheron",
+  "waypoints": [
+   {
+    "lat": 46.2215,
+    "lon": 6.1495,
+    "label": "Sécheron hotel, from 25 May"
+   },
+   {
+    "lat": 46.2219,
+    "lon": 6.1747,
+    "label": "Villa Diodati, from 10 June"
+   }
+  ]
+ },
+ "diodati-1816:byron": {
+  "lat": 46.2219,
+  "lon": 6.1747,
+  "label": "Villa Diodati",
+  "waypoints": [
+   {
+    "lat": 46.2215,
+    "lon": 6.1495,
+    "label": "Sécheron, 25 May"
+   },
+   {
+    "lat": 46.2219,
+    "lon": 6.1747,
+    "label": "Diodati, 10 June"
+   },
+   {
+    "lat": 46.506,
+    "lon": 6.627,
+    "label": "Ouchy, 27–30 June"
+   },
+   {
+    "lat": 46.6242,
+    "lon": 8.0414,
+    "label": "Bernese Oberland, Sept"
+   },
+   {
+    "lat": 45.4408,
+    "lon": 12.3155,
+    "label": "Venice, 1819 letter"
+   }
+  ]
+ },
+ "diodati-1816:pshelley": {
+  "lat": 46.2205,
+  "lon": 6.1765,
+  "label": "Montalègre",
+  "waypoints": [
+   {
+    "lat": 46.2215,
+    "lon": 6.1495,
+    "label": "Sécheron, 13 May"
+   },
+   {
+    "lat": 46.2205,
+    "lon": 6.1765,
+    "label": "Maison Chapuis, June"
+   },
+   {
+    "lat": 46.4085,
+    "lon": 6.7225,
+    "label": "storm off Meillerie, late June"
+   },
+   {
+    "lat": 45.9237,
+    "lon": 6.8694,
+    "label": "Chamonix, 22 July"
+   },
+   {
+    "lat": 51.5705,
+    "lon": -0.7766,
+    "label": "Marlow, Sept 1817 preface"
+   }
+  ]
+ },
+ "diodati-1816:mshelley": {
+  "lat": 46.2205,
+  "lon": 6.1765,
+  "label": "Montalègre",
+  "waypoints": [
+   {
+    "lat": 46.2215,
+    "lon": 6.1495,
+    "label": "Sécheron, 17 May letter"
+   },
+   {
+    "lat": 46.2205,
+    "lon": 6.1765,
+    "label": "Maison Chapuis, 1 June letter"
+   },
+   {
+    "lat": 45.9237,
+    "lon": 6.8694,
+    "label": "Chamonix, 24 July journal"
+   },
+   {
+    "lat": 51.3811,
+    "lon": -2.359,
+    "label": "Bath, autumn 1816"
+   },
+   {
+    "lat": 51.5072,
+    "lon": -0.1276,
+    "label": "London, 1831 introduction"
+   }
+  ]
+ },
+ "diodati-1816:clairmont": {
+  "lat": 46.2205,
+  "lon": 6.1765,
+  "label": "Montalègre",
+  "waypoints": [
+   {
+    "lat": 46.2215,
+    "lon": 6.1495,
+    "label": "Sécheron, May"
+   },
+   {
+    "lat": 46.2205,
+    "lon": 6.1765,
+    "label": "Maison Chapuis, June–Aug"
+   },
+   {
+    "lat": 51.3811,
+    "lon": -2.359,
+    "label": "Bath, Allegra born Jan 1817"
+   }
+  ]
+ },
+ "diodati-1816:lewis": {
+  "lat": 46.2219,
+  "lon": 6.1747,
+  "label": "Villa Diodati",
+  "waypoints": []
+ },
+ "diodati-1816:hobhouse": {
+  "lat": 46.2219,
+  "lon": 6.1747,
+  "label": "Villa Diodati",
+  "waypoints": [
+   {
+    "lat": 46.2219,
+    "lon": 6.1747,
+    "label": "Diodati, 26 Aug"
+   },
+   {
+    "lat": 46.6242,
+    "lon": 8.0414,
+    "label": "Bernese Oberland, Sept"
+   }
+  ]
+ },
+ "diodati-1816:fanny": {
+  "lat": 51.517,
+  "lon": -0.104,
+  "label": "London",
+  "waypoints": [
+   {
+    "lat": 51.517,
+    "lon": -0.104,
+    "label": "London, summer letters"
+   },
+   {
+    "lat": 51.6214,
+    "lon": -3.9436,
+    "label": "Swansea, 9 Oct 1816"
+   }
+  ]
+ },
+ "diodati-1816:godwin": {
+  "lat": 51.517,
+  "lon": -0.104,
+  "label": "London",
+  "waypoints": []
+ },
+ "diodati-1816:pictet": {
+  "lat": 46.1985,
+  "lon": 6.146,
+  "label": "Geneva",
+  "waypoints": []
+ },
+ "diodati-1816:zschokke": {
+  "lat": 47.392,
+  "lon": 8.044,
+  "label": "Aarau",
+  "waypoints": []
+ },
+ "dream-books:aristides": {
+  "lat": 39.125,
+  "lon": 27.165,
+  "label": "Pergamum",
+  "waypoints": [
+   {
+    "lat": 38.42,
+    "lon": 27.14,
+    "label": "Smyrna, home city"
+   },
+   {
+    "lat": 39.125,
+    "lon": 27.165,
+    "label": "Pergamum Asclepieion, 145–147"
+   },
+   {
+    "lat": 39.9,
+    "lon": 28.99,
+    "label": "Mysian estates near Hadriani"
+   }
+  ]
+ },
+ "dream-books:synesius": {
+  "lat": 32.82,
+  "lon": 21.86,
+  "label": "Cyrene",
+  "waypoints": []
+ },
+ "dream-books:myoe": {
+  "lat": 35.06,
+  "lon": 135.68,
+  "label": "Kōzanji",
+  "waypoints": [
+   {
+    "lat": 34.03,
+    "lon": 135.18,
+    "label": "Kii province hermitages, 1190s"
+   },
+   {
+    "lat": 35.06,
+    "lon": 135.68,
+    "label": "Kōzanji, Toganoo, from 1206"
+   }
+  ]
+ },
+ "dream-books:cardano": {
+  "lat": 45.46,
+  "lon": 9.19,
+  "label": "Milan",
+  "waypoints": [
+   {
+    "lat": 45.46,
+    "lon": 9.19,
+    "label": "Milan, 1530s–1550s"
+   },
+   {
+    "lat": 45.19,
+    "lon": 9.16,
+    "label": "Pavia, 1547"
+   },
+   {
+    "lat": 44.49,
+    "lon": 11.34,
+    "label": "Bologna, 1562–70"
+   },
+   {
+    "lat": 41.9,
+    "lon": 12.5,
+    "label": "Rome, writing, 1575–76"
+   }
+  ]
+ },
+ "dream-books:dee": {
+  "lat": 51.468,
+  "lon": -0.267,
+  "label": "Mortlake",
+  "waypoints": [
+   {
+    "lat": 51.468,
+    "lon": -0.267,
+    "label": "Mortlake, to 1583"
+   },
+   {
+    "lat": 50.09,
+    "lon": 14.42,
+    "label": "Prague, 1584–86"
+   },
+   {
+    "lat": 49.0,
+    "lon": 14.77,
+    "label": "Třeboň, 1586–89"
+   },
+   {
+    "lat": 53.08,
+    "lon": 8.8,
+    "label": "Bremen, 1589"
+   },
+   {
+    "lat": 51.468,
+    "lon": -0.267,
+    "label": "Mortlake, from Dec 1589"
+   }
+  ]
+ },
+ "dream-books:descartes": {
+  "lat": 48.73,
+  "lon": 11.18,
+  "label": "Neuburg",
+  "waypoints": []
+ },
+ "dream-books:baillet": {
+  "lat": 48.85,
+  "lon": 2.35,
+  "label": "Paris",
+  "waypoints": []
+ },
+ "dream-books:leibniz": {
+  "lat": 48.85,
+  "lon": 2.35,
+  "label": "Paris",
+  "waypoints": [
+   {
+    "lat": 48.85,
+    "lon": 2.35,
+    "label": "Paris, copying Descartes's papers"
+   },
+   {
+    "lat": 52.37,
+    "lon": 9.73,
+    "label": "Hanover, from 1676"
+   }
+  ]
+ },
+ "dream-books:laud": {
+  "lat": 51.495,
+  "lon": -0.12,
+  "label": "London",
+  "waypoints": []
+ },
+ "dream-books:prynne": {
+  "lat": 51.513,
+  "lon": -0.112,
+  "label": "London",
+  "waypoints": []
+ },
+ "dream-books:asiye": {
+  "lat": 42.0,
+  "lon": 21.43,
+  "label": "Skopje",
+  "waypoints": []
+ },
+ "dream-books:pepys": {
+  "lat": 51.51,
+  "lon": -0.079,
+  "label": "London",
+  "waypoints": [
+   {
+    "lat": 51.51,
+    "lon": -0.079,
+    "label": "Seething Lane"
+   },
+   {
+    "lat": 51.48,
+    "lon": 0.0,
+    "label": "Greenwich, 1665"
+   }
+  ]
+ },
+ "dream-books:swedenborg": {
+  "lat": 52.01,
+  "lon": 4.36,
+  "label": "The Hague",
+  "waypoints": [
+   {
+    "lat": 59.33,
+    "lon": 18.07,
+    "label": "Stockholm (home)"
+   },
+   {
+    "lat": 52.08,
+    "lon": 4.3,
+    "label": "The Hague, spring 1744"
+   },
+   {
+    "lat": 52.01,
+    "lon": 4.36,
+    "label": "Delft, 6–7 April 1744"
+   },
+   {
+    "lat": 52.37,
+    "lon": 4.9,
+    "label": "Amsterdam, April–May 1744"
+   },
+   {
+    "lat": 51.51,
+    "lon": -0.11,
+    "label": "London, from May 1744"
+   }
+  ]
+ },
+ "everett-1957:everett": {
+  "lat": 40.3487,
+  "lon": -74.6593,
+  "label": "Princeton",
+  "waypoints": [
+   {
+    "lat": 40.3487,
+    "lon": -74.6593,
+    "label": "Princeton, 1954–56"
+   },
+   {
+    "lat": 38.8719,
+    "lon": -77.0563,
+    "label": "WSEG, Pentagon, from mid-1956"
+   },
+   {
+    "lat": 55.6967,
+    "lon": 12.5716,
+    "label": "Copenhagen, spring 1959"
+   },
+   {
+    "lat": 30.2849,
+    "lon": -97.7341,
+    "label": "Austin, 1977"
+   }
+  ]
+ },
+ "everett-1957:wheeler": {
+  "lat": 40.3487,
+  "lon": -74.6593,
+  "label": "Princeton",
+  "waypoints": [
+   {
+    "lat": 52.1601,
+    "lon": 4.497,
+    "label": "Leiden, spring 1956"
+   },
+   {
+    "lat": 55.6967,
+    "lon": 12.5716,
+    "label": "Copenhagen, early May 1956"
+   },
+   {
+    "lat": 40.3487,
+    "lon": -74.6593,
+    "label": "Princeton, autumn 1956"
+   },
+   {
+    "lat": 35.9049,
+    "lon": -79.0469,
+    "label": "Chapel Hill, January 1957"
+   },
+   {
+    "lat": 30.2849,
+    "lon": -97.7341,
+    "label": "Austin, 1977"
+   }
+  ]
+ },
+ "everett-1957:petersen": {
+  "lat": 55.6967,
+  "lon": 12.5716,
+  "label": "Princeton",
+  "waypoints": [
+   {
+    "lat": 40.3487,
+    "lon": -74.6593,
+    "label": "Princeton, 1954–55"
+   },
+   {
+    "lat": 55.6967,
+    "lon": 12.5716,
+    "label": "Copenhagen, 1956–59"
+   }
+  ]
+ },
+ "everett-1957:bohr": {
+  "lat": 55.6967,
+  "lon": 12.5716,
+  "label": "Copenhagen",
+  "waypoints": []
+ },
+ "everett-1957:stern": {
+  "lat": 55.6967,
+  "lon": 12.5716,
+  "label": "Copenhagen",
+  "waypoints": []
+ },
+ "everett-1957:misner": {
+  "lat": 40.3487,
+  "lon": -74.6593,
+  "label": "Princeton",
+  "waypoints": [
+   {
+    "lat": 40.3487,
+    "lon": -74.6593,
+    "label": "Princeton, 1954–57"
+   },
+   {
+    "lat": 35.9049,
+    "lon": -79.0469,
+    "label": "Chapel Hill, January 1957"
+   },
+   {
+    "lat": 55.6967,
+    "lon": 12.5716,
+    "label": "Copenhagen, 1959"
+   },
+   {
+    "lat": 30.2849,
+    "lon": -97.7341,
+    "label": "Austin, 1977"
+   }
+  ]
+ },
+ "everett-1957:dewitt": {
+  "lat": 35.9049,
+  "lon": -79.0469,
+  "label": "Chapel Hill",
+  "waypoints": [
+   {
+    "lat": 35.9049,
+    "lon": -79.0469,
+    "label": "Chapel Hill, 1957–70"
+   },
+   {
+    "lat": 30.2849,
+    "lon": -97.7341,
+    "label": "Austin, 1977"
+   }
+  ]
+ },
+ "everett-1957:feynman": {
+  "lat": 35.9049,
+  "lon": -79.0469,
+  "label": "Chapel Hill",
+  "waypoints": [
+   {
+    "lat": 34.1377,
+    "lon": -118.1253,
+    "label": "Pasadena"
+   },
+   {
+    "lat": 35.9049,
+    "lon": -79.0469,
+    "label": "Chapel Hill, January 1957"
+   }
+  ]
+ },
+ "everett-1957:groenewold": {
+  "lat": 53.2194,
+  "lon": 6.5665,
+  "label": "Groningen",
+  "waypoints": []
+ },
+ "everett-1957:rosenfeld": {
+  "lat": 55.6967,
+  "lon": 12.5716,
+  "label": "Manchester",
+  "waypoints": [
+   {
+    "lat": 53.4668,
+    "lon": -2.2339,
+    "label": "Manchester, to 1958"
+   },
+   {
+    "lat": 35.9049,
+    "lon": -79.0469,
+    "label": "Chapel Hill, January 1957"
+   },
+   {
+    "lat": 55.6967,
+    "lon": 12.5716,
+    "label": "Copenhagen, Nordita, 1958–74"
+   }
+  ]
+ },
+ "everett-1957:eisner": {
+  "lat": 29.7604,
+  "lon": -95.3698,
+  "label": "Houston",
+  "waypoints": []
+ },
+ "gold-1971:nixon": {
+  "lat": 38.8977,
+  "lon": -77.0365,
+  "label": "Camp David",
+  "waypoints": [
+   {
+    "lat": 39.648,
+    "lon": -77.465,
+    "label": "Camp David, 13–15 Aug"
+   },
+   {
+    "lat": 38.8977,
+    "lon": -77.0365,
+    "label": "White House broadcast, 15 Aug"
+   },
+   {
+    "lat": 38.8888,
+    "lon": -77.026,
+    "label": "Smithsonian, 18 Dec"
+   }
+  ]
+ },
+ "gold-1971:haldeman": {
+  "lat": 39.648,
+  "lon": -77.465,
+  "label": "Camp David",
+  "waypoints": [
+   {
+    "lat": 38.8977,
+    "lon": -77.0365,
+    "label": "White House, 12 Aug"
+   },
+   {
+    "lat": 39.648,
+    "lon": -77.465,
+    "label": "Camp David, 13–15 Aug"
+   },
+   {
+    "lat": 38.8977,
+    "lon": -77.0365,
+    "label": "White House, 16 Aug"
+   }
+  ]
+ },
+ "gold-1971:burns": {
+  "lat": 38.8926,
+  "lon": -77.0458,
+  "label": "Washington",
+  "waypoints": [
+   {
+    "lat": 38.8926,
+    "lon": -77.0458,
+    "label": "Federal Reserve Board, Washington"
+   },
+   {
+    "lat": 39.648,
+    "lon": -77.465,
+    "label": "Camp David"
+   }
+  ]
+ },
+ "gold-1971:connally": {
+  "lat": 38.8981,
+  "lon": -77.0342,
+  "label": "Washington",
+  "waypoints": [
+   {
+    "lat": 38.8981,
+    "lon": -77.0342,
+    "label": "Treasury, Washington"
+   },
+   {
+    "lat": 39.648,
+    "lon": -77.465,
+    "label": "Camp David"
+   },
+   {
+    "lat": 41.9028,
+    "lon": 12.4964,
+    "label": "Rome, G-10, Nov"
+   }
+  ]
+ },
+ "gold-1971:volcker": {
+  "lat": 51.5115,
+  "lon": -0.152,
+  "label": "London",
+  "waypoints": [
+   {
+    "lat": 38.8981,
+    "lon": -77.0342,
+    "label": "Treasury, Washington"
+   },
+   {
+    "lat": 39.648,
+    "lon": -77.465,
+    "label": "Camp David"
+   },
+   {
+    "lat": 51.5115,
+    "lon": -0.152,
+    "label": "London, 16 Aug"
+   },
+   {
+    "lat": 41.9028,
+    "lon": 12.4964,
+    "label": "Rome, 29 Nov"
+   }
+  ]
+ },
+ "gold-1971:safire": {
+  "lat": 39.648,
+  "lon": -77.465,
+  "label": "Camp David",
+  "waypoints": []
+ },
+ "gold-1971:stein": {
+  "lat": 39.648,
+  "lon": -77.465,
+  "label": "Camp David",
+  "waypoints": []
+ },
+ "gold-1971:hormats": {
+  "lat": 38.8977,
+  "lon": -77.0365,
+  "label": "Washington",
+  "waypoints": []
+ },
+ "gold-1971:coombs": {
+  "lat": 40.7083,
+  "lon": -74.0087,
+  "label": "New York Fed",
+  "waypoints": []
+ },
+ "gold-1971:cromer": {
+  "lat": 38.9183,
+  "lon": -77.0638,
+  "label": "Washington",
+  "waypoints": []
+ },
+ "gold-1971:emminger": {
+  "lat": 51.5115,
+  "lon": -0.152,
+  "label": "London",
+  "waypoints": [
+   {
+    "lat": 50.129,
+    "lon": 8.67,
+    "label": "Frankfurt, Bundesbank"
+   },
+   {
+    "lat": 51.5115,
+    "lon": -0.152,
+    "label": "London, 16 Aug"
+   }
+  ]
+ },
+ "gold-1971:schweitzer": {
+  "lat": 38.899,
+  "lon": -77.044,
+  "label": "IMF, Washington",
+  "waypoints": []
+ },
+ "gold-1971:sato": {
+  "lat": 35.673,
+  "lon": 139.742,
+  "label": "Tokyo",
+  "waypoints": []
+ },
+ "gold-1971:asada": {
+  "lat": 43.1907,
+  "lon": 140.9947,
+  "label": "Otaru",
+  "waypoints": []
+ },
+ "hidden-christians-1865:petitjean": {
+  "lat": 32.734,
+  "lon": 129.87,
+  "label": "Ōura",
+  "waypoints": [
+   {
+    "lat": 35.444,
+    "lon": 139.638,
+    "label": "Yokohama, landed 1862"
+   },
+   {
+    "lat": 32.734,
+    "lon": 129.87,
+    "label": "Ōura, Nagasaki 1863–69"
+   },
+   {
+    "lat": 41.902,
+    "lon": 12.457,
+    "label": "Rome, Vatican Council 1869–70"
+   },
+   {
+    "lat": 32.734,
+    "lon": 129.87,
+    "label": "back in Nagasaki, Dec 1870"
+   }
+  ]
+ },
+ "hidden-christians-1865:yuri": {
+  "lat": 32.776,
+  "lon": 129.868,
+  "label": "Urakami",
+  "waypoints": []
+ },
+ "hidden-christians-1865:takagi": {
+  "lat": 32.776,
+  "lon": 129.868,
+  "label": "Urakami",
+  "waypoints": [
+   {
+    "lat": 32.776,
+    "lon": 129.868,
+    "label": "Urakami"
+   },
+   {
+    "lat": 32.75,
+    "lon": 129.88,
+    "label": "Nagasaki magistrate's office, 1867"
+   },
+   {
+    "lat": 34.467,
+    "lon": 131.772,
+    "label": "Tsuwano (exile, approx.)"
+   },
+   {
+    "lat": 32.776,
+    "lon": 129.868,
+    "label": "Urakami, 1873"
+   }
+  ]
+ },
+ "hidden-christians-1865:okabe": {
+  "lat": 32.75,
+  "lon": 129.88,
+  "label": "Nagasaki",
+  "waypoints": []
+ },
+ "hidden-christians-1865:tokunaga": {
+  "lat": 32.75,
+  "lon": 129.88,
+  "label": "Nagasaki",
+  "waypoints": []
+ },
+ "hidden-christians-1865:vanvalkenburgh": {
+  "lat": 35.444,
+  "lon": 139.638,
+  "label": "Yokohama",
+  "waypoints": []
+ },
+ "hidden-christians-1865:roches": {
+  "lat": 34.687,
+  "lon": 135.526,
+  "label": "Osaka",
+  "waypoints": []
+ },
+ "hidden-christians-1865:satow": {
+  "lat": 34.69,
+  "lon": 135.5,
+  "label": "Osaka",
+  "waypoints": []
+ },
+ "hidden-christians-1865:parkes": {
+  "lat": 35.68,
+  "lon": 139.76,
+  "label": "Osaka",
+  "waypoints": [
+   {
+    "lat": 34.69,
+    "lon": 135.5,
+    "label": "Osaka, May 1868"
+   },
+   {
+    "lat": 35.68,
+    "lon": 139.76,
+    "label": "Tokyo foreign office, Jan 1870"
+   }
+  ]
+ },
+ "hidden-christians-1865:okuma": {
+  "lat": 34.69,
+  "lon": 135.5,
+  "label": "Osaka",
+  "waypoints": []
+ },
+ "hidden-christians-1865:kido": {
+  "lat": 35.011,
+  "lon": 135.768,
+  "label": "Kyoto",
+  "waypoints": [
+   {
+    "lat": 35.011,
+    "lon": 135.768,
+    "label": "Kyoto 1868"
+   },
+   {
+    "lat": 32.75,
+    "lon": 129.88,
+    "label": "Nagasaki, July 1868"
+   },
+   {
+    "lat": 38.907,
+    "lon": -77.037,
+    "label": "Washington 1872 (Iwakura Mission)"
+   },
+   {
+    "lat": 35.68,
+    "lon": 139.76,
+    "label": "Tokyo, July 1873"
+   }
+  ]
+ },
+ "hidden-christians-1865:sanjo": {
+  "lat": 35.685,
+  "lon": 139.753,
+  "label": "Tokyo",
+  "waypoints": []
+ },
+ "hidden-christians-1865:delong": {
+  "lat": 35.444,
+  "lon": 139.638,
+  "label": "Yokohama",
+  "waypoints": []
+ },
+ "hidden-christians-1865:kume": {
+  "lat": 40.713,
+  "lon": -74.006,
+  "label": "Iwakura Mission",
+  "waypoints": [
+   {
+    "lat": 40.713,
+    "lon": -74.006,
+    "label": "New York 1872"
+   },
+   {
+    "lat": 51.507,
+    "lon": -0.128,
+    "label": "London 1872"
+   },
+   {
+    "lat": 50.85,
+    "lon": 4.352,
+    "label": "Brussels 1873"
+   }
+  ]
+ },
+ "hildegard-1141:hildegard": {
+  "lat": 49.776,
+  "lon": 7.736,
+  "label": "Disibodenberg",
+  "waypoints": [
+   {
+    "lat": 49.776,
+    "lon": 7.736,
+    "label": "Disibodenberg 1112–c.1150"
+   },
+   {
+    "lat": 49.967,
+    "lon": 7.897,
+    "label": "Rupertsberg c.1150–1179"
+   }
+  ]
+ },
+ "hildegard-1141:volmar": {
+  "lat": 49.776,
+  "lon": 7.736,
+  "label": "Disibodenberg",
+  "waypoints": [
+   {
+    "lat": 49.776,
+    "lon": 7.736,
+    "label": "Disibodenberg"
+   },
+   {
+    "lat": 49.967,
+    "lon": 7.897,
+    "label": "Rupertsberg provost"
+   }
+  ]
+ },
+ "hildegard-1141:kuno": {
+  "lat": 49.776,
+  "lon": 7.736,
+  "label": "Disibodenberg",
+  "waypoints": []
+ },
+ "hildegard-1141:bernard": {
+  "lat": 48.149,
+  "lon": 4.788,
+  "label": "Clairvaux",
+  "waypoints": [
+   {
+    "lat": 48.149,
+    "lon": 4.788,
+    "label": "Clairvaux"
+   },
+   {
+    "lat": 49.756,
+    "lon": 6.641,
+    "label": "Trier, winter 1147–48"
+   }
+  ]
+ },
+ "hildegard-1141:eugenius": {
+  "lat": 49.756,
+  "lon": 6.641,
+  "label": "Trier",
+  "waypoints": [
+   {
+    "lat": 49.756,
+    "lon": 6.641,
+    "label": "Trier synod 1147–48"
+   },
+   {
+    "lat": 41.902,
+    "lon": 12.457,
+    "label": "Rome/Italy"
+   }
+  ]
+ },
+ "hildegard-1141:gottfried": {
+  "lat": 49.967,
+  "lon": 7.897,
+  "label": "Rupertsberg",
+  "waypoints": []
+ },
+ "hildegard-1141:theoderich": {
+  "lat": 49.812,
+  "lon": 6.42,
+  "label": "Echternach",
+  "waypoints": []
+ },
+ "hildegard-1141:odo": {
+  "lat": 48.853,
+  "lon": 2.349,
+  "label": "Paris",
+  "waypoints": []
+ },
+ "hildegard-1141:tengswich": {
+  "lat": 50.44,
+  "lon": 7.4,
+  "label": "Andernach",
+  "waypoints": []
+ },
+ "hildegard-1141:richardis": {
+  "lat": 49.967,
+  "lon": 7.897,
+  "label": "Disibodenberg",
+  "waypoints": [
+   {
+    "lat": 49.776,
+    "lon": 7.736,
+    "label": "Disibodenberg"
+   },
+   {
+    "lat": 49.967,
+    "lon": 7.897,
+    "label": "Rupertsberg"
+   },
+   {
+    "lat": 52.85,
+    "lon": 8.73,
+    "label": "Bassum, abbess 1151–52"
+   }
+  ]
+ },
+ "hildegard-1141:hartwig": {
+  "lat": 53.079,
+  "lon": 8.802,
+  "label": "Bremen",
+  "waypoints": []
+ },
+ "hildegard-1141:elisabeth": {
+  "lat": 50.21,
+  "lon": 7.86,
+  "label": "Schönau",
+  "waypoints": []
+ },
+ "hildegard-1141:guibert": {
+  "lat": 50.561,
+  "lon": 4.698,
+  "label": "Gembloux",
+  "waypoints": [
+   {
+    "lat": 50.561,
+    "lon": 4.698,
+    "label": "Gembloux, 1175 letters"
+   },
+   {
+    "lat": 49.967,
+    "lon": 7.897,
+    "label": "Rupertsberg 1177–c.1180"
+   }
+  ]
+ },
+ "hildegard-1141:singer": {
+  "lat": 51.752,
+  "lon": -1.258,
+  "label": "London",
+  "waypoints": [
+   {
+    "lat": 51.507,
+    "lon": -0.128,
+    "label": "London, RSM lecture Nov 1913"
+   },
+   {
+    "lat": 51.752,
+    "lon": -1.258,
+    "label": "Oxford, 1917 essay"
+   }
+  ]
+ },
+ "inflation-1923:hemingway": {
+  "lat": 48.573,
+  "lon": 7.815,
+  "label": "Paris",
+  "waypoints": [
+   {
+    "lat": 48.857,
+    "lon": 2.352,
+    "label": "Paris, base"
+   },
+   {
+    "lat": 48.583,
+    "lon": 7.746,
+    "label": "Strasbourg"
+   },
+   {
+    "lat": 48.573,
+    "lon": 7.815,
+    "label": "Kehl, across the Rhine"
+   }
+  ]
+ },
+ "inflation-1923:kollwitz": {
+  "lat": 52.536,
+  "lon": 13.418,
+  "label": "Berlin",
+  "waypoints": []
+ },
+ "inflation-1923:kessler": {
+  "lat": 52.505,
+  "lon": 13.377,
+  "label": "Berlin",
+  "waypoints": []
+ },
+ "inflation-1923:klemperer": {
+  "lat": 51.05,
+  "lon": 13.737,
+  "label": "Dresden",
+  "waypoints": []
+ },
+ "inflation-1923:scholem": {
+  "lat": 52.513,
+  "lon": 13.402,
+  "label": "Berlin",
+  "waypoints": []
+ },
+ "inflation-1923:wolfgang": {
+  "lat": 52.52,
+  "lon": 13.405,
+  "label": "Berlin",
+  "waypoints": []
+ },
+ "inflation-1923:dabernon": {
+  "lat": 52.516,
+  "lon": 13.381,
+  "label": "Berlin",
+  "waypoints": []
+ },
+ "inflation-1923:schacht": {
+  "lat": 52.511,
+  "lon": 13.383,
+  "label": "Berlin",
+  "waypoints": []
+ },
+ "inflation-1923:reich": {
+  "lat": 52.513,
+  "lon": 13.389,
+  "label": "Berlin",
+  "waypoints": []
+ },
+ "inflation-1923:wirtschaftsdienst": {
+  "lat": 53.551,
+  "lon": 9.993,
+  "label": "Hamburg",
+  "waypoints": []
+ },
+ "inflation-1923:pustau": {
+  "lat": 53.56,
+  "lon": 10.0,
+  "label": "Hamburg",
+  "waypoints": []
+ },
+ "inflation-1923:bissantz": {
+  "lat": 53.079,
+  "lon": 8.801,
+  "label": "Bremen",
+  "waypoints": []
+ },
+ "jerusalem-1948:khalil": {
+  "lat": 31.7615,
+  "lon": 35.2155,
+  "label": "Qatamon",
+  "waypoints": [
+   {
+    "lat": 31.7615,
+    "lon": 35.2155,
+    "label": "Qatamon house, Jan–Apr 1948"
+   },
+   {
+    "lat": 30.044,
+    "lon": 31.236,
+    "label": "Cairo, from 30 Apr 1948"
+   }
+  ]
+ },
+ "jerusalem-1948:hala": {
+  "lat": 31.7615,
+  "lon": 35.2155,
+  "label": "Qatamon",
+  "waypoints": [
+   {
+    "lat": 31.7615,
+    "lon": 35.2155,
+    "label": "Qatamon, Jan–Apr 1948"
+   },
+   {
+    "lat": 30.044,
+    "lon": 31.236,
+    "label": "Cairo, May 1948"
+   }
+  ]
+ },
+ "jerusalem-1948:levin": {
+  "lat": 31.7735,
+  "lon": 35.2125,
+  "label": "West Jerusalem",
+  "waypoints": []
+ },
+ "jerusalem-1948:joseph": {
+  "lat": 31.7755,
+  "lon": 35.2145,
+  "label": "West Jerusalem",
+  "waypoints": []
+ },
+ "jerusalem-1948:cailingold": {
+  "lat": 31.775,
+  "lon": 35.231,
+  "label": "Jewish Quarter",
+  "waypoints": []
+ },
+ "jerusalem-1948:jones": {
+  "lat": 31.7765,
+  "lon": 35.2295,
+  "label": "Christ Church",
+  "waypoints": []
+ },
+ "jerusalem-1948:gurney": {
+  "lat": 31.7745,
+  "lon": 35.2225,
+  "label": "Jerusalem",
+  "waypoints": []
+ },
+ "jerusalem-1948:usconsul": {
+  "lat": 31.777,
+  "lon": 35.221,
+  "label": "US Consulate",
+  "waypoints": []
+ },
+ "jerusalem-1948:bernadotte": {
+  "lat": 36.434,
+  "lon": 28.217,
+  "label": "Rhodes",
+  "waypoints": [
+   {
+    "lat": 36.434,
+    "lon": 28.217,
+    "label": "Rhodes headquarters"
+   },
+   {
+    "lat": 31.7745,
+    "lon": 35.2225,
+    "label": "Jerusalem YMCA, visits Jun–Sep 1948"
+   },
+   {
+    "lat": 31.7605,
+    "lon": 35.216,
+    "label": "Qatamon, 17 Sep 1948"
+   }
+  ]
+ },
+ "jerusalem-1948:azcarate": {
+  "lat": 31.774,
+  "lon": 35.222,
+  "label": "Jerusalem",
+  "waypoints": [
+   {
+    "lat": 40.75,
+    "lon": -73.97,
+    "label": "New York, early 1948 and April 1948"
+   },
+   {
+    "lat": 31.774,
+    "lon": 35.222,
+    "label": "Jerusalem, Mar 1948 onward"
+   }
+  ]
+ },
+ "jerusalem-1948:dereynier": {
+  "lat": 31.776,
+  "lon": 35.223,
+  "label": "Jerusalem",
+  "waypoints": [
+   {
+    "lat": 31.786,
+    "lon": 35.179,
+    "label": "Deir Yassin, 11 Apr 1948"
+   },
+   {
+    "lat": 31.776,
+    "lon": 35.223,
+    "label": "Jerusalem delegation"
+   }
+  ]
+ },
+ "jerusalem-1948:altall": {
+  "lat": 31.7785,
+  "lon": 35.23,
+  "label": "Old City",
+  "waypoints": [
+   {
+    "lat": 31.7785,
+    "lon": 35.23,
+    "label": "Old City, May 1948–1949"
+   },
+   {
+    "lat": 30.044,
+    "lon": 31.236,
+    "label": "Cairo, exile after 1949"
+   }
+  ]
+ },
+ "jerusalem-1948:bengurion": {
+  "lat": 32.0753,
+  "lon": 34.7748,
+  "label": "Tel Aviv",
+  "waypoints": []
+ },
+ "jerusalem-1948:un": {
+  "lat": 40.739,
+  "lon": -73.84,
+  "label": "Lake Success",
+  "waypoints": [
+   {
+    "lat": 40.739,
+    "lon": -73.84,
+    "label": "General Assembly, Flushing Meadows, Nov 1947"
+   },
+   {
+    "lat": 36.434,
+    "lon": 28.217,
+    "label": "Rhodes armistice talks, 1949"
+   }
+  ]
+ },
+ "missing-days:gregory": {
+  "lat": 41.902,
+  "lon": 12.457,
+  "label": "Rome",
+  "waypoints": [
+   {
+    "lat": 41.807,
+    "lon": 12.68,
+    "label": "Tusculum/Frascati, bull given Feb 1582"
+   },
+   {
+    "lat": 41.902,
+    "lon": 12.457,
+    "label": "Rome, October 1582"
+   }
+  ]
+ },
+ "missing-days:ana": {
+  "lat": 40.826,
+  "lon": -5.511,
+  "label": "Alba de Tormes",
+  "waypoints": [
+   {
+    "lat": 42.343,
+    "lon": -3.697,
+    "label": "Burgos foundation, 1582"
+   },
+   {
+    "lat": 40.826,
+    "lon": -5.511,
+    "label": "Alba de Tormes, Sept–Oct 1582"
+   },
+   {
+    "lat": 51.219,
+    "lon": 4.402,
+    "label": "Antwerp, later years (d. 1626)"
+   }
+  ]
+ },
+ "missing-days:montaigne": {
+  "lat": 44.838,
+  "lon": -0.579,
+  "label": "Bordeaux",
+  "waypoints": [
+   {
+    "lat": 44.838,
+    "lon": -0.579,
+    "label": "Bordeaux, mayor, Dec 1582"
+   },
+   {
+    "lat": 44.882,
+    "lon": 0.03,
+    "label": "Château de Montaigne, writing Book III"
+   }
+  ]
+ },
+ "missing-days:dee": {
+  "lat": 51.468,
+  "lon": -0.267,
+  "label": "Mortlake",
+  "waypoints": []
+ },
+ "missing-days:ystad": {
+  "lat": 55.429,
+  "lon": 13.82,
+  "label": "Ystad",
+  "waypoints": []
+ },
+ "missing-days:chesterfield": {
+  "lat": 51.499,
+  "lon": -0.125,
+  "label": "London",
+  "waypoints": []
+ },
+ "missing-days:franklin": {
+  "lat": 39.95,
+  "lon": -75.146,
+  "label": "Philadelphia",
+  "waypoints": []
+ },
+ "missing-days:parkman": {
+  "lat": 42.27,
+  "lon": -71.616,
+  "label": "Westborough",
+  "waypoints": []
+ },
+ "missing-days:wesley": {
+  "lat": 52.259,
+  "lon": -7.11,
+  "label": "Ireland",
+  "waypoints": [
+   {
+    "lat": 51.898,
+    "lon": -8.475,
+    "label": "Cork, late August 1752"
+   },
+   {
+    "lat": 52.259,
+    "lon": -7.11,
+    "label": "Waterford, 2 September (O.S.)"
+   },
+   {
+    "lat": 52.676,
+    "lon": -6.294,
+    "label": "Gorey, 14 September (N.S.)"
+   },
+   {
+    "lat": 53.349,
+    "lon": -6.26,
+    "label": "Dublin, 17–18 September"
+   }
+  ]
+ },
+ "missing-days:hogarth": {
+  "lat": 51.51,
+  "lon": -0.13,
+  "label": "London",
+  "waypoints": []
+ },
+ "missing-days:delong": {
+  "lat": 35.444,
+  "lon": 139.638,
+  "label": "Yokohama",
+  "waypoints": []
+ },
+ "missing-days:fukuzawa": {
+  "lat": 35.649,
+  "lon": 139.742,
+  "label": "Mita",
+  "waypoints": []
+ },
+ "missing-days:okuma": {
+  "lat": 35.685,
+  "lon": 139.753,
+  "label": "Tokyo",
+  "waypoints": []
+ },
+ "missing-days:sovnarkom": {
+  "lat": 59.946,
+  "lon": 30.396,
+  "label": "Petrograd",
+  "waypoints": []
+ },
+ "missing-days:bunin": {
+  "lat": 55.756,
+  "lon": 37.617,
+  "label": "Moscow",
+  "waypoints": []
+ },
+ "private-books:jung": {
+  "lat": 47.318,
+  "lon": 8.583,
+  "label": "Küsnacht",
+  "waypoints": [
+   {
+    "lat": 47.318,
+    "lon": 8.583,
+    "label": "Küsnacht, home and consulting room"
+   },
+   {
+    "lat": 48.137,
+    "lon": 11.575,
+    "label": "Munich congress, Sept 1913"
+   },
+   {
+    "lat": 47.697,
+    "lon": 8.635,
+    "label": "Schaffhausen journey, Oct 1913"
+   },
+   {
+    "lat": 57.149,
+    "lon": -2.094,
+    "label": "Aberdeen lecture, July 1914"
+   },
+   {
+    "lat": 46.475,
+    "lon": 7.131,
+    "label": "Château-d'Oex, mandalas, Aug 1917"
+   }
+  ]
+ },
+ "private-books:freud": {
+  "lat": 48.218,
+  "lon": 16.363,
+  "label": "Vienna",
+  "waypoints": []
+ },
+ "private-books:emma": {
+  "lat": 47.318,
+  "lon": 8.583,
+  "label": "Küsnacht",
+  "waypoints": []
+ },
+ "private-books:wolff": {
+  "lat": 47.376,
+  "lon": 8.541,
+  "label": "Zürich",
+  "waypoints": []
+ },
+ "private-books:moltzer": {
+  "lat": 47.37,
+  "lon": 8.55,
+  "label": "Zürich",
+  "waypoints": []
+ },
+ "private-books:shamdasani": {
+  "lat": 51.524,
+  "lon": -0.134,
+  "label": "London",
+  "waypoints": []
+ },
+ "private-books:dick": {
+  "lat": 33.87,
+  "lon": -117.925,
+  "label": "Fullerton",
+  "waypoints": [
+   {
+    "lat": 33.87,
+    "lon": -117.925,
+    "label": "Fullerton, 1974"
+   },
+   {
+    "lat": 49.12,
+    "lon": 6.176,
+    "label": "Metz, France, Sept 1977"
+   },
+   {
+    "lat": 33.745,
+    "lon": -117.868,
+    "label": "Santa Ana, last years"
+   }
+  ]
+ },
+ "private-books:bush": {
+  "lat": 42.862,
+  "lon": -112.45,
+  "label": "Pocatello",
+  "waypoints": []
+ },
+ "private-books:tessa": {
+  "lat": 33.87,
+  "lon": -117.925,
+  "label": "Fullerton",
+  "waypoints": []
+ },
+ "private-books:disch": {
+  "lat": 40.758,
+  "lon": -73.985,
+  "label": "New York",
+  "waypoints": []
+ },
+ "private-books:leguin": {
+  "lat": 45.523,
+  "lon": -122.676,
+  "label": "Portland",
+  "waypoints": []
+ },
+ "private-books:lethem": {
+  "lat": 34.097,
+  "lon": -117.719,
+  "label": "Claremont",
+  "waypoints": []
+ },
+ "waking-ideas:kekule": {
+  "lat": 51.05,
+  "lon": 3.72,
+  "label": "London",
+  "waypoints": [
+   {
+    "lat": 51.46,
+    "lon": -0.14,
+    "label": "Clapham Road, London, c. 1855"
+   },
+   {
+    "lat": 49.41,
+    "lon": 8.69,
+    "label": "Heidelberg, 1858 paper"
+   },
+   {
+    "lat": 51.05,
+    "lon": 3.72,
+    "label": "Ghent, 1858–67"
+   },
+   {
+    "lat": 50.73,
+    "lon": 7.1,
+    "label": "Bonn, 1867–96"
+   },
+   {
+    "lat": 52.52,
+    "lon": 13.4,
+    "label": "Berlin, Benzolfest 1890"
+   }
+  ]
+ },
+ "waking-ideas:couper": {
+  "lat": 48.85,
+  "lon": 2.34,
+  "label": "Paris",
+  "waypoints": [
+   {
+    "lat": 48.85,
+    "lon": 2.34,
+    "label": "Wurtz laboratory, Paris, 1856–58"
+   },
+   {
+    "lat": 55.95,
+    "lon": -3.19,
+    "label": "Edinburgh, autumn 1858"
+   },
+   {
+    "lat": 55.94,
+    "lon": -4.15,
+    "label": "Kirkintilloch, later life"
+   }
+  ]
+ },
+ "waking-ideas:loschmidt": {
+  "lat": 48.21,
+  "lon": 16.37,
+  "label": "Vienna",
+  "waypoints": []
+ },
+ "waking-ideas:anschutz": {
+  "lat": 50.73,
+  "lon": 7.1,
+  "label": "Bonn",
+  "waypoints": []
+ },
+ "waking-ideas:wotiz": {
+  "lat": 37.72,
+  "lon": -89.22,
+  "label": "Illinois",
+  "waypoints": []
+ },
+ "waking-ideas:tesla": {
+  "lat": 47.515,
+  "lon": 19.08,
+  "label": "Budapest",
+  "waypoints": [
+   {
+    "lat": 47.515,
+    "lon": 19.08,
+    "label": "City Park, Budapest, 1882"
+   },
+   {
+    "lat": 48.58,
+    "lon": 7.75,
+    "label": "Strasbourg, 1883"
+   },
+   {
+    "lat": 40.73,
+    "lon": -73.99,
+    "label": "New York, 1884–"
+   }
+  ]
+ },
+ "waking-ideas:szigeti": {
+  "lat": 47.515,
+  "lon": 19.08,
+  "label": "Budapest",
+  "waypoints": []
+ },
+ "waking-ideas:ramanujan": {
+  "lat": 13.08,
+  "lon": 80.27,
+  "label": "Madras",
+  "waypoints": [
+   {
+    "lat": 13.08,
+    "lon": 80.27,
+    "label": "Madras Port Trust, 1913"
+   },
+   {
+    "lat": 52.207,
+    "lon": 0.117,
+    "label": "Trinity College, Cambridge, 1914–19"
+   },
+   {
+    "lat": 10.96,
+    "lon": 79.38,
+    "label": "Kumbakonam, 1920"
+   }
+  ]
+ },
+ "waking-ideas:hardy": {
+  "lat": 52.207,
+  "lon": 0.117,
+  "label": "Cambridge",
+  "waypoints": []
+ },
+ "waking-ideas:ranganathan": {
+  "lat": 12.97,
+  "lon": 77.59,
+  "label": "Madras",
+  "waypoints": []
+ },
+ "waking-ideas:loewi": {
+  "lat": 47.07,
+  "lon": 15.44,
+  "label": "Graz",
+  "waypoints": [
+   {
+    "lat": 47.07,
+    "lon": 15.44,
+    "label": "Graz, 1909–38"
+   },
+   {
+    "lat": 40.74,
+    "lon": -73.97,
+    "label": "New York University, 1940–61"
+   }
+  ]
+ },
+ "waking-ideas:mendeleev": {
+  "lat": 59.94,
+  "lon": 30.3,
+  "label": "St Petersburg",
+  "waypoints": []
+ },
+ "waking-ideas:inostrantsev": {
+  "lat": 59.94,
+  "lon": 30.3,
+  "label": "St Petersburg",
+  "waypoints": []
+ },
+ "waking-ideas:howe": {
+  "lat": 42.37,
+  "lon": -71.11,
+  "label": "Cambridge, Mass.",
+  "waypoints": []
+ }
+}

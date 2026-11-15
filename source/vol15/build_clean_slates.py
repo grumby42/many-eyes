@@ -1,0 +1,634 @@
+import json
+
+OUT = "/tmp/claude-0/-home-claude/fa284f55-6839-573e-8ba4-d29a7355a349/scratchpad/vol15/ch-clean-slates.json"
+
+U = {
+    "johns": "https://gutenberg.org/cache/epub/28674/pg28674-images.html",
+    "athpol": "https://classics.mit.edu/Aristotle/athenian_const.mb.txt",
+    "sol15": "https://lexundria.com/plut_sol/15/prr",
+    "agis13": "https://lexundria.com/plut_agis/13/prr",
+    "neh5": "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/5?lang=eng",
+    "jer34": "https://williamsbible.link/kjv/1/24/034/008.html",
+    "budge": "https://neonvagabond.xyz/mirrors/sacred-texts/egy/trs/trs07.htm",
+    "fordham": "https://sourcebooks.web.fordham.edu/ancient/rosetta-stone-translation.asp",
+    "ptebt": "https://papyri.info/hgv/2938",
+    "ptebt_tr": "https://www.attalus.org/egypt/ptolemy_viii_decrees.html",
+    "berkeley": "https://digicoll.lib.berkeley.edu/record/231521",
+    "dem24": "https://cts.perseids.org/read/greekLit/tlg0014/tlg024/perseus-eng2/149-150",
+    "fink69": "https://ocb.uni-tuebingen.de/Record/KEI00087746?lng=en",
+    "hudson": "https://rozenbergquarterly.com/?p=38454",
+    "hudson2": "https://wiki.p2pfoundation.net/Lost_Tradition_of_Biblical_Debt_Cancellations",
+    "moore": "https://scholarlypublications.universiteitleiden.nl/access/item%3A2966312/view",
+    "kinglist": "https://www.worldhistory.org/image/8100/cuneiform-tablet-listing-the-names-of-old-babyloni",
+    "usask": "https://artsandscience.usask.ca/antiquities/collections/items/egyptian-items/inscription-paintings/rosetta-stone.php",
+    "samsu": "https://kwx.liehendr.com/content/wikipedia_en_all_maxi_2024-01/A/Samsuiluna",
+}
+
+eyes = [
+    {
+        "id": "hammurabi", "short": "Hammurabi", "name": "Hammurabi of Babylon (and his chancery)",
+        "life": "reigned c. 1792–1750 BC (middle chronology)",
+        "role": "King of Babylon; the year-names and the law stele were composed by his scribes in his name",
+        "side": "First Dynasty of Babylon",
+        "where": "Babylon; stele copies set up in temple cities (the surviving stele was carried off to Susa in antiquity)",
+        "lat": 32.536, "lon": 44.421,
+        "vantage": 0, "vantage_label": "the king who 'establishes justice'",
+        "form": "official record (year-names used to date contracts; law stele)",
+        "language": "Sumerian (year-names), Akkadian (laws)",
+        "authenticity": "Year-names survive in date formulae on thousands of contracts and in ancient date lists. The law stele (Louvre) and later tablet copies preserve the laws; the English used here is C. H. W. Johns's 1904 translation (public domain).",
+        "bio": "Hammurabi named his second regnal year after an act of royal 'justice', the term later used for debt-remission decrees. His laws also capped debt-bondage at three years, a standing rule rather than a one-off amnesty. He is the earliest voice here, and he speaks only through official formulas.",
+        "sources": [{"title": "C. H. W. Johns, Babylonian and Assyrian Laws, Contracts and Letters (1904), Project Gutenberg", "url": U["johns"]}],
+    },
+    {
+        "id": "samsu-iluna", "short": "Samsu-iluna", "name": "Samsu-iluna of Babylon (and his chancery)",
+        "life": "reigned c. 1749–1712 BC (middle chronology)",
+        "role": "King of Babylon, son and successor of Hammurabi",
+        "side": "First Dynasty of Babylon",
+        "where": "Babylon",
+        "lat": 32.536, "lon": 44.421,
+        "vantage": 0, "vantage_label": "the heir who opened his reign with a release",
+        "form": "official record (year-name; fragment of an edict)",
+        "language": "Sumerian / Akkadian",
+        "authenticity": "His second year-name, recording a proclamation of 'freedom' (andurārum) for Sumer and Akkad, is cited throughout the scholarly literature; a fragment of an edict of the misharum type is attributed to his reign. Both are known here through the secondary literature.",
+        "bio": "Samsu-iluna came to the throne as the southern cities Hammurabi had conquered grew restless. Announcing a release at the start of a reign is one of the strongest arguments that these decrees were political tools of accession as much as cyclical rituals.",
+        "sources": [{"title": "Samsu-iluna (encyclopedia mirror; reign dates)", "url": U["samsu"]}],
+    },
+    {
+        "id": "ammi-ditana", "short": "Ammi-ditana", "name": "Ammi-ditana of Babylon",
+        "life": "reigned c. 1683–1647 BC (middle chronology)",
+        "role": "No surviving firsthand account found. King of Babylon, father of Ammi-saduqa; his own remission decree is lost and is known only because his son's edict counts arrears from it",
+        "side": "First Dynasty of Babylon",
+        "where": "Babylon",
+        "lat": 32.536, "lon": 44.421,
+        "vantage": 0, "vantage_label": "a lost decree, remembered by the next one",
+        "form": "known only from a later official record",
+        "language": "Akkadian",
+        "authenticity": "No text of his decree survives. Ammi-saduqa's edict dates the arrears it cancels from the year in which Ammi-ditana had remitted debts, which Finkelstein read as Ammi-ditana's 21st year. The year identification is a modern reading.",
+        "bio": "Ammi-ditana is a missing voice. If the reading of his son's edict is right, he cancelled debts in the middle of his reign rather than at its start, which matters for the argument over whether these acts were tied to accession, to crises, or to a rhythm.",
+        "sources": [{"title": "J. J. Finkelstein, 'The Edict of Ammiṣaduqa: A New Text', RA 63 (1969) 45–64 (catalogue record)", "url": U["fink69"]}],
+    },
+    {
+        "id": "ammi-saduqa", "short": "Ammi-saduqa", "name": "Ammi-saduqa of Babylon (and his chancery)",
+        "life": "reigned c. 1646–1626 BC (middle chronology)",
+        "role": "King of Babylon, great-great-grandson of Hammurabi; his scribes drafted the longest surviving debt-release edict",
+        "side": "First Dynasty of Babylon",
+        "where": "Babylon; the copies come from northern Babylonia (Sippar)",
+        "lat": 33.06, "lon": 44.25,
+        "waypoints": [{"lat": 32.536, "lon": 44.421, "label": "Babylon, the issuing court"}, {"lat": 33.06, "lon": 44.25, "label": "Sippar, where copies were found"}],
+        "vantage": 0, "vantage_label": "the chancery that wrote the rules of forgetting",
+        "form": "official record (royal edict, clay tablet copies)",
+        "language": "Akkadian",
+        "authenticity": "Known from several damaged tablet copies, among them Ni 632 (Istanbul, F. R. Kraus's edition, 1958) and BM 78259 and BM 80289 (British Museum; Finkelstein 1969 supplied the opening). No copy is complete. English versions are modern (Finkelstein in ANET), so this chapter paraphrases only. Section numbers follow the modern editions.",
+        "bio": "The edict is a working legal text, not a hymn. It sets cut-off dates, says which debts die and which survive, and threatens creditors who try to get around it. Its exceptions are as telling as its mercies: commercial partnership loans stand, and chattel slaves stay slaves.",
+        "sources": [{"title": "Finkelstein, 'The Edict of Ammiṣaduqa: A New Text' (1969), catalogue record", "url": U["fink69"]}],
+    },
+    {
+        "id": "jeremiah", "short": "Jeremiah", "name": "The Book of Jeremiah (chapter 34)",
+        "life": "Jeremiah active c. 627–after 587 BC; the book was compiled later",
+        "role": "Prophet in Jerusalem during the Babylonian siege; the chapter reports King Zedekiah's release covenant and its reversal",
+        "side": "Kingdom of Judah",
+        "where": "Jerusalem under siege",
+        "lat": 31.778, "lon": 35.235,
+        "vantage": 1, "vantage_label": "a prophet watching a release taken back",
+        "form": "prophetic book (compiled from oracles and narrative)",
+        "language": "Hebrew",
+        "authenticity": "The book went through editing after Jeremiah's lifetime, and the chapter is narrated in the third person, so it is treated here as secondhand. Quotations are from the King James Version (1611).",
+        "bio": "Chapter 34 uses the word for 'liberty' (deror) that is cognate with Babylonian andurārum. It tells of a release of Hebrew bond-servants sworn under siege and revoked once the pressure eased. It is the clearest ancient account of a release being undone.",
+        "sources": [{"title": "Jeremiah 34:8–9, KJV", "url": U["jer34"]}],
+    },
+    {
+        "id": "nehemiah", "short": "Nehemiah", "name": "Nehemiah son of Hachaliah",
+        "life": "fl. 445–c. 430 BC",
+        "role": "Cupbearer to the Persian king Artaxerxes I, then governor of the province of Judah from the king's 20th year",
+        "side": "Persian province of Yehud; Judean returnees",
+        "where": "Susa, then Jerusalem",
+        "lat": 31.778, "lon": 35.235,
+        "waypoints": [{"lat": 32.19, "lon": 48.25, "label": "Susa, the Persian court"}, {"lat": 31.778, "lon": 35.235, "label": "Jerusalem, as governor from c. 445 BC"}],
+        "vantage": 0, "vantage_label": "the governor who forced the remission",
+        "form": "memoir (first person, written some years after)",
+        "language": "Hebrew",
+        "authenticity": "Most scholars accept a first-person 'Nehemiah memoir' inside the biblical book, written after his 32nd year (433 BC), since 5:14 looks back over twelve years. Quotations are from the King James Version (1611).",
+        "bio": "Nehemiah is the only person in this chapter who describes, in his own voice, sitting down to force creditors to give pledged land back. He writes as a self-justifying official, asking God to remember him, and he admits that he and his own household had also been lending.",
+        "sources": [{"title": "Nehemiah 5, KJV", "url": U["neh5"]}],
+    },
+    {
+        "id": "judean-debtors", "short": "Judean debtors", "name": "The indebted families of Judah",
+        "life": "c. 445 BC",
+        "role": "No surviving firsthand account found. Farmers, mortgagors and parents whose children were in debt-bondage; their words survive only as Nehemiah reports them",
+        "side": "Judean villagers",
+        "where": "Judah and Jerusalem",
+        "lat": 31.70, "lon": 35.20,
+        "vantage": 0, "vantage_label": "the debtors, heard through the governor",
+        "form": "reported speech inside another man's memoir",
+        "language": "Hebrew",
+        "authenticity": "Their complaints are quoted in Nehemiah 5:1–5 and shaped by his narrative; there is no independent record.",
+        "bio": "These are the only debtor voices in the chapter that speak in sentences. They name their reasons for borrowing: famine, the Persian king's tax, and children already handed over. Every word reaches us through the official who acted on their behalf.",
+        "sources": [{"title": "Nehemiah 5:1–5, KJV", "url": U["neh5"]}],
+    },
+    {
+        "id": "solon", "short": "Solon", "name": "Solon of Athens",
+        "life": "c. 640–c. 560 BC",
+        "role": "Athenian statesman and poet; archon in 594/3 BC with a mandate to settle the conflict between rich and poor",
+        "side": "Athens",
+        "where": "Athens; afterwards ten years of travel, including Egypt",
+        "lat": 37.975, "lon": 23.727,
+        "waypoints": [{"lat": 37.975, "lon": 23.727, "label": "Athens, archonship 594/3 BC"}, {"lat": 30.9, "lon": 30.6, "label": "Egypt, travels after the reforms"}, {"lat": 37.975, "lon": 23.727, "label": "Athens, return"}],
+        "vantage": 0, "vantage_label": "the lawgiver defending himself in verse",
+        "form": "poems (political elegy and iambics), written after the reforms",
+        "language": "Greek",
+        "authenticity": "Solon's poems survive only as quotations in later authors, chiefly the Aristotelian Constitution of the Athenians (papyrus first published by F. G. Kenyon in 1891) and Plutarch. Quoted English is Kenyon's translation as reproduced by the MIT Internet Classics Archive.",
+        "bio": "Solon is the one maker of a debt cancellation whose own explanation survives. His poems answer critics on both sides: the rich who lost and the poor who wanted the land shared out. He presents the cancellation as setting the earth itself free.",
+        "sources": [{"title": "Aristotle, The Athenian Constitution, tr. F. G. Kenyon (MIT Internet Classics Archive)", "url": U["athpol"]}],
+    },
+    {
+        "id": "ath-pol", "short": "Ath. Pol.", "name": "The Constitution of the Athenians (Aristotle's school)",
+        "life": "written c. 332–322 BC",
+        "role": "A historical and constitutional treatise from Aristotle's Lyceum; authorship by Aristotle himself or a pupil is debated",
+        "side": "Athens (Lyceum)",
+        "where": "Athens",
+        "lat": 37.975, "lon": 23.738,
+        "vantage": 3, "vantage_label": "historians writing about 260 years later",
+        "form": "history / treatise (secondhand)",
+        "language": "Greek",
+        "authenticity": "Lost in the Middle Ages; recovered on British Museum papyri and published by Kenyon in 1891. It quotes Solon directly and reports rival stories about him.",
+        "bio": "The treatise preserves Solon's own lines and also weighs the gossip about them, including the charge that his friends had advance warning. It shows a debt cancellation already contested, centuries later, as a question of who knew what in advance.",
+        "sources": [{"title": "Aristotle, The Athenian Constitution, tr. Kenyon (MIT)", "url": U["athpol"]}],
+    },
+    {
+        "id": "plutarch", "short": "Plutarch", "name": "Plutarch of Chaeronea",
+        "life": "c. AD 46–after 119",
+        "role": "Greek biographer and priest at Delphi; wrote the Lives of Solon and of Agis",
+        "side": "Roman Greece",
+        "where": "Chaeronea and Delphi",
+        "lat": 38.494, "lon": 22.843,
+        "vantage": 4, "vantage_label": "biographer centuries later, comparing sources",
+        "form": "biography (secondhand)",
+        "language": "Greek",
+        "authenticity": "Written some 650–700 years after Solon and about 350 years after Agis IV, drawing on earlier historians (for Solon, Androtion and others). Quotations are from Bernadotte Perrin's Loeb translation (1914, 1921).",
+        "bio": "Plutarch matters here because he keeps the disagreement alive: he records that some writers held Solon only lowered interest. In his Life of Agis he tells how debt bonds were burned in the Spartan market-place, and how the promised land division never followed.",
+        "sources": [{"title": "Plutarch, Solon 15, tr. Perrin", "url": U["sol15"]}, {"title": "Plutarch, Agis 13, tr. Perrin", "url": U["agis13"]}],
+    },
+    {
+        "id": "plato", "short": "Plato", "name": "Plato of Athens",
+        "life": "c. 428/7–348/7 BC",
+        "role": "Athenian philosopher; distantly related through his mother's family to Solon's kin",
+        "side": "Athens (Academy)",
+        "where": "Athens",
+        "lat": 37.992, "lon": 23.708,
+        "vantage": 3, "vantage_label": "a property-owner's philosopher, warning",
+        "form": "philosophical dialogues",
+        "language": "Greek",
+        "authenticity": "The Republic (c. 375 BC) and Laws (unfinished at his death) are securely his. Entries are paraphrases cited by Stephanus page.",
+        "bio": "Plato treats the slogan 'cancel debts and redistribute land' as the would-be tyrant's opening move. He also writes as a lawgiver who sees why such demands arise. He is the critic's voice that the brief asked for.",
+        "sources": [{"title": "Plato, Republic and Laws (standard editions)", "url": ""}],
+    },
+    {
+        "id": "athenian-courts", "short": "Athenian oath", "name": "Athenian jurors' oath and the Common Peace of 338/7 BC",
+        "life": "4th century BC",
+        "role": "Institutional texts: the oath sworn by Athenian jurors as quoted in a court speech, and a clause of the Corinthian League treaty as cited in an Athenian speech",
+        "side": "Athens; League of Corinth under Philip II of Macedon",
+        "where": "Athens (law courts); Corinth (league council)",
+        "lat": 37.9745, "lon": 23.7225,
+        "waypoints": [{"lat": 37.9745, "lon": 23.7225, "label": "Athens, the courts"}, {"lat": 37.906, "lon": 22.879, "label": "Corinth, league treaty 338/7 BC"}],
+        "vantage": 2, "vantage_label": "the institutions that made cancellation illegal",
+        "form": "official record (oath and treaty clause, quoted in speeches)",
+        "language": "Greek",
+        "authenticity": "The oath is quoted in Demosthenes 24 (Against Timocrates, 353 BC), but the oath text in the manuscripts is an inserted document whose authenticity scholars dispute. The treaty clause is cited in the speech On the Treaty with Alexander ([Demosthenes] 17, c. 331 BC), whose author is uncertain. English editions read (Vince, 1935) are under copyright, so the entries paraphrase.",
+        "bio": "These are the creditors' safeguards set in law. Solon's cancellation was a founding act, but fourth-century jurors reportedly swore never to allow another, and a Macedonian-backed treaty listed debt cancellation among the revolutionary acts its members had to prevent.",
+        "sources": [{"title": "Demosthenes 24.149–150, tr. Vince (Perseids)", "url": U["dem24"]}],
+    },
+    {
+        "id": "memphis-synod", "short": "Memphis priests", "name": "The synod of Egyptian priests at Memphis (Rosetta decree)",
+        "life": "met 196 BC",
+        "role": "Assembly of temple priests from across Egypt, gathered for the anniversary of the coronation of Ptolemy V Epiphanes (then about 13)",
+        "side": "Ptolemaic Egypt: native temples and Macedonian crown",
+        "where": "Memphis; one copy of the stela was later reused at Rashid (Rosetta) in the Delta",
+        "lat": 29.85, "lon": 31.25,
+        "waypoints": [{"lat": 29.85, "lon": 31.25, "label": "Memphis, the synod, 196 BC"}, {"lat": 31.40, "lon": 30.42, "label": "Rashid (Rosetta), stone found 1799"}],
+        "vantage": 1, "vantage_label": "priests praising a king's remissions",
+        "form": "official record (trilingual stone decree)",
+        "language": "Egyptian (hieroglyphic and demotic) and Greek",
+        "authenticity": "The Rosetta Stone (British Museum EA 24) carries the decree in three scripts; other copies are known. Quoted English is E. A. Wallis Budge's rendering (The Rosetta Stone, 1893; reprinted 1905). Its month-name differs from the Greek text's date clause, so the date is taken from the Greek.",
+        "bio": "The priests list what the young king had given up, including debts owed to the crown, as reasons to honour him. It is a remission by a creditor-state, granted after revolt and recorded by the beneficiaries who were also the regime's partners.",
+        "sources": [{"title": "Budge's translation of the Memphis decree (mirror of sacred-texts.com)", "url": U["budge"]}, {"title": "Rosetta Stone translation (Fordham Ancient History Sourcebook)", "url": U["fordham"]}],
+    },
+    {
+        "id": "euergetes", "short": "Amnesty of 118", "name": "Ptolemy VIII Euergetes II, Cleopatra II and Cleopatra III (amnesty decrees, P.Tebt. 5)",
+        "life": "issued 118 BC",
+        "role": "The three rulers of Egypt after years of dynastic civil war; the surviving copy was made by the village scribe of Kerkeosiris",
+        "side": "Ptolemaic crown",
+        "where": "Alexandria (issuing court); copy at Kerkeosiris in the Fayum",
+        "lat": 31.20, "lon": 29.92,
+        "waypoints": [{"lat": 31.20, "lon": 29.92, "label": "Alexandria, the court"}, {"lat": 29.28, "lon": 30.75, "label": "Kerkeosiris/Tebtunis, Fayum, village copy"}],
+        "vantage": 0, "vantage_label": "the crown forgiving its own claims",
+        "form": "official record (papyrus copy of royal decrees)",
+        "language": "Greek",
+        "authenticity": "P.Tebt. 1 5, now in the Bancroft Library, University of California, Berkeley; first edited by Grenfell, Hunt and Smyly (1902). The papyri.info record dates it to 9 Pharmouthi of year 52 (28 April 118 BC) or just after. The English consulted (attalus.org, after APIS) is not credited to a named translator, so only short phrases are quoted.",
+        "bio": "The decree is a 'clean slate' between the state and its subjects after civil war: crimes pardoned up to a cut-off date, arrears of rents and taxes wiped out, fugitives invited home. It survives because a provincial scribe copied it out for his own office.",
+        "sources": [{"title": "papyri.info, P.Tebt. 1 5 (HGV 2938)", "url": U["ptebt"]}, {"title": "English translation (attalus.org)", "url": U["ptebt_tr"]}],
+    },
+]
+
+E = []
+def e(date_iso, date_display, precision, eye, place, headline, digest, quote, confidence, source_kind, form, source_note):
+    E.append({"date_iso": date_iso, "date_display": date_display, "precision": precision, "eye": eye, "place": place,
+              "headline": headline, "digest": digest, "quote": quote, "confidence": confidence,
+              "source_kind": source_kind, "form": form, "source_note": source_note})
+
+# Hammurabi
+e("-1790", "Year 2 of Hammurabi (c. 1791 BC, middle chronology)", "year", "hammurabi", "Babylon",
+  "A new king names a whole year for 'righteousness'",
+  "Babylonian years were named after a notable royal act, and every contract that year carried the name. Hammurabi's second year was named for establishing justice in the land, the formula scholars connect with a misharum act at the start of a reign. Every loan and sale dated that year carried the announcement.",
+  "the year in which Ḥammurabi the king established the heart of the land in righteousness",
+  "verified", "official record", "year-name (date formula)",
+  "Johns 1904, chapter on the chronological system (Project Gutenberg 28674). Johns's rendering; the link to debt release is a modern interpretation.")
+e("-1753", "Late in Hammurabi's reign (c. 1755–1750 BC)", "range", "hammurabi", "Babylon (stele later at Susa)",
+  "Debt hostages to go free in the fourth year",
+  "Among the laws on the great stele is a standing limit on debt bondage. A wife, son or daughter handed over for a debt works in the creditor's house, but only for three years. Unlike a misharum, this needs no new decree: the release is written into the law itself.",
+  "the hostage shall do the work of the creditor's house; but in the fourth year he shall set them free.",
+  "verified", "official record", "law stele",
+  "Code of Hammurabi §117, Johns 1904 translation (Project Gutenberg 28674). Stele date range is the conventional late-reign dating.")
+e("-1753", "Late in Hammurabi's reign (c. 1755–1750 BC)", "range", "hammurabi", "Babylon",
+  "When the storm takes the crop, the interest waits",
+  "Another clause covers the farmer whose field is flooded or whose harvest fails. He need not repay grain to his creditor that year: the tablet is to be rewritten with a later date and the year's interest falls away. It is a small, automatic debt relief, tied to weather rather than to the king's mercy.",
+  "Further, he shall post-date his bond and shall not pay interest for that year.",
+  "verified", "official record", "law stele",
+  "Code of Hammurabi §48, Johns 1904 (Project Gutenberg 28674).")
+
+# Samsu-iluna
+e("-1747", "Year 2 of Samsu-iluna (c. 1748 BC, middle chronology)", "year", "samsu-iluna", "Babylon",
+  "The heir proclaims 'freedom' for Sumer and Akkad",
+  "Samsu-iluna's second year was named for his proclamation of freedom (Sumerian ama-ar-gi, Akkadian andurārum) for the whole land. Most scholars take it as a debt and bondage release at his accession. Within a few years the southern cities rose against Babylon, so the gesture did not secure the loyalty it may have aimed at.",
+  "", "approx", "official record", "year-name (date formula)",
+  "Year-name as cited in the secondary literature (e.g. Kraus, Hudson).")
+e("-1747", "Reign of Samsu-iluna (1749–1712 BC); exact year unknown", "range", "samsu-iluna", "Babylon",
+  "A fragment of an edict like his descendant's",
+  "A broken tablet preserves part of an edict of the misharum type attributed to Samsu-iluna. It is the earliest surviving text of such a decree from this dynasty, though far less complete than Ammi-saduqa's. Its existence suggests that the later edict was a reissue of a familiar royal form.",
+  "", "approx", "official record", "royal edict (fragment)",
+  "Reported in the introduction to the Ammi-saduqa edict in ANET (Finkelstein).")
+
+# Ammi-ditana
+e("-1662", "Year 21 of Ammi-ditana (c. 1663 BC), as read by Finkelstein", "year", "ammi-ditana", "Babylon",
+  "A remission remembered only as a starting line",
+  "No text of Ammi-ditana's own decree survives. His son's edict counts the arrears it cancels from the year Ammi-ditana had remitted the land's debts, so that year became a legal starting line. If the year is the 21st, the release came in mid-reign, not at accession.",
+  "", "approx", "secondhand", "reference in a later royal edict",
+  "Ammi-saduqa edict, opening sections, as edited by Finkelstein (RA 63, 1969); the year identification is his.")
+
+# Ammi-saduqa
+loc_as = "Babylon (copies from Sippar)"
+dd_as = "Year 1 of Ammi-saduqa (c. 1646 BC, middle chronology), effective from the month Nisan"
+e("-1645", dd_as, "year", "ammi-saduqa", loc_as,
+  "The king 'establishes misharum' and cancels the crown's arrears",
+  "In his first year Ammi-saduqa's chancery issued a written edict. Its opening releases tenant farmers and other crown dependants from arrears owed to the palace, from his father's remission year up to the new date. Tax collectors are forbidden to press them for payment.",
+  "", "verified", "official record", "royal edict",
+  "Edict §§1–2 (Kraus 1958; Finkelstein 1969); summary in ANET. Year 1 is stated in the edict; absolute date depends on the middle chronology.")
+e("-1645", dd_as, "year", "ammi-saduqa", loc_as,
+  "Ordinary interest loans voided, and their tablets with them",
+  "Anyone who had lent barley or silver at interest to an Akkadian or Amorite, not for trade, could no longer collect. The creditor's tablet became void. A clay contract was the debt, so voiding the tablet ended the obligation.",
+  "", "verified", "official record", "royal edict",
+  "Edict §4 (modern numbering), as summarised from Finkelstein's translation.")
+e("-1645", dd_as, "year", "ammi-saduqa", loc_as,
+  "Creditors warned: give back what you seized, or die",
+  "The scribes expected creditors to resist. A lender who had collected by force after the decree had to return it, and one who refused faced death. Loans disguised as sales or deposits to escape the decree were also voided. A creditor who denied a loan in writing owed six times its value.",
+  "", "verified", "official record", "royal edict",
+  "Edict §§5–7, as summarised from Finkelstein's translation.")
+e("-1645", dd_as, "year", "ammi-saduqa", loc_as,
+  "Merchants' partnership capital is not forgiven",
+  "The edict draws a line between distress debt and business capital. Silver advanced for a trading journey or a joint venture is not cancelled and must be repaid on its terms. The release was meant to restore farmers and soldiers, not to wipe out commercial credit.",
+  "", "verified", "official record", "royal edict",
+  "Edict §8, as summarised from Finkelstein's translation.")
+e("-1645", dd_as, "year", "ammi-saduqa", loc_as,
+  "Debt-bound citizens freed; bought slaves stay slaves",
+  "Free citizens of named cities who had been sold, pledged or bound for debt were released. Slaves born as slaves and pledged for a debt were explicitly excluded. The release restored a free person's status but did not challenge slavery itself.",
+  "", "verified", "official record", "royal edict",
+  "Edict §§20–21, as summarised from Finkelstein's translation.")
+e("-1645", dd_as, "year", "ammi-saduqa", loc_as,
+  "Tavern-keepers' tabs also wiped clean",
+  "Ale-wives and tavern-keepers had their arrears to the palace remitted. Beer or barley they had advanced to customers could not be collected either. The edict reaches down to the village tavern's slate as well as the royal granary.",
+  "", "verified", "official record", "royal edict",
+  "Edict §§16–17, as summarised from Finkelstein's translation.")
+
+# Jeremiah
+e("-0587", "During the Babylonian siege of Jerusalem (c. 588 BC)", "year", "jeremiah", "Jerusalem",
+  "Under siege, the king swears a release of bond-servants",
+  "With Babylon's army at the walls, King Zedekiah made a covenant with the people of Jerusalem: every owner would free his Hebrew bond-servants, men and women. The chapter frames this as obedience to the old seventh-year release law, which had long been ignored.",
+  "after that the king Zedekiah had made a covenant with all the people which were at Jerusalem, to proclaim liberty unto them;",
+  "verified", "secondhand", "prophetic book",
+  "Jeremiah 34:8–9, KJV. Year approximate (siege 588–587 BC).")
+e("-0587", "Soon after the release (c. 588 BC), when the siege briefly lifted", "year", "jeremiah", "Jerusalem",
+  "The masters take their servants back",
+  "Once the danger seemed to pass, the owners reclaimed the people they had freed and forced them back into service. The prophet's oracle condemns this as a broken oath and announces that Jerusalem will fall. It is the starkest record here of a release that was sworn and then undone.",
+  "", "approx", "secondhand", "prophetic book",
+  "Jeremiah 34:10–17, KJV.")
+
+# Nehemiah & debtors
+dd_n = "20th year of Artaxerxes I (c. 445/444 BC), while the wall was being rebuilt"
+e("-0444", dd_n, "year", "judean-debtors", "Judah",
+  "Too many mouths: 'let us get corn'",
+  "Families came to the governor with their complaints. Some said simply that they were many, with sons and daughters to feed, and needed grain to survive. Others had already mortgaged fields, vineyards and houses to buy food in a time of dearth.",
+  "We have mortgaged our lands, vineyards, and houses, that we might buy corn, because of the dearth.",
+  "verified", "secondhand", "reported speech in a memoir",
+  "Nehemiah 5:2–3, KJV.")
+e("-0444", dd_n, "year", "judean-debtors", "Judah",
+  "Borrowing for the king's tax, and children in bondage",
+  "Others had borrowed to pay the Persian king's tribute, with their land as security. Now their sons and daughters were being taken as bond-servants, and some daughters were already gone. With their fields in other men's hands they had no means to redeem them.",
+  "We have borrowed money for the king's tribute, and that upon our lands and vineyards.",
+  "verified", "secondhand", "reported speech in a memoir",
+  "Nehemiah 5:4–5, KJV.")
+e("-0444", dd_n, "year", "nehemiah", "Jerusalem",
+  "Angry, the governor rebukes the nobles and calls an assembly",
+  "Nehemiah writes that he was very angry, thought it over, and then accused the nobles and rulers of exacting usury from their own kin. He called a great assembly against them. He admits that he, his brothers and his servants had also lent money and grain.",
+  "Ye exact usury, every one of his brother. And I set a great assembly against them.",
+  "verified", "later firsthand", "memoir",
+  "Nehemiah 5:6–10, KJV.")
+e("-0444", dd_n, "year", "nehemiah", "Jerusalem",
+  "'Restore … even this day': land, vineyards and the hundredth part",
+  "Nehemiah demanded that the creditors give back the pledged fields, vineyards, olive groves and houses at once. They were also to return the 'hundredth part', the monthly interest charged on money and produce. The nobles agreed to restore everything and require nothing.",
+  "Restore, I pray you, to them, even this day, their lands, their vineyards, their oliveyards, and their houses, also the hundredth part of the money, and of the corn, the wine, and the oil, that ye exact of them.",
+  "verified", "later firsthand", "memoir",
+  "Nehemiah 5:11–12, KJV.")
+e("-0444", dd_n, "year", "nehemiah", "Jerusalem",
+  "An oath before priests, sealed by shaking out a garment",
+  "Not trusting a promise alone, Nehemiah made the creditors swear before the priests. Then he shook out the fold of his robe as a curse on anyone who broke it, and the assembly answered 'Amen'. He records that the people kept the promise.",
+  "So God shake out every man from his house, and from his labour, that performeth not this promise",
+  "verified", "later firsthand", "memoir",
+  "Nehemiah 5:12–13, KJV.")
+e("-0444", "c. 444 BC (covenant after the wall's completion; undated within the year)", "year", "nehemiah", "Jerusalem",
+  "A sealed pledge: the seventh year and 'every debt'",
+  "In a written covenant sealed by the leaders, with Nehemiah's name first, the community pledged among other things to keep the seventh-year fallow and release. It also bound them to forgo 'the exaction of every debt' in that year. This made the old seventh-year law a signed agreement.",
+  "and that we would leave the seventh year, and the exaction of every debt.",
+  "approx", "official record", "covenant document within the book",
+  "Nehemiah 10:1, 10:31, KJV. The covenant may not belong to the first-person memoir.")
+e("-0432", "After the 32nd year of Artaxerxes (433 BC or later)", "year", "nehemiah", "Jerusalem",
+  "Looking back: twelve years without the governor's bread",
+  "Writing later, Nehemiah adds that in twelve years as governor he and his household never drew the allowance that earlier governors had taken from the people. Those governors took bread, wine and forty shekels of silver. He presents this, with the remission, as his claim to be remembered well.",
+  "I and my brethren have not eaten the bread of the governor.",
+  "verified", "later firsthand", "memoir",
+  "Nehemiah 5:14–15, KJV; 5:19 asks God to 'think upon me … for good'.")
+
+# Solon
+dd_s = "Archonship of Solon, 594/3 BC (Attic year, roughly July to June)"
+e("-0593", "Before Solon's archonship (late 7th–early 6th century BC)", "range", "ath-pol", "Attica",
+  "Before the reform: the poor 'enslaved' to the rich",
+  "The treatise describes Attica before Solon. The poor, called pelatai and hektemoroi ('sixth-parters'), farmed the rich men's land for a share of the crop. Loans were secured on the debtor's own body, so a man who defaulted could be seized with his children. It says this made the many the slaves of the few.",
+  "", "verified", "secondhand", "history / treatise",
+  "Constitution of the Athenians 2, tr. Kenyon (MIT). Written c. 330 BC, about 260 years after the events.")
+e("-0593", dd_s, "year", "ath-pol", "Athens",
+  "All debts, public and private, cancelled: the 'shaking-off'",
+  "Once given full power, Solon freed the people by forbidding any loan secured on a person's body. He also cancelled debts both public and private. The treatise says the Athenians called it the Seisachtheia, the shaking-off of burdens.",
+  "made laws by which he cancelled all debts, public and private. This measure is commonly called the Seisachtheia",
+  "verified", "secondhand", "history / treatise",
+  "Constitution of the Athenians 6.1, tr. Kenyon (MIT).")
+e("-0593", dd_s, "year", "solon", "Athens",
+  "'Dark Earth' witnesses the pulling up of the marker-stones",
+  "In his own verse Solon calls on the Earth to testify for him. Boundary-markers (horoi), probably showing land under debt claims, had stood in her soil, and he says he swept them away and made her free. In his poem the land itself had been in bondage.",
+  "Dark Earth, thou best canst witness, from whose breast I swept the pillars broadcast planted there, And made thee free, who hadst been slave of yore.",
+  "verified", "later firsthand", "poem",
+  "Solon fr. 36 West, quoted in Constitution of the Athenians 12.4, tr. Kenyon (MIT). Written after the reforms; exact year unknown.")
+e("-0593", dd_s, "year", "solon", "Athens",
+  "Bringing home Athenians sold abroad for debt",
+  "The same poem says he brought back men sold abroad, some by fraud and some lawfully. A few had wandered so long they no longer spoke Attic Greek. Those enslaved at home, he says, he set free.",
+  "And many a man whom fraud or law had sold For from his god-built land, an outcast slave, I brought again to Athens",
+  "verified", "later firsthand", "poem",
+  "Solon fr. 36 West, in Constitution of the Athenians 12.4, tr. Kenyon (MIT).")
+e("-0593", "After 594/3 BC (poems written in the years after the reforms)", "year", "solon", "Athens",
+  "Standing between the factions, shield outstretched",
+  "Solon describes himself as holding his shield over both parties so that neither could win unjustly. He insists he gave the people what was enough and took no more from the powerful than justice required. The image is a defence written against critics from both camps.",
+  "", "verified", "later firsthand", "poem",
+  "Solon fr. 5 West, in Constitution of the Athenians 12.1, tr. Kenyon (MIT).")
+e("-0593", "After 594/3 BC", "year", "ath-pol", "Athens",
+  "Both classes disappointed; Solon refuses to be tyrant",
+  "The treatise reports that the masses had hoped for a full redistribution of land, while the upper class wanted everything restored as before. Solon resisted both. He could have made himself sole ruler by siding with either party, but chose to be hated by both. He then left Athens to travel, reportedly to Egypt, for ten years.",
+  "The mass of the people had expected him to make a complete redistribution",
+  "verified", "secondhand", "history / treatise",
+  "Constitution of the Athenians 11, tr. Kenyon (MIT).")
+e("-0593", dd_s, "year", "ath-pol", "Athens",
+  "The rumour: his friends knew in advance",
+  "Some said Solon told his friends of the cancellation before it was announced. On this story they borrowed heavily, bought land, and kept it once their debts were wiped out. The treatise rejects this as unlikely for a man so restrained and so careful of the common good.",
+  "We are therefore bound to consider this accusation to be false.",
+  "verified", "secondhand", "history / treatise",
+  "Constitution of the Athenians 6.2–4, tr. Kenyon (MIT).")
+e("-0593", dd_s, "year", "plutarch", "Athens (written at Chaeronea, c. AD 100)",
+  "Was it cancellation, or only lower interest?",
+  "Plutarch reports a dissent: some writers, Androtion among them, held that Solon relieved the poor by reducing interest and changing the measures, not by cancelling debts. Most writers, he adds, took the 'disburdenment' to mean a removal of all debt. The argument over what the clean slate was had begun in antiquity.",
+  "affirm that the poor were relieved not by a cancelling of debts, but by a reduction of the interest upon them.",
+  "verified", "secondhand", "biography",
+  "Plutarch, Solon 15, tr. Perrin (1914), via lexundria.com.")
+e("-0593", dd_s, "year", "plutarch", "Athens (written c. AD 100)",
+  "The 'debt-cutters' and Solon's five talents",
+  "Plutarch names the friends of the rumour: Conon, Cleinias and Hipponicus. They were later nicknamed chreocopidae, 'debt-cutters'. He says the charge against Solon himself was answered by his own loss: he was owed five talents and gave them up under his own law.",
+  "called “chreocopidae,” or debt-cutters",
+  "verified", "legend", "biography",
+  "Plutarch, Solon 15, tr. Perrin, via lexundria.com. The story is gossip that Plutarch reports, not a fact he vouches for.")
+e("-0593", "After 594/3 BC (festival instituted; date unknown)", "year", "plutarch", "Athens",
+  "A sacrifice named for the shaking-off",
+  "Plutarch adds that once the Athenians felt the benefit, they held a public sacrifice called the Seisachtheia. If he is right, the cancellation was remembered in ritual as well as in law.",
+  "", "approx", "secondhand", "biography",
+  "Plutarch, Solon 16 (Perrin).")
+
+# Plato
+e("-0374", "Republic, written c. 375 BC", "year", "plato", "Athens",
+  "The tyrant's promise: cancel debts, divide the land",
+  "In the Republic's portrait of how democracy turns into tyranny, the rising strongman wins the crowd by hinting at cancelled debts and divided land. For Plato the pairing is a warning sign, not a reform: the call that Solon resisted has become the demagogue's tool.",
+  "", "approx", "firsthand", "philosophical dialogue",
+  "Plato, Republic 565e–566a (Stephanus).")
+e("-0349", "Laws, unfinished at Plato's death (written c. 350s BC)", "range", "plato", "Athens",
+  "A lawgiver's dread of touching land and debt",
+  "In the Laws Plato's Athenian speaker says that a lawgiver who tries to redistribute land or cancel debts meets an outcry against 'moving what should not be moved'. He also admits that some easing of debts may be needed before a city can be founded in peace. Plato treats cancellation as dangerous, and also as something a lawgiver sometimes cannot avoid.",
+  "", "approx", "firsthand", "philosophical dialogue",
+  "Plato, Laws 684d–e and 736c–e (Stephanus).")
+
+# Athenian institutions
+e("-0352", "Quoted in Demosthenes, Against Timocrates (353 BC)", "year", "athenian-courts", "Athens, the law courts",
+  "Jurors swear never to allow debts to be cancelled",
+  "The jurors' oath, as quoted in the speech, bound each juror not to permit the cancelling of private debts. It also barred redistributing Athenian citizens' land or houses. In Solon's city, the courts made a second clean slate illegal. Whether this exact wording was the sworn oath or a later insertion into the speech is debated.",
+  "not allow private debts to be cancelled",
+  "verified", "official record", "oath (quoted in a speech)",
+  "Demosthenes 24.149, tr. J. H. Vince (Loeb, 1935), via Perseids; phrase kept under the copyright limit.")
+e("-0337", "Common Peace of the League of Corinth, 338/7 BC (cited c. 331 BC)", "year", "athenian-courts", "Corinth / Athens",
+  "A Macedonian-backed treaty outlaws debt cancellation",
+  "After Philip II's victory at Chaeroneia, the Greek states swore a common peace in a league under Macedonian leadership. An Athenian speech of about 331 BC cites a clause requiring members to prevent confiscations, land redistribution, debt cancellation and the freeing of slaves for revolution. Debt relief here appears as something the new order exists to suppress.",
+  "", "approx", "official record", "treaty clause (cited in a speech)",
+  "[Demosthenes] 17.15 (On the Treaty with Alexander).")
+
+# Agis IV via Plutarch
+e("-0242", "c. 243/242 BC, reign of Agis IV of Sparta", "year", "plutarch", "Sparta, the agora",
+  "Sparta burns its mortgage bonds in the market-place",
+  "The young king Agis IV planned two reforms: cancel debts, then redistribute land. His uncle Agesilaus was deeply in debt but owned much land. He persuaded Agis to cancel the debts first. The bonds, called klaria, were piled in the agora and set on fire while the creditors watched.",
+  "to be brought into the market-place, heaped them altogether, and set fire to them.",
+  "verified", "secondhand", "biography",
+  "Plutarch, Agis 13, tr. Perrin (1921), via lexundria.com. Written c. AD 100–120, about 350 years later; date of the burning approximate.")
+e("-0242", "c. 243/242 BC", "year", "plutarch", "Sparta",
+  "'Never a brighter or purer flame' — and the land division stalls",
+  "Plutarch says Agesilaus mocked the creditors, saying he had never seen a brighter or purer flame. With his own debts gone, he kept finding excuses to delay the land redistribution. Agis then marched off to help the Achaeans, and the second half of the reform never came.",
+  "his eyes had never seen a brighter or purer flame than that.",
+  "verified", "secondhand", "biography",
+  "Plutarch, Agis 13, tr. Perrin, via lexundria.com.")
+
+# Rosetta
+dd_r = "4 Xandikos = 18 Mecheir, year 9 of Ptolemy V (27 March 196 BC, Julian)"
+e("-0195-03-27", dd_r, "day", "memphis-synod", "Memphis",
+  "Priests from South and North gather at Memphis",
+  "Priests from temples across Egypt assembled at Memphis for the anniversary of the young Ptolemy V's coronation. The Egyptian south had recently been in revolt. They drew up a decree, in Egyptian and Greek, listing the king's benefactions and voting him new honours.",
+  "had come from the sanctuaries of the South and the North to MEMPHIS",
+  "verified", "official record", "stone decree",
+  "Rosetta Stone (BM EA 24), Budge's English (1893/1905) via mirror of sacred-texts.com; Greek date clause via Fordham Sourcebook.")
+e("-0195-03-27", dd_r, "day", "memphis-synod", "Memphis",
+  "Debts owed to the crown remitted, 'howsoever great'",
+  "The decree credits the king with cancelling the arrears that Egyptians and others in his kingdom owed to the royal treasury. It also says he lightened or abolished some taxes. The creditor here is the state, and the priests present the write-off as royal generosity.",
+  "His Majesty remitted them altogether, howsoever great they were",
+  "verified", "official record", "stone decree",
+  "Rosetta decree, Budge's English (1893/1905); Greek text: 'remitted the debts to the crown' (Fordham Sourcebook, translator unnamed).")
+e("-0195-03-27", dd_r, "day", "memphis-synod", "Memphis",
+  "Prisoners released and charges dropped",
+  "Alongside the money, the decree lists a release of people. Those long held in prison or under accusation were freed of the charges. Debt to the crown and criminal liability were wiped out together, at the same royal anniversary.",
+  "he hath forgiven the prisoners who were in prison, and ordered that every one among them should be released",
+  "verified", "official record", "stone decree",
+  "Rosetta decree, Budge's English (1893/1905).")
+e("-0195-03-27", dd_r, "day", "memphis-synod", "Memphis",
+  "Rebels and fugitives may come home to their property",
+  "Those who had fled or joined the rebels during the troubles could return and keep their former possessions. The decree treats them as the king's restored subjects, not as outlaws.",
+  "when they return to their homes and lands they shall have the power to remain in possession of their property",
+  "verified", "official record", "stone decree",
+  "Rosetta decree, Budge's English (1893/1905).")
+e("-0195-03-27", dd_r, "day", "memphis-synod", "Memphis",
+  "To be carved in three scripts in every major temple",
+  "The decree ends by ordering copies on hard stone in sacred (hieroglyphic) and native (demotic) Egyptian characters and in Greek. They were to stand beside the king's statue in temples of the first, second and third rank. One such copy, later built into a fort at Rashid, became the Rosetta Stone.",
+  "", "verified", "official record", "stone decree",
+  "Rosetta decree, closing clause (Fordham Sourcebook translation); find-place per University of Saskatchewan Museum of Antiquities page.")
+
+# P.Tebt. 5
+dd_t = "Cut-off 9 Pharmouthi, year 52 of Ptolemy VIII (28 April 118 BC); decree issued on or soon after"
+e("-0117-04-28", dd_t, "day", "euergetes", "Alexandria",
+  "After civil war, the three rulers 'proclaim an amnesty'",
+  "The king and the two queens, recently at war with one another, pardoned their subjects for offences up to the cut-off date. Wilful murder and sacrilege were excluded. It is a legal clean slate for the whole kingdom, dated to a single day.",
+  "proclaim an amnesty",
+  "verified", "official record", "royal decree (papyrus copy)",
+  "P.Tebt. 1 5, opening lines; papyri.info HGV 2938 (date); English via attalus.org (translator not named).")
+e("-0117-04-28", dd_t, "day", "euergetes", "Alexandria",
+  "Arrears of grain rents and money taxes written off",
+  "The decrees cancel arrears owed to the crown up to the same date, both rents paid in grain and taxes paid in money. Further clauses forgive older dues on land tenure and labour from the 51st year. As at Memphis 78 years before, the creditor forgiving the debt is the state.",
+  "", "verified", "official record", "royal decree (papyrus copy)",
+  "P.Tebt. 1 5, arrears clauses; English via attalus.org.")
+e("-0117-04-28", dd_t, "day", "euergetes", "Kerkeosiris (Fayum)",
+  "Fugitives told to go home and take up their work",
+  "People who had gone into hiding over theft or other charges were to return to their homes and resume their old occupations. The copy survives because the village scribe of Kerkeosiris wrote the decrees out for his own office, far from the court that issued them.",
+  "", "verified", "official record", "royal decree (village scribe's copy)",
+  "P.Tebt. 1 5; papyri.info notes the copy was made by the village scribe of Kerkeosiris. Now Bancroft Library, Berkeley.")
+
+claims = [
+    {"date_iso": "-1790", "date_display": "c. 1791 BC", "eye": "hammurabi", "claim": "Hammurabi names his second year for establishing righteousness in the land", "written": "the same year, in date formulae on contracts across Babylonia", "form": "official record", "evidence": "Year-name; Johns 1904", "confidence": "verified"},
+    {"date_iso": "-1753", "date_display": "c. 1755–1750 BC", "eye": "hammurabi", "claim": "Debt hostages must be freed in the fourth year", "written": "late in the reign, on the law stele and its copies", "form": "official record", "evidence": "Code of Hammurabi §117; Johns 1904", "confidence": "verified"},
+    {"date_iso": "-1747", "date_display": "c. 1748 BC", "eye": "samsu-iluna", "claim": "Samsu-iluna proclaims freedom (andurārum) for Sumer and Akkad", "written": "the same year, as a year-name", "form": "official record", "evidence": "Year-name, cited in secondary literature", "confidence": "approx"},
+    {"date_iso": "-1662", "date_display": "c. 1663 BC", "eye": "ammi-ditana", "claim": "Ammi-ditana remits the land's debts", "written": "only c. 1646 BC, as a reference in his son's edict", "form": "secondhand", "evidence": "Ammi-saduqa edict, Finkelstein 1969", "confidence": "approx"},
+    {"date_iso": "-1645", "date_display": "c. 1646 BC", "eye": "ammi-saduqa", "claim": "Ammi-saduqa voids non-commercial interest loans and crown arrears, with penalties for evasion", "written": "year 1 of the reign, as a written edict; surviving copies from Sippar (BM 78259, BM 80289, Ni 632)", "form": "official record", "evidence": "Kraus 1958; Finkelstein 1969", "confidence": "verified"},
+    {"date_iso": "-0593", "date_display": "594/3 BC", "eye": "solon", "claim": "Solon uproots the boundary-markers and frees the land and debt-slaves", "written": "in Solon's own poems, some years after; preserved only in quotations c. 330 BC (papyrus published 1891)", "form": "later firsthand", "evidence": "Solon fr. 36 in Ath. Pol. 12", "confidence": "verified"},
+    {"date_iso": "-0593", "date_display": "594/3 BC", "eye": "ath-pol", "claim": "Solon's friends borrowed and bought land on advance knowledge", "written": "c. 330 BC in Athens, reported and rejected; repeated c. AD 100 by Plutarch", "form": "legend", "evidence": "Ath. Pol. 6; Plutarch, Solon 15", "confidence": "verified"},
+    {"date_iso": "-0593", "date_display": "594/3 BC", "eye": "plutarch", "claim": "The seisachtheia was only a reduction of interest (Androtion's view)", "written": "4th century BC by Androtion; known through Plutarch c. AD 100", "form": "secondhand", "evidence": "Plutarch, Solon 15", "confidence": "verified"},
+    {"date_iso": "-0587", "date_display": "c. 588 BC", "eye": "jeremiah", "claim": "Zedekiah's covenant frees Hebrew bond-servants; owners later re-enslave them", "written": "in the Book of Jeremiah, edited after the fall of Jerusalem", "form": "secondhand", "evidence": "Jeremiah 34, KJV", "confidence": "approx"},
+    {"date_iso": "-0444", "date_display": "c. 445/444 BC", "eye": "nehemiah", "claim": "Nehemiah makes creditors restore pledged land and interest under oath", "written": "433 BC or later, in his first-person memoir", "form": "later firsthand", "evidence": "Nehemiah 5, KJV", "confidence": "verified"},
+    {"date_iso": "-0352", "date_display": "by 353 BC", "eye": "athenian-courts", "claim": "Athenian jurors swear not to allow private debts to be cancelled", "written": "353 BC, in a court speech; the inserted oath text may be later", "form": "official record", "evidence": "Demosthenes 24.149", "confidence": "approx"},
+    {"date_iso": "-0337", "date_display": "338/7 BC", "eye": "athenian-courts", "claim": "League of Corinth members bound to prevent debt cancellation and land redistribution", "written": "c. 331 BC, cited in an Athenian speech of uncertain authorship", "form": "secondhand", "evidence": "[Demosthenes] 17.15", "confidence": "approx"},
+    {"date_iso": "-0242", "date_display": "c. 243/242 BC", "eye": "plutarch", "claim": "Spartan debt bonds burned in the agora; land division never follows", "written": "c. AD 100–120 by Plutarch, drawing on earlier Hellenistic historians", "form": "secondhand", "evidence": "Plutarch, Agis 13", "confidence": "verified"},
+    {"date_iso": "-0195-03-27", "date_display": "27 March 196 BC", "eye": "memphis-synod", "claim": "Ptolemy V remits debts to the crown and frees prisoners", "written": "the same year, carved on stelae in three scripts; one copy found at Rashid in July 1799", "form": "official record", "evidence": "Rosetta Stone, BM EA 24", "confidence": "verified"},
+    {"date_iso": "-0117-04-28", "date_display": "28 April 118 BC", "eye": "euergetes", "claim": "Amnesty and remission of arrears up to 9 Pharmouthi, year 52", "written": "118 BC or just after, a village scribe's papyrus copy, later recovered at Tebtunis", "form": "official record", "evidence": "P.Tebt. 1 5 (Bancroft Library)", "confidence": "verified"},
+]
+
+convergences = [
+    {"date": "-1645", "label": "Ammi-saduqa's year 1: a new edict measured from the old one", "eyes": ["ammi-saduqa", "ammi-ditana"],
+     "note": "The new king's chancery could only say which debts died by naming the year of his father's last remission. The surviving edict is the record of both decrees, and the only one for the father's."},
+    {"date": "-1790", "label": "Two Babylonian rules for release: by decree and by law", "eyes": ["hammurabi", "samsu-iluna", "ammi-saduqa"],
+     "note": "Hammurabi's year-name and Samsu-iluna's 'freedom' are one-off royal acts at the start of a reign. Hammurabi's §117 is a standing three-year limit. The same dynasty used both an automatic rule and a king's discretionary decree."},
+    {"date": "-0593", "label": "Solon's shaking-off, told three ways", "eyes": ["solon", "ath-pol", "plutarch"],
+     "note": "Solon writes as a defendant, the Lyceum treatise as a judge weighing gossip, and Plutarch as a collector who keeps the minority view that only interest was cut. The further from 594 BC, the more versions there are of what was cancelled."},
+    {"date": "-0444", "label": "The great assembly at Jerusalem", "eyes": ["nehemiah", "judean-debtors"],
+     "note": "The debtors' words come only through the governor who acted on them. They name famine, the king's tax and children in bondage. Nehemiah names his anger, the oath and his own good conduct."},
+    {"date": "-0587", "label": "Releases sworn and undone", "eyes": ["jeremiah", "plutarch"],
+     "note": "In Jerusalem under siege, owners freed bond-servants and took them back once the threat lifted. In Sparta about 345 years later, debts were burned but the promised land division was quietly dropped. In both cases the release was decreed and then partly reversed."},
+    {"date": "-0352", "label": "Solon's city forbids a second Solon", "eyes": ["athenian-courts", "plato", "solon"],
+     "note": "Fourth-century Athens honoured Solon's cancellation as a founding act, while its jurors reportedly swore never to permit another. Plato filed the demand under the tyrant's tricks."},
+    {"date": "-0195-03-27", "label": "The Ptolemaic crown forgives what is owed to itself", "eyes": ["memphis-synod", "euergetes"],
+     "note": "At Memphis in 196 BC and again in 118 BC, after rebellion or civil war, the state cancelled arrears owed to the treasury, released prisoners and invited fugitives home. The decrees ended unrest by forgiving claims, but only claims the state itself held."},
+]
+
+ties = [
+    {"a": "hammurabi", "b": "samsu-iluna", "kind": "relative", "note": "Father and son; Samsu-iluna succeeded Hammurabi c. 1749 BC and opened his reign with a proclamation of freedom."},
+    {"a": "samsu-iluna", "b": "ammi-saduqa", "kind": "relative", "note": "Ammi-saduqa was Samsu-iluna's great-grandson; a fragment of Samsu-iluna's edict shows the later edict reworked a family form."},
+    {"a": "ammi-ditana", "b": "ammi-saduqa", "kind": "relative", "note": "Father and son. The son's edict is the only record of the father's remission and takes its year as a legal starting date."},
+    {"a": "jeremiah", "b": "nehemiah", "kind": "influenced", "note": "Both appeal to the seventh-year release law. Jeremiah 34 condemns its breach under siege; Nehemiah's covenant writes it into a sealed pledge about 140 years later."},
+    {"a": "nehemiah", "b": "judean-debtors", "kind": "met", "note": "They came to him with their complaint, and he acted on it. Their words survive only in his memoir, which also records his own lending."},
+    {"a": "solon", "b": "ath-pol", "kind": "read each other", "note": "The treatise quotes Solon's poems at length and uses them as evidence against the gossip about his friends."},
+    {"a": "solon", "b": "plutarch", "kind": "read each other", "note": "Plutarch quotes Solon's verses and weighs rival accounts of what his 'disburdenment' cancelled."},
+    {"a": "ath-pol", "b": "plutarch", "kind": "read each other", "note": "Plutarch knew the Aristotelian accounts of Athens and repeats the same story of the friends who profited, with their names added."},
+    {"a": "plato", "b": "solon", "kind": "relative", "note": "Plato's mother's family claimed kinship with Solon, and Plato framed his Atlantis story as told to Solon in Egypt; he also wrote against the demand for cancelled debts."},
+    {"a": "athenian-courts", "b": "solon", "kind": "opposite sides", "note": "Fourth-century jurors revered Solon's laws but reportedly swore never to allow another cancellation of private debts."},
+    {"a": "plato", "b": "athenian-courts", "kind": "same street", "note": "Both are fourth-century Athens, where 'cancel debts and divide the land' was treated as a revolutionary demand rather than a royal mercy."},
+    {"a": "plutarch", "b": "plato", "kind": "influenced", "note": "Plutarch was a Platonist, and his account of Agis's failed reform reads in the shadow of Plato's warnings about land and debt."},
+    {"a": "memphis-synod", "b": "euergetes", "kind": "relative", "note": "Ptolemy VIII Euergetes II was a son of Ptolemy V, honoured in the Rosetta decree; both reigns ended unrest with remissions to the crown and releases."},
+]
+
+threads_out = [
+    {"to": "inflation-1923", "note": "Weimar Germany's hyperinflation erased mark-denominated debts, by currency collapse rather than decree. The question of who decided, and who bore the loss, is the one Solon's critics argued over."},
+    {"to": "gold-1971", "note": "Both chapters treat money and debt as shared agreements that a sovereign can rewrite: the Babylonian and Ptolemaic crowns cancelled what was owed to them, and in 1971 the United States ended the dollar's convertibility into gold."},
+    {"to": "v2:babylon-331", "note": "The Babylon of Hammurabi's dynasty, whose chancery dated every contract by year-names like 'established justice', is the same city whose astronomers were keeping dated diaries when Alexander arrived in 331 BC."},
+    {"to": "missing-days", "note": "The Ptolemaic priestly synods that issued the Memphis decree of 196 BC also met at Canopus in 238 BC and decreed an extra calendar day every four years. That was an earlier attempt to change the shared calendar by assembly decree."},
+]
+
+images = [
+    {"url": U["usask"], "title": "Replica of the Rosetta Stone (Memphis decree)", "caption": "A full-size resin replica of the basalt stela in the British Museum. Its three scripts carry the priests' decree of 196 BC, which lists the remission of debts owed to the crown and the release of prisoners among Ptolemy V's benefactions.", "date": "Original 196 BC; modern replica", "credit": "Museum of Antiquities, University of Saskatchewan (original: British Museum EA 24)"},
+    {"url": U["berkeley"], "title": "P.Tebt. 5, decrees of Ptolemy VIII Euergetes II", "caption": "Digital record of the papyrus copy of the amnesty decrees of 118 BC, written out by the village scribe of Kerkeosiris. Pardons, remitted arrears and the recall of fugitives are dated to a single cut-off day.", "date": "118 BC", "credit": "Bancroft Library, University of California, Berkeley"},
+    {"url": U["ptebt"], "title": "P.Tebt. 1 5 on papyri.info", "caption": "The papyrological record, with Greek text, date (9 Pharmouthi, year 52 = 28 April 118 BC) and links to images and an English translation.", "date": "118 BC", "credit": "papyri.info (HGV / DDbDP / APIS)"},
+    {"url": U["kinglist"], "title": "Tablet listing the kings of Hammurabi's dynasty", "caption": "An Old Babylonian tablet, probably from Sippar, naming the dynasty's kings down to Ammi-ditana, the father of Ammi-saduqa. These are the kings whose year-names and edicts announced releases of debt.", "date": "Old Babylonian period (17th century BC)", "credit": "British Museum; photograph by Osama Shukir Muhammed Amin (copyright; link only)"},
+]
+
+further = [
+    {"title": "C. H. W. Johns, Babylonian and Assyrian Laws, Contracts and Letters (1904) — Project Gutenberg", "url": U["johns"]},
+    {"title": "Aristotle, The Athenian Constitution, tr. F. G. Kenyon — MIT Internet Classics Archive", "url": U["athpol"]},
+    {"title": "Plutarch, Life of Solon 15, tr. B. Perrin — Lexundria", "url": U["sol15"]},
+    {"title": "Plutarch, Life of Agis 13, tr. B. Perrin — Lexundria", "url": U["agis13"]},
+    {"title": "Nehemiah 5 (King James Version)", "url": U["neh5"]},
+    {"title": "Rosetta Stone, English translation — Fordham Ancient History Sourcebook", "url": U["fordham"]},
+    {"title": "Michael Hudson, 'Modern (Mis)interpretations of Clean Slates' — the cyclical/restorative case and the scholars who disagree", "url": U["hudson"]},
+    {"title": "S. A. Moore, thesis on redemption in Old Babylonian Mesopotamia (Leiden, 2020), incl. a reclassified 'Larsa edict'", "url": U["moore"]},
+]
+
+intro = [
+    "For about seventeen centuries, rulers and assemblies across the ancient Near East and the Greek world sometimes decided that certain debts would cease to exist. The Babylonian name for the act was misharum, 'justice' or 'making straight'; its companion andurārum meant release, a return to a former state. Hebrew had the cognate deror, 'liberty', and Athens had the seisachtheia, the 'shaking-off of burdens'. Each assumes that a debt is not a fact of nature but an agreement held in common, recorded on clay, stone or papyrus, and that a community, or the person speaking for it, can unmake it.",
+    "The record here is not made of diaries. For Babylon it is royal year-names, a law stele and the damaged copies of Ammi-saduqa's edict, which survive in Istanbul and the British Museum. For Judah it is the first-person memoir of the governor Nehemiah and the edited Book of Jeremiah. For Athens it is Solon's own defensive poems, which survive only because the Constitution of the Athenians and Plutarch quoted them centuries later. For Egypt it is the priests' decree on the Rosetta Stone and a village scribe's copy of an amnesty. Every entry is tagged honestly as firsthand, later firsthand, secondhand, official record or legend. Most of the eyes are institutions, a chancery, a synod or a jurors' oath, not private people.",
+    "The question that runs through every record is who decided. Babylonian kings decreed releases, often at accession, and their scribes wrote in the loopholes creditors would try and the penalties for trying. Merchants' partnership capital was protected and chattel slaves were left unfreed. Nehemiah, a Persian appointee, shamed his own class in an assembly and bound them by oath. Solon was given full power by both sides and disappointed both. Fourth-century Athens then had its jurors swear never to allow another cancellation, and Plato listed the demand among a tyrant's tricks. The Ptolemies forgave only debts owed to the crown, after revolts, in decrees the temples carved for them.",
+    "Scholars disagree about what these acts were, and the chapter sets out the positions without choosing between them. One view, argued by Michael Hudson among others, sees a long Near Eastern tradition of periodic restoration: rituals of renewal that kept a free farming population from sliding into bondage, which the biblical seventh-year and Jubilee laws (Deuteronomy 15, Leviticus 25) turned into a fixed cycle. Others stress that the Babylonian decrees came irregularly. They clustered at accessions but also fell mid-reign: Ammi-ditana's appears to date to his 21st year. On this view they were political instruments for winning loyalty or easing a crisis, and having to repeat them showed the system was never fixed. The biblical laws are undated legal texts. Whether a Jubilee was ever kept is itself debated, so they appear here only as context. Ancient writers argued in the same way: Plutarch records that Androtion thought Solon had only lowered interest.",
+    "Gaps. No Old Babylonian creditor's or debtor's letter reacting to a misharum is included here, though such letters and court records are discussed in the specialist literature, so creditors appear here only as the edict pictures them. Eshnunna and Larsa references could not be pinned to a firsthand text; a Leiden thesis (Moore, 2020) argues that one supposed Larsa redemption edict has been misclassified. Assyrian and Hittite uses of andurārum are not given entries: the Old Assyrian king Erishum I's andurārum, a century or more before this chapter opens, is read by many specialists as freedom of trade rather than debt release, and no Hittite debt-release text could be securely identified. No Solonian debtor, Spartan creditor or Egyptian taxpayer left words of their own.",
+]
+
+calendar_note = ("Mesopotamian dates follow the conventional 'middle chronology' (Hammurabi 1792–1750 BC); other chronologies move them by up to about a century, so all Babylonian dates are approximate even where the regnal year is certain. "
+ "Babylonian years were named, not numbered. Biblical dates use Persian regnal years (Artaxerxes I's 20th year = 445/444 BC). Athenian archon years ran from midsummer to midsummer, hence '594/3'. "
+ "The Rosetta decree gives both a Macedonian date (4 Xandikos) and an Egyptian one (18 Mecheir, year 9), equated with 27 March 196 BC in the proleptic Julian calendar; P.Tebt. 5's cut-off of 9 Pharmouthi, year 52 is 28 April 118 BC. "
+ "date_iso uses astronomical year numbering (1 BC = 0000, so 594 BC = -0593); where only a reign-year or an era is known, precision is 'year' or 'range'.")
+
+seam = ("Each of these records treats a debt as something that exists because a community writes it down and agrees to enforce it, and so a decree can undo it: a tablet voided, a marker-stone pulled up, bonds burned in a square. "
+ "The harder question running through them is who may break that agreement and for whom. Kings protected merchants' capital, Solon refused to share out land, Jerusalem's owners took back the servants they had freed, and the Ptolemies forgave only debts owed to themselves. "
+ "Like the two cities of The City & the City, which share the same streets and agree not to see each other, the ledger was a reality its participants kept up together, until someone with enough authority stopped seeing it.")
+
+chapter = {
+    "id": "clean-slates",
+    "title": "Clean Slates: Debts Unmade by Decree",
+    "short_title": "Clean Slates",
+    "subtitle": "Debt remission in Babylon, Judah, Athens, Sparta and Ptolemaic Egypt, c. 1791–118 BC",
+    "span": "c. 1791 BC – 118 BC",
+    "intro": intro,
+    "calendar_note": calendar_note,
+    "seam": seam,
+    "eyes": eyes,
+    "entries": sorted(E, key=lambda x: (int(x["date_iso"][:5]) if x["date_iso"].startswith("-") else int(x["date_iso"][:4]), x["date_iso"])),
+    "claims": claims,
+    "convergences": convergences,
+    "ties": ties,
+    "threads_out": threads_out,
+    "images": images,
+    "further": further,
+    "vantage_key": "0 = the ruler or governor who decreed the release, or the debtors it was for; 1 = present at the act (priests at the synod, a prophet in the besieged city); 2 = the same society's institutions; 3 = writers in the same land generations later; 4 = biographers centuries later and far away.",
+}
+
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(chapter, f, ensure_ascii=False, indent=1)
+print(len(eyes), len(E), len(convergences), len(ties), len(claims), len(threads_out), len(images), len(further))

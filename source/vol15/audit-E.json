@@ -1,0 +1,544 @@
+[
+ {
+  "chapter": "inflation-1923",
+  "where": "entry:2",
+  "severity": "error",
+  "problem": "GHDI text: Hemingway changed money at the railway station in Kehl because the Strasbourg bankers had run out of marks; he did not change in Strasbourg.",
+  "fix": {
+   "text_replace": {
+    "old": "Changing money in Strasbourg before crossing the bridge to Kehl, Hemingway got 670 marks",
+    "new": "Finding the Strasbourg bankers out of marks, Hemingway changed money at the Kehl railway station and got 670 marks"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "entry:1",
+  "severity": "style",
+  "problem": "GHDI text says German papers printed the daily mark price 'in black type' on the front page, not large type.",
+  "fix": {
+   "text_replace": {
+    "old": "printed the daily mark rate in large type on their front pages",
+    "new": "printed the daily mark price in black type on their front pages"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "intro:2",
+  "severity": "doubt",
+  "problem": "The Kehl article appeared on 19 September 1922 and the entry itself says the trip's day is not given; 'in September 1922' asserts a month the source does not state.",
+  "fix": {
+   "text_replace": {
+    "old": "crossed the Rhine from Strasbourg to Kehl in September 1922 and wrote",
+    "new": "crossed the Rhine from Strasbourg to Kehl in 1922 and wrote, in a dispatch printed on 19 September,"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "entry:16",
+  "severity": "error",
+  "problem": "Ullrich (bpb 2023) places the coffee anecdote in a station waiting room on the way back from the Baltic coast, not in Dresden; Klemperer was relaying what happened to his wife.",
+  "fix": {
+   "place": "A station waiting room, on the way back from the Baltic coast"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "intro:1",
+  "severity": "error",
+  "problem": "Same point: the coffee incident happened in a station waiting room on a journey from the Baltic coast, not in Dresden, and Klemperer recorded it rather than watching a price board in Dresden.",
+  "fix": {
+   "text_replace": {
+    "old": "In Dresden, Victor Klemperer watched the price of his wife's coffee double while she drank it.",
+    "new": "Victor Klemperer, the Dresden professor, recorded the price of his wife's station coffee doubling while she drank it."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "claim:7",
+  "severity": "style",
+  "problem": "Place detail: the incident was on a journey home from the Baltic, recorded in the Dresden diarist's diary.",
+  "fix": {
+   "text_replace": {
+    "old": "the same week, diary, Dresden; published 1996",
+    "new": "at the time (early August), diary; published 1996"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "entry:8",
+  "severity": "error",
+  "problem": "Ullrich quotes only D'Abernon's lines that the patriotic wave had for the moment swept away workers' class hatred of employers and that the whole country seemed fused in unity. 'Done what nothing else could' and his doubts are not in the cited source.",
+  "fix": {
+   "digest": "In the first weeks of the occupation D'Abernon noted that, for the moment, the workers' class hatred of their employers had been swept away by a wave of patriotic feeling, and that the whole country seemed fused into one. The published diary is known here only through the lines Ullrich quotes in German."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "entry:34",
+  "severity": "doubt",
+  "problem": "Ullrich quotes only that the crisis year was ending and how close the country had stood to the abyss; the last sentence about stabilisation and the republic's survival goes beyond the cited text.",
+  "fix": {
+   "text_replace": {
+    "old": " In his own account, the stabilisation and the survival of the republic were achievements that could easily have failed.",
+    "new": ""
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "eye:scholem",
+  "severity": "error",
+  "problem": "Arthur Scholem, Betty's husband, died in 1925; in 1923 she was not a widow.",
+  "fix": {
+   "text_replace": {
+    "old": "widow of Arthur Scholem, co-running the family printing firm in Berlin with her sons",
+    "new": "wife of the printer Arthur Scholem (d. 1925), active in the family printing firm in Berlin with her sons"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "entry:23",
+  "severity": "doubt",
+  "problem": "GHDI letter: plundering had 'flared up here and there, but not much', the women were too weary to protest and there had been no unrest so far. 'Expected worse at any time' is not in the text.",
+  "fix": {
+   "text_replace": {
+    "old": "Some looting had begun, and she expected worse at any time.",
+    "new": "Here and there some looting had flared up, though not much, and so far there had been no unrest."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "eye:wolfgang",
+  "severity": "doubt",
+  "problem": "The GHDI headnote calls Wolfgang only 'possibly a former student'; the letters mention gluing '48 pilgrims' and a sample, not illustrations.",
+  "fix": {
+   "text_replace": {
+    "old": "probably a former student; working on illustrations or models for Kelley's 'Pilgrim's Progress'",
+    "new": "possibly a former student; preparing figures (the letters mention gluing '48 pilgrims') connected with Kelley's oratorio 'Pilgrim's Progress'"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "entry:9",
+  "severity": "style",
+  "problem": "The letter asks to be invited to 'Oxford'; the state comes from the GHDI headnote, and the job was an offer as head of propaganda that was withdrawn.",
+  "fix": {
+   "text_replace": {
+    "old": "A job offered three months earlier had vanished when the firm closed its office, and he asked to be invited to Ohio.",
+    "new": "A post offered three months earlier had been withdrawn when the firm closed the office to save costs, and he asked to be invited to Kelley's home in Oxford (Ohio)."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "entry:24",
+  "severity": "style",
+  "problem": "The 2 November article gives one- and two-dollar sizes only for the gold-loan notes; dollar treasury bills came in units of five dollars and up.",
+  "fix": {
+   "text_replace": {
+    "old": "dollar treasury certificates and gold-loan notes in one- and two-dollar sizes circulated",
+    "new": "dollar treasury bills (from five dollars up) and gold-loan notes in one- and two-dollar sizes circulated"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "entry:6",
+  "severity": "doubt",
+  "problem": "Kollwitz copies the Simplicissimus verse, which ends by thanking God for the Quakers, and answers with 'Yes, thank God!'. Whether that reply is sarcastic is an interpretation; the digest should not state it as fact.",
+  "fix": {
+   "text_replace": {
+    "old": "She copied a bitter children's Christmas verse from Simplicissimus, about bread, beer, a drinking father and a hungry child, and answered it with sarcasm.",
+    "new": "She copied a bitter children's Christmas verse from Simplicissimus, about bread, beer, a drinking father and a hungry child, which ends by thanking God for the Quakers, and added a short reply echoing that line."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "Kollwitz states that Bavaria was at war with the north as she heard it; the diary does not call it a rumour.",
+  "fix": {
+   "text_replace": {
+    "old": "a rumour that Bavaria was at war with the north",
+    "new": "word that Bavaria was at war with the north"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "entry:35",
+  "severity": "doubt",
+  "problem": "Smithsonian (2023) quotes Klemperer on his shares, cash and life insurance, but the fear for his safety as a Jew is the magazine's paraphrase, and the last sentence is an inference.",
+  "fix": {
+   "text_replace": {
+    "old": "As the autumn turned violent he also wrote of fearing for his safety as a Jew. His savings were lost for good, even after the currency was made stable.",
+    "new": "Smithsonian's summary adds that, as riots (some aimed at Jews) spread, he worried for his safety; that point is the magazine's paraphrase, not a quoted entry."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "eye:klemperer",
+  "severity": "style",
+  "problem": "Bio repeats the fear-as-a-Jew point as a direct record; it rests on a magazine paraphrase.",
+  "fix": {
+   "text_replace": {
+    "old": "He also recorded his fear as a Jew when the crisis turned ugly.",
+    "new": "A 2023 magazine summary adds that he feared for his safety as a Jew when the crisis turned violent."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "entry:15",
+  "severity": "style",
+  "problem": "The Smithsonian article does not describe wages paid daily or twice daily; the source note overstates its support.",
+  "fix": {
+   "text_replace": {
+    "old": "The wage practice is a general description drawn from GHDI and Smithsonian summaries, not a single dated document.",
+    "new": "The wage practice is a general description from secondary summaries, not a single dated document."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "entry:19",
+  "severity": "style",
+  "problem": "The decree is the Verordnung über die Errichtung der Deutschen Rentenbank of 15 October 1923 (title and date confirmed by its Wikisource transcription). The date can be marked verified.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Mid-October coalition decision: Ullrich, bpb 2023; mortgage basis: DHM LeMO; decree title and date: Verordnung über die Errichtung der Deutschen Rentenbank, 15 October 1923 (Reichsgesetzblatt; Wikisource transcription)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "claim:8",
+  "severity": "style",
+  "problem": "Same: the 15 October 1923 decree date is confirmed.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "entry:29",
+  "severity": "doubt",
+  "problem": "The 20 November date is supported (Mises 2023; standard biographies), but 'appointed for life' and 'a heart attack' are not in any cited source.",
+  "fix": {
+   "text_replace": {
+    "old": "Rudolf Havenstein, Reichsbank president since 1908 and appointed for life, died suddenly of a heart attack on the day the rate was fixed.",
+    "new": "Rudolf Havenstein, Reichsbank president since 1908, died suddenly on the day the rate was fixed."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "entry:25",
+  "severity": "style",
+  "problem": "GHDI's Adelphi text gives 12 November 1923 as the day Luther summoned Schacht; the quote 'These, it is true, were no ordinary powers.' is confirmed. The formal decree date (12 vs 13 November) differs between references and should stay a noted position.",
+  "fix": {
+   "text_replace": {
+    "old": "Some references give 13 November for the formal appointment.",
+    "new": "The 12 November date is Schacht's own (the day Luther summoned him); some references give 13 November for the formal appointment."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "entry:36",
+  "severity": "doubt",
+  "problem": "The digest restates the content of an antisemitic slogan in paraphrase. The brief requires such scapegoating to be noted, never repeated.",
+  "fix": {
+   "text_replace": {
+    "old": "he took up a slogan that divided capital into 'creative' German capital and 'parasitic' Jewish capital.",
+    "new": "he took up an antisemitic slogan that blamed Jews for Germany's economic ruin."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "entry:14",
+  "severity": "style",
+  "problem": "Financial History quotes her as saying the words were linked 'in the minds of the people', not specifically in her circle.",
+  "fix": {
+   "text_replace": {
+    "old": "In her circle 'stock exchange' and 'Jews' were run together in people's minds",
+    "new": "She recalled that 'stock exchange' and 'Jews' were run together in people's minds"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "claim:1",
+  "severity": "style",
+  "problem": "The day of Kessler's entry is not known; 'the same day' implies a known date.",
+  "fix": {
+   "text_replace": {
+    "old": "the same day, diary, Berlin;",
+    "new": "at the time (early November), diary, Berlin;"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "inflation-1923",
+  "where": "claim:14",
+  "severity": "style",
+  "problem": "Day not known.",
+  "fix": {
+   "text_replace": {
+    "old": "the same day, diary, Berlin",
+    "new": "at the time (early December), diary, Berlin"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "entry:28",
+  "severity": "error",
+  "problem": "Hardy's 1921 obituary (p. xlviii) prints the 27 February 1913 passage as 'To preserve my brains I want food and this is now my first consideration' (with 'now'). The 'half starving man' sentence could not be verified in a pre-1929 printing.",
+  "fix": {
+   "quote": "To preserve my brains I want food and this is now my first consideration.",
+   "source_note": "Letter of 27 Feb 1913 as printed in Hardy's obituary, Proc. London Math. Soc. (2) 19 (1921), p. xlviii; the phrase 'half starving man' is reported by MacTutor but its pre-1929 printing was not checked.",
+   "headline": "Food first: Ramanujan writes again"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "entry:37",
+  "severity": "error",
+  "problem": "Hardy's obituary says only that he seemed to remember Ramanujan telling him 'his friends had given him some assistance'; it does not say the help was with the English.",
+  "fix": {
+   "text_replace": {
+    "old": "and noted that friends had helped with the English of the letters.",
+    "new": "and recalled Ramanujan telling him that friends had given him some assistance with the letters."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "entry:27",
+  "severity": "doubt",
+  "problem": "The three-way sorting of the results is Hardy's later description of his reading of the letter; the digest presents it as the content of the 8 February reply, which was not checked here.",
+  "fix": {
+   "text_replace": {
+    "old": "He sorted the results into those already known, those new but curious, and those new and important, and told Ramanujan",
+    "new": "He told Ramanujan"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "eye:tesla",
+  "severity": "error",
+  "problem": "My Inventions ran in six parts in the February, March, April, May, June and October 1919 issues of the Electrical Experimenter, not February–June.",
+  "fix": {
+   "text_replace": {
+    "old": "(February–June 1919, part III in April)",
+    "new": "(February–June and October 1919, part III in April)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "entry:17",
+  "severity": "style",
+  "problem": "Quote confirmed against the Tesla Universe text. The 1919 text does not name the friend or give a month or year; it dates the walk only as six years before the 1888 AIEE address.",
+  "fix": {
+   "text_replace": {
+    "old": "Month from Tesla's later statements, not from the 1919 text.",
+    "new": "The 1919 text names no friend and gives no date beyond 'six years' before the 1888 AIEE address; the February 1882 month comes from Tesla's later statements."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "entry:19",
+  "severity": "doubt",
+  "problem": "Part III of My Inventions (April 1919) does not mention Strasbourg or 1883; the Strasbourg motor story comes from another part or another later statement and was not checked.",
+  "fix": {
+   "source_note": "Tesla's later accounts as summarised in standard biographies; not in My Inventions part III (April 1919), and not checked word for word.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "eye:szigeti",
+  "severity": "style",
+  "problem": "The 1919 memoir does not name the companion; the name comes from Tesla's other statements and later writers.",
+  "fix": {
+   "text_replace": {
+    "old": "Known only through Tesla's own accounts;",
+    "new": "Known only through Tesla's accounts (the 1919 memoir says only 'my friend'; the name comes from his other statements and later writers);"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "eye:loewi",
+  "severity": "doubt",
+  "problem": "Sources that print Loewi's words ('The night before Easter Sunday of [1920]': McCoy & Tan 2014; BPS) put the year in editorial brackets. The year 1920 comes from the editors and from his '17 years' after a 1903 hypothesis, not from a year stated in the quoted sentence. It should be set out as a position.",
+  "fix": {
+   "text_replace": {
+    "old": "His own account places the dream at Easter 1920, though many retellings give Easter 1921.",
+    "new": "His account dates it to 'the night before Easter Sunday'; editors and his reckoning of '17 years' after a 1903 hypothesis give 1920 (the Pflügers Archiv centenary article also dates the experiment to 1920). Many retellings give Easter 1921, the year of publication."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "entry:42",
+  "severity": "doubt",
+  "problem": "Same: the year 1920 is supplied in brackets by the editors who quote the sketch. It is not shown to be stated in Loewi's sentence.",
+  "fix": {
+   "digest": "A year before his death Loewi published 'An Autobiographic Sketch', retelling the dream, the unreadable note and the 3 a.m. return to the laboratory. He placed it on the night before Easter Sunday and tied it to a hypothesis he said he had voiced seventeen years before. Editors quoting him supply the year 1920, which agrees with the centenary article's dating of the experiment; many later writers give Easter 1921, the year the paper appeared."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "calendar_note:0",
+  "severity": "doubt",
+  "problem": "Same position framing for Loewi's year.",
+  "fix": {
+   "text_replace": {
+    "old": "his own account gives 1920, and many retellings give 1921.",
+    "new": "his account says 'the night before Easter Sunday', which editors and the experiment's dating place in 1920, while many retellings give 1921."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "entry:34",
+  "severity": "style",
+  "problem": "The quoted passage (McCoy & Tan 2014) carries '[1920]' as an editorial insertion; the source note should say so.",
+  "fix": {
+   "text_replace": {
+    "old": "('night before Easter Sunday' 1920)",
+    "new": "('The night before Easter Sunday of [1920]', the year in editorial brackets)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "entry:23",
+  "severity": "doubt",
+  "problem": "Hafner 1979 gives 12 March 1890; other accounts give 11 March. Rocke 2015 gives no day. The display date should show the two positions.",
+  "fix": {
+   "date_display": "11 March 1890 (Hafner 1979: 12 March)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "entry:8",
+  "severity": "style",
+  "problem": "Quote confirmed in Hafner 1979, fn. 88 (Berichte 23, p. 1306), after OCR correction. Other accounts (Chemistry World; KVCV 2015) place the reverie in the winter of 1861–62, while Rocke says early 1862.",
+  "fix": {
+   "date_display": "winter 1861–62 or early 1862 (told in 1890)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "eye:howe",
+  "severity": "style",
+  "problem": "Source entry has an empty URL. The patent is online at Google Patents as US4750A.",
+  "fix": {
+   "sources": [
+    {
+     "title": "US Patent 4,750, E. Howe, 'Sewing-Machine', 10 September 1846 (Google Patents)",
+     "url": "https://patents.google.com/patent/US4750A/en"
+    }
+   ]
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "entry:30",
+  "severity": "style",
+  "problem": "A MacTutor biographical statement is not an official record; the honest source_kind is secondhand.",
+  "fix": {
+   "source_kind": "secondhand"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "A MacTutor biographical statement is not an official record; the honest source_kind is secondhand.",
+  "fix": {
+   "source_kind": "secondhand"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "entry:35",
+  "severity": "style",
+  "problem": "A MacTutor biographical statement is not an official record; the honest source_kind is secondhand.",
+  "fix": {
+   "source_kind": "secondhand"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waking-ideas",
+  "where": "entry:32",
+  "severity": "style",
+  "problem": "Editorial characterisation ('aging celebrity') is not neutral voice.",
+  "fix": {
+   "text_replace": {
+    "old": "Written for a popular magazine and in the voice of an aging celebrity, it fixed",
+    "new": "Written for a popular magazine 37 years after the event, it fixed"
+   }
+  },
+  "confidence": "verified"
+ }
+]

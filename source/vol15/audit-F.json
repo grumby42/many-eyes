@@ -1,0 +1,440 @@
+[
+ {
+  "chapter": "everett-1957",
+  "where": "entry:1",
+  "severity": "error",
+  "problem": "The Calisphere catalogue says only that the copy carries Wheeler's pencilled comments; nothing supports 'his unease with the vivid language of splitting'.",
+  "fix": {
+   "digest": "The final typed copy of the amoeba minipaper that Wheeler read carries his pencilled comments in the margins. It is the earliest surviving trace of the adviser handling the idea."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:4",
+  "severity": "doubt",
+  "problem": "The 'escape from a formalism like Everett's' point comes from Stefano Osnaghi's 2008 Principia article (the dialnet PDF), not from 'Osnaghi et al.'; the catalogue itself says only that Wheeler described topics he hoped to discuss.",
+  "fix": {
+   "text_replace": {
+    "old": "content per Osnaghi et al. as summarised in https://dialnet.unirioja.es/descarga/articulo/5251244.pdf",
+    "new": "content per Osnaghi, 'Van Fraassen, Everett, and the critique of the Copenhagen view of measurement', Principia 12(2) (2008): https://dialnet.unirioja.es/descarga/articulo/5251244.pdf"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:5",
+  "severity": "doubt",
+  "problem": "Quote 'three long and strong discussions' is verified in Byrne (SciAm 2007) as Wheeler's words in a letter to Everett, and Freire (2015, n. 56) dates the notes 3 May while the catalogue gives 4 May; the digest should say the phrase was in a letter to Everett, not 'later'.",
+  "fix": {
+   "text_replace": {
+    "old": "Wheeler later called them three long, strong discussions.",
+    "new": "Writing to Everett that month, Wheeler described three long and strong discussions with Bohr and Petersen (as quoted by Byrne)."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:6",
+  "severity": "error",
+  "problem": "'Over several days' and Bohr 'could not accept the framing' are not supported; the sources say three long discussions (Byrne), that the meeting 'did not go smoothly' (catalogue of 22 May) and that Wheeler returned convinced Everett should come (telegram catalogue).",
+  "fix": {
+   "digest": "Bohr discussed Everett's thesis with Wheeler and Petersen in several long discussions. Nothing in his own hand is known; Wheeler's letters indicate that the talks did not go smoothly, and Wheeler came away convinced that Everett himself had to come to Copenhagen."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:7",
+  "severity": "style",
+  "problem": "'theology' verified in Byrne (Stern 'dismissed Everett's theory as theology'); the catalogue itself does not use the word. Fine as a one-word quote; no change needed beyond noting it is Byrne's report.",
+  "fix": {
+   "text_replace": {
+    "old": "As reported later, he dismissed",
+    "new": "According to Byrne, he dismissed"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:8",
+  "severity": "doubt",
+  "problem": "The catalogue says Hamilton asked whether Everett might need to stay on into the fall (prolong graduate school), not 'another term'; also Wheeler was surprised Everett wanted more time.",
+  "fix": {
+   "text_replace": {
+    "old": "about whether Everett needed another term",
+    "new": "about whether Everett might need to stay on into the autumn"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:14",
+  "severity": "style",
+  "problem": "Catalogue says Everett did not make the 1956 trip because his WSEG job started that summer; 'declined' overstates a refusal.",
+  "fix": {
+   "text_replace": {
+    "old": "Everett declined for now: his WSEG job began that summer.",
+    "new": "Everett did not go in 1956: his WSEG job began that summer."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:15",
+  "severity": "error",
+  "problem": "'will need significant revisions' is the cataloguer's paraphrase in the UC Irvine description, not verified as Wheeler's own wording (the scan could not be opened); also the catalogue says 'Danish Royal Academy'.",
+  "fix": {
+   "quote": "",
+   "digest": "Writing to his Princeton colleague A. G. Shenstone about attending a September conference, Wheeler mentioned the thesis and its reception in Copenhagen. According to the catalogue, he said it would need significant revisions and hoped the Danish Royal Academy would publish it."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:16",
+  "severity": "doubt",
+  "problem": "June 1956 start is supported by the 22 May 1956 catalogue note (Everett already planned to start at the Pentagon in June) as well as Wikipedia; better to cite the archive.",
+  "fix": {
+   "text_replace": {
+    "old": "start date per Wikipedia biography",
+    "new": "start date per catalogue to Wheeler to Everett, 22 May 1956 (https://calisphere.org/item/ark:/81235/d8m32np9g) and Wikipedia biography"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:22",
+  "severity": "error",
+  "problem": "No source supports Rosenfeld 'within months ... writing to Bohr about Everett'; his known Everett letters are of 1959 and 1972. 'nothing to do with gravitation itself' is supported (EOS ch. 23).",
+  "fix": {
+   "digest": "Rosenfeld joined the Chapel Hill discussion of whether gravity must be quantised, objecting that what interferes in the example under debate has nothing to do with gravitation. He would later become the Copenhagen school's sharpest critic of Everett in letters."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:24",
+  "severity": "error",
+  "problem": "Sources do not conflict: the dissertation was submitted in March 1957 (Osnaghi 2008), the committee accepted it in April 1957 (Byrne), oral examination 23 April 1957 (Wikipedia). The claim that the short thesis presents relative states as 'a framework for quantum gravity and cosmology' is not supported by the catalogue.",
+  "fix": {
+   "date_iso": "1957-04",
+   "date_display": "March–April 1957",
+   "digest": "Everett submitted the short thesis, 'On the Foundations of Quantum Mechanics', which drops the chapter on information theory, the survey of rival solutions to the measurement problem and the discussion of the nature of physical theories, and leaves out the 'splits'. He submitted it in March 1957; the committee accepted it in April, and later accounts give the oral examination as 23 April.",
+   "source_note": "Short thesis as defended, UC Irvine: https://calisphere.org/item/ark:/81235/d8bz61n78; long-thesis catalogue: https://calisphere.org/item/ark:/81235/d81c1tv5z; March submission per Osnaghi, 'Van Fraassen, Everett, and the critique of the Copenhagen view of measurement', Principia 12(2) (2008): https://dialnet.unirioja.es/descarga/articulo/5251244.pdf; April acceptance per Byrne, SciAm: https://www.scientificamerican.com/article/hugh-everett-biography/"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:25",
+  "severity": "doubt",
+  "problem": "The 'statistical operator ... relative like the coordinate frame' point is not in the catalogue; it is verified in Osnaghi (2008, n. 22), which should be cited. 'much improved' is verified in the catalogue as Groenewold's words.",
+  "fix": {
+   "text_replace": {
+    "old": "Groenewold to Wheeler, 11 April 1957, UC Irvine: https://calisphere.org/item/ark:/81235/d8vd6pj4g",
+    "new": "Groenewold to Wheeler, 11 April 1957, UC Irvine: https://calisphere.org/item/ark:/81235/d8vd6pj4g; statistical-operator argument per Osnaghi, 'Van Fraassen, Everett, and the critique of the Copenhagen view of measurement', Principia 12(2) (2008): https://dialnet.unirioja.es/descarga/articulo/5251244.pdf"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:26",
+  "severity": "doubt",
+  "problem": "Content ('most of us' do not feel the difficulties the paper sets out to remove) is verified in Osnaghi (2008, n. 16); the UC Irvine PDF could not be opened, so cite the historian.",
+  "fix": {
+   "text_replace": {
+    "old": "petersen%20to%20everett%2024-april-1957.pdf?sequence=1",
+    "new": "petersen%20to%20everett%2024-april-1957.pdf?sequence=1; content per Osnaghi, 'Van Fraassen, Everett, and the critique of the Copenhagen view of measurement', Principia 12(2) (2008): https://dialnet.unirioja.es/descarga/articulo/5251244.pdf"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:29",
+  "severity": "error",
+  "problem": "The Frank link is wrong: d8125qp6c is Wheeler's 11 December 1957 letter to Killian; Everett's letter to Philip Frank of 31 May 1957 is d8ns0mb4m. Catalogue calls the Petersen reply 'testily', fine.",
+  "fix": {
+   "text_replace": {
+    "old": "Everett to Frank: https://calisphere.org/item/ark:/81235/d8125qp6c/",
+    "new": "Everett to Frank: https://calisphere.org/item/ark:/81235/d8ns0mb4m"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:35",
+  "severity": "error",
+  "problem": "Link swapped with entry 29: d8ns0mb4m is Everett to Philip Frank; the Killian letter (Everett's copy, 11 Dec 1957) is d8125qp6c.",
+  "fix": {
+   "text_replace": {
+    "old": "https://calisphere.org/item/ark:/81235/d8ns0mb4m",
+    "new": "https://calisphere.org/item/ark:/81235/d8125qp6c/"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:32",
+  "severity": "style",
+  "problem": "RMP 29, 454–462 verified (Freire 2015 references); catalogue gives the issue as July–September 1957. Cite scholarship rather than Wikipedia.",
+  "fix": {
+   "text_replace": {
+    "old": "citation per Wikipedia biography",
+    "new": "citation per Freire, The Quantum Dissidents (2015), references"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:33",
+  "severity": "error",
+  "problem": "The description of the assessment's content (new route to quantum gravity; difference in emphasis) is not verified; Byrne says only that the companion paper 'lauded' the discovery. Byrne places Wheeler's 'words' remark in a spring 1956 letter to Everett from the Copenhagen trip. Pages 463–465 verified (Freire 2015).",
+  "fix": {
+   "digest": "Directly after Everett's paper, Wheeler's 'Assessment of Everett's Relative State Formulation of Quantum Theory' (pp. 463–465) praised his student's work, in Byrne's description. Reporting on the Copenhagen talks in spring 1956, Wheeler had written to Everett that the real issue was the words to be attached to the formalism.",
+   "source_note": "Citation per Freire, The Quantum Dissidents (2015), references; content and Wheeler's 1956 wording per Byrne, SciAm: https://www.scientificamerican.com/article/hugh-everett-biography/"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:34",
+  "severity": "style",
+  "problem": "Catalogue says Wheeler's 'off-hand' reply is not held in the collection, not that it is lost.",
+  "fix": {
+   "text_replace": {
+    "old": "Wheeler's reply is lost, and",
+    "new": "Wheeler's reply is not in the collection, and"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:39",
+  "severity": "doubt",
+  "problem": "The 'dialnet' PDF is Osnaghi's 2008 Principia article, which (with Osnaghi, Freitas & Freire 2009 and Freire 2015) names the addressee Saul Bergmann, letter in the Rosenfeld Papers, Niels Bohr Archive; the UC Irvine title gives 'P.G. Bergmann' and describes him as an industrial physicist in Massachusetts. Keep as positions.",
+  "fix": {
+   "text_replace": {
+    "old": "content per https://dialnet.unirioja.es/descarga/articulo/5251244.pdf",
+    "new": "content per Osnaghi, 'Van Fraassen, Everett, and the critique of the Copenhagen view of measurement', Principia 12(2) (2008): https://dialnet.unirioja.es/descarga/articulo/5251244.pdf; addressee as Saul Bergmann also in Freire (2015), n. 200; catalogue describes him as an industrial physicist in Massachusetts"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:42",
+  "severity": "error",
+  "problem": "The catalogue does not say earlier letters held state reduction unavoidable; no other source checked supports it.",
+  "fix": {
+   "text_replace": {
+    "old": " Earlier letters in the series held that state reduction was unavoidable.",
+    "new": ""
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:43",
+  "severity": "doubt",
+  "problem": "Byrne says DeWitt and Wheeler invited Everett to Austin in 1977; Wikipedia says it was his only meeting with DeWitt. 'The talk was well received' was not found in the sources checked.",
+  "fix": {
+   "digest": "In 1977 Wheeler and DeWitt, according to Byrne, invited Everett to give a presentation at the University of Texas at Austin. Later accounts say it was the only time DeWitt and Everett met."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:44",
+  "severity": "style",
+  "problem": "Compiler note ('was not consulted for this chapter') breaks the neutral voice; the May 1977 date is verified via Freire (2015, n. 22).",
+  "fix": {
+   "text_replace": {
+    "old": "Historians cite this May 1977 recording for Everett's recollections; its transcript was not consulted for this chapter.",
+    "new": "Historians cite this May 1977 recording for Everett's recollections."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:45",
+  "severity": "doubt",
+  "problem": "'slosh or two of sherry' and 'ridiculous things' verified in Byrne; date is a matter of positions: Byrne says 1954, Becker says autumn 1955 (when Petersen's Princeton year 1954–55 favours 1954, but neither is settled).",
+  "fix": {
+   "text_replace": {
+    "old": "Accounts place the evening in 1954 or autumn 1955.",
+    "new": "Byrne places the evening in 1954; Becker places it in autumn 1955."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:46",
+  "severity": "style",
+  "problem": "'doomed from the beginning' is verified in Becker; 'hell ... doomed from the beginning' attributed to Everett's later recollection in Wikipedia (citing Osnaghi et al. 2009). Remove compiler note.",
+  "fix": {
+   "text_replace": {
+    "old": "The remark is quoted by historians; the original recording was not seen here.",
+    "new": "The remark is quoted by historians from his later recollection."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:47",
+  "severity": "error",
+  "problem": "Per the UC Irvine description, Harvey (a historian at Edinburgh) asked how Everett viewed his thesis now, in 1977, and how far he had kept up with the foundations literature; not how he regarded it 'at the time'.",
+  "fix": {
+   "digest": "Answering William Harvey, a historian of science at Edinburgh writing a history of quantum mechanics, Everett said how he now regarded his thesis and how far he had kept up with the literature on the foundations of quantum mechanics."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "claim:15",
+  "severity": "error",
+  "problem": "Harvey asked how Everett viewed the thesis in 1977, not then.",
+  "fix": {
+   "claim": "Everett explains how he now sees the thesis and how far he has followed the literature"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "claim:0",
+  "severity": "doubt",
+  "problem": "Date of the sherry evening is contested: Byrne says 1954, Becker says autumn 1955; present as positions.",
+  "fix": {
+   "date_display": "1954 (Byrne) or autumn 1955 (Becker)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "eye:groenewold",
+  "severity": "style",
+  "problem": "He read the long thesis copy that had been sent to Copenhagen (catalogue), not in Copenhagen; he was in Groningen.",
+  "fix": {
+   "text_replace": {
+    "old": "Groenewold read the long thesis in Copenhagen",
+    "new": "Groenewold read the long thesis sent to Copenhagen"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "eye:petersen",
+  "severity": "doubt",
+  "problem": "No source checked shows Petersen hosting the 1959 visit; the catalogue shows Everett writing to him with travel plans and calls him a go-between.",
+  "fix": {
+   "text_replace": {
+    "old": "and helped host Everett's 1959 visit.",
+    "new": "and received Everett's plans for the 1959 visit."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "eye:stern",
+  "severity": "style",
+  "problem": "Double full stop.",
+  "fix": {
+   "text_replace": {
+    "old": "Summarised..",
+    "new": "Summarised."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "eye:misner",
+  "severity": "style",
+  "problem": "Compiler note in neutral-voice field.",
+  "fix": {
+   "text_replace": {
+    "old": "is cited by historians; a transcript was not seen for this chapter.",
+    "new": "is cited by historians."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "eye:feynman",
+  "severity": "style",
+  "problem": "Compiler note; also EOS preface verified that Feynman gave an explicitly many-worlds characterisation used as a reductio (p. 257).",
+  "fix": {
+   "text_replace": {
+    "old": " The exact wording on the Everett passage was not seen for this chapter.",
+    "new": ""
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "entry:19",
+  "severity": "doubt",
+  "problem": "Dates 18–23 January 1957 verified (HathiTrust record; Wikipedia); WADC TR 57-216 verified (EOS preface). The EOS preface says the report was produced under a funding agreement with WADC; Bahnson financed the Institute of Field Physics; the digest overstates the split of conference costs.",
+  "fix": {
+   "text_replace": {
+    "old": "paid for partly by the industrialist Agnew Bahnson and partly through the Wright Air Development Center.",
+    "new": "under the Institute of Field Physics, which was financed by the industrialist Agnew Bahnson; the report was produced under a funding agreement with the Wright Air Development Center."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "convergence:1",
+  "severity": "style",
+  "problem": "'come and stay' is set in quotes but is not a quotation from any letter.",
+  "fix": {
+   "text_replace": {
+    "old": "from 'theology' to 'come and stay'.",
+    "new": "from 'theology' to an invitation to come and stay."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "convergence:4",
+  "severity": "error",
+  "problem": "Only the DeWitt and Frank letters used the Copernican comparison (catalogue); the Petersen reply is described only as testy.",
+  "fix": {
+   "note": "DeWitt's 'I do not branch' and Petersen's criticisms are answered on one day; to DeWitt, and to Philip Frank, Everett made the Copernican argument that the theory predicts we would not feel the branching."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "everett-1957",
+  "where": "image:5",
+  "severity": "doubt",
+  "problem": "The NOVA page calls it two pages from an early draft of the dissertation; it does not say handwritten. Documents are 1955–1957, not 1954.",
+  "fix": {
+   "caption": "PBS page by Peter Byrne showing two pages of an early dissertation draft with the amoeba metaphor and Everett's May 1957 letter to DeWitt.",
+   "date": "1950s documents"
+  },
+  "confidence": "verified"
+ }
+]

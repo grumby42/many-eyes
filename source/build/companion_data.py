@@ -3,7 +3,7 @@ import json, re, pathlib, collections, itertools
 
 VOLS = [("1", "I", "many-eyes.html"), ("2", "II", "many-eyes-volume-2.html"), ("3", "III", "many-eyes-volume-3.html"),
         ("4", "IV", "many-eyes-volume-4.html"), ("5", "V", "many-eyes-volume-5.html"), ("6", "VI", "many-eyes-volume-6.html"),
-        ("7", "VII", "many-eyes-volume-7.html"), ("8", "VIII", "many-eyes-volume-8.html"), ("13", "XIII", "many-eyes-volume-13.html")]
+        ("7", "VII", "many-eyes-volume-7.html"), ("8", "VIII", "many-eyes-volume-8.html"), ("13", "XIII", "many-eyes-volume-13.html"), ("15", "XV", "many-eyes-volume-15.html")]
 SRC = pathlib.Path("/home/claude")
 
 def year_of(iso):
@@ -13,6 +13,7 @@ def year_of(iso):
 def load():
     vols, chapters, eyes, entries, edges = [], [], [], [], []
     for vn, roman, fn in VOLS:
+        if not (SRC / fn).exists(): continue
         s = (SRC / fn).read_text(encoding="utf-8")
         d = json.loads(re.search(r'<script id="book-data" type="application/json">(.*?)</script>', s, re.S).group(1))
         build = re.search(r'BUILD = "([^"]+)"', s).group(1)
