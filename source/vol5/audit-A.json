@@ -1,0 +1,317 @@
+[
+ {
+  "chapter": "florence-1504",
+  "where": "claim:0",
+  "severity": "error",
+  "problem": "Vasari does not say Botticelli burned his own paintings; his Life of Botticelli says only that he became a partisan of the friar and neglected painting. The burning story comes from later writers.",
+  "fix": {
+   "claim": "First bonfire of the vanities burns pictures, books, instruments and finery in the Piazza; the later story that Botticelli burned his own paintings has no contemporary support and is not in Vasari, who says only that he became a follower of the friar and neglected his work",
+   "evidence": "Contemporary accounts of the Carnival bonfire; Vasari, Life of Botticelli (1550/1568) for his piagnone sympathies"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "florence-1504",
+  "where": "eye:leonardo",
+  "severity": "doubt",
+  "problem": "That Leonardo had once been considered for the marble block rests on Vasari (Soderini's supposed wish to give it to him), not on a contemporary document.",
+  "fix": {
+   "text_replace": {
+    "old": "a young sculptor famous for a marble he had once been considered for",
+    "new": "a young sculptor famous for a marble that, according to Vasari, had once been thought of for Leonardo himself"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "florence-1504",
+  "where": "image:2",
+  "severity": "doubt",
+  "problem": "Bridgeman lists the San Marco panel as anonymous, late 15th century, showing the burning in the Piazza; the caption omits the pyre. The figures are small and distant, so the image is not graphic, but the caption should say what it shows.",
+  "fix": {
+   "caption": "An anonymous Florentine painting in the Museo di San Marco of the execution of 23 May 1498: the scaffold and pyre in the Piazza before the palace, with the crowd, all seen at a distance. It is a later, devotional record, not an eyewitness document.",
+   "date": "late 15th or early 16th century (after 1498)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "florence-1504",
+  "where": "image:1",
+  "severity": "style",
+  "problem": "The National Gallery identifies the sitter as Savonarola because the reverse of the panel shows his execution; the caption can say so.",
+  "fix": {
+   "caption": "A small Florentine profile portrait of a tonsured friar, identified as Savonarola because the reverse of the panel shows the execution in the Piazza; perhaps painted in the decades after his death."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "florence-1504",
+  "where": "entry:20",
+  "severity": "style",
+  "problem": "The headline puts a modern English translation of Leonardo's Italian in quotation marks, against the quote rule.",
+  "fix": {
+   "headline": "The duke lost his state, his goods and his liberty"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "florence-1504",
+  "where": "entry:43",
+  "severity": "style",
+  "problem": "The headline puts a translated phrase in quotation marks.",
+  "fix": {
+   "headline": "His father's death, noted twice"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "florence-1504",
+  "where": "eye:machiavelli",
+  "severity": "style",
+  "problem": "Mixed-language archive name.",
+  "fix": {
+   "text_replace": {
+    "old": "Archivio di Stato di Florence",
+    "new": "Archivio di Stato di Firenze"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "entry:43",
+  "severity": "error",
+  "problem": "The digest misplaces Dorothy's collapse: she threw herself on the bed when two men ran up to say the service was over, and lay there until Sara Hutchinson said the party was coming. It also fails to say that the ring passage is the struck-through text, absent from Knight's 1897 edition (which prints the rest of the entry).",
+  "fix": {
+   "digest": "Dorothy wrote the wedding entry later. She did not go to the church. Before the couple set out she gave William the wedding ring, which she had worn overnight; he slipped it back onto her finger and blessed her. These lines were later struck through by an unknown hand and are missing from Knight's 1897 text. When two men ran up the walk to say the service was over, she threw herself on her bed and lay still until Sara Hutchinson came to say they were coming, then went out to meet William, and he and John Hutchinson led her into the house. After breakfast the three set off in the rain for Grasmere.",
+   "source_note": "Grasmere journal, 4 Oct 1802 (DCMS 31); full text including the struck-through lines in Woof, The Grasmere Journals (1991); Knight (1897) prints the entry without the ring passage."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "entry:28",
+  "severity": "error",
+  "problem": "The letter dates and the 'panegyric' remark are not supported by the cited ARIEL article. It dates John's comment that 'Michael' at first seemed too minute and too low for blank verse to perhaps 29 January 1801. His scorn for Stoddart's review (that Stoddart knew nothing about the poem except how to praise it) comes from a later letter written by 9 April 1801.",
+  "fix": {
+   "date_iso": "1801-01-29",
+   "date_display": "c. 29 January 1801 (and a letter written by early April 1801)",
+   "confidence": "approx",
+   "headline": "A sailor's verdict on 'Michael' and its reviewer",
+   "digest": "John wrote that when he first read 'Michael' he thought its details too minute and its language too low for a poem in blank verse, though he came to like it better. In a later letter he dismissed their friend John Stoddart's admiring review of the new volumes, saying the reviewer knew nothing about the poem beyond praising it.",
+   "source_note": "Letters of John Wordsworth, ed. Ketcham (1969), letters of c. 29 Jan 1801 and of spring 1801 (written by 9 April), as quoted in an ARIEL article; dates editorial."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "convergence:5",
+  "severity": "doubt",
+  "problem": "The note repeats the unsupported claim about John's worry over praise from friends (see entry 28).",
+  "fix": {
+   "note": "Lamb and John Wordsworth read the same volumes in the same weeks: one argued with the Preface and the moral lessons; the other at first found 'Michael' too low for blank verse and later scoffed at a friend's admiring review."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "entry:23",
+  "severity": "doubt",
+  "problem": "In the fuller modern texts (de Selincourt, Woof) the tall beggar woman is described in the entry for 10 June but met on 27 May; Dorothy's note of 13 March 1802 also speaks of 'a woman whom I had seen in May'. Knight prints the passage under 10 June without that date.",
+  "fix": {
+   "text_replace": {
+    "old": "A tall woman in a cloak came to the door with a baby and Dorothy gave her food;",
+    "new": "Writing under 10 June, Dorothy described a very tall woman in a cloak who had come to the door with a baby on 27 May, and whom she had given food;"
+   },
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "entry:6",
+  "severity": "doubt",
+  "problem": "The quote comes from Dorothy's letter to Mary Hutchinson, cited from de Selincourt's 1935 edition. Unless this letter was in print before 1929, the quote rule excludes it, and no pre-1929 printing was found.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "intro:2",
+  "severity": "error",
+  "problem": "'nest of democrats' is set in quotation marks as if it were the agent's wording, but Walsh's reports were first published in 1934, so no wording from them may be quoted, and the phrase is not attested in them.",
+  "fix": {
+   "text_replace": {
+    "old": "to watch the 'nest of democrats' at Alfoxden",
+    "new": "to watch the suspected democrats at Alfoxden"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "entry:3",
+  "severity": "style",
+  "problem": "The headline puts a word from the 1797 Home Office papers (first published in 1934) in quotation marks.",
+  "fix": {
+   "headline": "The agent arrives to watch the strangers at Alfoxden"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "entry:20",
+  "severity": "doubt",
+  "problem": "Wrong sequence. Coleridge reached Sockburn on 26 October 1799 and toured the Lakes with Wordsworth from the next day. His notebook entry about holding Sara's hand by the fire dates from his return to Sockburn in late November.",
+  "fix": {
+   "text_replace": {
+    "old": "there met Mary's sister Sara, whose hand he recorded holding by the fire in his notebook. He and Wordsworth then toured the Lakes, and he wrote to Dorothy that William was thinking of a house at Grasmere.",
+    "new": "there met Mary's sister Sara. He and Wordsworth then toured the Lakes, and he wrote to Dorothy that William was thinking of a house at Grasmere. Back at Sockburn in late November, he recorded in his notebook holding Sara's hand by the fire."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "eye:annette",
+  "severity": "error",
+  "problem": "Harper revealed the liaison in 1916, but Annette's 1793 letters were found at Blois only around 1920. They were first printed in Legouis's 1922 book, not by Harper in 1916.",
+  "fix": {
+   "text_replace": {
+    "old": "published by G. M. Harper (1916) and Émile Legouis, William Wordsworth and Annette Vallon (1922)",
+    "new": "first transcribed in Émile Legouis, William Wordsworth and Annette Vallon (1922); G. M. Harper had made the liaison public in 1916"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "tie:5",
+  "severity": "doubt",
+  "problem": "Stated as fact, though it is a contested point: Cottle passed most of the edition to J. & A. Arch before publication, and accounts differ on how far Wordsworth knew or agreed.",
+  "fix": {
+   "note": "Publisher of the 1798 Lyrical Ballads; before publication he transferred most of the edition to the London firm of J. & A. Arch, a move Wordsworth later complained of."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "ninth-1824",
+  "where": "claim:15",
+  "severity": "doubt",
+  "problem": "The Herre and Beck paper given at the 1977 Berlin congress was printed in the congress report (1978). The fuller study in Zu Beethoven followed in 1979. Peter Stadlen published 'Schindler's Beethoven Forgeries' in 1977.",
+  "fix": {
+   "date_display": "1977 (congress paper printed 1978; fuller study 1979)",
+   "claim": "Beck and Herre (1977 Berlin congress) and Peter Stadlen (Musical Times, 1977) show that Schindler forged conversation-book entries — FORGERIES FLAGGED",
+   "evidence": "Herre & Beck in the 1977 Berlin congress report (1978); Beck & Herre in Zu Beethoven (1979); Stadlen (1977); Berlin edition markings"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "ninth-1824",
+  "where": "eye:schindler",
+  "severity": "doubt",
+  "problem": "The publication date is incomplete (the congress paper appeared in 1978), and the date of the Berlin sale varies between sources (1845 in some, 1846 in others).",
+  "fix": {
+   "text_replace": {
+    "old": "at the 1977 Berlin Beethoven congress, published 1979)",
+    "new": "at the 1977 Berlin Beethoven congress, printed 1978, with a fuller study in 1979)"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "ninth-1824",
+  "where": "eye:sontag",
+  "severity": "style",
+  "problem": "The authenticity note contains a compiler's to-do ('should be checked against the Berlin edition').",
+  "fix": {
+   "text_replace": {
+    "old": "as summarised by Thayer; the exact wording and hand should be checked against the Berlin edition.",
+    "new": "as summarised by Thayer; the wording here follows that summary."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "ninth-1824",
+  "where": "entry:19",
+  "severity": "doubt",
+  "problem": "Thayer's 1860 notes on Thalberg (as quoted by Unheard Beethoven) also record that Unger pulled Beethoven by the sleeve and pointed to the audience. This is an earlier version of the Unger story than the one told to Grove in 1869, and the reader should be told of it.",
+  "fix": {
+   "text_replace": {
+    "old": "It is a calm, practical memory that bypasses Schindler entirely.",
+    "new": "He also remembered Unger plucking the composer's sleeve and pointing him to the audience, nine years before she told her own version to Grove. It is a calm, practical memory that bypasses Schindler entirely."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "ninth-1824",
+  "where": "eye:unger",
+  "severity": "style",
+  "problem": "Thalberg's account recorded by Thayer in 1860 is one of the 'earlier versions' and can be named.",
+  "fix": {
+   "text_replace": {
+    "old": "it circulated earlier in other versions.",
+    "new": "it circulated earlier in other versions, including Thalberg's recollection recorded by Thayer in 1860."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "ninth-1824",
+  "where": "entry:11",
+  "severity": "style",
+  "problem": "The headline sets an English translation of Beethoven's German in quotation marks.",
+  "fix": {
+   "headline": "Calling the concert off"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "ninth-1824",
+  "where": "entry:14",
+  "severity": "style",
+  "problem": "The headline sets an English translation of a phrase from the conversation books (first published in modern editions) in quotation marks.",
+  "fix": {
+   "headline": "Final rehearsal: the soprano far surer than the contralto"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "ninth-1824",
+  "where": "entry:22",
+  "severity": "style",
+  "problem": "The headline sets a translated phrase from a possibly forged entry in quotation marks, which gives it the look of an authentic quotation.",
+  "fix": {
+   "headline": "Applause like none he had heard — possibly forged"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "ninth-1824",
+  "where": "claim:13",
+  "severity": "doubt",
+  "problem": "The Harmonicon review was anonymous, not by Smart. Tagging the claim to Smart's eye implies he wrote it.",
+  "fix": {
+   "eye": "beethoven",
+   "claim": "The Harmonicon (anonymous review) judges the symphony far too long"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "ninth-1824",
+  "where": "threads_out:2",
+  "severity": "doubt",
+  "problem": "'played in camps and exile' is vague and has no specific source. The Furtwängler concert of 19 April 1942 is the specific, verifiable link.",
+  "fix": {
+   "text_replace": {
+    "old": ", while it was also played in camps and exile; the same score served opposite meanings.",
+    "new": "."
+   }
+  },
+  "confidence": "approx"
+ }
+]

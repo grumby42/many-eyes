@@ -1,0 +1,360 @@
+[
+ {
+  "chapter": "halley-1910",
+  "where": "eye:knox-shaw",
+  "severity": "error",
+  "problem": "Knox-Shaw was born 12 October 1885 (per arXiv 1305.2289), so he was 23 in August–September 1909, not 24.",
+  "fix": {
+   "text_replace": {
+    "old": "Helwan, aged 24",
+    "new": "Helwan, aged 23–24"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "halley-1910",
+  "where": "eye:evershed",
+  "severity": "error",
+  "problem": "Evershed was born 26 February 1864, so he was 46 during the April–May 1910 observations.",
+  "fix": {
+   "text_replace": {
+    "old": "Palani Hills, aged 45",
+    "new": "Palani Hills, aged 46"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "halley-1910",
+  "where": "entry:0",
+  "severity": "doubt",
+  "problem": "Paine prints the remark (verbatim match confirmed) among memoranda after a note dated 5 July 1909, but gives no date for the remark itself; 'verified' overstates the month.",
+  "fix": {
+   "confidence": "approx",
+   "date_display": "about July 1909 (as placed by Paine)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "halley-1910",
+  "where": "entry:16",
+  "severity": "style",
+  "problem": "'The Times' is ambiguous in a book that also cites the London Times; the report was the New York Times's.",
+  "fix": {
+   "text_replace": {
+    "old": "The Times attributed to Flammarion",
+    "new": "The New York Times attributed to Flammarion"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "halley-1910",
+  "where": "intro:4",
+  "severity": "style",
+  "problem": "'the Times's original pages' should name the New York Times, the paper actually relied on via the Science History Institute.",
+  "fix": {
+   "text_replace": {
+    "old": "the Times's original pages",
+    "new": "the New York Times's original pages"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "halley-1910",
+  "where": "entry:6",
+  "severity": "style",
+  "problem": "Barnard's 1914 paper does not hold 'hundreds of nights' entries' between September 1909 and June 1910; the overstatement is unsupported.",
+  "fix": {
+   "text_replace": {
+    "old": "It was the first of hundreds of nights' entries leading up to the following June.",
+    "new": "It was the first of many dated entries leading up to the following June."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "halley-1910",
+  "where": "entry:47",
+  "severity": "style",
+  "problem": "Garbled sentence ('far beyond the orbit of Jupiter's neighbourhood of interest to the press').",
+  "fix": {
+   "text_replace": {
+    "old": "The faint comet was by then far beyond the orbit of Jupiter's neighbourhood of interest to the press.",
+    "new": "The faint comet was by then long out of the newspapers."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "halley-1910",
+  "where": "threads_out:3",
+  "severity": "error",
+  "problem": "No verifiable specific link: the claim that Tunguska comet explanations drew on Evershed's and Slipher's 1910 spectra is unsupported, and the first sentence is generic.",
+  "fix": {
+   "to": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "halley-1910",
+  "where": "image:2",
+  "severity": "style",
+  "problem": "Caption says the catalogue gives the exact exposure date but the chapter does not state it (date field only '1910'); the caption should not assert what the reader cannot see.",
+  "fix": {
+   "text_replace": {
+    "old": " The catalogue entry gives the exact date of the exposure.",
+    "new": " The exposure date is given in the museum's catalogue entry and was not checked for this chapter."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "halley-1910",
+  "where": "entry:35",
+  "severity": "style",
+  "problem": "Barnard's own wording is 'about May 19' (strong chances the earth passed through this part of the tail); digest is consistent but should not add 'on or about 18–19 May' as his phrase. Confirmed otherwise.",
+  "fix": {
+   "text_replace": {
+    "old": "on or about 18–19 May, probably on the 19th",
+    "new": "about 19 May"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "halley-1910",
+  "where": "calendar_note:0",
+  "severity": "style",
+  "problem": "Barnard's paper says 'about May 19', not 'on or about the 19th'; the quoted phrase is not verbatim.",
+  "fix": {
+   "text_replace": {
+    "old": "Barnard himself puts the likely crossing 'on or about' the 19th",
+    "new": "Barnard himself puts the likely crossing 'about May 19'"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "halley-1910",
+  "where": "entry:15",
+  "severity": "doubt",
+  "problem": "Science History Institute gives the headline and the Yerkes announcement of 7 February but no publication date for the NYT story; 8 February is unconfirmed and already marked approx. No change beyond keeping approx.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "halley-1910",
+  "where": "entry:25",
+  "severity": "style",
+  "problem": "Source (Science History Institute) also says the Los Angeles policies cost a quarter a week and that suicides were attributed to the panic in at least four countries; digest is accurate but 'several countries' can be made precise.",
+  "fix": {
+   "text_replace": {
+    "old": "Reports from several countries told of",
+    "new": "Reports from at least four countries told of"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1919",
+  "where": "eye:dyson",
+  "severity": "error",
+  "problem": "Dyson was born 8 January 1868, so he was 51 in 1919.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 50 in 1919",
+    "new": "aged 51 in 1919"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1919",
+  "where": "eye:crommelin",
+  "severity": "error",
+  "problem": "Crommelin was born 6 February 1865, so he was 54 in 1919.",
+  "fix": {
+   "text_replace": {
+    "old": "Greenwich, aged 53",
+    "new": "Greenwich, aged 54"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1919",
+  "where": "eye:crommelin",
+  "severity": "error",
+  "problem": "'secretary-level figure at the British Astronomical Association' is vague and inaccurate; Crommelin had been President of the BAA (1904–06).",
+  "fix": {
+   "text_replace": {
+    "old": "secretary-level figure at the British Astronomical Association and a tireless explainer",
+    "new": "a former President of the British Astronomical Association (1904–06) and a tireless explainer"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1919",
+  "where": "eye:lorentz",
+  "severity": "doubt",
+  "problem": "Lorentz was born 18 July 1853 and was 66 when he sent the September 1919 telegram.",
+  "fix": {
+   "text_replace": {
+    "old": "Dutch theoretical physicist, aged 65",
+    "new": "Dutch theoretical physicist, aged 66"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1919",
+  "where": "entry:32",
+  "severity": "error",
+  "problem": "The quoted words come from the General Conclusions of the 1920 Phil. Trans. report (verbatim confirmed), not from Dyson's spoken remarks at the meeting (reported as 'there can be no doubt that they confirm Einstein's prediction'). Also the 1920 text gives the astrographic mean as 0.86″ in one reduction while later summaries give 0.93″; 'about 0.93' should be hedged.",
+  "fix": {
+   "text_replace": {
+    "old": "and the astrographic plates, set aside, about 0.93. He concluded that the bending agreed with Einstein's full prediction.",
+    "new": "and the astrographic plates, given little weight, about 0.9 (0.86 or 0.93 by different reductions). He concluded that the bending agreed with Einstein's full prediction; the published report, read that day, says the results can leave little doubt of a deflection."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1919",
+  "where": "claim:10",
+  "severity": "doubt",
+  "problem": "Sobral astrographic value: the 1920 paper's Sobral section gives a mean of 0.86″; Crispino and Kennefick (2019) list 0.93″ ± 0.50 (or 1.52″ with an alternative reduction). Give the range rather than a single figure.",
+  "fix": {
+   "text_replace": {
+    "old": "Sobral astrographic 0.93″ (given little weight)",
+    "new": "Sobral astrographic about 0.9″ (0.86″ or 0.93″ by different reductions; given little weight)"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "eclipse-1919",
+  "where": "entry:41",
+  "severity": "style",
+  "problem": "Quote is verbatim from the General Conclusions but the sentence may continue past 'recur'; drop the added full stop.",
+  "fix": {
+   "quote": "The unusually favourable conditions of the 1919 eclipse will not recur"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1919",
+  "where": "entry:22",
+  "severity": "doubt",
+  "problem": "Development was complete by 5 June (1920 report), but the day of Davidson's diary remark is not given in Crispino and Kennefick (2019); 'verified' for the day overstates it.",
+  "fix": {
+   "confidence": "approx",
+   "date_display": "by Thursday 5 June 1919"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1919",
+  "where": "entry:45",
+  "severity": "style",
+  "problem": "Contested question presented with a verdict ('he showed'); it should be framed as Kennefick's position.",
+  "fix": {
+   "text_replace": {
+    "old": "From the archives he showed that Dyson, not Eddington, decided how to weigh the Sobral plates.",
+    "new": "Drawing on the archives, he argued that Dyson, not Eddington, decided how to weigh the Sobral plates."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1919",
+  "where": "eye:earman-glymour",
+  "severity": "style",
+  "problem": "Earman and Glymour re-examined the published reductions and records, not the glass plates (the plates were re-measured only by the RGO in 1979).",
+  "fix": {
+   "text_replace": {
+    "old": "went back to the published plates",
+    "new": "went back to the published reductions and records"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1919",
+  "where": "calendar_note:0",
+  "severity": "style",
+  "problem": "The 1920 report keeps astronomical (noon-based) GMT: Sobral second contact is given as May 28, 23h 58m 18s, i.e. about 11h 58m civil GMT on 29 May; Príncipe's 2h 13m is likewise 14h 13m civil GMT. The note should say so.",
+  "fix": {
+   "text_replace": {
+    "old": "2h 13m 5s to 2h 18m 7s Greenwich Mean Time (early afternoon on the island)",
+    "new": "2h 13m 5s to 2h 18m 7s Greenwich Mean Time in astronomers' noon-based reckoning, i.e. about 14h 13m civil GMT (early afternoon on the island); Sobral's second contact is given as May 28, 23h 58m 18s, i.e. about 11h 58m civil GMT on 29 May"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1919",
+  "where": "entry:17",
+  "severity": "doubt",
+  "problem": "The telegram wording 'Eclipse splendid' was not found in the 1920 report or in Crispino and Kennefick (2019); it rests on later accounts. Kept as approx; remove the quote if no pre-1929 printing is confirmed.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "eclipse-1919",
+  "where": "entry:20",
+  "severity": "doubt",
+  "problem": "'Through cloud. Hopeful.' is known through Douglas (1956) and later accounts; it is widely cited, but a pre-1929 printing was not confirmed. Acceptable only as a famous phrase.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "eclipse-1919",
+  "where": "entry:13",
+  "severity": "style",
+  "problem": "The 1920 report confirms 30 April arrival 'by train from Camocim'; adding the starting point helps.",
+  "fix": {
+   "text_replace": {
+    "old": "Crommelin and Davidson reached Sobral by train.",
+    "new": "Crommelin and Davidson reached Sobral by train from the port of Camocim."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1919",
+  "where": "entry:25",
+  "severity": "doubt",
+  "problem": "The 1920 report is internally inconsistent: one section gives comparison plates 10–18 July, another says nights between 14 and 18 July, and the plates measured were of 14, 15, 17 and 18 July.",
+  "fix": {
+   "text_replace": {
+    "old": "These comparison plates, taken between 10 and 18 July,",
+    "new": "These comparison plates, taken between 10 and 18 July (the report elsewhere says 14–18 July, the nights whose plates were measured),"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1919",
+  "where": "entry:30",
+  "severity": "style",
+  "problem": "Date and content are confirmed (Science Friday quotes the 27 September text); some accounts call it a letter, the Collected Papers a postcard. No change needed beyond noting the form is the editors'.",
+  "fix": {
+   "text_replace": {
+    "old": "Einstein wrote a postcard to his mother Pauline",
+    "new": "Einstein wrote a postcard (as the Collected Papers class it) to his mother Pauline"
+   }
+  },
+  "confidence": "approx"
+ }
+]

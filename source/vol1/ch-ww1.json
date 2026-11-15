@@ -1,0 +1,1289 @@
+{
+ "id": "ww1",
+ "title": "Swimming in the Afternoon",
+ "subtitle": "The First World War seen from Prague, Petrograd, Berlin, Flanders, Anzac, Jerusalem and the Somme, 1914–1918",
+ "span": "1914–1918",
+ "intro": [
+  "On 1 August 1914 a Tsar came home from evening prayers to learn that Germany had declared war on him; the next day a Prague insurance clerk wrote the same news in his diary and added that he went swimming. Those two entries, one dutiful and one notoriously flat, open a war that would eventually reach every continent and leave around ten million soldiers dead. This chapter does not try to tell that whole story. It sets a small number of real diaries and notebooks next to each other so that the reader can watch the same weeks arrive in very different rooms.",
+  "The eyes are deliberately mixed. There are front-line men from four armies: a Saxon schoolteacher-lieutenant and an English quartermaster-sergeant on Christmas Eve 1914; a socialist barrelmaker from the Aude standing in a flooded trench in December 1915; a 21-year-old Ottoman lieutenant on the ridge the Australians called Lone Pine; a Rajput aristocrat serving as an aide in Flanders; an English poet watching the first morning of the Somme through binoculars. There are also people far behind the guns: a Berlin artist waiting for letters from her eighteen-year-old son, an Oxford student who learned of her fiancé's death by telephone in a Brighton hotel, an Arab clerk in wartime Jerusalem, an Australian war correspondent, and a cosmopolitan German count who walked through Berlin while the monarchy collapsed.",
+  "The heart of the chapter is Gallipoli in the autumn of 1915. Lieutenant Mehmed Fasih's diary, kept in the trenches facing Anzac from mid-October, can be read day against day with the diary of the Australian correspondent Charles Bean and with ordinary Australian soldiers whose notebooks are now digitised by the State Library of New South Wales. The two sides are a few dozen metres apart, shelling, mining and freezing in the same November storm, and each describes the other almost entirely as noise: grenades, a machine gun on the slope, a mine going up on the right.",
+  "Other clusters are thinner, and the chapter says so. The Christmas truce of 1914 is seen from both sides of the wire near Ploegsteert and Messines. December 1915 has a remarkable run: a French–German fraternisation in the mud on the 10th, a German company knocking over a British Christmas tree on the 25th, and a young woman in Sussex writing about a death on the 23rd. The first day of the Somme and the Armistice rest mostly on single voices here (Sassoon on 1 July 1916; Kessler in Berlin in November 1918), because the verification budget for this chapter ran out before more could be pinned down safely.",
+  "Read side by side, the diaries show how little any one person knew. Kafka's war is a mood; the Tsar's is a sequence of meetings; Kollwitz's is a returned envelope; Fasih's is a list of the men he has lost; Kessler's revolution is quieter than the newspapers, and he notes that the trams and the water kept running."
+ ],
+ "calendar_note": "Russia still used the Julian (Old Style) calendar in 1914, thirteen days behind the Gregorian. Nicholas II dated the German declaration of war to Saturday 19 July 1914 (O.S.), which is 1 August 1914 (N.S.); date_iso gives the Gregorian date. The Ottoman state used the Rumi (Ottoman fiscal) calendar for official purposes; the dates for Mehmed Fasih given here are the Gregorian dates as printed in the English edition and quoted by the Gallipoli Association, not his original notation. All other diarists used the Gregorian calendar.",
+ "eyes": [
+  {
+   "id": "kafka",
+   "name": "Franz Kafka",
+   "life": "1883–1924",
+   "role": "31-year-old insurance official and writer in Prague; not called up in 1914",
+   "side": "Austria-Hungary (German-speaking Jewish Prague)",
+   "where": "Prague",
+   "vantage": 3,
+   "vantage_label": "home front, at a distance from the fighting",
+   "form": "diary",
+   "language": "German",
+   "authenticity": "Kafka's diaries survived through Max Brod, who published edited versions after Kafka's death; the full critical edition restores Brod's cuts. The 2 August 1914 entry is undisputed and much quoted.",
+   "bio": "Kafka spent the war years in Prague working for the Workers' Accident Insurance Institute. In the first fortnight of the war his diary records his own detachment and self-disgust, and on 10–11 August he began the novel that became The Trial. His angle is the inward one: a man who registers the war chiefly as a change in the atmosphere around him.",
+   "sources": [
+    {
+     "title": "Austria-Forum: Franz Kafka (quotes the 2 August 1914 entry)",
+     "url": "https://austria-forum.org/af/AustriaWiki/Franz_Kafka"
+    },
+    {
+     "title": "Precht, 'L'anno iniquo 1914' conference paper on Kafka's August 1914 diary",
+     "url": "https://italianisti.it/pubblicazioni/atti-di-congresso/lanno-iniquo-1914-guerra-e-letteratura-europea/3 Precht.pdf"
+    }
+   ]
+  },
+  {
+   "id": "nicholas-ii",
+   "name": "Nicholas II, Emperor of Russia",
+   "life": "1868–1918",
+   "role": "Tsar of Russia, aged 46",
+   "side": "Russian Empire",
+   "where": "Peterhof and St Petersburg",
+   "vantage": 0,
+   "vantage_label": "principal actor, at the summit of power",
+   "form": "diary",
+   "language": "Russian",
+   "authenticity": "Nicholas kept a daily diary for decades; the volumes survive in the Russian state archives and have been published. Entries are terse and routine by design.",
+   "bio": "Nicholas recorded his days as a list of reports, walks, services and meals, and he kept doing so on the day his empire went to war. That flatness is the point of his diary: it shows the decision-maker's war as a run of audiences and telegrams. Within three years he would abdicate, and within four he and his family would be shot.",
+   "sources": [
+    {
+     "title": "The Romanov Family: Declaration of War (translation of the 19 July 1914 O.S. entry)",
+     "url": "https://www.theromanovfamily.com/romanov-family-declaration-of-war/"
+    }
+   ]
+  },
+  {
+   "id": "kollwitz",
+   "name": "Käthe Kollwitz",
+   "life": "1867–1945",
+   "role": "47-year-old graphic artist and sculptor in Berlin; mother of Hans and Peter",
+   "side": "Germany (home front)",
+   "where": "Berlin",
+   "vantage": 3,
+   "vantage_label": "bereaved mother on the home front",
+   "form": "diary",
+   "language": "German",
+   "authenticity": "Her diaries were first published in selection by her son Hans in 1948 (English 'The Diary and Letters of Kaethe Kollwitz'); the complete 'Die Tagebücher' appeared in 1989. Exact dates of individual 1914 entries here are taken only where a source confirmed them.",
+   "bio": "Kollwitz's younger son Peter volunteered in 1914 and was killed near Diksmuide in Flanders in the night of 22–23 October 1914, aged eighteen. Her diary follows her through grief, through a long struggle to make a memorial to him (the kneeling parents finally installed in 1932 at what is now Vladslo cemetery), and towards pacifism. Hers is the war seen from the place the telegrams went.",
+   "sources": [
+    {
+     "title": "Deutsches Historisches Museum, LeMO biography of Käthe Kollwitz",
+     "url": "https://www.dhm.de/lemo/biografie/kaethe-kollwitz"
+    },
+    {
+     "title": "VRT News: Peter Kollwitz fell in 1914 aged 18",
+     "url": "https://www.vrt.be/vrtnws/de/2014/10/22/peter_kollwitz_1914mitnur18jahrengefallen-1-2126048/"
+    },
+    {
+     "title": "Diaries of Note: 'I do not want to die' (15 February 1915 entry)",
+     "url": "https://diariesofnote.com/2023/02/15/i-do-not-want-to-die/"
+    },
+    {
+     "title": "Kallir Research Institute: Kollwitz biography",
+     "url": "https://www.kallirresearch.org/artists/kathe-kollwitz/biography/"
+    }
+   ]
+  },
+  {
+   "id": "amar-singh",
+   "name": "Amar Singh of Kanota",
+   "life": "1878–1942",
+   "role": "Rajput nobleman and one of the first Indians to hold the King's commission; captain and aide in the Indian Corps in France, 1914–1915",
+   "side": "British Indian Army",
+   "where": "Indian Corps sector, Festubert–Givenchy, French Flanders",
+   "vantage": 1,
+   "vantage_label": "staff officer just behind the firing line",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "He kept a diary in English almost every day from 1898 to 1942, 89 volumes now held by the family at Kanota near Jaipur, with microfilm copies in New Delhi and Chicago. Part is published as 'Between Two Worlds' (DeWitt Ellinwood).",
+   "bio": "Amar Singh was an Indian aristocrat-officer in a British imperial army that rarely let Indians command British men. His diary records the brutal December 1914 fighting around Givenchy, and in 1915 he wrote essays in it defending Indian troops against unfair blame. His eye is that of a colonial insider-outsider, admiring British officers while noticing exactly how his own people were judged.",
+   "sources": [
+    {
+     "title": "Western Front Association: DeWitt Ellinwood, 'A Perspective on the Western Front by an Army Officer from India'",
+     "url": "https://www.westernfrontassociation.com/world-war-i-articles/a-perspective-on-the-western-front-by-an-army-officer-from-india-by-dr-dewitt-c-ellinwood/"
+    },
+    {
+     "title": "Salute: Gen. Amar Singh Kanota, the man who lived twice",
+     "url": "https://salute.co.in/gen-amar-singh-kanota-the-man-who-lived-twice/"
+    }
+   ]
+  },
+  {
+   "id": "zehmisch",
+   "name": "Kurt Zehmisch",
+   "life": "1890–?",
+   "role": "24-year-old Saxon student teacher, lieutenant in Royal Saxon Infantry Regiment 134",
+   "side": "Germany (Saxony)",
+   "where": "Trenches between Basseville (near Warneton) and St Yvon, facing the 1st Royal Warwickshires",
+   "vantage": 0,
+   "vantage_label": "in no man's land, a participant in the truce",
+   "form": "diary",
+   "language": "German (Gabelsberger shorthand)",
+   "authenticity": "Fifteen wartime diaries in old German shorthand were found in an attic near Leipzig in 1998–99 by his son Rudolf, who taught himself the shorthand to transcribe them. Extracts were published from 2000 (In Flanders Fields Museum magazine; later press).",
+   "bio": "Zehmisch was a schoolteacher in uniform who spoke some English. On Christmas Eve 1914 he ordered his men not to fire if it could be avoided, and his shorthand notes describe the candles, carols and handshakes that followed. His diary is one of the clearest German-side records of the truce.",
+   "sources": [
+    {
+     "title": "German1914.com: Sabine's battlefield guide — Kurt Zehmisch",
+     "url": "https://german1914.com/?p=6073"
+    },
+    {
+     "title": "History.com: soldier accounts of the Christmas truce",
+     "url": "https://www.history.com/articles/christmas-truce-1914-world-war-i-soldier-accounts"
+    }
+   ]
+  },
+  {
+   "id": "beck",
+   "name": "George Beck",
+   "life": "fl. 1914",
+   "role": "Quartermaster-sergeant (later regimental sergeant major), Royal Warwickshire Regiment",
+   "side": "Britain",
+   "where": "Royal Warwickshire Regiment trenches, Western Front (Flanders)",
+   "vantage": 1,
+   "vantage_label": "in the British trench line during the truce",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Original pocket diary held at the Dorset History Centre (ref. D/1820). The blog post does not name his battalion, so the link to the 1st Royal Warwicks opposite Zehmisch is plausible but unconfirmed.",
+   "bio": "Beck was a long-serving NCO whose job was supply rather than raiding. His diary notes that the Germans shouted across asking for a football match and that not a shot was fired on Christmas Day. He gives the British half of the truce in the plain prose of a quartermaster.",
+   "sources": [
+    {
+     "title": "Dorset History Centre blog: Christmas Truce recorded in WW1 diary",
+     "url": "https://news.dorsetcouncil.gov.uk/dorset-history-centre-blog/2016/12/04/christmas-truce-recorded-in-ww1-diary"
+    }
+   ]
+  },
+  {
+   "id": "barthas",
+   "name": "Louis Barthas",
+   "life": "1879–1952",
+   "role": "Corporal, French infantry (280th, later 296th and 248th Regiments); barrelmaker, socialist and pacifist from the Aude",
+   "side": "France",
+   "where": "Artois front near Neuville-Saint-Vaast and the Moulin Rouge trench at Thélus (December 1915)",
+   "vantage": 0,
+   "vantage_label": "common soldier in the front-line trench",
+   "form": "notebook",
+   "language": "French",
+   "authenticity": "Barthas kept notes and letters through the war and recopied and expanded them into nineteen school exercise books afterwards, so the text is partly a post-war fair copy. Discovered by Rémy Cazals and published in 1978 ('Les carnets de guerre de Louis Barthas, tonnelier'); English translation by Edward M. Strauss, Yale 2014.",
+   "bio": "Barthas served the entire war as an ordinary corporal, from Lorette to Verdun, the Somme and the Chemin des Dames. He was hostile to officers and to the war, and his notebooks are among the most valued French front-line testimonies. His account of soldiers of both sides climbing out of flooded trenches in December 1915 led, a century later, to France's first monument to fraternisation.",
+   "sources": [
+    {
+     "title": "Yale University Press: Poilu, the World War I Notebooks of Corporal Louis Barthas",
+     "url": "https://yalebooks.yale.edu/?p=54995"
+    },
+    {
+     "title": "Ministère des Armées, Chemins de mémoire: 'Dresser un monument des fraternisations'",
+     "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/premiere-guerre-mondiale/sorties-guerre/memoires-guerre-1"
+    },
+    {
+     "title": "Inrap press release: excavation of the Moulin Rouge fraternisation site",
+     "url": "https://www.inrap.fr/sites/inrap.fr/files/atoms/files/cp-fraternisation-moulin-rouge-eng.pdf"
+    },
+    {
+     "title": "Wikipedia: Louis Barthas",
+     "url": "https://en.wikipedia.org/wiki/Louis_Barthas"
+    }
+   ]
+  },
+  {
+   "id": "fasih",
+   "name": "Mehmed Fasih",
+   "life": "c. 1894–?",
+   "role": "21-year-old second lieutenant, 2nd Battalion, 47th Regiment, 16th Division, Ottoman Fifth Army",
+   "side": "Ottoman Empire",
+   "where": "Ottoman trenches opposite Anzac, around Kanlısırt (Lone Pine / 'Bloody Ridge')",
+   "vantage": 0,
+   "vantage_label": "front-line officer facing the ANZACs",
+   "form": "diary",
+   "language": "Ottoman Turkish",
+   "authenticity": "Fasih had fought at Anzac in May 1915, was wounded, and rejoined his unit on 16 October 1915; the surviving diary runs from then into December. Transliterated and published in Turkey in 1997; English edition 'Gallipoli 1915: Bloody Ridge (Lone Pine) Diary of Lt. Mehmed Fasih', ed. Murat Çulcu, trans. H. Basri Danişman (Denizler Kitabevi, 2001/2003). The provenance of the original notebook is not described in the sources seen.",
+   "bio": "Fasih was a young, educated officer who wrote almost every day about shelling, mining, rain, his men and his fellow officers. He is acutely aware that his division has been in the line for seven months without relief and that none of its original men remain. He gives the other side of the ANZAC story in the same weeks the Australians were writing theirs.",
+   "sources": [
+    {
+     "title": "Gallipoli Association, On This Day: 18 October 1915 (Fasih)",
+     "url": "https://www.gallipoli-association.org/on-this-day/october/18/"
+    },
+    {
+     "title": "Gallipoli Association, On This Day: 27 October 1915 (Fasih)",
+     "url": "https://www.gallipoli-association.org/on-this-day/october/27/"
+    },
+    {
+     "title": "Gallipoli Association, On This Day: 17 November 1915 (Fasih)",
+     "url": "https://www.gallipoli-association.org/on-this-day/november/17/"
+    },
+    {
+     "title": "University of Arizona CMES teaching documents: diaries and memoirs (Fasih, Turjman, Best)",
+     "url": "https://cmes.arizona.edu/sites/default/files/2023-07/4.%2520Documents%2520-%2520diaries%2520and%2520memoirs_0.pdf"
+    },
+    {
+     "title": "Internet Archive (borrow): Gallipoli 1915 Bloody Ridge (Lone Pine) Diary of Lt. Mehmed Fasih",
+     "url": "https://archive.org/details/gallipoli1915blo0000fasi/mode/2up"
+    }
+   ]
+  },
+  {
+   "id": "bean",
+   "name": "Charles E. W. Bean",
+   "life": "1879–1968",
+   "role": "Australia's official war correspondent with the AIF, aged 36",
+   "side": "Australia",
+   "where": "Anzac, Gallipoli (and Imbros/Mudros)",
+   "vantage": 1,
+   "vantage_label": "correspondent on the beach and in the trenches",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Bean's original pocket diaries are at the Australian War Memorial (AWM38 3DRL 606) and are digitised for transcription; selections were published by Kevin Fewster as 'Gallipoli Correspondent' (1983). In 1946 Bean added a note warning readers that the diaries record what he believed at the time, including rumours.",
+   "bio": "Bean landed with the Australians and stayed at Anzac almost to the end, later becoming the official historian and the founder of the Australian War Memorial. His diary mixes hard observation with gossip and comment on the high command. Set against Fasih it shows the same ridge from the other end of the rifle.",
+   "sources": [
+    {
+     "title": "AWM Transcribe: Bean diary AWM38 3DRL 606/19/1, October–November 1915",
+     "url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066806"
+    },
+    {
+     "title": "AWM Transcribe: Bean diary AWM38 3DRL 606/20/1, November 1915",
+     "url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066574"
+    },
+    {
+     "title": "AWM Transcribe: Bean diary AWM38 3DRL 606/21/1, November–December 1915",
+     "url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066586"
+    },
+    {
+     "title": "Gallipoli Association, On This Day: 13 November 1915 (Bean on Kitchener)",
+     "url": "https://www.gallipoli-association.org/on-this-day/november/13/"
+    }
+   ]
+  },
+  {
+   "id": "wright",
+   "name": "Walter V. Wright",
+   "life": "fl. 1915",
+   "role": "Australian soldier arriving at Anzac as a reinforcement in late October 1915 (unit not stated in the source)",
+   "side": "Australia",
+   "where": "Troopship, then Anzac",
+   "vantage": 1,
+   "vantage_label": "newly arrived private in the line",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Original diary (27 October 1915–11 February 1916) held by the State Library of New South Wales, digitised and transcribed by volunteers.",
+   "bio": "Wright's diary begins as he boards ship for Gallipoli and records the ordinary business of a late-arriving soldier: seasickness, digging dugouts for others, telephone duty and hunger. He is useful precisely because he is not famous; his first days at Anzac line up exactly with Fasih's opposite.",
+   "sources": [
+    {
+     "title": "State Library of NSW transcripts: Walter V. Wright diary, page 21",
+     "url": "https://transcripts.sl.nsw.gov.au/page/item-01-walter-v-wright-diary-27-october-1915-11-february-1916-page-21"
+    }
+   ]
+  },
+  {
+   "id": "bartlett",
+   "name": "Leonard V. Bartlett",
+   "life": "fl. 1915",
+   "role": "Australian soldier at Anzac (unit not stated in the source)",
+   "side": "Australia",
+   "where": "Anzac, Gallipoli",
+   "vantage": 1,
+   "vantage_label": "private in the line through the November storm",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Original diary (3 April–31 December 1915) held by the State Library of New South Wales, digitised and transcribed.",
+   "bio": "Bartlett's entries for late November 1915 are a soldier's-eye record of the great Gallipoli storm: mud, then snow, then a day spent in bed to keep warm. He was reading a popular French thriller in the trenches. His voice, grumbling about pay and rations, is the ordinary register beneath Bean's commentary.",
+   "sources": [
+    {
+     "title": "State Library of NSW transcripts: Leonard V. Bartlett diary, page 82",
+     "url": "https://transcripts.sl.nsw.gov.au/page/item-01-leonard-v-bartlett-diary-3-april-1915-31-december-1915-page-82"
+    }
+   ]
+  },
+  {
+   "id": "turjman",
+   "name": "Ihsan Turjman",
+   "life": "1893–1917",
+   "role": "Young Arab Ottoman soldier serving as a clerk in the army commissariat in Jerusalem",
+   "side": "Ottoman Empire (Arab Jerusalem)",
+   "where": "Jerusalem",
+   "vantage": 3,
+   "vantage_label": "imperial subject on the home front, doubting the empire",
+   "form": "diary",
+   "language": "Arabic",
+   "authenticity": "His diary (1915–1916) survives in Jerusalem and was edited by Salim Tamari ('Year of the Locust', 2011). Extracts used here come from the University of Arizona CMES document set.",
+   "bio": "Turjman was a conscript from a Jerusalem Muslim family who spent the war behind a desk, watching deserters hanged, locusts and typhus arrive, and Arab activists sentenced to death. His diary questions Ottoman promises to the Arabs at the very moment Fasih was defending the empire at Gallipoli. It is a rare view of the war from a provincial city of the empire, written by a man who did not want to fight for it.",
+   "sources": [
+    {
+     "title": "University of Arizona CMES teaching documents: diaries and memoirs (Turjman extracts)",
+     "url": "https://cmes.arizona.edu/sites/default/files/2023-07/4.%2520Documents%2520-%2520diaries%2520and%2520memoirs_0.pdf"
+    }
+   ]
+  },
+  {
+   "id": "brittain",
+   "name": "Vera Brittain",
+   "life": "1893–1970",
+   "role": "22-year-old Oxford student turned VAD nurse; engaged to Roland Leighton",
+   "side": "Britain (home front)",
+   "where": "Brighton and Hassocks, Sussex, on Christmas leave",
+   "vantage": 3,
+   "vantage_label": "fiancée at home, receiving the news",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Her wartime diary is held at McMaster University with related material in the Oxford First World War Poetry Digital Archive; it was published as 'Chronicle of Youth' (1981). Her memoir 'Testament of Youth' (1933) retells these days with hindsight; the telephone call of 26 December is known from the memoir.",
+   "bio": "Brittain left Oxford to nurse and expected to marry Roland Leighton when he came home on leave at Christmas 1915. He was shot on the night of 22–23 December and died on the 23rd. Her diary pages from the following week, filled with copied letters and verses, show grief arriving in real time; her later memoir made her one of the defining voices of the war generation.",
+   "sources": [
+    {
+     "title": "Oxford WW1 Lit: War Diary, Monday December 27th 1915",
+     "url": "https://oxford.omeka.net/s/ww1lit/item/55953"
+    },
+    {
+     "title": "Oxford WW1 Lit: War Diary, New Year's Eve 1915",
+     "url": "https://oxford.omeka.net/s/ww1lit/item/55954"
+    },
+    {
+     "title": "Western Front Association: 23 December, Lieut. Roland Aubrey Leighton",
+     "url": "https://www.westernfrontassociation.com/remembered-on-this-day/december/23-december-lieut-roland-aubrey-leighton/"
+    }
+   ]
+  },
+  {
+   "id": "junger",
+   "name": "Ernst Jünger",
+   "life": "1895–1998",
+   "role": "20-year-old ensign, later lieutenant, Fusilier Regiment 73 (Hanoverian)",
+   "side": "Germany",
+   "where": "Monchy-au-Bois sector near Arras, facing the British (1915–1916)",
+   "vantage": 1,
+   "vantage_label": "front-line junior officer",
+   "form": "diary",
+   "language": "German",
+   "authenticity": "Jünger kept field notebooks throughout his 44 months at the front; they were published in full as 'Kriegstagebuch 1914–1918' only in 2010. 'In Stahlgewittern' (Storm of Steel, 1920) was built from them and repeatedly revised; entries here drawn from Storm of Steel are flagged as memoir.",
+   "bio": "Jünger was wounded many times and became famous for an unsentimental, almost exalted account of combat. The raw diary is more open about disgust and absurdity than the polished book. He stands on the German side of the same British sector where Christmas trees and rifle grenades crossed the wire in 1915.",
+   "sources": [
+    {
+     "title": "Internet Archive: Ernst Jünger, The Storm of Steel (English translation, PDF)",
+     "url": "https://dn790003.ca.archive.org/0/items/ErnstJngerTheStormOfSteel/Ernst_J%C3%BCnger_The_Storm_of_Steel.pdf"
+    },
+    {
+     "title": "ernst-juenger.org: Ernst Jünger and the living memory of World War I",
+     "url": "https://ernst-juenger.org/241/ernst-junger-and-living-memory-of-world/"
+    }
+   ]
+  },
+  {
+   "id": "sassoon",
+   "name": "Siegfried Sassoon",
+   "life": "1886–1967",
+   "role": "29-year-old second lieutenant, 1st Battalion Royal Welch Fusiliers; poet",
+   "side": "Britain",
+   "where": "Crawley Ridge near Fricourt, about 500 yards behind the British front line",
+   "vantage": 1,
+   "vantage_label": "officer in reserve watching the attack",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Sassoon's war journals are at Cambridge University Library (MS Add. 9852) and fully digitised on the Cambridge Digital Library; the 1 July 1916 entry is on ff. 10r–13v of the journal for 26 June–12 August 1916. Published as 'Diaries 1915–1918' (ed. Rupert Hart-Davis, 1983).",
+   "bio": "Sassoon had won the Military Cross weeks earlier and was held back in reserve on the first day of the Somme. His journal entries that morning are time-stamped like a log as he watches battalions advance and machine guns open up. A year later he would publicly protest against the war.",
+   "sources": [
+    {
+     "title": "Cambridge University Library Special Collections blog: live-tweeting the first day of the Somme from Sassoon's diary",
+     "url": "https://specialcollections-blog.lib.cam.ac.uk/?p=12810"
+    },
+    {
+     "title": "Cambridge ArchiveSearch: Sassoon Journal, 26 June 1916–12 Aug. 1916",
+     "url": "https://archivesearch.lib.cam.ac.uk/repositories/2/archival_objects/576617"
+    },
+    {
+     "title": "Cambridge Digital Library: Sassoon collection",
+     "url": "http://cudl.lib.cam.ac.uk/collections/sassoon"
+    }
+   ]
+  },
+  {
+   "id": "kessler",
+   "name": "Harry Graf Kessler",
+   "life": "1868–1937",
+   "role": "50-year-old diplomat, art patron and writer; in November 1918 escorting Józef Piłsudski back to Warsaw, then in Berlin",
+   "side": "Germany",
+   "where": "Magdeburg, then Berlin",
+   "vantage": 1,
+   "vantage_label": "eyewitness walking the streets of the revolution",
+   "form": "diary",
+   "language": "German",
+   "authenticity": "Kessler kept a diary for more than fifty years; the 1918–1937 volumes appeared in 1961 and the complete Cotta edition later. Text of the November 1918 entries is on Projekt Gutenberg-DE.",
+   "bio": "Kessler moved between generals, socialists, artists and diplomats, and he wrote down what he saw each night. In November 1918 he walked from the Potsdam station to the Reichstag and the Palace while the empire fell. His diary turns the Armistice, which most of this chapter's eyes heard only as news, into a scene in the streets of the losing capital.",
+   "sources": [
+    {
+     "title": "Projekt Gutenberg-DE: Harry Graf Kessler, Tagebücher 1918–1937, chapter 1918",
+     "url": "https://www.projekt-gutenberg.org/kessler/tagebuch/chap003.html"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1914-08-01",
+   "date_display": "August 1914",
+   "precision": "month",
+   "eye": "barthas",
+   "place": "Narbonne, Aude",
+   "headline": "A barrelmaker is mobilised with the 280th",
+   "digest": "Barthas, a 35-year-old reservist and socialist, is called up with the 280th Infantry Regiment from Narbonne. His notebooks begin with a man who disliked the war from the start and expected little from his officers.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia 'Louis Barthas' (mobilised with the 280th RI from Narbonne, August 1914)."
+  },
+  {
+   "date_iso": "1914-08-01",
+   "date_display": "Saturday 19 July 1914 (O.S.) = 1 August 1914 (N.S.)",
+   "precision": "day",
+   "eye": "nicholas-ii",
+   "place": "Peterhof",
+   "headline": "The Tsar returns from evening prayers to find himself at war",
+   "digest": "Nicholas logs the usual morning reports, then tells Grand Duke Nikolai Nikolaevich he will be supreme commander until the Tsar himself joins the army. He rides out with the Empress, walks with the children and goes to the evening service at about half past six. Only on returning does he learn that Germany has declared war. The evening is spent with the British ambassador drafting a reply to a telegram from King George V, and tea is taken after midnight.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary entry for 19 July 1914 O.S., translated on theromanovfamily.com ('Declaration of War')."
+  },
+  {
+   "date_iso": "1914-08-02",
+   "date_display": "Sunday 2 August 1914",
+   "precision": "day",
+   "eye": "kafka",
+   "place": "Prague",
+   "headline": "War with Russia noted in one line, then a swim",
+   "digest": "Kafka records that Germany has declared war on Russia and, without a pause, that he went to the swimming school in the afternoon. Nothing else in the entry reacts to the news. The juxtaposition has become the most quoted sentence about how private life simply carried on as Europe mobilised.",
+   "quote": "Germany has declared war on Russia. — Swimming in the afternoon.",
+   "confidence": "verified",
+   "source_note": "Diary, 2 August 1914; quoted on Austria-Forum (Franz Kafka) and in Precht's conference paper."
+  },
+  {
+   "date_iso": "1914-08-05",
+   "date_display": "Wednesday 5 August 1914",
+   "precision": "day",
+   "eye": "kafka",
+   "place": "Prague",
+   "headline": "Only meanness and envy toward the men who fight",
+   "digest": "Three days later Kafka turns on himself. Watching the mobilisation, he finds in himself nothing but pettiness, indecision, envy and hatred toward the men going off to fight, and he catches himself wishing them harm. It is an unusually honest record of a non-combatant's resentment.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 5 August 1914, as summarised in Precht, 'L'anno iniquo 1914' paper."
+  },
+  {
+   "date_iso": "1914-08-06",
+   "date_display": "Thursday 6 August 1914",
+   "precision": "day",
+   "eye": "kafka",
+   "place": "Prague",
+   "headline": "Everyone else now belongs; he belongs nowhere",
+   "digest": "Kafka notes that Prague's Jewish shopkeepers, who used to feel Czech one day and German the next, can now feel wholly part of the empire through the war. He contrasts this with himself: thirty-one, broken into pieces, full of lies, laziness and weakness, and unable to feel part of anything at all.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 6 August 1914, as summarised in Precht paper."
+  },
+  {
+   "date_iso": "1914-08-10",
+   "date_display": "10–11 August 1914",
+   "precision": "range",
+   "eye": "kafka",
+   "place": "Prague",
+   "headline": "He starts writing The Trial",
+   "digest": "In the second week of the war Kafka writes the opening sentence of the novel that becomes The Trial, about a man who is arrested one morning without having done anything wrong. The next day he revises the key verb, moving it away from a word closer to 'taken prisoner'. The war is not in the book, but the book is born in its first fortnight.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Precht paper on Kafka's diary and manuscripts, August 1914 (dates per that paper)."
+  },
+  {
+   "date_iso": "1914-08-17",
+   "date_display": "Monday 17 August 1914",
+   "precision": "day",
+   "eye": "amar-singh",
+   "place": "India",
+   "headline": "Orders arrive: report for active service",
+   "digest": "Amar Singh records the order to report for active service. Within weeks he will sail with the Indian Corps for France, among the first non-white troops to fight on the Western Front.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 17 August 1914, per Salute magazine article on Amar Singh Kanota."
+  },
+  {
+   "date_iso": "1914-10-19",
+   "date_display": "Monday 19 October 1914",
+   "precision": "day",
+   "eye": "kollwitz",
+   "place": "Berlin",
+   "headline": "A mother's letter goes out to Flanders",
+   "digest": "Kollwitz posts a letter to Peter, whose volunteer regiment left for the front a week earlier. It reaches Flanders after he is dead and comes back to Berlin a few days later stamped returned, fallen. This is a dated letter rather than a diary entry.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "VRT News (22 Oct 2014): letter of 19 October 1914 returned marked 'Zurück – gefallen'."
+  },
+  {
+   "date_iso": "1914-10-22",
+   "date_display": "Night of 22–23 October 1914",
+   "precision": "range",
+   "eye": "kollwitz",
+   "place": "Berlin (Peter near Esen, by Diksmuide)",
+   "headline": "Peter Kollwitz, eighteen, killed near Diksmuide",
+   "digest": "Peter, serving with Infantry Regiment 207 (a volunteer unit), is killed by a shell near Esen in West Flanders in his first days in the line and is buried the next day. His mother does not yet know. This is the event at the centre of her wartime diary, not an entry written that night.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DHM LeMO biography; VRT News 2014. Event marker, not a diary entry."
+  },
+  {
+   "date_iso": "1914-10-30",
+   "date_display": "Late October 1914",
+   "precision": "range",
+   "eye": "kollwitz",
+   "place": "Berlin",
+   "headline": "The news reaches the house in Berlin",
+   "digest": "At the end of October the family learn that Peter has been killed. The diary from this point is dominated by his absence: a hope she had written down only days before, that her dread was easing, is turned inside out. The exact day of the notification is not confirmed in the sources checked here.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Liberties Journal ('The Besieged') and VRT News describe the returned letter 'at the end of the month'; exact diary date not verified."
+  },
+  {
+   "date_iso": "1914-12-17",
+   "date_display": "Thursday 17 December 1914",
+   "precision": "day",
+   "eye": "amar-singh",
+   "place": "Givenchy sector, French Flanders",
+   "headline": "Through the communication trench to the firing line",
+   "digest": "Amar Singh goes up a communication trench to the front held by Gurkhas and the Highland Light Infantry. Bullets pass close overhead and in places the Germans are only twelve to fifteen yards off. He admires the British officers for staying cheerful in mud and cold, and records that he is glad he went.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 17 December 1914, quoted in Ellinwood, Western Front Association."
+  },
+  {
+   "date_iso": "1914-12-20",
+   "date_display": "Sunday 20 December 1914",
+   "precision": "day",
+   "eye": "amar-singh",
+   "place": "Givenchy sector",
+   "headline": "German attack drives the brigade back",
+   "digest": "A German attack forces his brigade back with heavy losses. Horses are saddled and kits packed for a retreat while Amar Singh runs messages for General Macbean. A counter-attack fails because there are not enough men to make it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 20 December 1914, per Ellinwood (WFA)."
+  },
+  {
+   "date_iso": "1914-12-21",
+   "date_display": "Monday 21 December 1914",
+   "precision": "day",
+   "eye": "amar-singh",
+   "place": "Givenchy sector",
+   "headline": "Another failed attack; the regiments badly shaken",
+   "digest": "A morning attack at about nine o'clock fails with many men lost. He notes that the brigade's regiments are badly shaken and that the losses among officers are heavy. Four days later, a few miles north, other men in the same line would be shaking hands with the enemy.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 21 December 1914, per Ellinwood (WFA)."
+  },
+  {
+   "date_iso": "1914-12-24",
+   "date_display": "Thursday 24 December 1914",
+   "precision": "day",
+   "eye": "beck",
+   "place": "Royal Warwickshire trenches, Flanders",
+   "headline": "The Germans shout across asking for a football match",
+   "digest": "Beck writes that the Germans called over asking the British to play them at football and promising not to fire if the British did the same. In the small hours a German band played along their trench, and the music made the men think of home.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Beck diary, Dorset History Centre D/1820, as described on the DHC blog."
+  },
+  {
+   "date_iso": "1914-12-24",
+   "date_display": "Thursday 24 December 1914",
+   "precision": "day",
+   "eye": "zehmisch",
+   "place": "Between Basseville and St Yvon, near Warneton",
+   "headline": "Orders not to fire; carols in a ruined sugar factory",
+   "digest": "Zehmisch orders that, if it can be avoided, no shot is to be fired from his side on Christmas Eve or Christmas Day. His men set out a table of nuts, apples and gingerbread and sing a hymn in the ruins of a sugar factory. A soldier named Möckel, who had lived in England, starts calling across to the British in English.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Zehmisch diary as reported on German1914.com (Kurt Zehmisch)."
+  },
+  {
+   "date_iso": "1914-12-25",
+   "date_display": "Friday 25 December 1914",
+   "precision": "day",
+   "eye": "beck",
+   "place": "Royal Warwickshire trenches, Flanders",
+   "headline": "Not one shot fired; bully beef for souvenirs",
+   "digest": "Beck records a day without a single shot. English and German soldiers mingle and swap souvenirs, and the Germans are keen to trade almost anything for British bully beef and jam. The quartermaster notes, as a quartermaster would, what changed hands.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Beck diary, 25 December 1914, Dorset History Centre blog."
+  },
+  {
+   "date_iso": "1914-12-25",
+   "date_display": "Friday 25 December 1914",
+   "precision": "day",
+   "eye": "zehmisch",
+   "place": "Near Warneton",
+   "headline": "Handshakes in no man's land; candles along the parapet",
+   "digest": "On Christmas Day soldiers from both sides climb out and meet between the lines to shake hands and exchange greetings. Zehmisch has more candles and small trees set along the German trench, and the British answer with whistles and applause. He stays awake through the night, half amazed at how strange and wonderful it is.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Zehmisch diary per German1914.com and History.com."
+  },
+  {
+   "date_iso": "1915-02-15",
+   "date_display": "Monday 15 February 1915",
+   "precision": "day",
+   "eye": "kollwitz",
+   "place": "Berlin",
+   "headline": "Grief turned into an obligation to finish her work",
+   "digest": "Four months after Peter's death Kollwitz looks through her old drawings and sees that she has, after all, moved forward. With her other son Hans and her husband now both away in the war effort, she resolves to finish her work and use her talent fully, calling it a duty she owes and part of something larger than herself.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 15 February 1915, as presented on Diaries of Note ('I do not want to die')."
+  },
+  {
+   "date_iso": "1915-03-30",
+   "date_display": "Tuesday 30 March 1915",
+   "precision": "day",
+   "eye": "turjman",
+   "place": "Jerusalem",
+   "headline": "Two deserters hanged at Jaffa Gate",
+   "digest": "Turjman records that two deserters have been hanged at Jaffa Gate. Soldiers are badly paid, and many have received nothing since November. Two days earlier he and his friends had been openly discussing whether the empire would break up and Palestine become independent or pass to Egypt.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Turjman diary, 28 and 30 March 1915, University of Arizona CMES extracts."
+  },
+  {
+   "date_iso": "1915-04-08",
+   "date_display": "Thursday 8 April 1915",
+   "precision": "day",
+   "eye": "amar-singh",
+   "place": "France, Indian Corps area",
+   "headline": "Notes on Neuve Chapelle: perhaps the beginning of the end",
+   "digest": "Amar Singh writes up the March battle of Neuve Chapelle as an essay in his diary: the bombardment, the Garhwali attack, the failure to take the wood. A week earlier he had argued that Indian troops were blamed when they failed while British failures went unremarked. He wonders whether the battle marks the beginning of the end.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 31 March and 8 April 1915, per Ellinwood (WFA) and Salute."
+  },
+  {
+   "date_iso": "1915-04-25",
+   "date_display": "Sunday 25 April 1915",
+   "precision": "day",
+   "eye": "turjman",
+   "place": "Jerusalem",
+   "headline": "A lavish dinner for Cemal Pasha",
+   "digest": "On the day the Allies land at Gallipoli, Turjman notes an expensive dinner with alcohol and a military band attended by the governor-commander Cemal Pasha. He openly doubts Cemal's claims to Islamic piety. Nothing in the extract shows the landings had yet reached Jerusalem's gossip.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Turjman diary, 25 April 1915, CMES extracts."
+  },
+  {
+   "date_iso": "1915-09-01",
+   "date_display": "Wednesday 1 September 1915",
+   "precision": "day",
+   "eye": "turjman",
+   "place": "Jerusalem",
+   "headline": "Arab activists condemned; loyalty becomes conditional",
+   "digest": "Turjman hears that Syrian and Palestinian activists have been sentenced to death or life imprisonment by a military court, and he is badly shaken. Ten days later, when Cemal orders that local men must not serve in their home regions, he writes that his loyalty to the empire is conditional.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Turjman diary, 1 and 10 September 1915, CMES extracts."
+  },
+  {
+   "date_iso": "1915-10-18",
+   "date_display": "Monday 18 October 1915",
+   "precision": "day",
+   "eye": "fasih",
+   "place": "Ottoman trenches opposite Anzac",
+   "headline": "Back in the line: grenades, a mine, a destroyer",
+   "digest": "Two days after rejoining his battalion, Fasih takes over trenches on the left at seven in the morning and finds them fair but in need of work. A machine gun on Bayonet Slope threatens his flank, grenades start arriving at noon, and one wounds five privates after sunset. A large mine goes up on the right and an enemy destroyer shells the area behind them; at midnight he is relieved to report no deaths.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Fasih diary pp. 17–18, quoted by the Gallipoli Association, On This Day 18 October."
+  },
+  {
+   "date_iso": "1915-10-24",
+   "date_display": "Sunday 24 October 1915",
+   "precision": "day",
+   "eye": "bean",
+   "place": "Anzac",
+   "headline": "Rain stops the firing",
+   "digest": "Bean opens the day with the weather: a wet morning, and he notices how rain silences the guns on both sides. Small observations like this are the texture of his diary between the big events.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bean diary AWM38 3DRL 606/19/1, transcription page for 24 October 1915 (AWM Transcribe)."
+  },
+  {
+   "date_iso": "1915-10-25",
+   "date_display": "Monday 25 October 1915",
+   "precision": "day",
+   "eye": "bean",
+   "place": "Anzac",
+   "headline": "Six months since the landing",
+   "digest": "Bean marks the anniversary: six months since the landing at Anzac and a year and a few days since the convoy left Melbourne. The Australians are still on the same small strip of ground.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bean diary AWM38 3DRL 606/19/1, entry for 25 October 1915."
+  },
+  {
+   "date_iso": "1915-10-27",
+   "date_display": "Wednesday 27 October 1915",
+   "precision": "day",
+   "eye": "fasih",
+   "place": "Ottoman trenches opposite Anzac",
+   "headline": "A shell through the loophole kills a machine-gun crew",
+   "digest": "A shell enters a machine-gun post through its firing slit and kills six men, including Mahmud Can, who had just come to relieve the crew. Fasih inspects the wreckage and finds the bodies unrecognisable. Afterwards he smokes and drinks coffee as the shelling starts again, and writes that he cannot get the sight out of his eyes.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Fasih diary, Gallipoli Association On This Day 27 October; CMES extract."
+  },
+  {
+   "date_iso": "1915-10-27",
+   "date_display": "Wednesday 27 October 1915",
+   "precision": "day",
+   "eye": "wright",
+   "place": "Troopship bound for Anzac",
+   "headline": "Packed in like sardines on the way to the front",
+   "digest": "On the same day Wright boards a ship for Gallipoli and compares the men's packing to sardines in a tin. Rough seas keep the ship from landing for two more days, and he jokes about laying bets on Anzac.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wright diary page 21, State Library of NSW transcripts."
+  },
+  {
+   "date_iso": "1915-10-28",
+   "date_display": "Thursday 28 October 1915",
+   "precision": "day",
+   "eye": "bean",
+   "place": "Anzac, North Beach",
+   "headline": "A steamer scuttled as a breakwater",
+   "digest": "Bean watches the steamer Milo sunk off North Beach as a breakwater and judges it a success, though it does not close the gap. He half-jokes that the comfortable headquarters ship Aragon should be sunk too, imagining how the men ashore would enjoy watching its staff officers run from Turkish shellfire.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Fewster, Gallipoli Correspondent p. 220, via Gallipoli Association On This Day 28 October."
+  },
+  {
+   "date_iso": "1915-10-30",
+   "date_display": "Saturday 30 October 1915",
+   "precision": "day",
+   "eye": "wright",
+   "place": "Anzac",
+   "headline": "Ashore at Anzac and lost on the hill",
+   "digest": "Wright finally lands and climbs the hill behind the beach with his major, losing him on the way under the weight of their packs. Over the next days he digs dugouts for other men, grumbles about the army's organisation, is badly sick, and is put on telephone duty in the trenches, hungry on short rations.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wright diary page 21 (30 October–6 November 1915), SLNSW."
+  },
+  {
+   "date_iso": "1915-11-09",
+   "date_display": "8–9 November 1915",
+   "precision": "range",
+   "eye": "bean",
+   "place": "Anzac / Imbros",
+   "headline": "Rumours that Kitchener is coming",
+   "digest": "Bean notes the War Office announcement that Lord Kitchener is visiting the eastern theatre and connects it with the commander-in-chief Monro being in Egypt. By the 9th Kitchener is at Mudros, and Bean is recording London politics and doubts over whether Gallipoli will be held at all.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bean diary AWM38 3DRL 606/20/1, entries for 8 and 9 November 1915 (AWM Transcribe)."
+  },
+  {
+   "date_iso": "1915-11-13",
+   "date_display": "Saturday 13 November 1915",
+   "precision": "day",
+   "eye": "bean",
+   "place": "Anzac",
+   "headline": "Kitchener tours Anzac for two and a half hours",
+   "digest": "Kitchener comes ashore to judge the evacuation question for himself. The men give him an unplanned welcome and he passes on the King's praise. Bean follows him round Walker's Ridge, the front trenches and Rest Gully and admires his lack of show; within a few hours he is gone, having seen nearly every senior officer.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Fewster, Gallipoli Correspondent pp. 225–229, via Gallipoli Association On This Day 13 November."
+  },
+  {
+   "date_iso": "1915-11-17",
+   "date_display": "Wednesday 17 November 1915",
+   "precision": "day",
+   "eye": "fasih",
+   "place": "Ottoman trenches opposite Anzac",
+   "headline": "Twenty-one, and already grey",
+   "digest": "Fasih writes that he is twenty-one and his hair and beard have gone grey, and that being an Ottoman officer seems to mean nothing but putting up with bombs. A fellow officer's endless talk of promotion and war-weariness grates on him. Rain eases, fog fills the valley, a flooded dugout drives his friend out, and in the evening he hears rifle and machine-gun fire.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Fasih diary p. 96, Gallipoli Association On This Day 17 November."
+  },
+  {
+   "date_iso": "1915-11-22",
+   "date_display": "Monday 22 November 1915",
+   "precision": "day",
+   "eye": "fasih",
+   "place": "Ottoman trenches opposite Anzac",
+   "headline": "Seven months in the line and no originals left",
+   "digest": "Fasih daydreams about having a family and wonders whether he will live to have children, then watches a sentry suffering in the cold. He calculates that his division has been at Gallipoli seven months without relief and has absorbed seven drafts of replacements. Companies of about two hundred are down to fifty or fewer, and none of the original men remain.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Fasih diary, 22 November 1915, CMES extract."
+  },
+  {
+   "date_iso": "1915-11-27",
+   "date_display": "Saturday 27 November 1915",
+   "precision": "day",
+   "eye": "bartlett",
+   "place": "Anzac",
+   "headline": "Shave, wash, mud, and The Phantom of the Opera",
+   "digest": "Bartlett manages a shave and a decent wash, but everything is damp and the mud is everywhere. He is reading Gaston Leroux's Phantom of the Opera and enjoying it. Still no extra pay; in the evening he plays cards and breaks even.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bartlett diary page 82, State Library of NSW transcripts."
+  },
+  {
+   "date_iso": "1915-11-27",
+   "date_display": "Saturday 27 November 1915",
+   "precision": "day",
+   "eye": "fasih",
+   "place": "Ottoman trenches opposite Anzac",
+   "headline": "Men who will not leave the trench",
+   "digest": "At half past ten Fasih records that a fellow officer found his men unwilling to go forward: some wept, and those who did advance were badly shot up. He concludes the unit is demoralised. That night the great storm of late November breaks over the peninsula.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Fasih diary 27 November 1915 at 10:30, quoted in Mental Floss 'WWI Centennial: Huge Storm Lashes Gallipoli'."
+  },
+  {
+   "date_iso": "1915-11-28",
+   "date_display": "Sunday 28 November 1915",
+   "precision": "day",
+   "eye": "bartlett",
+   "place": "Anzac",
+   "headline": "Snow at Anzac, where it was ninety-five in the shade",
+   "digest": "Snow falls, which Bartlett is told has not happened there for five years. He sets it against the summer, when Anzac reached ninety-five degrees in the shade, and curses the weather on duty. Word comes that the men are to be issued capes and boots.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bartlett diary page 82, SLNSW; NZHistory timeline gives the major snowstorm at Anzac as 28 November."
+  },
+  {
+   "date_iso": "1915-11-29",
+   "date_display": "Monday 29 November 1915",
+   "precision": "day",
+   "eye": "bartlett",
+   "place": "Anzac",
+   "headline": "Freezing; a day in bed; fed up",
+   "digest": "It is freezing and Bartlett stays in bed nearly all day. After tea there is a stand-to. He posts a letter and complains about short rations, writing that he is fed up with the conditions.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bartlett diary page 82, SLNSW."
+  },
+  {
+   "date_iso": "1915-12-10",
+   "date_display": "Friday 10 December 1915",
+   "precision": "day",
+   "eye": "barthas",
+   "place": "Moulin Rouge trench, Thélus / Neuville-Saint-Vaast, Artois",
+   "headline": "Flooded out, French and Germans climb up and meet",
+   "digest": "After days of rain the trenches have filled and the dugouts collapsed, so Barthas and his comrades have to climb out into the open. The Germans opposite do the same. After a wary pause the two sides move closer, greet each other, and share tobacco and drink, until senior officers end it with threats of artillery fire. Barthas writes that the men looked at each other and saw they were all alike, and wishes for a monument to the moment one day.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barthas notebooks; date and details per Ministère des Armées 'Chemins de mémoire' and Inrap press release on the Moulin Rouge site."
+  },
+  {
+   "date_iso": "1915-12-13",
+   "date_display": "Monday 13 December 1915",
+   "precision": "day",
+   "eye": "fasih",
+   "place": "Ottoman lines opposite Anzac",
+   "headline": "Officers who will not cooperate; songs of dead men",
+   "digest": "Fasih visits a friend who has asked for a transfer to escape his regimental commander, and reflects on the poor cooperation among officers, blaming both the arrogance of the modern-trained and the contempt of the old. In the evening he eats and smokes with a comrade while the men sing mournful folk songs, and he notes that many of the singers are now dead. A week later the ANZACs are gone.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Fasih diary, 13 December 1915, CMES extract; evacuation date from NZHistory timeline (completed by daylight 20 December)."
+  },
+  {
+   "date_iso": "1915-12-23",
+   "date_display": "Thursday 23 December 1915",
+   "precision": "day",
+   "eye": "brittain",
+   "place": "Brighton (Roland at Louvencourt)",
+   "headline": "Roland Leighton dies of wounds the day before his leave",
+   "digest": "Roland is shot in the stomach around midnight on 22–23 December while his platoon is repairing wire, and dies the next evening at Louvencourt. Vera, waiting in Brighton for him to come home on Christmas leave, does not know. This is an event marker for her diary, not an entry written that day.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Western Front Association, 'Remembered on this day: 23 December, Lieut. Roland Aubrey Leighton'."
+  },
+  {
+   "date_iso": "1915-12-24",
+   "date_display": "24–25 December 1915",
+   "precision": "range",
+   "eye": "junger",
+   "place": "Monchy-au-Bois sector, near Arras",
+   "headline": "Carols drowned by machine guns; the British tree knocked down",
+   "digest": "Jünger's company spends Christmas Eve in the line, singing carols that the enemy machine guns drown out. On Christmas Day a man in his platoon is killed by a shot from the flank. When the British raise a Christmas tree on their parapet, his men shoot it over, and the British reply with rifle grenades. A year after the truce, Christmas on this stretch of front is just another day of killing.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Storm of Steel (English translation, Internet Archive PDF), Monchy chapter; memoir text based on the diary, so details may be revised."
+  },
+  {
+   "date_iso": "1915-12-26",
+   "date_display": "Sunday 26 December 1915",
+   "precision": "day",
+   "eye": "brittain",
+   "place": "Grand Hotel, Brighton",
+   "headline": "Called to the hotel telephone on Boxing Day",
+   "digest": "On Boxing Day Vera is called to the telephone at the Grand Hotel, expecting to hear that Roland has arrived. Instead it is his sister Clare, telling her he has died of wounds. This account comes from her later memoir, not from a diary entry of that day.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Western Front Association page on Roland Leighton (citing Testament of Youth). Memoir account."
+  },
+  {
+   "date_iso": "1915-12-27",
+   "date_display": "Monday 27 December 1915",
+   "precision": "day",
+   "eye": "brittain",
+   "place": "Brighton",
+   "headline": "Copying out the letter about how he died",
+   "digest": "Her diary page for 27 December copies out a letter from Father Purdie to Roland's mother describing how he died, together with verses about death and remembrance. Because the copied letter is recorded as received on 2 January 1916, the page was evidently filled in over several days under this date: grief written up, not written in a single sitting.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Oxford WW1 Lit item 55953, 'War Diary: Monday December 27th 1915'."
+  },
+  {
+   "date_iso": "1915-12-31",
+   "date_display": "Friday 31 December 1915",
+   "precision": "day",
+   "eye": "brittain",
+   "place": "Hassocks, Sussex",
+   "headline": "New Year's Eve without him",
+   "digest": "On the last night of the year Vera writes two pages on Roland's death from Hassocks, near Brighton. The year she had expected to end with an engagement leave ends with her trying to put a death into words.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Oxford WW1 Lit item 55954, 'War Diary: New Year's Eve 1915'."
+  },
+  {
+   "date_iso": "1916-01-01",
+   "date_display": "1916",
+   "precision": "year",
+   "eye": "kollwitz",
+   "place": "Berlin",
+   "headline": "The abyss has not closed",
+   "digest": "Sometime in 1916 Kollwitz writes that the abyss which opened in 1914 has not closed: it has swallowed millions and still gapes. The diary has moved from private loss to the scale of the whole war. The exact day is not confirmed in the source used.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Liberties Journal, 'The Besieged', quoting the 1916 diary (year only)."
+  },
+  {
+   "date_iso": "1916-07-01",
+   "date_display": "Saturday 1 July 1916",
+   "precision": "day",
+   "eye": "sassoon",
+   "place": "Crawley Ridge, near Fricourt, Somme",
+   "headline": "Watching the first morning of the Somme like a log",
+   "digest": "Held in reserve about five hundred yards behind the line, Sassoon writes that the bombardment has been raging since half past six. He watches a battalion away to his left go over cheering as if at a football match; at 9.50 men are still advancing in twenties and thirties a mile off; just after ten another division is trotting along the skyline toward La Boisselle; at 2.30 he hears heavy machine-gun fire beyond the hill. He calls the day a sunlit picture of hell, and under the entry is a sketch of a startled face.",
+   "quote": "a sunlit picture of Hell",
+   "confidence": "verified",
+   "source_note": "Sassoon journal MS Add. 9852/1/7 ff. 10r–13v (Cambridge); CUL Special Collections blog; Gulf News report on digitisation."
+  },
+  {
+   "date_iso": "1917-05-01",
+   "date_display": "May 1917",
+   "precision": "month",
+   "eye": "junger",
+   "place": "Western Front",
+   "headline": "When will this war end?",
+   "digest": "In his raw field notebook, in a line that never made it into the heroic Storm of Steel, Jünger asks crudely when the war will finally be over. The diary shows the 22-year-old officer far more worn down than the published book admits.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kriegstagebuch 1914–1918 (2010), as quoted on ernst-juenger.org; month only."
+  },
+  {
+   "date_iso": "1918-10-15",
+   "date_display": "October 1918",
+   "precision": "month",
+   "eye": "kollwitz",
+   "place": "Berlin",
+   "headline": "Seed corn must not be ground",
+   "digest": "When the poet Richard Dehmel calls in the press for a last-ditch effort and more volunteers, Kollwitz answers publicly in the Social Democratic paper Vorwärts, borrowing Goethe's line that seed corn must not be ground. Enough young men have died. This is an open letter, not a diary entry, and the exact day is not confirmed here.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kallir Research Institute biography (1918 reply to Dehmel in Vorwärts, quoting Goethe)."
+  },
+  {
+   "date_iso": "1918-11-07",
+   "date_display": "Thursday 7 November 1918",
+   "precision": "day",
+   "eye": "kessler",
+   "place": "Magdeburg",
+   "headline": "Hanover falls to the revolution",
+   "digest": "In Magdeburg, where he has gone to escort the Polish leader Józef Piłsudski out of German custody, Kessler hears that revolutionaries have taken Hanover and that there is unrest at Krupp. The sailors' mutiny that began in Kiel has spread to Lübeck, Altona and Hamburg.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kessler, Tagebücher 1918–1937, entry 7 November 1918 (Projekt Gutenberg-DE)."
+  },
+  {
+   "date_iso": "1918-11-08",
+   "date_display": "Friday 8 November 1918",
+   "precision": "day",
+   "eye": "kessler",
+   "place": "Magdeburg",
+   "headline": "Socialists demand the Kaiser's abdication",
+   "digest": "The Social Democratic leaders have told the Chancellor that the Kaiser and the Crown Prince must go. Kessler leaves Magdeburg with Piłsudski through streets full of demonstrators.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kessler diary, 8 November 1918 (Projekt Gutenberg-DE)."
+  },
+  {
+   "date_iso": "1918-11-09",
+   "date_display": "Saturday 9 November 1918",
+   "precision": "day",
+   "eye": "kessler",
+   "place": "Berlin",
+   "headline": "Red flags on Wilhelmstrasse; gunfire at the Palace",
+   "digest": "Back in Berlin, Kessler sees a soldier haranguing a crowd at the Potsdam station beside a machine-gun company, and quiet streets toward Unter den Linden. Special editions announce the Kaiser's abdication and the first car with red flags drives down Wilhelmstrasse. In the evening the Reichstag is packed with sailors and soldiers, he hears shooting near the Palace, walks past the damaged royal stables, and gets home about one in the morning.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kessler diary, 9 November 1918 (Projekt Gutenberg-DE)."
+  },
+  {
+   "date_iso": "1918-11-10",
+   "date_display": "Sunday 10 November 1918",
+   "precision": "day",
+   "eye": "kessler",
+   "place": "Berlin",
+   "headline": "Machine guns near the Reichstag; an orderly Red Guard",
+   "digest": "At the art dealer Paul Cassirer's he hears machine-gun fire from a crowd at the Bismarck monument. At the Hotel Excelsior that evening he talks with a Red Guard commander who insists his men do not loot, and Kessler finds a hotel room for the poet Theodor Däubler.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kessler diary, 10 November 1918 (Projekt Gutenberg-DE)."
+  },
+  {
+   "date_iso": "1918-11-11",
+   "date_display": "Monday 11 November 1918",
+   "precision": "day",
+   "eye": "kessler",
+   "place": "Berlin",
+   "headline": "Armistice signed; the Kaiser has fled",
+   "digest": "The entry is almost bare: the harsh armistice terms have been signed, and the Kaiser has fled to Holland. After two days of walking through a revolution, the end of the war itself gets a single line.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kessler diary, 11 November 1918 (Projekt Gutenberg-DE)."
+  },
+  {
+   "date_iso": "1918-11-12",
+   "date_display": "Tuesday 12 November 1918",
+   "precision": "day",
+   "eye": "kessler",
+   "place": "Berlin",
+   "headline": "The trams still run",
+   "digest": "At the Reichstag, now dirty and crowded with armed men but calm, Kessler finds the pacifist Bund Neues Vaterland turned into a debating club. He is struck that through the revolutionary days the factories have restarted and trams, electricity and water have kept working.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kessler diary, 12 November 1918 (Projekt Gutenberg-DE)."
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1914-08-01",
+   "label": "Germany declares war on Russia (1–2 August 1914)",
+   "eyes": [
+    "nicholas-ii",
+    "kafka"
+   ],
+   "note": "The Tsar learns of the declaration on his way back from evening prayers and spends the night drafting telegrams to King George; the next day in Prague, Kafka records the same declaration and his afternoon swim. One diary belongs to the man the war was declared on, the other to a clerk who feels it only as a change in the weather."
+  },
+  {
+   "date": "1914-12-24",
+   "label": "Christmas truce, 24–25 December 1914",
+   "eyes": [
+    "zehmisch",
+    "beck",
+    "amar-singh"
+   ],
+   "note": "Zehmisch and Beck write from opposite sides of the same kind of line near Ploegsteert and Messines: carols, a band, football proposals, swapped bully beef. A few miles south, Amar Singh's diary from the same week is all failed attacks and shaken regiments, a reminder that the truce was patchy and local."
+  },
+  {
+   "date": "1915-10-27",
+   "label": "Anzac, 27–30 October 1915",
+   "eyes": [
+    "fasih",
+    "wright",
+    "bean"
+   ],
+   "note": "On 27 October Fasih inspects a machine-gun post wrecked by a shell through the loophole, while Wright boards a troopship bound for the same front. Next day Bean watches a ship sunk as a breakwater off North Beach, and on the 30th Wright climbs the hill above Anzac. These are the same few hundred metres of coast, seen by an Ottoman defender, an arriving private and a correspondent."
+  },
+  {
+   "date": "1915-11-27",
+   "label": "The Gallipoli storm, 27–29 November 1915",
+   "eyes": [
+    "fasih",
+    "bartlett",
+    "bean"
+   ],
+   "note": "Fasih notes Ottoman soldiers too demoralised to leave their trench; Bartlett notes mud, a shave and a thriller novel, then snow and a day in bed; Bean's diary for the same days is about mining progress at Lone Pine. The same blizzard froze men on both sides, but in these diaries it means despair, discomfort or a technical report depending on who is writing."
+  },
+  {
+   "date": "1915-12-24",
+   "label": "Christmas 1915: one year after the truce",
+   "eyes": [
+    "junger",
+    "barthas",
+    "brittain"
+   ],
+   "note": "A fortnight after Barthas saw flooded-out French and Germans share tobacco near Arras, Jünger's men a little further south shoot down a British Christmas tree and are answered with rifle grenades. In Sussex, Vera Brittain is waiting for a fiancé who died on the 23rd. The fraternisation, the hostility and the bereavement all fall within the same three weeks."
+  },
+  {
+   "date": "1918-11-09",
+   "label": "Revolution and Armistice, 7–12 November 1918",
+   "eyes": [
+    "kessler",
+    "kollwitz"
+   ],
+   "note": "Kessler walks through the Berlin revolution and gives the Armistice a single line; Kollwitz, also in Berlin, had a few weeks earlier publicly told Dehmel that no more young men should be sent to die. The cluster is thin here: other eyes' 11 November entries could not be verified for this chapter."
+  }
+ ],
+ "ties": [
+  {
+   "a": "zehmisch",
+   "b": "beck",
+   "kind": "opposite sides",
+   "note": "Zehmisch's Saxons faced the 1st Royal Warwickshires during the truce; Beck served in the Royal Warwickshire Regiment, though his battalion is not stated in the source, so they may have stood in the same no man's land."
+  },
+  {
+   "a": "fasih",
+   "b": "bean",
+   "kind": "opposite sides",
+   "note": "Fasih's battalion held the trenches facing Anzac in October–December 1915, the same ground Bean was describing from the Australian side."
+  },
+  {
+   "a": "fasih",
+   "b": "bartlett",
+   "kind": "opposite sides",
+   "note": "Both endured the November 1915 storm at Anzac a few hundred metres apart."
+  },
+  {
+   "a": "fasih",
+   "b": "wright",
+   "kind": "opposite sides",
+   "note": "Wright landed at Anzac on 30 October 1915, two weeks after Fasih returned to the Ottoman line facing it."
+  },
+  {
+   "a": "fasih",
+   "b": "turjman",
+   "kind": "opposite sides",
+   "note": "Both were Ottoman subjects in uniform in 1915, but from opposite ends of loyalty: Fasih a committed officer at the front, Turjman an Arab clerk in Jerusalem calling his loyalty conditional."
+  },
+  {
+   "a": "barthas",
+   "b": "zehmisch",
+   "kind": "influenced",
+   "note": "Two fraternisations a year apart: Zehmisch's at Christmas 1914 and Barthas's in the flooded trenches of December 1915. Both diaries became central evidence for the commemoration of front-line truces a century later."
+  },
+  {
+   "a": "junger",
+   "b": "sassoon",
+   "kind": "opposite sides",
+   "note": "Both were young officers facing each other's armies on the Somme–Arras front in 1915–1916, and both turned their war notebooks into famous books, with very different attitudes to combat."
+  },
+  {
+   "a": "kollwitz",
+   "b": "kessler",
+   "kind": "same street",
+   "note": "Both lived in Berlin through the war and the November revolution; they moved in overlapping artistic circles (Kessler's friend Paul Cassirer was a leading dealer in modern German art), though a meeting is not established here."
+  },
+  {
+   "a": "brittain",
+   "b": "sassoon",
+   "kind": "read each other",
+   "note": "Brittain belonged to the generation that read Sassoon's war poetry; her 1933 memoir and his poems became twin pillars of British war memory. (A direct reading is not documented in the sources checked.)"
+  },
+  {
+   "a": "amar-singh",
+   "b": "beck",
+   "kind": "same street",
+   "note": "In December 1914 the Indian Corps and the Royal Warwickshires were both holding the British line in French and Belgian Flanders, a few miles apart."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "russia-1917",
+   "note": "Nicholas II, who noted the outbreak between evening prayers and tea, abdicated in March 1917 under the strain of the war his diary records beginning. The defeats of 1914–1916 were the immediate background to the revolutions of 1917."
+  },
+  {
+   "to": "ww2-europe",
+   "note": "Käthe Kollwitz's grandson, also named Peter, was killed in Russia on 22 September 1942, and she responded with a lithograph titled 'Seed corn must not be ground', repeating the phrase she had used against Dehmel in 1918. Kessler went into exile when the Nazis took power in 1933, and Jünger served again as an officer in occupied Paris."
+  },
+  {
+   "to": "nanjing-1937",
+   "note": "The Versailles settlement that followed the Armistice handed Germany's concessions in Shandong to Japan rather than back to China, a grievance that fed Chinese nationalism and the long Sino-Japanese confrontation that culminated in 1937."
+  },
+  {
+   "to": "long-threads",
+   "note": "Kollwitz spent eighteen years on her kneeling parents for Peter's grave, installed in 1932 at what became Vladslo German war cemetery; Barthas wished for a monument to fraternisation, and France built one at Neuville-Saint-Vaast in 2015. Both show diaries shaping memorials long after the event."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://oxford.omeka.net/s/ww1lit/item/55953",
+   "title": "Vera Brittain, War Diary: Monday December 27th 1915",
+   "caption": "Manuscript pages of Brittain's diary from the week of Roland Leighton's death, with a copied letter describing how he died and verses on remembrance.",
+   "date": "27 December 1915 (filled in over following days)",
+   "credit": "Vera Brittain; First World War Poetry Digital Archive, University of Oxford"
+  },
+  {
+   "url": "https://oxford.omeka.net/s/ww1lit/item/55954",
+   "title": "Vera Brittain, War Diary: New Year's Eve 1915",
+   "caption": "Two pages written at Hassocks on the last night of 1915, responding to Roland's death.",
+   "date": "31 December 1915",
+   "credit": "Vera Brittain; First World War Poetry Digital Archive, University of Oxford"
+  },
+  {
+   "url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066806",
+   "title": "Charles Bean, diary, October–November 1915",
+   "caption": "Scanned pages of Bean's pocket diary at Anzac, including the entries for 24 and 25 October 1915, six months after the landing.",
+   "date": "October 1915",
+   "credit": "C. E. W. Bean; Australian War Memorial AWM38 3DRL 606/19/1"
+  },
+  {
+   "url": "https://transcripts.sl.nsw.gov.au/page/item-01-leonard-v-bartlett-diary-3-april-1915-31-december-1915-page-82",
+   "title": "Leonard V. Bartlett diary, page 82",
+   "caption": "The page recording snow at Anzac on 28 November 1915, with the image of the original page beside the transcription.",
+   "date": "27–29 November 1915",
+   "credit": "Leonard V. Bartlett; State Library of New South Wales"
+  },
+  {
+   "url": "https://transcripts.sl.nsw.gov.au/page/item-01-walter-v-wright-diary-27-october-1915-11-february-1916-page-21",
+   "title": "Walter V. Wright diary, page 21",
+   "caption": "A reinforcement's first days: embarkation on 27 October and landing at Anzac on 30 October 1915.",
+   "date": "27 October–6 November 1915",
+   "credit": "Walter V. Wright; State Library of New South Wales"
+  },
+  {
+   "url": "http://cudl.lib.cam.ac.uk/collections/sassoon",
+   "title": "Siegfried Sassoon's war journals (Cambridge Digital Library)",
+   "caption": "Digitised notebooks including the damp-stained 1 July 1916 entry written while watching the Somme attack from Crawley Ridge.",
+   "date": "1915–1918",
+   "credit": "Siegfried Sassoon; Cambridge University Library MS Add. 9852"
+  }
+ ],
+ "further": [
+  {
+   "title": "Gallipoli Association: On This Day (daily diary extracts, both sides)",
+   "url": "https://www.gallipoli-association.org/on-this-day/november?p=4"
+  },
+  {
+   "title": "University of Arizona CMES: WWI Ottoman diaries and memoirs teaching set",
+   "url": "https://cmes.arizona.edu/sites/default/files/2023-07/4.%2520Documents%2520-%2520diaries%2520and%2520memoirs_0.pdf"
+  },
+  {
+   "title": "Harry Graf Kessler, Tagebücher 1918–1937 (Projekt Gutenberg-DE)",
+   "url": "https://www.projekt-gutenberg.org/kessler/tagebuch/chap003.html"
+  },
+  {
+   "title": "Poilu: The World War I Notebooks of Corporal Louis Barthas (Yale)",
+   "url": "https://yalebooks.yale.edu/?p=54995"
+  },
+  {
+   "title": "Oxford First World War Poetry Digital Archive: Roland Leighton collection",
+   "url": "https://oxford.omeka.net/s/ww1lit/page/leighton"
+  },
+  {
+   "title": "Mental Floss: WWI Centennial — Huge Storm Lashes Gallipoli",
+   "url": "https://www.mentalfloss.com/article/71794/wwi-centennial-huge-storm-lashes-gallipoli"
+  },
+  {
+   "title": "NZHistory: Gallipoli campaign timeline",
+   "url": "https://www.nzhistory.govt.nz/node/52772"
+  },
+  {
+   "title": "Alexander Turnbull Library via DigitalNZ: George Wallace Bollinger diary, Gallipoli 1915–16",
+   "url": "https://digitalnz.org/records/23220980"
+  }
+ ],
+ "vantage_key": "0 = principal actor or in the very trench where it happened; 1 = eyewitness on the same battlefield or street; 2 = near the front; 3 = home front in the same country; 4 = abroad, news only."
+}

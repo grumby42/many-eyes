@@ -1,0 +1,1318 @@
+{
+ "id": "halley-1910",
+ "title": "Through the Tail: Halley's Comet, 1909–1910",
+ "short_title": "Halley's Comet, 1910",
+ "subtitle": "The recovery, the January comet, the cyanogen scare and the night of 18–19 May, from Heidelberg to Honolulu, 1909–1911",
+ "span": "1909–1911",
+ "intro": [
+  "Halley's comet was the first comet to return on schedule because someone had said it would. By 1909 its next perihelion had been computed to within days, and observatories on every inhabited continent were sweeping the predicted place with photographic plates. On 11 September 1909 Max Wolf at Heidelberg found it on one, a smudge far too faint for the eye. In Egypt, Harold Knox-Shaw soon discovered that a plate he had taken on 24 August already held it.",
+  "Then the sky played a trick. In mid-January 1910 a different comet, unpredicted and far brighter, blazed out of the southern dawn. Miners in the Transvaal are thought to have seen it first, and Robert Innes in Johannesburg studied it as it rounded the Sun in daylight. Many who later said they remembered Halley's comet of 1910 were probably remembering this one, the Great January Comet. The chapter keeps the two apart.",
+  "In February the Yerkes spectrographs found cyanogen in Halley's comet, and a New York reporter's call to Camille Flammarion turned a spectral band into a poison cloud. Through the spring the press sold fear and mocked it in the same pages: comet pills, comet insurance, comet parties. Meanwhile astronomers explained, mostly in smaller print, that a comet's tail is thinner than any laboratory vacuum. Mark Twain, born in 1835 a fortnight after the comet's last perihelion, died on 21 April 1910, the day after its next one, as he had said he would. Edward VII died in London on 6 May, while the comet hung in the morning sky.",
+  "The heart of the chapter is the night of 18–19 May, when Earth was expected to pass through the tail. It is set beside the weeks either side, when the world's observatories worked almost as one instrument: Yerkes and Lowell, Mount Wilson and its outpost on Diamond Head in Honolulu, Kodaikanal in south India, Helwan in Egypt, Johannesburg, Tokyo, and an old amateur at Windsor, New South Wales. E. E. Barnard's published observing journal is the backbone: dated, candid about smoke and haze, careful about what he could not prove.",
+  "Most of these eyes are not diarists in the private sense. They speak through observing journals, plates, spectra, press statements and newspapers, and the form tags say so. Several important records could not be consulted directly, among them the Times's original pages and the Transvaal circulars; where the chapter relies on later studies it says which. What the record shows is a public expecting an event and a profession that, on the night itself, measured almost nothing out of the ordinary and said so."
+ ],
+ "calendar_note": "All dates are Gregorian. Two cautions apply. First, astronomers before 1925 often kept 'astronomical' Greenwich time, in which the day began at noon. A plate catalogued at 11h GMT on 21 April may therefore have been exposed just before midnight GMT, which is the small hours of 22 April in India; such times are flagged as approximate. Second, comet events straddle midnight: the 'night of 18–19 May' is one night in local time but two calendar dates, and Barnard himself puts the likely crossing 'on or about' the 19th. The Tokyo print gives the Japanese year as Meiji 43, which corresponds to 1910.",
+ "eyes": [
+  {
+   "id": "wolf",
+   "short": "Max Wolf",
+   "name": "Maximilian Franz Joseph Cornelius Wolf",
+   "life": "1863–1932",
+   "role": "Director of the astrophysical observatory on the Königstuhl above Heidelberg, aged 46; pioneer of wide-field photographic searches for asteroids and comets",
+   "side": "Germany (Grand Duchy of Baden)",
+   "where": "Königstuhl Observatory, Heidelberg",
+   "lat": 49.398,
+   "lon": 8.721,
+   "vantage": 0,
+   "vantage_label": "the plate that found it",
+   "form": "published discovery report and observatory plates",
+   "language": "German",
+   "authenticity": "The recovery was announced by telegram and published in the Astronomische Nachrichten; Barnard's 1914 paper gives the discovery as a photograph of 11 September 1909. Pre-recovery images found afterwards on other observatories' plates (Helwan, Greenwich) complicate the priority, but Wolf is the credited discoverer.",
+   "bio": "Wolf had turned the photographic plate into a search engine, sweeping star fields and blinking for anything that moved. In 1909 the comet was a faint smudge well below what any eye at a telescope could find without knowing where to look; his plate caught it first among those announced. His angle is the purely photographic one: the comet's return was first a stain on glass, not a sight.",
+   "sources": [
+    {
+     "title": "E. E. Barnard, 'Visual Observations of Halley's Comet in 1910', Astrophysical Journal 39 (1914) 373–404",
+     "url": "https://articles.adsabs.harvard.edu/pdf/1914ApJ....39..373B"
+    },
+    {
+     "title": "The Spectator, 18 September 1909, p. 2",
+     "url": "https://archive.spectator.co.uk/article/18th-september-1909/2/last-sunday-morning-professor-wolf-of-heidelberg-d"
+    }
+   ]
+  },
+  {
+   "id": "knox-shaw",
+   "short": "Knox-Shaw",
+   "name": "Harold Knox-Shaw",
+   "life": "1885–1970",
+   "role": "Young British astronomer in charge of the 30-inch Reynolds reflector at the Khedivial Observatory, Helwan, aged 24",
+   "side": "Egypt (British-administered Survey Department observatory)",
+   "where": "Helwan Observatory, south of Cairo",
+   "lat": 29.858,
+   "lon": 31.342,
+   "vantage": 0,
+   "vantage_label": "the first image, found too late",
+   "form": "observatory plates and published reports",
+   "language": "English",
+   "authenticity": "His account is in the Bulletin of the Helwan Observatory vol. 2 (1911) and Monthly Notices of the RAS 71 (1911); the plates and their history are reconstructed in a modern study of Knox-Shaw and Helwan (arXiv 1305.2289). The 24 August 1909 image was identified only after the recovery and measured at Greenwich from a plate broken in transit.",
+   "bio": "Knox-Shaw was searching for the comet with a large reflector on the edge of the desert, guided by ephemerides that proved imperfect. He picked it up two days after Wolf's announcement, then found that one of his own earlier plates already held it. Over 632 days Helwan built one of the longest photographic runs of the apparition.",
+   "sources": [
+    {
+     "title": "Harold Knox-Shaw and the Helwan Observatory (arXiv 1305.2289)",
+     "url": "https://arxiv.org/pdf/1305.2289"
+    }
+   ]
+  },
+  {
+   "id": "barnard",
+   "short": "Barnard",
+   "name": "Edward Emerson Barnard",
+   "life": "1857–1923",
+   "role": "Astronomer at the Yerkes Observatory of the University of Chicago, aged 52–53; the most celebrated visual and photographic comet observer in America",
+   "side": "United States",
+   "where": "Yerkes Observatory, Williams Bay, Wisconsin",
+   "lat": 42.57,
+   "lon": -88.556,
+   "vantage": 0,
+   "vantage_label": "night-by-night at the 40-inch",
+   "form": "observing notes published as a dated journal (1914)",
+   "language": "English",
+   "authenticity": "Barnard's notes were published in full, date by date, in the Astrophysical Journal 39 (June 1914); this chapter follows that paper. It is a scientific journal in form rather than a private diary, but it records weather, smoke, fatigue and doubt as well as measurements.",
+   "bio": "Barnard had found comets as a young photographer's assistant in Nashville and made his name with wide-field photographs of the Milky Way. At Yerkes he watched Halley's comet from the faint speck of September 1909 to its fading in June 1910, often from smoky horizons. His notes for 17–19 May are the closest thing to an eyewitness record of the night Earth passed the tail.",
+   "sources": [
+    {
+     "title": "Barnard, 'Visual Observations of Halley's Comet in 1910', ApJ 39 (1914)",
+     "url": "https://articles.adsabs.harvard.edu/pdf/1914ApJ....39..373B"
+    }
+   ]
+  },
+  {
+   "id": "innes",
+   "short": "Innes",
+   "name": "Robert Thorburn Ayton Innes",
+   "life": "1861–1933",
+   "role": "Director of the Transvaal Observatory, Johannesburg, aged 48; soon Union Astronomer",
+   "side": "Transvaal (British colony, Union of South Africa from 31 May 1910)",
+   "where": "Transvaal Observatory, Johannesburg",
+   "lat": -26.183,
+   "lon": 28.075,
+   "vantage": 0,
+   "vantage_label": "the other comet, first",
+   "form": "observatory reports and press notices",
+   "language": "English",
+   "authenticity": "The sequence for the Great January Comet (miners' sighting about 12 January, editor's alert, Innes's first observations on 17 January) is from secondary accounts summarised in the Wikipedia article on the comet; the observatory's 1910 Halley work by H. E. Wood is from a South African Journal of Science history article. Primary Transvaal Observatory circulars were not consulted.",
+   "bio": "Innes ran a small colonial observatory on a ridge above the gold mines. In January 1910 a comet that was not Halley's blazed in the southern dawn, and he was the first astronomer to study it. Months later his chief assistant, H. E. Wood, took some of the best photographs of Halley's comet made anywhere with the observatory's new Franklin-Adams camera.",
+   "sources": [
+    {
+     "title": "Great January Comet of 1910 (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Great_January_Comet_of_1910"
+    },
+    {
+     "title": "South African Journal of Science, history of the Transvaal/Union Observatory",
+     "url": "https://sajs.co.za/article/view/10176/15563"
+    }
+   ]
+  },
+  {
+   "id": "slipher",
+   "short": "V. M. Slipher",
+   "name": "Vesto Melvin Slipher",
+   "life": "1875–1969",
+   "role": "Spectroscopist at Percival Lowell's observatory, Flagstaff, Arizona, aged 34",
+   "side": "United States",
+   "where": "Lowell Observatory, Mars Hill, Flagstaff",
+   "lat": 35.203,
+   "lon": -111.665,
+   "vantage": 0,
+   "vantage_label": "the spectrum on Mars Hill",
+   "form": "photographic plates (astrophotographs and objective-prism spectra)",
+   "language": "English",
+   "authenticity": "A Lowell print of the January 1910 'Daylight' comet credited to Slipher is in the Science Museum Group collection (1912-445, supplied by the Royal Astronomical Society). Three of his June 1910 objective-prism plates of Halley were digitised and reanalysed in 1986 (Carsenty, Bus, Wyckoff, Lutz).",
+   "bio": "Slipher is remembered for later measuring the velocities of spiral nebulae, but in 1910 his task was comets. He photographed both the surprise comet of January and Halley's comet in June, when it passed close to the star Alpha Sextantis and gave him a built-in calibration. His record is the most quantitative and least dramatic in the chapter.",
+   "sources": [
+    {
+     "title": "Science Museum Group, 'Comet, 1910 I. (Daylight) V.M. Slipher'",
+     "url": "https://collection.sciencemuseumgroup.org.uk/objects/co56479/comet-1910-i-daylight-v-m-slipher"
+    },
+    {
+     "title": "Carsenty et al., 'Comet P/Halley 1910, 1986: An objective-prism study' (NTRS)",
+     "url": "https://ntrs.nasa.gov/citations/19870005697"
+    }
+   ]
+  },
+  {
+   "id": "flammarion",
+   "short": "Flammarion",
+   "name": "Camille Flammarion",
+   "life": "1842–1925",
+   "role": "French astronomer and best-selling popular writer, aged 67, with a private observatory at Juvisy-sur-Orge",
+   "side": "France",
+   "where": "Paris and Juvisy-sur-Orge",
+   "lat": 48.689,
+   "lon": 2.37,
+   "vantage": 2,
+   "vantage_label": "the voice the papers wanted",
+   "form": "press articles and reported interviews",
+   "language": "French (reported in English)",
+   "authenticity": "What Flammarion said about cyanogen survives mainly as newspapers reported it, especially the New York Times story of February 1910. His own earlier piece for the Paris edition of the New York Herald (late November 1909) compared the tail to a fog. Whether he warned of danger or only described a possibility is disputed; both readings are given here as positions.",
+   "bio": "Flammarion was the most famous astronomer in the world to newspaper readers, and he had written a novel about the end of the world. When the Yerkes spectrographs found cyanogen in the comet, reporters turned to him. The words attributed to him became the seed of the comet panic, though his own writing was largely reassuring.",
+   "sources": [
+    {
+     "title": "Science History Institute, 'The Comet Panic of 1910 Revisited'",
+     "url": "https://www.sciencehistory.org/stories/magazine/the-comet-panic-of-1910-revisited/"
+    }
+   ]
+  },
+  {
+   "id": "press",
+   "short": "US press",
+   "name": "American newspapers (New York Times, San Francisco Examiner and others)",
+   "life": "1910",
+   "role": "Metropolitan dailies reporting the comet as science, spectacle and scare",
+   "side": "United States",
+   "where": "New York and San Francisco newsrooms",
+   "lat": 40.756,
+   "lon": -73.986,
+   "waypoints": [
+    {
+     "lat": 40.756,
+     "lon": -73.986,
+     "label": "New York Times, February 1910"
+    },
+    {
+     "lat": 37.788,
+     "lon": -122.403,
+     "label": "San Francisco Examiner, 18 May 1910"
+    }
+   ],
+   "vantage": 4,
+   "vantage_label": "the news, not the sky",
+   "form": "newspaper reports",
+   "language": "English",
+   "authenticity": "Headlines and episodes (the 'Comet's Poisonous Tail' story after the Yerkes cyanogen announcement, comet pills, comet insurance, a Brooklyn comet party, Oscar Chopin's 18 May cartoon) are taken from the Science History Institute's study of the panic; the original pages were not consulted directly.",
+   "bio": "The press is the chapter's loudest eye. It turned a spectroscopic line into a gas cloud over the planet, carried astronomers' reassurances in smaller type, and reported the trade in pills and policies with a mix of alarm and mockery.",
+   "sources": [
+    {
+     "title": "Science History Institute, 'The Comet Panic of 1910 Revisited'",
+     "url": "https://www.sciencehistory.org/stories/magazine/the-comet-panic-of-1910-revisited/"
+    }
+   ]
+  },
+  {
+   "id": "spectator",
+   "short": "The Spectator",
+   "name": "The Spectator (London weekly)",
+   "life": "1909",
+   "role": "London weekly review of news and opinion",
+   "side": "Britain",
+   "where": "London",
+   "lat": 51.507,
+   "lon": -0.128,
+   "vantage": 4,
+   "vantage_label": "London, by telegram",
+   "form": "weekly newspaper",
+   "language": "English",
+   "authenticity": "The 18 September 1909 issue is in The Spectator's own digitised archive.",
+   "bio": "A single paragraph in a London weekly shows how fast the recovery travelled: within a week of Wolf's plate, general readers were told the long-awaited comet had been found.",
+   "sources": [
+    {
+     "title": "The Spectator Archive, 18 September 1909, p. 2",
+     "url": "https://archive.spectator.co.uk/article/18th-september-1909/2/last-sunday-morning-professor-wolf-of-heidelberg-d"
+    }
+   ]
+  },
+  {
+   "id": "twain",
+   "short": "Mark Twain",
+   "name": "Samuel Langhorne Clemens (Mark Twain)",
+   "life": "1835–1910",
+   "role": "American writer, aged 73–74, living at Stormfield, his house in Redding, Connecticut",
+   "side": "United States",
+   "where": "Stormfield, Redding, Connecticut",
+   "lat": 41.302,
+   "lon": -73.383,
+   "vantage": 3,
+   "vantage_label": "born under it, waiting for it",
+   "form": "spoken remark recorded by his biographer (Paine, 1912)",
+   "language": "English",
+   "authenticity": "The 1909 remark is printed in Albert Bigelow Paine, Mark Twain: A Biography (1912), chapter CCLXXXII 'Personal Memoranda', after a note dated 5 July 1909; it is Paine's record of what Clemens said, not Clemens's own manuscript. The account of his death is Paine's, chapter CCXCIII.",
+   "bio": "Clemens was born in November 1835, a fortnight after the comet's perihelion, and liked to say he would leave with it. He died on 21 April 1910, the day after its next perihelion. His eye in this chapter is borrowed: the comet is in his biographer's account, not his own notebook.",
+   "sources": [
+    {
+     "title": "Albert Bigelow Paine, Mark Twain: A Biography, Vol. III Part 2, 1907–1910 (Project Gutenberg)",
+     "url": "https://www.gutenberg.org/cache/epub/2987/pg2987.html"
+    }
+   ]
+  },
+  {
+   "id": "ellerman",
+   "short": "Ellerman",
+   "name": "Ferdinand Ellerman",
+   "life": "1869–1940",
+   "role": "Photographer and astronomer of the Mount Wilson Solar Observatory, aged 40, sent alone to Hawaii by the Carnegie Institution",
+   "side": "United States (Territory of Hawaii)",
+   "where": "Diamond Head, Honolulu, Oahu",
+   "lat": 21.262,
+   "lon": -157.806,
+   "vantage": 0,
+   "vantage_label": "one-man expedition mid-Pacific",
+   "form": "expedition photographs and report",
+   "language": "English",
+   "authenticity": "Dates and totals (arrival 28 March, first sighting 14 April, 73 photographs on 36 dates) are from the Wikipedia biography summarising Mount Wilson records; Barnard (1914) used Honolulu photographs for the June detached tail.",
+   "bio": "Ellerman had been George Ellery Hale's assistant since the 1890s, first at Yerkes, then on Mount Wilson. In 1910 he camped on the rim of Diamond Head to cover the comet where the sky over the Pacific filled a gap between continents. Wind and cloud made the work hard, but his plates fed the worldwide record.",
+   "sources": [
+    {
+     "title": "Ferdinand Ellerman (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Ferdinand_Ellerman"
+    }
+   ]
+  },
+  {
+   "id": "ritchey",
+   "short": "Ritchey",
+   "name": "George Willis Ritchey",
+   "life": "1864–1945",
+   "role": "Optician and astronomer of the Mount Wilson Solar Observatory, aged 45, builder of its new 60-inch reflector",
+   "side": "United States",
+   "where": "Mount Wilson, above Pasadena, California",
+   "lat": 34.226,
+   "lon": -118.057,
+   "vantage": 0,
+   "vantage_label": "the biggest mirror",
+   "form": "observatory plates",
+   "language": "English",
+   "authenticity": "Plate dates (May 5–11 and June 2–6, 1910; 31 plates on 12 nights) are from a 1984 Astronomical Journal reanalysis of the Mount Wilson series.",
+   "bio": "Ritchey had ground the 60-inch mirror himself, and in 1910 it was the most powerful telescope in the world. Its plates resolved structure in the comet's head that smaller cameras blurred. His record is the view at the largest scale the age could manage.",
+   "sources": [
+    {
+     "title": "Astronomical Journal 89 (1984) 571, Mount Wilson 1910 Halley plates",
+     "url": "https://articles.adsabs.harvard.edu/pdf/1984AJ.....89..571L"
+    }
+   ]
+  },
+  {
+   "id": "evershed",
+   "short": "Evershed",
+   "name": "John Evershed",
+   "life": "1864–1956",
+   "role": "Assistant director of the Kodaikanal Solar Observatory in the Palani Hills, aged 45, working with his wife Mary Acworth Evershed",
+   "side": "British India",
+   "where": "Kodaikanal Observatory, Palani Hills, Madras Presidency",
+   "lat": 10.232,
+   "lon": 77.465,
+   "vantage": 0,
+   "vantage_label": "the spectrum in the hills of south India",
+   "form": "observatory plates and spectra",
+   "language": "English",
+   "authenticity": "The Evershed archive at the Science Museum Group holds glass plates of the comet (EVER/A/1/E106, E108, E113). The spectroscopic results (19 April–16 May 1910) are summarised in a history of Kodaikanal (arXiv 0906.0144).",
+   "bio": "Evershed had discovered the radial flow in sunspots the year before, and brought a solar spectroscopist's tools to the comet. At Kodaikanal, south of most northern observatories, he and Mary Evershed caught the comet's head and tail in the pre-dawn sky and split its light into bands that named its gases.",
+   "sources": [
+    {
+     "title": "Science Museum Group, Evershed plate 'Halley's Comet' (EVER/A/1/E108)",
+     "url": "https://collection.sciencemuseumgroup.org.uk/documents/aa110074419/halleys-comet"
+    },
+    {
+     "title": "Solar physics at the Kodaikanal Observatory: A Historical Perspective (arXiv 0906.0144)",
+     "url": "https://arxiv.org/pdf/0906.0144"
+    }
+   ]
+  },
+  {
+   "id": "tebbutt",
+   "short": "Tebbutt",
+   "name": "John Tebbutt",
+   "life": "1834–1916",
+   "role": "Amateur astronomer with a private observatory at Windsor on the Hawkesbury, aged 75, out of retirement for the comet",
+   "side": "Australia (New South Wales)",
+   "where": "Windsor Observatory, New South Wales",
+   "lat": -33.606,
+   "lon": 150.82,
+   "vantage": 0,
+   "vantage_label": "the old comet-hunter at Windsor",
+   "form": "published positions and press statements",
+   "language": "English",
+   "authenticity": "His 1909–10 positions were published in the Monthly Notices of the RAS and used in the orbit computed for ESA's Giotto mission (PASA 1986). His 3 May 1910 statement was cabled to New Zealand papers and printed on 4 May.",
+   "bio": "Tebbutt had discovered the Great Comet of 1861, and he had been born the year before Halley's previous return. In 1910 he measured the comet again from his own observatory and spoke to the press about the coming encounter, a lone amateur whose numbers still mattered to professionals.",
+   "sources": [
+    {
+     "title": "John Tebbutt's observations of Halley's Comet in 1910 (PASA, ADS abstract)",
+     "url": "https://ui.adsabs.harvard.edu/abs/10.1017/S1323358000027065"
+    },
+    {
+     "title": "The Dominion (Wellington), 4 May 1910 (Papers Past)",
+     "url": "https://dynamic-rsnz.natlib.govt.nz/newspapers/DOM19100504.2.45"
+    }
+   ]
+  },
+  {
+   "id": "tokyo",
+   "short": "Tokyo Obs.",
+   "name": "Tokyo Astronomical Observatory (Imperial University)",
+   "life": "1910",
+   "role": "Japan's national observatory, then at Azabu, Tokyo",
+   "side": "Japan",
+   "where": "Azabu, Tokyo",
+   "lat": 35.656,
+   "lon": 139.744,
+   "vantage": 1,
+   "vantage_label": "the Asian plate",
+   "form": "observatory photograph (published print)",
+   "language": "Japanese",
+   "authenticity": "A print captioned 'Halley's Comet: Photographed by the Tokyo Astronomical Observatory, May 29th, 1910' (Meiji 43) is in the Tokyo metropolitan museum collection. The photographer is not named in the catalogue title seen.",
+   "bio": "The Tokyo print is the chapter's East Asian record: a dated observatory photograph circulated to the public, with its date given in both the Western and Meiji forms. It stands for the many national observatories that joined the campaign.",
+   "sources": [
+    {
+     "title": "Tokyo Museum Collection, item 6495174",
+     "url": "https://museumcollection.tokyo/en/works/6495174"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1909-07",
+   "date_display": "July 1909",
+   "precision": "month",
+   "eye": "twain",
+   "place": "Stormfield, Redding",
+   "headline": "'I came in with Halley's comet'",
+   "digest": "Talking with his biographer, Clemens said he had been born with the comet and expected to leave with it. He added that it would be the greatest disappointment of his life if he did not. Paine set the remark among memoranda following a note of 5 July 1909. Clemens was ailing with heart trouble at the time.",
+   "quote": "I came in with Halley's comet in 1835.",
+   "confidence": "verified",
+   "source_note": "Paine, Mark Twain: A Biography, ch. CCLXXXII"
+  },
+  {
+   "date_iso": "1909-08-24",
+   "date_display": "Tuesday 24 August 1909",
+   "precision": "day",
+   "eye": "knox-shaw",
+   "place": "Helwan",
+   "headline": "A faint smudge on a plate nobody yet recognised",
+   "digest": "Knox-Shaw exposed a plate of the region where the comet was expected, guided by an ephemeris that later proved slightly off. Nothing on it was noticed at the time. Only weeks later, re-examining it against an improved prediction, did he find a faint nebulous image at the right spot. It is the earliest known image of the 1910 return.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Knox-Shaw and Helwan study, arXiv 1305.2289"
+  },
+  {
+   "date_iso": "1909-09-11",
+   "date_display": "Saturday 11 September 1909",
+   "precision": "day",
+   "eye": "wolf",
+   "place": "Königstuhl, Heidelberg",
+   "headline": "Wolf's plate catches the returning comet",
+   "digest": "On a photograph exposed at Heidelberg, Wolf found a faint image close to the place predicted for Halley's comet. It was far too dim for the eye at an ordinary telescope. He announced the recovery, and it is to this plate that the discovery of the 1910 return is credited.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barnard 1914, p. 381 (discovery photograph 11 September 1909); Spectator 18 Sept 1909"
+  },
+  {
+   "date_iso": "1909-09-12",
+   "date_display": "Sunday 12 September 1909",
+   "precision": "day",
+   "eye": "wolf",
+   "place": "Heidelberg",
+   "headline": "The telegram goes out",
+   "digest": "By Sunday morning the news was on its way to other observatories, which went back to their own recent plates. A London weekly later dated the discovery to that Sunday morning, the hour when Europe heard of it. Other astronomers soon reported faint images of the comet on plates of their own.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Spectator 18 Sept 1909 ('Last Sunday morning'); exact time of the telegram not seen"
+  },
+  {
+   "date_iso": "1909-09-13",
+   "date_display": "Monday 13 September 1909",
+   "precision": "day",
+   "eye": "knox-shaw",
+   "place": "Helwan",
+   "headline": "Helwan picks up the comet two days later",
+   "digest": "Working with the 30-inch Reynolds reflector, Knox-Shaw caught the comet on a new plate. Helwan had no measuring machine, so precise positions had to wait. The observatory had been in the search since Andrew Crommelin of Greenwich suggested the big reflector be used for it in 1907.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "arXiv 1305.2289"
+  },
+  {
+   "date_iso": "1909-09-15",
+   "date_display": "Wednesday 15 September 1909",
+   "precision": "day",
+   "eye": "barnard",
+   "place": "Yerkes, 40-inch refractor",
+   "headline": "First human eye on the comet, through the 40-inch",
+   "digest": "S. W. Burnham of Yerkes made the first visual observation, with the 40-inch refractor. Barnard records this as the first time anyone saw the comet with the eye rather than on a plate. The comet was far below naked-eye brightness, a faint speck in a field of stars.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barnard 1914, p. 381"
+  },
+  {
+   "date_iso": "1909-09-17",
+   "date_display": "Friday 17 September 1909",
+   "precision": "day",
+   "eye": "barnard",
+   "place": "Yerkes",
+   "headline": "Barnard's first look: a nebula-like speck",
+   "digest": "Barnard began his own series with the 40-inch, describing the comet as a tiny faint patch like a small nebula. It was the first of hundreds of nights' entries leading up to the following June. Nothing about it yet suggested the spectacle the papers were promising.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barnard 1914, p. 381"
+  },
+  {
+   "date_iso": "1909-09-18",
+   "date_display": "Saturday 18 September 1909",
+   "precision": "day",
+   "eye": "spectator",
+   "place": "London",
+   "headline": "A London weekly announces the find",
+   "digest": "The Spectator told its readers that Professor Wolf had found the comet the previous Sunday morning. The note treated the event as the end of a long watch kept by observatories everywhere. It is among the first general-press notices of the recovery in Britain.",
+   "quote": "for which all astronomers have been watching",
+   "confidence": "verified",
+   "source_note": "Spectator Archive, 18 September 1909, p. 2"
+  },
+  {
+   "date_iso": "1909-09-23",
+   "date_display": "about 23 September 1909",
+   "precision": "day",
+   "eye": "knox-shaw",
+   "place": "Helwan",
+   "headline": "An improved ephemeris sends him back to old plates",
+   "digest": "After Crommelin issued a corrected ephemeris, Knox-Shaw re-examined plates taken before Wolf's recovery and found the 24 August image. The plate went to Greenwich, where Charles Davidson measured it, though it had broken on the way back. Helwan could now claim an image twelve days before the plate credited with the discovery.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "arXiv 1305.2289 (ephemeris 23 Sept; date of re-examination shortly after)"
+  },
+  {
+   "date_iso": "1909-11",
+   "date_display": "late November 1909",
+   "precision": "month",
+   "eye": "flammarion",
+   "place": "Paris",
+   "headline": "Flammarion: the tail is a thin fog",
+   "digest": "Writing for the Paris edition of the New York Herald, Flammarion explained how tenuous a comet's tail is. He compared Earth's passage through it to a train rushing through a fog. In this piece, at least, the tone was reassurance, not alarm.",
+   "quote": "a fog through which a locomotive was dashing at full speed",
+   "confidence": "approx",
+   "source_note": "Science History Institute, 'The Comet Panic of 1910 Revisited' (quoting the Herald piece)"
+  },
+  {
+   "date_iso": "1909-12-29",
+   "date_display": "Wednesday 29 December 1909",
+   "precision": "day",
+   "eye": "knox-shaw",
+   "place": "Helwan",
+   "headline": "Helwan's priority goes to print",
+   "digest": "B. F. E. Keeling, director of the Helwan observatory, wrote to the Astronomische Nachrichten announcing the pre-recovery image. The English Mechanic praised the observatory. The claim sits beside Wolf's, not against it: Helwan had the first image, Heidelberg the first recognition.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "arXiv 1305.2289 (Keeling's letter dated 29 December 1909)"
+  },
+  {
+   "date_iso": "1910-01",
+   "date_display": "January 1910",
+   "precision": "month",
+   "eye": "slipher",
+   "place": "Lowell Observatory, Flagstaff",
+   "headline": "Flagstaff photographs the wrong comet",
+   "digest": "Slipher photographed the Great January Comet, the surprise visitor that the press sometimes confused with Halley's. The Lowell print later went to the Royal Astronomical Society and then the Science Museum. It is a reminder that northern observers' first great comet of 1910 was not the expected one.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Science Museum Group object 1912-445"
+  },
+  {
+   "date_iso": "1910-01-12",
+   "date_display": "about Wednesday 12 January 1910",
+   "precision": "day",
+   "eye": "innes",
+   "place": "Transvaal mines, before dawn",
+   "headline": "Miners see a bright comet before sunrise",
+   "digest": "Diamond miners in the Transvaal are thought to have been the first to see a brilliant comet low in the dawn sky. It was already brighter than any star. Several people later claimed the discovery, and at first many people took it for Halley's comet. This was a different comet, the Great January Comet of 1910.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Great January Comet of 1910 (Wikipedia); first sighting not tied to a named observer"
+  },
+  {
+   "date_iso": "1910-01-15",
+   "date_display": "Saturday 15 January 1910",
+   "precision": "day",
+   "eye": "innes",
+   "place": "Johannesburg",
+   "headline": "A newspaper editor alerts the observatory",
+   "digest": "The editor of a Johannesburg newspaper told Innes about the reports. A telephone error briefly gave the object the name 'Drake's Comet'. When the mistake was found, the papers fell back on 'Daylight Comet' or 'Sunset Comet', since no single discoverer could be named.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Great January Comet of 1910 (Wikipedia)"
+  },
+  {
+   "date_iso": "1910-01-17",
+   "date_display": "Monday 17 January 1910",
+   "precision": "day",
+   "eye": "innes",
+   "place": "Transvaal Observatory, Johannesburg",
+   "headline": "Innes studies a comet bright enough for daylight",
+   "digest": "Innes began the first proper observations of the new comet on the day of its perihelion. It could be seen in daylight close to the Sun. Later estimates put it near magnitude −5, far brighter than Halley's would ever be in 1910.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Great January Comet of 1910 (Wikipedia)"
+  },
+  {
+   "date_iso": "1910-02-08",
+   "date_display": "Tuesday 8 February 1910",
+   "precision": "day",
+   "eye": "press",
+   "place": "New York",
+   "headline": "Cyanogen in the tail becomes a headline",
+   "digest": "The day before, Yerkes Observatory had announced that its spectrographs had found cyanogen bands in the comet. A New York Times reporter called Flammarion, and the story ran under a headline about poison. Other astronomers quoted in it played down any danger. Few readers seem to have noticed them.",
+   "quote": "Comet's Poisonous Tail",
+   "confidence": "approx",
+   "source_note": "Science History Institute (headline; Yerkes announcement 7 Feb); the 8 February publication date is the commonly cited one, not checked against the page"
+  },
+  {
+   "date_iso": "1910-02-08",
+   "date_display": "February 1910 (as reported)",
+   "precision": "day",
+   "eye": "flammarion",
+   "place": "Paris (by telephone or cable)",
+   "headline": "Flammarion's remark, as the papers carried it",
+   "digest": "The Times attributed to Flammarion the idea that cyanogen from the tail might soak into the atmosphere and threaten life. In one reading he was setting out a hypothetical possibility, which he himself thought improbable. In another he was warning of danger. The words reached readers through a reporter and a translation, and the original wording is not recorded.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Science History Institute; positions on the remark"
+  },
+  {
+   "date_iso": "1910-03-28",
+   "date_display": "Monday 28 March 1910",
+   "precision": "day",
+   "eye": "ellerman",
+   "place": "Diamond Head, Honolulu",
+   "headline": "Ellerman lands to camp on Diamond Head",
+   "digest": "Ellerman arrived in Hawaii with cameras from Mount Wilson and set up his station on Diamond Head. The Carnegie Institution had sent him alone. His job was to cover the comet from the middle of the Pacific, between the American and Asian observatories.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Ferdinand Ellerman (Wikipedia)"
+  },
+  {
+   "date_iso": "1910-04",
+   "date_display": "April–May 1910",
+   "precision": "month",
+   "eye": "innes",
+   "place": "Transvaal Observatory, Johannesburg",
+   "headline": "Wood's photographs, perhaps the best of the return",
+   "digest": "With the observatory's newly installed Franklin-Adams telescope, Innes's chief assistant H. E. Wood photographed Halley's comet as it returned to southern skies. His plates have been called probably the best obtained anywhere in 1910. Wood and W. A. Rudge spoke on the comet at that year's South African science congress.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "South African Journal of Science historical article"
+  },
+  {
+   "date_iso": "1910-04-14",
+   "date_display": "Thursday 14 April 1910",
+   "precision": "day",
+   "eye": "ellerman",
+   "place": "Diamond Head",
+   "headline": "First sight of the comet from Hawaii",
+   "digest": "Ellerman first saw the comet in the morning sky. Within days he was trying to photograph it, through cloud and trade winds. Perihelion was six days away.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Ferdinand Ellerman (Wikipedia)"
+  },
+  {
+   "date_iso": "1910-04-19",
+   "date_display": "19 April–16 May 1910",
+   "precision": "range",
+   "eye": "evershed",
+   "place": "Kodaikanal",
+   "headline": "The gases named: CN and carbon in the head, CO in the tail",
+   "digest": "Over four weeks of pre-dawn sessions, Evershed, with Mary Evershed, recorded the comet's spectrum. He found the bands of cyanogen and of carbon (the Swan bands) in the head, and carbon monoxide bands in the tail. These were the same molecules that, in the newspapers, had become a poison cloud.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kodaikanal history, arXiv 0906.0144"
+  },
+  {
+   "date_iso": "1910-04-21",
+   "date_display": "21 April 1910 (plate date)",
+   "precision": "day",
+   "eye": "evershed",
+   "place": "Kodaikanal",
+   "headline": "A reflector plate of the comet before dawn",
+   "digest": "A glass plate in Evershed's archive shows the comet photographed with a reflecting telescope at Kodaikanal. It is catalogued with an exposure of 11:14–11:47 GMT. If that time is in the astronomers' noon-based reckoning then in use, the exposure fell in the small hours before dawn in south India.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Science Museum Group, EVER/A/1/E108; time-reckoning interpretation is inferred"
+  },
+  {
+   "date_iso": "1910-04-21",
+   "date_display": "Thursday 21 April 1910",
+   "precision": "day",
+   "eye": "twain",
+   "place": "Stormfield, Redding",
+   "headline": "He goes out with it",
+   "digest": "Clemens died at Stormfield at about half past six in the evening, as the sun was on the horizon. The comet had passed perihelion the day before. In his account of these last days, Paine notes that the long-awaited comet of his birth year had come back into the sky, and in a footnote he gives the perihelion dates of 1835 and 1910.",
+   "quote": "the mysterious messenger of his birth-year",
+   "confidence": "verified",
+   "source_note": "Paine, ch. CCXCIII 'The Return to the Invisible'"
+  },
+  {
+   "date_iso": "1910-04-25",
+   "date_display": "Monday 25 April 1910",
+   "precision": "day",
+   "eye": "ellerman",
+   "place": "Diamond Head",
+   "headline": "Photography begins in earnest",
+   "digest": "By 25 April Ellerman could make regular observations. He went on to expose 73 photographs on 36 dates, though wind shook the cameras and clouds often hid the comet. Some of his plates later served Barnard and others in the worldwide comparison.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Ferdinand Ellerman (Wikipedia)"
+  },
+  {
+   "date_iso": "1910-04-29",
+   "date_display": "Friday 29 April 1910",
+   "precision": "day",
+   "eye": "barnard",
+   "place": "Yerkes",
+   "headline": "Naked-eye at last, through smoke",
+   "digest": "Barnard first saw the comet with the unaided eye on 29 April. The morning sky at Williams Bay was often fouled by forest-fire smoke and cloud. He kept naked-eye watch until 11 June.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barnard 1914, p. 374"
+  },
+  {
+   "date_iso": "1910-05",
+   "date_display": "May 1910",
+   "precision": "month",
+   "eye": "press",
+   "place": "United States",
+   "headline": "Comet pills, comet insurance and scotch",
+   "digest": "As the encounter approached, quack sellers offered 'comet pills', and bartenders claimed whisky would protect against cyanogen. A Los Angeles broker sold comet insurance paying 500 dollars to the families of anyone killed. Agents in Washington charged a dollar a week. Reports from several countries told of sealed rooms, people sheltering in caves and wells, and suicides attributed to fear.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Science History Institute"
+  },
+  {
+   "date_iso": "1910-05",
+   "date_display": "early May 1910",
+   "precision": "month",
+   "eye": "press",
+   "place": "Brooklyn",
+   "headline": "A comet party starting at 2 a.m.",
+   "digest": "A Brooklyn hostess invited thirteen guests to watch the comet through her telescope in the early morning hours. Clouds hid it. The press treated the event as society news: for some readers the comet was a party, not a doom.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Science History Institute"
+  },
+  {
+   "date_iso": "1910-05-03",
+   "date_display": "Tuesday 3 May 1910",
+   "precision": "day",
+   "eye": "barnard",
+   "place": "Yerkes, 40-inch",
+   "headline": "A double-winged nucleus",
+   "digest": "Through the 40-inch in the morning sky, the comet's nucleus seemed to throw out two wings. From this date Barnard kept almost daily notes on the brightness of the nucleus and the length of the tail.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barnard 1914, p. 382"
+  },
+  {
+   "date_iso": "1910-05-03",
+   "date_display": "Tuesday 3 May 1910",
+   "precision": "day",
+   "eye": "tebbutt",
+   "place": "Windsor, New South Wales",
+   "headline": "Tebbutt: the tail will very probably reach us",
+   "digest": "Tebbutt told the press that the visible tail was some ten million miles long and that it was very probable it would reach Earth on 19 May. If it did not, he said, Earth would have a very narrow escape. He asked observers to record any atmospheric, meteoric or electrical effects that night. The statement was cabled across the Tasman and printed in Wellington the next day.",
+   "quote": "a very narrow escape",
+   "confidence": "verified",
+   "source_note": "The Dominion, 4 May 1910 (Papers Past)"
+  },
+  {
+   "date_iso": "1910-05-04",
+   "date_display": "Wednesday 4 May 1910",
+   "precision": "day",
+   "eye": "barnard",
+   "place": "Yerkes",
+   "headline": "Power-plant smoke spoils the plate",
+   "digest": "The nucleus looked more symmetrical than the day before. Barnard's exposure was largely ruined by smoke drifting from a power plant. It is a small sign of how industrial the sky over American observatories had become by 1910.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barnard 1914, p. 385"
+  },
+  {
+   "date_iso": "1910-05-05",
+   "date_display": "5–11 May 1910",
+   "precision": "range",
+   "eye": "ritchey",
+   "place": "Mount Wilson, 60-inch reflector",
+   "headline": "The world's largest mirror turns on the comet",
+   "digest": "Ritchey photographed the head of the comet night after night with the 60-inch reflector, in exposures of a minute and a half to 25 minutes. Over the campaign he made 31 plates on 12 nights. At that scale they showed structure near the nucleus that smaller cameras could not resolve.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "AJ 89 (1984) 571"
+  },
+  {
+   "date_iso": "1910-05-13",
+   "date_display": "Friday 13 May 1910",
+   "precision": "day",
+   "eye": "barnard",
+   "place": "Yerkes",
+   "headline": "Nothing to be seen",
+   "digest": "Haze and smoke along the eastern horizon hid every trace of the comet. Barnard recorded the blank morning as faithfully as the good ones, five days before the encounter.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barnard 1914, p. 386"
+  },
+  {
+   "date_iso": "1910-05-17",
+   "date_display": "Tuesday 17 May 1910",
+   "precision": "day",
+   "eye": "barnard",
+   "place": "Yerkes",
+   "headline": "A tail across more than a hundred degrees",
+   "digest": "The sky cleared, and Barnard traced a double tail. A brighter lower branch was separated by a dark gap from a fainter, broader one to the south. He estimated its length at no less than 107 degrees, more than half the sky.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barnard 1914, pp. 376–393"
+  },
+  {
+   "date_iso": "1910-05-18",
+   "date_display": "Wednesday 18 May 1910",
+   "precision": "day",
+   "eye": "barnard",
+   "place": "Yerkes",
+   "headline": "The eve of the crossing: 120 degrees, and an aurora",
+   "digest": "Barnard followed the tail for at least 120 degrees. That night an aurora also appeared, and he noted it but judged it unconnected with the comet. The comet itself was now close to the Sun in the sky, and the Earth was moving towards the region of its tail.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barnard 1914, pp. 391, 399"
+  },
+  {
+   "date_iso": "1910-05-18",
+   "date_display": "Wednesday 18 May 1910",
+   "precision": "day",
+   "eye": "press",
+   "place": "San Francisco",
+   "headline": "A cartoonist's comet",
+   "digest": "The San Francisco Examiner ran a cartoon by Oscar Chopin on the comet, on the eve of the predicted passage. By then the comet had become a stock figure of humour as well as fear in the American press.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Science History Institute (cartoon dated 18 May 1910)"
+  },
+  {
+   "date_iso": "1910-05-19",
+   "date_display": "Thursday 19 May 1910",
+   "precision": "day",
+   "eye": "barnard",
+   "place": "Yerkes",
+   "headline": "Did Earth pass through the tail? Probably today",
+   "digest": "Barnard concluded that Earth most likely crossed the southern branch of the tail on or about 18–19 May, probably on the 19th. He connected this with unusual sky appearances that morning. He was tentative and offered it as a likelihood, not a certainty. No harm and no clear chemical effect were reported.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barnard 1914, pp. 376–377"
+  },
+  {
+   "date_iso": "1910-05-24",
+   "date_display": "Tuesday 24 May 1910",
+   "precision": "day",
+   "eye": "barnard",
+   "place": "Yerkes",
+   "headline": "The nucleus seems to swell",
+   "digest": "During an exposure, the nucleus appeared to grow in size. Barnard cited A. E. Douglass, who reported the nucleus doubling on the same date. The tail, now in the evening sky, was about 25 degrees long to the eye.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barnard 1914, pp. 393, 399"
+  },
+  {
+   "date_iso": "1910-05-25",
+   "date_display": "Wednesday 25 May 1910",
+   "precision": "day",
+   "eye": "knox-shaw",
+   "place": "Helwan",
+   "headline": "A plate that held a hidden jet",
+   "digest": "Knox-Shaw exposed a plate of the comet with the Reynolds reflector. Seventy years later, reanalysis found a small jet pointing away from the Sun on it, and fine dust structure near the nucleus. The plate was a record whose contents outlived its maker's ability to read them.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "arXiv 1305.2289 (Klinglesmith 1981; Larson and Sekanina 1985)"
+  },
+  {
+   "date_iso": "1910-05-29",
+   "date_display": "Sunday 29 May 1910",
+   "precision": "day",
+   "eye": "knox-shaw",
+   "place": "Helwan",
+   "headline": "The comet in the evening sky over the desert",
+   "digest": "Helwan photographed the comet again as it pulled away from the Sun into the evening sky. Knox-Shaw and H. E. Hurst took most of the observatory's long series of plates. This one is among those reproduced in the modern history of the observatory.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "arXiv 1305.2289 (Fig. 13)"
+  },
+  {
+   "date_iso": "1910-05-29",
+   "date_display": "Sunday 29 May 1910 (Meiji 43)",
+   "precision": "day",
+   "eye": "tokyo",
+   "place": "Azabu, Tokyo",
+   "headline": "Tokyo's dated photograph",
+   "digest": "The Tokyo Astronomical Observatory photographed the comet on the evening of 29 May. A print was issued with the date in both Western and Meiji forms. It is the clearest dated East Asian record found for this chapter.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Tokyo Museum Collection, item 6495174"
+  },
+  {
+   "date_iso": "1910-05-29",
+   "date_display": "29–30 May 1910",
+   "precision": "range",
+   "eye": "barnard",
+   "place": "Yerkes",
+   "headline": "The tail traced to sixty-five degrees",
+   "digest": "In the evening sky, Barnard followed the tail out to about 65 degrees. The comet was moving away from both Sun and Earth, but its tail was still spectacular to the eye.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barnard 1914, Table II, p. 399"
+  },
+  {
+   "date_iso": "1910-06-02",
+   "date_display": "2–6 June 1910",
+   "precision": "range",
+   "eye": "ritchey",
+   "place": "Mount Wilson",
+   "headline": "The second run on the 60-inch",
+   "digest": "Ritchey returned to the comet in early June for a second series of plates. With the Moon and the comet's motion against him, these were his last close studies of the head. The best plate of each night was chosen in 1984 for a combined atlas.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "AJ 89 (1984) 571"
+  },
+  {
+   "date_iso": "1910-06-02",
+   "date_display": "2–7 June 1910",
+   "precision": "range",
+   "eye": "slipher",
+   "place": "Lowell Observatory",
+   "headline": "A spectrum calibrated by a passing star",
+   "digest": "With the comet close to the bright star Alpha Sextantis, Slipher took objective-prism plates on which both spectra appeared side by side. The star gave a ready brightness standard. Three of these plates were digitised in 1986 and set beside spectra of the 1986 return.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Carsenty et al. 1986, NTRS 19870005697"
+  },
+  {
+   "date_iso": "1910-06-06",
+   "date_display": "Monday 6 June 1910",
+   "precision": "day",
+   "eye": "barnard",
+   "place": "Yerkes",
+   "headline": "A piece of tail breaks away",
+   "digest": "A long mass was seen receding from the head along the tail. Barnard compared photographs from Yerkes, Honolulu and Beirut to follow it, and estimated that it was speeding away from the comet at roughly 23 to 37 miles a second.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barnard 1914, pp. 379–380, Table I"
+  },
+  {
+   "date_iso": "1910-06-06",
+   "date_display": "about 6 June 1910",
+   "precision": "day",
+   "eye": "ellerman",
+   "place": "Diamond Head",
+   "headline": "Honolulu plates in the hunt for the detached tail",
+   "digest": "Photographs from Honolulu were among those Barnard used to time the detached piece of tail. Ellerman's mid-Pacific station filled the hours when the comet was below the horizon for American observers.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Barnard 1914 (Honolulu photographs); attribution of those plates to Ellerman is inferred from his being the Honolulu observer"
+  },
+  {
+   "date_iso": "1910-06-11",
+   "date_display": "Saturday 11 June 1910",
+   "precision": "day",
+   "eye": "barnard",
+   "place": "Yerkes",
+   "headline": "Last sight with the naked eye",
+   "digest": "Barnard saw the comet with the unaided eye for the last time. From 7 June he had also been noting a slow-moving, faintly luminous haze in the sky that would persist for a year. He could not decide whether it was auroral or had something to do with the comet.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barnard 1914, pp. 375, 403"
+  },
+  {
+   "date_iso": "1910-06-27",
+   "date_display": "Monday 27 June 1910",
+   "precision": "day",
+   "eye": "barnard",
+   "place": "Yerkes",
+   "headline": "The telescope lets it go",
+   "digest": "Barnard's last telescopic observation of the season. His summary judgement, written for publication, was that the return had been magnificent to the eye but disappointing for photography.",
+   "quote": "a disappointment when considered from a photographic standpoint",
+   "confidence": "verified",
+   "source_note": "Barnard 1914, pp. 373, 404"
+  },
+  {
+   "date_iso": "1911-05-18",
+   "date_display": "Thursday 18 May 1911",
+   "precision": "day",
+   "eye": "knox-shaw",
+   "place": "Helwan",
+   "headline": "Helwan's last plate, a year after the scare",
+   "digest": "Knox-Shaw took the final photograph of the comet in a series spanning 632 days, 394 days after perihelion. The faint comet was by then far beyond the orbit of Jupiter's neighbourhood of interest to the press. It is one of the longest photographic runs of the apparition.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "arXiv 1305.2289"
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1909-08-24",
+   "date_display": "24 August 1909",
+   "eye": "knox-shaw",
+   "claim": "Faint image on a Helwan 30-inch plate, identified only after the recovery; measured at Greenwich by Charles Davidson",
+   "form": "recorded",
+   "evidence": "Bulletin of the Helwan Observatory 2 (1911); arXiv 1305.2289",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1909-09-11",
+   "date_display": "11 September 1909",
+   "eye": "wolf",
+   "claim": "Comet recovered photographically at Heidelberg, near the predicted place; the credited discovery of the 1910 return",
+   "form": "recorded",
+   "evidence": "Barnard, ApJ 39 (1914) p. 381",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1909-09-15",
+   "date_display": "15 September 1909",
+   "eye": "barnard",
+   "claim": "First visual observation, by S. W. Burnham with the Yerkes 40-inch",
+   "form": "seen",
+   "evidence": "Barnard 1914 p. 381",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1910-01-17",
+   "date_display": "17 January 1910",
+   "eye": "innes",
+   "claim": "A different comet (C/1910 A1) at perihelion, visible in daylight; later estimates about magnitude −5",
+   "form": "seen",
+   "evidence": "Great January Comet of 1910 (secondary)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1910-02-07",
+   "date_display": "7 February 1910",
+   "eye": "press",
+   "claim": "Yerkes spectrographs report cyanogen in the comet; reported next day under a poison headline",
+   "form": "reported",
+   "evidence": "Science History Institute",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1910-02-08",
+   "date_display": "February 1910",
+   "eye": "flammarion",
+   "claim": "Position A: Flammarion warned that tail gases might endanger life. Position B: he set out a remote hypothetical and himself called the tail a harmless fog",
+   "form": "disputed",
+   "evidence": "NYT report as summarised by the Science History Institute; New York Herald (Paris) late Nov 1909",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1910-04-19",
+   "date_display": "19 April–16 May 1910",
+   "eye": "evershed",
+   "claim": "Spectra show CN and C2 (Swan) bands in the head and CO bands in the tail",
+   "form": "measured",
+   "evidence": "Kodaikanal history, arXiv 0906.0144",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1910-04-20",
+   "date_display": "20 April 1910",
+   "eye": "twain",
+   "claim": "Perihelion of Halley's comet (1835 perihelion 16 November), as Paine footnotes beside Clemens's death",
+   "form": "recorded",
+   "evidence": "Paine 1912, ch. CCXCIII footnote",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1910-05-03",
+   "date_display": "3 May 1910",
+   "eye": "tebbutt",
+   "claim": "Tail estimated ten million miles long; 'very probable' it reaches Earth on 19 May; observers asked to log atmospheric, meteoric and electrical effects",
+   "form": "predicted",
+   "evidence": "The Dominion, 4 May 1910",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1910-05-05",
+   "date_display": "5–11 May and 2–6 June 1910",
+   "eye": "ritchey",
+   "claim": "31 plates on 12 nights with the 60-inch reflector, exposures about 1.5–25 minutes",
+   "form": "recorded",
+   "evidence": "AJ 89 (1984) 571",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1910-05-17",
+   "date_display": "17–18 May 1910",
+   "eye": "barnard",
+   "claim": "Double tail at least 107° long on 17 May and at least 120° on 18 May",
+   "form": "measured",
+   "evidence": "Barnard 1914 pp. 376–393, 399",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1910-05-18",
+   "date_display": "18 May 1910",
+   "eye": "barnard",
+   "claim": "Aurora seen at Yerkes; judged unrelated to the comet",
+   "form": "explained",
+   "evidence": "Barnard 1914 p. 391",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1910-05-19",
+   "date_display": "18–19 May 1910",
+   "eye": "barnard",
+   "claim": "Earth probably crossed the southern tail branch, most likely on 19 May; possibly linked to unusual morning skies (offered as likely, not proven)",
+   "form": "explained",
+   "evidence": "Barnard 1914 pp. 376–377",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1910-05-24",
+   "date_display": "24 May 1910",
+   "eye": "barnard",
+   "claim": "Nucleus appears to swell during exposure; A. E. Douglass independently reports it doubled",
+   "form": "seen",
+   "evidence": "Barnard 1914 p. 393",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1910-06-06",
+   "date_display": "6 June 1910",
+   "eye": "barnard",
+   "claim": "Detached tail mass receding at about 23–37 miles per second, from Yerkes, Honolulu and Beirut plates",
+   "form": "measured",
+   "evidence": "Barnard 1914 pp. 379–380, Table I",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1911-05-18",
+   "date_display": "18 May 1911",
+   "eye": "knox-shaw",
+   "claim": "Last Helwan photograph; series spans 632 days, 394 days after perihelion",
+   "form": "recorded",
+   "evidence": "arXiv 1305.2289",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1909-09-12",
+   "label": "The week of the recovery (11–18 September 1909)",
+   "eyes": [
+    "wolf",
+    "knox-shaw",
+    "barnard",
+    "spectator"
+   ],
+   "note": "Heidelberg's plate, Helwan's catch two days later, the first eye at Yerkes on the 15th, a London weekly on the 18th. From east to west the news moved faster than the comet could be seen. Helwan would soon find it had photographed the comet first, without knowing."
+  },
+  {
+   "date": "1910-01-17",
+   "label": "The comet nobody expected",
+   "eyes": [
+    "innes",
+    "slipher"
+   ],
+   "note": "Johannesburg saw the Great January Comet at its daylight brightest. Flagstaff photographed it as it swung into northern evening skies. For many people this, not Halley's, was the great comet of 1910 they later remembered."
+  },
+  {
+   "date": "1910-02-08",
+   "label": "Cyanogen reaches the front page",
+   "eyes": [
+    "press",
+    "flammarion"
+   ],
+   "note": "A spectral band measured at Yerkes became a gas cloud in a New York headline, by way of a reporter's call to Paris. Flammarion's own published words about fog sit awkwardly beside the remark attributed to him."
+  },
+  {
+   "date": "1910-04-21",
+   "label": "Perihelion week",
+   "eyes": [
+    "twain",
+    "evershed",
+    "ellerman"
+   ],
+   "note": "In Connecticut Clemens died the day after perihelion. In the Palani Hills the Eversheds were photographing and splitting the comet's light before dawn. On Diamond Head Ellerman was days from starting regular plates. One man's prophecy and two instruments' routine fall on the same sky."
+  },
+  {
+   "date": "1910-05-03",
+   "label": "Waiting for the 19th (3–5 May)",
+   "eyes": [
+    "tebbutt",
+    "barnard",
+    "ritchey"
+   ],
+   "note": "At Windsor, in the southern autumn, Tebbutt told the press the tail would very probably reach Earth. At Yerkes, Barnard watched a double-winged nucleus through smoke. On Mount Wilson, Ritchey began his 60-inch series. The southern amateur spoke to the public; the northern professionals spoke to their plates."
+  },
+  {
+   "date": "1910-05-18",
+   "label": "The night of the tail (18–19 May)",
+   "eyes": [
+    "barnard",
+    "press",
+    "tebbutt"
+   ],
+   "note": "Barnard measured 120 degrees of tail and saw an aurora he refused to credit to the comet. San Francisco readers got a cartoon. Tebbutt had asked the world's observers to log every flicker that night. By Barnard's later reckoning Earth probably slipped through the tail's fainter branch, and nothing happened that anyone could measure."
+  },
+  {
+   "date": "1910-05-29",
+   "label": "Evening comet over three continents",
+   "eyes": [
+    "knox-shaw",
+    "tokyo",
+    "barnard"
+   ],
+   "note": "Tokyo and Helwan both dated plates to 29 May. On 29–30 May Barnard traced the tail to 65 degrees over Wisconsin. Read in order of longitude, the same evening passes from Japan to Egypt to America."
+  },
+  {
+   "date": "1910-06-06",
+   "label": "The detached tail (2–7 June)",
+   "eyes": [
+    "barnard",
+    "ellerman",
+    "ritchey",
+    "slipher"
+   ],
+   "note": "Barnard combined plates from Yerkes, Honolulu and Beirut to time a fragment of tail flying off. Ritchey made his last 60-inch plates, and Slipher used a passing star to calibrate his spectra. The world network finally worked as one instrument."
+  }
+ ],
+ "ties": [
+  {
+   "a": "wolf",
+   "b": "knox-shaw",
+   "kind": "opposite sides",
+   "note": "Rival priorities, gently held: Wolf's 11 September plate is the credited recovery; Helwan's 24 August plate is the earliest image."
+  },
+  {
+   "a": "wolf",
+   "b": "barnard",
+   "kind": "mentioned",
+   "note": "Barnard's 1914 paper opens the chronology with 'Dr. Max Wolf' and his 11 September discovery photograph."
+  },
+  {
+   "a": "wolf",
+   "b": "spectator",
+   "kind": "mentioned",
+   "note": "The Spectator's first notice names Wolf of Heidelberg as the discoverer."
+  },
+  {
+   "a": "barnard",
+   "b": "ellerman",
+   "kind": "read each other",
+   "note": "Barnard used Honolulu photographs to follow the detached tail of 6 June; Ellerman and Barnard had both worked at Yerkes in its early years."
+  },
+  {
+   "a": "barnard",
+   "b": "ritchey",
+   "kind": "met",
+   "note": "Ritchey was the optician at Yerkes before he followed Hale to Mount Wilson; he and Barnard had been colleagues there."
+  },
+  {
+   "a": "ellerman",
+   "b": "ritchey",
+   "kind": "met",
+   "note": "Both were members of George Ellery Hale's Mount Wilson staff; Ellerman's Honolulu expedition and Ritchey's 60-inch plates were two arms of the same observatory's campaign."
+  },
+  {
+   "a": "flammarion",
+   "b": "press",
+   "kind": "mentioned",
+   "note": "The New York Times turned to Flammarion for comment on the Yerkes cyanogen finding, and the remark it printed set off the panic."
+  },
+  {
+   "a": "press",
+   "b": "barnard",
+   "kind": "mentioned",
+   "note": "The cyanogen story began with an announcement from Barnard's own observatory, Yerkes."
+  },
+  {
+   "a": "evershed",
+   "b": "press",
+   "kind": "opposite sides",
+   "note": "Evershed's spectra named the same molecules (CN, CO) that the press presented as poison; in the observatory they were evidence of what a comet is made of."
+  },
+  {
+   "a": "innes",
+   "b": "slipher",
+   "kind": "mentioned",
+   "note": "Both recorded the Great January Comet, from the two hemispheres, under different names; it is the comet most often mistaken for Halley's in later memories."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "halley-1066",
+   "note": "The same comet. The 1910 return was predicted from an orbit traced back through apparitions including that of 1066, and the comet's place in the Bayeux Tapestry was retold in the 1910 press."
+  },
+  {
+   "to": "eclipse-1919",
+   "note": "Andrew Crommelin, whose corrected ephemeris sent Knox-Shaw back to his plates, and Charles Davidson, who measured the broken Helwan plate at Greenwich, were the two Greenwich astronomers who went to Sobral, Brazil, for the 1919 eclipse test of Einstein's theory."
+  },
+  {
+   "to": "carrington-1859",
+   "note": "On the night of 18 May 1910 Barnard saw an aurora and declined to attribute it to the comet. The question of what drives aurora, opened by the solar flare and storm of 1859, was still being argued at the time."
+  },
+  {
+   "to": "tunguska-1908",
+   "note": "Two years after the Tunguska blast, the comet's tail made the public ask what a comet striking Earth might do. Later explanations of Tunguska as a fragment of a comet drew on the picture of comet composition built from 1910 spectra like Evershed's and Slipher's."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/documents/aa110074419/halleys-comet",
+   "title": "Halley's Comet, Kodaikanal plate",
+   "caption": "Glass plate from the John Evershed archive, photographed with a reflecting telescope at Kodaikanal Observatory, dated 21 April 1910, the day after perihelion.",
+   "date": "21 April 1910",
+   "credit": "Science Museum Group, John Evershed Archive (EVER/A/1/E108)"
+  },
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/objects/co56479/comet-1910-i-daylight-v-m-slipher",
+   "title": "Comet, 1910 I (Daylight)",
+   "caption": "V. M. Slipher's Lowell Observatory photograph of the Great January Comet of 1910, the unexpected comet often confused with Halley's.",
+   "date": "January 1910",
+   "credit": "Science Museum Group; V. M. Slipher, Lowell Observatory; supplied by the Royal Astronomical Society"
+  },
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/objects/co56583/halleys-comet-e-e-barnard",
+   "title": "Halley's Comet, E. E. Barnard",
+   "caption": "A photograph of Halley's comet credited to E. E. Barnard, held by the Science Museum Group. The catalogue entry gives the exact date of the exposure.",
+   "date": "1910",
+   "credit": "Science Museum Group; E. E. Barnard, Yerkes Observatory"
+  },
+  {
+   "url": "https://museumcollection.tokyo/en/works/6495174",
+   "title": "Halley's Comet: Photographed by the Tokyo Astronomical Observatory, May 29th, 1910",
+   "caption": "A Tokyo Astronomical Observatory print with the date given in both Western and Meiji forms. It is the chapter's East Asian record of the evening comet.",
+   "date": "29 May 1910 (Meiji 43)",
+   "credit": "Tokyo Museum Collection"
+  }
+ ],
+ "further": [
+  {
+   "title": "E. E. Barnard, 'Visual Observations of Halley's Comet in 1910', Astrophysical Journal 39 (1914)",
+   "url": "https://articles.adsabs.harvard.edu/pdf/1914ApJ....39..373B"
+  },
+  {
+   "title": "Science History Institute, 'The Comet Panic of 1910 Revisited'",
+   "url": "https://www.sciencehistory.org/stories/magazine/the-comet-panic-of-1910-revisited/"
+  },
+  {
+   "title": "Harold Knox-Shaw and the Helwan Observatory (arXiv)",
+   "url": "https://arxiv.org/pdf/1305.2289"
+  },
+  {
+   "title": "Albert Bigelow Paine, Mark Twain: A Biography, Vol. III Part 2 (Project Gutenberg)",
+   "url": "https://www.gutenberg.org/cache/epub/2987/pg2987.html"
+  },
+  {
+   "title": "Solar physics at the Kodaikanal Observatory: A Historical Perspective (arXiv)",
+   "url": "https://arxiv.org/pdf/0906.0144"
+  },
+  {
+   "title": "John Tebbutt's observations of Halley's Comet in 1910 (PASA)",
+   "url": "https://ui.adsabs.harvard.edu/abs/10.1017/S1323358000027065"
+  },
+  {
+   "title": "Great January Comet of 1910 (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Great_January_Comet_of_1910"
+  }
+ ],
+ "vantage_key": "0 = the observer at the plate or eyepiece whose instrument made the record; 1 = an institution's dated observatory record; 2 = a commentator near the science; 3 = a witness at a distance through another's account; 4 = the press, reporting news rather than the sky."
+}

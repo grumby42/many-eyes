@@ -1,0 +1,1307 @@
+{
+ "id": "fram",
+ "title": "Fram: The Ship That Drifted and the Men Who Walked",
+ "short_title": "Fram, 1893–1896",
+ "subtitle": "Nansen's polar drift expedition, Arctic Ocean and Franz Josef Land, June 1893 – September 1896",
+ "span": "1893–1896",
+ "intro": [
+  "In June 1893 Fridtjof Nansen sailed from Christiania in a ship built to be trapped. Fram's rounded hull was designed so that the pack ice, instead of crushing her, would squeeze her upwards; Nansen's theory was that a current carried the ice from Siberia across the polar basin, and a ship frozen in north of the New Siberian Islands would drift with it towards the Pole. In late September 1893 she was frozen in. For almost three years she drifted, slowly and often backwards, with thirteen men aboard.",
+  "When it became clear the drift would pass too far south of the Pole, Nansen left the ship on 14 March 1895 with one companion, the stoker Hjalmar Johansen, three sledges, 28 dogs and two kayaks. On 8 April they turned back at 86°14′, the farthest north anyone had reached. They then spent a winter in a stone hut on Franz Josef Land, living on bear and walrus, before a chance meeting in June 1896 with the English explorer Frederick Jackson at Cape Flora. Meanwhile Fram, under Otto Sverdrup, drifted on, reached her own farthest north at about 85°57′, and broke free north of Spitsbergen on 13 August 1896, the very day Nansen landed at Vardø.",
+  "This chapter splits the story into two places that knew nothing of each other: the ship and the hut. Nansen's Farthest North (1897) and Johansen's With Nansen in the North (1899) give the two sides of the sledge journey, the leader's and the subordinate's; their relationship can be measured by one detail, the New Year's Eve 1895 when Nansen at last offered the familiar 'du'. Sverdrup's report, printed in Farthest North, and Bernhard Nordahl's Framgutterne (1898) follow the ship. The navigator Scott Hansen and the doctor Henrik Blessing kept diaries that stayed unpublished for over a century; the Fram Museum's 2020 edition of the crew diaries shows conflict, drinking, homesickness and sharp criticism of Nansen that his book leaves out.",
+  "The encounter at the heart of this chapter is not between peoples but between two expeditions that had no idea they shared the same islands: Jackson's hut at Elmwood and Nansen's hut about a hundred miles north. Jackson's A Thousand Days in the Arctic (1899) gives the host's view of the meeting. The only Indigenous people the expedition met, the Nenets at Khabarova where the dogs came aboard, survive only through Nansen's pages; that is flagged plainly below. At the end, the London press shows how the story reached the world: by telegraph and through a newspaper's paid scoop.",
+  "A note on sources: much of the record here is narrative books built from diaries rather than raw diaries, plus a ship's report, dated photographs and press reports, and the forms are tagged accordingly. I could read the 1897 and 1898 printed texts only in parts, so a few days rest on secondary summaries and are marked 'approx'. Eva Nansen, who waited at Lysaker with their daughter Liv and came north to Hammerfest in August 1896, appears in other people's records; her own letters are in family papers that I could not consult, so she is not given entries of her own."
+ ],
+ "calendar_note": "All dates are Gregorian; Norway used the Gregorian calendar. The ship kept local time, and the sledge party lost exact time after both watches stopped in spring 1895, so their longitudes, though not their dates, became uncertain. Sources differ by a day or two on the farthest north (6, 7 or 8 April 1895; this chapter follows Nansen's diary for 8 April, when he decided to turn back) and on Fram's own farthest north (85°55′ or 85°57′; 16 October or later in autumn 1895).",
+ "eyes": [
+  {
+   "id": "nansen",
+   "name": "Fridtjof Nansen",
+   "short": "Nansen",
+   "life": "1861–1930",
+   "role": "Leader of the Norwegian North Polar Expedition, aged 31–35; zoologist and Greenland-crossing skier",
+   "side": "Norwegian (expedition leader)",
+   "where": "Aboard Fram (1893–95), then on the ice and Franz Josef Land with Johansen",
+   "lat": 81.2,
+   "lon": 55.6,
+   "waypoints": [
+    {
+     "lat": 78.8,
+     "lon": 133.6,
+     "label": "Frozen in, Sep 1893"
+    },
+    {
+     "lat": 84.07,
+     "lon": 102.45,
+     "label": "Leave Fram, 14 Mar 95"
+    },
+    {
+     "lat": 86.23,
+     "lon": 95.0,
+     "label": "86°14′N, 8 Apr 1895"
+    },
+    {
+     "lat": 81.2,
+     "lon": 55.6,
+     "label": "Stone hut, 1895–96"
+    },
+    {
+     "lat": 79.95,
+     "lon": 50.0,
+     "label": "Cape Flora, 17 Jun 96"
+    },
+    {
+     "lat": 70.37,
+     "lon": 31.11,
+     "label": "Vardø, 13 Aug 1896"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "leader; author of the drift theory",
+   "form": "diary (published in revised narrative form)",
+   "language": "Norwegian (English edition 1897)",
+   "authenticity": "Farthest North (Fram over Polhavet, 1897) is built from Nansen's diaries, printed as dated entries but smoothed for publication; the English edition appeared the same year. His original diaries are held by the National Library of Norway and were published with the crew diaries by the Fram Museum in 2020, which show tensions his book plays down.",
+   "bio": "Nansen designed the voyage around a theory: that a current carried ice from Siberia across the polar basin, so a ship built to be squeezed upwards could drift with it. When the drift ran too far south of the Pole, he left the ship to try for it on skis. His diary swings between scientific routine, restless gloom and, in the hut, a stubborn kind of contentment.",
+   "sources": [
+    {
+     "title": "Nansen, Farthest North, vol. I (1897), Project Gutenberg",
+     "url": "https://gutenberg.org/cache/epub/30197/pg30197-images.html"
+    },
+    {
+     "title": "Nansen, Farthest North, vol. II (1897), Project Gutenberg",
+     "url": "https://www.gutenberg.org/ebooks/34120.epub.noimages"
+    },
+    {
+     "title": "Farthest North vol. II, page scans (19th Century Science)",
+     "url": "https://www.geology.19thcenturyscience.org/books/1897-Nansen-FarthestNorth/Vol-2/PDFpages/601.pdf"
+    },
+    {
+     "title": "Fram Museum: The First Fram Expedition 1893–1896",
+     "url": "https://frammuseum.no/polar-history/expeditions/the-first-fram-expedition-1893-1896/"
+    }
+   ]
+  },
+  {
+   "id": "johansen",
+   "name": "Hjalmar Johansen",
+   "short": "Johansen",
+   "life": "1867–1913",
+   "role": "Reserve army lieutenant who signed on as ship's stoker, aged 26; Nansen's only companion on the ice",
+   "side": "Norwegian (crew)",
+   "where": "Aboard Fram, then on the ice and in the stone hut with Nansen",
+   "lat": 81.2,
+   "lon": 55.6,
+   "waypoints": [
+    {
+     "lat": 78.8,
+     "lon": 133.6,
+     "label": "Frozen in, Sep 1893"
+    },
+    {
+     "lat": 84.07,
+     "lon": 102.45,
+     "label": "Leave Fram, 14 Mar 95"
+    },
+    {
+     "lat": 86.23,
+     "lon": 95.0,
+     "label": "86°14′N, 8 Apr 1895"
+    },
+    {
+     "lat": 81.2,
+     "lon": 55.6,
+     "label": "Stone hut, 1895–96"
+    },
+    {
+     "lat": 79.95,
+     "lon": 50.0,
+     "label": "Cape Flora, 17 Jun 96"
+    },
+    {
+     "lat": 70.37,
+     "lon": 31.11,
+     "label": "Vardø, 13 Aug 1896"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the other man in the sleeping bag",
+   "form": "diary (published as a narrative, 1898; English 1899)",
+   "language": "Norwegian (English translation 1899)",
+   "authenticity": "His book Selv-anden paa 86° 14' (1898) appeared in English as With Nansen in the North (1899), translated by H. L. Brækstad. His fuller personal diary, which is more open about friction with Nansen, was published by the Fram Museum in 2020.",
+   "bio": "A national gymnastics champion who took a stoker's berth because it was the only place left, Johansen spent fifteen months alone with Nansen. His account is the subordinate's view: the man who cooked, hauled and waited, who addressed his leader formally until New Year's Eve 1895. Later passed over and humiliated on Amundsen's South Pole expedition, he took his own life in 1913.",
+   "sources": [
+    {
+     "title": "Johansen, With Nansen in the North (1899, tr. H. L. Brækstad), PDF",
+     "url": "https://electriccanadian.com/history/withnanseninnorth.pdf"
+    },
+    {
+     "title": "With Nansen in the North, Canadiana scan",
+     "url": "https://www.canadiana.ca/view/oocihm.07775"
+    },
+    {
+     "title": "Framdagbøkene: crew diaries published by Frammuseet, 2020 (DNVA notice)",
+     "url": "https://dnva.no/sites/default/files/2020-06/Framdagb%C3%B8kene.pdf"
+    },
+    {
+     "title": "ExplorersWeb: Great Explorers, Hjalmar Johansen",
+     "url": "https://explorersweb.com/great-explorers-fredrik-hjalmar-johansen/"
+    }
+   ]
+  },
+  {
+   "id": "sverdrup",
+   "name": "Otto Sverdrup",
+   "short": "Sverdrup",
+   "life": "1854–1930",
+   "role": "Captain of Fram, aged 38–41; commander of the expedition after 14 March 1895",
+   "side": "Norwegian (ship's command)",
+   "where": "Aboard Fram throughout the drift",
+   "lat": 85.95,
+   "lon": 66.0,
+   "waypoints": [
+    {
+     "lat": 70.37,
+     "lon": 31.11,
+     "label": "Vardø, 21 Jul 1893"
+    },
+    {
+     "lat": 78.8,
+     "lon": 133.6,
+     "label": "Frozen in, Sep 1893"
+    },
+    {
+     "lat": 84.07,
+     "lon": 102.45,
+     "label": "Nansen leaves, Mar 95"
+    },
+    {
+     "lat": 85.95,
+     "lon": 66.0,
+     "label": "85°57′N, autumn 1895"
+    },
+    {
+     "lat": 79.72,
+     "lon": 10.9,
+     "label": "Danskøya, Aug 1896"
+    },
+    {
+     "lat": 70.03,
+     "lon": 20.97,
+     "label": "Skjervøy, 20 Aug 1896"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "captain left in command of the drifting ship",
+   "form": "report from his log and diary",
+   "language": "Norwegian (English edition 1897)",
+   "authenticity": "His Report of Captain Otto Sverdrup on the Drifting of the Fram from March 14, 1895 forms the appendix of Farthest North vol. II (p. 601 ff.), written from the ship's log and his own diary. His diary itself appears in the Fram Museum's 2020 edition.",
+   "bio": "A sailor from northern Norway who had crossed Greenland with Nansen in 1888, Sverdrup was the practical seaman of the expedition. His report is spare and exact, but it carries the other half of the story: seventeen months in which eleven men kept a ship alive with no idea whether their leader was alive.",
+   "sources": [
+    {
+     "title": "Farthest North vol. II, page scans (19th Century Science)",
+     "url": "https://www.geology.19thcenturyscience.org/books/1897-Nansen-FarthestNorth/Vol-2/PDFpages/601.pdf"
+    },
+    {
+     "title": "Nansen, Farthest North, vol. II (1897), Project Gutenberg",
+     "url": "https://www.gutenberg.org/ebooks/34120.epub.noimages"
+    },
+    {
+     "title": "Framdagbøkene: crew diaries published by Frammuseet, 2020 (DNVA notice)",
+     "url": "https://dnva.no/sites/default/files/2020-06/Framdagb%C3%B8kene.pdf"
+    }
+   ]
+  },
+  {
+   "id": "scott-hansen",
+   "name": "Sigurd Scott Hansen",
+   "short": "Scott Hansen",
+   "life": "1868–1937",
+   "role": "Navy first lieutenant, aged 24–27, navigator and observer; second in command after March 1895",
+   "side": "Norwegian (navy, scientific staff)",
+   "where": "Aboard Fram; escorted Nansen to the first camp",
+   "lat": 85.95,
+   "lon": 66.0,
+   "waypoints": [
+    {
+     "lat": 59.91,
+     "lon": 10.75,
+     "label": "Christiania, Jun 1893"
+    },
+    {
+     "lat": 78.8,
+     "lon": 133.6,
+     "label": "Frozen in, Sep 1893"
+    },
+    {
+     "lat": 84.07,
+     "lon": 102.45,
+     "label": "First camp, 14 Mar 95"
+    },
+    {
+     "lat": 85.95,
+     "lon": 66.0,
+     "label": "85°57′N, autumn 1895"
+    },
+    {
+     "lat": 70.03,
+     "lon": 20.97,
+     "label": "Skjervøy, 20 Aug 1896"
+    },
+    {
+     "lat": 69.65,
+     "lon": 18.96,
+     "label": "Tromsø, 21 Aug 1896"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the ship's measurer",
+   "form": "diary and observation records",
+   "language": "Norwegian",
+   "authenticity": "Original diaries in the Norwegian Maritime Museum, copy at the National Library; published in transcription by the Fram Museum in 2020. His astronomical, magnetic and weather observations were published in the expedition's Scientific Results. His own diary entries are known to me only through summaries, so his entries here rest on Nansen's and Sverdrup's dated records of his work.",
+   "bio": "Born in Leith, the youngest man aboard, Scott Hansen fixed every position the expedition reported. His diaries, published only in 2020, complain about the mess and disorder on board, criticise the mixed crew and pass sharp judgements on Nansen's personality: moods of the moment, his editors stress, but a needed corrective to the heroic narrative.",
+   "sources": [
+    {
+     "title": "Store norske leksikon: Sigurd Scott Hansen",
+     "url": "https://snl.no/Sigurd_Scott_Hansen"
+    },
+    {
+     "title": "Framdagbøkene: crew diaries published by Frammuseet, 2020 (DNVA notice)",
+     "url": "https://dnva.no/sites/default/files/2020-06/Framdagb%C3%B8kene.pdf"
+    },
+    {
+     "title": "Farthest North vol. II, page scans (19th Century Science)",
+     "url": "https://www.geology.19thcenturyscience.org/books/1897-Nansen-FarthestNorth/Vol-2/PDFpages/601.pdf"
+    }
+   ]
+  },
+  {
+   "id": "blessing",
+   "name": "Henrik Greve Blessing",
+   "short": "Blessing",
+   "life": "1866–1916",
+   "role": "Ship's doctor and botanist, aged 27–30",
+   "side": "Norwegian (scientific staff)",
+   "where": "Aboard Fram throughout",
+   "lat": 78.8,
+   "lon": 133.6,
+   "waypoints": [
+    {
+     "lat": 59.91,
+     "lon": 10.75,
+     "label": "Christiania, Jun 1893"
+    },
+    {
+     "lat": 69.65,
+     "lon": 60.42,
+     "label": "Khabarova, Aug 1893"
+    },
+    {
+     "lat": 78.8,
+     "lon": 133.6,
+     "label": "Frozen in, Sep 1893"
+    },
+    {
+     "lat": 85.95,
+     "lon": 66.0,
+     "label": "85°57′N, autumn 1895"
+    },
+    {
+     "lat": 70.03,
+     "lon": 20.97,
+     "label": "Skjervøy, 20 Aug 1896"
+    },
+    {
+     "lat": 69.65,
+     "lon": 18.96,
+     "label": "Tromsø, 21 Aug 1896"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "a doctor with almost no patients",
+   "form": "diary and letters",
+   "language": "Norwegian",
+   "authenticity": "Only an abridged version had appeared before John David Nielsen, who inherited the archive, published Legen på Fram (2013): the Fram diaries, letters with Nansen, and Historia Morbi, Blessing's own record of his morphine addiction. The 2020 Fram Museum edition also includes him. I did not see his entries for specific days, so his entries below are anchored on dates fixed by Nansen's diary.",
+   "bio": "A young doctor on a ship where nobody fell seriously ill, Blessing spent three years with little medical work, botanising when there was anything to botanise and teaching others first aid. His diaries and his later self-written case history give a rare inside view of boredom and dependency on a polar ship.",
+   "sources": [
+    {
+     "title": "Legen på Fram: Henrik Greve Blessings dagbøker og brev, ed. J. D. Nielsen (2013), NORLA sheet",
+     "url": "https://booksfromnorway.com/books/1108-the-doctor-at-fram-henrik-greve-blessings-diaries-and-letters.pdf"
+    },
+    {
+     "title": "Framdagbøkene: crew diaries published by Frammuseet, 2020 (DNVA notice)",
+     "url": "https://dnva.no/sites/default/files/2020-06/Framdagb%C3%B8kene.pdf"
+    },
+    {
+     "title": "Fram Museum: The Nansen Photographs (2021), with diary extracts from Nansen and seven crew",
+     "url": "https://frammuseum.no/?p=2886"
+    }
+   ]
+  },
+  {
+   "id": "nordahl",
+   "name": "Bernhard Nordahl",
+   "short": "Nordahl",
+   "life": "1862–1922",
+   "role": "Crew member, aged about 31–34 (his exact shipboard duties are not confirmed here)",
+   "side": "Norwegian (crew, lower deck)",
+   "where": "Aboard Fram throughout",
+   "lat": 85.95,
+   "lon": 66.0,
+   "waypoints": [
+    {
+     "lat": 59.91,
+     "lon": 10.75,
+     "label": "Christiania, Jun 1893"
+    },
+    {
+     "lat": 78.8,
+     "lon": 133.6,
+     "label": "Frozen in, Sep 1893"
+    },
+    {
+     "lat": 84.07,
+     "lon": 102.45,
+     "label": "Farewell, 14 Mar 1895"
+    },
+    {
+     "lat": 85.95,
+     "lon": 66.0,
+     "label": "85°57′N, autumn 1895"
+    },
+    {
+     "lat": 79.72,
+     "lon": 10.9,
+     "label": "Andrée's camp, Aug 96"
+    },
+    {
+     "lat": 70.03,
+     "lon": 20.97,
+     "label": "Skjervøy, 20 Aug 1896"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "a 'Fram boy' on the lower deck",
+   "form": "memoir from diary (1898); diary",
+   "language": "Norwegian",
+   "authenticity": "Framgutterne (1898) is a popular narrative written from his diary, digitised by Project Runeberg from National Library scans; chapter headings are not always dated. With the engineer Anton Amundsen he also wrote I ledige stunder. His diary is in the Fram Museum's 2020 edition. Dates below are from his chapter framework and confirmed by Nansen's or Sverdrup's records.",
+   "bio": "Nordahl wrote the only crew book that appeared soon after the voyage, and it is the lower-deck story: festivals, homesickness, dogs, the 'Fram boys' rather than the scientists. It follows the ship when Nansen's story leaves it, from the farewell on the ice to the salute in Skjervøy harbour.",
+   "sources": [
+    {
+     "title": "Bernhard Nordahl, Framgutterne (1898), Project Runeberg",
+     "url": "https://www.runeberg.org/framgutter/"
+    },
+    {
+     "title": "Framdagbøkene: crew diaries published by Frammuseet, 2020 (DNVA notice)",
+     "url": "https://dnva.no/sites/default/files/2020-06/Framdagb%C3%B8kene.pdf"
+    },
+    {
+     "title": "Fram Museum: The Nansen Photographs (2021), with diary extracts from Nansen and seven crew",
+     "url": "https://frammuseum.no/?p=2886"
+    }
+   ]
+  },
+  {
+   "id": "jackson",
+   "name": "Frederick George Jackson",
+   "short": "Jackson",
+   "life": "1860–1938",
+   "role": "English explorer, aged 35–36, leader of the Jackson–Harmsworth expedition, based at Elmwood, Cape Flora",
+   "side": "British (private expedition funded by Alfred Harmsworth)",
+   "where": "Elmwood hut, Cape Flora, Northbrook Island, Franz Josef Land",
+   "lat": 79.95,
+   "lon": 50.0,
+   "waypoints": [
+    {
+     "lat": 51.45,
+     "lon": 0.28,
+     "label": "Greenhithe, Jul 1894"
+    },
+    {
+     "lat": 69.65,
+     "lon": 60.42,
+     "label": "Khabarova, Jul 1894"
+    },
+    {
+     "lat": 79.95,
+     "lon": 50.0,
+     "label": "Cape Flora, 7 Sep 1894"
+    },
+    {
+     "lat": 80.8,
+     "lon": 50.5,
+     "label": "Sledging north, 1895"
+    },
+    {
+     "lat": 79.95,
+     "lon": 50.0,
+     "label": "Meets Nansen, Jun 1896"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the host at the encounter",
+   "form": "journal (published as dated narrative)",
+   "language": "English",
+   "authenticity": "A Thousand Days in the Arctic (1899, two vols., preface by Admiral Sir Leopold McClintock) is arranged from Jackson's journals. He kept his own version of the meeting; Nansen's 1897 account and Jackson's 1899 account agree on the day and differ in emphasis.",
+   "bio": "Jackson had come to map Franz Josef Land, partly hoping it reached towards the Pole; his sledge journeys showed it did not. He was the only other human being within hundreds of miles when two filthy men arrived out of the ice. His record is the host's view of the encounter, from the outside of the strangers' story.",
+   "sources": [
+    {
+     "title": "Jackson, A Thousand Days in the Arctic (1899), bookseller description",
+     "url": "https://pbfa.org/books/a-thousand-days-in-the-arctic-with-a-preface-by-admiral-sir-f-leopold-mcclintock"
+    },
+    {
+     "title": "Store norske leksikon: Frederick George Jackson",
+     "url": "https://snl.no/Frederick_George_Jackson"
+    },
+    {
+     "title": "Jackson–Harmsworth expedition (encyclopedia summary)",
+     "url": "https://worddisk.com/wiki/Jackson-Harmsworth_Expedition"
+    }
+   ]
+  },
+  {
+   "id": "spectator",
+   "name": "The Spectator (London weekly)",
+   "short": "Spectator",
+   "life": "founded 1828",
+   "role": "London weekly review, reporting telegraphed news",
+   "side": "British press",
+   "where": "London",
+   "lat": 51.5,
+   "lon": -0.12,
+   "vantage": 4,
+   "vantage_label": "news by telegraph",
+   "form": "press report",
+   "language": "English",
+   "authenticity": "Page 2 of the 22 August 1896 issue, digitised in The Spectator's archive (OCR has errors: 'Nausea' for Nansen, 'Pram' for Fram).",
+   "bio": "The Spectator was a step removed: it reported the Daily Chronicle's scoop, a summary of Nansen's journal telegraphed from Vardø. It shows how the story reached the world, through a newspaper deal and by wire, while Fram's own fate was still unknown to most readers.",
+   "sources": [
+    {
+     "title": "The Spectator, 22 August 1896, p. 2 (archive)",
+     "url": "https://archive.spectator.co.uk/article/22nd-august-1896/2/the-daily-chronicle-has-beaten-all-its-competitors"
+    }
+   ]
+  },
+  {
+   "id": "nature",
+   "name": "Nature (London science weekly)",
+   "short": "Nature",
+   "life": "founded 1869",
+   "role": "Scientific weekly reporting the expedition's telegrams",
+   "side": "British scientific press",
+   "where": "London",
+   "lat": 51.55,
+   "lon": -0.16999999999999998,
+   "vantage": 4,
+   "vantage_label": "the scientific world, by wire",
+   "form": "press report",
+   "language": "English",
+   "authenticity": "Nature vol. 54, p. 392 (late August 1896); it summarised Daily Chronicle telegrams sent from Skjervøy on 21 and 25 August. I did not confirm the exact issue date.",
+   "bio": "Nature read the Fram's return as a scientific result: depths, temperatures and a drift track that confirmed Nansen's theory of a transpolar current. Its note shows what learned London most wanted from the voyage.",
+   "sources": [
+    {
+     "title": "Nature 54, p. 392 (1896): the Fram's return",
+     "url": "https://www.nature.com/articles/054392a0.pdf"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1893-06-24",
+   "date_display": "Saturday 24 June 1893",
+   "precision": "day",
+   "eye": "johansen",
+   "place": "Christiania (Oslo) harbour",
+   "headline": "Fram leaves Christiania under a grey sky",
+   "digest": "Johansen's book opens with the sailing from Christiania. The weather was dull, but he insists the men's spirits were not; crowds and boats saw them out of the fjord. A stoker's berth was the only place left for him, and he took it gladly.",
+   "quote": "The day was dull and grey",
+   "confidence": "verified",
+   "source_note": "With Nansen in the North (1899), opening chapter; departure date also Fram Museum."
+  },
+  {
+   "date_iso": "1893-08-01",
+   "date_display": "late July – early August 1893",
+   "precision": "range",
+   "eye": "nansen",
+   "place": "Khabarova, Yugor Strait",
+   "headline": "Dogs come aboard at Khabarova among Nenets camps",
+   "digest": "At the settlement of Khabarova on the Yugor Strait the expedition took on its first sledge dogs, brought across Siberia for it. Nansen describes the Nenets (whom he calls Samoyeds) and their reindeer and camps with curiosity and some condescension. Their side of the meeting survives only through his pages.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Farthest North vol. I (Khabarova chapters); Khabarova dogs per Wikipedia summary of the expedition. Exact arrival and departure days not checked."
+  },
+  {
+   "date_iso": "1893-09-10",
+   "date_display": "Sunday 10 September 1893",
+   "precision": "day",
+   "eye": "johansen",
+   "place": "Off Cape Chelyuskin",
+   "headline": "Flags and a salute at Asia's northernmost cape",
+   "digest": "Fram rounded Cape Chelyuskin, the northern tip of Asia, only the second ship to do so after Nordenskiöld's Vega. Johansen records the flags going up and the guns fired as the ship passed. The men felt the expedition had now really begun.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "With Nansen in the North, ch. on the Kara Sea passage (10 Sept 1893)."
+  },
+  {
+   "date_iso": "1893-09-22",
+   "date_display": "Friday 22 September 1893",
+   "precision": "day",
+   "eye": "nansen",
+   "place": "North of Kotelny, New Siberian Islands, c. 78°43′N",
+   "headline": "Fram is frozen into the pack",
+   "digest": "With winter closing in, Nansen let the ship be gripped by the ice north of the New Siberian Islands, where he wanted her to start drifting. The rudder was soon lifted out of harm's way. The ship that was meant to rise above the pressure, rather than be crushed by it, was now part of the floe.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nansen's report left in the hut, Farthest North vol. II (p. 487 scan): frozen in 22 Sept 1893 north of Kotelny at about 78°43′N."
+  },
+  {
+   "date_iso": "1893-10-15",
+   "date_display": "Sunday 15 October 1893",
+   "precision": "day",
+   "eye": "johansen",
+   "place": "Fram, in the pack",
+   "headline": "A bear hunt in the dark",
+   "digest": "Johansen describes the first bear hunt of the drift, carried out in near-darkness around the ship. Two young bears were shot. It is a small episode, but it shows the pattern of the next three years: long sameness broken by sudden excitement on the ice.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "With Nansen in the North, ch. VII–VIII (15 Oct 1893)."
+  },
+  {
+   "date_iso": "1893-12-11",
+   "date_display": "Monday 11 December 1893",
+   "precision": "day",
+   "eye": "nansen",
+   "place": "Fram, Arctic Ocean",
+   "headline": "Organ music in the saloon during the polar night",
+   "digest": "A dated photograph shows Nansen at the saloon organ in the first polar night. Music, reading, cards and electric lamps fed by the ship's windmill-driven dynamo were the defences against the dark. The drift that autumn kept turning back on itself, and his diary records the frustration.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dated photograph bldsa_3c189 in the Nansen–Amundsen gallery of the Norwegian Polar Institute."
+  },
+  {
+   "date_iso": "1894-04-06",
+   "date_display": "Friday 6 April 1894",
+   "precision": "day",
+   "eye": "scott-hansen",
+   "place": "On the ice beside Fram",
+   "headline": "The scientists observe a solar eclipse",
+   "digest": "Scott Hansen, Nansen and Johansen set up instruments on the ice to time a solar eclipse. For the navigator it was a practical chance to check the ship's chronometers and so her longitude, the hardest number on a drifting ship. The photograph survives as a dated record of the work.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dated photograph bldsa_q3c035 (Norwegian Polar Institute gallery); observation work per SNL."
+  },
+  {
+   "date_iso": "1894-11-18",
+   "date_display": "Sunday 18 November 1894",
+   "precision": "day",
+   "eye": "nansen",
+   "place": "Fram, about 82°N",
+   "headline": "Nansen decides to leave the ship with Johansen",
+   "digest": "After a long brooding about the slow drift, Nansen concludes the ship will pass too far south of the Pole and resolves to try for it with dogs and skis. He chooses Johansen as companion and two days later tells the ship's company. Sverdrup will stay in command.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Farthest North vol. II, ch. I, entries 18 and 20 Nov 1894 (Gutenberg #34120)."
+  },
+  {
+   "date_iso": "1894-11-24",
+   "date_display": "Saturday 24 November 1894",
+   "precision": "day",
+   "eye": "scott-hansen",
+   "place": "Fram, about 82°N",
+   "headline": "A strange swing of the magnetic needle",
+   "digest": "Scott Hansen recorded an unusual inclination of the magnetic needle, about 24 degrees, during his observations, and wondered if the northern lights were the cause. Nansen copies the note into his diary. It is a reminder that much of the voyage was simply measuring, hour after hour.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Farthest North vol. II, ch. I, entry 24 Nov 1894, citing Hansen's observation."
+  },
+  {
+   "date_iso": "1895-01-05",
+   "date_display": "Saturday 5 January 1895",
+   "precision": "day",
+   "eye": "nansen",
+   "place": "Fram, about 83°30′N",
+   "headline": "Ice pressure reaches the rail; supplies go out on the floe",
+   "digest": "A great pressure ridge advanced on the ship for days. On the 5th the men moved provisions, sledges and kayaks onto the ice in case Fram was crushed, and the hummock reached the rail. Then she rose out of it, as designed, and the danger passed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Farthest North vol. II, ch. II, entries 3–5 Jan 1895; Schledermann, Arctic 42 (1989)."
+  },
+  {
+   "date_iso": "1895-01-15",
+   "date_display": "Tuesday 15 January 1895",
+   "precision": "day",
+   "eye": "blessing",
+   "place": "Fram, about 83°34′N",
+   "headline": "The doctor teaches the polar party to bandage and splint",
+   "digest": "With almost no illness aboard, the doctor's main task that winter was preparing the two men who would leave. Blessing gave Nansen and Johansen a lesson in bandaging and setting fractures, since on the ice they would have no one else. Nansen records the lesson; Blessing's diaries for the period are in Nielsen's edition.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Date from Farthest North vol. II, ch. II, entry 15 Jan 1895; Blessing's role per Legen på Fram (2013)."
+  },
+  {
+   "date_iso": "1895-02-17",
+   "date_display": "17 February 1895",
+   "precision": "day",
+   "eye": "nansen",
+   "place": "Fram",
+   "headline": "A farewell letter to Eva",
+   "digest": "Before the sledge journey Nansen wrote a letter to his wife, to be carried home by the ship if he did not return. He told her that if he died, his last thought would be of her. It is the most private document of the expedition's planning.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Letter dated 17 Feb 1895, quoted in Wikipedia's article on the expedition (via mirror), from Huntford's biography; not an English original, so no quotation."
+  },
+  {
+   "date_iso": "1895-02-26",
+   "date_display": "Tuesday 26 February 1895",
+   "precision": "day",
+   "eye": "nansen",
+   "place": "Fram, about 83°45′N",
+   "headline": "The first start, and a farewell party",
+   "digest": "After a postponement from the 20th, Nansen and Johansen set off with the sledges, after a farewell party on board the night before. Nansen hands Sverdrup written instructions to take command. The sledges proved too heavy and broke, and they were back aboard within days to repack; a second attempt on the 28th also failed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Farthest North vol. II, ch. II–III, entry 26 Feb 1895; failed starts 26 and 28 Feb per Wikipedia summary."
+  },
+  {
+   "date_iso": "1895-03-10",
+   "date_display": "Sunday 10 March 1895",
+   "precision": "day",
+   "eye": "jackson",
+   "place": "Cape Flora, Franz Josef Land",
+   "headline": "Jackson sledges north, four days before Nansen leaves Fram",
+   "digest": "Jackson set out from Elmwood with Albert Armitage and the Swede Blomkvist, hauling north to see how far the land extended. Neither party knew the other existed in the same sea of ice. His journeys that spring began to show that Franz Josef Land was an archipelago, not a road to the Pole.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Jackson–Harmsworth expedition summary (journey of 10 March 1895); A Thousand Days in the Arctic vol. I."
+  },
+  {
+   "date_iso": "1895-03-14",
+   "date_display": "Thursday 14 March 1895, 11:30 a.m.",
+   "precision": "day",
+   "eye": "sverdrup",
+   "place": "Fram, about 84°04′N, 102°E",
+   "headline": "Sverdrup takes command as Nansen and Johansen leave",
+   "digest": "Sverdrup's report begins at this hour. Scott Hansen, Henriksen and Pettersen helped harness the dogs to the three sledges, and two dogs started a fight that Henriksen had to break up. Then the two men went north, and the ship saluted them.",
+   "quote": "We gave them a parting salute with flag, pennant, and guns.",
+   "confidence": "verified",
+   "source_note": "Sverdrup's report, Farthest North vol. II, p. 601 (scan)."
+  },
+  {
+   "date_iso": "1895-03-14",
+   "date_display": "Thursday 14 March 1895",
+   "precision": "day",
+   "eye": "nansen",
+   "place": "Leaving Fram at 84°04′N",
+   "headline": "Nansen leaves the ship for the Pole",
+   "digest": "With three sledges, 28 dogs and two kayaks, Nansen and Johansen leave Fram for good. Nansen writes of the strange feeling of turning his back on the ship and the men he was responsible for. The ship's company photographed the start.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Farthest North vol. II, ch. III; departure photograph 'The start from the Fram' (vol. II p. 133); Fram Museum."
+  },
+  {
+   "date_iso": "1895-03-14",
+   "date_display": "Thursday 14 March 1895",
+   "precision": "day",
+   "eye": "johansen",
+   "place": "Leaving Fram",
+   "headline": "Johansen leaves as companion, not equal",
+   "digest": "Johansen's account of the departure is that of a subordinate picked for his strength and skiing. He and Nansen still address each other formally, by title, and will do so for nine more months. His diary notes the weight of the loads more than the glory.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "With Nansen in the North, chapter on the departure; formal address until New Year's Eve 1895 per Fram Museum/DNVA notice."
+  },
+  {
+   "date_iso": "1895-03-14",
+   "date_display": "Thursday 14 March 1895",
+   "precision": "day",
+   "eye": "nordahl",
+   "place": "Fram",
+   "headline": "'Farewell, farewell!' on the ice",
+   "digest": "Nordahl's chapter on the parting describes it as a moment pressed into his memory. He sets it after the two failed starts, which he treats as lessons: crossing pack ice full of ridges and open leads was quite unlike the Greenland ice cap. Then the ship settled to waiting.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Framgutterne (1898), ch. VIII, p. 115 (Runeberg); date from Sverdrup's report."
+  },
+  {
+   "date_iso": "1895-03-15",
+   "date_display": "Friday 15 March 1895, 2:30 p.m.",
+   "precision": "day",
+   "eye": "scott-hansen",
+   "place": "First camp, about 7–8 miles from Fram, and back",
+   "headline": "Scott Hansen walks them to the first camp and returns",
+   "digest": "Scott Hansen, with Henriksen and Pettersen, went out with the sledge party to its first camp, some seven or eight miles from the ship, and spent the night there. They came back to Fram the next afternoon. From then on the young lieutenant was second in command of the ship.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sverdrup's report, Farthest North vol. II, p. 601: escort party returned 15 March at 2:30 p.m.; SNL on command."
+  },
+  {
+   "date_iso": "1895-04-08",
+   "date_display": "Monday 8 April 1895",
+   "precision": "day",
+   "eye": "nansen",
+   "place": "Northernmost camp, 86°13.6′N, about 95°E",
+   "headline": "At 86°14′ Nansen decides to turn back",
+   "digest": "The ice had become a chaos of ridges and the drift was carrying them south almost as fast as they walked north. Nansen decides to stop and head for Franz Josef Land; his first reading put the camp at about 86°10′, later corrected to 86°13.6′. It was the farthest north yet reached, beating the previous record by nearly three degrees.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Farthest North vol. II, p. 170 (scan); homeward march began Tues 9 April. Some sources date the farthest camp 7 April; Nansen's hut note gives 6 April."
+  },
+  {
+   "date_iso": "1895-04-08",
+   "date_display": "Monday 8 April 1895",
+   "precision": "day",
+   "eye": "johansen",
+   "place": "Northernmost camp",
+   "headline": "Flags on the farthest north",
+   "digest": "Johansen's book treats the turning point as the climax of the journey and the start of a race south against the season. His relief at turning back is plain. His Norwegian book's title, Selv-anden paa 86°14′, 'two together at 86°14′', makes the number the point of the story.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "With Nansen in the North; Norwegian title per DNVA notice and SPRI catalogue."
+  },
+  {
+   "date_iso": "1895-05-17",
+   "date_display": "Friday 17 May 1895",
+   "precision": "day",
+   "eye": "nordahl",
+   "place": "Fram, about 84°N",
+   "headline": "Constitution Day parade on the ice",
+   "digest": "The eleven men left on Fram held a 17 May parade on the floe, with flags, banners and the dogs wearing rosettes. Nordahl's chapter calls it the national 'freedom day'. It was the ship's first national day without its leader, and it was photographed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dated photograph bldsa_q3c108 (Norwegian Polar Institute gallery); Framgutterne ch. VIII, p. 115."
+  },
+  {
+   "date_iso": "1895-06-23",
+   "date_display": "about 23 June 1895",
+   "precision": "day",
+   "eye": "nordahl",
+   "place": "Fram",
+   "headline": "Midsummer festival on a drifting ship",
+   "digest": "Nordahl's next chapter opens with a midsummer feast, then turns to preparations for a third winter. The drift had stalled and the men did not know whether Nansen and Johansen were still alive. Feasts marked the time when nothing else did.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Framgutterne, ch. IX heading 'Midtsommerfest — Vinterforberedelser' (p. 131); exact day assumed to be St John's Eve."
+  },
+  {
+   "date_iso": "1895-07-24",
+   "date_display": "23–24 July 1895",
+   "precision": "range",
+   "eye": "nansen",
+   "place": "Pack ice north of Franz Josef Land",
+   "headline": "Land, at last",
+   "digest": "After months of the ice and an uncertain longitude, since both watches had stopped and could not be reset, Nansen sees what he is sure is land: white ice-capped islands on the horizon. They had camped for weeks at a place they called Longing Camp waiting for the ice to loosen. The sight did not bring them any closer for another two weeks.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia summary (via mirror): first 'indisputable glimpse' 23 July; Nansen's diary entry of 24 July; stopped watches per hut report."
+  },
+  {
+   "date_iso": "1895-08-06",
+   "date_display": "Tuesday 6 August 1895",
+   "precision": "day",
+   "eye": "nansen",
+   "place": "Edge of the pack, Franz Josef Land",
+   "headline": "Open water, and the kayaks lashed together",
+   "digest": "They reached the edge of the ice, shot the last two dogs, lashed the kayaks into a catamaran and paddled for land. Nansen believed he was near Cape Fligely on the north of the archipelago; in fact he was much farther west. The error would shape the winter.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nansen's hut report, Farthest North vol. II (p. 487 scan): 'August 6, 1895'; Wikipedia summary."
+  },
+  {
+   "date_iso": "1895-09-28",
+   "date_display": "Saturday 28 September 1895",
+   "precision": "day",
+   "eye": "nansen",
+   "place": "Cape Norvegia, Jackson Island, Franz Josef Land",
+   "headline": "The stone hut is finished",
+   "digest": "With winter coming, the two men built a hut of stones, earth and moss, roofed with walrus hides. It was ready on the 28th and was home for eight months. They lived on bear and walrus meat and blubber, which also fed the lamp.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia summary (via mirror): hut ready 28 Sept 1895; Nansen's narrative."
+  },
+  {
+   "date_iso": "1895-10-16",
+   "date_display": "16 October 1895 (date as given by the Fram Museum)",
+   "precision": "day",
+   "eye": "sverdrup",
+   "place": "Fram, north of Franz Josef Land",
+   "headline": "Fram reaches her own farthest north, 85°57′",
+   "digest": "Drifting west north of Franz Josef Land, the ship reached about 85°57′N, only some 20 miles short of Nansen's record. It was proof that the drift theory was right in direction if not in reach. Nobody aboard knew how close the two sledgers had come, or whether they had survived.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Fram Museum page (16 Oct 1895, 85°57′N); Nature 54 p. 392 gives 85°57′; Wikipedia gives 85°55′. Date not checked against Sverdrup's report."
+  },
+  {
+   "date_iso": "1895-12-31",
+   "date_display": "Tuesday 31 December 1895",
+   "precision": "day",
+   "eye": "johansen",
+   "place": "The stone hut, Jackson Island",
+   "headline": "On New Year's Eve, Nansen offers 'du'",
+   "digest": "After nine months of sharing a sleeping bag and still addressing each other formally, Nansen proposed that they use the familiar 'du'. Johansen recorded it in his diary. His diary shows he had been irritated by Nansen and had worked as his servant; the change marks a hard-won equality.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Fram Museum / DNVA notice on the 2020 diary edition; Wikipedia summary: 'On New Year's Eve Johansen recorded that Nansen finally adopted the familiar form'."
+  },
+  {
+   "date_iso": "1896-01-01",
+   "date_display": "New Year 1896",
+   "precision": "day",
+   "eye": "nordahl",
+   "place": "Fram, about 85°N",
+   "headline": "New Year 1896 on the ship",
+   "digest": "Nordahl's chapter 'From New Year 96 to spring' covers the same night on Fram, some 400 miles from the hut. The crew had marked their third New Year in the ice with the usual drink and songs; his chapter moves on to the longing for spring and open water.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Framgutterne, ch. XI heading (p. 166). Content not read in detail."
+  },
+  {
+   "date_iso": "1896-02-25",
+   "date_display": "late February 1896",
+   "precision": "range",
+   "eye": "sverdrup",
+   "place": "Fram, about 84°09′N, 15°E",
+   "headline": "The drift carries Fram west towards Spitsbergen",
+   "digest": "By late February the ship had drifted some 600 miles west of where Nansen left her, to about 84°N, 15°E, perhaps 280 miles north of Spitsbergen. The drift was now clearly carrying her towards the Atlantic. Nobody aboard saw land or icebergs, only hummocky floe ice up to 13 feet thick.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Nature 54, p. 392, summarising Sverdrup's telegram."
+  },
+  {
+   "date_iso": "1896-03-18",
+   "date_display": "Wednesday 18 March 1896",
+   "precision": "day",
+   "eye": "jackson",
+   "place": "Cape Flora, Franz Josef Land",
+   "headline": "Jackson sets out again, sixty miles from the hut",
+   "digest": "Jackson, Armitage and Blomkvist left Elmwood for another sledge journey. Somewhere to the north, Nansen and Johansen were still in their hut, expecting to have to reach Spitsbergen alone. Jackson's routes and theirs crossed the same islands without a meeting.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Jackson–Harmsworth expedition summary (18 March 1896 sledge journey)."
+  },
+  {
+   "date_iso": "1896-05-19",
+   "date_display": "Tuesday 19 May 1896",
+   "precision": "day",
+   "eye": "nansen",
+   "place": "The stone hut, Jackson Island",
+   "headline": "Leaving the hut with a note for posterity",
+   "digest": "Before leaving, Nansen photographed the hut and left a written report inside, saying they were going south-west along the land towards Spitsbergen. The report, summarising the whole voyage since September 1893, was found years later. They set off with the sledges and kayaks.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nansen's hut report, Farthest North vol. II (p. 487 scan)."
+  },
+  {
+   "date_iso": "1896-06-12",
+   "date_display": "about 12 June 1896",
+   "precision": "day",
+   "eye": "nansen",
+   "place": "Coast of Franz Josef Land",
+   "headline": "The kayaks drift away; Nansen swims after them",
+   "digest": "While the men stood on the ice, the lashed kayaks, holding everything they owned, drifted off. Nansen threw off clothes and swam after them through icy water, reached them almost numb, and paddled back. Days later walruses attacked and damaged the kayaks.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia summary (via mirror); exact day from my recollection of Farthest North, not re-checked."
+  },
+  {
+   "date_iso": "1896-06-17",
+   "date_display": "Wednesday 17 June 1896",
+   "precision": "day",
+   "eye": "nansen",
+   "place": "Near Cape Flora, Northbrook Island",
+   "headline": "A voice, a dog, and a man in a check suit",
+   "digest": "Nansen heard a dog bark and then a human voice, went ahead alone and met a clean, neat Englishman. Jackson took a moment to recognise the long-haired, soot-black figure. He told Nansen he had letters for him from home and sent men with sledges to fetch Johansen.",
+   "quote": "You are Nansen, aren't you?",
+   "confidence": "verified",
+   "source_note": "Farthest North vol. II, p. 534 (scan); dialogue as given in Wikipedia's summary of Farthest North."
+  },
+  {
+   "date_iso": "1896-06-17",
+   "date_display": "Wednesday 17 June 1896",
+   "precision": "day",
+   "eye": "jackson",
+   "place": "Elmwood, Cape Flora",
+   "headline": "Jackson finds a wild-looking stranger on the ice",
+   "digest": "Jackson's journal records going out at the sound of shots or voices and first taking the figure for a shipwrecked sailor. He recognised Nansen and brought him to Elmwood, telling him he carried letters for him from home. Later he photographed him once he was washed and shaved.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "A Thousand Days in the Arctic (1899) vol. II; Jackson's assumption of a shipwrecked sailor per Wikipedia summary; Heritage Images plate 'Fridtjof Nansen after his wash and brush up'."
+  },
+  {
+   "date_iso": "1896-06-17",
+   "date_display": "Wednesday 17 June 1896",
+   "precision": "day",
+   "eye": "johansen",
+   "place": "On the ice near Cape Flora",
+   "headline": "Johansen waits with the kayaks",
+   "digest": "Johansen stayed behind with the kayaks while Nansen went to investigate the sounds. When men with sledges came out to fetch him, he learned that the rescue had already happened. His account shows the encounter from the edge: he was not there for the handshake.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "With Nansen in the North; Farthest North vol. II p. 534 (Jackson sends men for Johansen)."
+  },
+  {
+   "date_iso": "1896-06-23",
+   "date_display": "Tuesday 23 June 1896",
+   "precision": "day",
+   "eye": "jackson",
+   "place": "Cape Flora",
+   "headline": "The famous handshake is restaged for the camera",
+   "digest": "Six days after the real meeting, the encounter was restaged and photographed. The picture of the two men greeting each other became the image of the expedition's rescue, the Arctic equivalent of Stanley meeting Livingstone. It is a reconstruction, not a snapshot.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Norwegian Polar Institute gallery, photo bldsa_3c114 (taken 23 June 1896, six days after the meeting)."
+  },
+  {
+   "date_iso": "1896-08-07",
+   "date_display": "Friday 7 August 1896",
+   "precision": "day",
+   "eye": "jackson",
+   "place": "Cape Flora",
+   "headline": "The Windward sails south with Nansen; Jackson stays",
+   "digest": "Jackson's supply ship Windward, which had reached Cape Flora in late July, sailed with Nansen and Johansen aboard. Jackson stayed for a third winter of survey work, which went on until the ship returned in 1897. He had saved the other expedition and given up his own claim to the headlines.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia summary: on 7 August she sailed south; Jackson–Harmsworth expedition summary (Windward returns July 1897)."
+  },
+  {
+   "date_iso": "1896-08-13",
+   "date_display": "Thursday 13 August 1896",
+   "precision": "day",
+   "eye": "nansen",
+   "place": "Vardø, Norway",
+   "headline": "Telegrams from Vardø",
+   "digest": "Landing at Vardø, Nansen went to the telegraph office and sent messages to Prime Minister Hagerup, the King, and his wife. He reported that he had crossed the unknown polar sea and still trusted the ship. Then he learned that the meteorologist Professor Mohn was staying at a hotel in town.",
+   "quote": "I expect the Fram to return this year.",
+   "confidence": "verified",
+   "source_note": "Farthest North vol. II, p. 583 (scan)."
+  },
+  {
+   "date_iso": "1896-08-13",
+   "date_display": "Thursday 13 August 1896",
+   "precision": "day",
+   "eye": "sverdrup",
+   "place": "Open water off north-west Spitsbergen",
+   "headline": "The same day: Fram breaks free",
+   "digest": "After weeks of blasting and steaming through the ice since 19 July, Fram reached open water off Spitsbergen. There Sverdrup met the Tromsø whaling skipper Botolfsen, who knew nothing of Nansen. Sverdrup's report notes the coincidence of the dates.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sverdrup's report, Farthest North vol. II, p. 704 (scan); Nature 54 p. 392; Fram Museum."
+  },
+  {
+   "date_iso": "1896-08-13",
+   "date_display": "August 1896",
+   "precision": "range",
+   "eye": "nordahl",
+   "place": "In the ice north of Spitsbergen",
+   "headline": "A night forcing the ship through the ice",
+   "digest": "Nordahl describes the last fight with the ice: the lane too narrow, the engines used to make the ship an icebreaker, and warping forward until half past four in the morning. The next day went on rudder and propeller repairs, then slow progress south that he calls a real test of patience.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Framgutterne, ch. XIII, p. 194; exact day of this night not given on the page."
+  },
+  {
+   "date_iso": "1896-08-14",
+   "date_display": "about 14 August 1896",
+   "precision": "day",
+   "eye": "nordahl",
+   "place": "Danskøya, Spitsbergen",
+   "headline": "A toast in Swedish punch with Andrée",
+   "digest": "At Danes Island the Fram men visited the Swedish balloonist S. A. Andrée, who was packing up after his failed attempt to fly to the Pole that summer. They drank a toast in Swedish punch. Andrée could tell them nothing of Nansen.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Framgutterne, ch. XIII contents (meeting Andrée and his companions, a toast in Swedish punch); Sverdrup's report p. 704."
+  },
+  {
+   "date_iso": "1896-08-20",
+   "date_display": "Thursday 20 August 1896",
+   "precision": "day",
+   "eye": "sverdrup",
+   "place": "Skjervøy, Troms",
+   "headline": "Fram reaches Norway; Sverdrup telegraphs Nansen",
+   "digest": "Fram steamed into Skjervøy, the first Norwegian harbour, where the crew learned that Nansen and Johansen were home. Sverdrup telegraphed to Nansen, who was at Hammerfest. The ship then made for Tromsø.",
+   "quote": "Arrived in good condition. All well on board.",
+   "confidence": "verified",
+   "source_note": "Fram Museum (Skjervøy 20 Aug); telegram text as given in Farthest North vol. II p. 589 (scan)."
+  },
+  {
+   "date_iso": "1896-08-20",
+   "date_display": "Thursday 20 August 1896",
+   "precision": "day",
+   "eye": "nordahl",
+   "place": "Skjervøy harbour",
+   "headline": "A salute that woke the town",
+   "digest": "Nordahl's last chapter describes making the ship ready for arrival, entering Skjervøy harbour and firing a salute that roused the people. After three years with no news, the 'Fram boys' had come home without losing a man.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Framgutterne ch. XIII contents (p. 194); date from Fram Museum."
+  },
+  {
+   "date_iso": "1896-08-20",
+   "date_display": "Thursday 20 August 1896, morning",
+   "precision": "day",
+   "eye": "nansen",
+   "place": "Hammerfest, aboard Sir George Baden-Powell's yacht Otaria",
+   "headline": "'The Fram has arrived!'",
+   "digest": "Nansen was dressing when the head of the telegraph office came aboard with Sverdrup's message. Johansen, his wife Eva, who had come north to meet him, and his secretary Christofersen were with him. Baden-Powell shouted the news at breakfast, and Nansen ran to tell Eva.",
+   "quote": "The Fram has arrived! The Fram has really arrived!",
+   "confidence": "verified",
+   "source_note": "Farthest North vol. II, pp. 588–590 (scans)."
+  },
+  {
+   "date_iso": "1896-08-21",
+   "date_display": "Friday 21 August 1896",
+   "precision": "day",
+   "eye": "nansen",
+   "place": "Tromsø harbour",
+   "headline": "Alongside the Fram at Tromsø",
+   "digest": "The Otaria steamed into Tromsø and drew alongside Fram, with the yacht's crew giving three times three English cheers. All thirteen men were together for the first time since March 1895. Nansen describes a calm, strange happiness rather than triumph.",
+   "quote": "three times three English cheers",
+   "confidence": "verified",
+   "source_note": "Farthest North vol. II, p. 590 (scan); WHOI history page (rejoined crew the day after Tromsø arrival)."
+  },
+  {
+   "date_iso": "1896-08-22",
+   "date_display": "Saturday 22 August 1896",
+   "precision": "day",
+   "eye": "spectator",
+   "place": "London",
+   "headline": "A newspaper scoop and a record broken",
+   "digest": "The Spectator reports that the Daily Chronicle had beaten its rivals with a summary of Nansen's journal. It tells readers that Nansen and Johansen left the ship in March 1895, that the Pole was not reached, and that the old record was beaten by a wide margin. Of the ship it knew only that she had withstood the ice.",
+   "quote": "approached more nearly by about two hundred and fifty miles",
+   "confidence": "verified",
+   "source_note": "The Spectator, 22 Aug 1896, p. 2 (archive)."
+  },
+  {
+   "date_iso": "1896-08-27",
+   "date_display": "late August 1896",
+   "precision": "range",
+   "eye": "nature",
+   "place": "London",
+   "headline": "Nature reads the drift as science",
+   "digest": "Nature summarises the telegrams sent from Skjervøy: the position where Sverdrup took over, the drift track west, the highest latitude of 85°57′, and depths of 1,800 to 2,200 fathoms. The deep basin and the lack of land were the scientific news. The Pole itself mattered less than the current.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Nature 54, p. 392 (1896); issue date not confirmed."
+  },
+  {
+   "date_iso": "1896-09-09",
+   "date_display": "Wednesday 9 September 1896",
+   "precision": "day",
+   "eye": "nansen",
+   "place": "Christiania (Oslo)",
+   "headline": "Home to Christiania",
+   "digest": "After a triumphant passage down the coast, with celebrations at each town, Fram and her crew sailed into Christiania. Nansen became a national hero at a moment when Norway was pushing for full independence from Sweden. The diaries of the crew, not printed for more than a century, tell a less heroic story of the drift.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Fram Museum (return 9 Sept 1896); Wikipedia summary."
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1895-03-14",
+   "label": "Nansen and Johansen leave Fram for the Pole",
+   "eyes": [
+    "sverdrup",
+    "nansen",
+    "johansen",
+    "scott-hansen",
+    "nordahl"
+   ],
+   "note": "Sverdrup records the hour and the salute; Nansen the strangeness of turning his back on the ship; Johansen the loads and the formal titles; Nordahl a farewell he never forgot. Scott Hansen walks them to the first camp and returns the next afternoon as second in command."
+  },
+  {
+   "date": "1895-04-08",
+   "label": "Farthest north, 86°14′",
+   "eyes": [
+    "nansen",
+    "johansen"
+   ],
+   "note": "Nansen is reckoning drift and ridges and deciding; Johansen is raising a flag and cooking a better dinner. The same number becomes the title of Johansen's book."
+  },
+  {
+   "date": "1895-12-31",
+   "label": "New Year's Eve 1895: hut and ship",
+   "eyes": [
+    "johansen",
+    "nordahl"
+   ],
+   "note": "In the hut Nansen offers Johansen 'du' after nine months together; on Fram, hundreds of miles away, the crew drinks to a third New Year in the ice, not knowing whether the two men are alive."
+  },
+  {
+   "date": "1896-06-17",
+   "label": "The meeting at Cape Flora",
+   "eyes": [
+    "nansen",
+    "jackson",
+    "johansen"
+   ],
+   "note": "Nansen hears a dog and then a voice; Jackson sees what he thinks is a shipwrecked sailor; Johansen waits with the kayaks and misses the moment. Six days later the handshake is restaged for the camera."
+  },
+  {
+   "date": "1896-08-13",
+   "label": "Two arrivals on the same day",
+   "eyes": [
+    "nansen",
+    "sverdrup",
+    "nordahl"
+   ],
+   "note": "Nansen sends telegrams from Vardø saying he expects the ship home; that same day Fram breaks into open water off Spitsbergen, where nobody has heard of him."
+  },
+  {
+   "date": "1896-08-20",
+   "label": "Skjervøy, Hammerfest, Tromsø: the reunion week",
+   "eyes": [
+    "sverdrup",
+    "nordahl",
+    "nansen",
+    "spectator"
+   ],
+   "note": "Sverdrup's telegram leaves Skjervøy as Nordahl's salute wakes the harbour; it reaches Nansen at breakfast in Hammerfest; next day the two parties meet at Tromsø, while London is still reading the newspaper scoop."
+  }
+ ],
+ "ties": [
+  {
+   "a": "nansen",
+   "b": "johansen",
+   "kind": "met",
+   "note": "Fifteen months alone together on the ice and in the hut. Formal address until New Year's Eve 1895; Johansen's diary records irritation and a servant's role before then."
+  },
+  {
+   "a": "nansen",
+   "b": "sverdrup",
+   "kind": "met",
+   "note": "Companions on the 1888 Greenland crossing; Nansen handed Sverdrup command in written instructions on 26 February 1895."
+  },
+  {
+   "a": "nansen",
+   "b": "jackson",
+   "kind": "met",
+   "note": "Jackson rescued Nansen and Johansen at Cape Flora on 17 June 1896 and sent them home on his ship Windward."
+  },
+  {
+   "a": "sverdrup",
+   "b": "scott-hansen",
+   "kind": "met",
+   "note": "Captain and second in command of Fram after March 1895; Scott Hansen's positions underlie Sverdrup's report."
+  },
+  {
+   "a": "nordahl",
+   "b": "sverdrup",
+   "kind": "met",
+   "note": "Nordahl's 1898 book follows the same ship's year as Sverdrup's report, from the lower deck."
+  },
+  {
+   "a": "blessing",
+   "b": "nansen",
+   "kind": "met",
+   "note": "Doctor and leader; their correspondence after the voyage is printed in Legen på Fram (2013)."
+  },
+  {
+   "a": "spectator",
+   "b": "nansen",
+   "kind": "mentioned",
+   "note": "The Spectator reported Nansen's return from a newspaper summary of his journal telegraphed from Vardø."
+  },
+  {
+   "a": "nature",
+   "b": "sverdrup",
+   "kind": "mentioned",
+   "note": "Nature summarised Sverdrup's telegrams from Skjervøy on the drift and its depths."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "north-pole",
+   "note": "Nansen's 86°14′ of April 1895 stood as the farthest north until Umberto Cagni of the Duke of the Abruzzi's expedition passed it in 1900, and his proof of a deep, landless polar basin crossed by drifting ice shaped every later attempt on the Pole."
+  },
+  {
+   "to": "south-pole",
+   "note": "The same ship took Roald Amundsen to Antarctica in 1910–12. Hjalmar Johansen went too, on Nansen's recommendation; after he quarrelled with Amundsen at the Bay of Whales he was left out of the polar party, and he took his own life in 1913."
+  },
+  {
+   "to": "v1:russia-1917",
+   "note": "From 1921 Nansen was the League of Nations' High Commissioner for Refugees, working for the Russians displaced by revolution and civil war; the 'Nansen passport' of 1922 gave stateless refugees an identity document."
+  },
+  {
+   "to": "v1:ww1",
+   "note": "In 1920–22 Nansen ran the League of Nations repatriation of prisoners of war still held after the First World War, many of them in Russia; the hero of Fram became a humanitarian."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://nettarkiv.npolar.no/www.nansenamundsen.no/en/galleries/nansen/fram-expedition/index.html",
+   "title": "The Fram in the ice, March 1895",
+   "caption": "Photograph of the ship frozen in the pack around the time Nansen and Johansen left her (gallery item bldsa_q3c013).",
+   "date": "March 1895",
+   "credit": "National Library of Norway / Norwegian Polar Institute"
+  },
+  {
+   "url": "https://frammuseum.no/polar-history/expeditions/the-first-fram-expedition-1893-1896/",
+   "title": "Nansen bids farewell from the lifeboat",
+   "caption": "Fram Museum photograph of the departure from Norway in 1893, one of several expedition images on its page about the first Fram expedition.",
+   "date": "1893",
+   "credit": "National Library of Norway, via Fram Museum"
+  },
+  {
+   "url": "https://nettarkiv.npolar.no/www.nansenamundsen.no/en/galleries/nansen/fram-expedition/index.html",
+   "title": "17 May parade on the ice, 1895",
+   "caption": "The crew left aboard Fram celebrating Constitution Day with flags and banners, the dogs wearing rosettes (bldsa_q3c108).",
+   "date": "17 May 1895",
+   "credit": "National Library of Norway / Norwegian Polar Institute"
+  },
+  {
+   "url": "https://nettarkiv.npolar.no/www.nansenamundsen.no/en/galleries/nansen/fram-expedition/index.html",
+   "title": "Nansen greets Jackson at Cape Flora",
+   "caption": "The famous handshake, photographed on 23 June 1896, six days after the actual meeting: a restaging for the camera (bldsa_3c114).",
+   "date": "23 June 1896",
+   "credit": "Photograph from the Jackson–Harmsworth expedition; National Library of Norway"
+  },
+  {
+   "url": "https://www.heritage-images.com/preview/2547080",
+   "title": "'Fridtjof Nansen after his wash and brush up', 1896",
+   "caption": "Jackson's photograph of Nansen cleaned up at Elmwood, published in A Thousand Days in the Arctic (1899).",
+   "date": "1896 (published 1899)",
+   "credit": "Frederick George Jackson; Heritage Images"
+  },
+  {
+   "url": "https://nettarkiv.npolar.no/www.nansenamundsen.no/en/galleries/nansen/fram-expedition/index.html",
+   "title": "The Fram crew in Christiania, September 1896",
+   "caption": "Group portrait of the thirteen men after their return; none had been lost (bldsa_3c145).",
+   "date": "September 1896",
+   "credit": "National Library of Norway / Norwegian Polar Institute"
+  }
+ ],
+ "further": [
+  {
+   "title": "Nansen, Farthest North, vol. I (1897), Project Gutenberg",
+   "url": "https://gutenberg.org/cache/epub/30197/pg30197-images.html"
+  },
+  {
+   "title": "Nansen, Farthest North, vol. II (1897), Project Gutenberg",
+   "url": "https://www.gutenberg.org/ebooks/34120.epub.noimages"
+  },
+  {
+   "title": "Johansen, With Nansen in the North (1899, tr. H. L. Brækstad), PDF",
+   "url": "https://electriccanadian.com/history/withnanseninnorth.pdf"
+  },
+  {
+   "title": "Bernhard Nordahl, Framgutterne (1898), Project Runeberg",
+   "url": "https://www.runeberg.org/framgutter/"
+  },
+  {
+   "title": "Fram Museum: The Nansen Photographs (diary extracts from eight men side by side)",
+   "url": "https://frammuseum.no/?p=2886"
+  },
+  {
+   "title": "Norwegian Polar Institute: Nansen gallery, Fram expedition",
+   "url": "https://nettarkiv.npolar.no/www.nansenamundsen.no/en/galleries/nansen/fram-expedition/index.html"
+  },
+  {
+   "title": "Schledermann, 'Fram', Arctic Profiles, Arctic 42 (1989)",
+   "url": "https://pubs.aina.ucalgary.ca/arctic/Arctic42-4-384.pdf"
+  },
+  {
+   "title": "Woods Hole: Nansen and the drift of the Fram",
+   "url": "https://www2.whoi.edu/site/beaufortgyre/history/nansen-and-the-drift-of-the-fram-1893-1896"
+  }
+ ],
+ "vantage_key": "0 = leader, captain, or host at the encounter; 1 = aboard Fram, on the scene of the drift; 2 = nearby; 3 = Norway, at a distance; 4 = London press reading the telegrams."
+}

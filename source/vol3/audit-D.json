@@ -1,0 +1,245 @@
+[
+ {
+  "chapter": "north-pole",
+  "where": "eye:cook",
+  "severity": "error",
+  "problem": "Cook's claimed date (21 Apr 1908) preceded Peary's (6 Apr 1909) by 350 days, not 'a year and a day'; his announcement came five days before Peary's.",
+  "fix": {
+   "text_replace": {
+    "old": "His claim came first, by a year and a day,",
+    "new": "His claimed date came almost a year before Peary's, and his announcement five days before,"
+   }
+  }
+ },
+ {
+  "chapter": "north-pole",
+  "where": "eye:whitney",
+  "severity": "doubt",
+  "problem": "Whitney was in Greenland from August 1908 to August 1909, about a year (as entry 45 says, 'his year in Greenland'), not fourteen months; the fourteen months belong to Cook and his companions.",
+  "fix": {
+   "text_replace": {
+    "old": "his account of the fourteen months",
+    "new": "his account of the year"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "north-pole",
+  "where": "eye:cooks-inughuit",
+  "severity": "doubt",
+  "problem": "Their journey began in March 1908 and the dispute broke in autumn 1909, about eighteen months later, not two years.",
+  "fix": {
+   "text_replace": {
+    "old": "two years later they were the centre of the dispute",
+    "new": "a year and a half later they were at the centre of the dispute"
+   }
+  }
+ },
+ {
+  "chapter": "north-pole",
+  "where": "eye:rasmussen",
+  "severity": "doubt",
+  "problem": "Says Rasmussen was 'the one interviewer' who spoke the language without an interpreter, but Henson, present at the Etah questioning, also spoke Inuktun (as the chapter itself says). Overstated.",
+  "fix": {
+   "text_replace": {
+    "old": "was the one interviewer in this story who spoke the companions' language without needing an interpreter",
+    "new": "was the interviewer outside Peary's camp who spoke the companions' language fluently, without needing an interpreter"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "north-pole",
+  "where": "entry:12",
+  "severity": "doubt",
+  "problem": "Marvin's third supporting party is usually given as Marvin with two Inughuit, Qilluttooq (Kudlooktoo) and Inukitsupaluk (Harrigan); a third companion 'Aarqioq' is doubtful.",
+  "fix": {
+   "digest": "Marvin's third supporting party turns south from 86°38′ with the Inughuit Qilluttooq and Inukitsupaluk. His record of the latitude is one of the few fixes on the ice that do not come from Peary himself."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "north-pole",
+  "where": "entry:10",
+  "severity": "tone",
+  "problem": "Process remark in reader-facing source note ('not checked').",
+  "fix": {
+   "source_note": "Isachsen, Geographical Review 1929 (Goodsell turned back 14 March at 84°29′); Henson's March entries on MacMillan; MacMillan's diaries at Bowdoin College."
+  }
+ },
+ {
+  "chapter": "north-pole",
+  "where": "entry:14",
+  "severity": "tone",
+  "problem": "Process remark in reader-facing source note ('not checked page by page').",
+  "fix": {
+   "source_note": "Henson 1912, ch. 14 (Bartlett's departure, 3 p.m.); Isachsen 1929 (1 April, 87°47′). The memoir detail is from The Log of Bob Bartlett (1928)."
+  }
+ },
+ {
+  "chapter": "north-pole",
+  "where": "entry:28",
+  "severity": "tone",
+  "problem": "Process remark in reader-facing source note ('not checked').",
+  "fix": {
+   "source_note": "Bowdoin Arctic Museum, 'Near the Pole with Peary: Harry Whitney' (first American to meet Cook); OSU chronology; Whitney, Hunting with the Eskimos (1910)."
+  }
+ },
+ {
+  "chapter": "north-pole",
+  "where": "entry:52",
+  "severity": "tone",
+  "problem": "Compiler remark about OCR in reader-facing source note.",
+  "fix": {
+   "source_note": "Dominion (NZ), 23 Dec 1909 (Copenhagen cable naming the Danish Arctic authorities consulted; identification as Rasmussen probable)."
+  }
+ },
+ {
+  "chapter": "north-pole",
+  "where": "entry:52",
+  "severity": "doubt",
+  "problem": "Rasmussen's view is not as 'thin' as stated: he is widely reported to have said, after seeing Cook's submitted observations, that they were a scandal. The closing sentence understates the record.",
+  "fix": {
+   "digest": "December press reports name Rasmussen as one of the Danish Arctic authorities attached to the examination. The man who had spoken up for the Inughuit testimony thus found himself in the room that rejected Cook's papers. He was later widely reported as calling the observations he saw a scandal, though how far he had seen them by 21 December is unclear."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "south-pole",
+  "where": "eye:gran",
+  "severity": "error",
+  "problem": "Tryggve Gran was born on 20 January 1889 (died 8 January 1980); 'aged 22' in 1911 already implies 1889.",
+  "fix": {
+   "text_replace": {
+    "old": "1888–1980",
+    "new": "1889–1980"
+   }
+  }
+ },
+ {
+  "chapter": "south-pole",
+  "where": "intro:1",
+  "severity": "doubt",
+  "problem": "Scott's party found Amundsen's tracks and black flag on 16 January 1912 and reached the Pole on the 17th.",
+  "fix": {
+   "text_replace": {
+    "old": "the day Scott's party reached the Pole and found Amundsen's tracks",
+    "new": "the day Scott's party reached the Pole, a day after finding Amundsen's tracks"
+   }
+  }
+ },
+ {
+  "chapter": "south-pole",
+  "where": "eye:prestrud",
+  "severity": "tone",
+  "problem": "Process remark in reader-facing text ('consulted here').",
+  "fix": {
+   "text_replace": {
+    "old": "not in a surviving Prestrud diary consulted here",
+    "new": "not in any published Prestrud diary"
+   }
+  }
+ },
+ {
+  "chapter": "south-pole",
+  "where": "entry:13",
+  "severity": "error",
+  "problem": "On 16–17 January Amundsen was at about 81°30'S on the Barrier homeward (entry 15), roughly 3° or some 200 miles from Framheim (78°30'S), not 400 miles.",
+  "fix": {
+   "digest": "Amundsen's book gives the Norwegian side in a single sentence: on 16 January the Japanese expedition arrived at the Bay of Whales and landed on the Barrier near Framheim. He was still some 200 miles south at the time and is relaying what Fram's men told him; elsewhere the Norwegians wrote that they admired how far the Japanese had come in so small and poorly equipped a ship."
+  }
+ },
+ {
+  "chapter": "south-pole",
+  "where": "entry:31",
+  "severity": "tone",
+  "problem": "Process remark in reader-facing source note ('not checked here'). Wilson's last diary entry is usually given as 27 February 1912.",
+  "fix": {
+   "source_note": "Wilson's diary (King ed., 1972); the last entries are of late February (usually given as 27 February)."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "south-pole",
+  "where": "entry:45",
+  "severity": "quote",
+  "problem": "Quote is from Mawson's diary, first published in 1988 (post-1929), and is not a world-famous phrase; the source note's justification ('his own short phrase') does not meet the quote rule. Also a process remark in the source note.",
+  "fix": {
+   "quote": "",
+   "source_note": "Mawson diary, 14 Dec 1912 (via Mawson's Huts Foundation, 'Catastrophe'); Mertz's diary records the same day."
+  }
+ },
+ {
+  "chapter": "south-pole",
+  "where": "entry:36",
+  "severity": "doubt",
+  "problem": "Scott's published phrase is 'the act of a brave man and an English gentleman' ('brave soul' is a separate remark in the same entry); the digest conflates them.",
+  "fix": {
+   "digest": "Scott records that Oates asked to be left in his sleeping bag, marched once more, and the next morning said he was going outside and might be some time, and went into the blizzard. They knew he was walking to his death and did not stop him. Scott writes that Oates's last thoughts were of his mother and calls him a brave soul and his going the act of a brave man and an English gentleman. It was Oates's 32nd birthday."
+  }
+ },
+ {
+  "chapter": "everest-1953",
+  "where": "eye:lowe",
+  "severity": "error",
+  "problem": "George Lowe was born 15 January 1924, so he was 29 in spring 1953, not 28.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 28; Hillary's friend",
+    "new": "aged 29; Hillary's friend"
+   }
+  }
+ },
+ {
+  "chapter": "everest-1953",
+  "where": "eye:lambert",
+  "severity": "doubt",
+  "problem": "Raymond Lambert was born 18 October 1914, so he was 37 in May 1952, not 38.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 38, who had lost",
+    "new": "aged 37, who had lost"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "everest-1953",
+  "where": "eye:tenzing",
+  "severity": "error",
+  "problem": "The list of Tenzing's Everest expeditions omits Earl Denman's 1947 attempt; without it the count does not match 'his seventh Everest expedition' in the role field.",
+  "fix": {
+   "text_replace": {
+    "old": "1935, 1936, 1938, and twice with the Swiss in 1952",
+    "new": "1935, 1936, 1938, with Earl Denman in 1947, and twice with the Swiss in 1952"
+   }
+  }
+ },
+ {
+  "chapter": "everest-1953",
+  "where": "eye:tenzing",
+  "severity": "doubt",
+  "problem": "Birthplace framing is muddled: his 1955 memoir places his birth in Nepal (Tsa-chu, near Makalu), while later family accounts (his son Jamling) say Kharta in Tibet; he grew up at Thame in Khumbu. 'Born in Khumbu ... or of Tibetan descent' mixes birthplace and descent.",
+  "fix": {
+   "text_replace": {
+    "old": "born in Khumbu (Nepal) or, by his own later statement, of Tibetan descent",
+    "new": "born in Nepal by his own 1955 account or, by later family accounts, in Tibet's Kharta valley; raised in Khumbu"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "everest-1953",
+  "where": "eye:tenzing",
+  "severity": "doubt",
+  "problem": "Same birthplace issue in the bio: his birth in Khumbu is not established (Nepal near Makalu per his memoir; Kharta, Tibet per later family accounts).",
+  "fix": {
+   "text_replace": {
+    "old": "Born in the Khumbu, raised partly in Tibetan culture",
+    "new": "Born in Nepal or Tibet (accounts differ), raised in the Khumbu partly in Tibetan culture"
+   }
+  },
+  "confidence": "approx"
+ }
+]

@@ -1,0 +1,165 @@
+[
+ {
+  "patch": "ww1",
+  "where": "add_eyes:truman",
+  "severity": "error",
+  "problem": "'Thirty years later, as President, he would end another world war': 1918 to 1945 is 27 years.",
+  "fix": {
+   "bio": "Truman reenlisted at 33 and took command of a rowdy Irish-Catholic Kansas City battery in July 1918, leading it through the Meuse-Argonne. His letters to his future wife are businesslike, boastful about rounds fired, and contemptuous of the enemy. Twenty-seven years later, as President, he would end another world war."
+  }
+ },
+ {
+  "patch": "ww1",
+  "where": "add_eyes:truman",
+  "severity": "doubt",
+  "problem": "Eye id 'truman' is also used in the japan-1945 chapter (same person). Fine if ids are per-chapter. If ids are global (threads_out, cross-links), it collides or should be linked on purpose.",
+  "fix": null
+ },
+ {
+  "patch": "ww1",
+  "where": "add_eyes:cushing",
+  "severity": "error",
+  "problem": "Cushing did not bury McCrae. He attended McCrae's funeral at Wimereux on 29 January 1918.",
+  "fix": {
+   "bio": "The founder of modern neurosurgery spent much of the war at British casualty clearing stations, pioneering techniques for brain wounds (including pulling shell fragments out with a magnet). His journal records the surgeon's eye on the war, and the deaths of friends: his mentor William Osler lost his son Revere, mortally wounded in Flanders in August 1917, and in January 1918 Cushing attended the funeral of the poet John McCrae."
+  }
+ },
+ {
+  "patch": "ww1",
+  "where": "add_entries:9",
+  "severity": "error",
+  "problem": "McCrae died at No. 14 General Hospital, Wimereux (near Boulogne), not at Boulogne itself, and was buried at Wimereux.",
+  "fix": {
+   "place": "Boulogne and Wimereux",
+   "digest": "Cushing records the death of the Canadian physician-poet John McCrae, author of 'In Flanders Fields', from pneumonia and meningitis at No. 14 General Hospital, Wimereux, near Boulogne. He thinks of him as a soldier through and through, and reflects how much McCrae would have hated dying in bed rather than in the field. The next day he describes the burial at Wimereux with military honours."
+  }
+ },
+ {
+  "patch": "ww1",
+  "where": "add_eyes:farmborough",
+  "severity": "doubt",
+  "problem": "Age range: she was born April 1887 and served into 1918, so she was 27 to 31, not 27 to 30.",
+  "fix": {
+   "role": "English governess and tutor in Moscow who qualified as a Red Cross nurse in 1914 and served with a Russian front-line field surgical unit, aged 27–31"
+  }
+ },
+ {
+  "patch": "ww1",
+  "where": "add_entries:12",
+  "severity": "tone",
+  "problem": "'a prejudice of its moment that the source flags' reads as excusing the remark. It should be stated factually, without softening or amplifying.",
+  "fix": {
+   "digest": "At a pacifist rally near the Reichstag the speeches are broken off three times by shooting and once by cannon fire; each time the crowd scatters and drifts back. She records rumours that royalist officers have hidden machine guns. The entry also contains an antisemitic generalisation about the revolution's leaders being Jews."
+  }
+ },
+ {
+  "patch": "ww1",
+  "where": "add_entries:15",
+  "severity": "doubt",
+  "problem": "Details from the 11 November letter (the 'German deadline for acceptance thirty minutes away' and the battery passing ten thousand rounds) could not be confirmed from memory. The 164 rounds and the 'work for France and Belgium for fifty years' line match the known letter. Check the deadline wording against the transcription.",
+  "fix": {
+   "confidence": "approx"
+  }
+ },
+ {
+  "patch": "ww2-europe",
+  "where": "add_eyes:grossman",
+  "severity": "error",
+  "problem": "Age range is wrong. Grossman was born 12 December 1905, so he was 35 in August 1941 and 39 in May 1945.",
+  "fix": {
+   "role": "Novelist serving as a special correspondent of the Red Army newspaper Krasnaya Zvezda (Red Star) from August 1941; aged 35–39"
+  }
+ },
+ {
+  "patch": "ww2-europe",
+  "where": "add_eyes:ringelblum",
+  "severity": "doubt",
+  "problem": "The 'Krysia' bunker is usually given as 81 Grójecka Street, where the memorial plaque is. The bio also skips that he went back into the ghetto on 18 April 1943, was deported to Trawniki and was rescued in summer 1943 before returning to Krysia.",
+  "fix": {
+   "where": "Warsaw ghetto, then from 1943 the 'Krysia' bunker at 81 Grójecka Street on the 'Aryan side'",
+   "confidence": "approx"
+  }
+ },
+ {
+  "patch": "ww2-europe",
+  "where": "add_entries:3",
+  "severity": "doubt",
+  "problem": "Nachum Grzywacz is usually given as 18 in August 1942, not 17. Dawid Graber was 19, which is correct.",
+  "fix": {
+   "confidence": "approx"
+  }
+ },
+ {
+  "patch": "ww2-europe",
+  "where": "add_entries:8",
+  "severity": "doubt",
+  "problem": "The story of soldiers drinking industrial chemicals in the Tiergarten rests on a single secondary source (a review), and the date is unconfirmed. Keep it at approx. Consider attributing it as 'according to a review of the notebooks' unless it is checked against A Writer at War.",
+  "fix": {
+   "confidence": "approx"
+  }
+ },
+ {
+  "patch": "ww2-europe",
+  "where": "add_eyes:raymond",
+  "severity": "doubt",
+  "problem": "The bio states as fact that 'that night his flotilla fought German destroyers'. Saskatchewan was in an escort group, not a flotilla, and the action and sinkings are only Raymond's claim, as the entry itself notes. 'He later settled in the United States, which is why...' is an inference.",
+  "fix": {
+   "bio": "Raymond's destroyer guarded the landing forces rather than carrying them, so his D-Day is seen from the sea: smoke, bombardment, and an ocean full of landing craft. That night, he recorded, his group engaged German destroyers. His diary is now held by the Library of Virginia.",
+   "confidence": "approx"
+  }
+ },
+ {
+  "patch": "ww2-europe",
+  "where": "add_entries:10",
+  "severity": "doubt",
+  "problem": "'That night his flotilla engaged two German destroyers': 'flotilla' should be 'escort group'. The claim is already flagged as his own.",
+  "fix": {
+   "confidence": "approx"
+  }
+ },
+ {
+  "patch": "ww2-europe",
+  "where": "updates:2",
+  "severity": "doubt",
+  "problem": "The new authenticity text says no 3 September 1939 entry has been traced. The companion entry's source_note goes further and says her diary 'begins later in September 1939'. Nella Last's War is commonly said to open at the outbreak of war, so this negative claim is shaky. Keep the softer wording in the update and drop the 'begins later' assertion from add_entries:13's source_note.",
+  "fix": {
+   "confidence": "approx"
+  }
+ },
+ {
+  "patch": "ww2-europe",
+  "where": "add_entries:13",
+  "severity": "doubt",
+  "problem": "The source_note asserts that the diary 'begins later in September 1939'. This is not established; it conflicts with the usual description of Nella Last's War beginning at the outbreak of war.",
+  "fix": {
+   "source_note": "'The diaries of Nella Last' (A Narrative of Their Own, Substack), quoting the entry of Thursday 10 May 1945. Pages from January 1944 to early May 1945 are lost (Wikipedia), so there is no VE Day entry."
+  }
+ },
+ {
+  "patch": "japan-1945",
+  "where": "add_entries:14",
+  "severity": "quote",
+  "problem": "'Disease X' is a quoted coinage from dispatches first published in 2005–06. It is a two-word term rather than a sentence, but it falls under the post-1929 publication rule. Render it unquoted.",
+  "fix": {
+   "digest": "Writing after midnight, Weller reports that the city's hospitals are still losing patients to a strange effect of the bomb. People who thought they had escaped are dying weeks later. The doctors have modern drugs but admit they cannot identify the illness, so they cannot treat it. He gives it a placeholder name, Disease X, and his last dispatch notes that Japanese doctors are hoping the American scientists arriving on 11 September will know what to do."
+  }
+ },
+ {
+  "patch": "japan-1945",
+  "where": "add_convergences:0",
+  "severity": "doubt",
+  "problem": "Guerrero is listed for 2 September, but the patch and base chapter have no Guerrero entry for that date; only the base 29 August postscript covers late August 1945 to July 1946. Either note that his entry is a postscript, or drop him from the eyes list.",
+  "fix": {
+   "note": "Still a thin cluster. No diarist here was aboard the Missouri. A British prisoner in Seoul records the signing as the moment he stopped being a POW, while Guerrero's undated postscript from these weeks describes custody with Axis diplomats at Atami. The ceremony is seen only at second hand, from the edges of Japan's former empire."
+  }
+ },
+ {
+  "patch": "japan-1945",
+  "where": "add_eyes:weller",
+  "severity": "doubt",
+  "problem": "'Within hours his reports turned...' compresses the 8 and 9 September dispatches. 'Within days' is safer.",
+  "fix": {
+   "bio": "Weller slipped into southern Japan without permission and reached Nagasaki about four weeks after the bomb, before any other foreign reporter. His first dispatch defended the bombing. Within days his reports turned to hospital wards where people with no visible wounds were dying of an illness the doctors could not name."
+  }
+ }
+]

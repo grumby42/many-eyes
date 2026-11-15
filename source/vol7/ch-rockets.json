@@ -1,0 +1,1549 @@
+{
+ "id": "rockets",
+ "title": "Rockets, 1926–1957",
+ "short_title": "Rockets",
+ "subtitle": "From Goddard's farm field to Sputnik: Auburn, Berlin, Moscow, Peenemünde, White Sands, Tyuratam, 1920–1969",
+ "span": "1920–1969 (core 1926–1957)",
+ "intro": [
+  "On a snowy March afternoon in 1926 a small frame of pipes on a Massachusetts farm let go a rocket that flew for two and a half seconds. Thirty-one years later a 58-centimetre sphere was beeping round the Earth every 96 minutes, heard by radio amateurs, the BBC and a Moscow newsroom alike. This chapter follows rocketry across those three decades, from the first liquid-fuel hop to orbit.",
+  "The record is uneven. Robert Goddard kept a daily diary and notebooks, but they reached print only in 1970, edited by his widow Esther and G. Edward Pendray. In Germany and the Soviet Union, the amateur rocket societies left test records and minutes, but most first-person accounts are later memoirs by Willy Ley, Rudolf Nebel and Wernher von Braun, each with reasons to shade the story. Sergei Korolev's letters became public only after his death. Most entries are therefore digests of letters, test records, institutional publications and press reports, and each eye's form tag says which.",
+  "Three lines run side by side. Goddard worked almost alone, first with Smithsonian grants and then, through Charles Lindbergh, with Guggenheim money in the New Mexico desert. In Germany, Hermann Oberth's 1923 book set off a public enthusiasm: the Society for Space Travel and its Berlin rocketport, a film premiere, and young volunteers. In Moscow, Friedrich Tsander and Korolev ran GIRD. By the end of 1933 both amateur movements had been absorbed by their armies.",
+  "The German Army line produced the A4, the V-2: the first large liquid-fuel rocket and a weapon. It was built from 1943 in tunnels in the Harz by concentration-camp prisoners. Historians estimate that more of them died in the Mittelbau-Dora camps than were killed by the missile in London, Antwerp and elsewhere. After the war its engineers and hardware were divided between the victors. Under Operation Paperclip von Braun's team came to Texas while captured V-2s flew from White Sands, and Soviet engineers under Korolev rebuilt German work alongside their own.",
+  "The chapter ends on 4 and 5 October 1957, seen from several places: Korolev's midnight call from the steppe, TASS's understated announcement, and the volunteer Moonwatch network in Cambridge, caught unready and sorting real sightings from false ones. The New York Times, which in 1920 had told Goddard a rocket could not work in a vacuum, frames the chapter. It printed its correction in July 1969, as Apollo 11 flew to the Moon."
+ ],
+ "calendar_note": "All dates are Gregorian. The Soviet Union had adopted the Gregorian calendar in 1918, so GIRD and Sputnik dates need no conversion; only Tsander's birth (1887) falls under the old Russian calendar. Times on 4 October 1957 differ by zone: the launch was late evening in Moscow and early evening in the eastern United States.",
+ "eyes": [
+  {
+   "id": "goddard",
+   "short": "Goddard",
+   "name": "Robert Hutchings Goddard",
+   "life": "1882–1945",
+   "role": "Physics professor at Clark University, Worcester, aged 43 in 1926; from 1930 a full-time rocket researcher at Roswell on Guggenheim money; Navy research director 1942–45",
+   "side": "United States; Clark University, Smithsonian and Guggenheim funding",
+   "where": "Clark University and his Aunt Effie Ward's farm at Auburn, Massachusetts; then Mescalero Ranch, Roswell, New Mexico; Annapolis in wartime",
+   "lat": 42.204,
+   "lon": -71.835,
+   "waypoints": [
+    {
+     "lat": 42.251,
+     "lon": -71.823,
+     "label": "Clark University, Worcester"
+    },
+    {
+     "lat": 42.204,
+     "lon": -71.835,
+     "label": "Ward farm, Auburn, 1926–29"
+    },
+    {
+     "lat": 33.42,
+     "lon": -104.52,
+     "label": "Mescalero Ranch, Roswell, 1930–42"
+    },
+    {
+     "lat": 38.98,
+     "lon": -76.49,
+     "label": "Annapolis, Navy work, 1942–45"
+    },
+    {
+     "lat": 39.29,
+     "lon": -76.61,
+     "label": "Baltimore, died 1945"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the inventor at the launch frame",
+   "form": "diary, notebooks, reports and dated letters",
+   "language": "English",
+   "authenticity": "Goddard kept a brief daily diary and detailed notebooks; with his reports and correspondence they were selected and edited by Esther C. Goddard and G. Edward Pendray as The Papers of Robert H. Goddard (3 vols, 1970), now digitised by Clark University. The diary was published long after 1928, so it appears here as digest only. His 1919 Smithsonian monograph is a contemporary publication.",
+   "bio": "A secretive, methodical experimenter who had worked on rocket theory since 1909 and on liquid propellants since the early 1920s. Publicly ridiculed in 1920 for suggesting a rocket could reach the Moon, he became wary of the press and worked with a tiny crew. His record is the most continuous single view of the American line of rocketry from first hop to wartime.",
+   "sources": [
+    {
+     "title": "The Papers of Robert H. Goddard, vol. II (1970), Clark Digital Commons",
+     "url": "https://commons.clarku.edu/papersgoddard/9"
+    },
+    {
+     "title": "March 16, 1926: The First Liquid-Propellant Rocket Launch (Clark Digital Commons)",
+     "url": "https://commons.clarku.edu/goddardlaunch/24"
+    },
+    {
+     "title": "Highlights from the life of Robert H. Goddard (Goddard Memorial)",
+     "url": "https://goddardmemorial.org/Goddard/timeline.html"
+    }
+   ]
+  },
+  {
+   "id": "esther",
+   "short": "Esther Goddard",
+   "name": "Esther Christine Kisk Goddard",
+   "life": "1901–1982",
+   "role": "Former Clark University secretary, married Robert Goddard in June 1924; photographer and filmer of his tests; after 1945 keeper and editor of his papers",
+   "side": "United States; the Goddard household",
+   "where": "Auburn, Massachusetts, in 1926; Mescalero Ranch, Roswell, 1930–42",
+   "lat": 33.42,
+   "lon": -104.52,
+   "waypoints": [
+    {
+     "lat": 42.204,
+     "lon": -71.835,
+     "label": "Auburn, 1926"
+    },
+    {
+     "lat": 33.42,
+     "lon": -104.52,
+     "label": "Roswell, 1930–42"
+    },
+    {
+     "lat": 42.251,
+     "lon": -71.823,
+     "label": "Worcester, editing the papers"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "wife, witness and camera operator",
+   "form": "photographs, film and later editorial work; her words survive mostly in her husband's diary",
+   "language": "English",
+   "authenticity": "Her direct testimony from 1926 survives mainly as remarks her husband recorded in his diary. Her photographs and the Goddard film reels are held at Clark University. Her later role as editor (1970) shaped what of his record was published; she also pursued the patent claim settled by the US government in 1960.",
+   "bio": "She stood in the snowy field at Auburn on 16 March 1926 and spent the Roswell years photographing and filming launches. After her husband's death she turned his near-illegible notes into usable records and fought for his patents and reputation, which makes her both an eyewitness and the curator of the American founding story.",
+   "sources": [
+    {
+     "title": "Esther Goddard: keeper of her husband's legacy (Aerospace America)",
+     "url": "https://aerospaceamerica.aiaa.org/goddardcentennial-legacy/"
+    },
+    {
+     "title": "The Goddard Rocket Film Reels (Clark Digital Commons)",
+     "url": "https://commons.clarku.edu/goddardfilm"
+    }
+   ]
+  },
+  {
+   "id": "abbot",
+   "short": "Smithsonian",
+   "name": "Charles Greeley Abbot and the Smithsonian Institution",
+   "life": "1872–1973",
+   "role": "Astrophysicist; Smithsonian Assistant Secretary, then Secretary 1928–44; Goddard's first sponsor and publisher",
+   "side": "United States; Smithsonian Institution",
+   "where": "Smithsonian Institution, Washington, DC",
+   "lat": 38.8888,
+   "lon": -77.026,
+   "vantage": 3,
+   "vantage_label": "the sponsor and publisher in Washington",
+   "form": "institutional publications and dated correspondence",
+   "language": "English",
+   "authenticity": "The Smithsonian published Goddard's two monographs (1919 and 1936) in its Miscellaneous Collections; Abbot's letters to and about Goddard are printed in The Papers of Robert H. Goddard. Grant dates come from the Goddard Memorial chronology.",
+   "bio": "Abbot read Goddard's 1916 proposal and secured the first $5,000 grant in January 1917, then published both of his foundational papers. The Smithsonian's measured, technical voice sits beside the newspapers' noise.",
+   "sources": [
+    {
+     "title": "The Papers of Robert H. Goddard, vol. II (correspondence with C. G. Abbot)",
+     "url": "https://commons.clarku.edu/papersgoddard/9"
+    },
+    {
+     "title": "Robert Hutchings Goddard (Smithsonian, Pioneers of Flight)",
+     "url": "https://pioneersofflight.si.edu/node/406"
+    }
+   ]
+  },
+  {
+   "id": "nyt",
+   "short": "New York Times",
+   "name": "The New York Times (editorial page and news desk)",
+   "life": "1851–",
+   "role": "Daily newspaper; the 'Topics of The Times' editorial column in 1920, the news pages in 1957 and the editorial correction of 1969",
+   "side": "United States; the press",
+   "where": "Times building, West 43rd Street, New York",
+   "lat": 40.756,
+   "lon": -73.987,
+   "vantage": 4,
+   "vantage_label": "the press, judging from a distance",
+   "form": "dated newspaper editorials and reports",
+   "language": "English",
+   "authenticity": "The 13 January 1920 editorial is a contemporary publication and may be quoted briefly; the 17 July 1969 correction is quoted here only for its widely repeated closing phrase. Wording checked against reproductions of both pieces.",
+   "bio": "The paper's 1920 dismissal of Goddard became the most famous error in American science journalism and, by his own later wariness, shaped how secretive he became. Its correction during Apollo 11 closes the circle this chapter opens.",
+   "sources": [
+    {
+     "title": "NY Times admits moon flight possible (reproduction of the 1920 and 1969 texts, RF Cafe)",
+     "url": "https://www.rfcafe.com/miscellany/factoids/ny-times-admits-moon-flight-possible.htm"
+    }
+   ]
+  },
+  {
+   "id": "lindbergh",
+   "short": "Lindbergh",
+   "name": "Charles Augustus Lindbergh",
+   "life": "1902–1974",
+   "role": "Aviator, aged 27 in 1929, two years after his New York–Paris flight; adviser to the Guggenheim fund",
+   "side": "United States; aviation and philanthropy",
+   "where": "Visited Clark University, Worcester (1929) and Roswell (1935)",
+   "lat": 42.251,
+   "lon": -71.823,
+   "waypoints": [
+    {
+     "lat": 42.251,
+     "lon": -71.823,
+     "label": "Worcester, 23 Nov 1929"
+    },
+    {
+     "lat": 33.42,
+     "lon": -104.52,
+     "label": "Roswell, 23 Sep 1935"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "the famous visitor who brought money",
+   "form": "later writings and photographs; letters in the Goddard papers",
+   "language": "English",
+   "authenticity": "His own reflections on Goddard come from later writings (flag: retrospective). The dates of his visits rest on the Goddard chronology and Smithsonian-captioned photographs.",
+   "bio": "Having read of Goddard's noisy 1929 test, Lindbergh sought him out and became his link to the Guggenheims. He lends a celebrity's credibility to a man the press had mocked, and ties this chapter to the transatlantic flights.",
+   "sources": [
+    {
+     "title": "Charles A. Lindbergh & Rocketry",
+     "url": "https://charleslindbergh.com/rocket/"
+    },
+    {
+     "title": "Harry Guggenheim, Goddard, and Lindbergh at Rocket Launch Tower (Smithsonian)",
+     "url": "https://pioneersofflight.si.edu/node/351"
+    }
+   ]
+  },
+  {
+   "id": "guggenheim",
+   "short": "H. Guggenheim",
+   "name": "Harry Frank Guggenheim",
+   "life": "1890–1971",
+   "role": "Businessman and aviation patron; president of the Daniel Guggenheim Fund for the Promotion of Aeronautics and later of the Daniel and Florence Guggenheim Foundation",
+   "side": "United States; the Guggenheim foundations",
+   "where": "New York; visited Roswell in 1935",
+   "lat": 40.86,
+   "lon": -73.7,
+   "waypoints": [
+    {
+     "lat": 40.86,
+     "lon": -73.7,
+     "label": "Sands Point, Long Island"
+    },
+    {
+     "lat": 33.42,
+     "lon": -104.52,
+     "label": "Roswell, 23 Sep 1935"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "the patron who paid for the desert years",
+   "form": "foundation grants and dated correspondence",
+   "language": "English",
+   "authenticity": "Grant dates from the Goddard chronology and the edited Goddard papers; the Roswell visit date from a Smithsonian-captioned photograph.",
+   "bio": "Guggenheim money, secured with Lindbergh's backing, freed Goddard from teaching and moved him to the open desert. Harry Guggenheim's interest kept the funding alive through the Depression.",
+   "sources": [
+    {
+     "title": "Launching Rocketry (Philanthropy Roundtable)",
+     "url": "https://www.philanthropyroundtable.org/almanac/launching-rocketry/"
+    },
+    {
+     "title": "Photograph, Roswell, 23 September 1935 (Smithsonian)",
+     "url": "https://pioneersofflight.si.edu/node/351"
+    }
+   ]
+  },
+  {
+   "id": "oberth",
+   "short": "Oberth",
+   "name": "Hermann Julius Oberth",
+   "life": "1894–1989",
+   "role": "Transylvanian-German physicist and schoolteacher; author of Die Rakete zu den Planetenräumen (1923); technical adviser to Fritz Lang",
+   "side": "Germany / Romania; the German space-travel movement",
+   "where": "Mediaș, Transylvania, and Berlin",
+   "lat": 52.52,
+   "lon": 13.4,
+   "waypoints": [
+    {
+     "lat": 46.16,
+     "lon": 24.35,
+     "label": "Mediaș, Transylvania"
+    },
+    {
+     "lat": 52.52,
+     "lon": 13.4,
+     "label": "Berlin, 1929–30"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the theorist who tried to build",
+   "form": "published books and test certificates; dated letters",
+   "language": "German",
+   "authenticity": "His books of 1923 and 1929 are contemporary publications; the 1930 Kegeldüse test is recorded by the Chemisch-Technische Reichsanstalt and described by the Smithsonian, which holds a model of the motor. Later interviews and memoirs are retrospective.",
+   "bio": "Oberth reached the case for liquid-fuel, multi-stage space rockets independently of Goddard and published it openly, which made him the prophet of the German movement. His failed attempt to launch a rocket for a film premiere and his successful certified motor test show theory meeting the workbench.",
+   "sources": [
+    {
+     "title": "Hermann Oberth (Linda Hall Library, Scientist of the Day)",
+     "url": "https://www.lindahall.org/about/news/scientist-of-the-day/hermann-oberth/"
+    },
+    {
+     "title": "Model, Rocket Motor, Kegeldüse (National Air and Space Museum)",
+     "url": "https://airandspace.si.edu/collection-objects/model-rocket-motor-kegelduse/nasm_A19850813000"
+    }
+   ]
+  },
+  {
+   "id": "ley",
+   "short": "Willy Ley",
+   "name": "Willy Ley",
+   "life": "1906–1969",
+   "role": "Berlin science writer, aged 21 in 1927; early member and vice-president of the VfR; emigrated to the United States in 1935",
+   "side": "Germany, then United States; the Verein für Raumschiffahrt",
+   "where": "Breslau and Berlin; later New York",
+   "lat": 52.565,
+   "lon": 13.28,
+   "waypoints": [
+    {
+     "lat": 51.11,
+     "lon": 17.03,
+     "label": "Breslau, VfR founded 1927"
+    },
+    {
+     "lat": 52.565,
+     "lon": 13.28,
+     "label": "Raketenflugplatz, Berlin"
+    },
+    {
+     "lat": 40.71,
+     "lon": -74.0,
+     "label": "New York, from 1935"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the movement's chronicler",
+   "form": "memoir (written later), in popular histories",
+   "language": "German and English",
+   "authenticity": "Ley's account of the VfR comes from his later books, especially Rockets (1944) and Rockets, Missiles and Space Travel (1951 and later editions). They are first-hand but retrospective, partisan in the society's internal quarrels, and were revised edition by edition; dates are checked against other sources here.",
+   "bio": "Ley was the movement's publicist and later its historian. His books, written in American exile, did more than any other source to fix the story of the Berlin rocketport in English, including his unflattering portrait of Rudolf Nebel.",
+   "sources": [
+    {
+     "title": "Willy Ley Papers (National Air and Space Museum Archives)",
+     "url": "https://airandspace.si.edu/collection-archive/willy-ley-papers/sova-nasm-xxxx-0098"
+    },
+    {
+     "title": "Verein für Raumschiffahrt (Smithsonian, Pioneers of Flight)",
+     "url": "https://pioneersofflight.si.edu/node/475"
+    }
+   ]
+  },
+  {
+   "id": "nebel",
+   "short": "Nebel",
+   "name": "Rudolf Nebel",
+   "life": "1894–1978",
+   "role": "Engineer and former First World War fighter pilot; organiser and promoter of the Raketenflugplatz Berlin",
+   "side": "Germany; the Verein für Raumschiffahrt",
+   "where": "Raketenflugplatz, Berlin-Reinickendorf",
+   "lat": 52.565,
+   "lon": 13.28,
+   "waypoints": [
+    {
+     "lat": 52.565,
+     "lon": 13.28,
+     "label": "Raketenflugplatz"
+    },
+    {
+     "lat": 52.14,
+     "lon": 13.37,
+     "label": "Kummersdorf, 1932"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the rocketport's manager",
+   "form": "memoir (written later); test records",
+   "language": "German",
+   "authenticity": "Nebel's own account is a memoir published decades later (Die Narren von Tegel, 1972) and is self-justifying; Ley's books are hostile to him. Counts of tests and flights at the site come from society records as summarised by later historians.",
+   "bio": "Nebel found the abandoned ammunition dump that became the rocketport, talked officials and sponsors into support and courted the Army. To admirers he was the impresario who kept the place running; to critics, a showman.",
+   "sources": [
+    {
+     "title": "Verein für Raumschiffahrt (weebau history pages)",
+     "url": "https://weebau.com/history/vereinfurraumschiffahrt.htm"
+    }
+   ]
+  },
+  {
+   "id": "vonbraun",
+   "short": "von Braun",
+   "name": "Wernher Magnus Maximilian Freiherr von Braun",
+   "life": "1912–1977",
+   "role": "VfR volunteer at 18; Army rocket engineer from 1932; technical director at Peenemünde; Nazi Party member from 1937 and SS officer from 1940; after 1945 brought to the United States under Paperclip",
+   "side": "Germany, then United States",
+   "where": "Berlin, Kummersdorf, Peenemünde; Fort Bliss, Texas, and White Sands, New Mexico",
+   "lat": 54.14,
+   "lon": 13.77,
+   "waypoints": [
+    {
+     "lat": 52.565,
+     "lon": 13.28,
+     "label": "Raketenflugplatz, 1930"
+    },
+    {
+     "lat": 52.14,
+     "lon": 13.37,
+     "label": "Kummersdorf, 1932"
+    },
+    {
+     "lat": 54.14,
+     "lon": 13.77,
+     "label": "Peenemünde, 1937–45"
+    },
+    {
+     "lat": 51.53,
+     "lon": 10.75,
+     "label": "Mittelwerk, Nordhausen"
+    },
+    {
+     "lat": 31.81,
+     "lon": -106.42,
+     "label": "Fort Bliss, 1945–50"
+    },
+    {
+     "lat": 32.38,
+     "lon": -106.48,
+     "label": "White Sands"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the engineer inside the weapons programme",
+   "form": "later accounts and interviews; wartime documents",
+   "language": "German and English",
+   "authenticity": "His own narratives (articles and interviews from the 1950s onward) are retrospective and minimised his knowledge of forced labour; historians, notably Michael Neufeld, have tested them against wartime records. Entries here follow the documented record rather than his later self-account.",
+   "bio": "Von Braun moved from the amateur rocketport to Army employment within two years and led the technical work that produced the A4 (V-2). The same weapon was built in underground tunnels by concentration-camp prisoners. His career joins the hopeful amateur era, the war and the American programme.",
+   "sources": [
+    {
+     "title": "Wernher von Braun and the Nazi rocket program: interview with Michael Neufeld (National WWII Museum)",
+     "url": "https://www.nationalww2museum.org/war/articles/wernher-von-braun-and-nazi-rocket-program-interview-michael-neufeld-phd-national-air"
+    },
+    {
+     "title": "Von Braun, the V-2, and Slave Labor (White Sands Missile Range Museum)",
+     "url": "https://wsmrmuseum.com/2020/07/27/von-braun-the-v-2-and-slave-labor/4/"
+    }
+   ]
+  },
+  {
+   "id": "tsander",
+   "short": "Tsander",
+   "name": "Friedrich Arturovich Tsander (Fridrihs Canders)",
+   "life": "1887–1933",
+   "role": "Riga-born engineer, founding member of GIRD in Moscow and head of its first brigade",
+   "side": "Soviet Union; GIRD",
+   "where": "Moscow",
+   "lat": 55.75,
+   "lon": 37.62,
+   "waypoints": [
+    {
+     "lat": 55.75,
+     "lon": 37.62,
+     "label": "Moscow, GIRD"
+    },
+    {
+     "lat": 43.91,
+     "lon": 42.72,
+     "label": "Kislovodsk, died March 1933"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the dreamer who did not see the launch",
+   "form": "published papers and engine designs",
+   "language": "Russian",
+   "authenticity": "His papers (including a 1924 article in Tekhnika i Zhizn) were gathered in Soviet collections after his death; his motto is recorded by colleagues. Little of his private writing is available in translation.",
+   "bio": "A space-travel enthusiast since youth, Tsander designed the OR-1 and OR-2 engines and gave GIRD its spirit. He died of typhus months before the first Soviet liquid-propellant rocket flew, and his engine powered the GIRD-X after his death.",
+   "sources": [
+    {
+     "title": "Fridrikh Tsander (Wikiwand)",
+     "url": "https://www.wikiwand.com/en/articles/Fridrikh_Tsander"
+    },
+    {
+     "title": "Group for the Study of Reactive Motion",
+     "url": "https://en.wikipedia.org/wiki/Group_for_the_Study_of_Reactive_Motion"
+    }
+   ]
+  },
+  {
+   "id": "korolev",
+   "short": "Korolev",
+   "name": "Sergei Pavlovich Korolev",
+   "life": "1907–1966",
+   "role": "Aircraft engineer, aged 26 in 1933, leader of GIRD's test work; arrested in 1938 and imprisoned; after the war the Chief Designer of the R-7 that launched Sputnik",
+   "side": "Soviet Union",
+   "where": "Moscow and the Nakhabino range; Tyuratam launch site in 1957",
+   "lat": 55.75,
+   "lon": 37.62,
+   "waypoints": [
+    {
+     "lat": 55.84,
+     "lon": 37.18,
+     "label": "Nakhabino, 17 Aug 1933"
+    },
+    {
+     "lat": 55.75,
+     "lon": 37.62,
+     "label": "Moscow, GIRD/RNII"
+    },
+    {
+     "lat": 45.92,
+     "lon": 63.34,
+     "label": "Tyuratam, 4 Oct 1957"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "test leader, prisoner, chief designer",
+   "form": "test records; letters (through later publications)",
+   "language": "Russian",
+   "authenticity": "The handwritten GIRD-09 test record, signed by Korolev and others on the evening of 17 August 1933, is preserved at the Russian Academy of Sciences. His private letters reached print only after his death, chiefly through his daughter Natalia Koroleva's documentary biography; his name was secret until 1966. Flag: later publication.",
+   "bio": "Korolev ran the field test of GIRD-09, survived arrest and the camps of the Great Purge, and returned to lead the Soviet missile programme. His anonymity in 1957 is part of the story: the world heard the satellite, not its maker.",
+   "sources": [
+    {
+     "title": "85 years ago: the USSR launched its first rocket using liquid propellant (RussianSpaceWeb)",
+     "url": "https://russianspaceweb.com/gird09.html"
+    },
+    {
+     "title": "Sergei Korolev: Architect of Soviet Space Program (Space.com)",
+     "url": "https://www.space.com/34396-korolev-biography.html"
+    }
+   ]
+  },
+  {
+   "id": "tass",
+   "short": "TASS / Pravda",
+   "name": "TASS (Telegraph Agency of the Soviet Union) and Pravda",
+   "life": "1925–1992 (TASS as named)",
+   "role": "State news agency and Communist Party daily",
+   "side": "Soviet Union; official press",
+   "where": "Moscow",
+   "lat": 55.757,
+   "lon": 37.6,
+   "vantage": 3,
+   "vantage_label": "the official announcement",
+   "form": "dated news announcements",
+   "language": "Russian",
+   "authenticity": "The TASS communiqué of 5 October 1957 and Pravda's front pages of 5 and 6 October are contemporary publications; their placement is described by Sergei Khrushchev, who was present at his father's side that night.",
+   "bio": "The Soviet press first treated the satellite as a short technical communiqué, then, as world reaction poured in, turned it into front-page triumph. The shift itself is a record of how the meaning of the launch was made.",
+   "sources": [
+    {
+     "title": "We Shocked the World (Sergei Khrushchev, Air & Space)",
+     "url": "https://www.smithsonianmag.com/air-space-magazine/we-shocked-the-world-19693460/"
+    }
+   ]
+  },
+  {
+   "id": "hynek",
+   "short": "Hynek",
+   "name": "J. Allen Hynek and the Moonwatch network",
+   "life": "1910–1986",
+   "role": "Astronomer; in 1946 worked on the APL camera flown on a White Sands V-2; in 1957 director of the Smithsonian Astrophysical Observatory's satellite-tracking programme, which ran Operation Moonwatch",
+   "side": "United States; Smithsonian Astrophysical Observatory and volunteer observers",
+   "where": "Cambridge, Massachusetts; earlier White Sands, New Mexico",
+   "lat": 42.381,
+   "lon": -71.128,
+   "waypoints": [
+    {
+     "lat": 32.38,
+     "lon": -106.48,
+     "label": "White Sands, 1946"
+    },
+    {
+     "lat": 42.381,
+     "lon": -71.128,
+     "label": "SAO, Cambridge, 1957"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "the trackers and volunteer watchers",
+   "form": "observatory records, station reports and contemporary press reports",
+   "language": "English",
+   "authenticity": "The Smithsonian Institution Archives keep the SAO's notes of reports from US Moonwatch stations for 4 October 1957; the Harvard Crimson of 5 October 1957 reported the night's work as it happened. The 1946 camera flight is documented by the Applied Physics Laboratory.",
+   "bio": "Moonwatch was a network of volunteer teams with small telescopes, set up for the International Geophysical Year and not ready when the first satellite went up ahead of schedule. Hynek's observatory became an overnight news and tracking centre, a view from the side that was surprised.",
+   "sources": [
+    {
+     "title": "Right Places at the Right Time (Smithsonian Institution Archives)",
+     "url": "https://siarchives.si.edu/blog/right-places-right-time"
+    },
+    {
+     "title": "Russians launch artificial satellite (Harvard Crimson, 5 October 1957)",
+     "url": "https://www.thecrimson.com/article/1957/10/5/russians-launch-artificial-satellite-prussias-announcement/"
+    },
+    {
+     "title": "First Pictures: The View of Earth from Space, 24 October 1946 (Drew Ex Machina)",
+     "url": "https://www.drewexmachina.com/2021/10/24/first-pictures-the-view-of-earth-from-space-october-24-1946/"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1919-12",
+   "date_display": "December 1919 (issued; press coverage January 1920)",
+   "precision": "month",
+   "eye": "abbot",
+   "place": "Smithsonian Institution, Washington",
+   "headline": "Smithsonian prints Goddard's 'A Method of Reaching Extreme Altitudes'",
+   "digest": "The Smithsonian issued Goddard's monograph in its Miscellaneous Collections (vol. 71, no. 2). Most of it was sober mathematics on rockets for weather and upper-air research. A short closing passage on firing a flash-powder charge to the Moon, to be seen by telescope on impact, was what the newspapers seized on.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Goddard Memorial chronology (1919, vol. 71 no. 2); exact issue date not confirmed, so month given as approx."
+  },
+  {
+   "date_iso": "1920-01-13",
+   "date_display": "Tuesday 13 January 1920",
+   "precision": "day",
+   "eye": "nyt",
+   "place": "New York",
+   "headline": "Editorial says Goddard ignores action and reaction",
+   "digest": "An unsigned 'Topics of The Times' piece doubted that a rocket could work in the vacuum beyond the air, arguing it would have nothing to push against. It suggested the professor did not grasp the relation of action to reaction. The error was the editorialist's: Newton's third law needs no air.",
+   "quote": "he only seems to lack the knowledge ladled out daily in high schools",
+   "confidence": "verified",
+   "source_note": "Text reproduced by RF Cafe and widely reprinted; date 13 January 1920."
+  },
+  {
+   "date_iso": "1923-06",
+   "date_display": "June 1923",
+   "precision": "month",
+   "eye": "oberth",
+   "place": "Mediaș, Transylvania; published in Munich",
+   "headline": "Oberth's 'The Rocket into Planetary Space' appears",
+   "digest": "His rejected doctoral dissertation, printed largely at his own expense, argued that liquid-fuel, multi-stage rockets could leave the Earth and carry people. It was dense with formulas yet became the founding text of the German space-travel enthusiasm.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Linda Hall Library; Verein für Raumschiffahrt article (June 1923)."
+  },
+  {
+   "date_iso": "1924",
+   "date_display": "1924",
+   "precision": "year",
+   "eye": "tsander",
+   "place": "Moscow",
+   "headline": "Tsander publishes on interplanetary flight",
+   "digest": "In the journal Tekhnika i Zhizn Tsander set out his ideas for flight between planets, including using spent parts of a craft as extra fuel. He was by then lecturing to anyone who would listen; his slogan, remembered by colleagues, was a call to go on to Mars.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikiwand biography of Fridrikh Tsander (1924 paper)."
+  },
+  {
+   "date_iso": "1926-03-16",
+   "date_display": "Tuesday 16 March 1926",
+   "precision": "day",
+   "eye": "goddard",
+   "place": "Ward farm, Auburn, Massachusetts",
+   "headline": "Nell rises 41 feet and lands 184 feet away",
+   "digest": "Goddard drove out to his aunt's snowy farm with his machinist Henry Sachs; Esther and Percy Roope came at about one. At about 2.30 the small gasoline-and-liquid-oxygen rocket was lit. His diary entry that day is brief and factual: it rose 41 feet and travelled 184 feet in 2.5 seconds, after the lower half of the nozzle had burned off.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Papers of Robert H. Goddard (1970), diary 16 March 1926, as summarised by This Day in Aviation and Clark University."
+  },
+  {
+   "date_iso": "1926-03-16",
+   "date_display": "Tuesday 16 March 1926",
+   "precision": "day",
+   "eye": "esther",
+   "place": "Ward farm, Auburn, Massachusetts",
+   "headline": "Esther watches the first liquid-fuel flight",
+   "digest": "Esther Goddard stood with Sachs and Roope as the rocket left its frame. As her husband noted the next day, she likened its start to a fairy or a dancer. Afterwards the three posed with the scorched parts for a photograph that went into his report.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Goddard diary 17 March 1926 (her remark); Clark Digital Commons Figure 128, photograph of 16 March 1926."
+  },
+  {
+   "date_iso": "1926-03-17",
+   "date_display": "Wednesday 17 March 1926",
+   "precision": "day",
+   "eye": "goddard",
+   "place": "Worcester, Massachusetts",
+   "headline": "A fuller diary account: no roar, a slow start",
+   "digest": "A day later Goddard wrote at more length. The rocket had not leapt but seemed to hesitate, then climbed and sped up before curving left into the ice and snow. He was struck that there was none of the smoke or loud roar he had expected.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Papers of Robert H. Goddard (1970), diary 17 March 1926 (This Day in Aviation)."
+  },
+  {
+   "date_iso": "1927-07-05",
+   "date_display": "Tuesday 5 July 1927",
+   "precision": "day",
+   "eye": "ley",
+   "place": "Golden Sceptre inn, Breslau",
+   "headline": "The Society for Space Travel is founded",
+   "digest": "In the back room of an inn in Breslau, Johannes Winkler and a handful of enthusiasts formed the Verein für Raumschiffahrt to raise money for rocket experiments. Willy Ley, a young Berlin writer, soon became one of its leading voices and later its historian.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Weebau VfR history (5 July 1927, Goldenen Zeptor, Breslau); one encyclopaedia gives 5 June, so the day is marked approx."
+  },
+  {
+   "date_iso": "1929-07-17",
+   "date_display": "Wednesday 17 July 1929",
+   "precision": "day",
+   "eye": "goddard",
+   "place": "Ward farm, Auburn",
+   "headline": "An instrumented rocket and a town in uproar",
+   "digest": "Goddard's last Auburn flight carried a barometer, a thermometer and a camera set to fire when the parachute opened; all three were recovered. The noise was heard across town, people feared an aircraft had crashed, and wire stories spoke of a moon rocket exploding. Fire officials then barred further tests there.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NPS, Goddard Rocket Launching Site; Goddard Memorial chronology (first instrument-carrying rocket)."
+  },
+  {
+   "date_iso": "1929-10-15",
+   "date_display": "Tuesday 15 October 1929",
+   "precision": "day",
+   "eye": "oberth",
+   "place": "Berlin",
+   "headline": "Woman in the Moon premieres without its rocket",
+   "digest": "Fritz Lang's film opened in Berlin with Oberth and Ley as advisers. Lang's studio had paid Oberth to build and launch a real rocket as publicity for the premiere, but the project defeated him, and the evening went ahead without it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Linda Hall Library (premiere 15 October 1929; rocket not completed)."
+  },
+  {
+   "date_iso": "1929-11-23",
+   "date_display": "Saturday 23 November 1929",
+   "precision": "day",
+   "eye": "lindbergh",
+   "place": "Clark University, Worcester",
+   "headline": "Lindbergh calls on Goddard",
+   "digest": "Drawn by the reports of the July test, Lindbergh met Goddard for the first time and heard his plans for high-altitude rockets. He went on to press his contacts for support, first approaching industry and then the Guggenheim family.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Goddard Memorial chronology (first meeting 23 Nov 1929); NPS (Lindbergh's attention drawn by press reports)."
+  },
+  {
+   "date_iso": "1930-01-25",
+   "date_display": "Saturday 25 January 1930",
+   "precision": "day",
+   "eye": "ley",
+   "place": "Heylandt works, Berlin",
+   "headline": "First successful VfR liquid-fuel firing",
+   "digest": "With Max Valier, members fired a liquid-fuel motor for some five minutes on a test stand at the Heylandt works. Valier was killed in a test explosion there that May, an early death that later VfR accounts treated as a warning.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Verein für Raumschiffahrt article and weebau history (25 January 1930). Valier's death in May 1930 from general histories, not separately checked."
+  },
+  {
+   "date_iso": "1930-07-10",
+   "date_display": "Thursday 10 July 1930",
+   "precision": "day",
+   "eye": "guggenheim",
+   "place": "New York",
+   "headline": "The Guggenheim grant frees Goddard for the desert",
+   "digest": "A Daniel Guggenheim grant began, giving Goddard two years of full-time research on leave from Clark. He chose the open country around Roswell, New Mexico, for its space, weather and isolation.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Goddard Memorial chronology (10 July 1930); Clark Digital Commons description of Papers vol. II."
+  },
+  {
+   "date_iso": "1930-07-23",
+   "date_display": "Wednesday 23 July 1930",
+   "precision": "day",
+   "eye": "oberth",
+   "place": "Chemisch-Technische Reichsanstalt, Berlin",
+   "headline": "Kegeldüse runs 90 seconds before official testers",
+   "digest": "Oberth's small conical liquid-fuel motor burned for about 90 seconds at a steady thrust of some 7 kg before examiners of the national chemical-technical institute. The official result gave the amateurs a credential to show sponsors.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "National Air and Space Museum, Model Rocket Motor Kegeldüse (test of 23 July 1930)."
+  },
+  {
+   "date_iso": "1930-07-23",
+   "date_display": "Wednesday 23 July 1930",
+   "precision": "day",
+   "eye": "vonbraun",
+   "place": "Chemisch-Technische Reichsanstalt, Berlin",
+   "headline": "An eighteen-year-old assistant at the test stand",
+   "digest": "Von Braun, then a student, was among Oberth's helpers for the Kegeldüse tests. It was his entry into the practical side of rocketry, alongside the society's volunteers.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "National Air and Space Museum, Kegeldüse page (names von Braun as an assistant)."
+  },
+  {
+   "date_iso": "1930-09",
+   "date_display": "September 1930",
+   "precision": "month",
+   "eye": "nebel",
+   "place": "Berlin-Reinickendorf",
+   "headline": "A disused ammunition dump becomes the Rocketport",
+   "digest": "Nebel secured the use of an abandoned army ammunition depot on the edge of Berlin for a nominal rent. The society called it the Raketenflugplatz. Its bunkers became workshops and sleeping quarters for unemployed young engineers working for little or nothing.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Weebau VfR history (September 1930, RM10 a year); Wikipedia VfR article (municipal permission, September 1930). Opening often given as 27 September; not confirmed."
+  },
+  {
+   "date_iso": "1930-12-30",
+   "date_display": "Tuesday 30 December 1930",
+   "precision": "day",
+   "eye": "goddard",
+   "place": "Mescalero Ranch, Roswell, New Mexico",
+   "headline": "First Roswell flight reaches about 2,000 feet",
+   "digest": "Months after arriving in New Mexico, Goddard flew a larger rocket from his new tower. It reached about 2,000 feet and some 500 miles an hour, by far his best result to date.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NPS, Goddard Rocket Launching Site (30 Dec 1930, 2,000 ft, 500 mph)."
+  },
+  {
+   "date_iso": "1931-09",
+   "date_display": "September 1931",
+   "precision": "month",
+   "eye": "tsander",
+   "place": "Moscow",
+   "headline": "GIRD forms in a Moscow basement",
+   "digest": "Tsander and fellow enthusiasts organised the Group for the Study of Reactive Motion under the civil-defence society Osoaviakhim. Members joked that the initials stood for a group of engineers working for nothing.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia, Group for the Study of Reactive Motion (September 1931)."
+  },
+  {
+   "date_iso": "1932",
+   "date_display": "Spring 1932",
+   "precision": "range",
+   "eye": "nebel",
+   "place": "Kummersdorf, south of Berlin",
+   "headline": "A demonstration for the Army goes wrong",
+   "digest": "Captain Walter Dornberger and fellow officers watched a VfR rocket for the Army Weapons Office; the flight failed. The Army offered work but on its own secret terms. The society split over whether to accept.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Verein für Raumschiffahrt article; weebau history. Season given; exact day not confirmed."
+  },
+  {
+   "date_iso": "1932-04",
+   "date_display": "April 1932",
+   "precision": "month",
+   "eye": "goddard",
+   "place": "Roswell",
+   "headline": "A rocket steered by gyroscope",
+   "digest": "Goddard flew a rocket guided by a gyroscope that moved vanes in the exhaust, the first such flight. It was the control idea that every later large rocket would need.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Clark Digital Commons description of Papers vol. II (April 1932); Goddard Memorial chronology (1932)."
+  },
+  {
+   "date_iso": "1932-10-01",
+   "date_display": "Saturday 1 October 1932",
+   "precision": "day",
+   "eye": "vonbraun",
+   "place": "Kummersdorf",
+   "headline": "Von Braun goes to work for the Army",
+   "digest": "Von Braun was taken on at the Army's Kummersdorf proving ground, to work in secret under Dornberger while studying for a doctorate. Others from the rocketport followed within weeks.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Weebau VfR history (1 October 1932)."
+  },
+  {
+   "date_iso": "1933-03-28",
+   "date_display": "Tuesday 28 March 1933",
+   "precision": "day",
+   "eye": "tsander",
+   "place": "Kislovodsk",
+   "headline": "Tsander dies of typhus",
+   "digest": "Worn out and sent south to recover, Tsander died of typhus at the spa town of Kislovodsk, aged 45. His OR-2 engine for GIRD's second rocket was still being finished in Moscow.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikiwand biography (28 March 1933, Kislovodsk, typhus); Wikipedia GIRD article."
+  },
+  {
+   "date_iso": "1933-08-17",
+   "date_display": "Thursday 17 August 1933",
+   "precision": "day",
+   "eye": "korolev",
+   "place": "Nakhabino range, near Moscow",
+   "headline": "GIRD-09 flies, and Korolev writes the record",
+   "digest": "At about seven in the evening a ten-person team launched GIRD-09, a small rocket burning solidified gasoline with liquid oxygen. It flew for about 18 seconds, perhaps 400 metres up, before a leaking flange turned it into the forest. Korolev wrote the official record himself in a ledger, signed with three colleagues at 8.10 pm.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "RussianSpaceWeb, GIRD-09 (record preserved at the Russian Academy of Sciences); altitude estimates varied among witnesses."
+  },
+  {
+   "date_iso": "1933-09-19",
+   "date_display": "Tuesday 19 September 1933",
+   "precision": "day",
+   "eye": "nebel",
+   "place": "Raketenflugplatz, Berlin",
+   "headline": "The last launch at the Rocketport",
+   "digest": "The 87th and final rocket flew from the Berlin site. Society records counted about 270 static tests besides. Money had run out, members had gone to the Army, and the new regime was suspicious of private rocketry.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Weebau VfR history (19 September 1933; 87 flights, 270 static tests)."
+  },
+  {
+   "date_iso": "1933-11-25",
+   "date_display": "Saturday 25 November 1933",
+   "precision": "day",
+   "eye": "korolev",
+   "place": "Nakhabino",
+   "headline": "GIRD-X flies on Tsander's engine",
+   "digest": "The first fully liquid-propellant Soviet rocket, built around the engine Tsander had designed, rose about 80 metres. By then GIRD was being merged with Leningrad's Gas Dynamics Laboratory into a military rocket institute.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia, Group for the Study of Reactive Motion (25 Nov 1933, 80 m; merger into RNII)."
+  },
+  {
+   "date_iso": "1935",
+   "date_display": "1935",
+   "precision": "year",
+   "eye": "ley",
+   "place": "Berlin to New York",
+   "headline": "Ley leaves Germany",
+   "digest": "With the society dissolved and its work absorbed by the Army, Ley emigrated to the United States, where he wrote the popular histories through which most English readers learned of the Berlin rocketport.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Willy Ley Papers, NASM; emigration year from standard biographies."
+  },
+  {
+   "date_iso": "1935-09-23",
+   "date_display": "Monday 23 September 1935",
+   "precision": "day",
+   "eye": "lindbergh",
+   "place": "Roswell, New Mexico",
+   "headline": "Lindbergh and Guggenheim come to the launch tower",
+   "digest": "The two patrons travelled to Roswell to see a flight and were photographed with Goddard at his tower. Accounts of the visit say the rockets would not perform for them; Goddard was left to explain what they had paid for.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Smithsonian photograph caption (23 September 1935). The failed launches come from later accounts and are not confirmed here."
+  },
+  {
+   "date_iso": "1935-09-23",
+   "date_display": "Monday 23 September 1935",
+   "precision": "day",
+   "eye": "guggenheim",
+   "place": "Roswell, New Mexico",
+   "headline": "The patron sees the desert workshop",
+   "digest": "Harry Guggenheim stood at the launch tower beside Goddard and Lindbergh. His foundation went on funding Goddard through the late 1930s, though Goddard's lone-workshop approach drew criticism from others who wanted larger teams.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Smithsonian, Harry Guggenheim, Goddard and Lindbergh at Rocket Launch Tower (23 Sep 1935)."
+  },
+  {
+   "date_iso": "1936-03-16",
+   "date_display": "Monday 16 March 1936",
+   "precision": "day",
+   "eye": "abbot",
+   "place": "Smithsonian Institution, Washington",
+   "headline": "The Smithsonian publishes 'Liquid-Propellant Rocket Development'",
+   "digest": "Ten years to the day after Auburn, the Smithsonian issued Goddard's report on his liquid-fuel work, with photographs. It was short and guarded, giving results rather than designs; he kept much back.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Goddard Memorial chronology (16 March 1936, Smithsonian Misc. Collections vol. 95 no. 3)."
+  },
+  {
+   "date_iso": "1938-06",
+   "date_display": "June 1938",
+   "precision": "month",
+   "eye": "korolev",
+   "place": "Moscow",
+   "headline": "Korolev is arrested in the purge",
+   "digest": "Korolev was arrested after a colleague, himself under arrest, named him. He was sentenced to the camps, and later moved to prison design bureaus. His letters to his family from these years were published only long after his death.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Space.com Korolev biography (June 1938). The often-cited day, 27 June, not confirmed here."
+  },
+  {
+   "date_iso": "1942-10-03",
+   "date_display": "Saturday 3 October 1942",
+   "precision": "day",
+   "eye": "vonbraun",
+   "place": "Peenemünde, Baltic coast",
+   "headline": "The A4 reaches the edge of space",
+   "digest": "On the fourth attempt the Army's A4 rocket flew as designed, commonly given as about 190 km downrange and some 85 km high. Its builders celebrated a technical triumph; its purpose was to carry a warhead, and as the V-2 it was used against cities from 1944.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "WSMR Museum (date of first successful launch); range and altitude from standard histories, not checked against the Peenemünde records."
+  },
+  {
+   "date_iso": "1943-10",
+   "date_display": "August to October 1943",
+   "precision": "range",
+   "eye": "vonbraun",
+   "place": "Mittelwerk, near Nordhausen",
+   "headline": "Production moves underground and prisoners do the work",
+   "digest": "After the British bombing of Peenemünde, A4 assembly was moved into tunnels in the Harz under SS control, worked by concentration-camp prisoners of the Mittelbau-Dora system. Von Braun visited the site during the autumn of 1943. Historians estimate that up to 25,000 prisoners died in the camp system in 1944–45, at least 10,000 attributable to the V-2 programme, more than the number killed by the weapon itself.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "WSMR Museum (visits August–October 1943); National WWII Museum interview with Michael Neufeld (death estimates)."
+  },
+  {
+   "date_iso": "1944-03",
+   "date_display": "March 1944",
+   "precision": "month",
+   "eye": "vonbraun",
+   "place": "Peenemünde / Stettin",
+   "headline": "Arrested by the Gestapo",
+   "digest": "Von Braun, his brother and two colleagues were held by the Gestapo, apparently over loose talk at a party about spaceflight and the war. Dornberger and Albert Speer secured their release.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "National WWII Museum interview with Michael Neufeld."
+  },
+  {
+   "date_iso": "1945-03",
+   "date_display": "March 1945",
+   "precision": "month",
+   "eye": "goddard",
+   "place": "Annapolis, Maryland",
+   "headline": "Goddard looks over a captured German rocket",
+   "digest": "Working for the Navy on jet-assisted take-off, Goddard was able to examine parts of a captured V-2. He is reported to have recognised features of his own designs in it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Reported in Goddard biographies and the edited papers; not checked against a dated diary entry."
+  },
+  {
+   "date_iso": "1945-05",
+   "date_display": "May 1945",
+   "precision": "month",
+   "eye": "vonbraun",
+   "place": "Bavarian Alps",
+   "headline": "Von Braun surrenders to the Americans",
+   "digest": "With Germany collapsing, von Braun and his brother Magnus gave themselves up to the US Army. American teams were already taking V-2 parts and documents from the overrun Mittelwerk.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "National WWII Museum (photo caption, May 1945); Air & Space (Mittelwerk overrun c. April 1945)."
+  },
+  {
+   "date_iso": "1945-08-10",
+   "date_display": "Friday 10 August 1945",
+   "precision": "day",
+   "eye": "esther",
+   "place": "Baltimore, Maryland",
+   "headline": "Robert Goddard dies",
+   "digest": "Goddard died of throat cancer in Baltimore at 62, four days after Hiroshima. Esther took his notebooks, films and correspondence and began the work of putting his record in order.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Goddard Memorial chronology (10 Aug 1945); Aerospace America."
+  },
+  {
+   "date_iso": "1946-04-16",
+   "date_display": "Tuesday 16 April 1946",
+   "precision": "day",
+   "eye": "vonbraun",
+   "place": "White Sands, New Mexico",
+   "headline": "First V-2 launch on American soil",
+   "digest": "At 2.47 pm a captured V-2, prepared by General Electric, left White Sands; its guidance failed and a fin came off, and it fell after about 3.4 miles. About 125 Germans brought over under Paperclip were housed at Fort Bliss; they advised, but American crews ran the launches.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Air & Space, 'The First Launch of a V-2 Rocket From America' (16 April 1946)."
+  },
+  {
+   "date_iso": "1946-10-24",
+   "date_display": "Thursday 24 October 1946",
+   "precision": "day",
+   "eye": "hynek",
+   "place": "White Sands, New Mexico",
+   "headline": "A V-2 camera sees the Earth from 105 km",
+   "digest": "A V-2 flying for the Applied Physics Laboratory carried a 35 mm motion-picture camera designed by Clyde Holliday, with Hynek working with him. The rocket peaked near 105 km; the ejected camera was found within hours and gave the first pictures of Earth from the edge of space.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Drew Ex Machina, 'First Pictures' (24 Oct 1946)."
+  },
+  {
+   "date_iso": "1957-10-04",
+   "date_display": "Friday 4 October 1957",
+   "precision": "day",
+   "eye": "korolev",
+   "place": "Tyuratam, Kazakh SSR",
+   "headline": "The R-7 puts a satellite in orbit",
+   "digest": "Korolev's R-7, designed as a missile, carried a small radio-beeping sphere into orbit. Around midnight Moscow time, once its signal had come round again, he telephoned Nikita Khrushchev in Kyiv to report success. His name was a state secret.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sergei Khrushchev, 'We Shocked the World', Air & Space (later account by an eyewitness to the call)."
+  },
+  {
+   "date_iso": "1957-10-04",
+   "date_display": "Friday 4 October 1957, evening (EDT)",
+   "precision": "day",
+   "eye": "hynek",
+   "place": "Smithsonian Astrophysical Observatory, Cambridge, Massachusetts",
+   "headline": "News arrives and the watchers are called out",
+   "digest": "At about 6.30 pm an AP bulletin reached the observatory. Most staff had gone home and the director was in Washington. Hynek and Kenneth Drummond started telephoning Moonwatch team leaders; by 11 pm half the 160 stations had been alerted. RCA reported picking up a probable signal in New York at 8.07 pm.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Harvard Crimson, 5 October 1957; Smithsonian Institution Archives blog."
+  },
+  {
+   "date_iso": "1957-10-05",
+   "date_display": "Saturday 5 October 1957",
+   "precision": "day",
+   "eye": "tass",
+   "place": "Moscow",
+   "headline": "A short communiqué on page one",
+   "digest": "Pravda carried the TASS announcement of an artificial Earth satellite on its front page, giving orbit and radio frequencies, but placed it below other news. The tone was technical; the triumph was not yet being trumpeted.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sergei Khrushchev, Air & Space (Pravda placement, 5 October)."
+  },
+  {
+   "date_iso": "1957-10-05",
+   "date_display": "Saturday 5 October 1957",
+   "precision": "day",
+   "eye": "hynek",
+   "place": "Cambridge, Massachusetts",
+   "headline": "Sightings come in, some of them wrong",
+   "digest": "Reports reached the observatory from Terre Haute, Columbus and Whittier, California; Harvard scientists discounted the last because its direction and timing did not fit. The BBC had heard the signal in London. Fred Whipple, back from Washington, praised the Soviet feat and tried, without success, to reach Soviet scientists for orbital data.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Harvard Crimson, 5 October 1957."
+  },
+  {
+   "date_iso": "1957-10-05",
+   "date_display": "Saturday 5 October 1957",
+   "precision": "day",
+   "eye": "nyt",
+   "place": "New York",
+   "headline": "The satellite fills the front page",
+   "digest": "The paper led with the Soviet satellite across the top of its front page, with the Moscow announcement, its radio frequencies, and American scientists' reactions. Thirty-seven years after mocking rocket flight beyond the air, it reported an object circling the Earth.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Front page of 5 October 1957 as widely reproduced; headline wording not checked against the original, so marked approx."
+  },
+  {
+   "date_iso": "1957-10-06",
+   "date_display": "Sunday 6 October 1957",
+   "precision": "day",
+   "eye": "tass",
+   "place": "Moscow",
+   "headline": "Pravda gives its whole front page to space",
+   "digest": "A day later, with the world press astonished, Pravda devoted its entire front page to the satellite and later printed its photograph and orbit. The articles signed by 'Engineer Sergeev' were Korolev's, under a pseudonym.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sergei Khrushchev, Air & Space."
+  },
+  {
+   "date_iso": "1960",
+   "date_display": "1960",
+   "precision": "year",
+   "eye": "esther",
+   "place": "Worcester, Massachusetts",
+   "headline": "A settlement for Goddard's patents",
+   "digest": "After filing an infringement claim, Esther Goddard and the Guggenheim Foundation received a US$1 million government settlement for use of Goddard's patents in the American rocket programme.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Aerospace America (1960 settlement)."
+  },
+  {
+   "date_iso": "1969-07-17",
+   "date_display": "Thursday 17 July 1969",
+   "precision": "day",
+   "eye": "nyt",
+   "place": "New York",
+   "headline": "The Times corrects itself",
+   "digest": "The morning after Apollo 11 left for the Moon, the editorial page recalled its 1920 remarks about Goddard. It allowed that Newton had been confirmed and that rockets work in a vacuum, and closed with a brief apology.",
+   "quote": "The Times regrets the error.",
+   "confidence": "verified",
+   "source_note": "Text reproduced by RF Cafe."
+  },
+  {
+   "date_iso": "1970",
+   "date_display": "1970",
+   "precision": "year",
+   "eye": "esther",
+   "place": "Worcester, Massachusetts",
+   "headline": "Goddard's papers are published",
+   "digest": "With G. Edward Pendray, Esther Goddard published the three-volume Papers of Robert H. Goddard, about 1,700 pages of diary, notebooks, letters and reports. It is the main source for the American side of this chapter, and it reflects her choices.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Clark Digital Commons description; Aerospace America."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1919-12",
+   "date_display": "December 1919",
+   "eye": "abbot",
+   "claim": "Goddard's theory of rocket propulsion to extreme altitudes published, with a speculative Moon-flash proposal",
+   "form": "conceived",
+   "evidence": "Smithsonian Miscellaneous Collections vol. 71 no. 2",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1923-06",
+   "date_display": "June 1923",
+   "eye": "oberth",
+   "claim": "Oberth publishes the case for liquid-fuel, multi-stage space rockets, independently of Goddard",
+   "form": "conceived",
+   "evidence": "Die Rakete zu den Planetenräumen (1923)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1926-03-16",
+   "date_display": "16 March 1926",
+   "eye": "goddard",
+   "claim": "First flight of a liquid-propellant rocket: 41 ft high, 184 ft distance, 2.5 seconds",
+   "form": "first",
+   "evidence": "Goddard diary, 16 March 1926 (Papers, 1970)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1929-07-17",
+   "date_display": "17 July 1929",
+   "eye": "goddard",
+   "claim": "First instrument-carrying rocket (barometer, thermometer, camera) recovered intact; tests banned at Auburn afterwards",
+   "form": "tested",
+   "evidence": "NPS; Goddard Memorial chronology",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1930-07-23",
+   "date_display": "23 July 1930",
+   "eye": "oberth",
+   "claim": "Kegeldüse motor officially tested: about 90 s burn, about 7 kg thrust",
+   "form": "tested",
+   "evidence": "Chemisch-Technische Reichsanstalt test, described by NASM",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1930-12-30",
+   "date_display": "30 December 1930",
+   "eye": "goddard",
+   "claim": "Roswell flight reaches about 2,000 ft and 500 mph",
+   "form": "record",
+   "evidence": "NPS Goddard Rocket Launching Site",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1932-04",
+   "date_display": "April 1932",
+   "eye": "goddard",
+   "claim": "First rocket flight with gyroscopic stabilisation using exhaust vanes",
+   "form": "first",
+   "evidence": "Papers vol. II (Clark Digital Commons description)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1933-08-17",
+   "date_display": "17 August 1933",
+   "eye": "korolev",
+   "claim": "GIRD-09, first Soviet liquid-oxygen rocket (hybrid, solidified gasoline): 18 s flight, about 400 m (witness estimates vary)",
+   "form": "first",
+   "evidence": "Signed GIRD test record, Russian Academy of Sciences",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1933-09-19",
+   "date_display": "19 September 1933",
+   "eye": "nebel",
+   "claim": "Last of 87 launches at the Berlin Raketenflugplatz, with about 270 static tests",
+   "form": "other",
+   "evidence": "VfR records as summarised by later historians",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1933-11-25",
+   "date_display": "25 November 1933",
+   "eye": "korolev",
+   "claim": "GIRD-X, first fully liquid-propellant Soviet rocket, on Tsander's engine: about 80 m",
+   "form": "first",
+   "evidence": "GIRD history",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1935-03-08",
+   "date_display": "8 March 1935",
+   "eye": "goddard",
+   "claim": "Position: a Goddard rocket exceeded the speed of sound (about 700 mph). Claimed by the Goddard Memorial chronology; the speed was estimated, not instrument-measured.",
+   "form": "record",
+   "evidence": "Goddard Memorial chronology",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1942-10-03",
+   "date_display": "3 October 1942",
+   "eye": "vonbraun",
+   "claim": "First successful A4 (V-2) flight, commonly given as about 190 km range and 85 km altitude",
+   "form": "first",
+   "evidence": "Peenemünde records as cited by WSMR Museum and standard histories",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1944-09",
+   "date_display": "September 1944 – March 1945",
+   "eye": "vonbraun",
+   "claim": "V-2 used against Allied cities: about 5,000 killed by the weapon; up to 25,000 prisoners died in the Mittelbau-Dora camps, at least 10,000 attributable to the programme",
+   "form": "other",
+   "evidence": "Michael Neufeld, National WWII Museum interview",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1946-04-16",
+   "date_display": "16 April 1946",
+   "eye": "vonbraun",
+   "claim": "First V-2 launched in the United States, at White Sands: failed at about 3.4 miles",
+   "form": "failed",
+   "evidence": "Air & Space, Smithsonian",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1946-10-24",
+   "date_display": "24 October 1946",
+   "eye": "hynek",
+   "claim": "V-2 camera flight to about 105 km returns the first images of Earth from space",
+   "form": "first",
+   "evidence": "APL flight record (Drew Ex Machina)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1957-10-04",
+   "date_display": "4 October 1957",
+   "eye": "korolev",
+   "claim": "Sputnik 1, first artificial satellite, placed in orbit by the R-7",
+   "form": "first",
+   "evidence": "TASS communiqué 5 October 1957; worldwide radio reception",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1920-01-13",
+   "label": "The Smithsonian paper and the newspaper's sneer",
+   "eyes": [
+    "abbot",
+    "nyt",
+    "goddard"
+   ],
+   "note": "The same few pages read two ways: the Smithsonian issued a careful technical study; the Times editorial picked out the Moon-flash passage and got the physics wrong. Goddard took the lesson to work quietly."
+  },
+  {
+   "date": "1926-03-16",
+   "label": "Auburn: 2.5 seconds in the snow",
+   "eyes": [
+    "goddard",
+    "esther"
+   ],
+   "note": "His diary gives numbers, hers survives as an image of a dancer, recorded in his hand. Neither suggests they thought it a world event; it was reported to no newspaper."
+  },
+  {
+   "date": "1929-10",
+   "label": "Autumn 1929: a Berlin film, a Worcester visit",
+   "eyes": [
+    "oberth",
+    "ley",
+    "lindbergh",
+    "goddard"
+   ],
+   "note": "Within six weeks Oberth failed to fly a rocket for the Frau im Mond premiere in Berlin and Lindbergh came to Worcester because Goddard's July test had made too much noise. Publicity worked in opposite directions on the two sides of the Atlantic."
+  },
+  {
+   "date": "1930-07",
+   "label": "July 1930: Guggenheim money and an official German test",
+   "eyes": [
+    "guggenheim",
+    "oberth",
+    "vonbraun",
+    "goddard"
+   ],
+   "note": "Within two weeks Goddard was funded to go to the desert alone and Oberth's motor was certified in Berlin with an eighteen-year-old von Braun helping. One line chose a closed workshop; the other a crowded amateur society."
+  },
+  {
+   "date": "1933-08-17",
+   "label": "1933: the amateurs' last year",
+   "eyes": [
+    "tsander",
+    "korolev",
+    "nebel",
+    "vonbraun"
+   ],
+   "note": "Tsander died in March; GIRD-09 flew in August; the Berlin rocketport made its last launch in September; by year's end GIRD was folded into a military institute and the Germans' best talent was in Army hands. In both countries the state took over the dream."
+  },
+  {
+   "date": "1945-05",
+   "label": "Spring and summer 1945",
+   "eyes": [
+    "goddard",
+    "vonbraun",
+    "esther"
+   ],
+   "note": "Goddard examined a captured V-2 at Annapolis; von Braun surrendered in May; Goddard died in August. The man who flew first and the team that built big met only through the hardware."
+  },
+  {
+   "date": "1946-10-24",
+   "label": "White Sands, 1946",
+   "eyes": [
+    "vonbraun",
+    "hynek"
+   ],
+   "note": "Captured V-2s, Paperclip engineers at Fort Bliss and American scientists' cameras: a weapon built by forced labour became, within eighteen months, a research vehicle photographing the Earth."
+  },
+  {
+   "date": "1957-10-05",
+   "label": "The beep heard round the world",
+   "eyes": [
+    "korolev",
+    "tass",
+    "hynek",
+    "nyt"
+   ],
+   "note": "The anonymous Chief Designer telephoned his success at midnight; Pravda first buried the news; Moonwatch was caught unready and logged doubtful sightings; the New York press made it the story of the year."
+  }
+ ],
+ "ties": [
+  {
+   "a": "goddard",
+   "b": "esther",
+   "kind": "relative",
+   "note": "Married in June 1924; she witnessed and photographed his tests and later edited his papers."
+  },
+  {
+   "a": "goddard",
+   "b": "abbot",
+   "kind": "read each other",
+   "note": "Abbot read Goddard's 1916 proposal, secured his first grant in 1917 and published both his monographs."
+  },
+  {
+   "a": "goddard",
+   "b": "nyt",
+   "kind": "opposite sides",
+   "note": "The 1920 editorial mocked him; he grew guarded with the press. The paper corrected itself in 1969."
+  },
+  {
+   "a": "lindbergh",
+   "b": "goddard",
+   "kind": "met",
+   "note": "First met at Clark on 23 November 1929; Lindbergh visited Roswell in 1935."
+  },
+  {
+   "a": "lindbergh",
+   "b": "guggenheim",
+   "kind": "met",
+   "note": "Close friends and partners in aviation philanthropy; Lindbergh brought Goddard's case to the Guggenheims."
+  },
+  {
+   "a": "guggenheim",
+   "b": "goddard",
+   "kind": "met",
+   "note": "Guggenheim funding paid for the Roswell years; Harry Guggenheim visited the launch tower in September 1935."
+  },
+  {
+   "a": "oberth",
+   "b": "goddard",
+   "kind": "read each other",
+   "note": "Oberth wrote to Goddard in the early 1920s asking for his Smithsonian paper; each later saw the other as a rival for priority."
+  },
+  {
+   "a": "oberth",
+   "b": "vonbraun",
+   "kind": "met",
+   "note": "Von Braun assisted at Oberth's 1930 Kegeldüse tests; Oberth later worked for von Braun's teams."
+  },
+  {
+   "a": "ley",
+   "b": "nebel",
+   "kind": "met",
+   "note": "Colleagues at the Raketenflugplatz; Ley's later books portray Nebel critically."
+  },
+  {
+   "a": "nebel",
+   "b": "vonbraun",
+   "kind": "met",
+   "note": "Von Braun worked at Nebel's rocketport before leaving for Army employment in 1932."
+  },
+  {
+   "a": "tsander",
+   "b": "korolev",
+   "kind": "met",
+   "note": "Fellow founders of GIRD; Korolev flew Tsander's engine in GIRD-X eight months after Tsander's death."
+  },
+  {
+   "a": "korolev",
+   "b": "vonbraun",
+   "kind": "opposite sides",
+   "note": "Korolev studied captured German V-2s in 1945–46 while von Braun's team went to the United States; they never met."
+  },
+  {
+   "a": "tass",
+   "b": "hynek",
+   "kind": "opposite sides",
+   "note": "Moonwatch depended on orbital data the Soviets did not readily share; Whipple's attempts to reach Soviet scientists on 4–5 October failed."
+  },
+  {
+   "a": "ley",
+   "b": "goddard",
+   "kind": "mentioned",
+   "note": "Ley in his American books made Goddard's work known to readers of popular rocket history, and debated questions of priority."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "kitty-hawk",
+   "note": "Abbot's Smithsonian, Goddard's sponsor, was also the institution in the long dispute with Orville Wright; as Secretary, Abbot published the Smithsonian's 1942 retraction that ended it."
+  },
+  {
+   "to": "channel-atlantic",
+   "note": "Charles Lindbergh, two years after his 1927 New York–Paris flight, used his fame to win Guggenheim funding for Goddard."
+  },
+  {
+   "to": "jet-age",
+   "note": "Goddard's last work, for the US Navy in 1942–45, was on jet-assisted take-off and variable-thrust rocket motors for aircraft."
+  },
+  {
+   "to": "v2:apollo-11",
+   "note": "Von Braun's Saturn V launched Apollo 11; on 17 July 1969, the day after launch, the New York Times corrected its 1920 editorial on Goddard."
+  },
+  {
+   "to": "v4:fission",
+   "note": "The R-7 that launched Sputnik was built to carry a thermonuclear warhead; on launch night Fred Whipple contrasted the US lead in the H-bomb with the Soviet satellite."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://commons.clarku.edu/goddardlaunch/24",
+   "title": "Sachs, Roope and Esther Goddard with the first liquid-propellant rocket's parts",
+   "caption": "Taken after the 16 March 1926 flight at Auburn and included in Goddard's report; the three witnesses stand with the burned remains.",
+   "date": "16 March 1926",
+   "credit": "Robert H. Goddard collection, Clark University"
+  },
+  {
+   "url": "https://pioneersofflight.si.edu/node/351",
+   "title": "Harry Guggenheim, Goddard and Lindbergh at the launch tower",
+   "caption": "The patrons visit Roswell. The tower and the open country show why Goddard moved to New Mexico.",
+   "date": "23 September 1935",
+   "credit": "Smithsonian Institution"
+  },
+  {
+   "url": "https://airandspace.si.edu/multimedia-gallery/2005-35500hjpg",
+   "title": "Goddard 1935 A-series rocket",
+   "caption": "One of the gyro-stabilised A-series rockets Goddard flew at Roswell in 1934–35, now at the Udvar-Hazy Center.",
+   "date": "1935",
+   "credit": "National Air and Space Museum"
+  },
+  {
+   "url": "https://airandspace.si.edu/collection-objects/model-rocket-motor-kegelduse/nasm_A19850813000",
+   "title": "Model of Oberth's Kegeldüse rocket motor",
+   "caption": "The small conical motor certified in Berlin on 23 July 1930, with von Braun among the assistants.",
+   "date": "1930 (motor); model later",
+   "credit": "National Air and Space Museum"
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:Oberth,_von_Braun,_etc._1930_VFR_german_rocket_society.jpg",
+   "title": "VfR members with Oberth and the young von Braun",
+   "caption": "Members of the Society for Space Travel in Berlin in 1930, with Oberth, Nebel and von Braun; the Kegeldüse is at the centre.",
+   "date": "1930",
+   "credit": "Wikimedia Commons"
+  }
+ ],
+ "further": [
+  {
+   "title": "The Papers of Robert H. Goddard (Clark Digital Commons)",
+   "url": "https://commons.clarku.edu/papersgoddard/9"
+  },
+  {
+   "title": "The Goddard Rocket Film Reels (Clark Digital Commons)",
+   "url": "https://commons.clarku.edu/goddardfilm"
+  },
+  {
+   "title": "Wernher von Braun and the Nazi rocket program: interview with Michael Neufeld",
+   "url": "https://www.nationalww2museum.org/war/articles/wernher-von-braun-and-nazi-rocket-program-interview-michael-neufeld-phd-national-air"
+  },
+  {
+   "title": "Von Braun, the V-2, and Slave Labor (WSMR Museum)",
+   "url": "https://wsmrmuseum.com/2020/07/27/von-braun-the-v-2-and-slave-labor/4/"
+  },
+  {
+   "title": "85 years ago: the USSR launched its first rocket using liquid propellant (RussianSpaceWeb)",
+   "url": "https://russianspaceweb.com/gird09.html"
+  },
+  {
+   "title": "Right Places at the Right Time: SAO and Sputnik (Smithsonian Institution Archives)",
+   "url": "https://siarchives.si.edu/blog/right-places-right-time"
+  },
+  {
+   "title": "At the Dawn of the Space Age: Illinois radio observers of Sputnik (George Swenson)",
+   "url": "https://www.ece.illinois.edu/about/history/reminiscence/space"
+  },
+  {
+   "title": "Early rocket societies (National Air and Space Museum)",
+   "url": "https://airandspace.si.edu/stories/editorial/early-rocket-societies"
+  }
+ ],
+ "vantage_key": "0 = builder or test leader at the launch; 1 = witness or close collaborator on the field; 2 = visitor, tracker or observer nearby; 3 = sponsor or official voice at a distance; 4 = the press, judging from afar."
+}

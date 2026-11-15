@@ -1,0 +1,272 @@
+[
+ {
+  "chapter": "partition-1947",
+  "where": "intro:0",
+  "severity": "doubt",
+  "problem": "Upper bound of the death-toll range is understated; the range usually cited is about 200,000 to 2 million.",
+  "fix": {
+   "text_replace": {
+    "old": "Estimates of the dead run from a few hundred thousand to around a million",
+    "new": "Estimates of the dead run from a few hundred thousand to two million"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "partition-1947",
+  "where": "eye:liaquat",
+  "severity": "error",
+  "problem": "Liaquat Ali Khan was born 1 October 1895, so he was 51 for all of his entries (16 Aug and 14 Sept 1947), not 52.",
+  "fix": {
+   "text_replace": {
+    "old": "52, General Secretary of the Muslim League",
+    "new": "51, General Secretary of the Muslim League"
+   }
+  }
+ },
+ {
+  "chapter": "partition-1947",
+  "where": "eye:moon",
+  "severity": "error",
+  "problem": "Penderel Moon was born 13 November 1905, so he was 41 in September 1947 (his entry), not 42.",
+  "fix": {
+   "text_replace": {
+    "old": "42, British civil servant",
+    "new": "41, British civil servant"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "partition-1947",
+  "where": "eye:jinnah",
+  "severity": "doubt",
+  "problem": "Implies the 11 August speech recording was among those handed over in 2012; All India Radio handed over recordings of other Jinnah speeches (e.g. 3 June 1947) and said it held none of 11 August.",
+  "fix": {
+   "text_replace": {
+    "old": "for decades a recording was thought lost, and All India Radio handed recordings of his speeches to Pakistan in 2012.",
+    "new": "no recording of it has been found; when All India Radio handed recordings of other Jinnah speeches to Pakistan in 2012, it said it held none of 11 August."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "partition-1947",
+  "where": "convergence:6",
+  "severity": "tone",
+  "problem": "Says Liaquat and Nehru 'each accused the other's forces', but the book's own 16 September entry has Nehru denying hostility and admitting failures of order on both sides; the convergence misstates Nehru's position and makes the exchange look symmetrical in the book's voice.",
+  "fix": {
+   "note": "Liaquat in Lahore accused forces in East Punjab of failing their duty; two days later in Delhi Nehru answered that order had failed on both sides of the border, and each spoke of his own refugees. Some two weeks later, in Bahawalpur, a column Penderel Moon had organised was betrayed on the road to India."
+  }
+ },
+ {
+  "chapter": "partition-1947",
+  "where": "threads_out:0",
+  "severity": "doubt",
+  "problem": "Zafar was not 'taken' from the Red Fort: he left it of his own accord and was captured at Humayun's Tomb (he was later tried in the Red Fort).",
+  "fix": {
+   "text_replace": {
+    "old": "the palace from which Zafar had been taken",
+    "new": "the palace Zafar had fled in September 1857"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "apollo-11",
+  "where": "eye:kranz",
+  "severity": "error",
+  "problem": "Gene Kranz was born 17 August 1933, so he was 35 on 20 July 1969, not 36.",
+  "fix": {
+   "text_replace": {
+    "old": "Flight Director, White Team (landing shift), aged 36",
+    "new": "Flight Director, White Team (landing shift), aged 35"
+   }
+  }
+ },
+ {
+  "chapter": "apollo-11",
+  "where": "entry:22",
+  "severity": "quote",
+  "problem": "Headline quotes 'Hooray' from Haldeman's private diary (post-1929); not a NASA transcript or world-famous phrase, and the digest does not support it.",
+  "fix": {
+   "headline": "Nixon claps in a side room"
+  }
+ },
+ {
+  "chapter": "apollo-11",
+  "where": "convergence:4",
+  "severity": "quote",
+  "problem": "Quotes Haldeman's diary ('like a little kid'), a post-1929 diary.",
+  "fix": {
+   "note": "Haldeman sees the President as exuberant as a child on the bridge; the crew sees him through quarantine glass."
+  }
+ },
+ {
+  "chapter": "apollo-11",
+  "where": "image:4",
+  "severity": "quote",
+  "problem": "Caption quotes Haldeman's handwritten diary ('the day the men came back from the moon'), a post-1929 diary.",
+  "fix": {
+   "caption": "The page where Haldeman records the crew's return from the Moon, written aboard the Hornet."
+  }
+ },
+ {
+  "chapter": "apollo-11",
+  "where": "entry:26",
+  "severity": "quote",
+  "problem": "Headline quotes the 1969 Jodrell Bank control-room tape ('much too fast'); not a NASA transcript or world-famous phrase.",
+  "fix": {
+   "headline": "Luna 15 comes down too fast"
+  }
+ },
+ {
+  "chapter": "apollo-11",
+  "where": "entry:32",
+  "severity": "quote",
+  "problem": "Digest quotes Kamanin's diary ('debacle'), a post-1929 diary.",
+  "fix": {
+   "digest": "Closing the year, Kamanin concedes that the landing belongs to Armstrong and that the Soviet lunar programme has lost. He blames himself as well: he had tried and failed to convince the country's leaders to change course. A few weeks later he notes how fast high-level interest in space has collapsed after the failure."
+  }
+ },
+ {
+  "chapter": "apollo-11",
+  "where": "entry:14",
+  "severity": "quote",
+  "problem": "Headline puts 'Speechless' in quotation marks as Cronkite's word; CBS broadcast speech is a post-1929 non-government source and the digest paraphrases it anyway.",
+  "fix": {
+   "headline": "Speechless on the air"
+  }
+ },
+ {
+  "chapter": "apollo-11",
+  "where": "convergence:3",
+  "severity": "doubt",
+  "problem": "'Only an English radio observatory was placed to hear both' is an overclaim: Soviet tracking followed Luna 15 and could also monitor Apollo; Jodrell Bank was the notable Western listener.",
+  "fix": {
+   "note": "The Soviet probe hits the Sea of Crises at 15:50 UTC; Eagle leaves the Sea of Tranquillity at 17:54. Jodrell Bank, in England, was listening to both."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "wall-1989",
+  "where": "entry:4",
+  "severity": "quote",
+  "problem": "Headline quotes a phrase from a US embassy cable ('Martial law with Chinese characteristics'); post-1929, not NASA and not a world-famous phrase.",
+  "fix": {
+   "headline": "Troops turned back, then massing at the city's edge"
+  }
+ },
+ {
+  "chapter": "wall-1989",
+  "where": "entry:20",
+  "severity": "quote",
+  "problem": "Headline quotes Chernyaev's private diary ('The Berlin Wall has collapsed'), a post-1929 diary.",
+  "fix": {
+   "headline": "Chernyaev: the Wall has fallen, and an era with it"
+  }
+ },
+ {
+  "chapter": "wall-1989",
+  "where": "entry:31",
+  "severity": "quote",
+  "problem": "Headline quotes Havel's 1990 address ('our country is not flourishing'); modern speech, not one of the world-famous phrases.",
+  "fix": {
+   "headline": "New Year: a president who will not lie"
+  }
+ },
+ {
+  "chapter": "wall-1989",
+  "where": "entry:16",
+  "severity": "quote",
+  "problem": "Digest quotes Wolf's 1989 speech ('revolutionary renewal'); modern text. ('Wende' as a term and 'We are the people' as a famous slogan can stay.)",
+  "fix": {
+   "digest": "Speaking to the largest demonstration in GDR history, Wolf said the revolution had first freed language itself: stiff official German was giving way to living speech. She disliked the regime's word 'Wende', preferring to speak of a revolutionary renewal from below, and asked people to imagine a socialism no one would want to flee. She warned against officials changing sides too nimbly and called 'We are the people' the most important sentence of the autumn."
+  }
+ },
+ {
+  "chapter": "wall-1989",
+  "where": "entry:0",
+  "severity": "quote",
+  "problem": "Puts 'turmoil' in quotation marks as the diary's word; the diary is a modern (and disputed) text. The term was the official one of the 26 April People's Daily editorial, so attribute it that way instead.",
+  "fix": {
+   "digest": "In an entry from the early weeks of the protests that followed Hu Yaobang's death, the diary has Li Peng declare that he had braced for the worst from the start. He frames the student movement as turmoil, the official term of the 26 April People's Daily editorial, that could become a new Cultural Revolution, and presents himself as willing to sacrifice even his family's safety to prevent it."
+  }
+ },
+ {
+  "chapter": "wall-1989",
+  "where": "eye:li-peng",
+  "severity": "quote",
+  "problem": "Bio quotes 'turmoil' as the diary's word (modern, disputed text).",
+  "fix": {
+   "text_replace": {
+    "old": "a necessary defence against 'turmoil' — the official view",
+    "new": "a necessary defence against turmoil, in the official term of the time — the official view"
+   }
+  }
+ },
+ {
+  "chapter": "wall-1989",
+  "where": "entry:9",
+  "severity": "tone",
+  "problem": "Tiananmen toll: the headline ('no one can check') and the closing sentence ('historians treat it as one contemporaneous claim among many') add the book's own verdict on the British cable's figure; the brief requires each source's figure to be reported as given, without a verdict.",
+  "fix": {
+   "headline": "A British cable relays a casualty figure from a Chinese contact",
+   "digest": "Donald cabled London with an account he had received from a Chinese contact describing how the square and surrounding streets were cleared and putting the dead at a minimum of ten thousand. He reported it as information received, not as his own observation. The Chinese government spoke of about 200–300 dead including soldiers, and the US embassy's later reconstruction put civilian deaths probably below three thousand; each figure is given here as its source gave it."
+  }
+ },
+ {
+  "chapter": "wall-1989",
+  "where": "eye:donald",
+  "severity": "tone",
+  "problem": "Bio passes a verdict on the cable's figure ('far higher than most later estimates — which is exactly why it belongs here, flagged').",
+  "fix": {
+   "text_replace": {
+    "old": "and its casualty figure is far higher than most later estimates — which is exactly why it belongs here, flagged.",
+    "new": "and its casualty figure is the highest of the contemporary figures in this chapter; it is reported here as the cable gave it."
+   }
+  }
+ },
+ {
+  "chapter": "wall-1989",
+  "where": "eye:wolf",
+  "severity": "doubt",
+  "problem": "Christa Wolf is generally recorded as having left the SED in June 1989, so in November 1989 she was no longer a member.",
+  "fix": {
+   "text_replace": {
+    "old": "SED member since 1949, a critical voice inside the system",
+    "new": "SED member from 1949 until she left the party in June 1989, a critical voice inside the system"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "wall-1989",
+  "where": "eye:schneider",
+  "severity": "doubt",
+  "problem": "Leipziger Demontagebuch (1990) is usually cited as published by Gustav Kiepenheuer, Leipzig and Weimar, not Aufbau, Berlin.",
+  "fix": {
+   "text_replace": {
+    "old": "(Aufbau, Berlin, 1990)",
+    "new": "(Gustav Kiepenheuer, Leipzig and Weimar, 1990)"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "wall-1989",
+  "where": "eye:teltschik",
+  "severity": "doubt",
+  "problem": "Death year 2025 for Horst Teltschik could not be confirmed from my own knowledge; check before printing (if unconfirmed, use 'b. 1940').",
+  "fix": null,
+  "confidence": "approx"
+ },
+ {
+  "chapter": "wall-1989",
+  "where": "eye:chernyaev",
+  "severity": "doubt",
+  "problem": "The eye says Chernyaev was with Gorbachev in East Berlin on 6–7 October (and tie 1 repeats it), but the 11 October entry has him reading the record of the Berlin talks 'back in Moscow', which suggests he may not have gone. Check before keeping the waypoint.",
+  "fix": null,
+  "confidence": "approx"
+ }
+]

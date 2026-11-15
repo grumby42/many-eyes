@@ -1,0 +1,1445 @@
+{
+ "id": "everest-1953",
+ "title": "Everest, 1953",
+ "short_title": "Everest, 1953",
+ "subtitle": "The British Everest expedition and the first ascent, Nepal, March–June 1953 (with prologues 1924 and 1952)",
+ "span": "1924; 1952–1955 (core: March–June 1953)",
+ "intro": [
+  "In spring 1953 a British expedition led by John Hunt set out to put two men on the top of Everest (Chomolungma to Tibetans, Sagarmatha in Nepal) by the south route, which had only opened to outsiders when Nepal let in foreign climbers after 1949. The year before, a Swiss team had shown the way: on 28 May 1952 Raymond Lambert and Tenzing Norgay had climbed to about 8,595 m on the south-east ridge before failing oxygen and exhaustion stopped them. Behind both lay an older, separate story, told here only as a prologue: George Mallory and Andrew Irvine, last seen by Noel Odell on the north-east ridge on 8 June 1924, and never seen alive again.",
+  "This chapter follows the climb through the people who wrote it down. Hillary kept a small notebook diary; Lowe wrote letters home; Evans kept a diary still unpublished, known through Harriet Tuckey's work. Much of the rest is later narrative: Hunt's official book (1953), Noyce's South Col (1954), Tenzing's Tiger of the Snows (1955, co-written with James Ramsey Ullman), and the memoirs of James Morris, the Times correspondent who later wrote as Jan Morris. Each form tag says what kind of record it is. Because these are modern copyrighted texts, every entry is a paraphrase; there are no quotations.",
+  "The heart of the story is a week at the end of May. On 26 May Charles Evans and Tom Bourdillon reached the South Summit with experimental closed-circuit oxygen and turned back about 100 m short, while Hunt and the Sherpa Da Namgyal carried loads for the top camp. On 28 May George Lowe, Alfred Gregory and Ang Nyima carried to Camp IX at about 27,900 ft. At about 11.30 on 29 May Edmund Hillary and Tenzing Norgay stood on the summit for about fifteen minutes.",
+  "Then came a race of a different kind. Morris raced down the Icefall with Michael Westmacott and sent a coded message, written to read like news of failure, by runner to Namche Bazar. From there an Indian police radio sent it on to Kathmandu and London. The Times printed it on the morning of 2 June 1953, Coronation Day.",
+  "The encounter at the centre of this chapter is not between explorers and strangers but between the expedition and the countries it passed through. The Sherpas who carried the loads left almost no written record of their own, and their part survives through others; this is said plainly at each point. In June 1953 the Nepali and Indian press, and crowds in the Kathmandu valley, made Tenzing a national hero and argued over whether he was Nepali or Indian and whether he had reached the top first. The entries record what each side said, without a verdict. In Kathmandu Hillary and Tenzing signed a statement that they had arrived almost together; only in 1955 did Tenzing say Hillary had stepped up first."
+ ],
+ "calendar_note": "All dates are Gregorian. Nepal's official Vikram Samvat calendar was not used in any of these records; the expedition, the Swiss and the press all dated in the Western calendar. Heights are given as the 1952–53 records gave them (feet, often estimated); modern metric equivalents are approximate.",
+ "eyes": [
+  {
+   "id": "hunt",
+   "name": "John Hunt",
+   "short": "Hunt",
+   "life": "1910–1998",
+   "role": "Colonel, British Army, aged 42; leader of the 1953 expedition",
+   "side": "British (Joint Himalayan Committee of the Alpine Club and Royal Geographical Society)",
+   "where": "Base Camp, Western Cwm and, on 26 May, the ridge above the South Col",
+   "lat": 27.982,
+   "lon": 86.895,
+   "waypoints": [
+    {
+     "lat": 27.717,
+     "lon": 85.324,
+     "label": "Kathmandu, 10 Mar"
+    },
+    {
+     "lat": 27.836,
+     "lon": 86.764,
+     "label": "Thyangboche, 26 Mar"
+    },
+    {
+     "lat": 28.002,
+     "lon": 86.853,
+     "label": "Base Camp, Apr"
+    },
+    {
+     "lat": 27.982,
+     "lon": 86.895,
+     "label": "Camp IV, May"
+    },
+    {
+     "lat": 27.978,
+     "lon": 86.928,
+     "label": "Above S Col, 26 May"
+    },
+    {
+     "lat": 27.717,
+     "lon": 85.324,
+     "label": "Kathmandu, Jun"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "leader; planned the assaults and carried to the high camp",
+   "form": "expedition account (written later, 1953) and letters",
+   "language": "English",
+   "authenticity": "The Ascent of Everest (Hodder & Stoughton, 1953) is the official account, written in the months after the climb from diaries and reports, and is a later, shaped narrative, not a diary. Hunt's letters and papers are in the Alpine Club Archive (Lord John Hunt Papers). Dates here follow the expedition's published timeline.",
+   "bio": "A regular soldier who had served in India and in the Second World War, Hunt was named leader in place of Eric Shipton, which caused bitterness in the climbing world. His method was military logistics: a pyramid of camps, carried by Sherpas, to put two pairs high on the mountain. On 26 May he carried a load far above the South Col himself and came back worn out.",
+   "sources": [
+    {
+     "title": "1953 British Mount Everest expedition (timeline and team)",
+     "url": "https://static.hlt.bme.hu/semantics/external/pages/Hillary_Step/en.wikipedia.org/wiki/1953_British_Mount_Everest_expedition.html"
+    },
+    {
+     "title": "Harriet Tuckey, 'Everest 1953: the epic story...' Alpine Journal 2013 (cites Hunt papers, Alpine Club Archive)",
+     "url": "https://mail.alpinejournal.org.uk/Contents/Contents_2013_files/AJ 2013 93-103 Tuckey Everest.pdf"
+    },
+    {
+     "title": "The Ascent of Everest, Hodder catalogue page",
+     "url": "https://www.hodder.co.uk/titles/john-hunt/ascent-of-everest/9781444760903"
+    }
+   ]
+  },
+  {
+   "id": "hillary",
+   "name": "Edmund Hillary",
+   "short": "Hillary",
+   "life": "1919–2008",
+   "role": "New Zealand beekeeper and climber, aged 33; member of the second summit pair",
+   "side": "New Zealand (with the British expedition)",
+   "where": "Western Cwm, South Col, Camp IX and the summit",
+   "lat": 27.988,
+   "lon": 86.925,
+   "waypoints": [
+    {
+     "lat": 27.836,
+     "lon": 86.764,
+     "label": "Thyangboche, Mar"
+    },
+    {
+     "lat": 28.002,
+     "lon": 86.853,
+     "label": "Base Camp, Apr"
+    },
+    {
+     "lat": 27.982,
+     "lon": 86.895,
+     "label": "Camp IV, May"
+    },
+    {
+     "lat": 27.973,
+     "lon": 86.93,
+     "label": "South Col, 26 May"
+    },
+    {
+     "lat": 27.982,
+     "lon": 86.927,
+     "label": "Camp IX, 28 May"
+    },
+    {
+     "lat": 27.988,
+     "lon": 86.925,
+     "label": "Summit, 29 May"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "summit climber",
+   "form": "diary (small notebook, 10–31 May 1953)",
+   "language": "English",
+   "authenticity": "Hillary's expedition notebook, covering 10–31 May, is part of the Hillary archive cared for by Auckland Museum (UNESCO Memory of the World register); RNZ broadcast readings in 2013 with the family's permission. His fuller narratives are later: 'The Last Lap', Alpine Journal 1954; High Adventure (1955); View from the Summit (1999). Digests below follow the diary's dated entries and the 1954 account.",
+   "bio": "A beekeeper from Auckland with Himalayan experience from Shipton's 1951 reconnaissance and Cho Oyu in 1952. His diary is terse and practical, with loads, times and the moods of companions. He kept the first step on the summit to himself for years, saying only that they reached it together.",
+   "sources": [
+    {
+     "title": "RNZ: Ed Hillary's expedition diary entries for the ascent of Mt Everest in 1953",
+     "url": "https://www.rnz.co.nz/collections/siredmundhillary/edmund-hillarys-diary"
+    },
+    {
+     "title": "E. P. Hillary, 'The Last Lap', Alpine Journal 59 (1954)",
+     "url": "https://www.alpinejournal.org.uk/Contents/Contents_1954_files/AJ59%201954%20235-238%20Hillary%20Everest%20(4).pdf"
+    },
+    {
+     "title": "UNESCO Memory of the World NZ: Sir Edmund Hillary Archive",
+     "url": "https://unescomow.nz/inscription/sir-edmund-hillary-archive"
+    }
+   ]
+  },
+  {
+   "id": "tenzing",
+   "name": "Tenzing Norgay",
+   "short": "Tenzing",
+   "life": "1914–1986",
+   "role": "Sherpa sirdar (head of the Sherpa team) and climbing member, aged about 39; on his seventh Everest expedition",
+   "side": "Sherpa; born in Khumbu (Nepal) or, by his own later statement, of Tibetan descent; living in Darjeeling (India)",
+   "where": "South Col, Camp IX and the summit; in 1952 with the Swiss",
+   "lat": 27.988,
+   "lon": 86.925,
+   "waypoints": [
+    {
+     "lat": 27.04,
+     "lon": 88.26,
+     "label": "Darjeeling"
+    },
+    {
+     "lat": 27.977,
+     "lon": 86.932,
+     "label": "Swiss high pt, 1952"
+    },
+    {
+     "lat": 27.973,
+     "lon": 86.93,
+     "label": "South Col, May 1953"
+    },
+    {
+     "lat": 27.988,
+     "lon": 86.925,
+     "label": "Summit, 29 May"
+    },
+    {
+     "lat": 27.717,
+     "lon": 85.324,
+     "label": "Kathmandu, Jun"
+    },
+    {
+     "lat": 51.507,
+     "lon": -0.128,
+     "label": "London, Jul"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "summit climber; sirdar",
+   "form": "memoir (written later, co-written)",
+   "language": "Tenzing told his story in his own languages (he spoke Sherpa, Nepali, Tibetan, Hindi and some English); written up in English by James Ramsey Ullman",
+   "authenticity": "Tenzing could not write; Tiger of the Snows (1955) was composed by the American writer James Ramsey Ullman from long interviews, so it is a later, co-written memoir and not a diary. It was in this book that Tenzing first said Hillary stepped on top first. Other 1953 statements attributed to him reached print through newspapers and committees and were sometimes disowned.",
+   "bio": "Born in the Khumbu, raised partly in Tibetan culture and settled in Darjeeling, Tenzing had been to Everest in 1935, 1936, 1938, and twice with the Swiss in 1952. The Swiss had treated him as a full member, and he and Lambert had come within about 250 m of the top. In June 1953 his nationality and the order on the summit became political questions in Nepal and India.",
+   "sources": [
+    {
+     "title": "NOVA Online: Tenzing Norgay (quotes from Tiger of the Snows)",
+     "url": "https://www.pbs.org/wgbh/nova/everest/history/norgay2.html"
+    },
+    {
+     "title": "Charles Wylie, 'Tenzing Norgay 1914–1986 and the Sherpa team', Himalayan Journal 50",
+     "url": "https://www.himalayanclub.org/hj/50/11/tenzing-norgay-1914-1986-and-the-sherpa-team/"
+    },
+    {
+     "title": "Lhakpa Norbu Sherpa, 'Was Tenzing a Tibetan, Nepali or Indian?' Nepali Times 2021",
+     "url": "https://nepalitimes.com/was-tenzing-a-tibetan-nepali-or-indian-it-does-not-matter"
+    }
+   ]
+  },
+  {
+   "id": "noyce",
+   "name": "Wilfrid Noyce",
+   "short": "Noyce",
+   "life": "1917–1962",
+   "role": "Schoolmaster (Charterhouse), poet and climber, aged 35",
+   "side": "British",
+   "where": "The Lhotse Face and the South Col",
+   "lat": 27.97,
+   "lon": 86.92,
+   "waypoints": [
+    {
+     "lat": 27.836,
+     "lon": 86.764,
+     "label": "Thyangboche, Mar"
+    },
+    {
+     "lat": 28.002,
+     "lon": 86.853,
+     "label": "Base Camp, Apr"
+    },
+    {
+     "lat": 27.982,
+     "lon": 86.895,
+     "label": "Camp IV, May"
+    },
+    {
+     "lat": 27.967,
+     "lon": 86.918,
+     "label": "Camp VII, 17 May"
+    },
+    {
+     "lat": 27.973,
+     "lon": 86.93,
+     "label": "South Col, 21 May"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "lead climber on the Lhotse Face; first to the South Col",
+   "form": "memoir (written later, 1954), drawn from his expedition diary",
+   "language": "English",
+   "authenticity": "South Col: One Man's Adventure on the Ascent of Everest, 1953 (Heinemann, 1954) was written within a year from his diary and includes poems written on the mountain. The diary itself is not published separately; digests follow the book and the expedition timeline.",
+   "bio": "A fine rock climber and a writer, Noyce did the hard, unglamorous work of the expedition: ferrying loads and forcing the Lhotse Face when progress had stalled. With the Sherpa Annullu he reached the South Col, which unlocked the whole plan. He died climbing in the Pamirs in 1962.",
+   "sources": [
+    {
+     "title": "UKClimbing: Wilfrid Noyce article",
+     "url": "https://www.ukclimbing.com/articles/page.php?id=15529"
+    },
+    {
+     "title": "South Col (1954), bookseller record",
+     "url": "https://www.islandrarebooks.org.uk/?p=68569"
+    },
+    {
+     "title": "1953 expedition timeline",
+     "url": "https://static.hlt.bme.hu/semantics/external/pages/Hillary_Step/en.wikipedia.org/wiki/1953_British_Mount_Everest_expedition.html"
+    }
+   ]
+  },
+  {
+   "id": "lowe",
+   "name": "George Lowe",
+   "short": "Lowe",
+   "life": "1924–2013",
+   "role": "New Zealand primary-school teacher and climber, aged 28; Hillary's friend",
+   "side": "New Zealand (with the British expedition)",
+   "where": "The Lhotse Face; carried to Camp IX; met the summit pair on the South Col",
+   "lat": 27.973,
+   "lon": 86.93,
+   "waypoints": [
+    {
+     "lat": 27.836,
+     "lon": 86.764,
+     "label": "Thyangboche, Mar"
+    },
+    {
+     "lat": 28.002,
+     "lon": 86.853,
+     "label": "Base Camp, Apr"
+    },
+    {
+     "lat": 27.967,
+     "lon": 86.918,
+     "label": "Lhotse Face, May"
+    },
+    {
+     "lat": 27.982,
+     "lon": 86.927,
+     "label": "Camp IX, 28 May"
+    },
+    {
+     "lat": 27.973,
+     "lon": 86.93,
+     "label": "South Col, 29 May"
+    },
+    {
+     "lat": 27.717,
+     "lon": 85.324,
+     "label": "Kathmandu, Jun"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "support climber; carried highest of the support team",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Letters written on the mountain to family and friends in New Zealand, found by Huw Lewis-Jones while working with Lowe on his memoirs and published as Letters from Everest (Silverbear, 2013). Dates within the letters are digested here only where the expedition record fixes them.",
+   "bio": "Lowe spent more than a week cutting the route up the Lhotse Face and on 28 May carried a heavy load with Gregory and Ang Nyima to the top camp. He also shot film for the expedition. His letters are franker than the official book about strain on the leader and the frenzy around Tenzing.",
+   "sources": [
+    {
+     "title": "Letters from Everest (2013), Falmouth repository record",
+     "url": "https://repository.falmouth.ac.uk/3508/"
+    },
+    {
+     "title": "Everest Book Report review, 2013",
+     "url": "https://everestbookreport.blogspot.com/2013/12/letters-from-everest-by-george-lowe.html"
+    },
+    {
+     "title": "NZ Herald: Everest anniversary part 7, the climb (Lowe interview)",
+     "url": "https://nzherald.co.nz/nz/ieverest-anniversary-part-7i-the-climb/IEJW3LFDGABQ6TORU6NXF3HT34"
+    }
+   ]
+  },
+  {
+   "id": "evans",
+   "name": "Charles Evans",
+   "short": "Evans",
+   "life": "1918–1995",
+   "role": "Neurosurgeon, aged 34; deputy leader; first assault pair",
+   "side": "British (Welsh)",
+   "where": "South Col and South Summit, 26 May",
+   "lat": 27.982,
+   "lon": 86.926,
+   "waypoints": [
+    {
+     "lat": 27.836,
+     "lon": 86.764,
+     "label": "Thyangboche, Mar"
+    },
+    {
+     "lat": 27.982,
+     "lon": 86.895,
+     "label": "Camp IV, 1 May"
+    },
+    {
+     "lat": 27.965,
+     "lon": 86.912,
+     "label": "Camp VI, 4 May"
+    },
+    {
+     "lat": 27.973,
+     "lon": 86.93,
+     "label": "South Col, 25 May"
+    },
+    {
+     "lat": 27.983,
+     "lon": 86.926,
+     "label": "South Summit, 26 May"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "first assault climber",
+   "form": "diary (unpublished) and journal article",
+   "language": "English",
+   "authenticity": "Evans's 1953 diary is unpublished and held privately by the family; Harriet Tuckey read it for her Alpine Journal 2013 article. His published account is in the Alpine Journal 59 (1954). He also published a book of sketches, Eye on Everest (1955).",
+   "bio": "A surgeon from Liverpool and Hunt's deputy, Evans led the first assault with Bourdillon using the experimental closed-circuit oxygen sets. He was the one whose set failed. He later led the first ascent of Kangchenjunga in 1955.",
+   "sources": [
+    {
+     "title": "Tuckey, Alpine Journal 2013 (cites Evans's unpublished diary)",
+     "url": "https://mail.alpinejournal.org.uk/Contents/Contents_2013_files/AJ 2013 93-103 Tuckey Everest.pdf"
+    },
+    {
+     "title": "Charles Evans (mountaineer)",
+     "url": "https://Www.wikipedia.org/wiki/Charles_Evans_(mountaineer)"
+    }
+   ]
+  },
+  {
+   "id": "bourdillon",
+   "name": "Tom Bourdillon",
+   "short": "Bourdillon",
+   "life": "1924–1956",
+   "role": "Physicist working on rocket propulsion, aged 29; designer, with his father, of the closed-circuit oxygen sets",
+   "side": "British",
+   "where": "South Col and South Summit, 26 May",
+   "lat": 27.983,
+   "lon": 86.926,
+   "waypoints": [
+    {
+     "lat": 27.836,
+     "lon": 86.764,
+     "label": "Thyangboche, Mar"
+    },
+    {
+     "lat": 27.982,
+     "lon": 86.895,
+     "label": "Camp IV, 1 May"
+    },
+    {
+     "lat": 27.965,
+     "lon": 86.912,
+     "label": "Camp VI, 4 May"
+    },
+    {
+     "lat": 27.973,
+     "lon": 86.93,
+     "label": "South Col, 25 May"
+    },
+    {
+     "lat": 27.983,
+     "lon": 86.926,
+     "label": "South Summit, 26 May"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "first assault climber; oxygen engineer",
+   "form": "journal article (written later, 1954)",
+   "language": "English",
+   "authenticity": "His account appeared in the Alpine Journal (1954) and is quoted in Tuckey's 2013 article; no diary of his is cited for 26 May. Later statements that they should have gone on are reported by others.",
+   "bio": "A strong, technically minded climber, Bourdillon had worked with his father Robert on the closed-circuit apparatus, which gave more oxygen but was heavy and fragile. He was fitter than Evans on 26 May and agreed, reluctantly, to turn back. He was killed on the Jägihorn in Switzerland in 1956.",
+   "sources": [
+    {
+     "title": "Tom Bourdillon",
+     "url": "https://en.wikipedia.org/wiki/Tom_Bourdillon"
+    },
+    {
+     "title": "Tuckey, Alpine Journal 2013",
+     "url": "https://mail.alpinejournal.org.uk/Contents/Contents_2013_files/AJ 2013 93-103 Tuckey Everest.pdf"
+    }
+   ]
+  },
+  {
+   "id": "westmacott",
+   "name": "Michael Westmacott",
+   "short": "Westmacott",
+   "life": "1925–2012",
+   "role": "Statistician, aged 27; in charge of keeping the Khumbu Icefall route open",
+   "side": "British",
+   "where": "The Khumbu Icefall and Base Camp",
+   "lat": 28.002,
+   "lon": 86.853,
+   "waypoints": [
+    {
+     "lat": 27.836,
+     "lon": 86.764,
+     "label": "Thyangboche, Mar"
+    },
+    {
+     "lat": 28.002,
+     "lon": 86.853,
+     "label": "Base Camp, 12 Apr"
+    },
+    {
+     "lat": 27.995,
+     "lon": 86.87,
+     "label": "Icefall, May"
+    },
+    {
+     "lat": 27.982,
+     "lon": 86.895,
+     "label": "Camp IV, 30 May"
+    },
+    {
+     "lat": 28.002,
+     "lon": 86.853,
+     "label": "Base Camp, 30 May"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "kept the lifeline open below",
+   "form": "reported in others' accounts and obituaries",
+   "language": "English",
+   "authenticity": "No diary of Westmacott's has been published. His part, including taking Morris down the mountain with the news, is recorded by Morris and in the RGS obituary. Entries are flagged as through others.",
+   "bio": "Westmacott, sick at altitude for part of the time, spent weeks repairing the shifting route through the Icefall, the expedition's most dangerous ground. On 30 May he guided James Morris down to Base Camp in the dark so the news could be sent.",
+   "sources": [
+    {
+     "title": "RGS: Michael Horatio Westmacott obituary",
+     "url": "https://www.rgs.org/about-us/our-work/latest-news/michael-horatio-westmacott-obituary/"
+    },
+    {
+     "title": "J. Morris, Alpine Journal 1993",
+     "url": "https://www.alpinejournal.org.uk/Contents/Contents_1993_files/AJ%201993%2073-76%20Morris%20Everest.pdf"
+    }
+   ]
+  },
+  {
+   "id": "pugh",
+   "name": "Griffith Pugh",
+   "short": "Pugh",
+   "life": "1909–1994",
+   "role": "Physiologist of the Medical Research Council, aged 43",
+   "side": "British",
+   "where": "Thyangboche, Base Camp and the Western Cwm",
+   "lat": 27.982,
+   "lon": 86.895,
+   "waypoints": [
+    {
+     "lat": 51.556,
+     "lon": -0.178,
+     "label": "Hampstead lab"
+    },
+    {
+     "lat": 27.836,
+     "lon": 86.764,
+     "label": "Thyangboche, Mar"
+    },
+    {
+     "lat": 28.002,
+     "lon": 86.853,
+     "label": "Base Camp, Apr"
+    },
+    {
+     "lat": 27.982,
+     "lon": 86.895,
+     "label": "Camp IV, May"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "scientist; tested the climbers",
+   "form": "scientific notes and later reports",
+   "language": "English",
+   "authenticity": "Pugh's working notes and correspondence (for example a letter from Hunt at advanced base) are cited by his daughter Harriet Tuckey in Everest: The First Ascent (2013) and her Alpine Journal article. His findings were published in scientific journals after the expedition. Entries are dated only to the month.",
+   "bio": "Pugh had studied the Cho Oyu party in 1952 and worked out why earlier attempts failed: too little oxygen, too little water, too few calories. For 1953 he set higher oxygen flow rates, pushed the climbers to drink several litres a day, and redesigned stoves, boots and tents. For decades his role was barely acknowledged.",
+   "sources": [
+    {
+     "title": "The Conversation: Meet Griffith Pugh",
+     "url": "https://theconversation.edu.au/meet-griffith-pugh-the-everest-pioneer-youve-never-heard-of-27555"
+    },
+    {
+     "title": "Griffith Pugh",
+     "url": "https://en.wikipedia.org/wiki/Griffith_Pugh"
+    },
+    {
+     "title": "Tuckey, Alpine Journal 2013",
+     "url": "https://mail.alpinejournal.org.uk/Contents/Contents_2013_files/AJ 2013 93-103 Tuckey Everest.pdf"
+    }
+   ]
+  },
+  {
+   "id": "morris",
+   "name": "James Morris (later Jan Morris)",
+   "short": "Morris",
+   "life": "1926–2020",
+   "role": "Times correspondent with the expedition, aged 26; former Times deputy foreign editor",
+   "side": "British press (The Times, under contract to the expedition)",
+   "where": "Base Camp and Camp IV; then the trail south of Namche Bazar",
+   "lat": 28.002,
+   "lon": 86.853,
+   "waypoints": [
+    {
+     "lat": 27.717,
+     "lon": 85.324,
+     "label": "Kathmandu, Mar"
+    },
+    {
+     "lat": 28.002,
+     "lon": 86.853,
+     "label": "Base Camp, May"
+    },
+    {
+     "lat": 27.982,
+     "lon": 86.895,
+     "label": "Camp IV, 30 May"
+    },
+    {
+     "lat": 28.002,
+     "lon": 86.853,
+     "label": "Base Camp, 30 May"
+    },
+    {
+     "lat": 27.76,
+     "lon": 86.71,
+     "label": "Dudh Kosi, 2 Jun"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "reporter at the foot of the mountain",
+   "form": "dispatches; memoir (written later)",
+   "language": "English",
+   "authenticity": "Morris filed dated dispatches to The Times in 1953, published under the byline James Morris; she later wrote as Jan Morris after transitioning, and is named here with the 1953 byline. Coronation Everest (1958) and a 1993 Alpine Journal piece are later memoirs.",
+   "bio": "Morris was not a climber and never got beyond the foot of the Lhotse Face, but went up to Camp IV on 30 May to meet the returning climbers. The coded message Morris wrote that night beat rival reporters and reached London in time for Coronation Day. Morris ran the news chain while pretending, to a Reuters man on the trail, that the attempt had failed.",
+   "sources": [
+    {
+     "title": "Mark Horrell: What was Jan Morris's secret code?",
+     "url": "https://www.markhorrell.com/blog/2020/what-was-jan-morriss-secret-code-to-say-that-everest-had-been-climbed/"
+    },
+    {
+     "title": "J. Morris, 'Everest' Alpine Journal 1993",
+     "url": "https://www.alpinejournal.org.uk/Contents/Contents_1993_files/AJ%201993%2073-76%20Morris%20Everest.pdf"
+    },
+    {
+     "title": "News UK Archives: Everest conquered",
+     "url": "https://medium.com/@NewsUKArchives/everest-conquered-375db307de62"
+    }
+   ]
+  },
+  {
+   "id": "lambert",
+   "name": "Raymond Lambert",
+   "short": "Lambert",
+   "life": "1914–1997",
+   "role": "Genevan mountain guide, aged 38, who had lost his toes to frostbite; lead climber of the Swiss expedition",
+   "side": "Swiss (Swiss Foundation for Alpine Research)",
+   "where": "The south-east ridge above the South Col, May 1952",
+   "lat": 27.977,
+   "lon": 86.932,
+   "waypoints": [
+    {
+     "lat": 27.717,
+     "lon": 85.324,
+     "label": "Kathmandu, 1952"
+    },
+    {
+     "lat": 28.002,
+     "lon": 86.853,
+     "label": "Khumbu, Apr 1952"
+    },
+    {
+     "lat": 27.973,
+     "lon": 86.93,
+     "label": "South Col, May 1952"
+    },
+    {
+     "lat": 27.977,
+     "lon": 86.932,
+     "label": "8,400 m tent, 27 May"
+    },
+    {
+     "lat": 27.98,
+     "lon": 86.93,
+     "label": "~8,595 m, 28 May"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "prologue: the 1952 near miss",
+   "form": "expedition account (written later, 1953)",
+   "language": "French",
+   "authenticity": "Lambert's chapters appear in the Swiss expedition book Avant-premières à l'Everest (1953; English: Forerunners to Everest, 1954), written after the climb. Dates and heights follow the expedition records reported by Dyhrenfurth (American Alpine Journal) and later summaries. Heights in 1952 were estimates.",
+   "bio": "Lambert and Tenzing became a famous partnership in 1952. With almost no equipment they bivouacked at about 8,400 m and next day climbed with barely working oxygen to about 8,595 m, the highest point anyone was known to have reached. They returned in the autumn but were beaten by cold and wind.",
+   "sources": [
+    {
+     "title": "1952 Swiss Mount Everest expedition",
+     "url": "https://static.hlt.bme.hu/semantics/external/pages/Hillary_Step/en.wikipedia.org/wiki/1952_Swiss_Mount_Everest_expedition.html"
+    },
+    {
+     "title": "N. G. Dyhrenfurth, 'Mount Everest, 1952', American Alpine Journal",
+     "url": "https://publications.americanalpineclub.org/articles/12195339700"
+    },
+    {
+     "title": "swissinfo: Return to Everest",
+     "url": "https://www.swissinfo.ch/eng/return-to-everest/2597168"
+    }
+   ]
+  },
+  {
+   "id": "odell",
+   "name": "Noel Odell",
+   "short": "Odell",
+   "life": "1890–1987",
+   "role": "Geologist and climber, aged 33, on the 1924 British expedition (north side, Tibet)",
+   "side": "British (1924 Mount Everest Committee)",
+   "where": "The north face near Camp VI, 8 June 1924",
+   "lat": 28.025,
+   "lon": 86.935,
+   "waypoints": [
+    {
+     "lat": 28.03,
+     "lon": 86.95,
+     "label": "North Col, Jun 1924"
+    },
+    {
+     "lat": 28.025,
+     "lon": 86.935,
+     "label": "~26,000 ft, 8 Jun"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "prologue: last to see Mallory and Irvine",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Odell's 1924 diary records the sighting at 12.50 on 8 June; his published accounts (The Times, 1924; The Fight for Everest, 1925) were scrutinised, and he later changed his view of where on the ridge he saw them. This is a separate story from 1953, told here only as background.",
+   "bio": "Odell was the support climber below Mallory and Irvine on their last day. For a moment the clouds parted and he saw two figures on the north-east ridge; then the mist closed. Whether they reached the top has never been settled.",
+   "sources": [
+    {
+     "title": "Merton College: Mallory and Irvine disappear",
+     "url": "https://www.merton.ox.ac.uk/everest-timeline/mallory-and-irvine-disappear"
+    },
+    {
+     "title": "Noel Odell",
+     "url": "https://en.wikipedia.org/wiki/Noel_Odell"
+    }
+   ]
+  },
+  {
+   "id": "statesman",
+   "name": "The Sunday Statesman (Calcutta)",
+   "short": "Statesman",
+   "life": "newspaper, est. 1875",
+   "role": "Indian English-language daily; Kathmandu and Darjeeling correspondents",
+   "side": "Indian press",
+   "where": "Calcutta, with reports from Kathmandu",
+   "lat": 22.57,
+   "lon": 88.36,
+   "vantage": 3,
+   "vantage_label": "Indian press, reporting the reception",
+   "form": "newspaper reports (press)",
+   "language": "English",
+   "authenticity": "A scanned page of The Sunday Statesman of 21 June 1953, held in the Learning on Screen (BUFVC) News on Screen collection; OCR is partly garbled. It is a press record, not a diary, and reports claims made by others, some of which Tenzing later denied.",
+   "bio": "The Statesman's reporters covered the expedition's march to Kathmandu and the struggle over Tenzing's identity. Its page shows the Nepali and Indian sides of the welcome and the pressure placed on Tenzing.",
+   "sources": [
+    {
+     "title": "The Sunday Statesman, 21 June 1953 (Learning on Screen scan)",
+     "url": "https://media.learningonscreen.ac.uk/newsonscreen2/BPN/44452/NoS_44452_other.pdf"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1924-06-08",
+   "date_display": "Sunday 8 June 1924",
+   "precision": "day",
+   "eye": "odell",
+   "place": "North face of Everest, about 26,000 ft (Tibet)",
+   "headline": "Two figures on the ridge, then the cloud closes",
+   "digest": "Climbing alone towards Camp VI, Odell scrambled up a small crag, found what he took for a fossil, and saw the cloud lift off the north-east ridge. At 12.50 his diary records Mallory and Irvine on the ridge near the foot of the final pyramid. Within moments the mist returned. Later, in a squall, he searched above the top tent, shouting, and found only gear and no note.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Merton College Everest timeline (quotes Odell's diary entry for 8 June 1924)."
+  },
+  {
+   "date_iso": "1924-06-10",
+   "date_display": "June 1924",
+   "precision": "range",
+   "eye": "odell",
+   "place": "Camps V–VI and down to the North Col",
+   "headline": "Odell gives up the search",
+   "digest": "After two more days high on the mountain with no sign of the pair, Odell signalled their loss to the camps below and came down. His account became the most argued-over evidence in Everest history. Whether the pair reached the summit has never been settled.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Merton College timeline; Hillary, Alpine Journal 1954 (no trace mentioned on the summit)."
+  },
+  {
+   "date_iso": "1952-05-27",
+   "date_display": "Tuesday 27 May 1952",
+   "precision": "day",
+   "eye": "lambert",
+   "place": "Tent at about 8,400 m on the south-east ridge",
+   "headline": "A night with no sleeping bags at 8,400 m",
+   "digest": "After the other Swiss climbers turned back, Lambert and Tenzing were left in a single small tent high on the ridge with no sleeping bags and no stove. They melted snow over a candle and huddled together through the night. Lambert's account makes their trust in each other the heart of the story.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "1952 Swiss expedition summary; Dyhrenfurth, AAJ (single-tent camp at c. 27,550 ft); date taken as the eve of 28 May."
+  },
+  {
+   "date_iso": "1952-05-28",
+   "date_display": "Wednesday 28 May 1952",
+   "precision": "day",
+   "eye": "lambert",
+   "place": "South-east ridge, about 8,595 m",
+   "headline": "Lambert and Tenzing stop about 250 m below the summit",
+   "digest": "Their oxygen sets would barely work, so they were in effect climbing without it, carrying useless weight. Moving a few steps at a time, they reached about 8,595 m before exhaustion stopped them. They turned back below the South Summit, having climbed higher than anyone was known to have gone.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dyhrenfurth, American Alpine Journal (28 May 1952, c. 28,250 ft); Swiss expedition summary (c. 8,595 m)."
+  },
+  {
+   "date_iso": "1952-05-28",
+   "date_display": "Wednesday 28 May 1952",
+   "precision": "day",
+   "eye": "tenzing",
+   "place": "South-east ridge, about 8,595 m",
+   "headline": "Tenzing, a year early, sees the summit within reach",
+   "digest": "In his later memoir Tenzing remembered 1952 as the climb that taught him the mountain could be done. He and Lambert shared everything they had, and he valued being treated as an equal member of the team, which was new for a Sherpa. He went home to Darjeeling knowing he would try again.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Tiger of the Snows (1955, written later with J. R. Ullman), as summarised in later sources; date fixed by the Swiss record."
+  },
+  {
+   "date_iso": "1952-11-20",
+   "date_display": "Thursday 20 November 1952",
+   "precision": "day",
+   "eye": "lambert",
+   "place": "Above the South Col",
+   "headline": "The autumn attempt is beaten back by cold",
+   "digest": "Lambert and Tenzing came back after the monsoon. On 31 October an ice avalanche had killed the Sherpa Mingma Dorje. On 19 November they reached the South Col at five in the afternoon, but next day bitter wind and cold stopped them at about 8,100 m, and the Swiss went home.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dyhrenfurth, American Alpine Journal (31 Oct avalanche; 19–20 Nov)."
+  },
+  {
+   "date_iso": "1953-03-26",
+   "date_display": "26–27 March 1953",
+   "precision": "range",
+   "eye": "hunt",
+   "place": "Thyangboche monastery, Khumbu",
+   "headline": "The expedition gathers at Thyangboche to acclimatise",
+   "digest": "After a march of more than two weeks from Kathmandu with some 350 porters, the two parties reached the monastery at Thyangboche. Hunt set three weeks of acclimatising climbs on the nearby peaks, testing men and oxygen sets in small groups.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "1953 expedition timeline (arrivals 26–27 March; acclimatisation to 17 April)."
+  },
+  {
+   "date_iso": "1953-04-12",
+   "date_display": "Sunday 12 April 1953",
+   "precision": "day",
+   "eye": "westmacott",
+   "place": "Base Camp, 17,900 ft",
+   "headline": "The Icefall party reaches Base Camp",
+   "digest": "Westmacott was with the party that set up Base Camp below the Khumbu Icefall and began forcing a route through the moving ice towers. Over the following weeks the route had to be rebuilt again and again as seracs collapsed and crevasses opened. Keeping it open for the Sherpas' loads became his main job.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "1953 expedition timeline (Icefall party at Base Camp 12 April); RGS obituary."
+  },
+  {
+   "date_iso": "1953-04-15",
+   "date_display": "March–April 1953",
+   "precision": "range",
+   "eye": "pugh",
+   "place": "Thyangboche and Base Camp",
+   "headline": "Pugh measures the climbers and sets the water rule",
+   "digest": "Pugh tested the climbers with and without oxygen and worked out how much bottled oxygen the assault would need, at higher flow rates than earlier expeditions had used. He insisted that each man drink several litres a day, which meant melting a great deal of snow, and pushed for sugary drinks and high-calorie food. His daughter's biography argues that his rules met resistance from climbers used to toughing it out.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "The Conversation (Pugh's role in 1953); Tuckey, Alpine Journal 2013 (Pugh papers)."
+  },
+  {
+   "date_iso": "1953-05-04",
+   "date_display": "Monday 4 May 1953",
+   "precision": "day",
+   "eye": "evans",
+   "place": "Camp VI, about 23,000 ft, Lhotse Face",
+   "headline": "Evans and Bourdillon test the closed-circuit sets on the Lhotse Face",
+   "digest": "Supported by Ward and Wylie, Evans and Bourdillon climbed to about 23,000 ft on the Lhotse Face, partly to try out the closed-circuit oxygen. The sets gave strong climbing but heated up and were heavy and fussy. Hunt chose them for the first assault all the same.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "1953 expedition timeline (4 May); Tuckey, AJ 2013 (Evans diary and the closed-circuit sets)."
+  },
+  {
+   "date_iso": "1953-05-04",
+   "date_display": "Monday 4 May 1953",
+   "precision": "day",
+   "eye": "bourdillon",
+   "place": "Camp VI, about 23,000 ft, Lhotse Face",
+   "headline": "Bourdillon trusts the system he helped build",
+   "digest": "For Bourdillon the trial was a test of his and his father's design. The closed-circuit set recycled the climber's breath through soda lime and could give more oxygen than the open sets. He believed it might take a pair from the South Col to the top and back in one day.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "1953 expedition timeline; Tuckey, AJ 2013 (closed-circuit system)."
+  },
+  {
+   "date_iso": "1953-05-17",
+   "date_display": "Sunday 17 May 1953",
+   "precision": "day",
+   "eye": "lowe",
+   "place": "Camp VII, about 24,000 ft, Lhotse Face",
+   "headline": "Lowe and Noyce set up Camp VII after days cutting steps",
+   "digest": "For more than a week Lowe had been cutting steps and fixing rope up the steep ice of the Lhotse Face, slowed by wind, snow and the altitude. With Noyce he set up Camp VII at about 24,000 ft. His letters home describe coming down from the face in a whiteout with a string of Sherpas.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "1953 expedition timeline (Camp VII, 17 May); Letters from Everest (2013) as reviewed."
+  },
+  {
+   "date_iso": "1953-05-17",
+   "date_display": "Sunday 17 May 1953",
+   "precision": "day",
+   "eye": "hillary",
+   "place": "Camp IV, Western Cwm",
+   "headline": "Hillary waits at Camp IV, impatient",
+   "digest": "Hillary's notebook records him at Camp IV while Sherpas carried loads up to Camp VII. Over the next days he wrote of watching the face for movement and of his frustration as the climbers above made slow progress. Behind his impatience was the fear that the season would run out.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "RNZ diary collection (entries 17–20 May)."
+  },
+  {
+   "date_iso": "1953-05-21",
+   "date_display": "Thursday 21 May 1953",
+   "precision": "day",
+   "eye": "noyce",
+   "place": "South Col, just under 26,000 ft",
+   "headline": "Noyce and Annullu reach the South Col",
+   "digest": "When the push up the face had stalled, Noyce and the Sherpa Annullu crossed the traverse and climbed on to the South Col, the bleak wind-scoured saddle between Everest and Lhotse. Seen from the Cwm, two figures on the col told everyone the route was open. The col was the place from which both assaults would start.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "1953 expedition timeline (by 21 May); UKClimbing; South Col (1954). Annullu's own view survives only through others."
+  },
+  {
+   "date_iso": "1953-05-21",
+   "date_display": "Thursday 21 May 1953",
+   "precision": "day",
+   "eye": "hillary",
+   "place": "Camp IV to Camp VII",
+   "headline": "Hillary and Tenzing go up to drive the carry",
+   "digest": "Seeing that the Sherpa carry to the col might fail, Hillary and Tenzing climbed from Camp IV to Camp VII in one push. Hunt let them, though they were meant to be resting for the second assault. Hillary's diary notes the day plainly.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "RNZ diary collection (21 May entry summary)."
+  },
+  {
+   "date_iso": "1953-05-22",
+   "date_display": "Friday 22 May 1953",
+   "precision": "day",
+   "eye": "hillary",
+   "place": "Lhotse Face to the South Col",
+   "headline": "A day Hillary calls a great success",
+   "digest": "With Wylie leading a long file of loaded Sherpas, Hillary and Tenzing helped push the stores up to the South Col and came back down. Hillary's diary calls it a tremendous and successful day: the high camp now had its tents and oxygen. The way was set for the two assaults.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "RNZ diary collection (22 May entry summary); Wylie, Himalayan Journal 50."
+  },
+  {
+   "date_iso": "1953-05-26",
+   "date_display": "Tuesday 26 May 1953",
+   "precision": "day",
+   "eye": "evans",
+   "place": "South Col to the South Summit, 8,750 m",
+   "headline": "The first assault reaches the South Summit and turns back",
+   "digest": "The start was delayed by an hour and a half while Bourdillon swapped a broken valve on Evans's set. They climbed fast, and at about 1 pm they stood on the South Summit, the first people to reach it, about 100 m below the top. Evans was exhausted, his set was faulty again, and they did not have the oxygen to go on and get back. They decided together to turn round.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Tuckey, AJ 2013 (from Evans's unpublished diary and AJ accounts); 1953 expedition timeline."
+  },
+  {
+   "date_iso": "1953-05-26",
+   "date_display": "Tuesday 26 May 1953",
+   "precision": "day",
+   "eye": "bourdillon",
+   "place": "South Summit and descent",
+   "headline": "Bourdillon agrees to turn back, and regrets it",
+   "digest": "Bourdillon felt stronger than Evans and could see the final ridge ahead. He agreed to go down, but the descent was a nightmare of slips and falls, and they reached the col worn out. He said later that they should have gone on.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Tuckey, AJ 2013 (Bourdillon's 1954 AJ account and later remarks)."
+  },
+  {
+   "date_iso": "1953-05-26",
+   "date_display": "Tuesday 26 May 1953",
+   "precision": "day",
+   "eye": "hunt",
+   "place": "Above the South Col",
+   "headline": "Hunt and Da Namgyal carry for the top camp",
+   "digest": "While the first pair climbed, Hunt and the Sherpa Da Namgyal carried the first loads for the top camp up the ridge. They had to drop them short of the planned height, at about 27,350–27,500 ft, and came back to the col shattered. Hunt's later book makes the most of the first pair's achievement; others noted how near the leader came to collapse.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Tuckey, AJ 2013; Wylie, Himalayan Journal 50 (Da Namgyal to c. 27,500 ft). Da Namgyal's voice survives only through others."
+  },
+  {
+   "date_iso": "1953-05-26",
+   "date_display": "Tuesday 26 May 1953",
+   "precision": "day",
+   "eye": "hillary",
+   "place": "South Col",
+   "headline": "Hillary watches from the col",
+   "digest": "Hillary's diary records his pleasure as the first pair moved quickly up the ridge, and his surprise when they came back defeated. Now it would be his turn with Tenzing. That afternoon the weather turned, and the next day a gale held the second pair on the col.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "RNZ diary collection (26 May entry summary); Tuckey, AJ 2013 (weather 26–27 May)."
+  },
+  {
+   "date_iso": "1953-05-28",
+   "date_display": "Thursday 28 May 1953",
+   "precision": "day",
+   "eye": "lowe",
+   "place": "Ridge above the South Col to Camp IX",
+   "headline": "Lowe, Gregory and Ang Nyima carry to Camp IX",
+   "digest": "Ang Temba had fallen ill and Pemba was unfit, so the Sherpa Ang Nyima was the only one left to carry high. Lowe, Gregory and Ang Nyima went ahead cutting steps, picked up Hunt's dump and loaded on more. They left their loads at about 27,900 ft and went down, leaving the summit pair on the ridge.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NZ Herald anniversary series part 7 (loads and party); Hillary, AJ 1954 (Camp IX c. 27,900 ft); Wylie, HJ 50 (Ang Nyima)."
+  },
+  {
+   "date_iso": "1953-05-28",
+   "date_display": "Thursday 28 May 1953",
+   "precision": "day",
+   "eye": "hillary",
+   "place": "Camp IX, about 27,900 ft",
+   "headline": "Cutting a ledge for the highest camp",
+   "digest": "Hillary and Tenzing hacked two small terraces out of the slope and pitched their tent, tying the guys to oxygen bottles. Hillary worked out how much oxygen they had left and decided to push on. The night was cold and cramped; they breathed oxygen for two short spells and dozed in between.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "RNZ diary (28 May: at Camp IX, decided to push on); Hillary, AJ 1954."
+  },
+  {
+   "date_iso": "1953-05-28",
+   "date_display": "Thursday 28 May 1953",
+   "precision": "day",
+   "eye": "tenzing",
+   "place": "Camp IX",
+   "headline": "Tenzing cooks and waits through the night",
+   "digest": "In Tenzing's account he made soup and tea on the little stove while Hillary checked the oxygen. He later said he wore on the summit a red scarf that Lambert had given him in 1952.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Tiger of the Snows (1955, written later and co-written), as summarised in later sources."
+  },
+  {
+   "date_iso": "1953-05-29",
+   "date_display": "Friday 29 May 1953, about 11.30 am",
+   "precision": "day",
+   "eye": "hillary",
+   "place": "South Summit, Hillary Step and summit",
+   "headline": "Hillary and Tenzing reach the top",
+   "digest": "They left at about 6.30 am, climbed a steep and dangerous snow slope, reached the South Summit, and judged they had enough oxygen to go on. Hillary cleared ice from Tenzing's oxygen outlet, then wriggled up a 40-foot crack between rock and cornice, now called the Hillary Step. At about 11.30 they stood on top. He photographed Tenzing holding the flags, took pictures in every direction, and left a small crucifix from Hunt.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Hillary, 'The Last Lap', AJ 1954; 1953 expedition timeline (11.30 am)."
+  },
+  {
+   "date_iso": "1953-05-29",
+   "date_display": "Friday 29 May 1953",
+   "precision": "day",
+   "eye": "tenzing",
+   "place": "Summit of Everest (Chomolungma / Sagarmatha)",
+   "headline": "Tenzing makes an offering on the summit",
+   "digest": "Tenzing buried sweets and biscuits in the snow as an offering to the mountain's gods and held up four flags: those of the United Nations, Britain, Nepal and India. They stayed about fifteen minutes. In his 1955 memoir he wrote that the mountain felt warm and alive, not hostile.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Hillary, AJ 1954 (offering, flags); Nepali Times 2021 (flags, ~15 min); NOVA (Tiger of the Snows)."
+  },
+  {
+   "date_iso": "1953-05-29",
+   "date_display": "Friday 29 May 1953, afternoon",
+   "precision": "day",
+   "eye": "lowe",
+   "place": "South Col",
+   "headline": "Lowe meets the pair coming down",
+   "digest": "Lowe went out from the col with hot drinks to meet the two climbers coming down the couloir. Hillary's blunt remark of success to his old friend became famous; in his letters Lowe insists it was said in disbelief, not boastfully. That night the wind battered the tents on the col.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Hillary, AJ 1954; Everest Book Report review of Letters from Everest (context of the remark)."
+  },
+  {
+   "date_iso": "1953-05-30",
+   "date_display": "Saturday 30 May 1953",
+   "precision": "day",
+   "eye": "hunt",
+   "place": "Camp IV, Western Cwm",
+   "headline": "The leader learns the news",
+   "digest": "The waiting climbers at Camp IV saw the party coming down and feared it had failed, because the descending men did not signal at first. Then Lowe gave a thumbs-up. Hunt went out to meet them and embraced Hillary and Tenzing, a moment Tom Stobart filmed; he had asked the descending party to hold back the news so the camera could catch it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Hillary, AJ 1954 (Lowe's thumbs-up at Camp IV, Stobart, Morris); The Conquest of Everest film notes (Stobart)."
+  },
+  {
+   "date_iso": "1953-05-30",
+   "date_display": "Saturday 30 May 1953",
+   "precision": "day",
+   "eye": "morris",
+   "place": "Camp IV, then down to Base Camp",
+   "headline": "Morris races down with the news",
+   "digest": "Morris had climbed to Camp IV to meet the climbers and heard the story there. With Westmacott, Morris went straight down through the Icefall to Base Camp, arriving exhausted. There Morris typed the coded message: words that meant failure to anyone else meant success, Hillary and Tenzing, and the date. Morris added All Well in plain words.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Hillary, AJ 1954 (Morris at Camp IV); Mark Horrell (message typed at Base Camp 30 May, code key); Morris, AJ 1993 (Westmacott)."
+  },
+  {
+   "date_iso": "1953-05-30",
+   "date_display": "Saturday 30 May 1953",
+   "precision": "day",
+   "eye": "westmacott",
+   "place": "Western Cwm and Khumbu Icefall",
+   "headline": "Westmacott takes Morris down the Icefall",
+   "digest": "Westmacott, who knew every bridge and ladder in the Icefall, guided the tired correspondent down the route he had kept open for weeks. Morris later credited him with heroic efforts. Without that descent the message could not have left Base Camp the same night.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Morris, Alpine Journal 1993; RGS obituary (descended to send news home). Westmacott's own record is not published."
+  },
+  {
+   "date_iso": "1953-05-30",
+   "date_display": "Saturday 30 May 1953",
+   "precision": "day",
+   "eye": "hillary",
+   "place": "South Col to Camp IV",
+   "headline": "Down to the Cwm and to the cameras",
+   "digest": "Hillary's diary records the descent from the col over the traverse to Camp VII, where Wylie met them, and on to Camp IV. There the team, Stobart's camera and the reporter were waiting. He was very tired, and next day he went on down towards Base Camp.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "RNZ diary (30–31 May); Hillary, AJ 1954."
+  },
+  {
+   "date_iso": "1953-05-31",
+   "date_display": "Sunday 31 May 1953",
+   "precision": "day",
+   "eye": "morris",
+   "place": "Base Camp",
+   "headline": "A runner leaves for Namche; Morris writes the full story",
+   "digest": "The coded message went by runner to Namche Bazar, where an Indian police radio operator, who did not know the code, sent it on to the British Embassy in Kathmandu. Morris also wrote a long dispatch about the climb, which went out by the slower runner relay. Only Morris and the Times man in Kathmandu, Arthur Hutchinson, held the code.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Mark Horrell (runner, Mr Tiwari, Embassy, Hutchinson); News UK Archives (full account written 31 May, published 8 June)."
+  },
+  {
+   "date_iso": "1953-06-01",
+   "date_display": "Monday 1 June 1953",
+   "precision": "day",
+   "eye": "morris",
+   "place": "Trail near Namche Bazar; London",
+   "headline": "Misleading a rival; the code arrives in London",
+   "digest": "On the way down Morris met Peter Jackson of Reuters and told him the expedition had failed; Jackson suspected otherwise but held back. That afternoon in London, at 4.14 pm, the Foreign Office telephoned the decoded words to The Times. The paper put the news in its first edition that night, and the Queen received it the evening before her coronation.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Mark Horrell (Jackson); News UK Archives (4.14 pm call, first edition c. 10 pm); Morris, AJ 1993 (Queen told 1 June)."
+  },
+  {
+   "date_iso": "1953-06-02",
+   "date_display": "Tuesday 2 June 1953 (Coronation Day)",
+   "precision": "day",
+   "eye": "morris",
+   "place": "Camp beside the Dudh Kosi, six miles south of Namche",
+   "headline": "Morris hears the news on the radio",
+   "digest": "Camped by the river, Morris tuned in a radio and heard the news read out on the BBC, credited to The Times, on the day Elizabeth II was crowned. Crowds lining the London streets heard it too, and other papers joined in. Morris knew the message had worked.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Mark Horrell; Morris, AJ 1993; News UK Archives."
+  },
+  {
+   "date_iso": "1953-06-05",
+   "date_display": "Early June 1953",
+   "precision": "range",
+   "eye": "hunt",
+   "place": "Thyangboche, on the march out",
+   "headline": "Telegrams, honours and a strained team",
+   "digest": "Telegrams of congratulation reached the expedition as it walked out through the monsoon rain; one, from Churchill, came for Tenzing. Hunt and Hillary learned they were to be knighted, while Tenzing was later given the George Medal, a difference that hurt in India and Nepal. Some accounts say Tenzing's wish to send a message to his wife was ignored until Wylie helped him.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "montagna.tv 'Speciale Everest 1953: il ritorno' (Churchill telegram, Wylie); Nepali Times 2021 (George Medal); later Hillary remarks."
+  },
+  {
+   "date_iso": "1953-06-15",
+   "date_display": "June 1953",
+   "precision": "range",
+   "eye": "lowe",
+   "place": "Walk-out to Kathmandu",
+   "headline": "Lowe sees the crowds turn to Tenzing",
+   "digest": "Lowe's letters describe the growing excitement around Tenzing as the party neared the Kathmandu valley. Men approached Tenzing with papers to sign, and banners appeared in the villages. For a New Zealander used to quiet mountain clubs, the political storm was baffling.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Everest Book Report review of Letters from Everest; montagna.tv (papers, banners)."
+  },
+  {
+   "date_iso": "1953-06-19",
+   "date_display": "Friday 19 June 1953",
+   "precision": "day",
+   "eye": "statesman",
+   "place": "Dulalghat and Hukase, about 30 miles from Kathmandu",
+   "headline": "Crowds greet Tenzing on the road",
+   "digest": "The Statesman reported that Tenzing and Hillary reached Dulalghat and spent the night at Hukase, met by chanting crowds and religious ceremonies. Hillary was said to have joked that the welcome was harder than the climb, and Tenzing to have agreed. Reception plans in Kathmandu included a state carriage procession and a royal ceremony.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "The Sunday Statesman, 21 June 1953 (reports dated 17–19 June)."
+  },
+  {
+   "date_iso": "1953-06-20",
+   "date_display": "Saturday 20 June 1953",
+   "precision": "day",
+   "eye": "statesman",
+   "place": "Kathmandu",
+   "headline": "Radio Nepal says Tenzing has declared himself Nepali",
+   "digest": "The paper reported that Radio Nepal had announced that Tenzing declared himself a Nepali citizen. It said a 'Tensing Security Committee' linked to the banned Communist Party had threatened Indian reporters and roughed up one of them. Tenzing was reported as saying he had been born in Nepal and raised in India, and later as denying the statement the committee had published.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "The Sunday Statesman, 21 June 1953 (Learning on Screen scan)."
+  },
+  {
+   "date_iso": "1953-06-20",
+   "date_display": "Saturday 20 June 1953",
+   "precision": "day",
+   "eye": "tenzing",
+   "place": "Bhaktapur and the road into Kathmandu",
+   "headline": "Carried shoulder-high into the valley",
+   "digest": "In the Kathmandu valley the cheering was for Tenzing alone. He was carried in triumph, and banners and posters went up on house walls in Bhaktapur and Kathmandu. In his memoir he recalls feeling pulled about by people who wanted him for their own cause.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "montagna.tv (Bhaktapur 20 June, carried in triumph, banners); Tiger of the Snows (1955) as summarised by sharesansar (pressure in India and Nepal)."
+  },
+  {
+   "date_iso": "1953-06-22",
+   "date_display": "About 21–22 June 1953",
+   "precision": "range",
+   "eye": "hunt",
+   "place": "Kathmandu",
+   "headline": "Almost together: Hunt has the pair sign a statement",
+   "digest": "King Tribhuvan received the expedition, and a vast crowd was told that the Sherpa had reached the top first, which angered Hunt. To end the argument, Hillary and Tenzing signed a statement that they had reached the summit almost together. Nepal gave Tenzing a high honour; the Nepal government held its formal reception on 22 June.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "montagna.tv (King's speech, statement next day); sharesansar (statement wording, paraphrased); 1953 expedition timeline (22 June reception)."
+  },
+  {
+   "date_iso": "1953-06-22",
+   "date_display": "About 21–22 June 1953",
+   "precision": "range",
+   "eye": "tenzing",
+   "place": "Kathmandu",
+   "headline": "Tenzing between two countries",
+   "digest": "Tenzing had carried both an Indian and a Nepali flag to the summit. In Kathmandu he was pressed to say he was Nepali and that he had been first; in India he was pressed the other way. He signed the joint statement and later took the advice of Prime Minister Nehru to make his home in India, where he went on to lead the Himalayan Mountaineering Institute in Darjeeling.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Nepali Times 2021 (flags, Nehru, Darjeeling); montagna.tv (Nehru's request); sharesansar."
+  },
+  {
+   "date_iso": "1953-07-03",
+   "date_display": "Friday 3 July 1953",
+   "precision": "day",
+   "eye": "hunt",
+   "place": "London",
+   "headline": "The team flies home to Britain",
+   "digest": "Hunt, Hillary and Tenzing arrived in Britain to receptions, honours and a royal audience. The film shot by Stobart and Lowe was cut into The Conquest of Everest, released in December. Hunt's book, The Ascent of Everest, followed within months, written fast to an eager public.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "montagna.tv (return 3 July per photo caption); The Conquest of Everest notes (release 7 Dec 1953)."
+  },
+  {
+   "date_iso": "1955-06-03",
+   "date_display": "1955",
+   "precision": "year",
+   "eye": "tenzing",
+   "place": "Darjeeling (published in New York and London)",
+   "headline": "Tenzing says Hillary stepped up first",
+   "digest": "In Tiger of the Snows, written with James Ramsey Ullman, Tenzing told the story of the last steps: the two were roped close together and he did not think about first or second, but Hillary stepped on top first and he followed. He said he told it to end the arguments that had followed him for two years. His son later said Tenzing's real answer was that they climbed as a team.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NOVA Online (Tiger of the Snows, 1955); sharesansar (publication details)."
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1952-05-28",
+   "label": "Lambert and Tenzing's high point, a year before",
+   "eyes": [
+    "lambert",
+    "tenzing"
+   ],
+   "note": "One climb, two later memoirs in two languages: Lambert's in French in 1953, Tenzing's through an American co-writer in 1955. Each makes the friendship central."
+  },
+  {
+   "date": "1953-05-21",
+   "label": "The South Col is reached",
+   "eyes": [
+    "noyce",
+    "hillary"
+   ],
+   "note": "Noyce writes from the col itself; Hillary from below, where the figures on the col meant the plan could go ahead and he could move up."
+  },
+  {
+   "date": "1953-05-26",
+   "label": "First assault",
+   "eyes": [
+    "evans",
+    "bourdillon",
+    "hunt",
+    "hillary"
+   ],
+   "note": "Four men on the same ridge or watching it: Evans exhausted with a failing set, Bourdillon sure they could have gone on, Hunt broken by his own carry, and Hillary watching from the col, now next in line."
+  },
+  {
+   "date": "1953-05-28",
+   "label": "The top camp is placed",
+   "eyes": [
+    "lowe",
+    "hillary",
+    "tenzing"
+   ],
+   "note": "Lowe carries and goes down; Hillary counts oxygen; Tenzing cooks and remembers 1952. Ang Nyima, the only other Sherpa to carry this high, speaks only through others."
+  },
+  {
+   "date": "1953-05-29",
+   "label": "Summit, about 11.30 am",
+   "eyes": [
+    "hillary",
+    "tenzing",
+    "lowe"
+   ],
+   "note": "Hillary records the route, photos and the cross; Tenzing the offering and the four flags; Lowe the return to the col and a blunt remark later made famous."
+  },
+  {
+   "date": "1953-05-30",
+   "label": "Camp IV: the news breaks",
+   "eyes": [
+    "hunt",
+    "morris",
+    "westmacott",
+    "hillary"
+   ],
+   "note": "Camera, leader, reporter and Icefall guard meet the climbers coming down. For Morris it is the start of a race; for Hunt the end of one."
+  },
+  {
+   "date": "1953-06-01",
+   "label": "The news chain to London",
+   "eyes": [
+    "morris"
+   ],
+   "note": "From runner to police radio to embassy to Foreign Office to The Times: the message is in the paper on the night before the coronation."
+  },
+  {
+   "date": "1953-06-20",
+   "label": "Arrival in the Kathmandu valley",
+   "eyes": [
+    "statesman",
+    "tenzing",
+    "lowe"
+   ],
+   "note": "The Indian press reports Nepali claims and pressure; Tenzing remembers being pulled between causes; Lowe's letters show a New Zealander baffled by the politics."
+  },
+  {
+   "date": "1953-06-22",
+   "label": "Almost together",
+   "eyes": [
+    "hunt",
+    "tenzing"
+   ],
+   "note": "Hunt wants an end to the argument; Tenzing signs, but his identity is still argued over in two capitals."
+  }
+ ],
+ "ties": [
+  {
+   "a": "hillary",
+   "b": "tenzing",
+   "kind": "met",
+   "note": "The summit pair, roped together on 29 May. They signed the 'almost together' statement in Kathmandu and stayed friends for life."
+  },
+  {
+   "a": "tenzing",
+   "b": "lambert",
+   "kind": "met",
+   "note": "Partners on the Swiss attempts of spring and autumn 1952; they shared a tent at about 8,400 m on 27 May 1952."
+  },
+  {
+   "a": "evans",
+   "b": "bourdillon",
+   "kind": "met",
+   "note": "The first assault pair on 26 May, using Bourdillon's closed-circuit sets; they disagreed afterwards about whether they should have gone on."
+  },
+  {
+   "a": "hillary",
+   "b": "lowe",
+   "kind": "met",
+   "note": "Old friends from New Zealand climbing; Lowe carried to Camp IX and met Hillary first on the way down."
+  },
+  {
+   "a": "lowe",
+   "b": "noyce",
+   "kind": "met",
+   "note": "Together they set up Camp VII on the Lhotse Face on 17 May."
+  },
+  {
+   "a": "morris",
+   "b": "westmacott",
+   "kind": "met",
+   "note": "Westmacott took Morris down the Icefall on 30 May so the coded message could leave Base Camp."
+  },
+  {
+   "a": "hunt",
+   "b": "pugh",
+   "kind": "met",
+   "note": "Hunt wrote to Pugh from advanced base; Pugh's rules on oxygen, water and food shaped Hunt's plan."
+  },
+  {
+   "a": "bourdillon",
+   "b": "pugh",
+   "kind": "influenced",
+   "note": "Both worked on the oxygen problem: Bourdillon on the closed-circuit sets, Pugh on flow rates for the open-circuit sets the summit pair used."
+  },
+  {
+   "a": "morris",
+   "b": "statesman",
+   "kind": "opposite sides",
+   "note": "The Times had the expedition's exclusive; Indian and other papers covered the Tenzing story that the contract could not control."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "south-pole",
+   "note": "Hillary went from Everest to Antarctica: on the Commonwealth Trans-Antarctic Expedition he drove modified farm tractors to the South Pole, arriving on 4 January 1958, the first party to reach it overland since Amundsen and Scott."
+  },
+  {
+   "to": "v2:partition-1947",
+   "note": "Tenzing's nationality became a quarrel between newly independent India, where he lived in Darjeeling, and Nepal, where he was born. Nehru took up his cause, and Tenzing made India his home and led the Himalayan Mountaineering Institute in Darjeeling."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://media.learningonscreen.ac.uk/newsonscreen2/BPN/44452/NoS_44452_other.pdf",
+   "title": "The Sunday Statesman, 21 June 1953",
+   "caption": "Scanned page of the Calcutta paper reporting the welcome on the road to Kathmandu, the Radio Nepal claim about Tenzing's nationality and threats to Indian reporters.",
+   "date": "1953-06-21",
+   "credit": "The Statesman; Learning on Screen (BUFVC) News on Screen collection"
+  },
+  {
+   "url": "https://medium.com/@NewsUKArchives/everest-conquered-375db307de62",
+   "title": "Everest conquered: The Times archive",
+   "caption": "News UK Archives post showing the Times headline of 2 June 1953, the code-word cards and the foreign editor's note of the Foreign Office call at 4.14 pm on 1 June.",
+   "date": "1953-06-02",
+   "credit": "The Times / News UK Archives"
+  },
+  {
+   "url": "https://player.bfi.org.uk/free/film/watch-the-conquest-of-everest-1953-online",
+   "title": "The Conquest of Everest (1953)",
+   "caption": "The expedition film, shot by Tom Stobart and George Lowe, including the meeting at Camp IV on 30 May. Free to view on BFI Player.",
+   "date": "1953",
+   "credit": "Countryman Films; BFI"
+  },
+  {
+   "url": "https://www.rnz.co.nz/collections/siredmundhillary/edmund-hillarys-diary",
+   "title": "Hillary's 1953 expedition diary (RNZ readings)",
+   "caption": "RNZ's 2013 presentation of Hillary's notebook entries, 10–31 May 1953, with Auckland Museum and family permission.",
+   "date": "1953-05",
+   "credit": "Hillary family; Auckland Museum; RNZ"
+  },
+  {
+   "url": "https://victoriancollections.net.au/items/62ea227a8b3ae1f33f12daad",
+   "title": "The Ascent of Everest, first edition",
+   "caption": "A first-edition copy of Hunt's official account (Hodder and Stoughton, 1953) in an Australian community collection.",
+   "date": "1953",
+   "credit": "Victorian Collections"
+  }
+ ],
+ "further": [
+  {
+   "title": "Harriet Tuckey, Alpine Journal 2013 (Pugh, oxygen and the first assault)",
+   "url": "https://mail.alpinejournal.org.uk/Contents/Contents_2013_files/AJ 2013 93-103 Tuckey Everest.pdf"
+  },
+  {
+   "title": "Hillary, 'The Last Lap', Alpine Journal 1954",
+   "url": "https://www.alpinejournal.org.uk/Contents/Contents_1954_files/AJ59%201954%20235-238%20Hillary%20Everest%20(4).pdf"
+  },
+  {
+   "title": "Jan Morris, 'Everest', Alpine Journal 1993",
+   "url": "https://www.alpinejournal.org.uk/Contents/Contents_1993_files/AJ%201993%2073-76%20Morris%20Everest.pdf"
+  },
+  {
+   "title": "Charles Wylie, 'Tenzing Norgay and the Sherpa team', Himalayan Journal 50",
+   "url": "https://www.himalayanclub.org/hj/50/11/tenzing-norgay-1914-1986-and-the-sherpa-team/"
+  },
+  {
+   "title": "Dyhrenfurth, 'Mount Everest, 1952', American Alpine Journal",
+   "url": "https://publications.americanalpineclub.org/articles/12195339700"
+  },
+  {
+   "title": "Mark Horrell on Morris's code",
+   "url": "https://www.markhorrell.com/blog/2020/what-was-jan-morriss-secret-code-to-say-that-everest-had-been-climbed/"
+  }
+ ],
+ "vantage_key": "0 = on the summit ridge or leading the assault; 1 = on the mountain in support; 2 = at Base Camp or on the approach; 3 = in the region's press; 4 = abroad, news only."
+}

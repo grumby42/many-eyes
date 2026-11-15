@@ -1,0 +1,334 @@
+{
+ "chapter": "french-rev",
+ "add_eyes": [
+  {
+   "id": "cap-gentleman",
+   "name": "Anonymous gentleman at Cap-Français",
+   "life": "fl. 1791",
+   "role": "merchant or resident of Cap-Français writing to a friend in Philadelphia",
+   "side": "White colonists of Saint-Domingue",
+   "where": "Cap-Français (Le Cap), northern Saint-Domingue, as the plain around it burned",
+   "vantage": 1,
+   "vantage_label": "inside the besieged colonial capital",
+   "form": "dated letters",
+   "language": "English (as printed)",
+   "authenticity": "Letter dated Cap-Français, Wednesday evening 24 August 1791, with additions dated 28 August and 11 September, printed anonymously in The Pennsylvania Gazette (Philadelphia), 12 October 1791. Authentic as a printed newspaper text; the writer is unnamed, and the newspaper may have edited it.",
+   "bio": "An unnamed correspondent writing in the first days of the largest slave uprising in the Americas. He sees the plain on fire, records executions of prisoners and guesses at the dead, and admits he does not dare to guess the cause. It is a white colonist's view from behind the town's guard posts.",
+   "sources": [
+    {
+     "title": "The Pennsylvania Gazette: Magnitude of the Insurrection (12 October 1791), Liberty, Equality, Fraternity (RRCHNM)",
+     "url": "https://revolution.chnm.org/d/567"
+    }
+   ],
+   "lat": 19.76,
+   "lon": -72.2
+  },
+  {
+   "id": "ternant",
+   "name": "Jean-Baptiste de Ternant",
+   "life": "1751–1816",
+   "role": "French minister plenipotentiary to the United States, aged 40",
+   "side": "France (royal-constitutional government) / diplomat",
+   "where": "Philadelphia",
+   "vantage": 4,
+   "vantage_label": "abroad, relaying news to Washington",
+   "form": "dated letters",
+   "language": "French",
+   "authenticity": "Autograph letter to George Washington, Philadelphia, 24 September 1791, in the Washington Papers; translated and annotated in The Papers of George Washington, Presidential Series (Founders Online). Fully authentic and dated; its content is second-hand, from the colonial deputy Roustan.",
+   "bio": "A veteran of the American War of Independence who became France's envoy to the young republic. His letter shows how Saint-Domingue's catastrophe reached the US government: through a frightened colonial deputy, with requests for money and arms, and with the envoy's own hope that it was all exaggerated.",
+   "sources": [
+    {
+     "title": "Ternant to George Washington, 24 September 1791 (Founders Online)",
+     "url": "https://founders.archives.gov/documents/Washington/05-09-02-0006"
+    }
+   ],
+   "lat": 39.95,
+   "lon": -75.15
+  },
+  {
+   "id": "north-planter",
+   "name": "Anonymous planter of the Northern Province",
+   "life": "fl. 1791",
+   "role": "sugar planter of the Northern Province of Saint-Domingue",
+   "side": "White planters of Saint-Domingue",
+   "where": "the Northern Province, near Le Cap",
+   "vantage": 1,
+   "vantage_label": "planter on the plain the night the revolt began",
+   "form": "dated letters",
+   "language": "French",
+   "authenticity": "Letter to the Chamber of Commerce of Bordeaux dated 23 August 1791, shown in the John Carter Brown Library exhibition on the Haitian Revolution. The exhibition notes it was written the day after the revolt began, about two months before news of the revolt could reach France. The writer is unnamed, and the text was not read here.",
+   "bio": "A planter whose letter is aimed at a different enemy: the May 1791 decree giving civil rights to some free men of colour, which he predicts will end in a massacre of whites. He was writing as the enslaved rising had already begun around him, a painful example of a man looking the wrong way.",
+   "sources": [
+    {
+     "title": "John Carter Brown Library, 'III. The August 1791 Slave Revolt' (exhibition)",
+     "url": "https://www.brown.edu/Facilities/John_Carter_Brown_Library/exhibitions/haitian/pages/part3.html"
+    }
+   ],
+   "lat": 19.7,
+   "lon": -72.25
+  },
+  {
+   "id": "poncignon",
+   "name": "J. Poncignon",
+   "life": "fl. 1791",
+   "role": "official writing for the General Assembly of Saint-Domingue",
+   "side": "Colonial assembly of Saint-Domingue",
+   "where": "Cap-Français",
+   "vantage": 1,
+   "vantage_label": "in the colonial capital after the first wave",
+   "form": "dated letters",
+   "language": "French",
+   "authenticity": "Autograph letter signed to George Washington, Cap-Français, 13 October 1791 (Records of the Department of State, RG 59), with a companion letter to Congress of the same date; published with notes in The Papers of George Washington (Founders Online).",
+   "bio": "Writing seven weeks into the uprising, Poncignon speaks for a colony that has stopped fighting for survival and started asking for help to rebuild. His letter is a planters' appeal, sure that hunger will drive the rebels back to work.",
+   "sources": [
+    {
+     "title": "J. Poncignon to George Washington, 13 October 1791 (Founders Online)",
+     "url": "https://founders.archives.gov/documents/Washington/05-09-02-0039"
+    }
+   ],
+   "lat": 19.76,
+   "lon": -72.2
+  }
+ ],
+ "add_entries": [
+  {
+   "date_iso": "1791-08-23",
+   "date_display": "Tuesday 23 August 1791",
+   "precision": "day",
+   "eye": "north-planter",
+   "place": "Northern Province, Saint-Domingue",
+   "headline": "A planter warns of the wrong massacre",
+   "digest": "The day after the enslaved rose on the Acul plantations, a northern planter writes to the Bordeaux Chamber of Commerce. His fear is the Paris decree of May 1791 on the rights of free men of colour, which he says will lead to whites being massacred. The letter left the island weeks before any news of the revolt could reach France, and its alarm was aimed at the free coloured population, not at the rising already under way.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "John Carter Brown Library exhibition 'The August 1791 Slave Revolt' (date and gist as described by the exhibition; letter text not read)"
+  },
+  {
+   "date_iso": "1791-08-24",
+   "date_display": "Wednesday evening, 24 August 1791 (additions 28 August and 11 September)",
+   "precision": "day",
+   "eye": "cap-gentleman",
+   "place": "Cap-Français, Saint-Domingue",
+   "headline": "The plain is burning and the damage is 'immense'",
+   "digest": "From inside Le Cap, the writer tells a Philadelphia friend that the slaves of the northern plain have risen, burning plantations and killing overseers and white families. Troops and volunteers sent out can barely hold them back, prisoners are being executed, and he estimates more than a thousand dead. He suspects the overseers' cruelty played a part but will not guess further. In later additions he writes that the embargo on American ships has been lifted, so the letter can sail, and he encloses the colonial assembly's 24 August appeal to Jamaica for troops.",
+   "quote": "the damage already sustained is immense",
+   "confidence": "verified",
+   "source_note": "Pennsylvania Gazette, 12 October 1791, via revolution.chnm.org/d/567"
+  },
+  {
+   "date_iso": "1791-09-24",
+   "date_display": "Saturday 24 September 1791",
+   "precision": "day",
+   "eye": "ternant",
+   "place": "Philadelphia",
+   "headline": "France's envoy relays the burning of Le Cap's plain",
+   "digest": "Ternant passes on to Washington what the colonial deputy Roustan has told him. The revolt began on the night of 21–22 August, a dozen sugar estates at Acul were in flames by the 23rd, and a body of about 4,000 insurgents fell back under musket fire. Captives were shot after refusing to name a white or mulatto instigator. More than forty great estates are said to be ruined, worse than any hurricane. Ternant thinks Roustan frightened and given to exaggeration, but he still asks for money and arms to be sent quickly.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Ternant to Washington, 24 Sept. 1791, Founders Online (Washington/05-09-02-0006)"
+  },
+  {
+   "date_iso": "1791-10-13",
+   "date_display": "Thursday 13 October 1791",
+   "precision": "day",
+   "eye": "poncignon",
+   "place": "Cap-Français",
+   "headline": "After the fire, the colony asks America for flour and timber",
+   "digest": "Seven weeks into the uprising, Poncignon tells Washington that fire has gutted the north's buildings and food stores. The General Assembly is sending two commissioners to ask the United States for help, and to please American shippers it has lifted the embargo and waived the right to seize dead foreigners' goods. He is confident that hunger will force the rebels back to the fields, a confidence the next twelve years would destroy.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Poncignon to Washington, 13 Oct. 1791, with editorial notes, Founders Online (Washington/05-09-02-0039)"
+  },
+  {
+   "date_iso": "1794-04-01",
+   "date_display": "early April 1794 (just after Danton's arrest, night of 10–11 Germinal Year II)",
+   "precision": "range",
+   "eye": "ruault",
+   "place": "Paris",
+   "headline": "The Revolution eats its own: Hébert gone, Danton taken",
+   "digest": "Ruault tells his brother that the patriots are growing more savage toward each other. About twenty well-known revolutionaries, Hébert, Clootz and Ronsin among them, have just been guillotined, and now Danton has been arrested after he and Desmoulins tried to slow the guillotine. He expects them to face the tribunal they helped to set up, and he sees Robespierre's offended power behind it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Alpha History, 'A Parisian on the growing Terror (1794)' (English extract of Ruault's letter; exact day not given)"
+  }
+ ],
+ "add_convergences": [
+  {
+   "date": "1791-08-24",
+   "label": "First days of the Saint-Domingue uprising",
+   "eyes": [
+    "north-planter",
+    "cap-gentleman",
+    "ternant",
+    "poncignon"
+   ],
+   "note": "A planter writing the day after it began looks the wrong way; a townsman behind Le Cap's guard posts counts the burning estates; a month later France's envoy in Philadelphia hears it second-hand and hopes it is exaggerated; by October the assembly's spokesman is sure hunger will end it. The Revolution's rights talk returns from the colony as fire."
+  }
+ ],
+ "add_ties": [
+  {
+   "a": "ternant",
+   "b": "jefferson",
+   "kind": "met",
+   "note": "As Secretary of State from 1790, Jefferson was Ternant's official counterpart in the US government, and the Saint-Domingue aid requests went through both of them."
+  },
+  {
+   "a": "cap-gentleman",
+   "b": "poncignon",
+   "kind": "same street",
+   "note": "Both wrote from Cap-Français within seven weeks of each other, one privately to a friend in Philadelphia and one officially to the President."
+  }
+ ],
+ "add_images": [],
+ "add_further": [
+  {
+   "title": "Pennsylvania Gazette: Magnitude of the Insurrection, 12 Oct. 1791 (RRCHNM)",
+   "url": "https://revolution.chnm.org/d/567"
+  },
+  {
+   "title": "Samuel Wall to Washington, 16 Sept. 1791 (with notes on the rising's first weeks), Founders Online",
+   "url": "https://founders.archives.gov/documents/Washington/05-08-02-0374"
+  },
+  {
+   "title": "John Carter Brown Library: The August 1791 Slave Revolt",
+   "url": "https://www.brown.edu/Facilities/John_Carter_Brown_Library/exhibitions/haitian/pages/part3.html"
+  },
+  {
+   "title": "J. Popkin, Facing Racial Revolution: Eyewitness Accounts of the Haitian Insurrection (excerpt, University of Chicago Press)",
+   "url": "https://www.press.uchicago.edu/Misc/Chicago/675831.html"
+  },
+  {
+   "title": "Jean-Paul Pillet, Mon Odyssée, ed. A. Bandau and J. Popkin (SFEDS, 2015): prospectus. An autobiographical narrative, not a day-dated diary",
+   "url": "https://www.hegemone.fr/IMG/pdf/monodyss--e-prospectus-et-bon-de-commande.pdf"
+  },
+  {
+   "title": "P. Bastien and G. Mazeau, 'Faire peuple: le témoignage de deux révolutionnaires ordinaires, S.-P. Hardy et A. Duquesnoy, mai-octobre 1789', Études françaises 54/3 (2018)",
+   "url": "https://releve.erudit.org/fr/revues/etudfr/2018-v54-n3-etudfr04244/1055652ar.pdf"
+  },
+  {
+   "title": "M. R. Miller, 'Gouverneur Morris and Liberty' (OLL Reading Room, 2022)",
+   "url": "https://oll.libertyfund.org/reading_room/2022-07-14-Miller-Morris-Liberty"
+  },
+  {
+   "title": "T. Tackett, That Magical Word Liberty: A Printer's Life in Enlightenment and Revolutionary Paris (on Nicolas Ruault)",
+   "url": "https://academic.oup.com/book/63336"
+  }
+ ],
+ "updates": [
+  {
+   "where": "entry:10",
+   "fix": {
+    "confidence": "verified",
+    "quote": "Gracious God, what a People!",
+    "source_note": "Morris, diary, 22 July 1789 (Diary and Letters, ed. A. C. Morris, 1888, vol. 1). Wording confirmed: M. R. Miller (OLL, 2022) quotes the diary's 'Head and Body of Mr. de Foulon are introduced in Triumph' while he waits for his carriage at the Palais-Royal, with Bertier the Intendant; RRCHNM d/384 prints the same passage, misattributed to Gontaut and misdated 14 July, ending 'Gracious God, what a People!'. The 22 July date is given in a French study of Morris's journal (Un témoin américain de la Révolution française). The 1888 page itself was not opened.",
+    "digest": "Morris is under the Palais-Royal arcade waiting for his carriage when a crowd carries in the head of the old minister Foulon on a pike, with the naked body dragged behind it. He then hears that Foulon's son-in-law Bertier, the Intendant of Paris, has been killed too and his remains paraded through the streets. He notes that Foulon's only 'crime' was accepting a place in the ministry. The entry ends with his famous cry of disgust at the people."
+   },
+   "why": "Passage and setting confirmed in two independent reproductions (Miller/OLL; RRCHNM d/384, which misattributes it) and dated 22 July by a French scholarly article on Morris's journal. 22 July is also the day of both killings."
+  },
+  {
+   "where": "entry:5",
+   "fix": {
+    "confidence": "verified",
+    "digest": "Hardy builds the day hour by hour, as Bastien and Mazeau show, from the tocsin at 7 a.m. to midnight. Barriers are attacked and burned, the bourgeois militia forms and patrols, nobles' carriages are stopped, and crowds stream toward the Faubourg Saint-Antoine and the Bastille. The bodies of the fortress's officers are shown at the Place de Grève, the provost of merchants Flesselles is shot, and windows are lit at nine. He keeps what he saw apart from what he was told.",
+    "source_note": "Hardy, Mes loisirs, 14 July 1789 (BnF ms. fr. 6687), as analysed in P. Bastien and G. Mazeau, Études françaises 54/3 (2018), which divides the entry into 13 timed phases"
+   },
+   "why": "The 14 July entry's existence and content confirmed in a scholarly article by Hardy's editor, Pascal Bastien."
+  },
+  {
+   "where": "entry:11",
+   "fix": {
+    "confidence": "verified",
+    "digest": "Hardy records the killings of Foulon and of his son-in-law Bertier de Sauvigny, the intendant, about a week after the Bastille fell. He does not simply condemn the crowd: he puts the savagery down to a desperate people that no longer knows any restraint, and he blames that desperation on years of abuse of authority.",
+    "source_note": "Hardy, Mes loisirs, BnF ms. fr. 6687, p. 402, as cited and analysed in Bastien and Mazeau, Études françaises 54/3 (2018), n. 51. Details of the hanging (the broken rope, the hay) were not confirmed from Hardy, so they are dropped here"
+   },
+   "why": "Entry confirmed via Bastien and Mazeau (2018), with a manuscript page reference; the digest is trimmed to what is attested."
+  },
+  {
+   "where": "entry:17",
+   "fix": {
+    "source_note": "Hardy, Mes loisirs, 5 October 1789 (BnF ms. fr. 6687); summarised from the secondary literature. Bastien and Mazeau (2018) cover Hardy up to October 1789 but do not discuss the 5–6 October entries, so this entry was not checked"
+   },
+   "why": "Searched; not verifiable with the tools available. Kept as approx."
+  },
+  {
+   "where": "entry:19",
+   "fix": {
+    "source_note": "Hardy, Mes loisirs, 6 October 1789 (BnF ms. fr. 6687); summarised from the secondary literature and not checked. The journal ends in October 1789; its exact last day was not confirmed"
+   },
+   "why": "Not verifiable; kept as approx."
+  },
+  {
+   "where": "eye:hardy",
+   "fix": {
+    "authenticity": "Manuscript journal 'Mes loisirs, ou journal d'événemens tels qu'ils parviennent à ma connoissance', 1753–October 1789, about 4,100 manuscript pages (BnF, mss. fr. 6680–6687; the 1789 part is ms. fr. 6687). A full critical edition is being published by Pascal Bastien, Sabine Juratic and Daniel Roche (Hermann, 2012– ). The 14 and 22 July 1789 entries are confirmed via Bastien and Mazeau (2018); the October entries are summarised from the secondary literature.",
+    "sources": [
+     {
+      "title": "Siméon-Prosper Hardy (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sim%C3%A9on-Prosper_Hardy"
+     },
+     {
+      "title": "Mes loisirs (1753–1789), catalogue record",
+      "url": "https://cir.nii.ac.jp/crid/1130000793938144896?lang=en"
+     },
+     {
+      "title": "Journal de Hardy: edition project (UQAM)",
+      "url": "https://journaldehardy.org/"
+     },
+     {
+      "title": "Bastien and Mazeau, 'Faire peuple: Hardy et Duquesnoy, mai-octobre 1789', Études françaises (2018)",
+      "url": "https://releve.erudit.org/fr/revues/etudfr/2018-v54-n3-etudfr04244/1055652ar.pdf"
+     }
+    ]
+   },
+   "why": "Added the manuscript shelfmark and verified scholarly sources."
+  },
+  {
+   "where": "eye:morris",
+   "fix": {
+    "sources": [
+     {
+      "title": "The diary and letters of Gouverneur Morris, ed. A. C. Morris (1888), HathiTrust",
+      "url": "https://catalog.hathitrust.org/Record/000117679"
+     },
+     {
+      "title": "The Diary and Letters of Gouverneur Morris, vol. 1 (Online Library of Liberty)",
+      "url": "https://oll.libertyfund.org/titles/morris-the-diary-and-letters-of-gouverneur-morris-vol-1"
+     },
+     {
+      "title": "Gouverneur Morris Papers, Library of Congress finding aid",
+      "url": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/ms010231/ms010231.pdf"
+     },
+     {
+      "title": "The Diaries of Gouverneur Morris: Digital Edition (UVA Press)",
+      "url": "https://upress.virginia.edu/title/10130/"
+     },
+     {
+      "title": "Journal de Gouverneur Morris (Plon, 1901), Internet Archive",
+      "url": "https://archive.org/download/journaldegouvern00morr/journaldegouvern00morr.pdf"
+     }
+    ]
+   },
+   "why": "Added the free full text of the 1888 edition, vol. 1 (OLL)."
+  },
+  {
+   "where": "eye:ruault",
+   "fix": {
+    "sources": [
+     {
+      "title": "Gazette d'un Parisien sous la Révolution: lettres à son frère, 1783–1796 (library record)",
+      "url": "https://search.lib.auth.gr/Record/1015546?lng=en"
+     },
+     {
+      "title": "T. Tackett, That Magical Word Liberty: A Printer's Life in Enlightenment and Revolutionary Paris (OUP)",
+      "url": "https://academic.oup.com/book/63336"
+     },
+     {
+      "title": "A Parisian on the growing Terror, 1794 (Alpha History extract)",
+      "url": "https://alphahistory.com/frenchrevolution/parisian-growing-terror-1794/"
+     }
+    ]
+   },
+   "why": "Real URLs found for the edition record, a new monograph on Ruault and an English extract."
+  }
+ ]
+}

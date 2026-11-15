@@ -1,0 +1,345 @@
+[
+ {
+  "chapter": "kitty-hawk",
+  "where": "entry:10",
+  "severity": "error",
+  "problem": "Quote is from Wilbur's 1900 diary, first published in McFarland (1953); not a pre-1929 publication and not a world-famous phrase.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kitty-hawk",
+  "where": "entry:11",
+  "severity": "error",
+  "problem": "Quote is from Orville's 1900 letter to Katharine, first published after 1928 (Kelly 1951 / McFarland 1953); not world-famous.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kitty-hawk",
+  "where": "entry:11",
+  "severity": "doubt",
+  "problem": "The mosquitoes biting 'through underwear and socks' belong to Orville's letter of 28 July 1901 from the second camp, not to the 1900 letters; the detail is misplaced in this October 1900 entry.",
+  "fix": {
+   "text_replace": {
+    "old": "nor'easters that nearly flattened the tent, insects that bit through socks and underwear, sunsets",
+    "new": "nor'easters that nearly flattened the tent, sunsets"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "kitty-hawk",
+  "where": "entry:20",
+  "severity": "error",
+  "problem": "Quote is from Katharine Wright's 1901 family letter, first published after 1928; not world-famous.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kitty-hawk",
+  "where": "entry:8",
+  "severity": "doubt",
+  "problem": "Tate's 1900 letter was not established as published before 1929 (it is printed in later histories and McFarland 1953) and the phrase is not world-famous; under the quote rule it should go.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "kitty-hawk",
+  "where": "entry:26",
+  "severity": "error",
+  "problem": "Chanute addressed the Aéro-Club de France on 2 April 1903, not 1 April (wright-brothers.org, 'The French Connection').",
+  "fix": {
+   "date_iso": "1903-04-02",
+   "date_display": "Thursday 2 April 1903"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kitty-hawk",
+  "where": "entry:9",
+  "severity": "doubt",
+  "problem": "Wilbur left Dayton on 6 September and reached Elizabeth City on 8 September 1900 (Centennial of Flight). The best-known letter to his father explaining the trip is usually dated 3 September 1900, written from Dayton before he left, so neither the date nor the Elizabeth City setting could be confirmed. The entry should say so.",
+  "fix": {
+   "date_display": "September 1900 (date and place of writing not confirmed; the best-known letter is usually dated 3 September, Dayton)",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "kitty-hawk",
+  "where": "entry:45",
+  "severity": "doubt",
+  "problem": "The duration of the 5 October 1905 flight varies by source: 39 min 23 s (Wright records, as usually cited), 39.5 min (Centennial of Flight) and 38 min 3 s (NPS Handbook). The flight should not be marked verified to the minute.",
+  "fix": {
+   "confidence": "approx",
+   "text_replace": {
+    "old": "landed only when the fuel ran out.",
+    "new": "landed only when the fuel ran out; sources give the time aloft as between about 38 and 39½ minutes."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kitty-hawk",
+  "where": "claim:14",
+  "severity": "doubt",
+  "problem": "The duration spread is not shown: sources give 38 min 3 s (NPS), 39 min 23 s and 39.5 min (Centennial of Flight: 30 circuits, more than 24 miles, landed when out of fuel).",
+  "fix": {
+   "claim": "Wilbur: 24⅕ miles in about 38–39½ min (sources give 38 min 3 s, 39 min 23 s and 39.5 min), some 30 circuits, landing when the fuel ran out",
+   "evidence": "NPS Handbook 34 (38 min 3 s); Centennial of Flight, '1905 Flyer' (39.5 min, 30 circuits); NPS Dayton Aviation ch. 7",
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kitty-hawk",
+  "where": "entry:39",
+  "severity": "style",
+  "problem": "The Tunison remark at the Dayton Journal ('fifty-seven seconds… if it had been minutes') is known only from the family's later retelling, not from a 1903 record; the digest gives it as fact.",
+  "fix": {
+   "text_replace": {
+    "old": "where the Associated Press man, Frank Tunison, said",
+    "new": "where, as the family later told it, the Associated Press man, Frank Tunison, said"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "kitty-hawk",
+  "where": "entry:36",
+  "severity": "style",
+  "problem": "The five witnesses were three surfmen (Daniels, Dough, Etheridge), W. C. Brinkley and the teenage Johnny Moore; 'men' does not fit the boy.",
+  "fix": {
+   "text_replace": {
+    "old": "With five local men present",
+    "new": "With five local witnesses present"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kitty-hawk",
+  "where": "entry:38",
+  "severity": "style",
+  "problem": "The quote follows the telegram's own text (no 'a'); the bishop's diary copy reads 'against a twenty-one mile wind' and signs it 'Orville Wright', with 'inform press' struck out (ECU m3l). The digest's 'copied it out' is right, but the quote should be credited to the telegram, not the diary.",
+  "fix": {
+   "text_replace": {
+    "old": "The bishop copied it out in his diary without comment.",
+    "new": "The bishop copied it into his diary without comment, correcting the signature and striking out 'inform press'."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kitty-hawk",
+  "where": "entry:5",
+  "severity": "doubt",
+  "problem": "Rathbun's reply date varies: Smithsonian accounts give 2 June 1899, while wright-brothers.org gives 22 June. 'About three days later' assumes the earlier date. The quote 'I am an enthusiast, but not a crank' is confirmed verbatim (letter of 30 May 1899) and is widely cited, so it is kept.",
+  "fix": {
+   "text_replace": {
+    "old": "About three days later the Assistant Secretary",
+    "new": "Soon afterwards the Assistant Secretary"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "the-road",
+  "where": "threads_out:4",
+  "severity": "error",
+  "problem": "No specific link. The 1403 embassy (Clavijo's) went to Timur at Samarkand, not to Beijing, and Beijing was not the Ming capital until 1421. A general likeness of overland travel across Inner Asia is not a real connection.",
+  "fix": {
+   "to": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "the-road",
+  "where": "claim:12",
+  "severity": "doubt",
+  "problem": "The Emancipation Run starter and finisher counts differ by source (about 33 starters and 17 finishers in Wikipedia; 32 and about 20 in Grace's Guide). The claim gives one pair as verified.",
+  "fix": {
+   "claim": "Locomotives on Highways Act in force (14 mph); London–Brighton run: about 32–33 starters and some 17–20 finishers (figures differ by source); Duryea times excluded",
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "the-road",
+  "where": "entry:26",
+  "severity": "doubt",
+  "problem": "The starter and finisher counts are given as fact although the source note itself records disagreement.",
+  "fix": {
+   "text_replace": {
+    "old": "33 vehicles set off at 10.30 in wind and rain. About 17 reached Brighton;",
+    "new": "some 32 or 33 vehicles (sources differ) set off at 10.30 in wind and rain. Between about 17 and 20 reached Brighton;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "the-road",
+  "where": "image:4",
+  "severity": "doubt",
+  "problem": "The claim that the race Spyker was later dismantled is not supported by the cited page as summarised in the chapter and could not be checked.",
+  "fix": {
+   "text_replace": {
+    "old": " The race car itself was later dismantled.",
+    "new": ""
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "the-road",
+  "where": "entry:25",
+  "severity": "style",
+  "problem": "The coroner's 'hope' survives only as press reports of the inquest, in indirect speech. The quote should be presented as reported wording, not as his verbatim words. The phrase as given matches the standard summaries.",
+  "fix": {
+   "text_replace": {
+    "old": "expressed the hope that it would be the last such death.",
+    "new": "was reported as hoping that it would be the last such death."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "airships",
+  "where": "entry:14",
+  "severity": "error",
+  "problem": "'Walk her out!' could not be confirmed as Maitland's log wording. HistoryNet, the cited source, gives it as its own narration of Scott's order, not as a quotation from The Log of H.M.A. R 34.",
+  "fix": {
+   "quote": "",
+   "source_note": "HistoryNet, 'R34: a 1919 Atlantic airship exploit' (narrative based on Maitland's log, 1920)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "airships",
+  "where": "claim:3",
+  "severity": "error",
+  "problem": "By the times in My Airships (start 2.42 p.m., line crossed at 3.11.30), the elapsed time was 29 min 30 s, not 29 min 31 s. The committee's 30 min 40 s ran to the guide rope being caught at 3.12.40⅘.",
+  "fix": {
+   "claim": "No. 6 flies Saint-Cloud – Eiffel Tower – Saint-Cloud (about 11 km) in 29 min 30 s to the line; the committee's 30 min 40 s (to the catching of the guide rope) and the 30-minute limit are disputed, and the 100,000-franc Deutsch prize is awarded"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "airships",
+  "where": "entry:16",
+  "severity": "style",
+  "problem": "The quote 'cannot help sympathizing with his motive' is confirmed as from Maitland's 1920 log (quoted by HistoryNet), and so is 'had there been land… put him off at once in a parachute'. Kept. The source note should say the log was read only through HistoryNet's quotations.",
+  "fix": {
+   "source_note": "Maitland, Log of H.M.A. R 34 (1920), as quoted by HistoryNet; the log itself not seen."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "airships",
+  "where": "entry:17",
+  "severity": "style",
+  "problem": "The quote 'the most thrilling moment of our voyage' is confirmed through HistoryNet's quotation of the 1920 log. HistoryNet gives the 12:50 p.m. sighting time as its own narration, not as Maitland's words.",
+  "fix": {
+   "source_note": "Maitland, Log (1920), as quoted by HistoryNet (quote); sighting time 12:50 p.m. from HistoryNet's narrative."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "airships",
+  "where": "entry:6",
+  "severity": "style",
+  "problem": "Times confirmed in My Airships: start 2.42, Tower turned 2.51, line crossed 3.11.30, guide rope caught 3.12.40⅘ (30 min 40 s). The total given away was 125,000 francs, of which 75,000 went to the Prefect of Police for the poor.",
+  "fix": {
+   "text_replace": {
+    "old": "He kept none of it: 75,000 francs",
+    "new": "He kept none of the 125,000 francs: 75,000"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "airships",
+  "where": "entry:48",
+  "severity": "style",
+  "problem": "The quote is confirmed in Bureau of Air Commerce Safety Division Bulletin No. 11 (1938): 'Practically all of the ground crew had previous experience in landing airships.' The board's transmittal letter is dated 21 July 1937. No change is needed; this item records the check.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "airships",
+  "where": "entry:39",
+  "severity": "style",
+  "problem": "Hall's flight dates of 5–8 August 1936, Frankfurt to Lakehurst, after the Berlin Olympics, are confirmed by Airships.net. The Olympics ran until 16 August, so 'returning from' means the Halls left partway through the Games.",
+  "fix": {
+   "text_replace": {
+    "old": "The Halls boarded at Frankfurt",
+    "new": "Leaving the Berlin Olympics before their close, the Halls boarded at Frankfurt"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "the-road",
+  "where": "entry:44",
+  "severity": "doubt",
+  "problem": "The Protos penalty differs by source: the cited Smithsonian article says the car was docked two weeks for the Ogden–Seattle rail trip, while other accounts give 15 days.",
+  "fix": {
+   "text_replace": {
+    "old": "it had been penalised fifteen days for travelling by rail",
+    "new": "it had been penalised about two weeks (15 days in some accounts) for travelling by rail"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "the-road",
+  "where": "claim:15",
+  "severity": "doubt",
+  "problem": "The Protos penalty is given as 15 days, but the cited Smithsonian source says two weeks.",
+  "fix": {
+   "claim": "Thomas Flyer reaches Paris after about 22,000 miles and is declared winner; Protos arrived 26 July but was docked about two weeks (Smithsonian; 15 days in some accounts) for rail travel, while the Thomas had a 15-day Alaskan allowance"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "the-road",
+  "where": "entry:23",
+  "severity": "style",
+  "problem": "Checked: the Bly interview text reads 'I think it has done more to emancipate women than anything else in the world.' The quote is verbatim, under 12 words and world-famous. Kept. The bloomers paraphrase also matches ('bloomers or extremely short skirts'). No change is needed; this item records the check.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "the-road",
+  "where": "entry:22",
+  "severity": "style",
+  "problem": "Checked: 'Let go, but stand by.' appears verbatim in A Wheel Within a Wheel (1895, Project Gutenberg 60356). Kept. No change is needed.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "the-road",
+  "where": "entry:39",
+  "severity": "style",
+  "problem": "Checked: History Today gives the Itala's finish as 4.30 p.m. on 10 August 1907, after leaving Peking on 10 June. History Today calls Godard's Spyker 'second', which glosses over his arrest; the chapter's handling (car finished 30 August without him) is the more careful version. No change is needed.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ }
+]

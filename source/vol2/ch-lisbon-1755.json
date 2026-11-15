@@ -1,0 +1,1078 @@
+{
+ "id": "lisbon-1755",
+ "title": "The Morning the Earth Moved",
+ "subtitle": "The Lisbon earthquake, tsunami and fire, and how they were felt from Madeira to Loch Lomond, 1755–1758",
+ "span": "1755–1758",
+ "intro": [
+  "On Saturday 1 November 1755, All Saints' Day, at about twenty to ten in the morning, the ground under Lisbon shook in several waves over a few minutes. The churches were full for the feast. Roofs, towers and the royal palace by the river came down. Survivors ran to the open quays along the Tagus. Then the river drew back, and soon after the sea came in over the waterfront. Altar candles and kitchen fires fell into the wreckage, and by nightfall the city was burning. The fire ran for days. Nobody counted the dead reliably: witnesses in this chapter give figures from about 30,000 to 60,000, and modern estimates fall in the same broad range.",
+  "This chapter has almost no diaries in the strict sense, and it says so up front. People who lived through the day mostly wrote letters: to parents, to friends, to their government, to the Royal Society. Some letters are dated the day itself, some weeks later, and one was written on New Year's Eve. Others who were far away wrote reports, official orders, essays, a poem and a sermon-tract. Each eye has a form tag that says which of these it is. Where a letter describes 1 November but was written later, the entry sits on 1 November and the date_display gives the date the letter was written.",
+  "The eyes form rings around Lisbon. At the centre are three Englishmen and a Portuguese minister: the clergyman Charles Davy, who clambered over a fallen church to reach the river; the merchant Thomas Chase, pulled from his collapsed house; the surgeon Richard Wolfall, working without instruments; and Sebastião José de Carvalho e Melo, the future Marquis of Pombal, writing orders from the royal camp at Belém. The British envoy Abraham Castres sheltered refugees in tents in his garden. The engineer Manuel da Maia began planning a new city within five weeks. Farther out are Madeira, where the shock and then the sea reached Funchal; Cádiz, where a wall of water broke the causeway to the mainland; and Gibraltar, where the governor gathered news from Morocco of damage at Tangier, Salé, Fez and Meknes, then of a second quake there on 18 November.",
+  "The farthest ring is the strangest. Across Britain and northern Europe the ground barely moved, yet still water heaved that morning. Loch Lomond rose and fell every five minutes while an innkeeper timed it with his watch. A London fish pond emptied and overflowed. Hamburg's church chandeliers swung. In the afternoon the tsunami itself reached Cornwall and Ireland. Gentlemen sent these reports to the Royal Society, which printed dozens of them side by side in its Philosophical Transactions: in effect, the first crowd-sourced map of one earthquake's reach. Voltaire, Kant and John Wesley read the news from Geneva, Königsberg and London and drew three opposite conclusions: an indictment of easy optimism, a natural cause to be studied, and a call to repent.",
+  "Some famous Lisbon material is left out or flagged. The Oratorian Father Manuel Portal's História da ruína da cidade de Lisboa is a genuine eyewitness manuscript, but I could not check its dates or published text within this chapter's research budget, so it is named here and not used. Pombal's best-known line, about burying the dead and caring for the living, comes down to us by attribution only and is not quoted as his. A Lisbon museum's 'German merchant' letter was rejected because no archival source is given for it."
+ ],
+ "calendar_note": "Everyone in this chapter was already on the Gregorian calendar (Britain switched in 1752), so the dates line up without conversion. Clock times do not. Each town kept its own local solar time, so the same moment reads later the farther east you go: about 9:40 in Lisbon is roughly 10:00 at Loch Lomond, 10:15 in London and 11:00 in Hamburg. Many observers also had only rough watches. The ground-shaking and the lake seiches it set off arrived within minutes everywhere. The sea wave was much slower: it took about an hour and a half to reach Madeira and four to five hours to reach Cornwall and Kinsale. Wherever a time appears below, it is the observer's own local time.",
+ "eyes": [
+  {
+   "id": "davy",
+   "short": "Davy",
+   "name": "Rev. Charles Davy",
+   "life": "c. 1722–1797",
+   "role": "English clergyman and scholar staying in Lisbon",
+   "side": "British community in Lisbon",
+   "where": "Lodgings in lower Lisbon; then the ruins of St Paul's church and the riverside",
+   "lat": 38.7072,
+   "lon": -9.1462,
+   "waypoints": [
+    {
+     "lat": 38.7085,
+     "lon": -9.1435,
+     "label": "His lodgings, finishing a letter"
+    },
+    {
+     "lat": 38.7072,
+     "lon": -9.1462,
+     "label": "Over the ruins of St Paul's church"
+    },
+    {
+     "lat": 38.706,
+     "lon": -9.145,
+     "label": "The riverside, where the wave struck"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "inside the falling city",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "His long letter from Lisbon describing 1 November was printed soon after and has been reprinted ever since; the text used here is the one in E. M. Tappan's The World's Story (1914), vol. V, pp. 618–628, on the Internet Modern History Sourcebook. I could not confirm the exact date line on the letter, so his entries are dated by the events he describes.",
+   "bio": "Davy was sitting in his rooms finishing a letter when the first shock hit. His account follows one person through all three disasters in a row: the quake, the wave and the fire. He reasons about causes as he goes and does not hide how afraid he was.",
+   "sources": [
+    {
+     "title": "Internet Modern History Sourcebook: The Earthquake at Lisbon, 1755 (Davy's letter, from Tappan 1914)",
+     "url": "https://sourcebooks.web.fordham.edu/mod/1755lisbonquake.asp"
+    }
+   ]
+  },
+  {
+   "id": "chase",
+   "short": "Chase",
+   "name": "Thomas Chase",
+   "life": "fl. 1755",
+   "role": "Young English merchant, born in Lisbon to an English trading family",
+   "side": "British community in Lisbon",
+   "where": "His family's house in Lisbon, then in the rubble and among the survivors",
+   "lat": 38.711,
+   "lon": -9.14,
+   "vantage": 0,
+   "vantage_label": "direct victim, buried in rubble",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "A letter to his mother dated 31 December 1755 survives in two manuscript copies at King's College London Archives (K/PP119/2/2), headed 'An account of what happened to Mr Chase at Lisbon'. It was printed in Blackwood's Magazine vol. 88 (1860). The archive record says only 'Mr Chase', and identifying him as Thomas Chase follows the standard histories. Modern retellings differ on exactly how he fell (from a balcony, or through the house as it collapsed), so the details below are kept general.",
+   "bio": "Chase is the closest eye to the centre: the earthquake brought his house down with him in it, and he lay badly hurt in the wreckage until other people got him out. He wrote the letter to his mother two months later, after he had recovered enough to tell it.",
+   "sources": [
+    {
+     "title": "King's College London Archives, K/PP119/2/2: copy account of the Lisbon earthquake (Mr Chase to his mother, 31 Dec 1755)",
+     "url": "https://archives.kingscollections.org/index.php/k-pp119-2-2"
+    }
+   ]
+  },
+  {
+   "id": "wolfall",
+   "short": "Wolfall",
+   "name": "Richard Wolfall",
+   "life": "fl. 1755",
+   "role": "English surgeon practising in Lisbon",
+   "side": "British community in Lisbon",
+   "where": "Lisbon, in the open-air camps after the quake",
+   "lat": 38.714,
+   "lon": -9.139,
+   "vantage": 1,
+   "vantage_label": "on the scene, treating the injured",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Two letters to the physician Dr James Parsons, dated Lisbon 18 and 22 November 1755, printed in Philosophical Transactions vol. 49 (1755–56).",
+   "bio": "Wolfall writes like a medical man: counts, durations, what the injured needed. He and two other English surgeons had lost their instruments and bandages. Some of his numbers do not agree with Davy's, which is useful in itself.",
+   "sources": [
+    {
+     "title": "Philosophical Transactions vol. 49, Lisbon, Oporto, Cadiz, Barbary, Madeira and American letters (OCR)",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-104952/"
+    }
+   ]
+  },
+  {
+   "id": "castres",
+   "short": "Castres",
+   "name": "Abraham Castres",
+   "life": "d. 1757",
+   "role": "British Envoy Extraordinary to the King of Portugal",
+   "side": "Great Britain (diplomatic)",
+   "where": "His house and garden in Lisbon; visits to the royal camp at Belém",
+   "lat": 38.71,
+   "lon": -9.155,
+   "waypoints": [
+    {
+     "lat": 38.71,
+     "lon": -9.155,
+     "label": "Envoy's house, tents in the garden"
+    },
+    {
+     "lat": 38.697,
+     "lon": -9.206,
+     "label": "Royal family camped at Belém"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "on the scene, diplomat",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Letter dated Lisbon, 6 November 1755, printed in the London Gazette (issue 9536, 9–13 December 1755) and in the Gentleman's Magazine (November 1755, vol. XXV, pp. 556–558). He mentions an earlier short note to Sir Benjamin Keene at Madrid, sent with a Spaniard as far as Badajoz; that note is not used here.",
+   "bio": "Castres was Britain's official voice in the ruined capital. His letter mixes a host's worry for the refugees camped in his garden, cold facts on property and shipping, and a report of the king and court living in tents. It was the version of events that London read in its official newspaper.",
+   "sources": [
+    {
+     "title": "The London Gazette, issue 9536 (9–13 Dec 1755), page 1",
+     "url": "https://thegazette.co.uk/London/issue/9536/page/1/data.pdf"
+    },
+    {
+     "title": "The Lisbon earthquake of 1755: the catastrophe and its European repercussions",
+     "url": "https://lisbon-pre-1755-earthquake.org/the-lisbon-earthquake-of-1755-the-catastrophe-and-its-european-repercussions"
+    }
+   ]
+  },
+  {
+   "id": "pombal",
+   "short": "Pombal",
+   "name": "Sebastião José de Carvalho e Melo (later Marquis of Pombal)",
+   "life": "1699–1782",
+   "role": "Secretary of State to King José I; aged 56",
+   "side": "Portuguese crown",
+   "where": "The royal tent-camp at Belém, west of the ruined city",
+   "lat": 38.697,
+   "lon": -9.206,
+   "vantage": 0,
+   "vantage_label": "principal actor, running the response",
+   "form": "administrative orders",
+   "language": "Portuguese",
+   "authenticity": "Decrees and draft orders survive, including three drafts of grain-price decrees with his own notes, held at Harvard's Houghton Library. The 1758 compilation of his measures (the 'Providências') is a later, admiring government publication. The line about burying the dead and caring for the living is attributed to him, but no contemporary source for it is known, so it is not quoted.",
+   "bio": "Carvalho e Melo had served as Portuguese envoy in London from 1739 to 1743. The disaster made him the most powerful man in Portugal. His orders on bodies, bread prices, looters and the rebuilding are the state's own record of the catastrophe, and they also served to build his reputation.",
+   "sources": [
+    {
+     "title": "ReVista (Harvard): 'Bury the dead and feed the living' — Houghton Library documents",
+     "url": "https://revista.drclas.harvard.edu/?p=31402"
+    },
+    {
+     "title": "Infopédia: Terramoto de 1755 e Reconstrução Pombalina",
+     "url": "https://www.infopedia.pt/artigos/$terramoto-de-1755-e-reconstrucao-pombalina"
+    }
+   ]
+  },
+  {
+   "id": "maia",
+   "short": "Manuel da Maia",
+   "name": "Manuel da Maia",
+   "life": "1677–1768",
+   "role": "Engenheiro-mor (chief engineer) of the realm; aged 78",
+   "side": "Portuguese crown",
+   "where": "Lisbon and Belém",
+   "lat": 38.708,
+   "lon": -9.1365,
+   "vantage": 2,
+   "vantage_label": "same city, planning the aftermath",
+   "form": "memorandum (dated parts)",
+   "language": "Portuguese",
+   "authenticity": "His multi-part 'Dissertação' on how to rebuild Lisbon is a well-known archival document. Pombal received the first part on 4 December 1755 through the Regedor das Justiças. Later parts followed in 1756, but I did not verify their dates here.",
+   "bio": "Maia was nearly eighty and had decades of fortification work behind him. Within five weeks of the quake he was setting out the options: patch up the old city, rebuild it straighter, or start again at Belém. His memorandum led to the gridded Baixa that still stands.",
+   "sources": [
+    {
+     "title": "DGAEP: Marquês de Pombal e Manuel da Maia",
+     "url": "https://www.dgaep.gov.pt/upload/newsletter/News_10/historia/slide03.html"
+    }
+   ]
+  },
+  {
+   "id": "chambers",
+   "short": "Chambers",
+   "name": "Charles Chambers",
+   "life": "fl. 1755",
+   "role": "English resident (merchant family) at Funchal, writing to his father",
+   "side": "British community in Madeira",
+   "where": "Funchal, Madeira, about 1,000 km south-west of Lisbon",
+   "lat": 32.65,
+   "lon": -16.908,
+   "vantage": 3,
+   "vantage_label": "same ocean, struck at a distance",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Letter to his father dated Madeira, 1 November 1755, with a postscript of 3 November; printed in Philosophical Transactions vol. 49. A second Madeira letter, from Dr Thomas Heberden at Funchal, matches it closely.",
+   "bio": "Chambers wrote on the day itself, before anyone in Madeira knew Lisbon had fallen. He compared the shock with a night-time quake of 1748, and two hours later he watched the sea come up to the town wall.",
+   "sources": [
+    {
+     "title": "Philosophical Transactions vol. 49 (OCR), letter XVIII",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-104952/"
+    }
+   ]
+  },
+  {
+   "id": "bewicke",
+   "short": "Bewicke",
+   "name": "Benjamin Bewicke",
+   "life": "fl. 1755",
+   "role": "English merchant at Cádiz",
+   "side": "British merchants in Spain",
+   "where": "Cádiz, on its rocky peninsula facing the Atlantic",
+   "lat": 36.5297,
+   "lon": -6.292,
+   "vantage": 3,
+   "vantage_label": "struck by the tsunami, 300 miles away",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Letter dated Cádiz, 4 November 1755, to Josiah Paice, printed in Philosophical Transactions vol. 49. The manuscript is in the Royal Society's Letters and Papers (L&P/3/66).",
+   "bio": "Bewicke wrote like a merchant tallying up damage to walls, the causeway and the bay, since trade depended on all three. His figure for the first wave, at least sixty feet, was his own estimate from people watching it far out at sea. He was right that the broken causeway mattered more than the drownings in town.",
+   "sources": [
+    {
+     "title": "Royal Society, Making Science: Letter, 'Earthquake of Nov 1 at Cadiz' from Benjamin Bewicke to Jos Paice",
+     "url": "https://makingscience.royalsociety.org/items/l-and-p_3_66/letter-earthquake-of-nov-1-at-cadiz-from-benjamin-bewicke-to-jos-paice"
+    },
+    {
+     "title": "Philosophical Transactions vol. 49 (OCR), letter XIV",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-104952/"
+    }
+   ]
+  },
+  {
+   "id": "fowke",
+   "short": "Fowke",
+   "name": "Lt-Gen. Thomas Fowke",
+   "life": "fl. 1740s–1756",
+   "role": "British Governor of Gibraltar",
+   "side": "Great Britain (garrison); reporting on Morocco",
+   "where": "Gibraltar, collecting advices from across the strait in Barbary",
+   "lat": 36.1408,
+   "lon": -5.3536,
+   "vantage": 4,
+   "vantage_label": "across the strait, news only",
+   "form": "dated reports (compiled news)",
+   "language": "English",
+   "authenticity": "An account of the earthquake's effects in Barbary (Tetuan, Tangier, Arzila, Salé, Fez, Meknes, Marrakesh), built from advices that reached Gibraltar up to 1 January 1756, printed in Philosophical Transactions vol. 49. This is hearsay passed along by a governor. The larger claims, such as a whole village swallowed with 8,000–10,000 people, are rumour and should be read that way.",
+   "bio": "Moroccan writers' own accounts of these quakes are not well known in English, so a British governor's news-gathering is the main way in here. His advices separate the 1 November shock from a second, more local, quake on 18–19 November that hit Fez and Meknes even harder.",
+   "sources": [
+    {
+     "title": "Philosophical Transactions vol. 49 (OCR), letter XVI",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-104952/"
+    }
+   ]
+  },
+  {
+   "id": "borlase",
+   "short": "Borlase",
+   "name": "Rev. William Borlase",
+   "life": "1696–1772",
+   "role": "Rector of Ludgvan, Cornwall; antiquary and naturalist, FRS",
+   "side": "Britain (Cornwall)",
+   "where": "Ludgvan, above Mount's Bay, gathering reports from St Michael's Mount, Penzance and Newlyn",
+   "lat": 50.145,
+   "lon": -5.49,
+   "vantage": 4,
+   "vantage_label": "distant shore, where the wave arrived",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Letter to Rev. Charles Lyttelton, Dean of Exeter, dated Ludgvan, 4 December 1755. It was read to the Royal Society on 18 December 1755 and printed in Philosophical Transactions vol. 49. He repeated the account in his Natural History of Cornwall (1758).",
+   "bio": "Borlase was a careful country naturalist. He collected rise-and-fall times and heights from harbours around the bay and noticed that the surge hit some places later than others, which told him the push came from the south or south-west. He suspected a connection with the Iberian earthquake before he could prove it.",
+   "sources": [
+    {
+     "title": "Philosophical Transactions vol. 49 (OCR): agitation of the waters, 1 Nov 1755 (Borlase is letter XV)",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-104951/"
+    },
+    {
+     "title": "Royal Society, Making Science: Borlase to C. Lyttleton",
+     "url": "https://makingscience.royalsociety.org/items/l-and-p_3_63/letter-of-the-earthquake-of-nov-1-from-william-borlase-to-c-lyttleton"
+    },
+    {
+     "title": "Penwith Local History Group: On this day, 1 November 1755",
+     "url": "https://penwithlocalhistorygroup.co.uk/on-this-day/?id=269"
+    }
+   ]
+  },
+  {
+   "id": "colquhoun",
+   "short": "Colquhoun",
+   "name": "Sir James Colquhoun of Luss",
+   "life": "1714–1786",
+   "role": "Scottish laird at Rossdhu on Loch Lomond, reporting an innkeeper's timed observations",
+   "side": "Britain (Scotland)",
+   "where": "Rossdhu, Loch Lomond; the observations were made by Angus M'Diarmid at Tarbet",
+   "lat": 56.04,
+   "lon": -4.62,
+   "vantage": 4,
+   "vantage_label": "far away; the ground was still, the water was not",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Letter dated Rossdhu, 8 December 1755, printed in Philosophical Transactions vol. 49 (letter XXII of the 'agitation of the waters' series). It is second-hand: Colquhoun was ill and relays the timings of the innkeeper Angus M'Diarmid.",
+   "bio": "Nobody on Loch Lomond felt anything, but the loch rose and fell in a steady five-minute rhythm for over an hour. Colquhoun's letter is valuable because it names its witness and that witness held a watch.",
+   "sources": [
+    {
+     "title": "Philosophical Transactions vol. 49 (OCR), letter XXII",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-104951/"
+    }
+   ]
+  },
+  {
+   "id": "reimarus",
+   "short": "Reimarus",
+   "name": "Professor (Hermann Samuel) Reimarus",
+   "life": "1694–1768",
+   "role": "Professor at Hamburg, writing to his son, a medical student in London",
+   "side": "Free City of Hamburg",
+   "where": "Hamburg: churches, the canal, the Alster and the Elbe",
+   "lat": 53.55,
+   "lon": 9.993,
+   "vantage": 4,
+   "vantage_label": "abroad; the swinging chandeliers",
+   "form": "dated letters",
+   "language": "German (printed as an English extract)",
+   "authenticity": "An undated extract of a letter from 'Professor Reimarus' at Hamburg to his son 'Mr Reimarus, a student of physic in London', sent on by Dr John Pringle and read to the Royal Society on 18 March 1756 (Philosophical Transactions vol. 49). The printed text does not give his first name. He is identified here as the philosopher Hermann Samuel Reimarus, whose son J. A. H. Reimarus studied medicine in Britain in those years. That identification is mine and is flagged.",
+   "bio": "Reimarus gives the view from a northern merchant city, nearly 2,000 km from Lisbon. Hamburg had heavy trading links with Portugal, so its merchants were about to lose fortunes there. On the morning itself, though, all anyone saw was church candlesticks swaying and canal water foaming.",
+   "sources": [
+    {
+     "title": "Philosophical Transactions vol. 49 (OCR): agitation of the waters in Scotland and at Hamburgh",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-104975/"
+    }
+   ]
+  },
+  {
+   "id": "voltaire",
+   "short": "Voltaire",
+   "name": "Voltaire (François-Marie Arouet)",
+   "life": "1694–1778",
+   "role": "Philosopher and poet, aged 61, newly settled outside Geneva",
+   "side": "French man of letters in Geneva",
+   "where": "Les Délices, his house near Geneva",
+   "lat": 46.21,
+   "lon": 6.13,
+   "vantage": 4,
+   "vantage_label": "abroad, hearing news",
+   "form": "dated letters; poem",
+   "language": "French",
+   "authenticity": "Letter to Tronchin of Lyon dated Les Délices, 24 November 1755, in the standard correspondence. The Poème sur le désastre de Lisbonne was drafted in December 1755 and published in 1756.",
+   "bio": "Voltaire heard the news within about three weeks and used it against the philosophical optimism of Leibniz and Pope, the idea that all is for the best. His fury led to the poem and, in time, to Candide (1759).",
+   "sources": [
+    {
+     "title": "Voltaire Society of America: letter of 24 November 1755",
+     "url": "https://whitman.edu/VSA/letters/24.11.1755.html"
+    },
+    {
+     "title": "Poem on the Lisbon Disaster (English translation, Dallas Baptist University)",
+     "url": "https://www3.dbu.edu/mitchell/voltairelisbon.htm"
+    }
+   ]
+  },
+  {
+   "id": "kant",
+   "short": "Kant",
+   "name": "Immanuel Kant",
+   "life": "1724–1804",
+   "role": "Young lecturer (Privatdozent) at Königsberg, aged 31",
+   "side": "Prussia",
+   "where": "Königsberg, East Prussia",
+   "lat": 54.71,
+   "lon": 20.51,
+   "vantage": 4,
+   "vantage_label": "abroad, reasoning from reports",
+   "form": "essays (dated publications)",
+   "language": "German",
+   "authenticity": "Three earthquake writings from 1756: a short essay on the causes of earthquakes in the Königsberg weekly paper (January 1756), a longer pamphlet giving a history and natural description of the 1755 earthquake (early 1756), and 'Continued Observations' (spring 1756). All are in the Academy edition and in English in Kant, Natural Science (Cambridge). I did not verify the exact issue dates within the research budget, so these entries are marked approx.",
+   "bio": "Kant was still years away from his famous philosophy. He treated Lisbon as a physical problem. He argued that hot gases in connected underground caverns drive earthquakes, which is wrong, but he pointedly kept God's punishment out of the explanation and drew practical lessons about where and how to build.",
+   "sources": [
+    {
+     "title": "Cambridge: Kant, History and Natural Description of the Earthquake of 1755 (1756), in Natural Science",
+     "url": "https://core-cms.cambridgecore.org/core/books/kant-natural-science/history-and-natural-description-of-the-most-noteworthy-occurrences-of-the-earthquake-that-struck-a-large-part-of-the-earth-at-the-end-of-the-year-1755-1756/BBE6D06F51205839B4DD127753F23361"
+    },
+    {
+     "title": "Cambridge: Kant, Continued Observations on the Earthquakes (1756)",
+     "url": "https://resolve.cambridge.org/core/books/kant-natural-science/continued-observations-on-the-earthquakes-that-have-been-experienced-for-some-time-1756/171D2D8DADBC453D9E3D6B86296AE16A"
+    }
+   ]
+  },
+  {
+   "id": "wesley",
+   "short": "Wesley",
+   "name": "John Wesley",
+   "life": "1703–1791",
+   "role": "Methodist preacher, aged 52",
+   "side": "England (Methodist movement)",
+   "where": "London",
+   "lat": 51.523,
+   "lon": -0.087,
+   "vantage": 4,
+   "vantage_label": "abroad, preaching on the news",
+   "form": "tract; journal",
+   "language": "English",
+   "authenticity": "'Some Serious Thoughts Occasioned by the Late Earthquake at Lisbon' (London, 1755; reissued 1756) is securely his. His published Journal covers these months, but I could not check its day-by-day entries on Lisbon within the research budget, so the journal-based entry is marked approx.",
+   "bio": "Wesley takes the opposite line to Voltaire and Kant. For him the earthquake was not chance or bare physics but God speaking to a sinful nation, and his tract asks readers whether they are ready to die. His tract and Voltaire's poem show the same news producing opposite certainties.",
+   "sources": [
+    {
+     "title": "Wesley Corpus: Serious Thoughts Occasioned by the Late Earthquake at Lisbon",
+     "url": "https://corpus.historyofmethodism.com/passage/jw-treatise-serious-thoughts-earthquake-at-lisbon-001"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1755-11-01",
+   "date_display": "Saturday 1 November 1755, about 9:38 am (letter dated that day)",
+   "precision": "day",
+   "eye": "chambers",
+   "place": "Funchal, Madeira",
+   "headline": "A daylight shock in Madeira, less frightening than 1748",
+   "digest": "Chambers puts the shock at about 9:38 and says it lasted nearly two minutes. He thinks it frightened people less than the quake of 1748, perhaps because it came in daylight. He did not yet know that Lisbon, far to the north-east, was falling down at the same moment.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 49, letter XVIII (Chambers to his father, Madeira, 1 Nov 1755)"
+  },
+  {
+   "date_iso": "1755-11-01",
+   "date_display": "Saturday 1 November 1755, between nine and ten in the morning",
+   "precision": "day",
+   "eye": "davy",
+   "place": "His lodgings, lower Lisbon",
+   "headline": "The pen stops: the house shakes and the dust closes in",
+   "digest": "Davy was at his desk finishing a letter when the table shook and a rumble like distant carriages grew into violent shaking. Walls cracked and fell around him. Dust filled the street so thickly that for about ten minutes he could hardly breathe or see. He got out and made for the open space by the river, climbing over the fallen stones of St Paul's church.",
+   "quote": "Egyptian darkness indeed, such as might be felt",
+   "confidence": "verified",
+   "source_note": "Davy's letter, in Tappan, The World's Story (1914) V, 618–628; Fordham Sourcebook"
+  },
+  {
+   "date_iso": "1755-11-01",
+   "date_display": "Saturday 1 November 1755, morning",
+   "precision": "day",
+   "eye": "chase",
+   "place": "His house in Lisbon",
+   "headline": "The house gives way and buries the young merchant",
+   "digest": "Chase's letter to his mother describes the shocks catching him in the family house, the building collapsing with him in it, and being left badly hurt among the rubble. After a long time trapped and unable to help himself, he was dragged out and carried to shelter. Retellings disagree on details such as whether he fell from a balcony, so this digest stays with the outline.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "KCL Archives K/PP119/2/2 (letter of 31 Dec 1755; printed Blackwood's Magazine 88, 1860); details not checked against the full text"
+  },
+  {
+   "date_iso": "1755-11-01",
+   "date_display": "Saturday 1 November 1755, late morning",
+   "precision": "day",
+   "eye": "davy",
+   "place": "The riverside below St Paul's, Lisbon",
+   "headline": "Praying crowds on the quay, then the sea comes in",
+   "digest": "At the river Davy found crowds kneeling, praying and beating their breasts as another shock rolled through. Then people started shouting that the sea was coming. A great mass of water rose and swept in over the waterfront. He grabbed hold of a large beam and only just avoided being carried off, then went back up towards the ruined church, which now seemed the safer place.",
+   "quote": "The sea is coming in, we shall be all lost.",
+   "confidence": "verified",
+   "source_note": "Davy's letter (Tappan 1914 / Fordham Sourcebook)"
+  },
+  {
+   "date_iso": "1755-11-01",
+   "date_display": "Saturday 1 November 1755, just before 10 am (letter dated 4 November)",
+   "precision": "day",
+   "eye": "bewicke",
+   "place": "Cádiz",
+   "headline": "Cisterns slop and froth; an hour later, a wall of sea",
+   "digest": "Bewicke writes that the shock at Cádiz lasted more than three and a half minutes and that water in the town's underground cisterns sloshed and frothed. About an hour later a wave was seen some eight miles out, which he estimated at no less than sixty feet high, followed by four or five weaker ones. The rocky western shore broke much of its force, but the sea still smashed the parapets of the walls and threw stones of eight or ten tons up to fifty yards.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 49, letter XIV (Bewicke, Cadiz, 4 Nov 1755); Royal Society L&P/3/66"
+  },
+  {
+   "date_iso": "1755-11-01",
+   "date_display": "Saturday 1 November 1755, about 11:45 am (letter dated that day)",
+   "precision": "day",
+   "eye": "chambers",
+   "place": "Funchal, Madeira",
+   "headline": "Two hours after the shaking, the sea rushes the wall",
+   "digest": "At about a quarter to twelve the sea rushed towards the shore and came right up to the town wall and gate at Funchal, then drew back and came again. When it withdrew it left bare rocks that are normally deep underwater. Chambers wrote this to his father the same day without knowing where the disturbance came from.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 49, letter XVIII"
+  },
+  {
+   "date_iso": "1755-11-01",
+   "date_display": "Saturday 1 November 1755, about 9:30–11 am (letter dated 8 December)",
+   "precision": "day",
+   "eye": "colquhoun",
+   "place": "Loch Lomond (observed at Tarbet)",
+   "headline": "No wind, no tremor, yet Loch Lomond breathes",
+   "digest": "In dead calm, the innkeeper Angus M'Diarmid watched the loch rise against its banks, then drain lower than in a summer drought, then come back. Each cycle took about five minutes. The swings were strongest from about half past nine to quarter past ten and then faded by eleven. He measured the greatest rise at two feet four inches. Loch Long and Loch Katrine moved too.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 49, letter XXII (Colquhoun, Rossdhu, 8 Dec 1755)"
+  },
+  {
+   "date_iso": "1755-11-01",
+   "date_display": "Saturday 1 November 1755, about midday by the report (letter undated)",
+   "precision": "day",
+   "eye": "reimarus",
+   "place": "Hamburg",
+   "headline": "Hamburg's chandeliers sway and the Alster foams",
+   "digest": "Reimarus told his son that branched candlesticks swung in one Hamburg church and the cover of the font shook in another, with similar reports from other churches. The town canal and the Alster swirled gently at first, then heaved, brought up mud and settled under a white froth. People said the Elbe rose even more. Nobody in Hamburg knew yet that anything had happened in Portugal.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 49, 'Agitation of the Waters … in Scotland and at Hamburgh' (read 18 Mar 1756)"
+  },
+  {
+   "date_iso": "1755-11-01",
+   "date_display": "Saturday 1 November 1755 (reported in advices to Gibraltar)",
+   "precision": "day",
+   "eye": "fowke",
+   "place": "Gibraltar, reporting on Tetuan, Tangier, Arzila and Salé",
+   "headline": "Across the strait: Tangier's sea comes and goes eighteen times",
+   "digest": "The news reaching Gibraltar said Tetuan shook for seven or eight minutes, three times over, and its river and fountains ran red. At Tangier the sea surged up to the walls and drew back at least eighteen times, and fountains dried up. At Arzila a ship was lifted and smashed on land. At Salé the sea flooded the town and left fish in the streets.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 49, letter XVI (Barbary advices to Gen. Fowke); content is hearsay"
+  },
+  {
+   "date_iso": "1755-11-01",
+   "date_display": "Saturday 1 November 1755, from a little after 2 pm (letter dated 4 December)",
+   "precision": "day",
+   "eye": "borlase",
+   "place": "Mount's Bay, Cornwall",
+   "headline": "Four hours later, the wave reaches St Michael's Mount",
+   "digest": "A little after two in the afternoon, about half an hour after the ebb began, the sea at the Mount pier suddenly rushed in from the east. For about ten minutes it rose, then it fell about six feet over the next ten, and kept repeating, strongest in the third and fourth surges. It rose about eight feet at Penzance and about ten at Newlyn. Boats were thrown about, but no lives or vessels were lost.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 49, letter XV (Borlase, Ludgvan, 4 Dec 1755)"
+  },
+  {
+   "date_iso": "1755-11-01",
+   "date_display": "Saturday 1 November 1755, from nightfall",
+   "precision": "day",
+   "eye": "davy",
+   "place": "Lisbon, looking over the city",
+   "headline": "After dark, Lisbon burns in a hundred places",
+   "digest": "When night fell Davy saw the whole city lit up by fire, burning in at least a hundred places at once. With the light from the flames he could almost have read. The fires had started in the wrecked buildings, and nobody was able to stop them. Shocks kept coming through the night, and he and the people around him expected each one to finish them off.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Davy's letter (Tappan 1914 / Fordham Sourcebook)"
+  },
+  {
+   "date_iso": "1755-11-02",
+   "date_display": "Sunday 2 November 1755",
+   "precision": "day",
+   "eye": "pombal",
+   "place": "Royal camp, Belém",
+   "headline": "First order of business: the bodies, before plague comes",
+   "digest": "The day after the quake, the minister's orders dealt first with the dead, so that rotting bodies would not bring disease. With the archbishop's special permission, corpses that could not be buried were weighted and taken out to sea without the usual rites. The aim was hard-headed: keep the living alive.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "ReVista (Harvard DRCLAS), 'Bury the dead and feed the living', on Houghton Library documents; exact text of the 2 Nov order not seen"
+  },
+  {
+   "date_iso": "1755-11-03",
+   "date_display": "Monday 3 November 1755",
+   "precision": "day",
+   "eye": "pombal",
+   "place": "Royal camp, Belém",
+   "headline": "Bread before rubble: grain prices frozen",
+   "digest": "Two days after the quake the minister was drafting decrees to freeze grain prices and get food distributed fast, to head off both hunger and profiteering. Three drafts survive with corrections in his own hand. In the days that followed, further orders brought troops into the city, set up care for the sick and wounded, and tried to stop people fleeing to the countryside.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ReVista (Harvard DRCLAS) on three annotated drafts at Houghton Library"
+  },
+  {
+   "date_iso": "1755-11-03",
+   "date_display": "Monday 3 November 1755 (postscript)",
+   "precision": "day",
+   "eye": "chambers",
+   "place": "Funchal, Madeira",
+   "headline": "Postscript: wine casks gone on the north coast",
+   "digest": "Two days later Chambers added news from the north side of the island. The sea had damaged houses at Machico and carried off about two hundred pipes of wine at Porto da Cruz. For a wine island trading with Britain, those lost casks were how the damage was counted.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 49, letter XVIII, postscript of 3 Nov"
+  },
+  {
+   "date_iso": "1755-11-04",
+   "date_display": "Tuesday 4 November 1755",
+   "precision": "day",
+   "eye": "bewicke",
+   "place": "Cádiz",
+   "headline": "A merchant counts the cost: the causeway is gone",
+   "digest": "Writing three days later, Bewicke reckons that only two or three people drowned inside Cádiz. On the narrow causeway to the Isla de León, though, forty or fifty people and many animals were drowned. The sea had cut through that causeway and almost joined the ocean to the bay. He fears this will do lasting harm to the harbour and the town. The governor had shut the gates to stop panicked crowds running out into the low ground.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 49, letter XIV"
+  },
+  {
+   "date_iso": "1755-11-04",
+   "date_display": "c. 2–6 November 1755 ('a few days after')",
+   "precision": "range",
+   "eye": "davy",
+   "place": "The quay, Lisbon",
+   "headline": "Back at the quay: not a trace left",
+   "digest": "A few days later Davy went back to the waterfront where crowds had gathered on the morning of the quake. The new stone quay and the people standing on it had disappeared into the river. He found no wreckage and no bodies, which was the most frightening part. Meanwhile the fire went on, and he says it burned for six days.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Davy's letter (Tappan 1914 / Fordham Sourcebook); 'a few days after' is his phrase, exact day not given"
+  },
+  {
+   "date_iso": "1755-11-06",
+   "date_display": "Thursday 6 November 1755",
+   "precision": "day",
+   "eye": "castres",
+   "place": "Lisbon, the envoy's house",
+   "headline": "The envoy's garden becomes a refugee camp",
+   "digest": "Castres reports a 'most tremendous' earthquake followed by a fire that did more damage than the shocks. His own house is standing though badly damaged, and friends who were burned out are living in tents in his garden, along with poor people he could not turn away. The Spanish ambassador was crushed by his own doorway as he tried to get out. With a colleague he found the king and royal family camped at Belém, because no palace was safe to live in.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "London Gazette 9536 (9–13 Dec 1755); Gentleman's Magazine Nov 1755, XXV, 556–558"
+  },
+  {
+   "date_iso": "1755-11-15",
+   "date_display": "November 1755 (month of publication)",
+   "precision": "month",
+   "eye": "wesley",
+   "place": "London",
+   "headline": "Wesley's answer: not chance, but a summons to repent",
+   "digest": "Within weeks of the news, Wesley published 'Some Serious Thoughts Occasioned by the Late Earthquake at Lisbon'. He rejects the comfortable view that earthquakes are purely natural accidents and insists that natural causes act under God's direction. He sets Lisbon alongside a rock-splitting event in Yorkshire that year and asks his readers whether they are ready to die. His answer is the opposite of Voltaire's: the world is governed, and the earthquake is a warning.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wesley Corpus text of Serious Thoughts (1755); exact publication day not verified"
+  },
+  {
+   "date_iso": "1755-11-18",
+   "date_display": "Tuesday 18 November 1755",
+   "precision": "day",
+   "eye": "wolfall",
+   "place": "Lisbon, the open-air camps",
+   "headline": "A surgeon without instruments counts the cost",
+   "digest": "Writing to Dr Parsons, Wolfall puts the main shock at about 9:40 and estimates about 30,000 dead. He says fires broke out within about two hours, the river rose suddenly by some forty feet, and there have been twenty-two aftershocks. The king had gallows put up around the city, and looters were hanged. Survivors are sleeping in the open with no material to make tents, and he and two other English surgeons have no instruments and no bandages.",
+   "quote": "nothing was thought of but self-preservation",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 49, letter II (Wolfall to Parsons, Lisbon, 18 Nov 1755)"
+  },
+  {
+   "date_iso": "1755-11-18",
+   "date_display": "Tuesday 18 – Wednesday 19 November 1755 (reported in advices to Gibraltar)",
+   "precision": "range",
+   "eye": "fowke",
+   "place": "Gibraltar, reporting on Fez and Meknes",
+   "headline": "A second quake strikes Morocco, worse than the first",
+   "digest": "News reached Gibraltar that on 18 November a new and stronger quake hit Fez and Meknes and went on until dawn the next day. Many more houses fell. In Meknes, according to the report, only eight people survived in one of the Jewish quarters. The Franciscan friars at Meknes, whose convent had fallen on 1 November, had come through. The same report repeats rumours of hills splitting open and whole villages swallowed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 49, letter XVI; date of second quake as reported, scale claims are hearsay"
+  },
+  {
+   "date_iso": "1755-11-22",
+   "date_display": "Saturday 22 November 1755",
+   "precision": "day",
+   "eye": "wolfall",
+   "place": "Lisbon",
+   "headline": "Walls that opened a quarter-yard, then closed",
+   "digest": "In a second letter Wolfall corrects himself: the great shock lasted five to seven minutes. He describes something odd he saw with his own eyes: house walls that split open by more than a quarter of a yard during the shaking and then closed up again with no visible crack. Three weeks after the disaster, he is still recording the details as carefully as a physician would.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 49, letter III (Wolfall, Lisbon, 22 Nov 1755)"
+  },
+  {
+   "date_iso": "1755-11-24",
+   "date_display": "Monday 24 November 1755",
+   "precision": "day",
+   "eye": "voltaire",
+   "place": "Les Délices, near Geneva",
+   "headline": "News reaches Geneva: 'the best of all possible worlds?'",
+   "digest": "Writing to Tronchin at Lyon, Voltaire calls the earthquake a brutal lesson in physics and asks bitterly what has become of the best of all possible worlds. He thinks of people crushed under their houses, families across Europe ruined, and Swiss merchants who have lost their fortunes in Lisbon. He sharpens it into a jab at the Inquisition and says the disaster should at least teach people to stop persecuting one another.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Voltaire Society of America, letter of 24 Nov 1755 (to Tronchin of Lyon)"
+  },
+  {
+   "date_iso": "1755-12-04",
+   "date_display": "Thursday 4 December 1755",
+   "precision": "day",
+   "eye": "maia",
+   "place": "Lisbon / Belém",
+   "headline": "The old engineer sets out how to rebuild Lisbon",
+   "digest": "Five weeks after the quake, the first part of Manuel da Maia's memorandum reached the minister. It weighs the choices: patch the old medieval streets, rebuild on the same site with wider and straighter streets, or abandon the ruins and build a new capital at Belém. From these options came the gridded, earthquake-conscious Baixa that was built over the following decades.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DGAEP, 'Marquês de Pombal e Manuel da Maia' (receipt of first part, 4 Dec 1755); content summary from standard histories"
+  },
+  {
+   "date_iso": "1755-12-04",
+   "date_display": "Thursday 4 December 1755",
+   "precision": "day",
+   "eye": "borlase",
+   "place": "Ludgvan, Cornwall",
+   "headline": "A country parson works out where the wave came from",
+   "digest": "Writing up the reports he had gathered, Borlase notices that the surge got bigger the deeper into the bay it went and arrived progressively later at St Ives, Hayle, Swansea and Kinsale. From that he reasons the push came from the south or south-west. He notes there had been six days of calm, a high barometer and mild temperatures, so the weather was not to blame. A ketch at anchor was swung round by a current of about seven miles an hour.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 49, letter XV (Borlase to Lyttelton, 4 Dec 1755)"
+  },
+  {
+   "date_iso": "1755-12-08",
+   "date_display": "Monday 8 December 1755",
+   "precision": "day",
+   "eye": "colquhoun",
+   "place": "Rossdhu, Loch Lomond",
+   "headline": "A laird with a sore throat relies on the innkeeper's watch",
+   "digest": "Colquhoun admits he saw nothing himself. He was laid up with a sore throat, so his report comes from Angus M'Diarmid, the innkeeper at Tarbet, who stood watch in hand timing the rises and falls. Colquhoun names his witness and sends the figures to London, where they will be printed alongside reports from Cornwall, Kinsale and Loch Ness.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 49, letter XXII"
+  },
+  {
+   "date_iso": "1755-12-15",
+   "date_display": "December 1755 (drafted early December; published 1756)",
+   "precision": "month",
+   "eye": "voltaire",
+   "place": "Les Délices, near Geneva",
+   "headline": "The Poem on the Lisbon Disaster takes shape",
+   "digest": "Voltaire turns his letters into verse. The poem asks readers who insist that all is well to look at the dead of Lisbon and explain what crime the children crushed in their mothers' arms had committed. It rejects both the optimism of the philosophers and the preachers' talk of punishment, and leaves suffering as an open problem. Published in 1756, it provoked a long reply from Rousseau.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Poème sur le désastre de Lisbonne (1756); composition date from standard accounts, not verified to the day"
+  },
+  {
+   "date_iso": "1755-12-18",
+   "date_display": "Thursday 18 December 1755",
+   "precision": "day",
+   "eye": "borlase",
+   "place": "Royal Society, London (read in his absence)",
+   "headline": "Cornwall's wave read aloud at the Royal Society",
+   "digest": "Borlase's letter was read to the Royal Society, along with Thomas Birch's report on Peerless Pool in London, where a pond had emptied and then overflowed its banks by ten or twelve feet. The Society was collecting such letters from all over Britain and Europe and would print them together in Philosophical Transactions vol. 49. Each reading added another dot to a map nobody had drawn before.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Royal Society Making Science records L&P/3/63 and L&P/3/60 (both read 18 Dec 1755)"
+  },
+  {
+   "date_iso": "1755-12-31",
+   "date_display": "Wednesday 31 December 1755",
+   "precision": "day",
+   "eye": "chase",
+   "place": "Lisbon",
+   "headline": "New Year's Eve: a survivor finally writes to his mother",
+   "digest": "Two months after he was dug out of his collapsed house, Chase sat down to write his mother the full story of what had happened to him. It was a long letter, written by someone well enough to hold a pen but still close to the events. It was copied out by hand in the family and finally printed more than a century later.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "KCL Archives K/PP119/2/2 (letter dated 31 Dec 1755; printed Blackwood's Magazine 88, 1860)"
+  },
+  {
+   "date_iso": "1756-01-01",
+   "date_display": "advices received up to Thursday 1 January 1756",
+   "precision": "day",
+   "eye": "fowke",
+   "place": "Gibraltar",
+   "headline": "Morocco's toll, as rumour and report delivered it",
+   "digest": "By New Year the governor's file of Barbary news ran from Tetuan to Marrakesh: houses down in Fez, a Franciscan convent fallen in Meknes, many deaths in Marrakesh, and a story that the ground had swallowed a village with thousands of people and closed over it. Some of this is real damage and some is rumour growing as it travelled, and the report does not separate the two.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 49, letter XVI (advices through 1 Jan 1756)"
+  },
+  {
+   "date_iso": "1756-01-24",
+   "date_display": "January 1756 (Königsberg weekly paper)",
+   "precision": "month",
+   "eye": "kant",
+   "place": "Königsberg",
+   "headline": "A young lecturer looks for causes underground, not overhead",
+   "digest": "In the Königsberg weekly paper, Kant set out a natural explanation for the disaster that had struck the western countries of Europe. He proposed that great caverns under mountain ranges connect to the sea and to river valleys, and that gases igniting in them cause both earthquakes and volcanoes. He saw this as explaining why places far apart shook at the same time. The theory was wrong, but it treated the disaster as something to investigate, not as a sermon.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kant, 'On the causes of earthquakes' (1756), Cambridge Natural Science; Spanish edition in Cuadernos Dieciochistas 6 (2005); issue dates not verified"
+  },
+  {
+   "date_iso": "1756-02-06",
+   "date_display": "Friday 6 February 1756 (the General Fast)",
+   "precision": "day",
+   "eye": "wesley",
+   "place": "London",
+   "headline": "A nation fasts, and the Methodist preacher rejoices",
+   "digest": "The government ordered a national day of fasting and prayer for 6 February 1756, prompted by the Lisbon disaster and the threat of war with France. Wesley's journal records the day as unusually serious and well kept in London, with churches full. He took it as a sign that the warning from Lisbon had been heard, at least for a day.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wesley's Journal, Feb 1756; not checked against a scan within the research budget"
+  },
+  {
+   "date_iso": "1756-03-01",
+   "date_display": "early 1756 (pamphlet, Königsberg)",
+   "precision": "range",
+   "eye": "kant",
+   "place": "Königsberg",
+   "headline": "Kant collects the world's reports into a history",
+   "digest": "Kant's longer pamphlet gathers what the newspapers had reported: the shock at Lisbon, the sea surges in Spain and Africa, the lakes and springs disturbed as far as Germany and Scandinavia. He sorts them into a single natural account and warns readers against seeing Lisbon as divine punishment. He also gives practical advice, for example that streets should not run parallel to the direction from which shocks usually come.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kant, History and Natural Description … of the Earthquake (1756), Cambridge Natural Science; month of publication not verified"
+  },
+  {
+   "date_iso": "1756-03-02",
+   "date_display": "early 1756",
+   "precision": "range",
+   "eye": "pombal",
+   "place": "Lisbon / Belém",
+   "headline": "Survey the ruins, freeze the building, plan a new city",
+   "digest": "At the start of 1756 the minister's government ordered a survey of the ruined city, issued the first reconstruction laws, and halted private building until there was a plan. A questionnaire went to parishes across Portugal asking how long the shock had lasted, what had fallen and how many had died, one of the first systematic surveys of an earthquake. A Lisbon report of late January said the king meant to rebuild on the same site.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "lisbon-pre-1755-earthquake.org essay (citing London Gazette 9556, Feb 1756); exact decree dates not verified"
+  },
+  {
+   "date_iso": "1756-03-18",
+   "date_display": "Thursday 18 March 1756",
+   "precision": "day",
+   "eye": "reimarus",
+   "place": "Royal Society, London (letter read)",
+   "headline": "A father's letter from Hamburg joins the Royal Society file",
+   "digest": "The extract of Professor Reimarus's letter to his son in London was read to the Royal Society, together with a Scottish report of water rising and falling at Queensferry that same morning. Through letters like these, a merchant city on the Elbe and a ferry crossing on the Forth became evidence for one event, more than four months after it happened.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 49, Pringle to Birch, Pall Mall, 18 Mar 1756"
+  },
+  {
+   "date_iso": "1756-04-15",
+   "date_display": "spring (c. April) 1756",
+   "precision": "month",
+   "eye": "kant",
+   "place": "Königsberg",
+   "headline": "Continued observations, as aftershocks keep coming",
+   "digest": "Aftershocks and new quakes kept being reported from across Europe into 1756, including a sharp shock in Switzerland on 9 December 1755, and Kant returned to the subject. His third piece looked at these later tremors as part of the same disturbance and kept to his natural explanation. After this he left earthquakes for other work.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kant, Continued Observations on the Earthquakes (1756), Cambridge Natural Science; Swiss shock from Phil. Trans. 49 letters XIX–XX"
+  },
+  {
+   "date_iso": "1758-05-12",
+   "date_display": "12 May 1758",
+   "precision": "day",
+   "eye": "pombal",
+   "place": "Lisbon",
+   "headline": "The rebuilding plan becomes law",
+   "digest": "By decree the crown adopted the plan for the new lower town worked out by Maia's team and drawn by Eugénio dos Santos. Owners had to rebuild according to the plan within a fixed term or sell. The same year, an approving book listing the minister's emergency measures was published, which fixed his version of events in print.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Infopédia (plan of Eugénio dos Santos; five-year rule); the 12 May 1758 date is from standard histories and was not verified here"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1755-11-01",
+   "label": "The shock, about 9:40 am Lisbon time",
+   "eyes": [
+    "davy",
+    "chase",
+    "chambers",
+    "bewicke",
+    "colquhoun",
+    "reimarus",
+    "fowke"
+   ],
+   "note": "Within minutes of each other, Davy's desk shook, Chase's house fell, Madeira trembled for two minutes, Cádiz cisterns frothed, Loch Lomond began to rise and fall, and Hamburg's chandeliers swayed. Only the people in Lisbon knew it was a catastrophe. Everyone else took it for a local oddity."
+  },
+  {
+   "date": "1755-11-01",
+   "label": "The sea arrives, one place after another",
+   "eyes": [
+    "davy",
+    "bewicke",
+    "chambers",
+    "fowke",
+    "borlase"
+   ],
+   "note": "The wave hit the Lisbon quay within the hour, Cádiz about an hour after the shock, Madeira at 11:45, Tangier repeatedly, and Mount's Bay a little after 2 pm. Put in order, these letters plot a tsunami crossing the Atlantic margin, though none of the writers knew that was what they were describing."
+  },
+  {
+   "date": "1755-11-01",
+   "label": "Night falls on a burning city",
+   "eyes": [
+    "davy",
+    "wolfall",
+    "castres"
+   ],
+   "note": "Davy saw fires in a hundred places and says they burned six days; Wolfall says three; Castres says the fire did more harm than the quake. These three Lisbon eyewitnesses do not even agree on how long the fire lasted."
+  },
+  {
+   "date": "1755-11-06",
+   "label": "First week: tents and orders",
+   "eyes": [
+    "castres",
+    "pombal",
+    "davy"
+   ],
+   "note": "The envoy fills his garden with tents, the minister issues orders from the royal tents at Belém, and Davy goes back to the quay and finds nothing left. In the same week, a court, an embassy and a single survivor are each camping in the open."
+  },
+  {
+   "date": "1755-11-24",
+   "label": "News and the meaning of it",
+   "eyes": [
+    "voltaire",
+    "wesley",
+    "wolfall"
+   ],
+   "note": "Three weeks on, Wolfall in Lisbon still lacks bandages while Voltaire and Wesley are already arguing over what the disaster means. One sees proof that the world is not well ordered, the other sees proof that it is ruled by God. Neither had seen the city."
+  },
+  {
+   "date": "1755-12-04",
+   "label": "Five weeks on: engineer and naturalist",
+   "eyes": [
+    "maia",
+    "borlase"
+   ],
+   "note": "On the same Thursday, an old Portuguese engineer handed over a plan for a new city and an English country parson worked out the direction the wave had come from. Both were turning the disaster into something that could be measured and planned for."
+  },
+  {
+   "date": "1756-03-18",
+   "label": "The Royal Society's map takes shape",
+   "eyes": [
+    "reimarus",
+    "borlase",
+    "colquhoun",
+    "bewicke",
+    "chambers",
+    "wolfall",
+    "fowke"
+   ],
+   "note": "Through the winter, letters from Hamburg, Cornwall, Loch Lomond, Cádiz, Madeira, Lisbon and Gibraltar were read in London and printed together in one volume. Most of this chapter's eyes ended up on the same pages."
+  }
+ ],
+ "ties": [
+  {
+   "a": "davy",
+   "b": "wolfall",
+   "kind": "same street",
+   "note": "Both Englishmen were in Lisbon that morning and both wrote it up, but they disagree on how long the fire burned (six days against three)."
+  },
+  {
+   "a": "castres",
+   "b": "pombal",
+   "kind": "met",
+   "note": "As British envoy, Castres went to the royal tents at Belém where the minister was running the response. The disaster turned their diplomatic business into a matter of relief and supplies."
+  },
+  {
+   "a": "pombal",
+   "b": "maia",
+   "kind": "influenced",
+   "note": "Maia's memorandum went to the minister on 4 December 1755, and the plan his team drew up became the Pombaline Baixa."
+  },
+  {
+   "a": "voltaire",
+   "b": "wesley",
+   "kind": "opposite sides",
+   "note": "From the same news, Voltaire concluded that suffering makes optimism and talk of punishment both indefensible, and Wesley that the earthquake was God's warning. Their texts appeared within weeks of each other."
+  },
+  {
+   "a": "voltaire",
+   "b": "kant",
+   "kind": "opposite sides",
+   "note": "Both refused to read Lisbon as punishment, but Voltaire turned to moral protest while Kant turned to physical causes and building advice."
+  },
+  {
+   "a": "borlase",
+   "b": "colquhoun",
+   "kind": "read each other",
+   "note": "Their letters were printed in the same Philosophical Transactions series on the 'agitation of the waters', a few pages apart, one recording the wave and one the seiche."
+  },
+  {
+   "a": "bewicke",
+   "b": "fowke",
+   "kind": "mentioned",
+   "note": "Their two southern reports were printed side by side, giving the same sea surge from either side of the Strait of Gibraltar."
+  },
+  {
+   "a": "reimarus",
+   "b": "kant",
+   "kind": "influenced",
+   "note": "Kant built his 1756 history from distant reports like the Hamburg one, of disturbed water far from any felt shock. There is no evidence he read this particular letter."
+  },
+  {
+   "a": "chambers",
+   "b": "wolfall",
+   "kind": "mentioned",
+   "note": "Both letters were printed in the same Royal Society article, so a reader saw Madeira's daylight shock and Lisbon's catastrophe on facing pages."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v1:london-1666",
+   "note": "Both are capitals rebuilt to a plan after a catastrophe. Lisbon's planners chose wide, straight streets and fire-conscious building, which Wren and others had proposed for London after 1666 but mostly failed to impose. Pombal had been Portugal's envoy in London from 1739 to 1743, and historians such as Kenneth Maxwell link London's rebuilding to the Lisbon plan. The Royal Society, founded in Restoration London, printed this chapter's letters."
+  },
+  {
+   "to": "krakatoa-1883",
+   "note": "The Royal Society's method in 1755–56, collecting dated, timed observations from distant places and printing them side by side, was used again on a much larger scale after Krakatoa. The Society's Krakatoa Committee gathered worldwide reports of sea waves, air waves and strange skies. In both cases distant observers recorded something they could not explain, and only the combined reports showed what it was."
+  },
+  {
+   "to": "tambora-1816",
+   "note": "The 1755 earthquake was felt far away within minutes, and the news reached Europe within weeks, so people knew what had happened. In 1816, when Tambora's eruption chilled Europe, nobody connected the bad weather to its cause. Together the two chapters show how differently a distant disaster can register depending on what can be observed and how quickly news travels."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.rijksmuseum.nl/en/collection/object/Ruine-van-de-Pauluskerk-in-Lissabon-1755--89b6debad1dec32997a56416b98f72c3",
+   "title": "Ruin of St Paul's church in Lisbon, 1755",
+   "caption": "The church whose fallen stones Davy climbed over on his way to the river, shortly before the wave struck there.",
+   "date": "1758–1760",
+   "credit": "Anonymous; Rijksmuseum, Amsterdam"
+  },
+  {
+   "url": "https://www.rijksmuseum.nl/en/collection/object/Ruine-van-de-kathedraal-van-Lissabon-1755--e86f27bf7d89156691e356f489c9bc61",
+   "title": "Ruin of Lisbon Cathedral, 1755",
+   "caption": "One of a series of ruin views drawn on the spot after the disaster. Full churches on a feast day made the death toll worse.",
+   "date": "1758–1760",
+   "credit": "Anonymous; Rijksmuseum, Amsterdam"
+  },
+  {
+   "url": "https://www.rijksmuseum.nl/en/collection/object/Ruine-van-de-gebouwen-aan-het-Plein-van-de-Patriarchen-in-Lissabon-1755--638bbadfab8b70d1e3c2cd110444503b",
+   "title": "Ruins on the Patriarchal Square, Lisbon",
+   "caption": "The heart of royal and church Lisbon in ruins. The area was later cleared for the gridded Pombaline rebuilding.",
+   "date": "1758–1760",
+   "credit": "Anonymous; Rijksmuseum, Amsterdam"
+  },
+  {
+   "url": "https://www.rijksmuseum.nl/en/collection/object/Ruine-van-het-Operagebouw-van-Lissabon-1755--849d542409e89d23ee2b30ccf05c97d1",
+   "title": "Ruin of the Lisbon Opera House",
+   "caption": "King José's new riverside opera house had opened only months earlier. The earthquake and fire destroyed it.",
+   "date": "1758–1760",
+   "credit": "Anonymous; Rijksmuseum, Amsterdam"
+  },
+  {
+   "url": "https://www.rijksmuseum.nl/en/collection/object/Plattegrond-van-Lissabon-met-een-gezicht-op-Lissabon-tijdens-de-aardbeving-in-1755--b43682f8e6e32773856a16615d27bc50",
+   "title": "Plan of Lisbon with a view of the city during the earthquake",
+   "caption": "A German map-publisher's sheet that combined a city plan with an imagined scene of quake, fire and flood. This is how most Europeans saw the disaster.",
+   "date": "1755–1757",
+   "credit": "Matthaeus Seutter (III); Rijksmuseum, Amsterdam"
+  },
+  {
+   "url": "https://www.themorgan.org/literary-historical/193549",
+   "title": "'Des ruines de Lisbonne', autograph letter, 15 December 1755",
+   "caption": "An anonymous young man, possibly Swiss, writes to his mother from a wooden barracks his landlord had built amid the ruins. He apologises for the delay and blames the cost of postage and the lack of paper. It shows the many ordinary letters written home that winter.",
+   "date": "1755-12-15",
+   "credit": "The Morgan Library & Museum, MA 4543"
+  }
+ ],
+ "further": [
+  {
+   "title": "Internet Modern History Sourcebook: The Earthquake at Lisbon, 1755 (Davy)",
+   "url": "https://sourcebooks.web.fordham.edu/mod/1755lisbonquake.asp"
+  },
+  {
+   "title": "Philosophical Transactions vol. 49: agitation of the waters, 1 Nov 1755 (OCR)",
+   "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-104951/"
+  },
+  {
+   "title": "Philosophical Transactions vol. 49: Lisbon, Oporto, Cadiz, Barbary, Madeira and America letters (OCR)",
+   "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-104952/"
+  },
+  {
+   "title": "The London Gazette, issue 9532 (25–29 Nov 1755): Madrid and Cádiz reports",
+   "url": "https://thegazette.co.uk/London/issue/9532/page/1/data.pdf"
+  },
+  {
+   "title": "Jan Kozak Collection (NISEE, Berkeley): historical images of the 1755 earthquake",
+   "url": "https://nisee.berkeley.edu/elibrary/browse/kozak?eq=5234"
+  },
+  {
+   "title": "InTech: The Atlantic tsunami of 1 November 1755 according to primary documentary sources",
+   "url": "https://cdn.intechopen.com/pdfs/13093/InTech-The_atlantic_tsunami_on_november_1st_1755_world_range_and_amplitude_according_to_primary_documentary_sources.pdf"
+  },
+  {
+   "title": "Wellcome Collection: A letter from a Portuguese officer to a friend in Paris (London, 1755)",
+   "url": "https://wellcomecollection.org/works/c9qvpn7t"
+  }
+ ],
+ "vantage_key": "0 = buried in or running the disaster; 1 = eyewitness in Lisbon; 2 = in the city afterwards, planning; 3 = struck at a distance by the same shock and sea (Madeira, Cádiz); 4 = far away, seeing only the waters move or hearing the news."
+}

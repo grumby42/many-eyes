@@ -1,0 +1,1309 @@
+{
+ "id": "carrington-1859",
+ "title": "The Carrington Storm: 28 August – 4 September 1859",
+ "short_title": "The Carrington Storm",
+ "subtitle": "A white-light solar flare and two great geomagnetic storms, recorded from Surrey to Melbourne, Ise to Querétaro, 1859",
+ "span": "1859–1861",
+ "intro": [
+  "On the evening of Sunday 28 August 1859 the sky over New England, the Caribbean and, a few hours later, south-eastern Australia turned red. Telegraph lines from Quebec to Pittsburgh behaved as if a hand were opening and closing the circuit; at Kew, outside London, the self-recording magnetographs began to draw jagged traces. That was the first storm. Four days later came a second and greater one, and in between, just before noon in Surrey on 1 September, two amateur astronomers saw something no one had described before: a burst of white light on the face of the Sun itself.",
+  "Richard Carrington at his private observatory at Redhill and Richard Hodgson at Highgate each saw the flare at about 11:18 Greenwich time, and each saw it fade within about five minutes. At almost the same moment the Kew instruments, in Balfour Stewart's care, recorded a sharp small disturbance. Roughly seventeen and a half hours later the magnetic field across the whole Earth was thrown into disorder. Over the night of 1–2 September aurorae were seen overhead in Havana and Mexico, from ships off Nicaragua, in Santiago de Chile, on Maui, and the next evening in Japan and Melbourne. In Bombay the Colaba magnetometer recorded a fall in the horizontal field later estimated at about 1,600 nanotesla, and the Rome and Greenwich instruments ran off their scales.",
+  "Almost none of this record is a diary in the strict sense, and the chapter says so. The eyes here are two astronomers' notes to the Royal Astronomical Society; an observatory's photographic traces and the paper written on them; two compilers, Elias Loomis at Yale and the telegraph engineer George Prescott in Boston, who gathered eyewitness letters from hundreds of places; newspaper columns from New York, Sydney, Brisbane and Mexico; deck logs of United States Navy ships; a missionary's letter from Lahaina; a colonial telegraph superintendent's report to Parliament; a scientist's observing book in Melbourne; a merchant-scholar's diary in Ise province; and, from Colombia, a parish priest's account whose date is disputed.",
+  "Read side by side, they make the shape of the event visible. The same red glow that the officer of the deck on the Saranac logged at four in the morning at Panama was being described as 'blood-red' in Sydney at seven in the evening, at very nearly the same instant. Telegraphers in Boston and Portland, Maine, and in Victoria, Australia, found on the same storm that they could unplug their batteries and send messages on the sky's current alone. And observers who could not have known of each other, in Ise, on Maui and in Montería, first took the light for a distant fire.",
+  "The interpretation was contested from the start. Carrington refused to claim that the flare caused the storm, warning that one coincidence proved nothing; Stewart, writing in 1861, was willing to suggest that the Sun had been caught in the act. The chapter lays out both positions in the observing ledger alongside the times, places and figures the record gives."
+ ],
+ "calendar_note": "All dates are Gregorian. Observers in 1859 wrote in local mean time; Greenwich equivalents given in digests and the ledger are approximate conversions from longitude (for example Boston about GMT−4h44m, Querétaro about GMT−6h42m, Santiago about GMT−4h43m, Lahaina about GMT−10h27m, Ise about GMT+9h07m, Melbourne about GMT+9h40m). Astronomers often used the astronomical day beginning at noon; Carrington's flare time is given here in civil Greenwich mean time, as he published it. The Japanese diary is dated Ansei 6, 8th month, 6th day, which Hayakawa and colleagues convert to 2 September 1859; the lunar month began at the new moon of about 28 August, so the sky that week was dark. Night-time sightings are dated by the evening on which the night began unless the source dates them by the morning, which is noted where it matters.",
+ "eyes": [
+  {
+   "id": "carrington",
+   "short": "Carrington",
+   "name": "Richard Christopher Carrington",
+   "life": "1826–1875",
+   "role": "Amateur astronomer of independent means, aged 33, running a private observatory and a daily programme of sunspot drawings",
+   "side": "England; Royal Astronomical Society",
+   "where": "His observatory at Redhill, Surrey",
+   "lat": 51.24,
+   "lon": -0.17,
+   "vantage": 0,
+   "vantage_label": "watching the Sun when it flared",
+   "form": "observing note published as a paper",
+   "language": "English",
+   "authenticity": "Published as 'Description of a Singular Appearance seen in the Sun on September 1, 1859', Monthly Notices of the Royal Astronomical Society 20 (November 1859), pp. 13–15, with his drawing of the spot group. The text is widely reprinted; the sunspot drawings themselves are held with his observations.",
+   "bio": "Carrington was projecting an image of the Sun to draw a large spot group when two patches of white light burst out inside it. His careful timing against a chronometer made the observation usable, and his refusal to over-interpret it made it credible. His long sunspot series also gave astronomers the solar rotation period and the 'Carrington rotations' still used.",
+   "sources": [
+    {
+     "title": "Carrington, MNRAS 20 (1859) 13–15, NASA ADS record",
+     "url": "https://ui.adsabs.harvard.edu/abs/1859MNRAS..20...13C/abstract"
+    },
+    {
+     "title": "Linda Hall Library, Scientist of the Day: Richard Carrington",
+     "url": "https://www.lindahall.org/about/news/scientist-of-the-day/richard-carrington"
+    }
+   ]
+  },
+  {
+   "id": "hodgson",
+   "short": "Hodgson",
+   "name": "Richard Hodgson",
+   "life": "1804–1872",
+   "role": "Amateur astronomer and fellow of the Royal Astronomical Society, observing the Sun from his house",
+   "side": "England; Royal Astronomical Society",
+   "where": "Highgate, north London",
+   "lat": 51.571,
+   "lon": -0.147,
+   "vantage": 0,
+   "vantage_label": "the independent second witness",
+   "form": "observing note published as a paper",
+   "language": "English",
+   "authenticity": "Published as 'On a curious Appearance seen in the Sun', Monthly Notices of the Royal Astronomical Society 20 (November 1859), pp. 15–16, immediately after Carrington's note.",
+   "bio": "Hodgson happened to be examining the same spot group some twenty miles from Redhill. Without his corroboration Carrington's flare might have been dismissed as an instrumental artefact; with it, the first recorded solar flare had two independent timed witnesses.",
+   "sources": [
+    {
+     "title": "Hodgson, MNRAS 20 (1859) 15–16, NASA ADS record",
+     "url": "https://ui.adsabs.harvard.edu/abs/1859MNRAS..20...15H/abstract"
+    }
+   ]
+  },
+  {
+   "id": "stewart",
+   "short": "Balfour Stewart",
+   "name": "Balfour Stewart",
+   "life": "1828–1887",
+   "role": "Director of the Kew Observatory from 1859, aged 31, responsible for its photographic self-recording magnetographs",
+   "side": "England; Kew Observatory of the British Association",
+   "where": "Kew Observatory, Old Deer Park, Richmond",
+   "lat": 51.469,
+   "lon": -0.314,
+   "vantage": 1,
+   "vantage_label": "reading the Earth's magnetic pulse",
+   "form": "photographic magnetograph traces, then a paper",
+   "language": "English",
+   "authenticity": "His paper 'On the great magnetic disturbance which extended from August 28 to September 7, 1859, as recorded by photography at the Kew Observatory' appeared in Philosophical Transactions in 1861; the Royal Society holds his covering letter and Edward Sabine's referee report. The original Kew magnetograms survive and have been digitised by the British Geological Survey.",
+   "bio": "Kew's instruments wrote continuously on photographic paper, so they recorded the storm minute by minute while human observers slept. Stewart was the person who matched the small jog in the traces at about 11:15 on 1 September with the flare seen by Carrington and Hodgson, and who said in print what Carrington would not.",
+   "sources": [
+    {
+     "title": "Royal Society: letter from Balfour Stewart on his paper on the great magnetic disturbance",
+     "url": "https://makingscience.royalsociety.org/items/rr_4_257/letter-from-balfour-stewart-on-his-paper-on-the-great-magnetic-disturbance-which-extended-from-august-28-to-september-7-1859-as-recorded-by-photography-at-the-kew-observatory-to-the-secretary-of-the-royal-society"
+    },
+    {
+     "title": "Royal Society: Edward Sabine's referee report on Stewart's paper",
+     "url": "https://makingscience.royalsociety.org/items/rr_4_259/referees-report-by-edward-sabine-on-a-paper-on-the-great-magnetic-disturbance-which-extended-from-august-28-to-september-7-1859-as-recorded-by-photography-at-the-kew-observatory-by-balfour-stewart"
+    },
+    {
+     "title": "BGS: digitised magnetogram data from the Carrington storm",
+     "url": "https://www2.bgs.ac.uk/nationalgeosciencedatacentre/citedData/catalogue/c03ec758-d74d-4267-97fe-1be409f4c366.html"
+    }
+   ]
+  },
+  {
+   "id": "loomis",
+   "short": "Loomis",
+   "name": "Elias Loomis",
+   "life": "1811–1889",
+   "role": "Professor of natural philosophy (then at New York University, moving to Yale in 1860), aged 48, meteorologist and collector of observations",
+   "side": "United States; American Journal of Science",
+   "where": "New York and New Haven, gathering letters from the Americas and beyond",
+   "lat": 41.311,
+   "lon": -72.926,
+   "waypoints": [
+    {
+     "lat": 40.73,
+     "lon": -73.995,
+     "label": "New York University, 1859"
+    },
+    {
+     "lat": 41.311,
+     "lon": -72.926,
+     "label": "Yale College, New Haven, from 1860"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "the compiler of a hemisphere's letters",
+   "form": "collected eyewitness reports (journal articles)",
+   "language": "English",
+   "authenticity": "Nine articles titled 'The great auroral exhibition of Aug. 28th to Sept. 4th, 1859' in the American Journal of Science, 2nd series, vols. 28–32 (1859–1861). They print or summarise letters from named correspondents, ships' officers and newspapers; modern studies (Green & Boardsen 2006; Hayakawa et al. 2018) rely on them.",
+   "bio": "Loomis appealed to readers for reports and turned them into the first systematic map of a great aurora, including the lowest latitudes it reached. His articles preserve sightings from Havana, Puerto Rico, Guadeloupe, Santiago and Valparaíso that would otherwise be lost.",
+   "sources": [
+    {
+     "title": "Loomis, 'The great auroral exhibition…', AJS s2-30 (1860) 339–361",
+     "url": "https://ajsonline.org/article/64597-the-great-auroral-exhibition-of-aug-28th-to-sept-4th-1859"
+    },
+    {
+     "title": "Loomis, 7th article, AJS s2-32 (1861)",
+     "url": "https://ajsonline.org/article/64640"
+    }
+   ]
+  },
+  {
+   "id": "prescott",
+   "short": "Prescott",
+   "name": "George Bartlett Prescott",
+   "life": "1830–1894",
+   "role": "Telegraph engineer and manager in Boston, aged 29, compiling operators' reports for his textbook",
+   "side": "United States; New England telegraph lines (American Telegraph Co. and others)",
+   "where": "Boston, collecting reports from lines across New England and beyond",
+   "lat": 42.358,
+   "lon": -71.06,
+   "waypoints": [
+    {
+     "lat": 42.358,
+     "lon": -71.06,
+     "label": "Boston office"
+    },
+    {
+     "lat": 43.659,
+     "lon": -70.257,
+     "label": "Portland, Maine, other end of the line"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "inside the wires",
+   "form": "compiled operators' reports (book, 1860)",
+   "language": "English",
+   "authenticity": "History, Theory and Practice of the Electric Telegraph (Boston, 1860), pp. 318–326, reprints dated statements by named operators and superintendents (Selden at Springfield, Crosson at New York, Thayer at Philadelphia, Royce at Washington, Culgan at Pittsburgh, Milliken at Boston). Many of the same accounts appeared in the newspapers in September 1859; minor discrepancies of times and dates exist between versions.",
+   "bio": "Prescott was a working telegrapher, and his compilation reads like an incident log: which wires failed, at what hour, what the needles did, what burned. It preserves the Boston–Portland conversation in which two operators disconnected their batteries and worked on the aurora's current alone.",
+   "sources": [
+    {
+     "title": "Prescott, History, Theory and Practice of the Electric Telegraph (1860), pp. 318–326 (transcription)",
+     "url": "https://www.earlyradiohistory.us/1860auro.htm"
+    }
+   ]
+  },
+  {
+   "id": "nyt",
+   "short": "New York Times",
+   "name": "The New York Times (reporters and correspondents)",
+   "life": "founded 1851",
+   "role": "Daily newspaper, printing local description and telegraphed reports",
+   "side": "United States; metropolitan press",
+   "where": "New York City",
+   "lat": 40.713,
+   "lon": -74.006,
+   "vantage": 1,
+   "vantage_label": "the city under a crimson sky",
+   "form": "newspaper reports (dated issues)",
+   "language": "English",
+   "authenticity": "Dated issues of 30 August, 3 September and 5 September 1859, as cited and excerpted in Green et al., 'Eyewitness reports of the great auroral storm of 1859' (Advances in Space Research 38, 2006).",
+   "bio": "The Times shows how a city experienced the storms: crowds on street corners, comparisons between the Sunday and Thursday displays, and letters from telegraph operators explaining what had happened to the wires.",
+   "sources": [
+    {
+     "title": "Green et al., Eyewitness reports of the great auroral storm of 1859 (NASA NTRS)",
+     "url": "https://ntrs.nasa.gov/citations/20050210157"
+    }
+   ]
+  },
+  {
+   "id": "navy-logs",
+   "short": "Navy deck logs",
+   "name": "Officers of the deck, USS Saranac and USS Sabine",
+   "life": "on duty 1859",
+   "role": "United States Navy watch officers writing the hourly deck log",
+   "side": "United States Navy, Pacific and Home Squadrons",
+   "where": "Off Panama (Saranac) and off San Juan del Norte/Greytown, Nicaragua (Sabine)",
+   "lat": 11.53,
+   "lon": -83.82,
+   "waypoints": [
+    {
+     "lat": 8.95,
+     "lon": -79.53,
+     "label": "Saranac at Panama, 29 Aug"
+    },
+    {
+     "lat": 11.53,
+     "lon": -83.82,
+     "label": "Sabine off Greytown, 2 Sept"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "on watch in the tropics",
+   "form": "ships' deck logs",
+   "language": "English",
+   "authenticity": "Deck logs in the US National Archives, Record Group 24, cited by Green & Boardsen (2006) and Hayakawa et al. (2018); Loomis also printed the Saranac report. Individual officers are not named in the published extracts.",
+   "bio": "Deck logs are the plainest record in the chapter: a watch, a time, a bearing, a colour. They give the lowest-latitude sightings of the storms, around 20° magnetic latitude, at hours when no one ashore in the tropics was looking.",
+   "sources": [
+    {
+     "title": "Hayakawa et al. 2018, Low-latitude aurorae during the extreme space weather events in 1859 (arXiv)",
+     "url": "https://arxiv.org/pdf/1811.02786"
+    },
+    {
+     "title": "Green & Boardsen, Duration and extent of the great auroral storm of 1859 (NASA NTRS)",
+     "url": "https://ntrs.nasa.gov/citations/20050212156"
+    }
+   ]
+  },
+  {
+   "id": "la-sociedad",
+   "short": "La Sociedad",
+   "name": "La Sociedad (Mexico City newspaper) and its Querétaro correspondent",
+   "life": "newspaper published to 1867",
+   "role": "Conservative daily printing letters from provincial towns during the War of Reform",
+   "side": "Mexico; conservative press",
+   "where": "Mexico City, with a correspondent at Querétaro",
+   "lat": 20.588,
+   "lon": -100.389,
+   "waypoints": [
+    {
+     "lat": 19.433,
+     "lon": -99.133,
+     "label": "Mexico City, report of 3 Sept"
+    },
+    {
+     "lat": 20.588,
+     "lon": -100.389,
+     "label": "Querétaro, letter printed 12 Sept"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "a red sky over a country at civil war",
+   "form": "newspaper reports",
+   "language": "Spanish",
+   "authenticity": "Issues of 3 and 12 September 1859, identified and translated by González-Esparza and Cuevas-Cardona (Space Weather, 2018); the Querétaro writer is anonymous. Reports also came from Guadalajara, Guanajuato and Hidalgo.",
+   "bio": "These were the first Mexican records of the storm to reach the scientific literature, more than 150 years late; they had been printed in the middle of the War of Reform and never entered the journals. They describe the aurora reaching the zenith over central Mexico.",
+   "sources": [
+    {
+     "title": "González-Esparza & Cuevas-Cardona, Observations of low-latitude red aurora in Mexico (ESS Open Archive)",
+     "url": "https://essopenarchive.org/users/549541/articles/603610-observations-of-low-latitude-red-aurora-in-mexico-during-the-1859-carrington-geomagnetic-storm"
+    },
+    {
+     "title": "AGU GeoSpace blog, 25 June 2018",
+     "url": "https://blogs.agu.org/geospace/?p=25017"
+    }
+   ]
+  },
+  {
+   "id": "bishop",
+   "short": "S. E. Bishop",
+   "name": "S. E. Bishop (identified as Sereno Edwards Bishop)",
+   "life": "1827–1909",
+   "role": "American missionary minister living at Lahaina, Maui",
+   "side": "Kingdom of Hawaii; American mission community",
+   "where": "Lahaina, Maui",
+   "lat": 20.878,
+   "lon": -156.682,
+   "vantage": 1,
+   "vantage_label": "mid-Pacific, at 20° north",
+   "form": "dated letter to a newspaper",
+   "language": "English",
+   "authenticity": "Letter signed S. E. Bishop, dated Lahaina 9 September 1859, printed in the Honolulu Advertiser of 17 September 1859, following the paper's own notice of 8 September; reproduced on Images of Old Hawaii. Loomis also received a Honolulu report but gave no date, so Hayakawa et al. exclude Hawaii from their boundary estimate.",
+   "bio": "Bishop saw a crimson glow low in the north and first assumed a distant fire, then noticed that the clouds on the mountain did not reflect it. Only on reading the Honolulu notice did he decide he had seen the aurora, an honest record of how a careful observer moved from one explanation to another.",
+   "sources": [
+    {
+     "title": "Images of Old Hawaii: 1859 aurora reports from Honolulu and Lahaina",
+     "url": "https://imagesofoldhawaii.com/tag/sunspots/"
+    }
+   ]
+  },
+  {
+   "id": "ruiz",
+   "short": "Fr. Ruiz",
+   "name": "José Inés Ruiz",
+   "life": "fl. 1859",
+   "role": "Parish priest (vicar) of Montería, keeper of the baptism register",
+   "side": "New Granada (Colombia); Catholic parish",
+   "where": "Montería, on the Sinú river, about 8°45′ N",
+   "lat": 8.75,
+   "lon": -75.88,
+   "vantage": 1,
+   "vantage_label": "near the equator, among frightened parishioners",
+   "form": "account preserved in a later local history; marginal drawings in a parish register",
+   "language": "Spanish",
+   "authenticity": "Known only through J. Exbrayat, Historia de Montería (1971), pp. 150–151, which dates the event 'March 1859'. Moreno Cárdenas et al. (Advances in Space Research, 2016) argue for the night of 1–2 September 1859, citing spiral and S-shaped drawings in the September 1859 baptism register in Ruiz's hand; Ruiz's original notes have not been found, and Hayakawa et al. (2018) exclude the record as doubtfully dated.",
+   "bio": "If the redating is right, this is one of the closest approaches of the 1859 aurora to the equator. It is also the most fragile record in the chapter, and it stands here as a disputed position rather than as a settled sighting.",
+   "sources": [
+    {
+     "title": "Moreno Cárdenas et al., The grand aurorae borealis seen in Colombia in 1859 (arXiv)",
+     "url": "https://arxiv.org/pdf/1508.06365"
+    },
+    {
+     "title": "Revista Pesquisa FAPESP, 'The night the sky caught fire'",
+     "url": "https://revistapesquisa.fapesp.br/en/the-night-the-sky-caught-fire/"
+    }
+   ]
+  },
+  {
+   "id": "chikusai",
+   "short": "Chikusai Nikki",
+   "name": "Author of the Chikusai Nikki (diarist known as Chikusai)",
+   "life": "fl. 1859",
+   "role": "Diarist in Ise province keeping a long-running daily journal",
+   "side": "Japan (Tokugawa shogunate)",
+   "where": "Ise province, Honshu",
+   "lat": 34.6,
+   "lon": 136.6,
+   "vantage": 1,
+   "vantage_label": "the second storm, at nightfall in Japan",
+   "form": "diary",
+   "language": "Japanese (classical)",
+   "authenticity": "Chikusai Nikki, vol. 51, f. 26a, translated in Hayakawa et al. 2018 (Appendix 3.1). It is one of several Japanese records of the second storm (others from Shingū, Hirosaki, Inami and Hiraka) published by Hayakawa et al. in PASJ (2016). Coordinates are approximate for Ise province.",
+   "bio": "In Japan the Carrington storm's main phase fell in daylight; what the diarists saw was the storm that followed it on the evening of 2 September. The Chikusai diary records the light from nightfall to dawn and the rumour that it meant a great fire elsewhere.",
+   "sources": [
+    {
+     "title": "Hayakawa et al. 2018 (arXiv), appendix translation of the Chikusai Nikki",
+     "url": "https://arxiv.org/pdf/1811.02786"
+    },
+    {
+     "title": "Hayakawa et al., East Asian observations of low-latitude aurora during the Carrington magnetic storm, PASJ 68 (2016)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2016PASJ...68...99H/abstract"
+    }
+   ]
+  },
+  {
+   "id": "neumayer",
+   "short": "Neumayer",
+   "name": "Georg von Neumayer",
+   "life": "1826–1909",
+   "role": "Director of the Flagstaff Observatory for geophysics, magnetism and nautical science, aged 33",
+   "side": "Colony of Victoria; German-born scientist",
+   "where": "Flagstaff Observatory, Melbourne",
+   "lat": -37.81,
+   "lon": 144.955,
+   "vantage": 1,
+   "vantage_label": "the southern observatory",
+   "form": "observatory record (published results)",
+   "language": "English",
+   "authenticity": "Published in Neumayer's results of the Flagstaff magnetical and meteorological observations (1864), p. 242, as quoted by Hayakawa et al. (2018); the Melbourne Argus of 3 September 1859 also reported the display and the disturbance of the declination instrument.",
+   "bio": "Neumayer had opened the observatory only the year before, and his magnetic instruments made Melbourne one of the few places in the southern hemisphere where the storm was both seen and measured. He noted not just colour and shape but how far the glow dimmed the stars.",
+   "sources": [
+    {
+     "title": "Hayakawa et al. 2018 (arXiv), Figure 1 and Melbourne discussion",
+     "url": "https://arxiv.org/pdf/1811.02786"
+    }
+   ]
+  },
+  {
+   "id": "mcgowan",
+   "short": "McGowan",
+   "name": "Samuel Walker McGowan",
+   "life": "1829–1887",
+   "role": "General Superintendent of the Electric Telegraph, Colony of Victoria",
+   "side": "Colony of Victoria; government telegraph department",
+   "where": "Melbourne, overseeing the Victorian lines",
+   "lat": -37.814,
+   "lon": 144.963,
+   "vantage": 2,
+   "vantage_label": "the southern wires",
+   "form": "official report to Parliament",
+   "language": "English",
+   "authenticity": "Report to the Victorian Parliament, December 1859, on interruptions to telegraph communication, as described by Museums Victoria.",
+   "bio": "Trained on North American lines before coming to Australia, McGowan recognised what the aurora was doing to his wires because he had seen it before in Upper Canada. His report is the southern-hemisphere twin of Prescott's compilation.",
+   "sources": [
+    {
+     "title": "Museums Victoria Collections, article on the 1859 storm",
+     "url": "https://collections.museumsvictoria.com.au/articles/2880"
+    }
+   ]
+  },
+  {
+   "id": "colonial-press",
+   "short": "Colonial press",
+   "name": "Sydney Morning Herald and Moreton Bay Courier",
+   "life": "founded 1831 and 1846",
+   "role": "Colonial newspapers of New South Wales and its northern district (Queensland from December 1859)",
+   "side": "Australian colonies",
+   "where": "Sydney and Brisbane (Moreton Bay)",
+   "lat": -33.868,
+   "lon": 151.209,
+   "waypoints": [
+    {
+     "lat": -33.868,
+     "lon": 151.209,
+     "label": "Sydney"
+    },
+    {
+     "lat": -27.47,
+     "lon": 153.025,
+     "label": "Brisbane (Moreton Bay)"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the aurora australis at its northern edge",
+   "form": "newspaper reports",
+   "language": "English",
+   "authenticity": "Sydney Morning Herald, 30 August and 1 September 1859; Moreton Bay Courier, 7 September 1859; as excerpted in Green et al. (2006). Original issues are digitised in the National Library of Australia's Trove.",
+   "bio": "The Sydney paper records both the sky and the misbehaving telegraph; the Brisbane paper gives the northernmost Australian sighting, in the district that became Queensland a few months later.",
+   "sources": [
+    {
+     "title": "Green et al., Eyewitness reports of the great auroral storm of 1859 (NASA NTRS)",
+     "url": "https://ntrs.nasa.gov/citations/20050210157"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1859-08-28",
+   "date_display": "Sunday 28 August 1859, evening",
+   "precision": "day",
+   "eye": "prescott",
+   "place": "Boston–Fall River and Springfield, Massachusetts",
+   "headline": "Wires pulse on their own, with no battery attached",
+   "digest": "Prescott's operators reported that the Boston–Fall River line, with no battery on it, carried a current that rose and fell about every half minute as if someone were working a key. At Springfield, J. E. Selden saw a spark jump to the iron frame of the Albany circuit and smelled scorched wood and paint. In New York, J. C. Crosson had trouble working from 7:30 p.m., and the current changed character again after midnight.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Prescott 1860, pp. 318–326 (earlyradiohistory.us transcription)."
+  },
+  {
+   "date_iso": "1859-08-28",
+   "date_display": "Sunday 28 August 1859, evening (reported 30 August)",
+   "precision": "day",
+   "eye": "nyt",
+   "place": "New York City",
+   "headline": "Crowds gather at street corners under the first display",
+   "digest": "The paper described people gathering in the streets to watch the northern sky turn red and white on Sunday night. Other New York papers called the glow almost blood red. No one yet knew that a second, larger storm was four days away.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "New York Times, 30 August 1859, as cited in Green et al. 2006."
+  },
+  {
+   "date_iso": "1859-08-28",
+   "date_display": "28 August 1859 onward",
+   "precision": "range",
+   "eye": "stewart",
+   "place": "Kew Observatory",
+   "headline": "The magnetographs begin a week of disturbed traces",
+   "digest": "From 28 August the Kew self-recording instruments, writing on photographic paper, showed the field in turmoil. Stewart later treated the whole span from 28 August to 7 September as one great disturbance in two main episodes, and the title of his paper fixed those dates.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Title and scope of Stewart's 1861 Philosophical Transactions paper (Royal Society records)."
+  },
+  {
+   "date_iso": "1859-08-29",
+   "date_display": "Monday 29 August 1859, about 4 a.m. local (about 09:20 GMT)",
+   "precision": "day",
+   "eye": "navy-logs",
+   "place": "USS Saranac at Panama",
+   "headline": "At the morning watch, an aurora logged 'brilliantly red'",
+   "digest": "The officer of the deck at Panama entered an aurora borealis in the log at about four in the morning. It was the lowest-latitude sighting of the first storm, about 20 degrees magnetic latitude, a place where the aurora was almost unknown.",
+   "quote": "an aurora borealis, brilliantly red",
+   "confidence": "verified",
+   "source_note": "USS Saranac deck log (NARA RG 24), cited in Hayakawa et al. 2018 and Green et al. 2006; Loomis also printed the report."
+  },
+  {
+   "date_iso": "1859-08-29",
+   "date_display": "Monday 29 August 1859, about 4:00–4:10 a.m. local",
+   "precision": "day",
+   "eye": "loomis",
+   "place": "Havana, Cuba (correspondent's report)",
+   "headline": "Havana sees the aurora rise to the zenith before dawn",
+   "digest": "Among the first reports Loomis printed was one from Havana: before dawn on 29 August the aurora climbed to the zenith, with whitish rays among the red. Hayakawa and colleagues use this sighting to place the equatorward edge of the first storm's auroral region at about 36.5 degrees invariant latitude.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Loomis, AJS 2nd ser. 28 (1859), pp. 403–404, as cited in Hayakawa et al. 2018."
+  },
+  {
+   "date_iso": "1859-08-29",
+   "date_display": "Monday 29 August 1859, peak about 7:20 p.m. local (about 09:15 GMT)",
+   "precision": "day",
+   "eye": "colonial-press",
+   "place": "Sydney",
+   "headline": "Sydney's evening sky turns blood-red",
+   "digest": "The Sydney Morning Herald described the southern sky at its height in the early evening, deep red over a wide arc. By clock time this was almost exactly the moment the Saranac's watch officer was logging red light before dawn at Panama, half a world away.",
+   "quote": "the sky being of a deep blood-red colour",
+   "confidence": "verified",
+   "source_note": "Sydney Morning Herald, 1 September 1859, as cited in Green et al. 2006; GMT conversion approximate."
+  },
+  {
+   "date_iso": "1859-08-29",
+   "date_display": "29 August 1859 (reported 30 August)",
+   "precision": "day",
+   "eye": "colonial-press",
+   "place": "Sydney",
+   "headline": "The telegraph wires seized by 'restiveness'",
+   "digest": "The Herald reported that the telegraph instruments had behaved strangely during the display, needles jerking with no message on the line. The paper treated it as a curiosity worth a paragraph, not yet as a measurement.",
+   "quote": "an unaccountable fit of restiveness",
+   "confidence": "verified",
+   "source_note": "Sydney Morning Herald, 30 August 1859, as cited in Green et al. 2006."
+  },
+  {
+   "date_iso": "1859-08-29",
+   "date_display": "29 August 1859",
+   "precision": "day",
+   "eye": "mcgowan",
+   "place": "Victorian telegraph lines",
+   "headline": "First southern interruption logged on the Victorian lines",
+   "digest": "McGowan's department noted the aurora australis as the cause of interruptions on 29 August: atmospheric currents overpowered the batteries' current and the instruments reversed without warning. He later listed this date alongside 2 September in his report.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "McGowan's December 1859 report to Parliament, as described by Museums Victoria."
+  },
+  {
+   "date_iso": "1859-08-26",
+   "date_display": "late August 1859",
+   "precision": "range",
+   "eye": "carrington",
+   "place": "Redhill, Surrey",
+   "headline": "Drawing a great spot group day by day",
+   "digest": "Carrington was in the middle of a systematic programme of drawing every sunspot on the projected solar disc. In the last days of August a large, complex group had crossed onto the disc, and it was this group he was sketching on the morning of 1 September.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Carrington's 1859 note describes the group as already under observation; exact day of first drawing not checked."
+  },
+  {
+   "date_iso": "1859-09-01",
+   "date_display": "Thursday 1 September 1859, 11:18 a.m. GMT",
+   "precision": "day",
+   "eye": "carrington",
+   "place": "Redhill, Surrey",
+   "headline": "White light bursts out inside the sunspot group",
+   "digest": "While copying the spots from the projected image, Carrington saw two brilliant white beads appear within the group, far brighter than the surrounding surface. He noted the time from his chronometer, then ran to find someone to witness it with him. When he came back about a minute later the light was already fading.",
+   "quote": "two patches of intensely bright and white light broke out",
+   "confidence": "verified",
+   "source_note": "Carrington, MNRAS 20 (1859) 13–15, as quoted in National Academies, Storms from the Sun (2002), ch. 5."
+  },
+  {
+   "date_iso": "1859-09-01",
+   "date_display": "Thursday 1 September 1859, 11:18–11:23 a.m. GMT",
+   "precision": "day",
+   "eye": "carrington",
+   "place": "Redhill, Surrey",
+   "headline": "Five minutes, and the patches are gone",
+   "digest": "Carrington measured the positions of the two patches against his drawing as they moved and dimmed, and they vanished by about 11:23. He estimated that in those five minutes they had crossed some 35,000 miles of the solar surface, and he noted that the spots themselves looked unchanged afterwards.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Carrington, MNRAS 20 (1859) 13–15; the 35,000-mile figure and 11:23 end time are as usually cited from the paper."
+  },
+  {
+   "date_iso": "1859-09-01",
+   "date_display": "Thursday 1 September 1859, about 11:18–11:25 a.m.",
+   "precision": "day",
+   "eye": "hodgson",
+   "place": "Highgate, London",
+   "headline": "A second observer sees the same star of light",
+   "digest": "Hodgson, examining the same group through a telescope with a dark glass, saw a point of light so intense it hurt the protected eye. He timed it at about five minutes, ending suddenly at about 11:25, a few minutes later than Carrington's figure. Neither man knew the other was watching.",
+   "quote": "a very brilliant star of light, much brighter than the sun's surface",
+   "confidence": "verified",
+   "source_note": "Hodgson, MNRAS 20 (1859) 15–16, as quoted in National Academies, Storms from the Sun (2002), ch. 5. Quote is 12 words."
+  },
+  {
+   "date_iso": "1859-09-01",
+   "date_display": "Thursday 1 September 1859, about 11:15 a.m. GMT",
+   "precision": "day",
+   "eye": "stewart",
+   "place": "Kew Observatory",
+   "headline": "A small sharp jog on the photographic trace",
+   "digest": "At about the time of the flare the Kew magnetographs drew a brief, distinct disturbance, small compared with what was to come. It was this coincidence that Carrington mentioned cautiously and that Stewart later examined in detail. Modern work interprets it as the flare's effect on the sunlit upper atmosphere, a 'magnetic crochet'.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Stewart, Phil. Trans. 1861; the time is as usually cited (about 11:15); exact minute not checked against the digitised trace."
+  },
+  {
+   "date_iso": "1859-09-01",
+   "date_display": "Thursday 1 September 1859, about 10 p.m. EST",
+   "precision": "day",
+   "eye": "prescott",
+   "place": "Washington, D.C. (operator Frederick W. Royce)",
+   "headline": "A spark leaps from an operator's forehead",
+   "digest": "Royce, calling Richmond with one hand on the iron plate, leaned toward the sounder and grazed a ground wire with his forehead. He was stunned for a moment by a severe shock, and a bystander said a spark had jumped from his head to the instrument. He had not even known the aurora was out.",
+   "quote": "I received a very severe electric shock",
+   "confidence": "approx",
+   "source_note": "Prescott 1860 places this during the 28 August display; Green et al. 2006 cite Royce's letter in the New York Times of 5 September as describing the night of 1 September. Date uncertain between the two storms."
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "Night of 1–2 September 1859, about 1 a.m. EST",
+   "precision": "day",
+   "eye": "nyt",
+   "place": "New York City",
+   "headline": "Bright enough to read print at one in the morning",
+   "digest": "New York and Washington papers reported that around one in the morning ordinary print could be read by the aurora's light, and that the time could be read on a watch face. The Times judged Thursday's display even more brilliant than Sunday's.",
+   "quote": "exceeded in brilliancy that of last Sunday evening",
+   "confidence": "verified",
+   "source_note": "New York Times, 3 September 1859, with Herald and National Intelligencer, as cited in Green et al. 2006."
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "Friday 2 September 1859, from about 05:00 GMT",
+   "precision": "day",
+   "eye": "stewart",
+   "place": "Kew Observatory",
+   "headline": "The great storm strikes and the traces run wild",
+   "digest": "Some seventeen to eighteen hours after the flare, the Kew instruments recorded the sudden onset of the second and greater storm. The light spots swung so far and so fast that parts of the traces ran off the photographic sheets. Greenwich, Rome and Bombay recorded the same convulsion.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Stewart 1861; the 17.6-hour transit and onset near 05:00 GMT are modern estimates (Tsurutani et al. 2003) not checked here against the trace."
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "Friday 2 September 1859, about 12:30–1:30 a.m. local",
+   "precision": "day",
+   "eye": "navy-logs",
+   "place": "USS Sabine, off Greytown, Nicaragua (about 11°32′ N)",
+   "headline": "A rosy arc low in the north, at eleven degrees north",
+   "digest": "The Sabine's log recorded a red glow in the northern sky rising to about 35 degrees above the horizon in the small hours. The light did not flicker like the aurorae of higher latitudes; modern researchers suggest it may have been a stable red arc.",
+   "quote": "deep rosy red",
+   "confidence": "approx",
+   "source_note": "USS Sabine deck log (NARA RG 24), cited in Hayakawa et al. 2018 (who note a discrepancy between log time and text time) and Green et al. 2006 (who list it with the first storm)."
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "Friday 2 September 1859, about 1 a.m. local",
+   "precision": "day",
+   "eye": "la-sociedad",
+   "place": "Querétaro, Mexico",
+   "headline": "Reddish light floods the streets of Querétaro",
+   "digest": "The Querétaro correspondent described a reddish light that spread from the north toward the Pleiades, reflecting off walls and church towers and lighting the streets. White streamers fanned out from the point where it first appeared, like the rays of a setting sun.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "La Sociedad, 12 September 1859, in González-Esparza & Cuevas-Cardona 2018 (AGU blog summary)."
+  },
+  {
+   "date_iso": "1859-09-03",
+   "date_display": "Saturday 3 September 1859 (report of the night of 1–2 September)",
+   "precision": "day",
+   "eye": "la-sociedad",
+   "place": "Mexico City",
+   "headline": "The aurora reported at the zenith over the capital",
+   "digest": "La Sociedad's report from the capital and from Zimapán in Hidalgo described the aurora reaching overhead, at a magnetic latitude near 29 degrees. The country was in the middle of the War of Reform, and the reports never reached the foreign journals.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "La Sociedad, 3 September 1859, as cited in Hayakawa et al. 2018 (MX1, MX4)."
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "Friday 2 September 1859, about 2 a.m. local",
+   "precision": "day",
+   "eye": "loomis",
+   "place": "Santiago, Chile (correspondent's report)",
+   "headline": "Blue, red and yellow over Santiago for three hours",
+   "digest": "A report from Santiago described the southern aurora in blue, red and yellow, visible for about three hours from around two in the morning. Valparaíso and Concepción also reported it; at Concepción the light was compared to moonlight.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Loomis, AJS (L4), pp. 398–399, as cited in Hayakawa et al. 2018."
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "Night of 1–2 September 1859 (date inferred)",
+   "precision": "day",
+   "eye": "ruiz",
+   "place": "Montería, Colombia",
+   "headline": "Fire-like lights send Montería's people to church",
+   "digest": "In the account preserved by Exbrayat, a fiery display began around three in the morning: flame-like streaks, flashing clouds, glowing globes that vanished and returned, and a great S-shaped form that hung throughout. Light came into the houses and frightened townspeople went to the church to pray. The local history dates it to March 1859; the September date is a modern reconstruction.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Exbrayat 1971, pp. 150–151, via Moreno Cárdenas et al. (arXiv 1508.06365); date disputed (Hayakawa et al. 2018)."
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "Night of 1–2 September 1859, about 10 p.m. local (date uncertain)",
+   "precision": "range",
+   "eye": "bishop",
+   "place": "Lahaina, Maui",
+   "headline": "A crimson glow taken at first for a distant fire",
+   "digest": "Bishop saw an unsteady crimson glow from the northeast to the north, about 35 degrees high, around ten at night. He supposed it was a fire somewhere far off, but the clouds on the mountain showed no reflection of it, which puzzled him.",
+   "quote": "bright, unsteady crimson glow",
+   "confidence": "approx",
+   "source_note": "Bishop's letter of 9 September 1859 (Advertiser, 17 September), via Images of Old Hawaii; the night is not stated exactly."
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "Friday 2 September 1859, forenoon (about 8:30–11 a.m. EST)",
+   "precision": "day",
+   "eye": "prescott",
+   "place": "Boston and Portland, Maine (American Telegraph Co.)",
+   "headline": "Batteries unplugged: the line runs on the aurora",
+   "digest": "With business stopped by the storm, the Boston operator, Milliken, asked Portland to cut off its battery so they could try the auroral current alone. Both disconnected, and Portland reported the signals came through better than with batteries on. They agreed to keep working that way until the aurora subsided, and did so for about two hours.",
+   "quote": "We are working with the aid of the aurora alone.",
+   "confidence": "verified",
+   "source_note": "Prescott 1860, pp. 318–326; the Boston Traveller version (via Augusta Chronicle, 8 Sept) words the request differently and Green et al. date it to 1 Sept; Prescott's internal times also differ slightly."
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "Friday 2 September 1859, morning",
+   "precision": "day",
+   "eye": "prescott",
+   "place": "Philadelphia–Pittsburgh and South Braintree–Fall River lines",
+   "headline": "Messages carried wholly on the sky's current",
+   "digest": "At Philadelphia the New York wires gave operators a severe shock and neutralised the batteries, while the Pittsburgh line carried a business message on auroral current alone, cutting out every five to ten minutes. On the Old Colony railroad line from South Braintree to Fall River, about 40 miles, operators worked for over an hour with both ends simply grounded. By 9 a.m. the Philadelphia wires were normal.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Prescott 1860, pp. 318–326."
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "Ansei 6, 8th month, 6th day, from about 8 p.m. (2 September 1859)",
+   "precision": "day",
+   "eye": "chikusai",
+   "place": "Ise province, Japan",
+   "headline": "Fiery light in the north from nightfall to dawn",
+   "digest": "The diarist recorded that from about eight in the evening a fiery light shone in the sky a little east of north, and that it lasted the whole night until daybreak. It was the evening after the Carrington storm's main phase, which had passed in Japanese daylight.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Chikusai Nikki vol. 51 f. 26a, translation in Hayakawa et al. 2018, Appendix 3.1."
+  },
+  {
+   "date_iso": "1859-09-03",
+   "date_display": "Ansei 6, 8th month, 7th–8th days (3–4 September 1859)",
+   "precision": "range",
+   "eye": "chikusai",
+   "place": "Ise province, Japan",
+   "headline": "A rumour from Yamada: Osaka must be burning",
+   "digest": "In the following entries the diarist noted word from Yamada that a great fire had broken out in Osaka, the obvious explanation for a red northern sky. The diary also recorded that the fiery light had been seen to the north from everywhere, which a single fire could not explain.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Hayakawa et al. 2018, Appendix 3.1 (translation covers 2–4 September); exact day of the rumour entry not separated."
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "Friday 2 September 1859, 10:26 p.m. local",
+   "precision": "day",
+   "eye": "neumayer",
+   "place": "Flagstaff Observatory, Melbourne",
+   "headline": "A stationary red arc, and stars dimmed behind it",
+   "digest": "Neumayer recorded that stars of the third and fourth magnitude were much enfeebled, and that for the last ten or fifteen minutes a red arc had stretched from east to west, rising to about 70 degrees. The arc did not move. The Argus reported that the observatory's declination instrument had been disturbed.",
+   "quote": "a beautiful red arc of light, extending from E. to W.",
+   "confidence": "verified",
+   "source_note": "Neumayer 1864, p. 242, quoted in Hayakawa et al. 2018 (Fig. 1); Argus, 3 September 1859, via Green et al. 2006."
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "2 September 1859",
+   "precision": "day",
+   "eye": "mcgowan",
+   "place": "Victorian telegraph lines",
+   "headline": "Working a line 32 miles long without a battery",
+   "digest": "During the second storm atmospheric currents again overpowered the Victorian lines. McGowan reported that his operators had communicated with a station 32 miles away using the atmospheric current alone, with no battery on the line, the same trick the Boston and Portland operators had found a few hours earlier on the other side of the world.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "McGowan's report as described by Museums Victoria; the report names 2 September for interruptions, but whether the battery-free working was on that day is not stated in the summary."
+  },
+  {
+   "date_iso": "1859-09-05",
+   "date_display": "Monday 5 September 1859",
+   "precision": "day",
+   "eye": "nyt",
+   "place": "New York City",
+   "headline": "The city lit so brightly it drew crowds",
+   "digest": "The Times returned to the storm with accounts of the city illuminated at night and letters from telegraph men on what the wires had done. The paper's coverage blended spectacle with a new kind of news: an electrical event that had touched the business of the whole continent.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "New York Times, 5 September 1859, as cited in Green et al. 2006."
+  },
+  {
+   "date_iso": "1859-09-07",
+   "date_display": "Wednesday 7 September 1859",
+   "precision": "day",
+   "eye": "colonial-press",
+   "place": "Brisbane (Moreton Bay)",
+   "headline": "Three nights of red in the far northern district",
+   "digest": "The Moreton Bay Courier reported the southern aurora seen over several nights, a red glow low in the south, unusual so far north in the colonies. It is the northernmost Australian report in the modern compilations, at about 27.5 degrees south.",
+   "quote": "a gorgeous hue of red, the Southern Aurora",
+   "confidence": "approx",
+   "source_note": "Moreton Bay Courier, 7 September 1859, as cited in Green et al. 2006; which nights are meant is not stated exactly."
+  },
+  {
+   "date_iso": "1859-09-08",
+   "date_display": "Thursday 8 September 1859",
+   "precision": "day",
+   "eye": "bishop",
+   "place": "Lahaina, Maui (reading the Honolulu paper)",
+   "headline": "A Honolulu notice turns a fire into an aurora",
+   "digest": "The Honolulu Advertiser of 8 September noted a display of the aurora borealis a few nights before, with broad fiery streaks. On reading it Bishop concluded that what he had seen from Lahaina was the same thing.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Advertiser, 8 September 1859, and Bishop's letter, via Images of Old Hawaii."
+  },
+  {
+   "date_iso": "1859-09-09",
+   "date_display": "Friday 9 September 1859",
+   "precision": "day",
+   "eye": "bishop",
+   "place": "Lahaina, Maui",
+   "headline": "Writing it down for the paper, with bearings",
+   "digest": "Bishop wrote to the Advertiser giving the time, direction and height of what he had seen, and how he had ruled out fire. It was printed on 17 September, the slow mid-Pacific echo of a storm that had been telegraphed across North America within hours.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Letter dated 9 September 1859, printed 17 September, via Images of Old Hawaii."
+  },
+  {
+   "date_iso": "1859-09",
+   "date_display": "September 1859",
+   "precision": "month",
+   "eye": "ruiz",
+   "place": "Montería, Colombia",
+   "headline": "Spirals in the margins of the baptism register",
+   "digest": "In the Montería baptism register for September 1859, kept in the vicar's hand, there are spiral and S-shaped drawings in the margins that do not appear in earlier months. The researchers who redated the aurora read them as Ruiz's sketches of what he had seen; the reading is an interpretation, not a caption.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Moreno Cárdenas et al. (arXiv 1508.06365)."
+  },
+  {
+   "date_iso": "1859-09",
+   "date_display": "September 1859",
+   "precision": "month",
+   "eye": "loomis",
+   "place": "New York",
+   "headline": "An appeal for every observer's report",
+   "digest": "Loomis asked readers of the American Journal of Science to send him their observations of the two displays, with times and places. Letters came from across the United States, the Caribbean, ships at sea and South America.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Hayakawa et al. 2018, section 2, on Loomis's call for reports; month inferred."
+  },
+  {
+   "date_iso": "1859-11",
+   "date_display": "November 1859",
+   "precision": "month",
+   "eye": "carrington",
+   "place": "Royal Astronomical Society, London",
+   "headline": "A careful note, and a refusal to leap",
+   "digest": "Carrington's account appeared in the Monthly Notices with his drawing. He mentioned that a magnetic disturbance had been recorded at Kew at about the same moment and that a great storm had followed, but he would not claim a connection on one instance.",
+   "quote": "one swallow does not make a summer",
+   "confidence": "verified",
+   "source_note": "MNRAS 20 (November 1859) 13–15; quote via National Academies, Storms from the Sun (2002)."
+  },
+  {
+   "date_iso": "1859-11",
+   "date_display": "November 1859",
+   "precision": "month",
+   "eye": "hodgson",
+   "place": "Royal Astronomical Society, London",
+   "headline": "Corroboration printed alongside Carrington",
+   "digest": "Hodgson's short note followed Carrington's in the same number of the Monthly Notices. Printed together, the two independent timings made the observation hard to dismiss.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "MNRAS 20 (1859) 15–16 (ADS record)."
+  },
+  {
+   "date_iso": "1859-11",
+   "date_display": "November 1859",
+   "precision": "month",
+   "eye": "loomis",
+   "place": "American Journal of Science",
+   "headline": "The first article maps the storm's reach",
+   "digest": "Loomis's first article on the great auroral exhibition set out the reports received, including Havana, and began to trace how far south the aurora had been seen. Eight more articles followed over two years.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "AJS 2nd ser. vol. 28 (1859), pp. 385–408 (L1 in Hayakawa et al.); month of issue approximate."
+  },
+  {
+   "date_iso": "1859-12",
+   "date_display": "December 1859",
+   "precision": "month",
+   "eye": "mcgowan",
+   "place": "Melbourne",
+   "headline": "Reporting the aurora to Parliament as a line fault",
+   "digest": "In his report on interruptions to the telegraph, McGowan listed the aurora australis among the causes, naming 29 August and 2 September. He recalled seeing the same effects about twelve years earlier on a line in Upper Canada during an aurora borealis.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Museums Victoria article 2880."
+  },
+  {
+   "date_iso": "1860-11",
+   "date_display": "November 1860",
+   "precision": "month",
+   "eye": "loomis",
+   "place": "American Journal of Science",
+   "headline": "Still printing letters a year later",
+   "digest": "A year after the storms Loomis was still publishing new reports and analysis of the 28 August to 4 September displays, a 23-page instalment in the November 1860 issue.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "AJS s2-30, no. 90 (1 November 1860), pp. 339–361 (ajsonline.org article 64597)."
+  },
+  {
+   "date_iso": "1861",
+   "date_display": "1861",
+   "precision": "year",
+   "eye": "stewart",
+   "place": "Royal Society, London",
+   "headline": "The Sun 'taken in the act'",
+   "digest": "In his paper on the Kew records Stewart set the flare beside the magnetic traces and went further than Carrington, suggesting that on this occasion the Sun had been caught causing a disturbance on Earth. Edward Sabine refereed the paper for the Royal Society.",
+   "quote": "our luminary was taken in the act",
+   "confidence": "verified",
+   "source_note": "Stewart, Phil. Trans. 151 (1861); quote via National Academies, Storms from the Sun (2002); referee report RR/4/259."
+  },
+  {
+   "date_iso": "1861-07",
+   "date_display": "July 1861",
+   "precision": "month",
+   "eye": "loomis",
+   "place": "American Journal of Science",
+   "headline": "From one storm to a geography of aurorae",
+   "digest": "By the seventh article Loomis had moved from cataloguing the 1859 reports to the general geography of auroras, work that led him to draw zones of equal auroral frequency around the magnetic pole.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "AJS s2-32, no. 94 (1 July 1861) (ajsonline.org article 64640); content summary approximate."
+  },
+  {
+   "date_iso": "1864",
+   "date_display": "1864",
+   "precision": "year",
+   "eye": "neumayer",
+   "place": "Melbourne",
+   "headline": "The Melbourne record published",
+   "digest": "Neumayer's published results from the Flagstaff Observatory included his notes on the September aurora, with times, colours and the dimming of stars. They are among very few southern-hemisphere scientific records of the storm.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Neumayer 1864, p. 242, as cited in Hayakawa et al. 2018; full title not checked."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1859-08-28",
+   "date_display": "28 August 1859, evening",
+   "eye": "prescott",
+   "claim": "Boston–Fall River line with no battery carries a current pulsing about every half minute; spark and scorching at Springfield",
+   "form": "reported",
+   "evidence": "Prescott 1860, pp. 318–326",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1859-08-29",
+   "date_display": "29 August 1859, about 04:00 local",
+   "eye": "navy-logs",
+   "claim": "USS Saranac at Panama logs a 'brilliantly red' aurora, about 20° magnetic latitude, lowest sighting of the first storm",
+   "form": "seen",
+   "evidence": "Deck log, NARA RG 24; Hayakawa et al. 2018",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1859-08-29",
+   "date_display": "29 August 1859, 04:00–04:10 local",
+   "eye": "loomis",
+   "claim": "Havana: aurora rises to the zenith; equatorward edge of the auroral region put at about 36.5° invariant latitude",
+   "form": "reported",
+   "evidence": "Loomis, AJS 28 (1859) 403–404; Hayakawa et al. 2018",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1859-08-29",
+   "date_display": "29 August 1859, about 19:20 local",
+   "eye": "colonial-press",
+   "claim": "Sydney: aurora australis at peak, deep blood-red; telegraph instruments disturbed",
+   "form": "seen",
+   "evidence": "Sydney Morning Herald, 30 Aug and 1 Sept 1859",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1859-09-01",
+   "date_display": "1 September 1859, 11:18–11:23 GMT",
+   "eye": "carrington",
+   "claim": "Two patches of intense white light in the sunspot group; about five minutes; moved about 35,000 miles",
+   "form": "measured",
+   "evidence": "MNRAS 20 (1859) 13–15",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1859-09-01",
+   "date_display": "1 September 1859, about 11:18–11:25",
+   "eye": "hodgson",
+   "claim": "Independent sighting from Highgate of a brilliant star of light, lasting about five minutes, vanishing suddenly",
+   "form": "seen",
+   "evidence": "MNRAS 20 (1859) 15–16",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1859-09-01",
+   "date_display": "1 September 1859, about 11:15 GMT",
+   "eye": "stewart",
+   "claim": "Kew magnetographs record a small sharp disturbance at the time of the flare",
+   "form": "measured",
+   "evidence": "Stewart, Phil. Trans. 1861; Kew magnetograms (BGS)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "2 September 1859, about 05:00 GMT",
+   "eye": "stewart",
+   "claim": "Onset of the great storm about 17.6 hours after the flare; Kew traces partly off-scale; Colaba (Bombay) horizontal field later estimated to fall about 1,600 nT",
+   "form": "measured",
+   "evidence": "Kew magnetograms; Tsurutani et al. 2003 for Colaba and transit time",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "2 September 1859, small hours",
+   "eye": "navy-logs",
+   "claim": "USS Sabine at about 11°32′ N off Nicaragua: red glow to about 35° elevation; boundary of purely red emission about 30.8° invariant latitude",
+   "form": "seen",
+   "evidence": "Deck log, NARA RG 24; Hayakawa et al. 2018",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "2 September 1859, about 01:00 local",
+   "eye": "la-sociedad",
+   "claim": "Querétaro and Mexico City: red aurora reaching the zenith, about 29–30° magnetic latitude",
+   "form": "reported",
+   "evidence": "La Sociedad, 3 and 12 Sept 1859",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "2 September 1859, about 02:00 local",
+   "eye": "loomis",
+   "claim": "Santiago de Chile: blue, red and yellow aurora for about three hours, about 22° south magnetic latitude",
+   "form": "reported",
+   "evidence": "Loomis, AJS (L4) 398–399",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "2 September 1859 (dated by modern researchers)",
+   "eye": "ruiz",
+   "claim": "Montería at about 8°45′ N: fire-like display from about 3 a.m.; local history dates it March 1859, redated to September; rejected as doubtful by Hayakawa et al.",
+   "form": "disputed",
+   "evidence": "Exbrayat 1971; Moreno Cárdenas et al. 2016; Hayakawa et al. 2018",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "2 September 1859, forenoon",
+   "eye": "prescott",
+   "claim": "Boston–Portland line worked about two hours with batteries disconnected, on auroral current alone",
+   "form": "recorded",
+   "evidence": "Prescott 1860; Boston Traveller via other papers",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "Ansei 6.8.6, from about 20:00",
+   "eye": "chikusai",
+   "claim": "Ise: fiery light a little east of north from about 8 p.m. until dawn; rumoured to be a fire in Osaka",
+   "form": "seen",
+   "evidence": "Chikusai Nikki vol. 51 f. 26a",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1859-09-02",
+   "date_display": "2 September 1859, 22:26 local",
+   "eye": "neumayer",
+   "claim": "Melbourne: stationary red arc E–W to about 70° elevation; 3rd–4th magnitude stars much enfeebled",
+   "form": "measured",
+   "evidence": "Neumayer 1864, p. 242",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1859-11",
+   "date_display": "November 1859 and 1861",
+   "eye": "stewart",
+   "claim": "Flare caused the storm? Carrington declines to connect them on one case ('one swallow…'); Stewart in 1861 suggests the Sun was 'taken in the act'",
+   "form": "explained",
+   "evidence": "MNRAS 20 (1859); Phil. Trans. 1861",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1859-08-28",
+   "label": "The first storm: Sunday evening in North America",
+   "eyes": [
+    "prescott",
+    "nyt",
+    "stewart"
+   ],
+   "note": "New York crowds watched a red sky while operators from Quebec to Pittsburgh fought currents they had not sent, and at Kew, where it was already past midnight, the photographic traces began to swing. The same disturbance appears as spectacle, as line fault and as measurement."
+  },
+  {
+   "date": "1859-08-29",
+   "label": "About 09:15–09:30 GMT on 29 August: dawn in the Caribbean, dusk in Sydney",
+   "eyes": [
+    "navy-logs",
+    "loomis",
+    "colonial-press",
+    "mcgowan"
+   ],
+   "note": "At Panama and Havana it was four in the morning; in Sydney and Victoria, early evening. Within a quarter of an hour of the same instant, observers in both hemispheres wrote of a red sky, one to the north and one to the south."
+  },
+  {
+   "date": "1859-09-01",
+   "label": "11:15–11:25 GMT: the flare and the jog",
+   "eyes": [
+    "carrington",
+    "hodgson",
+    "stewart"
+   ],
+   "note": "Two men at telescopes twenty miles apart watched the same white light for five minutes; a few miles west, an instrument that could not see the Sun drew a small mark at the same moment. Their times differ by a few minutes at the end; their accounts agree on everything else."
+  },
+  {
+   "date": "1859-09-02",
+   "label": "Night of 1–2 September over the Americas (about 05:00–08:30 GMT)",
+   "eyes": [
+    "nyt",
+    "navy-logs",
+    "la-sociedad",
+    "loomis",
+    "ruiz",
+    "bishop"
+   ],
+   "note": "Laid out east to west: newsprint readable in New York, a rosy arc off Nicaragua, streets lit in Querétaro, three colours over Santiago, a disputed fire-sky in Montería, and a crimson glow from Lahaina. Mexicans, a Colombian priest and a Hawaiian missionary all reached first for fire as the explanation."
+  },
+  {
+   "date": "1859-09-02",
+   "label": "Forenoon in New England: the wires run on the sky",
+   "eyes": [
+    "prescott",
+    "stewart"
+   ],
+   "note": "While Kew was still recording the disturbed field, operators in Boston and Portland disconnected their batteries and worked for two hours on the current the storm induced in the line."
+  },
+  {
+   "date": "1859-09-02",
+   "label": "Evening of 2 September in Japan and Australia (about 11:00–13:00 GMT)",
+   "eyes": [
+    "chikusai",
+    "neumayer",
+    "mcgowan"
+   ],
+   "note": "The diarist in Ise saw fiery light in the north from nightfall; a couple of hours later by Greenwich time, Neumayer in Melbourne timed a red arc in the south and the Victorian telegraph was again overpowered. A merchant's diary and an observatory book record the same night from opposite hemispheres."
+  },
+  {
+   "date": "1859-11",
+   "label": "London, November 1859: two notes, one caution",
+   "eyes": [
+    "carrington",
+    "hodgson"
+   ],
+   "note": "Printed one after the other, the two flare reports gave the observation its weight; Carrington's caution about coincidence set the terms of the argument Stewart would take up in 1861."
+  }
+ ],
+ "ties": [
+  {
+   "a": "carrington",
+   "b": "hodgson",
+   "kind": "read each other",
+   "note": "Their independent accounts of the same flare were printed consecutively in the Monthly Notices for November 1859, each corroborating the other's timing."
+  },
+  {
+   "a": "carrington",
+   "b": "stewart",
+   "kind": "mentioned",
+   "note": "Carrington noted the Kew record of a magnetic disturbance at the time of the flare; Stewart's 1861 paper built its case on Carrington's observation."
+  },
+  {
+   "a": "hodgson",
+   "b": "stewart",
+   "kind": "mentioned",
+   "note": "Stewart's argument depended on the flare having two independent witnesses, Hodgson as well as Carrington."
+  },
+  {
+   "a": "loomis",
+   "b": "navy-logs",
+   "kind": "mentioned",
+   "note": "Loomis printed the Saranac's report of a red aurora at Panama, the same sighting found in the ship's deck log in the National Archives."
+  },
+  {
+   "a": "prescott",
+   "b": "nyt",
+   "kind": "mentioned",
+   "note": "Royce's account of his shock at Washington appears both in Prescott's compilation and in a letter printed by the New York Times, with different dates."
+  },
+  {
+   "a": "neumayer",
+   "b": "mcgowan",
+   "kind": "same street",
+   "note": "Both worked in Melbourne for the colonial government, one measuring the magnetic field, the other running the telegraph that the same field disrupted."
+  },
+  {
+   "a": "prescott",
+   "b": "mcgowan",
+   "kind": "opposite sides",
+   "note": "On opposite sides of the world, both recorded telegraph lines worked with no battery on the storm's current alone; McGowan had learned telegraphy in North America."
+  },
+  {
+   "a": "stewart",
+   "b": "neumayer",
+   "kind": "influenced",
+   "note": "Kew and Flagstaff belonged to the same British-led network of magnetic observatories using comparable instruments, which is why their 1859 records can be set side by side."
+  },
+  {
+   "a": "chikusai",
+   "b": "bishop",
+   "kind": "opposite sides",
+   "note": "On opposite sides of the Pacific, both first explained the red northern light as a distant fire, the diarist by rumour of Osaka burning, the missionary until he noticed the clouds showed no reflection."
+  },
+  {
+   "a": "loomis",
+   "b": "la-sociedad",
+   "kind": "opposite sides",
+   "note": "Loomis's compilation shaped the scientific map of the storm for 150 years; La Sociedad's reports from Mexico, printed during the War of Reform, never reached him and entered the literature only in 2018."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "leonids-1833",
+   "note": "Elias Loomis had been a Yale tutor alongside Denison Olmsted, who gathered newspaper reports of the 1833 meteor storm; Loomis's appeal for aurora reports in 1859 used the same method of collecting observations from the public."
+  },
+  {
+   "to": "v2:krakatoa-1883",
+   "note": "The S. E. Bishop who wrote from Lahaina in 1859 is identified as Sereno E. Bishop, who in Honolulu in 1883 described the ring round the Sun after the Krakatoa eruption, still called Bishop's Ring. By 1883 the telegraph network shaken in 1859 carried news of the eruption round the world within hours."
+  },
+  {
+   "to": "v7:channel-atlantic",
+   "note": "The first transatlantic cable had failed in 1858, a year before the storm; the 1859 reports of induced currents on land lines were among the earliest evidence of how the Earth's field could act on long conductors."
+  },
+  {
+   "to": "v4:transits-of-venus",
+   "note": "Georg von Neumayer, who timed the red arc over Melbourne in 1859, returned to Germany and became a leading organiser of German geophysical science, involved in the expeditions for the 1874 and 1882 transits of Venus and in the International Polar Year of 1882–83."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.lindahall.org/about/news/scientist-of-the-day/richard-carrington",
+   "title": "Carrington's sunspot diagram of 1 September 1859",
+   "caption": "Carrington's drawing of the spot group, with the flare positions marked A and B, as published in the Monthly Notices; the page also shows the vignette of his Redhill observatory.",
+   "date": "1859",
+   "credit": "R. C. Carrington; Linda Hall Library"
+  },
+  {
+   "url": "https://www2.bgs.ac.uk/nationalgeosciencedatacentre/citedData/catalogue/c03ec758-d74d-4267-97fe-1be409f4c366.html",
+   "title": "Kew and Greenwich magnetograms of the Carrington storm, digitised",
+   "caption": "The British Geological Survey's digitised data from the photographic magnetograms of 25 August to 5 September 1859, the traces Stewart analysed.",
+   "date": "1859",
+   "credit": "Kew Observatory; British Geological Survey"
+  },
+  {
+   "url": "https://makingscience.royalsociety.org/items/rr_4_259/referees-report-by-edward-sabine-on-a-paper-on-the-great-magnetic-disturbance-which-extended-from-august-28-to-september-7-1859-as-recorded-by-photography-at-the-kew-observatory-by-balfour-stewart",
+   "title": "Sabine's referee report on Stewart's paper",
+   "caption": "The manuscript report by Edward Sabine on Balfour Stewart's paper on the Kew records, the step by which the flare–storm link entered the Philosophical Transactions.",
+   "date": "1861",
+   "credit": "Royal Society archive, RR/4/259"
+  },
+  {
+   "url": "https://makingscience.royalsociety.org/items/rr_4_257/letter-from-balfour-stewart-on-his-paper-on-the-great-magnetic-disturbance-which-extended-from-august-28-to-september-7-1859-as-recorded-by-photography-at-the-kew-observatory-to-the-secretary-of-the-royal-society",
+   "title": "Balfour Stewart's letter on his paper",
+   "caption": "Stewart's covering letter to the Secretary of the Royal Society about his paper on the great magnetic disturbance.",
+   "date": "1860–61",
+   "credit": "Royal Society archive, RR/4/257"
+  },
+  {
+   "url": "https://collections.museumsvictoria.com.au/articles/2880",
+   "title": "The 1859 storm in Victoria",
+   "caption": "Museums Victoria's account of the storm's effect on the colony's telegraph, drawing on Samuel McGowan's report to Parliament.",
+   "date": "1859",
+   "credit": "Museums Victoria"
+  }
+ ],
+ "further": [
+  {
+   "title": "Green et al., Eyewitness reports of the great auroral storm of 1859 (2006)",
+   "url": "https://ntrs.nasa.gov/citations/20050210157"
+  },
+  {
+   "title": "Green & Boardsen, Duration and extent of the great auroral storm of 1859 (2006)",
+   "url": "https://ntrs.nasa.gov/citations/20050212156"
+  },
+  {
+   "title": "Hayakawa et al., Low-latitude aurorae during the extreme space weather events in 1859 (2018)",
+   "url": "https://arxiv.org/pdf/1811.02786"
+  },
+  {
+   "title": "Prescott, History, Theory and Practice of the Electric Telegraph (1860), aurora section",
+   "url": "https://www.earlyradiohistory.us/1860auro.htm"
+  },
+  {
+   "title": "Loomis, The great auroral exhibition of Aug. 28th to Sept. 4th, 1859 (AJS, 1860)",
+   "url": "https://ajsonline.org/article/64597-the-great-auroral-exhibition-of-aug-28th-to-sept-4th-1859"
+  },
+  {
+   "title": "Moreno Cárdenas et al., The grand aurorae borealis seen in Colombia in 1859",
+   "url": "https://arxiv.org/pdf/1508.06365"
+  },
+  {
+   "title": "National Academies, Storms from the Sun (2002), chapter on 1859",
+   "url": "https://www.nationalacademies.org/read/10249/chapter/5"
+  },
+  {
+   "title": "Magnetic field measurements from Rome during the August–September 1859 storms",
+   "url": "https://repository.iigm.res.in/handle/123456789/1995"
+  }
+ ],
+ "vantage_key": "0 = watched the flare on the Sun itself; 1 = saw the aurora or wrote the measurement on the spot; 2 = ran or compiled the telegraph lines the storm struck; 3 = gathered other people's reports from a distance; 4 = news only."
+}

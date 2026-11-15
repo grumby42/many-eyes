@@ -1,0 +1,291 @@
+[
+ {
+  "chapter": "murals-1922",
+  "where": "eye:rivera",
+  "severity": "error",
+  "problem": "Rivera was born on 8 December 1886, so on his return to Mexico in July 1921 he was 34, not 35.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 35 on his return from Europe in 1921",
+    "new": "aged 34 on his return from Europe in 1921"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "murals-1922",
+  "where": "eye:orozco",
+  "severity": "error",
+  "problem": "Orozco was born on 23 November 1883, so when he began at the Preparatoria in July 1923 he was 39.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 40 in 1923",
+    "new": "aged 39 when he began at the Preparatoria in 1923"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "murals-1922",
+  "where": "eye:siqueiros",
+  "severity": "error",
+  "problem": "Siqueiros was born on 29 December 1896, so he was 26 for nearly all of 1923.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 27 in 1923",
+    "new": "aged 26 for most of 1923"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "murals-1922",
+  "where": "intro:1",
+  "severity": "doubt",
+  "problem": "The manifesto bears the date 9 December 1923; its best-documented printing is El Machete no. 7 (June 1924), as the chapter itself says elsewhere. 'Dated' is safer than 'issued on'.",
+  "fix": {
+   "text_replace": {
+    "old": "issued a manifesto on 9 December 1923",
+    "new": "issued a manifesto dated 9 December 1923"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "murals-1922",
+  "where": "entry:46",
+  "severity": "doubt",
+  "problem": "No source checked names John Sloan as calling for a boycott of the RCA Building; the sources consulted (EBSCO, PBS) mention protests and picketing but not Sloan.",
+  "fix": {
+   "text_replace": {
+    "old": "artists such as John Sloan called for a boycott of the building",
+    "new": "artists protested"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "murals-1922",
+  "where": "entry:25",
+  "severity": "style",
+  "problem": "The Ford Hunger March of 7 March 1932 left four dead on the day, and a fifth marcher died of his wounds later; 'killed four' is incomplete.",
+  "fix": {
+   "text_replace": {
+    "old": "had fired on a Hunger March at the River Rouge plant and killed four workers",
+    "new": "had fired on a Hunger March at the River Rouge plant, killing four marchers (a fifth died later)"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "murals-1922",
+  "where": "entry:28",
+  "severity": "style",
+  "problem": "The headline puts a private medical crisis in graphic terms. The digest is enough as it stands; a soberer headline fits the neutral-voice rule.",
+  "fix": {
+   "headline": "Bloch's diary: Kahlo's miscarriage"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "murals-1922",
+  "where": "convergence:2",
+  "severity": "style",
+  "problem": "Typo: the note has a double full stop.",
+  "fix": {
+   "text_replace": {
+    "old": "Charlot's panels did not..",
+    "new": "Charlot's panels did not."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "murals-1922",
+  "where": "eye:vasconcelos",
+  "severity": "style",
+  "problem": "The bio puts quote marks around a phrase from a 1945 Spanish text in modern translation. The digest-only rule for twentieth-century material means it should be paraphrased.",
+  "fix": {
+   "text_replace": {
+    "old": "gives Orozco's Preparatoria work only 'little success'",
+    "new": "says Orozco's Preparatoria work had little success"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mei-lanfang-1935",
+  "where": "intro:0",
+  "severity": "error",
+  "problem": "The last two sentences are garbled: 'So were two foreigners' has no antecedent after the Stanislavsky sentence. It also states Stanislavsky's absence as fact, although some accounts say he saw Mei perform (see eye:stanislavsky).",
+  "fix": {
+   "text_replace": {
+    "old": "Konstantin Stanislavsky, the most famous of them, stayed away from the public events. So were two foreigners, Edward Gordon Craig and Bertolt Brecht.",
+    "new": "Two foreigners, Edward Gordon Craig and Bertolt Brecht, were also in Moscow and wrote about him. Konstantin Stanislavsky, the most famous of the Soviet hosts, does not appear in the VOKS records of the public events, though some later accounts say he saw Mei perform."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mei-lanfang-1935",
+  "where": "intro:4",
+  "severity": "error",
+  "problem": "Karl Radek was arrested in September 1936, not 1937; he was a defendant at the January 1937 trial (as threads_out:0 correctly says). Arosev and Tretyakov were arrested in 1937.",
+  "fix": {
+   "text_replace": {
+    "old": "VOKS's chairman Alexander Arosev, Karl Radek, who had written on Mei in Izvestia, and Tretyakov were arrested in 1937.",
+    "new": "Karl Radek, who had written on Mei in Izvestia, was arrested in 1936 and tried in January 1937, and VOKS's chairman Alexander Arosev and Tretyakov were arrested in 1937."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mei-lanfang-1935",
+  "where": "intro:3",
+  "severity": "error",
+  "problem": "Kleberg wrote the play; he did not stage it himself. Renmin zhengxie wang (2019) gives the 1986 Kraków premiere. The Avignon production (dir. Vitez) opened on 22 July 1988 at the Théâtre Benoît XII.",
+  "fix": {
+   "text_replace": {
+    "old": "In 1986 the Swedish Slavist Lars Kleberg staged a play in Kraków that imagined the discussion, with Brecht and Craig among the speakers.",
+    "new": "In 1986 a play by the Swedish Slavist Lars Kleberg that imagined the discussion, with Brecht and Craig among the speakers, was staged in Kraków."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mei-lanfang-1935",
+  "where": "intro:3",
+  "severity": "doubt",
+  "problem": "The minutes' history is disputed, so they should be framed as what Kleberg reported rather than as settled. According to the 2019 Chinese account, Kleberg wrote in 1992 that his earlier text was fiction and said he had then found a stenogram in the archive. The Chinese play translation (Mei Shaowu, Zhonghua xiqu, December 1988) was already doubted by Huang Zuolin.",
+  "fix": {
+   "text_replace": {
+    "old": "Kleberg later found the real stenographic minutes",
+    "new": "Kleberg later reported finding the stenographic minutes"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mei-lanfang-1935",
+  "where": "claim:15",
+  "severity": "doubt",
+  "problem": "As with intro:3, the minutes should be presented as what Kleberg reported finding, not labelled 'real' in the book's own voice.",
+  "fix": {
+   "text_replace": {
+    "old": "Kleberg publishes the real minutes in Iskusstvo kino",
+    "new": "Kleberg publishes the stenographic minutes he reported finding in the archive, in Iskusstvo kino"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mei-lanfang-1935",
+  "where": "eye:craig",
+  "severity": "error",
+  "problem": "Craig was born on 16 January 1872, so he was 63 in March–April 1935.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 62, living in Italy",
+    "new": "aged 63, living in Italy"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mei-lanfang-1935",
+  "where": "eye:yu",
+  "severity": "error",
+  "problem": "Min Tian (Theatre Research International 45.3, 2020) identifies Yu's account of the Stanislavsky meeting as published in 1936 in Wenxue shidai. It was written a year later, not decades later.",
+  "fix": {
+   "text_replace": {
+    "old": "It was written after the event, and the scholars cited here",
+    "new": "It was published in 1936 in the journal Wenxue shidai, a year after the event, and the scholars cited here"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mei-lanfang-1935",
+  "where": "entry:31",
+  "severity": "error",
+  "problem": "Yu's account was published in 1936 (Wenxue shidai), per Min Tian 2020, so the display should say so rather than a vague 'recalled later'.",
+  "fix": {
+   "date_display": "April 1935 (account published 1936)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mei-lanfang-1935",
+  "where": "eye:yu",
+  "severity": "doubt",
+  "problem": "The National Drama School in Nanjing opened in the autumn of 1935, after the Soviet tour, so Yu was not yet its head in spring 1935.",
+  "fix": {
+   "text_replace": {
+    "old": "In 1935 he was founding head of the National Drama School in Nanjing.",
+    "new": "Later in 1935 he became founding head of the National Drama School in Nanjing."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mei-lanfang-1935",
+  "where": "entry:47",
+  "severity": "doubt",
+  "problem": "Min Tian's 2020 study cites Komissarzhevsky's recollections from 1959, 1963 and 1971, not a 1953 conversation. The 1953 material is Mei's own essays, which misidentify the production he recalled. The Komissarzhevsky-in-1953 story is not supported by the source given.",
+  "fix": {
+   "digest": "From 1953, after Stanislavsky's reputation became official doctrine in China, Mei wrote essays describing the old master's praise of his acting, though one of them misidentifies the production he recalled. Soviet recollections published from 1959 onwards, among them the director Komissarzhevsky's, added further stories of Stanislavsky's admiration. Together these are the main source of the pairing of the two men, and of a quotation that appears in several different Chinese wordings.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mei-lanfang-1935",
+  "where": "eye:stanislavsky",
+  "severity": "doubt",
+  "problem": "Whether Stanislavsky saw Mei perform is disputed. The Bakhrushin Theatre Museum page and the 2019 Chinese account say he did; Min Tian's archival study (2020) finds him crossed off the VOKS lists and no 1935 record of praise. The bio states his absence as fact and should give both positions.",
+  "fix": {
+   "text_replace": {
+    "old": "Stanislavsky rarely went out in 1935 and worked at home.",
+    "new": "Stanislavsky rarely went out in 1935 and worked at home. Some accounts, including the Bakhrushin Theatre Museum's and Chinese writings, say he saw Mei perform; Min Tian's archival study finds no 1935 record of it."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mei-lanfang-1935",
+  "where": "convergence:5",
+  "severity": "doubt",
+  "problem": "The note states Stanislavsky's absence as settled. The VOKS lists support it, but other accounts say he attended a performance (see eye:stanislavsky).",
+  "fix": {
+   "text_replace": {
+    "old": "The VOKS lists show that Stanislavsky stayed away from the public events.",
+    "new": "The VOKS lists suggest that Stanislavsky stayed away from the public events, though some accounts say he saw Mei perform."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mei-lanfang-1935",
+  "where": "entry:19",
+  "severity": "doubt",
+  "problem": "The 2025 Vestnik study is inconsistent on this date: its text puts Eisenstein's Komsomolskaya Pravda article on the day before the company arrived (11 March), while its bibliography gives 12 March. 'Verified' is too strong.",
+  "fix": {
+   "confidence": "approx",
+   "source_note": "Eisenstein, Komsomolskaya Pravda, 12 March 1935 per the 2025 Vestnik study's bibliography (its text says the day before arrival); Banu, Jeu 49 (1988)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mei-lanfang-1935",
+  "where": "entry:34",
+  "severity": "doubt",
+  "problem": "The claim that this was the last time the Soviet public saw him until the 1950s is unsourced. Mei's later visits to the USSR were in transit or as a delegate, and no Soviet performance in the 1950s was checked.",
+  "fix": {
+   "text_replace": {
+    "old": " and the last time the Soviet public saw him until the 1950s",
+    "new": ""
+   }
+  },
+  "confidence": "approx"
+ }
+]

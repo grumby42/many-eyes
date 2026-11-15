@@ -1,0 +1,227 @@
+[
+ {
+  "chapter": "heian",
+  "where": "entry:41",
+  "severity": "error",
+  "problem": "Calendar conversion is inconsistent. Chōtoku 2, 5th month, 1st day cannot be 2 June 996 (Julian), because the new moon that began that month fell on about 20 May 996, which makes 2 June roughly the 14th day. The chapter's other conversions all agree with the lunar phase to within a day. This one is about 13 days off.",
+  "fix": {
+   "date_iso": "996-05-20",
+   "confidence": "approx",
+   "source_note": "Chronology per weblio (Chōtoku 2.5.1). Julian equivalent recomputed from the lunation (about 20 May 996, ±1 day). Sei's absence is from Makura no Sōshi's 'staying at home' episode."
+  }
+ },
+ {
+  "chapter": "heian",
+  "where": "entry:18",
+  "severity": "doubt",
+  "problem": "Order of events. In Murasaki's diary the making of the Genji fair copies takes place at Tsuchimikado while the return to the palace is approaching, so before the 17th day of the 11th month, not in the days after it.",
+  "fix": {
+   "digest": "Shōshi returns to the palace with the prince. Murasaki shares a carriage and is embarrassed at being seen. In the days before the move, the ladies had been busy at Tsuchimikado copying and binding the Tale, and on the 18th Shōshi inspects her father's gifts of fine boxes and poetry anthologies."
+  }
+ },
+ {
+  "chapter": "thirty-years",
+  "where": "entry:8",
+  "severity": "error",
+  "problem": "Mixed Old Style and New Style. Gustavus Adolphus landed at Peenemünde on 26 June 1630 O.S. (6 July N.S.). That is two days after the 24 June O.S. date shown here, not ten. The 'ten days' comes from setting an O.S. date against an N.S. one. Also note that the Augsburg Confession was presented on 25 June 1530, so the centenary feast is usually dated 25 June 1630 O.S. The 24 June shown here may be the eve or the opening of the celebration and should be checked against Zillhardt.",
+  "fix": {
+   "digest": "Heberle records the Lutheran feast held on the hundredth anniversary of the Augsburg Confession. The celebration was defiant: the year before, the emperor's Edict of Restitution had ordered church lands returned to the Catholics. Within days (26 June O.S.), Gustavus Adolphus landed in Pomerania."
+  }
+ },
+ {
+  "chapter": "thirty-years",
+  "where": "entry:6",
+  "severity": "error",
+  "problem": "'That same month' is wrong in both calendars. Junius was burned on 6 August 1628 N.S. (27 July O.S.), and Catherine's birth is 25 August O.S. / 4 September N.S.",
+  "fix": {
+   "digest": "Heberle notes the birth of his daughter Catherine between one and two in the afternoon and her baptism the same evening. The care he takes over the hour stands out against what follows: by the end of the war he will record the deaths of most of his children. Four weeks earlier in Bamberg, the burgomaster Junius had been burned."
+  }
+ },
+ {
+  "chapter": "thirty-years",
+  "where": "entry:32",
+  "severity": "error",
+  "problem": "Wrong weekday. 7 May 1636 O.S. (17 May N.S.) was a Saturday. The chapter's own entry 31 makes 1 May O.S. a Sunday, so the 7th cannot also be a Sunday.",
+  "fix": {
+   "date_display": "7 May 1636 (O.S.)"
+  }
+ },
+ {
+  "chapter": "thirty-years",
+  "where": "entry:31",
+  "severity": "doubt",
+  "problem": "'Whitsunday 1 May 1636 (O.S.)'. By the English (Julian) reckoning Easter 1636 fell on 17 April O.S., so Whitsunday was 5 June O.S. 1 May O.S. = 11 May N.S. was Whitsunday only by the Gregorian (Catholic) reckoning. Either Crowne is recording the local feast or the label is mistaken. The display should say which.",
+  "fix": {
+   "date_display": "Sunday 1 May 1636 (O.S.) = 11 May N.S., Whitsunday by the Gregorian calendar"
+  }
+ },
+ {
+  "chapter": "thirty-years",
+  "where": "intro:0",
+  "severity": "doubt",
+  "problem": "Both October treaties (the Instrumenta Pacis Monasteriense and Osnabrugense) were signed at Münster on 24 October 1648. They were negotiated at Münster and Osnabrück. 'signed at Münster and Osnabrück' is a common simplification but is inaccurate.",
+  "fix": {
+   "text_replace": {
+    "old": "with two treaties signed at Münster and Osnabrück",
+    "new": "with two treaties negotiated at Münster and Osnabrück and signed at Münster"
+   }
+  }
+ },
+ {
+  "chapter": "thirty-years",
+  "where": "intro:1",
+  "severity": "doubt",
+  "problem": "Crowne was not an envoy. He was a young gentleman in the Earl of Arundel's suite, as the eye record itself says, and the eye's route ends at Linz and Regensburg.",
+  "fix": {
+   "text_replace": {
+    "old": "An English envoy riding to Vienna in 1636",
+    "new": "A young Englishman in an ambassador's suite, riding to the Emperor in 1636,"
+   }
+  }
+ },
+ {
+  "chapter": "thirty-years",
+  "where": "eye:bandhauer",
+  "severity": "doubt",
+  "problem": "Internal inconsistency. The role says he was installed at the Liebfrauenkloster in 1628, but the bio says he came north to take back monasteries under the 1629 Edict of Restitution, which postdates that. One of the two dates needs checking against NDB.",
+  "fix": {
+   "bio": "A native of the Magdeburg area who had become a Bohemian Counter-Reformation preacher, Bandhauer came north to take back monasteries for his order in the years of the Edict of Restitution (1629). He was an outsider whom the Protestant city had thrown out, and he watched its destruction as a returning claimant. His view is the Catholic counterweight to Guericke's."
+  }
+ },
+ {
+  "chapter": "thirty-years",
+  "where": "image:5",
+  "severity": "doubt",
+  "problem": "Ter Borch's painting shows the ratification oath of the Spanish–Dutch Peace of Münster on 15 May 1648, not the October 1648 treaties between the Empire, France and Sweden that Heberle celebrated. The caption blurs the two.",
+  "fix": {
+   "caption": "Gerard ter Borch's group portrait of the Spanish and Dutch envoys swearing the oath of the Peace of Münster on 15 May 1648, part of the Westphalian settlement. It shows the peace from the negotiators' table, the opposite end from Heberle's church pew."
+  }
+ },
+ {
+  "chapter": "london-1666",
+  "where": "entry:9",
+  "severity": "error",
+  "problem": "Typo in the plague figure. The bill for the week to 5 September 1665 gave 8,252 total and 6,978 plague deaths, as Pepys records and as this chapter's own Josselin entry (11) repeats. The headline says 6,878.",
+  "fix": {
+   "headline": "The worst bill yet: 8,252 dead, 6,978 of plague"
+  }
+ },
+ {
+  "chapter": "london-1666",
+  "where": "convergence:8",
+  "severity": "error",
+  "problem": "Internally inconsistent. 'Nine days before' the 10 October (O.S.) fast would be 1 October, but entry 55 has Mompesson saying no one had died since 11 October, the day after the fast. The Eyam parish register also records a last plague burial on 1 November 1666.",
+  "fix": {
+   "note": "Evelyn hears a sermon on Christ weeping over Jerusalem at Deptford; Josselin's village sends £6. At Eyam, Mompesson would soon report that no one had died of the sickness since 11 October, the day after the fast."
+  }
+ },
+ {
+  "chapter": "london-1666",
+  "where": "entry:28",
+  "severity": "doubt",
+  "problem": "Catherine Mompesson's date of death is usually given as 25 August 1666, as on her tomb in Eyam churchyard. The chapter says she died on the 24th and was buried on the 25th. This needs checking against the parish register.",
+  "fix": {
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "london-1666",
+  "where": "eye:giustinian",
+  "severity": "doubt",
+  "problem": "Life dates can be supplied. Marc'Antonio Giustinian (1619–1688), ambassador to France c. 1665–68, was later Doge of Venice (1684–88).",
+  "fix": {
+   "life": "1619–1688 (later Doge of Venice, 1684–88)"
+  }
+ },
+ {
+  "chapter": "french-rev",
+  "where": "entry:2",
+  "severity": "error",
+  "problem": "Misdated. Young's famous Palais-Royal passage (pamphlet shops, coffee houses crowded within and at the doors and windows, the court doing nothing) is in his entry for 9 June 1789. On 9 July he had already left Paris, and entry 3 has him in Lorraine on 12 July.",
+  "fix": {
+   "date_iso": "1789-06-09",
+   "date_display": "Tuesday 9 June 1789",
+   "source_note": "Travels in France, entry 9 June 1789 (excerpt via Alpha History)"
+  }
+ },
+ {
+  "chapter": "french-rev",
+  "where": "intro:1",
+  "severity": "doubt",
+  "problem": "Follows from the Young misdating. His Palais-Royal scene belongs to June, not to the July cluster.",
+  "fix": {
+   "text_replace": {
+    "old": "The first cluster is July 1789. Arthur Young listens to orators in the Palais-Royal, then rides east and watches Strasbourg's town hall gutted.",
+    "new": "The first cluster is July 1789. Arthur Young, who had listened to the Palais-Royal orators in June, rides east and watches Strasbourg's town hall gutted."
+   }
+  }
+ },
+ {
+  "chapter": "french-rev",
+  "where": "entry:9",
+  "severity": "doubt",
+  "problem": "The pillage of the Strasbourg Hôtel de Ville is usually dated 21 July 1789, and Young's Travels place the scene under 21 July. The chapter's own image 0 is titled 'the day of 21 July'. The 20 July date rests on a single archive fiche.",
+  "fix": {
+   "date_iso": "1789-07-21",
+   "date_display": "Tuesday 21 July 1789",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "french-rev",
+  "where": "entry:29",
+  "severity": "doubt",
+  "problem": "Cléry did not enter the Temple until about 24–26 August 1792, so he did not witness the family's transfer on 13 August. Anything he writes about it is second-hand.",
+  "fix": {
+   "digest": "The royal family is transferred to the Temple on 13 August, first to the small tower and later to the great tower. Cléry, who joined them there about two weeks later to serve the king, describes the bare rooms, the guards' insults, and the family's attempt to keep a daily routine of lessons and meals.",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "french-rev",
+  "where": "intro:4",
+  "severity": "doubt",
+  "problem": "'The queen's last letter … is the final dated page' contradicts the chapter's last entry, Morris's letter of 30 December 1794.",
+  "fix": {
+   "text_replace": {
+    "old": "The queen's last letter, never delivered, is the final dated page.",
+    "new": "The queen's last letter, never delivered, is the last page written inside the Terror; Morris's retrospect from Hamburg closes the file."
+   }
+  }
+ },
+ {
+  "chapter": "heian",
+  "where": "entry:10",
+  "severity": "error",
+  "problem": "Wrong timing. Prince Atsuhira was born in the 9th month of 1008, so Shōshi conceived around the turn of 1007–08, a few months after the 8th-month 1007 pilgrimage. She was not pregnant 'a year later'. A year later she was giving birth.",
+  "fix": {
+   "digest": "After an arduous pilgrimage, Michinaga buries sutras he copied himself in a bronze case at the Kinpusen summit, praying among other things, as usually read, for an heir from Shōshi. Within a few months she was pregnant, and a year later she bore a son. The inscribed case survives."
+  }
+ },
+ {
+  "chapter": "heian",
+  "where": "entry:17",
+  "severity": "doubt",
+  "problem": "The entry is assigned to Sanesuke but comes entirely from Murasaki's diary, and the entry itself says so. This is the case in (b): an entry claimed for a diarist without evidence that he wrote about it. Convergence 3 also counts Sanesuke as an eye on this basis. Either recheck against Shōyūki for Kankō 5.11.1 or reassign the entry.",
+  "fix": null
+ },
+ {
+  "chapter": "heian",
+  "where": "entry:38",
+  "severity": "doubt",
+  "problem": "The entry is assigned to Sanesuke, but the source note says the Shōyūki entry was not checked and that the dates come from a chronology. Nothing shows that this diarist wrote about Teishi's entry, so it is an unattested attribution under (b).",
+  "fix": null
+ },
+ {
+  "chapter": "london-1666",
+  "where": "intro:2",
+  "severity": "doubt",
+  "problem": "Hubert was in London during the Fire. The evidence at his trial (the ship's master's testimony) showed he arrived only about two days after the fire had started. 'had not even been in London' overstates this.",
+  "fix": {
+   "text_replace": {
+    "old": "though he had not even been in London",
+    "new": "though he had not even reached London until the fire was two days old"
+   }
+  }
+ }
+]

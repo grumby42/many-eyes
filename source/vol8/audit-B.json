@@ -1,0 +1,377 @@
+[
+ {
+  "chapter": "eclipse-1715",
+  "where": "intro:0",
+  "severity": "error",
+  "problem": "Unsourced 'five hundred years'. Halley's Phil. Trans. paper says he could find no total eclipse seen at London since 20 March 1140, i.e. about 575 years.",
+  "fix": {
+   "text_replace": {
+    "old": "the printed notices of the day spoke of five hundred years.",
+    "new": "Halley wrote that he could find no total eclipse seen at London since 1140."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "intro:1",
+  "severity": "doubt",
+  "problem": "The 'threepenny' price of the Black-Day pamphlet is not supported by the sources checked (Steel gives the title only).",
+  "fix": {
+   "text_replace": {
+    "old": "Pamphleteers sold threepenny tracts",
+    "new": "Pamphleteers sold tracts"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "eye:alkborough",
+  "severity": "error",
+  "problem": "Halley's observed northern limit ran from St Brides Bay to Flamborough Head, which puts Alkborough (south bank of the Humber) just inside the band near its northern edge, not outside it.",
+  "fix": {
+   "vantage": 2,
+   "vantage_label": "parish record near the northern edge of the band, reading the sky morally"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "entry:23",
+  "severity": "error",
+  "problem": "States Alkborough lay north of the band. By Halley's own limits (St Brides Bay to Flamborough Head) it lay just inside the northern edge.",
+  "fix": {
+   "text_replace": {
+    "old": "Alkborough lay north of the band of totality, so the writer most likely saw a deep partial eclipse, or knew of it by report.",
+    "new": "By the limits Halley drew from the reports, Alkborough lay just inside the northern edge of the band, where totality would have been brief; the register does not say what the writer saw."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "entry:36",
+  "severity": "error",
+  "problem": "Same error: Alkborough was inside the band near its northern edge by Halley's observed limits (northern limit left the coast near Flamborough Head).",
+  "fix": {
+   "headline": "The morning itself, near the shadow's northern edge",
+   "digest": "On the morning of the eclipse Alkborough, on the south bank of the Humber, lay just inside the northern edge of the band as Halley later drew it (from St Brides Bay to Flamborough Head), so totality there would have been brief. The register entry is undated and may have been written on the day or soon after."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "eye:edens",
+  "severity": "error",
+  "problem": "The printed text says Mr. John Edens observed at sea 'on his Voyage to that Island' (Tenerife), at latitude 34°20′; that is some six degrees north of the Canaries, not 'near' them. The position is not garbled in the OCR, and no role as mariner is given.",
+  "fix": {
+   "role": "Traveller ('Mr. John Edens') on a voyage to Tenerife, who also sent the Society an account of the ascent of the Peak",
+   "where": "At sea on passage to Tenerife, well north of the Canary Islands (position as printed: latitude 34°20′, 0h 54m of time west of London)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "eye:edens",
+  "severity": "style",
+  "problem": "Authenticity says the printed position is garbled; the OCR gives it clearly.",
+  "fix": {
+   "text_replace": {
+    "old": "The printed position is partly garbled in the OCR text.",
+    "new": "The printed position (latitude 34°20′, 0h 54m west of London) lies north-east of Madeira, well north of the Canaries."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "entry:19",
+  "severity": "error",
+  "problem": "Place 'near the Canary Islands' contradicts the printed latitude 34°20′ (Tenerife is about 28° N).",
+  "fix": {
+   "place": "At sea on passage to Tenerife (latitude 34°20′)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "claim:10",
+  "severity": "error",
+  "problem": "Same location problem.",
+  "fix": {
+   "text_replace": {
+    "old": "At sea near the Canaries:",
+    "new": "At sea on passage to Tenerife, latitude 34°20′:"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "convergence:1",
+  "severity": "style",
+  "problem": "'Just after dawn' overstates: 6h 49m local is well after sunrise at 34° N in early May; also 'off the Canaries' is inaccurate.",
+  "fix": {
+   "text_replace": {
+    "old": "Off the Canaries Edens saw half the Sun covered just after dawn by his clock;",
+    "new": "At sea on passage to Tenerife Edens saw half the Sun covered early in the morning by his clock;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "eye:uppsala",
+  "severity": "doubt",
+  "problem": "The Transactions print the name as 'M. Jo. Waller, Professor of Mathematicks in that University', not 'Prof. Jo. Waller'. Identity (possibly a form of Vallerius) remains unconfirmed and should stay hedged.",
+  "fix": {
+   "name": "'M. Jo. Waller' of Uppsala, as printed"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "eye:uppsala",
+  "severity": "style",
+  "problem": "Correct the printed form of the name in the authenticity note.",
+  "fix": {
+   "text_replace": {
+    "old": "under the name 'Prof. Jo. Waller'",
+    "new": "under the name 'M. Jo. Waller, Professor of Mathematicks in that University'"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "eye:whiston",
+  "severity": "error",
+  "problem": "Whiston's map sold at sixpence (Luttrell's copy: '6d. 17 March. 1714/5'); the shilling price in the Post Man belongs to 'Mr. Whiston's second Account of the great Eclipse', with directions for observing.",
+  "fix": {
+   "text_replace": {
+    "old": "sold the result at a shilling, with directions for observing.",
+    "new": "sold the result as a sixpenny sheet, followed by a 'second Account' with directions for observing at a shilling."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "entry:3",
+  "severity": "error",
+  "problem": "Per Crouch, the London Gazette 2–5 April 1715 notice was Senex's advertisement for Halley's first map, with Whiston's map mentioned almost as an aside at the end; not a Whiston advertisement as such.",
+  "fix": {
+   "headline": "Whiston's sheet noticed in the London Gazette",
+   "digest": "Senex's advertisement for Halley's map in the London Gazette mentioned, almost as an aside at its end, Whiston's sheet computed from Flamsteed's tables corrected by Newton's lunar theory. The sheet gave constructions for London, Rome and Stockholm and a dotted track of the Moon's centre, without geography."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "entry:4",
+  "severity": "error",
+  "problem": "The Post Man notice announced 'Mr. Whiston's second Account of the great Eclipse' at 1s; it was not a second notice for the same sheet.",
+  "fix": {
+   "text_replace": {
+    "old": "A second notice in the Post Man promised directions",
+    "new": "A notice in the Post Man for 'Mr. Whiston's second Account of the great Eclipse' promised directions"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "convergence:4",
+  "severity": "error",
+  "problem": "Whiston's calculation sheet was sixpence; the shilling was for his 'second Account'.",
+  "fix": {
+   "text_replace": {
+    "old": "Whiston's shilling calculation with a dotted track.",
+    "new": "Whiston's sixpenny calculation with a dotted track, followed by a shilling 'second Account'."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "tie:1",
+  "severity": "doubt",
+  "problem": "No source checked says the Black-Day pamphlet credited both men's calculations.",
+  "fix": {
+   "text_replace": {
+    "old": "; the Black-Day pamphlet credited both men's calculations",
+    "new": ""
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "claim:14",
+  "severity": "style",
+  "problem": "Steel's figures (track about 183 miles wide, 23 more than predicted; limits off by 3 and 20 miles) are a comparison of measurement with prediction, not a dispute.",
+  "fix": {
+   "form": "measured",
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "eclipse-1715",
+  "where": "entry:34",
+  "severity": "style",
+  "problem": "The 1724 eclipse date is Old Style; say so for consistency with the claims ledger (11 May 1724 O.S. = 22 May N.S.).",
+  "fix": {
+   "text_replace": {
+    "old": "expected on 11 May 1724,",
+    "new": "expected on the evening of 11 May 1724 (O.S.),"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "leonids-1833",
+  "where": "intro:2",
+  "severity": "error",
+  "problem": "The Lincoln anecdote reaches us only second-hand through Whitman and is not sourced to a dated record; per the audit brief it should not appear.",
+  "fix": {
+   "text_replace": {
+    "old": "Testimonies of formerly enslaved people collected by the WPA in the 1930s, and an anecdote that Abraham Lincoln, then in Illinois, later retold the night during the Civil War (it reaches us second-hand, through Walt Whitman), are a full century or a generation removed and are not used here as entries.",
+    "new": "Testimonies of formerly enslaved people collected by the WPA in the 1930s are a full century removed and are not used here as entries."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "leonids-1833",
+  "where": "entry:10",
+  "severity": "error",
+  "problem": "The 4 November entry (Cowdery's hand) does not say the following days were blank; it is Smith's own 13 November entry that begins 'nothing of of note transpired from the 4th ... until this day'.",
+  "fix": {
+   "text_replace": {
+    "old": "The entry for the next nine days is blank: nothing worth noting happened.",
+    "new": "The next entry, of 13 November in Smith's own hand, opens by noting that nothing of note had happened since the 4th."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "leonids-1833",
+  "where": "entry:17",
+  "severity": "error",
+  "problem": "The statement that persecutors were frightened is attributed in the KSL source to Eliza Partridge, not to Pratt.",
+  "fix": {
+   "text_replace": {
+    "old": "and Pratt later wrote that some of their persecutors were frightened.",
+    "new": "and another of the exiles, Eliza Partridge, later wrote that their enemies were very much frightened."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "leonids-1833",
+  "where": "eye:pratt",
+  "severity": "style",
+  "problem": "Bio attributes the enemies' fear loosely; it comes from Eliza Partridge's account, not Pratt's.",
+  "fix": {
+   "text_replace": {
+    "old": "To the refugees, and by their account to some of their enemies, the falling stars looked like a heavenly judgment.",
+    "new": "To the refugees the falling stars looked like a heavenly sign; one of them, Eliza Partridge, recalled that their enemies were frightened."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "leonids-1833",
+  "where": "entry:12",
+  "severity": "doubt",
+  "problem": "Olmsted's newspaper letter says 'Those who marked its position among the fixed stars observed it to be in the constellation Leo', i.e. the Leo placement is credited to other observers; the digest's claim that a single observation of his own told him the meteors were extra-atmospheric overstates the record.",
+  "fix": {
+   "digest": "Olmsted was called out of bed by a neighbour and watched the last part of the storm. In the letter he sent to the newspapers soon after, he wrote that the meteors came from a fixed point in the heavens, that those who marked its position among the stars placed it in Leo, and that the point appeared to lie beyond the atmosphere."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "leonids-1833",
+  "where": "threads_out:2",
+  "severity": "doubt",
+  "problem": "The claim that Hitchcock suggested in 1833 the meteors were a form of aurora was not found in any source checked. A verifiable link of the same kind: Elias Loomis gathered continent-wide reports of the 1859 aurora for the same journal.",
+  "fix": {
+   "text_replace": {
+    "old": "in 1833 Hitchcock even suggested the meteors were a form of aurora, the phenomenon that dominates the 1859 chapter.",
+    "new": "in 1859–61 Elias Loomis used the same method in the same journal, collecting reports of the great aurora from across the continent."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "leonids-1833",
+  "where": "threads_out:1",
+  "severity": "doubt",
+  "problem": "The link (1910 tail fears framed 'in terms the Leonid work had made familiar') rests on nothing verifiable; the 1910 fears concerned gases in the tail. A specific link: the comet–meteor connection proved in 1866–67 applies to Halley's comet, whose debris gives the Orionid and Eta Aquariid showers.",
+  "fix": {
+   "text_replace": {
+    "old": "changed what a comet meant; by 1910 the public could fear Earth passing through the tail of Halley's comet in terms the Leonid work had made familiar.",
+    "new": "applies to Halley's comet too: its debris, met by the Earth each May and October, produces the Eta Aquariid and Orionid meteors."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "leonids-1833",
+  "where": "tie:7",
+  "severity": "doubt",
+  "problem": "No source checked confirms that Newton wrote on Schiaparelli's theory in 1867.",
+  "fix": {
+   "text_replace": {
+    "old": "; Newton wrote on Schiaparelli's theory in 1867",
+    "new": ""
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "leonids-1833",
+  "where": "eye:battiste-good",
+  "severity": "doubt",
+  "problem": "The IACB page gives no Lakota name; 'Brown Hat' is the usual English form, but the rendering 'Wapóštaŋǧi Máza' is unconfirmed.",
+  "fix": {
+   "name": "Battiste Good (Brown Hat)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "leonids-1833",
+  "where": "claim:7",
+  "severity": "style",
+  "problem": "The Sangamo Journal says 'At three o'clock, a. m.', not 'about'.",
+  "fix": {
+   "text_replace": {
+    "old": "from about 3 a.m.",
+    "new": "from three o'clock a.m."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "leonids-1833",
+  "where": "entry:16",
+  "severity": "style",
+  "problem": "Source note should name the compilation: the Sangamo passage is quoted from Judge Stringer's account in a 1911 county history.",
+  "fix": {
+   "source_note": "Sangamo Journal, 16 Nov. 1833, as quoted in Judge Stringer's account in a 1911 Logan County history (via illogan.whalen-family.org)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "leonids-1833",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "Newton's collected accounts appeared in the American Journal of Science for May 1864, listing storms from 902; prediction of 13–14 Nov. 1866 confirmed (Kirkwood 1867; Clerke). AMS dates the prediction to 1863; the 1864 date for the published paper stands.",
+  "fix": {
+   "source_note": "Newton, AJS May 1864 (cited by Kirkwood, Meteoric Astronomy, 1867, and Clerke, Popular History of Astronomy); AMS history"
+  },
+  "confidence": "verified"
+ }
+]

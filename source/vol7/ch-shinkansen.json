@@ -1,0 +1,1431 @@
+{
+ "id": "shinkansen",
+ "title": "The Bullet Train: Japan, 1957–1964",
+ "short_title": "The Bullet Train",
+ "subtitle": "The Tōkaidō Shinkansen from the Yamaha Hall lecture to opening day, Tokyo–Osaka, 1957–1965",
+ "span": "1957–1965",
+ "intro": [
+  "On a spring evening in 1957 four researchers from the national railways' research institute stood on the stage of a concert hall in Ginza and told an audience of more than five hundred that a train could run from Tokyo to Osaka in three hours. The existing express took six and a half. Seven years and four months later, on 1 October 1964, two trains named Hikari left Tokyo and Shin-Osaka at six in the morning and met their timetable of four hours; a year after that the time was three hours ten minutes.",
+  "This chapter is built from records rather than diaries. The engineers left lectures, technical papers and, decades later, memoirs and interviews; the chief engineer Shima Hideo's own account was written in the 1990s and is flagged as such. The railway corporation left chronologies, timetables and construction records; the World Bank left a loan agreement; the government and the Imperial Household left published ceremonial records; and foreign readers met the line through Time magazine and the wire services. The passengers of opening day barely appear by name in the accessible record: the reports say only that the first trains were full.",
+  "Two threads run through the story. One is the engineers. Several of RTRI's key researchers, including Miki Tadanao and Matsudaira Tadashi, had designed and tested military aircraft for the Navy; Kawanabe Hajime came from the Army. Barred from aviation after 1945, they turned wind tunnels and vibration theory onto trains, and historians still debate how far their outsiders' science, and how far the railways' own engineers, made the difference.",
+  "The other thread is money. JNR president Sogō Shinji pushed the line through on an estimate of ¥194.8 billion, framed it as an addition to the old Tōkaidō Line, and took an $80 million World Bank loan that bound the state to finish it. The real cost was about ¥380 billion. In May 1963 Sogō was not reappointed and Shima resigned with him; neither was invited to the opening. Accounts differ on how much the overrun, the deliberately modest estimate, or the Mikawashima accident of 1962 counted against him, and those differences are reported here as positions.",
+  "The line opened nine days before the Tokyo Olympics, the first railway built for regular service above 200 km/h. Laying the engineers' plans, the institution's figures, the lender's paperwork and the foreign press side by side shows how an idea announced to a hall of railway enthusiasts became a timetable."
+ ],
+ "calendar_note": "All dates are Gregorian, which Japan has used since 1873. Japanese records also count years by imperial era: Shōwa 32 = 1957, Shōwa 34 = 1959, Shōwa 36 = 1961, Shōwa 37 = 1962, Shōwa 38 = 1963, Shōwa 39 = 1964, Shōwa 40 = 1965. JNR's budgets ran on fiscal years from April to March, so cost figures may straddle two calendar years. Where digests of JNR records disagree by a few days (the start of model-line running in June 1962; the 200 km/h run in October 1962), the month is given.",
+ "eyes": [
+  {
+   "id": "shima",
+   "short": "Shima Hideo",
+   "name": "Shima Hideo (島秀雄)",
+   "life": "1901–1998",
+   "role": "Rolling-stock engineer; JNR Chief Engineer (gishichō) 1955–1963, aged 54–62",
+   "side": "Japanese National Railways (JNR), headquarters",
+   "where": "JNR headquarters, Marunouchi, Tokyo; Washington in 1960",
+   "lat": 35.683,
+   "lon": 139.767,
+   "waypoints": [
+    {
+     "lat": 35.4505,
+     "lon": 139.631,
+     "label": "Sakuragichō fire, 1951"
+    },
+    {
+     "lat": 35.683,
+     "lon": 139.767,
+     "label": "JNR HQ, Chief Engineer 1955–63"
+    },
+    {
+     "lat": 38.899,
+     "lon": -77.042,
+     "label": "Washington, World Bank talks, 1960"
+    },
+    {
+     "lat": 35.683,
+     "lon": 139.767,
+     "label": "Tokyo, 1 October 1964"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "chief engineer, the system's architect",
+   "form": "memoir (written later) and later interviews",
+   "language": "Japanese; English translation of the memoir",
+   "authenticity": "No diary survives in print. His account is the memoir 'Birth of the Shinkansen — A Memoir', published in English in Japan Railway & Transport Review in the 1990s (citations differ on the issue number), written three decades after the events and by a principal with a stake in the story. Dates here are taken from JNR chronologies and secondary histories, not from the memoir alone.",
+   "bio": "Son of the railway engineer Shima Yasujirō, who had worked on the prewar 'bullet train' (dangan ressha) plan, Hideo designed steam locomotives before the war and championed electric multiple-unit trains with motors distributed along the train. He resigned after the Sakuragichō fire of 1951 and was brought back in 1955 by Sogō Shinji to lead the new line's engineering. He left with Sogō in 1963 and later headed Japan's National Space Development Agency (NASDA) from 1969.",
+   "sources": [
+    {
+     "title": "Hideo Shima (encyclopedia article, archived copy)",
+     "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Hideo_Shima.html"
+    },
+    {
+     "title": "Vaclav Smil, 'Fifty Years of the Shinkansen', Asia-Pacific Journal (2014)",
+     "url": "https://apjjf.org/?p=15008"
+    },
+    {
+     "title": "Seattle Times obituary of Hideo Shima (18 March 1998)",
+     "url": "https://archive.seattletimes.com/archive/19980318/2740343/hideo-shima-developer-of-japans-bullet-train-dies-at-96"
+    },
+    {
+     "title": "Gendai Business: the 1957 lecture and opening day (Japanese)",
+     "url": "https://gendai.media/articles/-/96148"
+    }
+   ]
+  },
+  {
+   "id": "sogo",
+   "short": "Sogō Shinji",
+   "name": "Sogō Shinji (十河信二)",
+   "life": "1884–1981",
+   "role": "Fourth president of JNR, 1955–1963, aged 71–79",
+   "side": "Japanese National Railways, president's office",
+   "where": "JNR headquarters, Marunouchi, Tokyo",
+   "lat": 35.683,
+   "lon": 139.767,
+   "waypoints": [
+    {
+     "lat": 35.683,
+     "lon": 139.767,
+     "label": "JNR HQ, 1955–63"
+    },
+    {
+     "lat": 35.11,
+     "lon": 139.07,
+     "label": "Shin-Tanna tunnel, 20 April 1959"
+    },
+    {
+     "lat": 38.899,
+     "lon": -77.042,
+     "label": "Loan signed with the World Bank, May 1961"
+    },
+    {
+     "lat": 35.683,
+     "lon": 139.767,
+     "label": "Tokyo, absent from opening, 1964"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the president who pushed it through and paid for it",
+   "form": "official acts, speeches and later accounts (no diary)",
+   "language": "Japanese",
+   "authenticity": "Sogō's role is known through JNR records, Diet proceedings, press reports and later recollections by colleagues, biographers and historians. Claims about his motives (notably that he kept the 1958 estimate deliberately low) come from later secondary accounts and are reported here as positions.",
+   "bio": "A prewar railway bureaucrat who had worked under Gotō Shinpei and served the South Manchuria Railway, Sogō was recalled at 71 to lead JNR after a run of fatal accidents. He insisted on a separate standard-gauge line, presented it to the government as an expansion of the existing Tōkaidō Line, and secured the World Bank loan. When costs roughly doubled, he was not reappointed in May 1963 and was not invited to the opening.",
+   "sources": [
+    {
+     "title": "Shinji Sogō (encyclopedia article, archived copy)",
+     "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Shinji_Sog%C5%8D.html"
+    },
+    {
+     "title": "The Shashi: JNR chapter 2 (company history digest)",
+     "url": "https://the-shashi.com/tse/jnr/chapter-2/"
+    },
+    {
+     "title": "Trafficnews: financing and the cost overrun (Japanese)",
+     "url": "https://trafficnews.jp/post/36162/3"
+    },
+    {
+     "title": "Gendai Business: the 1957 lecture and opening day (Japanese)",
+     "url": "https://gendai.media/articles/-/96148"
+    },
+    {
+     "title": "Takashi Nishiyama, Engineering War and Peace in Modern Japan (Johns Hopkins, 2014), chapter excerpt",
+     "url": "https://muse.jhu.edu/books/9781421412672/9781421412672-13.pdf"
+    }
+   ]
+  },
+  {
+   "id": "miki",
+   "short": "Miki Tadanao",
+   "name": "Miki Tadanao (三木忠直)",
+   "life": "1909–2005",
+   "role": "RTRI researcher, vehicle structures and aerodynamics; former Navy technical lieutenant-commander and aircraft designer",
+   "side": "Railway Technical Research Institute (RTRI) of JNR",
+   "where": "RTRI laboratories, Tokyo; Ginza Yamaha Hall, 30 May 1957",
+   "lat": 35.6717,
+   "lon": 139.765,
+   "waypoints": [
+    {
+     "lat": 35.315,
+     "lon": 139.62,
+     "label": "Naval Air Technical Arsenal, Yokosuka, 1944"
+    },
+    {
+     "lat": 35.6717,
+     "lon": 139.765,
+     "label": "Yamaha Hall lecture, 1957"
+    },
+    {
+     "lat": 35.272,
+     "lon": 139.184,
+     "label": "Kamonomiya model line, 1962–63"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the aircraft designer who shaped the train",
+   "form": "lecture text, technical papers, later memoir notes and interviews",
+   "language": "Japanese",
+   "authenticity": "His 1957 lecture was reported by the press and summarised in RTRI's histories; his wartime recollections survive in interviews and personal notes used by later writers (e.g. Naitō Hatsuho's book on the Ōka). No continuous diary is known in print. Birth and death years follow standard reference works.",
+   "bio": "At the Navy's Air Technical Arsenal at Yokosuka, Miki was chief designer of the P1Y Ginga bomber and was responsible for the airframe of the Ōka piloted flying bomb (1944–45). After the surrender, with aircraft work banned under the occupation, he joined the railways' research institute and began wind-tunnel studies of train shapes in the early 1950s. He is credited with the lightweight, streamlined body thinking behind the Odakyū SE car and the 0-series nose.",
+   "sources": [
+    {
+     "title": "Gendai Business: Miki Tadanao and the Ōka (Japanese)",
+     "url": "https://gendai.media/articles/-/119206"
+    },
+    {
+     "title": "Toru Koyama, JSME ICBTT 2002 paper on RTRI and former military engineers",
+     "url": "https://jsme.or.jp/tsd/ICBTT/conference02/ToruKOYAMA.html"
+    },
+    {
+     "title": "Kanagawa Shimbun series on Miki Tadanao (Japanese)",
+     "url": "https://www.kanaloco.jp/news/culture/bunka/article-1210986.html"
+    },
+    {
+     "title": "Gendai Business: the 1957 lecture and opening day (Japanese)",
+     "url": "https://gendai.media/articles/-/96148"
+    }
+   ]
+  },
+  {
+   "id": "matsudaira",
+   "short": "Matsudaira",
+   "name": "Matsudaira Tadashi (松平精)",
+   "life": "1910–2000",
+   "role": "Head of RTRI's vehicle-dynamics (vibration) research; former Navy aeronautical engineer",
+   "side": "Railway Technical Research Institute",
+   "where": "RTRI laboratories, Tokyo; Kamonomiya model line",
+   "lat": 35.6717,
+   "lon": 139.765,
+   "waypoints": [
+    {
+     "lat": 35.315,
+     "lon": 139.62,
+     "label": "Naval Air Technical Arsenal, wartime"
+    },
+    {
+     "lat": 35.6717,
+     "lon": 139.765,
+     "label": "Yamaha Hall lecture, 1957"
+    },
+    {
+     "lat": 35.272,
+     "lon": 139.184,
+     "label": "Kamonomiya model line, 1962–63"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the vibration specialist at the test track",
+   "form": "lecture and technical papers",
+   "language": "Japanese",
+   "authenticity": "Known through his published technical work, RTRI records and historians' studies (Sato Yasushi 2007; Koyama 2002). No diary in print. Life dates follow standard reference works.",
+   "bio": "During the war Matsudaira studied flutter and vibration problems on the Zero fighter at the Navy's aeronautical research arsenal. At RTRI he led a group of former Navy engineers who tied the 'hunting' (snaking) oscillation of bogies to derailments, work that the historian Sato Yasushi treats both as a real advance and as a story later polished into a triumphal narrative.",
+   "sources": [
+    {
+     "title": "Toru Koyama, JSME ICBTT 2002 paper on RTRI and former military engineers",
+     "url": "https://jsme.or.jp/tsd/ICBTT/conference02/ToruKOYAMA.html"
+    },
+    {
+     "title": "Sato Yasushi, 'The Engineering Culture of the JNR around World War II', J. History of Science, Japan 46 (2007)",
+     "url": "https://www.jstage.jst.go.jp/article/jhsj/46/244/46_209/_article/-char/en"
+    }
+   ]
+  },
+  {
+   "id": "kawanabe",
+   "short": "Kawanabe",
+   "name": "Kawanabe Hajime (河邊一)",
+   "life": "fl. 1940s–1960s",
+   "role": "Chief of RTRI's signalling laboratory; former Army technical officer",
+   "side": "Railway Technical Research Institute",
+   "where": "RTRI laboratories, Tokyo",
+   "lat": 35.6717,
+   "lon": 139.765,
+   "waypoints": [
+    {
+     "lat": 35.6717,
+     "lon": 139.765,
+     "label": "Yamaha Hall lecture, 1957"
+    },
+    {
+     "lat": 35.272,
+     "lon": 139.184,
+     "label": "ATC trials, model line 1962–63"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the signalling engineer who took the signals into the cab",
+   "form": "lecture and technical papers",
+   "language": "Japanese",
+   "authenticity": "Known through RTRI histories and later technical-history studies; his personal papers are not in print. Exact life dates were not traced.",
+   "bio": "Unlike Miki and Matsudaira, Kawanabe came to the railways from the Army. His laboratory worked on the automatic train control (ATC) that let drivers run at 200 km/h without lineside signals, replacing them with speed commands shown in the cab.",
+   "sources": [
+    {
+     "title": "Toru Koyama, JSME ICBTT 2002 paper on RTRI and former military engineers",
+     "url": "https://jsme.or.jp/tsd/ICBTT/conference02/ToruKOYAMA.html"
+    }
+   ]
+  },
+  {
+   "id": "shinohara",
+   "short": "Shinohara",
+   "name": "Shinohara Takeshi (篠原武司)",
+   "life": "fl. 1950s–1960s",
+   "role": "Director of RTRI from 1957",
+   "side": "Railway Technical Research Institute",
+   "where": "RTRI, Tokyo",
+   "lat": 35.6717,
+   "lon": 139.765,
+   "vantage": 1,
+   "vantage_label": "the institute's director who staged the lecture",
+   "form": "institutional record",
+   "language": "Japanese",
+   "authenticity": "Known through RTRI's institutional history and later journalism; no diary in print. Life dates not traced.",
+   "bio": "According to Kanagawa Shimbun's series on Miki, Shinohara became RTRI's director in 1957 and proposed that the institute's fiftieth-anniversary events include a public presentation. That decision put four researchers on a public stage in Ginza and moved a laboratory idea into the newspapers.",
+   "sources": [
+    {
+     "title": "Kanagawa Shimbun series on Miki Tadanao (Japanese)",
+     "url": "https://www.kanaloco.jp/news/culture/bunka/article-1210986.html"
+    }
+   ]
+  },
+  {
+   "id": "jnr",
+   "short": "JNR records",
+   "name": "Japanese National Railways (records and chronologies)",
+   "life": "1949–1987",
+   "role": "State railway corporation; its Shinkansen bureau, model-line office and published chronologies",
+   "side": "Japanese National Railways",
+   "where": "Tokyo headquarters; Kamonomiya model-line base; the line itself",
+   "lat": 35.272,
+   "lon": 139.184,
+   "waypoints": [
+    {
+     "lat": 35.11,
+     "lon": 139.07,
+     "label": "Shin-Tanna tunnel portal, 1959"
+    },
+    {
+     "lat": 35.272,
+     "lon": 139.184,
+     "label": "Kamonomiya base, 1962–64"
+    },
+    {
+     "lat": 35.681,
+     "lon": 139.767,
+     "label": "Tokyo Station, 1964"
+    },
+    {
+     "lat": 34.733,
+     "lon": 135.5,
+     "label": "Shin-Osaka, 1964"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the institution's own record",
+   "form": "official records and chronologies",
+   "language": "Japanese",
+   "authenticity": "JNR's construction records, timetables and anniversary histories; reached here through Japanese and English secondary digests. Some small dates differ between digests (e.g. the start of model-line running, 23, 25 or 26 June 1962), and those are given at month precision.",
+   "bio": "The corporation's own paperwork carries the voices that diaries do not: the surveyors, track gangs, test crews and station staff whose names rarely survive. Its chronologies are the backbone of the timeline here.",
+   "sources": [
+    {
+     "title": "Trains to Beyond: 'Bullet at 60' timeline",
+     "url": "https://trainstobeyond.com/bullet-at-60-timeline/"
+    },
+    {
+     "title": "Tabi-mag: Kamonomiya model line monument (Japanese)",
+     "url": "https://tabi-mag.jp/kn0688/"
+    },
+    {
+     "title": "Trafficnews: model-line test running (Japanese)",
+     "url": "https://trafficnews.jp/post/36077"
+    },
+    {
+     "title": "Toretabi: Tokaido Shinkansen opening (Japanese)",
+     "url": "https://www.toretabi.jp/railway_info/entry-8434.html"
+    }
+   ]
+  },
+  {
+   "id": "ishida",
+   "short": "Ishida Reisuke",
+   "name": "Ishida Reisuke (石田礼助)",
+   "life": "1886–1978",
+   "role": "Fifth president of JNR from May 1963, a former Mitsui trading executive, aged 77 at the opening",
+   "side": "Japanese National Railways",
+   "where": "Tokyo Station, platform 19, on 1 October 1964",
+   "lat": 35.681,
+   "lon": 139.767,
+   "vantage": 0,
+   "vantage_label": "the sceptic who cut the ribbon",
+   "form": "reported remarks and ceremonial record",
+   "language": "Japanese",
+   "authenticity": "His 1957 remark is reported by the historian Takashi Nishiyama from Japanese sources; his opening-day role is in JNR records and press photographs.",
+   "bio": "A businessman who had doubted the need for such speed when he visited RTRI's experiments in 1957, Ishida inherited the line from Sogō six months before completion and presided over its opening.",
+   "sources": [
+    {
+     "title": "Takashi Nishiyama, Engineering War and Peace in Modern Japan (Johns Hopkins, 2014), chapter excerpt",
+     "url": "https://muse.jhu.edu/books/9781421412672/9781421412672-13.pdf"
+    },
+    {
+     "title": "Trafficnews: 'Shinkansen opening' (Japanese)",
+     "url": "https://trafficnews.jp/post/36093"
+    },
+    {
+     "title": "Newswitch: opening day 1964 (Japanese)",
+     "url": "https://newswitch.jp/p/10592"
+    }
+   ]
+  },
+  {
+   "id": "sato",
+   "short": "Satō Eisaku",
+   "name": "Satō Eisaku (佐藤栄作)",
+   "life": "1901–1975",
+   "role": "Minister of Finance, 1958–1960 (later Prime Minister 1964–1972)",
+   "side": "Japanese government",
+   "where": "Ministry of Finance, Kasumigaseki, Tokyo",
+   "lat": 35.673,
+   "lon": 139.75,
+   "vantage": 2,
+   "vantage_label": "the finance minister who pointed to Washington",
+   "form": "published record and later accounts",
+   "language": "Japanese",
+   "authenticity": "His suggestion of a World Bank loan is reported in later histories of the project; no diary entry of his on it is cited here. Present only through published records.",
+   "bio": "A former railway bureaucrat himself, Satō is credited in Japanese accounts with proposing that JNR borrow from the World Bank: a foreign loan would bind the government to finishing the line even if domestic money ran short.",
+   "sources": [
+    {
+     "title": "Trafficnews: financing and the cost overrun (Japanese)",
+     "url": "https://trafficnews.jp/post/36162/3"
+    },
+    {
+     "title": "Shinji Sogō (encyclopedia article, archived copy)",
+     "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Shinji_Sog%C5%8D.html"
+    }
+   ]
+  },
+  {
+   "id": "worldbank",
+   "short": "World Bank",
+   "name": "International Bank for Reconstruction and Development (World Bank)",
+   "life": "1944–",
+   "role": "Lender; president Eugene R. Black signed the loan",
+   "side": "World Bank, Washington",
+   "where": "Washington, D.C.",
+   "lat": 38.899,
+   "lon": -77.042,
+   "vantage": 3,
+   "vantage_label": "the foreign lender's paperwork",
+   "form": "loan agreement and published records",
+   "language": "English",
+   "authenticity": "The loan agreement and appraisal records are public World Bank documents; the Bank's own list of loans to Japan gives the signing date.",
+   "bio": "The Bank was wary of a high-speed line as an experiment and preferred projects with proven technology; JNR presented the line as conventional, proven engineering. The $80 million loan covered a small share of the cost but tied the Japanese state to completion.",
+   "sources": [
+    {
+     "title": "World Bank, 'World Bank's Loans to Japan' (list of loans 1953–1966)",
+     "url": "https://www.worldbank.org/en/country/japan/brief/world-banks-loans-to-japan"
+    },
+    {
+     "title": "World Bank Documents & Reports: 'The Bank and Japan's bullet trains'",
+     "url": "https://documents.banquemondiale.org/fr/publication/documents-reports/documentdetail/120191468195565266"
+    },
+    {
+     "title": "Vaclav Smil, 'Fifty Years of the Shinkansen', Asia-Pacific Journal (2014)",
+     "url": "https://apjjf.org/?p=15008"
+    }
+   ]
+  },
+  {
+   "id": "time",
+   "short": "Time magazine",
+   "name": "Time magazine (Tokyo correspondents, unsigned)",
+   "life": "fl. 1964",
+   "role": "American newsweekly reporting from Japan",
+   "side": "United States press",
+   "where": "Tokyo bureau and the test trains",
+   "lat": 35.681,
+   "lon": 139.767,
+   "vantage": 4,
+   "vantage_label": "foreign press, writing for American readers",
+   "form": "magazine report",
+   "language": "English",
+   "authenticity": "Dated issue text, archived by Time. Unsigned, as was the magazine's practice.",
+   "bio": "Time's reporting framed the line as a billion-dollar engineering showpiece for the Olympic year, and gave American readers the measured figures of the test runs.",
+   "sources": [
+    {
+     "title": "Time, 'Japan: Fast Ride to Osaka' (4 September 1964)",
+     "url": "https://time.com/archive/6626794/japan-fast-ride-to-osaka"
+    }
+   ]
+  },
+  {
+   "id": "upi",
+   "short": "UPI wire",
+   "name": "United Press International (wire report)",
+   "life": "fl. 1964",
+   "role": "International news agency",
+   "side": "United States press",
+   "where": "Tokyo",
+   "lat": 35.681,
+   "lon": 139.767,
+   "vantage": 4,
+   "vantage_label": "the wire service that carried it abroad",
+   "form": "wire report",
+   "language": "English",
+   "authenticity": "A short dated wire item, reproduced from a newspaper of 1 October 1964; the specific newspaper is not named in the reproduction.",
+   "bio": "The wire item is how most foreign readers met the line on its first morning: a few lines on speed and the Olympics.",
+   "sources": [
+    {
+     "title": "UPI wire item of 1 October 1964, reproduced on 'The 60s at 50'",
+     "url": "https://the60sat50.blogspot.com/2014/09/thursday-october-1-1964-bullet-train.html"
+    }
+   ]
+  },
+  {
+   "id": "emperor",
+   "short": "Emperor Shōwa",
+   "name": "Emperor Shōwa (Hirohito)",
+   "life": "1901–1989",
+   "role": "Emperor of Japan",
+   "side": "Imperial Household",
+   "where": "JNR headquarters, Tokyo, at the opening ceremony",
+   "lat": 35.683,
+   "lon": 139.767,
+   "vantage": 1,
+   "vantage_label": "the state's blessing, through the published record",
+   "form": "published address (ceremonial record)",
+   "language": "Japanese",
+   "authenticity": "Present here only through the published record of the opening ceremony, as summarised in Japanese histories.",
+   "bio": "The Emperor and Empress attended the opening ceremony at JNR headquarters on the morning of 1 October 1964, nine days before the Emperor opened the Tokyo Olympic Games.",
+   "sources": [
+    {
+     "title": "Trafficnews: 'Shinkansen opening' (Japanese)",
+     "url": "https://trafficnews.jp/post/36093"
+    },
+    {
+     "title": "Gendai Business: the 1957 lecture and opening day (Japanese)",
+     "url": "https://gendai.media/articles/-/96148"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1937",
+   "date_display": "1937 (Shōwa 12)",
+   "precision": "year",
+   "eye": "shima",
+   "place": "Europe",
+   "headline": "A young engineer imagines fast electric trains abroad",
+   "digest": "On a study trip to Europe, Shima formed the idea of a high-speed train driven by electric motors spread along its cars rather than by a single locomotive. It was a minority view in a railway still built around steam. The idea would wait twenty years.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Gendai Business (gendai.media/articles/-/96148), from Shima's later accounts."
+  },
+  {
+   "date_iso": "1941",
+   "date_display": "1941 (Shōwa 16)",
+   "precision": "year",
+   "eye": "jnr",
+   "place": "Tōkaidō corridor",
+   "headline": "Wartime 'bullet train' works begin, then stall",
+   "digest": "Work began on the government's dangan ressha (bullet train) plan, a standard-gauge line from Tokyo towards Shimonoseki, with land bought and some long tunnels started. The war stopped it. About a quarter of the purchased land and the tunnel works at Tanna and Nihonzaka were later reused for the Shinkansen.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Gendai Business; The Shashi 'Shinkansen construction 1959' decision page (share of land reusable)."
+  },
+  {
+   "date_iso": "1944-07",
+   "date_display": "July 1944 (Shōwa 19)",
+   "precision": "month",
+   "eye": "miki",
+   "place": "Naval Air Technical Arsenal, Yokosuka",
+   "headline": "The bomber designer is handed the Ōka",
+   "digest": "Miki, a 34-year-old Navy technical officer heading a design group, was called in when Ensign Ōta Shōichi's proposal for a piloted glide bomb reached the arsenal. Miki, chief designer of the Ginga bomber, was given the airframe of what became the Ōka. His later recollections, used by postwar writers, record his unease at designing a craft whose pilot would not return.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Gendai Business (gendai.media/articles/-/119206); his notes as used in Naitō Hatsuho's book on the Ōka."
+  },
+  {
+   "date_iso": "1945",
+   "date_display": "1945 (Shōwa 20), after the surrender",
+   "precision": "year",
+   "eye": "matsudaira",
+   "place": "Tokyo",
+   "headline": "Navy engineers join the railways",
+   "digest": "With aircraft research banned under the occupation, JNR took on large numbers of former military engineers: of 124 experienced graduates hired in 1945, 82 came from the Army, Navy or the Central Aviation Research Institute, and RTRI's staff rose from 385 to 1,162. Matsudaira, who had studied vibration on the Zero, and Miki were among the Navy men; Kawanabe came from the Army.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Koyama, JSME ICBTT 2002 (figures from RTRI's fifty-year history); Sato Yasushi 2007."
+  },
+  {
+   "date_iso": "1951-04-24",
+   "date_display": "24 April 1951 (Shōwa 26)",
+   "precision": "day",
+   "eye": "shima",
+   "place": "Sakuragichō, Yokohama",
+   "headline": "A train fire, and the chief engineer resigns",
+   "digest": "A fire in an electric train at Sakuragichō station killed more than one hundred people. Shima, head of JNR's rolling-stock work, resigned to take responsibility, as custom expected, and went into private industry. The disaster later shaped his insistence on fire-resistant cars and a 'safety first' design rule.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Hideo Shima encyclopedia article; Smil 2014. Day per standard chronologies."
+  },
+  {
+   "date_iso": "1953",
+   "date_display": "1953 (Shōwa 28)",
+   "precision": "year",
+   "eye": "miki",
+   "place": "RTRI, Tokyo",
+   "headline": "Wind-tunnel tests on the shape of a train",
+   "digest": "At RTRI's vehicle-structure laboratory Miki began wind-tunnel experiments on the outline of high-speed cars, treating a train as a fuselage on the ground. Colleagues later said the team borrowed aircraft design methods for the nose and body.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Koyama, JSME ICBTT 2002; Gendai Business (Tanaka Shin'ichi recollection)."
+  },
+  {
+   "date_iso": "1955",
+   "date_display": "1955 (Shōwa 30)",
+   "precision": "year",
+   "eye": "shima",
+   "place": "JNR headquarters, Tokyo",
+   "headline": "Shima returns as chief engineer",
+   "digest": "Shima left Sumitomo Metal Industries and came back to JNR at Sogō's request. In his memoir he presents the next eight years as one sustained effort to combine proven technologies into a single safe system rather than to invent untried ones.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Shima encyclopedia article; Smil 2014 summary of Shima's memoir (written later)."
+  },
+  {
+   "date_iso": "1955-05",
+   "date_display": "May 1955 (Shōwa 30)",
+   "precision": "month",
+   "eye": "sogo",
+   "place": "JNR headquarters, Tokyo",
+   "headline": "A 71-year-old takes over the railways",
+   "digest": "Sogō Shinji, a retired railway official of the prewar generation, became JNR's fourth president after a run of fatal accidents. He soon asked Shima to return as chief engineer, giving him charge of rolling stock and, in time, the new line.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Shinji Sogō encyclopedia article (year); Shima encyclopedia article (recall in 1955). Month per standard chronologies."
+  },
+  {
+   "date_iso": "1957-05-30",
+   "date_display": "Thursday 30 May 1957 (Shōwa 32)",
+   "precision": "day",
+   "eye": "shinohara",
+   "place": "Yamaha Hall, Ginza, Tokyo",
+   "headline": "The institute goes public on its fiftieth birthday",
+   "digest": "RTRI marked its fiftieth anniversary with a public lecture at Yamaha Hall in Ginza titled on the possibility of a three-hour super-express between Tokyo and Osaka. More than five hundred people came. The new director had wanted the anniversary to show the public what the laboratory could do.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Gendai Business (date, venue, audience over 500); Kanagawa Shimbun (Shinohara's proposal). One company-history digest gives 25 May; 30 May is the date in most accounts."
+  },
+  {
+   "date_iso": "1957-05-30",
+   "date_display": "Thursday 30 May 1957 (Shōwa 32)",
+   "precision": "day",
+   "eye": "miki",
+   "place": "Yamaha Hall, Ginza, Tokyo",
+   "headline": "Miki on a light, streamlined car body",
+   "digest": "Miki spoke on the vehicle: a lightweight, low-drag body shaped from wind-tunnel work, able to run at about 250 km/h. His argument was that Tokyo–Osaka in three hours was an engineering problem already within reach, not a dream.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "RTRI lecture as summarised in Gendai Business and Nippon.com; individual topics follow standard secondary accounts."
+  },
+  {
+   "date_iso": "1957-05-30",
+   "date_display": "Thursday 30 May 1957 (Shōwa 32)",
+   "precision": "day",
+   "eye": "matsudaira",
+   "place": "Yamaha Hall, Ginza, Tokyo",
+   "headline": "Matsudaira on ride and safety at speed",
+   "digest": "Matsudaira addressed riding comfort and stability: the oscillation of bogies at high speed, which had troubled railways everywhere, could be controlled by design. It was the public face of work his group had pursued since the late 1940s.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Lecture as summarised in secondary accounts; Sato Yasushi 2007 on the research behind it."
+  },
+  {
+   "date_iso": "1957-05-30",
+   "date_display": "Thursday 30 May 1957 (Shōwa 32)",
+   "precision": "day",
+   "eye": "kawanabe",
+   "place": "Yamaha Hall, Ginza, Tokyo",
+   "headline": "Kawanabe on signals a driver cannot see",
+   "digest": "Kawanabe spoke on signalling and train protection. At the speeds proposed a driver could not read lineside signals in time, so control had to come into the cab and act on the brakes automatically.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Lecture as summarised in secondary accounts; Koyama 2002 on his laboratory and ATC."
+  },
+  {
+   "date_iso": "1957-06",
+   "date_display": "May–June 1957 (Shōwa 32)",
+   "precision": "range",
+   "eye": "sogo",
+   "place": "JNR headquarters, 9th floor, Tokyo",
+   "headline": "The president orders a repeat performance",
+   "digest": "Hearing of the response to the lecture, Sogō had the researchers give it again for JNR's executives in the president's conference room. Accounts describe him resolving there and then that the line would be built.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Gendai Business (gendai.media/articles/-/96148); date of the repeat not given."
+  },
+  {
+   "date_iso": "1957-07",
+   "date_display": "July 1957 (Shōwa 32)",
+   "precision": "month",
+   "eye": "ishida",
+   "place": "RTRI, Tokyo",
+   "headline": "A future president doubts the need for speed",
+   "digest": "Ishida Reisuke, a businessman who would later succeed Sogō, visited RTRI to watch experiments aimed at 200 km/h running and said he saw no reason a train needed to go so fast and would not ride it himself.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Nishiyama 2014 (chapter excerpt, Project MUSE), from Japanese sources."
+  },
+  {
+   "date_iso": "1957-07-02",
+   "date_display": "2 July 1957 (Shōwa 32)",
+   "precision": "day",
+   "eye": "sogo",
+   "place": "Tokyo",
+   "headline": "A formal request to the Transport Minister",
+   "digest": "Sogō gathered JNR's internal views and asked Transport Minister Miyazawa Tanemu to consider strengthening the Tōkaidō Line's capacity. The request moved the idea from a laboratory lecture into government procedure.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "The Shashi, JNR chapter 2."
+  },
+  {
+   "date_iso": "1957-08-30",
+   "date_display": "30 August 1957 (Shōwa 32)",
+   "precision": "day",
+   "eye": "jnr",
+   "place": "Ministry of Transport, Tokyo",
+   "headline": "A government survey committee is set up",
+   "digest": "The government established the JNR Trunk Line Survey Committee under the Ministry of Transport, chaired by Okura Kimimochi. Its options for relieving the Tōkaidō corridor all ran above ¥100 billion; its starting premise was that nothing less than a prewar-style broad-gauge line would do.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "The Shashi, JNR chapter 2 and 'Shinkansen construction 1959' page."
+  },
+  {
+   "date_iso": "1957-09-28",
+   "date_display": "28 September 1957 (Shōwa 32)",
+   "precision": "day",
+   "eye": "miki",
+   "place": "Tōkaidō Line near Fujisawa",
+   "headline": "A private-line train sets a narrow-gauge record",
+   "digest": "The Odakyū 3000 SE 'Romance Car', a light streamlined train developed with RTRI research, reached 145 km/h on a test run on JNR's Tōkaidō Line, a world record for narrow gauge. For the RTRI engineers it was public proof of their aircraft-derived approach.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Physics Today (Day 2015) for date and speed; Miki's link to the SE design per Japanese accounts."
+  },
+  {
+   "date_iso": "1958-07-07",
+   "date_display": "7 July 1958 (Shōwa 33)",
+   "precision": "day",
+   "eye": "sogo",
+   "place": "Tokyo",
+   "headline": "The estimate: ¥194.8 billion",
+   "digest": "The survey committee reported in favour of a new standard-gauge line, with a total cost estimate of ¥194.8 billion to be raised at home. Later writers, including Vaclav Smil, call the figure unrealistically low; English-language accounts following Christopher Hood report that Sogō kept it low on purpose so the government and lenders would not balk.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "The Shashi (date, figure); Smil 2014; Sogō encyclopedia article citing Hood 2007 (position)."
+  },
+  {
+   "date_iso": "1959",
+   "date_display": "1959–1960 (Shōwa 34–35)",
+   "precision": "range",
+   "eye": "sato",
+   "place": "Ministry of Finance, Tokyo",
+   "headline": "The finance minister suggests a foreign loan",
+   "digest": "Finance Minister Satō Eisaku proposed that JNR borrow from the World Bank. Japanese accounts give the reasoning: a foreign loan would carry a government guarantee and make cancellation politically impossible, even if domestic money ran short.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Trafficnews (financing article); Sogō encyclopedia article. Satō was Finance Minister June 1958–July 1960."
+  },
+  {
+   "date_iso": "1959-03-31",
+   "date_display": "31 March 1959 (Shōwa 34)",
+   "precision": "day",
+   "eye": "jnr",
+   "place": "National Diet, Tokyo",
+   "headline": "The Diet passes the money",
+   "digest": "The 31st session of the Diet approved the funding for the Tōkaidō trunk-line expansion. The line was framed as an addition to the existing Tōkaidō Line rather than an entirely new railway.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "The Shashi, JNR chapter 2; Sogō encyclopedia article on the framing."
+  },
+  {
+   "date_iso": "1959-04-20",
+   "date_display": "Monday 20 April 1959 (Shōwa 34)",
+   "precision": "day",
+   "eye": "sogo",
+   "place": "East portal of the Shin-Tanna tunnel, near Atami",
+   "headline": "Groundbreaking at the tunnel mouth",
+   "digest": "Sogō turned the first earth at the eastern portal of the Shin-Tanna tunnel, near Atami, at a ceremony of about eighty people with a Shinto priest. The site was a wartime bullet-train tunnel taken up again. One account says the ceremonial tool broke in his hands.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "The Shashi (date, place); Trains to Beyond timeline (attendance, broken tool, anecdote treated as approx); Toretabi."
+  },
+  {
+   "date_iso": "1960",
+   "date_display": "1960 (Shōwa 35)",
+   "precision": "year",
+   "eye": "shima",
+   "place": "Washington, D.C.",
+   "headline": "Shima in Washington, arguing 'proven technology'",
+   "digest": "Shima went to Washington to make the technical case for the loan. In his later memoir he describes presenting the line as a careful assembly of tested techniques under a 'safety first' rule, not a leap into the unknown.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Smil 2014, summarising Shima's memoir (written later)."
+  },
+  {
+   "date_iso": "1960-05",
+   "date_display": "May 1960 (Shōwa 35)",
+   "precision": "month",
+   "eye": "worldbank",
+   "place": "Tokyo and the Tōkaidō corridor",
+   "headline": "The Bank's mission inspects the project",
+   "digest": "World Bank representatives visited Japan to appraise the line. The Bank was cautious about financing an experimental high-speed railway; JNR's case stressed that every component had already been proven in service.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Trains to Beyond timeline (visit); Smil 2014 (the Bank's initial view of the risk)."
+  },
+  {
+   "date_iso": "1961",
+   "date_display": "1961 (Shōwa 36)",
+   "precision": "year",
+   "eye": "kawanabe",
+   "place": "Hibiya Line, Tokyo",
+   "headline": "Automatic train control goes into service underground",
+   "digest": "ATC of the kind Kawanabe's laboratory had studied was installed on the Teito Rapid Transit Authority's Hibiya subway line. It was a working precedent at subway speeds for the cab-signal system planned for 200 km/h.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Koyama, JSME ICBTT 2002 (timeline)."
+  },
+  {
+   "date_iso": "1961-05-02",
+   "date_display": "2 May 1961 (Shōwa 36)",
+   "precision": "day",
+   "eye": "worldbank",
+   "place": "Washington, D.C.",
+   "headline": "Loan signed: $80 million for the New Tokaido Line",
+   "digest": "The World Bank signed a loan of $80 million to Japanese National Railways for the New Tokaido Line, at 5.75 per cent. It was the Bank's 26th listed loan to Japan and one of its largest railway loans to that date, though it covered only about a seventh of the eventual cost.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "World Bank, 'World Bank's Loans to Japan' (date, borrower); The Shashi (amount, rate); Smil 2014 (share)."
+  },
+  {
+   "date_iso": "1961-05-02",
+   "date_display": "2 May 1961 (Shōwa 36)",
+   "precision": "day",
+   "eye": "sogo",
+   "place": "Washington, D.C.",
+   "headline": "Sogō signs with Eugene Black",
+   "digest": "Sogō signed the loan agreement with World Bank president Eugene Black. The signature committed the Japanese state, in the eyes of a foreign lender, to finishing the line.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "The Shashi, JNR chapter 2."
+  },
+  {
+   "date_iso": "1962-04",
+   "date_display": "April 1962 (Shōwa 37)",
+   "precision": "month",
+   "eye": "jnr",
+   "place": "Kamonomiya, Odawara",
+   "headline": "The model-line office opens at Kamonomiya",
+   "digest": "JNR set up a model-line management office at Kamonomiya, near Odawara, on a stretch of the future line between there and Ayase. The base was to host a full programme of track, vehicle, power and signalling tests before the rest of the line was finished.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Tabi-mag (Kamonomiya monument page)."
+  },
+  {
+   "date_iso": "1962-05-03",
+   "date_display": "3 May 1962 (Shōwa 37)",
+   "precision": "day",
+   "eye": "sogo",
+   "place": "Mikawashima, Tokyo",
+   "headline": "A triple collision darkens Sogō's last year",
+   "digest": "A multiple-train collision at Mikawashima on the Jōban Line killed about 160 people. It was one of JNR's worst accidents, and it strengthened criticism of a president devoting money and attention to a new prestige line while the existing network was overstretched.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "The Shashi decisions list (1962 accident); casualty figure per standard chronologies."
+  },
+  {
+   "date_iso": "1962-06",
+   "date_display": "June 1962 (Shōwa 37)",
+   "precision": "month",
+   "eye": "jnr",
+   "place": "Kamonomiya model line",
+   "headline": "Test trains begin to run",
+   "digest": "Test running began on the first completed section of the model line, about 11–12 km, with two prototype sets of the 1000 series. Speeds started near 70 km/h and were raised step by step. Digests give the first day as 23, 25 or 26 June.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Trafficnews (model-line article); Tabi-mag (25 June, 11 km); Trains to Beyond (23 June, 12 km)."
+  },
+  {
+   "date_iso": "1962-06",
+   "date_display": "June 1962 onward (Shōwa 37)",
+   "precision": "range",
+   "eye": "matsudaira",
+   "place": "Kamonomiya model line",
+   "headline": "Hunting at speed: the test the bogies had to pass",
+   "digest": "Among the model line's listed test items was suppression of bogie hunting (the self-excited snaking that can derail a car) at high speed, alongside comparisons of axle-box suspensions. This was the problem Matsudaira's group had studied since the late 1940s.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Trafficnews (list of test items); Koyama 2002 and Sato 2007 on Matsudaira's research. No personal log of his is cited."
+  },
+  {
+   "date_iso": "1962-06",
+   "date_display": "June 1962 onward (Shōwa 37)",
+   "precision": "range",
+   "eye": "kawanabe",
+   "place": "Kamonomiya model line",
+   "headline": "ATC trials on the model line",
+   "digest": "The model line tested automatic train control, high-speed braking and the behaviour of the overhead wire with several pantographs. The signalling programme Kawanabe's laboratory had pursued was tried here at speed for the first time.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Trafficnews (test items); Koyama 2002 (Kawanabe's laboratory and ATC)."
+  },
+  {
+   "date_iso": "1962-10",
+   "date_display": "October 1962 (Shōwa 37)",
+   "precision": "month",
+   "eye": "jnr",
+   "place": "Kamonomiya model line",
+   "headline": "200 km/h on a completed test track",
+   "digest": "The model line was extended to its full length (given as 32 km on the monument and 37 km in other accounts) and a 1000-series train passed 200 km/h. Sources give the day as 27 or 31 October.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Trafficnews; Tabi-mag; The Shashi (27 Oct); Koyama (31 Oct)."
+  },
+  {
+   "date_iso": "1963-03-30",
+   "date_display": "Saturday 30 March 1963 (Shōwa 38)",
+   "precision": "day",
+   "eye": "jnr",
+   "place": "Kamonomiya model line",
+   "headline": "256 km/h: an electric-train record",
+   "digest": "Set B of the 1000 series reached 256 km/h on the model line, then a world speed record for an electric train. The test also gathered data on pressure waves in tunnels: passengers' ears popped as trains entered them, and sealing the ventilation inside tunnels largely cured it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Trafficnews (model-line article); Tabi-mag; The Shashi."
+  },
+  {
+   "date_iso": "1963-03-30",
+   "date_display": "30 March 1963 (Shōwa 38)",
+   "precision": "day",
+   "eye": "matsudaira",
+   "place": "Kamonomiya model line",
+   "headline": "Stability at 256 km/h",
+   "digest": "The record run was the practical test of the vibration work: a train that would not hunt at well above its planned 210 km/h. Historians treat Matsudaira's group as central to that result, while noting that the story of 'aircraft men saving the railway' was later simplified.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sato Yasushi 2007 (abstract); Koyama 2002. Matsudaira's own words on the day are not cited."
+  },
+  {
+   "date_iso": "1963-05",
+   "date_display": "May 1963 (Shōwa 38)",
+   "precision": "month",
+   "eye": "sogo",
+   "place": "JNR headquarters, Tokyo",
+   "headline": "Sogō leaves before the line is finished",
+   "digest": "Sogō's second term ended and he was not reappointed, a year and a half before opening. Costs were heading for about ¥380 billion, roughly double the 1958 estimate. Positions differ: Japanese accounts say he was made to take responsibility for the overrun; English accounts following Hood say the low estimate and his diversion of other JNR budgets to the line became political issues; others point also to the Mikawashima accident.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Trafficnews (month, forced to take responsibility); Smil 2014 (¥380bn); Sogō encyclopedia article (diversion); The Shashi (accident link)."
+  },
+  {
+   "date_iso": "1963-05",
+   "date_display": "May 1963 (Shōwa 38)",
+   "precision": "month",
+   "eye": "shima",
+   "place": "JNR headquarters, Tokyo",
+   "headline": "The chief engineer goes with him",
+   "digest": "Shima resigned with Sogō. The system he had designed was by then fixed on paper and largely built; its completion passed to others.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Shima encyclopedia article; Smil 2014; Gendai Business."
+  },
+  {
+   "date_iso": "1963-05",
+   "date_display": "May 1963 (Shōwa 38)",
+   "precision": "month",
+   "eye": "ishida",
+   "place": "JNR headquarters, Tokyo",
+   "headline": "The sceptic becomes president",
+   "digest": "Ishida Reisuke became JNR's fifth president, charged with finishing the line on time for the Olympic year with a budget that had to be enlarged again.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Gendai Business (5th president); month per standard chronologies."
+  },
+  {
+   "date_iso": "1964-07-01",
+   "date_display": "1 July 1964 (Shōwa 39)",
+   "precision": "day",
+   "eye": "jnr",
+   "place": "Kawasaki area",
+   "headline": "The last rail is laid",
+   "digest": "The final rail of the line was laid south of Tokyo in the Kawasaki area. Two weeks later the first production train went on display at Tokyo Station.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Trains to Beyond timeline."
+  },
+  {
+   "date_iso": "1964-07-25",
+   "date_display": "25 July 1964 (Shōwa 39)",
+   "precision": "day",
+   "eye": "jnr",
+   "place": "Tokyo–Osaka",
+   "headline": "A first through run, at walking pace",
+   "digest": "The first test run over the whole route was made at about 30 km/h, a check of clearances and track. Full ATC trials followed in mid-August, and practice runs to the four-hour Hikari and five-hour Kodama schedules in late August.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Trains to Beyond timeline."
+  },
+  {
+   "date_iso": "1964-09-04",
+   "date_display": "Issue of 4 September 1964",
+   "precision": "day",
+   "eye": "time",
+   "place": "Tokyo–Osaka",
+   "headline": "An American weekly rides the test train",
+   "digest": "Time reported a test run of the 'Hikari' that covered roughly 320 miles from Tokyo to Osaka in 3 hours 56 minutes with stops at Nagoya and Kyoto, often touching 125 mph. The writer described crowds waving, traffic stopping and press planes overhead, and listed 548 bridges, 66 tunnels and 57 miles of viaduct, and a cost near $1 billion.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Time, 'Japan: Fast Ride to Osaka', issue of 4 September 1964 (time.com archive). The run itself took place shortly before the issue date."
+  },
+  {
+   "date_iso": "1964-09-17",
+   "date_display": "17 September 1964 (Shōwa 39)",
+   "precision": "day",
+   "eye": "jnr",
+   "place": "Tokyo",
+   "headline": "Final inspection clears the opening date",
+   "digest": "The completion inspection confirmed that service could begin on 1 October as planned.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "The Shashi, JNR chapter 2."
+  },
+  {
+   "date_iso": "1964-10-01",
+   "date_display": "Thursday 1 October 1964 (Shōwa 39), 6:00",
+   "precision": "day",
+   "eye": "ishida",
+   "place": "Tokyo Station, platform 19",
+   "headline": "Ribbon cut, Hikari 1 leaves at six",
+   "digest": "Hikari 1 was at platform 19 by 5:40. A brass band played; Ishida read a message for the governor and mayor of Osaka and handed it to the conductor; at the bell he cut the ribbon and the full train left for Shin-Osaka at 6:00. The Tokyo governor stood beside him.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Trafficnews 'Shinkansen opening'; Gendai Business; Toretabi."
+  },
+  {
+   "date_iso": "1964-10-01",
+   "date_display": "Thursday 1 October 1964 (Shōwa 39), 6:00",
+   "precision": "day",
+   "eye": "jnr",
+   "place": "Shin-Osaka station",
+   "headline": "Hikari 2 leaves Osaka at the same moment",
+   "digest": "A matching ceremony sent Hikari 2 from Shin-Osaka towards Tokyo at the same hour. Because the new roadbed had not settled, top speed was held at 200 km/h (the design figure was 210) and the Hikari timing was four hours, the Kodama five, with 60 trains a day. The names had been chosen by a public vote of about 560,000 entries.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Trafficnews 'Shinkansen opening'; The Shashi; Toretabi."
+  },
+  {
+   "date_iso": "1964-10-01",
+   "date_display": "Thursday 1 October 1964 (Shōwa 39), about 10:00",
+   "precision": "day",
+   "eye": "emperor",
+   "place": "JNR headquarters, Tokyo",
+   "headline": "The Emperor speaks at the opening ceremony",
+   "digest": "At the formal ceremony at JNR headquarters, attended by the Emperor and Empress, the Emperor praised the completion of the line in spite of many difficulties and expressed the hope that railway workers would keep improving capacity and safety.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Trafficnews 'Shinkansen opening' (summary of the published address, 10:10); Gendai Business."
+  },
+  {
+   "date_iso": "1964-10-01",
+   "date_display": "Thursday 1 October 1964 (Shōwa 39)",
+   "precision": "day",
+   "eye": "sogo",
+   "place": "Tokyo",
+   "headline": "The father of the line is not invited",
+   "digest": "Sogō, who had launched the project, was not invited to the departure ceremony or the formal opening. The historian Takashi Nishiyama writes that he and Shima followed it on television with RTRI engineers.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Trafficnews (not invited); Gendai Business; Nishiyama 2014 excerpt (watching on television). Where he watched is told differently in other accounts."
+  },
+  {
+   "date_iso": "1964-10-01",
+   "date_display": "Thursday 1 October 1964 (Shōwa 39)",
+   "precision": "day",
+   "eye": "shima",
+   "place": "Tokyo",
+   "headline": "The chief engineer watches from outside",
+   "digest": "Shima, too, was absent from the ceremonies. In later life he spoke of the line as the work of many engineers rather than his own.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Gendai Business (not invited); Nishiyama 2014 excerpt."
+  },
+  {
+   "date_iso": "1964-10-01",
+   "date_display": "Thursday 1 October 1964",
+   "precision": "day",
+   "eye": "upi",
+   "place": "Tokyo",
+   "headline": "The wire calls it the 'dream train'",
+   "digest": "A UPI item told foreign readers that Japan's new electric 'dream train' had left Tokyo that morning on a 347-mile maiden run to Osaka at up to 125 mph, timed to begin before the Olympic Games opened on 10 October. Opening-day passengers appear in such reports only as a full train.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "UPI item as reproduced on 'The 60s at 50' (1 October 1964)."
+  },
+  {
+   "date_iso": "1965-11-01",
+   "date_display": "1 November 1965 (Shōwa 40)",
+   "precision": "day",
+   "eye": "jnr",
+   "place": "Tokyo–Shin-Osaka",
+   "headline": "Three hours ten minutes",
+   "digest": "With the roadbed settled, a new timetable cut the Hikari to 3 hours 10 minutes and the Kodama to 4 hours. The figure was close to the three hours promised at Yamaha Hall eight years before.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Toretabi (date, times)."
+  },
+  {
+   "date_iso": "1969",
+   "date_display": "1969 (Shōwa 44)",
+   "precision": "year",
+   "eye": "shima",
+   "place": "Tokyo",
+   "headline": "From trains to rockets",
+   "digest": "Shima became the first president of Japan's National Space Development Agency (NASDA), where he pressed for hydrogen-fuelled rocket engines. He retired in 1977.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Shima encyclopedia article; Seattle Times obituary (1998)."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1957-05-30",
+   "date_display": "30 May 1957",
+   "eye": "shinohara",
+   "claim": "RTRI lecture at Ginza Yamaha Hall proposes Tokyo–Osaka in 3 hours at about 250 km/h; audience over 500",
+   "form": "conceived",
+   "evidence": "Gendai Business; Nippon.com; RTRI histories",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1957-09-28",
+   "date_display": "28 September 1957",
+   "eye": "miki",
+   "claim": "Odakyū 3000 SE reaches 145 km/h on the Tōkaidō Line, a narrow-gauge world record",
+   "form": "record",
+   "evidence": "Physics Today (Day 2015)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1958-07-07",
+   "date_display": "7 July 1958",
+   "eye": "sogo",
+   "claim": "Survey committee estimate of ¥194.8 billion for a new standard-gauge line; later called deliberately or unrealistically low (positions)",
+   "form": "other",
+   "evidence": "The Shashi; Smil 2014; Hood 2007 as cited",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1959-04-20",
+   "date_display": "20 April 1959",
+   "eye": "sogo",
+   "claim": "Groundbreaking at the east portal of the Shin-Tanna tunnel",
+   "form": "built",
+   "evidence": "The Shashi; Toretabi; Trains to Beyond",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1961-05-02",
+   "date_display": "2 May 1961",
+   "eye": "worldbank",
+   "claim": "World Bank loan of $80 million at 5.75% signed with JNR for the New Tokaido Line",
+   "form": "other",
+   "evidence": "World Bank list of loans to Japan; The Shashi",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1962-06",
+   "date_display": "June 1962",
+   "eye": "jnr",
+   "claim": "Test running begins on the first 11–12 km of the Kamonomiya model line with 1000-series prototypes",
+   "form": "tested",
+   "evidence": "Trafficnews; Tabi-mag; Trains to Beyond",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1962-10",
+   "date_display": "October 1962",
+   "eye": "jnr",
+   "claim": "200 km/h passed on the completed model line (day given as 27 or 31 October)",
+   "form": "tested",
+   "evidence": "The Shashi; Koyama 2002; Trafficnews",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1963-03-30",
+   "date_display": "30 March 1963",
+   "eye": "jnr",
+   "claim": "1000-series set B reaches 256 km/h, a world record for electric trains",
+   "form": "record",
+   "evidence": "Trafficnews; Tabi-mag; The Shashi",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1963-05",
+   "date_display": "May 1963",
+   "eye": "sogo",
+   "claim": "Sogō not reappointed and Shima resigns as costs head towards about ¥380 billion, roughly double the estimate; blame assigned differently by different accounts",
+   "form": "other",
+   "evidence": "Trafficnews; Smil 2014; Sogō encyclopedia article",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1964-09-04",
+   "date_display": "Time issue of 4 September 1964",
+   "eye": "time",
+   "claim": "Test Hikari runs Tokyo–Osaka (about 320 miles) in 3 h 56 min with two stops, peaking near 125 mph",
+   "form": "tested",
+   "evidence": "Time, 'Japan: Fast Ride to Osaka'",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1964-10-01",
+   "date_display": "1 October 1964",
+   "eye": "ishida",
+   "claim": "Line opens: Hikari 1 (Tokyo) and Hikari 2 (Shin-Osaka) depart at 6:00; 515 km in 4 hours at up to 200 km/h; 60 trains a day",
+   "form": "opened",
+   "evidence": "Trafficnews; The Shashi; Toretabi",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1965-11-01",
+   "date_display": "1 November 1965",
+   "eye": "jnr",
+   "claim": "Hikari timing cut to 3 h 10 min, Kodama to 4 h",
+   "form": "record",
+   "evidence": "Toretabi",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1957-05-30",
+   "label": "The Yamaha Hall lecture",
+   "eyes": [
+    "shinohara",
+    "miki",
+    "matsudaira",
+    "kawanabe"
+   ],
+   "note": "Four researchers, two of them former Navy aircraft engineers and one from the Army, divide the problem into body, ride and signals before a paying public. The director saw a birthday showcase; the speakers saw a proof that the war's aeronautics could serve peace."
+  },
+  {
+   "date": "1957-07",
+   "label": "The idea reaches the top",
+   "eyes": [
+    "sogo",
+    "ishida",
+    "jnr"
+   ],
+   "note": "Within weeks Sogō has the lecture repeated for his executives and writes to the Transport Minister, while Ishida, his eventual successor, tours the laboratory and doubts that anyone needs such speed."
+  },
+  {
+   "date": "1959-04-20",
+   "label": "Groundbreaking at Shin-Tanna",
+   "eyes": [
+    "sogo",
+    "jnr"
+   ],
+   "note": "The ceremony takes place at a tunnel begun for the wartime bullet train, a reminder that the 'new' line ran partly on old plans and land."
+  },
+  {
+   "date": "1961-05-02",
+   "label": "The World Bank loan",
+   "eyes": [
+    "worldbank",
+    "sogo",
+    "shima",
+    "sato"
+   ],
+   "note": "For the Bank it was a cautious loan for proven railway technology; for Satō it was a lock against cancellation; for Shima, who had argued the case in Washington, it was vindication of 'safety first' engineering; for Sogō it was the guarantee that the line would be finished, with or without him."
+  },
+  {
+   "date": "1963-03-30",
+   "label": "256 km/h at Kamonomiya",
+   "eyes": [
+    "jnr",
+    "matsudaira",
+    "kawanabe"
+   ],
+   "note": "The record was the joint test of stable bogies, cab signalling and the track; the engineers' own words on the day are not preserved in the sources used here, only the institution's figure."
+  },
+  {
+   "date": "1963-05",
+   "label": "Sogō and Shima leave; Ishida arrives",
+   "eyes": [
+    "sogo",
+    "shima",
+    "ishida"
+   ],
+   "note": "The men who launched the project depart with the line built but over budget; the sceptic of 1957 takes charge of finishing it."
+  },
+  {
+   "date": "1964-10-01",
+   "label": "Opening day",
+   "eyes": [
+    "ishida",
+    "jnr",
+    "emperor",
+    "upi",
+    "sogo",
+    "shima"
+   ],
+   "note": "Ribbon, band and imperial address in Tokyo; a matching send-off at Shin-Osaka; a few lines on the wires abroad; and, by the account of one historian, the founder and his chief engineer watching on television."
+  }
+ ],
+ "ties": [
+  {
+   "a": "sogo",
+   "b": "shima",
+   "kind": "met",
+   "note": "Sogō brought Shima back to JNR in 1955 and made him chief engineer; they left together in 1963."
+  },
+  {
+   "a": "miki",
+   "b": "matsudaira",
+   "kind": "met",
+   "note": "Both former engineers of the Navy's Air Technical Arsenal, both at RTRI after 1945, and fellow speakers at Yamaha Hall."
+  },
+  {
+   "a": "matsudaira",
+   "b": "kawanabe",
+   "kind": "met",
+   "note": "Colleagues and co-speakers in 1957, from opposite services: Matsudaira from the Navy, Kawanabe from the Army."
+  },
+  {
+   "a": "shinohara",
+   "b": "miki",
+   "kind": "met",
+   "note": "The new director proposed the anniversary event at which Miki and his colleagues spoke."
+  },
+  {
+   "a": "sogo",
+   "b": "ishida",
+   "kind": "opposite sides",
+   "note": "Ishida doubted the need for high speed in 1957, then succeeded Sogō in 1963 and opened the line Sogō had begun."
+  },
+  {
+   "a": "sato",
+   "b": "sogo",
+   "kind": "influenced",
+   "note": "Satō, as Finance Minister, is credited with suggesting the World Bank loan that Sogō then pursued."
+  },
+  {
+   "a": "sogo",
+   "b": "worldbank",
+   "kind": "met",
+   "note": "Sogō signed the loan agreement with World Bank president Eugene Black on 2 May 1961."
+  },
+  {
+   "a": "shima",
+   "b": "worldbank",
+   "kind": "met",
+   "note": "Shima argued the technical case for the loan in Washington in 1960."
+  },
+  {
+   "a": "ishida",
+   "b": "emperor",
+   "kind": "met",
+   "note": "Both took part in the ceremonies of 1 October 1964: Ishida on the platform at dawn, the Emperor at JNR headquarters at mid-morning."
+  },
+  {
+   "a": "time",
+   "b": "upi",
+   "kind": "read each other",
+   "note": "Two American outlets carried the same figures (125 mph, about four hours) to foreign readers a month apart."
+  },
+  {
+   "a": "miki",
+   "b": "shima",
+   "kind": "influenced",
+   "note": "Miki's aerodynamic, lightweight car bodies fitted Shima's distributed-power electric train; the 0 series combined both."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "rainhill-1830",
+   "note": "Japan built its railways from 1872 to a 1,067 mm narrow gauge; the Shinkansen was the first Japanese trunk line laid to the 1,435 mm standard gauge that descends from George Stephenson's lines, including the Liverpool and Manchester of the Rainhill trials."
+  },
+  {
+   "to": "jet-age",
+   "note": "The line was planned as commercial jets arrived (1958) and was sold partly as an answer to costly, frequent Tokyo–Osaka flights; its body shapes came from former aircraft designers using wind tunnels."
+  },
+  {
+   "to": "v1:japan-1945",
+   "note": "The occupation's ban on aircraft work after the 1945 surrender sent Navy and Army engineers, among them Miki Tadanao (Ginga bomber, Ōka airframe) and Matsudaira Tadashi (Zero vibration studies), into the railways' research institute."
+  },
+  {
+   "to": "v2:black-ships",
+   "note": "Perry's second visit in 1854 brought a working miniature steam locomotive, run on a circular track at Yokohama, often cited as Japan's first sight of a railway; 110 years later Japan opened the world's first high-speed line."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.koho.metro.tokyo.lg.jp/photo/en/tokyoarchive/0011508.html",
+   "title": "Shinkansen opening (view from the roof of the Imperial Hotel)",
+   "caption": "Photograph from the Tokyo Metropolitan Government archive, catalogued as the Shinkansen opening seen from the roof of the Imperial Hotel, dated October 1964; the line's viaduct runs past the hotel between Tokyo and Shinbashi.",
+   "date": "October 1964",
+   "credit": "Tokyo Metropolitan Government"
+  },
+  {
+   "url": "https://www.kyotorailwaymuseum.jp/en/vehicle/",
+   "title": "0-series cars 21-1, 16-1, 35-1 and 22-1",
+   "caption": "The museum's collection page for four preserved first-of-type 0-series cars built by Nippon Sharyo in 1964; car 21-1 ran about 6 million km before retirement in March 1978.",
+   "date": "1964 (cars); modern museum page",
+   "credit": "Kyoto Railway Museum"
+  },
+  {
+   "url": "https://jsme.or.jp/kikaiisan/heritage_011_en.html",
+   "title": "Mechanical Engineering Heritage No. 11: 0-Series Tokaido-Shinkansen EMUs",
+   "caption": "The Japan Society of Mechanical Engineers' heritage record for the preserved 0-series units, with notes on the 1,435 mm gauge and 210 km/h design speed.",
+   "date": "modern record",
+   "credit": "Japan Society of Mechanical Engineers"
+  },
+  {
+   "url": "https://www.inventionandtech.com/landmark_landing/80408",
+   "title": "Tokaido Shinkansen landmark entry",
+   "caption": "Invention & Technology's landmark page on the line, with a modern photograph of an 0-series train (Roger Wollstadt, CC BY-SA 2.0); not a 1964 image.",
+   "date": "modern photograph",
+   "credit": "Roger Wollstadt / Invention & Technology"
+  }
+ ],
+ "further": [
+  {
+   "title": "Vaclav Smil, 'Fifty Years of the Shinkansen', The Asia-Pacific Journal (2014)",
+   "url": "https://apjjf.org/?p=15008"
+  },
+  {
+   "title": "Takashi Nishiyama, Engineering War and Peace in Modern Japan, 1868–1964 (2014), chapter excerpt",
+   "url": "https://muse.jhu.edu/books/9781421412672/9781421412672-13.pdf"
+  },
+  {
+   "title": "Tetsuo Shimomae, Birth of the Shinkansen: The Origin Story of the World-First Bullet Train (Springer, 2022)",
+   "url": "https://link.springer.com/book/10.1007/978-981-16-6538-7"
+  },
+  {
+   "title": "Sato Yasushi, 'The Engineering Culture of the Japanese National Railways around World War II' (2007)",
+   "url": "https://www.jstage.jst.go.jp/article/jhsj/46/244/46_209/_article/-char/en"
+  },
+  {
+   "title": "Toru Koyama, RTRI and former military engineers (JSME ICBTT 2002)",
+   "url": "https://jsme.or.jp/tsd/ICBTT/conference02/ToruKOYAMA.html"
+  },
+  {
+   "title": "World Bank, 'World Bank's Loans to Japan'",
+   "url": "https://www.worldbank.org/en/country/japan/brief/world-banks-loans-to-japan"
+  },
+  {
+   "title": "Trains to Beyond, 'Bullet at 60' timeline",
+   "url": "https://trainstobeyond.com/bullet-at-60-timeline/"
+  }
+ ],
+ "vantage_key": "0 = principals who conceived, designed or decided the line; 1 = engineers, officials and ceremonies on the scene; 2 = government in Tokyo at one remove; 3 = the foreign lender; 4 = foreign press."
+}

@@ -1,0 +1,254 @@
+[
+ {
+  "chapter": "babylon-331",
+  "where": "intro:2",
+  "severity": "error",
+  "problem": "Diodorus wrote c. 60-30 BC, about 270-290 years after the events, not 300+; the chapter's own Diodorus eye and vantage_key say c. 270.",
+  "fix": {
+   "text_replace": {
+    "old": "wrote between about 300 and 450 years after the events",
+    "new": "wrote between about 270 and 450 years after the events"
+   }
+  }
+ },
+ {
+  "chapter": "babylon-331",
+  "where": "entry:7",
+  "severity": "quote",
+  "problem": "Quote 'king of the world' is a modern translation of Akkadian (šar kiššati), not a pre-1929 English original; the headline also puts the translated phrase in quotation marks.",
+  "fix": {
+   "quote": "",
+   "headline": "The king of the world raises his standard; Darius's army breaks"
+  }
+ },
+ {
+  "chapter": "babylon-331",
+  "where": "entry:30",
+  "severity": "quote",
+  "problem": "Quote 'The king died.' is a modern translation of the Akkadian; the headline puts a translated sentence in quotation marks.",
+  "fix": {
+   "quote": "",
+   "headline": "The king dies; then, clouds"
+  }
+ },
+ {
+  "chapter": "babylon-331",
+  "where": "convergence:5",
+  "severity": "quote",
+  "problem": "Note puts the translated Akkadian sentence in quotation marks ('the king died').",
+  "fix": {
+   "text_replace": {
+    "old": "wrote 'the king died' under 29 Ayyāru",
+    "new": "wrote that the king died under 29 Ayyāru"
+   }
+  }
+ },
+ {
+  "chapter": "babylon-331",
+  "where": "entry:3",
+  "severity": "quote",
+  "problem": "Quote is attributed to the Perrin (1919) translation, but the wording 'the moon suffered an eclipse' could not be confirmed; Perrin's 31.4 is usually rendered along the lines of 'the eclipse of the moon in the month Boëdromion'. Check it against Perrin, or remove the quote.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "first-contact",
+  "where": "intro:3",
+  "severity": "error",
+  "problem": "The 'good servants' remark is in the landfall entry (11-12 Oct 1492), as entry 2 itself says, not on his second day.",
+  "fix": {
+   "text_replace": {
+    "old": "Columbus noted on his second day that the islanders could be made servants",
+    "new": "Columbus noted on the day of landfall that the islanders would make good servants"
+   }
+  }
+ },
+ {
+  "chapter": "first-contact",
+  "where": "intro:4",
+  "severity": "doubt",
+  "problem": "In late August 1520 the Spaniards had already been driven out of Tenochtitlan (Noche Triste, 30 June-1 July) and the city was not 'gripped by fighting'. Smallpox arrived about September-October.",
+  "fix": {
+   "text_replace": {
+    "old": "the same weeks in which Tenochtitlan was gripped by fighting and, soon, by smallpox",
+    "new": "weeks after the Spaniards had been driven out of Tenochtitlan and just before smallpox reached it"
+   }
+  }
+ },
+ {
+  "chapter": "first-contact",
+  "where": "entry:25",
+  "severity": "error",
+  "problem": "Cortés's Second Letter puts his losses at about 150 Spaniards (plus 45 horses) and over 2,000 allies, not 'hundreds of Spaniards'. The higher figures come from Díaz and others.",
+  "fix": {
+   "digest": "After Moctezuma's death and weeks of fighting, the Spaniards and their Tlaxcalan allies try to slip out along the causeway at night with as much gold as they can carry. They are discovered, the bridges are cut, and many drown or are killed. Cortés gives his losses as about 150 Spaniards and more than two thousand allies; other witnesses put the Spanish dead far higher, and the real number is unknown."
+  }
+ },
+ {
+  "chapter": "first-contact",
+  "where": "entry:39",
+  "severity": "doubt",
+  "problem": "Cortés's Third Letter gives the siege as seventy-five days (from 30 May to 13 August), not 'some eighty'.",
+  "fix": {
+   "digest": "Cortés reports that after seventy-five days of siege, by his count, with most of the city destroyed, a brigantine captured Cuauhtémoc's canoe on the lake and brought him to Cortés. He writes of the hunger and dead in the last quarter held by the defenders in sober-sounding numbers, and as if the outcome had been God's will."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "first-contact",
+  "where": "entry:28",
+  "severity": "quote",
+  "problem": "Headline puts a translated sentence of Dürer's German ('nothing has so moved my heart') in quotation marks, and it is not a pre-1929 English wording.",
+  "fix": {
+   "headline": "Mexican gold in Brussels moves Dürer's heart"
+  }
+ },
+ {
+  "chapter": "first-contact",
+  "where": "entry:40",
+  "severity": "quote",
+  "problem": "Headline puts a translated Nahuatl sentence ('The war ended') in quotation marks.",
+  "fix": {
+   "headline": "The war ends: Cuauhtémoc goes to the Spaniards"
+  }
+ },
+ {
+  "chapter": "first-contact",
+  "where": "threads_out:4",
+  "severity": "doubt",
+  "problem": "By 1529 the Austrian Habsburg lands belonged to Charles V's brother Ferdinand (1521-22 partition), so it was Ferdinand, not Charles, who ruled them when Vienna was besieged.",
+  "fix": {
+   "text_replace": {
+    "old": "also ruled the Habsburg lands that would face the Ottomans at Vienna in 1529 and again in 1683",
+    "new": "was brother and overlord of Ferdinand, whose Austrian Habsburg lands faced the Ottomans at Vienna in 1529, as their successors did again in 1683"
+   }
+  }
+ },
+ {
+  "chapter": "first-contact",
+  "where": "eye:pigafetta",
+  "severity": "doubt",
+  "problem": "Pigafetta seems to have been admitted to the Order of Rhodes only after the voyage (c. 1524), when he dedicated his account to Grand Master Villiers de l'Isle-Adam. Calling him a Knight of Rhodes at embarkation is probably anachronistic.",
+  "fix": {
+   "text_replace": {
+    "old": "Gentleman volunteer from Vicenza, a Knight of Rhodes, aged about 28,",
+    "new": "Gentleman volunteer from Vicenza (later a Knight of Rhodes), aged about 28,"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "ming-qing",
+  "where": "entry:15",
+  "severity": "doubt",
+  "problem": "In September 1644 the Japanese era was still Kan'ei 21. The change to Shōhō came on Kan'ei 21/12/16 (early 1645), so 'Shōhō 1, 8th month' is a retrospective label. The calendar_note's 'Shōhō 1–3' has the same issue.",
+  "fix": {
+   "date_display": "Kan'ei 21 (later counted as Shōhō 1), 8th month (September 1644)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "ming-qing",
+  "where": "intro:2",
+  "severity": "doubt",
+  "problem": "The Hayashi did not name the file when the news came in 1644. The title Ka'i hentai was given decades later (Gahō's preface, 1670s), as the eye's own bio says ('later named').",
+  "fix": {
+   "text_replace": {
+    "old": "A Japanese scholar hears of it all five months late and names his file 'the transformation from civilised to barbarian'.",
+    "new": "A Japanese scholar's office hears of it all five months late, and his file of such reports is later named 'the transformation from civilised to barbarian'."
+   }
+  }
+ },
+ {
+  "chapter": "ming-qing",
+  "where": "entry:28",
+  "severity": "doubt",
+  "problem": "Sohyeon reached Seoul in mid-March 1645 (2nd lunar month, 18th day) and died on 21 May, about two months later, not 'a few weeks'. The eye bio says 'weeks' too.",
+  "fix": {
+   "text_replace": {
+    "old": "a few weeks after coming home",
+    "new": "about two months after coming home"
+   }
+  }
+ },
+ {
+  "chapter": "ming-qing",
+  "where": "eye:sohyeon",
+  "severity": "doubt",
+  "problem": "Same issue as entry 28: he died about two months after returning, not weeks.",
+  "fix": {
+   "text_replace": {
+    "old": "He died weeks after returning to Seoul",
+    "new": "He died about two months after returning to Seoul"
+   }
+  }
+ },
+ {
+  "chapter": "opium-war",
+  "where": "entry:31",
+  "severity": "error",
+  "problem": "Yu Baochun was the Prefect of Guangzhou (as the digest says), not a governor.",
+  "fix": {
+   "headline": "Thousands on the hills, then a prefect's appeal"
+  }
+ },
+ {
+  "chapter": "opium-war",
+  "where": "eye:yangqi",
+  "severity": "error",
+  "problem": "Yang Qi's memoir is 出圍城記, romanised Chu weicheng ji ('Getting Out of the Beleaguered City'), not 'Cao weicheng ji'.",
+  "fix": {
+   "text_replace": {
+    "old": "Cao weicheng ji",
+    "new": "Chu weicheng ji"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "opium-war",
+  "where": "threads_out:1",
+  "severity": "doubt",
+  "problem": "The Haiguo tuzhi reached Japan only around 1851, was at first restricted, and was widely reprinted and read in 1854-56, after Perry's first visit. 'Read closely in Japan before Perry arrived' overstates it.",
+  "fix": {
+   "text_replace": {
+    "old": "was read closely in Japan before Perry arrived in 1853",
+    "new": "was read closely in Japan in the years around Perry's arrival in 1853"
+   }
+  }
+ },
+ {
+  "chapter": "opium-war",
+  "where": "entry:37",
+  "severity": "doubt",
+  "problem": "British losses at Zhenjiang are usually given as about 37 killed, 131 wounded and 3 missing, with further deaths from sunstroke counted separately. '34 killed ... about 130 wounded, many of them from sunstroke' mixes the heat deaths into the wounded. Re-check the figure against Elliott or Ouchterlony.",
+  "fix": null,
+  "confidence": "approx"
+ },
+ {
+  "chapter": "opium-war",
+  "where": "intro:2",
+  "severity": "doubt",
+  "problem": "Compiler's process language ('because I could not check the original pages') has leaked into the published text. Similar first-person notes appear in the authenticity fields of the eyes forbes, king, macpherson, zhu and loch ('I could not open', 'I did not see', 'My reading', 'I know it through') and in the calendar_note ('I use their Western conversions'). Recast them in the impersonal voice.",
+  "fix": {
+   "text_replace": {
+    "old": "because I could not check the original pages",
+    "new": "because the original pages could not be checked"
+   }
+  }
+ },
+ {
+  "chapter": "opium-war",
+  "where": "calendar_note",
+  "severity": "doubt",
+  "problem": "First-person compiler voice in the calendar note.",
+  "fix": {
+   "text_replace": {
+    "old": "and I use their Western conversions",
+    "new": "and their Western conversions are used here"
+   }
+  }
+ }
+]

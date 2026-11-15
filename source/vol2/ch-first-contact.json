@@ -1,0 +1,1308 @@
+{
+ "id": "first-contact",
+ "title": "First Contact",
+ "short_title": "First Contact, 1492–1522",
+ "subtitle": "The Caribbean, Mexico, the Pacific and Europe's reaction, 1492–1522",
+ "span": "1492–1522",
+ "intro": [
+  "In thirty years the oceans closed into one world. In October 1492 a Genoese captain stepped onto an island in the Bahamas and met the Taíno; in November 1519 a Spanish captain met Moctezuma on the causeway of Tenochtitlan, a city larger than any in Spain; in April 1521 Magellan died in the shallows of Mactan; and in September 1522 eighteen men brought the battered Victoria home, having gone round the earth. In between, the Taíno population of the Caribbean collapsed, and the Mexica capital fell after a siege and an epidemic.",
+  "This chapter must be honest about its sources. There are almost no diaries here. The European record is logs, dated letters and later memoirs: Columbus's log survives only in Bartolomé de las Casas's later abstract; Cortés's letters are legal self-defence addressed to his king; Pigafetta wrote up his journal after he got home; Bernal Díaz wrote nearly fifty years on. Some of the most quoted texts — Vespucci's printed letters above all — are disputed.",
+  "The Indigenous record is later still, and that asymmetry must not be smoothed over. The Taíno left no written account at all; what we have is a friar's report of their beliefs, surviving only in Italian translation. The Nahua accounts — the Annals of Tlatelolco and Book XII of the Florentine Codex — were set down in Nahuatl a generation or more after 1521, the Annals perhaps in the 1540s and Book XII about 1555, under the eyes of friars. The people of Mactan left oral tradition, not text. Placing these sources on the same timeline as Cortés does not make them equal witnesses of the same moment; their dates are marked approximate, and their value is that they are the other side's memory, not that they are contemporaneous.",
+  "The conquest was violent, and this chapter treats that soberly: what the writers recorded, the scale where it can be known, and how they justified or mourned it. Columbus noted on his second day that the islanders could be made servants; Cortés described the destruction of a city he admired; the Nahua elders remembered the Toxcatl massacre, the sixty days of smallpox and the hunger of the siege. Disease, not only steel, decided much of the outcome.",
+  "Then there is Europe watching. Peter Martyr at the Spanish court heard every returning captain and called it a new world within months of Columbus's return. Albrecht Dürer, in Brussels in August 1520, saw the gold sun and silver moon Moctezuma had given Cortés and wrote that nothing in his life had moved him so — the same weeks in which Tenochtitlan was gripped by fighting and, soon, by smallpox. Read across, these eyes show wonder, greed, grief and misunderstanding happening at the same time, on different sides of the world."
+ ],
+ "calendar_note": "All European dates in this chapter are Julian (Old Style), as historians cite them for this period; the Gregorian reform came only in 1582. To convert to the modern calendar add 9 days for dates before March 1500 and 10 days after (so the 12 October 1492 landfall is 21 October in Gregorian terms). date_iso values are therefore proleptic-Julian sortable dates. Nahua sources count in their own 365-day year and 260-day cycle; correlations such as 'day One Serpent, year Three House' = 13 August 1521 are standard but the festival months (Toxcatl, Tepeilhuitl) map only approximately to European months. Pigafetta's dates are the ship's own reckoning, which — as he discovered at Cape Verde — had fallen one day behind by July 1522.",
+ "eyes": [
+  {
+   "id": "columbus",
+   "short": "Columbus",
+   "name": "Christopher Columbus (Cristoforo Colombo / Cristóbal Colón)",
+   "life": "1451–1506",
+   "role": "Genoese navigator, aged about 41, sailing for Castile as 'Admiral of the Ocean Sea'",
+   "side": "Crown of Castile",
+   "where": "Aboard the Santa María; Guanahani (Bahamas), Cuba and Hispaniola, Oct 1492–Mar 1493",
+   "lat": 24.05,
+   "lon": -74.5,
+   "waypoints": [
+    {
+     "lat": 37.23,
+     "lon": -6.89,
+     "label": "Palos, 3 Aug 1492"
+    },
+    {
+     "lat": 24.05,
+     "lon": -74.5,
+     "label": "Guanahani, 12 Oct 1492"
+    },
+    {
+     "lat": 19.75,
+     "lon": -72.2,
+     "label": "La Navidad, 25 Dec 1492"
+    },
+    {
+     "lat": 37.23,
+     "lon": -6.89,
+     "label": "Palos, 15 Mar 1493"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the commander making the first landfall",
+   "form": "log",
+   "language": "Spanish (Castilian)",
+   "authenticity": "The original log and the copy made for Columbus are lost. What survives is Bartolomé de las Casas's abstract (Biblioteca Nacional, Madrid), made decades later, mostly in Las Casas's third-person paraphrase with some passages he says are Columbus's own words. Treat every 'entry' as filtered through a later editor; first printed by Navarrete in 1825.",
+   "bio": "The navigator who expected Asia and kept insisting he had found it. His log, even in abstract, records the very first written impressions of the Taíno — admiration, misunderstanding, and from the second day a calculating eye on gold and on how easily the people could be ruled. It is the founding document of the encounter and of its injustices.",
+   "sources": [
+    {
+     "title": "'Christopher Columbus's journal' (manuscript history, Las Casas abstract)",
+     "url": "https://en.wikipedia.org/wiki/Christopher_Columbus%27s_journal"
+    },
+    {
+     "title": "Columbus, journal of the first voyage (excerpted English translation, PDF)",
+     "url": "https://span2910brooklyn.commons.gc.cuny.edu/wp-content/blogs.dir/8374/files/2019/08/Columbus_First-Voyage.pdf"
+    },
+    {
+     "title": "Guanahani (the landfall island and its identification)",
+     "url": "https://en.wikipedia.org/wiki/Guanahani"
+    }
+   ]
+  },
+  {
+   "id": "chanca",
+   "short": "Dr Chanca",
+   "name": "Diego Álvarez Chanca",
+   "life": "c. 1450–c. 1515",
+   "role": "Physician to the royal household, fleet doctor on Columbus's second voyage (17 ships, c. 1,200–1,500 men)",
+   "side": "Crown of Castile",
+   "where": "Lesser Antilles and Hispaniola, Nov 1493–Feb 1494",
+   "lat": 19.89,
+   "lon": -71.08,
+   "waypoints": [
+    {
+     "lat": 36.53,
+     "lon": -6.29,
+     "label": "Cádiz, 25 Sep 1493"
+    },
+    {
+     "lat": 16.25,
+     "lon": -61.58,
+     "label": "Guadeloupe, Nov 1493"
+    },
+    {
+     "lat": 19.75,
+     "lon": -72.2,
+     "label": "La Navidad, 28 Nov 1493"
+    },
+    {
+     "lat": 19.89,
+     "lon": -71.08,
+     "label": "La Isabela, early 1494"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "eyewitness on the colonising voyage",
+   "form": "dated letters",
+   "language": "Spanish (Castilian)",
+   "authenticity": "A single long letter to the city council (cabildo) of Seville, sent home with Antonio de Torres's returning ships in early 1494. It survives in a sixteenth-century copy and was first printed by Navarrete (1825); English in R. H. Major, Select Letters of Christopher Columbus (Hakluyt Society, 1847). His reports of 'cannibal' islanders repeat Spanish and Taíno hostility to the people of the Lesser Antilles and are debated by historians.",
+   "bio": "A Sevillian court doctor writing home to his city council, Chanca looks at plants, birds, houses and people with a naturalist's eye — the first European to describe chili peppers and allspice. He also arrives at La Navidad to find the first Spanish settlement destroyed, and records the beginning of colonial sickness at La Isabela, where he treated Columbus himself.",
+   "sources": [
+    {
+     "title": "Diego Álvarez Chanca (biography, the Carta al Cabildo de Sevilla)",
+     "url": "https://en.wikipedia.org/wiki/Diego_%C3%81lvarez_Chanca"
+    },
+    {
+     "title": "'Testimonios sobre canibalismo en la carta del doctor Chanca al Cabildo de Sevilla', Revista de Historia de América",
+     "url": "https://biblat.unam.mx/en/revista/revista-de-historia-de-america/articulo/testimonios-sobre-canibalismo-en-la-carta-del-doctor-chanca-al-cabildo-de-sevilla"
+    }
+   ]
+  },
+  {
+   "id": "martyr",
+   "short": "Peter Martyr",
+   "name": "Peter Martyr d'Anghiera (Pietro Martire d'Anghiera)",
+   "life": "1457–1526",
+   "role": "Italian humanist at the Castilian court, tutor to young nobles, later royal chronicler (1520) and member of the Council of the Indies",
+   "side": "Castilian court (Italian humanist)",
+   "where": "With the court at Barcelona (1493) and later Valladolid",
+   "lat": 41.38,
+   "lon": 2.17,
+   "waypoints": [
+    {
+     "lat": 41.38,
+     "lon": 2.17,
+     "label": "Barcelona, 1493"
+    },
+    {
+     "lat": 41.65,
+     "lon": -4.72,
+     "label": "Valladolid, 1520–22"
+    }
+   ],
+   "vantage": 4,
+   "vantage_label": "at court, hearing every returning captain",
+   "form": "dated letters",
+   "language": "Latin",
+   "authenticity": "His Opus epistolarum (printed 1530) dates individual letters, but scholars have long shown that some were retouched or re-dated before publication, so dates are approximate. His De Orbe Novo 'Decades' (begun 1494, published 1511–1530) are a history built from interviews, not a diary.",
+   "bio": "Martyr never crossed the Atlantic, yet he interviewed Columbus, pilots, conquistadors and returning sailors for thirty years and wrote the first history of the Americas. His letters show how the news landed in the European mind — and his early phrase 'new world' helped give the encounter its name.",
+   "sources": [
+    {
+     "title": "De Orbe Novo, the Eight Decades, tr. F. A. MacNutt (1912), vol. 1 — Project Gutenberg",
+     "url": "https://www.gutenberg.org/cache/epub/12425/pg12425.txt"
+    },
+    {
+     "title": "New World (Martyr's dated 1493 letters and the phrase novus orbis)",
+     "url": "https://en.wikipedia.org/wiki/New_World"
+    },
+    {
+     "title": "Peter Martyr d'Anghiera (biography)",
+     "url": "https://en.wikipedia.org/wiki/Peter_Martyr_d%27Anghiera"
+    }
+   ]
+  },
+  {
+   "id": "pane",
+   "short": "Ramón Pané",
+   "name": "Fray Ramón Pané",
+   "life": "fl. 1493–1498",
+   "role": "Catalan Hieronymite friar sent by Columbus to live among the Taíno and learn their language and beliefs",
+   "side": "Castilian church in Hispaniola",
+   "where": "Central Hispaniola (Magdalena and Concepción forts, Cibao region), 1494–1498",
+   "lat": 19.22,
+   "lon": -70.53,
+   "vantage": 1,
+   "vantage_label": "living among the Taíno",
+   "form": "memoir (written later)",
+   "language": "Castilian (lost); survives in Italian translation",
+   "authenticity": "Pané's original manuscript is lost. The text survives in the Italian translation of Ferdinand Columbus's biography of his father (Historie, Venice 1571), with summaries by Peter Martyr and Las Casas; Taíno names are badly garbled. Modern edition: J. J. Arrom, tr. S. C. Griswold, An Account of the Antiquities of the Indians (Duke, 1999).",
+   "bio": "A humble friar who admits he barely understood the language, Pané wrote down Taíno origin stories, the cemí spirits and healing rites — the first European book written in the Americas and the nearest we come to Taíno voices from the 1490s. It is also a record of forced conversion, written by one of its agents.",
+   "sources": [
+    {
+     "title": "An Account of the Antiquities of the Indians, ed. J. J. Arrom, tr. S. C. Griswold (Duke University Press)",
+     "url": "https://dukeupress.edu/an-account-of-the-antiquities-of-the-indians"
+    },
+    {
+     "title": "Same edition on Project MUSE",
+     "url": "https://muse.jhu.edu/book/68684"
+    }
+   ]
+  },
+  {
+   "id": "vespucci",
+   "short": "Vespucci",
+   "name": "Amerigo Vespucci",
+   "life": "1454–1512",
+   "role": "Florentine merchant and navigator, sailing for Portugal on the 1501–02 voyage along the Brazilian coast",
+   "side": "Florence / Portugal / later Castile",
+   "where": "Lisbon, writing after the 1501–02 voyage",
+   "lat": 38.72,
+   "lon": -9.14,
+   "vantage": 1,
+   "vantage_label": "navigator-publicist turning a voyage into a theory",
+   "form": "dated letters",
+   "language": "Italian; Latin (Mundus Novus)",
+   "authenticity": "Strongly disputed. Three manuscript letters to Lorenzo di Pierfrancesco de' Medici are generally accepted as his; the printed Mundus Novus (c. 1503) and the 'Soderini letter' (1505) were heavily reworked or partly invented by publishers, and the voyages they claim are not all accepted. Treat as a contested source.",
+   "bio": "Vespucci's real contribution is an idea: that the coast he followed south was not Asia but a fourth part of the world. Printed, embroidered and reprinted across Europe, his letters were what led the mapmaker Martin Waldseemüller to write 'America' on a map in 1507.",
+   "sources": [
+    {
+     "title": "The Letters of Amerigo Vespucci, tr. C. R. Markham (Hakluyt, 1894) — Project Gutenberg",
+     "url": "https://gutenberg.org/cache/epub/36924/pg36924-images.html"
+    },
+    {
+     "title": "Linda Hall Library, 'Amerigo Vespucci'",
+     "url": "https://www.lindahall.org/about/news/scientist-of-the-day/amerigo-vespucci/"
+    },
+    {
+     "title": "Early Americas Digital Archive, Vespucci author entry",
+     "url": "https://eada.lib.umd.edu/author-entries/vespucci-amerigo"
+    }
+   ]
+  },
+  {
+   "id": "cortes",
+   "short": "Cortés",
+   "name": "Hernán Cortés",
+   "life": "1485–1547",
+   "role": "Spanish captain, aged 34, who led an unauthorised expedition from Cuba into Mexico in 1519",
+   "side": "Spanish conquistadors (with Tlaxcalan and other Indigenous allies)",
+   "where": "Veracruz, Tenochtitlan, Tlaxcala, Tepeaca and Coyoacán, 1519–1522",
+   "lat": 19.4326,
+   "lon": -99.1332,
+   "waypoints": [
+    {
+     "lat": 19.2,
+     "lon": -96.13,
+     "label": "Veracruz coast, 1519"
+    },
+    {
+     "lat": 19.4326,
+     "lon": -99.1332,
+     "label": "Tenochtitlan, Nov 1519"
+    },
+    {
+     "lat": 18.96,
+     "lon": -97.9,
+     "label": "Segura de la Frontera, Oct 1520"
+    },
+    {
+     "lat": 19.35,
+     "lon": -99.16,
+     "label": "Coyoacán, 1521–22"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the conquering commander, writing to his king",
+   "form": "dated letters",
+   "language": "Spanish (Castilian)",
+   "authenticity": "The Cartas de relación are genuine, but they are legal self-justifications to Charles V written by a man who had defied his superior; they shape events in his favour and the speeches he puts in Moctezuma's mouth are suspect. Second letter dated 30 Oct 1520 (printed Seville, Nov 1522); third dated 15 May 1522.",
+   "bio": "Cortés wrote while events were still unfolding, so his letters are the most immediate Spanish record — and the most interested. He marvels at the city he was about to destroy, compares its markets to Salamanca and Seville, and frames every act of violence as lawful. Reading him beside the Nahua accounts is the point of this chapter.",
+   "sources": [
+    {
+     "title": "Letters of Cortés, tr. F. A. MacNutt (1908), vol. 1 — Internet Archive",
+     "url": "https://archive.org/stream/lettersofcorts01cortuoft/lettersofcorts01cortuoft_djvu.txt"
+    },
+    {
+     "title": "Second relation letter (date, printing history)",
+     "url": "https://en.wikipedia.org/wiki/Second_relation_letter_from_Hern%C3%A1n_Cort%C3%A9s_to_emperor_Charles_V"
+    },
+    {
+     "title": "Early Americas Digital Archive: Second Letter of Hernando Cortés",
+     "url": "https://eada.lib.umd.edu/text-entries/second-letter-of-hernando-cortes-to-charles-v"
+    }
+   ]
+  },
+  {
+   "id": "diaz",
+   "short": "Bernal Díaz",
+   "name": "Bernal Díaz del Castillo",
+   "life": "c. 1496–1584",
+   "role": "Foot soldier in Cortés's company, in his early twenties in 1519; later an encomendero in Guatemala",
+   "side": "Spanish conquistadors (rank and file)",
+   "where": "With Cortés's army, 1519–1521; writing in Santiago de Guatemala decades later",
+   "lat": 19.4326,
+   "lon": -99.1332,
+   "waypoints": [
+    {
+     "lat": 19.4326,
+     "lon": -99.1332,
+     "label": "Tenochtitlan, 1519–21"
+    },
+    {
+     "lat": 14.56,
+     "lon": -90.73,
+     "label": "Santiago de Guatemala, writing, 1550s–1568"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "common soldier, remembering in old age",
+   "form": "memoir (written later)",
+   "language": "Spanish (Castilian)",
+   "authenticity": "Written roughly 1550s–1568, nearly fifty years after the events, partly to rebut Francisco López de Gómara's Cortés-centred history; first printed (with editorial changes) in Madrid in 1632, the Guatemala manuscript only in 1904. Vivid and detailed, but shaped by memory, grievance and a claim for reward.",
+   "bio": "The ordinary soldier's view: the march, the hunger, the names of comrades and horses, and the famous moment of first seeing the lake cities, which he says looked like the enchantments in the chivalric romances they had read. He is honest about fear and loss, and blind to much of what his victims endured.",
+   "sources": [
+    {
+     "title": "Historia verdadera de la conquista de la Nueva España (composition, manuscripts, editions)",
+     "url": "https://en.wikipedia.org/wiki/Historia_verdadera_de_la_conquista_de_la_Nueva_Espa%C3%B1a"
+    },
+    {
+     "title": "Encyclopedia.com, Bernal Díaz del Castillo",
+     "url": "https://www.encyclopedia.com/people/history/latin-american-history-biographies/bernal-diaz-del-castillo"
+    }
+   ]
+  },
+  {
+   "id": "tlatelolco",
+   "short": "Tlatelolco",
+   "name": "Anonymous Nahua authors of the Annals of Tlatelolco",
+   "life": "authors fl. c. 1540s",
+   "role": "Literate Nahua nobles of Tlatelolco, the twin city of Tenochtitlan that made the last stand in 1521",
+   "side": "Mexica of Tlatelolco",
+   "where": "Tlatelolco, Mexico City",
+   "lat": 19.4513,
+   "lon": -99.1371,
+   "vantage": 0,
+   "vantage_label": "the defeated, writing in their own language",
+   "form": "chronicle",
+   "language": "Nahuatl (alphabetic)",
+   "authenticity": "BnF Paris, Fonds mexicain 22 and 22bis. The text claims a 1528 date and was long called the earliest Indigenous account, but James Lockhart and others date its composition to the 1540s on internal evidence. Still the earliest substantial Nahua prose account of the conquest; translations by Lockhart (We People Here, 1993) and in León-Portilla's The Broken Spears.",
+   "bio": "Written by Tlatelolcans for Tlatelolcans, the Annals give the siege as their elders remembered it: famine, the price of food in the last weeks, the courage of their own warriors and resentment of Tenochtitlan's leaders. It is not a diary; it is a community's memory set down within a generation.",
+   "sources": [
+    {
+     "title": "Anales de Tlatelolco (manuscript, dating debate, editions)",
+     "url": "https://en.wikipedia.org/wiki/Anales_de_Tlatelolco"
+    },
+    {
+     "title": "USC Scalar, 'Anales de Tlatelolco (Anonymous, 1540–1560)'",
+     "url": "https://scalar.usc.edu/works/space-place-mapping/anales-de-tlatelolco"
+    }
+   ]
+  },
+  {
+   "id": "florentine",
+   "short": "Florentine XII",
+   "name": "Nahua elders of Tlatelolco, with Bernardino de Sahagún (Florentine Codex, Book XII)",
+   "life": "Book XII compiled c. 1555; codex 1575–77",
+   "role": "Elderly Nahua men who had lived through the conquest, interviewed by Nahua scholars trained at the Colegio de Santa Cruz under the Franciscan Sahagún",
+   "side": "Mexica (Tlatelolco), recorded under Franciscan direction",
+   "where": "Tlatelolco, recalling Tenochtitlan 1519–1521",
+   "lat": 19.4513,
+   "lon": -99.1371,
+   "vantage": 1,
+   "vantage_label": "eyewitness memory, gathered a generation later",
+   "form": "chronicle",
+   "language": "Nahuatl, with parallel Spanish",
+   "authenticity": "Book XII was first gathered about 1555, more than thirty years after the events; the illustrated Florentine Codex (Biblioteca Laurenziana, Florence) dates from 1575–77, and Sahagún produced a revised version of the conquest book in 1585. Shaped by Tlatelolcan perspective and by the friars' project, but the Nahuatl is Indigenous testimony.",
+   "bio": "The fullest Indigenous narrative of the conquest: omens, envoys, the meeting on the causeway, the Toxcatl massacre, the epidemic and the siege, told by those on the receiving end. Its paintings of smallpox victims are among the most cited images of the century.",
+   "sources": [
+    {
+     "title": "Florentine Codex, Book 12, tr. A. J. O. Anderson & C. E. Dibble (University of Utah Press)",
+     "url": "https://uofupress.lib.utah.edu/?p=62228"
+    },
+    {
+     "title": "Virginia Tech, Digital History Reader: the Florentine Codex on smallpox",
+     "url": "https://dhr.history.vt.edu/modules/us/mod01_pop/evidence_detail_08.html"
+    },
+    {
+     "title": "'Smallpox in the Sixteenth-Century Americas: Evidence from the Florentine Codex'",
+     "url": "https://cublibcommunity.omeka.net/exhibits/show/disease-and-public-health-in-g/the-early-modern-world"
+    }
+   ]
+  },
+  {
+   "id": "durer",
+   "short": "Dürer",
+   "name": "Albrecht Dürer",
+   "life": "1471–1528",
+   "role": "Nuremberg painter and printmaker, aged 49, travelling to the Low Countries to have his imperial pension confirmed by Charles V",
+   "side": "Holy Roman Empire (Nuremberg)",
+   "where": "Antwerp, Brussels and Aachen, 1520–21",
+   "lat": 50.8467,
+   "lon": 4.3525,
+   "waypoints": [
+    {
+     "lat": 49.45,
+     "lon": 11.08,
+     "label": "Nuremberg, 12 Jul 1520"
+    },
+    {
+     "lat": 51.22,
+     "lon": 4.4,
+     "label": "Antwerp, Aug 1520"
+    },
+    {
+     "lat": 50.8467,
+     "lon": 4.3525,
+     "label": "Brussels, 27 Aug 1520"
+    },
+    {
+     "lat": 50.78,
+     "lon": 6.08,
+     "label": "Aachen, Oct 1520"
+    }
+   ],
+   "vantage": 4,
+   "vantage_label": "artist abroad, seeing the plunder",
+   "form": "diary",
+   "language": "Early New High German",
+   "authenticity": "Dürer's travel journal survives in later copies (the autograph is lost); standard text in Rupprich, Dürer: Schriftlicher Nachlass (1956). It is mostly an account book with notes, which makes the long Brussels passage stand out.",
+   "bio": "Europe's most famous artist kept a terse expense diary of his journey — meals, gifts, sales — and then, in Brussels, broke off to write that nothing in his life had so moved his heart as the Mexican objects Cortés had sent to Charles V. He admired the makers as fellow artists; within years most of the gold was melted down.",
+   "sources": [
+    {
+     "title": "German History Intersections: Dürer's response to viewing Aztec gold (1520), with citation to Rupprich and the 1971 English edition",
+     "url": "https://www.germanhistory-intersections.org/en/germanness/ghis:document-275"
+    },
+    {
+     "title": "The Low Countries, 'In the footsteps of Albrecht Dürer'",
+     "url": "https://the-low-countries.com/article/in-the-footsteps-of-albrecht-durer-world-famous-painter-passing-through-the-low-countries"
+    },
+    {
+     "title": "Apollo, review of 'Dürer's Journeys' (National Gallery)",
+     "url": "https://apollo-magazine.com/durer-national-gallery-travels-review/"
+    }
+   ]
+  },
+  {
+   "id": "pigafetta",
+   "short": "Pigafetta",
+   "name": "Antonio Pigafetta",
+   "life": "c. 1491–c. 1531",
+   "role": "Gentleman volunteer from Vicenza, a Knight of Rhodes, aged about 28, who paid his way onto Magellan's fleet to see the world",
+   "side": "Spanish expedition (Italian supernumerary)",
+   "where": "Magellan's fleet: Atlantic, Patagonia, the Pacific, the Philippines, the Moluccas, 1519–1522",
+   "lat": 10.31,
+   "lon": 123.98,
+   "waypoints": [
+    {
+     "lat": 36.78,
+     "lon": -6.35,
+     "label": "Sanlúcar, 20 Sep 1519"
+    },
+    {
+     "lat": -53.5,
+     "lon": -70.9,
+     "label": "Strait, Oct–Nov 1520"
+    },
+    {
+     "lat": 10.31,
+     "lon": 123.98,
+     "label": "Cebu / Mactan, Apr 1521"
+    },
+    {
+     "lat": 0.68,
+     "lon": 127.4,
+     "label": "Tidore, Nov 1521"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "chronicler on board, wounded at Mactan",
+   "form": "journal",
+   "language": "Italian (Venetian-influenced)",
+   "authenticity": "His shipboard notes are lost; what survives is the narrative he wrote up from them in 1523–25, in one Italian manuscript (Ambrosiana, Milan) and three French ones (one at Yale's Beinecke). A garbled French abridgement appeared c. 1525; the full text only in 1800. Dates are those kept on board.",
+   "bio": "Pigafetta was one of only eighteen men who came home on the Victoria. Curious, credulous and loyal to Magellan, he recorded word lists, customs and food on every coast, and wrote the only eyewitness narrative of Magellan's death at Mactan. His account is a European view of the Visayas — the islanders' own record of Lapulapu is oral and later.",
+   "sources": [
+    {
+     "title": "Blair & Robertson, The Philippine Islands vol. XXXIII (1906): Pigafetta, Italian and English — Project Gutenberg",
+     "url": "https://gutenberg.org/files/42884/old/42884-h/42884-h.htm"
+    },
+    {
+     "title": "The First Voyage Round the World by Magellan, tr. Lord Stanley of Alderley (Hakluyt, 1874) — Project Gutenberg",
+     "url": "https://gutenberg.org/cache/epub/74723/pg74723-images.html"
+    },
+    {
+     "title": "Yale Beinecke: Journal of Magellan's Voyage (French manuscript)",
+     "url": "https://collections.library.yale.edu/catalog/2017752"
+    },
+    {
+     "title": "Linda Hall Library, 'Antonio Pigafetta'",
+     "url": "https://www.lindahall.org/about/news/scientist-of-the-day/antonio-pigafetta/"
+    }
+   ]
+  },
+  {
+   "id": "transylvanus",
+   "short": "Transylvanus",
+   "name": "Maximilianus Transylvanus",
+   "life": "c. 1490–1538",
+   "role": "Secretary at the court of Charles V, a young humanist pupil of Peter Martyr",
+   "side": "Habsburg imperial court",
+   "where": "The Spanish court at Valladolid, autumn 1522",
+   "lat": 41.65,
+   "lon": -4.72,
+   "vantage": 4,
+   "vantage_label": "court secretary interviewing the survivors",
+   "form": "dated letters",
+   "language": "Latin",
+   "authenticity": "A single letter dated 24 October 1522 to Cardinal Matthäus Lang of Salzburg, printed as De Moluccis insulis at Cologne in January 1523 — the first published account of the circumnavigation. Based on interviews with Elcano and other survivors; it differs from Pigafetta on the Cebu massacre and other points.",
+   "bio": "Within seven weeks of the Victoria's return, this court secretary questioned Elcano, the pilot Francisco Albo and the barber Hernando de Bustamante and sent his patron a Latin summary that beat Pigafetta into print by years. His letter shows how the voyage became news, and whose version — the Spanish officers' — reached Europe first.",
+   "sources": [
+    {
+     "title": "Maximilianus Transylvanus (letter, date, editions)",
+     "url": "https://en.wikipedia.org/wiki/Maximilianus_Transylvanus"
+    },
+    {
+     "title": "'De Moluccis insulis. Un resoconto propagandistico ante-litteram' (open access chapter)",
+     "url": "https://library.oapen.org/handle/20.500.12657/56547?show=full"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1492-08-03",
+   "date_display": "Friday 3 August 1492 (Julian)",
+   "precision": "day",
+   "eye": "columbus",
+   "place": "Palos de la Frontera, Castile",
+   "headline": "Three ships slip out of Palos before dawn",
+   "digest": "The abstract opens with the departure of the Santa María, Pinta and Niña from the bar of Saltes. The prologue ties the voyage to the fall of Granada that January and to the expulsion of the Jews, and says the aim is to reach the lands of the Grand Khan by sailing west. Columbus believed the world far smaller than it is.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Las Casas abstract, prologue and entry of 3 Aug 1492; see 'Christopher Columbus's journal'"
+  },
+  {
+   "date_iso": "1492-10-11",
+   "date_display": "Thursday 11 October 1492 (Julian)",
+   "precision": "day",
+   "eye": "columbus",
+   "place": "Atlantic, west of the Bahamas",
+   "headline": "A flicker of light in the dark, then land at 2 a.m.",
+   "digest": "After weeks of near-mutiny, the crews pick up a green branch and a carved stick from the sea. Late at night Columbus thinks he sees a light like a small candle rising and falling; a lookout on the Pinta sights land in the early hours. Columbus later claimed the royal reward for first sighting for himself.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Las Casas abstract, entry of 11 Oct 1492"
+  },
+  {
+   "date_iso": "1492-10-12",
+   "date_display": "Friday 12 October 1492 (Julian)",
+   "precision": "day",
+   "eye": "columbus",
+   "place": "Guanahani ('San Salvador'), Bahamas",
+   "headline": "Landfall: banners, a notary, and people watching from the beach",
+   "digest": "Columbus goes ashore with royal banners and has a notary record that he takes possession for Ferdinand and Isabella, before Taíno (Lucayan) people who have gathered to look. He describes them as young, handsome, unarmed and generous, trading cotton thread and parrots for beads and bells. In the same passage he notes they would make good servants and could easily be converted, and that he will take six of them to Spain — the first written intention of seizure.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Las Casas abstract, entry of 11–12 Oct 1492 (single long entry); landfall island identification debated (see 'Guanahani')"
+  },
+  {
+   "date_iso": "1492-10-13",
+   "date_display": "Saturday 13 October 1492 (Julian)",
+   "precision": "day",
+   "eye": "columbus",
+   "place": "Guanahani",
+   "headline": "Canoes of forty men, and the first question about gold",
+   "digest": "Crowds paddle out in dugout canoes, some holding forty or more men, and swim around the ships. Columbus watches for gold, sees small pieces worn in noses, and by signs gathers that a king with much gold lies to the south. The day's entry is half ethnography, half prospecting.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Las Casas abstract, entry of 13 Oct 1492"
+  },
+  {
+   "date_iso": "1492-11-06",
+   "date_display": "Tuesday 6 November 1492 (Julian)",
+   "precision": "day",
+   "eye": "columbus",
+   "place": "Northeast coast of Cuba",
+   "headline": "The envoys come back from inland: no Khan, but smoking herbs",
+   "digest": "Two men Columbus sent inland to find the Grand Khan's court — one of them, Luis de Torres, a convert who spoke Hebrew and Arabic — return having found a village of about fifty houses and a courteous welcome. They report people carrying smouldering herbs whose smoke they drink, the first European notice of tobacco. Columbus still writes as if Cathay is just over the horizon.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Las Casas abstract, entry of 6 Nov 1492"
+  },
+  {
+   "date_iso": "1492-12-25",
+   "date_display": "Tuesday 25 December 1492 (Julian)",
+   "precision": "day",
+   "eye": "columbus",
+   "place": "North coast of Hispaniola (Haiti)",
+   "headline": "Christmas night: the Santa María runs aground",
+   "digest": "While Columbus sleeps, the helm is left to a boy and the flagship settles onto a reef. The Taíno cacique Guacanagarí sends canoes and people who help unload everything, guard it, and weep in sympathy, Columbus says. He reads the wreck as providence and orders a fort built from its timbers — La Navidad, where he will leave thirty-nine men.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Las Casas abstract, entries of 25–26 Dec 1492"
+  },
+  {
+   "date_iso": "1493-02-14",
+   "date_display": "Thursday 14 February 1493 (Julian)",
+   "precision": "day",
+   "eye": "columbus",
+   "place": "Atlantic, near the Azores",
+   "headline": "A storm, vows, and a message sealed in a barrel",
+   "digest": "Separated from the Pinta and fearing the Niña will founder, Columbus and his crew draw lots for pilgrimages they vow to make if saved. Afraid that news of his discovery will die with him, he writes an account on parchment, wraps it in waxed cloth and has it thrown overboard in a cask.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Las Casas abstract, entry of 14 Feb 1493"
+  },
+  {
+   "date_iso": "1493-03-15",
+   "date_display": "Friday 15 March 1493 (Julian)",
+   "precision": "day",
+   "eye": "columbus",
+   "place": "Palos",
+   "headline": "Home to Palos with captives, parrots and a claim",
+   "digest": "The Niña crosses the bar of Saltes at midday, the Pinta following later the same day. The abstract closes with Columbus thanking God and predicting that the voyage will be the greatest honour of Christendom. Among his cargo are several Taíno people taken from the islands.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Las Casas abstract, final entry, 15 Mar 1493"
+  },
+  {
+   "date_iso": "1493-05-14",
+   "date_display": "14 May 1493 (Julian), Barcelona",
+   "precision": "day",
+   "eye": "martyr",
+   "place": "Barcelona, with the court",
+   "headline": "'A certain Columbus' is back from the western antipodes",
+   "digest": "Writing to Count Giovanni Borromeo, Martyr reports that a Ligurian named Columbus has returned from the 'western antipodes' with samples of precious things. The tone is excited but careful: he does not yet know what Columbus has found, and calls it antipodes rather than Asia.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Opus epistolarum; date as given in New World (Wikipedia) and MacNutt's introduction (Gutenberg 12425). Martyr's letter dates were sometimes revised before printing."
+  },
+  {
+   "date_iso": "1493-11-01",
+   "date_display": "1 November 1493 (Julian)",
+   "precision": "day",
+   "eye": "martyr",
+   "place": "With the court, Castile",
+   "headline": "Columbus, 'discoverer of a new world'",
+   "digest": "In another letter Martyr calls Columbus the finder of a new globe or world — novus orbis — one of the earliest uses of the phrase. He is using it loosely, for lands unknown to the ancients, rather than claiming a separate continent; but the words would stick.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Date and Latin phrase from New World (Wikipedia), citing Opus epistolarum; dating caveat as above"
+  },
+  {
+   "date_iso": "1493-11-03",
+   "date_display": "Sunday 3 November 1493 (Julian)",
+   "precision": "day",
+   "eye": "chanca",
+   "place": "Off Dominica, Lesser Antilles",
+   "headline": "After 21 days at sea, a mountainous island at dawn",
+   "digest": "Chanca describes the fleet's joy when land is sighted on a Sunday morning, an island they name for the day (Dominica). The crossing from the Canaries was unusually fast. He notes how thickly forested the islands are and how green, even in what Spaniards thought of as winter.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Chanca's letter to the cabildo of Seville; landfall date standard in editions (Major 1847, Navarrete 1825)"
+  },
+  {
+   "date_iso": "1493-11-08",
+   "date_display": "4–10 November 1493 (Julian)",
+   "precision": "range",
+   "eye": "chanca",
+   "place": "Guadeloupe",
+   "headline": "Empty villages, captive women, and Spanish fears of 'Caribs'",
+   "digest": "On Guadeloupe the Spaniards enter villages whose people have fled, and find cotton, food stores and human bones that they take as proof of cannibalism. Several women held captive there come to the ships asking for refuge. Chanca's account of 'Caribs' fuses Taíno enemies' stories with Spanish expectation; modern scholars treat it as evidence of European fear as much as of island custom.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Chanca's letter; debate summarised in 'Testimonios sobre canibalismo en la carta del doctor Chanca' (Revista de Historia de América)"
+  },
+  {
+   "date_iso": "1493-11-28",
+   "date_display": "27–28 November 1493 (Julian)",
+   "precision": "range",
+   "eye": "chanca",
+   "place": "La Navidad, north coast of Hispaniola",
+   "headline": "The fort is ashes; none of the thirty-nine is alive",
+   "digest": "Arriving at night, the fleet fires signals and gets no answer. Next day they find the fort burned and some of the men's bodies; Guacanagarí's people say the garrison quarrelled, raided for gold and women, and were destroyed by the cacique Caonabo. Chanca records Spanish suspicion of Guacanagarí, who claims to be wounded defending them.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Chanca's letter to the cabildo of Seville; date also in Columbus second-voyage sources"
+  },
+  {
+   "date_iso": "1494-01-30",
+   "date_display": "January–early February 1494 (Julian)",
+   "precision": "range",
+   "eye": "chanca",
+   "place": "La Isabela, Hispaniola",
+   "headline": "A new town, and the fevers begin",
+   "digest": "The colonists lay out La Isabela on a poor site and within days hundreds fall ill; Chanca is the town's only doctor and treats Columbus too. He closes his letter with plants and spices, chili and allspice among them, and sends it home with Antonio de Torres's ships, which left on 2 February 1494.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Chanca's letter (final section); Wikipedia 'Diego Álvarez Chanca' on chili, allspice and malaria treatment"
+  },
+  {
+   "date_iso": "1496-09-21",
+   "date_display": "21 September 1496 (Julian)",
+   "precision": "day",
+   "eye": "pane",
+   "place": "Hispaniola",
+   "headline": "The first baptism, and what came after",
+   "digest": "Pané records that a Taíno man and his household were baptised, the first Christians made on the island; the man took the name Juan Mateo. He also records, flatly, that other Taíno men who buried and urinated on Christian images were burned alive on the order of Bartholomew Columbus. He saw conversion and coercion as one task.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Pané, An Account of the Antiquities of the Indians, final chapters (Arrom/Griswold ed., Duke 1999)"
+  },
+  {
+   "date_iso": "1498-06-01",
+   "date_display": "c. 1498",
+   "precision": "year",
+   "eye": "pane",
+   "place": "Hispaniola",
+   "headline": "Writing down the cemís: the first book of the Americas",
+   "digest": "Pané completes his account of Taíno beliefs — how people came from a cave, the cemí spirits carved in wood and stone, the behique healers and their rites. He confesses that he lacked paper and the language and may have got things out of order. It is the only window from the 1490s onto Taíno thought, recorded by a missionary under orders from Columbus.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Duke University Press edition (completion c. 1498)"
+  },
+  {
+   "date_iso": "1503-06-01",
+   "date_display": "c. 1503 (printed)",
+   "precision": "year",
+   "eye": "vespucci",
+   "place": "Lisbon / Florence; printed in Paris, Florence and elsewhere",
+   "headline": "'Mundus Novus': a fourth part of the world",
+   "digest": "The printed letter under Vespucci's name argues that the lands along the southern coast he sailed in 1501–02 are a continent unknown to the ancients, warmer and more peopled than expected. It sells across Europe in a dozen editions. How much of it Vespucci wrote is disputed; the idea, at least, is in his genuine manuscript letters.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Markham, Letters of Amerigo Vespucci (Gutenberg 36924); Linda Hall Library profile"
+  },
+  {
+   "date_iso": "1519-09-20",
+   "date_display": "Tuesday 20 September 1519 (Julian)",
+   "precision": "day",
+   "eye": "pigafetta",
+   "place": "Sanlúcar de Barrameda",
+   "headline": "Five ships and about 260 men leave Sanlúcar",
+   "digest": "Pigafetta records the fleet leaving the mouth of the Guadalquivir for the Canaries. He writes of Magellan's signals and night lanterns, and makes clear the Portuguese captain already distrusts his Spanish officers.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pigafetta, Blair & Robertson vol. XXXIII (date 20 Sep 1519)"
+  },
+  {
+   "date_iso": "1519-11-08",
+   "date_display": "Tuesday 8 November 1519 (Julian)",
+   "precision": "day",
+   "eye": "cortes",
+   "place": "Causeway into Tenochtitlan",
+   "headline": "Cortés meets Moctezuma on the southern causeway",
+   "digest": "Cortés describes the long causeway across the lake, the thousands of nobles who come out to greet him, and Moctezuma walking under a canopy, supported by two lords. He says they exchanged necklaces and that Moctezuma later, in a speech, called the Spaniards descendants of a former lord returning — words modern historians largely treat as Cortés's invention to make the takeover look like a lawful transfer.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Second Letter, dated 30 Oct 1520 (MacNutt tr., Internet Archive); date of the meeting standard"
+  },
+  {
+   "date_iso": "1519-11-08",
+   "date_display": "8 November 1519 (Julian), remembered c. 1560s",
+   "precision": "day",
+   "eye": "diaz",
+   "place": "Iztapalapa causeway",
+   "headline": "Like an enchantment out of a romance",
+   "digest": "Díaz remembers the army's first sight of the lake, the towns rising from the water and the straight causeway to Tenochtitlan. Some soldiers asked whether it was a dream, and he compares it to the enchanted cities of Amadís de Gaula. Writing as an old man, he adds that all he saw then is now destroyed.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Historia verdadera, ch. 87–88 (Maudslay tr.); memoir written c. 1560s"
+  },
+  {
+   "date_iso": "1519-11-08",
+   "date_display": "8 November 1519 (Julian), recorded c. 1555",
+   "precision": "day",
+   "eye": "florentine",
+   "place": "Huitzillan, at the entrance to Tenochtitlan",
+   "headline": "The meeting, told from the other side",
+   "digest": "The elders tell how Moctezuma, in finery, went out with his lords to meet the Spaniards and put necklaces of flowers and gold on Cortés. They report a speech of welcome in which he speaks of the strangers as returning lords — wording close to Cortés's own and much debated. Then, they say, the Spaniards seized him, and fear spread through the city.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Florentine Codex Book XII, ch. 16 (Anderson & Dibble tr.)"
+  },
+  {
+   "date_iso": "1519-11-14",
+   "date_display": "c. 14 November 1519 (Julian)",
+   "precision": "day",
+   "eye": "cortes",
+   "place": "Tenochtitlan",
+   "headline": "Six days in, Cortés takes the emperor hostage",
+   "digest": "Using a skirmish on the coast as pretext, Cortés goes to Moctezuma's palace and makes him move into the Spaniards' quarters, a ruler in all but freedom. Cortés presents this as prudence; it is the decisive act of the first months.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Second Letter; Cortés says about six days after entry — exact date approximate"
+  },
+  {
+   "date_iso": "1520-03-15",
+   "date_display": "c. March 1520 (Julian), Valladolid",
+   "precision": "month",
+   "eye": "martyr",
+   "place": "Valladolid, Castile",
+   "headline": "The court sees Moctezuma's gifts — and Martyr takes notes",
+   "digest": "When Cortés's envoys bring the first Mexican treasure to Charles at Valladolid, Martyr examines it closely and describes the great gold and silver discs, featherwork and books in his fourth Decade. He admires the craftsmanship more than the metal, much as Dürer would months later in Brussels.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "De Orbe Novo, Decade IV (MacNutt tr.); month and place approximate — the Met's 'Gold of the Indies' essay places the presentation in spring 1520"
+  },
+  {
+   "date_iso": "1520-05-20",
+   "date_display": "Toxcatl festival, c. May 1520 (recorded c. 1555)",
+   "precision": "month",
+   "eye": "florentine",
+   "place": "Temple courtyard, Tenochtitlan",
+   "headline": "Toxcatl: the elders remember the dancers",
+   "digest": "Book XII gives the fullest account of the Toxcatl massacre: the festival permitted by Alvarado, the gates closed and guarded, the killing of the dancers and musicians, and the city's rising afterward. The narrators record it with restraint and certainty about who struck first.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Florentine Codex Book XII, ch. 19–20"
+  },
+  {
+   "date_iso": "1520-05-20",
+   "date_display": "Toxcatl festival, c. May 1520",
+   "precision": "month",
+   "eye": "tlatelolco",
+   "place": "Temple precinct, Tenochtitlan",
+   "headline": "The killing at the feast of Toxcatl",
+   "digest": "The Annals record that while Cortés was away, the Spaniards under Pedro de Alvarado fell on the nobles dancing at the Toxcatl festival in the temple courtyard and killed many. It is told briefly, as the moment the city turned to war.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Annals of Tlatelolco (Lockhart, We People Here); Wikipedia 'Anales de Tlatelolco'"
+  },
+  {
+   "date_iso": "1520-06-30",
+   "date_display": "Night of 30 June–1 July 1520 (Julian)",
+   "precision": "range",
+   "eye": "cortes",
+   "place": "Tenochtitlan, Tacuba causeway",
+   "headline": "The flight from the city by night",
+   "digest": "After Moctezuma's death and weeks of fighting, the Spaniards and their Tlaxcalan allies try to slip out along the causeway at night with as much gold as they can carry. They are discovered, the bridges are cut, and many drown or are killed. Cortés gives his losses in hundreds of Spaniards and far more allies; the real number is unknown.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Second Letter (MacNutt tr.); date standard ('Noche Triste')"
+  },
+  {
+   "date_iso": "1520-06-30",
+   "date_display": "30 June–1 July 1520 (Julian), remembered c. 1560s",
+   "precision": "range",
+   "eye": "diaz",
+   "place": "Tacuba causeway",
+   "headline": "The ‘sad night’ from a soldier's eye",
+   "digest": "Díaz describes the confusion on the causeway, the canals filled with men, horses and baggage, and soldiers who drowned weighed down by gold. He survived wounded, and names comrades he lost. He blames greed and night fighting, not the plan itself.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Historia verdadera, ch. 128 (Maudslay tr.)"
+  },
+  {
+   "date_iso": "1520-07-12",
+   "date_display": "Thursday 12 July 1520 (Julian)",
+   "precision": "day",
+   "eye": "durer",
+   "place": "Nuremberg",
+   "headline": "Dürer sets out with his wife and maid",
+   "digest": "Dürer leaves Nuremberg with Agnes and their maid Susanna, heading down the Rhine to Antwerp. His diary begins as a ledger of tolls, meals and gifts of prints. The purpose is prosaic: to have his pension renewed by the new emperor.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dürer, Diary of his Journey to the Netherlands (opening entry); see The Low Countries article"
+  },
+  {
+   "date_iso": "1520-08-27",
+   "date_display": "Monday 27 August 1520 (Julian)",
+   "precision": "day",
+   "eye": "durer",
+   "place": "Brussels, the Habsburg palace",
+   "headline": "Mexican gold in Brussels: 'nothing has so moved my heart'",
+   "digest": "Dürer sees the objects sent from 'the new land of gold' to the king: a sun of gold and a moon of silver each a fathom wide, armour, weapons, garments, and other wonders worth, he says, a hundred thousand florins. He writes that nothing in his life has delighted his heart so much, and marvels at the subtle genius of the people in distant lands. He has no idea of the war these things came from.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "German History Intersections doc. 275, citing Rupprich, Schriftlicher Nachlass (1956) p. 155 and Goris & Marlier ed. (1971) pp. 53–54"
+  },
+  {
+   "date_iso": "1520-10-15",
+   "date_display": "Month of Tepeilhuitl, c. October–December 1520 (recorded c. 1555)",
+   "precision": "range",
+   "eye": "florentine",
+   "place": "Tenochtitlan",
+   "headline": "The great sores: an epidemic that lasted sixty days",
+   "digest": "The elders describe a plague of pustules that began in the month of Tepeilhuitl, covering faces and bodies so that people could not move, many dying of hunger because no one could care for them. It lasted some sixty days before it eased. The new ruler Cuitláhuac was among the dead; the Spaniards were barely touched.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Florentine Codex Book XII, ch. 29; Virginia Tech Digital History Reader excerpt (60 days, Tepeilhuitl)"
+  },
+  {
+   "date_iso": "1520-10-23",
+   "date_display": "23 October 1520 (Julian)",
+   "precision": "day",
+   "eye": "durer",
+   "place": "Aachen",
+   "headline": "At Charles V's coronation",
+   "digest": "Dürer is in Aachen for the coronation of Charles V as King of the Romans and notes that he saw all the splendour. The young ruler who received Moctezuma's gifts — and Cortés's letters — is now the most powerful man in Europe.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dürer, Diary (Aachen entries, Oct 1520)"
+  },
+  {
+   "date_iso": "1520-10-30",
+   "date_display": "30 October 1520 (Julian)",
+   "precision": "day",
+   "eye": "cortes",
+   "place": "Segura de la Frontera (Tepeaca)",
+   "headline": "Rebuilding, and naming the land 'New Spain'",
+   "digest": "From a new town founded in conquered Tepeaca, Cortés finishes his long second letter to Charles V. He asks the emperor to approve the name New Spain of the Ocean Sea for the lands he describes. He is already planning brigantines to retake the lake city.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Date per 'Second relation letter' (Wikipedia); printed Seville, 8 Nov 1522"
+  },
+  {
+   "date_iso": "1520-11-28",
+   "date_display": "Wednesday 28 November 1520 (Julian)",
+   "precision": "day",
+   "eye": "pigafetta",
+   "place": "Western mouth of the Strait of Magellan",
+   "headline": "Out of the strait into a calm ocean",
+   "digest": "After weeks threading the channels — and the desertion of one ship — the three remaining vessels debouch into the open sea. Magellan, Pigafetta says, wept for joy. They call the ocean Pacific because they met no storms on it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pigafetta, Blair & Robertson vol. XXXIII"
+  },
+  {
+   "date_iso": "1521-02-15",
+   "date_display": "December 1520–March 1521 (Julian)",
+   "precision": "range",
+   "eye": "pigafetta",
+   "place": "Mid-Pacific",
+   "headline": "Three months and twenty days without fresh food",
+   "digest": "Pigafetta writes that they ate biscuit turned to powder and full of worms, sawdust, and leather from the yards softened in seawater, and paid for rats. Gums swelled over their teeth; nineteen men died. He survived without sickness, he says, by God's grace.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pigafetta, Blair & Robertson vol. XXXIII (Pacific crossing)"
+  },
+  {
+   "date_iso": "1521-03-16",
+   "date_display": "Saturday 16 March 1521 (Julian, ship's reckoning)",
+   "precision": "day",
+   "eye": "pigafetta",
+   "place": "Off Samar; Homonhon island",
+   "headline": "Landfall in the islands later called the Philippines",
+   "digest": "The fleet sights high land and anchors at a small uninhabited island, where islanders from nearby come in a boat to trade fish, palm wine and coconuts. Pigafetta describes them with pleasure and records their words.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pigafetta, Blair & Robertson vol. XXXIII (16 Mar 1521)"
+  },
+  {
+   "date_iso": "1521-03-31",
+   "date_display": "Easter Sunday, 31 March 1521 (Julian)",
+   "precision": "day",
+   "eye": "pigafetta",
+   "place": "Limasawa (Mazaua)",
+   "headline": "An Easter Mass on the beach and a cross on the hill",
+   "digest": "Magellan has Mass said ashore with the local rulers kneeling beside him, fires the guns, and plants a cross on the highest hill. Pigafetta presents it as friendship freely given; it was also a claim of possession.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pigafetta, Blair & Robertson vol. XXXIII (landing 28 Mar; Easter Mass)"
+  },
+  {
+   "date_iso": "1521-04-14",
+   "date_display": "Sunday 14 April 1521 (Julian)",
+   "precision": "day",
+   "eye": "pigafetta",
+   "place": "Cebu",
+   "headline": "The baptism of Rajah Humabon",
+   "digest": "Pigafetta describes the baptism of the ruler of Cebu, who took the name Carlos, and of hundreds of his people, and gives a small image of the Christ child to the queen. Magellan begins demanding that other chiefs submit to Humabon and to Spain.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Pigafetta (baptism on the Sunday after arrival 7 Apr); exact date approximate"
+  },
+  {
+   "date_iso": "1521-04-27",
+   "date_display": "Saturday 27 April 1521 (Julian)",
+   "precision": "day",
+   "eye": "pigafetta",
+   "place": "Mactan",
+   "headline": "Magellan killed in the shallows at Mactan",
+   "digest": "Magellan takes some sixty men to force the chief Lapulapu (Cilapulapu) of Mactan to submit, refusing Humabon's offer of warriors. Wading ashore against a much larger force, the Spaniards are driven back; Magellan, wounded, is killed in the water while covering the retreat. Pigafetta, wounded in the face by an arrow, writes of him with grief as their guide and light. Lapulapu's side of the day survives only in later oral tradition.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pigafetta, Blair & Robertson vol. XXXIII (Mactan; date standard)"
+  },
+  {
+   "date_iso": "1521-05-01",
+   "date_display": "Wednesday 1 May 1521 (Julian)",
+   "precision": "day",
+   "eye": "pigafetta",
+   "place": "Cebu",
+   "headline": "The banquet at Cebu",
+   "digest": "Humabon invites the officers to a feast, where about twenty-six of them, including the new commanders, are killed. Pigafetta, still recovering from his wound, did not go. He blames the interpreter Enrique, Magellan's enslaved servant; other accounts blame Spanish behaviour.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pigafetta, Blair & Robertson vol. XXXIII (1 May)"
+  },
+  {
+   "date_iso": "1521-08-13",
+   "date_display": "Tuesday 13 August 1521 (Julian)",
+   "precision": "day",
+   "eye": "cortes",
+   "place": "Tlatelolco / the lake",
+   "headline": "The capture of Cuauhtémoc and the end of the siege",
+   "digest": "Cortés reports that after some eighty days of siege, with most of the city destroyed, a brigantine captured Cuauhtémoc's canoe on the lake and brought him to Cortés. He writes of the hunger and dead in the last quarter held by the defenders in sober-sounding numbers, and as if the outcome had been God's will.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Third Letter, dated 15 May 1522 (MacNutt tr.); date of the fall standard"
+  },
+  {
+   "date_iso": "1521-08-13",
+   "date_display": "Year Three House, day One Serpent (13 August 1521, Julian; recorded c. 1555)",
+   "precision": "day",
+   "eye": "florentine",
+   "place": "Tlatelolco",
+   "headline": "‘The war ended’: Cuauhtémoc goes to the Spaniards",
+   "digest": "Book XII ends the siege with Cuauhtémoc taken in a canoe to Cortés, and the survivors leaving the city along the roads, searched by Spaniards for gold and for young women. The elders fix the day in their own calendar. It is the counter-record to Cortés's third letter.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Florentine Codex Book XII, ch. 39–40"
+  },
+  {
+   "date_iso": "1521-08-13",
+   "date_display": "Year Three House, day One Serpent (13 August 1521, Julian)",
+   "precision": "day",
+   "eye": "tlatelolco",
+   "place": "Tlatelolco",
+   "headline": "The last weeks: hunger, and broken spears in the roads",
+   "digest": "The Annals describe the siege of Tlatelolco from inside: people eating lizards, grasses and adobe, the price of a handful of maize in the market, water turned brackish. Their lament speaks of broken spears in the roads and houses without roofs, and ends with Cuauhtémoc's surrender. Composed perhaps twenty years later, it is the closest Indigenous voice to the event.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Annals of Tlatelolco; text dated 1528 by tradition but c. 1540s per Lockhart (Wikipedia). Day correlation standard."
+  },
+  {
+   "date_iso": "1521-11-08",
+   "date_display": "Friday 8 November 1521 (Julian)",
+   "precision": "day",
+   "eye": "pigafetta",
+   "place": "Tidore, Moluccas",
+   "headline": "At last, the Spice Islands",
+   "digest": "The two surviving ships reach Tidore and fire their guns in joy. Pigafetta describes the sultan, the clove trees and the trading for spices that was the whole point of the voyage.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pigafetta, Blair & Robertson vol. XXXIII"
+  },
+  {
+   "date_iso": "1522-05-15",
+   "date_display": "15 May 1522 (Julian)",
+   "precision": "day",
+   "eye": "cortes",
+   "place": "Coyoacán",
+   "headline": "Writing up the conquest at Coyoacán",
+   "digest": "Cortés signs his third letter, an account of the siege and fall, while the ruined city is being rebuilt as the Spanish capital. He has not yet heard whether Charles will reward or punish him; the letters were his case.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Third Letter (date in MacNutt's edition)"
+  },
+  {
+   "date_iso": "1522-07-09",
+   "date_display": "Wednesday 9 July 1522 by ship's reckoning (Thursday ashore)",
+   "precision": "day",
+   "eye": "pigafetta",
+   "place": "Santiago, Cape Verde Islands",
+   "headline": "They have lost a day",
+   "digest": "Sending men ashore at the Portuguese islands, Pigafetta learns that it is Thursday, though his careful log says Wednesday. He is astonished; later readers understood that sailing west around the globe had cost them one day — the first recorded experience of what became the date line.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pigafetta; Stanley ed. introduction notes the lost day (Gutenberg 74723)"
+  },
+  {
+   "date_iso": "1522-09-06",
+   "date_display": "Saturday 6 September 1522 (Julian)",
+   "precision": "day",
+   "eye": "pigafetta",
+   "place": "Sanlúcar de Barrameda; Seville on 8 September",
+   "headline": "Eighteen men come home",
+   "digest": "The Victoria, leaking and under Juan Sebastián Elcano, enters Sanlúcar with eighteen of the original crew of about 260 Europeans. Two days later they walk barefoot in shirts, carrying candles, to give thanks at Seville. Pigafetta then rides to court to present the emperor with his book.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pigafetta (closing pages); return dates in Stanley ed. introduction (Gutenberg 74723)"
+  },
+  {
+   "date_iso": "1522-10-24",
+   "date_display": "24 October 1522 (Julian)",
+   "precision": "day",
+   "eye": "transylvanus",
+   "place": "Spanish court, Valladolid",
+   "headline": "The first report of the circumnavigation reaches a cardinal",
+   "digest": "Transylvanus writes to Cardinal Lang that he has questioned the survivors and sets out the voyage, the strait, Magellan's death and the cloves brought home. He reasons, like Pigafetta, about the lost day. His account reflects the officers' version and was in print in Cologne three months later.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia 'Maximilianus Transylvanus' (date, addressee, Cologne Jan 1523 printing)"
+  },
+  {
+   "date_iso": "1568-02-26",
+   "date_display": "1568",
+   "precision": "year",
+   "eye": "diaz",
+   "place": "Santiago de Guatemala",
+   "headline": "An old soldier finishes his ‘true history’",
+   "digest": "In his seventies, Díaz completes his manuscript, insisting that ordinary soldiers, not only Cortés, won Mexico, and correcting Gómara's history. He writes of being poor and nearly blind, and of having outlived almost all his comrades.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "'Historia verdadera' (Wikipedia): manuscript completed 1568, printed 1632; month not known"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1492-10-12",
+   "label": "Landfall at Guanahani",
+   "eyes": [
+    "columbus",
+    "martyr",
+    "pane"
+   ],
+   "note": "Only Columbus's log (in Las Casas's abstract) records the day itself. Martyr heard of it the next spring as news of 'antipodes'; Pané, a few years later, tried to write down what the islanders believed — the closest thing to their side, filtered through a missionary."
+  },
+  {
+   "date": "1519-11-08",
+   "label": "Cortés and Moctezuma meet on the causeway",
+   "eyes": [
+    "cortes",
+    "diaz",
+    "florentine"
+   ],
+   "note": "Three versions of one meeting: Cortés's letter written within a year, presenting a voluntary handover; Díaz's old man's memory of a dream-city; and the Nahua elders, recorded c. 1555, who remember the necklaces, the speech and then the seizure. Their speeches for Moctezuma resemble one another — which may show how a Spanish story entered Nahua memory, not that it is true."
+  },
+  {
+   "date": "1520-08-27",
+   "label": "Summer–autumn 1520: retreat, gifts, epidemic",
+   "eyes": [
+    "cortes",
+    "diaz",
+    "florentine",
+    "durer",
+    "martyr"
+   ],
+   "note": "Between the night flight from Tenochtitlan (30 June–1 July) and the smallpox that began in Tepeilhuitl, Dürer stood in Brussels admiring Moctezuma's gold as art. Martyr had seen the same objects at Valladolid that spring. In Mexico the people who made them were facing war and an epidemic none of these European viewers knew about."
+  },
+  {
+   "date": "1521-04-27",
+   "label": "Spring–summer 1521: Mactan and the siege",
+   "eyes": [
+    "pigafetta",
+    "cortes"
+   ],
+   "note": "On 27 April Magellan was killed resisting a local ruler at Mactan, while on the other side of the Pacific Cortés's brigantines were being readied for the siege of Tenochtitlan that began in May. Two Iberian ventures, one defeated by a chief who refused to submit, the other victorious through alliances, disease and siege."
+  },
+  {
+   "date": "1521-08-13",
+   "label": "Fall of Tenochtitlan–Tlatelolco",
+   "eyes": [
+    "cortes",
+    "tlatelolco",
+    "florentine"
+   ],
+   "note": "Cortés records a capture and a victory; the Annals of Tlatelolco record hunger, prices and a lament; the Florentine elders record the people leaving the city and being searched. Same day, irreconcilable experiences."
+  },
+  {
+   "date": "1522-09-06",
+   "label": "The Victoria comes home",
+   "eyes": [
+    "pigafetta",
+    "transylvanus",
+    "cortes"
+   ],
+   "note": "Pigafetta returned with eighteen men and his journal; within seven weeks Transylvanus had interviewed the officers and written the first account; and in November Cortés's second letter came off a Seville press. Autumn 1522 is when Europe learned at once that the world could be circled and that Mexico had fallen."
+  }
+ ],
+ "ties": [
+  {
+   "a": "chanca",
+   "b": "columbus",
+   "kind": "met",
+   "note": "Chanca sailed with Columbus on the second voyage and treated him for fever at La Isabela."
+  },
+  {
+   "a": "pane",
+   "b": "columbus",
+   "kind": "influenced",
+   "note": "Pané wrote his account on Columbus's orders; it survives only because Columbus's son Ferdinand included it in his biography of his father."
+  },
+  {
+   "a": "martyr",
+   "b": "columbus",
+   "kind": "met",
+   "note": "Martyr knew Columbus at court and drew on conversations with him for the first Decade."
+  },
+  {
+   "a": "vespucci",
+   "b": "columbus",
+   "kind": "met",
+   "note": "The two knew each other in Seville; in 1505 Columbus wrote to his son that Vespucci was a man of good will."
+  },
+  {
+   "a": "martyr",
+   "b": "cortes",
+   "kind": "read each other",
+   "note": "Martyr read Cortés's letters and reports as they reached court and wove them into his fourth and fifth Decades."
+  },
+  {
+   "a": "martyr",
+   "b": "durer",
+   "kind": "mentioned",
+   "note": "Martyr in Valladolid (spring 1520) and Dürer in Brussels (August 1520) both saw and described the same Mexican treasure, and both praised the craftsmanship over the gold."
+  },
+  {
+   "a": "durer",
+   "b": "cortes",
+   "kind": "mentioned",
+   "note": "The gifts Dürer admired were those Moctezuma gave Cortés and Cortés sent to Charles V in 1519."
+  },
+  {
+   "a": "cortes",
+   "b": "diaz",
+   "kind": "met",
+   "note": "Díaz served under Cortés throughout the conquest and wrote partly to correct the Cortés-centred history of Gómara."
+  },
+  {
+   "a": "cortes",
+   "b": "florentine",
+   "kind": "opposite sides",
+   "note": "Book XII is the Nahua counter-narrative to Cortés's letters, covering the same meetings, massacre and siege."
+  },
+  {
+   "a": "tlatelolco",
+   "b": "florentine",
+   "kind": "same street",
+   "note": "Both accounts come from Tlatelolco and share its pride in the last stand and its resentment of Tenochtitlan's leaders."
+  },
+  {
+   "a": "pigafetta",
+   "b": "transylvanus",
+   "kind": "opposite sides",
+   "note": "Both tell the circumnavigation; Pigafetta was aboard, Transylvanus interviewed the officers Pigafetta distrusted, and they disagree on the Cebu massacre."
+  },
+  {
+   "a": "transylvanus",
+   "b": "martyr",
+   "kind": "influenced",
+   "note": "Transylvanus was a pupil of Peter Martyr; both worked at the same court and wrote up the Magellan survivors' testimony."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "black-death",
+   "note": "The smallpox epidemic the Nahua elders remembered in 1520 belongs with the Black Death as one of the great mortality events of history — but in reverse direction: an Old World disease meeting a population with no prior exposure, and recorded by survivors as a turning point of a war."
+  },
+  {
+   "to": "v1:long-threads",
+   "note": "The Florentine Codex's sixty days of pustules is one of the earliest Indigenous descriptions of an epidemic; it sits at the start of the long run of ordinary people writing about disease traced in the Long Threads chapter."
+  },
+  {
+   "to": "imjin-war",
+   "note": "Magellan's crossing opened the Spanish Pacific: Manila was founded in 1571, and Iberian ships and Jesuits reached Japan. The Spanish Jesuit Gregorio de Céspedes, who went to Korea with Konishi Yukinaga's Christian troops in 1593, is a direct heir of the Iberian expansion that begins here."
+  },
+  {
+   "to": "constantinople-1453",
+   "note": "Pigafetta was a Knight of the Order of St John and dedicated his account to its Grand Master; Rhodes fell to Süleyman's Ottomans in December 1522, just after the Victoria came home — the same Ottoman advance that had taken Constantinople in 1453 and shaped Europe's search for other routes east."
+  },
+  {
+   "to": "vienna-1683",
+   "note": "Charles V, who received Moctezuma's gifts and Cortés's letters, also ruled the Habsburg lands that would face the Ottomans at Vienna in 1529 and again in 1683; American silver helped pay for Habsburg wars on both fronts."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://jcb.lunaimaging.com/luna/servlet/detail/JCB~1~1~1252~1640003:Insula-hyspana-",
+   "title": "'Insula hyspana', woodcut from the Basel edition of Columbus's letter (1493)",
+   "caption": "One of the first printed images of the Americas: an imagined Hispaniola, with a European galley, drawn by someone who had never seen it. It shows how Europe pictured the news.",
+   "date": "1493",
+   "credit": "John Carter Brown Library"
+  },
+  {
+   "url": "https://rarebooks.blogs.princeton.edu/2014/02/editions-of-the-columbus-lette/",
+   "title": "Editions of the 'Columbus Letter' (Princeton Rare Books)",
+   "caption": "Scans of the printed 1493 letters in which Columbus announced his landfall — the news that Martyr was relaying to Italy that spring.",
+   "date": "1493",
+   "credit": "Princeton University Library"
+  },
+  {
+   "url": "https://artsandculture.google.com/asset/panel-from-the-florentine-codex-depicting-smallpox-outbreaks-in-the-americas-bernardino-de-sahagún/FQG1uvpBon90sQ",
+   "title": "Florentine Codex, Book XII: smallpox victims",
+   "caption": "Nahua artists painted people covered in sores and lying under blankets, illustrating the elders' account of the epidemic of 1520.",
+   "date": "1575–77",
+   "credit": "Biblioteca Medicea Laurenziana, Florence (via Google Arts & Culture)"
+  },
+  {
+   "url": "https://aztecglyphs.wired-humanities.org/node/8350",
+   "title": "Totomoniliztli (pustules), Florentine Codex Book XII, f. 53v",
+   "caption": "Scholarly entry on the Nahuatl word and image for the pustule disease in the codex.",
+   "date": "1575–77",
+   "credit": "Visual Lexicon of Aztec Hieroglyphs (Wired Humanities Projects)"
+  },
+  {
+   "url": "https://collections.library.yale.edu/catalog/2017752",
+   "title": "Pigafetta, Journal of Magellan's Voyage (French manuscript)",
+   "caption": "One of the four surviving manuscripts of Pigafetta's account, with his hand-drawn island maps — the only eyewitness narrative of Magellan's death.",
+   "date": "c. 1525",
+   "credit": "Beinecke Rare Book & Manuscript Library, Yale"
+  }
+ ],
+ "further": [
+  {
+   "title": "Peter Martyr, De Orbe Novo vol. 1 (MacNutt tr.) — Project Gutenberg",
+   "url": "https://www.gutenberg.org/cache/epub/12425/pg12425.txt"
+  },
+  {
+   "title": "Pigafetta in Blair & Robertson, The Philippine Islands vol. XXXIII — Project Gutenberg",
+   "url": "https://gutenberg.org/files/42884/old/42884-h/42884-h.htm"
+  },
+  {
+   "title": "Letters of Cortés (MacNutt tr.) — Internet Archive",
+   "url": "https://archive.org/stream/lettersofcorts01cortuoft/lettersofcorts01cortuoft_djvu.txt"
+  },
+  {
+   "title": "Letters of Amerigo Vespucci (Markham tr.) — Project Gutenberg",
+   "url": "https://gutenberg.org/cache/epub/36924/pg36924-images.html"
+  },
+  {
+   "title": "Florentine Codex Book 12 (University of Utah Press)",
+   "url": "https://uofupress.lib.utah.edu/?p=62228"
+  },
+  {
+   "title": "Metropolitan Museum, 'Gold of the Indies'",
+   "url": "https://www.metmuseum.org/en/essays/gold-of-the-indies"
+  }
+ ],
+ "vantage_key": "0 = principal actor or the defeated community writing of itself; 1 = eyewitness on the scene (including memories set down later); 4 = in Europe, receiving the news, the letters or the plunder."
+}

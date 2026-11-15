@@ -1,0 +1,1344 @@
+{
+ "id": "arpanet-1969",
+ "title": "Lo: Packets, Rivals and the First Network Message",
+ "short_title": "Lo: The First Network Message",
+ "subtitle": "Packet switching from RAND and NPL to the ARPANET, 1960–1970, with a coda to 1972",
+ "span": "1960–1973",
+ "intro": [
+  "Between 1960 and 1970 the idea of chopping messages into small blocks and letting computers pass them from switch to switch went from a Cold War survivability study to a working network. It did not have a single inventor. Paul Baran at RAND in Santa Monica and Donald Davies at the National Physical Laboratory outside London reached the same design separately, for different reasons, and neither built it first.",
+  "The American network came out of ARPA's Information Processing Techniques Office, where Bob Taylor wanted his agency's computers linked and Larry Roberts drew up the plan. In October 1967, at a symposium in Gatlinburg, Tennessee, a British engineer, Roger Scantlebury, explained packets to Roberts and pointed him to Baran's unread reports. A year later Bolt Beranek and Newman in Cambridge won the contract to build the switches, the Interface Message Processors, and a senator's congratulatory telegram got the name wrong.",
+  "The record here is mostly not diaries. It is dated reports and memoranda (RAND's, NPL's, BBN's quarterly reports to ARPA), the Request for Comments series that graduate students began in April 1969, one handwritten log book at UCLA, and a great deal of later recollection. Where a date or detail rests only on recollection, the entry says so.",
+  "The centre of the chapter is one evening: Wednesday 29 October 1969, about 22:30 Pacific Standard Time. Charley Kline at UCLA tried to log in to Bill Duvall's computer at SRI, 350 miles north, the two of them talking on the telephone as each letter went. Two letters arrived before the system crashed. The log records it in one line, and the later accounts disagree on details.",
+  "Who invented packet switching is still argued. Baran and Davies are credited by most historians with independent invention; Leonard Kleinrock, whose 1961–64 queueing work analysed message-switched networks, has since the 1990s claimed to have laid its theoretical foundation, and Davies, Taylor and others have rejected that. The chapter sets out the positions and the evidence and leaves the verdict to the reader. A short coda follows the network to its first email in 1971, its public demonstration in Washington in October 1972, and the French CYCLADES network whose ideas fed the internet's protocols."
+ ],
+ "calendar_note": "All dates are Gregorian. Times for UCLA and SRI are Pacific time; on 29 October 1969 California was on Pacific Standard Time (UTC−8), daylight time having ended on 26 October. NPL dates are British local dates.",
+ "eyes": [
+  {
+   "id": "baran",
+   "short": "Baran",
+   "name": "Paul Baran",
+   "life": "1926–2011",
+   "role": "Engineer at the RAND Corporation, aged 33–40, working on survivable command-and-control communications for the US Air Force",
+   "side": "RAND Corporation (US Air Force contract), Santa Monica",
+   "where": "RAND, Santa Monica, California; briefing rooms in Washington",
+   "lat": 34.0106,
+   "lon": -118.4965,
+   "vantage": 3,
+   "vantage_label": "parallel inventor, outside the ARPA project",
+   "form": "dated research memoranda and papers; later oral histories",
+   "language": "English",
+   "authenticity": "The eleven-volume 'On Distributed Communications' series (RM-3420 and companions, August 1964) is published free by RAND; the Computer History Museum holds Baran's own copy of RM-3420. His motives and the AT&T reaction are known mainly from his later interviews.",
+   "bio": "Baran set out to design a communications network that could survive a nuclear attack, and arrived at a mesh of cheap digital switches passing standard 'message blocks' from node to node. His idea was briefed widely, recommended by RAND, and then shelved when it would have gone to an agency he judged unready. His reports later reached the ARPA planners through the British.",
+   "sources": [
+    {
+     "title": "On Distributed Communications, Vol. I (RM-3420), RAND",
+     "url": "https://www.rand.org/pubs/research_memoranda/RM3420.html"
+    },
+    {
+     "title": "Reliable Digital Communications Systems Using Unreliable Network Repeater Nodes (P-1995), RAND",
+     "url": "https://www.rand.org/pubs/papers/P1995.html"
+    },
+    {
+     "title": "CHM catalogue: RM-3420-PR, August 1964",
+     "url": "https://www.computerhistory.org/collections/catalog/102724339"
+    }
+   ]
+  },
+  {
+   "id": "davies",
+   "short": "Davies",
+   "name": "Donald Watts Davies",
+   "life": "1924–2000",
+   "role": "Physicist and computer scientist at the UK National Physical Laboratory, aged 41–46; head of the Autonomics Division and later Superintendent",
+   "side": "National Physical Laboratory, UK",
+   "where": "NPL, Teddington, Middlesex",
+   "lat": 51.4246,
+   "lon": -0.3427,
+   "waypoints": [
+    {
+     "lat": 42.3601,
+     "lon": -71.0942,
+     "label": "MIT and US time-sharing sites, 1965"
+    },
+    {
+     "lat": 51.4246,
+     "lon": -0.3427,
+     "label": "NPL Teddington, 1965–70"
+    },
+    {
+     "lat": 55.9533,
+     "lon": -3.1883,
+     "label": "IFIP Congress, Edinburgh, Aug 1968"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "parallel inventor across the Atlantic",
+   "form": "dated internal notes, proposals and lectures",
+   "language": "English",
+   "authenticity": "His November–December 1965 notes and the June 1966 'Proposal for a Digital Communication Network' survive in NPL papers and are summarised with dates by historians; the 1966 report was unpublished at the time.",
+   "bio": "Davies came to networking after touring American time-sharing centres in 1965 and seeing how badly terminals were served by the telephone network. Within weeks he had worked out a scheme of short, fixed-size blocks switched by fast computers, and he chose the word 'packet' for them. Only later did he learn that Baran had reached a similar design for different reasons.",
+   "sources": [
+    {
+     "title": "History of Computer Communications: Donald Davies 1965–1966",
+     "url": "https://historyofcomputercommunications.info/section/4.5/Donald-Davies-1965-1966/"
+    },
+    {
+     "title": "Donald Davies (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Donald_Davies"
+    }
+   ]
+  },
+  {
+   "id": "scantlebury",
+   "short": "Scantlebury",
+   "name": "Roger Scantlebury",
+   "life": "1936–2022",
+   "role": "Engineer in Davies's data-communications group at NPL, aged about 31 in 1967",
+   "side": "National Physical Laboratory, UK",
+   "where": "NPL Teddington; Gatlinburg, Tennessee, October 1967",
+   "lat": 51.4246,
+   "lon": -0.3427,
+   "waypoints": [
+    {
+     "lat": 51.4246,
+     "lon": -0.3427,
+     "label": "NPL Teddington"
+    },
+    {
+     "lat": 35.714,
+     "lon": -83.51,
+     "label": "ACM symposium, Gatlinburg, Oct 1967"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "the courier who carried the idea across",
+   "form": "dated conference paper and internal memo; later recollections",
+   "language": "English",
+   "authenticity": "The NPL paper he presented at the 1967 ACM Symposium on Operating Systems Principles is in the published proceedings; the hallway conversation with Roberts is known from both men's later accounts.",
+   "bio": "Scantlebury presented the NPL network design at Gatlinburg and, by the accounts of both sides, took Larry Roberts aside to explain packet switching and point him to Baran's RAND reports. It is the single clearest moment when the British and American lines of thought met.",
+   "sources": [
+    {
+     "title": "Technicshistory, 'ARPANET part 2: the packet'",
+     "url": "https://technicshistory.com/2019/06/02/arpanet-part-2-the-packet/"
+    },
+    {
+     "title": "Donald Davies (Wikipedia) — 1967 section",
+     "url": "https://en.wikipedia.org/wiki/Donald_Davies"
+    }
+   ]
+  },
+  {
+   "id": "roberts",
+   "short": "Roberts",
+   "name": "Lawrence G. Roberts",
+   "life": "1937–2018",
+   "role": "Computer scientist from MIT Lincoln Laboratory, aged 29–35; programme manager and then director of ARPA's Information Processing Techniques Office",
+   "side": "ARPA, US Department of Defense",
+   "where": "ARPA IPTO, the Pentagon, Arlington, Virginia",
+   "lat": 38.8719,
+   "lon": -77.0563,
+   "waypoints": [
+    {
+     "lat": 42.4592,
+     "lon": -71.2678,
+     "label": "Lincoln Laboratory, to 1966"
+    },
+    {
+     "lat": 38.8719,
+     "lon": -77.0563,
+     "label": "ARPA, Pentagon, from Dec 1966"
+    },
+    {
+     "lat": 35.714,
+     "lon": -83.51,
+     "label": "Gatlinburg symposium, Oct 1967"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the government customer who wrote the specification",
+   "form": "dated conference paper and US-government procurement documents",
+   "language": "English",
+   "authenticity": "His October 1967 Gatlinburg paper is published; the July 1968 request for quotations and the ARPA programme plans are US-government records known through historians and BBN's response. Later he sided with Kleinrock in the priority argument.",
+   "bio": "Roberts was pressed into ARPA by Bob Taylor to build a network linking the agency's research computers. He drafted the plan, took the packet idea and the IMP architecture on board in 1967, and wrote the 1968 request for bids that BBN won.",
+   "sources": [
+    {
+     "title": "historyofinformation: Roberts issues the first paper on the design of the ARPANET",
+     "url": "https://historyofinformation.com/detail.php?id=858"
+    },
+    {
+     "title": "Technicshistory, 'ARPANET part 2: the packet'",
+     "url": "https://technicshistory.com/2019/06/02/arpanet-part-2-the-packet/"
+    }
+   ]
+  },
+  {
+   "id": "taylor",
+   "short": "Taylor",
+   "name": "Robert W. Taylor",
+   "life": "1932–2017",
+   "role": "Psychologist turned research administrator, aged 34–37; director of ARPA's Information Processing Techniques Office 1966–69",
+   "side": "ARPA, US Department of Defense",
+   "where": "IPTO office in the Pentagon, with terminals to three separate ARPA computers",
+   "lat": 38.8719,
+   "lon": -77.0563,
+   "vantage": 2,
+   "vantage_label": "the funder who asked for the network",
+   "form": "co-written essay (1968) and later oral histories",
+   "language": "English",
+   "authenticity": "His account of the 1966 funding request comes from later interviews; the April 1968 essay with Licklider, 'The Computer as a Communication Device', is published.",
+   "bio": "Taylor's office had a separate terminal for each ARPA-funded computer, and the waste of it pushed him to ask for money to connect them. He hired Roberts to do the work. In later decades he was among the sharpest critics of Kleinrock's priority claims.",
+   "sources": [
+    {
+     "title": "CHM Internet History: the 1960s",
+     "url": "https://www.computerhistory.org/internethistory/1960s"
+    },
+    {
+     "title": "Technicshistory, 'ARPANET part 2: the packet'",
+     "url": "https://technicshistory.com/2019/06/02/arpanet-part-2-the-packet/"
+    }
+   ]
+  },
+  {
+   "id": "heart",
+   "short": "Heart",
+   "name": "Frank Heart",
+   "life": "1929–2018",
+   "role": "Engineer heading Division 6 at Bolt Beranek and Newman, aged 39–40; leader of the IMP team",
+   "side": "BBN, Cambridge, Massachusetts (ARPA contractor)",
+   "where": "BBN, 50 Moulton Street, Cambridge",
+   "lat": 42.3895,
+   "lon": -71.1468,
+   "vantage": 1,
+   "vantage_label": "building the switches",
+   "form": "dated contract reports (BBN quarterly technical reports)",
+   "language": "English",
+   "authenticity": "BBN Reports 1763 (6 Jan 1969), 1783, 1837, 1890 and 1928 to ARPA survive and were reprinted in The ARPANET Sourcebook (2008); the Kennedy telegram is a team anecdote retold by historians.",
+   "bio": "Heart, cautious and exacting, took responsibility for a bid many thought too risky: a dozen small machines that had to run unattended and recover by themselves. His team delivered the first IMP to UCLA on schedule.",
+   "sources": [
+    {
+     "title": "Walden, preface to the 1969 IMP reports (ARPANET Sourcebook)",
+     "url": "https://walden-family.com/dave/archive/net-history/arpanet-qtrs.htm"
+    },
+    {
+     "title": "History of Computer Communications: BBN, the winning bid, 1968",
+     "url": "https://historyofcomputercommunications.info/section/4.9/Bolt-Beranek-and-Newman-The-Winning-Bid-1968/"
+    }
+   ]
+  },
+  {
+   "id": "kahn",
+   "short": "Kahn",
+   "name": "Robert E. Kahn",
+   "life": "born 1938",
+   "role": "Applied mathematician lent to the IMP team from another BBN division, aged 30–34; later the organiser of the 1972 public demonstration",
+   "side": "BBN (ARPA contractor)",
+   "where": "BBN Cambridge; Washington Hilton, October 1972",
+   "lat": 42.3895,
+   "lon": -71.1468,
+   "waypoints": [
+    {
+     "lat": 42.3895,
+     "lon": -71.1468,
+     "label": "BBN Cambridge, 1968–72"
+    },
+    {
+     "lat": 38.9165,
+     "lon": -77.0455,
+     "label": "ICCC, Washington Hilton, Oct 1972"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "network theorist on the builders' side",
+   "form": "dated technical memos (RFC 371) and contract reports",
+   "language": "English",
+   "authenticity": "RFC 371 (12 July 1972) announcing the ICCC demonstration is public on the RFC Editor site.",
+   "bio": "Kahn worked out the error-control and flow problems in the BBN bid and later spent months turning the network into something strangers could see working. The October 1972 show at the Washington Hilton made the ARPANET's case in public.",
+   "sources": [
+    {
+     "title": "RFC 371: Demonstration at International Computer Communications Conference",
+     "url": "https://www.rfc-editor.org/rfc/rfc371.html"
+    }
+   ]
+  },
+  {
+   "id": "ornstein",
+   "short": "Ornstein",
+   "name": "Severo Ornstein",
+   "life": "born 1930",
+   "role": "Hardware designer on the BBN IMP team, aged 38–39",
+   "side": "BBN (ARPA contractor)",
+   "where": "BBN Cambridge",
+   "lat": 42.3895,
+   "lon": -71.1468,
+   "vantage": 1,
+   "vantage_label": "on the bench with the hardware",
+   "form": "memoir (written later) and BBN reports",
+   "language": "English",
+   "authenticity": "His recollections appear in his memoir 'Computing in the Middle Ages' (2002) and in interviews; dates here are tied to BBN's contemporaneous reports.",
+   "bio": "Ornstein ran the hardware side of the IMP: a Honeywell DDP-516 minicomputer modified with BBN's own interfaces. The Honeywell-built prototype arrived with wiring faults the team had to find and fix themselves.",
+   "sources": [
+    {
+     "title": "History of Computer Communications: BBN, the winning bid, 1968",
+     "url": "https://historyofcomputercommunications.info/section/4.9/Bolt-Beranek-and-Newman-The-Winning-Bid-1968/"
+    },
+    {
+     "title": "Science Museum Group: control unit for Honeywell DDP 516",
+     "url": "https://collection.sciencemuseumgroup.org.uk/objects/co62504/control-unit-for-honeywell-ddp-516-computer-1966-1970-computer-component"
+    }
+   ]
+  },
+  {
+   "id": "crocker",
+   "short": "Crocker",
+   "name": "Stephen D. Crocker",
+   "life": "born 1944",
+   "role": "UCLA graduate student, aged 24–25; secretary of the informal Network Working Group of host-site students",
+   "side": "UCLA (ARPA Network Measurement Center)",
+   "where": "UCLA, Boelter Hall, Los Angeles",
+   "lat": 34.0692,
+   "lon": -118.443,
+   "vantage": 2,
+   "vantage_label": "host-site student writing the rules",
+   "form": "dated network memos (Request for Comments)",
+   "language": "English",
+   "authenticity": "RFC 1, 'Host Software', dated 7 April 1969, is preserved by the RFC Editor.",
+   "bio": "With no one senior in charge of host software, the graduate students at the first sites met and argued, and Crocker wrote up their tentative ideas. He called the notes 'Requests for Comments' to sound as unofficial as possible; the series became the standards record of the internet.",
+   "sources": [
+    {
+     "title": "RFC 1: Host Software",
+     "url": "https://www.rfc-editor.org/rfc/rfc1.html"
+    }
+   ]
+  },
+  {
+   "id": "kline",
+   "short": "Kline",
+   "name": "Charles S. Kline",
+   "life": "fl. 1969",
+   "role": "UCLA student programmer in Kleinrock's group",
+   "side": "UCLA",
+   "where": "Boelter Hall room 3420, UCLA, at the SDS Sigma 7 terminal",
+   "lat": 34.0692,
+   "lon": -118.443,
+   "vantage": 0,
+   "vantage_label": "at the sending keyboard",
+   "form": "log (IMP log book entries)",
+   "language": "English",
+   "authenticity": "The UCLA IMP log page for 29 October 1969, with Kline's initials 'CSK', is reproduced by Kleinrock's UCLA site; the original is held by Kleinrock/UCLA.",
+   "bio": "Kline wrote the UCLA host software and sat at the terminal on the night of 29 October, on the telephone with Bill Duvall in Menlo Park. His brief entry in the IMP log is the only contemporaneous record of the first host-to-host message.",
+   "sources": [
+    {
+     "title": "Kleinrock, 'The first words on the Internet' (UCLA, with log images)",
+     "url": "https://www.lk.cs.ucla.edu/internet_first_words.html"
+    }
+   ]
+  },
+  {
+   "id": "duvall",
+   "short": "Duvall",
+   "name": "Bill Duvall",
+   "life": "fl. 1969",
+   "role": "Programmer at Stanford Research Institute, aged about 26, in Douglas Engelbart's Augmentation Research Center",
+   "side": "SRI (ARPA host site)",
+   "where": "SRI, Menlo Park, at the SDS 940",
+   "lat": 37.4566,
+   "lon": -122.1747,
+   "vantage": 0,
+   "vantage_label": "at the receiving machine",
+   "form": "later recollections (no diary)",
+   "language": "English",
+   "authenticity": "No contemporaneous SRI log has been published; his side is known from later interviews and from Kleinrock's and Kline's accounts.",
+   "bio": "Duvall wrote the SRI software that made the incoming network connection look like a local terminal. On the night of the first message he was the voice on the other end of Kline's telephone, confirming letters as they arrived.",
+   "sources": [
+    {
+     "title": "Kleinrock, ICANN blog, 29 Oct 2019",
+     "url": "https://www.icann.org/en/blogs/details/the-first-message-transmission-29-10-2019-en"
+    },
+    {
+     "title": "SIGCIS thread on the first-message accounts",
+     "url": "https://lists.sigcis.org/archives/list/members@lists.sigcis.org/thread/FGGACNKITIOGGVNVF42464D3KKU5XZOE/"
+    }
+   ]
+  },
+  {
+   "id": "kleinrock",
+   "short": "Kleinrock",
+   "name": "Leonard Kleinrock",
+   "life": "born 1934",
+   "role": "Professor of computer science at UCLA, aged 35; principal investigator of the ARPA Network Measurement Center",
+   "side": "UCLA",
+   "where": "UCLA, Boelter Hall 3420",
+   "lat": 34.0692,
+   "lon": -118.443,
+   "waypoints": [
+    {
+     "lat": 42.3601,
+     "lon": -71.0942,
+     "label": "MIT, thesis 1961–62"
+    },
+    {
+     "lat": 34.0692,
+     "lon": -118.443,
+     "label": "UCLA, from 1963"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "supervising at the sending end",
+   "form": "dated thesis and book; later accounts",
+   "language": "English",
+   "authenticity": "His 1961 proposal, 1962 thesis and 1964 book are published; his narrative of 29 October 1969 has been retold many times, with small variations, and the priority claims he has made since the mid-1990s are disputed.",
+   "bio": "Kleinrock's MIT thesis modelled queues and delays in store-and-forward message networks, and Roberts chose his UCLA group to measure the new network. He kept the IMP log and has been the chief public narrator of the first message.",
+   "sources": [
+    {
+     "title": "Kleinrock, 'The first words on the Internet'",
+     "url": "https://www.lk.cs.ucla.edu/internet_first_words.html"
+    },
+    {
+     "title": "Leonard Kleinrock (Wikipedia mirror)",
+     "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Leonard_Kleinrock"
+    }
+   ]
+  },
+  {
+   "id": "pouzin",
+   "short": "Pouzin",
+   "name": "Louis Pouzin",
+   "life": "born 1931",
+   "role": "French engineer, aged 40–42; head of the CYCLADES project at IRIA",
+   "side": "IRIA (France)",
+   "where": "IRIA, Rocquencourt, near Paris",
+   "lat": 48.8375,
+   "lon": 2.1036,
+   "vantage": 4,
+   "vantage_label": "abroad, building a rival design",
+   "form": "dated project reports; later recollections",
+   "language": "French",
+   "authenticity": "CYCLADES reports and his later talks are public; dates here are those given by historians.",
+   "bio": "Pouzin had worked on time-sharing at MIT before leading France's network experiment. CYCLADES made the hosts, not the network, responsible for reliable delivery, an idea he called the datagram that fed directly into TCP/IP.",
+   "sources": [
+    {
+     "title": "historyofinformation: Pouzin coins 'datagram'",
+     "url": "https://www.historyofinformation.com/detail.php?id=3728"
+    },
+    {
+     "title": "History of Computer Communications: CYCLADES 1971–72",
+     "url": "https://historyofcomputercommunications.info/section/8.3/CYCLADES-Network-and-Louis-Pouzin-1971-1972/"
+    }
+   ]
+  },
+  {
+   "id": "tomlinson",
+   "short": "Tomlinson",
+   "name": "Ray Tomlinson",
+   "life": "1941–2016",
+   "role": "BBN engineer, aged 30, working on the TENEX operating system",
+   "side": "BBN (ARPA contractor)",
+   "where": "BBN Cambridge, between two PDP-10 computers in one room",
+   "lat": 42.3895,
+   "lon": -71.1468,
+   "vantage": 1,
+   "vantage_label": "engineer adding a new kind of message",
+   "form": "later recollections",
+   "language": "English",
+   "authenticity": "The test messages were not kept; the date (late 1971) rests on Tomlinson's later accounts.",
+   "bio": "Tomlinson joined a local mail program to a file-transfer program so a message could cross the network to a user on another machine, and picked the @ sign to separate user from host.",
+   "sources": [
+    {
+     "title": "Ray Tomlinson (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Ray_Tomlinson"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1960",
+   "date_display": "1960",
+   "precision": "year",
+   "eye": "baran",
+   "place": "RAND, Santa Monica",
+   "headline": "A network built from unreliable parts",
+   "digest": "Baran set out his first case that a communications system could stay up even when many of its switching points failed, if those points were cheap and densely interconnected. The paper treated survival under attack as a design problem rather than a matter of hardening a few central exchanges.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "RAND paper P-1995, 'Reliable Digital Communications Systems Using Unreliable Network Repeater Nodes' (RAND lists 1960; month not checked). https://www.rand.org/pubs/papers/P1995.html"
+  },
+  {
+   "date_iso": "1961-05",
+   "date_display": "May 1961",
+   "precision": "month",
+   "eye": "kleinrock",
+   "place": "MIT, Cambridge, Mass.",
+   "headline": "A thesis proposal on traffic in big networks",
+   "digest": "Kleinrock proposed to study how messages flow and queue in large communication networks, using mathematics borrowed from queueing theory. The subject was store-and-forward message switching of the telegraph kind, not packets. It is the document he later put forward as the start of his priority claim.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Proposal 'Information Flow in Large Communication Nets', dated May 1961 (Kleinrock article, Wikipedia mirror). https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Leonard_Kleinrock"
+  },
+  {
+   "date_iso": "1962-11",
+   "date_display": "November 1962",
+   "precision": "month",
+   "eye": "baran",
+   "place": "Briefings in the defence community",
+   "headline": "The distributed network goes on the road",
+   "digest": "Baran presented the distributed-network concept publicly and spent the next years giving dozens of briefings. He found AT&T engineers among the most hostile listeners: the Bell System was built around analogue circuits and central switching, and digital message blocks hopping between cheap nodes looked to them unworkable.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "History of Computer Communications, section 4.4 (presentation Nov 1962; about 40 briefings). https://historyofcomputercommunications.info/section/4.4/Paul-Baran-1959-1965/"
+  },
+  {
+   "date_iso": "1962-12",
+   "date_display": "December 1962",
+   "precision": "month",
+   "eye": "kleinrock",
+   "place": "MIT",
+   "headline": "A thesis on delay in message-switched nets",
+   "digest": "Kleinrock finished his MIT thesis on message delay in networks with storage, modelling Western Union's Plan 55-A torn-tape telegraph switching. Its results on queueing and routing became useful to ARPANET designers. Critics later noted that it did not propose breaking messages into packets.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Thesis 'Message Delay in Communication Nets with Storage', December 1962 (Wikipedia mirror). https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Leonard_Kleinrock"
+  },
+  {
+   "date_iso": "1964-08",
+   "date_display": "August 1964",
+   "precision": "month",
+   "eye": "baran",
+   "place": "RAND, Santa Monica",
+   "headline": "Eleven memoranda: the full design released",
+   "digest": "RAND released Baran's 'On Distributed Communications' series, eleven memoranda laying out a digital network of standard message blocks of about a thousand bits, adaptive 'hot-potato' routing and no central control. A journal summary had appeared in March. The work was unclassified, which is how it later reached both Davies and Roberts.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "CHM catalogue 102724339 (RM-3420-PR, August 1964); RAND abstract of RM-3420. https://www.computerhistory.org/collections/catalog/102724339"
+  },
+  {
+   "date_iso": "1964",
+   "date_display": "1964",
+   "precision": "year",
+   "eye": "kleinrock",
+   "place": "UCLA",
+   "headline": "The thesis becomes a book",
+   "digest": "Kleinrock's thesis was published as 'Communication Nets: Stochastic Message Flow and Delay'. It became a standard reference on network queueing. Later critics, including Alex McKenzie, said they could find nothing in it suggesting packetisation.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia mirror on Kleinrock (1964 book; McKenzie 2009 comment). https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Leonard_Kleinrock"
+  },
+  {
+   "date_iso": "1965",
+   "date_display": "1965 (exact months not checked)",
+   "precision": "year",
+   "eye": "baran",
+   "place": "RAND / Washington",
+   "headline": "The project goes to the wrong agency, and he pulls it",
+   "digest": "RAND formally recommended that the Air Force build the network, and an advisory committee agreed. But the Defense Department assigned it to the Defense Communications Agency, whose staff Baran judged to have no feel for digital switching. Rather than see the idea fail badly and be discredited, he advised shelving it until a capable organisation could take it on.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "History of Computer Communications, section 4.4 (dates within 1965–66 not pinned). https://historyofcomputercommunications.info/section/4.4/Paul-Baran-1959-1965/"
+  },
+  {
+   "date_iso": "1965-11-10",
+   "date_display": "Wednesday 10 November 1965",
+   "precision": "day",
+   "eye": "davies",
+   "place": "NPL, Teddington",
+   "headline": "Envelope sums become a paper",
+   "digest": "After an NPL seminar on 2–3 November where he scribbled calculations on an envelope, Davies wrote a short paper on remote on-line data processing and what it needed from communications. He saw that interactive terminals send short bursts and sit idle, so a line held open for each is wasteful; fast switching computers handling short blocks could share the lines.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "History of Computer Communications, section 4.5 ('Remote On-line Data Processing and its Communication Needs', 10 Nov 1965). https://historyofcomputercommunications.info/section/4.5/Donald-Davies-1965-1966/"
+  },
+  {
+   "date_iso": "1965-12-08",
+   "date_display": "Wednesday 8 December 1965",
+   "precision": "day",
+   "eye": "davies",
+   "place": "NPL, Teddington",
+   "headline": "A national data network proposed inside NPL",
+   "digest": "Davies circulated an eight-page proposal for a national communications service for on-line data processing. It went far beyond NPL: a public network for Britain, run by the Post Office, switching short message units at high speed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "History of Computer Communications, section 4.5. https://historyofcomputercommunications.info/section/4.5/Donald-Davies-1965-1966/"
+  },
+  {
+   "date_iso": "1966-02",
+   "date_display": "February 1966 (approx.)",
+   "precision": "month",
+   "eye": "taylor",
+   "place": "ARPA, the Pentagon",
+   "headline": "Three terminals, one idea, one million dollars",
+   "digest": "Taylor's office held three terminals, each wired to a different ARPA-funded computer, and none could talk to the others. He went to the ARPA director, Charles Herzfeld, and asked for money to link the agency's computers; by his later telling the decision took minutes. The initial budget was about a million dollars.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "CHM Internet History 1966 (Taylor becomes director; networking funding); technicshistory gives the $1 million figure. Month from Taylor's later accounts. https://www.computerhistory.org/internethistory/1960s"
+  },
+  {
+   "date_iso": "1966-03-16",
+   "date_display": "Wednesday 16 March 1966",
+   "precision": "day",
+   "eye": "davies",
+   "place": "London (public lecture)",
+   "headline": "The future digital communication network",
+   "digest": "Davies gave a public lecture describing a national digital network that would carry computer traffic in short pieces through fast switches. He predicted one network might eventually carry voice as well as data.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "History of Computer Communications, section 4.5 (lecture 16 Mar 1966). https://historyofcomputercommunications.info/section/4.5/Donald-Davies-1965-1966/"
+  },
+  {
+   "date_iso": "1966-06",
+   "date_display": "June 1966",
+   "precision": "month",
+   "eye": "davies",
+   "place": "NPL, Teddington",
+   "headline": "He names the 'packet'",
+   "digest": "The lecture grew into a 25-page 'Proposal for a Digital Communication Network', the first document in which Davies called the units packets. He chose the word after asking a linguist for something that would translate easily into other languages. After the report circulated, he was sent a copy of Baran's 1964 RAND memoranda and acknowledged that they had arrived at the same principle independently.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "History of Computer Communications, section 4.5; Davies article (packet term, linguist). https://historyofcomputercommunications.info/section/4.5/Donald-Davies-1965-1966/"
+  },
+  {
+   "date_iso": "1966-12",
+   "date_display": "December 1966",
+   "precision": "month",
+   "eye": "roberts",
+   "place": "ARPA, the Pentagon",
+   "headline": "A reluctant recruit arrives",
+   "digest": "After months of pressure from Taylor, and with ARPA leaning on Lincoln Laboratory's funding, Roberts moved to ARPA to run the network programme. His plan at first assumed slow leased telephone lines and message switching.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Roberts's later accounts as summarised by historians; month commonly given as December 1966. https://technicshistory.com/2019/06/02/arpanet-part-2-the-packet/"
+  },
+  {
+   "date_iso": "1967-04",
+   "date_display": "April 1967",
+   "precision": "month",
+   "eye": "roberts",
+   "place": "ARPA principal investigators' meeting, Ann Arbor",
+   "headline": "Wes Clark's idea: give each site a small switch",
+   "digest": "At the meeting of ARPA's principal investigators, the host sites resisted putting network work on their big time-sharing machines. Wesley Clark suggested a small dedicated computer at each site to handle the network, so the hosts need only talk to their own box. The small machines became the Interface Message Processors.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "CHM Internet History 1967 ('Ann Arbor conference, IMP concept'). https://www.computerhistory.org/internethistory/1960s"
+  },
+  {
+   "date_iso": "1967-04",
+   "date_display": "April 1967",
+   "precision": "month",
+   "eye": "scantlebury",
+   "place": "NPL, Teddington",
+   "headline": "The NPL team writes down its protocols",
+   "digest": "Scantlebury and Keith Bartlett wrote an internal memo on communication protocols for a local NPL network, turning Davies's national scheme into something that could be built on one site first.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Donald Davies article, 1967 section. https://en.wikipedia.org/wiki/Donald_Davies"
+  },
+  {
+   "date_iso": "1967-10",
+   "date_display": "1–4 October 1967 (dates of the symposium, approx.)",
+   "precision": "range",
+   "eye": "roberts",
+   "place": "ACM Symposium on Operating System Principles, Gatlinburg, Tennessee",
+   "headline": "ARPA's network plan is presented in public",
+   "digest": "Roberts presented 'Multiple computer networks and intercomputer communication', the first published design for the ARPA network. It still assumed slow lines and did not yet use packets.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "historyofinformation entry on Roberts's paper (October 1967, Gatlinburg). https://historyofinformation.com/detail.php?id=858"
+  },
+  {
+   "date_iso": "1967-10",
+   "date_display": "1–4 October 1967 (approx.)",
+   "precision": "range",
+   "eye": "scantlebury",
+   "place": "Gatlinburg, Tennessee",
+   "headline": "The British paper, and a word in Roberts's ear",
+   "digest": "Scantlebury gave the NPL paper on a digital network for computers with rapid response at remote terminals. By the accounts of both men he took Roberts aside to explain packet switching, supplied the word 'packet' and pointed him to Baran's RAND reports, which ARPA had not taken in.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Technicshistory (Scantlebury took Roberts aside, supplied 'packet' and RAND references); Davies article, 1967. https://technicshistory.com/2019/06/02/arpanet-part-2-the-packet/"
+  },
+  {
+   "date_iso": "1967-10",
+   "date_display": "October 1967 (after Gatlinburg)",
+   "precision": "month",
+   "eye": "roberts",
+   "place": "ARPA, the Pentagon",
+   "headline": "Faster lines, and packets",
+   "digest": "Back from Tennessee, Roberts raised his planned line speed to 50 kilobits per second and adopted packet switching for the ARPA network. He also asked Kleinrock to work on the network's performance theory.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Technicshistory (50 kb/s lines); Kleinrock article (Roberts asked Kleinrock after learning of packet switching in Oct 1967). https://technicshistory.com/2019/06/02/arpanet-part-2-the-packet/"
+  },
+  {
+   "date_iso": "1968-04",
+   "date_display": "April 1968",
+   "precision": "month",
+   "eye": "taylor",
+   "place": "ARPA / published essay",
+   "headline": "The computer as a communication device",
+   "digest": "With J. C. R. Licklider, Taylor published an essay arguing that linked computers would become a medium for people to communicate and work together, not just a way to share machines. It opened with a confident prediction that within a few years people would communicate more effectively through a machine than face to face.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Licklider and Taylor, 'The Computer as a Communication Device', Science and Technology, April 1968 (date from standard bibliographies; not re-checked online)."
+  },
+  {
+   "date_iso": "1968-07",
+   "date_display": "July 1968",
+   "precision": "month",
+   "eye": "roberts",
+   "place": "ARPA, the Pentagon",
+   "headline": "ARPA asks for bids on the IMPs",
+   "digest": "ARPA sent out a request for quotations for Interface Message Processors: small computers at each site to break host messages into packets, route them across leased 50-kilobit lines and reassemble them. About a hundred and forty firms were sent the request; IBM and others declined, and a dozen or so bid, with Raytheon and BBN the strongest.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "History of Computer Communications, section 4.9 (RFQ July 1968; Raytheon competed closely). Number of firms from historians' summaries, not re-checked. https://historyofcomputercommunications.info/section/4.9/Bolt-Beranek-and-Newman-The-Winning-Bid-1968/"
+  },
+  {
+   "date_iso": "1968-07",
+   "date_display": "July 1968",
+   "precision": "month",
+   "eye": "davies",
+   "place": "NPL, Teddington",
+   "headline": "NPL shows its network, real and simulated",
+   "digest": "NPL demonstrated real and simulated network links in July 1968, and in August Davies presented his packet ideas at the IFIP Congress in Edinburgh. The UK network was smaller than ARPA's but further along on the ground.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Donald Davies article, 1968 section. https://en.wikipedia.org/wiki/Donald_Davies"
+  },
+  {
+   "date_iso": "1968-12",
+   "date_display": "week before Christmas 1968 (approx. 16–20 December)",
+   "precision": "range",
+   "eye": "heart",
+   "place": "BBN, Cambridge",
+   "headline": "BBN wins, and a senator's telegram arrives first",
+   "digest": "BBN learned in the week before Christmas that its bid had won, with Heart responsible and Kahn, Ornstein, Crowther and Walden at the core of the team. Before ARPA's formal notice, a telegram from Senator Edward Kennedy of Massachusetts congratulated the firm on its 'Interfaith' Message Processor contract, a mis-hearing of 'Interface' that the team never forgot.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "History of Computer Communications, section 4.9 (week before Christmas 1968; Kennedy telegram, 'Interfaith Message Processor'). Telegram itself not seen; exact day unknown. https://historyofcomputercommunications.info/section/4.9/Bolt-Beranek-and-Newman-The-Winning-Bid-1968/"
+  },
+  {
+   "date_iso": "1969-01-06",
+   "date_display": "Monday 6 January 1969",
+   "precision": "day",
+   "eye": "heart",
+   "place": "BBN, Cambridge",
+   "headline": "Report 1763: the initial IMP design",
+   "digest": "Days into the contract, BBN delivered its initial design report: a Honeywell DDP-516 minicomputer at each site, built to run unattended, with BBN's own interfaces to the host and to the modems. The contract ran for one year and called for four IMPs.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Walden preface, ARPANET Sourcebook (BBN Report 1763, 6 Jan 1969; one-year contract for four IMPs). https://walden-family.com/dave/archive/net-history/arpanet-qtrs.htm"
+  },
+  {
+   "date_iso": "1969-04-07",
+   "date_display": "Monday 7 April 1969",
+   "precision": "day",
+   "eye": "crocker",
+   "place": "UCLA, Los Angeles",
+   "headline": "RFC 1: tentative notes on host software",
+   "digest": "Crocker sent out the first Request for Comments, 'Host Software'. It described how messages would be split by the IMPs into packets of about a thousand bits, the header each host message would carry, and the idea of many logical links between each pair of hosts. It listed open questions rather than decisions, and named the people at UCLA, SRI, Utah and Santa Barbara working on them.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "RFC 1, dated 7 April 1969, RFC Editor. https://www.rfc-editor.org/rfc/rfc1.html"
+  },
+  {
+   "date_iso": "1969-04",
+   "date_display": "April 1969",
+   "precision": "month",
+   "eye": "heart",
+   "place": "BBN, Cambridge",
+   "headline": "First quarterly report to ARPA",
+   "digest": "BBN reported on the period from 2 January to 31 March 1969: the design was firm and the team was writing software against a schedule that left little room for the hardware to be late.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Walden preface (BBN Report 1783, Quarterly Technical Report No. 1). https://walden-family.com/dave/archive/net-history/arpanet-qtrs.htm"
+  },
+  {
+   "date_iso": "1969",
+   "date_display": "Spring–summer 1969",
+   "precision": "range",
+   "eye": "ornstein",
+   "place": "BBN, Cambridge",
+   "headline": "The prototype arrives miswired",
+   "digest": "The first modified DDP-516 came from Honeywell with errors in its new interface wiring. Ornstein's group traced and corrected them themselves, and the machines were built in heavy cabinets meant to survive being handled by graduate students.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Team accounts retold by historians (History of Computer Communications, section 6.1). Exact dates not pinned. https://historyofcomputercommunications.info/section/6.1/The-Communications-Subnet-BBN-1969/"
+  },
+  {
+   "date_iso": "1969-08-30",
+   "date_display": "Saturday 30 August 1969 (Labor Day weekend)",
+   "precision": "day",
+   "eye": "kleinrock",
+   "place": "UCLA, Boelter Hall",
+   "headline": "The first IMP arrives at UCLA",
+   "digest": "BBN's first IMP was delivered to UCLA over the Labor Day weekend and installed beside the Sigma 7. Within days the IMP and the host were exchanging messages across their interface; there was as yet no second node to talk to.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Walden preface (first IMP delivered to UCLA 30 Aug 1969); CHM gives September for installation. https://walden-family.com/dave/archive/net-history/arpanet-qtrs.htm"
+  },
+  {
+   "date_iso": "1969-10-01",
+   "date_display": "Wednesday 1 October 1969",
+   "precision": "day",
+   "eye": "duvall",
+   "place": "SRI, Menlo Park",
+   "headline": "The second IMP reaches SRI",
+   "digest": "The second IMP arrived at Stanford Research Institute to serve Engelbart's SDS 940. Once the leased line was up, BBN's engineers ran IMP-to-IMP tests between the two sites before any host software tried to use the link.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "SIGCIS thread citing a Raytheon/BBN release and newspapers for 1 October; another account gives 6 October for the first IMP-to-IMP message. https://lists.sigcis.org/archives/list/members@lists.sigcis.org/thread/FGGACNKITIOGGVNVF42464D3KKU5XZOE/"
+  },
+  {
+   "date_iso": "1969-10",
+   "date_display": "October 1969",
+   "precision": "month",
+   "eye": "heart",
+   "place": "BBN, Cambridge",
+   "headline": "Third quarterly report: two nodes in the field",
+   "digest": "BBN's third quarterly report covered July to September 1969, the months in which the first machines left Cambridge.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Walden preface (BBN Report 1890, Oct 1969). https://walden-family.com/dave/archive/net-history/arpanet-qtrs.htm"
+  },
+  {
+   "date_iso": "1969-10-29",
+   "date_display": "Wednesday 29 October 1969, about 22:30 PST",
+   "precision": "day",
+   "eye": "kline",
+   "place": "Boelter Hall 3420, UCLA",
+   "headline": "'LO': the first host-to-host message",
+   "digest": "Kline tried to log in to the SRI computer from UCLA's Sigma 7, talking to Duvall by telephone as each character went. The L arrived; the O arrived; then the system crashed. In the IMP log he made a terse entry at 22:30 against the session, with his initials.",
+   "quote": "Talked to SRI Host to Host",
+   "confidence": "verified",
+   "source_note": "UCLA IMP log page reproduced by Kleinrock (22:30, initials CSK); Kleinrock 'first words' page. https://www.lk.cs.ucla.edu/internet_first_words.html"
+  },
+  {
+   "date_iso": "1969-10-29",
+   "date_display": "Wednesday 29 October 1969, about 22:30 PST",
+   "precision": "day",
+   "eye": "duvall",
+   "place": "SRI, Menlo Park",
+   "headline": "Got the L, got the O, then nothing",
+   "digest": "At SRI, Duvall watched the characters arrive from Los Angeles and confirmed each down the phone. His system was meant to complete the word 'login' once it recognised the start; at the third character the connection failed. Later accounts disagree on whether the UCLA or the SRI side crashed; Duvall traced a fault in his own code and fixed it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kleinrock, ICANN blog 2019; SIGCIS thread on conflicting accounts of which machine failed. https://lists.sigcis.org/archives/list/members@lists.sigcis.org/thread/FGGACNKITIOGGVNVF42464D3KKU5XZOE/"
+  },
+  {
+   "date_iso": "1969-10-29",
+   "date_display": "Wednesday 29 October 1969, about 22:30 PST",
+   "precision": "day",
+   "eye": "kleinrock",
+   "place": "UCLA",
+   "headline": "The first message, as the professor tells it",
+   "digest": "Kleinrock was the principal investigator for the UCLA node and later its main storyteller. In his account the characters were L and O before the crash, giving the first message as 'lo', which he has likened to 'lo and behold'. In some tellings the crash came as G was typed; in all, only two letters got through.",
+   "quote": "LO",
+   "confidence": "verified",
+   "source_note": "Kleinrock, 'The first words on the Internet' and ICANN blog, 29 Oct 2019. https://www.icann.org/en/blogs/details/the-first-message-transmission-29-10-2019-en"
+  },
+  {
+   "date_iso": "1969-10-29",
+   "date_display": "Wednesday 29 October 1969, about 23:30 PST",
+   "precision": "day",
+   "eye": "kline",
+   "place": "UCLA",
+   "headline": "An hour later, a full login",
+   "digest": "After the fault was fixed, Kline tried again and this time logged in to the SRI machine from UCLA. The two hosts had now held a working session across the network.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kleinrock 'first words' page (full login about an hour later). https://www.lk.cs.ucla.edu/internet_first_words.html"
+  },
+  {
+   "date_iso": "1969-11-21",
+   "date_display": "Friday 21 November 1969",
+   "precision": "day",
+   "eye": "kleinrock",
+   "place": "UCLA–SRI",
+   "headline": "The first permanent link",
+   "digest": "The UCLA–SRI connection was put into permanent service, ending the trial phase for the first two nodes.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kleinrock article, Wikipedia mirror (first permanent link 21 Nov 1969). https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Leonard_Kleinrock"
+  },
+  {
+   "date_iso": "1969-12-05",
+   "date_display": "Friday 5 December 1969",
+   "precision": "day",
+   "eye": "heart",
+   "place": "BBN / the four sites",
+   "headline": "Four nodes working",
+   "digest": "With IMPs at UCLA, SRI, UC Santa Barbara and the University of Utah, the four-node network was operating by early December. BBN had met its year's commitment to ARPA.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kleinrock article, Wikipedia mirror (four-node network by 5 Dec 1969); Walden preface (four IMPs delivered by end of 1969). https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Leonard_Kleinrock"
+  },
+  {
+   "date_iso": "1970-01",
+   "date_display": "January 1970",
+   "precision": "month",
+   "eye": "davies",
+   "place": "NPL, Teddington",
+   "headline": "The NPL network fully running",
+   "digest": "NPL's Mark I local network became fully operational, after parts of it had gone live in 1969. It linked the laboratory's computers and terminals through a single packet switch; Britain's national network never followed in Davies's form.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Donald Davies article (elements live early 1969; Mark I fully operational January 1970). https://en.wikipedia.org/wiki/Donald_Davies"
+  },
+  {
+   "date_iso": "1971",
+   "date_display": "1971",
+   "precision": "year",
+   "eye": "pouzin",
+   "place": "IRIA, Rocquencourt",
+   "headline": "France starts CYCLADES",
+   "digest": "Pouzin's team began building CYCLADES, deliberately different from the ARPANET: the network would just carry independent packets, and the hosts would take charge of reliability. He coined 'datagram' for these self-contained packets.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "History of Computer Communications, section 8.3 (CYCLADES 1971–72); historyofinformation entry on 'datagram'. https://www.historyofinformation.com/detail.php?id=3728"
+  },
+  {
+   "date_iso": "1971",
+   "date_display": "late 1971",
+   "precision": "range",
+   "eye": "tomlinson",
+   "place": "BBN, Cambridge",
+   "headline": "A message crosses to another machine",
+   "digest": "Tomlinson combined a local message program, SNDMSG, with code from a network file-transfer program, CPYNET, so that a message could be delivered to a user's mailbox on another computer. He tested it between two PDP-10s side by side, choosing @ to join user to host. He later said the test texts were forgettable and he had forgotten them.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Ray Tomlinson article (1971; SNDMSG, CPYNET, @); month not documented. https://en.wikipedia.org/wiki/Ray_Tomlinson"
+  },
+  {
+   "date_iso": "1972-07-12",
+   "date_display": "Wednesday 12 July 1972",
+   "precision": "day",
+   "eye": "kahn",
+   "place": "BBN, Cambridge",
+   "headline": "RFC 371: an invitation to show the network",
+   "digest": "Kahn announced to the network sites a computer-communication demonstration to run alongside the October conference in Washington. Terminals at the Hilton would connect directly to a terminal IMP, and he asked sites to offer programs: database retrieval, several machines used together, real-time data.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "RFC 371, 12 July 1972, RFC Editor. https://www.rfc-editor.org/rfc/rfc371.html"
+  },
+  {
+   "date_iso": "1972-10-24",
+   "date_display": "24–26 October 1972",
+   "precision": "range",
+   "eye": "kahn",
+   "place": "Washington Hilton, Washington DC",
+   "headline": "The public sees the ARPANET",
+   "digest": "At the International Conference on Computer Communication, dozens of terminals in the hotel let visitors use computers across the country. Sceptical telephone engineers watched it work; the demonstration converted many doubters and gave the network its public debut.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "RFC 371 (dates and venue); general accounts of ICCC 1972. https://www.rfc-editor.org/rfc/rfc371.html"
+  },
+  {
+   "date_iso": "1973-11",
+   "date_display": "November 1973",
+   "precision": "month",
+   "eye": "pouzin",
+   "place": "IRIA, France",
+   "headline": "CYCLADES runs its first demonstration",
+   "digest": "CYCLADES made its first demonstration with three hosts and one packet switch. Cerf and Kahn drew on its host-responsibility principle for TCP in 1974.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "historyofinformation entry on 'datagram' (Nov 1973 demo; 1974 TCP). https://www.historyofinformation.com/detail.php?id=3728"
+  },
+  {
+   "date_iso": "2001",
+   "date_display": "2001",
+   "precision": "year",
+   "eye": "davies",
+   "place": "Retired, UK",
+   "headline": "A historian of his own invention weighs in",
+   "digest": "In a paper published shortly after his death, Davies reviewed Kleinrock's early work and said he could find no evidence that it contained the principles of packet switching. He credited Baran and himself as having reached the idea independently.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kleinrock article (Davies 2001); paper usually cited as Davies, 'A historical study of the beginnings of packet switching', Computer Journal 2001. https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Leonard_Kleinrock"
+  },
+  {
+   "date_iso": "2019-10-29",
+   "date_display": "Tuesday 29 October 2019",
+   "precision": "day",
+   "eye": "kleinrock",
+   "place": "UCLA",
+   "headline": "Fifty years on, the story retold",
+   "digest": "On the fiftieth anniversary Kleinrock published his account again: two programmers on headsets, the L and the O confirmed, a crash on the G, and the IMP log as the only record. He presented it as the birth of the internet.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kleinrock, ICANN blog, 29 Oct 2019. https://www.icann.org/en/blogs/details/the-first-message-transmission-29-10-2019-en"
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1964-08",
+   "date_display": "August 1964",
+   "eye": "baran",
+   "claim": "RAND → Air Force and public: eleven memoranda propose a distributed network of ~1,000-bit message blocks with hot-potato routing; position: Baran invented packet switching independently (historians, National Inventors Hall of Fame)",
+   "form": "report",
+   "evidence": "RAND RM-3420 series; CHM catalogue 102724339",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1965-12-08",
+   "date_display": "8 December 1965",
+   "eye": "davies",
+   "claim": "Davies → NPL colleagues: eight-page proposal for a national data service switching short message units",
+   "form": "report",
+   "evidence": "History of Computer Communications, 4.5",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1966-06",
+   "date_display": "June 1966",
+   "eye": "davies",
+   "claim": "Davies → NPL and UK readers: 'Proposal for a Digital Communication Network' names the unit a 'packet'; position: independent invention, acknowledged by Davies as parallel to Baran",
+   "form": "report",
+   "evidence": "History of Computer Communications, 4.5; Davies article",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1967-10",
+   "date_display": "October 1967, Gatlinburg",
+   "eye": "scantlebury",
+   "claim": "Scantlebury → Roberts, in person: packet switching explained, NPL design, pointer to Baran's RAND reports; Roberts changes plans to 50 kb/s lines and packets",
+   "form": "other",
+   "evidence": "Technicshistory; both men's later accounts",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1968-07",
+   "date_display": "July 1968",
+   "eye": "roberts",
+   "claim": "ARPA → industry: request for quotations to build Interface Message Processors",
+   "form": "report",
+   "evidence": "History of Computer Communications, 4.9",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1968-12",
+   "date_display": "week before Christmas 1968",
+   "eye": "heart",
+   "claim": "Senator Edward Kennedy → BBN: telegram congratulating the firm on the 'Interfaith' Message Processor contract, arriving before ARPA's formal notice",
+   "form": "telegraph",
+   "evidence": "History of Computer Communications, 4.9 (team anecdote; telegram text not seen)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1969-01-06",
+   "date_display": "6 January 1969",
+   "eye": "heart",
+   "claim": "BBN → ARPA: Report 1763, initial IMP design",
+   "form": "report",
+   "evidence": "Walden preface, ARPANET Sourcebook",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1969-04-07",
+   "date_display": "7 April 1969",
+   "eye": "crocker",
+   "claim": "Crocker (UCLA) → Network Working Group sites: RFC 1, 'Host Software', tentative host protocol ideas",
+   "form": "network",
+   "evidence": "RFC Editor, RFC 1",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1969-10-29",
+   "date_display": "29 October 1969, 22:30 PST",
+   "eye": "kline",
+   "claim": "UCLA Sigma 7 → SRI SDS 940: login attempt; 'L' and 'O' received, then crash; logged as host-to-host contact",
+   "form": "network",
+   "evidence": "UCLA IMP log page (Kleinrock site)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1969-10-29",
+   "date_display": "29 October 1969, about 23:30 PST",
+   "eye": "kline",
+   "claim": "UCLA → SRI: full login succeeds about an hour after the crash",
+   "form": "network",
+   "evidence": "Kleinrock, 'first words' page",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1969-10-29",
+   "date_display": "29 October 1969",
+   "eye": "duvall",
+   "claim": "Which side crashed: accounts differ (UCLA vs SRI host; on 'O' vs on 'G'); all agree only two letters arrived",
+   "form": "other",
+   "evidence": "SIGCIS thread; Kleinrock pages",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1971",
+   "date_display": "late 1971",
+   "eye": "tomlinson",
+   "claim": "Tomlinson → himself on a second PDP-10: first network mail to user@host; text forgotten, not kept",
+   "form": "network",
+   "evidence": "Tomlinson's later accounts",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1972-07-12",
+   "date_display": "12 July 1972",
+   "eye": "kahn",
+   "claim": "Kahn (BBN) → network sites: RFC 371 announces the ICCC demonstration, Washington Hilton, 24–26 October",
+   "form": "network",
+   "evidence": "RFC Editor, RFC 371",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1995",
+   "date_display": "from the mid-1990s",
+   "eye": "kleinrock",
+   "claim": "Position (Kleinrock, supported by Roberts): his 1961–64 queueing work created the mathematical theory of packet networks; counter-positions (Davies 2001, Taylor 2001, McKenzie 2009, Baran): it analysed message switching and did not propose packets",
+   "form": "other",
+   "evidence": "Kleinrock article and its cited sources",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1964–1966",
+   "label": "Two inventors, unaware of each other",
+   "eyes": [
+    "baran",
+    "davies",
+    "kleinrock"
+   ],
+   "note": "Baran in Santa Monica wanted a network that survived bombs; Davies in Teddington wanted one that served terminals cheaply. They reached the same shape of answer for opposite reasons, while Kleinrock's queueing mathematics described the older message-switched networks both were moving beyond."
+  },
+  {
+   "date": "1967-10",
+   "label": "Gatlinburg: the British and American lines meet",
+   "eyes": [
+    "roberts",
+    "scantlebury",
+    "davies",
+    "baran"
+   ],
+   "note": "Roberts presented a network without packets; Scantlebury presented one with them. A conversation in Tennessee carried Davies's word and Baran's reports into the ARPA plan."
+  },
+  {
+   "date": "1968-12",
+   "label": "The contract and the telegram",
+   "eyes": [
+    "heart",
+    "kahn",
+    "ornstein",
+    "roberts"
+   ],
+   "note": "For ARPA it was a procurement decision; for BBN a gamble on unattended machines; for a senator's office, briefly, an interfaith project."
+  },
+  {
+   "date": "1969-04-07",
+   "label": "Rules written by students",
+   "eyes": [
+    "crocker",
+    "kline",
+    "duvall",
+    "heart"
+   ],
+   "note": "BBN specified the IMPs; nobody senior specified the hosts. Crocker's tentative notes, read by Duvall and Kline among others, filled the gap."
+  },
+  {
+   "date": "1969-10-29",
+   "label": "'LO'",
+   "eyes": [
+    "kline",
+    "duvall",
+    "kleinrock"
+   ],
+   "note": "Three people at two ends of one telephone call and one network link. The log gives one line; the later accounts differ on which machine failed and on which letter."
+  },
+  {
+   "date": "1969-12-05",
+   "label": "Four nodes in America, one switch in England",
+   "eyes": [
+    "heart",
+    "davies",
+    "kleinrock"
+   ],
+   "note": "ARPA's four-node network went into operation weeks before NPL's Mark I became fully operational: a wide network across the country and a local one inside a single laboratory."
+  },
+  {
+   "date": "1972-10",
+   "label": "The network goes public, and rivals compare notes",
+   "eyes": [
+    "kahn",
+    "pouzin",
+    "tomlinson"
+   ],
+   "note": "The Washington demonstration showed a working ARPANET, which by then carried Tomlinson's mail; Pouzin's CYCLADES was building the alternative that would shape TCP."
+  }
+ ],
+ "ties": [
+  {
+   "a": "scantlebury",
+   "b": "roberts",
+   "kind": "met",
+   "note": "At the Gatlinburg symposium in October 1967 Scantlebury explained packet switching to Roberts and pointed him to Baran's reports."
+  },
+  {
+   "a": "davies",
+   "b": "baran",
+   "kind": "read each other",
+   "note": "Davies was sent Baran's 1964 RAND memoranda after his own 1966 proposal and acknowledged their independent, parallel arrival at the idea."
+  },
+  {
+   "a": "davies",
+   "b": "kleinrock",
+   "kind": "opposite sides",
+   "note": "In the priority dispute Davies wrote that Kleinrock's early work did not contain packet switching."
+  },
+  {
+   "a": "taylor",
+   "b": "roberts",
+   "kind": "influenced",
+   "note": "Taylor obtained the funding and recruited Roberts from Lincoln Laboratory to build the network."
+  },
+  {
+   "a": "taylor",
+   "b": "kleinrock",
+   "kind": "opposite sides",
+   "note": "Taylor publicly rejected the claims that Kleinrock and Roberts originated packet networking."
+  },
+  {
+   "a": "roberts",
+   "b": "heart",
+   "kind": "met",
+   "note": "Roberts's 1968 request for quotations was answered by Heart's BBN bid, which won the contract."
+  },
+  {
+   "a": "heart",
+   "b": "kahn",
+   "kind": "met",
+   "note": "Kahn was lent to Heart's IMP team for the bid and its theory of error and flow control."
+  },
+  {
+   "a": "heart",
+   "b": "ornstein",
+   "kind": "met",
+   "note": "Ornstein led the IMP hardware within Heart's team."
+  },
+  {
+   "a": "kline",
+   "b": "duvall",
+   "kind": "met",
+   "note": "Kline and Duvall were the two ends of the telephone call and of the network link on 29 October 1969."
+  },
+  {
+   "a": "kleinrock",
+   "b": "kline",
+   "kind": "met",
+   "note": "Kline was a student programmer in Kleinrock's UCLA group and kept the log entry Kleinrock later made famous."
+  },
+  {
+   "a": "crocker",
+   "b": "duvall",
+   "kind": "mentioned",
+   "note": "RFC 1 names Duvall among the SRI people working on host software."
+  },
+  {
+   "a": "kahn",
+   "b": "pouzin",
+   "kind": "influenced",
+   "note": "Kahn and Cerf drew on CYCLADES's datagram and host-responsibility ideas for TCP in 1974."
+  },
+  {
+   "a": "tomlinson",
+   "b": "heart",
+   "kind": "same street",
+   "note": "Tomlinson worked at BBN in Cambridge, the same firm that built the IMPs his mail travelled through."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "morse-1844",
+   "note": "Kleinrock's thesis modelled Western Union's Plan 55-A torn-tape telegraph switching: store-and-forward message handling descended directly from the telegraph offices that grew out of Morse's line."
+  },
+  {
+   "to": "telephone-1876",
+   "note": "Baran's most hostile audience was AT&T, heir to Bell's telephone, whose analogue, circuit-switched network was the model packet switching set out to replace."
+  },
+  {
+   "to": "v2:apollo-11",
+   "note": "The first IMP reached UCLA five weeks after the Moon landing; both projects were Cold War federal research programmes born of the post-Sputnik push that created ARPA in 1958."
+  },
+  {
+   "to": "v7:rockets",
+   "note": "ARPA, which paid for the network, was founded in 1958 in response to Sputnik, the rocket-borne shock that also drove the space race."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.lk.cs.ucla.edu/data/images/history/imp_log.gif",
+   "title": "UCLA IMP log, page for 29 October 1969",
+   "caption": "The log page with Kline's 22:30 entry recording host-to-host contact with SRI, the only contemporaneous record of the first message. Reproduced on Kleinrock's UCLA site.",
+   "date": "1969-10-29",
+   "credit": "Leonard Kleinrock / UCLA"
+  },
+  {
+   "url": "https://www.lk.cs.ucla.edu/data/images/history/imp_log_cover.gif",
+   "title": "Cover of the UCLA IMP log book",
+   "caption": "The cover of the notebook kept beside the first IMP at UCLA.",
+   "date": "1969",
+   "credit": "Leonard Kleinrock / UCLA"
+  },
+  {
+   "url": "https://www.computerhistory.org/revolution/networking/19/407/2086?position=0",
+   "title": "Interface Message Processor (IMP)",
+   "caption": "A BBN-built IMP, the ruggedised Honeywell minicomputer that switched packets at each ARPANET site. (The museum page's 'circa 1965' date refers to the base machine design; IMPs were built from 1969.)",
+   "date": "",
+   "credit": "Computer History Museum, object X105.82; photo Mark Richards"
+  },
+  {
+   "url": "https://www.computerhistory.org/collections/catalog/102724339",
+   "title": "Baran, 'On Distributed Communications: I', RM-3420-PR",
+   "caption": "Paul Baran's own copy of the first of the eleven 1964 RAND memoranda, gift of Baran to the Computer History Museum.",
+   "date": "1964-08",
+   "credit": "Computer History Museum, catalogue 102724339"
+  },
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/objects/co62504/control-unit-for-honeywell-ddp-516-computer-1966-1970-computer-component",
+   "title": "Control unit for a Honeywell DDP 516",
+   "caption": "A control unit from the DDP-516 family, the minicomputer BBN adapted as the IMP. This unit is not itself from the ARPANET.",
+   "date": "1966–1970",
+   "credit": "Science Museum Group, object 1984-834"
+  }
+ ],
+ "further": [
+  {
+   "title": "RAND: On Distributed Communications (RM-3420) and companion volumes",
+   "url": "https://www.rand.org/pubs/research_memoranda/RM3420.html"
+  },
+  {
+   "title": "Kleinrock: The first words on the Internet (with IMP log images)",
+   "url": "https://www.lk.cs.ucla.edu/internet_first_words.html"
+  },
+  {
+   "title": "RFC 1: Host Software (7 April 1969)",
+   "url": "https://www.rfc-editor.org/rfc/rfc1.html"
+  },
+  {
+   "title": "RFC 371: Demonstration at ICCC (1972)",
+   "url": "https://www.rfc-editor.org/rfc/rfc371.html"
+  },
+  {
+   "title": "Walden: the 1969 BBN IMP reports (ARPANET Sourcebook preface)",
+   "url": "https://walden-family.com/dave/archive/net-history/arpanet-qtrs.htm"
+  },
+  {
+   "title": "History of Computer Communications: Donald Davies 1965–1966",
+   "url": "https://historyofcomputercommunications.info/section/4.5/Donald-Davies-1965-1966/"
+  },
+  {
+   "title": "CHM Internet History: the 1960s",
+   "url": "https://www.computerhistory.org/internethistory/1960s"
+  },
+  {
+   "title": "Thomas Haigh and others on the first-message accounts (SIGCIS)",
+   "url": "https://lists.sigcis.org/archives/list/members@lists.sigcis.org/thread/FGGACNKITIOGGVNVF42464D3KKU5XZOE/"
+  }
+ ],
+ "vantage_key": "0 = at either end of the first message; 1 = building the network itself (ARPA's specification, BBN's switches); 2 = funding or host-site support; 3 = parallel inventors outside the project; 4 = abroad, building a rival network."
+}

@@ -1,0 +1,1538 @@
+{
+ "id": "channel-atlantic",
+ "title": "Across the Channel and the Atlantic, 1909–1927",
+ "short_title": "Channel and Atlantic",
+ "subtitle": "From Blériot's 37 minutes over the Strait of Dover to Lindbergh's 33½ hours to Paris",
+ "span": "1908–1927",
+ "intro": [
+  "In July 1909 the English Channel, about twenty-two miles of grey water between Calais and Dover, was the obvious test for the aeroplane. The Daily Mail had offered £1,000 for the first crossing. Hubert Latham went first and came down in the sea. Six days later Louis Blériot, limping from a burned foot, crossed in roughly thirty-seven minutes in a small monoplane with no compass, and landed hard in a meadow under Dover Castle while a French reporter waved a tricolour to guide him in.",
+  "Within three years the Channel was a route rather than a feat. When Harriet Quimby flew it in April 1912, the first woman to do so, she flew by compass through fog, and the news was buried under the loss of the Titanic. The next obstacle was the Atlantic. The Daily Mail raised its offer to £10,000 in 1913, and the First World War paused the attempt and supplied the means: long-range bombers, flying boats, rigid airships and men trained to fly them.",
+  "In May and June 1919 the ocean was crossed three ways within seven weeks. The US Navy sent three Curtiss flying boats in stages via Newfoundland and the Azores, with warships stationed along the route. Only NC-4, under Albert Read, got through. John Alcock and Arthur Whitten Brown then flew nonstop from Newfoundland to an Irish bog in a converted Vickers Vimy bomber, through fog, sleet and a spin that took them nearly down to the waves. In July the airship R34 crossed from Scotland to Long Island and flew home again. In New York, a French-born hotelier, Raymond Orteig, offered $25,000 for the next step, a nonstop flight between New York and Paris.",
+  "Nobody claimed Orteig's prize for eight years. When the contest finally turned fierce in 1926–27, it cost lives: René Fonck's overloaded Sikorsky crashed on take-off, killing two of the crew, and Noel Davis and Stanton Wooster were killed in a test flight. Charles Nungesser and François Coli left Paris for New York on 8 May 1927 and disappeared. Twelve days later Charles Lindbergh, alone in the Spirit of St. Louis, left a muddy Roosevelt Field and landed at Le Bourget on the night of 21 May, where a crowd overran the field. Two weeks after that, Clarence Chamberlin flew Charles Levine, the first transatlantic aeroplane passenger, to a field near Eisleben in Germany.",
+  "The record is mostly not diaries. It is logs, official reports, telegrams, newspaper dispatches, prize letters and accounts the flyers published within months. Brown's book (1920) and Lindbergh's \"We\" (1927) were written while the events were fresh. Lindbergh's much longer The Spirit of St. Louis (1953) is a later reconstruction and is not used here. Mechanics, escort crews, ground handlers and the fishermen who met these flyers mostly survive only as names, or as crowds, in the flyers' own accounts."
+ ],
+ "calendar_note": "All dates are Gregorian. Clock times are given in the local time each source used: French time at Calais and Paris, Newfoundland time or Greenwich time for Alcock and Brown (Brown's log runs on Greenwich time), Eastern time on Long Island. Lindbergh left on the morning of 20 May New York time and landed at about 10.22 p.m. Paris time on 21 May, about 33½ hours later. Reported times and durations differ from source to source by a few minutes; where they do, the range is given.",
+ "vantage_key": "0 = in the cockpit or aboard the craft; 1 = on the field, the cliff or the escort ship; 2 = in the same city; 3 = in the same country, organising or reporting; 4 = abroad, hearing the news.",
+ "eyes": [
+  {
+   "id": "bleriot",
+   "short": "Blériot",
+   "name": "Louis Blériot",
+   "life": "1872–1936",
+   "role": "French manufacturer of motor-car headlamps turned aeroplane builder, aged 37; flew his own Type XI monoplane",
+   "side": "France",
+   "where": "Les Baraques near Calais, then the North Fall meadow below Dover Castle",
+   "lat": 50.94,
+   "lon": 1.8,
+   "waypoints": [
+    {
+     "lat": 50.94,
+     "lon": 1.8,
+     "label": "Les Baraques, take-off 25 July 1909"
+    },
+    {
+     "lat": 51.128,
+     "lon": 1.325,
+     "label": "North Fall meadow, Dover"
+    },
+    {
+     "lat": 51.51,
+     "lon": -0.12,
+     "label": "Savoy Hotel, London, prize 26 July"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the man in the monoplane",
+   "form": "press interviews and published accounts (1909)",
+   "language": "French (English versions in Flight and the Daily Mail)",
+   "authenticity": "Blériot's account of the crossing reached the public through Le Matin and the Daily Mail and was summarised in English by Flight on 31 July 1909. These are reported statements, not a diary. Clock times differ by a few minutes between accounts; Flight notes that he flew without a watch.",
+   "bio": "Blériot had crashed a long series of machines and spent much of his family's money on them before the Type XI flew well. He was still on crutches from an exhaust burn when he took off. He had no compass, lost sight of both coasts for about ten minutes, and steered by guesswork and the wind. The flight made his company: Type XIs were soon sold across Europe.",
+   "sources": [
+    {
+     "title": "Flight, 31 July 1909, as reproduced by the Wright Brothers Aeroplane Company site",
+     "url": "https://wright-brothers.org/History_Wing/Wright_Story/Showing_the_World/Crossing_the_Channel/Bleriots_Flight.htm"
+    },
+    {
+     "title": "A History of Aeronautics, ch. XV 'The Channel Crossing' (online text)",
+     "url": "https://www.encyclopaedic.iovan.net/history-aeronautics/xv-channel-crossing"
+    }
+   ]
+  },
+  {
+   "id": "alicia",
+   "short": "Alicia Blériot",
+   "name": "Alicia Blériot (née Védère)",
+   "life": "1876–1963",
+   "role": "Louis Blériot's wife; her family money had paid for much of his experimenting",
+   "side": "France",
+   "where": "Aboard the French destroyer Escopette in the Channel, then Dover",
+   "lat": 51.03,
+   "lon": 1.55,
+   "waypoints": [
+    {
+     "lat": 50.96,
+     "lon": 1.85,
+     "label": "Calais, aboard Escopette"
+    },
+    {
+     "lat": 51.03,
+     "lon": 1.55,
+     "label": "mid-Channel"
+    },
+    {
+     "lat": 51.125,
+     "lon": 1.31,
+     "label": "Dover"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "on the escort ship",
+   "form": "reported in the 1909 press",
+   "language": "French",
+   "authenticity": "No diary or letter by Alicia Blériot about the crossing has been located for this chapter. What survives is what reporters wrote about her, and accounts disagree: Flight (31 July 1909) placed Madame Blériot aboard the escort destroyer Escopette, while other retellings have her in Paris or Calais that morning. Her entries are therefore marked approximate.",
+   "bio": "Alicia Védère married Blériot in 1901, and her dowry is said to have financed much of his early aeroplane work. On the morning of the crossing she was reported to be aboard the destroyer that was meant to escort him, and the monoplane soon left the ship far behind. She stands for the families who paid for early aviation and waited out the flights, a role the record rarely writes down.",
+   "sources": [
+    {
+     "title": "Flight, 31 July 1909 (on the Escopette)",
+     "url": "https://wright-brothers.org/History_Wing/Wright_Story/Showing_the_World/Crossing_the_Channel/Bleriots_Flight.htm"
+    },
+    {
+     "title": "Crossing the Channel (on Blériot's wife and her dowry)",
+     "url": "https://wright-brothers.org/History_Wing/Wright_Story/Showing_the_World/Crossing_the_Channel/Crossing_the_Channel.htm"
+    }
+   ]
+  },
+  {
+   "id": "latham",
+   "short": "Latham",
+   "name": "Hubert Latham",
+   "life": "1883–1912",
+   "role": "Anglo-French sportsman and pilot for the Antoinette company, aged 26",
+   "side": "France (Société Antoinette)",
+   "where": "Sangatte near Cap Blanc-Nez, and twice in the sea off it",
+   "lat": 50.93,
+   "lon": 1.75,
+   "waypoints": [
+    {
+     "lat": 50.93,
+     "lon": 1.75,
+     "label": "Sangatte camp"
+    },
+    {
+     "lat": 51.0,
+     "lon": 1.6,
+     "label": "ditched 19 July 1909"
+    },
+    {
+     "lat": 51.11,
+     "lon": 1.35,
+     "label": "ditched off Dover 27 July 1909"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the rival who went first",
+   "form": "telegram and press interviews",
+   "language": "French and English",
+   "authenticity": "Latham's 1909 words survive as press interviews and a congratulatory telegram to Blériot, reported in English-language papers and on aviation history sites. Distances for both ditchings vary between sources: about seven or eight miles out on 19 July, and about a mile or two off Dover on 27 July.",
+   "bio": "Latham was educated partly at Oxford, a balloonist and racing motorboat driver, and the elegant favourite to win the Daily Mail prize. His Antoinette engine failed both times he set out. He took the defeat publicly well, sent Blériot a warm telegram, and flew on at meetings until he was killed by a buffalo while hunting in Chad in 1912.",
+   "sources": [
+    {
+     "title": "Crossing the Channel (Wright Brothers Aeroplane Company)",
+     "url": "https://wright-brothers.org/History_Wing/Wright_Story/Showing_the_World/Crossing_the_Channel/Crossing_the_Channel.htm"
+    },
+    {
+     "title": "Aviation Safety Network record, Antoinette VII, 27 July 1909",
+     "url": "https://aviation-safety.net/wikibase/15872"
+    }
+   ]
+  },
+  {
+   "id": "fontaine",
+   "short": "Fontaine",
+   "name": "Charles Fontaine",
+   "life": "dates not established",
+   "role": "Reporter for the Paris daily Le Matin, posted at Dover to guide Blériot in",
+   "side": "France (the press)",
+   "where": "On the cliffs at Dover, by the gap at North Fall meadow",
+   "lat": 51.13,
+   "lon": 1.33,
+   "vantage": 1,
+   "vantage_label": "waving the flag on the cliff",
+   "form": "newspaper dispatch (Le Matin)",
+   "language": "French",
+   "authenticity": "Fontaine's role is recorded in Flight (31 July 1909), which says he signalled with a tricolour from the cliff but did not see the landing itself. His own Le Matin report is cited through secondary accounts; its exact wording and date of publication were not checked for this chapter.",
+   "bio": "Le Matin, a rival of the Daily Mail in the business of aviation news, sent Fontaine across to Dover to choose a landing place and signal it. His waving tricolour was the only navigation aid Blériot had on the English side. He is the journalist as participant: the paper helped make the event it reported.",
+   "sources": [
+    {
+     "title": "Flight, 31 July 1909, as reproduced online",
+     "url": "https://wright-brothers.org/History_Wing/Wright_Story/Showing_the_World/Crossing_the_Channel/Bleriots_Flight.htm"
+    }
+   ]
+  },
+  {
+   "id": "daily-mail",
+   "short": "Daily Mail",
+   "name": "The Daily Mail (Lord Northcliffe's prizes)",
+   "life": "founded 1896",
+   "role": "London daily newspaper whose owner, Lord Northcliffe, offered aviation prizes from 1906",
+   "side": "Britain (the press)",
+   "where": "Carmelite House, London",
+   "lat": 51.512,
+   "lon": -0.107,
+   "vantage": 3,
+   "vantage_label": "the prize-giver in London",
+   "form": "newspaper (prize announcements, reports, presentations)",
+   "language": "English",
+   "authenticity": "The prize terms and presentations are recorded in the paper and in Flight. Dates of announcements are given to the month where the exact day was not checked.",
+   "bio": "Northcliffe's prizes turned flights into contests with rules, observers and deadlines, and his paper reported on events it had paid for. It offered £1,000 for the Channel in 1908 and £10,000 for the Atlantic in 1913, and paid both. Its coverage is a record of what the public was told, almost as it happened.",
+   "sources": [
+    {
+     "title": "Crossing the Channel (on Northcliffe's 1908 prize)",
+     "url": "https://wright-brothers.org/History_Wing/Wright_Story/Showing_the_World/Crossing_the_Channel/Crossing_the_Channel.htm"
+    },
+    {
+     "title": "Science Museum blog: the first non-stop transatlantic flight",
+     "url": "https://blog.sciencemuseum.org.uk/the-first-non-stop-transatlantic-flight/"
+    }
+   ]
+  },
+  {
+   "id": "quimby",
+   "short": "Quimby",
+   "name": "Harriet Quimby",
+   "life": "1875–1912",
+   "role": "American journalist and drama critic for Leslie's Illustrated Weekly; in 1911 the first American woman to earn a pilot's licence",
+   "side": "United States",
+   "where": "Dover, then the beach near Hardelot on the French coast",
+   "lat": 51.13,
+   "lon": 1.31,
+   "waypoints": [
+    {
+     "lat": 51.13,
+     "lon": 1.31,
+     "label": "Dover, take-off 16 April 1912"
+    },
+    {
+     "lat": 50.63,
+     "lon": 1.58,
+     "label": "beach near Hardelot"
+    },
+    {
+     "lat": 48.86,
+     "lon": 2.35,
+     "label": "Paris that evening"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "alone in a borrowed Blériot",
+   "form": "magazine articles (1912)",
+   "language": "English",
+   "authenticity": "Quimby published her own accounts in 1912, including 'How I Made My First Big Flight Abroad' in Fly magazine (issue date given variously as June or July 1912), and wrote for Leslie's. The duration of the flight, often given as about an hour, is not stated in her article.",
+   "bio": "Quimby was a working writer who made her flying pay as copy. She crossed the Channel in a Blériot monoplane she had never flown before, by compass, in fog. The Titanic had sunk the day before, and her flight received little coverage. Eleven weeks later, on 1 July 1912, she and her passenger William Willard fell from her aircraft over Dorchester Bay near Boston and were killed.",
+   "sources": [
+    {
+     "title": "International Women's Air & Space Museum: Channel Crossing (with her Fly magazine article)",
+     "url": "https://iwasm.org/wp-blog/?p=5426"
+    }
+   ]
+  },
+  {
+   "id": "read",
+   "short": "Read",
+   "name": "Albert Cushing Read",
+   "life": "1887–1967",
+   "role": "Lieutenant Commander, US Navy; navigator and commander of flying boat NC-4",
+   "side": "United States Navy",
+   "where": "Aboard NC-4, Rockaway to Plymouth by way of Newfoundland, the Azores and Lisbon",
+   "lat": 38.53,
+   "lon": -28.63,
+   "waypoints": [
+    {
+     "lat": 40.57,
+     "lon": -73.88,
+     "label": "NAS Rockaway, 8 May 1919"
+    },
+    {
+     "lat": 46.73,
+     "lon": -53.36,
+     "label": "Trepassey, Newfoundland"
+    },
+    {
+     "lat": 38.53,
+     "lon": -28.63,
+     "label": "Horta, Azores, 17 May"
+    },
+    {
+     "lat": 37.74,
+     "lon": -25.67,
+     "label": "Ponta Delgada"
+    },
+    {
+     "lat": 38.7,
+     "lon": -9.17,
+     "label": "Lisbon, 27 May"
+    },
+    {
+     "lat": 50.36,
+     "lon": -4.14,
+     "label": "Plymouth, 31 May"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the navigator who got through",
+   "form": "official report and flight log (US Navy)",
+   "language": "English",
+   "authenticity": "Read's report and the flight's records are US Navy documents, summarised by the Naval History and Heritage Command. US-government material may be quoted briefly; none is quoted here because the wording was not checked against the original.",
+   "bio": "Read navigated by dead reckoning from the warships strung out across the ocean. His was the only one of three flying boats to reach the Azores by air; the other two came down in fog. His crossing took nineteen days and several breakdowns, and it showed both how far the aeroplane had come and how much ground support it still needed.",
+   "sources": [
+    {
+     "title": "NHHC H-Gram 030-2: NC-4's Transatlantic Crossing, May 1919",
+     "url": "https://history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-030/h-030-2.html"
+    },
+    {
+     "title": "National Naval Aviation Museum: NC-4",
+     "url": "https://history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/n/nc-4.html"
+    }
+   ]
+  },
+  {
+   "id": "alcock",
+   "short": "Alcock",
+   "name": "John Alcock",
+   "life": "1892–1919",
+   "role": "Captain, ex-RNAS pilot and Vickers test pilot, aged 26; pilot of the Vimy",
+   "side": "Britain (Vickers)",
+   "where": "The Vimy's open cockpit, St John's to Clifden",
+   "lat": 47.58,
+   "lon": -52.73,
+   "waypoints": [
+    {
+     "lat": 47.58,
+     "lon": -52.73,
+     "label": "Lester's Field, St John's"
+    },
+    {
+     "lat": 53.44,
+     "lon": -10.02,
+     "label": "Derrygimlagh bog, Clifden"
+    },
+    {
+     "lat": 51.51,
+     "lon": -0.12,
+     "label": "London, June 1919"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "at the controls",
+   "form": "a pre-flight note and press statements",
+   "language": "English",
+   "authenticity": "Alcock left almost no writing. A short note to a cousin written before the take-off is reported, and his statements to reporters after the landing were printed in the press. Most of what is known of the flight from the cockpit comes from Brown.",
+   "bio": "Alcock had been a prisoner of war in Turkey and had planned the Atlantic flight while in captivity. He flew the Vimy by hand for nearly sixteen hours, much of it blind. He was knighted within the week. He was killed on 18 December 1919 when he crashed in fog near Rouen while delivering a Vickers Viking to the Paris air show.",
+   "sources": [
+    {
+     "title": "Transatlantic flight of Alcock and Brown (overview)",
+     "url": "https://en.wikipedia.org/wiki/Transatlantic_flight_of_Alcock_and_Brown"
+    },
+    {
+     "title": "Science Museum: Alcock and Brown's Vickers Vimy",
+     "url": "https://collection.sciencemuseumgroup.org.uk/objects/co499537/alcock-and-browns-vickers-vimy-biplane-aircraft"
+    }
+   ]
+  },
+  {
+   "id": "brown",
+   "short": "Brown",
+   "name": "Arthur Whitten Brown",
+   "life": "1886–1948",
+   "role": "Lieutenant, navigator; Glasgow-born son of American parents, ex-RFC observer and prisoner of war",
+   "side": "Britain (Vickers)",
+   "where": "Beside Alcock in the Vimy, with sextant and log",
+   "lat": 53.44,
+   "lon": -10.02,
+   "waypoints": [
+    {
+     "lat": 47.58,
+     "lon": -52.73,
+     "label": "St John's, 14 June 1919"
+    },
+    {
+     "lat": 52.0,
+     "lon": -30.0,
+     "label": "mid-Atlantic, fog and spin"
+    },
+    {
+     "lat": 53.44,
+     "lon": -10.02,
+     "label": "Derrygimlagh bog, 15 June"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the navigator's log",
+   "form": "flight log and book (1920)",
+   "language": "English",
+   "authenticity": "Flying the Atlantic in Sixteen Hours (New York: Stokes, 1920), written with Captain Alan Bott, uses Brown's in-flight log, kept on Greenwich time. It is a close-to-the-event account and free on Project Gutenberg; as a pre-1929 English book it may be quoted briefly.",
+   "bio": "Brown had worked as an engineer before the war and taught himself air navigation while a prisoner. On the flight he worked with a sextant through gaps in the cloud and with drift estimates. His book records the stalled spin in fog, the snow on the instruments and the sight of two small islands off Galway at dawn.",
+   "sources": [
+    {
+     "title": "Flying the Atlantic in Sixteen Hours (Project Gutenberg)",
+     "url": "https://www.gutenberg.org/ebooks/47129"
+    }
+   ]
+  },
+  {
+   "id": "maitland",
+   "short": "Maitland",
+   "name": "Edward Maitland",
+   "life": "1880–1921",
+   "role": "Brigadier-General (later Air Commodore), RAF airship pioneer; senior officer aboard R34",
+   "side": "Britain (RAF)",
+   "where": "Aboard the rigid airship R34",
+   "lat": 55.999,
+   "lon": -2.72,
+   "waypoints": [
+    {
+     "lat": 55.999,
+     "lon": -2.72,
+     "label": "East Fortune, 2 July 1919"
+    },
+    {
+     "lat": 40.74,
+     "lon": -73.64,
+     "label": "Mineola, Long Island, 6 July"
+    },
+    {
+     "lat": 52.42,
+     "lon": 1.23,
+     "label": "Pulham, Norfolk, 13 July"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "keeping the airship's log",
+   "form": "personal log",
+   "language": "English",
+   "authenticity": "Maitland kept a personal log of both crossings, published as The Log of H.M.A. R 34: Journey to America and Back (1920). A bound carbon copy of the return-journey log (17 leaves, 9–13 July 1919) is in the Science Museum Group collection; the museum notes that a later label calling it the 'official' log is misleading.",
+   "bio": "Maitland was a parachuting and ballooning pioneer who believed airships would carry the empire's long-distance traffic. He wrote up the crossing as a travel diary, covering meals, the stowaway and the weather. He died in the R38 airship disaster over the Humber in August 1921.",
+   "sources": [
+    {
+     "title": "Science Museum Group: carbon copy of the R34 return-journey log",
+     "url": "https://collection.sciencemuseumgroup.org.uk/objects/co75185/carbon-copy-of-log-of-the-r34-return-journey-long-island"
+    },
+    {
+     "title": "National Museums Scotland: R34 airship",
+     "url": "https://www.nms.ac.uk/airship"
+    }
+   ]
+  },
+  {
+   "id": "lindbergh",
+   "short": "Lindbergh",
+   "name": "Charles Augustus Lindbergh",
+   "life": "1902–1974",
+   "role": "US Air Mail pilot and Army reserve officer, aged 25; pilot of the Ryan NYP Spirit of St. Louis",
+   "side": "United States",
+   "where": "Alone in the Spirit of St. Louis; then the American Embassy, Paris",
+   "lat": 48.969,
+   "lon": 2.441,
+   "waypoints": [
+    {
+     "lat": 32.7,
+     "lon": -117.2,
+     "label": "San Diego, Ryan works"
+    },
+    {
+     "lat": 38.75,
+     "lon": -90.37,
+     "label": "St Louis, 11 May 1927"
+    },
+    {
+     "lat": 40.74,
+     "lon": -73.61,
+     "label": "Roosevelt Field, 20 May"
+    },
+    {
+     "lat": 51.9,
+     "lon": -10.3,
+     "label": "Dingle Bay landfall"
+    },
+    {
+     "lat": 48.969,
+     "lon": 2.441,
+     "label": "Le Bourget, 21 May"
+    },
+    {
+     "lat": 48.868,
+     "lon": 2.318,
+     "label": "US Embassy, Paris"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the solo pilot",
+   "form": "book (\"We\", July 1927) and newspaper dispatches",
+   "language": "English",
+   "authenticity": "\"We\" (Putnam, 1927) was written within weeks of the flight. It includes a foreword by Ambassador Herrick and a closing section by Fitzhugh Green, which are not Lindbergh's own words. His first-person story was sold to the New York Times and syndicated from 22–23 May 1927. The Spirit of St. Louis (1953) is a much later, reworked account and is not used. Pre-1929 English text may be quoted briefly.",
+   "bio": "Lindbergh was a barnstormer, Army-trained pilot and mail flyer. He persuaded St Louis backers to pay for a single-engine, single-seat aircraft built in about two months by Ryan in San Diego. He gave up a radio and a parachute to carry more fuel. His account of the flight is plain and technical. The story of the crowds afterwards is mostly told by others.",
+   "sources": [
+    {
+     "title": "\"We\" (Project Gutenberg)",
+     "url": "https://gutenberg.org/cache/epub/73142/pg73142-images.html"
+    },
+    {
+     "title": "Smithsonian NASM: Ryan NYP Spirit of St. Louis",
+     "url": "https://airandspace.si.edu/collection-objects/ryan-nyp-spirit-st-louis-charles-lindbergh/nasm_A19280021000"
+    }
+   ]
+  },
+  {
+   "id": "herrick",
+   "short": "Herrick",
+   "name": "Myron Timothy Herrick",
+   "life": "1854–1929",
+   "role": "United States Ambassador to France, aged 72, former governor of Ohio",
+   "side": "United States (diplomatic)",
+   "where": "Le Bourget airfield, then the embassy in Paris",
+   "lat": 48.868,
+   "lon": 2.318,
+   "vantage": 1,
+   "vantage_label": "the ambassador on the field",
+   "form": "foreword (dated 16 June 1927) and diplomatic telegrams",
+   "language": "English",
+   "authenticity": "Herrick's foreword to \"We\" is dated 16 June 1927. His telegram of 27 May 1927 to the Secretary of State is printed, in paraphrase, in Foreign Relations of the United States 1927, vol. II, doc. 663. Both are close-to-the-event; the foreword quotes a cable of Lindbergh's.",
+   "bio": "Herrick had stayed in Paris through the German advance of 1914 and was popular in France. He went to Le Bourget expecting to receive a stranger. He took Lindbergh into the embassy, put him on its balcony and steered his first public appearances. Within days he was using the goodwill in his talks with Aristide Briand about a Franco-American treaty.",
+   "sources": [
+    {
+     "title": "Herrick's foreword in \"We\" (Project Gutenberg)",
+     "url": "https://gutenberg.org/cache/epub/73142/pg73142-images.html"
+    },
+    {
+     "title": "FRUS 1927 vol. II, doc. 663: Herrick to the Secretary of State, 27 May 1927",
+     "url": "https://history.state.gov/historicaldocuments/frus1927v02/d663"
+    }
+   ]
+  },
+  {
+   "id": "orteig",
+   "short": "Orteig",
+   "name": "Raymond Orteig",
+   "life": "1870–1939",
+   "role": "French-born New York hotelier (the Lafayette and the Brevoort), donor of the $25,000 prize",
+   "side": "France and the United States",
+   "where": "New York",
+   "lat": 40.733,
+   "lon": -73.994,
+   "vantage": 3,
+   "vantage_label": "the prize-giver in New York",
+   "form": "prize letters and deed of trust",
+   "language": "English and French",
+   "authenticity": "The offer letter of 22 May 1919 to Alan R. Hawley of the Aero Club of America, the club's reply and the 1925 reissue are documented in the prize's records and summarised in standard histories. The wording quoted in secondary sources was not checked against the original letter.",
+   "bio": "Orteig came to New York as an immigrant waiter and came to own two hotels popular with French visitors. He offered the prize to encourage links between France and the United States. The first offer ran out in 1924 without any attempt, and he renewed it in 1925. His money drew a series of costly and sometimes fatal attempts in 1926–27.",
+   "sources": [
+    {
+     "title": "Orteig Prize (overview with letter dates)",
+     "url": "https://en.wikipedia.org/wiki/Orteig_Prize"
+    }
+   ]
+  },
+  {
+   "id": "chamberlin",
+   "short": "Chamberlin",
+   "name": "Clarence Duncan Chamberlin",
+   "life": "1893–1976",
+   "role": "American pilot, aged 33, flying Charles Levine's Bellanca WB-2 Columbia",
+   "side": "United States",
+   "where": "Roosevelt Field, Long Island; then aloft to Germany",
+   "lat": 40.74,
+   "lon": -73.61,
+   "waypoints": [
+    {
+     "lat": 40.74,
+     "lon": -73.61,
+     "label": "Roosevelt Field, 4 June 1927"
+    },
+    {
+     "lat": 51.53,
+     "lon": 11.55,
+     "label": "near Eisleben, 6 June"
+    },
+    {
+     "lat": 51.76,
+     "lon": 14.33,
+     "label": "Cottbus"
+    },
+    {
+     "lat": 52.47,
+     "lon": 13.4,
+     "label": "Tempelhof, Berlin, 7 June"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the rival on the next field",
+   "form": "memoir (Record Flights, 1928) and press statements",
+   "language": "English",
+   "authenticity": "Chamberlin's book Record Flights (1928) is a close-to-the-event memoir; it was not consulted directly for this chapter. Flight times and distances here come from contemporary reports summarised by the EAA Vintage Aircraft Association, which give about 3,911 miles in about 43 hours; other sources give slightly different figures.",
+   "bio": "Chamberlin was the obvious favourite for the Orteig prize in the spring of 1927. He held the world endurance record with Bert Acosta, but quarrels and a lawsuit over who would fly with him kept the Columbia on the ground. After Lindbergh's flight he aimed farther, for Berlin. His owner, Charles Levine, climbed aboard at the last moment in a business suit and became the first transatlantic aeroplane passenger.",
+   "sources": [
+    {
+     "title": "EAA Vintage: Outstanding Flights — the Columbia",
+     "url": "https://eaavintage.org/outstanding-flights-columbia/"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1908-10",
+   "date_display": "October 1908",
+   "precision": "month",
+   "eye": "daily-mail",
+   "place": "London",
+   "headline": "Northcliffe's paper offers £1,000 for the Channel",
+   "digest": "The Daily Mail announced a £1,000 prize for the first aeroplane flight across the English Channel. When the offer was made, few aeroplanes in Europe could stay up for more than a few minutes. The paper set rules for the crossing, and over the next months European fliers prepared their attempts.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Crossing the Channel (wright-brothers.org) gives October 1908; exact day not checked."
+  },
+  {
+   "date_iso": "1909-07-19",
+   "date_display": "Monday 19 July 1909",
+   "precision": "day",
+   "eye": "latham",
+   "place": "Sangatte, then mid-Channel",
+   "headline": "Latham's engine stops; the first attempt ends in the sea",
+   "digest": "Latham rose from the cliffs near Sangatte in the Antoinette IV and climbed out over the Channel. About seven or eight miles out the engine stopped and he glided down onto the water. The aircraft floated, and the escort vessel found him sitting on it. Reports at the time say he was calmly smoking a cigarette.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "History of Aeronautics 'The Channel Crossing' (about 8 miles); wright-brothers.org (seven miles). The cigarette detail is from press reports."
+  },
+  {
+   "date_iso": "1909-07-21",
+   "date_display": "about 21 July 1909",
+   "precision": "range",
+   "eye": "bleriot",
+   "place": "Les Baraques, near Calais",
+   "headline": "Blériot sets up camp on the French shore, on crutches",
+   "digest": "Blériot brought his Type XI to Les Baraques while Latham waited for a new aircraft and better weather. He was still limping from an exhaust burn on his foot from an earlier flight. Both teams waited for the wind to drop, with a French destroyer assigned as escort and reporters watching each of them.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Arrival date approximate; based on Flight, 31 July 1909, and standard accounts."
+  },
+  {
+   "date_iso": "1909-07-24",
+   "date_display": "24 July 1909",
+   "precision": "day",
+   "eye": "fontaine",
+   "place": "Dover",
+   "headline": "The Le Matin man chooses a landing field below the castle",
+   "digest": "Fontaine, sent ahead by Le Matin, picked a gap in the Dover cliffs where a meadow, North Fall, sloped up behind the castle, and arranged to signal it with a French flag. The plan was simple: if Blériot reached England he would look for the flag and land beside it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Role from Flight, 31 July 1909; exact day of his preparation not checked."
+  },
+  {
+   "date_iso": "1909-07-25",
+   "date_display": "Sunday 25 July 1909, about 4.40 a.m. (French time)",
+   "precision": "day",
+   "eye": "bleriot",
+   "place": "Les Baraques to Dover",
+   "headline": "Thirty-seven minutes, no compass, and ten minutes without land",
+   "digest": "Blériot took off at dawn in calm air and was soon far ahead of his escort destroyer. For about ten minutes he could see neither coast and later said it felt as if he were not moving. Then the cliffs appeared to the east, near Deal. He followed the coast to Dover, saw the flag and came down hard in the meadow, breaking the propeller and the undercarriage. Accounts give the flight time as roughly 36½ to 37 minutes; the Calais wireless logged his start at 4.36.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Flight, 31 July 1909 (reported statements; times uncertain because he carried no watch)."
+  },
+  {
+   "date_iso": "1909-07-25",
+   "date_display": "Sunday 25 July 1909, morning",
+   "precision": "day",
+   "eye": "alicia",
+   "place": "Aboard the destroyer Escopette",
+   "headline": "Watching the monoplane pull away from the warship",
+   "digest": "Flight reported that Madame Blériot was aboard the Escopette, the destroyer meant to accompany the crossing, watching for her husband. The monoplane quickly outpaced the ship and disappeared ahead into the haze. Those aboard did not learn that he had landed safely until after he was down.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Flight, 31 July 1909; other accounts place her ashore that morning."
+  },
+  {
+   "date_iso": "1909-07-25",
+   "date_display": "Sunday 25 July 1909, about 5.15 a.m.",
+   "precision": "day",
+   "eye": "fontaine",
+   "place": "The cliffs at Dover",
+   "headline": "A tricolour waved from the cliff, and a landing he did not see",
+   "digest": "Fontaine waved his tricolour from the cliff edge as the small monoplane came along the coast and turned in through the gap. According to Flight, he did not actually see the landing; the only person reported as watching it was a Dover police constable. Fontaine then hurried down to the meadow to meet Blériot.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Flight, 31 July 1909."
+  },
+  {
+   "date_iso": "1909-07-25",
+   "date_display": "Sunday 25 July 1909",
+   "precision": "day",
+   "eye": "latham",
+   "place": "Sangatte",
+   "headline": "Asleep while his rival crosses; a telegram of congratulation",
+   "digest": "Latham's team had expected the morning to be too windy, and Blériot was across before the Antoinette was ready. Blériot had earlier said he would share the prize if Latham also crossed that day. Latham instead telegraphed his congratulations and said he hoped to follow soon.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Crossing the Channel (wright-brothers.org); Flight, 31 July 1909."
+  },
+  {
+   "date_iso": "1909-07-25",
+   "date_display": "Sunday 25 July 1909, later",
+   "precision": "day",
+   "eye": "alicia",
+   "place": "Dover",
+   "headline": "Rejoining her husband on the English side",
+   "digest": "Later that day Alicia Blériot was with her husband in Dover, where crowds and photographers had gathered around the damaged monoplane in the meadow. Press photographs of the couple went around the world.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Standard accounts; the time and route of her crossing were not checked."
+  },
+  {
+   "date_iso": "1909-07-26",
+   "date_display": "Monday 26 July 1909",
+   "precision": "day",
+   "eye": "daily-mail",
+   "place": "Savoy Hotel, London",
+   "headline": "The prize paid in a silver cup",
+   "digest": "At a luncheon at the Savoy, the Daily Mail presented Blériot with its £1,000 in two £500 notes, placed in a letter-case inside a silver cup. The Aero Club of the United Kingdom also gave him its gold medal. The paper had its winner, and the British public had been shown that the Channel could now be flown over.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Flight, 31 July 1909 (presentation 'on Monday')."
+  },
+  {
+   "date_iso": "1909-07-26",
+   "date_display": "Monday 26 July 1909",
+   "precision": "day",
+   "eye": "bleriot",
+   "place": "London",
+   "headline": "The aviator at the luncheon, and a flood of orders",
+   "digest": "Blériot spoke briefly at the Savoy and returned to France a celebrity. The Type XI that had crossed was displayed in London, and orders for copies came in quickly. Accounts of the flight in his own words were printed in Le Matin and the Daily Mail.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Flight, 31 July 1909; later histories on orders for the Type XI."
+  },
+  {
+   "date_iso": "1909-07-26",
+   "date_display": "26 July 1909",
+   "precision": "day",
+   "eye": "fontaine",
+   "place": "Paris (Le Matin)",
+   "headline": "Le Matin prints its man's story from Dover",
+   "digest": "Le Matin carried Fontaine's eyewitness report of the arrival at Dover, setting a French account against the Daily Mail's. The paper had been part of the event, choosing the landing field and signalling it, as well as reporting on it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Publication day assumed from the date of the flight; text not checked."
+  },
+  {
+   "date_iso": "1909-07-27",
+   "date_display": "Tuesday 27 July 1909",
+   "precision": "day",
+   "eye": "latham",
+   "place": "Off Dover",
+   "headline": "Second attempt: down again, within sight of Dover",
+   "digest": "Flying a new Antoinette, Latham crossed most of the Channel this time, but the engine failed again about a mile or two off Dover and he came down in the sea. He was picked up with a cut forehead. He had come close to crossing twice and failed both times, and the prize had already gone to Blériot.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Aviation Safety Network record (about 2 km off Dover, head injury); History of Aeronautics (about a mile and a half)."
+  },
+  {
+   "date_iso": "1912-04-16",
+   "date_display": "Tuesday 16 April 1912, about 5.30 a.m.",
+   "precision": "day",
+   "eye": "quimby",
+   "place": "Dover heights",
+   "headline": "Flying by compass for the first time, into fog",
+   "digest": "Quimby took off from the aerodrome above Dover in a Blériot monoplane she had never flown before, climbing to about 1,500 feet in half a minute. She aimed at the castle's flagstaff, then lost the sea and the French coast in mist. She held her course by compass, which she had never used in the air, and descended through cloud to look for land.",
+   "quote": "For the first time I was to fly by compass.",
+   "confidence": "verified",
+   "source_note": "Quimby, 'How I Made My First Big Flight Abroad', Fly magazine, 1912, via IWASM."
+  },
+  {
+   "date_iso": "1912-04-16",
+   "date_display": "Tuesday 16 April 1912",
+   "precision": "day",
+   "eye": "quimby",
+   "place": "Beach near Hardelot, France",
+   "headline": "A sandy beach, fisherfolk and a cup of tea",
+   "digest": "Quimby came down through the haze to about 500 feet and followed the shore. She landed on a beach near Hardelot, well south of Calais, after about an hour in the air. Local fishing families ran down to the machine, and a fisherwoman brought her tea. She went on by car to Calais and was in Paris by 7 p.m. The newspapers were full of the Titanic.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Fly magazine article, 1912, via IWASM; flight duration commonly given as about an hour (not stated in her article)."
+  },
+  {
+   "date_iso": "1913-04",
+   "date_display": "April 1913",
+   "precision": "month",
+   "eye": "daily-mail",
+   "place": "London",
+   "headline": "£10,000 for the Atlantic",
+   "digest": "The Daily Mail offered £10,000 for the first aeroplane crossing of the Atlantic between North America and the British Isles in under 72 hours. Competitors were preparing in 1914 when the war began. The prize was suspended and then revived after the Armistice.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Overview of Alcock and Brown flight gives April 1913; exact day not checked."
+  },
+  {
+   "date_iso": "1919-05-08",
+   "date_display": "Thursday 8 May 1919",
+   "precision": "day",
+   "eye": "read",
+   "place": "Rockaway, New York, to off Chatham",
+   "headline": "Three flying boats leave; NC-4 limps in on the sea",
+   "digest": "NC-1, NC-3 and NC-4 left the Rockaway naval air station together. NC-4, with Read navigating, lost first an oil line and then an engine rod and was forced down about 80 nautical miles from Chatham, Massachusetts. She taxied and was towed into port, and the other two went on north without her. It was not a promising start.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NHHC H-Gram 030-2."
+  },
+  {
+   "date_iso": "1919-05-17",
+   "date_display": "Saturday 17 May 1919",
+   "precision": "day",
+   "eye": "read",
+   "place": "Horta, Faial, Azores",
+   "headline": "Out of the fog at Horta; two other boats down",
+   "digest": "After leaving Trepassey on the evening of 16 May, NC-4 flew through the night along a line of destroyers. In the morning fog the boat fell into a spin that Read's crew did not at first recognise, recovered, and came down at Horta when a gap opened. NC-1 and NC-3 had both landed on the open sea in fog. Their crews survived, but neither boat flew again.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NHHC H-Gram 030-2."
+  },
+  {
+   "date_iso": "1919-05-22",
+   "date_display": "Thursday 22 May 1919",
+   "precision": "day",
+   "eye": "orteig",
+   "place": "New York",
+   "headline": "A hotelier offers $25,000 for New York to Paris",
+   "digest": "While NC-4 was waiting in the Azores, Raymond Orteig wrote to Alan Hawley of the Aero Club of America. He offered $25,000 for the first nonstop flight between New York and Paris, in either direction, by an aviator from one of the Allied nations. The club replied on 26 May and Orteig confirmed three days later. No aircraft of the time could make the flight.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Orteig Prize overview (letter of 22 May 1919; club reply 26 May)."
+  },
+  {
+   "date_iso": "1919-05-27",
+   "date_display": "Tuesday 27 May 1919, 8.01 p.m.",
+   "precision": "day",
+   "eye": "read",
+   "place": "Lisbon, the Tagus",
+   "headline": "NC-4 reaches Lisbon: the first aeroplane across the Atlantic",
+   "digest": "After a week of repairs and weather delays in the Azores, NC-4 flew from Ponta Delgada to Lisbon in 9 hours 43 minutes, passing over a chain of US Navy station ships. She alighted on the Tagus just after eight in the evening. Since leaving Newfoundland the crew had spent about 26¾ hours flying, over nearly eleven days.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NHHC H-Gram 030-2 (9 h 43 min; total 26 h 46 min flight time; 10 days 22 hours elapsed)."
+  },
+  {
+   "date_iso": "1919-05-31",
+   "date_display": "Saturday 31 May 1919",
+   "precision": "day",
+   "eye": "read",
+   "place": "Plymouth, England",
+   "headline": "Plymouth, after a night at Ferrol",
+   "digest": "Engine trouble forced NC-4 down on the Mondego River and then for a night at Ferrol in Spain before she reached Plymouth. The crew landed near the place the Mayflower had sailed from, which the ceremonies made much of. It was the first flight from the United States to Britain, done in stages and with the Navy's help all along the route.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NHHC H-Gram 030-2 (Ferrol overnight; arrival Plymouth 31 May)."
+  },
+  {
+   "date_iso": "1919-06-14",
+   "date_display": "Saturday 14 June 1919",
+   "precision": "day",
+   "eye": "alcock",
+   "place": "St John's, Newfoundland",
+   "headline": "A hurried line before the start",
+   "digest": "In the last hours before take-off Alcock wrote a short note to a cousin, reportedly the only written words of his connected with the flight. The Vimy had been assembled in Newfoundland and tried out in short test flights while rival teams were preparing nearby. The wind was strong and gusty, but they decided to go.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Reported in the overview of the Alcock and Brown flight; the note itself was not seen."
+  },
+  {
+   "date_iso": "1919-06-14",
+   "date_display": "Saturday 14 June 1919, about 1.45 p.m. local time",
+   "precision": "day",
+   "eye": "brown",
+   "place": "Lester's Field, St John's",
+   "headline": "An overloaded take-off into a crosswind",
+   "digest": "Heavy with fuel, the Vimy ran slowly uphill into the wind, cleared the trees and a fence at the edge of the field, and climbed slowly. Brown noted the time they crossed the coast as 4.28 p.m. Greenwich time and began his dead-reckoning plot. The wind-driven generator for the radio soon failed, and from then on they had no radio contact.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Brown, Flying the Atlantic in Sixteen Hours (1920), Project Gutenberg text; take-off time from standard accounts."
+  },
+  {
+   "date_iso": "1919-06-15",
+   "date_display": "Sunday 15 June 1919, about 3.10 a.m. GMT",
+   "precision": "day",
+   "eye": "brown",
+   "place": "Mid-Atlantic, in cloud",
+   "headline": "A spin in the fog, almost to the waves",
+   "digest": "In thick cloud, with no horizon and no reliable instruments, the Vimy stalled and fell in a spin. It came out only when the sea appeared just below, at about fifty feet, with the aircraft at an odd angle. Alcock levelled it out, and Brown wrote of hearing the sea close underneath. Later, at height, snow and sleet clogged the instruments and froze on the wings, and Brown knelt up out of the cockpit to clear a gauge.",
+   "quote": "the voice of the cheated ocean",
+   "confidence": "verified",
+   "source_note": "Brown (1920), Gutenberg text."
+  },
+  {
+   "date_iso": "1919-06-15",
+   "date_display": "Sunday 15 June 1919, 8.15–8.40 a.m.",
+   "precision": "day",
+   "eye": "brown",
+   "place": "Off Galway, then Derrygimlagh bog",
+   "headline": "Two specks of land, then a bog that looked like a field",
+   "digest": "At about 8.15 Brown saw two small islands, Eeshal and Turbot, off the Galway coast. They followed the wireless masts at Clifden and chose what looked like a smooth green field. It was a bog. The Vimy's nose dug in and the aircraft tipped forward, but neither man was hurt. The flight from coast to coast took 15 hours 57 minutes.",
+   "quote": "two tiny specks of—land",
+   "confidence": "verified",
+   "source_note": "Brown (1920), Gutenberg text (8.15 sighting; 8.40 landing; 15 h 57 min coast to coast)."
+  },
+  {
+   "date_iso": "1919-06-15",
+   "date_display": "Sunday 15 June 1919",
+   "precision": "day",
+   "eye": "alcock",
+   "place": "Clifden, County Galway",
+   "headline": "On the ground in Ireland, telling the wireless station staff",
+   "digest": "Staff and soldiers from the Marconi station ran over to the wreck. They did not at first believe that the two muddy men had flown from America. Alcock's brief statements to the reporters who arrived over the next hours describe fog, ice and a great deal of luck. Within days both men were in London to collect the Daily Mail's prize, and both were knighted at Windsor about a week after landing.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Overview of the Alcock and Brown flight; press statements not checked word for word."
+  },
+  {
+   "date_iso": "1919-06-20",
+   "date_display": "about 20 June 1919",
+   "precision": "range",
+   "eye": "daily-mail",
+   "place": "Savoy Hotel, London",
+   "headline": "£10,000 handed over at the Savoy",
+   "digest": "At a Savoy luncheon given by the Daily Mail, the Secretary of State for Air, Winston Churchill, presented the £10,000 prize. The Atlantic had been flown nonstop less than a week earlier. The paper had now paid out for both the Channel and the Atlantic.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Standard accounts give the Savoy luncheon about 20 June 1919; one overview gives 15 June. Day not checked."
+  },
+  {
+   "date_iso": "1919-07-02",
+   "date_display": "Wednesday 2 July 1919, 1.42 a.m.",
+   "precision": "day",
+   "eye": "maitland",
+   "place": "East Fortune, East Lothian",
+   "headline": "R34 lifts off for America, with a stowaway aboard",
+   "digest": "The 643-foot rigid airship left East Fortune in the early hours with eight officers and twenty-two men. Soon after departure a stowaway, the rigger William Ballantyne, was found hidden among the girders, along with the crew's kitten, Wopsie. Maitland recorded meals, card games and the weather in a personal log.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "National Museums Scotland, R34 page (1.42 a.m.; crew; stowaways)."
+  },
+  {
+   "date_iso": "1919-07-06",
+   "date_display": "Sunday 6 July 1919, morning",
+   "precision": "day",
+   "eye": "maitland",
+   "place": "Mineola, Long Island",
+   "headline": "Low on fuel, a parachutist first, then the landing",
+   "digest": "After 108 hours and 12 minutes in the air, much of it against headwinds that left the fuel nearly gone, R34 reached Long Island. There was no British-trained ground crew, so Major John Pritchard jumped by parachute to direct the handling party. He was the first person to arrive in the United States by air. The airship was then walked down and moored at Mineola.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "National Museums Scotland, R34 page (108 h 12 min; Pritchard)."
+  },
+  {
+   "date_iso": "1919-07-13",
+   "date_display": "Sunday 13 July 1919",
+   "precision": "day",
+   "eye": "maitland",
+   "place": "Pulham, Norfolk",
+   "headline": "Home again, with the westerlies behind",
+   "digest": "R34 left Long Island just before midnight on 9 July. With following winds it reached England in about 75 hours, after being diverted from East Fortune to Pulham in Norfolk. It was the first double crossing of the Atlantic by air. Maitland's log covers the return in seventeen manuscript leaves.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Science Museum Group, carbon copy of the return log (9–13 July 1919); duration about 75 hours from standard accounts."
+  },
+  {
+   "date_iso": "1920",
+   "date_display": "1920",
+   "precision": "year",
+   "eye": "brown",
+   "place": "London and New York",
+   "headline": "Writing it up: the flight and the future of air transport",
+   "digest": "Brown's book set out the flight from his log and argued that aircraft would soon carry mail and passengers on regular routes. It is mostly practical: navigation methods, engine reliability, the need for weather reports. Alcock had died in December 1919, and Brown's book is the only full account of the flight by one of the two men.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Flying the Atlantic in Sixteen Hours, Stokes, 1920 (Gutenberg)."
+  },
+  {
+   "date_iso": "1925-06-01",
+   "date_display": "Monday 1 June 1925",
+   "precision": "day",
+   "eye": "orteig",
+   "place": "New York",
+   "headline": "The prize offered again, with $25,000 in trust",
+   "digest": "The first five-year offer had run out without a single entry. Orteig renewed it, deposited $25,000 in securities with a bank and appointed a board of seven trustees to administer it. By then aircraft engines, especially the air-cooled Wright Whirlwind, made the distance look possible.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Orteig Prize overview (reissue 1 June 1925)."
+  },
+  {
+   "date_iso": "1927-04-14",
+   "date_display": "12–14 April 1927",
+   "precision": "range",
+   "eye": "chamberlin",
+   "place": "Over Roosevelt Field, Long Island",
+   "headline": "Fifty-one hours aloft with Acosta",
+   "digest": "Chamberlin and Bert Acosta took off in the Bellanca Columbia on 12 April. They circled over Long Island for 51 hours, 11 minutes and 25 seconds, a new world endurance record. The time in the air was more than a New York–Paris flight would need, and the Columbia became the favourite for Orteig's prize.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "EAA Vintage, 'Outstanding Flights: Columbia' (take-off 9.34 a.m. 12 April; 51 h 11 min 25 s)."
+  },
+  {
+   "date_iso": "1927-04-28",
+   "date_display": "Thursday 28 April 1927",
+   "precision": "day",
+   "eye": "lindbergh",
+   "place": "San Diego, North Island",
+   "headline": "First flight of the Spirit of St. Louis",
+   "digest": "Lindbergh recorded that the aircraft was finished about sixty days after it was ordered. The 46-foot wing had to be lowered from the Ryan factory's upper floor by crane. On its first flight the Spirit was off the ground in about 6 seconds and reached about 130 mph.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "\"We\" (1927), Gutenberg text."
+  },
+  {
+   "date_iso": "1927-05-12",
+   "date_display": "10–12 May 1927",
+   "precision": "range",
+   "eye": "lindbergh",
+   "place": "San Diego to St Louis to New York",
+   "headline": "Across the continent in two hops",
+   "digest": "Lindbergh left North Island at 3.55 p.m. Pacific time on 10 May and landed at Lambert Field, St Louis, about 14 hours 25 minutes later, at 8.20 the next morning. On 12 May he flew on to Curtiss Field on Long Island, arriving at 5.33 p.m. The coast-to-coast trip made reporters take notice of him. Meanwhile Nungesser and Coli had been missing at sea since 8 May.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "\"We\" (1927), Gutenberg text (times); Nungesser and Coli departure from the Orteig Prize overview."
+  },
+  {
+   "date_iso": "1927-05-20",
+   "date_display": "Friday 20 May 1927, 7.52 a.m.",
+   "precision": "day",
+   "eye": "lindbergh",
+   "place": "Roosevelt Field, Long Island",
+   "headline": "A soft field, a heavy load, a telephone wire",
+   "digest": "After a night of light rain the runway was soft and the aircraft, loaded with fuel, picked up speed slowly. The engine was started about 7.40 and the Spirit left the ground at 7.52. Lindbergh cleared a tractor by about fifteen feet and a telephone line by about twenty. Then he turned north-east along the coast toward Nova Scotia and Newfoundland.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "\"We\" (1927), Gutenberg text."
+  },
+  {
+   "date_iso": "1927-05-21",
+   "date_display": "20–21 May 1927, night and morning",
+   "precision": "range",
+   "eye": "lindbergh",
+   "place": "Over the North Atlantic",
+   "headline": "Sleet in the cloud, then hours flying blind",
+   "digest": "During the night, when he tried to fly through a towering cloud, sleet began to build up on the aircraft and he turned back to clear air. After dawn he flew blind in fog for nearly two hours, then came down as low as ten feet over the waves, using the spray off the whitecaps to judge his drift. He saw small fishing boats and shouted down to one of them.",
+   "quote": "Which way is Ireland?",
+   "confidence": "verified",
+   "source_note": "\"We\" (1927), Gutenberg text."
+  },
+  {
+   "date_iso": "1927-05-21",
+   "date_display": "Saturday 21 May 1927, afternoon",
+   "precision": "day",
+   "eye": "lindbergh",
+   "place": "Dingle Bay and Valentia, Ireland",
+   "headline": "Landfall in Ireland, ahead of schedule",
+   "digest": "A coastline showed through the haze. He compared it with his chart and identified Valentia and Dingle Bay, almost exactly on his planned course. He was several hours ahead of schedule. He crossed southern England and the Channel at dusk, then followed the Seine valley toward Paris.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "\"We\" (1927), Gutenberg text."
+  },
+  {
+   "date_iso": "1927-05-21",
+   "date_display": "Saturday 21 May 1927, about 10.22 p.m.",
+   "precision": "day",
+   "eye": "lindbergh",
+   "place": "Le Bourget, Paris",
+   "headline": "Le Bourget: the crowd rushes the aircraft",
+   "digest": "He saw the lights of Paris a little before ten, circled the Eiffel Tower and found Le Bourget by the lights of cars jammed on the roads around it. As soon as he landed, thousands ran onto the field. He could not taxi, and when parts of the fabric began to tear under the pressure he climbed out. He was carried around for nearly half an hour until French aviators put his helmet on an American reporter to draw the crowd away. Soldiers and police got the aircraft into a hangar.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "\"We\" (1927), Gutenberg text; landing time from standard accounts."
+  },
+  {
+   "date_iso": "1927-05-21",
+   "date_display": "Saturday 21 May 1927, night",
+   "precision": "day",
+   "eye": "herrick",
+   "place": "Le Bourget and the embassy",
+   "headline": "The ambassador collects his unexpected guest",
+   "digest": "Herrick had gone to Le Bourget to welcome the flier and found the field taken over by the crowd. He took Lindbergh to the embassy, where reporters reached him at about 1.30 a.m., after about sixty hours with little sleep. In his foreword Herrick wrote that Lindbergh's modesty won over the French as much as the flight did.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Herrick's foreword to \"We\" and Fitzhugh Green's Paris section (Gutenberg text)."
+  },
+  {
+   "date_iso": "1927-05-23",
+   "date_display": "22–23 May 1927",
+   "precision": "range",
+   "eye": "lindbergh",
+   "place": "Paris",
+   "headline": "A balcony, a telephone call home, and a visit to Madame Nungesser",
+   "digest": "From the embassy balcony he waved to crowds that had been gathering since morning, and he telephoned his mother in Detroit. He also went to see the mother of Charles Nungesser, who had been missing with Coli for two weeks, and told her not to give up hope. His first-person account of the flight was sold to the New York Times and printed from 23 May.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Fitzhugh Green's section in \"We\" (balcony, telephone, Madame Nungesser); exact days of each and of the Times printing not checked."
+  },
+  {
+   "date_iso": "1927-05-27",
+   "date_display": "Friday 27 May 1927",
+   "precision": "day",
+   "eye": "herrick",
+   "place": "US Embassy, Paris",
+   "headline": "A telegram to Washington: Briand wants to talk",
+   "digest": "Herrick cabled the Secretary of State that at a luncheon for Lindbergh the day before, Aristide Briand had asked to discuss his proposed Franco-American pact. Briand said the idea had been so well received that it should be studied, but only in full agreement with President Coolidge. The goodwill Lindbergh had created was already being used in diplomacy.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FRUS 1927 vol. II, doc. 663 (paraphrase of telegram no. 217)."
+  },
+  {
+   "date_iso": "1927-06-04",
+   "date_display": "Saturday 4 June 1927, 6.04 a.m.",
+   "precision": "day",
+   "eye": "chamberlin",
+   "place": "Roosevelt Field",
+   "headline": "An unnamed navigator turns out to be the owner, in a suit",
+   "digest": "Levine had said a mystery navigator would board at the last moment. As Chamberlin warmed up the engine, Levine himself climbed in wearing an ordinary business suit, and they took off before anyone could stop them. His wife, who had come to see the aircraft off, is reported to have fainted. They headed for Berlin.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "EAA Vintage, 'Outstanding Flights: Columbia'."
+  },
+  {
+   "date_iso": "1927-06-06",
+   "date_display": "Monday 6 June 1927, about 6 a.m.",
+   "precision": "day",
+   "eye": "chamberlin",
+   "place": "Near Eisleben, Saxony",
+   "headline": "Out of fuel in a German field, short of Berlin",
+   "digest": "After about 43 hours in the air, and after a wrong turn over Germany, the Columbia ran out of fuel and landed in a field near Eisleben, about 108 miles short of Berlin. The distance of about 3,900 miles beat Lindbergh's. They had flown farther than any aeroplane had yet flown nonstop, but they had not reached the city they set out for.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "EAA Vintage (3,911 miles; 43 hours; landing near Eisleben); other sources give 42 h 31 min."
+  },
+  {
+   "date_iso": "1927-06-07",
+   "date_display": "Tuesday 7 June 1927",
+   "precision": "day",
+   "eye": "chamberlin",
+   "place": "Tempelhof, Berlin",
+   "headline": "Berlin's welcome, a day late",
+   "digest": "After an intermediate stop at Cottbus, the Columbia reached Tempelhof in the afternoon. A crowd reported at about 150,000 turned out. Berlin made as much of Chamberlin and Levine as Paris had of Lindbergh two weeks before.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "EAA Vintage, 'Outstanding Flights: Columbia'."
+  },
+  {
+   "date_iso": "1927-06-16",
+   "date_display": "Thursday 16 June 1927",
+   "precision": "day",
+   "eye": "orteig",
+   "place": "New York",
+   "headline": "Orteig hands Lindbergh the $25,000",
+   "digest": "The prize was formally awarded to Lindbergh in New York, eight years after the offer, once he had returned on the cruiser Memphis. Orteig was paying for a flight that his money had encouraged for years and that had cost several lives in 1926–27.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Orteig Prize overview (award 16 June 1927)."
+  },
+  {
+   "date_iso": "1927-06-16",
+   "date_display": "16 June 1927",
+   "precision": "day",
+   "eye": "herrick",
+   "place": "Paris",
+   "headline": "Herrick's foreword, quoting a cable from Lindbergh",
+   "digest": "In a foreword dated the same day, Herrick described the young man who had stayed in his house. He quoted a cable in which Lindbergh told his backers that the flight had been made for aviation, not for money. Herrick presented the flight as a lesson in character as much as in engineering.",
+   "quote": "not organized to make money but to advance aviation",
+   "confidence": "verified",
+   "source_note": "\"We\" (1927), foreword by Myron T. Herrick dated 16 June 1927 (Gutenberg text)."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1908-10",
+   "date_display": "October 1908",
+   "eye": "daily-mail",
+   "claim": "Daily Mail offers £1,000 for the first aeroplane crossing of the English Channel",
+   "form": "other",
+   "evidence": "Crossing the Channel (wright-brothers.org)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1909-07-19",
+   "date_display": "19 July 1909",
+   "eye": "latham",
+   "claim": "Antoinette IV engine fails about 7–8 miles out; Latham ditches and is rescued",
+   "form": "failed",
+   "evidence": "History of Aeronautics; wright-brothers.org",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1909-07-25",
+   "date_display": "25 July 1909",
+   "eye": "bleriot",
+   "claim": "First aeroplane crossing of the Channel, Les Baraques to Dover, about 22 miles in about 36½–37 minutes, Blériot XI with 25 hp Anzani",
+   "form": "first",
+   "evidence": "Flight, 31 July 1909",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1909-07-27",
+   "date_display": "27 July 1909",
+   "eye": "latham",
+   "claim": "Second Latham attempt (Antoinette VII) fails about 1–2 km off Dover",
+   "form": "failed",
+   "evidence": "Aviation Safety Network; History of Aeronautics",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1912-04-16",
+   "date_display": "16 April 1912",
+   "eye": "quimby",
+   "claim": "First woman to fly the Channel, Dover to near Hardelot, by compass in fog, about one hour",
+   "form": "first",
+   "evidence": "Quimby, Fly magazine 1912 (via IWASM)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1913-04",
+   "date_display": "April 1913",
+   "eye": "daily-mail",
+   "claim": "Daily Mail offers £10,000 for the first transatlantic flight in under 72 hours",
+   "form": "other",
+   "evidence": "Overview of the Alcock and Brown flight",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1919-05-17",
+   "date_display": "16–17 May 1919",
+   "eye": "read",
+   "claim": "Trepassey–Azores leg (about 1,200 nautical miles): NC-4 reaches Horta; NC-1 and NC-3 come down at sea in fog and never fly again",
+   "form": "tested",
+   "evidence": "NHHC H-Gram 030-2",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1919-05-22",
+   "date_display": "22 May 1919",
+   "eye": "orteig",
+   "claim": "Orteig offers $25,000 for the first nonstop New York–Paris flight",
+   "form": "other",
+   "evidence": "Orteig Prize records, as summarised",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1919-05-27",
+   "date_display": "27 May 1919",
+   "eye": "read",
+   "claim": "NC-4 reaches Lisbon: first aeroplane crossing of the Atlantic, in stages; 26 h 46 min flying time over 10 days 22 hours",
+   "form": "first",
+   "evidence": "NHHC H-Gram 030-2",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1919-06-15",
+   "date_display": "14–15 June 1919",
+   "eye": "brown",
+   "claim": "First nonstop transatlantic flight, St John's to Clifden, about 1,890 statute miles (Brown: 1,680 nautical miles straight-line) in 15 h 57 min",
+   "form": "first",
+   "evidence": "Brown, Flying the Atlantic in Sixteen Hours (1920)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1919-07-06",
+   "date_display": "2–6 July 1919",
+   "eye": "maitland",
+   "claim": "R34 makes the first east–west crossing of the Atlantic by air, East Fortune to Mineola in 108 h 12 min",
+   "form": "first",
+   "evidence": "National Museums Scotland; Maitland's log",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1919-07-13",
+   "date_display": "9–13 July 1919",
+   "eye": "maitland",
+   "claim": "R34 returns to Pulham in about 75 hours: first double crossing of the Atlantic by air",
+   "form": "record",
+   "evidence": "Science Museum Group (Maitland's return log)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1926-09-21",
+   "date_display": "September 1926",
+   "eye": "orteig",
+   "claim": "Fonck's overloaded Sikorsky S-35 crashes on take-off for Paris; two crew killed",
+   "form": "failed",
+   "evidence": "Orteig Prize overview",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1927-05-08",
+   "date_display": "8 May 1927",
+   "eye": "orteig",
+   "claim": "Nungesser and Coli leave Le Bourget for New York in L'Oiseau Blanc and are lost without trace",
+   "form": "failed",
+   "evidence": "Orteig Prize overview; ExplorersWeb",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1927-05-21",
+   "date_display": "20–21 May 1927",
+   "eye": "lindbergh",
+   "claim": "First solo nonstop transatlantic flight, New York to Paris, about 3,600 miles in about 33½ hours; wins the Orteig prize",
+   "form": "first",
+   "evidence": "\"We\" (1927); Orteig Prize records",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1927-06-06",
+   "date_display": "4–6 June 1927",
+   "eye": "chamberlin",
+   "claim": "Chamberlin and Levine fly about 3,900 miles in about 43 hours to near Eisleben; Levine the first transatlantic aeroplane passenger",
+   "form": "record",
+   "evidence": "EAA Vintage (contemporary reports)",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1909-07-25",
+   "label": "Blériot crosses the Channel",
+   "eyes": [
+    "bleriot",
+    "alicia",
+    "fontaine",
+    "latham"
+   ],
+   "note": "Four views of the same thirty-seven minutes. Blériot was out of sight of land and unsure of his course. His wife was on a destroyer that fell behind. A reporter on the cliff waved a flag and missed the landing. His rival was still on the ground at Sangatte, about to send congratulations."
+  },
+  {
+   "date": "1909-07-26",
+   "label": "The prize is paid; the rival tries again",
+   "eyes": [
+    "daily-mail",
+    "bleriot",
+    "fontaine",
+    "latham"
+   ],
+   "note": "Over two days the London paper paid its prize at the Savoy, Le Matin printed its own man's story, and Latham came down in the sea again off Dover on the Tuesday."
+  },
+  {
+   "date": "1919-05-22",
+   "label": "NC-4 waits in the Azores; Orteig writes his letter",
+   "eyes": [
+    "read",
+    "orteig"
+   ],
+   "note": "In the same week that a Navy flying boat crossed the Atlantic in stages with warships along its route, a New York hotelier offered money for the next step: one nonstop flight between New York and Paris. No aircraft of the time could make it."
+  },
+  {
+   "date": "1919-06-15",
+   "label": "Alcock and Brown land in an Irish bog",
+   "eyes": [
+    "brown",
+    "alcock",
+    "daily-mail"
+   ],
+   "note": "Brown's log has the spin in fog and the islands at dawn. Alcock's brief words come through the press. The Daily Mail, which had offered the £10,000 six years earlier, now had its winners and paid within the week."
+  },
+  {
+   "date": "1927-05-21",
+   "label": "Lindbergh lands at Le Bourget",
+   "eyes": [
+    "lindbergh",
+    "herrick"
+   ],
+   "note": "Lindbergh described the landing in practical terms: a crowd, damage to the fabric, a hangar. Herrick saw it as a diplomatic opportunity. Within six days he was cabling Washington about a treaty."
+  },
+  {
+   "date": "1927-06-06",
+   "label": "A second crossing, two weeks later",
+   "eyes": [
+    "chamberlin",
+    "lindbergh"
+   ],
+   "note": "While Lindbergh was being celebrated, the Columbia flew farther and landed short of Berlin in a German field with its owner aboard as passenger. A second success drew far less attention than the first."
+  },
+  {
+   "date": "1927-06-16",
+   "label": "The prize paid, the foreword signed",
+   "eyes": [
+    "orteig",
+    "herrick",
+    "lindbergh"
+   ],
+   "note": "On the same day Orteig paid the prize in New York and Herrick dated his foreword in Paris. The foreword quoted Lindbergh's cable saying the flight was for aviation, not for money."
+  }
+ ],
+ "ties": [
+  {
+   "a": "bleriot",
+   "b": "latham",
+   "kind": "opposite sides",
+   "note": "Rivals for the same £1,000 at the same stretch of coast. Blériot offered to share the prize if Latham also crossed that day, and Latham telegraphed his congratulations."
+  },
+  {
+   "a": "bleriot",
+   "b": "alicia",
+   "kind": "relative",
+   "note": "Husband and wife; her dowry is said to have paid for much of his early aeroplane work, and she was reported aboard his escort destroyer."
+  },
+  {
+   "a": "bleriot",
+   "b": "fontaine",
+   "kind": "met",
+   "note": "Fontaine's tricolour on the Dover cliff was the only signal guiding Blériot to his landing place."
+  },
+  {
+   "a": "daily-mail",
+   "b": "bleriot",
+   "kind": "met",
+   "note": "The paper paid him its £1,000 at the Savoy the day after the crossing."
+  },
+  {
+   "a": "quimby",
+   "b": "bleriot",
+   "kind": "influenced",
+   "note": "Quimby crossed the same water, in the opposite direction, in a Blériot monoplane three years later."
+  },
+  {
+   "a": "read",
+   "b": "alcock",
+   "kind": "opposite sides",
+   "note": "The Navy's staged crossing and the Vickers team's nonstop attempt were under way in Newfoundland at the same time in May–June 1919. NC-4 reached Lisbon less than three weeks before the Vimy took off."
+  },
+  {
+   "a": "alcock",
+   "b": "brown",
+   "kind": "met",
+   "note": "Pilot and navigator in the same open cockpit for nearly sixteen hours; Brown's book is the main record of the flight."
+  },
+  {
+   "a": "daily-mail",
+   "b": "brown",
+   "kind": "met",
+   "note": "The £10,000 the paper had offered in 1913 was paid to Alcock and Brown at a Savoy luncheon in June 1919."
+  },
+  {
+   "a": "maitland",
+   "b": "read",
+   "kind": "influenced",
+   "note": "Six weeks apart, the Navy flying boat and the British airship crossed in opposite directions, testing two different ideas of long-range flight."
+  },
+  {
+   "a": "orteig",
+   "b": "lindbergh",
+   "kind": "met",
+   "note": "Orteig paid Lindbergh the $25,000 in New York on 16 June 1927."
+  },
+  {
+   "a": "herrick",
+   "b": "lindbergh",
+   "kind": "met",
+   "note": "The ambassador took Lindbergh in on the night of 21 May, managed his first days in Paris and wrote the foreword to \"We\"."
+  },
+  {
+   "a": "lindbergh",
+   "b": "chamberlin",
+   "kind": "opposite sides",
+   "note": "Rivals for the Orteig prize on neighbouring Long Island fields in May 1927; the Columbia's legal disputes kept it grounded while the Spirit of St. Louis took off."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "balloons-1783",
+   "note": "The Channel had been crossed by air once before, by Jean-Pierre Blanchard and John Jeffries in a hydrogen balloon on 7 January 1785, from Dover toward Calais. Blériot made the same crossing in the other direction 124 years later."
+  },
+  {
+   "to": "kitty-hawk",
+   "note": "Wilbur Wright's demonstrations in France in 1908 started the European aviation boom that the Daily Mail's prize took advantage of. One Channel contender, the Comte de Lambert, was a Wright pupil flying a Wright biplane, which he wrecked before he could start."
+  },
+  {
+   "to": "airships",
+   "note": "R34's double crossing of July 1919 showed the rigid airship as a transatlantic carrier. Its log-keeper Edward Maitland died in the R38 disaster in 1921, and the airship line led on to the Graf Zeppelin and the Hindenburg."
+  },
+  {
+   "to": "jet-age",
+   "note": "The North Atlantic route opened by Alcock and Brown and by Lindbergh became the main prize of airline competition. In October 1958 the de Havilland Comet 4 and the Boeing 707 began scheduled jet services across it."
+  },
+  {
+   "to": "v1:ww1",
+   "note": "The war supplied both men and machines. Alcock and Brown had each been prisoners of war, the Vimy was a bomber designed for the war, and the NC flying boats were ordered to cross the Atlantic to fight U-boats. Herrick had been ambassador in Paris in 1914."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://artsandculture.google.com/asset/blériot-just-after-landing-in-dover-uk/BgFyW2fjur4E5Q",
+   "title": "Blériot just after landing in Dover",
+   "caption": "Photograph taken at Dover on the morning of the crossing, with the damaged Type XI in the meadow below the castle.",
+   "date": "25 July 1909",
+   "credit": "Musée des arts et métiers–Cnam, Paris (Inv. 14272-0001)"
+  },
+  {
+   "url": "https://artsandculture.google.com/asset/blériot-xi-aeroplane/5gF1KEiaE5e-rg",
+   "title": "Blériot XI aeroplane",
+   "caption": "The Type XI monoplane that crossed the Channel, now kept at the Musée des arts et métiers in Paris. It has a 25 hp Anzani engine, a wooden frame and is covered partly in fabric.",
+   "date": "1909",
+   "credit": "Musée des arts et métiers–Cnam, via Google Arts & Culture"
+  },
+  {
+   "url": "https://history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/n/nc-4.html",
+   "title": "Curtiss NC-4",
+   "caption": "The flying boat that crossed in stages via Newfoundland, the Azores and Lisbon in May 1919, preserved at the National Naval Aviation Museum, Pensacola.",
+   "date": "1919",
+   "credit": "Naval History and Heritage Command"
+  },
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/objects/co499537/alcock-and-browns-vickers-vimy-biplane-aircraft",
+   "title": "Alcock and Brown's Vickers Vimy",
+   "caption": "The converted twin-engine bomber flown nonstop from Newfoundland to Clifden, presented to the Science Museum in December 1919 after it was recovered from the bog.",
+   "date": "1919",
+   "credit": "Science Museum Group"
+  },
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/objects/co75185/carbon-copy-of-log-of-the-r34-return-journey-long-island",
+   "title": "Carbon copy of Maitland's R34 return log",
+   "caption": "Seventeen bound manuscript leaves covering the airship's return from Long Island to Norfolk, 9–13 July 1919. A later pencil label calling it the 'official' log is, the museum notes, misleading.",
+   "date": "July 1919",
+   "credit": "Edward Maitland; Science Museum Group (Imperial War Museum)"
+  },
+  {
+   "url": "https://airandspace.si.edu/collection-objects/ryan-nyp-spirit-st-louis-charles-lindbergh/nasm_A19280021000",
+   "title": "Ryan NYP Spirit of St. Louis",
+   "caption": "The single-seat monoplane Lindbergh flew from Roosevelt Field to Le Bourget. Its main fuel tank was placed ahead of the cockpit, so he looked forward only through a periscope or out of the side windows.",
+   "date": "1927",
+   "credit": "Smithsonian National Air and Space Museum"
+  }
+ ],
+ "further": [
+  {
+   "title": "Arthur Whitten Brown, Flying the Atlantic in Sixteen Hours (1920), Project Gutenberg",
+   "url": "https://www.gutenberg.org/ebooks/47129"
+  },
+  {
+   "title": "Charles A. Lindbergh, \"We\" (1927), Project Gutenberg",
+   "url": "https://gutenberg.org/cache/epub/73142/pg73142-images.html"
+  },
+  {
+   "title": "Flight, 31 July 1909: Blériot's cross-Channel flight (reproduced)",
+   "url": "https://wright-brothers.org/History_Wing/Wright_Story/Showing_the_World/Crossing_the_Channel/Bleriots_Flight.htm"
+  },
+  {
+   "title": "NHHC H-Gram 030-2: NC-4's Transatlantic Crossing, May 1919",
+   "url": "https://history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-030/h-030-2.html"
+  },
+  {
+   "title": "International Women's Air & Space Museum: Harriet Quimby's Channel crossing",
+   "url": "https://iwasm.org/wp-blog/?p=5426"
+  },
+  {
+   "title": "National Museums Scotland: R34 airship",
+   "url": "https://www.nms.ac.uk/airship"
+  },
+  {
+   "title": "Foreign Relations of the United States 1927, vol. II, doc. 663 (Herrick telegram)",
+   "url": "https://history.state.gov/historicaldocuments/frus1927v02/d663"
+  },
+  {
+   "title": "EAA Vintage: Outstanding Flights — the Columbia",
+   "url": "https://eaavintage.org/outstanding-flights-columbia/"
+  }
+ ]
+}

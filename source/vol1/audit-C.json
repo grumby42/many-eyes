@@ -1,0 +1,364 @@
+[
+ {
+  "chapter": "nanjing-1937",
+  "where": "entry:2",
+  "severity": "error",
+  "problem": "Mayor Ma Chaojun did hand over police: the transfer of 1 Dec 1937 included about 450 policemen along with rice, flour, salt and cash. 'with no police' is wrong.",
+  "fix": {
+   "digest": "Mayor Ma Chaojun orders the remaining Chinese residents into the Safety Zone and passes administration of it to Rabe's committee, together with about 450 policemen and stocks of rice, flour and salt, plus cash. Then he goes. The foreigners have become caretakers of a crowded quarter of the capital, with no promise from the Japanese side that it will be respected."
+  }
+ },
+ {
+  "chapter": "nanjing-1937",
+  "where": "entry:40",
+  "severity": "quote",
+  "problem": "Quote is from the 1998 English translation of Rabe's German diary (The Good Man of Nanking, Knopf), a post-1929 copyrighted translation. Remove; the digest already paraphrases it.",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "nanjing-1937",
+  "where": "entry:8",
+  "severity": "quote",
+  "problem": "Vautrin's diary is an English original but was not published before 1929 (first published 2008); 'strangely silent' is not a famous phrase. Fails the quote rule.",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "nanjing-1937",
+  "where": "entry:62",
+  "severity": "quote",
+  "problem": "Same problem: Vautrin diary first published 2008; 'hour by hour' is not a famous phrase. Fails the quote rule.",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "nanjing-1937",
+  "where": "entry:24",
+  "severity": "quote",
+  "problem": "Headline carries a quoted phrase from the modern English translation of Cheng's Chinese diary (2010 / Global Times rendering). Same copyright logic as the quote field; paraphrase it.",
+  "fix": {
+   "headline": "Eleven girls taken, and a housemother's heartbreak"
+  }
+ },
+ {
+  "chapter": "nanjing-1937",
+  "where": "eye:vautrin",
+  "severity": "doubt",
+  "problem": "Standard accounts (Wikipedia, Yale) have Vautrin joining Ginling as head of its education department in 1919, after missionary work in Luzhou (Hefei) from 1912, not 1916.",
+  "fix": {
+   "bio": "Vautrin was born in Secor, Illinois, went to China as a missionary in 1912, and had headed the education department at Ginling since 1919. When the city fell she turned the campus into a refuge for women and children. It was built for a few hundred students and held up to about 10,000 people. She spent her days at the front gate and her evenings at the Japanese embassy asking for guards. The strain broke her health. She left China in May 1940 and took her own life in Indianapolis on 14 May 1941."
+  }
+ },
+ {
+  "chapter": "nanjing-1937",
+  "where": "eye:magee",
+  "severity": "doubt",
+  "problem": "'with Japanese permission to carry a camera' conflicts with the standard account (and the bio's own next sentence) that Magee filmed covertly and risked confiscation. Drop the permission claim unless sourced.",
+  "fix": {
+   "bio": "Magee was a Pittsburgh-born Yale graduate who had worked in Nanjing since 1912. He filmed wounded refugees in the hospital and the Ginling camp, working discreetly because the camera could be confiscated. He could not film the worst scenes without being caught. His film is the only moving-picture record made at the time. He later testified at the Tokyo tribunal and served as Episcopal chaplain at Yale."
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "intro:2",
+  "severity": "error",
+  "problem": "Klemperer was not due to be deported on the night of the raid: the notices he delivered on 13 Feb 1945 ordered people to report three days later (as entry 51 correctly says).",
+  "fix": {
+   "text": "The Holocaust runs through the whole chapter, and these entries treat it with care. Dawid Sierakowiak, Hélène Berr, Etty Hillesum and Anne Frank did not survive. Victor Klemperer survived partly because of his marriage, and partly because the raid that destroyed Dresden on 13–14 February 1945, three days before he was due to report for deportation, let him remove his star and disappear among the homeless. Mihail Sebastian survived Antonescu's Romania and was killed by a truck three weeks after VE Day. Their entries are written as paraphrase in their own order of knowing: what they heard, what they guessed, and what they could not yet believe."
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "eye:klemperer",
+  "severity": "error",
+  "problem": "Born 9 Oct 1881, Klemperer was 57 when the war began, not 58.",
+  "fix": {
+   "role": "Romance-languages professor of Jewish birth, dismissed from the Dresden Technical University; aged 57–63 during the war"
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "entry:25",
+  "severity": "error",
+  "problem": "Tanya's page Ж reads '12.00 час утра' (12 o'clock in the morning), not half past midnight; the time is usually read as midnight or noon.",
+  "fix": {
+   "digest": "On the page for the letter Ж, Tanya wrote that her older sister Zhenya had died on 28 December 1941. The Russian gives the time as '12 o'clock in the morning', which is read as either midnight or noon. Zhenya had been giving blood and working long factory shifts. This is the first of the notebook's entries."
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "entry:33",
+  "severity": "error",
+  "problem": "The yellow-star ordinance took effect in the occupied zone on Sunday 7 June 1942; Berr's 8 June entry records the first day she wore it, not the first day it was compulsory.",
+  "fix": {
+   "digest": "Four days earlier Hélène had decided it would be cowardly not to wear the star. On 8 June, the day after it became compulsory in the occupied zone, she went out into Paris wearing it for the first time and recorded how people on the street reacted to her, and how she felt about it. That same day the diarist Philippe Jullian, also in Paris, wrote in his own diary about the star."
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "entry:54",
+  "severity": "error",
+  "problem": "The diary ran from 1923 (per the eye's own authenticity note) to April 1945, more than twenty years, not eighteen.",
+  "fix": {
+   "digest": "The last surviving entry in the Goebbels diary contains only a military situation report and no comment from him. For more than twenty years the diary had recorded his ambitions, his hatreds and his part in planning the persecution of Europe's Jews. Its last voice is a dictated list of lost positions. Three weeks later, on 1 May, he and his wife killed their six children and themselves."
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "entry:9",
+  "severity": "quote",
+  "problem": "Nicolson's diary is an English original but was first published in 1967 (Diaries and Letters, Collins), a post-1929 copyrighted publication; not a famous phrase.",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "entry:18",
+  "severity": "quote",
+  "problem": "Quote is from the modern English translation of Mukhina's diary (Macmillan 2015); remove.",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "entry:45",
+  "severity": "quote",
+  "problem": "Anne Frank's diary is explicitly on the remove list (copyrighted editions; Anne Frank Fonds). Even though 'This is D-Day' echoes the BBC, it is taken from her diary text. Remove; the headline can keep it as the BBC's words.",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "entry:48",
+  "severity": "quote",
+  "problem": "Quote is from the 1949 English translation of Nansen's Norwegian diary (From Day to Day), a post-1929 copyrighted translation.",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "entry:47",
+  "severity": "quote",
+  "problem": "'Endlich!' comes from Kellner's German diary (published 2011). It is a single word with negligible risk, but it is neither a pre-1929 English original nor a famous phrase. Remove unless the editor makes an exception for one-word originals.",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "entry:41",
+  "severity": "quote",
+  "problem": "Borderline. 'We have left the camp singing' is a modern English translation of Hillesum's Dutch postcard. It is arguably a widely quoted phrase. Remove unless the editor counts it as famous, as is done for 'Only Tanya is left'.",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "eye:berr",
+  "severity": "doubt",
+  "problem": "A specific death date of 10 April 1945 is not established; standard sources (Wikipedia, Mémorial de la Shoah) say she died at Bergen-Belsen in April 1945, a few days before the British liberated the camp on 15 April. The 'frank–berr' tie repeats '10 April'.",
+  "fix": {
+   "bio": "Berr begins with Paul Valéry, Keats and string quartets and ends recording the logistics of deportation trains. She chose to wear the yellow star and stayed in Paris to help Jewish children. She was arrested on 8 March 1944, deported on her 23rd birthday, and beaten to death at Bergen-Belsen in April 1945, a few days before the camp's liberation on 15 April."
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "entry:32",
+  "severity": "doubt",
+  "problem": "'Her beloved aunt did not survive the siege' is confusing or wrong: Lena's 'Mama' (Elena Bernatskaya), who died on 7 Feb 1942, was herself her aunt and adoptive mother. Remove the sentence unless another aunt is sourced.",
+  "fix": {
+   "digest": "Lena's diary ends in late May 1942, with her trying to get onto an evacuation list. She was evacuated in June, so her diary stops at about the point when Tanya's family had all died."
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "convergence:2",
+  "severity": "doubt",
+  "problem": "Tanya's notebook gives dates of death, not dates of writing (as the chapter's calendar note says), so it cannot be said that she 'wrote' on 28 December. The same claim appears in intro:3.",
+  "fix": {
+   "note": "Two Leningrad girls who never met both record 28 December 1941. Seventeen-year-old Lena wrote that day that she hoped old Aka would die after the first of the month, to keep her ration card. Eleven-year-old Tanya later noted that her sister Zhenya had died that day. A month later Tanya's family is said to have delayed registering her grandmother's death for the same reason Lena had given."
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "intro:3",
+  "severity": "doubt",
+  "problem": "'two Leningrad girls who both wrote on 28 December 1941': Tanya's entry records a date of death and may have been written later.",
+  "fix": {
+   "text": "Other vantages sit alongside them: a German anti-Nazi official recording a soldier's eyewitness account of mass shootings in 1941; two Leningrad girls whose notebooks both record 28 December 1941; a Berlin society journalist; an anonymous Berlin woman, now generally identified as Marta Hillers, writing in a cellar while the Red Army arrived; a Norwegian prisoner; a Swedish letter censor; and, handled carefully, the dictated diary of the Nazi Propaganda Minister, whose last entry is a bare military report. The vantage scale runs from the victims themselves to those who heard the news from a neutral capital."
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "entry:26",
+  "severity": "doubt",
+  "problem": "The claims that the official death date was 1 February and that the family delayed registration to keep the ration card are not in the standard accounts I know. Downgrade unless the source states this explicitly.",
+  "fix": {
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "eye:hillers",
+  "severity": "doubt",
+  "problem": "The major critical study of the text (Yuliya von Saal, Vierteljahrshefte für Zeitgeschichte) is usually dated 2019, not 2016. Remove the year unless verified.",
+  "fix": {
+   "authenticity": "Published anonymously as A Woman in Berlin (English 1954; German 1959). It covers 20 April to 22 June 1945. Jens Bisky named Hillers as the author in 2003; the rights holder never formally confirmed this, but no other candidate has been proposed. Walter Kempowski examined the notebooks and typescript in 2004 and judged them a genuine wartime diary, noting that material was added in the typescript. A later critical study found that much of the published text is not contemporaneous."
+  }
+ },
+ {
+  "chapter": "japan-1945",
+  "where": "entry:10",
+  "severity": "quote",
+  "problem": "Guerrero's diary is an English original but was not published before 1929 (Philippine Diary Project, modern). The sentence is not a famous phrase.",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "japan-1945",
+  "where": "eye:tanizaki",
+  "severity": "error",
+  "problem": "Born 24 July 1886, Tanizaki was 59 by the August 1945 entries used here.",
+  "fix": {
+   "role": "Novelist, aged 59, evacuated with his household to Katsuyama, Okayama Prefecture"
+  }
+ },
+ {
+  "chapter": "japan-1945",
+  "where": "eye:kiyosawa",
+  "severity": "doubt",
+  "problem": "Ankoku nikki is generally given as first published in 1954 (Tōyō Keizai Shinpōsha), with fuller editions in 1970–73 and 1990, not 1948.",
+  "fix": {
+   "authenticity": "Kept secretly from 1942 until shortly before his death on 21 May 1945, as raw material for a planned history. First published in 1954 as Ankoku nikki, with fuller editions later. English translation, edited by Eugene Soviak, published by Princeton in 1999. His daughter gave the manuscripts to Azumino City in 2013."
+  }
+ },
+ {
+  "chapter": "japan-1945",
+  "where": "eye:oki",
+  "severity": "doubt",
+  "problem": "The Chief Secretary of the House of Representatives in 1945 was Ōki Misao (大木操, 1891–1981), whose diary was published as Ōki nikki (1969). Long vowel and life dates can be supplied.",
+  "fix": {
+   "name": "Ōki Misao",
+   "life": "1891–1981"
+  }
+ },
+ {
+  "chapter": "japan-1945",
+  "where": "entry:20",
+  "severity": "doubt",
+  "problem": "Entry says Yamada's lodgings burned in the raids of 24–25 May, but convergence:1 and intro:1 place him in the 25–26 May raid. The two Tokyo raids (night of 23–24 May and night of 25–26 May) need to be reconciled against the text.",
+  "fix": {
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "long-threads",
+  "where": "entry:12",
+  "severity": "quote",
+  "problem": "Quote is 13 words, over the 12-word limit (English original, 1889 edition, so otherwise acceptable). Trim.",
+  "fix": {
+   "quote": "we are in a dreadful state to receive it"
+  }
+ },
+ {
+  "chapter": "long-threads",
+  "where": "entry:20",
+  "severity": "quote",
+  "problem": "Kent's diary is an English manuscript first made public long after 1929 (Smithsonian 2020 / Digital Vermont). Not a famous phrase.",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "long-threads",
+  "where": "entry:25",
+  "severity": "quote",
+  "problem": "Same: Kent's 1918 diary was not published before 1929.",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "long-threads",
+  "where": "entry:26",
+  "severity": "quote",
+  "problem": "Van Wert's letter was unpublished before 1929 (it is a modern archival reproduction). Not a famous phrase.",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "long-threads",
+  "where": "eye:mass-obs",
+  "severity": "error",
+  "problem": "Mass Observation has not asked for a 12 May day-diary every year since 1937. The annual 12 May diary call began in 2010.",
+  "fix": {
+   "bio": "Mass Observation invented the idea of asking hundreds of ordinary people to write down one ordinary day. It began with the coronation of George VI on 12 May 1937, and since 2010 it has asked every year for a day-diary on 12 May. Its wartime diarists became famous, and from March 2020 it gathered nearly 10,000 COVID-19 documents, so the thread of Pepys's plague year runs straight into a modern archive."
+  }
+ },
+ {
+  "chapter": "long-threads",
+  "where": "entry:32",
+  "severity": "error",
+  "problem": "The 1981 relaunch at Sussex did not renew an annual 12 May day-diary; the annual 12 May call dates from 2010.",
+  "fix": {
+   "digest": "After a re-evaluation of the original papers, Mass Observation is relaunched at the University of Sussex as a standing panel of volunteer writers who answer 'directives' several times a year. From 2010 it also asks the public for an annual 12 May day-diary. The result is a continuous record of ordinary British lives, already in place when the next epidemic comes."
+  }
+ },
+ {
+  "chapter": "long-threads",
+  "where": "entry:30",
+  "severity": "doubt",
+  "problem": "The 30 Jan 1937 'Anthropology at Home' letter in the New Statesman is normally described as signed by all three founders: Harrisson, Jennings and Madge.",
+  "fix": {
+   "digest": "Tom Harrisson, Humphrey Jennings and Charles Madge sign a letter to the New Statesman calling for volunteers to record everyday life, which is Mass Observation's public launch. Harrisson was recently back from anthropological fieldwork in the New Hebrides. They want an 'anthropology at home': ordinary people describing their own days instead of being described by experts."
+  }
+ },
+ {
+  "chapter": "long-threads",
+  "where": "entry:7",
+  "severity": "doubt",
+  "problem": "Elizabeth Pepys had been lodging at Woolwich since early July 1665. On 31 Aug Pepys is arranging his own removal there ('putting several things in order to my removal, to Woolwich'), not sending the household out.",
+  "fix": {
+   "headline": "Seven thousand dead; Pepys prepares to move to Woolwich",
+   "digest": "He puts his affairs in order for his own removal to Woolwich, where his wife is already lodging. The bill for the week gives about 7,500 deaths, more than 6,000 of them from plague. He suspects the real figure is higher because the poor die uncounted and Quakers refuse the bell."
+  }
+ },
+ {
+  "chapter": "long-threads",
+  "where": "entry:9",
+  "severity": "doubt",
+  "problem": "The 7 Sept (O.S.) bill (about 8,250 / 6,978) was not the peak; the highest bill was the week reported around 19–20 Sept O.S. (about 8,297 total, 7,165 plague). The headline overstates.",
+  "fix": {
+   "headline": "Over eight thousand dead in a week"
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "entry:56",
+  "severity": "quote",
+  "problem": "Headline quotes 'Day of catastrophe' from the modern English translation of A Woman in Berlin (Boehm, 2005; copyrighted). Paraphrase it.",
+  "fix": {
+   "headline": "A day of catastrophe: the soldiers come into the cellar"
+  }
+ },
+ {
+  "chapter": "nanjing-1937",
+  "where": "entry:25",
+  "severity": "quote",
+  "problem": "Headline quotes a phrase from the 1998 English translation of Rabe's diary or letters. Paraphrase it.",
+  "fix": {
+   "headline": "Protest to the embassy: restore order among the troops"
+  }
+ }
+]

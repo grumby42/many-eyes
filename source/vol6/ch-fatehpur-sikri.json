@@ -1,0 +1,1488 @@
+{
+ "id": "fatehpur-sikri",
+ "title": "The House of Worship: Fatehpur Sikri, 1575–1582",
+ "short_title": "Fatehpur Sikri, 1575–82",
+ "subtitle": "Akbar's Ibadat Khana, the mahzar, the first Jesuit mission and the tauhid-i ilahi, Fatehpur Sikri and the road to Kabul, 1575–1583",
+ "span": "1574–1583",
+ "intro": [
+  "In 1575 the Mughal emperor Akbar, then in his early thirties and master of most of northern India, had a hall built beside the mosque of his new red-sandstone city at Fatehpur Sikri. He called it the Ibadat Khana, the House of Worship. On Thursday nights, the eve of the Muslim Friday, he sat there with Sunni scholars, Sufi shaikhs, nobles and sayyids and put questions to them. Within four years the circle had widened to Shia scholars, Brahmans, Jain monks, Zoroastrian priests from Gujarat and, in February 1580, three Jesuits from Goa. Between 1579 and 1582 Akbar read the Friday sermon himself, received a signed decree from his ulama recognising his authority to choose between conflicting legal opinions, and finally drew a small circle of disciples into a devotional order of his own. Its nature is still argued over.",
+  "This is a chapter built from chronicles and letters, not diaries, and the form tags say so. The Persian side is told by three court historians who knew each other well. Abu'l Fazl was Akbar's closest intellectual companion and wrote the official Akbarnama in the 1590s. Abd al-Qadir Badauni was a court scholar who took part in the early debates and came to hate where they led. He wrote his Muntakhab al-Tawarikh in secret, and it circulated only after Akbar's death. Nizamuddin Ahmad, Badauni's friend, wrote the Tabaqat-i Akbari, a dry official chronicle that says almost nothing about religion. The admirer and the critic often describe the same night in opposite terms. Here they are laid side by side and neither is treated as the truth.",
+  "The European side comes from the Jesuits. Rodolfo Aquaviva, a 29-year-old Italian nobleman, wrote letters home from the court. The Catalan Antonio Monserrate kept notes that he later worked into a Latin Commentarius, finishing it in 1590–91 in captivity at Sanaa in Yemen. Francisco Henriques, a convert from Hormuz who spoke Persian, interpreted for them; he left no account of his own and is seen only through his companions. Monserrate also rode with Akbar's army on the 1581 campaign against Akbar's half-brother Mirza Hakim in Kabul, so the debates continued in camp. The Jesuits hoped to convert the emperor. Their accounts are as partisan as Badauni's, from the other side.",
+  "Other voices reach the room only at second hand. The Jain teacher Hiravijaya Suri walked from Gujarat to Fatehpur Sikri around 1582–83, but his visit is known mainly from Sanskrit and Gujarati biographies written by his followers years later. The Parsi priest Dastur Meherji Rana of Navsari is known through his community's records and traditions. Shaikh Mubarak, the father of Abu'l Fazl and of the poet Faizi, drafted the 1579 decree. Birbal, the Brahman courtier of later legend, appears here only where the chronicles name him. Akbar himself wrote nothing that survives. He speaks through his farmans (imperial orders) and through what others report he said.",
+  "The convergences are the sessions and turning points several of these people recorded: the founding of the hall, the Friday in June 1579 when Akbar climbed the pulpit, the decree of that autumn, the Jesuits' arrival and the Bible they presented, a challenge to an ordeal by fire, the march on Kabul, and the new devotional order of 1582. On every contested point, including whether Akbar left Islam, whether the decree made him infallible, and whether the tauhid-i ilahi was a religion, a Sufi-style discipleship or an instrument of state, the chapter reports what each witness and each school of historians says and gives no verdict."
+ ],
+ "calendar_note": "Four calendars meet in this chapter. The Persian chroniclers date events in Hijri lunar months. Here those dates are converted with the tabular Islamic calendar, which can be off by a day or two, and are marked approximate unless a standard modern authority gives the same day; for example, 1 Jumada al-Ula 987 AH is Friday 26 June 1579. From 1584 Akbar also used his own solar Ilahi era, counted from his accession in March 1556, with Persian month names. Abu'l Fazl dated the whole Akbarnama back into Ilahi regnal years, so his years run from March to March and straddle the Western ones. The Jesuits wrote in the Julian calendar until Pope Gregory XIII's reform took effect in Catholic countries in October 1582. The Portuguese Indies switched only when the news arrived, so Jesuit dates from 1583 are cited both ways (Aquaviva's death appears as 15 and as 25 July 1583). Following the book's rule, date_iso uses the Julian calendar for dates before 15 October 1582 and the Gregorian afterwards. Jain sources date by the Vikram Samvat (VS 1639 roughly covers 1582–83, depending on whether the year is counted from Chaitra or Kartika), and Parsi records date by the Yazdegerdi era (Y.Z. 947 is about 1578).",
+ "eyes": [
+  {
+   "id": "akbar",
+   "short": "Akbar",
+   "name": "Jalal al-Din Muhammad Akbar",
+   "life": "1542–1605",
+   "role": "Third Mughal emperor, aged 32–40 in 1575–82; ruler of northern India from Gujarat to Bengal",
+   "side": "Mughal court",
+   "where": "Fatehpur Sikri; on campaign to Kabul in 1581",
+   "lat": 27.094,
+   "lon": 77.661,
+   "waypoints": [
+    {
+     "lat": 27.094,
+     "lon": 77.661,
+     "label": "Fatehpur Sikri 1575–81"
+    },
+    {
+     "lat": 33.89,
+     "lon": 72.24,
+     "label": "Indus crossing, summer 1581"
+    },
+    {
+     "lat": 34.53,
+     "lon": 69.17,
+     "label": "Kabul, Aug 1581"
+    },
+    {
+     "lat": 27.094,
+     "lon": 77.661,
+     "label": "Fatehpur Sikri, Dec 1581–"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the questioner in the chair",
+   "form": "farmans (imperial orders) and reported speech",
+   "language": "Persian (orders); spoken Persian and Hindavi",
+   "authenticity": "Akbar wrote nothing that survives in his own hand. His voice reaches the record through farmans, which survive as originals, copies kept by recipients such as the Jesuits, Jain and Parsi communities (some known only in later copies or translations), and through what Abu'l Fazl, Badauni and the Jesuits report he said. Each of those reporters had an interest in the Akbar he described.",
+   "bio": "Akbar was famous for his memory and for listening to readers and debaters rather than reading himself. Monserrate believed he could not read or write. In the House of Worship he set the questions, and both admirers and critics agree he rarely stayed silent. What he believed by 1582 is the question every other eye in this chapter answers differently.",
+   "sources": [
+    {
+     "title": "Goldie, The First Christian Mission to the Great Mogul (1897): text of the 1579 invitation",
+     "url": "https://rarebooksocietyofindia.org/book_archive/196174216674_10155031134846675.pdf"
+    },
+    {
+     "title": "Jainpedia: Jains and the Mughals (farmans to Tapa-gaccha monks)",
+     "url": "https://jainpedia.org/themes/places/jainism-and-islam/jains-and-the-mughals"
+    }
+   ]
+  },
+  {
+   "id": "abulfazl",
+   "short": "Abu'l Fazl",
+   "name": "Shaikh Abu'l Fazl ibn Mubarak 'Allami",
+   "life": "1551–1602",
+   "role": "Court scholar and Akbar's intimate, aged about 24–31; later chief minister and official historian",
+   "side": "Mughal court; the emperor's party in the debates",
+   "where": "Fatehpur Sikri; with Akbar on the 1581 Kabul campaign",
+   "lat": 27.094,
+   "lon": 77.661,
+   "waypoints": [
+    {
+     "lat": 27.094,
+     "lon": 77.661,
+     "label": "Fatehpur Sikri"
+    },
+    {
+     "lat": 34.53,
+     "lon": 69.17,
+     "label": "Kabul campaign 1581"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the admirer at the emperor's elbow",
+   "form": "chronicle (official history, written later)",
+   "language": "Persian",
+   "authenticity": "The Akbarnama and its third volume, the A'in-i Akbari, were written c.1590–1602 from court records and memory, with all events dated in Akbar's backdated Ilahi era. It is an official, reverential history: it presents the debates as the emperor's search for truth and is silent or brief where Badauni is loud. Translated by H. Beveridge (Akbarnama, published 1897–1921 in parts) and H. Blochmann (A'in, 1873).",
+   "bio": "Son of Shaikh Mubarak and brother of the poet Faizi, Abu'l Fazl joined the court in 1574 and became the debates' chief intellectual ally of the emperor. The Jesuits found him an advocate and sometimes a translator of their Gospels. Badauni blamed him above all for leading Akbar away from Islam. He was killed in 1602 on the orders of Prince Salim, the future Jahangir.",
+   "sources": [
+    {
+     "title": "Akbar Nama, Beveridge translation, vol. II (scan)",
+     "url": "https://archive.org/download/in.ernet.dli.2015.82733/2015.82733.Akbar-Nama-Vol-Ii_text.pdf"
+    },
+    {
+     "title": "V. A. Smith, 'Akbar's House of Worship or Ibadat-khana', JRAS",
+     "url": "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/xviii-akbars-house-of-worship-or-ibdat-khna/8A7C682AEB09C7320E38E67A7FF41068"
+    }
+   ]
+  },
+  {
+   "id": "badauni",
+   "short": "Badauni",
+   "name": "Abd al-Qadir Badauni",
+   "life": "1540–c.1615",
+   "role": "Court scholar, imam and translator, aged about 35–42; one of the Sunni disputants in the early sessions",
+   "side": "Mughal court; the orthodox Sunni critic",
+   "where": "Fatehpur Sikri, in the House of Worship in its early years",
+   "lat": 27.094,
+   "lon": 77.661,
+   "waypoints": [
+    {
+     "lat": 28.03,
+     "lon": 79.12,
+     "label": "Badaun (home)"
+    },
+    {
+     "lat": 27.094,
+     "lon": 77.661,
+     "label": "Fatehpur Sikri"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the critic in the room",
+   "form": "chronicle (written secretly, later)",
+   "language": "Persian",
+   "authenticity": "The Muntakhab al-Tawarikh was completed about 1595–96 and kept hidden. It surfaced only after Akbar's death, early in Jahangir's reign. It is openly hostile to the religious changes and to Abu'l Fazl, and it is the only contemporary source to give the text of the 1579 decree in full. Translated by G. S. A. Ranking (vol. I) and W. H. Lowe (vol. II, 1884–98). Excerpts were also printed in Elliot and Dowson (1873), reprinted in A. V. W. Jackson's History of India, vol. 5 (1907).",
+   "bio": "Badauni studied under Shaikh Mubarak, the drafter of the decree, and was set to translating the Mahabharata and the Ramayana for the emperor. His account of the House of Worship begins as a story of quarrelling ulama and ends as a lament for a lost faith. His hostility makes him the indispensable counter-witness to Abu'l Fazl.",
+   "sources": [
+    {
+     "title": "Jackson, History of India vol. 5, ch. 12: Badauni on Akbar's religion",
+     "url": "https://ibiblio.org/britishraj/Jackson5/chapter12.html"
+    },
+    {
+     "title": "Muntakhabu-t-tawarikh, Ranking/Lowe translation (catalogue record)",
+     "url": "https://libcat.library.tamu.edu/Record/in00002187469/Description"
+    }
+   ]
+  },
+  {
+   "id": "nizamuddin",
+   "short": "Nizamuddin",
+   "name": "Khwaja Nizamuddin Ahmad Harawi",
+   "life": "c.1551–1594",
+   "role": "Imperial officer (later bakhshi of Gujarat, then of the empire) and historian",
+   "side": "Mughal service",
+   "where": "Agra–Fatehpur Sikri, then Gujarat in the 1580s",
+   "lat": 27.094,
+   "lon": 77.661,
+   "waypoints": [
+    {
+     "lat": 27.094,
+     "lon": 77.661,
+     "label": "Court, 1570s"
+    },
+    {
+     "lat": 23.02,
+     "lon": 72.57,
+     "label": "Gujarat, 1580s"
+    },
+    {
+     "lat": 31.58,
+     "lon": 74.33,
+     "label": "Lahore, d. 1594"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "the officer's dry ledger",
+   "form": "chronicle (written later)",
+   "language": "Persian",
+   "authenticity": "The Tabaqat-i Akbari is dated by chronogram to 1001 AH (1592–93) and runs to 1002 AH. Banglapedia calls it a 'dry chronicle' whose author made no mention of Akbar's religious vagaries. It is reticent rather than hostile or adulatory, and Badauni built his own chronicle on its framework. Translated by B. De (Bibliotheca Indica, 1911–39) and excerpted in Elliot and Dowson.",
+   "bio": "Nizamuddin was a career officer and Badauni's friend and patron. His value is his silence: an official who recorded campaigns, appointments and revolts while saying almost nothing about the House of Worship. That shows how the debates looked from the administration.",
+   "sources": [
+    {
+     "title": "Banglapedia: Tabaqat-i-Akbari",
+     "url": "https://en.banglapedia.org/index.php/Tabaqat-i-Akbari"
+    },
+    {
+     "title": "Tabakat-i-Akbari, trans. B. De (catalogue record)",
+     "url": "https://catalog.crl.edu/Record/cc64dca7-0b71-5176-8fc0-576bd94e3331/Description?lng=pl"
+    }
+   ]
+  },
+  {
+   "id": "monserrate",
+   "short": "Monserrate",
+   "name": "Antonio Monserrate (Antoni de Montserrat)",
+   "life": "1536–1600",
+   "role": "Catalan Jesuit priest, aged 43–46; member of the first mission and tutor to Prince Murad",
+   "side": "Society of Jesus, Portuguese Goa",
+   "where": "Fatehpur Sikri from March 1580; with the army to Kabul in 1581",
+   "lat": 27.094,
+   "lon": 77.661,
+   "waypoints": [
+    {
+     "lat": 15.5,
+     "lon": 73.91,
+     "label": "Goa, Nov 1579"
+    },
+    {
+     "lat": 21.17,
+     "lon": 72.83,
+     "label": "Surat, Jan 1580"
+    },
+    {
+     "lat": 25.65,
+     "lon": 77.91,
+     "label": "Narwar, ill, Feb 1580"
+    },
+    {
+     "lat": 27.094,
+     "lon": 77.661,
+     "label": "Fatehpur Sikri, Mar 1580"
+    },
+    {
+     "lat": 34.53,
+     "lon": 69.17,
+     "label": "Kabul campaign 1581"
+    },
+    {
+     "lat": 15.35,
+     "lon": 44.21,
+     "label": "Sanaa, captive, 1590–91"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the Jesuit debater and campaign chaplain",
+   "form": "commentary from contemporary notes (written up later)",
+   "language": "Latin",
+   "authenticity": "The Mongolicae Legationis Commentarius was begun from notes in 1582 and finished in December 1590 – January 1591 while Monserrate was a prisoner at Sanaa. The manuscript was found in Calcutta in 1906, edited by H. Hosten (1914), and translated into English by J. S. Hoyland with notes by S. N. Banerjee (Oxford, 1922). A shorter Portuguese 'Relaçam' of 1582 also survives. It is a missionary's account, frank about Akbar's character but written to explain why the conversion failed.",
+   "bio": "Monserrate did not hold the Ibadat Khana debates alone. Aquaviva led them, but Monserrate is the mission's chronicler and its only member to see Akbar at war. He tutored Prince Murad, crossed the Indus with the army and drew a map of the empire that long remained the best in Europe.",
+   "sources": [
+    {
+     "title": "The Commentary of Father Monserrate, trans. Hoyland and Banerjee (1922), full scan",
+     "url": "https://www.rarebooksocietyofindia.org/book_archive/196174216674_10155755373771675.pdf"
+    },
+    {
+     "title": "South Asia Commons record for the 1922 translation",
+     "url": "https://southasiacommons.net/artifacts/4998081/the-commentary-of-father-monserrate-s"
+    }
+   ]
+  },
+  {
+   "id": "aquaviva",
+   "short": "Aquaviva",
+   "name": "Rodolfo Acquaviva (Aquaviva)",
+   "life": "1550–1583",
+   "role": "Italian Jesuit priest, aged 29–33, leader of the first mission; son of the Duke of Atri and nephew of the Jesuit General Claudio Acquaviva",
+   "side": "Society of Jesus, Portuguese Goa",
+   "where": "Fatehpur Sikri, February 1580 – early 1583",
+   "lat": 27.094,
+   "lon": 77.661,
+   "waypoints": [
+    {
+     "lat": 15.5,
+     "lon": 73.91,
+     "label": "Goa, Nov 1579"
+    },
+    {
+     "lat": 27.094,
+     "lon": 77.661,
+     "label": "Fatehpur Sikri 1580–83"
+    },
+    {
+     "lat": 15.18,
+     "lon": 73.99,
+     "label": "Cuncolim, Salsette, July 1583"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the missionary at the debating table",
+   "form": "dated letters",
+   "language": "Italian, Portuguese and Latin",
+   "authenticity": "His surviving letters from the court (1580–82) were printed in part by Bartoli (1663) and Goldie (1897), and are collected in J. Correia-Afonso, Letters from the Mughal Court (1980). They were written to superiors and family and lean toward edifying themes of martyrdom and hope.",
+   "bio": "Aquaviva learned enough Persian within weeks to debate without an interpreter. He stayed after Monserrate left, and Akbar asked him to remain. His letters swing between hope of the emperor's conversion and the conviction that Akbar was building something of his own. He was killed at Cuncolim in Goa in July 1583, a few months after leaving the court.",
+   "sources": [
+    {
+     "title": "Goldie, The First Christian Mission to the Great Mogul (1897), with letters",
+     "url": "https://rarebooksocietyofindia.org/book_archive/196174216674_10155031134846675.pdf"
+    },
+    {
+     "title": "Correia-Afonso, Letters from the Mughal Court (1980), catalogue record",
+     "url": "https://libcat.library.tamu.edu/Record/in00002192362"
+    }
+   ]
+  },
+  {
+   "id": "henriques",
+   "short": "Henriques",
+   "name": "Francisco Henriques",
+   "life": "fl. 1579–1581",
+   "role": "Jesuit, a convert from Islam born at Hormuz; the mission's Persian interpreter",
+   "side": "Society of Jesus",
+   "where": "Fatehpur Sikri, February 1580 – 1581",
+   "lat": 27.094,
+   "lon": 77.661,
+   "waypoints": [
+    {
+     "lat": 27.06,
+     "lon": 56.46,
+     "label": "Hormuz (origin)"
+    },
+    {
+     "lat": 15.5,
+     "lon": 73.91,
+     "label": "Goa"
+    },
+    {
+     "lat": 27.094,
+     "lon": 77.661,
+     "label": "Fatehpur Sikri 1580–81"
+    },
+    {
+     "lat": 20.4,
+     "lon": 72.83,
+     "label": "Daman, 1581"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the interpreter between the languages",
+   "form": "seen through companions' accounts (no writings of his own known)",
+   "language": "Persian, Portuguese",
+   "authenticity": "No letter or account by Henriques is known to survive. He appears in Monserrate's Commentarius (with Hoyland's notes) and in the mission histories. His entries are therefore reports about him, not by him.",
+   "bio": "A convert from Islam from the Portuguese fortress of Hormuz, Henriques gave the mission what it lacked at first: fluent Persian. Within weeks Aquaviva could manage without him. He left the court in 1581, reportedly in disguise, which hints at the danger a convert from Islam faced there.",
+   "sources": [
+    {
+     "title": "Monserrate, Commentary (1922), introduction and notes",
+     "url": "https://www.rarebooksocietyofindia.org/book_archive/196174216674_10155755373771675.pdf"
+    },
+    {
+     "title": "Goldie (1897)",
+     "url": "https://rarebooksocietyofindia.org/book_archive/196174216674_10155031134846675.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hiravijaya",
+   "short": "Hiravijaya",
+   "name": "Hiravijaya Suri",
+   "life": "1527–1596",
+   "role": "Head of the Tapa-gaccha order of Shvetambara Jain monks, in his mid-fifties",
+   "side": "Jain community of Gujarat",
+   "where": "Gandhar and Ahmedabad, Gujarat; Fatehpur Sikri c.1582–83",
+   "lat": 27.094,
+   "lon": 77.661,
+   "waypoints": [
+    {
+     "lat": 21.92,
+     "lon": 72.65,
+     "label": "Gandhar, Gujarat"
+    },
+    {
+     "lat": 23.02,
+     "lon": 72.57,
+     "label": "Ahmedabad"
+    },
+    {
+     "lat": 24.88,
+     "lon": 72.86,
+     "label": "Sirohi"
+    },
+    {
+     "lat": 27.094,
+     "lon": 77.661,
+     "label": "Fatehpur Sikri"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the guest who walked from Gujarat",
+   "form": "biographies by disciples (written later)",
+   "language": "Sanskrit and Old Gujarati",
+   "authenticity": "Known mainly from Jain works composed by his followers, chiefly Devavimala's Sanskrit Hirasaubhagya and the Jagadguru-kavya, both dated around 1590 or later and devotional in purpose, and from modern syntheses (Vidyavijaya, Surishvara and Samrat). Abu'l Fazl lists him among the learned men of the age in the A'in-i Akbari. The farmans his order obtained survive in copies. Anecdotes of the conversations should be read as community memory.",
+   "bio": "Hiravijaya refused the litter and horses the governor offered and walked the hundreds of miles from Gujarat with dozens of monks. He spoke first with Abu'l Fazl and then with the emperor. He is remembered for securing imperial orders that protected animal life during Jain holy days and for the title Jagadguru, 'teacher of the world'.",
+   "sources": [
+    {
+     "title": "Hiravijaya (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Hiravijaya"
+    },
+    {
+     "title": "Jainism in Gujarat AD 1100 to 1600, pp. 282–284",
+     "url": "https://jainqq.org/pagetext/Jainism_in_Gujarat_AD_1100_to_1600/034896/283"
+    }
+   ]
+  },
+  {
+   "id": "meherji",
+   "short": "Meherji Rana",
+   "name": "Dastur Meherji Rana",
+   "life": "c.1514–1591",
+   "role": "Zoroastrian (Parsi) priest of Navsari, in his sixties",
+   "side": "Parsi community of Gujarat",
+   "where": "Navsari; the court c.1578",
+   "lat": 20.95,
+   "lon": 72.92,
+   "waypoints": [
+    {
+     "lat": 20.95,
+     "lon": 72.92,
+     "label": "Navsari"
+    },
+    {
+     "lat": 27.094,
+     "lon": 77.661,
+     "label": "Imperial court c.1578"
+    },
+    {
+     "lat": 20.95,
+     "lon": 72.92,
+     "label": "Navsari, 1579"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "the priest from the coast",
+   "form": "community records and grant documents",
+   "language": "Persian and Gujarati (records); Pahlavi tradition",
+   "authenticity": "Known through Navsari priestly records, the land grant (madad-i ma'ash) in his family's name, and Parsi tradition. Its fullest English study is J. J. Modi, The Parsees at the Court of Akbar and Dastur Meherjee Rana (1903). Dates are given in the Yazdegerdi era. Some stories, such as a miracle at court, have no documentary basis and are left out here.",
+   "bio": "Meherji Rana stands for the Zoroastrian presence in the debates, which Badauni and Abu'l Fazl both mention without naming individuals in detail. His community remembered a court visit and a tax-free grant. The rituals Akbar later adopted, including fire kept burning at court and reverence for the sun, gave his tradition a visible echo.",
+   "sources": [
+    {
+     "title": "Meherji Rana (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Meherji_Rana"
+    },
+    {
+     "title": "Encyclopaedia Iranica: Parsi communities, early history",
+     "url": "https://iranicaonline.org/articles/parsi-communities-i-early-history"
+    }
+   ]
+  },
+  {
+   "id": "mubarak",
+   "short": "Shaikh Mubarak",
+   "name": "Shaikh Mubarak Nagori",
+   "life": "1505–1593",
+   "role": "Scholar of law and theology in Agra, in his seventies; father of Faizi and Abu'l Fazl",
+   "side": "Mughal court; the reformist scholars",
+   "where": "Agra and Fatehpur Sikri",
+   "lat": 27.094,
+   "lon": 77.661,
+   "vantage": 0,
+   "vantage_label": "the drafter of the decree",
+   "form": "legal document (the mahzar) as copied in chronicles",
+   "language": "Persian",
+   "authenticity": "His words in this chapter are the mahzar of 1579, known in full only from Badauni's copy, which includes Mubarak's own added line. The original has not been found. Badauni, his former pupil, is hostile to him, and Abu'l Fazl, his son, is devoted.",
+   "bio": "A learned and often persecuted scholar who had been accused at various times of Mahdawi and Shia leanings, Mubarak lived to see the ulama who had harassed him sign a document he wrote. Ikram and Badauni both name him as its drafter.",
+   "sources": [
+    {
+     "title": "Jackson, History of India vol. 5, ch. 12 (Badauni's text of the mahzar)",
+     "url": "https://ibiblio.org/britishraj/Jackson5/chapter12.html"
+    },
+    {
+     "title": "S. M. Ikram, Muslim Civilization in India, ch. XII",
+     "url": "https://franpritchett.com/00islamlinks/ikram/part2_12.html"
+    }
+   ]
+  },
+  {
+   "id": "faizi",
+   "short": "Faizi",
+   "name": "Shaikh Abu'l Faiz 'Faizi'",
+   "life": "1547–1595",
+   "role": "Poet at court, aged 32 in 1579; elder brother of Abu'l Fazl; later poet laureate (1588)",
+   "side": "Mughal court",
+   "where": "Fatehpur Sikri",
+   "lat": 27.094,
+   "lon": 77.661,
+   "vantage": 1,
+   "vantage_label": "the poet who wrote the emperor's sermon",
+   "form": "verses as recorded in chronicles",
+   "language": "Persian",
+   "authenticity": "His khutba verses of 1579 survive because Badauni and others quoted them. His diwan and letters survive separately. His role in the debates is described by others, chiefly Badauni, who was hostile to him.",
+   "bio": "Faizi supplied the words Akbar spoke from the pulpit in June 1579. He was a translator of Sanskrit works, and Badauni treated him as a scoffer and wrote bitterly about him.",
+   "sources": [
+    {
+     "title": "Jackson, History of India vol. 5, ch. 12",
+     "url": "https://ibiblio.org/britishraj/Jackson5/chapter12.html"
+    }
+   ]
+  },
+  {
+   "id": "birbal",
+   "short": "Birbal",
+   "name": "Raja Birbal (Mahesh Das)",
+   "life": "1528–1586",
+   "role": "Brahman courtier, poet and commander, about fifty",
+   "side": "Mughal court; Hindu nobility",
+   "where": "Fatehpur Sikri",
+   "lat": 27.094,
+   "lon": 77.661,
+   "vantage": 1,
+   "vantage_label": "the courtier seen only through chronicles",
+   "form": "seen through chronicles (no writings of his own used)",
+   "language": "Hindavi (Braj)",
+   "authenticity": "The many later Akbar–Birbal stories are folklore and are not used. Birbal appears here only where Badauni, Abu'l Fazl or Monserrate name him. Badauni's references are hostile.",
+   "bio": "Birbal is the only prominent Hindu named among Akbar's disciples in the 1582 devotional circle, and Badauni blamed him for encouraging Akbar's reverence for the sun. He was killed in 1586 on the north-west frontier.",
+   "sources": [
+    {
+     "title": "S. M. Ikram, ch. XII (Birbal as disciple)",
+     "url": "https://franpritchett.com/00islamlinks/ikram/part2_12.html"
+    },
+    {
+     "title": "Monserrate, Commentary (1922), p. 104",
+     "url": "https://www.rarebooksocietyofindia.org/book_archive/196174216674_10155755373771675.pdf"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1574",
+   "date_display": "1574 (19th regnal year)",
+   "precision": "year",
+   "eye": "abulfazl",
+   "place": "Agra",
+   "headline": "A young scholar is presented to the emperor",
+   "digest": "Abu'l Fazl, son of the controversial Shaikh Mubarak, was introduced at court with a commentary on a Qur'anic verse. In his own history he presents the meeting as the start of a lifelong discipleship. Badauni, who had shared teachers with him, saw it as the arrival of a rival who would lead the emperor astray.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Akbarnama (Beveridge) vol. III, regnal year 19; Badauni, Muntakhab vol. II"
+  },
+  {
+   "date_iso": "1575",
+   "date_display": "983 AH (1575–76)",
+   "precision": "year",
+   "eye": "badauni",
+   "place": "Fatehpur Sikri",
+   "headline": "A hall of worship rises beside the shaikh's cell",
+   "digest": "Badauni records that in 983 the emperor completed a building at Fatehpur Sikri with four halls and named it the Ibadat Khana. Akbar went there after Friday prayers at the new mosque to hear shaikhs and scholars discuss religion through the night. Badauni dates the beginning of everything that followed to this building.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Badauni via Elliot & Dowson, repr. Jackson, History of India vol. 5 ch. 12 (ibiblio)"
+  },
+  {
+   "date_iso": "1575",
+   "date_display": "20th regnal year (1575)",
+   "precision": "year",
+   "eye": "abulfazl",
+   "place": "Fatehpur Sikri",
+   "headline": "The emperor builds a house for the search after truth",
+   "digest": "Abu'l Fazl describes the Ibadat Khana as the fruit of Akbar's long thirst for knowledge: a place where seekers of every kind could be heard on Thursday nights. He presents the founding as an act of piety, linked to the emperor's devotion at the shrine of Shaikh Salim Chishti, whose descendants lived beside the site. There are no quarrels in his version of the opening.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Akbarnama (Beveridge) vol. III, 20th regnal year; V. A. Smith, JRAS 1917"
+  },
+  {
+   "date_iso": "1575",
+   "date_display": "983 AH (1575–76)",
+   "precision": "year",
+   "eye": "nizamuddin",
+   "place": "Agra–Fatehpur Sikri",
+   "headline": "An officer records a building and a weekly assembly",
+   "digest": "The Tabaqat-i Akbari notes the new hall and the Thursday-night gatherings of learned men in a few plain lines, as it might note a new garden. Nizamuddin gives no account of the arguments and makes no comment on what they led to. His restraint matches Banglapedia's judgement that he left out the emperor's religious changes altogether.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Tabaqat-i Akbari, trans. B. De; Banglapedia entry"
+  },
+  {
+   "date_iso": "1576",
+   "date_display": "c. 983–985 AH (1575–78)",
+   "precision": "range",
+   "eye": "badauni",
+   "place": "Fatehpur Sikri, Ibadat Khana",
+   "headline": "Seating quarrels and the sword of the tongue",
+   "digest": "Badauni describes the seating plan by rank (nobles, sayyids, ulama and shaikhs, each on one side), and the quarrels over precedence that followed. He watched the two senior religious officers, Makhdum ul-Mulk and Shaikh Abd al-Nabi, accuse each other in front of the emperor. He thought this was where Akbar began to lose respect for the ulama as a body.",
+   "quote": "the disputants used to exercise the sword of their tongues",
+   "confidence": "approx",
+   "source_note": "Badauni via Elliot & Dowson, repr. Jackson vol. 5 ch. 12; Ikram ch. XII"
+  },
+  {
+   "date_iso": "1577",
+   "date_display": "c. 985 AH (1577)",
+   "precision": "year",
+   "eye": "badauni",
+   "place": "Fatehpur Sikri",
+   "headline": "A Brahman's execution divides the court",
+   "digest": "A qazi at Mathura complained that a Brahman had taken building materials meant for a mosque and insulted the Prophet. Shaikh Abd al-Nabi, the chief religious judge, had the man put to death. Badauni records the outcry at court, including from Abu'l Fazl's circle, and Akbar's anger that the sentence had been carried out without his consent. Ikram dates the case to 1577.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Ikram ch. XII; Badauni, Muntakhab vol. II"
+  },
+  {
+   "date_iso": "1578",
+   "date_display": "Roj Hormazd, Mah Khordad, Y.Z. 947 (c. 1578)",
+   "precision": "year",
+   "eye": "meherji",
+   "place": "Imperial court (Parsi records name Delhi)",
+   "headline": "A Parsi priest comes to court from Navsari",
+   "digest": "Parsi tradition records that Meherji Rana, whom Akbar is believed to have met near Surat during the Gujarat campaign of 1573, was called to court in Y.Z. 947. There he explained Zoroastrian teaching and ritual. His family later held a tax-free grant of about 200 bighas, recorded as madad-i ma'ash. The court chroniclers mention Zoroastrian priests from Gujarat in the debates but give few names.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Meherji Rana (Wikipedia, citing Navsari records); Modi (1903)"
+  },
+  {
+   "date_iso": "1578",
+   "date_display": "c. 986 AH (1578–79)",
+   "precision": "year",
+   "eye": "abulfazl",
+   "place": "Fatehpur Sikri, Ibadat Khana",
+   "headline": "A Christian priest silences the doctors",
+   "digest": "Abu'l Fazl describes a night when a Christian priest he calls Padre Radif argued with the Muslim scholars. In his account the Padre's calm replies left the ulama without an answer, and the emperor praised his learning. Historians usually identify the priest as the Portuguese vicar of Bengal, Julian Pereira, who came to court before the Jesuits.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Akbarnama (Beveridge) vol. III; identification as in Smith (1917) and Maclagan"
+  },
+  {
+   "date_iso": "1578-05",
+   "date_display": "spring 1578 (23rd regnal year)",
+   "precision": "month",
+   "eye": "abulfazl",
+   "place": "near Bhera, on the Jhelum, Punjab",
+   "headline": "A great hunt is called off",
+   "digest": "Abu'l Fazl records that during a vast ring-hunt in the Punjab the emperor was overcome by a spiritual experience. Akbar ordered the hunt stopped and the animals released, and distributed gifts. Abu'l Fazl treats the moment as a divine illumination. Modern historians often date the opening of the House of Worship to all faiths from Akbar's return.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Akbarnama (Beveridge) vol. III, regnal year 23; Smith, Akbar the Great Mogul (1917)"
+  },
+  {
+   "date_iso": "1579",
+   "date_display": "Y.Z. 948 (c. 1579)",
+   "precision": "year",
+   "eye": "meherji",
+   "place": "Navsari",
+   "headline": "Recognised as head of the Navsari priests",
+   "digest": "After his return from court, the priests of Navsari signed a document acknowledging Meherji Rana as their leader. It required his permission for religious ceremonies and founded the line of Navsari high priests. The community dates its prominence to the emperor's favour.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Meherji Rana (Wikipedia, citing Navsari records)"
+  },
+  {
+   "date_iso": "1579-06-26",
+   "date_display": "Friday 1 Jumada al-Ula 987 AH = 26 June 1579 (Julian)",
+   "precision": "day",
+   "eye": "faizi",
+   "place": "Fatehpur Sikri, Friday mosque",
+   "headline": "The poet writes the emperor's sermon",
+   "digest": "Faizi composed a few lines of verse to open the Friday sermon, praising God who had given the emperor sovereignty, wisdom and justice. They ended with a phrase on God's greatness that some listeners heard as a pun on the emperor's name. That was what Akbar would recite from the pulpit in place of the usual preacher.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Verses as quoted by Badauni, Muntakhab vol. II; Smith (1917)"
+  },
+  {
+   "date_iso": "1579-06-26",
+   "date_display": "Friday 1 Jumada al-Ula 987 AH = 26 June 1579 (Julian)",
+   "precision": "day",
+   "eye": "badauni",
+   "place": "Fatehpur Sikri, Friday mosque",
+   "headline": "The emperor climbs the pulpit and falters",
+   "digest": "Badauni records that Akbar mounted the pulpit of the great mosque to read the khutba himself, as the early caliphs and Timur had done. After only a few lines of Faizi's verse he began to stammer and tremble, came down, and left the preacher to finish. Badauni presents it as a sign of what was coming. The conversion of 1 Jumada al-Ula to a Friday matches the date standard histories give.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Badauni, Muntakhab vol. II (Lowe); date as Smith (1917); weekday checked by tabular conversion"
+  },
+  {
+   "date_iso": "1579-06-26",
+   "date_display": "1 Jumada al-Ula 987 AH (24th regnal year)",
+   "precision": "day",
+   "eye": "abulfazl",
+   "place": "Fatehpur Sikri",
+   "headline": "A sovereign leads the congregation",
+   "digest": "In the Akbarnama, Akbar's reading of the khutba restores the old custom by which the ruler was also the leader of prayer. Abu'l Fazl says nothing of hesitation. He treats it as the public sign of a spiritual authority the emperor already held.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Akbarnama (Beveridge) vol. III, 24th regnal year"
+  },
+  {
+   "date_iso": "1579-08-24",
+   "date_display": "Rajab 987 AH (24 August – 22 September 1579, Julian)",
+   "precision": "range",
+   "eye": "mubarak",
+   "place": "Fatehpur Sikri",
+   "headline": "An old scholar drafts the decree",
+   "digest": "Shaikh Mubarak drew up the mahzar. It declared that a just ruler, if learned, outranks the mujtahid (the qualified interpreter of the law). Where the scholars disagreed, the emperor could choose the opinion that best served the people, and he could issue new orders as long as they did not contradict the Qur'an. Badauni reports that Mubarak added beneath his signature that he had long wished for such a document.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Badauni's copy of the mahzar, via Jackson vol. 5 ch. 12; Ikram ch. XII"
+  },
+  {
+   "date_iso": "1579-09",
+   "date_display": "Rajab 987 AH (Aug–Sept 1579)",
+   "precision": "range",
+   "eye": "badauni",
+   "place": "Fatehpur Sikri",
+   "headline": "The ulama sign, some unwillingly",
+   "digest": "Badauni copied the full text of the mahzar and listed its signatories: Makhdum ul-Mulk, Shaikh Abd al-Nabi, Jalal al-Din Multani, the Sadr-i Jahan, Shaikh Mubarak and Ghazi Khan Badakhshi. He writes that most signed under pressure and only Mubarak signed gladly. The decree stated that a just ruler ranks above the jurist and that opposing the ruler's orders brings damnation.",
+   "quote": "the rank of a just ruler is higher",
+   "confidence": "verified",
+   "source_note": "Badauni via Elliot & Dowson, repr. Jackson vol. 5 ch. 12 (ibiblio)"
+  },
+  {
+   "date_iso": "1579-09",
+   "date_display": "Rajab 987 AH (24th regnal year)",
+   "precision": "range",
+   "eye": "abulfazl",
+   "place": "Fatehpur Sikri",
+   "headline": "The learned acknowledge the emperor's judgement",
+   "digest": "Abu'l Fazl presents the document as the ulama's own recognition of the emperor's wisdom. In his account it ended the confusion of conflicting legal opinions and owed nothing to coercion. Modern historians still argue over whether it made Akbar 'infallible', as the phrase 'Infallibility Decree' (popularised by V. A. Smith) suggests, or only gave him a limited power to arbitrate within the law, as Ikram and others argue.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Akbarnama vol. III; Ikram ch. XII; JRAS article on the 'infallibility decree'"
+  },
+  {
+   "date_iso": "1579-09",
+   "date_display": "September 1579",
+   "precision": "month",
+   "eye": "akbar",
+   "place": "Fatehpur Sikri (letter delivered at Goa)",
+   "headline": "An imperial letter asks Goa for two learned fathers",
+   "digest": "Akbar's envoy Abdullah, with an Armenian Christian interpreter, Domingos Pires, reached Goa in September 1579. He carried a farman to the Jesuit fathers of St Paul's College. In it the emperor asked for two learned priests, and for the books of the Law and the Gospel, so that he could understand them. He promised them safe conduct and honourable treatment.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Goldie (1897), text and date of the embassy"
+  },
+  {
+   "date_iso": "1579-11-17",
+   "date_display": "17 November 1579 (Julian)",
+   "precision": "day",
+   "eye": "aquaviva",
+   "place": "Goa",
+   "headline": "A farewell letter on the day of departure",
+   "digest": "On the day the mission left Goa, Aquaviva wrote to his uncle Claudio, a senior Jesuit in Rome, asking for prayers for a journey into danger. He hoped it might end in the conversion of a great king or in martyrdom. The party studied Persian on the road.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Goldie (1897), letter of 17 Nov 1579"
+  },
+  {
+   "date_iso": "1579-11-17",
+   "date_display": "17 November 1579 (Julian)",
+   "precision": "day",
+   "eye": "monserrate",
+   "place": "Goa",
+   "headline": "Three Jesuits set out for the Mogul",
+   "digest": "Monserrate's Commentarius opens with the mission leaving Goa: Aquaviva as superior, Monserrate, and Henriques, valued above all for his Persian. They went by sea to Daman, where they joined a caravan on 13 December, and then on to Surat.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Hoyland trans. (1922), editors' introduction and pp. 1–8"
+  },
+  {
+   "date_iso": "1580",
+   "date_display": "c. 988 AH (1580)",
+   "precision": "year",
+   "eye": "badauni",
+   "place": "Fatehpur Sikri",
+   "headline": "The Padres argue, and a prince is sent to learn",
+   "digest": "Badauni writes with alarm that the Christian Padres argued for the Trinity and the divinity of Christ before the emperor. He records that Akbar ordered Prince Murad to take lessons from them and had Abu'l Fazl translate the Gospel. Monserrate confirms that he was made Murad's tutor.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Badauni, Muntakhab vol. II; Hoyland trans. (1922), note 118"
+  },
+  {
+   "date_iso": "1580",
+   "date_display": "c. 988 AH (1580)",
+   "precision": "year",
+   "eye": "monserrate",
+   "place": "Fatehpur Sikri",
+   "headline": "The fathers refuse a trial by fire",
+   "digest": "Monserrate records that, frustrated in argument, a Muslim scholar proposed that he and a priest walk into a fire with their holy books to see which faith God would protect. Aquaviva refused, saying that a Christian had no right to tempt God and that truth did not need such a test. The emperor, Monserrate says, was disappointed.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Hoyland trans. (1922), pp. 37–41; Goldie (1897)"
+  },
+  {
+   "date_iso": "1580",
+   "date_display": "c. 988 AH (1580)",
+   "precision": "year",
+   "eye": "badauni",
+   "place": "Fatehpur Sikri",
+   "headline": "Badauni's version of the ordeal",
+   "digest": "Badauni gives the challenger's name as Shaikh Qutb al-Din of Jalesar. In his telling the Muslim offered to enter the fire and the Padre declined, which Badauni treats as a victory for Islam. The two accounts agree that the challenge was made and that no one went into the fire. They disagree over who was shamed.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Badauni, Muntakhab vol. II; as summarised in Goldie (1897)"
+  },
+  {
+   "date_iso": "1580",
+   "date_display": "988 AH (1580)",
+   "precision": "year",
+   "eye": "nizamuddin",
+   "place": "Bengal and Bihar",
+   "headline": "Revolt in the east and a fatwa against the emperor",
+   "digest": "Nizamuddin records the revolt of officers in Bengal and Bihar in 1580 as a military crisis of pay and command. Badauni and later historians add that a qazi, Mulla Muhammad Yazdi, issued a ruling that rebellion against the emperor was lawful. Muhammad Yazdi was later put to death. That year Makhdum ul-Mulk and Abd al-Nabi were sent away to Mecca.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Tabaqat-i Akbari (De); Ikram ch. XII"
+  },
+  {
+   "date_iso": "1580-01",
+   "date_display": "January 1580",
+   "precision": "month",
+   "eye": "monserrate",
+   "place": "Surat",
+   "headline": "A dispute with a Parsi in Surat",
+   "digest": "While waiting nearly a month at Surat, the fathers were drawn into a controversy with a Gabraean, a Zoroastrian. Monserrate says the argument was cut short when Aquaviva opened a casket of relics. The caravan left on 24 January after waiting for a time the astrologers judged auspicious. Goldie's mission history gives 15 January for the departure.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Hoyland trans. (1922), pp. 8–10; Goldie (1897)"
+  },
+  {
+   "date_iso": "1580-02-22",
+   "date_display": "22 February 1580 (Julian)",
+   "precision": "day",
+   "eye": "monserrate",
+   "place": "Narwar",
+   "headline": "Fever at Narwar; the others ride on",
+   "digest": "Monserrate fell ill at Narwar. Because the emperor was impatient for their arrival, the others went ahead and left him to follow. He reached Fatehpur Sikri about a week after his companions.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Goldie (1897); Hoyland trans., editors' introduction (arrival 4 March)"
+  },
+  {
+   "date_iso": "1580-02-28",
+   "date_display": "28 February 1580 (Julian)",
+   "precision": "day",
+   "eye": "aquaviva",
+   "place": "Fatehpur Sikri",
+   "headline": "The Jesuits enter the red city",
+   "digest": "Aquaviva and Henriques arrived at Fatehpur Sikri and were received by the emperor almost at once. Crowds stared at the black-robed strangers. Akbar called them close, asked questions, and was given an atlas sent by the archbishop of Goa.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Hoyland trans. (1922), introduction and pp. 27–28; Goldie (1897)"
+  },
+  {
+   "date_iso": "1580-02-28",
+   "date_display": "28 February 1580 (Julian)",
+   "precision": "day",
+   "eye": "henriques",
+   "place": "Fatehpur Sikri",
+   "headline": "The interpreter's first audience",
+   "digest": "At the first audiences everything passed through Henriques's Persian. Monserrate's text praises his 'excellent knowledge of Persian' without naming him, and the editors identify him from the mission records. He and his superior spoke for the Christians in the first exchanges with the emperor's scholars.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Hoyland trans. (1922), pp. 1–28 and note 14"
+  },
+  {
+   "date_iso": "1580-03-03",
+   "date_display": "3 March 1580 (Julian)",
+   "precision": "day",
+   "eye": "monserrate",
+   "place": "Fatehpur Sikri, audience hall",
+   "headline": "The emperor kisses a Bible in four languages",
+   "digest": "The fathers presented Akbar with the seven volumes of the Royal Polyglot Bible printed at Antwerp. Monserrate records that the emperor kissed the books, placed them on his head and had them kept in his private chamber. Goldie puts the first audience on the day after arrival. Monserrate himself, by the editors' reckoning, arrived on 4 March.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Hoyland trans. (1922), p. 37"
+  },
+  {
+   "date_iso": "1580-03-10",
+   "date_display": "Thursday 10 March 1580 (Julian)",
+   "precision": "day",
+   "eye": "monserrate",
+   "place": "Fatehpur Sikri, House of Worship",
+   "headline": "Thursday night: Muhammad and Christ compared",
+   "digest": "In the third formal debate the fathers compared the lives and teachings of Muhammad and Christ and argued that the Qur'an had misrepresented the Scriptures. Monserrate notes that Abu'l Fazl, whom he calls Abdulfasilius, often took the Christians' side and posed questions the ulama found hard. The scholars, he says, left embarrassed and angry.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Goldie (1897) for the date; Hoyland trans. (1922), pp. 37–41"
+  },
+  {
+   "date_iso": "1580-07-18",
+   "date_display": "18 July 1580 (Julian)",
+   "precision": "day",
+   "eye": "aquaviva",
+   "place": "Fatehpur Sikri",
+   "headline": "Writing to Rome of martyrdom",
+   "digest": "Aquaviva wrote to the Jesuit General Everard Mercurian that the hostility of the ulama made him think martyrdom near. He describes the Christians as standing by their confession in front of the whole court. The letter is as much a declaration of readiness as a report.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Goldie (1897), letter of 18 July 1580"
+  },
+  {
+   "date_iso": "1580-12-10",
+   "date_display": "10 December 1580 (Julian)",
+   "precision": "day",
+   "eye": "aquaviva",
+   "place": "Fatehpur Sikri",
+   "headline": "A letter to Goa: hostility and hope",
+   "digest": "Writing to the rector at Goa, Aquaviva described the court's enmity toward the mission and his own longing for martyrdom. He was still uncertain whether the emperor's interest was sincere. He reported that the debates had grown more guarded since the eastern revolt.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Goldie (1897), letter of 10 Dec 1580"
+  },
+  {
+   "date_iso": "1581",
+   "date_display": "1581",
+   "precision": "year",
+   "eye": "henriques",
+   "place": "Fatehpur Sikri to Daman",
+   "headline": "The convert slips away",
+   "digest": "Akbar withdrew permission for the fathers to leave, but made an exception for Henriques, who left for the Portuguese port of Daman. The mission history says he had to travel in disguise to save his life. He is not heard of again in the court record.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Goldie (1897)"
+  },
+  {
+   "date_iso": "1581-02",
+   "date_display": "February 1581",
+   "precision": "month",
+   "eye": "birbal",
+   "place": "on the road north of Agra",
+   "headline": "Birbal's district on the line of march",
+   "digest": "Monserrate notes that the army passed through territory belonging to 'Biliballus', the Hindu courtier Birbal. It is one of the few contemporary European references to him. It shows him as a landholder and grandee, not the jester of later stories.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Hoyland trans. (1922), p. 104"
+  },
+  {
+   "date_iso": "1581-02-08",
+   "date_display": "8 February 1581 (Julian)",
+   "precision": "day",
+   "eye": "monserrate",
+   "place": "camp near Fatehpur Sikri",
+   "headline": "The army marches north and the priest goes with it",
+   "digest": "With Mirza Hakim of Kabul invading the Punjab, Akbar left Fatehpur Sikri with a vast army. Monserrate rode with it as tutor to Prince Murad. He recorded routes, camps, rivers and the emperor's habits, and continued the religious discussions on the road.",
+   "quote": "The army began to advance on February 8th, 1581.",
+   "confidence": "verified",
+   "source_note": "Hoyland trans. (1922), p. 77"
+  },
+  {
+   "date_iso": "1581-02-28",
+   "date_display": "28 February 1581 (Julian)",
+   "precision": "day",
+   "eye": "monserrate",
+   "place": "camp in the Punjab",
+   "headline": "A minister hanged for treason, Abu'l Fazl reading the charge",
+   "digest": "Monserrate describes the execution of Shah Mansur, the finance minister, accused of secret letters to Mirza Hakim. Abu'l Fazl read out the charges and urged the condemned man to bear his fate bravely. The editors date the hanging to 28 February 1581 and note that some of the incriminating letters may have been forged.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Hoyland trans. (1922), pp. 98–99 and note 100"
+  },
+  {
+   "date_iso": "1581-02-28",
+   "date_display": "late Muharram 989 AH (Feb 1581)",
+   "precision": "day",
+   "eye": "abulfazl",
+   "place": "camp in the Punjab",
+   "headline": "The Akbarnama's account of a minister's guilt",
+   "digest": "Abu'l Fazl, who had read the charges aloud, records Shah Mansur's execution as justice against a proven traitor. Later historians, citing Monserrate's doubts and the forged-letter story in Mughal sources, have argued over whether Mansur was guilty or framed by rivals.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Akbarnama vol. III; Hoyland note 100"
+  },
+  {
+   "date_iso": "1581-03",
+   "date_display": "early 1581",
+   "precision": "month",
+   "eye": "monserrate",
+   "place": "Punjab",
+   "headline": "Mirza Hakim falls back from Lahore",
+   "digest": "Monserrate follows the invader as he crosses the rivers of the Punjab, fails to take the fort of Lahore and retreats toward Kabul when he learns the emperor is coming. Monserrate judged the whole enterprise doomed from the start.",
+   "quote": "Such was the unhappy conclusion of an invasion inauspiciously undertaken",
+   "confidence": "verified",
+   "source_note": "Hoyland trans. (1922), pp. 66–73"
+  },
+  {
+   "date_iso": "1581-06-25",
+   "date_display": "about 25 June 1581 (Julian)",
+   "precision": "day",
+   "eye": "monserrate",
+   "place": "Indus crossing near Attock",
+   "headline": "The prince crosses the Indus",
+   "digest": "Monserrate dates Prince Murad's crossing of the Indus to the day after the feast of St John the Baptist. He records a halt of fifty days at the river while bridges were built and the army regrouped. The camp debates continued, now with the emperor's physician among the participants.",
+   "quote": "the day after the feast of St. John the Baptist",
+   "confidence": "verified",
+   "source_note": "Hoyland trans. (1922), pp. 117–125"
+  },
+  {
+   "date_iso": "1581-08-10",
+   "date_display": "c. 9–10 August 1581 (Rajab 989 AH)",
+   "precision": "day",
+   "eye": "abulfazl",
+   "place": "Kabul",
+   "headline": "The emperor enters Kabul; his brother is spared",
+   "digest": "Abu'l Fazl records Akbar's entry into Kabul after Mirza Hakim fled to the hills. The emperor visited the city of his father and grandfather, then restored his half-brother as ruler on his submission, a pardon the Akbarnama presents as magnanimity. The exact day differs slightly between modern accounts, which put it around 10 August.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Akbarnama vol. III; Smith (1917)"
+  },
+  {
+   "date_iso": "1581-12",
+   "date_display": "early December 1581 (Shawwal 989 AH)",
+   "precision": "month",
+   "eye": "nizamuddin",
+   "place": "Fatehpur Sikri",
+   "headline": "The court returns home",
+   "digest": "Nizamuddin's chronicle records the emperor's return to Fatehpur Sikri at the end of 1581 in the usual official sequence of marches, halts and audiences. With both his half-brother and the eastern revolt dealt with, Akbar was more secure than at any time since his accession.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Tabaqat-i Akbari (De); Smith (1917) gives about 1 December 1581"
+  },
+  {
+   "date_iso": "1582",
+   "date_display": "990 AH (1582)",
+   "precision": "year",
+   "eye": "badauni",
+   "place": "Fatehpur Sikri",
+   "headline": "The thousand years end, and a new order begins",
+   "digest": "Badauni records that as the Islamic millennium approached, courtiers argued that the age of the Prophet's law was ending. He writes that Akbar gathered his intimates and set out a tauhid-i ilahi, 'divine monotheism', with disciples who pledged themselves to him. He names its members, including Abu'l Fazl, Faizi and Birbal, and treats it as a new religion and an apostasy.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Badauni via Jackson vol. 5 ch. 12 (990 AH passage); Din-i Ilahi (Wikipedia) for membership"
+  },
+  {
+   "date_iso": "1582",
+   "date_display": "27th regnal year (1582); described in the A'in-i Akbari (c. 1595–98)",
+   "precision": "year",
+   "eye": "abulfazl",
+   "place": "Fatehpur Sikri",
+   "headline": "Disciples, not converts",
+   "digest": "Abu'l Fazl's A'in-i Akbari describes the emperor accepting devoted disciples (iradat-guzin), who offered their lives, property, honour and religion. It records their greetings, an initiation at which the disciple received a portrait of the emperor, and rules of conduct. He never calls it a new religion. Historians such as Ikram and M. Athar Ali take this as evidence of a discipleship within Sufi custom, while Smith and others read it as a new faith.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "A'in-i Akbari (Blochmann, 1873); Ikram ch. XII; Din-i Ilahi (Wikipedia)"
+  },
+  {
+   "date_iso": "1582",
+   "date_display": "990 AH (1582)",
+   "precision": "year",
+   "eye": "birbal",
+   "place": "Fatehpur Sikri",
+   "headline": "The one Hindu grandee in the circle",
+   "digest": "Birbal is the only prominent Hindu named among the emperor's disciples. Raja Bhagwan Das and Man Singh are reported to have declined. Badauni blames Birbal for encouraging Akbar's reverence for the sun and fire, but these are the charges of a hostile witness.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Ikram ch. XII; Badauni, Muntakhab vol. II"
+  },
+  {
+   "date_iso": "1582-03",
+   "date_display": "March 1582 (Julian)",
+   "precision": "month",
+   "eye": "monserrate",
+   "place": "Fatehpur Sikri",
+   "headline": "A New Year feast for the victory",
+   "digest": "Monserrate describes the Nauroz celebrations of March 1582, which Akbar held to mark the Kabul victory. The Persian solar New Year was becoming a central festival of the court, a sign of the solar and Persian turn in court ritual that Badauni deplored.",
+   "quote": "In March the King arranged for a festival",
+   "confidence": "verified",
+   "source_note": "Hoyland trans. (1922), p. 174"
+  },
+  {
+   "date_iso": "1582-04",
+   "date_display": "spring 1582 (approx.)",
+   "precision": "month",
+   "eye": "monserrate",
+   "place": "Fatehpur Sikri to Goa",
+   "headline": "Leaving with an embassy, fearing a new religion",
+   "digest": "Monserrate left the court with an embassy Akbar was sending toward Goa and Europe. He records that the fathers had come to suspect the emperor of intending to found a new religion of his own. The embassy was postponed, and Monserrate stayed in Goa.",
+   "quote": "intending to found a new religion",
+   "confidence": "approx",
+   "source_note": "Hoyland trans. (1922), pp. 184–192"
+  },
+  {
+   "date_iso": "1582-06",
+   "date_display": "Jyeshtha VS 1639 (May–June 1582 or 1583, depending on the year-reckoning)",
+   "precision": "month",
+   "eye": "hiravijaya",
+   "place": "Fatehpur Sikri",
+   "headline": "A barefoot teacher reaches the court",
+   "digest": "After the emperor's invitation reached Gujarat through its governor, Hiravijaya and about sixty-seven monks walked by way of Ahmedabad, Patan and Sirohi to Fatehpur Sikri, refusing the litters and horses offered. The Jain sources say he spoke first with Abu'l Fazl because the emperor was busy, then with Akbar. When he would not walk on a carpet in case he crushed insects beneath it, the carpet was removed.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Jainism in Gujarat AD 1100–1600, pp. 282–284 (citing Vidyavijaya); Wikipedia: Hiravijaya"
+  },
+  {
+   "date_iso": "1582-09-27",
+   "date_display": "27 September 1582 (Julian)",
+   "precision": "day",
+   "eye": "aquaviva",
+   "place": "Fatehpur Sikri",
+   "headline": "A last report from the court",
+   "digest": "Writing to his provincial, Aquaviva described the emperor's religious experiments and asked whether he should stay. Earlier that year he had given his superiors reasons to remain, including Prince Murad's interest in Christianity. Now he wrote as a man who no longer expected the emperor to convert.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Goldie (1897), letter of 27 Sept 1582"
+  },
+  {
+   "date_iso": "1583",
+   "date_display": "c. 1583–84",
+   "precision": "year",
+   "eye": "hiravijaya",
+   "place": "Fatehpur Sikri",
+   "headline": "Orders to spare the animals",
+   "digest": "His followers record that Hiravijaya obtained farmans forbidding the slaughter of animals during the Jain festival of Paryushana, forbidding fishing in a lake near Agra, and releasing prisoners and caged birds. They also record the title Jagadguru, 'teacher of the world'. He left his disciple Shanticandra at court, and other Tapa-gaccha monks followed for decades.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Jainpedia, 'Jains and the Mughals'; Wikipedia: Hiravijaya"
+  },
+  {
+   "date_iso": "1583",
+   "date_display": "c. 1583–84",
+   "precision": "year",
+   "eye": "akbar",
+   "place": "Fatehpur Sikri",
+   "headline": "An imperial order for a Jain holy season",
+   "digest": "The farman issued at Hiravijaya's request forbade animal slaughter during the twelve days of Paryushana in the areas it covered. Copies kept by the Jain community are the best direct evidence of what Akbar actually conceded, as distinct from what the later biographies claim. Its exact date is not established here.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Jainpedia; Vidyavijaya, Surishvara and Samrat, as cited in Jainism in Gujarat"
+  },
+  {
+   "date_iso": "1583-05",
+   "date_display": "May 1583 (Gregorian)",
+   "precision": "month",
+   "eye": "aquaviva",
+   "place": "Goa",
+   "headline": "Back in Goa, then killed in Salsette",
+   "digest": "Aquaviva left the court in early 1583 on his provincial's orders, with Akbar's consent on condition that priests would come again, and reached Goa in May. Two months later he and four companions were killed at Cuncolim in Salsette during local resistance to the destruction of temples. The day is given as 15 or 25 July 1583 depending on the calendar.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Goldie (1897); Hoyland trans. (1922), p. 196"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1575",
+   "label": "The House of Worship is built",
+   "eyes": [
+    "badauni",
+    "abulfazl",
+    "nizamuddin"
+   ],
+   "note": "Three historians record the same building. For Abu'l Fazl it is the house of a seeker after truth, for Badauni the root of all that followed, and for Nizamuddin a line in the chronicle."
+  },
+  {
+   "date": "1579-06-26",
+   "label": "Akbar reads the Friday sermon",
+   "eyes": [
+    "faizi",
+    "badauni",
+    "abulfazl"
+   ],
+   "note": "Faizi's verses spoken in Akbar's voice, and two readings of the scene: Abu'l Fazl's revival of a caliph's custom and Badauni's emperor who trembles and steps down."
+  },
+  {
+   "date": "1579-09",
+   "label": "The mahzar is signed",
+   "eyes": [
+    "mubarak",
+    "badauni",
+    "abulfazl"
+   ],
+   "note": "The drafter's satisfaction, the critic's charge of coercion and the admirer's account of willing recognition. Historians still dispute whether it claimed infallibility or a limited power to arbitrate."
+  },
+  {
+   "date": "1580-02-28",
+   "label": "The Jesuits arrive and present the Bible",
+   "eyes": [
+    "aquaviva",
+    "henriques",
+    "monserrate",
+    "akbar"
+   ],
+   "note": "The invitation, the interpreter's Persian and the kissed Polyglot Bible, all seen only from the Jesuit side. No Persian chronicle marks the day."
+  },
+  {
+   "date": "1580",
+   "label": "The challenge of the ordeal by fire",
+   "eyes": [
+    "monserrate",
+    "badauni",
+    "aquaviva"
+   ],
+   "note": "Both sides agree a fire ordeal was proposed and refused. Each claims the other was shamed."
+  },
+  {
+   "date": "1581-02-28",
+   "label": "Execution of Shah Mansur",
+   "eyes": [
+    "monserrate",
+    "abulfazl"
+   ],
+   "note": "Abu'l Fazl read the charges, and Monserrate watched him do it. The Akbarnama records justice done, while the Jesuit's editors note doubts about forged letters."
+  },
+  {
+   "date": "1581-08",
+   "label": "The campaign to Kabul",
+   "eyes": [
+    "monserrate",
+    "abulfazl",
+    "nizamuddin"
+   ],
+   "note": "A priest's record of the march and the Indus halt, the official history's pardon of the half-brother, and the officer's itinerary of the march."
+  },
+  {
+   "date": "1582",
+   "label": "The tauhid-i ilahi",
+   "eyes": [
+    "badauni",
+    "abulfazl",
+    "birbal",
+    "monserrate",
+    "aquaviva"
+   ],
+   "note": "Badauni sees apostasy and Abu'l Fazl sees discipleship. The Jesuits suspect a new religion. Birbal is the only Hindu grandee named in it. Historians still differ on what it was."
+  }
+ ],
+ "ties": [
+  {
+   "a": "mubarak",
+   "b": "abulfazl",
+   "kind": "relative",
+   "note": "Father and son: the drafter of the 1579 decree and the emperor's chief intellectual ally."
+  },
+  {
+   "a": "mubarak",
+   "b": "faizi",
+   "kind": "relative",
+   "note": "Faizi was Mubarak's elder son, the poet who wrote the khutba verses months before his father drafted the decree."
+  },
+  {
+   "a": "faizi",
+   "b": "abulfazl",
+   "kind": "relative",
+   "note": "Brothers, both members of the 1582 discipleship according to Badauni."
+  },
+  {
+   "a": "badauni",
+   "b": "mubarak",
+   "kind": "influenced",
+   "note": "Badauni studied under Shaikh Mubarak and later turned bitterly against his teacher's family."
+  },
+  {
+   "a": "badauni",
+   "b": "abulfazl",
+   "kind": "opposite sides",
+   "note": "Two court scholars of the same generation who wrote opposite histories of the same debates. One wrote in official favour, the other in secret."
+  },
+  {
+   "a": "badauni",
+   "b": "nizamuddin",
+   "kind": "read each other",
+   "note": "Friends. Badauni built his chronicle on the Tabaqat-i Akbari's framework and added what Nizamuddin had left out."
+  },
+  {
+   "a": "monserrate",
+   "b": "aquaviva",
+   "kind": "met",
+   "note": "Fellow members of the first mission. Monserrate's Commentarius is the fullest record of Aquaviva's debates."
+  },
+  {
+   "a": "aquaviva",
+   "b": "henriques",
+   "kind": "met",
+   "note": "Henriques interpreted for Aquaviva until Aquaviva's own Persian made him unnecessary, within about three weeks."
+  },
+  {
+   "a": "monserrate",
+   "b": "abulfazl",
+   "kind": "met",
+   "note": "Monserrate saw 'Abdulfasilius' take the Christians' side in debate and read out Shah Mansur's sentence on campaign."
+  },
+  {
+   "a": "hiravijaya",
+   "b": "abulfazl",
+   "kind": "met",
+   "note": "The Jain sources say the monk's first conversation at court was with Abu'l Fazl. Abu'l Fazl later listed him among the age's learned men."
+  },
+  {
+   "a": "badauni",
+   "b": "monserrate",
+   "kind": "opposite sides",
+   "note": "The Sunni critic and the Jesuit both wanted the emperor for their own faith. Each wrote off the other's arguments in the same debates."
+  },
+  {
+   "a": "badauni",
+   "b": "birbal",
+   "kind": "mentioned",
+   "note": "Badauni names Birbal as an influence toward sun worship, which is a hostile witness's charge."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "worms-1521",
+   "note": "Sixty years earlier, Luther stood before Emperor Charles V to argue over the authority of Scripture against councils and popes. The Society of Jesus that sent Aquaviva and Monserrate to Akbar was founded in 1540, partly in response to that schism. At Fatehpur Sikri an emperor once again sat in judgement over religious argument."
+  },
+  {
+   "to": "v2:ming-qing",
+   "note": "Matteo Ricci sailed from Lisbon to Goa in the same 1578 fleet as Rodolfo Aquaviva. As the Mughal mission faltered, Ricci entered China in 1582–83. Jesuits at the Qing court, such as Schall, later followed the same strategy of winning over the ruler through learning."
+  },
+  {
+   "to": "v4:telescope-1609",
+   "note": "Claudio Acquaviva, the uncle to whom Rodolfo wrote from Goa, became General of the Jesuits in 1581 and still held office when the Collegio Romano's astronomers examined Galileo's discoveries. The calendar reform of October 1582, worked out by the Collegio Romano's Clavius, splits this chapter's Jesuit dates into Julian and Gregorian."
+  },
+  {
+   "to": "v2:delhi-1857",
+   "note": "Akbar's dynasty ended with his descendant Bahadur Shah Zafar, put on trial by the British after 1857. The idea of a Mughal emperor above the quarrels of his subjects' faiths, debated at Fatehpur Sikri, was one of the claims that made him a symbol in that rising."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://artsandculture.google.com/asset/akbar-and-the-jesuits-narsingh/GAFqbfFqcxT6RA?hl=en",
+   "title": "Akbar and the Jesuits (Akbar presiding over discussions in the Ibadat Khana)",
+   "caption": "An illustration from the Akbarnama, painted about two decades after the events: Akbar in the House of Worship, with two black-robed Jesuits (traditionally identified as Aquaviva and a companion) seated among the scholars. It is an imperial image of the debates, not an eyewitness drawing.",
+   "date": "c. 1600–1603",
+   "credit": "Narsingh; Chester Beatty Library, Dublin, CBL In 03.263b"
+  },
+  {
+   "url": "https://collections.vam.ac.uk/item/O9536/painting-tulsi",
+   "title": "The building of Fatehpur Sikri",
+   "caption": "An Akbarnama page showing the construction of the new red-sandstone city from 1571, with masons, a water wheel and elephants at the gateway. This is the city in which the House of Worship was added in 1575.",
+   "date": "c. 1590–95",
+   "credit": "Tulsi (composition) and Bhawani; Victoria and Albert Museum, IS.2:86-1896"
+  },
+  {
+   "url": "https://collections.vam.ac.uk/item/O9441/akbar-painting-kesav-kalan",
+   "title": "Akbar's return to Fatehpur Sikri",
+   "caption": "An Akbarnama page showing Akbar riding into Fatehpur Sikri after the Gujarat campaign of 1573. Gujarat was the province that later sent the Parsi and Jain teachers to his court. Painted for the official history about twenty years later.",
+   "date": "c. 1590–95",
+   "credit": "Kesav Kalan and Nar Singh; Victoria and Albert Museum, IS.2:110-1896"
+  }
+ ],
+ "further": [
+  {
+   "title": "The Commentary of Father Monserrate, S.J., trans. J. S. Hoyland and S. N. Banerjee (1922)",
+   "url": "https://www.rarebooksocietyofindia.org/book_archive/196174216674_10155755373771675.pdf"
+  },
+  {
+   "title": "Francis Goldie, The First Christian Mission to the Great Mogul (1897)",
+   "url": "https://rarebooksocietyofindia.org/book_archive/196174216674_10155031134846675.pdf"
+  },
+  {
+   "title": "Badauni on Akbar's religion (Elliot and Dowson extracts, in Jackson's History of India vol. 5)",
+   "url": "https://ibiblio.org/britishraj/Jackson5/chapter12.html"
+  },
+  {
+   "title": "S. M. Ikram, Muslim Civilization in India, ch. XII: Religion at Akbar's Court",
+   "url": "https://franpritchett.com/00islamlinks/ikram/part2_12.html"
+  },
+  {
+   "title": "'A New Interpretation of Akbar's Infallibility Decree of 1579', JRAS",
+   "url": "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/abs/new-interpretation-of-akbars-infallibility-decree-of-15791/0DC1BE9F648EC16A790CF8DAE48E6806"
+  },
+  {
+   "title": "Jainpedia: Jains and the Mughals",
+   "url": "https://jainpedia.org/themes/places/jainism-and-islam/jains-and-the-mughals"
+  },
+  {
+   "title": "J. Correia-Afonso, Letters from the Mughal Court: The First Jesuit Mission to Akbar (1980)",
+   "url": "https://libcat.library.tamu.edu/Record/in00002192362"
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1575",
+   "date_display": "983 AH (1575)",
+   "eye": "akbar",
+   "claim": "Orders a House of Worship built at Fatehpur Sikri for Thursday-night religious discussion",
+   "form": "decided",
+   "evidence": "Badauni, Muntakhab vol. II; Akbarnama vol. III",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1577",
+   "date_display": "c. 1577",
+   "eye": "badauni",
+   "claim": "Shaikh Abd al-Nabi has a Mathura Brahman executed without the emperor's consent; the court divides",
+   "form": "reported",
+   "evidence": "Badauni; Ikram ch. XII",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1578",
+   "date_display": "Y.Z. 947 (c. 1578)",
+   "eye": "meherji",
+   "claim": "A tax-free grant of about 200 bighas is made to Meherji Rana's family",
+   "form": "decided",
+   "evidence": "Navsari records as summarised in Wikipedia; Modi (1903)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1579-06-26",
+   "date_display": "1 Jumada al-Ula 987 AH = 26 June 1579",
+   "eye": "akbar",
+   "claim": "Reads the Friday khutba himself from the pulpit of the Fatehpur Sikri mosque",
+   "form": "other",
+   "evidence": "Badauni; Akbarnama",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1579-08-24",
+   "date_display": "Rajab 987 AH",
+   "eye": "mubarak",
+   "claim": "Drafts the mahzar giving the just ruler the right to choose among conflicting jurists' opinions",
+   "form": "proposed",
+   "evidence": "Badauni's copy (Jackson vol. 5 ch. 12); Ikram",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1579-09",
+   "date_display": "Rajab 987 AH (Aug–Sept 1579)",
+   "eye": "badauni",
+   "claim": "Mahzar signed by Makhdum ul-Mulk, Abd al-Nabi, Jalal al-Din Multani, the Sadr-i Jahan, Mubarak and Ghazi Khan Badakhshi",
+   "form": "signed",
+   "evidence": "Badauni, Muntakhab vol. II",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1579-09",
+   "date_display": "September 1579 (received at Goa)",
+   "eye": "akbar",
+   "claim": "Farman to the Jesuits of Goa requesting two learned fathers and the books of the Law",
+   "form": "petitioned",
+   "evidence": "Goldie (1897)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1580",
+   "date_display": "c. 1580",
+   "eye": "monserrate",
+   "claim": "A Muslim scholar proposes an ordeal by fire with the holy books",
+   "form": "proposed",
+   "evidence": "Hoyland trans.; Badauni",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1580",
+   "date_display": "c. 1580",
+   "eye": "aquaviva",
+   "claim": "Aquaviva refuses the ordeal by fire as tempting God",
+   "form": "refused",
+   "evidence": "Hoyland trans.; Goldie",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1580",
+   "date_display": "c. 988 AH (1580)",
+   "eye": "badauni",
+   "claim": "Prince Murad ordered to take lessons in Christianity; Monserrate made his tutor",
+   "form": "decided",
+   "evidence": "Badauni; Hoyland note 118",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1580",
+   "date_display": "988 AH (1580)",
+   "eye": "nizamuddin",
+   "claim": "Qazi Muhammad Yazdi rules that rebellion against the emperor is lawful; revolt in Bengal and Bihar",
+   "form": "reported",
+   "evidence": "Ikram ch. XII; Tabaqat-i Akbari",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1580-03-03",
+   "date_display": "3 March 1580 (Julian)",
+   "eye": "monserrate",
+   "claim": "The Polyglot Bible is presented to and received by the emperor",
+   "form": "other",
+   "evidence": "Hoyland trans. (1922), p. 37",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1581-02-28",
+   "date_display": "28 February 1581 (Julian)",
+   "eye": "monserrate",
+   "claim": "Shah Mansur hanged for treasonable correspondence with Mirza Hakim",
+   "form": "decided",
+   "evidence": "Hoyland trans., pp. 98–99, note 100",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1581-08-10",
+   "date_display": "c. 10 August 1581",
+   "eye": "abulfazl",
+   "claim": "Mirza Hakim pardoned and restored to Kabul on submission",
+   "form": "decided",
+   "evidence": "Akbarnama vol. III; Smith (1917)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1582",
+   "date_display": "990 AH (1582)",
+   "eye": "badauni",
+   "claim": "Akbar admits disciples to the tauhid-i ilahi (later called Din-i Ilahi), whose nature is still disputed",
+   "form": "decided",
+   "evidence": "Badauni; A'in-i Akbari; Ikram; Din-i Ilahi (Wikipedia)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1583",
+   "date_display": "c. 1583–84",
+   "eye": "akbar",
+   "claim": "Farman forbidding animal slaughter during the Jain festival of Paryushana",
+   "form": "signed",
+   "evidence": "Jainpedia; Jain community copies via Vidyavijaya",
+   "confidence": "approx"
+  }
+ ],
+ "vantage_key": "0 = in the House of Worship or at the emperor's side as a principal; 1 = at court, present at some sessions or seen there by others; 2 = an officer of the empire writing from the record; 3 = in the provinces, linked to the court by visits and grants; 4 = known only through much later community tradition."
+}

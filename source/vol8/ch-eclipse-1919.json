@@ -1,0 +1,1475 @@
+{
+ "id": "eclipse-1919",
+ "title": "Light Bent: The Eclipse of 29 May 1919",
+ "short_title": "The Eclipse of 1919",
+ "subtitle": "Two British expeditions, Príncipe and Sobral, test Einstein's bending of starlight; London, Berlin, Rio, 1911–2019",
+ "span": "1911–1919 (with reanalyses to 2019)",
+ "intro": [
+  "On 29 May 1919 the Moon's shadow crossed the Atlantic from Brazil to the Gulf of Guinea. The Sun stood in front of the Hyades, a cluster rich in bright stars, and for five or six minutes those stars could be photographed beside the darkened limb. If Einstein's general theory of relativity was right, their light would be bent by the Sun's gravity by 1.75 seconds of arc at the limb. A Newtonian reckoning gave half that, and no bending at all was also possible. Two British parties were sent to catch the shadow. Arthur Eddington and the clockmaker E. T. Cottingham went to the Portuguese cocoa island of Príncipe. Andrew Crommelin and Charles Davidson of Greenwich went to Sobral in the Brazilian state of Ceará.",
+  "The plan was Frank Dyson's, the Astronomer Royal, who had pointed out the opportunity in 1917, in the middle of a war, for a theory published by a German professor in Berlin. Eddington was a Quaker who refused military service. His deferment was bound up with the expedition. The parties sailed together from Liverpool in March 1919 while the Paris peace conference was still sitting. On the day, Príncipe was clouded after a morning thunderstorm and yielded only a few usable plates. Sobral cleared a minute before totality, but the main astrographic telescope had shifted focus in the heat. The smaller 4-inch lens, a reserve instrument, gave the sharpest images.",
+  "This chapter is built from dated letters, telegrams, expedition reports, a field diary, newspaper pages and the published record of a meeting. It holds almost no diaries in the strict sense, and the form tags say so. Eddington's letters to his mother and sister are at Trinity College, Cambridge. Davidson's diary is in the Greenwich archives and is unpublished. Einstein's postcard to his mother and Lorentz's telegram are in the Collected Papers of Albert Einstein. All of these are given as digests only. The 1920 report in the Philosophical Transactions is a pre-1929 English text and is quoted in short phrases.",
+  "The Brazilian side was not a backdrop. Henrique Morize, director of the Observatório Nacional in Rio, had recommended Sobral in 1918 and led his own eight-member commission there to study the solar corona. The Belém newspaper Estado do Pará printed a translated article by the British astronomers in April 1919. Sobral's diocesan weekly and the Rio press carried the story on. Príncipe was a Portuguese colony worked largely by contract labourers from Angola and elsewhere. The eclipse was observed from the Roça Sundy plantation, but no Príncipe voice from that day has been traced for this chapter.",
+  "The final eyes are later readers of the same plates. At the joint meeting of the Royal Society and the Royal Astronomical Society on 6 November 1919, Ludwik Silberstein urged caution. The next morning The Times announced a revolution in science. In 1979 the Royal Greenwich Observatory re-measured the Sobral plates with a modern machine. From 1980, historians and philosophers argued over whether the 1919 astronomers had chosen their plates to suit the theory. Those positions are set out side by side; the chapter takes no side."
+ ],
+ "calendar_note": "All dates are Gregorian and need no conversion. Times of day are the problem. The 1920 report gives Príncipe totality as 2h 13m 5s to 2h 18m 7s Greenwich Mean Time (early afternoon on the island). At Sobral, totality began a little before 9 a.m. by local clock and lasted about five minutes. In Greenwich time it came roughly two hours earlier than at Príncipe, since the shadow moved eastward across the Atlantic. Several later documents (Lorentz's telegram, Eddington's notebook) are dated by editors and biographers rather than by visible originals; these are marked approx.",
+ "eyes": [
+  {
+   "id": "dyson",
+   "short": "Dyson",
+   "name": "Sir Frank Watson Dyson",
+   "life": "1868–1939",
+   "role": "Astronomer Royal, director of the Royal Observatory, Greenwich, aged 50 in 1919; chief planner of both expeditions",
+   "side": "Britain; Royal Observatory and the Joint Permanent Eclipse Committee",
+   "where": "Royal Observatory, Greenwich; Burlington House for the November meeting",
+   "lat": 51.4769,
+   "lon": -0.0005,
+   "vantage": 2,
+   "vantage_label": "planner at home",
+   "form": "published paper, committee records and published report",
+   "language": "English",
+   "authenticity": "His 1917 paper in the Monthly Notices of the Royal Astronomical Society and the 1920 joint report in Philosophical Transactions are published. Committee minutes and correspondence are at the Royal Society (CMB/109) and in the Royal Greenwich Observatory archives at Cambridge.",
+   "bio": "Dyson saw in 1917 that the 1919 eclipse would set the Sun against the Hyades, an unusually rich field of bright stars, and argued that it should be used to test Einstein. He organised two parties so that one cloudy site would not ruin the attempt. Historians still debate the decisions he took in weighing the plates.",
+   "sources": [
+    {
+     "title": "Dyson, Eddington and Davidson, Phil. Trans. A 220 (1920) 291–333 (PDF)",
+     "url": "https://w.astro.berkeley.edu/~kalas/labs/documents/dyson1920.pdf"
+    },
+    {
+     "title": "ADS record of the 1920 report",
+     "url": "https://ui.adsabs.harvard.edu/abs/1920RSPTA.220..291D/abstract"
+    },
+    {
+     "title": "Royal Society blog: Observing relativity",
+     "url": "https://royalsociety.org/blog/2024/08/observing-relativity"
+    }
+   ]
+  },
+  {
+   "id": "eddington",
+   "short": "Eddington",
+   "name": "Arthur Stanley Eddington",
+   "life": "1882–1944",
+   "role": "Plumian Professor and director of the Cambridge Observatory, aged 36; Quaker conscientious objector; leader of the Príncipe party",
+   "side": "Britain; Cambridge",
+   "where": "Roça Sundy, north-west Príncipe, Portuguese West Africa",
+   "lat": 1.67,
+   "lon": 7.38,
+   "waypoints": [
+    {
+     "lat": 53.41,
+     "lon": -2.99,
+     "label": "Liverpool, sailed 8 Mar"
+    },
+    {
+     "lat": 32.65,
+     "lon": -16.91,
+     "label": "Funchal, Madeira, 12 Mar–9 Apr"
+    },
+    {
+     "lat": 1.637,
+     "lon": 7.42,
+     "label": "S. António, Príncipe, 23 Apr"
+    },
+    {
+     "lat": 1.67,
+     "lon": 7.38,
+     "label": "Roça Sundy, eclipse 29 May"
+    },
+    {
+     "lat": 53.41,
+     "lon": -2.99,
+     "label": "Liverpool, 14 Jul"
+    },
+    {
+     "lat": 51.5088,
+     "lon": -0.1392,
+     "label": "Burlington House, 6 Nov"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "observer under cloud",
+   "form": "dated letters, telegram, notebook and published report",
+   "language": "English",
+   "authenticity": "His letters to his mother Sarah Ann and sister Winifred are at Trinity College, Cambridge (EDDN/A/4); the first seven are numbered in a contemporary hand. The notebook entry on measuring the first plate is known through A. V. Douglas's 1956 biography. The Príncipe section of the 1920 report is his; a draft survives at Trinity.",
+   "bio": "Eddington had written the first full English account of general relativity in 1918 and was its most fluent champion. At Príncipe he exposed sixteen plates through cloud and measured the first of them on the island. Critics later asked whether his enthusiasm for the theory shaped the result; defenders point out that Dyson, not he, made the key call on the Sobral plates.",
+   "sources": [
+    {
+     "title": "Trinity College archive: letters to Sarah Ann Eddington, Madeira and Príncipe",
+     "url": "https://archives.trin.cam.ac.uk/index.php/letters-from-a-s-eddington-to-sarah-ann-eddington-madeira-and-the-eclipse-at-principe"
+    },
+    {
+     "title": "1920 Phil. Trans. report (PDF)",
+     "url": "https://w.astro.berkeley.edu/~kalas/labs/documents/dyson1920.pdf"
+    }
+   ]
+  },
+  {
+   "id": "crommelin",
+   "short": "Crommelin",
+   "name": "Andrew Claude de la Cherois Crommelin",
+   "life": "1865–1939",
+   "role": "Assistant at the Royal Observatory, Greenwich, aged 53; Irish-born comet specialist and popular writer; co-leader at Sobral",
+   "side": "Britain; Royal Observatory, Greenwich",
+   "where": "Jockey Club ground, Sobral, Ceará, Brazil",
+   "lat": -3.689,
+   "lon": -40.349,
+   "waypoints": [
+    {
+     "lat": 53.41,
+     "lon": -2.99,
+     "label": "Liverpool, 8 Mar"
+    },
+    {
+     "lat": -1.455,
+     "lon": -48.49,
+     "label": "Belém (Pará), 23 Mar"
+    },
+    {
+     "lat": -3.689,
+     "lon": -40.349,
+     "label": "Sobral, 30 Apr–22 Jul"
+    },
+    {
+     "lat": 51.4769,
+     "lon": -0.0005,
+     "label": "Greenwich, 25 Aug"
+    },
+    {
+     "lat": 51.5088,
+     "lon": -0.1392,
+     "label": "Burlington House, 6 Nov"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "observer under a clearing sky",
+   "form": "telegram, expedition report and published talks",
+   "language": "English",
+   "authenticity": "His part is recorded in the 1920 joint report, in his talk at the 6 November meeting (printed in The Observatory) and in his popular articles. The short telegram from Sobral is known from later accounts.",
+   "bio": "Crommelin was the expedition's public voice: secretary-level figure at the British Astronomical Association and a tireless explainer. At Sobral he shared the work with Davidson, and in November he presented the star-by-star comparison of the Sobral plates.",
+   "sources": [
+    {
+     "title": "1920 Phil. Trans. report (PDF)",
+     "url": "https://w.astro.berkeley.edu/~kalas/labs/documents/dyson1920.pdf"
+    },
+    {
+     "title": "Crispino and Kennefick, 100 years of the first experimental test of General Relativity (2019)",
+     "url": "https://arxiv.org/pdf/1907.10687v1.pdf"
+    }
+   ]
+  },
+  {
+   "id": "davidson",
+   "short": "Davidson",
+   "name": "Charles Rundle Davidson",
+   "life": "1875–1970",
+   "role": "Computer and observer at the Royal Observatory, Greenwich, aged 44; the instrument man at Sobral",
+   "side": "Britain; Royal Observatory, Greenwich",
+   "where": "Sobral, Ceará, Brazil",
+   "lat": -3.689,
+   "lon": -40.349,
+   "waypoints": [
+    {
+     "lat": -1.455,
+     "lon": -48.49,
+     "label": "Belém, 23 Mar"
+    },
+    {
+     "lat": -3.689,
+     "lon": -40.349,
+     "label": "Sobral, 30 Apr"
+    },
+    {
+     "lat": -3.73,
+     "lon": -38.52,
+     "label": "Fortaleza, 7 Jun–9 Jul"
+    },
+    {
+     "lat": -3.689,
+     "lon": -40.349,
+     "label": "Sobral, comparison plates 10–18 Jul"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "field diarist with the cameras",
+   "form": "field diary and published report",
+   "language": "English",
+   "authenticity": "His expedition diary is in the Royal Greenwich Observatory archives (Cambridge University Library) and is unpublished; it is cited by Crispino and Kennefick (2019). He is a named author of the 1920 report. Digests only.",
+   "bio": "Davidson had worked his way up from a computer's desk to observer. He kept the diary that records, days after the eclipse, his fear that the main telescope's plates were spoiled. In 1931 he was elected FRS, the citation naming the 1919 verification.",
+   "sources": [
+    {
+     "title": "Crispino and Kennefick (2019), citing Davidson's diary",
+     "url": "https://arxiv.org/pdf/1907.10687v1.pdf"
+    },
+    {
+     "title": "Royal Society blog: Observing relativity",
+     "url": "https://royalsociety.org/blog/2024/08/observing-relativity"
+    }
+   ]
+  },
+  {
+   "id": "morize",
+   "short": "Morize",
+   "name": "Henrique Charles Morize",
+   "life": "1860–1930",
+   "role": "French-born director of the Observatório Nacional, Rio de Janeiro, aged 58; leader of the Brazilian commission",
+   "side": "Brazil; Observatório Nacional",
+   "where": "Sobral, Ceará (Brazilian commission's station)",
+   "lat": -3.688,
+   "lon": -40.35,
+   "waypoints": [
+    {
+     "lat": -22.905,
+     "lon": -43.17,
+     "label": "Observatório Nacional, Rio"
+    },
+    {
+     "lat": -3.688,
+     "lon": -40.35,
+     "label": "Sobral, May 1919"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "host and corona observer",
+   "form": "site report, newspaper appeal, expedition report and letters",
+   "language": "Portuguese",
+   "authenticity": "His 1918 report on Sobral as a site, his letters and the commission's report are studied by A. A. P. Videira (2019). The plates of the Brazilian commission were found and restored at the Observatório Nacional in the 2010s. Digests only.",
+   "bio": "Morize had chosen Sobral for its dry season and good weather record and sent his report abroad, including to the Royal Astronomical Society. His own team, with Teófilo Lee on the spectroscope, studied the corona rather than starlight. For Morize the eclipse was a chance to show that Brazilian science could do routine, first-rank work on a government budget that came and went.",
+   "sources": [
+    {
+     "title": "Videira, Henrique Morize e o eclipse solar total de maio de 1919, RBEF 41 (2019)",
+     "url": "https://scielo.br/j/rbef/a/wKRGLpdN7PFMkTjNyNDtssn/abstract/?lang=en"
+    },
+    {
+     "title": "Pesquisa FAPESP, O eclipse que confirmou Einstein (2016)",
+     "url": "https://revistapesquisa.fapesp.br/o-eclipse-que-confirmou-einstein/"
+    },
+    {
+     "title": "Pesquisa FAPESP, When light bent (2019)",
+     "url": "https://revistapesquisa.fapesp.br/en/when-light-bent/"
+    }
+   ]
+  },
+  {
+   "id": "press-br",
+   "short": "Brazilian press",
+   "name": "Brazilian newspapers: Estado do Pará, Correio da Semana, Jornal do Commercio",
+   "life": "1919",
+   "role": "Belém daily, Sobral diocesan weekly, and Rio de Janeiro daily",
+   "side": "Brazil",
+   "where": "Belém, Pará; Sobral, Ceará; Rio de Janeiro",
+   "lat": -1.455,
+   "lon": -48.49,
+   "waypoints": [
+    {
+     "lat": -1.455,
+     "lon": -48.49,
+     "label": "Belém, Estado do Pará"
+    },
+    {
+     "lat": -3.689,
+     "lon": -40.349,
+     "label": "Sobral, Correio da Semana"
+    },
+    {
+     "lat": -22.905,
+     "lon": -43.17,
+     "label": "Rio, Jornal do Commercio"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "local press",
+   "form": "newspapers",
+   "language": "Portuguese",
+   "authenticity": "The Estado do Pará article of 20 April 1919 is identified by Crispino and Kennefick as the first printed text on general relativity in the Americas. The Correio da Semana and Jornal do Commercio items are known from Sobral's Museu do Eclipse and local reporting; their exact issue dates were not traced.",
+   "bio": "The press gives the view from the host country: a Belém paper translating the visitors' own explanation of what they had come to measure, a bishop in Sobral translating their English for his flock, and the Rio press carrying the result back south.",
+   "sources": [
+    {
+     "title": "Crispino and Kennefick (2019)",
+     "url": "https://arxiv.org/pdf/1907.10687v1.pdf"
+    },
+    {
+     "title": "Diário do Nordeste, Há 86 anos, comprovação acontecia em Sobral (2005)",
+     "url": "https://diariodonordeste.verdesmares.com.br/regiao/ha-86-anos-comprovacao-acontecia-em-sobral-1.525289"
+    }
+   ]
+  },
+  {
+   "id": "einstein",
+   "short": "Einstein",
+   "name": "Albert Einstein",
+   "life": "1879–1955",
+   "role": "Director of the Kaiser Wilhelm Institute for Physics, Berlin, aged 40; author of the prediction",
+   "side": "Germany (Swiss citizen); Berlin",
+   "where": "Berlin, far from both stations",
+   "lat": 52.52,
+   "lon": 13.405,
+   "vantage": 4,
+   "vantage_label": "the theorist, hearing by telegram",
+   "form": "published papers, postcard and dated letters",
+   "language": "German",
+   "authenticity": "His 1911 and 1915 papers are published; the postcard to his mother Pauline and his letters of 1919 are edited in The Collected Papers of Albert Einstein, vol. 9 (Princeton). Translations are modern: digests only, no quotes.",
+   "bio": "Einstein had first predicted a bending of starlight in 1911, at half the later value, and an expedition to test it in 1914 was overtaken by war. By late 1915 his full theory doubled the figure. He heard of the result in Berlin from Lorentz, and within weeks was a public figure on two continents.",
+   "sources": [
+    {
+     "title": "Collected Papers of Albert Einstein (Princeton digital edition)",
+     "url": "https://einsteinpapers.press.princeton.edu/vol9-doc/34"
+    },
+    {
+     "title": "Science Friday: The eclipse that proved Einstein's theory correct",
+     "url": "https://www.sciencefriday.com/articles/einstein-eclipse/"
+    }
+   ]
+  },
+  {
+   "id": "lorentz",
+   "short": "Lorentz",
+   "name": "Hendrik Antoon Lorentz",
+   "life": "1853–1928",
+   "role": "Dutch theoretical physicist, aged 65; Nobel laureate; the bridge between British and German science after the war",
+   "side": "Netherlands (neutral); Haarlem and Leiden",
+   "where": "Haarlem / Leiden, Netherlands",
+   "lat": 52.381,
+   "lon": 4.637,
+   "vantage": 4,
+   "vantage_label": "neutral relay of the news",
+   "form": "telegram",
+   "language": "German",
+   "authenticity": "The telegram to Einstein, dated 22 September 1919 by the editors, is published in The Collected Papers of Albert Einstein, vol. 9. Lorentz had the news second-hand, from a Dutch physicist who had been at the British Association meeting.",
+   "bio": "From neutral Holland Lorentz could hear British news and speak to Berlin. His short telegram reported only a preliminary range, but it was the first word Einstein had that the deflection had been seen.",
+   "sources": [
+    {
+     "title": "Collected Papers of Albert Einstein, vol. 9",
+     "url": "https://einsteinpapers.press.princeton.edu/vol9-doc/34"
+    }
+   ]
+  },
+  {
+   "id": "thomson",
+   "short": "J. J. Thomson",
+   "name": "Sir Joseph John Thomson",
+   "life": "1856–1940",
+   "role": "President of the Royal Society, aged 62; discoverer of the electron; chair of the joint meeting",
+   "side": "Britain; Royal Society",
+   "where": "Burlington House, Piccadilly, London",
+   "lat": 51.5088,
+   "lon": -0.1392,
+   "vantage": 2,
+   "vantage_label": "chair of the meeting",
+   "form": "published remarks (meeting report)",
+   "language": "English",
+   "authenticity": "His remarks at the 6 November 1919 meeting were printed in The Observatory (1919) and reported in The Times; they are cited on the Royal Society's own blog.",
+   "bio": "Thomson's summing-up turned a technical result into a historic one. As the senior figure of British physics, he admitted the theory was hard to state in plain words while declaring its importance.",
+   "sources": [
+    {
+     "title": "Royal Society blog: Observing relativity",
+     "url": "https://royalsociety.org/blog/2024/08/observing-relativity"
+    }
+   ]
+  },
+  {
+   "id": "silberstein",
+   "short": "Silberstein",
+   "name": "Ludwik Silberstein",
+   "life": "1872–1948",
+   "role": "Polish-born mathematical physicist in London, aged 47; author of a 1914 textbook on special relativity",
+   "side": "Britain (émigré); sceptic of general relativity",
+   "where": "Burlington House, London",
+   "lat": 51.5088,
+   "lon": -0.1392,
+   "vantage": 2,
+   "vantage_label": "sceptic in the audience",
+   "form": "published remarks (meeting report) and papers",
+   "language": "English",
+   "authenticity": "His intervention at the 6 November 1919 meeting is printed in the report of the meeting in The Observatory (1919). Later anecdotes involving him and Eddington are recollections and are not used here.",
+   "bio": "Silberstein knew relativity well and did not deny that light had been bent. He doubted that the eclipse proved the curved space-time of Einstein's theory, and he urged the meeting not to give up Newton too quickly.",
+   "sources": [
+    {
+     "title": "Science Friday: The eclipse that proved Einstein's theory correct",
+     "url": "https://www.sciencefriday.com/articles/einstein-eclipse/"
+    }
+   ]
+  },
+  {
+   "id": "times",
+   "short": "The Times",
+   "name": "The Times (London)",
+   "life": "1919",
+   "role": "National daily newspaper",
+   "side": "Britain",
+   "where": "Printing House Square, London",
+   "lat": 51.512,
+   "lon": -0.103,
+   "vantage": 3,
+   "vantage_label": "the national press",
+   "form": "newspaper",
+   "language": "English",
+   "authenticity": "The issues of 7 and 8 November 1919 are held in the Royal Society's press cuttings (PC/1/28) and in The Times digital archive.",
+   "bio": "The Times report was set on its news pages the morning after the meeting, under a three-deck headline. It made Einstein's name in Britain, and the story crossed the Atlantic within days.",
+   "sources": [
+    {
+     "title": "Royal Society blog (press cuttings 7–8 Nov 1919)",
+     "url": "https://royalsociety.org/blog/2024/08/observing-relativity"
+    }
+   ]
+  },
+  {
+   "id": "harvey",
+   "short": "RGO 1979",
+   "name": "G. M. Harvey and the Royal Greenwich Observatory astrometry group (led by Andrew Murray)",
+   "life": "1979",
+   "role": "Astrometrists at the Royal Greenwich Observatory, Herstmonceux",
+   "side": "Britain",
+   "where": "Royal Greenwich Observatory, Herstmonceux Castle, Sussex",
+   "lat": 50.869,
+   "lon": 0.336,
+   "vantage": 4,
+   "vantage_label": "re-measuring the plates sixty years on",
+   "form": "published re-reduction",
+   "language": "English",
+   "authenticity": "Published as Harvey, The Observatory 99 (1979) 195–198, for the centenary of Einstein's birth. The plates were re-measured on an automatic measuring machine and reduced by computer.",
+   "bio": "Sixty years later the same glass plates were put through a modern machine. The re-reduction gave a check, free of 1919's hand-measurement, on both Sobral instruments.",
+   "sources": [
+    {
+     "title": "Crispino and Kennefick (2019), summarising Harvey 1979",
+     "url": "https://arxiv.org/pdf/1907.10687v1.pdf"
+    }
+   ]
+  },
+  {
+   "id": "earman-glymour",
+   "short": "Earman & Glymour",
+   "name": "John Earman and Clark Glymour",
+   "life": "1980",
+   "role": "American philosophers of science",
+   "side": "United States; historians and philosophers of science",
+   "where": "United States (University of Minnesota and elsewhere)",
+   "lat": 44.974,
+   "lon": -93.235,
+   "vantage": 4,
+   "vantage_label": "critics reading the record",
+   "form": "published historical paper",
+   "language": "English",
+   "authenticity": "Earman and Glymour, 'Relativity and eclipses: the British eclipse expeditions of 1919 and their predecessors', Historical Studies in the Physical Sciences 11 (1980). Their reading was taken further by H. Collins and T. Pinch in The Golem (1993).",
+   "bio": "Earman and Glymour went back to the published plates and argued that the data were not as decisive as claimed. In their view the British astronomers kept results that suited Einstein and set aside those that did not. Their paper started forty years of argument over the 1919 result.",
+   "sources": [
+    {
+     "title": "Kennefick (2007), discussing Earman and Glymour",
+     "url": "https://arxiv.org/pdf/0709.0685"
+    }
+   ]
+  },
+  {
+   "id": "kennefick",
+   "short": "Kennefick",
+   "name": "Daniel Kennefick",
+   "life": "2007–2019",
+   "role": "Historian of physics, University of Arkansas",
+   "side": "United States / Ireland",
+   "where": "Fayetteville, Arkansas",
+   "lat": 36.068,
+   "lon": -94.174,
+   "vantage": 4,
+   "vantage_label": "defender reading the record",
+   "form": "published historical papers and book",
+   "language": "English",
+   "authenticity": "Kennefick, 'Not only because of theory: Dyson, Eddington and the competing myths of the 1919 eclipse expedition' (arXiv 2007; in Einstein Studies 2012); with L. Crispino, 'One hundred years of the first experimental test of general relativity' (2019); book No Shadow of a Doubt (2019).",
+   "bio": "Kennefick used the expedition archives, including Davidson's diary and Dyson's papers, to argue that the plate decisions had sound technical grounds. He points out that Dyson, a cautious man with no stake in relativity, made them, not Eddington. His work is one position in a continuing debate.",
+   "sources": [
+    {
+     "title": "Kennefick, Not only because of theory (arXiv 0709.0685)",
+     "url": "https://arxiv.org/pdf/0709.0685"
+    },
+    {
+     "title": "Crispino and Kennefick (arXiv 1907.10687)",
+     "url": "https://arxiv.org/pdf/1907.10687v1.pdf"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1911-06",
+   "date_display": "June 1911",
+   "precision": "month",
+   "eye": "einstein",
+   "place": "Prague",
+   "headline": "A first prediction: starlight grazing the Sun bends 0.83″",
+   "digest": "Teaching at Prague, Einstein published a paper on gravity's effect on light, using only the principle of equivalence. It predicted that a star seen beside the Sun would be shifted outward by about 0.83 seconds of arc. He urged astronomers to look at a total eclipse. This was the 'Newtonian' half-value that the 1919 expeditions would set against the full one.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Annalen der Physik 35 (1911); Collected Papers vol. 3. Month of publication not checked against the issue."
+  },
+  {
+   "date_iso": "1915-11-18",
+   "date_display": "Thursday 18 November 1915",
+   "precision": "day",
+   "eye": "einstein",
+   "place": "Berlin, Prussian Academy of Sciences",
+   "headline": "The full theory doubles the bending to 1.7″",
+   "digest": "In the paper that explained the anomalous advance of Mercury's perihelion, Einstein recalculated the bending of light with his new field equations. The value at the Sun's limb came out at about 1.7 seconds of arc, twice his 1911 figure. A war-time eclipse attempt in 1914 had failed, so the earlier, wrong number had never been tested.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sitzungsberichte der Preussischen Akademie (1915); Collected Papers vol. 6. Not fetched for this chapter."
+  },
+  {
+   "date_iso": "1917-03",
+   "date_display": "March 1917",
+   "precision": "month",
+   "eye": "dyson",
+   "place": "Royal Observatory, Greenwich",
+   "headline": "Dyson flags 29 May 1919: the Sun will sit among the Hyades",
+   "digest": "Dyson published a short note in the Monthly Notices pointing out that at the eclipse of 29 May 1919 the Sun would lie in a field of unusually bright stars in the Hyades. It was the best chance for decades to test Einstein's prediction. He began planning for two stations in the track of totality, though Britain was at war and the theory was German.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Dyson, 'On the opportunity afforded by the eclipse of 1919 May 29 of verifying Einstein's theory of gravitation', MNRAS 77 (1917). Not fetched."
+  },
+  {
+   "date_iso": "1918",
+   "date_display": "1918",
+   "precision": "year",
+   "eye": "eddington",
+   "place": "Cambridge",
+   "headline": "Eddington's report makes the theory readable in English",
+   "digest": "Eddington published his Report on the Relativity Theory of Gravitation for the Physical Society of London, the first full English account of the theory. He had received Einstein's papers through Willem de Sitter in neutral Holland, as wartime blockade kept German journals out. In the same year his refusal of military service as a Quaker came before tribunals. His deferment was linked to his leading the eclipse expedition.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Report published 1918; tribunal and deferment as described by Kennefick (2007) and Douglas (1956). Not fetched in detail."
+  },
+  {
+   "date_iso": "1918-06",
+   "date_display": "mid-1918",
+   "precision": "month",
+   "eye": "morize",
+   "place": "Observatório Nacional, Rio de Janeiro",
+   "headline": "Morize recommends Sobral and sends the report abroad",
+   "digest": "Observatório Nacional staff identified Sobral, in the dry backlands of Ceará, as a station likely to have clear skies at the end of May. Morize wrote a report on the site and sent it to institutions abroad, among them the Royal Astronomical Society. The British chose Sobral on that advice.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Pesquisa FAPESP, 'When light bent' (2019): 'mid-1918'; Videira (2019)."
+  },
+  {
+   "date_iso": "1919-03-08",
+   "date_display": "Saturday 8 March 1919",
+   "precision": "day",
+   "eye": "eddington",
+   "place": "Liverpool, aboard SS Anselm",
+   "headline": "Four observers sail together from Liverpool",
+   "digest": "Eddington and Cottingham sailed from Liverpool on the steamer Anselm with Crommelin and Davidson, carrying lenses, a coelostat mirror and plate holders. The war had ended only four months earlier, and the peace conference was sitting in Paris. Eddington's letters home, numbered in sequence, begin with the voyage.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Trinity College archive, EDDN/A/4 scope note; 1920 report."
+  },
+  {
+   "date_iso": "1919-03-08",
+   "date_display": "Saturday 8 March 1919",
+   "precision": "day",
+   "eye": "crommelin",
+   "place": "Liverpool, aboard SS Anselm",
+   "headline": "The Sobral party leaves with the instruments for Brazil",
+   "digest": "Crommelin and Davidson left Liverpool on the Anselm with the Greenwich astrographic object-glass and a 4-inch lens lent by Father Aloysius Cortie of Stonyhurst. They would stay aboard past Madeira and on to Pará.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "1920 report; Crispino and Kennefick (2019); Royal Society blog (Cortie's lens)."
+  },
+  {
+   "date_iso": "1919-03-12",
+   "date_display": "Wednesday 12 March 1919",
+   "precision": "day",
+   "eye": "eddington",
+   "place": "Funchal, Madeira",
+   "headline": "Parting at Madeira, a month's wait for a ship",
+   "digest": "At Madeira the parties separated. Crommelin and Davidson went on to Brazil in the Anselm. Eddington and Cottingham had to wait almost four weeks for a Portuguese steamer to Príncipe, and his letters home describe the island in the meantime.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Trinity College archive, EDDN/A/4 scope note."
+  },
+  {
+   "date_iso": "1919-03-23",
+   "date_display": "Sunday 23 March 1919",
+   "precision": "day",
+   "eye": "davidson",
+   "place": "Belém, Pará",
+   "headline": "Landing at Belém, more than a month early",
+   "digest": "Davidson and Crommelin landed at Belém at the mouth of the Amazon. They had weeks to wait before going on to Sobral. Brazilian authorities let their instrument cases through customs without inspection.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "1920 report ('reached Pará on 23 March'); Pesquisa FAPESP (2019)."
+  },
+  {
+   "date_iso": "1919-04-09",
+   "date_display": "Wednesday 9 April 1919",
+   "precision": "day",
+   "eye": "eddington",
+   "place": "Funchal, aboard the Portugal",
+   "headline": "Embarking for Príncipe",
+   "digest": "Eddington and Cottingham left Madeira on the steamer Portugal, bound for the Gulf of Guinea. Their plates for comparison had been taken at Oxford before they left, so no night-sky plates of the same field would be needed on the island.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Trinity College archive scope note; Crispino and Kennefick (2019) on the Oxford comparison plates."
+  },
+  {
+   "date_iso": "1919-04-20",
+   "date_display": "Sunday 20 April 1919",
+   "precision": "day",
+   "eye": "press-br",
+   "place": "Belém, Pará",
+   "headline": "Relativity in print in Belém",
+   "digest": "The Estado do Pará published a Portuguese translation of an article by the visiting British astronomers explaining what they had come to test. It is reckoned the first printed text on general relativity anywhere in the Americas. A provincial daily thus told its readers of Einstein's prediction months before London did.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Crispino and Kennefick (2019)."
+  },
+  {
+   "date_iso": "1919-04-23",
+   "date_display": "Wednesday 23 April 1919",
+   "precision": "day",
+   "eye": "eddington",
+   "place": "S. António, Príncipe",
+   "headline": "Ashore on Príncipe, looking for a site",
+   "digest": "Eddington and Cottingham landed at Santo António, the island's small capital. They toured several cocoa plantations and chose Roça Sundy on the north-west side, headed by a Senhor Carneiro, who put his estate at their service.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Trinity College archive scope note."
+  },
+  {
+   "date_iso": "1919-04-28",
+   "date_display": "Monday 28 April 1919",
+   "precision": "day",
+   "eye": "eddington",
+   "place": "Roça Sundy, Príncipe",
+   "headline": "Baggage arrives at Sundy; a week of setting up",
+   "digest": "The expedition's cases reached Roça Sundy. The two men spent a week erecting the coelostat, the driving clock and the astrographic tube. They then went back to Santo António from 6 to 13 May before returning to finish the adjustments.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Trinity College archive scope note."
+  },
+  {
+   "date_iso": "1919-04-30",
+   "date_display": "Wednesday 30 April 1919",
+   "precision": "day",
+   "eye": "crommelin",
+   "place": "Sobral, Ceará",
+   "headline": "Arriving at Sobral by train",
+   "digest": "After the long wait in Belém, Crommelin and Davidson reached Sobral by train. The mayor, Jácome de Oliveira, welcomed them, and Colonel Vicente Saboya lent them a house. They set up at the town's Jockey Club ground. The Brazilian and American (Carnegie Institution) parties arrived some days later.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "1920 report; Pesquisa FAPESP (2019)."
+  },
+  {
+   "date_iso": "1919-05",
+   "date_display": "May 1919",
+   "precision": "month",
+   "eye": "davidson",
+   "place": "Sobral",
+   "headline": "Test plates show the big mirror is distorting the image",
+   "digest": "Test exposures showed serious astigmatism from the 16-inch coelostat mirror feeding the astrographic telescope. The team stopped the lens down to 8 inches to reduce it. The 4-inch Cortie lens with its own small mirror was set up beside it as a reserve.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "1920 report, Sobral section."
+  },
+  {
+   "date_iso": "1919-05",
+   "date_display": "late May 1919",
+   "precision": "range",
+   "eye": "morize",
+   "place": "Sobral",
+   "headline": "Morize asks the town for silence, no fireworks",
+   "digest": "A few days before the eclipse, Morize published an appeal in a local paper. He asked Sobral to watch the eclipse in silence and not to set off fireworks. The town's festive habit could shake the instruments and smoke the sky.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Pesquisa FAPESP, 'O eclipse que confirmou Einstein' (2016): 'dias antes'. Exact date and paper not given."
+  },
+  {
+   "date_iso": "1919-05-29",
+   "date_display": "Thursday 29 May 1919, morning (local time)",
+   "precision": "day",
+   "eye": "davidson",
+   "place": "Sobral, Jockey Club",
+   "headline": "Cloud at first contact; a clear gap a minute before totality",
+   "digest": "The morning at Sobral was cloudy and the Sun was hidden at first contact. About a minute before totality a clear space reached the Sun. Thin cloud veiled the field for about a minute in the middle. Nineteen astrographic plates were exposed, alternately 5 and 10 seconds, and eight with the 4-inch lens at 28 seconds each.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "1920 report, Sobral section; Pesquisa FAPESP on timing (totality just before 9 a.m., 5 min 13 s)."
+  },
+  {
+   "date_iso": "1919-05-29",
+   "date_display": "Thursday 29 May 1919",
+   "precision": "day",
+   "eye": "crommelin",
+   "place": "Sobral",
+   "headline": "'Eclipse splendid': the telegram home",
+   "digest": "After totality the Sobral party telegraphed Greenwich that the eclipse had been splendid. The plates were still undeveloped. They did not yet know that the heat of the Sun on the mirror had pulled the main telescope out of focus.",
+   "quote": "Eclipse splendid",
+   "confidence": "approx",
+   "source_note": "Telegram text as given in Kennefick (2007) and later accounts; not seen in facsimile."
+  },
+  {
+   "date_iso": "1919-05-29",
+   "date_display": "Thursday 29 May 1919",
+   "precision": "day",
+   "eye": "morize",
+   "place": "Sobral",
+   "headline": "The Brazilian commission turns its instruments on the corona",
+   "digest": "Morize's eight-member commission worked alongside the British. Teófilo Lee made spectroscopic observations of the solar corona, and the team photographed the eclipse. Their aim was the physics of the corona, not the bending of starlight, and their plates were not used in the relativity test.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pesquisa FAPESP (2016, 2019); Diário do Nordeste (2005) on the eight members."
+  },
+  {
+   "date_iso": "1919-05-29",
+   "date_display": "Thursday 29 May 1919, afternoon (totality 14h13m GMT)",
+   "precision": "day",
+   "eye": "eddington",
+   "place": "Roça Sundy, Príncipe",
+   "headline": "A thunderstorm, then sixteen plates through cloud",
+   "digest": "A heavy thunderstorm broke about 10 a.m. and lasted until about 11.30, which the report calls unusual for the season. The crescent Sun was glimpsed through drifting cloud before totality. Eddington changed plates while Cottingham worked the instruments, and sixteen were exposed. Only in the last third of totality did the cloud thin.",
+   "quote": "the clouds gathered again",
+   "confidence": "verified",
+   "source_note": "1920 report, Príncipe section (totality 2h 13m 5s to 2h 18m 7s GMT)."
+  },
+  {
+   "date_iso": "1919-05-29",
+   "date_display": "Thursday 29 May 1919",
+   "precision": "day",
+   "eye": "eddington",
+   "place": "Príncipe",
+   "headline": "'Through cloud. Hopeful.'",
+   "digest": "Eddington cabled Dyson with three words that summed up the day. The plates were not yet developed and he had no idea how many would show stars.",
+   "quote": "Through cloud. Hopeful.",
+   "confidence": "approx",
+   "source_note": "Telegram text as quoted by Douglas (1956) and Kennefick (2007)."
+  },
+  {
+   "date_iso": "1919-06-03",
+   "date_display": "Tuesday 3 June 1919",
+   "precision": "day",
+   "eye": "eddington",
+   "place": "Roça Sundy, Príncipe",
+   "headline": "Measuring the first plate on the island",
+   "digest": "Working with the plates developed at Sundy, Eddington measured one against the Oxford comparison plate. He noted that its result agreed with Einstein. He later called this the greatest moment of his life.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Notebook entry as given in Douglas, The Life of Arthur Stanley Eddington (1956); date as cited by Kennefick (2007). Not seen in manuscript."
+  },
+  {
+   "date_iso": "1919-06-05",
+   "date_display": "Thursday 5 June 1919",
+   "precision": "day",
+   "eye": "davidson",
+   "place": "Sobral",
+   "headline": "Development finished, and a sinking feeling",
+   "digest": "By 5 June all the Sobral plates were developed. The star images on the astrographic plates were blurred and distorted, apparently because the Sun's heat had warped the mirror. Davidson wrote in his diary that it seemed doubtful much could be got from them. The 4-inch plates, by contrast, were sharp.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "1920 report (development complete 5 June); Davidson's diary as cited by Crispino and Kennefick (2019); diary entry's exact day not given there."
+  },
+  {
+   "date_iso": "1919-06-07",
+   "date_display": "Saturday 7 June 1919",
+   "precision": "day",
+   "eye": "crommelin",
+   "place": "Sobral to Fortaleza",
+   "headline": "Waiting a month for the stars to come round",
+   "digest": "The Sobral party left for Fortaleza on the coast. The eclipse field would not be visible in the night sky until July, when comparison plates could be taken with the same instruments in the same place.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "1920 report."
+  },
+  {
+   "date_iso": "1919-06-12",
+   "date_display": "Thursday 12 June 1919",
+   "precision": "day",
+   "eye": "eddington",
+   "place": "Príncipe, aboard SS Zaire",
+   "headline": "A steamship strike forces an early departure",
+   "digest": "A threatened strike of steamers meant that Eddington and Cottingham had to leave Príncipe by the first available ship, the Zaire, on 12 June. Several plates were carried home undeveloped to be processed in England.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Trinity College archive scope note; 1920 report (plates P, S, T, W brought home undeveloped)."
+  },
+  {
+   "date_iso": "1919-07-10",
+   "date_display": "10–18 July 1919",
+   "precision": "range",
+   "eye": "davidson",
+   "place": "Sobral",
+   "headline": "Comparison plates of the Hyades, night by night",
+   "digest": "Back at Sobral since 9 July, Davidson and Crommelin photographed the same star field at night with the same instruments, now without the Sun. These comparison plates, taken between 10 and 18 July, would be measured against the eclipse plates to find any displacement.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "1920 report."
+  },
+  {
+   "date_iso": "1919-07-14",
+   "date_display": "Monday 14 July 1919",
+   "precision": "day",
+   "eye": "eddington",
+   "place": "Liverpool",
+   "headline": "Home after changing ships at Lisbon",
+   "digest": "Eddington reached Liverpool, having changed ships at Lisbon. The remaining Príncipe plates went to Cambridge for development and measurement.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Trinity College archive scope note."
+  },
+  {
+   "date_iso": "1919-07-22",
+   "date_display": "Tuesday 22 July 1919",
+   "precision": "day",
+   "eye": "crommelin",
+   "place": "Sobral",
+   "headline": "Leaving Sobral after almost three months",
+   "digest": "The British party left Sobral for the coast and England. They reached Greenwich on 25 August, where measurement of the Sobral plates began under Dyson.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "1920 report; Crispino and Kennefick (2019)."
+  },
+  {
+   "date_iso": "1919-09",
+   "date_display": "September 1919 (British Association, Bournemouth)",
+   "precision": "month",
+   "eye": "eddington",
+   "place": "Bournemouth",
+   "headline": "A preliminary result at the British Association",
+   "digest": "At the British Association meeting at Bournemouth, Eddington reported that the Príncipe plates showed a displacement between the half and full values. A Dutch physicist in the audience carried the news to Lorentz.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Crispino and Kennefick (2019): 'September 1919 ... reports preliminary results to the British Association'. Day not checked."
+  },
+  {
+   "date_iso": "1919-09-22",
+   "date_display": "22 September 1919",
+   "precision": "day",
+   "eye": "lorentz",
+   "place": "Netherlands",
+   "headline": "Lorentz telegraphs Einstein: a shift between 0.9″ and double",
+   "digest": "Lorentz sent Einstein a short telegram. Eddington had found a displacement of stars at the Sun's rim, provisionally between nine-tenths of a second and twice that value. It was second-hand and preliminary, but it was the first word to reach Berlin.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Collected Papers of Albert Einstein vol. 9 (telegram dated 22 September 1919 by the editors). Not fetched."
+  },
+  {
+   "date_iso": "1919-09-27",
+   "date_display": "Saturday 27 September 1919",
+   "precision": "day",
+   "eye": "einstein",
+   "place": "Berlin",
+   "headline": "A postcard to his mother: joyful news",
+   "digest": "Einstein wrote a postcard to his mother Pauline, then gravely ill with cancer in Lucerne. He told her of happy news: Lorentz had telegraphed that the English expeditions had confirmed the deflection of light by the Sun. It is the plainest record of how he received the result.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Collected Papers vol. 9; Science Friday (2019) gives the date and content."
+  },
+  {
+   "date_iso": "1919-10-30",
+   "date_display": "Thursday 30 October 1919",
+   "precision": "day",
+   "eye": "dyson",
+   "place": "Royal Society, London",
+   "headline": "The report is communicated to the Royal Society",
+   "digest": "Dyson, Eddington and Davidson's joint account of both expeditions was received by the Royal Society, a week before the public meeting. It weighed the instruments separately. The 4-inch Sobral lens was given greatest weight, the blurred astrographic results little, and Príncipe a supporting role.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Trinity College archive scope note ('presented to the Royal Society on 30 October')."
+  },
+  {
+   "date_iso": "1919-11-06",
+   "date_display": "Thursday 6 November 1919",
+   "precision": "day",
+   "eye": "dyson",
+   "place": "Burlington House, London",
+   "headline": "The Astronomer Royal: the plates leave little doubt",
+   "digest": "At the joint meeting of the Royal Society and the Royal Astronomical Society, Dyson presented the results. The Sobral 4-inch plates gave 1.98 seconds of arc, Príncipe 1.61, and the astrographic plates, set aside, about 0.93. He concluded that the bending agreed with Einstein's full prediction.",
+   "quote": "can leave little doubt that a deflection of light takes place",
+   "confidence": "verified",
+   "source_note": "1920 report, General Conclusions; Science Friday (2019) on Dyson's remarks."
+  },
+  {
+   "date_iso": "1919-11-06",
+   "date_display": "Thursday 6 November 1919",
+   "precision": "day",
+   "eye": "eddington",
+   "place": "Burlington House, London",
+   "headline": "Eddington: Einstein's law, if not yet his whole theory",
+   "digest": "Eddington spoke for the Príncipe party. He put the measured bending beside the full Einstein value and said the result established Einstein's law of gravitation. He drew a careful line between that law and the theory behind it.",
+   "quote": "proving Einstein's law rather than his theory",
+   "confidence": "verified",
+   "source_note": "Report of the meeting, The Observatory (1919), as quoted by Science Friday (2019)."
+  },
+  {
+   "date_iso": "1919-11-06",
+   "date_display": "Thursday 6 November 1919",
+   "precision": "day",
+   "eye": "crommelin",
+   "place": "Burlington House, London",
+   "headline": "Crommelin walks the meeting through the Sobral stars",
+   "digest": "Crommelin gave the details of the Sobral measures: the seven stars on the 4-inch plates, how each had been compared, and why the astrographic plates were thought unreliable. The meeting heard the numbers star by star.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Science Friday (2019); Royal Society blog."
+  },
+  {
+   "date_iso": "1919-11-06",
+   "date_display": "Thursday 6 November 1919",
+   "precision": "day",
+   "eye": "thomson",
+   "place": "Burlington House, London",
+   "headline": "The President calls it the biggest result since Newton",
+   "digest": "In the chair, under Newton's portrait, Thomson said the result was the most important obtained on gravitation since Newton's time. He conceded that no one had yet put the theory into clear language.",
+   "quote": "since Newton's day",
+   "confidence": "verified",
+   "source_note": "Royal Society blog (quoting Thomson); Science Friday (2019)."
+  },
+  {
+   "date_iso": "1919-11-06",
+   "date_display": "Thursday 6 November 1919",
+   "precision": "day",
+   "eye": "silberstein",
+   "place": "Burlington House, London",
+   "headline": "Silberstein: light bent, but not proof of curved space",
+   "digest": "Silberstein accepted that starlight had been deflected. He argued that this did not show the cause to be the curvature of space-time, and he urged caution before modifying Newton's law of gravitation.",
+   "quote": "modifying or retouching",
+   "confidence": "verified",
+   "source_note": "Report of the meeting, The Observatory (1919), via Science Friday (2019)."
+  },
+  {
+   "date_iso": "1919-11-07",
+   "date_display": "Friday 7 November 1919",
+   "precision": "day",
+   "eye": "times",
+   "place": "London",
+   "headline": "'Revolution in Science' across the news page",
+   "digest": "The Times reported the meeting under a three-line headline announcing a new theory of the universe and the overthrow of Newtonian ideas. It printed Thomson's verdict and explained the eclipse plates for general readers. The paper treated the result as a turning point, not a footnote.",
+   "quote": "Revolution in Science. New Theory of the Universe.",
+   "confidence": "verified",
+   "source_note": "Science Friday (2019) for the headline; Royal Society press cuttings PC/1/28."
+  },
+  {
+   "date_iso": "1919-11-08",
+   "date_display": "Saturday 8 November 1919",
+   "precision": "day",
+   "eye": "times",
+   "place": "London",
+   "headline": "A second day: the fabric of the universe",
+   "digest": "The Times returned to the story the next day, with further comment on what the result meant for Newton's physics. Its readers were left with an image of space itself bending around the Sun.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Royal Society blog: press cuttings 'from The Times, 7–8 November 1919'. Wording of the 8 November article not checked."
+  },
+  {
+   "date_iso": "1919-11-28",
+   "date_display": "Friday 28 November 1919",
+   "precision": "day",
+   "eye": "einstein",
+   "place": "Berlin (published in London)",
+   "headline": "Einstein explains himself to Times readers",
+   "digest": "At The Times's request, Einstein wrote an article on what the theory of relativity was, published in translation. He thanked the English astronomers for testing a theory made in the land of a recent enemy. He joked that if the theory failed, the Germans would call him a Swiss Jew and the English a German.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "The Times, 28 November 1919 ('What is the theory of relativity?'); Collected Papers vol. 7. Not fetched."
+  },
+  {
+   "date_iso": "1919",
+   "date_display": "1919 (after November)",
+   "precision": "year",
+   "eye": "press-br",
+   "place": "Sobral and Rio de Janeiro",
+   "headline": "A bishop translates; Rio reprints",
+   "digest": "Sobral's diocesan weekly Correio da Semana carried the news of the confirmation. The bishop of Sobral, Dom José Tupinambá da Frota, translated an English document by the astronomers for its readers. The Jornal do Commercio in Rio reprinted the story. Local memory in Sobral holds that the town learned of its place in physics this way.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Diário do Nordeste (2005), drawing on the Museu do Eclipse collection. Issue dates not traced."
+  },
+  {
+   "date_iso": "1920-01",
+   "date_display": "January 1920",
+   "precision": "month",
+   "eye": "dyson",
+   "place": "London",
+   "headline": "The report in print",
+   "digest": "The joint report appeared in the Philosophical Transactions. It gave Sobral 4-inch 1.98″ ± 0.12″ and Príncipe 1.61″ ± 0.30″ against a prediction of 1.75″, noting that the Príncipe work was 'generally interfered with by cloud'. Its last pages warned that so fine a star field would not come again soon.",
+   "quote": "The unusually favourable conditions of the 1919 eclipse will not recur.",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. A 220 (1920) 291–333, General Conclusions (PDF)."
+  },
+  {
+   "date_iso": "1925-05",
+   "date_display": "May 1925",
+   "precision": "month",
+   "eye": "einstein",
+   "place": "Rio de Janeiro",
+   "headline": "In Rio, the man whose question Sobral answered",
+   "digest": "On his South American tour Einstein spent a week in Rio de Janeiro, where he was received by the Brazilian Academy of Sciences, which Morize then headed. Brazilian newspapers reported him crediting the sky of Brazil with answering his question. His own travel diary of the visit is published in the Collected Papers.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Einstein's 1925 travel diary (Collected Papers vol. 14); Brazilian press of May 1925. Not fetched for this chapter."
+  },
+  {
+   "date_iso": "1979",
+   "date_display": "1979",
+   "precision": "year",
+   "eye": "harvey",
+   "place": "Royal Greenwich Observatory, Herstmonceux",
+   "headline": "Sixty years on, the plates go through a machine",
+   "digest": "For the Einstein centenary, the RGO astrometry group re-measured the Sobral plates with a modern automatic measuring engine and computer reduction. The 4-inch plates gave 1.90″ ± 0.11″. The once-discarded astrographic plates, re-reduced, gave 1.55″ ± 0.34″, close to Einstein rather than Newton.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Harvey, The Observatory 99 (1979) 195–198, as summarised by Crispino and Kennefick (2019)."
+  },
+  {
+   "date_iso": "1980",
+   "date_display": "1980",
+   "precision": "year",
+   "eye": "earman-glymour",
+   "place": "United States",
+   "headline": "Did the astronomers pick the plates to fit?",
+   "digest": "Earman and Glymour argued that the 1919 evidence was far weaker than announced. In their account the astrographic plates, which pointed toward the Newtonian value, were discarded on grounds that could equally have been applied to the 4-inch plates. They saw expectation, especially Eddington's, at work in the choice.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Earman and Glymour, Historical Studies in the Physical Sciences 11 (1980); position as summarised by Kennefick (2007)."
+  },
+  {
+   "date_iso": "2007-09",
+   "date_display": "September 2007",
+   "precision": "month",
+   "eye": "kennefick",
+   "place": "Fayetteville, Arkansas",
+   "headline": "Not only because of theory: the case for Dyson's judgement",
+   "digest": "Kennefick argued that the critics had built a myth to replace the old one. From the archives he showed that Dyson, not Eddington, decided how to weigh the Sobral plates. He argued that the systematic focus error in the astrographic plates was a real, documented reason to give them little weight. He cited the 1979 re-reduction as support.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kennefick, arXiv 0709.0685 (2007)."
+  },
+  {
+   "date_iso": "2019-07",
+   "date_display": "July 2019",
+   "precision": "month",
+   "eye": "kennefick",
+   "place": "Belém and Fayetteville",
+   "headline": "A centenary account from both sides of the Atlantic",
+   "digest": "With the Brazilian physicist Luís Crispino, Kennefick set out the expeditions' timeline and the results table: 1919 versus 1979, instrument by instrument. They put the Brazilian side back into the story, from the Estado do Pará article to Morize's commission.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Crispino and Kennefick, arXiv 1907.10687 (2019)."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1911-06",
+   "date_display": "June 1911",
+   "eye": "einstein",
+   "claim": "Predicts deflection of starlight at the solar limb of about 0.83″ (equivalence principle only)",
+   "form": "predicted",
+   "evidence": "Annalen der Physik 35 (1911)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1915-11-18",
+   "date_display": "18 November 1915",
+   "eye": "einstein",
+   "claim": "Full general relativity doubles the predicted limb deflection to about 1.7″ (later stated as 1.75″)",
+   "form": "predicted",
+   "evidence": "Sitzungsberichte, Prussian Academy, 18 Nov 1915",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1917-03",
+   "date_display": "March 1917",
+   "eye": "dyson",
+   "claim": "Identifies the 29 May 1919 eclipse, with the Sun among the bright Hyades, as the best test of the prediction",
+   "form": "predicted",
+   "evidence": "MNRAS 77 (1917)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1918-06",
+   "date_display": "mid-1918",
+   "eye": "morize",
+   "claim": "Recommends Sobral, Ceará, as a station with good prospects of a clear sky at the end of May",
+   "form": "recorded",
+   "evidence": "Morize's site report; Pesquisa FAPESP (2019); Videira (2019)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1919-05-29",
+   "date_display": "29 May 1919, Sobral",
+   "eye": "davidson",
+   "claim": "Clear gap about 1 minute before 2nd contact; 19 astrographic plates (5 s/10 s) and 8 four-inch plates (28 s); totality c. 5 min",
+   "form": "seen",
+   "evidence": "1920 report, Sobral section",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1919-05-29",
+   "date_display": "29 May 1919, Sobral",
+   "eye": "morize",
+   "claim": "Spectroscopy and photography of the solar corona by the Brazilian commission (T. H. Lee on the spectroscope)",
+   "form": "seen",
+   "evidence": "Pesquisa FAPESP (2016)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1919-05-29",
+   "date_display": "29 May 1919, Príncipe, totality 14h13m05s–14h18m07s GMT",
+   "eye": "eddington",
+   "claim": "Thunderstorm 10–11.30 a.m.; 16 plates exposed through cloud; stars only on the last plates, two (W, X) of full use",
+   "form": "seen",
+   "evidence": "1920 report, Príncipe section",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1919-06-03",
+   "date_display": "3 June 1919",
+   "eye": "eddington",
+   "claim": "Measures one Príncipe plate on site; result agrees with Einstein",
+   "form": "measured",
+   "evidence": "Eddington's notebook, via Douglas (1956)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1919-06-05",
+   "date_display": "early June 1919",
+   "eye": "davidson",
+   "claim": "Astrographic star images distorted, apparently by solar heating of the coelostat mirror; doubts their value",
+   "form": "recorded",
+   "evidence": "Davidson's diary (RGO archives), via Crispino and Kennefick (2019)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1919-09-22",
+   "date_display": "22 September 1919",
+   "eye": "lorentz",
+   "claim": "Reports by telegram a preliminary star displacement at the limb between 0.9″ and about 1.8″",
+   "form": "reported",
+   "evidence": "Collected Papers of Albert Einstein vol. 9",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1919-11-06",
+   "date_display": "6 November 1919",
+   "eye": "dyson",
+   "claim": "Sobral 4-inch 1.98″ ± 0.12″; Príncipe 1.61″ ± 0.30″; Sobral astrographic 0.93″ (given little weight); prediction 1.75″, Newtonian 0.87″",
+   "form": "measured",
+   "evidence": "Phil. Trans. A 220 (1920) 291–333; joint meeting",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1919-11-06",
+   "date_display": "6 November 1919",
+   "eye": "eddington",
+   "claim": "Interprets the result as establishing Einstein's law of gravitation, distinguishing law from full theory",
+   "form": "explained",
+   "evidence": "Report of the meeting, The Observatory (1919)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1919-11-06",
+   "date_display": "6 November 1919",
+   "eye": "silberstein",
+   "claim": "Accepts the deflection but disputes that it proves space-time curvature; urges caution in revising Newton",
+   "form": "disputed",
+   "evidence": "Report of the meeting, The Observatory (1919)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1919-11-07",
+   "date_display": "7 November 1919",
+   "eye": "times",
+   "claim": "Reports the result as a revolution in science and the overthrow of Newtonian ideas",
+   "form": "reported",
+   "evidence": "The Times, 7 Nov 1919",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1979",
+   "date_display": "1979",
+   "eye": "harvey",
+   "claim": "Re-measured Sobral plates: 4-inch 1.90″ ± 0.11″; astrographic 1.55″ ± 0.34″",
+   "form": "measured",
+   "evidence": "Harvey, The Observatory 99 (1979) 195–198",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1980",
+   "date_display": "1980",
+   "eye": "earman-glymour",
+   "claim": "Position: the plate selection of 1919 was not justified by the data and leaned toward the expected answer",
+   "form": "disputed",
+   "evidence": "Historical Studies in the Physical Sciences 11 (1980)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "2007-09",
+   "date_display": "September 2007",
+   "eye": "kennefick",
+   "claim": "Position: Dyson's weighting of the plates rested on a documented instrumental fault and was sound; supported by the 1979 re-reduction",
+   "form": "disputed",
+   "evidence": "Kennefick, arXiv 0709.0685",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1919-03-08",
+   "label": "Four observers sail together from Liverpool on the Anselm",
+   "eyes": [
+    "eddington",
+    "crommelin",
+    "davidson"
+   ],
+   "note": "One ship, two destinations: the Cambridge Quaker theorist and the Greenwich practical men begin together and part at Madeira. From here the chapter runs in two hemispheres."
+  },
+  {
+   "date": "1919-04-23",
+   "label": "Week of arrivals: Relativity in a Belém paper (20 Apr); Eddington on Príncipe (23 Apr); Sobral reached (30 Apr)",
+   "eyes": [
+    "press-br",
+    "eddington",
+    "crommelin"
+   ],
+   "note": "In Belém the theory reaches print in Portuguese while its testers are still in transit. On Príncipe Eddington picks a cocoa estate, and a week later the Greenwich men are welcomed by Sobral's mayor."
+  },
+  {
+   "date": "1919-05-29",
+   "label": "The eclipse, west to east: Sobral just before 9 a.m. local, then Príncipe about two hours later by Greenwich time",
+   "eyes": [
+    "davidson",
+    "crommelin",
+    "morize",
+    "eddington"
+   ],
+   "note": "At Sobral the cloud opens a minute before totality; the British photograph stars and Morize's team the corona. Hours later, by Greenwich clocks, the shadow reaches Príncipe after a thunderstorm and Eddington shoots sixteen plates through cloud. 'Eclipse splendid' and 'Through cloud. Hopeful' are the same afternoon's two telegrams."
+  },
+  {
+   "date": "1919-06-03",
+   "label": "First look at the glass: Eddington measures a plate (3 Jun); Davidson finds the astrographic plates blurred (by 5 Jun)",
+   "eyes": [
+    "eddington",
+    "davidson"
+   ],
+   "note": "On opposite sides of the Atlantic the two parties read their plates in the same week, with opposite feelings. Eddington's one plate agrees with Einstein. At Sobral the larger instrument appears spoiled, and only the reserve lens gives sharp stars."
+  },
+  {
+   "date": "1919-07-14",
+   "label": "Mid-July: Eddington home at Liverpool (14 Jul) while the Sobral comparison plates are taken (10–18 Jul)",
+   "eyes": [
+    "eddington",
+    "davidson",
+    "crommelin"
+   ],
+   "note": "Príncipe needed no night plates, so Eddington was home; Sobral still had to wait for the Hyades to rise into the night sky."
+  },
+  {
+   "date": "1919-09-27",
+   "label": "The news reaches Berlin: Lorentz's telegram (22 Sep) and Einstein's postcard (27 Sep)",
+   "eyes": [
+    "lorentz",
+    "einstein",
+    "eddington"
+   ],
+   "note": "A preliminary figure given at Bournemouth travels via a Dutch listener to Lorentz and on to Berlin, where Einstein writes to his dying mother. The range in the telegram is still wide."
+  },
+  {
+   "date": "1919-11-06",
+   "label": "The joint meeting at Burlington House",
+   "eyes": [
+    "dyson",
+    "eddington",
+    "crommelin",
+    "thomson",
+    "silberstein"
+   ],
+   "note": "Five voices in one room: the planner reads the numbers, the theorist claims the law, the observer gives the stars, the President calls it historic, and the sceptic warns that bent light is not yet curved space."
+  },
+  {
+   "date": "1919-11-07",
+   "label": "The press next morning and after: London, then Sobral and Rio",
+   "eyes": [
+    "times",
+    "einstein",
+    "press-br"
+   ],
+   "note": "The Times prints its revolution headline. Within three weeks Einstein writes for the same paper, and the Sobral diocesan weekly translates the news for the town where it was seen."
+  },
+  {
+   "date": "1979",
+   "label": "Reanalyses: 1979 re-reduction, 1980 critique, 2007 defence",
+   "eyes": [
+    "harvey",
+    "earman-glymour",
+    "kennefick"
+   ],
+   "note": "The same glass, read again by machine, and the same archive, read by historians who disagree on whether the 1919 judgement was sound."
+  }
+ ],
+ "ties": [
+  {
+   "a": "dyson",
+   "b": "eddington",
+   "kind": "met",
+   "note": "Dyson planned the expeditions and helped secure Eddington's deferment from military service on condition he lead one; they co-signed the 1920 report."
+  },
+  {
+   "a": "crommelin",
+   "b": "davidson",
+   "kind": "met",
+   "note": "Greenwich colleagues who shared the Sobral station from April to July 1919."
+  },
+  {
+   "a": "eddington",
+   "b": "crommelin",
+   "kind": "met",
+   "note": "Sailed together on the Anselm from Liverpool to Madeira, 8–12 March 1919, and spoke at the same meeting on 6 November."
+  },
+  {
+   "a": "morize",
+   "b": "davidson",
+   "kind": "met",
+   "note": "Both commissions worked at Sobral; Morize's 1918 report had recommended the site the British used."
+  },
+  {
+   "a": "morize",
+   "b": "einstein",
+   "kind": "met",
+   "note": "As head of the Brazilian Academy of Sciences, Morize was Einstein's host institution in Rio in May 1925."
+  },
+  {
+   "a": "lorentz",
+   "b": "einstein",
+   "kind": "read each other",
+   "note": "Close friends and correspondents; Lorentz's telegram of 22 September 1919 was Einstein's first news of the result."
+  },
+  {
+   "a": "eddington",
+   "b": "einstein",
+   "kind": "read each other",
+   "note": "Eddington received Einstein's papers through de Sitter during the war and wrote the first full English account; they met only later."
+  },
+  {
+   "a": "thomson",
+   "b": "silberstein",
+   "kind": "opposite sides",
+   "note": "At the same meeting Thomson hailed the result as historic and Silberstein argued it did not prove curved space."
+  },
+  {
+   "a": "times",
+   "b": "einstein",
+   "kind": "mentioned",
+   "note": "The Times announced Einstein's revolution on 7 November and three weeks later published his own explanation of relativity."
+  },
+  {
+   "a": "harvey",
+   "b": "dyson",
+   "kind": "influenced",
+   "note": "The 1979 re-reduction measured the same Sobral plates Dyson had weighed in 1919."
+  },
+  {
+   "a": "earman-glymour",
+   "b": "kennefick",
+   "kind": "opposite sides",
+   "note": "Earman and Glymour (1980) questioned the 1919 plate selection; Kennefick (2007) argued against their reading."
+  },
+  {
+   "a": "press-br",
+   "b": "crommelin",
+   "kind": "mentioned",
+   "note": "The Estado do Pará printed a translation of the British astronomers' article while Crommelin and Davidson waited in Belém."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "eclipse-1715",
+   "note": "Halley's map and appeal for timed observations of the 1715 eclipse over England began the Royal Society's tradition of organised eclipse observation. The 1919 expeditions were run by the Royal Society and Royal Astronomical Society's Joint Permanent Eclipse Committee."
+  },
+  {
+   "to": "v4:transits-of-venus",
+   "note": "The transit expeditions of the 18th and 19th centuries set the pattern followed in 1919: paired distant stations against bad weather, timed photographic plates, and months of measurement at home. Greenwich ran both kinds of expedition."
+  },
+  {
+   "to": "v4:fission",
+   "note": "Einstein, made world-famous by the November 1919 announcement, was the signatory of the 1939 letter to Roosevelt on uranium fission; his celebrity began with this eclipse."
+  },
+  {
+   "to": "v6:paris-1919",
+   "note": "The expeditions sailed in March 1919 while the Paris Peace Conference sat, and the Sobral party was in the field when the Treaty of Versailles was signed on 28 June. The result was hailed as British astronomers confirming a German theory months after the war."
+  },
+  {
+   "to": "v1:ww1",
+   "note": "The war shaped the test: the 1914 German expedition to observe an eclipse in the Crimea was interned, wartime blockade kept Einstein's papers from Britain except through neutral Holland, and Eddington's conscientious objection was resolved through the expedition."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://royalsociety.org/-/media/blogs/2024/08/observing-relativity/observing-relativity-7.jpg",
+   "title": "Sobral star field from the 4-inch lens",
+   "caption": "Half-tone reproduction of a negative from the 4-inch lens at Sobral, with the positions of stars around the eclipsed Sun marked. These were the plates given greatest weight in 1919.",
+   "date": "29 May 1919 (published 1920)",
+   "credit": "Dyson, Eddington and Davidson, Phil. Trans. A (1920); Royal Society"
+  },
+  {
+   "url": "https://royalsociety.org/-/media/blogs/2024/08/observing-relativity/observing-relativity-6.jpg",
+   "title": "Observing shed at Sobral",
+   "caption": "The British instruments under their shelter at Sobral, with the coelostat that fed the telescopes; the heat of the Sun on the mirror is thought to have spoiled the astrographic focus.",
+   "date": "1919",
+   "credit": "Royal Society"
+  },
+  {
+   "url": "https://royalsociety.org/-/media/blogs/2024/08/observing-relativity/observing-relativity-8.jpg",
+   "title": "The Times, 7–8 November 1919",
+   "caption": "Press cuttings from The Times on the joint meeting, kept in the Royal Society's archive (PC/1/28).",
+   "date": "7–8 November 1919",
+   "credit": "The Times; Royal Society archive"
+  },
+  {
+   "url": "https://royalsociety.org/-/media/blogs/2024/08/observing-relativity/observing-relativity-4.jpg",
+   "title": "Arthur Eddington and Charles Davidson",
+   "caption": "Portraits of Eddington, who led the Príncipe party, and Davidson, the Greenwich observer at Sobral, from the Royal Society's collections.",
+   "date": "early 20th century",
+   "credit": "Royal Society (IM/001238; RS.19863)"
+  },
+  {
+   "url": "https://royalsociety.org/-/media/blogs/2024/08/observing-relativity/observing-relativity-3.jpg",
+   "title": "Sir Frank Dyson",
+   "caption": "The Astronomer Royal who planned both expeditions and weighed their plates.",
+   "date": "early 20th century",
+   "credit": "Royal Society (RS.1042)"
+  },
+  {
+   "url": "https://archives.trin.cam.ac.uk/index.php/letters-from-a-s-eddington-to-sarah-ann-eddington-madeira-and-the-eclipse-at-principe",
+   "title": "Eddington's letters home from Madeira and Príncipe",
+   "caption": "Catalogue record for Eddington's letters to his mother and sister describing the voyage, Roça Sundy and the eclipse (Trinity College, Cambridge, EDDN/A/4).",
+   "date": "1919",
+   "credit": "Trinity College Library, Cambridge"
+  }
+ ],
+ "further": [
+  {
+   "title": "Dyson, Eddington and Davidson, A determination of the deflection of light by the Sun's gravitational field (Phil. Trans. A, 1920), PDF",
+   "url": "https://w.astro.berkeley.edu/~kalas/labs/documents/dyson1920.pdf"
+  },
+  {
+   "title": "Crispino and Kennefick, 100 years of the first experimental test of General Relativity (2019)",
+   "url": "https://arxiv.org/pdf/1907.10687v1.pdf"
+  },
+  {
+   "title": "Kennefick, Not only because of theory: Dyson, Eddington and the competing myths of the 1919 eclipse expedition (2007)",
+   "url": "https://arxiv.org/pdf/0709.0685"
+  },
+  {
+   "title": "Videira, Henrique Morize e o eclipse solar total de maio de 1919 (RBEF, 2019)",
+   "url": "https://scielo.br/j/rbef/a/wKRGLpdN7PFMkTjNyNDtssn/abstract/?lang=en"
+  },
+  {
+   "title": "Pesquisa FAPESP, When light bent (2019)",
+   "url": "https://revistapesquisa.fapesp.br/en/when-light-bent/"
+  },
+  {
+   "title": "Royal Society blog, Observing relativity (2024)",
+   "url": "https://royalsociety.org/blog/2024/08/observing-relativity"
+  },
+  {
+   "title": "Trinity College, Cambridge: Eddington letters, Madeira and Príncipe",
+   "url": "https://archives.trin.cam.ac.uk/index.php/letters-from-a-s-eddington-to-sarah-ann-eddington-madeira-and-the-eclipse-at-principe"
+  }
+ ],
+ "vantage_key": "0 = observers at the eclipse stations; 1 = the Brazilian commission on the same ground; 2 = Sobral and Belém press and the London meeting room; 3 = the national press; 4 = abroad or later: Einstein and Lorentz hearing by telegram, and the re-measurers and historians of 1979–2019."
+}

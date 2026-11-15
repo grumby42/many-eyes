@@ -1,0 +1,1536 @@
+{
+ "id": "corps-of-discovery",
+ "title": "Ocian in View: The Corps of Discovery",
+ "short_title": "The Corps of Discovery",
+ "subtitle": "The Lewis and Clark expedition, Missouri River to the Pacific, 1804–1806",
+ "span": "1803–1806",
+ "intro": [
+  "On 14 May 1804 a keelboat and two pirogues pushed off from Camp Dubois, opposite the mouth of the Missouri, and began rowing against the current. What makes this expedition unusual for a book about many eyes is that so many of its members wrote. Jefferson had ordered the captains to keep journals and urged others to do the same, and at least seven men did: the two captains, Meriwether Lewis and William Clark, and the enlisted journalists Sergeant John Ordway, Sergeant Charles Floyd, Patrick Gass (a private who became sergeant after Floyd died), Private Joseph Whitehouse and Private Robert Frazer, whose journal is lost. Gary Moulton's edition, now online from the University of Nebraska, puts every keeper's entry for a given day on one page. So when the boats left, when Floyd died, or when Clark thought he saw the ocean, we can read four or five accounts of the same afternoon side by side.",
+  "Those enlisted journals are not echoes of the captains. Ordway counts the men and the guns, Whitehouse writes down what the cook and the woodcutters did, and Gass's 1807 book (the first account of the expedition in print, heavily smoothed by his Pittsburgh editor David McKeehan) keeps the rhythm of a carpenter's working day. Where the captains write as diplomats and naturalists, the sergeants record the cost in labour, sickness and weather.",
+  "The heart of this chapter is the encounter, and here the record is lopsided. The nations the Corps met (the Otoe, the Teton Lakota, the Arikara, the Mandan and Hidatsa, the Lemhi Shoshone, the Nimiipuu or Nez Perce, the Clatsop and Chinook) kept their own histories, but mostly not on paper. One dated Indigenous record does survive for these years: the Dakota winter counts, in which a keeper painted one image for each year. Lone Dog's count, kept among the Yanktonai, marks 1804–05 with a calumet dance before war and 1805–06 with eight men killed by the Crow. It does not mention the strangers on the river. That silence is itself evidence of how small the expedition looked from the plains. The Nimiipuu remember the arrival at Weippe Prairie through an oral tradition about a woman called Wetxuuwíis. It was recorded from tribal elders in 2001–02 and is flagged here as oral tradition. Sacagawea and the Mandan leader Sheheke (Big White) left no writing of their own. They appear here only through other people's pages, and their entries say so.",
+  "Two rival empires were also watching. At the Mandan villages that winter, François-Antoine Larocque of the British North West Company (a 20-year-old clerk who preferred to write in English) kept a journal of his visits to Fort Mandan, where the captains warned him not to hand out British flags and medals. Far to the south, Spanish officials read the expedition as an invasion. The Commandant General of the Interior Provinces, Nemesio Salcedo, ordered New Mexico to send armed parties to find and stop the Americans. They never did. Salcedo's record is administrative: dated orders rather than a diary, and it is tagged that way.",
+  "This chapter has seven clusters where several eyes describe the same day: the departure on 14 May 1804; Floyd's death on 20 August 1804; the standoff with the Teton Lakota on 25 September 1804; the meetings with Larocque at Fort Mandan in late November 1804; Camp Fortunate on 17 August 1805, when Sacagawea recognized her own people; Clark's 'Ocian in view!' on 7 November 1805, written on the Columbia estuary about 20 miles short of the sea; and the return to St. Louis on 23 September 1806. Quotations keep the writers' own spelling. The journals' language about Native peoples is of its time. Nations are named here by their own names, with the expedition's names in brackets."
+ ],
+ "calendar_note": "All dates are Gregorian, as the journals kept them. Many entries were written up or copied later: Clark kept field notes and then rewrote them in notebooks, Gass's text was revised for print in 1807, and Whitehouse's journal also survives in a later paraphrase. The Dakota winter counts do not use days. Each image names a whole winter-year (roughly first snow to first snow), so those entries carry precision 'range' and are pinned to 1 December only so that they sort in the right place.",
+ "eyes": [
+  {
+   "id": "lewis",
+   "short": "Lewis",
+   "name": "Meriwether Lewis",
+   "life": "1774–1809",
+   "role": "Captain, 1st US Infantry; Jefferson's former private secretary; co-commander",
+   "side": "United States (Corps of Discovery)",
+   "where": "Upper Missouri, Rocky Mountains, Columbia; St. Louis on return",
+   "lat": 47.3,
+   "lon": -101.08,
+   "waypoints": [
+    {
+     "lat": 38.63,
+     "lon": -90.19,
+     "label": "St. Louis 1804"
+    },
+    {
+     "lat": 47.3,
+     "lon": -101.08,
+     "label": "Fort Mandan"
+    },
+    {
+     "lat": 47.5,
+     "lon": -111.3,
+     "label": "Great Falls"
+    },
+    {
+     "lat": 45.0,
+     "lon": -112.86,
+     "label": "Camp Fortunate"
+    },
+    {
+     "lat": 46.13,
+     "lon": -123.88,
+     "label": "Fort Clatsop"
+    },
+    {
+     "lat": 38.63,
+     "lon": -90.19,
+     "label": "St. Louis 1806"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "commander and naturalist",
+   "form": "journal",
+   "language": "English",
+   "authenticity": "Lewis's journals have long gaps, including most of 1804 and stretches of 1805–06. Some may be lost and some were perhaps never written. The surviving notebooks are at the American Philosophical Society. They were first published in full by Thwaites in 1904–05 and are edited by Moulton (1983–2001).",
+   "bio": "Lewis was a Virginia army officer whom Jefferson trained in Philadelphia in botany, celestial navigation and medicine. He writes the expedition's most literary and self-searching pages, but his record is patchy. He died of gunshot wounds, very probably self-inflicted, in 1809, before the journals were published.",
+   "sources": [
+    {
+     "title": "The Journals of the Lewis and Clark Expedition (Moulton ed.), University of Nebraska–Lincoln",
+     "url": "https://lewisandclarkjournals.unl.edu/"
+    }
+   ]
+  },
+  {
+   "id": "clark",
+   "short": "Clark",
+   "name": "William Clark",
+   "life": "1770–1838",
+   "role": "Co-commander (commissioned only a lieutenant, though Lewis always called him captain); mapmaker",
+   "side": "United States (Corps of Discovery)",
+   "where": "With the main party throughout; led the boats while Lewis scouted ahead",
+   "lat": 46.27,
+   "lon": -123.58,
+   "waypoints": [
+    {
+     "lat": 38.82,
+     "lon": -90.1,
+     "label": "Camp Dubois"
+    },
+    {
+     "lat": 42.46,
+     "lon": -96.37,
+     "label": "Floyd's Bluff"
+    },
+    {
+     "lat": 47.3,
+     "lon": -101.08,
+     "label": "Fort Mandan"
+    },
+    {
+     "lat": 45.0,
+     "lon": -112.86,
+     "label": "Camp Fortunate"
+    },
+    {
+     "lat": 46.13,
+     "lon": -123.88,
+     "label": "Fort Clatsop"
+    },
+    {
+     "lat": 38.63,
+     "lon": -90.19,
+     "label": "St. Louis"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "commander and mapmaker",
+   "form": "journal",
+   "language": "English",
+   "authenticity": "Clark is the most consistent keeper. He kept rough field notes (some on loose sheets, and one notebook bound in elkskin) and later fair-copy notebooks, so some days exist in two or three versions. The originals are mostly at the American Philosophical Society and the Missouri Historical Society. The 1804 field notes were found in 1953.",
+   "bio": "Clark was a Kentucky frontier officer and Lewis's friend from the army. His creatively spelled, concrete entries carry the day-by-day story, and his maps were the expedition's lasting scientific product. York, an enslaved man Clark held, made the whole journey. Clark later served as Superintendent of Indian Affairs at St. Louis.",
+   "sources": [
+    {
+     "title": "The Journals of the Lewis and Clark Expedition (Moulton ed.)",
+     "url": "https://lewisandclarkjournals.unl.edu/"
+    },
+    {
+     "title": "Day-by-Day, Discovering Lewis & Clark",
+     "url": "https://lewis-clark.org/day-by-day/7-nov-1805/"
+    }
+   ]
+  },
+  {
+   "id": "ordway",
+   "short": "Sgt. Ordway",
+   "name": "John Ordway",
+   "life": "c. 1775–c. 1817",
+   "role": "Sergeant from New Hampshire; the Corps' top sergeant, in charge of the camp when the captains were away",
+   "side": "United States (Corps of Discovery)",
+   "where": "With the boats; led the canoe party down the Missouri in 1806",
+   "lat": 47.3,
+   "lon": -101.08,
+   "waypoints": [
+    {
+     "lat": 38.82,
+     "lon": -90.1,
+     "label": "Camp Dubois"
+    },
+    {
+     "lat": 42.46,
+     "lon": -96.37,
+     "label": "Floyd's Bluff"
+    },
+    {
+     "lat": 47.3,
+     "lon": -101.08,
+     "label": "Fort Mandan"
+    },
+    {
+     "lat": 45.0,
+     "lon": -112.86,
+     "label": "Camp Fortunate"
+    },
+    {
+     "lat": 46.13,
+     "lon": -123.88,
+     "label": "Fort Clatsop"
+    },
+    {
+     "lat": 38.63,
+     "lon": -90.19,
+     "label": "St. Louis"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "enlisted eyewitness, keeper of order",
+   "form": "journal",
+   "language": "English",
+   "authenticity": "Ordway is the only journalist with an entry for every day of the expedition. The captains bought his journal in 1806, and it then dropped out of sight for about a century until it turned up among the Biddle family papers. It was first published in 1916 and is in Moulton vol. 9.",
+   "bio": "Ordway was literate, methodical and trusted. His entries are the best record of what the men did each day: who hunted, which boat leaked, what the crowd shouted. His last entry ends with the word 'finis'.",
+   "sources": [
+    {
+     "title": "Moulton ed., vol. 9 (Ordway)",
+     "url": "https://lewisandclarkjournals.unl.edu/"
+    },
+    {
+     "title": "Return home day, NPS",
+     "url": "https://www.nps.gov/articles/return-home-day-for-lewis-and-clark-september-23-1806.htm"
+    }
+   ]
+  },
+  {
+   "id": "gass",
+   "short": "Sgt. Gass",
+   "name": "Patrick Gass",
+   "life": "1771–1870",
+   "role": "Carpenter; private, elected sergeant after Floyd's death (August 1804)",
+   "side": "United States (Corps of Discovery)",
+   "where": "With the main party; chief builder of Fort Mandan and Fort Clatsop",
+   "lat": 47.3,
+   "lon": -101.08,
+   "waypoints": [
+    {
+     "lat": 38.82,
+     "lon": -90.1,
+     "label": "Camp Dubois"
+    },
+    {
+     "lat": 42.46,
+     "lon": -96.37,
+     "label": "Floyd's Bluff"
+    },
+    {
+     "lat": 47.3,
+     "lon": -101.08,
+     "label": "Fort Mandan"
+    },
+    {
+     "lat": 45.0,
+     "lon": -112.86,
+     "label": "Camp Fortunate"
+    },
+    {
+     "lat": 46.13,
+     "lon": -123.88,
+     "label": "Fort Clatsop"
+    },
+    {
+     "lat": 38.63,
+     "lon": -90.19,
+     "label": "St. Louis"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "enlisted eyewitness, builder",
+   "form": "journal (published 1807, editorially revised)",
+   "language": "English",
+   "authenticity": "Gass's manuscript is lost. What survives is 'A Journal of the Voyages and Travels of a Corps of Discovery' (Pittsburgh, 1807), which the bookseller David McKeehan rewrote into polished prose, so the wording is partly McKeehan's. It was the first account of the expedition in print, years ahead of the official 1814 history.",
+   "bio": "Gass was an Irish-Pennsylvanian carpenter who was elected sergeant by a vote of the men after Floyd died, the first election held west of the Mississippi under US authority. He outlived every other member of the Corps, dying in 1870 at 98.",
+   "sources": [
+    {
+     "title": "Gass, Journal of the Voyages and Travels of a Corps of Discovery (1807), NYPL Digital Collections",
+     "url": "https://rp-digitalcollections.nypl.org/collections/a-journal-of-the-voyages-and-travels-of-a-corps-of-discovery"
+    },
+    {
+     "title": "Moulton ed., vol. 10 (Gass)",
+     "url": "https://lewisandclarkjournals.unl.edu/"
+    }
+   ]
+  },
+  {
+   "id": "floyd",
+   "short": "Sgt. Floyd",
+   "name": "Charles Floyd",
+   "life": "1782–1804",
+   "role": "Sergeant from Kentucky, aged about 22",
+   "side": "United States (Corps of Discovery)",
+   "where": "On the lower Missouri, May–August 1804",
+   "lat": 42.46,
+   "lon": -96.37,
+   "waypoints": [
+    {
+     "lat": 38.82,
+     "lon": -90.1,
+     "label": "Camp Dubois"
+    },
+    {
+     "lat": 39.1,
+     "lon": -94.6,
+     "label": "Kaw River mouth"
+    },
+    {
+     "lat": 41.3,
+     "lon": -95.9,
+     "label": "Council Bluff"
+    },
+    {
+     "lat": 42.46,
+     "lon": -96.37,
+     "label": "Floyd's Bluff"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "eyewitness, then the one who died",
+   "form": "journal",
+   "language": "English",
+   "authenticity": "Floyd's short journal (14 May–18 August 1804) went back east with the keelboat party in 1805 and is now held by the Wisconsin Historical Society (Draper Collection). It was first published by Thwaites (1904–05) and is in Moulton vol. 9.",
+   "bio": "Floyd was the only member of the Corps to die on the expedition, almost certainly of a ruptured appendix, which no doctor of 1804 could have treated. His brief entries stop two days before his death. Every other keeper recorded the burial on the bluff that now bears his name.",
+   "sources": [
+    {
+     "title": "Sergeant Charles Floyd dies, NPS",
+     "url": "https://www.nps.gov/articles/000/sergeant-charles-floyd-dies-on-lewis-and-clark-expedition.htm"
+    },
+    {
+     "title": "Moulton ed., vol. 9 (Floyd)",
+     "url": "https://lewisandclarkjournals.unl.edu/"
+    }
+   ]
+  },
+  {
+   "id": "whitehouse",
+   "short": "Pvt. Whitehouse",
+   "name": "Joseph Whitehouse",
+   "life": "c. 1775–after 1817",
+   "role": "Private; tailor and hide-dresser for the Corps",
+   "side": "United States (Corps of Discovery)",
+   "where": "With the main party",
+   "lat": 47.3,
+   "lon": -101.08,
+   "waypoints": [
+    {
+     "lat": 38.82,
+     "lon": -90.1,
+     "label": "Camp Dubois"
+    },
+    {
+     "lat": 42.46,
+     "lon": -96.37,
+     "label": "Floyd's Bluff"
+    },
+    {
+     "lat": 47.3,
+     "lon": -101.08,
+     "label": "Fort Mandan"
+    },
+    {
+     "lat": 45.0,
+     "lon": -112.86,
+     "label": "Camp Fortunate"
+    },
+    {
+     "lat": 46.13,
+     "lon": -123.88,
+     "label": "Fort Clatsop"
+    },
+    {
+     "lat": 38.63,
+     "lon": -90.19,
+     "label": "St. Louis"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "enlisted eyewitness, ordinary work",
+   "form": "journal",
+   "language": "English",
+   "authenticity": "The original journal runs to 2 April 1806 and resurfaced in 1903. Thwaites published it in 1905. A later fair-copy paraphrase (to November 1805) was found in 1966. Both are in Moulton vol. 11, and attributions of a few days are uncertain.",
+   "bio": "Whitehouse was a private with a good eye for daily work: charcoal burning, canoe felling, the trade in corn. He gives the expedition's routine its texture. He later served in the War of 1812 and deserted in 1817, after which he disappears from the record.",
+   "sources": [
+    {
+     "title": "Moulton ed., vol. 11 (Whitehouse), UNL",
+     "url": "https://lewisandclarkjournals.unl.edu/media/data/lewisandclark/source/tei/lc.jrn.introduction.v11.xml"
+    }
+   ]
+  },
+  {
+   "id": "jefferson",
+   "short": "Jefferson",
+   "name": "Thomas Jefferson",
+   "life": "1743–1826",
+   "role": "Third President of the United States; planner and sponsor of the expedition",
+   "side": "United States (government)",
+   "where": "Washington and Monticello",
+   "lat": 38.9,
+   "lon": -77.04,
+   "vantage": 3,
+   "vantage_label": "sponsor at a distance",
+   "form": "dated letters and instructions",
+   "language": "English",
+   "authenticity": "Holograph instructions and letters, edited in The Papers of Thomas Jefferson and online at Founders Online.",
+   "bio": "Jefferson had wanted an overland reconnaissance to the Pacific since the 1780s. His June 1803 instructions read like a curriculum: rivers, soils, animals, languages and trade, together with an order to treat the nations 'in the most friendly & conciliatory manner.' He waited more than two years for word of the Corps.",
+   "sources": [
+    {
+     "title": "Instructions for Meriwether Lewis, 20 June 1803 (Founders Online)",
+     "url": "https://founders.archives.gov/documents/Jefferson/01-40-02-0136-0005"
+    },
+    {
+     "title": "Jefferson to Lewis, 26 October 1806 (Founders Online)",
+     "url": "https://founders.archives.gov/documents/Jefferson/99-01-02-4473"
+    }
+   ]
+  },
+  {
+   "id": "lone-dog",
+   "short": "Lone Dog count",
+   "name": "Lone Dog's winter count (Yanktonai Dakota)",
+   "life": "count spans 1800–1871; Lone Dog fl. 1870s",
+   "role": "Keeper of a pictographic year-record painted on a buffalo robe",
+   "side": "Oceti Sakowin (Dakota/Lakota): Yanktonai (Ihanktonwanna)",
+   "where": "Upper Missouri plains; the robe was copied near Fort Peck, Montana, in the 1870s",
+   "lat": 45.5,
+   "lon": -100.5,
+   "vantage": 2,
+   "vantage_label": "host nations' own year-record",
+   "form": "chronicle (pictographic winter count)",
+   "language": "Dakota pictographs, with keepers' oral glosses",
+   "authenticity": "Garrick Mallery published the count in 1877 and 1886, and the Smithsonian holds a copy. One glyph stands for each winter, and the meaning of each glyph comes from the keeper's spoken explanation, recorded through interpreters. Lone Dog was Yanktonai, not Teton: this is a Dakota view of these years, not a record of the Teton Lakota who met the Corps on 25 September 1804. Teton counts such as American Horse's (Oglala) exist, but their entries for these winters were not checked for this chapter.",
+   "bio": "A winter count names each year by its most memorable event. For the years when the Corps passed up and back down the Missouri, Lone Dog's count records war, a calumet ceremony and losses to the Crow, and nothing about the Americans. To the people who kept it, the expedition was not that year's defining event.",
+   "sources": [
+    {
+     "title": "Lone Dog's Winter Count, Smithsonian NAA",
+     "url": "https://si.edu/object/archives/components/sova-naa-ms2372-ref1312"
+    },
+    {
+     "title": "Mallery, Pictographs of the North American Indians (1886), Project Gutenberg",
+     "url": "https://gutenberg.org/cache/epub/54643/pg54643-images.html"
+    },
+    {
+     "title": "Symbols in Lone Dog's Winter Count (UPenn)",
+     "url": "https://ling.upenn.edu/~gene/courses/2041/winter_count.html"
+    }
+   ]
+  },
+  {
+   "id": "larocque",
+   "short": "Larocque",
+   "name": "François-Antoine Larocque",
+   "life": "1784–1869",
+   "role": "Clerk of the North West Company (British-Canadian fur trade), aged 20",
+   "side": "British North America (North West Company)",
+   "where": "Fort Assiniboine and the Mandan and Hidatsa villages on the Knife River",
+   "lat": 47.33,
+   "lon": -101.39,
+   "waypoints": [
+    {
+     "lat": 49.6,
+     "lon": -99.7,
+     "label": "Fort Assiniboine"
+    },
+    {
+     "lat": 47.33,
+     "lon": -101.39,
+     "label": "Hidatsa villages"
+    },
+    {
+     "lat": 47.3,
+     "lon": -101.08,
+     "label": "Fort Mandan"
+    },
+    {
+     "lat": 49.6,
+     "lon": -99.7,
+     "label": "Back to Assiniboine"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "rival-empire eye at Fort Mandan",
+   "form": "journal",
+   "language": "English (a francophone from Quebec who chose English)",
+   "authenticity": "His 'Missouri Journal' (Nov 1804–Mar 1805) was published by L.-R. Masson in Les bourgeois de la Compagnie du Nord-Ouest (1889–90) and re-edited by Wood and Thiessen, Early Fur Trade on the Northern Plains (1985). His 1805 Yellowstone journal was edited by Burpee (1910). The manuscripts are at Library and Archives Canada.",
+   "bio": "Larocque was sent south to trade furs with the Mandan and Hidatsa, and found two American officers wintering among them. He asked to join the expedition and was refused. His journal shows the captains through a competitor's eyes: polite, suspicious, and protective of their maps.",
+   "sources": [
+    {
+     "title": "Larocque at Fort Mandan, Discovering Lewis & Clark",
+     "url": "https://lewis-clark.org/people/francois-larocque/larocque-at-fort-mandan/"
+    },
+    {
+     "title": "Dictionary of Canadian Biography: La Rocque, François-Antoine",
+     "url": "https://www.biographi.ca/en/bio/larocque_francois_antoine_9E.html"
+    }
+   ]
+  },
+  {
+   "id": "salcedo",
+   "short": "Salcedo",
+   "name": "Nemesio Salcedo",
+   "life": "fl. 1802–1813 as Commandant General",
+   "role": "Commandant General of the Interior Provinces of New Spain",
+   "side": "Spanish Empire",
+   "where": "Chihuahua, sending orders to Santa Fe",
+   "lat": 28.63,
+   "lon": -106.07,
+   "vantage": 3,
+   "vantage_label": "rival empire, ordering interception",
+   "form": "administrative orders and dispatches",
+   "language": "Spanish",
+   "authenticity": "Dated official correspondence in Spanish archives (Archivo General de Indias, Spanish Archives of New Mexico), known mainly through historians' summaries. No direct quotation is used here.",
+   "bio": "In March 1804 Spain's boundary commissioner, the Marqués de Casa Calvo, and the double agent General James Wilkinson ('Agent 13') both warned that the Americans were coming. Salcedo then ordered New Mexico to find and arrest them. Four expeditions went out from Santa Fe between 1804 and 1806. None found the Corps.",
+   "sources": [
+    {
+     "title": "Trailing Lewis and Clark (Teachinghistory.org, Ask a Historian)",
+     "url": "https://teachinghistory.org/history-content/ask-a-historian/trailing-lewis-and-clark/"
+    }
+   ]
+  },
+  {
+   "id": "nimiipuu",
+   "short": "Nimiipuu memory",
+   "name": "Nimiipuu (Nez Perce) oral tradition of Wetxuuwíis",
+   "life": "tradition about c. 1805; recorded 2001–02",
+   "role": "Community memory of the expedition's arrival at Weippe Prairie, told by tribal elders",
+   "side": "Nimiipuu (Nez Perce) [the explorers' 'Chopunnish']",
+   "where": "Weippe Prairie and the Clearwater River (present-day Idaho)",
+   "lat": 46.38,
+   "lon": -115.93,
+   "vantage": 1,
+   "vantage_label": "hosts' memory, recorded much later",
+   "form": "oral tradition (recorded later)",
+   "language": "Nimiipuutímt / English",
+   "authenticity": "ORAL TRADITION, recorded about two centuries after the events: elder Beatrice Miles in an interview with Josiah Pinkham (Dec 2001) and Angel Sobotta (2002), published by the Nez Perce Tribe and the University of Idaho. It is not a dated contemporary record and contains traditional narrative elements. Its link to the woman in Clark's 21 September 1805 entry is an interpretation, not proven.",
+   "bio": "In the tradition, the starving strangers who came down from the Bitterroots could easily have been killed. A respected elder, Wetxuuwíis, who had once been a captive far to the east and had been treated kindly by light-skinned people, told the community to do them no harm. The Nimiipuu fed them, kept their horses through the winter of 1805–06, and guided them west.",
+   "sources": [
+    {
+     "title": "Wetxuuwíis, Lewis & Clark Rediscovery Project (Nez Perce Tribe / University of Idaho)",
+     "url": "https://cdil.lib.uidaho.edu/nimiipuu-l3/expedition/wetxuuwiis.html"
+    }
+   ]
+  },
+  {
+   "id": "sacagawea",
+   "short": "Sacagawea",
+   "name": "Sacagawea",
+   "life": "c. 1788–1812",
+   "role": "Lemhi Shoshone (Agaidika) woman, captured as a girl by the Hidatsa; wife of the interpreter Toussaint Charbonneau; mother of Jean Baptiste",
+   "side": "Lemhi Shoshone by birth; travelled with the Corps",
+   "where": "Fort Mandan to the Pacific and back to the Mandan villages",
+   "lat": 45.0,
+   "lon": -112.86,
+   "waypoints": [
+    {
+     "lat": 47.3,
+     "lon": -101.08,
+     "label": "Fort Mandan"
+    },
+    {
+     "lat": 47.5,
+     "lon": -111.3,
+     "label": "Great Falls"
+    },
+    {
+     "lat": 45.0,
+     "lon": -112.86,
+     "label": "Camp Fortunate"
+    },
+    {
+     "lat": 46.26,
+     "lon": -123.94,
+     "label": "Station Camp"
+    },
+    {
+     "lat": 46.13,
+     "lon": -123.88,
+     "label": "Fort Clatsop"
+    },
+    {
+     "lat": 47.33,
+     "lon": -101.39,
+     "label": "Hidatsa villages"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "seen only through the journals",
+   "form": "seen through others' journals (no writings of her own)",
+   "language": "Shoshone and Hidatsa (spoken); recorded in the captains' English",
+   "authenticity": "SEEN THROUGH OTHERS: Sacagawea left no writing. Every entry here is what Lewis or Clark wrote about her, filtered through translation chains (Shoshone, Hidatsa, French, English). Even the spelling of her name is disputed (Sacagawea, Sakakawea, Sacajawea). The date of her death (1812 at Fort Manuel, per a clerk's record) is also debated.",
+   "bio": "Sacagawea was about sixteen at Fort Mandan and gave birth there in February 1805, then carried her son across the continent. Her presence told the nations they met that this was not a war party. At the Three Forks she recognized her birth country, and at Camp Fortunate she found that the Shoshone leader was her brother. Only her actions are recorded, never her own words.",
+   "sources": [
+    {
+     "title": "Sacagawea in the Journals, Discovering Lewis & Clark",
+     "url": "https://lewis-clark.org/people/sacagawea/sacagawea-in-the-journals/"
+    },
+    {
+     "title": "The vote at Station Camp, NPS",
+     "url": "https://www.nps.gov/places/the-vote-at-station-camp.htm"
+    }
+   ]
+  },
+  {
+   "id": "sheheke",
+   "short": "Sheheke",
+   "name": "Sheheke (Big White)",
+   "life": "c. 1766–1812",
+   "role": "Leader of the Mitutanka Mandan village",
+   "side": "Mandan (Nuweta)",
+   "where": "Mandan villages near Fort Mandan; St. Louis, Washington and Philadelphia 1806–07",
+   "lat": 47.3,
+   "lon": -101.08,
+   "waypoints": [
+    {
+     "lat": 47.3,
+     "lon": -101.08,
+     "label": "Mitutanka village"
+    },
+    {
+     "lat": 38.63,
+     "lon": -90.19,
+     "label": "St. Louis, Sep 1806"
+    },
+    {
+     "lat": 38.01,
+     "lon": -78.45,
+     "label": "Monticello"
+    },
+    {
+     "lat": 38.9,
+     "lon": -77.04,
+     "label": "Washington, Dec 1806"
+    },
+    {
+     "lat": 38.63,
+     "lon": -90.19,
+     "label": "St. Louis 1807–09"
+    },
+    {
+     "lat": 47.3,
+     "lon": -101.08,
+     "label": "Home, Sept 1809"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "host and traveller, seen through others",
+   "form": "seen through others' records (no writings of his own)",
+   "language": "Mandan (spoken)",
+   "authenticity": "SEEN THROUGH OTHERS: no words of Sheheke's own were found for this chapter. He appears in the captains' journals, Lewis's letters and Jefferson's address to the Mandan delegation. An 1807 attempt to take him home was turned back by the Arikara, and he reached his village only in 1809.",
+   "bio": "Sheheke ('Coyote') led the Mandan village closest to Fort Mandan, fed the Corps through the winter of 1804–05, and in August 1806 agreed to go east with them, with his wife Yellow Corn and their son, to meet the president. His trip became a three-year odyssey. He was killed in fighting with the Hidatsa in 1812.",
+   "sources": [
+    {
+     "title": "Day-by-Day, 30 Dec 1806 (Jefferson's address to the Mandan)",
+     "url": "https://lewis-clark.org/day-by-day/30-dec-1806/"
+    },
+    {
+     "title": "Day-by-Day, 23 Sep 1806",
+     "url": "https://lewis-clark.org/day-by-day/23-sep-1806/"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1803-06-20",
+   "date_display": "Monday 20 June 1803",
+   "precision": "day",
+   "eye": "jefferson",
+   "place": "Washington",
+   "headline": "Jefferson writes the expedition's orders",
+   "digest": "Jefferson signs a long letter of instructions telling Lewis to trace the Missouri to its source and find the most direct water route to the Pacific. He lists what to record: latitudes, soils, plants, animals, minerals and weather, and the languages, laws, trade and diseases of every nation met. Lewis is told to make copies of his notes against loss, and to treat the nations in the most friendly and conciliatory manner their conduct allows.",
+   "quote": "The object of your mission is to explore the Missouri river",
+   "confidence": "verified",
+   "source_note": "Founders Online, 'Instructions for Meriwether Lewis, 20 June 1803'"
+  },
+  {
+   "date_iso": "1804-03-05",
+   "date_display": "5 March 1804",
+   "precision": "day",
+   "eye": "salcedo",
+   "place": "Chihuahua (letter from New Orleans)",
+   "headline": "Spanish warning: the Americans are coming",
+   "digest": "Before Salcedo issues any orders, warnings reach him. The Marqués de Casa Calvo, Spain's boundary commissioner still in New Orleans, writes to him on this date urging that a force be sent to intercept and arrest the American explorers. About the same time General James Wilkinson, secretly in Spanish pay, advises that an express be sent at once to the governor at Santa Fe. Salcedo's file on the expedition starts with these two letters.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Teachinghistory.org, 'Trailing Lewis and Clark' (Casa Calvo to Salcedo, 5 March 1804)"
+  },
+  {
+   "date_iso": "1804-05-03",
+   "date_display": "3 May 1804",
+   "precision": "day",
+   "eye": "salcedo",
+   "place": "Chihuahua",
+   "headline": "Order to New Mexico: find and stop Lewis",
+   "digest": "Salcedo orders Governor Fernando Chacón of New Mexico to send a force out onto the plains to find the American party, enlist the Pawnee and Comanche against them, and stop them. Spain's claim is that the Americans are entering territory still under Spanish authority. The order goes out eleven days before the Corps sets off from Camp Dubois.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Teachinghistory.org, 'Trailing Lewis and Clark' (Salcedo to Chacón, 3 May 1804); summary, not original text"
+  },
+  {
+   "date_iso": "1804-05-14",
+   "date_display": "Monday 14 May 1804",
+   "precision": "day",
+   "eye": "clark",
+   "place": "Camp Dubois to the Missouri",
+   "headline": "Clark leads the boats out under a light breeze",
+   "digest": "Clark, in sole command because Lewis is still in St. Louis, takes the keelboat and two pirogues across the Mississippi and into the Missouri in the afternoon. Neighbours from the settlements watch them go. They make only a few miles before camping, which is a deliberate shakedown run: they plan to repack the cargo at St. Charles and pick Lewis up there.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Moulton ed., Clark, 14 May 1804; Day-by-Day 14 May 1804 (lewis-clark.org)"
+  },
+  {
+   "date_iso": "1804-05-14",
+   "date_display": "Monday 14 May 1804",
+   "precision": "day",
+   "eye": "ordway",
+   "place": "Mouth of the Missouri",
+   "headline": "Ordway counts the crew: three sergeants, thirty-eight hands",
+   "digest": "Ordway notes that people from the settlements came down to see them off. He records the force in a sergeant's way, by men and craft: three sergeants and thirty-eight working hands manning the batteau and two pirogues. For him the expedition starts as a matter of muster and stowage.",
+   "quote": "3 Sergeants & 38 Good hands",
+   "confidence": "verified",
+   "source_note": "Moulton ed., Ordway, 14 May 1804, as quoted on lewis-clark.org Day-by-Day"
+  },
+  {
+   "date_iso": "1804-05-14",
+   "date_display": "Monday 14 May 1804",
+   "precision": "day",
+   "eye": "floyd",
+   "place": "Missouri River, north bank",
+   "headline": "Floyd: six miles up and camped",
+   "digest": "Floyd's first entry is terse: the party sailed about six miles up the Missouri and camped on the north side. He gives no ceremony and no sense of occasion, and his short notes stay like this for the three months he has left.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Moulton ed., Floyd, 14 May 1804; Day-by-Day 14 May 1804"
+  },
+  {
+   "date_iso": "1804-05-14",
+   "date_display": "Monday 14 May 1804",
+   "precision": "day",
+   "eye": "whitehouse",
+   "place": "Mouth of the Missouri",
+   "headline": "Swivel gun fired, sail hoisted, high spirits",
+   "digest": "Whitehouse remembers the noise: the swivel gun fired from the bow, the sail going up, and the men setting out in high spirits. Of all the departure entries his has the most feeling. It reads like a young private who knows he is starting an adventure.",
+   "quote": "Set out in high Spirits for the western Expedition",
+   "confidence": "verified",
+   "source_note": "Moulton ed., Whitehouse, 14 May 1804, as quoted on lewis-clark.org Day-by-Day"
+  },
+  {
+   "date_iso": "1804-05-14",
+   "date_display": "Monday 14 May 1804",
+   "precision": "day",
+   "eye": "gass",
+   "place": "Mouth of the Missouri",
+   "headline": "Gass: a voyage of discovery under Captain Clarke",
+   "digest": "In the 1807 printed text, Gass frames the day formally: the party proceeds up the Missouri on its intended voyage of discovery under Captain Clark, and Lewis is expected to join in two or three days. The polished phrasing shows his editor's hand. The print version presents the trip as a national undertaking from its first line.",
+   "quote": "up the Missouri on our intended voyage of discovery",
+   "confidence": "verified",
+   "source_note": "Gass, Journal (1807), 14 May 1804, as quoted on lewis-clark.org Day-by-Day"
+  },
+  {
+   "date_iso": "1804-05-14",
+   "date_display": "Monday 14 May 1804",
+   "precision": "day",
+   "eye": "lewis",
+   "place": "St. Louis",
+   "headline": "Lewis is not there: a weather note from town",
+   "digest": "Lewis is not with the boats. He is in St. Louis finishing business with the Spanish and French officials and merchants, and his only record of the day is a line in his weather diary closing the observations at Camp Dubois. The man who would later write the expedition's best prose missed its first day.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Moulton ed., Lewis weather diary, 14 May 1804; Day-by-Day 14 May 1804"
+  },
+  {
+   "date_iso": "1804-06-01",
+   "date_display": "Early June 1804",
+   "precision": "month",
+   "eye": "jefferson",
+   "place": "Washington",
+   "headline": "At home, the president hosts Humboldt",
+   "digest": "While the Corps is rowing up the lower Missouri, Jefferson spends days in conversation with the Prussian traveller Alexander von Humboldt, just back from Spanish America. Jefferson and Treasury Secretary Gallatin question him closely about New Spain's northern frontier, the same borderland Salcedo governs. Jefferson's letters of these weeks mention no news of Lewis, because there is none yet.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Humboldt's US visit (late May–June 1804) is well documented; this entry summarizes it as context, not a single dated letter"
+  },
+  {
+   "date_iso": "1804-07-31",
+   "date_display": "Tuesday 31 July 1804",
+   "precision": "day",
+   "eye": "floyd",
+   "place": "Council Bluff, near present Fort Calhoun, Nebraska",
+   "headline": "Floyd writes that he has been very sick",
+   "digest": "Floyd notes in his own journal that he has been very ill for some time, but thinks he is now recovering. The same day Ordway writes that Floyd has been sick for several days and is getting a little better. It is the first sign of the illness that would kill him three weeks later.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NPS, 'Sergeant Charles Floyd dies' (citing Floyd and Ordway, 31 July 1804)"
+  },
+  {
+   "date_iso": "1804-08-01",
+   "date_display": "1 August 1804",
+   "precision": "day",
+   "eye": "salcedo",
+   "place": "Santa Fe",
+   "headline": "Vial's first party rides out to find the Americans",
+   "digest": "Following Salcedo's order, the interpreter Pedro Vial and José Jarvet leave Santa Fe with about fifty soldiers, settlers and Native allies. They reach the Pawnee towns on the Platte in early September, much nearer the Missouri than any Spaniard had been for years. They are back in Santa Fe on 5 November with no Americans found. Salcedo's order had been carried out, but it changed nothing.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Teachinghistory.org, 'Trailing Lewis and Clark' (dates of Vial's 1804 expedition)"
+  },
+  {
+   "date_iso": "1804-08-18",
+   "date_display": "Saturday 18 August 1804",
+   "precision": "day",
+   "eye": "floyd",
+   "place": "Missouri River, near present Dakota City, Nebraska",
+   "headline": "Floyd's last entry",
+   "digest": "Floyd makes his last entry on Lewis's thirtieth birthday. The captains held a council with the Otoe that day, and the deserter Moses Reed was punished by running the gauntlet. Like all his entries it is short. He gives no sign that he knows how ill he is, and the next day he collapses.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Date confirmed by the Lewis and Clark Trust's journal entry 'Charles Floyd, August 18, 1804' (Floyd's last entry); context from Moulton ed., 18 Aug 1804"
+  },
+  {
+   "date_iso": "1804-08-20",
+   "date_display": "Monday 20 August 1804",
+   "precision": "day",
+   "eye": "clark",
+   "place": "Floyd's Bluff, near present Sioux City, Iowa",
+   "headline": "Clark: Floyd dies 'with a great deel of composure'",
+   "digest": "Clark sat up with Floyd most of the previous night and could do nothing. Shortly after noon, while the men are preparing a warm bath for him, Floyd tells Clark he is going away and asks him to write a letter. He then dies. Clark records that he died calmly, that he was buried on a high round hill with the honours of war and a cedar post bearing his name, and that Lewis read the funeral service. They name the bluff and a small river after him.",
+   "quote": "with a great deel of composure",
+   "confidence": "verified",
+   "source_note": "Moulton ed., Clark, 20 Aug 1804 (UNL item lc.jrn.1804-08-20); NPS Floyd article"
+  },
+  {
+   "date_iso": "1804-08-20",
+   "date_display": "Monday 20 August 1804",
+   "precision": "day",
+   "eye": "ordway",
+   "place": "Floyd's Bluff",
+   "headline": "Ordway: worse than yesterday, then gone",
+   "digest": "Ordway starts the day noting that Floyd is worse than the day before. After the midday halt he records the death, the burial on the bluff with the honours of war, and the naming of the bluff and creek. He writes it in the same plain way he records the miles travelled.",
+   "quote": "worse than he was yesterday",
+   "confidence": "verified",
+   "source_note": "Moulton ed., Ordway, 20 Aug 1804 (UNL item lc.jrn.1804-08-20)"
+  },
+  {
+   "date_iso": "1804-08-20",
+   "date_display": "Monday 20 August 1804",
+   "precision": "day",
+   "eye": "gass",
+   "place": "Floyd's Bluff",
+   "headline": "Gass: buried as decently as circumstances allowed",
+   "digest": "Gass writes that Floyd stayed very ill and died about two o'clock despite every effort to save him. They buried him as decently as they could out here and named the river after him. A week later the men elected Gass to fill Floyd's place as sergeant.",
+   "quote": "in the most decent manner our circumstances would admit",
+   "confidence": "verified",
+   "source_note": "Gass, Journal (1807), 20 Aug 1804 (UNL item lc.jrn.1804-08-20)"
+  },
+  {
+   "date_iso": "1804-09-25",
+   "date_display": "Tuesday 25 September 1804",
+   "precision": "day",
+   "eye": "clark",
+   "place": "Mouth of the Bad River (Wakpa Sica), present Pierre, South Dakota",
+   "headline": "Clark draws his sword at the Teton council",
+   "digest": "After a council where the captains hand out medals and whiskey, Clark goes ashore with the Teton Lakota leaders. Warriors hold the pirogue's cable, and the man the journals call the Partisan demands more presents and says the boats cannot go on. Clark draws his sword, Lewis orders the keelboat crew to arms and the swivel guns are made ready, and warriors on the bank string arrows. Black Buffalo takes the rope from his men and the standoff ends. Clark names the place Bad Humored Island.",
+   "quote": "I felt my Self warm & Spoke in verry positive terms",
+   "confidence": "verified",
+   "source_note": "Moulton ed., Clark, 25 Sep 1804 (UNL item lc.jrn.1804-09-25)"
+  },
+  {
+   "date_iso": "1804-09-25",
+   "date_display": "Tuesday 25 September 1804",
+   "precision": "day",
+   "eye": "ordway",
+   "place": "Bad River",
+   "headline": "Ordway: guns loaded, great father invoked",
+   "digest": "Ordway records three men made chiefs and given medals, then a confrontation in which the swivel guns were loaded and manned. He notes that Clark told the Lakota the party was sent by their great father, the president, and could not be stopped. In the evening the chiefs ask the boats to stay so their families can see them. (The UNL page attributes this entry to Ordway only by inference.)",
+   "quote": "Sent by their great father the presidant",
+   "confidence": "approx",
+   "source_note": "Moulton ed., 25 Sep 1804 (UNL item lc.jrn.1804-09-25); attribution of this version to Ordway is likely but was not explicit on the page fetched"
+  },
+  {
+   "date_iso": "1804-09-25",
+   "date_display": "Tuesday 25 September 1804",
+   "precision": "day",
+   "eye": "gass",
+   "place": "Bad River",
+   "headline": "Gass: 'medicine enough to kill twenty nations'",
+   "digest": "Gass's printed account is shorter and more boastful. About fifty Lakota gathered and three chiefs were made. When warriors would not let Clark back to the boat and demanded a boat be left behind, Clark told them he had more medicine on board than would kill twenty such nations. Here 'medicine' means power, meaning the guns. Gass's book made this phrase the public face of the meeting in 1807.",
+   "quote": "more medicine aboard his boat than would kill twenty",
+   "confidence": "verified",
+   "source_note": "Gass, Journal (1807), 25 Sep 1804 (UNL item lc.jrn.1804-09-25)"
+  },
+  {
+   "date_iso": "1804-11-04",
+   "date_display": "Sunday 4 November 1804",
+   "precision": "day",
+   "eye": "sacagawea",
+   "place": "Fort Mandan",
+   "headline": "First mention: Charbonneau's 'Snake' wives",
+   "digest": "Sacagawea enters the record in passing. Clark notes that a French trader, Toussaint Charbonneau, has come to the fort wanting to be hired as interpreter, and that his two wives are 'Snake' (Shoshone) women. She is not named. The captains hire Charbonneau mostly because his teenage wife speaks the language of the mountain people whose horses they will need.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Clark, 4 Nov 1804, via 'Sacagawea in the Journals' (lewis-clark.org)"
+  },
+  {
+   "date_iso": "1804-11-25",
+   "date_display": "Sunday 25 November 1804",
+   "precision": "day",
+   "eye": "larocque",
+   "place": "Road between the Hidatsa villages and Fort Mandan",
+   "headline": "Larocque meets Lewis on the road",
+   "digest": "Two weeks out from Fort Assiniboine with horses loaded with trade goods, Larocque meets Lewis on the trail with Charbonneau and the interpreter René Jusseaume. They talk for about a quarter of an hour. Lewis invites him to Fort Mandan and seems friendly. For the North West Company this is the first close look at the Americans who now claim the river.",
+   "quote": "appeared very friendly",
+   "confidence": "verified",
+   "source_note": "Larocque's Missouri Journal, 25 Nov 1804, via 'Larocque at Fort Mandan' (lewis-clark.org); DCB confirms the 25 Nov meeting"
+  },
+  {
+   "date_iso": "1804-11-28",
+   "date_display": "Wednesday 28 November 1804",
+   "precision": "day",
+   "eye": "clark",
+   "place": "Fort Mandan",
+   "headline": "Clark: no British flags or medals",
+   "digest": "Clark records a talk with Larocque about British traders giving out medals and flags to the Mandan and Hidatsa. The captains tell the chiefs that such symbols are not to be accepted from anyone but the United States. Flags and medals were how an empire marked its allies, and Clark is drawing a new boundary in a country where the British had traded for decades.",
+   "quote": "Giveing Meadils & Flags",
+   "confidence": "verified",
+   "source_note": "Moulton ed., Clark, 28 Nov 1804, via lewis-clark.org Day-by-Day 28 Nov 1804"
+  },
+  {
+   "date_iso": "1804-11-28",
+   "date_display": "Wednesday 28 November 1804",
+   "precision": "day",
+   "eye": "ordway",
+   "place": "Fort Mandan",
+   "headline": "Ordway: snow, ice and quarrelling interpreters",
+   "digest": "On the same day Ordway writes about the weather and the camp: snow, a hard wind, ice running in the river, and friction between the interpreter Jusseaume and the hunter George Drouillard. He does not mention the British clerk. From the barracks, the imperial contest is less pressing than firewood and tempers.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Moulton ed., Ordway, 28 Nov 1804, via lewis-clark.org Day-by-Day"
+  },
+  {
+   "date_iso": "1804-11-29",
+   "date_display": "Thursday 29 November 1804",
+   "precision": "day",
+   "eye": "larocque",
+   "place": "Fort Mandan",
+   "headline": "Politely received, and politely warned",
+   "digest": "On his second visit, officially looking for Charbonneau, Larocque is received politely by both captains. Lewis lets him hire Charbonneau for a while but warns the interpreter not to say anything against the United States. Lewis also explains that no trader will be given a monopoly. Larocque leaves with the impression that the Americans mean to stay and plan to take over the trade.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Larocque's Missouri Journal, 29 Nov 1804, via 'Larocque at Fort Mandan' (Wood & Thiessen 1985, pp. 138–40)"
+  },
+  {
+   "date_iso": "1804-12-01",
+   "date_display": "Winter 1804–05 (one glyph for the year)",
+   "precision": "range",
+   "eye": "lone-dog",
+   "place": "Upper Missouri (Yanktonai Dakota)",
+   "headline": "Winter count: a calumet dance before war",
+   "digest": "For the winter the Corps spent at the Mandan villages, Lone Dog's count paints a calumet, the ceremonial pipe, and the keeper's gloss says the people danced the calumet dance before going to war. The count says nothing about the Americans who had faced down the Teton Lakota that autumn. The confrontation that fills pages in five American journals did not become this Dakota keeper's sign for the year. The Teton side of 25 September survives only through the expedition's own pages and later Lakota histories.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lone Dog winter count, 1804–05, per Mallery (1886) as tabulated in 'Symbols in Lone Dog's Winter Count' (UPenn); note Lone Dog was Yanktonai, not Teton"
+  },
+  {
+   "date_iso": "1804-12-24",
+   "date_display": "Monday 24 December 1804",
+   "precision": "day",
+   "eye": "gass",
+   "place": "Fort Mandan",
+   "headline": "Gass: the fort is finished",
+   "digest": "Gass, the expedition's carpenter, notes that the fort is finished on Christmas Eve. It is a triangle of log huts and pickets on the river's north bank, raised in about seven weeks in deepening cold. It is where the Corps would spend the winter alongside the Mandan.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Gass, Journal (1807), 24 Dec 1804, via 'Larocque at Fort Mandan' (lewis-clark.org)"
+  },
+  {
+   "date_iso": "1805-01-30",
+   "date_display": "Wednesday 30 January 1805",
+   "precision": "day",
+   "eye": "larocque",
+   "place": "Fort Mandan",
+   "headline": "A broken compass and a look at the captains' maps",
+   "digest": "Larocque brings his broken compass to the fort and Lewis spends the day trying to repair it. While he works they talk about longitude, and Larocque sees the captains' figures, which differ from those of the North West Company surveyor David Thompson. He stays a couple of days. Around this time he asks to join the expedition and is turned down, because the captains will not share what they find with a British company.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Larocque's Missouri Journal, 30 Jan 1805, via 'Larocque at Fort Mandan' (lewis-clark.org); the refusal is dated only 'late January'"
+  },
+  {
+   "date_iso": "1805-02-11",
+   "date_display": "Monday 11 February 1805",
+   "precision": "day",
+   "eye": "lewis",
+   "place": "Fort Mandan",
+   "headline": "A difficult birth and a rattlesnake's rattle",
+   "digest": "Lewis records that Charbonneau's young wife has had a long and painful first labour. Jusseaume tells him that a little crushed rattlesnake rattle in water speeds delivery, so Lewis gives it to her. She delivers within minutes, and Lewis notes the result while doubting the cure. The child is Jean Baptiste Charbonneau, who would travel to the Pacific on his mother's back.",
+   "quote": "I must confess that I want faith as to it's efficacy",
+   "confidence": "verified",
+   "source_note": "Lewis, 11 Feb 1805, via 'Sacagawea in the Journals' (lewis-clark.org)"
+  },
+  {
+   "date_iso": "1805-02-11",
+   "date_display": "Monday 11 February 1805",
+   "precision": "day",
+   "eye": "sacagawea",
+   "place": "Fort Mandan",
+   "headline": "Seen through Lewis: she gives birth",
+   "digest": "What we know of Sacagawea this day is Lewis's description of her labour. She was about sixteen, far from her Shoshone homeland, and taken there years earlier as a captive. Her own experience of the birth, and whatever Mandan or Hidatsa women helped her, is missing from the record. The journal only notes that she was in pain, was given a remedy, and gave birth to a boy.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lewis, 11 Feb 1805 (flag: seen only through Lewis's journal)"
+  },
+  {
+   "date_iso": "1805-02-27",
+   "date_display": "Wednesday 27 February 1805",
+   "precision": "day",
+   "eye": "clark",
+   "place": "Fort Mandan",
+   "headline": "Clark starts the great map",
+   "digest": "On a fine day, with the men preparing tools to build canoes, Clark begins drawing a map of the Missouri and its tributaries. He draws on everything the Mandan and Hidatsa have told him about the country to the west. Some visitors come by, including one man Clark finds unusually large.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Moulton ed., Clark, 27 Feb 1805 (UNL TEI lc.jrn.1805-02-27)"
+  },
+  {
+   "date_iso": "1805-02-27",
+   "date_display": "Wednesday 27 February 1805",
+   "precision": "day",
+   "eye": "ordway",
+   "place": "Fort Mandan",
+   "headline": "Ordway: the keelboat will go home",
+   "digest": "Ordway records skids put under the barge to keep it safe, two canoes moved, and sixteen men getting their tools ready to build four canoes. He states the plan plainly: in spring the barge goes back downriver and the party heads west in canoes. It is the first written sign that the expedition is about to split.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Moulton ed., Ordway, 27 Feb 1805 (UNL TEI lc.jrn.1805-02-27)"
+  },
+  {
+   "date_iso": "1805-02-27",
+   "date_display": "Wednesday 27 February 1805",
+   "precision": "day",
+   "eye": "whitehouse",
+   "place": "Fort Mandan",
+   "headline": "Whitehouse: Mandan neighbours work for corn",
+   "digest": "Whitehouse records men cutting wood for charcoal and felling big trees for dugouts. He also notes that local Native people came to the fort asking for work and offering corn as payment. In his entry the Mandan appear as neighbours in a shared winter economy, not as diplomatic partners.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Moulton ed., Whitehouse, 27 Feb 1805 (UNL TEI lc.jrn.1805-02-27)"
+  },
+  {
+   "date_iso": "1805-04-07",
+   "date_display": "Sunday 7 April 1805",
+   "precision": "day",
+   "eye": "lewis",
+   "place": "Fort Mandan",
+   "headline": "Departure west, compared with Columbus and Cook",
+   "digest": "As the keelboat heads back to St. Louis with specimens and reports for Jefferson, the permanent party of thirty-three (Sacagawea and her baby among them) sets off upriver in six small canoes and two pirogues. Lewis writes that this little fleet is not as impressive as those of Columbus or Captain Cook, but that he looks on it with the same pride and the same worry. He calls the day one of the happiest of his life.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lewis, 7 Apr 1805 (NPS, 'Expedition leaves Fort Mandan'; Lapham's Quarterly excerpt)"
+  },
+  {
+   "date_iso": "1805-08-17",
+   "date_display": "Saturday 17 August 1805",
+   "precision": "day",
+   "eye": "lewis",
+   "place": "Camp Fortunate, Beaverhead River (present Clark Canyon Reservoir, Montana)",
+   "headline": "Lewis: 'the meeting of those people was really affecting'",
+   "digest": "Clark's party arrives at the forks where Lewis has been holding the anxious Shoshone. Lewis records that the meeting was deeply moving, especially between Sacagawea and a Shoshone woman who had been taken prisoner with her years earlier and had escaped the Hidatsa. When Sacagawea sits down to interpret the council, she recognizes the leader, Cameahwait, as her brother. The captains now have a route to horses.",
+   "quote": "the meeting of those people was really affecting",
+   "confidence": "verified",
+   "source_note": "Lewis, 17 Aug 1805, via lewis-clark.org Day-by-Day and 'Sacagawea in the Journals'"
+  },
+  {
+   "date_iso": "1805-08-17",
+   "date_display": "Saturday 17 August 1805",
+   "precision": "day",
+   "eye": "clark",
+   "place": "Camp Fortunate",
+   "headline": "Clark: the Columbia route sounds very bad",
+   "digest": "Clark's own entry is mostly about geography. Through the chain of interpreters (Shoshone to Hidatsa to French to English) he hears what Cameahwait's people know of the rivers to the west, and he calls it very discouraging: canyons, rapids and no road for boats. The joyful reunion is followed straight away by bad news about the route ahead.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Clark, 17 Aug 1805, via lewis-clark.org Day-by-Day ('verry unfavourable')"
+  },
+  {
+   "date_iso": "1805-08-17",
+   "date_display": "Saturday 17 August 1805",
+   "precision": "day",
+   "eye": "ordway",
+   "place": "Camp Fortunate",
+   "headline": "Ordway: medals and a uniform coat",
+   "digest": "Ordway records the council's gifts: a medal for the leader, a uniform coat and shirt, and smaller presents for the other men. He describes the diplomacy as an exchange of goods, the same ceremony performed on the plains, now at the top of the Missouri.",
+   "quote": "gave the head chief a uniform coat & Shirt",
+   "confidence": "verified",
+   "source_note": "Ordway, 17 Aug 1805, via lewis-clark.org Day-by-Day"
+  },
+  {
+   "date_iso": "1805-08-17",
+   "date_display": "Saturday 17 August 1805",
+   "precision": "day",
+   "eye": "sacagawea",
+   "place": "Camp Fortunate",
+   "headline": "Seen through Clark: she dances, and signs 'my people'",
+   "digest": "Walking ahead with her husband, Sacagawea sees the Shoshone and begins to dance, and signs to Clark that these are her nation. Clark's record is all we have: her gestures, her joy, and then her recognition of her brother. Five years after being taken as a captive she is back among her people, and the moment is recorded only by others.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Clark, 17 Aug 1805 (lewisandclarktrail.com, modernized text); flag: seen only through the journals"
+  },
+  {
+   "date_iso": "1805-09-21",
+   "date_display": "Saturday 21 September 1805",
+   "precision": "day",
+   "eye": "clark",
+   "place": "Weippe Prairie and the Clearwater (present Idaho)",
+   "headline": "Clark among the Nimiipuu after the Bitterroots",
+   "digest": "Clark's advance party has come out of the Bitterroot Mountains half-starved onto Weippe Prairie, where Nimiipuu families are digging camas. They are fed dried salmon and camas bread, and many of the men become sick on the unfamiliar food. Around this day Clark notes a woman who had once been taken captive by the Hidatsa ('Minitarees') and had seen white people.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Clark, 21 Sep 1805, as cited by the Nez Perce Tribe's Wetxuuwíis page (University of Idaho)"
+  },
+  {
+   "date_iso": "1805-09-21",
+   "date_display": "September 1805 (remembered)",
+   "precision": "range",
+   "eye": "nimiipuu",
+   "place": "Weippe Prairie",
+   "headline": "Remembered: Wetxuuwíis says 'do them no harm'",
+   "digest": "In the Nimiipuu telling, the arrival of the bearded, starving strangers at the camas grounds started a debate about whether to kill them and take their goods. The elder Wetxuuwíis, who had once been a captive in the east and had been helped home after meeting light-skinned people, said they were friendly and considerate and should be spared. The community fed and sheltered them. This is the hosts' account of the same week Clark describes, recorded two centuries later from tribal elders.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Nez Perce Tribe, 'Wetxuuwíis' (Beatrice Miles, interview Dec 2001); ORAL TRADITION, recorded later"
+  },
+  {
+   "date_iso": "1805-10-01",
+   "date_display": "October 1805",
+   "precision": "month",
+   "eye": "salcedo",
+   "place": "Chihuahua / Santa Fe",
+   "headline": "Salcedo orders a second try",
+   "digest": "Salcedo orders Vial and Jarvet out again, this time with about a hundred men. On 6 November they are attacked near the Arkansas River, probably by Pawnee, and turn back. On the day they turn back, the Corps is nearing the Columbia estuary, more than a thousand miles beyond Spanish reach.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Teachinghistory.org, 'Trailing Lewis and Clark' (month only)"
+  },
+  {
+   "date_iso": "1805-11-07",
+   "date_display": "Thursday 7 November 1805",
+   "precision": "day",
+   "eye": "clark",
+   "place": "Columbia estuary near Pillar Rock (present Washington)",
+   "headline": "'Ocian in view! O! the joy.'",
+   "digest": "After fog lifts on the lower Columbia, Clark sees wide grey water and hears waves breaking on rocks. He writes that there is great joy in camp because they are in sight of the ocean. In fact they are still on the estuary, about twenty miles from the Pacific, and the next three weeks pinned against the shore by storms would be among the worst of the trip. The mistake does not take away from what the words meant to him.",
+   "quote": "Ocian in view! O! the joy.",
+   "confidence": "verified",
+   "source_note": "Clark, 7 Nov 1805 field notes, via lewis-clark.org Day-by-Day; NPS 'O! Joy Day'"
+  },
+  {
+   "date_iso": "1805-11-07",
+   "date_display": "Thursday 7 November 1805",
+   "precision": "day",
+   "eye": "ordway",
+   "place": "Lower Columbia",
+   "headline": "Ordway: fog, fish and marshy islands",
+   "digest": "Ordway's entry is the opposite of Clark's. It records a foggy, cool morning, a stop at a village to buy fresh fish and roots, and a passage among low marshy islands. He mentions no ocean. The same miles that excited one captain are routine paddling to the sergeant.",
+   "quote": "passed a number of Islands which are low and marshy",
+   "confidence": "verified",
+   "source_note": "Ordway, 7 Nov 1805, via lewis-clark.org Day-by-Day"
+  },
+  {
+   "date_iso": "1805-11-07",
+   "date_display": "Thursday 7 November 1805",
+   "precision": "day",
+   "eye": "whitehouse",
+   "place": "Lower Columbia, near Pillar Rock",
+   "headline": "Whitehouse: thirty-five miles and a spring for camp",
+   "digest": "Whitehouse logs about thirty-five miles and a camp at a spring run opposite a tall, round rock that looks like a tower (Pillar Rock). Water, distance and a landmark are what matter to him. On the most-quoted day of the expedition, he writes like a surveyor.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Whitehouse, 7 Nov 1805, via lewis-clark.org Day-by-Day"
+  },
+  {
+   "date_iso": "1805-11-24",
+   "date_display": "Sunday 24 November 1805",
+   "precision": "day",
+   "eye": "clark",
+   "place": "Station Camp, north shore of the Columbia estuary",
+   "headline": "Clark polls the whole party on where to winter",
+   "digest": "With the party stormbound on the north shore, Clark asks every member where to build the winter camp and writes each vote in his journal: stay on the north side, cross to the south shore, or go back upriver. York, a man Clark held in slavery, gets a vote, which no law in the United States would have given him. The majority choose the south shore, near the Clatsop, for elk and salt.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NPS, 'The vote at Station Camp'; Clark, 24 Nov 1805"
+  },
+  {
+   "date_iso": "1805-11-24",
+   "date_display": "Sunday 24 November 1805",
+   "precision": "day",
+   "eye": "sacagawea",
+   "place": "Station Camp",
+   "headline": "Seen through Clark: 'Janey' wants wapato country",
+   "digest": "Clark writes down Sacagawea's opinion, using his nickname for her: winter where there is plenty of wapato, the root the expedition called 'potas.' Her answer is about food for a nursing mother through a wet winter. It is one of the few times the journals record what she wanted, though NPS notes her preference was not added to the formal tally.",
+   "quote": "Janey in favour of a place where there is plenty of Potas.",
+   "confidence": "verified",
+   "source_note": "Clark, 24 Nov 1805, via 'Sacagawea in the Journals' (lewis-clark.org); NPS Station Camp"
+  },
+  {
+   "date_iso": "1806-01-06",
+   "date_display": "Monday 6 January 1806",
+   "precision": "day",
+   "eye": "sacagawea",
+   "place": "Fort Clatsop",
+   "headline": "Seen through Lewis: she insists on seeing the whale",
+   "digest": "When word comes of a whale stranded on the coast, Clark sets out with a party to get blubber, and Sacagawea insists on going. Lewis records her argument: she had come all this way and had still not seen the ocean, and now there was a huge fish to see too. She goes. It is one of the few times the journals record her pressing a wish of her own.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lewis, 6 Jan 1806, via 'Sacagawea in the Journals' (lewis-clark.org); flag: seen only through the journals"
+  },
+  {
+   "date_iso": "1806-06-01",
+   "date_display": "June 1806",
+   "precision": "month",
+   "eye": "salcedo",
+   "place": "Santa Fe",
+   "headline": "The biggest Spanish column: Melgares",
+   "digest": "Salcedo's last attempt is the largest. Lieutenant Facundo Melgares leads about six hundred men (105 regular soldiers, roughly four hundred militia and about a hundred Comanche allies) with nearly two thousand horses and mules, out onto the plains toward the Pawnee. He never reaches the Missouri, and returns to Santa Fe in October, by which time the Corps is already back in St. Louis. Zebulon Pike, travelling west that autumn, would follow Melgares's trail.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Teachinghistory.org, 'Trailing Lewis and Clark' (month only)"
+  },
+  {
+   "date_iso": "1806-09-23",
+   "date_display": "Tuesday 23 September 1806",
+   "precision": "day",
+   "eye": "ordway",
+   "place": "St. Louis",
+   "headline": "Ordway: three rounds, three cheers, finis",
+   "digest": "Around noon the canoes come down to St. Louis. The men fire three rounds as they approach and land opposite the middle of town, where the crowd on the bank gives three cheers. Ordway, who has written every single day since May 1804, says they are glad the expedition is complete. He mentions the men's plans to go home, and ends his journal.",
+   "quote": "much rejoiced that we have the Expedition Completed",
+   "confidence": "verified",
+   "source_note": "Ordway, 23 Sep 1806, via lewis-clark.org Day-by-Day and NPS 'Return home day'"
+  },
+  {
+   "date_iso": "1806-09-23",
+   "date_display": "Tuesday 23 September 1806",
+   "precision": "day",
+   "eye": "clark",
+   "place": "St. Louis",
+   "headline": "Clark: met by all the village",
+   "digest": "Clark writes that the whole village turned out and gave them a hearty welcome. He finds an old acquaintance who runs a tavern to store the baggage, takes a room at Pierre Chouteau's house, and writes to his brother Jonathan. His weather diary notes rain at sunrise and their arrival at twelve o'clock.",
+   "quote": "received a harty welcom from it's inhabitants",
+   "confidence": "verified",
+   "source_note": "Clark, 23 Sep 1806, via NPS 'Return home day' and lewis-clark.org Day-by-Day"
+  },
+  {
+   "date_iso": "1806-09-23",
+   "date_display": "Tuesday 23 September 1806",
+   "precision": "day",
+   "eye": "lewis",
+   "place": "St. Louis",
+   "headline": "Lewis writes to Jefferson: we are back",
+   "digest": "Lewis writes to the president the same day, announcing the safe arrival of himself and the party. He reports that they reached the Pacific and found what he calls a practicable route across the continent, though it involves a punishing land crossing. He lists the specimens he is bringing: sea otter skins, bighorn skins and skeletons, plants, and vocabularies of nine languages. He notes that the Mandan leader Sheheke is with them and well.",
+   "quote": "the safe arrival of myself and party",
+   "confidence": "verified",
+   "source_note": "Lewis to Jefferson, 23 Sep 1806, via NPS 'Return home day' and lewis-clark.org Day-by-Day"
+  },
+  {
+   "date_iso": "1806-09-23",
+   "date_display": "Tuesday 23 September 1806",
+   "precision": "day",
+   "eye": "sheheke",
+   "place": "St. Louis",
+   "headline": "Seen through Lewis: Sheheke arrives in St. Louis",
+   "digest": "Sheheke has come down the Missouri with the Corps, with his wife Yellow Corn and their son, to meet the president. Lewis's letter mentions him in one line, as being in good health and spirits. His impressions of St. Louis, a town of strangers and stone houses, are not recorded anywhere.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lewis to Jefferson, 23 Sep 1806 ('in good health and sperits'), via lewis-clark.org Day-by-Day; flag: seen through others"
+  },
+  {
+   "date_iso": "1806-10-26",
+   "date_display": "Sunday 26 October 1806",
+   "precision": "day",
+   "eye": "jefferson",
+   "place": "Washington",
+   "headline": "Jefferson: 'unspeakable joy'",
+   "digest": "Jefferson's reply arrives more than a month after the landing. He writes that he received Lewis's letter of 23 September with unspeakable joy, after a long silence that had made many people fear the party was lost. He asks Lewis to come to Washington and to bring the Mandan leader with him.",
+   "quote": "unspeakable joy",
+   "confidence": "verified",
+   "source_note": "Jefferson to Lewis, 26 Oct 1806 (Founders Online, Jefferson/99-01-02-4473)"
+  },
+  {
+   "date_iso": "1806-12-01",
+   "date_display": "Winter 1805–06 (one glyph for the year)",
+   "precision": "range",
+   "eye": "lone-dog",
+   "place": "Upper Missouri (Yanktonai Dakota)",
+   "headline": "Winter count: eight killed by the Crow",
+   "digest": "Lone Dog's count marks the next winter with eight joined lines: eight Dakota killed by the Crow. While the Corps winters on the Pacific, the war that shapes life on the plains is with neighbouring nations, not with the newcomers. As in 1804–05, the year-sign makes no mention of the Americans.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lone Dog winter count, 1805–06, per Mallery (1886) as tabulated in 'Symbols in Lone Dog's Winter Count' (UPenn)"
+  },
+  {
+   "date_iso": "1806-12-30",
+   "date_display": "Tuesday 30 December 1806",
+   "precision": "day",
+   "eye": "jefferson",
+   "place": "Washington",
+   "headline": "Jefferson addresses the Mandan delegation",
+   "digest": "Jefferson speaks to 'the Wolf and people of the Mandan Nation' as 'my children.' He thanks the Great Spirit for their safe journey and the Mandan for welcoming Lewis, and says he sent Lewis to learn how the United States could supply them with trade. He urges all the nations to live in peace like brothers. Behind the language of family, he is asserting a new sovereignty over their country.",
+   "quote": "take you by the hand of friendship",
+   "confidence": "verified",
+   "source_note": "Jefferson, address to the Mandan, 30 Dec 1806, via lewis-clark.org Day-by-Day 30 Dec 1806"
+  },
+  {
+   "date_iso": "1806-12-30",
+   "date_display": "Tuesday 30 December 1806",
+   "precision": "day",
+   "eye": "sheheke",
+   "place": "Washington",
+   "headline": "Seen through Jefferson: the Mandan leader at the capital",
+   "digest": "Sheheke, his wife Yellow Corn and Jusseaume's wife are in Washington to hear the president. No reply from Sheheke is recorded on the page that preserves Jefferson's speech, so his side of the meeting is missing. It took him until 1809, and an armed escort fighting past the Arikara, to get home.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "lewis-clark.org Day-by-Day 30 Dec 1806 (no reply recorded; 'the Wolf' may or may not refer to Sheheke, whose name means Coyote); flag: seen through others"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1804-05-14",
+   "label": "Departure from Camp Dubois",
+   "eyes": [
+    "clark",
+    "ordway",
+    "floyd",
+    "whitehouse",
+    "gass",
+    "lewis"
+   ],
+   "note": "Five men in the boats and one absent captain each record the start differently: Ordway counts the men, Whitehouse remembers the swivel gun, Floyd measures six miles, Gass's editor writes 'voyage of discovery', and Lewis writes only a weather note in St. Louis."
+  },
+  {
+   "date": "1804-08-20",
+   "label": "Death of Sergeant Floyd",
+   "eyes": [
+    "clark",
+    "ordway",
+    "gass",
+    "floyd"
+   ],
+   "note": "Floyd's own journal stopped on the 18th. The other three keepers each record his death and burial, Clark tenderly, Ordway plainly and Gass formally. The three accounts agree closely, which is rare for this expedition."
+  },
+  {
+   "date": "1804-09-25",
+   "label": "Standoff with the Teton Lakota at the Bad River",
+   "eyes": [
+    "clark",
+    "ordway",
+    "gass",
+    "lone-dog"
+   ],
+   "note": "Every American keeper wrote about the standoff, each stressing a different side of it: Clark's anger, Ordway's loaded guns, Gass's boast. The only dated Indigenous year-record checked here (a Yanktonai count, not Teton) marks the winter with a calumet dance and war, and makes no mention of the Americans. The Lakota account of the day is not in these sources."
+  },
+  {
+   "date": "1804-11-28",
+   "label": "Fort Mandan: the British clerk and the captains",
+   "eyes": [
+    "larocque",
+    "clark",
+    "ordway"
+   ],
+   "note": "Over five days (25–29 Nov) a rival empire's journal and the captains' journals describe the same visits. Larocque found the captains friendly but guarded. Clark recorded a warning about flags and medals. Ordway, in the barracks, wrote about the snow."
+  },
+  {
+   "date": "1805-02-27",
+   "label": "A winter working day at Fort Mandan",
+   "eyes": [
+    "clark",
+    "ordway",
+    "whitehouse"
+   ],
+   "note": "On one quiet day the captain starts a continental map, the sergeant plans the canoe fleet, and the private notes Mandan neighbours trading corn for work."
+  },
+  {
+   "date": "1805-08-17",
+   "label": "Camp Fortunate: Sacagawea and Cameahwait",
+   "eyes": [
+    "lewis",
+    "clark",
+    "ordway",
+    "sacagawea"
+   ],
+   "note": "Lewis records the emotion, Clark the bad news about the route, and Ordway the gifts. Sacagawea's own experience survives only as her gestures in their pages."
+  },
+  {
+   "date": "1805-09-21",
+   "label": "Weippe Prairie: the Nimiipuu receive the Corps",
+   "eyes": [
+    "clark",
+    "nimiipuu"
+   ],
+   "note": "Clark's dated entry and the Nimiipuu oral tradition describe the same arrival from opposite sides. In Clark's account the hungry party is fed. In the Nimiipuu account the community debated killing the strangers and an elder woman's word saved them."
+  },
+  {
+   "date": "1805-11-07",
+   "label": "'Ocian in view!'",
+   "eyes": [
+    "clark",
+    "ordway",
+    "whitehouse"
+   ],
+   "note": "Clark wrote the most famous line of the expedition, and was about twenty miles short of the sea. Ordway wrote about fog and fish, and Whitehouse about mileage and a spring."
+  },
+  {
+   "date": "1806-09-23",
+   "label": "Return to St. Louis",
+   "eyes": [
+    "ordway",
+    "clark",
+    "lewis",
+    "sheheke"
+   ],
+   "note": "Ordway ends with cheers and 'finis', Clark writes about the welcome, and Lewis writes his report to the president. Sheheke, who was also there, appears only as one line in Lewis's letter."
+  }
+ ],
+ "ties": [
+  {
+   "a": "lewis",
+   "b": "clark",
+   "kind": "met",
+   "note": "Co-commanders and friends from army service. Lewis insisted on treating Clark as a full captain though the War Department commissioned him only a lieutenant."
+  },
+  {
+   "a": "floyd",
+   "b": "gass",
+   "kind": "influenced",
+   "note": "Gass was elected by the men to fill the sergeancy left vacant by Floyd's death."
+  },
+  {
+   "a": "larocque",
+   "b": "lewis",
+   "kind": "met",
+   "note": "Lewis met Larocque on the road on 25 Nov 1804, received him at Fort Mandan, worked on his broken compass, and refused his request to join the expedition."
+  },
+  {
+   "a": "larocque",
+   "b": "clark",
+   "kind": "opposite sides",
+   "note": "Clark used Larocque's visits to warn British traders against giving flags and medals to the Mandan and Hidatsa."
+  },
+  {
+   "a": "jefferson",
+   "b": "lewis",
+   "kind": "read each other",
+   "note": "Jefferson's 1803 instructions shaped every journal, and Lewis's 23 Sept 1806 letter ended Jefferson's long wait for news."
+  },
+  {
+   "a": "salcedo",
+   "b": "jefferson",
+   "kind": "opposite sides",
+   "note": "Salcedo's orders to arrest the Corps were the Spanish answer to Jefferson's expedition. Each empire claimed the same plains."
+  },
+  {
+   "a": "sacagawea",
+   "b": "clark",
+   "kind": "met",
+   "note": "Clark recorded her preferences, used a nickname for her ('Janey'), and later paid for her son Jean Baptiste's education in St. Louis."
+  },
+  {
+   "a": "sheheke",
+   "b": "jefferson",
+   "kind": "met",
+   "note": "Sheheke travelled to Washington, where Jefferson addressed the Mandan delegation on 30 Dec 1806."
+  },
+  {
+   "a": "nimiipuu",
+   "b": "clark",
+   "kind": "met",
+   "note": "Clark's advance party was the first to reach the Nimiipuu at Weippe Prairie, and the two sides' records of the arrival survive."
+  },
+  {
+   "a": "ordway",
+   "b": "whitehouse",
+   "kind": "same street",
+   "note": "They shared barracks, boats and camps for more than two years. On most days their entries can be read as a pair."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "humboldt",
+   "note": "In late May and June 1804, as the Corps rowed up the lower Missouri, Alexander von Humboldt was Jefferson's guest in Washington. Jefferson and Gallatin questioned him about New Spain's northern frontier, the borderland where Salcedo was sending patrols to stop Lewis. Charles Willson Peale painted both Humboldt and Clark for his Philadelphia museum."
+  },
+  {
+   "to": "endeavour",
+   "note": "Leaving Fort Mandan on 7 April 1805, Lewis compared his canoes with the ships of Columbus and Captain Cook. Cook's Pacific voyages were the model of scientific exploration Jefferson's instructions followed, and Jefferson had earlier backed John Ledyard, who sailed with Cook's third voyage, in a plan to cross the continent from the west."
+  },
+  {
+   "to": "v1:us-civil-war",
+   "note": "York, enslaved by Clark, voted at Station Camp in 1805 but was refused his freedom for years after the return. The status of slavery in the Louisiana Purchase lands the Corps explored led to the Missouri Compromise of 1820, one of the long roads to 1861."
+  },
+  {
+   "to": "v2:irish-famine",
+   "note": "Jefferson's Louisiana policy included the idea of moving eastern nations west of the Mississippi, and Clark later administered Indian affairs from St. Louis. Removal was carried out from the 1830s, including the Choctaw, who in 1847 sent famine relief to Ireland."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://research.lewisandclarktrust.org/art/meriwether-lewis",
+   "title": "Meriwether Lewis",
+   "caption": "Portrait of Lewis, painted from life after the return (Charles Willson Peale's portraits of both captains date from 1807–08).",
+   "date": "c. 1807",
+   "credit": "Lewis and Clark Trust art collection page"
+  },
+  {
+   "url": "https://americanart.si.edu/exhibitions/humboldt/online/charles-willson-peale-william-clark",
+   "title": "Charles Willson Peale, William Clark",
+   "caption": "Peale's portrait of Clark, shown by the Smithsonian American Art Museum in its Humboldt exhibition. Peale hung it in the same museum gallery as his portrait of Humboldt, which ties this chapter to the Humboldt chapter.",
+   "date": "c. 1807–08",
+   "credit": "Charles Willson Peale; Independence National Historical Park"
+  },
+  {
+   "url": "https://research.lewisandclarktrust.org/art/map-of-lewis-and-clarks-track-1814",
+   "title": "A Map of Lewis and Clark's Track (1814)",
+   "caption": "The engraved version of Clark's master map, which he began at Fort Mandan on 27 Feb 1805, published with the official history in 1814.",
+   "date": "1814",
+   "credit": "After William Clark; engraved by Samuel Lewis"
+  },
+  {
+   "url": "https://si.edu/object/archives/components/sova-naa-ms2372-ref1312",
+   "title": "Lone Dog's Winter Count",
+   "caption": "The Yanktonai Dakota year-record, with one pictograph per winter spiralling out from the centre. The signs for 1804–05 and 1805–06 record a calumet dance and war with the Crow, and nothing about the expedition.",
+   "date": "1800–1871 (copy)",
+   "credit": "National Anthropological Archives, Smithsonian Institution"
+  },
+  {
+   "url": "https://rp-digitalcollections.nypl.org/collections/a-journal-of-the-voyages-and-travels-of-a-corps-of-discovery",
+   "title": "Gass, A Journal of the Voyages and Travels of a Corps of Discovery",
+   "caption": "Digitized images from Gass's journal: the first published eyewitness account (1807), and later editions illustrated with woodcuts of the expedition.",
+   "date": "1807–1812",
+   "credit": "New York Public Library Digital Collections"
+  }
+ ],
+ "further": [
+  {
+   "title": "The Journals of the Lewis and Clark Expedition (Moulton ed.), University of Nebraska–Lincoln",
+   "url": "https://lewisandclarkjournals.unl.edu/"
+  },
+  {
+   "title": "Discovering Lewis & Clark: Day-by-Day",
+   "url": "https://lewis-clark.org/day-by-day/23-sep-1806/"
+  },
+  {
+   "title": "Founders Online: Instructions for Meriwether Lewis, 20 June 1803",
+   "url": "https://founders.archives.gov/documents/Jefferson/01-40-02-0136-0005"
+  },
+  {
+   "title": "NPS: The vote at Station Camp",
+   "url": "https://www.nps.gov/places/the-vote-at-station-camp.htm"
+  },
+  {
+   "title": "Teachinghistory.org: Trailing Lewis and Clark (the Spanish pursuit)",
+   "url": "https://teachinghistory.org/history-content/ask-a-historian/trailing-lewis-and-clark/"
+  },
+  {
+   "title": "Nez Perce Tribe / University of Idaho: Wetxuuwíis",
+   "url": "https://cdil.lib.uidaho.edu/nimiipuu-l3/expedition/wetxuuwiis.html"
+  },
+  {
+   "title": "Library of Congress: A Map of Lewis and Clark's Track",
+   "url": "https://www.loc.gov/item/79692907"
+  },
+  {
+   "title": "Mallery, Pictographs of the North American Indians (Project Gutenberg)",
+   "url": "https://gutenberg.org/cache/epub/54643/pg54643-images.html"
+  }
+ ],
+ "vantage_key": "0 = commanders and the people at the centre of an encounter (Lewis, Clark, Sacagawea, Sheheke); 1 = eyewitnesses in the boats, at the fort or among the hosts; 2 = the wider Dakota country, recording its own year; 3 = Washington and Chihuahua, sending orders; 4 = not used."
+}

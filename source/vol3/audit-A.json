@@ -1,0 +1,323 @@
+[
+ {
+  "chapter": "treasure-fleets",
+  "where": "entry:14",
+  "severity": "error",
+  "problem": "Internal date clash. Entry 13 puts Yongle 13, 11th month, 7th day on 7 December 1415, so the month began on 1 December (the computed new moon was 1 Dec, c. 21:50 China time). The 19th day is therefore 19 December, not 20 December.",
+  "fix": {
+   "date_iso": "1415-12-19",
+   "date_display": "Yongle 13, 11th month, 19th day (19 December 1415)"
+  }
+ },
+ {
+  "chapter": "treasure-fleets",
+  "where": "convergence:3",
+  "severity": "error",
+  "problem": "Convergence date should follow the corrected entry: Yongle 13/11/19 = 19 December 1415.",
+  "fix": {
+   "date": "1415-12-19"
+  }
+ },
+ {
+  "chapter": "treasure-fleets",
+  "where": "entry:17",
+  "severity": "doubt",
+  "problem": "Rabi' I–Rabi' II 822 AH runs from about 28 March to 25 May 1419, so 'March 1419' covers only its first days. The month label does not match the Hijri months given.",
+  "fix": {
+   "date_iso": "1419-04-15",
+   "date_display": "Rabi' I–Rabi' II 822 AH (late March–May 1419)",
+   "precision": "range"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "treasure-fleets",
+  "where": "entry:37",
+  "severity": "doubt",
+  "problem": "The Hijri label does not match the Julian date. Sha'ban 846 begins about 5 December 1442 and Ramadan 846 about 3 January 1443, so neither is 'November 1442'. Rajab–Sha'ban 846 corresponds to roughly November–December 1442.",
+  "fix": {
+   "date_display": "late 1442 (Rajab–Sha'ban 846 AH, approx.)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "treasure-fleets",
+  "where": "entry:37",
+  "severity": "quote",
+  "problem": "The headline puts a translated phrase (Persian 'Chini-bachagan') in quotation marks.",
+  "fix": {
+   "headline": "Calicut's seafarers, nicknamed children of China"
+  }
+ },
+ {
+  "chapter": "treasure-fleets",
+  "where": "convergence:6",
+  "severity": "doubt",
+  "problem": "Pero Tafur's meeting with Conti near Sinai is usually dated to 1437, not 1436. 'A Spanish traveller' is also better named.",
+  "fix": {
+   "text_replace": {
+    "old": "That same year a Spanish traveller meets Conti at Sinai",
+    "new": "A year later, in 1437, the Castilian traveller Pero Tafur met Conti near Sinai"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "treasure-fleets",
+  "where": "eye:zheng-he",
+  "severity": "doubt",
+  "problem": "The claim of a 'UNESCO Memory of the World 2025' inscription for the Galle stele could not be confirmed. Drop it unless it is sourced.",
+  "fix": {
+   "text_replace": {
+    "old": " now in the Colombo National Museum; UNESCO Memory of the World 2025)",
+    "new": " now in the Colombo National Museum)"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "treasure-fleets",
+  "where": "eye:ming-shilu",
+  "severity": "doubt",
+  "problem": "Entry 36 (1436) cites the Yingzong Shilu, compiled 1467, but the eye is named and dated only as the Taizong and Xuanzong Shilu (compiled 1424–1438).",
+  "fix": {
+   "text_replace": {
+    "old": "Ming Veritable Records (Taizong Shilu and Xuanzong Shilu)",
+    "new": "Ming Veritable Records (Taizong, Xuanzong and Yingzong Shilu)"
+   }
+  }
+ },
+ {
+  "chapter": "treasure-fleets",
+  "where": "eye:ming-shilu",
+  "severity": "doubt",
+  "problem": "The life span should cover the Yingzong Shilu (completed 1467), which entry 36 uses.",
+  "fix": {
+   "text_replace": {
+    "old": "compiled 1424–1438 from daily court records",
+    "new": "compiled 1424–1467 from daily court records"
+   }
+  }
+ },
+ {
+  "chapter": "embassies-1403",
+  "where": "entry:0",
+  "severity": "error",
+  "problem": "The Battle of Ankara is dated 20 July 1402. The entry's own Hijri date, 19 Dhu'l-hijja 804, converts to Thursday 20 July 1402, not Friday 28 July.",
+  "fix": {
+   "date_iso": "1402-07-20",
+   "date_display": "20 July 1402 (19 Dhu'l-hijja 804)"
+  }
+ },
+ {
+  "chapter": "embassies-1403",
+  "where": "entry:1",
+  "severity": "error",
+  "problem": "Same battle: Ankara was fought on 20 July 1402.",
+  "fix": {
+   "date_iso": "1402-07-20"
+  }
+ },
+ {
+  "chapter": "embassies-1403",
+  "where": "convergence:0",
+  "severity": "error",
+  "problem": "Convergence date for Ankara should be 20 July 1402.",
+  "fix": {
+   "date": "1402-07-20"
+  }
+ },
+ {
+  "chapter": "embassies-1403",
+  "where": "eye:ibn-arabshah",
+  "severity": "doubt",
+  "problem": "Calendar mismatch. 17 Muharram 839 converts to about 11–12 August 1435, not 12 July 1435. One of the two dates is wrong.",
+  "fix": {
+   "text_replace": {
+    "old": "17 Muharram 839 / 12 July 1435",
+    "new": "17 Muharram 839 / August 1435"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassies-1403",
+  "where": "eye:clavijo",
+  "severity": "error",
+  "problem": "Clavijo was not 'the only western European eyewitness of Timur's court'. Schiltberger (an eye in this same chapter) lived in Timur's following, and the first Castilian embassy (Sotomayor and Palazuelos) also met Timur in 1402.",
+  "fix": {
+   "text_replace": {
+    "old": "He is the only western European eyewitness of Timur's court",
+    "new": "He left the fullest western European eyewitness account of Timur's court"
+   }
+  }
+ },
+ {
+  "chapter": "embassies-1403",
+  "where": "image:1",
+  "severity": "error",
+  "problem": "Shami entered Timur's service when Timur first took Baghdad, in 1393, not in the 1401 campaign shown in this painting.",
+  "fix": {
+   "caption": "Yazdi's text with a Shiraz painting of Timur's 1401 siege of Baghdad, the city where Shami had first entered his service when Timur took it in 1393."
+  }
+ },
+ {
+  "chapter": "embassies-1403",
+  "where": "entry:25",
+  "severity": "doubt",
+  "problem": "The Chinese 8th month of Yongle 12 began on 15 August 1414 (computed new moon; consistent with 9/7 = 20 Sept 1414 and leap 9/14 = 27 Oct used elsewhere), so the 15th day is 29 August, not 30 August.",
+  "fix": {
+   "date_iso": "1414-08-29",
+   "date_display": "15th day, 8th month, Yongle 12 (c. 29 August 1414)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassies-1403",
+  "where": "entry:7",
+  "severity": "tone",
+  "problem": "The source_note contains a compiler-process remark ('not re-read in this research pass').",
+  "fix": {
+   "source_note": "Iranica: letters presented 8 Sept 1404. Seating incident from Le Strange trans. (Silk Road Seattle); its exact day is not fixed in the excerpt, so read as part of the reception sequence. Audience details (failing eyesight, greeting for the king) from Clavijo's narrative."
+  }
+ },
+ {
+  "chapter": "embassies-1403",
+  "where": "entry:33",
+  "severity": "tone",
+  "problem": "The source_note contains a compiler-process remark ('exact Shilu entry not read').",
+  "fix": {
+   "source_note": "Rossabi, Crossroads 2010 (twenty Timurid delegations in the Yongle reign; arrival date); cited through secondary scholarship."
+  }
+ },
+ {
+  "chapter": "narrow-road",
+  "where": "entry:13",
+  "severity": "doubt",
+  "problem": "The digest states Bashō's 'three days' of storm at Shitomae as fact. Sora's log has them at Sakaida only from 5.15 to 5.17, about two nights. This is another of the journal's stretchings and should be attributed to Bashō.",
+  "fix": {
+   "digest": "Crossing into Dewa, the travellers sheltered at a border-guard's house; Bashō says storms held them three days, while Sora's log suggests about two nights. Bashō turned the misery into a comic verse about fleas, lice and a horse pissing by his pillow, and then hired a strong young guide for the wild Natagiri pass. Low comedy is placed deliberately right after the grandeur of Hiraizumi."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "narrow-road",
+  "where": "entry:15",
+  "severity": "doubt",
+  "problem": "Oku no Hosomichi says they reached Risshakuji while 'the sun had not yet set' (hi imada kurezu). The verse is not placed at sunset.",
+  "fix": {
+   "digest": "Urged by the people of Obanazawa, Bashō turned back south to the mountain temple of Risshakuji, arriving before dark and climbing among old pines and moss-covered rocks to halls set on the cliffs. In the stillness he wrote the verse of cicadas' voices seeping into the rocks, perhaps the most famous single poem of the journey."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "narrow-road",
+  "where": "entry:31",
+  "severity": "doubt",
+  "problem": "Sora's 1689 diary does not stop at Yamanaka. It goes on to record his own route south (Zenshōji, Nagashima) and his rejoining Bashō at Ōgaki on 9.3, which entry 37 itself relies on. Only the journey shared with Bashō ends here.",
+  "fix": {
+   "digest": "With a stomach complaint, Sora left Bashō at the Yamanaka hot spring and went on ahead toward relatives at Nagashima in Ise province; from here his diary follows his own separate road. His farewell verse imagined going on and on, and if he fell, lying down in a field of bush clover.",
+   "headline": "Sora goes on ahead, ill"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "narrow-road",
+  "where": "convergence:10",
+  "severity": "doubt",
+  "problem": "As above: Sora's diary does not simply stop at the parting.",
+  "fix": {
+   "text_replace": {
+    "old": "Sora's diary simply stops;",
+    "new": "Sora's diary turns to his own road;"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "narrow-road",
+  "where": "eye:sora",
+  "severity": "doubt",
+  "problem": "The description of the 1689 diary as ending at Sora's departure from Yamanaka conflicts with entry 37 (rejoining at Ōgaki, 9.3, from his diary).",
+  "fix": {
+   "text_replace": {
+    "old": "the 1689 diary (Fukagawa to Sora's departure from Yamanaka)",
+    "new": "the 1689 diary (from Fukagawa, continuing after the parting at Yamanaka with Sora's own route)"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "narrow-road",
+  "where": "entry:0",
+  "severity": "doubt",
+  "problem": "In the Azuma Kagami, Saigyō told Yoritomo he knew nothing of poetry's deeper secrets and talked through the night mainly about horseback archery. The digest implies a night of poetry talk.",
+  "fix": {
+   "digest": "On his way north to Hiraizumi, the aged Saigyō was recognised at Kamakura and called before Minamoto no Yoritomo. Saigyō professed to have forgotten poetry's secrets but talked through the night about the old arts of horseback archery. The chronicle says he was given a silver cat as a parting gift and handed it to children playing at the gate. This is the journey whose roads Bashō set out to walk 503 years later."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "narrow-road",
+  "where": "intro:1",
+  "severity": "error",
+  "problem": "Inconsistent with the Sora eye, which says the notebook was seen in 1938 and published in July 1943. It did not 'turn up' in 1943.",
+  "fix": {
+   "text_replace": {
+    "old": "Sora's notebook, which turned up in 1943,",
+    "new": "Sora's notebook, published only in 1943,"
+   }
+  }
+ },
+ {
+  "chapter": "narrow-road",
+  "where": "entry:28",
+  "severity": "quote",
+  "problem": "The headline puts a translated phrase of the verse in quotation marks.",
+  "fix": {
+   "headline": "A grave asked to stir: the memorial for Isshō"
+  }
+ },
+ {
+  "chapter": "narrow-road",
+  "where": "entry:23",
+  "severity": "quote",
+  "problem": "The headline puts a translated sentence from Sora's diary in quotation marks.",
+  "fix": {
+   "headline": "Heavy rain in the night, says the log"
+  }
+ },
+ {
+  "chapter": "narrow-road",
+  "where": "threads_out:2",
+  "severity": "tone",
+  "problem": "Reader-facing compiler note ('link based on general scholarship, not re-checked for this chapter').",
+  "fix": {
+   "text_replace": {
+    "old": " (link based on general scholarship, not re-checked for this chapter)",
+    "new": ""
+   }
+  }
+ },
+ {
+  "chapter": "narrow-road",
+  "where": "entry:11",
+  "severity": "tone",
+  "problem": "The source_note contains a compiler-process remark ('from memory of the edited text, not re-checked online').",
+  "fix": {
+   "source_note": "Sora tabi nikki, 5.13 (standard editions), including the note that the sutra hall was closed in the custodian's absence."
+  }
+ },
+ {
+  "chapter": "narrow-road",
+  "where": "eye:ichiei",
+  "severity": "tone",
+  "problem": "Compiler-process remark in reader-facing authenticity text.",
+  "fix": {
+   "text_replace": {
+    "old": " is reported to survive at Ōishida (not checked here)",
+    "new": " is reported to survive at Ōishida"
+   }
+  }
+ }
+]

@@ -1,0 +1,312 @@
+[
+ {
+  "chapter": "bauhaus",
+  "where": "entry:0",
+  "severity": "error",
+  "problem": "The quote is a modern English translation of a German sentence from the 1919 manifesto (10 words). It is well known among design historians but is a sentence of the programme, not a world-famous phrase, so the translation rule excludes it.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bauhaus",
+  "where": "intro:2",
+  "severity": "error",
+  "problem": "With the manifesto sentence removed, only one quotation remains: the 1923 slogan 'Art and technology – a new unity', which is the school's widely cited motto and is kept.",
+  "fix": {
+   "text_replace": {
+    "old": "Everything is paraphrased, apart from two of the school's own world-famous slogans.",
+    "new": "Everything is paraphrased, apart from the school's own world-famous slogan of 1923."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bauhaus",
+  "where": "intro:0",
+  "severity": "error",
+  "problem": "The Bauhaus had three directors (Gropius, Meyer, Mies), so it changed director twice, not three times.",
+  "fix": {
+   "text_replace": {
+    "old": "In fourteen years the school moved twice, changed directors three times,",
+    "new": "In fourteen years the school moved twice, had three directors,"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bauhaus",
+  "where": "claim:2",
+  "severity": "error",
+  "problem": "The Triadic Ballet's premiere is documented as 30 September 1922 at the Landestheater in Stuttgart. The '22 or 30 September' hedge is unnecessary.",
+  "fix": {
+   "date_iso": "1922-09-30",
+   "date_display": "30 September 1922",
+   "claim": "Triadic Ballet premiered at the Württemberg Landestheater, Stuttgart",
+   "evidence": "LeMO; schlemmer.org; standard Schlemmer chronologies (premiere 30 September 1922)",
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bauhaus",
+  "where": "threads_out:3",
+  "severity": "error",
+  "problem": "Scheffler and Tolziner were both arrested in 1938 (Tolziner in February 1938, sentenced to ten years in the Gulag; Scheffler arrested in Sverdlovsk in 1938, released 1939, rearrested in 1941 and shot). Tolziner arrived in the USSR in 1931, so 'went with Meyer in autumn 1930' does not fit him. The link is real, but the wording needs correcting.",
+  "fix": {
+   "text_replace": {
+    "old": "Hannes Meyer went to Moscow in autumn 1930 with a group of former Bauhaus students; several of those who stayed, among them Béla Scheffler and Philipp Tolziner, were arrested in the purges of 1937–38.",
+    "new": "Hannes Meyer went to Moscow in autumn 1930 with a group of former Bauhaus students, and others followed in 1931; several who stayed were arrested in the Terror, among them Philipp Tolziner (February 1938, sent to the Gulag) and Béla Scheffler (1938, and again in 1941, when he was shot)."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bauhaus",
+  "where": "threads_out:0",
+  "severity": "doubt",
+  "problem": "Nothing found supports the claim that Alma Mahler visited the Dessau Bauhaus. She is documented visiting the Weimar Bauhaus from May 1919, when she brought their daughter Manon.",
+  "fix": {
+   "text_replace": {
+    "old": "who later visited the Dessau Bauhaus.",
+    "new": "who visited the Weimar Bauhaus with their daughter Manon from May 1919."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "bauhaus",
+  "where": "eye:kandinsky",
+  "severity": "error",
+  "problem": "Kandinsky was born on 16 December 1866, so he was 55 when he arrived in June 1922.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 56 on arrival",
+    "new": "aged 55 on arrival"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bauhaus",
+  "where": "eye:itten",
+  "severity": "error",
+  "problem": "Itten was born on 11 November 1888 and appointed from 1 October 1919, so he was 30 on arrival.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 31 on arrival",
+    "new": "aged 30 on arrival"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bauhaus",
+  "where": "entry:3",
+  "severity": "style",
+  "problem": "The arrival date is confirmed: the Bauhaus Kooperation biography gives his Bauhaus service as 1 October 1919 to 31 March 1923. Only the description of the course content rests on later accounts.",
+  "fix": {
+   "source_note": "Bauhaus Kooperation biography of Itten (Bauhaus service 1 October 1919 – 31 March 1923); 'A Mystic Milieu'. Course content from later accounts by Itten and his students."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bauhaus",
+  "where": "entry:9",
+  "severity": "style",
+  "problem": "Confirmed. Bauhaus Kooperation gives the end of Itten's service as 31 March 1923, after differences with Gropius, followed by the move to the Mazdaznan community at Herrliberg. The Bauhaus Bookshelf chronology puts his departure and Moholy-Nagy's appointment in March 1923.",
+  "fix": {
+   "source_note": "Bauhaus Bookshelf chronology (March 1923); Bauhaus Kooperation biography of Itten (service to 31 March 1923; then Herrliberg)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bauhaus",
+  "where": "entry:37",
+  "severity": "doubt",
+  "problem": "The venue (Das Tage-Buch, 16 August 1930) is still unconfirmed, and Das Tage-Buch is usually described as a left-liberal weekly rather than a left-wing one. A neutral description avoids asserting either point.",
+  "fix": {
+   "text_replace": {
+    "old": "in a Berlin left-wing weekly",
+    "new": "in a Berlin political weekly"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "bauhaus",
+  "where": "entry:42",
+  "severity": "style",
+  "problem": "The vote figures are confirmed by the cited chronology: an NSDAP motion carried 20 to 5, with 37 members present. Mayor Hesse and the Communists voted against, the Social Democrats abstained, and closure took effect on 1 October 1932. Naming the SPD abstention keeps the account even-handed.",
+  "fix": {
+   "text_replace": {
+    "old": "On a National Socialist motion the Dessau council voted 20 to 5 to close the school.",
+    "new": "On a National Socialist motion the Dessau council voted 20 to 5 to close the school; Mayor Hesse and the Communists voted against and the Social Democrats abstained."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bauhaus",
+  "where": "entry:20",
+  "severity": "style",
+  "problem": "Confirmed. The Bauhaus Bookshelf gives the November 1924 cut as 146,000 to 50,000 RM, about a third, and the self-dissolution as 26 December 1924. The exact figures could be added.",
+  "fix": {
+   "text_replace": {
+    "old": "cut the budget to about a third in November",
+    "new": "cut the budget from 146,000 to 50,000 Reichsmarks in November"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "harlem",
+  "where": "entry:21",
+  "severity": "error",
+  "problem": "McKay's letter of 24 April 1926, as excerpted by The Paris Review, says the opposite. He told Hughes he was lucky to have Van Vechten's introduction, which he thought said just the right thing with nothing overdone, and contrasted it with the overdone introduction to his own book. The 'intelligentsia' remark is not in the excerpt.",
+  "fix": {
+   "headline": "McKay thanks Hughes, and envies him his introduction",
+   "digest": "Writing late to thank Hughes for The Weary Blues, McKay praised many of the poems and named a few he disliked. He thought Hughes lucky in Van Vechten's introduction, which he found well judged and restrained, unlike the one written for his own book. He described his unsettled life on the Riviera and a paid job reading stories for the film director Rex Ingram."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "harlem",
+  "where": "entry:16",
+  "severity": "error",
+  "problem": "McKay did not find Van Vechten's introduction overdone; in his letter of 24 April 1926 he praised it as restrained. No source cited here shows other contemporaries calling it overdone.",
+  "fix": {
+   "text_replace": {
+    "old": " McKay and others would find the tone overdone.",
+    "new": " McKay, writing from Nice, thought it pitched exactly right."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "harlem",
+  "where": "entry:30",
+  "severity": "error",
+  "problem": "The review concedes something narrower than the digest says. Du Bois granted that Van Vechten had many Black friends and was 'an authority on dives and cabarets', and that the book began well with the figure of Anatol. He did not say Van Vechten knew Harlem as a whole or wrote with skill.",
+  "fix": {
+   "text_replace": {
+    "old": "He granted that Van Vechten knew Harlem and wrote with skill in places, but he advised readers to drop the book gently in the grate.",
+    "new": "He granted that Van Vechten had many Black friends, knew the cabarets and had begun with a promising character, but he advised readers to drop the book gently in the grate."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "harlem",
+  "where": "entry:5",
+  "severity": "style",
+  "problem": "The cited Civic Club account calls the group the 'Writers' Guild', not the 'Harlem Writers' Guild'. The latter name belongs to a later organisation founded in 1950.",
+  "fix": {
+   "text_replace": {
+    "old": "with the Harlem Writers' Guild",
+    "new": "with the Writers' Guild, a group of younger writers meeting in Harlem"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "harlem",
+  "where": "entry:28",
+  "severity": "style",
+  "problem": "The Modernist Magazines Project gives a circulation of about 500, not a print run, and some accounts give the print run as 1,000. The wording should follow the source.",
+  "fix": {
+   "text_replace": {
+    "old": "appeared, priced at a dollar, in about 500 copies,",
+    "new": "appeared, priced at a dollar, with a circulation of about 500,"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "harlem",
+  "where": "claim:10",
+  "severity": "style",
+  "problem": "Same point as entry 28: about 500 is the circulation figure given by the source, not a confirmed print run.",
+  "fix": {
+   "claim": "Fire!! published, circulation about 500; no second issue; unsold stock later burned"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "harlem",
+  "where": "eye:hughes",
+  "severity": "doubt",
+  "problem": "His birth year is given as 1901 in the life field (the date most scholars now accept), so he was 20, not 19, when the poem appeared in June 1921. He long gave 1902 himself.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 19 when his first major poem appeared in 1921",
+    "new": "aged 20 when his first major poem appeared in 1921 (he long gave his birth year as 1902)"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "harlem",
+  "where": "entry:2",
+  "severity": "doubt",
+  "problem": "For consistency with the 1901 birth year in the eye record, he was twenty in June 1921.",
+  "fix": {
+   "text_replace": {
+    "old": "a nineteen-year-old from Cleveland and Mexico",
+    "new": "a twenty-year-old from Cleveland and Mexico"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "harlem",
+  "where": "intro:0",
+  "severity": "doubt",
+  "problem": "For consistency with the 1901 birth year, Hughes was twenty in June 1921.",
+  "fix": {
+   "text_replace": {
+    "old": "by a nineteen-year-old named Langston Hughes",
+    "new": "by a twenty-year-old named Langston Hughes"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "harlem",
+  "where": "entry:41",
+  "severity": "doubt",
+  "problem": "Attribution: the entry is filed under Fauset, but its whole content is Dunbar-Nelson's reading-journal record of Plum Bun and Passing. Fauset recorded nothing here.",
+  "fix": {
+   "eye": "dunbar-nelson",
+   "place": "Wilmington, Delaware"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "harlem",
+  "where": "threads_out:2",
+  "severity": "style",
+  "problem": "Verified (NPS, Dayton Aviation Heritage): Joshua Dunbar escaped slavery in Kentucky and enlisted in the 55th Massachusetts on 5 June 1863. He was discharged in October 1863, re-enlisted in the 5th Massachusetts Cavalry (Colored) and served to the end of the war. Adding the second unit makes the note complete.",
+  "fix": {
+   "text_replace": {
+    "old": "served in the Union army's 55th Massachusetts Infantry.",
+    "new": "served in the Union army's 55th Massachusetts Infantry and then the 5th Massachusetts Cavalry."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "harlem",
+  "where": "entry:40",
+  "severity": "style",
+  "problem": "The National Trust account says guests resented the new charges for food and drink, and that Walker went on renting the townhouse out for events. It does not say the writers could not pay, and 'later let out' is vague.",
+  "fix": {
+   "text_replace": {
+    "old": "Walker had begun charging for food and drink, and many of the writers it was meant to welcome could not or would not pay. Her parties continued, but the room was later let out.",
+    "new": "Walker had begun charging for food and drink, which many guests resented. Her parties continued, and she rented the rooms out for events."
+   }
+  },
+  "confidence": "verified"
+ }
+]

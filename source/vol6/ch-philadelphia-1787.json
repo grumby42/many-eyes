@@ -1,0 +1,1523 @@
+{
+ "id": "philadelphia-1787",
+ "title": "The Long Room: Philadelphia, Summer 1787",
+ "short_title": "Philadelphia, 1787",
+ "subtitle": "The Federal Convention, Pennsylvania State House, Philadelphia, May–September 1787",
+ "span": "1787",
+ "intro": [
+  "For sixteen weeks in the summer of 1787, about fifty-five men met behind closed doors in the Assembly Room of the Pennsylvania State House. They had been sent to amend the Articles of Confederation and wrote a new constitution instead. Their first rules forbade printing or repeating anything said in the room, and the rule held: the public saw nothing until the finished text appeared in the Pennsylvania Packet on 19 September.",
+  "So the room is known almost entirely through private papers, and the form tags say so. Only the secretary, William Jackson, kept an official Journal, and it records motions and state votes, never a speech. Everything else comes from delegates' notes (Madison, Yates, King, McHenry, Pierce, Paterson, Hamilton), letters home (Mason, Gerry, Washington, Hamilton), Washington's spare diary, Franklin's written speeches, and a visitor's journal (Cutler). Some of this reached print generations later and through interested hands: the Journal in 1819, Yates in 1821 in an edition shaped by Madison's enemies, Madison's own notes in 1840 after decades of revision. Each eye's authenticity note says how far to trust it.",
+  "The arc is a series of votes. On 29 May the Virginia Plan proposed a national government apportioned by population. On 15 June Paterson's New Jersey Plan defended one state, one vote, and lost on 19 June. On 18 June Hamilton argued for going much further. Through late June and early July the Convention deadlocked, with Franklin asking for prayers on 28 June and a tie on 2 July. On 16 July the Connecticut, or Great, Compromise carried by a single state: population in the House, equality in the Senate.",
+  "Slavery ran through the whole summer. It was there in the three-fifths ratio adopted on 11 June, in Gouverneur Morris's attack on it on 8 August, and in the slave-trade week of 21–25 August that ended with imports protected until 1808. A navigation-act bargain followed, and a fugitive clause was added on 29 August. These debates are given as the delegates spoke and voted, from Madison's notes and Martin's later report. No enslaved or free Black person was in the room. The Pennsylvania Abolition Society's memorial of 2 June asking the Convention to suppress the trade was left with Franklin, its president, and there is no record it was ever presented.",
+  "The chapter ends with the signing on 17 September: Franklin's speech, read by Wilson, his remark about the rising sun, Washington's one speech and his dinner at the City Tavern, and the three who refused, Randolph, Mason and Gerry. It closes on the first Federalist essay of 27 October, and on Luther Martin's November report to Maryland, which broke the secrecy to argue the other side."
+ ],
+ "calendar_note": "All dates are Gregorian; British America had adopted the New Style in 1752, so no conversion is needed. The difficulty is dating rather than the calendar. Madison's notes are dated by session, but parts were rewritten years later. Pierce's sketches and Mason's Objections are undated and placed by context, and McHenry's 'republic' anecdote is undated. Letters are given on the day written, not the day received.",
+ "eyes": [
+  {
+   "id": "madison",
+   "short": "Madison",
+   "name": "James Madison",
+   "life": "1751–1836",
+   "role": "Virginia delegate, aged 36; author of much of the Virginia Plan and the Convention's most systematic note-taker",
+   "side": "Virginia; nationalist, large-state bloc",
+   "where": "A seat in front of the presiding chair in the Assembly Room of the State House",
+   "lat": 39.9489,
+   "lon": -75.15,
+   "vantage": 0,
+   "vantage_label": "principal actor and self-appointed recorder",
+   "form": "notes of debates (written up from daily shorthand, revised later)",
+   "language": "English",
+   "authenticity": "Madison wrote up his notes each evening from abbreviated jottings and kept them unpublished until his death; Congress bought them and they appeared in 1840 in The Papers of James Madison. He revised them over decades, correcting from the official Journal (1819) and Yates (1821), and Mary Sarah Bilder's Madison's Hand (2015) argues that some passages, including parts of his own speeches, were rewritten or replaced well after 1787. They are the fullest record but not a stenographic one: they catch only a fraction of each day's talk.",
+   "bio": "The best-prepared man in the room, he arrived early, drafted the scheme Randolph presented, and spoke more than almost anyone while also writing everything down. His notes are the backbone of every history of the Convention, which is exactly why their later revision matters.",
+   "sources": [
+    {
+     "title": "Madison's Notes of Debates (Avalon Project)",
+     "url": "https://avalon.law.yale.edu/subject_menus/madispap.asp"
+    },
+    {
+     "title": "Farrand, Records of the Federal Convention, vol. 1 (1911)",
+     "url": "https://ia800703.us.archive.org/14/items/recordsoffederal01unit/recordsoffederal01unit.pdf"
+    },
+    {
+     "title": "A cautionary tale about the notes of James Madison (Bilder)",
+     "url": "https://lawmagazine.bc.edu/2016/02/a-cautionary-tale-about-the-notes-of-james-madison/"
+    }
+   ]
+  },
+  {
+   "id": "washington",
+   "short": "Washington",
+   "name": "George Washington",
+   "life": "1732–1799",
+   "role": "Virginia delegate, aged 55; elected President of the Convention",
+   "side": "Virginia; presiding officer",
+   "where": "The President's chair on the dais; lodging at Robert Morris's house on Market Street",
+   "lat": 39.9502,
+   "lon": -75.1505,
+   "waypoints": [
+    {
+     "lat": 38.7293,
+     "lon": -77.1073,
+     "label": "Mount Vernon, departs 9 May"
+    },
+    {
+     "lat": 39.9502,
+     "lon": -75.1505,
+     "label": "Philadelphia, arrives 13 May"
+    },
+    {
+     "lat": 40.0965,
+     "lon": -75.4446,
+     "label": "Valley Forge, 31 July"
+    },
+    {
+     "lat": 39.9502,
+     "lon": -75.1505,
+     "label": "Philadelphia, signing 17 Sept"
+    },
+    {
+     "lat": 38.7293,
+     "lon": -77.1073,
+     "label": "Mount Vernon, late Sept"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "presiding officer who kept a dinner-and-weather diary",
+   "form": "diary; dated letters",
+   "language": "English",
+   "authenticity": "Washington's 1787 diary survives (in two overlapping versions) and is edited in The Diaries of George Washington, vol. 5 (1979); it was first printed in Fitzpatrick's edition of 1925. It records almost nothing of debate, in keeping with the secrecy rule, but dates his days precisely.",
+   "bio": "His presence lent the meeting its legitimacy, and he spoke on substance only once, on the last day. His diary is the chapter's metronome: sessions, dinners, teas, concerts and a fishing trip, set against the arguments other men recorded.",
+   "sources": [
+    {
+     "title": "Diaries of George Washington, May 1787 (Founders Online)",
+     "url": "https://founders.archives.gov/documents/Washington/01-05-02-0003-0002"
+    },
+    {
+     "title": "Diary entry, 17 September 1787 (Founders Online)",
+     "url": "https://founders.archives.gov/documents/Washington/01-05-02-0002-0009-0017"
+    },
+    {
+     "title": "Gone Fishing (Independence NHP)",
+     "url": "https://www.nps.gov/inde/learn/historyculture/gone-fishing.htm"
+    }
+   ]
+  },
+  {
+   "id": "jackson",
+   "short": "Jackson (Jnl)",
+   "name": "William Jackson",
+   "life": "1759–1828",
+   "role": "Secretary of the Convention, aged 28; not a delegate",
+   "side": "Convention staff",
+   "where": "The secretary's table in the Assembly Room",
+   "lat": 39.9489,
+   "lon": -75.15,
+   "waypoints": [
+    {
+     "lat": 39.9489,
+     "lon": -75.15,
+     "label": "Philadelphia, May–Sept"
+    },
+    {
+     "lat": 40.7075,
+     "lon": -74.0113,
+     "label": "New York, carries the Constitution to Congress"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "official recorder: motions and votes, no speeches",
+   "form": "official journal of proceedings and yea-nay tallies",
+   "language": "English",
+   "authenticity": "Jackson's Journal records motions and state-by-state votes but no debate. It was handed to Washington on 17 September and printed only in 1819, at Congress's order, edited by John Quincy Adams, who found it loosely and imperfectly kept; the vote tallies sometimes have to be matched to motions by later editors.",
+   "bio": "A former army officer who won the secretaryship over Franklin's grandson, Jackson produced the only official record. Its silences are as telling as its tallies: no speeches, no reasons, only which states said aye.",
+   "sources": [
+    {
+     "title": "Records of the Convention (overview)",
+     "url": "https://encyclopedia.com/politics/encyclopedias-almanacs-transcripts-and-maps/constitutional-convention-records"
+    },
+    {
+     "title": "Farrand, Records, vol. 1 (includes the Journal)",
+     "url": "https://ia800703.us.archive.org/14/items/recordsoffederal01unit/recordsoffederal01unit.pdf"
+    }
+   ]
+  },
+  {
+   "id": "yates",
+   "short": "Yates",
+   "name": "Robert Yates",
+   "life": "1738–1801",
+   "role": "New York delegate, aged 49; justice of the state supreme court and ally of Governor George Clinton",
+   "side": "New York; states'-rights (later Anti-Federalist)",
+   "where": "The New York bench, beside Hamilton and John Lansing",
+   "lat": 39.9489,
+   "lon": -75.15,
+   "waypoints": [
+    {
+     "lat": 39.9489,
+     "lon": -75.15,
+     "label": "Philadelphia, 25 May–10 July"
+    },
+    {
+     "lat": 42.6526,
+     "lon": -73.7562,
+     "label": "Albany, after leaving 10 July"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "dissenter's note-taker who walked out",
+   "form": "notes of debates (published posthumously)",
+   "language": "English",
+   "authenticity": "Yates's notes stop on 5 July; he and Lansing left the Convention on 10 July. They were published in 1821 as Secret Proceedings and Debates by an anonymous editor later identified as Edmond Genet, with cuts and alterations that served an anti-Madison purpose; the manuscript is now lost apart from fragments. Madison himself complained of their incorrectness. Use with caution.",
+   "bio": "Sent to keep New York's sovereignty intact, Yates heard the Convention go far beyond amending the Articles and left. His notes give the sharpest independent version of Hamilton's 18 June speech, but the printed text passed through partisan hands.",
+   "sources": [
+    {
+     "title": "Yates, Secret Proceedings and Debates (Tansill edition, TAH)",
+     "url": "https://teachingamericanhistory.org/resource/tansill/secret-proceedings"
+    },
+    {
+     "title": "Records of the Convention (overview)",
+     "url": "https://encyclopedia.com/politics/encyclopedias-almanacs-transcripts-and-maps/constitutional-convention-records"
+    }
+   ]
+  },
+  {
+   "id": "king",
+   "short": "King",
+   "name": "Rufus King",
+   "life": "1755–1827",
+   "role": "Massachusetts delegate, aged 32; lawyer and former member of Congress",
+   "side": "Massachusetts; large-state nationalist",
+   "where": "The Massachusetts bench",
+   "lat": 39.9489,
+   "lon": -75.15,
+   "vantage": 1,
+   "vantage_label": "large-state delegate keeping brief working notes",
+   "form": "notes of debates",
+   "language": "English",
+   "authenticity": "King's notes are brief and cover selected days from 31 May to 8 August; they were published in The Life and Correspondence of Rufus King (1894) and reprinted by Farrand. Some headings carry a query over the date.",
+   "bio": "A young Massachusetts lawyer who began sceptical of strong government and ended on the Committee of Style. His jottings catch arguments in raw form, such as Wilson's arithmetic of how a minority of the people could rule through equal state votes.",
+   "sources": [
+    {
+     "title": "Notes of Rufus King (Avalon Project)",
+     "url": "https://avalon.law.yale.edu/18th_century/king.asp"
+    }
+   ]
+  },
+  {
+   "id": "mchenry",
+   "short": "McHenry",
+   "name": "James McHenry",
+   "life": "1753–1816",
+   "role": "Maryland delegate, aged 33; physician and former aide to Washington",
+   "side": "Maryland; moderate nationalist",
+   "where": "The Maryland bench; absent 1 June to 6 August",
+   "lat": 39.9489,
+   "lon": -75.15,
+   "waypoints": [
+    {
+     "lat": 39.9489,
+     "lon": -75.15,
+     "label": "Philadelphia, May"
+    },
+    {
+     "lat": 39.2904,
+     "lon": -76.6122,
+     "label": "Baltimore, brother ill, June–July"
+    },
+    {
+     "lat": 39.9489,
+     "lon": -75.15,
+     "label": "Philadelphia, from 6 Aug"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "part-time delegate, private journal",
+   "form": "journal / notes",
+   "language": "English",
+   "authenticity": "McHenry's notes survive in the Library of Congress and were printed in the American Historical Review in 1906. The Franklin 'republic' anecdote is the last, undated item; a footnote naming the lady as Mrs Powel was added later in a different hand-size, and whether McHenry witnessed the exchange is unknown.",
+   "bio": "Called home by his brother's illness for two months, McHenry missed the summer's great fight and returned to a printed draft. His notes show the Maryland delegation quarrelling in a lodging-house room, a view of state politics inside the national meeting.",
+   "sources": [
+    {
+     "title": "McHenry to Washington, 1 June 1787 (Founders Online)",
+     "url": "https://founders.archives.gov/documents/Washington/04-05-02-0194"
+    },
+    {
+     "title": "'A republic, if you can keep it' (Boston 1775)",
+     "url": "https://boston1775.blogspot.com/2017/03/a-republicif-you-can-keep-it.html"
+    }
+   ]
+  },
+  {
+   "id": "pierce",
+   "short": "Pierce",
+   "name": "William Pierce",
+   "life": "c. 1740s–1789",
+   "role": "Georgia delegate; merchant and former aide to Nathanael Greene",
+   "side": "Georgia",
+   "where": "The Georgia bench, 31 May to about 1 July",
+   "lat": 39.9489,
+   "lon": -75.15,
+   "waypoints": [
+    {
+     "lat": 39.9489,
+     "lon": -75.15,
+     "label": "Philadelphia, 31 May–c. 1 July"
+    },
+    {
+     "lat": 40.7075,
+     "lon": -74.0113,
+     "label": "New York, Congress, July"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "portraitist of his colleagues",
+   "form": "notes of debates and character sketches",
+   "language": "English",
+   "authenticity": "Pierce's notes of debates cover 30 May to 6 June; his character sketches of the delegates were written during the summer. Both were printed in the Savannah Georgian in 1828 and reprinted by Farrand. The sketches are undated.",
+   "bio": "Pierce left early to attend Congress and to his business, and never signed. His thumbnail sketches are the only contemporary set of portraits of the men in the room, judging each as a speaker and a character.",
+   "sources": [
+    {
+     "title": "Notes of William Pierce (Avalon Project)",
+     "url": "https://avalon.law.yale.edu/18th_century/pierce.asp"
+    }
+   ]
+  },
+  {
+   "id": "paterson",
+   "short": "Paterson",
+   "name": "William Paterson",
+   "life": "1745–1806",
+   "role": "New Jersey delegate, aged 41; former attorney general of the state",
+   "side": "New Jersey; small-state bloc",
+   "where": "The New Jersey bench",
+   "lat": 39.9489,
+   "lon": -75.15,
+   "waypoints": [
+    {
+     "lat": 39.9489,
+     "lon": -75.15,
+     "label": "Philadelphia, May–July"
+    },
+    {
+     "lat": 40.4862,
+     "lon": -74.4518,
+     "label": "New Brunswick, home"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "author of the small-state alternative",
+   "form": "notes, draft resolutions and dated letters",
+   "language": "English",
+   "authenticity": "Paterson's working notes and drafts of the New Jersey resolutions survive and are printed in Farrand's Records and its 1987 Supplement; they are fragmentary outlines rather than a running record.",
+   "bio": "Paterson spoke for the states that feared being swallowed by Virginia, Pennsylvania and Massachusetts. His plan of 15 June lost, but the principle of equal state votes it defended returned a month later in the Senate.",
+   "sources": [
+    {
+     "title": "Selected correspondence from the Convention (TAH)",
+     "url": "https://teachingamericanhistory.org/resources/correspondence/"
+    },
+    {
+     "title": "Farrand, Records, vol. 1",
+     "url": "https://ia800703.us.archive.org/14/items/recordsoffederal01unit/recordsoffederal01unit.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hamilton",
+   "short": "Hamilton",
+   "name": "Alexander Hamilton",
+   "life": "1755/57–1804",
+   "role": "New York delegate, about 32; lawyer, outvoted within his own delegation",
+   "side": "New York; strong-government nationalist",
+   "where": "The New York bench; absent for much of July and August",
+   "lat": 39.9489,
+   "lon": -75.15,
+   "waypoints": [
+    {
+     "lat": 39.9489,
+     "lon": -75.15,
+     "label": "Philadelphia, May–June"
+    },
+    {
+     "lat": 40.7075,
+     "lon": -74.0113,
+     "label": "New York, July–Aug"
+    },
+    {
+     "lat": 39.9489,
+     "lon": -75.15,
+     "label": "Philadelphia, September"
+    },
+    {
+     "lat": 40.7075,
+     "lon": -74.0113,
+     "label": "New York, Federalist 1, Oct"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "outvoted nationalist, later chief defender",
+   "form": "speech notes, dated letters, published essay",
+   "language": "English",
+   "authenticity": "His own outline for the speech of 18 June survives in the Library of Congress (Hamilton Papers); the speech itself is known through five versions (his notes, Madison, Yates, Lansing, King), which differ. Federalist No. 1 appeared anonymously as 'Publius'.",
+   "bio": "Hamilton's six-hour speech of 18 June proposed going further than any plan on the table, and he largely withdrew afterwards. He returned to sign alone for New York and then wrote the first of the essays that defended the result.",
+   "sources": [
+    {
+     "title": "Notes for speech, 18 June 1787 (Library of Congress)",
+     "url": "https://www.loc.gov/item/mss246120160/"
+    },
+    {
+     "title": "Editorial note on the five versions (Founders Online)",
+     "url": "https://founders.archives.gov/documents/Hamilton/01-04-02-0098-0001"
+    }
+   ]
+  },
+  {
+   "id": "mason",
+   "short": "Mason",
+   "name": "George Mason",
+   "life": "1725–1792",
+   "role": "Virginia delegate, aged 61; planter, author of the Virginia Declaration of Rights; enslaver",
+   "side": "Virginia; republican, later Anti-Federalist",
+   "where": "The Virginia bench; lodging at the Indian Queen tavern",
+   "lat": 39.9489,
+   "lon": -75.15,
+   "waypoints": [
+    {
+     "lat": 38.6626,
+     "lon": -77.1636,
+     "label": "Gunston Hall, Virginia"
+    },
+    {
+     "lat": 39.9489,
+     "lon": -75.15,
+     "label": "Philadelphia, May–Sept"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "framer who refused to sign",
+   "form": "dated letters; written objections",
+   "language": "English",
+   "authenticity": "His letters to his son are printed in Rutland's Papers of George Mason and earlier in Kate Mason Rowland's Life (1892). His Objections were first written on the back of his copy of the Committee of Style draft and circulated in manuscript before printing in late 1787.",
+   "bio": "Mason arrived hopeful and left a dissenter, chiefly over the lack of a bill of rights, the Senate's power and the bargain over navigation and the slave trade. His position is double-edged and recorded as such: he condemned the slave trade in the hall while himself holding many people in slavery.",
+   "sources": [
+    {
+     "title": "Mason to George Mason Jr., 1 June 1787 (ConSource)",
+     "url": "https://consource.org/document/george-mason-to-george-mason-jr-1787-6-1/"
+    },
+    {
+     "title": "Objections to this Constitution (National Constitution Center)",
+     "url": "https://constitutioncenter.org/the-constitution/historic-document-library/detail/george-mason-objections-to-the-constitution-of-government-formed-by-the-convention-1787"
+    }
+   ]
+  },
+  {
+   "id": "franklin",
+   "short": "Franklin",
+   "name": "Benjamin Franklin",
+   "life": "1706–1790",
+   "role": "Pennsylvania delegate, aged 81; President of Pennsylvania's Supreme Executive Council and of the Pennsylvania Abolition Society",
+   "side": "Pennsylvania; host city",
+   "where": "The Pennsylvania bench, carried to the State House in a sedan chair; home in Franklin Court",
+   "lat": 39.9496,
+   "lon": -75.1468,
+   "vantage": 0,
+   "vantage_label": "oldest delegate, conciliator",
+   "form": "written speeches (read by others), with his own endorsements",
+   "language": "English",
+   "authenticity": "Franklin wrote out several speeches, which James Wilson read for him; the manuscripts and contemporary copies survive. The 'rising sun' remark is known only from Madison's notes. The Abolition Society memorial of 2 June survives at the Historical Society of Pennsylvania.",
+   "bio": "Too frail to speak at length, Franklin worked through written speeches, motions for calm and dinners in his garden. As head of the Abolition Society he held its memorial against the slave trade and did not lay it before the Convention.",
+   "sources": [
+    {
+     "title": "Franklin's proposal for prayer (Independence NHP)",
+     "url": "https://www.nps.gov/inde/learn/historyculture/franklins-proposal-for-prayer.htm"
+    },
+    {
+     "title": "PAS address to the Convention, 2 June 1787 (ConSource)",
+     "url": "https://consource.org/document/address-by-the-pennsylvania-society-for-abolition-of-slavery-1787-6-2/"
+    }
+   ]
+  },
+  {
+   "id": "cutler",
+   "short": "Cutler",
+   "name": "Manasseh Cutler",
+   "life": "1742–1823",
+   "role": "Congregational minister and botanist from Ipswich Hamlet, Massachusetts, aged 44; agent of the Ohio Company",
+   "side": "Outside the room; Massachusetts land-company lobbyist",
+   "where": "Philadelphia lodgings and Franklin's garden, a short walk from the State House",
+   "lat": 39.9496,
+   "lon": -75.1468,
+   "waypoints": [
+    {
+     "lat": 40.7075,
+     "lon": -74.0113,
+     "label": "New York, lobbying Congress, early July"
+    },
+    {
+     "lat": 39.9496,
+     "lon": -75.1468,
+     "label": "Philadelphia, Franklin's garden, 13 July"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "visitor in the same city, kept outside the door",
+   "form": "journal",
+   "language": "English",
+   "authenticity": "Cutler's journal was published in Life, Journals and Correspondence of Rev. Manasseh Cutler (1888), edited by his grandchildren.",
+   "bio": "Cutler came south to buy Ohio lands from Congress, which on 13 July in New York passed the Northwest Ordinance barring slavery north of the Ohio. The same day in Philadelphia he recorded a delegate almost breaking the secrecy rule, and being stopped.",
+   "sources": [
+    {
+     "title": "Convention, 13 July 1787 (Independence NHP, quoting Cutler)",
+     "url": "https://www.nps.gov/articles/000/constitutionalconvention-july13.htm"
+    }
+   ]
+  },
+  {
+   "id": "gerry",
+   "short": "Gerry",
+   "name": "Elbridge Gerry",
+   "life": "1744–1814",
+   "role": "Massachusetts delegate, aged 42; merchant, signer of the Declaration of Independence",
+   "side": "Massachusetts; republican sceptic, later Anti-Federalist",
+   "where": "The Massachusetts bench; chaired the grand committee of early July",
+   "lat": 39.9489,
+   "lon": -75.15,
+   "vantage": 0,
+   "vantage_label": "compromiser turned refuser",
+   "form": "dated letters to his wife",
+   "language": "English",
+   "authenticity": "Gerry's letters to Ann Gerry, then in New York with a new baby, were printed in Hutson's Supplement to Farrand's Records (1987); as a twentieth-century first publication they are paraphrased here, not quoted.",
+   "bio": "Gerry chaired the committee that produced the Great Compromise and voted for it, then grew steadily more alarmed. His letters home trace the private arc from fatigue to fear to refusal.",
+   "sources": [
+    {
+     "title": "Gerry to Ann Gerry, 26 August 1787 (TAH)",
+     "url": "https://teachingamericanhistory.org/document/elbridge-gerry-to-ann-gerry/"
+    },
+    {
+     "title": "Gerry to Ann Gerry, 9 September 1787 (TAH)",
+     "url": "https://teachingamericanhistory.org/document/elbridge-gerry-to-ann-gerry-3/"
+    }
+   ]
+  },
+  {
+   "id": "martin",
+   "short": "Luther Martin",
+   "name": "Luther Martin",
+   "life": "1748–1826",
+   "role": "Maryland delegate, about 39; attorney general of Maryland",
+   "side": "Maryland; small-state, later Anti-Federalist",
+   "where": "The Maryland bench, 9 June to 4 September",
+   "lat": 39.9489,
+   "lon": -75.15,
+   "waypoints": [
+    {
+     "lat": 39.9489,
+     "lon": -75.15,
+     "label": "Philadelphia, June–Sept"
+    },
+    {
+     "lat": 38.9784,
+     "lon": -76.4922,
+     "label": "Annapolis, reports to legislature, 29 Nov"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "dissenter reporting back, after the fact",
+   "form": "report (written later)",
+   "language": "English",
+   "authenticity": "The Genuine Information was delivered to the Maryland House of Delegates on 29 November 1787 and printed in instalments in the Maryland Gazette into early 1788, then as a pamphlet. It is a partisan account written to defeat ratification, by a man who left before the end.",
+   "bio": "Martin talked for over three hours across two days in late June and lost. He alone among the departed published an inside account at once, breaking the secrecy to argue against the plan, including against the slave-trade bargain.",
+   "sources": [
+    {
+     "title": "Genuine Information, on the slave trade (Founders' Constitution)",
+     "url": "https://press-pubs.uchicago.edu/founders/print_documents/a1_9_1s8.html"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1787-05-13",
+   "date_display": "Sunday 13 May 1787",
+   "precision": "day",
+   "eye": "washington",
+   "place": "Chester and Philadelphia",
+   "headline": "Washington arrives, escorted by light horse, and calls on Franklin",
+   "digest": "Washington dines at Chester, is met by Mifflin, Knox and Varnum, and rides into the city behind the City Light Horse amid a crowd. Robert and Mary Morris press him to lodge with them, so his baggage goes to Market Street. His first call is on Franklin, President of Pennsylvania.",
+   "quote": "Mr. Corbin and I set out, and dined at Chester",
+   "confidence": "verified",
+   "source_note": "Diaries of George Washington, vol. 5, 13 May 1787 (Founders Online)"
+  },
+  {
+   "date_iso": "1787-05-14",
+   "date_display": "Monday 14 May 1787",
+   "precision": "day",
+   "eye": "washington",
+   "place": "Philadelphia",
+   "headline": "The appointed day: only Virginia and Pennsylvania appear",
+   "digest": "The day set for the Convention finds only two states represented. The members present agree to meet daily at eleven until a quorum gathers. Washington dines and takes tea at the Morrises'. Eleven days of waiting follow.",
+   "quote": "two States only were represented",
+   "confidence": "verified",
+   "source_note": "Diary, 14 May 1787 (Founders Online)"
+  },
+  {
+   "date_iso": "1787-05-25",
+   "date_display": "Friday 25 May 1787",
+   "precision": "day",
+   "eye": "washington",
+   "place": "Philadelphia",
+   "headline": "Quorum at last; Washington called to the chair",
+   "digest": "A New Jersey delegate arrives and seven states make a quorum. Washington is chosen to preside by unanimous vote, Major Jackson is named secretary, and Wythe, Hamilton and Charles Pinckney are set to draft rules. He spends the rest of the day visiting and dines with Thomas Willing.",
+   "quote": "I was called to the Chair by a unanim. vote",
+   "confidence": "verified",
+   "source_note": "Diary, 25 May 1787 (Founders Online)"
+  },
+  {
+   "date_iso": "1787-05-25",
+   "date_display": "Friday 25 May 1787",
+   "precision": "day",
+   "eye": "jackson",
+   "place": "Philadelphia",
+   "headline": "The Journal opens: seven states, a president, a secretary",
+   "digest": "The official Journal lists the states present and records Washington's unanimous election and Jackson's own appointment as secretary. It notes the rules committee and the adjournment to Monday. No speech is entered; the Journal never records one.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Journal of the Convention, 25 May 1787 (Farrand, Records, vol. 1)"
+  },
+  {
+   "date_iso": "1787-05-29",
+   "date_display": "Tuesday 29 May 1787",
+   "precision": "day",
+   "eye": "madison",
+   "place": "Philadelphia",
+   "headline": "Randolph lays the Virginia Plan before the Convention",
+   "digest": "Governor Edmund Randolph opens the main business by describing the defects of the Confederation and offering fifteen resolutions for a national government with two legislative houses apportioned by population, a national executive and judiciary, and a veto over state laws. Charles Pinckney lays a plan of his own on the table the same day. The rules adopted include strict secrecy.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Madison's notes, 29 May 1787 (Avalon)"
+  },
+  {
+   "date_iso": "1787-05-31",
+   "date_display": "Thursday 31 May 1787",
+   "precision": "day",
+   "eye": "pierce",
+   "place": "Philadelphia",
+   "headline": "Georgia's delegates take their seats",
+   "digest": "Pierce and William Houston arrive and bring Georgia onto the floor, as Washington's diary also notes. Pierce starts jotting debate notes at once, catching the first arguments over popular election of the lower house.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pierce's notes, 31 May 1787 (Avalon), editorial footnote on his seating; Washington diary 31 May"
+  },
+  {
+   "date_iso": "1787-06-01",
+   "date_display": "Friday 1 June 1787",
+   "precision": "day",
+   "eye": "madison",
+   "place": "Philadelphia",
+   "headline": "A single executive is moved, and the room falls silent",
+   "digest": "James Wilson moves that the executive be a single person. Madison records a considerable pause, broken when Franklin remarks that the point is important and asks members to give their views. Randolph opposes a one-man executive as the embryo of monarchy and prefers three. The question is put off.",
+   "quote": "the foetus of monarchy",
+   "confidence": "verified",
+   "source_note": "Madison's notes, 1 June 1787"
+  },
+  {
+   "date_iso": "1787-06-01",
+   "date_display": "Friday 1 June 1787",
+   "precision": "day",
+   "eye": "mason",
+   "place": "Philadelphia, Indian Queen",
+   "headline": "Mason feels the weight of the room",
+   "digest": "Mason writes to his son that the Virginia framework is being followed but progress is slow; he doubts they will finish before August. He fears delegates reacting against state excesses will swing too far the other way. Secrecy, he thinks, is a prudent guard against half-formed ideas getting out. The work, he says, will touch millions yet unborn.",
+   "quote": "The eyes of the United States are turned upon this assembly",
+   "confidence": "verified",
+   "source_note": "Mason to George Mason Jr., 1 June 1787 (ConSource)"
+  },
+  {
+   "date_iso": "1787-06-01",
+   "date_display": "Friday 1 June 1787",
+   "precision": "day",
+   "eye": "mchenry",
+   "place": "Philadelphia, leaving for Baltimore",
+   "headline": "McHenry leaves without leave: his brother is dangerously ill",
+   "digest": "An urgent message from Baltimore reports his brother gravely ill, and McHenry sets off at once. He writes to Washington so that the President can explain his absence if anyone asks. He will be gone more than two months.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "McHenry to Washington, 1 June 1787 (Founders Online)"
+  },
+  {
+   "date_iso": "1787-06-02",
+   "date_display": "Saturday 2 June 1787",
+   "precision": "day",
+   "eye": "franklin",
+   "place": "Philadelphia",
+   "headline": "The Abolition Society's memorial is written, and stays in Franklin's hands",
+   "digest": "The Pennsylvania Society for Promoting the Abolition of Slavery, of which Franklin is president, addresses a memorial to the Convention signed by vice-president Jonathan Penrose. It recalls the 1774 Congress's ban on slave imports, laments the trade's revival after the peace, and asks the delegates to make its suppression part of their work. No record in the Journal or any delegate's notes shows it was ever laid before the Convention. The same day Wilson reads Franklin's written speech against paying the executive.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "PAS memorial, 2 June 1787, Historical Society of Pennsylvania; printed in Hutson, Supplement to Farrand (1987), pp. 44–45 (ConSource)"
+  },
+  {
+   "date_iso": "1787-06-04",
+   "date_display": "Monday 4 June 1787",
+   "precision": "day",
+   "eye": "jackson",
+   "place": "Philadelphia",
+   "headline": "The single executive carried, seven states to three",
+   "digest": "The Journal records the committee of the whole agreeing that the executive consist of a single person. New York, Delaware and Maryland vote no; seven states vote aye. Madison notes that Washington, in the chair, voted with Virginia's majority.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Journal and Madison's notes, 4 June 1787"
+  },
+  {
+   "date_iso": "1787-06-11",
+   "date_display": "Monday 11 June 1787",
+   "precision": "day",
+   "eye": "madison",
+   "place": "Philadelphia",
+   "headline": "Representation by numbers, counting three-fifths of the enslaved",
+   "digest": "On Wilson's motion, seconded by Charles Pinckney, the committee of the whole agrees that representation in the first branch follow the free population plus three-fifths of 'all other persons', the ratio Congress had used in 1783 for taxes. New Jersey and Delaware vote no; nine states vote aye. Gerry objects that if enslaved people are property, they should not count for representation any more than northern cattle.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Madison's notes, 11 June 1787"
+  },
+  {
+   "date_iso": "1787-06-15",
+   "date_display": "Friday 15 June 1787",
+   "precision": "day",
+   "eye": "paterson",
+   "place": "Philadelphia",
+   "headline": "The New Jersey Plan: amend the Articles, keep one state one vote",
+   "digest": "Paterson presents resolutions to revise the Confederation rather than replace it: a single-house Congress with equal state votes, new powers to tax imports and regulate trade, a plural executive and a federal judiciary. His drafts and notes show a man arguing that the delegates have no mandate for more and that small states will not consent to less.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Paterson's notes and drafts (Farrand, Records); Madison's notes, 15 June 1787"
+  },
+  {
+   "date_iso": "1787-06-18",
+   "date_display": "Monday 18 June 1787",
+   "precision": "day",
+   "eye": "hamilton",
+   "place": "Philadelphia",
+   "headline": "Hamilton's outline for a day-long speech",
+   "digest": "Hamilton's own notes list his heads of argument: the weakness of both plans, the need for a government that draws men's interests to it, and a sketch with a senate and an executive serving during good behaviour. The speech runs most of the day. It is long remembered and quietly set aside.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Notes for speech, 18 June 1787, LOC Hamilton Papers mss24612"
+  },
+  {
+   "date_iso": "1787-06-18",
+   "date_display": "Monday 18 June 1787",
+   "precision": "day",
+   "eye": "madison",
+   "place": "Philadelphia",
+   "headline": "Madison records Hamilton praising the British constitution",
+   "digest": "Madison reports Hamilton as unfriendly to both plans: New Jersey's 'will not do', and Virginia's falls short of what the people will eventually want. He declares the British government the best model and proposes life tenure, during good behaviour, for a senate and a chief executive, to give the government a permanent will.",
+   "quote": "the British Govt. was the best in the world",
+   "confidence": "verified",
+   "source_note": "Madison's notes, 18 June 1787 (Avalon)"
+  },
+  {
+   "date_iso": "1787-06-18",
+   "date_display": "Monday 18 June 1787",
+   "precision": "day",
+   "eye": "yates",
+   "place": "Philadelphia",
+   "headline": "Yates's version: the few and the many",
+   "digest": "Yates writes down a fuller passage on social division: every community splits into the few and the many, the rich and well born against the mass of the people, and each needs a share of power to check the other. Hamilton's later opponents would make much of this version, which reached print only in Genet's 1821 edition.",
+   "quote": "The first are the rich and well born",
+   "confidence": "verified",
+   "source_note": "Yates, Secret Proceedings (1821), 18 June; five-version comparison in Papers of Alexander Hamilton"
+  },
+  {
+   "date_iso": "1787-06-19",
+   "date_display": "Tuesday 19 June 1787",
+   "precision": "day",
+   "eye": "jackson",
+   "place": "Philadelphia",
+   "headline": "The New Jersey Plan rejected, seven to three, Maryland divided",
+   "digest": "After Madison's long rebuttal of Paterson's plan, the committee of the whole votes to keep Randolph's resolutions as its basis. The Journal's tally: seven states aye, New York, New Jersey and Delaware no, Maryland divided. The small states are beaten but not reconciled.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Journal and Madison's notes, 19 June 1787"
+  },
+  {
+   "date_iso": "1787-06-27",
+   "date_display": "Wednesday 27 June 1787",
+   "precision": "day",
+   "eye": "yates",
+   "place": "Philadelphia",
+   "headline": "Luther Martin begins a speech that spills into the next day",
+   "digest": "Yates records at length Martin's argument that the general government exists to serve the states, which must therefore be equal in it. Madison noted that the speech ran more than three hours and that Martin, exhausted, stopped to resume next morning.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Yates's and Madison's notes, 27–28 June 1787"
+  },
+  {
+   "date_iso": "1787-06-28",
+   "date_display": "Thursday 28 June 1787",
+   "precision": "day",
+   "eye": "franklin",
+   "place": "Philadelphia",
+   "headline": "Franklin moves daily prayers; the Convention adjourns without voting",
+   "digest": "With the representation dispute deadlocked, Franklin observes that their slow progress shows human understanding at its weakest and moves that a clergyman open each session with prayer. Sherman seconds. Hamilton and others fear the public would read it as a sign of trouble; Williamson notes they have no funds to pay a chaplain. Randolph suggests a sermon on the Fourth of July instead, and the meeting adjourns with no vote. Franklin endorsed his copy that all but three or four thought prayers unnecessary.",
+   "quote": "God governs in the affairs of men",
+   "confidence": "verified",
+   "source_note": "Franklin's speech manuscript and Madison's notes, 28 June 1787; NPS summary"
+  },
+  {
+   "date_iso": "1787-06-30",
+   "date_display": "Saturday 30 June 1787",
+   "precision": "day",
+   "eye": "king",
+   "place": "Philadelphia",
+   "headline": "King notes Wilson's arithmetic of minority rule",
+   "digest": "King jots Wilson's argument against equal votes in the second branch: a minority of the people, on his figures 24 parts out of 90, could govern the other 66. He also notes the reply to Ellsworth that large states were no more likely than small ones to combine into an aristocracy.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Notes of Rufus King, 30 June 1787 (Avalon)"
+  },
+  {
+   "date_iso": "1787-06",
+   "date_display": "June 1787 (undated sketches)",
+   "precision": "month",
+   "eye": "pierce",
+   "place": "Philadelphia",
+   "headline": "Pierce sketches his colleagues as speakers",
+   "digest": "In undated character sketches Pierce weighs each delegate. Madison is agreeable, eloquent, convincing and the best-informed man on any point in debate; Franklin is the greatest philosopher of the age but no speaker; Martin is prolix with a bad delivery; Gerry hesitates and labours; Mason is one of the best politicians in America. Of himself he says only that he has ambition.",
+   "quote": "the best informed Man of any point in debate",
+   "confidence": "verified",
+   "source_note": "Pierce's character sketches (Avalon); printed Savannah Georgian, 1828"
+  },
+  {
+   "date_iso": "1787-07-02",
+   "date_display": "Monday 2 July 1787",
+   "precision": "day",
+   "eye": "jackson",
+   "place": "Philadelphia",
+   "headline": "Tie on equal state votes; a grand committee is named",
+   "digest": "Ellsworth's motion for an equal vote for each state in the second branch splits the Convention five to five, with Georgia divided. A committee of one member from each state is chosen to seek a compromise, with Gerry in the chair and Yates for New York. The Convention adjourns over the Fourth of July.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Journal and Madison's notes, 2 July 1787"
+  },
+  {
+   "date_iso": "1787-07-03",
+   "date_display": "Tuesday 3 July 1787",
+   "precision": "day",
+   "eye": "hamilton",
+   "place": "New York",
+   "headline": "Hamilton reports the public mood from New York",
+   "digest": "Away from the Convention, Hamilton writes to Washington that the people he has met in New Jersey and New York seem ready for a strong government and fear the Convention will do too little, not too much. He urges Washington not to let the moment pass.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Hamilton to Washington, 3 July 1787, listed in TAH selected correspondence; contents summarised from Papers of Alexander Hamilton"
+  },
+  {
+   "date_iso": "1787-07-05",
+   "date_display": "Thursday 5 July 1787",
+   "precision": "day",
+   "eye": "yates",
+   "place": "Philadelphia",
+   "headline": "The grand committee reports; Yates's notes end",
+   "digest": "Gerry reports the committee's package: representation by population in the first branch, with money bills originating there, and an equal vote for each state in the second. Yates records the large-state anger at the report. It is the last day of his notes; on 10 July he and Lansing leave Philadelphia for good.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Yates's notes, 5 July 1787; Madison's notes"
+  },
+  {
+   "date_iso": "1787-07-10",
+   "date_display": "Tuesday 10 July 1787",
+   "precision": "day",
+   "eye": "washington",
+   "place": "Philadelphia",
+   "headline": "Washington to Hamilton: near despair",
+   "digest": "Writing to the absent Hamilton, Washington says matters are worse than when Hamilton left, blames narrow-minded men opposed to a strong government, and regrets having had any part in the business. He asks Hamilton to come back. The same day Yates and Lansing go home, leaving New York without a vote.",
+   "quote": "I almost despair of seeing a favourable issue",
+   "confidence": "verified",
+   "source_note": "Washington to Hamilton, 10 July 1787, listed in TAH selected correspondence"
+  },
+  {
+   "date_iso": "1787-07-13",
+   "date_display": "Friday 13 July 1787",
+   "precision": "day",
+   "eye": "cutler",
+   "place": "Philadelphia, Franklin's garden",
+   "headline": "A two-headed snake, and a joke left untold",
+   "digest": "Gerry takes Cutler to Franklin's garden, where the old man sits under a mulberry tree and shows his library, a fan-chair worked by the foot, a mechanical arm for high shelves and a copying press. He produces a two-headed snake in a jar and starts to compare it to a story from that day's Convention, until someone reminds him of the secrecy rule and he stops. In New York the same day, Congress passes the Northwest Ordinance Cutler has been lobbying around.",
+   "quote": "The Doctor showed me a curiosity he had just received",
+   "confidence": "verified",
+   "source_note": "Cutler, Life, Journals and Correspondence (1888), 13 July 1787; NPS daily summary"
+  },
+  {
+   "date_iso": "1787-07-16",
+   "date_display": "Monday 16 July 1787",
+   "precision": "day",
+   "eye": "jackson",
+   "place": "Philadelphia",
+   "headline": "The Great Compromise carried by one state",
+   "digest": "The grand committee's report, with an equal vote for each state in the second branch, passes five states to four with Massachusetts divided. Ayes: Connecticut, New Jersey, Delaware, Maryland, North Carolina. Noes: Pennsylvania, Virginia, South Carolina, Georgia. New York has no quorum present, New Hampshire has not arrived and Rhode Island never came.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Journal and Madison's notes, 16 July 1787 (Avalon)"
+  },
+  {
+   "date_iso": "1787-07-16",
+   "date_display": "Monday 16 July 1787",
+   "precision": "day",
+   "eye": "madison",
+   "place": "Philadelphia",
+   "headline": "Randolph calls the vote an embarrassment; the large states caucus",
+   "digest": "Madison records Gerry and Strong voting aye, King and Gorham no, splitting Massachusetts. Randolph says the vote has embarrassed the business and moves to adjourn so the large states can consider; the motion fails on a tie, and the Convention adjourns anyway. Next morning large-state members meet before the session, agree on nothing, and in effect accept the result.",
+   "quote": "had embarrassed the business extremely",
+   "confidence": "verified",
+   "source_note": "Madison's notes, 16–17 July 1787 (Avalon)"
+  },
+  {
+   "date_iso": "1787-07-31",
+   "date_display": "Tuesday 31 July 1787",
+   "precision": "day",
+   "eye": "washington",
+   "place": "Near Valley Forge",
+   "headline": "Trout fishing, and a ride over the old winter camp",
+   "digest": "With the Convention adjourned while the Committee of Detail drafts, Washington and Gouverneur Morris go up to a farm near Valley Forge after trout. While Morris fishes, Washington rides over the ground of the army's winter cantonment of 1777–78, finding the works in ruins. He records the visit without comment on the contrast with the work in the city.",
+   "quote": "Whilst Mr. Morris was fishing I rid over the old Cantonment",
+   "confidence": "verified",
+   "source_note": "Diary, 31 July 1787 (NPS, Gone Fishing)"
+  },
+  {
+   "date_iso": "1787-08-06",
+   "date_display": "Monday 6 August 1787",
+   "precision": "day",
+   "eye": "mchenry",
+   "place": "Philadelphia, Daniel Carroll's lodgings",
+   "headline": "McHenry returns and finds Maryland divided",
+   "digest": "The Committee of Detail has just laid its printed draft, twenty-three articles set in type under a pledge of secrecy, on the table. Back after two months, McHenry gathers Carroll, Mercer, Martin and Jenifer to go through it paragraph by paragraph. Mercer asks whether Maryland's people would accept such a system; McHenry thinks they would accept a wise one. Martin declares Maryland will never approve and quarrels with Jenifer over a vote. McHenry has to call for order, and the meeting breaks up without agreement.",
+   "quote": "would not object to a wise system",
+   "confidence": "verified",
+   "source_note": "McHenry's notes, 6 August 1787 (AHR 1906); CUI daily journal"
+  },
+  {
+   "date_iso": "1787-08-08",
+   "date_display": "Wednesday 8 August 1787",
+   "precision": "day",
+   "eye": "madison",
+   "place": "Philadelphia",
+   "headline": "Gouverneur Morris attacks the three-fifths rule",
+   "digest": "Madison records Morris calling slavery a nefarious institution and contrasting the prosperity of free regions with the misery of slave states. He protests that counting enslaved people for representation rewards the slave trade. His motion to limit representation to free inhabitants wins only New Jersey.",
+   "quote": "the curse of heaven on the States where it prevailed",
+   "confidence": "verified",
+   "source_note": "Madison's notes, 8 August 1787"
+  },
+  {
+   "date_iso": "1787-08-21",
+   "date_display": "Tuesday 21 August 1787",
+   "precision": "day",
+   "eye": "madison",
+   "place": "Philadelphia",
+   "headline": "Martin moves to tax or end the import of slaves; Rutledge replies",
+   "digest": "Luther Martin proposes allowing a tax on, or a ban of, imported slaves, calling the clause inconsistent with the Revolution's principles. Rutledge answers that interest alone governs nations and that the southern states will not join if the trade is barred. Ellsworth would leave each state to judge; Charles Pinckney says South Carolina will never accept a ban.",
+   "quote": "Religion & humanity had nothing to do with this question",
+   "confidence": "verified",
+   "source_note": "Madison's notes, 21 August 1787"
+  },
+  {
+   "date_iso": "1787-08-21",
+   "date_display": "Tuesday 21 August 1787",
+   "precision": "day",
+   "eye": "gerry",
+   "place": "Philadelphia",
+   "headline": "Gerry to his wife: long days and private doubts",
+   "digest": "Gerry tells Ann that the Convention now sits from ten until after four. He hints that he may not be able to support what is being adopted and asks her to keep it to herself.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Gerry to Ann Gerry, 21 August 1787 (Hutson, Supplement)"
+  },
+  {
+   "date_iso": "1787-08-22",
+   "date_display": "Wednesday 22 August 1787",
+   "precision": "day",
+   "eye": "mason",
+   "place": "Philadelphia",
+   "headline": "Mason condemns the trade from the Virginia bench",
+   "digest": "Madison's notes give Mason's speech: the trade began with British greed, slavery discourages free labour and corrupts manners, and a nation will be punished for it. He wants the general government to have power to stop the import. Ellsworth retorts that Virginia, with a natural increase of enslaved people, has an interest in ending imports; General Pinckney calls it a Virginian self-interest. The clause goes to a committee of one member per state.",
+   "quote": "Every master of slaves is born a petty tyrant",
+   "confidence": "verified",
+   "source_note": "Madison's notes, 22 August 1787"
+  },
+  {
+   "date_iso": "1787-08-25",
+   "date_display": "Saturday 25 August 1787",
+   "precision": "day",
+   "eye": "madison",
+   "place": "Philadelphia",
+   "headline": "Twenty more years for the trade: 1808 carried seven to four",
+   "digest": "General Pinckney moves to extend the protected period for importation from 1800 to 1808; Gorham seconds. Madison objects that twenty years will do all the harm the liberty could cause and is more dishonourable than saying nothing. The motion passes: New Hampshire, Massachusetts, Connecticut, Maryland, North Carolina, South Carolina and Georgia aye; New Jersey, Pennsylvania, Delaware and Virginia no.",
+   "quote": "Twenty years will produce all the mischief that can be apprehended",
+   "confidence": "verified",
+   "source_note": "Madison's notes, 25 August 1787 (Avalon)"
+  },
+  {
+   "date_iso": "1787-08-26",
+   "date_display": "Sunday 26 August 1787",
+   "precision": "day",
+   "eye": "gerry",
+   "place": "Philadelphia",
+   "headline": "Gerry fears the plan could end in civil war",
+   "digest": "Gerry explains to Ann that his complaint was about his place in the Convention, not his lodgings. He is deeply troubled and fears that, unless much changes, the proceedings could lay the ground for civil war. He is tired of it all, would not have come had he foreseen this, and resolves to bear it a little longer.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Gerry to Ann Gerry, 26 August 1787 (TAH; Hutson, Supplement)"
+  },
+  {
+   "date_iso": "1787-08-29",
+   "date_display": "Wednesday 29 August 1787",
+   "precision": "day",
+   "eye": "madison",
+   "place": "Philadelphia",
+   "headline": "Navigation acts by simple majority; a fugitive clause added",
+   "digest": "Charles Pinckney's motion to require two-thirds of Congress for laws regulating commerce is defeated, the deep South splitting from Virginia; General Pinckney says he accepts the result in return for the North's concessions on the slave trade. Later that day Butler's clause requiring the return of persons 'bound to service or labour' who escape to another state is agreed without dissent.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Madison's notes, 29 August 1787"
+  },
+  {
+   "date_iso": "1787-08-31",
+   "date_display": "Friday 31 August 1787",
+   "precision": "day",
+   "eye": "mason",
+   "place": "Philadelphia",
+   "headline": "Mason says he would rather lose his right hand than sign",
+   "digest": "In a dispute over how the plan should be ratified, Mason declares he would sooner cut off his right hand than set it to the Constitution as it stands, and wants another general convention. The same day the unresolved parts go to a committee of eleven, one per state, chosen by ballot.",
+   "quote": "would sooner chop off his right hand",
+   "confidence": "verified",
+   "source_note": "Madison's notes, 31 August 1787 (Avalon)"
+  },
+  {
+   "date_iso": "1787-09-09",
+   "date_display": "Sunday 9 September 1787",
+   "precision": "day",
+   "eye": "gerry",
+   "place": "Philadelphia",
+   "headline": "Gerry expects to vote no within the week",
+   "digest": "In a Sunday-evening letter, Gerry tells Ann the Convention should end in a week or so and that he expects to withhold his assent. Most of the letter is domestic: her improving health, dress, curtain fabric, calls made and skipped, and the sudden death of a young acquaintance, which he takes as a warning against anxiety.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Gerry to Ann Gerry, 9 September 1787 (TAH)"
+  },
+  {
+   "date_iso": "1787-09-12",
+   "date_display": "Wednesday 12 September 1787",
+   "precision": "day",
+   "eye": "madison",
+   "place": "Philadelphia",
+   "headline": "The Committee of Style reports a new text",
+   "digest": "The committee named on 8 September (Johnson, Hamilton, Gouverneur Morris, Madison, King) brings in a polished draft, largely Morris's prose, now opening 'We the People of the United States' instead of listing the states. Mason moves for a committee to prepare a bill of rights; Gerry seconds. Every state present votes no.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Madison's notes, 12 September 1787"
+  },
+  {
+   "date_iso": "1787-09-15",
+   "date_display": "Saturday 15 September 1787",
+   "precision": "range",
+   "eye": "mason",
+   "place": "Philadelphia",
+   "headline": "Mason writes his Objections on the back of the draft",
+   "digest": "On the back of his printed Committee of Style draft, Mason writes out his objections in a numbered list: no declaration of rights, a Senate too powerful, a federal judiciary that will swallow the states', commercial laws by simple majority, and the slave-trade clause. He will circulate the text in manuscript within weeks. In the hall that day, he, Randolph and Gerry announce they will not sign.",
+   "quote": "There is no Declaration of Rights",
+   "confidence": "approx",
+   "source_note": "Mason, Objections to this Constitution (National Constitution Center); Madison's notes, 15 September 1787"
+  },
+  {
+   "date_iso": "1787-09-15",
+   "date_display": "Saturday 15 September 1787",
+   "precision": "day",
+   "eye": "madison",
+   "place": "Philadelphia",
+   "headline": "Three refuse; a second convention is voted down; all states aye",
+   "digest": "Randolph says he cannot sign without a second general convention to weigh state amendments. Mason warns the plan will end in monarchy or a tyrannical aristocracy and objects to a take-it-or-leave-it choice. Gerry lists his reasons, among them a civil court without juries that could act like a Star Chamber. The second-convention motion fails with every state voting no; the Constitution as amended passes with every state aye and is ordered engrossed.",
+   "quote": "All the States ay.",
+   "confidence": "verified",
+   "source_note": "Madison's notes, 15 September 1787 (Avalon)"
+  },
+  {
+   "date_iso": "1787-09-17",
+   "date_display": "Monday 17 September 1787",
+   "precision": "day",
+   "eye": "franklin",
+   "place": "Philadelphia",
+   "headline": "Franklin's last speech, read by Wilson",
+   "digest": "Too weak to deliver it, Franklin has Wilson read his plea for unanimity: he does not approve every part, but the older he grows the more he doubts his own judgment, and he expects no better plan from another convention. He agrees to the Constitution with its faults and asks each dissenter to doubt himself a little and sign. He then moves the signing form Gouverneur Morris drafted, witnessing 'the unanimous consent of the States present', which passes ten to none, South Carolina divided.",
+   "quote": "I agree to this Constitution with all its faults",
+   "confidence": "verified",
+   "source_note": "Madison's notes and Franklin's speech, 17 September 1787; NPS summary"
+  },
+  {
+   "date_iso": "1787-09-17",
+   "date_display": "Monday 17 September 1787",
+   "precision": "day",
+   "eye": "madison",
+   "place": "Philadelphia",
+   "headline": "A rising sun on the back of the chair",
+   "digest": "As the last members sign, Madison records Franklin looking at the President's chair, painted with a sun, and remarking that painters find it hard to show a rising sun from a setting one. Through the summer, he says, he could not tell which this was. Now he knows. It is the last line of Madison's notes.",
+   "quote": "a rising and not a setting Sun",
+   "confidence": "verified",
+   "source_note": "Madison's notes, 17 September 1787 (NPS summary)"
+  },
+  {
+   "date_iso": "1787-09-17",
+   "date_display": "Monday 17 September 1787",
+   "precision": "day",
+   "eye": "washington",
+   "place": "Philadelphia",
+   "headline": "Signed by all but three; dinner at the City Tavern",
+   "digest": "Washington records the Constitution receiving the assent of eleven states and Hamilton for New York, signed by every member present except Randolph, Mason and Gerry. The members dine together at the City Tavern and part. He receives the papers from the secretary and sits up afterwards with the weight of it. That morning he had spoken on substance for the only time, for a smaller ratio of representation.",
+   "quote": "retired to meditate on the momentous wk which had been executed",
+   "confidence": "verified",
+   "source_note": "Diary, 17 September 1787 (Founders Online, both versions)"
+  },
+  {
+   "date_iso": "1787-09-17",
+   "date_display": "Monday 17 September 1787",
+   "precision": "day",
+   "eye": "jackson",
+   "place": "Philadelphia",
+   "headline": "The Journal's last day: the papers go to the President",
+   "digest": "The Journal records Gorham's motion to allow one representative for every 30,000 rather than 40,000, carried unanimously after Washington speaks, and the change written into the engrossed copy. It records the signing form and the resolution that the President keep the journals and papers. That evening Jackson hands them over; thirty-nine names stand on the parchment, one signed by proxy for the absent Dickinson.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Journal, 17 September 1787; NPS summary"
+  },
+  {
+   "date_iso": "1787-09-18",
+   "date_display": "Undated; after 17 September 1787",
+   "precision": "range",
+   "eye": "mchenry",
+   "place": "Philadelphia",
+   "headline": "'A republic, if you can keep it'",
+   "digest": "The last item in McHenry's journal is a short anecdote: a lady asked Franklin what the delegates had made, a republic or a monarchy, and he answered with a condition. A note in a different, later-looking hand names her as Mrs Powel of Philadelphia. Whether McHenry heard it himself or was told it, and when he wrote the note, is unknown.",
+   "quote": "A republic replied the Doctor if you can keep it",
+   "confidence": "approx",
+   "source_note": "McHenry's journal, final undated entry (AHR 1906); Boston 1775 analysis"
+  },
+  {
+   "date_iso": "1787-09-19",
+   "date_display": "Wednesday 19 September 1787",
+   "precision": "day",
+   "eye": "jackson",
+   "place": "Philadelphia to New York",
+   "headline": "The text goes public; the secretary rides for Congress",
+   "digest": "The Pennsylvania Packet prints the full Constitution, ending the summer's secrecy. Jackson is on the road to New York with the signed text and the Convention's letter for Congress, which receives them on 20 September.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "NPS and CUI daily journals for 17–20 September 1787; Wisconsin DHRC 'Transmittal to Congress' (dates of travel approximate)"
+  },
+  {
+   "date_iso": "1787-10-27",
+   "date_display": "Saturday 27 October 1787",
+   "precision": "day",
+   "eye": "hamilton",
+   "place": "New York",
+   "headline": "Publius opens the case for ratification",
+   "digest": "The first essay signed Publius appears in New York's Independent Journal. Hamilton frames ratification as a test of whether people can build good government by deliberate choice, warns that motives on both sides will be mixed, and outlines a series that will run to eighty-five papers by Hamilton, Madison and John Jay.",
+   "quote": "establishing good government from reflection and choice",
+   "confidence": "verified",
+   "source_note": "The Federalist No. 1, Independent Journal, 27 October 1787"
+  },
+  {
+   "date_iso": "1787-11-29",
+   "date_display": "Thursday 29 November 1787",
+   "precision": "day",
+   "eye": "martin",
+   "place": "Annapolis, Maryland House of Delegates",
+   "headline": "Martin breaks the secrecy to argue against ratification",
+   "digest": "Called before the Maryland House of Delegates, Martin gives his account of the Convention, later printed as the Genuine Information. On the slave-trade clause he says the framers avoided the word 'slaves', that he opposed the clause and voted against it, and that it was a bargain: eastern states would accept it if the South dropped the two-thirds rule for navigation acts.",
+   "quote": "indulge the southern States",
+   "confidence": "verified",
+   "source_note": "Genuine Information (1788), as printed in The Founders' Constitution"
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1787-05-25",
+   "date_display": "25 May 1787",
+   "eye": "jackson",
+   "claim": "Washington elected President of the Convention by unanimous vote; Jackson named secretary",
+   "form": "voted",
+   "evidence": "Journal; Washington diary",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1787-05-29",
+   "date_display": "29 May 1787",
+   "eye": "madison",
+   "claim": "Randolph presents the Virginia Plan's fifteen resolutions",
+   "form": "proposed",
+   "evidence": "Madison's notes",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1787-05-29",
+   "date_display": "29 May 1787",
+   "eye": "jackson",
+   "claim": "Rules adopted, including that nothing said in the house be printed or published",
+   "form": "decided",
+   "evidence": "Journal, 29 May",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1787-06-01",
+   "date_display": "1 June 1787",
+   "eye": "madison",
+   "claim": "Wilson moves that the executive be a single person",
+   "form": "proposed",
+   "evidence": "Madison's notes",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1787-06-02",
+   "date_display": "2 June 1787",
+   "eye": "franklin",
+   "claim": "Abolition Society addresses a memorial to the Convention against the slave trade; no record it was presented",
+   "form": "petitioned",
+   "evidence": "PAS memorial (HSP); Hutson, Supplement, pp. 44–45",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1787-06-04",
+   "date_display": "4 June 1787",
+   "eye": "jackson",
+   "claim": "Single executive agreed, 7 states to 3 (NY, Del, Md no)",
+   "form": "voted",
+   "evidence": "Journal; Madison's notes",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1787-06-11",
+   "date_display": "11 June 1787",
+   "eye": "madison",
+   "claim": "Representation by free population plus three-fifths of 'all other persons', 9 to 2 (NJ, Del no)",
+   "form": "voted",
+   "evidence": "Madison's notes",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1787-06-15",
+   "date_display": "15 June 1787",
+   "eye": "paterson",
+   "claim": "New Jersey Plan proposed: amend the Articles, equal state votes",
+   "form": "proposed",
+   "evidence": "Paterson's drafts; Madison's notes",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1787-06-19",
+   "date_display": "19 June 1787",
+   "eye": "jackson",
+   "claim": "New Jersey Plan rejected: 7 aye, 3 no, Maryland divided",
+   "form": "voted",
+   "evidence": "Journal; Madison's notes",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1787-06-28",
+   "date_display": "28 June 1787",
+   "eye": "franklin",
+   "claim": "Motion that sessions open with prayer; adjourned without a vote",
+   "form": "proposed",
+   "evidence": "Madison's notes; Franklin's endorsement",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1787-07-02",
+   "date_display": "2 July 1787",
+   "eye": "jackson",
+   "claim": "Equal vote in the second branch ties 5–5, Georgia divided; grand committee appointed",
+   "form": "voted",
+   "evidence": "Journal; Madison's notes",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1787-07-16",
+   "date_display": "16 July 1787",
+   "eye": "jackson",
+   "claim": "Grand committee report (equal state vote in Senate) adopted 5–4, Massachusetts divided",
+   "form": "voted",
+   "evidence": "Journal; Madison's notes",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1787-08-25",
+   "date_display": "25 August 1787",
+   "eye": "madison",
+   "claim": "Slave-import protection extended to 1808, 7 to 4",
+   "form": "voted",
+   "evidence": "Madison's notes (Avalon)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1787-08-29",
+   "date_display": "29 August 1787",
+   "eye": "madison",
+   "claim": "Fugitive-from-service clause agreed without dissent",
+   "form": "decided",
+   "evidence": "Madison's notes",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1787-09-15",
+   "date_display": "15 September 1787",
+   "eye": "madison",
+   "claim": "Second convention rejected, all states no; Constitution as amended agreed, all states aye",
+   "form": "voted",
+   "evidence": "Madison's notes (Avalon)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1787-09-17",
+   "date_display": "17 September 1787",
+   "eye": "jackson",
+   "claim": "Constitution signed by thirty-nine names; Randolph, Mason and Gerry refuse",
+   "form": "signed",
+   "evidence": "Journal; Washington diary; Madison's notes",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1787-05-25",
+   "label": "Quorum and the choice of a president",
+   "eyes": [
+    "washington",
+    "jackson"
+   ],
+   "note": "Washington's diary gives the arithmetic of arrival and his own election in two sentences, then turns to visits and dinner; Jackson's Journal records the same facts in official form and, as always, nothing of what was said."
+  },
+  {
+   "date": "1787-06-01",
+   "label": "The single-executive debate and the first letters home",
+   "eyes": [
+    "madison",
+    "mason",
+    "mchenry",
+    "pierce"
+   ],
+   "note": "Madison records the silence after Wilson's motion; Mason, the same day, writes of the nation's eyes on the room; McHenry leaves for a sick brother; Pierce, a day into his seat, is taking notes. One hall, four very different days."
+  },
+  {
+   "date": "1787-06-18",
+   "label": "Hamilton's speech",
+   "eyes": [
+    "hamilton",
+    "madison",
+    "yates",
+    "pierce"
+   ],
+   "note": "Five versions of one speech: Hamilton's outline, Madison's careful summary with the British model, Yates's sharper passage on the rich and well born, and Pierce's general verdict that Hamilton convinced rather than charmed. Which Hamilton a reader meets depends on which notes survived and who edited them."
+  },
+  {
+   "date": "1787-06-28",
+   "label": "Deadlock and the motion for prayers",
+   "eyes": [
+    "franklin",
+    "yates",
+    "madison",
+    "martin"
+   ],
+   "note": "Martin finishes his three-hour defence of state equality; Franklin, reading the room's temper, asks for prayers; Madison records the polite burial of the motion and Franklin's own note counts the handful who agreed."
+  },
+  {
+   "date": "1787-07-16",
+   "label": "The Great Compromise by one vote",
+   "eyes": [
+    "jackson",
+    "madison",
+    "gerry",
+    "king",
+    "paterson"
+   ],
+   "note": "Jackson records only five-four-one; Madison records the split inside Massachusetts, with Gerry voting aye and King no, and the large states' failed caucus next morning. For Paterson's side it was the principle of his rejected plan returning in the Senate."
+  },
+  {
+   "date": "1787-08-22",
+   "label": "The slave-trade week (21–25 August)",
+   "eyes": [
+    "madison",
+    "mason",
+    "martin",
+    "gerry",
+    "jackson"
+   ],
+   "note": "Madison's notes carry the speeches of Martin, Rutledge, Mason, Ellsworth and the Pinckneys; Jackson's Journal records the 7–4 vote for 1808; Martin later tells Maryland it was a bargain over navigation acts; Gerry's letters of the same week turn darker. No enslaved or free Black person was in the room, and the Abolition Society's memorial lay unpresented."
+  },
+  {
+   "date": "1787-09-17",
+   "label": "Signing day",
+   "eyes": [
+    "washington",
+    "franklin",
+    "madison",
+    "jackson",
+    "hamilton",
+    "mchenry",
+    "mason",
+    "gerry"
+   ],
+   "note": "Franklin's appeal and rising-sun remark, Washington's one speech and his evening of reflection, Jackson's handover of the papers, Hamilton signing alone for New York, McHenry's undated 'republic' anecdote, and the empty places of Mason and Gerry, who would carry their objections home."
+  }
+ ],
+ "ties": [
+  {
+   "a": "madison",
+   "b": "yates",
+   "kind": "read each other",
+   "note": "Madison checked his own notes against Yates's when the Secret Proceedings appeared in 1821 and complained of their incorrectness; Yates's editor had used them against Madison."
+  },
+  {
+   "a": "washington",
+   "b": "franklin",
+   "kind": "met",
+   "note": "Washington's first call on reaching Philadelphia, 13 May, was on Franklin, and on 17 September Franklin's last remark was about the painted sun on Washington's chair."
+  },
+  {
+   "a": "franklin",
+   "b": "cutler",
+   "kind": "met",
+   "note": "On 13 July Franklin received Cutler in his garden and nearly told him a story from the secret sessions."
+  },
+  {
+   "a": "gerry",
+   "b": "cutler",
+   "kind": "met",
+   "note": "Gerry, a fellow Massachusetts man, took Cutler to Franklin's house on 13 July."
+  },
+  {
+   "a": "mchenry",
+   "b": "martin",
+   "kind": "opposite sides",
+   "note": "At the Maryland caucus of 6 August, McHenry hoped for a wise system while Martin declared Maryland would never approve."
+  },
+  {
+   "a": "mason",
+   "b": "washington",
+   "kind": "opposite sides",
+   "note": "Neighbouring Potomac planters and old allies, they parted over the Constitution: Washington presided over its signing, Mason refused it."
+  },
+  {
+   "a": "hamilton",
+   "b": "yates",
+   "kind": "opposite sides",
+   "note": "Both New York delegates; Yates and Lansing outvoted Hamilton within the delegation, then left, so Hamilton signed alone."
+  },
+  {
+   "a": "hamilton",
+   "b": "washington",
+   "kind": "read each other",
+   "note": "Their letters of 3 and 10 July bridged Hamilton's absence: he reported public support, Washington replied in near despair and asked him back."
+  },
+  {
+   "a": "paterson",
+   "b": "hamilton",
+   "kind": "opposite sides",
+   "note": "Paterson's small-state plan of 15 June and Hamilton's high-toned plan of 18 June bracketed the Virginia Plan from either side."
+  },
+  {
+   "a": "pierce",
+   "b": "madison",
+   "kind": "mentioned",
+   "note": "Pierce's sketch of Madison as the best-informed man in any debate is the most quoted contemporary judgement of him."
+  },
+  {
+   "a": "king",
+   "b": "gerry",
+   "kind": "opposite sides",
+   "note": "On 16 July the two Massachusetts men voted on opposite sides of the compromise, dividing their state's vote."
+  },
+  {
+   "a": "jackson",
+   "b": "washington",
+   "kind": "met",
+   "note": "On the evening of 17 September Jackson delivered the Convention's journals and papers into Washington's keeping."
+  },
+  {
+   "a": "mason",
+   "b": "gerry",
+   "kind": "influenced",
+   "note": "Both refused to sign and both called for a second convention; Mason's Objections and Gerry's letter to the Massachusetts legislature became early Anti-Federalist texts."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v1:french-rev",
+   "note": "Gouverneur Morris, the Convention's most frequent speaker and the main stylist of its final text, went to Paris in 1789 and kept the diary that is a centrepiece of the French Revolution chapter. Thomas Jefferson, minister in Paris during the Convention, received Madison's long account of it and was in Paris when the Bastille fell."
+  },
+  {
+   "to": "v1:us-civil-war",
+   "note": "The three-fifths clause, the fugitive-slave clause and the 1808 compromise were all argued in this room. Gerry's private fear in August 1787 that the plan could lay the ground for civil war came true in 1861, in a quarrel over slavery and the Union that both sides fought in the Constitution's name."
+  },
+  {
+   "to": "vienna-1815",
+   "note": "The slave-trade clause allowed Congress to ban imports from 1808, which it did that year. In February 1815 the powers at Vienna issued a declaration condemning the Atlantic slave trade, another room putting off the ending it endorsed."
+  },
+  {
+   "to": "seneca-falls",
+   "note": "The Convention left voting qualifications to the states, tying federal electors to each state's own suffrage rules. That is why the women's suffrage campaign launched at Seneca Falls in 1848 had to petition state legislatures first, before turning to a federal amendment."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.loc.gov/item/mss246120160/",
+   "title": "Hamilton's notes for his speech of 18 June 1787",
+   "caption": "Hamilton's own outline for the day-long speech, one of five surviving versions. Set beside Madison's and Yates's notes, it shows how differently the same speech was heard and recorded.",
+   "date": "1787",
+   "credit": "Library of Congress, Manuscript Division, Alexander Hamilton Papers"
+  },
+  {
+   "url": "https://www.senate.gov/artandhistory/history/resources/pdf/MadisonsNotesJuly111787.pdf",
+   "title": "Madison's original notes of debates (July 1787 page)",
+   "caption": "A page of Madison's manuscript notes, filed by the Senate Historical Office under 11 July 1787, when the three-fifths ratio was being re-fought. Changes of ink and interlineations on pages like this are the evidence for his later revisions.",
+   "date": "1787 (with later revisions)",
+   "credit": "James Madison Papers, Library of Congress; via U.S. Senate"
+  },
+  {
+   "url": "https://teachingamericanhistory.org/resource/rossiter/",
+   "title": "Signing of the Constitution (Thomas P. Rossiter)",
+   "caption": "A mid-nineteenth-century imagining of the signing, with Washington raised in sunlight. Independence National Historical Park no longer exhibits it because the room and furnishings are wrong: a reminder that the familiar picture of the scene is invented.",
+   "date": "c. 1860–1870",
+   "credit": "Independence National Historical Park"
+  },
+  {
+   "url": "https://www.aoc.gov/explore-capitol-campus/art/signing-constitution",
+   "title": "Scene at the Signing of the Constitution (Howard Chandler Christy)",
+   "caption": "The best-known image of the day, painted in 1939–40 from portraits of 37 of the 39 signers and of Jackson. Christy sketched in the Assembly Room at the hour of the signing to get the light, but added Dickinson, who signed by proxy, and left out the three refusers.",
+   "date": "1940",
+   "credit": "Architect of the Capitol; U.S. House of Representatives"
+  }
+ ],
+ "further": [
+  {
+   "title": "Madison's Notes of Debates in the Federal Convention (Avalon Project)",
+   "url": "https://avalon.law.yale.edu/subject_menus/madispap.asp"
+  },
+  {
+   "title": "Max Farrand, The Records of the Federal Convention of 1787, vol. 1 (1911)",
+   "url": "https://ia800703.us.archive.org/14/items/recordsoffederal01unit/recordsoffederal01unit.pdf"
+  },
+  {
+   "title": "Selected correspondence from the Convention (Teaching American History)",
+   "url": "https://teachingamericanhistory.org/resources/correspondence/"
+  },
+  {
+   "title": "A cautionary tale about the notes of James Madison (Boston College Law Magazine, on Bilder)",
+   "url": "https://lawmagazine.bc.edu/2016/02/a-cautionary-tale-about-the-notes-of-james-madison/"
+  },
+  {
+   "title": "Constitutional Convention of 1787 (Encyclopedia of Greater Philadelphia)",
+   "url": "https://philadelphiaencyclopedia.org/essays/constitutional-convention/"
+  },
+  {
+   "title": "The Great Compromise (Independence National Historical Park)",
+   "url": "https://www.nps.gov/inde/learn/historyculture/the-great-compromise.htm"
+  }
+ ],
+ "vantage_key": "0 = a principal actor whose motions or votes shaped the text; 1 = in the room as delegate or secretary, recording; 2 = in Philadelphia but outside the closed doors; 3 = elsewhere in the states, hearing by letter; 4 = abroad."
+}

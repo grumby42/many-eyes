@@ -1,0 +1,167 @@
+[
+ {
+  "chapter": "black-death",
+  "where": "entry:18",
+  "severity": "error",
+  "problem": "25 September 1348 falls in Rajab 749 AH (1 Muharram 749 = c. 1 April 1348; Rajab begins c. 25 Sept), not Sha'ban (c. 25 Oct-22 Nov 1348).",
+  "fix": {
+   "date_display": "25 September 1348 (Rajab 749 AH)"
+  }
+ },
+ {
+  "chapter": "black-death",
+  "where": "entry:21",
+  "severity": "doubt",
+  "problem": "November-December 1348 corresponds to Sha'ban-Ramadan 749 AH (Sha'ban c. 25 Oct-22 Nov; Ramadan c. 23 Nov-22 Dec), not Ramadan-Shawwal; al-Maqrizi's peak months are usually given as Sha'ban and Ramadan.",
+  "fix": {
+   "date_display": "November-December 1348 (Sha'ban-Ramadan 749 AH)",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "black-death",
+  "where": "entry:15",
+  "severity": "doubt",
+  "problem": "Figures look garbled and conflict with entry 20 (which gives Cairo 21,000 a day). The procession passage in the Rihla gives the Damascus toll (about 2,000 a day) at the time of the procession; the 'eased to fewer than 2,000' vs '24,000 a day in Cairo' comparison is not secure.",
+  "fix": {
+   "digest": "After a three-day fast ordered by the governor, the whole city gathers at the Umayyad Mosque at dawn on Friday and walks barefoot to the Mosque of the Footprints outside the walls. Ibn Battuta notes that the Jews came with their Torah and the Christians with their Gospel, weeping and pleading alongside the Muslims, and he believed God then lightened the city's affliction.",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "black-death",
+  "where": "entry:7",
+  "severity": "doubt",
+  "problem": "Petrarch's own Virgil note names the sender: he learned the news at Verona on the morning of 19 May 1348 'by a letter of my Ludovicus' (Heyligen). It is not merely a tradition.",
+  "fix": {
+   "digest": "News of Laura's death reached Petrarch in Verona on the morning of 19 May, by a letter from 'my Ludovicus' — his 'Socrates', Louis Heyligen. He wrote the facts into his copy of Virgil, the book he read most, choosing that place, he says, so that it would meet his eyes often and remind him that nothing should hold him to this life."
+  }
+ },
+ {
+  "chapter": "black-death",
+  "where": "entry:30",
+  "severity": "quote",
+  "problem": "'O happy posterity' is a modern English translation of Petrarch's Latin (Familiares VIII.7), not a pre-1929 English original; well known but borderline as a 'famous phrase'.",
+  "fix": {
+   "quote": "",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "black-death",
+  "where": "entry:28",
+  "severity": "quote",
+  "problem": "'lest the writing perish with the writer' is a modern translation of Clyn's Latin (ne scriptura cum scriptore pereat), not a pre-1929 English original.",
+  "fix": {
+   "quote": "",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "black-death",
+  "where": "entry:35",
+  "severity": "doubt",
+  "problem": "Guy de Chauliac records that in some places Jews were believed to have poisoned the world and were killed; it is not clear he explicitly rejected the charge. Soften.",
+  "fix": {
+   "digest": "Looking back, Guy wrote that the plague was useless and shameful for physicians, since they dared not visit the sick and could not help them. He says he himself fell ill near the end of the epidemic, with fever and a swelling in the groin, and recovered after about six weeks. He advised the pope to keep fires burning and see no one, and he recorded how in some places Jews were accused of poisoning the world and killed for it.",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "black-death",
+  "where": "eye:boccaccio",
+  "severity": "doubt",
+  "problem": "Form 'memoir (written later)' mislabels the Decameron introduction, which is the literary frame of a work of fiction (already flagged in authenticity).",
+  "fix": {
+   "form": "literary work (frame of the Decameron, written later)",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "constantinople-1453",
+  "where": "entry:35",
+  "severity": "quote",
+  "problem": "Headline puts a modern translation (Philippides) of Sphrantzes's Greek in quotation marks as if a direct quote.",
+  "fix": {
+   "headline": "The emperor is killed; Sphrantzes was not at his side"
+  }
+ },
+ {
+  "chapter": "constantinople-1453",
+  "where": "entry:14",
+  "severity": "doubt",
+  "problem": "The image of Mehmed riding his horse into the sea during the 20 April sea fight is usually sourced to Doukas (and Barbaro's circle), not primarily Kritoboulos; Kritoboulos describes him watching and shouting from the shore. Check attribution before keeping under eye 'kritoboulos'.",
+  "fix": null,
+  "confidence": "approx"
+ },
+ {
+  "chapter": "constantinople-1453",
+  "where": "eye:pusculo",
+  "severity": "doubt",
+  "problem": "Form 'memoir (written later)' mislabels a Latin epic poem (the authenticity note itself says so).",
+  "fix": {
+   "form": "epic poem (written later)"
+  }
+ },
+ {
+  "chapter": "constantinople-1453",
+  "where": "eye:leonard",
+  "severity": "doubt",
+  "problem": "Leonard 'of Chios' was born on Chios (a Genoese-ruled island), not in Genoa; 'Genoese-born' is misleading.",
+  "fix": {
+   "confidence": "approx",
+   "bio": "Leonard was a Dominican born on Genoese-ruled Chios who came to Constantinople with Cardinal Isidore to carry out the union of the Latin and Greek Churches. He was captured in the sack and got free. His letter to the pope reads the fall as God's punishment for Greek 'schism' and is fierce about Greek nobles he thought had held back money and men. He was also loyal to the Genoese commander Giovanni Giustiniani. His letter shaped Western memory of 1453 more than any other text."
+  }
+ },
+ {
+  "chapter": "imjin-war",
+  "where": "threads_out:1",
+  "severity": "error",
+  "problem": "The Nanjung Ilgi was not first printed under colonial rule: it was first printed (and given that title) in the 1795 Complete Works of Yi Sun-sin, as the chapter's own eye note says. The colonial-era Korean History Compilation Committee published it in 1935.",
+  "fix": {
+   "note": "The Nanjung Ilgi, first printed in the 1795 Complete Works of Yi Sun-sin, was published in full in 1935 by the Japanese colonial government's Korean History Compilation Committee during Japan's rule of Korea (1910–45); popular modern Korean translations followed only in the 1960s. Japan's 1592 invasion and its 20th-century empire are often remembered together in Korea.",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "imjin-war",
+  "where": "convergence:0",
+  "severity": "doubt",
+  "problem": "Hideyoshi was not yet in Hizen when the army landed (4th month, 12th/13th day): he left Kyoto late in the 3rd month and reached Nagoya Castle only around the 25th of the 4th month.",
+  "fix": {
+   "note": "The calendars disagree from the first day: Japanese records give the 12th, Korean the 13th. Ryu writes years later as a minister blaming his own government, Oh hears only rumours in Jeolla and is angry at a fleeing king, and Hideyoshi, still travelling to his Hizen base, sees a timetable being kept.",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "imjin-war",
+  "where": "entry:36",
+  "severity": "doubt",
+  "problem": "The claim that Keinen explained noses were taken as a head-count substitute is not secure; the noses-for-heads orders are usually documented from Ōkōchi's Chōsen ki and other sources.",
+  "fix": {
+   "digest": "The mound later called the Mimizuka ('ear mound', though it holds noses) was dedicated beside Hōkōji, near the great Buddha Hideyoshi had built. Hideyoshi had demanded noses as proof of kills, and Buddhist priests prayed over them. This is a dated act of his rule, not a letter.",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "imjin-war",
+  "where": "calendar_note",
+  "severity": "doubt",
+  "problem": "'lunar dates drift between late January and late March against the solar year' is inaccurate/unclear: the lunar New Year falls between about 21 January and 20 February (Gregorian).",
+  "fix": {
+   "text_replace": {
+    "old": "so lunar dates drift between late January and late March against the solar year",
+    "new": "so the lunar New Year falls between about late January and late February in the solar year"
+   },
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "imjin-war",
+  "where": "entry:34",
+  "severity": "doubt",
+  "problem": "Myeongnyang conversion: most references give 26 October 1597 for 9/16; chapter's Korean-table result (25 October) implies an 8th month of 29 days. Already disclosed in calendar_note; flagged only so editors keep the caveat. Note the same choice shifts entries 33, 35 and convergence 4.",
+  "fix": null,
+  "confidence": "approx"
+ }
+]

@@ -1,0 +1,336 @@
+[
+ {
+  "chapter": "impressionists-1874",
+  "where": "entry:7",
+  "severity": "error",
+  "problem": "Goncourt's entry is dated 13 February 1874 but describes a studio visit made the previous afternoon ('hier'), so the digest wrongly places the visit on the entry date.",
+  "fix": {
+   "text_replace": {
+    "old": "Goncourt spent an afternoon in Degas's studio.",
+    "new": "Goncourt recorded an afternoon spent in Degas's studio the day before."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "impressionists-1874",
+  "where": "tie:7",
+  "severity": "error",
+  "problem": "The visit took place on 12 February; the Journal entry describing it is dated 13 February 1874.",
+  "fix": {
+   "text_replace": {
+    "old": "Goncourt visited Degas's studio on 13 February 1874 and recorded his laundresses and dancers in the Journal.",
+    "new": "Goncourt visited Degas's studio on 12 February 1874 and recorded his laundresses and dancers in the Journal entry dated the next day."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "impressionists-1874",
+  "where": "eye:goncourt",
+  "severity": "style",
+  "problem": "The eye note says entries are 'quoted', but the chapter only paraphrases the Journal.",
+  "fix": {
+   "text_replace": {
+    "old": "Entries quoted here are from",
+    "new": "Entries summarised here are from"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "impressionists-1874",
+  "where": "entry:9",
+  "severity": "error",
+  "problem": "The Clark Art Institute's 'Pissarro's People' page says Minette was eight when she fell ill and died, not nine. The headline's 'nine days' depends on the 6 April date, which the entry itself says is unverified.",
+  "fix": {
+   "text_replace": {
+    "old": "died after a long illness at the age of nine.",
+    "new": "died after a long illness at the age of eight."
+   },
+   "headline": "Minette dies days before the opening"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "impressionists-1874",
+  "where": "entry:10",
+  "severity": "style",
+  "problem": "The entry has month precision but a day-level date_iso (1874-04-12), which implies a specific day.",
+  "fix": {
+   "date_iso": "1874-04"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "impressionists-1874",
+  "where": "entry:19",
+  "severity": "doubt",
+  "problem": "The Ministère de la Culture 1874 page cites Burty in La République française dated 24 April 1874 and quotes his description of the rooms and the hanging by lot. Other studies give 16 or 25 April, so 'approx' stays. The content now has partial support.",
+  "fix": {
+   "text_replace": {
+    "old": "Content summarised from secondary accounts.",
+    "new": "Ministère page quotes his remarks on the busy boulevard, the red-brown wool hangings and hanging by size and lot; rest summarised from secondary accounts."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "impressionists-1874",
+  "where": "threads_out:1",
+  "severity": "style",
+  "problem": "Verified: the Vienna Secession's 16th exhibition (January to March 1903), 'The Development of Impressionism in Painting and Sculpture', had a section with Manet, Monet, Renoir, Degas, Cézanne, Pissarro, Sisley and Morisot. Dates added for precision.",
+  "fix": {
+   "text_replace": {
+    "old": "The Vienna Secession's sixteenth exhibition (1903)",
+    "new": "The Vienna Secession's sixteenth exhibition (January–March 1903)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "impressionists-1874",
+  "where": "entry:43",
+  "severity": "doubt",
+  "problem": "The opening day of the 1876 show is not settled. The Ministère page says only 'en avril', and Wolff's Figaro review of 3 April puts the opening on or before 2 April. A plan dated 5 February had named 20 March. The 'approx' range is right; the source note should record the constraint.",
+  "fix": {
+   "text_replace": {
+    "old": "Impressionists Gallery chronology (opening 30 March, 22 works)",
+    "new": "Impressionists Gallery chronology (opening 30 March, 22 works); Ministère gives only 'April', and Wolff's review of 3 April sets the latest possible opening"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "vienna-1900",
+  "where": "claim:4",
+  "severity": "error",
+  "problem": "The ledger puts the professors' protest in May 1900. The protest against the ceiling paintings came in March 1900, after the 8 March opening. The Paris award was a gold medal (Wikipedia, Klimt University of Vienna Ceiling Paintings), not a 'Grand Prix', and it came later in the summer. The figure of 87 faculty members is supported.",
+  "fix": {
+   "date_iso": "1900-03",
+   "date_display": "March 1900 (protest); Paris award later in 1900",
+   "claim": "87 faculty members protest against the ceiling paintings after Philosophy is shown; later in 1900 it receives a gold medal at the Paris World Exhibition",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "vienna-1900",
+  "where": "intro:2",
+  "severity": "doubt",
+  "problem": "Standard sources say Philosophy received a gold medal at the 1900 Paris World Exhibition. 'Grand Prix' is not supported.",
+  "fix": {
+   "text_replace": {
+    "old": "and it went on to win a Grand Prix in Paris",
+    "new": "and it went on to win a gold medal at the Paris World Exhibition"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "vienna-1900",
+  "where": "entry:12",
+  "severity": "doubt",
+  "problem": "Fackel no. 41 appeared in May 1900, before the Paris awards were made. Saying the picture had already 'won a Grand Prix' is anachronistic, and the award was a gold medal.",
+  "fix": {
+   "text_replace": {
+    "old": "As Philosophy travelled to Paris and won a Grand Prix at the World's Fair,",
+    "new": "As Philosophy travelled to the Paris World's Fair (where it later received a gold medal),"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "vienna-1900",
+  "where": "image:0",
+  "severity": "doubt",
+  "problem": "The caption says the faculty paintings burned at Schloss Immendorf. Their destruction there in May 1945 is generally believed but not conclusively proven.",
+  "fix": {
+   "text_replace": {
+    "old": "The original burned with the other faculty paintings at Schloss Immendorf in May 1945; only photographs remain.",
+    "new": "The original is believed to have burned with the other faculty paintings at Schloss Immendorf in May 1945, though this has never been conclusively proven; only photographs remain."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "vienna-1900",
+  "where": "entry:4",
+  "severity": "doubt",
+  "problem": "The Klimt-Database confirms the spring 1899 trip of about ten days (Florence, Genoa, Verona, Venice), Moll's discovery in Venice and the reconciliation in Vienna. It does not mention a kiss. The kiss rests only on Alma's diary (published 1997), so the digest should attribute it explicitly.",
+  "fix": {
+   "text_replace": {
+    "old": "Alma's diary records his courtship and a kiss;",
+    "new": "Alma's diary, by her own account, records his courtship and a kiss;"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "vienna-1900",
+  "where": "entry:44",
+  "severity": "style",
+  "problem": "Checked against the Schnitzler Tagebuch digital edition: the 31 March 1913 entry records the first Bernhardi rehearsal (Acts 1–2) at the Neue Wiener Bühne and the evening orchestral concert with enormous scandal at Berg's songs, including laughter and a fight. Attendance is confirmed, and the vague last sentence can be replaced.",
+  "fix": {
+   "text_replace": {
+    "old": "He was among the many prominent Viennese who later found themselves witnesses to the brawl.",
+    "new": "His entry that night notes the uproar at Berg's songs, the laughter and a fight in the hall, and then supper at the Café Imperial with the Zuckerkandls."
+   },
+   "source_note": "Schnitzler Tagebuch, 31 March 1913 (schnitzler-tagebuch.acdh.oeaw.ac.at, entry__1913-03-31); Schnitzler Chronik for the same day. Paraphrased."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "vienna-1900",
+  "where": "entry:35",
+  "severity": "style",
+  "problem": "The 'Vorbei' anecdote is correctly flagged. A check of the Mahler Foundation's Westbahnhof page found no mention of Klimt or the remark. The flag stands, and no source names its first teller.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "vienna-1900",
+  "where": "threads_out:4",
+  "severity": "style",
+  "problem": "Verified: the Secession's 16th exhibition (January–March 1903), 'The Development of Impressionism in Painting and Sculpture', had a section of Manet, Monet, Renoir, Degas, Cézanne, Pissarro, Sisley and Morisot.",
+  "fix": {
+   "text_replace": {
+    "old": "including a survey of the development of Impressionism in its 1903 exhibitions",
+    "new": "including a survey of the development of Impressionism at its sixteenth exhibition (January–March 1903), with Monet, Renoir, Degas, Pissarro and Morisot"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "entry:23",
+  "severity": "error",
+  "problem": "Published fragments of Kessler's 29 May 1913 entry (Das Tagebuch vol. 4, p. 886, quoted by mdw) confirm 'an entirely new choreography and music', the Fokine/Nijinsky versus Delacroix/Gauguin comparison, and 'a wholly new vision… gripping, convincing'. The 'most brilliant house' phrase is not confirmed in the German. It comes from a modern English translation (Easton), so it must not be used.",
+  "fix": {
+   "digest": "Kessler recorded the premiere in his diary that night as an entirely new choreography and music. He set Nijinsky's dance style as far from Fokine's as Gauguin's painting from Delacroix's, and wrote of a wholly new vision, something never seen before, gripping and convincing, in which all form was laid waste and new form rose suddenly out of chaos. Of all the eyes in the hall, he is the only one whose words were written that same night.",
+   "source_note": "Kessler, Das Tagebuch 1880–1937, vol. 4, ed. Jörg Schuster (Cotta, 2005), p. 886, entry for 29 May 1913, German fragments as quoted by mdw (University of Music and Performing Arts Vienna). Paraphrased; no translation quoted.",
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "convergence:5",
+  "severity": "error",
+  "problem": "The convergence repeats the unconfirmed 'brilliant house' detail from the modern translation.",
+  "fix": {
+   "text_replace": {
+    "old": "Kessler, writing that night, records novelty and a brilliant house.",
+    "new": "Kessler, writing that night, records a wholly new vision rising out of chaos."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "entry:31",
+  "severity": "error",
+  "problem": "The quote 'a laborious and puerile barbarity' is a modern English translation of Quittard's French (from Wikipedia). It is not an English original published before 1929, so the quote rule excludes it. The paraphrase in the digest is enough.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "entry:32",
+  "severity": "error",
+  "problem": "The quote is not Van Vechten's exact wording. The 1915 text (Project Gutenberg 73668) reads 'to whistle, to make cat-calls, and to offer audible suggestions'.",
+  "fix": {
+   "quote": "to whistle, to make cat-calls, and to offer audible suggestions"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "entry:25",
+  "severity": "doubt",
+  "problem": "The 'about forty' ejections appear in Wikipedia as an unattributed statement, with police involvement uncorroborated. Attributing the figure firmly to Monteux's own telling is not secure. It should be presented as a later claim.",
+  "fix": {
+   "text_replace": {
+    "old": "In his later telling, about forty people were thrown out.",
+    "new": "Later accounts, often traced to his recollections, say about forty people were thrown out; no police or theatre record confirms this."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "entry:38",
+  "severity": "style",
+  "problem": "The sources really do disagree. The Wikipedia Rite of Spring article gives 19 September, while its Romola de Pulszky article and dated wedding photographs give 10 September 1913, Buenos Aires. The note should say which Wikipedia article says what.",
+  "fix": {
+   "text_replace": {
+    "old": "Marriage date given as 10 September in Craft and 19 September in Wikipedia.",
+    "new": "Marriage date given as 10 September in Craft, the Wikipedia article on Romola de Pulszky and captioned wedding photographs; 19 September in the Wikipedia Rite of Spring article."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "entry:32",
+  "severity": "style",
+  "problem": "The second-night date is properly hedged. Wikipedia (Rite of Spring) gives 2 June (Puccini attended), and the Wikipedia Théâtre des Champs-Élysées article gives 4 June. Confidence stays approx.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "entry:18",
+  "severity": "style",
+  "problem": "Wikipedia (Théâtre des Champs-Élysées) confirms the gala of 2 April 1913 with five composers conducting, followed by Benvenuto Cellini on 3 April. The alternative 31 March in the note is acceptable.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "threads_out:1",
+  "severity": "doubt",
+  "problem": "No source was found for the claim that Stravinsky praised Pierrot lunaire in a letter to Florent Schmitt. His hearing of it in Berlin (December 1912) is well attested, so only the unverified clause should go.",
+  "fix": {
+   "text_replace": {
+    "old": "Stravinsky had heard Pierrot lunaire in Berlin in December 1912 and praised it in a letter to Florent Schmitt.",
+    "new": "Stravinsky had heard Pierrot lunaire in Berlin in December 1912."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "eye:vanvechten",
+  "severity": "style",
+  "problem": "Van Vechten was born on 17 June 1880, so he was 32 at the premiere and the second night (early June 1913).",
+  "fix": {
+   "text_replace": {
+    "old": "aged 33",
+    "new": "aged 32"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "entry:24",
+  "severity": "doubt",
+  "problem": "Rambert's 'about a hundred rehearsals' comes from a later interview quoted secondhand (Hodson). Wikipedia instead counts seventeen orchestral and five dancer rehearsals, a different measure. The digest should frame the figure as her later recollection.",
+  "fix": {
+   "text_replace": {
+    "old": "She later said that the Rite had taken about a hundred rehearsals.",
+    "new": "In a much later interview she put the number of rehearsals at about a hundred, a figure no contemporary record confirms."
+   }
+  },
+  "confidence": "approx"
+ }
+]

@@ -1,0 +1,1427 @@
+{
+ "id": "darwin-wallace",
+ "title": "Two Notebooks, One Theory",
+ "short_title": "Darwin and Wallace",
+ "subtitle": "Darwin, Wallace and the Linnean Society, Down House and the Moluccas, 1837–1859",
+ "span": "1837–1860",
+ "intro": [
+  "In the early summer of 1858 a packet from the Moluccas reached Down House in Kent. Inside was a twenty-page essay by Alfred Russel Wallace, a collector Darwin had never met, setting out the theory Darwin had kept in notebooks, sketches and an unfinished book for twenty years. What happened in the next fortnight was decided by letters: Darwin to Lyell, Darwin to Hooker, Lyell and Hooker to the Linnean Society. All of it happened while Darwin's baby son was dying of scarlet fever.",
+  "This chapter is built almost entirely from notebooks and dated letters, not diaries, and the form tags say so. The heart of it is the priority ledger: Darwin's 1838 notebook, his 1842 sketch and 1844 essay, the abstract he sent to Asa Gray in 1857, Wallace's 1855 'Sarawak Law' and his 1858 essay. On 1 July 1858 these were laid side by side and read in date order to a society that recorded no discussion. Several key documents are missing: Wallace's covering letter to Darwin, and Hooker's and Darwin's letters back to him.",
+  "The gaps are where the arguments are. Darwin dated his letter to Lyell only '18', and Lyell's endorsement supplies June. Wallace's letter to Henry Bates's brother, posted from Ternate in early March, reached London on 3 June. That led some historians (Brooks, Brackman, Davies) to argue that Darwin had the essay for weeks before he admitted it. Van Wyhe and Rookmaaker reconstructed the mail routes and argue it left Ternate a month later and arrived when Darwin said. Others dispute even where Wallace wrote it, Ternate or Dodinga on Gilolo. These are set out as positions; the book takes no side.",
+  "Around the two principals stand the men who held the evidence: Lyell, who wrote Darwin's theory into his own notebook in 1856 and told him to publish; Hooker, who had read the 1844 essay; and Gray at Harvard, holding the 1857 letter. Emma Darwin's terse pocket diary records the household side: nurses, a sister arriving, children sent away. Far off are Bates on the Amazon, Wallace's oldest friend, and Ali, the young Sarawak Malay who collected much of what Wallace studied and who left no words of his own. He is seen only through Wallace and is flagged as such.",
+  "The chapter ends with the Origin's publication on 24 November 1859, Huxley's letter of the day before, and Wallace's letters of the day after and a year later. Those letters show Wallace without a trace of resentment. Thomas Bell's verdict that the year had brought no striking discoveries is a reminder that, inside the room, the turn of history was not visible."
+ ],
+ "calendar_note": "All dates are Gregorian and need no conversion. The difficulty is not the calendar but the post: mail from Ternate to Kent took roughly three months by Dutch and British steamers. Several letters are dated only by recipients' endorsements or by editors (shown in square brackets), and Darwin's 18 June letter carries only the day of the month in his hand.",
+ "eyes": [
+  {
+   "id": "darwin",
+   "short": "Darwin",
+   "name": "Charles Robert Darwin",
+   "life": "1809–1882",
+   "role": "Naturalist of independent means, aged 29 in 1838 and 50 in 1859; living at Down House, Kent, from 1842, often ill",
+   "side": "England; the Lyell–Hooker circle",
+   "where": "London (1837–42), then Down House, Kent; water-cure stays at Moor Park and Ilkley",
+   "lat": 51.331,
+   "lon": 0.053,
+   "waypoints": [
+    {
+     "lat": 51.514,
+     "lon": -0.139,
+     "label": "London notebooks 1837–38"
+    },
+    {
+     "lat": 52.94,
+     "lon": -2.3,
+     "label": "Maer, pencil sketch 1842"
+    },
+    {
+     "lat": 51.331,
+     "lon": 0.053,
+     "label": "Down House 1842–"
+    },
+    {
+     "lat": 51.2,
+     "lon": -0.79,
+     "label": "Moor Park water cure 1857"
+    },
+    {
+     "lat": 50.65,
+     "lon": -1.15,
+     "label": "Isle of Wight, July 1858"
+    },
+    {
+     "lat": 53.925,
+     "lon": -1.822,
+     "label": "Ilkley, Nov 1859"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the man with twenty years of notebooks",
+   "form": "notebooks, manuscript essays and dated letters",
+   "language": "English",
+   "authenticity": "The transmutation notebooks B–E (1837–39) survive at Cambridge University Library (DAR 121–124), with pages Darwin cut out and later recovered; the 1842 pencil sketch and 1844 essay survive in manuscript. His letters are edited with full footnotes by the Darwin Correspondence Project. Some letters to Lyell and Hooker were dated only by the recipients' endorsements or by editors, shown here in square brackets.",
+   "bio": "Darwin had a theory of natural selection by late 1838 and spent the next twenty years gathering evidence, telling only a few friends. In 1856 he began a huge book; in June 1858 a short essay from a collector in the Moluccas seemed to make all of it unoriginal at a stroke. His letters of that fortnight, written while his baby son was dying, are the rawest record of the race.",
+   "sources": [
+    {
+     "title": "Darwin Correspondence Project",
+     "url": "https://www.darwinproject.ac.uk/entry-2285"
+    },
+    {
+     "title": "Notebook D (Darwin Online transcription)",
+     "url": "https://darwin-online.org.uk/converted/manuscripts/Darwin_C_R_Notebook_D_CUL-DAR123.-.html"
+    },
+    {
+     "title": "Notebook B, Cambridge Digital Library (DAR 121)",
+     "url": "https://cudl.lib.cam.ac.uk/view/MS-DAR-00121"
+    }
+   ]
+  },
+  {
+   "id": "wallace",
+   "short": "Wallace",
+   "name": "Alfred Russel Wallace",
+   "life": "1823–1913",
+   "role": "Self-taught collector and surveyor, aged 35 in 1858; selling specimens through a London agent to pay his way",
+   "side": "England (born in Wales); working in the Dutch East Indies",
+   "where": "Sarawak, Celebes, Aru, Ternate, Gilolo (Halmahera), New Guinea, Batchian and Ceram",
+   "lat": 0.79,
+   "lon": 127.38,
+   "waypoints": [
+    {
+     "lat": 1.55,
+     "lon": 110.35,
+     "label": "Sarawak 1855"
+    },
+    {
+     "lat": -6.0,
+     "lon": 134.5,
+     "label": "Aru 1857"
+    },
+    {
+     "lat": 0.79,
+     "lon": 127.38,
+     "label": "Ternate, Jan 1858"
+    },
+    {
+     "lat": 0.85,
+     "lon": 127.55,
+     "label": "Dodinga, Gilolo, Feb 1858"
+    },
+    {
+     "lat": -0.63,
+     "lon": 127.48,
+     "label": "Batchian, Oct 1858"
+    },
+    {
+     "lat": -3.2,
+     "lon": 129.5,
+     "label": "Ceram, Nov 1859"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the outsider who reached the same idea",
+   "form": "field journals, species notebook and dated letters",
+   "language": "English",
+   "authenticity": "His Malay Field Journals and Species Notebook (1855–59) survive at the Linnean Society and are digitised. The Ternate essay survives only in its 1858 printed form. His covering letter to Darwin is lost, as are Darwin's and Hooker's letters of July 1858 to him. Letters to family were later printed, sometimes edited, in My Life (1905) and Marchant's Letters and Reminiscences (1916).",
+   "bio": "Wallace had spent four years in the Amazon (part of it with Bates) and was in his fourth year in the Malay Archipelago. In 1855 he published a law of species succession that Lyell noticed at once. In February 1858, shaking with fever, he worked out natural selection and posted it to the one naturalist he knew was working on species. He learned only months later what had been done with it.",
+   "sources": [
+    {
+     "title": "Wallace to Hooker, 6 Oct 1858 (Epsilon / Wallace Correspondence Project)",
+     "url": "https://epsilon.ac.uk/view/wallace/letters/WCP1454"
+    },
+    {
+     "title": "Wallace to his mother, 6 Oct 1858",
+     "url": "https://epsilon.ac.uk/view/wallace/letters/WCP369"
+    },
+    {
+     "title": "G. Beccaloni, Dojinga: birthplace of Wallace's theory",
+     "url": "https://wallacefund.myspecies.info/node/2562/revisions/6230/view"
+    }
+   ]
+  },
+  {
+   "id": "lyell",
+   "short": "Lyell",
+   "name": "Sir Charles Lyell",
+   "life": "1797–1875",
+   "role": "Britain's leading geologist, aged 58–62; Darwin's mentor and friend, not yet convinced of transmutation",
+   "side": "England; London scientific establishment",
+   "where": "53 Harley Street, London; visits to Down",
+   "lat": 51.52,
+   "lon": -0.148,
+   "vantage": 1,
+   "vantage_label": "the mentor who had warned him",
+   "form": "scientific journals (notebooks) and dated letters",
+   "language": "English",
+   "authenticity": "Lyell's notebooks and 'scientific journals' on the species question are held at the University of Edinburgh; the first species journal begins 20 November 1855. His letters to Darwin are edited by the Darwin Correspondence Project. Lyell and Hooker's joint covering letter to the Linnean Society was printed in 1858.",
+   "bio": "Lyell read Wallace's 1855 paper and began a private journal on species within weeks. After hearing Darwin explain natural selection at Down in April 1856 he urged him to publish something to secure priority. When Wallace's essay arrived, it was to Lyell that Darwin first wrote, and Lyell, with Hooker, designed the joint reading.",
+   "sources": [
+    {
+     "title": "Lyell Notebook No. 213, 1856 (University of Edinburgh)",
+     "url": "https://archives.collections.ed.ac.uk/repositories/2/archival_objects/180371"
+    },
+    {
+     "title": "Lyell to Darwin, 1–2 May 1856 (DCP-LETT-1862)",
+     "url": "https://darwinproject.ac.uk/DCP-LETT-1862"
+    }
+   ]
+  },
+  {
+   "id": "hooker",
+   "short": "Hooker",
+   "name": "Joseph Dalton Hooker",
+   "life": "1817–1911",
+   "role": "Botanist, aged 41 in 1858; Assistant Director of the Royal Botanic Gardens, Kew",
+   "side": "England; Kew",
+   "where": "Kew, Surrey",
+   "lat": 51.4787,
+   "lon": -0.2956,
+   "vantage": 1,
+   "vantage_label": "the confidant who arranged the reading",
+   "form": "dated letters; joint covering letter; later reminiscence",
+   "language": "English",
+   "authenticity": "Hooker's letter to Wallace of July 1858 is lost and known from Wallace's reply. Many of his letters to Darwin before 1860 do not survive. His account of the mood at the 1 July meeting was written decades later (1908 celebrations) and is a reminiscence.",
+   "bio": "Hooker was the first person Darwin trusted with his theory (in 1844) and had read the 1844 essay itself. In June 1858 he and Lyell decided to place Darwin's older writings beside Wallace's essay before the Linnean Society, and he wrote to Wallace to explain.",
+   "sources": [
+    {
+     "title": "Darwin to Hooker, 29 June 1858 (DCP-LETT-2298)",
+     "url": "https://epsilon.ac.uk/view/dcp-data/letters/DCP-LETT-2298"
+    },
+    {
+     "title": "Linnean Society: 160th anniversary of the 1858 papers",
+     "url": "https://www.linnean.org/the-society/news/2018/07/01/1st-july-2018-160th-anniversary-of-the-presentation-of-on-the-tendency-of-species-to-form-varieties"
+    }
+   ]
+  },
+  {
+   "id": "gray",
+   "short": "Asa Gray",
+   "name": "Asa Gray",
+   "life": "1810–1888",
+   "role": "Fisher Professor of Natural History at Harvard, aged 47–49; America's leading botanist",
+   "side": "United States",
+   "where": "Cambridge, Massachusetts",
+   "lat": 42.383,
+   "lon": -71.123,
+   "vantage": 4,
+   "vantage_label": "abroad, the keeper of the dated letter",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Darwin's letter of 5 September 1857 and its enclosure are in the Gray Herbarium, Harvard; Darwin's retained draft was what reached the Linnean Society. Gray's letter of 21 June 1858 is mentioned by the editors; his letter of 10 January 1860 survives.",
+   "bio": "Gray received, in 1857, the clearest short statement of natural selection Darwin had written, with a request to keep it secret. That letter became Darwin's dated proof of priority in 1858. Gray read the Origin over Christmas 1859 and became its chief American defender.",
+   "sources": [
+    {
+     "title": "Darwin to Gray, 5 Sept 1857 (DCP-LETT-2136)",
+     "url": "https://darwinproject.ac.uk/DCP-LETT-2136"
+    },
+    {
+     "title": "Gray to Darwin, [10 Jan 1860] (DCP-LETT-2631)",
+     "url": "https://epsilon.ac.uk/view/dcp-data/letters/DCP-LETT-2631"
+    }
+   ]
+  },
+  {
+   "id": "emma",
+   "short": "Emma Darwin",
+   "name": "Emma Darwin (née Wedgwood)",
+   "life": "1808–1896",
+   "role": "Darwin's wife and first cousin, aged 50 in 1858; mother of ten children",
+   "side": "England; the Darwin–Wedgwood family",
+   "where": "Down House, Kent; then Hartfield, Sussex, and the Isle of Wight",
+   "lat": 51.331,
+   "lon": 0.053,
+   "waypoints": [
+    {
+     "lat": 51.331,
+     "lon": 0.053,
+     "label": "Down House"
+    },
+    {
+     "lat": 51.1,
+     "lon": 0.11,
+     "label": "Hartfield, 9 July 1858"
+    },
+    {
+     "lat": 50.65,
+     "lon": -1.15,
+     "label": "Isle of Wight, 16 July 1858"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "inside the house as the baby died",
+   "form": "pocket diary (brief entries)",
+   "language": "English",
+   "authenticity": "Emma's small pocket diaries (CUL DAR 242) survive for 1824–1896 and are digitised by Darwin Online; they are appointment-and-event notes, not discursive journals. The 1858 entries used here are those cited by the Darwin Correspondence Project editors; I could not read the 1858 diary pages directly.",
+   "bio": "Emma's diary is the household's calendar of the crisis: who arrived, who left, when the children were sent away. It never mentions Wallace. Set beside Charles's letters it shows what was actually filling the days at Down while the priority question was settled in London.",
+   "sources": [
+    {
+     "title": "Emma Darwin's Diaries 1824–1896 (Darwin Online)",
+     "url": "https://darwin-online.org.uk/EmmaDiaries.html"
+    },
+    {
+     "title": "Editorial introduction (J. Browne)",
+     "url": "https://darwin-online.org.uk/EditorialIntroductions/Browne_EmmaDiaries.html"
+    }
+   ]
+  },
+  {
+   "id": "bates",
+   "short": "Bates",
+   "name": "Henry Walter Bates",
+   "life": "1825–1892",
+   "role": "Self-taught entomologist from Leicester, aged 33 in 1858; eleven years collecting in the Amazon",
+   "side": "England; working in Brazil",
+   "where": "Ega (Tefé) on the upper Amazon; Pará; home to England in 1859",
+   "lat": -3.35,
+   "lon": -64.71,
+   "waypoints": [
+    {
+     "lat": -3.35,
+     "lon": -64.71,
+     "label": "Ega (Tefé)"
+    },
+    {
+     "lat": -1.455,
+     "lon": -48.49,
+     "label": "Pará, June 1859"
+    },
+    {
+     "lat": 52.636,
+     "lon": -1.133,
+     "label": "Leicester, 1859"
+    }
+   ],
+   "vantage": 4,
+   "vantage_label": "abroad, Wallace's oldest friend",
+   "form": "dated letters (published in The Zoologist) and memoir (written later)",
+   "language": "English",
+   "authenticity": "Bates's letters home from Ega were printed in The Zoologist; many of his letters to Wallace are lost and are known only from Wallace's replies. The Naturalist on the River Amazons (1863) is a later book. His voice in 1858–59 is therefore thin and is flagged as such.",
+   "bio": "Bates and Wallace sailed to Pará together in 1848 to solve 'the origin of species' by collecting. Bates stayed in the Amazon until 1859, out of reach of the 1858 news. Wallace's long letters to him are among the frankest records of how Wallace saw Darwin before and after the Origin.",
+   "sources": [
+    {
+     "title": "Wallace to Bates, 30 Apr 1856 (WCP364)",
+     "url": "https://epsilon.ac.uk/view/wallace/letters/WCP364"
+    },
+    {
+     "title": "Wallace to Bates, 25 Nov 1859 (WCP372)",
+     "url": "https://epsilon.ac.uk/view/wallace/letters/WCP372"
+    },
+    {
+     "title": "Wallace to Bates, 24 Dec 1860 (WCP374)",
+     "url": "https://epsilon.ac.uk/view/wallace/letters/WCP374"
+    }
+   ]
+  },
+  {
+   "id": "bell",
+   "short": "Thomas Bell",
+   "name": "Thomas Bell",
+   "life": "1792–1880",
+   "role": "Dental surgeon and zoologist, aged 66; President of the Linnean Society 1853–61",
+   "side": "England; Linnean Society",
+   "where": "Linnean Society, Burlington House, London",
+   "lat": 51.5087,
+   "lon": -0.1396,
+   "vantage": 2,
+   "vantage_label": "the president who saw nothing new",
+   "form": "printed presidential address",
+   "language": "English",
+   "authenticity": "Bell's anniversary address reviewing 1858 was printed by the Society in 1859. The fragment quoted is as given by the Linnean Society's own account; I did not see the printed page itself, so the day is given as the Society's traditional 24 May anniversary and marked approximate.",
+   "bio": "Bell's verdict on the year in which the Darwin–Wallace papers were read in his own Society has become the most famous misjudgement in the history of science. It is included as a contemporary eye, with the caution that he may have been speaking of discoveries in the usual sense rather than dismissing the papers.",
+   "sources": [
+    {
+     "title": "Linnean Society: 160th anniversary article",
+     "url": "https://www.linnean.org/the-society/news/2018/07/01/1st-july-2018-160th-anniversary-of-the-presentation-of-on-the-tendency-of-species-to-form-varieties"
+    },
+    {
+     "title": "Wallace Memorial Fund note on Bell",
+     "url": "https://wallacefund.myspecies.info/node/2547"
+    }
+   ]
+  },
+  {
+   "id": "linnean",
+   "short": "Linnean minutes",
+   "name": "Linnean Society of London (meeting record and Journal)",
+   "life": "founded 1788",
+   "role": "The learned society that received the papers; record kept by its Secretary, John Joseph Bennett",
+   "side": "England; institution",
+   "where": "Burlington House, Piccadilly, London",
+   "lat": 51.5087,
+   "lon": -0.1396,
+   "vantage": 1,
+   "vantage_label": "the room where it was read",
+   "form": "society minutes and printed journal",
+   "language": "English",
+   "authenticity": "The papers were read at an extra meeting on 1 July 1858 and printed in the Journal of the Proceedings of the Linnean Society, Zoology, vol. 3 (1858), pp. 45–62. The manuscript minute book is held by the Society; I worked from the printed paper and the Society's own account, not the minute book.",
+   "bio": "The institutional eye: a meeting crowded with business, at which the Secretary read out three pieces by two absent authors in date order, with no discussion recorded. The printed Journal fixed the dates that both men's claims still rest on.",
+   "sources": [
+    {
+     "title": "Darwin & Wallace 1858, On the tendency of species to form varieties (Darwin Online)",
+     "url": "https://darwin-online.org.uk/converted/published/1858_species_F1699b.html"
+    },
+    {
+     "title": "Linnean Society 160th anniversary article",
+     "url": "https://www.linnean.org/the-society/news/2018/07/01/1st-july-2018-160th-anniversary-of-the-presentation-of-on-the-tendency-of-species-to-form-varieties"
+    }
+   ]
+  },
+  {
+   "id": "huxley",
+   "short": "Huxley",
+   "name": "Thomas Henry Huxley",
+   "life": "1825–1895",
+   "role": "Comparative anatomist, aged 34 in 1859; lecturer at the Government School of Mines, Jermyn Street",
+   "side": "England; the younger London professionals",
+   "where": "Jermyn Street, London",
+   "lat": 51.508,
+   "lon": -0.137,
+   "vantage": 2,
+   "vantage_label": "the first reader who would fight",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "His letter of 23 November 1859 survives and is edited by the Darwin Correspondence Project; it was printed in Life and Letters (1887).",
+   "bio": "Huxley was sceptical of transmutation until he read the Origin in proof copy. His letter, written the day before publication, is the first recorded promise of public combat on Darwin's behalf, and also the first sharp scientific objection.",
+   "sources": [
+    {
+     "title": "Huxley to Darwin, 23 Nov 1859 (DCP-LETT-2544)",
+     "url": "https://www.darwinproject.ac.uk/view/letters/DCP-LETT-2544"
+    }
+   ]
+  },
+  {
+   "id": "ali",
+   "short": "Ali",
+   "name": "Ali (later called 'Ali Wallace')",
+   "life": "c. 1840–after 1907",
+   "role": "Malay youth from Sarawak, about 15 when hired in 1855; cook, boatman and then Wallace's chief bird collector",
+   "side": "Sarawak Malay; employed by Wallace",
+   "where": "With Wallace across the archipelago; Ternate and Batchian in 1858",
+   "lat": -0.63,
+   "lon": 127.48,
+   "waypoints": [
+    {
+     "lat": 1.55,
+     "lon": 110.35,
+     "label": "Sarawak 1855"
+    },
+    {
+     "lat": 0.79,
+     "lon": 127.38,
+     "label": "Ternate 1858–59"
+    },
+    {
+     "lat": -0.63,
+     "lon": 127.48,
+     "label": "Batchian, Oct 1858"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the assistant, seen through Wallace",
+   "form": "no writings of his own; seen through Wallace's journals, letters and books",
+   "language": "Malay (record in English)",
+   "authenticity": "FLAG: Ali left no written record. Everything here comes from Wallace (The Malay Archipelago, 1869; My Life, 1905) and the research of van Wyhe and Drawhorn (2015), including a 1907 meeting with Thomas Barbour on Ternate. He is included because the record shows his work directly in Wallace's collections.",
+   "bio": "Ali collected perhaps 5,000 of Wallace's birds and shot the bird-of-paradise later named for Wallace. He was with Wallace through the Ternate years. He gets an eye here because the specimens on which Wallace's theorising rested were in large part his.",
+   "sources": [
+    {
+     "title": "JSTOR Daily: Ali, Alfred Russel Wallace's right-hand gun",
+     "url": "https://daily.jstor.org/ali-alfred-russel-wallaces-right-hand-gun"
+    },
+    {
+     "title": "Wallace Fund: Musings on Wallace's assistants Charles Allen and Ali",
+     "url": "https://wallacefund.myspecies.info/node/1787"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1837-07",
+   "date_display": "July 1837",
+   "precision": "month",
+   "eye": "darwin",
+   "place": "London, Great Marlborough Street",
+   "headline": "Opening Notebook B and sketching a branching tree",
+   "digest": "Back from the Beagle less than a year, Darwin opened a pocket notebook on the 'transmutation' of species. On page 36 he drew a small branching tree of descent and wrote above it 'I think'. It was a private habit: these notebooks were for no one else, and he later cut pages from them to use in his writing.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Notebook B, CUL DAR 121 p. 36 (Cambridge Digital Library); DCP 'I think' page. Month from Darwin's later statements; the notebook itself is not dated to the day."
+  },
+  {
+   "date_iso": "1838-09-28",
+   "date_display": "Friday 28 September 1838",
+   "precision": "day",
+   "eye": "darwin",
+   "place": "London",
+   "headline": "Malthus and 'a hundred thousand wedges'",
+   "digest": "Reading Malthus on population, Darwin wrote in Notebook D that numbers grow geometrically and only death and famine check them. He pictured nature as a force driving well-fitted forms into the gaps of the economy of nature like 'a hundred thousand wedges', and pushing out weaker ones. This is the entry later readers treat as the birth of natural selection.",
+   "quote": "a hundred thousand wedges",
+   "confidence": "verified",
+   "source_note": "Notebook D (CUL DAR 123), excised pp. 134e–135e, entry begun 'Sept 25th' with the marker '28th' (Darwin Online transcription). Quote is Darwin's own phrase in the notebook."
+  },
+  {
+   "date_iso": "1842-06",
+   "date_display": "June 1842",
+   "precision": "month",
+   "eye": "darwin",
+   "place": "Maer Hall, Staffordshire, and Shrewsbury",
+   "headline": "A thirty-five-page pencil sketch",
+   "digest": "Staying with family away from London, Darwin wrote out his theory for the first time as a connected argument, in pencil. He told almost no one. Two years later he would expand it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Darwin's 'Journal' (pocket diary) records the pencil sketch in summer 1842; DCP note to DCP-LETT-2285 n. 5 (1842 sketch later expanded in 1844)."
+  },
+  {
+   "date_iso": "1844-07-05",
+   "date_display": "Friday 5 July 1844",
+   "precision": "day",
+   "eye": "darwin",
+   "place": "Down House, Kent",
+   "headline": "Instructions to Emma in case he dies",
+   "digest": "Having finished a 230-page essay on his theory, Darwin wrote a letter to Emma to be opened if he died. He asked her to spend £400 to have it edited and published, and listed possible editors, Lyell and Hooker among them. He judged that if even one competent person accepted the theory it would be a considerable step in science.",
+   "quote": "my most solemn & last request",
+   "confidence": "verified",
+   "source_note": "Darwin to Emma Darwin, 5 July 1844 (DCP-LETT-761; 'My most solemn request', DCP favourite letters). Printed in Life and Letters (1887)."
+  },
+  {
+   "date_iso": "1847-01",
+   "date_display": "January 1847",
+   "precision": "month",
+   "eye": "hooker",
+   "place": "Kew",
+   "headline": "Reading the 1844 essay and writing in its margins",
+   "digest": "Hooker read the fair copy of Darwin's 1844 essay and both men annotated it. It made him one of the very few people who had seen the full argument in writing. In 1858 Darwin would send him this same manuscript so that he could vouch for its handwriting and date.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "DCP-LETT-2298 n. 4: Hooker read the fair copy in early 1847; copy annotated by both."
+  },
+  {
+   "date_iso": "1855",
+   "date_display": "1855 (dated letters from Ega, printed 1856)",
+   "precision": "year",
+   "eye": "bates",
+   "place": "Ega (Tefé), upper Amazon",
+   "headline": "Letters from Ega in The Zoologist",
+   "digest": "Bates's letters from the upper Amazon, written in 1854–55, were printed in The Zoologist through the efforts of his agent Samuel Stevens. They describe an insect fauna of staggering richness. Wallace read them in Singapore and answered at length, comparing the Amazon with the Malay forests.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wallace to Bates, 30 Apr 1856 (WCP364), n.: Bates's letters printed in The Zoologist vol. 14 (1856), dated 1854 and 1855."
+  },
+  {
+   "date_iso": "1855-02",
+   "date_display": "February 1855 (published September 1855)",
+   "precision": "month",
+   "eye": "wallace",
+   "place": "Sarawak, Borneo",
+   "headline": "The 'Sarawak Law' of species succession",
+   "digest": "During the wet season in Sarawak Wallace wrote a paper arguing that every species had come into existence close in space and time to a pre-existing, closely allied species. It was printed in the Annals and Magazine of Natural History in September 1855. He was disappointed when no one seemed to respond, not knowing that Lyell and Blyth had both pointed it out to Darwin.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wallace 1855, 'On the law which has regulated the introduction of new species'; Darwin to Wallace, 22 Dec 1857 (DCP-LETT-2192) and n. on Lyell and Blyth. Month of writing approximate."
+  },
+  {
+   "date_iso": "1855-11-20",
+   "date_display": "Tuesday 20 November 1855",
+   "precision": "day",
+   "eye": "lyell",
+   "place": "London",
+   "headline": "Lyell starts a private journal on species",
+   "digest": "Lyell began the first of his 'scientific journals' devoted to the species question. The DCP editors note he read Wallace's paper in November 1855 and was much struck by it. For a geologist who had argued against transmutation for twenty years, it was a quiet but real change of mind in progress.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "University of Edinburgh, Lyell papers: 'MS Notes I – Scientific Journal 20 November 1855 – 29 April 1856' (Coll-203/A3/1); DCP-LETT-2192 n. (Lyell read Wallace's paper Nov 1855). The causal link to Wallace is the editors' and historians' reading."
+  },
+  {
+   "date_iso": "1856-04-16",
+   "date_display": "Wednesday 16 April 1856",
+   "precision": "day",
+   "eye": "lyell",
+   "place": "Down House, Kent",
+   "headline": "'With Darwin: On the Formation of Species by Natural Selection'",
+   "digest": "On the last day of a four-day visit to Down, Lyell wrote notes headed with Darwin's theory and set out what Darwin had explained to him, along with talk of pigeon breeds. The DCP editors call this the earliest evidence that Darwin shared the substance of natural selection with anyone. Lyell was impressed but not converted.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lyell notebook 213 (visit 13–16 April 1856), University of Edinburgh; DCP-LETT-1862 n. 10 (notes dated 16 April 1856)."
+  },
+  {
+   "date_iso": "1856-04-26",
+   "date_display": "late April 1856 (the weekend before Lyell's letter)",
+   "precision": "range",
+   "eye": "hooker",
+   "place": "Down House, Kent",
+   "headline": "A weekend of species talk at Down",
+   "digest": "About a week after Lyell's visit, Hooker, Huxley and the entomologist Wollaston spent a weekend at Down. Darwin talked over his views with them, and Lyell later recorded remarks of Hooker and Huxley on species in his scientific journal. All three younger men left more open to transmutation than they had come.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "DCP-LETT-1862 n. 7 (Hooker, Huxley and Wollaston had visited the week before). Exact dates not seen this session."
+  },
+  {
+   "date_iso": "1856-04-26",
+   "date_display": "late April 1856",
+   "precision": "range",
+   "eye": "huxley",
+   "place": "Down House, Kent",
+   "headline": "Huxley at Down, still a sceptic",
+   "digest": "Huxley joined Hooker and Wollaston at Down. At this point he still thought transmutation unproven, and he was known for hard attacks on established naturalists, which Darwin gently criticised. What Darwin told him that weekend is known only from others' notes.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "DCP-LETT-1862 n. 7; DCP-LETT-2544 n. 2 on Darwin's criticism of Huxley's attacks (1856 letters to Hooker)."
+  },
+  {
+   "date_iso": "1856-04-30",
+   "date_display": "30 April – 10 May 1856",
+   "precision": "range",
+   "eye": "wallace",
+   "place": "Singapore",
+   "headline": "From Singapore, answering Bates's Amazon letters",
+   "digest": "Waiting for a ship to Celebes, Wallace wrote a long letter to Bates comparing their two faunas. He counted some 6,000 insect species collected so far and stressed recording the locality of every specimen. He proposed swapping duplicates. Locality was to be the key to his evolutionary thinking.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wallace to Bates, 30 Apr 1856 with continuation 10 May (WCP364)."
+  },
+  {
+   "date_iso": "1856-05-01",
+   "date_display": "1–2 May 1856",
+   "precision": "range",
+   "eye": "lyell",
+   "place": "London",
+   "headline": "Lyell urges: publish a fragment and date it",
+   "digest": "Lyell wrote to Darwin urging him to publish some small fragment of his data, the pigeons for instance, so the theory could be dated, cited and understood. He did not name Wallace, but the warning was about being forestalled. He added a note the next day before posting.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lyell to Darwin, 1–2 May 1856 (DCP-LETT-1862)."
+  },
+  {
+   "date_iso": "1856-05-14",
+   "date_display": "May 1856",
+   "precision": "month",
+   "eye": "darwin",
+   "place": "Down House, Kent",
+   "headline": "Taking Lyell's advice, he begins the big book",
+   "digest": "Darwin began writing up his species theory, intending at first a short sketch. It quickly grew into a vast manuscript he called 'Natural Selection'. By the end of 1857 he reckoned it about half done and still two years from print.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Darwin's 'Journal' (May 1856, 'by Lyell's advice'); Darwin to Wallace 22 Dec 1857 (DCP-LETT-2192) on half the book written."
+  },
+  {
+   "date_iso": "1857-05-01",
+   "date_display": "Friday 1 May 1857",
+   "precision": "day",
+   "eye": "darwin",
+   "place": "Moor Park water-cure, Surrey (letter headed Down)",
+   "headline": "First letter to Wallace: twenty years of notebooks",
+   "digest": "Replying to a letter Wallace had sent from Celebes, Darwin said their views were very close. He told him he had now worked on the species question for twenty years and expected two more before publishing. He asked questions about jaguar colouring, parrots and island shells. Wallace underlined the twenty years.",
+   "quote": "the 20th year (!) since I opened my first-note-book",
+   "confidence": "verified",
+   "source_note": "Darwin to Wallace, 1 May 1857 (DCP-LETT-2086), nn. 1–4. Printed in Marchant, Wallace: Letters and Reminiscences (1916)."
+  },
+  {
+   "date_iso": "1857-09-05",
+   "date_display": "Saturday 5 September 1857",
+   "precision": "day",
+   "eye": "darwin",
+   "place": "Down House, Kent",
+   "headline": "The secret abstract sent to Harvard",
+   "digest": "Darwin sent Asa Gray a copied abstract of his theory in six numbered points, ending with the principle of divergence and the branching tree of classification. He called natural selection by far the most important cause of new forms. He asked Gray to keep it to himself, fearing someone like the author of Vestiges would take it up.",
+   "quote": "I ask you not to mention my doctrine",
+   "confidence": "verified",
+   "source_note": "Darwin to Gray, 5 Sept [1857] (DCP-LETT-2136) with enclosure; year inferred by editors."
+  },
+  {
+   "date_iso": "1857-10",
+   "date_display": "September–October 1857",
+   "precision": "range",
+   "eye": "gray",
+   "place": "Cambridge, Massachusetts",
+   "headline": "The abstract arrives at Harvard",
+   "digest": "The letter and its abstract reached Gray, who kept them; they are still in the Gray Herbarium. Gray was not then a convert, but he was the one person outside England holding a dated statement of the theory. Nine months later Darwin would ask him whether it bore a date.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "DCP-LETT-2298 n. 3 (original letter and enclosure in the Gray Herbarium; Darwin's notes suggest the enclosure went about October 1857). Gray's own reaction not recorded in sources seen."
+  },
+  {
+   "date_iso": "1857-12-22",
+   "date_display": "Tuesday 22 December 1857",
+   "precision": "day",
+   "eye": "darwin",
+   "place": "Down House, Kent",
+   "headline": "Encouraging Wallace, and mentioning who noticed him",
+   "digest": "Darwin told Wallace that Lyell and Blyth had both drawn his attention to the 1855 paper. He agreed with its conclusions but said he went further. He said he was avoiding the subject of man because of prejudice and was astonished that Wallace meant to stay away three or four more years. The letter would reach Wallace in the Moluccas.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Darwin to Wallace, 22 Dec 1857 (DCP-LETT-2192)."
+  },
+  {
+   "date_iso": "1858-01-08",
+   "date_display": "Friday 8 January 1858",
+   "precision": "day",
+   "eye": "wallace",
+   "place": "Ternate, Moluccas",
+   "headline": "Arrival at Ternate",
+   "digest": "Wallace landed at Ternate, which would be his base and postal address for three years. Within about two weeks he crossed to the large island of Gilolo (Halmahera) to collect. Ternate's name went on the essay; Gilolo, the record suggests, was where he wrote it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Beccaloni, 'Dojinga: birthplace of Wallace's theory' (Wallace Fund), citing The Malay Archipelago and Wallace's notebook entry 'Gilolo – Jan. 20th. 1858'."
+  },
+  {
+   "date_iso": "1858-02",
+   "date_display": "February 1858",
+   "precision": "month",
+   "eye": "wallace",
+   "place": "Dodinga, Gilolo (Halmahera) — essay signed 'Ternate, February, 1858'",
+   "headline": "Fever, Malthus, and the essay",
+   "digest": "Lying with intermittent fever, Wallace thought of Malthus's checks on population and saw that in every generation the less fit would die and the better fitted survive. In a few evenings he wrote 'On the tendency of varieties to depart indefinitely from the original type'. His field journal places him on Gilolo through February; he dated the essay from Ternate, his base. The account of the fever comes from his much later autobiography.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Essay as printed in J. Proc. Linn. Soc. Zool. 3 (1858); place argued by Beccaloni from the Malay Field Journal (on Halmahera all of February, back on Ternate 1 March); van Wyhe has argued for some time on Ternate in February. Fever account: My Life (1905), a memoir written later."
+  },
+  {
+   "date_iso": "1858-03-01",
+   "date_display": "Monday 1 March 1858",
+   "precision": "day",
+   "eye": "wallace",
+   "place": "Ternate",
+   "headline": "Back on Ternate",
+   "digest": "According to his field journal Wallace returned to Ternate on 1 March. Here he could make a fair copy and write letters for the mail steamer.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Beccaloni (Wallace Fund), citing the Malay Field Journal."
+  },
+  {
+   "date_iso": "1858-03-02",
+   "date_display": "Tuesday 2 March 1858",
+   "precision": "day",
+   "eye": "wallace",
+   "place": "Ternate",
+   "headline": "A letter to Frederick Bates goes with the March mail",
+   "digest": "Wallace wrote to Henry Bates's brother Frederick in Leicester, enclosing a letter to Henry. Its postmarks show it went by the March steamer and reached London on 3 June 1858. This surviving cover is the key exhibit in the argument about when Darwin's packet arrived.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phys.org report on van Wyhe & Rookmaaker (2012); Beccaloni (Wallace Fund) on the 2 March letter and its enclosure."
+  },
+  {
+   "date_iso": "1858-03-09",
+   "date_display": "March or April 1858 (disputed)",
+   "precision": "range",
+   "eye": "wallace",
+   "place": "Ternate",
+   "headline": "The essay is posted to Darwin — but by which steamer?",
+   "digest": "Wallace sent the essay to Darwin with a covering letter, now lost, asking him to pass it to Lyell if he thought it worth it. If it went with the 2 March letter, it should have reached Down about 3 June; Brooks, Brackman and Davies argued that it did, weeks before Darwin said, and Brackman and Davies suggested Darwin used it. Van Wyhe and Rookmaaker (2012) traced the mail connections back from a steamer that reached England on 16 June and argued that Wallace never answered on the same steamer that brought him letters, so the essay left in April. Beccaloni favours about 9 March. The book reports these as positions; none is proved.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "DCP-LETT-2285 n. 3 (Brooks: posted 5–19 March, arriving May; McKinney: early June); van Wyhe & Rookmaaker, Biol. J. Linn. Soc. 2012 (phys.org summary); Beccaloni (Wallace Fund)."
+  },
+  {
+   "date_iso": "1858-04",
+   "date_display": "April–July 1858",
+   "precision": "range",
+   "eye": "wallace",
+   "place": "Dorey (Manokwari), New Guinea",
+   "headline": "Collecting in New Guinea, out of reach of news",
+   "digest": "While his essay travelled west, Wallace sailed for the north coast of New Guinea to collect birds of paradise. Darwin, writing to Gray on 4 July, said Wallace was 'now in New Guinea'. He would not see a letter about the essay's fate until the autumn.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Darwin to Gray, 4 July 1858 (DCP-LETT-2302); dates of the New Guinea voyage from general Wallace chronology, not checked this session."
+  },
+  {
+   "date_iso": "1858-06-03",
+   "date_display": "Thursday 3 June 1858",
+   "precision": "day",
+   "eye": "bates",
+   "place": "Leicester (Frederick Bates's address)",
+   "headline": "Wallace's March letter lands in England",
+   "digest": "The letter Wallace sent to Frederick Bates reached London on 3 June, carrying an enclosure for Henry, who was still on the Amazon. Henry Bates himself knew nothing of the essay and was thousands of miles away. The date matters because it shows how fast the March mail travelled.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Postmark evidence reported by van Wyhe & Rookmaaker (phys.org, 2012). Entry is about the Bates family address, not Henry Bates's own writing."
+  },
+  {
+   "date_iso": "1858-06-18",
+   "date_display": "Friday 18 June 1858",
+   "precision": "day",
+   "eye": "darwin",
+   "place": "Down House, Kent",
+   "headline": "'Your words have come true with a vengeance'",
+   "digest": "Darwin wrote to Lyell that Wallace had sent him an essay to forward. He said he had never seen a more striking coincidence: if Wallace had read his 1842 sketch, he could not have made a better short abstract, and even his terms matched Darwin's chapter headings. He asked for the manuscript back, said all his originality would be smashed, and hoped only that the book's worth would survive in its application of the theory.",
+   "quote": "Your words have come true with a vengeance",
+   "confidence": "verified",
+   "source_note": "Darwin to Lyell, 18 [June 1858] (DCP-LETT-2285); day of month from the letter, month from Lyell's endorsement. Printed in Life and Letters (1887)."
+  },
+  {
+   "date_iso": "1858-06-23",
+   "date_display": "about 23–24 June 1858",
+   "precision": "range",
+   "eye": "darwin",
+   "place": "Down House, Kent",
+   "headline": "Two children ill at once",
+   "digest": "Writing to his cousin Fox, Darwin said his daughter Etty was gravely ill with something like diphtheria and the baby had started a fever. He spent most of the letter on a friend's divorce scandal. The baby, Charles Waring, had fallen ill about 23 June.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Darwin to W. D. Fox, 24 June [1858] (DCP-LETT-2293), n. 5 (Charles Waring taken ill c. 23 June)."
+  },
+  {
+   "date_iso": "1858-06-25",
+   "date_display": "Friday 25 June 1858",
+   "precision": "day",
+   "eye": "emma",
+   "place": "Down House, Kent",
+   "headline": "Her sister Elizabeth arrives",
+   "digest": "Emma's diary records her sister Elizabeth Wedgwood arriving at Down. With a feverish baby and a sick daughter, the household needed help. The same day Charles wrote again to Lyell, torn about whether he could honourably publish anything now.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Emma Darwin's diary, as cited in DCP-LETT-2300 n. 2."
+  },
+  {
+   "date_iso": "1858-06-25",
+   "date_display": "Friday 25 June 1858",
+   "precision": "day",
+   "eye": "darwin",
+   "place": "Down House, Kent",
+   "headline": "Could he publish honourably?",
+   "digest": "Darwin wrote to Lyell that there was nothing in Wallace's sketch not already in his own 1844 essay. He would be glad to publish a short sketch, but feared Wallace or anyone might think he had acted in a paltry spirit. He enclosed Wallace's covering letter and asked Lyell to judge for him, then added a postscript the next day.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Darwin to Lyell, [25 June 1858] (DCP-LETT-2294), cited in DCP-LETT-2285 n. 6; content from Life and Letters (1887), not fetched this session."
+  },
+  {
+   "date_iso": "1858-06-28",
+   "date_display": "Monday 28 June 1858",
+   "precision": "day",
+   "eye": "darwin",
+   "place": "Down House, Kent",
+   "headline": "Charles Waring dies of scarlet fever",
+   "digest": "The Darwins' youngest child, Charles Waring, eighteen months old, died in the evening. Darwin's journal records it, and a notice in The Times gave the cause as scarlet fever. Hooker and Lyell's request for papers was already on its way.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DCP-LETT-2297 n. 1 (Darwin's 'Journal'); Times notice transcribed on Darwin Online (1858_Charles_A679)."
+  },
+  {
+   "date_iso": "1858-06-29",
+   "date_display": "Tuesday 29 June 1858",
+   "precision": "day",
+   "eye": "darwin",
+   "place": "Down House, Kent",
+   "headline": "Two letters to Kew on the day after",
+   "digest": "In the morning Darwin told Hooker the baby had died, and that his face had regained its sweet expression in death. He said he could not think about the subject yet and that Emma had behaved nobly. That evening, after Hooker asked for the papers at once, he sent Wallace's essay, the Gray abstract and the 1844 essay by servant to Kew, saying he was quite prostrated and hardly cared.",
+   "quote": "quite prostrated",
+   "confidence": "verified",
+   "source_note": "Darwin to Hooker, [29 June 1858] (DCP-LETT-2297 and DCP-LETT-2298; WCP5312)."
+  },
+  {
+   "date_iso": "1858-06-30",
+   "date_display": "Wednesday 30 June 1858",
+   "precision": "day",
+   "eye": "lyell",
+   "place": "London",
+   "headline": "Lyell and Hooker write the covering letter",
+   "digest": "Lyell and Hooker addressed the Linnean Society's Secretary. They explained that two naturalists had independently reached the same theory, and that they were presenting Wallace's essay with extracts from Darwin's earlier writings. They said they did this in the interests of science, not only of priority.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lyell and Hooker to J. J. Bennett, 30 June 1858, printed in J. Proc. Linn. Soc. Zool. 3 (1858); see DCP n. 4 to WCP5312."
+  },
+  {
+   "date_iso": "1858-07-01",
+   "date_display": "Thursday 1 July 1858",
+   "precision": "day",
+   "eye": "linnean",
+   "place": "Burlington House, London",
+   "headline": "Three papers read, neither author present",
+   "digest": "At an extra meeting the Secretary, J. J. Bennett, read an extract from Darwin's 1844 essay, the abstract sent to Gray in 1857, and Wallace's essay, in that order of date. Darwin stayed at Down with his family in mourning; Wallace was on the other side of the world and did not know. No discussion is recorded.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Linnean Society account (2018 anniversary article); printed paper, J. Proc. Linn. Soc. Zool. 3: 45–62 (Darwin Online F1699b)."
+  },
+  {
+   "date_iso": "1858-07-01",
+   "date_display": "Thursday 1 July 1858 (recalled in 1908)",
+   "precision": "day",
+   "eye": "hooker",
+   "place": "Burlington House, London",
+   "headline": "Hooker remembers a silent room",
+   "digest": "Hooker was there with Lyell. Fifty years later he recalled that the subject was too novel and threatening for the old school to argue about, and that the audience listened in silence. It is a memory, not a note of the day.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Hooker's 1908 reminiscence, as summarised by the Linnean Society (2018 article). Memoir written later."
+  },
+  {
+   "date_iso": "1858-07-02",
+   "date_display": "Friday 2 July 1858",
+   "precision": "day",
+   "eye": "emma",
+   "place": "Down House, Kent",
+   "headline": "The children are sent to Hartfield",
+   "digest": "Emma's diary records that her sister took the children to her house at Hartfield in Sussex. A nurse had caught the fever. Charles wrote to Fox that fear had almost driven away grief.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Emma's diary cited in DCP-LETT-2300 n. 2; Darwin to Fox, 2 July [1858] (DCP-LETT-2300)."
+  },
+  {
+   "date_iso": "1858-07-04",
+   "date_display": "Sunday 4 July 1858",
+   "precision": "day",
+   "eye": "darwin",
+   "place": "Down House, Kent",
+   "headline": "Asking Gray: is your letter dated?",
+   "digest": "Darwin told Gray that Wallace had sent him an abstract curiously close to his own theory, and that Lyell and Hooker had made him publish beside it. His only short statement had been his letter to Gray, which was read to the Society. He asked Gray to check whether it bore a date, as he wanted to know exactly when he first wrote out his views.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Darwin to Gray, 4 July 1858 (DCP-LETT-2302)."
+  },
+  {
+   "date_iso": "1858-07-04",
+   "date_display": "Sunday 4 July 1858",
+   "precision": "day",
+   "eye": "emma",
+   "place": "Down House, Kent",
+   "headline": "The governess leaves",
+   "digest": "Emma's diary records that the governess, Miss Pugh, left on 4 July. The household was emptying as the scarlet fever was contained.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Emma's diary cited in DCP-LETT-2304 n. 2."
+  },
+  {
+   "date_iso": "1858-07-09",
+   "date_display": "Friday 9 July 1858",
+   "precision": "day",
+   "eye": "emma",
+   "place": "Down to Hartfield, Sussex",
+   "headline": "Leaving Down with Etty",
+   "digest": "Charles and Emma took the still weak Henrietta to Hartfield. A week later, on 16 July, they went on to the Isle of Wight for sea air. There Charles began to write the 'abstract' that became the Origin.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DCP-LETT-2304 n. 3 and DCP-LETT-2302 n. 2 (left Down 9 July, returned 16 August), from Emma's diary."
+  },
+  {
+   "date_iso": "1858-07-20",
+   "date_display": "20 July 1858",
+   "precision": "day",
+   "eye": "darwin",
+   "place": "Sandown, Isle of Wight",
+   "headline": "Starting the 'abstract'",
+   "digest": "On holiday with the family, Darwin began writing a shorter account of his theory for the Linnean Journal. It kept growing. By the following spring it was a book.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Darwin's 'Journal', 1858 (Sandown, July–August); not checked against the page this session."
+  },
+  {
+   "date_iso": "1858-08-20",
+   "date_display": "August 1858",
+   "precision": "month",
+   "eye": "linnean",
+   "place": "London",
+   "headline": "The joint paper is printed",
+   "digest": "The three pieces appeared in the Journal of the Proceedings of the Linnean Society, Zoology, volume 3, under the joint title 'On the tendency of species to form varieties'. The printed text, with Lyell and Hooker's letter first, is what fixed both claims in public.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "J. Proc. Linn. Soc. Zool. 3 (9): 45–62 (1858) (Darwin Online F1699b). Issue date of 20 August is commonly cited but not seen this session."
+  },
+  {
+   "date_iso": "1858-10",
+   "date_display": "October 1858",
+   "precision": "month",
+   "eye": "ali",
+   "place": "Batchian (Bacan)",
+   "headline": "Ali shoots the Standardwing",
+   "digest": "Ali brought in a bird of paradise unknown to science, with long white plumes standing out from its wings. It was later named Semioptera wallacii after Wallace. By the custom of the time the credit went to the expedition's leader; Wallace's own books tell the story and name Ali.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "JSTOR Daily (van Wyhe & Drawhorn 2015); Wallace, The Malay Archipelago (1869). Through Wallace: Ali left no record."
+  },
+  {
+   "date_iso": "1858-10-06",
+   "date_display": "Wednesday 6 October 1858",
+   "precision": "day",
+   "eye": "wallace",
+   "place": "Ternate",
+   "headline": "Thanking Hooker for an arrangement made without him",
+   "digest": "Back from New Guinea, Wallace found letters from Darwin and Hooker. He thanked Hooker and Lyell and said he felt lucky to receive any credit, since priority often goes only to the first discoverer. It would have pained him, he wrote, if his paper had been printed without Darwin's earlier and fuller views. He declined Hooker's advice to come home for his health.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wallace to Hooker, 6 Oct 1858 (DCP-LETT-2337; WCP1454)."
+  },
+  {
+   "date_iso": "1858-10-06",
+   "date_display": "Wednesday 6 October 1858",
+   "precision": "day",
+   "eye": "wallace",
+   "place": "Ternate",
+   "headline": "Telling his mother about the 'eminent men'",
+   "digest": "To his mother Wallace wrote that he had sent Darwin an essay, that Darwin had shown it to Hooker and Lyell, and that they had had it read at the Linnean Society. He saw it as a door opening for a collector without connections. He also reported that Stevens had sold his Aru collections.",
+   "quote": "assures me the acquaintance and assistance of these eminent men",
+   "confidence": "verified",
+   "source_note": "Wallace to Mary Ann Wallace, 6 Oct 1858 (WCP369); manuscript reads 'insures', the 1916 printed text 'assures'."
+  },
+  {
+   "date_iso": "1858-10-21",
+   "date_display": "Thursday 21 October 1858",
+   "precision": "day",
+   "eye": "wallace",
+   "place": "Batchian (Bacan)",
+   "headline": "On to Batchian",
+   "digest": "Wallace reached Batchian, south of Gilolo, and stayed nearly six months. It was here that his collectors found a new bird of paradise.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DCP-LETT-2337 n. 4."
+  },
+  {
+   "date_iso": "1859-05-24",
+   "date_display": "24 May 1859",
+   "precision": "day",
+   "eye": "bell",
+   "place": "Linnean Society, London",
+   "headline": "'No striking discoveries' in the past year",
+   "digest": "Reviewing the Society's year at its anniversary meeting, President Bell said 1858 had not been marked by any discoveries that at once revolutionise a branch of science. The year included the Darwin–Wallace papers. Whether he meant to slight them, or simply did not see them as discoveries, is a matter of interpretation.",
+   "quote": "marked by any of those striking discoveries which at once revolutionise",
+   "confidence": "approx",
+   "source_note": "Linnean Society 2018 article (quoting Bell's 1859 presidential report); Wallace Fund note. Day assumed from the Society's 24 May anniversary; printed address not seen."
+  },
+  {
+   "date_iso": "1859-06",
+   "date_display": "June 1859",
+   "precision": "month",
+   "eye": "bates",
+   "place": "Pará (Belém), Brazil",
+   "headline": "Bates leaves the Amazon",
+   "digest": "After eleven years, Bates left Pará for England with his collections, his health broken. He had heard nothing of the 1858 papers while far up the river. He reached home in the summer of 1859, months before the Origin.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wallace to Bates, 25 Nov 1859 (WCP372) congratulating him on his safe return; departure month from The Naturalist on the River Amazons (1863), memoir written later."
+  },
+  {
+   "date_iso": "1859-11-23",
+   "date_display": "Wednesday 23 November 1859",
+   "precision": "day",
+   "eye": "huxley",
+   "place": "Jermyn Street, London",
+   "headline": "'Prepared to go to the Stake'",
+   "digest": "Huxley had finished an early copy of the Origin the day before and wrote that no natural history book had impressed him so much since von Baer. He backed Darwin's chapters on geology and distribution and expected abuse from opponents. He also warned that Darwin had burdened himself by insisting nature makes no jumps.",
+   "quote": "I am prepared to go to the Stake if requisite",
+   "confidence": "verified",
+   "source_note": "Huxley to Darwin, 23 Nov 1859 (DCP-LETT-2544). Printed in Life and Letters (1887)."
+  },
+  {
+   "date_iso": "1859-11-24",
+   "date_display": "Thursday 24 November 1859",
+   "precision": "day",
+   "eye": "darwin",
+   "place": "Ilkley, Yorkshire (water cure)",
+   "headline": "On the Origin of Species is published",
+   "digest": "John Murray published the Origin in an edition of 1,250 copies, offered to the trade two days earlier and quickly taken up. Darwin, taking a water cure in Yorkshire, believed the whole edition had sold on the first day. Wallace was named in the introduction as having reached almost exactly the same conclusions.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Freeman, editorial introduction to On the Origin of Species (Darwin Online): published 24 Nov 1859, 1,250 copies, trade sale 22 Nov. Ilkley stay from DCP letters of Nov 1859."
+  },
+  {
+   "date_iso": "1859-11-25",
+   "date_display": "Friday 25 November 1859",
+   "precision": "day",
+   "eye": "wallace",
+   "place": "Ceram (Seram)",
+   "headline": "The day after: planning a fauna, not a rivalry",
+   "digest": "Knowing nothing yet of the Origin, Wallace wrote to Bates, now safely home, urging him to write a 'Fauna of the Amazon Valley'. He outlined his own plan for a synopsis of Malay insects and asked Bates to keep duplicates for him. He mentioned a new paper he had sent to the Linnean Society on the geography of the archipelago's animals.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wallace to Bates, 25 Nov 1859 (WCP372); the paper became 'On the zoological geography of the Malay Archipelago' (J. Proc. Linn. Soc. Zool. 4, 1860)."
+  },
+  {
+   "date_iso": "1860-01-01",
+   "date_display": "late December 1859 – 1 January 1860",
+   "precision": "range",
+   "eye": "gray",
+   "place": "Cambridge, Massachusetts",
+   "headline": "Gray reads the Origin over Christmas",
+   "digest": "Gray's copy arrived late, and he read it in the last days of 1859, finishing on New Year's Day. His annotated copy is at Harvard. He was already planning a review and an authorised American edition.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DCP-LETT-2594 n. 3 (Darwin to Murray, 22 Dec 1859) and DCP-LETT-2631 n. 6."
+  },
+  {
+   "date_iso": "1860-01-10",
+   "date_display": "[10 January 1860]",
+   "precision": "day",
+   "eye": "gray",
+   "place": "Cambridge, Massachusetts",
+   "headline": "Strong points, gaps, and Agassiz's attack",
+   "digest": "Gray told Darwin he was half-way through a review that was already too long. He thought the book had many very strong points and two or three big gaps in the evidence. Louis Agassiz had denounced it in a lecture as atheistical, which Gray thought would only help it sell.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Gray to Darwin, [10 Jan 1860] (DCP-LETT-2631); date bracketed by editors."
+  },
+  {
+   "date_iso": "1860-12-24",
+   "date_display": "Monday 24 December 1860",
+   "precision": "day",
+   "eye": "wallace",
+   "place": "Ternate",
+   "headline": "Epilogue: 'a masterpiece' he could never have written",
+   "digest": "A year after the Origin, Wallace told Bates that Darwin's book was a masterpiece of evidence and argument that he could never have equalled, and that Darwin had founded a new science. The rest of the letter is about where species boundaries run along the Amazon. There is no sign of grievance.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wallace to Bates, 24 Dec 1860 (WCP374)."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1837-07",
+   "date_display": "July 1837",
+   "eye": "darwin",
+   "claim": "Opens the first transmutation notebook (B) and draws a branching tree of descent",
+   "form": "notebook",
+   "evidence": "Notebook B, CUL DAR 121 p. 36",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1838-09-28",
+   "date_display": "28 September 1838",
+   "eye": "darwin",
+   "claim": "Applies Malthus: population pressure sorts adapted forms ('a hundred thousand wedges')",
+   "form": "notebook",
+   "evidence": "Notebook D, CUL DAR 123, pp. 134e–135e",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1842-06",
+   "date_display": "June 1842",
+   "eye": "darwin",
+   "claim": "First connected written outline of natural selection (pencil sketch)",
+   "form": "other",
+   "evidence": "1842 pencil sketch manuscript (CUL); Darwin's 'Journal'",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1844-07-05",
+   "date_display": "5 July 1844",
+   "eye": "darwin",
+   "claim": "Completes the 1844 essay and leaves instructions for its publication",
+   "form": "other",
+   "evidence": "1844 essay MS; letter to Emma (DCP-LETT-761)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1855-09",
+   "date_display": "September 1855",
+   "eye": "wallace",
+   "claim": "'Sarawak Law': each species arises near an allied pre-existing species",
+   "form": "paper published",
+   "evidence": "Annals and Magazine of Natural History, Sept 1855",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1856-04-16",
+   "date_display": "16 April 1856",
+   "eye": "lyell",
+   "claim": "Records Darwin's explanation of natural selection — first evidence he shared it",
+   "form": "notebook",
+   "evidence": "Lyell's notes, University of Edinburgh; DCP-LETT-1862 n. 10",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1857-09-05",
+   "date_display": "5 September 1857",
+   "eye": "darwin",
+   "claim": "Abstract of natural selection and divergence sent to Asa Gray",
+   "form": "letter",
+   "evidence": "DCP-LETT-2136; original in Gray Herbarium, Harvard",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1858-02",
+   "date_display": "February 1858",
+   "eye": "wallace",
+   "claim": "Ternate essay: varieties depart indefinitely through survival of the fitted",
+   "form": "other",
+   "evidence": "Essay printed in J. Proc. Linn. Soc. Zool. 3 (1858); place (Ternate or Gilolo) disputed",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1858-06-18",
+   "date_display": "18 June 1858",
+   "eye": "darwin",
+   "claim": "Darwin acknowledges receipt of Wallace's essay (arrival date disputed: positions from May to 18 June)",
+   "form": "letter",
+   "evidence": "DCP-LETT-2285 and n. 3; van Wyhe & Rookmaaker 2012; Brooks, Brackman, Davies",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1858-06-30",
+   "date_display": "30 June 1858",
+   "eye": "lyell",
+   "claim": "Lyell and Hooker communicate both men's papers jointly to the Linnean Society",
+   "form": "letter",
+   "evidence": "Covering letter printed in J. Proc. Linn. Soc. Zool. 3 (1858)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1858-07-01",
+   "date_display": "1 July 1858",
+   "eye": "linnean",
+   "claim": "Joint reading of Darwin's extracts and Wallace's essay",
+   "form": "lecture",
+   "evidence": "Linnean Society record; printed paper pp. 45–62",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1858-08",
+   "date_display": "August 1858",
+   "eye": "linnean",
+   "claim": "Joint paper printed: 'On the tendency of species to form varieties'",
+   "form": "paper published",
+   "evidence": "J. Proc. Linn. Soc. Zool. 3 (9): 45–62",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1859-11-24",
+   "date_display": "24 November 1859",
+   "eye": "darwin",
+   "claim": "On the Origin of Species published by John Murray (1,250 copies)",
+   "form": "other",
+   "evidence": "Freeman, Darwin Online editorial introduction",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1856-04",
+   "label": "Spring 1856: the theory is told to the inner circle",
+   "eyes": [
+    "lyell",
+    "darwin",
+    "hooker",
+    "huxley"
+   ],
+   "note": "Within two weeks Lyell, then Hooker and Huxley, heard natural selection at Down. Lyell's response was to write it down and urge publication: the first priority warning, with Wallace's 1855 paper in the background."
+  },
+  {
+   "date": "1858-03",
+   "label": "March 1858: two letters, one steamer?",
+   "eyes": [
+    "wallace",
+    "bates"
+   ],
+   "note": "Wallace's letter to Frederick Bates certainly went with the March mail and reached London on 3 June. Whether the Darwin essay went with it is the whole of the arrival dispute."
+  },
+  {
+   "date": "1858-06-18",
+   "label": "18–29 June 1858: the essay and the fever",
+   "eyes": [
+    "darwin",
+    "emma",
+    "lyell",
+    "hooker"
+   ],
+   "note": "Darwin's letters swing between priority and his sick children; Emma's diary records only arrivals and nursing. Lyell and Hooker, at a distance, make the decision he asks them to make."
+  },
+  {
+   "date": "1858-07-01",
+   "label": "1 July 1858: the reading",
+   "eyes": [
+    "linnean",
+    "hooker",
+    "lyell",
+    "darwin",
+    "wallace"
+   ],
+   "note": "The Society hears the papers in silence; Hooker and Lyell are in the room; Darwin is at Down in mourning; Wallace is in New Guinea and will not know for three months."
+  },
+  {
+   "date": "1858-10",
+   "label": "October 1858: the news reaches the Moluccas",
+   "eyes": [
+    "wallace",
+    "ali"
+   ],
+   "note": "Wallace writes his gracious replies on Ternate and moves to Batchian, where Ali shoots the bird that will carry Wallace's name."
+  },
+  {
+   "date": "1859-11-24",
+   "label": "23–25 November 1859: the Origin appears",
+   "eyes": [
+    "huxley",
+    "darwin",
+    "wallace",
+    "bates"
+   ],
+   "note": "Huxley promises to fight the day before publication; Wallace, the day after, writes to the newly returned Bates about insect faunas, not knowing the book exists."
+  }
+ ],
+ "ties": [
+  {
+   "a": "darwin",
+   "b": "wallace",
+   "kind": "read each other",
+   "note": "Corresponded from 1856–57 but did not meet until after Wallace's return in 1862. Each read the other's 1858 text only in manuscript or print."
+  },
+  {
+   "a": "darwin",
+   "b": "lyell",
+   "kind": "met",
+   "note": "Lyell was Darwin's mentor from 1836; it was to him that Darwin first wrote on 18 June 1858."
+  },
+  {
+   "a": "darwin",
+   "b": "hooker",
+   "kind": "met",
+   "note": "Hooker was Darwin's closest scientific friend and had read the 1844 essay; he carried out the Linnean arrangement."
+  },
+  {
+   "a": "lyell",
+   "b": "hooker",
+   "kind": "met",
+   "note": "Together they signed the covering letter of 30 June 1858 and attended the reading."
+  },
+  {
+   "a": "darwin",
+   "b": "gray",
+   "kind": "read each other",
+   "note": "Gray held Darwin's 1857 abstract, which served as dated proof in 1858; they never met."
+  },
+  {
+   "a": "darwin",
+   "b": "emma",
+   "kind": "relative",
+   "note": "Husband and wife, also first cousins; Charles Waring was their tenth child."
+  },
+  {
+   "a": "wallace",
+   "b": "bates",
+   "kind": "met",
+   "note": "Friends from Leicester who sailed to the Amazon together in 1848; Wallace's letters to Bates frame the whole story."
+  },
+  {
+   "a": "wallace",
+   "b": "ali",
+   "kind": "met",
+   "note": "Ali worked for Wallace from 1855 to 1862 as cook, boatman and collector."
+  },
+  {
+   "a": "wallace",
+   "b": "hooker",
+   "kind": "read each other",
+   "note": "Hooker's lost July 1858 letter explained the reading; Wallace's reply of 6 October 1858 survives."
+  },
+  {
+   "a": "lyell",
+   "b": "wallace",
+   "kind": "read each other",
+   "note": "Lyell's interest in Wallace's 1855 paper led him to warn Darwin; they had not met."
+  },
+  {
+   "a": "huxley",
+   "b": "darwin",
+   "kind": "influenced",
+   "note": "Huxley visited Down in 1856 and became the Origin's most combative defender."
+  },
+  {
+   "a": "bell",
+   "b": "linnean",
+   "kind": "same street",
+   "note": "Bell presided over the Society whose meeting heard the papers, and reviewed its year in 1859."
+  },
+  {
+   "a": "bates",
+   "b": "darwin",
+   "kind": "influenced",
+   "note": "After 1859 Bates's work on mimicry became one of Darwin's favourite proofs of natural selection."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v3:humboldt",
+   "note": "Both men were made by Humboldt: Darwin read the Personal Narrative before and during the Beagle voyage, and Wallace and Bates went to the Amazon partly inspired by it. Humboldt died in Berlin on 6 May 1859, six months before the Origin appeared."
+  },
+  {
+   "to": "v2:krakatoa-1883",
+   "note": "Wallace's years in the archipelago produced the biogeographic boundary later called Wallace's Line. Krakatau lies in the Sunda Strait on the Asian side of it, and the island's recolonisation after the 1883 eruption became a classic test of the island biogeography Wallace founded."
+  },
+  {
+   "to": "v3:endeavour",
+   "note": "Kew, where Hooker worked and his father was director, owed its worldwide collecting network to Joseph Banks of the Endeavour. The botanical empire Banks built is the one through which Hooker judged species, and through which Wallace's and Darwin's specimens travelled."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://cudl.lib.cam.ac.uk/view/MS-DAR-00121",
+   "title": "Notebook B (DAR 121), with the 'I think' tree",
+   "caption": "Darwin's first transmutation notebook. The small branching tree on page 36 is the earliest drawing of common descent in his hand, more than twenty years before the Origin.",
+   "date": "1837–38",
+   "credit": "Charles Darwin; Cambridge University Library"
+  },
+  {
+   "url": "https://darwinproject.ac.uk/darwin-s-species-notebooks-i-think",
+   "title": "'I think': Darwin's species notebooks",
+   "caption": "The Darwin Correspondence Project's page on the notebooks, showing the tree sketch.",
+   "date": "1837",
+   "credit": "Cambridge University Library / Darwin Correspondence Project"
+  },
+  {
+   "url": "https://cudl.lib.cam.ac.uk/view/MS-DAR-00114-00240",
+   "title": "Darwin to Hooker, June 1858 (DAR 114)",
+   "caption": "Manuscript from Darwin's letters to Hooker in the week of Charles Waring's death, when Darwin sent the papers to Kew. Check the item's own description for which of the two 29 June letters it is.",
+   "date": "1858",
+   "credit": "Charles Darwin; Cambridge University Library"
+  },
+  {
+   "url": "https://www.linnean.org/the-society/news/2018/07/01/1st-july-2018-160th-anniversary-of-the-presentation-of-on-the-tendency-of-species-to-form-varieties",
+   "title": "The 1858 Linnean papers",
+   "caption": "The Linnean Society's own account of the 1 July 1858 reading, with the Society's images of the printed paper.",
+   "date": "1858",
+   "credit": "Linnean Society of London"
+  },
+  {
+   "url": "https://daily.jstor.org/ali-alfred-russel-wallaces-right-hand-gun",
+   "title": "Ali, photographed in Singapore",
+   "caption": "The only known photograph of Ali, taken when Wallace left the archipelago. It is held by the Natural History Museum, London, and is reproduced in this article.",
+   "date": "1862",
+   "credit": "Natural History Museum, London (via JSTOR Daily)"
+  },
+  {
+   "url": "https://wallacefund.myspecies.info/node/2562/revisions/6230/view",
+   "title": "Dodinga, Halmahera",
+   "caption": "George Beccaloni's case, with maps and pictures, that the Ternate essay was written in Dodinga on Gilolo, across the strait from Ternate.",
+   "date": "2018",
+   "credit": "G. Beccaloni / Wallace Memorial Fund"
+  },
+  {
+   "url": "https://exhibits.lib.lehigh.edu/exhibits/show/cd/1859_",
+   "title": "On the Origin of Species, first edition",
+   "caption": "A first edition of 24 November 1859, one of 1,250 copies printed by John Murray.",
+   "date": "1859",
+   "credit": "Lehigh University Libraries"
+  }
+ ],
+ "further": [
+  {
+   "title": "Darwin Correspondence Project: Darwin's letters 1858–1859, the Origin",
+   "url": "https://darwinproject.ac.uk/letters/darwins-life-letters/darwin-letters-1858-1859-origin"
+  },
+  {
+   "title": "Darwin Correspondence Project: Writing the Origin",
+   "url": "https://darwinproject.ac.uk/writing-origin"
+  },
+  {
+   "title": "The 1858 joint paper (Darwin Online)",
+   "url": "https://darwin-online.org.uk/converted/published/1858_species_F1699b.html"
+  },
+  {
+   "title": "Darwin's notebooks and reading lists (van Wyhe, Darwin Online)",
+   "url": "https://darwin-online.org.uk/EditorialIntroductions/vanWyhe_notebooks.html"
+  },
+  {
+   "title": "The Darwin–Wallace mystery solved (phys.org, 2012)",
+   "url": "https://phys.org/news/2012-03-darwin-wallace-mystery.html"
+  },
+  {
+   "title": "J. van Wyhe, Royal Society of Western Australia paper (PDF)",
+   "url": "https://www.rswa.org.au/wp-content/uploads/2023/10/RSWA-103-p89-95-Van-Wyhe.pdf"
+  },
+  {
+   "title": "Freeman: On the Origin of Species (Darwin Online introduction)",
+   "url": "https://darwin-online.org.uk/converted/published/1861_Origin_F381/../../../EditorialIntroductions/Freeman_OntheOriginofSpecies.html"
+  },
+  {
+   "title": "Stecher, The Darwin–Bates letters (Darwin Online PDF)",
+   "url": "https://darwin-online.org.uk/converted/pdf/1969_Stecher_Darwin-Bates-letters_F1600.pdf"
+  }
+ ],
+ "vantage_key": "0 = the two men who conceived the theory; 1 = those who held the documents, sat in the room or lived in the house; 2 = London scientists reacting at a remove; 4 = abroad, reached by post months later."
+}

@@ -1,0 +1,1579 @@
+{
+ "id": "yalta",
+ "title": "Yalta, February 1945",
+ "short_title": "Yalta, 1945",
+ "subtitle": "The Crimea Conference: Malta, Saki and the Livadia Palace, 30 January – 1 March 1945",
+ "span": "1945",
+ "intro": [
+  "In the first days of February 1945 the leaders of the three largest Allied powers met in palaces on the southern coast of the Crimea, a territory that German forces had left only nine months earlier. The Red Army was on the Oder; the Western armies had just turned back the Ardennes offensive; the war with Japan looked set to last into 1946 or beyond. Over eight plenary sessions at the Livadia Palace (4–11 February), with foreign ministers and chiefs of staff meeting in parallel at the Yusupov and Vorontsov palaces, Roosevelt, Churchill and Stalin argued over the fate of Germany, the government and frontiers of Poland, the voting rules of a new world organisation, and the terms on which the Soviet Union would join the war in the Pacific.",
+  "The room itself left an unusual record. There was no single stenographic transcript. The American minutes by Charles Bohlen, who interpreted for Roosevelt and wrote at the same time, together with the pencilled notes of H. Freeman Matthews and Alger Hiss, were published by the State Department in 1955 in the middle of a fierce domestic argument over the conference. The British and Soviet records are separate and selective; the Soviet record appeared much later. Stalin and Roosevelt kept no diaries, so both speak here only through others' minutes and their own public words.",
+  "Around that record this chapter lays the private writing of people who were in the palaces but mostly outside the conference room: Churchill's doctor, whose 'diary' was rewritten for publication; the Foreign Office's senior official writing to his wife; and the three daughters, Sarah Churchill, Anna Roosevelt Boettiger and Kathleen Harriman, whose letters and diary describe looted palaces, ruined Sevastopol, champagne at breakfast and fathers worn down by the sessions. Several eyes survive only as later books or recollections (Stettinius 1949, Byrnes 1947, Lunghi 1996 and 2007), and are marked so.",
+  "The conference produced public decisions (a Declaration on Liberated Europe, a formula for a reorganised Polish government pledged to free elections, zones and a reparations commission for Germany, a date for the San Francisco conference) and a secret one (the agreement on Soviet entry into the war with Japan in return for territory and rights in the Far East, signed without China's knowledge). Outside the room stood the Polish government-in-exile in London, which had not been consulted and rejected the decisions on Poland within two days.",
+  "Yalta has been argued over ever since. To some it was a realistic settlement that recognised where armies already stood and secured Soviet commitments to elections, the United Nations and the Pacific war; to others, especially in Poland and among Cold War critics in the United States, it was a betrayal that handed Eastern Europe to Soviet control. The diarists themselves already disagreed. This chapter reports what each side said, wrote and signed, and leaves the verdict to the reader."
+ ],
+ "calendar_note": "All dates are Gregorian. Crimea kept Moscow time, two hours ahead of Malta; times given are those of the American and British records. Some online FRUS document headers carry an erroneous place-line; the conference sessions met at the Livadia Palace near Yalta.",
+ "eyes": [
+  {
+   "id": "roosevelt",
+   "short": "Roosevelt",
+   "name": "Franklin Delano Roosevelt",
+   "life": "1882–1945",
+   "role": "President of the United States, aged 63, newly inaugurated for a fourth term (20 January 1945)",
+   "side": "United States",
+   "where": "Livadia Palace, the former Romanov summer palace, where all eight plenary sessions met",
+   "lat": 44.4677,
+   "lon": 34.1436,
+   "waypoints": [
+    {
+     "lat": 35.8989,
+     "lon": 14.5146,
+     "label": "Malta, aboard USS Quincy, 2 Feb"
+    },
+    {
+     "lat": 45.093,
+     "lon": 33.595,
+     "label": "Saki airfield, 3 Feb"
+    },
+    {
+     "lat": 44.4677,
+     "lon": 34.1436,
+     "label": "Livadia Palace, 3–11 Feb"
+    },
+    {
+     "lat": 44.6167,
+     "lon": 33.5254,
+     "label": "Sevastopol, USS Catoctin, 11 Feb"
+    },
+    {
+     "lat": 38.8899,
+     "lon": -77.0091,
+     "label": "Capitol, Washington, 1 Mar"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "host of the sessions; speaks through the minutes",
+   "form": "minutes of his words (Bohlen, US government record), dated letters and a public address",
+   "language": "English",
+   "authenticity": "Roosevelt kept no diary at Yalta. His words survive in Charles Bohlen's minutes and the notes of Matthews and Hiss, printed by the State Department in 1955 (FRUS, Conferences at Malta and Yalta), in his letter to Stalin of 6 February, and in his address to Congress of 1 March 1945. The minutes are summaries in the third person, not verbatim transcripts.",
+   "bio": "Roosevelt arrived at Malta on the cruiser Quincy and flew on to the Crimea, insisting on a meeting he hoped would lock the Soviet Union into a world organisation and into the war against Japan. In the room he played broker between Churchill and Stalin, conceding on some points and pressing on Polish elections. Seven weeks after his report to Congress he died at Warm Springs (12 April 1945).",
+   "sources": [
+    {
+     "title": "FRUS, Conferences at Malta and Yalta, 1945 (1955), Yalta chapter",
+     "url": "https://history.state.gov/historicaldocuments/frus1945Malta/ch8subch6"
+    },
+    {
+     "title": "Address to Congress on the Yalta Conference, 1 March 1945 (American Presidency Project)",
+     "url": "https://www.presidency.ucsb.edu/documents/address-congress-the-yalta-conference"
+    }
+   ]
+  },
+  {
+   "id": "churchill",
+   "short": "Churchill",
+   "name": "Winston Leonard Spencer Churchill",
+   "life": "1874–1965",
+   "role": "Prime Minister of the United Kingdom, aged 70",
+   "side": "United Kingdom",
+   "where": "Vorontsov Palace, Alupka, about 12 miles west of Livadia",
+   "lat": 44.4199,
+   "lon": 34.0558,
+   "waypoints": [
+    {
+     "lat": 35.8989,
+     "lon": 14.5146,
+     "label": "Malta, HMS Orion, 30 Jan–2 Feb"
+    },
+    {
+     "lat": 45.093,
+     "lon": 33.595,
+     "label": "Saki, 3 Feb"
+    },
+    {
+     "lat": 44.4199,
+     "lon": 34.0558,
+     "label": "Vorontsov Palace, 3–11 Feb"
+    },
+    {
+     "lat": 44.6167,
+     "lon": 33.5254,
+     "label": "Sevastopol, Franconia, 11 Feb"
+    },
+    {
+     "lat": 51.4995,
+     "lon": -0.1248,
+     "label": "House of Commons, 27 Feb"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "principal; speaks through the minutes and his own telegrams",
+   "form": "minutes of his words (US record), telegrams, Commons statement; letters and memoir later",
+   "language": "English",
+   "authenticity": "Churchill's interventions are known chiefly from the American minutes, from British records (Birse's notes and Cabinet papers), and from his telegrams to the War Cabinet. His statement to the Commons of 27 February 1945 is in Hansard. His account in The Second World War, vol. VI (1953), was written later with hindsight; his family letters appear in later editions (Soames, Speaking for Themselves, 1998).",
+   "bio": "Churchill came to the Crimea having already traded spheres of interest with Stalin in Moscow in October 1944, and still recognising the Polish government in London. At Yalta he fought hardest over France's place in Germany, over reparations figures, and over the make-up of a Polish government, and refused outright to let trusteeship touch the British Empire. At home he defended the result in the Commons and won the vote.",
+   "sources": [
+    {
+     "title": "Hansard, HC Deb 27 February 1945, Crimea Conference",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1945/feb/27/crimea-conference"
+    },
+    {
+     "title": "FRUS 1945 Malta and Yalta: fourth plenary, Bohlen minutes",
+     "url": "https://history.state.gov/historicaldocuments/frus1945Malta/d373"
+    }
+   ]
+  },
+  {
+   "id": "stalin",
+   "short": "Stalin",
+   "name": "Iosif Vissarionovich Stalin",
+   "life": "1878–1953",
+   "role": "Chairman of the Council of People's Commissars and Supreme Commander of the Soviet armed forces, aged 66",
+   "side": "Soviet Union",
+   "where": "Yusupov (Koreiz) Palace, between Livadia and Alupka",
+   "lat": 44.4325,
+   "lon": 34.0905,
+   "vantage": 0,
+   "vantage_label": "host power; speaks only through others' minutes",
+   "form": "minutes of his words (American and British records; Soviet record published later)",
+   "language": "Russian (through interpreters Pavlov and Bohlen/Birse)",
+   "authenticity": "Stalin left no private record of the conference. His words reach us through Bohlen's minutes (English summaries of Pavlov's interpreting), British notes, and the Soviet record taken by his interpreter V. N. Pavlov and others, published in the USSR decades later in a selective edition (the Crimea conference volume of the series on Soviet participation in wartime conferences). Memoirs by Soviet participants such as Andrei Gromyko (1989) are later recollection. Where the records differ, each reflects its own delegation's emphasis.",
+   "bio": "The Red Army stood on the Oder, about 40 miles from Berlin, when Stalin received the Western leaders on Soviet soil. He pressed for reparations, for a Polish government built around the Lublin (Warsaw) provisional government, for Soviet frontiers on the Curzon Line, and, in private with Roosevelt, for territorial terms in the Far East as the price of war against Japan.",
+   "sources": [
+    {
+     "title": "FRUS 1945 Malta and Yalta: Roosevelt–Stalin meeting, 4 Feb (Bohlen minutes)",
+     "url": "https://history.state.gov/historicaldocuments/frus1945Malta/d328"
+    },
+    {
+     "title": "FRUS 1945 Malta and Yalta: third plenary, Bohlen minutes",
+     "url": "https://history.state.gov/historicaldocuments/frus1945Malta/d352"
+    }
+   ]
+  },
+  {
+   "id": "bohlen",
+   "short": "Bohlen",
+   "name": "Charles Eustis Bohlen",
+   "life": "1904–1974",
+   "role": "State Department Russian specialist, aged 40; Roosevelt's interpreter and the principal American minute-taker",
+   "side": "United States",
+   "where": "Livadia Palace, at Roosevelt's elbow",
+   "lat": 44.4677,
+   "lon": 34.1436,
+   "vantage": 1,
+   "vantage_label": "interpreter and minute-taker in the room",
+   "form": "minutes (US government record); memoir written later",
+   "language": "English",
+   "authenticity": "The Bohlen minutes were treated by the State Department and White House as the nearest thing to an official American record and were printed in FRUS (1955), which also prints the pencilled notes of H. Freeman Matthews and Alger Hiss. Bohlen interpreted and wrote at once, so his minutes are condensed summaries. His memoir, Witness to History (1973), was written nearly thirty years later and defends the agreements. The online edition's document headers in places carry an erroneous place-line; the sessions met at Livadia.",
+   "bio": "Bohlen had interpreted for Roosevelt at Tehran and sat beside him in every plenary and private meeting at Yalta, including the 8 February talk in which the Far East terms were settled. His minutes are the backbone of every later history of the conference, and of every later argument about it.",
+   "sources": [
+    {
+     "title": "FRUS 1945 Malta and Yalta: Bohlen Collection documents",
+     "url": "https://history.state.gov/historicaldocuments/frus1945Malta/d450"
+    },
+    {
+     "title": "FRUS 1945 Malta and Yalta: Introduction (sources of the record)",
+     "url": "https://history.state.gov/historicaldocuments/frus1945Malta/introduction"
+    }
+   ]
+  },
+  {
+   "id": "stettinius",
+   "short": "Stettinius",
+   "name": "Edward Reilly Stettinius Jr.",
+   "life": "1900–1949",
+   "role": "US Secretary of State since December 1944, aged 44",
+   "side": "United States",
+   "where": "Livadia Palace; Foreign Ministers' meetings at the three palaces",
+   "lat": 44.4677,
+   "lon": 34.1436,
+   "waypoints": [
+    {
+     "lat": 35.8989,
+     "lon": 14.5146,
+     "label": "Malta talks with Eden, 1–2 Feb"
+    },
+    {
+     "lat": 44.4677,
+     "lon": 34.1436,
+     "label": "Livadia, 3–11 Feb"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "Secretary of State at the table",
+   "form": "notes and diary-record; book written later (1949)",
+   "language": "English",
+   "authenticity": "Stettinius kept an official diary-record and conference notes; FRUS (1955) states that his conference records were not available to its editors. His Roosevelt and the Russians: The Yalta Conference (1949) was built on those notes, written after the agreements had become controversial, and argues that the Western delegations obtained more than critics allowed.",
+   "bio": "A former industrialist new to diplomacy, Stettinius presented the American voting formula for the Security Council at the third plenary. He saw his job as securing Soviet participation in the United Nations conference, and left Yalta believing it had been secured.",
+   "sources": [
+    {
+     "title": "FRUS 1945 Malta and Yalta: Introduction",
+     "url": "https://history.state.gov/historicaldocuments/frus1945Malta/introduction"
+    },
+    {
+     "title": "FRUS: third plenary, Bohlen minutes (Stettinius presents the voting formula)",
+     "url": "https://history.state.gov/historicaldocuments/frus1945Malta/d352"
+    }
+   ]
+  },
+  {
+   "id": "byrnes",
+   "short": "Byrnes",
+   "name": "James Francis Byrnes",
+   "life": "1882–1972",
+   "role": "Director of War Mobilization, aged 62, former Supreme Court justice; brought by Roosevelt as a political adviser",
+   "side": "United States",
+   "where": "Livadia Palace, in the plenaries",
+   "lat": 44.4677,
+   "lon": 34.1436,
+   "vantage": 1,
+   "vantage_label": "political adviser taking his own notes",
+   "form": "personal notes; book written later (1947)",
+   "language": "English",
+   "authenticity": "Byrnes made his own notes of the plenaries; FRUS (1955) records that his personal notes were not available for printing. His Speaking Frankly (1947) draws on them but was written after he became Secretary of State (July 1945) and after relations with Moscow had soured; it should be read as a participant's later account.",
+   "bio": "Roosevelt brought Byrnes partly to help sell the results to Congress. He sat in the plenaries but was not present at the private Roosevelt–Stalin talk on the Far East, and later wrote that he learned of that agreement only afterwards. As Secretary of State he would inherit Yalta's unfinished business.",
+   "sources": [
+    {
+     "title": "Excerpt, James F. Byrnes, Speaking Frankly (CVCE)",
+     "url": "https://www.cvce.eu/content/publication/1999/1/1/b382d69f-63b0-40a6-a12e-d127198030ab/publishable_en.pdf"
+    },
+    {
+     "title": "FRUS: tripartite dinner, 8 Feb (Bohlen minutes)",
+     "url": "https://history.state.gov/historicaldocuments/frus1945Malta/d403"
+    }
+   ]
+  },
+  {
+   "id": "cadogan",
+   "short": "Cadogan",
+   "name": "Sir Alexander George Montagu Cadogan",
+   "life": "1884–1968",
+   "role": "Permanent Under-Secretary of the Foreign Office, aged 60",
+   "side": "United Kingdom",
+   "where": "Vorontsov Palace; plenaries at Livadia",
+   "lat": 44.4199,
+   "lon": 34.0558,
+   "waypoints": [
+    {
+     "lat": 35.8989,
+     "lon": 14.5146,
+     "label": "Malta, 1–2 Feb"
+    },
+    {
+     "lat": 44.4199,
+     "lon": 34.0558,
+     "label": "Vorontsov Palace, 3–11 Feb"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "senior diplomat in the room",
+   "form": "diary and letters to his wife",
+   "language": "English",
+   "authenticity": "Cadogan's 1945 diary survives at the Churchill Archives Centre, Cambridge, and covers Malta and Yalta. While abroad he wrote fuller daily letters to his wife Theodosia. A selection of diary and letters was edited by David Dilks as The Diaries of Sir Alexander Cadogan, 1938–1945 (1971). The diary is terse and acid by habit.",
+   "bio": "The Foreign Office's senior official drafted and redrafted the Polish and communiqué texts with his American and Soviet counterparts. His private verdicts on the three leaders, written for his wife's eyes only, are among the most quoted lines from the conference.",
+   "sources": [
+    {
+     "title": "Cadogan diary 1945, Churchill Archives Centre catalogue",
+     "url": "https://archivesearch.lib.cam.ac.uk/repositories/9/archival_objects/407514"
+    }
+   ]
+  },
+  {
+   "id": "maisky",
+   "short": "Maisky",
+   "name": "Ivan Mikhailovich Maisky",
+   "life": "1884–1975",
+   "role": "Deputy People's Commissar for Foreign Affairs, aged 60; Soviet ambassador in London 1932–43",
+   "side": "Soviet Union",
+   "where": "Yusupov (Koreiz) Palace and the plenaries at Livadia",
+   "lat": 44.4325,
+   "lon": 34.0905,
+   "vantage": 1,
+   "vantage_label": "Soviet reparations spokesman in the room",
+   "form": "minutes of his words (US record); diary published later",
+   "language": "Russian; fluent English",
+   "authenticity": "Maisky's diary is published (ed. Gabriel Gorodetsky, The Maisky Diaries, 2015; complete edition 2017), but the conference is known for him chiefly through the minutes of others; his own Yalta-period entries were not checked for this chapter, so his entries here rest on the American minutes and on reports in later histories.",
+   "bio": "The long-serving ambassador who had known Churchill and Eden for a decade became Moscow's reparations planner. On 5 February he laid out the Soviet scheme for stripping and taxing Germany, and he would chair the reparations commission's Soviet side in Moscow.",
+   "sources": [
+    {
+     "title": "FRUS: second plenary, Bohlen minutes (Maisky's reparations plan)",
+     "url": "https://history.state.gov/historicaldocuments/frus1945Malta/d336"
+    }
+   ]
+  },
+  {
+   "id": "moran",
+   "short": "Moran",
+   "name": "Charles McMoran Wilson, 1st Baron Moran",
+   "life": "1882–1977",
+   "role": "Churchill's personal physician, aged 62; President of the Royal College of Physicians",
+   "side": "United Kingdom",
+   "where": "Vorontsov Palace, with the Prime Minister's party",
+   "lat": 44.4199,
+   "lon": 34.0558,
+   "waypoints": [
+    {
+     "lat": 35.8989,
+     "lon": 14.5146,
+     "label": "Malta, 30 Jan–2 Feb"
+    },
+    {
+     "lat": 45.093,
+     "lon": 33.595,
+     "label": "Saki, 3 Feb"
+    },
+    {
+     "lat": 44.4199,
+     "lon": 34.0558,
+     "label": "Vorontsov Palace, 3–11 Feb"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "the doctor watching the leaders, outside the conference room",
+   "form": "diary notes, heavily reworked for a book published in 1966",
+   "language": "English",
+   "authenticity": "Moran's 'diary' is a problem text. His book Churchill: Taken from the Diaries of Lord Moran (1966) mixes contemporary notes with later reflection; his biographer Richard Lovell found he did not keep a full daily diary, and the International Churchill Society documents wrong dates and later editing. The Wellcome Collection holds his 'Yalta Diary, Jan–Feb 1945' typescript in an envelope dated October 1961 marked 'Copies typed Feb 15 1962' (PP/CMW/K.9/4/7, opened 2026). Entries here are digests of the published text; dates are kept as approx.",
+   "bio": "Moran attended no plenary sessions, but he watched all three leaders at meals and in corridors, and his book's medical judgements on Roosevelt made it notorious. His entries show a doctor turning observer of statecraft, with views shaped in part after the fact.",
+   "sources": [
+    {
+     "title": "Wellcome Collection: Moran, 'Yalta Diary, Jan–Feb 1945' typescript",
+     "url": "https://wellcomecollection.org/works/z4byv6mf"
+    },
+    {
+     "title": "International Churchill Society: 'Lord Moran's book is based on his diaries' (myth examined)",
+     "url": "https://winstonchurchill.org/resources/myths/lord-morans-book-is-based-on-his-diaries/"
+    }
+   ]
+  },
+  {
+   "id": "sarah",
+   "short": "Sarah Churchill",
+   "name": "Sarah Millicent Hermione Churchill (Mrs Oliver)",
+   "life": "1914–1982",
+   "role": "Section Officer, WAAF photographic interpreter, aged 30; aide-de-camp to her father",
+   "side": "United Kingdom",
+   "where": "Vorontsov Palace, Alupka",
+   "lat": 44.4199,
+   "lon": 34.0558,
+   "waypoints": [
+    {
+     "lat": 35.8989,
+     "lon": 14.5146,
+     "label": "Malta, 30 Jan–2 Feb"
+    },
+    {
+     "lat": 45.093,
+     "lon": 33.595,
+     "label": "Saki, 3 Feb"
+    },
+    {
+     "lat": 44.4199,
+     "lon": 34.0558,
+     "label": "Vorontsov Palace"
+    },
+    {
+     "lat": 44.6167,
+     "lon": 33.5254,
+     "label": "Sevastopol, 6 and 11 Feb"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "daughter and aide, beside but outside the room",
+   "form": "dated letters to her mother",
+   "language": "English",
+   "authenticity": "Sarah's letters to Clementine Churchill survive in the Churchill family papers at the Churchill Archives Centre and are quoted in Diana Preston, Eight Days at Yalta (2019), and Catherine Grace Katz, The Daughters of Yalta (2020); some appeared in her own memoir Keep on Dancing (1981). Entries are digests of the passages those works print.",
+   "bio": "Sarah had accompanied her father to Tehran and did so again, managing his routine and reporting home on his moods and health. Her letters give the conference as a household sees it: the palaces, the food, the ruins of Sevastopol, the tired man coming back from the sessions.",
+   "sources": [
+    {
+     "title": "Churchill Archives Centre: photographs of Churchill and Sarah at Livadia, Feb 1945",
+     "url": "https://archivesearch.lib.cam.ac.uk/repositories/9/archival_objects/1695268"
+    },
+    {
+     "title": "Lit Hub excerpt from Diana Preston, Eight Days at Yalta (day three)",
+     "url": "https://lithub.com/day-three-at-yalta-the-conference-that-shaped-the-world-the-whole-palace-was-bugged"
+    }
+   ]
+  },
+  {
+   "id": "anna",
+   "short": "Anna Roosevelt",
+   "name": "Anna Eleanor Roosevelt Boettiger (later Halsted)",
+   "life": "1906–1975",
+   "role": "The President's daughter and companion on the journey, aged 38",
+   "side": "United States",
+   "where": "Livadia Palace",
+   "lat": 44.4677,
+   "lon": 34.1436,
+   "waypoints": [
+    {
+     "lat": 35.8989,
+     "lon": 14.5146,
+     "label": "Malta, USS Quincy, 2 Feb"
+    },
+    {
+     "lat": 45.093,
+     "lon": 33.595,
+     "label": "Saki, 3 Feb"
+    },
+    {
+     "lat": 44.4677,
+     "lon": 34.1436,
+     "label": "Livadia, 3–11 Feb"
+    },
+    {
+     "lat": 44.6167,
+     "lon": 33.5254,
+     "label": "Sevastopol, 11 Feb"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "daughter guarding a sick father",
+   "form": "diary and letters to her husband",
+   "language": "English",
+   "authenticity": "Anna kept a Yalta diary and wrote to her husband John Boettiger; both are in the Anna Roosevelt Halsted Papers at the Franklin D. Roosevelt Presidential Library. Passages are printed in Preston (2019) and Katz (2020). Entries here are digests of those printed passages.",
+   "bio": "Anna went in place of her mother and took on the job of rationing her father's energy, turning away visitors and steering who saw him and when. She knew more than almost anyone in the delegation about the state of his heart, and kept it to herself.",
+   "sources": [
+    {
+     "title": "FDR Library photograph: Roosevelt and Anna Boettiger at Malta, 2 Feb 1945 (Google Arts & Culture)",
+     "url": "https://artsandculture.google.com/asset/franklin-d-roosevelt-and-anna-boettiger-at-malta-franklin-d-roosevelt-presidential-library-and-museum-of-the-national-archives-and-records-administration/DQGMeaFn0s5zPA"
+    },
+    {
+     "title": "Lit Hub excerpt from Preston, Eight Days at Yalta (day two)",
+     "url": "https://lithub.com/day-two-at-yalta-the-conference-that-shaped-the-world-when-churchill-quoted-marx-to-stalin"
+    }
+   ]
+  },
+  {
+   "id": "kathleen",
+   "short": "Kathy Harriman",
+   "name": "Kathleen Lanier Harriman (later Mortimer)",
+   "life": "1917–2011",
+   "role": "Daughter and hostess of the US ambassador to Moscow, W. Averell Harriman, aged 27; former war correspondent",
+   "side": "United States",
+   "where": "Livadia Palace, which she helped prepare",
+   "lat": 44.4677,
+   "lon": 34.1436,
+   "waypoints": [
+    {
+     "lat": 55.7558,
+     "lon": 37.6173,
+     "label": "Spaso House, Moscow"
+    },
+    {
+     "lat": 44.4677,
+     "lon": 34.1436,
+     "label": "Livadia, late Jan–11 Feb"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "Russian-speaking daughter who readied the palace",
+   "form": "dated letters to her sister Mary",
+   "language": "English",
+   "authenticity": "Kathy Harriman's letters to her sister Mary were never published by her; in 2023 her son gave the originals to the Library of Congress Manuscript Division. They are quoted in Katz (2020) and described by Giles Milton for the Imperial War Museum. Entries here are digests of those accounts; exact letter dates are approx.",
+   "bio": "Kathy had lived in Moscow since 1943 and spoke good Russian. She went south ahead of the delegations to help turn a looted palace into lodgings for the President, and at Stalin's dinner she rose to speak for the women present. Her letters are breezy, observant and alert to the staging around her.",
+   "sources": [
+    {
+     "title": "IWM: 'A Box in the Attic: The Wartime Letters of Kathy Harriman' (Giles Milton)",
+     "url": "https://shop.iwm.org.uk/blogs/news/a-box-in-the-attic-the-wartime-letters-of-kathy-harriman"
+    },
+    {
+     "title": "FRUS: tripartite dinner, 8 Feb (Bohlen minutes)",
+     "url": "https://history.state.gov/historicaldocuments/frus1945Malta/d403"
+    }
+   ]
+  },
+  {
+   "id": "lunghi",
+   "short": "Lunghi",
+   "name": "Hugh Lunghi",
+   "life": "1920–2014",
+   "role": "British Army officer and Russian interpreter with the British Military Mission in Moscow, aged 24",
+   "side": "United Kingdom",
+   "where": "Advance party at Saki; Vorontsov Palace; interpreted for the Chiefs of Staff",
+   "lat": 44.4199,
+   "lon": 34.0558,
+   "waypoints": [
+    {
+     "lat": 45.093,
+     "lon": 33.595,
+     "label": "Saki airfield, advance party"
+    },
+    {
+     "lat": 44.4199,
+     "lon": 34.0558,
+     "label": "Vorontsov Palace"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "junior interpreter, military meetings",
+   "form": "recollections (interview 1996; article 2007)",
+   "language": "English",
+   "authenticity": "Lunghi kept no published diary of Yalta. His account comes from a 1996 interview for the CNN Cold War series (National Security Archive transcript) and an article in Finest Hour 135 (2007) from a 2006 talk. Both are late recollection and carry his later judgements; dates attached here are those of the events he describes, held as approx.",
+   "bio": "The youngest of the British interpreters, Lunghi worked alongside Major A. H. Birse, Churchill's interpreter, and served the military staffs. He later became one of the most outspoken British witnesses on what Yalta did and did not decide, arguing that the decisive concessions came before it.",
+   "sources": [
+    {
+     "title": "National Security Archive, Cold War interview: Hugh Lunghi (1996)",
+     "url": "https://nsarchive2.gwu.edu/coldwar/interviews/episode-1/lunghi3.html"
+    },
+    {
+     "title": "Hugh Lunghi, 'Glimpses of a Troubled Triumvirate', Finest Hour 135 (2007)",
+     "url": "https://winstonchurchill.org/publications/finest-hour/finest-hour-135/glimpses-troubled-triumvirate-the-big-three-at-the-summit/"
+    }
+   ]
+  },
+  {
+   "id": "arciszewski",
+   "short": "Arciszewski",
+   "name": "Tomasz Arciszewski",
+   "life": "1877–1955",
+   "role": "Prime Minister of the Polish government-in-exile, aged 67; veteran Polish Socialist Party leader",
+   "side": "Polish government-in-exile (London)",
+   "where": "London, outside the room",
+   "lat": 51.4985,
+   "lon": -0.1557,
+   "vantage": 4,
+   "vantage_label": "the government not invited",
+   "form": "official statement",
+   "language": "Polish (issued also in English)",
+   "authenticity": "The London government's statement of 13 February 1945 is documented by the Polish Institute of National Remembrance (IPN) and was reported in the world press on 14 February. It is a public government declaration, not a private record.",
+   "bio": "Arciszewski headed the government the Western Allies still recognised, but no Polish representative of any government was present at Yalta. His cabinet answered the communiqué within two days, and its statement is the voice from outside the room on the question that took more plenary time than any other.",
+   "sources": [
+    {
+     "title": "IPN: 77 Years From the Yalta Conference",
+     "url": "https://eng.ipn.gov.pl/en/news/9244,77-Years-From-the-Yalta-Conference.html"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1945-01",
+   "date_display": "Late January 1945",
+   "precision": "range",
+   "eye": "kathleen",
+   "place": "Livadia Palace, Crimea",
+   "headline": "Turning a stripped palace into the President's lodgings",
+   "digest": "Kathy came south from Moscow ahead of the delegations to help ready Livadia, which the German occupiers had stripped. Furniture, bedding and kitchenware were brought in from Moscow hotels, rooms were fumigated against bugs, and bathrooms were in desperately short supply for the numbers expected. Her letters to Mary treat the scramble with amused exasperation.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kathy Harriman letters to Mary Harriman (Library of Congress, gift 2023), as described in Katz, The Daughters of Yalta (2020); palace furnishings from Moscow hotels also recalled by Lunghi (NSA interview, 1996). Exact letter date not established."
+  },
+  {
+   "date_iso": "1945-01-30",
+   "date_display": "Tuesday 30 January 1945",
+   "precision": "day",
+   "eye": "moran",
+   "place": "Malta, HMS Orion in Grand Harbour",
+   "headline": "The Prime Minister lands at Malta running a temperature",
+   "digest": "Churchill flew into Malta overnight and was put to bed aboard the cruiser Orion with a fever. Moran's published entry records the patient restless and the doctor uneasy about the long journey still ahead. Combined Chiefs of Staff meetings began ashore the same day.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Moran, Churchill: Taken from the Diaries (1966), Malta entries; the Malta military conference opened 30 Jan with a JCS meeting at Montgomery House. Moran's text was reworked later; date held approx."
+  },
+  {
+   "date_iso": "1945-02-01",
+   "date_display": "Thursday 1 February 1945",
+   "precision": "day",
+   "eye": "cadogan",
+   "place": "Malta",
+   "headline": "Foreign ministers rehearse Poland and Germany at Malta",
+   "digest": "Cadogan sat in on the preparatory talks between Eden and Stettinius at Malta, where the British tried to settle a common line on Poland, Germany and the world organisation before facing Stalin. His diary records long talk and limited result, with the Americans reluctant to appear to be ganging up on the Russians.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Cadogan diary 1945 (Churchill Archives Centre) and Dilks ed., Diaries of Sir Alexander Cadogan (1971), Malta entries; Eden–Stettinius talks at Malta, FRUS 1945 Malta and Yalta, Malta chapter."
+  },
+  {
+   "date_iso": "1945-02-02",
+   "date_display": "Friday 2 February 1945",
+   "precision": "day",
+   "eye": "roosevelt",
+   "place": "USS Quincy, Grand Harbour, Valletta",
+   "headline": "The Quincy steams into Grand Harbour",
+   "digest": "Roosevelt's cruiser entered Valletta harbour after crossing the Atlantic, and Churchill came aboard. The two leaders and their daughters were photographed together on deck; the President received the Combined Chiefs' report that evening. The Malta talks were brief, and there was little real coordination before Yalta.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FDR Library photograph NPx 48-22:3659(15), 'Roosevelt, Anna Boettiger, Sarah Churchill and Winston Churchill at Malta', 2 Feb 1945; FRUS 1945 Malta and Yalta, Malta chapter."
+  },
+  {
+   "date_iso": "1945-02-02",
+   "date_display": "Friday 2 February 1945",
+   "precision": "day",
+   "eye": "anna",
+   "place": "USS Quincy, Malta",
+   "headline": "Anna on deck at Malta between two old men",
+   "digest": "Anna stood beside her father on the Quincy as Churchill and Sarah came aboard. Her diary for the voyage is preoccupied with her father's tiredness and with keeping visitors from wearing him out, a role she would play throughout the conference.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "FDR Library photograph of Roosevelt and Anna Boettiger at Malta, 2 Feb 1945; Anna Roosevelt Halsted Papers (FDR Library), Yalta diary, as printed in Katz (2020). Day of the diary passage approx."
+  },
+  {
+   "date_iso": "1945-02-03",
+   "date_display": "Saturday 3 February 1945",
+   "precision": "day",
+   "eye": "roosevelt",
+   "place": "Saki airfield to Livadia",
+   "headline": "Flight to Saki and a long drive over the mountains",
+   "digest": "The delegations flew overnight from Malta to Saki in western Crimea, landing in relays through the morning. Roosevelt reviewed a guard of honour from a jeep with Churchill walking alongside, then faced a drive of more than five hours to Livadia past wrecked villages and lines of Soviet sentries.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "President's Log at Yalta, excerpted in FRUS 1945 Malta and Yalta (Yalta chapter); Lunghi, NSA interview (1996), on the five-hour drive and troops along the route."
+  },
+  {
+   "date_iso": "1945-02-03",
+   "date_display": "Saturday 3 February 1945",
+   "precision": "day",
+   "eye": "moran",
+   "place": "Saki airfield",
+   "headline": "The doctor studies the President on the tarmac",
+   "digest": "Watching Roosevelt at Saki, Moran was struck by how aged and drawn he looked and how little he seemed to take in. The published entry is among those later sharpened: Moran was not Roosevelt's doctor and never examined him.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Moran (1966), entries for the arrival in the Crimea; on the editing of these entries see Lovell, Churchill's Doctor (1993) and the International Churchill Society note."
+  },
+  {
+   "date_iso": "1945-02-03",
+   "date_display": "Early February 1945",
+   "precision": "range",
+   "eye": "lunghi",
+   "place": "Saki to Alupka road",
+   "headline": "Ninety miles of sentries on the road from Saki",
+   "digest": "Lunghi, with the advance party at Saki, remembered the runways long enough for the big transports, and a drive of about ninety miles that took over five hours. Soviet soldiers were posted all along the road, and he was told local Crimean Tatars were considered hostile; the Tatars had in fact been deported in May 1944.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Lunghi, NSA Cold War interview, 7 Jan 1996 (episode 1). Late recollection; the deportation of the Crimean Tatars (May 1944) is a matter of record, not Lunghi's statement."
+  },
+  {
+   "date_iso": "1945-02-03",
+   "date_display": "Saturday 3 February 1945",
+   "precision": "day",
+   "eye": "sarah",
+   "place": "Vorontsov Palace, Alupka",
+   "headline": "A palace like Scottish baronial crossed with a mosque",
+   "digest": "Arriving at the Vorontsov Palace, Sarah found a building built by a nineteenth-century governor who had admired Britain: its rooms Scottish-baronial and Swiss-chalet by turns, its south front Moorish.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sarah Churchill letter to Clementine Churchill, as quoted in Preston, Eight Days at Yalta (2019), day one excerpt (Lit Hub). Exact letter date not given."
+  },
+  {
+   "date_iso": "1945-02-04",
+   "date_display": "Sunday 4 February 1945, 4 p.m.",
+   "precision": "day",
+   "eye": "bohlen",
+   "place": "Livadia Palace, Roosevelt's study",
+   "headline": "First private hour: Roosevelt and Stalin, Bohlen and Pavlov",
+   "digest": "Before the first plenary Roosevelt saw Stalin alone with the two interpreters. He said the destruction he had seen in Crimea made him more bloodthirsty towards the Germans; Stalin answered that the Ukraine was far worse. They traded jibes about de Gaulle, and Roosevelt called a French zone in Germany a matter of kindness and said the British wanted to have it both ways over France.",
+   "quote": "to have their cake and eat it too",
+   "confidence": "verified",
+   "source_note": "FRUS 1945 Malta and Yalta, doc. 328, Bohlen minutes, Roosevelt–Stalin meeting, 4 Feb 1945, 4 p.m."
+  },
+  {
+   "date_iso": "1945-02-04",
+   "date_display": "Sunday 4 February 1945",
+   "precision": "day",
+   "eye": "stalin",
+   "place": "Livadia Palace",
+   "headline": "Stalin on German destruction 'with method and calculation'",
+   "digest": "In Bohlen's minutes Stalin describes German destruction in the Ukraine as deliberate and systematic, calls the Germans savages, and reports heavy fighting at the Oder bridgeheads. He gives de Gaulle little credit, since France had done little fighting.",
+   "quote": "with method and calculation",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 328, Bohlen minutes, 4 Feb 1945."
+  },
+  {
+   "date_iso": "1945-02-04",
+   "date_display": "Sunday 4 February 1945, 5 p.m.",
+   "precision": "day",
+   "eye": "lunghi",
+   "place": "Livadia Palace, first plenary",
+   "headline": "The military briefing that named the rail junctions",
+   "digest": "At the opening plenary General Antonov briefed on the Eastern Front and the Soviet side asked for Allied bombing of German road and rail communications behind the front. Lunghi, recalling it sixty years later, said the request named Dresden as a junction and was aimed at the transport network; an editor's note to his article records that the request had also been made before the conference. Dresden was bombed on the night of 13–14 February.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Lunghi, Finest Hour 135 (2007), with editor's note citing Martin Gilbert; first plenary, FRUS ch. 8 (doc. 329). Later recollection; the plenary date is verified."
+  },
+  {
+   "date_iso": "1945-02-04",
+   "date_display": "Sunday 4 February 1945, 8:30 p.m.",
+   "precision": "day",
+   "eye": "churchill",
+   "place": "Livadia Palace, Roosevelt's dinner",
+   "headline": "At the first dinner, the great powers and the small ones",
+   "digest": "At Roosevelt's dinner the talk turned to the rights of small nations. Stalin argued that the powers that had borne the war should decide the peace; Churchill answered with an image of an eagle that should let small birds sing. Eden wrote that night that Stalin's attitude to small countries seemed grim.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "FRUS doc. 331, Bohlen minutes of the tripartite dinner, 4 Feb 1945; Eden diary for 4 Feb quoted in Preston (2019), day one excerpt. Wording of Churchill's image not checked against the minutes for this chapter."
+  },
+  {
+   "date_iso": "1945-02-05",
+   "date_display": "Monday 5 February 1945",
+   "precision": "day",
+   "eye": "anna",
+   "place": "Livadia Palace",
+   "headline": "A letter home: the doctor tells Anna the truth",
+   "digest": "Anna wrote to her husband that Dr Howard Bruenn had told her that morning that her father's heart condition was much more serious than she had known. She asked John to destroy that paragraph. Publicly the President's health was not discussed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Anna Boettiger to John Boettiger, 5 Feb 1945, Anna Roosevelt Halsted Papers, FDR Library, as printed in Preston (2019), day two excerpt (Lit Hub)."
+  },
+  {
+   "date_iso": "1945-02-05",
+   "date_display": "Monday 5 February 1945, 4 p.m.",
+   "precision": "day",
+   "eye": "maisky",
+   "place": "Livadia Palace, second plenary",
+   "headline": "Maisky lays out the bill for Germany",
+   "digest": "Maisky set out the Soviet reparations plan: removal of German plants and equipment within two years, deliveries in kind for ten years, and an 80 per cent cut in heavy industry. The Soviet share alone he put at ten billion dollars. Churchill doubted Germany could pay and remembered the failure of reparations after 1919.",
+   "quote": "would reach a total of ten billion dollars",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 336, Bohlen minutes, second plenary, 5 Feb 1945."
+  },
+  {
+   "date_iso": "1945-02-05",
+   "date_display": "Monday 5 February 1945",
+   "precision": "day",
+   "eye": "roosevelt",
+   "place": "Livadia Palace, second plenary",
+   "headline": "Roosevelt: American troops will not stay long",
+   "digest": "On France's role in Germany, Roosevelt told the others that he did not believe the American people would keep troops in Europe for much more than two years after the war. The remark weighed on Churchill, who wanted a strong France precisely because the Americans might go home.",
+   "quote": "American troops would stay in Europe much more than two years",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 336, Bohlen minutes, 5 Feb 1945."
+  },
+  {
+   "date_iso": "1945-02-05",
+   "date_display": "Monday 5 February 1945",
+   "precision": "day",
+   "eye": "churchill",
+   "place": "Livadia Palace, second plenary",
+   "headline": "Churchill fights for France and against a starving Germany",
+   "digest": "Churchill and Eden argued that France must have a zone and a seat on the control machinery; Stalin objected that others would then claim the same. On reparations Churchill warned against a Germany reduced to starvation, while agreeing in principle to dismemberment, subject to study.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 336, Bohlen minutes, 5 Feb 1945."
+  },
+  {
+   "date_iso": "1945-02-05",
+   "date_display": "Monday 5 February 1945, night",
+   "precision": "day",
+   "eye": "sarah",
+   "place": "Vorontsov Palace",
+   "headline": "Her father at night: never so much suffering",
+   "digest": "That night Churchill told Sarah that he did not think there had ever been so much suffering in the world as at that moment. She passed his mood on to her mother as a sign of the weight he felt.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sarah Churchill's account, as given in Preston (2019), day two excerpt (Lit Hub)."
+  },
+  {
+   "date_iso": "1945-02-06",
+   "date_display": "Tuesday 6 February 1945",
+   "precision": "day",
+   "eye": "sarah",
+   "place": "Sevastopol",
+   "headline": "The daughters drive to ruined Sevastopol",
+   "digest": "Sarah, Anna and Kathy drove to Sevastopol, wrecked in the sieges of 1941–42 and 1944. Sarah wrote that she did not see a single house undamaged, and that the sight of Romanian prisoners queuing for food was almost too much to bear.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sarah Churchill letter, as quoted in Preston (2019), day three excerpt (Lit Hub)."
+  },
+  {
+   "date_iso": "1945-02-06",
+   "date_display": "Tuesday 6 February 1945, 4 p.m.",
+   "precision": "day",
+   "eye": "stettinius",
+   "place": "Livadia Palace, third plenary",
+   "headline": "Stettinius reads out the voting formula",
+   "digest": "Stettinius presented the American formula for the Security Council: seven votes for procedural matters, seven including all permanent members for other decisions, and parties to a dispute abstaining in peaceful settlement. Churchill accepted it; Stalin asked what was new and said Molotov would study it overnight.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 352, Bohlen minutes, third plenary, 6 Feb 1945."
+  },
+  {
+   "date_iso": "1945-02-06",
+   "date_display": "Tuesday 6 February 1945",
+   "precision": "day",
+   "eye": "stalin",
+   "place": "Livadia Palace, third plenary",
+   "headline": "Stalin on Poland: honour and security",
+   "digest": "Stalin answered Churchill and Roosevelt on Poland at length. Twice in thirty years, he said, Germany had invaded Russia through Poland; for the Soviet Union Poland was a matter of security as well as honour. He defended the Curzon Line frontier and the Lublin government as the authority behind the Red Army's lines.",
+   "quote": "a question both of honor and security",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 352, Bohlen minutes, 6 Feb 1945."
+  },
+  {
+   "date_iso": "1945-02-06",
+   "date_display": "Tuesday 6 February 1945",
+   "precision": "day",
+   "eye": "churchill",
+   "place": "Livadia Palace, third plenary",
+   "headline": "Churchill: for Britain, Poland is a matter of honour",
+   "digest": "Churchill said Britain had gone to war for Poland and wanted it free and independent, mistress in her own house; the frontier mattered less than sovereignty. He doubted the Lublin government spoke for more than a third of Poles.",
+   "quote": "the question was one of honor",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 352, Bohlen minutes, 6 Feb 1945."
+  },
+  {
+   "date_iso": "1945-02-06",
+   "date_display": "Tuesday 6 February 1945, evening",
+   "precision": "day",
+   "eye": "roosevelt",
+   "place": "Livadia Palace",
+   "headline": "A letter to Stalin to break the Polish deadlock",
+   "digest": "Troubled by the impasse, Roosevelt wrote to Stalin that evening proposing that representatives of the Lublin government and Poles from inside Poland and abroad be brought to Yalta to form a new provisional government. Churchill's amendments were added before it went.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 377, Roosevelt to Stalin, Yalta, 6 Feb 1945; Preston (2019), day three excerpt."
+  },
+  {
+   "date_iso": "1945-02-07",
+   "date_display": "Wednesday 7 February 1945, 4 p.m.",
+   "precision": "day",
+   "eye": "bohlen",
+   "place": "Livadia Palace, fourth plenary",
+   "headline": "Molotov accepts the formula and asks for extra seats",
+   "digest": "Molotov announced that the American voting proposals were entirely acceptable and withdrew Soviet objections. He then asked that three, or at least two, Soviet republics, the Ukraine, Byelorussia and Lithuania, be original members of the organisation. Roosevelt asked whether he meant the Assembly and proposed study.",
+   "quote": "entirely acceptable",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 373, Bohlen minutes, fourth plenary, 7 Feb 1945."
+  },
+  {
+   "date_iso": "1945-02-07",
+   "date_display": "Wednesday 7 February 1945",
+   "precision": "day",
+   "eye": "churchill",
+   "place": "Livadia Palace, fourth plenary",
+   "headline": "Churchill warns against overfeeding the Polish goose",
+   "digest": "On Molotov's proposal to move Poland's western frontier to the Oder and western Neisse, Churchill supported compensation in the west but warned against moving too many Germans. He also proposed 'Poles temporarily abroad' instead of 'émigrés'. That evening he cabled the War Cabinet that the day had gone much better.",
+   "quote": "a pity to stuff the Polish goose so full of German food",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 373, Bohlen minutes, 7 Feb 1945; Churchill telegram to War Cabinet, 7 Feb, as given in Preston (2019), day four excerpt."
+  },
+  {
+   "date_iso": "1945-02-07",
+   "date_display": "Wednesday 7 February 1945",
+   "precision": "day",
+   "eye": "moran",
+   "place": "Vorontsov Palace",
+   "headline": "The doctor's verdict on the President",
+   "digest": "The published entry, dated to the middle of the conference, gives Moran's view that Roosevelt was a very sick man who could not follow the talk, and that he had only months to live. The judgement, written by a doctor who did not treat Roosevelt and later revised for publication, became one of the most cited sources for claims that the President was unfit at Yalta.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Moran (1966), Yalta entries (commonly cited as 7 Feb 1945). The International Churchill Society notes Moran's text confuses which leader was more ill at Yalta; date held approx."
+  },
+  {
+   "date_iso": "1945-02-07",
+   "date_display": "Wednesday 7 February 1945",
+   "precision": "day",
+   "eye": "maisky",
+   "place": "Livadia Palace",
+   "headline": "Relief among the Westerners after Molotov speaks",
+   "digest": "Maisky noted visible relief among the British and Americans once Molotov accepted the voting formula. The Soviet side saw the concession as purchased with the extra Assembly seats it had just requested.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Reported in Preston (2019), day four excerpt (Lit Hub), without naming Maisky's source; the underlying diary entry was not checked."
+  },
+  {
+   "date_iso": "1945-02-08",
+   "date_display": "Thursday 8 February 1945, 3:30 p.m.",
+   "precision": "day",
+   "eye": "roosevelt",
+   "place": "Livadia Palace",
+   "headline": "The Far East talk: Kuriles, Sakhalin, Dairen",
+   "digest": "In a half-hour meeting with Harriman, Molotov and the two interpreters, Roosevelt agreed that southern Sakhalin and the Kurile Islands could go to the Soviet Union, suggested Dairen as an internationalised free port, and discussed joint operation of the Manchurian railways. He had not consulted Chiang Kai-shek. He also floated a trusteeship for Korea and hoped Britain would give up Hong Kong.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 393, Bohlen minutes, Roosevelt–Stalin meeting, 8 Feb 1945, 3:30 p.m."
+  },
+  {
+   "date_iso": "1945-02-08",
+   "date_display": "Thursday 8 February 1945",
+   "precision": "day",
+   "eye": "stalin",
+   "place": "Livadia Palace",
+   "headline": "Stalin wants the price in writing",
+   "digest": "Stalin said that without written political conditions agreed by the three powers he could not explain to the Soviet people why they should go to war with Japan. He agreed the Chinese need not yet be told, and approved of no foreign troops in Korea.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 393, Bohlen minutes, 8 Feb 1945."
+  },
+  {
+   "date_iso": "1945-02-08",
+   "date_display": "Thursday 8 February 1945",
+   "precision": "day",
+   "eye": "sarah",
+   "place": "Vorontsov Palace",
+   "headline": "Chicken soup in a thermos for the long sessions",
+   "digest": "Sarah reported that her father was bearing up well despite the pace. She and his valet Sawyers had taken to sending soup in a thermos to keep him going through the long afternoon plenaries.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sarah Churchill letter home, as quoted in Preston (2019), days five and six excerpt (Lit Hub)."
+  },
+  {
+   "date_iso": "1945-02-08",
+   "date_display": "Thursday 8 February 1945, 9 p.m.",
+   "precision": "day",
+   "eye": "stalin",
+   "place": "Yusupov Palace, Koreiz",
+   "headline": "Stalin's toast: the harder test comes after the war",
+   "digest": "At his own dinner Stalin toasted Churchill as the bravest statesman in the world and praised Lend-Lease. He then said unity in war was easy against a common enemy; the hard task would come after victory, and he believed the alliance would meet it.",
+   "quote": "diverse interests tended to divide the allies",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 403, Bohlen minutes, tripartite dinner, 8 Feb 1945, Yusupov Palace."
+  },
+  {
+   "date_iso": "1945-02-08",
+   "date_display": "Thursday 8 February 1945, 9 p.m.",
+   "precision": "day",
+   "eye": "churchill",
+   "place": "Yusupov Palace",
+   "headline": "Churchill's toast from the hilltop",
+   "digest": "Churchill toasted Stalin as the mighty leader of a mighty country, and said the three stood on a crest with the glories of the future ahead. To lose them through inertia or carelessness would be a failure history would not forgive.",
+   "quote": "the mighty leader of a mighty country",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 403, Bohlen minutes, 8 Feb 1945."
+  },
+  {
+   "date_iso": "1945-02-08",
+   "date_display": "Thursday 8 February 1945, 9 p.m.",
+   "precision": "day",
+   "eye": "kathleen",
+   "place": "Yusupov Palace",
+   "headline": "Kathy rises to speak for the women at table",
+   "digest": "Speaking for the three women at the table, Kathy proposed a toast to those who had worked to make the visitors comfortable in the Crimea. In her letters she described Stalin as an attentive, almost benign host whose toasts were more interesting than the usual pleasantries; years later she admitted she had been terrified.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 403, Bohlen minutes (Miss Harriman's toast); letter descriptions from IWM blog by Giles Milton. Letter date approx."
+  },
+  {
+   "date_iso": "1945-02-08",
+   "date_display": "Thursday 8 February 1945, 9 p.m.",
+   "precision": "day",
+   "eye": "byrnes",
+   "place": "Yusupov Palace",
+   "headline": "A toast to the common man",
+   "digest": "Among the dozens of toasts, Byrnes raised his glass to the common men and women of the world. He had not been in the afternoon meeting where the Far East terms were agreed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 403, Bohlen minutes, 8 Feb 1945; Byrnes's absence from the Roosevelt–Stalin meeting from the participant list of doc. 393."
+  },
+  {
+   "date_iso": "1945-02-08",
+   "date_display": "Thursday 8 February 1945",
+   "precision": "day",
+   "eye": "byrnes",
+   "place": "Livadia Palace, fifth plenary",
+   "headline": "How long until free elections in Poland?",
+   "digest": "In Byrnes's later account, when Roosevelt asked how soon free elections could be held in Poland the Soviet answer was within a month. Writing in 1947, Byrnes added that the vote came about twenty-three months later and was not free by American standards.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Byrnes, Speaking Frankly (1947), excerpt (CVCE); Byrnes attributes the answer to Molotov. Day of the exchange approx."
+  },
+  {
+   "date_iso": "1945-02-08",
+   "date_display": "Thursday 8 February 1945, night",
+   "precision": "day",
+   "eye": "stettinius",
+   "place": "Livadia Palace",
+   "headline": "Waking with San Francisco in mind",
+   "digest": "After the Yusupov dinner Stettinius recalled waking with a clear picture of San Francisco hosting the United Nations conference. The site and date would be fixed before the delegations left.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Stettinius, Roosevelt and the Russians (1949), as given in Preston (2019), days five and six excerpt. Written after the event."
+  },
+  {
+   "date_iso": "1945-02-09",
+   "date_display": "Friday 9 February 1945, 4 p.m.",
+   "precision": "day",
+   "eye": "churchill",
+   "place": "Livadia Palace, sixth plenary",
+   "headline": "'Not one single word': Churchill on trusteeship",
+   "digest": "When the foreign ministers' report on territorial trusteeship was read, Churchill exploded that he did not agree with a word of it and would never let the British Empire be put in the dock. He was calmed only when told it applied to enemy territories and League mandates.",
+   "quote": "did not agree with one single word",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 423, Bohlen minutes, sixth plenary, 9 Feb 1945."
+  },
+  {
+   "date_iso": "1945-02-09",
+   "date_display": "Friday 9 February 1945",
+   "precision": "day",
+   "eye": "roosevelt",
+   "place": "Livadia Palace, sixth plenary",
+   "headline": "Roosevelt: the elections are the crux",
+   "digest": "Roosevelt said the Polish elections were the crux of the whole matter and that he needed assurances he could give to Polish Americans. Molotov proposed amendments limiting the parties to the 'non-Fascist and anti-Fascist'.",
+   "quote": "the crux of the whole matter",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 423, Bohlen minutes, 9 Feb 1945."
+  },
+  {
+   "date_iso": "1945-02-09",
+   "date_display": "Friday 9 February 1945",
+   "precision": "day",
+   "eye": "stalin",
+   "place": "Livadia Palace, sixth plenary",
+   "headline": "Stalin accepts the Declaration on Liberated Europe",
+   "digest": "Stalin accepted the American Declaration on Liberated Europe with a Molotov amendment favouring leaders who had resisted the Germans, and said Mikołajczyk could take part in the Polish government since his party was not Fascist.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 423, Bohlen minutes, 9 Feb 1945; docs. 428–430, drafts and Soviet amendment."
+  },
+  {
+   "date_iso": "1945-02-09",
+   "date_display": "Friday 9 February 1945",
+   "precision": "day",
+   "eye": "moran",
+   "place": "Vorontsov Palace",
+   "headline": "Moran on histrionics and a police state",
+   "digest": "Moran judged Churchill's outburst over the Empire to be histrionics that did no good, and thought Roosevelt lost his balance whenever colonies came up. He doubted the President had ever understood that the Soviet Union was a police state.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Moran (1966), entry for this day, as given in Preston (2019), days five and six excerpt. Text revised for publication."
+  },
+  {
+   "date_iso": "1945-02-09",
+   "date_display": "Friday 9 February 1945",
+   "precision": "day",
+   "eye": "anna",
+   "place": "Livadia Palace",
+   "headline": "Anna's anger at idle aides",
+   "digest": "Anna's diary vents resentment that her father carried the whole strain while others sat about playing gin rummy. She was by now trying to cut short his meetings and to keep late visitors away.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Anna Roosevelt Halsted Papers, FDR Library, Yalta diary, as given in Preston (2019), days five and six excerpt. Day approx."
+  },
+  {
+   "date_iso": "1945-02-10",
+   "date_display": "Saturday 10 February 1945, 4 p.m.",
+   "precision": "day",
+   "eye": "maisky",
+   "place": "Livadia Palace, seventh plenary",
+   "headline": "Reparations: a figure the British refuse to name",
+   "digest": "The Soviet side pressed for a total reparations figure. The agreed protocol sent to the Moscow commission a Soviet–American proposal of twenty billion dollars, half to the Soviet Union, as a basis for discussion, with the British recorded as objecting to naming any figure. Maisky complained that the British wanted to take as little as possible from Germany.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Protocol of Proceedings, 11 Feb 1945 (Avalon Project), reparations section; Maisky's complaint as reported in Preston (2019), last-days excerpt."
+  },
+  {
+   "date_iso": "1945-02-10",
+   "date_display": "Saturday 10 February 1945, 9 p.m.",
+   "precision": "day",
+   "eye": "lunghi",
+   "place": "Vorontsov Palace",
+   "headline": "Searching under the stone lions",
+   "digest": "Before Stalin came to Churchill's dinner at the Vorontsov Palace, Soviet security spent about a day sweeping the house and grounds, down to looking beneath the marble lions on the terrace. Lunghi was not surprised: Stalin, he said, was guarded like a god.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Lunghi, NSA interview (1996); dinner date from FRUS ch. 8, tripartite dinner 10 Feb 1945, 9 p.m., Vorontsov Villa. Late recollection."
+  },
+  {
+   "date_iso": "1945-02-11",
+   "date_display": "Sunday 11 February 1945, noon",
+   "precision": "day",
+   "eye": "roosevelt",
+   "place": "Livadia Palace, eighth plenary",
+   "headline": "Signing the communiqué and the secret Far East agreement",
+   "digest": "At the last plenary the leaders went through the communiqué line by line and signed it after lunch. The same day Stalin, Roosevelt and Churchill signed the short agreement that the Soviet Union would enter the war against Japan two or three months after Germany's surrender. Roosevelt left for Sevastopol at about four.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FRUS ch. 8, eighth plenary (docs. 458–461); Agreement Regarding Japan, dated 11 Feb 1945 (Avalon Project); departures as given in Preston (2019)."
+  },
+  {
+   "date_iso": "1945-02-11",
+   "date_display": "Sunday 11 February 1945",
+   "precision": "day",
+   "eye": "cadogan",
+   "place": "Vorontsov Palace",
+   "headline": "Cadogan to his wife: never so accommodating",
+   "digest": "Cadogan wrote that he had never known the Russians so easy and accommodating, and that Stalin in particular had been very good. He thought Stalin a great man who showed up impressively beside the two ageing statesmen across the table.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Cadogan to Theodosia Cadogan, 11 Feb 1945, in Dilks ed., Diaries of Sir Alexander Cadogan (1971); also quoted in Andrew and Mitrokhin, The Mitrokhin Archive (1999), via Spartacus Educational."
+  },
+  {
+   "date_iso": "1945-02-11",
+   "date_display": "Sunday 11 February 1945, evening",
+   "precision": "day",
+   "eye": "sarah",
+   "place": "Vorontsov Palace to Sevastopol",
+   "headline": "Cars in the dusk, then an empty Yalta",
+   "digest": "Sarah described the handshakes, the line of cars pulling away, and how quickly the place emptied once the leaders had gone. Her father left that evening for the liner Franconia at Sevastopol.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sarah Churchill letter to her mother, as given in Preston (2019), last-days excerpt (Lit Hub)."
+  },
+  {
+   "date_iso": "1945-02-11",
+   "date_display": "Sunday 11 February 1945, 4 p.m.",
+   "precision": "day",
+   "eye": "anna",
+   "place": "Livadia to USS Catoctin, Sevastopol",
+   "headline": "Leaving with Soviet gifts and a tired father",
+   "digest": "Anna left with her father for the command ship Catoctin at Sevastopol, the cars loaded with Soviet gifts. Her concern in these last days was less the agreements than whether he could stand the journey to Egypt and home.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Preston (2019), last-days excerpt (Leahy's account of the departure); Anna's diary as printed in Katz (2020). Time of departure approx."
+  },
+  {
+   "date_iso": "1945-02-13",
+   "date_display": "Tuesday 13 February 1945",
+   "precision": "day",
+   "eye": "arciszewski",
+   "place": "London",
+   "headline": "The Polish government in London rejects Yalta",
+   "digest": "Arciszewski's government declared that the decisions on Poland had been made without its participation or knowledge, in breach of the Atlantic Charter and of allied principles. It stated that they could not be recognised by the Polish government and did not bind the Polish nation, and called the Curzon Line frontier a new partition of Poland carried out by her allies.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Statement of the Polish government, 13 Feb 1945, as summarised by IPN, '77 Years From the Yalta Conference'; reported in the press 14 Feb 1945."
+  },
+  {
+   "date_iso": "1945-02-27",
+   "date_display": "Tuesday 27 February 1945",
+   "precision": "day",
+   "eye": "churchill",
+   "place": "House of Commons, London",
+   "headline": "Churchill defends Yalta to the Commons",
+   "digest": "Opening a three-day debate, Churchill told the House that the Curzon Line claim was just, that Poland's sovereignty mattered more than its frontiers, and that he knew of no government that kept its obligations better than the Soviet one. He promised free elections and continued recognition of the London Poles until a new government was formed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Hansard, HC Deb 27 Feb 1945, vol. 408, cc. 1267–345."
+  },
+  {
+   "date_iso": "1945-03-01",
+   "date_display": "Thursday 1 March 1945",
+   "precision": "day",
+   "eye": "roosevelt",
+   "place": "Joint session of Congress, Washington",
+   "headline": "Seated, Roosevelt reports from the Crimea",
+   "digest": "For the first time Roosevelt addressed Congress sitting down, explaining that it spared him carrying about ten pounds of steel on his legs. He called the results a good start towards peace and the end of unilateral action and spheres of influence, and said of the Polish frontier frankly that it was a compromise.",
+   "quote": "a good start on the road to a world of peace",
+   "confidence": "verified",
+   "source_note": "Address to Congress on the Yalta Conference, 1 Mar 1945 (American Presidency Project); photograph, Truman Library 64-15."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1945-02-04",
+   "date_display": "4 February 1945",
+   "eye": "roosevelt",
+   "claim": "Calls a French occupation zone in Germany reasonable, but only as a matter of kindness",
+   "form": "debated",
+   "evidence": "FRUS doc. 328, Bohlen minutes",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1945-02-05",
+   "date_display": "5 February 1945",
+   "eye": "maisky",
+   "claim": "Proposes reparations: removals over two years, deliveries for ten, Soviet share of $10 billion",
+   "form": "proposed",
+   "evidence": "FRUS doc. 336, Bohlen minutes, second plenary",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1945-02-05",
+   "date_display": "5 February 1945",
+   "eye": "churchill",
+   "claim": "Agrees in principle to dismemberment of Germany; refers procedure to the Foreign Ministers",
+   "form": "decided",
+   "evidence": "FRUS doc. 336; Protocol of Proceedings (Avalon)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1945-02-06",
+   "date_display": "6 February 1945",
+   "eye": "stettinius",
+   "claim": "Presents the US Security Council voting formula (seven votes; unanimity of permanent members on substance)",
+   "form": "proposed",
+   "evidence": "FRUS doc. 352, Bohlen minutes, third plenary",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1945-02-06",
+   "date_display": "6 February 1945",
+   "eye": "stalin",
+   "claim": "Insists Poland is for Russia 'a question both of honor and security'; backs the Curzon Line and the Lublin government",
+   "form": "debated",
+   "evidence": "FRUS doc. 352",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1945-02-07",
+   "date_display": "7 February 1945",
+   "eye": "bohlen",
+   "claim": "Molotov accepts the voting formula and asks UN seats for two or three Soviet republics",
+   "form": "reported",
+   "evidence": "FRUS doc. 373, Bohlen minutes, fourth plenary",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1945-02-07",
+   "date_display": "7 February 1945",
+   "eye": "churchill",
+   "claim": "Opposes a western Polish frontier on the western Neisse ('stuff the Polish goose')",
+   "form": "debated",
+   "evidence": "FRUS doc. 373",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1945-02-08",
+   "date_display": "8 February 1945",
+   "eye": "roosevelt",
+   "claim": "Agrees in principle to Soviet Far East terms (Kuriles, southern Sakhalin, Dairen, railways) without consulting China",
+   "form": "decided",
+   "evidence": "FRUS doc. 393, Bohlen minutes, Roosevelt–Stalin meeting",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1945-02-09",
+   "date_display": "9 February 1945",
+   "eye": "churchill",
+   "claim": "Refuses any trusteeship scheme touching the British Empire",
+   "form": "refused",
+   "evidence": "FRUS doc. 423, Bohlen minutes, sixth plenary",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1945-02-09",
+   "date_display": "9 February 1945",
+   "eye": "stalin",
+   "claim": "Accepts the Declaration on Liberated Europe with a Soviet amendment",
+   "form": "decided",
+   "evidence": "FRUS docs. 423, 428–430",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1945-02-10",
+   "date_display": "10 February 1945",
+   "eye": "maisky",
+   "claim": "$20 billion reparations figure (50% to USSR) sent to Moscow commission as basis, over British objection",
+   "form": "decided",
+   "evidence": "Protocol of Proceedings, reparations section (Avalon Project)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1945-02-11",
+   "date_display": "11 February 1945",
+   "eye": "roosevelt",
+   "claim": "Signs the communiqué and Protocol: Polish Provisional Government of National Unity pledged to 'free and unfettered elections'; UN conference set for 25 April",
+   "form": "signed",
+   "evidence": "Protocol of Proceedings (Avalon Project); FRUS docs. 458–461",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1945-02-11",
+   "date_display": "11 February 1945",
+   "eye": "stalin",
+   "claim": "Signs the secret agreement: Soviet entry against Japan two or three months after Germany's surrender",
+   "form": "signed",
+   "evidence": "Agreement Regarding Japan, 11 Feb 1945 (Avalon Project)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1945-02-13",
+   "date_display": "13 February 1945",
+   "eye": "arciszewski",
+   "claim": "Polish government in London declares the Yalta decisions on Poland not binding on the Polish nation",
+   "form": "refused",
+   "evidence": "IPN summary of the statement of 13 Feb 1945",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1945-02-28",
+   "date_display": "28 February 1945",
+   "eye": "churchill",
+   "claim": "Commons rejects the Petherick amendment on Poland, Ayes 25, Noes 396",
+   "form": "voted",
+   "evidence": "Hansard, HC Deb 28 Feb 1945, Division No. 9, 5.55 p.m.",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1945-03-01",
+   "date_display": "1 March 1945",
+   "eye": "roosevelt",
+   "claim": "Reports to Congress; calls the Polish frontier 'a compromise'",
+   "form": "reported",
+   "evidence": "Address to Congress, 1 Mar 1945 (American Presidency Project)",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1945-02-02",
+   "label": "Malta: the Quincy enters Grand Harbour",
+   "eyes": [
+    "roosevelt",
+    "anna",
+    "sarah",
+    "cadogan",
+    "moran"
+   ],
+   "note": "The same afternoon is a photograph for the Signal Corps, a worried diary for Anna, a family occasion for Sarah, and for Cadogan the end of preparatory talks that settled little."
+  },
+  {
+   "date": "1945-02-03",
+   "label": "Saki airfield and the road to the palaces",
+   "eyes": [
+    "roosevelt",
+    "moran",
+    "lunghi",
+    "sarah"
+   ],
+   "note": "The official log records a guard of honour; Moran records an old man; Lunghi, decades later, recalls ninety miles of sentries; Sarah describes the Vorontsov Palace at the end of the road."
+  },
+  {
+   "date": "1945-02-04",
+   "label": "First private meeting and first plenary",
+   "eyes": [
+    "bohlen",
+    "stalin",
+    "lunghi",
+    "churchill"
+   ],
+   "note": "Bohlen's minutes give two leaders swapping jokes about de Gaulle; Lunghi's later memory fixes on the request to bomb rail junctions; at dinner the argument over small nations begins."
+  },
+  {
+   "date": "1945-02-05",
+   "label": "Germany: zones, dismemberment, reparations",
+   "eyes": [
+    "maisky",
+    "roosevelt",
+    "churchill",
+    "anna",
+    "sarah"
+   ],
+   "note": "While Maisky put a price on Germany and Roosevelt said American troops would not stay long, Anna learned privately how ill her father was, and Sarah heard hers speak of the world's suffering."
+  },
+  {
+   "date": "1945-02-06",
+   "label": "Poland: honour and security",
+   "eyes": [
+    "stalin",
+    "churchill",
+    "stettinius",
+    "roosevelt",
+    "sarah"
+   ],
+   "note": "Both Stalin and Churchill invoked honour for opposite ends; Stettinius's voting formula was the day's other business; Sarah had spent the morning among the ruins of Sevastopol."
+  },
+  {
+   "date": "1945-02-08",
+   "label": "The Far East bargain and Stalin's dinner",
+   "eyes": [
+    "roosevelt",
+    "stalin",
+    "kathleen",
+    "byrnes",
+    "churchill",
+    "stettinius",
+    "sarah"
+   ],
+   "note": "Hours after the private Far East talk, which Churchill and Byrnes did not attend, the Yusupov dinner toasted post-war unity; Kathy spoke for the women, Byrnes for the common man."
+  },
+  {
+   "date": "1945-02-09",
+   "label": "Trusteeship outburst and the Declaration on Liberated Europe",
+   "eyes": [
+    "churchill",
+    "roosevelt",
+    "stalin",
+    "moran",
+    "anna"
+   ],
+   "note": "The minutes record Churchill's refusal and Stalin's acceptance of the Declaration; Moran calls the outburst theatre; Anna resents the strain on her father."
+  },
+  {
+   "date": "1945-02-11",
+   "label": "Signatures and departures",
+   "eyes": [
+    "roosevelt",
+    "stalin",
+    "cadogan",
+    "sarah",
+    "anna"
+   ],
+   "note": "Cadogan's warm verdict on Stalin, Sarah's empty palace and Anna's tired father were written on the day the secret Far East agreement was signed."
+  },
+  {
+   "date": "1945-02-13",
+   "label": "The answer from outside the room",
+   "eyes": [
+    "arciszewski",
+    "churchill",
+    "roosevelt"
+   ],
+   "note": "Within two days the London Poles rejected what the three had decided about them; Churchill and Roosevelt defended the same decisions to their legislatures two weeks later."
+  }
+ ],
+ "ties": [
+  {
+   "a": "sarah",
+   "b": "anna",
+   "kind": "met",
+   "note": "With Kathy Harriman they formed the trio the delegations nicknamed the 'Little Three', and drove together to Sevastopol on 6 February."
+  },
+  {
+   "a": "kathleen",
+   "b": "sarah",
+   "kind": "met",
+   "note": "Kathy and Sarah shared the experience of acting as hostess and aide to powerful fathers; Kathy was a close friend of Sarah's sister-in-law Pamela Churchill."
+  },
+  {
+   "a": "sarah",
+   "b": "churchill",
+   "kind": "relative",
+   "note": "Daughter and aide; her letters are the household view of his days at the conference."
+  },
+  {
+   "a": "anna",
+   "b": "roosevelt",
+   "kind": "relative",
+   "note": "She rationed his energy and kept his doctor's warnings to herself."
+  },
+  {
+   "a": "moran",
+   "b": "churchill",
+   "kind": "met",
+   "note": "His physician since 1940; Moran's published account of their talks caused lasting offence to Churchill's family."
+  },
+  {
+   "a": "bohlen",
+   "b": "roosevelt",
+   "kind": "met",
+   "note": "Bohlen interpreted for him in every meeting with Stalin, so the President's Yalta voice reaches us in Bohlen's English summaries."
+  },
+  {
+   "a": "cadogan",
+   "b": "churchill",
+   "kind": "met",
+   "note": "The Foreign Office's senior official drafted texts for Churchill and Eden and judged all three leaders in letters home."
+  },
+  {
+   "a": "maisky",
+   "b": "churchill",
+   "kind": "met",
+   "note": "As Soviet ambassador in London from 1932 to 1943 Maisky had known Churchill for a decade before facing him across the reparations table."
+  },
+  {
+   "a": "kathleen",
+   "b": "stalin",
+   "kind": "met",
+   "note": "She toasted at Stalin's dinner on 8 February and described him in her letters as a gracious host."
+  },
+  {
+   "a": "byrnes",
+   "b": "stettinius",
+   "kind": "influenced",
+   "note": "Byrnes succeeded Stettinius as Secretary of State in July 1945 and inherited the disputes over Yalta's Polish and Far East clauses."
+  },
+  {
+   "a": "stalin",
+   "b": "arciszewski",
+   "kind": "opposite sides",
+   "note": "Stalin backed the Lublin (Warsaw) provisional government; Arciszewski's London government rejected the decisions that sidelined it."
+  },
+  {
+   "a": "lunghi",
+   "b": "stalin",
+   "kind": "mentioned",
+   "note": "Lunghi interpreted at Moscow meetings and recalled the security that surrounded Stalin at Yalta."
+  },
+  {
+   "a": "moran",
+   "b": "roosevelt",
+   "kind": "mentioned",
+   "note": "Moran's published judgements on Roosevelt's health, made at a distance, became central to later arguments that the President was unfit to negotiate."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v1:ww2-europe",
+   "note": "Yalta's zones, reparations and Control Council set the occupation that ended the European war; the Soviet request at the first plenary to bomb German rail junctions preceded the raid of 13–14 February on Dresden, which Victor Klemperer survived."
+  },
+  {
+   "to": "v1:japan-1945",
+   "note": "The secret agreement of 11 February fixed Soviet entry into the Pacific war two or three months after Germany's defeat; the Soviet Union declared war on Japan on 8 August 1945, two days after Hiroshima."
+  },
+  {
+   "to": "paris-1919",
+   "note": "The Curzon Line argued over at Livadia descended from the Allied Supreme Council's 1919 proposal, and the world organisation designed at Yalta was built to avoid the League of Nations' failures; Churchill invoked the reparations failure after 1919 against Maisky's figures."
+  },
+  {
+   "to": "v4:fission",
+   "note": "The Far East bargain assumed a long, costly invasion of Japan; within six months the bomb that grew from the 1938–39 discovery of fission changed that calculation."
+  },
+  {
+   "to": "bandung",
+   "note": "Roosevelt's trusteeship plans for Korea and Indochina and Churchill's refusal to let trusteeship touch the Empire foreshadowed the decolonisation that the Asian–African conference at Bandung would claim in 1955."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://artsandculture.google.com/asset/franklin-d-roosevelt-anna-boettiger-sarah-churchill-and-winston-churchill-at-malta/6gH6L2H6kZ1bZg",
+   "title": "Roosevelt, Anna Boettiger, Sarah Churchill and Churchill at Malta",
+   "caption": "The two leaders and their daughters aboard USS Quincy in Grand Harbour, Valletta, the day before the flight to the Crimea.",
+   "date": "2 February 1945",
+   "credit": "US Army Signal Corps; FDR Library, NPx 48-22:3659(15)"
+  },
+  {
+   "url": "https://artsandculture.google.com/asset/franklin-d-roosevelt-and-anna-boettiger-at-malta-franklin-d-roosevelt-presidential-library-and-museum-of-the-national-archives-and-records-administration/DQGMeaFn0s5zPA",
+   "title": "Roosevelt and Anna Boettiger at Malta",
+   "caption": "Anna beside her father on the Quincy; her diary and letters from the next ten days are among the chapter's eyes.",
+   "date": "2 February 1945",
+   "credit": "US Army Signal Corps; FDR Library"
+  },
+  {
+   "url": "https://artsandculture.google.com/asset/franklin-d-roosevelt-winston-churchill-and-joseph-stalin-at-the-yalta-conference-0006/NQFfqTuH8_XWnw",
+   "title": "Roosevelt, Churchill and Stalin at Livadia Palace",
+   "caption": "The best-known group photograph, taken in the palace courtyard on the day of the sixth plenary, when trusteeship and Poland were fought over indoors.",
+   "date": "9 February 1945",
+   "credit": "US Army; FDR Library, NPx CT 53-70:5"
+  },
+  {
+   "url": "https://www.nga.gov/collection/art-object-page.218257.html",
+   "title": "'Big Three' Gathers at Yalta (press print)",
+   "caption": "An Associated Press wire print of the British official photograph; the verso names the advisers standing behind, including Eden, Stettinius, Cadogan, Molotov and Harriman.",
+   "date": "February 1945",
+   "credit": "National Gallery of Art, Gift of Mary and Dan Solomon, 2018.177.347"
+  },
+  {
+   "url": "https://archivesearch.lib.cam.ac.uk/repositories/9/archival_objects/1695268",
+   "title": "Churchill at the Livadia Palace (two photographs)",
+   "caption": "Mounted photographs from the Churchill papers, one showing Churchill with Sarah, the other with Stettinius.",
+   "date": "February 1945",
+   "credit": "Churchill Archives Centre, Cambridge, BRDW V 3/17"
+  },
+  {
+   "url": "https://trumanlibrary.gov/photograph-records/64-15",
+   "title": "Roosevelt addresses Congress on Yalta",
+   "caption": "Seated at a table of microphones, Roosevelt reports on the Crimea Conference; Vice President Truman sits on the rostrum behind him.",
+   "date": "1 March 1945",
+   "credit": "International News Photos; Harry S. Truman Library, 64-15"
+  }
+ ],
+ "further": [
+  {
+   "title": "FRUS: Conferences at Malta and Yalta, 1945 (Office of the Historian)",
+   "url": "https://history.state.gov/historicaldocuments/frus1945Malta/introduction"
+  },
+  {
+   "title": "Yalta (Crimea) Conference: Protocol of Proceedings and Agreement Regarding Japan (Avalon Project)",
+   "url": "https://avalon.law.yale.edu/wwii/yalta.asp"
+  },
+  {
+   "title": "Diana Preston, Eight Days at Yalta (2019), publisher's page",
+   "url": "https://www.panmacmillan.com/authors/diana-preston/eight-days-at-yalta/9781509868773"
+  },
+  {
+   "title": "Review of Catherine Grace Katz, The Daughters of Yalta (2020), Library Journal",
+   "url": "https://libraryjournal.com/story/the-daughters-of-yalta-the-churchills-roosevelts-and-harrimans-a-story-of-love-and-war"
+  },
+  {
+   "title": "Hansard: Crimea Conference debate, 27 February 1945",
+   "url": "https://api.parliament.uk/historic-hansard/commons/1945/feb/27/crimea-conference"
+  },
+  {
+   "title": "IPN: 77 Years From the Yalta Conference",
+   "url": "https://eng.ipn.gov.pl/en/news/9244,77-Years-From-the-Yalta-Conference.html"
+  },
+  {
+   "title": "International Churchill Society: on Lord Moran's 'diaries'",
+   "url": "https://winstonchurchill.org/resources/myths/lord-morans-book-is-based-on-his-diaries/"
+  }
+ ],
+ "vantage_key": "0 = the three principals; 1 = in the conference room (minute-takers, ministers, advisers); 2 = in the palaces but outside the sessions (daughters, doctor, junior interpreter); 3 = same country at a distance; 4 = abroad, outside the room."
+}

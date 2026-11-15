@@ -1,0 +1,1451 @@
+{
+ "id": "russia-1917",
+ "title": "Two Calendars, One Collapse",
+ "subtitle": "The Russian Revolutions, Petrograd to Ekaterinburg, 1917–1918",
+ "span": "1917–1918",
+ "intro": [
+  "In the last week of February 1917 by the Russian calendar — the second week of March by everyone else's — women queuing for bread in Petrograd started a strike, the strike turned into a march, and the soldiers sent to stop it joined in. Within eight days the Romanov dynasty, which had ruled for three centuries, was gone. Eight months later a second revolution put the Bolsheviks in the Winter Palace. Fifteen months after that, the former Tsar, his wife and their five children were shot in a cellar in the Urals.",
+  "This chapter lines up people who wrote on the days themselves, or close to them. At the centre is Nicholas II, who kept his laconic diary through abdication and captivity, beside his wife Alexandra and his mother. Around them stand the Swiss tutor Pierre Gilliard, who went into captivity with them; the French ambassador Maurice Paléologue in the streets; the British ambassador's daughter Meriel Buchanan behind the embassy windows; and two American radicals, John Reed and Louise Bryant, notebooks open at Smolny.",
+  "Then come the Russian writers, who took the revolution as a spiritual event. Zinaida Gippius was drunk on freedom in March and choking in November. Alexander Blok listened for the 'music' of revolution and wrote 'The Twelve'. Ivan Bunin in Moscow kept a diary of rage he would publish only in exile. The sociologist Pitirim Sorokin, a moderate socialist, went from Kerensky's office to a Bolshevik prison cell.",
+  "Read side by side, they disagree about almost everything, including what day it is. On the night the Winter Palace fell Reed watched the ministers led out, while in the morning Gippius wrote of suffocation. The same week, in Siberia, the man who used to rule them all was clearing snow and complaining that the telegrams had stopped. The Tsar learned of October about three weeks late, from a provincial paper printed on packing paper.",
+  "Several sources here are not pure diaries. Paléologue's journal was polished for publication, Gilliard's memoir quotes his own diary, and Reed's book is reportage built from dated notes. Each eye is labelled honestly, and wherever a day could not be confirmed the entry is marked approximate rather than given a false precision."
+ ],
+ "calendar_note": "Russia used the Julian (Old Style, O.S.) calendar until the Soviet government dropped thirteen days: 31 January 1918 O.S. was followed by 14 February 1918 N.S. That is why the 'February' Revolution happened in March and the 'October' Revolution on 7 November by Western reckoning. Every entry here is sorted by its Gregorian (New Style) date in date_iso, and date_display shows both. The witnesses mixed their calendars: Nicholas, Gippius, Blok and Bunin wrote in O.S. (Bunin noted the jump in his diary, and online English extracts of the Tsar's diary silently convert to N.S.). Paléologue, Reed, Bryant, Meriel Buchanan and Gilliard used N.S., Gilliard sometimes adding O.S. in brackets. Where a letter's calendar is unstated (Alexandra's 1917 letters), the conversion is flagged as approximate.",
+ "vantage_key": "0 = the imperial family at the centre of events; 1 = eyewitnesses on the spot (embassy streets, Smolny, inside the captivity); 2 = in Petrograd but at one remove (salons, embassy windows); 3 = elsewhere in Russia, hearing the news; 4 = abroad (none here).",
+ "eyes": [
+  {
+   "id": "nicholas",
+   "name": "Nicholas II (Nikolai Aleksandrovich Romanov)",
+   "life": "1868–1918",
+   "role": "Emperor of Russia until 2/15 March 1917, aged 48; then a prisoner",
+   "side": "Romanov dynasty / imperial Russia",
+   "where": "Stavka at Mogilev and the imperial train at Pskov; then under arrest at Tsarskoe Selo, Tobolsk and Ekaterinburg",
+   "vantage": 0,
+   "vantage_label": "principal actor, then captive",
+   "form": "diary",
+   "language": "Russian",
+   "authenticity": "Autograph diaries kept daily since 1882, now in the State Archive of the Russian Federation (GARF); published in Berlin in the 1920s and in full in Russia since the 1990s. English online extracts are unattributed translations and sometimes convert O.S. dates to N.S. — compare against the Russian.",
+   "bio": "Nicholas kept a terse, weather-first diary for 36 years, and he went on keeping it through abdication and captivity. Its flatness is the point: the end of a 300-year dynasty arrives as one entry among walks, meals and church services, with one famous cry of betrayal. No other source shows so plainly how little the man at the centre saw.",
+   "sources": [
+    {
+     "title": "1917 Diary of Nicholas II (extracts, alexanderpalace.org)",
+     "url": "https://alexanderpalace.org/palace/ndiaries1917.php"
+    },
+    {
+     "title": "Tsar's diary entries, February Revolution (Alpha History)",
+     "url": "https://alphahistory.com/russianrevolution/tsars-diary-february-revolution-1917/"
+    },
+    {
+     "title": "Diary of the Abdication (theromanovfamily.com, O.S. dates)",
+     "url": "https://www.theromanovfamily.com/tsar-nicholas-ii-diary-of-the-abdication/"
+    }
+   ]
+  },
+  {
+   "id": "alexandra",
+   "name": "Empress Alexandra Feodorovna (Alix of Hesse)",
+   "life": "1872–1918",
+   "role": "Empress consort, aged 44 in 1917; mother of five children, four of them down with measles in March 1917",
+   "side": "Romanov dynasty",
+   "where": "Alexander Palace, Tsarskoe Selo; Tobolsk; Ipatiev House, Ekaterinburg",
+   "vantage": 0,
+   "vantage_label": "principal / victim",
+   "form": "dated letters; diary (1918)",
+   "language": "English (with Russian)",
+   "authenticity": "Her captivity letters survive in originals and in the émigré compilation 'Skorbnaya Pamyatka'; some exist only in English re-translations, which the alexanderpalace.org editor flags as imperfect. Her 1918 Ekaterinburg diary is in GARF and was published in 1997. Calendar of individual 1917 letters is often unstated.",
+   "bio": "Blamed by much of Russia for the regime's collapse, Alexandra spent the revolution in a sickroom and then a prison. Her letters are absorbed in faith, illness and loyalty, almost blind to the political world — which is exactly why they belong beside the ambassadors and poets.",
+   "sources": [
+    {
+     "title": "Letters of Alexandra from Exile (alexanderpalace.org)",
+     "url": "https://alexanderpalace.org/palace/alexandraexile.html"
+    }
+   ]
+  },
+  {
+   "id": "mariafeodorovna",
+   "name": "Dowager Empress Maria Feodorovna (Dagmar of Denmark)",
+   "life": "1847–1928",
+   "role": "Mother of Nicholas II, aged 69",
+   "side": "Romanov dynasty",
+   "where": "Kiev, then the station and Headquarters at Mogilev (17–21 March 1917 N.S.)",
+   "vantage": 1,
+   "vantage_label": "at his side after the abdication",
+   "form": "diary",
+   "language": "Danish / Russian",
+   "authenticity": "Her diaries survive and were published in the 2000s; quoted here only through the Russian Life summary.",
+   "bio": "She rushed from Kiev to see her deposed son and recorded their meeting and parting. She escaped through the Crimea to Britain in 1919 and died in Denmark.",
+   "sources": [
+    {
+     "title": "Russian Life, '1917 Diary' (Mar–Apr 2017)",
+     "url": "https://www.russianlife.com/magazine/mar-apr-2017/1917-diary/"
+    }
+   ]
+  },
+  {
+   "id": "gilliard",
+   "name": "Pierre Gilliard",
+   "life": "1879–1962",
+   "role": "Swiss French-language tutor to the imperial children, aged 38",
+   "side": "imperial household (a foreigner)",
+   "where": "inside the Alexander Palace; then with the family at Tobolsk; separated at Ekaterinburg station in May 1918",
+   "vantage": 1,
+   "vantage_label": "inside the captivity",
+   "form": "memoir (written later) quoting his own dated diary",
+   "language": "French",
+   "authenticity": "'Thirteen Years at the Russian Court' (1921) is a memoir, but from the captivity onward it reproduces his dated diary entries, mostly in N.S. with some O.S. in brackets. He later worked with the White investigator Sokolov and testified against the impostor Anna Anderson.",
+   "bio": "Gilliard stayed when Kornilov offered the household a way out, went to Siberia, and was the last outsider to see the children. His day-by-day Tobolsk diary is the nearest thing we have to the family's own view of the Bolshevik months, and it is full of snow slides, firewood and small humiliations.",
+   "sources": [
+    {
+     "title": "Thirteen Years at the Russian Court (Project Gutenberg #60546)",
+     "url": "https://gutenberg.org/cache/epub/60546/pg60546-images.html"
+    },
+    {
+     "title": "Chapters XV–XXI (alexanderpalace.org)",
+     "url": "https://www.alexanderpalace.org/2006pierre/bio.html"
+    }
+   ]
+  },
+  {
+   "id": "paleologue",
+   "name": "Maurice Paléologue",
+   "life": "1859–1944",
+   "role": "French Ambassador to Russia, aged 57",
+   "side": "France (Allied power)",
+   "where": "French Embassy and the streets of Petrograd, until he left on 16 May 1917",
+   "vantage": 1,
+   "vantage_label": "diplomat in the streets",
+   "form": "journal (published, revised)",
+   "language": "French",
+   "authenticity": "'La Russie des tsars pendant la Grande Guerre' (1921–22; English 1923–25) is set out as a day-by-day journal but was edited for publication: at least one weekday heading is wrong (21 March 1917 as 'Tuesday'), and contemporaries thought his imagination ran away with him. Treat details as his considered version.",
+   "bio": "A literary diplomat with a novelist's eye, Paléologue noticed both the shooting and the dinner parties that went on beside it. He is the best dated witness to the February days in the capital, and the only one whose job was to keep Russia in the war.",
+   "sources": [
+    {
+     "title": "An Ambassador's Memoirs, vol. III (alexanderpalace.org)",
+     "url": "https://alexanderpalace.org/mpmemoirs/index.html"
+    },
+    {
+     "title": "Chapter IX, 12–22 March 1917",
+     "url": "https://alexanderpalace.org/mpmemoirs/3_9.html"
+    }
+   ]
+  },
+  {
+   "id": "meriel",
+   "name": "Meriel Buchanan",
+   "life": "1886–1959",
+   "role": "Daughter of the British Ambassador Sir George Buchanan, aged 30; former wartime hospital nurse",
+   "side": "Britain (Allied embassy)",
+   "where": "British Embassy on the Palace Embankment, Petrograd, until January 1918",
+   "vantage": 2,
+   "vantage_label": "same city, embassy windows",
+   "form": "memoir (written 1918, chronological)",
+   "language": "English",
+   "authenticity": "'Petrograd, the City of Trouble 1914–1918' (1918) was written immediately after her departure, in date-headed chapters; not a daily diary. Only the chapter structure was checked for this edition.",
+   "bio": "A society novelist turned nurse, Meriel moved in court circles and then watched them dissolve. Her book is a quick, personal record of the city in its year of trouble, from a household the Bolsheviks regarded as the enemy's embassy.",
+   "sources": [
+    {
+     "title": "Petrograd, the City of Trouble (Internet Archive)",
+     "url": "https://archive.org/details/cu31924028403123"
+    },
+    {
+     "title": "LibriVox audiobook and chapter list",
+     "url": "https://librivox.org/petrograd-the-city-of-trouble-1914-1918-by-meriel-buchanan/"
+    }
+   ]
+  },
+  {
+   "id": "gippius",
+   "name": "Zinaida Gippius",
+   "life": "1869–1945",
+   "role": "Symbolist poet and critic, aged 47; wife of Dmitry Merezhkovsky and host of a political-literary salon",
+   "side": "liberal-religious intelligentsia; later anti-Bolshevik émigré",
+   "where": "her flat near the Tauride Palace, Petrograd",
+   "vantage": 2,
+   "vantage_label": "same city, intelligentsia salon",
+   "form": "diary",
+   "language": "Russian",
+   "authenticity": "Her 'Petersburg Diaries' were partly published in Munich in 1922 in 'The Kingdom of Antichrist'; fuller editions later. Some notebooks were reworked in emigration.",
+   "bio": "Gippius welcomed February with joy and met October with despair, and her diary tracks the change better than any polemic. She broke with old friends, Blok among them, who accepted the Bolsheviks, and escaped with Merezhkovsky to Poland at the end of 1919.",
+   "sources": [
+    {
+     "title": "Zinaida Gippius (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Zinaida_Gippius"
+    },
+    {
+     "title": "Russian Life, '1917 Diary'",
+     "url": "https://www.russianlife.com/magazine/mar-apr-2017/1917-diary/"
+    }
+   ]
+  },
+  {
+   "id": "blok",
+   "name": "Alexander Blok",
+   "life": "1880–1921",
+   "role": "Russia's leading Symbolist poet, aged 36; editor of the stenographic record for the Provisional Government's Extraordinary Commission",
+   "side": "intelligentsia; accepted October",
+   "where": "Petrograd",
+   "vantage": 2,
+   "vantage_label": "same city, poet",
+   "form": "diary and notebooks",
+   "language": "Russian",
+   "authenticity": "Diaries and notebooks published in Soviet collected works (vols. 7–8). Only a summer 1917 entry and the composition month of 'The Twelve' were confirmed here.",
+   "bio": "Blok heard in 1917 the 'music of the revolution' he had long expected, attended Lunacharsky's November meeting when almost all writers boycotted it, and in January 1918 wrote 'The Twelve'. He died exhausted and disillusioned in 1921.",
+   "sources": [
+    {
+     "title": "Alexander Blok (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Alexander_Blok"
+    },
+    {
+     "title": "The Twelve (poem) (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/The_Twelve_(poem)"
+    },
+    {
+     "title": "Aleksandr Blok's Twelve (KU OLRC)",
+     "url": "https://olrc.ku.edu/twelve"
+    }
+   ]
+  },
+  {
+   "id": "bunin",
+   "name": "Ivan Bunin",
+   "life": "1870–1953",
+   "role": "Novelist and poet, aged 47; future Nobel laureate (1933)",
+   "side": "anti-Bolshevik intelligentsia",
+   "where": "Moscow (to May 1918), then Odessa",
+   "vantage": 3,
+   "vantage_label": "other capital, hearing the news",
+   "form": "diary (edited for publication)",
+   "language": "Russian",
+   "authenticity": "'Okayannye dni' was assembled from diaries and notes and published in Paris in 1925–26 (book 1936); banned in the USSR until the late 1980s. A separate 1917–18 prequel diary appeared in censored form in 1965. Entries carry O.S. dates, later double dates.",
+   "bio": "Bunin wrote the most venomous diary of the revolution: a Moscow of rumours, turncoat poets and frightened crowds, seen by a man who hated what he saw and refused to look away. He emigrated in 1920.",
+   "sources": [
+    {
+     "title": "Cursed Days (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Cursed_Days"
+    },
+    {
+     "title": "Окаянные дни, Russian text (mybook.ru)",
+     "url": "https://mybook.ru/author/ivan-alekseevich-bunin/okayannye-dni-17/read/"
+    }
+   ]
+  },
+  {
+   "id": "reed",
+   "name": "John Reed",
+   "life": "1887–1920",
+   "role": "American radical journalist, aged 30",
+   "side": "American left; sympathetic to the Bolsheviks",
+   "where": "Smolny, the Mariinsky Palace, the Winter Palace, the streets",
+   "vantage": 1,
+   "vantage_label": "eyewitness reporter",
+   "form": "reportage (written 1918–19 from dated notes)",
+   "language": "English",
+   "authenticity": "'Ten Days That Shook the World' (1919) is reportage built from his notes, posters and newspapers, dated in N.S.; partisan but closely time-stamped. Lenin wrote an introduction; Stalin later suppressed it.",
+   "bio": "Reed got everywhere — Trotsky's attic, Kerensky's last speech, the captured Winter Palace — and wrote it up with a clock in hand. He is the counterweight to Gippius and Bunin: the same nights, as triumph.",
+   "sources": [
+    {
+     "title": "Ten Days That Shook the World (Project Gutenberg #3076)",
+     "url": "https://gutenberg.org/ebooks/3076"
+    },
+    {
+     "title": "marxists.org edition",
+     "url": "https://www.marxists.org/archive/reed/1919/10days/10days/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "bryant",
+   "name": "Louise Bryant",
+   "life": "1885–1936",
+   "role": "American journalist, aged 32; Reed's wife",
+   "side": "American left",
+   "where": "Petrograd, September 1917 – early 1918",
+   "vantage": 1,
+   "vantage_label": "eyewitness reporter",
+   "form": "reportage (dispatches collected 1918)",
+   "language": "English",
+   "authenticity": "'Six Red Months in Russia' (October 1918) collects her articles; chapters are thematic and mostly undated, so most of her entries here are approximate.",
+   "bio": "Bryant reached Petrograd just after the Kornilov affair and stayed through the Constituent Assembly, interviewing Breshkovsky, Spiridonova and Kollontai. Her eye is for women, soldiers and street-level fear, and she was candid about the false news coming from every side.",
+   "sources": [
+    {
+     "title": "Six Red Months in Russia (marxists.org)",
+     "url": "https://www.marxists.org/archive/bryant/works/russia/index.htm"
+    },
+    {
+     "title": "Louise Bryant (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Louise_Bryant"
+    }
+   ]
+  },
+  {
+   "id": "sorokin",
+   "name": "Pitirim Sorokin",
+   "life": "1889–1968",
+   "role": "Sociologist and Socialist Revolutionary activist, aged 28; secretary to Kerensky in 1917; deputy elected to the Constituent Assembly",
+   "side": "moderate socialists (SR)",
+   "where": "Petrograd; Peter and Paul Fortress prison (January–February 1918)",
+   "vantage": 1,
+   "vantage_label": "participant, then prisoner",
+   "form": "diary (as published, partly reworked)",
+   "language": "English (written in emigration from Russian notes)",
+   "authenticity": "'Leaves from a Russian Diary' (1924; enlarged 1950) is presented as a diary but was edited in exile. Specific entry dates were NOT verified for this edition; his entries are given at month precision only.",
+   "bio": "Sorokin went from the inside of the Provisional Government to a Bolshevik cell, was later sentenced to death and reprieved, and was expelled in 1922 before founding Harvard's sociology department. His book is the moderate socialists' diary of defeat.",
+   "sources": [
+    {
+     "title": "Leaves from a Russian Diary (catalogue note, Sorokin Foundation)",
+     "url": "https://www.cliffstreet.org/index.php/writings-pitirim-sorokin/190-leaves-from-a-russian-diary"
+    },
+    {
+     "title": "Bookshare listing",
+     "url": "https://www.bookshare.org/browse/book/1985159"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1917-03-06",
+   "date_display": "Tuesday 21 February 1917 O.S. / 6 March 1917 N.S.",
+   "precision": "day",
+   "eye": "paleologue",
+   "place": "French Embassy, Petrograd",
+   "headline": "Bread queues and fifty-seven thousand stranded railway wagons",
+   "digest": "The ambassador notes the dull arithmetic of collapse: bread and fuel are short, women stand in long queues at the bakeries, and a ferocious cold has frozen the railways so that tens of thousands of wagons sit idle. It reads like a supply report, not a prophecy, which is exactly what makes it ominous two days before the crowds come out.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "An Ambassador's Memoirs vol. III ch. VIII, entry Tuesday 6 March 1917 (alexanderpalace.org mirror) https://alexanderpalace.org/mpmemoirs/3_8.html"
+  },
+  {
+   "date_iso": "1917-03-08",
+   "date_display": "Thursday 23 February 1917 O.S. / 8 March 1917 N.S.",
+   "precision": "day",
+   "eye": "paleologue",
+   "place": "Nevsky Prospekt and the Embassy, Petrograd",
+   "headline": "Crowds chant for bread and peace; the Tsar leaves",
+   "digest": "Large crowds march down the Nevsky calling for bread and peace and singing revolutionary songs, with scuffles but little bloodshed. At his own dinner table the guests talk mostly about a forthcoming party, and the minister Trepov gives him no comfort about food. That evening Paléologue records that the Emperor has gone off to General Headquarters despite the unrest.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Memoirs vol. III ch. VIII, Thursday 8 March 1917 https://alexanderpalace.org/mpmemoirs/3_8.html"
+  },
+  {
+   "date_iso": "1917-03-08",
+   "date_display": "Thursday 23 February 1917 O.S. / 8 March 1917 N.S.",
+   "precision": "day",
+   "eye": "gilliard",
+   "place": "Alexander Palace, Tsarskoe Selo",
+   "headline": "The Tsar departs; the Tsarina anxious, the heir down with measles",
+   "digest": "Gilliard sets down that the Emperor decided to leave for Headquarters at Mogilev, to the Empress's distress, while the Tsarevich lay ill with measles. From inside the palace the departure looks like a family worry, not a political blunder; the sickroom fills the foreground and Petrograd is only a rumour.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Thirteen Years at the Russian Court, ch. XVII (narrative with dated passages, N.S.) https://www.alexanderpalace.org/2006pierre/chapter_XVII.html"
+  },
+  {
+   "date_iso": "1917-03-10",
+   "date_display": "Saturday 25 February 1917 O.S. / 10 March 1917 N.S.",
+   "precision": "day",
+   "eye": "paleologue",
+   "place": "Nevsky Prospekt and a near-empty concert hall",
+   "headline": "Shooting on the Nevsky, a concert past Cossack patrols",
+   "digest": "Paléologue reports that demonstrations on the Nevsky turned deadly, with dead on both the crowd's and the police's side and about a hundred wounded. Afterwards he and a lady companion drive past Cossack patrols to an almost empty concert, where she wonders aloud whether they are watching the last night of the regime.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Memoirs vol. III ch. VIII, Saturday 10 March 1917 https://alexanderpalace.org/mpmemoirs/3_8.html"
+  },
+  {
+   "date_iso": "1917-03-11",
+   "date_display": "Sunday 26 February 1917 O.S. / 11 March 1917 N.S.",
+   "precision": "day",
+   "eye": "paleologue",
+   "place": "Petrograd streets; Princess Radziwill's house",
+   "headline": "Troops fire on crowds while a party goes on",
+   "digest": "Khabalov forbids all gatherings and authorises troops to fire; they do, repeatedly, and the dead lie in the streets, though one Guard regiment is reported to have refused. That night Paléologue drives past Princess Radziwill's reception and sees it still in full swing, a juxtaposition he clearly means the reader to remember.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Memoirs vol. III ch. VIII, Sunday 11 March 1917 https://alexanderpalace.org/mpmemoirs/3_8.html"
+  },
+  {
+   "date_iso": "1917-03-11",
+   "date_display": "Letter dated 11 March 1917 — calendar unstated (11 March N.S. = 26 Feb O.S.; if O.S., = 24 March N.S.)",
+   "precision": "range",
+   "eye": "alexandra",
+   "place": "Alexander Palace, Tsarskoe Selo",
+   "headline": "A letter about fevers and rashes, not revolution",
+   "digest": "Writing to her lady-in-waiting Isa Buxhoeveden, the Empress reports that the children are burning with high fevers and a heavy rash, so far without complications, and urges faith. The capital is on fire twenty-five kilometres away, but her letter lives entirely in the sickroom.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Letter dated '11 March 1917' to Isa Buxhoeveden, English text only, on alexanderpalace.org 'Letters of Alexandra from Exile' https://alexanderpalace.org/palace/alexandraexile.html — the page does not say whether the date is O.S. (= 24 March N.S.) or N.S.; placed here provisionally."
+  },
+  {
+   "date_iso": "1917-03-12",
+   "date_display": "Monday 27 February 1917 O.S. / 12 March 1917 N.S.",
+   "precision": "day",
+   "eye": "paleologue",
+   "place": "Liteiny district and the Embassy, Petrograd",
+   "headline": "The garrison mutinies; fires, barricades, a hostile crowd",
+   "digest": "The decisive day: whole units of the garrison go over to the crowd, fires and barricades appear, and gunfire crackles across the city. Paléologue's car is hemmed in by soldiers in an ugly mood until an NCO recognises the Allied ambassadors and the crowd cheers France and England instead. He hears from the foreign minister Pokrovsky that the ministers wanted a dictatorship, and learns that the Duma has defied its prorogation.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Memoirs vol. III ch. IX, Monday 12 March 1917 https://alexanderpalace.org/mpmemoirs/3_9.html; also summarised by RBTH (2017)"
+  },
+  {
+   "date_iso": "1917-03-12",
+   "date_display": "Monday 27 February 1917 O.S. / 12 March 1917 N.S.",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Stavka (General Headquarters), Mogilev",
+   "headline": "Fragmentary bad news, a sunny walk, a night train",
+   "digest": "Hundreds of kilometres away at Headquarters, the Tsar notes that disorders broke out in Petrograd some days ago and that, unfortunately, troops have begun to take part. He finds it hard to be so far away with only scraps of bad news, spends little time on reports, walks along the Orsha road in the sun, and decides to board a train for Tsarskoe Selo in the small hours.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary of Nicholas II, entry 27 Feb O.S. (posted as 'March 12, Monday') https://alexanderpalace.org/palace/ndiaries1917.php; same entry at theromanovfamily.com"
+  },
+  {
+   "date_iso": "1917-03-12",
+   "date_display": "Monday 27 February 1917 O.S. / 12 March 1917 N.S.",
+   "precision": "day",
+   "eye": "meriel",
+   "place": "British Embassy, Palace Embankment, Petrograd",
+   "headline": "The embassy daughter's 'Monday, March 12'",
+   "digest": "Meriel Buchanan gave this single day its own chapter, the hinge between her 'Gathering of the Storm' and 'The Emperor's Abdication'. From the British Embassy on the Neva, a few minutes from the mutinous barracks, she watched the city turn over in one day. The precise sights she lists have not been checked against the 1918 text for this chapter, so treat the detail as provisional.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Petrograd, the City of Trouble 1914–1918 (1918), chapter 13 titled 'Monday, March 12' (chapter list on LibriVox https://librivox.org/petrograd-the-city-of-trouble-1914-1918-by-meriel-buchanan/; text at Internet Archive https://archive.org/details/cu31924028403123)"
+  },
+  {
+   "date_iso": "1917-03-13",
+   "date_display": "Tuesday 28 February 1917 O.S. / 13 March 1917 N.S.",
+   "precision": "day",
+   "eye": "gilliard",
+   "place": "Alexander Palace, Tsarskoe Selo",
+   "headline": "'The capital is in the hands of revolutionaries'",
+   "digest": "At half past ten the Empress tells Gilliard that Petrograd is in revolutionary hands and a provisional government has formed, but that a telegram promises the Tsar by six next morning. By afternoon the doctor reports the railways round the capital are held by insurgents; around nine at night word comes that the Tsarskoe garrison itself has mutinied, and a tense standoff at the palace gates is defused by parley and a neutral zone.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Thirteen Years at the Russian Court ch. XVII, 13 March https://www.alexanderpalace.org/2006pierre/chapter_XVII.html"
+  },
+  {
+   "date_iso": "1917-03-13",
+   "date_display": "Tuesday 28 February 1917 O.S. / 13 March 1917 N.S.",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Imperial train, en route from Mogilev",
+   "headline": "Sending General Ivanov to restore order",
+   "digest": "After talking with General N. I. Ivanov until after three in the morning, the Tsar sends him to Petrograd with troops to restore order, then sleeps until ten. The entry closes on the weather — cold and sunny — as many of his entries do, while the capital he means to pacify has already gone.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 28 Feb O.S. / 13 March N.S. https://alexanderpalace.org/palace/ndiaries1917.php"
+  },
+  {
+   "date_iso": "1917-03-14",
+   "date_display": "Wednesday 1 March 1917 O.S. / 14 March 1917 N.S.",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Imperial train; Pskov",
+   "headline": "Turned back; 'Shame and disgrace!'",
+   "digest": "In the night the train turns back because rebels are reported at Gatchina and Luga, so he cannot reach his family. He worries about his wife facing everything alone, prays for help, and reaches Pskov, where he meets General Ruzsky. The Russian-language version of the entry carries a short outburst of shame and disgrace.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 1 March O.S. / 14 March N.S. https://alexanderpalace.org/palace/ndiaries1917.php and https://www.theromanovfamily.com/tsar-nicholas-ii-diary-of-the-abdication/"
+  },
+  {
+   "date_iso": "1917-03-14",
+   "date_display": "Wednesday 1 March 1917 O.S. / 14 March 1917 N.S.",
+   "precision": "day",
+   "eye": "gippius",
+   "place": "Her flat near the Tauride Palace, Petrograd",
+   "headline": "A bright morning drunk on revolution",
+   "digest": "Gippius, later the revolution's fiercest diarist-enemy, writes of a radiant morning and a kind of intoxication: regiments marching past with bands, faces on the street untroubled, a freedom that people have simply taken rather than been given. Her home becomes a waystation for friends, half-acquaintances and strangers heading to the Duma in the Tauride Palace.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Petersburg Diaries, entry 1 March 1917 O.S., summarised in Russian Life '1917 Diary' (Mar–Apr 2017) https://www.russianlife.com/magazine/mar-apr-2017/1917-diary/"
+  },
+  {
+   "date_iso": "1917-03-14",
+   "date_display": "Wednesday 1 March 1917 O.S. / 14 March 1917 N.S.",
+   "precision": "day",
+   "eye": "paleologue",
+   "place": "Petrograd",
+   "headline": "Three powers in one city; the Guard goes over",
+   "digest": "Paléologue counts three rival authorities: the Duma's executive committee, the Soviet of workers' and soldiers' deputies, and the troops' headquarters at the Fortress. Guard units, even from Tsarskoe Selo, publicly declare for the revolution and Grand Duke Kirill marches his sailors to the Duma. Liberal leaders are agreed that Nicholas must abdicate in favour of his son.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Memoirs vol. III ch. IX, Wednesday 14 March 1917 https://alexanderpalace.org/mpmemoirs/3_9.html"
+  },
+  {
+   "date_iso": "1917-03-15",
+   "date_display": "Thursday 2 March 1917 O.S. / 15 March 1917 N.S.",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Imperial train at Pskov",
+   "headline": "The abdication, written as a day's business",
+   "digest": "Ruzsky reads him a telegraph conversation with Rodzianko: a Duma ministry would be powerless against the workers' committee, so he must abdicate. The commanders-in-chief all agree it is needed to save Russia and keep the front calm, and by mid-afternoon he consents. In the evening Guchkov and Shulgin arrive from Petrograd and he hands them a signed, revised manifesto, then leaves Pskov at one in the morning with a heavy heart.",
+   "quote": "All around me there is treachery, cowardice, and deceit.",
+   "confidence": "verified",
+   "source_note": "Diary, 2 March O.S. / 15 March N.S. https://alexanderpalace.org/palace/ndiaries1917.php; also alphahistory.com and Russian Life https://www.russianlife.com/magazine/mar-apr-2017/1917-diary/"
+  },
+  {
+   "date_iso": "1917-03-15",
+   "date_display": "Thursday 2 March 1917 O.S. / 15 March 1917 N.S.",
+   "precision": "day",
+   "eye": "paleologue",
+   "place": "Petrograd",
+   "headline": "A Provisional Government under Prince Lvov",
+   "digest": "The ambassador records that Guchkov and Shulgin have gone to the Emperor, that the Duma and Soviet have agreed a programme of abdication and a constituent assembly, and that Kerensky is the man to watch. Pokrovsky has resigned and a Provisional Government under Prince Lvov, with Miliukov at Foreign Affairs, has formed — all while the abdication itself is still happening at Pskov.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Memoirs vol. III ch. IX, Thursday 15 March 1917 https://alexanderpalace.org/mpmemoirs/3_9.html"
+  },
+  {
+   "date_iso": "1917-03-16",
+   "date_display": "Friday 3 March 1917 O.S. / 16 March 1917 N.S.",
+   "precision": "day",
+   "eye": "gilliard",
+   "place": "Alexander Palace, Tsarskoe Selo",
+   "headline": "The Empress calls the abdication a lie",
+   "digest": "At 3:30 a.m. the Provisional Government telephones Dr Botkin to ask after the Tsarevich, amid rumours that he has died. Later in the day news of the abdication reaches the palace; the Empress refuses to believe it until Grand Duke Paul confirms the details. That evening she still makes her round of the sickrooms, hiding her distress; next morning Gilliard finds her calm but grey and visibly aged.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Thirteen Years ch. XVII, the 16th https://www.alexanderpalace.org/2006pierre/chapter_XVII.html"
+  },
+  {
+   "date_iso": "1917-03-16",
+   "date_display": "Friday 3 March 1917 O.S. / 16 March 1917 N.S.",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Mogilev",
+   "headline": "Reading Caesar; brother Misha also refuses",
+   "digest": "He sleeps well, reads about Julius Caesar on the journey, and reaches Mogilev at 8:20, where General Alekseev tells him his brother Michael has also abdicated. He is irritated by Michael's manifesto calling for a constituent assembly elected in six months on broad suffrage, and notes with relief that Petrograd seems quiet.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 3 March O.S. / 16 March N.S. https://alexanderpalace.org/palace/ndiaries1917.php"
+  },
+  {
+   "date_iso": "1917-03-16",
+   "date_display": "Friday 3 March 1917 O.S. / 16 March 1917 N.S.",
+   "precision": "day",
+   "eye": "paleologue",
+   "place": "Petrograd; French Embassy",
+   "headline": "An empire signed away almost casually",
+   "digest": "Paléologue learns that Nicholas has abdicated for himself and his son in favour of Michael, and broods on how offhandedly an act of such weight was done. The Soviet will not have another Romanov and demands a republic; Michael defers to a future constituent assembly. Soldiers are posted at the French and British embassies.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Memoirs vol. III ch. IX, Friday 16 March 1917 https://alexanderpalace.org/mpmemoirs/3_9.html"
+  },
+  {
+   "date_iso": "1917-03-17",
+   "date_display": "Saturday 4 March 1917 O.S. / 17 March 1917 N.S.",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Mogilev station",
+   "headline": "His mother arrives from Kiev",
+   "digest": "The Dowager Empress arrives from Kiev and he spends the day with her and his family, receiving telegrams from Alix. The deposed Tsar's diary has become a family diary.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 4 March O.S. / 17 March N.S. https://alexanderpalace.org/palace/ndiaries1917.php"
+  },
+  {
+   "date_iso": "1917-03-17",
+   "date_display": "Saturday 4 March 1917 O.S. / 17 March 1917 N.S.",
+   "precision": "day",
+   "eye": "mariafeodorovna",
+   "place": "Mogilev",
+   "headline": "A mother meets her son at the station; both weep",
+   "digest": "In her own diary the Dowager Empress records her son meeting her at the station and the painful hours that followed, when he poured out everything that had happened and they both broke down. She would never see Petrograd again.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary of Maria Feodorovna (Danish/Russian), passage summarised in Russian Life '1917 Diary' https://www.russianlife.com/magazine/mar-apr-2017/1917-diary/; date fixed from Nicholas's diary of 4 March O.S."
+  },
+  {
+   "date_iso": "1917-03-21",
+   "date_display": "Wednesday 8 March 1917 O.S. / 21 March 1917 N.S.",
+   "precision": "day",
+   "eye": "gilliard",
+   "place": "Alexander Palace, Tsarskoe Selo",
+   "headline": "Kornilov announces the arrest",
+   "digest": "At half past ten General Kornilov tells the household that the Tsar and Tsarina are under arrest; anyone unwilling to accept close confinement must leave by four. At four the doors close. Gilliard stays.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Thirteen Years ch. XVII, the 21st https://www.alexanderpalace.org/2006pierre/chapter_XVII.html"
+  },
+  {
+   "date_iso": "1917-03-21",
+   "date_display": "Wednesday 8 March 1917 O.S. / 21 March 1917 N.S.",
+   "precision": "day",
+   "eye": "paleologue",
+   "place": "Petrograd",
+   "headline": "The Soviet demands the sovereigns' arrest",
+   "digest": "Paléologue records that the Soviet has insisted on the arrest of the Emperor and Empress, that the government agreed, and that Kornilov has placed the Empress under guard. Miliukov is asking London to give the couple asylum. (The memoir heads this entry 'Tuesday', though 21 March 1917 was a Wednesday — a sign of later editing.)",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Memoirs vol. III ch. IX, entry dated 21 March 1917 https://alexanderpalace.org/mpmemoirs/3_9.html"
+  },
+  {
+   "date_iso": "1917-03-21",
+   "date_display": "Wednesday 8 March 1917 O.S. / 21 March 1917 N.S.",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Mogilev",
+   "headline": "Farewell to the army, a moved crowd",
+   "digest": "On his last day at Headquarters he signs a farewell order to the armies, says goodbye to staff, guards and the Cossacks of his escort, lunches with his mother and parts from her, and leaves at 4:45 before a large crowd; four Duma members ride on his train. He calls the day hard, painful and sad. (Posted English extracts label this '19 March'; the Russian entry is dated 8 March O.S. = 21 March N.S.)",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary 8 March O.S. per theromanovfamily.com and Russian Life https://www.russianlife.com/magazine/mar-apr-2017/1917-diary/"
+  },
+  {
+   "date_iso": "1917-03-22",
+   "date_display": "Thursday 9 March 1917 O.S. / 22 March 1917 N.S.",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Alexander Palace, Tsarskoe Selo",
+   "headline": "Home, with sentries everywhere",
+   "digest": "He reaches Tsarskoe Selo at about half past eleven and finds sentries on every side, then is reunited with Alix and the children; Maria is still recovering from measles. He is not allowed beyond the park.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 9 March O.S. / 22 March N.S. https://alexanderpalace.org/palace/ndiaries1917.php"
+  },
+  {
+   "date_iso": "1917-03-22",
+   "date_display": "Thursday 9 March 1917 O.S. / 22 March 1917 N.S.",
+   "precision": "day",
+   "eye": "gilliard",
+   "place": "Alexander Palace, Tsarskoe Selo",
+   "headline": "The prisoner-Tsar rejoins his family",
+   "digest": "At eleven the Tsar returns from Mogilev and goes straight to his wife and children. For Gilliard the moment is the closing of a door: the household is now a prison with an emperor inside it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Thirteen Years ch. XVII, the 22nd https://www.alexanderpalace.org/2006pierre/chapter_XVII.html"
+  },
+  {
+   "date_iso": "1917-03-22",
+   "date_display": "Thursday 9 March 1917 O.S. / 22 March 1917 N.S.",
+   "precision": "day",
+   "eye": "paleologue",
+   "place": "Petrograd",
+   "headline": "A red flag on a grand duke's palace",
+   "digest": "Paléologue notes that Nicholas has reached Tsarskoe Selo under arrest, that his farewell order urged the army to fight on to victory, and — a small, telling detail — that a red flag now flies over Grand Duke Kirill's palace.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Memoirs vol. III ch. IX, Thursday 22 March 1917 https://alexanderpalace.org/mpmemoirs/3_9.html"
+  },
+  {
+   "date_iso": "1917-04-17",
+   "date_display": "Tuesday 4 April 1917 O.S. / 17 April 1917 N.S.",
+   "precision": "day",
+   "eye": "paleologue",
+   "place": "French Embassy, Petrograd",
+   "headline": "Lenin returns through Germany",
+   "digest": "On a day spent lunching Kerensky and visiting French socialists, Paléologue records that Lenin has arrived from Switzerland after crossing Germany and is about to address the Soviet. Over the next days he moves from expecting Lenin to be booed off the stage to judging his return the revolution's gravest danger.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Memoirs vol. III ch. XI, 17–21 April 1917 https://alexanderpalace.org/mpmemoirs/3_11.html"
+  },
+  {
+   "date_iso": "1917-04-21",
+   "date_display": "Saturday 8 April 1917 O.S. / 21 April 1917 N.S.",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Alexander Palace, Tsarskoe Selo",
+   "headline": "A quiet engagement anniversary under guard",
+   "digest": "He quietly marks twenty-three years since his engagement to Alix and notes with satisfaction that a smarter guard from the Fourth Rifles has replaced the slovenly one. The great events of April pass through his diary only as changes of sentry.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 8 April O.S. / 21 April N.S. https://alexanderpalace.org/palace/ndiaries1917.php"
+  },
+  {
+   "date_iso": "1917-05-01",
+   "date_display": "Tuesday 18 April 1917 O.S. / 1 May 1917 N.S. (Western May Day)",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Alexander Palace park",
+   "headline": "Watching the soldiers' May Day through the railings",
+   "digest": "The family watches the garrison's May Day procession with red flags pass the park; wet snow gives way to sun, and he spends the day working with Tatiana and reading aloud. Gilliard's diary for the same day records the parade and notes that the Tsar handed back a French newspaper article that had treated his abdication fairly.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary https://alexanderpalace.org/palace/ndiaries1917.php; Gilliard ch. XVIII, Tuesday 1 May https://www.alexanderpalace.org/2006pierre/chapter_18.html"
+  },
+  {
+   "date_iso": "1917-05-16",
+   "date_display": "Wednesday 3 May 1917 O.S. / 16 May 1917 N.S.",
+   "precision": "day",
+   "eye": "paleologue",
+   "place": "Finland Station, Petrograd",
+   "headline": "The ambassador leaves alone on the 7:40",
+   "digest": "Miliukov has just resigned, so Sazonov, who was to leave with him for London, stays behind, and Paléologue departs alone on the morning train to Finland. His last pages are a lament: Russian liberalism, he decides, has ended with Guchkov's resignation two days earlier.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Memoirs vol. III ch. XIII, Wednesday 16 May 1917 https://alexanderpalace.org/mpmemoirs/3_13.html"
+  },
+  {
+   "date_iso": "1917-06-11",
+   "date_display": "29 May 1917 (Tsarskoe Selo; probably O.S. = 11 June N.S.)",
+   "precision": "day",
+   "eye": "alexandra",
+   "place": "Alexander Palace, Tsarskoe Selo",
+   "headline": "Hurt by the newspapers, worried for the country",
+   "digest": "To the young officer A. V. Syroboiarsky the former Empress writes of her pain at the press campaign against her husband and her dismay at the disorder spreading through Russia, and urges him to stand by his mother. Faith and suffering run through every paragraph.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Letter dated 29 May 1917, Russian original from 'Skorbnaya Pamyatka' pp. 44–50, on https://alexanderpalace.org/palace/alexandraexile.html — calendar not stated; O.S. assumed."
+  },
+  {
+   "date_iso": "1917-06-17",
+   "date_display": "4 June 1917 (Tsarskoe Selo; probably O.S. = 17 June N.S.)",
+   "precision": "day",
+   "eye": "alexandra",
+   "place": "Alexander Palace, Tsarskoe Selo",
+   "headline": "Summer in captivity: children outdoors, the Tsar at hard labour",
+   "digest": "To M. M. Syroboiarskaya she describes warm weather, the children playing outside and her husband's physical work in the park, and admits how little she now trusts people. It is a captive's letter that reads almost like a country holiday.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Letter dated 4 June 1917, 'Skorbnaya Pamyatka' pp. 52–54, on https://alexanderpalace.org/palace/alexandraexile.html — calendar not stated; O.S. assumed."
+  },
+  {
+   "date_iso": "1917-07-15",
+   "date_display": "Sunday 2 July 1917 O.S. / 15 July 1917 N.S.",
+   "precision": "day",
+   "eye": "gilliard",
+   "place": "Alexander Palace, Tsarskoe Selo",
+   "headline": "Aleksey bathes in the pond",
+   "digest": "In the heat the boy is allowed to bathe in the park pond, and Gilliard records it as a pure joy. The next morning Kronstadt sailors and Bolshevik-led soldiers will pour into Petrograd; Gilliard's diary never mentions the July Days at all.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Thirteen Years ch. XVIII, Sunday 15 July https://www.alexanderpalace.org/2006pierre/chapter_18.html"
+  },
+  {
+   "date_iso": "1917-07-15",
+   "date_display": "Summer 1917",
+   "precision": "month",
+   "eye": "blok",
+   "place": "Petrograd",
+   "headline": "Sensing a great event that will not show its face",
+   "digest": "Working as an editor of the stenographic record of the Extraordinary Commission investigating the old regime's ministers, Blok writes in his diary that he feels some great event approaching but cannot see what it is. The poet of the apocalypse is waiting for his apocalypse.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Diary, summer 1917 (exact day not established here); cited in English Wikipedia 'Alexander Blok' https://en.wikipedia.org/wiki/Alexander_Blok"
+  },
+  {
+   "date_iso": "1917-07-17",
+   "date_display": "16–18 July 1917 N.S. / 3–5 July O.S.",
+   "precision": "range",
+   "eye": "meriel",
+   "place": "British Embassy, Petrograd",
+   "headline": "The Bolshevik rising of July, from the embassy windows",
+   "digest": "Two consecutive chapters ('Bolshevik Rising of July', 'July 17 and 18') cover the armed demonstrations and the shooting in the streets, followed by 'The Taking of the Fortress'. The detail of what she personally saw has not been checked against the 1918 text and is left out here.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Petrograd, the City of Trouble, chapters 18–20 (chapter list https://librivox.org/petrograd-the-city-of-trouble-1914-1918-by-meriel-buchanan/; text https://archive.org/details/cu31924028403123)"
+  },
+  {
+   "date_iso": "1917-07-18",
+   "date_display": "Wednesday 5 July 1917 O.S. / 18 July 1917 N.S.",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Alexander Palace, Tsarskoe Selo",
+   "headline": "Shooting in Petrograd, heard of at second hand",
+   "digest": "He notes that disorder and shooting broke out in Petrograd when soldiers and sailors came in from Kronstadt against the Provisional Government. The next day he records that loyal troops have restored order — and the family spends it chopping and sawing trees.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 5–6 July O.S. / 18–19 July N.S. https://alexanderpalace.org/palace/ndiaries1917.php"
+  },
+  {
+   "date_iso": "1917-07-21",
+   "date_display": "Saturday 8 July 1917 O.S. / 21 July 1917 N.S.",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Alexander Palace, Tsarskoe Selo",
+   "headline": "Kerensky becomes Prime Minister",
+   "digest": "He hears that Prince Lvov has left the government and that Kerensky will head it. Three days later Kerensky visits and mentions a possible move south; on 26 July Nicholas records the Galician front breaking and hopes the restored death penalty is not too late.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 8 July O.S. / 21 July N.S. and following https://alexanderpalace.org/palace/ndiaries1917.php"
+  },
+  {
+   "date_iso": "1917-08-14",
+   "date_display": "Tuesday 1 August 1917 O.S. / 14 August 1917 N.S.",
+   "precision": "day",
+   "eye": "gilliard",
+   "place": "Alexandrovka station near Tsarskoe Selo",
+   "headline": "Departure for Siberia at ten to six",
+   "digest": "After a night of waiting — Kerensky came with Grand Duke Michael for a last meeting between the brothers, and suspicious railwaymen delayed the train — the family leaves under cavalry escort at about ten minutes to six. Two days earlier warm clothing had been ordered, killing their hope of the Crimea; the destination is Tobolsk.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Thirteen Years ch. XVIII, Monday 13 – Tuesday 14 August https://www.alexanderpalace.org/2006pierre/chapter_18.html; ch. XIX https://www.alexanderpalace.org/2006pierre/chapter_XIX.html"
+  },
+  {
+   "date_iso": "1917-09-08",
+   "date_display": "26 August O.S. / 8 September 1917 N.S. (as Bryant gives it); early September 1917",
+   "precision": "range",
+   "eye": "bryant",
+   "place": "Finnish–Russian border (Torneo)",
+   "headline": "A two-day-old Kerensky telegram at the frontier",
+   "digest": "Arriving at the Finnish border on a cheerless grey September morning, Louise Bryant finds a telegram from Kerensky already posted there and already two days stale — news in Russia now travels slower than the events. She goes on through Finland to a Petrograd living through the weeks of the Kornilov affair.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Six Red Months in Russia (1918), ch. I 'On the Way to Russia' https://www.marxists.org/archive/bryant/works/russia/ch01.htm"
+  },
+  {
+   "date_iso": "1917-09-10",
+   "date_display": "late August–early September 1917 O.S. / September 1917 N.S.",
+   "precision": "month",
+   "eye": "meriel",
+   "place": "Petrograd",
+   "headline": "'The Coup d'Etat of Korniloff'",
+   "digest": "Meriel Buchanan devotes a chapter to General Kornilov's march on the capital and its collapse — an episode in which her father's embassy was widely, and falsely, rumoured to be sympathetic to the general. Her own observations are not summarised here because the chapter text was not checked.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Petrograd, the City of Trouble, chapter 22 (chapter list https://librivox.org/petrograd-the-city-of-trouble-1914-1918-by-meriel-buchanan/)"
+  },
+  {
+   "date_iso": "1917-11-05",
+   "date_display": "Monday 23 October 1917 O.S. / 5 November 1917 N.S.",
+   "precision": "day",
+   "eye": "reed",
+   "place": "Mariinsky Palace and Smolny Institute",
+   "headline": "The Peter-Paul Fortress goes over",
+   "digest": "Reed spends the morning watching the Council of the Republic debate foreign policy, sees a film near the Kazan Cathedral in the evening, then goes to Smolny, where he is told the Peter-Paul Fortress garrison has joined the Military Revolutionary Committee. Around him he sees Podvoisky, Antonov, Krylenko and Dybenko at work.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Ten Days That Shook the World (1919), ch. III, 'November 5' (N.S.) https://www.marxists.org/archive/reed/1919/10days/10days/ch3.htm"
+  },
+  {
+   "date_iso": "1917-11-06",
+   "date_display": "Tuesday 24 October 1917 O.S. / 6 November 1917 N.S.",
+   "precision": "day",
+   "eye": "reed",
+   "place": "Smolny; Palace Square; Mariinsky Palace",
+   "headline": "Machine guns on the Smolny steps",
+   "digest": "Leaving Smolny at about three in the morning he passes Red Guards and two machine guns at the door; in daylight he watches cadet artillery arrive at the Winter Palace, hears Kerensky's last speech at the Mariinsky, and by night is back at Smolny listening to Dan and Trotsky past midnight.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Ten Days ch. III, November 6 https://www.marxists.org/archive/reed/1919/10days/10days/ch3.htm"
+  },
+  {
+   "date_iso": "1917-11-07",
+   "date_display": "Wednesday 25 October 1917 O.S. / 7 November 1917 N.S.",
+   "precision": "day",
+   "eye": "reed",
+   "place": "Nevsky Prospekt, Winter Palace, Smolny",
+   "headline": "The day the Provisional Government fell",
+   "digest": "He wakes late, walks down a Nevsky where shops are open and the State Bank guarded, hears the noon gun, visits the Winter Palace where ministers sit behind locked doors guarded by cadets and the women's battalion, and at 10:40 p.m. watches the Congress of Soviets open. Late that night he enters the captured palace with the Red Guards, sees looting stopped by men shouting that it all belongs to the people, and watches the arrested ministers led out.",
+   "quote": "Property of the People",
+   "confidence": "verified",
+   "source_note": "Ten Days ch. IV, 'Wednesday, November 7th' https://www.marxists.org/archive/reed/1919/10days/10days/ch4.htm"
+  },
+  {
+   "date_iso": "1917-11-07",
+   "date_display": "25–26 October 1917 O.S. / 7–8 November N.S.",
+   "precision": "range",
+   "eye": "bryant",
+   "place": "Winter Palace and Smolny, Petrograd",
+   "headline": "'The Fall of the Winter Palace'",
+   "digest": "Bryant, Reed's wife and fellow correspondent, gives the night its own chapter in her book. Her moment-by-moment narrative was not re-read for this edition, so only the fact of her chapter is recorded here; her account and Reed's are best read side by side.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Six Red Months in Russia, ch. VIII (table of contents https://www.marxists.org/archive/bryant/works/russia/index.htm)"
+  },
+  {
+   "date_iso": "1917-11-08",
+   "date_display": "Thursday 26 October 1917 O.S. / 8 November 1917 N.S.",
+   "precision": "day",
+   "eye": "reed",
+   "place": "Smolny Institute",
+   "headline": "Lenin enters at 8:40; peace and land decreed",
+   "digest": "The city has gone back to tramcars and theatres while Reed watches Lenin and Trotsky refuse compromise. At 8:40 p.m. Lenin comes in to a storm of cheering; around 10:35 the Congress adopts the peace proclamation and the delegates sing the Internationale and a funeral march; around two in the morning the land decree passes with one vote against, and the Council of People's Commissars is named.",
+   "quote": "a leader purely by virtue of intellect",
+   "confidence": "verified",
+   "source_note": "Ten Days ch. V https://www.marxists.org/archive/reed/1919/10days/10days/ch5.htm"
+  },
+  {
+   "date_iso": "1917-11-08",
+   "date_display": "Thursday 26 October 1917 O.S. / 8 November 1917 N.S.",
+   "precision": "day",
+   "eye": "gippius",
+   "place": "Petrograd",
+   "headline": "Suffocation: the Kingdom of Antichrist",
+   "digest": "The morning after, Gippius writes of an airless horror, as if something much larger than one city or one country were being strangled. For her the night of 25 October is not a coup but the arrival of the Antichrist's kingdom — a phrase she and Merezhkovsky would later use as a book title.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Petersburg Diaries, 26 October 1917 O.S.; cited in English Wikipedia 'Zinaida Gippius' https://en.wikipedia.org/wiki/Zinaida_Gippius"
+  },
+  {
+   "date_iso": "1917-11-08",
+   "date_display": "late October–November 1917 O.S.",
+   "precision": "month",
+   "eye": "meriel",
+   "place": "British Embassy, Petrograd",
+   "headline": "'The Bolsheviks Strike' and 'The Bolsheviks in Power'",
+   "digest": "Two chapters follow the seizure and its first weeks from inside the British Embassy, whose ambassador was now dealing with a government the Allies did not recognise. Not summarised in detail here.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Petrograd, the City of Trouble, chapters 25–26 (https://librivox.org/petrograd-the-city-of-trouble-1914-1918-by-meriel-buchanan/)"
+  },
+  {
+   "date_iso": "1917-11-12",
+   "date_display": "early–mid November 1917 N.S. (exact days not given)",
+   "precision": "range",
+   "eye": "bryant",
+   "place": "Morskaya and St Isaac's Square, Petrograd",
+   "headline": "Pinned down by an armoured car near St Isaac's",
+   "digest": "In the street fighting after the coup Bryant shelters in a courtyard behind the Angleterre Hotel while the telephone exchange is fought over, sees a man shot near the German Embassy, and watches an armoured car fire into a crowd near St Isaac's Square, killing seven, two of them street boys, before Kronstadt sailors storm it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Six Red Months, ch. XXIII 'Street Fighting' https://www.marxists.org/archive/bryant/works/russia/ch23.htm (no calendar dates in chapter)"
+  },
+  {
+   "date_iso": "1917-11-15",
+   "date_display": "about 2 November 1917 O.S. / 15 November N.S.",
+   "precision": "range",
+   "eye": "gilliard",
+   "place": "Governor's House, Tobolsk",
+   "headline": "News arrives three weeks late",
+   "digest": "Gilliard writes that it was only around 15 November that they learned the Provisional Government had been overthrown and the Bolsheviks were in power. Their news came from irregular letters and a local sheet printed on packing paper with mutilated telegrams days old.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Thirteen Years ch. XIX 'Captivity at Tobolsk' https://www.alexanderpalace.org/2006pierre/chapter_XIX.html"
+  },
+  {
+   "date_iso": "1917-11-17",
+   "date_display": "Saturday 4 November 1917 O.S. / 17 November 1917 N.S.",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Governor's House, Tobolsk",
+   "headline": "Clearing snow; no telegrams for two days",
+   "digest": "He has a letter from his sister Xenia, clears snow and carries wood to the barn, and notes that no agency telegrams have come for two days. A week later he finds the silence from Petrograd 'serious'; on 30 November he finally reads accounts of events in Petrograd and Moscow and calls them worse and more shameful than the troubles of the spring.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 4 Nov O.S. / 17 Nov N.S.; also 24 and 30 Nov N.S. https://alexanderpalace.org/palace/ndiaries1917.php"
+  },
+  {
+   "date_iso": "1917-12-01",
+   "date_display": "Saturday 18 November 1917 O.S. / 1 December 1917 N.S.",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Tobolsk",
+   "headline": "An armistice signed by three delegates",
+   "digest": "He hears that three delegates of the Fifth Army have signed preliminary armistice terms with the Germans and pours out his contempt for the Bolsheviks. It is the first time the word appears with real anger in his diary.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, 18 Nov O.S. / 1 Dec N.S. https://alexanderpalace.org/palace/ndiaries1917.php"
+  },
+  {
+   "date_iso": "1917-12-16",
+   "date_display": "Sunday 3 December 1917 O.S. / 16 December N.S.",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Tobolsk",
+   "headline": "Rehearsing a play, reading Turgenev",
+   "digest": "The family rehearses its amateur play in the drawing room and he reads Turgenev's 'On the Eve' aloud. Earlier that winter he had finished the first volume of Hugo's novel '1793' — the Terror — reading it by lamplight in Siberia.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, posted as 'December 16, Sunday' (the site's Tobolsk headings are N.S. conversions; weekdays match N.S.); see also 23 Nov entry https://alexanderpalace.org/palace/ndiaries1917.php"
+  },
+  {
+   "date_iso": "1918-01-13",
+   "date_display": "31 December 1917 O.S. / 13 January 1918 N.S.",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Tobolsk",
+   "headline": "New Year's Eve: a short prayer for Russia",
+   "digest": "Aleksey gets up and pulls on a boot; the household separates until the New Year; he closes the year with a brief prayer for Russia.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary, posted as 'January 13, Sunday' https://alexanderpalace.org/palace/ndiaries1917.php"
+  },
+  {
+   "date_iso": "1918-01-14",
+   "date_display": "1 January 1918 O.S. / 14 January 1918 N.S.",
+   "precision": "day",
+   "eye": "bunin",
+   "place": "Moscow",
+   "headline": "'This cursed year is over'",
+   "digest": "Bunin opens his diary by writing that the accursed year has ended — and wondering whether something worse is coming. Moscow seems oddly cheerful; an old woman in the street weeps that Russia is lost.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Cursed Days (Okayannye dni), entry '1 January (Old Style)' https://mybook.ru/author/ivan-alekseevich-bunin/okayannye-dni-17/read/"
+  },
+  {
+   "date_iso": "1918-01-18",
+   "date_display": "Friday 5 January 1918 O.S. / 18 January 1918 N.S.",
+   "precision": "day",
+   "eye": "gilliard",
+   "place": "Governor's House, Tobolsk",
+   "headline": "The Tsar gives up his epaulettes",
+   "digest": "On the day the Constituent Assembly opens in Petrograd, Gilliard's Tobolsk entry is about shoulder-straps: after the guard committee voted 100 to 85 to ban them, generals and princes of the household beg the Tsar to remove his, and he yields for his family's sake. The new priest kisses Aleksey's forehead at the blessing.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Thirteen Years ch. XX, Friday 18 January https://www.alexanderpalace.org/2006pierre/chapter_XX.html"
+  },
+  {
+   "date_iso": "1918-01-18",
+   "date_display": "5–6 January 1918 O.S. / 18–19 January N.S.",
+   "precision": "range",
+   "eye": "bryant",
+   "place": "Tauride Palace, Petrograd",
+   "headline": "The Constituent Assembly, from the press gallery",
+   "digest": "Bryant's chapter on the Constituent Assembly covers the single session of Russia's first freely elected parliament, dissolved by the Bolsheviks before dawn. Her detailed observations were not re-checked for this edition.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Six Red Months, ch. IX 'The Constituent Assembly' (contents https://www.marxists.org/archive/bryant/works/russia/index.htm)"
+  },
+  {
+   "date_iso": "1918-01-18",
+   "date_display": "January 1918 (O.S.)",
+   "precision": "month",
+   "eye": "sorokin",
+   "place": "Peter and Paul Fortress (Trubetskoy Bastion), Petrograd",
+   "headline": "An elected deputy in a prison cell",
+   "digest": "Sorokin, an SR elected to the Constituent Assembly, spent its brief life as a prisoner of the Bolsheviks in the Peter and Paul Fortress, having been arrested at the start of January. His diary-book describes the prison and the news reaching it, including the murders of the Kadet deputies Shingarev and Kokoshkin in hospital. These dates are given from general knowledge and were not verified against the book for this edition.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Leaves from a Russian Diary (1924; enlarged 1950) — catalogue note https://www.cliffstreet.org/index.php/writings-pitirim-sorokin/190-leaves-from-a-russian-diary"
+  },
+  {
+   "date_iso": "1918-01-20",
+   "date_display": "7 January 1918 O.S. / 20 January 1918 N.S.",
+   "precision": "day",
+   "eye": "bunin",
+   "place": "Moscow",
+   "headline": "'The Constituent Assembly has been dispersed'",
+   "digest": "Bunin records the Assembly's dispersal in a sentence and then turns to the poet Bryusov, a former courtier of tsardom now leaning towards the Bolsheviks, as a type of the intellectual turncoat.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Cursed Days, entry '7 January' (O.S.) https://mybook.ru/author/ivan-alekseevich-bunin/okayannye-dni-17/read/"
+  },
+  {
+   "date_iso": "1918-01-20",
+   "date_display": "January 1918",
+   "precision": "month",
+   "eye": "meriel",
+   "place": "Petrograd; Finland Station",
+   "headline": "Leaving Petrograd with an ailing ambassador",
+   "digest": "In January 1918, with her father unwell, Meriel Buchanan left Russia with him. Her final chapters, 'Last Days in Petrograd' and 'The Journey from Russia', close her book on a city under the Red Guard.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "English Wikipedia 'Meriel Buchanan' https://en.wikipedia.org/wiki/Meriel_Buchanan; chapters 31–33 (https://librivox.org/petrograd-the-city-of-trouble-1914-1918-by-meriel-buchanan/)"
+  },
+  {
+   "date_iso": "1918-02-11",
+   "date_display": "January 1918 O.S.; completed, by Blok's notebook, on 29 January O.S. = 11 February N.S.",
+   "precision": "range",
+   "eye": "blok",
+   "place": "Petrograd",
+   "headline": "Writing 'The Twelve' in a blizzard",
+   "digest": "In January 1918 Blok writes 'The Twelve', his long poem of twelve Red Guards tramping through a snowstorm in Petrograd, with Christ walking ahead of them. His notebook records finishing it with a famous burst of self-belief. It split the intelligentsia: Gippius and others never forgave him.",
+   "quote": "Today I am a genius.",
+   "confidence": "approx",
+   "source_note": "Poem dated January 1918 (Wikipedia 'The Twelve (poem)' https://en.wikipedia.org/wiki/The_Twelve_(poem)); notebook date 29 Jan 1918 from standard editions, not re-verified here; published 3 March 1918 in 'Znamya Truda'."
+  },
+  {
+   "date_iso": "1918-02-18",
+   "date_display": "5 February 1918 O.S. = 18 February 1918 N.S. (first day Bunin writes under the new calendar)",
+   "precision": "day",
+   "eye": "bunin",
+   "place": "Moscow",
+   "headline": "Thirteen days vanish overnight",
+   "digest": "Bunin notes that the country has jumped to the new calendar, so today is already the 18th. He then describes a writers' evening where Mayakovsky and the young poets swagger, and he records them without mercy.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Cursed Days, entry '5 February' https://mybook.ru/author/ivan-alekseevich-bunin/okayannye-dni-17/read/"
+  },
+  {
+   "date_iso": "1918-02-20",
+   "date_display": "7 February 1918 O.S. / 20 February N.S.",
+   "precision": "day",
+   "eye": "bunin",
+   "place": "Moscow, Lubyanka square",
+   "headline": "Street boys shout that Mogilev has fallen",
+   "digest": "The papers report a general murdered by his guard; newsboys cry that the Germans have taken Mogilev, the old Headquarters. Over these days he records crowds arguing on Lubyanka square, soldiers slipping out of Moscow to avoid the front, and a growing belief that the Germans will simply ride the railway into Petersburg.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Cursed Days, entries 6–16 February https://mybook.ru/author/ivan-alekseevich-bunin/okayannye-dni-17/read/ — after the switch Bunin's headings are ambiguous; N.S. mapping approximate"
+  },
+  {
+   "date_iso": "1918-02-20",
+   "date_display": "Wednesday 20 February 1918 N.S. (7 February O.S.)",
+   "precision": "day",
+   "eye": "gilliard",
+   "place": "Governor's House, Tobolsk",
+   "headline": "The Tsar shaken by the German advance",
+   "digest": "Gilliard writes that the Tsar told him of German advances, naming Reval and Rovno, and was deeply affected. Twelve days earlier the guard committee had swapped the moderate commissar Pankratov for a Bolshevik from Moscow, and demobilisation was sending the friendliest old soldiers home.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Thirteen Years ch. XX, 8–20 February https://www.alexanderpalace.org/2006pierre/chapter_XX.html"
+  },
+  {
+   "date_iso": "1918-03-05",
+   "date_display": "Tuesday 5 March 1918 N.S.",
+   "precision": "day",
+   "eye": "gilliard",
+   "place": "Tobolsk",
+   "headline": "Soldiers smash the children's snow mountain",
+   "digest": "The children had spent weeks building an ice slide with help from the guards. Because the Tsar and Tsarina climbed it to look over the fence, the soldiers' committee orders it destroyed, and men break it up with picks while the children watch, disconsolate.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Thirteen Years ch. XX, 4–5 March https://www.alexanderpalace.org/2006pierre/chapter_XX.html"
+  },
+  {
+   "date_iso": "1918-03-18",
+   "date_display": "5/18 March 1918 (Bunin's double dating)",
+   "precision": "day",
+   "eye": "bunin",
+   "place": "Moscow",
+   "headline": "Bank runs and German advances",
+   "digest": "Crowds besiege the banks to withdraw money while the papers report further German gains in the south. The peace signed at Brest-Litovsk a fortnight earlier has not stopped the German armies moving into Ukraine.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Cursed Days entry 5/18 March 1918 as summarised in English Wikipedia https://en.wikipedia.org/wiki/Cursed_Days"
+  },
+  {
+   "date_iso": "1918-03-19",
+   "date_display": "Tuesday 19 March 1918 N.S.",
+   "precision": "day",
+   "eye": "gilliard",
+   "place": "Tobolsk",
+   "headline": "Brest-Litovsk: 'suicide' and a refusal to be rescued by Germans",
+   "digest": "The treaty is the talk of the house. The Tsar calls it a disgrace that amounts to suicide for Russia; the Tsarina says she would rather die in Russia than be saved by the Germans. Days later a hundred Red Guards arrive from Omsk and Gilliard judges that the last real chance of escape has gone.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Thirteen Years ch. XX, 19 and 23 March https://www.alexanderpalace.org/2006pierre/chapter_XX.html"
+  },
+  {
+   "date_iso": "1918-04-22",
+   "date_display": "Monday 22 April 1918 N.S.",
+   "precision": "day",
+   "eye": "gilliard",
+   "place": "Tobolsk",
+   "headline": "Commissar Yakovlev arrives from Moscow",
+   "digest": "A commissar named Yakovlev arrives with a small detachment, shows his papers, takes tea with the family and then inspects the house and asks about the luggage. Gilliard records an evil portent, vague but real.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Thirteen Years ch. XX, 22–24 April https://www.alexanderpalace.org/2006pierre/chapter_XX.html"
+  },
+  {
+   "date_iso": "1918-04-25",
+   "date_display": "Thursday 25 April 1918 N.S. (night of 25–26 April)",
+   "precision": "day",
+   "eye": "gilliard",
+   "place": "Tobolsk",
+   "headline": "The Tsarina chooses her husband over her sick son",
+   "digest": "Yakovlev announces he will take the Tsar away that night. Tatiana fetches Gilliard; the Empress agonises and then decides to go with Nicholas, entrusting Aleksey, bedridden with a haemophilia attack, to the tutor. Marie goes too. Between half past three and four in the morning they leave in rough peasant carts while Gilliard stays at the boy's side.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Thirteen Years ch. XX, 25 April https://www.alexanderpalace.org/2006pierre/chapter_XX.html"
+  },
+  {
+   "date_iso": "1918-05-23",
+   "date_display": "about 23 May 1918 N.S. (the morning after a night arrival)",
+   "precision": "day",
+   "eye": "gilliard",
+   "place": "Ekaterinburg station",
+   "headline": "Last sight of the children in the mud",
+   "digest": "At about nine in the morning Gilliard watches through a carriage window as the children are taken off the train: the sailor Nagorny carrying Aleksey, the Grand Duchesses with their bags, Tatiana last with her dog and a heavy valise, walking through the mud in the rain. When he tries to get out a sentry pushes him back. He does not yet know he will never see them again.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Thirteen Years ch. XXI https://www.alexanderpalace.org/2006pierre/chapter_XXI.html — Gilliard dates the Tyumen arrival 22 May and the Ekaterinburg arrival only 'in the night'."
+  },
+  {
+   "date_iso": "1918-07-16",
+   "date_display": "Tuesday 16 July 1918 N.S. (3 July O.S.)",
+   "precision": "day",
+   "eye": "alexandra",
+   "place": "Ipatiev House, Ekaterinburg",
+   "headline": "The last ordinary evening",
+   "digest": "Her final diary entry is a list of small things: the weather, Aleksey's health, the kitchen boy Leonid Sednev taken away, a game of bezique with Nicholas, bed at half past ten. A few hours later the family was woken, taken to the basement and shot.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Alexandra's 1918 diary (State Archive of the Russian Federation), widely published (e.g. V. Kozlov & V. Khrustalev eds., 'The Last Diary of Tsaritsa Alexandra', Yale 1997); entry content not re-verified online for this edition."
+  },
+  {
+   "date_iso": "1918-07-27",
+   "date_display": "late July 1918 (Ekaterinburg fell to the Whites on 25 July)",
+   "precision": "range",
+   "eye": "gilliard",
+   "place": "Ipatiev House, Ekaterinburg",
+   "headline": "In the empty house: ash, a hairbrush, bullet marks",
+   "digest": "Once Ekaterinburg falls to the Whites, Gilliard hurries there with Gibbes. Inside the Ipatiev house he finds the upstairs rooms in disorder, ash heaps of burnt belongings, a hairbrush marked with the Empress's initials, her good-luck swastika sign pencilled on a wall with a date, and in a basement room bullet and bayonet marks. He finds no clue to where the family has gone.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Thirteen Years ch. XXI https://www.alexanderpalace.org/2006pierre/chapter_XXI.html"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1917-03-08",
+   "label": "International Women's Day strike; the Tsar leaves for Headquarters",
+   "eyes": [
+    "paleologue",
+    "gilliard"
+   ],
+   "note": "Paléologue sees crowds chanting for bread and peace and a dinner party talking about a ball. Gilliard sees a worried wife and a sick child. Both record the same train leaving, and neither treats it as the fatal mistake it turned out to be."
+  },
+  {
+   "date": "1917-03-12",
+   "label": "The Petrograd garrison mutinies",
+   "eyes": [
+    "paleologue",
+    "nicholas",
+    "meriel",
+    "alexandra"
+   ],
+   "note": "In the streets the ambassador's car is mobbed by mutineers. At Mogilev the Tsar records 'disorders' and a sunny walk. The embassy daughter gives the day its own chapter. The Empress (if her letter is N.S.) is counting her children's fevers."
+  },
+  {
+   "date": "1917-03-14",
+   "label": "Dual power: Duma committee and Soviet; the Tsar stranded at Pskov",
+   "eyes": [
+    "gippius",
+    "paleologue",
+    "nicholas"
+   ],
+   "note": "Gippius is euphoric and Paléologue analytical, counting three rival authorities. The Tsar, turned back on the line, prays for his wife and writes of shame."
+  },
+  {
+   "date": "1917-03-15",
+   "label": "Abdication of Nicholas II at Pskov",
+   "eyes": [
+    "nicholas",
+    "paleologue"
+   ],
+   "note": "In his diary the Tsar records his throne going in a few lines and a cry of betrayal. The ambassador, in the capital, is already reporting the next government."
+  },
+  {
+   "date": "1917-03-16",
+   "label": "News of the abdication; Michael declines",
+   "eyes": [
+    "gilliard",
+    "nicholas",
+    "paleologue"
+   ],
+   "note": "The Empress calls the news a lie. The ex-Tsar reads about Julius Caesar on his train. Paléologue marvels at how casually an empire was signed away."
+  },
+  {
+   "date": "1917-03-21",
+   "label": "Arrest of the imperial couple; Nicholas leaves Headquarters",
+   "eyes": [
+    "gilliard",
+    "paleologue",
+    "nicholas"
+   ],
+   "note": "Kornilov shuts the palace doors at four; the ambassador records the Soviet's demand behind it; Nicholas, not yet told, says farewell to his army."
+  },
+  {
+   "date": "1917-03-22",
+   "label": "Nicholas reaches Tsarskoe Selo as a prisoner",
+   "eyes": [
+    "nicholas",
+    "gilliard",
+    "paleologue"
+   ],
+   "note": "The prisoner sees the sentries, the tutor sees the family reunited, and the diplomat notices a red flag on a grand duke's palace."
+  },
+  {
+   "date": "1917-07-17",
+   "label": "July Days in Petrograd",
+   "eyes": [
+    "meriel",
+    "nicholas",
+    "gilliard"
+   ],
+   "note": "Meriel Buchanan writes chapters about it, and the Tsar hears of the shooting at second hand. Gilliard's diary passes over it entirely: Aleksey has just had a swim in the pond."
+  },
+  {
+   "date": "1917-11-07",
+   "label": "The Bolshevik seizure of power (25 October O.S.)",
+   "eyes": [
+    "reed",
+    "bryant",
+    "gippius",
+    "meriel"
+   ],
+   "note": "The same night as liberation for the two Americans and as the coming of Antichrist for Gippius; from the British Embassy, a government the Allies will not recognise."
+  },
+  {
+   "date": "1917-11-17",
+   "label": "October reaches Siberia",
+   "eyes": [
+    "nicholas",
+    "gilliard"
+   ],
+   "note": "In Tobolsk the household learns of the coup around 15 November N.S. The Tsar notes only that the telegrams have stopped, and two weeks later calls the news more shameful than February."
+  },
+  {
+   "date": "1918-01-18",
+   "label": "The Constituent Assembly opens and is dispersed",
+   "eyes": [
+    "gilliard",
+    "bryant",
+    "sorokin",
+    "bunin"
+   ],
+   "note": "In Petrograd an elected parliament sits for one night. One of its deputies, Sorokin, is in a fortress cell; Bunin in Moscow gives it a sentence two days later; and in Tobolsk the household's crisis that day is the Tsar's epaulettes."
+  },
+  {
+   "date": "1918-02-20",
+   "label": "The German advance after the breakdown at Brest-Litovsk",
+   "eyes": [
+    "bunin",
+    "gilliard"
+   ],
+   "note": "Bunin hears newsboys shout that Mogilev, the old Headquarters, has fallen, and Gilliard watches the former commander-in-chief take in the news of German advances."
+  }
+ ],
+ "ties": [
+  {
+   "a": "nicholas",
+   "b": "alexandra",
+   "kind": "relative",
+   "note": "Husband and wife; their 1914–17 letters to each other are a separate famous source. Both diaries end in the Ipatiev House."
+  },
+  {
+   "a": "nicholas",
+   "b": "mariafeodorovna",
+   "kind": "relative",
+   "note": "Mother and son; each recorded their meeting at Mogilev on 4/17 March 1917 and their final parting on 8/21 March."
+  },
+  {
+   "a": "gilliard",
+   "b": "nicholas",
+   "kind": "met",
+   "note": "Tutor to his children for thirteen years; in captivity the Tsar asked him to help draw up the family's ration budget."
+  },
+  {
+   "a": "gilliard",
+   "b": "alexandra",
+   "kind": "met",
+   "note": "On the night of 25–26 April 1918 she entrusted her son to Gilliard before leaving Tobolsk with her husband."
+  },
+  {
+   "a": "paleologue",
+   "b": "nicholas",
+   "kind": "met",
+   "note": "As ambassador he had regular audiences with the Tsar; his journal follows the abdication and arrest from the capital."
+  },
+  {
+   "a": "paleologue",
+   "b": "meriel",
+   "kind": "mentioned",
+   "note": "The French and British embassies worked as allies; on 12 March the crowd that surrounded Paléologue's car cheered both France and England, and soldiers were posted at both embassies on 16 March."
+  },
+  {
+   "a": "reed",
+   "b": "bryant",
+   "kind": "relative",
+   "note": "Husband and wife; they travelled to Russia together in August 1917 and wrote separate books about the same nights."
+  },
+  {
+   "a": "gippius",
+   "b": "blok",
+   "kind": "read each other",
+   "note": "Old friends in Symbolist Petersburg; Blok's acceptance of October and 'The Twelve' ended the friendship."
+  },
+  {
+   "a": "gippius",
+   "b": "reed",
+   "kind": "opposite sides",
+   "note": "On the night of 25 October each of them wrote about the same events, one as catastrophe and the other as triumph."
+  },
+  {
+   "a": "bunin",
+   "b": "nicholas",
+   "kind": "opposite sides",
+   "note": "Not enemies, but both waited for news while the Germans advanced: Bunin hears that Mogilev, the Tsar's former headquarters, has fallen, while the Tsar takes the news in Tobolsk."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "ww1",
+   "note": "The revolution was born of the First World War: bread queues, frozen railways and mutinous reserve regiments. Paléologue's whole mission was to keep Russia fighting, and the Brest-Litovsk peace of March 1918, which Nicholas called suicide, took Russia out of the war."
+  },
+  {
+   "to": "french-rev",
+   "note": "Everyone measured 1917 against 1789 and 1793. Paléologue compared the revolution with earlier ones, and in Tobolsk Nicholas read Victor Hugo's novel of the Terror, 'Ninety-Three', before being killed with his family, as Louis XVI and his family had been destroyed."
+  },
+  {
+   "to": "russia-1812",
+   "note": "When Nicholas left Mogilev on 8/21 March 1917 his train ran towards Orsha and Vitebsk, along the corridor Napoleon's Grande Armée had used in 1812. The Alexander Palace where he was held had been built for his ancestor Alexander I, the Tsar of 1812."
+  },
+  {
+   "to": "ww2-europe",
+   "note": "The Alexander Palace at Tsarskoe Selo, where the family was held in 1917, was occupied by German forces and the Spanish Blue Division during the siege of Leningrad. Several émigré witnesses here, Bunin and Gippius among them, lived through the Second World War in France."
+  },
+  {
+   "to": "long-threads",
+   "note": "Calendar reform is itself a long thread. Russia's jump from 31 January to 14 February 1918 echoes the Gregorian switches of 1582 and 1752, and it is why the 'October' Revolution was celebrated in November."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:Soldiers_demonstration.February_1917.jpg",
+   "title": "Soldiers' demonstration, February 1917",
+   "caption": "Soldiers marching with banners in Petrograd during the February Revolution, when the garrison went over to the crowd.",
+   "date": "February/March 1917",
+   "credit": "Wikimedia Commons (period photograph)"
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:After_the_capture_of_the_Winter_Palace_26_October_1917.jpg",
+   "title": "After the capture of the Winter Palace",
+   "caption": "The Winter Palace on the morning after it fell, 26 October 1917 O.S. (8 November N.S.), the night Reed walked through it.",
+   "date": "26 October 1917 O.S.",
+   "credit": "Wikimedia Commons (period photograph)"
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:Tauride_palace.jpg",
+   "title": "Tauride Palace",
+   "caption": "Seat of the Duma, the Petrograd Soviet in 1917, and the one-night Constituent Assembly of January 1918; Gippius's visitors streamed past her door towards it.",
+   "date": "",
+   "credit": "Wikimedia Commons"
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/File:Ipatiev_House_-_Dining_room.jpg",
+   "title": "Ipatiev House, dining room",
+   "caption": "A room of the 'House of Special Purpose' in Ekaterinburg, where the family was held from spring 1918 until the murders of 16–17 July; the house was demolished in 1977.",
+   "date": "",
+   "credit": "Wikimedia Commons"
+  },
+  {
+   "url": "https://commons.wikimedia.org/wiki/Category:July_days_(1917)",
+   "title": "July Days (1917), Commons category",
+   "caption": "Period photographs of the July 1917 armed demonstrations and shooting on the Nevsky Prospekt, the rising Nicholas heard of at Tsarskoe Selo.",
+   "date": "July 1917",
+   "credit": "Wikimedia Commons"
+  }
+ ],
+ "further": [
+  {
+   "title": "Nicholas II, 1917 diary extracts (alexanderpalace.org)",
+   "url": "https://alexanderpalace.org/palace/ndiaries1917.php"
+  },
+  {
+   "title": "Paléologue, An Ambassador's Memoirs, full text (alexanderpalace.org)",
+   "url": "https://alexanderpalace.org/mpmemoirs/index.html"
+  },
+  {
+   "title": "Gilliard, Thirteen Years at the Russian Court (Project Gutenberg)",
+   "url": "https://gutenberg.org/cache/epub/60546/pg60546-images.html"
+  },
+  {
+   "title": "Reed, Ten Days That Shook the World (Standard Ebooks)",
+   "url": "https://standardebooks.org/ebooks/john-reed/ten-days-that-shook-the-world"
+  },
+  {
+   "title": "Bryant, Six Red Months in Russia (marxists.org)",
+   "url": "https://www.marxists.org/archive/bryant/works/russia/index.htm"
+  },
+  {
+   "title": "Meriel Buchanan, Petrograd, the City of Trouble (Internet Archive)",
+   "url": "https://archive.org/details/cu31924028403123"
+  },
+  {
+   "title": "Russian Life, '1917 Diary' (diaries of Nicholas II, Gippius, Maria Feodorovna)",
+   "url": "https://www.russianlife.com/magazine/mar-apr-2017/1917-diary/"
+  },
+  {
+   "title": "Alpha History: Meriel Buchanan on unrest in Russia (1916)",
+   "url": "https://alphahistory.com/russianrevolution/meriel-buchanan-unrest-in-russia-1916/"
+  },
+  {
+   "title": "Prozhito (prozhito.org): open digital corpus of Russian personal diaries, with hundreds of ordinary 1917–18 diarists searchable by date. URL not checked this session.",
+   "url": ""
+  }
+ ]
+}

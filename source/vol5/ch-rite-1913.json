@@ -1,0 +1,1471 @@
+{
+ "id": "rite-1913",
+ "title": "The Rite of Spring: Paris, 29 May 1913",
+ "short_title": "The Rite of Spring, 1913",
+ "subtitle": "Stravinsky, Roerich, Nijinsky and the Ballets Russes: the making and the first nights of Le Sacre du printemps, 1910–1914",
+ "span": "1910–1914",
+ "intro": [
+  "Le Sacre du printemps began as a picture in two men's heads: a pagan Russian spring in which a girl dances herself to death to placate the earth. The composer Igor Stravinsky and the painter-archaeologist Nicholas Roerich shaped the scenario in 1910–11, finishing it at Princess Tenisheva's craft estate at Talashkino near Smolensk in July 1911. Stravinsky wrote the music in a cramped room at Clarens on Lake Geneva and in Ustilug in Volhynia; he finished the last dance on 17 November 1912. Serge Diaghilev's Ballets Russes gave it to their 23-year-old star Vaslav Nijinsky to choreograph, and the dancers learned it in rehearsal rooms in Berlin, Vienna, Budapest, Leipzig, London and Monte Carlo while the company was on tour.",
+  "The record of this chapter is mostly not diaries. Some are letters written at the time: Stravinsky to Roerich, to his mother, to Steinberg; Nijinsky to Stravinsky from a Leipzig hotel; Monteux to Stravinsky about horns that could not be heard; Debussy to Stravinsky after playing the score with him. Some are newspaper reviews printed within days of the premiere. One is a true diary entry written that night, by Count Harry Kessler. Much of the most famous testimony, from Stravinsky, Cocteau, Monteux, Rambert, Nijinska and Astruc, was written years or decades later, and it disagrees. Each entry says which kind of source it is.",
+  "On 29 May 1913 most of these people were in one new building, Gabriel Astruc's Théâtre des Champs-Élysées, opened only eight weeks before. Stravinsky sat in the stalls and then fled backstage; Nijinsky stood on a chair in the wings shouting counts to the dancers; Monteux kept conducting; Rambert was among the dancers who could barely hear the orchestra; Kessler, Cocteau and Roerich watched from the house. Van Vechten, who later said he was there, was probably at the second night. Within forty-eight hours the critics had their say, and Le Figaro's Henri Quittard called the work a laborious and puerile barbarity.",
+  "Whether that night was a 'riot' remains open. The accounts written at the time describe laughter, whistling, shouted insults and an orchestra drowned out. They also record that the performance ran to the end and that the dancers took curtain calls. The later stories of fights, ejections, police and a challenge to a duel are harder to confirm. Some writers think Diaghilev courted a scandal; others say the hostility came on its own, aimed at the choreography more than the score. This chapter gives each position with its evidence and does not settle it.",
+  "The chapter ends with two returns. The ballet went to Drury Lane in July 1913 and met a cooler, more puzzled London audience. Then on 5 April 1914 Monteux conducted the music alone at the Casino de Paris, and the audience carried Stravinsky out of the hall on their shoulders. By then Nijinsky had married and been dismissed, his choreography was lost, and within four months Europe was at war."
+ ],
+ "calendar_note": "Russia used the Julian (Old Style) calendar until 1918, thirteen days behind the Gregorian in the twentieth century. Stravinsky often dated letters and sketches in both styles: the sketchbook inscription for the end of the Sacrificial Dance reads 4/17 November 1912. All date_iso values are Gregorian (New Style); where the original carries an Old Style date it is shown in date_display.",
+ "eyes": [
+  {
+   "id": "stravinsky",
+   "short": "Stravinsky",
+   "name": "Igor Fyodorovich Stravinsky",
+   "life": "1882–1971",
+   "role": "Composer, aged 28–31; already famous in Paris for The Firebird (1910) and Petrushka (1911)",
+   "side": "Russian; Ballets Russes",
+   "where": "Ustilug (Volhynia) in summers, Clarens on Lake Geneva in winters; Paris for the premiere",
+   "lat": 46.44,
+   "lon": 6.89,
+   "waypoints": [
+    {
+     "lat": 54.7,
+     "lon": 32.17,
+     "label": "Talashkino, July 1911"
+    },
+    {
+     "lat": 43.74,
+     "lon": 7.42,
+     "label": "Monte Carlo, March 1912"
+    },
+    {
+     "lat": 46.44,
+     "lon": 6.89,
+     "label": "Clarens, finishing the score 1912–13"
+    },
+    {
+     "lat": 52.52,
+     "lon": 13.4,
+     "label": "Berlin rehearsals, Nov–Dec 1912"
+    },
+    {
+     "lat": 48.8656,
+     "lon": 2.3036,
+     "label": "Théâtre des Champs-Élysées, 29 May 1913"
+    },
+    {
+     "lat": 48.876,
+     "lon": 2.33,
+     "label": "Casino de Paris, 5 April 1914"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the composer",
+   "form": "dated letters and sketchbook; interviews of 1913; memoirs and conversation books written later",
+   "language": "Russian, French",
+   "authenticity": "Letters of 1911–13 survive (many published by Robert Craft and in the Russian Stravinsky correspondence); the 1911–13 sketchbook was published in facsimile in 1969. The Montjoie! statement of 29 May 1913 was later disowned by Stravinsky. His Chroniques de ma vie (1935–36) and the Stravinsky–Craft conversation books (1959–62) were written decades later and contradict the earlier record on several points, including how the idea first came to him.",
+   "bio": "Stravinsky was the work's author and its most interested witness, and he kept retelling the story for fifty years. His letters written at the time praise Nijinsky; his later memoirs disparage him. Laying the letters beside the memoirs shows how a premiere becomes a legend.",
+   "sources": [
+    {
+     "title": "Robert Craft, 'Nijinsky and Le Sacre', New York Review of Books, 15 April 1976",
+     "url": "https://www.nybooks.com/articles/1976/04/15/nijinsky-and-le-sacre/"
+    },
+    {
+     "title": "Robert Craft, 'Le Sacre and Pierre Monteux: An Unknown Debt', NYRB, 3 April 1975",
+     "url": "https://www.nybooks.com/articles/1975/04/03/le-sacre-and-pierre-monteux-an-unknown-debt/"
+    }
+   ]
+  },
+  {
+   "id": "roerich",
+   "short": "Roerich",
+   "name": "Nicholas (Nikolai Konstantinovich) Roerich",
+   "life": "1874–1947",
+   "role": "Painter, archaeologist and stage designer, aged 36–39; co-author of the scenario and designer of sets and costumes",
+   "side": "Russian; World of Art circle",
+   "where": "St Petersburg; Talashkino in July 1911; Paris for the premiere",
+   "lat": 59.94,
+   "lon": 30.31,
+   "waypoints": [
+    {
+     "lat": 59.94,
+     "lon": 30.31,
+     "label": "St Petersburg, 1910"
+    },
+    {
+     "lat": 54.7,
+     "lon": 32.17,
+     "label": "Talashkino, July 1911"
+    },
+    {
+     "lat": 48.8656,
+     "lon": 2.3036,
+     "label": "Paris premiere, May 1913"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "co-author and designer",
+   "form": "press interview (1910), essays, dated letters, and later recollections",
+   "language": "Russian",
+   "authenticity": "His interview in the St Petersburg press about the planned ballet is cited by Taruskin and others; his later essays and reminiscences were written after he emigrated (from 1920) and claim the idea as his own, which Stravinsky's later accounts contradict. Costumes made to his designs survive at the V&A and the Harry Ransom Center.",
+   "bio": "Roerich had dug up Scythian burial mounds and painted prehistoric Russia long before he met Stravinsky. He supplied the ethnography, the two-part structure and the visual world of the ballet, with costumes based on Princess Tenisheva's folk collection. Who first had the idea of the sacrifice is still argued over.",
+   "sources": [
+    {
+     "title": "Mike Jay, 'The Rites of Roerich'",
+     "url": "https://mikejay.net/the-rites-of-roerich"
+    },
+    {
+     "title": "V&A: Maiden's costume for Le Sacre du printemps, designed by Roerich, 1913",
+     "url": "https://collections.vam.ac.uk/item/O1115677/theatre-costume/"
+    }
+   ]
+  },
+  {
+   "id": "nijinsky",
+   "short": "Nijinsky",
+   "name": "Vaslav Fomich Nijinsky",
+   "life": "1889/1890–1950",
+   "role": "Principal dancer of the Ballets Russes and choreographer of the Rite, aged about 23",
+   "side": "Russian-Polish; Ballets Russes",
+   "where": "On tour with the company (Berlin, Vienna, Budapest, Leipzig, London, Monte Carlo), then the wings of the Théâtre des Champs-Élysées",
+   "lat": 48.8656,
+   "lon": 2.3036,
+   "waypoints": [
+    {
+     "lat": 52.52,
+     "lon": 13.4,
+     "label": "Berlin, Nov–Dec 1912"
+    },
+    {
+     "lat": 51.34,
+     "lon": 12.37,
+     "label": "Leipzig, January 1913"
+    },
+    {
+     "lat": 51.513,
+     "lon": -0.12,
+     "label": "London, Feb and July 1913"
+    },
+    {
+     "lat": 48.8656,
+     "lon": 2.3036,
+     "label": "Paris premiere, May 1913"
+    },
+    {
+     "lat": 46.49,
+     "lon": 9.84,
+     "label": "St Moritz diary, 1919"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the choreographer in the wings",
+   "form": "dated letters, newspaper interviews (1913), diary written 1919 (later)",
+   "language": "Russian, Polish; interviews in English translation",
+   "authenticity": "His letter to Stravinsky of 25 January 1913 is published by Craft. Interviews appeared in London papers in 1913 (Pall Mall Gazette, February; Daily Mail, July). His diary of January–March 1919 was written in St Moritz as he was entering psychosis; Romola Nijinsky's 1936 edition was heavily cut and altered, and the unexpurgated text appeared only in 1995.",
+   "bio": "Nijinsky had choreographed only one ballet before, L'Après-midi d'un faune. For the Rite he made bodies turn inward, feet in, heads bowed, jumping heavily against Stravinsky's shifting rhythms. In 1913 he expected the work to shock, and he defended it in the press. The choreography was lost after nine performances and was reconstructed only in 1987.",
+   "sources": [
+    {
+     "title": "Millicent Hodson, 'Searching for Nijinsky's Sacre' (1987)",
+     "url": "https://moodle.brynmawr.edu/pluginfile.php/29179/mod_resource/content/1/Hodson%20%281987%29%20Seraching%20for%20Nijinskys%20Sacre.pdf"
+    },
+    {
+     "title": "Robert Craft, 'Nijinsky and Le Sacre', NYRB 1976",
+     "url": "https://www.nybooks.com/articles/1976/04/15/nijinsky-and-le-sacre/"
+    }
+   ]
+  },
+  {
+   "id": "nijinska",
+   "short": "Nijinska",
+   "name": "Bronislava Fominichna Nijinska",
+   "life": "1891–1972",
+   "role": "Dancer of the Ballets Russes, aged 21–22; Nijinsky's sister and his model for the Chosen One",
+   "side": "Russian-Polish; Ballets Russes",
+   "where": "With the company on tour and in rehearsal, winter 1912–13",
+   "lat": 43.74,
+   "lon": 7.42,
+   "vantage": 1,
+   "vantage_label": "the dancer who was meant to be the Chosen One",
+   "form": "memoir (written later)",
+   "language": "Russian (published in English translation)",
+   "authenticity": "Early Memoirs, written over many years and published in English in 1981, edited by her daughter Irina Nijinska and Jean Rawlinson. It is a later reconstruction of events, valuable on rehearsal method but not a contemporary record.",
+   "bio": "Nijinska was the dancer closest to her brother's ideas, and he worked out the Chosen One's sacrificial dance with her in mind. She became pregnant during the rehearsal period and the part went to Maria Piltz. Her memoir is the main inside account of how Nijinsky built the movement.",
+   "sources": [
+    {
+     "title": "Kirkus review of Early Memoirs (1981)",
+     "url": "https://www.kirkusreviews.com/book-reviews/a/bronislava-nijinska/early-memoirs/"
+    }
+   ]
+  },
+  {
+   "id": "rambert",
+   "short": "Rambert",
+   "name": "Marie Rambert (born Cyvia Rambam; also Miriam Ramberg)",
+   "life": "1888–1982",
+   "role": "Dalcroze eurhythmics student hired as rhythm assistant to Nijinsky, aged 24; also danced in the corps",
+   "side": "Polish-born; Ballets Russes",
+   "where": "Hellerau, then with the company in rehearsal and on stage at the premiere",
+   "lat": 48.8656,
+   "lon": 2.3036,
+   "waypoints": [
+    {
+     "lat": 51.11,
+     "lon": 13.77,
+     "label": "Hellerau, Nov 1912"
+    },
+    {
+     "lat": 52.52,
+     "lon": 13.4,
+     "label": "Berlin rehearsals, 1912"
+    },
+    {
+     "lat": 48.8656,
+     "lon": 2.3036,
+     "label": "On stage, 29 May 1913"
+    },
+    {
+     "lat": 51.513,
+     "lon": -0.12,
+     "label": "Drury Lane, July 1913"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "rhythm assistant and dancer on stage",
+   "form": "memoir and interviews (later)",
+   "language": "English",
+   "authenticity": "Quicksilver (London: Macmillan, 1972) and interviews given from the 1960s onward. These are later recollections; the receipt of a score sent to her in December 1913 is documented by Craft.",
+   "bio": "Rambert came from Émile Jaques-Dalcroze's school, where music was taught through bodily movement. Diaghilev hired her to help dancers count Stravinsky's irregular bars. She fell in love with Nijinsky and later founded Britain's oldest dance company, so her memory of that spring shaped British dance for decades.",
+   "sources": [
+    {
+     "title": "Encyclopedia.com: Rambert, Marie (1888–1982)",
+     "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/rambert-marie-1888-1982"
+    },
+    {
+     "title": "Rambert Archive performance database: Marie Rambert",
+     "url": "https://rambert.org.uk/about-rambert/rambert-archive/performance-database/people/marie-rambert"
+    }
+   ]
+  },
+  {
+   "id": "monteux",
+   "short": "Monteux",
+   "name": "Pierre Monteux",
+   "life": "1875–1964",
+   "role": "Principal conductor of the Ballets Russes, aged 37–39",
+   "side": "French; Ballets Russes",
+   "where": "Monte Carlo, on tour, and in the pit of the Théâtre des Champs-Élysées",
+   "lat": 48.8656,
+   "lon": 2.3036,
+   "waypoints": [
+    {
+     "lat": 43.74,
+     "lon": 7.42,
+     "label": "Monte Carlo, spring 1912"
+    },
+    {
+     "lat": 47.5,
+     "lon": 19.04,
+     "label": "Budapest, January 1913"
+    },
+    {
+     "lat": 48.8656,
+     "lon": 2.3036,
+     "label": "Conducting the premiere"
+    },
+    {
+     "lat": 48.876,
+     "lon": 2.33,
+     "label": "Casino de Paris, 5 April 1914"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the conductor in the pit",
+   "form": "dated letters (1913); recollections written later",
+   "language": "French",
+   "authenticity": "His letters to Stravinsky of 4 January and 30 March 1913 were published by Robert Craft (1975). His recollections of the premiere were gathered by his widow Doris Monteux in It's All in the Music (1965) and in John Canarina's biography; they were set down half a century after the event.",
+   "bio": "Monteux had to make the score sound in a real orchestra: his rehearsal letter of March 1913 reports passages that could not be heard, and Stravinsky rewrote them. On the night he kept beating time through the noise. Ten months later he gave the concert performance that turned the scandal into a triumph.",
+   "sources": [
+    {
+     "title": "Robert Craft, 'Le Sacre and Pierre Monteux: An Unknown Debt', NYRB 1975",
+     "url": "https://www.nybooks.com/articles/1975/04/03/le-sacre-and-pierre-monteux-an-unknown-debt/"
+    }
+   ]
+  },
+  {
+   "id": "diaghilev",
+   "short": "Diaghilev",
+   "name": "Serge (Sergei Pavlovich) Diaghilev",
+   "life": "1872–1929",
+   "role": "Impresario and director of the Ballets Russes, aged 38–42",
+   "side": "Russian; Ballets Russes",
+   "where": "Wherever the company was: Monte Carlo, Hellerau, Berlin, London, Paris",
+   "lat": 48.8656,
+   "lon": 2.3036,
+   "waypoints": [
+    {
+     "lat": 43.74,
+     "lon": 7.42,
+     "label": "Monte Carlo, March 1912"
+    },
+    {
+     "lat": 51.11,
+     "lon": 13.77,
+     "label": "Hellerau, Nov 1912"
+    },
+    {
+     "lat": 48.8656,
+     "lon": 2.3036,
+     "label": "Paris, May 1913"
+    },
+    {
+     "lat": 51.513,
+     "lon": -0.12,
+     "label": "London, July 1913"
+    },
+    {
+     "lat": 46.52,
+     "lon": 6.63,
+     "label": "Lausanne, Sept 1913"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the impresario",
+   "form": "letters and telegrams; remarks recorded by others",
+   "language": "Russian, French",
+   "authenticity": "Diaghilev kept no diary. His reactions survive mainly as reported by others: in Stravinsky's letters of 1912 and in later memoirs by Stravinsky, Cocteau, Grigoriev and others. Those later reports conflict.",
+   "bio": "Diaghilev commissioned the Rite and gave it to Nijinsky, his lover, over the experienced Fokine. He postponed it a year, hired Rambert to drill the rhythms, and invited the press to the dress rehearsal. Whether he wanted a scandal is still argued; that he relished being talked about is not.",
+   "sources": [
+    {
+     "title": "Marina Frolova-Walker, 'Diaghilev's Ballets Russes' Gresham lecture transcript (2020)",
+     "url": "https://www.gresham.ac.uk/sites/default/files/2020-1-21_FrolovaWalker_Diaghilev3-T.pdf"
+    }
+   ]
+  },
+  {
+   "id": "kessler",
+   "short": "Kessler",
+   "name": "Count Harry Kessler",
+   "life": "1868–1937",
+   "role": "German diplomat, patron and writer, aged 45; friend of the Ballets Russes and co-author with Hofmannsthal of the ballet Josephslegende for Diaghilev",
+   "side": "German; cosmopolitan patron",
+   "where": "In the audience at the Théâtre des Champs-Élysées",
+   "lat": 48.8656,
+   "lon": 2.3036,
+   "vantage": 1,
+   "vantage_label": "diarist in the audience",
+   "form": "diary",
+   "language": "German",
+   "authenticity": "Kessler kept a diary from 1880 to 1937; the manuscript survives at the Deutsches Literaturarchiv Marbach and is published in full (Cotta, 9 vols.). English selection: Journey to the Abyss, ed. Laird Easton (2011). The entry of 29 May 1913 is genuinely of that night.",
+   "bio": "Kessler moved among Rodin, Maillol, Hofmannsthal, Strauss and the Ballets Russes, and wrote it all down. His entry is the only true diary of the premiere among the major witnesses. A year later he was writing about the war in the same notebooks.",
+   "sources": [
+    {
+     "title": "Kulturstiftung des Bundes, Sacre programme (quotes the diary entry of 29 May 1913)",
+     "url": "https://www.kulturstiftung-des-bundes.de/fileadmin/user_upload/download/download/sacre_programmheft_ohneAbb.pdf"
+    }
+   ]
+  },
+  {
+   "id": "cocteau",
+   "short": "Cocteau",
+   "name": "Jean Cocteau",
+   "life": "1889–1963",
+   "role": "Poet and young follower of the Ballets Russes, aged 23",
+   "side": "French; Diaghilev's circle",
+   "where": "In the audience, and (by his account) with Diaghilev, Nijinsky and Stravinsky afterwards",
+   "lat": 48.8656,
+   "lon": 2.3036,
+   "vantage": 1,
+   "vantage_label": "in the audience; witness-storyteller",
+   "form": "essay (written later, 1918)",
+   "language": "French",
+   "authenticity": "Le Coq et l'Arlequin (1918) was written five years after the event and is a manifesto, not a record. Stravinsky later rejected Cocteau's story of the night drive to the Bois de Boulogne.",
+   "bio": "Cocteau gave the premiere its most quoted images: the duchesses in the boxes, the bohemians cheering anything new, and the old countess who said no one had mocked her like this in sixty years. He also wrote a scene of Diaghilev weeping in a cab. His account fixed the legend and is the hardest to check.",
+   "sources": [
+    {
+     "title": "bpb: Melanie Unseld, 'Le sacre du printemps' (Sound des Jahrhunderts, 2016)",
+     "url": "https://www.bpb.de/themen/zeit-kulturgeschichte/sound-des-jahrhunderts/209617/le-sacre-du-printemps/"
+    }
+   ]
+  },
+  {
+   "id": "vanvechten",
+   "short": "Van Vechten",
+   "name": "Carl Van Vechten",
+   "life": "1880–1964",
+   "role": "American music critic and journalist in Paris, aged 33",
+   "side": "American press",
+   "where": "In the audience, probably at the second performance",
+   "lat": 48.8656,
+   "lon": 2.3036,
+   "waypoints": [
+    {
+     "lat": 48.8656,
+     "lon": 2.3036,
+     "label": "Paris, early June 1913"
+    },
+    {
+     "lat": 40.71,
+     "lon": -74.0,
+     "label": "New York, book published 1915"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "foreign critic in the stalls",
+   "form": "essay (published 1915)",
+   "language": "English",
+   "authenticity": "His account appeared in Music After the Great War (New York, 1915), now on Project Gutenberg. A 1916 letter, published in 2013, admits he attended the second night, not the premiere he claimed.",
+   "bio": "Van Vechten's story of a young man beating time on his head with his fists is the most vivid English-language picture of the Rite audience, and the least reliable. He later became a novelist and photographer and a patron of the Harlem Renaissance.",
+   "sources": [
+    {
+     "title": "Carl Van Vechten, Music After the Great War (1915), Project Gutenberg",
+     "url": "https://gutenberg.org/ebooks/73668"
+    }
+   ]
+  },
+  {
+   "id": "astruc",
+   "short": "Astruc",
+   "name": "Gabriel Astruc",
+   "life": "1864–1938",
+   "role": "Impresario, founder and director of the Théâtre des Champs-Élysées, aged 48–49",
+   "side": "French; the theatre",
+   "where": "His new theatre on the avenue Montaigne",
+   "lat": 48.8656,
+   "lon": 2.3036,
+   "vantage": 0,
+   "vantage_label": "the theatre's director",
+   "form": "memoir (written later, 1929) and theatre records",
+   "language": "French",
+   "authenticity": "Le Pavillon des fantômes (1929) is a memoir written sixteen years later. The theatre's opening, the Ballets Russes fee and his ejection in November 1913 are documented independently.",
+   "bio": "Astruc built the modern concrete theatre and paid Diaghilev 25,000 francs a performance, twice the previous year's fee, to give it a sensational first season. Within six months he was out of money and out of the building. In some accounts he is the man who shouted at the audience to listen first and whistle afterwards.",
+   "sources": [
+    {
+     "title": "Théâtre des Champs-Élysées (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es"
+    }
+   ]
+  },
+  {
+   "id": "debussy",
+   "short": "Debussy",
+   "name": "Claude Debussy",
+   "life": "1862–1918",
+   "role": "Composer, aged 49–51; his ballet Jeux was premiered by Nijinsky two weeks before the Rite",
+   "side": "French",
+   "where": "Paris; Laloy's house at Bellevue; the Théâtre des Champs-Élysées",
+   "lat": 48.872,
+   "lon": 2.28,
+   "vantage": 2,
+   "vantage_label": "rival and fellow composer in the same city",
+   "form": "dated letters",
+   "language": "French",
+   "authenticity": "His letters to Stravinsky are published in Debussy's Correspondance (Gallimard, 2005). The four-hand reading at Laloy's house is known from Louis Laloy's later memoir, redated by scholars from 1913 to 9 June 1912.",
+   "bio": "Debussy was the senior modern composer in Paris and the person Stravinsky most wanted to impress. He sight-read the Rite with its composer a year before the premiere and wrote that it haunted him. His own Nijinsky ballet, Jeux, was overshadowed by the Rite within a fortnight.",
+   "sources": [
+    {
+     "title": "Robert Craft, 'Nijinsky and Le Sacre', NYRB 1976 (dates the Debussy letter and Laloy reading)",
+     "url": "https://www.nybooks.com/articles/1976/04/15/nijinsky-and-le-sacre/"
+    }
+   ]
+  },
+  {
+   "id": "quittard",
+   "short": "Quittard",
+   "name": "Henri Quittard",
+   "life": "1864–1919",
+   "role": "Musicologist and music critic of Le Figaro",
+   "side": "French press",
+   "where": "Paris",
+   "lat": 48.872,
+   "lon": 2.338,
+   "vantage": 1,
+   "vantage_label": "the hostile critic",
+   "form": "newspaper review",
+   "language": "French",
+   "authenticity": "Signed review in Le Figaro, 31 May 1913, digitised on Gallica.",
+   "bio": "Quittard was a learned historian of French music, not a philistine, which makes his rejection more telling. His review spoke for the part of the Parisian audience that felt it was being mocked.",
+   "sources": [
+    {
+     "title": "The Rite of Spring (Wikipedia: reception section, citing Le Figaro 31 May 1913)",
+     "url": "https://en.wikipedia.org/wiki/The_Rite_of_Spring"
+    }
+   ]
+  },
+  {
+   "id": "riviere",
+   "short": "Rivière",
+   "name": "Jacques Rivière",
+   "life": "1886–1925",
+   "role": "Critic and editor at La Nouvelle Revue Française, aged 26–27",
+   "side": "French; NRF circle",
+   "where": "Paris",
+   "lat": 48.853,
+   "lon": 2.333,
+   "vantage": 2,
+   "vantage_label": "the critic who argued it through",
+   "form": "essay (periodical, November 1913)",
+   "language": "French",
+   "authenticity": "'Le Sacre du printemps', La Nouvelle Revue Française, November 1913; reprinted in his collected criticism.",
+   "bio": "Rivière took six months to write the defence the work needed. He argued that the Rite stripped away Impressionist atmosphere and showed things hard, bare and objective. His essay set the terms in which modernism was defended in Paris.",
+   "sources": [
+    {
+     "title": "Kulturstiftung des Bundes, Sacre programme (Rivière excerpt)",
+     "url": "https://www.kulturstiftung-des-bundes.de/fileadmin/user_upload/download/download/sacre_programmheft_ohneAbb.pdf"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1910",
+   "date_display": "1910 (summer)",
+   "precision": "year",
+   "eye": "roerich",
+   "place": "St Petersburg",
+   "headline": "Roerich tells the press of a ballet of ancient Slavic rites",
+   "digest": "Roerich told a St Petersburg paper that he and Stravinsky were planning a ballet that would bring back the ancient world of the Slavs: the spring festival, the elders, a sacrifice. He presented it as a resurrection of antiquity rather than a fairy tale, and the idea was already in his own earlier essays on the beginnings of art. Diaghilev approved the plan, but Stravinsky put it aside to write Petrushka.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Interview in Peterburgskaya gazeta, cited by Taruskin and summarised by Mike Jay, 'The Rites of Roerich'; Wikipedia gives May 1910 for the first Stravinsky–Roerich discussions. Exact day and year of the interview not confirmed here (Jay implies 1911)."
+  },
+  {
+   "date_iso": "1911-07",
+   "date_display": "July 1911 (last week)",
+   "precision": "month",
+   "eye": "stravinsky",
+   "place": "Journey from Ustilug to Talashkino, near Smolensk",
+   "headline": "Riding a cattle car to meet Roerich at Talashkino",
+   "digest": "Stravinsky wrote to Roerich about getting to Princess Tenisheva's estate: unable to find a proper train, he travelled from Brest-Litovsk in a cattle car. At Talashkino the two men spent several days fixing the plan of the ballet into two parts, 'The Adoration of the Earth' and 'The Sacrifice', with its titled episodes.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Letter to Roerich (undated), cited in Craft, NYRB 15 April 1976; Wikipedia (Rite of Spring), conception section."
+  },
+  {
+   "date_iso": "1911-07",
+   "date_display": "July 1911",
+   "precision": "month",
+   "eye": "roerich",
+   "place": "Talashkino, Smolensk province",
+   "headline": "Among Tenisheva's folk costumes, the ballet takes shape",
+   "digest": "At Talashkino, Princess Maria Tenisheva's craft colony, Roerich worked through her collection of old peasant costumes and embroidery. These became the basis of the Rite's hand-painted smocks, and the scenario he and Stravinsky agreed there gave the ballet its two-part structure.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Mike Jay, 'The Rites of Roerich'; Wikipedia (Rite of Spring). Roerich's own accounts were written later."
+  },
+  {
+   "date_iso": "1911-09-26",
+   "date_display": "26 September 1911",
+   "precision": "day",
+   "eye": "stravinsky",
+   "place": "Ustilug, Volhynia",
+   "headline": "Composition begins with the augurs and the divination",
+   "digest": "Back at his family's estate, Stravinsky wrote to Roerich that he had started composing. He mentioned the 'Divination with Twigs' episode, and worked through the autumn on what became 'Augurs of Spring' and 'Spring Rounds' before moving to Clarens for the winter.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Letter to Roerich, 26 September 1911, cited in Craft, NYRB 15 April 1976."
+  },
+  {
+   "date_iso": "1912-03-30",
+   "date_display": "30 March 1912",
+   "precision": "day",
+   "eye": "stravinsky",
+   "place": "Monte Carlo",
+   "headline": "Diaghilev and Nijinsky hear the music and are wild about it",
+   "digest": "Writing to his mother, Stravinsky reported that he had played excerpts at the piano for Diaghilev and Nijinsky and that they were wild about it. He still assumed the choreography would go to Michel Fokine. Within months Diaghilev had given it to Nijinsky instead, and Stravinsky began to worry about it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Letter to his mother, Monte Carlo, 30 March 1912, cited in Craft, NYRB 15 April 1976."
+  },
+  {
+   "date_iso": "1912-04",
+   "date_display": "Spring 1912 (recalled much later)",
+   "precision": "month",
+   "eye": "monteux",
+   "place": "Monte Carlo, a small rehearsal room",
+   "headline": "The conductor hears the piano score and thinks the composer mad",
+   "digest": "Monteux later remembered Stravinsky pounding out the score on an upright piano for Diaghilev, singing and stamping, while the walls shook. His own conclusion, he said, was that Stravinsky was raving mad, and he resolved privately to have nothing to do with the music. A year later he was rehearsing it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Monteux's recollection in Doris Monteux, It's All in the Music (1965), summarised in Craft, NYRB 3 April 1975 (about seven months before November 1912). Written about fifty years later."
+  },
+  {
+   "date_iso": "1912-06-09",
+   "date_display": "Sunday 9 June 1912",
+   "precision": "day",
+   "eye": "debussy",
+   "place": "Louis Laloy's house, Bellevue, near Paris",
+   "headline": "Debussy and Stravinsky sight-read the Rite at four hands",
+   "digest": "At the critic Louis Laloy's house, Stravinsky and Debussy played through the four-hand version of the first part, Debussy reading at sight. Laloy later remembered the guests sitting stunned when the two stopped. Laloy dated the evening to 1913 in his memoir; scholars have moved it back a year.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Laloy, La Musique retrouvée (1928), as redated in Craft, NYRB 15 April 1976 (footnote 9); Wikipedia gives June 1912."
+  },
+  {
+   "date_iso": "1912-11",
+   "date_display": "early November 1912 (received at Clarens, postmark 8 November)",
+   "precision": "month",
+   "eye": "debussy",
+   "place": "Paris, avenue du Bois de Boulogne",
+   "headline": "The reading at Laloy's haunts Debussy like a nightmare",
+   "digest": "Debussy wrote to Stravinsky that their play-through at Laloy's stayed with him, like a beautiful nightmare he could not shake, and that he was impatient to hear the work in full. The letter is generous and also a little uneasy: the elder composer could see that the younger had gone somewhere he would not follow.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Debussy to Stravinsky, postmarked Clarens 8 November 1912 (Craft, NYRB 1976); Debussy, Correspondance (2005). Exact writing day not confirmed here."
+  },
+  {
+   "date_iso": "1912-11",
+   "date_display": "November 1912",
+   "precision": "month",
+   "eye": "diaghilev",
+   "place": "Jaques-Dalcroze Institute, Hellerau, near Dresden",
+   "headline": "Diaghilev and Nijinsky hire a rhythm specialist at Hellerau",
+   "digest": "Diaghilev and Nijinsky visited Émile Jaques-Dalcroze's new institute, where students learned music by moving to it. Diaghilev engaged Marie Rambert to help the company count and feel Stravinsky's irregular metres. It was a sign that he expected the dancers to struggle with the score.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Encyclopedia.com, 'Rambert, Marie'; Rambert, Quicksilver (1972). Month approximate."
+  },
+  {
+   "date_iso": "1912-11-17",
+   "date_display": "Sunday 4/17 November 1912",
+   "precision": "day",
+   "eye": "stravinsky",
+   "place": "Clarens, Switzerland",
+   "headline": "Finishing the Sacrificial Dance with a raging toothache",
+   "digest": "At the end of the sketchbook Stravinsky noted that he had finished the music of the Sacre that day at Clarens, suffering from an unbearable toothache. He dated it in both calendars. The full orchestral score was not signed off until 8 March 1913, and he went on revising the final bars into April.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sketchbook inscription (facsimile, Boosey & Hawkes 1969); Wikipedia citing Van den Toorn p. 24; score dated Clarens 8 March 1913."
+  },
+  {
+   "date_iso": "1912-11-28",
+   "date_display": "late November – early December 1912",
+   "precision": "range",
+   "eye": "rambert",
+   "place": "Rehearsal room, Berlin",
+   "headline": "Stravinsky storms in, pushes aside the pianist and plays",
+   "digest": "Rambert later recalled Stravinsky arriving at a Berlin rehearsal, appalled at the tempo, shoving the rehearsal pianist off the bench and hammering the score out himself twice as fast while stamping and shouting. The dancers realised how far from the music they were. Stravinsky spent about two weeks supervising in Berlin.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Rambert, Quicksilver (1972), cited in Craft, NYRB 3 April 1975 and 15 April 1976. Written about sixty years later."
+  },
+  {
+   "date_iso": "1912-12-14",
+   "date_display": "14 December 1912",
+   "precision": "day",
+   "eye": "stravinsky",
+   "place": "Clarens",
+   "headline": "Back in Switzerland, promising Nijinsky to return if needed",
+   "digest": "Writing to Roerich, Stravinsky reported on the Berlin rehearsals and said he had promised Nijinsky he would come back whenever needed. Around the same time he told the critic Findeizen that Nijinsky was directing with passionate zeal. These letters from the time praise the choreographer.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Letter to Roerich, 14 December 1912; letter to N. F. Findeizen (about six months before the premiere); both cited in Craft, NYRB 15 April 1976."
+  },
+  {
+   "date_iso": "1912-12",
+   "date_display": "winter 1912–13 (recalled later)",
+   "precision": "range",
+   "eye": "nijinska",
+   "place": "Rehearsal rooms on tour",
+   "headline": "Vaslav shapes the Chosen One's dance on his sister",
+   "digest": "Nijinska recalled her brother working out the sacrificial solo with her as his model: a dance of terror and ecstasy, the body thrown and jerked, nothing like the classical vocabulary she had trained in. She describes it as the strongest dancing he had made. In her memoir it is the part she was born to dance.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Nijinska, Early Memoirs (1981); summary via Eva Stachniak and Wikipedia (citing Kelly). Dates are the memoir's reconstruction."
+  },
+  {
+   "date_iso": "1913-01-04",
+   "date_display": "4 January 1913",
+   "precision": "day",
+   "eye": "monteux",
+   "place": "Hotel Europa, Budapest",
+   "headline": "A stiff answer to the composer's complaint about Firebird",
+   "digest": "Stravinsky had blamed Monteux for a poor Firebird and threatened action. Monteux replied that his contract bound him to conduct every performance and that his admiration for Stravinsky had not changed. Three months before the Rite's orchestral rehearsals, the two men who had to bring it to life were barely on speaking terms.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Monteux to Stravinsky, 4 January 1913, published in Craft, NYRB 3 April 1975."
+  },
+  {
+   "date_iso": "1913-01-25",
+   "date_display": "25 January 1913",
+   "precision": "day",
+   "eye": "nijinsky",
+   "place": "Hotel Hauffe, Leipzig",
+   "headline": "Only five rehearsals since Vienna; the public will be shocked",
+   "digest": "Nijinsky wrote to Stravinsky that touring left him almost no time: only five rehearsals since the company left Vienna. He was nonetheless sure of the work and predicted that ordinary audiences would be shocked by it. The letter shows him expecting the reaction, not surprised by it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nijinsky to Stravinsky, Leipzig, 25 January 1913, cited in Craft, NYRB 1975 and 1976."
+  },
+  {
+   "date_iso": "1913-02",
+   "date_display": "February 1913",
+   "precision": "month",
+   "eye": "nijinsky",
+   "place": "London (company rehearsing at the Aldwych Theatre)",
+   "headline": "Telling a London paper what the new ballet will be",
+   "digest": "During the Beecham season, with Rite rehearsals running in London, Nijinsky described the coming work to a London interviewer as nature itself made into movement, not a story ballet. Stravinsky was in London supervising and left in mid-February to finish the full score in Clarens.",
+   "quote": "the soul of nature expressed by movement to music",
+   "confidence": "approx",
+   "source_note": "Pall Mall Gazette, February 1913, cited in Hodson, 'Searching for Nijinsky's Sacre' (1987); London rehearsals per Craft 1975 and momh.org.uk. Day not confirmed."
+  },
+  {
+   "date_iso": "1913-03",
+   "date_display": "early 1913 (exact date not established)",
+   "precision": "range",
+   "eye": "nijinska",
+   "place": "With the company on tour",
+   "headline": "Pregnant, she must give up the Chosen One",
+   "digest": "Nijinska found she was expecting a child by her husband, the dancer Alexander Kochetovsky. Vaslav was furious and hurt, she recalled, since the solo had been built on her. The role passed to Maria Piltz, a capable but little-known dancer, who learned the steps from what Nijinsky had made with his sister.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Nijinska, Early Memoirs (1981); Wikipedia (Rite of Spring) citing Kelly pp. 273–77. No exact date in the sources consulted."
+  },
+  {
+   "date_iso": "1913-03-30",
+   "date_display": "30 March 1913",
+   "precision": "day",
+   "eye": "monteux",
+   "place": "Paris",
+   "headline": "Report from the first orchestral rehearsals: horns inaudible",
+   "digest": "Monteux wrote to Stravinsky after his first sessions with the 99-piece orchestra: two string rehearsals, three wind rehearsals and two full ones for the Sacre. He listed four passages where melodies were swallowed: horns and violas, a lone flute, weak tubas, muted horns. Stravinsky rewrote every one, and the manuscript shows both versions.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Monteux to Stravinsky, Paris, 30 March 1913, published in Craft, NYRB 3 April 1975."
+  },
+  {
+   "date_iso": "1913-04-02",
+   "date_display": "2 April 1913",
+   "precision": "day",
+   "eye": "astruc",
+   "place": "Théâtre des Champs-Élysées, avenue Montaigne",
+   "headline": "The new theatre opens with five composers conducting",
+   "digest": "Astruc's reinforced-concrete theatre, with façade reliefs by Bourdelle, opened with a gala at which Debussy, Dukas, Fauré, d'Indy and Saint-Saëns conducted their own works. Berlioz's Benvenuto Cellini followed the next night. The Ballets Russes season, for which Astruc paid Diaghilev double his previous fee, was to be its main attraction.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Théâtre des Champs-Élysées (Wikipedia); fee from Wikipedia (Rite of Spring) citing Kelly p. 276. Some sources give 31 March for the inauguration."
+  },
+  {
+   "date_iso": "1913-05-15",
+   "date_display": "15 May 1913",
+   "precision": "day",
+   "eye": "debussy",
+   "place": "Théâtre des Champs-Élysées",
+   "headline": "Jeux premieres, two weeks before the Rite",
+   "digest": "Debussy's ballet Jeux, choreographed by Nijinsky as a game of tennis and flirtation, opened the Ballets Russes season in the new theatre. It was received politely and soon forgotten. Debussy had disliked Nijinsky's treatment of his music; within a fortnight the same choreographer and the same house would be in the middle of a much larger scandal.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Théâtre des Champs-Élysées and Jeux (Wikipedia). Debussy's view of the choreography from his letters (Correspondance, 2005), not quoted here."
+  },
+  {
+   "date_iso": "1913-05-28",
+   "date_display": "Wednesday 28 May 1913",
+   "precision": "day",
+   "eye": "stravinsky",
+   "place": "Théâtre des Champs-Élysées",
+   "headline": "The dress rehearsal before the press passes peacefully",
+   "digest": "Diaghilev invited critics and guests to a full dress rehearsal. By Stravinsky's later account it went quietly; it was the only complete performance of Nijinsky's choreography he ever saw from the house. Talk from the rehearsal room had already spread round Paris, and at least one critic came away expecting trouble.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Craft, NYRB 15 April 1976; Wikipedia (Rite of Spring), citing Stravinsky's later account and Boschot in L'Écho de Paris."
+  },
+  {
+   "date_iso": "1913-05-29",
+   "date_display": "Thursday 29 May 1913 (morning press)",
+   "precision": "day",
+   "eye": "stravinsky",
+   "place": "Paris",
+   "headline": "A statement in Montjoie! he would later disown",
+   "digest": "On the morning of the premiere the review Montjoie! printed an article under Stravinsky's name explaining the work as a pagan Russia's terror at the rising beauty of spring. It was based on his talk with the editor Ricciotto Canudo. Stravinsky later said it had been garbled, as he moved toward claiming the music had no programme at all.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Montjoie!, 29 May 1913, 'Ce que j'ai voulu exprimer dans Le Sacre du printemps'; mentioned in Rivière (NRF Nov 1913) and quoted via Joseph, Stravinsky's Ballets (Sembrich). Issue date as usually cited; not checked against the issue."
+  },
+  {
+   "date_iso": "1913-05-29",
+   "date_display": "Thursday 29 May 1913, evening (recalled later)",
+   "precision": "day",
+   "eye": "stravinsky",
+   "place": "Seat 111 in the stalls, then the wings",
+   "headline": "Laughter at the bassoon, and a dash backstage",
+   "digest": "The programme opened with Les Sylphides; the Rite came second. In his later memoirs Stravinsky said mocking laughter began during the slow Introduction and that he left his seat in anger, slamming through to the wings. There he found Nijinsky standing on a chair, shouting the numbers to the dancers. He said he held Nijinsky by his coat-tails so he would not jump onto the stage.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Stravinsky, Chroniques de ma vie (1935) and Expositions and Developments (1962); seat number from Craft, NYRB 1976. The date is certain; the details are from later memoirs."
+  },
+  {
+   "date_iso": "1913-05-29",
+   "date_display": "29 May 1913 (diary)",
+   "precision": "day",
+   "eye": "kessler",
+   "place": "Théâtre des Champs-Élysées",
+   "headline": "A diarist sees something never seen before",
+   "digest": "Kessler wrote in his diary that night that the new theatre was the most brilliant house he had seen in Paris, crowded with society. He called the ballet an entirely new choreography and music, a new vision, gripping and convincing. Of all the eyes in the hall, he is the only one whose words were written that same night.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kessler, Das Tagebuch, entry for 29 May 1913 (German phrases quoted in the Kulturstiftung des Bundes Sacre programme); 'most dazzling house' in Laird Easton's English selection as quoted by Classic FM (2018). Wording paraphrased."
+  },
+  {
+   "date_iso": "1913-05-29",
+   "date_display": "29 May 1913 (recalled later)",
+   "precision": "day",
+   "eye": "rambert",
+   "place": "On stage, Théâtre des Champs-Élysées",
+   "headline": "On stage the dancers could no longer hear the music",
+   "digest": "Rambert remembered that the noise from the house soon made the orchestra inaudible on stage. The dancers kept going on the counts Nijinsky shouted from the wings, which they had drilled for months. She later said that the Rite had taken about a hundred rehearsals.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Rambert, Quicksilver (1972) and later interviews; Wikipedia citing Hill pp. 28–30; 'a hundred rehearsals' from a Rambert interview quoted in Hodson (1987). The often-cited figure of 120 rehearsals is not confirmed here."
+  },
+  {
+   "date_iso": "1913-05-29",
+   "date_display": "29 May 1913 (recalled later)",
+   "precision": "day",
+   "eye": "monteux",
+   "place": "Orchestra pit",
+   "headline": "Eyes on the score, the conductor keeps going",
+   "digest": "Monteux remembered keeping his eyes on the score and beating time steadily while objects and insults flew, determined to get the orchestra to the end. In his later telling, about forty people were thrown out. The orchestra played to the last bar and the company took curtain calls.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Monteux's recollections in It's All in the Music (1965) and Canarina's biography, via Wikipedia (Rite of Spring). The ejections are not confirmed by any police or theatre record."
+  },
+  {
+   "date_iso": "1913-05-29",
+   "date_display": "29 May 1913 (account written 1918)",
+   "precision": "day",
+   "eye": "cocteau",
+   "place": "In the audience",
+   "headline": "Boxes against the gallery, and an outraged old countess",
+   "digest": "Cocteau later described the house as a social battlefield: the boxes in pearls and the bohemians who would cheer anything new out of hatred for the boxes. He reported that the Comtesse de Pourtalès, fan trembling, declared that this was the first time in sixty years anyone had dared to make fun of her. The line has been repeated ever since, and he is its only source.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Cocteau, Le Coq et l'Arlequin (1918); bpb (Unseld 2016); Wikipedia citing Ross p. 74. Written five years later."
+  },
+  {
+   "date_iso": "1913-05-29",
+   "date_display": "29 May 1913 (memoir, 1929)",
+   "precision": "day",
+   "eye": "astruc",
+   "place": "His box / the auditorium",
+   "headline": "Listen first, whistle afterwards",
+   "digest": "In the accounts that follow Astruc's memoir, the theatre's director leaned out of his box and called on the audience to listen first and whistle afterwards. The house lights were also turned up and down to quiet the hall; some accounts credit Diaghilev with this. Neither move stopped the noise.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Astruc, Le Pavillon des fantômes (1929) as cited in secondary accounts; lights per WILL Clef Notes summary. Who did what is not consistent across sources."
+  },
+  {
+   "date_iso": "1913-05-29",
+   "date_display": "29 May 1913 (recalled later)",
+   "precision": "day",
+   "eye": "roerich",
+   "place": "In the theatre",
+   "headline": "The audience's wildness against the ancestors' refinement",
+   "digest": "Roerich later reflected that the people jeering in the stalls had shown a wild primitivism of their own, whereas the ancient Slavs his designs depicted had a refined one. He presented the scandal as a failure of the modern audience, not of the ballet.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Roerich's later writings, as summarised in Mike Jay, 'The Rites of Roerich'. Date of composition not established."
+  },
+  {
+   "date_iso": "1913-05-30",
+   "date_display": "night of 29–30 May 1913 (two later accounts)",
+   "precision": "day",
+   "eye": "cocteau",
+   "place": "A cab to the Bois de Boulogne (by Cocteau's account)",
+   "headline": "Diaghilev weeping and reciting Pushkin in the dark",
+   "digest": "Cocteau wrote that after the performance he, Diaghilev, Nijinsky and Stravinsky took a cab to the Bois de Boulogne, where Diaghilev, in tears, murmured Pushkin. Stravinsky later rejected the story. He remembered instead a dinner at which Diaghilev declared himself entirely satisfied, saying it was what he had wanted. Both accounts were written years afterwards.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Cocteau, Le Coq et l'Arlequin (1918); Stravinsky and Craft, Conversations (1959) pp. 47–48, via Wikipedia. Contested."
+  },
+  {
+   "date_iso": "1913-05-30",
+   "date_display": "c. 30 May 1913",
+   "precision": "day",
+   "eye": "stravinsky",
+   "place": "Paris",
+   "headline": "The day after: praising Nijinsky's inventiveness to the press",
+   "digest": "In an interview with Henry Postel du Mas, given just after the premiere, Stravinsky praised Nijinsky's capacity for innovation and defended the production as a whole. Only years later, after the break with Nijinsky, did he begin to blame the choreography for the scandal.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Postel du Mas interview (undated, the day after the premiere), cited in Craft, NYRB 15 April 1976."
+  },
+  {
+   "date_iso": "1913-05-31",
+   "date_display": "Saturday 31 May 1913",
+   "precision": "day",
+   "eye": "quittard",
+   "place": "Le Figaro, Paris",
+   "headline": "Le Figaro: a laborious and puerile barbarity",
+   "digest": "Quittard regretted that artists of such gifts had produced what he called a laborious and puerile barbarity. He thought the audience had been right to protest, while wishing it had done so with more dignity. His was the voice of the established musical press. The same morning Comoedia argued that the noise had made the work impossible to judge.",
+   "quote": "a laborious and puerile barbarity",
+   "confidence": "verified",
+   "source_note": "Le Figaro, 31 May 1913 (Gallica), as quoted in English translation in Wikipedia (Rite of Spring); the phrase is widely quoted. Comoedia report of 31 May per Craft 1976 and WILL Clef Notes."
+  },
+  {
+   "date_iso": "1913-06-02",
+   "date_display": "Monday 2 June 1913 (second performance)",
+   "precision": "day",
+   "eye": "vanvechten",
+   "place": "Stalls, Théâtre des Champs-Élysées",
+   "headline": "A stranger beats time on the critic's head",
+   "digest": "Van Vechten saw part of the audience whistling and cat-calling soon after the curtain rose, and others bellowing back in defence. A young man behind him, carried away, stood up and began beating rhythmically on his head with his fists, then apologised. He presented this as the premiere, but by his own 1916 letter it was the second night.",
+   "quote": "began to whistle and make cat-calls",
+   "confidence": "approx",
+   "source_note": "Van Vechten, Music After the Great War (1915), chapter 'Igor Strawinsky: A New Composer' (Project Gutenberg 73668). The second performance is dated 2 June in Wikipedia and 4 June on the theatre's page; his 1916 admission was published in 2013."
+  },
+  {
+   "date_iso": "1913-06",
+   "date_display": "June 1913",
+   "precision": "month",
+   "eye": "stravinsky",
+   "place": "A nursing home at Neuilly, outside Paris",
+   "headline": "Typhoid fever keeps the composer in bed",
+   "digest": "Within days of the premiere Stravinsky fell seriously ill with typhoid. He spent weeks in bed, visited (by his later account) by Debussy, Ravel and others, and missed the London performances altogether. He was well enough by early July to travel to Ustilug.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Stravinsky, Expositions and Developments (1962) p. 49, via Wikipedia; exact dates of illness not confirmed here."
+  },
+  {
+   "date_iso": "1913-06-13",
+   "date_display": "13 June 1913",
+   "precision": "day",
+   "eye": "diaghilev",
+   "place": "Théâtre des Champs-Élysées",
+   "headline": "Last Paris performance of the season",
+   "digest": "The Rite was given in Paris through early June, each night calmer than the first, the last on 13 June. Diaghilev kept it in the repertoire and took it to London. Ticket sales for the opening night had reached about 35,000 francs.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia (Rite of Spring): five further performances after the premiere, last on 13 June, and box-office from Comoedia (30 May and 5 June). Other sources give fewer Paris performances; the count is uncertain."
+  },
+  {
+   "date_iso": "1913-07-03",
+   "date_display": "3 July 1913",
+   "precision": "day",
+   "eye": "stravinsky",
+   "place": "Ustilug",
+   "headline": "To Steinberg: Nijinsky's choreography was incomparable",
+   "digest": "Recovering at home, Stravinsky wrote to his friend Maximilian Steinberg that Nijinsky's choreography had been incomparable and that, except in a few places, everything was as he had wanted it. Years later, after Nijinsky had left the company, Stravinsky's memoirs said nearly the opposite.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Stravinsky to Steinberg, 3 July 1913, cited in Craft, NYRB 15 April 1976, and Wikipedia citing Hill p. 109."
+  },
+  {
+   "date_iso": "1913-07-11",
+   "date_display": "Friday 11 July 1913",
+   "precision": "day",
+   "eye": "diaghilev",
+   "place": "Theatre Royal, Drury Lane, London",
+   "headline": "London gets the Rite, cool and curious",
+   "digest": "The Rite opened at Drury Lane as part of Sir Joseph Beecham's season of Russian opera and ballet, organised by Diaghilev. The house received it with measured applause and some disapproval, but nothing like Paris. By the third London performance there was hardly a sign of opposition. The Times later (26 July) judged that dance and music cohered but doubted the score, suggesting a truly primitive composer would have written for drums alone.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "momh.org.uk exhibition 'Two important first performances in 1913'; Paris Review blog summary of London reception. The number of London performances is given as three or four in different sources. The Times, 26 July 1913, p. 8 (cited in Wikipedia; Craft gives 27 July)."
+  },
+  {
+   "date_iso": "1913-07",
+   "date_display": "July 1913",
+   "precision": "month",
+   "eye": "nijinsky",
+   "place": "London",
+   "headline": "Defending himself against a 'crime against grace'",
+   "digest": "In an interview with the Daily Mail during the London season, Nijinsky denied that he had been ridiculed in Paris and said he was being accused of a crime against grace. He defended the turned-in, earthbound movement as the only way to show people who had not yet learned to dance for beauty.",
+   "quote": "crime against grace",
+   "confidence": "approx",
+   "source_note": "Daily Mail, London, July 1913, cited in Hodson, 'Searching for Nijinsky's Sacre' (1987). Day not confirmed."
+  },
+  {
+   "date_iso": "1913-09-30",
+   "date_display": "30 September – 1 October 1913",
+   "precision": "range",
+   "eye": "diaghilev",
+   "place": "Hotel Beau Rivage, Lausanne",
+   "headline": "After Nijinsky's marriage, meeting Stravinsky in Lausanne",
+   "digest": "Nijinsky had married Romola de Pulszky in Buenos Aires on 10 September, on a South American tour Diaghilev had skipped. Diaghilev met Stravinsky at Lausanne at the turn of the month; soon afterwards Nijinsky was dismissed. On 3 October Stravinsky wrote to Benois that the hope of good choreography was gone for a long time.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Craft, NYRB 15 April 1976, footnote 5 (Lausanne meeting) and letter to Benois of 3 October 1913. Marriage date given as 10 September in Craft and 19 September in Wikipedia."
+  },
+  {
+   "date_iso": "1913-11",
+   "date_display": "November 1913",
+   "precision": "month",
+   "eye": "riviere",
+   "place": "La Nouvelle Revue Française, Paris",
+   "headline": "A long defence: the work without atmosphere or veil",
+   "digest": "Rivière's essay argued that the Rite turned away from the haze of Impressionism and Debussy and showed its objects plainly: hard, separate, unadorned. He saw Nijinsky's broken, angular movement as the honest form of a biological, pre-human rite, and the work as a fresh start in which everything has to be built again. Within months it was being cited as a manifesto.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Rivière, 'Le Sacre du printemps', NRF November 1913 (reviewed in Mercure de France per Craft 1976); excerpt in Kulturstiftung des Bundes programme."
+  },
+  {
+   "date_iso": "1913-11",
+   "date_display": "17–20 November 1913",
+   "precision": "range",
+   "eye": "astruc",
+   "place": "Théâtre des Champs-Élysées",
+   "headline": "Out of money, Astruc loses his theatre",
+   "digest": "Six months after the most famous premiere in its history, the theatre closed and Astruc, overextended, was put out of the building, with sets and costumes impounded. The season that made the building legendary had also ruined its founder.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Théâtre des Champs-Élysées (Wikipedia: 20 November); Musicology Now (closing 17 November 1913)."
+  },
+  {
+   "date_iso": "1913-12-08",
+   "date_display": "8 December 1913",
+   "precision": "day",
+   "eye": "rambert",
+   "place": "Paris",
+   "headline": "A copy of the score for the rhythm assistant",
+   "digest": "After the season Rambert asked for a copy of the score, and one was sent to her in Paris under the name Miriam Ramberg. Her contract had ended with Nijinsky's; she kept the music of the work she had spent months counting.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Craft, NYRB 15 April 1976 (score sent 8 December 1913 to 'Miriam Ramberg')."
+  },
+  {
+   "date_iso": "1914-04-05",
+   "date_display": "Sunday 5 April 1914",
+   "precision": "day",
+   "eye": "monteux",
+   "place": "Casino de Paris",
+   "headline": "The concert performance: triumph instead of uproar",
+   "digest": "Monteux conducted the Rite as a concert piece, without dancers, in his own series. This time the Paris audience cheered. It was the first time the music was heard properly in the city where it had been shouted down ten months earlier.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia citing Van den Toorn p. 6; Comoedia report of 6 April 1914 per Craft NYRB 1976. Canarina records a report that Saint-Saëns walked out of this concert."
+  },
+  {
+   "date_iso": "1914-04-05",
+   "date_display": "Sunday 5 April 1914 (recalled later)",
+   "precision": "day",
+   "eye": "stravinsky",
+   "place": "Casino de Paris",
+   "headline": "Carried out shoulder-high by the crowd",
+   "digest": "At the end of the concert admirers lifted Stravinsky and carried him out into the street in triumph. In his memoirs he contrasted the scene with the premiere and took it as proof that the music could stand without the choreography. The contrast became part of how he told the work's story for the rest of his life.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Stravinsky, Chroniques de ma vie (1935); Wikipedia citing Van den Toorn p. 6. Event verified; his reading of it written later."
+  },
+  {
+   "date_iso": "1915",
+   "date_display": "1915",
+   "precision": "year",
+   "eye": "vanvechten",
+   "place": "New York",
+   "headline": "Music After the Great War brings the scandal to America",
+   "digest": "Van Vechten's book presented Stravinsky to American readers as the anarchist of the new music, with the story of his own battered head at its centre. Written as the war cut Americans off from Paris, it fixed the image of the Rite as a riot for an English-speaking public.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Van Vechten, Music After the Great War, and Other Studies (New York: Schirmer, 1915), Project Gutenberg 73668."
+  },
+  {
+   "date_iso": "1919-02",
+   "date_display": "January–March 1919",
+   "precision": "range",
+   "eye": "nijinsky",
+   "place": "Villa Guardamunt, St Moritz",
+   "headline": "In his last notebooks, judging Diaghilev and Stravinsky",
+   "digest": "Six years on, Nijinsky filled notebooks in St Moritz as his mind gave way. Among much else he wrote bitterly of Diaghilev and of Stravinsky as men driven by money and fame. It is the voice of the choreographer looking back, not a record of 1913, and it has to be read as the work of a man in crisis.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "The Diary of Vaslav Nijinsky, unexpurgated edition ed. Joan Acocella (1999; Russian original); Acocella, 'Secrets of Nijinsky', NYRB 14 January 1999. Content summarised generally; no 1913 events are dated in it."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1910",
+   "date_display": "1910",
+   "eye": "roerich",
+   "claim": "Stravinsky and Roerich agree a ballet on a pagan sacrifice, working title 'The Great Sacrifice'",
+   "form": "decided",
+   "evidence": "Roerich's press interview; later accounts by both men (conflicting on who had the idea)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1911-07",
+   "date_display": "July 1911",
+   "eye": "stravinsky",
+   "claim": "Scenario fixed in two parts at Talashkino",
+   "form": "decided",
+   "evidence": "Stravinsky letters to Roerich; Craft 1976",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1911-09-26",
+   "date_display": "26 September 1911",
+   "eye": "stravinsky",
+   "claim": "Composition begun at Ustilug",
+   "form": "begun",
+   "evidence": "Letter to Roerich, 26 September 1911",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1912-06-09",
+   "date_display": "9 June 1912",
+   "eye": "debussy",
+   "claim": "First half played four-hands by Stravinsky and Debussy at Laloy's house",
+   "form": "performed",
+   "evidence": "Laloy's memoir, redated by Craft",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1912-11",
+   "date_display": "November 1912",
+   "eye": "diaghilev",
+   "claim": "Marie Rambert engaged at Hellerau as rhythm assistant for the choreography",
+   "form": "commissioned",
+   "evidence": "Rambert, Quicksilver; encyclopedia.com",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1912-11-17",
+   "date_display": "4/17 November 1912",
+   "eye": "stravinsky",
+   "claim": "Music completed in sketch at Clarens (Sacrificial Dance finished)",
+   "form": "completed",
+   "evidence": "Sketchbook inscription (facsimile 1969)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1913-03-08",
+   "date_display": "8 March 1913",
+   "eye": "stravinsky",
+   "claim": "Full orchestral score signed and dated at Clarens; final bars revised into April",
+   "form": "completed",
+   "evidence": "Autograph score; Wikipedia citing Van den Toorn",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1913-03-30",
+   "date_display": "30 March 1913",
+   "eye": "monteux",
+   "claim": "First orchestral rehearsals; four passages flagged and rewritten",
+   "form": "other",
+   "evidence": "Monteux letter, published by Craft 1975",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1913-05-28",
+   "date_display": "28 May 1913",
+   "eye": "stravinsky",
+   "claim": "Dress rehearsal before press and invited guests",
+   "form": "performed",
+   "evidence": "Craft 1976; Stravinsky's later memoirs",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1913-05-29",
+   "date_display": "29 May 1913",
+   "eye": "nijinsky",
+   "claim": "Premiere amid an uproar; whether it was a 'riot', organised or policed remains contested (see convergence note)",
+   "form": "performed",
+   "evidence": "Kessler diary; Comoedia 31 May; later memoirs",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1913-05-31",
+   "date_display": "31 May 1913",
+   "eye": "quittard",
+   "claim": "Le Figaro condemns the work as a laborious and puerile barbarity",
+   "form": "reviewed",
+   "evidence": "Le Figaro, 31 May 1913",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1913-07-11",
+   "date_display": "11 July 1913",
+   "eye": "diaghilev",
+   "claim": "London premiere at Drury Lane, received coolly but without uproar",
+   "form": "performed",
+   "evidence": "momh.org.uk; The Times 26 July 1913",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1913-11",
+   "date_display": "November 1913",
+   "eye": "riviere",
+   "claim": "Rivière's NRF essay sets out the modernist case for the work",
+   "form": "reviewed",
+   "evidence": "NRF, November 1913",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1913-12",
+   "date_display": "December 1913",
+   "eye": "diaghilev",
+   "claim": "Nijinsky dismissed after his marriage; his choreography leaves the repertoire and is lost (reconstructed 1987)",
+   "form": "decided",
+   "evidence": "Craft 1976; Wikipedia",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1914-04-05",
+   "date_display": "5 April 1914",
+   "eye": "monteux",
+   "claim": "First Paris concert performance, Casino de Paris; Stravinsky carried shoulder-high",
+   "form": "performed",
+   "evidence": "Comoedia 6 April 1914; Van den Toorn",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1918",
+   "date_display": "1918",
+   "eye": "cocteau",
+   "claim": "Le Coq et l'Arlequin publishes the anecdotes (Pourtalès, the cab ride) that become the premiere legend; Stravinsky later rejects the cab ride",
+   "form": "published",
+   "evidence": "Cocteau 1918; Stravinsky–Craft Conversations 1959",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1911-07",
+   "label": "Talashkino: the scenario is fixed",
+   "eyes": [
+    "stravinsky",
+    "roerich"
+   ],
+   "note": "Both men later claimed the original vision. Stravinsky's letters of the time call the ballet theirs jointly and thank Roerich for his knowledge of the ancestors; after Roerich emigrated, each man's memoirs gave himself the larger share."
+  },
+  {
+   "date": "1912-06-09",
+   "label": "Four hands at Bellevue",
+   "eyes": [
+    "debussy",
+    "stravinsky"
+   ],
+   "note": "The two leading composers in Paris sight-read the score side by side. Debussy's letter afterwards calls it a beautiful nightmare: admiring, and uneasy at being overtaken."
+  },
+  {
+   "date": "1912-11",
+   "label": "Hellerau and Berlin: teaching dancers to count",
+   "eyes": [
+    "diaghilev",
+    "rambert",
+    "stravinsky",
+    "nijinsky"
+   ],
+   "note": "Diaghilev hires Rambert because he knows the dancers cannot count the score; Stravinsky arrives in Berlin, finds the tempi wrong and plays it himself. In letters of the time he praises Nijinsky's zeal; later he blamed Nijinsky for knowing no music."
+  },
+  {
+   "date": "1913-03-30",
+   "label": "The orchestra meets the score",
+   "eyes": [
+    "monteux",
+    "stravinsky"
+   ],
+   "note": "Monteux, who had thought the composer mad and had quarrelled with him in January, sends a practical list of inaudible passages, and Stravinsky rewrites every one. The work as heard was shaped in part by its conductor."
+  },
+  {
+   "date": "1913-05-28",
+   "label": "Dress rehearsal for the press",
+   "eyes": [
+    "stravinsky",
+    "diaghilev"
+   ],
+   "note": "Stravinsky recalled a calm rehearsal; it was also where critics such as Boschot formed views before the public night. Some later writers see the invitation to the press as Diaghilev priming a scandal; others see ordinary publicity."
+  },
+  {
+   "date": "1913-05-29",
+   "label": "The premiere at the Théâtre des Champs-Élysées",
+   "eyes": [
+    "stravinsky",
+    "kessler",
+    "rambert",
+    "monteux",
+    "cocteau",
+    "astruc",
+    "roerich",
+    "nijinsky"
+   ],
+   "note": "Kessler, writing that night, records novelty and a brilliant house. Stravinsky, Monteux and Rambert, writing decades later, record noise that drowned the orchestra. Cocteau, writing in 1918, records a class war between boxes and gallery. On the contested points: Monteux's 'about forty' ejections, a widely repeated claim that police logged 27 injured, and stories of a duel all rest on later recollection or secondary retelling; no police record has been cited, and Taruskin and others argue the hostility targeted the choreography more than the music. Writers who think the scandal was courted point to Diaghilev's publicity and the press rehearsal; others point to Comoedia's report that opinions had spread from the rehearsal room before the curtain rose. What is certain from contemporary reports is that the piece was played to the end and the dancers took curtain calls."
+  },
+  {
+   "date": "1913-05-31",
+   "label": "The morning reviews",
+   "eyes": [
+    "quittard",
+    "riviere"
+   ],
+   "note": "Quittard in Le Figaro condemns the work; Comoedia the same day says the noise made judgement impossible; Schmitt on 4 June blames the audience. Rivière's considered defence takes until November. Reception was divided from the first day."
+  },
+  {
+   "date": "1913-07-11",
+   "label": "London, Drury Lane",
+   "eyes": [
+    "diaghilev",
+    "nijinsky",
+    "rambert"
+   ],
+   "note": "Paris shouted; London listened politely and argued in print. Nijinsky uses the London press to defend himself against a 'crime against grace', while Stravinsky lies ill with typhoid and misses it."
+  },
+  {
+   "date": "1914-04-05",
+   "label": "The concert performance at the Casino de Paris",
+   "eyes": [
+    "monteux",
+    "stravinsky"
+   ],
+   "note": "Without Nijinsky's dancers, the same city cheers the music and carries its composer out shoulder-high. Stravinsky took this as vindication of the score over the choreography. Others note that by then the audience had had a year to learn the music."
+  }
+ ],
+ "ties": [
+  {
+   "a": "stravinsky",
+   "b": "roerich",
+   "kind": "met",
+   "note": "Co-authors of the scenario; worked together at Talashkino in July 1911 and corresponded throughout the composition."
+  },
+  {
+   "a": "stravinsky",
+   "b": "nijinsky",
+   "kind": "met",
+   "note": "Composer and choreographer; Stravinsky praised him in letters of 1912–13 and disparaged him in later memoirs."
+  },
+  {
+   "a": "nijinsky",
+   "b": "nijinska",
+   "kind": "relative",
+   "note": "Brother and sister; he built the Chosen One's dance on her before her pregnancy took her out of the role."
+  },
+  {
+   "a": "rambert",
+   "b": "nijinsky",
+   "kind": "met",
+   "note": "His rhythm assistant through the rehearsals; she fell in love with him and lost her contract when he married."
+  },
+  {
+   "a": "monteux",
+   "b": "stravinsky",
+   "kind": "met",
+   "note": "Conductor and composer; quarrelled in January 1913, then together revised the orchestration in March."
+  },
+  {
+   "a": "diaghilev",
+   "b": "nijinsky",
+   "kind": "met",
+   "note": "Impresario and lover; Diaghilev gave him the choreography and dismissed him after his marriage in 1913."
+  },
+  {
+   "a": "debussy",
+   "b": "stravinsky",
+   "kind": "met",
+   "note": "Played the score four-hands together in June 1912; Debussy wrote to him about it that November."
+  },
+  {
+   "a": "cocteau",
+   "b": "stravinsky",
+   "kind": "read each other",
+   "note": "Cocteau's 1918 account shaped the legend; Stravinsky publicly rejected his story of the night ride to the Bois de Boulogne."
+  },
+  {
+   "a": "astruc",
+   "b": "diaghilev",
+   "kind": "met",
+   "note": "Astruc paid Diaghilev 25,000 francs a performance to make the Ballets Russes the centrepiece of his new theatre's first season."
+  },
+  {
+   "a": "kessler",
+   "b": "nijinsky",
+   "kind": "met",
+   "note": "Kessler knew Nijinsky and Diaghilev well and, with Hofmannsthal, wrote the scenario of Josephslegende for the Ballets Russes, staged in 1914."
+  },
+  {
+   "a": "quittard",
+   "b": "riviere",
+   "kind": "opposite sides",
+   "note": "Quittard's hostile Figaro notice and Rivière's NRF defence frame the two Paris verdicts on the work."
+  },
+  {
+   "a": "vanvechten",
+   "b": "stravinsky",
+   "kind": "mentioned",
+   "note": "Van Vechten had watched Stravinsky take bows for Petrushka and made him the hero of his 1915 book."
+  },
+  {
+   "a": "nijinska",
+   "b": "rambert",
+   "kind": "same street",
+   "note": "Both worked in the same rehearsal rooms on the Rite in winter 1912–13; both later wrote memoirs of it."
+  },
+  {
+   "a": "roerich",
+   "b": "nijinsky",
+   "kind": "influenced",
+   "note": "Nijinsky told his sister that Roerich's art inspired him as much as Stravinsky's music; Roerich's paintings fed the choreography's poses."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v1:ww1",
+   "note": "The Rite was performed in Paris fourteen months before the war. Kessler, whose diary records the premiere, spent the war in German service and kept writing in the same diary. The Ballets Russes was scattered by the war, and Stravinsky was cut off in Switzerland."
+  },
+  {
+   "to": "vienna-1900",
+   "note": "Two months before the Rite, on 31 March 1913, Schoenberg's Vienna 'Skandalkonzert' broke up in fights. Stravinsky had heard Pierrot lunaire in Berlin in December 1912 and praised it in a letter to Florent Schmitt."
+  },
+  {
+   "to": "harlem",
+   "note": "Carl Van Vechten, whose 1915 account made the Rite a riot for American readers, became one of the most visible white patrons and photographers of the Harlem Renaissance in the 1920s."
+  },
+  {
+   "to": "v1:russia-1917",
+   "note": "The revolution cut off Stravinsky's Ustilug estate and Russian income, and the Ballets Russes became a permanent émigré company. Roerich left Russia and, from 1920, worked in the United States and later Asia."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://collections.vam.ac.uk/item/O1115677/theatre-costume/",
+   "title": "Maiden's costume for Le Sacre du printemps",
+   "caption": "Off-white wool robe with a scarlet underskirt, painted with geometric patterns, made in St Petersburg for a maiden in Part One. It shows how Roerich turned Tenisheva's folk costumes into stage dress.",
+   "date": "1913",
+   "credit": "Designed by Nicholas Roerich, made by Ivan Caffi; Victoria and Albert Museum, S.681-1980"
+  },
+  {
+   "url": "https://collections.vam.ac.uk/item/O11383/ile-sacre-du-printempsi-drawing-valentine-gross",
+   "title": "Valentine Gross, sketches for the Danse sacrale",
+   "caption": "Pencil studies drawn in the theatre showing Maria Piltz as the Chosen One and the tall women nicknamed 'the storks'. Sketches like these are among the few visual records of Nijinsky's lost choreography and were used for the 1987 reconstruction.",
+   "date": "c. 1913",
+   "credit": "Valentine Gross (Valentine Hugo); Victoria and Albert Museum"
+  },
+  {
+   "url": "https://rp-digitalcollections.nypl.org/items/814fb759-0f3c-211d-e040-e00a18067090",
+   "title": "Sketches of 'Le Sacre du Printemps' (photograph)",
+   "caption": "A photograph from June 1913 recording sketches of the production, in the Jerome Robbins Dance Division. Copyright status was not determined by NYPL.",
+   "date": "June 1913",
+   "credit": "Emmanuel Barcet; New York Public Library"
+  },
+  {
+   "url": "https://sites.utexas.edu/ransomcentermagazine/2009/11/10/the-ballet-performance-that-sparked-a-riot",
+   "title": "Roerich costume (hat and robe) at the Harry Ransom Center",
+   "caption": "A hat and robe from the original 1913 production, displayed for the Ballets Russes centenary. Surviving costumes are among the few physical remains of the first production.",
+   "date": "1913",
+   "credit": "Nicholas Roerich (design); Harry Ransom Center, University of Texas at Austin"
+  }
+ ],
+ "further": [
+  {
+   "title": "Robert Craft, 'Nijinsky and Le Sacre', New York Review of Books (1976)",
+   "url": "https://www.nybooks.com/articles/1976/04/15/nijinsky-and-le-sacre/"
+  },
+  {
+   "title": "Robert Craft, 'Le Sacre and Pierre Monteux: An Unknown Debt', New York Review of Books (1975)",
+   "url": "https://www.nybooks.com/articles/1975/04/03/le-sacre-and-pierre-monteux-an-unknown-debt/"
+  },
+  {
+   "title": "Carl Van Vechten, Music After the Great War (1915), Project Gutenberg",
+   "url": "https://gutenberg.org/ebooks/73668"
+  },
+  {
+   "title": "Millicent Hodson, 'Searching for Nijinsky's Sacre' (1987)",
+   "url": "https://moodle.brynmawr.edu/pluginfile.php/29179/mod_resource/content/1/Hodson%20%281987%29%20Seraching%20for%20Nijinskys%20Sacre.pdf"
+  },
+  {
+   "title": "Mike Jay, 'The Rites of Roerich'",
+   "url": "https://mikejay.net/the-rites-of-roerich"
+  },
+  {
+   "title": "Did The Rite of Spring really incite a riot? (WILL Clef Notes)",
+   "url": "https://will.illinois.edu/clefnotes/entry/did-the-rite-of-spring-really-incite-a-riot"
+  },
+  {
+   "title": "Joan Acocella, 'Secrets of Nijinsky', New York Review of Books (1999)",
+   "url": "https://www.nybooks.com/articles/1999/01/14/secrets-of-nijinsky/"
+  }
+ ],
+ "vantage_key": "0 = makers of the work (composer, designer, choreographer, conductor, impresario, theatre director); 1 = in the room, on stage or in the audience, including critics; 2 = in Paris but not at the premiere or writing at a remove; 3 = elsewhere in Europe; 4 = abroad or news only."
+}

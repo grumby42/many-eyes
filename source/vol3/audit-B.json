@@ -1,0 +1,307 @@
+[
+ {
+  "chapter": "endeavour",
+  "where": "eye:cook",
+  "severity": "doubt",
+  "problem": "Cook was born 27 Oct (O.S.) / 7 Nov 1728, so he was 39 when the Endeavour sailed in August 1768 (40 only from November 1768).",
+  "fix": {
+   "text_replace": {
+    "old": "aged 40",
+    "new": "aged 39 at sailing"
+   }
+  }
+ },
+ {
+  "chapter": "endeavour",
+  "where": "eye:tupaia",
+  "severity": "doubt",
+  "problem": "Tupaia named about 130 islands to the British, but the surviving chart shows 74 of them; 'his chart named and placed some 130 islands' conflates the two figures.",
+  "fix": {
+   "text_replace": {
+    "old": "his chart named and placed some 130 islands",
+    "new": "he named some 130 islands to the British, 74 of which appear on his chart"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "endeavour",
+  "where": "entry:6",
+  "severity": "doubt",
+  "problem": "Same conflation: the chart shows 74 islands; about 130 is the number Tupaia named.",
+  "fix": {
+   "digest": "Having guided the ship through the Society Islands, Tupaia begins working with the British on a chart of the islands he knows, reciting names, bearings and sailing distances. The finished chart placed 74 of the roughly 130 islands he named, across a radius of about 2,000 miles. It is the only map on the voyage made from Polynesian knowledge rather than European survey."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "endeavour",
+  "where": "eye:te-horeta",
+  "severity": "doubt",
+  "problem": "Te Horeta Te Taniwha died in 1853; 'mid-1800s' is vaguer than necessary.",
+  "fix": {
+   "life": "c.1757–1853"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "endeavour",
+  "where": "eye:te-horeta",
+  "severity": "tone",
+  "problem": "'a quiet leader who was surely Cook' overstates the identification; elsewhere the chapter correctly says 'generally identified as Cook'.",
+  "fix": {
+   "text_replace": {
+    "old": "a quiet leader who was surely Cook",
+    "new": "a quiet leader generally identified as Cook"
+   }
+  }
+ },
+ {
+  "chapter": "endeavour",
+  "where": "eye:guugu",
+  "severity": "error",
+  "problem": "The Guugu Yimithirr elder who worked with the NMA and leads the Cooktown re-enactment is Alberta Hornsby, not 'Albert Hornby'.",
+  "fix": {
+   "text_replace": {
+    "old": "Albert Hornby) for",
+    "new": "Alberta Hornsby) for"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "endeavour",
+  "where": "entry:30",
+  "severity": "error",
+  "problem": "Elder's name misspelt: Alberta Hornsby.",
+  "fix": {
+   "source_note": "NMA 'Turtle trouble' (Eric Deeral, Harold Ludwick, Alberta Hornsby); National Trust Qld 'Reconciliation Rocks'. Oral tradition told today."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "endeavour",
+  "where": "entry:7",
+  "severity": "doubt",
+  "problem": "'against Cook's standing orders' is not supported: the coxswain fired after warning shots, which Cook's orders allowed in defence of the boats. Characterising it as a breach of orders is an interpretation not in the journals.",
+  "fix": {
+   "digest": "On the evening of the landing, four ship's boys left guarding a boat are challenged by local men, and in the confusion Te Maro, a Ngāti Oneone rangatira, is shot dead by the coxswain of the pinnace. The British heard wailing ashore through the night. In 2019 Ngāti Oneone's spokesman described Te Maro's purpose that day as providing food for his people, a chiefly task, and said his actions gave his people a future."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "endeavour",
+  "where": "entry:10",
+  "severity": "quote",
+  "problem": "'I can by no means justify my conduct' does not match Cook's journal. Cook wrote that humane readers 'will cencure my conduct in fireing upon the people in this boat nor do I my self think that the reason I had for seizing upon her will att all justify me'. He conceded that seizing the canoe could not be justified, but defended the firing as self-defence once its crew attacked. The digest inverts this.",
+  "fix": {
+   "quote": "will cencure my conduct in fireing upon the people in this boat",
+   "digest": "Hoping to take people aboard and win their friendship with gifts, Cook's boats try to intercept a canoe; a musket fired over it makes its crew fight, and the boat crews fire into it, killing two to four men. Three young men who leap into the water are taken aboard, clothed and fed. Cook admits that humane readers will censure him and that his reason for trying to seize the canoe cannot justify him, though he argues his men had to fire once attacked."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "endeavour",
+  "where": "convergence:1",
+  "severity": "doubt",
+  "problem": "Matches the inverted reading in entry 10: Cook conceded the seizure could not be justified and defended the firing, not the other way round.",
+  "fix": {
+   "note": "Monkhouse fires in the press on the riverbank; Tupaia is the only one who can speak to anyone; Cook concedes the attempt to seize the canoe cannot be justified yet defends the firing; Banks marks the day black. Ngāti Oneone remember Te Maro as a chief doing his duty to feed his people."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "endeavour",
+  "where": "entry:19",
+  "severity": "quote",
+  "problem": "Cook's wording is 'they called to us very loud in a harsh sounding Language of which neither us nor Tupia understood one word'. The quote as given ('could understand one word they said') is paraphrased.",
+  "fix": {
+   "quote": "neither us nor Tupia understood one word"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "endeavour",
+  "where": "image:2",
+  "severity": "doubt",
+  "problem": "The caption calls this object 'the first printed European image of a kangaroo', but its own date is c.1790–1800. The first printed image was the 1773 engraving after Stubbs in Hawkesworth's Voyages. Also, Stubbs's painting (1772) is not securely tied to the skin of the animal Gore shot on 14 July.",
+  "fix": {
+   "caption": "Engraving after George Stubbs's 1772 painting, commissioned by Banks from a kangaroo skin brought back from the Endeavour River. Stubbs's image, first engraved for Hawkesworth's account in 1773, gave Europe its picture of the animal."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "humboldt",
+  "where": "eye:bonpland",
+  "severity": "error",
+  "problem": "Bonpland was born 22 August 1773, so he was 25 when they sailed in June 1799 and 30 when they reached Bordeaux on 3 August 1804.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 26–31",
+    "new": "aged 25–30"
+   }
+  }
+ },
+ {
+  "chapter": "humboldt",
+  "where": "eye:hopedale",
+  "severity": "error",
+  "problem": "Hopedale (55.45°N) is about 11 degrees, or roughly 1,200 km, south of the Arctic Circle.",
+  "fix": {
+   "text_replace": {
+    "old": "same sky, near the Arctic Circle",
+    "new": "same sky, on the subarctic Labrador coast"
+   }
+  }
+ },
+ {
+  "chapter": "humboldt",
+  "where": "eye:mutis",
+  "severity": "doubt",
+  "problem": "Mutis had been in New Granada since 1760, but the Royal Botanical Expedition was founded only in 1783, so he had spent about eighteen years on it, not four decades.",
+  "fix": {
+   "text_replace": {
+    "old": "Mutis had spent four decades building a great botanical expedition with a workshop of painters",
+    "new": "Mutis had spent four decades in New Granada and nearly two building a great botanical expedition with a workshop of painters"
+   }
+  }
+ },
+ {
+  "chapter": "humboldt",
+  "where": "convergence:4",
+  "severity": "error",
+  "problem": "Only two Europeans (Humboldt and Bonpland) were in the party, with Carlos Montúfar, a Quito creole. 'Three Europeans and a creole' is wrong.",
+  "fix": {
+   "note": "Two Europeans and a Quito creole climbed into thin air while the Indigenous porters stayed at the snow line. Humboldt's diary gives the science and the symptoms. The others are known only through his pages and Weitsch's painting."
+  }
+ },
+ {
+  "chapter": "humboldt",
+  "where": "intro:3",
+  "severity": "tone",
+  "problem": "First-person compiler note in the intro ('that we could verify').",
+  "fix": {
+   "text_replace": {
+    "old": "left no written record of these meetings that we could verify",
+    "new": "left no known written record of these meetings"
+   }
+  }
+ },
+ {
+  "chapter": "humboldt",
+  "where": "eye:orinoco",
+  "severity": "tone",
+  "problem": "First-person compiler note in the eye text ('We did not verify...').",
+  "fix": {
+   "text_replace": {
+    "old": "We did not verify any surviving Indigenous oral tradition about the 1800 journey.",
+    "new": "No surviving Indigenous oral tradition about the 1800 journey is drawn on here."
+   }
+  }
+ },
+ {
+  "chapter": "humboldt",
+  "where": "entry:7",
+  "severity": "quote",
+  "problem": "'like a fool' is a modern English rendering of Humboldt's German ('wie die Narren') set in quotation marks as if it were his wording.",
+  "fix": {
+   "digest": "Humboldt's first diary volume, the Cumaná book, ends here. He and Bonpland left by sea for La Guaira and Caracas carrying their first crates of plants, and the second volume opens with Caracas. Behind them were the cave of the oil-birds at Caripe, an earthquake and the meteor storm. The man who had arrived running about like a fool among the plants was now running a full programme of measurements."
+  }
+ },
+ {
+  "chapter": "humboldt",
+  "where": "image:0",
+  "severity": "doubt",
+  "problem": "Weitsch's 'Humboldt and Bonpland at the foot of Chimborazo' (Charlottenburg) is usually dated 1810, not 1806/07. Check the SPSG record.",
+  "fix": null,
+  "confidence": "approx"
+ },
+ {
+  "chapter": "humboldt",
+  "where": "eye:bonpland",
+  "severity": "doubt",
+  "problem": "Bonpland's serious fever in 1801 is usually placed in Santafé de Bogotá, where it held the party until September, not at Honda (the waypoint label, and entry 14's 'weeks at Honda, where Bonpland had been sick'). Check before keeping.",
+  "fix": null,
+  "confidence": "approx"
+ },
+ {
+  "chapter": "corps-of-discovery",
+  "where": "entry:52",
+  "severity": "error",
+  "problem": "Lone Dog's winter 1805–06 is pinned to 1806-12-01. The calendar note says winter counts are pinned to 1 December of the winter's first year (as entry 24 does with 1804-12-01 for 1804–05), and the digest itself places it while the Corps wintered on the Pacific. It should be 1805-12-01.",
+  "fix": {
+   "date_iso": "1805-12-01"
+  }
+ },
+ {
+  "chapter": "corps-of-discovery",
+  "where": "image:2",
+  "severity": "error",
+  "problem": "The 1814 'Map of Lewis and Clark's Track' was copied by Samuel Lewis from Clark's drawing and engraved by Samuel Harrison.",
+  "fix": {
+   "credit": "After William Clark; copied by Samuel Lewis, engraved by Samuel Harrison"
+  }
+ },
+ {
+  "chapter": "corps-of-discovery",
+  "where": "entry:24",
+  "severity": "doubt",
+  "problem": "Lewis has no journal for 25 September 1804, so only four keepers (Clark, Ordway, Gass, Whitehouse) wrote about the standoff, not five.",
+  "fix": {
+   "digest": "For the winter the Corps spent at the Mandan villages, Lone Dog's count paints a calumet, the ceremonial pipe, and the keeper's gloss says the people danced the calumet dance before going to war. The count says nothing about the Americans who had faced down the Teton Lakota that autumn. The confrontation that fills pages in four American journals did not become this Dakota keeper's sign for the year. The Teton side of 25 September survives only through the expedition's own pages and later Lakota histories."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "corps-of-discovery",
+  "where": "entry:54",
+  "severity": "doubt",
+  "problem": "The fighting with the Arikara was in 1807, when Pryor's party was turned back. The 1809 escort under Pierre Chouteau got past the Arikara without a battle.",
+  "fix": {
+   "digest": "Sheheke, his wife Yellow Corn and Jusseaume's wife are in Washington to hear the president. No reply from Sheheke is recorded on the page that preserves Jefferson's speech, so his side of the meeting is missing. It took him until 1809, and a large armed escort after the failed 1807 attempt, to get home."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "corps-of-discovery",
+  "where": "entry:17",
+  "severity": "tone",
+  "problem": "A compiler note about the source webpage sits in the reader-facing digest. The attribution caveat is already carried by confidence 'approx' and source_note.",
+  "fix": {
+   "digest": "Ordway records three men made chiefs and given medals, then a confrontation in which the swivel guns were loaded and manned. He notes that Clark told the Lakota the party was sent by their great father, the president, and could not be stopped. In the evening the chiefs ask the boats to stay so their families can see them."
+  }
+ },
+ {
+  "chapter": "corps-of-discovery",
+  "where": "convergence:2",
+  "severity": "tone",
+  "problem": "Compiler phrasing in a reader-facing note ('checked here').",
+  "fix": {
+   "note": "Every American keeper wrote about the standoff, each stressing a different side of it: Clark's anger, Ordway's loaded guns, Gass's boast. The only dated Indigenous year-record used here (a Yanktonai count, not Teton) marks the winter with a calumet dance and war, and makes no mention of the Americans. The Lakota account of the day is not in these sources."
+  }
+ },
+ {
+  "chapter": "corps-of-discovery",
+  "where": "eye:sheheke",
+  "severity": "tone",
+  "problem": "Compiler note in the authenticity text ('were found for this chapter').",
+  "fix": {
+   "text_replace": {
+    "old": "no words of Sheheke's own were found for this chapter.",
+    "new": "no record in Sheheke's own words is used here."
+   }
+  }
+ },
+ {
+  "chapter": "corps-of-discovery",
+  "where": "eye:lone-dog",
+  "severity": "tone",
+  "problem": "Compiler note in the authenticity text ('were not checked for this chapter').",
+  "fix": {
+   "text_replace": {
+    "old": "but their entries for these winters were not checked for this chapter.",
+    "new": "but are not drawn on here."
+   }
+  }
+ }
+]

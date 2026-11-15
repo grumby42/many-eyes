@@ -1,0 +1,316 @@
+import json
+D = "/tmp/claude-0/-home-claude/fa284f55-6839-573e-8ba4-d29a7355a349/scratchpad/vol5/"
+HERZL_PDF = "https://ia800206.us.archive.org/34/items/theodorherzlstag02herzuoft/theodorherzlstag02herzuoft.pdf"
+SECC = "https://www.theviennasecession.com/exhibitionscatalogues/"
+SCHIRN = "https://www.schirn.de/en/magazine/context/art_for_all_emil_orlik_japan_color_woodcut/"
+BAHR6 = "https://bahr.univie.ac.at/sites/all/ks/6-secession-2.pdf"
+
+vienna = {
+ "chapter": "vienna-1900",
+ "add_eyes": [
+  {"id": "herzl", "short": "Herzl", "name": "Theodor Herzl", "life": "1860–1904",
+   "role": "Feuilleton (arts and literature) editor of the Neue Freie Presse, aged 37 in 1897; playwright, and founder of political Zionism",
+   "side": "Viennese liberal press; the Zionist movement",
+   "where": "The Neue Freie Presse editorial office, Vienna; often travelling (The Hague, Constantinople, Palestine)",
+   "lat": 48.2025, "lon": 16.3735,
+   "waypoints": [
+     {"lat": 52.08, "lon": 4.30, "label": "The Hague, 1 October 1898"},
+     {"lat": 41.01, "lon": 28.98, "label": "Constantinople, October 1898"},
+     {"lat": 31.78, "lon": 35.22, "label": "Jerusalem, 2 November 1898"},
+     {"lat": 48.2025, "lon": 16.3735, "label": "Back at the paper, 18 November 1898"}],
+   "vantage": 2, "vantage_label": "the editor who chose what the city read",
+   "form": "diary; dated editorial letters",
+   "language": "German",
+   "authenticity": "Herzl kept his diary from 1895 until shortly before his death in 1904. It was first published in three volumes as Theodor Herzls Tagebücher (Jüdischer Verlag, Berlin, 1922–23), with some passages left out at first. The complete critical edition is in Briefe und Tagebücher (Propyläen, 1983–96). His notes to Schnitzler survive at Cambridge University Library and are in the digital Schnitzler letters edition. Digested here, not quoted.",
+   "bio": "Herzl ran the arts pages of the paper the Secession argued with, and he took or refused Schnitzler's fiction, so his desk is where Viennese art turned into newsprint. His diary hardly mentions the Secession. It is about Zionism, emperors and his employers Bacher and Benedikt, who would not let the movement into their paper. That silence shows how differently the same street could look from the newsroom.",
+   "sources": [
+     {"title": "Theodor Herzls Tagebücher, vol. 2 (Berlin, 1923), scan", "url": HERZL_PDF},
+     {"title": "Herzl to Schnitzler, 8 May 1900 (Schnitzler letters edition)", "url": "https://schnitzler-briefe.acdh.oeaw.ac.at/L03871.pdf"},
+     {"title": "Herzl, Theodor (Austria-Forum, AEIOU)", "url": "https://austria-forum.org/af/AEIOU/Herzl%2C_Theodor"}]},
+  {"id": "fischer", "short": "Adolf Fischer", "name": "Adolf Fischer", "life": "1857–1914",
+   "role": "Collector of East Asian art, then in his early forties, based in Berlin; later founder of Cologne's Museum of East Asian Art",
+   "side": "German collector and lender",
+   "where": "His collection on the walls of the Secession, Vienna, January–February 1900",
+   "lat": 48.2003, "lon": 16.3658,
+   "waypoints": [
+     {"lat": 52.52, "lon": 13.40, "label": "Berlin, his base"},
+     {"lat": 48.2003, "lon": 16.3658, "label": "Secession, 6th exhibition, 1900"},
+     {"lat": 35.68, "lon": 139.76, "label": "Tokyo, 1900–01 (with Orlik)"}],
+   "vantage": 1, "vantage_label": "the lender who explained Japan to Vienna",
+   "form": "exhibition catalogue text and book (1900)",
+   "language": "German",
+   "authenticity": "His explanation of ukiyo-e aesthetics is in the catalogue of the 6th Secession exhibition. His book Wandlungen im Kunstleben Japans (Berlin, B. Behr, 1900, with decorations by Wada Eisaku) is cited in Bahr's essay on the show. Neither is a diary. They are dated public texts.",
+   "bio": "Fischer lent the whole of the Secession's sixth exhibition, its only show given over to a single non-European tradition. He was then in Japan in 1900–01, where he introduced the Secession artist Emil Orlik to a Tokyo art association. His view is the collector's: Japan as a living art, not a souvenir.",
+   "sources": [
+     {"title": "The Vienna Secession: exhibitions and catalogues (6th exhibition)", "url": SECC},
+     {"title": "Schirn Mag: Emil Orlik, Japan and the colour woodcut", "url": SCHIRN}]},
+  {"id": "orlik", "short": "Orlik", "name": "Emil Orlik", "life": "1870–1932",
+   "role": "Prague-born painter and printmaker working in Vienna, aged 29 when he left for Japan",
+   "side": "Vienna Secession circle",
+   "where": "Yokohama, Tokyo and Nikko, spring 1900 to February 1901",
+   "lat": 35.68, "lon": 139.76,
+   "waypoints": [
+     {"lat": 48.2003, "lon": 16.3658, "label": "Vienna, before departure, early 1900"},
+     {"lat": 35.44, "lon": 139.64, "label": "Yokohama, spring 1900"},
+     {"lat": 35.68, "lon": 139.76, "label": "Tokyo, about a month later"},
+     {"lat": 36.75, "lon": 139.60, "label": "Nikko, mid-September 1900"},
+     {"lat": 48.2003, "lon": 16.3658, "label": "Back towards Vienna, end of February 1901"}],
+   "vantage": 4, "vantage_label": "the Viennese artist who went to the source",
+   "form": "dated letters and postcards",
+   "language": "German",
+   "authenticity": "Orlik wrote letters and postcards from Japan, chiefly to the print scholar Max Lehrs. They are quoted in the Schirn Kunsthalle's material on him. A complete published edition was not checked here. Digested, not quoted.",
+   "bio": "While Vienna looked at Fischer's prints in the Secession, Orlik went to Japan to learn colour woodcut from Japanese craftsmen. He was disappointed by the westernised ports and drawn to the old crafts. He brought the technique back to Vienna and Berlin, and his letters are the return leg of the January 1900 show.",
+   "sources": [
+     {"title": "Schirn Mag: Art for All, Emil Orlik, Japan, colour woodcut", "url": SCHIRN}]}
+ ],
+ "add_entries": [
+  {"date_iso": "1898-07-10", "date_display": "10 July 1898", "precision": "day", "eye": "herzl",
+   "place": "Vienna / Aussee (summer)",
+   "headline": "Sketching a building, architecture the art that moves him",
+   "digest": "Herzl drew up a plan for a Jewish house in Basel, a meeting hall for the Zionist congresses, and noted in passing that architecture was the art that spoke to him most. That same year Olbrich's Secession building was going up on the Karlsplatz. The diary does not mention it. His architecture belonged to a movement, not to a style.",
+   "quote": "", "confidence": "verified",
+   "source_note": "Theodor Herzls Tagebücher, vol. 2 (1923), entry headed 10 Juli, falling between the entries for 5 May and 31 July 1898 (scan at archive.org). Paraphrased."},
+  {"date_iso": "1898-10-01", "date_display": "Saturday 1 October 1898", "precision": "day", "eye": "herzl",
+   "place": "The Hague",
+   "headline": "In the Dutch painter Israëls's studio, talking Zionism",
+   "digest": "On his way to London, Herzl called on the old Dutch painter Jozef Israëls and spent the visit explaining Zionism to him. For the feuilleton editor of Vienna's leading paper, a studio visit had become a recruiting call. Six weeks later the Secession's new building opened without him.",
+   "quote": "", "confidence": "verified",
+   "source_note": "Theodor Herzls Tagebücher, vol. 2 (1923), entry 1 Oktober [1898], Haag. Paraphrased."},
+  {"date_iso": "1898-11-18", "date_display": "Friday 18 November 1898", "precision": "day", "eye": "herzl",
+   "place": "Vienna (Neue Freie Presse)",
+   "headline": "Back at the paper after Jerusalem: smiles and envy",
+   "digest": "Back from Palestine, where the Kaiser had received him on 2 November and committed to nothing, Herzl found that his action committee had done little in his absence. At the Neue Freie Presse his colleagues smiled instead of laughing, some envied him, and Benedikt asked sourly what the Kaiser had said about Austria. The entry was written six days after the Secession building opened a short walk away, and it says nothing about it.",
+   "quote": "", "confidence": "verified",
+   "source_note": "Theodor Herzls Tagebücher, vol. 2 (1923), entries 2 November (Jerusalem) and 18 November [1898], Wien. Paraphrased."},
+  {"date_iso": "1900-01-20", "date_display": "Saturday 20 January 1900", "precision": "day", "eye": "fischer",
+   "place": "Secession building, Vienna",
+   "headline": "Japan fills the Secession: the sixth exhibition opens",
+   "digest": "The Secession's sixth exhibition opened, given over entirely to Japanese art from Fischer's collection: woodblock prints, paintings and objects. In the catalogue Fischer explained the aesthetics of ukiyo-e for a Viennese public that knew Japan mostly as decoration. It ran until 25 February and was the worst-attended Secession show so far. Six weeks later the same rooms held Klimt's Philosophy.",
+   "quote": "", "confidence": "verified",
+   "source_note": "Dates and attendance: The Vienna Secession exhibitions and catalogues page (6th exhibition, 20 January to 25 February 1900). Fischer's catalogue text: Schirn Mag on Orlik."},
+  {"date_iso": "1900-01", "date_display": "January–February 1900", "precision": "range", "eye": "bahr",
+   "place": "Vienna",
+   "headline": "Bahr on the Japanese show: shamed by Japan's restraint",
+   "digest": "In his essay on the Japanese exhibition, Bahr argued that Japanese art had freed European painters since the 1860s by doing without shadow, perspective and illusion. It sharpened their sense of colour and left the viewer's imagination to finish the picture. He admired its unity of man and nature and said its restraint put Europe to shame. Then he turned to politics: Japan, modernising after its revolution, now had Europe's troubles too, and a nation should borrow foreign achievements only to express its own nature.",
+   "quote": "", "confidence": "approx",
+   "source_note": "Bahr, 'Japanische Ausstellung', in the section on the 6th exhibition in his collection Secession (1900; preface dated Easter 1900), Kritische Schriften VI, ed. Pias/Schnödl (bahr.univie.ac.at PDF). The essay cites Fischer's Wandlungen im Kunstleben Japans (1900). Original newspaper and day not confirmed."},
+  {"date_iso": "1900-04", "date_display": "Spring 1900", "precision": "range", "eye": "orlik",
+   "place": "Yokohama, then Tokyo",
+   "headline": "Landing at Yokohama and disliking the modern veneer",
+   "digest": "Orlik reached Yokohama in the spring and wrote home that the port was covered in an ugly modern veneer, not the Japan of the prints he had come for. About a month later he moved to Tokyo to look for printmakers and carvers. The country Vienna had just seen on the Secession's walls was already changing under his eyes.",
+   "quote": "", "confidence": "approx",
+   "source_note": "Schirn Mag, 'Art for All: Emil Orlik, Japan, colour woodcut' (letter to Max Lehrs; arrival in spring 1900). Day not given."},
+  {"date_iso": "1900-05-08", "date_display": "Tuesday 8 May 1900", "precision": "day", "eye": "herzl",
+   "place": "Neue Freie Presse office, Vienna",
+   "headline": "A one-line ask for the Pentecost number",
+   "digest": "In the weeks after the Philosophy scandal, Herzl wrote Schnitzler a short note on the paper's letterhead asking whether he would write something for the Pentecost number. The editors would be very glad of it. Schnitzler sent nothing, and the supplement appeared on 3 June without him. It is the feuilleton editor's ordinary work, a few lines in blue ink.",
+   "quote": "", "confidence": "verified",
+   "source_note": "Herzl to Schnitzler, 8 May 1900, Schnitzler letters edition L03871 (Cambridge University Library). Paraphrased."},
+  {"date_iso": "1900-11-15", "date_display": "Thursday 15 November 1900", "precision": "day", "eye": "schnitzler",
+   "place": "Vienna",
+   "headline": "Offering Herzl a story that cannot be cut",
+   "digest": "Schnitzler wrote to Herzl offering a story for the Christmas number. It ran to about nine columns and could not be shortened, and he thought the Neue Freie Presse supplement its proper place. In the same letter he apologised for a remark at Aussee that Herzl had heard about through Beer-Hofmann, to clear up a needless misunderstanding. The edition links the letter to Leutnant Gustl, though the letter itself does not name the story.",
+   "quote": "", "confidence": "verified",
+   "source_note": "Schnitzler to Herzl, 15 November 1900, Schnitzler letters edition L03937. Paraphrased."},
+  {"date_iso": "1900-12-03", "date_display": "Monday 3 December 1900", "precision": "day", "eye": "schnitzler",
+   "place": "Vienna",
+   "headline": "Has Herzl even received Gustl?",
+   "digest": "More than a fortnight after sending the manuscript, Schnitzler wrote again to ask whether Herzl had received Lieutenant Gustl and whether he could print it uncut. Three weeks later the officer's monologue was in the Christmas paper, and within months it cost its author his own reserve commission.",
+   "quote": "", "confidence": "verified",
+   "source_note": "Schnitzler to Herzl, 3 December 1900, Schnitzler letters edition L03935; Schnitzler Chronik, 3 December 1900. Paraphrased."},
+  {"date_iso": "1901-01-14", "date_display": "Monday 14 January 1901", "precision": "day", "eye": "schnitzler",
+   "place": "Vienna",
+   "headline": "Complaining that the fee ignored Gustl's length",
+   "digest": "Three weeks after publication Schnitzler wrote to Herzl again. An earlier letter seemed to have gone astray, though the editors note Herzl did receive it. He asked whom to approach about his fee, because the payment had ignored the story's unusual length despite his warning. The novella that shook the army was, at the newspaper, a question of columns and honoraria.",
+   "quote": "", "confidence": "verified",
+   "source_note": "Schnitzler to Herzl, 14 January 1901, Schnitzler letters edition L03940 (Central Zionist Archives, H1:1926-6). Paraphrased."},
+  {"date_iso": "1900-09", "date_display": "Mid-September 1900", "precision": "month", "eye": "orlik",
+   "place": "Nikko",
+   "headline": "A letter from the shrines of Nikko",
+   "digest": "Orlik wrote from Nikko, the mountain shrine town north of Tokyo, during months spent studying Japanese woodblock printing. Through Fischer, also in Japan, he had been introduced to a Tokyo art association and allowed to show his work there. A Viennese artist was being judged by Japanese eyes.",
+   "quote": "", "confidence": "approx",
+   "source_note": "Schirn Mag on Orlik: letter sent from Nikko in mid-September 1900; Fischer's introduction to a Tokyo art association. Recipient and exact day not given."},
+  {"date_iso": "1901-05-03", "date_display": "Friday 3 May 1901", "precision": "day", "eye": "herzl",
+   "place": "Neue Freie Presse office, Vienna",
+   "headline": "Again asking Schnitzler for a Pentecost piece",
+   "digest": "Herzl asked Schnitzler once more for something for Pentecost. It need not be about Pentecost, or even be a story, but it had to arrive by 22 May, and he wanted a yes or no at once. Schnitzler published nothing in the paper that year. Two weeks later Herzl was in Constantinople for his audience with Sultan Abdülhamid II, still editing the feuilleton between missions.",
+   "quote": "", "confidence": "verified",
+   "source_note": "Herzl to Schnitzler, 3 May 1901, Schnitzler letters edition L03828 (Herzl, Briefe, Propyläen 1993, p. 210). Audience with the Sultan in May 1901 is standard Herzl biography. Paraphrased."},
+  {"date_iso": "1901-02", "date_display": "End of February 1901", "precision": "month", "eye": "orlik",
+   "place": "Leaving Japan",
+   "headline": "Leaving Japan with a new way of making prints",
+   "digest": "At the end of February 1901 Orlik left Japan for Vienna after about ten months, taking back the methods of Japanese colour woodcut. Over the next years he made the Japanese print a working tool for Vienna and Berlin, not only a collector's object, and he showed his Japanese work in both cities.",
+   "quote": "", "confidence": "approx",
+   "source_note": "Schirn Mag on Orlik (departure end of February 1901). Later exhibitions are summarised, not dated here."}
+ ],
+ "add_convergences": [
+  {"date": "1900-01-20", "label": "Japan at the Secession: the sixth exhibition", "eyes": ["fischer", "bahr", "orlik"],
+   "note": "The collector, the critic and the traveller look at the same art from three distances. Fischer lends it and explains ukiyo-e in the catalogue. Bahr, in the Secession's own rooms, praises Japan's restraint and warns against borrowing without a purpose. Orlik leaves to learn the craft at its source, and finds the ports already westernised. The show drew the smallest crowds of any Secession exhibition, six weeks before Philosophy drew the largest storm."},
+  {"date": "1900-12-25", "label": "Leutnant Gustl goes through the feuilleton editor's hands", "eyes": ["schnitzler", "herzl"],
+   "note": "Schnitzler's letters show the most subversive Viennese story of 1900 passing through Herzl's desk: offered as uncuttable, chased, printed at Christmas and then argued over for its fee. Herzl's diary of these months is about Zionism, not literature. To him the paper was a job, and to Schnitzler a venue."}
+ ],
+ "add_ties": [
+  {"a": "herzl", "b": "schnitzler", "kind": "met", "note": "Old friends from 1890s literary Vienna. As feuilleton editor of the Neue Freie Presse, Herzl asked Schnitzler for pieces and printed Leutnant Gustl in the 1900 Christmas number."},
+  {"a": "herzl", "b": "kraus", "kind": "opposite sides", "note": "Kraus mocked Herzl and Zionism in his 1898 pamphlet Eine Krone für Zion, and Die Fackel spent years attacking the Neue Freie Presse that Herzl wrote for."},
+  {"a": "fischer", "b": "orlik", "kind": "met", "note": "In Japan in 1900 Fischer introduced Orlik to a Tokyo art association, which let him exhibit there."},
+  {"a": "bahr", "b": "fischer", "kind": "read each other", "note": "Bahr's essay on the Japanese exhibition cites Fischer's book Wandlungen im Kunstleben Japans (1900)."}
+ ],
+ "add_images": [],
+ "add_further": [
+  {"title": "Theodor Herzls Tagebücher, vol. 2 (1923), scanned text", "url": HERZL_PDF},
+  {"title": "Hermann Bahr, Kritische Schriften VI: Secession (Bahr project, Universität Wien)", "url": BAHR6}
+ ],
+ "add_claims": [
+  {"date_iso": "1900-01-20", "date_display": "20 January – 25 February 1900", "eye": "fischer",
+   "claim": "Sixth Secession exhibition shows Japanese art from Adolf Fischer's collection; the worst-attended show to date",
+   "form": "shown", "evidence": "The Vienna Secession exhibitions and catalogues page; Schirn Mag (Fischer's catalogue text)", "confidence": "verified"},
+  {"date_iso": "1900-11-15", "date_display": "15 November – 3 December 1900", "eye": "schnitzler",
+   "claim": "Schnitzler offers Leutnant Gustl to Herzl for the Neue Freie Presse Christmas number and asks for it uncut",
+   "form": "commissioned", "evidence": "Schnitzler to Herzl, 15 November and 3 December 1900 (Schnitzler letters edition L03937, L03935)", "confidence": "verified"}
+ ],
+ "add_threads_out": [
+  {"to": "v2:black-ships", "note": "The Japanese prints Fischer lent the Secession in January 1900 reached European collectors in large numbers only after Perry's ships forced Japan open in 1853–54. Bahr's essay on the show dates the European fashion for Japan to the late 1860s and the Paris exhibition of 1867, and it notes that Japan, modernising after its revolution, now shared Europe's troubles."}
+ ],
+ "updates": [
+  {"where": "entry:15", "fix": {"source_note": "Publication in the NFP Christmas number 1900 is standard. Schnitzler's letters to Herzl of 15 November and 3 December 1900 and 14 January 1901 (Schnitzler letters edition L03937, L03935, L03940) confirm the offer for the Christmas number, the uncut printing and the fee dispute. The day of the issue was not checked against the paper."},
+   "why": "The Schnitzler–Herzl letters in the digital edition corroborate the Christmas-number placement. Confidence stays approx because the issue date was not checked."}
+ ]
+}
+
+rite = {
+ "chapter": "rite-1913",
+ "add_eyes": [
+  {"id": "gross", "short": "Valentine Gross", "name": "Valentine Gross (later Valentine Hugo)", "life": "1887–1968",
+   "role": "Painter and illustrator, aged 25; a regular at the Ballets Russes who drew the dancers during performances and rehearsals",
+   "side": "Paris artists around the Ballets Russes",
+   "where": "In the house at the Théâtre des Champs-Élysées, drawing",
+   "lat": 48.8656, "lon": 2.3036,
+   "vantage": 1, "vantage_label": "the eye with a pencil in the dark",
+   "form": "sketchbook (dated drawings)",
+   "language": "French (inscriptions); visual record",
+   "authenticity": "Her sketches and pastels of the Rite are in the Valentine Gross Archive at the V&A (THM/165, given by Jean Hugo), with others in Paris collections. The V&A says she made preliminary sketches during performances and rehearsals between 1909 and 1919 and worked some up later into finished pencil or colour drawings, so not every sheet is a same-night record. A drawing of Maria Piltz in the Sacrificial Dance is dated 29 May 1913 and was published in Montjoie! in June 1913.",
+   "bio": "Nijinsky's choreography was never filmed and left the repertoire within a year. Gross's quick drawings of the Chosen One, the Old Woman and the circling maidens are among the few images of it made while it was being danced. In 1987 the reconstruction by Millicent Hodson and Kenneth Archer relied heavily on them.",
+   "sources": [
+     {"title": "V&A: Le Sacre du Printemps, pastel by Valentine Gross (S.643-1989)", "url": "https://collections.vam.ac.uk/item/O1247862/le-sacre-du-printemps-drawing-valentine-gross"},
+     {"title": "Numeridanse webdoc: Rite of passage (Gross drawing of Piltz, 29 May 1913)", "url": "https://www.numeridanse.tv/en/themas/webdocs/rite-passage"}]},
+  {"id": "puccini", "short": "Puccini", "name": "Giacomo Puccini", "life": "1858–1924",
+   "role": "Italian opera composer, aged 54, in Paris in early June 1913",
+   "side": "Italian opera",
+   "where": "In the audience at a later performance, Théâtre des Champs-Élysées",
+   "lat": 48.8656, "lon": 2.3036,
+   "vantage": 1, "vantage_label": "the rival master in the stalls",
+   "form": "dated letters",
+   "language": "Italian",
+   "authenticity": "Wikipedia's Rite of Spring article says Puccini attended the 2 June performance. His verdict is widely quoted in English from a letter usually said to be to Tito Ricordi, but the recipient, the exact date and the Italian original were not checked here. Treat it as reported, and quote only the much-repeated fragment.",
+   "bio": "The most successful opera composer alive heard the Rite in its first week and called it, in effect, the work of a madman, while still granting it originality and talent. His reaction is the old theatre judging the new from inside the trade.",
+   "sources": [
+     {"title": "The Rite of Spring (Wikipedia: Puccini at the 2 June performance)", "url": "https://en.wikipedia.org/wiki/The_Rite_of_Spring"},
+     {"title": "uDiscover Music: The riot at the Rite of Spring premiere (Puccini's remark)", "url": "https://www.udiscovermusic.com/classical-features/stravinsky-rite-of-spring/"}]},
+  {"id": "lalo", "short": "Pierre Lalo", "name": "Pierre Lalo", "life": "1866–1943",
+   "role": "Music critic of Le Temps, aged 47; son of the composer Édouard Lalo",
+   "side": "French press (conservative)",
+   "where": "Paris; reviewing the Rite and Jeux together",
+   "lat": 48.872, "lon": 2.338,
+   "vantage": 1, "vantage_label": "the senior critic, unimpressed",
+   "form": "newspaper review",
+   "language": "French",
+   "authenticity": "His feuilleton 'La Musique' in Le Temps, 3 June 1913, is reproduced by the Presse musicale française project (OICRM). Digested, not quoted.",
+   "bio": "Lalo was the most feared critic in Paris and a long-standing opponent of the Ballets Russes' cult of novelty. His review, written after the first week, separates music he respected from choreography he despised. That split ran through much of the reception.",
+   "sources": [
+     {"title": "Pierre Lalo, 'La Musique', Le Temps, 3 June 1913 (Presse musicale française, OICRM)", "url": "https://pmf.oicrm.org/media/public/documents/ART-LAP-1913-02.pdf"}]},
+  {"id": "schmitt", "short": "Florent Schmitt", "name": "Florent Schmitt", "life": "1870–1958",
+   "role": "Composer and critic of La France, aged 42; friend of Stravinsky",
+   "side": "Paris composers (the 'Apaches')",
+   "where": "In the house at the premiere; then at his critic's desk",
+   "lat": 48.8656, "lon": 2.3036,
+   "vantage": 1, "vantage_label": "the composer-critic who shouted back",
+   "form": "newspaper review; anecdotes recorded by others later",
+   "language": "French",
+   "authenticity": "His review appeared in La France on 4 June 1913, as summarised by the Florent Schmitt website. The stories of him shouting at the boxes come from Stravinsky's 1962 commentary and Casella's 1955 memoir, both written decades later.",
+   "bio": "Schmitt was one of the young Paris composers who championed Stravinsky. He heard the premiere as a call to arms, and his review was the most extravagant praise the work got that week. He is the defender's voice that Lalo and Quittard were answering.",
+   "sources": [
+     {"title": "Florent Schmitt and Igor Stravinsky: a consequential musical relationship (florentschmitt.com)", "url": "https://florentschmitt.com/2015/02/08/florent-schmitt-and-igor-stravinsky-a-consequential-musical-relationship/"}]}
+ ],
+ "add_entries": [
+  {"date_iso": "1913-05-29", "date_display": "Thursday 29 May 1913", "precision": "day", "eye": "gross",
+   "place": "Théâtre des Champs-Élysées",
+   "headline": "Drawing the Chosen One while the house roars",
+   "digest": "While others argued in the aisles, Gross drew Maria Piltz, the Chosen One, in the Sacrificial Dance. The drawing is dated to the premiere night. Hers is the only record in this chapter made on the spot that shows the dance itself and not the audience.",
+   "quote": "", "confidence": "verified",
+   "source_note": "Numeridanse webdoc 'Rite of passage': Gross drawing of Marie Piltz in the Sacrificial Dance, drawn in Paris on 29 May 1913 and published in Montjoie! in June 1913."},
+  {"date_iso": "1913-05-29", "date_display": "Thursday 29 May 1913 (recalled 1955 and 1962)", "precision": "day", "eye": "schmitt",
+   "place": "Théâtre des Champs-Élysées",
+   "headline": "Shouting down the boxes, by later accounts",
+   "digest": "By the later accounts of Casella (1955) and Stravinsky (1962), Schmitt stood up in the din and yelled insults at the society women of the expensive sixteenth arrondissement and at an old gentleman in a box. These are recollections decades after the fact, not his own record. They agree only that the young composers in the house fought back.",
+   "quote": "", "confidence": "approx",
+   "source_note": "florentschmitt.com (citing Stravinsky's 1962 commentary and Alfredo Casella's 1955 memoir). Later anecdote, flagged as such."},
+  {"date_iso": "1913-06-02", "date_display": "Monday 2 June 1913 (letter early June)", "precision": "range", "eye": "puccini",
+   "place": "Théâtre des Champs-Élysées; letter from Paris",
+   "headline": "Puccini hears a madman's cacophony, with talent in it",
+   "digest": "Puccini went to a later performance, given by Wikipedia as 2 June, and in a letter, usually said to be to Tito Ricordi, called the choreography ridiculous and the music sheer cacophony, the creation of a madman. He granted it some originality and real talent and reported a public that hissed, laughed and applauded. As always with this letter, recipient and date are as reported in secondary sources.",
+   "quote": "", "confidence": "approx",
+   "source_note": "Wikipedia, The Rite of Spring (Puccini at the 2 June performance); uDiscover Music (the 'work of a madman … sheer cacophony' remark). Letter recipient and date not checked against an Italian edition."},
+  {"date_iso": "1913-06-03", "date_display": "Tuesday 3 June 1913", "precision": "day", "eye": "lalo",
+   "place": "Paris (Le Temps)",
+   "headline": "Le Temps: clever, dissonant music, ugly dancing",
+   "digest": "Lalo reviewed the Rite together with Debussy's Jeux. He judged the choreography a regrettable mediocrity in which everything was ugly, with neither grace nor expression. The music was skilful and ingenious but heavily dissonant, its daring more superficial than deep. He found the young musicians' talk of a masterpiece excessive, scolded the audience for its racket and discourtesy, and promised a closer look after another hearing.",
+   "quote": "", "confidence": "verified",
+   "source_note": "Pierre Lalo, 'La Musique', Le Temps, 3 June 1913 (Presse musicale française, OICRM, ART-LAP-1913-02). Paraphrased."},
+  {"date_iso": "1913-06-04", "date_display": "Wednesday 4 June 1913", "precision": "day", "eye": "schmitt",
+   "place": "Paris (La France)",
+   "headline": "La France: the Messiah awaited since Wagner",
+   "digest": "A day after Lalo, Schmitt's review hailed the Rite as a summit of Russian art and the arrival of a new music. He set Stravinsky up as the composer the age had been waiting for since Wagner. Read beside Lalo and Quittard, it shows the premiere splitting Paris critics into two camps within a week.",
+   "quote": "", "confidence": "verified",
+   "source_note": "Florent Schmitt, review in La France, 4 June 1913, as summarised on florentschmitt.com. Paraphrased; no translation quoted."},
+  {"date_iso": "1913-06", "date_display": "June 1913", "precision": "month", "eye": "gross",
+   "place": "Paris (Montjoie!)",
+   "headline": "Her drawings go to press in Montjoie!",
+   "digest": "Canudo's magazine Montjoie!, which had printed Stravinsky's statement on the day of the premiere, published Gross's drawing of the Sacrificial Dance in June. Readers who missed the four Paris performances could see the dance the critics were arguing over.",
+   "quote": "", "confidence": "approx",
+   "source_note": "Numeridanse webdoc 'Rite of passage' (publication in Montjoie!, June 1913); NYPL digital collections hold the Montjoie! run. Issue number not checked."},
+  {"date_iso": "1913", "date_display": "1913 (sketches made in the theatre, worked up later)", "precision": "year", "eye": "gross",
+   "place": "Paris; studio",
+   "headline": "Pastels of the circling maidens, finished from the sketches",
+   "digest": "From her quick theatre studies Gross worked up a small pastel of the Glorification of the Chosen One: maidens in cream dresses with red trim and long black plaits in a ring, one figure standing alone at the centre against a blurred green ground. Other sheets catch the Old Woman bending, falling, scurrying and twisting. They record shapes and groupings that no film preserved.",
+   "quote": "", "confidence": "approx",
+   "source_note": "V&A S.643-1989 (pastel, 19 × 25 cm, Valentine Gross Archive THM/165); the V&A says she sketched in performances and rehearsals and worked the drawings up later. Exact date of the finished pastel unknown."}
+ ],
+ "add_convergences": [
+  {"date": "1913-06-03", "label": "The first week's verdicts: stalls, studio and press", "eyes": ["vanvechten", "puccini", "lalo", "schmitt", "gross"],
+   "note": "Between 2 and 4 June Van Vechten is being drummed on in the stalls, Puccini is calling it a madman's cacophony, Lalo in Le Temps dismisses the dancing as ugly, and Schmitt in La France hails a Messiah. Gross, meanwhile, is turning her theatre sketches into the images that would outlast the choreography. They saw the same performances and drew opposite lessons."}
+ ],
+ "add_ties": [
+  {"a": "gross", "b": "nijinsky", "kind": "influenced", "note": "Gross drew Nijinsky's dancers in performance. Her drawings became a main source for the 1987 reconstruction of his lost choreography."},
+  {"a": "schmitt", "b": "stravinsky", "kind": "met", "note": "Friends and allies in Paris. Schmitt defended the Rite in the house and in print, and Stravinsky later recalled his shouting."},
+  {"a": "lalo", "b": "schmitt", "kind": "opposite sides", "note": "In consecutive days' papers (3 and 4 June 1913), Le Temps called the dancing ugly and the daring superficial, and La France proclaimed a new music."},
+  {"a": "lalo", "b": "debussy", "kind": "mentioned", "note": "Lalo's 3 June feuilleton reviewed Debussy's Jeux beside the Rite, judging the two Nijinsky ballets together."}
+ ],
+ "add_images": [],
+ "add_further": [
+  {"title": "Presse musicale française: Jean Marnold on Le Sacre, Mercure de France (autumn 1913)", "url": "https://pmf.regroupement-rcms.org/media/public/documents/ART-MAJ-1913-08.pdf"}
+ ],
+ "add_claims": [
+  {"date_iso": "1913-05-29", "date_display": "29 May 1913 (published June 1913)", "eye": "gross",
+   "claim": "Valentine Gross draws the Sacrificial Dance during the premiere; published in Montjoie! in June",
+   "form": "other", "evidence": "Numeridanse webdoc 'Rite of passage'; V&A Valentine Gross Archive", "confidence": "approx"},
+  {"date_iso": "1913-06-03", "date_display": "3 June 1913", "eye": "lalo",
+   "claim": "Le Temps (Pierre Lalo) condemns the choreography and calls the music's daring superficial",
+   "form": "reviewed", "evidence": "Le Temps, 3 June 1913 (Presse musicale française, OICRM)", "confidence": "verified"},
+  {"date_iso": "1913-06-04", "date_display": "4 June 1913", "eye": "schmitt",
+   "claim": "La France (Florent Schmitt) hails the Rite as the arrival of a new music",
+   "form": "reviewed", "evidence": "La France, 4 June 1913, as summarised on florentschmitt.com", "confidence": "verified"}
+ ],
+ "add_threads_out": [
+  {"to": "exposition-1889", "note": "Debussy, who sight-read the Rite with Stravinsky in 1912 and saw Jeux and the Rite premiered two weeks apart, had heard the Javanese gamelan at the 1889 Exposition. His essay praising Javanese music came out early in 1913, the year of both ballets."}
+ ],
+ "updates": [
+  {"where": "convergence:5", "fix": {"eyes": ["stravinsky", "kessler", "rambert", "monteux", "cocteau", "astruc", "roerich", "nijinsky", "gross", "schmitt"]},
+   "why": "Gross's drawing of the Sacrificial Dance is dated 29 May 1913 (Numeridanse). Schmitt's presence at the premiere is attested, though his shouting rests on later recollection (florentschmitt.com)."}
+ ]
+}
+
+for name, obj in (("patch-vienna-1900.json", vienna), ("patch-rite-1913.json", rite)):
+    with open(D + name, "w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, indent=1)
+    json.load(open(D + name))
+    print(name, len(obj["add_eyes"]), "eyes", len(obj["add_entries"]), "entries", len(obj["add_convergences"]), "conv", len(obj["add_ties"]), "ties", len(obj["add_claims"]), "claims")

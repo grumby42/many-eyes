@@ -1,0 +1,966 @@
+{
+ "id": "babylon-331",
+ "title": "Written in the Stars: Babylon Watches Alexander",
+ "short_title": "Written in the Stars",
+ "subtitle": "Alexander's conquest of the Persian Empire and his death, as Babylon's astronomer-scribes logged it night by night, 331–323 BC",
+ "span": "331–323 BC",
+ "intro": [
+  "Every night for some six hundred years, scholars attached to Esagila, the great temple of Marduk in Babylon, went up to watch the sky and wrote down what they saw: where the moon stood against the stars, which planets had risen, whether clouds hid everything. At the end of each entry, and at the end of each month, they added the things that happened on the ground — the price of barley and dates, the height of the Euphrates, fires, plagues, the movements of kings. Modern scholars call these tablets the Astronomical Diaries. They were not personal diaries; no single scribe signs them, and the observations were later copied and compiled. But they are dated to the night, written within days or weeks of the events, and kept by people who had no stake in flattering a Macedonian king. That makes them the closest thing to a same-day eyewitness record that survives for Alexander the Great.",
+  "Two of these tablets anchor this chapter. One, in the British Museum (BM 36761 with its join BM 36390), covers the sixth and seventh Babylonian months of 331 BC: a total eclipse of the moon on 20 September, panic in the Persian camp, the battle on 1 October that the Greeks called Gaugamela, the flight of Darius III, messages promising the restoration of Esagila, and Alexander — called by the scribe 'king of the world' — at the gates of Babylon around 21 October. The other (BM 45962) covers the second month of 323 BC. Between a note that Mercury stood above Saturn and a run of cloudy nights, it records, in two words of Akkadian, that the king died.",
+  "Set against those clay tablets are the Greek and Roman accounts most readers know. Almost all of them are late. Arrian, Plutarch, Diodorus and Curtius Rufus wrote between about 300 and 450 years after the events, compiling earlier works that are now lost: the court historian Callisthenes, the engineer Aristobulus, King Ptolemy of Egypt, and a day-book of Alexander's last illness called the Royal Ephemerides (Royal Journal), which survives only in quotation and whose authenticity is still argued. This chapter treats those later writers honestly as what they are — careful or colourful historians, not eyewitnesses — and flags every lost source as known only through them.",
+  "The honest record here is therefore mostly logs, chronicles and later histories, not diaries in the modern sense; the 'form' of each eye says which. The Babylonian scribes appear as institutional eyes, named by role. There is no Persian eye at all. The administrative clay archives of Persepolis, which might have shown the empire from the inside, stop generations earlier: the Fortification tablets run from 509 to the 490s BC and the Treasury tablets to the 450s. Ironically, the fire Alexander set at Persepolis in 330 BC helped bury and preserve those older archives, so the empire speaks in this chapter only through its conquerors and its Babylonian subjects.",
+  "What makes these eyes worth setting side by side is how differently they saw the same weeks. The Greek writers remember the eclipse as an omen that frightened Alexander's own soldiers; the Babylonian scribes put the panic in Darius's camp. The Greeks remember Alexander dying on the 28th or the 30th of the Macedonian month Daesius; the Babylonians, watching the sky from the city where he lay, wrote it on the evening-to-evening day we call 11 June 323 BC. And the Chaldaeans who welcomed Alexander with music in 331, and who warned him in 323 not to enter the city, were the same temple scholars who kept the diary."
+ ],
+ "calendar_note": "Babylonian dates follow the local lunar calendar: each month began at sunset when the new crescent was first seen, and each day ran from sunset to sunset, so one Babylonian day straddles two of ours. The months here are Ulūlu (month VI, in 331 BC beginning about 8 September), Tašrītu (month VII, beginning about 8 October) and Ayyāru (month II, in 323 BC beginning about 13 May). The scribes dated years by the reigning king: the 331 BC diary falls in Darius III's fifth year, and the 323 BC diary in the fourteenth year of Alexander, whose Babylonian reign was counted from his Macedonian accession in 336 BC. Conversions to the Julian calendar follow Sachs & Hunger and the Livius.org commentaries (for example, 13 Ulūlu = 20 September 331 BC; 24 Ulūlu = 1 October 331 BC; 29 Ayyāru = the day ending at sunset on 11 June 323 BC, with the death most likely in the late afternoon). Greek authors used other calendars: Plutarch dates the eclipse to the Athenian month Boedromion and Arrian dates the battle to Pyanepsion, while the Royal Ephemerides count days of the Macedonian month Daesius, whose fit to the Julian calendar is uncertain; this chapter places the Ephemerides' days by assuming their 28 Daesius is the same day as the Babylonian 29 Ayyāru, and marks them approximate. date_iso uses the proleptic Julian calendar with astronomical year numbering, so 331 BC = -0330, 330 BC = -0329, 324 BC = -0323 and 323 BC = -0322; date_display gives the conventional BC form and the original-calendar date.",
+ "eyes": [
+  {
+   "id": "esagila-astronomers",
+   "name": "The astronomers of Esagila (scribes of the Astronomical Diaries)",
+   "short": "Esagila diarists",
+   "life": "Diary tradition c. 652–61 BC; these scribes fl. 331–323 BC",
+   "role": "Anonymous temple scholars (the Greeks' 'Chaldaeans') attached to Esagila, the temple of Marduk/Bêl, keeping a nightly record of the sky, weather, prices, the river and public events — institutional authorship, no individual named",
+   "side": "Babylonian temple community under Persian, then Macedonian, rule",
+   "where": "Babylon, observing from the city; news of the battle reached them from about 300 km north",
+   "lat": 32.54,
+   "lon": 44.42,
+   "vantage": 2,
+   "vantage_label": "in Babylon, logging sky and news",
+   "form": "log (Astronomical Diary; institutional, compiled from nightly observations)",
+   "language": "Akkadian (Late Babylonian cuneiform)",
+   "authenticity": "Original clay tablets in the British Museum: BM 36761 + BM 36390 (Sachs & Hunger, Astronomical Diaries I, no. -330; LBAT 196) and BM 45962 (no. -322 B; LBAT 209). Broken: only the left half of about twenty lines survives for the battle section, and readings of key words (e.g. who deserted whom) are disputed between R.J. van der Spek and R. Rollinger & K. Ruffing. The diaries were written up monthly from shorter notes, so the wording may reflect hindsight by a few weeks.",
+   "bio": "These scribes were professional sky-watchers whose job was to notice anything ominous — in the heavens and on earth — and set it down by date. Their record of 331 BC is the only source written in the conquered empire itself while the conquest was happening, and their two-word notice of Alexander's death is the only contemporary record of it. They were not neutral bystanders: the restoration of their temple, Esagila, was one of the things the new king promised, and their omen-reading may have shaped what they chose to write.",
+   "sources": [
+    {
+     "title": "Livius.org: A contemporary account of the battle of Gaugamela (translation and commentary, R.J. van der Spek)",
+     "url": "https://www.livius.org/sources/content/oriental-varia/a-contemporary-account-of-the-battle-of-gaugamela/"
+    },
+    {
+     "title": "Livius.org: A contemporary account of the death of Alexander",
+     "url": "https://www.livius.org/sources/content/oriental-varia/a-contemporary-account-of-the-death-of-alexander/"
+    },
+    {
+     "title": "British Museum, BM 36761 (Astronomical Diary mentioning Alexander's entry to Babylon)",
+     "url": "https://www.britishmuseum.org/collection/object/W_1880-0617-496"
+    },
+    {
+     "title": "British Museum, BM 45962 (Astronomical Diary mentioning the death of Alexander)",
+     "url": "https://www.britishmuseum.org/collection/object/W_1881-0706-403"
+    },
+    {
+     "title": "A. Sachs & H. Hunger, Astronomical Diaries and Related Texts from Babylonia I (Vienna 1988)",
+     "url": ""
+    }
+   ]
+  },
+  {
+   "id": "babylon-chroniclers",
+   "name": "The chroniclers of Babylon (Alexander Chronicle, BCHP 1)",
+   "short": "Chroniclers",
+   "life": "Hellenistic chronicle tradition, 4th–2nd c. BC",
+   "role": "Anonymous Babylonian scholars who condensed political events into chronicles, probably drawing on the Diaries — institutional authorship",
+   "side": "Babylonian temple scholarship",
+   "where": "Babylon",
+   "lat": 32.54,
+   "lon": 44.42,
+   "vantage": 3,
+   "vantage_label": "Babylon, condensing distant events",
+   "form": "chronicle",
+   "language": "Akkadian (Late Babylonian cuneiform)",
+   "authenticity": "BM 36304, first published by A.K. Grayson (1975, ABC 8); re-edited in I.L. Finkel, R.J. van der Spek & R. Pirngruber, Babylonian Chronographic Texts from the Hellenistic Period (BCHP 1). Very fragmentary; no regnal year survives on the tablet, so dates are assigned by matching events to Greek accounts. Related texts: the Diadochi Chronicle (BCHP 3) for 323 BC onwards, and the Babylonian King List of the Hellenistic Period (BM 35603), copied c. 145–125 BC, which names Alexander as king but whose reign figures for him are lost.",
+   "bio": "Where the Diaries jot news among star positions, the chronicles keep only politics: who sat on the throne, who was killed, what was taken from the palace. Their fragment on 330 BC is a rare Babylonian view of the hunt for Darius and of the usurper Bessus, seen from a city that now belonged to Alexander.",
+   "sources": [
+    {
+     "title": "Livius.org: BCHP 1 (Alexander Chronicle)",
+     "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/bchp-1-alexander-chronicle/"
+    },
+    {
+     "title": "Livius.org: BCHP 3 (Diadochi Chronicle)",
+     "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/bchp-3-diadochi-chronicle/"
+    },
+    {
+     "title": "Livius.org: Babylonian King List of the Hellenistic Period (BM 35603)",
+     "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/babylonian-king-list-of-the-hellenistic-period/"
+    }
+   ]
+  },
+  {
+   "id": "royal-ephemerides",
+   "name": "The Royal Ephemerides (Royal Journal of Alexander's court)",
+   "short": "Royal Journal",
+   "life": "Kept at court until 323 BC; text lost",
+   "role": "A court day-book attributed by Athenaeus to Alexander's secretary Eumenes of Cardia and to Diodotus of Erythrae — known only through extracts in Plutarch and Arrian",
+   "side": "Macedonian royal court",
+   "where": "At Alexander's bedside in the palaces and park of Babylon",
+   "lat": 32.54,
+   "lon": 44.42,
+   "vantage": 0,
+   "vantage_label": "at the dying king's bedside",
+   "form": "journal (survives only in quotation)",
+   "language": "Greek",
+   "authenticity": "Lost. Survives only as paraphrased extracts (Plutarch, Alexander 76; Arrian, Anabasis 7.25–26) and brief citations elsewhere. Scholars disagree whether it was a genuine court journal, a selection published soon after 323 BC to rebut rumours of poisoning, or a later fabrication; the mention of a temple of Sarapis, a cult established in Egypt after Alexander's death, suggests at least later editing. Plutarch and Arrian also report its day numbers slightly differently.",
+   "bio": "If genuine, the Ephemerides are the Greek counterpart of the Babylonian diary: a dated, day-by-day record of the king's routine — baths, sacrifices, orders, fever. Their account of Alexander's last eleven days is the most detailed we have, and their date for his death, 28 Daesius, can be laid against the Babylonian tablet written in the same city.",
+   "sources": [
+    {
+     "title": "Plutarch, Alexander 75–76 (Perrin translation, 1919), via Perseids",
+     "url": "https://fgh.perseids.org/read/greekLit/tlg0007/tlg047/perseus-eng2/75.4-76.4"
+    },
+    {
+     "title": "Livius.org: Arrian on the death of Alexander (Anabasis 7.24–26)",
+     "url": "https://www.livius.org/sources/content/arrian/anabasis/the-death-of-alexander/"
+    },
+    {
+     "title": "Historiography of Alexander the Great (overview of lost sources)",
+     "url": "https://en.wikipedia.org/wiki/Historiography_of_Alexander_the_Great"
+    }
+   ]
+  },
+  {
+   "id": "callisthenes",
+   "name": "Callisthenes of Olynthus",
+   "short": "Callisthenes",
+   "life": "c. 360–327 BC",
+   "role": "Court historian of the expedition, grand-nephew of Aristotle, writing an official account while it happened",
+   "side": "Macedonian army (Greek in Alexander's service)",
+   "where": "With the army at Gaugamela, Babylon and Persepolis; died in custody in Bactria/Sogdiana",
+   "lat": 36.36,
+   "lon": 43.25,
+   "waypoints": [
+    {
+     "lat": 36.36,
+     "lon": 43.25,
+     "label": "Gaugamela, Oct 331 BC"
+    },
+    {
+     "lat": 32.54,
+     "lon": 44.42,
+     "label": "Babylon, Oct–Nov 331 BC"
+    },
+    {
+     "lat": 29.93,
+     "lon": 52.89,
+     "label": "Persepolis, 330 BC"
+    },
+    {
+     "lat": 36.76,
+     "lon": 66.9,
+     "label": "Bactria, d. 327 BC"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "with the army, writing it up",
+   "form": "history written during the campaign (lost; survives only in quotation)",
+   "language": "Greek",
+   "authenticity": "Lost. Fragments are quoted or paraphrased by later writers, chiefly Plutarch (e.g. Alexander 33 on the prayer before Gaugamela) and Strabo. His account was openly flattering, presenting Alexander as favoured by the gods. A late report (Simplicius, citing Porphyry) that he sent Babylonian observations back to Aristotle is generally regarded as legendary.",
+   "bio": "Callisthenes is the only Greek in this chapter who wrote while the campaign was still going on, but he wrote as the king's publicist. He later refused to perform proskynesis, the Persian bow, before Alexander, and died in custody in 327 BC. His voice survives only where Plutarch chose to cite it.",
+   "sources": [
+    {
+     "title": "Plutarch, Life of Alexander (Perrin translation), LacusCurtius",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Alexander*/home.html"
+    },
+    {
+     "title": "Historiography of Alexander the Great",
+     "url": "https://en.wikipedia.org/wiki/Historiography_of_Alexander_the_Great"
+    }
+   ]
+  },
+  {
+   "id": "aristobulus",
+   "name": "Aristobulus of Cassandreia",
+   "short": "Aristobulus",
+   "life": "c. 375 – after 301 BC",
+   "role": "Greek engineer/architect on Alexander's staff; wrote a history of the campaign in old age",
+   "side": "Macedonian army",
+   "where": "With the army from Asia Minor to India and back to Babylon; restored the tomb of Cyrus at Pasargadae",
+   "lat": 32.54,
+   "lon": 44.42,
+   "waypoints": [
+    {
+     "lat": 36.36,
+     "lon": 43.25,
+     "label": "Gaugamela, 331 BC"
+    },
+    {
+     "lat": 30.19,
+     "lon": 53.17,
+     "label": "Pasargadae, tomb of Cyrus, 324 BC"
+    },
+    {
+     "lat": 32.54,
+     "lon": 44.42,
+     "label": "Babylon, 323 BC"
+    },
+    {
+     "lat": 40.2,
+     "lon": 23.33,
+     "label": "Cassandreia, writing after 301 BC"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "on the staff, remembering later",
+   "form": "memoir (written later; lost, quoted by Arrian and Plutarch)",
+   "language": "Greek",
+   "authenticity": "Lost. Written decades after the events (he says he began at 84). Known through Arrian, who used him with Ptolemy as his two main sources, and through Plutarch and Strabo. Ancient readers already thought him apologetic toward Alexander.",
+   "bio": "Aristobulus was a technician, not a general, and his surviving fragments are full of practical detail: documents captured, routes taken, a tomb measured and repaired. He is also the source for the Chaldaeans' warning in 323 BC and for a death-date two days later than the Royal Journal's.",
+   "sources": [
+    {
+     "title": "Livius.org: Arrian on the Chaldaeans (citing Aristobulus)",
+     "url": "https://www.livius.org/sources/content/arrian/anabasis/alexander-and-the-chaldaeans"
+    },
+    {
+     "title": "Plutarch, Alexander 75 (Aristobulus on the date of death), via Perseids",
+     "url": "https://fgh.perseids.org/read/greekLit/tlg0007/tlg047/perseus-eng2/75.4-76.4"
+    }
+   ]
+  },
+  {
+   "id": "arrian",
+   "name": "Lucius Flavius Arrianus (Arrian of Nicomedia)",
+   "short": "Arrian",
+   "life": "c. AD 86 – after 145",
+   "role": "Greek-speaking Roman senator, consul and governor of Cappadocia; author of the Anabasis of Alexander",
+   "side": "Roman Empire, writing c. 450 years later",
+   "where": "Nicomedia in Bithynia and Athens, writing in the 2nd century AD",
+   "lat": 40.77,
+   "lon": 29.92,
+   "vantage": 4,
+   "vantage_label": "centuries later, compiling",
+   "form": "history (written later, from lost sources)",
+   "language": "Greek",
+   "authenticity": "Survives complete in medieval manuscripts. Written c. 450 years after the events, mainly from Ptolemy and Aristobulus, with the Royal Ephemerides and unnamed 'stories' (legomena) for other details. Generally the most sober ancient account, but still a later reconstruction.",
+   "bio": "Arrian set out to write the authoritative history of Alexander and tells his reader which source he is following and when he doubts it. His dates are Athenian and approximate; his value here is in what he preserves of lost eyewitnesses and in his frank judgements, such as calling the burning of Persepolis a mistake.",
+   "sources": [
+    {
+     "title": "Livius.org: Arrian on the death of Alexander",
+     "url": "https://www.livius.org/sources/content/arrian/anabasis/the-death-of-alexander/"
+    },
+    {
+     "title": "Livius.org: Arrian on the Chaldaeans",
+     "url": "https://www.livius.org/sources/content/arrian/anabasis/alexander-and-the-chaldaeans"
+    }
+   ]
+  },
+  {
+   "id": "plutarch",
+   "name": "Plutarch of Chaeronea",
+   "short": "Plutarch",
+   "life": "c. AD 46 – after 119",
+   "role": "Greek philosopher, priest at Delphi and biographer; author of the Life of Alexander",
+   "side": "Roman Greece, writing c. 400 years later",
+   "where": "Chaeronea in Boeotia, writing around AD 100",
+   "lat": 38.5,
+   "lon": 22.85,
+   "vantage": 4,
+   "vantage_label": "centuries later, a moralist",
+   "form": "biography (written later, from lost sources)",
+   "language": "Greek",
+   "authenticity": "Survives complete. Written c. 400 years later as a moral portrait rather than a history; Plutarch quotes many lost sources by name (Callisthenes, Aristobulus, the Ephemerides). Quotations here are from the Perrin Loeb translation (1919).",
+   "bio": "Plutarch cared about character, so he keeps the anecdotes — the refusal to attack at night, the courtesan Thais and the torch at Persepolis. He is also the reader to whom we owe the Ephemerides' day-by-day dates for the final illness.",
+   "sources": [
+    {
+     "title": "Plutarch, Life of Alexander (Perrin translation), LacusCurtius",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Alexander*/home.html"
+    },
+    {
+     "title": "Plutarch, Alexander 31 (Perrin), Lexundria",
+     "url": "https://lexundria.com/plut_alex/31/prr"
+    },
+    {
+     "title": "Plutarch, Alexander 75–76 (Perrin), Perseids",
+     "url": "https://fgh.perseids.org/read/greekLit/tlg0007/tlg047/perseus-eng2/75.4-76.4"
+    }
+   ]
+  },
+  {
+   "id": "curtius",
+   "name": "Quintus Curtius Rufus",
+   "short": "Curtius",
+   "life": "fl. 1st century AD",
+   "role": "Roman rhetorician and historian; author of the Latin Histories of Alexander the Great",
+   "side": "Roman Empire, writing c. 370 years later",
+   "where": "Rome (probably), writing in the 1st century AD",
+   "lat": 41.9,
+   "lon": 12.5,
+   "vantage": 4,
+   "vantage_label": "centuries later, a dramatist",
+   "form": "history (written later, from lost sources)",
+   "language": "Latin",
+   "authenticity": "Survives with gaps (books 1–2 lost). Date of writing debated (Claudius or Vespasian most often proposed). Drew heavily on the lost Cleitarchus and is often rhetorical and moralising, but sometimes preserves concrete detail confirmed elsewhere, such as the welcome at Babylon.",
+   "bio": "Curtius writes for a Roman audience that enjoyed spectacle, and he delivers it: the terror of the eclipse in the Macedonian camp, the flower-strewn road into Babylon, the drunken burning of Persepolis. Read beside the Babylonian tablet, his parade of Chaldaeans and musicians turns out to be a plausible picture of the same welcome the scribes recorded.",
+   "sources": [
+    {
+     "title": "Livius.org: Curtius Rufus on Alexander entering Babylon",
+     "url": "https://www.livius.org/sources/content/curtius-rufus/alexander-the-great-enters-babylon/"
+    }
+   ]
+  },
+  {
+   "id": "diodorus",
+   "name": "Diodorus Siculus",
+   "short": "Diodorus",
+   "life": "fl. c. 60–30 BC",
+   "role": "Greek universal historian from Agyrium in Sicily; book 17 of his Library of History covers Alexander",
+   "side": "Late Hellenistic / Roman Republic, writing c. 270 years later",
+   "where": "Agyrium in Sicily and Rome, writing c. 60–30 BC",
+   "lat": 37.65,
+   "lon": 14.52,
+   "vantage": 4,
+   "vantage_label": "centuries later, a compiler",
+   "form": "history (written later, from lost sources)",
+   "language": "Greek",
+   "authenticity": "Book 17 survives with a gap. A compiler who largely followed the lost Cleitarchus, so his account often agrees with Curtius against Arrian. Dates by Athenian archons and Roman consuls, sometimes loosely.",
+   "bio": "Diodorus is the earliest of the surviving narrative historians and the plainest compiler. He gives the Chaldaean leader a name, Belephantes, and has the warning passed through Nearchus — a detail none of the others keep.",
+   "sources": [
+    {
+     "title": "Livius.org: Diodorus on the Chaldaeans",
+     "url": "https://www.livius.org/sources/content/diodorus/alexander-and-the-chaldaeans/"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "-0330-09-18",
+   "date_display": "11 Ulūlu (month VI), year 5 of Darius III = 18 September 331 BC",
+   "precision": "day",
+   "eye": "esagila-astronomers",
+   "place": "Babylon (news from the Persian camp near Arbela)",
+   "headline": "Panic in Darius's camp as the Macedonians draw near",
+   "digest": "In the news section for the month, the scribes note that on the 11th panic broke out in the camp in the king's presence — the king here is still Darius. The Macedonians, they add, pitched their own camp facing him. It is a terse line, but it puts the fear on the Persian side, where Greek writers later put it on Alexander's.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "BM 36761+36390 (Sachs & Hunger no. -330), obv. line 14′; Livius.org translation and commentary; date conversion per Livius."
+  },
+  {
+   "date_iso": "-0330-09-20",
+   "date_display": "Night of 13 Ulūlu (month VI), year 5 of Darius III = 20 September 331 BC",
+   "precision": "day",
+   "eye": "esagila-astronomers",
+   "place": "Babylon, observing the sky",
+   "headline": "A total eclipse of the moon, and deaths and plague",
+   "digest": "The night's entry records an eclipse in which the moon was entirely covered, with Jupiter setting during it. The scribes note that a west wind blew during totality and an east wind as the moon cleared — directions that mattered for reading which land the omen struck. A broken line follows mentioning deaths and plague during the eclipse. To these watchers an eclipse was a message about a king; eleven days later a king fell.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "BM 36761+36390, eclipse report; Livius.org commentary (20 Sept 331 BC); see also Book and Sword, 'Two Perspectives on the Astronomical Diary for Gaugamela'."
+  },
+  {
+   "date_iso": "-0330-09-20",
+   "date_display": "About 20 September 331 BC (Arrian dates by events, not days)",
+   "precision": "day",
+   "eye": "arrian",
+   "place": "East bank of the Tigris (as Arrian tells it)",
+   "headline": "An almost total eclipse after crossing the Tigris",
+   "digest": "Arrian writes that after the army crossed the Tigris and rested, there was an almost total eclipse of the moon. Alexander sacrificed to the Moon, the Sun and the Earth, and the seer Aristander declared the sign favourable to the Macedonians, promising a battle within the month. Arrian later notes that the battle came in the Athenian month Pyanepsion, as Aristander had foretold.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Arrian, Anabasis 3.7.6 and 3.15.7 (written c. AD 130s–140s). Julian date from the Babylonian diary."
+  },
+  {
+   "date_iso": "-0330-09-20",
+   "date_display": "Boedromion, near the start of the Mysteries at Athens = 20 September 331 BC",
+   "precision": "day",
+   "eye": "plutarch",
+   "place": "Near the Tigris (as Plutarch tells it)",
+   "headline": "An eclipse in Boedromion, while Athens kept the Mysteries",
+   "digest": "Plutarch dates the eclipse by a Greek clock: the month Boedromion, about the time the Mysteries began at Athens. Eleven nights later the armies were in sight of each other. He places the battle at Gaugamela, 'the camel's house', not at Arbela as most writers said. The Babylonian diary, written four centuries earlier, confirms his interval to the day.",
+   "quote": "in the month Boëdromion the moon suffered an eclipse",
+   "confidence": "verified",
+   "source_note": "Plutarch, Alexander 31.4 (Perrin; note dates the eclipse to 20 Sept 331 BC), via Lexundria."
+  },
+  {
+   "date_iso": "-0330-09-20",
+   "date_display": "About 20 September 331 BC (Curtius gives no date)",
+   "precision": "day",
+   "eye": "curtius",
+   "place": "Near the Tigris (as Curtius tells it)",
+   "headline": "Terror in the Macedonian camp; Egyptian seers explain the eclipse",
+   "digest": "Curtius writes that at the first watch the moon lost its light and seemed stained with blood, and the Macedonian soldiers, already uneasy so far from home, took it as a sign the gods were against them. Alexander called in Egyptian seers, who declared that the sun belonged to the Greeks and the moon to the Persians, so an eclipsed moon foretold Persian disaster. Where the Babylonian scribes put the panic in Darius's camp, Curtius puts it in Alexander's.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Curtius Rufus, Histories 4.10.1–7 (1st century AD). Julian date from the Babylonian diary."
+  },
+  {
+   "date_iso": "-0330-09-25",
+   "date_display": "Night of 18 Ulūlu (month VI) = 25 September 331 BC",
+   "precision": "day",
+   "eye": "esagila-astronomers",
+   "place": "Babylon",
+   "headline": "A 'fall of fire' near the temple of Nabû; a dog burned",
+   "digest": "With the armies a few days' march apart, the diary keeps its ordinary rhythm of portents: a fall of fire — perhaps a meteor or lightning — near the temple of Nabû, and a dog burned. The next night brings another fall of fire, and Venus is noted near a star of Virgo. The city's watchers were recording every sign, large or small, in a month they already knew was dangerous.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "BM 36761+36390, obv., entries for nights 18–19; Livius.org line summary."
+  },
+  {
+   "date_iso": "-0330-09-30",
+   "date_display": "Night before the battle, 30 September / 1 October 331 BC",
+   "precision": "day",
+   "eye": "plutarch",
+   "place": "Gaugamela, Alexander's tent",
+   "headline": "Parmenio urges a night attack; Alexander refuses",
+   "digest": "Darius kept his army under arms all night, reviewing it by torchlight across the plain, while Alexander sacrificed with his seer Aristander. Parmenio and the older officers, alarmed by the sea of enemy fires, urged a night attack. Alexander answered that he would not steal his victory; Plutarch reads it as calculation — a defeated Darius must have no darkness to blame.",
+   "quote": "I will not steal my victory",
+   "confidence": "verified",
+   "source_note": "Plutarch, Alexander 31.5–32.1 (Perrin), via Lexundria."
+  },
+  {
+   "date_iso": "-0330-10-01",
+   "date_display": "24 Ulūlu (month VI), year 5 of Darius III = 1 October 331 BC",
+   "precision": "day",
+   "eye": "esagila-astronomers",
+   "place": "Babylon (news from Gaugamela)",
+   "headline": "'The king of the world' raises his standard; Darius's army breaks",
+   "digest": "On the morning of the 24th, the diary says, the king of the world — Alexander — set up his standard, the two armies fought, and a heavy defeat was inflicted on the king's troops. The king's troops abandoned him and went off to their cities, fleeing toward the land of the Guti, the scribes' old name for the mountain lands. Scholars still argue whether the broken grammar means Darius was deserted by his men or that he and his troops abandoned the camp; and the grand title may have been chosen after Babylon had already submitted, when the month was written up.",
+   "quote": "king of the world",
+   "confidence": "verified",
+   "source_note": "BM 36761+36390, obv. lines 15′–18′; Livius.org; van der Spek vs Rollinger & Ruffing as summarised at Book and Sword, part 2; Harvard CHS Research Bulletin on šar kiššati."
+  },
+  {
+   "date_iso": "-0330-10-01",
+   "date_display": "Day of the battle, 1 October 331 BC (Callisthenes as quoted by Plutarch)",
+   "precision": "day",
+   "eye": "callisthenes",
+   "place": "Gaugamela, before the left wing of the line",
+   "headline": "A prayer to Zeus and an eagle over the king's head",
+   "digest": "Callisthenes wrote that before the charge Alexander shifted his spear to his left hand and, raising his right, prayed that if he were truly sprung from Zeus the gods would defend and strengthen the Greeks. The seer Aristander, riding beside him in white with a gold crown, pointed to an eagle soaring above the king and flying toward the enemy. It is a court historian's battle: the god-sent sign arrives on cue.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Plutarch, Alexander 33.1–2, citing Callisthenes (fragment). Callisthenes' own text is lost."
+  },
+  {
+   "date_iso": "-0330-10-01",
+   "date_display": "1 October 331 BC (Aristobulus as cited by Arrian)",
+   "precision": "day",
+   "eye": "aristobulus",
+   "place": "Gaugamela, the captured Persian camp",
+   "headline": "Darius's written order of battle falls into Greek hands",
+   "digest": "Arrian says that, according to Aristobulus, a written document setting out Darius's battle order was captured afterwards. That is why Arrian can list the Persian contingents so precisely: Bactrians, Scythians, Indians, scythe chariots and elephants. It is the engineer's kind of detail — a piece of paperwork, not a heroic deed.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Arrian, Anabasis 3.11.3, citing Aristobulus. Aristobulus' own text is lost."
+  },
+  {
+   "date_iso": "-0330-10-08",
+   "date_display": "Tašrītu (month VII), day lost = between c. 8 and 17 October 331 BC",
+   "precision": "range",
+   "eye": "esagila-astronomers",
+   "place": "Babylon",
+   "headline": "Envoys arrive promising to restore Esagila",
+   "digest": "Early in the seventh month, someone came to Babylon with assurances for the temple: Esagila would be restored, and the people would bring tithes to it. The name of the speaker is lost; scholars have suggested Mazaeus, the Persian satrap who surrendered the city, or Alexander's own messengers. For the temple scribes this was the news that mattered most.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "BM 36761+36390, rev.; Livius.org line summary (identity of the speaker uncertain)."
+  },
+  {
+   "date_iso": "-0330-10-18",
+   "date_display": "11 Tašrītu (month VII) = 18 October 331 BC",
+   "precision": "day",
+   "eye": "esagila-astronomers",
+   "place": "Babylon (order sent from Sippar)",
+   "headline": "From Sippar, Alexander promises: his men will not enter homes",
+   "digest": "On the 11th an order from Alexander, then at Sippar, reached the Babylonians: he would not enter their houses. In practice it was a promise that the army would not be quartered on families or loot the city. The scribes recorded the message almost word for word, as they would a royal decree.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "BM 36761+36390, rev.; Livius.org commentary (18 Oct 331 BC)."
+  },
+  {
+   "date_iso": "-0330-10-20",
+   "date_display": "13 Tašrītu (month VII) = 20 October 331 BC",
+   "precision": "day",
+   "eye": "esagila-astronomers",
+   "place": "Babylon, the Sikilla gate and the outer gate of Esagila",
+   "headline": "The vanguard reaches Esagila; Babylonians bow down",
+   "digest": "Two days later the advance troops came to the Sikilla gate and the outer gate of Esagila, and the Babylonians prostrated themselves. The scribes, writing from inside the temple precinct, frame the surrender as a scene at their own gates.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "BM 36761+36390, rev.; Livius.org line summary."
+  },
+  {
+   "date_iso": "-0330-10-21",
+   "date_display": "14 Tašrītu (month VII) = c. 21 October 331 BC (text damaged; Livius gives 21 or 22 October)",
+   "precision": "day",
+   "eye": "esagila-astronomers",
+   "place": "Babylon",
+   "headline": "Greeks offer a bull; Alexander enters the city",
+   "digest": "On the 14th the Greeks — the scribes' word is Ionians — sent a bull as an offering, and Alexander entered Babylon. The rest of the line is broken. In a few weeks the diary's 'king' had changed from Darius to Alexander, and its priests had changed their prayers with it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "BM 36761+36390, rev. (damaged); Livius.org line summary and Curtius commentary (21 or 22 Oct 331 BC)."
+  },
+  {
+   "date_iso": "-0330-10-21",
+   "date_display": "Late October 331 BC (Arrian gives no day)",
+   "precision": "range",
+   "eye": "arrian",
+   "place": "Babylon",
+   "headline": "The temples of Babylon to be rebuilt",
+   "digest": "Arrian says the people of Babylon came out to meet Alexander in a body, with their priests and rulers, surrendering the city, citadel and treasure. He ordered the temples that Xerxes had destroyed to be rebuilt, above all the temple of Bêl, and met the Chaldaeans and sacrificed to Bêl as they directed. Arrian's Esagila promise matches the envoys in the diary almost exactly.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Arrian, Anabasis 3.16.3–5. Date from the Babylonian diary."
+  },
+  {
+   "date_iso": "-0330-10-21",
+   "date_display": "About 21–22 October 331 BC (Curtius gives no date)",
+   "precision": "day",
+   "eye": "curtius",
+   "place": "The road into Babylon",
+   "headline": "Flowers, silver altars and singing Chaldaeans",
+   "digest": "Curtius describes Mazaeus surrendering the city with his grown sons, and the treasurer Bagophanes strewing the road with flowers and garlands and setting silver altars heaped with incense along it. Behind came gifts of cattle, horses and caged lions and leopards, then Magi chanting, Chaldaeans, and Babylonian musicians singing the praises of kings. Alexander entered in battle formation and rode to the palace by chariot.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Curtius Rufus 5.1.17–23; Livius.org translation page (entry 21 or 22 Oct 331 BC)."
+  },
+  {
+   "date_iso": "-0329-05",
+   "date_display": "Spring 330 BC (probably about May)",
+   "precision": "month",
+   "eye": "arrian",
+   "place": "Persepolis",
+   "headline": "He burns the Persian palace — Arrian calls it a mistake",
+   "digest": "Arrian reports that Alexander set fire to the Persian royal palace despite Parmenio's advice not to destroy what was now his own property. Alexander said he was punishing the Persians for burning Athens and its temples in Xerxes' invasion a century and a half before. Arrian, unusually, judges him directly: this was no way to punish long-dead Persians.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Arrian, Anabasis 3.18.11–12. Month of the burning is a modern estimate (Alexander was at Persepolis from about January to May 330 BC)."
+  },
+  {
+   "date_iso": "-0329-05",
+   "date_display": "Spring 330 BC (probably about May)",
+   "precision": "month",
+   "eye": "plutarch",
+   "place": "Persepolis",
+   "headline": "Thais and the torch",
+   "digest": "Plutarch tells the story that at a drinking party the Athenian courtesan Thais urged Alexander to burn the palace of Xerxes as revenge for Athens, and that the king, garlanded and drunk, led the way with a torch. He adds that Alexander soon repented and ordered the fire put out. Plutarch himself admits that some say the burning was deliberate policy.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Plutarch, Alexander 38 (Perrin). Date approximate."
+  },
+  {
+   "date_iso": "-0329-05",
+   "date_display": "Spring 330 BC (probably about May)",
+   "precision": "month",
+   "eye": "curtius",
+   "place": "Persepolis",
+   "headline": "The king throws the first torch",
+   "digest": "In Curtius's version the burning happens at a drunken banquet: a woman of the party, Thais, proposes it, the drunken guests agree, and Alexander hurls the first torch into the palace. Curtius writes that the Macedonians were ashamed that so famous a city had been destroyed in a revel, and that the king regretted it once sober.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Curtius Rufus 5.7.1–11. Date approximate."
+  },
+  {
+   "date_iso": "-0329-05",
+   "date_display": "Spring 330 BC (probably about May)",
+   "precision": "month",
+   "eye": "diodorus",
+   "place": "Persepolis",
+   "headline": "Thais leads a revel through the burning palace",
+   "digest": "Diodorus, following the same lost source as Curtius, tells of a victory feast where Thais suggested that a procession of revellers should set fire to the palace in honour of the gods. Alexander, garlanded, led the procession, and the halls that had seen Xerxes' power went up in flames. Four later writers tell the burning; no record from Persepolis or Babylon survives to check them.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Diodorus Siculus 17.72 (written c. 60–30 BC). Date approximate."
+  },
+  {
+   "date_iso": "-0329-07",
+   "date_display": "Month IV (Du'ūzu), year not preserved — probably July 330 BC",
+   "precision": "month",
+   "eye": "babylon-chroniclers",
+   "place": "Babylon",
+   "headline": "Darius is removed from his throne; Bessus takes the name Artaxerxes",
+   "digest": "The chronicle notes that in the fourth month Darius was removed from the throne, and that Bessus took the kingship under the name Artaxerxes and later killed him. Alexander and his troops then go after Bessus. The Babylonian writer has Bessus take the throne name at once, where Arrian says it came weeks later. From Babylon the last Achaemenid king vanishes in a few broken lines.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "BM 36304 (BCHP 1); Livius.org, 'BCHP 1 (Alexander Chronicle)' — year assigned by matching to Arrian's Hecatombaeon 330 BC."
+  },
+  {
+   "date_iso": "-0329-11",
+   "date_display": "Month VIII (Arahsamnu), year not preserved — probably November 330 BC",
+   "precision": "month",
+   "eye": "babylon-chroniclers",
+   "place": "Babylon",
+   "headline": "Goods are carried out of the palace at Babylon",
+   "digest": "In the eighth month, goods were removed from the palace in Babylon; in the ninth, a son of Bêl was appointed satrap. The chronicle does not say who took the goods or why. It records the new order in the language of possessions and appointments, not battles.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "BM 36304 (BCHP 1), Livius.org (year uncertain)."
+  },
+  {
+   "date_iso": "-0323-01",
+   "date_display": "Early 324 BC (approx.)",
+   "precision": "range",
+   "eye": "aristobulus",
+   "place": "Pasargadae, the tomb of Cyrus",
+   "headline": "Ordered to repair the plundered tomb of Cyrus",
+   "digest": "Returning from India, Alexander found the tomb of Cyrus the Great at Pasargadae broken into and robbed. Aristobulus, who says he had seen it intact earlier, was ordered to restore it: to put the remains back, replace what could be replaced, and seal the door. His description of the tomb, preserved by Arrian and Strabo, is one of the few eyewitness descriptions of an Achaemenid monument by a Greek.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Arrian, Anabasis 6.29.4–11; Strabo 15.3.7 (both citing Aristobulus). Month approximate."
+  },
+  {
+   "date_iso": "-0322-04",
+   "date_display": "Spring 323 BC, on the approach to Babylon (approx. April)",
+   "precision": "month",
+   "eye": "aristobulus",
+   "place": "Outside Babylon, near the Euphrates",
+   "headline": "Chaldaeans warn the king not to enter the city",
+   "digest": "On the march back to Babylon, Chaldaean wise men met Alexander and begged him not to go further: their god Bêl had warned that entering the city then would be harmful to him. Aristobulus says Alexander was willing to change his route and tried to enter from the west so as to face east, but marshes forced him back. Alexander suspected the priests of wanting to delay the rebuilding of Esagila, whose revenues they controlled.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Arrian, Anabasis 7.16.5–7.17.6, citing Aristobulus; Livius.org 'Arrian on the Chaldaeans' (date April 323 BC)."
+  },
+  {
+   "date_iso": "-0322-04",
+   "date_display": "Spring 323 BC, some 300 stades from Babylon (approx. April)",
+   "precision": "month",
+   "eye": "diodorus",
+   "place": "About 50 km from Babylon",
+   "headline": "Belephantes sends the warning through Nearchus",
+   "digest": "Diodorus says the Chaldaeans, having read the stars, foresaw that Alexander would die if he entered Babylon, and advised him to bypass the city and rebuild the tomb of Bêl. Their leader Belephantes did not dare tell the king directly and passed the message through Nearchus. Alexander at first camped outside and sent his friends in, until Greek philosophers talked him out of his fear.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Diodorus 17.112.2–5; Livius.org, 'Diodorus on the Chaldaeans' (April 323 BC)."
+  },
+  {
+   "date_iso": "-0322-05-26",
+   "date_display": "Night of 14 Ayyāru (month II), year 14 of Alexander = c. 26 May 323 BC",
+   "precision": "day",
+   "eye": "esagila-astronomers",
+   "place": "Babylon",
+   "headline": "An ordinary night: the moon beside a star of Ophiuchus",
+   "digest": "With Alexander back in Babylon and planning an Arabian expedition, the diary goes on as usual. On the night of the 14th the moon stood near theta Ophiuchi. Sesame and cress prices are noted for the month. Nothing in the surviving lines hints at what is coming.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "BM 45962 (Sachs & Hunger no. -322 B); Livius.org, 'A contemporary account of the death of Alexander'."
+  },
+  {
+   "date_iso": "-0322-05-30",
+   "date_display": "Night of 18 Ayyāru (month II) = c. 30 May 323 BC",
+   "precision": "day",
+   "eye": "esagila-astronomers",
+   "place": "Babylon",
+   "headline": "Mercury stands above Saturn",
+   "digest": "The scribes measure Mercury at fourteen fingers above Saturn, which was then in Gemini and moving toward Cancer, with Mars in Virgo. From about the 21st onwards, clouds cover the sky on most nights and the observations thin out. The king's illness, by the Greek count, began within a day or two of this entry.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "BM 45962; Livius.org commentary on the astronomical content."
+  },
+  {
+   "date_iso": "-0322-06-01",
+   "date_display": "18 Daesius (Macedonian) = c. 1 June 323 BC if 28 Daesius = 11 June",
+   "precision": "day",
+   "eye": "royal-ephemerides",
+   "place": "Babylon, the palace",
+   "headline": "After a night's drinking, a fever: he sleeps in the bathhouse",
+   "digest": "The journal, as Plutarch reports it, says that on the 18th Alexander slept in the bathing-room because he had a fever. The next day he bathed, moved to his bedchamber and played dice with Medius, then was feverish again at night. Arrian's version puts the start after a late drinking party at Medius's house.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Plutarch, Alexander 76.1 (Perrin); Arrian, Anabasis 7.25.1 via Livius.org. Julian placement assumes alignment with the Babylonian death date."
+  },
+  {
+   "date_iso": "-0322-06-07",
+   "date_display": "24–25 Daesius = c. 7–8 June 323 BC (alignment assumed)",
+   "precision": "range",
+   "eye": "royal-ephemerides",
+   "place": "Babylon, park across the Euphrates and the palace",
+   "headline": "Carried out to sacrifice, then carried back across the river",
+   "digest": "By the 24th the fever was violent and he had to be carried out to perform the sacrifice. He ordered his senior officers to wait in the palace court and the lower commanders to stay outside overnight. On the 25th he was carried to the palace on the other side of the river and slept a little, but the fever did not break.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Plutarch, Alexander 76.3; Arrian 7.25.5–6."
+  },
+  {
+   "date_iso": "-0322-06-09",
+   "date_display": "26 Daesius = c. 9 June 323 BC (alignment assumed)",
+   "precision": "day",
+   "eye": "royal-ephemerides",
+   "place": "Babylon, the palace",
+   "headline": "Speechless, he watches his soldiers file past",
+   "digest": "His generals came to his bed but he could not speak. The Macedonians, believing he was already dead, crowded the doors shouting until they were let in, and filed past one by one without cloaks or weapons; Arrian adds that he raised his head and greeted each man with his eyes. The same day, officers spent the night in a temple asking a god whether he should be moved there, and were told to leave him where he was.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Plutarch, Alexander 76.4; Arrian 7.26.1–2 (names Peithon, Attalus, Peucestas, Seleucus and others; the 'Sarapis' temple is likely an anachronism)."
+  },
+  {
+   "date_iso": "-0322-06-11",
+   "date_display": "29 Ayyāru (month II), year 14 of Alexander = the day ending at sunset on 11 June 323 BC",
+   "precision": "day",
+   "eye": "esagila-astronomers",
+   "place": "Babylon",
+   "headline": "'The king died.' Then: clouds.",
+   "digest": "Under the 29th the entry reads simply that the king died, followed by a note that it was cloudy. Because it is written as a daytime entry, not a night observation, the likeliest reading is that Alexander died on 11 June, in the late afternoon. Elsewhere on the broken tablet a gap mentions the Gate of Bêl — perhaps connected with the Chaldaeans' warning about how he should enter the city. These two words are the only record of Alexander's death written at the time.",
+   "quote": "The king died.",
+   "confidence": "verified",
+   "source_note": "BM 45962; Livius.org commentary (11 June 323 BC; less likely 10 June); L. Depuydt (1997) on the hour."
+  },
+  {
+   "date_iso": "-0322-06-11",
+   "date_display": "28 Daesius, towards evening = 11 June 323 BC on the usual alignment (Perrin's note gives 13 June)",
+   "precision": "day",
+   "eye": "royal-ephemerides",
+   "place": "Babylon, the palace",
+   "headline": "Towards evening, the king dies",
+   "digest": "The journal's last entry for the king says he died on the 28th towards evening. The phrase fits the Babylonian tablet's daytime entry for the 29th Ayyāru: both point to a late-afternoon death on what we call 11 June. Older handbooks converting the Macedonian date gave 13 June, a reminder of how fragile calendar conversion is.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Plutarch, Alexander 76.4; Livius.org commentary comparing the Diaries and Plutarch's phrase; Perrin footnote (13 June)."
+  },
+  {
+   "date_iso": "-0322-06-11",
+   "date_display": "After 11 June 323 BC (Arrian's reflection)",
+   "precision": "day",
+   "eye": "arrian",
+   "place": "Babylon (as Arrian tells it)",
+   "headline": "Rumours of poison, recorded and doubted",
+   "digest": "Having followed the Royal Journal to the end, Arrian notes that Ptolemy and Aristobulus said no more. He then sets down the stories that Alexander was poisoned — by Antipater's sons, carried in a mule's hoof — only to say he does not believe them. The rumour he dismisses is the one the Journal may have been published to answer.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Arrian, Anabasis 7.26.3–7.27.3; Livius.org, 'Arrian on the death of Alexander'."
+  },
+  {
+   "date_iso": "-0322-06-13",
+   "date_display": "30 Daesius (Aristobulus' date) — two days after the Royal Journal's 28th",
+   "precision": "day",
+   "eye": "aristobulus",
+   "place": "Babylon",
+   "headline": "A different death-day: the 30th of Daesius",
+   "digest": "Plutarch notes that Aristobulus put the death on the 30th of Daesius, after a fever in which Alexander drank wine to quench his thirst and became delirious. The Royal Journal said the 28th. Two Greek accounts from men at court disagree by two days; the Babylonian scribes, recording in their own calendar, settle the question for modern historians.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Plutarch, Alexander 75.3 (Perrin), via Perseids. Julian date approximate (two days after the Journal's date)."
+  }
+ ],
+ "convergences": [
+  {
+   "date": "-0330-09-20",
+   "label": "Total lunar eclipse eleven days before Gaugamela",
+   "eyes": [
+    "esagila-astronomers",
+    "arrian",
+    "plutarch",
+    "curtius"
+   ],
+   "note": "The Babylonians logged it as an observation with winds, planets and 'deaths and plague', and put the panic in Darius's camp. The Roman-era writers remember it as Alexander's omen: Arrian has a calm sacrifice, Plutarch a date by the Athenian festival calendar, Curtius a terrified Macedonian army calmed by Egyptian seers."
+  },
+  {
+   "date": "-0330-10-01",
+   "label": "Battle of Gaugamela",
+   "eyes": [
+    "esagila-astronomers",
+    "callisthenes",
+    "aristobulus",
+    "plutarch"
+   ],
+   "note": "To the temple scribes it was the morning the 'king of the world' raised his standard and Darius's army broke. To Callisthenes it was a prayer and an eagle; to Aristobulus a captured battle order; to Plutarch the end of a night when Alexander refused to attack in the dark."
+  },
+  {
+   "date": "-0330-10-21",
+   "label": "Alexander enters Babylon",
+   "eyes": [
+    "esagila-astronomers",
+    "arrian",
+    "curtius"
+   ],
+   "note": "The diary records an order from Sippar, prostration at Esagila's gate and a bull offered by the Greeks; Curtius describes flowers, altars and Chaldaean singers; Arrian records the promise to rebuild the temple of Bêl. Three very different texts describe a negotiated, ceremonial handover."
+  },
+  {
+   "date": "-0329-05",
+   "label": "The burning of Persepolis",
+   "eyes": [
+    "arrian",
+    "plutarch",
+    "curtius",
+    "diodorus"
+   ],
+   "note": "All four accounts are centuries later. Arrian presents a deliberate act of revenge he thinks unwise; Plutarch, Curtius and Diodorus tell of Thais and a drunken torchlit revel. No Persian or Babylonian record of the fire survives."
+  },
+  {
+   "date": "-0322-04",
+   "label": "The Chaldaeans' warning",
+   "eyes": [
+    "aristobulus",
+    "diodorus",
+    "esagila-astronomers"
+   ],
+   "note": "Greek writers recorded that Babylon's Chaldaeans — the same institution that kept the Diaries — warned Alexander away from the city in spring 323. The diary for the month of his death mentions the Gate of Bêl in a broken line, perhaps the same affair."
+  },
+  {
+   "date": "-0322-06-11",
+   "label": "Alexander's death",
+   "eyes": [
+    "esagila-astronomers",
+    "royal-ephemerides",
+    "aristobulus",
+    "arrian"
+   ],
+   "note": "The temple scribes wrote 'the king died' under 29 Ayyāru and noted the clouds. The Royal Journal said 28 Daesius towards evening, Aristobulus the 30th; Arrian sets down the poison rumours and rejects them. The clay tablet is the fixed point by which the Greek dates are judged."
+  }
+ ],
+ "ties": [
+  {
+   "a": "esagila-astronomers",
+   "b": "curtius",
+   "kind": "mentioned",
+   "note": "The Chaldaeans singing in Curtius's welcome procession at Babylon were the temple scholars of Esagila — the institution that kept the Diaries."
+  },
+  {
+   "a": "esagila-astronomers",
+   "b": "aristobulus",
+   "kind": "mentioned",
+   "note": "Aristobulus recorded the Chaldaeans' warning to Alexander in 323 BC, and Alexander's suspicion that they wanted to keep Esagila's revenues — a Greek view of the diary-keepers themselves."
+  },
+  {
+   "a": "esagila-astronomers",
+   "b": "royal-ephemerides",
+   "kind": "same street",
+   "note": "Both recorded the same death in the same city in different calendars: 29 Ayyāru for the scribes, 28 Daesius for the court journal."
+  },
+  {
+   "a": "aristobulus",
+   "b": "royal-ephemerides",
+   "kind": "opposite sides",
+   "note": "Two court sources disagree about the day of death by two days (the 30th against the 28th of Daesius), as Plutarch points out."
+  },
+  {
+   "a": "arrian",
+   "b": "aristobulus",
+   "kind": "read each other",
+   "note": "Arrian built his history mainly on Aristobulus and Ptolemy, naming them when they agree or differ."
+  },
+  {
+   "a": "plutarch",
+   "b": "royal-ephemerides",
+   "kind": "read each other",
+   "note": "Plutarch quotes the Ephemerides' day-by-day account of the last illness, the fullest extract to survive."
+  },
+  {
+   "a": "plutarch",
+   "b": "callisthenes",
+   "kind": "read each other",
+   "note": "Plutarch preserves Callisthenes' account of Alexander's prayer and the eagle at Gaugamela."
+  },
+  {
+   "a": "curtius",
+   "b": "diodorus",
+   "kind": "influenced",
+   "note": "Both relied on the lost Cleitarchus, which is why their Thais story at Persepolis is so alike and differs from Arrian's."
+  },
+  {
+   "a": "babylon-chroniclers",
+   "b": "esagila-astronomers",
+   "kind": "influenced",
+   "note": "Babylonian chronicles of this period are thought to have been excerpted from the Diaries' historical notes by the same scholarly milieu."
+  },
+  {
+   "a": "callisthenes",
+   "b": "esagila-astronomers",
+   "kind": "mentioned",
+   "note": "A late, probably legendary tradition has Callisthenes sending Babylonian observations to Aristotle."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "merer",
+   "note": "Merer's two-column log of a pyramid crew and the Esagila Diaries are both institutional day-books kept for an authority rather than for the writer: one for the king's works, one for the gods and the king's omens. Together they show dated record keeping beginning as a state and temple duty, more than two thousand years apart."
+  },
+  {
+   "to": "v1:long-threads",
+   "note": "The Astronomical Diaries ran from about 652 to 61 BC — the longest continuous dated observing record of the ancient world, and an ancestor of the day-by-day record traced in The Long Threads, from Ibn al-Banna's Baghdad notebook to Mass Observation. Like Mass Observation, it was kept by a collective, not a single self."
+  },
+  {
+   "to": "black-death",
+   "note": "The Babylonian practice of reading kings' and peoples' fates in the sky passed through Greek and Arabic astrology into medieval medicine. In 1348 the surgeon Guy de Chauliac, an eye in the Black Death chapter, blamed the plague partly on a great conjunction of Saturn, Jupiter and Mars in 1345 — an explanation built from the same omen logic that recorded 'deaths and plague' during the eclipse of 331 BC."
+  },
+  {
+   "to": "constantinople-1453",
+   "note": "An eclipsed moon before the fall of an empire recurs in 1453, when the defenders of Constantinople read the eclipse of late May as a sign that heaven had abandoned them. As in 331 BC, the omen was remembered on both sides of a siege line as fate written in the sky."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.livius.org/pictures/a/tablets/astronomical-diary-mentioning-gaugamela/",
+   "title": "Astronomical Diary mentioning Gaugamela",
+   "caption": "The broken clay tablet in the British Museum that records the eclipse, the battle and Alexander's arrival at Babylon in 331 BC — the only account written inside the conquered empire as it fell.",
+   "date": "Written 331–330 BC",
+   "credit": "British Museum, BM 36761; photo Jona Lendering / Livius.org (CC0)"
+  },
+  {
+   "url": "https://www.britishmuseum.org/collection/object/W_1881-0706-403",
+   "title": "BM 45962: Astronomical Diary mentioning the death of Alexander",
+   "caption": "The tablet for the second month of 323 BC, with its two-word notice of the king's death among star positions and weather.",
+   "date": "323–322 BC",
+   "credit": "British Museum, 1881,0706.403"
+  },
+  {
+   "url": "https://www.livius.org/pictures/iraq/babylon/esagila-model/",
+   "title": "Babylon, Esagila, model",
+   "caption": "A reconstruction model of Esagila, the temple of Marduk where the Diary-keepers worked, and whose restoration Alexander promised in 331 BC.",
+   "date": "Modern model",
+   "credit": "Livius.org"
+  },
+  {
+   "url": "https://www.livius.org/pictures/iran/persepolis/persepolis-apadana/persepolis-apadana-column-traces-of-fire/",
+   "title": "Persepolis, Apadana, column with traces of fire",
+   "caption": "Scorch marks on stone at Persepolis — physical evidence of the burning of 330 BC that the later historians describe so differently.",
+   "date": "Photograph of a 5th-century BC building",
+   "credit": "Livius.org"
+  },
+  {
+   "url": "https://www.livius.org/pictures/iran/persepolis/persepolis-apadana/persepolis-apadana-east-stairs/babylonians/",
+   "title": "Persepolis, Apadana east stairs: the Babylonian delegation",
+   "caption": "Babylonians bringing tribute to the Persian king on the Apadana reliefs — the subject people whose scholars would record the empire's fall.",
+   "date": "Relief c. 500–480 BC",
+   "credit": "Livius.org"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Alexander_Mosaic",
+   "title": "The Alexander Mosaic (House of the Faun, Pompeii)",
+   "caption": "A Roman-era mosaic, probably after an early Hellenistic painting, showing Alexander and Darius in battle — the Greek image of the encounter, made long after the clay tablets.",
+   "date": "c. 100 BC",
+   "credit": "Museo Archeologico Nazionale, Naples"
+  },
+  {
+   "url": "https://www.livius.org/pictures/a/tablets/babylonian-king-list-of-the-hellenistic-period-bm35603-obverse/",
+   "title": "Babylonian King List of the Hellenistic Period (BM 35603), obverse",
+   "caption": "A later Babylonian list that begins its Macedonian kings with Alexander, folding the conqueror into the old Mesopotamian succession.",
+   "date": "Copied c. 145–125 BC",
+   "credit": "British Museum; photo Livius.org"
+  }
+ ],
+ "further": [
+  {
+   "title": "Livius.org: A contemporary account of the battle of Gaugamela",
+   "url": "https://www.livius.org/sources/content/oriental-varia/a-contemporary-account-of-the-battle-of-gaugamela/"
+  },
+  {
+   "title": "Livius.org: A contemporary account of the death of Alexander",
+   "url": "https://www.livius.org/sources/content/oriental-varia/a-contemporary-account-of-the-death-of-alexander/"
+  },
+  {
+   "title": "Book and Sword: Two Perspectives on the Astronomical Diary for Gaugamela, part 1",
+   "url": "https://www.bookandsword.com/2015/06/27/two-perspectives-on-the-astronomical-diary-for-gaugamela-part-1-background/"
+  },
+  {
+   "title": "Book and Sword: part 2 — van der Spek versus Rollinger and Ruffing",
+   "url": "https://www.bookandsword.com/?p=1465"
+  },
+  {
+   "title": "Harvard CHS Research Bulletin: Cyrus, Alexander, and the King of the World",
+   "url": "https://research-bulletin.chs.harvard.edu/2012/01/31/cyrus-alexander-and-the-king-of-the-world/"
+  },
+  {
+   "title": "Livius.org: BCHP 1 (Alexander Chronicle)",
+   "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/bchp-1-alexander-chronicle/"
+  },
+  {
+   "title": "Livius.org: Arrian on the death of Alexander",
+   "url": "https://www.livius.org/sources/content/arrian/anabasis/the-death-of-alexander/"
+  },
+  {
+   "title": "Plutarch, Life of Alexander (Perrin translation), LacusCurtius",
+   "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Alexander*/home.html"
+  },
+  {
+   "title": "Historiography of Alexander the Great",
+   "url": "https://en.wikipedia.org/wiki/Historiography_of_Alexander_the_Great"
+  }
+ ],
+ "vantage_key": "0 = at Alexander's side as it happened (the court journal); 1 = with the army, writing then or later from memory; 2 = in Babylon, recording news and sky the same day or month; 3 = Babylonian scholars condensing events into chronicles; 4 = Greek and Roman historians writing 270–450 years later from lost sources."
+}

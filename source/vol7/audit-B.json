@@ -1,0 +1,423 @@
+[
+ {
+  "chapter": "oceans-1869",
+  "where": "entry:36",
+  "severity": "doubt",
+  "problem": "The HMS Newport story rests on one secondary blog with no references, and it is filed under the London press eye although it is not anything The Spectator or the London papers recorded. The digest also states the reprimand and private thanks as fact.",
+  "fix": {
+   "delete": true
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "oceans-1869",
+  "where": "claim:14",
+  "severity": "doubt",
+  "problem": "The Newport story is attested only by later popular naval history with no cited log or Admiralty paper. The ledger should present it as an unconfirmed position, not as an evidenced rival claim. Nares's promotion to captain (10 Dec 1869) is documented separately and does not confirm the story.",
+  "fix": {
+   "claim": "Position, unconfirmed: later popular naval history says HMS Newport (Cdr George Nares) slipped ahead of L'Aigle in the dark and entered first; no ship's log or Admiralty record has been cited for it",
+   "evidence": "Later secondary retelling only (Dawlish Chronicles, unreferenced); not checked against logs or Admiralty papers",
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "oceans-1869",
+  "where": "convergence:4",
+  "severity": "doubt",
+  "problem": "With the Newport entry removed, the London press has no record on 16 November. The note also presented the Newport story as an event of the day.",
+  "fix": {
+   "eyes": [
+    "lesseps",
+    "frederick"
+   ],
+   "note": "The promoter's triumph at Port Said and a crown prince's printed diary; a later, unconfirmed story of a British survey ship stealing first place overnight appears only in the ledger."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "oceans-1869",
+  "where": "convergence:5",
+  "severity": "error",
+  "problem": "The London press has no entry on 17 November. The Spectator piece is dated 20 November and already belongs to convergence 7, so 'a day behind and a day wrong' is misplaced here.",
+  "fix": {
+   "eyes": [
+    "lesseps",
+    "frederick",
+    "ibsen"
+   ],
+   "note": "Order in the line of ships is national rank: the Empress's yacht first, the sovereigns behind, a Norwegian writer among the guests."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "oceans-1869",
+  "where": "intro:3",
+  "severity": "doubt",
+  "problem": "The intro presents the Newport story without saying that it rests on no cited primary record.",
+  "fix": {
+   "text_replace": {
+    "old": "and a British survey ship said to have slipped ahead of the Empress in the dark",
+    "new": "and a later, unconfirmed story of a British survey ship slipping ahead of the Empress in the dark"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "oceans-1869",
+  "where": "eye:london-press",
+  "severity": "style",
+  "problem": "The authenticity note should match the removal of the Newport entry from this eye.",
+  "fix": {
+   "text_replace": {
+    "old": "The story of HMS Newport slipping ahead of L'Aigle comes from later naval accounts and is marked approx.",
+    "new": "The story of HMS Newport slipping ahead of L'Aigle is not part of this paper's record; it rests on later popular naval history and appears only in the trials ledger as an unconfirmed position."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "oceans-1869",
+  "where": "entry:30",
+  "severity": "doubt",
+  "problem": "Nothing cited records when or where Ibsen heard of the premiere; 'by letter weeks later, far up the Nile' is an unsupported detail. The premiere date of 18 October 1869 is correct.",
+  "fix": {
+   "text_replace": {
+    "old": "He heard of it by letter weeks later, far up the Nile.",
+    "new": "When and how the news reached him is not recorded in the sources used here."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "oceans-1869",
+  "where": "eye:ibsen",
+  "severity": "doubt",
+  "problem": "'Ibsen kept no diary of the trip' is an absolute claim that the cited sources do not check; the Oslo edition of his writings may include travel notes. A hedged wording is safer.",
+  "fix": {
+   "text_replace": {
+    "old": "Ibsen kept no diary of the trip.",
+    "new": "No diary of the trip by Ibsen is used here."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "oceans-1869",
+  "where": "entry:33",
+  "severity": "doubt",
+  "problem": "The BnF source says only that Gautier was confined to watching Cairo from his hotel terrace. It does not say he missed the canal ceremonies, and the Spanish expedition article lists him among the writers in the party. The digest should not claim he missed the canal.",
+  "fix": {
+   "text_replace": {
+    "old": "While the other guests sailed up the Nile and then went to the canal, Gautier stayed in Cairo",
+    "new": "While the other guests sailed up the Nile, Gautier stayed in Cairo"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "oceans-1869",
+  "where": "tie:10",
+  "severity": "doubt",
+  "problem": "The claim that Gautier missed the canal is not supported by the cited source; only his confinement in Cairo during the Nile voyage is.",
+  "fix": {
+   "text_replace": {
+    "old": "missed the Nile voyage and the canal that Ibsen saw",
+    "new": "missed the Nile voyage that Ibsen made; whether he reached the canal ceremonies is not confirmed here"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "oceans-1869",
+  "where": "eye:gautier",
+  "severity": "doubt",
+  "problem": "The vantage label asserts he missed the opening, which is not confirmed.",
+  "fix": {
+   "vantage_label": "the invited guest confined to Cairo"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "oceans-1869",
+  "where": "entry:24",
+  "severity": "doubt",
+  "problem": "The Reed Papers transcription (railroads.unl.edu rail.reed.0109) does title the item 'Salt Lake Telegram, 11 May 1869' and gives 1,084.5 and 690 miles. But the Salt Lake paper of that name dates from much later; in 1869 the city's paper was the Salt Lake Daily Telegraph. The text should say the title comes from the transcription.",
+  "fix": {
+   "text_replace": {
+    "old": "The next day's Salt Lake Telegram reported",
+    "new": "The next day's Salt Lake paper (titled the Salt Lake Telegram in the Reed Papers transcription) reported"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "oceans-1869",
+  "where": "entry:42",
+  "severity": "style",
+  "problem": "The Berenguela detail is confirmed by the cited Spanish article: it left Port Said on 2 December with the Prussian frigate Hertha and reached Suez on 17 December 1869. The Nile expedition date (22 October, about 150 guests, four steamers) and the 7 October Paris departure are confirmed by the same article. No change is needed; this item records the check.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "oceans-1869",
+  "where": "entry:43",
+  "severity": "style",
+  "problem": "Checked against the Spectator archive: the 20 November 1869 paragraph dates the opening to the 18th and mentions a Russian steamer, the Empress's yacht and about forty smaller steamers, Muslim and Catholic prayers, Lesseps's remark on the capitulations, and tolls of 10 francs a ton and per passenger that would bring shareholders little. The University of Oslo chronology confirms that Ibsen was present at the opening and that The League of Youth was first performed in 1869. This item records the check; no change is needed.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "channel-atlantic",
+  "where": "entry:4",
+  "severity": "error",
+  "problem": "The digest credits the 36½–37 minute figure to accounts while citing Flight. Flight (31 July 1909) itself, working from wireless messages, gives a start seen at 4.35 (in a message timed 4.36), a landing at about 5.20 French time, and 'roughly 40 minutes'. 36½ minutes is the figure usually cited elsewhere. The wireless message did not 'log his start at 4.36'.",
+  "fix": {
+   "date_display": "Sunday 25 July 1909, about 4.35–4.41 a.m. (French time)",
+   "text_replace": {
+    "old": "Accounts give the flight time as roughly 36½ to 37 minutes; the Calais wireless logged his start at 4.36.",
+    "new": "Flight, working from wireless messages (one timed 4.36 reported him seen starting at 4.35) and a landing at about 5.20, put the crossing at roughly 40 minutes; the figure usually cited is about 36½ minutes."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "channel-atlantic",
+  "where": "entry:4",
+  "severity": "style",
+  "problem": "Flight says he 'sighted the English shore off Deal while heading for St. Margaret's Bay'. 'Cliffs appeared to the east' garbles this.",
+  "fix": {
+   "text_replace": {
+    "old": "Then the cliffs appeared to the east, near Deal.",
+    "new": "Then he sighted the English shore off Deal, east of where he had meant to reach land."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "channel-atlantic",
+  "where": "entry:6",
+  "severity": "doubt",
+  "problem": "Flight puts the landing at about 5.20 French time; the commonly cited time is about 5.17. 'About 5.15' matches neither.",
+  "fix": {
+   "date_display": "Sunday 25 July 1909, about 5.17–5.20 a.m. (French time)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "channel-atlantic",
+  "where": "claim:2",
+  "severity": "doubt",
+  "problem": "The evidence cited, Flight, gives 'roughly 40 minutes'. The usual figure is about 36½ minutes, and the ledger should show both.",
+  "fix": {
+   "text_replace": {
+    "old": "about 36½–37 minutes",
+    "new": "about 36½ minutes as usually cited (Flight, 31 July 1909: roughly 40)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "channel-atlantic",
+  "where": "claim:9",
+  "severity": "doubt",
+  "problem": "Brown's book (Gutenberg) gives 15 h 57 min coast to coast and also 'sixteen hours and twenty-eight minutes' in the air, landing at 8.40 a.m. The 1,680 nautical-mile straight course is confirmed. The 1,890-mile figure does not appear in Brown, and the 16 h 12 min often quoted is not his figure. The ledger should show the in-air time and where each number comes from.",
+  "fix": {
+   "text_replace": {
+    "old": "about 1,890 statute miles (Brown: 1,680 nautical miles straight-line) in 15 h 57 min",
+    "new": "about 1,890 statute miles as usually cited (Brown: 1,680 nautical miles straight-line) in 15 h 57 min coast to coast; in the air 16 h 28 min by Brown's book (16 h 12 min in many later accounts)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "channel-atlantic",
+  "where": "entry:24",
+  "severity": "style",
+  "problem": "The quote is confirmed in Brown (1920) as 'two tiny specks of--land' at 8.15 a.m. on 15 June. The islands are printed 'Ecshal and Turbot' in the Gutenberg text, an evident misprint for Eeshal. No change is needed; this item records the check.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "channel-atlantic",
+  "where": "entry:23",
+  "severity": "style",
+  "problem": "The quote 'the voice of the cheated ocean' is confirmed verbatim in Brown (1920), as is the coast crossing at 4.28 p.m. Greenwich time. This item records the check.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "channel-atlantic",
+  "where": "entry:36",
+  "severity": "style",
+  "problem": "'Which way is Ireland?' is confirmed in \"We\" (1927), Gutenberg text. The take-off at 7.52, the tractor cleared by about 15 ft and the telephone line by about 20 ft (entry 35), the San Diego times (entry 34) and the 1.30 a.m. reporters (entry 39) are all confirmed. \"We\" itself gives no Le Bourget landing time, only 'a little before ten' for the lights of Paris, so 10.22 correctly comes from standard accounts.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "channel-atlantic",
+  "where": "entry:33",
+  "severity": "style",
+  "problem": "\"We\" gives 'six and one-eighth seconds' to leave the ground on 28 April 1927, so 'about 6 seconds' is fair. A more exact wording is offered.",
+  "fix": {
+   "text_replace": {
+    "old": "off the ground in about 6 seconds",
+    "new": "off the ground in about six seconds (six and one-eighth, by his account)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "channel-atlantic",
+  "where": "entry:46",
+  "severity": "style",
+  "problem": "The quote is confirmed verbatim in Herrick's foreword, dated 'June Sixteenth, 1927': 'You must remember this expedition was not organized to make money but to advance aviation.'",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "channel-atlantic",
+  "where": "entry:41",
+  "severity": "style",
+  "problem": "FRUS 1927 vol. II doc. 663 is confirmed: telegram no. 217, Paris, 27 May 1927, 1 p.m., marked [Paraphrase], describing Briand at the previous day's Lindbergh luncheon and his wish to proceed only in agreement with Coolidge.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "channel-atlantic",
+  "where": "entry:13",
+  "severity": "style",
+  "problem": "Quimby's quote 'For the first time I was to fly by compass.', the 5.30 a.m. take-off and 1,500 ft within thirty seconds are all confirmed in the IWASM reproduction. IWASM dates her article to FLY Magazine, July 1912 (pp. 8–10), so the eye's 'June or July' can be narrowed.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "channel-atlantic",
+  "where": "eye:quimby",
+  "severity": "style",
+  "problem": "IWASM's reproduction gives FLY Magazine, July 1912 (pp. 8–10).",
+  "fix": {
+   "text_replace": {
+    "old": "(issue date given variously as June or July 1912)",
+    "new": "(July 1912, per the International Women's Air & Space Museum reproduction)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rockets",
+  "where": "entry:1",
+  "severity": "error",
+  "problem": "The quote is 13 words, over the 12-word limit. The verbatim sentence (RF Cafe reproduction) is 'Of course he only seems to lack the knowledge ladled out daily in high schools.' A shorter exact substring stays within the rule.",
+  "fix": {
+   "quote": "the knowledge ladled out daily in high schools"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rockets",
+  "where": "entry:45",
+  "severity": "doubt",
+  "problem": "'The Times regrets the error.' is confirmed verbatim and is a world-famous phrase. But the reproduction does not show that the 1969 item ran on the editorial page; it is usually described as a short boxed correction. The digest should not name the page.",
+  "fix": {
+   "text_replace": {
+    "old": "the editorial page recalled its 1920 remarks about Goddard",
+    "new": "the paper printed a short correction recalling its 1920 remarks about Goddard"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "rockets",
+  "where": "entry:20",
+  "severity": "doubt",
+  "problem": "Sources disagree on when von Braun started with the Army. The weebau history gives 1 October 1932; RussianSpaceWeb says he 'took charge of a newly created missile development lab of the German Army on November 1, 1932'. A single day should not be marked verified.",
+  "fix": {
+   "date_display": "autumn 1932 (1 October or 1 November; sources differ)",
+   "precision": "range",
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rockets",
+  "where": "entry:30",
+  "severity": "doubt",
+  "problem": "'On the fourth attempt' is not supported by the cited source. Accounts consulted call 3 October 1942 the first mostly successful A4 launch (apogee about 84.5 km) without giving a consistent attempt count.",
+  "fix": {
+   "text_replace": {
+    "old": "On the fourth attempt the Army's A4 rocket flew as designed",
+    "new": "After earlier failed launches, the Army's A4 rocket flew as designed"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "rockets",
+  "where": "entry:43",
+  "severity": "doubt",
+  "problem": "Korolev's newspaper pseudonym is generally given as (Professor) K. Sergeev, not 'Engineer Sergeev'. Those articles appeared later, not on 6 October. A hedged wording avoids both errors.",
+  "fix": {
+   "text_replace": {
+    "old": "The articles signed by 'Engineer Sergeev' were Korolev's, under a pseudonym.",
+    "new": "Later Pravda articles signed with the pseudonym 'K. Sergeev' were Korolev's."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "rockets",
+  "where": "entry:41",
+  "severity": "error",
+  "problem": "The Harvard Crimson (5 October 1957) times the Terre Haute, Columbus and Whittier reports at 9.50, 11.28 and 11.46 p.m. EDT on 4 October. They were reported on the 5th but happened the evening before.",
+  "fix": {
+   "date_display": "night of 4–5 October 1957 (EDT; reported 5 October)",
+   "precision": "range"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rockets",
+  "where": "threads_out:0",
+  "severity": "doubt",
+  "problem": "The 1942 Smithsonian publication under Abbot corrected its Langley Aerodrome claims (it set out the 1914 alterations), but it did not 'end' the dispute by itself. Orville's Flyer stayed in London until after his death and returned to the Smithsonian in 1948. The note overstates the outcome.",
+  "fix": {
+   "note": "Abbot's Smithsonian, Goddard's sponsor, was also the institution in the long dispute with Orville Wright over Langley's Aerodrome; in 1942, as Secretary, Abbot published a statement correcting the Smithsonian's claims, and the 1903 Flyer came home from London to the Smithsonian in 1948."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "rockets",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "The death figures come from one historian's estimate and should be attributed to him in the text, not to historians in general.",
+  "fix": {
+   "text_replace": {
+    "old": "Historians estimate that up to 25,000 prisoners died",
+    "new": "The historian Michael Neufeld estimates that up to 25,000 prisoners died"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rockets",
+  "where": "threads_out:4",
+  "severity": "style",
+  "problem": "Confirmed: the Harvard Crimson of 5 October 1957 quotes Whipple: 'We won the first round with the H-bomb; they won the second with the space satellite.' The link stands.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rockets",
+  "where": "entry:37",
+  "severity": "style",
+  "problem": "Confirmed: Drew Ex Machina states 'Holliday, working with J. Allen Hynek, used a commercially available DeVry 35mm motion picture camera'. It was a modified commercial camera, not one 'designed by' Holliday.",
+  "fix": {
+   "text_replace": {
+    "old": "carried a 35 mm motion-picture camera designed by Clyde Holliday, with Hynek working with him",
+    "new": "carried a modified commercial 35 mm motion-picture camera fitted by Clyde Holliday, working with Hynek"
+   }
+  },
+  "confidence": "verified"
+ }
+]

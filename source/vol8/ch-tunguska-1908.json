@@ -1,0 +1,1231 @@
+{
+ "id": "tunguska-1908",
+ "title": "Tunguska and the White Nights: 30 June 1908",
+ "short_title": "Tunguska, 1908",
+ "subtitle": "The airburst over the Podkamennaya Tunguska, the bright nights over Europe, and the expeditions that went looking, 1908–1930",
+ "span": "1908–1934",
+ "intro": [
+  "Shortly after seven in the morning local time on 30 June 1908 (17 June by the Russian calendar), something from space blew apart several kilometres above the taiga north of the Podkamennaya Tunguska river in central Siberia. Seismic reckoning puts it at about 00:14 GMT. No crater was ever found. What was found was a forest knocked flat across hundreds of square kilometres, its trunks lying in a radial pattern pointing away from a centre where trees still stood, stripped and scorched. Evenki herders camped within a few tens of kilometres were thrown from their tents. At the Vanavara trading post, about 65 km to the south-south-east, a man sitting on his porch felt a heat as if his shirt were on fire, and was knocked to the ground.",
+  "This is a chapter of records rather than diaries. Nearly everything from Siberia in 1908 survives as short newspaper reports, letters from meteorological observers, and police and post-office replies collected by the Irkutsk observatory. The most vivid accounts, from the Evenki and from Vanavara, were written down only in the 1920s and 1930s, by the ethnographer Innokenty Suslov and the meteorite hunter Leonid Kulik, nearly twenty years after the event. Where testimony was recorded later, the entries say so. Newspaper and observer dates from 1908 are in the Russian Old Style calendar and are converted here.",
+  "The same sky reached far beyond Siberia. The pressure wave crossed Eurasia and was traced by microbarographs in England about five hours after the blast. It was recognised for what it was only in 1930, when F. J. W. Whipple at Kew matched the British traces to the Siberian fall. The seismograph at Irkutsk, some 970 km away, recorded the ground shaking for well over an hour; stations at Tashkent, Tiflis and Jena also wrote it down. Then came the nights. From the evening of 30 June, and for a few nights after, the northern sky over Europe and western Russia stayed light. People in England sat sewing out of doors after ten at night and read print after midnight. Letters went to The Times and to Nature.",
+  "Almost nobody in Europe connected the light to Siberia. Astronomers and editors argued for aurora, for high luminous clouds, or for dust like that thrown up by Krakatoa in 1883. Some observers, such as W. F. Denning and the Prussian meteorologists, noted that the twilights were already unusual for some days before 30 June. That point is still argued: some modern authors tie the whole optical anomaly to the incoming body, others suggest part of it was unrelated. The chapter sets these out as positions.",
+  "The second half of the chapter belongs to Kulik. He first went east in 1921 for the new Soviet Academy of Sciences, gathering accounts at Kansk and Kezhma. In April 1927 he finally looked out from a ridge over the felled forest. Further seasons in 1928 and 1929–30 dug and drilled in the swampy hollows of the centre, looking for a buried iron mass that was never there. Modern estimates of the explosion's energy range from about 3 to some tens of megatons of TNT. The leading explanation is the airburst of a stony asteroid or a small comet a few tens of metres across. Gas eruptions, antimatter and alien craft have been proposed, the last first in Alexander Kazantsev's 1946 short story, but none has evidence behind it."
+ ],
+ "calendar_note": "In 1908 Russia still used the Julian (Old Style) calendar, which ran 13 days behind the Gregorian (New Style) calendar used in western Europe. The event of 30 June 1908 (N.S.) was therefore 17 June 1908 to every Siberian witness, newspaper and observatory. In this chapter date_iso always gives the Gregorian date; Siberian documents from 1908 show their Old Style date in date_display, so the Irkutsk paper Sibir' of 2 July O.S. appears at 15 July N.S. Soviet Russia switched to the Gregorian calendar in February 1918, so Kulik's and Suslov's dates of the 1920s need no conversion. Clock times are also loose. Siberian witnesses gave local times between about 7 and 8 a.m., which did not belong to any standard time zone. The seismic reconstruction puts the explosion at about 00:14 GMT, which at the longitude of the site (about 102° E) is close to 7 a.m. local mean time. European night observations are in local civil time.",
+ "eyes": [
+  {
+   "id": "evenki",
+   "short": "Evenki herders",
+   "name": "Evenki herders near the epicentre (Chuchancha, Chekaren and others)",
+   "life": "fl. 1908–1930s",
+   "role": "Reindeer-herding and hunting families of the Shanyagir and neighbouring clans, camped in chums (conical tents) in the taiga",
+   "side": "Evenki (then called 'Tungus' by Russians)",
+   "where": "Camps on the Avarkitta and other streams some tens of kilometres from the centre of the forest-fall",
+   "lat": 60.75,
+   "lon": 102.2,
+   "vantage": 0,
+   "vantage_label": "under the blast",
+   "form": "oral testimony recorded later (1926 onward)",
+   "language": "Evenki, recorded in Russian",
+   "authenticity": "No Evenki account was written in 1908. Testimonies were taken down by I. M. Suslov in 1926, by Kulik's expeditions from 1927, and by later Soviet expeditions into the 1960s, all in Russian and often through interpreters. Names, distances and details differ between versions; they are memories of an event twenty or more years earlier, shaped by retelling and by the questions asked.",
+   "bio": "The Evenki were the only people near the centre of the blast. Their accounts, as recorded, tell of chums blown down, sleepers thrown into the air, reindeer lost and storage platforms burned. Some explained the blast through the thunder beings (agdy) or the anger of a shaman. Their knowledge of the land guided every later expedition.",
+   "sources": [
+    {
+     "title": "A. Ol'khovatov, 'The Evenki accounts of the 1908 Tunguska event collected in 1920s–1930s' (arXiv 2402.10900)",
+     "url": "https://arxiv.org/pdf/2402.10900"
+    }
+   ]
+  },
+  {
+   "id": "suslov",
+   "short": "Suslov",
+   "name": "Innokenty Mikhailovich Suslov",
+   "life": "1893–1972",
+   "role": "Siberian ethnographer working among the Evenki, aged about 33 in 1926",
+   "side": "Soviet ethnography; Krasnoyarsk",
+   "where": "Evenki assembly (suglan) at Strelka-Chunya, 1926; later the Tunguska site",
+   "lat": 61.7,
+   "lon": 102.8,
+   "vantage": 1,
+   "vantage_label": "collector of testimony, eighteen years on",
+   "form": "field notes and published survey of testimony (1926 onward)",
+   "language": "Russian",
+   "authenticity": "Suslov's 1926 questioning of about sixty Evenki was published in Russian and is the main early source for Evenki testimony; it survives in later reprints and summaries. His own later writings on it date from long after.",
+   "bio": "Suslov knew the Evenki and their language better than any outsider involved with Tunguska. At a 1926 assembly he questioned dozens of herders and drew a rough map of where the forest lay felled and burned. That map and his witnesses fed directly into Kulik's 1927 route.",
+   "sources": [
+    {
+     "title": "Ol'khovatov, Evenki accounts collected in the 1920s–1930s (arXiv 2402.10900)",
+     "url": "https://arxiv.org/pdf/2402.10900"
+    }
+   ]
+  },
+  {
+   "id": "semenov",
+   "short": "Semenov",
+   "name": "Sergei Borisovich Semenov",
+   "life": "fl. 1908–1930",
+   "role": "Russian settler at the Vanavara trading post on the Podkamennaya Tunguska",
+   "side": "Russian settlers of the Angara–Tunguska fur trade",
+   "where": "Porch of his house at the Vanavara trading post, about 65 km SSE of the centre",
+   "lat": 60.34,
+   "lon": 102.28,
+   "vantage": 1,
+   "vantage_label": "nearest settled witness",
+   "form": "oral testimony recorded later (1927 and 1930)",
+   "language": "Russian",
+   "authenticity": "Semenov's account was taken down by Kulik, first during the 1927 expedition and again in 1930; the 1930 version is the one most often quoted in translation. Versions differ in detail. It is a recollection of 1908 given two decades later, not a contemporary record.",
+   "bio": "Semenov's is the classic close account. Sitting facing north, he saw the sky open with fire, felt searing heat, and was thrown from his porch by the blast. His neighbour at the post, Kosolapov, told a similar story. Vanavara became Kulik's base for every expedition.",
+   "sources": [
+    {
+     "title": "Ol'khovatov, analysis of eyewitness accounts (arXiv 2310.14917), listing Semenov's 1930 interview",
+     "url": "https://arxiv.org/pdf/2310.14917"
+    }
+   ]
+  },
+  {
+   "id": "sibir",
+   "short": "Sibir' (Irkutsk)",
+   "name": "Kirensk correspondent of the newspaper Sibir' (Irkutsk)",
+   "life": "fl. 1908",
+   "role": "Unnamed local correspondent reporting from the Kirensk district on the upper Lena",
+   "side": "Siberian regional press",
+   "where": "Reporting from Nizhne-Karelinskoye, about 30 versts north of Kirensk",
+   "lat": 58.0,
+   "lon": 108.0,
+   "vantage": 2,
+   "vantage_label": "villages hundreds of kilometres away",
+   "form": "newspaper report",
+   "language": "Russian",
+   "authenticity": "Published in Sibir' (Irkutsk) on 2 July 1908 (O.S.). Krinov's 1949 and 1966 books misquote the village's distance from Kirensk as 200 versts; the newspaper says 30 (Ol'khovatov).",
+   "bio": "The first printed account of the fall came from peasants on the Lena, far to the east of the site. They saw a blinding, pipe-shaped body in the north-west sky sink towards the horizon and leave a cloud of smoke, then heard crashes. Rumour soon had it that the object had fallen nearby.",
+   "sources": [
+    {
+     "title": "Ol'khovatov, 'Some historical misconceptions and inaccuracies regarding the 1908 Tunguska event' (arXiv 2505.05484)",
+     "url": "https://arxiv.org/pdf/2505.05484"
+    },
+    {
+     "title": "Ol'khovatov, eyewitness accounts collected in 1908 (arXiv 2310.14917)",
+     "url": "https://arxiv.org/pdf/2310.14917"
+    }
+   ]
+  },
+  {
+   "id": "kulesh",
+   "short": "Kulesh",
+   "name": "G. K. Kulesh",
+   "life": "fl. 1908",
+   "role": "Observer in charge of the Kirensk meteorological station",
+   "side": "Russian Empire meteorological network (Irkutsk observatory)",
+   "where": "Kirensk, on the Lena, roughly 400–500 km ESE of the centre",
+   "lat": 57.78,
+   "lon": 108.11,
+   "vantage": 2,
+   "vantage_label": "trained observer at a distance",
+   "form": "observer's letters and barograph record",
+   "language": "Russian",
+   "authenticity": "Kulesh's letters to the Irkutsk observatory, dated 23 June 1908 (O.S.) and August 1908, are known through Voznesensky's 1925 paper and later Russian compilations. His barograph trace is cited by Bronshten.",
+   "bio": "Kulesh was one of the few trained observers in the region. He described a spear-shaped pillar of fire in the north-west. His station barograph recorded the air wave, so his letters combine a witness account with an instrument record.",
+   "sources": [
+    {
+     "title": "Ol'khovatov, eyewitness accounts collected in 1908 (arXiv 2310.14917)",
+     "url": "https://arxiv.org/pdf/2310.14917"
+    },
+    {
+     "title": "Ol'khovatov, Tunguska and Chelyabinsk seismic phenomena (arXiv 2206.13930)",
+     "url": "https://arxiv.org/pdf/2206.13930"
+    }
+   ]
+  },
+  {
+   "id": "krasnoyarets",
+   "short": "Krasnoyarets",
+   "name": "Kezhma correspondent of the newspaper Krasnoyarets",
+   "life": "fl. 1908",
+   "role": "Unnamed correspondent in the Angara village of Kezhemskoye",
+   "side": "Siberian regional press (Krasnoyarsk)",
+   "where": "Kezhma (Kezhemskoye) on the Angara, about 200 km south of the centre",
+   "lat": 58.97,
+   "lon": 101.13,
+   "vantage": 2,
+   "vantage_label": "Angara village within earshot",
+   "form": "newspaper report",
+   "language": "Russian",
+   "authenticity": "Published in Krasnoyarets, 13 July 1908 (O.S.). Contemporary, but by an unnamed writer; the times given are local and approximate.",
+   "bio": "At Kezhma the event was mostly heard rather than seen. The correspondent recorded a run of heavy blows like gunfire, a flame low on the northern horizon, panicked livestock and broken window glass. A police report from the same district reached the Yenisei governor a week later.",
+   "sources": [
+    {
+     "title": "Ol'khovatov, eyewitness accounts collected in 1908 (arXiv 2310.14917)",
+     "url": "https://arxiv.org/pdf/2310.14917"
+    }
+   ]
+  },
+  {
+   "id": "voznesensky",
+   "short": "Voznesensky",
+   "name": "Arkady Vladimirovich Voznesensky",
+   "life": "1864–1936",
+   "role": "Director of the Irkutsk Magnetic and Meteorological Observatory",
+   "side": "Russian Empire, later Soviet, geophysics",
+   "where": "Irkutsk observatory, about 970 km south of the centre",
+   "lat": 52.27,
+   "lon": 104.3,
+   "vantage": 3,
+   "vantage_label": "the instruments at Irkutsk",
+   "form": "seismograms, barograms, collected correspondence and a later paper (1925)",
+   "language": "Russian",
+   "authenticity": "The Irkutsk seismogram and the questionnaires and letters Voznesensky gathered in 1908 are real contemporary records. His analysis was published only in 1925, in the journal Mirovedenie, under a title placing the fall in the upper reaches of the Khatanga (an Evenki name for the Podkamennaya Tunguska).",
+   "bio": "Voznesensky's seismograph recorded the ground motion, and his observatory sent questions through post offices, police and weather stations across the Yenisei and Irkutsk provinces. From the replies he worked out a direction and a time, but he held back publication for seventeen years. His paper appeared just as Kulik's search was becoming serious.",
+   "sources": [
+    {
+     "title": "Ol'khovatov, seismic phenomena of Tunguska and Chelyabinsk (arXiv 2206.13930)",
+     "url": "https://arxiv.org/pdf/2206.13930"
+    },
+    {
+     "title": "Ol'khovatov, eyewitness accounts collected in 1908 (arXiv 2310.14917)",
+     "url": "https://arxiv.org/pdf/2310.14917"
+    }
+   ]
+  },
+  {
+   "id": "denning",
+   "short": "Denning",
+   "name": "William Frederick Denning",
+   "life": "1848–1931",
+   "role": "Amateur astronomer and meteor specialist, aged 60",
+   "side": "Britain; British Astronomical Association",
+   "where": "Bristol",
+   "lat": 51.45,
+   "lon": -2.59,
+   "vantage": 4,
+   "vantage_label": "abroad, watching the bright nights",
+   "form": "letter to Nature",
+   "language": "English",
+   "authenticity": "His letter appeared in Nature vol. 78 (issue 2020, 16 July 1908), p. 247; it is cited in Ol'khovatov's study of the optical anomalies.",
+   "bio": "Denning was Britain's best-known meteor observer. He kept a regular watch on the night sky, so he noticed that it was already abnormally light on 29 June, before the Siberian blast. He reported four nights of the display.",
+   "sources": [
+    {
+     "title": "Ol'khovatov, 'The 1908 Tunguska event and the atmospheric optical anomalies' (arXiv 2502.01645)",
+     "url": "https://arxiv.org/pdf/2502.01645"
+    }
+   ]
+  },
+  {
+   "id": "backhouse",
+   "short": "Backhouse",
+   "name": "Thomas William Backhouse",
+   "life": "1842–1920",
+   "role": "Amateur astronomer and meteorologist with a private observatory, aged 66",
+   "side": "Britain",
+   "where": "West Hendon, Sunderland",
+   "lat": 54.89,
+   "lon": -1.38,
+   "vantage": 4,
+   "vantage_label": "abroad, explaining the glow",
+   "form": "letters to Nature",
+   "language": "English",
+   "authenticity": "Letters in Nature vol. 78, p. 127 (11 June 1908) and p. 367 ('The \"Sky-Coloured Clouds\" or Twilight Glows', August 1908). Bibliographic record checked; full text behind a paywall.",
+   "bio": "Backhouse had watched for luminous night clouds for years and had written about them in Nature only three weeks before the blast. In August he argued that the much-reported twilights of 30 June and 1 July were the same 'sky-coloured clouds', admitting that he had seen them only poorly himself.",
+   "sources": [
+    {
+     "title": "Nature 78, 367 (1908), record",
+     "url": "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_crossref_primary_10_1038_078367b0"
+    }
+   ]
+  },
+  {
+   "id": "stephen",
+   "short": "Katharine Stephen",
+   "name": "Katharine Stephen",
+   "life": "1856–1924",
+   "role": "Librarian of Newnham College, Cambridge (later its Principal)",
+   "side": "Britain",
+   "where": "Huntingdon area, Cambridgeshire",
+   "lat": 52.33,
+   "lon": -0.18,
+   "vantage": 4,
+   "vantage_label": "abroad, writing to The Times",
+   "form": "letter to The Times",
+   "language": "English",
+   "authenticity": "Her letter is described in Colin Pillinger's 1999 Gresham lecture. Its exact print date in early July 1908 has not been checked against The Times archive.",
+   "bio": "Stephen wrote to The Times to describe what she took for an unusually brilliant aurora, and to ask whether others had seen it. Her letter was one of several that turned a provincial curiosity into a national talking point.",
+   "sources": [
+    {
+     "title": "C. Pillinger, 'Tunguska', Gresham College lecture, 5 November 1999",
+     "url": "https://www.gresham.ac.uk/sites/default/files/05nov99colinpillinger_tunguska.pdf"
+    }
+   ]
+  },
+  {
+   "id": "ingleby",
+   "short": "Ingleby",
+   "name": "Holcombe Ingleby",
+   "life": "1854–1926",
+   "role": "Norfolk landowner and golfer; later MP for King's Lynn",
+   "side": "Britain",
+   "where": "Brancaster golf links, north Norfolk coast",
+   "lat": 52.96,
+   "lon": 0.64,
+   "vantage": 4,
+   "vantage_label": "abroad, up all night",
+   "form": "letter to The Times",
+   "language": "English",
+   "authenticity": "Known here through Pillinger's 1999 lecture summarising the Times correspondence; the date of the letter and the night described have not been checked against the original.",
+   "bio": "Ingleby gave the most homely measure of the light. On the coast at Brancaster he watched a salmon-pink glow in the north until the small hours, and found he could read in his room after one in the morning without a lamp.",
+   "sources": [
+    {
+     "title": "C. Pillinger, Gresham College lecture, 1999",
+     "url": "https://www.gresham.ac.uk/sites/default/files/05nov99colinpillinger_tunguska.pdf"
+    }
+   ]
+  },
+  {
+   "id": "wolf",
+   "short": "Max Wolf",
+   "name": "Maximilian (Max) Wolf",
+   "life": "1863–1932",
+   "role": "Professor of astronomy and director of the Königstuhl observatory",
+   "side": "Germany",
+   "where": "Königstuhl observatory, Heidelberg",
+   "lat": 49.4,
+   "lon": 8.72,
+   "vantage": 4,
+   "vantage_label": "professional astronomer abroad",
+   "form": "observatory report (Astronomische Nachrichten)",
+   "language": "German",
+   "authenticity": "'Über die Lichterscheinungen am Nachthimmel aus dem Anfang des Juli', Astronomische Nachrichten 178 (1908), pp. 298–300; cited in Ol'khovatov's study.",
+   "bio": "Wolf was one of Europe's leading astrophotographers. He reported that in early July the night sky over Heidelberg stayed brightly lit past the zenith, right to the southern horizon. Coming from a professional observatory well south of Britain, his report showed the glow was not just a northern twilight.",
+   "sources": [
+    {
+     "title": "Ol'khovatov, Tunguska and the atmospheric optical anomalies (arXiv 2502.01645)",
+     "url": "https://arxiv.org/pdf/2502.01645"
+    }
+   ]
+  },
+  {
+   "id": "whipple",
+   "short": "Whipple",
+   "name": "Francis John Welsh Whipple",
+   "life": "1876–1943",
+   "role": "Superintendent of Kew Observatory, Meteorological Office",
+   "side": "Britain; Royal Meteorological Society",
+   "where": "Kew Observatory, Richmond",
+   "lat": 51.47,
+   "lon": -0.31,
+   "vantage": 4,
+   "vantage_label": "reading the British traces, 22 years on",
+   "form": "scientific papers (written later, 1930 and 1934)",
+   "language": "English",
+   "authenticity": "'The great Siberian meteor and the waves, seismic and aerial, which it produced', Quarterly Journal of the Royal Meteorological Society (1930); and 'On phenomena related to the great Siberian meteor', QJRMS 60 (October 1934), held in the Met Office archive.",
+   "bio": "Whipple remembered that British microbarographs had recorded a strange pressure wave on the morning of 30 June 1908. Once news of Kulik's search reached the West, he matched the British and Siberian records. He timed the source at about 0h 15m GMT and proposed that the body might have been a small comet. His 1934 paper turned to the bright nights.",
+   "sources": [
+    {
+     "title": "Met Office Library record: Whipple, 'On phenomena related to the great Siberian meteor' (1934)",
+     "url": "https://library.metoffice.gov.uk/Portal/recordview/index/634486"
+    },
+    {
+     "title": "Ol'khovatov, seismic phenomena (arXiv 2206.13930), quoting Whipple's timing",
+     "url": "https://arxiv.org/pdf/2206.13930"
+    }
+   ]
+  },
+  {
+   "id": "kulik",
+   "short": "Kulik",
+   "name": "Leonid Alekseyevich Kulik",
+   "life": "1883–1942",
+   "role": "Mineralogist and meteorite specialist of the Academy of Sciences, Leningrad; aged 38 in 1921",
+   "side": "Soviet Academy of Sciences",
+   "where": "Angara and Podkamennaya Tunguska basin; Vanavara; the felled forest",
+   "lat": 60.886,
+   "lon": 101.894,
+   "waypoints": [
+    {
+     "lat": 56.2,
+     "lon": 95.7,
+     "label": "Kansk district, autumn 1921"
+    },
+    {
+     "lat": 58.97,
+     "lon": 101.13,
+     "label": "Kezhma, Nov 1921"
+    },
+    {
+     "lat": 55.94,
+     "lon": 98.0,
+     "label": "Taishet, Feb 1927"
+    },
+    {
+     "lat": 60.34,
+     "lon": 102.28,
+     "label": "Vanavara, spring 1927"
+    },
+    {
+     "lat": 60.95,
+     "lon": 101.85,
+     "label": "ridge view of forest-fall, Apr 1927"
+    },
+    {
+     "lat": 60.886,
+     "lon": 101.894,
+     "label": "Southern Swamp, 1927–30"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the searcher on the ground",
+   "form": "expedition diaries, reports and published papers (1921–1930s)",
+   "language": "Russian",
+   "authenticity": "Kulik's expedition reports were published in Soviet academic journals from 1922 onward, and parts of his diaries in later collections. Ol'khovatov shows that his 1927 article silently cut one witness's remark about the time of day. Most English summaries rely on Krinov's books (1949, 1966).",
+   "bio": "Kulik had been a soldier and a forestry student before he became a meteoriticist. He chased Tunguska for twenty years, convinced that a great iron mass lay buried in the swamps at the centre. He found the forest-fall and photographed it, but never found the iron. He enlisted in the militia in 1941, was captured, and died in a German prison camp in April 1942.",
+   "sources": [
+    {
+     "title": "Linda Hall Library, Scientist of the Day: Leonid Kulik",
+     "url": "https://www.lindahall.org/about/news/scientist-of-the-day/leonid-kulik/"
+    },
+    {
+     "title": "C. Pillinger, Gresham College lecture, 1999",
+     "url": "https://www.gresham.ac.uk/sites/default/files/05nov99colinpillinger_tunguska.pdf"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1908-06-11",
+   "date_display": "Thursday 11 June 1908 (Nature, vol. 78, p. 127)",
+   "precision": "day",
+   "eye": "backhouse",
+   "place": "Sunderland",
+   "headline": "A Sunderland observer flags the luminous night clouds",
+   "digest": "Three weeks before the blast, Backhouse wrote to Nature asking readers to watch for 'sky-coloured' clouds glowing after dark in the summer twilight. He would later point back to this letter as proof that the phenomenon had a history of its own.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Referred to in his own August 1908 letter, Nature 78, 367 (record at bib-bvb.de)"
+  },
+  {
+   "date_iso": "1908-06-29",
+   "date_display": "Monday night 29 June 1908",
+   "precision": "day",
+   "eye": "denning",
+   "place": "Bristol",
+   "headline": "The sky already too light the night before",
+   "digest": "Denning noted that the night of 29 June was unusually light, with the stars and the Milky Way very faint. This was a day before the Siberian fall, and later writers would argue over it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Denning, Nature 78 (1908) p. 247, as cited by Ol'khovatov (arXiv 2502.01645)"
+  },
+  {
+   "date_iso": "1908-06-30",
+   "date_display": "Tuesday 30 June 1908 (17 June O.S.), early morning",
+   "precision": "day",
+   "eye": "evenki",
+   "place": "Chum on the Avarkitta, some tens of km from the centre",
+   "headline": "Two brothers thrown from sleep as the tent goes down",
+   "digest": "As Suslov recorded it in 1926, the brothers Chuchancha and Chekaren of the Shanyagir clan were asleep in their chum when they were flung into the air. They heard a roaring wind and repeated thunder, and saw trees falling and burning around them. The tent was blown over, and the light seemed like a second sun. This is a memory recorded eighteen years later and retold in translation.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Suslov 1926, as summarised in Ol'khovatov, arXiv 2402.10900; details vary between versions"
+  },
+  {
+   "date_iso": "1908-06-30",
+   "date_display": "Tuesday 30 June 1908 (17 June O.S.)",
+   "precision": "day",
+   "eye": "evenki",
+   "place": "Herders' grounds around the forest-fall",
+   "headline": "Herds scattered, storehouses burned",
+   "digest": "Several Evenki later told of reindeer lost or killed, and of storage platforms and their stock of furs and goods burned or crushed in the felled zone. Modern counts accept about three deaths in the region as reasonably established. The figures in different accounts do not agree.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Later Evenki testimony (Suslov, Kulik); death count per Jenniskens et al. 2019 as cited in Ol'khovatov, arXiv 2505.05484"
+  },
+  {
+   "date_iso": "1908-06-30",
+   "date_display": "Tuesday 30 June 1908 (17 June O.S.), breakfast time",
+   "precision": "day",
+   "eye": "semenov",
+   "place": "Porch of his house, Vanavara trading post",
+   "headline": "The northern sky splits open with fire",
+   "digest": "Semenov said he was sitting on his porch facing north when the sky seemed to split and fire spread high and wide over the forest, filling the whole north. The heat was so fierce that his shirt felt as if it were burning. Then the sky closed again, a heavy blow followed, and he was thrown several metres from the porch and briefly lost his senses. This is his account as taken down by Kulik in 1927 and 1930.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kulik's 1930 interview, listed in Ol'khovatov arXiv 2310.14917; wording differs between versions"
+  },
+  {
+   "date_iso": "1908-06-30",
+   "date_display": "Tuesday 30 June 1908 (17 June O.S.), about 7 a.m.",
+   "precision": "day",
+   "eye": "krasnoyarets",
+   "place": "Kezhemskoye, on the Angara",
+   "headline": "At Kezhma, fifty blows like gunfire",
+   "digest": "The Kezhma correspondent recorded a sound at 7:43 local time followed by some fifty or sixty heavy blows over five or six minutes. A flame showed over the northern horizon at about the height of the treetops. Horses and cows bolted, and some window glass broke.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Krasnoyarets, 13 July 1908 (O.S.), per Ol'khovatov arXiv 2310.14917"
+  },
+  {
+   "date_iso": "1908-06-30",
+   "date_display": "Tuesday 30 June 1908 (17 June O.S.), morning",
+   "precision": "day",
+   "eye": "sibir",
+   "place": "Nizhne-Karelinskoye, 30 versts north of Kirensk",
+   "headline": "A pipe-shaped light sinks in the north-west",
+   "digest": "Peasants saw a blinding bluish-white body, shaped like a pipe or cylinder, low in the north-west. It moved downward for about ten minutes and dissolved into a cloud of black smoke, and crashes and rumbling followed. Other villages along the river told of a fiery or red ball.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sibir', 2 July 1908 (O.S.), per Ol'khovatov arXiv 2310.14917 and 2505.05484"
+  },
+  {
+   "date_iso": "1908-06-30",
+   "date_display": "Tuesday 30 June 1908 (17 June O.S.), 7:15–8:00 a.m.",
+   "precision": "day",
+   "eye": "kulesh",
+   "place": "Kirensk meteorological station",
+   "headline": "A spear of fire, and the barograph jumps",
+   "digest": "Kulesh saw a spear-shaped pillar of fire in the north-west. Five thunders followed, and then more; a ferryman counted fourteen. At 7h 48m local time his barograph traced a sharp jump in pressure, the air wave passing over Kirensk.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kulesh letters to Irkutsk observatory; barograph time per Bronshten, cited in Ol'khovatov arXiv 2206.13930 and 2310.14917"
+  },
+  {
+   "date_iso": "1908-06-30",
+   "date_display": "Tuesday 30 June 1908 (17 June O.S.), about 00:20 GMT",
+   "precision": "day",
+   "eye": "voznesensky",
+   "place": "Irkutsk observatory",
+   "headline": "The Irkutsk seismograph shakes for over an hour",
+   "digest": "About 970 km to the south, the Irkutsk seismograph recorded a disturbance with a peak-to-trough amplitude of about 4 mm that went on for roughly an hour and a half. Voznesensky later called its length strange for an earthquake. Slow air-pressure waves were also recorded. Tashkent, Tiflis and Jena also recorded the shaking.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Ol'khovatov arXiv 2206.13930 (citing Voznesensky 1925, Ben-Menahem, Pasechnik)"
+  },
+  {
+   "date_iso": "1908-06-30",
+   "date_display": "Tuesday 30 June 1908, about 05:00–06:00 GMT",
+   "precision": "range",
+   "eye": "whipple",
+   "place": "Microbarograph stations in southern England",
+   "headline": "An unexplained ripple on the London pressure charts",
+   "digest": "About five hours after the blast, the air wave reached Britain. Sensitive microbarographs in and around London, and at Cambridge and Petersfield, recorded a short train of pressure oscillations that no weather system explained. The traces were filed away. Whipple would match them to Siberia in 1930.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Whipple 1930 as summarised by Pillinger (Gresham 1999) and McKay (HNN); Pillinger's printed clock time for the wave looks garbled, so the window is given as a range"
+  },
+  {
+   "date_iso": "1908-06-30",
+   "date_display": "Night of 30 June–1 July 1908",
+   "precision": "day",
+   "eye": "denning",
+   "place": "Bristol",
+   "headline": "Second night of the strange light",
+   "digest": "Denning watched the northern sky stay pale through the short midsummer night. He reckoned it the core of a display that ran for four nights in all. He gave no explanation he was sure of.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Denning, Nature 78 p. 247, per Ol'khovatov arXiv 2502.01645"
+  },
+  {
+   "date_iso": "1908-06-30",
+   "date_display": "Night of 30 June–1 July 1908",
+   "precision": "day",
+   "eye": "stephen",
+   "place": "Huntingdon area",
+   "headline": "An 'aurora' brighter than any she knew",
+   "digest": "Stephen saw a glow in the north that she took for an exceptionally brilliant aurora. She wrote to The Times to ask whether others had seen it. Like nearly everyone in England, she had no reason to think of Siberia.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Pillinger, Gresham lecture 1999; letter's print date not checked"
+  },
+  {
+   "date_iso": "1908-06-30",
+   "date_display": "Night of 30 June–1 July 1908",
+   "precision": "day",
+   "eye": "ingleby",
+   "place": "Brancaster, Norfolk",
+   "headline": "Reading in his room at a quarter past one",
+   "digest": "Ingleby watched a salmon-pink glow linger in the north until about half past two in the morning. At 1:15 a.m. he found he could read a book in his room by the sky alone.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Pillinger, Gresham lecture 1999; which night is not stated in the summary"
+  },
+  {
+   "date_iso": "1908-06-30",
+   "date_display": "Night of 30 June–1 July 1908",
+   "precision": "range",
+   "eye": "wolf",
+   "place": "Königstuhl, Heidelberg",
+   "headline": "The sky lit beyond the zenith",
+   "digest": "Wolf recorded that in the first nights of July the sky over Heidelberg was still brightly lit well past the zenith, even towards the southern horizon. That ruled out an ordinary late twilight, and photography was hampered.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wolf, Astronomische Nachrichten 178, 298–300 (1908), per Ol'khovatov arXiv 2502.01645; exact nights not confirmed"
+  },
+  {
+   "date_iso": "1908-07-01",
+   "date_display": "Wednesday 1 July 1908, before dawn",
+   "precision": "day",
+   "eye": "stephen",
+   "place": "The Times correspondence column",
+   "headline": "Greenwich men call it aurora too",
+   "digest": "Stephen's guess had company. On 3 July The Times reported that E. W. Maunder and H. P. Hollis of the Royal Observatory had described a long aurora on the morning of 1 July to the British Astronomical Association. The paper itself soon compared the glows with the sunsets after Krakatoa in 1883.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Pillinger, Gresham lecture 1999, summarising The Times of 3 and 4 July 1908"
+  },
+  {
+   "date_iso": "1908-07-06",
+   "date_display": "23 June 1908 (O.S.)",
+   "precision": "day",
+   "eye": "kulesh",
+   "place": "Kirensk",
+   "headline": "Kulesh writes up the morning for Irkutsk",
+   "digest": "A week after the event, Kulesh set down his observations in a letter to the Irkutsk observatory: the fire pillar, the series of thunders, and the barograph mark. He also passed on reports from the villages. Some of these, such as a supposed new lake near Karelino, were later judged wrong.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kulesh letter dated 23 June O.S., per Ol'khovatov arXiv 2310.14917"
+  },
+  {
+   "date_iso": "1908-07-15",
+   "date_display": "2 July 1908 (O.S.)",
+   "precision": "day",
+   "eye": "sibir",
+   "place": "Irkutsk",
+   "headline": "Sibir' prints the first account",
+   "digest": "The Irkutsk paper printed its Kirensk correspondent's report: the bright body, the smoke, the thunder, and village rumours that the object had come down close by. It was the first printed account of the fall, and other Siberian papers picked up the story over the summer.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sibir', 2 July 1908 (O.S.), per Ol'khovatov arXiv 2505.05484"
+  },
+  {
+   "date_iso": "1908-07-16",
+   "date_display": "Thursday 16 July 1908 (Nature, vol. 78, p. 247)",
+   "precision": "day",
+   "eye": "denning",
+   "place": "Bristol",
+   "headline": "Denning reports four nights of glow",
+   "digest": "In Nature, Denning gave his dated account of the nights from 29 June to 2 July: the faint stars, the light northern sky, and how the effect rose and faded. Placed beside other letters, it helped show that the light covered a whole region and was more than a local curiosity.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nature 78 (issue 2020) p. 247, per Ol'khovatov arXiv 2502.01645"
+  },
+  {
+   "date_iso": "1908-07-24",
+   "date_display": "11 July 1908 (O.S.)",
+   "precision": "day",
+   "eye": "voznesensky",
+   "place": "Irkutsk observatory (letter from Znamenskoe)",
+   "headline": "Replies arrive by post",
+   "digest": "Among the letters reaching Irkutsk was one from L. D. Klykov at the Znamenskoe post office. He reported two shocks, a fiery strip seen on a clear sky and strong thunder. Others came from Nizhne-Ilimskoe and Ilimsk, from boatmen, peasants and a weather observer. They gave times between about 7 and 8:30 a.m.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Reports to Voznesensky listed in Ol'khovatov arXiv 2310.14917"
+  },
+  {
+   "date_iso": "1908-07-26",
+   "date_display": "13 July 1908 (O.S.)",
+   "precision": "day",
+   "eye": "krasnoyarets",
+   "place": "Krasnoyarsk",
+   "headline": "Krasnoyarets prints the Kezhma blows",
+   "digest": "The Krasnoyarsk paper published its Kezhma correspondent's account of the sounds, the flame on the horizon and the frightened animals. A Kezhma district police officer, Solonina, reported to the Yenisei governor a few days later that a huge aerolite had flown high from south to north with sounds like gunshots.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Krasnoyarets 13 July O.S.; Solonina report 19 July O.S.; both per Ol'khovatov arXiv 2310.14917"
+  },
+  {
+   "date_iso": "1908-08-20",
+   "date_display": "Thursday 20 August 1908 (Nature, vol. 78, p. 367)",
+   "precision": "day",
+   "eye": "backhouse",
+   "place": "Sunderland",
+   "headline": "Not a new wonder, but the night clouds",
+   "digest": "Backhouse argued that the many reports of strange twilights were the same 'sky-coloured clouds' that O. Jesse had called luminous night clouds. He admitted that on 30 June and 1 July, the main nights, he had a poor view. He did not connect the glow with any fall from space.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nature 78, 367 (1908) record (bib-bvb.de); issue date from volume numbering"
+  },
+  {
+   "date_iso": "1908-09",
+   "date_display": "Summer–autumn 1908",
+   "precision": "range",
+   "eye": "voznesensky",
+   "place": "Irkutsk observatory",
+   "headline": "A fall placed, then left unpublished",
+   "digest": "Putting the seismogram together with the letters, Voznesensky concluded that a large meteorite had fallen in the remote country to the north-west, towards the Podkamennaya Tunguska. He did not publish. Siberian papers had dropped the story by late summer.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Voznesensky's later paper (1925); press decline per McKay, HNN"
+  },
+  {
+   "date_iso": "1921-09",
+   "date_display": "Mid-September 1921",
+   "precision": "month",
+   "eye": "kulik",
+   "place": "Kansk district, Yenisei province",
+   "headline": "Kulik heads east for the new Academy",
+   "digest": "Kulik, leading the Academy of Sciences' meteorite expedition, arrived in the Kansk district in mid-September 1921. He went to collect fallen meteorites and accounts of falls. A 1908 newspaper clipping, passed on by a colleague, had pointed him to central Siberia. He gathered testimony and sent out questionnaires.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Pillinger, Gresham lecture 1999; McKay, HNN"
+  },
+  {
+   "date_iso": "1921-11-21",
+   "date_display": "21 November 1921",
+   "precision": "day",
+   "eye": "kulik",
+   "place": "Kezhma area",
+   "headline": "A witness remembers thunder before sunrise",
+   "digest": "Near Kezhma a man named Vologzhin told Kulik that on the morning in question there had been thunder at dawn, before sunrise, fading to the north. When Kulik published the account in 1927 he left out the remark about the time, without marking the cut.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Ol'khovatov arXiv 2505.05484 and 2310.14917"
+  },
+  {
+   "date_iso": "1925",
+   "date_display": "1925",
+   "precision": "year",
+   "eye": "voznesensky",
+   "place": "Irkutsk",
+   "headline": "Seventeen years later, the paper",
+   "digest": "Voznesensky finally published his analysis in Mirovedenie, placing the fall in the upper reaches of the Khatanga, the Evenki name for the Podkamennaya Tunguska. He worked out a time and a direction of flight from the seismic record and the witnesses, and he noted how oddly long the 'earthquake' had lasted.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Voznesensky 1925, cited in Ol'khovatov arXiv 2206.13930"
+  },
+  {
+   "date_iso": "1926",
+   "date_display": "1926",
+   "precision": "year",
+   "eye": "suslov",
+   "place": "Strelka-Chunya",
+   "headline": "Sixty herders questioned at the assembly",
+   "digest": "At an Evenki assembly Suslov questioned about sixty people about the morning of 1908 and took down their accounts in Russian. From what they told him he drew a rough map of the area where the forest lay flat and burned. It was the first systematic record of the people nearest the blast.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Suslov 1926 as summarised in Ol'khovatov arXiv 2402.10900; number of witnesses from secondary summaries"
+  },
+  {
+   "date_iso": "1926",
+   "date_display": "1926",
+   "precision": "year",
+   "eye": "evenki",
+   "place": "As told to Suslov",
+   "headline": "Agdy, a shaman's curse, and a place to avoid",
+   "digest": "In the Evenki accounts Suslov and later Kulik recorded, the blast was explained through agdy, thunder beings in iron-like form, or as the work of an angry shaman sent against a clan. Some families treated the felled area as a place not to enter. These are stories as Russian collectors understood and wrote them down, not Evenki texts.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Later Russian records of Evenki explanations (Suslov; Kulik), summarised in Ol'khovatov arXiv 2402.10900"
+  },
+  {
+   "date_iso": "1927-02",
+   "date_display": "February 1927",
+   "precision": "month",
+   "eye": "kulik",
+   "place": "Leningrad to Taishet",
+   "headline": "Back to Siberia, in winter",
+   "digest": "Kulik left Leningrad in February 1927 and took the railway to Taishet. From there he went north by sledge to the Angara and on to Vanavara. Travelling in winter let him cross frozen rivers and bogs.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Pillinger, Gresham lecture 1999; McKay, HNN"
+  },
+  {
+   "date_iso": "1927-03",
+   "date_display": "March 1927",
+   "precision": "month",
+   "eye": "semenov",
+   "place": "Vanavara trading post",
+   "headline": "Semenov tells his story to Kulik",
+   "digest": "At Vanavara Kulik took down Semenov's account of the heat and the blast, and heard similar stories from his neighbour Kosolapov. The trading post became the expedition's base. The account Kulik recorded again in 1930 is the one most often quoted.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kulik's 1927 expedition; Semenov version history per Ol'khovatov arXiv 2310.14917"
+  },
+  {
+   "date_iso": "1927-04",
+   "date_display": "April 1927",
+   "precision": "month",
+   "eye": "evenki",
+   "place": "Vanavara and the trails north",
+   "headline": "Guides who would not go on",
+   "digest": "Kulik's first attempts to reach the centre stalled when Evenki guides were unwilling to go further into the felled country, which some regarded as dangerous ground. He tried again with the hunter Ilya Potapovich and Luchetkan. These reactions are recorded only through Kulik's reports.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kulik's 1927 reports as summarised in later literature; names of guides from secondary sources"
+  },
+  {
+   "date_iso": "1927-04-13",
+   "date_display": "13 April 1927",
+   "precision": "day",
+   "eye": "kulik",
+   "place": "Ridge north of the Makirta, looking north",
+   "headline": "The felled forest from the ridge",
+   "digest": "From a ridge on the way north, Kulik looked out over country where the trees lay flat in rows to the horizon, their tops pointing away from a distant centre. He wrote in his diary that he could not take in the whole scene. Sources differ on whether the first view came on 13 or 15 April.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Pillinger (13 April, Khladni ridge) and McKay, HNN (15 April)"
+  },
+  {
+   "date_iso": "1927-05-30",
+   "date_display": "30 May 1927",
+   "precision": "day",
+   "eye": "kulik",
+   "place": "Southern Swamp, centre of the forest-fall",
+   "headline": "At the centre, trees still standing",
+   "digest": "Kulik reached the swampy hollow at the centre of the radial pattern. He found no crater. Around it trees still stood, upright but stripped of branches and scorched. Taking the water-filled pits for meteorite craters, he became convinced that an iron mass lay beneath the bog.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Pillinger, Gresham lecture 1999"
+  },
+  {
+   "date_iso": "1928",
+   "date_display": "Summer 1928",
+   "precision": "range",
+   "eye": "kulik",
+   "place": "Southern Swamp",
+   "headline": "Second expedition: film, boats and a cabin on stilts",
+   "digest": "Kulik went back with more men and a cameraman. Boats capsized on the Chambe river, a cabin was built on stilts, and the first film and photographs of the felled forest were made. Ill and short of food, the party was later met by a relief party; sources differ on who led it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Pillinger, Gresham lecture 1999; McKay, HNN; Ol'khovatov arXiv 2505.05484 (Smirnov 1929)"
+  },
+  {
+   "date_iso": "1928",
+   "date_display": "Summer 1928",
+   "precision": "range",
+   "eye": "suslov",
+   "place": "Tunguska site",
+   "headline": "Out to the forest-fall",
+   "digest": "Suslov is described in some accounts as leading the relief party sent to Kulik's 1928 expedition; others name Smirnov. Either way, Suslov's 1926 knowledge of Evenki routes had become part of the site's exploration. The water-filled pit later called the Suslov funnel took his name.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "McKay, HNN; Ol'khovatov arXiv 2505.05484; attribution of the relief party disputed"
+  },
+  {
+   "date_iso": "1929-02-23",
+   "date_display": "23 February 1929",
+   "precision": "day",
+   "eye": "kulik",
+   "place": "Vanavara and the Southern Swamp",
+   "headline": "Third expedition: drilling for the iron",
+   "digest": "Kulik returned with a larger party and drilling gear to dig into the supposed craters. The young astronomer Evgeny Krinov was among them. Digging in the Suslov funnel turned up an old tree stump at the bottom, which undercut the idea that it was a crater. Some of the party left, and Krinov went home in November 1929.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Pillinger, Gresham lecture 1999"
+  },
+  {
+   "date_iso": "1930",
+   "date_display": "Summer 1930",
+   "precision": "range",
+   "eye": "kulik",
+   "place": "Southern Swamp",
+   "headline": "Money runs out, no iron found",
+   "digest": "By the summer of 1930 the expedition's funds were gone. It had found no meteoritic iron in the swamp, though Kulik remained sure it was there. Aerial photography came only in 1938, and his last visit was in 1939.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Pillinger, Gresham lecture 1999"
+  },
+  {
+   "date_iso": "1930",
+   "date_display": "1930",
+   "precision": "year",
+   "eye": "semenov",
+   "place": "Vanavara",
+   "headline": "Semenov's story taken down again",
+   "digest": "On a later visit Kulik re-recorded Semenov's account. This 1930 version, with the split sky, the burning shirt and the fall from the porch, is the one most later books translate and quote.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Ol'khovatov arXiv 2310.14917 lists Semenov interview as 1930"
+  },
+  {
+   "date_iso": "1930",
+   "date_display": "1930",
+   "precision": "year",
+   "eye": "whipple",
+   "place": "Kew Observatory",
+   "headline": "Kew links the British traces to Siberia",
+   "digest": "Whipple published the British microbarograph traces of 30 June 1908 together with seismic records and the Siberian accounts now coming from Kulik. He put the origin of the disturbance at about 0h 15m GMT and suggested the body might have been a small comet, not a solid iron meteorite.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Whipple 1930, QJRMS, as quoted in Ol'khovatov arXiv 2206.13930; comet proposal per standard summaries"
+  },
+  {
+   "date_iso": "1934-10",
+   "date_display": "October 1934",
+   "precision": "month",
+   "eye": "whipple",
+   "place": "Kew Observatory",
+   "headline": "Whipple returns to the white nights",
+   "digest": "In a second paper Whipple took up the other phenomena tied to the 'great Siberian meteor', including the bright nights over Europe. He treated them as part of one event, not as aurora.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Whipple, QJRMS 60, October 1934 (Met Office archive record); content summarised from title and later citations"
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1908-06-11",
+   "date_display": "11 June 1908",
+   "eye": "backhouse",
+   "claim": "Calls for watch on 'sky-coloured' luminous night clouds in the summer sky, before the blast",
+   "form": "recorded",
+   "evidence": "Nature 78, p. 127",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1908-06-29",
+   "date_display": "29 June 1908",
+   "eye": "denning",
+   "claim": "Bristol: night sky very light, stars and Milky Way extremely faint, a day before the fall",
+   "form": "seen",
+   "evidence": "Nature 78, p. 247",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1908-06-30",
+   "date_display": "17 June 1908 O.S., morning",
+   "eye": "semenov",
+   "claim": "Vanavara, ~65 km SSE: northern sky 'split' with fire; scorching heat; thrown several metres by the blast",
+   "form": "seen",
+   "evidence": "Kulik interviews, 1927 and 1930 (recorded later)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1908-06-30",
+   "date_display": "17 June 1908 O.S., ~7 a.m.",
+   "eye": "krasnoyarets",
+   "claim": "Kezhma, ~200 km S: first sound 7:43 local, then 50–60 blows over 5–6 minutes; flame on northern horizon; windows broken",
+   "form": "reported",
+   "evidence": "Krasnoyarets, 13 July 1908 O.S.",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1908-06-30",
+   "date_display": "17 June 1908 O.S., 7:15–8:00 a.m.",
+   "eye": "kulesh",
+   "claim": "Kirensk: spear-shaped fire pillar to NW; barograph records air wave at 7h 48m local; 14 thunders counted by a ferryman",
+   "form": "measured",
+   "evidence": "Kulesh letters, 23 June and Aug. 1908 O.S.; Bronshten",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1908-06-30",
+   "date_display": "30 June 1908, ~00:20 GMT",
+   "eye": "voznesensky",
+   "claim": "Irkutsk seismograph, ~970 km S: peak-to-trough 4 mm, ground motion recorded for ~1.5 hours; air waves of 100–225 s period",
+   "form": "measured",
+   "evidence": "Irkutsk seismogram; Voznesensky 1925; Pasechnik, Ben-Menahem",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1908-06-30",
+   "date_display": "night of 30 June–1 July 1908",
+   "eye": "ingleby",
+   "claim": "Brancaster, Norfolk: a book readable indoors at 1:15 a.m.; pink glow in the north until ~2:30 a.m.",
+   "form": "seen",
+   "evidence": "Letter to The Times, summarised by Pillinger 1999",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1908-07-01",
+   "date_display": "1 July 1908",
+   "eye": "stephen",
+   "claim": "Huntingdon: the northern glow taken for an unusually brilliant aurora (an explanation shared by Maunder and Hollis of Greenwich)",
+   "form": "explained",
+   "evidence": "Letter to The Times; The Times 3 July 1908 (via Pillinger)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1908-07",
+   "date_display": "early July 1908",
+   "eye": "wolf",
+   "claim": "Heidelberg: night sky brightly lit past the zenith to the southern horizon",
+   "form": "seen",
+   "evidence": "Astronomische Nachrichten 178, 298–300",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1908-08-20",
+   "date_display": "20 August 1908",
+   "eye": "backhouse",
+   "claim": "The twilight glows of 30 June–1 July are 'sky-coloured clouds' (Jesse's luminous night clouds), not aurora",
+   "form": "explained",
+   "evidence": "Nature 78, p. 367",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1925",
+   "date_display": "1925",
+   "eye": "voznesensky",
+   "claim": "A large meteorite fell in the upper Khatanga (Podkamennaya Tunguska) basin; time and direction computed from seismogram and witnesses",
+   "form": "explained",
+   "evidence": "Mirovedenie, 1925",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1926",
+   "date_display": "1926",
+   "eye": "suslov",
+   "claim": "About 60 Evenki questioned; area of felled and burned forest sketched on a map",
+   "form": "recorded",
+   "evidence": "Suslov's 1926 survey (later reprints)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1927-04-13",
+   "date_display": "13 (or 15) April 1927",
+   "eye": "kulik",
+   "claim": "From a ridge south of the centre: trees felled in rows to the horizon, tops pointing away from the centre",
+   "form": "seen",
+   "evidence": "Kulik's 1927 diary and report",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1927-05-30",
+   "date_display": "30 May 1927",
+   "eye": "kulik",
+   "claim": "Southern Swamp: no crater; standing stripped trees at the centre; water-filled pits read as meteorite craters with an iron mass beneath (later abandoned)",
+   "form": "disputed",
+   "evidence": "Kulik's reports, 1927–28",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1930",
+   "date_display": "1930",
+   "eye": "whipple",
+   "claim": "British microbarograph waves matched to Siberia; origin about 0h 15m GMT; the body proposed as a small comet",
+   "form": "explained",
+   "evidence": "QJRMS 1930",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1934-10",
+   "date_display": "October 1934",
+   "eye": "whipple",
+   "claim": "The European bright nights treated as phenomena of the same meteor, against the 1908 aurora explanation",
+   "form": "explained",
+   "evidence": "QJRMS 60 (1934)",
+   "confidence": "approx"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1908-06-30",
+   "label": "The morning of the blast, from the centre outward (about 00:14 GMT, shortly after 7 a.m. local)",
+   "eyes": [
+    "evenki",
+    "semenov",
+    "krasnoyarets",
+    "sibir",
+    "kulesh",
+    "voznesensky"
+   ],
+   "note": "Ordered by distance. The Evenki are thrown from their tents. At 65 km Semenov feels heat and is knocked down. At Kezhma the event is mostly heard. On the Lena, peasants watch a light sink in the north-west, and Kulesh's barograph registers the air wave. At Irkutsk only the needle sees it. Only the farther, instrumental records were written that day."
+  },
+  {
+   "date": "1908-06-30",
+   "label": "The pressure wave crosses Eurasia",
+   "eyes": [
+    "kulesh",
+    "voznesensky",
+    "whipple"
+   ],
+   "note": "The same air wave is traced at Kirensk within the hour, at Irkutsk, and about five hours later on English microbarographs. In 1908 no one put these together. Whipple did in 1930."
+  },
+  {
+   "date": "1908-06-30",
+   "label": "The first white night over Europe (night of 30 June–1 July)",
+   "eyes": [
+    "wolf",
+    "stephen",
+    "ingleby",
+    "denning"
+   ],
+   "note": "East to west across the same night: Heidelberg's sky lit past the zenith, a Cambridge librarian's 'aurora', a golfer reading at 1:15 a.m. in Norfolk, and Denning in Bristol counting the second of four nights. None of them yet knew of Siberia."
+  },
+  {
+   "date": "1908-06-29",
+   "label": "Before the blast: were the twilights already strange?",
+   "eyes": [
+    "backhouse",
+    "denning"
+   ],
+   "note": "Backhouse had written about luminous night clouds on 11 June, and Denning found 29 June abnormally light. Their records are the basis for the argument that part of the optical anomaly began before 30 June."
+  },
+  {
+   "date": "1908-07-15",
+   "label": "Siberian reports reach print and the observatory (July 1908, O.S. dates converted)",
+   "eyes": [
+    "kulesh",
+    "sibir",
+    "voznesensky",
+    "krasnoyarets"
+   ],
+   "note": "Over a few weeks Kulesh's letter, the Sibir' report, the postal replies to Irkutsk and the Krasnoyarets piece set down the same morning from points hundreds of kilometres apart. Voznesensky held all of them and published nothing for seventeen years."
+  },
+  {
+   "date": "1927-04",
+   "label": "Spring 1927: the people of the place meet the searcher",
+   "eyes": [
+    "kulik",
+    "semenov",
+    "evenki",
+    "suslov"
+   ],
+   "note": "At Vanavara Semenov tells his story. Evenki guides hesitate at the edge of the felled country. Suslov's 1926 map and witnesses point the way, and Kulik sees the forest-fall for the first time."
+  },
+  {
+   "date": "1930",
+   "label": "1930: the field and the archive meet",
+   "eyes": [
+    "kulik",
+    "semenov",
+    "whipple"
+   ],
+   "note": "Kulik's funds run out, and he records Semenov's account again in the form later quoted worldwide. At Kew, Whipple ties the British pressure traces and the Siberian testimony into one event and suggests a comet, not iron."
+  }
+ ],
+ "ties": [
+  {
+   "a": "kulik",
+   "b": "semenov",
+   "kind": "met",
+   "note": "Kulik interviewed Semenov at the Vanavara trading post in 1927 and again in 1930, and used Vanavara as his base."
+  },
+  {
+   "a": "suslov",
+   "b": "evenki",
+   "kind": "met",
+   "note": "Suslov questioned Evenki witnesses, including Chuchancha, at the 1926 assembly; most early Evenki testimony survives through him."
+  },
+  {
+   "a": "kulik",
+   "b": "suslov",
+   "kind": "influenced",
+   "note": "Suslov's 1926 testimony and map fed into Kulik's 1927 route; the Suslov funnel at the site, dug by Kulik's party in 1929, bears his name."
+  },
+  {
+   "a": "kulik",
+   "b": "evenki",
+   "kind": "met",
+   "note": "Evenki hunters guided Kulik's expeditions; their reluctance to enter the felled area is known only from his reports."
+  },
+  {
+   "a": "kulesh",
+   "b": "voznesensky",
+   "kind": "mentioned",
+   "note": "Kulesh's letters from the Kirensk station were addressed to the Irkutsk observatory and later cited in Voznesensky's 1925 paper."
+  },
+  {
+   "a": "sibir",
+   "b": "kulesh",
+   "kind": "same street",
+   "note": "Both reported from the Kirensk district on the Lena; the Sibir' report and Kulesh's letters describe the same morning from the same river valley."
+  },
+  {
+   "a": "voznesensky",
+   "b": "kulik",
+   "kind": "read each other",
+   "note": "Voznesensky's 1925 paper, placing the fall in the Podkamennaya Tunguska basin, appeared as Kulik was preparing to return; both drew on the same Angara and Lena testimony."
+  },
+  {
+   "a": "whipple",
+   "b": "kulik",
+   "kind": "read each other",
+   "note": "Whipple's 1930 paper was prompted by news of Kulik's discoveries and drew on his reports of the site."
+  },
+  {
+   "a": "whipple",
+   "b": "voznesensky",
+   "kind": "read each other",
+   "note": "Whipple used the Irkutsk seismic record alongside the British air-wave traces to time the event."
+  },
+  {
+   "a": "stephen",
+   "b": "ingleby",
+   "kind": "same street",
+   "note": "Both letters ran in the correspondence of The Times in early July 1908, part of the paper's debate over aurora versus dust."
+  },
+  {
+   "a": "backhouse",
+   "b": "denning",
+   "kind": "read each other",
+   "note": "Backhouse's August letter in Nature answered the run of twilight reports in the same journal, including Denning's of 16 July."
+  },
+  {
+   "a": "wolf",
+   "b": "stephen",
+   "kind": "opposite sides",
+   "note": "Wolf's report of light far south of the zenith sat badly with the aurora explanation that Stephen and the Greenwich astronomers favoured."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v2:krakatoa-1883",
+   "note": "In July 1908 The Times compared the bright nights with the vivid sunsets after the eruption of Krakatoa in 1883 and suggested dust carried on an unknown air current. Older observers in several cities drew the same comparison."
+  },
+  {
+   "to": "carrington-1859",
+   "note": "The favourite 1908 explanation was aurora driven by eruptions on the Sun. Norman Lockyer and Alfred Fowler at South Kensington argued for it, an idea of solar–terrestrial coupling that goes back to the flare Carrington saw in 1859. The glow showed no matching magnetic storm, which weakened it."
+  },
+  {
+   "to": "halley-1910",
+   "note": "Whipple's 1930 suggestion that the Tunguska body was a small comet tied the 1908 airburst to the question the 1910 return of Halley's comet had made public: what happens when cometary material meets the Earth's atmosphere."
+  },
+  {
+   "to": "v1:russia-1917",
+   "note": "Kulik's search was a project of the new Soviet Academy of Sciences, approved in 1921 partly in the hope of finding meteoritic iron for industry. The Bolshevik switch to the Gregorian calendar in 1918 is why the 1908 records are dated thirteen days behind the 1920s expedition records."
+  },
+  {
+   "to": "v1:ww2-europe",
+   "note": "Kulik joined the people's militia in 1941, was wounded and captured, and died of typhus in a German prison camp in April 1942. His collections and notes passed to Krinov and the Academy's Committee on Meteorites."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.lindahall.org/about/news/scientist-of-the-day/leonid-kulik/",
+   "title": "Leonid Kulik (Linda Hall Library, Scientist of the Day)",
+   "caption": "Library feature on Kulik, reproducing the 1927 expedition photograph of trees felled by the blast, laid out in rows pointing away from the centre.",
+   "date": "1927 (photograph)",
+   "credit": "Kulik expedition, 1927; page by Linda Hall Library"
+  },
+  {
+   "url": "https://www.rmg.co.uk/stories/space-astronomy/tunguska-event",
+   "title": "The Tunguska event (Royal Museums Greenwich)",
+   "caption": "Royal Observatory Greenwich explainer on the airburst, with photographs of the felled forest from the Soviet expeditions.",
+   "date": "1927–1930 (photographs)",
+   "credit": "Royal Museums Greenwich"
+  }
+ ],
+ "further": [
+  {
+   "title": "A. Ol'khovatov, The 1908 Tunguska event: analysis of eyewitness accounts of luminous phenomena collected in 1908",
+   "url": "https://arxiv.org/pdf/2310.14917"
+  },
+  {
+   "title": "A. Ol'khovatov, The Evenki accounts of the 1908 Tunguska event collected in 1920s–1930s",
+   "url": "https://arxiv.org/pdf/2402.10900"
+  },
+  {
+   "title": "A. Ol'khovatov, Some historical misconceptions and inaccuracies regarding the 1908 Tunguska event",
+   "url": "https://arxiv.org/pdf/2505.05484"
+  },
+  {
+   "title": "A. Ol'khovatov, The 1908 Tunguska event and the atmospheric optical anomalies",
+   "url": "https://arxiv.org/pdf/2502.01645"
+  },
+  {
+   "title": "C. Pillinger, 'Tunguska', Gresham College lecture (1999)",
+   "url": "https://www.gresham.ac.uk/sites/default/files/05nov99colinpillinger_tunguska.pdf"
+  },
+  {
+   "title": "J. J. McKay, 'A Century of Tunguska', History News Network",
+   "url": "https://hnn.us/article/52029"
+  },
+  {
+   "title": "The Rushden Echo, 3 July 1908: 'Twenty Hours of Daylight at Rushden' (transcription)",
+   "url": "https://rushdenheartsandsoles.co.uk/history/ZodiacalLight1908.html"
+  },
+  {
+   "title": "Science Frontiers 121: 'Like Dawn at Midnight' (New York Times, 5 July 1908)",
+   "url": "https://science-frontiers.com/sf121/sf121p12.htm"
+  }
+ ],
+ "vantage_key": "0 = Evenki camps under the blast; 1 = Vanavara and the expeditions on the ground; 2 = Angara and Lena villages and stations 200–500 km away; 3 = the Irkutsk observatory at about 970 km; 4 = Britain and Germany, seeing only the bright nights or the instrument traces."
+}

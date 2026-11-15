@@ -1,0 +1,989 @@
+{
+ "id": "krakatoa-1883",
+ "title": "The Sound Heard Round the World",
+ "subtitle": "The eruption of Krakatoa, Sunda Strait, and its global echo, 1883–1884",
+ "span": "May 1883 – January 1884 (with a coda in 1892)",
+ "intro": [
+  "On 20 May 1883 a small, uninhabited volcanic island in the Sunda Strait, between Java and Sumatra, began to vent steam and ash. Ships passing through one of the busiest sea lanes of the Dutch East Indies logged the spectacle; excursion parties from Batavia even landed to look. For three months the eruption waxed and waned. Then, from about one in the afternoon of Sunday 26 August, it built into a paroxysm that ended at 10:02 on the morning of the 27th with one of the loudest sounds in recorded history. Tsunamis swept the coasts of the strait, erasing towns such as Anjer on Java and Telok Betong on Sumatra; the official toll was 36,417 dead.",
+  "This chapter is unusual in the book because almost nobody here kept a private diary. The honest record of Krakatoa is a record of ships' logs, captains' reports, colonial officials' telegrams and monthly returns, scientists' instrument readings, letters to scientific journals, newspaper reports, dated pastel sketches, and one woman's account set down later. We say so plainly, and each eye carries its true form tag. Several of the best-known accounts survive mainly through two great compilations: R. D. M. Verbeek's official Dutch report Krakatau (1885) and the Royal Society's Krakatoa Committee report edited by G. J. Symons (1888). Where an entry rests on such a compilation rather than on the original document, it is flagged.",
+  "The eyes are arranged by distance, because distance is the story. In the strait itself, Captain W. J. Watson of the Charles Bal and Captain Lindeman of the steamer Loudon wrote down, hour by hour, darkness at midday, pumice raining on deck, lightning playing on the masts. On the Sumatran shore, the wife of the Dutch controller at Ketimbang fled up a hill. At Anjer the telegraph master sent warnings until the line fell silent. Some 160 km away in Batavia, instruments at the observatory and a pressure gauge at the city gasworks registered the blast. Some 4,800 km away, on the small Indian Ocean island of Rodrigues, the police chief recorded what he took to be distant gunfire.",
+  "Then the echo went global. The air-pressure wave from the climactic explosion was picked up on barographs in some fifty cities, passing and repassing over the globe for days; the Royal Society later gathered these traces into the first worldwide picture of a single atmospheric event. By late November 1883 the fine aerosol veil had spread around the planet, and the skies of Europe and North America burned red after sunset. A Chelsea painter sketched them in pastel by the clock; a Jesuit poet in Lancashire wrote to Nature; American fire companies reportedly turned out for blazes that were only sky. Years later Edvard Munch wrote of a blood-red sky over Kristiania, and whether that memory belongs to Krakatoa is still argued.",
+  "Read side by side, these documents show something new in 1883: a disaster witnessed almost simultaneously across the world, by telegraph, by instrument and by eye, and then reassembled by scientists who wrote to strangers everywhere asking what they had seen and when."
+ ],
+ "calendar_note": "All dates are Gregorian. Times in the Sunda Strait are local times as written, and they are not mutually consistent: ships kept their own clocks, so Watson logged the great explosion at about 11:15, while the accepted time of the climactic blast is 10:02 Krakatoa local time (about 03:00 GMT on 27 August). The pressure wave therefore reached Europe in the afternoon and evening of 27 August by local clocks, and North America later the same day. Rodrigues is about four time zones west of the strait, so sounds there on the night of 26–27 August are the same explosions heard hours after leaving the volcano. Where an observation is known only through a later compilation, date_iso gives the date of the observation and the entry is marked approx unless the date is independently attested.",
+ "eyes": [
+  {
+   "id": "hollmann",
+   "name": "Captain Hollmann (commander, SMS Elisabeth)",
+   "short": "Hollmann",
+   "life": "dates not confirmed",
+   "role": "Commander of the German imperial corvette Elisabeth, passing through the Sunda Strait",
+   "side": "German Imperial Navy",
+   "where": "Sunda Strait, near Krakatoa",
+   "lat": -6.0,
+   "lon": 105.5,
+   "vantage": 1,
+   "vantage_label": "passing warship at the first eruption",
+   "form": "official report (ship's report)",
+   "language": "German",
+   "authenticity": "Report printed in the German press in 1883 and reprinted in Verbeek's Krakatau (1885); known here through the source index of Simkin & Fiske's compilation. Full name not confirmed.",
+   "bio": "The Elisabeth happened to be steaming through the strait when Krakatoa woke on 20 May 1883. Hollmann's report is among the very first written descriptions of the eruption, made three months before anyone imagined it would end in catastrophe.",
+   "sources": [
+    {
+     "title": "Index of historical eyewitness sources (NERC supplementary material, citing Verbeek 1885)",
+     "url": "https://nora.nerc.ac.uk/id/eprint/529635/2/SupplementaryMaterial_FINAL.pdf"
+    }
+   ]
+  },
+  {
+   "id": "beyerinck",
+   "name": "Johanna Beyerinck",
+   "short": "Mrs Beyerinck",
+   "life": "dates not confirmed",
+   "role": "Wife of Willem Beyerinck, Dutch colonial controller (controleur) at Ketimbang, southern Sumatra",
+   "side": "Dutch colonial administration, Lampung",
+   "where": "Ketimbang, on the Sumatran shore of the strait facing Krakatoa",
+   "lat": -5.85,
+   "lon": 105.62,
+   "vantage": 0,
+   "vantage_label": "on the shore, a survivor",
+   "form": "account (recorded later)",
+   "language": "Dutch",
+   "authenticity": "Her account is known chiefly through Rupert Furneaux, Krakatoa (1964), and later retellings; the original document and its date of composition were not verified. Treat details as approximate.",
+   "bio": "Living on the coast closest to the volcano, she heard the first local reports in May from islanders of Sebesi and, on 26–27 August, saw native boats wrecked in the harbour before fleeing inland with her family. Her account is the nearest thing to a personal survivor's narrative from the Sumatran side, and the only woman's voice in this chapter's strait cluster.",
+   "sources": [
+    {
+     "title": "Index of historical eyewitness sources (NERC supplementary material, citing Furneaux 1964 and Simkin & Fiske 1983)",
+     "url": "https://nora.nerc.ac.uk/id/eprint/529635/2/SupplementaryMaterial_FINAL.pdf"
+    }
+   ]
+  },
+  {
+   "id": "verbeek",
+   "name": "Rogier Diederik Marius Verbeek",
+   "short": "Verbeek",
+   "life": "1845–1926",
+   "role": "Dutch mining engineer and geologist in the colonial service of the Netherlands Indies; aged 38",
+   "side": "Dutch colonial government, Batavia",
+   "where": "Batavia and Buitenzorg; aboard ships in the strait; on Krakatoa after the eruption",
+   "lat": -6.13,
+   "lon": 106.8,
+   "waypoints": [
+    {
+     "lat": -6.0,
+     "lon": 105.6,
+     "label": "Aboard Prinses Marie, July 1883"
+    },
+    {
+     "lat": -6.1,
+     "lon": 105.42,
+     "label": "Survey of the remains of Krakatoa, autumn 1883"
+    },
+    {
+     "lat": -6.13,
+     "lon": 106.8,
+     "label": "Report submitted at Batavia, 1885"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "official investigator",
+   "form": "official report (compiled)",
+   "language": "Dutch",
+   "authenticity": "Krakatau (Batavia, 1885), about 550 pages with an Atlas and an Album of 25 chromolithographs. A compiled scientific report gathering many first-hand statements; a work of synthesis, not a diary.",
+   "bio": "Verbeek had glimpsed the volcano in July and was then sent by the government to investigate. He spent more than a year and a half on the work, and his report became the foundation of modern volcanology's account of the eruption, preserving many official and maritime statements that would otherwise be lost.",
+   "sources": [
+    {
+     "title": "Linda Hall Library, Scientist of the Day: Rogier Verbeek",
+     "url": "https://www.lindahall.org/about/news/scientist-of-the-day/rogier-verbeek"
+    },
+    {
+     "title": "Index of historical eyewitness sources (NERC supplementary material)",
+     "url": "https://nora.nerc.ac.uk/id/eprint/529635/2/SupplementaryMaterial_FINAL.pdf"
+    }
+   ]
+  },
+  {
+   "id": "watson",
+   "name": "Captain W. J. Watson",
+   "short": "Watson",
+   "life": "dates not confirmed",
+   "role": "Master of the British (Irish-registered) sailing ship Charles Bal, bound through the Sunda Strait",
+   "side": "British merchant marine",
+   "where": "Sunda Strait, some 10–30 miles from Krakatoa, near Button Island",
+   "lat": -6.05,
+   "lon": 105.6,
+   "vantage": 1,
+   "vantage_label": "at sea in the strait",
+   "form": "log",
+   "language": "English",
+   "authenticity": "His dated account was printed in 1883–84 and is reproduced in the standard compilations (indexed via Sturdy 1884 and Simkin & Fiske 1983). Times are ship's time.",
+   "bio": "Watson's log is the classic hour-by-hour account from the water: crackling detonations, warm pumice on deck, choking sulphurous wind, lightning on the masts, and a wave sweeping over Button Island. His ship survived and reached Anjer's waters as the coast lay wrecked.",
+   "sources": [
+    {
+     "title": "Scientific American blog, 'August 27, 1883: Krakatoa' (summarises Watson's log)",
+     "url": "https://www.scientificamerican.com/blog/history-of-geology/august-27-1883-krakatoa/"
+    },
+    {
+     "title": "Index of historical eyewitness sources (NERC supplementary material)",
+     "url": "https://nora.nerc.ac.uk/id/eprint/529635/2/SupplementaryMaterial_FINAL.pdf"
+    }
+   ]
+  },
+  {
+   "id": "lindeman",
+   "name": "Captain T. H. Lindeman (Lindemann)",
+   "short": "Lindeman",
+   "life": "dates not confirmed",
+   "role": "Master of the Netherlands Indies steamer Gouverneur-Generaal Loudon",
+   "side": "Dutch colonial shipping (Netherlands Indies)",
+   "where": "Anjer, then the roadstead of Telok Betong in Lampung Bay, Sumatra",
+   "lat": -5.45,
+   "lon": 105.27,
+   "waypoints": [
+    {
+     "lat": -6.06,
+     "lon": 105.88,
+     "label": "Off Anjer, afternoon 26 Aug"
+    },
+    {
+     "lat": -5.45,
+     "lon": 105.27,
+     "label": "Telok Betong roadstead, 27 Aug"
+    },
+    {
+     "lat": -6.13,
+     "lon": 106.8,
+     "label": "Batavia, after the eruption"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "at sea, riding out the tsunami",
+   "form": "official report (master's report)",
+   "language": "Dutch",
+   "authenticity": "Master's report published in the Netherlands Indies and later in translation. His first name is given variously (T. H. Lindeman in the scientific literature; Johan Lindemann in some modern accounts).",
+   "bio": "Lindeman took the Loudon from Anjer across to Telok Betong as the eruption built, watched the harbour flood, saw the gunboat Berouw driven ashore, and then rode out hours of total darkness, mud rain and lightning. The ship brought all its passengers back alive.",
+   "sources": [
+    {
+     "title": "Scientific American blog, 'August 27, 1883: Krakatoa' (summarises Lindeman's report)",
+     "url": "https://www.scientificamerican.com/blog/history-of-geology/august-27-1883-krakatoa/"
+    },
+    {
+     "title": "Gouverneur Generaal Loudon (ship)",
+     "url": "https://en.wikipedia.org/wiki/Gouverneur_Generaal_Loudon_(ship)"
+    }
+   ]
+  },
+  {
+   "id": "sampson",
+   "name": "Captain Sampson",
+   "short": "Sampson",
+   "life": "dates not confirmed",
+   "role": "Master of the British mail steamer Norham Castle",
+   "side": "British merchant marine",
+   "where": "Off Sumatra, about 40 miles from Krakatoa",
+   "lat": -5.9,
+   "lon": 104.9,
+   "vantage": 1,
+   "vantage_label": "at sea, near the blast",
+   "form": "log",
+   "language": "English",
+   "authenticity": "The log lines attributed to him are very widely repeated in popular and secondary works; the original log and its exact wording and times were not traced in this research. Treat the famous phrasing with caution.",
+   "bio": "Sampson's reported log, written in darkness under falling pumice, is the source of the claim that the explosions ruptured the eardrums of many of his crew. It is the most quoted and least checkable of the strait accounts.",
+   "sources": [
+    {
+     "title": "Krakatoa, 1883 (Harvard 'Where Disaster Strikes' blog)",
+     "url": "https://archive.blogs.harvard.edu/wheredisasterstrikes/?p=19"
+    },
+    {
+     "title": "Nautilus, 'The Sound So Loud That It Circled the Earth Four Times'",
+     "url": "https://nautil.us/the-sound-so-loud-that-it-circled-the-earth-four-times-235101/"
+    }
+   ]
+  },
+  {
+   "id": "schruit",
+   "name": "Mr Schruit (also printed Schuit), telegraph master at Anjer",
+   "short": "Schruit",
+   "life": "dates not confirmed",
+   "role": "Newly posted telegraph master at Anjer on the Java coast of the strait",
+   "side": "Dutch colonial telegraph service",
+   "where": "Anjer (Anyer), west Java",
+   "lat": -6.06,
+   "lon": 105.88,
+   "vantage": 0,
+   "vantage_label": "in the doomed town",
+   "form": "official report / telegrams",
+   "language": "Dutch",
+   "authenticity": "His report was printed in the Bataviaasch Handelsblad (9 September 1883) and translated for the Ceylon Observer; spelling of his name varies in the sources.",
+   "bio": "Anjer was the strait's signal station and the place where passing ships were reported to Lloyd's. Its telegraph master watched the sea attack the town on the evening of 26 August; Anjer was then destroyed on the 27th, and the line to the strait went dead.",
+   "sources": [
+    {
+     "title": "Index of historical eyewitness sources (NERC supplementary material)",
+     "url": "https://nora.nerc.ac.uk/id/eprint/529635/2/SupplementaryMaterial_FINAL.pdf"
+    }
+   ]
+  },
+  {
+   "id": "vanderstok",
+   "name": "Johannes Paulus van der Stok",
+   "short": "van der Stok",
+   "life": "1851–1934",
+   "role": "Director of the Royal Magnetical and Meteorological Observatory, Batavia",
+   "side": "Dutch colonial science",
+   "where": "Batavia, about 160 km east of Krakatoa",
+   "lat": -6.13,
+   "lon": 106.8,
+   "vantage": 2,
+   "vantage_label": "instrument reader in the capital",
+   "form": "observatory records",
+   "language": "Dutch",
+   "authenticity": "Observatory times and readings are reproduced in Verbeek (1885) and used by the Royal Society committee. The famous gasometer pressure-gauge reading came from the Batavia gasworks, not the observatory; it is reported in the compilations.",
+   "bio": "In Batavia the explosions rattled windows through the night and the instruments recorded the climax. Van der Stok's observatory records, together with the gasworks gauge that was driven off its scale, turned the catastrophe into numbers that scientists everywhere could compare.",
+   "sources": [
+    {
+     "title": "Index of historical eyewitness sources (NERC supplementary material, citing Verbeek 1885 p.202)",
+     "url": "https://nora.nerc.ac.uk/id/eprint/529635/2/SupplementaryMaterial_FINAL.pdf"
+    },
+    {
+     "title": "1883 eruption of Krakatoa (overview, Batavia gasworks gauge)",
+     "url": "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa"
+    }
+   ]
+  },
+  {
+   "id": "wallis",
+   "name": "James Wallis",
+   "short": "Wallis",
+   "life": "dates not confirmed",
+   "role": "Chief of police on Rodrigues, a dependency of Mauritius",
+   "side": "British colonial administration, Indian Ocean",
+   "where": "Rodrigues Island, about 4,800 km west of Krakatoa",
+   "lat": -19.72,
+   "lon": 63.43,
+   "vantage": 4,
+   "vantage_label": "far away, hearing the sound",
+   "form": "official report",
+   "language": "English",
+   "authenticity": "A note in his official report for August 1883, collected by the Royal Society committee among the long-distance sound reports. Quoted in many secondary sources; original archival reference not verified here.",
+   "bio": "Wallis is the farthest ear in the record: on an island in the western Indian Ocean he logged the explosions as gunfire from a ship somewhere to the east. His note is the basis for the claim that Krakatoa was heard over a thirteenth of the Earth's surface.",
+   "sources": [
+    {
+     "title": "Futility Closet, 'A Noisy Exit' (quotes Wallis's report)",
+     "url": "https://futilitycloset.com/2014/06/20/a-noisy-exit-2"
+    },
+    {
+     "title": "Nautilus, 'The Sound So Loud That It Circled the Earth Four Times'",
+     "url": "https://nautil.us/the-sound-so-loud-that-it-circled-the-earth-four-times-235101/"
+    }
+   ]
+  },
+  {
+   "id": "symons",
+   "name": "George James Symons and the Royal Society Krakatoa Committee",
+   "short": "Symons/RS",
+   "life": "1838–1900 (Symons)",
+   "role": "Meteorologist, editor of the Royal Society's Krakatoa Committee report",
+   "side": "British science, London",
+   "where": "London; gathering reports from around the world",
+   "lat": 51.54,
+   "lon": -0.13,
+   "vantage": 4,
+   "vantage_label": "assembling the world's evidence",
+   "form": "official report (compiled 1888)",
+   "language": "English",
+   "authenticity": "The Eruption of Krakatoa, and Subsequent Phenomena (London, 1888). A compiled scientific report, not a diary: it assembles barograph traces, sound reports, sea-wave records and sky observations from many observers. Entries under this eye are compiled records, flagged accordingly.",
+   "bio": "The committee did something new: it asked observers across the world for dated, timed records and assembled them into a single picture of one event spreading across the planet. Its maps of the pressure wave and the spreading sky glow are the scientific spine of this chapter.",
+   "sources": [
+    {
+     "title": "The eruption of Krakatoa and subsequent phenomena (1888), Internet Archive PDF",
+     "url": "https://ia802705.us.archive.org/15/items/eruptionofkrakat00roya/eruptionofkrakat00roya.pdf"
+    },
+    {
+     "title": "Internet Archive copy",
+     "url": "https://archive.org/details/eruptionkrakato00whipgoog/page/n12/mode/2up"
+    },
+    {
+     "title": "Royal Collection Trust copy",
+     "url": "https://col.rct.uk/collection/1022756/the-eruption-of-krakatoa-and-subsequent-phenomena-report-of-the-krakatoa"
+    }
+   ]
+  },
+  {
+   "id": "ascroft",
+   "name": "William Ascroft",
+   "short": "Ascroft",
+   "life": "1832–1914",
+   "role": "London painter, about 51, living near the Thames at Chelsea",
+   "side": "British, London",
+   "where": "Banks of the Thames at Chelsea",
+   "lat": 51.484,
+   "lon": -0.17,
+   "vantage": 4,
+   "vantage_label": "abroad, painting the sky",
+   "form": "sketchbook (dated drawings)",
+   "language": "visual (pastel, with dated and timed notes)",
+   "authenticity": "Hundreds of pastel sky sketches, more than 500 now at the Science Museum, London. Three dated sketches of 26 November 1883 were reproduced as a frontispiece of the 1888 Royal Society report.",
+   "bio": "Ascroft noted the date and minute of each sketch, so his pastels are a time-stamped record of the afterglow, closer to a scientific logbook than to finished paintings. They are the visual counterpart of the barograph traces.",
+   "sources": [
+    {
+     "title": "Science Museum Group: Twilight and afterglow effects at Chelsea",
+     "url": "https://collection.sciencemuseumgroup.org.uk/objects/co66762/twilight-and-afterglow-effects-at-chelsea"
+    },
+    {
+     "title": "Public Domain Review, 'The Krakatoa Sunsets'",
+     "url": "https://publicdomainreview.org/essay/the-krakatoa-sunsets"
+    }
+   ]
+  },
+  {
+   "id": "hopkins",
+   "name": "Gerard Manley Hopkins",
+   "short": "Hopkins",
+   "life": "1844–1889",
+   "role": "Jesuit priest and poet, aged 39, teaching at Stonyhurst College, Lancashire",
+   "side": "British, Lancashire",
+   "where": "Ribblesdale and Stonyhurst, Lancashire",
+   "lat": 53.846,
+   "lon": -2.47,
+   "vantage": 4,
+   "vantage_label": "abroad, observing the afterglow",
+   "form": "letter to a scientific journal",
+   "language": "English",
+   "authenticity": "'The Remarkable Sunsets', Nature vol. 29, pp. 222–23, published 3 January 1884, written in December 1883. Authentic and published.",
+   "bio": "Hopkins brought a poet's eye and an observer's precision to the sunsets, timing the colours' changes and describing their unearthly quality. His letter is the best known of the many lay observations that flooded Nature that winter; it was one of three he wrote on the Krakatoa skies.",
+   "sources": [
+    {
+     "title": "Public Domain Review, 'The Krakatoa Sunsets'",
+     "url": "https://publicdomainreview.org/essay/the-krakatoa-sunsets"
+    }
+   ]
+  },
+  {
+   "id": "us-press",
+   "name": "American newspaper correspondents (New York, Poughkeepsie, New Haven)",
+   "short": "US press",
+   "life": "1883",
+   "role": "Unnamed reporters for American daily newspapers",
+   "side": "United States",
+   "where": "New York City; Poughkeepsie, New York; New Haven, Connecticut",
+   "lat": 41.7,
+   "lon": -73.92,
+   "vantage": 4,
+   "vantage_label": "abroad, news only",
+   "form": "press reports",
+   "language": "English",
+   "authenticity": "The fire-engine episodes are reported in modern overviews (Wikipedia, citing press coverage) but the original newspaper items and exact dates were not traced in this research. Unnamed collective eye; flagged.",
+   "bio": "In late November 1883 the afterglow over the north-eastern United States was so intense that, by contemporary report, fire companies turned out to fight fires that turned out to be only sky. The episode shows how strange and unexplained the sunsets seemed before scientists connected them to a volcano on the other side of the world.",
+   "sources": [
+    {
+     "title": "1883 eruption of Krakatoa (overview, fire engines in New York, Poughkeepsie and New Haven)",
+     "url": "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa"
+    }
+   ]
+  },
+  {
+   "id": "munch",
+   "name": "Edvard Munch",
+   "short": "Munch",
+   "life": "1863–1944",
+   "role": "Norwegian painter; aged 20 and a young art student in Kristiania in 1883",
+   "side": "Norway",
+   "where": "Kristiania (Oslo) in 1883–84; Nice when writing in January 1892",
+   "lat": 59.91,
+   "lon": 10.75,
+   "waypoints": [
+    {
+     "lat": 59.91,
+     "lon": 10.75,
+     "label": "Kristiania, winter 1883–84"
+    },
+    {
+     "lat": 43.7,
+     "lon": 7.27,
+     "label": "Nice, diary entry, 22 January 1892"
+    }
+   ],
+   "vantage": 4,
+   "vantage_label": "abroad, a contested memory",
+   "form": "diary (prose poem)",
+   "language": "Norwegian",
+   "authenticity": "The prose account of a blood-red sky appears in a diary dated 22 January 1892, in several Norwegian and French versions. Its connection to Krakatoa (Olson, Doescher and Olson, 2004) is debated: critics argue for nacreous clouds or for an expressive rather than literal sky.",
+   "bio": "Munch's memory of walking at sunset as the sky turned to blood became the basis of The Scream (1893). Whether that sky was the Krakatoa afterglow he could have seen as a student in Kristiania is one of the great open arguments linking art and atmospheric science.",
+   "sources": [
+    {
+     "title": "Sky & Telescope press release (Olson et al.)",
+     "url": "https://skyandtelescope.org/press-releases/astronomical-sleuths-link-krakatoa-to-edvard-munchs-painting-the-scream/"
+    },
+    {
+     "title": "AMS: Decoding the Sky in Munch's The Scream (Prata, Robock, Hamblyn)",
+     "url": "https://headlines.ametsoc.org/2021/06/08/decoding-the-sky-identifying-clouds-in-edvard-munchs-the-scream/"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1883-05-20",
+   "date_display": "Sunday 20 May 1883",
+   "precision": "day",
+   "eye": "hollmann",
+   "place": "Sunda Strait, aboard SMS Elisabeth",
+   "headline": "A German warship watches Krakatoa wake up",
+   "digest": "Steaming through the strait, the Elisabeth's commander saw a great column of steam and ash rising from Krakatoa, which had been quiet for two centuries. His report, sent on to the German press, is among the first written descriptions of the eruption. Nothing in it suggests danger to the coasts; it reads as a natural curiosity reported by a passing ship.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Report dated 20–22 May 1883, Tägliche Rundschau, reprinted in Verbeek 1885; indexed in NERC supplementary table."
+  },
+  {
+   "date_iso": "1883-05-21",
+   "date_display": "21–22 May 1883",
+   "precision": "range",
+   "eye": "beyerinck",
+   "place": "Ketimbang, south Sumatra",
+   "headline": "Islanders from Sebesi say the earth burst open",
+   "digest": "Fishermen from Sebesi, the island between Ketimbang and Krakatoa, came across with frightening stories that the ground had broken open beneath them. Mrs Beyerinck recalled that officials checked the tale and found the fishermen were telling the truth. It is the first sign in her account that the eruption was touching people, not just the empty island.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Furneaux 1964, p.13, cited via Simkin & Fiske 1983 p.61; NERC supplementary table."
+  },
+  {
+   "date_iso": "1883-07-03",
+   "date_display": "Tuesday 3 July 1883",
+   "precision": "day",
+   "eye": "verbeek",
+   "place": "Aboard the Dutch vessel Prinses Marie, Sunda Strait",
+   "headline": "The geologist sees only a red glimmer in haze",
+   "digest": "Passing Krakatoa by ship, Verbeek saw little more than a reddish glow through the haze and noticed no falling ash. For a man who would write the definitive report on the eruption, his first look was underwhelming; activity seemed to be dying down, as many in Batavia believed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Verbeek 1885, p.199, via Simkin & Fiske; NERC supplementary table."
+  },
+  {
+   "date_iso": "1883-08-26",
+   "date_display": "Sunday 26 August 1883, about 14:00",
+   "precision": "day",
+   "eye": "lindeman",
+   "place": "Off Anjer, west Java",
+   "headline": "A first great explosion and a sea that will not settle",
+   "digest": "Off Anjer, Lindeman noted an explosion from Krakatoa and a white cloud climbing from the island, while the sea rose and fell irregularly. At about 14:45 he sailed for Telok Betong on the Sumatran side, keeping to the east of the island to avoid the ash and pumice.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lindeman's report as summarised in Scientific American history-of-geology blog."
+  },
+  {
+   "date_iso": "1883-08-26",
+   "date_display": "Sunday 26 August 1883, 14:30–17:00 ship's time",
+   "precision": "day",
+   "eye": "watson",
+   "place": "Sunda Strait, aboard the Charles Bal",
+   "headline": "Crackling like artillery, then warm pumice on deck",
+   "digest": "In the afternoon Watson saw violent motion near Krakatoa's point and clouds driving fast from the north-east. By 15:30 he heard a strange crackling overhead, like guns fired at short intervals, and by 17:00 pumice was falling on the ship, some of it in large pieces still warm to the touch.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Watson's log as summarised in Scientific American blog; times 14:30, 15:30, 17:00 from Sturdy 1884 per NERC index."
+  },
+  {
+   "date_iso": "1883-08-26",
+   "date_display": "Sunday 26 August 1883, evening",
+   "precision": "day",
+   "eye": "beyerinck",
+   "place": "Ketimbang, south Sumatra",
+   "headline": "Native boats dashed to pieces in the harbour",
+   "digest": "As night fell the sea began to surge into the shore at Ketimbang. Her husband reported that local boats had been smashed to pieces, and the family began to think of flight. Her account, written later, already carries the dread of what came next.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Furneaux 1964, p.67, about 19:00; NERC supplementary table."
+  },
+  {
+   "date_iso": "1883-08-26",
+   "date_display": "Sunday 26 August 1883, about 21:00",
+   "precision": "day",
+   "eye": "schruit",
+   "place": "Anjer telegraph office, west Java",
+   "headline": "The telegraph master reports the sea attacking Anjer",
+   "digest": "From Anjer's telegraph office the newly arrived telegraph master reported the night's events: the sea surging, boats smashed, the beach strewn with wreckage. His report, later translated for a Ceylon newspaper, comes from the town that would be wiped away the next morning.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Bataviaasch Handelsblad 9 Sept 1883, translated for the Ceylon Observer; NERC supplementary table (time 21:00)."
+  },
+  {
+   "date_iso": "1883-08-26",
+   "date_display": "Sunday 26 August 1883, 23:00 ship's time",
+   "precision": "day",
+   "eye": "watson",
+   "place": "Sunda Strait, aboard the Charles Bal",
+   "headline": "Choking wind and chains of fire over the island",
+   "digest": "Near midnight a sulphurous, choking wind blew over the ship, and the sounding lead came up warm from the bottom. About 11 miles away, what looked like chains of fire rose and fell between the island and the sky. The crew could do little but keep the ship off the shoals in the dark.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Watson's log, as summarised in Scientific American blog."
+  },
+  {
+   "date_iso": "1883-08-26",
+   "date_display": "Night of Sunday 26 – Monday 27 August 1883",
+   "precision": "range",
+   "eye": "wallis",
+   "place": "Rodrigues, western Indian Ocean",
+   "headline": "Far to the west, the sound of ship's guns",
+   "digest": "Through the night and into the next afternoon, Wallis heard reports from the east like heavy guns, coming every three or four hours; the last two seemed to come from the direction of Oyster Bay and Port Mathurin. He assumed a ship in distress, and added a note to his official report for August. The guns were Krakatoa, about 4,800 km away.",
+   "quote": "like the distant roar of heavy guns",
+   "confidence": "verified",
+   "source_note": "Wallis's official report for August 1883, quoted in Futility Closet; dates and 15:00 end time as given there."
+  },
+  {
+   "date_iso": "1883-08-27",
+   "date_display": "Monday 27 August 1883, about 01:00",
+   "precision": "day",
+   "eye": "lindeman",
+   "place": "Roadstead of Telok Betong, Lampung Bay",
+   "headline": "The pier-head underwater; no way to land",
+   "digest": "Arriving off Telok Betong in the dark, Lindeman sent his mate to check the harbour. The pier-head was already partly submerged and landing was impossible, so the Loudon lay off the town with its passengers aboard.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lindeman's report, Scientific American blog summary."
+  },
+  {
+   "date_iso": "1883-08-27",
+   "date_display": "Monday 27 August 1883, small hours",
+   "precision": "day",
+   "eye": "vanderstok",
+   "place": "Batavia",
+   "headline": "Windows break in the capital as detonations roll in",
+   "digest": "Through the night Batavia, some 160 km away, was shaken by detonations; windows broke in the city. The observatory recorded the times of the heaviest explosions in the morning, the first steps towards an exact timeline of the climax.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Algemeen Dagblad 27 Aug 1883 (broken windows, about 01:00); Verbeek 1885 p.202 for observatory record; NERC supplementary table."
+  },
+  {
+   "date_iso": "1883-08-27",
+   "date_display": "Monday 27 August 1883, 04:00 ship's time",
+   "precision": "day",
+   "eye": "watson",
+   "place": "Sunda Strait, aboard the Charles Bal",
+   "headline": "Darkness, lightning, and St Elmo's fire on the masts",
+   "digest": "At four in the morning the darkness was still intense. Lightning kept flashing and corposants, the ghostly glow sailors called St Elmo's fire, clung to the masts and rigging. Watson kept logging as if routine could hold off the night.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Watson's log, Scientific American blog summary."
+  },
+  {
+   "date_iso": "1883-08-27",
+   "date_display": "Monday 27 August 1883, about 07:00",
+   "precision": "day",
+   "eye": "lindeman",
+   "place": "Roadstead of Telok Betong",
+   "headline": "The sea floods inland and the Berouw is stranded",
+   "digest": "Shortly after dawn a huge sea ran up the roadstead and on into the land. Lindeman saw the government gunboat Berouw stranded. Its crew died; a later, larger wave carried the vessel about two miles up the Koeripan river valley, where it was left lying in the jungle.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lindeman's report (Scientific American blog); later fate of the Berouw from Symons et al. 1888 p.93 (per NERC index) and mvariety.com column."
+  },
+  {
+   "date_iso": "1883-08-27",
+   "date_display": "Monday 27 August 1883, morning",
+   "precision": "day",
+   "eye": "beyerinck",
+   "place": "Hills behind Ketimbang",
+   "headline": "Flight uphill as the sky turns black",
+   "digest": "In her later account the family fled up the hillside with servants and villagers to a hut above the coast. In darkness, under falling ash and scalding blasts from across the water, many around her were killed or injured. She survived badly burned, one of the few on that coast to tell the story.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Known via Furneaux 1964 and later retellings; original text not verified. Details approximate."
+  },
+  {
+   "date_iso": "1883-08-27",
+   "date_display": "Monday 27 August 1883",
+   "precision": "day",
+   "eye": "schruit",
+   "place": "Anjer",
+   "headline": "Anjer is erased and the strait goes silent",
+   "digest": "On the morning of the 27th the tsunamis destroyed Anjer. The telegraph link to the strait failed, and Batavia lost contact with its signal station. The telegraph master's report of the previous evening became, in effect, the town's last dispatch; whether he himself survived is not stated in the sources consulted.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Destruction of Anjer per Wikipedia overview and standard compilations; fate of the telegraph master not verified."
+  },
+  {
+   "date_iso": "1883-08-27",
+   "date_display": "Monday 27 August 1883, 10:02 local time (climactic explosion)",
+   "precision": "day",
+   "eye": "vanderstok",
+   "place": "Batavia",
+   "headline": "The gasworks gauge is driven off its scale",
+   "digest": "At the climactic explosion the pressure gauge on a gasholder at the Batavia gasworks was driven beyond the end of its scale, a jump estimated at more than 2.5 inches of mercury. Ash then began to fall on the city in small rounded pellets. Observatory and gasworks readings became the anchor data for the world's barograph records that followed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Batavia gasworks gauge: Wikipedia overview and Nautilus; dust fall 10:00, Symons et al. 1888 p.26 per NERC index."
+  },
+  {
+   "date_iso": "1883-08-27",
+   "date_display": "Monday 27 August 1883 (time not given)",
+   "precision": "day",
+   "eye": "sampson",
+   "place": "Off Sumatra, about 40 miles from Krakatoa",
+   "headline": "Writing blind under pumice, eardrums burst",
+   "digest": "In pitch darkness under a continuous fall of pumice and dust, Sampson is said to have recorded that the explosions had ruptured the eardrums of more than half his crew, and that he believed the end of the world had come. The lines are famous; their exact original wording and time are uncertain.",
+   "quote": "the ear-drums of over half my crew have been shattered",
+   "confidence": "approx",
+   "source_note": "As quoted in Nautilus and Harvard 'Where Disaster Strikes'; original log not traced."
+  },
+  {
+   "date_iso": "1883-08-27",
+   "date_display": "Monday 27 August 1883, 10:00–noon",
+   "precision": "day",
+   "eye": "lindeman",
+   "place": "Lampung Bay, at anchor",
+   "headline": "Total darkness, hurricane wind, mud raining on deck",
+   "digest": "With ash falling thicker and pumice lying inches deep, Lindeman anchored in 15 fathoms. By 10:30 it was completely dark; a hurricane wind tore away the awnings, and lightning struck the mainmast conductor six or seven times. Around midday mud rained down, half a foot deep within ten minutes; the wind dropped at noon, but the darkness did not lift.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lindeman's report, Scientific American blog summary."
+  },
+  {
+   "date_iso": "1883-08-27",
+   "date_display": "Monday 27 August 1883, 11:15 ship's time",
+   "precision": "day",
+   "eye": "watson",
+   "place": "Sunda Strait, aboard the Charles Bal",
+   "headline": "A wave sweeps across Button Island",
+   "digest": "After a tremendous explosion Watson watched a wave run right across Button Island. Within minutes mud and sand were falling on the ship in near-total darkness, lasting until about 13:30. Not until about 17:00 could the crew see properly again; the ship had come through.",
+   "quote": "fearful explosion",
+   "confidence": "verified",
+   "source_note": "Watson's log, Scientific American blog summary; ship's time differs from the accepted 10:02 local."
+  },
+  {
+   "date_iso": "1883-08-27",
+   "date_display": "27 August 1883 (pressure wave arrivals, compiled)",
+   "precision": "day",
+   "eye": "symons",
+   "place": "Barograph stations from Calcutta to Europe",
+   "headline": "The air wave crosses Asia and reaches Europe",
+   "digest": "The committee later showed that the air-pressure pulse from the climactic explosion reached Calcutta less than seven hours after the blast, Mauritius and Australia about eight hours after, and the barographs of St Petersburg, Vienna, Rome, Paris and Berlin about twelve hours after. Nobody at the time realised what the little kinks on their charts meant; the traces were collected only afterwards.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Compiled in Symons ed. 1888; arrival intervals as summarised in Nautilus."
+  },
+  {
+   "date_iso": "1883-08-27",
+   "date_display": "27 August 1883, about 18 hours after the blast (compiled)",
+   "precision": "day",
+   "eye": "symons",
+   "place": "New York, Washington and Toronto",
+   "headline": "The pressure wave reaches North America",
+   "digest": "About eighteen hours after the explosion the same pulse registered on barographs in New York, Washington and Toronto. The committee's maps traced the wave converging on the point on the Earth opposite Krakatoa and spreading back again.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Symons ed. 1888, as summarised in Nautilus."
+  },
+  {
+   "date_iso": "1883-08-27",
+   "date_display": "27 August – early September 1883 (compiled)",
+   "precision": "range",
+   "eye": "symons",
+   "place": "About 50 stations worldwide",
+   "headline": "The wave circles the globe again and again",
+   "digest": "For several days the barographs kept recording the pulse at intervals of roughly 34 hours, as the wave passed and repassed over the Earth in both directions, three or four times each way, up to seven passages at a single station. It was the first time a single disturbance of the whole atmosphere had been measured.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Symons ed. 1888, as summarised in Nautilus."
+  },
+  {
+   "date_iso": "1883-09-09",
+   "date_display": "Sunday 9 September 1883",
+   "precision": "day",
+   "eye": "schruit",
+   "place": "Batavia (publication)",
+   "headline": "The Anjer report reaches print",
+   "digest": "The telegraph master's account of the night of 26 August was printed in the Bataviaasch Handelsblad and soon translated for readers in Ceylon. Through such reprints the local reports of the strait reached the wider English-speaking world.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bataviaasch Handelsblad, 9 Sept 1883, per NERC supplementary table."
+  },
+  {
+   "date_iso": "1883-10-15",
+   "date_display": "Autumn (about October) 1883",
+   "precision": "month",
+   "eye": "verbeek",
+   "place": "Remains of Krakatoa, Sunda Strait",
+   "headline": "Sent to investigate what is left of the island",
+   "digest": "The government sent Verbeek with a small team to study the remains. Most of the island had gone; part of the peak of Rakata stood as a cliff over the water. He began the survey and collection of reports that would occupy him for more than a year and a half.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Linda Hall Library, Scientist of the Day; exact dates of the field visit not verified."
+  },
+  {
+   "date_iso": "1883-11-26",
+   "date_display": "Monday 26 November 1883, about 16:40–17:15",
+   "precision": "day",
+   "eye": "ascroft",
+   "place": "Thames bank, Chelsea, London",
+   "headline": "Three pastels of the afterglow, timed to the minute",
+   "digest": "Ascroft stood by the river at Chelsea and sketched the twilight at about 4:40, 5:00 and 5:15 in the afternoon, recording how the glow changed and deepened after the sun had set. These three sketches were later chosen as the frontispiece of the Royal Society's report, turning a painter's notes into scientific evidence.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Science Museum Group object 1982-686 (1888 chromolithograph after sketches of 26 Nov 1883)."
+  },
+  {
+   "date_iso": "1883-11-27",
+   "date_display": "Late November 1883 (exact date not verified)",
+   "precision": "range",
+   "eye": "us-press",
+   "place": "New York; Poughkeepsie; New Haven",
+   "headline": "Fire companies turn out for a blaze that is only sky",
+   "digest": "As the afterglow reached the north-eastern United States the western sky burned so red after sunset that people assumed a great fire, and fire engines were called out in New York, Poughkeepsie and New Haven. The papers reported a mystery, not yet a volcano.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia overview, citing press coverage; the specific newspaper items and dates were not verified in this research."
+  },
+  {
+   "date_iso": "1883-11-30",
+   "date_display": "Friday 30 November 1883",
+   "precision": "day",
+   "eye": "munch",
+   "place": "Kristiania (Oslo)",
+   "headline": "Kristiania's paper reports the blood-red twilight",
+   "digest": "Kristiania's daily newspaper described the extraordinary red twilight over the city. Munch, a twenty-year-old art student, was living there; nothing in his own writings of the time records that he saw it. Glows were reported in Norway from late November 1883 to mid-February 1884.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sky & Telescope press release on Olson et al.; AMS article gives reports of 29–30 Nov 1883. Not Munch's own record."
+  },
+  {
+   "date_iso": "1883-12-15",
+   "date_display": "December 1883",
+   "precision": "month",
+   "eye": "hopkins",
+   "place": "Ribblesdale, near Stonyhurst, Lancashire",
+   "headline": "A poet times the colours of the strange sunsets",
+   "digest": "Walking in Ribblesdale, Hopkins watched the red glow first appear high in the sky, about 45 degrees above the horizon, and recorded its changes at around 4:45, 5, 5:20 and 5:30 in the afternoon. He was struck by how unlike an ordinary sunset it was, more like a glowing lamp than fire, and sent his observations to Nature.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Public Domain Review essay on Hopkins's letter (written end of December 1883); exact days of observation not verified."
+  },
+  {
+   "date_iso": "1884-01-03",
+   "date_display": "Thursday 3 January 1884",
+   "precision": "day",
+   "eye": "hopkins",
+   "place": "Nature, London (publication)",
+   "headline": "'The Remarkable Sunsets' appears in Nature",
+   "digest": "Hopkins's letter was published in Nature among a stream of observations from readers across Britain and beyond. Together they helped scientists link the sunsets to the eruption on the other side of the world, a debate that continued in the journal's pages for months.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nature vol. 29, pp. 222–23, 3 January 1884, per Public Domain Review."
+  },
+  {
+   "date_iso": "1885-06-15",
+   "date_display": "1885",
+   "precision": "year",
+   "eye": "verbeek",
+   "place": "Batavia",
+   "headline": "Krakatau: the official report, atlas and album",
+   "digest": "Verbeek submitted his report to the government in Batavia, and it was published in Dutch in 1885: some 550 pages with an atlas of maps and an album of chromolithographs. It preserved masters' reports, officials' telegrams and instrument records, many of which survive mainly through its pages.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Linda Hall Library, Scientist of the Day: Rogier Verbeek."
+  },
+  {
+   "date_iso": "1888-06-15",
+   "date_display": "1888",
+   "precision": "year",
+   "eye": "symons",
+   "place": "London",
+   "headline": "The Royal Society's report gathers the world's evidence",
+   "digest": "The Krakatoa Committee published The Eruption of Krakatoa, and Subsequent Phenomena, assembling sound reports from as far as Rodrigues, the barograph traces of the air wave, tide-gauge records of the sea waves, and accounts of the sunsets, with Ascroft's pastels as frontispiece. It became a model for studying a single event as a worldwide phenomenon.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Symons ed. 1888 (Internet Archive; Royal Collection Trust; Science Museum Group record of the frontispiece)."
+  },
+  {
+   "date_iso": "1892-01-22",
+   "date_display": "Friday 22 January 1892",
+   "precision": "day",
+   "eye": "munch",
+   "place": "Nice, France",
+   "headline": "A diary memory of a sky turned to blood",
+   "digest": "In a diary dated 22 January 1892 Munch wrote a prose account of walking at sunset with two friends when the sky suddenly turned blood red, and of sensing a scream passing through nature. It became the seed of The Scream (1893). Whether the memory reaches back to the Krakatoa glows of 1883–84, or to nacreous clouds, or to no literal sky at all, is still disputed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary date as given in AMS article; Krakatoa link argued by Olson et al. (Sky & Telescope), disputed by Fikke et al. 2017 and others."
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1883-08-26",
+   "label": "Afternoon and night of 26 August: the paroxysm begins",
+   "eyes": [
+    "lindeman",
+    "watson",
+    "beyerinck",
+    "schruit",
+    "wallis"
+   ],
+   "note": "Two ships logging hour by hour from the water, an official's wife and a telegraph master on opposite shores, and a police chief 4,800 km away all write about the same night. Those nearest record pumice, waves and wrecked boats; the farthest hears only what he takes for a ship's guns."
+  },
+  {
+   "date": "1883-08-27",
+   "label": "27 August: the climactic explosion and tsunamis",
+   "eyes": [
+    "lindeman",
+    "watson",
+    "sampson",
+    "beyerinck",
+    "schruit",
+    "vanderstok",
+    "wallis",
+    "symons"
+   ],
+   "note": "The heart of the chapter. In the strait it is darkness, mud rain and waves; in Batavia a gauge goes off its scale; on Rodrigues it is distant gunfire; on barographs across Europe and America it is a kink on a chart no one yet understands. The same minute registers as terror, data and rumour."
+  },
+  {
+   "date": "1883-11-26",
+   "label": "Late November 1883: the afterglow reaches Europe and America",
+   "eyes": [
+    "ascroft",
+    "us-press",
+    "munch",
+    "hopkins"
+   ],
+   "note": "Within a few days the red skies are being sketched by the minute in Chelsea, mistaken for fires in New York State, and reported in Kristiania. Hopkins's Lancashire observations follow in December. Each place sees beauty or alarm; none yet knows for certain it is looking at the dust of Krakatoa."
+  }
+ ],
+ "ties": [
+  {
+   "a": "lindeman",
+   "b": "watson",
+   "kind": "same street",
+   "note": "Both masters rode out the night of 26–27 August in the same strait, Lindeman in Lampung Bay and Watson near Button Island, and their logs became the paired backbone of later reconstructions."
+  },
+  {
+   "a": "verbeek",
+   "b": "lindeman",
+   "kind": "mentioned",
+   "note": "Verbeek's official report gathered the reports of Netherlands Indies ships and officials such as the Loudon's master."
+  },
+  {
+   "a": "verbeek",
+   "b": "vanderstok",
+   "kind": "read each other",
+   "note": "Verbeek drew on the Batavia observatory's records of times and readings for his reconstruction of the climax."
+  },
+  {
+   "a": "symons",
+   "b": "wallis",
+   "kind": "mentioned",
+   "note": "Wallis's Rodrigues note is among the long-distance sound reports collected by the Royal Society committee."
+  },
+  {
+   "a": "symons",
+   "b": "ascroft",
+   "kind": "influenced",
+   "note": "The committee chose three of Ascroft's dated pastels of 26 November 1883 as the frontispiece of its 1888 report."
+  },
+  {
+   "a": "symons",
+   "b": "verbeek",
+   "kind": "read each other",
+   "note": "The British committee and the Dutch geologist worked in parallel; the Royal Society report drew on Dutch observations, and both reports became the standard references."
+  },
+  {
+   "a": "hopkins",
+   "b": "ascroft",
+   "kind": "same street",
+   "note": "Both Englishmen recorded the same winter's afterglows, one in prose for Nature, the other in pastel; both ended up feeding the scientific debate."
+  },
+  {
+   "a": "beyerinck",
+   "b": "schruit",
+   "kind": "opposite sides",
+   "note": "They stood on opposite shores of the strait, Sumatra and Java, facing the same waves on the same evening."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "tambora-1816",
+   "note": "Krakatoa and Tambora (1815) both lie on the Sunda volcanic arc of today's Indonesia. Tambora was far larger and brought the 'year without a summer'; Krakatoa's aerosols gave a smaller Northern Hemisphere cooling (around 0.4 °C the next summer) and the red skies, Krakatoa, measured by telegraph and barograph, is the eruption scientists use to make sense of what diarists described, without instruments, in 1815–16."
+  },
+  {
+   "to": "lisbon-1755",
+   "note": "Like Lisbon in 1755, Krakatoa killed most of its victims by tsunami rather than by the initial shock, and both disasters drove a wave of systematic inquiry: Lisbon's parish questionnaires then, the Royal Society's worldwide call for timed observations in 1883."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/objects/co66762/twilight-and-afterglow-effects-at-chelsea",
+   "title": "Twilight and afterglow effects at Chelsea",
+   "caption": "Chromolithograph after three of William Ascroft's pastel sketches of 26 November 1883, made at about 4:40, 5:00 and 5:15 pm; the frontispiece of the Royal Society's 1888 Krakatoa report.",
+   "date": "1883 (sketches), 1888 (print)",
+   "credit": "William Ascroft; Cambridge Scientific Instrument Company; Science Museum Group"
+  },
+  {
+   "url": "https://fr.wikipedia.com/wiki/Fichier:COLLECTIE_TROPENMUSEUM_De_ketel_van_het_marineschip_%27Barouw%27_liggend_in_de_rivier_Koeripan_Zuid-Sumatra_die_daar_op_27_28_augustus_1883_door_een_vloedgolf_tijdens_de_uitbarsting_van_de_Krakatau_in_terecht_is_gekomen_TMnr_60042780.jpg",
+   "title": "Boiler of the gunboat Berouw in the Koeripan river",
+   "caption": "Photograph of the boiler of the Dutch naval vessel Berouw lying in the Koeripan river, south Sumatra, where the tsunami of 27–28 August 1883 carried it; the ship Lindeman saw stranded.",
+   "date": "after 1883",
+   "credit": "Tropenmuseum collection (via Wikimedia)"
+  },
+  {
+   "url": "https://www.lindahall.org/about/news/scientist-of-the-day/rogier-verbeek",
+   "title": "Verbeek's Krakatau album and portrait",
+   "caption": "Linda Hall Library page reproducing lithographs from Verbeek's 1885 Album, including the May 1883 eruption and the remnant of the island, with a portrait of Verbeek.",
+   "date": "1885",
+   "credit": "R. D. M. Verbeek; Linda Hall Library"
+  },
+  {
+   "url": "https://col.rct.uk/collection/1022756/the-eruption-of-krakatoa-and-subsequent-phenomena-report-of-the-krakatoa",
+   "title": "The Eruption of Krakatoa and Subsequent Phenomena",
+   "caption": "The Royal Collection's copy of the Royal Society Krakatoa Committee report (1888), which assembled the world's barograph, sound and sky records.",
+   "date": "1888",
+   "credit": "Royal Collection Trust"
+  },
+  {
+   "url": "https://publicdomainreview.org/essay/the-krakatoa-sunsets",
+   "title": "The Krakatoa Sunsets (Public Domain Review)",
+   "caption": "Essay reproducing an 1888 lithograph of the eruption, Ascroft's sketches, and a photograph of Hopkins, in the context of his Nature letter.",
+   "date": "1883–1888",
+   "credit": "Public Domain Review"
+  },
+  {
+   "url": "https://www.maryevans.com/history/krakatoa-ship-beached-10102580",
+   "title": "Krakatoa: ship beached",
+   "caption": "Period picture of a ship left beached by the Krakatoa tsunamis (picture library record).",
+   "date": "1883",
+   "credit": "Mary Evans Picture Library"
+  }
+ ],
+ "further": [
+  {
+   "title": "The eruption of Krakatoa and subsequent phenomena (Royal Society, 1888), full text PDF",
+   "url": "https://ia802705.us.archive.org/15/items/eruptionofkrakat00roya/eruptionofkrakat00roya.pdf"
+  },
+  {
+   "title": "Index of historical eyewitness sources for Krakatau 1883 (NERC supplementary material)",
+   "url": "https://nora.nerc.ac.uk/id/eprint/529635/2/SupplementaryMaterial_FINAL.pdf"
+  },
+  {
+   "title": "Scientific American: August 27, 1883: Krakatoa",
+   "url": "https://www.scientificamerican.com/blog/history-of-geology/august-27-1883-krakatoa/"
+  },
+  {
+   "title": "Nautilus: The Sound So Loud That It Circled the Earth Four Times",
+   "url": "https://nautil.us/the-sound-so-loud-that-it-circled-the-earth-four-times-235101/"
+  },
+  {
+   "title": "Public Domain Review: The Krakatoa Sunsets",
+   "url": "https://publicdomainreview.org/essay/the-krakatoa-sunsets"
+  },
+  {
+   "title": "AMS: Decoding the Sky — Identifying Clouds in Munch's The Scream",
+   "url": "https://headlines.ametsoc.org/2021/06/08/decoding-the-sky-identifying-clouds-in-edvard-munchs-the-scream/"
+  },
+  {
+   "title": "Geoscientist review of Symons ed. 1888",
+   "url": "https://geolsoc.org.uk/Geoscientist/Archive/February-2011/The-eruption-of-Krakatoa-and-subsequent-phenomena-etc-ed-G-J-Symons-1888"
+  },
+  {
+   "title": "Linda Hall Library: Rogier Verbeek",
+   "url": "https://www.lindahall.org/about/news/scientist-of-the-day/rogier-verbeek"
+  }
+ ],
+ "vantage_key": "0 = on the shores the tsunamis destroyed; 1 = on ships in the strait; 2 = Batavia, about 160 km away; 3 = official investigators in the Indies; 4 = far away, hearing the sound, reading the instruments or watching the sky."
+}

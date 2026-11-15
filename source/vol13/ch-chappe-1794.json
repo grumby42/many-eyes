@@ -1,0 +1,1378 @@
+{
+ "id": "chappe-1794",
+ "title": "Writing in the Air",
+ "short_title": "Chappe's Telegraph",
+ "subtitle": "The Chappe optical telegraph from Brûlon to Lille, and its echoes in London and Stockholm, 1791–1796",
+ "span": "1791–1796",
+ "intro": [
+  "On 2 March 1791, in the small Sarthe town of Brûlon, Claude Chappe and his brothers tried a strange thing in front of the town's officials. A panel, painted white on one side and black on the other, turned in step with a pendulum clock, and men about fifteen kilometres away at Parcé, watching through a telescope with a matching clock, wrote down a sentence they had not been told. The officials at both ends signed procès-verbaux, formal minutes, that the trial had worked. Three and a half years later the same family's arm-and-beam machines, standing on towers and church steeples from Lille to the Louvre, brought the National Convention news of a recaptured fortress while the deputies were still in session.",
+  "This chapter follows that message in transit. It has almost no diaries. Its eyes are inventors' petitions and letters, municipal minutes, commissioners' reports, generals' dispatches, the printed proceedings of the Convention (the Archives parlementaires), London magazines and prints, and one memoir written thirty years later by Ignace Chappe, who sat in the Legislative Assembly and helped his brother. Each form tag says what kind of record it is. Most of the entries are what institutions wrote about a signal, not what a person felt, but they are exact to the hour in a way diaries seldom are. One example: a commissioner's report from July 1793 notes that the first signal was raised at twenty-six minutes past four.",
+  "The political path ran through the Revolution's committees. Gilbert Romme reported on the invention to the Convention on 1 April 1793 and called it a way of writing in the air. Joseph Lakanal, Pierre Daunou and the mathematician Louis Arbogast watched a three-station trial north of Paris on 12 July 1793, and Lakanal's report of 25 July led the next day to Chappe's appointment as ingénieur télégraphe. The Committee of Public Safety, which ran the war, chose Lille, the base of the Army of the North, as the first line. The machine went into regular service in the summer of 1794, the same weeks in which Robespierre fell on 9 thermidor.",
+  "The first messages of war were about the frontier fortresses held by the Austrians: Le Quesnoy, which surrendered on 28 thermidor an II (15 August 1794), and Condé, which gave up at six in the morning on 13 fructidor (30 August). The printed record does not support some of the later stories. Barère's report on Le Quesnoy came on 30 thermidor (17 August), and it said only that the news had reached Paris an hour after the garrison marched out. For Condé the proceedings are precise. Carnot read the telegraph's report 'just arrived', the Convention renamed the town Nord-Libre, and the decree went back up the line. At half past six that evening Chappe wrote that Lille had acknowledged receipt by telegraph. The whole exchange happened on a day the same assembly spent hearing Lecointre's charges against Barère, Billaud-Varenne and Collot d'Herbois.",
+  "News of the device crossed the Channel within weeks. London magazines described it, Charles Hutton's dictionary repeated Barère's report, and in January 1795 James Gillray drew Charles James Fox as a human telegraph signalling to a French fleet. In Stockholm, Abraham Niclas Edelcrantz sent a birthday greeting to the young king by shutter telegraph in the autumn of 1794. By February 1796 a six-shutter machine designed by Lord George Murray stood on the roof of the Admiralty at Charing Cross, and by June the line to Deal was finished. Where sources disagree on dates (the Swedish trial, the Le Quesnoy announcement, when the Lille line was finished), the entries set out each position and are marked approx."
+ ],
+ "calendar_note": "The French Republican calendar was adopted by the Convention on 5 October 1793 (14 vendémiaire an II), on a report by Gilbert Romme, one of this chapter's eyes. Its years ran from 22 September 1792, so the Year II ran from 22 September 1793 to 21 September 1794. It had twelve months of thirty days, divided into décades, plus five or six extra days at the end of the year. The Convention's proceedings and the generals' dispatches of 1794 are dated in it. In each date_display the Republican date is given as written, followed by the Gregorian date, and date_iso is always Gregorian. Documents from before October 1793 (the Brûlon minutes, Romme's April report, the July 1793 trial and Lakanal's report) were dated in the Gregorian calendar. Their Republican equivalents are added only as later conversions. Swedish and British dates are Gregorian. Clock times are local solar time as each document gives them, from Paris, Lille and the front. Two sources give different dates for the Swedish trial, 30 October and 1 November 1794 (9 and 11 brumaire an III).",
+ "vantage_key": "0 = the inventors and operators of the line; 1 = witnesses and commissioners standing at a station; 2 = the Paris government that received and answered the signals; 3 = the front, where the news began and travelled by courier before it reached the line; 4 = abroad, learning of the device by report.",
+ "eyes": [
+  {
+   "id": "claude-chappe",
+   "short": "Claude Chappe",
+   "name": "Claude Chappe",
+   "life": "1763–1805",
+   "role": "Former abbé and amateur physicist, aged 27 in 1791; from July 1793 'ingénieur télégraphe' with a lieutenant of engineers' pay",
+   "side": "France (Republic)",
+   "where": "Brûlon (1791), then Paris: Ménilmontant trial post (1791–93) and the Paris terminal of the Lille line (1794)",
+   "lat": 48.861,
+   "lon": 2.336,
+   "waypoints": [
+    {
+     "lat": 47.966,
+     "lon": -0.229,
+     "label": "Brûlon, first trials, March 1791"
+    },
+    {
+     "lat": 48.873,
+     "lon": 2.405,
+     "label": "Ménilmontant / Parc Saint-Fargeau, 1791–93"
+    },
+    {
+     "lat": 48.861,
+     "lon": 2.336,
+     "label": "Paris terminal of the Lille line, 1794"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "inventor, directing the Paris end",
+   "form": "dated letters and petitions",
+   "language": "French",
+   "authenticity": "His petitions and letters to the assemblies are printed in the Archives parlementaires. The letter of 13 fructidor an II is printed with that session. Some phrases attributed to him circulate through secondary works (for example the letter of 5 August 1793 quoted by Flichy), and the original was not seen here.",
+   "bio": "Chappe worked with four brothers (Ignace, Pierre-François, René and Abraham) and with the watchmaker Breguet on the mechanism. His record is that of an applicant and then a contractor: petitions to the Legislative Assembly, letters to the Convention, and reports that lines were ready. He is the only eye who stood at both the first and the last link of this story.",
+   "sources": [
+    {
+     "title": "Archives parlementaires, t. XCVI, séance du 13 fructidor an II (Chappe's letter)",
+     "url": "https://iiif.persee.fr/b0e2cf11-597c-427d-8ac7-68bcc0acf13b/2ae1b4a9-a3b7-48dd-a1b8-56280d9a586d/res/pdf"
+    },
+    {
+     "title": "Chappe telegraph (overview with dates)",
+     "url": "https://en.wikipedia.org/wiki/Chappe_telegraph"
+    }
+   ]
+  },
+  {
+   "id": "ignace-chappe",
+   "short": "Ignace Chappe",
+   "name": "Ignace Urbain Jean Chappe",
+   "life": "1762–1829",
+   "role": "Claude's elder brother; deputy for the Sarthe in the Legislative Assembly (1791–92); later an administrator of the telegraph lines",
+   "side": "France",
+   "where": "Brûlon and Paris (Legislative Assembly)",
+   "lat": 48.865,
+   "lon": 2.327,
+   "waypoints": [
+    {
+     "lat": 47.966,
+     "lon": -0.229,
+     "label": "Brûlon, 1791"
+    },
+    {
+     "lat": 48.865,
+     "lon": 2.327,
+     "label": "Paris, Legislative Assembly, 1791–92"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "partner and later historian of the line",
+   "form": "memoir (written later)",
+   "language": "French",
+   "authenticity": "Histoire de la télégraphie, published by the author in Paris in 1824, with a two-volume edition in 1840 (with Abraham Chappe). It is a later and partisan family account. It gives no dates for the attacks on the machines in Paris, dates the first committee report 4 April 1793 (other sources say 1 April), and says the Lille line was finished 'towards the end of 1794', although the line was carrying messages by August. It is flagged here as retrospective.",
+   "bio": "Ignace used his seat in the Legislative Assembly to get his brother a hearing in March 1792. His book is the main source for the wording of the 1791 Brûlon message and for the stories of crowds destroying early machines. It is valuable but written to secure the family's credit, thirty years after the events.",
+   "sources": [
+    {
+     "title": "Histoire de la télégraphie (1824), catalogue record",
+     "url": "https://bibliotheques-numeriques.defense.gouv.fr/impression/document/1d5f007b-6a2a-4891-aa21-17f819a38050"
+    },
+    {
+     "title": "Histoire de la télégraphie, 1840 edition (Cnum, Cnam)",
+     "url": "https://cnum.cnam.fr/PDF/cnum_8K13.1.pdf"
+    }
+   ]
+  },
+  {
+   "id": "brulon-officials",
+   "short": "Brûlon minutes",
+   "name": "Municipal officers of Brûlon and Parcé",
+   "life": "fl. 1791",
+   "role": "Mayors, municipal officers and local notables acting as official witnesses",
+   "side": "France (Sarthe)",
+   "where": "Brûlon (sending end) and Parcé-sur-Sarthe (receiving end), about 15 km apart",
+   "lat": 47.844,
+   "lon": -0.2,
+   "waypoints": [
+    {
+     "lat": 47.966,
+     "lon": -0.229,
+     "label": "Brûlon"
+    },
+    {
+     "lat": 47.844,
+     "lon": -0.2,
+     "label": "Parcé"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "official witnesses at both ends",
+   "form": "official record (procès-verbaux)",
+   "language": "French",
+   "authenticity": "The procès-verbaux of 2–3 March 1791 survive through the Chappe family's papers and are reproduced in Ignace Chappe's history. The 1840 edition says the family kept the originals. The individual signatories are not named in the sources consulted here.",
+   "bio": "The first audience for the telegraph was a group of provincial officials, not scientists. Their signed minutes are the earliest dated record of an optical telegraph message in France. They certify the method (receivers did not know the text in advance) as well as the result.",
+   "sources": [
+    {
+     "title": "John Hearfield, 'Claude Chappe' (summary of the procès-verbaux)",
+     "url": "https://johnhearfield.com/Radar/Chappe.htm"
+    }
+   ]
+  },
+  {
+   "id": "romme",
+   "short": "Romme",
+   "name": "Gilbert Romme",
+   "life": "1750–1795",
+   "role": "Mathematician and Montagnard deputy for the Puy-de-Dôme; member of the Committee of Public Instruction",
+   "side": "France (National Convention)",
+   "where": "Paris, the Convention",
+   "lat": 48.862,
+   "lon": 2.332,
+   "vantage": 2,
+   "vantage_label": "rapporteur in the Convention",
+   "form": "report to the Convention",
+   "language": "French",
+   "authenticity": "His report of 1 April 1793 (Ignace Chappe dates the first committee report 4 April) is known through the Convention's records and later histories. Its full text was not consulted here. The calendar report is a well-documented printed text.",
+   "bio": "Romme took the device to the Convention as a matter for the committees of Public Instruction and War. He also presented the Republican calendar in which the telegraph's first war messages are dated. He died by suicide in June 1795 after the Prairial rising.",
+   "sources": [
+    {
+     "title": "Popular Science Monthly vol. 44 (1894), history of the Chappe telegraph",
+     "url": "https://kwx.liehendr.com/content/wikisource_en_all_maxi_2022-09/A/Page%3APopular_Science_Monthly_Volume_44.djvu/813"
+    },
+    {
+     "title": "Gilbert Romme (overview)",
+     "url": "https://en.wikipedia.org/wiki/Gilbert_Romme"
+    }
+   ]
+  },
+  {
+   "id": "lakanal",
+   "short": "Lakanal",
+   "name": "Joseph Lakanal",
+   "life": "1762–1845",
+   "role": "Former teacher-priest, deputy for the Ariège; member of the Committee of Public Instruction; commissioner for the telegraph trial",
+   "side": "France (National Convention)",
+   "where": "Saint-Martin-du-Tertre trial post (12 July 1793), then Paris",
+   "lat": 49.108,
+   "lon": 2.346,
+   "waypoints": [
+    {
+     "lat": 49.108,
+     "lon": 2.346,
+     "label": "Saint-Martin-du-Tertre, 12 July 1793"
+    },
+    {
+     "lat": 48.862,
+     "lon": 2.332,
+     "label": "Paris, Convention, 25 July 1793"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "commissioner at the receiving station",
+   "form": "report to the Convention",
+   "language": "French",
+   "authenticity": "The report of 25 July 1793, made for the Committee of Public Instruction, was printed in 1794 in the Journal des inventions et découvertes of the Bureau de consultation des arts. It is written in the first person plural and gives clock times and transmission times. His August 1794 report on decimal time is printed in the Archives parlementaires.",
+   "bio": "Lakanal and the mathematician Arbogast waited at the far end of a 26-kilometre, three-station trial line, while Daunou sent from the Paris end. His report sets out minutes, costs in livres and an estimate for a Valenciennes–Paris dispatch, and turned a demonstration into a budget line.",
+   "sources": [
+    {
+     "title": "Journal des inventions et découvertes, t. II (an III/1794), Lakanal's report (Cnum)",
+     "url": "https://cnum.cnam.fr/PDF/cnum_4KY2.2RES.pdf"
+    },
+    {
+     "title": "Archives parlementaires, séance du 4 fructidor an II",
+     "url": "https://iiif.persee.fr/b0e2cf11-597c-427d-8ac7-68bcc0acf13b/e99367b5-aafb-49b9-be73-ae3bdfdd9329/res/pdf"
+    }
+   ]
+  },
+  {
+   "id": "barere",
+   "short": "Barère",
+   "name": "Bertrand Barère de Vieuzac",
+   "life": "1755–1841",
+   "role": "Deputy for the Hautes-Pyrénées and member of the Committee of Public Safety; its usual reporter of victories",
+   "side": "France (Committee of Public Safety)",
+   "where": "Paris, the Convention",
+   "lat": 48.862,
+   "lon": 2.331,
+   "vantage": 2,
+   "vantage_label": "government spokesman announcing the news",
+   "form": "speeches in the Convention (printed proceedings)",
+   "language": "French",
+   "authenticity": "His speeches are printed in the Moniteur and reprinted in the Archives parlementaires. The OCR of the digitised AP pages used here is noisy in places. The 'Nouveau rapport' of 30 thermidor on the telegraph, printed in the 1794 Journal des inventions as made on behalf of the Committee of Public Safety, matches the content of his speech that day.",
+   "bio": "Barère's florid victory bulletins made him the Revolution's announcer of good news. On 30 thermidor he presented the telegraph to the Convention as an instrument of government. Within a fortnight he was himself under attack in the same chamber as one of Robespierre's former colleagues.",
+   "sources": [
+    {
+     "title": "Archives parlementaires, t. XCV, séance du 30 thermidor an II",
+     "url": "https://iiif.persee.fr/b0e2cf11-597c-427d-8ac7-68bcc0acf13b/1e7cfa6b-0fff-45fc-941f-04e7688baf6b/res/pdf"
+    },
+    {
+     "title": "Archives parlementaires, t. XCII, séance du 15 messidor an II",
+     "url": "https://iiif.persee.fr/b0e2cf11-597c-427d-8ac7-68bcc0acf13b/c109d745-7b2c-4d88-b1e0-e1d60c5ef639/res/pdf"
+    }
+   ]
+  },
+  {
+   "id": "carnot",
+   "short": "Carnot",
+   "name": "Lazare Carnot",
+   "life": "1753–1823",
+   "role": "Engineer officer, member of the Committee of Public Safety in charge of military operations",
+   "side": "France (Committee of Public Safety)",
+   "where": "Paris, Committee of Public Safety and the Convention",
+   "lat": 48.863,
+   "lon": 2.333,
+   "vantage": 2,
+   "vantage_label": "war director receiving the line's reports",
+   "form": "speeches and announcements (printed proceedings)",
+   "language": "French",
+   "authenticity": "His announcements are printed in the Archives parlementaires. Later accounts credit him with reading the Le Quesnoy news on 15 August. The proceedings consulted here show him announcing Condé on 13 fructidor and reading Scherer's Valenciennes letter that day.",
+   "bio": "Carnot ran the war section of the Committee of Public Safety, and the Lille line served his correspondence with the Army of the North. He announced the Condé telegraph to the Convention, and his words are among the few in this chapter that record a person reacting to a signal as it arrived.",
+   "sources": [
+    {
+     "title": "Archives parlementaires, t. XCVI, séance du 13 fructidor an II",
+     "url": "https://iiif.persee.fr/b0e2cf11-597c-427d-8ac7-68bcc0acf13b/51dd2662-58c0-4bc6-ab7b-b4c61cded581/res/pdf"
+    },
+    {
+     "title": "Theatrum Belli, '17 juillet 1794, début des transmissions opérationnelles'",
+     "url": "https://theatrum-belli.com/17-juillet-1794-debut-des-transmissions-operationnelles/?pdf=381114"
+    }
+   ]
+  },
+  {
+   "id": "scherer",
+   "short": "Schérer",
+   "name": "Barthélemy Louis Joseph Schérer",
+   "life": "1747–1804",
+   "role": "General commanding the forces besieging the frontier fortresses retaken from the Austrians",
+   "side": "France (armies of the North / Sambre-et-Meuse)",
+   "where": "Headquarters at Beaudignies, then Onnaing, before Le Quesnoy, Valenciennes and Condé",
+   "lat": 50.386,
+   "lon": 3.598,
+   "waypoints": [
+    {
+     "lat": 50.23,
+     "lon": 3.585,
+     "label": "Beaudignies HQ, before Le Quesnoy, Aug 1794"
+    },
+    {
+     "lat": 50.386,
+     "lon": 3.598,
+     "label": "Onnaing HQ, before Valenciennes and Condé, late Aug 1794"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "commander at the front, off the line",
+   "form": "dated dispatches",
+   "language": "French",
+   "authenticity": "His letters are printed in the Archives parlementaires sessions where they were read. The OCR of the Condé letter's date is unreliable (it reads 18 fructidor, which is impossible for a letter read on the 15th).",
+   "bio": "Schérer's handwritten dispatches went by courier and arrived a day or two after the telegraph's short signal. Reading the two together shows what the line carried (the fact) and what it did not (numbers, cannon, prisoners, conditions).",
+   "sources": [
+    {
+     "title": "Archives parlementaires, t. XCV, 30 thermidor an II (Le Quesnoy letter)",
+     "url": "https://iiif.persee.fr/b0e2cf11-597c-427d-8ac7-68bcc0acf13b/1e7cfa6b-0fff-45fc-941f-04e7688baf6b/res/pdf"
+    },
+    {
+     "title": "Archives parlementaires, t. XCVI, 15 fructidor an II (Condé letter)",
+     "url": "https://iiif.persee.fr/b0e2cf11-597c-427d-8ac7-68bcc0acf13b/0f431cae-0f10-48f2-a031-8d386a6dcda8/res/pdf"
+    }
+   ]
+  },
+  {
+   "id": "lille-station",
+   "short": "Lille station",
+   "name": "Chappe's 'préposé' at the Lille terminal",
+   "life": "fl. 1794",
+   "role": "Unnamed agent in charge of the Lille end of the line, on the tower of the church of Sainte-Catherine",
+   "side": "France (telegraph administration)",
+   "where": "Lille, Sainte-Catherine church tower",
+   "lat": 50.64,
+   "lon": 3.057,
+   "vantage": 0,
+   "vantage_label": "operator at the sending terminal",
+   "form": "official record (seen through Chappe's letter and the Convention's proceedings)",
+   "language": "French",
+   "authenticity": "No record in the agent's own hand was found. He is known only through Chappe's letter of 13 fructidor an II, which mentions 'mon préposé à Lille'. The station's site comes from the city of Lille's bicentenary address (1994). Later accounts sometimes name one of the Chappe brothers at Lille, and this was not verified.",
+   "bio": "The Lille agent stood at the junction between couriers from the army and the line to Paris, and the decree from Paris came back through him to Condé. He is included because the message log cannot be understood without him, and he is flagged because he left no words of his own.",
+   "sources": [
+    {
+     "title": "Archives parlementaires, t. XCVI, 13 fructidor an II (Chappe's letter)",
+     "url": "https://iiif.persee.fr/b0e2cf11-597c-427d-8ac7-68bcc0acf13b/2ae1b4a9-a3b7-48dd-a1b8-56280d9a586d/res/pdf"
+    },
+    {
+     "title": "Ville de Lille, Pierre Mauroy, bicentenary address, 16 Sept 1994",
+     "url": "https://archives.lille.fr/media/ecc7352d-dc10-46d9-8dbb-6577fff2f102.pdf"
+    }
+   ]
+  },
+  {
+   "id": "edelcrantz",
+   "short": "Edelcrantz",
+   "name": "Abraham Niclas Edelcrantz (born Clewberg)",
+   "life": "1754–1821",
+   "role": "Former private secretary to Gustav III, member of the Swedish Academy, director at the royal court",
+   "side": "Sweden",
+   "where": "Stockholm, signalling to Drottningholm Palace",
+   "lat": 59.316,
+   "lon": 18.074,
+   "waypoints": [
+    {
+     "lat": 59.316,
+     "lon": 18.074,
+     "label": "Stockholm (Katarina church tower / palace)"
+    },
+    {
+     "lat": 59.322,
+     "lon": 17.886,
+     "label": "Drottningholm Palace"
+    }
+   ],
+   "vantage": 4,
+   "vantage_label": "abroad, building a rival system",
+   "form": "treatise and dated demonstration",
+   "language": "Swedish",
+   "authenticity": "His 'Afhandling om telegrapher' (1796) is his own printed account, and the details of the 1794 trial come from it and from later Swedish histories. Sources differ on the date and the Stockholm station: Tekniska museet says 1 November 1794 (the king's birthday), and a Swedish military-history article says 30 October from the Katarina church tower. The wording of the greeting was not found.",
+   "bio": "Edelcrantz read about Chappe's machine and designed a different one: a frame of ten shutters, whose open and closed patterns stood for numbers in a code book. It was faster to read than the French arms. His first public message was a courtier's gift, a birthday greeting to the sixteen-year-old Gustav IV Adolf.",
+   "sources": [
+    {
+     "title": "Tekniska museet, model of the optical telegraph (DigitaltMuseum)",
+     "url": "https://digitaltmuseum.se/021026304117/modell-av-optisk-telegraf/media?slide=1"
+    },
+    {
+     "title": "Svensk optisk telegraf (FHT/Tiff 2015:2)",
+     "url": "https://www.fht.nu/bilder/Flygvapnet/tiff_artiklar/tiff_2015_2_smha_optisk_telegraf.pdf"
+    },
+    {
+     "title": "Abraham Niclas Edelcrantz (overview)",
+     "url": "https://en.wikipedia.org/wiki/Abraham_Niclas_Edelcrantz"
+    }
+   ]
+  },
+  {
+   "id": "murray-admiralty",
+   "short": "Murray/Admiralty",
+   "name": "Lord George Murray and the Board of Admiralty",
+   "life": "1761–1803 (Murray)",
+   "role": "Clergyman (later bishop of St David's) and inventor of the six-shutter telegraph adopted by the Admiralty",
+   "side": "Great Britain",
+   "where": "Admiralty Office, Whitehall/Charing Cross, London, and the line to Deal",
+   "lat": 51.506,
+   "lon": -0.128,
+   "waypoints": [
+    {
+     "lat": 51.506,
+     "lon": -0.128,
+     "label": "Admiralty, London"
+    },
+    {
+     "lat": 51.222,
+     "lon": 1.402,
+     "label": "Deal"
+    }
+   ],
+   "vantage": 4,
+   "vantage_label": "enemy power copying the idea",
+   "form": "administrative records (contracts, as reported by historians) and a dated print",
+   "language": "English",
+   "authenticity": "No dated document in Murray's own hand was consulted. The 1795 contract with George Roebuck, costs and the June 1796 completion come from A. G. Hardy's study of Public Record Office papers (Archaeologia Cantiana 44). The Admiralty roof installation is fixed by a print published 26 March 1796. The Rev. John Gamble's rival shutter design of 1795 is noted as a separate claim.",
+   "bio": "Within a year of the Lille line, the British government had its own chain: shutters instead of arms, run from the Admiralty roof to the Channel ports. The British record is mostly contracts and costs, and it shows how quickly a revolutionary invention was copied by its enemies.",
+   "sources": [
+    {
+     "title": "A. G. Hardy, 'The Old Telegraph from London to the Coast of Kent', Archaeologia Cantiana 44",
+     "url": "https://www.kentarchaeology.org.uk/journal/44/old-telegraph-london-coast-kent"
+    },
+    {
+     "title": "Royal Museums Greenwich, 'View of the Telegraph erected on the Admiralty Office' (1796)",
+     "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-142153"
+    }
+   ]
+  },
+  {
+   "id": "london-press",
+   "short": "London press",
+   "name": "London periodicals and reference works (Freemasons' Magazine, St James's Chronicle, Hutton's Dictionary)",
+   "life": "fl. 1794–1795",
+   "role": "Editors and compilers translating and describing the French device",
+   "side": "Great Britain",
+   "where": "London",
+   "lat": 51.514,
+   "lon": -0.106,
+   "vantage": 4,
+   "vantage_label": "abroad, news only",
+   "form": "periodical and reference articles (dated issues)",
+   "language": "English",
+   "authenticity": "The Freemasons' Magazine for October 1794 is digitised (OCR). The St James's Chronicle description and the Times advertisement of September 1794 are known only through a secondary note on the Gillray print. Charles Hutton's Mathematical and Philosophical Dictionary (1795–96) prints a translation of Barère's report and dates it to the sitting of 15 August 1794. The French proceedings place the report on 30 thermidor (17 August).",
+   "bio": "This is a composite eye of printed voices. It shows how a French war report turned into an English curiosity within six weeks, through a translation of Barère, a magazine explainer that compared the device to lottery runners, and a stage show. The errors (a 15 August date, half an hour for 120 miles) are part of the record.",
+   "sources": [
+    {
+     "title": "Freemasons' Magazine, 1 Oct 1794, 'The Telegraphe' (p. 49)",
+     "url": "https://masonicperiodicals.org/periodicals/fmm/issues/fmm_01101794/page/49/"
+    },
+    {
+     "title": "Hutton, Mathematical and Philosophical Dictionary, 'Telegraph'",
+     "url": "https://words.fromoldbooks.org/Hutton-Mathematical-and-Philosophical-Dictionary/t/telegraph.html"
+    }
+   ]
+  },
+  {
+   "id": "gillray",
+   "short": "Gillray",
+   "name": "James Gillray",
+   "life": "1756–1815",
+   "role": "Caricaturist, London",
+   "side": "Great Britain",
+   "where": "London",
+   "lat": 51.507,
+   "lon": -0.139,
+   "vantage": 4,
+   "vantage_label": "abroad, satirist",
+   "form": "dated print",
+   "language": "English",
+   "authenticity": "The etching 'French-Telegraph Making Signals in the Dark' is dated 26 January 1795 on its publication line.",
+   "bio": "Gillray took the new French word and made it an accusation: the opposition leader Fox becomes a human telegraph showing a lantern to an invading fleet. The print shows that by the winter of 1794–95 a London audience could be expected to know what a telegraph was.",
+   "sources": [
+    {
+     "title": "james-gillray.org, 'French-Telegraph Making Signals in the Dark'",
+     "url": "https://james-gillray.org/pop/telegraph.html"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1791-03-02",
+   "date_display": "Wednesday 2 March 1791 (before the Republican era)",
+   "precision": "day",
+   "eye": "claude-chappe",
+   "place": "Brûlon (Sarthe)",
+   "headline": "A pendulum, a turning panel, and a sentence nobody knew",
+   "digest": "With his brothers, Chappe sets a black-and-white panel in front of Brûlon castle, turning in time with a clock synchronised with another at Parcé, about four leagues away. The instant at which the panel changes colour against the clock dial picks out a number, and the numbers stand for words. Receivers at Parcé, who have not been told the text, write down a sentence that promises glory if the venture succeeds. The transmission takes about four minutes.",
+   "quote": "Si vous réussissez vous serez bientôt couverts de gloire",
+   "confidence": "verified",
+   "source_note": "Hearfield's summary of the procès-verbaux; message text from Ignace Chappe, Histoire de la télégraphie (1824), p. 239, cited by Selin."
+  },
+  {
+   "date_iso": "1791-03-02",
+   "date_display": "2 March 1791, morning and afternoon",
+   "precision": "day",
+   "eye": "brulon-officials",
+   "place": "Parcé-sur-Sarthe and Brûlon",
+   "headline": "Provincial officials sign that a message has travelled",
+   "digest": "The municipal officers and notables at Parcé record what they decoded and sign a procès-verbal. Their counterparts at Brûlon confirm in writing that this is the text they sent. A second message follows in the afternoon. The minutes certify the method as much as the result: the officials chose the text at one end, and the receivers wrote it down blind.",
+   "confidence": "verified",
+   "source_note": "Hearfield, 'Claude Chappe' (summary of the 1791 procès-verbaux).",
+   "quote": ""
+  },
+  {
+   "date_iso": "1791-03-03",
+   "date_display": "Thursday 3 March 1791",
+   "precision": "day",
+   "eye": "brulon-officials",
+   "place": "Brûlon and Parcé",
+   "headline": "A second day of trials, more signatures",
+   "digest": "Further messages pass between the two towns on the following day, and the officials sign more statements. The 1840 family history later describes these as the authentic procès-verbaux on which the brothers based their claim to the Legislative Assembly.",
+   "confidence": "verified",
+   "source_note": "Hearfield; Ignace Chappe, Histoire de la télégraphie (1840 ed., Cnum), which refers to the procès-verbaux of 2 March 1791.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1791-07-01",
+   "date_display": "1791 (no day given in the account)",
+   "precision": "year",
+   "eye": "ignace-chappe",
+   "place": "Paris, Barrière de l'Étoile",
+   "headline": "The machine on the city wall vanishes overnight",
+   "digest": "After the brothers move their trials to Paris, they set up a machine on a pavilion of the Barrière de l'Étoile, part of the customs wall. Ignace's later history says that it was taken down during the night and disappeared without trace. The account gives no date and names no culprits.",
+   "confidence": "approx",
+   "source_note": "Ignace Chappe, Histoire de la télégraphie (1840 ed., Cnum); written decades later; undated episode.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1792-03-22",
+   "date_display": "22 March 1792 (24 March in some accounts)",
+   "precision": "day",
+   "eye": "claude-chappe",
+   "place": "Paris, Legislative Assembly (Salle du Manège)",
+   "headline": "A petition offers the legislature a voice at the frontiers",
+   "digest": "With Ignace's help as a deputy, Claude asks the Legislative Assembly to examine his device. He presents it as a reliable way for the legislative body to send orders to the frontiers and receive answers within the same session. The Assembly refers it to a committee, and nothing more happens for a year.",
+   "confidence": "approx",
+   "source_note": "Chappe telegraph overview (22 March); Selin (24 March); Hearfield (referral to committee). The two dates conflict.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1792-07-01",
+   "date_display": "1792 (no day given in the account)",
+   "precision": "year",
+   "eye": "ignace-chappe",
+   "place": "Paris, Ménilmontant",
+   "headline": "A crowd burns the Ménilmontant machine as a royalist signal",
+   "digest": "Ignace records that on arriving at their Ménilmontant post the brothers were told that a crowd had set the machine on fire. The next day they learned it was suspected of signalling to the imprisoned king. The episode shows the danger of the invention in a revolution: a mysterious signal on a hilltop looked like treason.",
+   "confidence": "approx",
+   "source_note": "Ignace Chappe, Histoire de la télégraphie (1840 ed., Cnum); undated; the reference to the imprisoned king suggests after August 1792, which is an inference.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1793-04-01",
+   "date_display": "Monday 1 April 1793 (12 germinal an I, later conversion)",
+   "precision": "day",
+   "eye": "romme",
+   "place": "Paris, National Convention",
+   "headline": "Romme tells the Convention it can write in the air",
+   "digest": "Reporting for the committees of Public Instruction and War, Romme describes Chappe's device as an ingenious way of writing in the air and argues for its military use. The Convention authorises a trial line north of Paris and funds it. Commissioners are named to watch the trial.",
+   "confidence": "verified",
+   "source_note": "Popular Science Monthly 44 (1894); Theatrum Belli (funding of trial line). Ignace Chappe gives 4 April 1793 for the first committee report.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1793-04-04",
+   "date_display": "4 April 1793, as the family history dates it",
+   "precision": "day",
+   "eye": "ignace-chappe",
+   "place": "Paris (retrospective account)",
+   "headline": "The family history remembers a different date",
+   "digest": "Ignace's history dates the first favourable committee report to 4 April 1793, three days later than the date in the Convention's records and most later accounts. This is one of several small disagreements that mark his book as a retrospective account.",
+   "confidence": "approx",
+   "source_note": "Ignace Chappe, Histoire de la télégraphie (1840 ed., Cnum), later section.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1793-07-12",
+   "date_display": "Friday 12 July 1793, from 4:26 p.m. (24 messidor an I, later conversion)",
+   "precision": "day",
+   "eye": "lakanal",
+   "place": "Saint-Martin-du-Tertre",
+   "headline": "Twenty-six minutes past four: the signal of activity",
+   "digest": "Lakanal and Arbogast stand at the northern post, about eight and a half leagues from Daunou at the Parc Saint-Fargeau. At 4:26 in the afternoon the activity signal goes up. Daunou's first dispatch, reporting a Convention decree on sealing deputies' papers, arrives in eleven minutes, and their reply praising the local people as worthy of liberty goes back in nine. Then the relay at Écouen shows a signal that transmission is impossible.",
+   "confidence": "verified",
+   "source_note": "Lakanal's report, printed in Journal des inventions et découvertes, t. II (1794), pp. c. 12–14 (Cnum).",
+   "quote": ""
+  },
+  {
+   "date_iso": "1793-07-12",
+   "date_display": "12 July 1793",
+   "precision": "day",
+   "eye": "claude-chappe",
+   "place": "Ménilmontant / Parc Saint-Fargeau to Saint-Martin-du-Tertre",
+   "headline": "The three-station trial before the Convention's commissioners",
+   "digest": "Chappe's three machines, at Ménilmontant, Écouen and Saint-Martin-du-Tertre, carry messages over about 26 kilometres before three deputies. A whole political career now rests on minutes and seconds. The interruption at Écouen is written into the report rather than hidden.",
+   "confidence": "verified",
+   "source_note": "Theatrum Belli; Chappe telegraph overview; Lakanal's report (Cnum).",
+   "quote": ""
+  },
+  {
+   "date_iso": "1793-07-25",
+   "date_display": "Thursday 25 July 1793 (7 thermidor an I, later conversion)",
+   "precision": "day",
+   "eye": "lakanal",
+   "place": "Paris, National Convention",
+   "headline": "Lakanal prices a line to the northern frontier",
+   "digest": "Reporting for the Committee of Public Instruction, Lakanal recounts the trial and urges quick adoption. He estimates a dispatch from Valenciennes to Paris at thirteen minutes forty seconds. He puts each machine, with its night apparatus, at up to 6,000 livres and a full line north at 96,000 livres, or 58,400 without telescopes and clocks the nation need not buy.",
+   "confidence": "verified",
+   "source_note": "Journal des inventions et découvertes, t. II (1794), Lakanal's report (Cnum).",
+   "quote": ""
+  },
+  {
+   "date_iso": "1793-07-26",
+   "date_display": "Friday 26 July 1793",
+   "precision": "day",
+   "eye": "lakanal",
+   "place": "Paris, National Convention",
+   "headline": "Chappe becomes 'ingénieur télégraphe'",
+   "digest": "The decree that follows Lakanal's report gives Chappe the title of telegraph engineer with the pay of a lieutenant of engineers. It leaves to the Committee of Public Safety the choice of which lines the Republic should build. Some secondary works date the appointment to 25 July or put approval of the Lille line on 4 August.",
+   "confidence": "verified",
+   "source_note": "Decree text printed after Lakanal's report (Cnum); Theatrum Belli (26 July). The Chappe telegraph overview gives 25 July.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1793-08-04",
+   "date_display": "4 August 1793 (17 thermidor an I, later conversion)",
+   "precision": "day",
+   "eye": "claude-chappe",
+   "place": "Paris",
+   "headline": "The Paris–Lille line is ordered",
+   "digest": "The Committee of Public Safety, or the Convention on Lakanal's presentation (accounts differ), orders the first operational line, from Paris to Lille, the base of the Army of the North. About fifteen stations are planned over some 230 kilometres. In a letter the next day Chappe reportedly writes that the telegraph shortens distances and gathers a vast population at a single point.",
+   "confidence": "approx",
+   "source_note": "Theatrum Belli; Selin; Chappe telegraph overview (letter of 5 August 1793, via Flichy). The letter's original was not seen.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1793-09-20",
+   "date_display": "20 September 1793",
+   "precision": "day",
+   "eye": "romme",
+   "place": "Paris, National Convention",
+   "headline": "The man who named the telegraph's sponsor reforms time",
+   "digest": "Romme presents the Republican calendar: years from the founding of the Republic, months of thirty days, weeks of ten. It is adopted in early October, and every telegraph dispatch of the following summer is dated in it.",
+   "confidence": "approx",
+   "source_note": "Standard histories of the Republican calendar; the decree of 5 October 1793 is well attested. The date of Romme's report was not separately checked here.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-05-01",
+   "date_display": "Floréal an II (20 April–19 May 1794)",
+   "precision": "month",
+   "eye": "claude-chappe",
+   "place": "Paris–Lille line",
+   "headline": "Fifteen towers stand between the Louvre and Lille",
+   "digest": "The line is completed and tested in the spring, with Montmartre as the first relay out of Paris and the terminal at the Lille church of Sainte-Catherine. ETHW gives May 1794 for the connection and July for completion. Ignace's history says 'towards the end of 1794'. The sources disagree.",
+   "confidence": "approx",
+   "source_note": "Theatrum Belli (floréal an II); ETHW; Ignace Chappe (1840 ed.); Mauroy address (Sainte-Catherine).",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-07-03",
+   "date_display": "15 messidor an II (Thursday 3 July 1794)",
+   "precision": "day",
+   "eye": "barere",
+   "place": "Paris, National Convention",
+   "headline": "Barère promises Condé and Le Quesnoy will pay",
+   "digest": "Reporting the victories after Fleurus and the surrender of Charleroi, Barère notes that the cannon of Fleurus has not yet been heard in the Austrian-held fortresses of Condé and Le Quesnoy. He promises that the Republic will soon make them pay for past betrayals. The Convention orders the victory news printed and sent to the armies.",
+   "confidence": "verified",
+   "source_note": "Archives parlementaires, t. XCII, séance du 15 messidor an II, pp. 362–365 (Persée).",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-07-17",
+   "date_display": "29 messidor an II (Thursday 17 July 1794)",
+   "precision": "day",
+   "eye": "carnot",
+   "place": "Paris, Committee of Public Safety",
+   "headline": "The line enters operational service",
+   "digest": "A modern account dates the start of operational transmissions on the Lille line to this day, with the Committee's authorisation pushed by Carnot. Ten days later Robespierre falls on 9 thermidor, and the telegraph carries on under the reshaped Committee.",
+   "confidence": "approx",
+   "source_note": "Theatrum Belli, '17 juillet 1794, début des transmissions opérationnelles' (the title gives the date, and the body does not detail it).",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-08-15",
+   "date_display": "28 thermidor an II (Friday 15 August 1794), before 4 p.m.",
+   "precision": "day",
+   "eye": "scherer",
+   "place": "Before Le Quesnoy",
+   "headline": "The Le Quesnoy garrison lays down its arms",
+   "digest": "After a siege, the Austrian garrison of about 3,000 men lays down its arms before four in the afternoon. Schérer's account the next day speaks of men. Barère's speech in Paris will call them 'slaves', the Revolution's word for a monarch's soldiers. The artillery return lists 119 guns. Le Quesnoy is about 60 kilometres from Lille, so the news had to reach the line by courier first.",
+   "confidence": "verified",
+   "source_note": "Schérer's letter and the artillery state, Archives parlementaires, t. XCV, 30 thermidor an II, pp. 229–231 (Persée).",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-08-15",
+   "date_display": "28 thermidor an II (15 August 1794)",
+   "precision": "day",
+   "eye": "lille-station",
+   "place": "Lille, Sainte-Catherine tower",
+   "headline": "The first war message leaves Lille",
+   "digest": "The Lille terminal sends the news of Le Quesnoy south along the chain. In Paris it is reported to have arrived about an hour after the garrison surrendered, a journey a courier would need many more hours to make. The exact coded text is not in the printed proceedings. English histories give a version about 3,000 'slaves' surrendering at discretion. Lille's 1994 address gives 17 August and nine minutes.",
+   "confidence": "approx",
+   "source_note": "Barère, AP t. XCV, 30 thermidor (one hour); Selin citing Rogers (English wording); Mauroy address (17 Aug, 9 minutes). The dates and times conflict.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-08-15",
+   "date_display": "28 thermidor an II (15 August 1794)",
+   "precision": "day",
+   "eye": "carnot",
+   "place": "Paris",
+   "headline": "Paris learns of a victory while the smoke is still rising",
+   "digest": "Several later accounts say Carnot read the telegraph's news to the Convention the same day, to astonishment that it had come by telegraph. The printed proceedings consulted here contain the formal report and Schérer's letter only on 30 thermidor. Whether a short same-day announcement preceded it is left open.",
+   "confidence": "approx",
+   "source_note": "Theatrum Belli (Carnot, 15 Aug); AP t. XCV, 30 thermidor (Barère's report); the 28 thermidor session was not consulted.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-08-16",
+   "date_display": "29 thermidor an II (Saturday 16 August 1794)",
+   "precision": "day",
+   "eye": "scherer",
+   "place": "Headquarters, Beaudignies",
+   "headline": "'Le Quesnoy est à la République': the courier version",
+   "digest": "Schérer writes his formal dispatch the day after the surrender, opening with the plain statement that Le Quesnoy belongs to the Republic. He promises details to follow and reports cavalry taking prisoners on the glacis of Valenciennes. This letter, carried by horse, is what the deputies hear read beside Barère's report.",
+   "confidence": "verified",
+   "source_note": "AP t. XCV, 30 thermidor an II, pp. 229–231 (Persée).",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-08-17",
+   "date_display": "30 thermidor an II (Sunday 17 August 1794)",
+   "precision": "day",
+   "eye": "barere",
+   "place": "Paris, National Convention",
+   "headline": "Barère introduces the telegraph to the nation",
+   "digest": "Reporting Le Quesnoy, Barère tells the Convention that the news reached Paris an hour after the garrison left the town, by a new machine invented by citizen Chappe, who directs its Paris end. The Committee's report praises its secrecy: only the two ends know a message's sense, and Lille can be written to and answered in a day. The Convention decrees that the besieging troops have deserved well of the fatherland, and Barère promises Condé and Valenciennes next.",
+   "confidence": "verified",
+   "source_note": "AP t. XCV, 30 thermidor an II, pp. 229–231; 'Nouveau rapport' of 30 thermidor in Journal des inventions, t. II (Cnum).",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-08-21",
+   "date_display": "4 fructidor an II (Thursday 21 August 1794)",
+   "precision": "day",
+   "eye": "lakanal",
+   "place": "Paris, National Convention",
+   "headline": "An ordinary day: a contest for decimal clocks",
+   "digest": "Four days after the telegraph's debut, Lakanal is back at the tribune on a different technical subject: a competition to design clock and watch movements showing the new decimal division of the day, judged by a jury of seven. The same committee culture that funded the telegraph is now trying to make the hours fit the calendar.",
+   "confidence": "verified",
+   "source_note": "AP t. XCV, séance du 4 fructidor an II, pp. 333–334 (Persée).",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-08-27",
+   "date_display": "10 fructidor an II (Wednesday 27 August 1794)",
+   "precision": "day",
+   "eye": "scherer",
+   "place": "Headquarters, Onnaing",
+   "headline": "Valenciennes taken; Condé next",
+   "digest": "From Onnaing Schérer reports that the army, having conquered Le Quesnoy, has now recovered Valenciennes, under the Convention's decree making the garrisons prisoners of war. He promises details shortly. Carnot reads the letter to the Convention three days later.",
+   "confidence": "verified",
+   "source_note": "AP t. XCVI, 13 fructidor an II, pp. 127–128 (Persée; OCR garbled in places).",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-08-30",
+   "date_display": "13 fructidor an II (Saturday 30 August 1794), 6 a.m.",
+   "precision": "day",
+   "eye": "scherer",
+   "place": "Before Condé",
+   "headline": "Condé surrenders at the first summons",
+   "digest": "At six in the morning Condé, the last French town in Austrian hands, gives up. Schérer's later letter says it yielded at his first summons, with 1,065 men laying down their arms. The news goes by courier to Lille and from there by telegraph to Paris within the same morning.",
+   "confidence": "verified",
+   "source_note": "AP t. XCVI, 13 fructidor (six o'clock) and 15 fructidor, pp. 173–174 (Schérer's letter) (Persée).",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-08-30",
+   "date_display": "13 fructidor an II (30 August 1794)",
+   "precision": "day",
+   "eye": "carnot",
+   "place": "Paris, National Convention",
+   "headline": "'The telegraph's report has just reached us'",
+   "digest": "Carnot climbs to the tribune holding the report that has 'just arrived' by telegraph and announces that Condé is restored to the Republic, its surrender that morning at six. There is long applause. The Convention renames the town Nord-Libre and declares that the army has deserved well of the fatherland. On Cambon's motion it sends the decree back by telegraph. In the same session Carnot reads Schérer's letter on Valenciennes.",
+   "quote": "Condé est restitué à la République",
+   "confidence": "verified",
+   "source_note": "AP t. XCVI, séance du 13 fructidor an II, pp. 111–112 and 127–128 (Persée)."
+  },
+  {
+   "date_iso": "1794-08-30",
+   "date_display": "13 fructidor an II (30 August 1794)",
+   "precision": "day",
+   "eye": "barere",
+   "place": "Paris, National Convention",
+   "headline": "The announcer becomes the accused on Condé day",
+   "digest": "The session that hears the Condé telegraph is mostly taken up by Lecointre's charges against Barère, Billaud-Varenne, Collot d'Herbois, Vadier, Amar and Voulland as Robespierre's accomplices. The Convention declares the charges false and slanderous. The day's good news from the frontier arrives in a chamber busy with a political trial.",
+   "confidence": "verified",
+   "source_note": "AP t. XCVI, 13 fructidor an II, séance n° 45, pp. 119–125 (Persée).",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-08-30",
+   "date_display": "13 fructidor an II (30 August 1794), evening",
+   "precision": "day",
+   "eye": "claude-chappe",
+   "place": "Paris, telegraph terminal",
+   "headline": "Chappe reports: Lille has acknowledged the decree",
+   "digest": "In the evening Chappe writes to the Convention that his correspondent at Lille has acknowledged receipt of the decree by telegraph. He has told his agent there to send it on to Nord-Libre by special courier. The Convention orders his letter printed in the bulletin. The round trip, news up and decree back, has fitted inside one day's sitting.",
+   "confidence": "verified",
+   "source_note": "AP t. XCVI, 13 fructidor an II, p. 119 (Persée). The letter's hour reads as 6:30 p.m. in a noisy OCR, so the time is approximate.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-08-30",
+   "date_display": "13 fructidor an II (30 August 1794)",
+   "precision": "day",
+   "eye": "lille-station",
+   "place": "Lille",
+   "headline": "Decree in, acknowledgment out, courier onward",
+   "digest": "The Lille end receives the Convention's decree renaming Condé, signals back that it has been received, and hands it to a special courier for the town itself, about 50 kilometres away. Lille is the point where the government's fast and slow networks meet.",
+   "confidence": "verified",
+   "source_note": "Chappe's letter, AP t. XCVI, 13 fructidor an II (Persée).",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-08-30",
+   "date_display": "13 fructidor an II (30 August 1794), retold in 1824",
+   "precision": "day",
+   "eye": "ignace-chappe",
+   "place": "Paris (retrospective account)",
+   "headline": "The family remembers the whole exchange in one sitting",
+   "digest": "Ignace's history makes the Condé day the proof of his brother's promise of 1792. The news was announced during the session, a reply and a decree renaming the town were sent back, and everything was done before the sitting rose. On this point the printed proceedings bear him out.",
+   "confidence": "verified",
+   "source_note": "Ignace Chappe, Histoire de la télégraphie (1840 ed., Cnum); compare AP t. XCVI.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-09-01",
+   "date_display": "15 fructidor an II (Monday 1 September 1794)",
+   "precision": "day",
+   "eye": "scherer",
+   "place": "Read in Paris, National Convention",
+   "headline": "The courier version of Condé arrives two days later",
+   "digest": "Treilhard, for the Committee of Public Safety, reads Schérer's dispatch from Onnaing: Condé surrendered at the first summons, and 1,065 men laid down their arms. The printed date on the letter is garbled in the digitised text. The figures and the courtesies of capitulation that the telegraph could not carry arrive by horse two days after the signal.",
+   "confidence": "verified",
+   "source_note": "AP t. XCVI, séance du 15 fructidor an II, pp. 173–174 (Persée). Barère is not named in this excerpt.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-09-15",
+   "date_display": "September 1794",
+   "precision": "month",
+   "eye": "london-press",
+   "place": "London",
+   "headline": "A visitor's description and a theatre's 'Telegraphe'",
+   "digest": "London papers pick up the French device within a month of the Le Quesnoy report. The St James's Chronicle prints a description from a visitor to Paris, and The Times carries an advertisement for an exhibition of a 'Telegraphe' at the Lyceum. The word arrives as news and as entertainment at the same time.",
+   "confidence": "approx",
+   "source_note": "Secondary note on james-gillray.org (St James's Chronicle; Times advertisement). The original issues were not seen.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-10-01",
+   "date_display": "1 October 1794",
+   "precision": "day",
+   "eye": "london-press",
+   "place": "London, Freemasons' Magazine",
+   "headline": "A magazine explains the 'Telegraphe' with lottery runners",
+   "digest": "The Freemasons' Magazine prints an explainer that starts from something familiar, the runners and pigeons who raced Guildhall lottery results across London. It imagines a big black board on a steeple instead. It tells readers that ideas and words now pass from 'Lisle' to Paris in about half an hour, overstating the speed for a single message.",
+   "quote": "an hundred and twenty miles",
+   "confidence": "verified",
+   "source_note": "Freemasons' Magazine, 1 Oct 1794, p. 49 (masonicperiodicals.org, OCR)."
+  },
+  {
+   "date_iso": "1794-10-11",
+   "date_display": "11 October 1794",
+   "precision": "day",
+   "eye": "london-press",
+   "place": "London stage",
+   "headline": "The telegraph gets a comic song",
+   "digest": "Charles Dibdin's piece 'Great News, or a Trip to the Antipodes' opens in London with a comic verse about the French telegraph replacing penny posts and mail coaches. Three months after the first war message, the device is a joke a London audience is expected to understand.",
+   "confidence": "approx",
+   "source_note": "Alresford Museum note (1996). The playbill or text was not seen.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-11-01",
+   "date_display": "1 November 1794 (11 brumaire an III); 30 October in one Swedish account",
+   "precision": "day",
+   "eye": "edelcrantz",
+   "place": "Stockholm to Drottningholm",
+   "headline": "A birthday greeting by shutter for a sixteen-year-old king",
+   "digest": "On King Gustav IV Adolf's sixteenth birthday Edelcrantz sends a greeting by optical telegraph from Stockholm to the king at Drottningholm Palace. His machine is not Chappe's: it is a frame of shutters whose open and closed patterns stand for numbers in a code book. The record has two different dates and two Stockholm sending posts.",
+   "confidence": "approx",
+   "source_note": "Tekniska museet via DigitaltMuseum (1 Nov, Stockholm–Drottningholm); FHT/Tiff 2015:2 (30 Oct, Katarina church tower). The two accounts disagree.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1794-12-15",
+   "date_display": "'Towards the end of 1794'",
+   "precision": "month",
+   "eye": "ignace-chappe",
+   "place": "Paris (retrospective account)",
+   "headline": "The family history dates the line's completion late",
+   "digest": "Ignace's history says the Paris–Lille line was finished towards the end of 1794, although his own account describes the August exchanges. The date may reflect extensions or finishing work. It is one reason his book is read alongside the dated proceedings rather than instead of them.",
+   "confidence": "approx",
+   "source_note": "Ignace Chappe, Histoire de la télégraphie (1840 ed., Cnum); Hearfield also gives 'end of 1794'.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1795-01-26",
+   "date_display": "26 January 1795 (7 pluviôse an III)",
+   "precision": "day",
+   "eye": "gillray",
+   "place": "London",
+   "headline": "Fox drawn as a human telegraph signalling the enemy",
+   "digest": "Gillray publishes 'French-Telegraph Making Signals in the Dark'. Charles James Fox, arms and lantern raised like a semaphore, signals to a waiting French fleet in the Channel, with daggers at his feet. The print links the new French word to the treason trials and the suspension of habeas corpus, and turns a communications device into a symbol of conspiracy.",
+   "confidence": "verified",
+   "source_note": "james-gillray.org, 'French-Telegraph Making Signals in the Dark' (dated 26 Jan 1795).",
+   "quote": ""
+  },
+  {
+   "date_iso": "1795-06-01",
+   "date_display": "1795",
+   "precision": "year",
+   "eye": "london-press",
+   "place": "London",
+   "headline": "Hutton's dictionary dates Barère's report to 15 August",
+   "digest": "Charles Hutton's Mathematical and Philosophical Dictionary describes the telegraph as a machine the French put into use in 1793. It translates Barère's report, saying it came from the sitting of 15 August 1794, and adds that the device has now been adopted in England. The French proceedings print the report under 30 thermidor (17 August), and the English date may confuse the day of the surrender with the day of the report.",
+   "quote": "the sitting of the French Convention of August 15, 1794",
+   "confidence": "verified",
+   "source_note": "Hutton, Mathematical and Philosophical Dictionary (1795–96), 'Telegraph' (words.fromoldbooks.org)."
+  },
+  {
+   "date_iso": "1795-06-02",
+   "date_display": "1795",
+   "precision": "year",
+   "eye": "murray-admiralty",
+   "place": "London, Admiralty",
+   "headline": "Six shutters beat five: the Admiralty chooses Murray",
+   "digest": "The Rev. John Gamble and Lord George Murray each propose a shutter telegraph. The Admiralty prefers Murray's six shutters, giving 63 combinations, to Gamble's five, giving 31. Surveyor George Roebuck is contracted to build twelve stations from London to Deal with a branch to Sheerness, at £215 a station. Each hut is to have two rooms, a stove, an eight-guinea clock and two twelve-guinea telescopes.",
+   "confidence": "approx",
+   "source_note": "Hardy, Archaeologia Cantiana 44 (from PRO papers); no day given.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1795-10-01",
+   "date_display": "1795 (after the first trial)",
+   "precision": "year",
+   "eye": "edelcrantz",
+   "place": "Stockholm archipelago",
+   "headline": "Shutters spread to the fortresses",
+   "digest": "After the trials Swedish lines are built from Stockholm to Drottningholm and Karlberg and to the fortresses of Fredriksborg and Vaxholm, guarding the sea approach to the capital. In Sweden, as in France and Britain, the first lasting users are military.",
+   "confidence": "approx",
+   "source_note": "FHT/Tiff 2015:2 (Swedish military history article); no exact dates.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1796-02-15",
+   "date_display": "February 1796",
+   "precision": "month",
+   "eye": "murray-admiralty",
+   "place": "Admiralty Office, Charing Cross",
+   "headline": "A shutter frame appears on the Admiralty roof",
+   "digest": "A six-hole shutter telegraph is put up on the roof of the Admiralty Office at Charing Cross. Each panel can be opened to show sky or a lamp, or closed. A print 'by an officer on duty', published on 26 March, shows Londoners the machine their navy now uses to speak to the Channel ports.",
+   "quote": "View of the Telegraph erected on the Admiralty Office",
+   "confidence": "verified",
+   "source_note": "Royal Museums Greenwich, print published 26 March 1796 by S. W. Fores; Hardy, Archaeologia Cantiana 44 (fig. I)."
+  },
+  {
+   "date_iso": "1796-06-15",
+   "date_display": "By June 1796",
+   "precision": "month",
+   "eye": "murray-admiralty",
+   "place": "London to Deal",
+   "headline": "London–Deal finished: the Admiralty can speak to the Downs",
+   "digest": "By June the line is complete: Admiralty, St George's Fields, New Cross, Shooter's Hill, Swanscombe, Gad's Hill, Beacon Hill, Shottenden, Barham Downs, Betteshanger and Deal, with a branch to Sheerness. Running costs are estimated at nearly £3,000 a year. Two years after Le Quesnoy, the enemy has its own line pointing at France.",
+   "confidence": "verified",
+   "source_note": "Hardy, Archaeologia Cantiana 44.",
+   "quote": ""
+  },
+  {
+   "date_iso": "1796-07-01",
+   "date_display": "1796",
+   "precision": "year",
+   "eye": "edelcrantz",
+   "place": "Stockholm; Grisslehamn–Eckerö",
+   "headline": "A treatise on telegraphs, and a line across the Åland Sea",
+   "digest": "Edelcrantz publishes his 'Afhandling om telegrapher', setting out the shutter code and comparing it with the French arms. The same year a Swedish line reaches Grisslehamn and crosses the Åland Sea by the skerry of Signildsskär to Eckerö. It is one of the longest over-water optical links of the age.",
+   "confidence": "approx",
+   "source_note": "FHT/Tiff 2015:2 (treatise title; Grisslehamn–Signildsskär–Eckerö line, 1796); Edelcrantz overview (1796 treatise).",
+   "quote": ""
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1791-03-02",
+   "date_display": "2 March 1791",
+   "eye": "brulon-officials",
+   "claim": "Brûlon → Parcé (about 15 km), synchronised clock-and-panel system: a sentence promising glory if the venture succeeds, decoded blind by the receivers in about four minutes; certified by both municipalities.",
+   "form": "other",
+   "evidence": "Procès-verbaux of 2–3 March 1791 (via Hearfield); text from Ignace Chappe (1824), p. 239.",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1793-07-12",
+   "date_display": "12 July 1793, from 4:26 p.m.",
+   "eye": "lakanal",
+   "claim": "Parc Saint-Fargeau (Daunou) → Saint-Martin-du-Tertre (Lakanal, Arbogast): Daunou has arrived and reports a Convention decree on sealing deputies' papers; 11 minutes.",
+   "form": "semaphore",
+   "evidence": "Lakanal's report of 25 July 1793, Journal des inventions t. II (Cnum).",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1793-07-12",
+   "date_display": "12 July 1793",
+   "eye": "lakanal",
+   "claim": "Saint-Martin-du-Tertre → Parc Saint-Fargeau: reply that the inhabitants respect the Convention and are worthy of liberty; 9 minutes. The Écouen relay then signals that transmission is impossible.",
+   "form": "semaphore",
+   "evidence": "Lakanal's report (Cnum).",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1793-07-25",
+   "date_display": "25 July 1793",
+   "eye": "lakanal",
+   "claim": "Estimate in the report: a standard dispatch Valenciennes → Paris would take 13 minutes 40 seconds.",
+   "form": "report",
+   "evidence": "Lakanal's report (Cnum).",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1794-08-15",
+   "date_display": "28 thermidor an II (15 Aug 1794)",
+   "eye": "lille-station",
+   "claim": "Army → Lille by courier, then Lille → Paris by telegraph: Le Quesnoy has surrendered. Barère says it arrived 'one hour' after the garrison left. The coded text is not in the proceedings, and the English wording ('3,000 slaves... surrendered at discretion') comes from later histories. Lille's 1994 address claims 17 Aug and 9 minutes.",
+   "form": "semaphore",
+   "evidence": "AP t. XCV, 30 thermidor; Selin citing Rogers (2005); Mauroy address (1994).",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1794-08-16",
+   "date_display": "29 thermidor an II (16 Aug 1794)",
+   "eye": "scherer",
+   "claim": "Schérer, Beaudignies → Committee of Public Safety, Paris, by courier: 'Le Quesnoy est à la République'; garrison laid down arms before 4 p.m. on the 28th; about 3,000 men and 119 guns. Read in the Convention on 30 thermidor.",
+   "form": "letter",
+   "evidence": "AP t. XCV, 30 thermidor an II, pp. 229–231.",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1794-08-17",
+   "date_display": "30 thermidor an II (17 Aug 1794)",
+   "eye": "barere",
+   "claim": "Barère to the Convention: the Le Quesnoy news came by Chappe's telegraph an hour after the event. Messages are known only at the two ends, and Lille can be answered the same day.",
+   "form": "report",
+   "evidence": "AP t. XCV, 30 thermidor; 'Nouveau rapport', Journal des inventions (Cnum).",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1794-08-17",
+   "date_display": "Announcement-date dispute",
+   "eye": "carnot",
+   "claim": "Positions: (a) Carnot read the Le Quesnoy telegraph to the Convention on 15 Aug (Theatrum Belli and other modern accounts); (b) the printed proceedings place the formal report, by Barère, on 30 thermidor/17 Aug; (c) Hutton (1795) dates Barère's report to 15 Aug; (d) the Lille address of 1994 gives 17 Aug for the message itself.",
+   "form": "other",
+   "evidence": "Theatrum Belli; AP t. XCV; Hutton's Dictionary; Mauroy address.",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1794-08-30",
+   "date_display": "13 fructidor an II (30 Aug 1794), morning",
+   "eye": "carnot",
+   "claim": "Lille → Paris by telegraph: Condé restored to the Republic, surrender 'this morning at six'. Read by Carnot as 'just arrived'.",
+   "form": "semaphore",
+   "evidence": "AP t. XCVI, 13 fructidor an II, pp. 111–112.",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1794-08-30",
+   "date_display": "13 fructidor an II (30 Aug 1794), same sitting",
+   "eye": "carnot",
+   "claim": "Paris → Lille by telegraph, on Cambon's motion: decree renaming Condé 'Nord-Libre' and declaring that the army continues to deserve well of the fatherland.",
+   "form": "semaphore",
+   "evidence": "AP t. XCVI, 13 fructidor an II, pp. 111, 119.",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1794-08-30",
+   "date_display": "13 fructidor an II (30 Aug 1794), evening (about 6:30 p.m. as the OCR reads)",
+   "eye": "claude-chappe",
+   "claim": "Lille → Paris by telegraph: acknowledgment that the decree has been received. Chappe reports it to the Convention by letter.",
+   "form": "semaphore",
+   "evidence": "AP t. XCVI, 13 fructidor an II, p. 119 (Chappe's letter).",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1794-08-30",
+   "date_display": "13 fructidor an II (30 Aug 1794)",
+   "eye": "lille-station",
+   "claim": "Lille → Nord-Libre (Condé) by special courier: the Convention's decree, forwarded by Chappe's agent.",
+   "form": "letter",
+   "evidence": "Chappe's letter, AP t. XCVI, p. 119.",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1794-09-01",
+   "date_display": "15 fructidor an II (1 Sept 1794)",
+   "eye": "scherer",
+   "claim": "Schérer, Onnaing → Committee of Public Safety by courier, read by Treilhard: Condé surrendered at the first summons, 1,065 men laid down their arms. It arrived two days after the telegraph.",
+   "form": "letter",
+   "evidence": "AP t. XCVI, 15 fructidor an II, pp. 173–174.",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1794-10-01",
+   "date_display": "1 October 1794",
+   "eye": "london-press",
+   "claim": "London press → readers: the French 'Telegraphe' carries words from 'Lisle' to Paris, about 120 miles, in about half an hour.",
+   "form": "report",
+   "evidence": "Freemasons' Magazine, 1 Oct 1794, p. 49.",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1794-11-01",
+   "date_display": "1 Nov 1794 (30 Oct in one account)",
+   "eye": "edelcrantz",
+   "claim": "Stockholm → Drottningholm Palace by shutter telegraph: birthday greeting to Gustav IV Adolf. The wording was not found.",
+   "form": "semaphore",
+   "evidence": "Tekniska museet (DigitaltMuseum); FHT/Tiff 2015:2.",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1795-06-02",
+   "date_display": "1795",
+   "eye": "murray-admiralty",
+   "claim": "Priority positions in Britain: the Rev. John Gamble (five shutters, 31 signals) and Lord George Murray (six shutters, 63 signals) both proposed shutter telegraphs, and the Admiralty adopted Murray's. Grace's Guide credits the shutter idea to Gamble, and Hardy treats the two as independent.",
+   "form": "other",
+   "evidence": "Hardy, Archaeologia Cantiana 44; Grace's Guide, 'Semaphore Telegraphs'.",
+   "confidence": "approx"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1791-03-02",
+   "label": "Brûlon–Parcé: the first certified message",
+   "eyes": [
+    "claude-chappe",
+    "brulon-officials",
+    "ignace-chappe"
+   ],
+   "note": "The inventor's trial, the officials' signed minutes, and the brother's account thirty years later of the same morning. The minutes certify only that it worked; the memoir supplies the words and the meaning."
+  },
+  {
+   "date": "1793-07-12",
+   "label": "Trial before the Convention's commissioners",
+   "eyes": [
+    "lakanal",
+    "claude-chappe"
+   ],
+   "note": "Chappe's machines and Lakanal's watch: the commissioner records the minute the signal rose and the minute it failed at Écouen, so the trial becomes data rather than a show."
+  },
+  {
+   "date": "1793-07-25",
+   "label": "Report and decree: from experiment to state service",
+   "eyes": [
+    "lakanal",
+    "claude-chappe",
+    "romme"
+   ],
+   "note": "Romme opened the door in April. Lakanal's costed report in July turns Chappe into a salaried engineer and hands the choice of lines to the war committee."
+  },
+  {
+   "date": "1794-08-15",
+   "label": "Le Quesnoy surrenders; the first war signal",
+   "eyes": [
+    "scherer",
+    "lille-station",
+    "carnot",
+    "barere"
+   ],
+   "note": "At the front a garrison lays down its arms; in Lille an operator starts the chain; in Paris the news is in hand within the hour. The general's letter, the formal report and the date in later stories each tell it differently."
+  },
+  {
+   "date": "1794-08-17",
+   "label": "The telegraph presented to the Convention",
+   "eyes": [
+    "barere",
+    "scherer",
+    "london-press"
+   ],
+   "note": "Barère's speech and Schérer's courier letter are read together. Within weeks the London press reprints Barère, but under the date of the surrender."
+  },
+  {
+   "date": "1794-08-30",
+   "label": "Condé/Nord-Libre: news, decree and acknowledgment in one day",
+   "eyes": [
+    "scherer",
+    "carnot",
+    "lille-station",
+    "claude-chappe",
+    "barere",
+    "ignace-chappe"
+   ],
+   "note": "A surrender at six, a telegraph read 'just arrived', a decree sent back, Lille's acknowledgment by evening. In the same chamber Barère faces charges. Ignace's memoir later makes this day the vindication of 1792."
+  },
+  {
+   "date": "1794-10-01",
+   "label": "Autumn 1794: the word goes abroad",
+   "eyes": [
+    "london-press",
+    "edelcrantz",
+    "gillray"
+   ],
+   "note": "Within three months the device has an English magazine explainer, a Swedish rival in the king's honour, and soon a London caricature. Each country takes the idea and remakes it."
+  },
+  {
+   "date": "1796-02-15",
+   "label": "1796: shutters on the Admiralty and across the Åland Sea",
+   "eyes": [
+    "murray-admiralty",
+    "edelcrantz"
+   ],
+   "note": "Britain and Sweden both choose shutters over Chappe's arms. A London print and a Stockholm treatise mark two independent copies of the French invention in the same year."
+  }
+ ],
+ "ties": [
+  {
+   "a": "claude-chappe",
+   "b": "ignace-chappe",
+   "kind": "relative",
+   "note": "Brothers and partners. Ignace's seat in the Legislative Assembly got Claude his first hearing, and his 1824 history is the family's record."
+  },
+  {
+   "a": "claude-chappe",
+   "b": "brulon-officials",
+   "kind": "met",
+   "note": "Chappe chose his home town's officials as witnesses, and their signatures were the credentials he took to Paris."
+  },
+  {
+   "a": "claude-chappe",
+   "b": "lakanal",
+   "kind": "met",
+   "note": "Lakanal was one of the commissioners at the 1793 trial and, by later accounts, the deputy who defended Chappe when opposition arose."
+  },
+  {
+   "a": "romme",
+   "b": "claude-chappe",
+   "kind": "influenced",
+   "note": "Romme's report of 1 April 1793 secured the trial line, and his calendar later dated every telegraph dispatch."
+  },
+  {
+   "a": "romme",
+   "b": "lakanal",
+   "kind": "met",
+   "note": "Colleagues on the Committee of Public Instruction, which handled the telegraph before the war committee took it over."
+  },
+  {
+   "a": "barere",
+   "b": "carnot",
+   "kind": "met",
+   "note": "Fellow members of the Committee of Public Safety. Both announced telegraph news in the Convention in August 1794."
+  },
+  {
+   "a": "carnot",
+   "b": "scherer",
+   "kind": "read each other",
+   "note": "Schérer's dispatches went to the war section Carnot directed, and Carnot read them to the Convention."
+  },
+  {
+   "a": "barere",
+   "b": "scherer",
+   "kind": "read each other",
+   "note": "Barère's report of 30 thermidor was read alongside Schérer's Le Quesnoy letter."
+  },
+  {
+   "a": "lille-station",
+   "b": "claude-chappe",
+   "kind": "met",
+   "note": "The Lille agent was Chappe's own employee, the 'préposé' named in his letter of 13 fructidor."
+  },
+  {
+   "a": "edelcrantz",
+   "b": "claude-chappe",
+   "kind": "influenced",
+   "note": "Edelcrantz built his shutter telegraph in response to news of the French system, and chose a different mechanism."
+  },
+  {
+   "a": "murray-admiralty",
+   "b": "claude-chappe",
+   "kind": "opposite sides",
+   "note": "Britain copied the principle of the enemy's war machine within a year and pointed its own line at the Channel."
+  },
+  {
+   "a": "london-press",
+   "b": "barere",
+   "kind": "read each other",
+   "note": "Hutton's dictionary and the London papers translated Barère's report of the telegraph."
+  },
+  {
+   "a": "gillray",
+   "b": "london-press",
+   "kind": "influenced",
+   "note": "Gillray's print relied on a public that the autumn's articles and shows had already taught the word 'telegraph'."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "morse-1844",
+   "note": "The Chappe network, extended across France under the Directory and Napoleon, was the state system that the French began replacing with electric telegraphs in the 1840s. It defined what governments expected a telegraph to be: fast, secret and state-controlled."
+  },
+  {
+   "to": "v1:french-rev",
+   "note": "The telegraph was a product of the Convention's committees. Its first war messages arrived in the weeks around 9 thermidor, and on the Condé day the same assembly was hearing charges against Barère, Billaud-Varenne and Collot d'Herbois."
+  },
+  {
+   "to": "v7:balloons-1783",
+   "note": "The same revolutionary war government that funded the telegraph used a reconnaissance balloon at Fleurus in June 1794. Barère's report of 3 July 1794 on Fleurus also looked ahead to the recapture of Condé and Le Quesnoy."
+  },
+  {
+   "to": "v6:vienna-1815",
+   "note": "The Admiralty's London–Deal line, built in reply to Chappe's, was ordered discontinued after the peace of 1814 and set up again when Napoleon escaped from Elba while the Congress of Vienna was sitting."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-142153",
+   "title": "View of the Telegraph erected on the Admiralty Office, Charing Cross in Feby 1796",
+   "caption": "Etching of Lord George Murray's six-shutter telegraph on the Admiralty roof, after a drawing 'by an officer on duty'. It is the British answer to Chappe's line, two years after Le Quesnoy.",
+   "date": "published 26 March 1796",
+   "credit": "S. W. Fores; Royal Museums Greenwich"
+  },
+  {
+   "url": "https://james-gillray.org/pop/telegraph.html",
+   "title": "French-Telegraph Making Signals in the Dark",
+   "caption": "Gillray shows Charles James Fox as a human telegraph signalling to a French fleet. It is evidence that the new French word had become part of British political abuse within five months.",
+   "date": "26 January 1795",
+   "credit": "James Gillray"
+  },
+  {
+   "url": "https://digitaltmuseum.se/021026304117/modell-av-optisk-telegraf/media?slide=1",
+   "title": "Model of Edelcrantz's optical (shutter) telegraph",
+   "caption": "Museum model of the Swedish ten-shutter telegraph, whose patterns stood for code-book numbers. It was first demonstrated for Gustav IV Adolf's birthday in 1794.",
+   "date": "model; system 1794",
+   "credit": "Tekniska museet, Stockholm"
+  },
+  {
+   "url": "https://www.oldbookillustrations.com/illustrations/chappe-telegraph",
+   "title": "Télégraphe de Chappe",
+   "caption": "Wood engraving of a Chappe station with its regulator beam and two indicator arms. It dates from 1840, so it shows the mature system rather than the 1794 towers exactly.",
+   "date": "1840",
+   "credit": "Édouard Wattier, engraved by Andrew, Best & Leloir; Le Magasin pittoresque vol. 8"
+  },
+  {
+   "url": "https://c.enwp.org/wiki/File:Rees%27s_Cyclopaedia_Chappe_telegraph.png",
+   "title": "Chappe telegraph, from Rees's Cyclopaedia",
+   "caption": "An English encyclopaedia plate of the French arm telegraph, showing how British readers learned the mechanism in the years after 1794.",
+   "date": "early 19th century",
+   "credit": "Rees's Cyclopaedia"
+  },
+  {
+   "url": "https://prints.aap.com.au/science-photo-library/early-telegraph-message-1794-6441489.html",
+   "title": "Early telegraph message, 1794 (from Belloc, La Télégraphie historique)",
+   "caption": "A coloured artwork of 1888 imagining the Condé message. Its caption's claim of a thirty-minute transit is a later estimate, not a contemporary record.",
+   "date": "1888",
+   "credit": "Alexis Belloc; Science Photo Library (Sheila Terry)"
+  }
+ ],
+ "further": [
+  {
+   "title": "Journal des inventions et découvertes, t. II (1794): Lakanal's report and the 'Nouveau rapport' of 30 thermidor (Cnum, Cnam)",
+   "url": "https://cnum.cnam.fr/PDF/cnum_4KY2.2RES.pdf"
+  },
+  {
+   "title": "Ignace Chappe, Histoire de la télégraphie, 1840 edition (Cnum, Cnam)",
+   "url": "https://cnum.cnam.fr/PDF/cnum_8K13.1.pdf"
+  },
+  {
+   "title": "Archives parlementaires, séance du 13 fructidor an II: Carnot announces Condé (Persée)",
+   "url": "https://iiif.persee.fr/b0e2cf11-597c-427d-8ac7-68bcc0acf13b/51dd2662-58c0-4bc6-ab7b-b4c61cded581/res/pdf"
+  },
+  {
+   "title": "Archives parlementaires, séance du 30 thermidor an II: Barère on Le Quesnoy and the telegraph (Persée)",
+   "url": "https://iiif.persee.fr/b0e2cf11-597c-427d-8ac7-68bcc0acf13b/1e7cfa6b-0fff-45fc-941f-04e7688baf6b/res/pdf"
+  },
+  {
+   "title": "A. G. Hardy, 'The Old Telegraph from London to the Coast of Kent', Archaeologia Cantiana 44",
+   "url": "https://www.kentarchaeology.org.uk/journal/44/old-telegraph-london-coast-kent"
+  },
+  {
+   "title": "Hutton, Mathematical and Philosophical Dictionary: 'Telegraph' (1795–96)",
+   "url": "https://words.fromoldbooks.org/Hutton-Mathematical-and-Philosophical-Dictionary/t/telegraph.html"
+  },
+  {
+   "title": "Shannon Selin, 'Napoleonic Telecommunications: The Chappe Semaphore Telegraph'",
+   "url": "https://shannonselin.com/?p=8519"
+  },
+  {
+   "title": "Theatrum Belli, '17 juillet 1794: début des transmissions opérationnelles'",
+   "url": "https://theatrum-belli.com/17-juillet-1794-debut-des-transmissions-operationnelles/?pdf=381114"
+  }
+ ]
+}

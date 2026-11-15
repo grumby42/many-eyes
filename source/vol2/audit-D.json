@@ -1,0 +1,280 @@
+[
+ {
+  "chapter": "irish-famine",
+  "where": "intro:3",
+  "severity": "error",
+  "problem": "The legend is that the Sultan offered £10,000 and was asked to cut it to £1,000 (because Queen Victoria had given £2,000). The text says the offer was cut 'to £10,000', which reverses it.",
+  "fix": {
+   "text_replace": {
+    "old": "the stories of a larger offer cut to £10,000",
+    "new": "the stories of a £10,000 offer cut to £1,000"
+   }
+  }
+ },
+ {
+  "chapter": "irish-famine",
+  "where": "eye:mathew",
+  "severity": "error",
+  "problem": "Fr Mathew was born 10 Oct 1790, so he was 55 in Aug–Dec 1846, not 56.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 56",
+    "new": "aged 55"
+   }
+  }
+ },
+ {
+  "chapter": "irish-famine",
+  "where": "eye:tuke",
+  "severity": "doubt",
+  "problem": "In 1847 Tuke worked in the York family tea and coffee business. He became a banker only when he joined the Hitchin bank in 1852.",
+  "fix": {
+   "text_replace": {
+    "old": "Young English Quaker banker from York",
+    "new": "Young English Quaker from York, later a banker,"
+   },
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "irish-famine",
+  "where": "entry:8",
+  "severity": "quote",
+  "problem": "Misquotation. Cummins' letter reads 'I approached with horror, and found by a low moaning they were alive'.",
+  "fix": {
+   "quote": "I approached with horror"
+  }
+ },
+ {
+  "chapter": "irish-famine",
+  "where": "convergence:3",
+  "severity": "error",
+  "problem": "In May 1847 the government soup kitchens (Temporary Relief Act) were opening and rising toward their July peak. They closed in Aug–Sept 1847. Nicholson did not leave Dublin until July (entry 20).",
+  "fix": {
+   "note": "As government soup kitchens open across Ireland and Nicholson works on in Dublin, the people who left are dying at the quarantine station Douglas runs."
+  }
+ },
+ {
+  "chapter": "irish-famine",
+  "where": "convergence:4",
+  "severity": "doubt",
+  "problem": "Bennett's visit (March 1847) came before the Poor Law Extension Act (June 1847), so he cannot have found that 'the new Poor Law' failed. Also, only one letter (Nicholson to Bennett) is attested, not mutual correspondence among all three.",
+  "fix": {
+   "note": "Two Quakers and an American evangelical cover the same peninsula within months of each other, and Nicholson writes to Bennett for help. Bennett saw Erris before the Poor Law Extension Act; Tuke and Nicholson both found that the new Poor Law could not work there."
+  }
+ },
+ {
+  "chapter": "irish-famine",
+  "where": "convergence:5",
+  "severity": "doubt",
+  "problem": "Trevelyan was knighted (KCB) on 27 April 1848, which is spring, and his essay appeared in January. The wording 'that same summer' implies the knighthood came in summer.",
+  "fix": {
+   "note": "Trevelyan writes as if the crisis were finished and is knighted in April; that summer Kennedy, who works for the system Trevelyan built, is listing the families evicted in Clare."
+  }
+ },
+ {
+  "chapter": "irish-famine",
+  "where": "entry:20",
+  "severity": "doubt",
+  "problem": "Government soup kitchens peaked in July 1847 (about 3 million rations a day) and were shut down from mid-August to September. In July they were not yet 'winding down'.",
+  "fix": {
+   "headline": "Leaving Dublin for the north",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "irish-famine",
+  "where": "image:1",
+  "severity": "image",
+  "problem": "Not an image. The URL is a Wikipedia article page. Mahony's sketch set it reproduces includes scenes of the dying and dead (e.g. 'Woman begging at Clonakilty' with her dead child, 'Mullins's hut at Scull').",
+  "fix": {
+   "delete": true
+  }
+ },
+ {
+  "chapter": "black-ships",
+  "where": "calendar_note",
+  "severity": "error",
+  "problem": "Julian to Gregorian in 1853 is +12 days, so Old Style 16 September is New Style 28 September, not 27. One of the paired dates is wrong.",
+  "fix": {
+   "text_replace": {
+    "old": "(16/27 September 1853)",
+    "new": "(e.g. 16 September Old Style = 28 September New Style)"
+   },
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "black-ships",
+  "where": "calendar_note",
+  "severity": "doubt",
+  "problem": "The squadron reached Japan from the west, by the Indian Ocean and China, and never crossed the date line, so the date-line explanation does not apply. Any one-day differences come from ship's-day reckoning or later compilation.",
+  "fix": {
+   "text_replace": {
+    "old": "American journals were kept in ship's dates, which can differ by a day from shore dates near the date line; the dates here follow the published chronologies.",
+    "new": "American journals and Japanese records occasionally differ by a day; the dates here follow the published chronologies."
+   }
+  }
+ },
+ {
+  "chapter": "black-ships",
+  "where": "entry:4",
+  "severity": "error",
+  "problem": "9 July 1853 was a Saturday, as entry 3 correctly says, not a Friday.",
+  "fix": {
+   "date_display": "Saturday 9 July 1853"
+  }
+ },
+ {
+  "chapter": "black-ships",
+  "where": "entry:16",
+  "severity": "error",
+  "problem": "Same Julian/Gregorian slip: 16 September (O.S.) = 28 September 1853 (N.S.). The date is also inconsistent with the 12-day offset stated in the calendar note.",
+  "fix": {
+   "date_iso": "1853-09-28",
+   "date_display": "16/28 September 1853 (Old/New Style)",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "black-ships",
+  "where": "entry:16",
+  "severity": "error",
+  "problem": "The Russians did not have 'about a month' of talks. Pallada waited at Nagasaki from August to late November 1853 without meeting plenipotentiaries, left for Shanghai, and returned in January 1854, when the talks with Kawaji actually took place.",
+  "fix": {
+   "digest": "Goncharov writes to friends in St Petersburg from Nagasaki, where the Russians would wait for months for Edo's envoys, sailing off to Shanghai in November and returning in January. His letters, later folded into Frigate 'Pallada', turn Japanese ceremony and evasion into comedy — and into a portrait of a closed society about to be pried open by others."
+  }
+ },
+ {
+  "chapter": "black-ships",
+  "where": "entry:23",
+  "severity": "doubt",
+  "problem": "The date range conflicts with the eye's authenticity note, which gives the diary as 13 February 1853 – 10 June 1854. 13 Feb 1854 looks like a copy of the return date.",
+  "fix": {
+   "date_display": "13 February 1853 – 10 June 1854 (second visit shown here)",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "black-ships",
+  "where": "eye:yoshida",
+  "severity": "error",
+  "problem": "Shōin was born 20 Sept 1830 (Bunsei 13/8/4), so he was 22 in July 1853. His age at execution, 29, is correct.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 23 in 1853",
+    "new": "aged 22 in 1853"
+   }
+  }
+ },
+ {
+  "chapter": "black-ships",
+  "where": "eye:ii",
+  "severity": "error",
+  "problem": "Ii Naosuke was born 29 Nov 1815, so he was 37 at the time of his 1 Oct 1853 reply.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 38",
+    "new": "aged 37"
+   }
+  }
+ },
+ {
+  "chapter": "black-ships",
+  "where": "eye:heine",
+  "severity": "doubt",
+  "problem": "Heine was born 30 Jan 1827, so he was 26 to 27 during the 1853–54 visits.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 25–27",
+    "new": "aged 26–27"
+   }
+  }
+ },
+ {
+  "chapter": "black-ships",
+  "where": "eye:taylor",
+  "severity": "doubt",
+  "problem": "Taylor is usually recorded as enrolled in the Navy as a master's mate, not as Captain Buchanan's clerk.",
+  "fix": {
+   "text_replace": {
+    "old": "taken into the Navy at low rank (clerk to Captain Buchanan of the Susquehanna)",
+    "new": "taken into the Navy at low rank (as a master's mate)"
+   },
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "black-ships",
+  "where": "threads_out:2",
+  "severity": "error",
+  "problem": "The bakufu did report Perry's arrival and the letter to the Kyoto court in 1853, and the court ordered prayers at shrines. The court took no part in the talks, but it was not ignorant of them.",
+  "fix": {
+   "text_replace": {
+    "old": "knew nothing of the talks",
+    "new": "had no part in the talks, though the shogunate reported them to the court"
+   }
+  }
+ },
+ {
+  "chapter": "delhi-1857",
+  "where": "intro:0",
+  "severity": "error",
+  "problem": "Bahadur Shah Zafar was born 24 Oct 1775, so he was 81 in May 1857.",
+  "fix": {
+   "text_replace": {
+    "old": "82-year-old",
+    "new": "81-year-old"
+   }
+  }
+ },
+ {
+  "chapter": "delhi-1857",
+  "where": "intro:1",
+  "severity": "doubt",
+  "problem": "Of the Lucknow women diarists used here, only Case (1858) was printed within months. Germon's diary was printed in 1870 and Inglis's in 1892.",
+  "fix": {
+   "text_replace": {
+    "old": "especially from the women of the Lucknow Residency, printed within months.",
+    "new": "especially from the women of the Lucknow Residency, some printed within months."
+   }
+  }
+ },
+ {
+  "chapter": "delhi-1857",
+  "where": "entry:18",
+  "severity": "doubt",
+  "problem": "Internal contradiction. The issues already dated here (8 Mar, 17 May, 24 May, 13 Sept 1857) all fall on Sundays, so the paper was not moved 'from Saturday to Sunday' in July. The 'defiance against the British week' gloss is also illogical.",
+  "fix": {
+   "digest": "Baqar renamed his paper Akhbar-uz-Zafar after Bahadur Shah Zafar, tying it openly to the King. A week later he printed verses of Sa'di on the oneness of humankind.",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "delhi-1857",
+  "where": "convergence:4",
+  "severity": "doubt",
+  "problem": "Once image 1 (Beato's Secundra Bagh interior with remains) is deleted, only one Beato Secundra Bagh photograph is left below.",
+  "fix": {
+   "note": "Inglis records the red coats at the mess-house and the walk to the Secundra Bagh. Case, in the same household, left with her. Beato's photograph of the Secundra Bagh (below) was taken a few months later."
+  }
+ },
+ {
+  "chapter": "delhi-1857",
+  "where": "image:1",
+  "severity": "image",
+  "problem": "The subject is human remains: Beato's Secundra Bagh courtyard photograph with skeletal remains of the dead. Must be deleted under the image rule.",
+  "fix": {
+   "delete": true
+  }
+ },
+ {
+  "chapter": "delhi-1857",
+  "where": "image:2",
+  "severity": "tone",
+  "problem": "The title uses only the British framing ('Indian Mutiny') in the chapter's own image label. The linked checklist also reproduces the Beato Secundra Bagh remains photograph.",
+  "fix": {
+   "title": "Photographs of the 1857 uprising (Luminous-Lint virtual exhibit)"
+  }
+ }
+]

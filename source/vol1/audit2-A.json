@@ -1,0 +1,144 @@
+[
+ {
+  "patch": "london-1666",
+  "where": "add_eyes:lodenstein",
+  "severity": "error",
+  "problem": "Claims the Dutch Republic used New Style so Lodenstein's '1, 2, 3, 4 Juny' is unusual. Only Holland and Zeeland (and some southern areas) went Gregorian in 1582-83; the province of Utrecht kept the Julian calendar until 1700. A Utrecht minister dating the battle 1-4 June O.S. is normal.",
+  "fix": {
+   "authenticity": "His hymn on the Four Days' Battle is printed in his collected Uytspanningen (many editions from 1676 on). DBNL's calendar dates it by its subject, the fight of 1–4 June 1666. Those are Old Style day numbers: unlike Holland, the province of Utrecht kept the Julian calendar until 1700, so they match the English dates (11–14 June N.S.). The date and title are confirmed. The text was not read line by line, so the content is summarised only from its title and genre."
+  }
+ },
+ {
+  "patch": "london-1666",
+  "where": "add_entries:1",
+  "severity": "error",
+  "problem": "Evelyn heard the guns from his Sayes Court garden on the evening of 1 June O.S. (11 June N.S.); on 2 June O.S. he was riding to Rochester and the Kent coast, not in his garden.",
+  "fix": {
+   "digest": "On the second day the flagship is badly mauled. De Ruyter's journal notes that his mainmast was shot away, around three o'clock. It says nothing about handing over or sharing command at that moment, a silence that later historians have noticed. The terse entry contrasts with Evelyn, who the evening before had only heard the guns from his garden in Deptford and was now riding to the Kent coast in search of news."
+  }
+ },
+ {
+  "patch": "london-1666",
+  "where": "add_convergences:0",
+  "severity": "doubt",
+  "problem": "'All three date the Fire 12–15 September' is unsupported for De Decker: his poem is described as undated and no day numbers are cited from it.",
+  "fix": {
+   "note": "Hoorn, which had just lost ships at the Vlie, calls the Fire retribution. Amsterdam's De Decker sees judgement but forbids gloating. In Paris, Giustinian hears Louis XIV call it a stroke of luck and then pairs the Vlie and London as twin disasters. The Hoorn writers and Giustinian date the Fire 12–15 September, while London's own diarists write 2–5 September."
+  }
+ },
+ {
+  "patch": "london-1666",
+  "where": "add_entries:1",
+  "severity": "doubt",
+  "problem": "The 'mainmast shot away at about three' detail and the remark about historians noticing his silence on command rest only on a secondary PDF; it is not clear whether the main mast or only the main topmast was lost. Consider 'approx'.",
+  "fix": {
+   "confidence": "approx"
+  }
+ },
+ {
+  "patch": "thirty-years",
+  "where": "add_eyes:happe",
+  "severity": "error",
+  "problem": "Happe was born in 1587, so during the war (1618–48) he was aged 31 to 61, not just 'in his thirties and forties'.",
+  "fix": {
+   "role": "Lawyer and Schwarzburg-Sondershausen official: district officer (Amtsschösser) of Keula and Ebeleben, court councillor (Hofrat) to Count Christian Günther I from 1623, later director of the consistory; aged 31 when the war began and 61 at its end"
+  }
+ },
+ {
+  "patch": "thirty-years",
+  "where": "add_convergences:0",
+  "severity": "doubt",
+  "problem": "The note says that in November 1618 neither man knew the defenestration had started a war, then says both wrote with hindsight. Fighting in Bohemia (the siege of Pilsen, Nov 1618) was already under way. The sentence contradicts itself.",
+  "fix": {
+   "note": "Two Lutherans 300 km apart, a cobbler in Swabia and a court councillor in Thuringia, open their chronicles with the same comet and read it the same way, as God's warning. The Bohemian revolt that began with the Prague defenestration six months earlier was still a distant affair; both, writing with hindsight, made the comet the herald of the long war that followed."
+  }
+ },
+ {
+  "patch": "thirty-years",
+  "where": "add_ties:2",
+  "severity": "doubt",
+  "problem": "In 1618 Slavata was a regent appointed under Emperor Matthias, who was still reigning king. Ferdinand had been crowned King of Bohemia in 1617 but became emperor only in 1619, so 'Ferdinand II, whose regents Slavata had been' is loose.",
+  "fix": {
+   "note": "Arundel's 1636 embassy, which Crowne recorded, went to Ferdinand II, whom Slavata had served as a Habsburg loyalist since the revolt. It sought to restore the Palatine family whose acceptance of the Bohemian crown followed the defenestration."
+  }
+ },
+ {
+  "patch": "russia-1917",
+  "where": "add_entries:0",
+  "severity": "doubt",
+  "problem": "The son of Botkin's who had died was Dmitri, killed in action in December 1914. Yuri (b. c.1895) was still alive in 1918. The letter's reference is almost certainly to Dmitri (it may use a diminutive). Check this against the letter text.",
+  "fix": {
+   "digest": "Botkin begins what he calls a real letter to his brother Sasha, though he doubts he was ever meant to write to anyone from this house again. He says that for his children and his work he is already a dead man, buried alive in all but name. He describes thinking he saw the face of his dead son Dmitri, killed in 1914, and heard his daughter's pet name, and compares leaving his children orphans for the sake of duty to Abraham's readiness to sacrifice Isaac. He then moves on to his medical rounds in Tobolsk, where peasants insisted on paying his cabby, and the letter stops mid-sentence.",
+   "confidence": "approx"
+  }
+ },
+ {
+  "patch": "russia-1917",
+  "where": "add_ties:1",
+  "severity": "error",
+  "problem": "Botkin did not reach Ekaterinburg in May. He arrived on 30 April 1918 with Nicholas, Alexandra and Maria and was already in the Ipatiev House when the children's party, Gilliard among them, arrived on 23 May. That is when Gilliard was turned away at the station.",
+  "fix": {
+   "note": "They served the family together at Tsarskoe Selo and Tobolsk. Botkin went ahead to Ekaterinburg with the Tsar and Tsarina in April 1918; when the children followed in May, Gilliard was turned away at the station, which is why Botkin died and Gilliard lived to write."
+  }
+ },
+ {
+  "patch": "russia-1917",
+  "where": "add_convergences:0",
+  "severity": "doubt",
+  "problem": "The note says as fact that Botkin was writing on the last evening and that both texts stop within hours. The patch's own authenticity text says the interruption on 16–17 July is only the traditional reading.",
+  "fix": {
+   "note": "The Empress ends her day with bezique and the time she went to bed. Somewhere in the same house lies the family doctor's unfinished letter to his brother, a meditation on death and duty, which by tradition was broken off that night. Both texts end with the household's last hours."
+  }
+ },
+ {
+  "patch": "russia-1917",
+  "where": "add_convergences:1",
+  "severity": "error",
+  "problem": "The Petrograd junker rising, with the fight for the telephone exchange, was on 29 October O.S. = 11 November N.S. Okunev's entry is 1 November O.S. = 14 November N.S., which is three days later, not two.",
+  "fix": {
+   "date": "1917-11-11",
+   "note": "In Petrograd Bryant shelters behind the Angleterre while junkers and Red Guards fight over the telephone exchange. Three days later in Moscow, Okunev hears that junkers are still holding the telephone station and the Kremlin. The same counter-coup is seen in two capitals, by a foreign radical and by a clerk who wants only to reach his office."
+  }
+ },
+ {
+  "patch": "russia-1917",
+  "where": "add_entries:1",
+  "severity": "doubt",
+  "problem": "The Moscow fighting began on 27 October O.S., so 1 November is the sixth day if counted inclusively and the fifth only if the 28th is day one.",
+  "fix": {
+   "digest": "Several days into the Moscow fighting Okunev tries to reach his office, where he is responsible for large sums of money and documents. Side streets get him only as far as Lubyansky Proezd, because shells, shrapnel and bullets are crossing Lubyanka Square. He hears that the junkers are holding the telephone station and the Kremlin and that the post and telegraph offices are in Bolshevik hands. On his way home he is searched for weapons twice.",
+   "confidence": "approx"
+  }
+ },
+ {
+  "patch": "russia-1917",
+  "where": "updates:0",
+  "severity": "quote",
+  "problem": "The quote 'keeping one bullet for himself' does not match the digest's own paraphrase, 'saving a last bullet', so it may not be verbatim from Bryant (1918). Confirm the exact wording against ch. VIII or blank it.",
+  "fix": {
+   "quote": "",
+   "confidence": "approx"
+  }
+ },
+ {
+  "patch": "russia-1917",
+  "where": "updates:1",
+  "severity": "quote",
+  "problem": "The wording 'the Assembly died like the Tsardom' could not be confirmed as Bryant's verbatim text. Also, the Constituent Assembly opened at about 4 p.m. on 5/18 January 1918, not about 8 p.m.",
+  "fix": {
+   "quote": "",
+   "source_note": "Six Red Months in Russia (1918), ch. IX 'The Constituent Assembly', full text https://digital.library.upenn.edu/women/bryant/russia/russia.html (read this session); session opened about 4 p.m. on 5/18 January, closed about 4 a.m.",
+   "confidence": "approx"
+  }
+ },
+ {
+  "patch": "french-rev",
+  "where": "add_entries:2",
+  "severity": "doubt",
+  "problem": "The uprising is generally dated to the night of 22–23 August 1791, not 21–22. If Ternant/Roustan really wrote 21–22, say that this is his dating.",
+  "fix": {
+   "digest": "Ternant passes on to Washington what the colonial deputy Roustan has told him. The revolt began, he reports, on the night of 21–22 August (usually dated 22–23 August), a dozen sugar estates at Acul were in flames by the 23rd, and a body of about 4,000 insurgents fell back under musket fire. Captives were shot after refusing to name a white or mulatto instigator. More than forty great estates are said to be ruined, worse than any hurricane. Ternant thinks Roustan frightened and given to exaggeration, but he still asks for money and arms to be sent quickly.",
+   "confidence": "approx"
+  }
+ }
+]

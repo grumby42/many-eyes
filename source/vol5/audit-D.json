@@ -1,0 +1,599 @@
+[
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:3",
+  "severity": "error",
+  "problem": "Quote is from the Rogers-Beveridge English translation of Jahangir's Persian memoir, not an English original; the quote rule excludes translations.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:18",
+  "severity": "error",
+  "problem": "Quote is from the Rogers-Beveridge English translation of Jahangir's Persian memoir, not an English original; the quote rule excludes translations.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:24",
+  "severity": "error",
+  "problem": "Quote is from the Rogers-Beveridge English translation of Jahangir's Persian memoir, not an English original; the quote rule excludes translations.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:26",
+  "severity": "error",
+  "problem": "Quote is from the Rogers-Beveridge English translation of Jahangir's Persian memoir, not an English original; the quote rule excludes translations.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:29",
+  "severity": "error",
+  "problem": "Quote is from the Rogers-Beveridge English translation of Jahangir's Persian memoir, not an English original; the quote rule excludes translations.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:33",
+  "severity": "error",
+  "problem": "Quote is from the Rogers-Beveridge English translation of Jahangir's Persian memoir, not an English original; the quote rule excludes translations.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:40",
+  "severity": "error",
+  "problem": "Quote is from the Rogers-Beveridge English translation of Jahangir's Persian memoir, not an English original; the quote rule excludes translations.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:44",
+  "severity": "error",
+  "problem": "Quote is from the Rogers-Beveridge English translation of Jahangir's Persian memoir, not an English original; the quote rule excludes translations.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:45",
+  "severity": "error",
+  "problem": "Quote is from the Rogers-Beveridge English translation of Jahangir's Persian memoir, not an English original; the quote rule excludes translations.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:48",
+  "severity": "error",
+  "problem": "Quote is from the Rogers-Beveridge English translation of Jahangir's Persian memoir, not an English original; the quote rule excludes translations.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:49",
+  "severity": "error",
+  "problem": "Quote is from the Rogers-Beveridge English translation of Jahangir's Persian memoir, not an English original; the quote rule excludes translations.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "calendar_note:0",
+  "severity": "doubt",
+  "problem": "The translators print 19 March 1616 for the eleventh Nauroz, but the same passage dates the sun's entry to Sunday, the last day of Isfandarmuz; 19 March 1616 (Gregorian) was a Saturday, and the Sunday was 20 March.",
+  "fix": {
+   "text_replace": {
+    "old": "so his eleventh year began on 19 March 1616.",
+    "new": "so his eleventh year began about 20 March 1616 (the translators print 19 March, but the Sunday the text names was 20 March)."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:11",
+  "severity": "doubt",
+  "problem": "Rogers-Beveridge (vol. 1, p. 317) date the equinox to 'Sunday, the last day of Isfandarmuz', equated with 1 Rabi I 1025 and printed as 19 March 1616; that Sunday was 20 March Gregorian. The entry's '1 Farvardin ... (19 March 1616)' reproduces the translators' off-by-one.",
+  "fix": {
+   "date_iso": "1616-03-20",
+   "date_display": "Sunday, the last day of Isfandarmuz, when the sun entered Aries; 1 Rabi I 1025 (translators: 19 March 1616; the Sunday was 20 March)",
+   "confidence": "approx",
+   "source_note": "Tuzuk, trans. Rogers & Beveridge, vol. 1, pp. 317–19. The printed Christian date (19 March) does not match the printed weekday (Sunday = 20 March 1616 Gregorian)."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "convergence:0",
+  "severity": "style",
+  "problem": "Convergence date follows the translators' 19 March; the weekday given in the memoir points to 20 March 1616.",
+  "fix": {
+   "date": "1616-03-20"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:13",
+  "severity": "doubt",
+  "problem": "The memoir gives the renaming 'on the same day' as Jahangir's visit to I'timad al-Daula's house on Thursday the 11th of the feast. With the Sunday equinox of 20 March, Thursday the 11th was 31 March 1616, not 30 March.",
+  "fix": {
+   "date_iso": "1616-03-31",
+   "date_display": "Thursday the 11th of the New Year feast, regnal year 11 (about 31 March 1616)",
+   "source_note": "Tuzuk, trans. Rogers & Beveridge, vol. 1, p. 319 ('On the same day', after the visit of Thursday the 11th to I'timadu-d-daula's house). Gregorian day from the printed weekday."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:1",
+  "severity": "doubt",
+  "problem": "The V&A record (IM.135-1921) says Muqarrab Khan obtained the rarities at Cambay and does not mention Goa; it translates the signature 'work of the slave of the court, Mansur, Wonder of the Jahangirian Age' (nadir al-'asr), which the digest renders as Abu'l Hasan's title-phrase 'Wonder of the Age'.",
+  "fix": {
+   "headline": "Mansur paints the turkey that came from the Portuguese ports",
+   "digest": "Mansur painted a turkey cock in profile, set against a plain ground with streaks of cloud and a strip of flowers at the base. The bird was an American species, one of the rarities Jahangir's noble Muqarrab Khan obtained on the western coast from the Portuguese (the V&A record names Cambay). Under the wattle Mansur signed it as the work of the slave of the court, Nadir al-'Asr of Jahangir's reign. The V&A links the picture to the consignment of 1612, which Jahangir described in his memoir.",
+   "source_note": "V&A IM.135-1921 catalogue entry (date c. 1612; signature as translated by the museum: 'work of the slave of the court, Mansur, Wonder of the Jahangirian Age')."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "image:2",
+  "severity": "doubt",
+  "problem": "Caption says the bird came through Portuguese Goa; the V&A record itself says the rarities were obtained at Cambay.",
+  "fix": {
+   "text_replace": {
+    "old": "an American bird that reached Jahangir through Portuguese Goa",
+    "new": "an American bird that reached Jahangir among rarities bought on the western coast in 1612"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "eye:mansur",
+  "severity": "doubt",
+  "problem": "Bio says the turkey came through Portuguese Goa; the V&A record says Cambay.",
+  "fix": {
+   "text_replace": {
+    "old": "records an American bird that came through Portuguese Goa",
+    "new": "records an American bird bought for Jahangir among rarities on the western coast"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:5",
+  "severity": "doubt",
+  "problem": "In Foster's text Letter I (to Whitaker) carries a postscript on news received on 8 October; the postscript of 8 November 1615 belongs to Letter III (to the Mermaid wits), not to the two Michaelmas letters.",
+  "fix": {
+   "text_replace": {
+    "old": "The letters, with a postscript of 8 November, reported",
+    "new": "A postscript to the first, on news received on 8 October, reported"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:36",
+  "severity": "error",
+  "problem": "Kerr's reprint places the Venus-and-satyr audience after Roe's entry for 11 [February] 1617 (the emperor's visit to the dervish near Ujjain) and before 'On the 3d of March we arrived at Mundu'. It happened in the camp on the march, not at Mandu between March and May.",
+  "fix": {
+   "date_iso": "1617-02",
+   "date_display": "between 11 February and 3 March 1617 (O.S.), on the march near Ujjain; undated in Kerr's text",
+   "place": "The royal camp on the march to Mandu, the ghusalkhana",
+   "quote": "Venus leading a satyr by the nose",
+   "source_note": "Roe's journal (Kerr, vol. 9, from Purchas 1625): after the entry of the 11th (the visit to the dervish near Ujjain) and before 3 March, when the camp reached Mandu. Terry is named in the passage."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "claim:10",
+  "severity": "error",
+  "problem": "The Venus-and-satyr episode falls between 11 February and 3 March 1617 (O.S.), on the march, not in spring at Mandu.",
+  "fix": {
+   "date_iso": "1617-02",
+   "date_display": "February 1617 (O.S.), on the march"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "convergence:5",
+  "severity": "error",
+  "problem": "The chests were opened on the march, before the court reached Mandu (Roe arrived there on 3 March O.S.); Jahangir's letter to James I is dated February 1617, i.e. the same weeks, not 'a few weeks earlier'.",
+  "fix": {
+   "date": "1617-02",
+   "label": "The chests opened on the march",
+   "note": "Jahangir had the chests brought to him privately on the march towards Mandu, opened them himself and asked what an English Venus and satyr meant. Roe suspected an insult was being read into it, and Terry was asked for his opinion and silenced by Roe. In the same month Jahangir wrote to James I asking for rarities, so the seized chests held the kind of thing he had asked for."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:34",
+  "severity": "error",
+  "problem": "Roe's journal says the camp arrived at Mandu on 3 March (O.S.) and had to wait outside for the astrologers' hour; Roe entered on the 6th, when his servants had taken a walled court with a temple and a tomb, the best quarters though two miles from the king's house.",
+  "fix": {
+   "date_iso": "1617-03-16",
+   "date_display": "6 March 1617 (O.S.); the camp had arrived outside on 3 March",
+   "digest": "Roe reached Mandu with the camp on 3 March but had to wait outside while the astrologers fixed the emperor's hour of entry. He went in on the 6th, and his servants had already taken over a walled courtyard holding a temple and a tomb, the best quarters on the hill though two miles from the king's house. Over the following months a lion and a wolf would get into the yard at night."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "convergence:4",
+  "severity": "error",
+  "problem": "Roe's Old Style 3 March is the day the camp arrived outside Mandu waiting for the emperor's auspicious hour, not a day on which he records the emperor's entry; Roe himself entered on the 6th.",
+  "fix": {
+   "text_replace": {
+    "old": "Jahangir enters his repaired palaces on the day Roe's Old Style journal calls 3 March. Roe camps in a ruined courtyard with a tomb.",
+    "new": "Jahangir records entering his repaired palaces on Monday 23 Isfandarmuz (13 March). Roe's camp had arrived outside on that day (his Old Style 3 March) to wait for the astrologers' hour, and on the 6th he moved into a ruined courtyard with a tomb."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:29",
+  "severity": "error",
+  "problem": "The tamarind passage is dated 'the 26th' in entries following 1 Bahman (= 20 January 1617, as the translators give it) and before the Jadrup visit near Ujjain, so it falls about mid-February 1617, not January.",
+  "fix": {
+   "date_iso": "1617-02",
+   "date_display": "the 26th, probably of Bahman, regnal year 11 (about mid-February 1617)",
+   "source_note": "Tuzuk, trans. Rogers & Beveridge, vol. 1, p. 353 (entry 'On the 26th', after the anchor of 1 Bahman = 12 Muharram 1026 = 20 January 1617). The Ilahi month is inferred."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "claim:9",
+  "severity": "error",
+  "problem": "Tamarind order dates to about mid-February 1617, not January.",
+  "fix": {
+   "date_iso": "1617-02",
+   "date_display": "about February 1617"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:45",
+  "severity": "error",
+  "problem": "The memoir does not confer the title on this day: it calls Abu'l Hasan the painter 'who has been honoured with the title of Nadiru-z-zaman' (vol. 2, p. 20). The title was already held.",
+  "fix": {
+   "text_replace": {
+    "old": "rewarded Abu'l Hasan for the picture of his accession painted as the frontispiece of the Jahangirnama and gave him the title Nadir al-Zaman.",
+    "new": "rewarded Abu'l Hasan, already honoured with the title Nadir al-Zaman, for the picture of his accession painted as the frontispiece of the Jahangirnama."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:45",
+  "severity": "style",
+  "problem": "Headline implies titles were granted that day; the passage names titles already held.",
+  "fix": {
+   "headline": "Two painters praised by title, and a boast of the expert eye"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "claim:13",
+  "severity": "error",
+  "problem": "Title Nadir al-Zaman was already held when the frontispiece was presented.",
+  "fix": {
+   "claim": "Accession frontispiece of the Jahangirnama presented and rewarded; the memoir names the painter by his title Nadir al-Zaman, already held"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "eye:abul-hasan",
+  "severity": "error",
+  "problem": "Bio says Jahangir gave the title in 1618 for the accession picture; the memoir's 1618 passage describes him as already honoured with it.",
+  "fix": {
+   "text_replace": {
+    "old": "In 1618 he gave him the title Nadir al-Zaman, 'Wonder of the Age', for the accession picture painted as the frontispiece of the memoir.",
+    "new": "By 1618, when Jahangir rewarded him for the accession picture painted as the frontispiece of the memoir, he already held the title Nadir al-Zaman, 'Wonder of the Age'."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:26",
+  "severity": "doubt",
+  "problem": "Rogers-Beveridge print 'Tuesday, the 1st Zi-l-qa'da (10th November, 1616)'. The 12 November used here follows Roe (2 November O.S.) and the Aban count, which is reasonable, but the translators' note correcting the weekday to Saturday could not be seen; the source note should state the printed equivalent.",
+  "fix": {
+   "source_note": "Tuzuk, trans. Rogers & Beveridge, vol. 1, p. 340, which prints 'Tuesday, the 1st Zi-l-qa'da (10th November, 1616)'. The day here follows Roe's journal (2 November O.S. = 12 November) and the Ilahi count; 12 November 1616 was a Saturday.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:17",
+  "severity": "doubt",
+  "problem": "Kerr's text suggests Asaf Khan signed to Roe to take off his hat and Roe put the chain round his own neck, rather than Asaf Khan hanging it on him.",
+  "fix": {
+   "headline": "Asaf Khan delivers the emperor's portrait to Roe"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "eye:asaf-khan",
+  "severity": "doubt",
+  "problem": "As above, Asaf Khan directed rather than performed the hanging of the portrait, on Kerr's text.",
+  "fix": {
+   "text_replace": {
+    "old": "and hung the emperor's portrait round Roe's neck",
+    "new": "and directed Roe in receiving the emperor's portrait"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "convergence:1",
+  "severity": "doubt",
+  "problem": "Same point: Asaf Khan presented the portrait and directed Roe; Roe appears to have put it on himself.",
+  "fix": {
+   "text_replace": {
+    "old": "later hung the emperor's portrait round Roe's neck",
+    "new": "later presented the emperor's portrait to Roe"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "eye:bishandas",
+  "severity": "doubt",
+  "problem": "First waypoint says Bishandas left Ajmer with Khan Alam in 1613, but the chapter's own entry (Tuzuk vol. 1, p. 248) has Khan Alam given leave while the court was at Agra, about to leave for Ajmer.",
+  "fix": {
+   "waypoints": [
+    {
+     "lat": 27.18,
+     "lon": 78.01,
+     "label": "Leaves the court with Khan Alam, 1613"
+    },
+    {
+     "lat": 32.65,
+     "lon": 51.67,
+     "label": "Safavid Persia, 1614–19"
+    },
+    {
+     "lat": 32.02,
+     "lon": 75.15,
+     "label": "Returns at Kalanaur, Jan 1620"
+    }
+   ]
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "threads_out:1",
+  "severity": "doubt",
+  "problem": "The closing clause (angels holding Jahangir's descent from Timur in allegories 'of these years') rests on no cited or checked work; the Clavijo–Timur link stands without it.",
+  "fix": {
+   "text_replace": {
+    "old": " Coryate's Persian speech asked Jahangir for a pass to Samarkand, Timur's city, and the Mughal allegories of these years show angels holding Jahangir's descent from Timur.",
+    "new": " Coryate's Persian speech asked Jahangir for a pass to Samarkand, Timur's city."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "jahangir-1615",
+  "where": "entry:41",
+  "severity": "style",
+  "problem": "Entry about Coryate's death is filed under Terry, who wrote of it only in 1655; the digest says so, which is acceptable, but the form is later narrative.",
+  "fix": {
+   "text_replace": {
+    "old": "Terry later wrote the fullest English portrait of him",
+    "new": "Terry, who knew him, later wrote the fullest English portrait of him"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "exposition-1889",
+  "where": "eye:goncourt",
+  "severity": "error",
+  "problem": "Volume VIII of the Journal des Goncourt (covering 1889–1891) was published in 1895, not 1894.",
+  "fix": {
+   "text_replace": {
+    "old": "the volume covering 1889 appeared in 1894",
+    "new": "the volume covering 1889 appeared in 1895"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "exposition-1889",
+  "where": "entry:7",
+  "severity": "error",
+  "problem": "Jo wrote that 'of course we did not go to the exhibition, but enjoyed ourselves in our own way'; she does not say they stayed at home.",
+  "fix": {
+   "headline": "Jo and Theo skip the opening of the fair",
+   "digest": "Jo told Vincent that Monday had been a holiday for the art shops, which closed for the opening of the exhibition. She and Theo did not go to the fair but spent the day in their own way. She had been in Paris less than three weeks."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "exposition-1889",
+  "where": "entry:21",
+  "severity": "error",
+  "problem": "Theo's letter of 16 July says De Haan had been to Paris, sent Jo a huge bunch of poppies and 'likes what you do very much'; it does not report De Haan saying Gauguin was doing very fine work.",
+  "fix": {
+   "text_replace": {
+    "old": "Jacob Meyer de Haan, now painting beside Gauguin in Brittany, reported that he was doing very fine work.",
+    "new": "Jacob Meyer de Haan, Gauguin's companion in Brittany, had called, sent Jo a great bunch of poppies and, Theo said, much admired Vincent's work."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "exposition-1889",
+  "where": "entry:8",
+  "severity": "doubt",
+  "problem": "The tower's official site dates the lifts from 26 May 1889 and gives 1,953,122 visitors in 1889; 'later in the season' is vague and the total should be tied to that source.",
+  "fix": {
+   "digest": "Visitors were admitted to the tower, but at first they had to climb the stairs because the lifts were still being finished. According to the tower's official site the lifts ran from 26 May. By the close of the Exposition nearly two million people had gone up (the site gives 1,953,122).",
+   "source_note": "Tour Eiffel official site, 'The Eiffel Tower during the 1889 Exposition Universelle' (lifts from 26 May; 1,953,122 visitors). Public opening day from standard accounts."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "exposition-1889",
+  "where": "entry:3",
+  "severity": "doubt",
+  "problem": "The Kyoto SEAS study gives 59–60 people, 'mostly men, with some women and children'; the split 'roughly forty men and twenty women' is not supported there.",
+  "fix": {
+   "text_replace": {
+    "old": "roughly forty men and twenty women",
+    "new": "mostly men, with some women and children"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "exposition-1889",
+  "where": "entry:31",
+  "severity": "error",
+  "problem": "The Java papers of late November reported the planned departure (the group 'were to leave' by the 11 a.m. express for Genoa); late November is the report date, not the departure date. The five who left early were reported in July.",
+  "fix": {
+   "date_display": "November 1889 (as reported in Java papers, 23 and 26 November)",
+   "headline": "Fifty-four Javanese to leave Paris on the morning express",
+   "digest": "Java newspapers reported that fifty-four people from the kampong were to leave Paris on the eleven o'clock express, travel by train to Genoa and sail for Java. Five others had already gone home early because of illness in their families. On arrival the groups were to split for Bandung, the tea estates, and Solo and Yogyakarta."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "exposition-1889",
+  "where": "entry:37",
+  "severity": "doubt",
+  "problem": "The Kyoto SEAS article describes the record as a Mangkunegaran palace document dated 15 October 1929; that it was 'drawn from participants' memories' is not stated there.",
+  "fix": {
+   "text_replace": {
+    "old": "Drawn from participants' memories forty years on, it is the nearest surviving thing to the performers' own account.",
+    "new": "Dated 15 October 1929, forty years after the fair, it is the nearest surviving thing to the performers' own account."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "exposition-1889",
+  "where": "eye:kampong",
+  "severity": "doubt",
+  "problem": "Same point: the 1929 record's reliance on participants' memories is not established by the cited study.",
+  "fix": {
+   "text_replace": {
+    "old": "A Javanese-language account kept at the Mangkunegaran court (1929) draws on participants' memories.",
+    "new": "A Javanese-language record kept at the Mangkunegaran court, dated 15 October 1929, describes the journey forty years later."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "exposition-1889",
+  "where": "threads_out:1",
+  "severity": "doubt",
+  "problem": "Debussy's and Ravel's presence at the Rite premiere is commonly reported but the linked chapter does not establish it; state it as report.",
+  "fix": {
+   "text_replace": {
+    "old": "months before he sat in the audience at the premiere of The Rite of Spring. Its composer, Stravinsky, was Rimsky-Korsakov's pupil, and Ravel, said to have heard Rimsky's 1889 concerts, was also at the premiere.",
+    "new": "months before the premiere of The Rite of Spring, which he is reported to have attended. Its composer, Stravinsky, was Rimsky-Korsakov's pupil, and Ravel, said to have heard Rimsky's 1889 concerts, is also reported to have been at the premiere."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "exposition-1889",
+  "where": "convergence:3",
+  "severity": "doubt",
+  "problem": "That the same young musicians heard both the Russian concerts and the gamelan 'that June' rests on later recollection (Ravel–Viñes, Godet), and Debussy's visits are undated.",
+  "fix": {
+   "text_replace": {
+    "old": "were heard by the same young Paris musicians that June.",
+    "new": "drew some of the same young Paris musicians that summer, by later accounts."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "exposition-1889",
+  "where": "tie:13",
+  "severity": "doubt",
+  "problem": "Kind 'met' is unsupported: no source given shows Edison and the Wild West company meeting in 1889; the 1894 filming of Oakley was at Edison's studio, not a Paris meeting.",
+  "fix": {
+   "kind": "same street"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "exposition-1889",
+  "where": "image:2",
+  "severity": "doubt",
+  "problem": "Caption asserts that such photographs were sold to visitors and that names were never printed on them; neither is established by the dealer listing.",
+  "fix": {
+   "caption": "A period photograph of dancers from the Javanese kampong, offered on the art market. No names of the dancers accompany this print."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "exposition-1889",
+  "where": "entry:1",
+  "severity": "style",
+  "problem": "Alphand's answer, per the Lettres volées dossier, was a separate letter to the signatories ending 'Nous construisons la tour Eiffel'; it was not part of the same-day newspaper reply. Make the sequence explicit.",
+  "fix": {
+   "text_replace": {
+    "old": "Alphand also replied that the tower would be the centrepiece of the fair.",
+    "new": "Alphand later answered the signatories in a letter of his own, which ended by saying that the tower would be built."
+   }
+  },
+  "confidence": "approx"
+ }
+]

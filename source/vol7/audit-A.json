@@ -1,0 +1,289 @@
+[
+ {
+  "chapter": "balloons-1783",
+  "where": "entry:2",
+  "severity": "error",
+  "problem": "Misstates Chapin's position. The Founders Online note says Chapin, tracing the versions, reached the opposite conclusion to the editors and credited Le Roy's recollection, citing Le Roy's close friendship with Franklin. It does not say he judged the remark a legendary embellishment.",
+  "fix": {
+   "text_replace": {
+    "old": "the editors of his papers think Grimm's version Franklinian, while S. L. Chapin judged it a legendary embellishment.",
+    "new": "the editors of his papers think the rejoinder Grimm noted at the time sounds the most Franklinian, while S. L. Chapin, who traced its many versions, preferred the wording later recalled by Franklin's friend Le Roy."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balloons-1783",
+  "where": "eye:franklin",
+  "severity": "doubt",
+  "problem": "Overstates the dispute. The sources argue over which version gives the wording; neither says the remark itself is inauthentic.",
+  "fix": {
+   "text_replace": {
+    "old": "and its authenticity is debated.",
+    "new": "and which version preserves his actual words is debated."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balloons-1783",
+  "where": "entry:41",
+  "severity": "error",
+  "problem": "The Franklin editors' note puts Jeffries in Paris on 11 January 1785, but his first call on Franklin at Passy was on the evening of 14 January, not that same evening.",
+  "fix": {
+   "text_replace": {
+    "old": "and that evening called on Benjamin Franklin at Passy, where he dined several times over the following month before leaving on 21 February.",
+    "new": "and on the evening of 14 January called on Benjamin Franklin at Passy, where he dined several times over the following month before leaving Paris on 21 February."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balloons-1783",
+  "where": "convergence:7",
+  "severity": "error",
+  "problem": "Jeffries first visited Franklin on 14 January, a week after the crossing, not four days later.",
+  "fix": {
+   "text_replace": {
+    "old": "four days later the American Loyalist doctor is dining with the American minister at Passy.",
+    "new": "a week later the American Loyalist doctor is calling on the American minister at Passy."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balloons-1783",
+  "where": "entry:30",
+  "severity": "error",
+  "problem": "The ascent time is wrong. Lunardi's letter puts the North Mymms touchdown at half past three, and the final Standon landing was at 4.20 pm. With the chapter's own figure of about 2¼ hours aloft, he went up around two o'clock, not before one.",
+  "fix": {
+   "text_replace": {
+    "old": "went up alone shortly before one o'clock",
+    "new": "went up alone at about two o'clock"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "balloons-1783",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "Times can be added from Lunardi's own letter as quoted by North Mymms local history: down in a cornfield at half past three, landing at Standon at 4.20 pm.",
+  "fix": {
+   "text_replace": {
+    "old": "briefly came down in a field at North Mymms",
+    "new": "briefly came down in a cornfield at North Mymms at about half past three"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balloons-1783",
+  "where": "entry:23",
+  "severity": "style",
+  "problem": "Franklin estimated '3 or 400 Toises'. The 300 figure is the editors' gloss.",
+  "fix": {
+   "text_replace": {
+    "old": "the balloon rising perhaps 300 toises",
+    "new": "the balloon rising, he guessed, 300 or 400 toises"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balloons-1783",
+  "where": "entry:26",
+  "severity": "doubt",
+  "problem": "The Lyon ascent of Le Flesselles is usually dated 19 January 1784. This was not re-verified with a fetched source here, so the entry stays approximate.",
+  "fix": {
+   "date_display": "January 1784 (usually dated 19 January)",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "steam-water",
+  "where": "intro:3",
+  "severity": "error",
+  "problem": "The fire was on 31 March 1838 and the ship left Bristol on 8 April: eight days, not ten.",
+  "fix": {
+   "text_replace": {
+    "old": "nearly burned on the Thames ten days before her maiden voyage",
+    "new": "nearly burned on the Thames eight days before her maiden voyage"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "steam-water",
+  "where": "eye:brunel",
+  "severity": "error",
+  "problem": "Same arithmetic: the fire on 31 March was eight days before the 8 April sailing.",
+  "fix": {
+   "text_replace": {
+    "old": "Ten days before the maiden voyage he nearly died",
+    "new": "Eight days before the maiden voyage he nearly died"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "steam-water",
+  "where": "entry:6",
+  "severity": "doubt",
+  "problem": "Dickinson ch. IX says the older boat got the distinctive name 'Clermont' only after the Car of Neptune was built (about 1810), while other accounts credit Colden's 1817 Life. Present this as uncertain.",
+  "fix": {
+   "text_replace": {
+    "old": "The boat had no proper name yet; 'Clermont' was given her only in Colden's 1817 biography.",
+    "new": "The boat had no proper name yet; 'Clermont' attached to her only later, a renaming Dickinson puts around 1810 and others credit to Colden's 1817 biography."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "steam-water",
+  "where": "entry:12",
+  "severity": "error",
+  "problem": "Dickinson's text of the 29 August letter has Fulton 'making every effort to get off on Monday morning' and fitting each cabin 'with twelve berths'. It does not explain a lay-up of more than a fortnight; she sailed again on 4 September.",
+  "fix": {
+   "text_replace": {
+    "old": "Fulton explained to Livingston why the boat would be out of service for more than a fortnight: she needed boarding, decking and cabin berths before she could carry paying passengers.",
+    "new": "Fulton told Livingston he was making every effort to have her ready to sail again, finishing each cabin with twelve berths so that she could carry paying passengers."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "steam-water",
+  "where": "eye:pjay",
+  "severity": "style",
+  "problem": "The letter does not say he travelled by sloop. It calls the passage 'rather long' and names no vessel.",
+  "fix": {
+   "text_replace": {
+    "old": "travelling up the Hudson by sailing sloop on his wedding journey",
+    "new": "travelling up the Hudson under sail (the letter names no vessel) on his wedding journey"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "steam-water",
+  "where": "eye:lardner",
+  "severity": "error",
+  "problem": "Lardner held the UCL (London University) chair from 1828 and resigned in 1831, so he was not a professor there in 1836.",
+  "fix": {
+   "text_replace": {
+    "old": "Irish-born professor of natural philosophy at University College London, aged about 43 in 1836",
+    "new": "Irish-born former professor of natural philosophy and astronomy at University College London (1828–31), aged about 43 in 1836"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "steam-water",
+  "where": "entry:24",
+  "severity": "doubt",
+  "problem": "Sources disagree on where 'perfectly chimerical' was said. Farr is cited for the December 1835 Liverpool lecture, but other summaries (e.g. Wikipedia) attach the phrase to the 1836 British Association meeting. The quote is pre-1929 English and may stay, but the source note should flag the discrepancy.",
+  "fix": {
+   "source_note": "Farr, The Steamship Great Western (Bristol Historical Association), quoting contemporary reports; some modern summaries attach the phrase 'perfectly chimerical' to the 1836 British Association meeting instead."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "steam-water",
+  "where": "threads_out:0",
+  "severity": "doubt",
+  "problem": "The quoted word 'pretenders' attributed to Fulton's writing is unsourced. The 22 August 1787 demonstration to Convention delegates is a real link and stays.",
+  "fix": {
+   "text_replace": {
+    "old": " Fitch's earlier boats were among the 'pretenders' Fulton's later writing dismissed in the priority quarrels.",
+    "new": " Fitch's priority was later invoked against Fulton and Livingston's claims to the invention."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "steam-water",
+  "where": "threads_out:1",
+  "severity": "style",
+  "problem": "The Louisiana Purchase treaty was signed in April–May 1803 and the Seine trial was in August, so 'same year' is more accurate than 'same summer'.",
+  "fix": {
+   "text_replace": {
+    "old": "in 1803, the same summer Fulton tried his boat on the Seine",
+    "new": "in 1803, the same year Fulton tried his boat on the Seine"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rainhill-1830",
+  "where": "entry:20",
+  "severity": "error",
+  "problem": "Booth's line 'What was quick is now slow; what was distant is now near' was found only in secondary sources (pittdixon.co.uk, modern books). It was not checked in a fetched text of Booth's 1830 Account, so the brief requires removing the quote.",
+  "fix": {
+   "quote": "",
+   "source_note": "Booth, Account (Liverpool, 1830); a line on distance and time often attributed to it was not checked against the text. Publication month not confirmed."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rainhill-1830",
+  "where": "eye:kemble",
+  "severity": "error",
+  "problem": "'Half in love' is not her phrase. The letter of 26 August 1830 (fetched, Gutenberg 16478) says 'with whom I am most horribly in love'.",
+  "fix": {
+   "text_replace": {
+    "old": "who fell, as she put it, half in love with George Stephenson and his engine.",
+    "new": "who declared herself, in a letter, 'most horribly in love' with George Stephenson."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rainhill-1830",
+  "where": "entry:31",
+  "severity": "error",
+  "problem": "Her 20 September 1830 letter says she was in the procession but at first separated from her mother, and that her place behind the great carriage spared her from seeing the accident. Her mother rejoined her later by exchanging seats.",
+  "fix": {
+   "digest": "Kemble rode in the procession, at first separated from her mother, who later rejoined her by exchanging seats. Her place behind the Duke's great carriage spared her from seeing the accident at Parkside. Like most of the passengers, she learned what had happened only in pieces as the day went on, and Lady W—— then took the party home to Heaton.",
+   "source_note": "Letter headed 'Manchester, September 20, 1830', Record of a Girlhood (1878)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rainhill-1830",
+  "where": "entry:41",
+  "severity": "style",
+  "problem": "Confirmed: letter headed 'GREAT RUSSELL STREET, March 5, 1831' with 'I wish to God it were over!'. The place could read London.",
+  "fix": {
+   "place": "Great Russell Street, London"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rainhill-1830",
+  "where": "entry:17",
+  "severity": "style",
+  "problem": "Creevey 1829 wording confirmed in extract ('it is really flying, and it is impossible to divest yourself of the notion of instant death'; 'the quickest motion is to me frightful'). The extract also gives a top rate of 23 mph alongside 20.",
+  "fix": {
+   "text_replace": {
+    "old": "rode behind an engine at about twenty miles an hour",
+    "new": "rode behind an engine at about twenty miles an hour, at one point twenty-three"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rainhill-1830",
+  "where": "entry:37",
+  "severity": "style",
+  "problem": "The letter has 'Lady W----' (three yards from the spot), not the full name. The identification as Lady Wilton is editorial and fine, but this could say so.",
+  "fix": {
+   "text_replace": {
+    "old": "with the story she had from Lady Wilton,",
+    "new": "with the story she had from 'Lady W——' (Lady Wilton),"
+   }
+  },
+  "confidence": "verified"
+ }
+]

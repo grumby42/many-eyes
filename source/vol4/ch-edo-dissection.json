@@ -1,0 +1,1191 @@
+{
+ "id": "edo-dissection",
+ "title": "The Body on the Execution Ground: Anatomy, Translation and Credit in Edo",
+ "short_title": "Dissection in Edo",
+ "subtitle": "From the Kyoto dissection of 1754 to Kotsugahara (1771) and the Kaitai Shinsho (1774), with Thunberg's Edo visit of 1776",
+ "span": "1754–1815",
+ "intro": [
+  "Before dawn on the fourth day of the third month of Meiwa 8 (18 April 1771 in the Western calendar), three physicians walked out to Kotsugahara, the execution ground at Senju on Edo's northern edge. Sugita Genpaku and Nakagawa Jun'an were doctors to the Obama domain. Maeno Ryōtaku served the Nakatsu domain and was nearly fifty. Each of them carried a Dutch anatomy book that none of them could read: Ontleedkundige Tafelen, the 1734 Amsterdam translation of Johann Adam Kulmus's Anatomische Tabellen (Danzig, 1722). The body was that of a woman of about fifty, born in Kyoto and executed for a serious crime. Edo people knew her only by a nickname, Aochababa, the 'green-tea hag'. Her name is not recorded.",
+  "The man who did the cutting is the most important person in the story who left no writing of his own. Dissection was work for the outcaste community (eta and hinin), the same people whose hereditary trades included handling dead cattle and horses. The usual dissector, Toramatsu, was ill that day. His grandfather, about ninety and still strong, took his place. As Sugita remembered it, the old man had opened bodies since his youth and named each organ as he went. He pointed out structures he had no name for and said they were always in the same place. He also remarked that the physicians who had watched before him never asked him anything. The Dutch plates matched what he showed them. The Chinese charts of the 'five viscera and six bowels' did not. This chapter does not describe the body. It follows the record: who looked, what they compared, and what they did next.",
+  "On the walk home the three men agreed to translate the book themselves, without relying on the Nagasaki interpreters. They started the next day at Maeno's lodging in the Nakatsu residence at Teppōzu. Maeno knew the most Dutch, after about a hundred days of study in Nagasaki in 1770 and a dictionary he had bought there. Katsuragawa Hoshū, the young son of a shogunal physician, soon joined them. The work went word by word, and it took three years and many drafts. A trial booklet of plates, Kaitai Yakuzu, came out in 1773. The full Kaitai Shinsho was published in 1774. Its plates were drawn by Odano Naotake, an Akita samurai painter whom the polymath Hiraga Gennai had trained in Western-style drawing and introduced to Sugita.",
+  "The race in this chapter runs against ignorance and caution, not against a rival laboratory. The prologue belongs to Yamawaki Tōyō in Kyoto, who saw a beheaded man dissected in 1754 and published Zōshi in 1759. That was the first Japanese account of an observed dissection, and Sugita knew of it. The question of priority is really a question of credit. Maeno Ryōtaku, who did more of the translating than anyone else, would not let his name go on the book. The title page names Sugita as translator, Nakagawa as collator and Katsuragawa as reviewer. Only the preface, by the Nagasaki interpreter Yoshio Kōgyū, speaks of Maeno's labour.",
+  "The record is mostly not a diary. The central narrative comes from Sugita's memoir Rangaku Kotohajime ('The Beginnings of Dutch Learning'), written in 1815, forty-four years later, when he was over eighty. It is vivid, generous to Maeno, and unavoidably shaped by memory. Around it this chapter sets dated and printed evidence: Yamawaki's Zōshi, the imprint of the Kaitai Shinsho, the Dutch East India Company's Dejima registers, the Swedish physician Carl Peter Thunberg's published Travels (1776 in Edo, written up years later), and the dated Dutch-language letters that Nakagawa and Katsuragawa sent to Thunberg after he left. Each entry's form tag says which kind of source it is."
+ ],
+ "calendar_note": "Japanese dates are lunisolar: era name, year, month and day (Meiwa 8 is 1771; An'ei 3 is 1774; Hōreki 4 is 1754). English books often print the lunisolar 'third month, fourth day' as '4 March 1771'. It is not a Western date. In this chapter date_iso always holds the Gregorian equivalent and date_display the original. The Kotsugahara dissection (Meiwa 8, 3rd month, 4th day) falls on 18 April 1771. The 1754 Kyoto dissection (Hōreki 4, 2nd month, 7th day; most Japanese accounts say it was the intercalary 2nd month) is given as 30 March 1754, following the Japanese source cited. Both conversions follow published equivalents and were not recomputed here. Where only an era year or month is known, precision is 'year' or 'month'. Nakagawa's 1777 letter to Thunberg carries a Japanese date written as if it were Western ('11 March'); the Gregorian date is 18 April 1777.",
+ "eyes": [
+  {
+   "id": "sugita",
+   "short": "Sugita Genpaku",
+   "name": "Sugita Genpaku (杉田玄白)",
+   "life": "1733–1817",
+   "role": "Physician to the Obama domain in Edo, aged 38 in 1771; surgeon by family training",
+   "side": "Japanese physicians of the rangaku circle",
+   "where": "Obama domain circle in Edo; Kotsugahara; Maeno's lodging at Teppōzu",
+   "lat": 35.684,
+   "lon": 139.774,
+   "waypoints": [
+    {
+     "lat": 35.7325,
+     "lon": 139.799,
+     "label": "Kotsugahara execution ground, Senju (18 Apr 1771)"
+    },
+    {
+     "lat": 35.667,
+     "lon": 139.774,
+     "label": "Maeno's lodging, Nakatsu residence at Teppōzu (translation sessions from 19 Apr 1771)"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "at the dissection; named translator of the book",
+   "form": "memoir (written later)",
+   "language": "Japanese (classical)",
+   "authenticity": "Rangaku Kotohajime was written in 1815 (Bunka 12), 44 years after the events, and circulated in manuscript. It was first printed in 1869. It is the main source for the dissection-day narrative and cannot be checked against a contemporary diary. Its dates and dialogue are an old man's memories, and its tone is generous to colleagues. English translation: Ryōzō Matsumoto, Dawn of Western Science in Japan (Hokuseido, 1969).",
+   "bio": "A surgeon's son who wanted to see whether the Dutch pictures were true. He was the organiser of the project, not its best linguist. He pushed the group to start with the plates, drove the drafts toward print, and accepted the risk of publishing. His memoir is how we see the day at all, and it is also the account that put him at the centre.",
+   "sources": [
+    {
+     "title": "Excerpt in English: Sugita Genpaku on the dissection (Japan Society, from Matsumoto tr.)",
+     "url": "https://aboutjapan.japansociety.org/resources/content/4/9/2/7/documents/JpS-Doc19-Sugita-dissection-final-copy.pdf"
+    },
+    {
+     "title": "Japan Society: 'I would like to read this book: Rangaku Kotohajime'",
+     "url": "https://aboutjapan.japansociety.org/rangaku_kotohajime"
+    },
+    {
+     "title": "Nagoya University Medical Library: Kaitai Shinsho (1774) imprint",
+     "url": "https://www.med.nagoya-u.ac.jp/medlib/history_en/archive/print/archive50.html"
+    }
+   ]
+  },
+  {
+   "id": "maeno",
+   "short": "Maeno Ryōtaku",
+   "name": "Maeno Ryōtaku (前野良沢)",
+   "life": "1723–1803",
+   "role": "Physician to the Nakatsu domain, aged about 48; the only one of the group with real (if limited) Dutch",
+   "side": "Japanese physicians of the rangaku circle",
+   "where": "Kotsugahara; host of the translation meetings at the Nakatsu residence, Teppōzu",
+   "lat": 35.667,
+   "lon": 139.774,
+   "waypoints": [
+    {
+     "lat": 32.744,
+     "lon": 129.873,
+     "label": "Nagasaki, about 100 days of Dutch study (1770)"
+    },
+    {
+     "lat": 35.7325,
+     "lon": 139.799,
+     "label": "Kotsugahara (18 Apr 1771)"
+    },
+    {
+     "lat": 35.667,
+     "lon": 139.774,
+     "label": "Teppōzu, translation table (1771–74)"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the lead translator, missing from the title page",
+   "form": "memoir (written later)",
+   "language": "Japanese / Dutch",
+   "authenticity": "Maeno left no diary of these years. His part is known from Sugita's memoir, from Yoshio Kōgyū's preface to the Kaitai Shinsho, and from an 1804 draft memorial inscription that records his vow at Dazaifu Tenmangū to study for learning and not for fame. Historians also suggest he knew the translation was imperfect and did not want his name on it. His entries here are reconstructions from those sources, flagged as such.",
+   "bio": "Older and slower to speak than Sugita, and the one who actually knew some Dutch. He had studied in Nagasaki and bought a dictionary there. He took on the hardest part of the work and then declined the credit. He is the clearest case in this book of a principal worker kept out of the official record, and the decision was his own.",
+   "sources": [
+    {
+     "title": "Weblio summary of Kaitai Shinsho (Maeno's vow and omission)",
+     "url": "https://www.weblio.jp/content/%E8%A7%A3%E9%AB%94%E6%96%B0%E6%9B%B8"
+    },
+    {
+     "title": "More Than Tokyo: 'How a headless woman sparked a medical revolution'",
+     "url": "https://www.morethantokyo.com/?p=7201"
+    }
+   ]
+  },
+  {
+   "id": "nakagawa",
+   "short": "Nakagawa Jun'an",
+   "name": "Nakagawa Jun'an (中川淳庵)",
+   "life": "1739–1786",
+   "role": "Physician and naturalist of the Obama domain, aged about 32; colleague of Sugita",
+   "side": "Japanese physicians of the rangaku circle",
+   "where": "Edo: Kotsugahara, the translation table, the Nagasakiya inn where the Dutch lodged",
+   "lat": 35.687,
+   "lon": 139.7735,
+   "waypoints": [
+    {
+     "lat": 35.7325,
+     "lon": 139.799,
+     "label": "Kotsugahara (18 Apr 1771)"
+    },
+    {
+     "lat": 35.687,
+     "lon": 139.7735,
+     "label": "Nagasakiya inn, Nihonbashi: visits to Thunberg (May 1776)"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "at the dissection; collator of the book; correspondent of Thunberg",
+   "form": "dated letters",
+   "language": "Japanese; letters in Dutch",
+   "authenticity": "His Dutch-language letters to Thunberg (1777, 1778, 1782) survive and have been edited in a Kyoto University of Foreign Studies study. One letter has been attributed to both Thunberg and Titsingh as recipient. His dissection-day role is known only from Sugita's memoir.",
+   "bio": "A natural historian with an eye for minerals and plants, and an old collaborator of Hiraga Gennai. The title page names him as collator. Five years later he was one of the two Japanese whom Thunberg called his disciples, and he was still writing to Thunberg in Dutch, asking for dictionaries, after Thunberg had gone home.",
+   "sources": [
+    {
+     "title": "Ignis 3: Thunberg's Japanese correspondents (letters of Nakagawa and Katsuragawa)",
+     "url": "https://kufs.repo.nii.ac.jp/record/2000010/files/Ignis03_8.pdf"
+    },
+    {
+     "title": "Nakagawa Jun'an (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Nakagawa_Jun%27an"
+    }
+   ]
+  },
+  {
+   "id": "katsuragawa",
+   "short": "Katsuragawa",
+   "name": "Katsuragawa Hoshū (桂川甫周)",
+   "life": "1751–1809",
+   "role": "Son of shogunal physician Katsuragawa Hosan; about 20 in 1771, later a shogunal physician himself",
+   "side": "Shogunal medical household; rangaku circle",
+   "where": "Edo, the translation table and the Nagasakiya",
+   "lat": 35.686,
+   "lon": 139.77,
+   "vantage": 1,
+   "vantage_label": "youngest of the translators; the shogunate's insider",
+   "form": "dated letters",
+   "language": "Japanese; letters in Dutch",
+   "authenticity": "Named as reviewer (閲) in the Kaitai Shinsho imprint. His dated Dutch letter of 20 April 1782 to Thunberg survives. His father Hosan lent Dutch books and presented the work to the shogun's inner palace to protect it from a ban.",
+   "bio": "The youngest member, and the one whose family connections protected the project. Through his father, the shogunal physician Hosan, the group could borrow Dutch books and get the finished book accepted at court. In 1776 he went with Nakagawa to question Thunberg in Edo, and he kept writing to him for years.",
+   "sources": [
+    {
+     "title": "NDL, Japan–Netherlands exchange: Katsuragawa Hoshū and Thunberg",
+     "url": "https://www.ndl.go.jp/nichiran/e/s2/s2_1_2.html"
+    },
+    {
+     "title": "Ignis 3: Thunberg's correspondents",
+     "url": "https://kufs.repo.nii.ac.jp/record/2000010/files/Ignis03_8.pdf"
+    }
+   ]
+  },
+  {
+   "id": "yamawaki",
+   "short": "Yamawaki Tōyō",
+   "name": "Yamawaki Tōyō (山脇東洋)",
+   "life": "1706–1762",
+   "role": "Kyoto court-ranked physician of the 'ancient method' (kohōha) school, aged 48 in 1754",
+   "side": "Kyoto medical establishment",
+   "where": "Kyoto, the dissection of an executed man",
+   "lat": 35.011,
+   "lon": 135.768,
+   "vantage": 3,
+   "vantage_label": "prologue: the first observed dissection in print, seventeen years earlier",
+   "form": "book (dated observation record)",
+   "language": "Classical Chinese (kanbun)",
+   "authenticity": "Zōshi ('Record of the Viscera', 1759, Hōreki 9) survives in printed copies, among them Kyoto University's Fujikawa Collection. It is a dated record of an observation, not a diary. Modern commentators note that it is rough and has nothing on the head, because the man had been beheaded.",
+   "bio": "He petitioned the Kyoto authorities, with the Obama-domain physician Kosugi Genteki, for permission to see inside a body, and in 1754 he was allowed to. He was testing the classical Chinese doctrine of the viscera against what he could see. The Obama connection runs straight on to Sugita and Nakagawa.",
+   "sources": [
+    {
+     "title": "Gendai Business: Yamawaki Tōyō and the 1754 dissection",
+     "url": "https://gendai.media/articles/-/69932"
+    },
+    {
+     "title": "Zōshi (1759), Kyoto University Rare Materials Digital Archive",
+     "url": "https://rmda.kulib.kyoto-u.ac.jp/en/item/rb00000659"
+    }
+   ]
+  },
+  {
+   "id": "gennai",
+   "short": "Hiraga Gennai",
+   "name": "Hiraga Gennai (平賀源内)",
+   "life": "1728–1780",
+   "role": "Polymath, naturalist, inventor, writer and mining adviser; friend of Sugita",
+   "side": "Edo intellectual world; consultant to domains",
+   "where": "Edo, and Akita in 1773",
+   "lat": 35.69,
+   "lon": 139.77,
+   "waypoints": [
+    {
+     "lat": 40.03,
+     "lon": 140.37,
+     "label": "Ani copper mine, Akita (1773)"
+    },
+    {
+     "lat": 39.596,
+     "lon": 140.562,
+     "label": "Kakunodate, meeting Odano Naotake (1773)"
+    },
+    {
+     "lat": 35.69,
+     "lon": 139.77,
+     "label": "Edo: introduces Naotake to Sugita (1774)"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "friend in the same city; the connector",
+   "form": "memoir (written later)",
+   "language": "Japanese",
+   "authenticity": "Gennai's part in the Kaitai Shinsho is known mainly from Sugita's later accounts and from Akita-domain records about Naotake. His own writings are mostly fiction and treatises, not diaries.",
+   "bio": "A restless experimenter who had worked with Nakagawa on natural history. In 1773 he went to inspect the Akita copper mines, and there he found a young samurai who could draw. He taught him Western perspective and shading, then brought him to Sugita just as the book needed plates. He died in prison in 1780. Sugita grieved for him.",
+   "sources": [
+    {
+     "title": "Artscape: Odano Naotake and Hiraga Gennai",
+     "url": "https://artscape.jp/study/art-achive/10094325_1985.html"
+    },
+    {
+     "title": "Weblio: Kaitai Shinsho (Gennai's introduction of Odano)",
+     "url": "https://www.weblio.jp/content/%E8%A7%A3%E9%AB%94%E6%96%B0%E6%9B%B8"
+    }
+   ]
+  },
+  {
+   "id": "odano",
+   "short": "Odano Naotake",
+   "name": "Odano Naotake (小田野直武)",
+   "life": "1749–1780",
+   "role": "Akita-domain samurai and painter, aged about 24; founder of Akita ranga (Western-style painting)",
+   "side": "Akita domain (Kubota); artist",
+   "where": "Kakunodate, then Edo",
+   "lat": 35.69,
+   "lon": 139.77,
+   "waypoints": [
+    {
+     "lat": 39.596,
+     "lon": 140.562,
+     "label": "Kakunodate, Akita (to 1773)"
+    },
+    {
+     "lat": 35.69,
+     "lon": 139.77,
+     "label": "Edo, drawing the plates (1774)"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the artist's eye: copying Dutch copperplates into woodblock line",
+   "form": "sketchbook (dated drawings)",
+   "language": "images; postscript in Japanese",
+   "authenticity": "His plates in the Kaitai Shinsho (27 anatomical figures, some taken from other Western books) and his signed postscript are the record. No diary is known.",
+   "bio": "He had about half a year to turn fine Dutch copper engravings into lines a woodblock cutter could carve. That meant learning shading, foreshortening and the look of the inside of a body from pictures alone. His figures were what most Japanese readers actually saw of Western anatomy. He died at 31.",
+   "sources": [
+    {
+     "title": "Artscape: Odano Naotake",
+     "url": "https://artscape.jp/study/art-achive/10094325_1985.html"
+    },
+    {
+     "title": "Japan Search gallery: Kaitai Shinsho (NDL)",
+     "url": "https://jpsearch.go.jp/en/gallery/ndl-0w6YVq3m00U6qp"
+    }
+   ]
+  },
+  {
+   "id": "dagregister",
+   "short": "Dejima register",
+   "name": "Dejima Dagregisters: opperhoofden Daniel Armenault and Arend Willem Feith",
+   "life": "Armenault in office 1770–71; Feith (1745–1782) opperhoofd five times between 1771 and 1781",
+   "side": "Dutch East India Company (VOC), Dejima factory",
+   "where": "Dejima, Nagasaki; the Nagasakiya inn in Edo during the annual court journey (hofreis)",
+   "lat": 32.7437,
+   "lon": 129.8732,
+   "waypoints": [
+    {
+     "lat": 32.7437,
+     "lon": 129.8732,
+     "label": "Dejima"
+    },
+    {
+     "lat": 35.687,
+     "lon": 139.7735,
+     "label": "Nagasakiya, Edo (spring court journeys)"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "the foreigners whose books and visits fed the circle",
+   "form": "log",
+   "language": "Dutch",
+   "authenticity": "The daily registers of the Dejima opperhoofden survive in the Nationaal Archief (The Hague). This chapter has NOT consulted the 1771 register. That Armenault was opperhoofd for the spring 1771 journey follows from the published list of tenures. Whether Sugita's circle met that delegation is not confirmed here: Sugita's memoir only places the Dutch book's arrival in Edo that spring. Feith's 1776 journal is cited through a modern study that uses it to correct Thunberg's dates.",
+   "bio": "Every spring the Dutch chief and his physician travelled to Edo and stayed at the Nagasakiya inn. Physicians, interpreters and the curious crowded in to see them. This was the main channel through which Dutch books, instruments and conversation reached Edo, and the register is the Company's side of those visits.",
+   "sources": [
+    {
+     "title": "Chief officials at Hirado and Dejima (list of opperhoofden)",
+     "url": "https://www.dejima-tokyo.com/articles/19/chief-officials-at-hirado-and-dejima"
+    },
+    {
+     "title": "Ignis 3 (Feith's 1776 journal vs Thunberg's dates)",
+     "url": "https://kufs.repo.nii.ac.jp/record/2000010/files/Ignis03_8.pdf"
+    }
+   ]
+  },
+  {
+   "id": "thunberg",
+   "short": "Thunberg",
+   "name": "Carl Peter Thunberg",
+   "life": "1743–1828",
+   "role": "Swedish physician-botanist and student of Linnaeus, VOC surgeon at Dejima 1775–76, aged 33",
+   "side": "Dutch East India Company (Swedish in its service)",
+   "where": "Dejima; Edo (Nagasakiya) in spring 1776",
+   "lat": 32.7437,
+   "lon": 129.8732,
+   "waypoints": [
+    {
+     "lat": 32.7437,
+     "lon": 129.8732,
+     "label": "Dejima (1775)"
+    },
+    {
+     "lat": 35.687,
+     "lon": 139.7735,
+     "label": "Edo, Nagasakiya (late Apr–May 1776)"
+    },
+    {
+     "lat": 32.7437,
+     "lon": 129.8732,
+     "label": "Dejima; leaves for Batavia 23 Nov 1776"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "five years after: the European who met the translators",
+   "form": "journal",
+   "language": "Swedish (English translation 1795)",
+   "authenticity": "His Resa uti Europa, Africa, Asia (Uppsala, 1788–93; English translation 1793–95) is a journal-based travel account revised for publication years later. A modern study that compares it with Feith's journal finds his Edo dates (27 April–25 May 1776) off by several days. Flag the later writing-up.",
+   "bio": "A Linnaean botanist working in Japan under heavy restriction. In Edo the Kaitai Shinsho translators came to him, and he called Nakagawa and Katsuragawa his disciples. He gave them lancets and books and got plants and answers in return. His Flora Japonica (1784) thanks them by name in its preface.",
+   "sources": [
+    {
+     "title": "Ignis 3: Thunberg and his Japanese correspondents",
+     "url": "https://kufs.repo.nii.ac.jp/record/2000010/files/Ignis03_8.pdf"
+    },
+    {
+     "title": "Samurai Archives: Carl Peter Thunberg",
+     "url": "https://samurai-archives.com/wiki/Carl_Peter_Thunberg"
+    },
+    {
+     "title": "NDL Japan–Netherlands exchange: Thunberg",
+     "url": "https://www.ndl.go.jp/nichiran/e/s2/s2_1_2.html"
+    }
+   ]
+  },
+  {
+   "id": "kulmus",
+   "short": "Kulmus",
+   "name": "Johann Adam Kulmus",
+   "life": "1689–1745",
+   "role": "Professor of medicine at the Danzig Gymnasium; author of a student anatomy manual",
+   "side": "German (Danzig) medical teaching",
+   "where": "Danzig, through the book",
+   "lat": 54.352,
+   "lon": 18.646,
+   "vantage": 4,
+   "vantage_label": "the author who never knew Japan: seen only through his book",
+   "form": "book (printed text)",
+   "language": "German (Dutch translation 1734)",
+   "authenticity": "Anatomische Tabellen (Danzig, 1722) is a short, plate-keyed textbook. The Edo group used the Dutch Ontleedkundige Tafelen (Amsterdam, 1734, translated by Gerard Dicten). The Kaitai Shinsho credits Kulmus as author in Chinese characters.",
+   "bio": "Kulmus wrote a compact teaching aid for students in Danzig. It reached Japan in its Dutch edition, and in Edo a modest textbook became a revolution. His entries here describe the book's own history and do not imagine his thoughts.",
+   "sources": [
+    {
+     "title": "US National Library of Medicine, Historical Anatomies: Kulmus",
+     "url": "https://mainweb.awsprod.nlm.nih.gov/exhibition/historicalanatomies/kulmus_bio.html"
+    },
+    {
+     "title": "Nagoya University Medical Library: Kaitai Shinsho base text",
+     "url": "https://www.med.nagoya-u.ac.jp/medlib/history_en/archive/print/1774kaitai.html"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1722",
+   "date_display": "1722",
+   "precision": "year",
+   "eye": "kulmus",
+   "place": "Danzig",
+   "headline": "A small anatomy primer for students appears in Danzig",
+   "digest": "Kulmus publishes Anatomische Tabellen, a compact textbook. Short numbered paragraphs are keyed to engraved plates, so a student can match a word to a picture. That design is what later made the book possible to decode without a teacher.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NLM Historical Anatomies, Kulmus biography; Nagoya Univ. Medical Library"
+  },
+  {
+   "date_iso": "1734",
+   "date_display": "1734",
+   "precision": "year",
+   "eye": "kulmus",
+   "place": "Amsterdam",
+   "headline": "The Dutch edition: Ontleedkundige Tafelen",
+   "digest": "Gerard Dicten's Dutch translation, Ontleedkundige Tafelen, is published in Amsterdam. This is the text that will travel to Nagasaki and Edo. Japanese readers will call it 'Tāheru Anatomia', after the words on its title page.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nagoya Univ. Medical Library (1734 second edition used); Weblio for the translator's name"
+  },
+  {
+   "date_iso": "1754-03-30",
+   "date_display": "Hōreki 4, 2nd month (intercalary, per most accounts), 7th day",
+   "precision": "day",
+   "eye": "yamawaki",
+   "place": "Kyoto",
+   "headline": "Yamawaki Tōyō is allowed to look inside a body",
+   "digest": "After a petition he made with the Obama-domain physician Kosugi Genteki, Yamawaki is allowed to watch the opening of a man executed in Kyoto. The man was one of five beheaded, chosen because his burial was delayed. Yamawaki studies the organs of the chest and abdomen and finds that they do not match the classical scheme of nine viscera. Because there is no head, there is nothing to record about the brain.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Gendai Business article on Yamawaki (gives 30 March 1754 = Hōreki 4.2.7)"
+  },
+  {
+   "date_iso": "1759",
+   "date_display": "Hōreki 9 (1759)",
+   "precision": "year",
+   "eye": "yamawaki",
+   "place": "Kyoto",
+   "headline": "Zōshi: the first Japanese record of an observed dissection",
+   "digest": "Five years after the dissection, Yamawaki publishes Zōshi in classical Chinese with simple drawings. It is crude by later standards and has nothing on the head. Even so, it makes seeing for oneself a respectable act for a physician, and it starts arguments among the classical schools. Sugita's generation knew of it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kyoto University RMDA item rb00000659 (Zōshi, 1759); Gendai Business"
+  },
+  {
+   "date_iso": "1766",
+   "date_display": "c. Meiwa 3 (c. 1766), as remembered in 1815",
+   "precision": "year",
+   "eye": "sugita",
+   "place": "Nagasakiya inn, Edo",
+   "headline": "An interpreter tells Sugita that Dutch is too hard",
+   "digest": "Sugita remembers going with Maeno to the inn where the Dutch delegation and its interpreters stayed. The senior interpreter warned them that even interpreters born to the trade struggled with the language, and that men from Edo should not try. Sugita says he took the advice. Maeno did not.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Rangaku Kotohajime (1815) as generally summarised; year and wording are approximate, not checked against a contemporary record"
+  },
+  {
+   "date_iso": "1770",
+   "date_display": "Meiwa 7 (1770)",
+   "precision": "year",
+   "eye": "maeno",
+   "place": "Nagasaki",
+   "headline": "A hundred days of Dutch in Nagasaki",
+   "digest": "Maeno spends about a hundred days in Nagasaki studying Dutch with interpreters who mostly know the spoken language. He comes back to Edo with a Dutch dictionary and, according to Sugita, a copy of the Kulmus anatomy he had bought there. He is still far from fluent, but nobody else in the group knows as much.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "More Than Tokyo summary of Rangaku Kotohajime; Sugita's memoir for the book purchase"
+  },
+  {
+   "date_iso": "1771-04",
+   "date_display": "Spring, Meiwa 8 (1771): the annual Dutch court journey",
+   "precision": "month",
+   "eye": "dagregister",
+   "place": "Edo (Nagasakiya) / Dejima",
+   "headline": "The Dutch delegation's spring visit to Edo",
+   "digest": "Daniel Armenault was opperhoofd from 1770 to 1771, so the court journey to Edo that spring would have been his. The Company's daily register records the official side of such visits, including audiences and gifts. This chapter has not checked what it says about Japanese physicians that year. Sugita's memoir places the arrival of the Dutch anatomy book in Edo that same spring.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Tenure list (dejima-tokyo.com). The 1771 Dagregister was not consulted; any meeting between Sugita's circle and the 1771 delegation is unverified"
+  },
+  {
+   "date_iso": "1771-04",
+   "date_display": "Spring, Meiwa 8 (1771)",
+   "precision": "month",
+   "eye": "nakagawa",
+   "place": "Edo",
+   "headline": "The Dutch anatomy book reaches Sugita's hands",
+   "digest": "In Sugita's telling, Nakagawa brought Dutch anatomy books to him that spring. Sugita could not read the text, but the plates astonished him, and his lord gave him money to buy a copy. A few weeks later he took it to Kotsugahara.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Rangaku Kotohajime as summarised by More Than Tokyo (lord's gift for the purchase); Nakagawa's role as go-between rests on the memoir"
+  },
+  {
+   "date_iso": "1771-04-17",
+   "date_display": "Meiwa 8, 3rd month, 3rd day (night)",
+   "precision": "day",
+   "eye": "sugita",
+   "place": "Edo",
+   "headline": "A night message: a dissection at Kotsugahara tomorrow",
+   "digest": "Late in the evening a letter arrives from Tokuno Manbei, a retainer of the Edo town magistrate. A dissection will be held at Kotsugahara the next day, led by another doctor, and Sugita may attend. Sugita sends word to Maeno and other colleagues that night, and they arrange to meet in the morning.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Japan Society excerpt from Rangaku Kotohajime (Matsumoto tr.)"
+  },
+  {
+   "date_iso": "1771-04-18",
+   "date_display": "Meiwa 8, 3rd month, 4th day",
+   "precision": "day",
+   "eye": "sugita",
+   "place": "Kotsugahara execution ground, Senju",
+   "headline": "A ninety-year-old outcaste dissector names the organs",
+   "digest": "The usual dissector, Toramatsu, is ill, so his grandfather does the work. The old man is about ninety, sturdy, and has opened bodies since his youth. The body is that of a woman of about fifty from Kyoto, executed for a serious crime. As the old man names the heart, liver and stomach, Sugita compares them with the Dutch plates and finds them exact, while the Chinese charts are wrong. He records the dissector's remark that the doctors at earlier dissections had never asked him questions.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Japan Society excerpt (Matsumoto tr.); Nagano Prefecture teaching material on the dissector's skill and status"
+  },
+  {
+   "date_iso": "1771-04-18",
+   "date_display": "Meiwa 8, 3rd month, 4th day",
+   "precision": "day",
+   "eye": "maeno",
+   "place": "Kotsugahara execution ground, Senju",
+   "headline": "Maeno brings out the same Dutch book",
+   "digest": "Before the dissection, as Sugita tells it, Maeno shows the copy he bought in Nagasaki. It is the same edition Sugita is carrying. Throughout the day the two men hold the pages up beside the body, and Maeno can read a few labels on the plates.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Rangaku Kotohajime (via Japan Society excerpt and standard summaries); a memoir scene written 44 years later"
+  },
+  {
+   "date_iso": "1771-04-18",
+   "date_display": "Meiwa 8, 3rd month, 4th day",
+   "precision": "day",
+   "eye": "nakagawa",
+   "place": "Kotsugahara execution ground, Senju",
+   "headline": "Nakagawa at the execution ground",
+   "digest": "Nakagawa, Sugita's Obama-domain colleague, is the third member of the group. He sees the same comparison of body and plate. Afterwards the group looks at bones lying in the open on the execution ground, and they too match the Dutch drawings and not the old Chinese ones.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Japan Society excerpt; Nagoya Univ. Medical Library notes the three went together"
+  },
+  {
+   "date_iso": "1771-04-18",
+   "date_display": "Meiwa 8, 3rd month, 4th day (walking home)",
+   "precision": "day",
+   "eye": "sugita",
+   "place": "Road back from Senju",
+   "headline": "On the way home, they resolve to translate",
+   "digest": "Walking back, the three admit to each other that they have served their lords as physicians without knowing the true structure of the body. Sugita proposes that they translate the book themselves, without waiting for Nagasaki interpreters. Maeno agrees and offers his house and his little Dutch.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Japan Society excerpt (Matsumoto tr.)"
+  },
+  {
+   "date_iso": "1771-04-19",
+   "date_display": "Meiwa 8, 3rd month, 5th day",
+   "precision": "day",
+   "eye": "maeno",
+   "place": "Nakatsu domain residence, Teppōzu",
+   "headline": "The first day at the translation table",
+   "digest": "The group meets at Maeno's lodging and opens the book. Maeno is the only one who can sound out the words, and his vocabulary is small. They decide to start where the plates help most, with the outer parts of the body.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Weblio (translation began 3rd month 5th day, the day after the dissection); Rangaku Kotohajime"
+  },
+  {
+   "date_iso": "1771-05",
+   "date_display": "The first weeks, spring–summer Meiwa 8 (1771)",
+   "precision": "range",
+   "eye": "sugita",
+   "place": "Teppōzu",
+   "headline": "A whole day lost on one sentence about the face",
+   "digest": "Sugita remembers how helpless they were at first. Simple words like eyebrow and nose beat them, and a single short sentence could take a whole long spring day. They worked by matching words to labelled plates and guessing from context. They had to invent Japanese terms for things Chinese medicine had never named, such as nerve and cartilage.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Rangaku Kotohajime as summarised by More Than Tokyo and Serai; coinages (shinkei, nankotsu) per Serai"
+  },
+  {
+   "date_iso": "1771",
+   "date_display": "Meiwa 8 (1771), after the first meetings",
+   "precision": "year",
+   "eye": "katsuragawa",
+   "place": "Edo",
+   "headline": "The shogunal physician's son joins the group",
+   "digest": "Katsuragawa Hoshū, about twenty, joins the meetings. His father Hosan, a shogunal physician and friend of Sugita, does not translate. Instead he lends three Dutch medical books for reference. Having the household in the circle gives the project protection that a few domain doctors could not have had alone.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Weblio (Hosan's support and books); NDL Japan–Netherlands exchange (Hoshū's involvement)"
+  },
+  {
+   "date_iso": "1772-04",
+   "date_display": "Spring, Meiwa 9 (1772)",
+   "precision": "month",
+   "eye": "sugita",
+   "place": "Edo",
+   "headline": "The interpreters cannot answer their questions",
+   "digest": "When the Dutch delegation and its interpreters come to Edo the next spring, the group shows them their drafts. To Sugita's surprise, the professional interpreters cannot explain many of the anatomical terms. Word spreads, other physicians start visiting the group, and people begin to talk of 'rangaku', Dutch learning.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "More Than Tokyo summary of Rangaku Kotohajime"
+  },
+  {
+   "date_iso": "1773",
+   "date_display": "An'ei 2 (1773)",
+   "precision": "year",
+   "eye": "gennai",
+   "place": "Ani copper mine and Kakunodate, Akita",
+   "headline": "Gennai finds a draughtsman in the north",
+   "digest": "Invited by the Akita domain to advise on its copper mines, Gennai meets the young samurai painter Odano Naotake. He shows him how Western pictures use shading and perspective. Akita accounts say he taught by having Naotake draw an object as seen from above. He takes the young man's talent seriously.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Artscape (Gennai's 1773 Akita visit and meeting Naotake); the teaching anecdote is traditional and approximate"
+  },
+  {
+   "date_iso": "1773",
+   "date_display": "An'ei 2 (1773)",
+   "precision": "year",
+   "eye": "odano",
+   "place": "Kakunodate → Edo",
+   "headline": "Odano is ordered to Edo to serve under Gennai",
+   "digest": "The Akita lord sends Naotake to Edo to work with Gennai. He arrives as a provincial painter trained in Kanō brushwork who has only just started on Western methods. He has no idea he is about to illustrate a medical book.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Artscape"
+  },
+  {
+   "date_iso": "1773",
+   "date_display": "An'ei 2 (1773)",
+   "precision": "year",
+   "eye": "sugita",
+   "place": "Edo",
+   "headline": "Kaitai Yakuzu: a trial balloon of plates",
+   "digest": "With the translation nearly done, the group issues a short booklet of anatomical plates with captions to see whether the authorities will object. The booklet names Obama-domain men. Maeno's name is left off. Sugita spends sleepless nights waiting for a reaction, and none comes.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Weblio (1773, trial edition); More Than Tokyo (credits, Sugita's anxiety)"
+  },
+  {
+   "date_iso": "1774-01",
+   "date_display": "Early An'ei 3 (1774)",
+   "precision": "month",
+   "eye": "gennai",
+   "place": "Edo, Sugita's house",
+   "headline": "Gennai hears the book needs an artist",
+   "digest": "Gennai calls on Sugita and learns that the text is almost finished but nobody can draw the plates. He recommends Naotake. The introduction joins the natural-history world of Gennai and Nakagawa to the anatomical project at the moment it most needed an artist.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Weblio (Gennai visits early 1774 and introduces Odano); month is approximate and may be lunisolar"
+  },
+  {
+   "date_iso": "1774-02",
+   "date_display": "An'ei 3 (1774), first half of the year",
+   "precision": "range",
+   "eye": "odano",
+   "place": "Edo",
+   "headline": "Copperplate into woodblock in about six months",
+   "digest": "Naotake has about half a year to copy the Dutch engravings, and plates from other Western books, into lines a woodblock cutter can carve. He has to learn the logic of cross-hatching and depth from pictures of things he has never seen. He also writes the book's postscript.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Weblio (about half a year; postscript); Serai (27 plates, some from other Western sources)"
+  },
+  {
+   "date_iso": "1774",
+   "date_display": "An'ei 3 (1774)",
+   "precision": "year",
+   "eye": "maeno",
+   "place": "Edo",
+   "headline": "Maeno refuses to put his name on the book",
+   "digest": "Maeno declines to appear as translator or to write a preface. A later memorial draft records that he had vowed at the Dazaifu Tenmangū shrine to study for learning and not for fame. Historians add that he knew how many places the translation was still wrong. The interpreter Yoshio Kōgyū's preface still credits the work to Maeno and Sugita together.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Weblio (1804 stone-inscription draft; Yoshio's preface); interpretation of motive is historians' view, not Maeno's own words"
+  },
+  {
+   "date_iso": "1774-09",
+   "date_display": "An'ei 3, 8th month (1774)",
+   "precision": "month",
+   "eye": "sugita",
+   "place": "Edo",
+   "headline": "Kaitai Shinsho is published in five volumes",
+   "digest": "The New Book of Anatomy appears: four volumes of kanbun text and one of plates and front matter. It is generally called the first full translation of a Western book into Japanese. Sugita has copies presented to the senior councillors, the imperial court in Kyoto and the shogun, so that the book's first readers are its possible censors.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Serai and Nagoya Univ. (An'ei 3, five volumes); More Than Tokyo (presentation copies). The 8th-month date is the conventional one and was not confirmed by a source fetched here"
+  },
+  {
+   "date_iso": "1774-09",
+   "date_display": "An'ei 3 (1774), imprint",
+   "precision": "month",
+   "eye": "katsuragawa",
+   "place": "Edo",
+   "headline": "Named as reviewer on the title page",
+   "digest": "The imprint lists Katsuragawa Hoshū as reviewer. His father uses the family's standing to place the book with the shogun's inner palace, which protects it from being banned as foreign learning.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nagoya Univ. Medical Library imprint transcription; Weblio for Hosan's role"
+  },
+  {
+   "date_iso": "1774-09",
+   "date_display": "An'ei 3 (1774), imprint",
+   "precision": "month",
+   "eye": "nakagawa",
+   "place": "Edo",
+   "headline": "Named as collator: proofreading a new vocabulary",
+   "digest": "Nakagawa appears as collator. Ishikawa Genjō is listed as a consultant. Checking terms that had been invented in Maeno's rooms against the plates and against each other was slow, unglamorous work, and it is recorded only in that one word of credit.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nagoya Univ. Medical Library imprint transcription"
+  },
+  {
+   "date_iso": "1774-09",
+   "date_display": "An'ei 3 (1774), imprint",
+   "precision": "month",
+   "eye": "kulmus",
+   "place": "Edo (as printed)",
+   "headline": "Kulmus becomes an author in Chinese characters",
+   "digest": "The title page credits the original to Kulmus, his name written phonetically in kanji. A Danzig teacher dead for nearly thirty years becomes the named source of Japan's new anatomy. The book also reorganises and supplements his text with material from other Western works.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nagoya Univ. Medical Library (与般亜単闕児武思撰)"
+  },
+  {
+   "date_iso": "1776-04-27",
+   "date_display": "27 April 1776 (Thunberg's published date)",
+   "precision": "day",
+   "eye": "thunberg",
+   "place": "Edo",
+   "headline": "Thunberg's date for reaching Edo",
+   "digest": "Thunberg's Travels has the embassy arriving in Edo at the end of April and staying until 25 May. A modern scholar checking his account against the opperhoofd's own journal treats these dates as an error. It is a small warning about journals written up for print years after the events.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Ignis 3 (Kyoto Univ. of Foreign Studies), comparing Thunberg's Voyages with Feith's journal"
+  },
+  {
+   "date_iso": "1776-05-01",
+   "date_display": "1 May 1776 (Feith's journal)",
+   "precision": "day",
+   "eye": "dagregister",
+   "place": "Nagasakiya, Edo",
+   "headline": "Feith's journal: the embassy is in Edo",
+   "digest": "Opperhoofd Arend Willem Feith's journal of the 1776 court journey dates the embassy's stay in Edo from 1 to 26 May. With him are Thunberg and Herman Köhler. Over these weeks the Nagasakiya receives a stream of visitors, including shogunal physicians and astronomers.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Ignis 3 (uses Feith's journal dates over Thunberg's)"
+  },
+  {
+   "date_iso": "1776-05",
+   "date_display": "May 1776 (An'ei 5)",
+   "precision": "range",
+   "eye": "thunberg",
+   "place": "Nagasakiya, Edo",
+   "headline": "Thunberg meets the translators and calls them disciples",
+   "digest": "Nakagawa and Katsuragawa visit Thunberg at the inn again and again during the embassy's weeks in Edo. He calls them his disciples. He gives them spring lancets and other surgical instruments and sells books to court physicians and astronomers. For the first time, the people who decoded Kulmus can put questions to a European physician in person.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Ignis 3; Samurai Archives (repeated visits); NDL Japan–Netherlands exchange"
+  },
+  {
+   "date_iso": "1776-05",
+   "date_display": "May 1776 (An'ei 5)",
+   "precision": "range",
+   "eye": "katsuragawa",
+   "place": "Nagasakiya, Edo",
+   "headline": "Katsuragawa questions the Swede at the inn",
+   "digest": "The shogunal physician's son, five years older than when he joined the translators, comes for knowledge: medicine, plants and names. The visits begin a friendship that lasts by letter across the world.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NDL Japan–Netherlands exchange (Hoshū sought knowledge from Thunberg in Edo); Ignis 3"
+  },
+  {
+   "date_iso": "1776-05",
+   "date_display": "May 1776 (An'ei 5)",
+   "precision": "range",
+   "eye": "nakagawa",
+   "place": "Nagasakiya, Edo",
+   "headline": "Nakagawa trades questions for specimens",
+   "digest": "Nakagawa, a naturalist as much as a physician, talks plants and minerals with Linnaeus's student and promises to send specimens. His letters show his Dutch was good enough by now to write in it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Ignis 3; NDL"
+  },
+  {
+   "date_iso": "1776-11-23",
+   "date_display": "23 November 1776",
+   "precision": "day",
+   "eye": "thunberg",
+   "place": "Dejima",
+   "headline": "Thunberg leaves Japan for Batavia",
+   "digest": "Thunberg sails from Nagasaki with herbarium sheets and notes. He will never return to Japan. The contacts he made in Edo go on through letters carried by later Dutch ships.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Ignis 3"
+  },
+  {
+   "date_iso": "1777-04-18",
+   "date_display": "Letter dated '11 March' 1777 = An'ei 6, 3rd month, 11th day (Gregorian 18 April 1777)",
+   "precision": "day",
+   "eye": "nakagawa",
+   "place": "Edo",
+   "headline": "In Dutch, Nakagawa asks Thunberg for a dictionary",
+   "digest": "Nakagawa writes to Thunberg in Dutch. He thanks him, sends about a hundred kinds of seeds and dried plants through an interpreter, and asks for more books, Pieter Marin's dictionaries above all. Six years after Kotsugahara, the lack of a proper dictionary is still the group's main problem.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Ignis 3 (letter transcribed; the Japanese date is written as if Western)"
+  },
+  {
+   "date_iso": "1780-01-24",
+   "date_display": "An'ei 8, 12th month, 18th day (24 January 1780)",
+   "precision": "day",
+   "eye": "gennai",
+   "place": "Edo, in prison",
+   "headline": "Gennai dies in prison",
+   "digest": "Hiraga Gennai, held after a violent quarrel, dies in custody. The man who found the book its artist ends badly, and his friend Sugita is left to remember him. Naotake dies later the same year.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Standard biographies; this exact date and the circumstances were not checked against a source fetched for this chapter"
+  },
+  {
+   "date_iso": "1780",
+   "date_display": "An'ei 9 (1780)",
+   "precision": "year",
+   "eye": "odano",
+   "place": "Akita",
+   "headline": "Odano Naotake dies at thirty-one",
+   "digest": "The artist who gave the Kaitai Shinsho its pictures dies young, back in Akita. He leaves the school of Akita ranga painting, and plates that Japanese medical students copy for a generation.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Artscape (born 1749, died 1780)"
+  },
+  {
+   "date_iso": "1782-04-20",
+   "date_display": "Letter dated 20 April 1782",
+   "precision": "day",
+   "eye": "katsuragawa",
+   "place": "Edo",
+   "headline": "Katsuragawa: the books you sent were lost",
+   "digest": "Writing in Dutch to Thunberg, Katsuragawa reports that the books Thunberg had sent to Dejima never reached him, though he found copies another way. He sends specimens in return. The modern editor of the letters shows that the books had in fact been stolen, not eaten by vermin as claimed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Ignis 3"
+  },
+  {
+   "date_iso": "1784",
+   "date_display": "1784",
+   "precision": "year",
+   "eye": "thunberg",
+   "place": "Leipzig / Uppsala",
+   "headline": "Flora Japonica thanks his Japanese pupils by name",
+   "digest": "Thunberg's Flora Japonica, the first Linnaean classification of Japanese plants, is published. In its preface he praises Katsuragawa and Nakagawa. Through it, the names of two of the Kaitai Shinsho circle reach European science.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NDL Japan–Netherlands exchange; Ignis 3"
+  },
+  {
+   "date_iso": "1815",
+   "date_display": "Bunka 12 (1815)",
+   "precision": "year",
+   "eye": "sugita",
+   "place": "Edo",
+   "headline": "Forty-four years later, Sugita writes it all down",
+   "digest": "At over eighty, Sugita writes Rangaku Kotohajime for his pupil Ōtsuki Gentaku. It is a memoir of how Dutch learning began, built around the night message, the old man's knife and the hopeless first days. He gives Maeno full credit as the scholar of the group, and he also makes the story his own. Nearly every vivid detail in this chapter comes from this one late text.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Japan Society; Executed Today (1815); the memoir's late date is the key caution for the whole chapter"
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1754-03-30",
+   "date_display": "Hōreki 4, 2nd month, 7th day",
+   "eye": "yamawaki",
+   "claim": "First officially permitted dissection in Japan observed and recorded by a physician (Kyoto)",
+   "form": "other",
+   "evidence": "Zōshi (1759); Gendai Business summary",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1759",
+   "date_display": "Hōreki 9",
+   "eye": "yamawaki",
+   "claim": "Zōshi: the viscera seen do not fit the classical Chinese nine-organ scheme",
+   "form": "paper published",
+   "evidence": "Kyoto University RMDA, Zōshi (1759)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1770",
+   "date_display": "Meiwa 7",
+   "eye": "maeno",
+   "claim": "Maeno acquires a Dutch dictionary (and, per Sugita, the Kulmus anatomy) in Nagasaki",
+   "form": "other",
+   "evidence": "Rangaku Kotohajime (1815), as summarised",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1771-04-18",
+   "date_display": "Meiwa 8, 3rd month, 4th day",
+   "eye": "sugita",
+   "claim": "At Kotsugahara the body matches Kulmus's Dutch plates and contradicts the Chinese charts; the outcaste dissector's identifications confirm it",
+   "form": "other",
+   "evidence": "Rangaku Kotohajime (1815; written 44 years later)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1771-04-19",
+   "date_display": "Meiwa 8, 3rd month, 5th day",
+   "eye": "maeno",
+   "claim": "Translation of Ontleedkundige Tafelen begins at Maeno's lodging (working drafts, revised many times)",
+   "form": "notebook",
+   "evidence": "Rangaku Kotohajime; Weblio summary",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1773",
+   "date_display": "An'ei 2",
+   "eye": "sugita",
+   "claim": "Kaitai Yakuzu, a trial publication of the plates with captions, tests official reaction",
+   "form": "paper published",
+   "evidence": "Weblio; More Than Tokyo",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1774-09",
+   "date_display": "An'ei 3, 8th month",
+   "eye": "sugita",
+   "claim": "Kaitai Shinsho published: generally called the first full Japanese translation of a Western book",
+   "form": "paper published",
+   "evidence": "Nagoya Univ. Medical Library copy and imprint; Serai",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1774-09",
+   "date_display": "An'ei 3",
+   "eye": "maeno",
+   "claim": "Credit: the imprint names Sugita (translator), Nakagawa (collator), Katsuragawa (reviewer). Maeno is omitted at his own wish, while Yoshio Kōgyū's preface credits him",
+   "form": "paper published",
+   "evidence": "Imprint (Nagoya Univ.); Yoshio preface and 1804 inscription draft (Weblio)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1774-09",
+   "date_display": "An'ei 3",
+   "eye": "odano",
+   "claim": "Odano Naotake's woodblock plates adapted from Kulmus and other Western sources (27 anatomical figures)",
+   "form": "paper published",
+   "evidence": "Serai; Japan Search gallery (NDL)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1776-05-01",
+   "date_display": "1–26 May 1776 (Feith) vs 27 Apr–25 May (Thunberg)",
+   "eye": "dagregister",
+   "claim": "Edo stay of the 1776 embassy. The two journals disagree; a modern study prefers Feith's dates",
+   "form": "other",
+   "evidence": "Ignis 3 (Kyoto Univ. of Foreign Studies)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1776-05",
+   "date_display": "May 1776",
+   "eye": "thunberg",
+   "claim": "Thunberg calls Nakagawa and Katsuragawa his 'disciples' and supplies instruments and books",
+   "form": "other",
+   "evidence": "Thunberg's Travels (1788–93; English 1795) as analysed in Ignis 3",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1777-04-18",
+   "date_display": "'11 March' 1777 (lunisolar)",
+   "eye": "nakagawa",
+   "claim": "Nakagawa writes to Thunberg in Dutch asking for Marin's dictionaries",
+   "form": "letter",
+   "evidence": "Letter edited in Ignis 3",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1784",
+   "date_display": "1784",
+   "eye": "thunberg",
+   "claim": "Flora Japonica preface names Katsuragawa and Nakagawa",
+   "form": "paper published",
+   "evidence": "NDL Japan–Netherlands exchange; Ignis 3",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1815",
+   "date_display": "Bunka 12",
+   "eye": "sugita",
+   "claim": "Rangaku Kotohajime gives the canonical origin story of Dutch learning. It is the chief and only narrative witness for 1771",
+   "form": "other",
+   "evidence": "Memoir manuscript, printed 1869; Matsumoto tr. 1969",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1771-04-18",
+   "label": "Kotsugahara: the body against the book",
+   "eyes": [
+    "sugita",
+    "maeno",
+    "nakagawa"
+   ],
+   "note": "Three physicians watch the same old man's knife with the same Dutch book open. We see it only through Sugita, writing decades later. Maeno's identical copy and Nakagawa's presence are known from Sugita's memory, not from their own pens. The person who knew the body best, the outcaste dissector, is recorded only as Toramatsu's grandfather."
+  },
+  {
+   "date": "1771-04-19",
+   "label": "The first day of translation",
+   "eyes": [
+    "maeno",
+    "sugita"
+   ],
+   "note": "The vow made on the road becomes a working session the next morning. Maeno's few hundred words of Dutch are the group's only tool, and Sugita's memoir makes the humiliation of the first days into the founding story."
+  },
+  {
+   "date": "1774-09",
+   "label": "Kaitai Shinsho: who gets the credit",
+   "eyes": [
+    "sugita",
+    "maeno",
+    "nakagawa",
+    "katsuragawa",
+    "odano",
+    "kulmus"
+   ],
+   "note": "One book carries six eyes. Sugita is named translator, Nakagawa collator and Katsuragawa reviewer. Naotake is in the plates and the postscript, Kulmus is the named author, and Maeno appears only in someone else's preface."
+  },
+  {
+   "date": "1776-05",
+   "label": "Edo, the Nagasakiya: the translators meet a European physician",
+   "eyes": [
+    "thunberg",
+    "dagregister",
+    "nakagawa",
+    "katsuragawa"
+   ],
+   "note": "The Dutch register and Thunberg's journal disagree on the Edo dates by several days. Both put the Kaitai Shinsho's collator and reviewer at the inn, now as questioners in their own right."
+  }
+ ],
+ "ties": [
+  {
+   "a": "sugita",
+   "b": "maeno",
+   "kind": "met",
+   "note": "Partners at Kotsugahara and the translation table. Sugita drove the project; Maeno supplied the Dutch and refused the credit."
+  },
+  {
+   "a": "sugita",
+   "b": "nakagawa",
+   "kind": "met",
+   "note": "Both physicians of the Obama domain. Per Sugita, Nakagawa brought the Dutch anatomy books to his attention."
+  },
+  {
+   "a": "yamawaki",
+   "b": "sugita",
+   "kind": "influenced",
+   "note": "Yamawaki's 1754 dissection and Zōshi made observed anatomy thinkable. Yamawaki's co-petitioner Kosugi Genteki was, like Sugita and Nakagawa, an Obama-domain physician."
+  },
+  {
+   "a": "gennai",
+   "b": "odano",
+   "kind": "influenced",
+   "note": "Gennai met Naotake in Akita in 1773, taught him Western drawing, and brought him to Edo."
+  },
+  {
+   "a": "gennai",
+   "b": "sugita",
+   "kind": "met",
+   "note": "Friends in Edo. Gennai introduced Naotake as the book's illustrator."
+  },
+  {
+   "a": "gennai",
+   "b": "nakagawa",
+   "kind": "met",
+   "note": "Fellow naturalists in Edo's natural-history circle before the anatomy project."
+  },
+  {
+   "a": "kulmus",
+   "b": "maeno",
+   "kind": "read each other",
+   "note": "Maeno read Kulmus in Dicten's Dutch, word by word. The reading went only one way: Kulmus died in 1745 with no idea of Japan."
+  },
+  {
+   "a": "thunberg",
+   "b": "nakagawa",
+   "kind": "met",
+   "note": "Visited at the Nagasakiya in May 1776; they then wrote to each other in Dutch until at least 1782."
+  },
+  {
+   "a": "thunberg",
+   "b": "katsuragawa",
+   "kind": "met",
+   "note": "Visited Thunberg in Edo in 1776. His letter of 1782 reports lost books and sends specimens."
+  },
+  {
+   "a": "thunberg",
+   "b": "dagregister",
+   "kind": "same street",
+   "note": "Thunberg and opperhoofd Feith travelled together to Edo in 1776. Feith's journal corrects Thunberg's dates."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v2:black-ships",
+   "note": "The Dutch learning that began at Maeno's table became the channel through which Japan understood the West. When Perry arrived in 1853–54, negotiations ran partly through Dutch-speaking interpreters, and the shogunate's translators of Western books were heirs of the rangaku tradition."
+  },
+  {
+   "to": "v3:narrow-road",
+   "note": "Same place, different century. Kotsugahara lay at Senju, the first post-town on the road north, where Bashō said farewell to his friends and set out on the Narrow Road to the Deep North in 1689."
+  },
+  {
+   "to": "v3:endeavour",
+   "note": "Thunberg and Daniel Solander, Cook's botanist on the Endeavour (1768–71), were both students of Linnaeus sent out to collect the world's plants. Thunberg did in Japan, under tight restriction, what Solander and Banks did in the Pacific."
+  },
+  {
+   "to": "v2:first-contact",
+   "note": "European medicine first reached Japan through Portuguese 'southern barbarian' contact in the sixteenth century. By 1771 the Dutch at Dejima were the last Europeans allowed in, and their books were the only window left."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://jpsearch.go.jp/en/gallery/ndl-0w6YVq3m00U6qp",
+   "title": "Kaitai Shinsho (New Book of Anatomy), Japan Search gallery",
+   "caption": "The National Diet Library's gallery of the 1774 Kaitai Shinsho with Odano Naotake's plates, Ōtsuki Gentaku's 1826 revision, and a portrait of Maeno Ryōtaku.",
+   "date": "1774 (and later editions)",
+   "credit": "National Diet Library, Japan / Japan Search"
+  },
+  {
+   "url": "https://www.med.nagoya-u.ac.jp/medlib/history_en/archive/print/1774kaitai.html",
+   "title": "Kaitai Shinsho, 1774, Nagoya University copy",
+   "caption": "Page images of the five-volume first edition, including the plate volume, from a university medical library.",
+   "date": "1774",
+   "credit": "Nagoya University Medical Library"
+  },
+  {
+   "url": "https://rmda.kulib.kyoto-u.ac.jp/en/item/rb00000659",
+   "title": "Yamawaki Tōyō, Zōshi (1759)",
+   "caption": "The prologue's book: Japan's first printed record of an observed dissection, made in Kyoto in 1754.",
+   "date": "1759",
+   "credit": "Kyoto University Rare Materials Digital Archive (Fujikawa Collection)"
+  },
+  {
+   "url": "https://mainweb.awsprod.nlm.nih.gov/exhibition/historicalanatomies/kulmus_bio.html",
+   "title": "Kulmus, Anatomische Tabellen: Historical Anatomies",
+   "caption": "Plates from Kulmus's textbook, the German original behind the Dutch book that was carried to Kotsugahara.",
+   "date": "1722 and later editions",
+   "credit": "US National Library of Medicine"
+  },
+  {
+   "url": "https://download.osmand.net/wiki/File:Kaitaishinsho2-0014.jpg",
+   "title": "Kaitai Shinsho, page scan (mirror of Wikimedia Commons file Kaitaishinsho2-0014.jpg)",
+   "caption": "A page from the 1774 book, showing Naotake's woodblock adaptation of Western copperplate line.",
+   "date": "1774",
+   "credit": "Public domain scan via Wikimedia Commons (mirror)"
+  },
+  {
+   "url": "https://historyofinformation.com/detail.php?id=1733",
+   "title": "'Kaitai Shinsho': the first book on Western medicine published in Japanese",
+   "caption": "A reference page with an image of the book and a note on its place in the history of information.",
+   "date": "1774",
+   "credit": "HistoryofInformation.com"
+  }
+ ],
+ "further": [
+  {
+   "title": "Japan Society: Sugita Genpaku on the 1771 dissection (English excerpt)",
+   "url": "https://aboutjapan.japansociety.org/resources/content/4/9/2/7/documents/JpS-Doc19-Sugita-dissection-final-copy.pdf"
+  },
+  {
+   "title": "Japan Society: Rangaku Kotohajime reading note",
+   "url": "https://aboutjapan.japansociety.org/rangaku_kotohajime"
+  },
+  {
+   "title": "Japan Times: 'How the modern code was cracked'",
+   "url": "https://www.japantimes.co.jp/community/2003/02/02/general/how-the-modern-code-was-cracked"
+  },
+  {
+   "title": "Ignis 3: Thunberg's Japanese correspondents (PDF)",
+   "url": "https://kufs.repo.nii.ac.jp/record/2000010/files/Ignis03_8.pdf"
+  },
+  {
+   "title": "NDL: Japan–Netherlands exchange, Thunberg and Katsuragawa",
+   "url": "https://www.ndl.go.jp/nichiran/e/s2/s2_1_2.html"
+  },
+  {
+   "title": "Nagano Prefecture teaching material: discrimination and the Kaitai Shinsho (PDF, Japanese)",
+   "url": "https://www.pref.nagano.lg.jp/kyoiku/kokoro/jinken/gakko/documents/04burakusabetukaitaishinnsho.pdf"
+  },
+  {
+   "title": "More Than Tokyo: How a headless woman sparked a medical revolution",
+   "url": "https://www.morethantokyo.com/?p=7201"
+  }
+ ],
+ "vantage_key": "0 = at the dissection and the translation table; 1 = in the working circle (the young reviewer, the illustrator); 2 = same city, connectors and the Dutch at the inn; 3 = elsewhere in Japan, earlier (the 1754 Kyoto prologue); 4 = abroad, known only through the book."
+}

@@ -1,0 +1,287 @@
+[
+ {
+  "chapter": "zimmermann-1917",
+  "where": "entry:0",
+  "severity": "error",
+  "problem": "FRUS doc. 158 (Page's 5747) prints the translation as 'on the 1st of February', not 'on the first of February'; a quoted US-record line must match the record.",
+  "fix": {
+   "quote": "We intend to begin on the 1st of February unrestricted submarine warfare."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "entry:17",
+  "severity": "style",
+  "problem": "FRUS doc. 158 heads the message 'For the President and the Secretary of State.'; the truncated quote implies it was for Wilson alone.",
+  "fix": {
+   "quote": "For the President and the Secretary of State.",
+   "headline": "A cable 'For the President and the Secretary of State'"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "claim:6",
+  "severity": "error",
+  "problem": "Arithmetic error: 1 p.m. London (GMT) is 8 a.m. Washington, so a cable logged received at 8:30 p.m. Washington took about 12½ hours from sending to logged receipt, not about 2½ hours.",
+  "fix": {
+   "text_replace": {
+    "old": "about 2½ hours in transit once the 5-hour difference is allowed for",
+    "new": "about 12½ hours from sending to logged receipt once the 5-hour difference is allowed for"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "convergence:3",
+  "severity": "error",
+  "problem": "Same timing error: sent 1 p.m. GMT and logged in Washington at 8:30 p.m. (1:30 a.m. London time next day) is about twelve and a half hours, not an afternoon or 'a few hours'.",
+  "fix": {
+   "label": "London to Washington in half a day",
+   "text_replace": {
+    "old": "ended in a transfer of a few hours",
+    "new": "ended in a transfer of about twelve hours"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "entry:30",
+  "severity": "error",
+  "problem": "'I cannot deny it. It is true.' is known from later English-language histories (Tuchman 1958 and those following her); no English original or US record of the exact words was found, Zimmermann's own language is not established, and the phrase is not clearly world-famous. Digest it.",
+  "fix": {
+   "quote": "",
+   "headline": "Zimmermann confirms the telegram",
+   "text_replace": {
+    "old": "Zimmermann said it was.",
+    "new": "Zimmermann said it was; later histories give his words as a short, flat admission, but no contemporary verbatim record was found."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "entry:30",
+  "severity": "style",
+  "problem": "Awkward logic: it was a denial, not an 'unexplained denial', that would have let sceptics call the telegram a British forgery.",
+  "fix": {
+   "text_replace": {
+    "old": "An unexplained denial would have let American sceptics call it a British forgery.",
+    "new": "A denial would have let American sceptics go on calling it a British forgery."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "claim:12",
+  "severity": "error",
+  "problem": "Same quote problem as entry 30: the exact wording comes from later histories, not a verified English original or US record.",
+  "fix": {
+   "claim": "Zimmermann → American correspondents in Berlin (the questioner named in later histories as William Bayard Hale): confirms the telegram is genuine and argues the offer applied only if the United States made war. Exact words given only in later accounts.",
+   "evidence": "History.com; Tuchman (1958) and later accounts for the wording and questioner"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "claim:1",
+  "severity": "error",
+  "problem": "The 'single route' research is Peter Freeman, 'The Zimmermann Telegram Revisited: A Reconciliation of the Primary Sources', Cryptologia 30:2 (2006). Freeman's 2007 Intelligence and National Security article, which the TNA blog lists, is on MI1(b) and the origins of British diplomatic cryptanalysis, not the routes.",
+  "fix": {
+   "text_replace": {
+    "old": "later research (Peter Freeman, 2007)",
+    "new": "later research (Peter Freeman, 2006)"
+   },
+   "evidence": "Hall's accounts as followed by Tuchman (1958); Freeman, 'The Zimmermann Telegram Revisited', Cryptologia 30:2 (2006)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "entry:13",
+  "severity": "error",
+  "problem": "FRUS 1917 Supp. 1, doc. 59 (Lansing to De Negri, 16 March 1917) dates Carranza's note proposing neutral mediation 11 February 1917.",
+  "fix": {
+   "date_iso": "1917-02-11",
+   "date_display": "Sunday 11 February 1917",
+   "precision": "day",
+   "confidence": "verified",
+   "source_note": "FRUS 1917 Supp. 1, doc. 59 (US reply of 16 March, citing the Mexican note of 11 February); Fletcher's telegram of 10 March (doc. 300) refers to it."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "entry:19",
+  "severity": "error",
+  "problem": "La Follette's filibuster did not begin on 26 February. The House passed the armed-ship bill on 1 March and the Senate filibuster ran in the last days of the session, ending at noon on 4 March.",
+  "fix": {
+   "text_replace": {
+    "old": " La Follette's filibuster began against the bill.",
+    "new": " The bill later stalled in a Senate filibuster led by La Follette and others in the session's last days (to 4 March)."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "entry:7",
+  "severity": "error",
+  "problem": "Hendrick (1922) places Hall's 'Thank God!' on the stairs of the American Embassy in London on the evening of 3 February, when he met the embassy's Mr Shoecraft and then read Gaunt's message that Bernstorff had been given his passports; not at the Admiralty.",
+  "fix": {
+   "place": "American Embassy, London",
+   "date_display": "Saturday 3 February 1917, evening (London)",
+   "text_replace": {
+    "old": "Hendrick records Hall's reaction as plain relief.",
+    "new": "Hendrick records Hall, meeting an embassy official on the stairs of the American Embassy that evening, reacting with plain relief."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "entry:28",
+  "severity": "doubt",
+  "problem": "NARA (DocsTeach, identifier 302024, file 862.20212/81½) holds Page's letter from the London embassy, listed as dated 2 March 1917, saying Bell and an Admiralty official deciphered the telegram that morning. The day can be firmer, though NARA notes later (1935) filing stamps.",
+  "fix": {
+   "date_display": "Friday 2 March 1917",
+   "precision": "day",
+   "text_replace": {
+    "old": "The exact day and the wording of Page's report are not confirmed here.",
+    "new": "Page's letter to the Secretary of State, dated 2 March in the National Archives listing, says the deciphering was done that morning."
+   },
+   "source_note": "Page to the Secretary of State, letter with the original decipher (NARA 302024, DocsTeach); follows from FRUS doc. 170."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "entry:1",
+  "severity": "doubt",
+  "problem": "The GCHQ feature's de Grey manuscript image files are labelled 13040 and the typed report is captioned as covering the 'relayed' telegram, which suggests the surviving manuscript is the later reading of the Washington–Mexico copy, not the 17 January 0075 first reading.",
+  "fix": {
+   "text_replace": {
+    "old": "The manuscript worksheet, with gaps and guesses, survives.",
+    "new": "A manuscript decrypt in de Grey's hand survives, though it may record the later reading of the relayed copy rather than this first one."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "image:0",
+  "severity": "doubt",
+  "problem": "GCHQ's image files are labelled 13040 and the typed report is captioned as the 'relayed' telegram, so the worksheet may be the reading of the Washington–Mexico copy (February), not 'the first readings' of January.",
+  "fix": {
+   "text_replace": {
+    "old": "De Grey's handwritten worksheet of the first readings, with the typed formal report Room 40 produced. The gaps and guesses show how partial the first reading was.",
+    "new": "De Grey's handwritten decrypt, with the typed formal report Room 40 produced on the relayed telegram. GCHQ's file labels suggest it is the reading of the Washington–Mexico copy in code 13040 rather than the first January reading."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "entry:9",
+  "severity": "doubt",
+  "problem": "Whether Bernstorff's ship was still at sea or held at Halifax on 1 March is not confirmed; the voyage dates are approximate.",
+  "fix": {
+   "text_replace": {
+    "old": "He was at sea when the telegram he had forwarded became world news.",
+    "new": "He was on his way home, out of reach, when the telegram he had forwarded became world news."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "entry:4",
+  "severity": "doubt",
+  "problem": "Fletcher's cable (FRUS doc. 294) has Eckardt asking 'several times recently' (late February) when Carranza would return; it does not show him beginning to ask in January.",
+  "fix": {
+   "text_replace": {
+    "old": "He began asking when the First Chief would return from Querétaro.",
+    "new": "By late February, Aguilar told Fletcher, the German minister had asked several times when the First Chief would return."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "entry:6",
+  "severity": "style",
+  "problem": "Date is a placeholder for work spread over late January and early February (confidence approx), but date_display gives a specific weekday.",
+  "fix": {
+   "date_display": "late January–early February 1917",
+   "precision": "range"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "claim:3",
+  "severity": "style",
+  "problem": "File 862.20212/82A is the file number of Lansing's 1 March telegram 4494 (FRUS doc. 170), which carried the Western Union cipher text obtained from the Washington telegraph office; FRUS doc. 293 does not name Western Union.",
+  "fix": {
+   "text_replace": {
+    "old": "The State Department later gets this copy from the Washington telegraph office (file 862.20212/82A).",
+    "new": "The State Department later gets this copy from the Washington telegraph office and cables it to London on 1 March (telegram 4494, file 862.20212/82A)."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "claim:13",
+  "severity": "style",
+  "problem": "Wording check: FRUS doc. 181 does use both 'absurd' and 'preposterous', and gives a file number (763.72/3425) rather than a telegram number. Times (3 p.m. Tokyo, received 4 March 3:45 a.m.) confirmed. No change to text needed beyond noting the file.",
+  "fix": {
+   "evidence": "FRUS 1917 Supp. 1, doc. 181 (file 763.72/3425)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "claim:9",
+  "severity": "doubt",
+  "problem": "The evening timing of the hand-over to the AP rests on standard secondary accounts, not on a fetched record; FRUS doc. 168 confirms only that publication was set for the next day.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "threads_out:2",
+  "severity": "doubt",
+  "problem": "The link to Midway asserts that Room 40's methods were 'inherited' by the services that read Japanese naval traffic; Room 40 passed to Britain's GC&CS, while the US Navy's Pacific codebreakers had a separate lineage. No specific verifiable link is given.",
+  "fix": {
+   "to": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "entry:40",
+  "severity": "style",
+  "problem": "Hendrick (1922) introduces 'The Day' as a memorandum written on 3 April, the day after the address; Balfour's words are confirmed. Digest accurate; note Page's remark to Cecil was a plea to bury the Black List.",
+  "fix": {
+   "source_note": "Hendrick, Life and Letters of Page, vol. II (1922), memorandum 'The Day', written 3 April 1917 (Balfour's words as recorded by Page)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "zimmermann-1917",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "FRUS doc. 181 confirms the times; the headline's 'preposterous' is in the cable. Source note could carry the file number for checking.",
+  "fix": {
+   "source_note": "FRUS 1917 Supp. 1, doc. 181 (file 763.72/3425; sent Tokyo 3 March 3 p.m., received 4 March 3:45 a.m.)."
+  },
+  "confidence": "verified"
+ }
+]

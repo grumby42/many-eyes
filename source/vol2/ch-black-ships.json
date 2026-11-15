@@ -1,0 +1,1297 @@
+{
+ "id": "black-ships",
+ "title": "The Black Ships",
+ "short_title": "The Black Ships",
+ "subtitle": "Commodore Perry's squadron in Edo Bay, Kurihama, Yokohama and Shimoda, 1853–1854",
+ "span": "1853–1854",
+ "intro": [
+  "On the afternoon of 8 July 1853, four American warships — two of them steamers trailing smoke, towing the other two against the wind — anchored off Uraga at the mouth of Edo Bay. Japanese called them kurofune, black ships. For two centuries the Tokugawa shogunate had confined foreign contact to the Dutch and Chinese at Nagasaki. Commodore Matthew Perry had come to break that rule by refusing to obey it: he would not go to Nagasaki, would not meet minor officials, and would not leave without handing over a letter from President Fillmore.",
+  "The letter changed hands at Kurihama on 14 July; Perry left on the 17th promising to return, and came back in February 1854 with a larger squadron. Talks in a hall built at the fishing village of Yokohama produced the Treaty of Kanagawa on 31 March 1854, opening Shimoda and Hakodate to American ships for supplies and rescue. It was not a trade treaty, but it ended seclusion, and within fifteen years the shogunate itself was gone.",
+  "The American eyes here are unusually many, because Perry ordered every officer's journal handed over for the official history — and several men kept copies or wrote their own books. The commodore's dictated journal counts 'points' won; Samuel Wells Williams, the reluctant interpreter, is franker and more uneasy; the artist Wilhelm Heine sees mountains and larks; the journalist Bayard Taylor writes adventure; a young officer, Edward McCauley, draws; a ship's clerk, J. W. Spalding, receives a secret letter. A Chinese scholar, Luo Sen, sits between the two sides with a brush, the one man present whose own country had already been forced open by the Opium War.",
+  "The Japanese record is honest but different in kind. The shogunate's response survives mostly as administrative documents — Abe Masahiro's circular asking the lords for their views, Tokugawa Nariaki's ten-point memorial for resistance, Ii Naosuke's pragmatic reply — rather than diaries, and they are tagged as such. Beside them stand the letters of Yoshida Shōin, the young samurai who watched at Uraga and then tried to stow away; the sketches of Hibata Ōsuke, a guard at Yokohama who drew the Americans for Japanese eyes; and, at Nagasaki, the diary of Kawaji Toshiakira, holding off the Russian envoy Putyatin, whose secretary Ivan Goncharov wrote his own account of the same months.",
+  "The townsman's view is harder to pin to days. Edo's rumour-collectors, broadsheets (kawaraban) and satirical verses — the famous pun on 'four cups of jōkisen tea' keeping the realm awake — show panic and wit, but the individual diaries were not verified closely enough here to date; they appear in the images rather than as eyes. Read the clusters on 14 July 1853, 8–9 March 1854 and 25 April 1854 side by side: the same hours look like triumph, theatre, humiliation and opportunity depending on where one stood."
+ ],
+ "calendar_note": "Japan used the lunisolar Tenpō calendar, counting years by era (Kaei 6 = 1853; Kaei 7, renamed Ansei 1 in the winter of 1854) and days by lunar month. Each entry gives the Japanese date where it could be fixed and the Gregorian date in date_iso: Kaei 6/6/3 = 8 July 1853 (arrival), 6/6/9 = 14 July (Kurihama), 7/1/16 = 13 February 1854 (return), 7/2/10 = 8 March (Yokohama talks), 7/3/3 = 31 March (treaty), and the night of 7/3/27–28 = 24–25 April 1854 (Yoshida's boarding). Goncharov's Russian letters use the Julian calendar, twelve days behind (16/27 September 1853). American journals were kept in ship's dates, which can differ by a day from shore dates near the date line; the dates here follow the published chronologies.",
+ "eyes": [
+  {
+   "id": "perry",
+   "name": "Matthew Calbraith Perry",
+   "short": "Perry",
+   "life": "1794–1858",
+   "role": "Commodore, U.S. Navy, commanding the East India Squadron; aged 59 in 1853",
+   "side": "United States",
+   "where": "Aboard USS Susquehanna (1853) and USS Powhatan (1854) off Uraga, Kurihama, Yokohama and Shimoda",
+   "lat": 35.24,
+   "lon": 139.722,
+   "waypoints": [
+    {
+     "lat": 35.24,
+     "lon": 139.722,
+     "label": "Anchorage off Uraga (Jul 1853)"
+    },
+    {
+     "lat": 35.225,
+     "lon": 139.705,
+     "label": "Kurihama landing (14 Jul 1853)"
+    },
+    {
+     "lat": 35.447,
+     "lon": 139.642,
+     "label": "Treaty House, Yokohama (Mar 1854)"
+    },
+    {
+     "lat": 34.675,
+     "lon": 138.945,
+     "label": "Shimoda (Apr–Jun 1854)"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "commander of the squadron",
+   "form": "journal (dictated)",
+   "language": "English",
+   "authenticity": "A personal journal Perry dictated during the expedition, written out in one scribe's hand; he reviewed it in 1855 while the official Narrative (compiled by Francis L. Hawks, 1856–58) was being assembled. Most of the manuscript is in the U.S. National Archives. First published in full in 1968 (ed. Roger Pineau, Smithsonian), so no direct quotation here.",
+   "bio": "A veteran officer who had pushed the Navy toward steam, Perry planned the mission as theatre: hidden from minor officials, never moving ships when asked, showing guns but not firing them. His journal reads like a scorecard of 'points' won against Japanese delay, which makes it the clearest record of how deliberately the pressure was applied.",
+   "sources": [
+    {
+     "title": "Perry Journal — Perry Visits Japan (Brown University)",
+     "url": "https://library.brown.edu/cds/perry/Perry_Journal.html"
+    },
+    {
+     "title": "The Japan Expedition 1852–1854: The Personal Journal of Commodore Matthew C. Perry (1968) — bookseller description",
+     "url": "https://baxleystamps.com/litho/perry_journal.shtml"
+    }
+   ]
+  },
+  {
+   "id": "williams",
+   "name": "Samuel Wells Williams",
+   "short": "Wells Williams",
+   "life": "1812–1884",
+   "role": "American missionary-printer and Sinologist from Canton; the expedition's chief interpreter; aged 40–41",
+   "side": "United States (long resident in China)",
+   "where": "Aboard the flagship; ashore at Kurihama, Yokohama and Shimoda",
+   "lat": 35.447,
+   "lon": 139.642,
+   "waypoints": [
+    {
+     "lat": 23.13,
+     "lon": 113.26,
+     "label": "Canton, where Perry's request reached him (Apr 1853)"
+    },
+    {
+     "lat": 35.225,
+     "lon": 139.705,
+     "label": "Kurihama (Jul 1853)"
+    },
+    {
+     "lat": 35.447,
+     "lon": 139.642,
+     "label": "Yokohama treaty talks (Mar 1854)"
+    },
+    {
+     "lat": 34.675,
+     "lon": 138.945,
+     "label": "Shimoda (Apr 1854)"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "interpreter at the table",
+   "form": "journal",
+   "language": "English",
+   "authenticity": "His private journal of 1853–54 was given by his son Frederick Wells Williams to the Asiatic Society of Japan and printed in its Transactions, vol. 37 part 2 (Yokohama, 1910); first U.S. reprint 1973. English and published before 1929, so short quotation is allowed.",
+   "bio": "Williams had sailed to Japan once before, on the Morrison in 1837, when shore batteries drove the ship off. He knew Chinese deeply and Japanese barely, and the Japanese preferred to negotiate in Dutch, so he spent much of his time watching — and his journal is the most candid American voice, often uneasy about Perry's bluster and his own countrymen's manners.",
+   "sources": [
+    {
+     "title": "Williams Journal — Perry Visits Japan (Brown)",
+     "url": "https://library.brown.edu/cds/perry/Williams_Journal.html"
+    },
+    {
+     "title": "Samuel Wells Williams — Perry Visits Japan (Brown)",
+     "url": "https://library.brown.edu/cds/perry/people_Williams.html"
+    },
+    {
+     "title": "A journal of the Perry expedition to Japan (1853–1854), TASJ 1910 — HathiTrust record",
+     "url": "https://catalog.hathitrust.org/Record/002034058"
+    }
+   ]
+  },
+  {
+   "id": "taylor",
+   "name": "Bayard Taylor",
+   "short": "Bayard Taylor",
+   "life": "1825–1878",
+   "role": "American travel writer and New-York Tribune correspondent, taken into the Navy at low rank (clerk to Captain Buchanan of the Susquehanna) for the 1853 cruise; aged 28",
+   "side": "United States",
+   "where": "Aboard USS Susquehanna, Okinawa, the Bonins and Edo Bay",
+   "lat": 35.24,
+   "lon": 139.722,
+   "waypoints": [
+    {
+     "lat": 31.23,
+     "lon": 121.47,
+     "label": "Joins the squadron at Shanghai (May 1853)"
+    },
+    {
+     "lat": 26.21,
+     "lon": 127.68,
+     "label": "Okinawa (May–Jun 1853)"
+    },
+    {
+     "lat": 35.225,
+     "lon": 139.705,
+     "label": "Kurihama landing (Jul 1853)"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "journalist in uniform",
+   "form": "travel narrative based on his notes (published 1855)",
+   "language": "English",
+   "authenticity": "Perry required all private journals to be surrendered to the Navy; Taylor's A Visit to India, China, and Japan in the Year 1853 (New York: Putnam, 1855) is his account written up afterwards, about a quarter of it on the expedition. A narrative, not a day-book; English and pre-1929.",
+   "bio": "Already famous for his walking tours of Europe and his reports from gold-rush California, Taylor was the one professional writer aboard the 1853 squadron. He saw only the first visit, leaving in September 1853, so his Japan is all approach, ceremony and suspense.",
+   "sources": [
+    {
+     "title": "A Visit to India, China and Japan (1855) — bookseller description",
+     "url": "https://baxleystamps.com/litho/taylor_1855.shtml"
+    },
+    {
+     "title": "A Visit to India, China, and Japan (16th ed., 1859) — Nichibunken catalogue",
+     "url": "https://shinku.nichibun.ac.jp/gpub/book/g0259.html"
+    }
+   ]
+  },
+  {
+   "id": "heine",
+   "name": "Peter Bernhard Wilhelm Heine",
+   "short": "Heine",
+   "life": "1827–1885",
+   "role": "Dresden-born painter who had emigrated to New York; official artist of the expedition; aged 25–27",
+   "side": "United States (German émigré)",
+   "where": "Aboard the squadron; sketching ashore at Kurihama, Yokohama and Shimoda",
+   "lat": 35.447,
+   "lon": 139.642,
+   "waypoints": [
+    {
+     "lat": 35.225,
+     "lon": 139.705,
+     "label": "Kurihama (Jul 1853)"
+    },
+    {
+     "lat": 35.447,
+     "lon": 139.642,
+     "label": "Yokohama (Mar 1854)"
+    },
+    {
+     "lat": 34.675,
+     "lon": 138.945,
+     "label": "Shimoda (Jun 1854)"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "expedition artist",
+   "form": "sketchbook (dated drawings) and travel memoir",
+   "language": "German",
+   "authenticity": "His on-the-spot sketches became lithographs in the official Narrative (1856) and his Graphic Scenes of the Japan Expedition (1856). His written account, Reise um die Erde nach Japan (1856), was translated by Frederic Trautmann as With Perry to Japan (Hawaii, 1990). Paraphrase only.",
+   "bio": "Heine had fled Saxony after the 1849 revolution. His eye was a painter's and a homesick man's: Fuji in snow, a lark over the fields of Yokohama, the friendships he struck with Japanese interpreters. Many of the images through which the West first 'saw' Japan began on his knee.",
+   "sources": [
+    {
+     "title": "Heine Memoir — Perry Visits Japan (Brown)",
+     "url": "https://library.brown.edu/cds/perry/Heine_Memoir.html"
+    },
+    {
+     "title": "First Landing at Gorahama (lithograph after Heine) — Royal Museums Greenwich",
+     "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-106035"
+    }
+   ]
+  },
+  {
+   "id": "mccauley",
+   "name": "Edward Yorke McCauley",
+   "short": "McCauley",
+   "life": "1827–1894",
+   "role": "Junior officer aboard USS Powhatan (joined the East India Squadron August 1852); aged 26 in 1854",
+   "side": "United States",
+   "where": "Aboard USS Powhatan in Edo Bay and at Shimoda, 1854",
+   "lat": 35.447,
+   "lon": 139.642,
+   "waypoints": [],
+   "vantage": 1,
+   "vantage_label": "young officer on the flagship",
+   "form": "diary (illustrated)",
+   "language": "English",
+   "authenticity": "Manuscript diary, 13 February 1853 – 10 June 1854, with more than fifty of his own drawings, in the Naval History Society Collection at the New-York Historical Society. Published as With Perry in Japan (ed. Allan B. Cole, 1942) — post-1929, so no quotation.",
+   "bio": "McCauley later became a rear admiral and, improbably, an Egyptologist who compiled a dictionary of hieroglyphs. In 1854 he was a young man sketching what he saw from the Powhatan's rail — a junior's diary beside the commodore's.",
+   "sources": [
+    {
+     "title": "Edward Yorke McCauley diary, 1853–1854 — New-York Historical Society",
+     "url": "https://digitalcollections2.nyhistory.org/items/109461-edward-yorke-mccauley-diary-1853-1854"
+    },
+    {
+     "title": "Edward Y. McCauley — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Edward_Y._McCauley"
+    }
+   ]
+  },
+  {
+   "id": "spalding",
+   "name": "J. W. Spalding",
+   "short": "Spalding",
+   "life": "fl. 1850s",
+   "role": "Captain's clerk of the steam frigate USS Mississippi",
+   "side": "United States",
+   "where": "Aboard USS Mississippi; ashore at Shimoda, April 1854",
+   "lat": 34.675,
+   "lon": 138.945,
+   "waypoints": [],
+   "vantage": 1,
+   "vantage_label": "ship's clerk ashore",
+   "form": "travel narrative (published 1855)",
+   "language": "English",
+   "authenticity": "The Japan Expedition: Japan and Around the World (New York: Redfield, 1855), a first-person account by a squadron member; English and pre-1929. Not a dated diary throughout, so dates are set from the expedition record.",
+   "bio": "A civilian-minded clerk rather than a line officer, Spalding was the American whom Yoshida Shōin and Kaneko Shigenosuke picked out on shore at Shimoda to receive their secret petition — and, days later, one of those who saw the two men caged.",
+   "sources": [
+    {
+     "title": "Basic Sources on Commodore Perry (Visualizing Cultures, MIT)",
+     "url": "https://visualizingcultures.mit.edu/black_ships_and_samurai/bss_essay09.html"
+    },
+    {
+     "title": "The other day in Japan (on Spalding and Yoshida)",
+     "url": "https://campcatatonia.org/article/193/the-other-day-in-japan"
+    }
+   ]
+  },
+  {
+   "id": "luo",
+   "name": "Luo Sen (Lo Sum)",
+   "short": "Luo Sen",
+   "life": "c.1821–c.1899",
+   "role": "Cantonese scholar from Nanhai county doing business in Hong Kong; hired by Williams as Chinese secretary for the 1854 voyage",
+   "side": "Qing China (Hong Kong resident)",
+   "where": "With the squadron at Yokohama, Shimoda and Hakodate",
+   "lat": 35.447,
+   "lon": 139.642,
+   "waypoints": [
+    {
+     "lat": 22.28,
+     "lon": 114.16,
+     "label": "Hong Kong (joins, early 1854)"
+    },
+    {
+     "lat": 35.447,
+     "lon": 139.642,
+     "label": "Yokohama (Mar 1854)"
+    },
+    {
+     "lat": 34.675,
+     "lon": 138.945,
+     "label": "Shimoda (Apr–Jun 1854)"
+    },
+    {
+     "lat": 41.77,
+     "lon": 140.73,
+     "label": "Hakodate (May 1854)"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "Chinese scribe between two strangers",
+   "form": "journal",
+   "language": "Classical Chinese",
+   "authenticity": "His Riben riji (Diary of Japan) appeared in the Hong Kong monthly Xia'er guanzhen (Chinese Serial) from November 1854; an English version, with his name withheld ('a native of China'), was printed in the official Perry Narrative (1856–57). Studied by Tao Demin (Japan Review 17, 2005). Original Chinese, so no quotation.",
+   "bio": "Japanese officials could not speak with Williams but could read and write classical Chinese, so Luo's brush made him a third party at a two-nation table. He told a Japanese official that disgust with Qing officials after the Opium War had pushed him to go — the one eye here who had already watched his own country forced open.",
+   "sources": [
+    {
+     "title": "Luo Sen — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Luo_Sen"
+    },
+    {
+     "title": "Tao Demin, 'Negotiating Language in the Opening of Japan: Luo Sen's Journal' (Japan Review, 2005)",
+     "url": "https://nichibun.repo.nii.ac.jp/records/249"
+    },
+    {
+     "title": "No-sword: on Luo Sen and Williams",
+     "url": "https://no-sword.jp/zoku/2017/09/15/twas_well_we_had_your_pencil/"
+    }
+   ]
+  },
+  {
+   "id": "yoshida",
+   "name": "Yoshida Shōin",
+   "short": "Yoshida Shōin",
+   "life": "1830–1859",
+   "role": "Chōshū samurai scholar, student of Western gunnery under Sakuma Shōzan; aged 23 in 1853",
+   "side": "Japan (Chōshū domain)",
+   "where": "On the shore at Uraga (1853); in a stolen boat in Shimoda harbour (1854); then in prison",
+   "lat": 34.675,
+   "lon": 138.945,
+   "waypoints": [
+    {
+     "lat": 35.24,
+     "lon": 139.722,
+     "label": "Uraga, watching the ships (Jul 1853)"
+    },
+    {
+     "lat": 34.675,
+     "lon": 138.945,
+     "label": "Shimoda, boards the Powhatan (25 Apr 1854)"
+    },
+    {
+     "lat": 34.41,
+     "lon": 131.4,
+     "label": "Noyama prison, Hagi (1854–55)"
+    },
+    {
+     "lat": 35.685,
+     "lon": 139.753,
+     "label": "Denmachō prison, Edo; executed (Nov 1859)"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "young samurai who tried to leave with them",
+   "form": "dated letters and petitions",
+   "language": "Japanese / classical Chinese",
+   "authenticity": "His letters, the classical-Chinese petition handed to the Americans in 1854, and later prison writings survive and were collected in his complete works. The boarding is confirmed independently by the Powhatan's log for 25 April 1854 (Tao Demin, 2009) and by the American accounts. Paraphrase only.",
+   "bio": "Shōin saw the black ships at Uraga and concluded that Japan must learn the West to resist it; the next spring he tried to learn it by stowing away. Refused and jailed, he became the teacher of the men who would overthrow the shogunate — the sharpest example of the visit turning a watcher into an actor.",
+   "sources": [
+    {
+     "title": "Yoshida Shōin and his Disciples — nippon.com",
+     "url": "https://www.nippon.com/en/features/c01801/yoshida-shoin-the-revolutionary-and-teacher-who-helped-bring-down-the-shogunate.html"
+    },
+    {
+     "title": "Tao Demin, Powhatan log and Shōin's boarding (Kansai University, 2009)",
+     "url": "https://kansai-u.repo.nii.ac.jp/records/12242"
+    },
+    {
+     "title": "YOSHIDA Shoin — NDL Portraits of Modern Japanese Historical Figures",
+     "url": "https://www.ndl.go.jp/portrait/e/datas/217.html"
+    }
+   ]
+  },
+  {
+   "id": "hibata",
+   "name": "Hibata Ōsuke",
+   "short": "Hibata Ōsuke",
+   "life": "fl. 1850s",
+   "role": "Retainer of the Matsushiro domain, one of the domains ordered to guard the Yokohama Treaty House",
+   "side": "Japan (Matsushiro domain)",
+   "where": "On guard and sketching at Yokohama, spring 1854",
+   "lat": 35.447,
+   "lon": 139.642,
+   "waypoints": [],
+   "vantage": 1,
+   "vantage_label": "samurai guard with a sketchbook",
+   "form": "sketchbook (drawings from life, later mounted as a scroll)",
+   "language": "Japanese (images, captions)",
+   "authenticity": "His drawings from life underlie the handscroll The Mission of Commodore Perry to Japan in 1854 (British Museum 2013,3002.1, with Takagawa Bunsen; preface by Ōnuma Chinzan dated 6th month 1858). A related Hibata scroll was issued in facsimile in 1930. Exact days of individual sketches are not recorded.",
+   "bio": "Where Heine drew Japanese for Americans, Hibata drew Americans for Japanese: troop drills, the gifts, a minstrel show, sumo, a funeral, portraits of the delegation. His lord's domain also employed Sakuma Shōzan, Yoshida's teacher.",
+   "sources": [
+    {
+     "title": "The Mission of Commodore Perry to Japan in 1854 (handscroll) — British Museum",
+     "url": "https://www.britishmuseum.org/collection/object/A_2013-3002-1"
+    }
+   ]
+  },
+  {
+   "id": "abe",
+   "name": "Abe Masahiro",
+   "short": "Abe Masahiro",
+   "life": "1819–1857",
+   "role": "Chief senior councillor (rōjū shuza) of the Tokugawa shogunate, lord of Fukuyama; aged 33",
+   "side": "Japan (Tokugawa shogunate)",
+   "where": "Edo Castle",
+   "lat": 35.685,
+   "lon": 139.753,
+   "waypoints": [],
+   "vantage": 2,
+   "vantage_label": "decision-maker in Edo",
+   "form": "official circular (administrative document)",
+   "language": "Japanese",
+   "authenticity": "The bakufu enquiry circulating Fillmore's letter to officials and daimyō and inviting frank opinions survives in the shogunal records; English translation in Meiji Japan Through Contemporary Sources, vol. 3. Not a diary.",
+   "bio": "With Shogun Ieyoshi dying days after Perry left and his successor sickly, the young Abe held the government. His unprecedented step — asking the lords what they thought — bought consensus and time, and cracked open two centuries of closed decision-making.",
+   "sources": [
+    {
+     "title": "Abe Masahiro — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Abe_Masahiro"
+    },
+    {
+     "title": "Bakufu enquiry and responses (course reader, Univ. of Delaware)",
+     "url": "https://www1.udel.edu/History-old/figal/Hist370/text/er/kurofune.pdf"
+    }
+   ]
+  },
+  {
+   "id": "nariaki",
+   "name": "Tokugawa Nariaki",
+   "short": "Nariaki",
+   "life": "1800–1860",
+   "role": "Former lord of Mito, appointed adviser on coastal defence in 1853; aged 53",
+   "side": "Japan (Mito branch of the Tokugawa)",
+   "where": "Edo",
+   "lat": 35.685,
+   "lon": 139.753,
+   "waypoints": [],
+   "vantage": 2,
+   "vantage_label": "hard-line adviser in Edo",
+   "form": "memorial (policy letter)",
+   "language": "Japanese",
+   "authenticity": "His memorial to Abe Masahiro arguing in ten points against peace with the Americans is preserved and translated (Meiji Japan Through Contemporary Sources, vol. 3). Translations date it 7 August 1853; the text is signed '9th, at night', so the exact day is uncertain.",
+   "bio": "The loudest voice for resistance, Nariaki wanted an expulsion edict, sword-and-spear drill — and, in the same breath, Western warships and guns. His contradiction is the whole dilemma of 1853 in one document.",
+   "sources": [
+    {
+     "title": "Nariaki memorial (course reader, Univ. of Delaware)",
+     "url": "https://www1.udel.edu/History-old/figal/Hist370/text/er/kurofune.pdf"
+    }
+   ]
+  },
+  {
+   "id": "ii",
+   "name": "Ii Naosuke",
+   "short": "Ii Naosuke",
+   "life": "1815–1860",
+   "role": "Lord of Hikone, senior fudai daimyō; aged 38",
+   "side": "Japan (Hikone domain)",
+   "where": "Edo",
+   "lat": 35.685,
+   "lon": 139.753,
+   "waypoints": [],
+   "vantage": 2,
+   "vantage_label": "pragmatist lord answering Abe",
+   "form": "written statement (response to the bakufu enquiry)",
+   "language": "Japanese",
+   "authenticity": "His reply to the 1853 enquiry, dated 1 October 1853 in translation, survives and is translated in Meiji Japan Through Contemporary Sources, vol. 3. Not a diary.",
+   "bio": "Ii argued that seclusion alone could not keep Japan safe and that trade and ships could build strength. Five years later, as Great Elder, he would sign the commercial treaty with Townsend Harris — and order the purge in which Yoshida Shōin was executed.",
+   "sources": [
+    {
+     "title": "Ii Naosuke statement (course reader, Univ. of Delaware)",
+     "url": "https://www1.udel.edu/History-old/figal/Hist370/text/er/kurofune.pdf"
+    }
+   ]
+  },
+  {
+   "id": "kawaji",
+   "name": "Kawaji Toshiakira",
+   "short": "Kawaji",
+   "life": "1801–1868",
+   "role": "Commissioner of finance (kanjō bugyō) and coastal-defence official; shogunal plenipotentiary to the Russians at Nagasaki; aged 52",
+   "side": "Japan (Tokugawa shogunate)",
+   "where": "Edo, then Nagasaki (winter 1853–54)",
+   "lat": 32.744,
+   "lon": 129.873,
+   "waypoints": [
+    {
+     "lat": 35.685,
+     "lon": 139.753,
+     "label": "Edo"
+    },
+    {
+     "lat": 32.744,
+     "lon": 129.873,
+     "label": "Nagasaki, talks with Putyatin (Jan 1854)"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "negotiating with the other fleet",
+   "form": "diary",
+   "language": "Japanese",
+   "authenticity": "His Nagasaki nikki (Nagasaki Diary), kept on the road from Edo and during the talks, was printed in a 1913 source collection and re-edited in 1986. Paraphrase only; exact entry days not verified here.",
+   "bio": "While Perry's ships were away, Russia's Admiral Putyatin came to Nagasaki by the rules — and Kawaji was sent to stall him. His diary shows the other half of Japan's 1853–54 squeeze, and the Russians he faced left their own portrait of him.",
+   "sources": [
+    {
+     "title": "'Locked chest with a lost key': I. A. Goncharov in Japan (MGPU) — cites Kawaji's Nagasaki Diary",
+     "url": "https://rik.mgpu.ru/2018/08/20/locked-chest-with-a-lost-key-i-a-goncharov-in-japan/?lang=en"
+    }
+   ]
+  },
+  {
+   "id": "goncharov",
+   "name": "Ivan Aleksandrovich Goncharov",
+   "short": "Goncharov",
+   "life": "1812–1891",
+   "role": "Russian novelist serving as secretary to Vice-Admiral Yevfimy Putyatin aboard the frigate Pallada; aged 41",
+   "side": "Russian Empire",
+   "where": "Nagasaki harbour",
+   "lat": 32.744,
+   "lon": 129.873,
+   "waypoints": [],
+   "vantage": 3,
+   "vantage_label": "rival envoy's secretary at Nagasaki",
+   "form": "travel letters and diary, later the book Frigate 'Pallada'",
+   "language": "Russian",
+   "authenticity": "Goncharov kept a diary and wrote letters home, later reshaped into the 'fictionalised travelogue' Frigate 'Pallada' (magazine fragments 1855–57; book 1858). His letter from Nagasaki dated 16/27 September 1853 survives. Literary reshaping makes it less exact than a log.",
+   "bio": "The author of Oblomov watched Japan from the polite side of the door: Russia had come to Nagasaki, the one port the rules allowed, and was made to wait. He knew the Americans were somewhere to the north, doing the opposite.",
+   "sources": [
+    {
+     "title": "Frigate 'Pallada' — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Frigate_%22Pallada%22"
+    },
+    {
+     "title": "'Locked chest with a lost key': Goncharov in Japan (MGPU)",
+     "url": "https://rik.mgpu.ru/2018/08/20/locked-chest-with-a-lost-key-i-a-goncharov-in-japan/?lang=en"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1853-04-09",
+   "date_display": "9 April 1853",
+   "precision": "day",
+   "eye": "williams",
+   "place": "Canton, China",
+   "headline": "A summons to interpret for a country he barely speaks",
+   "digest": "Perry's request to join the squadron as interpreter reaches Williams in Canton. He protests that his Japanese is a sailor's smattering learned from castaways and that he is ill prepared, but he goes — the only man aboard who had already been turned away from Japan by cannon, on the Morrison in 1837.",
+   "quote": "necessary to speak with ignorant sailors",
+   "confidence": "verified",
+   "source_note": "Date: Brown 'Perry Visits Japan' Williams page. Quote from Williams's 1853 letter as cited (Life and Letters, 1889) on No-sword."
+  },
+  {
+   "date_iso": "1853-05-27",
+   "date_display": "27 May 1853",
+   "precision": "day",
+   "eye": "taylor",
+   "place": "Off Naha, Okinawa (Ryukyu)",
+   "headline": "A journalist's first sight of the islands",
+   "digest": "Before Japan proper, the squadron calls at the Ryukyu kingdom, and Taylor, newly kitted out in naval uniform, is bowled over by the green island. His book spends many pages on Okinawa and the Bonins: for him the expedition is first of all a voyage of scenery and adventure, with diplomacy as its climax.",
+   "quote": "I had never seen a more lovely landscape than the island presented",
+   "confidence": "verified",
+   "source_note": "Taylor, A Visit to India, China, and Japan (1855), p. 366, as quoted on the BaxleyStamps description."
+  },
+  {
+   "date_iso": "1853-07-08",
+   "date_display": "Kaei 6, 6th month, 3rd day (Friday 8 July 1853)",
+   "precision": "day",
+   "eye": "perry",
+   "place": "Anchored off Uraga, mouth of Edo Bay",
+   "headline": "Guard boats cut loose: the 'first point' gained",
+   "digest": "Two steamers towing two sloops anchor in a line off Uraga in the late afternoon. Japanese guard boats try to tie on; sailors cut their ropes and push them off. A Uraga official, Nakajima Saburōsuke, with the Dutch interpreter Hori Tatsunosuke, is allowed aboard and told to deal only with the highest rank, and that the boats must withdraw. Perry logs their withdrawal as his first important point won.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Perry's journal as summarised in Japan Today's chronology; tabi-mag (Nakajima & Hori boarding)."
+  },
+  {
+   "date_iso": "1853-07-09",
+   "date_display": "Kaei 6, 6th month, 4th day (Saturday 9 July 1853)",
+   "precision": "day",
+   "eye": "perry",
+   "place": "Susquehanna, off Uraga",
+   "headline": "The 'governor' of Uraga asks why four ships for one letter",
+   "digest": "Kayama Eizaemon, a magistracy official presenting himself as governor of Uraga, presses the Americans to go to Nagasaki and asks why a letter needs four warships and a thousand men. He asks four days to consult Edo; Perry grants three. American boats begin sounding the bay, which Kayama protests is unlawful — Perry counts the survey as his second point.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Japan Today chronology (from Perry's journal); samurai-archives on Kayama's rank."
+  },
+  {
+   "date_iso": "1853-07-09",
+   "date_display": "Friday 9 July 1853",
+   "precision": "day",
+   "eye": "williams",
+   "place": "Susquehanna, off Uraga",
+   "headline": "Watching the bargaining, and the white flags",
+   "digest": "Williams, sitting in on Kayama's visit, records the Japanese being told what a white flag meant — a detail at the heart of a later controversy over whether Perry delivered white flags with an implied threat of war. His journal is careful to note what was actually said aloud.",
+   "quote": "They were clearly informed of the meaning of a white flag",
+   "confidence": "verified",
+   "source_note": "Williams journal, TASJ 37 (1910), p. 51, as quoted on BaxleyStamps' description of the 1910 edition."
+  },
+  {
+   "date_iso": "1853-07-10",
+   "date_display": "Around Kaei 6, 6th month (July 1853)",
+   "precision": "range",
+   "eye": "yoshida",
+   "place": "Uraga headland",
+   "headline": "A student runs to the coast to see the enemy",
+   "digest": "Hearing the news in Edo, Shōin hurries down to Uraga, where his teacher Sakuma Shōzan is also watching. The sight of the steamships and their guns convinces him that Japan's coast is defenceless and that Japanese must learn the West's techniques in order to resist it. What he saw there set the course of everything he did next.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "nippon.com; Tokyo/Yamaguchi archive summaries (saw the ships at Uraga in Kaei 6). Exact day not verified."
+  },
+  {
+   "date_iso": "1853-07-12",
+   "date_display": "Kaei 6, 6th month, 7th day (12 July 1853)",
+   "precision": "day",
+   "eye": "perry",
+   "place": "Susquehanna, off Uraga",
+   "headline": "Uraga offers to take the letter — and answer via Nagasaki",
+   "digest": "Kayama returns with interpreters in three large boats: the letter may be received near Uraga, but any reply would come through Nagasaki by way of the Dutch or the Chinese. Perry refuses and insists on an official of the highest rank. Ashore, Edo is in turmoil; weapons sell out.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Japan Today chronology."
+  },
+  {
+   "date_iso": "1853-07-14",
+   "date_display": "Kaei 6, 6th month, 9th day (Thursday 14 July 1853)",
+   "precision": "day",
+   "eye": "perry",
+   "place": "Kurihama beach, south of Uraga",
+   "headline": "Ashore at last: the President's letter in a rosewood box",
+   "digest": "About ten in the morning Perry lands at Kurihama with a band and several hundred sailors and marines, facing thousands of Japanese troops. In a purpose-built hall he hands Fillmore's letter to Toda Izu-no-kami and Ido Iwami-no-kami of the Uraga magistracy. The ceremony takes perhaps half an hour; they say almost nothing. Perry announces he will return in spring — with all his ships, and probably more.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Japan Today chronology; BaxleyStamps 'Delivery of the President's Letter' (from the Narrative)."
+  },
+  {
+   "date_iso": "1853-07-14",
+   "date_display": "14 July 1853",
+   "precision": "day",
+   "eye": "williams",
+   "place": "Kurihama",
+   "headline": "Interpreting a ceremony designed for silence",
+   "digest": "Williams lands in Perry's party for the delivery of the letters. The exchange is wordless pageantry, with messages relayed through Dutch by Hori Tatsunosuke, so the Chinese scholar who had come as chief interpreter is mostly a witness to a choreography both sides had planned in advance.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Brown 'Perry Visits Japan' on Williams's role (Dutch preferred); Kurihama ceremony from Japan Today. Exact journal wording not consulted."
+  },
+  {
+   "date_iso": "1853-07-14",
+   "date_display": "14 July 1853",
+   "precision": "day",
+   "eye": "heine",
+   "place": "Kurihama beach",
+   "headline": "Sketching the crowd at 'Gorahama'",
+   "digest": "Heine sketches the landing on the spot: Japanese onlookers on the beach and in boats under parasols and banners, the squadron riding offshore. Redrawn by James Queen and lithographed in Philadelphia, his drawing becomes 'First Landing at Gorahama' in the official Narrative — how most Americans would picture the day.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Royal Museums Greenwich, 'First Landing at Gorahama' (on-the-spot sketch by Heine)."
+  },
+  {
+   "date_iso": "1853-07-14",
+   "date_display": "14 July 1853",
+   "precision": "day",
+   "eye": "taylor",
+   "place": "Kurihama ('Gori-hama')",
+   "headline": "The correspondent at the landing",
+   "digest": "Taylor's chapters on Japan build to the landing at 'Gori-hama' and the handing over of the letter, followed by the survey of the Bay of Yedo. Because Perry took the officers' journals, he writes it up later as a narrative, keen-eyed for pageantry and for the Japanese officials' composure.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Nichibunken catalogue of chapter contents (A Visit to India, China, and Japan, chs. XXIX–XXXVI)."
+  },
+  {
+   "date_iso": "1853-07-17",
+   "date_display": "Kaei 6, 6th month, 12th day (17 July 1853)",
+   "precision": "day",
+   "eye": "perry",
+   "place": "Edo Bay",
+   "headline": "Leaving at sunrise, after pushing toward Edo",
+   "digest": "Having taken his ships to within a few miles of the capital — where villagers handed sailors water and peaches — Perry steams out of Edo Bay at sunrise. He has not won a treaty, only a receipt; the answer is to wait for his return.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Japan Today chronology."
+  },
+  {
+   "date_iso": "1853-08-05",
+   "date_display": "Kaei 6, 7th month, 1st day (5 August 1853)",
+   "precision": "day",
+   "eye": "abe",
+   "place": "Edo Castle",
+   "headline": "The shogunate asks the lords what they think",
+   "digest": "Abe's council circulates translations of the American letter to officials and daimyō, asking them to weigh the gains and harms of trade and to speak frankly. It was an extraordinary request from a government that had never consulted outside its own ranks; dozens of replies came back, split between accommodation, refusal and anxious delay.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bakufu enquiry dated 5 Aug 1853 (Meiji Japan Through Contemporary Sources, via Univ. of Delaware reader); response tallies from Wikipedia 'Abe Masahiro'."
+  },
+  {
+   "date_iso": "1853-08-07",
+   "date_display": "Kaei 6, 7th month (early August 1853)",
+   "precision": "range",
+   "eye": "nariaki",
+   "place": "Edo (Mito residence)",
+   "headline": "Ten reasons not to make peace",
+   "digest": "Nariaki's answer to Abe lists ten reasons against peace with the Americans: it would shame the country, embolden other foreigners and weaken the samurai spirit. He urges an expulsion edict and drills with sword and spear — yet also the purchase of Western warships and guns and new coastal batteries. Resistance, in his version, already requires the enemy's tools.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Udel reader: dated 7 August 1853 in translation, signed '9th at night'; exact day uncertain."
+  },
+  {
+   "date_iso": "1853-08-22",
+   "date_display": "Kaei 6, 7th month (late August 1853)",
+   "precision": "month",
+   "eye": "goncharov",
+   "place": "Nagasaki harbour",
+   "headline": "The polite Russians arrive at the permitted port",
+   "digest": "Putyatin's frigate Pallada reaches Nagasaki, the one harbour where foreign approaches were allowed, a few weeks after Perry has left Edo Bay. Goncharov, the admiral's secretary, begins a long record of courteous Japanese delay — the opposite tactic to Perry's, and the same result: waiting on Edo.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Harvard-Yenching note on Putyatin's arrival at Nagasaki (August 1853); exact day not verified."
+  },
+  {
+   "date_iso": "1853-09-15",
+   "date_display": "September 1853",
+   "precision": "month",
+   "eye": "taylor",
+   "place": "Hong Kong / Macao",
+   "headline": "The journalist leaves the Navy",
+   "digest": "With the squadron back in Chinese waters, Taylor ends his 'brief career as a naval officer' and heads home on merchant ships. He will not see the treaty; his Japan ends with a letter delivered and a promise to return.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "BaxleyStamps description (service May–September 1853)."
+  },
+  {
+   "date_iso": "1853-09-27",
+   "date_display": "16/27 September 1853 (Old/New Style)",
+   "precision": "day",
+   "eye": "goncharov",
+   "place": "Nagasaki",
+   "headline": "A letter home from the waiting room",
+   "digest": "Goncharov writes to friends in St Petersburg from Nagasaki, where the talks would drag on for about a month before the Russians sail off and return. His letters, later folded into Frigate 'Pallada', turn Japanese ceremony and evasion into comedy — and into a portrait of a closed society about to be pried open by others.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Letter of 16/27 Sept 1853 listed in MGPU article references; content characterised generally, not quoted."
+  },
+  {
+   "date_iso": "1853-10-01",
+   "date_display": "Kaei 6, 8th month (1 October 1853)",
+   "precision": "day",
+   "eye": "ii",
+   "place": "Edo",
+   "headline": "Seclusion alone cannot keep us safe",
+   "digest": "Ii answers the bakufu: the old exclusion policy cannot by itself protect Japan. He proposes supplying and rescuing foreign ships, trading for a time through the Dutch, and training merchant fleets that could become a navy — while consulting the court and the shrines before changing ancestral law.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Udel reader (statement dated 1 Oct 1853)."
+  },
+  {
+   "date_iso": "1854-01-15",
+   "date_display": "Kaei 6, 12th month (January 1854)",
+   "precision": "month",
+   "eye": "kawaji",
+   "place": "Nagasaki",
+   "headline": "Facing Putyatin across the table",
+   "digest": "Kawaji, sent from Edo as plenipotentiary, keeps a diary of his journey and of the talks with the Russians. His task is to concede nothing while giving no offence, and to buy time for the shogunate; the Russians in turn study him as the cleverest of their hosts.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "MGPU article (both plenipotentiaries kept diaries on the road and during negotiations); exact days not verified."
+  },
+  {
+   "date_iso": "1854-01-15",
+   "date_display": "January 1854",
+   "precision": "month",
+   "eye": "luo",
+   "place": "Hong Kong",
+   "headline": "A Cantonese scholar signs on with the Americans",
+   "digest": "Williams, whose first Chinese assistant had died during the voyage, hires Luo Sen in Hong Kong. Luo speaks no Japanese but writes elegant classical Chinese, which Japanese officials read; he later told a Japanese official that disgust with Qing officials after the Opium War had made him willing to go.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "No-sword summary of Tao Demin; Wikipedia 'Luo Sen'. Month approximate (squadron left Hong Kong in January 1854)."
+  },
+  {
+   "date_iso": "1854-02-12",
+   "date_display": "Kaei 7, 1st month, 15th day (12 February 1854)",
+   "precision": "day",
+   "eye": "perry",
+   "place": "Off Kamakura, Sagami Bay",
+   "headline": "The Macedonian runs aground",
+   "digest": "Returning months earlier than the Japanese expected, the enlarged squadron enters the bay; the sailing ship Macedonian grounds near Kamakura and has to be hauled off by the steamers. Perry also begins renaming features of the bay for his charts.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Brown 'Perry Journal' excerpts (11–12 Feb 1854)."
+  },
+  {
+   "date_iso": "1854-02-13",
+   "date_display": "Kaei 7, 1st month, 16th day (13 February 1854)",
+   "precision": "day",
+   "eye": "perry",
+   "place": "'American Anchorage' near Uraga",
+   "headline": "Back, with more ships — and refusing to go back to Uraga",
+   "digest": "The squadron anchors well inside the bay. Japanese officials ask Perry to return to the old Uraga anchorage; he refuses, and for over a week the argument is about where to meet rather than what to agree.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Yokohama City chronology (Kaei 7/1/16); Brown Perry Journal excerpts."
+  },
+  {
+   "date_iso": "1854-02-13",
+   "date_display": "11–14 February 1854",
+   "precision": "range",
+   "eye": "heine",
+   "place": "Squadron entering Edo Bay",
+   "headline": "Fuji in snow",
+   "digest": "Heine describes the return after a stormy approach: the snow cone of Fuji and white ranges above the bay. He notes the Japanese envoys asking the commodore to retreat to Uraga, and Perry's refusal — then turns back to the mountain.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Brown 'Heine Memoir' excerpts (11–14 Feb)."
+  },
+  {
+   "date_iso": "1854-02-13",
+   "date_display": "13 February 1854 – 10 June 1854",
+   "precision": "range",
+   "eye": "mccauley",
+   "place": "Aboard USS Powhatan",
+   "headline": "A junior officer's diary of the second visit",
+   "digest": "McCauley's illustrated diary carries him from China to Edo Bay and Shimoda aboard the Powhatan, which becomes Perry's flagship on 18 February. Its more than fifty drawings are a midshipman-level view of the same weeks Perry records from the cabin.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "New-York Historical Society item record (date range, Powhatan, >50 illustrations); Yokohama chronology (flag shifted to Powhatan, Kaei 7/1/21). Individual entries not consulted."
+  },
+  {
+   "date_iso": "1854-02-22",
+   "date_display": "Kaei 7, 1st month, 25th day (22 February 1854)",
+   "precision": "day",
+   "eye": "heine",
+   "place": "Uraga / the squadron",
+   "headline": "Washington's Birthday, and a night stranded ashore",
+   "digest": "The ships fire salutes and dress in flags for Washington's Birthday while Commander Adams meets the Japanese commissioners at Uraga. Heine, in the party, enjoys their hospitality and endless questions about America; a storm strands them overnight and Japanese oarsmen row them back through the surf.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Brown Heine Memoir (22–23 Feb); Yokohama chronology (Kaei 7/1/25)."
+  },
+  {
+   "date_iso": "1854-03-08",
+   "date_display": "Kaei 7, 2nd month, 10th day (8 March 1854)",
+   "precision": "day",
+   "eye": "perry",
+   "place": "Treaty House, Yokohama village",
+   "headline": "Second landing: the treaty talks begin",
+   "digest": "Perry lands at Yokohama with a formal escort to meet the commissioners led by Hayashi Akira in a hall built for the purpose. He receives the shogunate's reply to the President's letter and presents a draft treaty; on trade the two sides clash at once.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Brown Perry Journal excerpts; Yokohama City chronology (Kaei 7/2/10)."
+  },
+  {
+   "date_iso": "1854-03-08",
+   "date_display": "8 March 1854",
+   "precision": "day",
+   "eye": "heine",
+   "place": "Yokohama",
+   "headline": "Salutes, Hail Columbia — and a lark",
+   "digest": "Heine counts some six hundred men landing to cannon salutes and the band playing 'Hail Columbia'. After the banquet he slips off into the fields, where a lark rising overhead makes him think of home. It is one of the few moments in any account when the occasion briefly disappears.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Brown Heine Memoir (8 March)."
+  },
+  {
+   "date_iso": "1854-03-08",
+   "date_display": "Kaei 7, 2nd month (March 1854)",
+   "precision": "month",
+   "eye": "luo",
+   "place": "Yokohama",
+   "headline": "Writing for two sides who cannot talk",
+   "digest": "In the Yokohama talks, papers pass from English into Chinese and Dutch and back. Luo's brush turns American drafts into Chinese that the Japanese scholars can read, and he is drawn into 'brush conversations' with Japanese officials and literati curious about China.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Tao Demin abstract (Japan Review 2005); Wikipedia 'Luo Sen' (contacts including Hayashi Akira, Hori Tatsunosuke)."
+  },
+  {
+   "date_iso": "1854-03-09",
+   "date_display": "Kaei 7, 2nd month, 11th day (9 March 1854)",
+   "precision": "day",
+   "eye": "heine",
+   "place": "Yokohama village",
+   "headline": "A marine buried in Japanese ground",
+   "digest": "Private Robert Williams, a marine who died aboard, is buried on shore near a temple at Yokohama. Heine watches a Buddhist priest join the American service and then perform his own rites over the grave — a funeral in two religions on the first day after the talks began.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Brown Heine Memoir (9 March); Brown Perry Journal (9 March); Yokohama chronology (burial at Zōtokuin, Kaei 7/2/11)."
+  },
+  {
+   "date_iso": "1854-03-09",
+   "date_display": "9 March 1854",
+   "precision": "day",
+   "eye": "perry",
+   "place": "Yokohama",
+   "headline": "Asking for a grave",
+   "digest": "Perry's journal records the burial of the marine at Yokohama near a Japanese temple, arranged with the commissioners' consent — a small precedent of foreign burial on Japanese soil that he treats as part of the negotiation.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Brown Perry Journal excerpts (9 March)."
+  },
+  {
+   "date_iso": "1854-03-24",
+   "date_display": "Kaei 7, 2nd month (late March 1854)",
+   "precision": "range",
+   "eye": "hibata",
+   "place": "Yokohama Treaty House",
+   "headline": "A guard draws the Americans",
+   "digest": "Posted with the Matsushiro troops guarding the Treaty House, Hibata sketches from life: the marines' drill, the gifts — including the miniature railway — a sumo display, a banquet, a minstrel show, the funeral and the faces of the American officers. The drawings later become a 15-metre scroll.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "British Museum 2013,3002.1 curator's notes; Yokohama chronology (Matsushiro ordered to guard; gifts exchanged Kaei 7/2/26 = 24 Mar)."
+  },
+  {
+   "date_iso": "1854-03-24",
+   "date_display": "Late March 1854",
+   "precision": "range",
+   "eye": "heine",
+   "place": "Yokohama",
+   "headline": "Gifts: a railway, fire engines, Audubon",
+   "digest": "Heine catalogues the American presents — a working model railway, fire apparatus, farm machinery, firearms and books including an Audubon volume — and the toasts at a shipboard dinner. His dating of the signing wavers between the 24th and the 31st.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Brown Heine Memoir (late March; page gives both dates)."
+  },
+  {
+   "date_iso": "1854-03-31",
+   "date_display": "Kaei 7, 3rd month, 3rd day (31 March 1854)",
+   "precision": "day",
+   "eye": "perry",
+   "place": "Treaty House, Yokohama",
+   "headline": "The Treaty of Kanagawa is signed",
+   "digest": "Twelve articles: Shimoda and Hakodate opened to American ships for supplies, shipwrecked sailors to be protected and returned, provision for a consul later. No commercial trade — but the seclusion rule is broken, and Perry presents Hayashi with an American flag.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Yokohama City chronology (Kaei 7/3/3); National Archives of Japan exhibit (12 articles, shipwreck clause); Wikipedia 'Hayashi Akira' (flag presented)."
+  },
+  {
+   "date_iso": "1854-03-31",
+   "date_display": "31 March 1854",
+   "precision": "day",
+   "eye": "williams",
+   "place": "Yokohama",
+   "headline": "One phrase dropped from the Chinese text",
+   "digest": "Working with the Dutch interpreter Portman and with Luo Sen, Williams matches the Chinese version of the treaty against the others. The only difference he records is the dating formula 'in the year of Our Lord Jesus Christ', which the Japanese omitted with Perry's permission.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Brown 'Perry Visits Japan' Williams page (treaty texts, Portman, the omitted phrase). Exact entry date not verified."
+  },
+  {
+   "date_iso": "1854-04-25",
+   "date_display": "Kaei 7, 3rd month, night of the 27th–28th (before dawn, 25 April 1854)",
+   "precision": "day",
+   "eye": "yoshida",
+   "place": "Shimoda harbour, aboard USS Powhatan",
+   "headline": "Rowing out to the flagship to ask passage to America",
+   "digest": "Shōin and his disciple Kaneko Shigenosuke row a small boat out in the dark, are turned away from the Mississippi and sent to the Powhatan, where they climb aboard and plead to be carried to America. Perry, unwilling to break Japanese law in the middle of a new treaty, refuses; they are rowed back, and soon surrender to the authorities.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "nippon.com; Tao Demin (2009) on the Powhatan log entry for 25 April 1854; West JR 'Blue Signal' (night of the 27th, 3rd month)."
+  },
+  {
+   "date_iso": "1854-04-25",
+   "date_display": "25 April 1854",
+   "precision": "day",
+   "eye": "williams",
+   "place": "USS Powhatan, Shimoda",
+   "headline": "The interpreter who sent them back",
+   "digest": "When the two Japanese reach the flagship before dawn, it falls to Williams, the interpreter, to communicate with them and to convey the commodore's refusal. Their request — to be carried to America to learn — puts the treaty's caution and Japanese curiosity face to face in his cabin.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Event verified via Powhatan log (Tao 2009) and nippon.com; Williams's part from the Narrative tradition — his journal text not consulted here."
+  },
+  {
+   "date_iso": "1854-04-27",
+   "date_display": "Late April 1854",
+   "precision": "range",
+   "eye": "spalding",
+   "place": "Shimoda",
+   "headline": "The two men in the cage",
+   "digest": "Spalding, to whom the young men had slipped their written plea in Chinese, later finds them held in a cage at a small barrack behind the town. He notes their composure: confinement did not seem to have broken them.",
+   "quote": "did not appear greatly down-cast",
+   "confidence": "approx",
+   "source_note": "Spalding, The Japan Expedition (1855), as quoted on campcatatonia.org; exact day not given."
+  },
+  {
+   "date_iso": "1854-06-24",
+   "date_display": "24 June 1854",
+   "precision": "day",
+   "eye": "heine",
+   "place": "Shimoda",
+   "headline": "A pipe and a tea canister for an atlas",
+   "digest": "Before the squadron sails Heine visits the grave of the marine reburied at Shimoda and trades farewell gifts: his atlas and a dictionary to the interpreter Gohara Isaburō, who gives him a pipe and a tea canister. He has been writing poems for Japanese friends.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Brown Heine Memoir (June 1854)."
+  },
+  {
+   "date_iso": "1854-06-30",
+   "date_display": "Late June 1854",
+   "precision": "range",
+   "eye": "perry",
+   "place": "Leaving Shimoda",
+   "headline": "The journal closes",
+   "digest": "The squadron sails south from Shimoda at the end of June, and Perry ends his journal with a note that it is finished. Japan's ports are open to supply and rescue, not yet to trade; the commercial treaty would come four years later through Townsend Harris.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Brown Perry Journal excerpts (29–30 June 1854)."
+  },
+  {
+   "date_iso": "1854-11-15",
+   "date_display": "November 1854",
+   "precision": "month",
+   "eye": "luo",
+   "place": "Hong Kong",
+   "headline": "The first Chinese account of the opening of Japan",
+   "digest": "Back in Hong Kong, Luo publishes his Diary of Japan in the monthly Chinese Serial, describing the Ryukyus, Yokohama, Shimoda and Hakodate and the Japanese he met. The Americans print an English version in the official Narrative but leave out his name.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia 'Luo Sen' (published November 1854 in Chinese Serial); Tao Demin abstract."
+  },
+  {
+   "date_iso": "1855-06-15",
+   "date_display": "c. 1854–55",
+   "precision": "year",
+   "eye": "yoshida",
+   "place": "Noyama prison, Hagi",
+   "headline": "In prison, reading China's disaster through Luo Sen",
+   "digest": "Shōin works over a Chinese account of the Qing empire after the Opium War and amid the Taiping rebellion — a text from Luo Sen that had passed into Japanese hands — annotating it as a warning to Japan. China's humiliation is, for him, the future Japan must avoid.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia 'Luo Sen' (Shōin translated/annotated Luo's Manshin kiji); date approximate."
+  },
+  {
+   "date_iso": "1858-07-15",
+   "date_display": "Ansei 5, 6th month (summer 1858)",
+   "precision": "month",
+   "eye": "hibata",
+   "place": "Edo",
+   "headline": "The Yokohama sketches become a scroll",
+   "digest": "A preface by the poet Ōnuma Chinzan, dated the sixth month of 1858, completes the handscroll built from Hibata's sketches of 1854. That same summer the shogunate signed the commercial treaty Perry had not obtained.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "British Museum 2013,3002.1 (preface dated 6th month 1858)."
+  },
+  {
+   "date_iso": "1859-11-21",
+   "date_display": "Ansei 6, 10th month, 27th day (21 November 1859)",
+   "precision": "day",
+   "eye": "yoshida",
+   "place": "Denmachō prison, Edo",
+   "headline": "A last poem before execution",
+   "digest": "Caught up in the Ansei Purge ordered under Ii Naosuke, Shōin is executed in Edo aged 29. On his last day he leaves a poem and, just before, a testament to his students; several of them — Itō Hirobumi, Yamagata Aritomo, Takasugi Shinsaku — would help bring the shogunate down.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Yamaguchi Prefectural Archives (poem dated 27th of 10th month; Ansei Purge); West JR 'Blue Signal' (Ryūkonroku)."
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1853-07-09",
+   "label": "Kayama Eizaemon's visit and the start of the bay survey",
+   "eyes": [
+    "perry",
+    "williams"
+   ],
+   "note": "Perry scores the survey as a point gained; Williams notes precisely what the Japanese were told about white flags — the record later used on both sides of a dispute about implied threats."
+  },
+  {
+   "date": "1853-07-14",
+   "label": "The President's letter delivered at Kurihama",
+   "eyes": [
+    "perry",
+    "williams",
+    "heine",
+    "taylor"
+   ],
+   "note": "The commander stages it, the interpreter finds little to interpret, the artist draws the crowd rather than the ceremony, and the journalist writes it as the climax of an adventure."
+  },
+  {
+   "date": "1853-08-05",
+   "label": "Edo debates the answer",
+   "eyes": [
+    "abe",
+    "nariaki",
+    "ii"
+   ],
+   "note": "Within weeks of Perry's departure the shogunate's question produces three positions: consultation (Abe), defiant rearmament (Nariaki) and cautious opening (Ii) — the split that would define the next fifteen years."
+  },
+  {
+   "date": "1854-03-08",
+   "label": "Talks open at the Yokohama Treaty House",
+   "eyes": [
+    "perry",
+    "heine",
+    "luo",
+    "hibata"
+   ],
+   "note": "Perry presents a draft treaty; Heine wanders off after a lark; Luo Sen turns English into Chinese the Japanese can read; Hibata, guarding the hall, draws the visitors for Japanese viewers."
+  },
+  {
+   "date": "1854-03-09",
+   "label": "Burial of Private Robert Williams",
+   "eyes": [
+    "perry",
+    "heine"
+   ],
+   "note": "Perry treats the grave as a negotiated precedent; Heine records the Buddhist priest who joined the funeral."
+  },
+  {
+   "date": "1854-03-31",
+   "label": "Treaty of Kanagawa signed",
+   "eyes": [
+    "perry",
+    "williams",
+    "luo"
+   ],
+   "note": "A diplomatic victory for Perry; for the translators, a matter of making four language versions agree — down to an omitted reference to Christ."
+  },
+  {
+   "date": "1854-04-25",
+   "label": "Yoshida Shōin boards the Powhatan",
+   "eyes": [
+    "yoshida",
+    "williams",
+    "spalding"
+   ],
+   "note": "The would-be stowaway risks his life to go and learn; the Americans who had forced Japan open send him back to obey its laws."
+  }
+ ],
+ "ties": [
+  {
+   "a": "williams",
+   "b": "luo",
+   "kind": "met",
+   "note": "Williams hired Luo Sen in Hong Kong as his Chinese secretary, and they worked together on the Chinese treaty text."
+  },
+  {
+   "a": "williams",
+   "b": "perry",
+   "kind": "met",
+   "note": "Williams served as Perry's chief interpreter on both visits; his journal is often critical of his commander."
+  },
+  {
+   "a": "heine",
+   "b": "perry",
+   "kind": "met",
+   "note": "Heine was the expedition's official artist; his sketches illustrate Perry's official Narrative."
+  },
+  {
+   "a": "taylor",
+   "b": "perry",
+   "kind": "met",
+   "note": "Perry took Taylor into naval service for the 1853 cruise and required him, like the officers, to surrender his journal."
+  },
+  {
+   "a": "yoshida",
+   "b": "williams",
+   "kind": "met",
+   "note": "On the Powhatan before dawn on 25 April 1854, Williams was the American who communicated with Shōin and Kaneko."
+  },
+  {
+   "a": "yoshida",
+   "b": "spalding",
+   "kind": "met",
+   "note": "Shōin and Kaneko handed their written plea to Spalding at Shimoda; Spalding later saw them caged."
+  },
+  {
+   "a": "yoshida",
+   "b": "luo",
+   "kind": "read each other",
+   "note": "Shōin translated and annotated Luo Sen's account of Qing China, which reached Japanese hands through the expedition."
+  },
+  {
+   "a": "ii",
+   "b": "yoshida",
+   "kind": "opposite sides",
+   "note": "Shōin was executed in 1859 in the Ansei Purge carried out under Ii Naosuke."
+  },
+  {
+   "a": "nariaki",
+   "b": "ii",
+   "kind": "opposite sides",
+   "note": "Their 1853 replies to Abe foreshadow the bitter feud between Mito hard-liners and Ii that ended in Ii's assassination in 1860."
+  },
+  {
+   "a": "abe",
+   "b": "nariaki",
+   "kind": "influenced",
+   "note": "Abe brought Nariaki in as coastal-defence adviser and received his ten-point memorial."
+  },
+  {
+   "a": "kawaji",
+   "b": "goncharov",
+   "kind": "met",
+   "note": "Kawaji negotiated with Putyatin at Nagasaki; Goncharov, Putyatin's secretary, studied the Japanese plenipotentiaries."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "opium-war",
+   "note": "Britain's victory over China (1842) hung over every Japanese decision in 1853–54; the shogunate softened its order to fire on foreign ships in 1842. Williams had lived in Canton through that war, and Luo Sen told a Japanese official that disgust with Qing officials after it had made him join the Americans."
+  },
+  {
+   "to": "imjin-war",
+   "note": "The precedent file the shogunate read Perry against was the Tsūkō ichiran, a compendium of Japan's foreign relations compiled under Hayashi Akira — Perry's counterpart — and completed in 1853, whose Korean dealings reach back to the restored relations after Hideyoshi's invasions."
+  },
+  {
+   "to": "v1:heian",
+   "note": "Fillmore's letter was addressed to the 'Emperor', but the emperor in Kyoto — the old Heian capital — knew nothing of the talks; the crisis pulled the long-sidelined court back into politics, and 'revere the emperor' became the rallying cry of men like Yoshida Shōin's students."
+  },
+  {
+   "to": "v1:japan-1945",
+   "note": "At the surrender aboard USS Missouri in Tokyo Bay on 2 September 1945, the 31-star flag associated with Perry's 1853 visit was brought from the U.S. Naval Academy and displayed framed on the deck (hung reversed because of its backing); MacArthur invoked Perry by name."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-106035",
+   "title": "First Landing at Gorahama",
+   "caption": "Tinted lithograph after Heine's on-the-spot sketch of the Kurihama landing, 14 July 1853, with Japanese onlookers under parasols — from the official Narrative.",
+   "date": "1856 (event 14 July 1853)",
+   "credit": "After Wilhelm Heine; drawn by James Queen; Royal Museums Greenwich"
+  },
+  {
+   "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-106036",
+   "title": "Commodore Perry Meeting the Imperial Commissioners at Yokuhama",
+   "caption": "Perry and his officers led to the Yokohama Treaty House, March 1854; drawn by W. T. Peters from a lost daguerreotype by Eliphalet Brown.",
+   "date": "1856",
+   "credit": "Sarony & Co. lithograph; Royal Museums Greenwich"
+  },
+  {
+   "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-106037",
+   "title": "Delivering of the American Presents at Yokuhama",
+   "caption": "Plate from the official Narrative showing the American gifts — the railway, telegraph and machines Japanese artists also drew.",
+   "date": "1856",
+   "credit": "Royal Museums Greenwich"
+  },
+  {
+   "url": "https://www.britishmuseum.org/collection/object/A_2013-3002-1",
+   "title": "The Mission of Commodore Perry to Japan in 1854 (handscroll)",
+   "caption": "A 15-metre scroll from Hibata Ōsuke's sketches from life at Yokohama: drill, gifts, sumo, a funeral, portraits of the Americans — the Japanese counterpart to Heine.",
+   "date": "1854–1858",
+   "credit": "Hibata Ōsuke and Takagawa Bunsen; British Museum 2013,3002.1"
+  },
+  {
+   "url": "https://www.library.metro.tokyo.lg.jp/portals/0/edo/tokyo_library/english/modal/index.html?d=5410",
+   "title": "Ikokusen no zu: Kita-Amerika (Illustration of Foreign Ships from North America)",
+   "caption": "A popular Edo image of the American ships, of the kind that spread with the kawaraban news-sheets amid rumours the fleet would shell the city.",
+   "date": "1850s",
+   "credit": "Tokyo Metropolitan Library"
+  },
+  {
+   "url": "https://www.ndl.go.jp/modern/img_r/001/001-002r.html",
+   "title": "Gasshūkoku shokan wage (Japanese translation of the American letters)",
+   "caption": "The shogunate's Japanese renderings of Fillmore's letter and Perry's notes — the text Abe circulated to the daimyō.",
+   "date": "1853",
+   "credit": "National Diet Library, Sanjō family papers"
+  },
+  {
+   "url": "https://library.brown.edu/cds/perry/scroll_bul.html",
+   "title": "'Request for a Good Relationship' scroll",
+   "caption": "An anonymous Japanese scroll of the 1854 visit with panels on black ships, the telegraph, the miniature train and sumo.",
+   "date": "1854–1906",
+   "credit": "Anne S. K. Brown Military Collection, Brown University"
+  },
+  {
+   "url": "https://ibiblio.org/hyperwar/OnlineLibrary/photos/images/s200000/s210644c.htm",
+   "title": "Perry's flag aboard USS Missouri, 1945",
+   "caption": "Naval Historical Center photograph of the surrender deck, with the framed flag described as the one Perry hoisted in Edo Bay in July 1853.",
+   "date": "2 September 1945",
+   "credit": "U.S. Naval Historical Center"
+  }
+ ],
+ "further": [
+  {
+   "title": "Perry Visits Japan: a visual history (Brown University)",
+   "url": "https://library.brown.edu/cds/perry/images.html"
+  },
+  {
+   "title": "Black Ships & Samurai — Visualizing Cultures (MIT)",
+   "url": "https://visualizingcultures.mit.edu/black_ships_and_samurai/bss_essay03.html"
+  },
+  {
+   "title": "Basic Sources on Commodore Perry and the Opening of Japan (MIT)",
+   "url": "https://visualizingcultures.mit.edu/black_ships_and_samurai/bss_essay09.html"
+  },
+  {
+   "title": "Kaei 7 chronology of the Yokohama talks (Yokohama City Library)",
+   "url": "https://www.city.yokohama.lg.jp/kurashi/kyodo-manabi/library/shiru/sakoku/kaei/dekigoto/nenpyou.html"
+  },
+  {
+   "title": "Commodore Perry's Black Ships deliver a letter, July 1853 (Japan Today)",
+   "url": "https://japantoday.com/category/features/lifestyle/commodore-perrys-black-ships-deliver-a-letter-to-japan-in-july-1853"
+  },
+  {
+   "title": "From Perry to MacArthur: the flag (Turnstile Tours)",
+   "url": "https://turnstiletours.com/from-perry-to-macarthur-flag-links-historic-us-visits-to-japan"
+  },
+  {
+   "title": "Treaty of Kanagawa exhibit (National Archives of Japan)",
+   "url": "https://www.archives.go.jp/exhibition/digital/hyoryu/contents/15.html"
+  }
+ ],
+ "vantage_key": "0 = principal actors at the table (Perry, his interpreter); 1 = eyewitnesses with the squadron or on the shore; 2 = decision-makers in Edo; 3 = in Japan but at a distance (Nagasaki); 4 = abroad, news only."
+}

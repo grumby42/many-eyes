@@ -1,0 +1,207 @@
+[
+ {
+  "chapter": "seneca-falls",
+  "where": "eye:woodward",
+  "severity": "error",
+  "problem": "Death year 1924 is not secure: the National Park Service and most references give March 1921 (she was 92 in 1921), while the 100 Signers Project gives 15 March 1924. Born January 1830.",
+  "fix": {
+   "life": "1830–1921 or 1924 (sources differ)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "seneca-falls",
+  "where": "eye:palmer",
+  "severity": "doubt",
+  "problem": "The National Park Service dates Palmer's eyewitness account to 1915, when she was 99 (she also sent reminiscences to the Geneva Daily Times for her 100th birthday); the note says the year is unknown.",
+  "fix": {
+   "text_replace": {
+    "old": "The year of writing is not established here.",
+    "new": "The National Park Service dates her eyewitness account to 1915, when she was 99; whether it was printed at the time is not established here."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "seneca-falls",
+  "where": "entry:20",
+  "severity": "doubt",
+  "problem": "The wording is confirmed from the Library of Congress item, but the reminiscence was written in 1915 and it is not established that it was published before 1929 (it survives as a scrapbook item). Under the quote rule it cannot be confirmed as a pre-1929 publication.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "seneca-falls",
+  "where": "entry:35",
+  "severity": "doubt",
+  "problem": "The Oneida Whig line could not be checked against the text of History of Woman Suffrage vol. 1 or an 1848 printing in this audit. Following the quote rule, remove it unless confirmed.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "seneca-falls",
+  "where": "entry:36",
+  "severity": "doubt",
+  "problem": "The Mechanic's Advocate phrase could not be checked against History of Woman Suffrage vol. 1 or the 1848 paper in this audit. Following the quote rule, remove it unless confirmed.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "seneca-falls",
+  "where": "entry:27",
+  "severity": "style",
+  "problem": "In the Report, the signatures follow the Declaration adopted in the Thursday morning session. They are not part of the afternoon business on resolutions.",
+  "fix": {
+   "text_replace": {
+    "old": "Sixty-eight women signed the Declaration, and 32 men were listed as in favour.",
+    "new": "The Report prints the signatures after the Declaration adopted that morning: 68 women, and 32 men listed as present in favour of the movement."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "seneca-falls",
+  "where": "entry:37",
+  "severity": "style",
+  "problem": "The letter speaks of the summer's two conventions, so it postdates Rochester (2 August). Its bare 'August 1848' date sorts it before the Rochester entries.",
+  "fix": {
+   "date_display": "August 1848 (after the Rochester meeting)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "seneca-falls",
+  "where": "entry:40",
+  "severity": "doubt",
+  "problem": "Rochester History (1948) says the meeting was planned for 2 and 3 August but describes only the opening on 2 August, and other references give 2 August alone. The '2–3 August' span and the 'verified' tag are not secure.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "seneca-falls",
+  "where": "entry:41",
+  "severity": "doubt",
+  "problem": "Same issue as entry 40: Rochester History (1948) does not securely support a second day.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "seneca-falls",
+  "where": "claim:13",
+  "severity": "doubt",
+  "problem": "The resolution to petition 'every year until our prayer be granted' is confirmed (Rochester History 1948), but the two-day date span is not secure.",
+  "fix": {
+   "date_display": "2 August 1848 (meeting planned for 2–3 August)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "paris-1919",
+  "where": "intro:2",
+  "severity": "doubt",
+  "problem": "Evenhandedness: the Arab case gets a full hearing (entries 8 and 10), but the French-backed Syrian and Zionist cases appear only in passing. Both were heard by the Council of Ten: the Central Syrian Committee on 13 February and the Zionist Organisation (Weizmann, Sokolow, Ussishkin and others) on 27 February 1919.",
+  "fix": {
+   "text_replace": {
+    "old": "while France pointed to its wartime agreements and the Zionist delegation pressed its case for Palestine.",
+    "new": "while France pointed to its wartime agreements and a French-backed Central Syrian Committee put its own case to the Council of Ten on 13 February; on 27 February the Zionist delegation of Weizmann, Sokolow and Ussishkin was heard on Palestine."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "paris-1919",
+  "where": "entry:10",
+  "severity": "style",
+  "problem": "The quoted words are Faisal's own wording from his memorandum of 29 January, as cited in the minutes (FRUS BC-24). They are not the secretary's indirect speech.",
+  "fix": {
+   "text_replace": {
+    "old": "Quote is from the US secretary's indirect-speech record.",
+    "new": "Quote is Faisal's wording from his memorandum of 29 January, as cited in the US secretary's notes."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "paris-1919",
+  "where": "eye:grayson",
+  "severity": "style",
+  "problem": "The authenticity note omits that the Grayson diary was first published long after 1928 (Papers of Woodrow Wilson, 1980s), so the chapter may only summarise it, as with Stevenson and Nicolson.",
+  "fix": {
+   "text_replace": {
+    "old": "avoids clinical detail about the April illness.",
+    "new": "avoids clinical detail about the April illness. First published long after 1928, it is summarised here and never quoted."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "paris-1919",
+  "where": "entry:4",
+  "severity": "doubt",
+  "problem": "The entry's 'general terms' summary attributes a motive to Grayson ('more interested in... than in the speeches') that the auditor could not check against the diary.",
+  "fix": {
+   "text_replace": {
+    "old": " He was more interested in how the President bore the strain than in the speeches.",
+    "new": ""
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "paris-1919",
+  "where": "tie:10",
+  "severity": "doubt",
+  "problem": "No source was found for 'yielded only out of duty to the President'. Lansing's well-documented Senate testimony (Foreign Relations Committee, August 1919) was that he believed Japan would have signed even without Shandong.",
+  "fix": {
+   "text_replace": {
+    "old": "he later told the Senate he had yielded only out of duty to the President.",
+    "new": "he later told the Senate Foreign Relations Committee (August 1919) that he believed Japan would have signed the treaty without Shandong."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "paris-1919",
+  "where": "tie:12",
+  "severity": "doubt",
+  "problem": "No source given for the absence of every great-power representative from the Congress. What the record supports is that the Congress met outside the conference and no great power acted on its resolutions.",
+  "fix": {
+   "text_replace": {
+    "old": "the Pan-African Congress met with no great-power delegation present.",
+    "new": "the Pan-African Congress met outside the conference, and no great-power delegation acted on its resolutions."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "paris-1919",
+  "where": "entry:42",
+  "severity": "style",
+  "problem": "The acknowledgment came after the petition of 18 June, but its 'June 1919' date sorts it before that entry. DocsTeach says only that Nguyen received a note that the petition would be brought to the President's attention.",
+  "fix": {
+   "date_display": "After 18 June 1919",
+   "digest": "The American delegation acknowledged the petition with a note that it would be brought to the President's attention, and filed it. It was never discussed by the Council. The demands circulated among Vietnamese in France and in the left-wing press."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "paris-1919",
+  "where": "entry:49",
+  "severity": "doubt",
+  "problem": "The 'eight fateful months' entry is printed in Seymour (1928), but this audit could not confirm whether it is dated 28 or 29 June. The 28 June parting with Wilson is confirmed (American Heritage, 'Epilogue').",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ }
+]

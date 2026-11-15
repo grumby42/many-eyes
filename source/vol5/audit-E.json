@@ -1,0 +1,262 @@
+[
+ {
+  "chapter": "benin-1897",
+  "where": "entry:48",
+  "severity": "error",
+  "problem": "Captain Walker (died long before) is shown 'recording' the 2014 return. The event is known from 2014 press reports; Channels TV (21 June 2014) says the objects were handed over on a Friday, i.e. 20 June 2014.",
+  "fix": {
+   "headline": "Coda, 2014: a grandson brings back a bird and a bell",
+   "digest": "Coda on later events, not recorded by Walker himself. On Friday 20 June 2014, in the centenary year of Ovonramwen's death, Walker's grandson Mark Walker handed the brass bird and bell that the captain had taken in 1897 to the Oba of Benin, with a copy of his grandfather's diary. Press reports of the day say the diary ran from his departure from Liverpool to his return and that the palace received the grandson as a friend of the city.",
+   "form": "editor's coda (later event, from press reports)",
+   "source_note": "Channels TV, 21 June 2014 ('returned on Friday'); Modern Ghana, June 2014. Later event; Walker's own record ends in 1897."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "benin-1897",
+  "where": "entry:49",
+  "severity": "error",
+  "problem": "Luschan died in 1924 but is shown 'recording' the 2022 handover. Must be an explicit editor's coda about the collection he built.",
+  "fix": {
+   "headline": "Coda, 2022: Germany hands back the first twenty",
+   "digest": "Coda on later events, long after Luschan's death in 1924. On 20 December 2022 Germany's foreign minister handed over the first twenty Benin objects in Abuja (Nigeria counted 22), after the two governments agreed that year to transfer ownership of Benin objects in German museums. Berlin, whose collection Luschan had built, signed over its 512 objects on 25 August 2022; about a third stay on loan in Berlin. Positions differ: the German government called it a step in facing its colonial past; Nigeria's culture minister thanked Germany; the British Museum says the British Museum Act 1963 bars it from giving up its collection.",
+   "form": "editor's coda (later event, from official statements and press reports)",
+   "source_note": "NPR, 21 Dec 2022; SMB Benin collection page (contract of 25 Aug 2022). Later event; not recorded by Luschan. The British Museum's position is as widely reported."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "benin-1897",
+  "where": "claim:14",
+  "severity": "error",
+  "problem": "Ledger item puts a 2022 decision under Luschan (d. 1924); must be marked as a coda about his former collection.",
+  "fix": {
+   "claim": "Coda (later event, not Luschan's record): ownership of the 512 Benin objects in the Berlin collection he built transferred to Nigeria; about a third remain on loan"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "benin-1897",
+  "where": "intro:3",
+  "severity": "style",
+  "problem": "Intro says the coda covers returns that 'began in the 2020s', but the coda also includes the private return of 2014.",
+  "fix": {
+   "text_replace": {
+    "old": "A short coda notes the returns that began in the 2020s, as positions rather than a verdict.",
+    "new": "A short coda notes later returns, from a private gift in 2014 to the government transfers of the 2020s, as positions rather than a verdict."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "benin-1897",
+  "where": "eye:luschan",
+  "severity": "error",
+  "problem": "Bio says Berlin assembled 'more than 580' objects; the Staatliche Museen page says more than 600 (as the chapter's own threads_out also says).",
+  "fix": {
+   "text_replace": {
+    "old": "assembling more than 580 of them",
+    "new": "assembling more than 600 of them"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "benin-1897",
+  "where": "threads_out:2",
+  "severity": "style",
+  "problem": "SMB says only that 'in the wake of the Second World War' the collection shrank to 512; it does not give the number lost or say all were lost in wartime.",
+  "fix": {
+   "text_replace": {
+    "old": "lost dozens of pieces during the Second World War, leaving 512 historical objects.",
+    "new": "shrank in the wake of the Second World War to 512 historical objects."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "benin-1897",
+  "where": "entry:42",
+  "severity": "doubt",
+  "problem": "Cambridge's 116-object transfer was announced by the MAA on 8 February 2026 (Museums Association, 9 Feb 2026); no source seen gives January 2026 as the transfer date.",
+  "fix": {
+   "text_replace": {
+    "old": "whose ownership passed to Nigeria in January 2026.",
+    "new": "whose transfer of ownership to Nigeria the University of Cambridge announced in February 2026."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "benin-1897",
+  "where": "image:2",
+  "severity": "doubt",
+  "problem": "Same issue as entry 42: transfer announced February 2026; January not supported.",
+  "fix": {
+   "text_replace": {
+    "old": "Legal ownership passed to Nigeria in January 2026.",
+    "new": "Cambridge announced in February 2026 that legal ownership had passed to Nigeria."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "benin-1897",
+  "where": "eye:walker",
+  "severity": "doubt",
+  "problem": "Life 'd. 1934' is unsourced; Digital Benin's provenance record gives no dates, says he was born in India and calls him an intelligence officer later promoted lieutenant-colonel.",
+  "fix": {
+   "life": "born in India; dates not established"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "benin-1897",
+  "where": "entry:28",
+  "severity": "doubt",
+  "problem": "Sale date and venue (Stevens's, 38 King Street, 25 May 1897; to defray expedition costs) match the Wikipedia summary, but the entry is filed under Rawson, who left no record of the sale.",
+  "fix": {
+   "text_replace": {
+    "old": "Objects from the palace that fell to the naval officers were put up",
+    "new": "No account of the sale by Rawson himself is known; it is placed here because the naval share of the spoils was sold. Objects from the palace that fell to the naval officers were put up"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "benin-1897",
+  "where": "entry:12",
+  "severity": "error",
+  "problem": "Attribution: the digest reports what Roth's diary says about Bacon's reconnaissance (source is Roth, 8 Feb); Bacon's own book is not cited for a dated entry.",
+  "fix": {
+   "eye": "roth"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "benin-1897",
+  "where": "entry:15",
+  "severity": "doubt",
+  "problem": "Attribution: the digest is Roth's observation of the admiral, sourced to Roth's diary and the Gazette despatch (pp. 2531ff. are Moor/Hamilton's papers, not Rawson's unconsulted despatch).",
+  "fix": {
+   "eye": "roth"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "benin-1897",
+  "where": "entry:24",
+  "severity": "doubt",
+  "problem": "Attribution: sourced to Roth's diary and Hamilton's report, and includes Roth's praise of his servant; no Rawson record is cited.",
+  "fix": {
+   "eye": "roth"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "gitanjali-1912",
+  "where": "entry:22",
+  "severity": "doubt",
+  "problem": "Quoted sentence ('The six poems now published were chosen from a hundred lyrics') could not be confirmed in any fetched text of Pound's note; the verified wording is different. Remove rather than reconstruct.",
+  "fix": {
+   "quote": "",
+   "source_note": "Poetry 1:3 (December 1912), 'Tagore's Poems'; Poetry Foundation issue page; Hurwitz 1964. Issue date verified; quoted wording not confirmed."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "gitanjali-1912",
+  "where": "entry:30",
+  "severity": "style",
+  "problem": "Hurwitz dates the 'more theosophy' letter to Monroe precisely (22 April 1913). The headline quotes a letter first published in 1950, against the quote rule.",
+  "fix": {
+   "date_iso": "1913-04-22",
+   "date_display": "Tuesday 22 April 1913",
+   "precision": "day",
+   "confidence": "verified",
+   "headline": "In private, Tagore dismissed as theosophy",
+   "source_note": "Pound to Harriet Monroe, 22 April 1913 (Letters, ed. Paige, 1950), as dated and summarised by Hurwitz 1964; paraphrased."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gitanjali-1912",
+  "where": "entry:16",
+  "severity": "style",
+  "problem": "Introduction's closing signature 'W. B. YEATS / September 1912' confirmed in the text; confidence can be raised.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Yeats, Introduction to Gitanjali (India Society, 1912; Macmillan, 1913), signed 'September 1912' (checked against an online transcription)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gitanjali-1912",
+  "where": "entry:8",
+  "severity": "style",
+  "problem": "Checked: English Heritage and Hurwitz (1964) give 7 July 1912; the Reading Experience Database record 3457 gives 30 June after Waller (2006). The entry already reports both; no change needed beyond noting this.",
+  "fix": {
+   "source_note": "English Heritage blue plaque page (7 July 1912); Hurwitz 1964 (7 July 1912); sesquicentennial blog citing Rathindranath for the guest list; Reading Experience Database 3457 (gives 30 June, after Waller 2006, p. 487 n. 207)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gitanjali-1912",
+  "where": "entry:38",
+  "severity": "style",
+  "problem": "Thompson's account (LRB text) confirms arrival at Bolpur about 11.30 a.m. on 13 November and the Nivedita/Besant talk; but the claim that neither man knew of the vote is an inference, not his record.",
+  "fix": {
+   "text_replace": {
+    "old": "Neither man knew that the vote in Stockholm was taking place that same day.",
+    "new": "The vote in Stockholm took place that same day."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "gitanjali-1912",
+  "where": "calendar_note:0",
+  "severity": "doubt",
+  "problem": "Sources disagree on telegram timing: Frontier (2012) puts the telegram's arrival at Santiniketan on 13 November, the blog chronology on the afternoon of the 14th. The note presents the 14th as fact.",
+  "fix": {
+   "text_replace": {
+    "old": "a congratulatory wire from Calcutta friends that reached Bolpur on the afternoon of 14 November,",
+    "new": "a congratulatory wire from Calcutta friends that reached Bolpur on the afternoon of 14 November according to the Bengali chronology (Frontier, 2012, says 13 November),"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "gitanjali-1912",
+  "where": "claim:5",
+  "severity": "doubt",
+  "problem": "'Tagore reads proofs with Yeats' on 9 September 1912 sits uneasily with Yeats being in Normandy writing the introduction that month (entry 17); rests on one Bengali chronology.",
+  "fix": {
+   "claim": "Manuscript sent to the Chiswick Press (per a Bengali chronology)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "benin-1897",
+  "where": "threads_out:1",
+  "severity": "doubt",
+  "problem": "No source checked confirms that Locke's 'Legacy of the Ancestral Arts' discusses Benin work specifically; the second sentence states it as fact.",
+  "fix": {
+   "text_replace": {
+    "old": "The Benin castings, scattered across European museums after 1897, were among the West African works that writers and artists of the Harlem Renaissance knew and admired.",
+    "new": "The Benin castings, scattered across European and American museums after 1897, belonged to the body of West African art that such appeals drew attention to."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "benin-1897",
+  "where": "entry:46",
+  "severity": "style",
+  "problem": "Deportation date: Ling Roth's record gives the 15th, many accounts the 13th; entry already says so and is approx. No change.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ }
+]

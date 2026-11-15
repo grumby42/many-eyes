@@ -1,0 +1,1236 @@
+{
+ "id": "narrow-road",
+ "title": "The Narrow Road",
+ "short_title": "The Narrow Road",
+ "subtitle": "Bashō and Sora's journey to the deep north, Japan, 1689 — with a foreign eye of 1690–92",
+ "span": "1689 (with 1186 and 1690–92)",
+ "intro": [
+  "In the spring of 1689 Matsuo Bashō, the most admired haikai master in Edo, sold his hut by the Sumida River and walked north with his disciple Kawai Sora. For about five months they followed the Pacific side up to Hiraizumi, crossed the mountains to the Sea of Japan, came back down the long coast of Echigo and the Hokuriku, and ended at Ōgaki in Mino. Out of it Bashō made Oku no Hosomichi, 'the narrow road to the interior', the most famous travel book in Japanese.",
+  "This chapter is built on a rare gift: two records of the same journey by the two men who made it. Bashō's is not a diary. He rewrote it for years, had it fair-copied, and it was printed only in 1702, after his death. Sora's notebook, which turned up in 1943, is the opposite: dates, hours, distances, lodgings, weather, names — and a separate record of the verse sessions as they actually happened. Set side by side, they show where Bashō moved a date, turned fair weather into rain or rain into a starry sky, and, at Ichiburi, almost certainly invented a scene.",
+  "The journey was also a chain of encounters. In nearly every town the travellers were received by a local circle of haikai poets — merchants, shipping agents, a sword-polisher, a temple abbot — and joined them in linked-verse sessions. These hosts left almost no diaries; their voices survive as their stanzas in dated session records, in letters they kept, and in the travellers' pages. That is said plainly for each of them below, and their side is not inflated beyond what survives.",
+  "Two other kinds of eyes are added and flagged. Saigyō, the twelfth-century monk-poet, is not a witness at all: he is the past Bashō walked toward, the poet of the barriers and pines Bashō went to see, and his 1186 journey to Hiraizumi is recorded in a later shogunate chronicle. Engelbert Kaempfer, a German doctor of the Dutch East India Company, saw the same Japan only a year later, in 1690–92, travelling the great roads to Edo and performing before the shogun; his dates are a different year, but his foreign, counting, measuring gaze is the sharpest contrast to Bashō's.",
+  "Quotations are limited to the short seventeenth-century verses themselves, given in romanized Japanese. Everything else is paraphrased; no modern translation is quoted."
+ ],
+ "calendar_note": "Japan in 1689 used a lunisolar calendar (the Jōkyō calendar, in force from 1685); Bashō's and Sora's dates are Genroku 2, month and day, and are shown that way in date_display. date_iso gives the Gregorian equivalent, which Europe (and Kaempfer) used. Conversions were made from computed new moons and checked against published anchors: 3.27 = 16 May, 4.22 = 9 June, 5.13 = 29 June, 5.27 = 13 July, 6.16 = 1 August, 7.15 = 29 August and 9.6 = 18 October 1689. The new moon that began the 8th month fell within minutes of midnight, so dates in the 8th month (Sora's departure, Tsuruga) may be one day off and are marked approximate. Saigyō's 1186 date is given in the proleptic Julian calendar and is uncertain within a month.",
+ "vantage_key": "0 = the two travellers themselves (the poet and his log-keeping companion); 1 = hosts who met them on the road; 2 = (unused); 3 = in the same Japan but in other years (Kaempfer, 1690–92); 4 = remembered predecessors, not witnesses (Saigyō).",
+ "eyes": [
+  {
+   "id": "basho",
+   "name": "Matsuo Bashō",
+   "short": "Bashō",
+   "life": "1644–1694",
+   "role": "Haikai master of Edo, aged 45; author-traveller on foot",
+   "side": "Edo haikai poets (Tokugawa Japan)",
+   "where": "On the road from Fukagawa (Edo) through Ōshū, Dewa and the Hokuriku coast to Ōgaki in Mino",
+   "lat": 38.987,
+   "lon": 141.113,
+   "waypoints": [
+    {
+     "lat": 35.682,
+     "lon": 139.795,
+     "label": "Fukagawa, 16 May"
+    },
+    {
+     "lat": 38.987,
+     "lon": 141.113,
+     "label": "Hiraizumi, 29 Jun"
+    },
+    {
+     "lat": 39.21,
+     "lon": 139.906,
+     "label": "Kisakata, 1 Aug"
+    },
+    {
+     "lat": 36.98,
+     "lon": 137.67,
+     "label": "Ichiburi, 26 Aug"
+    },
+    {
+     "lat": 36.25,
+     "lon": 136.37,
+     "label": "Yamanaka, Sep"
+    },
+    {
+     "lat": 35.36,
+     "lon": 136.61,
+     "label": "Ōgaki, Oct"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the poet who made the journey into literature",
+   "form": "literary travel journal (haibun), revised for years",
+   "language": "Early modern Japanese (prose with hokku)",
+   "authenticity": "NOT a day-by-day diary. Oku no Hosomichi was written up and reworked after the journey (c. 1690–94); a fair copy was made by the calligrapher Soryū under Bashō's eye, and the text was printed only in 1702, eight years after his death. Comparison with Sora's diary shows that Bashō shifted dates, changed weather, rearranged stops and very probably invented at least one episode (Ichiburi). Read it as crafted art laid over a real route.",
+   "bio": "Bashō sold his Bashō-an hut and set out in spring 1689 to see the 'deep north' that older poets had made famous. He travelled about 150 days, joined linked-verse sessions with local poets all along the way and turned the trip into the most celebrated travel book in Japanese. In this chapter he is the voice that shapes, and Sora is the voice that counts.",
+   "sources": [
+    {
+     "title": "Japan Search gallery: Oku no hosomichi (1702 first edition, Soryū fair copy, Buson scrolls)",
+     "url": "https://jpsearch.go.jp/en/gallery/ndl-W7Yk4M2a1VUdoAD"
+    },
+    {
+     "title": "LibriVox: Oku no Hosomichi (public-domain reading of the Japanese text)",
+     "url": "https://librivox.org/oku-no-hosomichi-by-matsuo-basho/"
+    }
+   ]
+  },
+  {
+   "id": "sora",
+   "name": "Kawai Sora",
+   "short": "Sora",
+   "life": "1649–1710",
+   "role": "Bashō's disciple and travelling companion, aged about 40; Shintō-learned former retainer",
+   "side": "Edo haikai poets (Tokugawa Japan)",
+   "where": "At Bashō's side from Fukagawa to Yamanaka; then alone to Nagashima; rejoined at Ōgaki",
+   "lat": 36.25,
+   "lon": 136.37,
+   "waypoints": [
+    {
+     "lat": 35.682,
+     "lon": 139.795,
+     "label": "Fukagawa, 16 May"
+    },
+    {
+     "lat": 38.987,
+     "lon": 141.113,
+     "label": "Hiraizumi, 29 Jun"
+    },
+    {
+     "lat": 39.21,
+     "lon": 139.906,
+     "label": "Kisakata, 1 Aug"
+    },
+    {
+     "lat": 36.25,
+     "lon": 136.37,
+     "label": "Leaves Bashō, Sep"
+    },
+    {
+     "lat": 35.09,
+     "lon": 136.69,
+     "label": "Nagashima"
+    },
+    {
+     "lat": 35.36,
+     "lon": 136.61,
+     "label": "Rejoins, Ōgaki"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the companion who kept the factual log",
+   "form": "diary (travel log) with verse notebook",
+   "language": "Early modern Japanese (terse kanbun-style notes)",
+   "authenticity": "Autograph notebook, long known by repute but doubted; seen by Yamamoto Yasusaburō in 1938 and published in July 1943. Now at Tenri Library (Wataya Bunko); Important Cultural Property (1978). It contains a pre-trip list of shrines from the Engishiki, a memorandum of poetic place-names, the 1689 diary (Fukagawa to Sora's departure from Yamanaka), a 1691 Kinki diary, the Haikai kakitome (record of verses and linked-verse sessions) and miscellaneous notes. Not written for readers.",
+   "bio": "Sora prepared the route, carried the reading list of famous places and wrote down times, distances, lodgings and weather with clockwork precision. He has no literary ambition in the diary at all, which is exactly why it exposes Bashō's craft. A later, unprovable theory casts him as a shogunate informant; nothing in the diary proves it.",
+   "sources": [
+    {
+     "title": "Sora's Diary (overview of the manuscript, discovery and contents)",
+     "url": "https://en.wikipedia.org/wiki/Sora%27s_Diary"
+    },
+    {
+     "title": "Japan Search: Sora's travel diary, autograph (Important Cultural Property)",
+     "url": "https://jpsearch.go.jp/en/gallery/ndl-W7Yk4M2a1VUdoAD"
+    }
+   ]
+  },
+  {
+   "id": "tokyu",
+   "name": "Sagara Tōkyū",
+   "short": "Tōkyū",
+   "life": "1638–1715",
+   "role": "Merchant-farmer and post-town notable of Sukagawa; haikai poet and old acquaintance of Bashō",
+   "side": "Provincial haikai circle (Ōshū)",
+   "where": "His own house at Sukagawa on the Ōshū road",
+   "lat": 37.286,
+   "lon": 140.372,
+   "vantage": 1,
+   "vantage_label": "host, partner in the first linked-verse session of the north",
+   "form": "linked-verse record (kasen, in Sora's Haikai kakitome)",
+   "language": "Early modern Japanese",
+   "authenticity": "His voice survives as his stanzas in the Sukagawa kasen recorded in Sora's verse notebook and in later haikai anthologies; no diary of his own. His life dates follow standard local histories and are approximate.",
+   "bio": "Tōkyū was the first host of the deep north proper, just beyond the Shirakawa barrier. Bashō stayed seven nights; the session there opened with Bashō's verse on the rice-planting songs of the north, which became the sign of the whole journey's start.",
+   "sources": [
+    {
+     "title": "Fūryū no Hajimekan, Sukagawa: Bashō's seven nights at Tōkyū's house",
+     "url": "https://tabi-mag.jp/hs0247/"
+    }
+   ]
+  },
+  {
+   "id": "seifu",
+   "name": "Suzuki Seifū",
+   "short": "Seifū",
+   "life": "1651–1721",
+   "role": "Wealthy merchant of Obanazawa (trade in safflower dye) and haikai poet",
+   "side": "Provincial haikai circle (Dewa)",
+   "where": "His house and the nearby Yōsenji temple, Obanazawa",
+   "lat": 38.6,
+   "lon": 140.406,
+   "vantage": 1,
+   "vantage_label": "host for ten nights",
+   "form": "letters received and linked-verse record",
+   "language": "Early modern Japanese",
+   "authenticity": "No diary of Seifū's for 1689 is known. The museum on the site of his house keeps letters in Bashō's hand; Seifū's verses from the visit survive through Sora's records. His side of the encounter is mostly mediated through the travellers' pages, and is flagged so.",
+   "bio": "Seifū had met Bashō in Edo on business and opened his house to him in 1689. Bashō praised him in the journal as a rich man without a rich man's vulgarity. It was Obanazawa people who urged the travellers to see Risshakuji.",
+   "sources": [
+    {
+     "title": "Bashō-Seifū Historical Museum (Suzuki Yahei residence), Obanazawa",
+     "url": "https://www.mlit.go.jp/tagengo-db/R3-00466.html"
+    }
+   ]
+  },
+  {
+   "id": "ichiei",
+   "name": "Takano Ichiei",
+   "short": "Ichiei",
+   "life": "d. 1711 (approx.)",
+   "role": "Boat-house owner at Ōishida, river port on the Mogami, and haikai poet",
+   "side": "Provincial haikai circle (Dewa)",
+   "where": "His house by the Mogami River at Ōishida",
+   "lat": 38.594,
+   "lon": 140.372,
+   "vantage": 1,
+   "vantage_label": "host and partner in the Mogami River session",
+   "form": "linked-verse record (kasen)",
+   "language": "Early modern Japanese",
+   "authenticity": "His presence is known from the Ōishida kasen recorded in Sora's notebook and from Bashō's journal; a sheet of the session in Bashō's hand is reported to survive at Ōishida (not checked here). Dates of life uncertain.",
+   "bio": "Ichiei's circle had been practising haikai by guesswork, Bashō says, and asked him to lead a proper session. Their kasen opened with the famous verse on the gathered early-summer rains of the Mogami; the version in the session record ends 'cool', the polished journal version 'swift'.",
+   "sources": [
+    {
+     "title": "Japan Search gallery: Oku no hosomichi materials",
+     "url": "https://jpsearch.go.jp/en/gallery/ndl-W7Yk4M2a1VUdoAD"
+    }
+   ]
+  },
+  {
+   "id": "hokushi",
+   "name": "Tachibana Hokushi",
+   "short": "Hokushi",
+   "life": "d. 1718",
+   "role": "Kanazawa sword-polisher and haikai poet; became Bashō's disciple in 1689",
+   "side": "Provincial haikai circle (Kaga)",
+   "where": "Kanazawa; then walking with Bashō from Kanazawa via Yamanaka to Matsuoka",
+   "lat": 36.561,
+   "lon": 136.656,
+   "waypoints": [
+    {
+     "lat": 36.561,
+     "lon": 136.656,
+     "label": "Kanazawa, Aug–Sep"
+    },
+    {
+     "lat": 36.408,
+     "lon": 136.445,
+     "label": "Komatsu"
+    },
+    {
+     "lat": 36.25,
+     "lon": 136.37,
+     "label": "Yamanaka"
+    },
+    {
+     "lat": 36.09,
+     "lon": 136.32,
+     "label": "Matsuoka, parting"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "host, then substitute companion",
+   "form": "linked-verse record; later record of teachings",
+   "language": "Early modern Japanese",
+   "authenticity": "His stanzas survive in the session records. The 'Yamanaka mondō', notes of Bashō's teaching attributed to Hokushi, was compiled later and printed long after both men died; treat it as remembered instruction, not a dated diary.",
+   "bio": "Hokushi hosted a gathering at his house in Kanazawa and then walked with Bashō for some 25 days, taking Sora's place after Yamanaka. Their parting at Matsuoka is one of the journal's tenderest scenes, and Hokushi carried the master's ideas back to the Kaga poets.",
+   "sources": [
+    {
+     "title": "Visit Kanazawa: Bashō's days in Kanazawa, 1689",
+     "url": "https://visitkanazawa.jp/en/feature/detail_515.html"
+    }
+   ]
+  },
+  {
+   "id": "bokuin",
+   "name": "Tani Bokuin",
+   "short": "Bokuin",
+   "life": "1646–1725",
+   "role": "Shipping agent of Ōgaki and haikai poet; Bashō's host in 1684 and 1689",
+   "side": "Ōgaki haikai circle (Mino)",
+   "where": "Ōgaki, the journey's end",
+   "lat": 35.36,
+   "lon": 136.61,
+   "vantage": 1,
+   "vantage_label": "host at the journey's end",
+   "form": "linked-verse record (voice mediated by the travellers)",
+   "language": "Early modern Japanese",
+   "authenticity": "No diary of Bokuin for 1689 is known; his part survives through Bashō's journal, Sora's records and Ōgaki session verses. Life dates are from standard reference works and are approximate here.",
+   "bio": "Bokuin had already welcomed Bashō at the end of his 1684 journey. In autumn 1689 his house became one of the places where the Mino and Owari poets gathered around the returned traveller, and from Ōgaki Bashō left by boat for Ise.",
+   "sources": [
+    {
+     "title": "Bashō's departure from Ōgaki for Ise (hamaguri verse)",
+     "url": "https://basho-yamadera.com/en/yamadera/hamaguri"
+    }
+   ]
+  },
+  {
+   "id": "kaempfer",
+   "name": "Engelbert Kaempfer",
+   "short": "Kaempfer",
+   "life": "1651–1716",
+   "role": "German physician to the Dutch East India Company (VOC) factory at Dejima, Nagasaki",
+   "side": "Dutch East India Company (foreign observer)",
+   "where": "Dejima, and twice on the court journey from Nagasaki to Edo (1691 and 1692)",
+   "lat": 32.744,
+   "lon": 129.873,
+   "waypoints": [
+    {
+     "lat": 32.744,
+     "lon": 129.873,
+     "label": "Dejima, Sep 1690"
+    },
+    {
+     "lat": 33.95,
+     "lon": 130.94,
+     "label": "Shimonoseki"
+    },
+    {
+     "lat": 34.69,
+     "lon": 135.5,
+     "label": "Osaka"
+    },
+    {
+     "lat": 35.011,
+     "lon": 135.768,
+     "label": "Kyoto"
+    },
+    {
+     "lat": 35.19,
+     "lon": 139.02,
+     "label": "Hakone"
+    },
+    {
+     "lat": 35.685,
+     "lon": 139.753,
+     "label": "Edo, audience 1691"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "foreign eyes on the same Japan, 1690–92 (different years)",
+   "form": "journal (travel notes, later worked into a book)",
+   "language": "German (manuscript); English translation 1727",
+   "authenticity": "DIFFERENT YEARS: Kaempfer reached Japan in September 1690, a year after Bashō's journey. His travel notes were reworked into the manuscript 'Heutiges Japan' (British Library, Sloane MS 3060), published only after his death in J. G. Scheuchzer's English translation, The History of Japan (London, 1727). Translated, posthumous and edited: no quotation here.",
+   "bio": "Kaempfer walked and rode the great roads of the Japan Bashō knew, writing down inns, post-stations, pilgrims, beggars and the ceremonies of the shogun's court. Where Bashō read the land through old poems, Kaempfer read it as a natural historian and a guarded guest of a closed country. His book became Europe's main picture of Japan for over a century.",
+   "sources": [
+    {
+     "title": "Engelbert Kaempfer (biography)",
+     "url": "https://en.wikipedia.org/wiki/Engelbert_Kaempfer"
+    },
+    {
+     "title": "Wolfgang Michel, paper on Kaempfer's Edo audiences (Kyushu University)",
+     "url": "https://api.lib.kyushu-u.ac.jp/opac_download_md/2850/michel-paper61.pdf"
+    },
+    {
+     "title": "The History of Japan (London, 1727), Wellcome Collection record",
+     "url": "https://wellcomecollection.org/works/e63chctb"
+    }
+   ]
+  },
+  {
+   "id": "saigyo",
+   "name": "Saigyō",
+   "short": "Saigyō",
+   "life": "1118–1190",
+   "role": "Buddhist monk-poet, former guardsman Satō Norikiyo; the traveller Bashō consciously followed",
+   "side": "Heian–Kamakura court poetry (remembered predecessor)",
+   "where": "Five centuries earlier on the same roads: Ise, Kamakura, Hiraizumi",
+   "lat": 38.987,
+   "lon": 141.113,
+   "waypoints": [
+    {
+     "lat": 34.455,
+     "lon": 136.725,
+     "label": "Ise, 1186"
+    },
+    {
+     "lat": 35.325,
+     "lon": 139.556,
+     "label": "Kamakura, 1186"
+    },
+    {
+     "lat": 37.05,
+     "lon": 140.23,
+     "label": "Shirakawa barrier"
+    },
+    {
+     "lat": 38.987,
+     "lon": 141.113,
+     "label": "Hiraizumi, 1186"
+    }
+   ],
+   "vantage": 4,
+   "vantage_label": "REMEMBERED, not an eye of 1689 — the past Bashō walked toward",
+   "form": "poems (Sankashū) and a later chronicle",
+   "language": "Classical Japanese",
+   "authenticity": "Not a witness of 1689. Included because Bashō travelled in his footsteps and timed the journey to the 500th anniversary of his death (1690). The 1186 meeting with Minamoto no Yoritomo is told in the Azuma Kagami, a Kamakura shogunate chronicle compiled in the late 13th century. The monk-poet Nōin (988–c. 1050), whose Shirakawa barrier poem Bashō also recalls, is likewise remembered rather than a witness.",
+   "bio": "Saigyō twice travelled to the far north, the second time in 1186 to ask the Ōshū Fujiwara of Hiraizumi for gold to rebuild the Tōdaiji. His poems turned barriers, pines and willows into utamakura, poetic place-names, and Bashō went looking for exactly those places.",
+   "sources": [
+    {
+     "title": "Yamadera guide noting Bashō followed Saigyō's footsteps",
+     "url": "https://www.mlit.go.jp/tagengo-db/common/001566179.pdf"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1186-09-15",
+   "date_display": "Bunji 2, 8th month, 15th day (1186; late Aug or late Sep 1186, Julian)",
+   "precision": "range",
+   "eye": "saigyo",
+   "place": "Tsurugaoka Hachiman shrine, Kamakura",
+   "headline": "An old monk-poet talks poetry and archery with Yoritomo",
+   "digest": "On his way north to Hiraizumi, the aged Saigyō was recognised at Kamakura and called before Minamoto no Yoritomo, who questioned him through the night about poetry and the old arts of horseback archery. The chronicle says he was given a silver cat as a parting gift and handed it to children playing at the gate. This is the journey whose roads Bashō set out to walk 503 years later.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Azuma Kagami, entries for Bunji 2.8.15–16 (later shogunate chronicle). Julian conversion uncertain because the placement of the 8th month in 1186 is not checked here."
+  },
+  {
+   "date_iso": "1689-04-20",
+   "date_display": "Genroku 2, spring (3rd month) 1689",
+   "precision": "month",
+   "eye": "sora",
+   "place": "Fukagawa, Edo",
+   "headline": "Sora drafts the itinerary from old books",
+   "digest": "Before they set out, Sora copied a list of shrines from the tenth-century Engishiki register and compiled a memorandum of poetic place-names from older anthologies of famous sites. Notes from the road were later squeezed in between these lines. The north they were going to see was, first of all, a north already written down.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Front sections of Sora's notebook (Engishiki shinmeichō; utamakura memorandum); see Sora's Diary overview."
+  },
+  {
+   "date_iso": "1689-05-16",
+   "date_display": "Genroku 2, 3rd month, 27th day (16 May 1689)",
+   "precision": "day",
+   "eye": "basho",
+   "place": "Fukagawa → Senju",
+   "headline": "Leaving Edo with tears at Senju",
+   "digest": "The journal opens with the famous meditation on months and years as eternal travellers, then tells of selling the hut and setting off by boat up the Sumida. At Senju, where friends saw them off, the thought of the 'three thousand ri' ahead brought tears, and Bashō wrote his first verse of parting: birds crying, fish with tears in their eyes. The journal says they reached Sōka that night.",
+   "quote": "yuku haru ya / tori naki uo no / me wa namida",
+   "confidence": "verified",
+   "source_note": "Oku no Hosomichi, opening sections; Gregorian conversion by computed new moons (3rd month began 20 April 1689)."
+  },
+  {
+   "date_iso": "1689-05-16",
+   "date_display": "Genroku 2, 3rd month, 27th day (16 May 1689)",
+   "precision": "day",
+   "eye": "sora",
+   "place": "Fukagawa → Senju → Kasukabe",
+   "headline": "Sora's log: boat to Senju, night at Kasukabe",
+   "digest": "Sora's first entries record the boat from Fukagawa, the landing at Senju and the night's lodging. Where the journal names Sōka as the first stop, Sora puts the first night farther on at Kasukabe. It is the first of many small corrections the factual log makes to the literary one.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sora tabi nikki, opening entries (standard editions); detail from scholarly comparison, not re-checked here."
+  },
+  {
+   "date_iso": "1689-05-19",
+   "date_display": "Genroku 2, 4th month, 1st day (19 May 1689)",
+   "precision": "day",
+   "eye": "basho",
+   "place": "Nikkō",
+   "headline": "Sunlight on the young leaves at the shogun's shrine",
+   "digest": "At Nikkō, site of the mausoleum of Tokugawa Ieyasu, Bashō wrote a verse of awe at sunlight on green and young leaves, a compliment to the Tokugawa peace folded into a seasonal image. He also tells how Sora had shaved his head and taken the name Sōgo for the journey.",
+   "quote": "ara tōto / aoba wakaba no / hi no hikari",
+   "confidence": "approx",
+   "source_note": "Oku no Hosomichi, Nikkō section; date from the standard itinerary (4th month began 19 May 1689)."
+  },
+  {
+   "date_iso": "1689-06-07",
+   "date_display": "Genroku 2, 4th month, 20th day (7 June 1689)",
+   "precision": "day",
+   "eye": "basho",
+   "place": "Shirakawa barrier",
+   "headline": "Crossing the barrier the old poets wrote about",
+   "digest": "At the Shirakawa barrier, gateway to the north, Bashō says his heart finally settled on the journey. He fills the page with older poets: Nōin's autumn wind, the deutzia blossom and bramble flowers that later writers attached to the place. The verse he gives here is Sora's, about dressing in white flowers as one's finest clothes for the crossing.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Oku no Hosomichi, Shirakawa section; date from the standard itinerary."
+  },
+  {
+   "date_iso": "1689-06-09",
+   "date_display": "Genroku 2, 4th month, 22nd day (9 June 1689)",
+   "precision": "day",
+   "eye": "tokyu",
+   "place": "Sukagawa",
+   "headline": "Seven nights at Tōkyū's house",
+   "digest": "Bashō and Sora arrived at Tōkyū's house in Sukagawa and stayed seven nights. Tōkyū asked how the barrier had gone, and the answer became the opening verse of a linked-verse session on the rice-planting songs of the deep north. The stay was largely rainy and cloudy; the guests also visited the recluse-poet Kashin under his chestnut tree.",
+   "quote": "fūryū no / hajime ya oku no / taueuta",
+   "confidence": "verified",
+   "source_note": "Fūryū no Hajimekan (Sukagawa) account of the stay, 4.22–4.29; verse recorded in Oku no Hosomichi and in Sora's Haikai kakitome."
+  },
+  {
+   "date_iso": "1689-06-10",
+   "date_display": "Genroku 2, 4th month, 22nd–29th days (9–16 June 1689)",
+   "precision": "range",
+   "eye": "sora",
+   "place": "Sukagawa",
+   "headline": "Rain days and a verse session written down",
+   "digest": "Sora's log for the Sukagawa stay is a string of weather notes, visits and names; rain fell on several of the days. In his separate verse notebook he wrote out the linked-verse session with Tōkyū, preserving the stanzas in the form in which they were actually composed, before Bashō polished anything for the journal.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sora tabi nikki and Haikai kakitome; weather per Fūryū no Hajimekan summary of Sora's record."
+  },
+  {
+   "date_iso": "1689-06-25",
+   "date_display": "Genroku 2, 5th month, 9th day (25 June 1689)",
+   "precision": "day",
+   "eye": "basho",
+   "place": "Matsushima",
+   "headline": "Too beautiful for a verse",
+   "digest": "Bashō crossed by boat from Shiogama and described Matsushima's pine islands as the finest scenery in Japan, worthy of China's Dongting lake. Then, by his own account, he could not write: he lay awake and let Sora's verse stand for the place. Whether the silence was real or a literary gesture, it became one of the journal's best-known moves.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Oku no Hosomichi, Matsushima section; date from the standard itinerary (5th month began 17 June 1689)."
+  },
+  {
+   "date_iso": "1689-06-25",
+   "date_display": "Genroku 2, 5th month, 9th day (25 June 1689)",
+   "precision": "day",
+   "eye": "sora",
+   "place": "Shiogama → Matsushima",
+   "headline": "Boat times, temple visits, a lodging",
+   "digest": "Sora's entry for Matsushima is all logistics: the boat from Shiogama, the hour of arrival, the temples visited (Zuiganji among them) and where they stayed. His own verse, the one Bashō placed in the journal, asks the cuckoo to borrow the body of a crane to suit the scene.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sora tabi nikki, 5.9; Sora's verse as given in Oku no Hosomichi."
+  },
+  {
+   "date_iso": "1689-06-29",
+   "date_display": "Genroku 2, 5th month, 13th day (29 June 1689)",
+   "precision": "day",
+   "eye": "basho",
+   "place": "Hiraizumi",
+   "headline": "Summer grass where warriors dreamed",
+   "digest": "At Hiraizumi, capital of the Ōshū Fujiwara destroyed by Yoritomo in 1189, Bashō climbed to Takadachi, where Yoshitsune died, and wept over the river and fields, remembering Du Fu's line that mountains and rivers remain when a state falls. Then he describes the Konjikidō, the golden hall, shining on beneath its protective outer building after five hundred years of rain.",
+   "quote": "natsukusa ya / tsuwamonodomo ga / yume no ato",
+   "confidence": "verified",
+   "source_note": "Oku no Hosomichi, Hiraizumi section; 5.13 = 29 June 1689 (computed and widely cited)."
+  },
+  {
+   "date_iso": "1689-06-29",
+   "date_display": "Genroku 2, 5th month, 13th day (29 June 1689)",
+   "precision": "day",
+   "eye": "sora",
+   "place": "Ichinoseki → Hiraizumi",
+   "headline": "A day-trip, tallied in places and hours",
+   "digest": "Sora logs the walk from Ichinoseki, the sites seen — Takadachi, Chūsonji and its halls — and the return the same day. In the usual reading of the entry he notes that the sutra hall could not be opened because its custodian was away. Nothing in his lines suggests the tears of Bashō's page.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sora tabi nikki, 5.13 (standard editions); detail about the sutra hall from memory of the edited text, not re-checked online."
+  },
+  {
+   "date_iso": "1689-06-29",
+   "date_display": "Genroku 2, 5th month, 13th day (29 June 1689)",
+   "precision": "day",
+   "eye": "saigyo",
+   "place": "Hiraizumi (remembered)",
+   "headline": "The poet who had come here five centuries before",
+   "digest": "Saigyō's poems about the far north, and his journey of 1186 to the Fujiwara court at Hiraizumi, stood behind Bashō's visit. On this day it is Saigyō's Hiraizumi, rich and powerful, that Bashō sets against the summer grass. This entry records an inheritance, not a witness.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Context entry: Saigyō's Sankashū and the 1186 journey; Bashō's conscious following of Saigyō (Yamadera guide)."
+  },
+  {
+   "date_iso": "1689-07-02",
+   "date_display": "Genroku 2, 5th month, 15th–17th days (1–3 July 1689)",
+   "precision": "range",
+   "eye": "basho",
+   "place": "Shitomae barrier (Sakaigata)",
+   "headline": "Fleas, lice and a horse beside the pillow",
+   "digest": "Crossing into Dewa, the travellers were held at a border-guard's house by bad weather for three days. Bashō turned the misery into a comic verse about fleas, lice and a horse pissing by his pillow, and then hired a strong young guide for the wild Natagiri pass. Low comedy is placed deliberately right after the grandeur of Hiraizumi.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Oku no Hosomichi, Shitomae section; dates from the standard itinerary."
+  },
+  {
+   "date_iso": "1689-07-03",
+   "date_display": "Genroku 2, 5th month, 17th day (3 July 1689)",
+   "precision": "day",
+   "eye": "seifu",
+   "place": "Obanazawa",
+   "headline": "A safflower merchant opens his house",
+   "digest": "Seifū welcomed the travellers to Obanazawa, where they stayed ten nights in all: three in his house and the rest at the nearby Yōsenji temple. Bashō, used to rough lodgings, found a host who understood the traveller's need for rest. Seifū's own account of the visit does not survive; the museum on his house site keeps letters in Bashō's hand.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bashō-Seifū Historical Museum (MLIT multilingual text): ten nights, three at Seifū's, seven at Yōsenji."
+  },
+  {
+   "date_iso": "1689-07-13",
+   "date_display": "Genroku 2, 5th month, 27th day (13 July 1689)",
+   "precision": "day",
+   "eye": "basho",
+   "place": "Risshakuji (Yamadera)",
+   "headline": "Stillness, and cicada voices sinking into rock",
+   "digest": "Urged by the people of Obanazawa, Bashō turned back south to the mountain temple of Risshakuji, climbing among old pines and moss-covered rocks to halls set on the cliffs. In the silence at sunset he wrote the verse of cicadas' voices seeping into the rocks, perhaps the most famous single poem of the journey.",
+   "quote": "shizukasa ya / iwa ni shimiiru / semi no koe",
+   "confidence": "verified",
+   "source_note": "Oku no Hosomichi, Risshakuji section; Yamadera visit 13 July 1689 per Yamagata tourism text (MLIT)."
+  },
+  {
+   "date_iso": "1689-07-13",
+   "date_display": "Genroku 2, 5th month, 27th day (13 July 1689)",
+   "precision": "day",
+   "eye": "sora",
+   "place": "Obanazawa → Risshakuji",
+   "headline": "A detour, logged with distances",
+   "digest": "Sora's entry records leaving Obanazawa, the distance to the temple and the overnight lodging at its foot. His exact noting of hours, using the twelve-branch time divisions, lets later readers rebuild the day almost hour by hour.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sora tabi nikki, 5.27 (standard editions)."
+  },
+  {
+   "date_iso": "1689-07-15",
+   "date_display": "Genroku 2, 5th month, 28th–30th days (14–16 July 1689)",
+   "precision": "range",
+   "eye": "ichiei",
+   "place": "Ōishida, on the Mogami River",
+   "headline": "A river-port circle asks for a proper session",
+   "digest": "At Ōishida the travellers waited for good weather to take a boat down the Mogami. Ichiei and his circle, who had been writing linked verse without a teacher, asked Bashō to lead a session. The kasen they made opened with Bashō's verse on the early-summer rains gathered into the river — in the session's first wording, 'cool'.",
+   "quote": "samidare wo / atsumete suzushi / mogamigawa",
+   "confidence": "approx",
+   "source_note": "Session record in Sora's Haikai kakitome; Oku no Hosomichi, Ōishida section; Gregorian dates computed."
+  },
+  {
+   "date_iso": "1689-07-15",
+   "date_display": "Genroku 2, 5th month, 28th–30th days (14–16 July 1689)",
+   "precision": "range",
+   "eye": "basho",
+   "place": "Ōishida → Mogami River",
+   "headline": "The same verse, retuned for the page",
+   "digest": "In the journal Bashō says that the seeds of old haikai had been sown in this remote place, and that he left them a volume of verse. Then he takes the boat down the swollen Mogami, and the verse now ends 'swift' instead of 'cool' — a host's compliment turned into a picture of rushing water.",
+   "quote": "samidare wo / atsumete hayashi / mogamigawa",
+   "confidence": "approx",
+   "source_note": "Oku no Hosomichi, Ōishida and Mogami sections; comparison with the session record."
+  },
+  {
+   "date_iso": "1689-07-22",
+   "date_display": "Genroku 2, 6th month, 3rd–10th days (19–26 July 1689)",
+   "precision": "range",
+   "eye": "basho",
+   "place": "Haguro, Gassan, Yudono",
+   "headline": "Climbing the three sacred mountains",
+   "digest": "At Haguro the travellers were guests of the mountain's acting abbot and of local poets. Bashō climbed Gassan through cloud and snow-fields, slept in a hut at the top and went down to Yudono, whose rites pilgrims were forbidden to describe. He made verses at each of the three mountains.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Oku no Hosomichi, Dewa Sanzan section; dates from the standard itinerary (6th month began 17 July 1689)."
+  },
+  {
+   "date_iso": "1689-08-01",
+   "date_display": "Genroku 2, 6th month, 16th day (1 August 1689)",
+   "precision": "day",
+   "eye": "basho",
+   "place": "Kisakata",
+   "headline": "A lagoon like a grieving beauty in the rain",
+   "digest": "Bashō arrived at Kisakata, then a lagoon dotted with pine-covered islets, in misty rain that hid Mount Chōkai; the next morning it cleared and he went out by boat to Nōin's island and the cherry tree linked to Saigyō. He set Kisakata against Matsushima: one laughs, the other grieves, and compared it to the Chinese beauty Xi Shi with closed eyes under the silk-tree flowers.",
+   "quote": "kisakata ya / ame ni seishi ga / nebu no hana",
+   "confidence": "verified",
+   "source_note": "Oku no Hosomichi, Kisakata section; arrival evening 1 August 1689 with rain, clearing next morning (akitahaiku.com)."
+  },
+  {
+   "date_iso": "1689-08-01",
+   "date_display": "Genroku 2, 6th month, 16th–17th days (1–2 August 1689)",
+   "precision": "range",
+   "eye": "sora",
+   "place": "Fukuura → Kisakata",
+   "headline": "Rain on the road, clear the next day",
+   "digest": "Sora logs the walk up the coast in rain, the lodging at Kisakata and the next day's sightseeing by boat, with the weather noted day by day. Here, for once, the two records broadly agree that it rained. Sora also wrote his own Kisakata verses, one wondering what people eat at the local shrine festival.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sora tabi nikki, 6.16–17; weather agreement per standard comparisons, not re-checked line by line."
+  },
+  {
+   "date_iso": "1689-08-18",
+   "date_display": "Genroku 2, 7th month, 4th day (18 August 1689)",
+   "precision": "day",
+   "eye": "basho",
+   "place": "Izumozaki, Echigo coast",
+   "headline": "The Milky Way over the rough sea to Sado",
+   "digest": "Bashō says nothing of the long Echigo stretch, claiming heat and illness, but places here one of his grandest verses: the rough sea, and the River of Heaven lying across it toward Sado, the island of exiles. He later wrote a separate prose piece about watching the Milky Way that night at Izumozaki.",
+   "quote": "araumi ya / sado ni yokotau / amanogawa",
+   "confidence": "verified",
+   "source_note": "Oku no Hosomichi, Echigo section; Gregorian 18 Aug (7th month began 15 Aug 1689, confirmed by Kanazawa 7.15 = 29 Aug)."
+  },
+  {
+   "date_iso": "1689-08-18",
+   "date_display": "Genroku 2, 7th month, 4th day (18 August 1689)",
+   "precision": "day",
+   "eye": "sora",
+   "place": "Izumozaki",
+   "headline": "'Heavy rain in the night'",
+   "digest": "Sora's record for the night at Izumozaki says that rain fell hard during the night. If the sky was clouded, the Milky Way across to Sado was not seen that night as the verse implies: either it was glimpsed earlier, or it was seen with the poet's mind. Either way the factual log quietly unhooks the verse from the date.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sora tabi nikki: 'yonaka, ame tsuyoku furu' (heavy rain in the night), cited on the Izumozaki walking-diary page."
+  },
+  {
+   "date_iso": "1689-08-26",
+   "date_display": "Genroku 2, 7th month, 12th day (26 August 1689)",
+   "precision": "day",
+   "eye": "basho",
+   "place": "Ichiburi, after the Oyashirazu cliffs",
+   "headline": "Courtesans under one roof — almost certainly invented",
+   "digest": "After the dangerous shore-path of Oyashirazu, Bashō says he overheard two young courtesans from Niigata in the next room, on their way to Ise; in the morning they begged to follow the travellers and he refused them, then felt the pity of it. He says he told the tale to Sora, who wrote it down. Sora's log has no such encounter, and most scholars read the scene as fiction placed here to give the journal a love-poem moment.",
+   "quote": "hitotsuya ni / yūjo mo netari / hagi to tsuki",
+   "confidence": "approx",
+   "source_note": "Oku no Hosomichi, Ichiburi section; on its fictionality see e.g. C. M. Millett, 'Bush Clover and Moon', Monumenta Nipponica 52:3 (1997), and the fabrication debate summarised in the Sora's Diary overview."
+  },
+  {
+   "date_iso": "1689-08-26",
+   "date_display": "Genroku 2, 7th month, 12th day (26 August 1689)",
+   "precision": "day",
+   "eye": "sora",
+   "place": "Ichiburi",
+   "headline": "A hard coast road, a lodging — no courtesans",
+   "digest": "Sora's entry records the difficult passage along the Oyashirazu coast and the night's lodging at Ichiburi, the border post into Etchū. There is no mention of courtesans, of an exchange in the morning or of any verse taken down at Bashō's request. The silence is the strongest evidence that the journal's most romantic scene was made at the writing desk.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sora tabi nikki, 7.12 (standard editions); absence of the episode widely noted."
+  },
+  {
+   "date_iso": "1689-08-29",
+   "date_display": "Genroku 2, 7th month, 15th day (29 August 1689)",
+   "precision": "day",
+   "eye": "basho",
+   "place": "Kanazawa",
+   "headline": "Arriving to find the friend already dead",
+   "digest": "Bashō entered Kanazawa in the afternoon, coming over the Kurikara pass, and lodged with a merchant. There he learned that the young poet Kosugi Isshō, whom he had hoped to meet, had died the previous winter. The news set the tone for the Kanazawa stay of about nine nights.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Visit Kanazawa account: arrival 7.15 (29 August 1689), lodging with Kyō-ya Kichibei."
+  },
+  {
+   "date_iso": "1689-08-31",
+   "date_display": "Genroku 2, 7th month, 17th day (31 August 1689)",
+   "precision": "day",
+   "eye": "hokushi",
+   "place": "Gen'i-an, Kanazawa",
+   "headline": "Hokushi gathers the Kanazawa poets",
+   "digest": "Hokushi held a haikai gathering for Bashō at his house. Over the following days the poets met again at other houses and on a boat in the Utatsuyama valley. Hokushi would soon become a substitute companion on the road.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Visit Kanazawa account: Hokushi's gathering 7.17; Gregorian computed."
+  },
+  {
+   "date_iso": "1689-09-05",
+   "date_display": "Genroku 2, 7th month, 22nd day (5 September 1689)",
+   "precision": "day",
+   "eye": "basho",
+   "place": "Gannenji, Kanazawa",
+   "headline": "'Shake, grave-mound': the memorial for Isshō",
+   "digest": "Isshō's elder brother held a memorial haikai session at the family temple, and Bashō offered a verse asking the grave-mound itself to stir at his weeping voice, which is the autumn wind. It is one of the rare places in the journal where grief is spoken outright rather than through landscape.",
+   "quote": "tsuka mo ugoke / waga naku koe wa / aki no kaze",
+   "confidence": "verified",
+   "source_note": "Visit Kanazawa account: memorial at Gannenji 7.22; verse in Oku no Hosomichi."
+  },
+  {
+   "date_iso": "1689-09-05",
+   "date_display": "Genroku 2, 7th month, 22nd day (5 September 1689)",
+   "precision": "day",
+   "eye": "sora",
+   "place": "Kanazawa",
+   "headline": "The session written into the notebook",
+   "digest": "Sora's verse notebook records the Kanazawa gatherings, including the memorial, with the participants' stanzas. His diary for these days is short, and over this stretch he was himself increasingly unwell.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Haikai kakitome and Sora tabi nikki, Kanazawa entries (standard editions)."
+  },
+  {
+   "date_iso": "1689-09-08",
+   "date_display": "Genroku 2, 7th month, 25th day (8 September 1689)",
+   "precision": "day",
+   "eye": "basho",
+   "place": "Tada shrine, Komatsu",
+   "headline": "A cricket beneath a dead warrior's helmet",
+   "digest": "At Tada shrine Bashō saw the helmet of Saitō Sanemori, the old warrior who dyed his white hair black to fight one last time and was killed in 1183. He wrote of a cricket chirping under the helmet, borrowing a line from the Nō play about Sanemori.",
+   "quote": "muzan ya na / kabuto no shita no / kirigirisu",
+   "confidence": "approx",
+   "source_note": "Oku no Hosomichi, Komatsu section; date from the standard itinerary."
+  },
+  {
+   "date_iso": "1689-09-18",
+   "date_display": "Genroku 2, 8th month, 5th day (c. 18 September 1689)",
+   "precision": "day",
+   "eye": "sora",
+   "place": "Yamanaka hot spring → toward Nagashima",
+   "headline": "Sora's log ends: he goes on ahead, ill",
+   "digest": "With a stomach complaint, Sora left Bashō at the Yamanaka hot spring and went on ahead toward relatives at Nagashima in Ise province; his diary of the northern journey ends here. His farewell verse imagined going on and on, and if he fell, lying down in a field of bush clover.",
+   "quote": "yukiyukite / taorefusu tomo / hagi no hara",
+   "confidence": "approx",
+   "source_note": "Sora's Diary overview: the 1689 diary ends with Sora leaving on the 8th month 5th day. Gregorian ±1 day (computed new moon falls near midnight)."
+  },
+  {
+   "date_iso": "1689-09-18",
+   "date_display": "Genroku 2, 8th month, 5th day (c. 18 September 1689)",
+   "precision": "day",
+   "eye": "basho",
+   "place": "Yamanaka hot spring",
+   "headline": "Erasing 'two travellers' from the hat",
+   "digest": "Bashō describes the parting as a pair of birds torn apart, one left lost in the clouds. His verse speaks of rubbing out, with the autumn dew, the inscription on his hat that announced two travellers on the road together. Before this, Yamanaka's waters had given him a verse saying no chrysanthemum need be picked for long life — the scent of the hot spring was enough.",
+   "quote": "kyō yori ya / kakitsuke kesan / kasa no tsuyu",
+   "confidence": "approx",
+   "source_note": "Oku no Hosomichi, Yamanaka section; Yamanaka verse cited by NDL 'Hot springs in literary works'."
+  },
+  {
+   "date_iso": "1689-09-20",
+   "date_display": "Genroku 2, 8th month, early days (c. 20 September 1689)",
+   "precision": "range",
+   "eye": "hokushi",
+   "place": "Yamanaka → Matsuoka (Tenryūji)",
+   "headline": "Walking with the master, then a torn fan",
+   "digest": "After Sora's departure Hokushi kept Bashō company as far as Matsuoka, near Fukui. There they parted, and Bashō wrote of tearing a fan in two on which they had written verses. The teachings Hokushi heard on the road were later written up as the Yamanaka mondō — a recollection printed long after, not a diary of these days.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Visit Kanazawa account (Hokushi accompanied Bashō about 25 days toward Fukui); Oku no Hosomichi, Matsuoka section."
+  },
+  {
+   "date_iso": "1689-09-28",
+   "date_display": "Genroku 2, 8th month, 15th day (c. 28 September 1689)",
+   "precision": "day",
+   "eye": "basho",
+   "place": "Tsuruga",
+   "headline": "Full moon night, and it rained",
+   "digest": "On the evening of the 14th the sky was clear and the innkeeper warned that northern weather could not be trusted. On the 15th, the great moon-viewing night, it rained. Bashō turned the disappointment into a verse on the fickleness of the northern weather, and next day went by boat to Iro beach to gather the small pink shells Saigyō had praised.",
+   "quote": "meigetsu ya / hokkoku biyori / sadamenaki",
+   "confidence": "approx",
+   "source_note": "Oku no Hosomichi, Tsuruga section; weather of 8.14 (clear) and 8.15 (rain) per Tsuruga local history (JAEA 'furusato' sheet). Gregorian ±1 day."
+  },
+  {
+   "date_iso": "1689-10-04",
+   "date_display": "Genroku 2, 8th month, around the 21st day (c. 4 October 1689)",
+   "precision": "range",
+   "eye": "basho",
+   "place": "Ōgaki, Mino",
+   "headline": "Friends gather as if he had come back from the dead",
+   "digest": "Met at Tsuruga by his disciple Rotsū, Bashō rode into Ōgaki. Friends came day and night — Sora back from Ise, Etsujin on horseback from Nagoya, the Ōgaki poets — and, the journal says, they rejoiced as if he had returned from the dead.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Oku no Hosomichi, Ōgaki section; arrival date approximate."
+  },
+  {
+   "date_iso": "1689-10-04",
+   "date_display": "Genroku 2, 8th month, late (c. October 1689)",
+   "precision": "range",
+   "eye": "bokuin",
+   "place": "Ōgaki",
+   "headline": "The shipping agent's house fills with poets",
+   "digest": "Bokuin, who had already sheltered Bashō at the end of his 1684 journey, was among the Ōgaki hosts. The returning traveller rested, wrote and joined sessions with the local circle. Bokuin's own words about the visit survive only in verse records and through the travellers' pages.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Bashō biography and Ōgaki memorial-museum tradition; no diary of Bokuin known."
+  },
+  {
+   "date_iso": "1689-10-15",
+   "date_display": "Genroku 2, 9th month, 3rd day (15 October 1689)",
+   "precision": "day",
+   "eye": "sora",
+   "place": "Ōgaki",
+   "headline": "Sora rejoins his master",
+   "digest": "Recovered, Sora came to Ōgaki and rejoined Bashō. The two would travel on together toward Ise, and later return to Edo.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sora's Diary overview: Sora rejoined Bashō at Ōgaki on the 9th month 3rd day."
+  },
+  {
+   "date_iso": "1689-10-18",
+   "date_display": "Genroku 2, 9th month, 6th day (18 October 1689)",
+   "precision": "day",
+   "eye": "basho",
+   "place": "Ōgaki → by boat toward Ise",
+   "headline": "Parting like a clam from its shell",
+   "digest": "Not yet rested, Bashō set off by boat from Ōgaki for Ise, where the rebuilding rite of the shrine was being held. The journal ends with a verse playing on Futami and on parting like the two halves of a clam in the departing autumn — the end of the book's journey, but not of his travelling.",
+   "quote": "hamaguri no / futami ni wakare / yuku aki zo",
+   "confidence": "verified",
+   "source_note": "Oku no Hosomichi, closing section; departure 9.6 = 18 October 1689 (basho-yamadera.com)."
+  },
+  {
+   "date_iso": "1689-10-18",
+   "date_display": "Genroku 2, 9th month, 6th day (18 October 1689)",
+   "precision": "day",
+   "eye": "bokuin",
+   "place": "Ōgaki, river landing",
+   "headline": "Seeing the travellers off by boat",
+   "digest": "The Ōgaki poets saw Bashō and Sora off as they left by river boat for Ise. Bokuin's house had been the end of the line for the Narrow Road; from here the book closes, though the men went on.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Departure scene per Oku no Hosomichi and Ōgaki tradition; Bokuin's presence at the send-off is approximate."
+  },
+  {
+   "date_iso": "1690-09-25",
+   "date_display": "September 1690 (Gregorian; a year after Bashō's journey)",
+   "precision": "month",
+   "eye": "kaempfer",
+   "place": "Nagasaki, Dejima",
+   "headline": "A German doctor reaches the closed country",
+   "digest": "Kaempfer arrived at Nagasaki in September 1690 as physician to the Dutch trading post on the artificial island of Dejima. Confined there under watch, he relied on his interpreter Imamura Gen'emon and on Japanese he was not supposed to learn, gathering books, plants and information in secret.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kaempfer biography (arrival at Nagasaki, September 1690; interpreter Imamura Gen'emon). Exact day not checked."
+  },
+  {
+   "date_iso": "1691-03-10",
+   "date_display": "February–March 1691 (Gregorian)",
+   "precision": "range",
+   "eye": "kaempfer",
+   "place": "On the road, Nagasaki → Osaka → Kyoto → Tōkaidō → Edo",
+   "headline": "The same roads, seen as a foreigner",
+   "digest": "On the annual court journey Kaempfer recorded the crowded highways: post-stations and inns that lived off travellers, porters and horses, pilgrims bound for Ise, wandering beggars and nuns, shrines at every turn. Where Bashō read the land through old poems, Kaempfer counted, sketched and measured it, as a natural historian and a closely guarded guest.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kaempfer, The History of Japan (1727), journey books; road observations general, dates from the 1691 journey (audience 29 March)."
+  },
+  {
+   "date_iso": "1691-03-29",
+   "date_display": "29 March 1691 (Gregorian)",
+   "precision": "day",
+   "eye": "kaempfer",
+   "place": "Edo Castle",
+   "headline": "Audience with Tsunayoshi — and made to perform",
+   "digest": "Kaempfer was carried in a palanquin to the castle with the Dutch chief Hendrik van Buijtenhem. Behind screens the shogun Tokugawa Tsunayoshi and his ladies had the visitors take off their cloaks, walk, dance, play drunk, speak Japanese, read Dutch, paint and sing. Kaempfer sang a song and, asked for its meaning, said it wished health and prosperity to the shogun's house; privately he resented the performance as monkey-tricks.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "W. Michel, paper on Kaempfer's audiences (date from the Dejima diary); Bibliolore, 'Entertaining the shōgun' (2023)."
+  },
+  {
+   "date_iso": "1691-06-15",
+   "date_display": "Genroku 4, summer 1691",
+   "precision": "range",
+   "eye": "sora",
+   "place": "Kyoto, Rakushisha (Saga)",
+   "headline": "Two years on: meeting Bashō where Sarumino is edited",
+   "digest": "Sora kept a second diary in 1691, a journey to Yoshino, Kōya, Kumano, Waka, Suma and Akashi. In it he records visiting Bashō at Rakushisha in Saga, the cottage where the anthology Sarumino was being edited. That same year Kaempfer's procession passed through Kyoto on its way to and from Edo; no meeting is known.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sora's Diary overview (1691 Kinki diary, meeting at Rakushisha); dating within 1691 approximate."
+  },
+  {
+   "date_iso": "1692-04-21",
+   "date_display": "Spring 1692 (Gregorian; audience recorded 21 April 1692)",
+   "precision": "range",
+   "eye": "kaempfer",
+   "place": "Edo",
+   "headline": "A second court journey, a year on",
+   "digest": "Kaempfer made the court journey again in 1692 under the new chief Cornelis van Outhoorn, travelling the same Tōkaidō and adding to his notes on stations, distances and customs. The Dejima records date that year's audience to 21 April.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Michel paper (footnote: Dejima audience 21 April 1692 under van Outhoorn); Kaempfer's attendance per his biography (two Edo visits)."
+  },
+  {
+   "date_iso": "1692-11-15",
+   "date_display": "November 1692 (Gregorian)",
+   "precision": "month",
+   "eye": "kaempfer",
+   "place": "Nagasaki",
+   "headline": "Leaving Japan with a hidden library",
+   "digest": "Kaempfer left Japan for Java in November 1692, taking maps, books and notes he was not supposed to own. He never saw Japan again, and his account would only be printed eleven years after his death.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kaempfer biography (left Japan November 1692)."
+  },
+  {
+   "date_iso": "1702-06-01",
+   "date_display": "Genroku 15 (1702)",
+   "precision": "year",
+   "eye": "basho",
+   "place": "Kyoto (Izutsuya, publisher)",
+   "headline": "The journal reaches print, eight years after the poet",
+   "digest": "Bashō died in Osaka in 1694. The fair copy Soryū had made under his supervision passed to Kyoriku, and in 1702 the Kyoto bookseller Izutsuya printed Oku no Hosomichi. From then on readers knew the journey as Bashō had shaped it; Sora's plain log stayed unseen until 1943.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Japan Search gallery: first Genroku edition 1702; Soryū fair copy given to Kyoriku."
+  },
+  {
+   "date_iso": "1727-06-01",
+   "date_display": "1727",
+   "precision": "year",
+   "eye": "kaempfer",
+   "place": "London (posthumous)",
+   "headline": "Europe's Japan, printed eleven years after death",
+   "digest": "Scheuchzer's English translation of Kaempfer's manuscript appeared in London as The History of Japan, with copper plates of roads, temples and the audience hall. Its appendix on Japan's closure, later rendered into Japanese (1801), gave the language the word 'sakoku' for the closed-country policy.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wellcome Collection record of the 1727 edition; Harvard preservation blog on the plates; Sakoku-ron link from general scholarship, not re-checked here."
+  },
+  {
+   "date_iso": "1943-07-15",
+   "date_display": "July 1943",
+   "precision": "month",
+   "eye": "sora",
+   "place": "Tokyo (publication)",
+   "headline": "The plain log surfaces and the poet is checked",
+   "digest": "Sora's notebook, doubted for centuries, was published in July 1943 by Yamamoto Yasusaburō. Scholars set it beside the journal and found shifted dates, changed weather and missing episodes; the majority concluded that Bashō had knowingly fictionalised parts of his book, while a minority defended him.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sora's Diary overview: published July 1943 (Ogawa Shoten); fabrication debate."
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1689-05-16",
+   "label": "Departure from Fukagawa and Senju",
+   "eyes": [
+    "basho",
+    "sora"
+   ],
+   "note": "Bashō's farewell is tears and a verse; Sora's is a boat, a landing and a lodging — and not even the same first night's town."
+  },
+  {
+   "date": "1689-06-09",
+   "label": "Seven nights at Sukagawa",
+   "eyes": [
+    "tokyu",
+    "basho",
+    "sora"
+   ],
+   "note": "The host's question about the barrier becomes the first linked-verse session of the north; Sora writes the session down as it was made."
+  },
+  {
+   "date": "1689-06-25",
+   "label": "Matsushima",
+   "eyes": [
+    "basho",
+    "sora"
+   ],
+   "note": "The poet claims to be too moved to write; the log gives boat times — and the verse that stands in the journal is Sora's."
+  },
+  {
+   "date": "1689-06-29",
+   "label": "Hiraizumi: summer grass",
+   "eyes": [
+    "basho",
+    "sora",
+    "saigyo"
+   ],
+   "note": "Bashō weeps over warriors' dreams; Sora tallies sites; Saigyō's earlier Hiraizumi stands behind both as remembered past."
+  },
+  {
+   "date": "1689-07-13",
+   "label": "Risshakuji (Yamadera)",
+   "eyes": [
+    "basho",
+    "sora",
+    "seifu"
+   ],
+   "note": "A detour suggested by Seifū's townsmen yields the journey's most famous verse; Sora records only the distance and the bed."
+  },
+  {
+   "date": "1689-07-15",
+   "label": "Ōishida and the Mogami River",
+   "eyes": [
+    "ichiei",
+    "basho",
+    "sora"
+   ],
+   "note": "The same verse exists in two states: 'cool' at the host's table, 'swift' in the finished book."
+  },
+  {
+   "date": "1689-08-01",
+   "label": "Kisakata in the rain",
+   "eyes": [
+    "basho",
+    "sora"
+   ],
+   "note": "A rare moment when the log and the journal agree on the weather — and the journal turns it into a grieving beauty."
+  },
+  {
+   "date": "1689-08-18",
+   "label": "Izumozaki: the Milky Way to Sado",
+   "eyes": [
+    "basho",
+    "sora"
+   ],
+   "note": "The grandest sky-verse of the journey meets Sora's note of heavy night rain."
+  },
+  {
+   "date": "1689-08-26",
+   "label": "The Ichiburi night",
+   "eyes": [
+    "basho",
+    "sora"
+   ],
+   "note": "Bashō's courtesans in the next room have no trace in the log; most scholars read the scene as invented."
+  },
+  {
+   "date": "1689-09-05",
+   "label": "Isshō's memorial at Kanazawa",
+   "eyes": [
+    "basho",
+    "sora",
+    "hokushi"
+   ],
+   "note": "A provincial circle mourns its young poet; Bashō's verse asks the grave to stir; Sora files the stanzas."
+  },
+  {
+   "date": "1689-09-18",
+   "label": "Sora leaves at Yamanaka",
+   "eyes": [
+    "sora",
+    "basho",
+    "hokushi"
+   ],
+   "note": "Sora's diary simply stops; Bashō makes the parting into birds torn apart; Hokushi steps into the empty place on the road."
+  },
+  {
+   "date": "1689-10-18",
+   "label": "Ōgaki: the book ends",
+   "eyes": [
+    "basho",
+    "bokuin",
+    "sora"
+   ],
+   "note": "The hosts' send-off by boat closes the book; the travellers go on to Ise regardless."
+  }
+ ],
+ "ties": [
+  {
+   "a": "basho",
+   "b": "sora",
+   "kind": "met",
+   "note": "Master and disciple who walked together for about four months; their two records of the same days are the spine of this chapter."
+  },
+  {
+   "a": "basho",
+   "b": "tokyu",
+   "kind": "met",
+   "note": "Old acquaintances; Bashō spent seven nights at Tōkyū's house at Sukagawa and they composed linked verse together."
+  },
+  {
+   "a": "basho",
+   "b": "seifu",
+   "kind": "met",
+   "note": "Seifū had known Bashō in Edo and hosted him for ten nights at Obanazawa."
+  },
+  {
+   "a": "basho",
+   "b": "ichiei",
+   "kind": "met",
+   "note": "Bashō led a linked-verse session at Ichiei's house at Ōishida while waiting for the Mogami boat."
+  },
+  {
+   "a": "basho",
+   "b": "hokushi",
+   "kind": "met",
+   "note": "Hokushi hosted Bashō in Kanazawa and walked with him to Matsuoka after Sora's departure."
+  },
+  {
+   "a": "sora",
+   "b": "hokushi",
+   "kind": "met",
+   "note": "Both took part in the Kanazawa sessions; Hokushi replaced the ailing Sora as Bashō's companion."
+  },
+  {
+   "a": "basho",
+   "b": "bokuin",
+   "kind": "met",
+   "note": "Bokuin hosted Bashō at Ōgaki at the end of both the 1684 and the 1689 journeys."
+  },
+  {
+   "a": "basho",
+   "b": "saigyo",
+   "kind": "influenced",
+   "note": "Bashō followed Saigyō's poetic places and timed his journey near the 500th anniversary of Saigyō's death; remembered, not met."
+  },
+  {
+   "a": "sora",
+   "b": "kaempfer",
+   "kind": "same street",
+   "note": "In 1691 Kaempfer's procession passed through Kyoto on its way to Edo and in the same year Sora and Bashō spent time in and around Kyoto; no meeting or mention is recorded."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v1:heian",
+   "note": "Bashō's journey was a pilgrimage to Heian poetry's map of the north: the utamakura place-names, Nōin's Shirakawa barrier, and above all Saigyō, who carried court poetry onto the roads. Sora's notebook begins with a memorandum of exactly those poetic places."
+  },
+  {
+   "to": "v2:black-ships",
+   "note": "Kaempfer saw the Japan of the Dejima restriction only a year after Bashō's walk; his History of Japan (1727) included an essay on Japan's closure that was translated into Japanese in 1801 as 'Sakoku-ron', giving the closed-country policy its name — the policy Perry's ships forced open in 1853–54."
+  },
+  {
+   "to": "v2:imjin-war",
+   "note": "Bashō began at Nikkō, the shrine of Tokugawa Ieyasu; Joseon envoys of the restored relations after Hideyoshi's invasions of Korea were brought to pay respects there, and Korean gifts stand in the shrine precinct (link based on general scholarship, not re-checked for this chapter)."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://knmdb.kyohaku.go.jp/eng/980.html",
+   "title": "Oku no Hosomichi handscrolls, by Yosa Buson",
+   "caption": "Buson's copy of Bashō's text with his own illustrations — how the next century saw the journey, through the polished book rather than Sora's log.",
+   "date": "1778",
+   "credit": "Yosa Buson; Kyoto National Museum (Important Cultural Property)"
+  },
+  {
+   "url": "https://jpsearch.go.jp/en/gallery/ndl-W7Yk4M2a1VUdoAD",
+   "title": "Japan Search gallery: Oku no hosomichi",
+   "caption": "Gathers the 1702 first edition, the Soryū fair copy, Sora's autograph travel diary and Buson's scrolls, including the scene of Bashō setting out with Sora.",
+   "date": "1689–1778 (items)",
+   "credit": "National Diet Library and partner institutions"
+  },
+  {
+   "url": "https://artmuseum.princeton.edu/collections/objects/133923",
+   "title": "Narrow Road to the Deep North, fan painting",
+   "caption": "A Buson fan painting on the Oku no Hosomichi theme: the journey already an image people wanted to hold in their hand.",
+   "date": "18th century",
+   "credit": "Yosa Buson; Princeton University Art Museum"
+  },
+  {
+   "url": "https://archive.blogs.harvard.edu/preserving/2016/03/30/engelbert-kaempfers-17th-century-sojourn-to-japan/",
+   "title": "Plates from Kaempfer's account of Japan",
+   "caption": "Includes the audience chamber at Edo where Kaempfer was made to perform for Tsunayoshi in 1691.",
+   "date": "1729 (French edition of 1727 work)",
+   "credit": "Harvard Library"
+  },
+  {
+   "url": "https://wellcomecollection.org/works/e63chctb",
+   "title": "The History of Japan (London, 1727)",
+   "caption": "Scheuchzer's translation of Kaempfer's manuscript, with copper plates; Europe's main image of Tokugawa Japan for a century.",
+   "date": "1727",
+   "credit": "Engelbert Kaempfer, trans. J. G. Scheuchzer; Wellcome Collection"
+  },
+  {
+   "url": "https://www.mlit.go.jp/tagengo-db/R3-00466.html",
+   "title": "Bashō-Seifū Historical Museum, Obanazawa",
+   "caption": "The merchant house of the Suzuki family, where Bashō's host lived; it keeps letters in Bashō's hand.",
+   "date": "Edo-period house",
+   "credit": "Obanazawa City"
+  }
+ ],
+ "further": [
+  {
+   "title": "Sora's Diary — manuscript, discovery and fabrication debate",
+   "url": "https://en.wikipedia.org/wiki/Sora%27s_Diary"
+  },
+  {
+   "title": "C. M. Millett, 'Bush Clover and Moon': A Relational Reading of Oku no Hosomichi (Monumenta Nipponica, 1997)",
+   "url": "https://dept.sophia.ac.jp/monumenta/article/bush-clover-and-moon-a-relational-reading-of-oku-no-hosomichi/"
+  },
+  {
+   "title": "Visit Kanazawa: Bashō in Kanazawa, day by day",
+   "url": "https://visitkanazawa.jp/en/feature/detail_515.html"
+  },
+  {
+   "title": "Bashō's stay in Kisakata (akitahaiku.com)",
+   "url": "https://akitahaiku.com/2009/09/26/"
+  },
+  {
+   "title": "NDL: Hot springs in literary works (Yamanaka)",
+   "url": "https://www.ndl.go.jp/kaleido/e/entry/23/2.html"
+  },
+  {
+   "title": "Bibliolore: Entertaining the shōgun (Kaempfer sings for Tsunayoshi)",
+   "url": "https://bibliolore.org/2023/01/16/entertaining-the-shogun/"
+  },
+  {
+   "title": "Papersky: retracing Bashō's journey on foot",
+   "url": "https://papersky.jp/en/?p=209"
+  },
+  {
+   "title": "Engelbert Kaempfer",
+   "url": "https://en.wikipedia.org/wiki/Engelbert_Kaempfer"
+  }
+ ]
+}

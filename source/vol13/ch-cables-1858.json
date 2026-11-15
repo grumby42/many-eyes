@@ -1,0 +1,1539 @@
+{
+ "id": "cables-1858",
+ "title": "A Wire Under the Ocean",
+ "short_title": "The Atlantic Cables",
+ "subtitle": "Valentia, Trinity Bay, the Great Eastern and Heart's Content, 1857–1866",
+ "span": "1857–1866",
+ "intro": [
+  "On the night of 4 August 1858 Cyrus Field rowed through the dark of Trinity Bay, Newfoundland, to a telegraph house where everyone was asleep. Behind him USS Niagara was paying out the last miles of a cable whose other end HMS Agamemnon was bringing into Valentia, on the far west coast of Ireland. For four weeks that summer a copper wire about 2,000 miles long carried messages between the Old World and the New. Then it went silent. Eight years, a government inquiry and the largest ship in the world were needed before the line worked to stay.",
+  "This chapter follows messages rather than battles. The people who matter most are often those at the instruments: de Sauty at Bay Bulls Arm asking Ireland to send slower; Whitehouse at Valentia driving signals with induction coils; Thomson with his mirror galvanometer, a beam of light moving across a scale. The station logs, laid before the Joint Committee in 1860, show what the speeches left out. The Queen's greeting of about ninety-eight words took most of a night to get through, with a stop for repairs. The President's reply waited three days in Newfoundland. New York set its own City Hall alight celebrating a line that was already failing.",
+  "Very little here is a diary in the strict sense. Field's journal survives as printed by his brother; Bright's diary as footnotes in a family biography; the 1858 traffic as a transcript and as tapes in the Kelvin Papers. The press, both New York's and The Times, appears as a collective eye. Whitehouse speaks through pamphlets written to defend himself. Canning, who ran the grapnels, left no diary that was consulted and is seen through others. The form tags say which is which.",
+  "The second half belongs to the Great Eastern. W. H. Russell, the Times war correspondent, wrote up his daily diary of the 1865 voyage within months, with his assistant John Deane keeping a plainer diary beside him. Daniel Gooch, chairman of the ship's company and newly elected to Parliament, kept a true daily journal of both voyages. Their accounts of 2 August 1865, when the cable parted 600 miles from Newfoundland, can be laid minute against minute, though Gooch keeps ship's time and Russell Greenwich time.",
+  "In July 1866 the new cable landed at Heart's Content. In September the grapnel brought up the lost 1865 cable from about two miles down and spliced it, and the operator at Valentia saw a signal from a line that had lain on the seabed for a year. The causes of 1858 are still argued. One position, the inquiry's and the standard one, blames Whitehouse's high voltages. Another stresses faults made in manufacture and in the laying machinery before he touched it. Both are set out here as positions."
+ ],
+ "calendar_note": "All dates are Gregorian. The difficulty is clock time, not the calendar. Valentia kept Irish local time (about 41 minutes behind Greenwich), Bay Bulls Arm and Heart's Content Newfoundland local time (about three and a half hours behind), and the ships kept ship's time, which drifted westward through the voyage. In 1865 the Great Eastern's clocks ran more than two hours behind Greenwich, so Russell (who gives Greenwich time) and Gooch (ship's time) differ by hours and occasionally by a day. The first signals of 10 August 1858 at Valentia fell on the evening of 9 August in Newfoundland. Times are given as each source states them.",
+ "eyes": [
+  {
+   "id": "field",
+   "short": "Cyrus Field",
+   "name": "Cyrus West Field",
+   "life": "1819–1892",
+   "role": "New York paper merchant turned promoter; aged 38 in 1857, 47 in 1866; founder-director of the Atlantic Telegraph Company",
+   "side": "United States; Atlantic Telegraph Company",
+   "where": "Aboard USS Niagara (1857, 1858), ashore at Bay Bulls Arm, Trinity Bay (August 1858), New York (September 1858), aboard the Great Eastern (1865, 1866) and at Heart's Content",
+   "lat": 47.83,
+   "lon": -53.9,
+   "waypoints": [
+    {
+     "lat": 51.93,
+     "lon": -10.29,
+     "label": "Valentia, Aug 1857"
+    },
+    {
+     "lat": 52.15,
+     "lon": -32.45,
+     "label": "Mid-ocean splice, 29 Jul 1858"
+    },
+    {
+     "lat": 47.83,
+     "lon": -53.9,
+     "label": "Bay Bulls Arm, 5 Aug 1858"
+    },
+    {
+     "lat": 40.713,
+     "lon": -74.006,
+     "label": "New York, 1 Sep 1858"
+    },
+    {
+     "lat": 51.4,
+     "lon": -38.8,
+     "label": "Great Eastern, Aug 1865 (approx.)"
+    },
+    {
+     "lat": 47.88,
+     "lon": -53.37,
+     "label": "Heart's Content, Jul–Sep 1866"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the promoter at the American end",
+   "form": "journal extracts and dated dispatches (as printed by his brother)",
+   "language": "English",
+   "authenticity": "Field's own journal of the 1858 voyage and his dispatches survive mainly as printed by his brother Henry M. Field in History of the Atlantic Telegraph (1866), revised as The Story of the Atlantic Telegraph (1892). The printing is partisan and edited, but the dated entries, times and positions match the ships' and stations' records closely.",
+   "bio": "Field raised the money, chartered the ships and crossed the Atlantic dozens of times for the project. His journal is a promoter's log: positions, miles paid out, landing times, who was woken and when. He was in New York for the city's celebration on 1 September 1858, the day the cable fell silent, and aboard the Great Eastern for both later expeditions.",
+   "sources": [
+    {
+     "title": "Henry M. Field, The Story of the Atlantic Telegraph (1892), Project Gutenberg",
+     "url": "https://gutenberg.org/cache/epub/34765/pg34765-images.html"
+    }
+   ]
+  },
+  {
+   "id": "mullaly",
+   "short": "Mullaly",
+   "name": "John Mullaly",
+   "life": "1835–1915",
+   "role": "New York Herald correspondent aboard USS Niagara in 1857 and on both 1858 expeditions",
+   "side": "United States; the New York press",
+   "where": "Aboard USS Niagara, paying out the American half of the cable",
+   "lat": 52.15,
+   "lon": -32.45,
+   "waypoints": [
+    {
+     "lat": 51.93,
+     "lon": -10.29,
+     "label": "Valentia Bay, Aug 1857"
+    },
+    {
+     "lat": 52.15,
+     "lon": -32.45,
+     "label": "Mid-ocean, Jul 1858"
+    },
+    {
+     "lat": 47.83,
+     "lon": -53.9,
+     "label": "Trinity Bay, 4–5 Aug 1858"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "reporter on the paying-out deck",
+   "form": "day-by-day narrative (journalistic, published 1858)",
+   "language": "English",
+   "authenticity": "The Laying of the Cable, or The Ocean Telegraph (New York: D. Appleton, 1858) is organised as numbered days ('First Day, August 6' and so on). Henry Field calls it the fullest account of the expeditions. Some clock times are garbled in the digitised scan, and its day-dating of the 1857 shore-end landing differs by one day from Field's.",
+   "bio": "Mullaly wrote for a mass newspaper readership and watched the brakes, sheaves and tar-clogged wheels rather than the electricians' instruments. His account of the 1857 break is the closest thing to a deck-level witness; in 1858 he followed Field ashore to the dark telegraph house at Trinity Bay.",
+   "sources": [
+    {
+     "title": "John Mullaly, The Laying of the Cable, or The Ocean Telegraph (1858), digitised text",
+     "url": "https://distantreader.org/stacks/trust/aeu/aeu_ark+=13960=t4rj5d31x.txt"
+    }
+   ]
+  },
+  {
+   "id": "bright",
+   "short": "Bright",
+   "name": "Charles Tilston Bright",
+   "life": "1832–1888",
+   "role": "Engineer-in-chief of the Atlantic Telegraph Company, aged 25–26; aboard HMS Agamemnon in 1858",
+   "side": "Britain; Atlantic Telegraph Company",
+   "where": "Aboard HMS Agamemnon paying out the eastern half, then Valentia; knighted in Dublin",
+   "lat": 51.93,
+   "lon": -10.29,
+   "waypoints": [
+    {
+     "lat": 52.15,
+     "lon": -32.45,
+     "label": "Agamemnon, mid-ocean, 29 Jul 1858"
+    },
+    {
+     "lat": 51.93,
+     "lon": -10.29,
+     "label": "Valentia, 5 Aug 1858"
+    },
+    {
+     "lat": 53.343,
+     "lon": -6.267,
+     "label": "Dublin, knighted Sep 1858"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "engineer-in-chief on the British ship",
+   "form": "diary (as footnoted in a family biography) and dated messages",
+   "language": "English",
+   "authenticity": "Bright's diary extracts and letters to his wife are printed in The Life Story of Sir Charles Tilston Bright by his brother Edward and son Charles (1899), abridged 1908. These are family editions written partly to defend his reputation; diary entries appear as footnotes with Greenwich times.",
+   "bio": "Bright had argued for a thicker copper core and for laying from mid-ocean, and lost the first argument. His diary on the Agamemnon records the electrical scares minute by minute. Knighted within weeks at twenty-six, he was the hero of the summer before the cable died.",
+   "sources": [
+    {
+     "title": "Charles Bright, The Life Story of Sir Charles Tilston Bright (1908 abridged edition), digitised text",
+     "url": "https://distantreader.org/stacks/trust/uc2/uc2_ark+=13960=t8tb10b8m.txt"
+    }
+   ]
+  },
+  {
+   "id": "whitehouse",
+   "short": "Whitehouse",
+   "name": "Edward Orange Wildman Whitehouse",
+   "life": "1816–1890",
+   "role": "Surgeon turned electrician; Electrician to the Atlantic Telegraph Company from 1856, aged 41–42",
+   "side": "Britain; Atlantic Telegraph Company (dismissed August 1858)",
+   "where": "The Valentia telegraph station, receiving and sending in August 1858",
+   "lat": 51.93,
+   "lon": -10.29,
+   "vantage": 0,
+   "vantage_label": "the electrician blamed for the failure",
+   "form": "dated letters and pamphlets; evidence to the inquiry",
+   "language": "English",
+   "authenticity": "His side survives in letters to the Daily News and The Times reprinted as pamphlets (The Atlantic Telegraph: the rise, progress, and development of its electrical department, dated 18 September 1858; Reply to the Statement of the Directors, 27 September 1858) and in his evidence of 15 December 1859 to the Joint Committee, printed in 1861. These are self-defences written after the event.",
+   "bio": "Whitehouse had rejected Thomson's 'law of squares' in 1856 and believed in driving signals through the cable with large induction coils. His health kept him off the ships, so he ran the Irish end. The Board dismissed him on 17 August 1858. The standard verdict that his high voltages killed the cable is now qualified by work showing faults present before he touched it.",
+   "sources": [
+    {
+     "title": "Atlantic-Cable.com: Wildman Whitehouse biography and bibliography",
+     "url": "https://atlantic-cable.com/Books/Whitehouse/eoww.htm"
+    },
+    {
+     "title": "Linda Hall Library, Scientist of the Day: E. O. Wildman Whitehouse",
+     "url": "https://lindahall.org/about/news/scientist-of-the-day/e-o-wildman-whitehouse"
+    }
+   ]
+  },
+  {
+   "id": "thomson",
+   "short": "W. Thomson",
+   "name": "William Thomson (later Lord Kelvin)",
+   "life": "1824–1907",
+   "role": "Professor of Natural Philosophy at Glasgow, aged 33–42; company director (1857), electrician afloat (1858), observer for the company (1865–66)",
+   "side": "Britain; Atlantic Telegraph Company",
+   "where": "Aboard Agamemnon (1857–58), at Valentia after Whitehouse's dismissal (1858), aboard the Great Eastern (1865, 1866)",
+   "lat": 51.93,
+   "lon": -10.29,
+   "waypoints": [
+    {
+     "lat": 52.15,
+     "lon": -32.45,
+     "label": "Agamemnon, Jul 1858"
+    },
+    {
+     "lat": 51.93,
+     "lon": -10.29,
+     "label": "Valentia, Aug–Sep 1858"
+    },
+    {
+     "lat": 55.872,
+     "lon": -4.288,
+     "label": "Glasgow"
+    },
+    {
+     "lat": 51.4,
+     "lon": -38.8,
+     "label": "Great Eastern, Aug 1865 (approx.)"
+    },
+    {
+     "lat": 47.88,
+     "lon": -53.37,
+     "label": "Heart's Content, 1866"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the physicist with the mirror",
+   "form": "station papers, letters and a printed address",
+   "language": "English",
+   "authenticity": "The Kelvin Papers at Glasgow University Library hold about fifty original 1858 cable signals and service messages (MS Kelvin A19–A61). His address to the Royal Society of Edinburgh of 18 December 1865 was printed the same year. His 1858 letter to the Board of 21 August is listed but its text was not consulted here.",
+   "bio": "Thomson's mirror galvanometer, a tiny magnet and mirror throwing a spot of light on a scale, could read currents too faint for any needle. In 1858 it was the instrument that actually worked the line, whoever claimed credit. In 1865 he watched the galvanometer spot slide off the scale as each fault appeared, and he gave the most confident reading of the failure.",
+   "sources": [
+    {
+     "title": "University of Glasgow Library, Kelvin exhibition: the Atlantic cable",
+     "url": "https://www.gla.ac.uk/myglasgow/library/files/special/exhibns/Kelvin/atlanticcable.html"
+    },
+    {
+     "title": "Thomson, On the Forces concerned in the Laying and Lifting of Deep-sea Cables (1865), Atlantic-Cable.com",
+     "url": "https://atlantic-cable.com/Article/1865Thomson/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "desauty",
+   "short": "de Sauty",
+   "name": "Charles Victor de Sauty",
+   "life": "fl. 1858–1866",
+   "role": "Electrician and first superintendent of the Atlantic Telegraph Company's Newfoundland station (1858); chief of the contractor's electricians on the Great Eastern (1865)",
+   "side": "Britain; Atlantic Telegraph Company / Telegraph Construction and Maintenance Company",
+   "where": "The telegraph house at Bay Bulls Arm, Trinity Bay, Newfoundland",
+   "lat": 47.83,
+   "lon": -53.9,
+   "waypoints": [
+    {
+     "lat": 47.83,
+     "lon": -53.9,
+     "label": "Bay Bulls Arm, Aug–Oct 1858"
+    },
+    {
+     "lat": 51.4,
+     "lon": -38.8,
+     "label": "Great Eastern, 1865 (approx.)"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "operator at the receiving end",
+   "form": "station log, service messages and a dated signal tape",
+   "language": "English",
+   "authenticity": "The Newfoundland and Valentia logs survive in the transcript Tal Shaffner put before the Joint Committee on 14 March 1860 (printed 1861) and in George Prescott's 1866 summary. De Sauty's own tape card, labelled 'first current 9 Aug 58', was authenticated by his son Alfred in 1930. Not every service message can be assigned to him personally; the Newfoundland station's traffic is grouped under his name here.",
+   "bio": "De Sauty spent August 1858 coaxing words out of a line that could carry only a few a minute, answering New York's complaints and asking Ireland to slow down. Through him the reader sees the cable as a working circuit with pauses, repeats and garbled letters.",
+   "sources": [
+    {
+     "title": "Atlantic-Cable.com: the 1858 Newfoundland station",
+     "url": "https://www.atlantic-cable.com/Article/1858NFStation/index.htm"
+    },
+    {
+     "title": "Atlantic-Cable.com: 1858 cable message log (from Shaffner's transcript)",
+     "url": "https://atlantic-cable.com/Article/1858Messages/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "victoria",
+   "short": "Queen Victoria",
+   "name": "Queen Victoria",
+   "life": "1819–1901",
+   "role": "Queen of the United Kingdom, aged 39",
+   "side": "Britain; the Crown",
+   "where": "Her message was put on the line at Valentia; where she was when it was sent is not confirmed by the sources used here",
+   "lat": 51.93,
+   "lon": -10.29,
+   "vantage": 3,
+   "vantage_label": "head of state, sender of the first state message",
+   "form": "state telegram (surviving tickertape)",
+   "language": "English",
+   "authenticity": "The original receiving tape of her message is in the Royal Collection (RCIN 84450). The text is printed in Henry Field's book and the Shaffner log. Her journal entries on the cable were not consulted for this chapter.",
+   "bio": "The Queen's message is the chapter's test case for speed. It was about ninety-eight words, a greeting congratulating the President, and the timing of its passage is disputed. Her own words survive only as the message itself.",
+   "sources": [
+    {
+     "title": "Royal Collection Trust: Tickertape, 1858 (RCIN 84450)",
+     "url": "https://rct.uk/collection/84450/tickertape"
+    }
+   ]
+  },
+  {
+   "id": "buchanan",
+   "short": "Buchanan",
+   "name": "James Buchanan",
+   "life": "1791–1868",
+   "role": "Fifteenth President of the United States, aged 67",
+   "side": "United States; the federal government",
+   "where": "Washington, D.C.",
+   "lat": 38.898,
+   "lon": -77.037,
+   "vantage": 3,
+   "vantage_label": "head of state at the far end",
+   "form": "state telegram (US-government record)",
+   "language": "English",
+   "authenticity": "The reply, dated Washington 16 August 1858, is printed in contemporary newspapers and in Henry Field's book; a copy of the received message is in the Kelvin Papers (MS Kelvin A26). The log shows it went over the cable from Newfoundland only on 19 August.",
+   "bio": "Buchanan replied the day the Queen's message reached America, in language about peace and civilisation. His reply then waited three days in Newfoundland for a line that was overloaded and failing, a delay that his own words did not anticipate.",
+   "sources": [
+    {
+     "title": "Henry M. Field, The Story of the Atlantic Telegraph (1892)",
+     "url": "https://gutenberg.org/cache/epub/34765/pg34765-images.html"
+    },
+    {
+     "title": "University of Glasgow Library, Kelvin Papers (MS Kelvin A26)",
+     "url": "https://www.gla.ac.uk/myglasgow/library/files/special/exhibns/Kelvin/atlanticcable.html"
+    }
+   ]
+  },
+  {
+   "id": "nypress",
+   "short": "New York press",
+   "name": "The New York press and city record (Harper's Weekly, the Tribune, the city's official Report)",
+   "life": "1858",
+   "role": "Newspapers, illustrated weeklies and the Common Council's printed record of the celebrations",
+   "side": "United States; New York City",
+   "where": "City Hall Park, Broadway and the Crystal Palace, New York",
+   "lat": 40.713,
+   "lon": -74.006,
+   "vantage": 2,
+   "vantage_label": "the celebrating city",
+   "form": "newspaper reports, engravings and an official report",
+   "language": "English",
+   "authenticity": "This eye is collective, not a single diarist. Dated detail comes from the city's official Report of the celebration as excerpted on Atlantic-Cable.com, the New-York Daily Tribune, Harper's Weekly (11 September 1858) and Currier & Ives prints.",
+   "bio": "New York celebrated the cable twice: with guns, illuminations and fireworks on 17 August, which burned City Hall's cupola, and with a procession and service on 1 September. The city's record is a reminder that public joy ran ahead of the engineering; the line went silent on the day of the great parade.",
+   "sources": [
+    {
+     "title": "Atlantic-Cable.com: New York celebrations, 1858",
+     "url": "https://atlantic-cable.com/1858NY/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "times",
+   "short": "The Times",
+   "name": "The Times (London), leader writers",
+   "life": "1858",
+   "role": "London's leading daily newspaper",
+   "side": "Britain; the London press",
+   "where": "Printing House Square, London",
+   "lat": 51.512,
+   "lon": -0.103,
+   "vantage": 2,
+   "vantage_label": "London opinion",
+   "form": "newspaper leader",
+   "language": "English",
+   "authenticity": "The leader of 6 August 1858 is quoted on the title page of Henry Field's book. This is an institutional voice, unsigned.",
+   "bio": "The Times greeted the landing with the grandest claim of the summer, comparing it with Columbus. Its enthusiasm and later disillusion framed British opinion of the venture until 1866.",
+   "sources": [
+    {
+     "title": "Henry M. Field, The Story of the Atlantic Telegraph (title-page epigraph)",
+     "url": "https://www.gutenberg.org/files/34765/34765-h/34765-h.htm"
+    }
+   ]
+  },
+  {
+   "id": "russell",
+   "short": "W. H. Russell",
+   "name": "William Howard Russell",
+   "life": "1820–1907",
+   "role": "Times war correspondent (Crimea, India), aged 44; official chronicler of the 1865 expedition",
+   "side": "Britain; guest of the Atlantic Telegraph Company",
+   "where": "Aboard the Great Eastern, July–August 1865",
+   "lat": 51.4,
+   "lon": -38.8,
+   "waypoints": [
+    {
+     "lat": 51.89,
+     "lon": -10.36,
+     "label": "Valentia, 23 Jul 1865"
+    },
+    {
+     "lat": 51.4,
+     "lon": -38.8,
+     "label": "Cable lost, 2 Aug 1865 (approx.)"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "professional observer on deck",
+   "form": "narrative written up from a daily diary (published 1865)",
+   "language": "English",
+   "authenticity": "The Atlantic Telegraph (London: Day & Son, 1865) was written up from Russell's daily diary, which John C. Deane helped copy out. It gives times in both Greenwich and ship's time and was published within months, illustrated with lithographs by Robert Dudley.",
+   "bio": "Russell had reported the Crimea and India, and he brought a war correspondent's eye to the tank rooms and testing room of the Great Eastern. He recorded Thomson's terse verdicts, Canning's grim persistence and the mood of a ship that felt it had lost something living.",
+   "sources": [
+    {
+     "title": "W. H. Russell, The Atlantic Telegraph (1865), Project Gutenberg",
+     "url": "https://gutenberg.org/cache/epub/40948/pg40948-images.html"
+    }
+   ]
+  },
+  {
+   "id": "deane",
+   "short": "Deane",
+   "name": "John C. Deane",
+   "life": "fl. 1865–1866",
+   "role": "Writer and Russell's assistant in 1865; Secretary of the Anglo-American Telegraph Company from late 1865",
+   "side": "Britain; Anglo-American Telegraph Company",
+   "where": "Aboard the Great Eastern in 1865 and 1866",
+   "lat": 51.4,
+   "lon": -38.8,
+   "waypoints": [
+    {
+     "lat": 51.89,
+     "lon": -10.36,
+     "label": "Valentia, Jul 1865"
+    },
+    {
+     "lat": 51.4,
+     "lon": -38.8,
+     "label": "Mid-Atlantic, Aug 1865 (approx.)"
+    },
+    {
+     "lat": 47.88,
+     "lon": -53.37,
+     "label": "Heart's Content, 1866"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "diarist on deck",
+   "form": "diary (published 1865); 1866 diary as quoted by Henry Field",
+   "language": "English",
+   "authenticity": "His 1865 diary appeared in Macmillan's Magazine in September 1865 and is reproduced on Atlantic-Cable.com. His 1866 diary survives in extracts printed by Henry Field.",
+   "bio": "Deane began as a copyist and ended as a company officer, and his diary is the plainest voice aboard. He caught the moment Canning came aft to tell the ship the cable had gone.",
+   "sources": [
+    {
+     "title": "Atlantic-Cable.com: J. C. Deane's diary of the 1865 expedition",
+     "url": "https://atlantic-cable.com/Article/1865Deane/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "gooch",
+   "short": "Gooch",
+   "name": "Daniel Gooch",
+   "life": "1816–1889",
+   "role": "Railway engineer, chairman of the Great Eastern Steamship Company, director of the Telegraph Construction and Maintenance Company; newly elected MP for Cricklade (1865)",
+   "side": "Britain; the contractors",
+   "where": "Aboard the Great Eastern, 1865 and 1866",
+   "lat": 47.88,
+   "lon": -53.37,
+   "waypoints": [
+    {
+     "lat": 51.44,
+     "lon": 0.75,
+     "label": "Sheerness / the Nore, Jul 1865"
+    },
+    {
+     "lat": 51.89,
+     "lon": -10.36,
+     "label": "Valentia, Jul 1865"
+    },
+    {
+     "lat": 51.4,
+     "lon": -38.8,
+     "label": "Cable lost, 2 Aug 1865 (approx.)"
+    },
+    {
+     "lat": 47.88,
+     "lon": -53.37,
+     "label": "Heart's Content, 27 Jul 1866"
+    },
+    {
+     "lat": 51.5,
+     "lon": -36.5,
+     "label": "Grappling ground, Aug 1866 (approx.)"
+    },
+    {
+     "lat": 47.88,
+     "lon": -53.37,
+     "label": "Heart's Content, 8 Sep 1866"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "owner's man on the ship",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Diaries of Sir Daniel Gooch, Baronet (London: Kegan Paul, 1892), with an introduction by Sir Theodore Martin, prints his voyage journals of 1865 and 1866 in full. The scan garbles some day numbers; dates here follow weekday and context.",
+   "bio": "Gooch kept a daily journal on both voyages, counting miles, watching faults and recording his own moods. It is the closest thing to a true diary in this chapter and runs from the despair of August 1865 to the recovered cable of September 1866.",
+   "sources": [
+    {
+     "title": "Diaries of Sir Daniel Gooch, Baronet (1892), digitised text",
+     "url": "https://distantreader.org/stacks/trust/uc2/uc2_ark+=13960=t8mc8t245.txt"
+    }
+   ]
+  },
+  {
+   "id": "canning",
+   "short": "Canning",
+   "name": "Samuel Canning",
+   "life": "1823–1908",
+   "role": "Principal engineer of the Telegraph Construction and Maintenance Company, in mechanical control of paying out and grappling, 1865–66",
+   "side": "Britain; the contractors",
+   "where": "The bow and stern of the Great Eastern; the grappling ground",
+   "lat": 51.5,
+   "lon": -36.5,
+   "waypoints": [
+    {
+     "lat": 51.4,
+     "lon": -38.8,
+     "label": "Cable lost, Aug 1865 (approx.)"
+    },
+    {
+     "lat": 51.5,
+     "lon": -36.5,
+     "label": "Cable recovered, 2 Sep 1866 (approx.)"
+    },
+    {
+     "lat": 47.88,
+     "lon": -53.37,
+     "label": "Heart's Content, 8 Sep 1866"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the engineer at the grapnel",
+   "form": "seen through others' diaries; one recorded message",
+   "language": "English",
+   "authenticity": "No diary of Canning's was consulted. He appears through Russell, Deane and Gooch, and through the first message over the recovered 1865 cable, recorded at Valentia as 'Canning to Glass'.",
+   "bio": "Canning ran the machinery that paid the cable out and the grapnels that fished it up from more than two miles down. Others wrote about him; his own surviving words are mostly orders and one historic message.",
+   "sources": [
+    {
+     "title": "Henry M. Field, The Story of the Atlantic Telegraph (1892)",
+     "url": "https://gutenberg.org/cache/epub/34765/pg34765-images.html"
+    },
+    {
+     "title": "W. H. Russell, The Atlantic Telegraph (1865)",
+     "url": "https://gutenberg.org/cache/epub/40948/pg40948-images.html"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1857-08-05",
+   "date_display": "5–6 August 1857",
+   "precision": "range",
+   "eye": "mullaly",
+   "place": "Valentia Bay, Ireland",
+   "headline": "Two thousand watch the shore end hauled up the beach",
+   "digest": "The Niagara's shore end is landed at Valentia before a crowd Mullaly puts at about two thousand. The cable is dragged up the beach and made fast around stakes on the hill above. Mullaly dates the landing to the evening of 6 August; Field's account puts it at sunset on Wednesday 5 August.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Mullaly 1858, 1857 narrative; H. Field, Story of the Atlantic Telegraph ch. on 1857"
+  },
+  {
+   "date_iso": "1857-08-10",
+   "date_display": "Monday 10 August 1857",
+   "precision": "day",
+   "eye": "mullaly",
+   "place": "USS Niagara, about 2,150 fathoms",
+   "headline": "Signals vanish for two and a half hours",
+   "digest": "In a heavy sea the cable twice jumps off the paying-out wheels, and continuity is lost for about two and a half hours. The engineers and Professor Morse fear the strain has split the gutta-percha. Orders are given to cut and wind back, then the current returns just in time. Mullaly blames tar clogging the sheaves.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Mullaly 1858, 'Fifth Day'; H. Field also records the loss of current that evening"
+  },
+  {
+   "date_iso": "1857-08-11",
+   "date_display": "Tuesday 11 August 1857, about 4 a.m.",
+   "precision": "day",
+   "eye": "mullaly",
+   "place": "USS Niagara, more than 2,000 fathoms",
+   "headline": "The cable parts at the stern; the wheels stop",
+   "digest": "Woken before dawn, Mullaly is told the cable has parted in more than two thousand fathoms with roughly 334 miles paid out. Within minutes the deck is full; the broken end swings over the stern. He blames the brakes, applied while the stern was down in a swell, and thinks the cable would otherwise have held. A sailor says he would have paid fifty dollars to save it.",
+   "quote": "with the wheels as motionless as a rock",
+   "confidence": "verified",
+   "source_note": "Mullaly 1858, 'Sixth Day, August 11'; H. Field gives the break at about 3:45 a.m. and ~335 miles"
+  },
+  {
+   "date_iso": "1858-07-29",
+   "date_display": "Thursday 29 July 1858, about 1 p.m.",
+   "precision": "day",
+   "eye": "field",
+   "place": "USS Niagara, 52°9′N 32°27′W",
+   "headline": "Mid-ocean splice made; both ships turn for home",
+   "digest": "Field logs the splice at about one in the afternoon in 1,500 fathoms, with signals perfect through the cable on both ships. He writes out the arithmetic: 813 nautical miles to Valentia, 882 to Bay Bulls Arm, about 1,100 miles of cable in each ship. The squadron had left Queenstown on 17 July and met at the rendezvous on the 28th.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Field's journal, 29 July 1858, in H. Field ch. X"
+  },
+  {
+   "date_iso": "1858-07-29",
+   "date_display": "29 July 1858, 10 p.m. Greenwich time",
+   "precision": "day",
+   "eye": "bright",
+   "place": "HMS Agamemnon, eastbound",
+   "headline": "Signals from the Niagara cease; insulation still good",
+   "digest": "Hours after the splice, Bright's diary records that signals from the Niagara have stopped. Continuity is gone but the insulation tests good. The cable is cut and tested, and the fault is placed more than forty but less than two hundred miles from the ship. The signals later returned.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bright's diary as footnoted in Life Story of Sir C. T. Bright (1908), 1858 chapter"
+  },
+  {
+   "date_iso": "1858-08-02",
+   "date_display": "2–3 August 1858",
+   "precision": "range",
+   "eye": "mullaly",
+   "place": "USS Niagara, approaching Newfoundland",
+   "headline": "A night fault, sixty miles cut out",
+   "digest": "In a heavy swell the brakes hold at about 1,800 pounds. During the night continuity fails for about three hours. The fault is traced to the wardroom coil; about sixty miles are cut out and a reserve deck coil spliced in, and signals return near 4 a.m. Field's journal confirms the faulty sixty miles.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Mullaly 1858, 1858 narrative; Field's journal 2 August 1858 in H. Field"
+  },
+  {
+   "date_iso": "1858-08-04",
+   "date_display": "Wednesday 4 August 1858",
+   "precision": "day",
+   "eye": "mullaly",
+   "place": "Trinity Bay, Newfoundland",
+   "headline": "Land ho, then Field rows off into the dark",
+   "digest": "The cry of land goes through the ship about 8 a.m. and the Niagara enters Trinity Bay in the afternoon, paying out slowly because the old cable kinks. HMS Porcupine's Captain Otter comes aboard to pilot. Around 8 p.m. Field leaves in the Porcupine's boat for the telegraph station, seventeen or eighteen miles off.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Mullaly 1858, 'Seventh Day, August 4'; some hours garbled in the scan"
+  },
+  {
+   "date_iso": "1858-08-05",
+   "date_display": "Thursday 5 August 1858, 1:45–6 a.m. (Newfoundland)",
+   "precision": "day",
+   "eye": "field",
+   "place": "Bay Bulls Arm, Trinity Bay",
+   "headline": "Field wakes the sleeping telegraph house",
+   "digest": "The Niagara anchors at 1:45 a.m. and Field is ashore at two, rousing the staff of the telegraph house. At four he hands in a dispatch for the Associated Press. The cable is landed at 5:15, carried into the house at six, and strong currents come through from Ireland. HMS Gorgon fires a royal salute at one in the afternoon.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Field's journal, 5 August 1858, in H. Field ch. X"
+  },
+  {
+   "date_iso": "1858-08-05",
+   "date_display": "5 August 1858, before dawn (Newfoundland)",
+   "precision": "day",
+   "eye": "mullaly",
+   "place": "Bay Bulls Arm, Trinity Bay",
+   "headline": "A prayer in the telegraph house as the needle swings",
+   "digest": "Boats from the Niagara, Gorgon and Porcupine carry the cable up the path to the station. The operators connect it and the galvanometer needle deflects, showing the line is sound. Captain Hudson leads a prayer of thanksgiving, then the crews cheer. Mullaly has Field reaching the beach near 2 a.m. after a long row.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Mullaly 1858, 'Eighth Day, August 5'"
+  },
+  {
+   "date_iso": "1858-08-05",
+   "date_display": "5 August 1858 (Valentia time)",
+   "precision": "day",
+   "eye": "bright",
+   "place": "Valentia, Ireland",
+   "headline": "Agamemnon anchors; Bright wires his wife",
+   "digest": "The Agamemnon anchors at Valentia about 6 a.m. and the shore end is landed about 3 p.m. Bright's notice to the company says the end is about to be landed. To his wife he sends a short telegram reporting the cable laid and signals passing both ways.",
+   "quote": "Atlantic cable laid. Signals received both ways.",
+   "confidence": "verified",
+   "source_note": "Life Story of Sir C. T. Bright (1908), 1858 chapter (the wife's message is undated in the text)"
+  },
+  {
+   "date_iso": "1858-08-06",
+   "date_display": "6 August 1858",
+   "precision": "day",
+   "eye": "times",
+   "place": "London",
+   "headline": "The Times compares the cable to Columbus",
+   "digest": "The Times greets the news with its largest claim of the summer: nothing since Columbus has so enlarged the sphere of human activity. Henry Field later put the sentence on his title page. No message had yet passed through the cable in words.",
+   "quote": "nothing has been done in any degree comparable to the vast enlargement",
+   "confidence": "verified",
+   "source_note": "The Times, 6 August 1858, as quoted on the title page of H. Field (1892)"
+  },
+  {
+   "date_iso": "1858-08-09",
+   "date_display": "Evening 9 August 1858 (Newfoundland) / 12:24–2:28 a.m. 10 August (Valentia)",
+   "precision": "range",
+   "eye": "desauty",
+   "place": "Bay Bulls Arm, Trinity Bay",
+   "headline": "First currents from Ireland marked on tape",
+   "digest": "Testing begins between the two stations. The Valentia log records the first exchange with Newfoundland just after midnight Irish time, which was the evening of the 9th at Bay Bulls Arm, about four hours behind. De Sauty kept the tape, labelled 'first current 9 Aug 58', with a card calling it the very first signal from Valentia received in Newfoundland.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Atlantic-Cable.com, 1858 Newfoundland station (tape card authenticated 1930); Valentia log via J. B. Russell"
+  },
+  {
+   "date_iso": "1858-08-13",
+   "date_display": "13–14 August 1858",
+   "precision": "range",
+   "eye": "desauty",
+   "place": "Bay Bulls Arm, Trinity Bay",
+   "headline": "'Work slower': the far end cannot see the dots",
+   "digest": "Newfoundland reads its first word, 'Atlantic', at 12:38 a.m. on the 13th and sends service messages asking Valentia to work more slowly because dots are lost even on the most delicate detector. Early on the 14th Valentia asks for the reverse, 'Send faster', and Newfoundland begins pencil-marking a paper tape. That night de Sauty answers a New York telegram complaining of delay.",
+   "quote": "You must work slower as some of your dots do not show",
+   "confidence": "verified",
+   "source_note": "Kelvin Papers MS Kelvin A19 (Glasgow); Shaffner log as summarised on Atlantic-Cable.com"
+  },
+  {
+   "date_iso": "1858-08-16",
+   "date_display": "Monday 16 August 1858, 4:15 p.m. – 6:48 a.m. on 17 August",
+   "precision": "range",
+   "eye": "victoria",
+   "place": "Valentia to Bay Bulls Arm",
+   "headline": "The Queen's ninety-eight words cross the ocean",
+   "digest": "The Queen's greeting to the President goes on the line at 4:15 p.m. after the directors' short message of the morning. At 6:29 p.m. the sending is halted for repairs, and the message is completed at 6:48 a.m. on the 17th. The log gives about fourteen and a half hours from start to finish; most modern accounts say about sixteen hours. Russell in 1865 gives a working time of sixty-seven minutes for the message, repeated.",
+   "quote": "The Queen desires to congratulate the President",
+   "confidence": "verified",
+   "source_note": "Shaffner log via Atlantic-Cable.com; IEEE Spectrum and Linda Hall (16 hours); Russell 1865 (67 minutes)"
+  },
+  {
+   "date_iso": "1858-08-16",
+   "date_display": "16 August 1858",
+   "precision": "day",
+   "eye": "buchanan",
+   "place": "Washington, D.C.",
+   "headline": "The President answers in words of peace",
+   "digest": "Buchanan's reply, dated from Washington the same day, cordially returns the congratulations and hopes the telegraph will prove a bond of peace between kindred nations and an instrument for spreading religion, civilisation, liberty and law. It went over the cable from Newfoundland only on the 19th.",
+   "quote": "a bond of perpetual peace and friendship between the kindred nations",
+   "confidence": "verified",
+   "source_note": "Text in H. Field ch. X; received copy MS Kelvin A26; Shaffner log for the 19 August transmission"
+  },
+  {
+   "date_iso": "1858-08-17",
+   "date_display": "Tuesday 17 August 1858",
+   "precision": "day",
+   "eye": "whitehouse",
+   "place": "Valentia / London",
+   "headline": "The Board dismisses its electrician",
+   "digest": "The directors dismiss Whitehouse and issue a statement censuring him. He had struggled to work the line with his own induction apparatus and had not reported to the Board for some time. Thomson's galvanometer was put back in use at Valentia; one modern account says Whitehouse had already been quietly using it while claiming his own instrument.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Atlantic-Cable.com Whitehouse biography (dismissal 17 August 1858); Bright Life Story; Linda Hall Library (claim of secret use)"
+  },
+  {
+   "date_iso": "1858-08-17",
+   "date_display": "17–18 August 1858",
+   "precision": "range",
+   "eye": "nypress",
+   "place": "City Hall Park, New York",
+   "headline": "Guns at dawn, fireworks at night, City Hall burns",
+   "digest": "A hundred guns are fired in City Hall Park at daybreak and the Queen's message appears in the morning papers. That night the public buildings are lit and J. Edge's fireworks are shown in front of City Hall. Around midnight sparks set the cupola woodwork alight. Because the city's central fire-alarm was housed in that tower, the engine-houses were slow to learn of it and the cupola was destroyed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "City Report and Illustrated London News as excerpted on Atlantic-Cable.com; Currier & Ives print (Met)"
+  },
+  {
+   "date_iso": "1858-08-26",
+   "date_display": "26–27 August 1858",
+   "precision": "range",
+   "eye": "thomson",
+   "place": "Valentia, Ireland",
+   "headline": "A storm, an earthed cable, signals coming and going",
+   "digest": "Now in charge at Valentia, Thomson reports repeated losses of signal through a stormy night, with the cable earthed and stoppages over and over. The next morning an Associated Press news dispatch takes from 2:10 to 11:10 a.m. to pass. The line is working, but only just, and slower each week.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Shaffner log as summarised on Atlantic-Cable.com, 26–27 August"
+  },
+  {
+   "date_iso": "1858-08-31",
+   "date_display": "Tuesday 31 August 1858, 3:41 p.m. and 9:03 p.m.",
+   "precision": "day",
+   "eye": "desauty",
+   "place": "Bay Bulls Arm, Trinity Bay",
+   "headline": "Orders to two regiments: stay where you are",
+   "digest": "Two government messages arrive from Valentia: the 62nd and 39th Regiments, in Canada, are not to return to England. Newfoundland confirms the second just after midnight. These are later held up as proof that the line had real value; one figure given is a saving of £50,000 in troop transport.",
+   "quote": "The sixty-second regiment is not to return to England.",
+   "confidence": "verified",
+   "source_note": "Shaffner log via Atlantic-Cable.com; Henry Field also names two regimental orders of 31 August"
+  },
+  {
+   "date_iso": "1858-09-01",
+   "date_display": "Wednesday 1 September 1858",
+   "precision": "day",
+   "eye": "field",
+   "place": "Crystal Palace, New York",
+   "headline": "Field honoured while the cable falls silent",
+   "digest": "Field lands at Castle Garden at noon to a national salute and is escorted to the Crystal Palace, where Mayor Tiemann presents him with a gold box. He reads aloud a message of the same day from the London directors, sent from Mallow on their way to Valentia. His own 48-word celebration message that day is the last whole text received at Valentia. Henry Field calls 1 September the cable's last recorded message day.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "H. Field ch. XI; City Report via Atlantic-Cable.com; Shaffner log (last words received at Valentia)"
+  },
+  {
+   "date_iso": "1858-09-01",
+   "date_display": "1 September 1858",
+   "precision": "day",
+   "eye": "nypress",
+   "place": "Broadway and the Crystal Palace, New York",
+   "headline": "Fifteen thousand march from the Battery",
+   "digest": "A service fills Trinity Church in the morning. The procession runs from the Battery to the Crystal Palace at Fifth Avenue and 42nd Street, more than fifteen thousand marchers by the city's count. At ten that night the firemen's torchlight parade goes down Sixth Avenue and Broadway and round Washington's statue in Union Square, ending at one in the morning.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "City Report as excerpted on Atlantic-Cable.com"
+  },
+  {
+   "date_iso": "1858-09-04",
+   "date_display": "4 September 1858",
+   "precision": "day",
+   "eye": "bright",
+   "place": "Dublin",
+   "headline": "Knighted at twenty-six by the Lord Lieutenant",
+   "digest": "In Dublin the Lord Lieutenant, the Earl of Eglinton, knights Bright in the Queen's name, making him the youngest knight of the year. His letter to his wife the evening before says it will be done the next day. The cable he laid had already stopped carrying intelligible messages.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Life Story (1908): frontispiece gives 4 September 1858; text gives Dublin and Eglinton but not the date"
+  },
+  {
+   "date_iso": "1858-09-11",
+   "date_display": "11 September 1858",
+   "precision": "day",
+   "eye": "nypress",
+   "place": "New York",
+   "headline": "Harper's prints the gold-box presentation",
+   "digest": "Harper's Weekly publishes a full engraving of the Crystal Palace crowd watching Field receive the city's tribute. By the time it went to press the cable had been silent for ten days, though the public did not yet know the line was failing.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Harper's Weekly, 11 September 1858 (NYPL Art and Picture Collection, via Loyola Notre Dame Library item)"
+  },
+  {
+   "date_iso": "1858-09-18",
+   "date_display": "18 and 27 September 1858",
+   "precision": "range",
+   "eye": "whitehouse",
+   "place": "London",
+   "headline": "Whitehouse answers the directors in print",
+   "digest": "Whitehouse publishes his own history of the company's electrical department, dated 18 September, and a Reply to the Statement of the Directors, dated 27 September, first as letters to the Daily News and The Times. He defends his handling of the line and his instruments against the Board's censure.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Atlantic-Cable.com Whitehouse bibliography"
+  },
+  {
+   "date_iso": "1858-09-28",
+   "date_display": "28 September 1858",
+   "precision": "day",
+   "eye": "desauty",
+   "place": "Bay Bulls Arm, Trinity Bay",
+   "headline": "Testing the dead line with a single cell",
+   "digest": "Newfoundland sends a service message asking Valentia to note the effect of putting one Daniell cell in circuit. Weeks after the last intelligible message, both stations are still testing the cable, now with very low battery power. De Sauty had drawn a plan of the station three days earlier.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kelvin Papers MS Kelvin A61 (sender is the Newfoundland station; operator not named); site plan dated 25 September on Atlantic-Cable.com"
+  },
+  {
+   "date_iso": "1858-10-20",
+   "date_display": "20 October 1858",
+   "precision": "day",
+   "eye": "desauty",
+   "place": "Bay Bulls Arm / Valentia",
+   "headline": "The cable stops working altogether",
+   "digest": "The IET Archives date the end of the first cable to 20 October 1858, blaming both damage from the laying machinery and Whitehouse's high-voltage instruments. Counts differ: Glasgow gives 732 messages in its working life, while the Newfoundland station history counts about 400 messages in all.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "IET Archives, The first transatlantic telegraph cable 1858; Glasgow Kelvin exhibition; Atlantic-Cable.com Newfoundland station"
+  },
+  {
+   "date_iso": "1859-12-15",
+   "date_display": "15 December 1859",
+   "precision": "day",
+   "eye": "whitehouse",
+   "place": "London, Joint Committee",
+   "headline": "Before the inquiry, Whitehouse blames Field's haste",
+   "digest": "Giving evidence to the Board of Trade and company Joint Committee, Whitehouse mostly disclaims responsibility and blames Field's hurry to lay the cable in 1858. The committee later concluded that both haste and erroneous science had played a part.",
+   "quote": "had so much steam that he could not wait",
+   "confidence": "verified",
+   "source_note": "Whitehouse's evidence, Joint Committee Report (1861), as quoted by PBS American Experience; date from Atlantic-Cable.com"
+  },
+  {
+   "date_iso": "1861-04",
+   "date_display": "April 1861",
+   "precision": "month",
+   "eye": "thomson",
+   "place": "London",
+   "headline": "The Joint Committee reports",
+   "digest": "After hearings since 1859, the committee of Board of Trade and company nominees presents its findings in April 1861. Thomson's evidence had shown the problems of the cable's design and of the large induction coils. The report found that the failures could have been prevented with proper preliminary investigation.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "PBS American Experience; H. Field (committee sat until April 1861)"
+  },
+  {
+   "date_iso": "1865-07-15",
+   "date_display": "Saturday 15 July 1865, 12:15 p.m.",
+   "precision": "day",
+   "eye": "gooch",
+   "place": "The Nore, Thames estuary",
+   "headline": "A new MP weighs anchor with the cable",
+   "digest": "Two days after the Cricklade poll returned him to Parliament, Gooch sails in the Great Eastern at a quarter past noon. He writes that the honour matters less to him than his colleagues' goodwill, and that his real anxiety is the cable.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Gooch, Diaries (1892), 13–15 July 1865"
+  },
+  {
+   "date_iso": "1865-07-24",
+   "date_display": "Monday 24 July 1865, 3 a.m.",
+   "precision": "day",
+   "eye": "gooch",
+   "place": "Great Eastern, 84 miles out",
+   "headline": "A gun at three in the morning: first fault",
+   "digest": "A gun wakes Gooch: the cable has a fault, probably some way astern. The ship stops and starts the slow work of hauling cable back. Next day they find a piece of steel wire forced into the core, which he judges an accident, not sabotage.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Gooch, Diaries, 24–25 July 1865; Russell gives the fault at 3:15 a.m. after 84 miles"
+  },
+  {
+   "date_iso": "1865-07-25",
+   "date_display": "Tuesday 25 July 1865",
+   "precision": "day",
+   "eye": "russell",
+   "place": "Great Eastern, off Ireland",
+   "headline": "Thirty-seven hours lost, then Valentia goes silent",
+   "digest": "Russell describes the wire driven through the covering into the gutta-percha, the splice, and the reckoning of 37 hours and 10 minutes lost. Then signals from Valentia suddenly cease, and for a few moments the ship fears the worst before the current returns.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Russell, The Atlantic Telegraph (1865), voyage chapters"
+  },
+  {
+   "date_iso": "1865-07-29",
+   "date_display": "28–29 July 1865",
+   "precision": "range",
+   "eye": "gooch",
+   "place": "Great Eastern, over 2,000 fathoms",
+   "headline": "Second fault: 'dead earth' in deep water",
+   "digest": "Gooch logs a second, worse fault at 1:20 p.m. on the 29th in over two thousand fathoms, with the cable raised by 9:30 that night. Russell dates the same fault to 28 July at 1:10 p.m. ship's time, with 716 miles out, and calls it dead earth. The two diaries disagree by a day.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Gooch, Diaries, 29 July 1865; Russell (1865), second fault"
+  },
+  {
+   "date_iso": "1865-08-02",
+   "date_display": "Wednesday 2 August 1865",
+   "precision": "day",
+   "eye": "russell",
+   "place": "Great Eastern, 606 miles from Heart's Content",
+   "headline": "'Another bad fault' — and then the cable is gone",
+   "digest": "At 8 a.m. Greenwich time the galvanometer index slides off the scale. Thomson tells Russell it is another bad fault. Field, on watch in the tank, had heard a grating noise twenty minutes earlier. While picking up, a shackle jumps the wheel and the cable parts, with about 1,186 miles out in roughly 2,000 fathoms. The ship's mood turns to something like grief.",
+   "quote": "No words could describe the bitterness of the disappointment.",
+   "confidence": "verified",
+   "source_note": "Russell (1865), 2 August"
+  },
+  {
+   "date_iso": "1865-08-02",
+   "date_display": "2 August 1865 (ship's time)",
+   "precision": "day",
+   "eye": "gooch",
+   "place": "Great Eastern, mid-Atlantic",
+   "headline": "'All is over, I fear, for this year'",
+   "digest": "Gooch logs the third fault at 5:30 a.m. ship's time and the break at about 1:30 p.m., a few yards from the ship. Next day a broken piece of steel wire is found in the tank, the probable cause. Grappling begins at once.",
+   "quote": "all is over, I fear, for this year",
+   "confidence": "verified",
+   "source_note": "Gooch, Diaries, 2–3 August 1865"
+  },
+  {
+   "date_iso": "1865-08-02",
+   "date_display": "2 August 1865",
+   "precision": "day",
+   "eye": "deane",
+   "place": "Great Eastern, mid-Atlantic",
+   "headline": "Canning comes aft with the news",
+   "digest": "Deane records the moment the ship learns of the loss: Canning's announcement that the cable has parted. Field and others urge persistence, and Captain Anderson and Canning decide to grapple in about 2,500 fathoms.",
+   "quote": "It is all over; the cable has parted!",
+   "confidence": "verified",
+   "source_note": "Deane's diary, Macmillan's Magazine 1865, via Atlantic-Cable.com"
+  },
+  {
+   "date_iso": "1865-08-11",
+   "date_display": "Friday 11 August 1865",
+   "precision": "day",
+   "eye": "gooch",
+   "place": "Great Eastern, grappling ground",
+   "headline": "Hooked at four, lost at half past seven",
+   "digest": "On the fourth try the grapnel hooks the cable about 4 p.m. and hauling goes well until about 7:30, when the rope parts with a loud bang. Nearly six miles of cable and rope go back to the bottom. The ship signals HMS Terrible and turns for home.",
+   "quote": "a loud report like that of a gun",
+   "confidence": "verified",
+   "source_note": "Gooch, Diaries, 11 August 1865; Russell gives 9:40 p.m. Greenwich for the final parting"
+  },
+  {
+   "date_iso": "1865-08-11",
+   "date_display": "11 August 1865",
+   "precision": "day",
+   "eye": "deane",
+   "place": "Great Eastern, grappling ground",
+   "headline": "The last rope snaps",
+   "digest": "Deane watches the dynamometer climb as the repaired grapnel takes the strain, and hopes rise. Then the rope snaps near the bow and runs out of sight. The recovery is over for the year.",
+   "quote": "broke like a carrot",
+   "confidence": "verified",
+   "source_note": "Deane's diary, 11 August 1865, via Atlantic-Cable.com"
+  },
+  {
+   "date_iso": "1865-08-15",
+   "date_display": "Tuesday 15 August 1865",
+   "precision": "day",
+   "eye": "gooch",
+   "place": "Great Eastern, homeward",
+   "headline": "'Not beaten, but checked'",
+   "digest": "On the way home Gooch rewrites the failure as a postponement. About 1,200 miles are laid, the cable has been hooked from the deep, and he estimates the cost of recovery at about £30,000.",
+   "quote": "we are not beaten, but checked",
+   "confidence": "verified",
+   "source_note": "Gooch, Diaries, 15 August 1865"
+  },
+  {
+   "date_iso": "1865-12-18",
+   "date_display": "18 December 1865",
+   "precision": "day",
+   "eye": "thomson",
+   "place": "Royal Society of Edinburgh",
+   "headline": "Thomson argues the deep cable can be lifted",
+   "digest": "In a public address Thomson works through the mechanics of laying and lifting deep cables. The August failures, he says, came from rope and tackle too weak, not from the electric cable. He predicts the contractors will succeed the next summer.",
+   "quote": "If one attempt fails another will succeed.",
+   "confidence": "verified",
+   "source_note": "Thomson, On the Forces concerned in the Laying and Lifting of Deep-sea Cables (1865), via Atlantic-Cable.com"
+  },
+  {
+   "date_iso": "1866-07-13",
+   "date_display": "Friday 13 July 1866",
+   "precision": "day",
+   "eye": "gooch",
+   "place": "Off Valentia",
+   "headline": "The fourth attempt begins at five knots",
+   "digest": "After the splice to the shore-end buoy, paying out begins with the ship making about five knots. A shore-end signal read by Varley reports the end safe and the splice under way. Gooch is cautious.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Gooch, Diaries, 13 July 1866; H. Field (Varley's signal)"
+  },
+  {
+   "date_iso": "1866-07-23",
+   "date_display": "23 July 1866",
+   "precision": "day",
+   "eye": "field",
+   "place": "Great Eastern, mid-Atlantic",
+   "headline": "News from Europe in eight minutes",
+   "digest": "Field's journal entries are terse: weather fine, signals perfect. He sends a message to Valentia asking for news of the world and has his answer in about eight minutes. The ship sails on while still in contact with Europe.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "H. Field, 1866 chapter (Field's journal and Deane's diary)"
+  },
+  {
+   "date_iso": "1866-07-27",
+   "date_display": "Friday 27 July 1866",
+   "precision": "day",
+   "eye": "gooch",
+   "place": "Heart's Content, Newfoundland",
+   "headline": "The shore end lands at Heart's Content",
+   "digest": "Fog lifts and the fleet enters Heart's Content, and the shore end is landed. Gooch sends some of the first messages through, one to Glass at Valentia and one to Lord Stanley, the Foreign Secretary. The Queen's message to the President comes through.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Gooch, Diaries, 27 July 1866; H. Field (arrival)"
+  },
+  {
+   "date_iso": "1866-07-27",
+   "date_display": "27 July 1866 (printed 30 July)",
+   "precision": "day",
+   "eye": "field",
+   "place": "Heart's Content, Newfoundland",
+   "headline": "'In perfect working order' — but not yet to New York",
+   "digest": "Field telegraphs New York that he arrived at nine and that the cable is laid and working. He also wires President Johnson and Secretary Seward. The cable across the Gulf of St Lawrence is still broken, so news from Heart's Content reaches New York about a day late. A Philadelphia paper prints the dispatches on 30 July, with Johnson's reply of the 29th.",
+   "quote": "The cable has been laid, and is in perfect working order",
+   "confidence": "verified",
+   "source_note": "Daily Evening Telegraph (Philadelphia), 30 July 1866, p. 8; H. Field on the Gulf cable"
+  },
+  {
+   "date_iso": "1866-08-17",
+   "date_display": "Friday 17 August 1866",
+   "precision": "day",
+   "eye": "gooch",
+   "place": "Grappling ground, mid-Atlantic",
+   "headline": "The 1865 cable reaches the surface and snaps",
+   "digest": "After days of fog and a lost buoy, the grapnel hooks the 1865 cable and lifts it to the surface. It breaks within five minutes. Gooch calls it a bitter disappointment, and within days he writes of a sense of failure.",
+   "quote": "bitter disappointment",
+   "confidence": "verified",
+   "source_note": "Gooch, Diaries, 17 and 22 August 1866"
+  },
+  {
+   "date_iso": "1866-09-02",
+   "date_display": "Sunday 2 September 1866, early morning",
+   "precision": "day",
+   "eye": "gooch",
+   "place": "Great Eastern, about 1,650 fathoms",
+   "headline": "A spot of light: Valentia answers the old cable",
+   "digest": "The 1865 cable is hauled aboard in the night and taken to the testing room. For nearly fifteen minutes the electricians try to raise Valentia. Then the light flashes on the scale and the room breaks into cheers, and Gooch feels a great weight lift. A splice is made and paying out begins before seven.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Gooch, Diaries, 1–2 September 1866"
+  },
+  {
+   "date_iso": "1866-09-02",
+   "date_display": "2 September 1866, a quarter to six a.m. (Valentia)",
+   "precision": "day",
+   "eye": "canning",
+   "place": "Received at Valentia",
+   "headline": "'Canning to Glass': a message from the deep",
+   "digest": "At Valentia, the operator on watch, Crocker, sees the first signal from a cable that had lain on the bottom for a year. The first message is from Canning to Richard Glass, managing director of the contractors. Henry Field corrects the Spectator, which had named the operator as May.",
+   "quote": "Canning to Glass",
+   "confidence": "verified",
+   "source_note": "H. Field, 1866 chapter and footnote"
+  },
+  {
+   "date_iso": "1866-09-08",
+   "date_display": "Saturday 8 September 1866",
+   "precision": "day",
+   "eye": "gooch",
+   "place": "Heart's Content",
+   "headline": "The second cable lands; 'in the most perfect condition'",
+   "digest": "After a last fault in the tank near the harbour, the end of the 1865 cable is spliced to the shore end and lodged in the electrical room by about 4 p.m. Gooch wires Lord Stanley that the recovered cable is in the most perfect condition. Henry Field dates the landing a day earlier; the weekday fixes it at the 8th.",
+   "quote": "in the most perfect condition",
+   "confidence": "approx",
+   "source_note": "Gooch, Diaries (date inferred from a garbled heading and weekday); H. Field gives 7 September"
+  },
+  {
+   "date_iso": "1866-09-29",
+   "date_display": "29 September 1866",
+   "precision": "day",
+   "eye": "canning",
+   "place": "Balmoral / London",
+   "headline": "Honours: knights for the engineers, nothing for Field",
+   "digest": "A letter from Lord Derby at Balmoral announces knighthoods for Captain Anderson, Professor Thomson, Canning and Glass, and baronetcies for Lampson and Gooch. Field, an American citizen, receives no British honour; Congress later voted him a gold medal (approved 2 March 1867).",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "H. Field, 1866 chapter; Gooch, Diaries (baronetcy news 23 September; Letters Patent 10 November 1866)"
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1858-08-05",
+   "date_display": "5 August 1858, 4 a.m. (Newfoundland)",
+   "eye": "field",
+   "claim": "Field, Bay Bulls Arm → Associated Press, New York: the cable is landed and signals pass end to end; handed in at 4 a.m., before the cable itself was in the telegraph house",
+   "form": "telegraph",
+   "evidence": "Field's journal, 5 August 1858, in H. Field ch. X; Mullaly 1858",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1858-08-05",
+   "date_display": "5 August 1858 (Valentia)",
+   "eye": "bright",
+   "claim": "Bright, Valentia → his wife: 'Atlantic cable laid. Signals received both ways.' (time of sending not given)",
+   "form": "telegraph",
+   "evidence": "Life Story of Sir C. T. Bright (1908)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1858-08-10",
+   "date_display": "10 August 1858, 12:24–2:28 a.m. Irish time (evening of 9 August in Newfoundland)",
+   "eye": "desauty",
+   "claim": "Valentia ↔ Newfoundland: first signal exchange of the completed cable, logged at Valentia by Thomson's assistant J. B. Russell; De Sauty's tape marked 'first current 9 Aug 58'",
+   "form": "cable",
+   "evidence": "Valentia log via Atlantic-Cable.com; de Sauty tape card",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1858-08-13",
+   "date_display": "13 August 1858, 12:38 a.m.",
+   "eye": "desauty",
+   "claim": "Newfoundland → Valentia: first word read at the American end is 'Atlantic'; service message asks Valentia to work slower because dots are not showing on the detector",
+   "form": "cable",
+   "evidence": "Shaffner transcript (Joint Committee, 14 March 1860) via Atlantic-Cable.com; MS Kelvin A19",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1858-08-16",
+   "date_display": "16 August 1858, 11:12 a.m.",
+   "eye": "whitehouse",
+   "claim": "Directors, Valentia → Newfoundland: opening message 'Europe and America are united by telegraph', received correctly",
+   "form": "cable",
+   "evidence": "Shaffner log via Atlantic-Cable.com; IET Archives",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1858-08-16",
+   "date_display": "16 August 1858, 4:15 p.m. – 17 August, 6:48 a.m.",
+   "eye": "victoria",
+   "claim": "Queen Victoria → President Buchanan, about 98 words of congratulation. Positions on the delay: about 14½ hours start to finish in the log (halted at 6:29 p.m. for repairs); 'almost 16 hours' in IEEE Spectrum and Linda Hall; 67 minutes' working time, repeated, in Russell (1865)",
+   "form": "cable",
+   "evidence": "Shaffner log via Atlantic-Cable.com; Russell 1865; IEEE Spectrum; Royal Collection tape RCIN 84450",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1858-08-19",
+   "date_display": "dated 16 August; sent 19 August 1858",
+   "eye": "buchanan",
+   "claim": "Buchanan, Washington → the Queen: reply hoping the telegraph will prove 'a bond of perpetual peace and friendship between the kindred nations'; it waited three days in Newfoundland before going over the cable",
+   "form": "cable",
+   "evidence": "Shaffner log via Atlantic-Cable.com; MS Kelvin A26; H. Field",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1858-08-19",
+   "date_display": "19 August 1858 (dated New York, 17–18 August)",
+   "eye": "desauty",
+   "claim": "Samuel Cunard → D. & C. McIver, Liverpool, via Newfoundland: the Cunarders Arabia and Europa have collided, 'No loss of life or limb'",
+   "form": "cable",
+   "evidence": "MS Kelvin A30 (dated 18 August); Shaffner log (collision message dated New York 17 August, sent 19 August)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1858-08-31",
+   "date_display": "31 August 1858, 3:41 p.m. and 9:03 p.m.",
+   "eye": "desauty",
+   "claim": "War Office, Valentia → Canada: 'The sixty-second regiment is not to return to England'; similar order for the 39th, acknowledged at 12:28 a.m. on 1 September. Later claimed to have saved £50,000 in transport",
+   "form": "cable",
+   "evidence": "Shaffner log via Atlantic-Cable.com; H. Field",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1858-09-01",
+   "date_display": "1 September 1858",
+   "eye": "field",
+   "claim": "Newfoundland → Valentia: Field's 48-word celebration message, the last words received at Valentia; Saward's reply from London is only partly received in Newfoundland",
+   "form": "cable",
+   "evidence": "Shaffner log via Atlantic-Cable.com; H. Field (last recorded message 1 September)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1858-09-28",
+   "date_display": "28 September 1858",
+   "eye": "desauty",
+   "claim": "Newfoundland → Valentia: test message asking Valentia to note the effect of one Daniell cell put in circuit, in an attempt to revive the dying line",
+   "form": "cable",
+   "evidence": "MS Kelvin A61, Glasgow",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1865-07-25",
+   "date_display": "25 July 1865",
+   "eye": "russell",
+   "claim": "Valentia ↔ Great Eastern: the regular signalling schedule set by de Sauty's electricians; communication with shore suddenly ceases for a few moments after the first splice, then returns",
+   "form": "cable",
+   "evidence": "Russell, The Atlantic Telegraph (1865)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1866-07-23",
+   "date_display": "23 July 1866",
+   "eye": "field",
+   "claim": "Field, Great Eastern in mid-ocean → Valentia: request for the news of the day; answer received in about eight minutes",
+   "form": "cable",
+   "evidence": "H. Field, 1866 chapter",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1866-07-27",
+   "date_display": "27 July 1866; printed in New York 29 July and Philadelphia 30 July",
+   "eye": "field",
+   "claim": "Field, Heart's Content → New York and President Johnson: 'The cable has been laid, and is in perfect working order'; delayed about a day because the Gulf of St Lawrence cable was broken; Johnson's reply dated 29 July",
+   "form": "cable",
+   "evidence": "Daily Evening Telegraph (Philadelphia), 30 July 1866; H. Field",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1866-09-02",
+   "date_display": "2 September 1866, a quarter to six a.m. at Valentia",
+   "eye": "canning",
+   "claim": "Great Eastern → Valentia, through the recovered 1865 cable: 'Canning to Glass'; seen by the operator Crocker; aboard ship the light spot appears after nearly fifteen minutes of calling",
+   "form": "cable",
+   "evidence": "H. Field (with correction of the Spectator); Gooch, Diaries",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1866-09-08",
+   "date_display": "8 September 1866",
+   "eye": "gooch",
+   "claim": "Gooch, Heart's Content → Lord Stanley: the recovered cable of 1865 has been landed 'in the most perfect condition'; two working Atlantic cables now exist",
+   "form": "cable",
+   "evidence": "Gooch, Diaries (1892)",
+   "confidence": "approx"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1857-08-11",
+   "label": "The 1857 cable parts in 2,000 fathoms",
+   "eyes": [
+    "mullaly",
+    "field"
+   ],
+   "note": "Mullaly blames the brakes applied in a swell; Field's letter two days later counts the miles laid and plans the next attempt. The deck witness and the promoter take different lessons from the same break."
+  },
+  {
+   "date": "1858-08-05",
+   "label": "Both ends landed: Trinity Bay and Valentia",
+   "eyes": [
+    "field",
+    "mullaly",
+    "bright",
+    "desauty"
+   ],
+   "note": "Field logs clock times; Mullaly records the prayer and the needle; Bright, three hours ahead by the clock, lands his end at Valentia that afternoon. De Sauty's station is the house Field woke in the dark."
+  },
+  {
+   "date": "1858-08-16",
+   "label": "The Queen's message and the President's reply",
+   "eyes": [
+    "victoria",
+    "buchanan",
+    "desauty",
+    "whitehouse"
+   ],
+   "note": "The heads of state write as if the ocean had been abolished. The station logs show hours of repetition, a halt for repairs and a reply left waiting three days."
+  },
+  {
+   "date": "1858-08-17",
+   "label": "Whitehouse dismissed; City Hall burns in the celebration",
+   "eyes": [
+    "whitehouse",
+    "nypress"
+   ],
+   "note": "On the same day the company sacks the electrician struggling to work the line, and New York sets its City Hall cupola alight celebrating it."
+  },
+  {
+   "date": "1858-09-01",
+   "label": "Parade day and the cable's last words",
+   "eyes": [
+    "field",
+    "nypress",
+    "desauty"
+   ],
+   "note": "Field is honoured at the Crystal Palace and 15,000 march, while his own message proves to be the last whole text through the cable."
+  },
+  {
+   "date": "1865-08-02",
+   "label": "The 1865 cable lost in mid-ocean",
+   "eyes": [
+    "russell",
+    "gooch",
+    "deane",
+    "thomson",
+    "canning"
+   ],
+   "note": "Thomson reads the fault on the galvanometer, Canning announces the loss, Russell and Deane record the gloom, and Gooch writes 'all is over'. Their clocks differ by more than two hours between Greenwich and ship's time."
+  },
+  {
+   "date": "1865-08-11",
+   "label": "The last grapnel rope snaps",
+   "eyes": [
+    "gooch",
+    "deane",
+    "russell"
+   ],
+   "note": "Gooch hears a gun-like report, Deane sees the rope break 'like a carrot', and Russell logs the time by Greenwich. Four days later Gooch has already decided they are only checked."
+  },
+  {
+   "date": "1866-07-27",
+   "label": "Heart's Content: the 1866 cable lands",
+   "eyes": [
+    "gooch",
+    "field"
+   ],
+   "note": "Gooch writes of messages to Glass and Lord Stanley; Field's dispatches to New York are held up a day by the broken Gulf cable, the old problem of the last link."
+  },
+  {
+   "date": "1866-09-02",
+   "label": "The 1865 cable answers from the deep",
+   "eyes": [
+    "gooch",
+    "canning"
+   ],
+   "note": "On the ship, fifteen minutes of silence then a flash of light; at Valentia, the operator Crocker reads 'Canning to Glass'. These are the two ends of the same moment, logged in different clock times."
+  }
+ ],
+ "ties": [
+  {
+   "a": "field",
+   "b": "mullaly",
+   "kind": "met",
+   "note": "Mullaly sailed with Field on the Niagara in 1857 and 1858 and followed him ashore at Trinity Bay; Henry Field cites Mullaly's book as the fullest account."
+  },
+  {
+   "a": "bright",
+   "b": "thomson",
+   "kind": "met",
+   "note": "Both sailed in HMS Agamemnon on the 1858 voyage, Bright as engineer-in-chief and Thomson as electrician."
+  },
+  {
+   "a": "whitehouse",
+   "b": "thomson",
+   "kind": "opposite sides",
+   "note": "Their 1856 dispute over Thomson's law of squares became the 1858 quarrel over induction coils against the mirror galvanometer, and was settled before the Joint Committee."
+  },
+  {
+   "a": "whitehouse",
+   "b": "desauty",
+   "kind": "opposite sides",
+   "note": "In August 1858 they ran the two ends of one circuit, Valentia and Bay Bulls Arm, asking each other to send faster or slower."
+  },
+  {
+   "a": "victoria",
+   "b": "buchanan",
+   "kind": "read each other",
+   "note": "Their exchange of 16 August 1858 was the first state correspondence by cable; the reply took three days to leave Newfoundland."
+  },
+  {
+   "a": "field",
+   "b": "nypress",
+   "kind": "mentioned",
+   "note": "The city's celebration on 1 September 1858 was built around Field, who received a gold box from Mayor Tiemann."
+  },
+  {
+   "a": "russell",
+   "b": "deane",
+   "kind": "met",
+   "note": "Deane went aboard in 1865 as Russell's assistant and helped copy out Russell's daily diary, from which The Atlantic Telegraph was written."
+  },
+  {
+   "a": "gooch",
+   "b": "canning",
+   "kind": "met",
+   "note": "Gooch consulted Canning after the grappling failures of 1865 and walked ashore with him at Heart's Content in 1866."
+  },
+  {
+   "a": "thomson",
+   "b": "russell",
+   "kind": "met",
+   "note": "Thomson's verdict on the 2 August 1865 fault, given to Russell in the testing room, is recorded in Russell's book."
+  },
+  {
+   "a": "canning",
+   "b": "deane",
+   "kind": "mentioned",
+   "note": "Deane's diary preserves Canning's announcement that the 1865 cable had parted."
+  },
+  {
+   "a": "desauty",
+   "b": "russell",
+   "kind": "mentioned",
+   "note": "Russell names de Sauty as leader of the contractor's electricians in 1865, seven years after he worked the Newfoundland end."
+  },
+  {
+   "a": "field",
+   "b": "gooch",
+   "kind": "met",
+   "note": "Both sailed in the Great Eastern in 1865 and 1866; Field was on watch in the tank when the 1865 fault was heard."
+  },
+  {
+   "a": "times",
+   "b": "field",
+   "kind": "influenced",
+   "note": "Henry Field put The Times leader of 6 August 1858 on the title page of his brother's history."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "morse-1844",
+   "note": "Samuel Morse was aboard the Niagara in 1857 as electrician to the American side; Mullaly records him judging the cause of the 10 August signal loss."
+  },
+  {
+   "to": "telephone-1876",
+   "note": "William Thomson, knighted for the 1866 cable, was a judge at the 1876 Philadelphia Centennial Exhibition and praised Bell's telephone there."
+  },
+  {
+   "to": "wireless-1901",
+   "note": "The Anglo-American Telegraph Company, which owned the Heart's Content cables, held a monopoly in Newfoundland and forced Marconi to stop his Signal Hill experiments in December 1901."
+  },
+  {
+   "to": "v1:us-civil-war",
+   "note": "W. H. Russell went from India to the American Civil War for The Times in 1861; in 1866 Seward's congratulations on the cable recalled the problems of neutrality during that war."
+  },
+  {
+   "to": "v2:delhi-1857",
+   "note": "W. H. Russell, chronicler of the 1865 cable voyage, had reported the Indian rebellion in 1858 while the first cable was being laid."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.metmuseum.org/art/collection/search/655617",
+   "title": "Burning of the City Hall, New York, on the night of the 17th August 1858",
+   "caption": "Currier & Ives print of the cupola fire, 'supposed' by its own title to have started from the fireworks celebrating the cable. The print preserves the period's uncertainty about the cause.",
+   "date": "1858",
+   "credit": "Currier & Ives; Metropolitan Museum of Art"
+  },
+  {
+   "url": "https://loyolanotredamelib.org/en203/items/show/8",
+   "title": "Atlantic Cable Celebration — Presentation to Cyrus W. Field in the Crystal Palace",
+   "caption": "Harper's Weekly engraving of the 1 September 1858 ceremony, published 11 September, when the cable had already stopped carrying messages.",
+   "date": "11 September 1858",
+   "credit": "Harper's Weekly; NYPL Art and Picture Collection"
+  },
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/objects/co32961/thomsons-mirror-galvanometer-1858",
+   "title": "Thomson's mirror galvanometer, 1858",
+   "caption": "Land-type mirror galvanometer by White & Barr of Glasgow, used at Valentia to read the faint signals from Newfoundland. One operator read the light spot aloud and a second wrote the letters down.",
+   "date": "1858",
+   "credit": "Science Museum Group, object 1907-105"
+  },
+  {
+   "url": "https://rct.uk/collection/84450/tickertape",
+   "title": "Tickertape of the Queen's message, 1858",
+   "caption": "The receiving tape of Queen Victoria's message to President Buchanan, 16 August 1858, now in the Royal Collection.",
+   "date": "1858",
+   "credit": "Royal Collection Trust (RCIN 84450)"
+  },
+  {
+   "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-110363",
+   "title": "USS Niagara and HMS Agamemnon laying the cable",
+   "caption": "Coloured lithograph (1861) of the two cable ships of 1857–58, each carrying half the cable.",
+   "date": "1861",
+   "credit": "National Maritime Museum, Greenwich"
+  },
+  {
+   "url": "https://gutenberg.org/cache/epub/40948/pg40948-images.html",
+   "title": "Lithographs in Russell's The Atlantic Telegraph (1865)",
+   "caption": "The Project Gutenberg edition reproduces the 1865 book's lithographs of the Great Eastern's tanks, testing room and grappling, drawn on the voyage by Robert Dudley.",
+   "date": "1865",
+   "credit": "Robert Dudley; Day & Son; Project Gutenberg"
+  }
+ ],
+ "further": [
+  {
+   "title": "W. H. Russell, The Atlantic Telegraph (1865) — Project Gutenberg",
+   "url": "https://gutenberg.org/cache/epub/40948/pg40948-images.html"
+  },
+  {
+   "title": "Henry M. Field, The Story of the Atlantic Telegraph (1892) — Project Gutenberg",
+   "url": "https://gutenberg.org/cache/epub/34765/pg34765-images.html"
+  },
+  {
+   "title": "Diaries of Sir Daniel Gooch, Baronet (1892) — digitised text",
+   "url": "https://distantreader.org/stacks/trust/uc2/uc2_ark+=13960=t8mc8t245.txt"
+  },
+  {
+   "title": "Atlantic-Cable.com: the 1858 message log",
+   "url": "https://atlantic-cable.com/Article/1858Messages/index.htm"
+  },
+  {
+   "title": "University of Glasgow Library: Kelvin and the Atlantic cable",
+   "url": "https://www.gla.ac.uk/myglasgow/library/files/special/exhibns/Kelvin/atlanticcable.html"
+  },
+  {
+   "title": "IEEE Spectrum: The first transatlantic telegraph cable was a bold, beautiful failure",
+   "url": "https://spectrum.ieee.org/tech-history/heroic-failures/the-first-transatlantic-telegraph-cable-was-a-bold-beautiful-failure"
+  },
+  {
+   "title": "PBS American Experience: the cable committee inquiry",
+   "url": "https://www.pbs.org/wgbh/americanexperience/features/cable-committee-inquiry"
+  },
+  {
+   "title": "IET Archives: the transatlantic telegraph cables 1865–1866",
+   "url": "https://www.theiet.org/membership/library-and-archives/the-iet-archives/archives-highlights/the-transatlantic-telegraph-cables-1865-1866"
+  }
+ ],
+ "vantage_key": "0 = principals at the instruments, ships' machinery or company board; 1 = eyewitnesses aboard the cable ships; 2 = the celebrating and commenting cities (New York, London); 3 = heads of state who sent messages from a distance; 4 = news only."
+}

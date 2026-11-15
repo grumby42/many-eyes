@@ -1,0 +1,429 @@
+[
+ {
+  "chapter": "cables-1858",
+  "where": "entry:19",
+  "severity": "error",
+  "problem": "The Shaffner log (Atlantic-Cable.com) shows the 48-word message of 1 September was the directors' message from Valentia to Field, not Field's own message; the last words received at Valentia were Newfoundland's acknowledgement 'Forty-eight words. Right, right.'",
+  "fix": {
+   "text_replace": {
+    "old": "His own 48-word celebration message that day is the last whole text received at Valentia.",
+    "new": "That 48-word message from the directors was the last text to cross the cable whole; Newfoundland's acknowledgement of it ('Forty-eight words. Right, right') was the last thing received at Valentia."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "claim:9",
+  "severity": "error",
+  "problem": "Direction and sender wrong: the 48-word message went Valentia → Newfoundland, from the directors to Field; the last words received at Valentia were Newfoundland's acknowledgement.",
+  "fix": {
+   "claim": "Directors, Valentia → C. W. Field, New York, via Newfoundland: 48-word message of congratulation on the city's celebration; Newfoundland's acknowledgement, 'Forty-eight words. Right, right', is the last text received at Valentia; Saward's next message, asking Field to inform the American government, is only partly received in Newfoundland"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "convergence:4",
+  "severity": "error",
+  "problem": "Same error as claim 9: the last whole text was the directors' message to Field, not Field's own message.",
+  "fix": {
+   "text_replace": {
+    "old": "while his own message proves to be the last whole text through the cable",
+    "new": "while the directors' 48-word message to him proves to be the last whole text through the cable"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "entry:11",
+  "severity": "error",
+  "problem": "Time difference overstated. Valentia (about 10°W) and Bay Bulls Arm (about 54°W) are about three hours apart in local time, not four (the calendar note and convergence 1 say three).",
+  "fix": {
+   "text_replace": {
+    "old": "about four hours behind",
+    "new": "about three hours behind"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "entry:21",
+  "severity": "doubt",
+  "problem": "The date was marked approx, but it can be confirmed: the Office of Arms notice 'Dublin Castle, September 4, 1858' (Edinburgh Gazette, 5 October 1858) records the Lord Lieutenant knighting Charles Tilston Bright 'this day'. The Spectator of 11 September 1858 agrees ('on Saturday').",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Edinburgh Gazette, 5 Oct 1858 (Office of Arms, Dublin Castle, 4 Sept 1858); Spectator 11 Sept 1858; Life Story (1908) for Dublin and Eglinton"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "entry:42",
+  "severity": "error",
+  "problem": "Henry Field prints Field's dispatch as 'Thank God, the cable is laid, and is in perfect working order', and says the news reached New York only on the 29th, two days rather than one day late. The quote's wording could not be checked against the Philadelphia paper, so the wording printed in 1866/1892 is the safer one.",
+  "fix": {
+   "quote": "Thank God, the cable is laid, and is in perfect working order.",
+   "digest": "Field telegraphs New York that he arrived at nine and that the cable is laid and working. He also wires President Johnson and Secretary Seward. The cable across the Gulf of St Lawrence is still broken, so news from Heart's Content reaches New York only on Sunday the 29th. A Philadelphia paper prints the dispatches on 30 July, with Johnson's reply of the 29th."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "claim:13",
+  "severity": "error",
+  "problem": "The quote's wording differs from Henry Field's printed text. The delay was two days (27 July to 29 July in New York), not about one.",
+  "fix": {
+   "claim": "Field, Heart's Content → New York and President Johnson: 'Thank God, the cable is laid, and is in perfect working order'; it reached New York only on 29 July because the Gulf of St Lawrence cable was broken; Johnson's reply dated 29 July"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "convergence:7",
+  "severity": "error",
+  "problem": "Field's news was held up two days, not one (H. Field: reached Newfoundland on Friday the 27th, New York on the 29th).",
+  "fix": {
+   "text_replace": {
+    "old": "are held up a day by the broken Gulf cable",
+    "new": "are held up two days by the broken Gulf cable"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "entry:46",
+  "severity": "style",
+  "problem": "Henry Field quotes Cyrus Field as writing 'Saturday, the seventh of September'. That is a self-contradiction (7 September 1866 was a Friday), not simply a different date. Gooch's heading also reads Saturday.",
+  "fix": {
+   "text_replace": {
+    "old": "Henry Field dates the landing a day earlier; the weekday fixes it at the 8th.",
+    "new": "Cyrus Field, as printed by his brother, wrote 'Saturday, the seventh'; since 8 September 1866 was the Saturday and Gooch's heading also reads Saturday, the 8th is preferred."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "claim:8",
+  "severity": "error",
+  "problem": "Henry Field prints both orders as signed by the Military Secretary to the Commander-in-Chief, Horse Guards, and addressed to General Trollope at Halifax and to the officer commanding at Montreal. They were not from the War Office to 'Canada'.",
+  "fix": {
+   "text_replace": {
+    "old": "War Office, Valentia → Canada:",
+    "new": "Horse Guards (Military Secretary to the Commander-in-Chief), via Valentia → Halifax and Montreal:"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "entry:18",
+  "severity": "style",
+  "problem": "The orders went to Halifax (Nova Scotia, not then part of Canada) and to Montreal, and they came from the Horse Guards.",
+  "fix": {
+   "text_replace": {
+    "old": "the 62nd and 39th Regiments, in Canada, are not to return to England",
+    "new": "the 62nd and 39th Regiments, in British North America, are not to return to England (orders from the Horse Guards to Halifax and Montreal)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "claim:3",
+  "severity": "style",
+  "problem": "Direction muddled: in the log Newfoundland asks 'Send word Atlantic' and Valentia sends it, so the first word went Valentia → Newfoundland.",
+  "fix": {
+   "text_replace": {
+    "old": "Newfoundland → Valentia: first word read at the American end is 'Atlantic'; service message asks",
+    "new": "Valentia → Newfoundland, at Newfoundland's request: 'Atlantic', the first word read at the American end; Newfoundland's service message asks"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "entry:12",
+  "severity": "doubt",
+  "problem": "The quote comes from a Kelvin Papers manuscript (MS Kelvin A19) shown on the Glasgow exhibition page. Its wording is not in the printed Shaffner log, and no publication before 1929 was found, so it does not clearly meet the quote rule.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "claim:4",
+  "severity": "style",
+  "problem": "Wording varies between sources: Russell (1865) and the IET give 'united by telegraphic communication', and Russell misdates the message to the 18th. The sender was the Directors, logged at Valentia, not Whitehouse personally.",
+  "fix": {
+   "text_replace": {
+    "old": "opening message 'Europe and America are united by telegraph', received correctly",
+    "new": "opening message 'Europe and America are united by telegraph', received correctly (Russell 1865 and the IET give 'by telegraphic communication'; sent in the directors' name from the Valentia station Whitehouse still ran)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "entry:25",
+  "severity": "style",
+  "problem": "The IET page gives three causes (manufacturing faults, laying machinery, Whitehouse's high voltages), not two.",
+  "fix": {
+   "text_replace": {
+    "old": "blaming both damage from the laying machinery and Whitehouse's high-voltage instruments",
+    "new": "citing faults in manufacture, damage from the laying machinery and Whitehouse's high-voltage instruments"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "eye:field",
+  "severity": "error",
+  "problem": "Field was born on 30 November 1819, so he was 37 in August 1857 and 46 in July 1866.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 38 in 1857, 47 in 1866",
+    "new": "aged 37 in 1857, 46 in 1866"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "eye:russell",
+  "severity": "error",
+  "problem": "Russell was born on 28 March 1820, so he was 45 in July 1865.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 44",
+    "new": "aged 45"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "threads_out:3",
+  "severity": "doubt",
+  "problem": "No source was found for the claim that Seward's 1866 congratulations recalled Civil War neutrality; Henry Field records only routine congratulations. The Russell link (he reported the Civil War for The Times from 1861) is real and stands without it.",
+  "fix": {
+   "text_replace": {
+    "old": "; in 1866 Seward's congratulations on the cable recalled the problems of neutrality during that war.",
+    "new": ", between the failure of the first cable and his voyage on the Great Eastern."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "entry:2",
+  "severity": "doubt",
+  "problem": "The quote 'with the wheels as motionless as a rock' could not be found in the digitised Mullaly text (the scan is long and garbled). Mullaly (1858) is a pre-1929 English source, so the quote is allowed if exact, but its wording is unconfirmed.",
+  "fix": {},
+  "confidence": "approx"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "entry:13",
+  "severity": "style",
+  "problem": "Checked: the log gives 4:15 p.m. start, a 6:29 p.m. halt ('Wait repairs to cable') and completion at 6:48 a.m. on the 17th, about 14½ hours. Russell (1865) says '67 minutes in transmission, and was repeated'. The three positions are given correctly; no change needed.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cables-1858",
+  "where": "entry:33",
+  "severity": "style",
+  "problem": "Checked against Gooch's Diaries (1892): third fault 5.30 a.m., break at 1.30, 'All is over, I fear, for this year'. Also confirmed: 'not beaten, but checked' (15 Aug 1865), 'bitter disappointment' (17 Aug 1866), 'a loud report like that of a gun' (11 Aug 1865) and 'in the most perfect condition' (telegram to Lord Stanley, Sept 1866). Deane's 'It is all over; the cable has parted!' and 'broke like a carrot', Thomson's 'If one attempt fails another will succeed', the Times epigraph, Buchanan's 'bond of perpetual peace…' and Bright's 'Atlantic cable laid. Signals received both ways.' match their pre-1929 texts. No change needed.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "telephone-1876",
+  "where": "entry:44",
+  "severity": "error",
+  "problem": "American Heritage dates Wilber's four 1885 affidavits from 30 July to 7 November 1885, so the 21 October affidavit (the one he later disowned) was not the last of the four.",
+  "fix": {
+   "text_replace": {
+    "old": "In the last of four affidavits made in 1885,",
+    "new": "In one of four affidavits made between July and November 1885,"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "telephone-1876",
+  "where": "claim:8",
+  "severity": "error",
+  "problem": "The Boston Advertiser report, reprinted in Watson's 1913 address, and Watson himself put the Boston–Cambridgeport conversation on the evening of 9 October 1876, not the afternoon.",
+  "fix": {
+   "text_replace": {
+    "old": "over a private telegraph wire, afternoon:",
+    "new": "over a private telegraph wire, evening:"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "telephone-1876",
+  "where": "entry:29",
+  "severity": "style",
+  "problem": "The parallel written records were printed in the Boston Advertiser and reprinted in Watson's 1913 address ('Boston Record' and 'Cambridgeport Record'), so the publication can be confirmed.",
+  "fix": {
+   "source_note": "HMdb marker (date and place); Boston Advertiser report of the evening of 9 Oct 1876 with the parallel Boston and Cambridgeport records, reprinted in Watson, The Birth and Babyhood of the Telephone (address of 17 Oct 1913); Watson's later memoir"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "telephone-1876",
+  "where": "entry:32",
+  "severity": "error",
+  "problem": "Watson's $100,000 figure and the phrase 'somewhat contemptuously' already appear in his address of 17 October 1913, printed as The Birth and Babyhood of the Telephone, not only in a 1915 recollection.",
+  "fix": {
+   "digest": "In his 1913 address to the Telephone Pioneers, Watson put a price on the offer, $100,000 for all the Bell patents, and said the president of Western Union refused it somewhat contemptuously. His figure is the only source for the amount.",
+   "source_note": "Watson, The Birth and Babyhood of the Telephone (address of 17 Oct 1913); later account."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "telephone-1876",
+  "where": "claim:9",
+  "severity": "style",
+  "problem": "The evidence should cite Watson's 1913 address, the earliest printed source for the $100,000 figure.",
+  "fix": {
+   "text_replace": {
+    "old": "Watson 1915 recollection",
+    "new": "Watson's 1913 address (The Birth and Babyhood of the Telephone)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "telephone-1876",
+  "where": "entry:19",
+  "severity": "doubt",
+  "problem": "Watson's 1913 address tells the 10 March moment, as an evening, with no accident. Whatever the 1926 memoir says, the spilled-acid detail is at least absent from his earlier account.",
+  "fix": {
+   "text_replace": {
+    "old": "His memoir makes it a cry for help over spilled acid; Bell's notebook mentions no accident,",
+    "new": "His 1926 memoir makes it a cry for help over spilled acid; his 1913 address and Bell's notebook mention no accident,"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "telephone-1876",
+  "where": "entry:22",
+  "severity": "error",
+  "problem": "The digest is not quite what the source reports. Revista Pesquisa FAPESP says the emperor wrote that the telephone did not work perfectly, but that two people could read two telegrams he sent at the same time, one of them barely.",
+  "fix": {
+   "text_replace": {
+    "old": "it had not given a perfect result, though two people had read through it.",
+    "new": "it had not worked perfectly, though two people had managed to read two telegrams he sent at the same time, one of them barely (as summarised by Revista Pesquisa FAPESP)."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "telephone-1876",
+  "where": "entry:16",
+  "severity": "doubt",
+  "problem": "The date of the liquid-transmitter sketch is given as 8 March in some sources and 9 March in others (the Wikipedia article itself gives both), so 'verified' overstates it.",
+  "fix": {
+   "confidence": "approx",
+   "date_display": "Wednesday 8 March 1876 (some sources: 9 March)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "telephone-1876",
+  "where": "entry:18",
+  "severity": "style",
+  "problem": "The transcribed letter says George Brown had given up the venture as unable to succeed commercially in England; it does not mention a British patent plan.",
+  "fix": {
+   "text_replace": {
+    "old": "that his partner George Brown had dropped the British patent plan",
+    "new": "that his partner George Brown had given up the venture, judging it could not pay in England"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "telephone-1876",
+  "where": "entry:42",
+  "severity": "doubt",
+  "problem": "The quote comes from a modern website that cites no edition of the Queen's journal, and no publication of this entry before 1929 was found. Under the quote rule it should go unless a pre-1929 printing is confirmed.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "telephone-1876",
+  "where": "claim:13",
+  "severity": "doubt",
+  "problem": "Same issue as entry 42: the quoted journal phrases have no confirmed pre-1929 printing.",
+  "fix": {
+   "text_replace": {
+    "old": "'most extraordinary' but 'rather faint'",
+    "new": "most extraordinary but rather faint (her journal, digested)"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "telephone-1876",
+  "where": "image:3",
+  "severity": "error",
+  "problem": "The caption overstates. The Science Museum Group says the cable was recovered in 1977 and is believed to be part of the January 1878 link between Cowes, Osborne Cottage and Osborne House, and that the Cowes line failed during the demonstration while the Osborne Cottage line worked.",
+  "fix": {
+   "caption": "A short length of submarine cable from the River Medina, recovered in 1977 and believed to be part of the telephone link laid in January 1878 between Cowes, Osborne Cottage and Osborne House for Bell's demonstration to the Queen. The museum notes that the Cowes line failed on the night while the Osborne Cottage line worked."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "telephone-1876",
+  "where": "entry:26",
+  "severity": "style",
+  "problem": "The Brantford speaker can be named: Alexander Melville Bell spoke, recited and read from the Dominion Telegraph office in Brantford (Historic Places Days / Dominion Telegraph office site). The Paris office was in Robert White's boot and shoe store, as the entry says.",
+  "fix": {
+   "source_note": "Canada's History; Parks Canada; Historic Places Days (Dominion Telegraph Company office: Robert White's boot and shoe store, ~13 km line, one way, Alexander Melville Bell speaking at Brantford); The Henry Ford."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "telephone-1876",
+  "where": "eye:thomson",
+  "severity": "style",
+  "problem": "Thomson was born on 26 June 1824, so he was 51 on the judges' day (25 June 1876) and 52 by the September address.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 52;",
+    "new": "aged 51–52;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "telephone-1876",
+  "where": "entry:18",
+  "severity": "doubt",
+  "problem": "The quote 'Articulate speech was transmitted intelligibly this afternoon.' matches the letter as transcribed (Letters of Note, from LoC magbell.00500211). It is an unpublished family letter, and its first printing before 1929 could not be confirmed.",
+  "fix": {},
+  "confidence": "approx"
+ },
+ {
+  "chapter": "telephone-1876",
+  "where": "claim:2",
+  "severity": "style",
+  "problem": "Checked: American Heritage confirms Bell's specification was entered in the morning of 14 February, hours before Gray's caveat, which was submitted late in the day. Position B (Evenson, Shulman) is correctly framed as a position. 174,465 issued 7 March 1876, 22 days after filing. H.Res. 269 was agreed to on 11 June 2002 (GovInfo) with the 28 Dec 1871 caveat, the $10 fee and the moot 1887 suit as stated. Wilber's affidavit of 8 April 1886 and the Washington Post printing of 22 May 1886 are confirmed. The Western Union memo (Levine, 1968) and 'My God, it talks!' are correctly flagged as legends, and Dom Pedro's diary is digested only. No change needed.",
+  "fix": {},
+  "confidence": "verified"
+ }
+]

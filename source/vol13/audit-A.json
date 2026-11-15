@@ -1,0 +1,453 @@
+[
+ {
+  "chapter": "chappe-1794",
+  "where": "entry:0",
+  "severity": "error",
+  "problem": "The quote is French, from Ignace Chappe's 1824 memoir. The quote rule admits only English originals published before 1929 or world-famous phrases, and the wording also rests on the later family account, not on the procès-verbaux.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "entry:25",
+  "severity": "error",
+  "problem": "'Condé est restitué à la République' is a French original, which the quote rule does not admit. It is short and accurate to AP t. XCVI p. 111, but the digest already conveys it.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "claim:4",
+  "severity": "error",
+  "problem": "The claim quotes an English wording of the Le Quesnoy message ('3,000 slaves... surrendered at discretion') taken from a 2005 secondary work (Rogers via Selin). No cited pre-1929 English source gives that text, so it must be digested. Barère's printed speech (AP t. XCV, 30 thermidor) also reads, in noisy OCR, 'une heure après que la garnison y est entrée' (an hour after the garrison entered), not 'left'.",
+  "fix": {
+   "text_replace": {
+    "old": "Barère says it arrived 'one hour' after the garrison left. The coded text is not in the proceedings, and the English wording ('3,000 slaves... surrendered at discretion') comes from later histories.",
+    "new": "Barère says it arrived about an hour after the town was taken over (the OCR of his phrase is noisy). The coded text is not in the proceedings. Later English histories give a wording about some 3,000 men surrendering at discretion, but no contemporary text of the signal has been found."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "entry:18",
+  "severity": "doubt",
+  "problem": "The digest puts the later English wording of the message in quotation marks ('slaves') as if it were the signal's text. The exact text is not in any cited contemporary source, so it should be described rather than quoted.",
+  "fix": {
+   "text_replace": {
+    "old": "English histories give a version about 3,000 'slaves' surrendering at discretion.",
+    "new": "Later English histories give a wording in which some 3,000 enemy soldiers surrender at discretion, but no contemporary text of the signal is cited."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "entry:21",
+  "severity": "doubt",
+  "problem": "Barère's phrase in AP t. XCV (30 thermidor), as the OCR reads, is that the news came an hour after the garrison 'y est entrée' (entered the town, i.e. the Republic's troops), not after the Austrian garrison left. The speech also seems to say the news came 'two days ago', which places its arrival in Paris on 28 thermidor (15 August). The OCR is noisy, so the fix is neutral.",
+  "fix": {
+   "text_replace": {
+    "old": "the news reached Paris an hour after the garrison left the town",
+    "new": "the news had reached Paris, two days before, about an hour after the town was taken over"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "intro:3",
+  "severity": "doubt",
+  "problem": "As in entry 21, the printed speech (noisy OCR) dates the arrival 'two days' earlier and measures the hour from the troops' entry into the town, not from the garrison's marching out.",
+  "fix": {
+   "text_replace": {
+    "old": "it said only that the news had reached Paris an hour after the garrison marched out.",
+    "new": "it said only that the news had reached Paris two days earlier, about an hour after the town was taken over (the OCR of the passage is noisy)."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "entry:19",
+  "severity": "doubt",
+  "problem": "Barère's 30 thermidor speech appears to say the telegraph news came two days earlier. That supports receipt in Paris on 15 August, although it still does not show who announced it to the Convention that day. Worth stating in the digest.",
+  "fix": {
+   "text_replace": {
+    "old": "Whether a short same-day announcement preceded it is left open.",
+    "new": "Barère's speech of 30 thermidor appears to say the news had arrived two days before, which supports receipt in Paris on the 15th. Whether a short same-day announcement to the Convention preceded the formal report is left open."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "entry:25",
+  "severity": "style",
+  "problem": "The source phrase (AP t. XCVI p. 111) is 'qui nous arrive à l'instant' (just reaching us). 'Just arrived' is a fair paraphrase, but the single quotation marks around it suggest a direct quote of an English text.",
+  "fix": {
+   "text_replace": {
+    "old": "holding the report that has 'just arrived' by telegraph",
+    "new": "holding the telegraph's report, which he says has reached the Committee that very moment,"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "entry:37",
+  "severity": "error",
+  "problem": "Hutton's Mathematical and Philosophical Dictionary is in two volumes, and its title page is dated 1796. The 'Telegraph' article, which says the device has now been adopted in England, belongs to 1796, not 1795.",
+  "fix": {
+   "date_iso": "1796-01-01",
+   "date_display": "1796 (title-page date of Hutton's two-volume dictionary)",
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "eye:ignace-chappe",
+  "severity": "doubt",
+  "problem": "Ignace Chappe died in 1829, so the 1840 two-volume edition is posthumous. The sources consulted do not confirm that Abraham Chappe was co-author or editor. Linda Hall Library confirms the birth date of 26 November 1762 and the 1824 first edition.",
+  "fix": {
+   "text_replace": {
+    "old": "with a two-volume edition in 1840 (with Abraham Chappe)",
+    "new": "with an expanded two-volume edition published after his death, in 1840"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "entry:34",
+  "severity": "doubt",
+  "problem": "The English Wikipedia account of Edelcrantz gives a third sending point, the Palace in Stockholm, and describes the message as a poem for the king's birthday. It also does not say that the 1794 trial used the ten-shutter frame, which is the form Edelcrantz described in print in 1796. The 1 November date (Gustav IV Adolf's birthday) is well supported.",
+  "fix": {
+   "text_replace": {
+    "old": "His machine is not Chappe's: it is a frame of shutters whose open and closed patterns stand for numbers in a code book. The record has two different dates and two Stockholm sending posts.",
+    "new": "His system, in the form he described in print in 1796, is not Chappe's: it is a frame of shutters whose open and closed patterns stand for numbers in a code book. The accounts give two dates and different Stockholm sending posts (the Katarina church tower, or the royal palace), and one describes the greeting as a poem."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "eye:edelcrantz",
+  "severity": "doubt",
+  "problem": "The authenticity note gives two positions on the sending station. Wikipedia's account adds a third, the royal palace in Stockholm.",
+  "fix": {
+   "text_replace": {
+    "old": "and a Swedish military-history article says 30 October from the Katarina church tower.",
+    "new": "a Swedish military-history article says 30 October from the Katarina church tower, and other accounts name the royal palace in Stockholm."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "image:2",
+  "severity": "style",
+  "problem": "The model shows the ten-shutter design that Edelcrantz published in 1796. It is not clear that the 1794 birthday trial used this exact form.",
+  "fix": {
+   "text_replace": {
+    "old": "It was first demonstrated for Gustav IV Adolf's birthday in 1794.",
+    "new": "Edelcrantz's first public trial, in an early form of the system, was a greeting for Gustav IV Adolf's birthday in 1794."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "entry:41",
+  "severity": "style",
+  "problem": "Checked: Hardy (Archaeologia Cantiana 44) gives 'By June, 1796, this line was finished', the Admiralty roof installation in February 1796 and the Roebuck contract in 1795. The entries match. No change.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "threads_out:3",
+  "severity": "style",
+  "problem": "Checked: Hardy states that after the Peace of 1814 the London–Deal and Sheerness line was ordered discontinued, and that 'five months later Napoleon escaped' and its re-establishment was ordered. The link holds. No change.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "entry:13",
+  "severity": "style",
+  "problem": "The headline is garbled ('the man who named the telegraph's sponsor'). Romme was himself the telegraph's first sponsor in the Convention.",
+  "fix": {
+   "headline": "The telegraph's first sponsor reforms the calendar"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "entry:28",
+  "severity": "style",
+  "problem": "Condé (Nord-Libre) is about 45 km from Lille in a straight line, so 'about 50 kilometres' is generous but tolerable. The phrasing could be softened.",
+  "fix": {
+   "text_replace": {
+    "old": "about 50 kilometres away",
+    "new": "some 45–50 kilometres away"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "claim:5",
+  "severity": "style",
+  "problem": "'Le Quesnoy est à la République' is a short French original, not an English text. It is acceptable in the message log only as a digest. Rendering it in English keeps the log consistent with the quote rule.",
+  "fix": {
+   "text_replace": {
+    "old": "'Le Quesnoy est à la République'",
+    "new": "Le Quesnoy belongs to the Republic"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "chappe-1794",
+  "where": "calendar_note:0",
+  "severity": "style",
+  "problem": "Checked all Republican conversions (12 germinal, 24 messidor, 7 and 17 thermidor an I; 15 and 29 messidor, 28 and 30 thermidor, 4, 10, 13 and 15 fructidor an II; 9 and 11 brumaire, 7 pluviôse an III) and all weekday names. All are correct. The note's statement about the Swedish trial should acknowledge that sources also differ on the place.",
+  "fix": {
+   "text_replace": {
+    "old": "Two sources give different dates for the Swedish trial, 30 October and 1 November 1794 (9 and 11 brumaire an III).",
+    "new": "Sources give different dates for the Swedish trial, 30 October and 1 November 1794 (9 and 11 brumaire an III), and different Stockholm sending posts."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "entry:29",
+  "severity": "error",
+  "problem": "The US Senate Historical Office ('Morse's Telegraph in the Capitol') says that no documentation shows Morse moving to the Old Supreme Court Chamber. His equipment was in a room at the north end of the Senate wing, the most likely site, and the Supreme Court chamber attribution comes from later accounts and a 1944 plaque. The place should be presented as positions.",
+  "fix": {
+   "place": "US Capitol: by tradition (and a 1944 plaque) the Supreme Court chamber; the Senate Historical Office thinks Morse's room at the north end of the Senate wing more likely"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "claim:7",
+  "severity": "error",
+  "problem": "The sending room is disputed (see entry 29). The claim states the Supreme Court chamber as fact.",
+  "fix": {
+   "text_replace": {
+    "old": "Morse, Supreme Court chamber, Capitol → Vail, Baltimore depot, and back",
+    "new": "Morse, US Capitol (traditionally the Supreme Court chamber; the Senate Historical Office thinks a room at the north end of the Senate wing more likely) → Vail, Baltimore railroad depot, and back"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "entry:30",
+  "severity": "doubt",
+  "problem": "The Baltimore receiving point is disputed. Morse's report (House Doc. 270, as the chapter cites it) gives the Pratt Street depot. Popular accounts, for example HistoryNet, say Mount Clare station, but the present Mount Clare station building dates from 1851 (B&O Railroad Museum). Present both as positions.",
+  "fix": {
+   "text_replace": {
+    "old": "Morse's own report of 3 June gives the Baltimore terminal as the railroad depot on Pratt Street.",
+    "new": "Morse's own report of 3 June gives the Baltimore terminal as the railroad depot on Pratt Street. Many later accounts say Mount Clare station instead, although the surviving Mount Clare station building dates from 1851."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "entry:33",
+  "severity": "error",
+  "problem": "The day-by-day convention record (Jacksonian America, consistent with the convention's 27–30 May dates) places Polk's ninth-ballot nomination, Wright's first-ballot vice-presidential nomination and his two telegraphed refusals all on Wednesday 29 May 1844. The 27 May date attributed to Calvert is the convention's opening day and is unsupported.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Jacksonian America, 'The 1844 Democratic National Convention' (Polk and Wright nominated, Wright declining twice by telegraph, on 29 May; letter received 30 May); convention dates 27–30 May. A 27 May date sometimes given for the nomination is the convention's opening day."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "claim:10",
+  "severity": "doubt",
+  "problem": "As entry 33: the 29 May date is solid. The evidence note should not imply a real conflict over the day.",
+  "fix": {
+   "evidence": "Jacksonian America (Wright nominated and declining twice by telegraph on 29 May; letter read the morning of 30 May; Dallas chosen on the third vice-presidential ballot)",
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "entry:34",
+  "severity": "error",
+  "problem": "The Mangum phrase comes from a letter to Priestly H. Mangum dated 29 May 1844, printed in Shanks, ed., Papers of Willie Person Mangum, vol. IV (1955), as the Senate Historical Office cites it. The text was first published after 1928 and is not a US-government record, so it cannot be quoted. The date can, however, be made exact.",
+  "fix": {
+   "date_display": "Wednesday 29 May 1844 (letter to Priestly H. Mangum)",
+   "precision": "day",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "US Senate Historical Office, 'Morse's Telegraph in the Capitol', citing Mangum to Priestly H. Mangum, 29 May 1844, Papers of Willie Person Mangum, vol. IV (1955), pp. 127–28.",
+   "digest": "Mangum, the Senate's president pro tempore and an opponent of the convention's party, joined the crowd at Morse's room for the Baltimore news. Writing home that day, he called the result a miracle of science. Politicians of both parties were learning to follow their rivals in near real time."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "eye:mangum",
+  "severity": "doubt",
+  "problem": "The authenticity note says the letter's date is not given. The Senate Historical Office gives it: 29 May 1844, to Priestly H. Mangum, in the 1955 edition.",
+  "fix": {
+   "text_replace": {
+    "old": "The phrase cited here is quoted by the US Senate Historical Office; the exact date of the letter is not given there.",
+    "new": "The letter used here, to Priestly H. Mangum, dated 29 May 1844, is printed in Henry T. Shanks, ed., The Papers of Willie Person Mangum, vol. IV (1955), and cited by the US Senate Historical Office."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "entry:18",
+  "severity": "doubt",
+  "problem": "Morse's dated letters of 3 March 1843 report the Senate's passage, while his later recollection (and Letters and Journals' narrative) has him going to bed on 3 March expecting failure and hearing the news from Annie Ellsworth next morning. The digest blends the two as fact. It should set them side by side.",
+  "fix": {
+   "text_replace": {
+    "old": "He had gone home believing it would fail in the end-of-session crush and seems not to have known that the President had signed it at midnight.",
+    "new": "His later recollection, that he went to bed that night expecting failure and learned the news only the next morning, sits uneasily with these dated letters. The President signed the act before the session closed."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "entry:17",
+  "severity": "style",
+  "problem": "Checked against Letters and Journals vol. II: to Sidney, 23 Feb 1843, 'my bill has passed the House by a vote of 89 to 80'; a later letter to Smith gives eighty-nine to eighty-three. The Library of Congress gives 89 to 83, with 70 not voting. The entry is correct. Adding the not-voting figure helps.",
+  "fix": {
+   "text_replace": {
+    "old": "Many members did not vote.",
+    "new": "Seventy members did not vote, according to the Library of Congress."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "claim:4",
+  "severity": "style",
+  "problem": "Checked: the Library of Congress gives 89–83 with 70 not voting on 23 February 1843.",
+  "fix": {
+   "text_replace": {
+    "old": "many members not voting",
+    "new": "70 members not voting (Library of Congress)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "entry:3",
+  "severity": "doubt",
+  "problem": "The patent date is reported variously. The IET and Grace's Guide (Cooke obituary) say the joint patent was taken out in May 1837. King's College London and the Science Museum say June, and 10 June and 12 June are both cited as the sealing date. Month precision and approx are right, and the display should list the positions.",
+  "fix": {
+   "date_display": "June 1837 (patent No. 7390; usually dated 10 June, ETHW gives 12 June, and Cooke's obituary says May)",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "entry:1",
+  "severity": "doubt",
+  "problem": "The quote comes from Cooke's private letter of 27 February 1837, cited from the IET manuscripts by the Science Museum Group Journal. It is not shown that this sentence appeared in a pre-1929 printing (Clark's 1895 Extracts may or may not include it). Remove unless that printing is confirmed.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "entry:42",
+  "severity": "doubt",
+  "problem": "Letters and Journals has Morse in suspense 'waiting the passage of the bill for the extension of the Telegraph to New York' (8 Feb 1845, to Mrs Lind). That bill is not the same as the $8,000 maintenance appropriation.",
+  "fix": {
+   "text_replace": {
+    "old": "over the bill to extend the line and keep it running",
+    "new": "over a bill to extend the telegraph to New York"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "entry:26",
+  "severity": "style",
+  "problem": "Checked: 'A brighter day is dawning upon me' is in Letters and Journals vol. II under 10 April 1844. The other Morse quotes ('Vail only remains true at his post', 'two minutes and one second', 'divinely indited', 'an efficient mechanical assistant', 'The advantage of recording is incalculable', 'I am still waiting, waiting', 'the clouds begin to break away', 'without division and without opposition', 'I have come to congratulate you') are all found in the 1914 edition. No change.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "threads_out:0",
+  "severity": "error",
+  "problem": "The link rests on an unverified claim: no source shows a French optical-telegraph proposal spurring Morse in 1842. The verifiable Chappe link is the House resolution of February 1837. It asked the Treasury Secretary, Levi Woodbury, to report on a system of telegraphs for the United States, and most respondents assumed an optical system of the Chappe kind. Morse alone proposed an electric one.",
+  "fix": {
+   "text_replace": {
+    "old": "Morse's 1842 renewed push in Congress was spurred partly by news of a French proposal for an optical telegraph system.",
+    "new": "In February 1837 the House asked the Treasury Secretary, Levi Woodbury, to report on a system of telegraphs for the United States. Nearly all the replies assumed an optical system of the Chappe kind, and Morse's alone proposed an electric one."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "entry:49",
+  "severity": "doubt",
+  "problem": "'Historians now generally see...' is a verdict on a priority dispute. Attribute it to the source the chapter actually uses.",
+  "fix": {
+   "text_replace": {
+    "old": "Historians now generally see Henry as the source of the principles and Morse as the man who made a working system and a business.",
+    "new": "In David Hochfelder's Smithsonian account, Henry supplied the principles and Morse made a working system and a business; Morse and his supporters had argued that the practical system was the invention."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "image:0",
+  "severity": "style",
+  "problem": "The Library of Congress gives the tape's text as 'What hath God wrought?' with a question mark, while entry 29's quote uses the KJV exclamation mark. Both forms occur; note the difference for consistency.",
+  "fix": {
+   "text_replace": {
+    "old": "embossed with the dots and dashes of 'What hath God wrought?',",
+    "new": "embossed with the dots and dashes of 'What hath God wrought?' (the Bible verse ends with an exclamation mark, Morse's transcription with a question mark),"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "entry:43",
+  "severity": "style",
+  "problem": "Checked: the British Transport Police history gives the trial opening on 12 March 1845 at Aylesbury before Baron Parke, Fitzroy Kelly for the defence, and the execution at 8 a.m. on Friday 28 March 1845 before about 10,000 people. The 1 January message and 2 January arrest by Williams and Inspector Wiggins are also confirmed. The date can be marked verified.",
+  "fix": {
+   "date_display": "From Wednesday 12 March 1845 (trial opens)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "morse-1844",
+  "where": "entry:44",
+  "severity": "style",
+  "problem": "The execution entry is accurate and suitably sober. The British Transport Police page confirms the date, hour and crowd figure. No change.",
+  "fix": {},
+  "confidence": "verified"
+ }
+]

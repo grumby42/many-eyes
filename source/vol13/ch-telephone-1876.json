@@ -1,0 +1,1418 @@
+{
+ "id": "telephone-1876",
+ "title": "Mr. Watson, Come Here: The Telephone and Its Rivals",
+ "short_title": "The Telephone, 1876",
+ "subtitle": "Boston, Washington, Philadelphia, Brantford and Menlo Park, 1875–1878",
+ "span": "1871–1878 (coda 1886–2002)",
+ "intro": [
+  "On a Monday in February 1876 two documents describing a way to send the human voice down a wire reached the United States Patent Office in Washington within hours of each other. One was Alexander Graham Bell's patent application, pushed through by his backer Gardiner Hubbard; the other was a caveat from Elisha Gray of Chicago. Four weeks later Bell held patent 174,465, and three days after that, in a Boston lodging house, his assistant Thomas Watson heard a sentence come out of the receiver.",
+  "This chapter follows the message in transit at every scale: the first words passed between two rooms, Shakespeare recited to an emperor and a cable engineer at the Centennial Exhibition, songs sent one way over thirteen kilometres of Ontario telegraph wire, the first real two-way conversation across the Charles River, and finally a queen holding the tube to her ear at Osborne. Each call is laid against the notebook, letter or diary that recorded it.",
+  "The other message in transit is the patent itself, and the paperwork about it. Who filed first, who saw what in the examiner's office, and whether Bell's crucial passage on variable resistance was there from the start were fought over for a decade. The record here is honest about its kind: Bell's laboratory notebook and letters are near-contemporary; Gray's letters were preserved as legal exhibits; Watson's lively memoir (1926) and the examiner Zenas Wilber's contradictory affidavits (1885 and 1886) are later, and are flagged as such. Positions are given with their evidence, not resolved.",
+  "Around the two principals stand the rivals and witnesses: Thomas Edison at Menlo Park, whose carbon transmitter of 1877 made the telephone loud enough to use; Antonio Meucci on Staten Island, whose lapsed caveat of 1871 the US House of Representatives chose to honour in 2002; Dom Pedro II, whose own diary is cooler than the legend; and Mabel Hubbard, the deaf young woman to whom many of the inventor's letters were written. Two famous stories are flagged as legends: the 'My God, it talks!' exclamation, and the Western Union memo dismissing the telephone, which first appeared in 1968.",
+  "Most of the record is letters, notebooks, legal papers and official actions rather than diaries in the strict sense; only the emperor and the queen kept true journals here. That mix is itself the point: an invention born in a patent race leaves its trace in documents written to be read by rivals, examiners and judges."
+ ],
+ "calendar_note": "All dates are Gregorian. Times are local mean time, since standard railway time zones in North America came only in November 1883; Boston, Philadelphia and Brantford times in the sources are local. The Queen's demonstration began about 9.30 p.m. local time at Osborne.",
+ "eyes": [
+  {
+   "id": "bell",
+   "short": "Bell",
+   "name": "Alexander Graham Bell",
+   "life": "1847–1922",
+   "role": "Teacher of the deaf and professor of vocal physiology at Boston University, aged 28–30; experimenting at night on a 'harmonic' multiple telegraph and, increasingly, on speech",
+   "side": "Boston; backed by Gardiner Hubbard and Thomas Sanders",
+   "where": "Boston (5 Exeter Place lodgings and laboratory); Washington in Feb–Mar 1876; Philadelphia in June; Brantford, Ontario in August; England from August 1877",
+   "lat": 42.352,
+   "lon": -71.061,
+   "waypoints": [
+    {
+     "lat": 42.352,
+     "lon": -71.061,
+     "label": "Boston, Exeter Place lab 1876"
+    },
+    {
+     "lat": 38.8977,
+     "lon": -77.023,
+     "label": "Washington, Patent Office, Feb–Mar 1876"
+    },
+    {
+     "lat": 39.979,
+     "lon": -75.209,
+     "label": "Centennial Exhibition, 25 June 1876"
+    },
+    {
+     "lat": 43.12,
+     "lon": -80.27,
+     "label": "Tutela Heights, Brantford, Aug 1876"
+    },
+    {
+     "lat": 43.193,
+     "lon": -80.383,
+     "label": "Paris, Ontario, 10 Aug 1876"
+    },
+    {
+     "lat": 50.752,
+     "lon": -1.271,
+     "label": "Osborne, Isle of Wight, 14 Jan 1878"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the patentee speaking into the mouthpiece",
+   "form": "laboratory notebook and dated letters",
+   "language": "English",
+   "authenticity": "The experimental notebook of 1875–76 and his letters to his parents and to Mabel Hubbard survive in the Alexander Graham Bell Family Papers, Library of Congress, digitised online. The notebook entries were scrutinised in years of patent litigation; critics (Evenson 2000, Shulman 2008) read the 8 March 1876 sketch as derived from Gray's caveat, defenders point to earlier sketches of the same style. Bell's later sworn testimony is a separate, retrospective layer.",
+   "bio": "A Scottish-born elocutionist's son who came to electricity through the physiology of speech, not through telegraph shops. His notebooks are the nearest thing in this chapter to a diary of the instrument itself, and his letters home show a man by turns elated and afraid of being thought a crank. He was also the party with most to gain from how every date was recorded.",
+   "sources": [
+    {
+     "title": "Bell's Experimental Notebook, 10 March 1876 (LoC American Memory page, archived)",
+     "url": "https://webarchive.library.unt.edu/eot2008/20090812232405/http://memory.loc.gov/ammem/bellhtml/bell1.html"
+    },
+    {
+     "title": "Bell to Alexander Melville Bell, 10 March 1876 (Library of Congress)",
+     "url": "https://www.loc.gov/item/magbell.00500211/"
+    },
+    {
+     "title": "Alexander Graham Bell Family Papers (Library of Congress finding aid)",
+     "url": "https://findingaids.loc.gov/repositories/19/resources/2319"
+    },
+    {
+     "title": "Alexander Graham Bell Papers: collection highlights (Library of Congress)",
+     "url": "https://www.loc.gov/collections/alexander-graham-bell-papers/articles-and-essays/collection-highlights/"
+    }
+   ]
+  },
+  {
+   "id": "watson",
+   "short": "Watson",
+   "name": "Thomas Augustus Watson",
+   "life": "1854–1934",
+   "role": "Machinist, aged 21–23, at Charles Williams's electrical shop, 109 Court Street, Boston; Bell's paid assistant, later a shareholder",
+   "side": "Boston; Bell's camp",
+   "where": "The next room at Exeter Place on 10 March 1876; the Walworth factory at Cambridgeport on 9 October 1876",
+   "lat": 42.363,
+   "lon": -71.104,
+   "waypoints": [
+    {
+     "lat": 42.36,
+     "lon": -71.059,
+     "label": "Williams's shop, Court Street, 1875"
+    },
+    {
+     "lat": 42.352,
+     "lon": -71.061,
+     "label": "Exeter Place, 10 Mar 1876"
+    },
+    {
+     "lat": 42.363,
+     "lon": -71.104,
+     "label": "Cambridgeport, 9 Oct 1876"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the man at the receiving end",
+   "form": "memoir (written later) and dated letters",
+   "language": "English",
+   "authenticity": "Watson's vivid accounts come from a 1913 address and his autobiography 'Exploring Life' (1926), written fifty years after the events and shaped by decades of company celebration; they are a later account and are flagged as such. His 1878 letters to Bell survive in the Bell Family Papers (LoC).",
+   "bio": "The listener: the first person to hear intelligible speech come out of Bell's receiver, and the hands that built the instruments. His memoir supplies the sounds, smells and jokes of the lab that the notebook omits, but it is memory, not a log.",
+   "sources": [
+    {
+     "title": "Alexander Graham Bell Papers: collection highlights (Library of Congress)",
+     "url": "https://www.loc.gov/collections/alexander-graham-bell-papers/articles-and-essays/collection-highlights/"
+    },
+    {
+     "title": "First Long-Distance Phone Call marker, Cambridge MA (HMdb)",
+     "url": "https://hmdb.org/m.asp?m=49766"
+    }
+   ]
+  },
+  {
+   "id": "gray",
+   "short": "Gray",
+   "name": "Elisha Gray",
+   "life": "1835–1901",
+   "role": "Electrical inventor, aged 40–42, co-founder of Western Electric (Gray & Barton), working on multiple 'harmonic' telegraphy for Western Union interests",
+   "side": "Chicago; the Western Union orbit",
+   "where": "Chicago and Highland Park, Illinois; caveat filed by his attorney in Washington; exhibitor at Philadelphia in June 1876",
+   "lat": 41.88,
+   "lon": -87.63,
+   "waypoints": [
+    {
+     "lat": 41.88,
+     "lon": -87.63,
+     "label": "Chicago, Feb 1876"
+    },
+    {
+     "lat": 38.8977,
+     "lon": -77.023,
+     "label": "Caveat filed, Washington, 14 Feb 1876"
+    },
+    {
+     "lat": 39.979,
+     "lon": -75.209,
+     "label": "Centennial, June 1876"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the rival who filed the same day",
+   "form": "patent caveat, dated letters and later sworn testimony",
+   "language": "English",
+   "authenticity": "Gray's caveat of 14 February 1876 is a Patent Office record; his letters to his attorney (October 1875), to others (November 1876) and to Bell (March 1877) were entered as evidence in the telephone litigation. Readings of them are partisan in both directions; both are given here as positions.",
+   "bio": "A far more experienced electrician than Bell, who sketched a liquid transmitter on 11 February 1876 and had a caveat on file the same day as Bell's application. His letters record both his early dismissal of speech transmission as a scientific toy and his later conviction that he had been wronged.",
+   "sources": [
+    {
+     "title": "Elisha Gray and Alexander Bell telephone controversy (Wikipedia, with citations to court records)",
+     "url": "https://en.wikipedia.org/wiki/Elisha_Gray_and_Alexander_Bell_telephone_controversy"
+    },
+    {
+     "title": "Did Bell Steal the Telephone? (American Heritage)",
+     "url": "https://www.americanheritage.com/did-bell-steal-telephone"
+    },
+    {
+     "title": "The Telephone Cases, 126 U.S. 1 (1888), United States Reports vol. 126",
+     "url": "https://www.supremecourt.gov/pdfs/USReports/USREPORTS-126_PDFA.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hubbard",
+   "short": "Hubbard",
+   "name": "Gardiner Greene Hubbard",
+   "life": "1822–1897",
+   "role": "Boston lawyer and promoter, aged 53–55; president of the Clarke School for the Deaf; Bell's financial backer and future father-in-law",
+   "side": "Boston–Cambridge; Bell's backers",
+   "where": "Cambridge, Massachusetts; directing the patent filing in Washington",
+   "lat": 42.377,
+   "lon": -71.124,
+   "waypoints": [
+    {
+     "lat": 42.377,
+     "lon": -71.124,
+     "label": "Cambridge, Brattle Street"
+    },
+    {
+     "lat": 38.8977,
+     "lon": -77.023,
+     "label": "Patent filing, 14 Feb 1876"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the backer who sent the application",
+   "form": "dated letters and business records",
+   "language": "English",
+   "authenticity": "Hubbard's correspondence with Bell is in the Bell Family Papers (LoC). His offer of the patent to Western Union is known only from later recollections (Watson, Depew), not from a dated document.",
+   "bio": "A lobbyist against the Western Union telegraph monopoly who saw in Bell's harmonic telegraph a weapon, and in the telephone a business. He timed the filing, organised the first company, and later had the dealings with William Orton that turned into legend.",
+   "sources": [
+    {
+     "title": "Alexander Graham Bell Family Papers (Library of Congress finding aid)",
+     "url": "https://findingaids.loc.gov/repositories/19/resources/2319"
+    },
+    {
+     "title": "Did Bell Steal the Telephone? (American Heritage)",
+     "url": "https://www.americanheritage.com/did-bell-steal-telephone"
+    },
+    {
+     "title": "True Stuff: Alexander Graham Bell vs. Western Union (Wondermark, on the memo's origin)",
+     "url": "https://wondermark.com/?p=10896"
+    }
+   ]
+  },
+  {
+   "id": "mabel",
+   "short": "Mabel Hubbard",
+   "name": "Mabel Gardiner Hubbard (Mabel Hubbard Bell)",
+   "life": "1857–1923",
+   "role": "Gardiner Hubbard's daughter, aged 17–20, deaf since scarlet fever at five; Bell's former pupil, engaged to him in November 1875",
+   "side": "Cambridge, Massachusetts; the Hubbard household",
+   "where": "Cambridge and Boston; with Bell in England after July 1877",
+   "lat": 42.377,
+   "lon": -71.124,
+   "waypoints": [
+    {
+     "lat": 42.377,
+     "lon": -71.124,
+     "label": "Cambridge 1875–77"
+    },
+    {
+     "lat": 50.752,
+     "lon": -1.271,
+     "label": "England 1877–78"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "the fiancée the letters were written to",
+   "form": "dated letters (sent and received)",
+   "language": "English",
+   "authenticity": "Letters between Bell and Mabel, and from Mabel to Bell's mother Eliza Symonds Bell, survive in the Bell Family Papers (LoC). Some of the best-known episodes (the station send-off to Philadelphia) reach us through later family recollection and Bell's biographers.",
+   "bio": "She read speech from lips, so the telephone was never a device she could use herself; yet much of the inventor's commentary on it was written to her. Her letters and his to her are the human channel running beside the electrical one.",
+   "sources": [
+    {
+     "title": "Alexander Graham Bell Papers: collection highlights (Library of Congress)",
+     "url": "https://www.loc.gov/collections/alexander-graham-bell-papers/articles-and-essays/collection-highlights/"
+    },
+    {
+     "title": "Alexander Graham Bell Family Papers (Library of Congress finding aid)",
+     "url": "https://findingaids.loc.gov/repositories/19/resources/2319"
+    }
+   ]
+  },
+  {
+   "id": "pedro",
+   "short": "Dom Pedro II",
+   "name": "Pedro II, Emperor of Brazil",
+   "life": "1825–1891",
+   "role": "Emperor of Brazil, aged 50, touring the United States for the Centennial",
+   "side": "Brazil; foreign visitor",
+   "where": "Centennial Exhibition, Philadelphia, Sunday 25 June 1876",
+   "lat": 39.977,
+   "lon": -75.21,
+   "vantage": 1,
+   "vantage_label": "royal witness at the judging",
+   "form": "diary",
+   "language": "Portuguese",
+   "authenticity": "The emperor's travel diaries (43 notebooks) are held by the Museu Imperial, Petrópolis, inscribed in UNESCO's Memory of the World programme in 2010 and transcribed online. The often-quoted exclamation 'My God, it talks!' comes from later reports, not from his diary.",
+   "bio": "A scholarly monarch who had met Bell earlier at his work with the deaf in Boston and stopped at his table during the judges' Sunday tour. His own diary is cooler than the legend: it records an imperfect result.",
+   "sources": [
+    {
+     "title": "Museu Imperial expõe diários de viagem de Dom Pedro II (Revista Pesquisa FAPESP)",
+     "url": "https://revistapesquisa.fapesp.br/museu-imperial-expoe-diarios-de-viagem-de-dom-pedro-ii/"
+    }
+   ]
+  },
+  {
+   "id": "thomson",
+   "short": "W. Thomson",
+   "name": "Sir William Thomson (later Lord Kelvin)",
+   "life": "1824–1907",
+   "role": "Professor of natural philosophy at Glasgow, aged 52; scientific engineer of the Atlantic cables; a judge of electrical exhibits at the Centennial",
+   "side": "Britain; international jury",
+   "where": "Philadelphia in June 1876; Glasgow for the British Association in September 1876",
+   "lat": 39.977,
+   "lon": -75.21,
+   "waypoints": [
+    {
+     "lat": 39.977,
+     "lon": -75.21,
+     "label": "Centennial, 25 June 1876"
+    },
+    {
+     "lat": 55.872,
+     "lon": -4.288,
+     "label": "Glasgow, British Association, Sept 1876"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the cable man listening on the line",
+   "form": "published address and judge's report",
+   "language": "English",
+   "authenticity": "Thomson's account is in his presidential address to Section A of the British Association at Glasgow (September 1876), printed and widely reprinted in 1876 newspapers. It is a public statement written within weeks, not a private diary.",
+   "bio": "The most authoritative electrical voice in the English-speaking world, who knew from cable work how badly a long line smeared a signal. His report that he had heard Shakespeare through a wire carried Bell's name to Europe.",
+   "sources": [
+    {
+     "title": "Report of Thomson's Glasgow address, Clutha Leader, 24 November 1876 (Papers Past)",
+     "url": "https://dynamic-rsnz.natlib.govt.nz/newspapers/CL18761124.2.5"
+    }
+   ]
+  },
+  {
+   "id": "edison",
+   "short": "Edison",
+   "name": "Thomas Alva Edison",
+   "life": "1847–1931",
+   "role": "Inventor, aged 29–30, at his Menlo Park, New Jersey laboratory, working under contract to Western Union",
+   "side": "Menlo Park; Western Union",
+   "where": "Menlo Park, New Jersey",
+   "lat": 40.558,
+   "lon": -74.336,
+   "vantage": 2,
+   "vantage_label": "the competitor improving the mouthpiece",
+   "form": "laboratory notebooks, caveats and patent records",
+   "language": "English",
+   "authenticity": "Edison's caveats, notebooks and testimony are edited by the Thomas A. Edison Papers (Rutgers). His telephone patent application of 27 April 1877 was held in interference with Emile Berliner's and issued only in 1892 (US 474,230).",
+   "bio": "Asked by Western Union to beat Bell's weak magneto transmitter, he made the variable-resistance carbon transmitter that made the telephone loud enough to be useful. His notebook of the same summer contains the germ of the phonograph.",
+   "sources": [
+    {
+     "title": "Patent Caveat, Thomas Alva Edison, 13 January 1876 (Thomas A. Edison Papers, Rutgers)",
+     "url": "https://edisondigital.rutgers.edu/document/W100ABF"
+    },
+    {
+     "title": "The Telephones of Thomas Edison (telephonecollecting.org)",
+     "url": "https://telephonecollecting.org/Bobs%20phones/Pages/Essays/Edison/Edison.htm"
+    },
+    {
+     "title": "US Patent 474,230, Speaking-Telegraph (Edison), Google Patents",
+     "url": "https://patents.google.com/patent/US474230"
+    }
+   ]
+  },
+  {
+   "id": "meucci",
+   "short": "Meucci",
+   "name": "Antonio Meucci",
+   "life": "1808–1889",
+   "role": "Florentine-born stage engineer and inventor living in poverty at Clifton, Staten Island; aged 63 when he filed his caveat",
+   "side": "Italian community of New York",
+   "where": "Clifton, Staten Island, New York",
+   "lat": 40.62,
+   "lon": -74.07,
+   "vantage": 3,
+   "vantage_label": "the earlier claimant with a lapsed caveat",
+   "form": "patent caveat and later sworn testimony",
+   "language": "Italian and English",
+   "authenticity": "Meucci's caveat for a 'Sound Telegraph' (filed 28 December 1871, renewed to 1874) is a Patent Office record; his account of earlier 'teletrofono' work rests on his notebooks and testimony in the 1880s litigation, which the US courts did not accept. The 2002 House resolution is a non-binding statement of the House's sense, not a judicial finding.",
+   "bio": "A man whose claim was decided against him in court and revived by legislators more than a century later. His record is thin and contested, which is exactly why it belongs here as a position rather than a verdict.",
+   "sources": [
+    {
+     "title": "H.Res. 269, 107th Congress, as agreed to (GovInfo)",
+     "url": "https://www.govinfo.gov/content/pkg/BILLS-107hres269eh/html/BILLS-107hres269eh.htm"
+    },
+    {
+     "title": "Congressional Record, 11 June 2002, pp. H3308–H3311",
+     "url": "https://www.govinfo.gov/content/pkg/CREC-2002-06-11/html/CREC-2002-06-11-pt1-PgH3308.htm"
+    }
+   ]
+  },
+  {
+   "id": "wilber",
+   "short": "Wilber",
+   "name": "Zenas Fisk Wilber",
+   "life": "c. 1840–1889",
+   "role": "Principal examiner, US Patent Office, in charge of electrical cases in 1876",
+   "side": "US Patent Office, Washington",
+   "where": "Patent Office, F Street, Washington",
+   "lat": 38.8977,
+   "lon": -77.023,
+   "vantage": 1,
+   "vantage_label": "the examiner between the two papers",
+   "form": "official actions and later affidavits",
+   "language": "English",
+   "authenticity": "His official actions on Bell's application (suspension, approval) are Patent Office record. His affidavits contradict each other: four in 1885 describe routine handling; that of 8 April 1886, drafted for the Pan-Electric interest, alleges he showed Bell the caveat and took $100. Bell denied it under oath. Neither version can be taken at face value.",
+   "bio": "The official who read both documents and whose later, contradictory sworn statements are the hinge of every conspiracy reading. His testimony shows how a message can be altered long after it was sent.",
+   "sources": [
+    {
+     "title": "Elisha Gray and Alexander Bell telephone controversy (Wikipedia, with citations to court records)",
+     "url": "https://en.wikipedia.org/wiki/Elisha_Gray_and_Alexander_Bell_telephone_controversy"
+    },
+    {
+     "title": "Did Bell Steal the Telephone? (American Heritage)",
+     "url": "https://www.americanheritage.com/did-bell-steal-telephone"
+    },
+    {
+     "title": "Legal Testimony, Zenas Fisk Wilber, May 1877 (Edison Papers)",
+     "url": "https://edisondigital.rutgers.edu/document/QCB09127"
+    }
+   ]
+  },
+  {
+   "id": "victoria",
+   "short": "Victoria",
+   "name": "Queen Victoria",
+   "life": "1819–1901",
+   "role": "Queen of the United Kingdom, aged 58",
+   "side": "Britain; royal household",
+   "where": "Osborne House, Isle of Wight, evening of 14 January 1878",
+   "lat": 50.752,
+   "lon": -1.271,
+   "vantage": 4,
+   "vantage_label": "the distant customer at the end of the line",
+   "form": "journal",
+   "language": "English",
+   "authenticity": "Her journal survives in the Royal Archives (as transcribed by Princess Beatrice after the Queen's death); the 14 January 1878 entry is widely quoted.",
+   "bio": "The coda: within two years of the first garbled sentence, a sovereign was holding the tube to her ear and hearing songs from Cowes and London. Her verdict is mixed, delighted and practical.",
+   "sources": [
+    {
+     "title": "Queen Victoria and the Telephone (quotes the Queen's journal for 14 January 1878)",
+     "url": "https://www.jack-the-ripper-tour.com/generalnews/queen-victoria-and-the-telephone/"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1871-12-28",
+   "date_display": "Thursday 28 December 1871",
+   "precision": "day",
+   "eye": "meucci",
+   "place": "Clifton, Staten Island",
+   "headline": "A caveat for a 'sound telegraph', filed without a patent",
+   "digest": "Unable to afford a full patent application, Meucci filed a caveat, a one-year, renewable notice that he intended to patent a device for transmitting sound by wire. It described his idea in general terms rather than as a working instrument. He renewed it for two more years.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Date and nature of the caveat as stated in H.Res. 269 (107th Congress)."
+  },
+  {
+   "date_iso": "1874-12",
+   "date_display": "late 1874",
+   "precision": "year",
+   "eye": "meucci",
+   "place": "Clifton, Staten Island",
+   "headline": "The caveat lapses for want of ten dollars",
+   "digest": "After 1874 Meucci did not renew the caveat. The 2002 House resolution says he was living on public assistance and that working models left with a Western Union affiliate were reported lost; it argues that had the $10 fee been paid no patent could have issued to Bell. Bell's defenders reply that a caveat this vague would not have blocked his claims.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "H.Res. 269 whereas clauses (the House's position); counter-position from the 1887 Globe decision and Bell-side historians. Month not recorded."
+  },
+  {
+   "date_iso": "1875-03-18",
+   "date_display": "18 March 1875",
+   "precision": "day",
+   "eye": "bell",
+   "place": "Boston, writing of a visit to Washington on 1 March",
+   "headline": "The old physicist tells him to go on",
+   "digest": "Bell wrote home about calling on Joseph Henry at the Smithsonian. When he confessed he lacked the electrical knowledge to make his idea work, Henry told him, in Bell's report, simply to acquire it. Bell said the advice made him feel he could do it.",
+   "quote": "get it",
+   "confidence": "approx",
+   "source_note": "Bell's letter to his parents, March 1875, Bell Family Papers (LoC); exact letter date as given by Bell's biographers, not checked against the scan."
+  },
+  {
+   "date_iso": "1875-06-02",
+   "date_display": "Wednesday 2 June 1875",
+   "precision": "day",
+   "eye": "watson",
+   "place": "Williams's shop, Court Street, Boston",
+   "headline": "A stuck reed twangs in the next room",
+   "digest": "Tuning harmonic-telegraph reeds, Watson plucked a transmitter spring that had stuck, and Bell, at the receiver in another room, heard not just a buzz but the overtones of the plucked steel. In Watson's telling Bell rushed in demanding to know exactly what he had done. Bell sketched a speech instrument that same night.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Watson, 'Exploring Life' (1926), a later memoir; the day is fixed by Bell's own letter to Hubbard of June 1875 as cited by biographers."
+  },
+  {
+   "date_iso": "1875-08-14",
+   "date_display": "14 August 1875",
+   "precision": "day",
+   "eye": "bell",
+   "place": "Brantford, Ontario",
+   "headline": "Keep it from Gray",
+   "digest": "Writing to Hubbard, Bell worried about Elisha Gray's progress on multiple telegraphy and judged that it might be unwise to let Gray know anything about his speech ideas. The letter shows that by summer 1875 Bell already saw Gray as the rival to beat.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bell to Hubbard, 14 August 1875, quoted in the court record; cited in the Wikipedia controversy article."
+  },
+  {
+   "date_iso": "1875-10",
+   "date_display": "October 1875",
+   "precision": "month",
+   "eye": "gray",
+   "place": "Chicago",
+   "headline": "'Of no commercial interest at the present time'",
+   "digest": "Gray told his patent attorney that Bell's 'vocal telegraphy' was of some scientific interest but had no commercial value for now, and that his own effort should go to the multiple telegraph. Later, he would wish he had judged otherwise.",
+   "quote": "of no commercial interest at the present time",
+   "confidence": "verified",
+   "source_note": "Gray's letter to his attorney, October 1875, as quoted in American Heritage, 'Did Bell Steal the Telephone?'."
+  },
+  {
+   "date_iso": "1875-11-25",
+   "date_display": "Thursday 25 November 1875",
+   "precision": "day",
+   "eye": "mabel",
+   "place": "Cambridge, Massachusetts",
+   "headline": "Engaged on her eighteenth birthday",
+   "digest": "After a summer in which her parents had asked Bell to keep his distance until she was older, Mabel accepted him on her eighteenth birthday. Earlier that autumn he had written her a teasing letter about women's rights, later admitting he hoped to provoke a reply.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Bell's 1875 letter to Mabel is a LoC collection highlight; engagement date as given in Bell biographies."
+  },
+  {
+   "date_iso": "1876-01-13",
+   "date_display": "Thursday 13 January 1876",
+   "precision": "day",
+   "eye": "edison",
+   "place": "Menlo Park, New Jersey",
+   "headline": "A caveat for a diaphragm and magnet",
+   "digest": "Edison filed a caveat for a solenoid-and-diaphragm device for analysing sounds, a month before Bell and Gray filed. He did not present it as a telephone and later credited Bell with that invention.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Edison Papers document W100ABF; telephonecollecting.org essay."
+  },
+  {
+   "date_iso": "1876-01-20",
+   "date_display": "Thursday 20 January 1876",
+   "precision": "day",
+   "eye": "bell",
+   "place": "Boston",
+   "headline": "The specification is notarised",
+   "digest": "Bell signed and had notarised the fair copy of his specification, mailed to him two days earlier. The famous passage on variable resistance and its claim do appear in the filed application; Bell testified he added it 'almost at the last moment'. Critics argue it was inserted in Washington later.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia controversy article, summarising Bell's testimony and Evenson (2000)."
+  },
+  {
+   "date_iso": "1876-02-11",
+   "date_display": "Friday 11 February 1876",
+   "precision": "day",
+   "eye": "gray",
+   "place": "Chicago",
+   "headline": "A liquid transmitter sketched on a Friday",
+   "digest": "Gray drew his first documented telephone design: a diaphragm driving a needle into a vessel of acidulated water, so that the circuit's resistance rose and fell with the voice. He spent the weekend on it and had his attorney, William Baldwin, prepare a caveat.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia controversy article; American Heritage."
+  },
+  {
+   "date_iso": "1876-02-14",
+   "date_display": "Monday 14 February 1876",
+   "precision": "day",
+   "eye": "hubbard",
+   "place": "Washington (by his attorneys)",
+   "headline": "Hubbard's lawyers ask for the fee to be booked at once",
+   "digest": "Without waiting for Bell, who still hoped to file first in Britain, Hubbard had the application taken to the Patent Office. It was delivered shortly before noon, and the attorney asked that the fee be entered on the cash blotter immediately; Patent Office time records put it hours ahead of Gray's caveat.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia controversy article; American Heritage (Patent Office time records)."
+  },
+  {
+   "date_iso": "1876-02-14",
+   "date_display": "Monday 14 February 1876",
+   "precision": "day",
+   "eye": "gray",
+   "place": "Washington (by his attorney)",
+   "headline": "The caveat arrives late in the day",
+   "digest": "Baldwin filed Gray's caveat describing the liquid transmitter. Its fee was entered late in the afternoon, and the caveat reached the examiner only the next day. Gray's side later argued that the caveat physically arrived first and was booked later; Bell's side relied on the blotter order. Under the first-to-invent rule of 1876 the hour should not have decided anything.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia controversy article; American Heritage; attorneys' testimony."
+  },
+  {
+   "date_iso": "1876-02-19",
+   "date_display": "Saturday 19 February 1876",
+   "precision": "day",
+   "eye": "wilber",
+   "place": "Patent Office, Washington",
+   "headline": "An interference looms, then is waved off",
+   "digest": "Examiner Wilber suspended Bell's application for three months so that Gray could file a full application, the normal step when a caveat appeared to conflict. Bell's attorneys protested that their application had been filed before the caveat, and the suspension was lifted.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia controversy article."
+  },
+  {
+   "date_iso": "1876-02-26",
+   "date_display": "Saturday 26 February 1876",
+   "precision": "day",
+   "eye": "bell",
+   "place": "Washington",
+   "headline": "In the examiner's office",
+   "digest": "Bell arrived in Washington and called on Wilber about his application. He later testified that Wilber discussed Gray's caveat with him only 'in a general way'. His notebook has no entries from his departure until his return to Boston on 7 March.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia controversy article (Bell's 1879 testimony)."
+  },
+  {
+   "date_iso": "1876-03-03",
+   "date_display": "Friday 3 March 1876",
+   "precision": "day",
+   "eye": "wilber",
+   "place": "Patent Office, Washington",
+   "headline": "Approved; and a rival lawyer seems to know",
+   "digest": "Bell's application was approved for issue. The same day Baldwin wrote to Gray's backer Samuel White that he had confidential information on when Bell's patent would be granted, a detail later used to argue that the office leaked in both directions.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia controversy article (approval date); American Heritage (Baldwin letter)."
+  },
+  {
+   "date_iso": "1876-03-07",
+   "date_display": "Tuesday 7 March 1876",
+   "precision": "day",
+   "eye": "bell",
+   "place": "Washington / Boston",
+   "headline": "US Patent 174,465 issues",
+   "digest": "The patent 'Improvement in Telegraphy' was granted twenty-two days after filing. It covered transmitting vocal or other sounds by undulating electric current, though Bell had not yet transmitted an intelligible sentence. It would become one of the most litigated patents in American history.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "American Heritage; Wikipedia controversy article."
+  },
+  {
+   "date_iso": "1876-03-08",
+   "date_display": "Wednesday 8 March 1876",
+   "precision": "day",
+   "eye": "bell",
+   "place": "Exeter Place, Boston",
+   "headline": "A sketch that looks like Gray's",
+   "digest": "Back in his lab, Bell drew a liquid transmitter: a speaker's profile at a funnel, a wire dipping into water. Critics call it a copy of Gray's caveat drawing seen in Washington; defenders note that Bell had used the same profile style in a sketch of December 1875 and had experimented with liquids before.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Notebook 1875–76 (LoC); the 8 vs 9 March dating differs between sources, see American Heritage and Wikipedia."
+  },
+  {
+   "date_iso": "1876-03-10",
+   "date_display": "Friday 10 March 1876",
+   "precision": "day",
+   "eye": "bell",
+   "place": "Exeter Place, Boston",
+   "headline": "The first intelligible sentence",
+   "digest": "Using the liquid transmitter, Bell spoke into the mouthpiece while Watson listened at the receiver in another room. Watson came in and said he had heard and understood. They changed places; Bell made out some words but not all.",
+   "quote": "Mr. Watson — Come here — I want to see you.",
+   "confidence": "verified",
+   "source_note": "Bell's notebook entry of 10 March 1876 (LoC; archived American Memory page)."
+  },
+  {
+   "date_iso": "1876-03-10",
+   "date_display": "Friday 10 March 1876",
+   "precision": "day",
+   "eye": "bell",
+   "place": "Boston",
+   "headline": "'This is a great day with me'",
+   "digest": "The same evening Bell wrote to his father. He reported that speech had gone over the wire, that his partner George Brown had dropped the British patent plan, and that the day was coming when wires would run into houses like water or gas.",
+   "quote": "Articulate speech was transmitted intelligibly this afternoon.",
+   "confidence": "verified",
+   "source_note": "Bell to Alexander Melville Bell, 10 March 1876, LoC magbell.00500211."
+  },
+  {
+   "date_iso": "1876-03-10",
+   "date_display": "Friday 10 March 1876",
+   "precision": "day",
+   "eye": "watson",
+   "place": "Exeter Place, Boston",
+   "headline": "Hearing his own name from the receiver",
+   "digest": "Half a century later Watson remembered running down the hall to say he had heard every word. His memoir makes it a cry for help over spilled acid; Bell's notebook mentions no accident, and the spill story is best treated as later embroidery.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Watson, 'Exploring Life' (1926), a later memoir; compare Bell's notebook entry."
+  },
+  {
+   "date_iso": "1876-06",
+   "date_display": "June 1876",
+   "precision": "month",
+   "eye": "mabel",
+   "place": "Boston",
+   "headline": "Sent to Philadelphia",
+   "digest": "Family tradition holds that Bell refused to go to the Centennial until Mabel took him to the station and he could not bear to disappoint her. Her letters of the summer follow the news of his success second-hand.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Later family recollection as given by Bell's biographers; Mabel's 1876 letters in the Bell Family Papers (LoC)."
+  },
+  {
+   "date_iso": "1876-06-25",
+   "date_display": "Sunday 25 June 1876",
+   "precision": "day",
+   "eye": "bell",
+   "place": "Centennial Exhibition, Philadelphia",
+   "headline": "A tour of judges, at the end of a hot day",
+   "digest": "Bell had come to Philadelphia only reluctantly, with exams to set in Boston. On the judges' Sunday tour, late in the day, he spoke and recited from Hamlet at one end of a line while the visitors listened at the other. The judges' interest made his name overnight.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Date fixed by Dom Pedro's diary; Bell's letters to Mabel of June 1876 (LoC, incl. 21 June 1876)."
+  },
+  {
+   "date_iso": "1876-06-25",
+   "date_display": "25 June 1876",
+   "precision": "day",
+   "eye": "pedro",
+   "place": "Centennial Exhibition, Philadelphia",
+   "headline": "The emperor's diary: not a perfect result",
+   "digest": "In his own diary the emperor noted the telephone without rapture: it had not given a perfect result, though two people had read through it. This is a sober counterweight to the later story of him leaping up and crying out that it talked.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dom Pedro II's diary entry for 25 June 1876, Museu Imperial, as quoted in Revista Pesquisa FAPESP."
+  },
+  {
+   "date_iso": "1876-06-25",
+   "date_display": "June 1876",
+   "precision": "range",
+   "eye": "thomson",
+   "place": "Centennial Exhibition, Philadelphia",
+   "headline": "A cable engineer hears Shakespeare",
+   "digest": "Thomson listened at the receiver and heard 'To be or not to be' come through. In further trials he made out sentences read from New York newspapers. He also examined Gray's multiple telegraph and Edison's automatic telegraph in the same halls.",
+   "quote": "To be or not to be?",
+   "confidence": "approx",
+   "source_note": "Thomson's British Association address (Sept 1876), as reported in the Clutha Leader, 24 Nov 1876; some trials may have been on days after 25 June."
+  },
+  {
+   "date_iso": "1876-06-25",
+   "date_display": "late June 1876",
+   "precision": "range",
+   "eye": "gray",
+   "place": "Centennial Exhibition, Philadelphia",
+   "headline": "Rivals meet in the electrical halls",
+   "digest": "Gray exhibited his harmonic telegraph and watched Bell's demonstration before the judges. He later testified that in a friendly conversation there he described his own liquid design to Bell. In July he made a brief, unsuccessful attempt to make his own speaking instrument work.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Gray's testimony, as reported in American Heritage and Wikipedia; day not fixed."
+  },
+  {
+   "date_iso": "1876-08-03",
+   "date_display": "Thursday 3 August 1876",
+   "precision": "day",
+   "eye": "bell",
+   "place": "Brantford and Mount Pleasant, Ontario",
+   "headline": "Over a borrowed telegraph wire",
+   "digest": "At his parents' Canadian home, Bell arranged a public demonstration between Brantford and nearby Mount Pleasant over a telegraph line. The next day he transmitted to the family homestead itself, over stovepipe wire tacked along fences by neighbours.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Parks Canada plaque and Ontario Heritage plaque (3 and 4 August); The Henry Ford (stovepipe wire, from Bell's 1917 speech)."
+  },
+  {
+   "date_iso": "1876-08-10",
+   "date_display": "Thursday 10 August 1876",
+   "precision": "day",
+   "eye": "bell",
+   "place": "Dominion Telegraph office, Robert White's shoe store, Paris, Ontario",
+   "headline": "Thirteen kilometres, one way",
+   "digest": "Bell sat at the receiving end in the telegraph office in Paris while voices and songs were sent from Brantford over a Dominion Telegraph Company line. Guests at the shop heard singing and readings. The call ran one way only; Bell could hear but not reply.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Canada's History; Parks Canada; The Henry Ford (one-way call). Names of the Brantford speakers not confirmed here."
+  },
+  {
+   "date_iso": "1876-09",
+   "date_display": "September 1876",
+   "precision": "month",
+   "eye": "thomson",
+   "place": "Glasgow, British Association",
+   "headline": "Telling the British Association what he heard",
+   "digest": "Opening the physics section of the British Association, Thomson described what he had heard in Philadelphia and ranked Bell's instrument among the greatest marvels he had seen in America. Newspapers across the Empire reprinted the passage within weeks.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Report in the Clutha Leader (NZ), 24 Nov 1876. Exact day of the address not fixed in the source used."
+  },
+  {
+   "date_iso": "1876-10-09",
+   "date_display": "Monday 9 October 1876",
+   "precision": "day",
+   "eye": "bell",
+   "place": "Walworth Manufacturing Co. office, 69 Kilby Street, Boston",
+   "headline": "A conversation, not a recitation",
+   "digest": "Over a private telegraph wire about two miles long, Bell in Boston and Watson in Cambridgeport talked back and forth: the first sustained two-way conversation on an outdoor line. They wrote down what each heard so the two records could be compared.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "HMdb marker (date, endpoints); reports state duration variously as half an hour or three hours."
+  },
+  {
+   "date_iso": "1876-10-09",
+   "date_display": "Monday 9 October 1876",
+   "precision": "day",
+   "eye": "watson",
+   "place": "Walworth factory, Cambridgeport",
+   "headline": "Shouting into a box across the Charles",
+   "digest": "Watson manned the factory end on the far side of the Charles. In his memoir he recalls the voices coming through clearly enough for a real exchange, and the two men comparing their written notes afterwards and finding them close.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "HMdb marker (date and place); details from Watson's later memoir; publication of the parallel notes in the Boston press not verified here."
+  },
+  {
+   "date_iso": "1876-11",
+   "date_display": "November 1876",
+   "precision": "month",
+   "eye": "gray",
+   "place": "Chicago",
+   "headline": "'A scientific toy'",
+   "digest": "Gray still judged that the telephone only interested scientific circles and, as a scientific toy, would have limited commercial value. American Heritage notes that he later regretted this lethargy.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "American Heritage, quoting Gray's letter of November 1876."
+  },
+  {
+   "date_iso": "1876-12",
+   "date_display": "autumn–winter 1876",
+   "precision": "range",
+   "eye": "hubbard",
+   "place": "Boston and New York",
+   "headline": "Offering the patent to Western Union",
+   "digest": "Hubbard is said to have offered the Bell patents to William Orton of Western Union and been refused; he also asked Chauncey Depew to invest $10,000 for a one-sixth share, which Orton talked Depew out of. The often-quoted Western Union committee memo dismissing the telephone is a twentieth-century fabrication.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wondermark summary of Depew's 1924 memoir and Watson's 1915 recollection; memo traced to R. C. Levine, 1968. No dated letter of the offer has been found."
+  },
+  {
+   "date_iso": "1876-12",
+   "date_display": "autumn 1876",
+   "precision": "range",
+   "eye": "watson",
+   "place": "Boston",
+   "headline": "$100,000, refused",
+   "digest": "In his 1915 recollection Watson put a price on the offer, $100,000 for all rights, and said Western Union turned it down rather contemptuously. His figure is the only source for the amount.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Watson, 1915 recollection, as summarised by Wondermark; later account."
+  },
+  {
+   "date_iso": "1877-03-02",
+   "date_display": "Friday 2 March 1877",
+   "precision": "day",
+   "eye": "bell",
+   "place": "Boston",
+   "headline": "Writing to Gray about the wire in water",
+   "digest": "Bell told Gray that he had understood Gray's caveat to concern the vibration of a wire in water. Asked later in court how he had known that, he said he could not recall. The letter became evidence for both sides.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bell to Gray, 2 March 1877 (Wikipedia; American Heritage). Notes, 1877, Bell–Gray, Bell Family Papers (LoC)."
+  },
+  {
+   "date_iso": "1877-03-05",
+   "date_display": "March 1877",
+   "precision": "month",
+   "eye": "gray",
+   "place": "Chicago",
+   "headline": "'An hour or two behind you'",
+   "digest": "Replying, Gray wrote that he did not claim credit for an idea never reduced to practice and that he had been an hour or two behind Bell in filing. Within a few years he came to believe the reverse, that his caveat had come first and that Bell had seen it.",
+   "quote": "an hour or two behind you",
+   "confidence": "approx",
+   "source_note": "Gray's March 1877 letter to Bell as quoted in the Wikipedia controversy article; day of the letter not confirmed here."
+  },
+  {
+   "date_iso": "1877-04-27",
+   "date_display": "Friday 27 April 1877",
+   "precision": "day",
+   "eye": "edison",
+   "place": "Menlo Park, New Jersey",
+   "headline": "Edison's transmitter application",
+   "digest": "Edison filed his application for a speaking telegraph using variable resistance. Emile Berliner had filed a similar one about two weeks earlier, and the Patent Office declared the two in interference. The patent did not issue until 1892.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "telephonecollecting.org; US 474,230 (Google Patents)."
+  },
+  {
+   "date_iso": "1877-06",
+   "date_display": "June 1877",
+   "precision": "month",
+   "eye": "edison",
+   "place": "Menlo Park, New Jersey",
+   "headline": "Lampblack in a pot",
+   "digest": "Edison's workers built a transmitter in which the diaphragm pressed on carbon in a small pot, the first working carbon variable-resistance transmitter. It was far louder than Bell's magneto mouthpiece, though the lampblack packed and needed constant fiddling.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "telephonecollecting.org (month)."
+  },
+  {
+   "date_iso": "1877-07-09",
+   "date_display": "Monday 9 July 1877",
+   "precision": "day",
+   "eye": "hubbard",
+   "place": "Boston",
+   "headline": "The Bell Telephone Association",
+   "digest": "Hubbard, Bell and Thomas Sanders formed an unincorporated association to hold the patents and lease telephones rather than sell them. Watson received a share for his work.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "American Heritage."
+  },
+  {
+   "date_iso": "1877-07-11",
+   "date_display": "Wednesday 11 July 1877",
+   "precision": "day",
+   "eye": "mabel",
+   "place": "Hubbard house, Cambridge, Massachusetts",
+   "headline": "A wedding gift of shares",
+   "digest": "Mabel and Alec were married at her parents' house two days after the association was formed. He gave her almost all of his shares in the telephone enterprise. Weeks later they sailed for Britain, where he would promote the telephone.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Bell biographies; marriage date and share gift not checked against the LoC scans."
+  },
+  {
+   "date_iso": "1877-07-18",
+   "date_display": "18 July 1877",
+   "precision": "day",
+   "eye": "edison",
+   "place": "Menlo Park, New Jersey",
+   "headline": "From telephone to phonograph",
+   "digest": "In a notebook entry on a telephone diaphragm fitted with an embossing point, Edison noted that speech vibrations could be indented on paper and played back. The telephone work was leading straight to the phonograph.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Edison Papers notebook entry of 18 July 1877 as commonly cited; not fetched here."
+  },
+  {
+   "date_iso": "1877-11-17",
+   "date_display": "Saturday 17 November 1877",
+   "precision": "day",
+   "eye": "gray",
+   "place": "New York (Western Union)",
+   "headline": "Western Union enters the telephone business",
+   "digest": "Western Union formed the American Speaking Telephone Company and bought rights from Gray, Edison and Amos Dolbear, putting Edison transmitters into service against Bell's company. Gray, who had called it a toy a year before, was now one of its patent pillars.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "American Heritage."
+  },
+  {
+   "date_iso": "1878",
+   "date_display": "1878",
+   "precision": "year",
+   "eye": "watson",
+   "place": "Boston",
+   "headline": "Testing Edison's carbon telephone",
+   "digest": "Writing to Bell, who was in England, Watson reported on tests of Edison's carbon transmitter and on the new Bell Telephone Company. The rival mouthpiece was a real threat; Bell's company soon adopted carbon transmitters of its own.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Watson to Bell, 1878, a LoC collection highlight; month not given."
+  },
+  {
+   "date_iso": "1878-01-14",
+   "date_display": "Monday 14 January 1878",
+   "precision": "day",
+   "eye": "victoria",
+   "place": "Osborne House, Isle of Wight",
+   "headline": "Songs at half past nine",
+   "digest": "After dinner the Queen listened as Bell explained the instrument. Over lines from Osborne Cottage, Cowes, Southampton and London she heard conversation, singing and a bugle. She found it most extraordinary, though faint, and noted one must hold the tube close to the ear.",
+   "quote": "one must hold the tube close to one's ear",
+   "confidence": "verified",
+   "source_note": "Queen Victoria's journal, 14 January 1878, as quoted by jack-the-ripper-tour.com."
+  },
+  {
+   "date_iso": "1878-01-14",
+   "date_display": "Monday 14 January 1878",
+   "precision": "day",
+   "eye": "bell",
+   "place": "Osborne House, Isle of Wight",
+   "headline": "Demonstrating to the Queen",
+   "digest": "Bell presented the telephone at Osborne with engineers at each remote end: W. H. Preece at Southampton, Major Webber at Cowes, and assistants in London. Royal approval helped launch the telephone in Britain.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Contemporary reports summarised alongside the Queen's journal (jack-the-ripper-tour.com)."
+  },
+  {
+   "date_iso": "1885-10-21",
+   "date_display": "21 October 1885",
+   "precision": "day",
+   "eye": "wilber",
+   "place": "Washington",
+   "headline": "An affidavit of routine",
+   "digest": "In the last of four affidavits made in 1885, Wilber described Bell's application as handled routinely. He later said this one had been obtained at the Bell company's request and signed while he was drunk and depressed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia controversy article; American Heritage (four affidavits, July–Nov 1885)."
+  },
+  {
+   "date_iso": "1885-12",
+   "date_display": "1885–1886",
+   "precision": "range",
+   "eye": "meucci",
+   "place": "New York (Globe Telephone litigation)",
+   "headline": "Testimony for the Globe company",
+   "digest": "Aged nearly eighty, Meucci gave depositions describing years of experiments with speaking by wire. In 1887 the federal court in the Globe case held that what he had made was a mechanical, not electrical, telephone; the government's own fraud suit against Bell's patent, filed in January 1887, ended without a ruling when the patent expired.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "H.Res. 269 (government suit, 13 Jan 1887; dismissal as moot); outcome of the Globe case from standard accounts, not fetched here."
+  },
+  {
+   "date_iso": "1886-04-08",
+   "date_display": "Thursday 8 April 1886",
+   "precision": "day",
+   "eye": "wilber",
+   "place": "Washington",
+   "headline": "An affidavit of bribery",
+   "digest": "Wilber now swore that, owing money to Bell's attorney Marcellus Bailey and drinking heavily, he had told Bailey about Gray's caveat, shown Bell the drawing, and received a $100 bill. The affidavit was drafted by lawyers for the Pan-Electric company, then being sued by Bell; it ran on the Washington Post's front page on 22 May, and Bell's sworn denial followed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia controversy article; American Heritage."
+  },
+  {
+   "date_iso": "1892-05",
+   "date_display": "May 1892",
+   "precision": "month",
+   "eye": "edison",
+   "place": "Washington",
+   "headline": "The transmitter patent at last",
+   "digest": "After fifteen years in interference, Edison's speaking-telegraph patent issued as No. 474,230. By then his carbon transmitter, owned by the Bell company since the 1879 settlement, had long been the voice of the telephone.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "US 474,230 (Google Patents); telephonecollecting.org."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1871-12-28",
+   "date_display": "28 December 1871",
+   "eye": "meucci",
+   "claim": "Meucci → US Patent Office: caveat for a 'sound telegraph', renewed yearly to 1874, then lapsed; position (House, 2002): his priority would have barred Bell's patent; position (courts, 1887): his device was not an electric telephone",
+   "form": "other",
+   "evidence": "H.Res. 269 (107th Congress); Globe Telephone case 1887",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1875-08-14",
+   "date_display": "14 August 1875",
+   "eye": "bell",
+   "claim": "Bell (Brantford) → Hubbard (Cambridge): letter warning it may be unwise to let Gray know anything of the speech work",
+   "form": "letter",
+   "evidence": "Court record, quoted in Wikipedia controversy article",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1876-02-14",
+   "date_display": "Monday 14 February 1876",
+   "eye": "hubbard",
+   "claim": "Bell's application (delivered shortly before noon, fee booked at once at counsel's request) and Gray's caveat (fee booked late afternoon, to examiner next day) reach the Patent Office the same day. Position A: blotter and time records show Bell first. Position B (Evenson, Shulman): Gray's papers arrived first or Bell's text was altered after filing. Under first-to-invent rules filing order was not decisive",
+   "form": "other",
+   "evidence": "Patent Office cash blotter and testimony; American Heritage; Wikipedia",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1876-03-07",
+   "date_display": "Tuesday 7 March 1876",
+   "eye": "bell",
+   "claim": "Patent Office → Bell: US 174,465 issued, 22 days after filing, approved 3 March",
+   "form": "report",
+   "evidence": "American Heritage; Wikipedia",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1876-03-10",
+   "date_display": "Friday 10 March 1876",
+   "eye": "bell",
+   "claim": "Bell (transmitter) → Watson (receiver, another room), Exeter Place, Boston: 'Mr. Watson — Come here — I want to see you.' Delay: none; Watson walks in. Watson's 1926 account of spilled acid is not in the notebook",
+   "form": "telephone",
+   "evidence": "Bell's notebook, 10 March 1876 (LoC); Bell to his father same day (LoC magbell.00500211)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1876-06-25",
+   "date_display": "Sunday 25 June 1876",
+   "eye": "bell",
+   "claim": "Bell → Centennial judges (Thomson, Dom Pedro II and others), Philadelphia: Hamlet recited over a short line; Thomson hears 'To be or not to be?'; Pedro's diary says the result was imperfect but two people read. The cry 'My God, it talks!' is a later report",
+   "form": "telephone",
+   "evidence": "Pedro II diary (Museu Imperial); Thomson's BA address (Sept 1876)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1876-08-10",
+   "date_display": "Thursday 10 August 1876",
+   "eye": "bell",
+   "claim": "Brantford (senders) → Bell at Dominion Telegraph office, Paris, Ontario, ~13 km over a telegraph line: singing and readings heard; one way only",
+   "form": "telephone",
+   "evidence": "Parks Canada; Canada's History; The Henry Ford",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1876-09",
+   "date_display": "September 1876",
+   "eye": "thomson",
+   "claim": "Thomson (Glasgow, British Association) → the scientific press: reports hearing speech by Bell's telephone at Philadelphia; reprinted as far as New Zealand by November",
+   "form": "report",
+   "evidence": "Clutha Leader, 24 Nov 1876 (Papers Past)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1876-10-09",
+   "date_display": "Monday 9 October 1876",
+   "eye": "watson",
+   "claim": "Bell (69 Kilby St, Boston) ↔ Watson (Walworth factory, Cambridgeport), ~2 miles over a private telegraph wire, afternoon: first sustained two-way conversation on an outdoor line; duration reported as half an hour to three hours",
+   "form": "telephone",
+   "evidence": "HMdb marker; 1876 newspaper report reprinted in the Arizona Citizen; Watson's memoir",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1876-12",
+   "date_display": "autumn 1876",
+   "eye": "hubbard",
+   "claim": "Hubbard → William Orton, Western Union: offer of the Bell patents (Watson's figure: $100,000), refused. The 'Western Union internal memo' calling the telephone worthless is a legend, first printed in 1968",
+   "form": "other",
+   "evidence": "Watson 1915 recollection; Depew 1924 memoir; Wondermark/Lapsley on the memo",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1877-03-02",
+   "date_display": "2 and (about) 5 March 1877",
+   "eye": "gray",
+   "claim": "Bell → Gray: knew the caveat concerned a wire vibrating in water; Gray → Bell: he had been 'an hour or two behind you' and claimed no credit for an idea not reduced to practice",
+   "form": "letter",
+   "evidence": "Letters in the court record; Wikipedia; American Heritage",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1877-04-27",
+   "date_display": "27 April 1877",
+   "eye": "edison",
+   "claim": "Edison → Patent Office: application for a variable-resistance (carbon) transmitter; in interference with Berliner's earlier filing; issued May 1892 as US 474,230",
+   "form": "other",
+   "evidence": "telephonecollecting.org; Google Patents US474230",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1877-11-17",
+   "date_display": "17 November 1877",
+   "eye": "gray",
+   "claim": "Western Union forms the American Speaking Telephone Company with Gray, Edison and Dolbear rights; settled in 1879 by transfer to Bell in return for 20% of rentals",
+   "form": "report",
+   "evidence": "American Heritage",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1878-01-14",
+   "date_display": "Monday 14 January 1878, from 9.30 p.m.",
+   "eye": "victoria",
+   "claim": "Osborne Cottage, Cowes, Southampton and London → the Queen at Osborne House: conversation, songs, bugle and organ; 'most extraordinary' but 'rather faint'",
+   "form": "telephone",
+   "evidence": "Queen Victoria's journal, 14 January 1878",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1886-04-08",
+   "date_display": "8 April 1886 (published 22 May 1886)",
+   "eye": "wilber",
+   "claim": "Wilber affidavit → Washington Post front page: alleges he showed Bell Gray's caveat and took $100; Bell's sworn denial printed 25 May; Wilber's 1885 affidavits had said the opposite",
+   "form": "report",
+   "evidence": "Wikipedia; American Heritage",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "2002-06-11",
+   "date_display": "Tuesday 11 June 2002",
+   "eye": "meucci",
+   "claim": "US House of Representatives: H.Res. 269 agreed to, expressing the sense that Meucci's work on the telephone should be acknowledged (non-binding). A Canadian House of Commons motion later that month reaffirmed Bell",
+   "form": "report",
+   "evidence": "H.Res. 269 (GovInfo); Congressional Record 11 June 2002, H3308; Canadian motion not checked here",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1876-02-14",
+   "label": "Two papers reach the Patent Office on the same day",
+   "eyes": [
+    "hubbard",
+    "gray",
+    "bell",
+    "wilber"
+   ],
+   "note": "Hubbard's lawyers pressed for an immediate booking; Gray's attorney filed later and his caveat reached the examiner a day late. Bell himself was in Boston, not yet aware. Wilber, who read both, later swore two opposite stories about what happened next."
+  },
+  {
+   "date": "1876-03-07",
+   "label": "Patent issued; Bell back in Boston",
+   "eyes": [
+    "bell",
+    "wilber"
+   ],
+   "note": "The patent issued before any intelligible sentence had been sent, so the paper claim ran ahead of the working instrument."
+  },
+  {
+   "date": "1876-03-10",
+   "label": "'Mr. Watson — come here'",
+   "eyes": [
+    "bell",
+    "watson"
+   ],
+   "note": "The same minute in two records written fifty years apart: the notebook is terse and technical, the memoir dramatic, adding spilled acid the notebook never mentions."
+  },
+  {
+   "date": "1876-06-25",
+   "label": "The judges' Sunday at the Centennial",
+   "eyes": [
+    "bell",
+    "pedro",
+    "thomson",
+    "gray"
+   ],
+   "note": "The emperor's diary is guarded, Thomson's public address enthusiastic, and Gray was there as a fellow exhibitor whose own instrument did not yet speak."
+  },
+  {
+   "date": "1876-10-09",
+   "label": "First two-way conversation on an outdoor line",
+   "eyes": [
+    "bell",
+    "watson"
+   ],
+   "note": "Each man wrote down what he heard, so the two ends of one conversation exist as separate records to compare."
+  },
+  {
+   "date": "1877-03",
+   "label": "Rivals write to each other",
+   "eyes": [
+    "bell",
+    "gray"
+   ],
+   "note": "A brief, polite exchange each side later used as evidence: Bell's knowledge of the 'wire in water', Gray's 'hour or two behind'."
+  },
+  {
+   "date": "1877-11-17",
+   "label": "Western Union arms the rivals",
+   "eyes": [
+    "gray",
+    "edison",
+    "hubbard"
+   ],
+   "note": "Gray's patents and Edison's transmitter, joined under Western Union, made the patent battle a corporate one with Hubbard on the other side."
+  },
+  {
+   "date": "1878-01-14",
+   "label": "A queen on the line",
+   "eyes": [
+    "victoria",
+    "bell"
+   ],
+   "note": "The demonstrator and the listener record the same evening: Bell's engineers stationed at Cowes, Southampton and London, the Queen finding it faint but extraordinary."
+  }
+ ],
+ "ties": [
+  {
+   "a": "bell",
+   "b": "watson",
+   "kind": "met",
+   "note": "Inventor and machinist from early 1875; Watson built every instrument in this chapter and was at the other end of both 1876 landmark calls."
+  },
+  {
+   "a": "bell",
+   "b": "gray",
+   "kind": "opposite sides",
+   "note": "Rivals in multiple telegraphy from 1874, filers on the same day in 1876, courteous correspondents in 1877 and antagonists in court thereafter."
+  },
+  {
+   "a": "bell",
+   "b": "hubbard",
+   "kind": "relative",
+   "note": "Backer, then father-in-law from July 1877; Hubbard filed the application and organised the company."
+  },
+  {
+   "a": "bell",
+   "b": "mabel",
+   "kind": "relative",
+   "note": "Teacher and pupil, then fiancés from November 1875 and married 11 July 1877; many of Bell's reports on the telephone were written to her."
+  },
+  {
+   "a": "mabel",
+   "b": "hubbard",
+   "kind": "relative",
+   "note": "Father and daughter; Hubbard first held the young couple apart, then joined them in business."
+  },
+  {
+   "a": "wilber",
+   "b": "gray",
+   "kind": "mentioned",
+   "note": "Wilber's 1886 affidavit centres on what he did with Gray's caveat."
+  },
+  {
+   "a": "wilber",
+   "b": "bell",
+   "kind": "met",
+   "note": "Bell called on the examiner in Washington in late February 1876; their accounts of that meeting conflict."
+  },
+  {
+   "a": "thomson",
+   "b": "bell",
+   "kind": "met",
+   "note": "Thomson tested the telephone as a Centennial judge and publicised it at Glasgow that September."
+  },
+  {
+   "a": "pedro",
+   "b": "bell",
+   "kind": "met",
+   "note": "The emperor knew Bell's work with the deaf and stopped at his exhibit on the judges' tour."
+  },
+  {
+   "a": "thomson",
+   "b": "gray",
+   "kind": "mentioned",
+   "note": "Thomson's Glasgow address praised Gray's multiple telegraph in the same breath as Bell's telephone."
+  },
+  {
+   "a": "edison",
+   "b": "gray",
+   "kind": "influenced",
+   "note": "Both supplied the patents behind Western Union's American Speaking Telephone Company in 1877."
+  },
+  {
+   "a": "watson",
+   "b": "edison",
+   "kind": "read each other",
+   "note": "In 1878 Watson tested Edison's carbon transmitter and reported to Bell on the threat it posed."
+  },
+  {
+   "a": "meucci",
+   "b": "bell",
+   "kind": "opposite sides",
+   "note": "Meucci's lapsed caveat and testimony were deployed against Bell's patent in the 1880s and revived by the US House in 2002."
+  },
+  {
+   "a": "victoria",
+   "b": "bell",
+   "kind": "met",
+   "note": "Bell demonstrated the telephone to the Queen at Osborne on 14 January 1878."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "cables-1858",
+   "note": "William Thomson, who heard Hamlet through Bell's receiver, was the scientific mind of the Atlantic cables; his feel for how long lines distort signals made his praise of the telephone carry weight."
+  },
+  {
+   "to": "morse-1844",
+   "note": "Bell's and Gray's work began as multiple 'harmonic' telegraphy for Morse-code lines, and the first long calls ran over existing telegraph wires; Western Union, heir to the telegraph networks, was first the telephone's scorner and then its rival."
+  },
+  {
+   "to": "wireless-1901",
+   "note": "The telephone receiver became the ear of early wireless: the headphones that caught Marconi's first transatlantic signal in 1901 descended from Bell's diaphragm receivers."
+  },
+  {
+   "to": "v5:exposition-1889",
+   "note": "The phonograph that grew out of Edison's July 1877 telephone notebook was one of the sensations of the Paris Exposition of 1889."
+  },
+  {
+   "to": "v7:kitty-hawk",
+   "note": "Bell's later Aerial Experiment Association, funded by Mabel Hubbard Bell, built the June Bug flown in 1908, part of the race opened by the Wrights."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.loc.gov/item/magbell.00500211/",
+   "title": "Bell to his father, 10 March 1876",
+   "caption": "Bell's letter home on the evening of the first intelligible transmission, predicting wires into houses 'like water or gas'. Manuscript in the Bell Family Papers.",
+   "date": "1876-03-10",
+   "credit": "Library of Congress, Manuscript Division, Alexander Graham Bell Family Papers"
+  },
+  {
+   "url": "https://webarchive.library.unt.edu/eot2008/20090812232405/http://memory.loc.gov/ammem/bellhtml/bell1.html",
+   "title": "Bell's experimental notebook, 10 March 1876",
+   "caption": "The Library of Congress presentation of the notebook pages recording 'Mr. Watson — Come here'. Archived copy of the American Memory page.",
+   "date": "1876-03-10",
+   "credit": "Library of Congress (archived by UNT Libraries)"
+  },
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/objects/co33399/early-bell-telephone-and-terminal-panel-1877-8",
+   "title": "Early Bell telephone and terminal panel, 1877–78",
+   "caption": "A Bell-pattern telephone of the period of the first British demonstrations, when the same instrument served as mouthpiece and earpiece.",
+   "date": "1877–1878",
+   "credit": "Science Museum Group"
+  },
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8054849/submarine-cable-laid-across-the-river-medina-isle-of-wight-1878",
+   "title": "Submarine cable across the River Medina, Isle of Wight, 1878",
+   "caption": "A section of cable laid across the Medina in 1878, on the island where Bell's lines carried songs from Cowes to the Queen at Osborne that January.",
+   "date": "1878",
+   "credit": "Science Museum Group"
+  },
+  {
+   "url": "https://hmdb.org/m.asp?m=49766",
+   "title": "First Long-Distance Phone Call marker, Cambridgeport",
+   "caption": "The 1961 marker at 710 Main Street, Cambridge, on the old factory building where Watson spoke to Bell in Boston on 9 October 1876.",
+   "date": "1961 (marker); event 1876-10-09",
+   "credit": "Telephone Pioneers of America; photograph via HMdb"
+  },
+  {
+   "url": "https://patents.google.com/patent/US474230",
+   "title": "Edison, Speaking-Telegraph, US 474,230",
+   "caption": "Drawings and text of Edison's carbon-transmitter patent, filed 27 April 1877 and issued only in May 1892 after the Berliner interference.",
+   "date": "1877 (filed); 1892 (issued)",
+   "credit": "US Patent Office, via Google Patents"
+  }
+ ],
+ "further": [
+  {
+   "title": "Elisha Gray and Alexander Bell telephone controversy (Wikipedia, with citations to court records)",
+   "url": "https://en.wikipedia.org/wiki/Elisha_Gray_and_Alexander_Bell_telephone_controversy"
+  },
+  {
+   "title": "Did Bell Steal the Telephone? (American Heritage)",
+   "url": "https://www.americanheritage.com/did-bell-steal-telephone"
+  },
+  {
+   "title": "Alexander Graham Bell Family Papers (Library of Congress finding aid)",
+   "url": "https://findingaids.loc.gov/repositories/19/resources/2319"
+  },
+  {
+   "title": "H.Res. 269, 107th Congress, as agreed to (GovInfo)",
+   "url": "https://www.govinfo.gov/content/pkg/BILLS-107hres269eh/html/BILLS-107hres269eh.htm"
+  },
+  {
+   "title": "Congressional Record, 11 June 2002, pp. H3308–H3311",
+   "url": "https://www.govinfo.gov/content/pkg/CREC-2002-06-11/html/CREC-2002-06-11-pt1-PgH3308.htm"
+  },
+  {
+   "title": "The Telephone Cases, 126 U.S. 1 (1888), United States Reports vol. 126",
+   "url": "https://www.supremecourt.gov/pdfs/USReports/USREPORTS-126_PDFA.pdf"
+  },
+  {
+   "title": "True Stuff: Alexander Graham Bell vs. Western Union (Wondermark, on the memo's origin)",
+   "url": "https://wondermark.com/?p=10896"
+  },
+  {
+   "title": "Patent Caveat, Thomas Alva Edison, 13 January 1876 (Thomas A. Edison Papers, Rutgers)",
+   "url": "https://edisondigital.rutgers.edu/document/W100ABF"
+  }
+ ],
+ "vantage_key": "0 = inventor, rival or official at the heart of the patent and the first calls; 1 = present at a demonstration or handling the papers; 2 = close by, hearing of it within days; 3 = an earlier or distant claimant; 4 = abroad or reached only later by the line."
+}

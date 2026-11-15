@@ -1,0 +1,1465 @@
+{
+ "id": "wireless-1901",
+ "title": "Three Dots from Poldhu",
+ "short_title": "Three Dots from Poldhu",
+ "subtitle": "Wireless telegraphy from Oxford to Signal Hill and the SS Philadelphia, 1894–1902",
+ "span": "1894–1902",
+ "intro": [
+  "Between 1894 and 1902 the invisible waves that Heinrich Hertz had produced in a laboratory became a way of sending messages across an ocean. Nobody did it alone, and almost nobody agreed afterwards on who did it first. This chapter lays the rival workers on one timeline: a Liverpool physicist lecturing in Oxford, a Bengali professor in Calcutta, a Russian navy teacher in St Petersburg, a young Italian with a patent agent in London, and German professors in Berlin and Strasbourg backed by an emperor.",
+  "Their records are mostly not diaries. They are society papers, patent specifications, press reports, lecture transcripts and lawyers' letters, with two real pocket diaries at the centre: Marconi's terse one, with signal times in ink among pencil notes, and George Kemp's, kept by the assistant who hauled the apparatus onto islands and flew the kites. Kemp's diary exists in a brief contemporary form and a fuller typed version he made around 1930; the two are not always the same, and this chapter says which is meant where it can.",
+  "The message in transit here is almost absurdly small: the Morse letter S, three dots, sent repeatedly from a great spark station at Poldhu in Cornwall and heard, on 12 December 1901, through a telephone earpiece on Signal Hill above St John's, Newfoundland. Only two men heard it, both from the same company, and nothing was written on tape. Within days a cable company's lawyers had ordered the experiment to stop, and engineers on both sides of the Atlantic were asking whether three dots were a signal or just static.",
+  "The answer came at sea. In February 1902 Marconi sailed for New York on the SS Philadelphia and had the captain and chief officer sign the printed tapes as messages arrived from Poldhu: readable words to 1,551 miles, the letter S to 2,099. The same voyage revealed that signals carried much farther by night than by day, an effect no one had predicted.",
+  "Priority runs under every entry. Lodge showed signals between buildings in 1894 but sent no message; Popov's 'Heinrich Hertz' telegram of 1896 rests on later recollection; Bose published openly and patented nothing, and his 1899 detector probably sat at Marconi's ear; Fleming built the sending station and felt erased from the story. These are set out here as positions with their evidence, not as verdicts."
+ ],
+ "calendar_note": "Russian dates before 1918 were kept in the Julian (Old Style) calendar, 12 days behind the Gregorian in the nineteenth century and 13 days behind from March 1900. Popov's paper of 25 April 1895 (O.S.) is therefore 7 May 1895, the date Russia keeps as Radio Day, and his March demonstration of 12 March 1896 (O.S.) is 24 March 1896; date_iso always gives the Gregorian date. Times at Signal Hill are Newfoundland local time, about three and a half hours behind Greenwich, so 12.30 pm in St John's was about 4 pm at Poldhu; times on the Philadelphia are ship's time.",
+ "eyes": [
+  {
+   "id": "marconi",
+   "short": "Marconi",
+   "name": "Guglielmo Marconi",
+   "life": "1874–1937",
+   "role": "Italian-Irish experimenter of private means, 21 when he reached London in 1896 and 27 at Signal Hill; founder of the Wireless Telegraph and Signal Company (1897)",
+   "side": "Britain and Italy; the Marconi company",
+   "where": "London and the English test sites, then Poldhu (Cornwall) and Signal Hill, St John's, Newfoundland; aboard SS Philadelphia, February 1902",
+   "lat": 47.57,
+   "lon": -52.682,
+   "waypoints": [
+    {
+     "lat": 51.17,
+     "lon": -1.83,
+     "label": "Salisbury Plain, Sept 1896"
+    },
+    {
+     "lat": 51.405,
+     "lon": -3.17,
+     "label": "Lavernock Point, May 1897"
+    },
+    {
+     "lat": 51.14,
+     "lon": 1.372,
+     "label": "South Foreland, March 1899"
+    },
+    {
+     "lat": 50.031,
+     "lon": -5.262,
+     "label": "Poldhu, 1901"
+    },
+    {
+     "lat": 47.57,
+     "lon": -52.682,
+     "label": "Signal Hill, Dec 1901"
+    },
+    {
+     "lat": 42.1,
+     "lon": -47.23,
+     "label": "SS Philadelphia, 2,099 miles, Feb 1902"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the receiver with the earpiece",
+   "form": "pocket diary, patent specifications, dated cables and published statements",
+   "language": "English (also Italian)",
+   "authenticity": "His 1901 pocket diary carries terse pencil notes and, under 12 December, ink notes of signal times; biographer Marc Raboy observes that notes were not always written on the page of the day they record. His December 1901 statements, his 13 January 1902 AIEE speech and his April 1902 McClure's account were printed at the time. The Marconi Archives are at the Bodleian Library, Oxford.",
+   "bio": "Marconi was less a discoverer than an assembler and a relentless field tester: he patented early, demonstrated in public before officials and journalists, and pushed distance when physicists said curvature of the earth forbade it. His record is the spine of this chapter, but almost every key claim in it was witnessed by one interested assistant or certified by a friendly captain, which is why the doubters matter.",
+   "sources": [
+    {
+     "title": "Marconi's own story, McClure's Magazine, April 1902 (transcribed)",
+     "url": "https://earlyradiohistory.us/1902phil.htm"
+    },
+    {
+     "title": "AIEE annual dinner, 13 January 1902, Transactions of the AIEE",
+     "url": "https://earlyradiohistory.us/1902wt.htm"
+    },
+    {
+     "title": "Pocket diary notes for 12–13 Dec 1901, as quoted from Raboy (The Diary Junction)",
+     "url": "https://thediaryjunction.blogspot.com/2017/07/signalling-with-marconi.html"
+    }
+   ]
+  },
+  {
+   "id": "kemp",
+   "short": "Kemp",
+   "name": "George Stephen Kemp",
+   "life": "1857–1933",
+   "role": "Former Royal Navy petty officer and Post Office technician lent to Marconi by William Preece in 1896; Marconi's senior assistant, about 44 in 1901",
+   "side": "Britain; Post Office, then the Marconi company",
+   "where": "Lavernock and Flat Holm (1897); Signal Hill, St John's (December 1901)",
+   "lat": 47.57,
+   "lon": -52.682,
+   "waypoints": [
+    {
+     "lat": 51.378,
+     "lon": -3.122,
+     "label": "Flat Holm, May 1897"
+    },
+    {
+     "lat": 51.327,
+     "lon": -3.02,
+     "label": "Brean Down, May 1897"
+    },
+    {
+     "lat": 47.57,
+     "lon": -52.682,
+     "label": "Signal Hill, Dec 1901"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the assistant holding the kite string",
+   "form": "diary (pocket diary, plus an expanded typed version made c. 1930)",
+   "language": "English",
+   "authenticity": "Kemp kept a pocket diary for decades (the Bodleian holds his papers, including expanded extracts covering 1897–1920). The contemporary pocket entries are brief; the typed version he prepared for the Marconi company around 1930, in his seventies, adds detail that the historian Gerald Garratt treated with caution. Where the version quoted by later books is unclear, entries here are marked approx.",
+   "bio": "Kemp was the practical hand behind most of Marconi's early triumphs: rigging masts, hauling apparatus onto islands, launching kites in gales. He is also the only other witness to the Signal Hill signals, and so both the chief corroborator and, as the IEEE milestone text puts it, hardly an impartial one.",
+   "sources": [
+    {
+     "title": "Kemp's 1897 diary entries as quoted by Garratt (The Diary Junction)",
+     "url": "https://thediaryjunction.blogspot.com/2017/07/signalling-with-marconi.html"
+    },
+    {
+     "title": "Bussey, Marconi's Atlantic Leap (1999), quoting Kemp for Dec 1901",
+     "url": "https://worldradiohistory.com/Bookshelf/Biography/Marconi's-Atlantic-Leap-Bussey-1999.pdf"
+    }
+   ]
+  },
+  {
+   "id": "fleming",
+   "short": "Fleming",
+   "name": "John Ambrose Fleming",
+   "life": "1849–1945",
+   "role": "Professor of electrical engineering at University College London, aged 52 in 1901; scientific consultant to the Marconi company from 1 December 1900",
+   "side": "Britain; UCL and the Marconi company",
+   "where": "Designing and testing the Poldhu power station, Cornwall; mostly in London in December 1901",
+   "lat": 50.031,
+   "lon": -5.262,
+   "waypoints": [
+    {
+     "lat": 51.524,
+     "lon": -0.134,
+     "label": "University College London"
+    },
+    {
+     "lat": 50.031,
+     "lon": -5.262,
+     "label": "Poldhu, 1901"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the engineer of the sending end",
+   "form": "laboratory notebooks and letters (unpublished; reconstructed by historians)",
+   "language": "English",
+   "authenticity": "Fleming's notebooks and papers are at University College London. The account of the Poldhu work and of the later quarrel over credit rests mainly on Sungook Hong's reconstruction from these unpublished notebooks (Annals of Science, 1996). Fleming's later memoir is a retrospective source.",
+   "bio": "Fleming brought Cambridge-trained measurement and heavy-current power engineering to a project Marconi ran by intuition and field trial. He designed the Poldhu building and plant and a keying method that tamed the enormous spark; then he watched the triumph announced with himself as a footnote. His view is that of the expert whose contribution vanished into another man's name.",
+   "sources": [
+    {
+     "title": "Hong, styles and credit: Fleming and Marconi on the first transatlantic wireless telegraphy (Annals of Science, 1996)",
+     "url": "https://informahealthcare.com/doi/abs/10.1080/00033799600200311"
+    },
+    {
+     "title": "Hong, Syntony and credibility: Fleming, Marconi and the Maskelyne affair (1996)",
+     "url": "https://link.springer.com/chapter/10.1007/978-94-009-1784-2_5"
+    }
+   ]
+  },
+  {
+   "id": "lodge",
+   "short": "Lodge",
+   "name": "Oliver Joseph Lodge",
+   "life": "1851–1940",
+   "role": "Professor of physics at University College, Liverpool, aged 43 in 1894",
+   "side": "Britain; the 'Maxwellian' physicists",
+   "where": "Oxford (British Association meeting, August 1894); Liverpool laboratory",
+   "lat": 51.759,
+   "lon": -1.255,
+   "waypoints": [
+    {
+     "lat": 51.759,
+     "lon": -1.255,
+     "label": "Oxford, 14 Aug 1894"
+    },
+    {
+     "lat": 53.406,
+     "lon": -2.966,
+     "label": "Liverpool"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "the physicist who got there first, as a lecture",
+   "form": "published lectures, papers and patents",
+   "language": "English",
+   "authenticity": "The 1894 Oxford demonstration is known from printed reports and Lodge's later writings; the Science Museum, which holds coherers he probably made and used that day, states that the signals did not form an intelligible message, contrary to some later accounts. His syntonic patent (filed 1897, granted 1898) is a documentary record.",
+   "bio": "Lodge showed Hertzian waves crossing between buildings two years before Marconi reached London, but treated it as physics, not a telegraph. His later tuning ('syntonic') patent became a lever: the Marconi company bought it in 1912. His angle is the scientist's regret at having demonstrated without pursuing.",
+   "sources": [
+    {
+     "title": "Science Museum Group: two iron boring coherers used by Lodge, 1894",
+     "url": "https://collection.sciencemuseumgroup.org.uk/objects/co34936/two-iron-boring-coherers-branly-type-1894"
+    },
+    {
+     "title": "Oliver Lodge (overview)",
+     "url": "https://en.wikipedia.org/wiki/Oliver_Lodge"
+    }
+   ]
+  },
+  {
+   "id": "bose",
+   "short": "J. C. Bose",
+   "name": "Jagadish Chandra Bose",
+   "life": "1858–1937",
+   "role": "Professor of physics at Presidency College, Calcutta, aged 36–43 across these years; working with millimetre-scale electric waves",
+   "side": "British India; Bengal",
+   "where": "Presidency College, Calcutta; lecturing in London in 1897 and 1900–01",
+   "lat": 22.575,
+   "lon": 88.363,
+   "waypoints": [
+    {
+     "lat": 22.575,
+     "lon": 88.363,
+     "label": "Presidency College, Calcutta"
+    },
+    {
+     "lat": 51.51,
+     "lon": -0.143,
+     "label": "Royal Institution, Jan 1897"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "the colonial physicist who refused to patent",
+   "form": "published papers, lectures and dated letters",
+   "language": "English (letters also in Bengali)",
+   "authenticity": "His Royal Society papers (1895–99) and the 29 January 1897 Royal Institution discourse are printed records. The 1895 Calcutta public demonstration is known from later biographies; its exact day and some details (the bell, the pistol fired, the Lieutenant-Governor's presence) are not documented in a contemporary source seen here. The claim that Marconi's Signal Hill detector derived from Bose's 1899 coherer is argued by Probir Bondyopadhyay (1998) and accepted by the Science Museum's catalogue as likely.",
+   "bio": "Bose built some of the finest short-wave apparatus of the decade on a colonial college budget and published it openly, on principle declining to profit from it. His 1899 mercury-and-iron coherer with a telephone earpiece became, by a disputed route through the Italian Navy, very probably the detector Marconi listened through in Newfoundland.",
+   "sources": [
+    {
+     "title": "British Library: Bose, the man who almost invented the radio",
+     "url": "https://www.bl.uk/stories/blogs/posts/sir-jagadis-chandra-bose-the-man-who-almost-invented-the-radio"
+    },
+    {
+     "title": "Bondyopadhyay, Sir J. C. Bose's diode detector received Marconi's first transatlantic signal (Proc. IEEE 1998)",
+     "url": "https://www.cse.iitm.ac.in/~murthy/sirjcbose.pdf"
+    },
+    {
+     "title": "Patrick Geddes, Sir Jagadis Chunder Bose, His Life and Speeches (Project Gutenberg)",
+     "url": "https://gutenberg.org/cache/epub/22085/pg22085-images.html"
+    }
+   ]
+  },
+  {
+   "id": "popov",
+   "short": "Popov",
+   "name": "Alexander Stepanovich Popov",
+   "life": "1859–1906",
+   "role": "Physics instructor at the Naval Torpedo School, Kronstadt, aged 36 in 1895",
+   "side": "Russian Empire; Imperial Navy",
+   "where": "St Petersburg University and Kronstadt; the Gulf of Finland (Gogland, 1900)",
+   "lat": 59.941,
+   "lon": 30.299,
+   "waypoints": [
+    {
+     "lat": 59.941,
+     "lon": 30.299,
+     "label": "St Petersburg University, 1895–96"
+    },
+    {
+     "lat": 59.99,
+     "lon": 29.77,
+     "label": "Kronstadt"
+    },
+    {
+     "lat": 60.05,
+     "lon": 26.97,
+     "label": "Gogland (Hogland), 1900"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "the navy teacher with a lightning detector",
+   "form": "published society reports and papers; later recollections by others",
+   "language": "Russian",
+   "authenticity": "The 7 May 1895 (25 April O.S.) paper and its January 1896 printed report are documented. No official minute records the March 1896 'Heinrich Hertz' message; that story comes from accounts published decades later, when Russian and Soviet priority claims were being pressed (from at least 1925; 7 May became Soviet Radio Day in 1945). Historian Charles Susskind (1962) concluded Popov did not use radio for real communication before mid-1896.",
+   "bio": "Popov turned Lodge's coherer into an automatic receiver with an aerial wire and a recorder, used it to log distant thunderstorms, and said in print it might one day signal at a distance. His case for priority is a national position as much as a historical one; his own record is quieter and more careful than the claims later made for him.",
+   "sources": [
+    {
+     "title": "IEEE Spectrum: Who invented radio, Marconi or Popov?",
+     "url": "https://spectrum.ieee.org/who-invented-radio-guglielmo-marconi-or-aleksandr-popov"
+    },
+    {
+     "title": "Electronics World, July 1960: Did Popov invent radio?",
+     "url": "https://www.rfcafe.com/references/electronics-world/popov-invent-radio-electronics-world-july-1960.htm"
+    },
+    {
+     "title": "Aleksandr Popov (overview)",
+     "url": "https://en.wikipedia.org/wiki/Aleksandr_Popov_(physicist)"
+    }
+   ]
+  },
+  {
+   "id": "slaby",
+   "short": "Slaby",
+   "name": "Adolf Karl Heinrich Slaby",
+   "life": "1849–1913",
+   "role": "Professor of electrical engineering at the Technische Hochschule Berlin-Charlottenburg, aged 47 in 1897, with access to Kaiser Wilhelm II",
+   "side": "German Empire",
+   "where": "Lavernock Point, Bristol Channel (May 1897), then Berlin and Potsdam",
+   "lat": 52.512,
+   "lon": 13.327,
+   "waypoints": [
+    {
+     "lat": 51.405,
+     "lon": -3.17,
+     "label": "Lavernock, May 1897"
+    },
+    {
+     "lat": 52.43,
+     "lon": 13.1,
+     "label": "Sacrow–Kongsnaes, Potsdam"
+    },
+    {
+     "lat": 52.48,
+     "lon": 13.35,
+     "label": "Schöneberg–Rangsdorf link, Oct 1897"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the guest who went home and built a rival",
+   "form": "published articles and a lecture book",
+   "language": "German (also English articles)",
+   "authenticity": "His observation of the Bristol Channel trials is recorded in Kemp's diary and in Slaby's own English article 'The New Telegraphy' (Century Magazine, April 1898). Dates of his German links come from standard biographies.",
+   "bio": "Slaby came to the Bristol Channel through his friendship with Preece, watched everything, and within months had a German system working near Berlin with his assistant Georg von Arco. Through him the Kaiser's government entered the race; the German groups he and Braun inspired merged into Telefunken in 1903.",
+   "sources": [
+    {
+     "title": "Adolf Slaby (overview)",
+     "url": "https://en.wikipedia.org/wiki/Adolf_Slaby"
+    }
+   ]
+  },
+  {
+   "id": "braun",
+   "short": "Braun",
+   "name": "Karl Ferdinand Braun",
+   "life": "1850–1918",
+   "role": "Professor of physics at the University of Strasbourg, aged 48 when he took up wireless in 1898",
+   "side": "German Empire (Alsace)",
+   "where": "Strasbourg; test stations at Cuxhaven and Heligoland",
+   "lat": 48.58,
+   "lon": 7.765,
+   "waypoints": [
+    {
+     "lat": 48.58,
+     "lon": 7.765,
+     "label": "Strasbourg"
+    },
+    {
+     "lat": 53.87,
+     "lon": 8.7,
+     "label": "Cuxhaven, 1899–1900"
+    },
+    {
+     "lat": 54.18,
+     "lon": 7.89,
+     "label": "Heligoland, 1900"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "the physicist who fixed the transmitter",
+   "form": "published papers and Nobel lecture (written later)",
+   "language": "German",
+   "authenticity": "His own chronology is given in his Nobel lecture of 11 December 1909, a retrospective but dated and precise account.",
+   "bio": "Braun saw that Marconi's spark-in-the-aerial transmitter wasted energy and built a coupled, closed-circuit transmitter that could be tuned. In 1909 he shared the Nobel Prize with Marconi, a joint award that itself encoded a priority settlement between rivals.",
+   "sources": [
+    {
+     "title": "Braun, Nobel lecture, 11 December 1909",
+     "url": "https://www.nobelprize.org/uploads/2018/06/braun-lecture.pdf"
+    }
+   ]
+  },
+  {
+   "id": "preece",
+   "short": "Preece",
+   "name": "William Henry Preece",
+   "life": "1834–1913",
+   "role": "Engineer-in-Chief of the British Post Office, aged 62 in 1896",
+   "side": "Britain; the General Post Office",
+   "where": "London; the Salisbury Plain and Bristol Channel trials",
+   "lat": 51.515,
+   "lon": -0.098,
+   "waypoints": [
+    {
+     "lat": 51.17,
+     "lon": -1.83,
+     "label": "Salisbury Plain, 1896"
+    },
+    {
+     "lat": 51.517,
+     "lon": -0.073,
+     "label": "Toynbee Hall, Dec 1896"
+    },
+    {
+     "lat": 51.405,
+     "lon": -3.17,
+     "label": "Lavernock, 1897"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the patron who later doubted",
+   "form": "public lectures and statements reported in the press",
+   "language": "English",
+   "authenticity": "His Toynbee Hall and later lectures, and his December 1901 doubts, are known from contemporary press reports (The Times, The Spectator), not a diary.",
+   "bio": "Preece gave the young Italian Post Office engineers, Kemp among them, and a public platform. By 1901 the Post Office and Marconi had parted, and Preece was among those who pointed out that three dots are exactly what a stray atmospheric discharge might make.",
+   "sources": [
+    {
+     "title": "Museum of the History of Science, Oxford: Marconi arrives",
+     "url": "https://www.mhs.ox.ac.uk/marconi/exhibition/marconiarrives.html"
+    },
+    {
+     "title": "The Spectator, 21 December 1901",
+     "url": "https://archive.spectator.co.uk/article/21st-december-1901/10/-wireless-telegraphy"
+    }
+   ]
+  },
+  {
+   "id": "solari",
+   "short": "Solari",
+   "name": "Luigi Solari",
+   "life": "1873–1957",
+   "role": "Lieutenant (later Marquis) in the Royal Italian Navy, Marconi's boyhood acquaintance and navy liaison",
+   "side": "Kingdom of Italy; Regia Marina",
+   "where": "La Spezia and the navy's wireless tests; Poldhu in 1902",
+   "lat": 44.1,
+   "lon": 9.82,
+   "waypoints": [
+    {
+     "lat": 44.1,
+     "lon": 9.82,
+     "label": "La Spezia"
+    },
+    {
+     "lat": 50.031,
+     "lon": -5.262,
+     "label": "Poldhu, 1902"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "the officer who brought the coherer",
+   "form": "dated letters to the press; later memoirs",
+   "language": "Italian and English",
+   "authenticity": "His letters to The Times of 3 July 1902 and 10 July 1903 are printed records; their claims about the detector's origin are positions in a dispute, discussed by Bondyopadhyay (1998).",
+   "bio": "Solari said he himself had offered Marconi the mercury coherer, and he denied that a navy signalman named Paolo Castelli had invented it. Neither he nor Marconi named Bose, whose 1899 paper described the same principle.",
+   "sources": [
+    {
+     "title": "Bondyopadhyay (1998), discussing the Solari letters",
+     "url": "https://www.cse.iitm.ac.in/~murthy/sirjcbose.pdf"
+    }
+   ]
+  },
+  {
+   "id": "winter",
+   "short": "J. S. Winter",
+   "name": "Sir James Spearman Winter",
+   "life": "1845–1911",
+   "role": "St John's lawyer and former Premier of Newfoundland, acting for Marconi in December 1901",
+   "side": "Newfoundland colony",
+   "where": "St John's, Newfoundland",
+   "lat": 47.562,
+   "lon": -52.712,
+   "vantage": 1,
+   "vantage_label": "the local lawyer at the monopoly's door",
+   "form": "dated letter",
+   "language": "English",
+   "authenticity": "His reply of 18 December 1901 to the Anglo-American Telegraph Company's solicitors is quoted from the Marconi papers in Bussey (1999).",
+   "bio": "Winter's one surviving act in this story is a lawyer's letter conceding, for the present, to the cable company's monopoly. It marks the moment a signal that cost nothing to send ran into a charter that had cost a great deal to win.",
+   "sources": [
+    {
+     "title": "Bussey, Marconi's Atlantic Leap (1999)",
+     "url": "https://worldradiohistory.com/Bookshelf/Biography/Marconi's-Atlantic-Leap-Bussey-1999.pdf"
+    }
+   ]
+  },
+  {
+   "id": "pupin",
+   "short": "Pupin",
+   "name": "Michael Idvorsky Pupin",
+   "life": "1858–1935",
+   "role": "Serbian-born professor of electromechanics at Columbia University, aged 43",
+   "side": "United States",
+   "where": "New York, the Waldorf-Astoria dinner, January 1902",
+   "lat": 40.748,
+   "lon": -73.985,
+   "vantage": 4,
+   "vantage_label": "the sceptical physicist at the banquet",
+   "form": "printed speech (dated transcript)",
+   "language": "English",
+   "authenticity": "His remarks are printed in the Transactions of the American Institute of Electrical Engineers for 1902.",
+   "bio": "At the dinner held in Marconi's honour, Pupin said aloud what many physicists thought: he believed the claim because he trusted the man, not because the evidence met scientific standards. It is the scientist's doubt delivered as a toast.",
+   "sources": [
+    {
+     "title": "AIEE annual dinner, 13 January 1902",
+     "url": "https://earlyradiohistory.us/1902wt.htm"
+    }
+   ]
+  },
+  {
+   "id": "mills",
+   "short": "Capt. Mills",
+   "name": "A. R. Mills",
+   "life": "fl. 1902",
+   "role": "Master of the American Line steamer SS Philadelphia",
+   "side": "United States merchant marine",
+   "where": "Bridge of the Philadelphia, Southampton–Cherbourg–New York, February 1902",
+   "lat": 42.1,
+   "lon": -47.23,
+   "waypoints": [
+    {
+     "lat": 49.64,
+     "lon": -1.62,
+     "label": "Cherbourg, 22 Feb 1902"
+    },
+    {
+     "lat": 42.1,
+     "lon": -47.23,
+     "label": "2,099 miles from Poldhu"
+    },
+    {
+     "lat": 40.7,
+     "lon": -74.01,
+     "label": "New York"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the captain who signed the tape",
+   "form": "log (signed certification of received messages)",
+   "language": "English",
+   "authenticity": "McClure's Magazine (April 1902) names him as Captain A. R. Mills and the chief officer as Marsden, both signing the tapes; Bussey (1999) spells the name Miles. The certified tapes themselves are known through these printed accounts.",
+   "bio": "A ship's master is a professional sceptic about position and time, which is why Marconi wanted his signature. His certified record turned the unwitnessed three dots of Signal Hill into something readable on paper: messages to 1,551 miles and the letter S to 2,099.",
+   "sources": [
+    {
+     "title": "McClure's Magazine, April 1902 (transcribed)",
+     "url": "https://earlyradiohistory.us/1902phil.htm"
+    },
+    {
+     "title": "Nature, 6 March 1902",
+     "url": "https://www.nature.com/articles/065416e0"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1894-06-01",
+   "date_display": "Friday 1 June 1894",
+   "precision": "day",
+   "eye": "lodge",
+   "place": "Royal Institution, London",
+   "headline": "A memorial lecture on Hertz shows waves behaving like light",
+   "digest": "Five months after Heinrich Hertz's death, Lodge used a Friday Evening Discourse to show that Hertzian waves could be reflected and focused like light. The detector was a Branly-type tube of filings, a coherer, read by a galvanometer. It was a physics demonstration of a theory, not an attempt at telegraphy.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lodge overview (Royal Institution discourse of 1 June 1894)."
+  },
+  {
+   "date_iso": "1894-08-14",
+   "date_display": "Tuesday 14 August 1894",
+   "precision": "day",
+   "eye": "lodge",
+   "place": "Oxford, British Association meeting (Clarendon Laboratory and University Museum)",
+   "headline": "Waves crossed between Oxford buildings, about 55 metres apart",
+   "digest": "At the British Association meeting, Lodge's apparatus sent Hertzian waves from one building to another, the receiving coherer swinging the spot of a marine galvanometer. Later tellings turned this into the first Morse message, but the Science Museum, which holds coherers he probably used, says the signals did not form an intelligible message. The audience saw a laboratory effect with a telegraph inside it, unrecognised.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Science Museum Group object record for Lodge's 1894 coherers; distance from Lodge overview."
+  },
+  {
+   "date_iso": "1895-05-07",
+   "date_display": "Tuesday 7 May 1895 (25 April O.S.)",
+   "precision": "day",
+   "eye": "popov",
+   "place": "St Petersburg University, Russian Physico-Chemical Society",
+   "headline": "A detector that rings for distant sparks, and a hope",
+   "digest": "Popov read a paper on how metallic powders respond to electric oscillations and showed his receiver: a coherer with an automatic tapper and a bell, fed by a wire aerial. He closed by suggesting it might serve signalling at a distance once a strong enough source of oscillations was found. That cautious sentence became, half a century later, the basis of Russia's Radio Day.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Popov paper of 25 April/7 May 1895; report printed January 1896 (Electronics World 1960; IEEE Spectrum)."
+  },
+  {
+   "date_iso": "1895-07",
+   "date_display": "July 1895",
+   "precision": "month",
+   "eye": "popov",
+   "place": "Roof of the Forestry Institute, St Petersburg",
+   "headline": "Listening to thunderstorms 50 kilometres away",
+   "digest": "Popov mounted the receiver with a recording pen on the roof of the Forestry Institute, where it logged lightning discharges from storms tens of kilometres off. The machine was a weather instrument, not yet a telegraph, but it was already receiving signals sent by no one.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Popov overview; Science Museum Group record for the 2014 replica receiver."
+  },
+  {
+   "date_iso": "1895-11",
+   "date_display": "late 1895 (exact day not documented here)",
+   "precision": "month",
+   "eye": "bose",
+   "place": "Calcutta",
+   "headline": "Waves through walls in a Calcutta hall",
+   "digest": "Biographies describe a public demonstration in Calcutta in which Bose's short waves passed through brick walls to a receiver about 75 feet away and set off a bell and a small charge. The account comes from later sources; the date usually given is November 1895, and the presence of the Lieutenant-Governor is a later detail.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Bondyopadhyay (1998) mentions the 75-foot demonstration without date; month as given in biographies."
+  },
+  {
+   "date_iso": "1896-03-24",
+   "date_display": "Tuesday 24 March 1896 (12 March O.S.)",
+   "precision": "day",
+   "eye": "popov",
+   "place": "St Petersburg University",
+   "headline": "The 'Heinrich Hertz' message: a later account",
+   "digest": "According to accounts published decades later, Popov sent Morse between two university buildings about 250 metres apart and the Society's president chalked the letters on a board: Heinrich Hertz. No official minute of such a message is known, and the historian Charles Susskind concluded Popov had not communicated by radio before mid-1896. The story is a priority position, not a recorded event.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "IEEE Spectrum notes no official record exists; Popov overview cites Susskind (1962)."
+  },
+  {
+   "date_iso": "1896-06-02",
+   "date_display": "Tuesday 2 June 1896",
+   "precision": "day",
+   "eye": "marconi",
+   "place": "London, Patent Office",
+   "headline": "A provisional patent: improvements in transmitting signals",
+   "digest": "Four months after arriving in England, Marconi filed the application that became British patent 12039. The complete specification followed in 1897 and the patent was granted that summer. Lodge and other physicists would argue that the patent claimed familiar elements; Marconi's answer was that he had put them together to work.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Grace's Guide (filed 2 June 1896); MHS Oxford history page (granted July 1897)."
+  },
+  {
+   "date_iso": "1896-09-02",
+   "date_display": "Wednesday 2 September 1896",
+   "precision": "day",
+   "eye": "marconi",
+   "place": "Three Mile Hill, Salisbury Plain",
+   "headline": "Signals across Salisbury Plain before Army and Navy officers",
+   "digest": "Marconi demonstrated his parabolic-reflector transmitter and receiver on open downland before representatives of the Army, the Navy and the Post Office. The ranges reached a few miles, modest but enough to interest the War Office and Admiralty.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Grace's Guide; MHS Oxford, 'Marconi arrives'."
+  },
+  {
+   "date_iso": "1896-12-12",
+   "date_display": "December 1896 (12 December usually given)",
+   "precision": "day",
+   "eye": "preece",
+   "place": "Toynbee Hall, Whitechapel, London",
+   "headline": "A bell rings in a box with no wire to it",
+   "digest": "Lecturing on telegraphy without wires, Preece made a spark on the platform, and a box Marconi carried rang its bell with nothing visibly joining them. The trick made the young inventor a celebrity in the London press.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "MHS Oxford, 'Marconi arrives' (December 1896); exact day from secondary accounts."
+  },
+  {
+   "date_iso": "1897-01-29",
+   "date_display": "Friday 29 January 1897",
+   "precision": "day",
+   "eye": "bose",
+   "place": "Royal Institution, London",
+   "headline": "Bose shows his apparatus at a Friday Evening Discourse",
+   "digest": "Bose lectured on electric waves and openly displayed his coherer and short-wave apparatus. The Spectator, which confessed it could not judge the physics, found it remarkable that a Bengali professor was teaching European scientists electric radiation, and used the occasion to rebuke European contempt for Asian minds.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "British Library blog (29 January 1897); Spectator, 6 February 1897 ('Friday week')."
+  },
+  {
+   "date_iso": "1897-05-13",
+   "date_display": "Thursday 13 May 1897",
+   "precision": "day",
+   "eye": "kemp",
+   "place": "Flat Holm and Lavernock Point, Bristol Channel",
+   "headline": "The great day for Flat Holm signals",
+   "digest": "Kemp recorded good signals in both directions across the Bristol Channel between about noon and 1.45 pm, on Marconi's system and on the Post Office's rival parallel-wire method. His expanded typed version adds that a test message was posted to the Kaiser by Professor Slaby, who was watching.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kemp diary, 13 May 1897, as quoted from Garratt (The Diary Junction); the Slaby detail is in the c. 1930 typed version."
+  },
+  {
+   "date_iso": "1897-05-13",
+   "date_display": "13 May 1897",
+   "precision": "day",
+   "eye": "slaby",
+   "place": "Lavernock Point",
+   "headline": "A German professor watches, and takes notes",
+   "digest": "Slaby, admitted through his friendship with Preece, watched the Lavernock trials and later wrote in English that he had seen something new. He went home convinced, and began building his own apparatus with his assistant Georg von Arco.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kemp diary (Slaby present); Slaby's 'The New Telegraphy', Century Magazine, April 1898, per Slaby overview."
+  },
+  {
+   "date_iso": "1897-05-18",
+   "date_display": "Tuesday 18 May 1897",
+   "precision": "day",
+   "eye": "kemp",
+   "place": "Brean Down, Somerset",
+   "headline": "A kite lifts the aerial across nine miles of water",
+   "digest": "After moving the apparatus from Flat Holm, Kemp noted good signals reaching Brean Down with a kite holding up 300 feet of stranded wire. Kites would come back four years later on Signal Hill.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kemp diary, 18 May 1897 (The Diary Junction)."
+  },
+  {
+   "date_iso": "1897-07-20",
+   "date_display": "Tuesday 20 July 1897",
+   "precision": "day",
+   "eye": "marconi",
+   "place": "London",
+   "headline": "The Wireless Telegraph and Signal Company is registered",
+   "digest": "With patent 12039 granted, Marconi's backers registered a company. The Post Office, which had hosted his trials, now found it was dealing with a private competitor.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Grace's Guide."
+  },
+  {
+   "date_iso": "1897-10-07",
+   "date_display": "Thursday 7 October 1897",
+   "precision": "day",
+   "eye": "slaby",
+   "place": "Schöneberg to Rangsdorf, near Berlin",
+   "headline": "A 21-kilometre German link",
+   "digest": "Slaby and Arco's link between Schöneberg and Rangsdorf, about 21 kilometres, was hailed in Germany as a record. Imperial and military interest followed, and with it a national rival to the Marconi company.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Slaby overview."
+  },
+  {
+   "date_iso": "1898-10",
+   "date_display": "autumn 1898",
+   "precision": "range",
+   "eye": "braun",
+   "place": "Strasbourg",
+   "headline": "Taking the spark out of the aerial",
+   "digest": "Braun turned to wireless seeking stronger effects from the transmitter. He reasoned that a large Leyden-jar circuit coupled to a sparkless aerial could match Marconi's voltage while wasting less energy, and arrived at direct, inductive and mixed couplings.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Braun, Nobel lecture, 11 December 1909."
+  },
+  {
+   "date_iso": "1899-03-27",
+   "date_display": "27 March 1899",
+   "precision": "day",
+   "eye": "marconi",
+   "place": "South Foreland lighthouse and Wimereux, near Boulogne",
+   "headline": "Across the Channel, 32 miles, without a wire",
+   "digest": "Messages passed between the South Foreland and Wimereux. The Spectator reported them read as clearly as if wire had joined the shores, and noted the threat to the short-sea cable companies. A courtesy message was sent to the French physicist Édouard Branly, whose coherer made it possible.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "MHS Oxford history page (27 March 1899); Spectator, 1 April 1899, reports the messages 'on Tuesday'."
+  },
+  {
+   "date_iso": "1899-04-27",
+   "date_display": "Thursday 27 April 1899",
+   "precision": "day",
+   "eye": "bose",
+   "place": "Read at the Royal Society, London",
+   "headline": "A self-recovering coherer heard through a telephone",
+   "digest": "Bose's paper, communicated by Lord Rayleigh, described a detector using mercury in contact with iron that reset itself without tapping and could be heard through a telephone receiver. It was published openly in the Proceedings. Two and a half years later, a device of exactly this principle sat at Marconi's ear.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bondyopadhyay (1998): communicated 6 March, read 27 April 1899."
+  },
+  {
+   "date_iso": "1900-02",
+   "date_display": "late January–February 1900 (N.S.)",
+   "precision": "month",
+   "eye": "popov",
+   "place": "Gulf of Finland: Gogland and Kotka",
+   "headline": "Wireless saves a grounded battleship's winter",
+   "digest": "With the battleship General-Admiral Apraksin aground on Gogland, Popov's navy team set up a station and by early February messages were passing to Kotka on the Finnish shore, about 40 kilometres away; hundreds of official telegrams followed. Accounts that a wireless order sent the icebreaker Yermak to rescue fishermen on drifting ice are widely repeated but less well sourced.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Popov overview (messages by 5 February; 440 telegrams by April; fishermen claim marked uncited)."
+  },
+  {
+   "date_iso": "1900-11-16",
+   "date_display": "Friday 16 November 1900",
+   "precision": "day",
+   "eye": "braun",
+   "place": "Strasbourg Natural Sciences Society",
+   "headline": "Braun shows his coupled transmitter",
+   "digest": "Braun gave his first lecture-demonstration of the coupled system in Strasbourg, after test stations at Cuxhaven had run since Easter 1899 and results had been shown on Heligoland. On 1 February 1901 he demonstrated tuning.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Braun, Nobel lecture."
+  },
+  {
+   "date_iso": "1900-12-01",
+   "date_display": "1 December 1900",
+   "precision": "day",
+   "eye": "fleming",
+   "place": "London",
+   "headline": "Fleming signs on as consultant",
+   "digest": "Fleming became the Marconi company's scientific consultant for three years at £500 a year. His first task, he wrote, was designing the building and machinery for a station far more powerful than anything yet tried: Poldhu.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bussey (1999), citing Fleming's appointment and his own description."
+  },
+  {
+   "date_iso": "1901-06",
+   "date_display": "1901 (spring–autumn)",
+   "precision": "range",
+   "eye": "fleming",
+   "place": "Poldhu, Cornwall",
+   "headline": "Taming a spark the size of a power station",
+   "digest": "Fleming's notebooks show months of work on the alternator, transformers and condensers at Poldhu and on a way of keying the transmitter without destructive arcing. He worked by measurement and calculation; Marconi tuned by trial in the field. The clash of styles, Hong argues, ended in a quarrel over who deserved credit.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Hong, Annals of Science (1996), abstract; Bussey (1999)."
+  },
+  {
+   "date_iso": "1901-09-09",
+   "date_display": "9 September 1901",
+   "precision": "day",
+   "eye": "marconi",
+   "place": "London",
+   "headline": "A patent for a drop of mercury between two conductors",
+   "digest": "Marconi filed patent 18105 for a coherer in which a drop of conducting liquid lies between two conductors, in his own name. In July 1902 it was amended to say the invention had been communicated to him from abroad by the Marquis Solari.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bondyopadhyay (1998), citing the patent and its 16 July 1902 amendment."
+  },
+  {
+   "date_iso": "1901-11-26",
+   "date_display": "Tuesday 26 November 1901",
+   "precision": "day",
+   "eye": "marconi",
+   "place": "Liverpool, aboard SS Sardinian",
+   "headline": "Sailing west with kites, balloons and two assistants",
+   "digest": "Marconi left for Newfoundland with Kemp and Percy Paget, carrying receiving apparatus, hydrogen balloons and kites. The Cape Cod station had been damaged by storm, so the attempt would use a temporary receiver held up in the air.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bussey (1999); Marconi at the AIEE dinner, 13 January 1902 (storm damage)."
+  },
+  {
+   "date_iso": "1901-12-06",
+   "date_display": "Friday 6 December 1901",
+   "precision": "day",
+   "eye": "kemp",
+   "place": "St John's, Newfoundland",
+   "headline": "Landing at St John's and choosing Signal Hill",
+   "digest": "Marconi, Kemp and Paget landed and chose an empty hospital building on Signal Hill, near Cabot Tower, for their receiving room. A cable to Poldhu set the schedule for sending: the letter S, repeated, during agreed hours.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bussey (1999) for the landing date; Community Stories (Signal Hill site)."
+  },
+  {
+   "date_iso": "1901-12-11",
+   "date_display": "Wednesday 11 December 1901",
+   "precision": "day",
+   "eye": "kemp",
+   "place": "Signal Hill",
+   "headline": "A balloon that would not behave",
+   "digest": "Kemp wrote that the balloon, partly filled with hydrogen, gave him great trouble in the wind; the balloon used for the aerial was lost. Some signals seemed to come through on the telephone at intervals, but nothing they trusted.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Bussey (1999), quoting Kemp's diary; which version of the diary is quoted is not stated."
+  },
+  {
+   "date_iso": "1901-12-12",
+   "date_display": "Thursday 12 December 1901, about 12.30 pm Newfoundland time",
+   "precision": "day",
+   "eye": "marconi",
+   "place": "Signal Hill, St John's",
+   "headline": "Three faint clicks, and ink in a pencil diary",
+   "digest": "With a kite holding some 500 feet of wire after the first kite broke away, Marconi listened through a telephone earpiece attached to the detector and heard, he said, the three dots of S at 12.30, 1.10 and 2.20 local time. In his pocket diary the signal times are the only entries in ink. Neither he nor Kemp wrote anything that sounds like triumph.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Marconi pocket diary as quoted by Raboy (The Diary Junction); ETHW milestone; Bussey (1999)."
+  },
+  {
+   "date_iso": "1901-12-12",
+   "date_display": "Thursday 12 December 1901",
+   "precision": "day",
+   "eye": "kemp",
+   "place": "Signal Hill",
+   "headline": "'The three dots or the S signal repeated'",
+   "digest": "Kemp noted that they received the S repeated and that he kept a kite up for about three hours, which seemed to give good signals. Paget was ill that day, so Kemp is the only other witness. It is the corroboration on which the claim rests, and it is an employee's.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bussey (1999), quoting Kemp's diary; ETHW calls Kemp hardly an impartial observer."
+  },
+  {
+   "date_iso": "1901-12-13",
+   "date_display": "Friday 13 December 1901",
+   "precision": "day",
+   "eye": "marconi",
+   "place": "Signal Hill",
+   "headline": "Fainter signals again",
+   "digest": "Marconi's diary has one more signal time, 1.38, and he later said signals came on Friday the 13th but less distinctly. High winds kept tearing at the kites.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Marconi pocket diary via Raboy (The Diary Junction); Marconi statement of 23 Dec 1901 in Bussey."
+  },
+  {
+   "date_iso": "1901-12-14",
+   "date_display": "14–15 December 1901",
+   "precision": "range",
+   "eye": "marconi",
+   "place": "St John's",
+   "headline": "Telling the world, cautiously",
+   "digest": "Marconi gave the news to the press, and it reached New York and London papers over the weekend. He stressed prearranged signals rather than messages, which invited the obvious question of how anyone else could check them.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Community Stories (announced 15 December); ETHW (released 16 December); dates differ between accounts."
+  },
+  {
+   "date_iso": "1901-12-16",
+   "date_display": "Monday 16 December 1901",
+   "precision": "day",
+   "eye": "marconi",
+   "place": "St John's",
+   "headline": "A letter from the cable company's lawyers",
+   "digest": "That evening the solicitors of the Anglo-American Telegraph Company delivered a letter citing the company's monopoly in Newfoundland and threatening immediate legal proceedings. The company's cable station at Heart's Content had carried transatlantic messages since 1866; now the colony's exclusive charter was its shield.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bussey (1999); Community Stories; ETHW milestone."
+  },
+  {
+   "date_iso": "1901-12-17",
+   "date_display": "Tuesday 17 December 1901",
+   "precision": "day",
+   "eye": "marconi",
+   "place": "St John's",
+   "headline": "'Compelled to discontinue' the tests",
+   "digest": "Marconi cabled London that he had to stop the experiments between England and the colony. Offers of a site came quickly from Canada, and he turned toward Cape Breton.",
+   "quote": "compelled to discontinue wireless telegraph tests between England and this Colony",
+   "confidence": "verified",
+   "source_note": "Bussey (1999), quoting the cable."
+  },
+  {
+   "date_iso": "1901-12-18",
+   "date_display": "Wednesday 18 December 1901",
+   "precision": "day",
+   "eye": "winter",
+   "place": "St John's",
+   "headline": "A lawyer's letter yields, for the present",
+   "digest": "Winter replied to the company's solicitors that his client would, at least for the present, discontinue the operations. The phrasing conceded nothing about the future, and the Marconi company never built in Newfoundland.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bussey (1999), quoting Winter's letter."
+  },
+  {
+   "date_iso": "1901-12-21",
+   "date_display": "Saturday 21 December 1901",
+   "precision": "day",
+   "eye": "preece",
+   "place": "London, reported in The Spectator",
+   "headline": "Why the letter S? Preece and Edison ask",
+   "digest": "The Spectator reported that Preece and Edison had both pointed out that S is three dots, the kind of pattern atmospheric electricity might produce at random. Preece suggested a sterner test with a more complex letter or a word. The paper called for suspense of judgment, while observing that the cable company's threat showed its engineers took Marconi seriously.",
+   "quote": "suspense of judgment",
+   "confidence": "verified",
+   "source_note": "The Spectator, 21 December 1901, p. 10."
+  },
+  {
+   "date_iso": "1902-01",
+   "date_display": "January 1902",
+   "precision": "month",
+   "eye": "fleming",
+   "place": "London",
+   "headline": "Credit given in a sentence",
+   "digest": "In Marconi's public account Fleming's part shrank to help with machinery. Hong's reading of Fleming's notebooks and letters shows a man who believed the power engineering at Poldhu had made the experiment possible, and who resented its omission. The grievance outlived the partnership: after the Maskelyne affair of June 1903 Fleming was let go as adviser.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Hong (1996), Annals of Science abstract and Springer chapter abstract; AIEE transcript for Marconi's wording."
+  },
+  {
+   "date_iso": "1902-01-13",
+   "date_display": "Monday 13 January 1902",
+   "precision": "day",
+   "eye": "marconi",
+   "place": "Waldorf-Astoria, New York",
+   "headline": "A dinner lit with 'Poldhu' and 'St Johns'",
+   "digest": "About 300 engineers honoured Marconi under electric lamps spelling the two station names, with clusters flashing three dots. Marconi described the 12 and 13 December signals, the unreliable kites and the cable company's monopoly, and credited Fleming with helping install the powerful machinery. Edison and Tesla sent regrets.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "AIEE Transactions 1902, pp. 93–121 (earlyradiohistory.us)."
+  },
+  {
+   "date_iso": "1902-01-13",
+   "date_display": "Monday 13 January 1902",
+   "precision": "day",
+   "eye": "pupin",
+   "place": "Waldorf-Astoria, New York",
+   "headline": "Belief on trust, said aloud at the banquet",
+   "digest": "Pupin told the diners he believed Marconi's claim mainly because he knew Marconi, and that the evidence would not satisfy strict scientific standards. Elihu Thomson joked in the same spirit, and mocked the cable company for trying to own the ether.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "AIEE Transactions 1902 (earlyradiohistory.us)."
+  },
+  {
+   "date_iso": "1902-02-22",
+   "date_display": "Saturday 22 February 1902",
+   "precision": "day",
+   "eye": "mills",
+   "place": "Southampton and Cherbourg, outbound",
+   "headline": "A liner sails with a receiver and a sceptic's eye",
+   "digest": "The Philadelphia left for New York with Marconi aboard and a receiving station rigged on the mast. Marconi asked the captain and chief officer to witness and sign the tapes, so that the next result would rest on more than his own word. The Cunard liner Umbria, also fitted, followed a few hours behind.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "McClure's, April 1902 (left Cherbourg at midnight on 22 February); Bussey (1999) (sailed from Southampton)."
+  },
+  {
+   "date_iso": "1902-02-23",
+   "date_display": "Sunday 23 February 1902, about 6 pm ship's time",
+   "precision": "day",
+   "eye": "mills",
+   "place": "At sea, about 250 miles from Poldhu",
+   "headline": "Weather news from Cornwall",
+   "digest": "The first message recorded on tape gave the weather at Poldhu: a stiff south-westerly breeze and heavy swell. The next morning, at about 500 miles, came a check that all was in order.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "McClure's, April 1902; Nature, 6 March 1902."
+  },
+  {
+   "date_iso": "1902-02-25",
+   "date_display": "Tuesday 25 February 1902, before daybreak",
+   "precision": "day",
+   "eye": "mills",
+   "place": "At sea, 1,551.5 miles from Poldhu",
+   "headline": "'All in order. Do you understand?' at 1,551 miles",
+   "digest": "Just before dawn the tape printed the last readable message, at more than 1,500 miles; earlier, after midnight, 'Fine here' had come in at about 1,032 miles. Mills and his chief officer signed. Readable daytime reception had died at about 700 miles, an early hint that night and day behave differently.",
+   "quote": "All in order. Do you understand?",
+   "confidence": "verified",
+   "source_note": "McClure's, April 1902; Bussey (1999)."
+  },
+  {
+   "date_iso": "1902-02-26",
+   "date_display": "about 26 February 1902, evening",
+   "precision": "day",
+   "eye": "mills",
+   "place": "At sea, Lat. 42.1 N, Long. 47.23 W",
+   "headline": "S on paper at 2,099 miles",
+   "digest": "The last signals, again the letter S, were printed on tape at a position the inscription gives as 2,099 statute miles from Poldhu, beyond the distance to Newfoundland. The Umbria, close behind, had received nothing. The ship's certified tape was the documentary answer to the unrecorded clicks of Signal Hill.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "McClure's, April 1902 ('evening of the following day'); Nature, 6 March 1902."
+  },
+  {
+   "date_iso": "1902-03-06",
+   "date_display": "Thursday 6 March 1902",
+   "precision": "day",
+   "eye": "marconi",
+   "place": "London, reported in Nature",
+   "headline": "Nature weighs the 'much-talked-of letter S'",
+   "digest": "Nature summarised the Philadelphia results from a company telegram to The Times: five messages, the last at 1,551 miles, and S at 2,099. The tone was that of a journal accepting a demonstration now that there was a paper trail.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nature 65, 416–417 (6 March 1902)."
+  },
+  {
+   "date_iso": "1902-07-03",
+   "date_display": "Thursday 3 July 1902",
+   "precision": "day",
+   "eye": "solari",
+   "place": "Letter to The Times, London",
+   "headline": "Who gave Marconi the mercury coherer?",
+   "digest": "Solari wrote to The Times denying that the navy signalman Paolo Castelli had invented the mercury coherer and saying he had offered the device to Marconi himself. Two weeks later Marconi's patent was amended to say the invention had come from abroad through Solari. Bose's 1899 paper went unmentioned.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bondyopadhyay (1998), citing Solari's letter and the 16 July 1902 amendment."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1894-08-14",
+   "date_display": "14 August 1894",
+   "eye": "lodge",
+   "claim": "Clarendon Laboratory → University Museum, Oxford (about 55 m): Hertzian-wave signals move a galvanometer spot; no intelligible message. Position: first public wireless signalling, or a physics experiment only (Fleming's view).",
+   "form": "wireless",
+   "evidence": "Science Museum Group coherer record; Lodge overview",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1895-05-07",
+   "date_display": "7 May 1895 (25 April O.S.)",
+   "eye": "popov",
+   "claim": "Popov's receiver demonstrated in St Petersburg; Russian/Soviet position: the invention of radio, celebrated as Radio Day from 1945.",
+   "form": "report",
+   "evidence": "Paper report printed January 1896; IEEE Spectrum",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1896-03-24",
+   "date_display": "24 March 1896 (12 March O.S.)",
+   "eye": "popov",
+   "claim": "Between university buildings, about 250 m: Morse spelling 'Heinrich Hertz' said to be chalked up by the Society's president. Later account; no official minute.",
+   "form": "wireless",
+   "evidence": "Accounts published decades later; IEEE Spectrum; Susskind (1962) doubts",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1896-06-02",
+   "date_display": "2 June 1896",
+   "eye": "marconi",
+   "claim": "Marconi → Patent Office: application for 'improvements in transmitting electrical impulses and signals', later British patent 12039. Position: the first wireless telegraph patent.",
+   "form": "other",
+   "evidence": "Grace's Guide; MHS Oxford",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1897-01-29",
+   "date_display": "29 January 1897",
+   "eye": "bose",
+   "claim": "Bose shows his coherer and millimetre-wave apparatus publicly at the Royal Institution, unpatented.",
+   "form": "report",
+   "evidence": "British Library blog; Spectator 6 Feb 1897",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1897-05-13",
+   "date_display": "13 May 1897, about 12–1.45 pm",
+   "eye": "kemp",
+   "claim": "Flat Holm ↔ Lavernock Point across the Bristol Channel: good signals on Marconi and Post Office systems; a test message 'posted to the Kaiser' by Slaby (typed c. 1930 version).",
+   "form": "wireless",
+   "evidence": "Kemp diary via Garratt",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1897-10-07",
+   "date_display": "7 October 1897",
+   "eye": "slaby",
+   "claim": "Schöneberg → Rangsdorf, 21 km: German record link by Slaby and Arco.",
+   "form": "wireless",
+   "evidence": "Slaby overview",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1899-03-27",
+   "date_display": "27 March 1899",
+   "eye": "marconi",
+   "claim": "South Foreland ↔ Wimereux, 32 miles: first wireless messages across the Channel, including a courtesy message to Branly.",
+   "form": "wireless",
+   "evidence": "MHS Oxford; Spectator 1 April 1899 ('on Tuesday')",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1899-04-27",
+   "date_display": "27 April 1899",
+   "eye": "bose",
+   "claim": "Bose's self-recovering mercury–iron coherer with telephone read at the Royal Society. Position (Bondyopadhyay; Science Museum): the ancestor of the Signal Hill detector.",
+   "form": "report",
+   "evidence": "Proc. Royal Society; Bondyopadhyay (1998); SMG 'Italian Navy' detector",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1901-12-12",
+   "date_display": "12 December 1901, 12.30, 1.10, 2.20 pm Newfoundland time (about 3½ h behind Greenwich)",
+   "eye": "marconi",
+   "claim": "Poldhu, Cornwall → Signal Hill, St John's, about 2,100 miles (3,500 km): the Morse letter S (three dots) heard by ear on a telephone receiver by Marconi and Kemp. No tape record; contested by Preece, Edison and others.",
+   "form": "wireless",
+   "evidence": "Marconi pocket diary; Kemp diary; ETHW milestone",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1901-12-16",
+   "date_display": "16 December 1901, evening",
+   "eye": "marconi",
+   "claim": "Anglo-American Telegraph Company's solicitors → Marconi: monopoly under the company's charter; immediate legal proceedings threatened.",
+   "form": "letter",
+   "evidence": "Bussey (1999); Community Stories",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1901-12-17",
+   "date_display": "17 December 1901",
+   "eye": "marconi",
+   "claim": "Marconi → London: cable reporting he is 'compelled to discontinue' the tests between England and Newfoundland.",
+   "form": "cable",
+   "evidence": "Bussey (1999)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1901-12-18",
+   "date_display": "18 December 1901",
+   "eye": "winter",
+   "claim": "Winter → company solicitors: Marconi will 'at least for the present' discontinue operations.",
+   "form": "letter",
+   "evidence": "Bussey (1999)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1902-02-25",
+   "date_display": "25 February 1902, before daybreak, ship's time",
+   "eye": "mills",
+   "claim": "Poldhu → SS Philadelphia at 1,551.5 miles: 'All in order. Do you understand?' printed on tape, signed by Captain Mills and Chief Officer Marsden.",
+   "form": "wireless",
+   "evidence": "McClure's, April 1902; Nature, 6 March 1902",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1902-02-26",
+   "date_display": "about 26 February 1902, evening, ship's time",
+   "eye": "mills",
+   "claim": "Poldhu → SS Philadelphia at 2,099 miles (Lat. 42.1 N, Long. 47.23 W): signals of S on tape; Umbria nearby receives nothing.",
+   "form": "wireless",
+   "evidence": "McClure's, April 1902",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1902-07-03",
+   "date_display": "3 July 1902",
+   "eye": "solari",
+   "claim": "Solari → The Times: he, not Castelli, offered Marconi the mercury coherer; patent 18105 amended 16 July 1902 to credit him. Bose's prior paper unnamed.",
+   "form": "letter",
+   "evidence": "Bondyopadhyay (1998)",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1895-05-07",
+   "label": "1895: three detectors, three continents",
+   "eyes": [
+    "popov",
+    "bose",
+    "lodge"
+   ],
+   "note": "Within a year of Lodge's Oxford lecture, Popov in St Petersburg and Bose in Calcutta had each built better receivers on Lodge's coherer idea. Each saw a different use: Popov a storm detector that might signal, Bose a tool for optics of electric waves, Lodge a demonstration of Maxwell."
+  },
+  {
+   "date": "1897-01-29",
+   "label": "Winter–spring 1897: the openly published and the patented",
+   "eyes": [
+    "bose",
+    "marconi",
+    "lodge"
+   ],
+   "note": "Bose lectured at the Royal Institution while Marconi's patent was being completed and Lodge was preparing his own tuning patent. Bose gave his apparatus away in print; the other two filed."
+  },
+  {
+   "date": "1897-05-13",
+   "label": "Bristol Channel trials",
+   "eyes": [
+    "kemp",
+    "marconi",
+    "slaby",
+    "preece"
+   ],
+   "note": "Kemp logged the hours and the hardware, Preece's Post Office ran its own rival method alongside, and Slaby watched as a foreign guest. The same day produced a British success and the seed of a German competitor."
+  },
+  {
+   "date": "1901-12-12",
+   "label": "The letter S at Signal Hill",
+   "eyes": [
+    "marconi",
+    "kemp",
+    "bose",
+    "solari"
+   ],
+   "note": "Marconi and Kemp record faint dots and little feeling; the detector at their ear followed a principle Bose had published in 1899 and Solari had carried to Marconi. Who heard, and with whose device, became two separate quarrels."
+  },
+  {
+   "date": "1901-12-16",
+   "label": "Monopoly meets the ether",
+   "eyes": [
+    "marconi",
+    "winter"
+   ],
+   "note": "A signal sent at almost no cost collided with a charter. Marconi stopped and moved; Winter's careful 'for the present' left the legal question unanswered."
+  },
+  {
+   "date": "1902-01-13",
+   "label": "The Waldorf-Astoria dinner",
+   "eyes": [
+    "marconi",
+    "pupin",
+    "fleming"
+   ],
+   "note": "At the same table Marconi told his story, Pupin said he believed it on trust, and Fleming's work at Poldhu was reduced to a sentence about machinery. Celebration, doubt and grievance in one evening."
+  },
+  {
+   "date": "1902-02-25",
+   "label": "Signed at sea",
+   "eyes": [
+    "mills",
+    "marconi"
+   ],
+   "note": "The captain's certification answered the doubters of December with tape and signatures, and also revealed what no one had predicted: messages carried more than twice as far by night as by day."
+  }
+ ],
+ "ties": [
+  {
+   "a": "marconi",
+   "b": "kemp",
+   "kind": "met",
+   "note": "Kemp was Marconi's assistant from 1896 to the end of his career and the second witness at Signal Hill."
+  },
+  {
+   "a": "preece",
+   "b": "kemp",
+   "kind": "met",
+   "note": "Preece lent Kemp, a Post Office technician, to Marconi in 1896."
+  },
+  {
+   "a": "preece",
+   "b": "slaby",
+   "kind": "met",
+   "note": "Preece's friendship admitted Slaby to the May 1897 trials."
+  },
+  {
+   "a": "slaby",
+   "b": "marconi",
+   "kind": "opposite sides",
+   "note": "Slaby watched Marconi's trials and then built the German system that competed with him."
+  },
+  {
+   "a": "braun",
+   "b": "marconi",
+   "kind": "opposite sides",
+   "note": "Rivals whose coupled and tuned circuits converged; they shared the 1909 Nobel Prize in Physics."
+  },
+  {
+   "a": "lodge",
+   "b": "marconi",
+   "kind": "opposite sides",
+   "note": "Lodge contested the originality of Marconi's patents; the company bought Lodge's syntonic patent in 1912."
+  },
+  {
+   "a": "fleming",
+   "b": "lodge",
+   "kind": "opposite sides",
+   "note": "Fleming, the Marconi company's adviser, argued that Lodge's 1894 lecture was physics, not telegraphy."
+  },
+  {
+   "a": "fleming",
+   "b": "marconi",
+   "kind": "met",
+   "note": "Consultant and employer, their partnership soured over credit for Poldhu and ended after 1903."
+  },
+  {
+   "a": "bose",
+   "b": "marconi",
+   "kind": "influenced",
+   "note": "Bose's 1899 mercury coherer is, on the Science Museum's and Bondyopadhyay's reading, the likely source of the Signal Hill detector; Marconi never named him."
+  },
+  {
+   "a": "solari",
+   "b": "marconi",
+   "kind": "met",
+   "note": "Boyhood acquaintance and navy liaison; Marconi's 1901 coherer patent was amended to credit Solari."
+  },
+  {
+   "a": "popov",
+   "b": "lodge",
+   "kind": "read each other",
+   "note": "Popov's receiver was explicitly a Lodge-type coherer with an aerial added."
+  },
+  {
+   "a": "popov",
+   "b": "marconi",
+   "kind": "opposite sides",
+   "note": "Worked independently; Popov's later supporters pressed priority against Marconi's patent."
+  },
+  {
+   "a": "mills",
+   "b": "marconi",
+   "kind": "met",
+   "note": "Captain and passenger on the Philadelphia; Mills's signature authenticated the February 1902 results."
+  },
+  {
+   "a": "winter",
+   "b": "marconi",
+   "kind": "met",
+   "note": "Winter acted as Marconi's lawyer against the Anglo-American Telegraph Company's monopoly."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "morse-1844",
+   "note": "The letter heard at Signal Hill was Morse's S, three dots, chosen because it was simple to send with a heavy spark; critics said that same simplicity made it easy to mistake for static."
+  },
+  {
+   "to": "cables-1858",
+   "note": "The Anglo-American Telegraph Company that drove Marconi out of Newfoundland operated the transatlantic cables landed at Heart's Content after the 1858 failure and the 1866 success; its charter monopoly was cable telegraphy's defence against wireless."
+  },
+  {
+   "to": "titanic-1912",
+   "note": "The Marconi company's operators aboard Titanic and Carpathia were the direct heirs of Poldhu; the night-time ranges first logged on the Philadelphia shaped how far distress calls could reach in 1912."
+  },
+  {
+   "to": "zimmermann-1917",
+   "note": "Slaby's and Braun's German groups merged into Telefunken in 1903, whose long-distance stations later carried German diplomatic traffic across the Atlantic, the wireless route that British codebreakers watched in 1917."
+  },
+  {
+   "to": "telephone-1876",
+   "note": "Marconi listened at Signal Hill through a telephone receiver, Bell's invention of 1876, rather than a printing tape; the human ear was the detector of record."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/objects/co34936/two-iron-boring-coherers-branly-type-1894",
+   "title": "Two iron boring coherers (Branly type), 1894",
+   "caption": "Coherers probably made by Lodge and used as the receiver at Oxford on 14 August 1894. The museum's record notes the signals did not form an intelligible message, contrary to some later accounts.",
+   "date": "1894",
+   "credit": "Oliver Lodge (maker); Science Museum Group"
+  },
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8432284/model-of-a-s-popovs-1895-lodge-type-coherer-receiver-2014",
+   "title": "Model of Popov's 1895 coherer receiver",
+   "caption": "A full-size replica made in 2014 by the A. S. Popov Central Museum of Communications, St Petersburg, of the receiver Popov used to detect thunderstorms; a modern model, not the original.",
+   "date": "2014 (replica of 1895 device)",
+   "credit": "A. S. Popov Central Museum of Communications; Science Museum Group"
+  },
+  {
+   "url": "https://www.bl.uk/stories/blogs/posts/sir-jagadis-chandra-bose-the-man-who-almost-invented-the-radio",
+   "title": "Jagadish Chandra Bose at the Royal Institution, 1897",
+   "caption": "The British Library's account of Bose's 29 January 1897 discourse, with a photograph of Bose in London and a diagram of his microwave apparatus.",
+   "date": "1897",
+   "credit": "British Library"
+  },
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/objects/co36025/italian-navy-detector-1899-1901",
+   "title": "'Italian Navy' detector, 1899–1901",
+   "caption": "A carbon–mercury–iron detector of the type Bose described in 1899, modified by unknown makers; the museum says it may be the detector that received the S signals in Newfoundland.",
+   "date": "1899–1901",
+   "credit": "Science Museum Group (object 1923-434/14)"
+  },
+  {
+   "url": "https://communitystories.ca/v2/marconi/?p=202",
+   "title": "Marconi's assistants preparing a kite at Cabot Tower",
+   "caption": "Men assembling a large kite on Signal Hill to lift the receiving aerial, December 1901.",
+   "date": "December 1901",
+   "credit": "Photographer unknown; James Vey Collection, The Rooms Provincial Archives, Newfoundland and Labrador"
+  },
+  {
+   "url": "https://museum.wales/collections/online/object/5a6e7f4c-94ba-358d-b7ad-81ac56987eb5?page=434",
+   "title": "Marconi and his invention (mounted photographs)",
+   "caption": "Magazine photographs mounted on card, including Kemp, Marconi and Paget at Signal Hill in 1901.",
+   "date": "c. 1901 and later",
+   "credit": "Amgueddfa Cymru – Museum Wales (34.219/21)"
+  }
+ ],
+ "further": [
+  {
+   "title": "Marconi's own story of the Philadelphia tests, McClure's Magazine, April 1902",
+   "url": "https://earlyradiohistory.us/1902phil.htm"
+  },
+  {
+   "title": "AIEE dinner in honour of Marconi, 13 January 1902",
+   "url": "https://earlyradiohistory.us/1902wt.htm"
+  },
+  {
+   "title": "Bussey, Marconi's Atlantic Leap (1999)",
+   "url": "https://worldradiohistory.com/Bookshelf/Biography/Marconi's-Atlantic-Leap-Bussey-1999.pdf"
+  },
+  {
+   "title": "Weightman, Signor Marconi's Magic Box (2003)",
+   "url": "https://worldradiohistory.com/Bookshelf/Biography/Signor-Marconi´s-Magic-Box-Weightman-2003.pdf"
+  },
+  {
+   "title": "IEEE Milestone: Reception of transatlantic radio signals, 1901",
+   "url": "https://ethw.org/Milestones:Reception_of_Transatlantic_Radio_Signals%2C_1901"
+  },
+  {
+   "title": "Bondyopadhyay on Bose's detector and Marconi (1998)",
+   "url": "https://www.cse.iitm.ac.in/~murthy/sirjcbose.pdf"
+  },
+  {
+   "title": "Braun, Nobel lecture (1909)",
+   "url": "https://www.nobelprize.org/uploads/2018/06/braun-lecture.pdf"
+  },
+  {
+   "title": "The Spectator on the transatlantic claim, 21 December 1901",
+   "url": "https://archive.spectator.co.uk/article/21st-december-1901/10/-wireless-telegraphy"
+  }
+ ],
+ "vantage_key": "0 = the man at the receiving earpiece; 1 = on the scene of a trial or test as assistant, witness or engineer; 2 = a rival worker in his own laboratory; 3 = working in the same field at a distance; 4 = abroad or judging only from reports."
+}

@@ -1,0 +1,14 @@
+[
+ {
+  "chapter": "edo-dissection",
+  "where": "eye:sugita",
+  "severity": "style",
+  "problem": "Compiler voice.",
+  "fix": {
+   "text_replace": {
+    "old": "His memoir is how we see the day at all",
+    "new": "His memoir is the only account of the day"
+   }
+  }
+ }
+]

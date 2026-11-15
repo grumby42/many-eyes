@@ -1,0 +1,1166 @@
+{
+ "id": "constantinople-1453",
+ "title": "The Last Days of Constantinople",
+ "subtitle": "The Ottoman siege and fall of the Byzantine capital, 6 April – 29 May 1453",
+ "span": "1452–1453",
+ "intro": [
+  "In the spring of 1453 the Ottoman sultan Mehmed II, just twenty-one, brought an army of many tens of thousands and a fleet to the walls of Constantinople. The city had been the capital of the Roman Empire in the East for over a thousand years. Now it was a shrunken place of villages and orchards inside its old walls. Its emperor, Constantine XI Palaiologos, could put together only about seven or eight thousand defenders. Fewer than five thousand of them were Greeks; the rest were Venetians, Genoese, Catalans and other outsiders. After fifty-three days of bombardment, mining, naval fights and night assaults, the city fell at dawn on Tuesday 29 May.",
+  "Unlike most chapters of this book, this one has only one true diary. Nicolò Barbaro, a Venetian surgeon serving on the galleys in the harbour, wrote the siege down day by day, and his journal is the timeline everyone else hangs on. The other eyes left letters written weeks later (Leonard of Chios, Cardinal Isidore), a merchant's report (Tetaldi), an epic poem in Latin (Pusculo), a terse personal chronicle (Sphrantzes) and histories or memoirs written years or decades afterwards (Kritoboulos, Tursun Beg, Doukas, Konstantin Mihailović, Nestor Iskander). Each one carries an honest form tag. Where an entry is a narrative episode the author did not date himself, the date comes from Barbaro and the entry is marked approximate.",
+  "Together they give an unusually wide spread of viewpoints on a single siege. There are Venetians and Genoese inside the walls who blamed each other. There is a Latin archbishop who blamed the Greeks for resisting Church union, and a Greek courtier who loved the emperor and lost his own children. There is a Greek islander who wrote the story for the conqueror himself, and an Ottoman secretary who watched from the sultan's side. There is a Serbian soldier sent by a Christian prince to fight for the sultan, and a Russian writer whose tale later fed Moscow's claim to be the 'Third Rome'.",
+  "The book's clusters fall on the siege's turning points. 12 April: the great guns open a steady bombardment and the Ottoman fleet arrives. 20 April: four Christian ships fight their way through the whole Ottoman fleet while the sultan rides into the surf. 22 April: Ottoman ships are dragged over the hill behind Galata into the Golden Horn. 22–25 May: an eclipsed moon, a procession broken up by a storm, and a strange fog convince the defenders that heaven has turned away. 29 May: the fall, as seen from the harbour, the walls, the palace corridors, the sultan's camp and a distant island.",
+  "The fall ended with a sack. Thousands were killed and many thousands enslaved, including the families of several of these writers. This chapter reports what they recorded, how many died and how they reacted, without dwelling on the violence."
+ ],
+ "calendar_note": "All dates are Julian, as the sources and historians give them. In 1453 the Julian calendar ran nine days behind the later Gregorian one, but date_iso follows the proleptic Julian convention used by historians, so 29 May 1453 stays 1453-05-29. The Greek writers counted years from the Creation in a Byzantine year that began on 1 September. Sphrantzes therefore dates his ransom to 1 September 6962, which is still 1453. Ottoman writers used the Hijri year 857.",
+ "vantage_key": "0 = principal actor or direct victim inside the city or at the sultan's side; 1 = eyewitness on the walls, the ships or in the camp; 2 = in the immediate area (e.g. Galata/Pera); 3 = in the Aegean, hearing within days; 4 = far away, writing from reports years later.",
+ "eyes": [
+  {
+   "id": "barbaro",
+   "name": "Nicolò Barbaro",
+   "short": "Barbaro",
+   "life": "fl. 1450s (Venetian patrician family)",
+   "role": "Venetian ship's surgeon on the galleys in the harbour of Constantinople",
+   "side": "Venice (defenders)",
+   "where": "Aboard the Venetian galleys in the Golden Horn and on the walls near the harbour",
+   "lat": 41.025,
+   "lon": 28.96,
+   "waypoints": [
+    {
+     "lat": 41.025,
+     "lon": 28.96,
+     "label": "Golden Horn, April–May 1453"
+    },
+    {
+     "lat": 45.437,
+     "lon": 12.335,
+     "label": "Back in Venice, after escaping by sea"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "on the ships and walls, day by day",
+   "form": "diary",
+   "language": "Venetian Italian",
+   "authenticity": "Autograph-type manuscript of the Giornale dell'assedio, first edited by Enrico Cornet (Vienna, 1856); English translation by J. R. Melville-Jones (1969), so no quotations here. Modern scholars regard it as the most reliable day-by-day account. It is strongly anti-Genoese.",
+   "bio": "Barbaro was a Venetian physician serving the galley fleet that happened to be in Constantinople when the siege began. He wrote down the weather, the size of each attack, the ships, the casualties and the rumours almost every day, and he ends with lists of Venetians killed and captured. He escaped on 29 May when the Venetian galleys cut through the harbour boom. His diary gives the chapter its calendar.",
+   "sources": [
+    {
+     "title": "Barbaro, Diary of the Siege of Constantinople (excerpt, trans. J. R. Melville-Jones), De Re Militari",
+     "url": "https://deremilitari.org/?p=2848"
+    },
+    {
+     "title": "Hektoen International: The siege of Constantinople as witnessed by a physician",
+     "url": "https://hekint.org/2024/10/28/the-siege-of-constantinople-as-witnessed-by-a-physician-1453/"
+    }
+   ]
+  },
+  {
+   "id": "leonard",
+   "name": "Leonard of Chios (Leonardo Giustiniani)",
+   "short": "Leonard",
+   "life": "c. 1395 – after 1459 (death date uncertain)",
+   "role": "Dominican, Latin archbishop of Mytilene (Lesbos), in the city with Cardinal Isidore to help carry out Church union",
+   "side": "Genoese / Roman Church (defenders)",
+   "where": "Inside the city during the siege; afterwards on Chios",
+   "lat": 41.012,
+   "lon": 28.955,
+   "waypoints": [
+    {
+     "lat": 41.012,
+     "lon": 28.955,
+     "label": "Constantinople, Nov 1452–May 1453"
+    },
+    {
+     "lat": 38.37,
+     "lon": 26.136,
+     "label": "Chios, letter of 16 Aug 1453"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "Latin prelate inside the walls",
+   "form": "dated letters",
+   "language": "Latin",
+   "authenticity": "A long letter to Pope Nicholas V, probably finished by 16 August 1453 on Chios. It circulated widely and was printed in the 16th century, partly in Italian translation by Sansovino. Its wording was later reused in the forged siege section of the 'Maius' falsely attributed to Sphrantzes.",
+   "bio": "Leonard was a Genoese-born Dominican who came to Constantinople with Cardinal Isidore to carry out the union of the Latin and Greek Churches. He was captured in the sack and got free. His letter to the pope reads the fall as God's punishment for Greek 'schism' and is fierce about Greek nobles he thought had held back money and men. He was also loyal to the Genoese commander Giovanni Giustiniani. His letter shaped Western memory of 1453 more than any other text.",
+   "sources": [
+    {
+     "title": "Philippides, 'The Fall of Constantinople: Bishop Leonard and the Greek Accounts' (GRBS)",
+     "url": "https://grbs.library.duke.edu/index.php/grbs/article/download/6551/5107/14973"
+    },
+    {
+     "title": "'Bishop Leonardo Giustiniani and His Italian Followers', Viator 29 (1998)",
+     "url": "https://www.brepolsonline.net/content/journals/10.1484/J.VIATOR.2.300928"
+    },
+    {
+     "title": "Catholic Encyclopedia: Leonard of Chios",
+     "url": "https://www.catholic.org/encyclopedia/view.php?id=7029"
+    }
+   ]
+  },
+  {
+   "id": "isidore",
+   "name": "Isidore of Kiev",
+   "short": "Isidore",
+   "life": "c. 1385–1463",
+   "role": "Greek-born cardinal and papal legate, former metropolitan of Kiev and all Rus'",
+   "side": "Papacy / defenders",
+   "where": "Commanding the defence near the St Demetrios sector by the Acropolis; escaped to Crete",
+   "lat": 41.013,
+   "lon": 28.985,
+   "waypoints": [
+    {
+     "lat": 41.013,
+     "lon": 28.985,
+     "label": "St Demetrios sector, Constantinople"
+    },
+    {
+     "lat": 35.339,
+     "lon": 25.134,
+     "label": "Candia, Crete, letters of July 1453"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "papal legate and sector commander",
+   "form": "dated letters",
+   "language": "Latin (and Greek)",
+   "authenticity": "Several letters written from Crete in July 1453 survive. The letter to Pope Nicholas V dated 6 July 1453 is fully edited from Venice, Marc. lat. 496 (L. Silvano, Medioevo Greco 13, 2013). Scholars treat his letters as reliable but highly rhetorical, written as calls for a crusade.",
+   "bio": "Isidore was a Greek from the Peloponnese who had championed union at the Council of Florence. Moscow deposed him as metropolitan for doing so. He came back to Constantinople in late 1452 with a small company of soldiers and celebrated the union liturgy in Hagia Sophia. During the siege he paid for tower repairs and held a sector of the walls. When the city fell he hid his rank, was taken as an ordinary captive and was ransomed cheaply. Then he wrote to Rome demanding a crusade.",
+   "sources": [
+    {
+     "title": "Silvano, 'Per l'epistolario di Isidoro di Kiev: la lettera a papa Niccolò V del 6 luglio 1453'",
+     "url": "https://iris.unito.it/handle/2318/1530533"
+    },
+    {
+     "title": "Philippides (GRBS) on Isidore's sector and tower repairs",
+     "url": "https://grbs.library.duke.edu/index.php/grbs/article/download/6551/5107/14973"
+    }
+   ]
+  },
+  {
+   "id": "tetaldi",
+   "name": "Giacomo (Jacopo) Tetaldi",
+   "short": "Tetaldi",
+   "life": "fl. 1453",
+   "role": "Florentine merchant who fought on the walls",
+   "side": "Florence / Latin defenders",
+   "where": "On the land walls; escaped by sea on 29 May",
+   "lat": 41.021,
+   "lon": 28.927,
+   "vantage": 1,
+   "vantage_label": "merchant-soldier on the walls",
+   "form": "memoir (written later)",
+   "language": "Latin/Italian; survives notably in French ('Informations')",
+   "authenticity": "An account written soon after his escape and known mainly in a French version, Informations envoyées ... au cardinal d'Avignon. Marios Philippides has edited a reliable text of it, and Hanak and Philippides rank it among the dependable eyewitness accounts. The details of how he escaped come from his own telling.",
+   "bio": "Tetaldi was a Florentine trader caught in the city by the siege who took his turn on the walls. His short, practical report gives estimates of numbers and of the guns, and it explains how the final breach happened. It was written to inform a French cardinal. It is one of the few accounts by a layman with no Venetian, Genoese or Greek axe to grind.",
+   "sources": [
+    {
+     "title": "Review of Hanak & Philippides, The Siege and the Fall of Constantinople in 1453 (Reviews in History 1101)",
+     "url": "https://reviews.history.ac.uk/review/1101/print"
+    }
+   ]
+  },
+  {
+   "id": "pusculo",
+   "name": "Ubertino Pusculo (Posculo)",
+   "short": "Pusculo",
+   "life": "c. 1431–1488",
+   "role": "Young humanist from Brescia studying Greek in Constantinople",
+   "side": "Latin (Brescia / Venetian territory)",
+   "where": "Inside the city; enslaved, ransomed, back in Italy by 1455",
+   "lat": 41.012,
+   "lon": 28.95,
+   "waypoints": [
+    {
+     "lat": 41.012,
+     "lon": 28.95,
+     "label": "Constantinople, 1452–1453"
+    },
+    {
+     "lat": 45.541,
+     "lon": 10.219,
+     "label": "Brescia, writing from 1455"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "student eyewitness, later captive",
+   "form": "memoir (written later)",
+   "language": "Latin (epic verse)",
+   "authenticity": "FLAG: an eyewitness, but his account is a Virgilian epic poem, Constantinopolis, begun after 1455. It calls the Turks 'Teucri' (Trojans), invents speeches and is hostile to both Greeks and Turks. Scholars have shown close links with Leonard's letter. Use it for atmosphere and attitude more than for exact facts.",
+   "bio": "Pusculo came to Constantinople in 1452 to learn Greek and was in the city when it fell. He was enslaved and ransomed, and then nearly sold again after pirates seized him. Back in Italy he turned what he had seen into a four-book Latin epic. It looks forward to a crusade that never came and treats the fall as the Trojans' revenge for Troy.",
+   "sources": [
+    {
+     "title": "Whitchurch, 'Turks as Trojans: Intertext and Allusion in Ubertino Posculo's Constantinopolis' (SCS abstract)",
+     "url": "https://classicalstudies.org/turks-trojans-intertext-and-allusion-ubertino-posculo%E2%80%99s-constantinopolis"
+    },
+    {
+     "title": "Viator 29 (1998) on Leonard, Languschi and Pusculo",
+     "url": "https://www.brepolsonline.net/content/journals/10.1484/J.VIATOR.2.300928"
+    }
+   ]
+  },
+  {
+   "id": "sphrantzes",
+   "name": "George Sphrantzes",
+   "short": "Sphrantzes",
+   "life": "1401 – c. 1478",
+   "role": "Byzantine court official and diplomat, closest friend of Constantine XI",
+   "side": "Byzantine Greek (defenders)",
+   "where": "In the palace and on the walls; enslaved after the fall; then Mistra",
+   "lat": 41.031,
+   "lon": 28.94,
+   "waypoints": [
+    {
+     "lat": 41.031,
+     "lon": 28.94,
+     "label": "Blachernae, Constantinople"
+    },
+    {
+     "lat": 37.074,
+     "lon": 22.367,
+     "label": "Mistra, after ransom 1 Sep 1453"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the emperor's confidant",
+   "form": "chronicle",
+   "language": "Greek",
+   "authenticity": "FLAG: only the short Chronicon Minus is authentic. It is a terse personal memoir-chronicle covering 1413–1477. The long 'Maius', with its vivid siege narrative, was written in the late 16th century by Makarios Melissenos, who copied much of it from Leonard of Chios. It is not used here.",
+   "bio": "Sphrantzes had served the Palaiologos family all his life and was the emperor's most trusted man. He ran the secret count of the city's defenders. His authentic chronicle gives the fall in a few flat, devastating lines: his master was dead, he himself was enslaved, and his wife and children were scattered as captives. It is the voice of private loss among all the polemic.",
+   "sources": [
+    {
+     "title": "Sphrantzes, Chronicon Minus on the siege (trans. M. Philippides), De Re Militari",
+     "url": "https://www.deremilitari.org/RESOURCES/SOURCES/constantinople2.htm"
+    },
+    {
+     "title": "Philippides (GRBS) on the forged Maius",
+     "url": "https://grbs.library.duke.edu/index.php/grbs/article/download/6551/5107/14973"
+    }
+   ]
+  },
+  {
+   "id": "kritoboulos",
+   "name": "Michael Kritoboulos of Imbros",
+   "short": "Kritoboulos",
+   "life": "c. 1410 – c. 1470",
+   "role": "Greek notable of Imbros who submitted to Mehmed II and became his governor of the island",
+   "side": "Greek in Ottoman service",
+   "where": "On Imbros in the northern Aegean; not an eyewitness",
+   "lat": 40.19,
+   "lon": 25.85,
+   "vantage": 3,
+   "vantage_label": "Greek subject writing for the conqueror",
+   "form": "chronicle",
+   "language": "Greek",
+   "authenticity": "FLAG: a history of Mehmed's reign covering 1451–1467, written in Thucydidean style and dedicated to the sultan. It survives in a single manuscript in the Topkapı Palace library. It is not an eyewitness account but rests on informants on both sides. Modern scholars rate it reliable on military matters.",
+   "bio": "Kritoboulos was a learned Greek who chose accommodation. After the fall he arranged the peaceful submission of Imbros and nearby islands and was rewarded with their governorship. His history admires Mehmed as a new Alexander but still mourns the city and does not abuse his fellow Greeks. It was an Ottoman-commissioned story in the language of the defeated.",
+   "sources": [
+    {
+     "title": "Vasiliev/ellopos survey of the Greek and Latin sources",
+     "url": "https://www.ellopos.net/Elpenor/vasilief/constantine-xi-capture-of-constantinople.asp?pg=3"
+    },
+    {
+     "title": "Reviews in History 1101 (Kritoboulos as a reliable source on artillery)",
+     "url": "https://reviews.history.ac.uk/review/1101/print"
+    }
+   ]
+  },
+  {
+   "id": "tursun",
+   "name": "Tursun Beg",
+   "short": "Tursun Beg",
+   "life": "after 1426 – after 1491",
+   "role": "Young Ottoman official and secretary in the sultan's service",
+   "side": "Ottoman (besiegers)",
+   "where": "In the sultan's camp before the walls; later a land registrar in the conquered city",
+   "lat": 41.025,
+   "lon": 28.915,
+   "vantage": 1,
+   "vantage_label": "secretary in the sultan's camp",
+   "form": "memoir (written later)",
+   "language": "Ottoman Turkish",
+   "authenticity": "FLAG (later): his Tarih-i Ebü'l-Feth ('History of the Father of Conquest') was written around 1488 for Bayezid II. His presence at the siege is inferred from the precision of his description. Facsimile and English translation by H. İnalcık and R. Murphey (1978).",
+   "bio": "Tursun Beg was probably present when Rumeli Hisarı was built in 1452 and at the siege the next year. Afterwards he served as a scribe registering houses, fields and vineyards in the conquered city. His ornate history is the main Ottoman insider narrative. It also carries the story of Mehmed reciting a Persian couplet about a spider and an owl among the ruined imperial buildings.",
+   "sources": [
+    {
+     "title": "Ottoman Historians (University of Chicago): Tursun Beg",
+     "url": "https://ottomanhistorians.uchicago.edu/en/node/81"
+    },
+    {
+     "title": "History Today: The Spider, the Owl and the Historian",
+     "url": "https://www.historytoday.com/node/49767"
+    }
+   ]
+  },
+  {
+   "id": "mihailovic",
+   "name": "Konstantin Mihailović of Ostrovica",
+   "short": "Mihailović",
+   "life": "c. 1435 – after 1501",
+   "role": "Young Serbian soldier in the auxiliary contingent the Serbian Despot owed the sultan; later a janissary",
+   "side": "Serbian vassal troops in the Ottoman army",
+   "where": "In the Ottoman siege lines",
+   "lat": 41.03,
+   "lon": 28.92,
+   "waypoints": [
+    {
+     "lat": 41.03,
+     "lon": 28.92,
+     "label": "Ottoman lines, 1453"
+    },
+    {
+     "lat": 42.613,
+     "lon": 21.425,
+     "label": "Novo Brdo, captured 1455"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "Christian soldier fighting for the sultan",
+   "form": "memoir (written later)",
+   "language": "Old Serbian (surviving in Polish and Czech versions)",
+   "authenticity": "FLAG: 'Memoirs of a Janissary' was written c. 1497–1501, nearly fifty years after the siege, in Polish lands, as advice on fighting the Turks. It survives only in later Polish and Czech copies. The siege passage is short and partly hearsay.",
+   "bio": "Mihailović was a Serb whose ruler, Despot Đurađ Branković, was an Ottoman vassal and sent cavalry to the siege. Two years later he was captured at Novo Brdo and became a janissary. In 1463 his fortress in Bosnia surrendered to the Hungarians and he returned to Christendom. His memoir is a rare view of the siege from the camp's Christian margins.",
+   "sources": [
+    {
+     "title": "Memoirs of a Janissary (Forum Tauri Press notice)",
+     "url": "https://forumtauripress.com/memoirs-of-a-janissary-late-15th-century/"
+    }
+   ]
+  },
+  {
+   "id": "iskander",
+   "name": "Nestor Iskander",
+   "short": "Nestor Iskander",
+   "life": "fl. 1453 (identity uncertain)",
+   "role": "Self-described Russian captive serving in the Ottoman army (his identity is debated)",
+   "side": "Rus' Orthodox (nominally in the Ottoman camp)",
+   "where": "With the besiegers, by his own account",
+   "lat": 41.022,
+   "lon": 28.93,
+   "vantage": 1,
+   "vantage_label": "captive in the camp, by his own telling",
+   "form": "chronicle",
+   "language": "Old Russian (Church Slavonic)",
+   "authenticity": "FLAG: the 'Tale of Constantinople' survives in an early-16th-century manuscript from the Trinity-Sergius Lavra (No. 773). Its eyewitness core is defended by Hanak and Philippides but doubted by others. It mixes reportage with hagiographic legend, omens and set speeches, and its chronology is unreliable.",
+   "bio": "The tale presents itself as written by a Russian taken captive young and forced into Ottoman service, who wrote down what he saw. It became the main Russian-language story of the fall. Its omens and its prophecy that a 'fair-haired people' would one day retake the city fed the later Muscovite idea of Moscow as the Third Rome.",
+   "sources": [
+    {
+     "title": "Reviews in History 1101 (on the Tale and its manuscript)",
+     "url": "https://reviews.history.ac.uk/review/1101/print"
+    }
+   ]
+  },
+  {
+   "id": "doukas",
+   "name": "Doukas",
+   "short": "Doukas",
+   "life": "c. 1400 – after 1462",
+   "role": "Greek secretary and diplomat in the service of the Genoese Gattilusio lords of Lesbos",
+   "side": "Greek, pro-union, in Genoese service",
+   "where": "On Lesbos (Mytilene); not in the city",
+   "lat": 39.107,
+   "lon": 26.555,
+   "vantage": 3,
+   "vantage_label": "Greek in the Aegean, writing years later",
+   "form": "chronicle",
+   "language": "Greek",
+   "authenticity": "FLAG: his history runs to 1462 and was written in the following years from survivors' reports. It is not eyewitness, but it is close in time and place. It is partisan in favour of Church union and of Giustiniani, and downplays the emperor.",
+   "bio": "Doukas came from a Byzantine family of Asia Minor and spent his career in the Genoese Aegean. He went on embassies to the sultan for the lords of Lesbos. Of all the Greek historians he is the most bitter about anti-unionist Greeks. He gives the best-known version of the saying that a turban would be better in the city than a Latin mitre.",
+   "sources": [
+    {
+     "title": "Vasiliev/ellopos survey of the Greek sources",
+     "url": "https://www.ellopos.net/Elpenor/vasilief/constantine-xi-capture-of-constantinople.asp?pg=3"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1452-11-01",
+   "date_display": "Autumn 1452 – early 1453",
+   "precision": "range",
+   "eye": "doukas",
+   "place": "Lesbos (writing years later)",
+   "headline": "'Better the turban than the mitre'",
+   "digest": "Doukas records that the Grand Duke Loukas Notaras, angered by the union, said he would rather see the Turkish turban ruling in the city than the Latin mitre. Doukas, a unionist, tells it as proof of the Greeks' fatal division. Whether Notaras said it in those words cannot be checked, but the line came to stand for the whole quarrel.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Doukas, Historia Turco-Byzantina; undated anecdote placed before the siege"
+  },
+  {
+   "date_iso": "1452-12-12",
+   "date_display": "12 December 1452",
+   "precision": "day",
+   "eye": "isidore",
+   "place": "Hagia Sophia, Constantinople",
+   "headline": "Union liturgy in Hagia Sophia, before a sullen city",
+   "digest": "Cardinal Isidore celebrated the liturgy in Hagia Sophia proclaiming the union of the Latin and Greek Churches, with the emperor present and the Pope named in the prayers. Many Greeks stayed away and boycotted the Great Church afterwards. To Isidore and Leonard it was the city's last chance to win Western help. To many Greeks it was a betrayal.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "The December 1452 ratification is given in the Catholic Encyclopedia entry on Leonard; the 12 December date is the one standard in modern accounts, not confirmed in a source seen here."
+  },
+  {
+   "date_iso": "1453-03-01",
+   "date_display": "Early 1453 (before the siege)",
+   "precision": "range",
+   "eye": "sphrantzes",
+   "place": "Imperial palace, Constantinople",
+   "headline": "A secret count: 4,773 Greeks to hold the walls",
+   "digest": "The emperor ordered Sphrantzes to make a confidential list of every man able to bear arms, and the count came to 4,773 Greeks plus about 200 foreigners. Constantine told him to keep the figure secret so as not to crush morale. Sphrantzes records the number with obvious dread. Even with the Italians, the defenders were spread thin along about fourteen miles of wall.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Chronicon Minus (trans. Philippides), De Re Militari excerpt; the exact date of the census is not given"
+  },
+  {
+   "date_iso": "1453-04-04",
+   "date_display": "4 April 1453 (as Sphrantzes dates it)",
+   "precision": "day",
+   "eye": "sphrantzes",
+   "place": "Constantinople",
+   "headline": "The siege begins, by Sphrantzes's count",
+   "digest": "In his chronicle Sphrantzes dates the start of the siege to 4 April and its end to Tuesday 29 May. He does not narrate the fighting in between, which is typical of his compressed, personal style. The date differs by a day or two from Barbaro's arrival entry. The Ottoman vanguard and the main army reached the walls over several days.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Chronicon Minus (trans. Philippides), De Re Militari excerpt"
+  },
+  {
+   "date_iso": "1453-04-05",
+   "date_display": "Thursday 5 April 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Venetian galleys, Golden Horn",
+   "headline": "The sultan arrives and pitches camp before the walls",
+   "digest": "Barbaro notes that Mehmed came up with a huge army and camped about two and a half miles from the land walls. From the ships the Venetians could see the camp spreading over the hills. He begins his diary in earnest from this day.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entry for 5 April (Melville-Jones trans., De Re Militari)"
+  },
+  {
+   "date_iso": "1453-04-06",
+   "date_display": "Friday 6 April 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Venetian galleys and land walls",
+   "headline": "Venetians parade on the walls to show their strength",
+   "digest": "The emperor took up his post at a gate on the landward side. To show the Turks that Venice stood with the city, the crews of the Tana galleys and light galleys marched in armour along the walls. Barbaro records it with pride. It was the Venetians' first public commitment to fight.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entry for 6 April"
+  },
+  {
+   "date_iso": "1453-04-09",
+   "date_display": "Monday 9 April 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "The harbour boom, Golden Horn",
+   "headline": "Great ships moored along the chain across the harbour",
+   "digest": "Nine large ships were drawn up in line along the floating boom that closed the Golden Horn, from Constantinople across to Pera. Barbaro describes them anchored there to guard the harbour mouth. The boom was meant to keep the Ottoman fleet out of the inner harbour. It held until the very end.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entry for 9 April"
+  },
+  {
+   "date_iso": "1453-04-11",
+   "date_display": "Wednesday 11 April 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Venetian galleys / land walls",
+   "headline": "The guns are placed: four pointed at San Romano",
+   "digest": "Barbaro reports that the sultan placed his cannon in four positions, with four of them facing the gate of San Romano, which the defenders knew to be the weakest stretch. The largest gun was said to hurl a stone ball weighing about 1,200 pounds. From now on the bombardment hardly stops.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entry for 11 April"
+  },
+  {
+   "date_iso": "1453-04-12",
+   "date_display": "Thursday 12 April 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Golden Horn",
+   "headline": "The Ottoman fleet arrives and anchors at the Columns",
+   "digest": "The Turkish fleet came up from the Dardanelles and anchored at a place the Venetians called the Columns, about two miles from the harbour. Barbaro counts the ships carefully and is clearly uneasy at their number. He notes that it stayed there for weeks without attempting much. With guns firing on the land side, the city was now under attack from both directions.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entry for 12 April"
+  },
+  {
+   "date_iso": "1453-04-12",
+   "date_display": "c. 12 April 1453 (narrative, dated from Barbaro)",
+   "precision": "range",
+   "eye": "kritoboulos",
+   "place": "Imbros (writing c. 1467)",
+   "headline": "Mehmed's monster gun begins to batter the walls",
+   "digest": "Kritoboulos describes the casting and firing of the giant bombard. It was hauled by many teams of oxen, took hours to load and could fire only a few times a day. Its stones brought down sections of the outer wall, and the defenders filled the gaps each night with timber, earth and barrels. He writes as an admirer of the sultan's engineering and as a mourner of the walls.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kritoboulos, History of Mehmed II (undated narrative); Hanak & Philippides cited in Reviews in History on Mehmed and artillery"
+  },
+  {
+   "date_iso": "1453-04-12",
+   "date_display": "c. 12 April 1453 (narrative, dated from Barbaro)",
+   "precision": "range",
+   "eye": "leonard",
+   "place": "Inside the city (letter of Aug 1453)",
+   "headline": "A Christian founder cast the sultan's great gun",
+   "digest": "Leonard notes bitterly that the huge bombard was made by a Hungarian founder, Orban, who had first offered his skills to the Byzantines. He describes the stones crashing through towers. He says the defenders' own smaller cannon shook the walls they stood on as much as they hurt the enemy. For Leonard it was one more sign that Christians had armed their destroyer.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Leonard, letter to Nicholas V (undated narrative within the letter)"
+  },
+  {
+   "date_iso": "1453-04-12",
+   "date_display": "April 1453 (narrative)",
+   "precision": "range",
+   "eye": "tursun",
+   "place": "Sultan's camp before the walls",
+   "headline": "From the camp: guns, trenches and the walls of 'Istanbul'",
+   "digest": "Tursun Beg describes the bombardment in high Persianised prose. The guns, he says, struck the walls like thunder while trenches and siege works crept forward. To him the scene was the fulfilment of a long Ottoman ambition, and the sultan's command of the works is the hero of the passage.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Tursun Beg, Tarih-i Ebü'l-Feth (İnalcık & Murphey 1978); undated narrative"
+  },
+  {
+   "date_iso": "1453-04-18",
+   "date_display": "Wednesday 18 April 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Land walls",
+   "headline": "First great night assault thrown back",
+   "digest": "Through the night the Turks attacked the damaged stretch of wall with ladders and fire, to the noise of drums and shouting. Barbaro records that at least two hundred attackers died and claims no Christians were killed. The relief inside the city was huge.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entry for 18 April"
+  },
+  {
+   "date_iso": "1453-04-20",
+   "date_display": "Friday 20 April 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Golden Horn, watching from the boom",
+   "headline": "Four ships fight through the whole Turkish fleet",
+   "digest": "Four large ships coming up from the south were caught by a dead calm right outside the city. Barbaro believed them Genoese, sent under the emperor's orders, and one of them was the emperor's own ship. The Ottoman fleet swarmed them for hours. From high decks the sailors beat off boarders with missiles and fire. At nightfall the wind returned and Venetian galleys towed all four into the harbour.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entry for 20 April"
+  },
+  {
+   "date_iso": "1453-04-20",
+   "date_display": "c. 20 April 1453 (narrative)",
+   "precision": "range",
+   "eye": "kritoboulos",
+   "place": "Imbros (writing later)",
+   "headline": "The sultan rides his horse into the sea",
+   "digest": "Kritoboulos tells how Mehmed, watching from the shore, spurred his horse into the water as if he could join the fight himself. He shouted orders and abuse at his admiral. The great ships' height and the skill of their crews beat numbers. Even the conqueror's own historian lets the humiliation show.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kritoboulos, History of Mehmed II (event dated by Barbaro)"
+  },
+  {
+   "date_iso": "1453-04-20",
+   "date_display": "c. 20–21 April 1453 (narrative)",
+   "precision": "range",
+   "eye": "doukas",
+   "place": "Lesbos (writing later)",
+   "headline": "The admiral is beaten for his failure",
+   "digest": "Doukas reports that the furious sultan had his admiral Baltaoğlu stripped of office and his property, and beaten in front of him. Doukas enjoyed the story: the Christians had won one clean victory at sea. He also notes that it raised the defenders' hopes that Western fleets would follow, which they never did.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Doukas, Historia Turco-Byzantina (event dated by Barbaro)"
+  },
+  {
+   "date_iso": "1453-04-20",
+   "date_display": "c. 20 April 1453 (narrative in verse)",
+   "precision": "range",
+   "eye": "pusculo",
+   "place": "Inside the city (poem written after 1455)",
+   "headline": "In epic verse: the ships as Trojan-war heroes",
+   "digest": "Pusculo turns the sea fight into a passage of epic. Sailors are compared to Homeric heroes and the 'Teucri' (Trojans, meaning Turks) are thrown back from the high sterns. Beneath the classical ornament lies the same episode Barbaro saw. The poem shows how the battle was being remembered by a young Latin who had been on the walls.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Pusculo, Constantinopolis (verse narrative; event dated by Barbaro)"
+  },
+  {
+   "date_iso": "1453-04-21",
+   "date_display": "Saturday 21 April 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Land walls at San Romano",
+   "headline": "A tower falls; the breach is rebuilt overnight",
+   "digest": "The guns brought down a tower and several yards of wall at San Romano. Barbaro writes that the Venetians and the people rebuilt the breach the same night with barrels, earth and brushwood, and dug a ditch behind it. This rhythm of breaking by day and patching by night now became the routine of the siege.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entry for 21 April"
+  },
+  {
+   "date_iso": "1453-04-22",
+   "date_display": "Sunday 22 April 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Golden Horn",
+   "headline": "Seventy-two ships come over the hill into the harbour",
+   "digest": "To the defenders' astonishment, about seventy-two small Ottoman ships were hauled over the hill behind Pera on greased rollers and slid into the upper Golden Horn. They bypassed the boom entirely. Barbaro blames the Genoese of Pera for doing nothing to stop it. From now on the harbour walls also had to be manned, and the defence was stretched even thinner.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entry for 22 April"
+  },
+  {
+   "date_iso": "1453-04-22",
+   "date_display": "c. 22 April 1453 (narrative)",
+   "precision": "range",
+   "eye": "kritoboulos",
+   "place": "Imbros (writing later)",
+   "headline": "The ships 'sailing' overland with oars and sails set",
+   "digest": "Kritoboulos describes the ships hauled up the slope with their crews aboard and their sails spread, rowing in the air as if at sea, while drums and pipes played. He presents it as a masterstroke by the sultan, worthy of the ancients. For him it is the clearest proof of Mehmed's genius.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kritoboulos, History of Mehmed II (event dated by Barbaro)"
+  },
+  {
+   "date_iso": "1453-04-22",
+   "date_display": "c. 22 April 1453 (narrative)",
+   "precision": "range",
+   "eye": "tursun",
+   "place": "Sultan's camp",
+   "headline": "The Ottoman view: a fleet carried across the land",
+   "digest": "Tursun Beg celebrates the overland transfer of the ships into the Golden Horn as a marvel planned by the sultan, described in elaborate wordplay about ships moving on dry land. For the Ottoman reader the moment showed the ruler's ingenuity and God's favour.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Tursun Beg, Tarih-i Ebü'l-Feth (event dated by Barbaro)"
+  },
+  {
+   "date_iso": "1453-04-22",
+   "date_display": "c. 22 April 1453 (narrative)",
+   "precision": "range",
+   "eye": "leonard",
+   "place": "Inside the city",
+   "headline": "Leonard blames Pera, his own Genoese, for the ships",
+   "digest": "Leonard admits that the ships were dragged behind Pera within sight of the Genoese colony. He suggests that some there had warned the Turks or traded with both sides, though he is gentler on the Genoese than Barbaro. Venetian and Genoese writers would go on blaming each other for this day for centuries.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Leonard, letter to Nicholas V (event dated by Barbaro)"
+  },
+  {
+   "date_iso": "1453-04-22",
+   "date_display": "c. 22 April 1453 (narrative)",
+   "precision": "range",
+   "eye": "doukas",
+   "place": "Lesbos (writing later)",
+   "headline": "Doukas: the Genoese of Galata looked on",
+   "digest": "Doukas tells the same story of ships pulled over the hill into the harbour. He notes the uneasy neutrality of Galata, whose Genoese sent men into the city by night while trading with the camp by day. His tone is resigned rather than angry.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Doukas, Historia Turco-Byzantina (event dated by Barbaro)"
+  },
+  {
+   "date_iso": "1453-04-28",
+   "date_display": "Saturday 28 April 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Golden Horn",
+   "headline": "The night attack on the fleet is betrayed and fails",
+   "digest": "Venetian crews tried to burn the Ottoman ships in the upper harbour by night. Guns on the shore had been waiting for them, and Giacomo Coco's fusta was sunk with heavy loss. Barbaro is sure the plan had been leaked from Pera and says so bluntly. Prisoners taken from the sunken boat were executed in sight of the walls.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entry for 28 April"
+  },
+  {
+   "date_iso": "1453-05-03",
+   "date_display": "Thursday 3 May 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Harbour boom",
+   "headline": "A disguised brigantine slips out to look for Venice's fleet",
+   "digest": "A small brigantine, its crew dressed as Turks, was sent out at night past the Ottoman fleet to find the Venetian relief fleet and hurry it on. Barbaro records the departure with obvious hope. The city's whole strategy now rested on help arriving from the sea.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entry for 3 May"
+  },
+  {
+   "date_iso": "1453-05-12",
+   "date_display": "Saturday 12 May 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Walls by the Blachernae palace",
+   "headline": "A midnight attack that nearly took the city",
+   "digest": "Barbaro reports that tens of thousands of Turks attacked the palace walls at midnight. Most defenders believed the city was lost before the attack was driven off. His estimates of numbers are surely inflated, but his fear is real. The city was wearing out.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entry for 12 May"
+  },
+  {
+   "date_iso": "1453-05-16",
+   "date_display": "Wednesday 16 May 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Walls near the Kaligaria gate",
+   "headline": "Mines found under the walls",
+   "digest": "The defenders found a Turkish mine dug toward the walls at Kaligaria and broke into it with a countermine, killing the diggers. Barbaro describes this underground war with technical interest. Over the next days more tunnels were found, and the last on 25 May.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entries for 16–25 May"
+  },
+  {
+   "date_iso": "1453-05-18",
+   "date_display": "Friday 18 May 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Land walls",
+   "headline": "A siege tower appears overnight",
+   "digest": "At dawn the defenders found a great wooden tower facing the walls, built in a single night, taller than the outer wall. Barbaro writes that it seemed impossible to put up so quickly. It was later destroyed, but the shock of it stayed with him.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entry for 18 May"
+  },
+  {
+   "date_iso": "1453-05-22",
+   "date_display": "Tuesday 22 May 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Constantinople, at moonrise",
+   "headline": "The full moon rises like a three-day crescent",
+   "digest": "At the first hour of night the full moon rose looking like a thin moon three days old and took about four hours to swell back to full. Barbaro records that the defenders read it as the fulfilment of a prophecy that the city would fall when the moon waned. Modern astronomy confirms a lunar eclipse that night. To the besieged it felt like a verdict.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entry for 22 May; eclipse discussed in the Mystagogy article on 'Constantinople's volcanic twilight'"
+  },
+  {
+   "date_iso": "1453-05-23",
+   "date_display": "Wednesday 23 May 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Harbour boom",
+   "headline": "The brigantine returns: no fleet is coming",
+   "digest": "The little ship sent out on 3 May came back through the opened boom. Barbaro reports that it had searched the Aegean and found no Venetian fleet. The crew chose to return to a doomed city rather than save themselves. The news ended the defenders' last realistic hope.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entry for 23 May"
+  },
+  {
+   "date_iso": "1453-05-24",
+   "date_display": "c. 23–25 May 1453 (narrative)",
+   "precision": "range",
+   "eye": "kritoboulos",
+   "place": "Imbros (writing later)",
+   "headline": "The icon procession broken up by storm and hail",
+   "digest": "Kritoboulos tells how the people carried their most sacred icon of the Virgin through the streets to beg for protection. A violent thunderstorm with hail and flooding broke over them and the procession had to be abandoned. He reads it as a sign that the city's end was at hand. A thick, unseasonable fog followed.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kritoboulos, History of Mehmed II; summarised in the Mystagogy article; exact day not fixed"
+  },
+  {
+   "date_iso": "1453-05-24",
+   "date_display": "c. 21–25 May 1453 (narrative)",
+   "precision": "range",
+   "eye": "iskander",
+   "place": "With the besiegers, by his account",
+   "headline": "A flame leaves the dome of Hagia Sophia",
+   "digest": "The Russian tale describes a great light, like fire, seen around the dome of Hagia Sophia and then rising up to heaven, witnessed from both inside and outside the walls. The Christians took it as the departure of the city's divine protection. The Ottomans took it as a sign of victory. The tale presents this as the moment the city's fate was sealed.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Nestor Iskander, Tale of Constantinople (trans. Hanak & Philippides 1998); chronology loose; the omen is also reported in other later sources"
+  },
+  {
+   "date_iso": "1453-05-26",
+   "date_display": "Saturday 26 May 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Walls, facing the camp",
+   "headline": "Fires and shouting all night in the Turkish camp",
+   "digest": "That night and the next, the Ottoman camp blazed with fires and torches, and the noise of drums, trumpets and cries carried across the walls. Barbaro says the light was so strong it seemed like day. The defenders first hoped the fires meant the camp was burning. They soon understood they were watching preparations for the final assault.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entries for 26–27 May; noted in the Mystagogy article"
+  },
+  {
+   "date_iso": "1453-05-28",
+   "date_display": "Monday 28 May 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Constantinople",
+   "headline": "The general assault is proclaimed for tomorrow",
+   "digest": "Barbaro records that the sultan announced a general assault for the next day, with the city promised to his soldiers for plunder. Inside, Christians prayed and Venetians and Greeks manned their posts. The diary that evening is tense and short.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entry for 28 May"
+  },
+  {
+   "date_iso": "1453-05-29",
+   "date_display": "Tuesday 29 May 1453",
+   "precision": "day",
+   "eye": "barbaro",
+   "place": "Land walls, then the harbour and Pera",
+   "headline": "The walls break at San Romano; the galleys cut the boom",
+   "digest": "The assault came before dawn in waves. Barbaro says the Turks broke in near San Romano at sunrise after a Genoese commander, whom he calls Zuan Zustignan, left his post wounded and the cry went up that the enemy was inside. Panic swept the walls. He reports rumours about the emperor's death and the beheading of the Venetian bailo. He then tells how the Venetian galleys broke through the boom and escaped.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Barbaro, entry for 29 May (De Re Militari)"
+  },
+  {
+   "date_iso": "1453-05-29",
+   "date_display": "Tuesday 29 May 1453",
+   "precision": "day",
+   "eye": "sphrantzes",
+   "place": "Constantinople",
+   "headline": "'My master the emperor was killed; I was not at his side'",
+   "digest": "Sphrantzes records that early on Tuesday 29 May the sultan took the city and that the emperor was killed. He adds that he was not with Constantine at that hour, because the emperor had sent him to inspect another part of the city. He was taken prisoner and enslaved. His wife and children were carried off as captives, and they were later sold into the households of the sultan's officers.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Chronicon Minus (trans. Philippides), De Re Militari excerpt"
+  },
+  {
+   "date_iso": "1453-05-29",
+   "date_display": "29 May 1453 (letter of Aug 1453)",
+   "precision": "day",
+   "eye": "leonard",
+   "place": "Inside the city",
+   "headline": "Leonard: Giustiniani's wound and the fatal gate",
+   "digest": "In his letter Leonard describes the final assault on the land walls. He says that when Giustiniani was wounded and withdrew through a gate in the inner wall, his men followed, and the Janissaries pushed through behind them. He mourns the emperor and blames Greek nobles and the schism, as he does throughout. He himself was captured in the sack and later freed.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Leonard, letter to Nicholas V; captivity in the Catholic Encyclopedia; Philippides (GRBS)"
+  },
+  {
+   "date_iso": "1453-05-29",
+   "date_display": "29 May 1453 (account written soon after)",
+   "precision": "day",
+   "eye": "tetaldi",
+   "place": "Land walls, then the sea",
+   "headline": "A merchant's escape from the shore",
+   "digest": "Tetaldi describes the last attack from his post on the walls and the moment the defence fell apart. He fled to the shore and, by his own account, got away by swimming out to a ship. His report gives practical estimates of the dead and the captives. It is written plainly, as information for a cardinal, not as rhetoric.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Tetaldi, Informations (French version ed. Philippides), noted in Reviews in History 1101"
+  },
+  {
+   "date_iso": "1453-05-29",
+   "date_display": "29 May 1453 (letters of July 1453)",
+   "precision": "day",
+   "eye": "isidore",
+   "place": "St Demetrios sector, then in hiding",
+   "headline": "The legate hides his rank and is sold as a nobody",
+   "digest": "Isidore later wrote that when the city fell he escaped notice by disguising himself. He was taken as an ordinary prisoner and ransomed for a small sum. In his letters he describes churches profaned and people led off into slavery. He wrote in order to rouse the Pope and the princes of Christendom.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Isidore's letters from Crete (Silvano 2013 on the letter of 6 July)"
+  },
+  {
+   "date_iso": "1453-05-29",
+   "date_display": "29 May 1453 (poem written after 1455)",
+   "precision": "day",
+   "eye": "pusculo",
+   "place": "Inside the city",
+   "headline": "The poet enslaved in the sack",
+   "digest": "Pusculo's poem tells the fall as the last act of a Trojan tragedy reversed, with the 'Teucri' pouring through the walls. Behind the verse is his own fate. He was taken as a slave by a Turk and only later ransomed. The poem ends not in grief alone but with a call for a crusade to retake the city.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Whitchurch, SCS abstract on Constantinopolis"
+  },
+  {
+   "date_iso": "1453-05-29",
+   "date_display": "29 May 1453 (narrative)",
+   "precision": "day",
+   "eye": "kritoboulos",
+   "place": "Imbros (writing later)",
+   "headline": "The conqueror weeps over the city",
+   "digest": "Kritoboulos describes the breach, the emperor's death fighting and the sack. He adds that when Mehmed rode through the ruined and emptied city he was moved to tears at the devastation. He says the sultan lamented that so great a city had been given over to plunder. It is the conqueror's historian granting the city a dignified ending.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kritoboulos, History of Mehmed II"
+  },
+  {
+   "date_iso": "1453-05-29",
+   "date_display": "29 May 1453 (narrative)",
+   "precision": "day",
+   "eye": "tursun",
+   "place": "With the sultan in the conquered city",
+   "headline": "The spider and the owl: Mehmed among the ruins",
+   "digest": "Tursun Beg describes the sultan's entry and his tour of the great buildings of the fallen capital. As Mehmed looked over the decaying imperial structures he recited a Persian couplet. In it a spider keeps the curtains in Caesar's palace and an owl calls the watch from Afrasiyab's towers. Tursun means it as a thought on how empires pass.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Tursun Beg (İnalcık & Murphey 1978); History Today on the couplet; the exact setting is debated"
+  },
+  {
+   "date_iso": "1453-05-29",
+   "date_display": "29 May 1453 (memoir written c. 1497–1501)",
+   "precision": "day",
+   "eye": "mihailovic",
+   "place": "Ottoman siege lines",
+   "headline": "A Serb in the sultan's army watches the city fall",
+   "digest": "Mihailović recalls the Serbian contingent sent by the Despot serving in the siege, and the city taken by storm. He describes the emperor killed and the sultan's later actions in the city. His short account is written decades on, partly from hearsay, as part of advice to Christian rulers on how the Turks make war.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Memoirs of a Janissary (Stolz/Soulis translation); short siege passage, written ~50 years later"
+  },
+  {
+   "date_iso": "1453-05-29",
+   "date_display": "29 May 1453 (tale)",
+   "precision": "day",
+   "eye": "iskander",
+   "place": "With the besiegers / in the city",
+   "headline": "The emperor's last stand and a Russian lament",
+   "digest": "The tale gives Constantine a heroic final stand at the walls and an end in battle. It closes with lament and with a prophecy that a fair-haired people would one day reclaim the city. Much is legend, but it is how many Russians would remember 1453.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Nestor Iskander, Tale of Constantinople (Troitse-Sergieva Lavra MS 773)"
+  },
+  {
+   "date_iso": "1453-05-29",
+   "date_display": "29 May 1453 (history written in the 1460s)",
+   "precision": "day",
+   "eye": "doukas",
+   "place": "Lesbos (writing later)",
+   "headline": "Doukas: the gate left open and the panic",
+   "digest": "Doukas tells of the final assault, of Giustiniani's wound and withdrawal, and of the panic that followed. He blames divine judgement and the Greeks' own divisions for the fall. He also records the fate of Loukas Notaras, executed with his sons soon after the conquest.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Doukas, Historia Turco-Byzantina"
+  },
+  {
+   "date_iso": "1453-06-03",
+   "date_display": "Early June 1453",
+   "precision": "range",
+   "eye": "doukas",
+   "place": "Lesbos (writing later)",
+   "headline": "Notaras, who stayed, is executed with his sons",
+   "digest": "Doukas reports that the Grand Duke Notaras was at first treated with favour, then executed with his sons a few days after the conquest when he refused the sultan's demand for his younger son. Doukas tells it as a tragedy and as a warning to those who had trusted the conqueror.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Doukas, Historia Turco-Byzantina; exact day varies in sources"
+  },
+  {
+   "date_iso": "1453-07-06",
+   "date_display": "6 July 1453",
+   "precision": "day",
+   "eye": "isidore",
+   "place": "Candia, Crete",
+   "headline": "From Crete, a cardinal demands a crusade",
+   "digest": "Safe in Venetian Crete, Isidore wrote to Pope Nicholas V describing the sack, the profaned churches and the captives. He urged the pope to summon Christian princes to retake Constantinople and protect the Christians of the East. He framed the disaster as a threat to all of Latin Europe.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Silvano, Medioevo Greco 13 (2013): letter of 6 July 1453 from Crete"
+  },
+  {
+   "date_iso": "1453-08-16",
+   "date_display": "16 August 1453",
+   "precision": "day",
+   "eye": "leonard",
+   "place": "Chios",
+   "headline": "Leonard's report to the Pope is completed",
+   "digest": "From Chios Leonard finished his long letter to Pope Nicholas V. It sets out the siege, the guns, the quarrels among the defenders and the final assault. It ends by blaming the Greeks' refusal of true union and urging Western action. It became the most copied Latin account of the fall.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Philippides, GRBS (letter probably finished by 16 August 1453)"
+  },
+  {
+   "date_iso": "1453-09-01",
+   "date_display": "1 September 6962 (1453)",
+   "precision": "day",
+   "eye": "sphrantzes",
+   "place": "Constantinople, then Mistra",
+   "headline": "Ransomed, Sphrantzes leaves for Mistra",
+   "digest": "Sphrantzes records that he was freed by ransom on 1 September of the Byzantine year 6962. He left for the Peloponnese, where the late emperor's brothers still ruled at Mistra. His children stayed behind in the sultan's household. His chronicle later records their fates with flat, terrible brevity.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Chronicon Minus (trans. Philippides), De Re Militari excerpt"
+  },
+  {
+   "date_iso": "1455-01-01",
+   "date_display": "1455",
+   "precision": "year",
+   "eye": "pusculo",
+   "place": "Brescia, Italy",
+   "headline": "Home in Italy, the student begins his epic",
+   "digest": "Back in Italy after ransom and a second narrow escape from slavery at the hands of pirates, Pusculo began to turn his experience into Latin epic verse. It took years to finish. The poem shows how the eyewitness memory of 1453 was quickly turned into humanist literature and a call for a crusade.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Whitchurch, SCS abstract (began the poem after returning to Italy in 1455)"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1453-04-12",
+   "label": "The great guns open up and the Ottoman fleet arrives",
+   "eyes": [
+    "barbaro",
+    "kritoboulos",
+    "leonard",
+    "tursun"
+   ],
+   "note": "Barbaro counts ships and gun positions. Kritoboulos admires the sultan's engineering. Leonard is bitter that a Christian cast the great gun. Tursun Beg writes of the thunder of the guns as the fulfilment of Ottoman destiny. All four see the same artillery from different moral positions."
+  },
+  {
+   "date": "1453-04-20",
+   "label": "Four Christian ships break through the Ottoman fleet",
+   "eyes": [
+    "barbaro",
+    "kritoboulos",
+    "doukas",
+    "pusculo"
+   ],
+   "note": "The one clear Christian victory. Barbaro watched it from the harbour. Kritoboulos, the sultan's own historian, records Mehmed riding into the surf. Doukas enjoys the admiral's disgrace. Pusculo turns it into Homeric verse."
+  },
+  {
+   "date": "1453-04-22",
+   "label": "Ottoman ships hauled overland into the Golden Horn",
+   "eyes": [
+    "barbaro",
+    "kritoboulos",
+    "tursun",
+    "leonard",
+    "doukas"
+   ],
+   "note": "For Kritoboulos and Tursun it is the sultan's masterstroke. For Barbaro and Leonard it is a disaster, and an occasion to accuse the Genoese of Pera, from opposite sides of the Venice–Genoa rivalry. Doukas reports it with resignation."
+  },
+  {
+   "date": "1453-05-24",
+   "label": "Omens week: the eclipsed moon (22 May), the icon procession storm and fog (c. 23–25 May), the light over Hagia Sophia",
+   "eyes": [
+    "barbaro",
+    "kritoboulos",
+    "iskander"
+   ],
+   "note": "Barbaro's dated diary entry (22 May) anchors a cluster of omens that the other writers place loosely in the last week. A Venetian surgeon, a Greek writing for the sultan and a Russian tale all agree that the besieged believed heaven had abandoned them. The precise days of the procession and the light are not fixed."
+  },
+  {
+   "date": "1453-05-29",
+   "label": "The fall of Constantinople",
+   "eyes": [
+    "barbaro",
+    "sphrantzes",
+    "leonard",
+    "tetaldi",
+    "isidore",
+    "pusculo",
+    "kritoboulos",
+    "tursun",
+    "mihailovic",
+    "iskander",
+    "doukas"
+   ],
+   "note": "Eleven views of one dawn. The harbour diarist escapes by sea and the emperor's friend is enslaved. The legate hides his rank, and the merchant swims for a ship. The sultan's secretary walks the ruins with him. The Serb watches from the lines, the Russian tale turns the emperor into a saint, and two Aegean Greeks write it up years later. They disagree about who was to blame, but none of them doubts the scale of the catastrophe."
+  }
+ ],
+ "ties": [
+  {
+   "a": "leonard",
+   "b": "isidore",
+   "kind": "met",
+   "note": "Leonard came to Constantinople in Isidore's party in 1452 to carry out Church union. Both survived the sack and both wrote to Pope Nicholas V within weeks."
+  },
+  {
+   "a": "barbaro",
+   "b": "leonard",
+   "kind": "opposite sides",
+   "note": "Both were defenders, but the Venetian Barbaro blames the Genoese of Pera for treachery while the Genoese Leonard defends Giustiniani. Their accounts carry the Venice–Genoa rivalry into the record of the siege."
+  },
+  {
+   "a": "leonard",
+   "b": "sphrantzes",
+   "kind": "influenced",
+   "note": "The forged 'Maius' attributed to Sphrantzes was compiled in the 16th century largely from Leonard's letter. Only the short Minus is Sphrantzes's own."
+  },
+  {
+   "a": "leonard",
+   "b": "pusculo",
+   "kind": "influenced",
+   "note": "Scholarship (Viator 1998) has shown close links between Leonard's letter and Pusculo's poem. Both are Latin, both blame the Greeks, and both call for a crusade."
+  },
+  {
+   "a": "mihailovic",
+   "b": "iskander",
+   "kind": "same street",
+   "note": "Both present themselves as Slavic Orthodox Christians in the Ottoman siege lines, fighting or serving against a fellow Orthodox city."
+  },
+  {
+   "a": "doukas",
+   "b": "kritoboulos",
+   "kind": "opposite sides",
+   "note": "Two Aegean Greeks who were not in the city: Doukas served Genoese lords and backed union, while Kritoboulos submitted to the sultan and wrote for him."
+  },
+  {
+   "a": "sphrantzes",
+   "b": "doukas",
+   "kind": "opposite sides",
+   "note": "Sphrantzes defends the emperor and opposed the union. Doukas favours the union and Giustiniani and downplays Constantine."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "black-death",
+   "note": "The Genoese network on display in 1453, with Pera/Galata facing Constantinople and trade running into the Black Sea, is the same one that carried plague from Caffa through Constantinople to the Mediterranean in 1347. The city's population never recovered from the plague, which is one reason it was so thinly defended a century later."
+  },
+  {
+   "to": "vienna-1683",
+   "note": "The janissaries, the siege guns and the sultan's mining and assault methods recorded in 1453 are the ancestors of the army that besieged Vienna in 1683. Constantinople, renamed Istanbul in common use, became the capital from which that campaign was launched."
+  },
+  {
+   "to": "v1:ww1",
+   "note": "Russia's claim to Constantinople, nourished by tales such as Nestor Iskander's and by the 'Third Rome' idea, became a war aim in 1915, when Britain and France secretly promised the city to Russia. The Gallipoli campaign was fought on the straits that the 1453 fleets had sailed."
+  },
+  {
+   "to": "v1:russia-1917",
+   "note": "After 1453 Moscow presented itself as heir to Byzantium. Ivan III married Sophia Palaiologina, niece of Constantine XI, and took up the double-headed eagle. That claimed inheritance ended with the fall of the tsardom in 1917."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.worldhistory.org/image/14412/the-siege-of-constantinople-1453/",
+   "title": "The Siege of Constantinople, 1453",
+   "caption": "Full-page miniature by Jean Le Tavernier in Bertrandon de la Broquière's Voyage d'Outre-Mer, made within a few years of the fall. It shows the land walls, the camp and the ships hauled overland into the Golden Horn.",
+   "date": "after 1455",
+   "credit": "Jean Le Tavernier; Bibliothèque nationale de France, MS fr. 9087, fol. 207v (public domain)"
+  },
+  {
+   "url": "https://www.nationalgallery.org.uk/paintings/gentile-bellini-the-sultan-mehmet-ii",
+   "title": "The Sultan Mehmet II",
+   "caption": "Portrait of the conqueror painted by the Venetian Gentile Bellini in Istanbul near the end of Mehmed's life, a generation after Barbaro's Venetians fled his city.",
+   "date": "1480",
+   "credit": "Gentile Bellini; National Gallery, London (NG3099)"
+  },
+  {
+   "url": "https://apps.lib.umich.edu/online-exhibits/items/show/2205",
+   "title": "Map of Constantinople from Liber insularum Archipelagi",
+   "caption": "Buondelmonti's bird's-eye view of the city, drawn before the siege, showing the land walls, the Golden Horn and Pera across the water: the geography every eye in this chapter describes.",
+   "date": "15th century (Buondelmonti's view c. 1420)",
+   "credit": "Cristoforo Buondelmonti; University of Michigan Special Collections, Mich. Ms. 162"
+  },
+  {
+   "url": "https://www.worldhistory.org/image/8002/the-siege-of-constantinople/",
+   "title": "The Siege of Constantinople (Moldovița fresco)",
+   "caption": "Exterior fresco at Moldovița Monastery, Romania (1537), nominally showing a 7th-century siege but painted with cannon, so it was understood as an echo of 1453 in the Orthodox world.",
+   "date": "1537",
+   "credit": "Photo: Dirk D., World History Encyclopedia (CC BY-SA 4.0)"
+  }
+ ],
+ "further": [
+  {
+   "title": "De Re Militari: The Siege of Constantinople in 1453 — primary sources",
+   "url": "https://www.deremilitari.org/RESOURCES/SOURCES/siegeofconstantinople.htm"
+  },
+  {
+   "title": "Barbaro, Diary (Melville-Jones trans., excerpt)",
+   "url": "https://deremilitari.org/?p=2848"
+  },
+  {
+   "title": "Sphrantzes, Chronicon Minus on the siege",
+   "url": "https://www.deremilitari.org/RESOURCES/SOURCES/constantinople2.htm"
+  },
+  {
+   "title": "Philippides, 'The Fall of Constantinople: Bishop Leonard and the Greek Accounts' (GRBS)",
+   "url": "https://grbs.library.duke.edu/index.php/grbs/article/download/6551/5107/14973"
+  },
+  {
+   "title": "Angold, review of Hanak & Philippides, The Siege and the Fall of Constantinople in 1453",
+   "url": "https://reviews.history.ac.uk/review/1101/print"
+  },
+  {
+   "title": "Silvano on Isidore's letter of 6 July 1453",
+   "url": "https://iris.unito.it/handle/2318/1530533"
+  },
+  {
+   "title": "Omens of May 1453 and the Kuwae hypothesis",
+   "url": "https://www.johnsanidopoulos.com/2010/04/constantinoples-volcanic-twilight.html?m=1"
+  },
+  {
+   "title": "Vasiliev on the sources for the capture of Constantinople",
+   "url": "https://www.ellopos.net/Elpenor/vasilief/constantine-xi-capture-of-constantinople.asp?pg=3"
+  }
+ ]
+}

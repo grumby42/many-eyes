@@ -1,0 +1,1255 @@
+{
+ "id": "eclipse-1715",
+ "title": "Halley's Eclipse: 3 May 1715",
+ "short_title": "Halley's Eclipse, 1715",
+ "subtitle": "The total solar eclipse of 22 April (O.S.) / 3 May (N.S.) 1715 across England, the North Sea and Sweden",
+ "span": "1715–1724",
+ "intro": [
+  "On the morning of 22 April 1715, by the Julian calendar England still kept, the Moon's shadow came in from the Atlantic over Cornwall and Devon, swept north-east across the Midlands and East Anglia, and went out over the North Sea towards Scandinavia. London lay inside the band of totality. It was the first total eclipse visible in the south of Britain for centuries; the printed notices of the day spoke of five hundred years.",
+  "What makes the day unusual is that it was announced. In March 1715 Edmond Halley, Savilian Professor of Geometry at Oxford and Secretary of the Royal Society, had John Senex engrave and sell a sixpenny broadsheet map showing the shadow's path over England, with a note telling the public that the darkness was natural and not an omen against the new Hanoverian king, and asking 'the Curious' to time the total darkness with pendulum clocks. William Whiston, the dismissed Lucasian professor, sold a rival calculation through the same engraver. Pamphleteers sold threepenny tracts with titles like The Black-Day, or a Prospect of Doomsday.",
+  "Halley's request worked. Reports came back from clergymen, gentlemen and professors along and beside the track: Wanstead, Greenwich, Upminster, Oxford, Cambridge, Barton by Kettering, King's Walden, Witley, Norton Court in Kent, Haverfordwest. Halley printed them in the Philosophical Transactions with the durations each place measured, and from the spread of numbers drew the real edges and centre line of the shadow. A second paper gathered accounts from abroad: a mariner at sea off the Canaries, a list of German cities, and a professor at Uppsala who saw over four minutes of totality and the winter stars at noon. Two Frenchmen, the Chevalier de Louville and Pierre Rémond de Montmort, crossed the Channel to watch from the Royal Society's house in Crane Court.",
+  "Because Halley's request asked for the same quantity everywhere, the record of this eclipse is less a set of diaries than a coordinated experiment: each eye here is a timed report, a letter, a printed map, a parish register or a collector's dated note. The chapter lays them in order of place along the shadow and of time across the following months, when Halley published a corrected map 'as it was observed' and, in 1723, reused the plate for the next eclipse.",
+  "The same sheet of sky also carried older readings. A parish register in Lincolnshire set the eclipse down as a warning to the world; Whiston, late in life, called it a divine signal. Halley's broadsheet had been written precisely against such readings. The eyes here therefore disagree not only about how many seconds the darkness lasted, but about what it meant."
+ ],
+ "calendar_note": "Britain used the Julian (Old Style) calendar until 1752, eleven days behind the Gregorian (New Style) calendar used in France, the Netherlands and (since 1700) Protestant Germany. Sweden had returned to the Julian calendar in 1712, so the Uppsala report is also an Old Style date. The eclipse therefore fell on Friday 22 April 1715 in London, Oxford, Cambridge and Uppsala, and on 3 May 1715 in Paris, Hamburg or Berlin. date_iso gives the Gregorian date throughout; date_display gives the original date with (O.S.) or (N.S.). The English civil year began on 25 March, so Halley's first advertisement and Luttrell's purchase of Whiston's map in mid-March are dated '1714/15' in contemporary hands, converted here to late March 1715 (N.S.). Times are local apparent solar time ('true time') as each observer gave it: London's totality fell just after 9 a.m., Uppsala's just before 11 a.m., because Uppsala lies about 17½ degrees east and the shadow moved eastward. The Philosophical Transactions volume containing the reports is catalogued as vol. 29 (1714–1716).",
+ "eyes": [
+  {
+   "id": "halley",
+   "short": "Halley",
+   "name": "Edmond Halley",
+   "life": "1656–1742",
+   "role": "Savilian Professor of Geometry at Oxford and Secretary of the Royal Society, aged 58",
+   "side": "England; Royal Society",
+   "where": "The Royal Society's house in Crane Court, Fleet Street, London",
+   "lat": 51.5144,
+   "lon": -0.1083,
+   "vantage": 0,
+   "vantage_label": "predictor, organiser and observer",
+   "form": "printed broadsheet maps and published reports (Philosophical Transactions)",
+   "language": "English",
+   "authenticity": "The predictive map (Senex, advertised March 1715), the revised map 'as it was observed' (advertised September 1715) and the 1723 map for the 1724 eclipse survive in several libraries; his report is printed in Philosophical Transactions vol. 29.",
+   "bio": "Halley had computed the eclipse with Newtonian lunar theory and turned it into a public experiment: a cheap map, a plain statement that the darkness was natural, and a request for timings. Afterwards he used the scattered reports to draw where the shadow had really gone. He is the one eye who planned the observations of most of the others.",
+   "sources": [
+    {
+     "title": "Halley, 'Observations of the late Total Eclipse of the Sun on the 22d of April last past', Phil. Trans. 29 (OCR)",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-103054/"
+    },
+    {
+     "title": "Queen's College Oxford: Halley's 'A Description of the Passage of the Shadow of the Moon'",
+     "url": "https://www.queens.ox.ac.uk/blog/treasures-of-the-library-the-passage-of-the-shadow-of-the-moon/"
+    },
+    {
+     "title": "Daniel Crouch Rare Books: the revised map",
+     "url": "https://crouchrarebooks.com/browse/halleys-solar-eclipse-map/?print=pdf"
+    }
+   ]
+  },
+  {
+   "id": "louville",
+   "short": "Louville",
+   "name": "Jacques-Eugène d'Allonville, Chevalier de Louville",
+   "life": "1671–1732",
+   "role": "French astronomer, former army officer, member of the Paris Académie des Sciences since 1714, aged 43",
+   "side": "France; Académie royale des sciences",
+   "where": "Crane Court, London, with Halley",
+   "lat": 51.5144,
+   "lon": -0.1083,
+   "waypoints": [
+    {
+     "lat": 48.8366,
+     "lon": 2.3363,
+     "label": "Paris, before the eclipse"
+    },
+    {
+     "lat": 51.5144,
+     "lon": -0.1083,
+     "label": "Crane Court, London, 22 April (O.S.)"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "a foreign astronomer who crossed the Channel for totality",
+   "form": "observation reported by Halley; his own account to the Paris Academy",
+   "language": "French",
+   "authenticity": "His presence at Crane Court is named in Halley's printed report. His own account of the flashes he saw is summarised in modern secondary works; it has not been checked here against the Paris Academy's printed Mémoires for 1715.",
+   "bio": "Paris lay outside the band of totality, so Louville travelled to London to see the total phase. He is one of the few observers whose own interest was the physics of the ring and the dark Moon rather than timing alone. The Royal Society elected him a Fellow in the same year.",
+   "sources": [
+    {
+     "title": "Halley's report naming Louville and Montmort (OCR)",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-103054/"
+    },
+    {
+     "title": "Royal Society fellow record (Epsilon)",
+     "url": "https://epsilon.ac.uk/view/epsilon-testbed/royal-society/nameregs/NA5674"
+    },
+    {
+     "title": "Wikipedia: Jacques d'Allonville",
+     "url": "https://en.wikipedia.org/wiki/Jacques_d%27Allonville"
+    }
+   ]
+  },
+  {
+   "id": "pound",
+   "short": "Pound",
+   "name": "James Pound",
+   "life": "1669–1724",
+   "role": "Rector of Wanstead, Essex, astronomer and Fellow of the Royal Society, aged about 45",
+   "side": "England",
+   "where": "Wanstead, Essex",
+   "lat": 51.575,
+   "lon": 0.027,
+   "vantage": 1,
+   "vantage_label": "clergyman-astronomer inside the band",
+   "form": "timed report printed by Halley",
+   "language": "English",
+   "authenticity": "Known only through the figures Halley printed in the Transactions.",
+   "bio": "Pound kept a well-equipped private observatory at his rectory and was among the best observers in England. His timing gave Halley a close neighbour to compare with London.",
+   "sources": [
+    {
+     "title": "Halley's report (OCR)",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-103054/"
+    }
+   ]
+  },
+  {
+   "id": "derham",
+   "short": "Derham",
+   "name": "William Derham",
+   "life": "1657–1735",
+   "role": "Rector of Upminster, Essex, author of Physico-Theology (1713), Fellow of the Royal Society, aged 57",
+   "side": "England",
+   "where": "Upminster, Essex",
+   "lat": 51.556,
+   "lon": 0.249,
+   "vantage": 1,
+   "vantage_label": "natural theologian inside the band",
+   "form": "timed report printed by Halley",
+   "language": "English",
+   "authenticity": "Known through the duration Halley printed.",
+   "bio": "Derham wrote books arguing that the order of nature displayed its Creator, and he also timed sound and weather with instruments. His figure for the eclipse is one of the cluster east of London.",
+   "sources": [
+    {
+     "title": "Halley's report (OCR)",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-103054/"
+    }
+   ]
+  },
+  {
+   "id": "keill",
+   "short": "Keill",
+   "name": "John Keill",
+   "life": "1671–1721",
+   "role": "Savilian Professor of Astronomy at Oxford, aged 43",
+   "side": "England; Oxford University",
+   "where": "Oxford",
+   "lat": 51.754,
+   "lon": -1.254,
+   "vantage": 1,
+   "vantage_label": "professor near the centre line, under cloud",
+   "form": "observation reported by Halley",
+   "language": "English",
+   "authenticity": "Known through Halley's printed summary.",
+   "bio": "Keill was Halley's colleague among the Savilian professors and a combative Newtonian. Oxford lay close to the shadow's centre line, which made his clouded-out morning a real loss to Halley's analysis.",
+   "sources": [
+    {
+     "title": "Halley's report (OCR)",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-103054/"
+    },
+    {
+     "title": "University of Nottingham Weather Extremes blog on the 1715 eclipse",
+     "url": "https://blogs.nottingham.ac.uk/weatherextremes/?p=5971"
+    }
+   ]
+  },
+  {
+   "id": "cotes",
+   "short": "Cotes",
+   "name": "Roger Cotes",
+   "life": "1682–1716",
+   "role": "Plumian Professor of Astronomy at Cambridge, editor of the second edition of Newton's Principia (1713), aged 32",
+   "side": "England; Trinity College, Cambridge",
+   "where": "Trinity College, Cambridge",
+   "lat": 52.207,
+   "lon": 0.117,
+   "vantage": 1,
+   "vantage_label": "Newton's editor, swamped by visitors",
+   "form": "dated letter with drawings; observation reported by Halley",
+   "language": "English",
+   "authenticity": "His letter to Newton about the eclipse, with two drawings of the corona, survives at Trinity College Cambridge (MS R.16.38b, ff. 293–294) and was printed by J. Edleston, Correspondence of Sir Isaac Newton and Professor Cotes (1850), pp. 181–184. The exact date of the letter has not been confirmed here.",
+   "bio": "Cotes had the instruments and the skill, but on the morning itself his rooms were full of company and he missed the first contact and the start of totality. What he did record, in drawings sent to Newton, is now valued as early evidence of the corona's shape.",
+   "sources": [
+    {
+     "title": "MacTutor biography of Roger Cotes",
+     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cotes"
+    },
+    {
+     "title": "J. Space Weather Space Clim. (2021), Fig. 13: Cotes's drawings",
+     "url": "https://www.swsc-journal.org/articles/swsc/full_html/2021/01/swsc190067/F13.html"
+    },
+    {
+     "title": "Edleston, Correspondence of Sir Isaac Newton and Professor Cotes (1850)",
+     "url": "https://openlibrary.org/works/OL17664298W"
+    }
+   ]
+  },
+  {
+   "id": "bridges",
+   "short": "Bridges",
+   "name": "John Bridges",
+   "life": "1666–1724",
+   "role": "Antiquary and historian of Northamptonshire, aged 48",
+   "side": "England",
+   "where": "Barton Seagrave, near Kettering, Northamptonshire",
+   "lat": 52.385,
+   "lon": -0.69,
+   "vantage": 1,
+   "vantage_label": "country gentleman close to the centre line",
+   "form": "timed report printed by Halley",
+   "language": "English",
+   "authenticity": "Known through Halley's printed figure ('Barton, near Kettering'). Identification with the antiquary John Bridges of Barton Seagrave follows the place-name.",
+   "bio": "Bridges's long duration was one of the figures that showed Halley where the middle of the shadow had run. He is a reminder that the network relied on educated amateurs with good clocks.",
+   "sources": [
+    {
+     "title": "Halley's report (OCR)",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-103054/"
+    }
+   ]
+  },
+  {
+   "id": "harris",
+   "short": "Harris",
+   "name": "John Harris",
+   "life": "c.1666–1719",
+   "role": "Clergyman, author of the Lexicon Technicum, Fellow of the Royal Society",
+   "side": "England",
+   "where": "Norton Court, near Faversham, Kent",
+   "lat": 51.3,
+   "lon": 0.86,
+   "vantage": 2,
+   "vantage_label": "at the southern edge of the shadow",
+   "form": "timed report printed by Halley",
+   "language": "English",
+   "authenticity": "Known through Halley's printed figure.",
+   "bio": "Harris watched from close to the southern limit, where totality was brief. His short figure was as useful as the long ones, because it pinned down where the shadow's edge had passed.",
+   "sources": [
+    {
+     "title": "Halley's report (OCR)",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-103054/"
+    }
+   ]
+  },
+  {
+   "id": "prosser",
+   "short": "Prosser",
+   "name": "Roger Prosser",
+   "life": "fl. 1715",
+   "role": "Clergyman at Haverfordwest, Pembrokeshire",
+   "side": "Wales",
+   "where": "Haverfordwest, Pembrokeshire",
+   "lat": 51.801,
+   "lon": -4.969,
+   "vantage": 2,
+   "vantage_label": "at the northern edge, in west Wales",
+   "form": "timed report printed by Halley",
+   "language": "English",
+   "authenticity": "Known only through Halley's printed figure.",
+   "bio": "Prosser's report is the far western anchor of the record. Halley's analysis ran the northern limit of the shadow in at St Brides Bay, close by.",
+   "sources": [
+    {
+     "title": "Halley's report (OCR)",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-103054/"
+    }
+   ]
+  },
+  {
+   "id": "edens",
+   "short": "Edens",
+   "name": "John Edens",
+   "life": "fl. 1715",
+   "role": "Mariner on a voyage to the Canary Islands",
+   "side": "England; at sea",
+   "where": "At sea near the Canary Islands (position as printed, about 34°20' N, 0h 54m of time west of London)",
+   "lat": 34.33,
+   "lon": -13.5,
+   "vantage": 3,
+   "vantage_label": "at sea, far south of the track, seeing a partial eclipse",
+   "form": "ship's observation communicated to the Royal Society",
+   "language": "English",
+   "authenticity": "Printed in 'Some Accounts of the Late Great Solar Eclipse … Communicated to the Royal-Society from Abroad', Phil. Trans. 29. The printed position is partly garbled in the OCR text.",
+   "bio": "Edens saw only a partial eclipse, the Moon covering about half the Sun's diameter. His report shows how far south the Royal Society's request travelled, and gives the earliest local clock times in the record.",
+   "sources": [
+    {
+     "title": "Phil. Trans. 'Some Accounts … from Abroad' (OCR)",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-103063/"
+    }
+   ]
+  },
+  {
+   "id": "uppsala",
+   "short": "Uppsala prof.",
+   "name": "'Prof. Jo. Waller' of Uppsala",
+   "life": "fl. 1715",
+   "role": "Professor at Uppsala University, as named in the printed report",
+   "side": "Sweden",
+   "where": "Uppsala",
+   "lat": 59.858,
+   "lon": 17.639,
+   "vantage": 1,
+   "vantage_label": "far down the track, in Sweden",
+   "form": "observation printed in Nouvelles Littéraires (The Hague) and summarised in Phil. Trans.",
+   "language": "French (printed report); summarised in English",
+   "authenticity": "The Transactions summarise a report from Nouvelles Littéraires, pp. 404–405, under the name 'Prof. Jo. Waller'. The name may be a garbled form of Vallerius (an Uppsala family of professors), but the identification is not confirmed here.",
+   "bio": "The Uppsala observer had three clocks and a large quadrant, and caught over four minutes of total darkness. His list of stars seen at noon is the fullest in the record. The London editors compared his times with their own to estimate the shadow's speed across Europe.",
+   "sources": [
+    {
+     "title": "Phil. Trans. 'Some Accounts … from Abroad' (OCR)",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-103063/"
+    }
+   ]
+  },
+  {
+   "id": "alkborough",
+   "short": "Alkborough",
+   "name": "Unnamed keeper of the Alkborough parish register",
+   "life": "fl. 1715",
+   "role": "Parish clerk or incumbent recording notable events",
+   "side": "England; Lincolnshire parish",
+   "where": "Alkborough, north Lincolnshire, near the Humber",
+   "lat": 53.684,
+   "lon": -0.668,
+   "vantage": 3,
+   "vantage_label": "parish record outside the band, reading the sky morally",
+   "form": "parish register memorandum",
+   "language": "English",
+   "authenticity": "Manuscript entry in the Alkborough parish register, Lincolnshire Archives ALKBOROUGH PAR/1/3, cited by the University of Nottingham Weather Extremes project. The writer is not named.",
+   "bio": "The register's writer listed the eclipse among other remarkable events as a 'warning to the world'. The entry shows the reading Halley's broadsheet had tried to forestall, surviving in the same months.",
+   "sources": [
+    {
+     "title": "University of Nottingham Weather Extremes blog",
+     "url": "https://blogs.nottingham.ac.uk/weatherextremes/?p=5971"
+    }
+   ]
+  },
+  {
+   "id": "whiston",
+   "short": "Whiston",
+   "name": "William Whiston",
+   "life": "1667–1752",
+   "role": "Mathematician and lecturer in London, dismissed as Lucasian Professor at Cambridge in 1710 for his religious views, aged 47",
+   "side": "England",
+   "where": "London (Hatton Garden)",
+   "lat": 51.52,
+   "lon": -0.108,
+   "vantage": 2,
+   "vantage_label": "rival predictor and public lecturer",
+   "form": "printed predictive map and newspaper advertisements",
+   "language": "English",
+   "authenticity": "His map 'A Calculation of the Great Eclipse of the Sun, April 22d. 1715 in ye Morning' survives (Cambridge Institute of Astronomy Library; Harvard, Luttrell's copy). His later description of the eclipse as a 'Divine signal' comes from his old age.",
+   "bio": "Whiston computed the eclipse from Flamsteed's tables corrected by Newton's lunar theory and sold the result at a shilling, with directions for observing. He also made money lecturing on the eclipse. Unlike Halley, he came to read it religiously.",
+   "sources": [
+    {
+     "title": "Daniel Crouch Rare Books: Whiston's eclipse map",
+     "url": "https://crouchrarebooks.com/browse/whistons-solar-eclipse-map/?print=pdf"
+    },
+    {
+     "title": "Cambridge Apollo: 'A complete account of the great eclipse' (Whiston and Senex)",
+     "url": "https://www.repository.cam.ac.uk/handle/1810/221310"
+    }
+   ]
+  },
+  {
+   "id": "luttrell",
+   "short": "Luttrell",
+   "name": "Narcissus Luttrell",
+   "life": "1657–1732",
+   "role": "Annalist and book collector, compiler of the Brief Historical Relation of State Affairs, aged 57",
+   "side": "England",
+   "where": "London (Little Chelsea)",
+   "lat": 51.485,
+   "lon": -0.18,
+   "vantage": 4,
+   "vantage_label": "collector dating the eclipse literature as it appeared",
+   "form": "dated purchase notes on broadsheets",
+   "language": "English",
+   "authenticity": "Luttrell wrote the price and date of purchase on items he bought; copies of Whiston's map, Halley's revised map and Halley's 1723 map with his notes survive (Harvard, Houghton Library) and are recorded in ESTC and dealers' notes.",
+   "bio": "Luttrell is the quietest eye here: a collector who bought the eclipse sheets as they came out and dated each one. His notes give a timeline of what Londoners could buy before and after the shadow passed.",
+   "sources": [
+    {
+     "title": "Grub Street Project: Halley's revised map, Luttrell copy",
+     "url": "https://www.grubstreetproject.net/publications/N8531/"
+    },
+    {
+     "title": "Grub Street Project: Halley's 1724 map with the 1715 path, Luttrell copy",
+     "url": "https://www.grubstreetproject.net/publications/N6708/"
+    },
+    {
+     "title": "Daniel Crouch: Whiston's map, Luttrell copy",
+     "url": "https://crouchrarebooks.com/browse/whistons-solar-eclipse-map/?print=pdf"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1715-03-26",
+   "date_display": "Tuesday 15 – Thursday 17 March 1714/15 (O.S.)",
+   "precision": "range",
+   "eye": "halley",
+   "place": "London (Senex, Salisbury Court)",
+   "headline": "Halley's sixpenny map of the coming shadow goes on sale",
+   "digest": "The Post Boy advertised Halley's engraved map of the Moon's shadow passing over England, sold by John Senex and William Taylor for sixpence. The map showed the oval shadow and the track of totality, with times. Its text told readers that the sudden darkness, with stars visible around the Sun, was a natural event they should not read as a sign.",
+   "quote": "nothing in it more than Natural",
+   "confidence": "verified",
+   "source_note": "Post Boy no. 3098, 15–17 March 1715 (O.S.), cited by Daniel Crouch Rare Books catalogue notes; date converted to N.S."
+  },
+  {
+   "date_iso": "1715-03-28",
+   "date_display": "17 March 1714/15 (O.S.)",
+   "precision": "day",
+   "eye": "luttrell",
+   "place": "London",
+   "headline": "Luttrell buys Whiston's rival eclipse calculation",
+   "digest": "Narcissus Luttrell bought a copy of William Whiston's eclipse sheet and, as was his habit, wrote on it the price, sixpence, and the date. It is one of the earliest dated traces of the eclipse literature in the hands of a reader.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Harvard Houghton Library copy, EB7 W5794 715c, as recorded in Daniel Crouch catalogue notes on Whiston's map"
+  },
+  {
+   "date_iso": "1715-04",
+   "date_display": "Spring 1715 (O.S.), before 22 April",
+   "precision": "month",
+   "eye": "halley",
+   "place": "London",
+   "headline": "The broadsheet's warning about omens and King George",
+   "digest": "Halley's text explained why he published at all: the like eclipse had not been seen in southern Britain for many ages, and without warning people might take it as ominous and as foretelling harm to King George I and his government, only months after the Hanoverian succession. He asked 'the Curious' to note above all how long total darkness lasted, with pendulum clocks.",
+   "quote": "apt to look upon it as Ominous",
+   "confidence": "verified",
+   "source_note": "Text of Halley's predictive map as quoted by the Queen's College Oxford library blog and Daniel Crouch; exact date of the text is that of the map's publication"
+  },
+  {
+   "date_iso": "1715-04-13",
+   "date_display": "2–5 April 1715 (O.S.)",
+   "precision": "range",
+   "eye": "whiston",
+   "place": "London",
+   "headline": "Whiston advertises his calculation in the London Gazette",
+   "digest": "Whiston's sheet, computed from Flamsteed's tables corrected by Newton's lunar theory, was advertised in the London Gazette. It gave constructions for London, Rome and Stockholm and a dotted track of the Moon's centre, without geography. It sold alongside his Astronomical Lectures.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "London Gazette 2–5 April 1715, cited in Daniel Crouch catalogue notes on Whiston's map"
+  },
+  {
+   "date_iso": "1715-04-18",
+   "date_display": "7–9 April 1715 (O.S.)",
+   "precision": "range",
+   "eye": "whiston",
+   "place": "London",
+   "headline": "Whiston promises directions for watching, at a shilling",
+   "digest": "A second notice in the Post Man promised directions for observing the eclipse, a celestial map, and an exact calculation from Newton's latest lunar theory, for one shilling. Whiston was a dismissed professor living by lectures and print, and the eclipse was an opportunity.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Post Man 7–9 April 1715, cited in Daniel Crouch notes"
+  },
+  {
+   "date_iso": "1715-04",
+   "date_display": "Spring 1715",
+   "precision": "month",
+   "eye": "louville",
+   "place": "Paris to London",
+   "headline": "Louville crosses to London for totality",
+   "digest": "Paris lay outside the path of totality. The Chevalier de Louville, a new member of the Académie des Sciences, travelled to London to see the total phase, and was received by Halley and the Royal Society at Crane Court.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Royal Society fellow record (Epsilon) and Halley's report; date of the journey not established"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.), early morning",
+   "precision": "day",
+   "eye": "halley",
+   "place": "Crane Court, London",
+   "headline": "Checking the clock against the Sun",
+   "digest": "Before the eclipse Halley and the Society's fellows checked their pendulum clock against the Sun's measured altitude; it ran only about 14 seconds fast. The morning was clear, which in an English April was a piece of luck noted by many observers.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Halley, Phil. Trans. 29 (OCR)"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.), about 9h 9m true time",
+   "precision": "day",
+   "eye": "halley",
+   "place": "Crane Court, London",
+   "headline": "The luminous ring appears as the last light goes",
+   "digest": "A few seconds before the Sun vanished, a luminous ring appeared around the Moon, pearl-coloured, which Halley cautiously suggested might be the Moon's atmosphere. Total darkness began at about 9h 9m 3s true time. The sky turned a livid, purplish colour, and only Jupiter, Mercury and Venus were seen by the Society's gentlemen.",
+   "quote": "there discovered itself round the Moon a luminous Ring",
+   "confidence": "verified",
+   "source_note": "Halley, Phil. Trans. 29 (OCR)"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.), 9h 12m 26s true time",
+   "precision": "day",
+   "eye": "halley",
+   "place": "Crane Court, London",
+   "headline": "A red streak on the Moon's edge, then daylight",
+   "digest": "Just before the Sun reappeared, a long narrow streak of dark red light seemed to colour the edge of the Moon on the side where the light would return. Totality ended at 9h 12m 26s, lasting 3 minutes 23 seconds by Halley's clock. He noted the alarm shown by animals of all sorts and a chill in the air.",
+   "quote": "a dusky but strong Red Light",
+   "confidence": "verified",
+   "source_note": "Halley, Phil. Trans. 29 (OCR)"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "precision": "day",
+   "eye": "louville",
+   "place": "Crane Court, London",
+   "headline": "Flashes on the face of the dark Moon",
+   "digest": "Watching beside Halley and Montmort, Louville saw brief jets or flashes of light on the darkened disc of the Moon, which he likened to fulminations. Others in the room also reported flickers at the Moon's edge; what caused them was argued over afterwards.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Secondary summary (Wikipedia article on d'Allonville, citing French sources); Louville's presence verified in Halley's report"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "precision": "day",
+   "eye": "pound",
+   "place": "Wanstead, Essex",
+   "headline": "Three minutes twenty seconds at Wanstead",
+   "digest": "At his rectory observatory east of London, James Pound timed total darkness at 3 minutes 20 seconds, within a few seconds of the Crane Court figure. Halley used the two together to fix the shadow's behaviour around the capital.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Halley, Phil. Trans. 29 (OCR)"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "precision": "day",
+   "eye": "derham",
+   "place": "Upminster, Essex",
+   "headline": "Derham's clock: three minutes eight seconds",
+   "digest": "Further east at Upminster, William Derham timed totality at 3 minutes 8 seconds, shorter than London, as Upminster lay further from the centre line. The Greenwich timing reported to Halley was 3 minutes 11 seconds.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Halley, Phil. Trans. 29 (OCR)"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "precision": "day",
+   "eye": "keill",
+   "place": "Oxford",
+   "headline": "Clouds at Oxford, almost on the centre line",
+   "digest": "At Oxford, John Keill's view was spoiled by cloud and he saw nothing distinctly but the end of the eclipse. Halley regretted it: the centre of the shadow had passed very near Oxford, and a full timing there would have been the most valuable of all. An Oxford estimate of about three and a half minutes was printed, which Halley thought too short.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Halley, Phil. Trans. 29 (OCR)"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "precision": "day",
+   "eye": "cotes",
+   "place": "Trinity College, Cambridge",
+   "headline": "Cotes overwhelmed by visitors",
+   "digest": "The Plumian Professor had clear skies but a crowded room. Halley reported that Cotes was 'opprest by too much company' and missed the beginning of the eclipse and the moment total darkness began, so his timings were of little use.",
+   "quote": "opprest by too much company",
+   "confidence": "verified",
+   "source_note": "Halley, Phil. Trans. 29, as quoted in MacTutor and the Nottingham blog"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "precision": "day",
+   "eye": "cotes",
+   "place": "Trinity College, Cambridge",
+   "headline": "An assistant calls the middle of totality",
+   "digest": "In the confusion Cotes's assistant had worked out a way of judging the middle of the eclipse and called it out, though Cotes did not understand at that moment what he meant. Cotes later told the story against himself in his letter to Newton.",
+   "quote": "Now's the middle",
+   "confidence": "verified",
+   "source_note": "Cotes to Newton, as quoted in MacTutor biography; letter printed by Edleston (1850)"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "precision": "day",
+   "eye": "cotes",
+   "place": "Trinity College, Cambridge",
+   "headline": "Drawing the shape of the light around the Moon",
+   "digest": "Cotes drew the ring of light he had seen, and included a second drawing by 'a very ingenious Gentleman'. Both sketches show rays arranged roughly in a cross, faint in the gentleman's version; modern solar physicists read them as a record of the corona's structure near the end of the Maunder minimum.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Trinity College Cambridge MS R.16.38b ff. 293–294, as described in J. Space Weather Space Clim. 2021, Fig. 13"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "precision": "day",
+   "eye": "bridges",
+   "place": "Barton Seagrave, near Kettering",
+   "headline": "Nearly four minutes in Northamptonshire",
+   "digest": "At Barton near Kettering, John Bridges timed total darkness at 3 minutes 53 seconds, one of the longest English figures. Near King's Walden, Hertfordshire, John Whiteside timed 3 minutes 52 seconds. The two long values helped Halley place the centre line through the Midlands.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Halley, Phil. Trans. 29 (OCR)"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "precision": "day",
+   "eye": "harris",
+   "place": "Norton Court, Kent",
+   "headline": "About a minute at the southern edge",
+   "digest": "Near the southern limit in Kent, John Harris saw total darkness last only about one minute. Close to an edge the duration shrinks fast, so his short figure was a sensitive marker of where the boundary ran.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Halley, Phil. Trans. 29 (OCR)"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "precision": "day",
+   "eye": "prosser",
+   "place": "Haverfordwest, Pembrokeshire",
+   "headline": "A minute and a half in west Wales",
+   "digest": "At Haverfordwest Roger Prosser reported total darkness of about a minute and a half, near the northern edge of the band. The shadow reached Wales before London: it was travelling east-north-east across the country.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Halley, Phil. Trans. 29 (OCR)"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.), 6h 49m – 8h 47m local time",
+   "precision": "day",
+   "eye": "edens",
+   "place": "At sea near the Canary Islands",
+   "headline": "A partial eclipse seen from a ship far to the south",
+   "digest": "Far south of the track, John Edens timed the beginning of the eclipse at 6h 49m and the end at 8h 47m local time, the end more exactly than the start. At greatest eclipse the Moon covered about half the Sun's diameter, nine digits on the northern side.",
+   "quote": "the greatest Darkness was about 1/2 of the Sun's Diameter",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 29, 'Some Accounts … from Abroad' (OCR)"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "3 May 1715 (N.S.)",
+   "precision": "day",
+   "eye": "halley",
+   "place": "Hamburg, Kiel, Berlin, Frankfurt, Nuremberg (reported)",
+   "headline": "German cities report eleven digits, and clouds",
+   "digest": "The accounts from abroad listed German stations: at Hamburg greatest eclipse came at about 10h 5½m with 11 digits covered; at Kiel at 10h 19m with about 11 digits; at Berlin at 10h 22m. Clouds hid the beginning at Berlin, the end at Hamburg and most of the eclipse at Nuremberg. None of these cities saw totality.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 29, 'Some Accounts … from Abroad' (OCR); compiled for the Transactions, which Halley edited as Secretary"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.), 10h 58m – 11h 2m local time",
+   "precision": "day",
+   "eye": "uppsala",
+   "place": "Uppsala",
+   "headline": "Over four minutes of totality in Sweden",
+   "digest": "With three clocks agreeing and a large quadrant to measure the Sun, the Uppsala professor timed total darkness from about 10h 58m 15s to 11h 2m 24s, 4 minutes 9 seconds, longer than anywhere in England.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 29, 'Some Accounts … from Abroad', summarising Nouvelles Littéraires pp. 404–405"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "precision": "day",
+   "eye": "uppsala",
+   "place": "Uppsala",
+   "headline": "Stars at noon, faces lost in the dark",
+   "digest": "The darkness was so deep that people could hardly make each other out. Jupiter, Mercury and Venus showed, and with them Cassiopeia, Capella, Aldebaran and Orion; Sirius had not yet risen.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 29, 'Some Accounts … from Abroad' (OCR)"
+  },
+  {
+   "date_iso": "1715",
+   "date_display": "1715",
+   "precision": "year",
+   "eye": "alkborough",
+   "place": "Alkborough, Lincolnshire",
+   "headline": "A great eclipse entered as a warning",
+   "digest": "The parish register's keeper set the eclipse down among the remarkable events of the time, calling it another great warning to the world. Alkborough lay north of the band of totality, so the writer most likely saw a deep partial eclipse, or knew of it by report.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Lincolnshire Archives ALKBOROUGH PAR/1/3, via University of Nottingham Weather Extremes blog; exact date of the entry not given"
+  },
+  {
+   "date_iso": "1715-05",
+   "date_display": "Spring–summer 1715",
+   "precision": "range",
+   "eye": "whiston",
+   "place": "London",
+   "headline": "Whiston profits from lectures on the eclipse",
+   "digest": "Whiston turned the eclipse into income, through sales of his sheet and lectures on it; one modern account puts his earnings at £120. He also planned to send up a fireball from Hampstead Heath at mid-eclipse as a signal, part of his schemes for finding longitude.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Rebekah Higgitt, Guardian 2015 (via Portside reprint); Daniel Crouch notes on the fireball plan. Dates not given"
+  },
+  {
+   "date_iso": "1715-05",
+   "date_display": "Late April or May 1715 (O.S.)",
+   "precision": "range",
+   "eye": "cotes",
+   "place": "Cambridge",
+   "headline": "Cotes writes to Newton about the eclipse",
+   "digest": "Cotes sent Newton an account of the morning with the two drawings of the ring of light. He did not spare himself: he admitted the crowd had cost him his timings, and recorded his assistant's 'middle' without having understood it at the time. It was one of his last astronomical observations; he died the following year.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Edleston (1850) pp. 181–184; Trinity College MS R.16.38b; exact date of letter not confirmed"
+  },
+  {
+   "date_iso": "1715-05",
+   "date_display": "May–June 1715",
+   "precision": "range",
+   "eye": "halley",
+   "place": "London",
+   "headline": "Halley sorts the reports by distance from the centre",
+   "digest": "Halley set the durations side by side: about 3¾ to nearly 4 minutes near Kettering and King's Walden, a little over 3 minutes round London, one to one and a half minutes at the edges in Kent and Pembrokeshire, and 3 minutes 15 seconds at Lord Foley's seat at Witley near Worcester. From them he drew a centre line entering near Plymouth and passing near Exeter, Islip and Huntingdon to leave the Norfolk coast near Wells and Blakeney.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Halley, Phil. Trans. 29 (OCR); date of the analysis inferred from publication"
+  },
+  {
+   "date_iso": "1715-05",
+   "date_display": "May–June 1715",
+   "precision": "range",
+   "eye": "halley",
+   "place": "London",
+   "headline": "The shape and speed of the shadow",
+   "digest": "Halley worked out that the shadow had swept over London at about 29 geographical miles a minute and that its outline on the ground was an ellipse. The longest possible totality on the centre line he estimated at nearly four minutes.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Halley, Phil. Trans. 29 (OCR)"
+  },
+  {
+   "date_iso": "1715-06",
+   "date_display": "Philosophical Transactions vol. 29 (1715)",
+   "precision": "range",
+   "eye": "halley",
+   "place": "London",
+   "headline": "The report printed in the Transactions",
+   "digest": "Halley's 'Observations of the late Total Eclipse of the Sun on the 22d of April last past' appeared in the Philosophical Transactions, naming the observers, their places and their timings. It is the backbone of almost everything known about the day.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Phil. Trans. 29 (OCR); issue month not confirmed"
+  },
+  {
+   "date_iso": "1715-06-20",
+   "date_display": "9 June 1715 (O.S.)",
+   "precision": "day",
+   "eye": "louville",
+   "place": "London",
+   "headline": "Louville elected to the Royal Society",
+   "digest": "The Royal Society elected the Chevalier de Louville a Fellow in the weeks after the eclipse he had crossed the Channel to watch.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Royal Society fellow record via Epsilon (date given as 9/06/1715; calendar style not stated)"
+  },
+  {
+   "date_iso": "1715-08",
+   "date_display": "Summer 1715 (on sale by 1 September O.S.)",
+   "precision": "range",
+   "eye": "halley",
+   "place": "London (Senex)",
+   "headline": "A corrected map: the shadow as it was observed",
+   "digest": "Halley issued a second map showing the shadow 'as it was observed', built from the reports. He wrote that the predictions had had the desired effect, that curious persons in most parts of the kingdom had sent observations, and that the correction needed was very small. The real band was wider than predicted and shifted somewhat.",
+   "quote": "the correction they need is very small",
+   "confidence": "verified",
+   "source_note": "Daniel Crouch notes on the revised map; Grub Street Project N8531; Cambridge Apollo 1810/221308"
+  },
+  {
+   "date_iso": "1715-09-12",
+   "date_display": "1 September 1715 (O.S.)",
+   "precision": "day",
+   "eye": "luttrell",
+   "place": "London",
+   "headline": "Luttrell buys the corrected map",
+   "digest": "Luttrell bought Halley's revised map for sixpence and dated it, a fortnight before Senex's newspaper advertisements for it. Read alongside his March purchase of Whiston's sheet, his notes bracket the eclipse in print.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Grub Street Project N8531 (Luttrell copy priced and dated)"
+  },
+  {
+   "date_iso": "1715-09-25",
+   "date_display": "14 September 1715 (O.S.)",
+   "precision": "day",
+   "eye": "halley",
+   "place": "London",
+   "headline": "Senex advertises the corrected map",
+   "digest": "The Daily Courant carried an advertisement for the revised map on 14 September (O.S.), repeated on the 16th and 19th. The revised sheet sold far fewer copies than the first and is much rarer today.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Daily Courant no. 4334, cited in Daniel Crouch notes"
+  },
+  {
+   "date_iso": "1715-10",
+   "date_display": "Later in 1715",
+   "precision": "range",
+   "eye": "halley",
+   "place": "London",
+   "headline": "Accounts from abroad gathered for the Transactions",
+   "digest": "A second paper, 'Some Accounts of the Late Great Solar Eclipse … Communicated to the Royal-Society from Abroad', collected the ship's report, the German cities and Uppsala. The editors compared Uppsala's times with London's, pointing out errors in the Dutch-printed version of the Swedish report.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Phil. Trans. 29, 'Some Accounts … from Abroad' (OCR); issue date not confirmed"
+  },
+  {
+   "date_iso": "1723-11",
+   "date_display": "November 1723 (O.S.)",
+   "precision": "month",
+   "eye": "halley",
+   "place": "London (Senex)",
+   "headline": "The old plate reused for the next eclipse",
+   "digest": "For the total eclipse expected on 11 May 1724, Halley and Senex issued a new map that also showed the 1715 shadow as observed, the plate extended south to take in northern France. The first experiment became the baseline for the second.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Grub Street Project N6708; Daniel Crouch notes on the revised map"
+  },
+  {
+   "date_iso": "1723-11",
+   "date_display": "November 1723 (O.S.)",
+   "precision": "month",
+   "eye": "luttrell",
+   "place": "London",
+   "headline": "Luttrell dates the 1724 map",
+   "digest": "Luttrell bought the new map showing both the coming 1724 path and the 1715 one, and wrote the month on it as before, eight years after his first eclipse purchases.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Grub Street Project N6708 (Luttrell copy priced and dated November 1723)"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "22 April 1715 (O.S.)",
+   "precision": "day",
+   "eye": "alkborough",
+   "place": "Alkborough, Lincolnshire",
+   "headline": "The morning itself, north of the shadow",
+   "digest": "On the morning of the eclipse Alkborough, on the south bank of the Humber, lay north of Halley's band; the Sun there was deeply but not wholly covered. The register entry is undated and may have been written on the day or soon after.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Location relative to the path from Halley's maps; entry date not given in the source"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "precision": "day",
+   "eye": "whiston",
+   "place": "London",
+   "headline": "The day of the rival forecasts",
+   "digest": "Whiston's sheet and Halley's had both put London inside the dark, and both men were proved right on that; Halley's map, with its geography and its edges, was the more useful. Where Whiston watched has not been found in the sources used here.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Daniel Crouch notes comparing the two maps; Whiston's own observing place not established"
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1715-03-26",
+   "date_display": "15–17 March 1714/15 (O.S.)",
+   "eye": "halley",
+   "claim": "Predicted a total eclipse on 22 April (O.S.) with a band of totality over England and southern Scotland, London inside it; asked observers to time totality with pendulum clocks",
+   "form": "predicted",
+   "evidence": "Halley's predictive map, advertised in the Post Boy no. 3098",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1715-04-13",
+   "date_display": "2–5 April 1715 (O.S.)",
+   "eye": "whiston",
+   "claim": "Calculated the eclipse from Flamsteed's tables corrected by Newton's lunar theory, with constructions for London, Rome and Stockholm",
+   "form": "predicted",
+   "evidence": "Whiston's map, London Gazette advertisement",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "eye": "halley",
+   "claim": "London (Crane Court): totality 9h 9m 3s to 9h 12m 26s true time, 3m 23s; clock about 14 s fast by solar altitudes",
+   "form": "measured",
+   "evidence": "Phil. Trans. 29",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "eye": "halley",
+   "claim": "Pearl-coloured luminous ring around the Moon, tentatively explained as a lunar atmosphere; red streak at the Moon's edge before emersion",
+   "form": "explained",
+   "evidence": "Phil. Trans. 29",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "eye": "louville",
+   "claim": "Brief flashes of light seen on the dark Moon, likened to fulminations",
+   "form": "seen",
+   "evidence": "Secondary summaries of Louville's account",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "eye": "pound",
+   "claim": "Wanstead: totality 3m 20s (Greenwich 3m 11s; Upminster 3m 8s)",
+   "form": "measured",
+   "evidence": "Phil. Trans. 29",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "eye": "keill",
+   "claim": "Oxford, near the centre line: clouded; only the end seen",
+   "form": "seen",
+   "evidence": "Phil. Trans. 29",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "eye": "cotes",
+   "claim": "Cambridge: drawings of the light around the Moon show a cross-like coronal structure",
+   "form": "recorded",
+   "evidence": "Trinity College MS R.16.38b ff. 293–294",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "eye": "bridges",
+   "claim": "Barton near Kettering: totality 3m 53s (King's Walden 3m 52s; Witley 3m 15s)",
+   "form": "measured",
+   "evidence": "Phil. Trans. 29",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "eye": "harris",
+   "claim": "Norton Court, Kent, near the southern limit: totality about 1 minute (Haverfordwest, near the northern limit: about 1½ minutes)",
+   "form": "measured",
+   "evidence": "Phil. Trans. 29",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "eye": "edens",
+   "claim": "At sea near the Canaries: partial eclipse 6h 49m – 8h 47m local, about 9 digits at maximum",
+   "form": "measured",
+   "evidence": "Phil. Trans. 29, accounts from abroad",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1715-05-03",
+   "date_display": "Friday 22 April 1715 (O.S.) = 3 May 1715 (N.S.)",
+   "eye": "uppsala",
+   "claim": "Uppsala: totality 10h 58m 15s – 11h 2m 24s, 4m 9s; Jupiter, Mercury, Venus, Capella, Aldebaran, Orion visible",
+   "form": "measured",
+   "evidence": "Phil. Trans. 29, from Nouvelles Littéraires",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1715",
+   "date_display": "1715",
+   "eye": "alkborough",
+   "claim": "The eclipse recorded as 'another great warning' to the world",
+   "form": "other",
+   "evidence": "Alkborough parish register, Lincolnshire Archives",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1715-06",
+   "date_display": "1715",
+   "eye": "halley",
+   "claim": "Centre line near Plymouth, Exeter, Islip, Huntingdon, Wells/Blakeney; longest totality about 3m 57s; shadow speed about 29 geographical miles per minute at London",
+   "form": "explained",
+   "evidence": "Phil. Trans. 29",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1715-08",
+   "date_display": "Summer 1715",
+   "eye": "halley",
+   "claim": "Revised map: observed band wider than predicted (modern reckoning about 183 miles, some 23 more); northern limit about 3 miles, southern about 20 miles from prediction; timing within about 4 minutes",
+   "form": "disputed",
+   "evidence": "Revised map; modern analysis in Duncan Steel, Eclipse (2001) and Higgitt (2015)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1723-11",
+   "date_display": "November 1723",
+   "eye": "halley",
+   "claim": "Predicted the path of the eclipse of 11 May 1724 (O.S.), drawn with the observed 1715 path",
+   "form": "predicted",
+   "evidence": "Halley/Senex map, ESTC N6708",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1715-05-03",
+   "label": "The shadow crosses Britain, west to east",
+   "eyes": [
+    "prosser",
+    "harris",
+    "keill",
+    "halley",
+    "louville",
+    "pound",
+    "derham",
+    "cotes",
+    "bridges"
+   ],
+   "note": "In order of the shadow's arrival: Prosser's minute and a half at the northern edge in Pembrokeshire, Keill clouded at Oxford near the centre, the 3m 23s at Crane Court, Pound and Derham timing a little less east of London, Bridges's nearly four minutes near Kettering, Harris's single minute at the southern edge in Kent, and Cotes losing his timings to visitors in Cambridge. Each figure meant little alone; together they drew the shadow."
+  },
+  {
+   "date": "1715-05-03",
+   "label": "The same morning abroad: sea, Germany, Sweden",
+   "eyes": [
+    "edens",
+    "halley",
+    "uppsala"
+   ],
+   "note": "Off the Canaries Edens saw half the Sun covered just after dawn by his clock; German cities saw eleven digits around ten; at Uppsala, near eleven, the professor had four minutes of night and the winter stars. Different clocks, one shadow, compared in London months later."
+  },
+  {
+   "date": "1715-05-03",
+   "label": "Inside Crane Court",
+   "eyes": [
+    "halley",
+    "louville"
+   ],
+   "note": "The Englishman who predicted the eclipse and the Frenchman who travelled to see it watched the same ring: Halley wrote of a pearl-coloured ring and a red streak and leaned towards a lunar atmosphere; Louville fixed on flashes on the dark Moon. Montmort stood with them."
+  },
+  {
+   "date": "1715-05-03",
+   "label": "Clouds and crowds",
+   "eyes": [
+    "keill",
+    "cotes"
+   ],
+   "note": "The two university astronomers best placed to help Halley both failed: Keill under cloud near the centre line, Cotes under clear sky but surrounded by company. Cotes's drawings, not his timings, are what survived of value."
+  },
+  {
+   "date": "1715-04",
+   "label": "Selling the forecast",
+   "eyes": [
+    "halley",
+    "whiston",
+    "luttrell"
+   ],
+   "note": "Two predictors used the same engraver within weeks: Halley's sixpenny map with geography and a warning against omens, Whiston's shilling calculation with a dotted track. Luttrell bought and dated Whiston's in March."
+  },
+  {
+   "date": "1715",
+   "label": "Phenomenon or warning",
+   "eyes": [
+    "halley",
+    "alkborough",
+    "whiston"
+   ],
+   "note": "Halley's broadsheet said there was nothing in the eclipse more than natural; the Alkborough register called it a great warning; Whiston, late in life, called it a divine signal. All three wrote of the same sky."
+  },
+  {
+   "date": "1715-09-12",
+   "label": "The corrected map goes on sale",
+   "eyes": [
+    "halley",
+    "luttrell"
+   ],
+   "note": "Halley's map of the shadow 'as it was observed' turned the reports into a single picture; Luttrell bought and dated it on 1 September (O.S.), before the newspaper advertisements."
+  },
+  {
+   "date": "1723-11",
+   "label": "Looking back to look ahead",
+   "eyes": [
+    "halley",
+    "luttrell"
+   ],
+   "note": "The 1715 track reappeared beside the predicted 1724 path, and Luttrell dated his copy as he had the first sheets."
+  }
+ ],
+ "ties": [
+  {
+   "a": "halley",
+   "b": "louville",
+   "kind": "met",
+   "note": "Louville watched the eclipse beside Halley at Crane Court and was named in Halley's report; the Society elected him a Fellow that year."
+  },
+  {
+   "a": "halley",
+   "b": "whiston",
+   "kind": "influenced",
+   "note": "Rival predictors who used the same engraver, John Senex; the Black-Day pamphlet credited both men's calculations."
+  },
+  {
+   "a": "halley",
+   "b": "cotes",
+   "kind": "mentioned",
+   "note": "Halley printed Cotes's failure to time the eclipse; both belonged to Newton's circle, Cotes as editor of the 1713 Principia."
+  },
+  {
+   "a": "halley",
+   "b": "keill",
+   "kind": "mentioned",
+   "note": "Fellow Savilian professors at Oxford; Halley regretted Keill's clouded view near the centre line."
+  },
+  {
+   "a": "halley",
+   "b": "pound",
+   "kind": "mentioned",
+   "note": "Pound's Wanstead timing was set beside Halley's London figure in the report."
+  },
+  {
+   "a": "halley",
+   "b": "derham",
+   "kind": "mentioned",
+   "note": "Derham's Upminster timing is in Halley's list of durations."
+  },
+  {
+   "a": "halley",
+   "b": "bridges",
+   "kind": "mentioned",
+   "note": "Bridges's long duration helped fix Halley's centre line."
+  },
+  {
+   "a": "halley",
+   "b": "harris",
+   "kind": "mentioned",
+   "note": "Harris's short timing marked the southern edge in Halley's analysis."
+  },
+  {
+   "a": "halley",
+   "b": "prosser",
+   "kind": "mentioned",
+   "note": "Prosser's Haverfordwest report marked the northern edge in Wales."
+  },
+  {
+   "a": "halley",
+   "b": "uppsala",
+   "kind": "read each other",
+   "note": "The Uppsala report reached London through a Dutch-printed journal and was compared with London's times in the Transactions."
+  },
+  {
+   "a": "halley",
+   "b": "edens",
+   "kind": "mentioned",
+   "note": "Edens's sea observation was printed among the accounts from abroad."
+  },
+  {
+   "a": "luttrell",
+   "b": "halley",
+   "kind": "read each other",
+   "note": "Luttrell bought and dated Halley's revised map (1715) and his 1724 map (1723)."
+  },
+  {
+   "a": "luttrell",
+   "b": "whiston",
+   "kind": "read each other",
+   "note": "Luttrell bought and dated Whiston's sheet in March 1715."
+  },
+  {
+   "a": "alkborough",
+   "b": "halley",
+   "kind": "opposite sides",
+   "note": "The register's 'warning to the world' is the reading Halley's broadsheet was written to answer."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "halley-1066",
+   "note": "The man who mapped this eclipse is the man whose name the comet of 1066 carries: Halley's 1705 cometography identified the returns of the comet later named for him."
+  },
+  {
+   "to": "halley-1910",
+   "note": "Halley predicted the comet's return for 1758; the 1910 return was the second after its confirmation, and the public preparation he pioneered with the 1715 broadsheet has an echo in the 1910 press."
+  },
+  {
+   "to": "eclipse-1919",
+   "note": "1715 was a public test of Newtonian prediction, the first eclipse widely forecast from Newton's lunar theory; 1919 used another total eclipse to test Einstein's theory against Newton's."
+  },
+  {
+   "to": "v4:transits-of-venus",
+   "note": "Halley, who organised timed observations from many places in 1715, published in the Philosophical Transactions in 1716 his method of using the transits of Venus of 1761 and 1769, observed from distant stations, to find the distance of the Sun."
+  },
+  {
+   "to": "v1:london-1666",
+   "note": "The Royal Society that ran the 1715 observations was founded in Restoration London in 1660 and lived through the Great Fire; by 1715 it met at Crane Court, off Fleet Street, close to where the fire had burned."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.queens.ox.ac.uk/blog/treasures-of-the-library-the-passage-of-the-shadow-of-the-moon/",
+   "title": "A Description of the Passage of the Shadow of the Moon (1715)",
+   "caption": "Halley's predictive map of the eclipse, engraved by John Senex, as held by Queen's College Oxford; its text tells readers not to treat the darkness as an omen against King George.",
+   "date": "1715",
+   "credit": "Edmond Halley and John Senex; The Queen's College, Oxford"
+  },
+  {
+   "url": "https://www.repository.cam.ac.uk/handle/1810/221308",
+   "title": "The passage of the shadow of the moon over England as it was observed",
+   "caption": "Halley's revised map, drawn after the eclipse from the reports sent in by observers across the country.",
+   "date": "1715",
+   "credit": "Edmond Halley and John Senex; Institute of Astronomy Library, University of Cambridge"
+  },
+  {
+   "url": "https://www.repository.cam.ac.uk/handle/1810/221311",
+   "title": "Whiston's predictive eclipse map",
+   "caption": "William Whiston's rival prediction for the eclipse, published by Senex in spring 1715, computed from Flamsteed's tables corrected by Newton's lunar theory.",
+   "date": "1715",
+   "credit": "William Whiston and John Senex; Institute of Astronomy Library, University of Cambridge"
+  },
+  {
+   "url": "https://www.repository.cam.ac.uk/handle/1810/221310",
+   "title": "A complete account of the great eclipse of the sun which will happen April 22nd 1715",
+   "caption": "A second Whiston and Senex sheet published before the eclipse, a sign of the market for eclipse prints in London that spring.",
+   "date": "1715",
+   "credit": "William Whiston and John Senex; Institute of Astronomy Library, University of Cambridge"
+  },
+  {
+   "url": "https://www.swsc-journal.org/articles/swsc/full_html/2021/01/swsc190067/F13.html",
+   "title": "Cotes's drawings of the 1715 corona",
+   "caption": "A journal figure reproducing the two sketches in Roger Cotes's letter to Newton: one by an unnamed 'ingenious Gentleman', one by Cotes, both showing a cross-like structure in the light around the Moon.",
+   "date": "1715 (drawings); 2021 (publication)",
+   "credit": "Trinity College Cambridge MS R.16.38b; J. Space Weather Space Clim. 11 (2021)"
+  }
+ ],
+ "further": [
+  {
+   "title": "Halley, 'Observations of the late Total Eclipse of the Sun …', Phil. Trans. 29 (OCR text)",
+   "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-103054/"
+  },
+  {
+   "title": "'Some Accounts of the Late Great Solar Eclipse … Communicated from Abroad', Phil. Trans. 29 (OCR text)",
+   "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-103063/"
+  },
+  {
+   "title": "Duncan Steel, Eclipse: The Celestial Phenomenon That Changed the Course of History (2001), chapter on Halley (National Academies Press reader)",
+   "url": "https://www.nationalacademies.org/read/10123/chapter/8"
+  },
+  {
+   "title": "Rebekah Higgitt, 'Halley's Eclipse: a coup for Newtonian prediction and the selling of science' (reprint)",
+   "url": "https://portside.org/node/8684/printable/print"
+  },
+  {
+   "title": "University of Nottingham Weather Extremes: the 1715 eclipse in local records",
+   "url": "https://blogs.nottingham.ac.uk/weatherextremes/?p=5971"
+  },
+  {
+   "title": "Graphical evidence for the solar coronal structure during the Maunder minimum (2021), Fig. 13",
+   "url": "https://www.swsc-journal.org/articles/swsc/full_html/2021/01/swsc190067/F13.html"
+  },
+  {
+   "title": "Edleston, Correspondence of Sir Isaac Newton and Professor Cotes (1850)",
+   "url": "https://openlibrary.org/works/OL17664298W"
+  }
+ ],
+ "vantage_key": "0 = the predictor and organiser, under the shadow himself; 1 = an observer inside the band of totality; 2 = an observer at the edge of the band, or a rival predictor; 3 = outside the band, seeing a partial eclipse or recording the event at a distance; 4 = knowing the eclipse chiefly through print."
+}

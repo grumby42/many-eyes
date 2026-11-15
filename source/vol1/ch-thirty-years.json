@@ -1,0 +1,1018 @@
+{
+ "id": "thirty-years",
+ "title": "Ash on the Wind",
+ "subtitle": "The Thirty Years' War in the Holy Roman Empire: the Sack of Magdeburg and the long road to the Peace of Westphalia, 1618–1648",
+ "span": "1618–1649",
+ "intro": [
+  "The Thirty Years' War began with a political gesture in Prague in May 1618, when Protestant Bohemian nobles threw two imperial governors and a secretary out of a castle window. It ended in October 1648 with two treaties signed at Münster and Osnabrück. In the thirty years between, armies of Germans, Swedes, Spaniards, Croats, Scots, Walloons, Italians and Finns marched back and forth across central Europe. They were paid badly or not at all, and they fed themselves by taking food from farms and towns. Several million people died, more from hunger and plague than from fighting.",
+  "Nobody living through it saw it as one war. A shoemaker near Ulm saw comets, inflation, plague and soldiers coming down the road again. A mercenary saw a list of quarters, sieges, paydays and burials. A nun in Bamberg saw her convent's gates and the colonel who might be persuaded to post a guard at them. An English envoy riding to Vienna in 1636 saw empty villages and dead people with grass in their mouths. This chapter sets those people side by side.",
+  "The chapter centres on one day, 20 May 1631 by the Catholic calendar, when Tilly's and Pappenheim's imperial and Catholic League army stormed the Protestant city of Magdeburg on the Elbe. Within about twelve hours the city had burned, and roughly 20,000 people were dead. Five eyes meet there. Peter Hagendorf, a mercenary in Pappenheim's regiment, was shot twice at the Neustadt gate while his wife went into the burning streets to loot. Otto Guericke, a city councillor and engineer, lost everything and later wrote the most famous account. Zacharias Bandhauer, a Catholic canon whom the Protestant town had expelled, came back in with the victors. Daniel Friese was a boy of twelve. Pappenheim, the general, wrote a letter counting the dead and the soldiers' new wealth.",
+  "Around that centre are quieter eyes. Hans Heberle, a cobbler-farmer in Ulm territory, kept a 'Zeytregister' (time-register) from the 1618 comet to old age. He fled with his family again and again, buried most of his children, and gave thanks for the peace in 1648. Johannes Junius, mayor of Bamberg, wrote to his daughter from a witch-trial prison in 1628. His other daughter, Maria Anna, a Dominican nun, later chronicled the Swedish occupation of the same city. Anna Wolff, a miller's daughter in Schwabach, hid in a dovecote for five days. An unnamed villager at Gerstetten wrote in his family Bible in 1647 about resettling empty cottages.",
+  "Read together, these accounts show the war as an economy and a climate as much as a series of battles. The soldier and the farmer were connected by plunder. The nun's convent depended on a colonel's mood. One city's ash fell on villages miles away. The peace arrived as news, a church service and a discharge from service. These were not people who saw history from a height. Their writing shows ordinary life slowly giving way."
+ ],
+ "calendar_note": "Two calendars ran in Germany side by side for the whole war. Catholic territories (Bavaria, the Habsburg lands including Bohemia, Bamberg, the imperial armies) had adopted the Gregorian 'New Style' calendar in 1583–84. Most Protestant estates and cities (Magdeburg, Ulm, Saxony, Württemberg), Sweden, and England kept the Julian 'Old Style', which in this century ran ten days behind. So the storming of Magdeburg is 20 May 1631 to Pappenheim's army and to Catholic writers but 10 May 1631 to Guericke and the city's Protestants. The Westphalian treaties are dated 14/24 October 1648 for the same reason. In this chapter every date_iso is New Style for sorting, and date_display shows the calendar the writer used where that is known. Where it is only inferred from the writer's confession and place (for example Heberle in Lutheran Ulm, or Crowne in England), the inference is stated. Protestant Germany switched in 1700, and England and Sweden in the 1750s.",
+ "eyes": [
+  {
+   "id": "hagendorf",
+   "name": "Peter Hagendorf",
+   "life": "c. 1601/02–1679",
+   "role": "Mercenary infantryman, later a corporal-level NCO, in Pappenheim's regiment of the Catholic League army; aged about 29 at Magdeburg",
+   "side": "Catholic League / Bavarian army (pressed into Swedish service 1633–34)",
+   "where": "In the storming column at Magdeburg's Neustadt gate, 20 May 1631; afterwards on campaign across Germany until 1649",
+   "vantage": 0,
+   "vantage_label": "attacker inside the assault",
+   "form": "diary (fair copy of running notes, written up c. 1648)",
+   "language": "German",
+   "authenticity": "Anonymous 192-page manuscript in the Berlin State Library, found by Jan Peters in 1988 and edited in 1993, with a revised edition in 2012 (V&R unipress). The author was later identified through parish registers as Peter Hagendorf of Görzke, who died aged about 77 in 1679. The identification is widely accepted but rests on circumstantial register evidence. The paper was bought in 1648, so the text as it survives is a later fair copy of earlier notes. The last pages are missing.",
+   "bio": "A miller's son from Anhalt-Zerbst who served Venice and Parma before enlisting under Pappenheim at Ulm in 1627. He walked about 22,500 km in two decades of war. His diary records pay, quarters, booty, bread prices and the births and deaths of his children in the same flat tone, so it is rare evidence of how an ordinary soldier saw the war. After the peace he became a village official in Görzke.",
+   "sources": [
+    {
+     "title": "Peter Hagendorf, Mercenary Journal (excerpt, trans. K. Dell'Orto, from J. Peters ed. 2012), German History Intersections",
+     "url": "https://germanhistory-intersections.org/en/germanness/ghis:document-294"
+    },
+    {
+     "title": "Peter Hagendorf — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Peter_Hagendorf"
+    },
+    {
+     "title": "Engelsberg Ideas, 'Do we know the truth about the Thirty Years' War?'",
+     "url": "https://engelsbergideas.com/essays/do-we-know-the-truth-about-the-thirty-years-war/"
+    }
+   ]
+  },
+  {
+   "id": "guericke",
+   "name": "Otto Guericke (from 1666 von Guericke)",
+   "life": "1602–1686",
+   "role": "Magdeburg councillor (Ratmann) and city building officer, aged 28; later burgomaster (1646), peace delegate (1648) and natural philosopher",
+   "side": "Protestant city of Magdeburg",
+   "where": "Magdeburg during the siege and sack; he lost all his property in the fire",
+   "vantage": 1,
+   "vantage_label": "burgher of the burning city",
+   "form": "chronicle (written later)",
+   "language": "German",
+   "authenticity": "Part three of Guericke's history of Magdeburg survives as a fair copy by his scribe, corrected in his own hand, and was edited by F. W. Hoffmann (Magdeburg, 1860). Part two (1585–1630) is lost. Hoffmann presents him as an eyewitness. One modern summary says he left before the city was cut off, which conflicts with that, so his exact movements on the day are uncertain. The account was written up after the event in an impersonal third-person voice and is openly hostile to the Catholic attackers.",
+   "bio": "An engineer-councillor whose city burned around him, Guericke later spent decades as Magdeburg's diplomat and mayor rebuilding it. In 1654 at Regensburg he demonstrated the air pump and vacuum experiments that made 'Magdeburg hemispheres' famous. He is unusual in this chapter as a witness who was also a builder of instruments and a city official.",
+   "sources": [
+    {
+     "title": "Geschichte der Belagerung, Eroberung und Zerstörung Magdeburg's (ed. Hoffmann 1860), Project Gutenberg #59081",
+     "url": "https://www.gutenberg.org/ebooks/59081"
+    },
+    {
+     "title": "GHDI: A Local Apocalypse — The Sack of Magdeburg (1631), trans. J. K. Tanaka",
+     "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/a-local-apocalypse-the-sack-of-magdeburg-1631"
+    },
+    {
+     "title": "Hanover College: The Destruction of Magdeburg (Robinson, Readings, 1906)",
+     "url": "https://history.hanover.edu/texts/magde.html"
+    },
+    {
+     "title": "Otto von Guericke — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Otto_von_Guericke"
+    }
+   ]
+  },
+  {
+   "id": "bandhauer",
+   "name": "Mauritius Zacharias Bandhauer",
+   "life": "1585–1657",
+   "role": "Premonstratensian canon, aged 45; provost of Jerichow and agent of his order for the Edict of Restitution, installed at Magdeburg's Liebfrauenkloster in 1628",
+   "side": "Catholic / imperial",
+   "where": "Expelled by the Swedish-allied city in 1631, he returned with Tilly's victorious army and saw the burning and plunder",
+   "vantage": 1,
+   "vantage_label": "Catholic cleric returning with the victors",
+   "form": "diary (Diarium, written up in Cologne 1633)",
+   "language": "Latin and German versions",
+   "authenticity": "Two manuscripts, a Latin Diarium (Cod. 62) and a German Diarium (Cod. 85), are held in the library of Teplá (Tepl) abbey. The German version was edited by Klimesch in 1856, and the Latin was partly printed in Die Katastrophe von Magdeburg (1874). Written in 1633, it is considered the only contemporary account from the Catholic-imperial side and is used in the long dispute over who started the fire.",
+   "bio": "A native of the Magdeburg area who had become a Bohemian Counter-Reformation preacher, Bandhauer came north to take back monasteries under the 1629 Edict of Restitution. He was an outsider whom the Protestant city had thrown out, and he watched its destruction as a returning claimant. His view is the Catholic counterweight to Guericke's.",
+   "sources": [
+    {
+     "title": "Deutsche Biographie: Bandhauer, Mauritius Zacharias",
+     "url": "https://www.deutsche-biographie.de/sfz2012.html"
+    }
+   ]
+  },
+  {
+   "id": "friese",
+   "name": "Daniel Friese",
+   "life": "b. c. 1619",
+   "role": "Boy of about twelve, son of a Magdeburg family",
+   "side": "Protestant city of Magdeburg",
+   "where": "Inside Magdeburg during the imperial capture",
+   "vantage": 0,
+   "vantage_label": "child inside the sacked city",
+   "form": "memoir (written later)",
+   "language": "German",
+   "authenticity": "Friese's account of surviving the capture is used by historians and in the ZDF/Terra X series on war diaries. I could not consult the text itself in this session, so his entry is kept general.",
+   "bio": "Friese saw the capture as a child, from the level of a family trying to get through the plunder alive. His account balances the councillor's and the soldier's views of the same streets.",
+   "sources": [
+    {
+     "title": "ZDF Terra X: Der Dreißigjährige Krieg — Tagebücher des Überlebens",
+     "url": "https://www.zdf.de/dokumentation/terra-x/der-dreissigjaehrige-krieg-tagebuecher-des-ueberlebens-100.html"
+    }
+   ]
+  },
+  {
+   "id": "pappenheim",
+   "name": "Gottfried Heinrich Graf zu Pappenheim",
+   "life": "1594–1632",
+   "role": "Imperial and Catholic League field marshal, aged 36; led the assault columns",
+   "side": "Catholic League / Imperial",
+   "where": "Commanding the storm of Magdeburg",
+   "vantage": 0,
+   "vantage_label": "commander of the assault",
+   "form": "dated letters",
+   "language": "German",
+   "authenticity": "His dispatch after the sack, reporting the dead and the soldiers' booty, is a standard source quoted in the literature. I could not confirm its exact day in this session.",
+   "bio": "Pappenheim persuaded Tilly to storm the city and commanded the regiment Hagendorf served in. His report reads as the professional's balance sheet of the same day the other witnesses lived through.",
+   "sources": [
+    {
+     "title": "Sack of Magdeburg — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sack_of_Magdeburg"
+    }
+   ]
+  },
+  {
+   "id": "monro",
+   "name": "Robert Monro",
+   "life": "d. c. 1680",
+   "role": "Scottish officer of Mackay's regiment in Danish, then Swedish, service",
+   "side": "Swedish army (Scots brigade)",
+   "where": "With Gustavus Adolphus's army in Germany, 1630–1634",
+   "vantage": 1,
+   "vantage_label": "foreign mercenary officer, Protestant side",
+   "form": "memoir (campaign narrative arranged by 'duties', published 1637)",
+   "language": "English",
+   "authenticity": "Monro, His Expedition with the Worthy Scots Regiment called Mac-Keyes (London, 1637) is a genuine contemporary publication, cited among soldiers' narratives in the Engelsberg essay. I could not consult its text in this session, so his single entry is approximate.",
+   "bio": "A Scots officer who wrote one of the first English-language soldier's narratives of the war. He fought on the side that avenged Magdeburg, so he is the Protestant soldier's counterpart to Hagendorf.",
+   "sources": [
+    {
+     "title": "Engelsberg Ideas essay (mentions Monro, Turner, Raymond, Crowne)",
+     "url": "https://engelsbergideas.com/essays/do-we-know-the-truth-about-the-thirty-years-war/"
+    }
+   ]
+  },
+  {
+   "id": "heberle",
+   "name": "Hans Heberle",
+   "life": "1597–1677",
+   "role": "Shoemaker and small farmer at Neenstetten in Ulm's rural territory; aged 21 when the war began",
+   "side": "Lutheran, subject of the imperial city of Ulm",
+   "where": "Neenstetten and, in repeated flights, the walled city of Ulm and nearby forests",
+   "vantage": 3,
+   "vantage_label": "villager who repeatedly became a refugee",
+   "form": "chronicle ('Zeytregister', kept as a running register)",
+   "language": "German (Swabian)",
+   "authenticity": "Autograph chronicle held in Ulm, edited by Gerd Zillhardt, Der Dreißigjährige Krieg in zeitgenössischer Darstellung (Ulm, 1975). It covers 1618–1672 and was probably compiled in stages, with later entries possibly reworking earlier notes. English excerpts are translated by T. A. Brady for GHDI.",
+   "bio": "A rare lower-class chronicler who recorded comets, prices, plague, wolves, refugee flights and the births and deaths of his children. He writes as a pious Lutheran who read the war as divine punishment. His thanksgiving for the peace is one of the most quoted moments of the war's end.",
+   "sources": [
+    {
+     "title": "GHDI: A Swabian Cobbler-Farmer Survives the Thirty Years War — Hans Heberle",
+     "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/a-swabian-cobbler-farmer-survives-the-thirty-years-war-hans-heberle-1597-1677"
+    },
+    {
+     "title": "GHDI PDF excerpt (English)",
+     "url": "https://germanhistorydocs.ghi-dc.org/pdf/eng/Doc.7-ENG-Heberle_en.pdf"
+    },
+    {
+     "title": "LWL Forschungsstelle Westfälischer Friede: R.-E. Mohrmann, 'Everyday Life in War and Peace'",
+     "url": "https://lwl.org/westfaelischer-friede-download/wfe-t/wfe-txt1-34.htm"
+    }
+   ]
+  },
+  {
+   "id": "jjunius",
+   "name": "Johannes Junius",
+   "life": "c. 1573–1628",
+   "role": "Burgomaster of Bamberg, aged about 55, accused of witchcraft",
+   "side": "Catholic prince-bishopric of Bamberg (victim of its witch trials)",
+   "where": "Bamberg witch prison (Drudenhaus)",
+   "vantage": 0,
+   "vantage_label": "prisoner awaiting execution",
+   "form": "dated letters (one letter, smuggled from prison)",
+   "language": "German",
+   "authenticity": "The letter to his daughter Veronica survives with his trial record and is widely published. Sources disagree on its date: Wikipedia's Junius article gives 24 July 1628, and the Bamberg witch-trials article says June 1628.",
+   "bio": "He was tortured into a false confession and burned in August 1628. His letter is one of the most direct personal documents of the persecution that ran in Bamberg alongside the war. He was the father of the nun-chronicler Maria Anna Junius.",
+   "sources": [
+    {
+     "title": "Johannes Junius — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Johannes_Junius"
+    },
+    {
+     "title": "Hanover College: The Witch Persecution at Bamberg (excerpts)",
+     "url": "https://history.hanover.edu/courses/excerpts/244bamb.html"
+    }
+   ]
+  },
+  {
+   "id": "majunius",
+   "name": "Maria Anna Junius",
+   "life": "c. 1609–?",
+   "role": "Dominican nun of the convent of the Holy Sepulchre (Heiligengrab), Bamberg",
+   "side": "Catholic, enclosed religious community in an occupied city",
+   "where": "Inside her convent while Swedish troops occupied Bamberg (1632–34)",
+   "vantage": 1,
+   "vantage_label": "enclosed nun in an occupied city",
+   "form": "chronicle",
+   "language": "German",
+   "authenticity": "Her convent chronicle survives and was edited in the 19th century (in the Bamberg historical society's Bericht). It is discussed by Charlotte Woodford (Nuns as Historians in Early Modern Germany, 2002) and in a 2008 paper by Sigrun Haude. Sources spell her name both 'Maria Anna' and 'Anna Maria'. Her birth year is from secondary literature and was not verified here.",
+   "bio": "The daughter of the executed burgomaster Johannes Junius, she recorded weather disasters and the arrival of Protestant troops from inside a women's house that soldiers could easily enter. Her chronicle shows the occupation from behind a convent door.",
+   "sources": [
+    {
+     "title": "Bamberg witch trials — Wikipedia (cites her chronicle)",
+     "url": "https://en.wikipedia.org/wiki/Bamberg_witch_trials"
+    },
+    {
+     "title": "Engelsberg Ideas essay (quotes her account of Bernhard's army)",
+     "url": "https://engelsbergideas.com/essays/do-we-know-the-truth-about-the-thirty-years-war/"
+    },
+    {
+     "title": "Sigrun Haude, paper abstract (2008), UNC Military History seminar",
+     "url": "https://www.mhss.sites.oasis.unc.edu/abstracts/2008/Haude.html"
+    }
+   ]
+  },
+  {
+   "id": "wolff",
+   "name": "Anna Wolff",
+   "life": "b. c. 1602",
+   "role": "Miller's daughter or wife at Schwabach near Nuremberg (ZDF calls her a 30-year-old miller's wife)",
+   "side": "Protestant townspeople of Schwabach (Brandenburg-Ansbach)",
+   "where": "Hiding in her family's mill during the imperial sack of Schwabach, 1632",
+   "vantage": 0,
+   "vantage_label": "civilian hiding from plunderers",
+   "form": "memoir (written account)",
+   "language": "German",
+   "authenticity": "Her account is quoted in the Engelsberg essay and featured in the ZDF series. I could not see its manuscript history or the exact date of composition in this session. The two sources differ slightly on details (dovecote or attic; her age and status).",
+   "bio": "A woman's account of a small-town sack. She hid with other women for days, came out to find the mill plundered, and fed starving neighbours from a chest of flour the soldiers had missed.",
+   "sources": [
+    {
+     "title": "Engelsberg Ideas essay",
+     "url": "https://engelsbergideas.com/essays/do-we-know-the-truth-about-the-thirty-years-war/"
+    },
+    {
+     "title": "ZDF Terra X: Tagebücher des Überlebens",
+     "url": "https://www.zdf.de/dokumentation/terra-x/der-dreissigjaehrige-krieg-tagebuecher-des-ueberlebens-100.html"
+    }
+   ]
+  },
+  {
+   "id": "crowne",
+   "name": "William Crowne",
+   "life": "c. 1617–1683",
+   "role": "Young English gentleman in the suite of the Earl of Arundel's embassy to Emperor Ferdinand II",
+   "side": "England (neutral diplomatic mission)",
+   "where": "Travelling up the Rhine and Main, through Franconia and down the Danube to Linz and Regensburg, April–December 1636",
+   "vantage": 2,
+   "vantage_label": "foreign traveller crossing the war zone",
+   "form": "journal (published 1637 as A True Relation)",
+   "language": "English",
+   "authenticity": "A True Relation of all the Remarkable Places and Passages Observed in the Travels of … Thomas Lord Howard, Earle of Arundell … Ambassadour Extraordinary to … Ferdinando the Second (London, 1637). It is arranged as a dated day-by-day itinerary and transcribed in the EEBO-TCP / Oxford Text Archive (A19674).",
+   "bio": "Crowne was about nineteen, and his journal records distances, inns, banquets and churches. It also records, in the same factual tone, plague deaths, burnt villages and starving children. He saw Germany in the war's worst years as an outsider who could ride on.",
+   "sources": [
+    {
+     "title": "A True Relation (1637), EEBO-TCP text A19674 (Oxford Text Archive record)",
+     "url": "https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/A19674?show=full"
+    },
+    {
+     "title": "Plain-text transcription (EarlyPrint / Distant Reader)",
+     "url": "https://distantreader.org/stacks/earlyprint/txt/A19674.txt"
+    }
+   ]
+  },
+  {
+   "id": "gerstetten",
+   "name": "Anonymous householder of Gerstetten",
+   "life": "fl. 1647",
+   "role": "Villager writing in his family Bible",
+   "side": "Lutheran Swabian village (Württemberg, near Ulm territory)",
+   "where": "Gerstetten on the Swabian Alb",
+   "vantage": 1,
+   "vantage_label": "villager rebuilding at home",
+   "form": "notebook (dated note in a family Bible)",
+   "language": "German",
+   "authenticity": "A dated marginal note quoted in the Engelsberg essay. The writer is a real but unnamed person, so no further biography is possible.",
+   "bio": "He wrote about resettling abandoned cottages and urged his neighbours to cooperate, a year and a half before the peace was signed. He shows the countryside starting to rebuild while the diplomats were still negotiating.",
+   "sources": [
+    {
+     "title": "Engelsberg Ideas essay",
+     "url": "https://engelsbergideas.com/essays/do-we-know-the-truth-about-the-thirty-years-war/"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1618-11-15",
+   "date_display": "November 1618 (autumn into spring 1619)",
+   "precision": "month",
+   "eye": "heberle",
+   "place": "Neenstetten, Ulm territory",
+   "headline": "A great comet hangs over Swabia; Heberle begins his register",
+   "digest": "Heberle starts his chronicle with the great comet, which stayed visible from autumn 1618 into the next spring. He reads it as a sign from God that terrible punishment is coming. Six months earlier, far away in Prague, the governors had been thrown from the castle window. He does not yet know that a war has begun.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "GHDI Heberle excerpt (Zillhardt 1975); Mohrmann (LWL) dates the comet entry to November 1618; the exact day is not given."
+  },
+  {
+   "date_iso": "1622-06-30",
+   "date_display": "1622",
+   "precision": "year",
+   "eye": "heberle",
+   "place": "Neenstetten / Ulm",
+   "headline": "Debased coins send Ulm prices soaring",
+   "digest": "Heberle records the 'Kipper und Wipper' currency collapse, when princes minted debased coin to pay their troops and prices in the Ulm market rose sharply. For a shoemaker paid in coin and buying grain, inflation was the first way the war reached him, before any soldier did.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "GHDI Heberle excerpt, year 1622."
+  },
+  {
+   "date_iso": "1626-05-27",
+   "date_display": "1626",
+   "precision": "year",
+   "eye": "majunius",
+   "place": "Bamberg, Holy Sepulchre convent",
+   "headline": "An unnatural frost kills the fruit and grain",
+   "digest": "Junius notes a killing night frost that destroyed fruit trees and grain around Bamberg, and that the prince-bishop was furious. In Franconia, crop disasters like this were blamed on witches and helped drive the wave of trials that would soon take her own father.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Bamberg witch trials (Wikipedia), citing her chronicle; only the year 1626 is confirmed. The ISO day is a placeholder within the year."
+  },
+  {
+   "date_iso": "1627-04-03",
+   "date_display": "3 April 1627 (N.S.)",
+   "precision": "day",
+   "eye": "hagendorf",
+   "place": "Ulm",
+   "headline": "Hagendorf signs on with Pappenheim's regiment at Ulm",
+   "digest": "After serving Venice and Parma, Hagendorf crosses back over the Alps and enlists in Pappenheim's regiment at Ulm for bounty money. Soon afterwards he marries Anna Stadler, eight days after Easter. He records the enlistment and the wedding in almost the same breath.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "GHI Intersections excerpt, J. Peters ed. 2012, pp. 100–05."
+  },
+  {
+   "date_iso": "1627-12-24",
+   "date_display": "Christmas Eve 1627",
+   "precision": "day",
+   "eye": "hagendorf",
+   "place": "Wolfenbüttel",
+   "headline": "An eighteen-week siege ends at Christmas",
+   "digest": "Hagendorf's regiment has spent eighteen weeks besieging Wolfenbüttel. The Danish garrison marches out on Christmas Eve, and his notes move straight on to the next quarters. Siege life for him means digging, waiting and finding food.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "GHI Intersections excerpt."
+  },
+  {
+   "date_iso": "1628-07-24",
+   "date_display": "July 1628 (24 July per one source; June per another)",
+   "precision": "range",
+   "eye": "jjunius",
+   "place": "Bamberg witch prison",
+   "headline": "From the torture cell, a letter to his daughter",
+   "digest": "Junius writes to his daughter Veronica, has the letter smuggled out by a guard, and names those who tortured him. He explains that he confessed to things he never did only to make the pain stop, and that he will tell a priest the truth. He says goodbye, knowing he will be burned. He was executed on 6 August 1628.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Johannes Junius (Wikipedia) gives 24 July 1628; Bamberg witch trials (Wikipedia) gives June 1628. The ISO date is the 24 July version in N.S. (Bamberg was Catholic)."
+  },
+  {
+   "date_iso": "1628-09-04",
+   "date_display": "25 August 1628 (Ulm, presumably O.S.)",
+   "precision": "day",
+   "eye": "heberle",
+   "place": "Neenstetten",
+   "headline": "A daughter, Catherine, born between one and two",
+   "digest": "Heberle notes the birth of his daughter Catherine between one and two in the afternoon and her baptism the same evening. The care he takes over the hour stands out against what follows: by the end of the war he will record the deaths of most of his children. That same month in Bamberg, the burgomaster Junius was burned.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "GHDI Heberle excerpt. The O.S.→N.S. conversion (+10 days) assumes Lutheran Ulm usage."
+  },
+  {
+   "date_iso": "1629-08-17",
+   "date_display": "1629",
+   "precision": "year",
+   "eye": "hagendorf",
+   "place": "Wetterau / Pomerania",
+   "headline": "Two daughters born, one already dead before he sees her",
+   "digest": "While the regiment shuttles between Pomerania and the Wetterau, Hagendorf's wife bears children he barely sees. One daughter, Anna Maria, is born and dies while he is away. Another, Elisabeth, is born in the Wetterau. Parish records give Elisabeth's christening at Eichelhain on 17 August 1629. He writes it all down as briefly as any other news.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "GHI Intersections excerpt (year 1629); the christening date is from the parish record cited on Wikipedia/World Anvil."
+  },
+  {
+   "date_iso": "1630-07-04",
+   "date_display": "24 June 1630 (O.S.)",
+   "precision": "day",
+   "eye": "heberle",
+   "place": "Neenstetten / Ulm",
+   "headline": "A Protestant thanksgiving for the Augsburg Confession's centenary",
+   "digest": "Heberle records the Lutheran feast held on the hundredth anniversary of the Augsburg Confession. The celebration was defiant: the year before, the emperor's Edict of Restitution had ordered church lands returned to the Catholics. Ten days later, Gustavus Adolphus landed in Pomerania.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "GHDI Heberle excerpt with translator's notes. O.S. is assumed for Ulm."
+  },
+  {
+   "date_iso": "1630-12-01",
+   "date_display": "1630–31 (before the siege)",
+   "precision": "range",
+   "eye": "bandhauer",
+   "place": "Magdeburg, Liebfrauenkloster",
+   "headline": "The Catholic provost is driven out of Magdeburg",
+   "digest": "Bandhauer had been installed in Magdeburg's Liebfrauenkloster under imperial protection in 1628 to reclaim it for his order. Once the city allied with Sweden, it expelled him. He watched the rest of the siege from outside as a dispossessed claimant waiting for the imperial army.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Deutsche Biographie (NDB): 'the Swedes expelled him in 1631'; the exact date was not found."
+  },
+  {
+   "date_iso": "1631-04-28",
+   "date_display": "28 April 1631 (N.S.)",
+   "precision": "day",
+   "eye": "hagendorf",
+   "place": "Siege lines before Magdeburg",
+   "headline": "His captain is shot dead in the approach trench",
+   "digest": "In the siege works before Magdeburg, Hagendorf's company captain, Johann Galgort, is killed by a shot in an approach trench. A replacement lasts ten days and resigns. The defenders on the walls are still firing well, and that has to be remembered when the attackers break in three weeks later.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "GHI Intersections excerpt (dates in the Catholic army's N.S. reckoning)."
+  },
+  {
+   "date_iso": "1631-05-20",
+   "date_display": "Tuesday 20 May 1631 (N.S.), about 9 a.m.",
+   "precision": "day",
+   "eye": "hagendorf",
+   "place": "Magdeburg, Neustadt gate",
+   "headline": "Shot twice at the gate; his wife walks into the fire",
+   "digest": "At nine in the morning the assault goes in, and Hagendorf gets into the city unhurt. At the Neustadt gate he is shot twice, in the belly and through both shoulders, and is carried back to camp half dead. A surgeon ties his hands behind his back to get the ball out. Meanwhile his wife goes into the burning city to fetch a pillow and linen for bandages and comes back with bedding, cloth, wine and silver. That evening his comrades bring him small gifts.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "GHI Intersections excerpt (J. Peters ed. 2012); Wikipedia summary of the wound and surgery; tutory.de teaching extract on the wife's errand."
+  },
+  {
+   "date_iso": "1631-05-20",
+   "date_display": "10 May 1631 (O.S.) = 20 May (N.S.), morning",
+   "precision": "day",
+   "eye": "guericke",
+   "place": "Magdeburg",
+   "headline": "Two hours of slaughter, then the wind turns the fire loose",
+   "digest": "Guericke describes Pappenheim's men massing on the low new wall by the Neustadt, the Swedish commander Falkenberg shot early on, and the Kröcken gate opened to the whole army, which he lists by nation from Croats to Walloons. Anyone with money could buy a little time until the next band arrived. When people had nothing left, the soldiers beat and tortured them. The killing peaked within about two hours. Then an unexpected wind drove fires that had been set in many places, and by about ten in the morning almost the whole city was alight.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "GHDI trans. of Hoffmann ed. 1860, pp. 82–87. Times are as Guericke gives them."
+  },
+  {
+   "date_iso": "1631-05-20",
+   "date_display": "20 May 1631 (N.S.)",
+   "precision": "day",
+   "eye": "bandhauer",
+   "place": "Magdeburg",
+   "headline": "The Catholic canon re-enters a city on fire",
+   "digest": "Bandhauer comes back in behind Tilly's army and sees the burning and plundering first hand. His diary, written up two years later, is the only contemporary narrative from the Catholic side. It became central to the argument over whether imperial soldiers or the defenders started the fire. Where Guericke sees a crime, Bandhauer sees the reconquest of a city that had defied the emperor and the Church.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Deutsche Biographie (NDB) on content and significance; I could not consult the diary text itself, so details of his day are not given."
+  },
+  {
+   "date_iso": "1631-05-20",
+   "date_display": "20 May 1631 (N.S.)",
+   "precision": "day",
+   "eye": "friese",
+   "place": "Magdeburg",
+   "headline": "A twelve-year-old inside the captured city",
+   "digest": "Daniel Friese, about twelve, lives through the imperial capture with his family. He writes it down later as a memory of survival in the middle of the plunder. His account is the child's view of the same streets Guericke surveyed as a councillor and Hagendorf's wife walked through looting.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "ZDF Terra X (identifies him as a 12-year-old witness). His account was not consulted directly in this session."
+  },
+  {
+   "date_iso": "1631-05-20",
+   "date_display": "10 May (O.S.) / 20 May (N.S.) 1631, until about 10 p.m.",
+   "precision": "day",
+   "eye": "guericke",
+   "place": "Magdeburg",
+   "headline": "By ten at night the whole city is ash",
+   "digest": "By about ten at night Guericke counts the town hall, the churches and almost every house in ruins. The attackers pull back to their camps to get away from the heat. The wind carried ash as far as Wanzleben and Egeln. Women and girls with no one to ransom them looked for protection from officers, and many were raped or kept as concubines. Survivors were driven off as prisoners, and libraries and paintings burned or were sold cheaply to sutlers.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "GHDI excerpt; Hanover/Robinson 1906 translation."
+  },
+  {
+   "date_iso": "1631-05-24",
+   "date_display": "24 May 1631 (N.S.)",
+   "precision": "day",
+   "eye": "hagendorf",
+   "place": "Camp before Magdeburg",
+   "headline": "A new captain, and the wounded carted to Halberstadt",
+   "digest": "Four days after the storm, Hagendorf's company receives its third captain in a month, Johann Philipp Schütz. The wounded, Hagendorf among them, are taken to Halberstadt. On this day Tilly also ordered the looting stopped, and a Catholic mass was held in the cathedral, where about a thousand survivors had sheltered.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "GHI Intersections excerpt; context from Sack of Magdeburg (Wikipedia)."
+  },
+  {
+   "date_iso": "1631-05-25",
+   "date_display": "late May 1631",
+   "precision": "range",
+   "eye": "pappenheim",
+   "place": "Magdeburg",
+   "headline": "The general's tally: twenty thousand dead, every soldier rich",
+   "digest": "In a letter after the sack, Pappenheim reports that he believes more than twenty thousand people died. He says all his soldiers have become rich. He writes as a professional reporting on a successful operation, the opposite of Guericke's grief. The phrase 'Magdeburg quarter', meaning no mercy, soon became a Protestant battle cry.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sack of Magdeburg (Wikipedia) paraphrases the letter; I could not confirm its exact date."
+  },
+  {
+   "date_iso": "1631-06-07",
+   "date_display": "late May–June 1631 (and for a year after)",
+   "precision": "range",
+   "eye": "guericke",
+   "place": "Magdeburg",
+   "headline": "Wagons of corpses tipped into the Elbe",
+   "digest": "Tilly orders the burned bodies collected from streets and walls and taken by wagon to the Elbe. Near the water gate, where the river barely moved, corpses floated for a long time. People said they looked as if they were praying or calling for vengeance. For a year afterwards, bodies of people who had suffocated kept turning up in cellars. Guericke estimates about 20,000 dead and admits no one could know the true number.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "GHDI excerpt (Hoffmann ed. 1860). Range dating: Wikipedia says bodies were dumped for about 14 days."
+  },
+  {
+   "date_iso": "1631-06-15",
+   "date_display": "1631",
+   "precision": "year",
+   "eye": "heberle",
+   "place": "Neenstetten",
+   "headline": "News of Magdeburg reaches the Swabian village",
+   "digest": "In his entry for 1631 Heberle records that Magdeburg was besieged, taken and burned. To a Lutheran three hundred miles away it is a sign of judgement and of what the imperial armies would do to Protestants. He gives no day, only the news of the year.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "GHDI Heberle excerpt (1631, no day given). The ISO date is a placeholder within the year."
+  },
+  {
+   "date_iso": "1631-07-01",
+   "date_display": "June–July 1631",
+   "precision": "range",
+   "eye": "hagendorf",
+   "place": "Halberstadt",
+   "headline": "Seven weeks healing; his little Elisabeth dies",
+   "digest": "Hagendorf spends seven weeks recovering from his wounds at Halberstadt. His daughter Elisabeth, born in 1629, dies there. Then the army regroups and marches against the Swedes, who are already at Havelberg, Tangermünde and Werben.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "GHI Intersections excerpt (relative dating: 'after seven weeks')."
+  },
+  {
+   "date_iso": "1631-09-17",
+   "date_display": "7 September 1631 (O.S.) / 17 September (N.S.)",
+   "precision": "day",
+   "eye": "monro",
+   "place": "Breitenfeld, near Leipzig",
+   "headline": "Breitenfeld: the Scots brigade sees Tilly's army broken",
+   "digest": "Four months after Magdeburg, Gustavus Adolphus and the Saxons destroy Tilly's veteran army at Breitenfeld. Monro's regiment is among the Scots in Swedish service. His later narrative presents the victory as justice for Magdeburg and as a lesson in drill and discipline for young officers. Hagendorf was in the losing army.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Battle date standard; Monro's presence with Mackay's regiment in the Swedish army is cited in the Engelsberg essay. His text was not consulted in this session."
+  },
+  {
+   "date_iso": "1632-08-01",
+   "date_display": "summer 1632",
+   "precision": "range",
+   "eye": "wolff",
+   "place": "Schwabach, near Nuremberg",
+   "headline": "Five days in a dovecote while Schwabach is sacked",
+   "digest": "When imperial troops sack Schwabach, Anna Wolff hides with four other women in a dovecote for five days. Three of them die soon afterwards, probably from the cramped conditions. The mill is plundered, but the soldiers miss a chest of flour by the door, and she shares it with starving neighbours. In the ZDF version she also protects the town mayor from soldiers threatening to kill him.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Engelsberg essay ('summer 1632'); ZDF Terra X. Summer 1632 is when Wallenstein's army was camped near Nuremberg."
+  },
+  {
+   "date_iso": "1633-02-15",
+   "date_display": "early 1633 (year not given in source)",
+   "precision": "range",
+   "eye": "majunius",
+   "place": "Bamberg, Holy Sepulchre convent",
+   "headline": "Bernhard's army arrives; five musketeers at the convent gate",
+   "digest": "As the Swedish-allied army of Duke Bernhard of Saxe-Weimar arrives, the sisters, terrified, send out before dawn to beg a guard from Colonel Wildenstein. After much pleading he sends five musketeers. Their safety depended on finding the right officer and persuading him. The convent's survival came down to five armed men at the gate.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Engelsberg essay quotes her account without a year. Bernhard's grant of Bamberg and Franconia was in 1633 (Wikipedia: Bernard of Saxe-Weimar). Earlier, Swedish troops under Horn had taken Bamberg on 10/11 February 1632 (Wikipedia: Battle of Bamberg; Fuchs von Dornheim)."
+  },
+  {
+   "date_iso": "1633-06-30",
+   "date_display": "1633",
+   "precision": "year",
+   "eye": "hagendorf",
+   "place": "Munich / Bavaria",
+   "headline": "His wife Anna dies in Munich; he is pressed into Swedish service",
+   "digest": "Hagendorf's first wife, Anna Stadler, and a child die in Munich after an illness, while the family is separated. In the same year he is forcibly enlisted by the Swedes, the army that had beaten his own at Breitenfeld, and is soon made a sergeant-like Wachtmeister. Changing sides was a matter of being captured and needing pay, not of changing beliefs.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wargameds summary of the diary (wife's death 1633, Munich); FOS/BOS Neu-Ulm seminar paper (forced recruitment and promotion 1633). The exact days were not given."
+  },
+  {
+   "date_iso": "1634-07-22",
+   "date_display": "July 1634",
+   "precision": "month",
+   "eye": "hagendorf",
+   "place": "Landshut, Bavaria",
+   "headline": "Landshut stormed; he takes a young girl as booty",
+   "digest": "Now in Swedish service, Hagendorf takes part in the storming of the Catholic town of Landshut. He records taking a pretty young girl as his share of the booty, in the same flat tone he uses for wine and cloth. This is three years after his wife looted Magdeburg, and he is doing the same thing to Catholics from the other side.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wargameds summary mentions the Landshut girl without a year. 1634 is from the general chronology of the Swedish capture of Landshut; the exact day was not verified here."
+  },
+  {
+   "date_iso": "1634-09-06",
+   "date_display": "5–6 September 1634 (N.S.)",
+   "precision": "range",
+   "eye": "hagendorf",
+   "place": "Nördlingen",
+   "headline": "On the losing side at Nördlingen, then back to the Bavarians",
+   "digest": "Hagendorf is with the Swedish army when the imperial and Spanish forces destroy it at Nördlingen. Afterwards he returns to Catholic League service, ending up in the army he had left the year before. For the people around Ulm, Nördlingen brought imperial troops, famine and plague.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia (participation at Nördlingen 1634); seminar paper (return to League army 1634). The battle date is standard."
+  },
+  {
+   "date_iso": "1635-04-12",
+   "date_display": "2 April 1635 (presumably O.S.)",
+   "precision": "day",
+   "eye": "heberle",
+   "place": "Neenstetten / Ulm",
+   "headline": "His father dies in the plague year",
+   "digest": "Heberle records his father's death in a year when imperial troops besieged nearby Albeck castle and farmers trying to reach Ulm were shot or captured on the road. He and his family hide in the forests and then flee to Heuchlingen, and cavalry arrive two days later. The Peace of Prague is signed in May, but the soldiers stay.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "GHDI Heberle excerpt (1635). The O.S.→N.S. conversion is assumed."
+  },
+  {
+   "date_iso": "1635-12-31",
+   "date_display": "1635 (New Year's sermon, 1635/36)",
+   "precision": "year",
+   "eye": "heberle",
+   "place": "Ulm",
+   "headline": "More than 15,000 dead in Ulm in one year",
+   "digest": "Heberle copies figures from Dr Conrad Dietrich's New Year's sermon: over fifteen thousand burials in Ulm in a single year. They include thousands of poor people and beggars, peasants and strangers, and 168 foundlings. On some days 150 to 170 bodies were carried out. Grain reaches 20 florins. Ulm had sheltered the refugees, and it became the place where they died.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "GHDI Heberle excerpt."
+  },
+  {
+   "date_iso": "1636-04-17",
+   "date_display": "Thursday 7 April 1636 (O.S.)",
+   "precision": "day",
+   "eye": "crowne",
+   "place": "Greenwich / Gravesend",
+   "headline": "The Earl of Arundel's embassy sets out for the Emperor",
+   "digest": "Crowne's journal begins as the embassy leaves for Germany to plead for the Palatine family's restoration with Ferdinand II. The first pages describe ships, courtesies and Dutch towns. He has no idea yet of what the Rhine and Franconia will look like.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "A True Relation (1637), EEBO-TCP A19674. Weekday matches the Julian calendar."
+  },
+  {
+   "date_iso": "1636-04-30",
+   "date_display": "about 20 April 1636 (O.S.)",
+   "precision": "day",
+   "eye": "crowne",
+   "place": "Wesel, Lower Rhine",
+   "headline": "Plague in Wesel: more than thirty a day",
+   "digest": "At Wesel the party hears that people are dying of 'the sickness' at more than thirty a day. They had already seen plague at Arnhem over Easter. Crowne records it the way he records distances, and they keep going.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "A True Relation (1637); the date is inferred from the itinerary."
+  },
+  {
+   "date_iso": "1636-05-11",
+   "date_display": "Whitsunday 1 May 1636 (O.S.)",
+   "precision": "day",
+   "eye": "crowne",
+   "place": "Bacharach, Rhine",
+   "headline": "At Bacharach the poor lie dead with grass in their mouths",
+   "digest": "Coming up the Rhine, Crowne notes that at Bacharach the poor are found dead of hunger with grass in their mouths. At Mainz, a day later, the city is badly battered from the Swedish capture and the poor are almost starved. At Frankfurt the party is told that every town, village and castle from Cologne onwards has been battered, plundered or burned.",
+   "quote": "found dead with grass in their mouths",
+   "confidence": "verified",
+   "source_note": "A True Relation (1637), entries 1–3 May 1636 (O.S.)."
+  },
+  {
+   "date_iso": "1636-05-17",
+   "date_display": "Sunday 7 May 1636 (O.S.)",
+   "precision": "day",
+   "eye": "crowne",
+   "place": "Neunkirchen, Franconia",
+   "headline": "An empty village, a burning house, a body dug up",
+   "digest": "Forced to spend the night at Neunkirchen, the embassy finds no living person in the village. One house is still burning, and a corpse has been dug out of its grave. A few days later, at Neustadt and Marktbreit, starving children wait at doors.",
+   "quote": "not any body in the Village",
+   "confidence": "verified",
+   "source_note": "A True Relation (1637)."
+  },
+  {
+   "date_iso": "1636-06-02",
+   "date_display": "23 May 1636 (O.S.)",
+   "precision": "day",
+   "eye": "crowne",
+   "place": "'Hemmaw' (Franconia/Upper Palatinate), the day after Nuremberg",
+   "headline": "A village plundered twenty-eight times in two years",
+   "digest": "The day after leaving Nuremberg, the party stops at a village where the people say they have been plundered twenty-eight times in two years, twice in one day. There is hardly any water to be had. In one line, the journal records how often plunder came back to the same place, which is what Heberle and Hagendorf both describe from their own sides.",
+   "quote": "pillaged eight and twenty times in two years",
+   "confidence": "verified",
+   "source_note": "A True Relation (1637)."
+  },
+  {
+   "date_iso": "1636-06-16",
+   "date_display": "6 June 1636 (O.S.)",
+   "precision": "day",
+   "eye": "crowne",
+   "place": "Linz, on the Danube",
+   "headline": "Audience with the Emperor at the end of a ruined river road",
+   "digest": "Two days after arriving at Linz by the Danube, past burnt villages, the ambassador is received by Emperor Ferdinand II and the Empress. Crowne's description turns to ceremony and banquets. In the journal, imperial magnificence sits directly after Franconian starvation.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "A True Relation (1637)."
+  },
+  {
+   "date_iso": "1636-11-24",
+   "date_display": "14 November 1636 (O.S.)",
+   "precision": "day",
+   "eye": "crowne",
+   "place": "Neustadt (homeward)",
+   "headline": "A town of 250 burghers now has fewer than five",
+   "digest": "On the return journey Crowne is told that Neustadt, which once had 250 or more burghers, now has hardly five. A few days later he hears that plague killed 22,000 at Hanau in seven weeks. At Mainz on 27 November, starving people lie on dunghills.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "A True Relation (1637), November 1636 entries."
+  },
+  {
+   "date_iso": "1641-06-12",
+   "date_display": "12 June 1641 (N.S.)",
+   "precision": "day",
+   "eye": "hagendorf",
+   "place": "Near Dierdorf, Westerwald",
+   "headline": "Robbed by three peasants on 'a terrible land'",
+   "digest": "Lagging behind the regiment near Dierdorf, Hagendorf is caught by three peasants who take his coat and pack. Months later he finds one of them and threatens to have him hanged unless his things are returned. The village pays him twelve talers, and officials take their fees. Here the farmers are the ones doing the robbing.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Engelsberg essay gives 12 June 1641; a seminar paper places a robbery by three peasants in 1642, so the year is disputed."
+  },
+  {
+   "date_iso": "1647-01-27",
+   "date_display": "17 January 1647 (presumably O.S.)",
+   "precision": "day",
+   "eye": "gerstetten",
+   "place": "Gerstetten, Swabian Alb",
+   "headline": "Resettling the empty cottages, and pleading for neighbourliness",
+   "digest": "In his family Bible, a Gerstetten householder writes about people moving back into abandoned cottages and urges neighbours to help one another rebuild. Peace talks have been going on in Westphalia for years, and many villagers doubt the war is really over. It will last nearly two more years.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Engelsberg essay (date as quoted). The O.S. conversion assumes Lutheran Württemberg usage."
+  },
+  {
+   "date_iso": "1648-10-24",
+   "date_display": "1648 (after the peace)",
+   "precision": "year",
+   "eye": "hagendorf",
+   "place": "Bavaria / Swabia",
+   "headline": "Peace means unemployment: he buys paper to write it all down",
+   "digest": "For Hagendorf the peace is mixed news: it ends his job. While waiting to be paid off he works as a night watchman and labourer. He buys the paper on which he makes the fair copy of his twenty-three years of notes, so the diary we have was put together as his war ended.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia (Peter Hagendorf); World Anvil summary (paper bought 1648)."
+  },
+  {
+   "date_iso": "1648-11-28",
+   "date_display": "18 November 1648 (Ulm, presumably O.S.)",
+   "precision": "day",
+   "eye": "heberle",
+   "place": "Ulm",
+   "headline": "Thanksgiving for peace in Ulm, kept like Christmas",
+   "digest": "Heberle goes with his family to the peace thanksgiving in Ulm and records it with a joy otherwise kept for the birth of Christ. He has outlived most of his children and fled to the city again and again. After thirty years of praying for peace, to him it is a miracle he lived to see.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Mohrmann, 'Everyday Life in War and Peace' (LWL), citing Zillhardt pp. 225ff. The date as given is 18 November 1648. Whether that is O.S. (likely for Ulm) or already converted is not stated, so the ISO date assumes O.S."
+  },
+  {
+   "date_iso": "1649-07-01",
+   "date_display": "1649",
+   "precision": "year",
+   "eye": "hagendorf",
+   "place": "Memmingen → Öttingen → Günzburg",
+   "headline": "Paid off at Memmingen, he walks his family north",
+   "digest": "Discharged for the last time, Hagendorf draws his pay at Memmingen, collects a son who had been left with a provost, and sets out northeast with his family through Öttingen. The diary breaks off near Günzburg. Parish records later place him at Görzke in Brandenburg, where a son Peter was baptised on 9 November 1649 and where he eventually served as a village official.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia (Peter Hagendorf); Wargameds summary; the Görzke baptism is from parish records, not the diary."
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1631-05-20",
+   "label": "The storming and burning of Magdeburg (10 May O.S. / 20 May N.S.)",
+   "eyes": [
+    "hagendorf",
+    "guericke",
+    "bandhauer",
+    "friese",
+    "pappenheim"
+   ],
+   "note": "Five eyes on one day. The soldier is shot at the gate while his wife loots the streets. The councillor lists the attackers by nation and the hours by fire. The Catholic canon returns behind the army and reads it as reconquest. The child lives through it. The general counts the dead and the booty. Guericke and the Catholic army even give the day different dates."
+  },
+  {
+   "date": "1631-05-24",
+   "label": "After the sack: corpses to the Elbe, wounded to Halberstadt",
+   "eyes": [
+    "guericke",
+    "hagendorf",
+    "pappenheim"
+   ],
+   "note": "While Tilly orders the bodies carted to the river and Pappenheim reports twenty thousand dead, Hagendorf is carried off to Halberstadt to heal and loses a daughter there. The aftermath is a disposal problem for Guericke and a convalescence for Hagendorf."
+  },
+  {
+   "date": "1631-09-17",
+   "label": "From Magdeburg to Breitenfeld",
+   "eyes": [
+    "monro",
+    "hagendorf",
+    "heberle"
+   ],
+   "note": "The Scots officer fights on the side that avenges Magdeburg, and the mercenary is in Tilly's beaten army. In the Swabian village, Heberle has only heard the year's news of the city's fall."
+  },
+  {
+   "date": "1628-07-24",
+   "label": "Summer 1628: a letter from a cell, a birth in a cottage",
+   "eyes": [
+    "jjunius",
+    "heberle"
+   ],
+   "note": "A Catholic burgomaster is burned in Bamberg after writing goodbye to his daughter. In the same weeks, a Lutheran cobbler near Ulm writes down the exact hour of his daughter's birth. Both are fathers writing to or about daughters, in very different worlds."
+  },
+  {
+   "date": "1634-09-06",
+   "label": "Nördlingen and its aftermath, 1634–35",
+   "eyes": [
+    "hagendorf",
+    "heberle"
+   ],
+   "note": "Hagendorf fights at Nördlingen on the Swedish side and then goes back to the Bavarians. For Heberle the result is imperial troops on the Alb, flight to the forests, his father's death and fifteen thousand plague dead in Ulm."
+  },
+  {
+   "date": "1636-05-11",
+   "label": "Spring 1636: the Rhine and Franconia through a foreign traveller's eyes",
+   "eyes": [
+    "crowne",
+    "heberle",
+    "hagendorf"
+   ],
+   "note": "Crowne's starving people at Bacharach and the village plundered twenty-eight times give an outsider's view of the cycle that Heberle suffered and that Hagendorf's regiment helped cause."
+  },
+  {
+   "date": "1648-11-28",
+   "label": "The peace arrives (signed 14/24 October 1648)",
+   "eyes": [
+    "heberle",
+    "hagendorf",
+    "gerstetten",
+    "guericke"
+   ],
+   "note": "The cobbler celebrates the peace like Christmas. The soldier sees it as the end of his pay and buys paper to write up his war. The Gerstetten villager had already started rebuilding. Guericke went to the peace congress as Magdeburg's delegate. The same news meant something different to each."
+  }
+ ],
+ "ties": [
+  {
+   "a": "jjunius",
+   "b": "majunius",
+   "kind": "relative",
+   "note": "Father and daughter. Johannes was burned as a witch in Bamberg in 1628, and Maria Anna later chronicled the Swedish occupation of the same city from her convent."
+  },
+  {
+   "a": "hagendorf",
+   "b": "pappenheim",
+   "kind": "met",
+   "note": "Hagendorf served in Pappenheim's own regiment from 1627 and was in the column Pappenheim led into Magdeburg."
+  },
+  {
+   "a": "hagendorf",
+   "b": "guericke",
+   "kind": "opposite sides",
+   "note": "At the same Neustadt sector on the same morning: one of the attackers who broke in, and a councillor of the city being destroyed."
+  },
+  {
+   "a": "guericke",
+   "b": "bandhauer",
+   "kind": "opposite sides",
+   "note": "Protestant councillor and expelled Catholic canon; their accounts are the two main sources in the long argument over who set Magdeburg on fire."
+  },
+  {
+   "a": "monro",
+   "b": "hagendorf",
+   "kind": "opposite sides",
+   "note": "At Breitenfeld in 1631 Monro's Scots fought in the Swedish army that broke Tilly's, in which Hagendorf served. Hagendorf himself was later pressed into Swedish service."
+  },
+  {
+   "a": "hagendorf",
+   "b": "heberle",
+   "kind": "same street",
+   "note": "Hagendorf enlisted at Ulm in 1627 and fought at Nördlingen, about 60 km away. Heberle repeatedly fled into Ulm from the armies Hagendorf belonged to."
+  },
+  {
+   "a": "heberle",
+   "b": "gerstetten",
+   "kind": "same street",
+   "note": "Neighbouring Lutheran communities on the Swabian Alb north of Ulm, recording flight and resettlement in the same landscape."
+  },
+  {
+   "a": "crowne",
+   "b": "wolff",
+   "kind": "same street",
+   "note": "Crowne passed through the Nuremberg area in May 1636, four years after Schwabach, just south of Nuremberg, was sacked."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "london-1666",
+   "note": "Guericke's vacuum experiments, publicised from 1654, prompted Robert Boyle's air pump and the early work of the Royal Society. After the Great Fire, the Society met at Arundel House, the London house of the Howard earls of Arundel. Crowne's patron Thomas Howard had led the 1636 embassy."
+  },
+  {
+   "to": "french-rev",
+   "note": "The Peace of Westphalia gave France rights in Alsace and made it guarantor of the Empire's constitution. The order of sovereign states, church settlements and privileged estates that Westphalia confirmed was part of the old regime the Revolution later attacked."
+  },
+  {
+   "to": "ww2-europe",
+   "note": "Magdeburg was destroyed a second time when Allied bombing on 16 January 1945 burned its old centre. The two burnings, in 1631 and 1945, are central to the city's memory."
+  },
+  {
+   "to": "long-threads",
+   "note": "Hagendorf's 22,500 km on foot, his changes of side and his wife's looting show the early-modern war economy of contractor armies that fed themselves from the land. That system gave way after 1648 to standing armies, and it is a thread for the book's long view of war and civilians."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/die-kaiserlichen-truppen-unter-tilly-stuermen-magdeburg-1631",
+   "title": "The Imperial Troops under Tilly Storm Magdeburg",
+   "caption": "A coloured copperplate made in the same year as the storm of 20 May 1631. It shows the event as printers sold it to Europe while the ruins were still smoking.",
+   "date": "1631",
+   "credit": "Unknown artist; Staatsbibliothek zu Berlin (bpk / Ruth Schacht), via GHDI"
+  },
+  {
+   "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/prager-fenstersturz-am-23-mai-1618-1646",
+   "title": "Defenestration of Prague on May 23, 1618",
+   "caption": "A seventeenth-century print of the act that opened the war: imperial governors thrown from the Prague castle window. Heberle's comet appeared a few months later.",
+   "date": "17th century (as listed by GHDI)",
+   "credit": "As credited on the GHDI image page"
+  },
+  {
+   "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/gustav-ii-adolf-von-schweden-1631",
+   "title": "Gustavus Adolphus of Sweden (1631)",
+   "caption": "The Swedish king whose landing in 1630 and victory at Breitenfeld in 1631 Monro served in and Heberle noted, and whose army later occupied Junius's Bamberg.",
+   "date": "1631",
+   "credit": "As credited on the GHDI image page"
+  },
+  {
+   "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/hans-ulrich-franck-der-geharnischte-reiter-1643",
+   "title": "Hans Ulrich Franck, Knight in Armor (1643)",
+   "caption": "From Franck's etchings of soldiers and violence against peasants, made in Augsburg in the war's last decade. It shows the kind of soldier Hagendorf was and Heberle fled from.",
+   "date": "1643",
+   "credit": "Hans Ulrich Franck; via GHDI"
+  },
+  {
+   "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/titelblatt-des-dramas-das-friede-wuenschende-teutschland-von-johann-rist-1647",
+   "title": "Title page of Johann Rist, Das Friedewünschende Teutschland (1647)",
+   "caption": "A Lutheran pastor's play about Germany longing for peace, published in the same year the Gerstetten villager wrote in his Bible about resettling empty cottages.",
+   "date": "1647",
+   "credit": "Johann Rist; via GHDI"
+  },
+  {
+   "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/westfaelischer-friede-beeidigung-des-friedensvertrags-von-muenster-1648",
+   "title": "Peace of Westphalia: The Swearing of the Oath of Ratification of the Treaty of Münster (1648)",
+   "caption": "Gerard ter Borch's group portrait of the envoys swearing the oath at Münster in 1648. It shows the peace from the negotiators' table, the opposite end from Heberle's church pew.",
+   "date": "1648",
+   "credit": "Gerard ter Borch (painting); via GHDI"
+  }
+ ],
+ "further": [
+  {
+   "title": "GHDI: Wars and Violence — Thirty Years' War (source collection)",
+   "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/wars-and-violence-thirty-years-war"
+  },
+  {
+   "title": "Guericke, Geschichte der Belagerung … Magdeburg's (Project Gutenberg)",
+   "url": "https://www.gutenberg.org/ebooks/59081"
+  },
+  {
+   "title": "Crowne, A True Relation (1637), full transcription",
+   "url": "https://distantreader.org/stacks/earlyprint/txt/A19674.txt"
+  },
+  {
+   "title": "Hagendorf journal excerpt (German History Intersections)",
+   "url": "https://germanhistory-intersections.org/en/germanness/ghis:document-294"
+  },
+  {
+   "title": "Heberle Zeytregister excerpt (GHDI)",
+   "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/a-swabian-cobbler-farmer-survives-the-thirty-years-war-hans-heberle-1597-1677"
+  },
+  {
+   "title": "Engelsberg Ideas: Do we know the truth about the Thirty Years' War?",
+   "url": "https://engelsbergideas.com/essays/do-we-know-the-truth-about-the-thirty-years-war/"
+  },
+  {
+   "title": "LWL: R.-E. Mohrmann, Everyday Life in War and Peace (1648 exhibition)",
+   "url": "https://lwl.org/westfaelischer-friede-download/wfe-t/wfe-txt1-34.htm"
+  },
+  {
+   "title": "ZDF Terra X: Der Dreißigjährige Krieg — Tagebücher des Überlebens",
+   "url": "https://www.zdf.de/dokumentation/terra-x/der-dreissigjaehrige-krieg-tagebuecher-des-ueberlebens-100.html"
+  }
+ ],
+ "vantage_key": "0 = at the centre of the violence they describe (attacker, commander, victim, prisoner); 1 = on the scene as eyewitness; 2 = travelling through the war zone; 3 = same region, hearing the news and living through its effects; 4 = abroad, news only."
+}

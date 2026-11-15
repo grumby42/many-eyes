@@ -1,0 +1,1463 @@
+{
+ "id": "jet-age",
+ "title": "Faster Than Sound and the Jet Age, 1947–1969",
+ "short_title": "The Jet Age",
+ "subtitle": "The X-1, the Comet and its inquiry, the 707 and Tu-104, and the first supersonic airliners: Muroc, Hatfield, Farnborough, Seattle, Moscow, Toulouse and Filton, 1946–1969",
+ "span": "1946–1969",
+ "intro": [
+  "On 14 October 1947 a small orange rocket aircraft fell away from a B-29 over the Mojave Desert, fired its engine, and went faster than sound. The pilot's report runs to a few typed lines about drop speed, cylinders and a meter that ran off its scale. The engineers' data, the injury he hid, and the fact that no one was supposed to know at all came out in other papers. Twenty-two years later, airliners designed to cruise at twice that speed were flying from Toulouse, Filton and Moscow. This chapter follows the path between them.",
+  "Very little of it is diary. The honest record of the early jet age is flight reports, test records, conference papers, company announcements, parliamentary debates, inquiry reports and the weekly aviation press, with memoirs written decades later by the test pilots. The form tags say which is which. The one true diarist is Tony Benn, the minister responsible for Concorde, whose diary shows the doubt inside the enthusiasm. Because nearly all of this was published after 1928, the entries are digests; the only quotations are a line from Yeager's US-government flight report and two widely repeated phrases.",
+  "The middle of the chapter is the de Havilland Comet. It made the first jet airliner flight in 1949 and the first jet passenger service in 1952, and then three BOAC-owned Comets were lost with everyone aboard within a year: near Calcutta in May 1953, off Elba in January 1954 and south of Naples in April 1954. Those deaths are stated plainly. The investigation that followed is one of the great pieces of engineering detective work. The Navy recovered wreckage from the sea, and at Farnborough Arnold Hall's team pressurised a whole fuselage in a water tank until it cracked. Lord Cohen's court then traced the Elba failure to fatigue at the cut-out for an aerial window in the cabin roof. Hansard records the same months from Westminster: grounding, sabotage rumours and the decision to make the cure a national project.",
+  "While the Comet was grounded, others moved. Boeing's Dash 80 flew in 1954 and Tex Johnston rolled it over a Seattle hydroplane race in 1955. Juan Trippe ordered Pan Am's jets that October. The Soviet Tu-104, built from a bomber, landed in London in 1956 and began the first uninterrupted jet airline service across Siberia. In October 1958 a rebuilt Comet 4 and Pan Am's 707 opened transatlantic jet service three weeks apart. The coda is the supersonic transport: the Tu-144 on the last day of 1968, Concorde 001 under André Turcat in March 1969, and 002 under Brian Trubshaw at Filton in April, with Benn watching.",
+  "Ordinary passengers are hard to find in this record. The 36 who flew to Johannesburg in 1952 left no traced diaries, and the 1958 Pan Am travellers are known mainly through recollections gathered sixty years later. They appear here through the airlines' and newspapers' counts, and the gap is left visible."
+ ],
+ "calendar_note": "All dates are Gregorian. Flight times are local: Muroc on Pacific time, the Tu-144's first flight on Moscow time on 31 December 1968. Where sources disagree by a day (the Dash 80 roll is given as 6 or 7 August 1955; the Comet certificates are dated 9 April by one timeline and announced in the Commons on 12 April 1954), both are noted and the entry is marked approximate or explained.",
+ "eyes": [
+  {
+   "id": "yeager",
+   "short": "Yeager",
+   "name": "Charles Elwood \"Chuck\" Yeager",
+   "life": "1923–2020",
+   "role": "US Air Force captain and test pilot, aged 24; a wartime fighter ace chosen to fly the Air Force's XS-1 programme",
+   "side": "United States Army Air Forces / US Air Force",
+   "where": "Muroc Army Air Field (later Edwards AFB), Mojave Desert, California",
+   "lat": 34.905,
+   "lon": -117.884,
+   "vantage": 0,
+   "vantage_label": "the pilot in the cockpit",
+   "form": "flight reports (pilot's notes) and memoir (written later)",
+   "language": "English",
+   "authenticity": "His typed pilot's notes for the ninth powered flight of the XS-1, dated 14 October 1947, survive at the US National Archives (National Archives Identifier 295644) with notes from earlier attempts; as a US-government record they may be quoted briefly. The broken-ribs and broom-handle story comes from his own later accounts (Yeager: An Autobiography, 1985, with Leo Janos, and pieces published by the Yeager foundation), not from a contemporary record.",
+   "bio": "Yeager had flown the XS-1 on glide and powered flights for only a few weeks when he took it past Mach 1. His flight report is cool and technical: drop speed, cylinders fired, an instrument that ran off its scale. His later memoir supplies what the report leaves out: the injury he hid, the flight engineer who helped him close the hatch, and the long secrecy that followed.",
+   "sources": [
+    {
+     "title": "Pilot's notes, ninth powered flight of the XS-1, 14 Oct 1947 (National Archives at Riverside)",
+     "url": "https://www.archives.gov/riverside/highlights/xs-1"
+    },
+    {
+     "title": "Broken ribs before breaking the sound barrier (Yeager's account)",
+     "url": "https://chuckyeager.com/broken-ribs-before-breaking-the-sound-barrier"
+    },
+    {
+     "title": "Yeager: An Autobiography (1985, with Leo Janos)",
+     "url": ""
+    }
+   ]
+  },
+  {
+   "id": "williams",
+   "short": "Walter Williams",
+   "name": "Walter C. Williams",
+   "life": "1919–1995",
+   "role": "NACA engineer, aged 28, head of the small NACA contingent at the Muroc Flight Test Unit; responsible for instrumenting the X-1 and tracking and reducing its flight data",
+   "side": "National Advisory Committee for Aeronautics (NACA), United States",
+   "where": "Muroc, California",
+   "lat": 34.905,
+   "lon": -117.884,
+   "vantage": 1,
+   "vantage_label": "the engineer on the ground with the data",
+   "form": "technical reports and conference papers",
+   "language": "English",
+   "authenticity": "NACA's conference papers on the XS-1 (Wright Field, 9 January 1948; Muroc, 19 May 1948), including Williams's summary, are reprinted in NASA's history volume on the X-1 (1996, foreword by J. D. Hunley). They are US-government records.",
+   "bio": "Williams led the NACA team that sat beside the Air Force at Muroc: the radar and telemetry that measured what the X-1 actually did, as against what the pilot's instruments showed. His papers turn the first supersonic flights into numbers, minutes of supersonic time and lists of pilots. He went on to run the flight station that became NASA's Dryden centre and then flight operations for Project Mercury.",
+   "sources": [
+    {
+     "title": "NASA History: The X-1 conference papers, 1948 (Monographs in Aerospace History)",
+     "url": "https://www.nasa.gov/history/x1/x.html"
+    }
+   ]
+  },
+  {
+   "id": "press",
+   "short": "Aviation press",
+   "name": "The aviation and weekly press: Flight, Aviation Week, The Spectator",
+   "life": "Flight 1909–; Aviation Week 1916–; The Spectator 1828–",
+   "role": "Weekly journals that reported the jet age to engineers, airlines and the public; their correspondents watched first flights and arrivals from the airfield fence",
+   "side": "Britain and the United States",
+   "where": "London (Flight, The Spectator); New York (Aviation Week)",
+   "lat": 51.51,
+   "lon": -0.12,
+   "waypoints": [
+    {
+     "lat": 40.75,
+     "lon": -73.99,
+     "label": "New York: Aviation Week, Dec 1947"
+    },
+    {
+     "lat": 51.47,
+     "lon": -0.454,
+     "label": "London Airport: Tu-104 arrival, Mar 1956"
+    },
+    {
+     "lat": 51.51,
+     "lon": -0.12,
+     "label": "London: The Spectator, 1954"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "reporters at the fence and the desk",
+   "form": "periodical reports (dated issues)",
+   "language": "English",
+   "authenticity": "Dated weekly issues, all copyright and digested here only. Aviation Week's 22 December 1947 story is credited to its engineering editor, Robert McLarren; Flight's 30 March 1956 report of the Tu-104 arrival and The Spectator's 16 July 1954 article 'Curing the Comet' survive in the magazines' archives. This is a grouped press eye, not one person.",
+   "bio": "The press is where secrecy and spectacle met. Aviation Week broke the story of the supersonic flights against the Air Force's wishes; Flight's reporter stood in the rain to watch a Soviet jet airliner land at London Airport; The Spectator explained to its readers why a government laboratory at Farnborough had become the Comet's doctor.",
+   "sources": [
+    {
+     "title": "Aviation Week: XS-1 supersonic scoop (1947)",
+     "url": "https://aviationweek.com/defense/xs-1-supersonic-scoop-1947"
+    },
+    {
+     "title": "Flight, 50 years ago: 30 March 1956",
+     "url": "https://flightglobal.com/50-years-ago-30-mar-1956-/66444.article"
+    },
+    {
+     "title": "The Spectator, 16 July 1954: Curing the Comet",
+     "url": "https://archive.spectator.co.uk/article/16th-july-1954/4/curing-the-comet"
+    }
+   ]
+  },
+  {
+   "id": "cunningham",
+   "short": "Cunningham",
+   "name": "John Cunningham",
+   "life": "1917–2002",
+   "role": "de Havilland chief test pilot, aged 32 in 1949; a wartime night-fighter pilot (Group Captain), successor as chief test pilot to Geoffrey de Havilland Jr., killed in the DH 108 in 1946",
+   "side": "de Havilland Aircraft Company, Britain",
+   "where": "Hatfield aerodrome, Hertfordshire",
+   "lat": 51.763,
+   "lon": -0.24,
+   "vantage": 0,
+   "vantage_label": "the test pilot who first flew the jet airliner",
+   "form": "flight-test records and reported remarks",
+   "language": "English",
+   "authenticity": "Cunningham wrote no memoir; his first-flight remarks survive as reported by journalists and in de Havilland and BAE Systems heritage accounts. Details of the first flight (duration, height) come from company and press records.",
+   "bio": "Cunningham took the prototype Comet off the Hatfield runway on his own birthday, after a day of taxi runs and short hops that sent the reporters home before the real flight. He then spent three years proving the aircraft for BOAC, and his reputation for calm judgement made him the face of the British jet.",
+   "sources": [
+    {
+     "title": "History Today: The maiden flight of the Comet",
+     "url": "https://www.historytoday.com/node/53109"
+    },
+    {
+     "title": "BAE Systems Heritage: de Havilland DH.106 Comet 1 and 2",
+     "url": "https://www.baesystems.com/heritage/page/de-havilland-dh-106-comet-1-and-2"
+    }
+   ]
+  },
+  {
+   "id": "boac",
+   "short": "BOAC",
+   "name": "British Overseas Airways Corporation (BOAC) and its crews",
+   "life": "1939–1974",
+   "role": "Britain's state long-haul airline, launch customer for the Comet; its captains, crews and announcements",
+   "side": "Britain",
+   "where": "London Airport (Heathrow) and the Empire routes to Johannesburg, Singapore and Tokyo",
+   "lat": 51.47,
+   "lon": -0.454,
+   "waypoints": [
+    {
+     "lat": -26.14,
+     "lon": 28.24,
+     "label": "Johannesburg, 3 May 1952"
+    },
+    {
+     "lat": 41.8,
+     "lon": 12.25,
+     "label": "Rome Ciampino, Oct 1952"
+    },
+    {
+     "lat": 22.65,
+     "lon": 88.45,
+     "label": "Calcutta, 2 May 1953"
+    },
+    {
+     "lat": 42.6,
+     "lon": 10.4,
+     "label": "Off Elba, 10 Jan 1954"
+    },
+    {
+     "lat": 39.8,
+     "lon": 14.3,
+     "label": "South of Naples, 8 Apr 1954"
+    },
+    {
+     "lat": 40.64,
+     "lon": -73.78,
+     "label": "New York, Oct 1958"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the airline that flew and lost the Comets",
+   "form": "company announcements, timetables and accident records",
+   "language": "English",
+   "authenticity": "BOAC's announcements and flight details survive through the press, the RAF Museum's civil aviation timeline and accident records (FAA Lessons Learned summaries of the official reports). No passenger diary of the first service has been traced; passenger and crew numbers come from contemporary reports.",
+   "bio": "BOAC took the risk of the first jet service and carried the cost of the losses. Its record runs from the celebratory departure of May 1952 to the suspension of services in January 1954, the brief return in March and the final grounding, and then to the redesigned Comet 4 that opened jet service across the Atlantic in 1958.",
+   "sources": [
+    {
+     "title": "RAF Museum: British civil aviation in 1954",
+     "url": "https://www.rafmuseum.org.uk/research/research-enquiries/history-of-aviation-timeline/british-civil-aviation/1954-2/"
+    },
+    {
+     "title": "FAA Lessons Learned: Comet 1 G-ALYV, Calcutta",
+     "url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/G-ALYV"
+    },
+    {
+     "title": "Smithsonian: The Comet's tale",
+     "url": "https://www.smithsonianmag.com/history/comets-tale-63573615/"
+    }
+   ]
+  },
+  {
+   "id": "hansard",
+   "short": "Hansard",
+   "name": "House of Commons (Hansard record)",
+   "life": "record of the 1954 sessions",
+   "role": "Ministers and members questioning the Comet losses: Alan Lennox-Boyd (Minister of Transport and Civil Aviation), John Profumo (his parliamentary secretary), Sir Lionel Heald (Attorney-General) and backbenchers",
+   "side": "Britain: Parliament",
+   "where": "Palace of Westminster, London",
+   "lat": 51.4995,
+   "lon": -0.1248,
+   "vantage": 3,
+   "vantage_label": "Parliament, hearing the news",
+   "form": "parliamentary record (verbatim debates)",
+   "language": "English",
+   "authenticity": "Official verbatim reports of Commons proceedings, digitised in the historic Hansard. Crown copyright; digested here.",
+   "bio": "Hansard is where the losses became public business: who grounded the aircraft, whether sabotage could be ruled out, whether the BBC should delay news of disasters, and who would preside over the inquiry. The questions show a country proud of its lead and anxious about it at once.",
+   "sources": [
+    {
+     "title": "HC Deb 20 January 1954: Comet airliner accident south of Elba",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1954/jan/20/comet-airliner-accident-south-elba-1"
+    },
+    {
+     "title": "HC Deb 12 April 1954: Comet aircraft (loss)",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1954/apr/12/comet-aircraft-loss"
+    },
+    {
+     "title": "HC Deb 12 May 1954: Comet aircraft accidents (inquiries)",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1954/may/12/comet-aircraft-accidents-inquiries"
+    }
+   ]
+  },
+  {
+   "id": "hall",
+   "short": "Arnold Hall",
+   "name": "Sir Arnold Hall",
+   "life": "1915–2000",
+   "role": "Director of the Royal Aircraft Establishment (RAE), Farnborough, aged 38–39; led the scientific investigation into the Comet losses",
+   "side": "Ministry of Supply, Britain",
+   "where": "Royal Aircraft Establishment, Farnborough, Hampshire",
+   "lat": 51.276,
+   "lon": -0.776,
+   "vantage": 1,
+   "vantage_label": "the investigator with the water tank",
+   "form": "laboratory test records and evidence to the inquiry",
+   "language": "English",
+   "authenticity": "Hall's investigation survives as RAE reports and as evidence summarised to the Cohen Court of Inquiry and in its report (CAP 127, 1955). He left no diary; his team's work is known through these official records and later engineering histories.",
+   "bio": "Hall turned Farnborough into a forensic laboratory: wreckage dredged from the sea off Elba laid out on frames, a complete Comet fuselage sunk in a water tank and pressurised again and again, an aircraft flown to test the theories. His team's water-tank result in June 1954 gave the investigation its central evidence.",
+   "sources": [
+    {
+     "title": "Aerossurance: Common Comet misconceptions",
+     "url": "https://aerossurance.com/safety-management/comet-misconceptions/"
+    },
+    {
+     "title": "Section of upper fuselage of Comet G-ALYP showing fatigue cracks (Science Museum Group)",
+     "url": "https://collection.sciencemuseumgroup.org.uk/objects/co202453/section-of-upper-fuselage-of-comet-g-alyp-showing-fatigue-cracks"
+    }
+   ]
+  },
+  {
+   "id": "inquiry",
+   "short": "Comet inquiries",
+   "name": "The Comet courts of inquiry (India 1953; Lord Cohen, London 1954–55)",
+   "life": "1953–1955",
+   "role": "Official inquiries: the Government of India's investigation into the Calcutta loss, and the public Court of Inquiry presided over by Lord Cohen into the Elba and Naples losses",
+   "side": "Government of India; British Ministry of Transport and Civil Aviation",
+   "where": "Church House, Westminster (Cohen court); India (Calcutta inquiry)",
+   "lat": 51.4987,
+   "lon": -0.129,
+   "vantage": 2,
+   "vantage_label": "the inquiry weighing the evidence",
+   "form": "official inquiry proceedings and reports",
+   "language": "English",
+   "authenticity": "The Cohen report was published on 1 February 1955 as Civil Aviation Publication (CAP) 127. The opening statement of 19 October 1954 is known from press and BBC reports. The Indian findings are summarised in the FAA's Lessons Learned library.",
+   "bio": "The inquiries are the chapter's most careful witnesses: they say what was found, what was likely and what could not be known. The Cohen court sat for weeks in late 1954, heard the Farnborough evidence and the manufacturers, and issued findings that changed how pressurised aircraft are designed and tested.",
+   "sources": [
+    {
+     "title": "BBC On This Day, 19 October 1954 (mirror)",
+     "url": "https://bbctodays.pages.dev/onthisday/hi/dates/stories/october/19/newsid_3112000/3112466.stm"
+    },
+    {
+     "title": "FAA Lessons Learned: Comet 1 G-ALYV",
+     "url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/G-ALYV"
+    }
+   ]
+  },
+  {
+   "id": "johnston",
+   "short": "Tex Johnston",
+   "name": "Alvin M. \"Tex\" Johnston",
+   "life": "1914–1998",
+   "role": "Boeing chief test pilot, aged 40–41; flew the 367-80 (Dash 80) prototype of the 707",
+   "side": "Boeing Airplane Company, United States",
+   "where": "Renton and Boeing Field, Seattle; over Lake Washington",
+   "lat": 47.493,
+   "lon": -122.216,
+   "waypoints": [
+    {
+     "lat": 47.493,
+     "lon": -122.216,
+     "label": "Renton, first flight Jul 1954"
+    },
+    {
+     "lat": 47.58,
+     "lon": -122.25,
+     "label": "Lake Washington, Aug 1955"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the test pilot who rolled the airliner",
+   "form": "memoir (written later) and interviews",
+   "language": "English",
+   "authenticity": "Johnston's account of the barrel roll and of his conversation with Boeing president Bill Allen comes from his memoir Tex Johnston: Jet-Age Test Pilot (1991, with Charles Barton) and later interviews. Sources differ on whether the roll was on 6 or 7 August 1955.",
+   "bio": "Johnston flew the Dash 80 on its first flight and, a year later, rolled it over a hydroplane race in front of a lakeside crowd and invited airline executives. Called in by his president the next day, he explained he had been selling airplanes. His memoir is the only inside account of a manoeuvre that became Boeing legend.",
+   "sources": [
+    {
+     "title": "HeraldNet: Tex Johnston's barrel roll",
+     "url": "https://www.heraldnet.com/?p=44494"
+    },
+    {
+     "title": "Smithsonian NASM: Boeing 367-80 Jet Transport",
+     "url": "https://www.si.edu/object/nasm_A19730272000"
+    }
+   ]
+  },
+  {
+   "id": "trippe",
+   "short": "Trippe",
+   "name": "Juan Terry Trippe and Pan American World Airways",
+   "life": "1899–1981",
+   "role": "Founder and president of Pan American World Airways, aged 56–59; placed the first big US jet order",
+   "side": "Pan American World Airways, United States",
+   "where": "New York (Chrysler Building offices; Idlewild Airport)",
+   "lat": 40.64,
+   "lon": -73.78,
+   "waypoints": [
+    {
+     "lat": 40.64,
+     "lon": -73.78,
+     "label": "Idlewild, 26 Oct 1958"
+    },
+    {
+     "lat": 48.94,
+     "lon": -54.57,
+     "label": "Gander fuel stop"
+    },
+    {
+     "lat": 48.969,
+     "lon": 2.441,
+     "label": "Paris Le Bourget"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the airline chief who bought the jet age",
+   "form": "company records and announcements",
+   "language": "English",
+   "authenticity": "Trippe kept no diary. Pan Am's records are at the University of Miami Special Collections; the Pan Am Historical Foundation publishes summaries. Passenger accounts of the first 707 service are later recollections gathered by Air & Space/Smithsonian (2018).",
+   "bio": "Trippe had built Pan Am on flying boats and long ocean routes, and he bet the airline on jets when most of the industry was wary. His October 1955 order for Boeing 707s and Douglas DC-8s forced competitors to follow, and his Clipper America opened American jet service across the Atlantic in October 1958.",
+   "sources": [
+    {
+     "title": "Pan Am Historical Foundation: Opening the jet age under the American flag",
+     "url": "https://www.panam.org/juan-trippe/jtt-the-jet-age-b-707s"
+    },
+    {
+     "title": "Air & Space/Smithsonian: The flight that changed everything",
+     "url": "https://www.smithsonianmag.com/air-space-magazine/707-flight-changed-everything-180971219/"
+    }
+   ]
+  },
+  {
+   "id": "tupolev",
+   "short": "Tupolev",
+   "name": "Andrei Nikolayevich Tupolev and the Tupolev design bureau",
+   "life": "1888–1972",
+   "role": "Soviet chief aircraft designer, aged 67–80 in this chapter; his bureau built the Tu-104 jet airliner from the Tu-16 bomber, and the Tu-144 supersonic transport",
+   "side": "Soviet Union",
+   "where": "Moscow; Zhukovsky flight-test airfield",
+   "lat": 55.75,
+   "lon": 37.62,
+   "waypoints": [
+    {
+     "lat": 55.75,
+     "lon": 37.62,
+     "label": "Moscow"
+    },
+    {
+     "lat": 52.27,
+     "lon": 104.39,
+     "label": "Irkutsk, first Tu-104 service, Sep 1956"
+    },
+    {
+     "lat": 55.55,
+     "lon": 38.15,
+     "label": "Zhukovsky, Tu-144, Dec 1968"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the designer behind the Soviet jets",
+   "form": "design-bureau and state records (no personal diary)",
+   "language": "Russian",
+   "authenticity": "Tupolev left no published diary. The record is the bureau's flight-test history, Aeroflot and Soviet press announcements, and family memoirs: Sergei Khrushchev's account that his father asked Tupolev in early 1956 whether he could make his state visit to Britain in the untested Tu-104, and was warned off. Russian sources are digested, not quoted.",
+   "bio": "Tupolev had designed bombers since the 1920s and had been imprisoned in the purges. His Tu-104 put the Soviet Union into jet passenger service in 1956, while the Comet was grounded, and his Tu-144 flew two months before Concorde. He is seen here mostly through what his machines did and what others reported.",
+   "sources": [
+    {
+     "title": "Guinness World Records: first sustained jet airline service",
+     "url": "https://www.guinnessworldrecords.com/world-records/first-sustained-jet-airline-service/"
+    },
+    {
+     "title": "aeroTELEGRAPH: Tu-104, the shock for the West",
+     "url": "https://www.aerotelegraph.com/tu-104-schock-fuer-westen-jubilaeum"
+    }
+   ]
+  },
+  {
+   "id": "turcat",
+   "short": "Turcat",
+   "name": "André Turcat",
+   "life": "1921–2016",
+   "role": "Chief test pilot of Sud Aviation (later Aérospatiale), aged 47; commanded Concorde 001",
+   "side": "France; Anglo-French Concorde programme",
+   "where": "Toulouse-Blagnac airport",
+   "lat": 43.635,
+   "lon": 1.368,
+   "vantage": 0,
+   "vantage_label": "the pilot of the first Concorde",
+   "form": "flight-test records and memoir (written later)",
+   "language": "French",
+   "authenticity": "Crew and flight details of Concorde 001's first flight are from Aérospatiale/Airbus heritage records. Turcat's own later account is in French (Concorde: essais et batailles, 1977); his famous post-flight remark is French and is not quoted here in translation.",
+   "bio": "Turcat had flown the Griffon ramjet research aircraft past Mach 2 in the 1950s. On 2 March 1969, before a crowd and the world's cameras, he flew Concorde 001 for 27 minutes with the nose drooped and the wheels down, and took it supersonic later that year.",
+   "sources": [
+    {
+     "title": "This Day in Aviation: 2 March 1969",
+     "url": "https://thisdayinaviation.com/?p=406"
+    }
+   ]
+  },
+  {
+   "id": "trubshaw",
+   "short": "Trubshaw",
+   "name": "Ernest Brian Trubshaw",
+   "life": "1924–2001",
+   "role": "BAC chief test pilot, aged 45; commanded Concorde 002, the first British-built Concorde",
+   "side": "Britain; British Aircraft Corporation",
+   "where": "Filton, Bristol, to RAF Fairford, Gloucestershire",
+   "lat": 51.52,
+   "lon": -2.59,
+   "waypoints": [
+    {
+     "lat": 51.52,
+     "lon": -2.59,
+     "label": "Filton, 9 Apr 1969"
+    },
+    {
+     "lat": 51.68,
+     "lon": -1.79,
+     "label": "RAF Fairford"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the pilot of the British Concorde",
+   "form": "flight-test records, press remarks and memoir (written later)",
+   "language": "English",
+   "authenticity": "His post-flight remark was widely reported in April 1969. His fuller account is in Concorde: The Inside Story (2000), a later memoir.",
+   "bio": "A wartime bomber pilot who had flown with the King's Flight, Trubshaw led BAC's test flying of Concorde. His first flight of 002 was short and had two instrument failures, and he summed it up for the press in a phrase that became part of Concorde lore.",
+   "sources": [
+    {
+     "title": "UK National Archives blog: Concorde's first British test flight, 50 years on",
+     "url": "https://history.blog.gov.uk/2019/04/09/concordes-first-british-test-flight-50-years-on/"
+    }
+   ]
+  },
+  {
+   "id": "benn",
+   "short": "Tony Benn",
+   "name": "Anthony Wedgwood Benn",
+   "life": "1925–2014",
+   "role": "Labour Minister of Technology, aged 43–44; MP for Bristol South East, the constituency next to Filton; the minister responsible for Concorde",
+   "side": "Britain: Labour government",
+   "where": "London (Ministry of Technology) and Bristol",
+   "lat": 51.4995,
+   "lon": -0.1248,
+   "waypoints": [
+    {
+     "lat": 43.635,
+     "lon": 1.368,
+     "label": "Toulouse, Dec 1967"
+    },
+    {
+     "lat": 51.4995,
+     "lon": -0.1248,
+     "label": "Cabinet, Mar 1969"
+    },
+    {
+     "lat": 51.52,
+     "lon": -2.59,
+     "label": "Filton, 9 Apr 1969"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "the minister and diarist",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Benn kept a diary for most of his life, dictated nightly onto tape in later years; the 1968–72 volume was published as Office Without Power (1988) and selections in The Benn Diaries. Modern copyright publication, digested only. Cabinet papers of March 1969 survive at the National Archives (CAB 129/141).",
+   "bio": "Benn was both Concorde's minister and a Bristol MP whose voters built it, and his diary records the doubt inside the enthusiasm: the cost, the cabinet arguments about withdrawal, and an odd feeling at Filton that Britain's high technology was being run like a village fete. His is the only true diary in this chapter.",
+   "sources": [
+    {
+     "title": "UK National Archives blog: Concorde's first British test flight (with Benn diary references)",
+     "url": "https://history.blog.gov.uk/2019/04/09/concordes-first-british-test-flight-50-years-on/"
+    },
+    {
+     "title": "Office Without Power: Diaries 1968–72 (1988)",
+     "url": ""
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1946-09-27",
+   "date_display": "Friday 27 September 1946",
+   "precision": "day",
+   "eye": "cunningham",
+   "place": "Thames estuary, Kent",
+   "headline": "The chief test pilot dies; Cunningham takes his place",
+   "digest": "Geoffrey de Havilland Jr., the firm's chief test pilot and the founder's son, was killed when the tailless DH 108 broke up at high speed over the Thames estuary during practice for a speed attempt near the sound barrier. John Cunningham succeeded him as chief test pilot, inheriting the jet airliner then being designed at Hatfield.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "History Today, 'The maiden flight of the Comet'; the exact date is from standard histories of the DH 108, not from a fetched source."
+  },
+  {
+   "date_iso": "1947-10-10",
+   "date_display": "about 10 October 1947",
+   "precision": "range",
+   "eye": "yeager",
+   "place": "Muroc, California",
+   "headline": "Buffeting, and an elevator that stops working",
+   "digest": "On one of the last flights before the record, near Mach 0.94 on the cockpit meter, the X-1 shook and the elevator lost almost all effect: the pilot could pull and nothing happened. On the ground, Yeager and the Air Force flight engineer Jack Ridley worked out that the adjustable horizontal stabilizer, moved in small steps, could still pitch the aircraft. That fix was ready for the next flight.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "NACA conference papers (Drake) on loss of elevator control near Mach 1.0; Smithsonian NASM, 'Breaking the sound barrier'. The precise date and Mach reading come from Yeager's later accounts."
+  },
+  {
+   "date_iso": "1947-10-12",
+   "date_display": "Sunday 12 October 1947",
+   "precision": "day",
+   "eye": "yeager",
+   "place": "Pancho Barnes's ranch, near Muroc",
+   "headline": "Two cracked ribs, kept from the flight surgeon",
+   "digest": "After dinner at Pancho Barnes's place, Yeager and his wife raced horses back to the corral in the dark; his horse swerved at a closed gate and threw him over the fence. He cracked a couple of ribs, saw a local vet rather than the base doctor, and told almost no one, because the flight surgeon would have grounded him two days before the planned flight.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Yeager's own account, Chuck Yeager foundation page (chuckyeager.com), 'Broken ribs before breaking the sound barrier'; a later recollection."
+  },
+  {
+   "date_iso": "1947-10-13",
+   "date_display": "Monday 13 October 1947",
+   "precision": "day",
+   "eye": "yeager",
+   "place": "X-1 hangar, Muroc",
+   "headline": "Ridley saws off a broom handle",
+   "digest": "Yeager told Jack Ridley he could not lift his right arm to lock the X-1's door once inside. Ridley found a broom in the hangar, sawed off a length of handle, and Yeager practised levering the hatch shut with his left hand. It worked on the ground, and they kept the problem to themselves.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Yeager's later account, chuckyeager.com; repeated in Yeager: An Autobiography (1985)."
+  },
+  {
+   "date_iso": "1947-10-14",
+   "date_display": "Tuesday 14 October 1947",
+   "precision": "day",
+   "eye": "yeager",
+   "place": "Over Muroc Dry Lake, about 42,000–45,000 ft",
+   "headline": "Pilot's notes, ninth powered flight: the meter goes off scale",
+   "digest": "Yeager's typed report is all procedure. Dropped from the B-29 at 20,000 ft and 250 mph, slower than he wanted; he fired the rocket cylinders, climbed, and at about 42,000 ft in near-level flight turned on a third cylinder. The Mach meter climbed to about 0.98 and then ran off its scale; assuming it stayed linear, he estimated Mach 1.05. He jettisoned fuel and liquid oxygen, did a 1 g stall at 45,000 ft and glided down after a flight of about 14 minutes.",
+   "quote": "it is estimated that 1.05 Mach was attained at this time",
+   "confidence": "verified",
+   "source_note": "National Archives Identifier 295644, 'Pilot's Notes from the Ninth Powered Flight of the XS-1, October 14, 1947'; report text as reproduced by This Day in Aviation."
+  },
+  {
+   "date_iso": "1947-10-14",
+   "date_display": "Tuesday 14 October 1947",
+   "precision": "day",
+   "eye": "williams",
+   "place": "NACA tracking station, Muroc",
+   "headline": "The ground data say Mach 1.06",
+   "digest": "While the pilot's meter ran off scale, the NACA team's radar tracking and the aircraft's own recording instruments measured the flight. Reduced afterwards, the data gave a top speed of Mach 1.06, about 700 mph at about 43,000 ft.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Smithsonian NASM, Bell X-1 object page (Mach 1.06 at about 43,000 ft); attribution of the data reduction to the NACA team from NASA history accounts. "
+  },
+  {
+   "date_iso": "1947-12-22",
+   "date_display": "Monday 22 December 1947",
+   "precision": "day",
+   "eye": "press",
+   "place": "New York (Aviation Week offices)",
+   "headline": "Aviation Week breaks the secret",
+   "digest": "Aviation Week, through its engineering editor Robert McLarren, reported that the XS-1 had flown faster than sound at Muroc. The flights were classified, and the Air Force, caught by surprise, was furious; there were weeks of talk of legal action against the magazine, but nothing came of it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Aviation Week, 'XS-1 supersonic scoop (1947)', citing Jay Miller, X-Planes."
+  },
+  {
+   "date_iso": "1948-01-09",
+   "date_display": "Friday 9 January 1948",
+   "precision": "day",
+   "eye": "williams",
+   "place": "Wright Field, Dayton, Ohio",
+   "headline": "The first XS-1 conference",
+   "digest": "Air Force and NACA engineers met at Wright Field to compare what the two XS-1 aircraft had shown about flight near and beyond Mach 1. The NACA papers measured the loss of elevator effect around Mach 1.0 and the value of the movable stabilizer, the problem that had nearly stopped Yeager.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NASA History, X-1 conference papers: Wright Field conference of 9 January 1948; Drake's paper on elevator and stabilizer effectiveness."
+  },
+  {
+   "date_iso": "1948-03-26",
+   "date_display": "Friday 26 March 1948",
+   "precision": "day",
+   "eye": "yeager",
+   "place": "Over Muroc, about 71,900 ft",
+   "headline": "Mach 1.45",
+   "digest": "Five months after the first supersonic flight, the same X-1 reached its highest speed, Mach 1.45, at about 71,900 ft. The aircraft that had made one uncertain run past Mach 1 was now a routine supersonic research tool.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Smithsonian NASM, Bell X-1 object page gives the date and figures; NASM does not name the pilot on that page, and Yeager is the pilot in standard histories."
+  },
+  {
+   "date_iso": "1948-05-19",
+   "date_display": "Wednesday 19 May 1948",
+   "precision": "day",
+   "eye": "williams",
+   "place": "Muroc Air Force Base, California",
+   "headline": "Sixteen minutes beyond the speed of sound",
+   "digest": "At a joint Air Force–NACA conference at Muroc, Williams summarised the programme: since the January conference each XS-1 had flown about fifteen flights, five pilots had now flown beyond Mach 1.0, and total supersonic flight time came to about sixteen minutes. Captain J. L. Ridley of the Flight Test Division was among the registered conferees.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NASA History, X-1 conference papers: Williams's summary for the 19 May 1948 Muroc conference and list of conferees."
+  },
+  {
+   "date_iso": "1948-06",
+   "date_display": "June 1948",
+   "precision": "month",
+   "eye": "press",
+   "place": "Washington and New York",
+   "headline": "The Air Force confirms what everyone has read",
+   "digest": "Months after the leak, the Air Force officially acknowledged that the XS-1 had flown faster than sound, and Yeager's name became public. The press, which had printed the story in December, now had pictures and a hero.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Standard histories of the X-1; official confirmation date not verified from a fetched source."
+  },
+  {
+   "date_iso": "1949-07-27",
+   "date_display": "Wednesday 27 July 1949",
+   "precision": "day",
+   "eye": "cunningham",
+   "place": "Hatfield aerodrome, Hertfordshire",
+   "headline": "The first jet airliner leaves the ground",
+   "digest": "After a day of taxi runs and short hops, the reporters went home; that evening Cunningham took the prototype Comet G-ALVG up for 31 minutes. He climbed to 10,000 ft, then came down to about 100 ft over the runway to salute the workers before landing. It was his birthday. His verdict afterwards, as reported, was that the aircraft was promising and quick.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "History Today, 'The maiden flight of the Comet' (31 minutes, 10,000 ft, press absent); BAE Systems Heritage (date, pilot); Smithsonian, 'The Comet's tale' (remark)."
+  },
+  {
+   "date_iso": "1952-05-02",
+   "date_display": "Friday 2 May 1952",
+   "precision": "day",
+   "eye": "boac",
+   "place": "London Airport",
+   "headline": "The first jet passenger service departs",
+   "digest": "BOAC's Comet 1 G-ALYP left London Airport for Johannesburg under Captain Majendie with 36 passengers, six crew and 30 bags of mail, stopping along the way at African and Mediterranean fields to refuel. It reached Johannesburg the next day, less than 24 hours after leaving London, roughly half the time of the piston airliners.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Smithsonian, 'The Comet's tale' (passengers, crew, mail, under 24 hours); BAE Systems Heritage."
+  },
+  {
+   "date_iso": "1952-10-26",
+   "date_display": "Sunday 26 October 1952",
+   "precision": "day",
+   "eye": "boac",
+   "place": "Rome Ciampino airport",
+   "headline": "A take-off that does not lift",
+   "digest": "A BOAC Comet failed to get airborne at Rome at night, ran off the end of the runway and broke its landing gear. All 43 aboard survived.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Smithsonian, 'The Comet's tale'."
+  },
+  {
+   "date_iso": "1953",
+   "date_display": "1953 (report of the Indian inquiry)",
+   "precision": "year",
+   "eye": "inquiry",
+   "place": "India",
+   "headline": "India's verdict: structural failure in a storm",
+   "digest": "The inquiry directed by the Government of India found that the airframe had failed in flight through a thunder squall, overstressed either by severe gusts or by the pilot over-controlling or losing control. It recommended a fuller study of the wreckage to find where the failure began, and changes to give pilots more control 'feel'.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "FAA Lessons Learned, Comet 1 G-ALYV; date of the report not verified."
+  },
+  {
+   "date_iso": "1953-05-02",
+   "date_display": "Saturday 2 May 1953",
+   "precision": "day",
+   "eye": "boac",
+   "place": "Near Calcutta (Dum Dum), India",
+   "headline": "Lost in a thunderstorm after Calcutta",
+   "digest": "One year to the day after the first service, BOAC Flight 783, Comet G-ALYV, took off from Calcutta for Delhi and about six minutes later, climbing towards 7,500 ft, flew into a severe thunderstorm. All 43 aboard, 37 passengers and six crew, were killed. Witnesses on the ground saw the aircraft come down in flames through the storm.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FAA Lessons Learned, Comet 1 G-ALYV."
+  },
+  {
+   "date_iso": "1954-01-10",
+   "date_display": "Sunday 10 January 1954",
+   "precision": "day",
+   "eye": "boac",
+   "place": "Sea south of Elba, Italy",
+   "headline": "G-ALYP, the first jet service aircraft, is lost",
+   "digest": "BOAC Flight 781 from Singapore, on its last leg from Rome to London, broke up at about 26,000 ft and fell into the sea south of Elba. All 35 aboard, 29 passengers and six crew, were killed. The aircraft was G-ALYP, the Comet that had opened jet service in May 1952.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "RAF Museum 1954 timeline; HC Deb 20 January 1954; Smithsonian, 'The Comet's tale'."
+  },
+  {
+   "date_iso": "1954-01-11",
+   "date_display": "Monday 11 January 1954",
+   "precision": "day",
+   "eye": "boac",
+   "place": "London",
+   "headline": "BOAC suspends its Comet services",
+   "digest": "The day after Elba, BOAC announced a 'temporary suspension' of Comet passenger services so that the fleet could be examined with the Air Registration Board, de Havilland and experts from Farnborough. Air France and UAT also stopped flying their Comets.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "RAF Museum 1954 timeline; HC Deb 20 January 1954."
+  },
+  {
+   "date_iso": "1954-01-20",
+   "date_display": "Wednesday 20 January 1954",
+   "precision": "day",
+   "eye": "hansard",
+   "place": "House of Commons, Westminster",
+   "headline": "The Commons hears about Elba",
+   "digest": "Alan Lennox-Boyd told the House that 15 bodies and small pieces of wreckage had been recovered and that Royal Navy ships of the Mediterranean Fleet were searching for more. Members asked him to quash talk of corroded metal and metal fatigue, to have the BBC hold back early accident reports (he refused), and whether sabotage was suspected; he said no cause should be ruled out, and stressed that BOAC, not he, had grounded the aircraft.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "HC Deb 20 January 1954, 'Comet airliner accident south of Elba'."
+  },
+  {
+   "date_iso": "1954-03-23",
+   "date_display": "Tuesday 23 March 1954",
+   "precision": "day",
+   "eye": "boac",
+   "place": "London Airport",
+   "headline": "Back in service after modifications",
+   "digest": "After ten weeks of inspection and a series of modifications aimed at possible causes such as engine fire, BOAC returned the Comet to passenger service, with the minister's agreement that there was no justification for special restrictions.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "RAF Museum 1954 timeline (resumption date); Smithsonian, 'The Comet's tale' ('no justification'); the count of modifications is from standard histories."
+  },
+  {
+   "date_iso": "1954-04-08",
+   "date_display": "Thursday 8 April 1954",
+   "precision": "day",
+   "eye": "boac",
+   "place": "Tyrrhenian Sea, about 70 miles south of Naples",
+   "headline": "A second Comet falls into the Mediterranean",
+   "digest": "Comet G-ALYY, a BOAC aircraft chartered to South African Airways and flown by a South African crew on the London–Johannesburg route, lost radio contact after leaving Rome and fell into the sea south of Naples. All 21 aboard, 14 passengers and seven crew, were killed. The water there was over 3,000 ft deep, too deep for salvage.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "RAF Museum 1954 timeline; Smithsonian, 'The Comet's tale'; HC Deb 12 April 1954 (depth, location)."
+  },
+  {
+   "date_iso": "1954-04-12",
+   "date_display": "Monday 12 April 1954",
+   "precision": "day",
+   "eye": "hansard",
+   "place": "House of Commons, Westminster",
+   "headline": "Certificates withdrawn: the Comet is grounded",
+   "digest": "John Profumo told the House that the minister, after consulting the Air Registration Board, the Air Safety Board and BOAC's chairman, had withdrawn the Comet's certificates of airworthiness pending investigation. Five bodies, some wreckage, mail and personal effects had been recovered from water 520 fathoms deep. The Ministry of Supply would run the investigation as a national research project, with a public inquiry into both Mediterranean losses.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "HC Deb 12 April 1954, 'Comet aircraft (loss)'; the RAF Museum timeline dates the withdrawal itself to 9 April."
+  },
+  {
+   "date_iso": "1954-05-12",
+   "date_display": "Wednesday 12 May 1954",
+   "precision": "day",
+   "eye": "hansard",
+   "place": "House of Commons, Westminster",
+   "headline": "Lord Cohen will preside",
+   "digest": "The Attorney-General, Sir Lionel Heald, announced a single court of inquiry into both accidents, with Lord Cohen, a Lord of Appeal, presiding. Italy and South Africa named representatives. No start date could yet be set, because salvage and testing would take time; he promised that every possible cause, sabotage included, would be examined.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "HC Deb 12 May 1954, 'Comet aircraft accidents (inquiries)'."
+  },
+  {
+   "date_iso": "1954-06-24",
+   "date_display": "Thursday 24 June 1954",
+   "precision": "day",
+   "eye": "hall",
+   "place": "Water tank, RAE Farnborough",
+   "headline": "The fuselage in the tank splits open",
+   "digest": "In a 200,000-gallon water tank, Hall's team had been pressurising and depressurising the whole fuselage of Comet G-ALYU every few minutes, with wing loads applied, to imitate flight after flight. After about 1,830 tank cycles on top of some 1,230 pressurised flights in service, roughly 3,060 in all, the cabin pressure suddenly dropped: the skin had cracked from the corner of a squarish forward escape-hatch window. Water rather than air was used so the failure would not explode and the fuselage could be examined.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Aerossurance, 'Common Comet misconceptions' (tank size, cycle counts, failure location); Smithsonian, 'The Comet's tale' (date)."
+  },
+  {
+   "date_iso": "1954-07-15",
+   "date_display": "Thursday 15 July 1954",
+   "precision": "day",
+   "eye": "johnston",
+   "place": "Renton Field, Washington",
+   "headline": "The Dash 80 flies",
+   "digest": "Boeing's privately funded 367-80, the prototype for both the KC-135 tanker and the 707 airliner, made its first flight with Johnston at the controls, while the Comets were grounded in Britain and the cause of their losses was still under investigation.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Smithsonian NASM, Boeing 367-80 object page (first flight 15 July 1954); pilot and cost from standard histories and Johnston's memoir."
+  },
+  {
+   "date_iso": "1954-07-16",
+   "date_display": "Friday 16 July 1954",
+   "precision": "day",
+   "eye": "press",
+   "place": "London (The Spectator)",
+   "headline": "'Curing the Comet': Farnborough as the aircraft doctor",
+   "digest": "The Spectator described the Royal Aircraft Establishment as the doctor of sick aircraft, a role it held almost by historical accident. Experts' likeliest explanation was that the cabin had failed through fatigue from repeated pressurisation, and a destruction test had given significant results, but the writer warned it was premature to say the Comet was cured until the test matched the wreckage.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "The Spectator, 16 July 1954, p. 4, 'Curing the Comet'."
+  },
+  {
+   "date_iso": "1954-08",
+   "date_display": "by the end of August 1954",
+   "precision": "month",
+   "eye": "hall",
+   "place": "RAE Farnborough",
+   "headline": "Rebuilding G-ALYP from the seabed",
+   "digest": "Navy salvage off Elba, using new tools including an underwater television camera, had by late summer recovered about 70 per cent of G-ALYP. At Farnborough the pieces were laid out on a full-size frame. After the tank result, a further search off Elba brought up a piece of the cabin roof whose fracture faces showed fatigue marks.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Aerossurance, 'Common Comet misconceptions'; the date the roof section was found is not given there."
+  },
+  {
+   "date_iso": "1954-10-19",
+   "date_display": "Tuesday 19 October 1954",
+   "precision": "day",
+   "eye": "inquiry",
+   "place": "Church House, Westminster",
+   "headline": "The inquiry opens: fatigue, not sabotage",
+   "digest": "Opening the public inquiry before Lord Cohen, Sir Lionel Heald said the early suspicions of sabotage were unfounded and that metal fatigue was the most likely cause. A fragment from the Elba wreckage showed a fatigue crack near the window for the radio direction-finding aerial in the cabin roof. Tests had shown stress at window corners reaching up to about 70 per cent of the cabin's ultimate design stress. He called Hall's team's work a remarkable piece of scientific detective work.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "BBC On This Day, 19 October 1954 (mirrored)."
+  },
+  {
+   "date_iso": "1955-02-01",
+   "date_display": "Tuesday 1 February 1955",
+   "precision": "day",
+   "eye": "inquiry",
+   "place": "London",
+   "headline": "The Cohen report: fatigue at the aerial window",
+   "digest": "The court's report (CAP 127) found that the Elba accident was caused by structural failure of the pressure cabin through metal fatigue, starting at the cut-out for the glass-fibre ADF aerial window in the cabin roof. Little of the Naples aircraft was recovered; what was found was consistent with the same cause, but its origin could not be traced. The finding was a cause, not a verdict on people, and the lessons on stress concentrations and full-scale fatigue testing reshaped airliner design.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Aerossurance, 'Common Comet misconceptions' (report date, CAP 127, origin at ADF aperture, Naples)."
+  },
+  {
+   "date_iso": "1955-06-17",
+   "date_display": "June 1955",
+   "precision": "month",
+   "eye": "tupolev",
+   "place": "Moscow region",
+   "headline": "The Tu-104 flies",
+   "digest": "Tupolev's bureau flew the prototype Tu-104, a jet airliner built quickly from the wings, engines and tail of the Tu-16 bomber. Khrushchev saw its propaganda value at once.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "aeroTELEGRAPH (June 1955); the exact day, 17 June, is from standard histories."
+  },
+  {
+   "date_iso": "1955-08-07",
+   "date_display": "Sunday 7 August 1955",
+   "precision": "day",
+   "eye": "johnston",
+   "place": "Over Lake Washington, Seattle",
+   "headline": "A barrel roll over the Gold Cup races",
+   "digest": "During the Gold Cup hydroplane races at Seafair, with a lakeside crowd and executives of the International Air Transport Association and the Aircraft Industries Association watching, Johnston rolled the Dash 80 through a full barrel roll at low altitude over the course. He reckoned a properly flown roll put almost no strain on the airframe and wanted to show the aircraft's strength to sceptical airline men.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "HeraldNet; Smithsonian NASM object page (August 1955, Gold Cup). Sources differ between 6 and 7 August."
+  },
+  {
+   "date_iso": "1955-08-08",
+   "date_display": "the next day, August 1955",
+   "precision": "day",
+   "eye": "johnston",
+   "place": "Boeing offices, Seattle",
+   "headline": "Called in by the president",
+   "digest": "Boeing's president Bill Allen asked Johnston what he thought he had been doing. Johnston answered that he was selling airplanes and that the manoeuvre was perfectly safe. Allen told him not to do it again.",
+   "quote": "selling airplanes",
+   "confidence": "approx",
+   "source_note": "Johnston's later account (memoir and interviews), as reported by HeraldNet."
+  },
+  {
+   "date_iso": "1955-10-13",
+   "date_display": "October 1955",
+   "precision": "month",
+   "eye": "trippe",
+   "place": "New York",
+   "headline": "Pan Am orders 45 jets",
+   "digest": "Trippe announced to the world's airline leaders that Pan Am had ordered 45 jet airliners for about $269 million: 20 Boeing 707s and 25 Douglas DC-8s. It was the order that committed American airlines to jets; rival carriers hurried to follow.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Pan Am Historical Foundation, 'Opening the jet age under the American flag' (numbers and value; no exact day given)."
+  },
+  {
+   "date_iso": "1956-03-22",
+   "date_display": "Thursday 22 March 1956",
+   "precision": "day",
+   "eye": "press",
+   "place": "London Airport (Heathrow)",
+   "headline": "A Soviet jet airliner lands in the rain",
+   "digest": "Flight's correspondent watched a Russian jet airliner, the Tu-104 CCCP-L5400, arrive just after noon carrying General Ivan Serov, head of the Soviet security service, ahead of Khrushchev's visit. Spirits rose when it appeared through cold, blustery weather; Flight called it graceful, noted the slow crosswind approach and the black smoke from its engines, and the remarkable acceleration as it passed the Bath Road. With the Comet grounded, the Soviet Union had the only jet airliner flying.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Flight, 30 March 1956, as recalled in FlightGlobal's '50 years ago'; RAF Museum photograph PC98/173/6647/1 (aircraft and date)."
+  },
+  {
+   "date_iso": "1956-09-15",
+   "date_display": "Saturday 15 September 1956",
+   "precision": "day",
+   "eye": "tupolev",
+   "place": "Moscow – Omsk – Irkutsk",
+   "headline": "Aeroflot's jet service begins",
+   "digest": "Aeroflot began regular Tu-104 passenger service from Moscow to Irkutsk via Omsk, cutting the journey across Siberia from about 18 hours to about 7. With the Comet still out of service, it was the first jet airline service that would run without interruption.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Guinness World Records, 'First sustained jet airline service'."
+  },
+  {
+   "date_iso": "1958-10-04",
+   "date_display": "Saturday 4 October 1958",
+   "precision": "day",
+   "eye": "boac",
+   "place": "London – New York",
+   "headline": "The Comet 4 crosses the Atlantic first",
+   "digest": "Rebuilt with thicker skin and rounded windows, the Comet returned as the Comet 4. BOAC put two of them on the London–New York route on the same day, opening transatlantic jet passenger service three weeks before Pan Am's 707. The smaller Comet 4 was already outmatched in size and range by the American jets.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Standard histories; Air & Space/Smithsonian, 'The flight that changed everything', for the Comet 4's smaller capacity. Date not verified from a fetched source."
+  },
+  {
+   "date_iso": "1958-10-26",
+   "date_display": "Sunday 26 October 1958",
+   "precision": "day",
+   "eye": "trippe",
+   "place": "Idlewild Airport, New York",
+   "headline": "Clipper America to Paris",
+   "digest": "Pan Am's first Boeing 707 service left Idlewild for Paris with 111 passengers and 11 crew, delivered only ten days earlier. An Army band played at boarding; the actress Greer Garson was among the passengers, and so was a family who had won their seats in a cereal-box contest. The flight took about eight and a half hours, with a fuel stop at Gander.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pan Am Historical Foundation (111 passengers, 11 crew, Gander, 8½ hours); Air & Space/Smithsonian (band, Garson, delivery ten days earlier)."
+  },
+  {
+   "date_iso": "1967-12-11",
+   "date_display": "Monday 11 December 1967",
+   "precision": "day",
+   "eye": "benn",
+   "place": "Toulouse, at the roll-out of Concorde 001",
+   "headline": "Concorde with an 'e'",
+   "digest": "At the roll-out of the first Concorde in Toulouse, Benn announced that the British aircraft too would be spelled with an 'e', settling a long Anglo-French quarrel over the name. A Scottish correspondent later complained about the 'E', and the diary records his reply.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "UK National Archives blog, 'Concorde's first British test flight, 50 years on' (speech date; Benn Diaries p. 175)."
+  },
+  {
+   "date_iso": "1968-12-31",
+   "date_display": "Tuesday 31 December 1968",
+   "precision": "day",
+   "eye": "tupolev",
+   "place": "Zhukovsky flight-test airfield, near Moscow",
+   "headline": "The Tu-144 flies first",
+   "digest": "Tupolev's supersonic transport, the Tu-144, made its first flight with the bureau's chief test pilot Eduard Elyan in command, on the last day of the year and more than two months ahead of Concorde.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Vintage Aviation News, 'First flight of the Tupolev Tu-144'; airfield from standard histories; Soviet sources give the first supersonic flight of the Tu-144 as June 1969, not verified here."
+  },
+  {
+   "date_iso": "1969-03-02",
+   "date_display": "Sunday 2 March 1969",
+   "precision": "day",
+   "eye": "turcat",
+   "place": "Toulouse-Blagnac, runway 33",
+   "headline": "Concorde 001 flies for 27 minutes",
+   "digest": "Turcat, with Jacques Guignard, Michel Retif and Henri Perrier, lifted Concorde 001 F-WTSS off runway 33 at Toulouse three weeks after the Boeing 747 had first flown. He kept the droop nose and the landing gear down throughout and landed after 27 minutes. His brief remark to the waiting crowd and cameras, in French, became one of the best-known lines of the programme.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "This Day in Aviation, 2 March 1969."
+  },
+  {
+   "date_iso": "1969-03-17",
+   "date_display": "Monday 17 March 1969",
+   "precision": "day",
+   "eye": "benn",
+   "place": "Cabinet, London",
+   "headline": "Concorde before the Cabinet",
+   "digest": "Benn's memorandum on Concorde went to Cabinet alongside the Attorney-General's advice on the legal position if Britain withdrew from the treaty with France on its own. The costs were rising and the Cabinet, which discussed it on 25 March, was divided; his diary for these weeks follows the argument.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "National Archives CAB 129/141/2 and CAB 129/141/4 (17 March 1969), CAB 128/44/14 (25 March 1969), as listed in the National Archives blog."
+  },
+  {
+   "date_iso": "1969-04-09",
+   "date_display": "Wednesday 9 April 1969",
+   "precision": "day",
+   "eye": "trubshaw",
+   "place": "Filton to RAF Fairford",
+   "headline": "Concorde 002: 'wizard'",
+   "digest": "Trubshaw flew the first British-built Concorde from Filton to Fairford, where flight testing would be based, in 22 minutes. Both radio altimeters failed in flight and he made a slight bounce on landing. He told the press it had been a wizard flight, cool, calm and collected.",
+   "quote": "wizard – a cool, calm and collected operation",
+   "confidence": "verified",
+   "source_note": "UK National Archives blog, 'Concorde's first British test flight, 50 years on'."
+  },
+  {
+   "date_iso": "1969-04-09",
+   "date_display": "Wednesday 9 April 1969",
+   "precision": "day",
+   "eye": "benn",
+   "place": "Filton, Bristol",
+   "headline": "Watching from the airfield: 'a local cricket match'",
+   "digest": "Benn watched 002 leave Filton for Fairford. In his diary he compared the occasion to a local cricket match and wondered whether the homeliness of it said something about the amateurism of British high technology, the same industry he was charged with modernising.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "The Benn Diaries, p. 203, as cited by the UK National Archives blog; the entry date is inferred from the event."
+  },
+  {
+   "date_iso": "1969-10-01",
+   "date_display": "Wednesday 1 October 1969",
+   "precision": "day",
+   "eye": "turcat",
+   "place": "Over south-west France",
+   "headline": "Concorde goes supersonic",
+   "digest": "Concorde 001, with Turcat in command, passed Mach 1 for the first time, almost twenty-two years after Yeager's flight. The Tu-144 had already gone supersonic earlier that year.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Standard histories; date not verified from a fetched source in this chapter."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1947-10-14",
+   "date_display": "14 October 1947",
+   "eye": "yeager",
+   "claim": "First flight faster than sound in level flight: XS-1 reaches Mach 1.06 (about 700 mph) at about 43,000 ft by tracking data; pilot's estimate Mach 1.05 from an off-scale meter",
+   "form": "first",
+   "evidence": "NARA ID 295644 pilot's notes; Smithsonian NASM X-1 page",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1947-12-22",
+   "date_display": "22 December 1947",
+   "eye": "press",
+   "claim": "Aviation Week reveals the classified supersonic flights; official confirmation follows in 1948",
+   "form": "other",
+   "evidence": "Aviation Week, 'XS-1 supersonic scoop'",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1949-07-27",
+   "date_display": "27 July 1949",
+   "eye": "cunningham",
+   "claim": "First flight of a jet airliner: Comet prototype G-ALVG, 31 minutes, to 10,000 ft",
+   "form": "first",
+   "evidence": "History Today; BAE Systems Heritage",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1952-05-02",
+   "date_display": "2 May 1952",
+   "eye": "boac",
+   "claim": "First jet airliner passenger service: Comet G-ALYP, London–Johannesburg, 36 passengers, under 24 hours",
+   "form": "first",
+   "evidence": "Smithsonian, 'The Comet's tale'",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1953-05-02",
+   "date_display": "2 May 1953",
+   "eye": "boac",
+   "claim": "Comet G-ALYV lost after take-off from Calcutta in a thunderstorm; 43 killed; Indian inquiry finds structural failure under storm loads",
+   "form": "failed",
+   "evidence": "FAA Lessons Learned, G-ALYV",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1954-01-10",
+   "date_display": "10 January 1954",
+   "eye": "boac",
+   "claim": "Comet G-ALYP breaks up at about 26,000 ft off Elba; 35 killed; BOAC suspends services next day",
+   "form": "failed",
+   "evidence": "RAF Museum 1954 timeline; HC Deb 20 Jan 1954",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1954-04-08",
+   "date_display": "8 April 1954",
+   "eye": "boac",
+   "claim": "Comet G-ALYY (on charter to South African Airways) lost south of Naples; 21 killed",
+   "form": "failed",
+   "evidence": "RAF Museum 1954 timeline; HC Deb 12 Apr 1954",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1954-04-12",
+   "date_display": "12 April 1954",
+   "eye": "hansard",
+   "claim": "Comet certificates of airworthiness withdrawn (announced in Commons; RAF Museum dates the withdrawal 9 April); national research investigation ordered",
+   "form": "other",
+   "evidence": "HC Deb 12 April 1954",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1954-06-24",
+   "date_display": "24 June 1954",
+   "eye": "hall",
+   "claim": "Water-tank test of G-ALYU: cabin fails from the corner of a forward escape-hatch window after about 3,060 pressure cycles (about 1,230 in service + 1,830 in the tank)",
+   "form": "tested",
+   "evidence": "Aerossurance; Smithsonian",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1955-02-01",
+   "date_display": "1 February 1955",
+   "eye": "inquiry",
+   "claim": "Cohen Court of Inquiry report (CAP 127): Elba loss caused by fatigue failure of the pressure cabin starting at the ADF aerial window cut-out in the roof; Naples consistent, origin not found",
+   "form": "inquiry",
+   "evidence": "CAP 127, as summarised by Aerossurance; BBC report of the 19 Oct 1954 opening",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1955-08-07",
+   "date_display": "7 August 1955 (some sources: 6 August)",
+   "eye": "johnston",
+   "claim": "Boeing 367-80 flown through a barrel roll over Lake Washington before airline executives",
+   "form": "tested",
+   "evidence": "Johnston's memoir; HeraldNet; Smithsonian NASM",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1956-09-15",
+   "date_display": "15 September 1956",
+   "eye": "tupolev",
+   "claim": "Aeroflot Tu-104 opens Moscow–Omsk–Irkutsk jet service, about 7 hours against 18; recognised as the first sustained jet airline service",
+   "form": "opened",
+   "evidence": "Guinness World Records",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1958-10-04",
+   "date_display": "4 October 1958",
+   "eye": "boac",
+   "claim": "BOAC Comet 4 opens transatlantic jet passenger service, London–New York",
+   "form": "first",
+   "evidence": "Standard histories",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1958-10-26",
+   "date_display": "26 October 1958",
+   "eye": "trippe",
+   "claim": "Pan Am Boeing 707 Clipper America, New York–Paris via Gander, 111 passengers, about 8½ hours: first US jet service",
+   "form": "opened",
+   "evidence": "Pan Am Historical Foundation; Air & Space/Smithsonian",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1968-12-31",
+   "date_display": "31 December 1968",
+   "eye": "tupolev",
+   "claim": "First flight of a supersonic transport: Tu-144, Eduard Elyan in command",
+   "form": "first",
+   "evidence": "Vintage Aviation News",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1969-03-02",
+   "date_display": "2 March 1969",
+   "eye": "turcat",
+   "claim": "First flight of Concorde 001 F-WTSS at Toulouse, 27 minutes, gear and nose down; 002 follows from Filton on 9 April (22 minutes, Trubshaw)",
+   "form": "first",
+   "evidence": "This Day in Aviation; UK National Archives blog",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1947-10-14",
+   "label": "Mach 1 over Muroc",
+   "eyes": [
+    "yeager",
+    "williams"
+   ],
+   "note": "Two measurements of one flight: the pilot's off-scale meter and careful 'estimated' Mach 1.05, and the NACA ground data that later gave Mach 1.06. The pilot hid his injury; the engineers saw only numbers."
+  },
+  {
+   "date": "1947-12-22",
+   "label": "The secret gets out",
+   "eyes": [
+    "press",
+    "yeager",
+    "williams"
+   ],
+   "note": "The flights were classified for months. Aviation Week's story set the press against the Air Force, while the NACA engineers went on writing their conference papers for a closed audience."
+  },
+  {
+   "date": "1954-01-10",
+   "label": "January 1954: Elba and the first grounding",
+   "eyes": [
+    "boac",
+    "hansard"
+   ],
+   "note": "BOAC grounded its own fleet the day after; ten days later the minister told the Commons it had been the airline's decision, not his, while members argued over speculation about metal fatigue and sabotage."
+  },
+  {
+   "date": "1954-04-08",
+   "label": "April 1954: Naples and the certificates withdrawn",
+   "eyes": [
+    "boac",
+    "hansard"
+   ],
+   "note": "A second loss within three months of the first, in water too deep for salvage, and within days the government ended Comet flying and turned the investigation into a national research project."
+  },
+  {
+   "date": "1954-06-24",
+   "label": "Summer 1954: the tank and the wreckage",
+   "eyes": [
+    "hall",
+    "press"
+   ],
+   "note": "Farnborough's tank produced a fatigue crack in June; in July The Spectator cautioned that a test result was not yet proof until it matched the wreckage from Elba."
+  },
+  {
+   "date": "1954-10-19",
+   "label": "The inquiry opens",
+   "eyes": [
+    "inquiry",
+    "hall",
+    "hansard"
+   ],
+   "note": "The Attorney-General who had announced the court in May now opened it, and put Hall's team's evidence at the centre: fatigue, not sabotage."
+  },
+  {
+   "date": "1955-08",
+   "label": "Selling the American jet, 1955",
+   "eyes": [
+    "johnston",
+    "trippe"
+   ],
+   "note": "Johnston rolled the Dash 80 before airline executives in August; in October Trippe announced Pan Am's order for 707s and DC-8s. One sold the aircraft from the cockpit, the other bought the jet age from the boardroom."
+  },
+  {
+   "date": "1958-10",
+   "label": "October 1958: the Atlantic race",
+   "eyes": [
+    "boac",
+    "trippe"
+   ],
+   "note": "BOAC's rebuilt Comet 4 beat Pan Am across the Atlantic by three weeks, but the 707 carried far more passengers, and the market went to the larger American jets."
+  },
+  {
+   "date": "1969-04-09",
+   "label": "Supersonic transports fly: Moscow, Toulouse, Filton",
+   "eyes": [
+    "tupolev",
+    "turcat",
+    "trubshaw",
+    "benn"
+   ],
+   "note": "Within fourteen weeks three SST prototypes flew. Trubshaw's 'wizard' and Benn's private doubts about amateurism were written on the same day at the same airfield."
+  }
+ ],
+ "ties": [
+  {
+   "a": "yeager",
+   "b": "williams",
+   "kind": "met",
+   "note": "Air Force pilot and NACA engineer worked the same aircraft at Muroc, with different aims: the Air Force wanted Mach 1 quickly, NACA wanted careful data."
+  },
+  {
+   "a": "yeager",
+   "b": "press",
+   "kind": "mentioned",
+   "note": "Aviation Week's December 1947 story revealed Yeager's flight months before the Air Force did."
+  },
+  {
+   "a": "cunningham",
+   "b": "boac",
+   "kind": "met",
+   "note": "Cunningham proved the Comet for BOAC through 1949–52 before the airline's first service."
+  },
+  {
+   "a": "boac",
+   "b": "hansard",
+   "kind": "mentioned",
+   "note": "Lennox-Boyd praised BOAC's 'promptitude and good sense' in grounding the fleet after Elba."
+  },
+  {
+   "a": "hansard",
+   "b": "inquiry",
+   "kind": "influenced",
+   "note": "Sir Lionel Heald announced the Cohen court in the Commons in May 1954 and opened it as counsel in October."
+  },
+  {
+   "a": "hall",
+   "b": "inquiry",
+   "kind": "met",
+   "note": "The Farnborough investigation provided the evidence on which the Cohen court's finding of fatigue rested."
+  },
+  {
+   "a": "press",
+   "b": "hall",
+   "kind": "mentioned",
+   "note": "The Spectator called Hall's establishment the doctor of sick aircraft while the tank work was still unconfirmed."
+  },
+  {
+   "a": "johnston",
+   "b": "trippe",
+   "kind": "influenced",
+   "note": "Airline executives watched Johnston's roll in August 1955; Pan Am's 707 order followed in October. Johnston claimed the roll helped sell the jet; the order had many other causes."
+  },
+  {
+   "a": "boac",
+   "b": "trippe",
+   "kind": "opposite sides",
+   "note": "Rival airlines in the October 1958 race to open transatlantic jet service."
+  },
+  {
+   "a": "press",
+   "b": "tupolev",
+   "kind": "mentioned",
+   "note": "Flight's reporter described the Tu-104's arrival in London in March 1956."
+  },
+  {
+   "a": "tupolev",
+   "b": "turcat",
+   "kind": "opposite sides",
+   "note": "Rival supersonic transports; the Tu-144 flew nine weeks before Concorde 001."
+  },
+  {
+   "a": "turcat",
+   "b": "trubshaw",
+   "kind": "met",
+   "note": "The French and British chief test pilots shared Concorde's flight-test programme."
+  },
+  {
+   "a": "trubshaw",
+   "b": "benn",
+   "kind": "met",
+   "note": "Benn, the responsible minister and local MP, was at Filton for 002's first flight."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "rockets",
+   "note": "The X-1's XLR11 engine came from Reaction Motors, a firm founded in 1941 by members of the American Rocket Society; rocket-powered research aircraft at Muroc led on to the X-15. Walter Williams, head of NACA's Muroc unit, later directed flight operations for Project Mercury."
+  },
+  {
+   "to": "v2:apollo-11",
+   "note": "Neil Armstrong joined NACA's High-Speed Flight Station at Edwards in 1955, the unit that grew from Walter Williams's X-1 team, and flew the X-15 there before becoming an astronaut. Concorde and the Tu-144 first flew in the same year as Apollo 11."
+  },
+  {
+   "to": "channel-atlantic",
+   "note": "Juan Trippe's Pan Am had opened scheduled transatlantic flying-boat service in 1939, with Charles Lindbergh as its technical adviser; the 707 and the Comet 4 turned the Atlantic crossing into a routine of hours in October 1958."
+  },
+  {
+   "to": "shinkansen",
+   "note": "The Tokaido Shinkansen of 1964 was shaped by engineers who had worked in wartime aircraft design and brought aeronautical work on vibration and aerodynamics to the railway, at the moment when jets were taking long-distance travellers from the trains."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.archives.gov/riverside/highlights/xs-1",
+   "title": "Pilot's notes from the ninth powered flight of the XS-1",
+   "caption": "Yeager's typed report of 14 October 1947, held at the National Archives at Riverside: a US-government record, matter-of-fact about the first flight past Mach 1.",
+   "date": "14 October 1947",
+   "credit": "Charles E. Yeager; US National Archives (NAID 295644)"
+  },
+  {
+   "url": "https://airandspace.si.edu/collection-objects/bell-x-1",
+   "title": "Bell X-1 'Glamorous Glennis'",
+   "caption": "The aircraft itself, now in the National Air and Space Museum, named after Yeager's wife.",
+   "date": "1946–1947",
+   "credit": "Smithsonian National Air and Space Museum (A19510007000)"
+  },
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/objects/co202453/section-of-upper-fuselage-of-comet-g-alyp-showing-fatigue-cracks",
+   "title": "Upper fuselage of Comet G-ALYP showing fatigue cracks",
+   "caption": "A section of the roof of G-ALYP, the aircraft that opened jet service in 1952 and was lost off Elba in 1954. The museum describes fatigue cracking around the ADF aerial hatches, the area where the Cohen inquiry found the failure began.",
+   "date": "1954",
+   "credit": "Science Museum Group (1993-2155)"
+  },
+  {
+   "url": "https://www.si.edu/object/nasm_A19730272000",
+   "title": "Boeing 367-80 jet transport (Dash 80)",
+   "caption": "The 707 prototype that Tex Johnston rolled over Lake Washington in August 1955, now in the National Air and Space Museum.",
+   "date": "1954",
+   "credit": "Smithsonian National Air and Space Museum (A19730272000)"
+  },
+  {
+   "url": "https://collections.rafmuseum.org.uk/collection/object/object-237716",
+   "title": "Tupolev Tu-104 on the ground at Heathrow, 22 March 1956",
+   "caption": "Photograph by Charles E. Brown of the Tu-104 that brought General Serov to London ahead of Khrushchev's visit. (The museum's caption describes the flight as the start of a Moscow–London service; it was a single delegation flight, and scheduled Aeroflot jet service to London came later.)",
+   "date": "22 March 1956",
+   "credit": "Charles Edward Brown; RAF Museum (PC98/173/6647/1)"
+  },
+  {
+   "url": "https://history.blog.gov.uk/2019/04/09/concordes-first-british-test-flight-50-years-on/",
+   "title": "Concorde 002 and the National Archives",
+   "caption": "The National Archives' account of 002's first flight from Filton on 9 April 1969, with Cabinet papers and Benn's diary references.",
+   "date": "1969",
+   "credit": "The National Archives (UK)"
+  }
+ ],
+ "further": [
+  {
+   "title": "NASA History: the X-1 conference papers (1948), with foreword by J. D. Hunley",
+   "url": "https://www.nasa.gov/history/x1/x.html"
+  },
+  {
+   "title": "Smithsonian NASM: Breaking the sound barrier",
+   "url": "https://www.airandspace.si.edu/stories/editorial/breaking-sound-barrier"
+  },
+  {
+   "title": "Smithsonian Magazine: The Comet's tale",
+   "url": "https://www.smithsonianmag.com/history/comets-tale-63573615/"
+  },
+  {
+   "title": "Aerossurance: Common Comet misconceptions and collaborative contribution to safety",
+   "url": "https://aerossurance.com/safety-management/comet-misconceptions/"
+  },
+  {
+   "title": "FAA Lessons Learned: Comet 1 G-ALYV",
+   "url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/G-ALYV"
+  },
+  {
+   "title": "Hansard, 12 April 1954: Comet aircraft (loss)",
+   "url": "https://api.parliament.uk/historic-hansard/commons/1954/apr/12/comet-aircraft-loss"
+  },
+  {
+   "title": "Air & Space/Smithsonian: The flight that changed everything (Pan Am 707, 1958)",
+   "url": "https://www.smithsonianmag.com/air-space-magazine/707-flight-changed-everything-180971219/"
+  },
+  {
+   "title": "UK National Archives blog: Concorde's first British test flight, 50 years on",
+   "url": "https://history.blog.gov.uk/2019/04/09/concordes-first-british-test-flight-50-years-on/"
+  }
+ ],
+ "vantage_key": "0 = the pilot or designer in the aircraft or at the drawing board; 1 = on the airfield, in the airline or at the test tank; 2 = the inquiry room or the minister's office nearby; 3 = Parliament and the press at a distance; 4 = abroad, news only."
+}

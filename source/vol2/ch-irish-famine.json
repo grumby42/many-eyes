@@ -1,0 +1,981 @@
+{
+ "id": "irish-famine",
+ "title": "The Great Hunger",
+ "short_title": "The Great Hunger",
+ "subtitle": "The Irish Famine (An Gorta Mór), Ireland and the emigrant routes, 1845–1852",
+ "span": "1845–1852",
+ "intro": [
+  "In September 1845 a mould that had crossed the Atlantic reached the potato fields around Dublin. About three million Irish people lived mainly on potatoes. Over the next seven years the crop failed again and again. Roughly a million people died of hunger and disease, and more than a million emigrated. The 1851 census counted about 1.6 million fewer people than ten years before. In Irish it is An Gorta Mór, the Great Hunger.",
+  "Most of the people who suffered left no written record. Many spoke Irish and could not write, and the Irish-language diarist Amhlaoibh Ó Súilleabháin of Callan stopped writing a decade before the blight. The written record is therefore mostly made by visitors, officials and the gentry. This chapter is honest about that. Only one eye, Elizabeth Smith, kept a private diary. The rest are dated letters, editorials, official reports, an artist's dated sketches with notes, and one later narrative (Nicholson's) built from notes and letters. Each eye's form tag says which.",
+  "The eyes are spread on purpose, from far to near. Lindley in London names the danger first. Trevelyan in the Treasury sets the rules of relief, and Father Mathew writes to him from Cork. Cummins and the artist James Mahony go into the Skibbereen district during the winter of 1846–47. Two Quakers, Bennett and Tuke, and the American Asenath Nicholson cross Erris in Mayo, one of the worst-affected districts. Captain Kennedy lists the evicted families of Kilrush. Across the Atlantic, Dr Douglas at Grosse Île receives the emigrant ships in 1847.",
+  "The clusters show how the crisis moved from place to place: the blight news of September–October 1845, the Skibbereen winter of December 1846 to February 1847, the summer of the ships in 1847, and the clearances in Clare in 1848–50. Faraway gifts appear at their dates: the Cherokee meeting of 13 March 1847 and the Choctaw meeting about ten days later. The Ottoman Sultan's documented gift of £1,000 is real; the stories of a larger offer cut to £10,000 and of secret grain ships at Drogheda are later legend.",
+  "Two warnings. 'Gerald Keegan's Famine Diary', a supposed 1847 emigrant-ship journal, is fiction: it was first published as a story in 1895 and republished as a real diary in the 1980s–90s. Like Defoe in Volume I, it is named here only so readers can recognise it. 'Robert Whyte's 1847 Famine Ship Diary' reprints an 1848 book, 'The Ocean Plague', whose author cannot be identified, so it is not used as an eye either. The chapter describes suffering soberly and spares graphic detail."
+ ],
+ "calendar_note": "All dates are Gregorian, which Britain and Ireland had used since 1752. Quaker writers such as Bennett and Tuke used numbered months ('Third-month 16th' is 16 March). Some eyes' days are publication dates (Lindley's weekly paper, Mahony's sketches in the Illustrated London News, Cummins' letter in The Times), and their visits came a few days earlier. Undated narrative passages are given as month or range with confidence 'approx'.",
+ "eyes": [
+  {
+   "id": "lindley",
+   "name": "John Lindley",
+   "short": "Lindley",
+   "life": "1799–1865",
+   "role": "Botanist and editor of the weekly Gardeners' Chronicle in London, aged 46",
+   "side": "British scientific press",
+   "where": "London, editing reports sent in from growers",
+   "lat": 51.51,
+   "lon": -0.13,
+   "vantage": 4,
+   "vantage_label": "abroad, collecting reports",
+   "form": "dated weekly editorials",
+   "language": "English",
+   "authenticity": "Printed in the Gardeners' Chronicle and Agricultural Gazette, 1845; editorials are unsigned but Lindley's authorship as editor is standard. Contemporary print, not a diary.",
+   "bio": "Lindley was one of the leading botanists in Britain. His paper became the clearing-house for news of the new potato disease as it crossed from the Continent. He raised the alarm for Ireland early, but he also misread the cause, blaming wet weather rather than the mould that Berkeley suspected.",
+   "sources": [
+    {
+     "title": "David Moore, 'The Potato Murrain, 1845-1846' (Gardeners' Chronicle extracts)",
+     "url": "https://www.davidmoore.org.uk/Assets/Potato_Murrain_Resources.html"
+    },
+    {
+     "title": "Irish Newspaper Archives: 'Potato blight appears, 180 years ago this month'",
+     "url": "https://irishnewsarchive.com/wp/potato-blight-appears-180-years-ago-this-month"
+    }
+   ]
+  },
+  {
+   "id": "smith",
+   "name": "Elizabeth Smith (née Grant of Rothiemurchus)",
+   "short": "Elizabeth Smith",
+   "life": "1797–1885",
+   "role": "Scottish-born wife of a Wicklow landowner, mother and journal-keeper, aged 48 in 1845",
+   "side": "Protestant landed gentry, Baltiboys estate",
+   "where": "Baltiboys House near Blessington, Co. Wicklow",
+   "lat": 53.17,
+   "lon": -6.53,
+   "vantage": 3,
+   "vantage_label": "landlord's household, same country",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Manuscript journals kept from 1840 until her death; the 1840–1850 run was published in the 20th century (selected editions, including 'The Highland Lady in Ireland', 1991). Entries cited here come through Janet TeBrake's study of the journal. Not printed in her lifetime, so not quoted here.",
+   "bio": "Author of the celebrated 'Memoirs of a Highland Lady', she married Colonel Henry Smith and ran the Baltiboys estate with him. Wicklow escaped the worst of the Famine, and her journal is the landlord's-eye view: practical relief for her own tenants, firm views on education and political economy, and a belief that the disaster might in the end improve Ireland.",
+   "sources": [
+    {
+     "title": "Janet K. TeBrake, 'Personal narratives as historical sources: the journal of Elizabeth Smith 1840-1850', History Ireland 3:1 (1995)",
+     "url": "https://historyireland.com/?p=811"
+    },
+    {
+     "title": "Wicklow Heritage: Elizabeth Smith",
+     "url": "https://heritage.wicklowheritage.org/places/blessington/elizabeth_smith"
+    },
+    {
+     "title": "The Wicklow World of Elizabeth Smith 1840-1850 (selected journal extracts)",
+     "url": "https://irishlocalhistorybooks.com/?p=175"
+    }
+   ]
+  },
+  {
+   "id": "mathew",
+   "name": "Father Theobald Mathew",
+   "short": "Fr Mathew",
+   "life": "1790–1856",
+   "role": "Capuchin friar in Cork and leader of the temperance crusade, aged 56",
+   "side": "Irish Catholic clergy",
+   "where": "Cork city, travelling to and from Dublin",
+   "lat": 51.9,
+   "lon": -8.47,
+   "waypoints": [
+    {
+     "lat": 51.9,
+     "lon": -8.47,
+     "label": "Cork"
+    },
+    {
+     "lat": 53.35,
+     "lon": -6.26,
+     "label": "Dublin (late July 1846)"
+    },
+    {
+     "lat": 51.9,
+     "lon": -8.47,
+     "label": "Cork (3 Aug 1846)"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "priest among the hungry, writing to the Treasury",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Letters to Charles Trevelyan, August–December 1846; parts printed in the parliamentary correspondence on relief (1847). Dates here follow Puleo's account; the first letter is usually dated 7 August 1846.",
+   "bio": "Mathew was the most famous priest in Ireland, having taken millions through a pledge of abstinence. He wrote directly to the head of the Treasury, which gives an unusual line from a Cork parish into the office that controlled relief.",
+   "sources": [
+    {
+     "title": "Stephen Puleo, Voyage of Mercy (excerpt): Father Mathew's letters to Trevelyan",
+     "url": "https://www.thehistoryreader.com/world-history/voyage-of-mercy-the-distress-is-universal/"
+    },
+    {
+     "title": "Father Mathew (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Father_Mathew"
+    }
+   ]
+  },
+  {
+   "id": "trevelyan",
+   "name": "Charles Edward Trevelyan",
+   "short": "Trevelyan",
+   "life": "1807–1886",
+   "role": "Assistant Secretary to the Treasury (its permanent head), aged 38–41",
+   "side": "British government",
+   "where": "The Treasury, Whitehall, London",
+   "lat": 51.503,
+   "lon": -0.127,
+   "vantage": 4,
+   "vantage_label": "official, directing relief from London",
+   "form": "dated letters; published essay",
+   "language": "English",
+   "authenticity": "Official and private letters (many printed in parliamentary papers); 'The Irish Crisis' appeared in the Edinburgh Review in 1848 and then as a book. Caution: a line often quoted as his ('the judgement of God sent the calamity to teach the Irish a lesson') is not in his writings; it traces to a 1960 article.",
+   "bio": "Trevelyan managed the money and the rules of relief under both Peel and Russell. His letters are the vantage of the desk: efficient, tireless, and shaped by a belief in market discipline and providence. He is included because the other eyes were writing to, or against, the system he ran.",
+   "sources": [
+    {
+     "title": "Sir Charles Trevelyan, 1st Baronet (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Sir_Charles_Trevelyan,_1st_Baronet"
+    },
+    {
+     "title": "History Ireland: 'Charles Trevelyan and the great Irish Famine' (review of Robin Haines)",
+     "url": "https://historyireland.com/?p=3282"
+    }
+   ]
+  },
+  {
+   "id": "cummins",
+   "name": "Nicholas Marshall Cummins",
+   "short": "Cummins",
+   "life": "fl. 1846",
+   "role": "Cork magistrate (Justice of the Peace)",
+   "side": "Irish Protestant gentry",
+   "where": "South Reen headland near Union Hall and Skibbereen, West Cork",
+   "lat": 51.56,
+   "lon": -9.15,
+   "vantage": 1,
+   "vantage_label": "eyewitness visitor",
+   "form": "dated letter (open letter, printed)",
+   "language": "English",
+   "authenticity": "Open letter to the Duke of Wellington after a visit on 15 December 1846; printed in Cork papers on 19 and 21 December and in The Times on 24 December 1846. A contemporary handwritten copy is in Cork Public Museum.",
+   "bio": "Little is known of Cummins beyond this letter, but few documents of the Famine travelled further. He went to see conditions in the Skibbereen district for himself and wrote in plain terms to the most famous Irishman alive, asking that the letter reach the Queen.",
+   "sources": [
+    {
+     "title": "Skibbereen Heritage Centre: the Cummins letter comes home",
+     "url": "https://skibbheritage.com/?p=3372"
+    },
+    {
+     "title": "Southern Star: research verifying the Cummins letter (visit 15 Dec 1846; printings 19, 21, 24 Dec)",
+     "url": "https://www.southernstar.ie/news/manager-terris-painstaking-research-verified-cummins-letter-as-original-4208979"
+    }
+   ]
+  },
+  {
+   "id": "nicholson",
+   "name": "Asenath Hatch Nicholson",
+   "short": "Nicholson",
+   "life": "1792–1855",
+   "role": "American widow, teacher, Bible-reader and relief worker, aged 54–56",
+   "side": "American evangelical reformer (New York Irish Relief agent)",
+   "where": "Dublin, then Ulster, Donegal and Erris in Mayo",
+   "lat": 53.35,
+   "lon": -6.26,
+   "waypoints": [
+    {
+     "lat": 53.35,
+     "lon": -6.26,
+     "label": "Dublin (Dec 1846)"
+    },
+    {
+     "lat": 54.6,
+     "lon": -5.93,
+     "label": "Belfast (July 1847)"
+    },
+    {
+     "lat": 53.88,
+     "lon": -9.55,
+     "label": "Newport, Mayo"
+    },
+    {
+     "lat": 54.22,
+     "lon": -9.99,
+     "label": "Belmullet / Erris (winter 1847–48)"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "relief worker among the hungry",
+   "form": "memoir (written later, from notes and letters)",
+   "language": "English",
+   "authenticity": "'Annals of the Famine in Ireland, in 1847, 1848, and 1849' was published in 1851. It is a narrative with few exact dates, so day-level dates here come from her letters and biographers. Authentic and contemporary, but not a day-by-day diary.",
+   "bio": "Nicholson had walked Ireland alone in 1844–45, reading the Bible in cabins, and came back in December 1846 to help. A vegetarian, abolitionist and outsider to every Irish faction, she is sharp about landlords, officials and clergy alike, and she lived and ate among the people she fed.",
+   "sources": [
+    {
+     "title": "Asenath Nicholson, Annals of the Famine in Ireland (1851), full text at Library Ireland",
+     "url": "https://www.libraryireland.com/annals-famine-ireland/"
+    },
+    {
+     "title": "IrishCentral: Asenath Nicholson, famine timeline",
+     "url": "https://www.irishcentral.com/roots/asenath-nicholson-saved-hundreds-famine-victims"
+    },
+    {
+     "title": "Our Irish Heritage (Mayo): Asenath Hatch Nicholson",
+     "url": "https://www.ouririshheritage.org/content/archive/people/101_mayo_people/arts-craft-and-culture/asenath-hatch-nicholson"
+    }
+   ]
+  },
+  {
+   "id": "bennett",
+   "name": "William Bennett",
+   "short": "Bennett",
+   "life": "fl. 1840s",
+   "role": "English Quaker (Society of Friends) from London, travelling with his son",
+   "side": "English Quaker relief",
+   "where": "Dublin to Mayo and Donegal; Belmullet in Erris",
+   "lat": 54.22,
+   "lon": -9.99,
+   "waypoints": [
+    {
+     "lat": 53.35,
+     "lon": -6.26,
+     "label": "Dublin"
+    },
+    {
+     "lat": 54.12,
+     "lon": -9.15,
+     "label": "Ballina"
+    },
+    {
+     "lat": 54.22,
+     "lon": -9.99,
+     "label": "Belmullet (16 Mar 1847)"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "visiting eyewitness",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Letters printed in the Transactions of the Central Relief Committee of the Society of Friends and as 'Narrative of a Recent Journey of Six Weeks in Ireland' (London, 1847). Dated in the Quaker style ('Third-month 16th').",
+   "bio": "Bennett went to Ireland in spring 1847 at his own cost, carrying seed for distribution. His letters stand out because he went into the cabins rather than viewing them from the road, and because he blamed failures of distribution and land use as much as the blight.",
+   "sources": [
+    {
+     "title": "William Bennett, letter from Belmullet, Third-month 16th 1847 (Transactions of the Central Relief Committee of the Society of Friends), Library Ireland",
+     "url": "https://www.libraryireland.com/articles/FamineBelmulletFriends/index.php"
+    },
+    {
+     "title": "Friends' report on a journey from Dublin to Ballina, Library Ireland",
+     "url": "https://www.libraryireland.com/articles/FamineBallinaFriends/"
+    }
+   ]
+  },
+  {
+   "id": "mahony",
+   "name": "James Mahony",
+   "short": "Mahony",
+   "life": "1810–1879",
+   "role": "Cork-born artist commissioned by the Illustrated London News, aged 36",
+   "side": "Irish artist for the London press",
+   "where": "Cork to Clonakilty and Skibbereen, West Cork",
+   "lat": 51.55,
+   "lon": -9.27,
+   "waypoints": [
+    {
+     "lat": 51.9,
+     "lon": -8.47,
+     "label": "Cork"
+    },
+    {
+     "lat": 51.62,
+     "lon": -8.89,
+     "label": "Clonakilty"
+    },
+    {
+     "lat": 51.55,
+     "lon": -9.27,
+     "label": "Skibbereen"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "artist on the scene",
+   "form": "sketchbook (dated drawings) with printed report",
+   "language": "English",
+   "authenticity": "Sketches engraved and published with his first-person text as 'Sketches in the West of Ireland' in the Illustrated London News, 13 and 20 February 1847. The journey took place days before the first issue; its exact dates are not stated in the sources used here.",
+   "bio": "Mahony was a watercolourist who had trained in Italy and returned to Cork. Sent to check whether reports from Skibbereen were exaggerated, he found that they were not. His engravings became the defining images of the Famine and helped move British opinion and donations.",
+   "sources": [
+    {
+     "title": "James Mahony (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/James_Mahony"
+    },
+    {
+     "title": "IrelandXO: 13th February 1847 (ILN 'Sketches in the West of Ireland')",
+     "url": "https://irelandxo.com/node/471150"
+    },
+    {
+     "title": "IrelandXO: 20th February 1847 (second instalment)",
+     "url": "https://irelandxo.com/node/471181"
+    }
+   ]
+  },
+  {
+   "id": "douglas",
+   "name": "Dr George Mellis Douglas",
+   "short": "Dr Douglas",
+   "life": "1809–1864",
+   "role": "Medical Superintendent of the Grosse Île quarantine station, aged 38",
+   "side": "British North America (Canada East) medical service",
+   "where": "Grosse Île in the St Lawrence, below Quebec",
+   "lat": 47.03,
+   "lon": -70.67,
+   "vantage": 2,
+   "vantage_label": "where the emigrant ships arrived",
+   "form": "dated official reports and letters",
+   "language": "English",
+   "authenticity": "Reports and letters to the government of the Province of Canada, 1847, printed in the Legislative Assembly's journals and appendices. Dates here follow History Ireland's account of the 1847 season.",
+   "bio": "Douglas ran a small island hospital that expected a few hundred patients a season and in 1847 received tens of thousands of fever-stricken emigrants. His reports record the scale, his warnings ahead of time, and the shortfalls when they came true. He raised the island's first memorial to the doctors who died.",
+   "sources": [
+    {
+     "title": "History Ireland: 'Grosse Ile: Canada's Island Famine Memorial'",
+     "url": "https://www.historyireland.com/18th-19th-century-history/grosse-ile-canadas-island-famine-memorial/"
+    },
+    {
+     "title": "1847 North American typhus epidemic (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/1847_North_American_typhus_epidemic"
+    }
+   ]
+  },
+  {
+   "id": "tuke",
+   "name": "James Hack Tuke",
+   "short": "Tuke",
+   "life": "1819–1896",
+   "role": "Young English Quaker banker from York, aged 28",
+   "side": "English Quaker relief",
+   "where": "Connaught, especially Erris and Belmullet, Co. Mayo",
+   "lat": 54.22,
+   "lon": -9.99,
+   "waypoints": [
+    {
+     "lat": 54.14,
+     "lon": -9.74,
+     "label": "Bangor Erris"
+    },
+    {
+     "lat": 54.22,
+     "lon": -9.99,
+     "label": "Belmullet"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "visiting eyewitness",
+   "form": "dated report (published letter)",
+   "language": "English",
+   "authenticity": "'A Visit to Connaught in the Autumn of 1847', a letter to the Central Relief Committee of the Society of Friends, printed in 1847 (second edition 1848). Exact days of the visit not established here.",
+   "bio": "Tuke went west in the autumn of 1847, when government soup kitchens had closed and relief had shifted to the Poor Law. He came back to Ireland repeatedly for forty years, and his later campaigns helped create the Congested Districts Board in 1891.",
+   "sources": [
+    {
+     "title": "A visit to Connaught in the autumn of 1847 (National Library of Ireland catalogue)",
+     "url": "https://catalogue.nli.ie/Record/vtls000132073"
+    },
+    {
+     "title": "Connaught Telegraph: Tuke's account of Belmullet, autumn 1847",
+     "url": "https://www.con-telegraph.ie/2023/02/25/local-history-almost-naked-perishing-creatures-congregated-on-streets-of-north-mayo-town/"
+    },
+    {
+     "title": "James Hack Tuke (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/James_Hack_Tuke"
+    }
+   ]
+  },
+  {
+   "id": "kennedy",
+   "name": "Captain Arthur Edward Kennedy",
+   "short": "Capt. Kennedy",
+   "life": "1809–1883",
+   "role": "Former army officer, Poor Law Inspector for the Kilrush Union from November 1847, aged 38",
+   "side": "British administration (Poor Law Commission)",
+   "where": "Kilrush Union, south-west Co. Clare",
+   "lat": 52.64,
+   "lon": -9.48,
+   "vantage": 1,
+   "vantage_label": "official on the scene",
+   "form": "dated official reports and returns",
+   "language": "English",
+   "authenticity": "Reports and eviction returns to the Poor Law Commissioners, 1847–49, printed in a parliamentary Blue Book; transcribed by Clare County Library and IGP. Official documents, not private writing.",
+   "bio": "Kennedy was an outsider placed in a union where landlords were clearing small tenants on a huge scale. His dry lists of names, townlands and family sizes became evidence in Parliament. He went on to govern colonies including Western Australia and Hong Kong.",
+   "sources": [
+    {
+     "title": "Clare County Library: Reports and Returns relating to Evictions in the Kilrush Union (1847-1849)",
+     "url": "https://www.clarelibrary.ie/eolas/coclare/history/kr_evictions/kr_union_evictions_1849_intro.htm"
+    },
+    {
+     "title": "Kennedy to the Commissioners, 31 July 1848: evictions at Moreen (IGP transcript)",
+     "url": "https://igp-web.com/IGPArchives/ire/clare/misc/kilrush-evictions-31jul1848-moreen.htm"
+    },
+    {
+     "title": "Report from the Select Committee on the Kilrush Union, July 1850 (OAC transcript)",
+     "url": "https://oac.ie/site/node/1816"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1845-08-23",
+   "date_display": "Saturday 23 August 1845",
+   "precision": "day",
+   "eye": "lindley",
+   "place": "London",
+   "headline": "A new potato disease reported across southern England",
+   "digest": "Lindley's editorial reported that a deadly disease had appeared in potato fields, with blackened leaves, rotting stems and then rotting tubers. Sound potatoes were already hard to find at Covent Garden. He saw no cure and advised growers to accept the loss.",
+   "quote": "A fatal malady has broken out amongst the potato crop.",
+   "confidence": "verified",
+   "source_note": "Gardeners' Chronicle, 23 Aug 1845, via David Moore's extracts"
+  },
+  {
+   "date_iso": "1845-09-13",
+   "date_display": "Saturday 13 September 1845",
+   "precision": "day",
+   "eye": "lindley",
+   "place": "London",
+   "headline": "The paper holds the press: blight confirmed in Ireland",
+   "digest": "Lindley held back the paper's printing to add news from Ireland: potatoes near Dublin were failing suddenly. He immediately saw what this meant for a country where millions ate little else, and asked what would become of it if the whole crop rotted. Days earlier the Cork Examiner (10 September) had already reported severe damage and no remedy.",
+   "quote": "where will Ireland be, in the event of a universal potato rot?",
+   "confidence": "verified",
+   "source_note": "Gardeners' Chronicle, 13 Sept 1845 ('We stop the Press'); Cork Examiner 10 Sept 1845 via Irish Newspaper Archives"
+  },
+  {
+   "date_iso": "1845-10-28",
+   "date_display": "28 October 1845",
+   "precision": "day",
+   "eye": "smith",
+   "place": "Baltiboys, Co. Wicklow",
+   "headline": "Amid crop failure, she counts the estate's progress",
+   "digest": "With the blight now through the country, Smith's journal looks to the long run. She looked back at fifteen years of improvement on an estate that had been neglected and in debt. She called the national school the foundation of any hope for Ireland's future.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "TeBrake, History Ireland 3:1 (1995), journal entry of 28 Oct 1845"
+  },
+  {
+   "date_iso": "1846-08-03",
+   "date_display": "Monday 3 August 1846 (journey); letter c. 7 August",
+   "precision": "day",
+   "eye": "mathew",
+   "place": "Road from Dublin to Cork",
+   "headline": "A green crop turned black within a week",
+   "digest": "Driving to Dublin in late July, Mathew had seen potato fields looking like a fine harvest. On the way back on 3 August the same country was a waste of rotting plants. Families sat on the walls of their gardens weeping. He wrote to Trevelyan a few days later that a nation's food had been lost.",
+   "quote": "one wide waste of putrefying vegetation",
+   "confidence": "verified",
+   "source_note": "Letter to Trevelyan, usually dated 7 Aug 1846; Puleo, Voyage of Mercy excerpt"
+  },
+  {
+   "date_iso": "1846-10-09",
+   "date_display": "Friday 9 October 1846",
+   "precision": "day",
+   "eye": "trevelyan",
+   "place": "The Treasury, London",
+   "headline": "Treasury chief writes that the government is stretched",
+   "digest": "Writing privately to Lord Monteagle as the second failure set in, Trevelyan said the government's departments were working at full stretch against the calamity. He also put much of the blame on Irish landlords and on the character of Irish society. The letter shows how relief was being framed in London: as limited, temporary help and a lesson in self-reliance.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Letter to Monteagle, 9 Oct 1846, as cited in the Trevelyan biography (Wikipedia, citing Haines)"
+  },
+  {
+   "date_iso": "1846-10-18",
+   "date_display": "18 October 1846",
+   "precision": "day",
+   "eye": "smith",
+   "place": "Baltiboys, Co. Wicklow",
+   "headline": "She reads the disaster as providence that may help",
+   "digest": "As the second failure became clear, Smith wrote that the calamity was a visitation of providence which might in the end bring the country prosperity. It is the landlord-class view common in her circle: hard times would force better farming and fewer tiny holdings.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "TeBrake 1995, entry of 18 Oct 1846"
+  },
+  {
+   "date_iso": "1846-11-29",
+   "date_display": "29 November 1846",
+   "precision": "day",
+   "eye": "smith",
+   "place": "Baltiboys, Co. Wicklow",
+   "headline": "The wealthy must give up luxuries, she resolves",
+   "digest": "As winter came on and hunger spread, Smith wrote that the poor's distress put a duty on people like her. The rich had to give up their comforts, and feeding the hungry was an obligation nobody could avoid. On the estate this meant private relief and drainage work for the poorest tenants.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "TeBrake 1995, entry of 29 Nov 1846; Wicklow Heritage on Baltiboys relief"
+  },
+  {
+   "date_iso": "1846-12-07",
+   "date_display": "7 December 1846",
+   "precision": "day",
+   "eye": "nicholson",
+   "place": "Dublin",
+   "headline": "An American returns to Ireland to feed the hungry",
+   "digest": "Nicholson landed back in Dublin as an agent of the New York Irish Relief Society, eighteen months after her walking tour of the country. She soon set up a soup kitchen in the poor Liberties district, writing appeals to American papers and handing out what came back.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "IrishCentral timeline; Our Irish Heritage (Mayo)"
+  },
+  {
+   "date_iso": "1846-12-15",
+   "date_display": "Tuesday 15 December 1846",
+   "precision": "day",
+   "eye": "cummins",
+   "place": "South Reen, near Union Hall, West Cork",
+   "headline": "A magistrate goes to see Skibbereen district for himself",
+   "digest": "Cummins went into the townlands around Skibbereen with bread for the people there. In the cabins he found families too weak to rise, the living lying beside the dead. He wrote that he went forward in horror, and that what he saw was far worse than the reports.",
+   "quote": "I approached in horror",
+   "confidence": "verified",
+   "source_note": "Visit date per Southern Star; phrase from the letter as quoted in The Currency"
+  },
+  {
+   "date_iso": "1846-12-16",
+   "date_display": "c. 16 December 1846",
+   "precision": "day",
+   "eye": "mathew",
+   "place": "Cork",
+   "headline": "Fifth letter: 'the distress is universal'",
+   "digest": "In his fifth letter to Trevelyan since August, Mathew reported thousands of starving people begging in Cork's streets and more than a hundred deaths a week in his own parish. Men, women and children, he wrote, were slowly wasting away. He was asking for faster action from government.",
+   "quote": "the distress is universal",
+   "confidence": "approx",
+   "source_note": "Puleo excerpt; date inferred as mid-December 1846"
+  },
+  {
+   "date_iso": "1846-12-24",
+   "date_display": "Thursday 24 December 1846",
+   "precision": "day",
+   "eye": "cummins",
+   "place": "(printed in London)",
+   "headline": "The Times prints the Skibbereen letter on Christmas Eve",
+   "digest": "First printed in Cork papers on 19 and 21 December, Cummins' open letter appeared in The Times on Christmas Eve. It was reprinted across Ireland, Britain and America and became a standard text in fundraising appeals. A week later, on 1 January 1847, the British Relief Association was founded in London.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Southern Star; Skibbereen Heritage Centre"
+  },
+  {
+   "date_iso": "1847-01-15",
+   "date_display": "January–June 1847",
+   "precision": "range",
+   "eye": "nicholson",
+   "place": "The Liberties, Dublin",
+   "headline": "Running a soup kitchen in Dublin's poorest streets",
+   "digest": "Through the first half of 1847 Nicholson ran soup and bread distribution in Dublin, working with Quakers such as Joseph Bewley. Her book later recalls the first starving person she met and the queues at the soup-shop. She judged the paid stewards of official relief harshly next to the volunteers.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Annals, ch. II–III (contents at Library Ireland); IrishCentral"
+  },
+  {
+   "date_iso": "1847-02-13",
+   "date_display": "Saturday 13 February 1847 (published)",
+   "precision": "day",
+   "eye": "mahony",
+   "place": "Clonakilty and Skibbereen, Co. Cork",
+   "headline": "An artist sent to test the reports finds them true",
+   "digest": "Mahony took the mail coach west from Cork. He first saw the scale of the poverty at Clonakilty and then went round Skibbereen and nearby villages with the local doctor. Both his text and his sketches show funerals without coffins, empty cabins and hungry crowds, and he says he had been sent to find out whether the reports were exaggerated. The first instalment appeared on 13 February.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Illustrated London News, 13 Feb 1847; journey dates within the preceding days not pinned"
+  },
+  {
+   "date_iso": "1847-02-15",
+   "date_display": "February 1847",
+   "precision": "month",
+   "eye": "douglas",
+   "place": "Grosse Île / Quebec",
+   "headline": "A warning to the Assembly before the ships come",
+   "digest": "Before the sailing season Douglas warned the legislature that the coming year would bring far more sickness and death. With US ports tightening their rules, more of the poorest emigrants would come to Canada. He asked for £3,000 to expand and was given £300, enough for about fifty more beds.",
+   "quote": "a greater amount of sickness and mortality",
+   "confidence": "verified",
+   "source_note": "History Ireland, 'Grosse Ile: Canada's Island Famine Memorial'"
+  },
+  {
+   "date_iso": "1847-02-20",
+   "date_display": "Saturday 20 February 1847 (published)",
+   "precision": "day",
+   "eye": "mahony",
+   "place": "West Cork",
+   "headline": "Second instalment of sketches from the west",
+   "digest": "The Illustrated London News ran a second set of Mahony's drawings and notes from the Skibbereen district. Together the two issues put the Famine in front of a middle-class British readership as pictures, not just figures.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ILN 20 Feb 1847 (IrelandXO '20th February 1847')"
+  },
+  {
+   "date_iso": "1847-03-16",
+   "date_display": "Third-month (March) 16th 1847",
+   "precision": "day",
+   "eye": "bennett",
+   "place": "Belmullet, Erris, Co. Mayo",
+   "headline": "Inside the cabins of Erris",
+   "digest": "Bennett went from cabin to cabin near Belmullet. Many were scraped out of the bog and roofed with turf, with no window, chimney or furniture, and fever was in almost every one. People told him in Irish that the cause was hunger. He was angry to find relief food stored in the town with no one distributing it, and good land lying idle with hardly an animal on it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Transactions of the Central Relief Committee (Library Ireland transcript)"
+  },
+  {
+   "date_iso": "1847-04-08",
+   "date_display": "8 April 1847",
+   "precision": "day",
+   "eye": "smith",
+   "place": "Baltiboys, Co. Wicklow",
+   "headline": "On the quarter-acre rule and the small tenants",
+   "digest": "As Parliament debated what became the Gregory clause, which denied relief to anyone holding more than a quarter acre, Smith wrote harshly about the smallholders it targeted. She called them the real beggars and paupers of Ireland. To her, consolidating farms looked like progress; the journal does not show what it meant for the families pushed off.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "TeBrake 1995, entry of 8 Apr 1847"
+  },
+  {
+   "date_iso": "1847-05-15",
+   "date_display": "Saturday 15 May 1847",
+   "precision": "day",
+   "eye": "douglas",
+   "place": "Grosse Île",
+   "headline": "The first ship of the season brings fever",
+   "digest": "The Syria, out of Liverpool since 24 March with 241 passengers, anchored at the island. Within six days more than two hundred of them were ill. The hospital, built for 150, was full before the season had properly begun.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "History Ireland, Grosse Île"
+  },
+  {
+   "date_iso": "1847-05-23",
+   "date_display": "23 May 1847",
+   "precision": "day",
+   "eye": "douglas",
+   "place": "Grosse Île",
+   "headline": "Fifty to sixty deaths a day",
+   "digest": "Douglas reported that the island was now burying 50 to 60 people a day. By the end of the month some 900 had died, a thousand fever cases filled sheds and tents, and forty ships with 12,500 passengers waited in line in the river.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "History Ireland, Grosse Île"
+  },
+  {
+   "date_iso": "1847-06-08",
+   "date_display": "8 June 1847",
+   "precision": "day",
+   "eye": "douglas",
+   "place": "Grosse Île",
+   "headline": "Warning Quebec and Montreal of what is coming",
+   "digest": "With a medical commission now on the island and 21,000 emigrants held there, Douglas warned that at least half of the thousands already sent upriver would fall ill within weeks. He urged the cities to prepare. He also wrote of passengers so worn down that they no longer seemed to care whether they lived.",
+   "quote": "I never saw people so indifferent to life",
+   "confidence": "verified",
+   "source_note": "History Ireland, Grosse Île"
+  },
+  {
+   "date_iso": "1847-07-15",
+   "date_display": "July 1847",
+   "precision": "month",
+   "eye": "nicholson",
+   "place": "Dublin to Belfast and Donegal",
+   "headline": "Leaving Dublin as the soup kitchens wind down",
+   "digest": "With government soup kitchens taking over and then being shut down, Nicholson left Dublin for Belfast. Later that summer she went on to Donegal (Gweedore, Dungloe and Arranmore) and then west to Newport in Mayo, where a postmistress friend gave her a base.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "IrishCentral; Our Irish Heritage; Annals ch. III–IV contents"
+  },
+  {
+   "date_iso": "1847-08-15",
+   "date_display": "mid-August 1847",
+   "precision": "range",
+   "eye": "douglas",
+   "place": "Grosse Île",
+   "headline": "The Virginius arrives after a deadly crossing",
+   "digest": "The Virginius had sailed from Liverpool on 28 May with 476 passengers, and 158 had died on the way. Douglas described the survivors coming ashore as ghostly and yellow with sickness. By this point he had separated the healthy into a tent camp at the east end of the island, but deaths among them continued.",
+   "quote": "ghastly yellow looking spectres",
+   "confidence": "approx",
+   "source_note": "History Ireland, Grosse Île (arrival date not given there; sailing 28 May)"
+  },
+  {
+   "date_iso": "1847-10-01",
+   "date_display": "Autumn (September–October) 1847",
+   "precision": "range",
+   "eye": "tuke",
+   "place": "Belmullet, Erris, Co. Mayo",
+   "headline": "After the soup kitchens close, Erris again",
+   "digest": "Tuke travelled over bare, uncultivated country from Bangor to Belmullet. In the town he found almost-naked people gathered in the street, with no land, food or shelter, sleeping outdoors and begging. An innkeeper told him several people had died in the streets in just a few nights. His report argued the new Poor Law could not cope in such districts.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "A Visit to Connaught in the Autumn of 1847; Connaught Telegraph reprint"
+  },
+  {
+   "date_iso": "1847-10-31",
+   "date_display": "31 October 1847",
+   "precision": "day",
+   "eye": "nicholson",
+   "place": "Erris, Co. Mayo",
+   "headline": "Asking Bennett to help fund work for the people",
+   "digest": "From the far west Nicholson wrote to William Bennett, who had been through Belmullet in March, asking for support for a local employment scheme. She preferred work and wages to handouts, and through the winter of 1847–48 she kept travelling west from Belmullet distributing what she could.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Our Irish Heritage (Mayo), letter of 31 Oct 1847"
+  },
+  {
+   "date_iso": "1847-11-15",
+   "date_display": "November 1847",
+   "precision": "month",
+   "eye": "kennedy",
+   "place": "Kilrush, Co. Clare",
+   "headline": "A new inspector for a failing union",
+   "digest": "Kennedy was appointed Poor Law Inspector for Kilrush, where the workhouse and finances were collapsing. Under the new rules, relief costs fell on local ratepayers, so landlords had a strong reason to remove small tenants. He began sending detailed reports to Dublin.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "OAC transcript of the 1850 Select Committee report"
+  },
+  {
+   "date_iso": "1848-01-15",
+   "date_display": "January 1848",
+   "precision": "month",
+   "eye": "trevelyan",
+   "place": "London",
+   "headline": "'The Irish Crisis': the Famine as providence",
+   "digest": "In a long essay in the Edinburgh Review, republished as a book, Trevelyan wrote as if the crisis were already over, though it was not. He presented the Famine as a stroke of providence that would force Ireland to reform its rural economy. In April he was knighted for his services.",
+   "quote": "a direct stroke of an all-wise and all-merciful Providence",
+   "confidence": "approx",
+   "source_note": "Wikipedia, Trevelyan (The Irish Crisis, 1848); KCB 27 April 1848"
+  },
+  {
+   "date_iso": "1848-03-15",
+   "date_display": "December 1847 – April 1848",
+   "precision": "range",
+   "eye": "nicholson",
+   "place": "Erris, Co. Mayo",
+   "headline": "Winter on the Mullet among the poorest",
+   "digest": "Nicholson spent the hardest months in Erris, travelling west from Belmullet by cart and on foot. In the Annals she describes the workhouses with their turnips and black bread, and records the burial of shipwrecked sailors and the conduct of the landlords in plain detail. She lived on very little herself.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Annals ch. V–VI (contents); Our Irish Heritage"
+  },
+  {
+   "date_iso": "1848-06-02",
+   "date_display": "2–3 June 1848",
+   "precision": "range",
+   "eye": "kennedy",
+   "place": "Moreen, Moyarta, Kilrush Union",
+   "headline": "Fifty-two houses levelled in a day",
+   "digest": "On the Westropp property at Moreen, the sheriff and a police party evicted 52 families, 281 people. Kennedy later recorded that the houses were unroofed and knocked down in one day, with part of a second day's work after it.",
+   "quote": "thrown down in one day",
+   "confidence": "verified",
+   "source_note": "Kennedy to the Commissioners, 31 July 1848 (IGP transcript)"
+  },
+  {
+   "date_iso": "1848-07-05",
+   "date_display": "c. 5–6 July 1848",
+   "precision": "range",
+   "eye": "kennedy",
+   "place": "Kilrush",
+   "headline": "A report on the wave of clearances",
+   "digest": "Kennedy sent the Commissioners a report on the many evictions across the union, with returns listing townland by townland the families put out. Each entry is a name and a count of males and females. It is a bureaucrat's form, but it preserves the names.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Kilrush evictions return dated 5 July 1848 (Bleanlega); referenced in Kennedy's letter of 31 July"
+  },
+  {
+   "date_iso": "1848-07-31",
+   "date_display": "Monday 31 July 1848",
+   "precision": "day",
+   "eye": "kennedy",
+   "place": "Kilrush",
+   "headline": "Sending the Moreen list to Dublin",
+   "digest": "Kennedy sent the Commissioners the list for Moreen with brief notes: a father left on the land while his family was turned out, a widow and her relative sharing one house. Two days earlier, at Ballingarry in Tipperary, the Young Ireland rising had been easily put down; in Kilrush the clearances went on regardless.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "IGP transcript; Chronology of the Great Famine (29 July 1848)"
+  },
+  {
+   "date_iso": "1848-09-15",
+   "date_display": "Autumn 1848",
+   "precision": "month",
+   "eye": "nicholson",
+   "place": "Dublin to London",
+   "headline": "Leaving Ireland too soon",
+   "digest": "Believing the worst was over, Nicholson quietly left Dublin for London. The blight had come back that summer and cholera was on the way. Her closing chapters sum up landlords, clergy and relief officers, and record her last look at Ireland.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "IrishCentral; Our Irish Heritage; Annals ch. IX"
+  },
+  {
+   "date_iso": "1850-07-15",
+   "date_display": "July 1850",
+   "precision": "month",
+   "eye": "kennedy",
+   "place": "Westminster (report on Kilrush)",
+   "headline": "Parliament reads the Kilrush returns",
+   "digest": "A Select Committee on the Kilrush Union, pressed by the MP Poulett Scrope after his visit in autumn 1849, reported that mass evictions had left some 12,000 people homeless. Kennedy's reports, already printed in a Blue Book, were its backbone. The Famine officially ended two years later.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "OAC transcript of the Select Committee report, July 1850"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1845-09-13",
+   "label": "Blight confirmed in Ireland",
+   "eyes": [
+    "lindley",
+    "smith"
+   ],
+   "note": "Lindley in London sees the national danger at once; six weeks later Smith in Wicklow is still writing about schools and long-term estate improvement. Distance makes the danger obvious, while being close to it makes it look routine."
+  },
+  {
+   "date": "1846-12-15",
+   "label": "Skibbereen week, December 1846",
+   "eyes": [
+    "cummins",
+    "mathew",
+    "nicholson",
+    "smith"
+   ],
+   "note": "Within three weeks a magistrate, a priest, an American volunteer and a landlady are all writing about the second winter. Cummins and Mathew write to men in power, Nicholson to American donors, and Smith only to herself."
+  },
+  {
+   "date": "1847-02-13",
+   "label": "Pictures and letters from the west, Feb–Mar 1847",
+   "eyes": [
+    "mahony",
+    "bennett",
+    "douglas"
+   ],
+   "note": "Mahony's engravings and Bennett's cabin visits take the Famine to British readers, while across the Atlantic Douglas is already warning that the emigrants will bring fever with them."
+  },
+  {
+   "date": "1847-05-23",
+   "label": "Black '47: the summer of the ships",
+   "eyes": [
+    "douglas",
+    "nicholson"
+   ],
+   "note": "As the soup kitchens close in Ireland and Nicholson leaves Dublin, the people who left are dying at the quarantine station Douglas runs."
+  },
+  {
+   "date": "1847-10-31",
+   "label": "Autumn in Erris",
+   "eyes": [
+    "tuke",
+    "nicholson",
+    "bennett"
+   ],
+   "note": "Two Quakers and an American evangelical cover the same peninsula within months of each other, and they write to each other. All three found that the new Poor Law could not work there."
+  },
+  {
+   "date": "1848-07-31",
+   "label": "Clearances and the Treasury view, 1848",
+   "eyes": [
+    "kennedy",
+    "trevelyan"
+   ],
+   "note": "Trevelyan writes as if the crisis were finished and is knighted; that same summer Kennedy, who works for the system Trevelyan built, is listing the families evicted in Clare."
+  }
+ ],
+ "ties": [
+  {
+   "a": "nicholson",
+   "b": "bennett",
+   "kind": "met",
+   "note": "Nicholson wrote to Bennett on 31 October 1847 asking for help with an employment scheme in Erris, the district he had described in March."
+  },
+  {
+   "a": "mathew",
+   "b": "trevelyan",
+   "kind": "read each other",
+   "note": "Mathew wrote at least five letters to Trevelyan between August and December 1846; they reached the Treasury desk and parts were printed in the official correspondence."
+  },
+  {
+   "a": "nicholson",
+   "b": "mathew",
+   "kind": "met",
+   "note": "Nicholson met Father Mathew in Cork, and her Annals have a section on the Mathew Tower."
+  },
+  {
+   "a": "cummins",
+   "b": "mahony",
+   "kind": "same street",
+   "note": "Mahony's February 1847 commission followed the stir caused by reports such as Cummins' letter, and covered the same Skibbereen district eight weeks later."
+  },
+  {
+   "a": "bennett",
+   "b": "tuke",
+   "kind": "same street",
+   "note": "Both Quakers reported to the Friends' Central Relief Committee from Belmullet, Bennett in March and Tuke in autumn 1847."
+  },
+  {
+   "a": "kennedy",
+   "b": "trevelyan",
+   "kind": "opposite sides",
+   "note": "Both worked in the same relief system, but Kennedy's Kilrush returns recorded what the shift to locally funded relief that Trevelyan backed did in practice."
+  },
+  {
+   "a": "lindley",
+   "b": "smith",
+   "kind": "mentioned",
+   "note": "Lindley's warnings reached landlords like the Smiths; Smith's journal records the first sightings of blight on the estate in 1845."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v1:long-threads",
+   "note": "'Famine fever' (typhus and relapsing fever) killed more people than starvation itself, and it travelled with emigrants to Liverpool, Grosse Île and Montreal. It belongs with the other epidemic diaries in the long threads: the disease went where the ships went."
+  },
+  {
+   "to": "tambora-1816",
+   "note": "The cold years after Tambora brought Ireland a famine and typhus epidemic in 1816–19. The Famine of the 1840s was larger, but the earlier crisis had already shown how dangerous it was for a population to depend on one crop."
+  },
+  {
+   "to": "black-death",
+   "note": "Grosse Île was a quarantine station. That institution goes back to plague-era Ragusa and Venice, and Douglas used the same method of isolating ships and passengers, against typhus this time."
+  },
+  {
+   "to": "v1:us-civil-war",
+   "note": "Famine emigrants and their sons filled Irish regiments on both sides of the American Civil War, including the Union's Irish Brigade, fifteen years after Black '47."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://s3.amazonaws.com/libapps/accounts/93317/images/Skibbereen_by_James_Mahony_1847.JPG",
+   "title": "Skibbereen",
+   "caption": "James Mahony's engraved sketch of Skibbereen, published in the Illustrated London News, February 1847. It became the best-known image of the Famine.",
+   "date": "1847",
+   "credit": "James Mahony / Illustrated London News (copy hosted by Pacific University library guide; public domain)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/James_Mahony",
+   "title": "Mahony's famine sketches",
+   "caption": "Reproductions of Mahony's West Cork sketches from Clonakilty and Skibbereen, with notes on the commission.",
+   "date": "1847",
+   "credit": "James Mahony; Wikipedia article page"
+  },
+  {
+   "url": "https://skibbheritage.com/?p=3372",
+   "title": "The Cummins letter",
+   "caption": "A handwritten copy of Nicholas Cummins' December 1846 letter to the Duke of Wellington, made by Cummins or his clerk, which went to America with an emigrant family and is now in Cork Public Museum.",
+   "date": "1846",
+   "credit": "Cork Public Museum / Skibbereen Heritage Centre"
+  }
+ ],
+ "further": [
+  {
+   "title": "Asenath Nicholson, Annals of the Famine in Ireland (1851), full text at Library Ireland",
+   "url": "https://www.libraryireland.com/annals-famine-ireland/"
+  },
+  {
+   "title": "Clare County Library: Reports and Returns relating to Evictions in the Kilrush Union (1847-1849)",
+   "url": "https://www.clarelibrary.ie/eolas/coclare/history/kr_evictions/kr_union_evictions_1849_intro.htm"
+  },
+  {
+   "title": "History Ireland: 'Grosse Ile: Canada's Island Famine Memorial'",
+   "url": "https://www.historyireland.com/18th-19th-century-history/grosse-ile-canadas-island-famine-memorial/"
+  },
+  {
+   "title": "Smithsonian: the Choctaw gift of 1847",
+   "url": "https://www.smithsonianmag.com/history/unlikely-enduring-friendship-between-ireland-choctaw-nation-180982700/"
+  },
+  {
+   "title": "History Ireland: Gadugi, the Cherokee gift to Ireland in 1847",
+   "url": "https://historyireland.com/?p=38317"
+  },
+  {
+   "title": "AramcoWorld: an Irish tale of hunger and the Sultan (record vs legend)",
+   "url": "https://archive.aramcoworld.com/issue/201501/an.irish.tale.of.hunger.and.the.sultan.htm"
+  },
+  {
+   "title": "Brian Brennan on the Gerald Keegan 'diary' (exposed as fake)",
+   "url": "https://www.brianbrennan.ca/the-30-year-journey-of-a-novel/"
+  }
+ ],
+ "vantage_key": "0 = direct victim (no such writer survives here); 1 = in the cabins, streets or relief posts; 2 = where the emigrant ships landed; 3 = in Ireland but away from the worst districts; 4 = London, reading reports and making policy."
+}

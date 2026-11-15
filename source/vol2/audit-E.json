@@ -1,0 +1,269 @@
+[
+ {
+  "chapter": "vesuvius-79",
+  "where": "eye:pliny-elder",
+  "severity": "error",
+  "problem": "Pliny the Younger (Letter 3.5) says his uncle died in his fifty-sixth year, i.e. aged 55, not 56 (born AD 23/24).",
+  "fix": {
+   "text_replace": {
+    "old": "aged 56",
+    "new": "in his fifty-sixth year"
+   }
+  }
+ },
+ {
+  "chapter": "vesuvius-79",
+  "where": "eye:suetonius",
+  "severity": "doubt",
+  "problem": "Inconsistent with entry 16 and with his birth c. AD 69: he was about ten in 79, not a 'small child'.",
+  "fix": {
+   "text_replace": {
+    "old": "a small child in 79",
+    "new": "a boy of about ten in 79"
+   }
+  }
+ },
+ {
+  "chapter": "vesuvius-79",
+  "where": "threads_out:3",
+  "severity": "error",
+  "problem": "The Wadi al-Jarf papyri of Merer were found in Egypt (Red Sea coast), so they are not a find 'outside Egypt's dry sands'.",
+  "fix": {
+   "text_replace": {
+    "old": "are among the very few ancient papyrus finds outside Egypt's dry sands or rescued by catastrophe — one a working logbook",
+    "new": "are two of the most famous ancient papyrus finds, one preserved by Egypt's dry desert and the other by catastrophe — one a working logbook"
+   }
+  }
+ },
+ {
+  "chapter": "vesuvius-79",
+  "where": "eye:iucundus",
+  "severity": "doubt",
+  "problem": "The claim that one lararium relief was stolen in 1975 and recovered (entry 8: 'in Belgium in 2023') could not be confirmed from memory; verify against the Pompeii Park source before keeping the recovery detail (also in entry 8).",
+  "fix": null,
+  "confidence": "approx"
+ },
+ {
+  "chapter": "spain-1936",
+  "where": "eye:azana",
+  "severity": "error",
+  "problem": "Azaña was born 10 January 1880, so he was 56, not 55, when the war began in July 1936.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 55 when the war began",
+    "new": "aged 56 when the war began"
+   }
+  }
+ },
+ {
+  "chapter": "spain-1936",
+  "where": "eye:steer",
+  "severity": "error",
+  "problem": "Steer was born 22 February 1909, so he was 28 at the time of Guernica (April 1937), not 27.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 27",
+    "new": "aged 28"
+   }
+  }
+ },
+ {
+  "chapter": "spain-1936",
+  "where": "eye:ciano",
+  "severity": "error",
+  "problem": "Ciano was born 18 March 1903; the entries run from February 1938 to 28 March 1939, when he was 34 to 36.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 34–35",
+    "new": "aged 34–36"
+   }
+  }
+ },
+ {
+  "chapter": "spain-1936",
+  "where": "entry:13",
+  "severity": "error",
+  "problem": "'Sin novedad en el Alcázar' is five words (and 'Sin novedad' two), so 'three-word report' is wrong.",
+  "fix": {
+   "headline": "Relief, and a famous report"
+  }
+ },
+ {
+  "chapter": "spain-1936",
+  "where": "entry:30",
+  "severity": "tone",
+  "problem": "Final sentence gives the book's own verdict on the contested Guernica question; the brief requires stating what each source recorded and leaving judgement to the reader.",
+  "fix": {
+   "digest": "After Nationalist troops entered Guernica, Richthofen noted that the town had been literally levelled. In other passages he discussed the incendiary share of the bomb load and called the bomb mixture a complete technical success. His diary records the destruction as the work of the bombers; in the same days the official Nationalist statements said the town had been burned by its defenders."
+  }
+ },
+ {
+  "chapter": "spain-1936",
+  "where": "convergence:3",
+  "severity": "tone",
+  "problem": "Closing sentence adjudicates Guernica in the book's own voice, contrary to the chapter's stated aim (intro:3) of leaving the judging to the reader.",
+  "fix": {
+   "text_replace": {
+    "old": "The attacker's private diary agrees with the reporter, not with the official statement.",
+    "new": "The three were written for different readers: a private war diary, a newspaper report and an official statement."
+   }
+  }
+ },
+ {
+  "chapter": "spain-1936",
+  "where": "entry:50",
+  "severity": "doubt",
+  "problem": "The claim that under the 1931 Constitution his presidential functions lapsed automatically on leaving national territory is doubtful; he remained President until his resignation of 27 February (entry 51). Remove the sentence.",
+  "fix": {
+   "digest": "With Catalonia collapsing and roads to the border crowded with hundreds of thousands of refugees and soldiers, Azaña crossed into France. He would not go back to the central zone, where Negrín wanted to fight on."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "spain-1936",
+  "where": "image:4",
+  "severity": "image",
+  "problem": "Uncurated Wikimedia Commons category on the bombing of Guernica; such categories can include photographs of victims' bodies, which cannot be vetted as a single image. Delete or replace with a specific vetted image of the ruins (images 2–3 already cover this).",
+  "fix": {
+   "delete": true
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "spain-1936",
+  "where": "intro:1",
+  "severity": "doubt",
+  "problem": "Says all these people 'wrote on dated pages as it happened', but intro:2 and the eye record correctly label Orwell's Homage to Catalonia a memoir written months later.",
+  "fix": {
+   "text_replace": {
+    "old": "people who wrote on dated pages as it happened",
+    "new": "people who wrote as events unfolded or soon afterwards"
+   }
+  }
+ },
+ {
+  "chapter": "moscow-1937",
+  "where": "convergence:0",
+  "severity": "tone",
+  "problem": "'Proximity made the outsiders more credulous, not less' is the book's own editorial judgement; the Terror chapter is meant to be sober and to flag, not argue with, Davies's and Feuchtwanger's views (intro:3).",
+  "fix": {
+   "text_replace": {
+    "old": " Proximity made the outsiders more credulous, not less.",
+    "new": ""
+   }
+  }
+ },
+ {
+  "chapter": "moscow-1937",
+  "where": "entry:13",
+  "severity": "quote",
+  "problem": "Headline puts a translated word from a modern (post-1929) diary in quotation marks.",
+  "fix": {
+   "headline": "The court's view of the arrests"
+  }
+ },
+ {
+  "chapter": "moscow-1937",
+  "where": "entry:26",
+  "severity": "quote",
+  "problem": "Headline puts a translated phrase from Afinogenov's modern diary in quotation marks.",
+  "fix": {
+   "headline": "The expelled playwright votes"
+  }
+ },
+ {
+  "chapter": "moscow-1937",
+  "where": "entry:29",
+  "severity": "quote",
+  "problem": "Headline puts a translated sentence from Afinogenov's modern diary in quotation marks.",
+  "fix": {
+   "headline": "His party card restored"
+  }
+ },
+ {
+  "chapter": "moscow-1937",
+  "where": "eye:podlubny",
+  "severity": "quote",
+  "problem": "Bio quotes a translated phrase from Podlubny's modern diary.",
+  "fix": {
+   "text_replace": {
+    "old": "He kept the diary 'for his overall development', to turn himself",
+    "new": "He kept the diary to develop and turn himself"
+   }
+  }
+ },
+ {
+  "chapter": "moscow-1937",
+  "where": "intro:2",
+  "severity": "quote",
+  "problem": "Quotation marks around a translated word from Svanidze's modern diary; paraphrase without quotation marks.",
+  "fix": {
+   "text_replace": {
+    "old": "called the fallen 'chameleons'",
+    "new": "called the fallen chameleons"
+   }
+  }
+ },
+ {
+  "chapter": "moscow-1937",
+  "where": "eye:svanidze",
+  "severity": "quote",
+  "problem": "Quotation marks around a translated word from Svanidze's modern diary; paraphrase without quotation marks.",
+  "fix": {
+   "text_replace": {
+    "old": "unmasking of 'chameleons'",
+    "new": "unmasking of chameleons"
+   }
+  }
+ },
+ {
+  "chapter": "moscow-1937",
+  "where": "entry:10",
+  "severity": "error",
+  "problem": "In spring 1937 only Averbakh had been arrested (April 1937); Kirshon was not arrested until late August 1937.",
+  "fix": {
+   "digest": "With his patron Averbakh arrested and Kirshon under attack, the playwright found himself attacked in print and at meetings, and was expelled from the party. His diary turns inward: he treats the disgrace as a test and a chance to rebuild himself, while waiting every night for a knock that never came."
+  }
+ },
+ {
+  "chapter": "moscow-1937",
+  "where": "entry:4",
+  "severity": "doubt",
+  "problem": "Lugovskaya's diary records her own fantasies of killing Stalin, not a wish that 'someone' would; check against 'I Want to Live'.",
+  "fix": {
+   "digest": "Not an entry: this is the night the diary stopped. In an NKVD search of the family flat the notebooks were confiscated. Investigators went through them and underlined her complaints about school indoctrination, her loyalty to her father, her dark moods and her fantasies of killing Stalin herself. The marked pages became the case against her; she was arrested on 16 March."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "moscow-1937",
+  "where": "eye:feuchtwanger",
+  "severity": "error",
+  "problem": "Mislabelled form: 'Moskau 1937' is a travel report written within weeks of his return (as the eye's own authenticity note and intro:3 say), not a memoir written later.",
+  "fix": {
+   "form": "travel report (written within weeks)"
+  }
+ },
+ {
+  "chapter": "moscow-1937",
+  "where": "entry:32",
+  "severity": "doubt",
+  "problem": "The March 1938 trial was held in the October Hall of the House of the Unions, not the Hall of Columns (same building); also in ties:0.",
+  "fix": {
+   "place": "October Hall, House of the Unions, Moscow"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "moscow-1937",
+  "where": "convergence:1",
+  "severity": "doubt",
+  "problem": "Svanidze's entry (7 Aug) and Arzhilovsky's arrest (29 Aug) are 22 days apart, slightly more than three weeks.",
+  "fix": {
+   "text_replace": {
+    "old": "Within three weeks",
+    "new": "Within about three weeks"
+   }
+  }
+ }
+]

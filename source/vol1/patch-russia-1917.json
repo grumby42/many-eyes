@@ -1,0 +1,192 @@
+{
+ "chapter": "russia-1917",
+ "add_eyes": [
+  {
+   "id": "botkin",
+   "name": "Dr Evgeny Sergeyevich Botkin",
+   "life": "1865–1918",
+   "role": "Court physician to Nicholas II and Alexandra since 1908, aged 53; chose to stay with the family in captivity",
+   "side": "imperial household",
+   "where": "Ipatiev House ('House of Special Purpose'), Ekaterinburg, May–July 1918",
+   "vantage": 0,
+   "vantage_label": "inside the last prison, a victim",
+   "form": "dated letter (unfinished, unsent)",
+   "language": "Russian",
+   "authenticity": "The letter to his brother Alexander ('Sasha') is headed Ekaterinburg, 26 June (9 July) 1918 and breaks off mid-sentence. White investigators recovered it after the murders. People usually assume it was interrupted when Yurovsky knocked to wake the household around midnight on 16–17 July, but nothing in the letter proves this.",
+   "bio": "Botkin, son of the famous clinician Sergei Botkin, followed the family to Tobolsk and then volunteered to go with them to Ekaterinburg. His letter is the only first-person text from inside the Ipatiev House that is not by a Romanov. It is a doctor's reckoning with duty, faith and the children he had left behind, and he died in the cellar with his patients.",
+   "sources": [
+    {
+     "title": "Eugene Botkin (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Eugene_Botkin"
+    },
+    {
+     "title": "Dr Botkin's letter (translation and commentary, Substack)",
+     "url": "https://juliusskoolafish.substack.com/p/dr-botkins-letter"
+    }
+   ],
+   "lat": 56.8443,
+   "lon": 60.6088
+  },
+  {
+   "id": "okunev",
+   "name": "Nikita Potapovich Okunev",
+   "life": "1868–1936",
+   "role": "Moscow office employee of a steamship company, aged 49; a self-described ordinary townsman",
+   "side": "Moscow 'little man' (obyvatel'), no party",
+   "where": "Moscow, in the streets around Lubyanka during the October fighting (27 October – 2 November O.S.)",
+   "vantage": 2,
+   "vantage_label": "ordinary citizen in a city under fire",
+   "form": "diary",
+   "language": "Russian",
+   "authenticity": "His 'Diary of a Muscovite' covers 1914–1924. Excerpts appeared abroad and in Russia from 1990, and the first complete text, kept by his descendants, was published as 'V gody velikikh potryasenii' (Kuchkovo Pole, Moscow, 2020; ed. K. A. Zalessky). He is among the diarists in the Prozhito corpus. His entries could not be read directly for this edition, so the entry here rests on a dated passage quoted in a secondary article.",
+   "bio": "Okunev wrote down prices, queues, rumours and street scenes, and historians use him as the standard 'man in the street' witness to revolutionary Moscow. His eye supplies what the Petrograd diarists lack: the week of artillery fighting for the Kremlin, seen by a clerk trying to get to the office safe.",
+   "sources": [
+    {
+     "title": "V gody velikikh potryasenii: dnevnik moskovskogo obyvatelya 1914–1924 (Kuchkovo Pole, 2020), mos.ru catalogue",
+     "url": "https://www.mos.ru/knigi/book/2920388/"
+    },
+    {
+     "title": "Author page, Okunev, 'Diary of a Muscovite (1917–1924)' (Vtoraya literatura)",
+     "url": "https://vtoraya-literatura.com/author-22023?lang=en"
+    },
+    {
+     "title": "Novaya Gazeta on Prozhito and its ordinary diarists, incl. Okunev (2017)",
+     "url": "https://novayagazeta.ru/articles/2017/09/27/73973-bez-etih-golosov-narod-nepolnyy"
+    }
+   ],
+   "lat": 55.76,
+   "lon": 37.628
+  }
+ ],
+ "add_entries": [
+  {
+   "date_iso": "1918-07-09",
+   "date_display": "headed 26 June (O.S.) / 9 July 1918 (N.S.); apparently still being written on 16 July",
+   "precision": "range",
+   "eye": "botkin",
+   "place": "Ipatiev House, Ekaterinburg",
+   "headline": "A doctor's unfinished letter: dead but not yet buried",
+   "digest": "Botkin begins what he calls a real letter to his brother Sasha, though he doubts he was ever meant to write to anyone from this house again. He says that for his children and his work he is already a dead man, buried alive in all but name. He describes thinking he saw his dead son Yuri's face and heard his daughter's pet name, and compares leaving his children orphans for the sake of duty to Abraham's readiness to sacrifice Isaac. He then moves on to his medical rounds in Tobolsk, where peasants insisted on paying his cabby, and the letter stops mid-sentence.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Heading date and addressee: https://juliusskoolafish.substack.com/p/dr-botkins-letter ; content, discovery by White investigators and the interruption on the night of 16 July: https://en.wikipedia.org/wiki/Eugene_Botkin . The link to Yurovsky's knock is the traditional reading, not proven."
+  },
+  {
+   "date_iso": "1917-11-14",
+   "date_display": "1 November 1917 O.S. / 14 November N.S.",
+   "precision": "day",
+   "eye": "okunev",
+   "place": "Lubyansky Proezd, Moscow",
+   "headline": "A clerk dodges shrapnel to reach the office safe",
+   "digest": "On the fifth day of the Moscow fighting Okunev tries to reach his office, where he is responsible for large sums of money and documents. Side streets get him only as far as Lubyansky Proezd, because shells, shrapnel and bullets are crossing Lubyanka Square. He hears that the junkers are holding the telephone station and the Kremlin and that the post and telegraph offices are in Bolshevik hands. On his way home he is searched for weapons twice.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Dated passage quoted in a secondary article on the Moscow fighting, https://dtf.ru/flood/4077131-yunkera-oktyabr-1917-borba-za-moskvu ; full edition: Okunev, V gody velikikh potryasenii (2020). Not checked against the printed diary."
+  },
+  {
+   "date_iso": "1917-03-15",
+   "date_display": "early March 1917 (O.S.), days after the February Revolution; exact date not confirmed",
+   "precision": "month",
+   "eye": "sorokin",
+   "place": "Petrograd",
+   "headline": "Starting a diary as the storm breaks",
+   "digest": "Sorokin opens his book half-apologising: a serious scholar keeping a diary is childish, he writes, though it may yet prove useful. His reason is that the revolutionary storm has overtaken them all, and in a few days the authority of the Tsar, the Tsarina and the old government has simply collapsed. The tone is exhilarated and watchful, the voice of a young SR who expects to help build what comes next.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "The opening lines are summarised and quoted (in Russian) in a scholarly article on the diary, Vestnik SPbU ser. 12 (2017), https://vestnik.spbu.ru/html17/s12/s12v4/09.pdf . The article confirms the book starts with the February Revolution but does not give the entry's day."
+  }
+ ],
+ "add_convergences": [
+  {
+   "date": "1918-07-16",
+   "label": "The last night in the Ipatiev House",
+   "eyes": [
+    "alexandra",
+    "botkin"
+   ],
+   "note": "The Empress ends her day with bezique and the time she went to bed. In another room the family doctor is writing his brother a meditation on death and duty, and it breaks off unfinished. Both texts stop within hours of each other."
+  },
+  {
+   "date": "1917-11-12",
+   "label": "Fighting for the telephone exchanges after October: Petrograd and Moscow",
+   "eyes": [
+    "bryant",
+    "okunev"
+   ],
+   "note": "In Petrograd Bryant shelters behind the Angleterre while junkers and Red Guards fight over the telephone exchange. Two days later in Moscow, Okunev hears that junkers are still holding the telephone station and the Kremlin. The same counter-coup is seen in two capitals, by a foreign radical and by a clerk who wants only to reach his office."
+  }
+ ],
+ "add_ties": [
+  {
+   "a": "botkin",
+   "b": "alexandra",
+   "kind": "same street",
+   "note": "Botkin was her physician and was imprisoned under the same roof. Her last diary entry and his unfinished letter were written in the same house on the same night."
+  },
+  {
+   "a": "botkin",
+   "b": "gilliard",
+   "kind": "met",
+   "note": "They served the family together at Tsarskoe Selo and Tobolsk. At Ekaterinburg station in May 1918 Botkin went into the Ipatiev House and Gilliard was turned away, which is why Botkin died and Gilliard lived to write."
+  },
+  {
+   "a": "okunev",
+   "b": "bunin",
+   "kind": "same street",
+   "note": "Both kept diaries in Moscow through the Bolshevik winter, the conservative clerk and the émigré-to-be novelist, and both recorded rumour, prices and fear."
+  }
+ ],
+ "add_images": [
+  {
+   "url": "https://www.marxists.org/archive/bryant/works/russia/Six-Red-Months-illustration-pages.pdf",
+   "title": "Photographs from 'Six Red Months in Russia' (1918)",
+   "caption": "The photographs and illustrations printed in Bryant's 1918 book, collected as a PDF: the people and places she wrote about, as her first readers saw them.",
+   "date": "1917–1918",
+   "credit": "Louise Bryant, Six Red Months in Russia (George H. Doran, 1918); marxists.org"
+  }
+ ],
+ "add_further": [
+  {
+   "title": "Bryant, Six Red Months in Russia, full text (A Celebration of Women Writers, UPenn)",
+   "url": "https://digital.library.upenn.edu/women/bryant/russia/russia.html"
+  },
+  {
+   "title": "Bryant, ch. VIII 'The Fall of the Winter Palace' (marxists.org)",
+   "url": "https://www.marxists.org/archive/bryant/works/russia/ch08.htm"
+  },
+  {
+   "title": "Novaya Gazeta (2017): 'Bez etikh golosov narod nepolnyi', on the Prozhito diary corpus",
+   "url": "https://novayagazeta.ru/articles/2017/09/27/73973-bez-etih-golosov-narod-nepolnyy"
+  }
+ ],
+ "updates": [
+  {
+   "where": "entry:44",
+   "fix": {
+    "digest": "At 2 p.m. Bryant watches Kronstadt sailors break up the Pre-Parliament. She then walks into the Winter Palace on an American passport and learns from an aide that Kerensky has already fled. She spends some three hours with the young junkers on their straw mattresses. One boy says he is saving a last bullet for himself, and outside the women's battalion is stacking firewood into a barricade. At 5:30 she leaves for the Soviet Congress at Smolny and later rides back into the city on a truck of sailors carrying leaflets. Around 2 a.m. at the Ekaterina Canal she sees moderate delegates who had set out to 'die' with the government turned back by twenty sailors. After the surrender she sees the ministers led off, the junkers she had met waving with relief, and a Bolshevik officer telling the searchers not to steal from the people.",
+    "quote": "keeping one bullet for himself",
+    "place": "Mariinsky Palace, Winter Palace, Smolny and Nevsky Prospekt, Petrograd",
+    "confidence": "verified",
+    "source_note": "Six Red Months in Russia (1918), ch. VIII 'The Fall of the Winter Palace' https://www.marxists.org/archive/bryant/works/russia/ch08.htm (read this session). Times as Bryant gives them: 2 p.m., about 3 hours, 5:30 p.m., about 2 a.m., about 5 a.m."
+   },
+   "why": "Read the chapter text: it confirms her presence in the palace in the afternoon, at Smolny, at the Ekaterina Canal standoff and at the surrender. The event dates of 25–26 October O.S. are fixed."
+  },
+  {
+   "where": "entry:56",
+   "fix": {
+    "digest": "Bryant watches from the small reporters' gallery directly above the presidium of the packed Tauride Palace. The Swedish socialist Lindhagen whispers that everyone is armed. Chernov is elected president and is hissed by the left whenever he speaks, and only Tsereteli is heard out with respect by both sides. Sverdlov reads the Soviet declaration, and when it is voted down around 2 a.m. the Bolsheviks and Left SRs walk out. The rump proclaims a democratic federated republic at 3 a.m., and an hour later the Kronstadt guards tell the deputies to go home because they want to sleep.",
+    "quote": "the Assembly died like the Tsardom",
+    "confidence": "verified",
+    "source_note": "Six Red Months in Russia (1918), ch. IX 'The Constituent Assembly', full text https://digital.library.upenn.edu/women/bryant/russia/russia.html (read this session); session opened about 8 p.m. on 5/18 January, closed about 4 a.m."
+   },
+   "why": "Read the chapter text and confirmed its content and the night's timetable as Bryant gives it."
+  },
+  {
+   "where": "eye:sorokin",
+   "fix": {
+    "authenticity": "'Leaves from a Russian Diary' (New York: Dutton, 1924; enlarged as '...and Thirty Years After', Beacon, 1950; Russian edition Syktyvkar 2015) was written up in emigration from his notes. Russian scholars describe it as a selective chronicle of the turning points of his own life, not a day-by-day diary. It runs from the February Revolution to his expulsion in September 1922, and the chapter 'The Abyss' covers November–December 1917. No full text was reachable this session, so individual entry dates remain unverified and his entries are given at month precision."
+   },
+   "why": "The Vestnik SPbU (2017) and BSU Journal of History (2017, 'Pitirim Sorokin: in the abyss of revolution') articles confirm the book's genre, span and chapter. Neither gives day-dated 1917 entries."
+  }
+ ]
+}

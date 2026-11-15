@@ -1,0 +1,425 @@
+import json
+OUT = "/tmp/claude-0/-home-claude/fa284f55-6839-573e-8ba4-d29a7355a349/scratchpad/vol2/ch-delhi-1857.json"
+
+SCALAR = "https://scalar.lehigh.edu/literature-of-colonial-south-asia/mirza-ghalib-dastanbuy-mutiny-diary-1858-excerpts"
+PRITCH = "https://franpritchett.com/00indislam/08ghazal/txt_russell_ghalib_1857.html"
+IITK_MET = "https://www.cse.iitk.ac.in/users/amit/books/metcalfe-1898-two-native-narratives.html"
+SAC_MET = "https://southasiacommons.net/artifacts/4999680/two-native-narratives-of-the-mutiny-in-delhi"
+SAFVI_BAQAR = "https://ranasafvi.com/maulavi-muhammad-baqar-hero-or-traitor-of-1857/"
+LHI_ZAHIR = "https://livehistoryindia.com/story/eras/what-happened-that-day-an-account-of-1857"
+GERMON = "https://gutenberg.org/files/47814/47814-h/47814-h.htm"
+INGLIS = "https://digital.library.upenn.edu/women/inglis/lucknow/lucknow.html"
+INGLIS2 = "https://inglis.uk.com/THE%20%20SIEGE%20OF%20LUCKNOW%20p150-199.htm"
+WILSON = "https://gutenberg.org/cache/epub/53093/pg53093-images.html"
+WILSON2 = "https://gutenberg.org/files/53093/53093-h/53093-h.htm"
+CASE = "https://rshg.org.uk/2006/05/may-2006-day-by-day-at-lucknow/"
+HODSON = "https://gutenberg.org/cache/epub/39448/pg39448-images.html"
+TREV = "https://cse.iitk.ac.in/users/amit/books/trevelyan-1865-cawnpore.html"
+GODSE = "https://en.wikipedia.org/wiki/Vishnubhat_Godse"
+RUSSELL = "https://en.wikipedia.org/wiki/William_Howard_Russell"
+SAFVI_ZAFAR = "https://ranasafvi.com/what-bahadur-shah-zafar-did-on-his-last-day-as-mughal-emperor/amp/"
+SAFVI_17 = "https://ranasafvi.com/17th-september-1857-delhi/amp/"
+
+eyes = [
+ dict(id="ghalib", name="Mirza Asadullah Khan Ghalib", short="Ghalib", life="1797–1869",
+  role="Delhi's most celebrated Urdu and Persian poet, about 60, a pensioned nobleman who had been engaged by Bahadur Shah Zafar to write a Timurid history and to correct the King's verse",
+  side="Delhi Muslim nobility; tied to the Mughal court yet dependent on a British pension",
+  where="His house in Gali Qasim Jan, Ballimaran, inside the walled city of Delhi",
+  lat=28.6565, lon=77.2266, vantage=2, vantage_label="inside the rebel-held city, keeping to his lane",
+  form="journal (Persian narrative-diary, Dastanbuy) and dated letters", language="Persian (Dastanbuy); Urdu (letters)",
+  authenticity="Dastanbuy covers 11 May 1857 to July 1858 and was printed at Agra in 1858. Ghalib wrote it in deliberately archaic, pure Persian and hoped to present it to the British to win back his pension, so it is guarded and in places self-protective. His private Urdu letters of the same months are franker. English translation by Khwaja Ahmad Faruqi (1970).",
+  bio="Ghalib was court poet to a king the British would soon depose, and a British pensioner whose income stopped when the city rose. His diary records the whole fifteen months from inside Delhi: the first day, the rebel summer, the British storming, the emptying of the city. Read beside his letters it shows a man writing for two audiences at once.",
+  sources=[{"title":"Dastanbuy, tr. K. A. Faruqi (1970) — excerpts, Literature of Colonial South Asia (Lehigh)","url":SCALAR},
+           {"title":"Ralph Russell, Ghalib's letters and Dastanbu on 1857 (F. Pritchett site)","url":PRITCH}]),
+ dict(id="jiwanlal", name="Munshi Jiwan Lal (Jeewan Lal)", short="Jiwan Lal", life="dates not confirmed",
+  role="Hindu munshi (secretary) attached to the British Agency and the court in Delhi; a loyalist of the British",
+  side="Delhi loyalist; British Agency staff",
+  where="His house in the walled city of Delhi, in hiding for much of the rebel occupation",
+  lat=28.6505, lon=77.2300, vantage=1, vantage_label="eyewitness in hiding inside the city",
+  form="diary", language="Urdu / Persian (English translation 1898)",
+  authenticity="Kept as a daily diary; Jiwan Lal notes that the British Assistant Resident had copied it. Published in English translation by Charles Theophilus Metcalfe in Two Native Narratives of the Mutiny in Delhi (1898). Only the translation is widely available, and it was edited for a British readership, so his sympathies (openly pro-British) shape it.",
+  bio="Jiwan Lal had worked for the British and was hunted and plundered by the rebels; he welcomed the British return. His diary is one of the few day-by-day records from inside rebel Delhi, full of court gossip, rumours and the King's helplessness. It is the loyalist counterpart to Ghalib's careful neutrality.",
+  sources=[{"title":"Two Native Narratives of the Mutiny in Delhi (Metcalfe, 1898) — Book Excerptise review","url":IITK_MET},
+           {"title":"Two Native Narratives of the Mutiny in Delhi — catalogue record (South Asia Commons)","url":SAC_MET}]),
+ dict(id="mainodin", name="Mainodin Hassan Khan (Mu'in al-Din Hasan Khan)", short="Mainodin", life="dates not confirmed",
+  role="Police officer (thanedar/kotwal) of Paharganj in 1857; under the rebels made chief kotwal of the city",
+  side="Delhi Muslim official; served the rebel government while keeping private sympathy for the British",
+  where="Paharganj police post, then the city kotwali, Delhi",
+  lat=28.6448, lon=77.2167, vantage=1, vantage_label="police officer who served both regimes",
+  form="memoir (written later)", language="Urdu (English translation 1898)",
+  authenticity="A retrospective narrative written after his surrender and acquittal; he asked that it not be published in his lifetime. English translation in Metcalfe, Two Native Narratives (1898); a Hindi version appeared in 1999. Self-justifying: he had good reason to minimise his service to the rebels. Dates are his recollection, not daily entries.",
+  bio="Mainodin had been put into the Delhi police by Thomas Metcalfe in 1848. When the city rose he became chief of police for the rebel government, then fled, travelled to Arabia, and came back to surrender. His account sees the uprising from the desk of the man who had to keep order in it.",
+  sources=[{"title":"Two Native Narratives of the Mutiny in Delhi — Book Excerptise review","url":IITK_MET}]),
+ dict(id="zahir", name="Syed Zahiruddin Hussain 'Zahir Dehlvi'", short="Zahir Dehlvi", life="1835–1911",
+  role="22-year-old poet from an old Delhi family with a place at the Red Fort, a pupil of the court poet Zauq",
+  side="Mughal court",
+  where="The Red Fort and the city; fled Delhi after the British capture",
+  lat=28.6562, lon=77.2410, vantage=1, vantage_label="young courtier inside the Red Fort",
+  waypoints=[{"lat":28.6562,"lon":77.2410,"label":"Red Fort, Delhi, May–Sept 1857"},
+             {"lat":27.5530,"lon":76.6346,"label":"Exile: Alwar"},
+             {"lat":26.9124,"lon":75.7873,"label":"Jaipur"},
+             {"lat":17.3850,"lon":78.4867,"label":"Hyderabad, where he died 1911"}],
+  form="memoir (written later)", language="Urdu",
+  authenticity="Written decades later in exile (under the title Taraz-i-Zahiri), published as Dastan-e-Ghadar in 1914; English translation by Rana Safvi (Penguin, 2017). Vivid and partisan; dates are remembered, not recorded, so entries here are approximate.",
+  bio="Zahir was a young man at the Mughal court when the Meerut troopers rode in. His memoir is the closest thing to a courtier's-eye view of the King's last summer, and of the ruin of the old Delhi aristocracy afterwards, as he drifted from court to court for the rest of his life.",
+  sources=[{"title":"Live History India — What happened that day: an account of 1857 (on Dastan-e-Ghadar)","url":LHI_ZAHIR}]),
+ dict(id="baqar", name="Maulvi Muhammad Baqar (Dehli Urdu Akhbar)", short="Urdu Akhbar", life="c. 1790–1857",
+  role="Editor and publisher of the Dehli Urdu Akhbar, Delhi's first Urdu newspaper (founded 1836–37)",
+  side="Delhi press; turned to the rebel and Mughal cause",
+  where="His press in Delhi",
+  lat=28.6580, lon=77.2300, vantage=2, vantage_label="newspaper inside the rebel capital",
+  form="newspaper (weekly issues)", language="Urdu",
+  authenticity="Sixteen issues survive, from 8 March to 13 September 1857, held in Indian archives and studied by modern historians. This is press, not a diary: editorial voice, rumour and war news mixed, published weekly.",
+  bio="Baqar's weekly paper turned from cautious hints to open encouragement of the sepoys, then renamed itself in the King's honour. He was arrested when the British broke in and shot on 16 September 1857 on William Hodson's order, so he is remembered in India as the first journalist killed for the cause.",
+  sources=[{"title":"Rana Safvi — Maulavi Muhammad Baqar: hero or traitor of 1857?","url":SAFVI_BAQAR},
+           {"title":"Moulvi Muhammad Baqir — Wikipedia","url":"https://en.wikipedia.org/wiki/Moulvi_Muhammad_Baqir"}]),
+ dict(id="hodson", name="William Stephen Raikes Hodson", short="Hodson", life="1821–1858",
+  role="British cavalry officer, head of the Field Force's intelligence and of the irregular horse later called Hodson's Horse",
+  side="British (East India Company army), Delhi Field Force",
+  where="The British camp on the Ridge before Delhi; then Humayun's Tomb",
+  lat=28.6743, lon=77.2155, vantage=0, vantage_label="officer who captured the King",
+  waypoints=[{"lat":28.6743,"lon":77.2155,"label":"Delhi Ridge camp, June–Sept 1857"},
+             {"lat":28.5933,"lon":77.2507,"label":"Humayun's Tomb, 21–22 Sept 1857"},
+             {"lat":26.8467,"lon":80.9462,"label":"Lucknow, killed March 1858"}],
+  form="dated letters", language="English",
+  authenticity="Letters to his wife and family, published by his brother George Hodson as Twelve Years of a Soldier's Life in India (1859). Selected and edited to defend his reputation, which was already contested; his actions of September 1857 were controversial even among British officers.",
+  bio="Hodson ran the spies who reported from inside Delhi, and it was he who negotiated the King's surrender at Humayun's Tomb and, the next day, shot three Mughal princes after they had given themselves up. His letters are a commander's view of the end of the Mughal dynasty, written with a confidence that later readers find chilling.",
+  sources=[{"title":"Twelve Years of a Soldier's Life in India (1859) — Project Gutenberg","url":HODSON}]),
+ dict(id="germon", name="Mrs R. C. Germon", short="Mrs Germon", life="dates not confirmed",
+  role="Wife of Captain Charles Germon of the Bengal Native Infantry, who commanded an outpost during the siege",
+  side="British, Lucknow Residency garrison",
+  where="The Residency compound at Lucknow (Dr Fayrer's house)",
+  lat=26.8606, lon=80.9254, vantage=1, vantage_label="woman inside the besieged Residency",
+  form="diary", language="English",
+  authenticity="Kept daily from May to December 1857 and printed for private circulation in 1870 (Waterlow and Sons). Little revised; names often reduced to initials.",
+  bio="Her diary is a domestic record of the siege: who called, what was eaten, which child was ill, when her husband could slip over from his post for half an hour. Its plainness makes the scale of loss legible day by day.",
+  sources=[{"title":"A Diary Kept by Mrs. R. C. Germon at Lucknow (1870) — Project Gutenberg","url":GERMON}]),
+ dict(id="inglis", name="Julia Selina, Lady Inglis", short="Julia Inglis", life="1833–1904",
+  role="Wife of Brigadier John Inglis of the 32nd Foot, who commanded the Lucknow garrison after Sir Henry Lawrence's death; mother of three small boys",
+  side="British, Lucknow Residency garrison",
+  where="The Residency at Lucknow",
+  lat=26.8610, lon=80.9250, vantage=0, vantage_label="commander's wife inside the Residency",
+  form="diary (published 1892)", language="English",
+  authenticity="Kept as a diary during the siege but published only in 1892 as The Siege of Lucknow: a Diary, with additions (including Captain Birch's notes). Some smoothing and hindsight are likely; the dated structure survives.",
+  bio="Julia Inglis lived beside the man in command, so her diary hears the decisions as they were made: the disastrous sortie to Chinhat, the deaths of the commissioners, the letters smuggled in from the relief columns. She shared quarters with the newly widowed Mrs Case.",
+  sources=[{"title":"The Siege of Lucknow: a Diary (1892) — A Celebration of Women Writers (UPenn)","url":INGLIS},
+           {"title":"The Siege of Lucknow, pp. 150–199 (Sept–Nov 1857) — inglis.uk.com transcription","url":INGLIS2}]),
+ dict(id="case", name="Adelaide Case", short="Adelaide Case", life="dates not confirmed",
+  role="Widow of Lieutenant-Colonel William Case of the 32nd Foot, killed at Chinhat on 30 June 1857; besieged with her sister Caroline Dickson",
+  side="British, Lucknow Residency garrison",
+  where="The Residency at Lucknow, sharing quarters with the Inglis family",
+  lat=26.8608, lon=80.9252, vantage=0, vantage_label="newly widowed inside the Residency",
+  form="journal", language="English",
+  authenticity="Published by Richard Bentley in 1858 as Day by Day at Lucknow: A Journal of the Siege of Lucknow, soon after the events.",
+  bio="Adelaide Case lost her husband on the first day of the siege and kept her journal through the following months as a widow among other women and children. Her entries overlap closely with Julia Inglis's, written in the same rooms.",
+  sources=[{"title":"Day by Day at Lucknow — Richmond Local History Society note (May 2006)","url":CASE},
+           {"title":"Day by Day at Lucknow — National Library of Ireland catalogue","url":"https://catalogue.nli.ie/Record/vtls000161849"}]),
+ dict(id="wilson", name="Thomas Fourness Wilson ('A Staff-Officer')", short="Staff Officer", life="dates not confirmed",
+  role="Staff officer of the Lucknow garrison (published anonymously)",
+  side="British, Lucknow Residency garrison",
+  where="The Residency at Lucknow",
+  lat=26.8604, lon=80.9258, vantage=1, vantage_label="staff officer inside the defences",
+  form="diary", language="English",
+  authenticity="The Defence of Lucknow: a Diary recording the daily events during the siege of the European Residency, from 31st May to 25th September 1857, 'by a Staff-Officer' (Smith, Elder, 1858). The author withheld his name; library records attribute it to T. F. Wilson.",
+  bio="A military diary of the same siege the women recorded, kept by a staff officer: guns lost and taken, mines and countermines, casualties counted. It makes a useful check on the domestic diaries and stops when the first relief arrives.",
+  sources=[{"title":"The Defence of Lucknow (1858) — Project Gutenberg","url":WILSON}]),
+ dict(id="nanakchand", name="Nanak Chand (Nanukchund)", short="Nanak Chand", life="dates not confirmed",
+  role="Indian lawyer (vakil) at Kanpur, engaged in a lawsuit against Nana Sahib on behalf of another claimant",
+  side="Kanpur; a personal enemy of Nana Sahib",
+  where="Kanpur and its neighbourhood, in hiding",
+  lat=26.4499, lon=80.3319, vantage=2, vantage_label="hostile local observer near Kanpur",
+  form="diary (contested)", language="Urdu / Persian (known through English use)",
+  authenticity="A journal said to begin on 15 May 1857, used heavily by British writers such as G. O. Trevelyan (Cawnpore, 1865). It has been widely discredited for inconsistencies; historians suggest much of it was written when the British were collecting evidence, telling them what they wanted to hear. Included here as a source with a contested record, not as reliable testimony.",
+  bio="Nanak Chand's diary underpins much of the standard British story of Kanpur, which is exactly why it must be read with care. It shows how an Indian voice could be drafted into the victors' account.",
+  sources=[{"title":"Trevelyan, Cawnpore (1865) — Book Excerptise review discussing Nanak Chand's diary","url":TREV}]),
+ dict(id="godse", name="Vishnubhat Godse", short="Godse", life="1827–1904",
+  role="Poor Marathi Brahmin priest from Varsai near Pen, travelling north with his uncle to earn money at sacrificial rites",
+  side="Maratha Brahmin; caught between armies",
+  where="On the road through central India; inside Jhansi during the British siege of 1858",
+  lat=25.4580, lon=78.5790, vantage=1, vantage_label="pilgrim-traveller caught in the war",
+  waypoints=[{"lat":18.7400,"lon":73.1000,"label":"Varsai, departs 30 March 1857"},
+             {"lat":22.5500,"lon":75.7600,"label":"Mhow, 1 July 1857"},
+             {"lat":25.4580,"lon":78.5790,"label":"Jhansi, siege April 1858"},
+             {"lat":18.7400,"lon":73.1000,"label":"Home, 1860"}],
+  form="memoir (written later)", language="Marathi",
+  authenticity="Maza Pravas was written from 1883, a quarter-century after the events, and first published in 1907 (edited by C. V. Vaidya); the original manuscript was published in 1966. English translation: Adventures of a Brahmin Priest (OUP). A traveller's memory, not a diary; dates are approximate.",
+  bio="Godse went north to make a living and walked into the uprising. He is one of very few Indian narrators who was neither a soldier nor an official, and his account of Jhansi under siege is the main non-British eyewitness view of Rani Lakshmibai's city.",
+  sources=[{"title":"Vishnubhat Godse — Wikipedia","url":GODSE},
+           {"title":"Maza Pravas — Wikipedia","url":"https://en.wikipedia.org/wiki/Maza_Pravas"}]),
+ dict(id="russell", name="William Howard Russell", short="W. H. Russell", life="1820–1907",
+  role="Irish-born war correspondent of The Times, sent to India after the Crimean War",
+  side="British press",
+  where="London (news only), then Calcutta and the British camp before Lucknow, 1858",
+  lat=26.8467, lon=80.9462, vantage=4, vantage_label="correspondent arriving after the fall of Delhi",
+  waypoints=[{"lat":22.5726,"lon":88.3639,"label":"Calcutta, early 1858"},
+             {"lat":26.4499,"lon":80.3319,"label":"Kanpur"},
+             {"lat":26.8467,"lon":80.9462,"label":"Lucknow, March 1858"}],
+  form="diary (published)", language="English",
+  authenticity="My Diary in India, in the Year 1858–9 (2 vols, 1860), built from his daily journal and his Times letters. He arrived after the Delhi and first Lucknow phases, so he writes about the aftermath and the reprisals.",
+  bio="Russell came late, but he was the first reporter in India with a European reputation and a habit of writing down what officers preferred left out, including British looting and cruelty. His outsider's eye is a counterweight to the garrison diaries.",
+  sources=[{"title":"William Howard Russell — Wikipedia","url":RUSSELL},
+           {"title":"My Diary in India — Cambridge Library Collection reprint","url":"https://www.cambridge.org/core/product/identifier/9780511783098/type/book"}]),
+]
+
+E = []
+def e(date_iso, date_display, precision, eye, place, headline, digest, quote, confidence, source_note):
+    E.append(dict(date_iso=date_iso, date_display=date_display, precision=precision, eye=eye, place=place,
+                  headline=headline, digest=digest, quote=quote, confidence=confidence, source_note=source_note))
+
+# ---- May 1857 ----
+e("1857-05-11","Monday 11 May 1857 (16 Ramazan 1273 AH)","day","ghalib","Ballimaran, Delhi",
+  "At noon the walls of the fort seem to shake",
+  "Ghalib dates the outbreak to noon on 16 Ramazan. He describes a shock that ran through the walls of the Red Fort and across the city, and insists it was no earthquake but the arrival of mutinous troopers from Meerut, let in, he suspects, by the gate guards. By evening he had heard that the British officer of the palace guard and the Agent had been killed. He writes as a man shutting his door and waiting.",
+  "","verified","Dastanbuy, tr. Faruqi (1970), opening section, as excerpted on the Lehigh Scalar archive.")
+e("1857-05-11","Monday 11 May 1857, 8–9 a.m.","day","jiwanlal","Delhi, near the British offices",
+  "Rumours of Meerut troopers plundering in the city",
+  "Between eight and nine in the morning Jiwan Lal had just called on Captain Douglas when word spread that soldiers from Meerut were looting and killing in the streets. Court clerks begged him not to leave the building. He heard that the bank had already been robbed. From this day he records the city from behind closed doors.",
+  "","verified","Metcalfe, Two Native Narratives (1898), Jiwan Lal's diary pp. 75–76, as summarised by the IIT Kanpur Book Excerptise review.")
+e("1857-05-11","11 May 1857 (recalled)","day","zahir","Red Fort, by the river front",
+  "Smoke across the Yamuna, horsemen at the Rajghat gate",
+  "Zahir recalls a crowd gathered below the Musamman Burj to see the King at his window. A column of smoke rose across the river and riders brought word of an unknown army on the road from Meerut. The troopers came in at the Rajghat gate, which bathers waiting at the river had pressed the keepers to open. Panic, he writes, ran through the fort faster than the horsemen.",
+  "","approx","Dastan-e-Ghadar (1914), tr. Rana Safvi (2017), as described by Live History India. Remembered decades later.")
+e("1857-05-11","11 May 1857 (recalled)","day","mainodin","Paharganj police post, Delhi",
+  "A police officer hears the cavalry has come from Meerut",
+  "Mainodin, in charge of the Paharganj police post outside the walls, describes the news reaching him that the Meerut troopers had crossed the bridge of boats and gone to the palace. His narrative tells of the collapse of British authority within hours and of officials like himself left to decide whom to serve. He wrote it years later, after his own surrender, and is careful to stress what he did to protect Europeans.",
+  "","approx","Metcalfe, Two Native Narratives (1898), Mainodin's narrative (retrospective); IIT Kanpur review for his role. Specific actions not independently verified.")
+e("1857-05-15","Friday 15 May 1857","day","germon","Lucknow",
+  "Terrible news from Meerut and Delhi reaches Lucknow",
+  "Four days after the outbreak, a visitor told Mrs Germon the news from Meerut and Delhi. Her diary records alarm but not yet siege: the British in Lucknow were still living in their own bungalows, wondering whether their own regiments would stay loyal.",
+  "","verified","Germon, Diary (1870), entry for 15 May.")
+e("1857-05-15","15 May 1857","day","nanakchand","Kanpur",
+  "A Kanpur lawyer begins his journal",
+  "According to the British writers who used it, Nanak Chand began his journal on 15 May, as news of Delhi spread to Kanpur and the Nana Sahib offered help to the British. Because the diary was later used as evidence and is widely doubted, even this opening date should be taken as the diary's own claim.",
+  "","approx","Trevelyan, Cawnpore (1865), as discussed in the IIT Kanpur review; authenticity disputed (S. B. Chaudhuri, R. Mukherjee).")
+e("1857-05-17","Sunday 17 May 1857 (issue date)","day","baqar","Delhi",
+  "First issue since the rising hints at fallen tyrants",
+  "The first number of the Dehli Urdu Akhbar after 11 May reported the coming of the troopers but did not yet openly side with them. Instead Baqar wrote obliquely of how conquerors such as Genghis Khan had risen and fallen. Readers in a city still unsure who would win could take it as they liked.",
+  "","verified","Rana Safvi, 'Maulavi Muhammad Baqar', citing surviving issues.")
+e("1857-05-24","24 May 1857 (issue date)","day","baqar","Delhi",
+  "The paper tells the sepoys the British will fall",
+  "A week later the tone had hardened. The paper encouraged the sepoys, arguing that all tyrants and great powers pass away and the British would too. By June it was appealing to Hindus and Muslims as fellow countrymen to stand together.",
+  "","verified","Rana Safvi, 'Maulavi Muhammad Baqar'.")
+e("1857-05-30","Saturday 30 May 1857","day","germon","Lucknow Residency area",
+  "The Lucknow regiments rise; her husband rides in",
+  "That night the native infantry in the Lucknow cantonment rose, starting with the 71st. Her husband Charlie rode in from the lines and told her the Brigadier had been shot beside him. Within a day the British had begun crowding into the Residency enclosure.",
+  "","verified","Germon, Diary (1870), entry for 30 May.")
+
+# ---- June–July ----
+e("1857-06-27","27 June 1857","day","nanakchand","Kanpur, Satichaura Ghat",
+  "The Kanpur garrison goes down to the boats",
+  "After three weeks under fire in General Wheeler's entrenchment, the British garrison at Kanpur accepted Nana Sahib's offer of safe passage to Allahabad and went down to boats at Satichaura Ghat, where they were attacked; most of the men were killed and surviving women and children taken prisoner. Nanak Chand's diary gives an account of the day hostile to the Nana. It is a key text for the British narrative and one of the most doubted.",
+  "","approx","Siege dates per FIBIS wiki (Siege of Cawnpore, June 1857); diary as used by Trevelyan (1865); contents not independently verified.")
+e("1857-06-30","Tuesday 30 June 1857","day","germon","Lucknow Residency",
+  "Chinhat: a fearful morning, and the siege begins",
+  "A column of about 300 Europeans, guns and loyal sepoys marched out to meet the rebel army at Chinhat and was routed. Charlie Germon came back alive, but several officers did not, and many men fell exhausted in the heat on the retreat. By afternoon the Residency was surrounded.",
+  "It was a fearful morning, never to be forgotten","verified","Germon, Diary (1870), entry for 30 June.")
+e("1857-06-30","30 June 1857","day","inglis","Lucknow Residency",
+  "Her husband walks back from a lost battle",
+  "Julia Inglis records the sortie to Chinhat, undertaken against Sir Henry Lawrence's better judgement, and its collapse when the native gunners and cavalry failed. Her husband's horse was shot and he walked three miles back. He brought the news that Colonel Case was dead, and she had to see the widow.",
+  "Poor Case!","verified","Inglis, The Siege of Lucknow: a Diary (1892), entry for 30 June (UPenn text).")
+e("1857-06-30","30 June 1857","day","wilson","Lucknow Residency",
+  "A staff officer counts the guns lost at Chinhat",
+  "The staff officer's diary gives the military bones: a force of about 300 left at dawn to reconnoitre, met far larger numbers, was nearly surrounded and fell back, losing an eight-inch howitzer and three 9-pounders. That howitzer, he notes later, was turned on the Residency.",
+  "","verified","The Defence of Lucknow (1858), entry for 30 June (Gutenberg).")
+e("1857-06-30","30 June 1857","day","case","Lucknow Residency",
+  "Widowed on the first day of the siege",
+  "Adelaide Case's husband, commanding the 32nd at Chinhat, was among the first killed. Her journal of the siege begins in grief: she and her sister moved in with the Inglis family and the days that followed were lived with other women in the same crowded rooms.",
+  "","approx","Day by Day at Lucknow (1858); husband's death and shared quarters confirmed by Inglis's diary, 30 June. Exact wording of her entry not seen.")
+e("1857-07-01","1 July 1857","day","godse","Mhow, Central India",
+  "A travelling priest reaches a cantonment in uproar",
+  "Godse and his uncle had left home on 30 March hoping to earn money at a great sacrifice in the north. He recalls reaching Mhow on 1 July, just as the uprising arrived there, and finding the roads unsafe in every direction. Without meaning to, they had walked into the war.",
+  "","approx","Vishnubhat Godse — Wikipedia (dates from Maza Pravas); memoir written from 1883.")
+e("1857-07-02","Thursday 2 July 1857","day","wilson","Lucknow Residency",
+  "Sir Henry Lawrence is struck by a shell",
+  "A shell burst in Sir Henry Lawrence's room and wounded him mortally. Before he died he named Major Banks as Chief Commissioner and Colonel Inglis to command the troops. The staff officer also records that the old fort of Machchi Bhawan had been blown up the night before, its garrison safely withdrawn into the Residency.",
+  "Sir Henry Lawrence's wound was mortal","verified","The Defence of Lucknow (1858), entries for 1–2 July.")
+e("1857-07-04","Saturday 4 July 1857","day","germon","Lucknow Residency",
+  "Servants gone, the ladies do the work; Lawrence dies",
+  "Most of the servants had slipped away the day before, so the women were cooking and washing for themselves. On the 4th Sir Henry Lawrence died and was buried that night in a shared grave, without ceremony, because the firing never stopped.",
+  "Poor Sir Henry died in the morning","verified","Germon, Diary (1870), entries for 3–4 July.")
+e("1857-07-04","4 July 1857","day","inglis","Lucknow Residency",
+  "The commander's wife mourns Lawrence",
+  "Julia Inglis notes Lawrence's death after great pain and calls him a good man and a true Christian. With Lawrence gone her husband now commanded the troops, and his responsibilities fill the diary from here.",
+  "Poor Sir Henry died to-day","verified","Inglis, Siege of Lucknow (1892), entry for 4 July.")
+e("1857-07-12","Sunday 12 July 1857 (issue date)","day","baqar","Delhi",
+  "The paper renames itself in the King's honour",
+  "Baqar renamed his paper Akhbar-uz-Zafar after Bahadur Shah Zafar and moved it from Saturday to Sunday, a small act of defiance against the British week. A week later he printed verses of Sa'di on the oneness of humankind.",
+  "","verified","Rana Safvi, 'Maulavi Muhammad Baqar', citing surviving issues of 12 and 19 July.")
+e("1857-07-25","Saturday 25 July 1857","day","inglis","Lucknow Residency",
+  "A letter says Havelock will come in five days",
+  "A letter from Colonel Tytler reached the garrison promising that General Havelock's force was near Kanpur and would arrive within days. Julia Inglis records the hope it brought. It would be two months before he came.",
+  "","verified","Inglis, Siege of Lucknow (1892), entry for 25 July.")
+
+# ---- August ----
+e("1857-08-05","Wednesday 5 August 1857","day","germon","Lucknow Residency",
+  "An ordinary day: rain, a husband's half-hour visit",
+  "Little firing. Charlie made his usual half-hour visit from his outpost and a heavy shower came on, so she sent him back wrapped in her shawl. She watched enemy regiments parade before the Redan and march off toward the Kanpur road.",
+  "","verified","Germon, Diary (1870), entry for 5 August.")
+e("1857-08-05","5 August 1857","day","wilson","Lucknow Residency",
+  "Clearing drains against the stench; no reply from Havelock",
+  "No answer to the letters sent out to the relief force. Heavy rain; men were set to clear the drains to fight the smell. The staff officer saw the same enemy columns Mrs Germon watched, marching toward the Kanpur road, and recorded shelling at sunset.",
+  "","verified","The Defence of Lucknow (1858), entry for 5 August.")
+e("1857-08-06","Thursday 6 August 1857","day","case","Lucknow Residency",
+  "Half rations, and a young officer loses an arm",
+  "A shell and a bullet landed close to the household. Adelaide Case recorded that young Mr Studdy of the 32nd had lost an arm to a round shot, and that the garrison had gone onto half rations.",
+  "","verified","Day by Day at Lucknow (1858), entry for 6 August, as summarised by the Richmond Local History Society.")
+e("1857-08-06","6 August 1857","day","wilson","Lucknow Residency",
+  "The same shot, from the staff officer's side",
+  "The staff officer records Ensign Studdy's arm smashed by a 24-pounder shot at breakfast and amputated; Studdy died three days later. A messenger came back with a reply hinting that Havelock had fallen back toward Kanpur.",
+  "","verified","The Defence of Lucknow (1858), entries for 6 and 9 August.")
+e("1857-08-18","Tuesday 18 August 1857","day","germon","Lucknow Residency",
+  "A mine breaches the Sikh Square; a friend's baby dies",
+  "An enemy mine blew in part of the Sikh Square defences and the attack that followed was beaten back. In the household, a neighbour's youngest child died before dawn of the hunger and heat that were killing many small children. The next night the baby was sewn into a cloth and carried away for burial.",
+  "","verified","Germon, Diary (1870), entries for 17–19 August.")
+
+# ---- September: Delhi ----
+e("1857-09-13","13 September 1857 (issue date)","day","baqar","Delhi",
+  "The last surviving issue, on the eve of the assault",
+  "The last surviving number of the paper is dated the day before the British stormed the city. The next day Baqar was arrested as the British broke in at the Kashmir Gate, and on 16 September he was shot without trial on Hodson's order.",
+  "","verified","Rana Safvi, 'Maulavi Muhammad Baqar' (16 issues survive, 8 March–13 Sept 1857).")
+e("1857-09-14","14 September 1857","day","jiwanlal","Delhi, in hiding",
+  "The British storm the Kashmir Gate",
+  "Jiwan Lal's diary records the British assault breaking into the city from the north and the slow, house-by-house fighting of the following days. For a loyalist in hiding it meant rescue was near, but also that soldiers on both sides were looting every house they reached.",
+  "","approx","Metcalfe, Two Native Narratives (1898); assault date standard. Entry wording not seen.")
+e("1857-09-14","mid-September 1857","range","ghalib","Ballimaran, Delhi",
+  "His lane is sealed and guarded as the city falls",
+  "When the British broke in, Ghalib's lane survived because its gate was closed and guarded by soldiers of the Raja of Patiala, whose service employed the physician family who lived there. For days no one could go out for food or water; they drank brackish rainwater until carriers were let out under guard.",
+  "","approx","Dastanbuy as summarised in Ralph Russell's selection (Pritchett site); exact days not given.")
+e("1857-09-17","night of 17 September 1857 (family tradition)","day","zahir","Red Fort, Delhi",
+  "The King prepares to leave the fort",
+  "As the British advanced through the city, the court began to break up. Zahir recalls the confusion in the fort as the King hesitated between the rebel commander Bakht Khan, who urged him to fight on from the hills, and those who wanted him to stay. A family tradition dates the King's departure by boat from the Khizri Gate to this night; other accounts place it on the 19th or 20th.",
+  "","approx","Dastan-e-Ghadar (1914), via Live History India; Rana Safvi, '17th September 1857' (Begumat ke Aansu tradition). Dates differ between sources.")
+e("1857-09-20","20 September 1857","day","jiwanlal","Delhi",
+  "The King has gone to Humayun's Tomb",
+  "With the British taking the palace, Bahadur Shah left the Red Fort for the shrine of Nizamuddin and then the great tomb of his ancestor Humayun south of the city. Jiwan Lal, close to the British intelligence network, records the departure and the efforts of informers to persuade the old King not to flee further.",
+  "","approx","Departure date per Rana Safvi, 'What Bahadur Shah Zafar did on his last day'; Jiwan Lal's entry wording not seen.")
+e("1857-09-21","21 September 1857","day","hodson","Humayun's Tomb, Delhi",
+  "Hodson takes the surrender of the last Mughal emperor",
+  "Hodson rode out with a small party of irregular horse to Humayun's Tomb and, after negotiation through intermediaries, received the surrender of Bahadur Shah Zafar on a promise that his life would be spared. He brought the King back through the city as a prisoner. His letters treat it as the crowning stroke of the siege.",
+  "","approx","Twelve Years of a Soldier's Life in India (1859), letters of late Sept 1857; capture date per Rana Safvi. Letter dates and wording not checked.")
+e("1857-09-22","22 September 1857","day","hodson","Near Humayun's Tomb, Delhi",
+  "Three princes shot after surrendering",
+  "The next day Hodson returned to the tomb for the King's sons and grandson, who gave themselves up. On the road back to the city, with a crowd gathering, he had them disarmed and shot them himself. His letters defend the act; many British officers condemned it, and in India it is remembered as the moment the dynasty was extinguished.",
+  "","approx","Twelve Years of a Soldier's Life in India (1859); events standard (see Mirza Mughal, Wikipedia). Letter wording not checked.")
+
+# ---- September: Lucknow first relief ----
+e("1857-09-18","Friday 18 September 1857","day","case","Lucknow Residency",
+  "Bricks fall in the courtyard; still no relief",
+  "A shell brought bricks down in the courtyard and a great piece of wood was fired into the square where the women lived. A week before the relief, Adelaide Case's journal is still a record of narrow escapes inside a shrinking world.",
+  "","verified","Day by Day at Lucknow (1858), entry for 18 September (RLHS summary).")
+e("1857-09-23","Wednesday 23 September 1857","day","inglis","Lucknow Residency",
+  "A smuggled note from Outram: help is coming",
+  "A messenger brought in a letter from General Outram dated three days earlier: the army had crossed the river and was on its way. He warned the garrison not to venture far out to meet them.",
+  "We are coming to save you.","verified","Inglis, Siege of Lucknow (1892), entry for 23 September (inglis.uk.com, pp. 150–199).")
+e("1857-09-25","Friday 25 September 1857","day","inglis","Lucknow Residency",
+  "Cheering at six: Havelock and Outram fight their way in",
+  "The relieving column was seen in the afternoon, and at about six o'clock cheering told the garrison they had got in. Havelock greeted Julia and her husband. The cost was heavy: General Neill was killed at the gateway and wounded men were left in the streets. With the relief came confirmation of what had happened at Kanpur.",
+  "Thank God for this!","verified","Inglis, Siege of Lucknow (1892), entry for 25 September.")
+e("1857-09-26","Saturday 26 September 1857","day","inglis","Lucknow Residency",
+  "Reinforced, not relieved",
+  "Havelock and Outram breakfasted with the Inglises. The new arrivals were too few and had too many wounded to bring everyone out, so the garrison was reinforced rather than rescued, and the siege closed around a larger force.",
+  "","verified","Inglis, Siege of Lucknow (1892), entry for 26 September.")
+
+# ---- Oct–Dec ----
+e("1857-10-05","Monday 5 October 1857","day","ghalib","Ballimaran, Delhi",
+  "Soldiers come over the rooftops and take him for questioning",
+  "British soldiers climbed across the roofs into his lane, entered his house and marched him, his two young foster sons, servants and neighbours to Colonel Burn. He was questioned and released the same day. He records it in measured Persian, as an ordeal survived.",
+  "","verified","Dastanbuy, tr. Faruqi (1970), Lehigh Scalar excerpt; Pritchett/Russell summary.")
+e("1857-10-09","Friday 9 October 1857","day","inglis","Lucknow Residency",
+  "News reaches Lucknow that Delhi has fallen",
+  "Three weeks after the event, word came into the Residency that Delhi had been taken, with heavy losses. For the garrison it meant that the main rebel army had lost its capital, and that more British troops might now be free to come for them.",
+  "","verified","Inglis, Siege of Lucknow (1892), entry for 9 October.")
+e("1857-10-19","19 October 1857","day","ghalib","Ballimaran, Delhi",
+  "He learns his brother is dead",
+  "Ghalib's younger brother Yusuf, long mentally ill, lived elsewhere in the city. Cut off by the guarded lane, Ghalib heard only on 19 October that he had died after five days of fever, and had to arrange a burial in a city emptied of its people.",
+  "","verified","Dastanbuy, as summarised by Ralph Russell (Pritchett site).")
+e("1857-11-17","Tuesday 17 November 1857","day","inglis","Lucknow Residency",
+  "Red coats at the mess-house; orders to leave",
+  "Red-jacketed troops of Sir Colin Campbell's army were seen at the 32nd's mess-house, and officers got through to the Residency. That evening came the order that the whole garrison would abandon the Residency the next night.",
+  "the fiat went forth for immediate relinquishment","verified","Inglis, Siege of Lucknow (1892), entry for 17 November.")
+e("1857-11-19","Thursday 19 November 1857","day","inglis","From the Residency to the Secundra Bagh",
+  "Walking out of the Residency at four o'clock",
+  "After a day's delay to make ready the sick and wounded, Julia Inglis and her children left at four o'clock, partly on foot and partly in a coolie-drawn carriage, and reached the Secundra Bagh, where the women and children of the garrison were gathering. The garden had been stormed by Campbell's troops three days earlier.",
+  "","verified","Inglis, Siege of Lucknow (1892), entries for 18–19 November.")
+e("1857-12-05","5 December 1857","day","ghalib","Ballimaran, Delhi",
+  "To a friend: I am afraid to write",
+  "In an Urdu letter to his pupil Hargopal Tafta, Ghalib says he took no part in the rebels' policies and only went on correcting verse. He describes how Delhi's people had been driven out of the city, and says he is afraid to put more on paper.",
+  "","verified","Letter to Tafta, 5 Dec 1857, in Ralph Russell's selection (Pritchett site).")
+
+# ---- 1858 ----
+e("1858-01-14","14 January 1858","day","ghalib","Delhi",
+  "Explaining himself to the Nawab of Rampur",
+  "Writing to the Nawab of Rampur, Ghalib says that during the rebel months he had kept outwardly friendly with the court and inwardly apart from it, to protect his house and life. It is the same line he takes in Dastanbuy: a poet who survived by staying small.",
+  "","verified","Letter to the Nawab of Rampur, 14 Jan 1858, in Ralph Russell's selection (Pritchett site).")
+e("1858-03-15","March 1858","month","russell","British camp before Lucknow",
+  "The Times man watches Lucknow retaken",
+  "Russell reached India in early 1858 and joined Sir Colin Campbell's headquarters for the final recapture of Lucknow in March. His diary records the storming of the city's palaces and the looting that followed, which he described with a frankness that embarrassed the army.",
+  "","approx","William Howard Russell — Wikipedia (witnessed the final recapture of Lucknow, 1858); My Diary in India (1860). Day-level dates not checked.")
+e("1858-04-03","3–4 April 1858","range","godse","Inside Jhansi",
+  "Inside Jhansi as Sir Hugh Rose's troops storm the city",
+  "Godse was in Jhansi when the British under Sir Hugh Rose stormed the walls. His memoir describes the Rani's preparations, the bombardment, and the killing and plunder in the streets after the city fell, which he survived by hiding. It is the main Indian eyewitness account of Jhansi's fall.",
+  "","approx","Assault 3–4 April 1858 per Wikipedia (Vishnubhat Godse); Maza Pravas written from 1883, published 1907.")
+e("1858-11-18","18 November 1858","day","ghalib","Delhi",
+  "Why he wrote in pure Persian",
+  "Writing to his friend Sarur, Ghalib sums up: the disorders began on 11 May 1857, and he had set down their history in an old, pure Persian with no Arabic words. Choosing a language no one else wrote made the book a performance of detachment, a year after the city he knew had gone.",
+  "","verified","Letter to Sarur, 18 Nov 1858, in Ralph Russell's selection (Pritchett site).")
+
+E.sort(key=lambda x: (x["date_iso"], x["eye"]))
+
+chapter = dict(
+ id="delhi-1857",
+ title="Delhi, 1857: The Last Mughal Summer",
+ short_title="Delhi, 1857",
+ subtitle="The Indian Uprising of 1857–58: Delhi, Kanpur, Lucknow, Jhansi",
+ span="1857–1858",
+ intro=[
+  "On 10 May 1857 sepoys of the Bengal Army at Meerut rose, freed their comrades who had been jailed for refusing the new greased cartridges, and rode through the night to Delhi. On 11 May they entered the city and put themselves under the 82-year-old Bahadur Shah Zafar, the last Mughal emperor, who until that morning had been a pensioner of the East India Company. Within weeks the rising had spread across the Gangetic plain. Kanpur's British garrison surrendered in June and was destroyed; the British Residency at Lucknow was besieged from 30 June; a small British army sat on the Ridge outside Delhi all summer, and stormed the city between 14 and 20 September.",
+  "This chapter sets Indian and British witnesses side by side, and the record is uneven. The British side left many daily diaries, especially from the women of the Lucknow Residency, printed within months. The Indian side left fewer: Ghalib's Persian journal and Urdu letters, a loyalist secretary's diary, the surviving issues of a Delhi newspaper, and memoirs written years or decades later by men who had reason to be careful. Several of those memoirs were shaped by fear of British retribution, and one Kanpur diary is widely doubted. Their form tags here say so plainly, and many of their entries are marked approximate.",
+  "The clusters are where the voices meet. On 11 May four Delhi witnesses describe the same morning from a poet's lane, a clerk's office, a police post and the palace riverfront. On 30 June four people inside the Lucknow Residency record the defeat at Chinhat that began their siege. In early August two diarists in the Residency describe the same cannon shot. In mid-September Delhi falls, the King leaves the fort, and a British officer takes him prisoner at his ancestor's tomb. In November the Lucknow garrison walks out to the Secundra Bagh.",
+  "Kanpur and the reprisals are handled soberly. Both sides killed prisoners and civilians: the British garrison and its families at Kanpur in June and July, and many thousands of Indians, combatant or not, in the British advance and the retaking of Delhi and Lucknow. The diarists record what they knew and heard. This chapter reports the events and their scale without dwelling on detail.",
+  "Read together, these eyes show a war that each side saw as a betrayal. The British writers saw a mutiny by trusted servants. The Indian writers saw the end of their world: Delhi's old society scattered, its poets silenced or in exile, and its last emperor sent to Rangoon. When Ghalib writes that he is afraid to put more on paper, he is telling us why the Indian side of this chapter is quieter."
+ ],
+ calendar_note="All dates are Gregorian. Ghalib dates the outbreak by the Islamic calendar (Monday 16 Ramazan 1273 AH = 11 May 1857), shown in date_display where he uses it. Several Indian accounts (Zahir, Mainodin, Godse) are memoirs whose dates are remembered rather than recorded, and the King's departure from the Red Fort is placed between 17 and 20 September by different sources.",
+ eyes=eyes,
+ entries=E,
+ convergences=[
+  {"date":"1857-05-11","label":"The Meerut troopers enter Delhi","eyes":["ghalib","jiwanlal","zahir","mainodin"],"note":"Four Delhi witnesses describe the same morning. Ghalib shuts his door and records it in high Persian, the loyalist Jiwan Lal stays inside a government building listening to rumours, the young courtier Zahir watches the smoke from the palace riverfront, and the policeman Mainodin later explains how he survived serving both regimes."},
+  {"date":"1857-06-30","label":"Chinhat: the siege of the Lucknow Residency begins","eyes":["germon","inglis","wilson","case"],"note":"The same defeat as seen by a captain's wife, the commander's wife, a staff officer counting guns, and a woman widowed that morning. Inglis reports the dead colonel; Case is his widow."},
+  {"date":"1857-08-06","label":"An ordinary siege week in the Residency","eyes":["germon","wilson","case"],"note":"Germon and the staff officer watch the same rebel columns march toward the Kanpur road on the 5th; Case and the staff officer both record the shot that took Ensign Studdy's arm on the 6th, one as household news, the other as a casualty return."},
+  {"date":"1857-09-20","label":"Delhi falls; the King leaves the Red Fort and is taken","eyes":["zahir","jiwanlal","hodson","ghalib","baqar"],"note":"The courtier sees the court dissolve, the loyalist records the King's flight to Humayun's Tomb, and Hodson writes of capturing him and shooting the princes. Ghalib is sealed in his guarded lane, and Baqar has already been shot."},
+  {"date":"1857-11-17","label":"Campbell's relief and the evacuation of Lucknow","eyes":["inglis","case"],"note":"Inglis records the red coats at the mess-house and the walk to the Secundra Bagh. Case, in the same household, left with her. The Beato photographs of the Secundra Bagh (below) were taken a few months later."}
+ ],
+ ties=[
+  {"a":"hodson","b":"baqar","kind":"opposite sides","note":"Baqar was arrested as the British broke in and shot without trial on 16 September 1857 on Hodson's order."},
+  {"a":"hodson","b":"zahir","kind":"opposite sides","note":"Hodson captured the King whom Zahir served, and killed the princes of the court Zahir describes."},
+  {"a":"jiwanlal","b":"mainodin","kind":"read each other","note":"Their two accounts were translated together by Charles Theophilus Metcalfe in Two Native Narratives of the Mutiny in Delhi (1898); one a loyalist's diary, the other a rebel official's memoir."},
+  {"a":"ghalib","b":"zahir","kind":"same street","note":"Both were Delhi poets tied to Bahadur Shah's court; Ghalib corrected the King's verse, and Zahir was a pupil of Zauq, Ghalib's great rival at court."},
+  {"a":"ghalib","b":"baqar","kind":"same street","note":"Both men worked in Delhi's Urdu literary world; Baqar's paper printed the King's and the city's poetry, while Ghalib was writing the dynasty's history."},
+  {"a":"inglis","b":"case","kind":"met","note":"After Colonel Case was killed at Chinhat, Adelaide Case and her sister Caroline Dickson lived with the Inglis family; Julia Inglis's diary notes Miss Dickson's smallpox on 23 July."},
+  {"a":"germon","b":"inglis","kind":"same street","note":"Both kept diaries inside the same Residency compound and record the same deaths of Lawrence (4 July) and the same false hopes of relief."},
+  {"a":"wilson","b":"inglis","kind":"same street","note":"The staff officer worked under Brigadier Inglis, Julia's husband, after Lawrence's death; his diary stops on 25 September, the day Julia records the relief."},
+  {"a":"nanakchand","b":"inglis","kind":"mentioned","note":"News of Kanpur reached the Lucknow garrison when Havelock's column broke in on 25 September; Nanak Chand's diary later became a main British source for those events."}
+ ],
+ threads_out=[
+  {"to":"opium-war","note":"In June 1857 Lord Elgin, on his way to China for the Second Opium War, answered Canning's appeal and diverted the British troops of the China expedition to Calcutta. This delayed the campaign against Canton until late 1857 and helped hold Bengal during the uprising."},
+  {"to":"v1:us-civil-war","note":"William Howard Russell, who covered the retaking of Lucknow and the reprisals of 1858, went on to report the American Civil War for The Times. My Diary North and South (1863) is his diary of that war."}
+ ],
+ images=[
+  {"url":"https://wellcomecollection.org/works/db4kb8mg","title":"The Secundra Bagh showing the breach and gateway","caption":"Felice Beato's photograph of the breach in the Secundra Bagh at Lucknow, stormed by Sir Colin Campbell's troops on 16 November 1857. Three days later the Residency's women and children, Julia Inglis among them, gathered here on their way out.","date":"c. 1858","credit":"Felice Beato; Wellcome Collection"},
+  {"url":"https://wellcomecollection.org/works/gkptkudf","title":"Secundra Bagh, Lucknow","caption":"Another Beato view of the Secundra Bagh courtyard months after the fighting, showing the remains of rebel dead still on the ground. It is one of the first war photographs to show the dead, and historians have asked whether the scene was arranged for the camera. Shown here as evidence of the scale of the killing, not for its detail.","date":"c. 1858","credit":"Felice Beato; Wellcome Collection (public domain)"},
+  {"url":"https://luminous-lint.com/phoenix/virtual_exhibits/single/_THEME_War_Indian_Mutiny_01/checklist/","title":"Photographs of the Indian Mutiny (virtual exhibit)","caption":"A checklist of 1857–58 photographs, including Beato's views of Lucknow and Delhi, among the first sustained photographic coverage of a war's aftermath.","date":"1857–1859","credit":"Luminous-Lint (compiler); various photographers"}
+ ],
+ further=[
+  {"title":"Rana Safvi — What Bahadur Shah Zafar did on his last day as Mughal emperor","url":SAFVI_ZAFAR},
+  {"title":"Rana Safvi — 17th September 1857, Delhi","url":SAFVI_17},
+  {"title":"Sahapedia — How Ghalib mourned the loss of Delhi during the 1857 revolt","url":"https://www.sahapedia.org/how-ghalib-mourned-loss-delhi-during-1857-revolt"},
+  {"title":"Dastanbuy: review of Faruqi's translation (Modern Asian Studies)","url":"https://www.cambridge.org/core/journals/modern-asian-studies/article/dastanbuy-a-diary-of-the-indian-revolt-in-1857-by-mirza-asadullah-khan-ghalib-translated-with-introduction-by-khwaja-ahmad-faruqi-asia-publishing-house-london-1970-pp-96-rs-1750-275/8AE22CEF5ED866D35A07AD77FAC8FEE2"},
+  {"title":"FIBIS — Siege of Cawnpore, June 1857","url":"https://wiki.fibis.org/w/Siege_of_Cawnpore_Jun_1857"},
+  {"title":"Roberts, Letters Written During the Indian Mutiny (1924) — Royal Collection record","url":"https://col.rct.uk/collection/1024189/letters-written-during-the-indian-mutiny-by-fred-roberts-with-a-preface-by-his"},
+  {"title":"Charles Reid (Indian Army officer) — Wikipedia (Extracts from letters and notes written during the siege of Delhi, 1858)","url":"https://en.wikipedia.org/wiki/Charles_Reid_(Indian_Army_officer)"},
+  {"title":"Katherine Harris, A Lady's Diary of the Siege of Lucknow — She Wrote record","url":"https://shewrote.rich.ru.nl/works/8548f747-5929-4627-81f7-af76721a36f8"}
+ ],
+ vantage_key="0 = principal actor or direct victim (the commander's household, the widowed, the officer who took the King); 1 = eyewitness inside the besieged city or fort; 2 = same city but sheltered, or a hostile local observer; 3 = same country at a distance; 4 = abroad or arriving after, from news."
+)
+json.dump(chapter, open(OUT,"w",encoding="utf-8"), ensure_ascii=False, indent=1)
+print(len(eyes), len(E))

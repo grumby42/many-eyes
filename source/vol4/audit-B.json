@@ -1,0 +1,389 @@
+[
+ {
+  "chapter": "curies",
+  "where": "eye:marie",
+  "severity": "error",
+  "problem": "Role says she was the 'first woman to receive a doctorate in France'; women had earned French doctorates (e.g. in medicine) before 1903. The standard claim, used correctly in entry 31, is first woman in France to earn a doctorate in physical science.",
+  "fix": {
+   "text_replace": {
+    "old": "first woman to receive a doctorate in France (1903)",
+    "new": "first woman in France to earn a doctorate in physical science (1903)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "curies",
+  "where": "intro:3",
+  "severity": "doubt",
+  "problem": "The Nobel nomination archive lists Marie Curie as nominated in physics in 1902 (by Gaston Darboux and by Emil Warburg) and in 1903 by Charles Bouchard (record 2993, all three names). In 1903 Darboux, Lippmann, Mascart and Poincaré nominated Pierre without her. The Association Curie et Joliot-Curie dates Bouchard's nomination of Marie to 1902, which does not match the archive. The intro should give both records as positions.",
+  "fix": {
+   "text_replace": {
+    "old": "The archive shows another nomination, by Charles Bouchard, that named all three.",
+    "new": "The Nobel archive shows another 1903 nomination, by Charles Bouchard, that named all three, and lists two 1902 nominations, by Gaston Darboux and Emil Warburg, that already included her; the Association Curie et Joliot-Curie dates Bouchard's nomination of her to 1902 instead."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "curies",
+  "where": "intro:4",
+  "severity": "style",
+  "problem": "The mourning journal is called 'a twentieth-century publication', but extracts first appeared in Ève Curie's 1937 book, and the Odile Jacob edition of 2022 presents the journal itself as previously unpublished ('inédit'). The wording should be accurate about both.",
+  "fix": {
+   "text_replace": {
+    "old": "That journal is a twentieth-century publication and is digested here, never quoted.",
+    "new": "Extracts from that journal first appeared in print in 1937 and a full French edition only in 2022; it is digested here, never quoted."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "curies",
+  "where": "entry:41",
+  "severity": "style",
+  "problem": "Same issue as the intro: 'a twentieth-century publication' misdescribes the journal's publication history (extracts 1937; presented as unpublished in the 2022 Odile Jacob edition; Letters of Note says it was never published in full).",
+  "fix": {
+   "digest": "Within days Marie began a private journal written to Pierre in the second person. Its eight entries record spring flowers he would have liked, visits to his grave, the pain of sunny days, the comfort of the laboratory, and her appointment to his chair. Extracts first appeared in Ève Curie's 1937 biography, and a 2022 French edition presents the journal as previously unpublished; it is digested here and not quoted."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "curies",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "The source_note says the date comes 'per task brief', which is a compiler note and not a source.",
+  "fix": {
+   "source_note": "AIP, 'Recognition and Disappointment' (June 1903, Bronya, black dress); date 25 June 1903 from standard histories; https://history.aip.org/exhibits/curie/recdis1_text.htm"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "curies",
+  "where": "entry:33",
+  "severity": "style",
+  "problem": "The headline puts a paraphrase of a French letter in quotation marks, which reads as a translated quotation. The rules allow quotes only from English originals.",
+  "fix": {
+   "headline": "Asking that they be considered together"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "curies",
+  "where": "intro:1",
+  "severity": "style",
+  "problem": "'Becquerel speaks to us' slips into the first-person plural compiler voice.",
+  "fix": {
+   "text_replace": {
+    "old": "Becquerel speaks to us through short notes in the Comptes rendus.",
+    "new": "Becquerel is known through short notes in the Comptes rendus."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fission",
+  "where": "entry:21",
+  "severity": "error",
+  "problem": "The quote 'Oh what idiots we all have been!' comes from Frisch's in-copyright 1979 memoir. It is well known among historians of physics but is not a world-famous phrase in the sense of the rule (like Armstrong's words). The digest already paraphrases it.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fission",
+  "where": "entry:10",
+  "severity": "error",
+  "problem": "Fermi received the prize on 10 December 1938, but the Nobel Foundation dates his Nobel lecture to 12 December 1938. The digest merges the two events.",
+  "fix": {
+   "date_display": "Saturday 10 December 1938 (prize; lecture Monday 12 December)",
+   "digest": "Fermi receives the Nobel Prize in Physics for his neutron work on 10 December and gives his Nobel lecture on artificial radioactivity two days later, describing the transuranic elements 93 and 94 that his group believed it had made. Within a week Berlin's barium result would undercut that part of the lecture; when it was printed Fermi added a note saying the Hahn–Strassmann findings required the transuranic results to be re-examined. The printed lecture does not mention Noddack."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fission",
+  "where": "entry:38",
+  "severity": "error",
+  "problem": "The headline says 'between two and three neutrons per split', but the digest correctly says the April 1939 Paris letter estimated three to four (about 3.5) per fission, later revised down.",
+  "fix": {
+   "headline": "Three to four neutrons per split"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fission",
+  "where": "eye:frisch",
+  "severity": "error",
+  "problem": "The bio says Frisch 'delayed writing to Bohr for weeks' and wrote the Peierls memorandum 'after 1940'. Stuewer (1985) shows Frisch mailed the notes on 16 January and wrote to Bohr on 22 January, and the letter reached Princeton on 2 February. The Frisch–Peierls memorandum dates from March 1940.",
+  "fix": {
+   "text_replace": {
+    "old": "He then delayed writing to Bohr for weeks, a lapse that nearly cost him and Meitner their priority. After 1940 he and Rudolf Peierls wrote the memorandum that set Britain's bomb project going.",
+    "new": "He then waited until 22 January to tell Bohr the notes had gone to Nature, and the letter reached Princeton only on 2 February, while Bohr worried over their priority. In March 1940 he and Rudolf Peierls wrote the memorandum that set Britain's bomb project going."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fission",
+  "where": "intro:2",
+  "severity": "style",
+  "problem": "First-person compiler voice ('Two of our eyes').",
+  "fix": {
+   "text_replace": {
+    "old": "Two of our eyes (Laura Fermi, Leó Szilárd)",
+    "new": "Two of the eyes (Laura Fermi, Leó Szilárd)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fission",
+  "where": "intro:2",
+  "severity": "style",
+  "problem": "First-person compiler voice ('in our own words'). Once the Bohr quote is removed, the chapter has no quotations left, so 'one or two famous phrases' would no longer be true.",
+  "fix": {
+   "text_replace": {
+    "old": "the entries are digests in our own words; there are no quotations beyond one or two famous phrases.",
+    "new": "the entries are paraphrased digests and carry no quotations."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fission",
+  "where": "entry:2",
+  "severity": "style",
+  "problem": "The source_note uses a compiler-process phrase ('this session').",
+  "fix": {
+   "source_note": "Date as given in standard Fermi biographies; not checked against a primary source."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fission",
+  "where": "entry:5",
+  "severity": "style",
+  "problem": "The source_note uses a compiler-process phrase ('this session').",
+  "fix": {
+   "source_note": "Route from Stuewer (2013) and SKBL; arrival date as given in Sime's biography."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fission",
+  "where": "entry:32",
+  "severity": "style",
+  "problem": "The source_note uses a compiler-process phrase ('found this session').",
+  "fix": {
+   "source_note": "AIP chronology and Radvanyi (2009); no dated document of Irène's own reaction is cited — this entry summarizes the scientific situation."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fission",
+  "where": "entry:33",
+  "severity": "style",
+  "problem": "The source_note uses a compiler-process phrase ('this session').",
+  "fix": {
+   "source_note": "DOE OpenNet (Szilárd urged Joliot to delay publication; Fermi opposed secrecy); exact date of the letter unconfirmed."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fission",
+  "where": "entry:39",
+  "severity": "doubt",
+  "problem": "The date of the first Einstein visit is contested (16 vs 12 July 1939). The Long Island History Journal (Stony Brook) also gives Sunday 16 July, with Wigner collecting Szilárd in Manhattan that morning, and dates Teller's visit to 'probably' 30 July. Keep 16 July as approx and strengthen the note.",
+  "fix": {
+   "source_note": "AIP timeline, DOE OpenNet and the Long Island History Journal (Stony Brook) give Sunday 16 July; other sources give Wednesday 12 July. Details from Szilárd's and Wigner's later recollections.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fission",
+  "where": "entry:44",
+  "severity": "doubt",
+  "problem": "Teller's drive on 30 July is given as 'probably 30 July' by the Long Island History Journal. The entry is marked verified, which is stronger than the record allows.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fission",
+  "where": "image:2",
+  "severity": "doubt",
+  "problem": "The caption calls this 'another view of the pair', but the GHI page is the Max Planck Society archive's 1913 laboratory photograph and may be the same image as image 0. The credit should name the holding archive.",
+  "fix": {
+   "caption": "A 1913 photograph of the pair in the laboratory, from the Archive of the Max Planck Society, presented with historical commentary on their collaboration.",
+   "credit": "Archive of the Max Planck Society, Berlin-Dahlem (Lise Meitner, Nr. II/4); via German History Intersections (GHI Washington)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "double-helix",
+  "where": "entry:12",
+  "severity": "error",
+  "problem": "King's College London's page on Photograph 51 says the camera was set up on Friday 2 May 1952 and the film developed on Tuesday 6 May. The display 'often given as 6 May' should give the documented sequence. King's College archives elsewhere date the photograph 2 May.",
+  "fix": {
+   "date_display": "Friday 2 – Tuesday 6 May 1952 (exposure set up 2 May, film developed 6 May)",
+   "precision": "range",
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "double-helix",
+  "where": "claim:2",
+  "severity": "error",
+  "problem": "Same correction as entry 12: King's College London gives a 2 May set-up and a 6 May development.",
+  "fix": {
+   "date_display": "2–6 May 1952 (exposure set up 2 May, developed 6 May)",
+   "evidence": "King's College London, 'The story behind Photograph 51'; UKRI MRC archive blog; ASU Embryo Project",
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "double-helix",
+  "where": "calendar_note:0",
+  "severity": "style",
+  "problem": "Bring the Photo 51 note into line with the King's College dates.",
+  "fix": {
+   "text_replace": {
+    "old": "Photo 51 is often given as 6 May 1952;",
+    "new": "Photo 51 is often given as 6 May 1952, the day King's College London says the film was developed after an exposure set up on 2 May;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "double-helix",
+  "where": "image:0",
+  "severity": "doubt",
+  "problem": "The caption says 'King's College London holds the original'. The cited King's page does not say where the original is held.",
+  "fix": {
+   "caption": "The B-form X-ray diffraction pattern recorded by Gosling under Franklin's supervision in May 1952: the central X of spots signals a helix, and the strong layer line marks the 3.4 Å spacing. Shown on King's College London's page about the photograph's history."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "double-helix",
+  "where": "entry:32",
+  "severity": "doubt",
+  "problem": "The date of Franklin's move to Birkbeck is uncertain. Klug gives 14 March 1953; King's College archives say she 'joined Bernal's team in April 1953'; NLM says she left 'shortly after' the April papers; Physics Today says 'spring of 1953'. The day-precision display overstates certainty, and 'some accounts say February' is unsupported.",
+  "fix": {
+   "date_display": "Mid-March 1953 (Klug gives 14 March; King's College archives say she joined Bernal's team in April)",
+   "precision": "month",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "double-helix",
+  "where": "entry:46",
+  "severity": "doubt",
+  "problem": "Perutz's letter, with Wilkins's and Watson's, was printed in Science 164 (1969), 1537–1539, generally cited as the issue of 27 June 1969. The placeholder 15 June is not a record date.",
+  "fix": {
+   "date_iso": "1969-06-27",
+   "date_display": "June 1969 (Science 164, issue of 27 June; drafting correspondence runs to 5 June)",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "double-helix",
+  "where": "entry:41",
+  "severity": "style",
+  "problem": "The last sentence gives the book's own verdict ('since the data came first') on a contested credit question. It should be framed as a position.",
+  "fix": {
+   "digest": "Nature printed the Watson–Crick structure, then 'Molecular Structure of Deoxypentose Nucleic Acids' by Wilkins, Stokes and Herbert Wilson, then Franklin and Gosling's 'Molecular Configuration in Sodium Thymonucleate'. The King's papers presented the diffraction theory and data that supported a helix; Franklin and Gosling's printed Photograph 51 as its only figure. Read in order, the issue looked like experimental confirmation of a Cambridge idea. Critics have questioned that framing, pointing out that the King's data had come first."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "double-helix",
+  "where": "convergence:4",
+  "severity": "doubt",
+  "problem": "'The two groups reached overlapping conclusions independently' is a verdict on the most contested point, since Crick's C2 reading used Franklin's own measurements from the MRC report. It should be presented as a position.",
+  "fix": {
+   "note": "In the same fortnight Crick read two antiparallel chains in Franklin's C2 data from the report Perutz had passed on, and Franklin wrote that both forms were two-chain helices. Days later Watson found the base pairs. Franklin reached her conclusions by her own analysis; the Cambridge pair reached theirs by model-building that drew on her measurements in the MRC report. How independent the two routes were is part of the credit debate."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "double-helix",
+  "where": "convergence:3",
+  "severity": "style",
+  "problem": "'Lawfully passed' is a loaded word that Wilkins's account does not use. His account is that the pattern was properly in his hands.",
+  "fix": {
+   "note": "The most disputed day in the record. Watson's memoir makes it a revelation, and Wilkins describes a pattern properly passed to him. Gosling later said it was Franklin's own handover gift, while other histories say she did not know. Her notebook, meanwhile, shows her own analysis already pointing to two chains."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "double-helix",
+  "where": "convergence:6",
+  "severity": "style",
+  "problem": "'The order of the papers... shaped how credit was seen' is stated as the book's own verdict. It should be attributed.",
+  "fix": {
+   "note": "The papers were printed one after another, with the model first and the data after. Pauling had just written that the King's data explained why Cambridge had won. Historians have argued that the order of the papers, more than any single sentence in them, shaped how credit was seen."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "double-helix",
+  "where": "eye:wilkins",
+  "severity": "style",
+  "problem": "The age range is wrong: born 15 Dec 1916, he was 34–36 across 1951 to April 1953.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 34–37",
+    "new": "aged 34–36"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "double-helix",
+  "where": "eye:crick",
+  "severity": "style",
+  "problem": "The age range is wrong: born 8 June 1916, he was 34–36 across 1951 to April 1953.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 35–37",
+    "new": "aged 34–36"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "double-helix",
+  "where": "eye:gosling",
+  "severity": "style",
+  "problem": "The age range is wrong: born 15 July 1926, he was 24–26 across 1951 to April 1953.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 24–27",
+    "new": "aged 24–26"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "double-helix",
+  "where": "eye:franklin",
+  "severity": "style",
+  "problem": "'Known from his reply-side correspondence' is vague. Franklin's letter is known from Pauling's letter to Peter of 10 March 1953 (OSU summary: she had written, convinced the phosphates were outside).",
+  "fix": {
+   "text_replace": {
+    "old": "Her letter to Pauling of early 1953 is known from his reply-side correspondence.",
+    "new": "Her letter to Pauling of early 1953 is known from his letter to Peter Pauling of 10 March 1953."
+   }
+  },
+  "confidence": "verified"
+ }
+]

@@ -1,0 +1,21 @@
+You are adding English phonetic respellings ("say it" guides) to "Many Eyes", an offline history book series. Readers are English speakers who will meet names, places and terms from many languages (Japanese, Chinese, Korean, Arabic, Persian, Turkish, Hindi/Urdu, Russian, Polish, German, French, Italian, Spanish, Portuguese, Dutch, Latin, Old English, Indigenous languages and more).
+
+Input: the candidate file(s) named in your task. Each item is a chapter with its eye names, its place names (as written in the book) and its intro text.
+
+For EACH chapter, choose the nouns an ordinary English reader would likely be unsure how to say:
+- people's names (eyes), place names, and the key non-English terms that appear in the intro (titles, institutions, offices, ships, works, concepts — e.g. "Ibadat Khana", "Rangaku", "mahzar", "corvée", "Kärntnertortheater").
+- SKIP names and places an English reader already says correctly (e.g. "John Adams", "London", "Paris" in English use), and skip long descriptive place strings — respell only the proper-noun core.
+- Also include English names that are commonly mis-said (e.g. Pepys = PEEPS, Magdalen = MAWD-lin, Worcester = WUUS-tər, Beauchamp = BEE-chəm).
+
+Respelling scheme (Wikipedia-style English respelling; consistent across the series):
+- Hyphens between syllables; the STRESSED syllable in CAPITALS (for languages without lexical stress, e.g. Japanese, French, Korean, Mandarin, capitalise the syllable an English speaker should lean on lightly, or use no capitals and set "tone": true for Mandarin).
+- Vowels: a (cat), ah (father), ay (day), e (bed), ee (see), i (sit), eye (my), o (lot), oh (go), aw (law), oo (food), uu (book), u (cut), ə (about, unstressed), ow (now), oy (boy), air (hair), ur (fur), eer (near).
+- Consonants as in English, plus: zh (vision), kh (Scottish loch / German Bach), th (thin), dh (this), ny (canyon), ly (million), ts (cats), r̃ only if essential (prefer plain r). Nasal French vowels: "an(h)" style — write e.g. "bree-AN(H)" or "ahn(h)" consistently with "(h)" after a nasal vowel.
+- Give the pronunciation in the original language as an English speaker can best approximate it; where an established English pronunciation exists (e.g. "Moscow", "Genghis"), give that one and say so in "note".
+
+Output: write JSON to the path in your task, shaped exactly:
+{"<chapter id>": [{"t": "<the text exactly as it appears in the book>", "p": "<respelling>", "kind": "person|place|term", "lang": "<language>", "conf": "sure|check", "note": "<optional, ≤12 words>"}]}
+- "t" must match the book's spelling exactly (copy it from the candidate file), so the build can match it; for a person, use the full name as listed, and you may add a second item for the surname alone if the book refers to people by surname.
+- "conf": "check" where you are not confident (rare names, Indigenous names, uncertain historical pronunciations). Never invent; if you genuinely do not know, omit the item rather than guess.
+- Aim for 10–30 items per chapter (fewer if the chapter is mostly English-language names).
+Use your own linguistic knowledge; at most 4 WebSearch calls, only for genuinely uncertain high-value names. Validate the JSON parses. Reply with counts per chapter and any notable uncertainties (5 lines).

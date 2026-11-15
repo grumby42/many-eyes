@@ -1,0 +1,1432 @@
+{
+ "id": "worms-1521",
+ "title": "Here I Stand? The Diet of Worms, 1521",
+ "short_title": "The Diet of Worms, 1521",
+ "subtitle": "Luther before Charles V and the imperial estates, Worms, April–May 1521",
+ "span": "1520–1521",
+ "intro": [
+  "On the evening of 18 April 1521, in a crowded and overheated hall of the bishop's palace at Worms, a 37-year-old friar already excommunicated by the pope refused before the 21-year-old emperor to retract his books. The scene became one of the founding images of modern Europe, and it was recorded at once by people with every reason to see it differently: the papal nuncio, the imperial examiner, the friar's own prince and his secretary, Venetian diplomats, and the friar himself.",
+  "The record here is almost entirely letters, dispatches and official protocol rather than diaries, and the form tags say so. At its core are Girolamo Aleandro's dispatches to Rome, hostile and vivid; the imperial protocol of Johann von der Ecken's questions; Charles V's own declaration, written overnight in French; Luther's short letters before and after; and the reports of the Venetians Francesco Cornaro, who saw the hearings, and Gasparo Contarini, who arrived two days later and admitted he never saw Luther. Around them stand the English envoy Cuthbert Tunstall, the knight Ulrich von Hutten in a castle sixty kilometres away, the Spanish secretary Alfonso de Valdés, and Albrecht Dürer in Antwerp.",
+  "The record is lopsided in a way readers should keep in view. Catholic voices at Worms were mostly diplomats writing to masters who wanted results, and Aleander in particular reported rumour as fact. Protestant memory, from the pamphlet printings of 1521 to the Table Talk of the 1530s, polished Luther's words and the journey into legend. Where the sources disagree, as on the last words of the speech, on the day Luther left, or on how long his safe conduct ran, both versions are given.",
+  "The most famous words are the least certain. 'Here I stand, I can do no other' appears in the Wittenberg printing of the speech in 1521, but not in Spalatin's notes or in the earliest Latin Acta, which end with 'God help me, Amen'. Historians have argued both ways since the 1860s. Another celebrated line, the devils as many as roof tiles, comes from Luther's own later memories. A third has recently been questioned: the lament for Luther in Dürer's journal, which one scholar now attributes to an Antwerp friar.",
+  "The chapter runs from the papal bull of June 1520 to the edict signed in the cathedral on 26 May 1521. In between come a hearing that was not a debate, a declaration of conscience on each side, three days of committee talks that went nowhere, and a staged kidnapping in the Thuringian Forest. The emperor kept his word on the safe conduct and then outlawed the man he had protected, and the man disappeared into a castle under a false name."
+ ],
+ "calendar_note": "All dates are in the Julian calendar, which the Empire, Rome, Venice and England all used in 1521; they are given as recorded, and date_iso uses the same proleptic Julian reckoning historians cite. In the Gregorian calendar, adopted only from 1582, each date would be ten days later (18 April 1521 = 28 April Gregorian). Easter fell on 31 March 1521, so Whitsunday was 19 May and Trinity Sunday 26 May.",
+ "eyes": [
+  {
+   "id": "luther",
+   "short": "Luther",
+   "name": "Martin Luther",
+   "life": "1483–1546",
+   "role": "Augustinian friar and professor of theology at Wittenberg, aged 37; excommunicated on 3 January 1521",
+   "side": "Electoral Saxony; the accused",
+   "where": "Wittenberg; on the road to Worms; the house of the Knights of St John in Worms; the bishop's palace; then the Wartburg",
+   "lat": 49.6305,
+   "lon": 8.3622,
+   "waypoints": [
+    {
+     "lat": 51.866,
+     "lon": 12.646,
+     "label": "Wittenberg, burns the bull, 10 Dec 1520"
+    },
+    {
+     "lat": 50.978,
+     "lon": 11.029,
+     "label": "Erfurt, preaches 7 Apr 1521"
+    },
+    {
+     "lat": 50.111,
+     "lon": 8.682,
+     "label": "Frankfurt, 14 Apr"
+    },
+    {
+     "lat": 49.6305,
+     "lon": 8.3622,
+     "label": "Worms, 16–26 Apr"
+    },
+    {
+     "lat": 50.335,
+     "lon": 8.755,
+     "label": "Friedberg, letter to Charles, 28 Apr"
+    },
+    {
+     "lat": 50.966,
+     "lon": 10.307,
+     "label": "Wartburg, from night of 4 May"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the accused, standing before the emperor",
+   "form": "dated letters (and a later-printed account of his speech)",
+   "language": "Latin and German",
+   "authenticity": "His letters of 1520–21 survive in originals or early copies and are edited in the Weimar Ausgabe (Briefwechsel, vol. 2). His speech of 18 April is known from his own draft notes, Spalatin's notes and the printed Acta of 1521; the famous closing sentence is disputed (see the claims ledger). The Table Talk and his late recollections of the journey (the devils as many as roof tiles) were written down decades later and are flagged where used.",
+   "bio": "Luther had been condemned by the pope and had answered by burning the bull. He went to Worms under a safe conduct expecting a debate and found only two questions: were the books his, and would he recant. His letters before and after show a man alternating between defiance and exhaustion, and they record the strange bargain of his disappearance.",
+   "sources": [
+    {
+     "title": "P. Smith, Luther's Correspondence / M. Currie, The Letters of Martin Luther (1908), facsimile PDF",
+     "url": "https://lutheranlibrary.org/pdf/557-currie-letters-of-martin-luther-facsimile.pdf"
+    },
+    {
+     "title": "Schaff, History of the Christian Church VII §55 (hearings, with citations to the letters)",
+     "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxv.html"
+    },
+    {
+     "title": "Morgan Library: Luther's letter to Charles V, 28 April 1521",
+     "url": "https://themorgan.org/node/71656"
+    }
+   ]
+  },
+  {
+   "id": "aleander",
+   "short": "Aleander",
+   "name": "Girolamo Aleandro (Hieronymus Aleander)",
+   "life": "1480–1542",
+   "role": "Papal nuncio to the emperor, aged 40; humanist scholar and former rector of the University of Paris, librarian of the Vatican",
+   "side": "Papacy (Leo X); the prosecution",
+   "where": "Worms, at the imperial court; earlier in the Netherlands and the Rhineland burning Luther's books",
+   "lat": 49.632,
+   "lon": 8.359,
+   "waypoints": [
+    {
+     "lat": 50.879,
+     "lon": 4.701,
+     "label": "Louvain, book burning, Oct 1520"
+    },
+    {
+     "lat": 50.938,
+     "lon": 6.957,
+     "label": "Cologne, Nov 1520"
+    },
+    {
+     "lat": 49.632,
+     "lon": 8.359,
+     "label": "Worms, Dec 1520–May 1521"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the pope's prosecutor at court",
+   "form": "diplomatic dispatches (dated letters)",
+   "language": "Italian",
+   "authenticity": "His dispatches to the vice-chancellor Cardinal Giulio de' Medici survive in the Vatican and were edited by T. Brieger (1884) and P. Kalkoff (Die Depeschen des Nuntius Aleander vom Wormser Reichstage, 1886; 2nd ed. 1897). They are vivid, hostile and self-serving: written to show Rome how hard he was working, they report rumour alongside what he saw. Some were co-signed with the second nuncio, Marino Caracciolo.",
+   "bio": "Aleander was a fine Greek scholar who had known Erasmus well, and he despised Luther's cause as a German revolt dressed as theology. He fought to have Luther condemned without a hearing, lost that battle, and won the next: he drafted the edict himself and got the emperor's signature. His letters are the best account from inside the Catholic camp, and the most hostile portrait of Luther.",
+   "sources": [
+    {
+     "title": "Schaff, History of the Christian Church VII §§53–58 (quotes and dates from the Kalkoff edition)",
+     "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxiv.html"
+    },
+    {
+     "title": "Schaff VII §58, the Edict of Worms",
+     "url": "https://ccel.org/ccel/schaff/hcc7.ii.iii.xxviii.html"
+    }
+   ]
+  },
+  {
+   "id": "charles",
+   "short": "Charles V",
+   "name": "Charles V, Holy Roman Emperor",
+   "life": "1500–1558",
+   "role": "Elected King of the Romans and emperor-elect, aged 21; also King of Spain and ruler of the Netherlands; holding his first imperial diet",
+   "side": "Empire; the Habsburg court",
+   "where": "The bishop's palace (Bischofshof) beside Worms cathedral",
+   "lat": 49.6305,
+   "lon": 8.3615,
+   "waypoints": [
+    {
+     "lat": 50.776,
+     "lon": 6.084,
+     "label": "Aachen, crowned 23 Oct 1520"
+    },
+    {
+     "lat": 49.6305,
+     "lon": 8.3615,
+     "label": "Worms, Dec 1520–May 1521"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the presiding emperor",
+   "form": "autograph declaration and imperial letters",
+   "language": "French (declaration); German and Latin (mandates)",
+   "authenticity": "His statement of 19 April 1521, written in French in his own hand, survives and is printed in the Deutsche Reichstagsakten, Jüngere Reihe, vol. 2 (ed. A. Wrede, 1896); German and Latin versions circulated at once and a copy was read in the Venetian Senate. The summons of 6 March and the Edict were chancery documents issued in his name.",
+   "bio": "Charles spoke little German, was twenty-one, and owed his election in part to Frederick of Saxony. After hearing Luther he wrote out his own answer overnight: a statement of family duty to the faith of his ancestors that is the clearest personal document of the Diet. He kept the safe conduct, and then signed the edict that outlawed Luther.",
+   "sources": [
+    {
+     "title": "GHDI: Luther and Charles V at the Diet of Worms (German texts of the speech, declaration and edict)",
+     "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/luther-und-kaiser-karl-v-auf-dem-reichstag-zu-worms-1521.pdf"
+    },
+    {
+     "title": "Calendar of State Papers, Venice, vol. 3, April 1521, no. 192 (the declaration as read in Venice)",
+     "url": "https://prod.british-history.ac.uk/node/80408"
+    }
+   ]
+  },
+  {
+   "id": "frederick",
+   "short": "Frederick",
+   "name": "Frederick III ('the Wise'), Elector of Saxony",
+   "life": "1463–1525",
+   "role": "Elector of Saxony, aged 58; founder of Wittenberg University and Luther's prince; a great collector of relics",
+   "side": "Electoral Saxony",
+   "where": "His lodgings in Worms; the princes' bench at the hearings",
+   "lat": 49.6315,
+   "lon": 8.3605,
+   "vantage": 1,
+   "vantage_label": "the protector who never spoke to him",
+   "form": "dated letters (and remarks reported by Spalatin)",
+   "language": "German",
+   "authenticity": "His letters to his brother Duke John survive in the Weimar archives and are quoted in the Reichstagsakten and in the standard biographies. His spoken comments are known only through Spalatin's later annals and are marked as such.",
+   "bio": "Frederick never openly took Luther's side and is not known to have spoken with him face to face, yet he refused to hand him over and won him a hearing instead of a burning. At Worms he watched from the electors' bench. His private comments, preserved by Spalatin, are proud and uneasy at once.",
+   "sources": [
+    {
+     "title": "Schaff VII §55 and §58 (Frederick's comments and letter of 4 May)",
+     "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxv.html"
+    }
+   ]
+  },
+  {
+   "id": "spalatin",
+   "short": "Spalatin",
+   "name": "Georg Spalatin (Georg Burckhardt)",
+   "life": "1484–1545",
+   "role": "Chaplain, secretary and librarian to Frederick the Wise, aged 36; Luther's main channel to the court",
+   "side": "Electoral Saxony",
+   "where": "Worms, in the elector's household; in the hall on 18 April",
+   "lat": 49.6312,
+   "lon": 8.3608,
+   "vantage": 1,
+   "vantage_label": "the go-between in the hall",
+   "form": "notes and later annals",
+   "language": "German and Latin",
+   "authenticity": "His notes on the hearing of 18 April (with Luther's Latin outline written for him) are near-contemporary. His Annales and his account of Luther's journey were compiled later, in the 1530s–40s, and the remarks he gives to Frederick and Luther there are recollections.",
+   "bio": "Spalatin carried letters both ways between Luther and a prince who could not be seen to favour him. His notes are the main evidence that Luther spoke first in German and then repeated himself in Latin, and that the last words recorded were 'God help me, Amen'.",
+   "sources": [
+    {
+     "title": "Schaff VII §55 (Spalatin's notes and the 'Here I stand' question)",
+     "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxv.html"
+    }
+   ]
+  },
+  {
+   "id": "eck",
+   "short": "von der Ecken",
+   "name": "Johann von der Ecken (Johann Eck of Trier)",
+   "life": "d. 1524",
+   "role": "Jurist, Official (chief legal officer) of the Archbishop of Trier; the Diet's examiner of Luther. Not to be confused with Johann Maier von Eck, Luther's opponent at Leipzig",
+   "side": "Empire; the Archbishop of Trier",
+   "where": "The bishop's palace, Worms; the Archbishop of Trier's residence for the committee talks",
+   "lat": 49.6304,
+   "lon": 8.3618,
+   "vantage": 0,
+   "vantage_label": "the examiner",
+   "form": "official protocol (Acta)",
+   "language": "Latin and German",
+   "authenticity": "His questions and rebuttals are preserved in the official imperial record printed in the Reichstagsakten, vol. 2, and in the semi-official Acta et res gestae D. Martini Lutheri in Comitiis Principum Wormaciae (1521). These are records of what he said, compiled by others, not his own diary.",
+   "bio": "Von der Ecken put the two questions on 17 April and on 18 April demanded an answer 'without horns'. He told Luther that councils had judged these matters and he could not prove they had erred. He was also the man who carried the emperor's final word on 25 April.",
+   "sources": [
+    {
+     "title": "Schaff VII §55 (the questions, the exchange on councils)",
+     "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxv.html"
+    },
+    {
+     "title": "Schaff VII §57 (the committee talks)",
+     "url": "https://ccel.org/ccel/schaff/hcc7.ii.iii.xxvii.html"
+    }
+   ]
+  },
+  {
+   "id": "cornaro",
+   "short": "Cornaro",
+   "name": "Francesco Cornaro",
+   "life": "c.1478–1543",
+   "role": "Venetian ambassador to Charles V, leaving his post as the Diet met Luther; later a cardinal",
+   "side": "Republic of Venice (neutral, Catholic)",
+   "where": "Worms, at the imperial court",
+   "lat": 49.6308,
+   "lon": 8.3628,
+   "vantage": 1,
+   "vantage_label": "foreign ambassador in the town",
+   "form": "diplomatic dispatch (dated letter)",
+   "language": "Italian",
+   "authenticity": "His dispatch of 19 April 1521 survives through Marino Sanuto's Diarii and is abstracted in English in the Calendar of State Papers, Venice, vol. 3, no. 191.",
+   "bio": "Cornaro wrote the most compact outsider's summary of the three days: arrival on the 16th, the books acknowledged on the 17th, refusal on the 18th, the emperor's written decree on the 19th. He reported as a diplomat would, interested in what the emperor would do.",
+   "sources": [
+    {
+     "title": "Calendar of State Papers, Venice, vol. 3, April 1521, no. 191",
+     "url": "https://prod.british-history.ac.uk/node/80408"
+    }
+   ]
+  },
+  {
+   "id": "contarini",
+   "short": "Contarini",
+   "name": "Gasparo Contarini",
+   "life": "1483–1542",
+   "role": "Venetian patrician and philosopher, aged 37; incoming ambassador to Charles V; later cardinal and papal legate",
+   "side": "Republic of Venice; Catholic reformer",
+   "where": "Worms, from 20 April 1521",
+   "lat": 49.6309,
+   "lon": 8.3631,
+   "vantage": 2,
+   "vantage_label": "newly arrived ambassador, hearing it second-hand",
+   "form": "diplomatic dispatches and private letters",
+   "language": "Italian and Latin",
+   "authenticity": "His dispatches to the Signory and his letter to Matteo Dandolo survive via Sanuto's Diarii and are abstracted in the Calendar of State Papers, Venice, vol. 3 (nos. 196–224). By his own account he did not see or speak to Luther; his judgements rest on what he heard.",
+   "bio": "Contarini arrived four days after Luther and was kept waiting for his audience because the emperor was busy with the friar. His letters are harsh about Luther's learning and morals, yet note how freely his books sold. Twenty years later, at Regensburg in 1541, he would come closer than anyone to agreeing with the Lutherans on justification.",
+   "sources": [
+    {
+     "title": "Calendar of State Papers, Venice, vol. 3, April 1521 (nos. 196–202)",
+     "url": "https://prod.british-history.ac.uk/node/80408"
+    },
+    {
+     "title": "Calendar of State Papers, Venice, vol. 3, May 1521 (nos. 209–224)",
+     "url": "https://prod.british-history.ac.uk/node/80409"
+    }
+   ]
+  },
+  {
+   "id": "tunstall",
+   "short": "Tunstall",
+   "name": "Cuthbert Tunstall",
+   "life": "1474–1559",
+   "role": "Master of the Rolls and English envoy to Charles V, aged 46; humanist friend of More and Erasmus; later Bishop of London and Durham",
+   "side": "Kingdom of England (Henry VIII, Wolsey)",
+   "where": "Worms, December 1520 to spring 1521; then Malines",
+   "lat": 49.6311,
+   "lon": 8.3612,
+   "waypoints": [
+    {
+     "lat": 49.6311,
+     "lon": 8.3612,
+     "label": "Worms, Dec 1520–Mar 1521"
+    },
+    {
+     "lat": 51.028,
+     "lon": 4.478,
+     "label": "Malines, by 23 Apr 1521"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "English envoy, gone before the hearings",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "His letters to Wolsey and Henry VIII are in the British Library (Cotton MSS) and calendared in Letters and Papers of Henry VIII, vol. 3; his letter on Luther's books is printed in H. Ellis, Original Letters, 3rd series, vol. 1 (1846). The exact day of that letter is cited inconsistently in secondary works.",
+   "bio": "Tunstall's business at Worms was a marriage alliance, not heresy, but he sent Wolsey an early English warning about Luther's books. By the time Luther arrived he had moved on to Malines; he stands for the courts abroad that read Worms as a matter of policy and of printing.",
+   "sources": [
+    {
+     "title": "Letters and Papers Henry VIII vol. 3, January 1521",
+     "url": "https://prod.british-history.ac.uk/node/77650"
+    },
+    {
+     "title": "Letters and Papers Henry VIII vol. 3, March 1521",
+     "url": "https://archive.british-history.ac.uk/node/77652"
+    },
+    {
+     "title": "Tyndale Bulletin article citing Tunstall's Worms letter (Ellis, Original Letters 3rd ser. I, 239f.)",
+     "url": "https://tyndalebulletin.org/article/30603.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hutten",
+   "short": "Hutten",
+   "name": "Ulrich von Hutten",
+   "life": "1488–1523",
+   "role": "Imperial knight, poet and polemicist, aged 33; under papal ban, sheltering with Franz von Sickingen",
+   "side": "German knights and humanists; pro-Luther",
+   "where": "The Ebernburg, Sickingen's castle near Bad Kreuznach, about 60 km from Worms",
+   "lat": 49.81,
+   "lon": 7.85,
+   "vantage": 3,
+   "vantage_label": "armed sympathiser in a castle nearby",
+   "form": "dated letters and open invectives",
+   "language": "Latin",
+   "authenticity": "His letters are edited by E. Böcking (Hutteni Opera, 1859–61) and summarised by D. F. Strauss, Ulrich von Hutten (1858), which gives the dates used here.",
+   "bio": "Hutten wanted a German rising against Rome and saw Luther as its preacher. From the Ebernburg he sent Luther letters of encouragement by the hand of Martin Bucer and wrote invectives threatening the nuncios. His letters show how near Worms came to violence in the minds of some of Luther's supporters.",
+   "sources": [
+    {
+     "title": "D. F. Strauss, Ulrich von Hutten, ch. on Worms (Projekt Gutenberg)",
+     "url": "https://projekt-gutenberg.org/authors/david-friedrich-strauss/books/ulrich-von-hutten/chapter/22"
+    }
+   ]
+  },
+  {
+   "id": "valdes",
+   "short": "Valdés",
+   "name": "Alfonso de Valdés",
+   "life": "c.1490–1532",
+   "role": "Spanish humanist in the imperial chancery, about 30; later Latin secretary to Charles V",
+   "side": "Spain; the emperor's household",
+   "where": "Worms, with the court",
+   "lat": 49.6302,
+   "lon": 8.3611,
+   "vantage": 1,
+   "vantage_label": "Spanish secretary at court",
+   "form": "dated letters",
+   "language": "Latin",
+   "authenticity": "His letters on Luther to the humanist Peter Martyr d'Anghiera were printed in Martyr's Opus epistolarum (1530). The precise date of the Worms letter is given here as approximate.",
+   "bio": "Valdés was an Erasmian who later defended the emperor against the pope in his dialogues. At Worms he watched Luther's books burned and judged that this was not the end of the affair but its beginning: a rare Catholic voice at court that foresaw the length of the split.",
+   "sources": [
+    {
+     "title": "Schaff-Herzog Encyclopedia, 'Valdés, Alfonso de'",
+     "url": "https://ccel.org/ccel/schaff/encyc/encyc12/htm/ii.xix.i.htm"
+    }
+   ]
+  },
+  {
+   "id": "durer",
+   "short": "Dürer",
+   "name": "Albrecht Dürer",
+   "life": "1471–1528",
+   "role": "Nuremberg painter and printmaker, aged 49-50, travelling in the Netherlands to have his imperial pension confirmed",
+   "side": "Holy Roman Empire (Nuremberg); a Luther sympathiser",
+   "where": "Antwerp",
+   "lat": 51.2194,
+   "lon": 4.4025,
+   "waypoints": [
+    {
+     "lat": 50.776,
+     "lon": 6.084,
+     "label": "Aachen, coronation, Oct 1520"
+    },
+    {
+     "lat": 51.2194,
+     "lon": 4.4025,
+     "label": "Antwerp, May 1521"
+    }
+   ],
+   "vantage": 4,
+   "vantage_label": "abroad, hearing a false report",
+   "form": "diary (travel journal)",
+   "language": "Early New High German",
+   "authenticity": "The journal survives only in later copies; the standard text is Rupprich, Dürer: Schriftlicher Nachlass I (1956). The long lament for Luther inside it has always been read as Dürer's, but Jeroen Stumpel (essay for the National Gallery's 'Dürer's Journeys', 2021) argues it was written by someone else, probably the Antwerp Augustinian prior Jacob Probst, and later absorbed into the journal. Both positions are given here.",
+   "bio": "Dürer had wanted to draw Luther and had sent him prints. In Antwerp, among Augustinian friends of Luther's order, he heard that Luther had been seized on the road and perhaps killed, and the journal breaks off from its accounts into a long prayer. Whether he wrote that prayer is now in question.",
+   "sources": [
+    {
+     "title": "Report on Stumpel's study questioning Dürer's authorship of the lament",
+     "url": "https://www.inkl.com/news/albrecht-durer-may-not-have-written-lament-on-luther-finds-study"
+    },
+    {
+     "title": "Art History Project: 'A prayer for the safety of Martin Luther'",
+     "url": "https://arthistoryproject.com/artists/albrecht-durer/a-prayer-for-the-safety-of-martin-luther/"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1520-06-15",
+   "date_display": "15 June 1520",
+   "precision": "day",
+   "eye": "aleander",
+   "place": "Rome",
+   "headline": "The bull Exsurge Domine condemns 41 propositions",
+   "digest": "Leo X's bull condemned 41 propositions from Luther's writings and gave him sixty days after publication to recant, on pain of excommunication. Aleander was sent north with it to the emperor's lands, where he organised public burnings of Luther's books.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Bull of 15 June 1520 (standard); Aleander's mission, Schaff VII §53. https://ccel.org/ccel/schaff/hcc7.ii.iii.xxiii.html"
+  },
+  {
+   "date_iso": "1520-10-23",
+   "date_display": "23 October 1520",
+   "precision": "day",
+   "eye": "durer",
+   "place": "Aachen",
+   "headline": "The artist watches the new emperor crowned",
+   "digest": "Dürer was in Aachen for Charles V's coronation, noting the splendour in his expense journal. He had come to have his pension from the late emperor Maximilian confirmed, which Charles did at Cologne in November. Six months later the same young ruler would hear Luther.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dürer's Netherlands journal (Rupprich ed.); see the Volume II chapter 'First Contact'."
+  },
+  {
+   "date_iso": "1520-11-28",
+   "date_display": "28 November 1520",
+   "precision": "day",
+   "eye": "charles",
+   "place": "Oppenheim / Worms",
+   "headline": "The emperor invites Luther to Worms",
+   "digest": "Charles wrote to Frederick of Saxony asking him to bring Luther to the coming Diet so that he could be heard by learned men. Frederick declined to do so on those terms.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Schaff VII §53, citing the Reichstagsakten. https://ccel.org/ccel/schaff/hcc7.ii.iii.xxiii.html"
+  },
+  {
+   "date_iso": "1520-12-10",
+   "date_display": "Monday 10 December 1520",
+   "precision": "day",
+   "eye": "luther",
+   "place": "Wittenberg, by the Elster Gate",
+   "headline": "Luther burns the bull",
+   "digest": "Early in the morning, outside the Elster Gate by the plague hospital, Luther and Wittenberg students and teachers burned books of canon law, scholastic theology and a copy of the bull. Luther wrote the same day to Spalatin announcing what had been done, as answer to the burning of his own books.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Luther to Spalatin, 10 Dec 1520 (WA Br 2); standard accounts."
+  },
+  {
+   "date_iso": "1521-01-03",
+   "date_display": "3 January 1521",
+   "precision": "day",
+   "eye": "aleander",
+   "place": "Rome",
+   "headline": "The pope excommunicates Luther",
+   "digest": "The bull Decet Romanum Pontificem declared Luther excommunicated. It reached Worms only on 10 February, and Aleander then held it back for revision because it also named Hutten and others, which he feared would inflame the princes.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Schaff VII §53 (date of bull and its arrival in Worms)."
+  },
+  {
+   "date_iso": "1521-01-28",
+   "date_display": "28 January 1521",
+   "precision": "day",
+   "eye": "charles",
+   "place": "Worms, cathedral and bishop's palace",
+   "headline": "The emperor opens his first Diet",
+   "digest": "After a mass of the Holy Spirit Charles opened the Diet. Its agenda was the government of the Empire, the courts, money for a Rome journey and the Turks; Luther was not on the published list, but the Saxon delegation, the nuncios and the town talked of little else.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Schaff VII §53 (28 Jan); Wikipedia also gives 23 Jan for the first sitting. https://ccel.org/ccel/schaff/hcc7.ii.iii.xxiii.html"
+  },
+  {
+   "date_iso": "1521-01-29",
+   "date_display": "about 29 January 1521",
+   "precision": "day",
+   "eye": "tunstall",
+   "place": "Worms",
+   "headline": "An English envoy warns Wolsey about Luther's books",
+   "digest": "Tunstall reported that Luther and his colleagues had publicly burned the papal bull and the canon law, and singled out Luther's new book on the Babylonian captivity of the Church as dangerous. He prayed that it would be kept out of England, an early sign of the English campaign against Luther.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Ellis, Original Letters 3rd ser. I, 239f.; dated 'the day after the Diet opened' in the Tyndale Bulletin article; day not checked against the manuscript. https://tyndalebulletin.org/article/30603.pdf"
+  },
+  {
+   "date_iso": "1521-02-08",
+   "date_display": "February 1521",
+   "precision": "month",
+   "eye": "aleander",
+   "place": "Worms",
+   "headline": "'Nine-tenths shout Luther'",
+   "digest": "Aleander told Rome that for nine-tenths of the Germans Luther's name was a war-cry, and that the remaining tenth at least cried death to the Roman court. Pamphlets and images of Luther were sold everywhere, and he complained he could hardly walk the streets safely.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kalkoff, Depeschen; Schaff VII §53 places the report shortly after 13 Feb, other works date it 8 Feb."
+  },
+  {
+   "date_iso": "1521-02-13",
+   "date_display": "Ash Wednesday, 13 February 1521",
+   "precision": "day",
+   "eye": "aleander",
+   "place": "Worms, before the Diet",
+   "headline": "The nuncio's three-hour speech",
+   "digest": "Aleander spoke to the assembled estates for about three hours, arguing that Luther had been condemned by the proper authority and that the emperor should simply enforce the sentence; to give him a hearing would put the pope on trial before laymen. The estates were unconvinced and asked that Luther be summoned.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Schaff VII §53. https://ccel.org/ccel/schaff/hcc7.ii.iii.xxiii.html"
+  },
+  {
+   "date_iso": "1521-03-06",
+   "date_display": "6 March 1521",
+   "precision": "day",
+   "eye": "charles",
+   "place": "Worms",
+   "headline": "The summons and the safe conduct",
+   "digest": "In the name of the emperor Luther was cited to appear at Worms within twenty-one days, addressed as 'honourable, beloved, devout', and promised safe passage there and back. Frederick and the princes through whose lands he would pass added their own safe conducts. The herald Kaspar Sturm carried the summons to Wittenberg.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Schaff VII §53; summons text in Reichstagsakten II."
+  },
+  {
+   "date_iso": "1521-03-20",
+   "date_display": "20 March 1521",
+   "precision": "day",
+   "eye": "tunstall",
+   "place": "Worms",
+   "headline": "Ordinary business: a servant changes masters",
+   "digest": "Tunstall's letter to Wolsey of this date concerns nothing more than a former servant of Wolsey's who had entered the emperor's service and wished to visit his friends. The routine of the envoys went on beside the heresy case.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Letters and Papers Henry VIII vol. 3, no. 1201. https://archive.british-history.ac.uk/node/77652"
+  },
+  {
+   "date_iso": "1521-04-02",
+   "date_display": "Tuesday 2 April 1521",
+   "precision": "day",
+   "eye": "luther",
+   "place": "Wittenberg",
+   "headline": "Luther sets out in a borrowed cart",
+   "digest": "Luther left Wittenberg in a covered wagon provided by the town council, with his colleague Amsdorf, a Pomeranian student and a fellow friar, the imperial herald riding ahead. Along the way he was welcomed like a celebrity, and at Erfurt on 7 April he preached to a packed church.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Schaff VII §54. https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxiv.html"
+  },
+  {
+   "date_iso": "1521-04-13",
+   "date_display": "13 April 1521",
+   "precision": "day",
+   "eye": "aleander",
+   "place": "Worms",
+   "headline": "Luther pictured with the Holy Spirit",
+   "digest": "Aleander reported to Rome that Luther was being portrayed with the dove of the Holy Spirit over his head, and that people kissed such pictures. To him it was a sign of how far the cult of the friar had gone before he even arrived.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Schaff VII §53 (Aleander, 13 April). Compare the Baldung woodcut among the images."
+  },
+  {
+   "date_iso": "1521-04-14",
+   "date_display": "Sunday 14 April 1521",
+   "precision": "day",
+   "eye": "luther",
+   "place": "Frankfurt am Main",
+   "headline": "'Into Worms in spite of the gates of hell'",
+   "digest": "Exhausted and ill after the journey, Luther wrote briefly to Spalatin that Christ lived and that he would enter Worms in spite of all the gates of hell and powers of the air. He had heard that the emperor's mandate against his books had been posted on the way.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Luther to Spalatin, Frankfurt, 14 April 1521 (WA Br 2); Schaff VII §54. https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxiv.html"
+  },
+  {
+   "date_iso": "1521-04-15",
+   "date_display": "about 15 April 1521",
+   "precision": "range",
+   "eye": "spalatin",
+   "place": "Worms / near Oppenheim",
+   "headline": "A warning not to come",
+   "digest": "Spalatin sent word to Luther, now a day from Worms, warning him of the fate of Hus at Constance. Luther's celebrated reply, that he would go to Worms if there were as many devils there as tiles on the roofs, is known from his own much later recollections and the later accounts of Spalatin, not from a letter of the day.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Spalatin's Annales (written later); Luther's recollections (1540s). Schaff VII §54 prints the phrase as from a letter; most modern editors treat it as a later memory."
+  },
+  {
+   "date_iso": "1521-04-16",
+   "date_display": "Tuesday 16 April 1521",
+   "precision": "day",
+   "eye": "aleander",
+   "place": "Worms",
+   "headline": "'Demonic eyes': the nuncio watches the entry",
+   "digest": "About ten in the morning the cathedral watchman's trumpet announced Luther's wagon, and thousands ran to the streets. Aleander wrote to Rome that day that Luther looked around with demonic eyes as he got down, and that after dinner the whole world went to see him at his lodging with the Knights of St John.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Aleander to Medici, 16 April 1521 (Kalkoff); Schaff VII §54. https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxiv.html"
+  },
+  {
+   "date_iso": "1521-04-17",
+   "date_display": "Wednesday 17 April 1521, evening",
+   "precision": "day",
+   "eye": "eck",
+   "place": "Worms, bishop's palace",
+   "headline": "Two questions: are these yours, will you recant?",
+   "digest": "Brought through back streets to the crowded hall at about six in the evening, Luther faced a table of his books. Von der Ecken asked, in Latin and German, whether he acknowledged them and whether he would retract them. Luther's lawyer Schurf called for the titles to be read; Luther owned the books and asked for time to consider, and was given one day.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Official protocol (Reichstagsakten II); Schaff VII §55. https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxv.html"
+  },
+  {
+   "date_iso": "1521-04-17",
+   "date_display": "Wednesday 17 April 1521",
+   "precision": "day",
+   "eye": "aleander",
+   "place": "Worms",
+   "headline": "'Entered laughing, left downcast'",
+   "digest": "Aleander reported that Luther came in laughing and left with a fallen face. Some in the hall thought him a fool, some possessed, some a saint, but in the nuncio's view he had lost credit by asking for time. The emperor was reported to have said that this man would never make a heretic of him.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Aleander to Medici, 17 April 1521; Schaff VII §55. https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxv.html"
+  },
+  {
+   "date_iso": "1521-04-17",
+   "date_display": "Wednesday 17 April 1521, after the hearing",
+   "precision": "day",
+   "eye": "luther",
+   "place": "Worms, lodging",
+   "headline": "'Not one iota'",
+   "digest": "After the first hearing Luther wrote a short note to the Viennese humanist Johannes Cuspinian, an imperial councillor: he had appeared before the emperor and been asked to recant, and with Christ's help he would not retract a single iota.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Luther to Cuspinian, 17 April 1521 (WA Br 2); Schaff VII §55. https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxv.html"
+  },
+  {
+   "date_iso": "1521-04-17",
+   "date_display": "17 April 1521 (approximately)",
+   "precision": "day",
+   "eye": "hutten",
+   "place": "Ebernburg",
+   "headline": "Letters to Luther by Bucer's hand",
+   "digest": "The day after Luther's arrival Hutten sent him a letter, carried by Martin Bucer, hailing him as an unconquered preacher and begging him to stand firm, while admitting that he feared for his life. To Justus Jonas he wrote that keeping Luther alive mattered more than avenging him.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Strauss, Ulrich von Hutten (dated 'the following day' after the arrival); Böcking. https://projekt-gutenberg.org/authors/david-friedrich-strauss/books/ulrich-von-hutten/chapter/22"
+  },
+  {
+   "date_iso": "1521-04-18",
+   "date_display": "Thursday 18 April 1521, evening",
+   "precision": "day",
+   "eye": "luther",
+   "place": "Worms, larger hall of the bishop's palace",
+   "headline": "The answer by torchlight",
+   "digest": "Kept waiting two hours in a crush, Luther was admitted as torches were lit. He divided his books into three kinds (books of faith, books against the papacy, books against individuals), said he could withdraw none without confirming tyranny, and asked to be shown his errors from Scripture or plain reason. He spoke first in German and then repeated it in Latin.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Luther's own draft and Spalatin's notes; Acta of 1521; Schaff VII §55. https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxv.html"
+  },
+  {
+   "date_iso": "1521-04-18",
+   "date_display": "Thursday 18 April 1521, evening",
+   "precision": "day",
+   "eye": "eck",
+   "place": "Worms, bishop's palace",
+   "headline": "'An answer without horns'",
+   "digest": "Von der Ecken rebuked Luther for raising matters already judged by councils and demanded a plain answer, not one with horns. Luther replied he would give one with neither horns nor teeth: unless refuted by Scripture or clear reason, his conscience was captive to the word of God, since popes and councils had erred. Von der Ecken said he could not prove councils had erred; Luther said he could. The emperor ended the session amid noise at about eight.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Official protocol and the Acta; Schaff VII §55. https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxv.html"
+  },
+  {
+   "date_iso": "1521-04-18",
+   "date_display": "Thursday 18 April 1521",
+   "precision": "day",
+   "eye": "spalatin",
+   "place": "Worms, in the hall",
+   "headline": "Spalatin's notes: 'God help me, Amen'",
+   "digest": "Spalatin's notes, and the outline Luther wrote out for him, end the speech with 'God help me, Amen'. The longer form, with 'Here I stand, I can do no other', appears in the Wittenberg printing of the speech the same year and in later collected editions; Spalatin's account does not contain it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Schaff VII §55, discussion of the texts (Burkhardt, Köstlin, Erlangen ed. LXIV 383). https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxv.html"
+  },
+  {
+   "date_iso": "1521-04-18",
+   "date_display": "Thursday 18 April 1521",
+   "precision": "day",
+   "eye": "luther",
+   "place": "Worms",
+   "headline": "'Here I stand' (the printed version)",
+   "digest": "The pamphlet printing of Luther's speech, issued in Wittenberg in 1521, closes with the sentence later carved on monuments. Whether he said it in the hall is disputed: the earliest notes have only the prayer, while defenders argue the words fit his German and were printed by people who had been present.",
+   "quote": "Ich kann nicht anderst, hie stehe ich. Gott helf mir! Amen.",
+   "confidence": "verified",
+   "source_note": "GHDI text of the speech (Flugschrift); Schaff VII §55. https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/luther-und-kaiser-karl-v-auf-dem-reichstag-zu-worms-1521.pdf"
+  },
+  {
+   "date_iso": "1521-04-18",
+   "date_display": "Thursday 18 April 1521, night",
+   "precision": "day",
+   "eye": "frederick",
+   "place": "Worms, the elector's lodging",
+   "headline": "'He was bold enough'",
+   "digest": "That evening the elector told Spalatin how well Father Martin had spoken in Latin and German before the emperor and the estates, adding that he had been bold enough, if not too bold. The remark survives through Spalatin's later annals.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Spalatin, Annales (later compilation); Schaff VII §55. https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxv.html"
+  },
+  {
+   "date_iso": "1521-04-19",
+   "date_display": "Friday 19 April 1521",
+   "precision": "day",
+   "eye": "aleander",
+   "place": "Worms",
+   "headline": "'Like a soldier after a good thrust'",
+   "digest": "Aleander and Caracciolo wrote that as Luther left the hall he raised his hands as German soldiers do when they have landed a blow; some Spaniards hissed and jeered. They feared the emperor's patience and the princes' sympathy, and urged Rome to act.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Aleander and Caracciolo to Medici, 19 April 1521; Schaff VII §55. https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxv.html"
+  },
+  {
+   "date_iso": "1521-04-19",
+   "date_display": "Friday 19 April 1521",
+   "precision": "day",
+   "eye": "charles",
+   "place": "Worms",
+   "headline": "The emperor's own declaration",
+   "digest": "Charles summoned the electors and princes and had read the statement he had written overnight in French: descended from emperors, kings of Spain, archdukes and dukes of Burgundy who had been faithful to the Roman Church, he would hold to their faith; a single friar who set himself against all Christendom must be in error; he regretted having delayed, would send Luther home under his safe conduct, and would then proceed against him as a notorious heretic.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Autograph declaration, Reichstagsakten II; German text in GHDI; CSP Venice no. 192. https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/luther-und-kaiser-karl-v-auf-dem-reichstag-zu-worms-1521.pdf"
+  },
+  {
+   "date_iso": "1521-04-19",
+   "date_display": "19 April 1521",
+   "precision": "day",
+   "eye": "cornaro",
+   "place": "Worms",
+   "headline": "A Venetian summary of four days",
+   "digest": "Cornaro reported to the Signory that Luther had come on the 16th under safe conduct, acknowledged his books on the 17th and asked for time, and on the 18th refused to recant and asked for a disputation, which was refused. On the 19th the emperor dismissed him and had a written decree read that his books be burned and he be punished as a heretic.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "CSP Venice vol. 3, no. 191. https://prod.british-history.ac.uk/node/80408"
+  },
+  {
+   "date_iso": "1521-04-20",
+   "date_display": "20 April 1521",
+   "precision": "day",
+   "eye": "hutten",
+   "place": "Ebernburg",
+   "headline": "Hutten praises the answers and threatens to 'break out'",
+   "digest": "Hutten wrote again to Luther praising his answers at the hearings, urging him to hold firm, and saying that he himself would soon break out. About this time he also issued open invectives against Aleander and Caracciolo, threatening that they would not leave Germany unharmed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Strauss, Ulrich von Hutten (letter 'an Luther, 20. April'). https://projekt-gutenberg.org/authors/david-friedrich-strauss/books/ulrich-von-hutten/chapter/22"
+  },
+  {
+   "date_iso": "1521-04-24",
+   "date_display": "Wednesday 24 April 1521",
+   "precision": "day",
+   "eye": "eck",
+   "place": "Worms, residence of the Archbishop of Trier",
+   "headline": "The committee tries again",
+   "digest": "At the estates' request a committee under Richard von Greiffenklau, Archbishop of Trier, with the Elector of Brandenburg, Duke George of Saxony, bishops, the Baden chancellor Vehus, von der Ecken, and city envoys from Augsburg and Strasbourg, met Luther. They asked him to submit his books to the emperor and estates or to a council; he would submit only if judged by Scripture.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Schaff VII §57 (participants; no day given there); 24 April from standard chronologies. https://ccel.org/ccel/schaff/hcc7.ii.iii.xxvii.html"
+  },
+  {
+   "date_iso": "1521-04-25",
+   "date_display": "Thursday 25 April 1521",
+   "precision": "day",
+   "eye": "luther",
+   "place": "Worms",
+   "headline": "Luther asks leave to go home",
+   "digest": "After further private talks, including a session with Johannes Cochlaeus of Frankfurt, Luther asked the Archbishop of Trier to obtain the emperor's permission for him to leave. He said he could suffer anything, but could not give up the word of God.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Schaff VII §57. https://ccel.org/ccel/schaff/hcc7.ii.iii.xxvii.html"
+  },
+  {
+   "date_iso": "1521-04-25",
+   "date_display": "Thursday 25 April 1521, evening",
+   "precision": "day",
+   "eye": "eck",
+   "place": "Worms, Luther's lodging",
+   "headline": "The emperor's final word",
+   "digest": "Von der Ecken came with an imperial secretary to tell Luther that, since he would not be persuaded, the emperor would proceed against him; he had twenty-one days of safe conduct to return home, and must not preach or write on the way.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Reichstagsakten II; Schaff VII §57 (safe conduct for 21 days). Contarini's report gives twenty days."
+  },
+  {
+   "date_iso": "1521-04-25",
+   "date_display": "25 April 1521",
+   "precision": "day",
+   "eye": "contarini",
+   "place": "Worms",
+   "headline": "The new ambassador kept waiting",
+   "digest": "Contarini reported that he had reached Worms on the 20th but that his audience had been delayed because the Luther affair had occupied the emperor and electors for days. In a second letter he listed Luther's supposed errors from hearsay, admitted he had never seen him, and noted that Luther had large support.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "CSP Venice vol. 3, nos. 196–197. https://prod.british-history.ac.uk/node/80408"
+  },
+  {
+   "date_iso": "1521-04-26",
+   "date_display": "Friday 26 April 1521",
+   "precision": "day",
+   "eye": "luther",
+   "place": "Worms",
+   "headline": "Departure under safe conduct",
+   "digest": "Luther left Worms in the morning with his companions, the herald Sturm following. A few days later he sent the herald back with a letter, freeing him of his escort.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Schaff VII §58; CSP Venice footnote. Contarini's letter of the 25th says Luther had 'departed yesterday', which conflicts with all other sources."
+  },
+  {
+   "date_iso": "1521-04-26",
+   "date_display": "26 April 1521",
+   "precision": "day",
+   "eye": "contarini",
+   "place": "Worms",
+   "headline": "'Neither prudence nor learning'",
+   "digest": "Writing in Latin to Matteo Dandolo, Contarini summarised the hearings: Luther had acknowledged his books, then spoken at length in German against the pope and said the Council of Constance erred in condemning Hus. He judged Luther lacking in learning and prudence, but noted placards threatening Luther's enemies and his books on open sale in Worms.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "CSP Venice vol. 3, no. 199. https://prod.british-history.ac.uk/node/80408"
+  },
+  {
+   "date_iso": "1521-04-27",
+   "date_display": "27 April 1521",
+   "precision": "day",
+   "eye": "aleander",
+   "place": "Worms",
+   "headline": "'The venerable ribald'",
+   "digest": "Aleander now called Luther 'the venerable ribald' and accused him of heavy drinking at his lodgings; two days later he repeated the charge and reported fears that Luther would take refuge with the Hussites in Bohemia. Melanchthon and others later attested Luther's moderation, and the drinking charge is not supported elsewhere.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Aleander, 27 and 29 April 1521; Schaff VII §55 and §57. https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxv.html"
+  },
+  {
+   "date_iso": "1521-04-28",
+   "date_display": "28 April 1521",
+   "precision": "day",
+   "eye": "luther",
+   "place": "Frankfurt am Main",
+   "headline": "To Cranach: 'I let myself be hidden'",
+   "digest": "Luther wrote to his friend the painter Lucas Cranach that he was letting himself be shut away and hidden, he did not yet know where. He had expected the emperor to gather fifty doctors to refute him; instead there were only two questions, and then the order to go.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Luther to Lucas Cranach, Frankfurt, 28 April 1521 (WA Br 2); Currie, Letters. https://lutheranlibrary.org/pdf/557-currie-letters-of-martin-luther-facsimile.pdf"
+  },
+  {
+   "date_iso": "1521-04-28",
+   "date_display": "28 April 1521",
+   "precision": "day",
+   "eye": "luther",
+   "place": "Friedberg",
+   "headline": "A last letter to the emperor",
+   "digest": "From Friedberg Luther wrote to Charles V restating why he could not recant without being refuted from Scripture, thanking him for the safe conduct and offering obedience in all things except God's word. Accounts differ on whether it was ever delivered; it was soon printed. The manuscript is now in the Luther House at Wittenberg.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Morgan Library page on the letter. https://themorgan.org/node/71656"
+  },
+  {
+   "date_iso": "1521-04-28",
+   "date_display": "28 April 1521",
+   "precision": "day",
+   "eye": "contarini",
+   "place": "Worms",
+   "headline": "The princes' three days",
+   "digest": "Contarini explained that the electors and princes had asked to deal with Luther privately and the emperor had allowed only three days. Then a doctor of laws and a secretary carried the final demand; Luther refused, asked to be refuted from Scripture, and was given twenty days to leave Germany.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "CSP Venice vol. 3, no. 202. https://prod.british-history.ac.uk/node/80408"
+  },
+  {
+   "date_iso": "1521-05-01",
+   "date_display": "1 May 1521",
+   "precision": "day",
+   "eye": "hutten",
+   "place": "Ebernburg",
+   "headline": "'Ashamed of my fatherland'",
+   "digest": "Hutten wrote to Willibald Pirckheimer in Nuremberg that he was beginning to be ashamed of his fatherland. He called it a lie that Luther had been summoned to defend himself, and reported jurists arguing that the safe conduct need not be kept.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Strauss, Ulrich von Hutten; Schaff VII §58. https://projekt-gutenberg.org/authors/david-friedrich-strauss/books/ulrich-von-hutten/chapter/22"
+  },
+  {
+   "date_iso": "1521-05-04",
+   "date_display": "Saturday 4 May 1521",
+   "precision": "day",
+   "eye": "frederick",
+   "place": "Worms",
+   "headline": "'Martin's cause is in a bad state'",
+   "digest": "On the day Luther was taken off the road, the elector wrote from Worms that Martin's cause stood badly. He had arranged for Luther to be hidden but, by tradition, chose not to know where, so that he could say truthfully that he did not know.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Frederick, 4 May 1521 (quoted in Schaff VII §58; recipient usually given as Duke John); the 'not knowing' tradition comes from later accounts. https://ccel.org/ccel/schaff/hcc7.ii.iii.xxviii.html"
+  },
+  {
+   "date_iso": "1521-05-04",
+   "date_display": "Saturday 4 May 1521, evening",
+   "precision": "day",
+   "eye": "luther",
+   "place": "Near Altenstein, Thuringian Forest",
+   "headline": "The staged ambush",
+   "digest": "After visiting relatives at Möhra and preaching there, Luther was riding on near Altenstein castle when armed horsemen stopped the wagon, pulled him out and rode off with him by a roundabout route; Amsdorf was in on the plan. Late that night he was brought to the Wartburg above Eisenach, where he was to grow a beard and live as 'Junker Jörg'.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Standard chronology (Brecht); Worms city account. https://www.worms-erleben.de/experience/entdecken-und-staunen/kulturprofile/luther/Luther-1521/Worms-1521/wormser-reichstag-1521.php"
+  },
+  {
+   "date_iso": "1521-05-05",
+   "date_display": "5 May 1521",
+   "precision": "day",
+   "eye": "aleander",
+   "place": "Worms",
+   "headline": "The nuncio is told to write the edict himself",
+   "digest": "Aleander reported that the emperor and his council had commissioned him to draft the decree against Luther, with as many justifications as possible so that the people would accept it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Aleander, 5 May 1521; Schaff VII §58. https://ccel.org/ccel/schaff/hcc7.ii.iii.xxviii.html"
+  },
+  {
+   "date_iso": "1521-05-08",
+   "date_display": "8 May 1521",
+   "precision": "day",
+   "eye": "charles",
+   "place": "Worms",
+   "headline": "The edict is dated, and an alliance is made",
+   "digest": "The edict against Luther was completed and dated, though not yet signed. The same day the emperor concluded an alliance with the pope against France: the two would have the same friends and the same enemies.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Schaff VII §58. https://ccel.org/ccel/schaff/hcc7.ii.iii.xxviii.html"
+  },
+  {
+   "date_iso": "1521-05-12",
+   "date_display": "12 May 1521",
+   "precision": "day",
+   "eye": "contarini",
+   "place": "Worms",
+   "headline": "'A feint of his own devising'",
+   "digest": "Contarini reported a story that Luther had been seized on 3 May by a Bohemian. The nuncio and other judicious people, he wrote, thought it a feint that Luther himself had arranged.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "CSP Venice vol. 3, no. 209 (the date of the seizure given there as 3 May). https://prod.british-history.ac.uk/node/80409"
+  },
+  {
+   "date_iso": "1521-05-13",
+   "date_display": "May 1521",
+   "precision": "month",
+   "eye": "valdes",
+   "place": "Worms",
+   "headline": "Not the end, but the beginning",
+   "digest": "Writing to Peter Martyr in Spain, Valdés described the hearing and the burning of Luther's books. Some at court believed the tragedy was over; he thought it was only beginning, and that the Germans' anger at Rome would not be calmed by edicts.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Valdés to Peter Martyr d'Anghiera, Worms, May 1521 (Martyr, Opus epistolarum, 1530); day often given as 13 May, not confirmed here. Schaff-Herzog, 'Valdés'."
+  },
+  {
+   "date_iso": "1521-05-17",
+   "date_display": "Friday before Whitsun, 17 May 1521",
+   "precision": "day",
+   "eye": "durer",
+   "place": "Antwerp",
+   "headline": "'Is Luther dead?' A lament in the journal",
+   "digest": "The journal records that news came to Antwerp that Luther had been treacherously seized after the emperor's herald left him, and perhaps killed. There follows a long prayer: who will now explain the gospel to us, and it calls on Erasmus, the 'knight of Christ', to take up the cause. Stumpel has argued the lament was written by the Antwerp Augustinian Jacob Probst and later absorbed into Dürer's journal; most older scholarship treats it as Dürer's own.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dürer's journal, Rupprich I; Stumpel 2021 on authorship. https://www.inkl.com/news/albrecht-durer-may-not-have-written-lament-on-luther-finds-study"
+  },
+  {
+   "date_iso": "1521-05-18",
+   "date_display": "18 May 1521",
+   "precision": "day",
+   "eye": "contarini",
+   "place": "Worms",
+   "headline": "Rome is pleased; the capture doubted",
+   "digest": "Contarini reported that the pope had had the emperor's declaration against Luther read in full consistory and was pleased with it. The story of Luther's capture was now judged false; he was thought to be safe in Saxony and still popular.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "CSP Venice vol. 3, no. 216. https://prod.british-history.ac.uk/node/80409"
+  },
+  {
+   "date_iso": "1521-05-26",
+   "date_display": "Trinity Sunday, 26 May 1521",
+   "precision": "day",
+   "eye": "charles",
+   "place": "Worms cathedral",
+   "headline": "The emperor signs after mass",
+   "digest": "After Frederick, the Elector Palatine and many other members had gone home, the edict was approved by the estates still present on 25 May. On Trinity Sunday Aleander brought the Latin and German copies to church and Charles signed both after high mass. It put Luther under the imperial ban, forbade anyone to shelter him, and ordered his books burned.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Schaff VII §58 (signature 26 May, edict dated 8 May); Wikipedia gives 25 May for issue. https://ccel.org/ccel/schaff/hcc7.ii.iii.xxviii.html"
+  },
+  {
+   "date_iso": "1521-05-28",
+   "date_display": "28 May 1521",
+   "precision": "day",
+   "eye": "contarini",
+   "place": "Worms",
+   "headline": "Books to burn in the market",
+   "digest": "Contarini reported that the imperial mandates against Luther had been issued and that his printed works were to be burned in the Worms market place the next day.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "CSP Venice vol. 3, no. 224. https://prod.british-history.ac.uk/node/80409"
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1520-06-15",
+   "date_display": "15 June 1520",
+   "eye": "aleander",
+   "claim": "Papal bull Exsurge Domine condemns 41 propositions and gives Luther 60 days to recant",
+   "form": "decided",
+   "evidence": "Bull of Leo X; carried north by Aleander and Eck",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1520-12-10",
+   "date_display": "10 December 1520",
+   "eye": "luther",
+   "claim": "Luther publicly burns the bull and the canon law at Wittenberg",
+   "form": "refused",
+   "evidence": "Luther to Spalatin, 10 Dec 1520",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1521-01-03",
+   "date_display": "3 January 1521",
+   "eye": "aleander",
+   "claim": "Bull Decet Romanum Pontificem excommunicates Luther (arrives at Worms 10 Feb)",
+   "form": "decided",
+   "evidence": "Schaff VII §53",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1521-02-13",
+   "date_display": "13 February 1521",
+   "eye": "aleander",
+   "claim": "Nuncio urges the Diet to enforce the condemnation without hearing Luther; estates ask instead that he be summoned",
+   "form": "proposed",
+   "evidence": "Aleander's speech; Reichstagsakten II; Schaff VII §53",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1521-03-06",
+   "date_display": "6 March 1521",
+   "eye": "charles",
+   "claim": "Emperor summons Luther within 21 days under imperial safe conduct",
+   "form": "decided",
+   "evidence": "Summons in Reichstagsakten II",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1521-04-17",
+   "date_display": "17 April 1521",
+   "eye": "eck",
+   "claim": "Asked whether the books are his and whether he will recant; Luther owns them and is granted one day to answer",
+   "form": "debated",
+   "evidence": "Official protocol; Aleander 17 Apr; CSP Venice no. 191",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1521-04-18",
+   "date_display": "18 April 1521",
+   "eye": "luther",
+   "claim": "Refuses to recant unless convinced by Scripture or plain reason; asserts councils have erred",
+   "form": "refused",
+   "evidence": "Acta 1521; Spalatin's notes; protocol",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1521-04-18",
+   "date_display": "18 April 1521",
+   "eye": "spalatin",
+   "claim": "Closing words: earliest notes record 'God help me, Amen'; 'Here I stand, I can do no other' first in the Wittenberg print of 1521 — authenticity disputed (Burkhardt, Schenkel against; Köstlin, Ranke for)",
+   "form": "other",
+   "evidence": "Spalatin's notes; 1521 Wittenberg print; Schaff VII §55",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1521-04-19",
+   "date_display": "19 April 1521",
+   "eye": "charles",
+   "claim": "Emperor declares in his own hand he will proceed against Luther as a notorious heretic once his safe conduct expires",
+   "form": "decided",
+   "evidence": "Autograph French declaration, Reichstagsakten II; CSP Venice no. 192",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1521-04-19",
+   "date_display": "19–20 April 1521",
+   "eye": "contarini",
+   "claim": "Estates ask for private talks with Luther; emperor allows three days",
+   "form": "petitioned",
+   "evidence": "Contarini, 28 Apr 1521, CSP Venice no. 202; Schaff VII §57",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1521-04-24",
+   "date_display": "24–25 April 1521",
+   "eye": "eck",
+   "claim": "Committee under the Archbishop of Trier asks Luther to submit to emperor, estates or a council; he will accept only judgement by Scripture",
+   "form": "refused",
+   "evidence": "Reichstagsakten II; Schaff VII §57",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1521-04-25",
+   "date_display": "25 April 1521",
+   "eye": "eck",
+   "claim": "Luther dismissed: 21 days' safe conduct, no preaching or writing on the road (Contarini: 20 days)",
+   "form": "decided",
+   "evidence": "Reichstagsakten II; CSP Venice no. 202",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1521-05-05",
+   "date_display": "5 May 1521",
+   "eye": "aleander",
+   "claim": "Emperor and council commission the nuncio to draft the edict",
+   "form": "reported",
+   "evidence": "Aleander, 5 May 1521 (Kalkoff); Schaff VII §58",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1521-05-08",
+   "date_display": "8 May 1521",
+   "eye": "charles",
+   "claim": "Edict of Worms completed and dated; same day, alliance with the pope against France",
+   "form": "decided",
+   "evidence": "Schaff VII §58",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1521-05-25",
+   "date_display": "25 May 1521",
+   "eye": "charles",
+   "claim": "Remaining estates, after Saxony and the Palatinate have left, approve the edict; never put to the full Diet",
+   "form": "voted",
+   "evidence": "Reichstagsakten II; Schaff VII §58 (not submitted to the full Diet)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1521-05-26",
+   "date_display": "26 May 1521",
+   "eye": "charles",
+   "claim": "Emperor signs Latin and German texts after high mass; Luther under imperial ban, his books to be burned",
+   "form": "signed",
+   "evidence": "Aleander's dispatch; Schaff VII §58",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1521-01-28",
+   "label": "The Diet opens",
+   "eyes": [
+    "charles",
+    "tunstall",
+    "aleander"
+   ],
+   "note": "For the emperor the Diet was about government, money and his Italian war; for the English envoy about a marriage treaty, with Luther's books a postscript; for the nuncio it was entirely about Luther."
+  },
+  {
+   "date": "1521-04-16",
+   "label": "Luther rides into Worms",
+   "eyes": [
+    "luther",
+    "aleander",
+    "cornaro",
+    "hutten"
+   ],
+   "note": "Aleander saw demonic eyes and a crowd gone mad; Cornaro recorded only the fact and the safe conduct; Hutten, sixty kilometres away, wrote the next day to beg him to stand firm."
+  },
+  {
+   "date": "1521-04-17",
+   "label": "The first hearing",
+   "eyes": [
+    "eck",
+    "aleander",
+    "luther",
+    "cornaro"
+   ],
+   "note": "The protocol records two questions and a request for time; Aleander read the request as weakness and loss of face; Luther's note to Cuspinian that night insists he will not yield an iota."
+  },
+  {
+   "date": "1521-04-18",
+   "label": "The answer",
+   "eyes": [
+    "luther",
+    "eck",
+    "spalatin",
+    "frederick",
+    "aleander",
+    "cornaro"
+   ],
+   "note": "Protocol, Saxon notes and the printed pamphlet agree on the substance and differ on the closing words; Frederick was proud and uneasy; the nuncios saw a soldier's gesture of triumph and Spanish jeers."
+  },
+  {
+   "date": "1521-04-19",
+   "label": "The emperor's written answer",
+   "eyes": [
+    "charles",
+    "cornaro",
+    "contarini",
+    "aleander"
+   ],
+   "note": "Charles's own text speaks of ancestors and conscience; Cornaro reported it the same day as a decree to burn books; Contarini, arriving the next day, heard of it second-hand."
+  },
+  {
+   "date": "1521-04-25",
+   "label": "Talks fail; Luther dismissed",
+   "eyes": [
+    "eck",
+    "luther",
+    "contarini"
+   ],
+   "note": "The committee wanted any form of submission; Luther would accept only Scripture; Contarini's report shortens the safe conduct to twenty days and puts the departure a day early."
+  },
+  {
+   "date": "1521-04-28",
+   "label": "Letters from the road",
+   "eyes": [
+    "luther",
+    "contarini"
+   ],
+   "note": "On the same day Luther wrote to Cranach about being hidden and to Charles in the language of obedience, while Contarini in Worms explained the failure of the princes' talks to Venice."
+  },
+  {
+   "date": "1521-05-04",
+   "label": "Luther vanishes",
+   "eyes": [
+    "luther",
+    "frederick",
+    "contarini",
+    "durer"
+   ],
+   "note": "Frederick wrote that the cause stood badly on the day his men took Luther off the road; Contarini and the nuncio suspected a feint; in Antwerp the news arrived as a death."
+  },
+  {
+   "date": "1521-05-26",
+   "label": "The edict signed",
+   "eyes": [
+    "charles",
+    "aleander",
+    "contarini"
+   ],
+   "note": "Aleander saw his own draft signed in church; Contarini reported the burning of books in the market; Saxony, whose elector had already left, never published it."
+  }
+ ],
+ "ties": [
+  {
+   "a": "aleander",
+   "b": "luther",
+   "kind": "opposite sides",
+   "note": "The nuncio fought to prevent Luther being heard at all; they never debated face to face, but Aleander watched and reported every appearance."
+  },
+  {
+   "a": "eck",
+   "b": "luther",
+   "kind": "met",
+   "note": "Von der Ecken examined Luther in both hearings, argued with him at the committee, and delivered the emperor's dismissal."
+  },
+  {
+   "a": "frederick",
+   "b": "luther",
+   "kind": "opposite sides",
+   "note": "Luther's prince and protector, who is not known to have spoken with him in person, even at Worms; he arranged his disappearance."
+  },
+  {
+   "a": "spalatin",
+   "b": "frederick",
+   "kind": "relative",
+   "note": "Spalatin was Frederick's secretary and chaplain, and the channel through which the elector's views reached Luther and Luther's reached the elector."
+  },
+  {
+   "a": "spalatin",
+   "b": "luther",
+   "kind": "read each other",
+   "note": "Luther's closest correspondent; Luther wrote out an outline of his speech for him, and wrote to him from Frankfurt and from the Wartburg."
+  },
+  {
+   "a": "charles",
+   "b": "aleander",
+   "kind": "influenced",
+   "note": "Aleander persuaded Charles to revoke the first invitation and later drafted the edict that Charles signed."
+  },
+  {
+   "a": "charles",
+   "b": "frederick",
+   "kind": "opposite sides",
+   "note": "Charles owed his election partly to Frederick and so granted the hearing; he then signed the edict only after Frederick had left Worms."
+  },
+  {
+   "a": "hutten",
+   "b": "aleander",
+   "kind": "opposite sides",
+   "note": "Hutten's invectives threatened Aleander and Caracciolo; Aleander reported the danger from the knights to Rome."
+  },
+  {
+   "a": "hutten",
+   "b": "luther",
+   "kind": "read each other",
+   "note": "Hutten's letters reached Luther in Worms by Martin Bucer's hand; Luther did not take up the knights' offer of armed help."
+  },
+  {
+   "a": "cornaro",
+   "b": "contarini",
+   "kind": "met",
+   "note": "Successive Venetian ambassadors: Cornaro reported the hearings he witnessed; Contarini arrived on 20 April and reported the aftermath."
+  },
+  {
+   "a": "contarini",
+   "b": "luther",
+   "kind": "mentioned",
+   "note": "Contarini judged Luther harshly from hearsay, admitting he had not seen him; in 1541 he negotiated with Luther's colleagues at Regensburg."
+  },
+  {
+   "a": "durer",
+   "b": "charles",
+   "kind": "met",
+   "note": "Dürer attended Charles's coronation at Aachen in October 1520 and had his pension confirmed by him at Cologne."
+  },
+  {
+   "a": "durer",
+   "b": "luther",
+   "kind": "read each other",
+   "note": "Dürer read and admired Luther's writings and had sent him prints through Spalatin; whether the Antwerp lament is his is now disputed."
+  },
+  {
+   "a": "valdes",
+   "b": "charles",
+   "kind": "met",
+   "note": "Valdés served in Charles's chancery and later became his Latin secretary."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v1:thirty-years",
+   "note": "The Edict of Worms outlawed Luther but could not be enforced in the princes' lands. The religious split it left in the Empire was settled for a time at Augsburg in 1555, on the principle that each ruler chose his territory's faith, and that settlement broke down into the Thirty Years' War in 1618."
+  },
+  {
+   "to": "v2:first-contact",
+   "note": "Dürer's Netherlands journey of 1520–21 runs through both chapters: in Brussels in August 1520 he saw the Aztec treasures Cortés had sent to Charles V, and in May 1521 his journal records the false news of Luther's death. Charles V, ruler of the Spanish conquests, is also the emperor of Worms."
+  },
+  {
+   "to": "v5:florence-1504",
+   "note": "Luther saw the Dominican Girolamo Savonarola, burned in Florence in 1498 after defying a papal excommunication, as a forerunner. In 1523 he published Savonarola's prison meditations on the Psalms with his own preface."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/martin-luther-as-holy-man-after-1519",
+   "title": "Portrait of Martin Luther as a holy man",
+   "caption": "Hans Baldung Grien's woodcut of Luther in his friar's habit with the dove of the Holy Spirit above him, first used in a pamphlet around the time of the Diet. It is the kind of image Aleander complained of on 13 April 1521.",
+   "date": "c. 1521",
+   "credit": "Hans Baldung Grien; Kupferstichkabinett, Staatliche Museen zu Berlin (via GHDI)"
+  },
+  {
+   "url": "https://www.worms-erleben.de/experience/entdecken-und-staunen/kulturprofile/luther/Luther-1521/Worms-1521/wormser-reichstag-1521.php",
+   "title": "Luther at the Diet of Worms",
+   "caption": "A coloured woodcut of 1557 showing Luther before the emperor and the estates, printed more than thirty years after the event. It shows how Protestant memory pictured the hearing, not an eyewitness view.",
+   "date": "1557",
+   "credit": "Archiv Eichfelder, via the City of Worms"
+  },
+  {
+   "url": "https://themorgan.org/node/71656",
+   "title": "Luther's letter to Charles V, 28 April 1521",
+   "caption": "The letter Luther wrote at Friedberg after leaving Worms, restating his position to the emperor. Pierpont Morgan bought it in 1911 and presented it to Germany; it is now in the Luther House at Wittenberg.",
+   "date": "28 April 1521",
+   "credit": "Lutherhaus Wittenberg; Morgan Library & Museum page"
+  },
+  {
+   "url": "https://www.wikipedia.org/wiki/File:Lucas_Cranach_d.%C3%84._-_Bildnis_Luthers_als_Junker_J%C3%B6rg_(Leipzig)FXD.jpg",
+   "title": "Luther as Junker Jörg",
+   "caption": "Cranach's painted portrait of Luther bearded and disguised as the knight 'Junker Jörg', as he lived at the Wartburg after the staged capture of 4 May 1521.",
+   "date": "c. 1521–22",
+   "credit": "Lucas Cranach the Elder; Museum der bildenden Künste, Leipzig"
+  },
+  {
+   "url": "https://www.metmuseum.org/art/collection/search/625291",
+   "title": "Luther as 'Junker Jorg' (woodcut)",
+   "caption": "Cranach's woodcut version of the disguised Luther, which spread the image of the reformer in hiding after his return to Wittenberg in 1522.",
+   "date": "1522",
+   "credit": "Lucas Cranach the Elder; The Metropolitan Museum of Art, 41.1.163"
+  }
+ ],
+ "further": [
+  {
+   "title": "Philip Schaff, History of the Christian Church VII, §53 The Diet of Worms",
+   "url": "https://ccel.org/ccel/schaff/hcc7.ii.iii.xxiii.html"
+  },
+  {
+   "title": "Schaff VII §55, Luther's testimony and the 'Here I stand' texts",
+   "url": "https://ccel.org/ccel/schaff/hcc7/hcc7.ii.iii.xxv.html"
+  },
+  {
+   "title": "Schaff VII §58, The Edict of Worms",
+   "url": "https://ccel.org/ccel/schaff/hcc7.ii.iii.xxviii.html"
+  },
+  {
+   "title": "Calendar of State Papers, Venice, vol. 3: April 1521 (Cornaro and Contarini)",
+   "url": "https://prod.british-history.ac.uk/node/80408"
+  },
+  {
+   "title": "Calendar of State Papers, Venice, vol. 3: May 1521",
+   "url": "https://prod.british-history.ac.uk/node/80409"
+  },
+  {
+   "title": "German History in Documents and Images: Luther and Charles V at Worms (texts)",
+   "url": "https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/luther-und-kaiser-karl-v-auf-dem-reichstag-zu-worms-1521.pdf"
+  },
+  {
+   "title": "D. F. Strauss, Ulrich von Hutten (Projekt Gutenberg)",
+   "url": "https://projekt-gutenberg.org/authors/david-friedrich-strauss/books/ulrich-von-hutten/chapter/22"
+  },
+  {
+   "title": "Margaret Currie, The Letters of Martin Luther (1908)",
+   "url": "https://lutheranlibrary.org/pdf/557-currie-letters-of-martin-luther-facsimile.pdf"
+  }
+ ],
+ "vantage_key": "0 = principals in the hall (the accused, the emperor, the nuncio, the examiner); 1 = others present at Worms during the hearings; 2 = at Worms but arriving late or leaving early; 3 = within reach in Germany; 4 = abroad, hearing news."
+}

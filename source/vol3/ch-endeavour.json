@@ -1,0 +1,1300 @@
+{
+ "id": "endeavour",
+ "title": "The Transit and the Shore",
+ "short_title": "Endeavour, 1768–1771",
+ "subtitle": "James Cook's first voyage: Tahiti, Aotearoa, the east coast of Australia and Batavia, 1768–1771",
+ "span": "1768–1771",
+ "intro": [
+  "In August 1768 a converted Whitby collier, HM Bark Endeavour, left Plymouth with about ninety people aboard. Its public errand was astronomy: on 3 June 1769 Venus would cross the face of the sun, and timings from Tahiti, set against those from the far north, might fix the distance from the earth to the sun. Its sealed second order was to look for the great southern continent. Over the next three years the ship charted all of Aotearoa New Zealand and the east coast of Australia, nearly sank on the Great Barrier Reef, and lost a third of its people to disease at Batavia.",
+  "This chapter puts the travellers' records beside those of the people they met. The British record is rich: Cook's own journal, Banks's lively and troubled one, Parkinson's posthumously published account, the surgeon Monkhouse's surviving fragment, Green's observations, Spöring's drawings. Much of it is ship's journal and log rather than private diary, and it is tagged as such. Tupaia, the Ra'iatean navigator who sailed with them, left no words, only a chart and a handful of watercolours, so he is mostly seen through others' pages.",
+  "The hosts' voices survive differently, and the chapter says so plainly. Te Horeta Te Taniwha's memory of the ship at Whitianga was told when he was an old man and printed in 1888. The people of Tūranganui, the Gweagal of Kamay and the Guugu Yimithirr of Waalumbaal Birri hold their accounts in oral tradition, spoken publicly in our own time; in each case the day-by-day facts come through the British journals, while the meaning given to them by the descendants of those on the shore can be very different. Those later forms are flagged, neither inflated into contemporary records nor dismissed.",
+  "Four clusters carry the chapter. The transit morning at Point Venus and Moorea, 3 June 1769. The first landing in Aotearoa at Tūranganui, 8–11 October 1769, when crew members shot and killed nine Māori people in two days, including Te Maro and Te Rākau; Banks called it the most disagreeable day of his life, and Britain expressed regret 250 years later. The landing at Kamay on 29 April 1770, where two Gweagal men stood against thirty or forty armed men. And the long stay at the Endeavour River in June–August 1770, where a quarrel over turtles ended in a ritual of peace that Guugu Yimithirr people still tell, and where English gained the word kangaroo.",
+  "Read together, the journals show the voyage the way the people on board saw it, a feat of seamanship and science, and the encounters the way the shore saw them: strangers who took without asking, fired too readily, and were sometimes, for a moment, received in peace."
+ ],
+ "calendar_note": "Britain had used the Gregorian calendar since 1752, so no Old Style conversion is needed. Two quirks remain. Cook's journal uses the nautical day, running noon to noon and dated ahead of the civil day, so an afternoon event can carry the next day's date in his log; and the ship's dates were not adjusted for sailing west round the world, so by the time the Endeavour reached Batavia they were a day behind local reckoning. Banks and Cook therefore sometimes head the same event a day apart (Kamay: Cook 29 April, Banks 28 April; the canoe at Tūranganui: civil 9 October, ship's date 10 October). date_iso here follows the civil dates historians and the communities now use, with the journal heading shown in date_display where it differs.",
+ "eyes": [
+  {
+   "id": "cook",
+   "name": "James Cook",
+   "short": "Cook",
+   "life": "1728–1779",
+   "role": "Lieutenant RN, aged 40, commander of HM Bark Endeavour",
+   "side": "British (Royal Navy, Royal Society expedition)",
+   "where": "Aboard the Endeavour and ashore at every landing",
+   "lat": -17.49,
+   "lon": -149.5,
+   "waypoints": [
+    {
+     "lat": 50.37,
+     "lon": -4.14,
+     "label": "Plymouth, Aug 1768"
+    },
+    {
+     "lat": -17.49,
+     "lon": -149.5,
+     "label": "Matavai Bay, Tahiti"
+    },
+    {
+     "lat": -38.67,
+     "lon": 178.02,
+     "label": "Tūranganui, Oct 1769"
+    },
+    {
+     "lat": -34.0,
+     "lon": 151.2,
+     "label": "Kamay, Apr 1770"
+    },
+    {
+     "lat": -15.47,
+     "lon": 145.25,
+     "label": "Waalumbaal Birri"
+    },
+    {
+     "lat": -6.12,
+     "lon": 106.81,
+     "label": "Batavia, Oct 1770"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "commander; gave the orders to fire",
+   "form": "journal (ship's journal kept as an official log)",
+   "language": "English",
+   "authenticity": "Holograph journal held by the National Library of Australia (bought at auction in London in 1923); first printed in full by W. J. L. Wharton in 1893, later edited by J. C. Beaglehole (1955). Cook kept nautical days (noon to noon) and copied passages from Banks into his own text.",
+   "bio": "A Yorkshire farm labourer's son who rose from the Whitby coal trade to command, Cook was chosen for his surveying skill. His journal is mostly wind, course and position, broken by flashes of judgement, doubt and, at times, self-reproach. He is the man whose orders shaped every encounter in this chapter.",
+   "sources": [
+    {
+     "title": "Captain Cook's Journal During His First Voyage Round the World (Wharton ed., 1893), Project Gutenberg",
+     "url": "https://gutenberg.org/ebooks/8106"
+    },
+    {
+     "title": "South Seas transcript of Cook's journal, 3 June 1769",
+     "url": "https://paulturnbull.org/project/southseas/journals/cook/17690603.html"
+    },
+    {
+     "title": "National Library of Australia: James Cook's Endeavour journal",
+     "url": "https://www.library.gov.au/node/1489"
+    }
+   ]
+  },
+  {
+   "id": "banks",
+   "name": "Joseph Banks",
+   "short": "Banks",
+   "life": "1743–1820",
+   "role": "Wealthy gentleman-naturalist, aged 25, who paid for his own scientific party of eight",
+   "side": "British (private scientific party aboard)",
+   "where": "Aboard and ashore; at Moorea for the transit",
+   "lat": -17.48,
+   "lon": -149.83,
+   "waypoints": [
+    {
+     "lat": -17.49,
+     "lon": -149.5,
+     "label": "Matavai Bay, Tahiti"
+    },
+    {
+     "lat": -17.48,
+     "lon": -149.83,
+     "label": "Moorea (York Island)"
+    },
+    {
+     "lat": -38.67,
+     "lon": 178.02,
+     "label": "Tūranganui, Oct 1769"
+    },
+    {
+     "lat": -34.0,
+     "lon": 151.2,
+     "label": "Kamay, Apr 1770"
+    },
+    {
+     "lat": -15.47,
+     "lon": 145.25,
+     "label": "Waalumbaal Birri"
+    },
+    {
+     "lat": -6.12,
+     "lon": 106.81,
+     "label": "Batavia, Oct 1770"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "naturalist and eyewitness at every landing",
+   "form": "journal",
+   "language": "English",
+   "authenticity": "Original journal held by the State Library of New South Wales; an abridged edition by J. D. Hooker appeared in 1896 and the full text was edited by J. C. Beaglehole (1962). Banks sometimes wrote up entries later from memory, notably at Batavia, so a few of his dates are wrong.",
+   "bio": "Banks brought Solander, Spöring, Parkinson and others at his own cost, and his journal is the voyage's most vivid and personal. He bartered, flirted, botanised and argued; he was also present at the shootings at Tūranganui and Kamay and wrote about them with real unease. Later, as President of the Royal Society, he championed the colony at Botany Bay.",
+   "sources": [
+    {
+     "title": "The Endeavour Journal of Joseph Banks (Beaglehole ed.), NZETC",
+     "url": "https://nzetc.victoria.ac.nz/tm/scholarly/tei-Bea01Bank-t1-body-d7-d4.html"
+    },
+    {
+     "title": "South Seas transcript of Banks's journal, 3 June 1769",
+     "url": "https://paulturnbull.org/project/southseas/journals/banks/17690603.html"
+    },
+    {
+     "title": "South Seas transcript of Banks's journal, 19 July 1770",
+     "url": "https://paulturnbull.org/project/southseas/journals/banks/17700719.html"
+    }
+   ]
+  },
+  {
+   "id": "parkinson",
+   "name": "Sydney Parkinson",
+   "short": "Parkinson",
+   "life": "c.1745–1771",
+   "role": "Edinburgh Quaker, natural-history artist in Banks's party, in his mid-twenties",
+   "side": "British (Banks's scientific party)",
+   "where": "Aboard and ashore, drawing and collecting words",
+   "lat": -34.0,
+   "lon": 151.2,
+   "waypoints": [
+    {
+     "lat": -17.49,
+     "lon": -149.5,
+     "label": "Matavai Bay, Tahiti"
+    },
+    {
+     "lat": -38.67,
+     "lon": 178.02,
+     "label": "Tūranganui, Oct 1769"
+    },
+    {
+     "lat": -38.37,
+     "lon": 178.32,
+     "label": "Uawa (Tolaga Bay)"
+    },
+    {
+     "lat": -34.0,
+     "lon": 151.2,
+     "label": "Kamay, Apr 1770"
+    },
+    {
+     "lat": -15.47,
+     "lon": 145.25,
+     "label": "Waalumbaal Birri"
+    },
+    {
+     "lat": -6.12,
+     "lon": 106.81,
+     "label": "Batavia, Oct 1770"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "artist on the beach, sketching the people he met",
+   "form": "journal (published posthumously, 1773) and dated sketches",
+   "language": "English",
+   "authenticity": "A Journal of a Voyage to the South Seas was published in 1773 by his brother Stanfield, edited by William Kenrick, after a quarrel with Banks over Sydney's papers. No continuous fair copy survives, so how much of the wording is Parkinson's own, his brother's or Kenrick's is uncertain; it is nevertheless treated as a primary account.",
+   "bio": "Parkinson made nearly a thousand drawings on the voyage, worked while flies ate his paint at Tahiti, and recorded word lists in several languages, including about 150 Guugu Yimithirr words at the Endeavour River. He caught dysentery after Batavia and died at sea on 26 January 1771.",
+   "sources": [
+    {
+     "title": "Parkinson's Journal (South Seas edition), page on the landing at Kamay",
+     "url": "https://paulturnbull.org/project/southseas/journals/parkinson/179.html"
+    },
+    {
+     "title": "Parkinson's Journal, Batavia pages",
+     "url": "https://mail.paulturnbull.org/project/southseas/journals/parkinson/214.html"
+    },
+    {
+     "title": "A Journal of a Voyage to the South Seas (NZETC)",
+     "url": "https://nzetc.victoria.ac.nz/tm/scholarly/tei-ParJour-t1-front1-d7.html"
+    }
+   ]
+  },
+  {
+   "id": "green",
+   "name": "Charles Green",
+   "short": "Green",
+   "life": "c.1735–1771",
+   "role": "Astronomer appointed by the Royal Society; formerly assistant at the Royal Observatory, Greenwich",
+   "side": "British (Royal Society)",
+   "where": "Fort Venus, Point Venus, Tahiti; later Mercury Bay",
+   "lat": -17.49,
+   "lon": -149.5,
+   "waypoints": [
+    {
+     "lat": -17.49,
+     "lon": -149.5,
+     "label": "Matavai Bay, Tahiti"
+    },
+    {
+     "lat": -36.83,
+     "lon": 175.7,
+     "label": "Whitianga, Nov 1769"
+    },
+    {
+     "lat": -34.0,
+     "lon": 151.2,
+     "label": "Kamay, Apr 1770"
+    },
+    {
+     "lat": -15.47,
+     "lon": 145.25,
+     "label": "Waalumbaal Birri"
+    },
+    {
+     "lat": -6.12,
+     "lon": 106.81,
+     "label": "Batavia, Oct 1770"
+    },
+    {
+     "lat": -11.95,
+     "lon": 101.75,
+     "label": "Buried at sea, 1771"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "chief observer of the transit",
+   "form": "astronomical observations and log (published 1771)",
+   "language": "English",
+   "authenticity": "His Tahiti observations were printed with Cook's in the Philosophical Transactions of the Royal Society, vol. 61 (1771). His own logbook survives but is known here only through secondary description; the Astronomer Royal Maskelyne later criticised the state of his papers and Cook defended him.",
+   "bio": "A Yorkshire farmer's son like Cook, Green had tested Harrison's timekeeper at sea before the voyage. The whole expedition existed to put his telescope on Venus for six hours. He worked tirelessly on longitudes all the way round, and died of the Batavia sickness on 29 January 1771.",
+   "sources": [
+    {
+     "title": "Captain Cook Society: Charles Green, man without a face",
+     "url": "https://www.captaincooksociety.com/cooks-life/people/cooks-officers-and-crew-and-contemporaries/charles-green-man-without-a-face"
+    },
+    {
+     "title": "National Library of Australia: Transit of Venus",
+     "url": "https://www.library.gov.au/node/1447"
+    }
+   ]
+  },
+  {
+   "id": "monkhouse",
+   "name": "William Brougham Monkhouse",
+   "short": "Monkhouse",
+   "life": "bapt. 1732–1770",
+   "role": "Ship's surgeon of the Endeavour",
+   "side": "British (Royal Navy)",
+   "where": "Shore party at Tūranganui; transit party at Moorea",
+   "lat": -38.67,
+   "lon": 178.02,
+   "waypoints": [
+    {
+     "lat": -17.49,
+     "lon": -149.5,
+     "label": "Matavai Bay, Tahiti"
+    },
+    {
+     "lat": -17.48,
+     "lon": -149.83,
+     "label": "Moorea (York Island)"
+    },
+    {
+     "lat": -38.67,
+     "lon": 178.02,
+     "label": "Tūranganui, Oct 1769"
+    },
+    {
+     "lat": -6.12,
+     "lon": 106.81,
+     "label": "Batavia, Oct 1770"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "surgeon in the shore party who fired on Te Rākau",
+   "form": "journal (fragment)",
+   "language": "English",
+   "authenticity": "Only a fragment survives, covering 6–21 October 1769, as a transcript in the British Library (Add. MS 27889, ff. 83–96); Beaglehole printed it in his edition of Cook's journals (1955). It is one of the closest British accounts of the first landing in Aotearoa.",
+   "bio": "Cook credited Monkhouse's care with keeping scurvy down on the way to Tahiti. At Tūranganui he was in the party on the riverbank and fired the shot that killed Te Rākau. He was the first of the crew to die at Batavia, on 5 November 1770.",
+   "sources": [
+    {
+     "title": "Captain Cook Society: William Brougham Munkhouse and Jonathan Munkhouse",
+     "url": "https://www.captaincooksociety.com/home/detail/william-brougham-munkhouse-and-jonathan-munkhouse"
+    },
+    {
+     "title": "South Seas Companion biography of Munkhouse",
+     "url": "https://paulturnbull.org/project/southseas/biogs/P000408b.htm"
+    }
+   ]
+  },
+  {
+   "id": "sporing",
+   "name": "Herman Diedrich Spöring",
+   "short": "Spöring",
+   "life": "1733–1771",
+   "role": "Finnish-born (Åbo/Turku) clerk, naturalist's assistant and draughtsman to Banks; also mended instruments",
+   "side": "Swedish-Finnish, in Banks's party",
+   "where": "Moorea for the transit; coastal views of Aotearoa",
+   "lat": -38.37,
+   "lon": 178.32,
+   "waypoints": [
+    {
+     "lat": -17.48,
+     "lon": -149.83,
+     "label": "Moorea (York Island)"
+    },
+    {
+     "lat": -38.37,
+     "lon": 178.32,
+     "label": "Uawa (Tolaga Bay)"
+    },
+    {
+     "lat": -6.12,
+     "lon": 106.81,
+     "label": "Batavia, Oct 1770"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "draughtsman recording landscapes",
+   "form": "sketchbook (dated drawings)",
+   "language": "Swedish / English (drawing captions)",
+   "authenticity": "His drawings survive in the British Library's Banks collections; several were engraved for the 1773 and 1784 published accounts. No journal of his is known.",
+   "bio": "The son of a medicine professor at the Academy of Åbo, Spöring kept the scientific instruments in repair. He went with Gore and Monkhouse to Moorea to observe the transit, and Cook named an island at Tolaga Bay after him (now known by its Māori name, Pourewa). He was buried at sea on 24 January 1771.",
+   "sources": [
+    {
+     "title": "Te Ara: Arched rock, Tolaga Bay, 1769",
+     "url": "https://teara.govt.nz/en/artwork/33500/arched-rock-tolaga-bay-1769"
+    },
+    {
+     "title": "Wikipedia: Herman Spöring Jr.",
+     "url": "https://en.wikipedia.org/wiki/Herman_Sp%C3%B6ring_Jr."
+    }
+   ]
+  },
+  {
+   "id": "tupaia",
+   "name": "Tupaia",
+   "short": "Tupaia",
+   "life": "c.1725–1770",
+   "role": "High-born priest, navigator and scholar from Ra'iatea, living in exile on Tahiti",
+   "side": "Ra'iatea / Tahiti (Society Islands)",
+   "where": "Aboard the Endeavour as navigator and interpreter",
+   "lat": -16.83,
+   "lon": -151.43,
+   "waypoints": [
+    {
+     "lat": -16.83,
+     "lon": -151.43,
+     "label": "Ra'iatea"
+    },
+    {
+     "lat": -38.67,
+     "lon": 178.02,
+     "label": "Tūranganui, Oct 1769"
+    },
+    {
+     "lat": -38.37,
+     "lon": 178.32,
+     "label": "Uawa (Tolaga Bay)"
+    },
+    {
+     "lat": -34.0,
+     "lon": 151.2,
+     "label": "Kamay, Apr 1770"
+    },
+    {
+     "lat": -15.47,
+     "lon": 145.25,
+     "label": "Waalumbaal Birri"
+    },
+    {
+     "lat": -6.12,
+     "lon": 106.81,
+     "label": "Batavia, Oct 1770"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "Polynesian navigator and go-between",
+   "form": "drawings and chart (no written journal); otherwise seen through others' journals",
+   "language": "Tahitian (Reo Mā'ohi)",
+   "authenticity": "Tupaia left no writing. Ten watercolours are now attributed to him, including the drawing of a Māori man trading a crayfish with Banks (British Library, Add MS 15508, f. 12); his chart of islands survives in copies. Everything else we know comes through Cook, Banks and Parkinson, and through Māori memory of him.",
+   "bio": "Tupaia joined the ship at Banks's request and guided it through the Society Islands; his chart named and placed some 130 islands. In Aotearoa he could converse with Māori, which made him the voyage's real diplomat; Māori remembered him so well that in 1773 they greeted Cook's next voyage by calling his name. At Kamay and the Endeavour River he understood nothing, like the British. He died at Batavia on 20 December 1770.",
+   "sources": [
+    {
+     "title": "Wikipedia: Tupaia (navigator)",
+     "url": "https://en.wikipedia.org/wiki/Tupaia_(navigator)"
+    },
+    {
+     "title": "Pacific Islander Biography: Tupaia",
+     "url": "https://pib.anu.edu.au/biography/tupaia-15981"
+    },
+    {
+     "title": "Wikipedia: A Māori and Pākehā man trading a crayfish",
+     "url": "https://en.wikipedia.org/wiki/A_M%C4%81ori_and_P%C4%81keh%C4%81_man_trading_a_crayfish"
+    }
+   ]
+  },
+  {
+   "id": "turanga",
+   "name": "Ngāti Oneone and Rongowhakaata of Tūranganui-a-Kiwa",
+   "short": "Tūranga iwi",
+   "life": "1769 – present",
+   "role": "The hosts at Tūranganui: the people of Te Maro (Ngāti Oneone) and Te Rākau (Rongowhakaata)",
+   "side": "Māori of Tūranganui-a-Kiwa (Poverty Bay / Gisborne)",
+   "where": "Tūranganui River mouth and Kaiti",
+   "lat": -38.67,
+   "lon": 178.03,
+   "vantage": 0,
+   "vantage_label": "hosts; their people were killed",
+   "form": "iwi oral tradition and public statements (recorded much later)",
+   "language": "Māori",
+   "authenticity": "No Māori written account of October 1769 exists from the time. The iwi voice here comes from oral tradition as spoken publicly in 2019 (for example by Nick Tupara for Ngāti Oneone) and from ceremonial responses recorded by the historian Anne Salmond; the day-by-day facts come through the British journals.",
+   "bio": "Within two days of the Endeavour's arrival, crew members had shot and killed Te Maro, Te Rākau and others: nine people in all, by the count the British High Commission acknowledged in 2019. Ngāti Oneone remember Te Maro as a chief providing food for his people. Their memory stands opposite the British journals in this chapter.",
+   "sources": [
+    {
+     "title": "Te Ao Māori News: Ngāti Oneone on the 2019 statement of regret",
+     "url": "https://teaomaori.news/we-cant-sit-back-and-let-be-shallow-statement"
+    },
+    {
+     "title": "Smithsonian: British government expresses regret for Māori killed after Cook's arrival",
+     "url": "https://www.smithsonianmag.com/smart-news/british-government-expresses-regret-maori-killed-after-james-cooks-arrival-new-zealand-180973270/"
+    },
+    {
+     "title": "Anne Salmond, case-study extract on Tūranganui 1769",
+     "url": "https://www.waikereru.org/assets/documents/Anne%20Salmond%20extract%20Case%20Studies.pdf"
+    }
+   ]
+  },
+  {
+   "id": "te-horeta",
+   "name": "Te Horeta Te Taniwha",
+   "short": "Te Horeta",
+   "life": "c.1757 – mid-1800s",
+   "role": "Boy of about twelve in 1769; later a leading rangatira of Ngāti Whanaunga",
+   "side": "Ngāti Whanaunga (Hauraki)",
+   "where": "Whitianga (Mercury Bay), Te Whanganui-o-Hei",
+   "lat": -36.83,
+   "lon": 175.7,
+   "vantage": 1,
+   "vantage_label": "child eyewitness, remembering as an old man",
+   "form": "oral memoir (recorded later, c.1852; published 1888)",
+   "language": "Māori (published in Māori and English)",
+   "authenticity": "Told about 83 years after the event and published by John White in The Ancient History of the Maori, vol. 5 (1888), in Māori and English versions. He told it several times to different listeners with little variation. It is a later oral account, not a contemporary record, but it is the fullest Māori eyewitness memory of the Endeavour.",
+   "bio": "Te Horeta was a child when the Endeavour lay in Mercury Bay in November 1769. His telling preserves how the elders made sense of the strangers (as tupua, otherworldly beings) and how the children were taken aboard and patted by a quiet leader who was surely Cook. It is the one place in this chapter where a host's own eyes, not a stranger's pen, describe the ship.",
+   "sources": [
+    {
+     "title": "World History Commons: The Ancient History of the Maori (Te Horeta's account)",
+     "url": "https://worldhistorycommons.org/ancient-history-maori"
+    },
+    {
+     "title": "Komako: Te Horeta Te Taniwha",
+     "url": "https://komako.org.nz/person/1212"
+    }
+   ]
+  },
+  {
+   "id": "gweagal",
+   "name": "Gweagal people of Kamay (Cooman, in family tradition)",
+   "short": "Gweagal",
+   "life": "1770 – present",
+   "role": "The Dharawal-speaking clan on the south shore of Kamay; tradition names the older defender Cooman",
+   "side": "Gweagal (Dharawal nation)",
+   "where": "South shore of Kamay (Botany Bay), near today's Kurnell",
+   "lat": -34.0,
+   "lon": 151.21,
+   "vantage": 0,
+   "vantage_label": "hosts who opposed the landing",
+   "form": "oral tradition (recorded later) and community interpretation; one disputed object",
+   "language": "Dharawal",
+   "authenticity": "The name Cooman comes from an 1840s oral account by Biddy Giles, recorded in a 1905 document; historians call the identification unproven and the local community itself names other candidates. The shield in the British Museum long called the 'Gweagal shield' was shown in 2018 to be red mangrove, from at least 500 km north, and is probably not the 1770 shield.",
+   "bio": "Two men stood on the rocks and refused the landing while the rest withdrew. Gweagal descendants today read their acts as protocol and warning, not aggression: they saw ghosts arriving and told them to go. The spears taken that day went to Cambridge and have since been returned to the La Perouse community.",
+   "sources": [
+    {
+     "title": "State Library of NSW: Violence on the shore",
+     "url": "https://www.sl.nsw.gov.au/node/189791"
+    },
+    {
+     "title": "Wikipedia: Cooman",
+     "url": "https://en.wikipedia.org/wiki/Cooman"
+    },
+    {
+     "title": "Wikipedia: Gweagal shield",
+     "url": "https://en.wikipedia.org/wiki/Gweagal_shield"
+    }
+   ]
+  },
+  {
+   "id": "guugu",
+   "name": "Guugu Yimithirr people of Waalumbaal Birri",
+   "short": "Guugu Yimithirr",
+   "life": "1770 – present",
+   "role": "Bama (people) whose Country includes the Endeavour River, where the ship lay 48 days",
+   "side": "Guugu Yimithirr (Cooktown region)",
+   "where": "Waalumbaal Birri (Endeavour River), Cape York",
+   "lat": -15.47,
+   "lon": 145.25,
+   "vantage": 0,
+   "vantage_label": "hosts on whose Country the ship was repaired",
+   "form": "oral tradition (told today by elders) beside the travellers' journals",
+   "language": "Guugu Yimithirr",
+   "authenticity": "The Guugu Yimithirr account of 1770 is held in oral tradition and was set out by elders (Eric Deeral, Harold Ludwick, Albert Hornby) for the National Museum of Australia; it agrees closely with Cook and Banks on events and differs on meaning. The annual Cooktown re-enactment is told from both shore and sea.",
+   "bio": "The longest stay of the voyage happened on Guugu Yimithirr Country, considered neutral ground. The quarrel over turtles and the peace made afterwards is remembered as the first reconciliation between Aboriginal and British people. Their language gave English the word kangaroo.",
+   "sources": [
+    {
+     "title": "National Museum of Australia: Turtle trouble",
+     "url": "https://www.nma.gov.au/exhibitions/endeavour-voyage/waalumbaal-birri-endeavour-river/turtle-trouble"
+    },
+    {
+     "title": "National Trust Queensland: Reconciliation Rocks",
+     "url": "https://nationaltrustqld.org.au/reconciliation-rocks/"
+    },
+    {
+     "title": "National Museum of Australia: Getting it wrong (word lists)",
+     "url": "https://nma.gov.au/av/endeavour/guugu-yimidhirr/getting-it-wrong/index.html"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1768-08-25",
+   "date_display": "Thursday 25 August 1768",
+   "precision": "day",
+   "eye": "banks",
+   "place": "Plymouth",
+   "headline": "Banks opens his journal as the Endeavour waits to sail",
+   "digest": "Banks's journal begins at Plymouth with the ship about to leave. His party of eight, with its crates of books, nets, preserving spirits and drawing paper, has turned a small converted collier into a floating laboratory. The voyage's public purpose is the transit of Venus; its sealed second order, to look for a southern continent, is not yet open.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "State Library of NSW catalogue title: Joseph Banks Endeavour journal, 25 August 1768 – 12 July 1771."
+  },
+  {
+   "date_iso": "1769-04-13",
+   "date_display": "Thursday 13 April 1769",
+   "precision": "day",
+   "eye": "cook",
+   "place": "Matavai Bay, Tahiti",
+   "headline": "Endeavour anchors in Matavai Bay after the Horn",
+   "digest": "Cook brings the ship into Matavai Bay, where Wallis's Dolphin had anchored two years before, and sets out rules for trading with the Tahitians to keep the peace and protect the ship's iron. Within days the British build a stockade, Fort Venus, on the point for the observatory.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wharton (1893) biographical sketch: arrival at Tahiti 13 April 1769; NLA Transit of Venus page."
+  },
+  {
+   "date_iso": "1769-06-01",
+   "date_display": "Thursday 1 June 1769",
+   "precision": "day",
+   "eye": "cook",
+   "place": "Fort Venus, Tahiti",
+   "headline": "Cook spreads his observers in case of cloud",
+   "digest": "To guard against a cloudy sky at one place, Cook sends Lieutenant Gore in the longboat to York Island (Moorea) with Monkhouse and Spöring, carrying instruments from Green; Banks and some Tahitians go too. The next day Hicks leaves with the pinnace to find a station elsewhere on Tahiti. The ship's whole purpose now hangs on one morning's weather.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Cook's journal, SLNSW transcript p. 94 (entries 30 May – 6 June 1769)."
+  },
+  {
+   "date_iso": "1769-06-03",
+   "date_display": "Saturday 3 June 1769",
+   "precision": "day",
+   "eye": "cook",
+   "place": "Fort Venus, Point Venus, Tahiti",
+   "headline": "A cloudless day, and a blur no one expected",
+   "digest": "The day is perfectly clear and the three observers at the fort, Cook, Green and Solander, follow Venus across the sun for about six hours. But a dusky haze around the planet smears the moments of contact, and their timings disagree by more than they think they should. Cook notes the heat in the sun was greater than anything they had yet felt.",
+   "quote": "not a Clowd was to be seen the Whole day",
+   "confidence": "verified",
+   "source_note": "Cook's journal 3 June 1769 (South Seas transcript; NLA Transit of Venus page quotes the entry)."
+  },
+  {
+   "date_iso": "1769-06-03",
+   "date_display": "Saturday 3 June 1769",
+   "precision": "day",
+   "eye": "green",
+   "place": "Fort Venus, Point Venus, Tahiti",
+   "headline": "The astronomer times the transit the voyage was built for",
+   "digest": "Green is the chief observer at the fort, with Cook and Solander at their own telescopes. All three see the same shadow clinging to the planet's edge, and their contact times differ, a problem that would bedevil the worldwide effort to measure the sun's distance. Their joint results went to the Royal Society and were printed in 1771.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Captain Cook Society biography of Green; Green & Cook, Phil. Trans. R. Soc. 61 (1771) 397–421; NLA Transit of Venus page."
+  },
+  {
+   "date_iso": "1769-06-03",
+   "date_display": "Saturday 3 June 1769",
+   "precision": "day",
+   "eye": "banks",
+   "place": "Moorea (York Island)",
+   "headline": "On Moorea, Banks shows a king the planet on the sun",
+   "digest": "Banks is with the observing party on Moorea, where at dawn the sun rises clear. He buys provisions, then receives Tarroa, the island's ruler, and his sister Nuna, seating them on his Indian-cloth turban spread on the ground; they exchange a hog, a dog and breadfruit for an adze, a shirt and beads. He takes them to the telescope and makes them understand that the strangers have come to watch the planet cross the sun.",
+   "quote": "a proof of confidence which I have not before met with",
+   "confidence": "verified",
+   "source_note": "Banks's journal 3 June 1769 (South Seas transcript)."
+  },
+  {
+   "date_iso": "1769-08-15",
+   "date_display": "August 1769",
+   "precision": "month",
+   "eye": "tupaia",
+   "place": "At sea, Society Islands and southward",
+   "headline": "Tupaia begins his chart of the Pacific",
+   "digest": "Having guided the ship through the Society Islands, Tupaia begins working with the British on a chart of the islands he knows, reciting names, bearings and sailing distances. The finished chart placed some 130 islands across a radius of about 2,000 miles. It is the only map on the voyage made from Polynesian knowledge rather than European survey.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia, Tupaia (navigator), citing chart begun 15 August 1769; Pacific Islander Biography."
+  },
+  {
+   "date_iso": "1769-10-08",
+   "date_display": "Sunday 8 October 1769",
+   "precision": "day",
+   "eye": "turanga",
+   "place": "Tūranganui River mouth",
+   "headline": "Te Maro is shot on the first evening",
+   "digest": "On the evening of the landing, four ship's boys left guarding a boat are challenged by local men, and in the confusion Te Maro, a Ngāti Oneone rangatira, is shot dead against Cook's standing orders. The British heard wailing ashore through the night. In 2019 Ngāti Oneone's spokesman described Te Maro's purpose that day as providing food for his people, a chiefly task, and said his actions gave his people a future.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Salmond case-study extract (from Banks, Monkhouse, Cook, Parkinson); Te Ao Māori News interview with Nick Tupara, 2019. Iwi memory recorded 250 years later."
+  },
+  {
+   "date_iso": "1769-10-09",
+   "date_display": "Monday 9 October 1769",
+   "precision": "day",
+   "eye": "monkhouse",
+   "place": "West bank of the Tūranganui River",
+   "headline": "The surgeon fires as Te Rākau seizes a sword",
+   "digest": "Warriors perform a haka across the river; after Tupaia speaks with them, some cross without weapons. When Te Rākau, a Rongowhakaata chief, grabs a sword from one of the British, he is shot; the Captain Cook Society attributes the shot to Monkhouse himself. His journal fragment, written in these very days, is one of the closest British records of the landing.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Captain Cook Society biography of Munkhouse; Salmond extract. Monkhouse fragment covers 6–21 Oct 1769 (BL Add. MS 27889)."
+  },
+  {
+   "date_iso": "1769-10-09",
+   "date_display": "Monday 9 October 1769 (Cook's ship's date 10 October)",
+   "precision": "day",
+   "eye": "tupaia",
+   "place": "Tūranganui River and aboard the Endeavour",
+   "headline": "Tupaia talks with warriors, then with captives in the cabin",
+   "digest": "Tupaia's speech is understood on the riverbank, and he persuades some warriors to cross unarmed, though the meeting still ends in a death. That afternoon, after a fishing canoe is fired on, young men taken from it are fed in the Great Cabin; they sing and perform a haka and talk at length with Tupaia. What he told them, and they him, is not recorded.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Salmond case-study extract, citing Banks and Parkinson. Seen only through others' journals."
+  },
+  {
+   "date_iso": "1769-10-09",
+   "date_display": "Monday 9 October 1769 (Cook's ship's date 10 October)",
+   "precision": "day",
+   "eye": "cook",
+   "place": "Poverty Bay (Tūranganui)",
+   "headline": "Cook fires on a fishing canoe and judges himself",
+   "digest": "Hoping to take people aboard and win their friendship with gifts, Cook's boats try to intercept a canoe; a musket fired over it makes its crew fight, and the boat crews fire into it, killing two to four men. Three young men who leap into the water are taken aboard, clothed and fed. Cook writes that he cannot justify killing people who had given no provocation, though he defends the attempt.",
+   "quote": "I can by no means justify my conduct",
+   "confidence": "verified",
+   "source_note": "Cook's journal as quoted (via Wharton) in Historic Poverty Bay, ch. 'A Regrettable Attack' (NZETC); Salmond extract for civil date."
+  },
+  {
+   "date_iso": "1769-10-09",
+   "date_display": "Monday 9 October 1769 (Banks's heading 10 October)",
+   "precision": "day",
+   "eye": "banks",
+   "place": "Poverty Bay (Tūranganui)",
+   "headline": "Banks: the most disagreeable day of his life",
+   "digest": "Banks counts four men killed in the canoe and writes that it is the most disagreeable day he has lived, praying that such a day may never come again. He records the boys on board eating heartily and, by evening, singing. His remorse is real, but he does not record the names of the dead.",
+   "quote": "Black be the mark for it",
+   "confidence": "verified",
+   "source_note": "Banks's journal as quoted in Historic Poverty Bay (NZETC, from Hooker/Wharton); Beaglehole ed."
+  },
+  {
+   "date_iso": "1769-10-11",
+   "date_display": "Wednesday 11 October 1769",
+   "precision": "day",
+   "eye": "banks",
+   "place": "Leaving Poverty Bay",
+   "headline": "Fifty men come aboard to trade as the ship leaves",
+   "digest": "About fifty men come out in canoes and trade nearly everything they have; they report that the boys put ashore are safe at home. Banks admires their tattooed faces, feathered topknots and carved canoes, but fears they will not be friendly until they have felt British force. He notes he has collected only about forty plant species at this first landfall.",
+   "quote": "they will never behave to us in a freindly manner",
+   "confidence": "verified",
+   "source_note": "Banks's journal 11 Oct 1769 (South Seas transcript)."
+  },
+  {
+   "date_iso": "1769-10-26",
+   "date_display": "23–29 October 1769",
+   "precision": "range",
+   "eye": "sporing",
+   "place": "Uawa (Tolaga Bay)",
+   "headline": "Spöring draws the great arched rock at Uawa",
+   "digest": "At Uawa (Tolaga Bay), the ship's second anchorage in Aotearoa, Spöring draws the huge natural arch on the shore. His drawing, later engraved for the published accounts, was one of the first European images of a New Zealand landscape. Cook names a nearby island after him; today it carries its Māori name, Pourewa.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Te Ara: 'Arched rock, Tolaga Bay, 1769' (Spöring, October 1769; engraving 1784). Exact day of drawing not given."
+  },
+  {
+   "date_iso": "1769-10-26",
+   "date_display": "October 1769 – early 1770",
+   "precision": "range",
+   "eye": "tupaia",
+   "place": "Aotearoa (probably Uawa or Tūranganui)",
+   "headline": "Tupaia paints Banks trading cloth for a crayfish",
+   "digest": "In a small watercolour, a Māori man holds out a crayfish while Banks offers a piece of cloth, both figures intent on the bargain. For two centuries the picture was credited to an anonymous artist; it is now attributed to Tupaia, one of about ten of his drawings. It is the encounter drawn by a Pacific Islander's hand.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "British Library Add MS 15508, f. 12; Wikipedia 'A Māori and Pākehā man trading a crayfish' (c. 1769). Place and day not recorded."
+  },
+  {
+   "date_iso": "1769-11-09",
+   "date_display": "Thursday 9 November 1769",
+   "precision": "day",
+   "eye": "green",
+   "place": "Mercury Bay (Te Whanganui-o-Hei)",
+   "headline": "Green and Cook observe the transit of Mercury",
+   "digest": "Ashore at the bay that would be named for the planet, the astronomers observe Mercury cross the sun, a second chance to fix their longitude exactly. The observation gave Cook a firm point for his chart of New Zealand. The same day, a trading quarrel in the bay ends in a killing.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Captain Cook Society biography of Green (transit of Mercury at Mercury Bay, November 1769); date of the 1769 transit is astronomical."
+  },
+  {
+   "date_iso": "1769-11-09",
+   "date_display": "Thursday 9 November 1769",
+   "precision": "day",
+   "eye": "banks",
+   "place": "Mercury Bay",
+   "headline": "A man is shot over a piece of cloth",
+   "digest": "Two large canoes trade with the ship; their crews take cloth without handing over what was agreed and sing a war song. The second lieutenant, Gore, fires and kills one man; a round shot is fired over the canoes and they flee. Banks writes that the local people later said the man deserved it, but he himself thinks the punishment too severe.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Banks's journal, November 1769 (Beaglehole ed., NZETC). Gore identified on Wikipedia, John Gore."
+  },
+  {
+   "date_iso": "1769-11-09",
+   "date_display": "November 1769 (told c.1852)",
+   "precision": "range",
+   "eye": "te-horeta",
+   "place": "Whitianga (Mercury Bay)",
+   "headline": "The elders call the ship a tupua",
+   "digest": "Te Horeta remembers the old men deciding the ship was a tupua and its rowers goblins, since they rowed with their backs to where they were going, as if their eyes were behind. Women and children fled to the forest; when nobody was harmed they came back, stroked the strangers' clothes and wondered at blue eyes. The visitors gathered oysters and ate kūmara and fern root, which made the people doubt they were goblins after all.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "John White, Ancient History of the Maori vol. 5 (1888), as excerpted by World History Commons; arrival at Mercury Bay 3 Nov 1769 per Komako. Later oral memoir."
+  },
+  {
+   "date_iso": "1769-11-10",
+   "date_display": "November 1769 (told c.1852)",
+   "precision": "range",
+   "eye": "te-horeta",
+   "place": "Aboard the Endeavour, Mercury Bay",
+   "headline": "A boy on deck meets a quiet leader",
+   "digest": "Taken aboard with other children after the warriors had reported the ship safe, Te Horeta sits on the deck while the strangers handle their mats, shark-tooth earrings and hei-tiki. One man, plainly the lord of the party by his bearing, speaks little, examines their weapons and pats the children's cheeks and hair. Te Horeta could not understand a word he said.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "White (1888) via World History Commons. Later oral memoir; the leader is generally identified as Cook."
+  },
+  {
+   "date_iso": "1770-04-29",
+   "date_display": "Sunday 29 April 1770",
+   "precision": "day",
+   "eye": "cook",
+   "place": "South shore of Kamay (Botany Bay)",
+   "headline": "Two men refuse the landing at Kamay",
+   "digest": "Cook rows ashore with Banks, Solander and Tupaia. Everyone leaves except two men, who stand to oppose the boats; Cook throws nails and beads, fires a musket between them, then small shot that strikes the older man, who raises a shield. After two spears are thrown he fires a third time and they withdraw. In the bark huts Cook finds four or five small children, leaves beads, and takes away the spears lying about.",
+   "quote": "neither us nor Tupia could understand one word they said",
+   "confidence": "verified",
+   "source_note": "Cook's journal 29 April 1770 (South Seas transcript)."
+  },
+  {
+   "date_iso": "1770-04-29",
+   "date_display": "29 April 1770 (Banks's heading 28 April)",
+   "precision": "day",
+   "eye": "banks",
+   "place": "Kamay (Botany Bay)",
+   "headline": "Banks counts the shots and leaves the children hidden",
+   "digest": "Banks describes the older man running to a hut and coming back with a shield, being hit in the legs by small shot, and fighting on. Inside one hut they find children hidden behind a shield and a sheet of bark and decide not to disturb them, throwing in beads, ribbons and cloth. They carry off forty or fifty spears from around the huts.",
+   "quote": "we therefore resolved to leave the children on the spot",
+   "confidence": "verified",
+   "source_note": "Banks's journal, landing day (as excerpted on councillorzamprogno.info); SLNSW 'Violence on the shore'."
+  },
+  {
+   "date_iso": "1770-04-29",
+   "date_display": "29 April 1770",
+   "precision": "day",
+   "eye": "parkinson",
+   "place": "Kamay (Botany Bay)",
+   "headline": "Parkinson hears 'Warra warra wai' and sketches the defenders",
+   "digest": "Parkinson describes two men, painted white, calling out 'Warra warra wai' at the boats; trinkets thrown ashore do not move them. He sketches them, and the drawing, engraved in London by Thomas Chambers, became 'Two of the Natives of New Holland, Advancing to Combat', adding classical poses he never saw.",
+   "quote": "they kept aloof, and dared us to come on shore",
+   "confidence": "verified",
+   "source_note": "Parkinson, Journal (1773), South Seas page 179; Royal Society Picture Library RS.9216."
+  },
+  {
+   "date_iso": "1770-04-29",
+   "date_display": "29 April 1770 (as remembered and interpreted today)",
+   "precision": "day",
+   "eye": "gweagal",
+   "place": "South shore of Kamay",
+   "headline": "Ghosts arriving, and a warning to go away",
+   "digest": "In Gweagal tradition as explained by Dr Shayne Williams, the ship was first taken for clouds, then a floating island, and the pale men for spirits of the dead. The shouted words were a statement that the strangers were dead, not a threat, and the spears were thrown to warn them off; no British blood was drawn. Family tradition names the older man, wounded by the shot, as Cooman, though historians and community members disagree on that.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "SLNSW 'Violence on the shore' (Shayne Williams); Wikipedia 'Cooman'. Later oral tradition and interpretation, not a 1770 record."
+  },
+  {
+   "date_iso": "1770-04-29",
+   "date_display": "29 April 1770",
+   "precision": "day",
+   "eye": "tupaia",
+   "place": "Kamay (Botany Bay)",
+   "headline": "For the first time, Tupaia's words fail",
+   "digest": "Tupaia sits in Cook's boat at Kamay and calls to the two men on the rocks, but neither side understands the other. After months as the voyage's voice in Aotearoa, he is as much a stranger here as the British. The record of this is Cook's.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Cook's journal 29 April 1770 (South Seas transcript)."
+  },
+  {
+   "date_iso": "1770-05-06",
+   "date_display": "Sunday 6 May 1770",
+   "precision": "day",
+   "eye": "parkinson",
+   "place": "Leaving Kamay",
+   "headline": "The bay is named for its plants",
+   "digest": "The ship leaves after loading hay for the sheep; the seaman Forby Sutherland, who had died at anchor, is buried ashore. Parkinson notes the name given to the place for its harvest of new plants. He then follows the coast north, noting rainbows, smoke rising inland and three hills the crew calls the Three Brothers.",
+   "quote": "we called the bay Botany-Bay",
+   "confidence": "verified",
+   "source_note": "Parkinson, Journal (1773), South Seas page 181 (6–14 May 1770)."
+  },
+  {
+   "date_iso": "1770-06-11",
+   "date_display": "Night of 10–11 June 1770",
+   "precision": "day",
+   "eye": "banks",
+   "place": "Endeavour Reef, off Cape Tribulation",
+   "headline": "The ship strikes coral and the crew works without swearing",
+   "digest": "Near high tide the ship runs fast on a reef; water, ballast and all six deck guns go over the side to lighten her. Banks expects her to sink, packs his things and watches men who swore as hard as any in the navy work the pumps without a curse. Late the next evening she floats free and is towed into deep water, still leaking.",
+   "quote": "no grumbling or growling was to be heard throughout the ship",
+   "confidence": "verified",
+   "source_note": "Banks's journal 11 June 1770 (South Seas transcript); Wikipedia 'Endeavour Reef' (six cannons recovered 1969)."
+  },
+  {
+   "date_iso": "1770-06-18",
+   "date_display": "17–18 June 1770",
+   "precision": "range",
+   "eye": "guugu",
+   "place": "Waalumbaal Birri (Endeavour River)",
+   "headline": "A wrecked ship is beached on neutral ground",
+   "digest": "The damaged ship is brought into the river and careened on the bank for repairs. For the Guugu Yimithirr the river mouth was neutral territory; they watched for some weeks before approaching. The ship would stay 48 days, the longest stop of the voyage in Australia.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Canberra Times / ACM, 'Explore Cooktown's historic landmarks' (48 days; neutral territory); exact arrival day not checked against the journals."
+  },
+  {
+   "date_iso": "1770-07-14",
+   "date_display": "Saturday 14 July 1770",
+   "precision": "day",
+   "eye": "cook",
+   "place": "Endeavour River",
+   "headline": "Gore shoots the animal the hosts call gangurru",
+   "digest": "Lieutenant Gore, out hunting, shoots one of the leaping animals the crew have glimpsed for weeks, and it is cooked for dinner the next day. Banks had already noted the local name two days earlier. Back in England, Banks had the skin painted by George Stubbs, giving Europe its first picture of a kangaroo.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Australian National Maritime Museum object 40469 ('Cook's journal credits Mr Gore'); Wikipedia, John Gore; ANU 'Borrowings' (Banks 12 July)."
+  },
+  {
+   "date_iso": "1770-07-19",
+   "date_display": "Thursday 19 July 1770",
+   "precision": "day",
+   "eye": "cook",
+   "place": "Endeavour River",
+   "headline": "A quarrel over turtles and a fire in the grass",
+   "digest": "Ten or eleven men come aboard and try to haul two of the turtles on deck to the gangway; refused, they reject the bread Cook offers. Ashore, one lights the dry grass, which roars around the camp, burns a piglet and threatens the linen; Cook fires small shot at a ringleader, drawing a little blood. Followed into the woods, they lay down their spears; Cook gives them back, and four newcomers are introduced by name.",
+   "quote": "rejected with scorn",
+   "confidence": "verified",
+   "source_note": "Cook's journal 19 July 1770 (South Seas transcript)."
+  },
+  {
+   "date_iso": "1770-07-19",
+   "date_display": "Thursday 19 July 1770",
+   "precision": "day",
+   "eye": "banks",
+   "place": "Endeavour River",
+   "headline": "Banks pushed aside, his tent saved from the fire",
+   "digest": "Banks refuses the visitors a turtle and one shoves him away in anger. When the grass is lit he rescues the tent where Tupaia had lain sick, then joins Cook with a loaded musket. Later an old man comes forward without a spear point, and the two groups sit together; Banks notes how fast the grass burned and advises clearing ground before pitching tents in such a climate.",
+   "quote": "as dry as stubble",
+   "confidence": "verified",
+   "source_note": "Banks's journal 19 July 1770 (South Seas transcript)."
+  },
+  {
+   "date_iso": "1770-07-19",
+   "date_display": "19 July 1770 (as told by Guugu Yimithirr elders)",
+   "precision": "day",
+   "eye": "guugu",
+   "place": "Waalumbaal Birri",
+   "headline": "The sharing code broken, and peace restored by ritual",
+   "digest": "Elders explain that the turtles had been taken from their breeding grounds and that refusing to share was itself the offence. The fire cleansed the land. Then an elder came forward with a broken-tipped spear and performed the Nagaalangun daamaay, blowing sweat onto the strangers, a gesture that 'resets things' and makes all equal; Cook's return of the spears completed it. Guugu Yimithirr people remember this as the first reconciliation.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NMA 'Turtle trouble' (Eric Deeral, Harold Ludwick, Albert Hornby); National Trust Qld 'Reconciliation Rocks'. Oral tradition told today."
+  },
+  {
+   "date_iso": "1770-07-20",
+   "date_display": "July 1770",
+   "precision": "month",
+   "eye": "parkinson",
+   "place": "Endeavour River",
+   "headline": "Parkinson writes down some 150 Guugu Yimithirr words",
+   "digest": "During the long stay, Parkinson and Banks record about 150 words and phrases, among them the animal's name. Guugu Yimithirr speakers today find more than sixty per cent of them still in use, but some are mistaken: the word noted for 'fire' is close to minha, 'edible meat', suggesting someone pointed at the food on the fire. The list is a conversation half heard.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "NMA 'Getting it wrong'; Canberra Times / ACM (150 words). Month only."
+  },
+  {
+   "date_iso": "1770-08-04",
+   "date_display": "Saturday 4 August 1770",
+   "precision": "day",
+   "eye": "cook",
+   "place": "Endeavour River",
+   "headline": "Cook writes down 'Kangooroo' as the ship leaves",
+   "digest": "As the repaired ship works out of the river, Cook sums up the place and its animals, including the one called by the people here Kangooroo or Kanguru. He and Banks assumed it was the name for all such animals; in Guugu Yimithirr it named one large kind. The word went to England with them and into every language.",
+   "quote": "called by the natives Kangooroo or Kanguru",
+   "confidence": "verified",
+   "source_note": "ANU 'Borrowings from Australian Aboriginal languages', quoting Cook 4 Aug 1770."
+  },
+  {
+   "date_iso": "1770-08-22",
+   "date_display": "Wednesday 22 August 1770",
+   "precision": "day",
+   "eye": "cook",
+   "place": "Possession Island, Torres Strait",
+   "headline": "Cook claims the whole east coast",
+   "digest": "Having found the passage round the tip of Cape York, Cook lands on a small island and takes possession of the entire eastern coast in the name of George III. No one living on the coast was asked or told. The act became the British basis for treating the continent as theirs.",
+   "quote": "took possession of the whole Eastern Coast",
+   "confidence": "verified",
+   "source_note": "NLA 'James Cook's Endeavour journal' (22 Aug 1770 entry)."
+  },
+  {
+   "date_iso": "1770-08-23",
+   "date_display": "Thursday 23 August 1770",
+   "precision": "day",
+   "eye": "cook",
+   "place": "Torres Strait",
+   "headline": "Cook writes that the people are happier than Europeans",
+   "digest": "A day after the claim, Cook writes his reflections on the people of New Holland: they want for little, live in a tranquillity undisturbed by inequality, and seemed to set no value on anything the British gave them. The passage sits in strange tension with the possession ceremony of the day before.",
+   "quote": "far more happier than we Europeans",
+   "confidence": "verified",
+   "source_note": "NLA 'James Cook's Endeavour journal' (23 Aug 1770 entry)."
+  },
+  {
+   "date_iso": "1770-10-01",
+   "date_display": "Monday 1 October 1770",
+   "precision": "day",
+   "eye": "cook",
+   "place": "Approaching the Sunda Strait",
+   "headline": "Java Head, Prince's Island and 'Cracatoa' in sight",
+   "digest": "In squally weather that splits a worn topsail, Cook sights Java Head, Prince's Island and the island of Cracatoa. He doubts his longitude, suspecting either his own reckoning or the charts of the strait are wrong. The quiet volcanic island he names in passing would destroy these coasts 113 years later.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Cook's journal 1 October 1770 (South Seas transcript, NLA MS 1 p. 323)."
+  },
+  {
+   "date_iso": "1770-10-10",
+   "date_display": "Wednesday 10 October 1770",
+   "precision": "day",
+   "eye": "parkinson",
+   "place": "Batavia roads",
+   "headline": "Anchored at Batavia among sixteen great ships",
+   "digest": "After slow days among the islands west of Java, with boats bringing turtles, fowls and monkeys, the ship anchors off the Dutch capital among sixteen large ships, three of them British. Cook is asked to set out his requests in writing to the council. The crew, healthy for two years, are about to enter one of the deadliest ports in the world.",
+   "quote": "we anchored in the road of Batavia",
+   "confidence": "verified",
+   "source_note": "Parkinson, Journal (1773), South Seas page 214 (3–10 Oct 1770)."
+  },
+  {
+   "date_iso": "1770-11-05",
+   "date_display": "Monday 5 November 1770",
+   "precision": "day",
+   "eye": "banks",
+   "place": "Batavia (Onrust)",
+   "headline": "The surgeon dies first",
+   "digest": "With the ship moved to Onrust to be hove down, Monkhouse, the surgeon, dies and is buried the next day. Banks calls him the first sacrifice to the climate. Within days Banks and Solander are themselves in fever and are sent to a house in the country for air.",
+   "quote": "the first sacrafice to the climate",
+   "confidence": "verified",
+   "source_note": "Banks's journal, November 1770 (Beaglehole ed., NZETC), with muster-book date."
+  },
+  {
+   "date_iso": "1770-12-20",
+   "date_display": "17 and 20 December 1770",
+   "precision": "range",
+   "eye": "banks",
+   "place": "Batavia",
+   "headline": "Tayeto dies, then Tupaia",
+   "digest": "Tupaia's young attendant Tayeto (Taiata) dies of the fever on 17 December; Tupaia, already weak and inconsolable, dies three days later. Banks, ill himself, wrote the news up afterwards from memory under the wrong dates; the ship's muster books give the true ones. Parkinson wrote that Tupaia regretted leaving his homeland.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Banks's journal Nov–Dec 1770 with Beaglehole's footnotes (NZETC); Wikipedia, Tupaia (muster records 20 Dec 1770)."
+  },
+  {
+   "date_iso": "1771-01-29",
+   "date_display": "Tuesday 29 January 1771",
+   "precision": "day",
+   "eye": "cook",
+   "place": "Indian Ocean, 11°57′S 101°45′E",
+   "headline": "Green dies in the night; the dead are counted",
+   "digest": "Cook records that Green died in the night after long ill health and the flux, and the astronomer is buried at sea. In the same week Spöring (buried 24 January) and Parkinson (died 26 January) have gone. The dysentery and fever caught at Batavia killed some thirty men, far more than the whole Pacific crossing had.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Captain Cook Society (Cook's journal, 29 Jan 1771, burial position); Wikipedia on Spöring and Parkinson; NLA (about 30 deaths)."
+  },
+  {
+   "date_iso": "1840-01-01",
+   "date_display": "1840s (recorded in a 1905 document)",
+   "precision": "range",
+   "eye": "gweagal",
+   "place": "Georges River / Botany Bay district",
+   "headline": "Biddy Giles names the defender: Cooman",
+   "digest": "Seventy years after the landing, Biddy Giles tells that the man shot at Kamay was Cooman, grandfather of her husband, also called Cooman. Her account, written down later, is the source of the name. Historians call the identification unproven, and Gweagal and Dharawal voices themselves differ, but it gave descendants a name to carry.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia 'Cooman' (Giles oral history; Keith Vincent Smith citing a 1905 document; Nugent and Sculthorpe on the lack of consensus)."
+  },
+  {
+   "date_iso": "1852-01-01",
+   "date_display": "c.1852 (published 1888)",
+   "precision": "year",
+   "eye": "te-horeta",
+   "place": "Hauraki",
+   "headline": "An old chief tells the story of the goblins",
+   "digest": "About eighty-three years after the ship came, Te Horeta, now a senior rangatira, tells his memory of the Endeavour; he told it several times with little change. John White printed it in Māori and English in 1888, and it has been reprinted ever since as the Māori eyewitness account of Cook.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Komako, Te Horeta Te Taniwha (account written down about 83 years later; White 1888)."
+  },
+  {
+   "date_iso": "2019-10-02",
+   "date_display": "Early October 2019",
+   "precision": "range",
+   "eye": "turanga",
+   "place": "Tūranganui-a-Kiwa (Gisborne)",
+   "headline": "Britain's High Commissioner acknowledges the nine dead",
+   "digest": "At ceremonies with the iwi of Tūranga, British High Commissioner Laura Clarke acknowledges the deaths of nine of their ancestors at the hands of the Endeavour's crew. Ngāti Oneone's spokesman Nick Tupara welcomes a statement of regret as an opening for dialogue; others say it falls short of an apology. The iwi call it a beginning, not an end.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Smithsonian (3 Oct 2019); Te Ao Māori News. Exact day of each ceremony not confirmed."
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1769-06-03",
+   "label": "The transit of Venus, seen from Point Venus and Moorea",
+   "eyes": [
+    "cook",
+    "green",
+    "banks"
+   ],
+   "note": "Cook and Green at the fort fight a blurred planet edge and disagreeing clocks; on Moorea Banks spends the same hours trading with Tarroa and Nuna and shows them Venus on the sun. Science at one station, diplomacy at the other."
+  },
+  {
+   "date": "1769-10-09",
+   "label": "Tūranganui: Te Maro and Te Rākau killed, the canoe fired on",
+   "eyes": [
+    "turanga",
+    "monkhouse",
+    "tupaia",
+    "cook",
+    "banks"
+   ],
+   "note": "Monkhouse fires in the press on the riverbank; Tupaia is the only one who can speak to anyone; Cook defends the attempt yet cannot justify the deaths; Banks marks the day black. Ngāti Oneone remember Te Maro as a chief doing his duty to feed his people."
+  },
+  {
+   "date": "1769-11-09",
+   "label": "Mercury Bay: the transit of Mercury and a killing",
+   "eyes": [
+    "green",
+    "banks",
+    "te-horeta"
+   ],
+   "note": "On the same day the astronomers time a planet and Gore shoots a man over cloth. A boy on shore, Te Horeta, would remember the strangers as goblins who rowed backwards and a quiet leader who patted his cheek."
+  },
+  {
+   "date": "1770-04-29",
+   "label": "Kamay: the landing opposed",
+   "eyes": [
+    "cook",
+    "banks",
+    "parkinson",
+    "tupaia",
+    "gweagal"
+   ],
+   "note": "Three British pens agree on the shots, the shield, the hidden children and the spears carried away; Tupaia cannot understand a word. Gweagal tradition reads the same scene as warning spirits off their shore, and names a defender the journals never knew."
+  },
+  {
+   "date": "1770-07-19",
+   "label": "Waalumbaal Birri: the turtles, the fire and the peace",
+   "eyes": [
+    "cook",
+    "banks",
+    "guugu"
+   ],
+   "note": "Cook and Banks record theft and arson answered with small shot; Guugu Yimithirr elders describe a breach of the sharing code answered by a cleansing fire and closed with the Nagaalangun daamaay. All three agree on how it ended: spears returned, peace made."
+  },
+  {
+   "date": "1770-12-20",
+   "label": "Batavia: the dying",
+   "eyes": [
+    "banks",
+    "tupaia",
+    "parkinson",
+    "cook"
+   ],
+   "note": "Monkhouse, Tayeto and Tupaia die at Batavia; Spöring, Parkinson and Green die at sea within a week of each other in January. Several of this chapter's eyes close here."
+  }
+ ],
+ "ties": [
+  {
+   "a": "cook",
+   "b": "banks",
+   "kind": "met",
+   "note": "Shared the great cabin for three years; Cook copied passages of Banks's journal into his own."
+  },
+  {
+   "a": "cook",
+   "b": "green",
+   "kind": "met",
+   "note": "Fellow Yorkshiremen from farming families who observed the transit side by side; Cook defended Green's papers against the Astronomer Royal."
+  },
+  {
+   "a": "banks",
+   "b": "parkinson",
+   "kind": "met",
+   "note": "Parkinson was Banks's paid artist; after his death Banks's quarrel with his brother over his papers shaped the 1773 Journal."
+  },
+  {
+   "a": "banks",
+   "b": "sporing",
+   "kind": "met",
+   "note": "Spöring was Banks's clerk and draughtsman and went with him to Moorea for the transit."
+  },
+  {
+   "a": "banks",
+   "b": "tupaia",
+   "kind": "met",
+   "note": "Tupaia sailed at Banks's request; Tupaia painted Banks bartering for a crayfish, and Banks saved the tent where Tupaia had lain sick from the fire at the Endeavour River."
+  },
+  {
+   "a": "monkhouse",
+   "b": "turanga",
+   "kind": "opposite sides",
+   "note": "Monkhouse fired the shot that killed Te Rākau on the riverbank at Tūranganui."
+  },
+  {
+   "a": "tupaia",
+   "b": "turanga",
+   "kind": "met",
+   "note": "Tupaia was the only person on the ship whom the people of Tūranganui could understand, and he talked with the young men taken aboard."
+  },
+  {
+   "a": "cook",
+   "b": "te-horeta",
+   "kind": "met",
+   "note": "The quiet leader who touched the children's hair on deck at Mercury Bay is generally identified as Cook."
+  },
+  {
+   "a": "cook",
+   "b": "gweagal",
+   "kind": "opposite sides",
+   "note": "Cook fired the small shot that wounded the older defender at Kamay."
+  },
+  {
+   "a": "cook",
+   "b": "guugu",
+   "kind": "opposite sides",
+   "note": "Cook fired on a man at the fire and then returned the seized spears, which closed the peace the elder had begun."
+  },
+  {
+   "a": "parkinson",
+   "b": "guugu",
+   "kind": "met",
+   "note": "Parkinson wrote down some 150 Guugu Yimithirr words, many still in use."
+  },
+  {
+   "a": "parkinson",
+   "b": "gweagal",
+   "kind": "met",
+   "note": "Parkinson sketched the two Gweagal defenders; the London engraving of his sketch became one of the most reproduced images of first contact."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v2:krakatoa-1883",
+   "note": "On 1 October 1770 Cook sighted 'Cracatoa' while entering the Sunda Strait and anchored days later at Batavia; 113 years on, that island's eruption destroyed the same coasts and was logged by ships in the same strait."
+  },
+  {
+   "to": "v1:long-threads",
+   "note": "Batavia's dysentery and fever killed about thirty of the Endeavour's people, more than the whole Pacific crossing, a classic case of the port epidemics that run through the Long Threads chapter."
+  },
+  {
+   "to": "v2:first-contact",
+   "note": "Two and a half centuries after Magellan's crossing, the Endeavour repeated the pattern of that chapter: European journals rich with detail beside hosts whose accounts survive mainly through later or indirect records, and violence within days of landfall."
+  },
+  {
+   "to": "humboldt",
+   "note": "The Endeavour set the model of the naturalist-equipped voyage; Georg Forster, who sailed on Cook's second voyage, later took the young Alexander von Humboldt on his first scientific journey in 1790."
+  },
+  {
+   "to": "corps-of-discovery",
+   "note": "Cook's voyages made the Pacific coast a prize: John Ledyard, a veteran of Cook's third voyage, urged Jefferson toward an overland crossing, part of the background to the Lewis and Clark expedition. The link runs through Cook's later voyage, not the Endeavour itself."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://pictures.royalsociety.org/image-rs-9216",
+   "title": "Two of the Natives of New Holland, Advancing to Combat",
+   "caption": "Thomas Chambers's engraving after Sydney Parkinson's sketch of the two Gweagal men at Kamay, 29 April 1770. The engraver, who never saw Australia, added classical poses and dropped the woomera in Parkinson's original.",
+   "date": "1773",
+   "credit": "Thomas Chambers after Sydney Parkinson; Royal Society"
+  },
+  {
+   "url": "https://rmg.co.uk/collections/objects/rmgc-object-269382",
+   "title": "A view of Endeavour River on the coast of New Holland",
+   "caption": "The Endeavour careened on the bank of Waalumbaal Birri for repairs after striking the reef, June–August 1770, with stores unloaded on shore.",
+   "date": "1773",
+   "credit": "William Byrne after a lost drawing probably by Parkinson; Royal Museums Greenwich"
+  },
+  {
+   "url": "https://collections.sea.museum/objects/40469/a-singular-animal-called-kanguroo-found-on-the-coast-of-new",
+   "title": "A singular animal called Kanguroo found on the coast of New Holland",
+   "caption": "Engraving after George Stubbs's painting commissioned by Banks from the skin of the animal Gore shot on 14 July 1770, the first printed European image of a kangaroo.",
+   "date": "engraving c.1790–1800 after the 1770s painting",
+   "credit": "after George Stubbs; Australian National Maritime Museum"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/A_M%C4%81ori_and_P%C4%81keh%C4%81_man_trading_a_crayfish",
+   "title": "A Māori man and Joseph Banks trading a crayfish",
+   "caption": "Watercolour now attributed to Tupaia: a Māori man offers a crayfish, Banks offers cloth. The encounter drawn by a Polynesian hand.",
+   "date": "c.1769",
+   "credit": "Tupaia; British Library Add MS 15508, f. 12"
+  },
+  {
+   "url": "https://teara.govt.nz/en/artwork/33500/arched-rock-tolaga-bay-1769",
+   "title": "Arched rock, Tolaga Bay, 1769",
+   "caption": "Spöring's drawing of the great natural arch at Uawa, October 1769, later engraved for the published voyage.",
+   "date": "October 1769 (engraving 1784)",
+   "credit": "Herman Spöring; Te Ara"
+  },
+  {
+   "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-269373",
+   "title": "A fortified town, called a Hippah, built on a perforated rock at Tolaga in New Zealand",
+   "caption": "Engraving from the published voyage showing a fortified pā on a pierced rock at Uawa.",
+   "date": "1770s",
+   "credit": "Royal Museums Greenwich"
+  },
+  {
+   "url": "https://www.library.gov.au/node/1447",
+   "title": "Transit of Venus (NLA), with Parkinson's 'Venus Fort'",
+   "caption": "The National Library of Australia's page on the transit, with Cook's entry for 3 June 1769 and the 1773 engraving of Fort Venus, the stockade built to protect the instruments.",
+   "date": "1769 / 1773",
+   "credit": "National Library of Australia; Samuel Middiman after Parkinson"
+  }
+ ],
+ "further": [
+  {
+   "title": "Captain Cook's Journal During His First Voyage Round the World (Wharton, 1893), Project Gutenberg",
+   "url": "https://gutenberg.org/ebooks/8106"
+  },
+  {
+   "title": "South Seas: voyaging and cross-cultural encounters (Cook, Banks, Parkinson by date)",
+   "url": "https://paulturnbull.org/project/southseas/journals/cook/17690603.html"
+  },
+  {
+   "title": "The Endeavour Journal of Joseph Banks (Beaglehole ed.), NZETC",
+   "url": "https://nzetc.victoria.ac.nz/tm/scholarly/tei-Bea01Bank-t1-body-d7-d4.html"
+  },
+  {
+   "title": "National Museum of Australia: Endeavour voyage, Waalumbaal Birri",
+   "url": "https://www.nma.gov.au/exhibitions/endeavour-voyage/waalumbaal-birri-endeavour-river"
+  },
+  {
+   "title": "State Library of NSW: Violence on the shore (Kamay)",
+   "url": "https://www.sl.nsw.gov.au/node/189791"
+  },
+  {
+   "title": "Anne Salmond on Tūranganui 1769 (extract)",
+   "url": "https://www.waikereru.org/assets/documents/Anne%20Salmond%20extract%20Case%20Studies.pdf"
+  }
+ ],
+ "vantage_key": "0 = commander, chief observer, or the hosts at the centre of an encounter; 1 = eyewitness on board or ashore; 2 = nearby; 3 = same land at a distance; 4 = news only."
+}

@@ -1,0 +1,1453 @@
+{
+ "id": "titanic-1912",
+ "title": "The Night the Wireless Spoke: Titanic's Messages",
+ "short_title": "Titanic's Wireless Night",
+ "subtitle": "RMS Titanic's wireless traffic, the rescue, the press and the inquiries, North Atlantic and New York, 1912–1914",
+ "span": "1912–1914",
+ "intro": [
+  "This chapter is a message log more than a set of diaries. On the night of 14–15 April 1912 almost everything that mattered about the Titanic passed through a few Marconi wireless rooms: six ice warnings during the day, the distress call after a quarter past midnight, the replies of ships too far away and the silence of one ship close by. The record that survives is made of station logs, message forms, sworn testimony and one survivor's book, and the forms are tagged honestly here.",
+  "The sender is Jack Phillips, who died, and whose words survive only as other stations wrote them down and as his junior, Harold Bride, recalled them. The receivers are spread across the North Atlantic: Harold Cottam on the Carpathia, who answered by chance because he was still up; John Durrant on the Mount Temple, whose log, kept in New York time, gives the last hour almost minute by minute; Cyril Evans on the Californian, who had warned Titanic of ice and been told to keep out, and was asleep when she called for help; and the station at Cape Race, Newfoundland, which passed what it heard ashore.",
+  "Ashore the message changed character. In New York the owners' office spent Monday repeating hopeful fragments, including reports that all were safe and the ship was in tow, until the Olympic's message arrived at 6.16 pm. The New York Times read meaning into silence and printed the worst. For three days the Carpathia's single operator gave priority to survivors' names, and on 18 April the two operators' stories were sold to the Times under an arrangement Marconi agreed to.",
+  "Then came the questioners: Senator William Alden Smith, who opened hearings the day after the docking, and Lord Mersey's British inquiry, whose report set out which warnings reached the bridge and found that the Californian might have saved many if not all of the lives lost. Within months the United States required two operators and a constant watch on passenger ships and licensed every station; in January 1914 an international convention followed. (The US Radio Act is sometimes dated to 1913 because it took effect on 13 December 1912; it was signed on 13 August 1912.)",
+  "About 1,500 people died. The chapter follows the operators and their messages and does not dwell on the deaths, but they are the reason every minute of the log was examined so closely. One famous story is left out of the facts: David Sarnoff's account, first published in 1926, of being first to hear the news and spending 72 hours at the key is a later legend and is flagged as such in the message log."
+ ],
+ "calendar_note": "Times in this chapter are given as each record gave them. Ships kept apparent time (ATS), set to the sun at their own longitude and changed at night; New York kept Eastern time, five hours behind Greenwich. The gap between Titanic's clocks and New York's is itself disputed: the US Senate report used 1 hour 33 minutes (consistent with Rostron's telegram placing the foundering at 2.20 am ship's time, 5.47 GMT); many books use 1 hour 50 minutes, which comes from the Carpathia; Carpathia's clocks have been calculated at 1 hour 57 minutes ahead of New York; Evans gave 1 hour 55 minutes for the Californian; the British inquiry converted the Mount Temple's messages at 1 hour 46 minutes. The Mount Temple log and the Cape Race record are in New York time, so the distress call logged at 10.25 pm on Sunday 14 April corresponds to about 12.15 am on Monday 15 April aboard Titanic. date_iso uses the ship's date for events at sea after midnight.",
+ "eyes": [
+  {
+   "id": "phillips",
+   "short": "Phillips",
+   "name": "John George 'Jack' Phillips",
+   "life": "1887–1912",
+   "role": "Senior Marconi wireless operator of RMS Titanic, aged 25 (his birthday fell on 11 April, during the voyage); employed by the Marconi company, not by White Star",
+   "side": "Britain; Marconi International Marine Communication Co.",
+   "where": "The Marconi room on Titanic's boat deck",
+   "lat": 41.77,
+   "lon": -50.23,
+   "waypoints": [
+    {
+     "lat": 50.9,
+     "lon": -1.4,
+     "label": "Southampton, 10 April"
+    },
+    {
+     "lat": 49.65,
+     "lon": -1.62,
+     "label": "Cherbourg, 10 April"
+    },
+    {
+     "lat": 51.85,
+     "lon": -8.3,
+     "label": "Queenstown, 11 April"
+    },
+    {
+     "lat": 41.77,
+     "lon": -50.23,
+     "label": "CQD position sent, 15 April"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the sender, whose own words survive only as messages",
+   "form": "wireless messages as logged by others; testimony of his colleague",
+   "language": "English",
+   "authenticity": "Phillips left no diary and died in the sinking; his body was not identified. What survives is his traffic as written down by the ships and stations that received it (the Mount Temple log, Cape Race's reconstructed log, the forms quoted by the inquiries) and Harold Bride's accounts of what he said and did. Wording of some replies differs between receivers.",
+   "bio": "A professional operator trained at the Marconi school, Phillips spent Sunday 14 April clearing a backlog of passenger telegrams to Cape Race after the set had broken down and been repaired. He received or overheard most of the day's ice warnings; not all of them reached the bridge. From about a quarter past midnight he sent the distress call and kept sending until the power failed.",
+   "sources": [
+    {
+     "title": "British Wreck Commissioner's Report: ice messages",
+     "url": "https://www.titanicinquiry.org/BOTInq/BOTReport/botRepMessages.php"
+    },
+    {
+     "title": "Mount Temple wireless log, US Senate Inquiry",
+     "url": "https://www.titanicinquiry.org/USInq/AmInq10PVMT01.php"
+    }
+   ]
+  },
+  {
+   "id": "bride",
+   "short": "Bride",
+   "name": "Harold Sydney Bride",
+   "life": "1890–1956",
+   "role": "Junior Marconi operator of Titanic, aged 22; survivor",
+   "side": "Britain; Marconi company",
+   "where": "Titanic's Marconi room; then the upturned collapsible B; then the Carpathia's wireless room",
+   "lat": 41.77,
+   "lon": -50.23,
+   "waypoints": [
+    {
+     "lat": 50.9,
+     "lon": -1.4,
+     "label": "Southampton, 10 April"
+    },
+    {
+     "lat": 41.73,
+     "lon": -49.95,
+     "label": "The sinking, 15 April"
+    },
+    {
+     "lat": 41.6,
+     "lon": -50.0,
+     "label": "Aboard Carpathia, 15–18 April"
+    },
+    {
+     "lat": 40.742,
+     "lon": -74.01,
+     "label": "Pier 54, New York, 18 April"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the operator who survived",
+   "form": "newspaper first-person account (1912), inquiry testimony, report to the Marconi company",
+   "language": "English",
+   "authenticity": "His first-person story was printed by the New York Times on 19 April 1912 after an arrangement, made with the Marconi company's consent, that paid the operators for their accounts; he later testified at both inquiries. The paid story and the sworn testimony differ in places, notably on times, and he could not reconcile his recollection of when the CQD went out with other witnesses'.",
+   "bio": "Bride was on his second year with Marconi and had been working the set with Phillips in shifts. He was the only witness to the inside of Titanic's wireless room during the last two hours. Injured in the feet, he nonetheless helped the Carpathia's lone operator send the survivors' traffic during the voyage to New York.",
+   "sources": [
+    {
+     "title": "US Senate Inquiry, Day 10 (29 April 1912): Bride",
+     "url": "https://www.titanicinquiry.org/USInq/AmInq10Bride02.php"
+    }
+   ]
+  },
+  {
+   "id": "cottam",
+   "short": "Cottam",
+   "name": "Harold Thomas Cottam",
+   "life": "1891–1984",
+   "role": "Sole Marconi operator of the Cunard liner Carpathia, aged 21",
+   "side": "Britain; Marconi company aboard a Cunard ship",
+   "where": "Carpathia's wireless cabin, about 58 nautical miles south-east of Titanic",
+   "lat": 41.17,
+   "lon": -49.2,
+   "waypoints": [
+    {
+     "lat": 41.17,
+     "lon": -49.2,
+     "label": "Carpathia when the call came"
+    },
+    {
+     "lat": 41.6,
+     "lon": -50.0,
+     "label": "Rescue site, 15 April"
+    },
+    {
+     "lat": 40.742,
+     "lon": -74.01,
+     "label": "Pier 54, 18 April"
+    },
+    {
+     "lat": 40.748,
+     "lon": -73.985,
+     "label": "Senate inquiry, Waldorf-Astoria, 19 April"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the receiver who happened to be listening",
+   "form": "inquiry testimony; newspaper account",
+   "language": "English",
+   "authenticity": "Testified on the first day of the US Senate inquiry (19 April 1912) and later; sold an account to the New York Times on arrival. His times were given without stating a time zone, which later writers have had to reconstruct.",
+   "bio": "Cottam was about to go to bed, still listening for a reply from the Parisian and taking news from the Cape Cod station, when he called Titanic to mention messages waiting for her. The answer was the distress call. As the only operator aboard, he then carried the rescue ship's whole traffic for three days.",
+   "sources": [
+    {
+     "title": "US Senate Inquiry, Day 1: Cottam (part 1)",
+     "url": "https://www.titanicinquiry.org/USInq/AmInq01Cottam01.php"
+    },
+    {
+     "title": "US Senate Inquiry, Day 1: Cottam (part 2)",
+     "url": "https://www.titanicinquiry.org/USInq/AmInq01Cottam02.php"
+    }
+   ]
+  },
+  {
+   "id": "rostron",
+   "short": "Rostron",
+   "name": "Arthur Henry Rostron",
+   "life": "1869–1940",
+   "role": "Captain of RMS Carpathia, aged 42",
+   "side": "Britain; Cunard Line",
+   "where": "Carpathia's bridge",
+   "lat": 41.17,
+   "lon": -49.2,
+   "waypoints": [
+    {
+     "lat": 41.17,
+     "lon": -49.2,
+     "label": "Turns the ship, 00:35 Carpathia time"
+    },
+    {
+     "lat": 41.6,
+     "lon": -50.0,
+     "label": "First boat, 04:10"
+    },
+    {
+     "lat": 40.742,
+     "lon": -74.01,
+     "label": "Pier 54, 18 April"
+    },
+    {
+     "lat": 40.748,
+     "lon": -73.985,
+     "label": "Senate inquiry, 19 April"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the captain who answered",
+   "form": "inquiry testimony; official report and telegrams",
+   "language": "English",
+   "authenticity": "Testified on Day 1 of the US Senate inquiry and before the British inquiry; his report to Cunard and his telegrams survive. His conversion of ship's time to New York time (10.45 pm) is disputed by later analysts, who place the call nearer 10.38 pm.",
+   "bio": "Woken by Cottam with the distress message, Rostron turned the Carpathia before he had finished hearing it, ordered extra stokers, heat and lookouts, and drove an old ship through an ice field at night. He also shut down private wireless traffic to the press on the way back, which made him both praised and criticised.",
+   "sources": [
+    {
+     "title": "US Senate Inquiry, Day 1: Rostron",
+     "url": "https://www.titanicinquiry.org/USInq2/AmInq01Rostron01.php"
+    },
+    {
+     "title": "British Report: the rescue by the Carpathia",
+     "url": "https://www.titanicinquiry.org/BOTInq/BOTReport/botRepRescue.php"
+    }
+   ]
+  },
+  {
+   "id": "evans",
+   "short": "Cyril Evans",
+   "name": "Cyril Furmstone Evans",
+   "life": "1892–1959",
+   "role": "Sole Marconi operator of the Leyland liner Californian, aged 20",
+   "side": "Britain; Marconi company aboard a Leyland ship",
+   "where": "Californian's wireless cabin, stopped in field ice north of Titanic's track",
+   "lat": 42.05,
+   "lon": -50.12,
+   "waypoints": [
+    {
+     "lat": 42.05,
+     "lon": -50.12,
+     "label": "Stopped in ice, 14–15 April"
+    },
+    {
+     "lat": 41.75,
+     "lon": -50.0,
+     "label": "Wreck site, morning 15 April"
+    },
+    {
+     "lat": 38.89,
+     "lon": -77.009,
+     "label": "Senate testimony, Washington, 26 April"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the nearest listener, asleep",
+   "form": "inquiry testimony",
+   "language": "English",
+   "authenticity": "Testified to the US Senate inquiry in Washington (26 April 1912) and to the British inquiry. He kept some times in New York time and some in ship's time, and his figure of 1 hour 55 minutes between them was later used by counsel at the British inquiry.",
+   "bio": "Evans warned Titanic twice on 14 April, once with a relayed ice report and once, near 11 pm, that his ship was stopped in ice. Rebuffed because Titanic was busy with Cape Race, he took off his headphones and went to bed half an hour later. He was the only operator on his ship, so no one heard the distress traffic aboard the Californian until he was woken before dawn.",
+   "sources": [
+    {
+     "title": "US Senate Inquiry, Day 8: Evans",
+     "url": "https://www.titanicinquiry.org/USInq2/AmInq08EvansCF01.php"
+    },
+    {
+     "title": "British Report: the Californian",
+     "url": "https://www.titanicinquiry.org/BOTInq/BOTReport/botRepCalifornian.php"
+    }
+   ]
+  },
+  {
+   "id": "lord",
+   "short": "Captain Lord",
+   "name": "Stanley Lord",
+   "life": "1877–1962",
+   "role": "Master of SS Californian, aged 34",
+   "side": "Britain; Leyland Line",
+   "where": "Californian, stopped in field ice",
+   "lat": 42.05,
+   "lon": -50.12,
+   "waypoints": [
+    {
+     "lat": 42.05,
+     "lon": -50.12,
+     "label": "Stopped at 22:21 ship's time"
+    },
+    {
+     "lat": 38.89,
+     "lon": -77.009,
+     "label": "Senate testimony, 26 April"
+    },
+    {
+     "lat": 51.498,
+     "lon": -0.139,
+     "label": "British inquiry, London, May"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the captain told of rockets",
+   "form": "inquiry testimony; ship's log as produced",
+   "language": "English",
+   "authenticity": "His testimony at both inquiries is in the printed record. The British inquiry found against him; he denied for the rest of his life that the ship his officers saw was Titanic, and the question has been argued since. His defenders and critics both rely on the same transcripts.",
+   "bio": "Lord stopped his ship for the night when he met field ice and had Evans warn Titanic. From his chart-room settee he was told by speaking tube of a white rocket from a nearby vessel, and he did not have his wireless operator woken. The case is the clearest example of a message that was never sent because no one was listening.",
+   "sources": [
+    {
+     "title": "British Wreck Commissioner's Inquiry, Day 7: Lord",
+     "url": "https://www.titanicinquiry.org/BOTInq/BOTInq07Lord01.php"
+    },
+    {
+     "title": "British Report: the Californian",
+     "url": "https://www.titanicinquiry.org/BOTInq/BOTReport/botRepCalifornian.php"
+    }
+   ]
+  },
+  {
+   "id": "durrant",
+   "short": "Durrant",
+   "name": "John Oscar Durrant",
+   "life": "dates not found",
+   "role": "Marconi operator of the Canadian Pacific steamer Mount Temple",
+   "side": "Britain; Marconi company aboard a Canadian Pacific ship",
+   "where": "Mount Temple, about 50 miles west of Titanic",
+   "lat": 41.42,
+   "lon": -51.23,
+   "vantage": 1,
+   "vantage_label": "the logbook that heard everything",
+   "form": "wireless log (procès-verbal)",
+   "language": "English",
+   "authenticity": "His station log for 14–15 April, kept in New York time, was entered in the US Senate record and examined at the British inquiry, where he testified. It is the most continuous surviving record of the night's traffic, though it is a log of what one station could hear, not of everything sent.",
+   "bio": "Durrant heard the first CQD at 10.25 pm by his clock and woke his captain; the Mount Temple turned toward Titanic but stopped in pack ice. His log records, minute by minute, Titanic's exchanges with Carpathia, Frankfurt and Olympic, the silence after 11.47 pm, and the morning's jamming as every ship called at once.",
+   "sources": [
+    {
+     "title": "Mount Temple procès-verbal, US Senate Inquiry",
+     "url": "https://www.titanicinquiry.org/USInq/AmInq10PVMT01.php"
+    }
+   ]
+  },
+  {
+   "id": "gray",
+   "short": "Cape Race",
+   "name": "Walter Gray and the Cape Race operators",
+   "life": "active 1912",
+   "role": "Head operator of the Marconi station at Cape Race, Newfoundland, with assistants J. C. R. Godwin and Robert Hunston",
+   "side": "Newfoundland; Marconi company",
+   "where": "Cape Race station, south-east tip of the Avalon Peninsula",
+   "lat": 46.66,
+   "lon": -53.07,
+   "vantage": 2,
+   "vantage_label": "the shore station on the relay path",
+   "form": "reconstructed station log; memoir (written later)",
+   "language": "English",
+   "authenticity": "The original station logs were lost (accounts differ: fire or disposal). A log later replicated by Robert Hunston from the station's notes survives, in New York time; Gray's memoir, The Life Story of an Old Shetlander, was written later. Family lore about a 14-year-old apprentice alone at the key is contested.",
+   "bio": "Cape Race was the first North American station westbound liners could reach, which is why Phillips spent Sunday evening sending passenger telegrams through it. That night it heard the distress traffic and passed what it had, under standing orders, to the ship's owners, the company and a New York newspaper.",
+   "sources": [
+    {
+     "title": "Global News: Cape Race station and the Titanic (2012)",
+     "url": "https://globalnews.ca/news/231156/wireless-station-in-remote-cape-race-handled-titanic-distress-call/"
+    }
+   ]
+  },
+  {
+   "id": "marconi",
+   "short": "Marconi",
+   "name": "Guglielmo Marconi",
+   "life": "1874–1937",
+   "role": "Inventor and head of the Marconi companies, aged 37, in New York in April 1912",
+   "side": "Italy and Britain; Marconi companies",
+   "where": "New York",
+   "lat": 40.75,
+   "lon": -73.98,
+   "vantage": 3,
+   "vantage_label": "the owner of the system, waiting ashore",
+   "form": "inquiry testimony; company messages",
+   "language": "English and Italian",
+   "authenticity": "Testified at the US Senate inquiry and later at the British inquiry. The messages to the Carpathia's operators about selling their stories were produced in evidence; American Marconi's chief engineer, Frederick Sammis, testified that Marconi agreed the operators could sell their accounts once ashore.",
+   "bio": "The disaster was at once the strongest proof of what Marconi's wireless could do and a public trial of how his operators were trained, paid and supervised. He went aboard the Carpathia on the night of 18 April and found Bride, with a New York Times reporter at his side.",
+   "sources": [
+    {
+     "title": "US Senate Inquiry, Day 10: Sammis on the Carpathia messages",
+     "url": "https://www.titanicinquiry.org/USInq/AmInq10Sammis01.php"
+    }
+   ]
+  },
+  {
+   "id": "vananda",
+   "short": "Van Anda",
+   "name": "Carr Vattel Van Anda",
+   "life": "1864–1945",
+   "role": "Managing editor of the New York Times, aged 47",
+   "side": "United States; the New York press",
+   "where": "The Times newsroom, Times Square, New York",
+   "lat": 40.756,
+   "lon": -73.986,
+   "vantage": 3,
+   "vantage_label": "the editor reading the silence",
+   "form": "newspaper editions (dated)",
+   "language": "English",
+   "authenticity": "His reasoning is known from the Times's own accounts and later histories of the paper rather than from a diary; the dated editions of 15–19 April 1912 are the primary record. Details of the timing of the first bulletin vary between retellings.",
+   "bio": "Van Anda received a wire-service bulletin late on Sunday night that Titanic had struck ice. When no further messages came from the ship, he concluded she had gone down and pushed the paper further than its rivals, which were printing hopeful reports. On 18 April the Times rented a floor of a hotel near the pier and put telephone lines into it.",
+   "sources": [
+    {
+     "title": "Dallas Morning News (2012): how news organisations got the story",
+     "url": "https://www.dallasnews.com/news/news/2012/04/13/after-the-titanic-sank-news-organizations-scrambled-to-get-the-story"
+    }
+   ]
+  },
+  {
+   "id": "franklin",
+   "short": "Franklin",
+   "name": "Philip Albright Small Franklin",
+   "life": "1871–1939",
+   "role": "Vice-president of International Mercantile Marine (owner of the White Star Line) in New York",
+   "side": "United States; White Star Line / IMM",
+   "where": "IMM offices, Broadway, New York",
+   "lat": 40.705,
+   "lon": -74.013,
+   "vantage": 3,
+   "vantage_label": "the owner's office, issuing statements",
+   "form": "inquiry testimony; company statements",
+   "language": "English",
+   "authenticity": "Testified at the US Senate inquiry about what the company knew and when; the times of his statements are also recorded in the Dow Jones news ticker as read into the record by the witness Farrell.",
+   "bio": "Through Monday 15 April Franklin's office passed on reassuring fragments from unofficial wireless reports, and on the morning of the 15th he told reporters the ship was unsinkable. At 6.16 pm New York time a message from Captain Haddock of the Olympic arrived, and he called in the press to say she had foundered.",
+   "sources": [
+    {
+     "title": "US Senate Inquiry, Day 3: Franklin",
+     "url": "https://www.titanicinquiry.org/USInq/AmInq03Franklin02.php"
+    },
+    {
+     "title": "Farrell testimony: the news ticker timeline",
+     "url": "https://www.earlyradiohistory.us/1912titn.htm"
+    }
+   ]
+  },
+  {
+   "id": "smith",
+   "short": "Sen. Smith",
+   "name": "William Alden Smith",
+   "life": "1859–1932",
+   "role": "Republican senator from Michigan, aged 52, chairman of the Senate subcommittee of inquiry",
+   "side": "United States Senate",
+   "where": "Waldorf-Astoria hotel, New York, then Washington",
+   "lat": 38.89,
+   "lon": -77.009,
+   "waypoints": [
+    {
+     "lat": 40.748,
+     "lon": -73.985,
+     "label": "Waldorf-Astoria hearings, from 19 April"
+    },
+    {
+     "lat": 38.89,
+     "lon": -77.009,
+     "label": "Senate, Washington"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "the questioner",
+   "form": "hearing transcript (US government record)",
+   "language": "English",
+   "authenticity": "The hearings were printed by the Government Printing Office in 1912 and are transcribed in full by the Titanic Inquiry Project. They are a public-domain US government record.",
+   "bio": "Smith began hearings the day after the Carpathia docked, before the British crew could sail home, and questioned the operators closely about times, the ignored warnings and the paid stories. Laymen's questions about the sea drew ridicule in Britain, but his findings on wireless fed directly into American law that summer.",
+   "sources": [
+    {
+     "title": "US Senate Inquiry transcripts (Titanic Inquiry Project)",
+     "url": "https://www.titanicinquiry.org/USInq2/AmInq08EvansCF01.php"
+    }
+   ]
+  },
+  {
+   "id": "mersey",
+   "short": "Lord Mersey",
+   "name": "John Charles Bigham, 1st Baron Mersey",
+   "life": "1840–1929",
+   "role": "Wreck Commissioner, aged 71, presiding over the British Board of Trade inquiry",
+   "side": "United Kingdom; Board of Trade",
+   "where": "London",
+   "lat": 51.498,
+   "lon": -0.139,
+   "vantage": 3,
+   "vantage_label": "the judge of the record",
+   "form": "inquiry report (1912)",
+   "language": "English",
+   "authenticity": "The report, published in 1912, is reproduced by the Titanic Inquiry Project. Its findings on the Californian were contested by Captain Lord and later reviewed (a 1992 reappraisal by the Marine Accident Investigation Branch is outside this chapter's span).",
+   "bio": "Mersey's report set out the ice messages in order, said which reached the bridge and which did not, and made findings on the Californian that have been argued over ever since. He went on to preside over the international conference in London that produced the 1914 safety convention.",
+   "sources": [
+    {
+     "title": "British Report: ice messages",
+     "url": "https://www.titanicinquiry.org/BOTInq/BOTReport/botRepMessages.php"
+    },
+    {
+     "title": "British Report: the Californian",
+     "url": "https://www.titanicinquiry.org/BOTInq/BOTReport/botRepCalifornian.php"
+    }
+   ]
+  },
+  {
+   "id": "beesley",
+   "short": "Beesley",
+   "name": "Lawrence Beesley",
+   "life": "1877–1967",
+   "role": "Science teacher from Dulwich College, aged 34, second-class passenger; survivor",
+   "side": "Britain; passenger",
+   "where": "Titanic, lifeboat 13, then the Carpathia",
+   "lat": 41.73,
+   "lon": -49.95,
+   "waypoints": [
+    {
+     "lat": 50.9,
+     "lon": -1.4,
+     "label": "Southampton, 10 April"
+    },
+    {
+     "lat": 41.73,
+     "lon": -49.95,
+     "label": "Lifeboat 13, 15 April"
+    },
+    {
+     "lat": 40.742,
+     "lon": -74.01,
+     "label": "New York, 18 April"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the passenger who wrote it down",
+   "form": "memoir (written within weeks, 1912)",
+   "language": "English",
+   "authenticity": "The Loss of the S.S. Titanic was published in 1912; its preface says it was written about five weeks after the landing in New York. A shorter account he wrote aboard the Carpathia was printed in newspapers from 19 April. Free text on Project Gutenberg.",
+   "bio": "Beesley gives the outsider's view of the wireless: passengers in the boats told that the Olympic was coming, survivors on the Carpathia whose cables never arrived, and a lone operator swamped with traffic. He ends his book arguing for continuous wireless watches.",
+   "sources": [
+    {
+     "title": "The Loss of the S.S. Titanic (Project Gutenberg)",
+     "url": "https://gutenberg.org/files/6675/6675-h/6675-h.htm"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1912-04-10",
+   "date_display": "Wednesday 10 April 1912",
+   "precision": "day",
+   "eye": "beesley",
+   "place": "Southampton",
+   "headline": "A teacher boards the new liner at Southampton",
+   "digest": "Beesley boarded as a second-class passenger for a holiday crossing to America. His account of the first days is of steadiness and comfort: a ship so large that the passengers barely felt the sea. Nothing in his early chapters concerns the wireless, which most passengers knew only as a novelty for sending greetings ashore.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Beesley, The Loss of the S.S. Titanic (1912), ch. 1–2, Project Gutenberg."
+  },
+  {
+   "date_iso": "1912-04-13",
+   "date_display": "Friday 12 – Saturday 13 April 1912",
+   "precision": "range",
+   "eye": "bride",
+   "place": "Titanic's Marconi room",
+   "headline": "The set breaks down and the operators lose hours",
+   "digest": "Bride later described the wireless failing late in the voyage and the two operators spending hours tracing and repairing the fault themselves. The repair left them with a backlog of passengers' telegrams, which helps explain why Phillips was still clearing traffic to Cape Race late on Sunday night.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Bride's account in the New York Times, 19 April 1912, and later testimony; exact hours of the fault vary between tellings."
+  },
+  {
+   "date_iso": "1912-04-14",
+   "date_display": "Sunday 14 April 1912, 09:00 Titanic time",
+   "precision": "day",
+   "eye": "phillips",
+   "place": "Titanic, North Atlantic",
+   "headline": "Caronia's morning warning reaches the captain",
+   "digest": "The first of the day's ice messages came from Captain Barr of the Cunard liner Caronia: westbound ships had reported bergs, growlers and field ice in latitude 42°N between 49° and 51°W. It was taken to Captain Smith, who acknowledged it. The British inquiry noted the sightings were at least 48 hours old.",
+   "quote": "bergs, growlers and field ice",
+   "confidence": "verified",
+   "source_note": "British Wreck Commissioner's Report, 'Messages received', Titanic Inquiry Project."
+  },
+  {
+   "date_iso": "1912-04-14",
+   "date_display": "Sunday 14 April 1912, 13:42 and 13:45 Titanic time",
+   "precision": "day",
+   "eye": "phillips",
+   "place": "Titanic, North Atlantic",
+   "headline": "Two afternoon warnings: one shown to Ismay, one never delivered",
+   "digest": "At 1.42 pm the Baltic relayed a Greek steamer's report of icebergs and large quantities of field ice near 41°51'N, 49°52'W; Smith handed it to the White Star chairman, Bruce Ismay, who kept it until the captain asked for it back at 7.15 pm. Three minutes later the German liner Amerika asked Titanic to relay to the US Hydrographic Office a report of two large icebergs; the inquiry concluded Phillips held it to send to Cape Race and it never reached an officer.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "British Wreck Commissioner's Report, 'Messages received' (Baltic and Amerika)."
+  },
+  {
+   "date_iso": "1912-04-14",
+   "date_display": "Sunday 14 April 1912, about 19:30 Titanic time (17:35 New York time by Evans's reckoning)",
+   "precision": "day",
+   "eye": "evans",
+   "place": "Californian, North Atlantic",
+   "headline": "Evans relays three bergs; Titanic says it already has them",
+   "digest": "On Captain Lord's instruction Evans sent the Leyland ship Antillian a report of three large bergs five miles south of the Californian. Titanic called in to say the message had been overheard. Evans recalled the tone as friendly; he worked partly in New York time and partly in ship's time, a mixture that later confused both inquiries.",
+   "quote": "Three large bergs five miles to southward of us",
+   "confidence": "verified",
+   "source_note": "US Senate Inquiry Day 8, Evans; British Report, 'Messages received' (Californian to Antillian, 6.30 pm apparent ship's time)."
+  },
+  {
+   "date_iso": "1912-04-14",
+   "date_display": "Sunday 14 April 1912, evening",
+   "precision": "day",
+   "eye": "bride",
+   "place": "Titanic's Marconi room",
+   "headline": "Bride carries the Californian report to the bridge",
+   "digest": "Bride took the overheard Californian message up to the bridge, though at the British inquiry he could not remember which officer he gave it to. Phillips, working Cape Race, was still sending passengers' private messages; the two men split the night so that one could sleep.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "British Report, 'Messages received' (Bride's evidence on the Californian message)."
+  },
+  {
+   "date_iso": "1912-04-14",
+   "date_display": "Sunday 14 April 1912, 21:40 Titanic time",
+   "precision": "day",
+   "eye": "phillips",
+   "place": "Titanic, North Atlantic",
+   "headline": "Mesaba's warning describes the ice ahead and goes no further",
+   "digest": "The Atlantic Transport liner Mesaba sent Titanic and all eastbound ships an ice report covering latitudes 42° to 41°25'N and longitudes 49° to 50°30'W, an area across Titanic's course, describing heavy pack ice and many large icebergs. The British inquiry found that it apparently never reached the master or any officer: the operator was busy with passenger traffic and probably set it aside.",
+   "quote": "Saw much heavy pack ice and great number large icebergs",
+   "confidence": "verified",
+   "source_note": "British Report, 'Messages received' (Mesaba)."
+  },
+  {
+   "date_iso": "1912-04-14",
+   "date_display": "Sunday 14 April 1912, 22:21 Californian time",
+   "precision": "day",
+   "eye": "lord",
+   "place": "Californian, stopped in field ice",
+   "headline": "Lord stops for the night and asks for a warning to be sent",
+   "digest": "Meeting field ice ahead, Lord stopped and reversed his engines and lay stopped until morning. Around 11 pm he told Evans to let Titanic know the Californian was stopped and surrounded by ice. He later told the British inquiry that the steamer whose lights his officers saw was not the Titanic.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "British Inquiry Day 7, Lord, Q. 6702–6746."
+  },
+  {
+   "date_iso": "1912-04-14",
+   "date_display": "Sunday 14 April 1912, about 23:00 Californian time (21:05 New York time by Evans)",
+   "precision": "day",
+   "eye": "evans",
+   "place": "Californian's wireless cabin",
+   "headline": "'We are stopped and surrounded by ice' and the reply",
+   "digest": "Evans called Titanic with Lord's message. His signal was so much stronger than Cape Race's that it drowned the traffic Phillips was taking, and the reply told him to keep out; Evans quoted it at the Senate as an order to shut up because Titanic was busy working Cape Race. He listened a while longer, heard Titanic still sending to Cape Race, put down the headphones about 11.30–11.35 and went to bed.",
+   "quote": "Shut up, shut up, I am busy; I am working Cape Race.",
+   "confidence": "verified",
+   "source_note": "US Senate Inquiry Day 8, Evans (Q. 11331–11378); British Report, 'The Californian'."
+  },
+  {
+   "date_iso": "1912-04-14",
+   "date_display": "Sunday 14 April 1912, evening (New York time)",
+   "precision": "day",
+   "eye": "gray",
+   "place": "Cape Race station, Newfoundland",
+   "headline": "Cape Race takes Titanic's passenger telegrams",
+   "digest": "Titanic came within range of Cape Race on Sunday evening and Phillips began passing the accumulated passengers' messages for relay by landline and cable. These were the routine traffic of a luxury ship: greetings, arrangements, business. The volume of that traffic is the background to every ice warning that was set aside that night.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Global News (2012) on the Cape Race station; British Report on the Amerika message held for Cape Race."
+  },
+  {
+   "date_iso": "1912-04-14",
+   "date_display": "Sunday 14 April 1912, about 23:40–23:45 Titanic time",
+   "precision": "day",
+   "eye": "beesley",
+   "place": "Titanic, second-class cabin",
+   "headline": "A reader feels the engines heave and stop",
+   "digest": "Beesley had been reading in his bunk since about 11.15. He felt no crash, only an extra heave of the engines and a change in the motion of the mattress, and then the engines stopped. He went on deck in a dressing gown, found the night clear and very cold, and was told it was nothing serious.",
+   "quote": "an extra heave of the engines",
+   "confidence": "verified",
+   "source_note": "Beesley (1912), ch. 3, Project Gutenberg."
+  },
+  {
+   "date_iso": "1912-04-14",
+   "date_display": "Sunday 14 April 1912, late evening (Carpathia time)",
+   "precision": "day",
+   "eye": "cottam",
+   "place": "Carpathia's wireless cabin",
+   "headline": "Cottam stays up for the Parisian",
+   "digest": "Cottam had reported the day's traffic to the bridge and was still at his instrument, taking the Cape Cod station's news and waiting to confirm an exchange with the Parisian. There were no fixed hours for a lone operator; he usually turned in about midnight. He later agreed with the senators that he had caught Titanic 'rather providentially'.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "US Senate Inquiry Day 1, Cottam (part 1)."
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "Monday 15 April 1912, about 00:15 Titanic time (22:25 New York time, 14 April)",
+   "precision": "day",
+   "eye": "phillips",
+   "place": "Titanic's Marconi room",
+   "headline": "The CQD goes out with the ship's position",
+   "digest": "On Captain Smith's order Phillips began sending CQD, the Marconi distress call, with Titanic's position; the first position was soon corrected to 41°46'N, 50°14'W, worked out by Fourth Officer Boxhall. Mount Temple and Cape Race both logged it at 10.25 pm by their New York-time clocks. Bride put it about ten minutes after the collision; Boxhall's evidence implied closer to half an hour.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Mount Temple log, US Senate record; Bride, Senate Day 10; Global News on the Cape Race log."
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "Sunday 14 April 1912, 22:25 New York time (about 00:15 ship's time, 15 April)",
+   "precision": "day",
+   "eye": "durrant",
+   "place": "Mount Temple, about 50 miles west",
+   "headline": "Mount Temple's log catches the call and turns",
+   "digest": "Durrant's log has Titanic sending CQD at 10.25 pm, giving her position and saying she had struck an iceberg. He told his captain; by 10.40 the Mount Temple had reversed course toward a ship he reckoned about 50 miles off. His log, kept in New York time, then fills with the exchanges of every ship within range.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Mount Temple procès-verbal, US Senate Inquiry."
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "Sunday 14 April 1912, 22:25 New York time",
+   "precision": "day",
+   "eye": "gray",
+   "place": "Cape Race station",
+   "headline": "At Cape Race the routine traffic stops",
+   "digest": "According to the station's reconstructed log and Gray's later memoir, his assistant Godwin came to him at 10.25 pm with the news that Titanic had struck an iceberg and was calling CQD. Gray wrote that the horror only took hold when Phillips said the ship was sinking by the head; until then no one at the station imagined she could go down.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Global News (2012), citing the Hunston log and Gray's memoir; original logs lost."
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "Monday 15 April 1912, about 00:25–00:35 Carpathia time (about 22:35–22:38 New York time)",
+   "precision": "day",
+   "eye": "cottam",
+   "place": "Carpathia's wireless cabin",
+   "headline": "A courtesy call answered with a distress call",
+   "digest": "Cottam called Titanic to ask whether she knew the Cape Cod station had a batch of messages for her. The answer told him to come at once: it was a distress message, CQD. He asked whether he should report it to his captain, was told yes, and was on the bridge within a couple of minutes; the captain wrote Carpathia's position on a slip of paper and Cottam sent it back.",
+   "quote": "Come at once. It is a distress message; C. Q. D.",
+   "confidence": "verified",
+   "source_note": "US Senate Inquiry Day 1, Cottam (part 2); Mount Temple log entry at 10.35 pm NY time; Halpern on Carpathia time."
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "Monday 15 April 1912, 00:35 Carpathia time",
+   "precision": "day",
+   "eye": "rostron",
+   "place": "Carpathia's bridge",
+   "headline": "Rostron turns the Carpathia before he has the details",
+   "digest": "Woken with the message, Rostron ordered the ship turned and worked out a course to Titanic's position, about 58 miles off. He called out extra stokers to drive the ship to her highest speed, about 17.5 knots, and had blankets, hot drinks, ladders and lights prepared. From about 2.40 he was steering round icebergs seen in the dark.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "British Report, 'The rescue by the Carpathia'; US Senate Inquiry Day 1, Rostron; Halpern (Carpathia clocks 1 h 57 min ahead of New York)."
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "Monday 15 April 1912, after midnight Titanic time",
+   "precision": "range",
+   "eye": "bride",
+   "place": "Titanic's Marconi room",
+   "headline": "SOS, 'the new call'",
+   "digest": "Bride's newspaper account says that, half joking, he suggested Phillips try SOS, the newer international distress signal, since it might be his last chance to use it; Phillips then alternated SOS and CQD. Mount Temple's log records SOS among Titanic's calls after 10.55 pm New York time. SOS was not unknown before that night, but this was its most public use.",
+   "quote": "it may be your last chance to send it",
+   "confidence": "verified",
+   "source_note": "New York Times, 19 April 1912 (Bride's story); Mount Temple log (SOS from 10.55 pm NY time)."
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "Sunday 14 April 1912, 22:48–23:47 New York time",
+   "precision": "day",
+   "eye": "durrant",
+   "place": "Mount Temple",
+   "headline": "The log records the last hour of Titanic's traffic",
+   "digest": "Frankfurt answered at 10.48; at 11.20 Titanic told the Olympic to get boats ready; at 11.35 she said women were being put off in boats; at 11.41 that the engine room was flooded; at 11.43 that the sea was calm. At 11.47 Titanic acknowledged a message from the Olympic, the last signal the Mount Temple heard. By 11.55 Frankfurt and Birma were calling without reply.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Mount Temple procès-verbal, US Senate Inquiry."
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "Monday 15 April 1912, 00:40–01:15 Californian time",
+   "precision": "day",
+   "eye": "lord",
+   "place": "Californian's chart room",
+   "headline": "A white rocket reported through a speaking tube",
+   "digest": "At about 12.40 Lord told his second officer he was going to lie down in the chart room. At 1.15 the officer reported by speaking tube that the nearby steamer had fired a white rocket. Lord asked questions about it and did not have the wireless operator called. The British inquiry later counted about eight rockets fired by Titanic and eight seen from the Californian.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "British Inquiry Day 7, Lord, Q. 6785–6804; British Report, 'The Californian'."
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "Monday 15 April 1912, about 00:27 New York time (signals heard by the Virginian)",
+   "precision": "day",
+   "eye": "gray",
+   "place": "Cape Race station",
+   "headline": "Blurred signals, then nothing",
+   "digest": "Cape Race's record, drawing on the Virginian's report, has Titanic's signals becoming blurred and ending abruptly at 12.27 am New York time. Different stations' clocks and listening conditions give different last moments; Mount Temple had heard nothing since 11.47. Gray's station passed the news, under orders, to the owners, its company and a New York paper.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Global News (2012) on the Cape Race log; Farrell testimony on the Virginian's report relayed via Cape Race."
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "Monday 15 April 1912, about 02:20 Titanic time",
+   "precision": "day",
+   "eye": "beesley",
+   "place": "Lifeboat 13, a mile or two off",
+   "headline": "From the boat: the lights go out",
+   "digest": "Beesley watched from lifeboat 13 as the ship rose upright, her lights went out, and machinery broke loose inside her with a roar; then she slid under. He recorded that the cries of people in the water carried across the calm sea for a long time afterwards. Of more than 2,200 aboard, about 1,500 died.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Beesley (1912), ch. 4–5, Project Gutenberg; British Report on numbers saved."
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "Monday 15 April 1912, final minutes and after",
+   "precision": "range",
+   "eye": "bride",
+   "place": "Titanic's boat deck; collapsible B",
+   "headline": "Phillips stays at the key",
+   "digest": "Released by the captain when the power was failing, Phillips kept sending; Bride went out to help free a collapsible boat and was swept off with it as the ship went down, ending up under and then on the upturned hull. He later said he understood Phillips had reached the same boat and died before rescue. Bride, his feet crushed and frozen, was among those taken up by the Carpathia.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Bride's New York Times account, 19 April 1912, and US Senate testimony; details of Phillips's death rest on Bride's second-hand understanding."
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "Monday 15 April 1912, 04:10–08:30 Carpathia time",
+   "precision": "day",
+   "eye": "rostron",
+   "place": "Rescue site",
+   "headline": "Boats in the dawn",
+   "digest": "Carpathia stopped at 4.05 and took up the first boat at 4.10; it was about 8 am before the last of the boats were in. The British inquiry counted 712 people taken aboard, one of whom died soon after. Rostron held a service over the site and then turned for New York, judging it the best port for the survivors.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "British Report, 'The rescue by the Carpathia'."
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "Monday 15 April 1912, about 03:30–04:30 Titanic time",
+   "precision": "day",
+   "eye": "beesley",
+   "place": "Lifeboat 13 and the Carpathia",
+   "headline": "Hot coffee and a crowded ship",
+   "digest": "Beesley's boat saw the Carpathia's lights after a faint rocket, and reached her side about 4.30. Survivors were given coffee and blankets; women slept on saloon floors. He noted that the wireless was swamped and that many survivors' messages never arrived, or arrived days later.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Beesley (1912), ch. 5–6, Project Gutenberg."
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "Monday 15 April 1912, about 05:30 Californian time (03:30 New York time)",
+   "precision": "day",
+   "eye": "evans",
+   "place": "Californian's wireless cabin",
+   "headline": "Woken before dawn, Evans hears the news",
+   "digest": "Chief Officer Stewart woke Evans, told him a ship had been firing rockets in the night and asked him to find out what was wrong. Evans put on the headphones and heard from the Frankfurt that Titanic had struck an iceberg and sunk, with her position; the Virginian sent an official message with the same position. The Californian then pushed through the ice to the site, arriving after the Carpathia.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "US Senate Inquiry Day 8, Evans (Q. 11379–11382); Mount Temple log, 3.25–5.20 am NY time."
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "Monday 15 April 1912, 05:20–07:40 New York time",
+   "precision": "day",
+   "eye": "durrant",
+   "place": "Mount Temple, among pack ice",
+   "headline": "Jamming, then 'nothing more to be done'",
+   "digest": "By dawn the Mount Temple had stopped in pack ice and backed out among large bergs. Durrant logged the Californian asking positions, jamming as many stations called at once, Carpathia's report at 6.45 that she had 20 boatloads, and at 7.40 word from Carpathia that nothing more could be done. The Mount Temple stood by for the rest of the day.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Mount Temple procès-verbal, US Senate Inquiry."
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "Monday 15 April 1912, early morning New York time",
+   "precision": "day",
+   "eye": "vananda",
+   "place": "New York Times newsroom",
+   "headline": "An editor reads meaning into silence",
+   "digest": "A wire-service bulletin reached the Times late on Sunday that Titanic had struck ice and was calling for help. Van Anda's first reaction was disbelief; when nothing further came from the ship, he reasoned that she had sunk. The last edition of Monday morning went further than its rivals, reporting the ship sinking and women put off in lifeboats while others hedged.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Dallas Morning News (2012) retelling of the Times's history; exact bulletin times vary between accounts."
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "Monday 15 April 1912, 08:35 a.m. – 6:30 p.m. New York time",
+   "precision": "day",
+   "eye": "franklin",
+   "place": "IMM offices, New York",
+   "headline": "A day of reassurance, then the Olympic's message",
+   "digest": "Through the day the news ticker carried White Star reassurances and unofficial reports from Halifax, Montreal and elsewhere: passengers taken off, the ship afloat, in tow, all safe. Franklin told reporters she was unsinkable. At 6.16 pm a message from Captain Haddock of the Olympic arrived: the Carpathia had found only boats and wreckage, and about 675 were saved, nearly all women and children among the passengers. Franklin said serious loss of life had never entered his mind until then.",
+   "quote": "Found boats and wreckage only.",
+   "confidence": "verified",
+   "source_note": "US Senate Inquiry Day 3, Franklin; Farrell testimony (ticker times)."
+  },
+  {
+   "date_iso": "1912-04-16",
+   "date_display": "Tuesday 16 April 1912",
+   "precision": "day",
+   "eye": "vananda",
+   "place": "New York",
+   "headline": "The Times prints the scale of the loss",
+   "digest": "Tuesday's papers carried the sinking and the first estimates of the dead, with numbers that would keep changing for days: 866, then 868 survivors on the ticker, 705 by another count, 712 in the final reckoning. The Times led with the sinking and the rescue by the Carpathia. Crowds besieged the White Star offices for names.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Farrell testimony (ticker of 16–17 April); British Report (712)."
+  },
+  {
+   "date_iso": "1912-04-17",
+   "date_display": "Wednesday 17 April 1912",
+   "precision": "day",
+   "eye": "cottam",
+   "place": "Carpathia, bound for New York",
+   "headline": "One operator, a nation waiting",
+   "digest": "Cottam, with Bride helping despite his injuries, gave priority to the survivors' names and private messages and largely ignored press enquiries, including from the US Navy scout cruiser sent out by the President. Cunard's agent said messages were arriving nearly a day late, and Franklin called the Carpathia's apparatus absolutely overtaxed. The silence fed rumour ashore.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Farrell testimony (Cunard and Franklin statements of 17 April); Beesley (1912) on Cottam's overwork."
+  },
+  {
+   "date_iso": "1912-04-18",
+   "date_display": "Thursday 18 April 1912, 20:12 and 20:30 New York time",
+   "precision": "day",
+   "eye": "marconi",
+   "place": "New York (Seagate station and Marconi offices)",
+   "headline": "'Keep your mouth shut and hold your story'",
+   "digest": "As the Carpathia came in, the Seagate station sent her operators a message that the Marconi company was taking good care of them and they should keep quiet and hold their story for big money; another promised an exclusive deal for four figures, with Mr Marconi agreeing. American Marconi's chief engineer, Sammis, testified that he had arranged it with the Times and that Marconi agreed the operators could sell their accounts once ashore.",
+   "quote": "Keep your mouth shut and hold your story.",
+   "confidence": "verified",
+   "source_note": "US Senate Inquiry Day 10, Sammis (texts read into the record)."
+  },
+  {
+   "date_iso": "1912-04-18",
+   "date_display": "Thursday 18 April 1912, about 21:30 New York time",
+   "precision": "day",
+   "eye": "rostron",
+   "place": "Hudson River, Pier 54",
+   "headline": "The Carpathia docks in the rain",
+   "digest": "Rostron brought the Carpathia up the Hudson, first stopping at the White Star pier to drop Titanic's lifeboats, then docking at Cunard's Pier 54. Tens of thousands waited on the waterfront; press tugs had circled the ship shouting questions. Survivors came ashore after three days in which most of the country had learned little beyond the lists.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Dallas Morning News (2012); Beesley (1912), last chapters. Hour from standard accounts."
+  },
+  {
+   "date_iso": "1912-04-18",
+   "date_display": "Thursday 18 April 1912, night",
+   "precision": "day",
+   "eye": "vananda",
+   "place": "Strand Hotel and Pier 54, New York",
+   "headline": "The Times's telephone lines and a reporter in the wireless room",
+   "digest": "The Times had rented a floor of a hotel near the pier and run telephone lines to the newsroom, with about three hours to deadline. With Marconi's help its reporter Jim Speers got aboard and found Bride still in the wireless cabin. Bride's first-person story went on the front page.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dallas Morning News (2012); Sammis testimony on the Strand Hotel meeting."
+  },
+  {
+   "date_iso": "1912-04-19",
+   "date_display": "Friday 19 April 1912",
+   "precision": "day",
+   "eye": "bride",
+   "place": "New York Times, front page",
+   "headline": "Bride's story in the paper",
+   "digest": "The Times printed Bride's account of the last hours: the repairs, the SOS joke, Phillips at the key, the boat deck, the upturned collapsible. Sammis testified that the paper agreed to pay $1,000 for the operators' stories and that he believed each was paid more than promised; Cottam's account ran too. Senators would ask whether wireless news had been held back to sell it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "US Senate Inquiry Day 10, Sammis; Dallas Morning News (2012)."
+  },
+  {
+   "date_iso": "1912-04-19",
+   "date_display": "Friday 19 April 1912",
+   "precision": "day",
+   "eye": "smith",
+   "place": "Waldorf-Astoria hotel, New York",
+   "headline": "The Senate inquiry opens the morning after the docking",
+   "digest": "Smith opened hearings in New York the day after the Carpathia arrived, so that the British officers and crew could not leave first. Ismay, Rostron, Marconi and Cottam were among the first witnesses. The opening questions to the wireless men were about clocks, positions and who heard what, and when.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Encyclopedia Titanica on the inquiries; US Senate Inquiry Day 1 transcripts (Cottam, Rostron)."
+  },
+  {
+   "date_iso": "1912-04-19",
+   "date_display": "Friday 19 April 1912",
+   "precision": "day",
+   "eye": "cottam",
+   "place": "Senate hearing room, Waldorf-Astoria",
+   "headline": "Cottam explains why he happened to be listening",
+   "digest": "Cottam told the senators he was 21, earned £4 10s a month, and had been with the Carpathia since February. He explained the chance that kept him up, the courtesy call that became a CQD, and the last message he had from Titanic saying she was going down by the head. He could no longer remember the first position.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "US Senate Inquiry Day 1, Cottam (parts 1–2)."
+  },
+  {
+   "date_iso": "1912-04-26",
+   "date_display": "Friday 26 April 1912",
+   "precision": "day",
+   "eye": "evans",
+   "place": "Senate hearing, Washington",
+   "headline": "Evans recounts the 'shut up' exchange",
+   "digest": "Testifying alongside his captain, Evans gave his times partly in New York time and partly in ship's time, described the rebuff and his going to bed, and said he was woken about 3.30 am New York time. He did not know which of Titanic's two operators had answered him.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "US Senate Inquiry Day 8, Evans (date from the transcript's day listing)."
+  },
+  {
+   "date_iso": "1912-04-29",
+   "date_display": "Monday 29 April 1912",
+   "precision": "day",
+   "eye": "smith",
+   "place": "Senate hearing",
+   "headline": "The senators read the Carpathia messages into the record",
+   "digest": "Smith's committee took evidence from Sammis and recalled Bride, putting the 'keep your mouth shut' and 'four figures' messages on the record and asking who arranged the payment and whether news had been withheld. Bride was questioned on the time of the first CQD and could not reconcile his memory with Rostron's.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "US Senate Inquiry Day 10, Sammis and Bride."
+  },
+  {
+   "date_iso": "1912-05-02",
+   "date_display": "Thursday 2 May 1912",
+   "precision": "day",
+   "eye": "mersey",
+   "place": "London",
+   "headline": "The British inquiry opens",
+   "digest": "The Board of Trade inquiry opened under Lord Mersey in London, with assessors and counsel for the parties. Over 36 days it heard crew, officers, the Californian's people and the wireless operators, building a timeline from logs kept in several different ship's times.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Titanic Inquiry Project (Day 1 listing); Encyclopedia Titanica gives 3 May."
+  },
+  {
+   "date_iso": "1912-05-14",
+   "date_display": "Tuesday 14 May 1912 (Day 7)",
+   "precision": "day",
+   "eye": "lord",
+   "place": "British inquiry, London",
+   "headline": "Lord questioned on the rockets",
+   "digest": "Before the Wreck Commissioner, Lord described stopping at 10.21 pm, the warning to Titanic, his rest in the chart room and the report of a white rocket at 1.15. Pressed by the Commissioner, he maintained that the vessel his officers saw was not the Titanic.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "British Inquiry Day 7, Lord. Calendar date of Day 7 inferred from the inquiry's sitting days."
+  },
+  {
+   "date_iso": "1912-05-28",
+   "date_display": "Tuesday 28 May 1912",
+   "precision": "day",
+   "eye": "smith",
+   "place": "US Senate, Washington",
+   "headline": "Smith reports to the Senate",
+   "digest": "Smith presented the subcommittee's report, finding that the Californian had seen rockets and failed to respond, criticising the handling of the ice warnings, and calling for wireless on ships to be manned day and night with operators trained and licensed. The report put the difference between Titanic's time and New York time at 1 hour 33 minutes.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Encyclopedia Titanica, 'Titanic time enigma' (US report's 1 h 33 min); report date from standard accounts."
+  },
+  {
+   "date_iso": "1912-06",
+   "date_display": "late May – June 1912",
+   "precision": "month",
+   "eye": "beesley",
+   "place": "London",
+   "headline": "Beesley's book and its lessons",
+   "digest": "Writing about five weeks after the landing, Beesley set down the night and its lessons: enough boats for all, ice warnings taken seriously, and powerful wireless with more than one operator so a ship would never again lie stopped and unhearing within sight of a sinking.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Beesley (1912), preface and final chapter, Project Gutenberg."
+  },
+  {
+   "date_iso": "1912-07-23",
+   "date_display": "Tuesday 23 July 1912",
+   "precision": "day",
+   "eye": "smith",
+   "place": "Washington",
+   "headline": "Two operators and a constant watch become law",
+   "digest": "Congress amended the Wireless Ship Act so that large passenger steamers had to carry two operators and keep a constant skilled watch, from 1 October 1912 for ocean passenger ships. On 13 August the Act to Regulate Radio Communication followed, requiring licences for stations and operators and limiting amateurs to short wavelengths; it took effect on 13 December 1912.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Department of Commerce and Labor radio regulations, 20 February 1913 edition (earlyradiohistory.us)."
+  },
+  {
+   "date_iso": "1912-07-30",
+   "date_display": "Tuesday 30 July 1912",
+   "precision": "day",
+   "eye": "mersey",
+   "place": "London",
+   "headline": "The Wreck Commissioner's verdict on the Californian",
+   "digest": "Mersey's report set out the five ice messages in order and which reached the bridge. On the Californian it found that she could have pushed through the loose ice to open water without serious risk when the rockets were first seen. It also recorded the court's great admiration for Rostron.",
+   "quote": "she might have saved many if not all of the lives",
+   "confidence": "approx",
+   "source_note": "British Report, 'The Californian' and 'The rescue by the Carpathia'; report date from standard accounts."
+  },
+  {
+   "date_iso": "1914-01-20",
+   "date_display": "Tuesday 20 January 1914",
+   "precision": "day",
+   "eye": "mersey",
+   "place": "London",
+   "headline": "The safety convention is signed",
+   "digest": "The international conference on safety of life at sea, which had met in London from November 1913, produced a convention signed on 20 January 1914. Among its measures was a North Atlantic ice patrol, which the US Coast Guard took on from February; the convention's wider adoption was overtaken by the war that began that summer.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Encyclopedia Titanica, 'Titanic impact on maritime law'. Mersey's role as conference president from standard accounts."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1912-04-14",
+   "date_display": "14 April, 09:00 Titanic time",
+   "eye": "phillips",
+   "claim": "Caronia → Titanic (Captain Smith): westbound steamers report bergs, growlers and field ice in 42°N, 49°–51°W (sightings of 12 April). Acknowledged by Smith.",
+   "form": "wireless",
+   "evidence": "British Report, 'Messages received'",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1912-04-14",
+   "date_display": "14 April, 13:42 Titanic time",
+   "eye": "phillips",
+   "claim": "Baltic → Titanic: Greek steamer Athenai passed icebergs and large quantities of field ice at 41°51'N, 49°52'W. Smith gave it to Ismay, who kept it until 19:15.",
+   "form": "wireless",
+   "evidence": "British Report, 'Messages received'",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1912-04-14",
+   "date_display": "14 April, about 13:45 Titanic time",
+   "eye": "phillips",
+   "claim": "Amerika → US Hydrographic Office, Washington, via Titanic: two large icebergs at 41°27'N, 50°8'W. Held for relay to Cape Race; never reached an officer.",
+   "form": "wireless",
+   "evidence": "British Report, 'Messages received'",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1912-04-14",
+   "date_display": "14 April, 18:30 Californian apparent time; received by Titanic about 19:30",
+   "eye": "evans",
+   "claim": "Californian → Antillian, overheard by Titanic: three large bergs five miles to the south at 42°3'N, 49°9'W. Bride took it to the bridge.",
+   "form": "wireless",
+   "evidence": "British Report; Senate Day 8, Evans",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1912-04-14",
+   "date_display": "14 April, 21:40 Titanic time",
+   "eye": "phillips",
+   "claim": "Mesaba → Titanic and all eastbound ships: heavy pack ice and many large bergs in 42°–41°25'N, 49°–50°30'W. Not delivered to the bridge.",
+   "form": "wireless",
+   "evidence": "British Report, 'Messages received'",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1912-04-14",
+   "date_display": "14 April, about 23:00 Californian time (21:05 New York by Evans)",
+   "eye": "evans",
+   "claim": "Californian → Titanic: we are stopped and surrounded by ice. Titanic → Californian: 'Shut up, shut up, I am busy; I am working Cape Race' (Evans's wording; British report: 'Keep out'). Evans off watch about 23:30.",
+   "form": "wireless",
+   "evidence": "Senate Day 8, Evans; British Report, 'The Californian'",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "14 April, 22:25 New York time (about 00:15, 15 April, Titanic time)",
+   "eye": "durrant",
+   "claim": "Titanic → all stations: CQD, struck iceberg, position 41°46'N, 50°14'W. Logged at Mount Temple and Cape Race at 22:25 NY time.",
+   "form": "wireless",
+   "evidence": "Mount Temple log; Cape Race replicated log",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "14 April, 22:35 New York time (00:35 Carpathia time)",
+   "eye": "cottam",
+   "claim": "Carpathia → Titanic: does Titanic know Cape Cod has messages for her? Titanic → Carpathia: 'Come at once. It is a distress message; C. Q. D.' Carpathia's position sent back; Rostron turns the ship.",
+   "form": "wireless",
+   "evidence": "Senate Day 1, Cottam; Mount Temple log (10.35); Halpern",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "14 April, 22:48–23:47 New York time",
+   "eye": "durrant",
+   "claim": "Frankfurt answers (22:48); Titanic → Olympic: get boats ready (23:20), women put off in boats (23:35), engine room flooded (23:41), sea calm (23:43); last signal heard at Mount Temple 23:47. SOS among calls from 22:55.",
+   "form": "wireless",
+   "evidence": "Mount Temple log, US Senate record",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "15 April, about 00:27 New York time",
+   "eye": "gray",
+   "claim": "Titanic's last signals heard (by the Virginian, relayed via Cape Race) as blurred and ending abruptly. Stations disagree on the last moment; Mount Temple heard nothing after 23:47 NY.",
+   "form": "wireless",
+   "evidence": "Cape Race replicated log (Global News); Farrell testimony",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "15 April, 01:15 Californian time",
+   "eye": "lord",
+   "claim": "Second officer → Lord, by speaking tube: the nearby steamer has fired a white rocket. No order to wake the wireless operator. About eight rockets seen from the Californian.",
+   "form": "other",
+   "evidence": "British Inquiry Day 7, Lord; British Report",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "15 April, about 05:30 Californian time (03:30 New York)",
+   "eye": "evans",
+   "claim": "Frankfurt → Californian (informal), then Virginian (official): Titanic has struck an iceberg and sunk; position given.",
+   "form": "wireless",
+   "evidence": "Senate Day 8, Evans; Mount Temple log",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "15 April, all day, New York time",
+   "eye": "franklin",
+   "claim": "Unofficial reports via Halifax, Montreal, Boston and Sandy Hook: passengers taken off, ship afloat, in tow, 'all safe'. Senate later found a White Star telegram saying all were saved sent at 19:51, after the truth was known. No single origin established.",
+   "form": "report",
+   "evidence": "Farrell testimony (ticker); Senate Day 3, Franklin",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1912-04-15",
+   "date_display": "15 April, received 18:16 New York time",
+   "eye": "franklin",
+   "claim": "Olympic (Captain Haddock) → White Star, New York: Carpathia reached Titanic's position at daybreak, found boats and wreckage only; Titanic foundered about 02:20; about 675 saved.",
+   "form": "wireless",
+   "evidence": "Senate Day 3, Franklin",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1912-04-18",
+   "date_display": "18 April, 20:12 and 20:30 New York time",
+   "eye": "marconi",
+   "claim": "Seagate station → Carpathia's operators: Marconi Co. taking good care of you; 'Keep your mouth shut and hold your story'; exclusive story arranged 'for dollars in four figures', Mr Marconi agreeing. Sammis testified the Times paid for the operators' stories.",
+   "form": "wireless",
+   "evidence": "Senate Day 10, Sammis",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1926-08-07",
+   "date_display": "7 August 1926 (claim about April 1912)",
+   "eye": "marconi",
+   "claim": "LEGEND, not fact: David Sarnoff, manager of American Marconi's Wanamaker station, claimed in a 1926 magazine article that he was first to hear of the sinking, stayed 72 hours at the key and was the nation's sole source while Taft silenced other stations. 1912 reports show a busy station with several operators under a newspaper agreement, and no such order.",
+   "form": "report",
+   "evidence": "earlyradiohistory.us, 'Sarnoff and the Titanic' (Saturday Evening Post, 7 August 1926; Dreher 1976; Bilby 1986)",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1912-04-14",
+   "label": "Six ice warnings in one day",
+   "eyes": [
+    "phillips",
+    "evans",
+    "bride",
+    "lord",
+    "mersey"
+   ],
+   "note": "Each message was accurate and the ice they described lay across Titanic's track; what failed was the path from wireless room to bridge. The British report later laid them out in order, and its account of which ones arrived reads very differently from the routine day the operators experienced."
+  },
+  {
+   "date": "1912-04-14",
+   "label": "Near 23:00: the Californian's warning and the rebuff",
+   "eyes": [
+    "evans",
+    "lord",
+    "phillips",
+    "gray"
+   ],
+   "note": "Lord ordered the warning, Evans sent it, Phillips was busy with Cape Race's passenger traffic, and half an hour later the nearest radio was switched off for the night. The same exchange is 'keep out' in the British report and 'shut up' in Evans's Senate words."
+  },
+  {
+   "date": "1912-04-15",
+   "label": "The CQD, logged at four stations",
+   "eyes": [
+    "phillips",
+    "durrant",
+    "gray",
+    "cottam",
+    "rostron",
+    "bride"
+   ],
+   "note": "Mount Temple and Cape Race logged 10.25 pm New York time; Carpathia logged 12.35 am its own time; Bride remembered ten minutes after impact. Laid side by side, the clocks show how hard it was even for the inquiries to agree on when the call went out."
+  },
+  {
+   "date": "1912-04-15",
+   "label": "02:20: the sinking, seen and unseen",
+   "eyes": [
+    "beesley",
+    "bride",
+    "lord",
+    "durrant"
+   ],
+   "note": "Beesley watched from a boat and Bride was in the water, while on the Californian a ship's lights were reported to disappear, and on the Mount Temple the log recorded only silence."
+  },
+  {
+   "date": "1912-04-15",
+   "label": "Dawn: rescue and the news at sea",
+   "eyes": [
+    "rostron",
+    "beesley",
+    "evans",
+    "durrant"
+   ],
+   "note": "Rostron took up the boats from 4.10; Evans, woken at 5.30, learned from the Frankfurt what his ship had missed; Durrant logged jamming as every ship called at once."
+  },
+  {
+   "date": "1912-04-15",
+   "label": "New York's Monday: hope, then the Olympic message",
+   "eyes": [
+    "franklin",
+    "vananda",
+    "gray"
+   ],
+   "note": "The owners passed on hopeful fragments all day while the Times read the ship's silence as the worst news; the truth reached Franklin from the Olympic at 6.16 pm, more than fifteen hours after the sinking."
+  },
+  {
+   "date": "1912-04-18",
+   "label": "Carpathia docks and the stories are sold",
+   "eyes": [
+    "rostron",
+    "beesley",
+    "marconi",
+    "bride",
+    "cottam",
+    "vananda"
+   ],
+   "note": "Rostron's blackout ended at the pier; Marconi took a Times reporter aboard to Bride; the operators' accounts, paid for under an arrangement Marconi agreed to, became the first full inside story."
+  },
+  {
+   "date": "1912-04-19",
+   "label": "The Senate inquiry opens",
+   "eyes": [
+    "smith",
+    "rostron",
+    "cottam",
+    "marconi",
+    "bride"
+   ],
+   "note": "The day after the docking, the men who had sent and received the messages were asked under oath for the times, and the paid stories were already on the newsstands."
+  }
+ ],
+ "ties": [
+  {
+   "a": "phillips",
+   "b": "bride",
+   "kind": "met",
+   "note": "Fellow Marconi operators sharing Titanic's wireless room in shifts; Bride is the main witness to Phillips's last hours."
+  },
+  {
+   "a": "evans",
+   "b": "phillips",
+   "kind": "mentioned",
+   "note": "Evans's 'stopped and surrounded by ice' message was cut off by Titanic's operator; Evans had met Phillips in London but did not know which operator answered."
+  },
+  {
+   "a": "evans",
+   "b": "lord",
+   "kind": "met",
+   "note": "Lord ordered the warning Evans sent; neither woke the other when rockets were seen."
+  },
+  {
+   "a": "cottam",
+   "b": "phillips",
+   "kind": "mentioned",
+   "note": "Cottam's courtesy call brought the reply 'Come at once'; their exchange is the hinge of the rescue."
+  },
+  {
+   "a": "cottam",
+   "b": "rostron",
+   "kind": "met",
+   "note": "Cottam carried the message to Rostron's cabin within minutes; Rostron's position went back to Titanic on a slip of paper."
+  },
+  {
+   "a": "cottam",
+   "b": "bride",
+   "kind": "met",
+   "note": "On the Carpathia the injured Bride helped Cottam clear the survivors' traffic; both sold their stories to the New York Times on arrival."
+  },
+  {
+   "a": "durrant",
+   "b": "phillips",
+   "kind": "mentioned",
+   "note": "Durrant's log is the fullest surviving record of Phillips's last hour of transmissions."
+  },
+  {
+   "a": "gray",
+   "b": "phillips",
+   "kind": "mentioned",
+   "note": "Phillips was sending passenger telegrams to Cape Race when the Californian interrupted; the station later logged his distress calls."
+  },
+  {
+   "a": "marconi",
+   "b": "bride",
+   "kind": "met",
+   "note": "Marconi went aboard the Carpathia on 18 April and found Bride in the wireless cabin, with a Times reporter."
+  },
+  {
+   "a": "marconi",
+   "b": "vananda",
+   "kind": "influenced",
+   "note": "The Times's exclusive operators' stories depended on Marconi's consent and his help in getting its reporter aboard."
+  },
+  {
+   "a": "smith",
+   "b": "marconi",
+   "kind": "opposite sides",
+   "note": "Smith questioned Marconi and his engineer Sammis about the payments and the 'keep your mouth shut' messages."
+  },
+  {
+   "a": "mersey",
+   "b": "lord",
+   "kind": "opposite sides",
+   "note": "Mersey's report found the Californian might have saved many if not all of the lives lost; Lord contested it for the rest of his life."
+  },
+  {
+   "a": "beesley",
+   "b": "rostron",
+   "kind": "met",
+   "note": "Beesley was among the 712 people Carpathia took aboard; his book praises the ship's care of survivors."
+  },
+  {
+   "a": "franklin",
+   "b": "vananda",
+   "kind": "opposite sides",
+   "note": "On 15 April the owners' statements were hopeful while the Times reasoned from the silence that the ship was lost."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "wireless-1901",
+   "note": "Phillips, Bride, Cottam, Evans and Durrant were all Marconi employees, trained in the system first demonstrated across the Atlantic in 1901; CQD was the company's own distress call."
+  },
+  {
+   "to": "morse-1844",
+   "note": "Every message of the night was sent in Morse code; SOS was chosen internationally because three dots, three dashes, three dots is unmistakable."
+  },
+  {
+   "to": "cables-1858",
+   "note": "The news reached New York and London from Cape Race by landline and transatlantic cable; wireless at sea fed a cable network on land."
+  },
+  {
+   "to": "telephone-1876",
+   "note": "The Times put telephone lines into a hotel near Pier 54 so that the survivors' and operators' stories could reach the newsroom before deadline."
+  },
+  {
+   "to": "v1:ww1",
+   "note": "The 1914 safety convention's adoption was overtaken by the First World War; the Carpathia herself was sunk by a German submarine in July 1918."
+  }
+ ],
+ "images": [],
+ "further": [
+  {
+   "title": "Titanic Inquiry Project: British Report, the ice messages",
+   "url": "https://www.titanicinquiry.org/BOTInq/BOTReport/botRepMessages.php"
+  },
+  {
+   "title": "Titanic Inquiry Project: US Senate testimony of Cyril Evans",
+   "url": "https://www.titanicinquiry.org/USInq2/AmInq08EvansCF01.php"
+  },
+  {
+   "title": "Beesley, The Loss of the S.S. Titanic (1912), Project Gutenberg",
+   "url": "https://gutenberg.org/files/6675/6675-h/6675-h.htm"
+  },
+  {
+   "title": "Samuel Halpern, 'The 12:35 ATS Carpathia' (time analysis)",
+   "url": "https://glts.org/articles/halpern/1235_ats_carpathia.html"
+  },
+  {
+   "title": "Encyclopedia Titanica, 'Titanic time enigma'",
+   "url": "https://encyclopedia-titanica.org/titanic-time-enigma.html"
+  },
+  {
+   "title": "Early Radio History: Sarnoff and the Titanic legend",
+   "url": "https://earlyradiohistory.us/amwana.htm"
+  },
+  {
+   "title": "Early Radio History: 1913 US radio regulations (1912 Acts)",
+   "url": "https://earlyradiohistory.us/1913areg.htm"
+  }
+ ],
+ "vantage_key": "0 = Titanic's own operators; 1 = on ships at or near the scene; 2 = the relay station on shore; 3 = New York, Washington and London, receiving and judging the news; 4 = not used."
+}

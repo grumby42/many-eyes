@@ -1,0 +1,1277 @@
+{
+ "id": "long-threads",
+ "title": "The Long Threads",
+ "subtitle": "Epidemics and the ordinary diarist, from Baghdad to lockdown, 1068–2020s",
+ "span": "1068–2020s",
+ "intro": [
+  "Every other chapter in this book holds one event still and walks around it. This one moves through time instead. It follows a single recurring human experience, the epidemic arriving in an ordinary person's city, through the private notebooks of people who were not doctors or rulers but just kept writing while the death-carts went by.",
+  "The thread starts earlier than most readers expect. In 1068–69 a Baghdad scholar, Abu 'Ali ibn al-Banna', kept a hurried autograph diary of births, deaths, quarrels, prices and rumours, and part of it survives. It shows that the daily private record is old and global, not a European invention. It also shows that a diarist's first instinct is the same in every century: write down the news, write down who died, write down what frightened you.",
+  "Six centuries later Samuel Pepys watches red crosses appear on London doors and buys tobacco to chew against the infection. Two centuries after him, in New York in 1832, the ex-mayor Philip Hone watches cholera creep south from Quebec and calls his own city filthier than the places already struck. A merchant, George W. Strong, writes that he will take his family out of town. His son George Templeton Strong, by 1849 a young lawyer with a diary of his own, predicts the new wave will not be as bad as '32. In the west of Ireland Charlotte Stoker lives through Sligo's cholera summer and later writes it down for her son, Bram. In Soho in 1854 the physician John Snow dates, in a published letter, the evening he took his case against the Broad Street pump to the parish guardians.",
+  "In the autumn of 1918 the thread runs through many hands at once. A Massachusetts mother's diary turns overnight into a list of the sick. A Vermont man records his own fever, then counts the town's dead ward by ward. A young Native American volunteer nurse writes from an army camp ward near Washington, and an Australian medical sergeant sketches Table Bay and notes how Cape Town collected its dead by lorry. In Vienna, Egon Schiele draws his dying wife and dies himself three days later.",
+  "Then the thread changes its nature. Diarists stop being only private individuals and become contributors to institutions built to receive them. Mass Observation (Britain, 1937) asked ordinary people to write down a single day, 12 May, and in 2020 it asked them again, in lockdown. Archives in Pieve Santo Stefano, Emmendingen, London and an online project in Russia began collecting the notebooks that families used to burn. When COVID-19 arrived, archivists opened collecting projects within weeks, in some cases taking their name from the plague-year literature this chapter begins with.",
+  "Read the eyes in this chapter as a relay rather than a crowd. Each one writes from inside a city waiting for news, counting the weekly dead, deciding whether to flee, and getting something wrong. The institutions at the end are the reason the next diarist's notebook may survive."
+ ],
+ "calendar_note": "Pepys wrote in the Julian (Old Style) calendar, ten days behind the Gregorian. His entries show the Old Style date in date_display, and date_iso is converted to New Style (so 7 June 1665 O.S. sorts as 1665-06-17). Ibn al-Banna dated by the Islamic lunar (Hijri) calendar. For those entries date_iso uses the proleptic Julian date historians usually cite, and the Hijri month appears in date_display. Nineteenth-century and later entries are Gregorian.",
+ "eyes": [
+  {
+   "id": "ibn-al-banna",
+   "name": "Abu 'Ali al-Hasan ibn Ahmad ibn al-Banna'",
+   "life": "c. 1005–1079",
+   "role": "Hanbali scholar, teacher and historian in Baghdad, in his early sixties when the surviving diary was written",
+   "side": "Abbasid Baghdad, Hanbali Sunni community",
+   "where": "Baghdad",
+   "vantage": 3,
+   "vantage_label": "the earliest surviving diarist, recording news of distant disasters",
+   "form": "diary",
+   "language": "Arabic",
+   "authenticity": "A fragment of the original autograph survives, covering 3 August 1068 to 4 September 1069 and written in a hasty note-taking hand. It was later endowed to the Diya'iya madrasa library in Damascus. George Makdisi edited and translated it in BSOAS, 1956–57. Some disaster reports attributed to him, such as the 1068 Levant earthquake, may reach us through his formal chronicle as quoted by later historians and not through the diary fragment itself.",
+   "bio": "A prolific Baghdad scholar whose private daybook of births, deaths, quarrels, dreams and community scandal (above all the case of Ibn 'Aqil) is often called the earliest surviving diary in the modern sense. He is here to show that the form, and the diarist's habit of tallying the dead, is a millennium old and not European in origin.",
+   "sources": [
+    {
+     "title": "Abu Ali ibn al-Banna (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Abu_Ali_ibn_al-Banna"
+    },
+    {
+     "title": "Dead Sea earthquake catalogue: Ibn al-Banna biography",
+     "url": "https://deadseaquake.info/EarthquakeCatalogOfTheDeadSea/AuthorBios/al-Banna.html"
+    },
+    {
+     "title": "Dead Sea earthquake catalogue: 1068 earthquake text from Ibn al-Banna",
+     "url": "https://deadseaquake.info/EarthquakeCatalogOfTheDeadSea/1068CEQuakes_alBanna.html"
+    },
+    {
+     "title": "TDV Islam Ansiklopedisi: Ibnu'l-Benna el-Bagdadi",
+     "url": "https://islamansiklopedisi.org.tr/ibnul-benna-el-bagdadi"
+    }
+   ]
+  },
+  {
+   "id": "pepys",
+   "name": "Samuel Pepys",
+   "life": "1633–1703",
+   "role": "Clerk of the Acts to the Navy Board, aged 32",
+   "side": "Restoration England",
+   "where": "London, Greenwich and Woolwich",
+   "vantage": 1,
+   "vantage_label": "inside the plague city, then just outside it",
+   "form": "diary",
+   "language": "English (shorthand)",
+   "authenticity": "The original shorthand volumes are at the Pepys Library, Magdalene College, Cambridge. The standard edition is Latham & Matthews (1970–83). See the london-1666 chapter for detail.",
+   "bio": "Pepys gives the plague year from the desk of a busy, ambitious official who kept working, socialising and even dancing while the weekly death bills climbed. His record mixes fear, practicality and vanity (a new periwig bought in the middle of the plague), and that mixture is what makes him the template for every later epidemic diarist.",
+   "sources": [
+    {
+     "title": "The Diary of Samuel Pepys online: 7 June 1665",
+     "url": "https://pepysdiary.com/diary/1665/06/07"
+    },
+    {
+     "title": "Lapham's Quarterly: Pepys plague excerpt, 1665",
+     "url": "https://www.laphamsquarterly.org/node/10820"
+    }
+   ]
+  },
+  {
+   "id": "hone",
+   "name": "Philip Hone",
+   "life": "1780–1851",
+   "role": "Retired auctioneer, former Mayor of New York (1826–27), Whig grandee, aged 51",
+   "side": "United States, New York mercantile elite",
+   "where": "Lower Manhattan",
+   "vantage": 2,
+   "vantage_label": "in the threatened city, watching from a comfortable house",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Manuscript diary, 1828–1851, at the New-York Historical Society. Edited selections were published by Bayard Tuckerman (2 vols, 1889) and Allan Nevins (1927).",
+   "bio": "Hone was a sociable, snobbish, sharply observant former mayor whose diary is one of the great records of antebellum New York. In 1832 he watched cholera move down from Canada, judged his own city unready, and recorded the empty Fourth of July. He also wrote the class and anti-immigrant prejudices of his set into his reading of the disease.",
+   "sources": [
+    {
+     "title": "The diary of Philip Hone, 1828–1851, vol. 1 (Internet Archive, Tuckerman ed. 1889)",
+     "url": "https://archive.org/details/diaryofphiliphon01honeuoft/page/n11/mode/2up"
+    },
+    {
+     "title": "The diary of Philip Hone, 1828–1851, vol. 2 (Internet Archive)",
+     "url": "https://archive.org/details/diaryofphiliphon02honeuoft"
+    },
+    {
+     "title": "Merchant's House Museum: cholera 1832",
+     "url": "https://merchantshouse.org/blog/cholera1832/"
+    },
+    {
+     "title": "New York Diaries: Hone, Philip",
+     "url": "https://newyorkdiaries.com/?p=234"
+    }
+   ]
+  },
+  {
+   "id": "gw-strong",
+   "name": "George Washington Strong",
+   "life": "1783–1855",
+   "role": "New York lawyer and merchant, father of the diarist George Templeton Strong",
+   "side": "United States, New York",
+   "where": "New York City",
+   "vantage": 2,
+   "vantage_label": "head of household planning to flee",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "His autograph letter of 22 June 1832 to John Nelson Lloyd is in the John Lloyd papers (MS 1731.1) at the New-York Historical Society and has been digitised.",
+   "bio": "He appears here through one dated letter. A week after Hone's warning, he tells a Long Island friend that cholera is certain to reach the city, that opinion about it is wildly divided, and that he will take the family to Wilton, Connecticut if necessary. His son was twelve at the time and would write the 1849 epidemic into his own diary.",
+   "sources": [
+    {
+     "title": "N-YHS Digital Collections: George W. Strong letter to John Nelson Lloyd, 22 June 1832",
+     "url": "https://digitalcollections2.nyhistory.org/items/346068-george-w-strong-letter-john-nelson-lloyd-june-22-1832"
+    }
+   ]
+  },
+  {
+   "id": "gt-strong",
+   "name": "George Templeton Strong",
+   "life": "1820–1875",
+   "role": "Wall Street lawyer, aged 29 in 1849; later treasurer of the US Sanitary Commission",
+   "side": "United States, New York",
+   "where": "New York City",
+   "vantage": 2,
+   "vantage_label": "young professional in the epidemic city",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "The manuscript diary (1835–1875, about four million words) is at the New-York Historical Society and digitised there. Nevins & Thomas published selections in four volumes (1952). Because that edition is post-1929, this chapter paraphrases it and does not quote.",
+   "bio": "Strong kept the most voluminous diary of nineteenth-century New York. He remembered the 1832 cholera as a boy, and in June 1849 he confidently predicted the returning disease would not grip the city as badly. In the Civil War he became a leading sanitary reformer, which carries this thread straight into the us-civil-war chapter.",
+   "sources": [
+    {
+     "title": "George Templeton Strong (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/George_Templeton_Strong"
+    },
+    {
+     "title": "JSTOR Daily: Inside a four-million-word diary of 1860s New York",
+     "url": "https://daily.jstor.org/inside-a-four-million-word-diary-of-1860s-new-york/"
+    },
+    {
+     "title": "400 Stories: The City That Couldn't Drink Its Own Water",
+     "url": "https://400stories.substack.com/p/the-city-that-couldnt-drink-its-own"
+    },
+    {
+     "title": "Hone and Strong Diaries of Old Manhattan (ed. Louis Auchincloss)",
+     "url": "https://publishersweekly.com/9780896599048"
+    }
+   ]
+  },
+  {
+   "id": "stoker",
+   "name": "Charlotte Matilda Blake Thornley Stoker",
+   "life": "1818–1901",
+   "role": "Teenager in Sligo in 1832; later the mother of Bram Stoker",
+   "side": "Ireland (United Kingdom)",
+   "where": "Old Market Street, Sligo, then Ballyshannon",
+   "vantage": 1,
+   "vantage_label": "family fleeing through the cordon",
+   "form": "memoir (written later)",
+   "language": "English",
+   "authenticity": "Written recollection, 'Experiences of the Cholera in Ireland', composed decades later for her son Bram. Trinity College Dublin MS 11076/2/3. This is not a contemporaneous diary, and its dating is uncertain.",
+   "bio": "Her account of Sligo's cholera summer (corpses at the Fever Hospital, panic, the family slipping past the cordon to Ballyshannon) is the provincial, female, fleeing counterpart to the city men of New York in the same summer. It is often said to have fed the plague imagery of Dracula.",
+   "sources": [
+    {
+     "title": "1832 Sligo cholera outbreak (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/1832_Sligo_cholera_outbreak"
+    }
+   ]
+  },
+  {
+   "id": "snow",
+   "name": "John Snow",
+   "life": "1813–1858",
+   "role": "London anaesthetist and physician, aged 41, already arguing that cholera is waterborne",
+   "side": "Victorian Britain",
+   "where": "Sackville Street, a few streets from Broad Street, Soho",
+   "vantage": 1,
+   "vantage_label": "investigator walking the outbreak streets",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "His letter to the editor of the Medical Times and Gazette, published 23 September 1854, dates his own steps: he examined the pump water on the evening of 3 September, met the Board of Guardians of St James's parish on the evening of 7 September, and the handle was removed the next day. The fuller account is in the second edition of On the Mode of Communication of Cholera (1855), free on Project Gutenberg. He kept no diary of the outbreak.",
+   "bio": "Snow is not a diarist, but his dated letter is the closest thing to an 1854 cholera diary. He is the counterpart to Hone and Strong: where they blamed filth and the poor, he went door to door with a death list and a map and pointed at one pump.",
+   "sources": [
+    {
+     "title": "John Snow Archive (MSU): Snow and the pump handle",
+     "url": "https://johnsnow.matrix.msu.edu/broadstpump/snow-the-pump-handle/"
+    },
+    {
+     "title": "Project Gutenberg: On the Mode of Communication of Cholera (1855)",
+     "url": "https://gutenberg.org/cache/epub/72894/pg72894-images.html"
+    }
+   ]
+  },
+  {
+   "id": "mahoney",
+   "name": "Edith Coffin (Colby) Mahoney",
+   "life": "dates not confirmed",
+   "role": "Massachusetts householder, mother of an adult son, Rob",
+   "side": "United States, New England",
+   "where": "Salem, Massachusetts (per Smithsonian)",
+   "vantage": 1,
+   "vantage_label": "a household inside the first American wave",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Manuscript diary at the Massachusetts Historical Society. Entries for 22–29 September 1918 are summarised and quoted in the Society's 'Beehive' blog (2018) and in Smithsonian Magazine (2020). The two accounts differ slightly on whether a relative named Eugene died on 26 or 28 September, so this chapter follows the Society's own reading.",
+   "bio": "Her diary shifts in a single week from ordinary errands to a ledger of illness and funerals, the pattern repeated in thousands of 1918 diaries. Boston and its suburbs were struck early, in September, which puts her a month ahead of most of the eyes here.",
+   "sources": [
+    {
+     "title": "Massachusetts Historical Society: 100 Years after the Influenza Pandemic (2018)",
+     "url": "https://masshist.org/beehiveblog/2018/08/100-years-after-the-influenza-pandemic"
+    },
+    {
+     "title": "Smithsonian Magazine: What we can learn from 1918 influenza diaries",
+     "url": "https://www.smithsonianmag.com/history/what-we-can-learn-1918-influenza-diaries-180974614/"
+    }
+   ]
+  },
+  {
+   "id": "kent",
+   "name": "Dorman B. E. Kent",
+   "life": "1875–1951",
+   "role": "Montpelier resident and local historian, aged 43, stricken himself along with his two sons",
+   "side": "United States, Vermont",
+   "where": "Montpelier, Vermont",
+   "vantage": 0,
+   "vantage_label": "patient and town census-taker",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Manuscript 1918 diary at the Vermont Historical Society; page scans and a transcript are published on Digital Vermont. Entries for 24 September and 2–3 October 1918 are quoted in Smithsonian Magazine (2020).",
+   "bio": "Kent writes first as a fevered patient whose doctor cannot come, then as a citizen counting the sick ward by ward. His diary moves from the body to the town within ten days.",
+   "sources": [
+    {
+     "title": "Digital Vermont: 1918 diary of Dorman B. E. Kent (Vermont Historical Society)",
+     "url": "https://www.digitalvermont.org/1918/Doc235-1918"
+    },
+    {
+     "title": "Vermont Historical Society: The Flu Epidemic, 1918",
+     "url": "https://vermonthistory.org/flu-epidemic-1918"
+    },
+    {
+     "title": "Smithsonian Magazine: What we can learn from 1918 influenza diaries",
+     "url": "https://www.smithsonianmag.com/history/what-we-can-learn-1918-influenza-diaries-180974614/"
+    }
+   ]
+  },
+  {
+   "id": "van-wert",
+   "name": "Lutiant Van Wert (later LaVoye)",
+   "life": "dates not confirmed",
+   "role": "Young Native American woman, former Haskell Institute student, clerk at the Interior Department and volunteer nurse",
+   "side": "United States (Native American)",
+   "where": "Washington, D.C., and Camp Humphreys, Virginia",
+   "vantage": 0,
+   "vantage_label": "volunteer nurse on the ward",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Autograph letter to 'Louise' dated 17 October 1918, in the Records of the Bureau of Indian Affairs (RG 75), National Archives at Kansas City, National Archives Identifier 2641556. It is widely reproduced in teaching collections.",
+   "bio": "She writes to a schoolfriend still at the Haskell Institute in Kansas with the bluntness of someone just off a twelve-hour shift. Her view from the camp ward, as a Native American woman in wartime government service, is one almost no other 1918 source gives.",
+   "sources": [
+    {
+     "title": "American Yawp Reader: Lutiant Van Wert describes the 1918 flu pandemic",
+     "url": "https://www.americanyawp.com/reader/21-world-war-i/lutiant-van-wert-describes-the-1918-flu-pandemic-1918/"
+    },
+    {
+     "title": "National Archives: volunteer nurse letter (PDF)",
+     "url": "https://www.archives.gov/exhibits/influenza-epidemic/records/volunteer-nurse-letter.pdf"
+    },
+    {
+     "title": "National WWI Museum and Memorial: Letter, Lutiant Van Wert to Louise",
+     "url": "https://theworldwar.org/learn/educator-resource/letter-lutiant-van-wert-louise"
+    }
+   ]
+  },
+  {
+   "id": "rainsford",
+   "name": "Walter Bruce Rainsford",
+   "life": "b. c.1896",
+   "role": "Sergeant, Australian Army Medical Corps (14th Field Ambulance), a Wahroonga clerk who enlisted at 18 in 1914, heading home in late 1918",
+   "side": "Australia (AIF)",
+   "where": "Cape Town, on the voyage home",
+   "vantage": 2,
+   "vantage_label": "soldier passing through a stricken port",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Five pocket diaries 1914–1918, State Library of New South Wales (MLMSS 1006), transcribed by volunteers. The Cape Town passage is on page 142 of the 1918 diary, which carries no date heading. The catalogue gives his return to Australia as 23 October 1918, which does not fit a diary passage looking back on Cape Town's 9–20 October peak, so the entry is dated only roughly here.",
+   "bio": "A medical-corps sergeant who sketched Table Bay in his diary and wrote down what Cape Town people told him: the bodies collected by lorry and cart, and Black Africans dying in far greater numbers. He is the chapter's only view of the southern hemisphere's worst-hit city.",
+   "sources": [
+    {
+     "title": "State Library of NSW transcripts: Rainsford diary 1918, page 142",
+     "url": "https://transcripts.sl.nsw.gov.au/page/item-05-walter-bruce-rainsford-diary-1-january-31-december-1918-page-142"
+    },
+    {
+     "title": "State Library of NSW catalogue: Walter Bruce Rainsford diaries, 1914–1918",
+     "url": "https://archival.sl.nsw.gov.au/Details/archive/110319556"
+    }
+   ]
+  },
+  {
+   "id": "schiele",
+   "name": "Egon Schiele",
+   "life": "1890–1918",
+   "role": "Austrian painter, aged 28, recently a soldier in the k.u.k. army",
+   "side": "Austria-Hungary",
+   "where": "Hietzing, Vienna (he died at his parents-in-law's flat)",
+   "vantage": 0,
+   "vantage_label": "victim, nursing a dying wife",
+   "form": "dated letters and dated drawings",
+   "language": "German",
+   "authenticity": "Verified: Edith Schiele died of Spanish influenza on 28 October 1918, six months pregnant, and Egon died on 31 October 1918 (Wikipedia, Wellcome Collection, Austria-Forum). His crayon drawing 'Edith Schiele, Dying' (Leopold Museum, inv. 2382) is inscribed as drawn on the evening of 27 October and dated 28 October 1918. A letter to his mother during Edith's illness, saying she would probably not survive, is reported in the Modernist Journals Project biography, but its exact date was not confirmed.",
+   "bio": "In the last week of October 1918 the influenza pandemic killed Schiele's pregnant wife Edith and then Schiele himself, three days later. His last drawing of Edith and a deathbed photograph of him are among the most famous personal documents of the 1918 pandemic, and the American, Australian and South African diarists in this chapter wrote in the same few weeks.",
+   "sources": [
+    {
+     "title": "Leopold Museum: Egon Schiele, Edith Schiele, Dying (1918)",
+     "url": "https://onlinecollection.leopoldmuseum.org/en/object/2523-edith-schiele-dying"
+    },
+    {
+     "title": "Wellcome Collection article on Schiele and the 1918 influenza",
+     "url": "https://wellcomecollection.org/articles/XabLWhAAACEAnUH2"
+    },
+    {
+     "title": "The Family (Schiele) (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/The_Family_(Schiele)"
+    },
+    {
+     "title": "Modernist Journals Project: Schiele, Egon (1890–1918)",
+     "url": "https://modjourn.org/biography/schiele-egon-1890-1918/"
+    },
+    {
+     "title": "Austria-Forum: Schiele, Egon",
+     "url": "https://austria-forum.org/af/AEIOU/Schiele%2C_Egon"
+    }
+   ]
+  },
+  {
+   "id": "mass-obs",
+   "name": "Mass Observation",
+   "life": "1937–present",
+   "role": "Social-research organisation founded by Tom Harrisson, Charles Madge and Humphrey Jennings; since 1981 the Mass Observation Project, run from the University of Sussex",
+   "side": "United Kingdom",
+   "where": "London and Bolton (1937); now The Keep, Brighton",
+   "vantage": 4,
+   "vantage_label": "the institution that asks strangers to keep diaries",
+   "form": "archive",
+   "language": "English",
+   "authenticity": "Original 1937–1950s papers and the post-1981 Mass Observation Project are held by the Mass Observation Archive (University of Sussex, at The Keep, Brighton). Verified: the 30 January 1937 New Statesman appeal (English Heritage blue plaque page), the 12 May 1937 day-surveys published as 'May the Twelfth' from more than 200 observers, and the 1981 relaunch at Sussex (Wikipedia). The 12 May 2020 call drew over 5,000 diaries (University of Sussex Library blog).",
+   "bio": "Mass Observation invented the idea of asking hundreds of ordinary people to write down one ordinary day. It began with the coronation of George VI on 12 May 1937, and since then it has asked every year for a day-diary on 12 May. Its wartime diarists became famous, and from March 2020 it gathered nearly 10,000 COVID-19 documents, so the thread of Pepys's plague year runs straight into a modern archive.",
+   "sources": [
+    {
+     "title": "Mass-Observation (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Mass-Observation"
+    },
+    {
+     "title": "English Heritage blue plaque: Mass-Observation, 6 Grotes Buildings, Blackheath",
+     "url": "https://www.english-heritage.org.uk/visit/blue-plaques/mass-observation/"
+    },
+    {
+     "title": "University of Sussex Library: 12th May 2020, an introduction to the diaries",
+     "url": "https://blogs.sussex.ac.uk/librarycollections/?p=385"
+    },
+    {
+     "title": "Mass Observation: Covid-19 Collection",
+     "url": "https://massobs.org.uk/mass-observation/covid19/"
+    }
+   ]
+  },
+  {
+   "id": "adn",
+   "name": "Archivio Diaristico Nazionale",
+   "life": "1984–present",
+   "role": "Italian national diary archive founded by journalist Saverio Tutino",
+   "side": "Italy",
+   "where": "Pieve Santo Stefano, Tuscany",
+   "vantage": 4,
+   "vantage_label": "archive in a small town that adopted the nation's diaries",
+   "form": "archive",
+   "language": "Italian",
+   "authenticity": "Verified: founded in 1984 by Saverio Tutino, a former partisan turned journalist, after a September 1984 visit to Pieve Santo Stefano; the mayor approved it within weeks (Atlas Obscura). It holds more than 8,000 diaries, with about 200 arriving a year, and awards the annual Premio Pieve. One German source (EHRI's entry on the Deutsches Tagebucharchiv) gives 1985, probably the first year of operation.",
+   "bio": "The town was forcibly evacuated on 5 August 1944 and levelled in the fighting, then rebuilt, and it became the home of Italy's diaries, letters and memoirs. The annual Premio Pieve draws new deposits each year. It became a model for diary archives elsewhere in Europe, including Germany's.",
+   "sources": [
+    {
+     "title": "Atlas Obscura: Welcome to Pieve Santo Stefano, Italy's 'City of Diaries'",
+     "url": "https://www.atlasobscura.com/articles/italy-tuscany-city-diaries-memories-history"
+    },
+    {
+     "title": "Inexhibit: The Little Museum of Diary (Piccolo museo del diario)",
+     "url": "https://www.inexhibit.com/mymuseum/the-little-museum-of-diary-pieve-santo-stefano-tuscany/"
+    }
+   ]
+  },
+  {
+   "id": "dta",
+   "name": "Deutsches Tagebucharchiv",
+   "life": "1998–present",
+   "role": "German diary archive founded by Frauke von Troschke",
+   "side": "Germany",
+   "where": "Emmendingen, Baden-Württemberg",
+   "vantage": 4,
+   "vantage_label": "archive collecting ordinary Germans' diaries",
+   "form": "archive",
+   "language": "German",
+   "authenticity": "Verified: founded in January 1998 by Frauke von Troschke, who knew the Pieve Santo Stefano model and had found that Germany had no institution for personal memoirs. It is housed in the old town hall on the Marktplatz in Emmendingen, about 15 km north of Freiburg (EHRI portal).",
+   "bio": "The German archive collects unpublished diaries, letters and memoirs by people who were never famous, many of them from both world wars. Volunteers read and index each deposit.",
+   "sources": [
+    {
+     "title": "EHRI portal: Deutsches Tagebucharchiv",
+     "url": "https://portal.ehri-project.eu/institutions/de-006172"
+    },
+    {
+     "title": "Deutsches Tagebucharchiv (DTA)",
+     "url": "https://tagebucharchiv.de/?p=1318"
+    },
+    {
+     "title": "evangelisch.de: Tagebucharchiv, 'In Kriegszeiten wird viel geschrieben' (2014)",
+     "url": "https://www.evangelisch.de/inhalte/108830/12-08-2014"
+    }
+   ]
+  },
+  {
+   "id": "great-diary",
+   "name": "The Great Diary Project",
+   "life": "2007–present",
+   "role": "UK diary-collecting project co-founded by Irving Finkel and Polly North; collection housed at the Bishopsgate Institute, London",
+   "side": "United Kingdom",
+   "where": "London",
+   "vantage": 4,
+   "vantage_label": "rescuing diaries from skips and house clearances",
+   "form": "archive",
+   "language": "English",
+   "authenticity": "Verified: launched in 2007 by Dr Irving Finkel and Dr Polly North, and moved to its permanent home at the Bishopsgate Institute in 2009 (Great Diary Project site).",
+   "bio": "It was founded on the premise that every diary is worth keeping, however dull its writer thought it. The project takes in notebooks that would otherwise be thrown out, which is exactly the fate that almost befell many of the diaries in this book.",
+   "sources": [
+    {
+     "title": "The Great Diary Project: Dr Polly North, Founding Director",
+     "url": "https://thegreatdiaryproject.co.uk/?p=22"
+    },
+    {
+     "title": "The Great Diary Project",
+     "url": "https://thegreatdiaryproject.co.uk"
+    },
+    {
+     "title": "Bishopsgate Institute (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Bishopsgate_Institute"
+    }
+   ]
+  },
+  {
+   "id": "prozhito",
+   "name": "Prozhito",
+   "life": "2015–present",
+   "role": "Russian online diary corpus whose creators include historian Mikhail Melnichenko; now run as the Prozhito Center at the European University at St Petersburg",
+   "side": "Russia",
+   "where": "Online / St Petersburg and Moscow",
+   "vantage": 4,
+   "vantage_label": "a searchable database that lines diaries up by date",
+   "form": "archive",
+   "language": "Russian (and others)",
+   "authenticity": "Verified: Prozhito.org went online in late April 2015 (New East Digital Archive, 27 April 2015), and EUSP marked its tenth anniversary on 24 April 2025. A specific Prozhito call for pandemic diaries in 2020 could not be confirmed. The EUSP 'Virus Diaries' project of March 2020 is a separate initiative.",
+   "bio": "Prozhito transcribes diaries and lets readers look up who was writing around a given event, such as Lenin's death or Gagarin's flight. In effect it lines up 1917, 1941 and later years diarist by diarist, which is this book's own method in digital form.",
+   "sources": [
+    {
+     "title": "New East Digital Archive: Lives lived, database of diaries in Russian now online (2015)",
+     "url": "https://www.new-east-archive.org/articles/show/4019/lives-lived-database-of-diaries-in-russian-now-available-online"
+    },
+    {
+     "title": "EUSP: Mikhail Melnichenko, 'Every document is important…' (10th anniversary, 2025)",
+     "url": "https://eusp.org/en/news/mikhail-melnichenko-every-document-is-important-but-we-cant-always-predict-for-whom"
+    },
+    {
+     "title": "EUSP: 'Virus Diaries' project reported in the New York Times (31 March 2020)",
+     "url": "https://eusp.org/en/news/professor-sociologii-evropeyskogo-universiteta-rasskazyvaet-new-york-times-ob-iniciative-pod-nazvaniem-dnevniki-virusa"
+    }
+   ]
+  },
+  {
+   "id": "asu-jpy",
+   "name": "A Journal of the Plague Year: An Archive of COVID-19",
+   "life": "2020–present",
+   "role": "Crowd-sourced digital archive built by Arizona State University public historians (Mark Tebeau, prompted by Catherine O'Donnell) with partners at Northeastern and George Mason universities",
+   "side": "International (US-led)",
+   "where": "Online",
+   "vantage": 4,
+   "vantage_label": "collecting the present as it happened",
+   "form": "archive",
+   "language": "English and many others",
+   "authenticity": "Verified: the site went live in mid-March 2020 and was running by 20 March with more than 160 contributions (ASU News, 20 March 2020). Its name deliberately echoes Defoe's 1722 plague novel, which is fiction, not a diary.",
+   "bio": "Within weeks of the first lockdowns it began taking in photographs, screenshots, diaries and voice memos from anyone who chose to contribute. It is the end of the thread so far: the epidemic diary as a public, collective, born-digital deposit.",
+   "sources": [
+    {
+     "title": "ASU News: Curating a pandemic (20 March 2020)",
+     "url": "https://news.asu.edu/20200320-global-engagement-curating-pandemic"
+    },
+    {
+     "title": "ASU News: How does the history of COVID-19 look after a year of archiving? (2021)",
+     "url": "https://news.asu.edu/20210405-how-does-history-covid-19-look-after-year-archiving"
+    },
+    {
+     "title": "Digital Humanities Now: Editors' Choice, A Journal of the Plague Year",
+     "url": "https://digitalhumanitiesnow.org/2020/03/a-journal-of-the-plague-year-an-archive-of-covid19/"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1068-03-18",
+   "date_display": "Tuesday 11 Jumada I 460 AH (18 March 1068, Julian)",
+   "precision": "day",
+   "eye": "ibn-al-banna",
+   "place": "Baghdad",
+   "headline": "A great earthquake far away, a faint tremor at home",
+   "digest": "He records a violent quake in Medina that knocked merlons off the Prophet's Mosque minaret, then traces its path through the Hijaz, Tabuk and Aila to Ramla, with reports of thousands dead and a sea that drew back and returned. He notes that Baghdad itself felt only a slight shiver the same day. The entry shows the diarist's oldest role: a person far from the disaster, gathering the death toll from travellers.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Dead Sea earthquake catalogue transcription of Ibn al-Banna's account (https://deadseaquake.info/EarthquakeCatalogOfTheDeadSea/1068CEQuakes_alBanna.html). The report may come from his chronicle, since the diary fragment begins in August 1068."
+  },
+  {
+   "date_iso": "1068-08-03",
+   "date_display": "Beginning of Shawwal 460 AH (3 August 1068, Julian)",
+   "precision": "day",
+   "eye": "ibn-al-banna",
+   "place": "Baghdad",
+   "headline": "The oldest surviving diary page opens",
+   "digest": "The surviving autograph fragment begins. It is a scholar's hurried private notes in compressed Arabic with few diacritics, recording deaths of neighbours and colleagues, dreams, prices, sermons and the ongoing scandal over the theologian Ibn 'Aqil. He marks the start of each lunar month, which lets modern editors date nearly every note. It was never meant to be published.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia and the Dead Sea catalogue biography, both citing Makdisi, BSOAS 18 (1956)"
+  },
+  {
+   "date_iso": "1069-09-04",
+   "date_display": "Mid-Dhu al-Qa'da 461 AH (4 September 1069, Julian)",
+   "precision": "day",
+   "eye": "ibn-al-banna",
+   "place": "Baghdad",
+   "headline": "The fragment breaks off",
+   "digest": "The surviving portion ends after just over a year. Scholars think he went on writing until his death in 1079, but the rest is lost. Its survival depended on a later collector giving it as a waqf to a Damascus madrasa library, as an institution taking in a private notebook, which foreshadows the archives at the end of this chapter.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia: Abu Ali ibn al-Banna (fragment ends 4 September 1069). The Hijri day is approximate."
+  },
+  {
+   "date_iso": "1665-06-17",
+   "date_display": "Wednesday 7 June 1665 (O.S.)",
+   "precision": "day",
+   "eye": "pepys",
+   "place": "Drury Lane, London",
+   "headline": "Red crosses on the doors in Drury Lane",
+   "digest": "On the hottest day he can remember he sees two or three houses in Drury Lane marked with a red cross and a prayer for mercy, the first such marks he has seen. The sight shakes him enough that he buys roll tobacco to smell and chew, which calms his fear. By city order the marked houses were shut for forty days with the sick inside.",
+   "quote": "Lord have mercy upon us",
+   "confidence": "verified",
+   "source_note": "https://pepysdiary.com/diary/1665/06/07"
+  },
+  {
+   "date_iso": "1665-06-20",
+   "date_display": "Saturday 10 June 1665 (O.S.)",
+   "precision": "day",
+   "eye": "pepys",
+   "place": "Seething Lane, London",
+   "headline": "The plague is inside the walls",
+   "digest": "He hears that plague has reached the City proper, in the street of a friend he knows well. For the first time he sits down to put his papers and affairs in order in case he dies.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pepys diary entry; summarized from pepysdiary.com and the Lapham's Quarterly 'Plague Posts' excerpt (https://www.laphamsquarterly.org/node/10820)"
+  },
+  {
+   "date_iso": "1665-07-30",
+   "date_display": "Thursday 20 July 1665 (O.S.)",
+   "precision": "day",
+   "eye": "pepys",
+   "place": "Redriffe (Rotherhithe) and the City",
+   "headline": "Over a thousand dead in a week",
+   "digest": "Business takes him to Rotherhithe, where plague is spreading widely. The weekly bill stands above a thousand, and he notes the disease creeping into new streets near his own. A lady gives him a bottle of plague-water as a remedy, and he accepts it gratefully.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pepys diary entry; summarized from pepysdiary.com and the Lapham's Quarterly 'Plague Posts' excerpt (https://www.laphamsquarterly.org/node/10820)"
+  },
+  {
+   "date_iso": "1665-08-25",
+   "date_display": "Tuesday 15 August 1665 (O.S.)",
+   "precision": "day",
+   "eye": "pepys",
+   "place": "Greenwich to London, by night",
+   "headline": "A dream, then a corpse in an alley",
+   "digest": "He starts the entry with a pleasant dream and wonders whether such dreams continue after death. Walking home after dark, he comes upon a plague corpse being carried down a narrow alley, and the fear stays with him.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pepys diary entry; summarized from pepysdiary.com and the Lapham's Quarterly 'Plague Posts' excerpt (https://www.laphamsquarterly.org/node/10820)"
+  },
+  {
+   "date_iso": "1665-09-10",
+   "date_display": "Thursday 31 August 1665 (O.S.)",
+   "precision": "day",
+   "eye": "pepys",
+   "place": "London / Woolwich",
+   "headline": "Seven thousand dead; the family sent to Woolwich",
+   "digest": "He sends his household out to Woolwich. The bill for the week gives about 7,500 deaths, more than 6,000 of them from plague. He suspects the real figure is higher because the poor die uncounted and Quakers refuse the bell.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pepys diary entry; summarized from pepysdiary.com and the Lapham's Quarterly 'Plague Posts' excerpt (https://www.laphamsquarterly.org/node/10820)"
+  },
+  {
+   "date_iso": "1665-09-13",
+   "date_display": "Sunday 3 September 1665 (O.S.)",
+   "precision": "day",
+   "eye": "pepys",
+   "place": "Greenwich",
+   "headline": "A new periwig in the middle of the plague",
+   "digest": "He dresses in his best and wears a periwig he had been afraid to wear, since wigs might be made from the hair of plague dead. Afterwards he sits with officials discussing how to stop crowds following corpses to burial, and hears of a father who saved his infant by passing it, naked, out of an infected house.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pepys diary entry; summarized from pepysdiary.com and the Lapham's Quarterly 'Plague Posts' excerpt (https://www.laphamsquarterly.org/node/10820)"
+  },
+  {
+   "date_iso": "1665-09-17",
+   "date_display": "Thursday 7 September 1665 (O.S.)",
+   "precision": "day",
+   "eye": "pepys",
+   "place": "London",
+   "headline": "The peak of the bills",
+   "digest": "The weekly bill reaches about 8,250 dead, nearly 6,900 of them from plague. He reads the figures as proof that the disease is now settled deep in the city, with no sign of easing.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pepys diary entry; summarized from pepysdiary.com and the Lapham's Quarterly 'Plague Posts' excerpt (https://www.laphamsquarterly.org/node/10820)"
+  },
+  {
+   "date_iso": "1665-09-24",
+   "date_display": "Thursday 14 September 1665 (O.S.)",
+   "precision": "day",
+   "eye": "pepys",
+   "place": "London",
+   "headline": "First decrease, and grief close to home",
+   "digest": "Relief and dread pull against each other. He is glad of money recovered and of the first fall in the weekly deaths. In the same day he hears of plague deaths among his own watermen and his servants' families, and passes the sick in the street.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pepys diary entry; summarized from pepysdiary.com and the Lapham's Quarterly 'Plague Posts' excerpt (https://www.laphamsquarterly.org/node/10820)"
+  },
+  {
+   "date_iso": "1666-01-10",
+   "date_display": "Sunday 31 December 1665 (O.S.)",
+   "precision": "day",
+   "eye": "pepys",
+   "place": "Greenwich / London",
+   "headline": "Year-end reckoning: the plague nearly gone",
+   "digest": "In his year-end summary he says he has never lived so merrily or made so much money, despite the plague. Shops are reopening. He lists the year's real misfortunes as losing his patron's favour and the plague deaths of an aunt and a cousin's children.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pepys diary entry; summarized from pepysdiary.com and the Lapham's Quarterly 'Plague Posts' excerpt (https://www.laphamsquarterly.org/node/10820)"
+  },
+  {
+   "date_iso": "1832-06-15",
+   "date_display": "Friday 15 June 1832",
+   "precision": "day",
+   "eye": "hone",
+   "place": "New York",
+   "headline": "Cholera in Quebec: 'It must come'",
+   "digest": "News arrives that cholera has reached Quebec and Montreal. Hone judges it certain to reach New York and thinks the city badly unready. He calls it dirtier than the Canadian towns already struck, an early sign of his habit of blaming disease on filth and on the poor.",
+   "quote": "It must come, and we are in a dreadful state to receive it.",
+   "confidence": "verified",
+   "source_note": "Merchant's House Museum blog (https://merchantshouse.org/blog/cholera1832/) quoting Hone's diary; Tuckerman ed. 1889"
+  },
+  {
+   "date_iso": "1832-06-22",
+   "date_display": "Friday 22 June 1832",
+   "precision": "day",
+   "eye": "gw-strong",
+   "place": "New York",
+   "headline": "A father plans the family's escape",
+   "digest": "Writing to John Nelson Lloyd on Long Island, Strong reports that cholera has appeared in Canada and that he considers it certain to come. He notes how wildly opinion differs about the disease, and says that if it comes he will move the family to Wilton, Connecticut.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "N-YHS Digital Collections item 346068"
+  },
+  {
+   "date_iso": "1832-07-04",
+   "date_display": "Wednesday 4 July 1832",
+   "precision": "day",
+   "eye": "hone",
+   "place": "New York",
+   "headline": "An Independence Day without a city",
+   "digest": "Cholera has arrived. Hone writes that the disease is present in full force and will grow worse. The usually riotous Fourth is close to silent because so many residents have fled or stayed indoors, though he still grumbles about reckless firecrackers.",
+   "quote": "The disease is here in all its violence, and will increase.",
+   "confidence": "verified",
+   "source_note": "400 Stories substack and Merchant's House Museum, quoting Hone's diary for 4 July 1832"
+  },
+  {
+   "date_iso": "1832-08-11",
+   "date_display": "August 1832",
+   "precision": "month",
+   "eye": "stoker",
+   "place": "Sligo, Ireland",
+   "headline": "Sligo's cholera summer, remembered for her son",
+   "digest": "Cholera breaks out in Sligo town in mid-August 1832 and is soon killing about fifty a day. Charlotte later describes the dead and dying at the Fever Hospital, the panic and the burials. Her family slipped through the town cordon and fled to Ballyshannon, so this is the view of a family running away, recorded long afterwards.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia: 1832 Sligo cholera outbreak (outbreak in town from 11 August), citing TCD MS 11076/2/3. Her text was written decades later."
+  },
+  {
+   "date_iso": "1849-06-04",
+   "date_display": "Monday 4 June 1849",
+   "precision": "day",
+   "eye": "gt-strong",
+   "place": "New York",
+   "headline": "Cholera returns; a confident young lawyer",
+   "digest": "Seventeen years after his father planned to flee, the son notes cholera's return to New York. He predicts it will not take hold as it did in '32. He was wrong: the 1849 epidemic killed more than 5,000 New Yorkers that summer.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "400 Stories substack, quoting Strong's diary for 4 June 1849 (Nevins & Thomas ed., 1952; paraphrased here)"
+  },
+  {
+   "date_iso": "1854-09-07",
+   "date_display": "Thursday 7 September 1854 (evening)",
+   "precision": "day",
+   "eye": "snow",
+   "place": "St James's vestry, Soho",
+   "headline": "Snow takes his pump to the Board of Guardians",
+   "digest": "Having examined the Broad Street pump water on the evening of 3 September and traced the deaths street by street, Snow lays his case before the Board of Guardians of St James's parish that evening. He argues that almost all the dead had drunk from the one pump. The next day the board orders the handle removed, though the outbreak was already declining.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Snow's letter in the Medical Times and Gazette, 23 September 1854, as presented by the MSU John Snow Archive (https://johnsnow.matrix.msu.edu/broadstpump/snow-the-pump-handle/)"
+  },
+  {
+   "date_iso": "1854-09-23",
+   "date_display": "Saturday 23 September 1854",
+   "precision": "day",
+   "eye": "snow",
+   "place": "London (published letter)",
+   "headline": "A dated letter puts the pump on record",
+   "digest": "The Medical Times and Gazette prints Snow's letter on the cholera near Golden Square. It fixes the dates of his own investigation and sets out the case against the Broad Street well, a waterborne argument that most of the medical establishment, still thinking in terms of miasma, did not yet accept.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "MSU John Snow Archive, 'Snow and the pump handle'"
+  },
+  {
+   "date_iso": "1918-09-22",
+   "date_display": "Sunday 22 September 1918",
+   "precision": "day",
+   "eye": "mahoney",
+   "place": "Massachusetts",
+   "headline": "The diary turns from errands to influenza",
+   "digest": "Her entry records that a relative, Eugene, has gone to hospital with Spanish influenza and that a 21-year-old local man has died of it. From this day her diary stops being a record of errands and becomes a tally of the sick.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Massachusetts Historical Society Beehive blog, 2018"
+  },
+  {
+   "date_iso": "1918-09-24",
+   "date_display": "Tuesday 24 September 1918",
+   "precision": "day",
+   "eye": "kent",
+   "place": "Montpelier, Vermont",
+   "headline": "Sick, feverish, and no doctor comes",
+   "digest": "Kent wakes at seven too ill to get up, with a high fever and a headache that does not let go all day. The doctor cannot get to him because so many are sick.",
+   "quote": "Awoke at 7:00 sick, sick, sick.",
+   "confidence": "verified",
+   "source_note": "Smithsonian Magazine (2020), quoting the Vermont Historical Society diary"
+  },
+  {
+   "date_iso": "1918-09-24",
+   "date_display": "Tuesday 24 September 1918",
+   "precision": "day",
+   "eye": "mahoney",
+   "place": "Massachusetts",
+   "headline": "Pneumonia, and the epidemic everywhere",
+   "digest": "Eugene has developed pneumonia. She writes that the epidemic is serious everywhere, and Smithsonian's reading of the entry adds a local count of about 1,500 cases.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Massachusetts Historical Society Beehive blog; Smithsonian Magazine (2020)"
+  },
+  {
+   "date_iso": "1918-09-26",
+   "date_display": "Thursday 26 September 1918",
+   "precision": "day",
+   "eye": "mahoney",
+   "place": "Massachusetts",
+   "headline": "A death at dawn; churches and theatres shut",
+   "digest": "Eugene dies early in the morning. She notes there are not enough nurses or doctors, and that theatres and churches have been closed. Two days later her own son Rob is too feverish to be a pallbearer.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Massachusetts Historical Society Beehive blog (Smithsonian places the death in the 28 September entry)"
+  },
+  {
+   "date_iso": "1918-09-29",
+   "date_display": "Sunday 29 September 1918",
+   "precision": "day",
+   "eye": "mahoney",
+   "place": "Massachusetts",
+   "headline": "Rob recovers; the epidemic does not",
+   "digest": "Rob is much better. Another acquaintance has died of pneumonia, and the doctor tells her the epidemic shows no sign of easing. The same Sunday, churches across the state stand empty.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Massachusetts Historical Society Beehive blog; Smithsonian Magazine (2020)"
+  },
+  {
+   "date_iso": "1918-10-02",
+   "date_display": "Wednesday 2 October 1918",
+   "precision": "day",
+   "eye": "kent",
+   "place": "Montpelier, Vermont",
+   "headline": "Counting the sick ward by ward",
+   "digest": "Back on his feet, Kent records a census of two Montpelier wards: 1,237 people sick in bed, and eight dead in one night. The patient of a week earlier has become the town's informal statistician.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Smithsonian Magazine (2020), summarising the Vermont Historical Society diary"
+  },
+  {
+   "date_iso": "1918-10-03",
+   "date_display": "Thursday 3 October 1918",
+   "precision": "day",
+   "eye": "kent",
+   "place": "Montpelier, Vermont",
+   "headline": "Twenty-five dead in Barre in one day",
+   "digest": "News comes from the granite town of Barre, a few miles away, that twenty-five have died there in a single day and conditions are still worsening. He closes the entry with two words of despair.",
+   "quote": "Terrible times.",
+   "confidence": "verified",
+   "source_note": "Smithsonian Magazine (2020); the article dates it as the day after the 2 October census"
+  },
+  {
+   "date_iso": "1918-10-17",
+   "date_display": "Thursday 17 October 1918",
+   "precision": "day",
+   "eye": "van-wert",
+   "place": "Washington, D.C.",
+   "headline": "Twelve-hour shifts and stretchers at Camp Humphreys",
+   "digest": "She tells her friend that up to ninety people a day are dying of influenza in Washington and soldiers are dying by the dozen. She and another Haskell girl have volunteered at Camp Humphreys, working twelve-hour shifts taking temperatures, giving medicine, applying ice packs and rubbing chests with camphorated oil. Four officers in her care have died. Schools, churches and theatres are closed, and she is waiting to be called for Red Cross district nursing.",
+   "quote": "Orderlies carried the dead soldiers out on stretchers",
+   "confidence": "verified",
+   "source_note": "Letter to 'Louise', 17 October 1918, National Archives ID 2641556 (American Yawp Reader transcription)"
+  },
+  {
+   "date_iso": "1918-10-27",
+   "date_display": "Sunday 27 October 1918",
+   "precision": "day",
+   "eye": "schiele",
+   "place": "Vienna",
+   "headline": "A last drawing of Edith, 'evening of 27 October'",
+   "digest": "As Edith lies dying of influenza and pneumonia in their Hietzing flat, Schiele draws her in crayon on brown paper: the head on the pillow, the eyes narrowed with exhaustion. He inscribes it as drawn on the evening of the 27th and dates it the 28th. In the same days he has written to his mother that Edith will probably not survive. She dies on 28 October, six months pregnant.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Leopold Museum, inv. 2382, inscription 'gez. 27. X. abds. / 28. Oktober 1918' (https://onlinecollection.leopoldmuseum.org/en/object/2523-edith-schiele-dying); Wikipedia 'The Family (Schiele)' for Edith's death on 28 October. The letter to his mother is from the Modernist Journals Project biography, exact date unconfirmed."
+  },
+  {
+   "date_iso": "1918-10-31",
+   "date_display": "Thursday 31 October 1918",
+   "precision": "day",
+   "eye": "schiele",
+   "place": "Vienna",
+   "headline": "The painter dies three days after his wife",
+   "digest": "Schiele himself dies of the influenza at his parents-in-law's flat, aged 28, three days after Edith and less than two weeks before the armistice. His friend Martha Fein photographs him on his deathbed among flowers. His large canvas The Family, with its imagined child, was left unfinished.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia 'The Family (Schiele)'; Austria-Forum; Leopold Museum, Martha Fein, 'Egon Schiele on His Deathbed' (https://onlinecollection.leopoldmuseum.org/en/object/5463-egon-schiele-on-his-deathbed/)"
+  },
+  {
+   "date_iso": "1918-11",
+   "date_display": "Late 1918 (undated passage, after 20 October)",
+   "precision": "range",
+   "eye": "rainsford",
+   "place": "Cape Town, South Africa",
+   "headline": "Lorries and carts collecting Cape Town's dead",
+   "digest": "Beside a pencil sketch of Table Bay, he writes down what he has learned of the epidemic: about 50,000 dead across the Union of South Africa, 18,000 in Cape Town alone, 10,000 of them in the first fortnight. The worst days were 9 to 20 October, when Black Africans died in far greater numbers and lorries and carts went round collecting bodies. Now, he notes, the city is back to normal, though every precaution is still being taken.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "State Library of NSW transcript, Rainsford 1918 diary, page 142 (no date heading). His figures are hearsay, recorded on passage."
+  },
+  {
+   "date_iso": "1937-01-30",
+   "date_display": "Saturday 30 January 1937",
+   "precision": "day",
+   "eye": "mass-obs",
+   "place": "London",
+   "headline": "A letter in the New Statesman asks for observers",
+   "digest": "Charles Madge and Humphrey Jennings sign a letter to the New Statesman calling for volunteers to record everyday life, which is Mass Observation's public launch. With Tom Harrisson, recently back from anthropological fieldwork in the New Hebrides, they want an 'anthropology at home': ordinary people describing their own days instead of being described by experts.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "English Heritage blue plaque page (https://www.english-heritage.org.uk/visit/blue-plaques/mass-observation/); Wikipedia 'Mass-Observation'"
+  },
+  {
+   "date_iso": "1937-05-12",
+   "date_display": "Wednesday 12 May 1937",
+   "precision": "day",
+   "eye": "mass-obs",
+   "place": "Across Britain",
+   "headline": "Coronation day: the first day-diary",
+   "digest": "On the coronation of George VI and Queen Elizabeth, more than two hundred observers write down what they did, saw and overheard, from the processions and street parties to the boredom. Jennings and Madge edit the results into the book May the Twelfth, which begins the tradition of a national day-diary that the chapter returns to in 2020.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia 'Mass-Observation' (May the Twelfth: Mass-Observation Day-Surveys 1937, over 200 observers)"
+  },
+  {
+   "date_iso": "1981",
+   "date_display": "1981",
+   "precision": "year",
+   "eye": "mass-obs",
+   "place": "University of Sussex, Brighton",
+   "headline": "The Mass Observation Project is revived",
+   "digest": "After a re-evaluation of the original papers, Mass Observation is relaunched at the University of Sussex as a standing panel of volunteer writers who answer 'directives' several times a year. It also renews the annual 12 May day-diary. The result is a continuous record of ordinary British lives, already in place when the next epidemic comes.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia 'Mass-Observation' (relaunched 1981 at the University of Sussex; annual 12 May diaries)"
+  },
+  {
+   "date_iso": "1984",
+   "date_display": "September 1984 onward",
+   "precision": "year",
+   "eye": "adn",
+   "place": "Pieve Santo Stefano, Tuscany",
+   "headline": "A town becomes a home for the nation's diaries",
+   "digest": "Saverio Tutino, a former partisan turned journalist, visits Pieve Santo Stefano in September 1984 and proposes a public archive of private writing. Within weeks the mayor approves it. Italians are invited to deposit diaries, letters and memoirs, and an annual prize honours the most remarkable. Over the next forty years more than 8,000 arrive, nearly three for every resident of the town.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Atlas Obscura (https://www.atlasobscura.com/articles/italy-tuscany-city-diaries-memories-history); EHRI gives 1985, likely the first year of operation"
+  },
+  {
+   "date_iso": "1998-01",
+   "date_display": "January 1998",
+   "precision": "month",
+   "eye": "dta",
+   "place": "Emmendingen",
+   "headline": "Germany's diary archive opens",
+   "digest": "Frauke von Troschke, who knows the Italian archive and has found that Germany has nothing like it, founds the Deutsches Tagebucharchiv in Emmendingen's old town hall. Volunteer readers catalogue unpublished diaries from soldiers, housewives, children and refugees, including writers from 1918 who would otherwise never reach a book like this one.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "EHRI portal (https://portal.ehri-project.eu/institutions/de-006172)"
+  },
+  {
+   "date_iso": "2007",
+   "date_display": "2007",
+   "precision": "year",
+   "eye": "great-diary",
+   "place": "London",
+   "headline": "Rescuing the diaries no one wanted",
+   "digest": "Irving Finkel, a British Museum curator, and Polly North launch the Great Diary Project to collect diaries of every kind, especially the ones heading for the skip after a death. In 2009 the collection finds a permanent home at the Bishopsgate Institute in London. Its premise is that the dullest diary becomes precious with time.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Great Diary Project (https://thegreatdiaryproject.co.uk/?p=22)"
+  },
+  {
+   "date_iso": "2015-04",
+   "date_display": "Late April 2015",
+   "precision": "month",
+   "eye": "prozhito",
+   "place": "St Petersburg / online",
+   "headline": "A searchable calendar of other people's days",
+   "digest": "Prozhito.org goes online, with historian Mikhail Melnichenko among its creators. It transcribes Russian and Soviet diaries and lets readers find everyone writing around a given event, such as Lenin's death or Gagarin's flight. It makes the side-by-side reading in this book possible at scale for one country. It later becomes a centre at the European University at St Petersburg.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "New East Digital Archive, 27 April 2015; EUSP 10th-anniversary interview, 24 April 2025"
+  },
+  {
+   "date_iso": "2020-03",
+   "date_display": "Mid-March 2020 (live by 20 March)",
+   "precision": "month",
+   "eye": "asu-jpy",
+   "place": "Online (Arizona State University)",
+   "headline": "'A Journal of the Plague Year' opens for the present",
+   "digest": "As lockdowns begin, ASU historian Catherine O'Donnell emails colleagues about connecting students to the moment. Over a weekend Mark Tebeau and graduate students build a crowd-sourced COVID-19 archive and borrow Defoe's title for it. By 20 March it holds more than 160 contributions, from photos of empty shelves to a voice message from the university president. In the same weeks, magazines republish Pepys's 1665 entries as lockdown reading.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ASU News, 20 March 2020 (https://news.asu.edu/20200320-global-engagement-curating-pandemic); Lapham's Quarterly republished Pepys's plague entries on 27 March 2020 (https://www.laphamsquarterly.org/node/10499)"
+  },
+  {
+   "date_iso": "2020-03",
+   "date_display": "March 2020",
+   "precision": "month",
+   "eye": "prozhito",
+   "place": "Online",
+   "headline": "At Prozhito's university, a call for 'Virus Diaries'",
+   "digest": "As Russia enters lockdown, sociologist Anna Temkina at the European University at St Petersburg, where the Prozhito Center is based, starts a 'Virus Diaries' project to collect accounts of everyday life under quarantine, and the New York Times reports on it. It is a separate project from Prozhito. Together they show epidemic diaries being gathered deliberately, while the epidemic is still under way, instead of depending on luck and attics to survive.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "EUSP news, 31 March 2020, reporting the NYT article of 30 March 2020. The project's exact start date and any specific Prozhito pandemic call were not confirmed."
+  },
+  {
+   "date_iso": "2020-05-12",
+   "date_display": "Tuesday 12 May 2020",
+   "precision": "day",
+   "eye": "mass-obs",
+   "place": "Across Britain, in lockdown",
+   "headline": "The day-diary again, eighty-three years on",
+   "digest": "Mass Observation renews its 12 May call in the middle of the first lockdown, and over 5,000 people send in a diary, from a three-year-old to a ninety-one-year-old, Aberdeen to Marazion. They write about bereavement, grandparents kept from grandchildren, job worries, foodbank volunteering and panic buying. The day-diary born on coronation day 1937 becomes a pandemic record.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "University of Sussex Library blog (https://blogs.sussex.ac.uk/librarycollections/?p=385); Mass Observation Covid-19 Collection"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1832-06",
+   "label": "Cholera reaches Canada; New York waits",
+   "eyes": [
+    "hone",
+    "gw-strong"
+   ],
+   "note": "In the same week two New York men of the same class write down the same news. Hone condemns the city's filth and predicts disaster. Strong reports divided opinion and plans to take his family to Connecticut. One diarist judges the city, the other plans to leave it."
+  },
+  {
+   "date": "1832-07/08",
+   "label": "The 1832 pandemic on both sides of the Atlantic",
+   "eyes": [
+    "hone",
+    "stoker"
+   ],
+   "note": "Hone's silent Fourth of July in Manhattan and the Sligo burials of August belong to the same global cholera wave. One is a former mayor in a big city writing on the day. The other is a girl in a small Irish town remembering it for her son decades later."
+  },
+  {
+   "date": "06-04 / 06-07",
+   "label": "The first sign, two centuries apart",
+   "eyes": [
+    "pepys",
+    "gt-strong"
+   ],
+   "note": "In the same week of June, 184 years apart, Pepys sees his first red cross (7 June 1665, O.S.) and Strong notes cholera's return (4 June 1849). Pepys is frightened and Strong is complacent. Both are recording the moment rumour turns into fact."
+  },
+  {
+   "date": "05-12",
+   "label": "The twelfth of May",
+   "eyes": [
+    "mass-obs"
+   ],
+   "note": "Coronation day 1937 (more than 200 observers) and lockdown 12 May 2020 (over 5,000 diaries) are bookends of the same experiment: ask ordinary people to write down one day. The first records street parties, the second records empty streets."
+  },
+  {
+   "date": "2020-03",
+   "label": "Pepys becomes lockdown reading",
+   "eyes": [
+    "pepys",
+    "asu-jpy",
+    "mass-obs"
+   ],
+   "note": "In March 2020 the 1665 diary is republished as a guide to quarantine, while new archives open to collect the diaries of the present. For a few weeks the oldest and newest eyes in this chapter are read side by side."
+  },
+  {
+   "date": "1918-09-24",
+   "label": "New England's first influenza week",
+   "eyes": [
+    "mahoney",
+    "kent"
+   ],
+   "note": "On the same Tuesday, a Massachusetts mother records pneumonia in her family and a Vermont man lies in bed with a fever no doctor can treat. One writes as a nurse at home, the other as the patient. Within ten days both are counting other people's dead."
+  },
+  {
+   "date": "1918-10",
+   "label": "The deadly October of 1918, on three continents",
+   "eyes": [
+    "kent",
+    "van-wert",
+    "rainsford",
+    "schiele"
+   ],
+   "note": "Barre's twenty-five dead (3 October), the Camp Humphreys ward (17 October), Cape Town's worst fortnight (9–20 October) and the Schieles' deaths in Vienna (28 and 31 October) fall within one month. A Vermont townsman, a Native American volunteer nurse, an Australian sergeant and an Austrian painter record the same pandemic peak, and none of them could see the others."
+  },
+  {
+   "date": "1832 / 1849 / 1854",
+   "label": "Filth or water?",
+   "eyes": [
+    "hone",
+    "gt-strong",
+    "snow"
+   ],
+   "note": "Hone blamed New York's dirt and its poor, and Strong expected cleanliness and confidence to blunt the 1849 wave. Snow, in Soho in 1854, pinned an outbreak on one well. The three wrote within a generation of each other, on either side of the shift from miasma to germ."
+  }
+ ],
+ "ties": [
+  {
+   "a": "gw-strong",
+   "b": "gt-strong",
+   "kind": "relative",
+   "note": "Father and son. The father's 1832 letter about fleeing cholera and the son's 1849 diary entry about its return show one household across two epidemics."
+  },
+  {
+   "a": "hone",
+   "b": "gt-strong",
+   "kind": "mentioned",
+   "note": "Two diarists of the same Manhattan elite whose diaries overlap from 1835 to 1851. Editors have paired them, for example in Louis Auchincloss's 'Hone and Strong Diaries of Old Manhattan'. Both manuscripts are at the New-York Historical Society."
+  },
+  {
+   "a": "dta",
+   "b": "adn",
+   "kind": "influenced",
+   "note": "Frauke von Troschke founded the Emmendingen archive in 1998 after learning of Saverio Tutino's archive at Pieve Santo Stefano and finding that Germany had nothing like it (EHRI portal)."
+  },
+  {
+   "a": "pepys",
+   "b": "asu-jpy",
+   "kind": "influenced",
+   "note": "The ASU archive takes Defoe's title, and the plague-year literature that Pepys's diary anchors became the reference point for collecting COVID-19 testimony in 2020."
+  },
+  {
+   "a": "ibn-al-banna",
+   "b": "prozhito",
+   "kind": "influenced",
+   "note": "Thematic rather than personal. Ibn al-Banna dated every month so his notes could be ordered, and Prozhito orders thousands of diaries by day. Both rest on the dated entry as the basic unit of memory."
+  },
+  {
+   "a": "snow",
+   "b": "gt-strong",
+   "kind": "opposite sides",
+   "note": "Strong's Sanitary Commission worked from the filth-and-air theory of disease that Snow's 1854 letter challenged. Both men aimed at the same enemy with different maps of how it travelled."
+  },
+  {
+   "a": "van-wert",
+   "b": "schiele",
+   "kind": "opposite sides",
+   "note": "Her ward at Camp Humphreys held soldiers of the army fighting Austria-Hungary, the army Schiele had served in. Within the same fortnight of October 1918, the virus ignored that front line."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "london-1666",
+   "note": "Pepys's plague year of 1665 is the prelude to the Great Fire. The same diarist, house and Navy Office cover both disasters, and many Londoners read the fire as a second judgment after the plague."
+  },
+  {
+   "to": "heian",
+   "note": "Ibn al-Banna's Baghdad diary (1068–69) was written in the same decades as the Japanese court diaries such as the Sarashina nikki. Diaries were being kept at opposite ends of Eurasia at the same time."
+  },
+  {
+   "to": "thirty-years",
+   "note": "Plague and typhus followed the armies of the Thirty Years' War and killed more people than battle. Oberammergau's 1633 plague vow, still kept through its Passion Play, is a living thread from that war's epidemics."
+  },
+  {
+   "to": "french-rev",
+   "note": "The 1832 cholera wave that Hone watched also hit Paris. It killed General Lamarque, a hero of the Revolution and Empire, and his funeral sparked the June Rebellion of 1832."
+  },
+  {
+   "to": "russia-1812",
+   "note": "Typhus and dysentery destroyed much of Napoleon's Grande Armée in Russia, a reminder that in war diaries the epidemic is often the real enemy."
+  },
+  {
+   "to": "us-civil-war",
+   "note": "George Templeton Strong, who misjudged the 1849 cholera, became treasurer of the US Sanitary Commission. His Civil War diary records a campaign against camp disease, which killed more soldiers than bullets did."
+  },
+  {
+   "to": "ww1",
+   "note": "The 1918 influenza killed Egon Schiele and tens of millions more as the war ended. Troop movements spread it: an Australian medical sergeant met it at Cape Town on his way home, and a Native American volunteer nursed dying soldiers at Camp Humphreys. Wartime censorship muffled it, which is why private diaries and letters matter so much for it."
+  },
+  {
+   "to": "russia-1917",
+   "note": "Prozhito's day-by-day corpus is especially rich for 1917 and the Civil War years, which included typhus and the Spanish flu. It lets readers line up Russian diarists in the way this book does."
+  },
+  {
+   "to": "nanjing-1937",
+   "note": "Mass Observation was founded in the same year as the Nanjing massacre. Both chapters depend on private diaries, such as John Rabe's, that survived through family keeping before archives took them in."
+  },
+  {
+   "to": "ww2-europe",
+   "note": "Mass Observation's wartime diarists, such as the Barrow housewife Nella Last, and the German and Italian diary archives' Second World War holdings are the core of the ordinary-voice record of that war."
+  },
+  {
+   "to": "japan-1945",
+   "note": "Mass Observation diarists recorded British reactions to the atomic bombs in August 1945, seen from the far side of the world; Claire Langhamer's 2019 article 'Mass observing the atom bomb' studies them."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://publicdomainreview.org/collection/londons-dreadful-visitation-bills-of-mortality",
+   "title": "London's Dreadful Visitation: a collection of all the Bills of Mortality for 1665",
+   "caption": "The weekly death bills that Pepys read and copied into his diary, bound as a year's run by the printer E. Cotes. Each sheet counts the dead by parish and cause, with plague climbing towards the September peak.",
+   "date": "1665",
+   "credit": "E. Cotes, London; US National Library of Medicine, via The Public Domain Review"
+  },
+  {
+   "url": "https://wellcomecollection.org/works/e3vhnd98",
+   "title": "'Cholera morbus' broadside",
+   "caption": "A satirical broadside printed in Sunderland as the first British cholera cases appeared, mocking belief in the coming epidemic and offering a mock reward for reporting cases to the Board of Health. It shows the same denial and divided opinion that Hone and the elder Strong recorded in New York a few months later.",
+   "date": "1831",
+   "credit": "Printed by T. Hodge; Wellcome Collection"
+  },
+  {
+   "url": "https://artsci.case.edu/dittrick/2014/06/16/morbid-matter-public-health-and-public-opinion/l0063431-map-showing-deaths-from-cholera-in-broad-street",
+   "title": "Map showing deaths from cholera in Broad Street, Golden Square and the neighbourhood, 19 August–30 September 1854",
+   "caption": "John Snow's map stacks a bar for each death at its house, clustering around the Broad Street pump. It was published in the 1855 edition of On the Mode of Communication of Cholera.",
+   "date": "1854 (published 1855)",
+   "credit": "John Snow; Wellcome Library L0063431 (CC BY 4.0), via Dittrick Medical History Center"
+  },
+  {
+   "url": "https://exhibits.library.brocku.ca/s/COVID-Niagara/item/3567",
+   "title": "Emergency hospital during influenza epidemic, Camp Funston, Kansas",
+   "caption": "Rows of cots in a converted army hall at Camp Funston, one of the first places the 1918 influenza was recorded. Wards like this were what Lutiant Van Wert worked in at Camp Humphreys.",
+   "date": "c. 1918",
+   "credit": "Otis Historical Archives, National Museum of Health and Medicine (public domain), via Brock University Library"
+  },
+  {
+   "url": "https://onlinecollection.leopoldmuseum.org/en/object/2523-edith-schiele-dying",
+   "title": "Egon Schiele, Edith Schiele, Dying",
+   "caption": "Crayon drawing inscribed as made on the evening of 27 October 1918 and dated 28 October, the day Edith died of influenza, six months pregnant. Schiele died three days later.",
+   "date": "27–28 October 1918",
+   "credit": "Egon Schiele; Leopold Museum, Vienna, inv. 2382"
+  },
+  {
+   "url": "https://onlinecollection.leopoldmuseum.org/en/object/5463-egon-schiele-on-his-deathbed/",
+   "title": "Egon Schiele on His Deathbed",
+   "caption": "Martha Fein's photograph of the painter among flowers at his parents-in-law's flat after he died on 31 October 1918. It is the closing image of the 1918 thread.",
+   "date": "1918",
+   "credit": "Martha Fein; Leopold Museum, Vienna"
+  }
+ ],
+ "further": [
+  {
+   "title": "The Diary of Samuel Pepys (annotated online edition)",
+   "url": "https://pepysdiary.com/diary/1665/06/07"
+  },
+  {
+   "title": "Lapham's Quarterly Roundtable: Pepys's plague posts (27 March 2020)",
+   "url": "https://www.laphamsquarterly.org/node/10499"
+  },
+  {
+   "title": "The diary of Philip Hone, vol. 1 (Internet Archive)",
+   "url": "https://archive.org/details/diaryofphiliphon01honeuoft/page/n11/mode/2up"
+  },
+  {
+   "title": "Charles E. Rosenberg, The Cholera Years: The United States in 1832, 1849, and 1866",
+   "url": "https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3619098.html"
+  },
+  {
+   "title": "Merchant's House Museum: New York and the cholera of 1832",
+   "url": "https://merchantshouse.org/blog/cholera1832/"
+  },
+  {
+   "title": "Abu Ali ibn al-Banna (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Abu_Ali_ibn_al-Banna"
+  },
+  {
+   "title": "1832 Sligo cholera outbreak (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/1832_Sligo_cholera_outbreak"
+  },
+  {
+   "title": "Digital Vermont: 1918 Influenza Pandemic (diaries and records, Vermont Historical Society)",
+   "url": "https://www.digitalvermont.org/1918"
+  },
+  {
+   "title": "Smithsonian Magazine: What we can learn from 1918 influenza diaries",
+   "url": "https://www.smithsonianmag.com/history/what-we-can-learn-1918-influenza-diaries-180974614/"
+  },
+  {
+   "title": "Massachusetts Historical Society: 'Because of Epidemic', diaries kept during the 1918 influenza pandemic",
+   "url": "https://masshist.org/beehiveblog/2022/02/because-of-epidemic-diaries-kept-during-the-1918-influenza-pandemic"
+  },
+  {
+   "title": "National Archives: The Deadly Virus, records of the 1918 influenza epidemic",
+   "url": "https://www.archives.gov/exhibits/influenza-epidemic/records-list.html"
+  },
+  {
+   "title": "MSU John Snow Archive and Research Companion: the Broad Street pump",
+   "url": "https://johnsnow.matrix.msu.edu/broadstpump/snow-the-pump-handle/"
+  },
+  {
+   "title": "Project Gutenberg: John Snow, On the Mode of Communication of Cholera (1855)",
+   "url": "https://gutenberg.org/cache/epub/72894/pg72894-images.html"
+  },
+  {
+   "title": "Mass Observation: Covid-19 Collection",
+   "url": "https://massobs.org.uk/mass-observation/covid19/"
+  },
+  {
+   "title": "University of Sussex Library: 12th May 2020, an introduction to the diaries",
+   "url": "https://blogs.sussex.ac.uk/librarycollections/?p=385"
+  },
+  {
+   "title": "Atlas Obscura: Pieve Santo Stefano, Italy's 'City of Diaries'",
+   "url": "https://www.atlasobscura.com/articles/italy-tuscany-city-diaries-memories-history"
+  },
+  {
+   "title": "The Great Diary Project",
+   "url": "https://thegreatdiaryproject.co.uk"
+  },
+  {
+   "title": "ASU News: Curating a pandemic (A Journal of the Plague Year)",
+   "url": "https://news.asu.edu/20200320-global-engagement-curating-pandemic"
+  }
+ ],
+ "vantage_key": "0 = struck by the epidemic personally or nursing its victims; 1 = inside the stricken town; 2 = in the threatened city or passing through it; 3 = recording disasters from a distance; 4 = an institution that collects other people's diaries."
+}

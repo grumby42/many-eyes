@@ -1,0 +1,1383 @@
+{
+ "id": "midway-1942",
+ "title": "AF Is Short of Water: The Signals Behind Midway",
+ "short_title": "AF Is Short of Water",
+ "subtitle": "Codebreaking, bait and contact reports, Pearl Harbor, Melbourne, Washington and the central Pacific, March–October 1942",
+ "span": "1942",
+ "intro": [
+  "In the spring of 1942 the Imperial Japanese Navy planned to seize Midway Atoll and draw the remaining American carriers into a decisive battle. Its orders went out by radio in the fleet's main code, JN-25(b), and three Allied listening stations, at Pearl Harbor, Melbourne and Washington, were by then reading fragments of it. This chapter follows those messages, and the bait and contact reports that answered them, from March to the aftermath in October.",
+  "Most of the record here is not diaries. It is intelligence summaries, dispatches, radio contact reports, a commander's running estimate and action report, a Japanese battle report captured and translated by the US Navy, and newspaper and grand-jury records. Only Ugaki Matome's diary is a diary in the strict sense. Several of the best-known stories, including the water ruse, Layton's forecast and Fuchida's account of the carriers' last minutes, come from memoirs written long afterward, and they are flagged as such.",
+  "The heart of the chapter is a set of arguments over messages. Was AF Midway, as Pearl Harbor and Melbourne said, or might it be somewhere else, as voices in Washington suggested? Would the attack come in early June or later? Who first broke the cipher that encoded the date? The record gives positions with evidence, and where NSA's own histories disagree, both are shown.",
+  "On 3 and 4 June the messages became contact reports. American patrol planes from Midway reported the occupation force, then the carriers, in short coded signals. A Japanese float plane launched late from the cruiser Tone found the American fleet and reported it imprecisely, while its own commanders' questions were overheard. The difference between those two sets of signals is part of how four Japanese carriers were lost.",
+  "The battle killed about 307 Americans and more than 3,000 Japanese, many of them aircraft mechanics below decks. The chapter records those losses without detail and then follows the secret into its afterlife: a Chicago newspaper that printed what amounted to a decrypt, a grand jury that declined to indict, and the transfer of the codebreaker whose unit had done most of the work."
+ ],
+ "calendar_note": "Three clocks matter. US Navy reports of the battle, including Nimitz's action report, keep Midway time, zone plus 12 (GMT minus 12), and date_iso follows the Midway date for every entry so that both sides line up. Japanese records keep Tokyo time (GMT plus 9), 21 hours ahead: the carrier battle of 4 June at Midway is 5 June in Nagumo's report and Ugaki's diary, and 0728 at Midway is 0428 the next day in Tokyo. Pearl Harbor was on Hawaii war time (GMT minus 9½), 2½ hours ahead of Midway, and the carrier task forces used zone plus 10, two hours ahead. Melbourne (GMT plus 10) was 22 hours ahead of Midway, so its 0100 on 25 May fell before dawn on 24 May at Pearl Harbor; Washington (Eastern War Time, GMT minus 4) was 8 hours ahead. Original-zone times are shown in date_display.",
+ "eyes": [
+  {
+   "id": "rochefort",
+   "short": "Rochefort",
+   "name": "Joseph John Rochefort",
+   "life": "1900–1976",
+   "role": "Commander, USN, aged about 42; officer in charge of the Combat Intelligence Unit of the 14th Naval District ('Station Hypo'), working in a basement at Pearl Harbor with cryptanalysts including Thomas Dyer, Wesley Wright and Joseph Finnegan",
+   "side": "United States Navy, Pearl Harbor",
+   "where": "Station Hypo, Pearl Harbor Navy Yard, Oahu",
+   "lat": 21.355,
+   "lon": -157.962,
+   "vantage": 0,
+   "vantage_label": "codebreaker reading the enemy's mail",
+   "form": "unit intelligence summaries and dispatches (US Navy records); later oral history",
+   "language": "English",
+   "authenticity": "Hypo's work survives as dated summaries and dispatches in US Navy and NSA files, summarised in NSA's official history (Parker) and SRH-230. Rochefort's own words come chiefly from a later oral history; personal attributions of individual breakthroughs rest partly on postwar memoirs.",
+   "bio": "A former enlisted man turned Japanese linguist and cryptanalyst, Rochefort argued that the target 'AF' was Midway and that the blow would fall in early June. His unit's partial readings of the main Japanese fleet code, JN-25(b), gave Nimitz the outline of the enemy plan. Within months he was moved out of codebreaking, a removal still debated.",
+   "sources": [
+    {
+     "title": "F. D. Parker, A Priceless Advantage (NSA Center for Cryptologic History), Part Two",
+     "url": "https://www.ibiblio.org/hyperwar/PTO/Magic/COMINT-CoralSea/PartTwo.html"
+    },
+    {
+     "title": "NHHC profile: Commander Joseph J. Rochefort",
+     "url": "https://history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/world-war-ii-profiles/rochefort-station-hypo.html"
+    }
+   ]
+  },
+  {
+   "id": "holmes",
+   "short": "Jasper Holmes",
+   "name": "Wilfred Jasper Holmes",
+   "life": "1900–1986",
+   "role": "Retired submarine officer recalled to duty, about 42; plotter and estimator at Station Hypo",
+   "side": "United States Navy, Pearl Harbor",
+   "where": "Station Hypo, Pearl Harbor",
+   "lat": 21.356,
+   "lon": -157.96,
+   "vantage": 1,
+   "vantage_label": "inside the codebreaking room",
+   "form": "memoir (written later)",
+   "language": "English",
+   "authenticity": "His part in the water ruse is told in his later memoir Double-Edged Secrets (1979) and in accounts drawing on it; NSA's history says no direct documentary evidence of the ruse has been found. Treated here as a later account.",
+   "bio": "An engineer and writer who had left the Navy before the war, Holmes knew Midway's dependence on fresh-water distillation and is credited with suggesting the bait message. His position matters because he was one of the few who saw both the plot and the reply.",
+   "sources": [
+    {
+     "title": "Joseph Rochefort (summary of the ruse attribution)",
+     "url": "https://en.wikipedia.org/wiki/Joseph_Rochefort"
+    },
+    {
+     "title": "Parker, A Priceless Advantage, Part Two",
+     "url": "https://www.ibiblio.org/hyperwar/PTO/Magic/COMINT-CoralSea/PartTwo.html"
+    }
+   ]
+  },
+  {
+   "id": "layton",
+   "short": "Layton",
+   "name": "Edwin Thomas Layton",
+   "life": "1903–1984",
+   "role": "Lieutenant Commander, about 39; fleet intelligence officer on Admiral Nimitz's staff",
+   "side": "United States Navy, CINCPAC staff",
+   "where": "CINCPAC headquarters, Pearl Harbor",
+   "lat": 21.351,
+   "lon": -157.94,
+   "vantage": 0,
+   "vantage_label": "intelligence officer briefing the admiral",
+   "form": "dated intelligence summaries; memoir (written later)",
+   "language": "English",
+   "authenticity": "His dated summaries (e.g. 19 May 1942) are cited from US Navy records in NSA's history. His specific forecast and Nimitz's praise come from his memoir 'And I Was There' (1985, with Pineau and Costello), written decades later; the time it gives differs from other accounts.",
+   "bio": "Layton had studied Japanese in Tokyo alongside Rochefort in the 1920s and was the channel by which Hypo's readings reached Nimitz. He had to turn fragments into a forecast specific enough for an admiral to bet his carriers on.",
+   "sources": [
+    {
+     "title": "Parker, A Priceless Advantage, Part Two",
+     "url": "https://www.ibiblio.org/hyperwar/PTO/Magic/COMINT-CoralSea/PartTwo.html"
+    },
+    {
+     "title": "NHHC H-Gram 006-1, Battle of Midway overview",
+     "url": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-006/h-006-1.html"
+    }
+   ]
+  },
+  {
+   "id": "nimitz",
+   "short": "Nimitz",
+   "name": "Chester William Nimitz",
+   "life": "1885–1966",
+   "role": "Admiral, 57; Commander in Chief, US Pacific Fleet (CINCPAC)",
+   "side": "United States Navy",
+   "where": "CINCPAC headquarters, Pearl Harbor",
+   "lat": 21.352,
+   "lon": -157.941,
+   "vantage": 0,
+   "vantage_label": "commander who acted on the decrypts",
+   "form": "command summary (the 'Gray Book'), operation orders, action report",
+   "language": "English",
+   "authenticity": "The CINCPAC Command Summary ('Gray Book'), a running estimate kept by Captain James M. Steele, survives with Nimitz's papers at NHHC and was digitised by the Naval War College and NHHC in 2012. His action report of 28 June 1942 (serial 01849) is published by NHHC. Dates here are drawn from these records as summarised in NSA's history.",
+   "bio": "Nimitz accepted his codebreakers' reading over doubts in Washington and among his own staff, placed his three carriers north-east of Midway and waited. His record shows the estimate growing day by day, which is what makes it a signals document as well as a command one.",
+   "sources": [
+    {
+     "title": "CINCPAC action report, 28 June 1942 (NHHC)",
+     "url": "https://www.history.navy.mil/research/archives/digital-exhibits-highlights/action-reports/wwii-battle-of-midway/commander-in-chief-pacific-fleet.html"
+    },
+    {
+     "title": "Nimitz Gray Book, American Naval Records Society",
+     "url": "https://www.ibiblio.org/anrs/graybook.html"
+    }
+   ]
+  },
+  {
+   "id": "redman",
+   "short": "Redman",
+   "name": "John Roland Redman",
+   "life": "1898–1970",
+   "role": "Commander, USN; head of OP-20-G, the Navy Department's communications-intelligence section in Washington (station 'Negat'), where Joseph Wenger led cryptanalytic work",
+   "side": "United States Navy, Washington",
+   "where": "Navy Department, Washington DC",
+   "lat": 38.892,
+   "lon": -77.045,
+   "vantage": 3,
+   "vantage_label": "headquarters station far from the fleet",
+   "form": "dated estimates and memoranda (US Navy records)",
+   "language": "English",
+   "authenticity": "OP-20-G's estimates survive in US Navy cryptologic files used by NSA's historians. The characterisation of its position (a later, mid-June attack, and doubts about AF) is given here as the position recorded in Parker and in later histories.",
+   "bio": "Redman's section held the Washington end of the three-station network and doubted Hawaii's reading in mid-May. After Midway the rivalry between Washington and Pearl Harbor ended with Rochefort's transfer, in which Redman's complaint is said to have played a part.",
+   "sources": [
+    {
+     "title": "Parker, A Priceless Advantage, Part Two",
+     "url": "https://www.ibiblio.org/hyperwar/PTO/Magic/COMINT-CoralSea/PartTwo.html"
+    }
+   ]
+  },
+  {
+   "id": "fabian",
+   "short": "Fabian",
+   "name": "Rudolph Joseph Fabian",
+   "life": "fl. 1942",
+   "role": "Lieutenant, USN; officer in charge of the US Navy unit formerly at Corregidor (Station Cast), re-formed at Melbourne as part of the Allied Fleet Radio Unit (FRUMEL, 'Belconnen')",
+   "side": "United States Navy with Australian and British codebreakers",
+   "where": "Melbourne, Australia",
+   "lat": -37.84,
+   "lon": 144.98,
+   "waypoints": [
+    {
+     "lat": 14.385,
+     "lon": 120.573,
+     "label": "Corregidor (Station Cast), to early 1942"
+    },
+    {
+     "lat": -37.84,
+     "lon": 144.98,
+     "label": "Melbourne unit, active 20 March 1942"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "distant station sharing the same intercepts",
+   "form": "published translations and dispatches (US Navy records)",
+   "language": "English",
+   "authenticity": "Melbourne's dated translations are cited from US Navy records by Parker and Schorreck (SRH-230). The two histories differ on whether Melbourne or Hawaii first broke the date-time cipher.",
+   "bio": "Fabian's unit escaped the Philippines and resumed work in Melbourne, sharing recoveries with Hawaii and Washington. On the water message and the date cipher, Melbourne's role is easily forgotten in a story usually told from Pearl Harbor.",
+   "sources": [
+    {
+     "title": "Schorreck, The Role of COMINT in the Battle of Midway (SRH-230)",
+     "url": "https://history.navy.mil/research/library/online-reading-room/title-list-alphabetically/b/battle-midway-4-7-june-1942-srh-230.html"
+    },
+    {
+     "title": "Parker, A Priceless Advantage, Part Two",
+     "url": "https://www.ibiblio.org/hyperwar/PTO/Magic/COMINT-CoralSea/PartTwo.html"
+    }
+   ]
+  },
+  {
+   "id": "simard",
+   "short": "Midway radio",
+   "name": "Cyril Thomas Simard (Naval Air Station Midway)",
+   "life": "fl. 1942",
+   "role": "Captain, USN; commanding officer, Naval Air Station Midway, whose radio and cable stations sent the bait message and relayed the patrol reports",
+   "side": "United States Navy and Marine Corps, Midway Atoll",
+   "where": "Sand and Eastern Islands, Midway Atoll",
+   "lat": 28.21,
+   "lon": -177.38,
+   "vantage": 1,
+   "vantage_label": "the bait and the target",
+   "form": "station dispatches and action reports (US Navy records)",
+   "language": "English",
+   "authenticity": "Midway's transmissions and radar times are recorded in the CINCPAC action report and the ONI Combat Narrative (1943). The exact wording and date of the water-shortage report are not preserved in the sources consulted.",
+   "bio": "Midway was both the subject of the codebreakers' argument and the relay station for the search planes. Its men sent a false complaint about water, then watched the real attack come in on radar on 4 June.",
+   "sources": [
+    {
+     "title": "CINCPAC action report, 28 June 1942",
+     "url": "https://www.history.navy.mil/research/archives/digital-exhibits-highlights/action-reports/wwii-battle-of-midway/commander-in-chief-pacific-fleet.html"
+    },
+    {
+     "title": "ONI Combat Narrative: The Battle of Midway (1943)",
+     "url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/b/battle-of-midway-3-6-june-1942-combat-narrative.html"
+    }
+   ]
+  },
+  {
+   "id": "reid",
+   "short": "Reid",
+   "name": "Jewell Harmon 'Jack' Reid",
+   "life": "fl. 1942",
+   "role": "Ensign, USN; patrol plane commander, Patrol Squadron 44, flying PBY-5A 44-P-4 from Midway",
+   "side": "United States Navy",
+   "where": "Over the Pacific about 700 miles west of Midway",
+   "lat": 26.4,
+   "lon": 169.6,
+   "waypoints": [
+    {
+     "lat": 28.21,
+     "lon": -177.38,
+     "label": "Midway, departure 3 June"
+    },
+    {
+     "lat": 26.4,
+     "lon": 169.6,
+     "label": "Sighting c. 0900, 3 June"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "first eye on the enemy fleet",
+   "form": "radio contact report (US Navy record)",
+   "language": "English",
+   "authenticity": "The sighting's time, bearing and distance are in the CINCPAC report, which does not name the pilot; the crew list and the 'main body' report are from squadron histories summarised by This Day in Aviation.",
+   "bio": "Reid's crew, near the end of a long search leg, found the transport and escort group bound to occupy Midway and reported it as the enemy's main force. It was the first visual confirmation of what the decrypts had said.",
+   "sources": [
+    {
+     "title": "This Day in Aviation, 3 June 1942",
+     "url": "https://thisdayinaviation.com/?p=2261"
+    },
+    {
+     "title": "CINCPAC action report",
+     "url": "https://www.history.navy.mil/research/archives/digital-exhibits-highlights/action-reports/wwii-battle-of-midway/commander-in-chief-pacific-fleet.html"
+    }
+   ]
+  },
+  {
+   "id": "ady",
+   "short": "Ady",
+   "name": "Howard Parmele Ady Jr.",
+   "life": "fl. 1942",
+   "role": "Lieutenant, USN; PBY patrol plane commander, Patrol Squadron 23, Midway",
+   "side": "United States Navy",
+   "where": "North-west of Midway, about 180 miles out",
+   "lat": 30.5,
+   "lon": -179.6,
+   "waypoints": [
+    {
+     "lat": 28.21,
+     "lon": -177.38,
+     "label": "Midway lagoon, pre-dawn 4 June"
+    },
+    {
+     "lat": 30.5,
+     "lon": -179.6,
+     "label": "Carrier sighting, about 0552"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "search pilot who found the carriers",
+   "form": "radio contact reports (US Navy record)",
+   "language": "English",
+   "authenticity": "The times and content of the 4 June PBY reports are in the CINCPAC report and the ONI Combat Narrative, which do not name the pilots; the attribution to Ady (carriers) and Lt (jg) William Chase (planes heading for Midway) follows standard histories.",
+   "bio": "Ady's report of two carriers, with bearing, distance, course and speed, was the message Nimitz's plan had been built to receive. It reached Fletcher's and Spruance's carriers within minutes and set the American strike in motion.",
+   "sources": [
+    {
+     "title": "CINCPAC action report, para. 18",
+     "url": "https://www.history.navy.mil/research/archives/digital-exhibits-highlights/action-reports/wwii-battle-of-midway/commander-in-chief-pacific-fleet.html"
+    },
+    {
+     "title": "ONI Combat Narrative (1943)",
+     "url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/b/battle-of-midway-3-6-june-1942-combat-narrative.html"
+    }
+   ]
+  },
+  {
+   "id": "amari",
+   "short": "Amari",
+   "name": "Amari Hiroshi",
+   "life": "fl. 1942",
+   "role": "Petty Officer First Class, Imperial Japanese Navy; pilot of the cruiser Tone's No. 4 reconnaissance seaplane",
+   "side": "Imperial Japanese Navy, Mobile Force (Kidō Butai)",
+   "where": "Search line north-east of Midway",
+   "lat": 31.9,
+   "lon": -176.7,
+   "waypoints": [
+    {
+     "lat": 30.4,
+     "lon": -178.8,
+     "label": "Launch from Tone, about 0500 (Midway time)"
+    },
+    {
+     "lat": 31.9,
+     "lon": -176.7,
+     "label": "Sights US ships, about 0728"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "Japanese scout who found the American fleet",
+   "form": "radio reports as logged in Nagumo's battle report",
+   "language": "Japanese",
+   "authenticity": "His reports are logged with Tokyo times in the First Air Fleet's Detailed Battle Report No. 6, translated by ONI in 1947. The late launch is discussed in the Japanese official history (Senshi Sōsho) and by Parshall and Tully; its cause is uncertain.",
+   "bio": "Launched about half an hour after the other scouts, Amari's float plane found the American task force and reported it imprecisely, first without and then with a carrier. His messages, some of them answered in plain language, were overheard by American radio intelligence.",
+   "sources": [
+    {
+     "title": "ONI, The Japanese Story of the Battle of Midway (1947)",
+     "url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/j/japanese-story-of-the-battle-of-midway.html"
+    },
+    {
+     "title": "NHHC H-Gram 006-3",
+     "url": "https://history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-006/h-006-3.html"
+    }
+   ]
+  },
+  {
+   "id": "nagumo",
+   "short": "Nagumo",
+   "name": "Nagumo Chūichi",
+   "life": "1887–1944",
+   "role": "Vice Admiral, 55; commander, First Air Fleet (the carrier striking force), flagship Akagi",
+   "side": "Imperial Japanese Navy",
+   "where": "Bridge of the carrier Akagi, north-west of Midway",
+   "lat": 30.6,
+   "lon": -179.1,
+   "waypoints": [
+    {
+     "lat": 34.17,
+     "lon": 132.36,
+     "label": "Hashirajima anchorage, sailed 27 May (Tokyo date)"
+    },
+    {
+     "lat": 30.6,
+     "lon": -179.1,
+     "label": "Off Midway, 4 June (Midway date)"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "commander receiving the scout reports",
+   "form": "official battle report (translated by US Navy)",
+   "language": "Japanese",
+   "authenticity": "First Air Fleet Detailed Battle Report No. 6 (27 May–9 June 1942) survives in ONI's 1947 translation, OPNAV P32-1002, published by NHHC. The translator notes some times may be mistyped.",
+   "bio": "Nagumo commanded the carriers that had struck Pearl Harbor. His staff's report records the belief that the enemy knew nothing of the plan and the sequence of rearming orders that the scout reports overtook.",
+   "sources": [
+    {
+     "title": "ONI, The Japanese Story of the Battle of Midway (1947)",
+     "url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/j/japanese-story-of-the-battle-of-midway.html"
+    }
+   ]
+  },
+  {
+   "id": "ugaki",
+   "short": "Ugaki",
+   "name": "Ugaki Matome",
+   "life": "1890–1945",
+   "role": "Rear Admiral, 52; chief of staff, Combined Fleet, aboard the flagship Yamato with Admiral Yamamoto",
+   "side": "Imperial Japanese Navy, Combined Fleet",
+   "where": "Battleship Yamato, several hundred miles behind the carriers",
+   "lat": 33.0,
+   "lon": 173.5,
+   "waypoints": [
+    {
+     "lat": 34.17,
+     "lon": 132.36,
+     "label": "Hashirajima, war games 1–4 May"
+    },
+    {
+     "lat": 33.0,
+     "lon": 173.5,
+     "label": "Main Body at sea, 4–5 June (approx. position)"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "fleet staff hundreds of miles astern",
+   "form": "diary",
+   "language": "Japanese",
+   "authenticity": "Ugaki's diary (Sensōroku) was kept by his family; most volumes are at the Etajima naval history museum. English translation by Masataka Chihaya, edited by Goldstein and Dillon, published as Fading Victory (1991). Digest only. Combined Fleet decisions noted here from NSA's history are not diary text.",
+   "bio": "Ugaki ran the pre-battle war games and kept a daily diary throughout the war. At Midway he could only read signals from a battle he could not reach, and afterward he wrote about why it had gone wrong.",
+   "sources": [
+    {
+     "title": "Fading Victory, Pacific War Museum library record",
+     "url": "https://www.pacificwarmuseum.org/research-collections/library/fading-victory-admiral-matome-ugaki-diary"
+    },
+    {
+     "title": "Pacific Wrecks review of Fading Victory",
+     "url": "https://pacificwrecks.com/reviews/fading-victory.html"
+    }
+   ]
+  },
+  {
+   "id": "fuchida",
+   "short": "Fuchida",
+   "name": "Fuchida Mitsuo",
+   "life": "1902–1976",
+   "role": "Commander, 39; air group commander of Akagi, kept off flying by an appendectomy and watching from the ship",
+   "side": "Imperial Japanese Navy",
+   "where": "Aboard Akagi",
+   "lat": 30.62,
+   "lon": -179.08,
+   "vantage": 1,
+   "vantage_label": "aboard the flagship, writing later",
+   "form": "memoir (written later)",
+   "language": "Japanese",
+   "authenticity": "Midway: The Battle That Doomed Japan (with Okumiya Masatake; Japanese 1951, English 1955) was long the standard Japanese account. Parshall and Tully (Shattered Sword, 2005), using Japanese records, showed key claims to be wrong; NHHC's museum notes his story of the war games is uncorroborated. Flagged as a later account with known errors.",
+   "bio": "Fuchida led the Pearl Harbor strike and at Midway was a bystander in pain on the flagship. His book shaped the postwar story of the battle, including the idea that the carriers were minutes from launching when they were hit.",
+   "sources": [
+    {
+     "title": "Naval War College Museum on the war games and Fuchida's account",
+     "url": "https://navalwarcollegemuseum.blogspot.com/2021/06/you-sank-my-aircraft-carrier-did.html"
+    },
+    {
+     "title": "NHHC H-Gram 006-1",
+     "url": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-006/h-006-1.html"
+    }
+   ]
+  },
+  {
+   "id": "johnston",
+   "short": "Johnston",
+   "name": "Stanley Johnston",
+   "life": "1900–1962",
+   "role": "War correspondent, Chicago Tribune, about 42; survivor of the carrier Lexington at Coral Sea",
+   "side": "American press",
+   "where": "Transport USS Barnett, then Chicago",
+   "lat": 41.89,
+   "lon": -87.62,
+   "waypoints": [
+    {
+     "lat": -15.5,
+     "lon": 155.0,
+     "label": "Lexington lost, Coral Sea, 8 May"
+    },
+    {
+     "lat": 32.7,
+     "lon": -117.17,
+     "label": "Barnett to San Diego, early June"
+    },
+    {
+     "lat": 41.89,
+     "lon": -87.62,
+     "label": "Chicago Tribune, 7 June"
+    }
+   ],
+   "vantage": 4,
+   "vantage_label": "reporter who printed the secret",
+   "form": "newspaper story and grand-jury testimony",
+   "language": "English",
+   "authenticity": "The 7 June 1942 article and the investigation are documented by government records released in 2016 and published by the National Security Archive. Johnston's own explanations changed over time.",
+   "bio": "Travelling home with Lexington's survivors, Johnston saw a copy of Nimitz's 31 May dispatch listing the Japanese ships. His story implied the Navy had read Japanese plans in advance, risking the codebreakers' greatest secret.",
+   "sources": [
+    {
+     "title": "National Security Archive: when the US government prosecuted the Chicago Tribune",
+     "url": "https://nsarchive.gwu.edu/briefing-book/intelligence/2017-10-25/secrecy-leaks-when-us-government-prosecuted-chicago-tribune"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1942-03-07",
+   "date_display": "Saturday 7 March 1942",
+   "precision": "day",
+   "eye": "fabian",
+   "place": "Corregidor (Station Cast), Philippines",
+   "headline": "Corregidor ties the code-letters 'AF' to Midway",
+   "digest": "Japanese messages about a second flying-boat raid on Pearl Harbor in early March used the designator AF for a place near Hawaii. The Navy unit still on Corregidor, Fabian's former command, identified AF as Midway on 7 March, and Hawaii agreed. The identification would be argued over again two months later.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Parker, A Priceless Advantage, Part Two (Corregidor identification, 7 March 1942)."
+  },
+  {
+   "date_iso": "1942-03-20",
+   "date_display": "Friday 20 March 1942",
+   "precision": "day",
+   "eye": "fabian",
+   "place": "Melbourne",
+   "headline": "The Melbourne unit opens and reaffirms AF as Midway",
+   "digest": "With Corregidor about to fall, Fabian's evacuated codebreakers began work in Melbourne alongside Australian and British colleagues. On activation they confirmed the Corregidor reading of AF. Three stations, in Melbourne, Hawaii and Washington, now worked the same Japanese naval traffic.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Parker, Part Two (Melbourne activated 20 March; AF reaffirmed)."
+  },
+  {
+   "date_iso": "1942-05-01",
+   "date_display": "1–4 May 1942 (Tokyo time)",
+   "precision": "range",
+   "eye": "ugaki",
+   "place": "Battleship Yamato, Hashirajima anchorage",
+   "headline": "Chief umpire of the Midway war games",
+   "digest": "Ugaki ran the Combined Fleet's war games for the Midway operation aboard Yamato. According to Fuchida's later account, he overruled a dice result that would have sunk two carriers to land-based bombers, reducing the damage. Records of the games did not survive, and no other witness confirms the story.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Naval War College Museum (2021), citing Fuchida as sole source; Parshall & Tully as discussed there."
+  },
+  {
+   "date_iso": "1942-05-13",
+   "date_display": "Wednesday 13 May 1942",
+   "precision": "day",
+   "eye": "nimitz",
+   "place": "CINCPAC headquarters, Pearl Harbor",
+   "headline": "Ships posted at French Frigate Shoals",
+   "digest": "Nimitz ordered surface ships to patrol French Frigate Shoals, the lagoon Japanese flying boats had used to refuel for the March raid. The move later helped block the Japanese plan to reconnoitre Pearl Harbor by flying boat before the battle. It was one of the first concrete steps taken on the strength of the decrypts.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Parker, Part Two (Nimitz decisions, 13 May)."
+  },
+  {
+   "date_iso": "1942-05-15",
+   "date_display": "c. 15–21 May 1942",
+   "precision": "range",
+   "eye": "redman",
+   "place": "Navy Department, Washington",
+   "headline": "Washington doubts that AF is Midway",
+   "digest": "In mid-May, voices in OP-20-G and the War Plans Division questioned Hawaii's identification, suggesting the target might be elsewhere, even the US West Coast or Hawaii itself. OP-20-G accepted the AF–Midway link only as a communications designator. Washington also tended to expect the blow later than Hawaii did.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Parker, Part Two (Washington doubts, c. 15–21 May; alternatives named)."
+  },
+  {
+   "date_iso": "1942-05-16",
+   "date_display": "Saturday 16 May 1942",
+   "precision": "day",
+   "eye": "nimitz",
+   "place": "CINCPAC headquarters, Pearl Harbor",
+   "headline": "Nimitz tells King he expects a landing at Midway",
+   "digest": "Two days after warning of possible attacks on Hawaii or the West Coast, Nimitz advised Admiral King that he expected a major landing attack against Midway. The same day he recalled Halsey's carriers from the South Pacific. The running estimate had settled on the Hypo reading.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Schorreck, SRH-230 (14 and 16 May messages to King); Parker, Part Two (Halsey recalled 16 May)."
+  },
+  {
+   "date_iso": "1942-05-17",
+   "date_display": "Sunday 17 May 1942",
+   "precision": "day",
+   "eye": "redman",
+   "place": "Washington",
+   "headline": "King's staff gives a window of 30 May to 10 June",
+   "digest": "Admiral King's estimate put the attack somewhere between 30 May and 10 June. NSA's historian later called this window inspired guesswork. It shows Washington and Pearl Harbor converging on Midway while still differing on timing.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Parker, Part Two (King's estimate of 17 May)."
+  },
+  {
+   "date_iso": "1942-05-18",
+   "date_display": "18 or 19 May 1942 (Hawaii date)",
+   "precision": "range",
+   "eye": "holmes",
+   "place": "Station Hypo, Pearl Harbor",
+   "headline": "A bait message by undersea cable",
+   "digest": "To settle the AF argument, Hypo proposed a test: Midway would report in the clear that its fresh-water distillation plant had failed. The instructions went to Midway by the submarine cable from Honolulu, which the Japanese could not intercept. Holmes is credited in later accounts with the idea; NSA's historian notes there is no direct documentary proof of the episode.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Parker, Part Two (cable sent 18 or 19 May, with CINCPAC approval); Rochefort article summarising Holmes's role."
+  },
+  {
+   "date_iso": "1942-05-19",
+   "date_display": "19 or 20 May 1942 (Midway date)",
+   "precision": "range",
+   "eye": "simard",
+   "place": "Naval Air Station Midway",
+   "headline": "Midway complains about its water",
+   "digest": "Midway's radio sent the agreed plain-language report of a breakdown in its distillation plant and an urgent need for water. Commandant 14th Naval District's reply promised water barges. The wording of the transmission is not preserved in the sources consulted.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Schorreck, SRH-230 (plain-language report; Com 14 reply); Parker, Part Two (date range)."
+  },
+  {
+   "date_iso": "1942-05-19",
+   "date_display": "Tuesday 19 May 1942",
+   "precision": "day",
+   "eye": "layton",
+   "place": "CINCPAC headquarters, Pearl Harbor",
+   "headline": "Layton names Midway and Dutch Harbor as targets",
+   "digest": "Layton's summary for Nimitz identified Midway and Dutch Harbor in the Aleutians as the objectives, with Saipan and Ominato as assembly points for the Japanese forces. He and Rochefort were then expecting a combined operation at the end of May. The date would later move to early June.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Parker, Part Two (Layton's 19 May summary)."
+  },
+  {
+   "date_iso": "1942-05-20",
+   "date_display": "Wednesday 20 May 1942",
+   "precision": "day",
+   "eye": "holmes",
+   "place": "Station Hypo, Pearl Harbor",
+   "headline": "The enemy repeats the bait",
+   "digest": "A Japanese intelligence report dated the 20th passed on the news that AF was short of water. In Holmes's and Layton's later accounts Hypo read it quickly and felt vindicated. The same day the Japanese revised their place designators, and the new code for AF was MI.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Schorreck, SRH-230 (Japanese report; 20 May designator change); later memoir accounts."
+  },
+  {
+   "date_iso": "1942-05-21",
+   "date_display": "22 May 1942 (Melbourne date; 21–22 May at Midway)",
+   "precision": "range",
+   "eye": "fabian",
+   "place": "Melbourne",
+   "headline": "Melbourne publishes 'AF is short of water'",
+   "digest": "Melbourne issued its translation of the 20 May Japanese message on 22 May, by its own date. NSA's history credits this translation with ending the AF controversy. Hypo's and Melbourne's claims to have read the message first are both made in the literature.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Parker, Part Two (Melbourne translation of 22 May of the message of the 20th). date_iso placed on the Midway date."
+  },
+  {
+   "date_iso": "1942-05-22",
+   "date_display": "Friday 22 May 1942",
+   "precision": "day",
+   "eye": "nimitz",
+   "place": "Pearl Harbor",
+   "headline": "Strict radio silence for the carriers",
+   "digest": "Nimitz ordered his carriers to observe strict radio silence. Having learned so much from Japanese transmissions, his staff tried to give the enemy no equivalent chance. Japanese analysts later noticed a rise in urgent traffic from Pearl Harbor even so.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Parker, Part Two (22 May order; Japanese traffic analysis)."
+  },
+  {
+   "date_iso": "1942-05-24",
+   "date_display": "0100, 25 May 1942 Melbourne time (24 May at Midway and Hawaii)",
+   "precision": "day",
+   "eye": "fabian",
+   "place": "Melbourne",
+   "headline": "Melbourne recovers groups for 'Midway' and 'attack'",
+   "digest": "Working on garbled traffic in the small hours, a Melbourne cryptanalyst recovered the code groups for Midway and for attack, and the unit alerted Hawaii and Washington. In this account Rochefort had found the same message but not yet broken it. All three stations then rebuilt it together.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Schorreck, SRH-230 (0100, 25 May, Melbourne)."
+  },
+  {
+   "date_iso": "1942-05-25",
+   "date_display": "Monday 25 May 1942 (Hawaii date)",
+   "precision": "day",
+   "eye": "rochefort",
+   "place": "Station Hypo, Pearl Harbor",
+   "headline": "The date cipher gives 3 June and 4 June",
+   "digest": "Hypo recovered the cipher the Japanese used to encode dates, and Rochefort used it to predict an Aleutians attack on 3 June and a Midway attack on 4 June. Nimitz adopted these dates despite objections from his staff. Credit is disputed: NSA's Parker gives it to Hypo (Layton named Lt Joseph Finnegan, with Wesley Wright), while SRH-230 gives the first break to Melbourne.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Parker, Part Two (Hypo, 25 May); Schorreck, SRH-230 (Melbourne); Layton's later credit to Finnegan as summarised in the Rochefort article."
+  },
+  {
+   "date_iso": "1942-05-27",
+   "date_display": "Wednesday 27 May 1942 (Tokyo date)",
+   "precision": "day",
+   "eye": "nagumo",
+   "place": "Hashirajima anchorage, Inland Sea",
+   "headline": "The carriers sail believing they are unseen",
+   "digest": "The First Air Fleet's battle report begins on 27 May, the day the carriers left. Its estimate held that the enemy did not know the plan and had no carrier force nearby. The report later admits the staff never learned where or how many American carriers there were.",
+   "quote": "The enemy is not aware of our plans.",
+   "confidence": "verified",
+   "source_note": "ONI translation (1947) of First Air Fleet Detailed Battle Report No. 6."
+  },
+  {
+   "date_iso": "1942-05-27",
+   "date_display": "Wednesday 27 May 1942",
+   "precision": "day",
+   "eye": "layton",
+   "place": "CINCPAC headquarters, Pearl Harbor",
+   "headline": "Layton's forecast: north-west, at dawn on 4 June",
+   "digest": "Pressed by Nimitz to be specific, Layton forecast that the carriers would attack on the morning of 4 June from the north-west, about 325 degrees, and be sighted about 175 miles from Midway. His 1985 memoir gives the time as about 0700 local; NHHC's summary gives 0600. Both versions come from his later account.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Layton, And I Was There (1985), p. 430, as summarised by USNI/Steeljaw Scribe; NHHC H-Gram 006-1."
+  },
+  {
+   "date_iso": "1942-05-27",
+   "date_display": "Wednesday 27 May 1942",
+   "precision": "day",
+   "eye": "rochefort",
+   "place": "Station Hypo, Pearl Harbor",
+   "headline": "A new cipher, and the lights go out",
+   "digest": "The Japanese introduced a new set of additive tables for JN-25, which made nearly all later messages unreadable. Radio silence on 28–29 May cut readable traffic still further. From here on Hypo had only call signs, traffic patterns and what it already knew.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Parker, Part Two (new JN-25 cipher from 27 May; radio silence 28–29 May); Schorreck dates the change 28 May."
+  },
+  {
+   "date_iso": "1942-05-28",
+   "date_display": "Thursday 28 May 1942",
+   "precision": "day",
+   "eye": "nimitz",
+   "place": "Pearl Harbor",
+   "headline": "The principle of calculated risk",
+   "digest": "With Operation Plan 29-42 issued, Nimitz's letter of instruction told his carrier admirals to avoid exposing their forces without good prospect of inflicting greater damage. Spruance's Task Force 16 sailed that day, Fletcher's Task Force 17 with the hastily repaired Yorktown two days later. The plan was an ambush built on decrypts.",
+   "quote": "governed by the principle of calculated risk",
+   "confidence": "verified",
+   "source_note": "NHHC H-Gram 006-1 ('calculated risk'; Point Luck); Parker, Part Two (TF dates)."
+  },
+  {
+   "date_iso": "1942-05-30",
+   "date_display": "c. 30 May 1942",
+   "precision": "day",
+   "eye": "ugaki",
+   "place": "Yamato, at sea",
+   "headline": "Warnings the flagship kept to itself",
+   "digest": "Combined Fleet's radio intelligence unit noted heavy urgent traffic from Pearl Harbor and a submarine report that suggested the transports had been spotted, and detected signs of a carrier leaving. NSA's historian records that Yamamoto's staff did not pass these warnings to Nagumo's carriers. This entry draws on NSA's history, not on Ugaki's diary.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Parker, Part Two (Japanese COMINT; information withheld from the Striking Force)."
+  },
+  {
+   "date_iso": "1942-05-31",
+   "date_display": "Sunday 31 May 1942",
+   "precision": "day",
+   "eye": "nimitz",
+   "place": "Pearl Harbor",
+   "headline": "A dispatch listing the enemy fleet",
+   "digest": "Nimitz sent his forces a secret dispatch giving the Japanese order of battle, with carrier names. It was decoded aboard the transport Barnett, among other ships. Its close match with a newspaper story a week later began the leak investigation.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "National Security Archive, Doc. 03 (31 May 1942 dispatch) and Doc. 04 (ONI comparison)."
+  },
+  {
+   "date_iso": "1942-06-01",
+   "date_display": "c. 31 May–early June 1942",
+   "precision": "range",
+   "eye": "johnston",
+   "place": "Transport USS Barnett, Pacific",
+   "headline": "A correspondent sees the dispatch",
+   "digest": "Aboard Barnett with Lexington's survivors, Johnston had access to the ship's radio traffic. He first said he had overheard officers discussing the Nimitz message, later that he had seen ship names on a note on a table. Navy inquiries found Lexington's executive officer may have let him see it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "National Security Archive briefing book (Johnston's changing accounts; Seligman)."
+  },
+  {
+   "date_iso": "1942-06-03",
+   "date_display": "Wednesday 3 June 1942, about 0900 (Midway time, zone +12)",
+   "precision": "day",
+   "eye": "reid",
+   "place": "About 700 miles west of Midway, bearing 261",
+   "headline": "'Main body' — the first sighting",
+   "digest": "Near the end of his search leg, Reid sighted a large group of ships, later counted as eleven, about 700 miles from Midway. His crew reported it as the enemy's main body, though it was in fact the transport and escort group carrying troops to occupy Midway. He shadowed it for hours before turning back.",
+   "quote": "Main body",
+   "confidence": "verified",
+   "source_note": "CINCPAC report para. 13 (time, bearing, distance); This Day in Aviation (crew, 'main body')."
+  },
+  {
+   "date_iso": "1942-06-03",
+   "date_display": "Wednesday 3 June 1942, afternoon (Midway time)",
+   "precision": "day",
+   "eye": "simard",
+   "place": "Naval Air Station Midway",
+   "headline": "Midway sends its bombers after the sighting",
+   "digest": "On Reid's report Midway launched nine Army B-17s, which attacked the group at about 1523, reporting hits and black smoke that no Japanese record supports. That night PBYs went out again to attack by moonlight. Nimitz signalled his task forces that the carriers were the key target.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "CINCPAC report paras. 13–16; Parker, Part Two (3 June message to task forces)."
+  },
+  {
+   "date_iso": "1942-06-03",
+   "date_display": "Wednesday 3 June 1942",
+   "precision": "day",
+   "eye": "nimitz",
+   "place": "Pearl Harbor",
+   "headline": "Not the carriers, says Nimitz",
+   "digest": "Reading Reid's report, Nimitz warned his commanders that the force sighted was not the striking force and that the carriers remained the target. The forecast said they would come from the north-west the next morning. The carriers held their position north-east of Midway.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Parker, Part Two (3 June); NHHC H-Gram 006-1."
+  },
+  {
+   "date_iso": "1942-06-04",
+   "date_display": "Thursday 4 June 1942, about 0500 (Midway time; 0200, 5 June Tokyo time)",
+   "precision": "day",
+   "eye": "amari",
+   "place": "Cruiser Tone, north-west of Midway",
+   "headline": "Tone's No. 4 plane launches late",
+   "digest": "Japanese scouts went out between about 0430 and 0500 Midway time along search lines fanning east and south. Tone's No. 4 plane, assigned the line that would cross the American carriers, left last, about half an hour behind the earliest. The reason, often given as catapult trouble, is uncertain.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ONI 1947 translation (launch 0130–0200 Tokyo time; Tone No. 4 at 0200); NHHC H-Gram 006-3 (late, reasons unknown)."
+  },
+  {
+   "date_iso": "1942-06-04",
+   "date_display": "Thursday 4 June 1942, 0545–0552 (Midway time)",
+   "precision": "day",
+   "eye": "ady",
+   "place": "About 150–180 miles north-west of Midway",
+   "headline": "'Many planes heading Midway'; then two carriers",
+   "digest": "At 0545 one PBY reported many planes heading for Midway, 150 miles out on bearing 320. Seven minutes later Ady's PBY reported two of the enemy carriers at 180 miles, with course and speed. The bearing matched the forecast; the American carriers began turning toward the enemy.",
+   "quote": "Many planes heading Midway, bearing 320, distance 150",
+   "confidence": "verified",
+   "source_note": "CINCPAC report para. 18; ONI Combat Narrative (text of the 0545 report). Pilot attributions from standard histories."
+  },
+  {
+   "date_iso": "1942-06-04",
+   "date_display": "Thursday 4 June 1942, 0550–0633 (Midway time)",
+   "precision": "day",
+   "eye": "simard",
+   "place": "Midway Atoll",
+   "headline": "Radar picks up the raid at 93 miles",
+   "digest": "Midway's radar detected the incoming formation about 93 miles out, and the island's planes took off. Marine fighters met the raid at about 0616. The first bomb fell at about 0630 by the ONI narrative, 0633 by Nimitz's report; dive bombing and strafing went on for about seventeen minutes.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ONI Combat Narrative (radar; 0630); CINCPAC report paras. 19–20 (0615 contact; 0633)."
+  },
+  {
+   "date_iso": "1942-06-04",
+   "date_display": "Thursday 4 June 1942, 0715 (Midway time; 0415, 5 June Tokyo time)",
+   "precision": "day",
+   "eye": "nagumo",
+   "place": "Akagi",
+   "headline": "Rearm for Midway",
+   "digest": "After the strike leader signalled that a second attack on Midway was needed, Nagumo ordered the reserve aircraft, held ready against ships, to be re-equipped with bombs for land targets. No scout had yet reported American ships. Torpedoes were removed from the attack planes in the hangars.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ONI 1947 translation (0415 Tokyo order); NHHC H-Gram 006-3 (0715 local)."
+  },
+  {
+   "date_iso": "1942-06-04",
+   "date_display": "Thursday 4 June 1942, 0728 (Midway time; 0428, 5 June Tokyo time)",
+   "precision": "day",
+   "eye": "amari",
+   "place": "North-east of Midway",
+   "headline": "'Ten enemy surface ships'",
+   "digest": "Amari reported what appeared to be ten enemy surface ships, giving a position that later analysis found inaccurate. Nagumo's staff demanded to know their type, and American radio intelligence overheard the exchange. Further reports listed cruisers and destroyers.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ONI 1947 translation (0428 and 0509 Tokyo-time reports); NHHC H-Gram 006-3 (US interception)."
+  },
+  {
+   "date_iso": "1942-06-04",
+   "date_display": "Thursday 4 June 1942, 0820 (Midway time; 0520, 5 June Tokyo time)",
+   "precision": "day",
+   "eye": "amari",
+   "place": "North-east of Midway",
+   "headline": "'What appears to be a carrier'",
+   "digest": "Amari's plane reported that the enemy force seemed to include a carrier. On Akagi, Nagumo halted the rearming and ordered torpedoes back on, while recovering his Midway strike. The scout then cut its search short.",
+   "quote": "The enemy is accompanied by what appears to be a carrier.",
+   "confidence": "verified",
+   "source_note": "ONI 1947 translation (0520 Tokyo-time report); NHHC H-Gram 006-3 (0820 local; rearming halted)."
+  },
+  {
+   "date_iso": "1942-06-04",
+   "date_display": "Thursday 4 June 1942, about 1022 (Midway time)",
+   "precision": "day",
+   "eye": "fuchida",
+   "place": "Akagi",
+   "headline": "On the flight deck, by his later account",
+   "digest": "Watching from Akagi as American dive bombers struck, Fuchida later wrote that the carriers had been about to launch, with planes spotted on deck. Parshall and Tully showed from Japanese records that the strike was still far from ready, with many aircraft below in the hangars. NHHC puts the carriers more than 45 minutes from launch.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "NHHC H-Gram 006-1 ('over 45 minutes'); Naval War College Museum (planes still in hangars); Fuchida's 1951/1955 book as discussed there."
+  },
+  {
+   "date_iso": "1942-06-04",
+   "date_display": "5 June 1942 (Tokyo date; 4 June at Midway)",
+   "precision": "day",
+   "eye": "ugaki",
+   "place": "Yamato",
+   "headline": "The diary on the day the carriers burned",
+   "digest": "Ugaki's diary follows the battle from the flagship as signals arrived reporting first three carriers and then the fourth on fire. He records the staff's attempts to bring forces together for a night engagement, which came to nothing. The operation was cancelled in the early hours.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Fading Victory (1991), diary for early June 1942 (Tokyo dates)."
+  },
+  {
+   "date_iso": "1942-06-04",
+   "date_display": "4–6 June 1942",
+   "precision": "range",
+   "eye": "nimitz",
+   "place": "CINCPAC headquarters, Pearl Harbor",
+   "headline": "Reports flow in to Pearl Harbor",
+   "digest": "At Pearl Harbor, the CINCPAC staff followed the battle through Midway's relayed reports and fragmentary carrier signals kept short by radio silence. Nimitz's report later recorded four Japanese carriers sunk. The costs were heavy on both sides: about 307 Americans and more than 3,000 Japanese were killed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "CINCPAC report (carriers sunk); NHHC H-Gram 006-1 (casualty figures)."
+  },
+  {
+   "date_iso": "1942-06-04",
+   "date_display": "4 June 1942 (as told in his 1985 memoir)",
+   "precision": "day",
+   "eye": "layton",
+   "place": "CINCPAC headquarters, Pearl Harbor",
+   "headline": "'Five minutes, five degrees, five miles'",
+   "digest": "In Layton's memoir, Nimitz greeted the first contact reports by telling him the forecast had been off by only a few minutes, degrees and miles. The remark is known only from Layton's own later account. It has become one of the battle's best-known stories.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "NHHC H-Gram 006-1 (Nimitz's remark, from Layton's account); Layton, And I Was There (1985)."
+  },
+  {
+   "date_iso": "1942-06-05",
+   "date_display": "Friday 5 June 1942",
+   "precision": "day",
+   "eye": "redman",
+   "place": "Washington",
+   "headline": "New codes for the American side",
+   "digest": "Washington ordered new terminology and transmission systems on 5 June. The concern was that Japan might deduce, from American foreknowledge, that its codes were read, and also that American systems were exposed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Parker, Part Two (5 June mandate)."
+  },
+  {
+   "date_iso": "1942-06-06",
+   "date_display": "c. 6–10 June 1942 (Tokyo dates)",
+   "precision": "range",
+   "eye": "ugaki",
+   "place": "Yamato, returning to Japan",
+   "headline": "Counting the causes",
+   "digest": "In the days after the battle, Ugaki's diary turned to why it had been lost. Among other failings he judged that the submarines had not been used well for reconnaissance; the screening line arrived after the American carriers had passed.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Diary reference via drmanhattan16 Substack, 'How Japan lost the Battle of Midway, pt. 5' (entry date not given)."
+  },
+  {
+   "date_iso": "1942-06-07",
+   "date_display": "Sunday 7 June 1942",
+   "precision": "day",
+   "eye": "johnston",
+   "place": "Chicago",
+   "headline": "'Navy Had Word of Jap Plan to Strike at Sea'",
+   "digest": "The Chicago Tribune's Sunday edition carried Johnston's story, datelined Washington by an editor, describing the Japanese forces in detail and implying advance knowledge. It closely matched Nimitz's 31 May dispatch. It also claimed only two carriers sunk.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "National Security Archive briefing book (date, headline, editor's dateline, accuracy)."
+  },
+  {
+   "date_iso": "1942-06-28",
+   "date_display": "Sunday 28 June 1942",
+   "precision": "day",
+   "eye": "nimitz",
+   "place": "Pearl Harbor",
+   "headline": "The action report credits early information",
+   "digest": "Nimitz's report on the battle stated, in a sentence later much quoted, that without early information the result would have been very different. It gave all times in zone plus 12, Midway's time. The report did not name the codebreakers.",
+   "quote": "Had we lacked early information of the Japanese movement",
+   "confidence": "verified",
+   "source_note": "CINCPAC report, serial 01849 of 28 June 1942, paras. 13 and 69."
+  },
+  {
+   "date_iso": "1942-08-18",
+   "date_display": "Tuesday 18 August 1942",
+   "precision": "day",
+   "eye": "johnston",
+   "place": "Federal grand jury, Chicago",
+   "headline": "Testimony, and no indictment",
+   "digest": "Johnston testified before the grand jury convened at the Justice Department's direction. King refused to let naval intelligence officers testify, for fear of confirming the secret. The grand jury declined to indict anyone; Japan made no known change in response to the story.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "National Security Archive, Docs. 38–40 (testimony 13 and 18 August; outcome)."
+  },
+  {
+   "date_iso": "1942-10-15",
+   "date_display": "October 1942",
+   "precision": "month",
+   "eye": "redman",
+   "place": "Washington",
+   "headline": "The station rivalry settles a career",
+   "digest": "Accounts of Rochefort's transfer say a complaint from Commander John Redman to King contributed to the decision. OP-20-G's reorganisation brought Pacific codebreaking under tighter Washington control. The fairness of the move remains a matter of dispute.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Joseph Rochefort article (Redman complaint); Parker for the organisational context."
+  },
+  {
+   "date_iso": "1942-10-22",
+   "date_display": "c. 22 October 1942",
+   "precision": "day",
+   "eye": "rochefort",
+   "place": "Pearl Harbor",
+   "headline": "Called to Washington",
+   "digest": "Rochefort was ordered to Washington for temporary duty, which he saw as the first step to removal. He was not returned to codebreaking and was later given command of a floating dry dock. Nimitz's recommendation of a Distinguished Service Medal was refused by King; the medal was awarded posthumously in 1986.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "WW2DB, 22 October 1942; Rochefort article; NHHC profile (1986 award)."
+  },
+  {
+   "date_iso": "1951-01-01",
+   "date_display": "1951 (Japanese edition); 1955 (English)",
+   "precision": "year",
+   "eye": "fuchida",
+   "place": "Japan",
+   "headline": "A survivor's book becomes the standard account",
+   "digest": "Fuchida and Okumiya Masatake published their Midway book in Japan in 1951; the US Naval Institute issued it in English in 1955. For half a century it shaped the story of a strike only minutes from launch. Later research based on Japanese official records revised that picture.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Naval War College Museum (1951 book; errors); NHHC H-Gram 006-1."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1942-03-07",
+   "date_display": "7 March 1942",
+   "eye": "fabian",
+   "claim": "Corregidor unit → Hawaii/Washington: Japanese designator AF identified as Midway from raid-planning traffic; Hawaii concurs",
+   "form": "decrypt",
+   "evidence": "Parker, A Priceless Advantage, Part Two",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1942-05-16",
+   "date_display": "16 May 1942",
+   "eye": "nimitz",
+   "claim": "Nimitz (Pearl Harbor) → King (Washington): expects a major landing attack against Midway",
+   "form": "wireless",
+   "evidence": "Schorreck, SRH-230",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1942-05-17",
+   "date_display": "17 May 1942",
+   "eye": "redman",
+   "claim": "King's estimate (Washington): attack window 30 May–10 June; position in Washington still doubts AF = Midway (15–21 May)",
+   "form": "report",
+   "evidence": "Parker, Part Two",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1942-05-18",
+   "date_display": "18 or 19 May 1942",
+   "eye": "holmes",
+   "claim": "Pearl Harbor → Midway by submarine cable: instruct Midway to report a distiller failure in plain language",
+   "form": "cable",
+   "evidence": "Parker, Part Two; Schorreck, SRH-230; no direct documentary proof per Parker",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1942-05-19",
+   "date_display": "19 or 20 May 1942",
+   "eye": "simard",
+   "claim": "Midway → Com 14 (radio, plain language): distillation plant breakdown, fresh water urgently needed; Com 14 replies that water barges will be sent",
+   "form": "wireless",
+   "evidence": "Schorreck, SRH-230",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1942-05-20",
+   "date_display": "20 May 1942 (Japanese report); translated 22 May (Melbourne date)",
+   "eye": "fabian",
+   "claim": "Japanese intelligence report → fleet: AF short of water; read by Melbourne (translation issued 22 May) and by Hypo; priority claimed for both",
+   "form": "intercept",
+   "evidence": "Parker, Part Two; Schorreck, SRH-230",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1942-05-24",
+   "date_display": "0100, 25 May 1942 Melbourne (24 May Hawaii)",
+   "eye": "fabian",
+   "claim": "Melbourne → Hawaii and Washington: recovered code groups for 'Midway' and 'attack' in a garbled message",
+   "form": "decrypt",
+   "evidence": "Schorreck, SRH-230",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1942-05-25",
+   "date_display": "25 May 1942",
+   "eye": "rochefort",
+   "claim": "Hypo → CINCPAC: date cipher solved; Aleutians 3 June, Midway 4 June. Position (Parker; Layton): Hypo, Finnegan and Wright; position (SRH-230): Melbourne broke first",
+   "form": "decrypt",
+   "evidence": "Parker, Part Two; Schorreck, SRH-230",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1942-05-27",
+   "date_display": "27 May 1942",
+   "eye": "rochefort",
+   "claim": "Japanese fleet → all stations: new JN-25 additive tables in force; Allied reading largely stops until after the battle",
+   "form": "intercept",
+   "evidence": "Parker, Part Two (27 May); Schorreck (28 May)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1942-05-31",
+   "date_display": "31 May 1942",
+   "eye": "nimitz",
+   "claim": "CINCPAC → Pacific Fleet: secret dispatch giving Japanese order of battle; decoded aboard USS Barnett",
+   "form": "wireless",
+   "evidence": "National Security Archive, Docs. 03, 21",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1942-06-03",
+   "date_display": "3 June 1942, about 0900 Midway time",
+   "eye": "reid",
+   "claim": "PBY 44-P-4 → Midway: 'Main body', large group of ships bearing 261, 700 miles (the occupation force)",
+   "form": "wireless",
+   "evidence": "CINCPAC report para. 13; This Day in Aviation",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1942-06-04",
+   "date_display": "4 June 1942, 0545 and 0552 Midway time",
+   "eye": "ady",
+   "claim": "PBYs → Midway and fleet: 'Many planes heading Midway, bearing 320, distance 150'; seven minutes later two carriers at 180 miles",
+   "form": "wireless",
+   "evidence": "CINCPAC report para. 18; ONI Combat Narrative",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1942-06-04",
+   "date_display": "4 June 1942, 0728 Midway (0428, 5 June Tokyo)",
+   "eye": "amari",
+   "claim": "Tone No. 4 → Nagumo: about ten enemy surface ships, bearing 10°, 240 miles from Midway; Nagumo's query for type sent in the clear and overheard by US radio intelligence",
+   "form": "wireless",
+   "evidence": "ONI translation (1947); NHHC H-Gram 006-3",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1942-06-04",
+   "date_display": "4 June 1942, 0820 Midway (0520, 5 June Tokyo)",
+   "eye": "amari",
+   "claim": "Tone No. 4 → Nagumo: enemy apparently accompanied by a carrier; rearming reversed",
+   "form": "wireless",
+   "evidence": "ONI translation (1947); NHHC H-Gram 006-3",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1942-06-07",
+   "date_display": "7 June 1942",
+   "eye": "johnston",
+   "claim": "Chicago Tribune → public: Japanese order of battle and implied foreknowledge, matching the 31 May dispatch; no known Japanese reaction",
+   "form": "other",
+   "evidence": "National Security Archive briefing book",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1942-05-20",
+   "label": "The water bait, sent and taken (18–22 May)",
+   "eyes": [
+    "holmes",
+    "simard",
+    "fabian",
+    "redman"
+   ],
+   "note": "A cable no enemy could hear, a radio complaint every enemy could, and a Japanese report read in Melbourne and Pearl Harbor, which ended Washington's doubts. The Japanese side, as far as the record shows, never noticed it had been tested."
+  },
+  {
+   "date": "1942-05-25",
+   "label": "Breaking the date cipher (24–25 May)",
+   "eyes": [
+    "fabian",
+    "rochefort",
+    "layton"
+   ],
+   "note": "Melbourne's small-hours recovery and Hypo's solution fall within the same day across a 22-hour clock gap; the histories disagree on who was first, and the forecast Layton carried to Nimitz depended on both."
+  },
+  {
+   "date": "1942-05-27",
+   "label": "Forecast given, fleet sails, codes change",
+   "eyes": [
+    "layton",
+    "rochefort",
+    "nagumo",
+    "nimitz"
+   ],
+   "note": "On the same date Layton made his forecast, the Japanese changed their cipher tables, and Nagumo's carriers sailed confident the enemy knew nothing."
+  },
+  {
+   "date": "1942-06-03",
+   "label": "'Main body' — the wrong force, rightly found",
+   "eyes": [
+    "reid",
+    "simard",
+    "nimitz"
+   ],
+   "note": "Reid's sighting confirmed the decrypts but named the wrong force; Nimitz trusted the estimate over the excitement and kept his carriers waiting for the north-west."
+  },
+  {
+   "date": "1942-06-04",
+   "label": "Scouts cross: Ady finds the carriers, Amari finds the Americans",
+   "eyes": [
+    "ady",
+    "amari",
+    "nagumo",
+    "simard",
+    "layton",
+    "fuchida"
+   ],
+   "note": "Within three hours, each side's scout reported the other; the American report was precise and acted on at once, the Japanese report late and vague, and overheard by American listeners."
+  },
+  {
+   "date": "1942-06-04",
+   "label": "The battle read from far astern",
+   "eyes": [
+    "ugaki",
+    "nimitz",
+    "nagumo"
+   ],
+   "note": "On Yamato and at Pearl Harbor, two staffs read signals from a battle neither could see; Ugaki's diary dates it 5 June, Nimitz's report 4 June."
+  },
+  {
+   "date": "1942-06-07",
+   "label": "The secret in the Sunday paper",
+   "eyes": [
+    "johnston",
+    "nimitz",
+    "redman"
+   ],
+   "note": "Nimitz's 31 May dispatch reappeared in print; Washington tightened communications while prosecutors weighed whether a trial would disclose more than the article had."
+  },
+  {
+   "date": "1942-10-22",
+   "label": "The codebreaker is moved",
+   "eyes": [
+    "rochefort",
+    "redman"
+   ],
+   "note": "The quarrel between Pearl Harbor and Washington over credit and control ended with Rochefort's transfer, a decision still disputed."
+  }
+ ],
+ "ties": [
+  {
+   "a": "rochefort",
+   "b": "layton",
+   "kind": "met",
+   "note": "Fellow Japanese-language officers since Tokyo in the 1920s; Layton carried Hypo's readings to Nimitz and later championed Rochefort's reputation."
+  },
+  {
+   "a": "rochefort",
+   "b": "holmes",
+   "kind": "met",
+   "note": "Holmes worked in Rochefort's unit and is credited with the water-ruse idea that Rochefort took to Layton."
+  },
+  {
+   "a": "rochefort",
+   "b": "redman",
+   "kind": "opposite sides",
+   "note": "Opposed positions on AF and the timing inside the same Navy; the rivalry outlasted the battle and shaped Rochefort's removal."
+  },
+  {
+   "a": "rochefort",
+   "b": "fabian",
+   "kind": "read each other",
+   "note": "Hypo and Melbourne exchanged recoveries daily on the same JN-25 traffic, which is why priority claims for the water message and the date cipher are tangled."
+  },
+  {
+   "a": "layton",
+   "b": "nimitz",
+   "kind": "met",
+   "note": "Layton briefed Nimitz daily; Nimitz demanded a specific forecast and, by Layton's account, praised its accuracy."
+  },
+  {
+   "a": "holmes",
+   "b": "simard",
+   "kind": "mentioned",
+   "note": "The bait drafted at Hypo was transmitted by Midway's station."
+  },
+  {
+   "a": "reid",
+   "b": "simard",
+   "kind": "same street",
+   "note": "Reid flew from Midway and reported to its radio; Midway sent bombers on his sighting."
+  },
+  {
+   "a": "ady",
+   "b": "amari",
+   "kind": "opposite sides",
+   "note": "Mirror-image scouts on the morning of 4 June: one found the carriers and reported them precisely, the other found the American fleet late and reported it vaguely."
+  },
+  {
+   "a": "amari",
+   "b": "nagumo",
+   "kind": "mentioned",
+   "note": "Amari's reports were logged in Nagumo's battle report and drove his rearming orders."
+  },
+  {
+   "a": "nagumo",
+   "b": "fuchida",
+   "kind": "same street",
+   "note": "Both on Akagi's bridge on 4 June; Fuchida's later book became the standard account of Nagumo's decisions."
+  },
+  {
+   "a": "ugaki",
+   "b": "nagumo",
+   "kind": "mentioned",
+   "note": "Combined Fleet, where Ugaki was chief of staff, did not pass radio-intelligence warnings to Nagumo before the battle."
+  },
+  {
+   "a": "ugaki",
+   "b": "fuchida",
+   "kind": "mentioned",
+   "note": "Fuchida is the only source for Ugaki overruling the war-game result."
+  },
+  {
+   "a": "nimitz",
+   "b": "johnston",
+   "kind": "mentioned",
+   "note": "Johnston's story reproduced Nimitz's 31 May dispatch, triggering the leak investigation."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "zimmermann-1917",
+   "note": "Room 40's handling of the Zimmermann telegram turned on concealing that a code was read; at Midway the same problem returned when the Chicago Tribune printed details matching a decrypt-based dispatch, and the Navy declined to let codebreakers testify."
+  },
+  {
+   "to": "wireless-1901",
+   "note": "Every link in this chapter, from the PBY contact reports to Tone's scout and the intercepted Japanese traffic, ran on long-distance naval radio, the technology whose transoceanic reach Marconi demonstrated in 1901."
+  },
+  {
+   "to": "v1:japan-1945",
+   "note": "Ugaki, whose diary covers Midway, died leading a final kamikaze sortie on 15 August 1945; Nimitz signed the Japanese surrender aboard USS Missouri on 2 September, a ceremony Fuchida later falsely claimed to have attended."
+  },
+  {
+   "to": "v1:ww2-europe",
+   "note": "The Melbourne unit combined American, Australian and British codebreakers, part of the same Allied signals-intelligence partnership that ran Ultra in Europe and shared its insistence on protecting the source."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://history.navy.mil/our-collections/photography/numerical-list-of-images/nhhc-series/nh-series/NH-84000/NH-84826.html",
+   "title": "Captain Joseph John Rochefort, USN (NH 84826)",
+   "caption": "NHHC catalogue photograph of Rochefort, who ran Station Hypo in 1942. The catalogue page gives no date for the portrait.",
+   "date": "",
+   "credit": "Naval History and Heritage Command, NH 84826"
+  },
+  {
+   "url": "https://www.history.navy.mil/our-collections/art/exhibits/conflicts-and-operations/wwii/art-of-the-battle-of-midway/pby-catalina-sights-ijn-fleet-6-42.html",
+   "title": "PBY Catalina Sights IJN Fleet 6/42",
+   "caption": "Artwork in the NHHC collection depicting a Midway-based PBY sighting Japanese ships, the moment of Reid's report on 3 June 1942. A later artistic depiction, not a photograph.",
+   "date": "",
+   "credit": "Naval History and Heritage Command art collection (artist not stated on page)"
+  },
+  {
+   "url": "https://ibiblio.org/hyperwar/OnlineLibrary/photos/images/g10000/g13065c.htm",
+   "title": "USS Yorktown in dry dock, Pearl Harbor, 29 May 1942",
+   "caption": "Yorktown under emergency repair after Coral Sea, shortly before sailing for Midway. Her quick return gave Nimitz a third carrier that Japanese estimates did not expect.",
+   "date": "1942-05-29",
+   "credit": "Official US Navy photograph 80-G-13065, via NHHC Online Library mirror"
+  },
+  {
+   "url": "https://ibiblio.org/hyperwar/OnlineLibrary/photos/events/wwii-pac/midway/mid-1m.htm",
+   "title": "Scouting and early attacks from Midway, 3–4 June 1942",
+   "caption": "NHHC Online Library photo selection on the Midway patrol planes and early strikes, covering the search flights whose reports form the chapter's message log.",
+   "date": "1942-06",
+   "credit": "Naval History and Heritage Command Online Library (mirror)"
+  },
+  {
+   "url": "https://www.history.navy.mil/our-collections/photography/wars-and-events/world-war-ii/midway/80-G-312030.html",
+   "title": "Yorktown survivors aboard USS Fulton, 6 June 1942",
+   "caption": "Survivors in oil-stained life jackets being checked in for passage to Pearl Harbor. A reminder of the human cost behind the signals.",
+   "date": "1942-06-06",
+   "credit": "Official US Navy photograph, National Archives 80-G-312030"
+  }
+ ],
+ "further": [
+  {
+   "title": "F. D. Parker, A Priceless Advantage (NSA Center for Cryptologic History, PDF)",
+   "url": "https://media.defense.gov/2021/Jul/13/2002761544/-1/-1/0/PRICELESS_ADVANTAGE.PDF"
+  },
+  {
+   "title": "H. F. Schorreck, The Role of COMINT in the Battle of Midway (SRH-230)",
+   "url": "https://history.navy.mil/research/library/online-reading-room/title-list-alphabetically/b/battle-midway-4-7-june-1942-srh-230.html"
+  },
+  {
+   "title": "CINCPAC action report, Battle of Midway, 28 June 1942",
+   "url": "https://www.history.navy.mil/research/archives/digital-exhibits-highlights/action-reports/wwii-battle-of-midway/commander-in-chief-pacific-fleet.html"
+  },
+  {
+   "title": "ONI, The Japanese Story of the Battle of Midway (1947 translation of Nagumo's report)",
+   "url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/j/japanese-story-of-the-battle-of-midway.html"
+  },
+  {
+   "title": "ONI Combat Narrative: The Battle of Midway, June 3–6, 1942",
+   "url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/b/battle-of-midway-3-6-june-1942-combat-narrative.html"
+  },
+  {
+   "title": "National Security Archive: Secrecy, leaks and the Chicago Tribune prosecution",
+   "url": "https://nsarchive.gwu.edu/briefing-book/intelligence/2017-10-25/secrecy-leaks-when-us-government-prosecuted-chicago-tribune"
+  },
+  {
+   "title": "NHHC H-Gram 006: Battle of Midway overview",
+   "url": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-006/h-006-1.html"
+  },
+  {
+   "title": "The Nimitz Gray Book (American Naval Records Society)",
+   "url": "https://www.ibiblio.org/anrs/graybook.html"
+  }
+ ],
+ "vantage_key": "0 = sent, broke or acted on the decisive messages; 1 = at the scene of the battle or inside the codebreaking room; 2 = fleet staff at sea far from the action; 3 = distant listening station or headquarters; 4 = press and the public, news only."
+}

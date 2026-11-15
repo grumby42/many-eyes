@@ -1,0 +1,1255 @@
+{
+ "id": "treasure-fleets",
+ "title": "The Treasure Fleets",
+ "short_title": "The Treasure Fleets",
+ "subtitle": "Zheng He's seven voyages: Southeast Asia, India, Hormuz, Arabia and East Africa, 1405–1433",
+ "span": "1405–1436",
+ "intro": [
+  "Between 1405 and 1433 the Ming court sent seven great fleets from the Yangtze into the Indian Ocean. Commanded by the palace eunuch Zheng He, a Muslim from Yunnan, the fleets of large wooden junks carried tens of thousands of soldiers, sailors, officials and interpreters to Champa, Java, Sumatra, Melaka, Sri Lanka, Calicut, Hormuz, Aden and the coast of Somalia and Kenya, distributing silks, demanding acknowledgement of the emperor, and returning with envoys, gems, spices and animals no one in China had seen.",
+  "Almost nothing about the voyages survives as a diary. The fleets' own logs were later lost or destroyed, and Zheng He left only dated stone inscriptions. What remains is a set of very different documents, and this chapter is honest about their forms: the Ming Veritable Records, compiled court annals dated to the day; three books by men who sailed (the interpreter Ma Huan, the soldier Fei Xin and the secretary Gong Zhen), written up after their return and arranged by country, not by date; a day-dated route list of the last voyage that survives only because a scholar copied it decades later; a court eulogy for a giraffe; and the steles themselves.",
+  "The hosts' voices are thinner, and we have tried neither to invent nor to dismiss them. A Yemeni chronicle records a Chinese envoy at the sultan's court in 1419 who would not kiss the ground. A Mamluk historian in Cairo heard in 1432 of junks at Aden asking to come to Jeddah. The Malay Annals, written down in 1612, remember China on Melaka's own terms. For Sri Lanka, whose king Zheng He captured in 1410–11, the Galle stele, cut in China with texts in Tamil and Persian, is the nearest thing to an encounter document; no participant's Sinhalese account of the capture survives. Two outsiders, the Venetian Niccolò de' Conti and the Timurid envoy Abd al-Razzaq, show the same ports just after the fleets had gone.",
+  "Read together, these eyes disagree in instructive ways. The annals see tribute and ritual; Ma Huan sees markets and religions; the Yemeni court sees gift-bearing equals; the Mamluk sultan sees customs revenue; the Malay chroniclers see a Chinese emperor who must honour Melaka. Even the dates disagree: the Arabic report of Chinese ships at Aden in June 1432 does not fit the Chinese itinerary, which puts the main fleet in Java that month.",
+  "The chapter's clusters are the departure of 1405, the Sri Lankan war and the visit of Melaka's king in 1409–11, the giraffes at court in 1414–15, and the last voyage of 1431–33 with the party sent to Mecca. It ends in 1436, when the court, with no more fleets to send, put the stranded envoys of ten kingdoms on a Javanese ship home."
+ ],
+ "calendar_note": "Chinese dates are given as reign year, lunar month and day (e.g. Yongle 9, 6th month, 16th day). The Western dates for Ming Shilu entries are those supplied by Geoff Wade's Southeast Asia in the Ming Shi-lu, which for this period correspond to the Julian calendar historians use for the fifteenth century; date_iso uses these. Dates for the seventh voyage follow Dreyer (2007) and Mills (1970), which convert the itinerary copied by Zhu Yunming; small differences exist between modern conversions. Islamic (Hijri) dates in the Arabic chronicles are converted approximately to Julian. Many entries from the travellers' books can only be placed by voyage; those use a mid-voyage date_iso with precision 'range' and confidence 'approx'.",
+ "eyes": [
+  {
+   "id": "ming-shilu",
+   "name": "Ming Veritable Records (Taizong Shilu and Xuanzong Shilu)",
+   "short": "Ming Shilu",
+   "life": "compiled 1424–1438 from daily court records",
+   "role": "The official day-by-day annals of the Yongle (1403–1424) and Xuande (1426–1435) reigns, compiled by court historians from diaries of the throne and ministry files",
+   "side": "Ming court",
+   "where": "The imperial court at Nanjing (to 1420) and Beijing (from 1421)",
+   "lat": 32.06,
+   "lon": 118.79,
+   "waypoints": [
+    {
+     "lat": 32.06,
+     "lon": 118.79,
+     "label": "Nanjing court, to 1420"
+    },
+    {
+     "lat": 39.91,
+     "lon": 116.39,
+     "label": "Beijing court, 1421–"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the throne's own record",
+   "form": "chronicle (dated court annals)",
+   "language": "Classical Chinese",
+   "authenticity": "Compiled after each emperor's death from the court diaries and memorials, so the wording is official and edited. Dates are exact to the day. English translations of every Southeast Asia-related entry by Geoff Wade, 'Southeast Asia in the Ming Shi-lu' (NUS Press / Asia Research Institute, open access), with Western dates supplied by the project.",
+   "bio": "The Shilu never describe the sea. They record what reached the throne: orders given, captives presented, envoys banqueted, giraffes refused as omens. Read against the sailors' books, they show how the voyages looked from the centre: as diplomacy, ritual and punishment rather than adventure.",
+   "sources": [
+    {
+     "title": "Geoff Wade, Southeast Asia in the Ming Shi-lu (open-access translation)",
+     "url": "https://epress.nus.edu.sg/msl/reign/yong-le/year-3-month-6-day-15"
+    },
+    {
+     "title": "MSL topic page: Old Port Pacification Superintendency",
+     "url": "https://epress.nus.edu.sg/msl/node/4579"
+    }
+   ]
+  },
+  {
+   "id": "zheng-he",
+   "name": "Zheng He (鄭和, born Ma He), in his dated stone inscriptions",
+   "short": "Zheng He",
+   "life": "1371–1433/35",
+   "role": "Grand Eunuch Director and commander of all seven fleets; a Muslim from Yunnan taken into palace service as a boy",
+   "side": "Ming court / the fleet",
+   "where": "Galle (Sri Lanka), Liujiagang near Taicang, Changle in Fujian",
+   "lat": 31.56,
+   "lon": 121.27,
+   "waypoints": [
+    {
+     "lat": 32.06,
+     "lon": 118.79,
+     "label": "Nanjing shipyards"
+    },
+    {
+     "lat": 31.56,
+     "lon": 121.27,
+     "label": "Liujiagang 1431"
+    },
+    {
+     "lat": 25.96,
+     "lon": 119.52,
+     "label": "Changle 1431"
+    },
+    {
+     "lat": 6.03,
+     "lon": 80.22,
+     "label": "Galle stele"
+    },
+    {
+     "lat": 11.25,
+     "lon": 75.78,
+     "label": "Calicut"
+    },
+    {
+     "lat": 27.1,
+     "lon": 56.45,
+     "label": "Hormuz"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the commander's own words in stone",
+   "form": "inscriptions (dated steles)",
+   "language": "Classical Chinese; Tamil and Persian on the Galle stele",
+   "authenticity": "No diary or letter by Zheng He survives. Three dated steles speak in his name: the Galle trilingual stele (dated 15 Feb 1409, carved in Nanjing and set up in Sri Lanka; found as a culvert cover in 1911; now in the Colombo National Museum; UNESCO Memory of the World 2025), and the Liujiagang (1431) and Changle (1431) temple inscriptions to the sea goddess Tianfei. The Liujiagang stone is lost and known from a copied text; the Changle stone survives. They are public, formal texts, not private feeling.",
+   "bio": "The only words we have from the admiral are prayers and summaries carved for gods and posterity. The Galle stele offers identical gifts to the Buddha, to the Tamil god Tenavarai Nayanar and to Allah; the 1431 steles, written on the eve of the last voyage, list all seven expeditions and thank the goddess who calmed the waves. He probably died on that last voyage.",
+   "sources": [
+    {
+     "title": "Galle Trilingual Inscription (summary and offerings list)",
+     "url": "https://en.wikipedia.org/wiki/Galle_Trilingual_Inscription"
+    },
+    {
+     "title": "National Library of Sri Lanka: Trilingual Inscription (Tribhasha Sellipiya)",
+     "url": "https://www.natlib.lk/NLDSB/2026/04/17/trilingual-inscription-tribhasha-sellipiya/"
+    },
+    {
+     "title": "Inscriptions of Zheng He, 1431 (excerpt, Su 2005)",
+     "url": "https://open.oregonstate.education/middleearlymodernages/chapter/inscriptions-of-zheng-he/"
+    }
+   ]
+  },
+  {
+   "id": "ma-huan",
+   "name": "Ma Huan (馬歡)",
+   "short": "Ma Huan",
+   "life": "c. 1380–c. 1460",
+   "role": "Muslim interpreter of Arabic (and probably Persian) from Kuaiji, Zhejiang, on the fourth (1413–15), sixth (1421–22) and seventh (1431–33) voyages",
+   "side": "Ming fleet",
+   "where": "Aboard the fleet; ashore in Malacca, Calicut, Bengal, Hormuz; possibly Mecca",
+   "lat": 11.25,
+   "lon": 75.78,
+   "waypoints": [
+    {
+     "lat": 2.19,
+     "lon": 102.25,
+     "label": "Malacca depot"
+    },
+    {
+     "lat": 5.15,
+     "lon": 97.15,
+     "label": "Semudera"
+    },
+    {
+     "lat": 22.34,
+     "lon": 91.83,
+     "label": "Chittagong 1432"
+    },
+    {
+     "lat": 25.14,
+     "lon": 88.15,
+     "label": "Pandua, Bengal"
+    },
+    {
+     "lat": 11.25,
+     "lon": 75.78,
+     "label": "Calicut"
+    },
+    {
+     "lat": 21.42,
+     "lon": 39.83,
+     "label": "Mecca party 1432–33"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "interpreter, ashore at every port",
+   "form": "travel account (compiled and revised over decades)",
+   "language": "Classical Chinese",
+   "authenticity": "Yingya Shenglan ('Overall Survey of the Ocean's Shores'): a first draft with a preface of 1416, expanded on later voyages, the final text c. 1451. It is a country-by-country survey, not a dated diary, so most of its scenes can only be placed by voyage. English translation by J.V.G. Mills (Hakluyt Society, 1970). Whether Ma Huan himself went to Mecca in the party of seven is debated; his chapter on Mecca reads as eyewitness but is not explicit.",
+   "bio": "A Chinese Muslim who could talk to the Arab and Persian merchants of every port, Ma Huan watched markets, weddings, money and punishments rather than battles. His preface admits he had once doubted the marvels in old books about foreign lands, until he saw them himself. He is the closest thing the fleets have to a diarist.",
+   "sources": [
+    {
+     "title": "J.V.G. Mills (tr.), Ma Huan: Ying-yai Sheng-lan (Hakluyt Society, 1970)",
+     "url": ""
+    },
+    {
+     "title": "Ma Huan (summary)",
+     "url": "https://en.wikipedia.org/wiki/Ma_Huan"
+    },
+    {
+     "title": "Banglapedia: Ma Huan",
+     "url": "https://en.banglapedia.org/index.php/Ma_Huan"
+    }
+   ]
+  },
+  {
+   "id": "fei-xin",
+   "name": "Fei Xin (費信)",
+   "short": "Fei Xin",
+   "life": "1388–after 1436",
+   "role": "Soldier from the Taicang garrison, Kunshan; took his dead brother's place in the ranks; sailed on the third (1409–11), Yang Min's Bengal mission (c. 1412–14), the fifth (1417–19) and the seventh (1431–33) voyages",
+   "side": "Ming fleet",
+   "where": "With the fleet in Sri Lanka, Bengal, Sumatra and the Somali coast",
+   "lat": 2.04,
+   "lon": 45.34,
+   "waypoints": [
+    {
+     "lat": 31.45,
+     "lon": 121.1,
+     "label": "Taicang garrison"
+    },
+    {
+     "lat": 6.03,
+     "lon": 80.22,
+     "label": "Ceylon 1409–11"
+    },
+    {
+     "lat": 22.34,
+     "lon": 91.83,
+     "label": "Chittagong c. 1413"
+    },
+    {
+     "lat": 25.14,
+     "lon": 88.15,
+     "label": "Pandua c. 1413"
+    },
+    {
+     "lat": 2.04,
+     "lon": 45.34,
+     "label": "Mogadishu c. 1418"
+    },
+    {
+     "lat": 5.15,
+     "lon": 97.15,
+     "label": "Semudera 1432"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "common soldier, ashore",
+   "form": "travel account (written up after 1433)",
+   "language": "Classical Chinese",
+   "authenticity": "Xingcha Shenglan ('Overall Survey of the Star Raft'), preface dated 1436, later rewritten and illustrated for presentation to the court; earliest surviving printed edition 1544. Partly derivative of Ma Huan for places Fei Xin did not see (Dreyer). Translated by W.W. Rockhill (T'oung Pao 1914–15) and by Mills, ed. Ptak (1996).",
+   "bio": "An ordinary soldier who joined at thirteen and taught himself to write, Fei Xin is the fleet's voice from below decks. He is the only Chinese writer to name Pandua as Bengal's capital, and he describes the African coast the fleet reached on the fifth voyage.",
+   "sources": [
+    {
+     "title": "Fei Xin (summary)",
+     "url": "https://en.wikipedia.org/wiki/Fei_Xin"
+    },
+    {
+     "title": "Banglapedia: Fei Hsin",
+     "url": "https://en.banglapedia.org/index.php/Fei_Hsin"
+    },
+    {
+     "title": "Xingcha Shenglan (summary)",
+     "url": "https://en.wikipedia.org/wiki/Xingcha_Shenglan"
+    }
+   ]
+  },
+  {
+   "id": "gong-zhen",
+   "name": "Gong Zhen (鞏珍)",
+   "short": "Gong Zhen",
+   "life": "fl. 1431–1434",
+   "role": "Secretary on Zheng He's staff for the seventh voyage, 1431–33; son of a soldier, from near Nanjing",
+   "side": "Ming fleet",
+   "where": "Aboard the flagship's staff, seventh voyage",
+   "lat": 6.48,
+   "lon": 79.98,
+   "waypoints": [
+    {
+     "lat": 32.06,
+     "lon": 118.79,
+     "label": "Nanjing, Jan 1431"
+    },
+    {
+     "lat": 25.96,
+     "lon": 119.52,
+     "label": "Changle 1431"
+    },
+    {
+     "lat": 5.15,
+     "lon": 97.15,
+     "label": "Semudera 1432"
+    },
+    {
+     "lat": 11.25,
+     "lon": 75.78,
+     "label": "Calicut Dec 1432"
+    },
+    {
+     "lat": 27.1,
+     "lon": 56.45,
+     "label": "Hormuz Jan 1433"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "staff secretary on the last voyage",
+   "form": "travel account (written within a year of return)",
+   "language": "Classical Chinese",
+   "authenticity": "Xiyang Fanguo Zhi ('Record of the Foreign Countries in the Western Ocean'), preface dated 1434. Its country chapters lean heavily on Ma Huan's draft; its value lies in the preface and the documents it preserves from the fleet's administration. Rare; no full English translation.",
+   "bio": "Gong Zhen wrote as an official, not a wanderer. His short book, finished the year after the fleet came home, is a secretary's record: what the expedition was for, how it was ordered, and which countries it touched, written just as the court was deciding that there would be no eighth voyage.",
+   "sources": [
+    {
+     "title": "Gong Zhen (summary)",
+     "url": "https://en.wikipedia.org/wiki/Gong_Zhen"
+    }
+   ]
+  },
+  {
+   "id": "itinerary",
+   "name": "The seventh voyage's dated itinerary ('Xia Xiyang', preserved by Zhu Yunming)",
+   "short": "Fleet itinerary",
+   "life": "log 1431–1433; copied by Zhu Yunming (1461–1527)",
+   "role": "A day-dated route list of the seventh voyage, from an official record, copied into the miscellany Qianwen ji by the Suzhou scholar Zhu Yunming",
+   "side": "Ming fleet",
+   "where": "Aboard the main fleet, Nanjing to Hormuz and back",
+   "lat": 27.1,
+   "lon": 56.45,
+   "waypoints": [
+    {
+     "lat": 32.1,
+     "lon": 118.75,
+     "label": "Longwan, Nanjing"
+    },
+    {
+     "lat": 31.56,
+     "lon": 121.27,
+     "label": "Liujiagang"
+    },
+    {
+     "lat": 13.77,
+     "lon": 109.22,
+     "label": "Vijaya (Champa)"
+    },
+    {
+     "lat": 2.19,
+     "lon": 102.25,
+     "label": "Malacca"
+    },
+    {
+     "lat": 11.25,
+     "lon": 75.78,
+     "label": "Calicut"
+    },
+    {
+     "lat": 27.1,
+     "lon": 56.45,
+     "label": "Hormuz"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the fleet's own route list",
+   "form": "log (itinerary, copied later)",
+   "language": "Classical Chinese",
+   "authenticity": "The only day-by-day dating of any voyage. It survives because Zhu Yunming copied it about seventy years later; the original fleet records were later lost or destroyed. Used by Duyvendak (1938), Mills (1970) and Dreyer (2007) to fix the seventh voyage's dates; small discrepancies exist between modern conversions.",
+   "bio": "Not a person but a document: dry entries of arrivals and departures that let us put the last voyage on a calendar. Beside Ma Huan's descriptions and the Shilu's audiences it gives the rhythm of a fleet that waited months for the monsoon in each harbour.",
+   "sources": [
+    {
+     "title": "Timeline of the Ming treasure voyages (dates after Dreyer 2007, Duyvendak 1938, Mills 1970)",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Ming_treasure_voyages"
+    }
+   ]
+  },
+  {
+   "id": "shen-du",
+   "name": "Shen Du (沈度)",
+   "short": "Shen Du",
+   "life": "1357–1434",
+   "role": "Hanlin Academy calligrapher, the Yongle Emperor's favourite court writer, aged about 57",
+   "side": "Ming court",
+   "where": "Nanjing, at court when the Bengal giraffe arrived",
+   "lat": 32.06,
+   "lon": 118.79,
+   "vantage": 2,
+   "vantage_label": "court artist at the capital",
+   "form": "eulogy with painting (dated inscription)",
+   "language": "Classical Chinese",
+   "authenticity": "Shen Du's eulogy on the 'auspicious qilin', with its prose preface, is dated to the 9th month of Yongle 12 (Sept–Oct 1414). The famous image of the giraffe with a keeper that carries the eulogy (Philadelphia Museum of Art, 1977-42-1) is now judged by the museum to be a later, probably 16th-century copy; other copies exist, including a Qing version in the Metropolitan Museum that drops his inscription.",
+   "bio": "Shen Du was the court's elegant pen. When a giraffe arrived from Bengal he wrote it up as the qilin, the gentle beast that appears only when a sage rules, and so turned an African animal into proof of Yongle's legitimacy, a delicate job for a usurper who had seized the throne from his nephew.",
+   "sources": [
+    {
+     "title": "Tribute Giraffe with Attendant (file page with museum data)",
+     "url": "https://wiki.crossroads-research.net/index.php/File:Tribute_Giraffe_with_Attendant.jpg"
+    },
+    {
+     "title": "Science News: The giraffes that sailed to medieval China",
+     "url": "https://www.sciencenews.org/blog/wild-things/giraffes-sailed-medieval-china"
+    }
+   ]
+  },
+  {
+   "id": "rasulid-chronicle",
+   "name": "Anonymous chronicler of the Rasulid state of Yemen (Tarikh al-dawla al-Rasuliyya fi l-Yaman)",
+   "short": "Rasulid annal",
+   "life": "15th century",
+   "role": "Court chronicler of the Rasulid sultans of Yemen, writing of the reign of al-Malik al-Nasir Ahmad (r. 1400–1424)",
+   "side": "Rasulid Yemen (the hosts)",
+   "where": "Aden and the inland court at al-Janad and Ta'izz",
+   "lat": 13.67,
+   "lon": 44.21,
+   "vantage": 1,
+   "vantage_label": "the host court",
+   "form": "chronicle",
+   "language": "Arabic",
+   "authenticity": "Anonymous dynastic chronicle edited in the 20th century; it dates the Chinese envoy's audience to early 1419. Its account was brought into Zheng He scholarship by Alexander Jost (2019), whose study takes its title from the chronicle's remark that the envoy did not kiss the ground before the sultan.",
+   "bio": "One of the few places where the hosts wrote down the meeting. The Yemeni chronicler sees not tribute-bearers from a superior power but foreign envoys bringing rich gifts, and notes with interest, perhaps disapproval, that the Chinese envoy would not perform the expected prostration.",
+   "sources": [
+    {
+     "title": "Al-Nasir Ahmad ibn Isma'il (summary of the 1419 visit)",
+     "url": "https://en.wikipedia.org/wiki/Al-Nasir_Ahmad_ibn_Isma%27il"
+    },
+    {
+     "title": "A. Jost, 'He did not kiss the earth between his hands': Arabic sources on the arrivals of the Zheng He fleet in Aden and Mecca (1419–1432), 2019",
+     "url": "https://publikationen.uni-tuebingen.de/xmlui/handle/10900/123282"
+    }
+   ]
+  },
+  {
+   "id": "ibn-taghribirdi",
+   "name": "Abu al-Mahasin Yusuf ibn Taghribirdi",
+   "short": "Ibn Taghribirdi",
+   "life": "1411–1470",
+   "role": "Son of a Mamluk amir, about 21 and living in Cairo in 1432; later the leading Mamluk historian",
+   "side": "Mamluk Sultanate (the hosts of Jeddah and Mecca)",
+   "where": "Cairo, hearing reports from Mecca",
+   "lat": 30.04,
+   "lon": 31.24,
+   "vantage": 3,
+   "vantage_label": "Cairo, hearing the news",
+   "form": "chronicle (written later)",
+   "language": "Arabic",
+   "authenticity": "al-Nujum al-Zahira, written decades after 1432 but drawing on court reports; dates the news from Mecca to 22 Shawwal 835 AH (about 21 June 1432). Contemporaries al-Maqrizi and Ibn Hajar also noticed Chinese ships in the Red Sea (Jost 2019). The date fits awkwardly with the Chinese itinerary, which has the main fleet in Java that month.",
+   "bio": "Ibn Taghribirdi records the Chinese not as a wonder but as a revenue question: junks loaded with porcelain, silk and musk could not sell at Aden because Yemen was in turmoil, so their captains asked to come to Jeddah, and Sultan Barsbay, eager for the customs, said yes. It is the Mamluk view of the last voyage.",
+   "sources": [
+    {
+     "title": "Chinese treasure ship (summary of Ibn Taghribirdi's report)",
+     "url": "https://en.wikipedia.org/wiki/Chinese_treasure_ship"
+    }
+   ]
+  },
+  {
+   "id": "conti",
+   "name": "Niccolò de' Conti",
+   "short": "Conti",
+   "life": "c. 1395–1469",
+   "role": "Venetian merchant who lived some 25 years in the Indian Ocean world, c. 1419–1444, speaking Arabic and Persian",
+   "side": "Venice (a private traveller)",
+   "where": "Cambay, Vijayanagara, Pedir in Sumatra, Java, Champa, Calicut, Aden",
+   "lat": 5.38,
+   "lon": 95.95,
+   "waypoints": [
+    {
+     "lat": 33.51,
+     "lon": 36.29,
+     "label": "Damascus c. 1419"
+    },
+    {
+     "lat": 22.31,
+     "lon": 72.62,
+     "label": "Cambay"
+    },
+    {
+     "lat": 5.38,
+     "lon": 95.95,
+     "label": "Pedir, Sumatra c.1421"
+    },
+    {
+     "lat": -7.6,
+     "lon": 111.0,
+     "label": "Java, 1420s"
+    },
+    {
+     "lat": 11.25,
+     "lon": 75.78,
+     "label": "Calicut, 1430s"
+    },
+    {
+     "lat": 45.44,
+     "lon": 12.33,
+     "label": "Venice 1444"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "a European in the same ports",
+   "form": "travel narrative (dictated later)",
+   "language": "Latin (as written by Poggio Bracciolini)",
+   "authenticity": "Conti wrote nothing himself. On returning in 1444 he told his story to the papal secretary Poggio Bracciolini, partly as penance for having renounced Christianity under duress; it forms Book IV of De varietate fortunae (completed c. 1448). Undated within the journey. English translation in R.H. Major, India in the Fifteenth Century (Hakluyt Society, 1857).",
+   "bio": "Conti was in Sumatra and Java in the very years the Chinese fleets used them as bases, yet he never mentions Zheng He. What he does describe, to amazed Italians, are Asian ships bigger than any in Europe, with many masts and watertight compartments. His information fed the Fra Mauro world map of c. 1450.",
+   "sources": [
+    {
+     "title": "R.H. Major (ed.), India in the Fifteenth Century (Hakluyt Society 1857; Cambridge reissue)",
+     "url": "https://www.cambridge.org/core/product/identifier/9780511695834/type/book"
+    },
+    {
+     "title": "Museo Galileo: Niccolò di Giovanni Conti and Fra Mauro",
+     "url": "https://mostre.museogalileo.it/framauro/en/cosmography-and-sources/merchants-and-travelers/niccolo-di-giovanni-conti.html"
+    }
+   ]
+  },
+  {
+   "id": "abd-al-razzaq",
+   "name": "Kamal al-Din Abd al-Razzaq Samarqandi",
+   "short": "Abd al-Razzaq",
+   "life": "1413–1482",
+   "role": "Timurid scholar and envoy of Shah Rukh of Herat to the Zamorin of Calicut and to Vijayanagara, 1442–1445",
+   "side": "Timurid Herat",
+   "where": "Hormuz, Calicut, Vijayanagara",
+   "lat": 11.25,
+   "lon": 75.78,
+   "waypoints": [
+    {
+     "lat": 34.35,
+     "lon": 62.2,
+     "label": "Herat, Jan 1442"
+    },
+    {
+     "lat": 27.1,
+     "lon": 56.45,
+     "label": "Hormuz 1442"
+    },
+    {
+     "lat": 11.25,
+     "lon": 75.78,
+     "label": "Calicut 1442–43"
+    },
+    {
+     "lat": 15.33,
+     "lon": 76.46,
+     "label": "Vijayanagara 1443"
+    },
+    {
+     "lat": 34.35,
+     "lon": 62.2,
+     "label": "Herat, Jan 1445"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "envoy in Calicut a decade later",
+   "form": "travel narrative within a chronicle",
+   "language": "Persian",
+   "authenticity": "Narrative of his embassy in his history Matla al-Sadayn wa Majma al-Bahrayn, written after his return. Near-contemporary; dates within the Calicut stay are approximate. English translation in Major, India in the Fifteenth Century (1857), and in Elliot and Dowson (1871).",
+   "bio": "Abd al-Razzaq reached Calicut less than ten years after the last Chinese fleet left. He found a crowded, safe, cosmopolitan port, disliked the climate, and reported that Calicut's own seafarers were nicknamed 'children of China': an echo of the fleets in local speech. His chronicle also preserves the account of the Timurid embassy that visited Ming Beijing in 1420–22.",
+   "sources": [
+    {
+     "title": "Abd al-Razzaq Samarqandi (summary)",
+     "url": "https://en.wikipedia.org/wiki/Abd_al-Razzaq_Samarqandi"
+    },
+    {
+     "title": "R.H. Major (ed.), India in the Fifteenth Century (1857; Cambridge reissue)",
+     "url": "https://www.cambridge.org/core/product/identifier/9780511695834/type/book"
+    }
+   ]
+  },
+  {
+   "id": "malay-annals",
+   "name": "Sejarah Melayu (the Malay Annals)",
+   "short": "Malay Annals",
+   "life": "text dated 1612, from older Melaka tradition",
+   "role": "The court chronicle of the Melaka sultans, reworked in exile at Johor; traditionally attributed to Tun Sri Lanang",
+   "side": "Melaka (the hosts)",
+   "where": "Composed at the Johor court; remembers 15th-century Melaka",
+   "lat": 2.19,
+   "lon": 102.25,
+   "vantage": 4,
+   "vantage_label": "host memory, two centuries on",
+   "form": "chronicle (court tradition, written later)",
+   "language": "Classical Malay (Jawi script)",
+   "authenticity": "The best-known version carries a preface dated 1612. It mixes history, legend and court etiquette, and it does not name Zheng He. Its China episode is set in the reign of Sultan Mansur Shah (c. 1459–77), decades after the fleets. First English translation by John Leyden, published 1821. Use as memory and self-image, not as a dated record.",
+   "bio": "The Melaka sultans owed their early survival partly to Ming protection: their founder sailed to China in 1411 with his queen and over five hundred followers. Yet the Annals remember China on Melaka's own terms: an exchange of needles and sago, a Chinese princess who marries the sultan, and an emperor cured only when he treats Melaka as an equal.",
+   "sources": [
+    {
+     "title": "Sejarah Melayu, section 15 (Leyden's translation, Hamburg 'Materials for the History of Indonesia')",
+     "url": "https://www.spaetmittelalter.uni-hamburg.de/java-history/JavaSejarahMel/Java1528.SejarahMelayu.15.html"
+    },
+    {
+     "title": "BiblioAsia: Legends of the Malay Kings",
+     "url": "https://biblioasia.nlb.gov.sg/all-sections/vol-11-issue-4-jan-mar-2016-sejarah-malayu-malay-annals/"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1405-07-11",
+   "date_display": "Yongle 3, 6th month, 15th day (11 July 1405)",
+   "precision": "day",
+   "eye": "ming-shilu",
+   "place": "Nanjing",
+   "headline": "The emperor sends Zheng He to the Western Ocean",
+   "digest": "The annal is a single line: the eunuch Zheng He and others are sent with imperial letters to the kingdoms of the Western Ocean, carrying gold-brocaded and patterned silks to give their rulers. Nothing about ships, numbers or purpose beyond the letters. The fleet that sailed that autumn is usually counted at over 250 vessels and some 27,800 men.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Taizong Shilu, Yongle 3/6/15, tr. Wade, MSL: https://epress.nus.edu.sg/msl/reign/yong-le/year-3-month-6-day-15"
+  },
+  {
+   "date_iso": "1407-10-02",
+   "date_display": "Yongle 5, 9th month, 2nd day (2 October 1407)",
+   "precision": "day",
+   "eye": "ming-shilu",
+   "place": "Nanjing",
+   "headline": "Zheng He returns with a pirate chief in chains",
+   "digest": "Back from the first voyage, Zheng He presents the Chinese pirate lord of Palembang ('Old Port'), Chen Zuyi, in chains. The annal tells it as a trap foiled: Chen feigned surrender, planned a surprise attack, and was crushed, with thousands of his men killed, ten ships burned and seven taken. On arrival all the captives are ordered beheaded.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Taizong Shilu, Yongle 5/9/2, tr. Wade, MSL: https://epress.nus.edu.sg/msl/reign/yong-le/year-5-month-9-day-2-0"
+  },
+  {
+   "date_iso": "1407-10-08",
+   "date_display": "Yongle 5, 9th month, 8th day (8 October 1407)",
+   "precision": "day",
+   "eye": "ming-shilu",
+   "place": "Nanjing",
+   "headline": "Palembang gets a Chinese governor of its own",
+   "digest": "Six days after the executions, the son-in-law of Chen Zuyi's rival Shi Jinqing arrives with tribute. The court creates a 'Pacification Superintendency' at Palembang and makes Shi Jinqing its head, with seal, patent, cap, belt and silks. The fleet has turned a Chinese overseas community into a Ming office.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Taizong Shilu, Yongle 5/9/8, tr. Wade, MSL: https://epress.nus.edu.sg/msl/reign/yong-le/year-5-month-9-day-8"
+  },
+  {
+   "date_iso": "1409-02-15",
+   "date_display": "Yongle 7, 2nd month, 1st day (15 February 1409)",
+   "precision": "day",
+   "eye": "zheng-he",
+   "place": "Carved at Nanjing; set up at Galle, Sri Lanka",
+   "headline": "One stone, three gods, three languages",
+   "digest": "The stele dated this day records the same offerings, in Chinese to the Buddha, in Tamil to the god Tenavarai Nayanar (Vishnu of Devinuwara), and in Persian to Allah: a thousand pieces of gold, five thousand of silver, silks, banners, lacquered altar vessels, scented oil and candles, for the shrine of the sacred mountain. There is no Sinhala text. The stone was cut in China before the voyage and set up in Sri Lanka in 1409–11.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Galle Trilingual Inscription, Colombo National Museum; date and offerings per natlib.lk catalogue and summary pages"
+  },
+  {
+   "date_iso": "1409-02-16",
+   "date_display": "Yongle 7, 2nd month, 2nd day (16 February 1409)",
+   "precision": "day",
+   "eye": "ming-shilu",
+   "place": "Nanjing",
+   "headline": "Melaka's first envoys reach the Ming court",
+   "digest": "One day after the Galle stele's date, envoys of Paramesvara (Bai-li-mi-su-la), ruler of the young port of Melaka, present local products and receive paper money and silks; the Ministry of Rites sends coloured silks for their king. Melaka would become the fleets' main depot.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Taizong Shilu, Yongle 7/2/2, tr. Wade, MSL: https://epress.nus.edu.sg/msl/reign/yong-le/year-7-month-2-day-2"
+  },
+  {
+   "date_iso": "1410-06-01",
+   "date_display": "Third voyage, 1409–1411 (Yongle 7–9)",
+   "precision": "range",
+   "eye": "fei-xin",
+   "place": "Sri Lanka (Ceylon)",
+   "headline": "A 21-year-old soldier sees Ceylon",
+   "digest": "Fei Xin's first voyage was the one that ended in war in Sri Lanka. His Ceylon chapter describes the sacred mountain with the giant footprint, the gems washed down by rain and gathered on the shore, and a rich island whose king, he says, was hostile to the fleet. He writes as a soldier remembering, not as a diarist, and gives no day for the fighting.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Xingcha Shenglan (preface 1436), Ceylon chapter; voyage dates per Banglapedia 'Fei Hsin'"
+  },
+  {
+   "date_iso": "1411-07-06",
+   "date_display": "Yongle 9, 6th month, 16th day (6 July 1411)",
+   "precision": "day",
+   "eye": "ming-shilu",
+   "place": "Nanjing",
+   "headline": "A captive king of Sri Lanka is presented",
+   "digest": "Zheng He presents Alakeshvara (Ya-lie-ku-nai-er), ruler at Kotte, with his family and chiefs. The annal says the king had insulted and tried to rob the fleet, sent some 50,000 men against it and blocked the road with felled trees; Zheng He slipped 2,000 men by a side path, took the lightly held capital and then beat the returning army. Ministers ask for execution; the emperor pardons the 'foolish' king and orders a worthier relative chosen to rule.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Taizong Shilu, Yongle 9/6/16, juan 116, tr. Wade, MSL: https://epress.nus.edu.sg/msl/reign/yong-le/year-9-month-6-day-16"
+  },
+  {
+   "date_iso": "1411-08-04",
+   "date_display": "Yongle 9, 7th month, 15th day (4 August 1411)",
+   "precision": "day",
+   "eye": "ming-shilu",
+   "place": "On the road to Nanjing",
+   "headline": "The king of Melaka is on his way",
+   "digest": "A month after the captive Sinhalese king, a very different royal visitor approaches the capital: Paramesvara of Melaka, travelling in person with his consort and a large suite. The court sends a eunuch and a Rites official to feast him on the road.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Taizong Shilu, Yongle 9/7/15, tr. Wade, MSL: https://epress.nus.edu.sg/msl/reign/yong-le/year-9-month-7-day-15"
+  },
+  {
+   "date_iso": "1411-10-02",
+   "date_display": "Yongle 9, 9th month, 15th day (2 October 1411)",
+   "precision": "day",
+   "eye": "ming-shilu",
+   "place": "Fengtian Gate, Nanjing",
+   "headline": "Farewell banquet: go home, your people miss you",
+   "digest": "Paramesvara takes his leave at a banquet at the Fengtian Gate. The emperor praises his loyalty in crossing the ocean, tells him his people are longing for him and the north winds now favour the voyage south, and loads him, his consort, sons and ministers with a jade-and-gold belt, gold, silver, cash and silks. Envoys from Calicut and others are sent off the same day.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Taizong Shilu, Yongle 9/9/15, tr. Wade, MSL: https://epress.nus.edu.sg/msl/reign/yong-le/year-9-month-9-day-15"
+  },
+  {
+   "date_iso": "1413-06-01",
+   "date_display": "Yang Min's mission to Bengal, c. 1412–1414",
+   "precision": "range",
+   "eye": "fei-xin",
+   "place": "Chittagong and Pandua, Bengal",
+   "headline": "Welcomed at Chittagong, feasted at Pandua",
+   "digest": "Sailing with a detachment under the eunuch Yang Min, Fei Xin lands at the Chittagong customs post, where Bengal officials greet the Chinese with ceremony, and travels inland to the sultan's capital, which he alone among the Chinese writers names as Pandua. He describes a lavish court reception and the gifts exchanged. Bengal's envoys travelled to China in these years, and in 1414 one of them brought a giraffe.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Banglapedia 'Fei Hsin' summarising Xingcha Shenglan, Bengal chapter"
+  },
+  {
+   "date_iso": "1414-06-01",
+   "date_display": "Fourth voyage, 1413–1415",
+   "precision": "range",
+   "eye": "ma-huan",
+   "place": "Calicut (Kozhikode), Malabar coast",
+   "headline": "The great trading city of the Zamorin",
+   "digest": "Ma Huan calls Calicut the great country of the Western Ocean. He notes the stone tablet Zheng He set up there on the first voyage, the ruler's Hindu faith and Muslim officials, and how deals were struck: brokers and Chinese officers clasp hands and count prices on fingers and toes, and once agreed the price is never changed. Pepper is weighed and sold in bulk from the hill gardens.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Yingya Shenglan, 'Calicut' chapter, Mills tr. 1970; not dated within the voyage"
+  },
+  {
+   "date_iso": "1414-09-20",
+   "date_display": "Yongle 12, 9th month, 7th day (20 September 1414)",
+   "precision": "day",
+   "eye": "ming-shilu",
+   "place": "Nanjing",
+   "headline": "A giraffe arrives from Bengal",
+   "digest": "The annal is curt: an envoy of Saif al-Din (Hamza Shah), king of Bengal, presents a memorial, a giraffe (qilin), fine horses and local products. Not a word on how the animal reached Bengal; it had probably come there from Malindi on the East African coast as a royal gift. The animal was paraded at court amid talk of a heavenly omen.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Taizong Shilu, Yongle 12/9/7, juan 155, tr. Wade, MSL: https://epress.nus.edu.sg/msl/reign/yong-le/year-12-month-9-day-7"
+  },
+  {
+   "date_iso": "1414-10-01",
+   "date_display": "Yongle 12, 9th month (September–October 1414)",
+   "precision": "month",
+   "eye": "shen-du",
+   "place": "Nanjing",
+   "headline": "The court calligrapher calls the giraffe a qilin",
+   "digest": "Commissioned to record the animal, Shen Du writes a eulogy, with a prose preface, presenting the giraffe as the qilin of the classics: deer's body, ox's tail, a fleshy horn, gentle gait, an omen of perfect virtue in the ruler. The accompanying picture shows a spotted, long-necked animal held by a turbaned keeper. Praise of the beast is praise of Yongle.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Eulogy dated Yongle 12, 9th month; image Philadelphia Museum of Art 1977-42-1 (later copy); Sally K. Church (2004) as summarised by Science News"
+  },
+  {
+   "date_iso": "1415-12-07",
+   "date_display": "Yongle 13, 11th month, 7th day (7 December 1415)",
+   "precision": "day",
+   "eye": "ming-shilu",
+   "place": "Nanjing",
+   "headline": "The emperor refuses to be congratulated",
+   "digest": "Told that another giraffe is coming, now from Malindi (Ma-lin) itself, the vice-minister of Rites asks to lead the officials in a memorial of congratulation. The emperor declines: he had accepted congratulations for finishing the great Confucian compendia, which help govern; what good or harm does a giraffe do? The memorial is shelved.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Taizong Shilu, Yongle 13/11/7, juan 170, tr. Wade, MSL: https://epress.nus.edu.sg/msl/reign/yong-le/year-13-month-11-day-7"
+  },
+  {
+   "date_iso": "1415-12-20",
+   "date_display": "Yongle 13, 11th month, 19th day (20 December 1415)",
+   "precision": "day",
+   "eye": "ming-shilu",
+   "place": "Fengtian Gate, Nanjing",
+   "headline": "The Malindi giraffe at the palace gate",
+   "digest": "Malindi and other states present a giraffe, 'heavenly horses' and 'spirit deer' at the Fengtian Gate. The officials kowtow and credit the emperor's virtue for drawing such distant peoples. Yongle passes the credit to his father's benevolence and warns his ministers against complacency when foreigners come to court; he does not, however, stop the ceremony.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Taizong Shilu, Yongle 13/11/19, tr. Wade, MSL: https://epress.nus.edu.sg/msl/reign/yong-le/year-13-month-11-day-19"
+  },
+  {
+   "date_iso": "1416-06-01",
+   "date_display": "Yongle 14 (1416)",
+   "precision": "year",
+   "eye": "ma-huan",
+   "place": "Kuaiji (Shaoxing), Zhejiang",
+   "headline": "Ma Huan admits he once thought the old books lied",
+   "digest": "Home from his first voyage, Ma Huan writes the preface to his first draft. He recalls reading as a young man about the strange customs and products of distant islands and doubting them; having now seen them with his own eyes, he finds them truer and stranger than written. He sets out to record each country plainly so that readers can know them.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Yingya Shenglan, author's preface of 1416, Mills tr. 1970"
+  },
+  {
+   "date_iso": "1418-01-01",
+   "date_display": "Fifth voyage, 1417–1419",
+   "precision": "range",
+   "eye": "fei-xin",
+   "place": "Mogadishu and Brava, Somali coast",
+   "headline": "Stone towers on a dry African shore",
+   "digest": "Escorting envoys home to East Africa, the fleet reaches Mogadishu (Mugudushu). Fei Xin sees a land of yellow-red earth where it seldom rains and little grows, houses of piled stone four or five storeys high, people who fish and herd camels and sheep, and merchants who trade frankincense and ambergris. It is the farthest point any of our Chinese eyes describes.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Xingcha Shenglan, 'Mugudushu' chapter (Rockhill tr., T'oung Pao 1915); voyage per Banglapedia 'Fei Hsin'"
+  },
+  {
+   "date_iso": "1419-03-01",
+   "date_display": "Rabi' I / Rabi' II 822 AH (March 1419)",
+   "precision": "month",
+   "eye": "rasulid-chronicle",
+   "place": "al-Janad, Yemen",
+   "headline": "A Chinese envoy who would not kiss the ground",
+   "digest": "The Yemeni chronicler records an envoy from the Chinese fleet travelling inland from Aden to the sultan al-Nasir Ahmad at al-Janad, bearing porcelain, musk, storax and gold-woven silk. The gifts are noted with care. So, as the title of Jost's study recalls, is the envoy's refusal to kiss the ground before the sultan: the Chinese came as equals or superiors, not as supplicants.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Tarikh al-dawla al-Rasuliyya, as cited in Jost 2019 and the al-Nasir Ahmad summary page"
+  },
+  {
+   "date_iso": "1421-06-01",
+   "date_display": "c. 1421 (about a year in Sumatra)",
+   "precision": "range",
+   "eye": "conti",
+   "place": "Pedir (Pidie), northern Sumatra",
+   "headline": "A Venetian spends a year where the fleets anchored",
+   "digest": "Conti stays about a year at Pedir, near Semudera, the fleets' staging port at the mouth of the Bay of Bengal, in the very years the sixth voyage passed through. His story records pepper, gold, cannibal tales of the interior and local customs, but no Chinese armada. Either he missed it, or Poggio did not ask.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Poggio Bracciolini, De varietate fortunae IV (Major tr. 1857); dating after modern reconstructions of his route"
+  },
+  {
+   "date_iso": "1422-06-01",
+   "date_display": "Sixth voyage, 1421–1422",
+   "precision": "range",
+   "eye": "ma-huan",
+   "place": "Sri Lanka (Ceylon)",
+   "headline": "Ma Huan at the mountain of the footprint",
+   "digest": "On his second voyage Ma Huan describes Ceylon a decade after the war: the huge footprint on the sacred peak, which he identifies with the first man as Muslims did, the gems in the river sand, pearl fisheries, and a devoutly Buddhist king. He writes of the island with curiosity, without a word about the captured king.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Yingya Shenglan, 'Ceylon' chapter, Mills tr. 1970"
+  },
+  {
+   "date_iso": "1430-06-29",
+   "date_display": "Xuande 5, 6th month, 9th day (29 June 1430)",
+   "precision": "day",
+   "eye": "ming-shilu",
+   "place": "Beijing",
+   "headline": "A new emperor orders one more voyage",
+   "digest": "Six years after Yongle's death and the suspension of the fleets, his grandson the Xuande Emperor sends Zheng He and Wang Jinghong to announce his accession to some twenty overseas states, from Hormuz and Aden to Mogadishu, Brava and Melaka. The proclamation urges their rulers to follow Heaven, care for their people and share in the peace.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Xuanzong Shilu, Xuande 5/6/9, juan 67, tr. Wade, MSL: https://epress.nus.edu.sg/msl/reign/xuan-de/year-5-month-6-day-9"
+  },
+  {
+   "date_iso": "1431-01-19",
+   "date_display": "Xuande 5, 12th month, 6th day (19 January 1431)",
+   "precision": "day",
+   "eye": "itinerary",
+   "place": "Longwan, Nanjing",
+   "headline": "The last fleet casts off",
+   "digest": "The itinerary opens with the fleet leaving the Longwan anchorage below Nanjing; four days later it stops at an island in the Yangtze for a hunt, and on 3 February it reaches Liujiagang near the river mouth to gather and wait.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Xia Xiyang itinerary in Zhu Yunming's Qianwen ji; dates after Dreyer 2007 / Mills 1970"
+  },
+  {
+   "date_iso": "1431-03-14",
+   "date_display": "Xuande 6, spring (14 March 1431)",
+   "precision": "day",
+   "eye": "zheng-he",
+   "place": "Tianfei temple, Liujiagang",
+   "headline": "Thanks to the goddess before the last voyage",
+   "digest": "At the sea goddess's temple at Liujiagang, Zheng He and his officers set up a stone recording their voyages and the goddess's protection. The text lists the expeditions since 1405 and the kingdoms visited, and frames the whole enterprise as bringing distant lands into the emperor's civilising order.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Liujiagang ('Tongfan shiji') inscription, known from a copied text; date per Timeline (Dreyer 2007)"
+  },
+  {
+   "date_iso": "1431-04-08",
+   "date_display": "Xuande 6 (8 April 1431)",
+   "precision": "day",
+   "eye": "itinerary",
+   "place": "Changle, Fujian",
+   "headline": "Eight months at Changle waiting for the wind",
+   "digest": "The fleet arrives at Changle on the Min River, where it will wait most of the year for the north-east monsoon. Nothing in the itinerary records the months between, only the arrival and, much later, the departure.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Xia Xiyang itinerary; dates per Timeline (Dreyer 2007)"
+  },
+  {
+   "date_iso": "1431-12-01",
+   "date_display": "Xuande 6, 11th month (December 1431)",
+   "precision": "month",
+   "eye": "zheng-he",
+   "place": "Tianfei temple, Changle, Fujian",
+   "headline": "Seven voyages summed up in stone",
+   "digest": "Just before sailing, Zheng He's party inscribes a stone at the Changle temple of Tianfei. It counts the seven voyages, recalls over thirty countries visited and a sea whose waves rose as high as the sky, and credits the goddess's divine lantern for calming storms. Voyage by voyage it lists the deeds: the pirate of Palembang taken, the king of Ceylon captured, a pretender in Semudera seized, and lions, leopards, zebras and giraffes sent from Hormuz, Aden and the African coast.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Changle ('Tianfei lingying zhi ji') inscription; excerpt via Oregon State open textbook (Su 2005)"
+  },
+  {
+   "date_iso": "1432-01-27",
+   "date_display": "Xuande 7, 1st month (27 January 1432)",
+   "precision": "day",
+   "eye": "itinerary",
+   "place": "Vijaya, Champa (near Qui Nhon)",
+   "headline": "First landfall: Champa",
+   "digest": "Having left the China coast in mid-winter, the fleet reaches the Champa capital of Vijaya, stays about two weeks and sails on 12 February for Java, arriving at Surabaya on 7 March, where it will wait four months.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Xia Xiyang itinerary; dates per Timeline (Dreyer 2007)"
+  },
+  {
+   "date_iso": "1432-06-21",
+   "date_display": "22 Shawwal 835 AH (about 21 June 1432)",
+   "precision": "day",
+   "eye": "ibn-taghribirdi",
+   "place": "Cairo",
+   "headline": "News from Mecca: Chinese junks at Aden",
+   "digest": "A report reaches Cairo from Mecca: several junks from China have come to the ports of India, and two have anchored at Aden. Yemen's disorder kept them from selling their porcelain, silk and musk, so their captains have written to the Sharif of Mecca and the controller of Jeddah asking leave to come to Jeddah. Sultan Barsbay replies that they may come and should be honoured, mindful of the customs revenue.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "al-Nujum al-Zahira, under 835 AH, as summarised on the Chinese treasure ship page (after Needham); Hijri-to-Julian conversion approximate"
+  },
+  {
+   "date_iso": "1432-08-03",
+   "date_display": "Xuande 7 (3 August 1432)",
+   "precision": "day",
+   "eye": "itinerary",
+   "place": "Melaka",
+   "headline": "At the fleet's depot in Melaka",
+   "digest": "Via Palembang the fleet reaches Melaka, where it stays a month before sailing for Semudera on 2 September. Ma Huan describes the fleet's base here: a stockade with gates and watch-towers, warehouses inside where cargo and provisions were stored while detachments came and went, until all assembled for the monsoon home.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Xia Xiyang itinerary (dates per Timeline); depot description from Yingya Shenglan 'Malacca' chapter, Mills 1970"
+  },
+  {
+   "date_iso": "1432-09-12",
+   "date_display": "Xuande 7 (12 September 1432)",
+   "precision": "day",
+   "eye": "ma-huan",
+   "place": "Semudera, northern Sumatra",
+   "headline": "Hong Bao's squadron splits off for Bengal",
+   "digest": "At Semudera, by the most common reconstruction, the eunuch Hong Bao's squadron, with Ma Huan aboard, leaves the main fleet for Bengal. Ma Huan describes the approach: ships anchor at Chittagong, go by smaller boats up to Sonargaon, and then overland to the capital, a country where people speak Bengali and Persian, use silver coins and cowries, and keep tiger-tamers who perform in the streets.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Itinerary date per Timeline (Dreyer 2007); Bengal chapter of Yingya Shenglan, Mills 1970; some historians place the split earlier, at Champa"
+  },
+  {
+   "date_iso": "1432-12-10",
+   "date_display": "Xuande 7 (10 December 1432)",
+   "precision": "day",
+   "eye": "itinerary",
+   "place": "Calicut",
+   "headline": "Calicut again, then on to Hormuz",
+   "digest": "Via the Nicobars and Beruwala on the Sri Lankan coast, the main fleet reaches Calicut, stays only four days and sails for Hormuz, arriving 17 January 1433. Zheng He may already have been dying; he is thought to have died around this time, perhaps at Calicut.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Xia Xiyang itinerary; dates per Timeline (Dreyer 2007)"
+  },
+  {
+   "date_iso": "1433-01-17",
+   "date_display": "Xuande 8 (17 January 1433)",
+   "precision": "day",
+   "eye": "itinerary",
+   "place": "Hormuz",
+   "headline": "Seven weeks at Hormuz",
+   "digest": "The fleet anchors at Hormuz, the great island market at the mouth of the Gulf, and stays until 9 March before turning for home: back at Calicut 31 March, Semudera 25 April, Melaka 9 May, Champa in June, and Chinese waters in early July.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Xia Xiyang itinerary; dates per Timeline (Dreyer 2007)"
+  },
+  {
+   "date_iso": "1433-03-01",
+   "date_display": "1432–1433 (Xuande 7–8)",
+   "precision": "range",
+   "eye": "ma-huan",
+   "place": "Calicut to Mecca and back",
+   "headline": "Seven men sent to the House of God",
+   "digest": "At Calicut Hong Bao chooses seven men, with an interpreter, to sail on a ship bound for Jeddah with Chinese goods. Ma Huan's chapter on Mecca (Tianfang) describes the walled sanctuary and the Kaaba draped in black silk, the pilgrims, the dry climate. The party is gone about a year and returns with precious goods, a giraffe, lions and ostriches, and an envoy from Mecca who sails to China.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Yingya Shenglan, 'Mecca' chapter, Mills 1970; Hong Bao summary page citing Dreyer 2007 and Jost 2019. Whether Ma Huan was one of the seven is debated"
+  },
+  {
+   "date_iso": "1433-07-07",
+   "date_display": "Xuande 8 (7 July 1433)",
+   "precision": "day",
+   "eye": "itinerary",
+   "place": "Taicang, Yangtze mouth",
+   "headline": "Home, without the admiral",
+   "digest": "The itinerary brings the fleet back into Chinese waters; it reached the capital later that month. Zheng He's name is absent from the reports of the return, and he is believed to have died on the voyage.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Timeline (Dreyer 2007) gives 7 July for arrival in China; Nanjing arrival is often given as 22 July"
+  },
+  {
+   "date_iso": "1433-09-14",
+   "date_display": "Xuande 8, intercalary 8th month, 1st day (14 September 1433)",
+   "precision": "day",
+   "eye": "ming-shilu",
+   "place": "Fengtian Gate, Beijing",
+   "headline": "Ten kingdoms and a giraffe: congratulations unnecessary",
+   "digest": "Envoys of ten states arrive at court together: Semudera, Calicut, Cochin, Sri Lanka, Dhofar, Aden, Gan-ba-li, Hormuz, Jia-yi-le (probably Kayal) and Mecca. They bring giraffes, elephants and horses. When the Rites official leads congratulations on the auspicious giraffe, the Xuande Emperor says he does not prize foreign things and accepts them only for the envoys' loyalty; congratulations are unnecessary.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Xuanzong Shilu, Xuande 8/intercalary 8/1, tr. Wade, MSL: https://epress.nus.edu.sg/msl/reign/xuan-de/year-8-month-intercalary-8-day-1"
+  },
+  {
+   "date_iso": "1434-06-01",
+   "date_display": "Xuande 9 (1434)",
+   "precision": "year",
+   "eye": "gong-zhen",
+   "place": "Nanjing",
+   "headline": "A secretary writes the fleet's record",
+   "digest": "Within a year of returning, Gong Zhen finishes and prefaces his Record of the Foreign Countries in the Western Ocean. He presents the voyage as an act of imperial grace carried across the sea, describes the countries the fleet touched, and preserves something of how the expedition was organised and supplied. He wrote it as the court was already turning away from the sea.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Xiyang Fanguo Zhi, preface 1434 (Gong Zhen summary page; Dreyer 2007)"
+  },
+  {
+   "date_iso": "1436-06-01",
+   "date_display": "Zhengtong 1 (1436)",
+   "precision": "year",
+   "eye": "fei-xin",
+   "place": "Kunshan / Taicang",
+   "headline": "An old soldier writes up four voyages",
+   "digest": "Fei Xin, now about 48, dates the preface of his Overall Survey of the Star Raft. He writes for readers who will never sail: the strange lands are real, he says, and he has seen them in the emperor's service. He later rewrote it with pictures for the court. The fleets had already stopped.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Xingcha Shenglan, preface dated 1436 (Fei Xin summary page)"
+  },
+  {
+   "date_iso": "1436-08-11",
+   "date_display": "Zhengtong 1, intercalary 6th month, 29th day (11 August 1436)",
+   "precision": "day",
+   "eye": "ming-shilu",
+   "place": "Beijing",
+   "headline": "The stranded envoys go home on a Javanese ship",
+   "digest": "The envoys who came with the last fleet, from Calicut, Semudera, Sri Lanka, Cochin, Mecca, Aden, Hormuz, Dhofar and others, are still in China three years on. There will be no more treasure fleet to carry them home; the new court gives them a sea-going ship and asks the king of Java to see them safely on their way with his own returning envoy.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Yingzong Shilu, Zhengtong 1/intercalary 6/29, tr. Wade, MSL: https://epress.nus.edu.sg/msl/reign/zheng-tong/year-1-month-intercalary-6-day-29"
+  },
+  {
+   "date_iso": "1442-11-01",
+   "date_display": "late 1442 (Sha'ban–Ramadan 846 AH, approx.)",
+   "precision": "month",
+   "eye": "abd-al-razzaq",
+   "place": "Calicut",
+   "headline": "'Children of China' in the harbour",
+   "digest": "After a miserable sea passage from Hormuz, the Timurid envoy reaches Calicut. He finds a secure harbour crowded with merchants from every coast, where goods are safe and trade duties fixed, and a Hindu ruler unimpressed by Shah Rukh's embassy. He notes that Calicut's own seafarers are called 'Chini-bachagan', children of China. The Chinese had stopped coming less than ten years before.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Matla al-Sadayn, embassy narrative (Major tr. 1857; Elliot and Dowson 1871); month of arrival approximate"
+  },
+  {
+   "date_iso": "1444-06-01",
+   "date_display": "1444 (record made); De varietate fortunae Book IV completed c. 1448",
+   "precision": "range",
+   "eye": "conti",
+   "place": "Florence, telling Poggio",
+   "headline": "Ships bigger than ours, with five masts",
+   "digest": "Back in Italy, Conti tells Poggio of the great ships of the eastern seas: larger than any built in Europe, with many masts and sails, and hulls divided into compartments so that a holed section does not sink the ship. He describes Calicut, Java and the spice trade, but Poggio's Latin records no memory of a Chinese emperor's armada that had been in those same seas a few years before.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Poggio Bracciolini, De varietate fortunae IV (Major tr. 1857); junk description as cited by Needham"
+  },
+  {
+   "date_iso": "1612-06-01",
+   "date_display": "Preface dated 1021 AH / 1612",
+   "precision": "year",
+   "eye": "malay-annals",
+   "place": "Johor court",
+   "headline": "How Melaka remembered China: needles, sago and a princess",
+   "digest": "The Annals tell of the Raja of China sending a ship of needles, one for each house of his realm; Melaka answers with a ship of sago grains, one for each of its subjects. The emperor sends his daughter, Hang Li Po, with five hundred attendants to marry Sultan Mansur Shah, and their people settle on Bukit Cina. Later the emperor falls ill until he drinks water in which the Melaka sultan has washed: the hierarchy of the Ming annals turned upside down.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sejarah Melayu, ch. 15 (Leyden tr. 1821), via the Hamburg 'Materials for the History of Indonesia' page"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1409-02-15",
+   "label": "Galle stele and Melaka's envoys, one day apart",
+   "eyes": [
+    "zheng-he",
+    "ming-shilu"
+   ],
+   "note": "On the stele the fleet presents itself as a pious donor to three religions in Sri Lanka; in the annal the next day the court receives Melaka as a new tributary. The same expedition is gift-giver abroad and tribute-taker at home."
+  },
+  {
+   "date": "1411-07-06",
+   "label": "A captive king and a visiting king, summer 1411",
+   "eyes": [
+    "ming-shilu",
+    "fei-xin",
+    "zheng-he"
+   ],
+   "note": "Within three months the court parades the captured Alakeshvara and feasts Paramesvara of Melaka. Fei Xin, a soldier on the voyage, remembers Ceylon's gems and sacred peak; the Changle stele of 1431 still lists the king's capture as a triumph. No Sri Lankan account of the capture by a participant survives: the hosts' side here is silence."
+  },
+  {
+   "date": "1414-09-20",
+   "label": "The Bengal giraffe reaches Nanjing",
+   "eyes": [
+    "ming-shilu",
+    "shen-du",
+    "fei-xin"
+   ],
+   "note": "Fei Xin saw the Bengal court that sent it; the annal records it in a line; Shen Du turns it into the qilin. Three registers: the traveller's, the bureaucrat's, the courtier's."
+  },
+  {
+   "date": "1415-12-20",
+   "label": "The Malindi giraffe at the Fengtian Gate",
+   "eyes": [
+    "ming-shilu",
+    "zheng-he",
+    "fei-xin"
+   ],
+   "note": "The emperor refuses the omen in words while accepting the ceremony; the 1431 stele later lists giraffes among the voyages' trophies; Fei Xin sails to the African coast to take the envoys home."
+  },
+  {
+   "date": "1432-06-21",
+   "label": "Chinese ships in the Red Sea, 1432–33",
+   "eyes": [
+    "ibn-taghribirdi",
+    "ma-huan",
+    "itinerary"
+   ],
+   "note": "The Cairo report places junks at Aden in June 1432, while the Chinese itinerary has the main fleet still in Java. Either a squadron had gone ahead or the Arabic date reflects a different year; the disagreement is part of the record."
+  },
+  {
+   "date": "1433-09-14",
+   "label": "The last voyage comes home",
+   "eyes": [
+    "ming-shilu",
+    "itinerary",
+    "ma-huan",
+    "gong-zhen"
+   ],
+   "note": "The itinerary ends in July; in September ten envoys, one from Mecca, bring giraffes to a new emperor who says he does not want foreign things. Ma Huan and Gong Zhen begin turning the voyage into books."
+  },
+  {
+   "date": "1436-08-11",
+   "label": "The end of the fleets",
+   "eyes": [
+    "ming-shilu",
+    "fei-xin",
+    "conti"
+   ],
+   "note": "Fei Xin dates his book in 1436, the year the court sends the stranded envoys home on a Javanese ship. That same year a Spanish traveller meets Conti at Sinai, heading home with his own story of giant eastern ships."
+  }
+ ],
+ "ties": [
+  {
+   "a": "ma-huan",
+   "b": "fei-xin",
+   "kind": "met",
+   "note": "Both sailed on the seventh voyage, 1431–33. Fei Xin's book borrows from Ma Huan's for places he had not seen."
+  },
+  {
+   "a": "ma-huan",
+   "b": "gong-zhen",
+   "kind": "read each other",
+   "note": "Shipmates on the last voyage; Gong Zhen's country chapters rely on Ma Huan's draft."
+  },
+  {
+   "a": "zheng-he",
+   "b": "ming-shilu",
+   "kind": "mentioned",
+   "note": "Zheng He's orders and returns are the annal's thread, but the Shilu never record his death."
+  },
+  {
+   "a": "shen-du",
+   "b": "ming-shilu",
+   "kind": "mentioned",
+   "note": "The annal's one-line arrival of the Bengal giraffe on 20 Sept 1414 is the occasion for Shen Du's eulogy that same month."
+  },
+  {
+   "a": "ibn-taghribirdi",
+   "b": "ma-huan",
+   "kind": "opposite sides",
+   "note": "The Mamluk historian reports from the receiving end the Chinese voyage to the Red Sea in which Ma Huan's Mecca party took part."
+  },
+  {
+   "a": "rasulid-chronicle",
+   "b": "ming-shilu",
+   "kind": "opposite sides",
+   "note": "Aden appears in the Shilu as a tributary; the Yemeni chronicle sees envoys bearing gifts who would not prostrate themselves."
+  },
+  {
+   "a": "malay-annals",
+   "b": "ming-shilu",
+   "kind": "opposite sides",
+   "note": "The Shilu record Melaka's king feasted as a loyal vassal in 1411; the Annals remember a Chinese emperor who must honour Melaka's ruler to be cured."
+  },
+  {
+   "a": "conti",
+   "b": "abd-al-razzaq",
+   "kind": "same street",
+   "note": "Both knew Calicut within a few years of the last fleet, and their accounts were published side by side in Major's 1857 Hakluyt volume."
+  },
+  {
+   "a": "itinerary",
+   "b": "gong-zhen",
+   "kind": "same street",
+   "note": "Two records of the same seventh voyage: the day-by-day route and the secretary's book."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "embassies-1403",
+   "note": "The fleets sailed in the same year Timur died (February 1405) on his way to invade Ming China, after receiving Clavijo's embassy and humiliating Yongle's envoys at Samarkand. His son Shah Rukh chose embassy over war, sending the 1420–22 mission to Beijing that Abd al-Razzaq later preserved in his chronicle."
+  },
+  {
+   "to": "v2:first-contact",
+   "note": "Conti's information fed Fra Mauro's world map (c. 1450), a copy of which was made for the king of Portugal; Vasco da Gama reached the same Calicut harbour in 1498, sixty-five years after the last treasure fleet left. Pigafetta's Malay word list of 1521 comes from the trading world Melaka and the Ming fleets had shaped."
+  },
+  {
+   "to": "v2:ming-qing",
+   "note": "The Ming court that stopped the voyages put its resources into the northern frontier and the Great Wall instead. Two centuries later that dynasty fell, and the wall's eastern gate at Shanhai Pass decided the succession."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.worldhistory.org/image/10024/giraffe-tribute-to-emperor-yongle/",
+   "title": "Giraffe tribute to Emperor Yongle",
+   "caption": "The Bengal giraffe of 1414 as a qilin, with Shen Du's eulogy above; the Philadelphia version is now considered a later copy of the lost original.",
+   "date": "original 1414; this copy probably 16th century",
+   "credit": "After Shen Du; Philadelphia Museum of Art"
+  },
+  {
+   "url": "https://wiki.crossroads-research.net/index.php/File:Tribute_Giraffe_with_Attendant.jpg",
+   "title": "Tribute Giraffe with Attendant",
+   "caption": "High-resolution file of the same scroll, with the museum's dating notes and accession data (1977-42-1).",
+   "date": "dated Yongle 12, 9th month (1414) by its inscription",
+   "credit": "Attributed to Shen Du; Philadelphia Museum of Art"
+  },
+  {
+   "url": "https://metmuseum.org/art/collection/search/51649",
+   "title": "Giraffe with Two Keepers",
+   "caption": "A Qing-period copy of the 1414 giraffe that drops Shen Du's eulogy and turns the keepers into Central Asian grooms: the image kept travelling after the fleets stopped.",
+   "date": "17th century or later",
+   "credit": "Unidentified artist; The Metropolitan Museum of Art"
+  },
+  {
+   "url": "https://www.loc.gov/item/2004633695/",
+   "title": "Wu bei zhi (with the 'Mao Kun' navigation chart)",
+   "caption": "The military encyclopedia whose juan 240 preserves a strip chart of the fleets' route from Nanjing to Hormuz and East Africa, with compass bearings and star-altitude diagrams; the only surviving navigational record of the voyages.",
+   "date": "compiled 1621; Qing printing",
+   "credit": "Mao Yuanyi; Library of Congress, Asian Division"
+  },
+  {
+   "url": "https://worldhistorycommons.org/navigational-charts-based-those-used-zheng-he",
+   "title": "Navigational charts based on those used by Zheng He",
+   "caption": "Two pages from the Wubei zhi: the coast from China to Africa drawn as a strip, and a stellar diagram for the run from Hormuz to Calicut.",
+   "date": "printed c. 1628",
+   "credit": "Wubei zhi; World History Commons"
+  }
+ ],
+ "further": [
+  {
+   "title": "Geoff Wade, Southeast Asia in the Ming Shi-lu (open access)",
+   "url": "https://epress.nus.edu.sg/msl/node/4579"
+  },
+  {
+   "title": "Timeline of the Ming treasure voyages",
+   "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Ming_treasure_voyages"
+  },
+  {
+   "title": "Ming–Kotte War",
+   "url": "https://en.wikipedia.org/wiki/Ming%E2%80%93Kotte_War"
+  },
+  {
+   "title": "Museo Galileo: Arab ships and Chinese junks on the Fra Mauro map",
+   "url": "https://mostre.museogalileo.it/framauro/en/historical-context/the-world-map/navigation-in-the-indian-ocean-arab-ships-and-chinese-junks.html"
+  },
+  {
+   "title": "Smithsonian: The peculiar story of giraffes in medieval China",
+   "url": "https://www.smithsonianmag.com/smart-news/peculiar-story-giraffes-medieval-china-180963737/"
+  },
+  {
+   "title": "Tübingen thesis: Hoher Besuch im Land des Himmelsplatzes (Ming fleet in the Arab world, 1413–1433)",
+   "url": "https://ub01.uni-tuebingen.de/xmlui/handle/10900/46889"
+  }
+ ],
+ "vantage_key": "0 = the throne and the commander's own record; 1 = sailing with the fleet or hosting it face to face; 2 = at the Ming court receiving the results; 3 = in the same ocean world at a distance in place or a few years apart; 4 = the hosts' later memory."
+}

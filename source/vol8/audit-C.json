@@ -1,0 +1,519 @@
+[
+ {
+  "chapter": "carrington-1859",
+  "where": "intro:1",
+  "severity": "doubt",
+  "problem": "Carrington's published start time is 11:18 GMT; Hodgson's note gives the end (about 11:25) but the start time attributed to him is not confirmed.",
+  "fix": {
+   "text_replace": {
+    "old": "Richard Carrington at his private observatory at Redhill and Richard Hodgson at Highgate each saw the flare at about 11:18 Greenwich time, and each saw it fade within about five minutes.",
+    "new": "Richard Carrington at his private observatory at Redhill timed the outburst at 11:18 Greenwich time, and Richard Hodgson at Highgate saw it at about the same moment; each saw it fade within about five minutes."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "intro:1",
+  "severity": "doubt",
+  "problem": "The Colaba ~1,600 nT figure is one modern estimate (Tsurutani et al. 2003), since debated; it should be attributed, not stated as settled.",
+  "fix": {
+   "text_replace": {
+    "old": "recorded a fall in the horizontal field later estimated at about 1,600 nanotesla",
+    "new": "recorded a fall in the horizontal field that Tsurutani and colleagues (2003) estimated at about 1,600 nanotesla, a figure later studies have debated"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "intro:1",
+  "severity": "doubt",
+  "problem": "The Lahaina/Honolulu sighting has no exact date in the source (Hayakawa et al. exclude it), so it cannot be placed firmly on the night of 1-2 September.",
+  "fix": {
+   "text_replace": {
+    "old": "in Santiago de Chile, on Maui, and",
+    "new": "in Santiago de Chile, probably on Maui, and"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "intro:2",
+  "severity": "doubt",
+  "problem": "Nothing checked identifies the Chikusai diarist as a merchant-scholar; the eye record itself calls the author simply a diarist.",
+  "fix": {
+   "text_replace": {
+    "old": "a merchant-scholar's diary in Ise province",
+    "new": "a private diary kept in Ise province"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "intro:3",
+  "severity": "doubt",
+  "problem": "The Montería account (as summarised by Moreno Cárdenas et al.) describes fire-like lights and people praying, not a conclusion that it was a distant fire; only Ise and Lahaina record the fire explanation.",
+  "fix": {
+   "text_replace": {
+    "old": "And observers who could not have known of each other, in Ise, on Maui and in Montería, first took the light for a distant fire.",
+    "new": "And observers who could not have known of each other, in Ise and on Maui, first took the light for a distant fire, while in Montería, if the disputed redating is right, frightened townspeople went to church to pray."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "convergence:1",
+  "severity": "error",
+  "problem": "Havana's 04:00-04:10 local sighting is about 10:29-10:39 GMT (Hayakawa et al. 2018), an hour outside the 09:15-09:30 GMT window claimed; only Panama fits.",
+  "fix": {
+   "text_replace": {
+    "old": "At Panama and Havana it was four in the morning; in Sydney and Victoria, early evening. Within a quarter of an hour of the same instant, observers in both hemispheres wrote of a red sky, one to the north and one to the south.",
+    "new": "At Panama it was four in the morning (Havana's 4 a.m. sighting came about an hour later by Greenwich time); in Sydney and Victoria, early evening. Within a quarter of an hour of the same instant, the Saranac's watch and the Sydney observers wrote of a red sky, one to the north and one to the south."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "convergence:3",
+  "severity": "doubt",
+  "problem": "No checked source says the Mexican reporters or the Montería account explained the light as fire; only Bishop (and the Ise diarist) did.",
+  "fix": {
+   "text_replace": {
+    "old": "Mexicans, a Colombian priest and a Hawaiian missionary all reached first for fire as the explanation.",
+    "new": "The Hawaiian missionary first reached for fire as the explanation; in Montería the lights drove people to prayer."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "convergence:5",
+  "severity": "doubt",
+  "problem": "Author of the Chikusai Nikki is not established as a merchant.",
+  "fix": {
+   "text_replace": {
+    "old": "A merchant's diary and an observatory book",
+    "new": "A private diary and an observatory book"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "entry:3",
+  "severity": "doubt",
+  "problem": "The published extracts confirm only 'brilliantly red' from the Saranac log (Hayakawa et al. 2018; Green et al. 2006); the fuller wording is not confirmed.",
+  "fix": {
+   "quote": "brilliantly red"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "entry:10",
+  "severity": "doubt",
+  "problem": "The 35,000-mile figure is confirmed (Storms from the Sun quotes Carrington); the 11:23 end time could not be checked against the original text in this audit.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "claim:4",
+  "severity": "doubt",
+  "problem": "As entry 10: 11:23 end time not confirmed against the MNRAS text; 11:18 start and 35,000 miles are confirmed.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "claim:7",
+  "severity": "doubt",
+  "problem": "Colaba figure is a single modern estimate; attribute and flag as debated.",
+  "fix": {
+   "text_replace": {
+    "old": "Colaba (Bombay) horizontal field later estimated to fall about 1,600 nT",
+    "new": "Colaba (Bombay) horizontal field estimated by Tsurutani et al. (2003) to fall about 1,600 nT (figure debated)"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "entry:13",
+  "severity": "error",
+  "problem": "Prescott's compilation, the fuller primary text, places Royce's shock on the evening of 28 August, a little after 10 p.m. as the aurora faded; the 1 September date rests only on the NYT letter's print date (5 Sept). 'EST' is anachronistic for 1859 (local time), and the claim that he did not know the aurora was out is not in Prescott.",
+  "fix": {
+   "date_iso": "1859-08-28",
+   "date_display": "Sunday 28 August 1859, a little after 10 p.m. local (Prescott; some modern compilations place it on 1 September)",
+   "digest": "Royce, calling Richmond with one hand on the iron plate, leaned toward the sounder and grazed a ground wire with his forehead. He was stunned for a moment by a severe shock, and a bystander said a spark had jumped from his head to the instrument. In Prescott's version this happened just after the aurora had faded.",
+   "source_note": "Prescott 1860, pp. 318–326 (28 August display); the same letter appeared in the New York Times of 5 September 1859 (Green et al. 2006), which some modern compilations read as the night of 1 September."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "entry:14",
+  "severity": "style",
+  "problem": "'EST' did not exist in 1859; observers used local time.",
+  "fix": {
+   "date_display": "Night of 1–2 September 1859, about 1 a.m. local time"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "entry:22",
+  "severity": "style",
+  "problem": "'EST' did not exist in 1859; Prescott's times are local.",
+  "fix": {
+   "date_display": "Friday 2 September 1859, forenoon (about 8:30–11 a.m. local time)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "entry:25",
+  "severity": "doubt",
+  "problem": "The translation in Hayakawa et al. 2018 records rumours of fires at Yokkaichi, Kuwana and near Gifu (none confirmed) and the diarist's conclusion that it seemed a celestial omen; the claim about light seen 'from everywhere' is not in that summary.",
+  "fix": {
+   "text_replace": {
+    "old": "The diary also recorded that the fiery light had been seen to the north from everywhere, which a single fire could not explain.",
+    "new": "Rumours also had Yokkaichi, Kuwana and a place near Gifu burning, none of them confirmed, and the diarist concluded that it all seemed a celestial omen."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "entry:29",
+  "severity": "error",
+  "problem": "The quote does not match the wording given in Green et al. 2006, which is 'lighting up the heavens with a gorgeous hue of red'; 'the Southern Aurora' tail is unconfirmed.",
+  "fix": {
+   "quote": "lighting up the heavens with a gorgeous hue of red"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "eye:bishop",
+  "severity": "doubt",
+  "problem": "The letter is signed only 'S E Bishop'; the identification with Sereno Edwards Bishop is an inference (he was seamen's chaplain at Lahaina for nine years from 1853), and should be flagged as such.",
+  "fix": {
+   "text_replace": {
+    "old": "reproduced on Images of Old Hawaii.",
+    "new": "reproduced on Images of Old Hawaii. The identification with Sereno Edwards Bishop is an inference: the letter is signed only 'S E Bishop', and Sereno Bishop was seamen's chaplain at Lahaina for nine years from 1853."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "threads_out:1",
+  "severity": "doubt",
+  "problem": "The Krakatoa thread depends on the Bishop identification, which is probable but inferred; hedge it.",
+  "fix": {
+   "text_replace": {
+    "old": "is identified as Sereno E. Bishop, who in Honolulu",
+    "new": "was very probably Sereno E. Bishop, then seamen's chaplain at Lahaina, who in Honolulu"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "carrington-1859",
+  "where": "image:0",
+  "severity": "style",
+  "problem": "On the Linda Hall page the observatory view is the title-page vignette of Carrington's 1857 star catalogue, not part of the Monthly Notices figure.",
+  "fix": {
+   "text_replace": {
+    "old": "the page also shows the vignette of his Redhill observatory.",
+    "new": "the page also shows a view of his Redhill observatory from the title page of his 1857 star catalogue."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "eye:semenov",
+  "severity": "error",
+  "problem": "Ol'khovatov (arXiv 2310.14917) records the much-quoted Semenov interview as taken in 1930 by E. L. Krinov of Kulik's expedition, not by Kulik himself; a 1927 recording by Kulik is not confirmed.",
+  "fix": {
+   "text_replace": {
+    "old": "Semenov's account was taken down by Kulik, first during the 1927 expedition and again in 1930; the 1930 version is the one most often quoted in translation.",
+    "new": "The version of Semenov's account most often quoted in translation was taken down in 1930 by E. L. Krinov of Kulik's expedition; Kulik's party had already gathered Vanavara accounts in 1927."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "entry:4",
+  "severity": "error",
+  "problem": "Same: the 1930 interview was by Krinov for Kulik's expedition.",
+  "fix": {
+   "digest": "Semenov said he was sitting on his porch facing north when the sky seemed to split and fire spread high and wide over the forest, filling the whole north. The heat was so fierce that his shirt felt as if it were burning. Then the sky closed again, a heavy blow followed, and he was thrown several metres from the porch and briefly lost his senses. This is his account as recorded in 1930 by E. L. Krinov of Kulik's expedition, more than twenty years after the event.",
+   "source_note": "Krinov's 1930 interview for Kulik's expedition, listed in Ol'khovatov arXiv 2310.14917; wording differs between versions"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "entry:28",
+  "severity": "doubt",
+  "problem": "That Kulik himself took down Semenov's account in 1927 is not confirmed; the famous version is Krinov's of 1930.",
+  "fix": {
+   "digest": "At Vanavara Kulik heard local accounts of the heat and the blast, by most later summaries including those of Semenov and his neighbour Kosolapov. The trading post became the expedition's base. The account recorded by Krinov in 1930 is the one most often quoted."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "entry:36",
+  "severity": "error",
+  "problem": "The 1930 recording was made by Krinov, not Kulik.",
+  "fix": {
+   "text_replace": {
+    "old": "On a later visit Kulik re-recorded Semenov's account.",
+    "new": "In 1930 Evgeny Krinov, a member of Kulik's expedition, took down Semenov's account."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "claim:2",
+  "severity": "error",
+  "problem": "Evidence line: the recorded interview is Krinov's, 1930.",
+  "fix": {
+   "evidence": "Interview taken by E. L. Krinov for Kulik's expedition, 1930 (recorded later)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "tie:0",
+  "severity": "doubt",
+  "problem": "Interviews of Semenov in 1927 and 1930 by Kulik are not confirmed; the 1930 one was Krinov's.",
+  "fix": {
+   "note": "Kulik's expeditions were based at the Vanavara trading post, where Semenov lived; the version of Semenov's account most often quoted was taken down by Kulik's colleague Krinov in 1930."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "convergence:6",
+  "severity": "error",
+  "problem": "Semenov's 1930 account was recorded by Krinov.",
+  "fix": {
+   "text_replace": {
+    "old": "and he records Semenov's account again in the form later quoted worldwide",
+    "new": "and his colleague Krinov records Semenov's account in the form later quoted worldwide"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "intro:1",
+  "severity": "style",
+  "problem": "The most-quoted Vanavara account was recorded by a member of Kulik's expedition (Krinov), not Kulik personally.",
+  "fix": {
+   "text_replace": {
+    "old": "by the ethnographer Innokenty Suslov and the meteorite hunter Leonid Kulik",
+    "new": "by the ethnographer Innokenty Suslov and by the expeditions of the meteorite hunter Leonid Kulik"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "entry:5",
+  "severity": "style",
+  "problem": "Display says 'about 7 a.m.' but the Krasnoyarets report (per Ol'khovatov) gives 7:43 a.m.; align with the digest.",
+  "fix": {
+   "date_display": "Tuesday 30 June 1908 (17 June O.S.), 7:43 a.m. local, as reported"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "claim:3",
+  "severity": "style",
+  "problem": "Same time mismatch as entry 5.",
+  "fix": {
+   "date_display": "17 June 1908 O.S., 7:43 a.m. local (as reported)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "entry:8",
+  "severity": "doubt",
+  "problem": "No source checked gives 00:20 GMT for the Irkutsk record; the reconstructed event time is about 00:14 GMT (Ben-Menahem, Pasechnik). Amplitude (4 mm) and ~1.5 h duration are confirmed.",
+  "fix": {
+   "date_display": "Tuesday 30 June 1908 (17 June O.S.), minutes after about 00:14 GMT",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "claim:5",
+  "severity": "doubt",
+  "problem": "Same: 00:20 GMT unsourced.",
+  "fix": {
+   "date_display": "30 June 1908, minutes after about 00:14 GMT",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "eye:wolf",
+  "severity": "doubt",
+  "problem": "Ol'khovatov quotes Wolf as saying the sky was quite brightly lit even far beyond the zenith; 'right to the southern horizon' is not confirmed.",
+  "fix": {
+   "text_replace": {
+    "old": "stayed brightly lit past the zenith, right to the southern horizon.",
+    "new": "stayed quite brightly lit even far beyond the zenith."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "entry:13",
+  "severity": "doubt",
+  "problem": "'Even towards the southern horizon' and 'photography was hampered' are not confirmed by the cited summary.",
+  "fix": {
+   "text_replace": {
+    "old": "was still brightly lit well past the zenith, even towards the southern horizon. That ruled out an ordinary late twilight, and photography was hampered.",
+    "new": "was still quite brightly lit even far beyond the zenith, which an ordinary late twilight would not explain."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "claim:8",
+  "severity": "doubt",
+  "problem": "Same as entry 13.",
+  "fix": {
+   "text_replace": {
+    "old": "night sky brightly lit past the zenith to the southern horizon",
+    "new": "night sky still quite brightly lit even far beyond the zenith"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "threads_out:1",
+  "severity": "error",
+  "problem": "Pillinger names only Alfred Fowler of South Kensington (who saw a bright prominence on 30 June and expected aurora); Lockyer is not named in the sources checked.",
+  "fix": {
+   "text_replace": {
+    "old": "Norman Lockyer and Alfred Fowler at South Kensington argued for it,",
+    "new": "Alfred Fowler at South Kensington, who had seen a bright solar prominence on 30 June and expected an aurora, argued for it,"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "intro:4",
+  "severity": "style",
+  "problem": "'None has evidence behind it' is a compiler's verdict; a neutral statement of scientific standing suffices and keeps fringe ideas from being given weight.",
+  "fix": {
+   "text_replace": {
+    "old": "but none has evidence behind it.",
+    "new": "but none has won scientific acceptance."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "eye:kulik",
+  "severity": "doubt",
+  "problem": "The claim that Kulik silently cut a witness's remark is Ol'khovatov's finding (an author who also argues for a non-impact, geophysical explanation) and should be attributed.",
+  "fix": {
+   "text_replace": {
+    "old": "Ol'khovatov shows that his 1927 article silently cut",
+    "new": "According to Ol'khovatov, his 1927 article silently cut"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "entry:23",
+  "severity": "doubt",
+  "problem": "Attribute the omission finding to Ol'khovatov.",
+  "fix": {
+   "text_replace": {
+    "old": "When Kulik published the account in 1927 he left out the remark about the time, without marking the cut.",
+    "new": "According to Ol'khovatov, when Kulik published the account in 1927 he left out the remark about the time without marking the cut."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "entry:34",
+  "severity": "error",
+  "problem": "Pillinger says three members left and in November 1929 Kulik sent Krinov back to Vanavara, a journey on which he was frostbitten; 'went home' is wrong, and Krinov was still at Vanavara in 1930.",
+  "fix": {
+   "text_replace": {
+    "old": "Some of the party left, and Krinov went home in November 1929.",
+    "new": "Three members left, and in November 1929 Kulik sent Krinov back to Vanavara, a journey on which he suffered frostbite."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "entry:22",
+  "severity": "doubt",
+  "problem": "McKay (HNN) describes the lead as a page torn from an old calendar reprinting a 1908 article, handed to Kulik as he boarded his train, not a newspaper clipping from a colleague.",
+  "fix": {
+   "text_replace": {
+    "old": "A 1908 newspaper clipping, passed on by a colleague, had pointed him to central Siberia.",
+    "new": "A page torn from an old calendar, reprinting a 1908 report of the fall and handed to him as he set out, pointed him to central Siberia."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "eye:ingleby",
+  "severity": "doubt",
+  "problem": "Pillinger's lecture gives Ingleby's account (salmon-pink sky until 2:30 a.m., reading at 1:15 a.m.) but does not confirm it was a letter to The Times; form should not overclaim.",
+  "fix": {
+   "form": "account in the 1908 press correspondence (as summarised by Pillinger; original not checked)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tunguska-1908",
+  "where": "threads_out:3",
+  "severity": "style",
+  "problem": "McKay attributes the industrial-iron hope to some proponents, not to the Academy's approval as such.",
+  "fix": {
+   "text_replace": {
+    "old": "approved in 1921 partly in the hope of finding meteoritic iron for industry",
+    "new": "approved in 1921 at a time when some hoped meteoritic iron might help restart Soviet industry"
+   }
+  },
+  "confidence": "approx"
+ }
+]

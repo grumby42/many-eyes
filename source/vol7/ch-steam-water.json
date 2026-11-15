@@ -1,0 +1,1541 @@
+{
+ "id": "steam-water",
+ "title": "Steam on the Water: the Hudson and the Atlantic, 1807–1838",
+ "short_title": "Steam on the Water",
+ "subtitle": "Fulton's Hudson steamboat, the Comet, the Savannah, and the Sirius–Great Western race to New York",
+ "span": "1803–1838",
+ "intro": [
+  "Steam came to water before it came to land, and it came first as a river boat. In August 1807 Robert Fulton took a long, narrow, noisy boat with an English engine up the Hudson from New York to Albany, 150 miles in 32 hours of running, and back in 30. Sloops on the same river could take a day or a week depending on the wind. Within three weeks the boat was carrying paying passengers on a timetable.",
+  "The record of that week is mostly letters, not diaries. Fulton wrote to his partner Robert R. Livingston, to the newspapers and to his friend Joel Barlow; Peter Augustus Jay, sailing up the same river on his wedding journey, went aboard and wrote to his father that the thing was fast but costly and cramped. In Scotland Henry Bell's Comet opened a passenger service on the Clyde in 1812, recorded mainly in advertisements and in Bell's own later letters claiming priority.",
+  "The ocean was a different problem: not speed but coal. The Savannah crossed from Georgia to Liverpool in 1819 with an engine and folding paddle wheels, but her own log shows she sailed most of the way and ran out of fuel off Ireland. When Bristol men set out to build a true Atlantic steamer in the 1830s, the lecturer Dionysius Lardner argued that no steamer could prudently run much more than about 2,080 miles without coaling. He did not say steam could never cross the ocean, as later legend has it; he said the arithmetic of the ships then proposed would not work.",
+  "Brunel's answer was size: a ship's capacity grows faster than its resistance, so a large enough hull could carry its own coal. His Great Western, launched at Bristol in July 1837, nearly burned on the Thames ten days before her maiden voyage, and Brunel himself was badly hurt. Meanwhile a rival London company chartered the small Irish Sea packet Sirius to get to New York first. The Sirius left Cork on 4 April 1838 and anchored off the Battery late on 22 April; the Great Western left Bristol on 8 April and came up the next afternoon with nearly 200 tons of coal to spare.",
+  "Who was 'first' depends on the measure: the Savannah first to cross with steam, the Canadian Royal William of 1833 often cited for a largely steam crossing, the Sirius first into New York under continuous steam in 1838, the Great Western first built for the service and first to prove it could be run as a business. The eyes here include an engineer, rival captains, a promoter, an expert who doubted, an anonymous passenger, a city diarist and a newspaper editor. The crews and stokers who did the work barely appear in the record beyond complaints of long shifts and the stokers who rowed ashore in panic during the fire."
+ ],
+ "calendar_note": "All dates are in the Gregorian calendar as used in Britain and the United States throughout this period. Ship's logs of the time often ran a nautical day from noon to noon, so a log date can differ by one from a landsman's date for the same event.",
+ "eyes": [
+  {
+   "id": "fulton",
+   "short": "Fulton",
+   "name": "Robert Fulton",
+   "life": "1765–1815",
+   "role": "American painter turned engineer, aged 41 in 1807; partner of Robert R. Livingston in the Hudson steamboat venture",
+   "side": "United States; the Livingston–Fulton steamboat partnership",
+   "where": "Paris (1797–1804), London (1804–06), then New York and the Hudson",
+   "lat": 40.7,
+   "lon": -74.01,
+   "waypoints": [
+    {
+     "lat": 48.86,
+     "lon": 2.35,
+     "label": "Paris, Seine trial 1803"
+    },
+    {
+     "lat": 51.51,
+     "lon": -0.13,
+     "label": "London, engine ordered 1804"
+    },
+    {
+     "lat": 40.7,
+     "lon": -74.01,
+     "label": "New York, August 1807"
+    },
+    {
+     "lat": 42.08,
+     "lon": -73.92,
+     "label": "Clermont, 18 Aug 1807"
+    },
+    {
+     "lat": 42.65,
+     "lon": -73.75,
+     "label": "Albany, 19 Aug 1807"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the builder at the helm",
+   "form": "dated letters, a newspaper letter and a manuscript essay",
+   "language": "English",
+   "authenticity": "Fulton kept no diary of the 1807 voyage. His letters to Chancellor Livingston (10 and 29 August 1807), his signed letter to the American Citizen (dated 21 August 1807) and his letter to Joel Barlow were printed by Cadwallader Colden (1817) and H. W. Dickinson (1913). The Barlow letter survives only in printed form here and its exact day is not fixed. His 1813 'Notes on Steam Boats' manuscript is at the Morgan Library (MA 153.1).",
+   "bio": "A Pennsylvanian who went to London to paint and stayed in Europe for twenty years, turning to canals, submarines and steam. In Paris he and the American minister Robert R. Livingston agreed to build a steamboat for the Hudson, where Livingston held a state monopoly. His letters are those of a man who had failed before and was counting every hour and mile.",
+   "sources": [
+    {
+     "title": "H. W. Dickinson, Robert Fulton, Engineer and Artist (1913), ch. IX",
+     "url": "https://areeweb.polito.it/strutture/cemed/SUST_didattica.bk/2003/2003_Storia%20della%20tecnologia/WEB%20Materials%20&%20Sources/Steam_Library/dickinson/chapter9.html"
+    },
+    {
+     "title": "Dickinson, ch. VIII (England, 1804–06)",
+     "url": "https://www.museum.state.il.us/RiverWeb/landings/Ambot/Archives/dickinson/chapter8.html"
+    },
+    {
+     "title": "Morgan Library: Fulton, Notes on Steam Boats (1813)",
+     "url": "https://www.themorgan.org/blog/quicksilver-bob-invents-highest-blessing-water"
+    }
+   ]
+  },
+  {
+   "id": "barlow",
+   "short": "Barlow",
+   "name": "Joel Barlow",
+   "life": "1754–1812",
+   "role": "American poet, diplomat and speculator, Fulton's closest friend; back in the United States from 1805",
+   "side": "United States",
+   "where": "Paris with Fulton until 1804; in America from 1805, settling at Kalorama near Washington",
+   "lat": 38.91,
+   "lon": -77.05,
+   "waypoints": [
+    {
+     "lat": 48.86,
+     "lon": 2.35,
+     "label": "Paris, shared house with Fulton"
+    },
+    {
+     "lat": 38.91,
+     "lon": -77.05,
+     "label": "Kalorama, Washington"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "the friend who got the news by letter",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Barlow's letters to Fulton and Fulton's to him were printed in part by Colden (1817) and Dickinson (1913); the originals are scattered. Barlow is chiefly the recipient here.",
+   "bio": "Fulton lived for years in the Barlows' household in Paris, and the two men planned a return to America together. Barlow's letters show the friendship from the other side: anxious, teasing, pressing Fulton to come home. He was the man Fulton chose to tell that the thing worked.",
+   "sources": [
+    {
+     "title": "Dickinson, Robert Fulton (1913), ch. VIII",
+     "url": "https://www.museum.state.il.us/RiverWeb/landings/Ambot/Archives/dickinson/chapter8.html"
+    }
+   ]
+  },
+  {
+   "id": "pjay",
+   "short": "P. A. Jay",
+   "name": "Peter Augustus Jay",
+   "life": "1776–1843",
+   "role": "New York lawyer, aged 31, eldest son of John Jay; travelling up the Hudson by sailing sloop on his wedding journey",
+   "side": "United States; New York Federalist family",
+   "where": "On the Hudson between New York and Albany, 17–21 August 1807",
+   "lat": 42.65,
+   "lon": -73.75,
+   "waypoints": [
+    {
+     "lat": 40.7,
+     "lon": -74.01,
+     "label": "New York, left Monday 17 Aug"
+    },
+    {
+     "lat": 42.3,
+     "lon": -73.85,
+     "label": "On the river, met the steamboat"
+    },
+    {
+     "lat": 42.65,
+     "lon": -73.75,
+     "label": "Albany, 21 Aug"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "a sceptical passenger on the same river",
+   "form": "dated letter",
+   "language": "English",
+   "authenticity": "Autograph letter to John Jay, Albany, 21 August 1807, edited in The Selected Papers of John Jay (Founders Online), with notes on John Jay's reply of 2 September 1807.",
+   "bio": "Peter Jay left New York on the same Monday as Fulton, but under sail, with his new wife Mary. On the way he met the steamboat and went aboard. His letter to his father is the most detached eyewitness report of that week: impressed by the speed, unconvinced by the economics.",
+   "sources": [
+    {
+     "title": "Peter Augustus Jay to John Jay, 21 August 1807 (Founders Online)",
+     "url": "https://founders.archives.gov/documents/Jay/01-07-02-0137"
+    }
+   ]
+  },
+  {
+   "id": "bell",
+   "short": "Henry Bell",
+   "name": "Henry Bell",
+   "life": "1767–1830",
+   "role": "Millwright, builder and hotel-keeper at Helensburgh, aged 45 in 1812; promoter and owner of the Comet",
+   "side": "Scotland",
+   "where": "Helensburgh and Glasgow, on the Clyde",
+   "lat": 56.0,
+   "lon": -4.73,
+   "waypoints": [
+    {
+     "lat": 55.93,
+     "lon": -4.69,
+     "label": "Port Glasgow, Comet built"
+    },
+    {
+     "lat": 55.86,
+     "lon": -4.26,
+     "label": "Broomielaw, Glasgow"
+    },
+    {
+     "lat": 56.0,
+     "lon": -4.73,
+     "label": "Helensburgh"
+    },
+    {
+     "lat": 56.13,
+     "lon": -5.57,
+     "label": "Craignish Point, wreck 1820"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the owner on the Clyde",
+   "form": "newspaper advertisement and later letters",
+   "language": "English",
+   "authenticity": "Bell's August 1812 advertisement survives in the Clyde newspapers; sources differ on its date and on whether paying service began on 8 or 15 August. His 1824 letter to a Birmingham newspaper, reprinted in The Engineer (11 May 1877), is a recollection written twelve years later to defend his priority.",
+   "bio": "Bell had schemed about steam navigation for years before he paid John Robertson for a small engine and John Wood for a hull. The Comet gave Europe its first regular steamboat passenger service, on the Clyde in 1812. He made little money from it and spent his later years pressing his claim to have been first in Britain.",
+   "sources": [
+    {
+     "title": "Grace's Guide: PS Comet",
+     "url": "https://www.gracesguide.co.uk/PS_Comet"
+    }
+   ]
+  },
+  {
+   "id": "mrogers",
+   "short": "Moses Rogers",
+   "name": "Moses Rogers (master) and the log of the Savannah",
+   "life": "1779–1821",
+   "role": "American steamboat captain, master of the auxiliary steamship Savannah on her 1819 Atlantic passage; his kinsman Stevens Rogers was sailing master",
+   "side": "United States",
+   "where": "Aboard the Savannah, Savannah (Georgia) to Liverpool",
+   "lat": 53.4,
+   "lon": -2.99,
+   "waypoints": [
+    {
+     "lat": 32.08,
+     "lon": -81.09,
+     "label": "Savannah, 22 May 1819"
+    },
+    {
+     "lat": 51.6,
+     "lon": -8.5,
+     "label": "Off Cork, 17 June"
+    },
+    {
+     "lat": 53.4,
+     "lon": -2.99,
+     "label": "Liverpool, 20 June"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the master's log",
+   "form": "ship's log",
+   "language": "English",
+   "authenticity": "The original logbook is held by the Smithsonian's National Museum of American History. Extracts were printed by Seymour Bullock in The Connecticut Magazine (1905), together with a later letter by Stevens Rogers about the King's cutter episode. Totals for hours under steam differ: about 80 in the 1905 account, about 100 in the Smithsonian's description.",
+   "bio": "Rogers had worked on Hudson and Delaware steamboats before Savannah investors put an engine and folding paddle wheels into a sailing ship. The log is terse and practical: when steam was raised, when the wheels were stopped to clean clinker, when the coal ran out. It is the plainest record that the first steam crossing was mostly a sailing voyage.",
+   "sources": [
+    {
+     "title": "Savannah logs, from The Connecticut Magazine (1905)",
+     "url": "https://todayinsci.com/Events/Ships/SavannahSteamshipLogs(1905).htm"
+    },
+    {
+     "title": "Smithsonian NMAH, rigged model of the Savannah (logbook note)",
+     "url": "https://si.edu/object/rigged-model-auxiliary-steamship-savannah:nmah_844188"
+    }
+   ]
+  },
+  {
+   "id": "lardner",
+   "short": "Lardner",
+   "name": "Dionysius Lardner",
+   "life": "1793–1859",
+   "role": "Irish-born professor of natural philosophy at University College London, aged about 43 in 1836; popular lecturer and writer on the steam engine",
+   "side": "Britain; the scientific lecture circuit",
+   "where": "Liverpool (December 1835) and the British Association meeting at Bristol (August 1836)",
+   "lat": 51.45,
+   "lon": -2.59,
+   "waypoints": [
+    {
+     "lat": 53.4,
+     "lon": -2.99,
+     "label": "Liverpool lecture, Dec 1835"
+    },
+    {
+     "lat": 51.45,
+     "lon": -2.59,
+     "label": "Bristol, British Association, Aug 1836"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "the expert who doubted",
+   "form": "reported lectures and published writing",
+   "language": "English",
+   "authenticity": "Lardner's remarks survive in newspaper reports (The Times, 27 August 1836) and in his own Steam Engine (1836) and an Edinburgh Review article (1837). He is often misquoted as saying a steam crossing was impossible; what he argued was that a direct long run without coaling was impractical with the ships then proposed, and that 2,080 miles was about the longest prudent run.",
+   "bio": "Lardner was the best-known explainer of steam in Britain, and his doubts carried weight with investors. His numbers assumed engines and ships far less efficient than Brunel's, and he urged starting from the westernmost shore of Ireland. The record of 1838 made him a byword for expert error, more harshly than his actual words deserved.",
+   "sources": [
+    {
+     "title": "Farr, The Steamship Great Western (Bristol Historical Association)",
+     "url": "https://bristolha.org/wp-content/uploads/2019/09/bha008.pdf"
+    },
+    {
+     "title": "I. Brunel, The Life of Isambard Kingdom Brunel (1870), ch. VIII",
+     "url": "https://gutenberg.org/files/41210/41210-h/41210-h.htm"
+    }
+   ]
+  },
+  {
+   "id": "brunel",
+   "short": "Brunel",
+   "name": "Isambard Kingdom Brunel",
+   "life": "1806–1859",
+   "role": "Engineer of the Great Western Railway, aged 29 in 1835; engineer to the Great Western Steamship Company",
+   "side": "Britain; Bristol and the Great Western interests",
+   "where": "Bristol, London and the Thames",
+   "lat": 51.45,
+   "lon": -2.59,
+   "waypoints": [
+    {
+     "lat": 51.45,
+     "lon": -2.59,
+     "label": "Bristol, 1835–37"
+    },
+    {
+     "lat": 51.51,
+     "lon": 0.0,
+     "label": "Blackwall, fitting out"
+    },
+    {
+     "lat": 51.52,
+     "lon": 0.57,
+     "label": "Canvey Island, after the fire"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the engineer",
+   "form": "reports, letters and remarks reported by his son",
+   "language": "English",
+   "authenticity": "Brunel kept private diaries in other years, but for the Great Western the record used here is his engineering reports (e.g. 18 June 1836) and letters, printed with Claxton's narrative in The Life of Isambard Kingdom Brunel (1870) by his son. The famous October 1835 remark about extending the railway to New York is known only from later accounts and is treated by Bristol historians as half-legend.",
+   "bio": "Brunel argued that a ship's carrying capacity grows faster than its resistance, so a big enough steamer could carry the coal for the Atlantic. He drove the design of the largest steamer yet built and answered Lardner in public at Bristol. Ten days before the maiden voyage he nearly died in the ship's engine room.",
+   "sources": [
+    {
+     "title": "I. Brunel, The Life of Isambard Kingdom Brunel (1870), Project Gutenberg",
+     "url": "https://gutenberg.org/files/41210/41210-h/41210-h.htm"
+    }
+   ]
+  },
+  {
+   "id": "claxton",
+   "short": "Claxton",
+   "name": "Christopher Claxton",
+   "life": "fl. 1830s–1850s",
+   "role": "Lieutenant, Royal Navy (half pay), quay warden of Bristol and managing director of the Great Western Steamship Company",
+   "side": "Britain; Great Western Steamship Company",
+   "where": "Bristol and aboard the Great Western on the Thames",
+   "lat": 51.45,
+   "lon": -2.59,
+   "waypoints": [
+    {
+     "lat": 51.45,
+     "lon": -2.59,
+     "label": "Bristol, launch 1837"
+    },
+    {
+     "lat": 51.52,
+     "lon": 0.6,
+     "label": "Off Leigh, fire 31 Mar 1838"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the company's sailor",
+   "form": "report and narrative account",
+   "language": "English",
+   "authenticity": "Claxton's narrative of the fire is printed in The Life of Isambard Kingdom Brunel (1870); his and Thomas Guppy's report of 1 January 1836 is summarised there. Exact wording of the original publication of his account was not checked.",
+   "bio": "A naval officer who turned Brunel's idea into a company and a ship, Claxton went on to manage the Great Britain as well. His account of the fire is the eyewitness core of that day: he was in the stokehole with a hose when Brunel fell on top of him.",
+   "sources": [
+    {
+     "title": "Life of I. K. Brunel (1870), ch. VIII",
+     "url": "https://gutenberg.org/files/41210/41210-h/41210-h.htm"
+    },
+    {
+     "title": "Farr, The Steamship Great Western",
+     "url": "https://bristolha.org/wp-content/uploads/2019/09/bha008.pdf"
+    }
+   ]
+  },
+  {
+   "id": "roberts",
+   "short": "Roberts",
+   "name": "Richard Roberts",
+   "life": "d. 1841",
+   "role": "Lieutenant, Royal Navy, from Passage West near Cork, aged 34; commander of the chartered steamer Sirius",
+   "side": "Britain and Ireland; British and American Steam Navigation Company",
+   "where": "Aboard the Sirius, London–Cork–New York",
+   "lat": 40.7,
+   "lon": -74.02,
+   "waypoints": [
+    {
+     "lat": 51.51,
+     "lon": 0.0,
+     "label": "London, 28 Mar 1838"
+    },
+    {
+     "lat": 51.87,
+     "lon": -8.33,
+     "label": "Passage West, Cork, 4 Apr"
+    },
+    {
+     "lat": 40.47,
+     "lon": -74.01,
+     "label": "Sandy Hook, 22 Apr"
+    },
+    {
+     "lat": 40.7,
+     "lon": -74.02,
+     "label": "Off the Battery"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "captain of the rival",
+   "form": "signed ship's documents and reported speeches",
+   "language": "English",
+   "authenticity": "The Sirius passenger list signed by Roberts at New York on 23 April 1838 is in the SS Great Britain Trust collection. His words at the Corporation's reception on 24 April are known from New York newspaper reports. No full personal journal of the voyage was located.",
+   "bio": "Roberts took a small Irish Sea packet, chartered to beat the Great Western, across in April with about forty passengers. He arrived first, by a matter of hours, and was feted in New York. Three years later he commanded the steamer President, lost with all aboard in March 1841.",
+   "sources": [
+    {
+     "title": "Passenger list of the Sirius, 23 April 1838 (SS Great Britain Trust)",
+     "url": "https://ssgbt.adlibhosting.com/ais6/Details/museum/29590"
+    },
+    {
+     "title": "Article on the Sirius citing the New York Herald and Daily Express (DIPPAM)",
+     "url": "https://www.dippam.ac.uk/ied/records/30535/transcript"
+    },
+    {
+     "title": "MaritimeQuest: Sirius (1837)",
+     "url": "https://maritimequest.com/side_wheel/sirius/sirius_data.htm"
+    }
+   ]
+  },
+  {
+   "id": "jsmith",
+   "short": "Junius Smith",
+   "name": "Junius Smith",
+   "life": "1780–1853",
+   "role": "American merchant living in London, aged 57; promoter of the British and American Steam Navigation Company",
+   "side": "United States / Britain; the rival company to Bristol",
+   "where": "London",
+   "lat": 51.51,
+   "lon": -0.09,
+   "vantage": 3,
+   "vantage_label": "the promoter waiting for the post",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Smith's letters to his nephew and others were collected and published in the twentieth century (E. L. Pond, Junius Smith, 1927); quoted here only in paraphrase, with dates approximate.",
+   "bio": "Smith had campaigned for an Atlantic steam line since the early 1830s. When his own big ship, the British Queen, was late, his company chartered the Sirius so as not to be beaten by Bristol. His letters show a promoter counting a financial loss as a strategic win.",
+   "sources": [
+    {
+     "title": "'The Annihilation of Time and Space', Invention & Technology",
+     "url": "https://www.inventionandtech.com/node/85512"
+    }
+   ]
+  },
+  {
+   "id": "hosken",
+   "short": "Hosken",
+   "name": "James Hosken",
+   "life": "fl. 1830s–1840s",
+   "role": "Lieutenant, Royal Navy, aged 39; commander of the Great Western",
+   "side": "Britain; Great Western Steamship Company",
+   "where": "Aboard the Great Western, Bristol (Kingroad) to New York",
+   "lat": 40.7,
+   "lon": -74.01,
+   "waypoints": [
+    {
+     "lat": 51.5,
+     "lon": -2.72,
+     "label": "Kingroad, 8 Apr 1838"
+    },
+    {
+     "lat": 46.9,
+     "lon": -28.5,
+     "label": "Mid-Atlantic, 13 Apr"
+    },
+    {
+     "lat": 40.7,
+     "lon": -74.01,
+     "label": "New York, 23 Apr"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the commander's log",
+   "form": "ship's log (as published 1838)",
+   "language": "English",
+   "authenticity": "An abstract of the Great Western's log, with noon positions and distances, was published in 1838 (The Logs of the First Voyage) and reprinted in American newspapers. Coal figures come from the company's returns as summarised by Grahame Farr.",
+   "bio": "Hosken was appointed late in 1837 and sent ahead to New York to prepare. He took the ship out with only seven passengers after the fire scared off about fifty. He commanded her for six years, later moving to the Great Britain.",
+   "sources": [
+    {
+     "title": "Farr, The Steamship Great Western",
+     "url": "https://bristolha.org/wp-content/uploads/2019/09/bha008.pdf"
+    },
+    {
+     "title": "Great Western first voyage journal and log (1838)",
+     "url": "https://todayinsci.com/B/Brunel_Isambard/GreatWestern-FirstVoyage.htm"
+    }
+   ]
+  },
+  {
+   "id": "gwpass",
+   "short": "GW passenger",
+   "name": "Anonymous passenger of the Great Western",
+   "life": "fl. 1838",
+   "role": "One of the seven passengers on the maiden voyage; identity not given in the printed text",
+   "side": "Passenger",
+   "where": "Aboard the Great Western, Bristol to New York",
+   "lat": 40.7,
+   "lon": -74.01,
+   "waypoints": [
+    {
+     "lat": 51.45,
+     "lon": -2.59,
+     "label": "Bristol, 7 Apr 1838"
+    },
+    {
+     "lat": 40.6,
+     "lon": -74.05,
+     "label": "The Narrows, 23 Apr"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "a paying passenger",
+   "form": "journal (published 1838)",
+   "language": "English",
+   "authenticity": "Printed as 'The First Voyage of the Steam-ship Great Western' in the Philadelphia National Gazette and reprinted in the Daily Pittsburgh Gazette, 9–10 May 1838; the author is not named.",
+   "bio": "The only day-by-day passenger record of the Great Western's first crossing located here. The writer notes coal rates and engine figures like an enthusiast, and records the moment the ship passed the Sirius in New York harbour.",
+   "sources": [
+    {
+     "title": "The First Voyage of the Steam-ship Great Western (1838), transcribed",
+     "url": "https://todayinsci.com/B/Brunel_Isambard/GreatWestern-FirstVoyage.htm"
+    }
+   ]
+  },
+  {
+   "id": "hone",
+   "short": "Hone",
+   "name": "Philip Hone",
+   "life": "1780–1851",
+   "role": "Retired auctioneer and Whig politician, former mayor of New York (1826–27), aged 57",
+   "side": "United States; New York society",
+   "where": "New York City",
+   "lat": 40.71,
+   "lon": -74.01,
+   "vantage": 2,
+   "vantage_label": "the city diarist",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Hone's manuscript diary (1828–51) is at the New-York Historical Society; selections were edited by Bayard Tuckerman (1889) and Allan Nevins (1927).",
+   "bio": "Hone recorded New York's public life almost daily for over twenty years. His entry for 23 April 1838 is a level-headed note of two arrivals in one day, with dates, passenger numbers and the Sirius's grounding at Sandy Hook.",
+   "sources": [
+    {
+     "title": "Hone's entry of 23 April 1838, transcribed",
+     "url": "https://dailysirwalter.blogspot.com/2011/04/sirius-reaches-new-york.html"
+    }
+   ]
+  },
+  {
+   "id": "bennett",
+   "short": "Bennett",
+   "name": "James Gordon Bennett",
+   "life": "1795–1872",
+   "role": "Scottish-born editor and proprietor of the New York Herald, aged 42",
+   "side": "United States; the penny press",
+   "where": "New York City",
+   "lat": 40.71,
+   "lon": -74.01,
+   "vantage": 2,
+   "vantage_label": "the newspaper",
+   "form": "newspaper (dated issues)",
+   "language": "English",
+   "authenticity": "The Herald's April 1838 reports survive in the paper's files; unsigned items are attributed to Bennett's paper rather than to him personally. Wording here follows later reprints, so dates are marked approximate where the issue was not seen.",
+   "bio": "Bennett built the Herald on speed and sensation, and the steamers were exactly his kind of story. The arrivals also mattered to his business: steam packets could bring European news to New York in two weeks instead of five or six.",
+   "sources": [
+    {
+     "title": "Article on the Sirius citing the Herald (DIPPAM)",
+     "url": "https://www.dippam.ac.uk/ied/records/30535/transcript"
+    },
+    {
+     "title": "Irish Times, 'An Irishman's Diary' on the Sirius",
+     "url": "https://www.irishtimes.com/opinion/full-steam-ahead-an-irishman-s-diary-on-the-ss-sirius-the-first-steamship-to-cross-the-atlantic-from-europe-to-north-america-1.3572803"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1803-08",
+   "date_display": "August 1803",
+   "precision": "month",
+   "eye": "fulton",
+   "place": "Paris, on the Seine",
+   "headline": "A first steamboat runs on the Seine",
+   "digest": "In Paris, with Livingston backing him, Fulton tested a steamboat on the Seine. An earlier hull had broken under the weight of the machinery; the rebuilt boat moved against the current, though slowly. It persuaded the partners to order a proper engine from England for an American boat.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Seine trial widely dated 9 August 1803 and reported in the Paris press; day not confirmed here, so month only."
+  },
+  {
+   "date_iso": "1804-07-04",
+   "date_display": "4 July 1804",
+   "precision": "day",
+   "eye": "fulton",
+   "place": "London",
+   "headline": "Boulton & Watt quote for an engine",
+   "digest": "Now in London, Fulton asked Boulton, Watt & Co. for a steam engine to his own specification. The firm's estimate was £380; it took most of the following half-year, and a Treasury permit, before the parts were finished, paid for and released for export to America.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dickinson ch. VIII, citing the Boulton & Watt papers (estimate 4 July 1804; account £548 paid 21 Jan 1805; export permit March 1805)."
+  },
+  {
+   "date_iso": "1806-03-03",
+   "date_display": "3 March 1806",
+   "precision": "day",
+   "eye": "barlow",
+   "place": "United States",
+   "headline": "Barlow urges his friend to come home",
+   "digest": "Writing from America, Barlow pressed Fulton not to marry an English widow and to come back across the Atlantic. The letter is affectionate and anxious: the shared plans for American projects, including the steamboat, depended on Fulton actually leaving England.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dickinson ch. VIII (Barlow to Fulton, 3 March 1806)."
+  },
+  {
+   "date_iso": "1806-09",
+   "date_display": "September 1806",
+   "precision": "month",
+   "eye": "fulton",
+   "place": "London",
+   "headline": "Packing for Falmouth and home",
+   "digest": "Fulton told Barlow he meant to leave London about the 23rd for Falmouth and sail in early October. The Boulton & Watt engine had already gone ahead to New York. After twenty years in Europe he was going home to build the boat.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dickinson ch. VIII (Fulton to Barlow, September 1806)."
+  },
+  {
+   "date_iso": "1807-08",
+   "date_display": "Late August 1807",
+   "precision": "month",
+   "eye": "fulton",
+   "place": "New York",
+   "headline": "Telling Barlow: it works",
+   "digest": "To Barlow, Fulton summed up the voyage: 150 miles up in 32 hours and back in 30, against the wind, passing sloops as if they were at anchor. He wrote of the crowd's doubts and of the boat's value for the Mississippi and the West. It is the most quoted letter of his life.",
+   "quote": "The power of propelling boats by steam is now fully proved",
+   "confidence": "approx",
+   "source_note": "Printed in Colden (1817) and Dickinson ch. IX; exact day of writing not fixed in the sources seen."
+  },
+  {
+   "date_iso": "1807-08-10",
+   "date_display": "10 August 1807",
+   "precision": "day",
+   "eye": "fulton",
+   "place": "New York",
+   "headline": "Reporting the first East River trial",
+   "digest": "Fulton wrote to Livingston about the trial of the day before: about a mile up the East River against the tide. He reckoned about three miles an hour and expected more with better paddle boards. He was most pleased with how she steered.",
+   "quote": "She answers the helm equal to anything that ever was built",
+   "confidence": "verified",
+   "source_note": "Dickinson ch. IX (Fulton to Livingston, 10 Aug 1807)."
+  },
+  {
+   "date_iso": "1807-08-17",
+   "date_display": "Monday 17 August 1807",
+   "precision": "day",
+   "eye": "fulton",
+   "place": "Dock near the State Prison, North River, New York",
+   "headline": "Casting off at one o'clock",
+   "digest": "At 1 p.m. the steamboat left her dock on the North River with about forty guests, mostly Livingston relatives and friends. Fulton's own later log gives this as the start of the run. The boat had no proper name yet; 'Clermont' was given her only in Colden's 1817 biography.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dickinson ch. IX; Fulton's log as printed in the American Citizen."
+  },
+  {
+   "date_iso": "1807-08-17",
+   "date_display": "Monday 17 August 1807",
+   "precision": "day",
+   "eye": "pjay",
+   "place": "New York",
+   "headline": "Setting off by sloop the same day",
+   "digest": "Peter Jay and his bride left New York on the same Monday, by the usual sailing sloop up the Hudson. He would take four days to reach Albany. His letter later dates the departure as 'Monday last'.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "P. A. Jay to John Jay, Albany, 21 Aug 1807 (Founders Online)."
+  },
+  {
+   "date_iso": "1807-08-18",
+   "date_display": "Tuesday 18 August 1807",
+   "precision": "day",
+   "eye": "fulton",
+   "place": "Clermont, Livingston manor",
+   "headline": "At Clermont after 24 hours",
+   "digest": "The boat reached Livingston's estate at Clermont at 1 p.m., 110 miles in 24 hours by Fulton's reckoning. She stayed overnight while the party went ashore. The long stop is why the total running time is counted rather than the elapsed days.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Fulton's log (American Citizen), Dickinson ch. IX."
+  },
+  {
+   "date_iso": "1807-08-19",
+   "date_display": "Wednesday 19 August 1807",
+   "precision": "day",
+   "eye": "fulton",
+   "place": "Albany",
+   "headline": "Albany at five in the afternoon",
+   "digest": "Leaving Clermont at 9 a.m., the boat covered the last 40 miles in eight hours and reached Albany at 5 p.m. Fulton's sum: 150 miles in 32 hours of running, a little under five miles an hour. Sloops took anything from one day to a week, depending on the wind.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Fulton's log, Dickinson ch. IX."
+  },
+  {
+   "date_iso": "1807-08-21",
+   "date_display": "Friday 21 August 1807",
+   "precision": "day",
+   "eye": "fulton",
+   "place": "New York",
+   "headline": "Back in New York, a letter to the press",
+   "digest": "Fulton arrived back at 4 p.m. and at once wrote to the American Citizen with a log of the voyage: 30 hours down against 32 up, all against the wind. He set out the figures plainly so that skeptics could check them. The letter was published the next day.",
+   "quote": "I arrived this afternoon at 4 o'clock in the steamboat from Albany",
+   "confidence": "verified",
+   "source_note": "Letter dated 21 Aug 1807, printed in the American Citizen 22 Aug; text in Dickinson ch. IX."
+  },
+  {
+   "date_iso": "1807-08-21",
+   "date_display": "Friday 21 August 1807",
+   "precision": "day",
+   "eye": "pjay",
+   "place": "Albany",
+   "headline": "A son's verdict: fast, costly, cramped",
+   "digest": "From Albany, Jay told his father he had met Fulton's boat on the river and gone aboard. Fulton told him the run up had taken 32 hours and that she made about five miles an hour in still water. Jay judged she had cost more than a 300-ton merchant ship and that furnace and engine left no room for cargo; one of the two cabins was made uncomfortable by heat from the furnace.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Founders Online, Jay Papers; editorial notes also cite John Jay's sceptical reply of 2 Sept 1807."
+  },
+  {
+   "date_iso": "1807-08-29",
+   "date_display": "29 August 1807",
+   "precision": "day",
+   "eye": "fulton",
+   "place": "New York",
+   "headline": "Laying her up to add berths",
+   "digest": "Fulton explained to Livingston why the boat would be out of service for more than a fortnight: she needed boarding, decking and cabin berths before she could carry paying passengers. The trial had been made in a bare hull. Now it had to become a business.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dickinson ch. IX (Fulton to Livingston, 29 Aug 1807)."
+  },
+  {
+   "date_iso": "1807-09-04",
+   "date_display": "Friday 4 September 1807",
+   "precision": "day",
+   "eye": "fulton",
+   "place": "Paulus Hook ferry, New York, to Albany",
+   "headline": "First paying passengers",
+   "digest": "Advertised in the Albany Gazette two days earlier, the boat left at 6:42 a.m. with fourteen paying passengers and reached Albany in 28 hours 45 minutes. Fulton went as far as Clermont. Before landing the passengers signed a short statement that the accommodation had exceeded their expectations.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dickinson ch. IX (Albany Gazette notice 2 Sept; passengers' statement)."
+  },
+  {
+   "date_iso": "1807-10-09",
+   "date_display": "9 October 1807",
+   "precision": "day",
+   "eye": "fulton",
+   "place": "New York",
+   "headline": "Orders for Captain Brink",
+   "digest": "Fulton wrote standing instructions for the boat's captain, Andrew Brink: strict discipline, civility, and a weekly account of receipts and expenses to the Chancellor. The season was nearly over and the boat would be rebuilt over the winter. The voyage of August had become a timetable.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Dickinson ch. IX."
+  },
+  {
+   "date_iso": "1812-08",
+   "date_display": "August 1812",
+   "precision": "month",
+   "eye": "bell",
+   "place": "Glasgow and Greenock newspapers",
+   "headline": "For passengers only",
+   "digest": "Bell advertised a service between Glasgow, Greenock and Helensburgh 'for passengers only', four shillings in the best cabin and three in the second. Sources disagree on the date of the advertisement and on whether the first paid trip ran on 8 or 15 August.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Grace's Guide (paid service 8 Aug); Wikipedia cites the Greenock Advertiser of 15 Aug 1812."
+  },
+  {
+   "date_iso": "1812-08-06",
+   "date_display": "6 August 1812",
+   "precision": "day",
+   "eye": "bell",
+   "place": "Port Glasgow to the Broomielaw, Glasgow",
+   "headline": "The Comet's trial run up the Clyde",
+   "digest": "Bell's little Comet, with a three- to four-horsepower engine by John Robertson, steamed from Port Glasgow up to the Broomielaw. Accounts give about three and a half hours for some twenty miles. It was the first steamer on a British river meant for regular passengers.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia/PS Comet and Grace's Guide agree on 6 Aug 1812 for the trial; details from later accounts."
+  },
+  {
+   "date_iso": "1819-05-22",
+   "date_display": "22 May 1819",
+   "precision": "day",
+   "eye": "mrogers",
+   "place": "Savannah, Georgia",
+   "headline": "Steam up at nine and away",
+   "digest": "The log records steam raised and the ship started at 9 a.m. from Savannah, bound for Liverpool. She carried no passengers or cargo, only wood and coal. Like every steamer of the time she was a fully rigged sailing ship with an engine and paddles that could be folded on deck.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Log extracts printed 1905 (todayinsci transcription); Smithsonian NMAH gives 22 May. Many accounts date the sea departure from Tybee to 24 May."
+  },
+  {
+   "date_iso": "1819-06-02",
+   "date_display": "2 June 1819",
+   "precision": "day",
+   "eye": "mrogers",
+   "place": "Mid-Atlantic",
+   "headline": "Stopping the wheels to clean the fires",
+   "digest": "An ordinary working day: the log notes the wheels stopped so the clinker could be raked from the furnace. Most days the Savannah sailed; the engine was used in calms and for show. Here the log reads like a farm diary of chores.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Savannah log extract, 2 June 1819 (Connecticut Magazine, 1905)."
+  },
+  {
+   "date_iso": "1819-06-17",
+   "date_display": "17 June 1819",
+   "precision": "day",
+   "eye": "mrogers",
+   "place": "Off Cork, Ireland",
+   "headline": "Boarded by the King's cutter Kite",
+   "digest": "Off the Irish coast the Savannah was boarded by the revenue cutter Kite, Lieutenant John Bowie. A later letter by Stevens Rogers said the admiral at Cork had sent the cutter believing the smoking ship was on fire. By now the coal was gone; there was nothing left to raise steam.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Log entry for 17 June and Stevens Rogers's letter, printed 1905."
+  },
+  {
+   "date_iso": "1819-06-20",
+   "date_display": "20 June 1819",
+   "precision": "day",
+   "eye": "mrogers",
+   "place": "Liverpool",
+   "headline": "Anchored off Liverpool at six",
+   "digest": "At 6 p.m. the Savannah came to anchor off Liverpool, 29 days and 11 hours from Savannah. The engine had worked roughly 80 hours by the 1905 count (the Smithsonian gives about 100), a small fraction of the passage. She had crossed the Atlantic with steam, not by steam.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Log, 20 June 1819; Smithsonian NMAH object record."
+  },
+  {
+   "date_iso": "1820-12-15",
+   "date_display": "15 December 1820",
+   "precision": "day",
+   "eye": "bell",
+   "place": "Craignish Point, near Crinan",
+   "headline": "The Comet lost on the West Highland run",
+   "digest": "Moved to a run to Fort William, the Comet was driven ashore at Craignish Point near Crinan and broke up. Bell and the crew got off; there were no passengers aboard. Her engine was saved and ended up in a Greenock brewery before reaching the Science Museum.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Grace's Guide (15 Dec 1820; salvage abandoned 25 Dec); Science Museum Group record."
+  },
+  {
+   "date_iso": "1824",
+   "date_display": "1824",
+   "precision": "year",
+   "eye": "bell",
+   "place": "Helensburgh",
+   "headline": "Writing to set the record straight",
+   "digest": "In a letter to a Birmingham newspaper Bell went over his history of steam navigation and his claim to have been first in Britain. Twelve years on, he recalled even the date of the Comet's loss with a sailor's precision. The letter was reprinted in The Engineer in 1877.",
+   "quote": "The COMET was lost in the 1820, December the 15",
+   "confidence": "verified",
+   "source_note": "Grace's Guide, citing The Engineer, 11 May 1877, p. 322."
+  },
+  {
+   "date_iso": "1835-10",
+   "date_display": "October 1835",
+   "precision": "month",
+   "eye": "brunel",
+   "place": "Great Western Railway directors' meeting, Bristol/London",
+   "headline": "A joke about extending the line to New York",
+   "digest": "At a railway meeting someone grumbled about the length of the new line from London to Bristol. Brunel is said to have answered: why not make it longer, with a steamboat from Bristol to New York? The remark is known only from later retellings, but Thomas Guppy took it seriously and the steamship company followed.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Life of I. K. Brunel (1870), ch. VIII; Farr treats the story as popular legend."
+  },
+  {
+   "date_iso": "1835-12",
+   "date_display": "December 1835",
+   "precision": "month",
+   "eye": "lardner",
+   "place": "Liverpool",
+   "headline": "A Liverpool lecture on the Atlantic",
+   "digest": "Lecturing at Liverpool, Lardner called a direct steam voyage between Liverpool and New York impractical with the means then available. Reports of the talk gave his phrase as 'perfectly chimerical'. Later this was remembered as a claim that crossing by steam was impossible, which is not what he said.",
+   "quote": "perfectly chimerical",
+   "confidence": "approx",
+   "source_note": "Farr, The Steamship Great Western (Bristol Historical Association), quoting contemporary reports."
+  },
+  {
+   "date_iso": "1836-01-01",
+   "date_display": "1 January 1836",
+   "precision": "day",
+   "eye": "claxton",
+   "place": "Bristol",
+   "headline": "A report on how big a steamer must be",
+   "digest": "Claxton and Thomas Guppy reported to the new company on large steam vessels. It included Brunel's argument that a ship's resistance grows more slowly than its tonnage, so a large ship needs proportionally less coal. This was the engineering core of the answer to the doubters.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Life of I. K. Brunel (1870), ch. VIII."
+  },
+  {
+   "date_iso": "1836-06-18",
+   "date_display": "18 June 1836",
+   "precision": "day",
+   "eye": "brunel",
+   "place": "Bristol",
+   "headline": "Choosing the engine builders",
+   "digest": "Brunel reported to the building committee recommending Maudslay, Sons & Field of Lambeth for the engines. The hull was by then rising at Patterson's yard in Bristol. He wanted the best marine engine makers in Britain, not the cheapest.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Life of I. K. Brunel (1870), ch. VIII, report dated 18 June 1836."
+  },
+  {
+   "date_iso": "1836-08-25",
+   "date_display": "25 August 1836",
+   "precision": "day",
+   "eye": "lardner",
+   "place": "British Association meeting, Bristol",
+   "headline": "The 2,080-mile limit",
+   "digest": "Speaking at the British Association in the ship's home town, Lardner was more cautious than at Liverpool but argued that about 2,080 miles was the longest run a steamer could prudently make without coaling. He assumed coal consumption that implied over 1,300 tons for a crossing and recommended starting from the most westerly shore of the British Isles.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Life of I. K. Brunel (1870), ch. VIII; The Times report 27 Aug 1836; Farr."
+  },
+  {
+   "date_iso": "1836-08-25",
+   "date_display": "25 August 1836",
+   "precision": "day",
+   "eye": "brunel",
+   "place": "British Association meeting, Bristol",
+   "headline": "Answering Lardner in public",
+   "digest": "Brunel challenged Lardner's figures at the same meeting. His case was that Lardner's assumed ships were too small and his coal estimates too high for a large modern steamer. The disagreement was about numbers, not about whether steam could work at sea.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Farr; Life of I. K. Brunel (1870)."
+  },
+  {
+   "date_iso": "1837-07-19",
+   "date_display": "19 July 1837",
+   "precision": "day",
+   "eye": "claxton",
+   "place": "Patterson's yard, Wapping, Bristol",
+   "headline": "Launching the largest steamer afloat",
+   "digest": "At 10:05 a.m. the Great Western slid into the Floating Harbour before a crowd estimated at 50,000. Claxton broke a bottle of madeira over her figurehead. She was towed to London a month later to receive her engines.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Farr; Life of I. K. Brunel (1870) gives towing to London from 18 Aug 1837."
+  },
+  {
+   "date_iso": "1838-03",
+   "date_display": "March 1838",
+   "precision": "month",
+   "eye": "jsmith",
+   "place": "London",
+   "headline": "Chartering a ship to win a race",
+   "digest": "With his own big steamer, the British Queen, delayed, Smith's British and American Steam Navigation Company chartered the Sirius from the St George Steam Packet Company. She was small for an ocean crossing, but she was ready. Smith knew the first arrival would matter more than the best ship.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Invention & Technology; American Heritage; MaritimeQuest."
+  },
+  {
+   "date_iso": "1838-03-28",
+   "date_display": "28 March 1838",
+   "precision": "day",
+   "eye": "roberts",
+   "place": "London",
+   "headline": "The Sirius leaves the Thames",
+   "digest": "Chartered by Junius Smith's company, the small Irish Sea packet Sirius left London for Cork under Roberts. On the way down the Thames she passed the Great Western, still fitting out. Her owners' aim was simple: to reach New York before Bristol did.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "MaritimeQuest gives 28 March 1838; Invention & Technology describes the encounter on the Thames."
+  },
+  {
+   "date_iso": "1838-03-31",
+   "date_display": "Saturday 31 March 1838",
+   "precision": "day",
+   "eye": "brunel",
+   "place": "Off Leigh, Thames estuary",
+   "headline": "Fire in the engine room; an 18-foot fall",
+   "digest": "Heading down the Thames for Bristol, the ship caught fire where felt lagging on the boilers had been laid too close to the funnel. Brunel climbed down to help, a burnt ladder rung gave way, and he fell about 18 feet. He was landed on Canvey Island, badly shaken; within three days he was dictating long letters.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Life of I. K. Brunel (1870), ch. VIII; Farr (Maudslay & Field's finding on the felt)."
+  },
+  {
+   "date_iso": "1838-03-31",
+   "date_display": "Saturday 31 March 1838",
+   "precision": "day",
+   "eye": "claxton",
+   "place": "Fore stokehole, Great Western",
+   "headline": "Something heavy falls on him",
+   "digest": "Claxton went below through the engine room with a hose and was playing water on the flames when something heavy struck him. It was Brunel, who had slipped on a burnt rung of the ladder and fallen about 18 feet. The ship was run onto the mud near the Chapman beacon and the fire put out.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Claxton's narrative as printed in the Life of I. K. Brunel (1870)."
+  },
+  {
+   "date_iso": "1838-04-04",
+   "date_display": "Wednesday 4 April 1838",
+   "precision": "day",
+   "eye": "roberts",
+   "place": "Passage West, Cork",
+   "headline": "Away from Cork at noon",
+   "digest": "The Sirius sailed from Passage at noon, cheered out of the harbour, with about forty passengers, a crew of some 37, and around 450 tons of coal (one account says 400). She had a four-day start on the Great Western, still at Kingroad. Later accounts tell of crew unrest at sea in so small a ship.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Farr; Irish Times; MaritimeQuest. Coal figure varies by source."
+  },
+  {
+   "date_iso": "1838-04-07",
+   "date_display": "Saturday 7 April 1838",
+   "precision": "day",
+   "eye": "gwpass",
+   "place": "Bristol and Kingroad",
+   "headline": "Out to the ship by tender",
+   "digest": "The passenger left Bristol about 2 p.m. in a small steamer and reached the Great Western in the roads around 5 p.m. A gale kept her at anchor overnight. He was one of only seven passengers; about fifty had cancelled after the fire.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "'First Voyage of the Steam-ship Great Western' (1838); Farr on cancellations."
+  },
+  {
+   "date_iso": "1838-04-08",
+   "date_display": "Sunday 8 April 1838",
+   "precision": "day",
+   "eye": "hosken",
+   "place": "Kingroad, mouth of the Avon",
+   "headline": "Under way for New York",
+   "digest": "Steam was up by 9 a.m. and the ship was under way in the late morning, accounts giving 10 a.m. or noon. She left about 80 tons of coal behind on the quay. Hosken had seven passengers, a large crew, and a ship whose engines had been tested only on the Thames.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Life of I. K. Brunel (10 a.m.); passenger journal ('fairly off' by noon); Farr (coal left behind)."
+  },
+  {
+   "date_iso": "1838-04-13",
+   "date_display": "Friday 13 April 1838",
+   "precision": "day",
+   "eye": "gwpass",
+   "place": "Mid-Atlantic, about 47°N 28°W",
+   "headline": "Counting the coal by the hour",
+   "digest": "Five days out the passenger copied the engine room's figures: at full steam the ship burned about 28 hundredweight of coal an hour, and the noon run was 218 miles. The reader gets the engine's arithmetic rather than the sea. Below, the stokers were working long shifts.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Passenger journal with log table, entry for 13 April 1838."
+  },
+  {
+   "date_iso": "1838-04-17",
+   "date_display": "17 April 1838",
+   "precision": "day",
+   "eye": "hosken",
+   "place": "Off the Newfoundland Banks",
+   "headline": "Soundings on the ninth day",
+   "digest": "On the ninth day out the lead found bottom on the Banks of Newfoundland. The noon log shows runs of 170 to 240 miles a day, slowed now by westerly winds. Two-thirds of the way across, the coal was holding out.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Life of I. K. Brunel (soundings on ninth day); log abstract printed 1838."
+  },
+  {
+   "date_iso": "1838-04-22",
+   "date_display": "Sunday 22 April 1838",
+   "precision": "day",
+   "eye": "roberts",
+   "place": "Sandy Hook to the Battery, New York",
+   "headline": "First in, at ten at night",
+   "digest": "Short of coal at the end, the Sirius touched ground at Sandy Hook and came up to anchor off the Battery at about 10 p.m., on the eve of St George's Day. Later writers say she burned spars and other combustibles to keep steam; the 1870 Life of Brunel says she had used all her coal. She had been 18 to 19 days from Cork.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DIPPAM article citing New York Daily Express (25 Apr) and Herald; Hone; Life of Brunel. Burning of spars reported in later accounts."
+  },
+  {
+   "date_iso": "1838-04-23",
+   "date_display": "Monday 23 April 1838",
+   "precision": "day",
+   "eye": "gwpass",
+   "place": "New York Lower Bay and the Narrows",
+   "headline": "Passing the Sirius, crammed with spectators",
+   "digest": "A pilot came aboard at 10 a.m. and land was cried at noon. The Great Western passed the Narrows about 3 p.m. and found the Sirius at anchor, her decks crowded with sightseers. The Great Western's passengers cheered her as they went by.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Passenger journal, 23 April 1838."
+  },
+  {
+   "date_iso": "1838-04-23",
+   "date_display": "Monday 23 April 1838",
+   "precision": "day",
+   "eye": "hosken",
+   "place": "New York",
+   "headline": "Fifteen days and some 200 tons to spare",
+   "digest": "The Great Western came up in the afternoon, about 15 days 5 hours out of Kingroad. She had burned about 456 tons of coal, roughly 30 tons a day, and still had nearly 200 tons aboard. Lardner's hypothetical crossing had required more than 1,300.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Farr (456 tons 12 cwt); Life of Brunel (nearly 200 tons left; arrival 2 p.m.)."
+  },
+  {
+   "date_iso": "1838-04-23",
+   "date_display": "Monday 23 April 1838",
+   "precision": "day",
+   "eye": "roberts",
+   "place": "New York",
+   "headline": "Signing the passenger list",
+   "digest": "Roberts signed the Sirius's passenger list for the port authorities. It names 44 passengers with their ages, occupations, countries of origin and where they meant to settle. Some were travellers, some emigrants; for them the race was simply a faster passage.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "SS Great Britain Trust, object 2017.00016."
+  },
+  {
+   "date_iso": "1838-04-23",
+   "date_display": "23 April 1838",
+   "precision": "day",
+   "eye": "hone",
+   "place": "New York",
+   "headline": "Two ships in one day",
+   "digest": "Hone noted that the Sirius had come in the evening before, 18 days from Cork with 46 passengers, after grounding slightly at Sandy Hook. The Great Western came up from the Hook about two o'clock, 15 days from Bristol. He wrote down the numbers as a man who understood what they meant for trade.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary of Philip Hone, entry 23 April 1838, as transcribed. Passenger count differs from the ship's list."
+  },
+  {
+   "date_iso": "1838-04-23",
+   "date_display": "About 23 April 1838",
+   "precision": "range",
+   "eye": "bennett",
+   "place": "New York Herald office",
+   "headline": "THE SIRIUS! THE SIRIUS! THE SIRIUS!",
+   "digest": "The Herald greeted the arrival with a triple headline. It reported that New York talked of nothing but the Sirius, while thousands went down to the Battery to look at her. For a paper selling European news, a two-week packet was itself the story.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Headline cited in DIPPAM and Irish Times; issue date not seen."
+  },
+  {
+   "date_iso": "1838-04-24",
+   "date_display": "Tuesday 24 April 1838",
+   "precision": "day",
+   "eye": "roberts",
+   "place": "Aboard the Sirius, off the Battery",
+   "headline": "The city fathers come aboard",
+   "digest": "Members of the New York Corporation came out by barge and toasted Roberts and his crew. Roberts answered with a short speech, as the newspapers reported it. The Great Western's officers received their own honours over the following days.",
+   "quote": "the happiest hour of my life",
+   "confidence": "verified",
+   "source_note": "DIPPAM article citing New York Daily Express, 25 April 1838."
+  },
+  {
+   "date_iso": "1838-04-28",
+   "date_display": "28 April 1838",
+   "precision": "day",
+   "eye": "bennett",
+   "place": "New York Herald office",
+   "headline": "Ladies 'quite safe' in a gale",
+   "digest": "A week after the arrival the Herald published passengers' praise of Roberts: the women aboard had felt safe in his care through a rough crossing. The paper was building heroes, and captains were now news. Bennett's readers were also being sold the idea of travelling this way themselves.",
+   "quote": "quite safe under Capt. Roberts' care",
+   "confidence": "verified",
+   "source_note": "DIPPAM article citing the Herald, 28 April 1838."
+  },
+  {
+   "date_iso": "1838-05",
+   "date_display": "May 1838",
+   "precision": "month",
+   "eye": "jsmith",
+   "place": "London",
+   "headline": "A loss counted as a win",
+   "digest": "When the Sirius's accounts came in, the first voyage showed a loss of about £3,500. Smith wrote to his nephew that he was not disappointed. What mattered to him was that a steam line was shown to work and that his company had arrived first.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Invention & Technology, quoting Smith's letter; exact date not seen."
+  },
+  {
+   "date_iso": "1838-05-01",
+   "date_display": "1 May 1838",
+   "precision": "day",
+   "eye": "roberts",
+   "place": "New York",
+   "headline": "Homeward under a 17-gun salute",
+   "digest": "The Sirius left for England with the Battery firing a 17-gun salute. She reached Falmouth on 19 May. After one more round trip she went back to her owners and the Irish Sea; she was wrecked in Ballycotton Bay in 1847.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DIPPAM; MaritimeQuest (Falmouth 19 May; wreck 16 Jan 1847)."
+  },
+  {
+   "date_iso": "1838-05-07",
+   "date_display": "7 May 1838",
+   "precision": "day",
+   "eye": "hosken",
+   "place": "New York",
+   "headline": "Sailing home full",
+   "digest": "The Great Western left New York for Bristol with 68 passengers by the Life of Brunel's count (other accounts give 71), against seven coming out. She made the passage in about fourteen days. The company now had a regular service and a schedule to keep.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Life of I. K. Brunel (68 passengers, 14 days); Invention & Technology gives 71."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1803-08",
+   "date_display": "August 1803",
+   "eye": "fulton",
+   "claim": "Fulton's steamboat runs on the Seine at Paris, slowly, against the current",
+   "form": "tested",
+   "evidence": "Paris press reports; Dickinson (1913)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1807-08-09",
+   "date_display": "9 August 1807",
+   "eye": "fulton",
+   "claim": "Trial on the East River: about one mile against the tide, roughly 3 mph",
+   "form": "tested",
+   "evidence": "Fulton to Livingston, 10 Aug 1807 (Dickinson ch. IX)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1807-08-19",
+   "date_display": "17–19 August 1807",
+   "eye": "fulton",
+   "claim": "New York to Albany, 150 miles in 32 hours running (24 h to Clermont, 8 h to Albany), about 4.7 mph",
+   "form": "first",
+   "evidence": "Fulton's log, American Citizen 22 Aug 1807",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1807-08-21",
+   "date_display": "20–21 August 1807",
+   "eye": "fulton",
+   "claim": "Albany to New York in 30 hours running, against the wind",
+   "form": "record",
+   "evidence": "Fulton's letter to the American Citizen, dated 21 Aug 1807",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1807-09-04",
+   "date_display": "4 September 1807",
+   "eye": "fulton",
+   "claim": "First scheduled paying trip: 14 passengers, New York to Albany in 28 h 45 min",
+   "form": "opened",
+   "evidence": "Albany Gazette notice, 2 Sept 1807; passengers' statement (Dickinson ch. IX)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1812-08-06",
+   "date_display": "6 August 1812",
+   "eye": "bell",
+   "claim": "Comet's trial, Port Glasgow to Glasgow, about 20 miles in about 3½ hours",
+   "form": "tested",
+   "evidence": "Later accounts summarised by Grace's Guide and others",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1812-08",
+   "date_display": "August 1812",
+   "eye": "bell",
+   "claim": "Europe's first regular steamboat passenger service opens on the Clyde (Glasgow–Greenock–Helensburgh); date of first paid trip given as 8 or 15 August",
+   "form": "opened",
+   "evidence": "Bell's newspaper advertisement",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1819-06-20",
+   "date_display": "22 May – 20 June 1819",
+   "eye": "mrogers",
+   "claim": "Savannah crosses from Savannah to Liverpool in 29 days 11 hours, mostly under sail; engine used roughly 80 hours (1905 count) or about 100 (Smithsonian)",
+   "form": "first",
+   "evidence": "Ship's log (Smithsonian NMAH); extracts printed 1905",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1820-12-15",
+   "date_display": "15 December 1820",
+   "eye": "bell",
+   "claim": "Comet wrecked at Craignish Point near Crinan; no lives lost",
+   "form": "failed",
+   "evidence": "Bell's 1824 letter; Grace's Guide",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1836-08-25",
+   "date_display": "25 August 1836",
+   "eye": "lardner",
+   "claim": "Lardner argues about 2,080 miles is the longest prudent unrefuelled steamer run; Brunel disputes his coal figures",
+   "form": "other",
+   "evidence": "The Times, 27 Aug 1836; Life of I. K. Brunel (1870)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1837-07-19",
+   "date_display": "19 July 1837",
+   "eye": "claxton",
+   "claim": "Great Western launched at Bristol, the largest steamer yet built (about 236 ft overall), before some 50,000 people",
+   "form": "built",
+   "evidence": "Farr; Life of I. K. Brunel",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1838-03-31",
+   "date_display": "31 March 1838",
+   "eye": "brunel",
+   "claim": "Boiler-lagging fire off Leigh; Brunel falls about 18 ft and is injured; about fifty passengers later cancel",
+   "form": "failed",
+   "evidence": "Claxton's narrative; Maudslay & Field's finding (Farr)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1838-04-22",
+   "date_display": "4–22 April 1838",
+   "eye": "roberts",
+   "claim": "Sirius, Cork to New York, about 18½ days (18 d 14 h 22 min in one listing), arriving with her coal exhausted; first steamer to reach New York from Europe under continuous steam",
+   "form": "first",
+   "evidence": "Herald and Daily Express reports; Hone; MaritimeQuest",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1838-04-23",
+   "date_display": "8–23 April 1838",
+   "eye": "hosken",
+   "claim": "Great Western, Kingroad to New York, about 15 days 5 hours; 456 tons 12 cwt of coal burned, nearly 200 tons left",
+   "form": "record",
+   "evidence": "Company returns (Farr); Life of I. K. Brunel; 1838 log abstract",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1838-05",
+   "date_display": "May 1838",
+   "eye": "jsmith",
+   "claim": "Sirius's first voyage shows a loss of about £3,500; the promoter calls the result satisfactory",
+   "form": "other",
+   "evidence": "Smith's letter to his nephew, as quoted in Invention & Technology",
+   "confidence": "approx"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1807-08-17",
+   "label": "The steamboat and the sloop leave New York on the same Monday",
+   "eyes": [
+    "fulton",
+    "pjay"
+   ],
+   "note": "Fulton counted the hours under way; Peter Jay, under sail, took four days to cover the same 150 miles. Their two letters of 21 August measure the gap between the old river and the new."
+  },
+  {
+   "date": "1807-08-21",
+   "label": "Two letters of 21 August: from New York and from Albany",
+   "eyes": [
+    "fulton",
+    "pjay"
+   ],
+   "note": "Fulton wrote to the press with a log meant to silence doubters; Jay, who had been aboard, wrote to his father that the boat was fast but too costly and too full of machinery to carry freight."
+  },
+  {
+   "date": "1836-08-25",
+   "label": "Lardner and Brunel at the British Association, Bristol",
+   "eyes": [
+    "lardner",
+    "brunel"
+   ],
+   "note": "The same calculation, coal against distance, done two ways: Lardner from small ships and pessimistic consumption, Brunel from scale. The record of 1838 settled it in Brunel's favour."
+  },
+  {
+   "date": "1838-03-31",
+   "label": "Fire on the Thames",
+   "eyes": [
+    "brunel",
+    "claxton"
+   ],
+   "note": "Claxton's account is the only eyewitness narrative: the hose in his hand, the weight falling on him, the engineer face down in the water. Brunel's own reaction survives only in his son's summary that he was dictating letters within days."
+  },
+  {
+   "date": "1838-04-08",
+   "label": "The Great Western sails; the Sirius is four days out",
+   "eyes": [
+    "hosken",
+    "gwpass"
+   ],
+   "note": "Hosken had seven passengers after the fire scare; Roberts, with about forty, was already in the open Atlantic. Neither ship could know how the other was doing."
+  },
+  {
+   "date": "1838-04-23",
+   "label": "Two arrivals in one day at New York",
+   "eyes": [
+    "roberts",
+    "hosken",
+    "gwpass",
+    "hone",
+    "bennett"
+   ],
+   "note": "The captain signs his list, the passenger cheers the rival, the diarist notes numbers, the editor prints a triple headline. Sirius was first; the Great Western was faster and had coal to spare. Each later claim of 'first' leans on one or the other fact."
+  },
+  {
+   "date": "1838-05-01",
+   "label": "Homeward sailings",
+   "eyes": [
+    "roberts",
+    "hosken",
+    "jsmith"
+   ],
+   "note": "The Sirius left on 1 May and the Great Western on 7 May with ten times as many passengers as she had brought out. Smith in London counted the Sirius's loss as a price worth paying."
+  }
+ ],
+ "ties": [
+  {
+   "a": "fulton",
+   "b": "barlow",
+   "kind": "met",
+   "note": "Fulton lived in the Barlows' household in Paris for years; Barlow was the first person outside the partnership he told of the Hudson success."
+  },
+  {
+   "a": "fulton",
+   "b": "pjay",
+   "kind": "met",
+   "note": "Jay went aboard Fulton's boat on the Hudson in August 1807 and heard the 32-hour figure from Fulton himself."
+  },
+  {
+   "a": "fulton",
+   "b": "bell",
+   "kind": "mentioned",
+   "note": "Bell is reported to have corresponded with Fulton about steam navigation before building the Comet; the letters are undated in the sources seen."
+  },
+  {
+   "a": "mrogers",
+   "b": "fulton",
+   "kind": "influenced",
+   "note": "Rogers learned his trade on the American river steamboats that followed Fulton's; the Savannah carried the river idea out to sea, mostly under sail."
+  },
+  {
+   "a": "lardner",
+   "b": "brunel",
+   "kind": "opposite sides",
+   "note": "They disputed the coal arithmetic of an Atlantic steamer in public at Bristol in August 1836."
+  },
+  {
+   "a": "lardner",
+   "b": "hosken",
+   "kind": "opposite sides",
+   "note": "Hosken's coal returns of April 1838 (about 456 tons used, nearly 200 left) were the practical answer to Lardner's estimate of over 1,300."
+  },
+  {
+   "a": "brunel",
+   "b": "claxton",
+   "kind": "met",
+   "note": "Partners in the steamship company; in the fire of 31 March 1838 Brunel fell onto Claxton, who kept him from drowning."
+  },
+  {
+   "a": "claxton",
+   "b": "hosken",
+   "kind": "met",
+   "note": "Managing director and commander of the same ship; Claxton's company sent Hosken ahead to New York to prepare the service."
+  },
+  {
+   "a": "roberts",
+   "b": "hosken",
+   "kind": "opposite sides",
+   "note": "Rival naval lieutenants commanding the two ships in the April 1838 race to New York."
+  },
+  {
+   "a": "jsmith",
+   "b": "roberts",
+   "kind": "met",
+   "note": "Smith's British and American Steam Navigation Company chartered the Sirius and put Roberts in command."
+  },
+  {
+   "a": "gwpass",
+   "b": "roberts",
+   "kind": "same street",
+   "note": "On 23 April the Great Western's passengers cheered the Sirius as they passed her at anchor in the North River."
+  },
+  {
+   "a": "hone",
+   "b": "bennett",
+   "kind": "same street",
+   "note": "Both recorded the same day in the same city: Hone privately in figures, Bennett publicly in capitals."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v6:philadelphia-1787",
+   "note": "On 22 August 1787 John Fitch demonstrated his steamboat on the Delaware to delegates of the Constitutional Convention, twenty years before Fulton's Hudson run. Fitch's earlier boats were among the 'pretenders' Fulton's later writing dismissed in the priority quarrels."
+  },
+  {
+   "to": "v3:corps-of-discovery",
+   "note": "Robert R. Livingston, Fulton's partner, was the American minister in Paris who negotiated the Louisiana Purchase in 1803, the same summer Fulton tried his boat on the Seine. Lewis and Clark then explored the territory whose rivers steamboats would open."
+  },
+  {
+   "to": "rainhill-1830",
+   "note": "The Great Western Railway, whose engineer Brunel was, was promoted in the wake of the Liverpool and Manchester Railway's success; the steamship company was conceived as the railway's extension from Bristol to New York."
+  },
+  {
+   "to": "v2:black-ships",
+   "note": "The ocean-going paddle steamer proved in 1838 reached Japan fifteen years later: Perry's squadron of 1853 was led by the steam frigates Susquehanna and Mississippi."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-148806",
+   "title": "The Steamer Great Western of Bristol",
+   "caption": "New York lithograph of 1838 showing the Great Western under steam with sails furled, published the year of her first crossing.",
+   "date": "1838",
+   "credit": "Napoleon Sarony, H. R. Robinson; National Maritime Museum, Greenwich"
+  },
+  {
+   "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-148810",
+   "title": "Great Western Steam Ship (aquatint)",
+   "caption": "Hand-coloured aquatint published on 21 July 1838, after the ship's first round trip, as the company advertised its new Atlantic service.",
+   "date": "1838",
+   "credit": "R. Ackermann, H. Papprill after J. S. Cotman; National Maritime Museum, Greenwich"
+  },
+  {
+   "url": "https://www.metmuseum.org/art/collection/search/892941",
+   "title": "The British Steamer Sirius ... arrived ... April 22, 1838",
+   "caption": "New York lithograph celebrating the Sirius as the first English steam packet to arrive, consigned to Wadsworth and Smith. Its title dates her arrival 22 April.",
+   "date": "1838",
+   "credit": "Edward Williams Clay, publ. H. R. Robinson; The Metropolitan Museum of Art"
+  },
+  {
+   "url": "https://ssgbt.adlibhosting.com/ais6/Details/museum/29590",
+   "title": "Passenger list of the Sirius, 23 April 1838",
+   "caption": "The manifest signed by Lieutenant Richard Roberts at New York, naming 44 passengers with ages, occupations and intended destinations.",
+   "date": "1838-04-23",
+   "credit": "SS Great Britain Trust"
+  },
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8018658/the-original-engine-of-henry-bells-paddle-steamer-comet",
+   "title": "The original engine of Henry Bell's Comet",
+   "caption": "The small engine by John Robertson that drove Europe's first passenger steamboat service on the Clyde in 1812, saved from the 1820 wreck.",
+   "date": "1812",
+   "credit": "Science Museum Group"
+  },
+  {
+   "url": "https://si.edu/object/rigged-model-auxiliary-steamship-savannah:nmah_844188",
+   "title": "Rigged model of the auxiliary steamship Savannah",
+   "caption": "Modern museum model of the Savannah, showing a full-rigged sailing ship with paddle wheels; the Smithsonian also holds her original logbook.",
+   "date": "model (catalogued 1961) of a ship of 1819",
+   "credit": "Smithsonian, National Museum of American History"
+  }
+ ],
+ "further": [
+  {
+   "title": "H. W. Dickinson, Robert Fulton, Engineer and Artist (1913), ch. IX",
+   "url": "https://areeweb.polito.it/strutture/cemed/SUST_didattica.bk/2003/2003_Storia%20della%20tecnologia/WEB%20Materials%20&%20Sources/Steam_Library/dickinson/chapter9.html"
+  },
+  {
+   "title": "Peter Augustus Jay to John Jay, 21 August 1807 (Founders Online)",
+   "url": "https://founders.archives.gov/documents/Jay/01-07-02-0137"
+  },
+  {
+   "title": "I. Brunel, The Life of Isambard Kingdom Brunel (1870), Project Gutenberg",
+   "url": "https://gutenberg.org/files/41210/41210-h/41210-h.htm"
+  },
+  {
+   "title": "Grahame Farr, The Steamship Great Western (Bristol Historical Association)",
+   "url": "https://bristolha.org/wp-content/uploads/2019/09/bha008.pdf"
+  },
+  {
+   "title": "The Savannah's log, extracts (1905 reprint)",
+   "url": "https://todayinsci.com/Events/Ships/SavannahSteamshipLogs(1905).htm"
+  },
+  {
+   "title": "The First Voyage of the Steam-ship Great Western (1838), passenger's journal",
+   "url": "https://todayinsci.com/B/Brunel_Isambard/GreatWestern-FirstVoyage.htm"
+  },
+  {
+   "title": "Grace's Guide: PS Comet",
+   "url": "https://www.gracesguide.co.uk/PS_Comet"
+  },
+  {
+   "title": "'The Annihilation of Time and Space' (Invention & Technology)",
+   "url": "https://www.inventionandtech.com/node/85512"
+  }
+ ],
+ "vantage_key": "0 = builder, owner or commander of the vessel; 1 = aboard or on the same water; 2 = in the same city or meeting; 3 = in the same country or connected by letters; 4 = abroad, news only."
+}

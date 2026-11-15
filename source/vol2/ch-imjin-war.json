@@ -1,0 +1,1176 @@
+{
+ "id": "imjin-war",
+ "title": "Seven Years Across the Strait",
+ "subtitle": "The Imjin War: Japan's invasions of Korea, 1592–1598",
+ "span": "1592–1601",
+ "intro": [
+  "In the spring of 1592 a Japanese army of some 150,000 men crossed the Korea Strait. Toyotomi Hideyoshi had unified Japan and meant to use Korea as a road to Ming China. Busan fell in a day, Seoul in under three weeks, and King Seonjo fled north. The war that followed lasted, with a long uneasy truce, until Hideyoshi's death in 1598. It drew in a Ming army, devastated the Korean countryside, and carried tens of thousands of Koreans off to Japan.",
+  "Few early-modern wars have been written down by so many people on more than one side. On the Korean side is Yi Sun-sin's war diary, the Nanjung Ilgi, the terse private notebook of the admiral who cut Japan's sea lanes, alongside the Swaemirok of Oh Hui-mun, a stranded scholar who learned of every battle late and sometimes got it wrong. Above them both is Ryu Seong-ryong, the chief minister, whose Jingbirok was written after the war as a warning to later generations.",
+  "From the invading side, the most remarkable voice belongs to Keinen, an old Pure Land priest attached to a daimyo's army, who closed each day with a poem. His diary of the 1597 campaign records burning villages, captives and children taken from their parents with a moral clarity that is rare in any army's record. Set beside him are a monk-secretary's dry log of occupied Seoul, a samurai's later war memoir from Keinen's own contingent, and the letters and seal-orders of Hideyoshi himself, who never set foot in Korea.",
+  "Some of the eyes here are not diarists, and the chapter says so. Hideyoshi and the Ming superintendent Song Yingchang speak through letters and official documents. The Jesuit Gregorio de Céspedes, the first European known to have entered Korea, survives in a handful of letters. Ryu Seong-ryong, Ōkōchi Hidemoto and the captive scholar Kang Hang wrote their accounts after the events. Entries from those works are dated by the events they describe and are marked as approximate where I could not check the exact text.",
+  "The clusters are the heart of the chapter. In the summer of 1592, Yi wins at Hansan while a Japanese monk counts storehouses in occupied Seoul and a Korean refugee hears the news eighteen days late, credited to the wrong admiral. In September 1597, Keinen and Ōkōchi describe the same storming of Namwon. In October 1597, Yi holds the Myeongnyang strait with thirteen ships while Kang Hang is taken captive off the same coast. In December 1598, Yi's last entry, Ryu's account of his death, and Oh's grief two weeks later meet at Noryang.",
+  "Violence is described here as the diarists recorded it, soberly and without graphic detail. The scale was very large: Korean population and farmland took decades to recover, and the trophy noses buried in Kyoto's Mimizuka remain a site of memory today."
+ ],
+ "calendar_note": "Korea and Japan both used lunisolar calendars, but different ones: Joseon followed the Ming Datong calendar, while Japan still used the old Senmyō calendar. Their day numbers sometimes differed by one. Japanese records date the Busan landing to the 12th day of the 4th month and Korean records to the 13th, and Hideyoshi's letter puts the fall of Seoul on the 2nd day of the 5th month while Korean records give the 3rd. Months had 29 or 30 days and an intercalary month was added roughly every three years, so lunar dates drift between late January and late March against the solar year. Every date_display here gives the original lunar date (Korean sexagenary year names such as Imjin = 1592 or Jeongyu = 1597; Japanese era years such as Tenshō 20 = 1592 or Keichō 2 = 1597). date_iso gives a Gregorian equivalent calculated from Korean lunar tables, so dates converted from the Japanese calendar may be off by a day. For example, Myeongnyang (9th month, 16th day) comes out as 25 October 1597, while many references give 26 October. Ming China used the same lunar calendar as Korea, dated by Wanli reign years. Only the Jesuit Céspedes wrote in the Gregorian calendar, which Catholic Europe had adopted in 1582, so his dates are already Gregorian.",
+ "eyes": [
+  {
+   "id": "yi",
+   "name": "Yi Sun-sin",
+   "short": "Yi Sun-sin",
+   "life": "1545–1598",
+   "role": "Left Naval Commander of Jeolla (1592); later Supreme Naval Commander of the three southern provinces; aged 47 when the war began",
+   "side": "Joseon Korea",
+   "where": "Fleet bases at Yeosu and Hansan Island; the Myeongnyang strait (1597); Noryang (1598)",
+   "lat": 34.77,
+   "lon": 128.47,
+   "waypoints": [
+    {
+     "lat": 34.74,
+     "lon": 127.74,
+     "label": "Yeosu, Jeolla Left Navy HQ (1592)"
+    },
+    {
+     "lat": 34.77,
+     "lon": 128.47,
+     "label": "Hansan Island, joint naval HQ (1593–97)"
+    },
+    {
+     "lat": 34.57,
+     "lon": 126.31,
+     "label": "Myeongnyang strait (Oct 1597)"
+    },
+    {
+     "lat": 34.94,
+     "lon": 127.87,
+     "label": "Noryang strait, killed in action (Dec 1598)"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "commander at sea",
+   "form": "diary",
+   "language": "Literary Chinese (hanmun)",
+   "authenticity": "Autograph manuscript of seven volumes held at Hyeonchungsa Shrine, Asan; Korean National Treasure and UNESCO Memory of the World. Not continuous: no entries for most of the 1592 battles after the 6th month (Hansan is known from his battle reports), and gaps in 1593, 1596–97 and 1598. The 1595 volume is lost in autograph and survives only in the 1795 printed Complete Works.",
+   "bio": "The commander who kept Japan's supply fleets out of the Yellow Sea. His diary mixes fleet orders, floggings, weather, illness and grief for his mother and son; it is terse, private and often bitter about rivals such as Won Gyun. He wrote his last entry two days before he was killed at Noryang.",
+   "sources": [
+    {
+     "title": "UNESCO Memory of the World nomination: Nanjung Ilgi",
+     "url": "https://media.unesco.org/sites/default/files/webform/mow001/republic_of_korea_nanjung_ilgi.pdf"
+    },
+    {
+     "title": "Nanjung Ilgi: War Diary of Admiral Yi Sun-sin (UNESCO Silk Roads page)",
+     "url": "https://en.unesco.org/silkroad/silk-road-themes/documentary-heritage/nanjung-ilgi-war-diary-admiral-yi-sun-sin"
+    },
+    {
+     "title": "Seoul Mediahub: 'General Yi vs. human Yi' through the Nanjung Ilgi (dated entries)",
+     "url": "https://mediahub.seoul.go.kr/archives/2016775"
+    },
+    {
+     "title": "Ha Tae-hung (trans.), Nanjung Ilgi: War Diary of Admiral Yi Sun-sin (Yonsei UP, 1977): Wikipedia article on the diary",
+     "url": "https://en.wikipedia.org/wiki/Nanjung_ilgi"
+    }
+   ]
+  },
+  {
+   "id": "oh",
+   "name": "Oh Hui-mun",
+   "short": "Oh Hui-mun",
+   "life": "1539–1613",
+   "role": "Yangban scholar without office, aged 53; a householder travelling south on family business when the war broke out",
+   "side": "Joseon Korea (civilian)",
+   "where": "Stranded at Jangsu in Jeolla in 1592, then refugee in Hongju, Imcheon (Buyeo) and Pyeonggang",
+   "lat": 35.65,
+   "lon": 127.52,
+   "waypoints": [
+    {
+     "lat": 37.57,
+     "lon": 126.98,
+     "label": "Leaves Seoul (late 1591)"
+    },
+    {
+     "lat": 35.65,
+     "lon": 127.52,
+     "label": "Jangsu, Jeolla (1592)"
+    },
+    {
+     "lat": 36.28,
+     "lon": 126.91,
+     "label": "Imcheon / Buyeo (mid-1590s)"
+    },
+    {
+     "lat": 38.24,
+     "lon": 127.29,
+     "label": "Pyeonggang, his son's post (late 1590s)"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "refugee civilian, news by rumour",
+   "form": "diary",
+   "language": "Literary Chinese (hanmun)",
+   "authenticity": "Swaemirok ('Record of a Wanderer'), seven volumes kept by his descendants and published in modern editions by the National Institute of Korean History; Korean Treasure. Runs from the 27th day of the 11th month of 1591 to the 27th day of the 2nd month of 1601.",
+   "bio": "A man with no command and no office who simply had to survive the war, and wrote down almost everything he heard. His diary records famine, refugees, rumours that were sometimes wrong, the death of his small daughter, and the slow arrival of news about battles he never saw. That makes him the ideal counterweight to Yi.",
+   "sources": [
+    {
+     "title": "Weekly Kyunghyang: Yi Sun-sin and Won Gyun in a civilian's diary (Swaemirok dated entries)",
+     "url": "https://weekly.khan.co.kr/article/202208261516291"
+    },
+    {
+     "title": "University Record (Michigan): Imjin War diaries are memorial of invasions for Koreans",
+     "url": "https://record.umich.edu/?p=93270"
+    }
+   ]
+  },
+  {
+   "id": "ryu",
+   "name": "Ryu Seong-ryong",
+   "short": "Ryu Seong-ryong",
+   "life": "1542–1607",
+   "role": "Senior minister and later Chief State Councillor (Yeonguijeong); director of the war effort and patron of Yi Sun-sin",
+   "side": "Joseon court",
+   "where": "With King Seonjo on the flight north from Seoul in 1592; with the Ming armies 1593; later in retirement at Hahoe, Andong",
+   "lat": 37.57,
+   "lon": 126.98,
+   "waypoints": [
+    {
+     "lat": 37.57,
+     "lon": 126.98,
+     "label": "Seoul, court leaves (June 1592)"
+    },
+    {
+     "lat": 39.03,
+     "lon": 125.75,
+     "label": "Pyongyang (1592–93)"
+    },
+    {
+     "lat": 36.54,
+     "lon": 128.52,
+     "label": "Hahoe, Andong: writes the Jingbirok (after 1598)"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "at the top of the state",
+   "form": "memoir (written later)",
+   "language": "Literary Chinese (hanmun)",
+   "authenticity": "The Jingbirok ('Book of Corrections') was written in retirement after he was dismissed in late 1598 and finished by about 1604; the autograph manuscript is Korean National Treasure no. 132. A retrospective, self-critical memoir, not a diary: dates attached here are the dates of the events he describes. Printed in Korea in 1633/1647 and in Kyoto in 1695.",
+   "bio": "The minister who had recommended Yi Sun-sin for his command a year before the war and who then had to run a state in collapse. He wrote to warn later generations, and his book is harsher on Korean unpreparedness than on the enemy. He gives the court's view that neither Yi nor Oh could see.",
+   "sources": [
+    {
+     "title": "Chingbirok (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Chingbirok"
+    },
+    {
+     "title": "The Book of Corrections, trans. Choi Byonghyon (IEAS, Berkeley)",
+     "url": "https://ieas.directfrompublisher.com/node/162"
+    },
+    {
+     "title": "Korea Times (Oct 2026): expanded English edition of the Chingbirok",
+     "url": "https://www.koreatimes.co.kr/lifestyle/books/20261016/expanded-english-edition-of-joseon-classic-the-chingbirok-unveiled"
+    }
+   ]
+  },
+  {
+   "id": "hideyoshi",
+   "name": "Toyotomi Hideyoshi",
+   "short": "Hideyoshi",
+   "life": "1537–1598",
+   "role": "Taikō, retired regent and ruler of a newly unified Japan; architect of both invasions",
+   "side": "Toyotomi Japan",
+   "where": "Nagoya Castle in Hizen (staging base, 1592–93), later Osaka and Fushimi; never crossed to Korea",
+   "lat": 33.53,
+   "lon": 129.87,
+   "waypoints": [
+    {
+     "lat": 33.53,
+     "lon": 129.87,
+     "label": "Nagoya Castle, Hizen (1592–93)"
+    },
+    {
+     "lat": 34.93,
+     "lon": 135.77,
+     "label": "Fushimi Castle, where he died (1598)"
+    }
+   ],
+   "vantage": 4,
+   "vantage_label": "the ruler who ordered it, across the strait",
+   "form": "dated letters",
+   "language": "Japanese",
+   "authenticity": "Many autograph and vermilion-seal (shuinjō) letters survive in Japanese archives; the 1592 memorandum to Hidetsugu is known in modern editions (Akiyama). Letters are official or family documents, not a diary.",
+   "bio": "The man whose ambition started the war, writing from Japan in confident, sweeping orders. His letters show a plan to conquer Ming China and move the emperor to Beijing, and later deployment orders for the second invasion. They show the war as he imagined it, set against the war the others lived through.",
+   "sources": [
+    {
+     "title": "Hideyoshi documents in translation (Univ. of Delaware course reader, incl. 1592 memorandum)",
+     "url": "https://www1.udel.edu/History-old/figal/Hist138/Text/er/hideyoshi.pdf"
+    },
+    {
+     "title": "Agency for Cultural Affairs: Hideyoshi vermilion-seal deployment order, Keichō 2/2/21",
+     "url": "https://online.bunka.go.jp/heritages/detail/221794"
+    },
+    {
+     "title": "Autograph letter of Hideyoshi to his wife O-ne, 1592 (Tokugawa Art Museum, Google Arts & Culture)",
+     "url": "https://artsandculture.google.com/asset/letter-of-toyotomi-hideyoshi-to-his-wife-o-ne-toyotomi-hideyoshi/TAEQRWKCGzlWwQ"
+    }
+   ]
+  },
+  {
+   "id": "tenkei",
+   "name": "Tenkei (author of the Seisei nikki)",
+   "short": "Tenkei",
+   "life": "dates uncertain",
+   "role": "Zen monk-secretary attached to the army that took Seoul in 1592",
+   "side": "Toyotomi Japan (Konishi Yukinaga's command)",
+   "where": "Busan to Hanseong (Seoul), 1592",
+   "lat": 37.57,
+   "lon": 126.98,
+   "waypoints": [
+    {
+     "lat": 35.1,
+     "lon": 129.04,
+     "label": "Busan landing (May 1592)"
+    },
+    {
+     "lat": 37.57,
+     "lon": 126.98,
+     "label": "Occupied Hanseong (summer 1592)"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "occupier's clerk in the captured capital",
+   "form": "diary",
+   "language": "Literary Chinese / Japanese",
+   "authenticity": "The Seisei nikki ('Diary of the Western Expedition') is printed in Zoku-zoku gunsho ruijū vol. 3 and used by Japanese historians for the occupation of Seoul. The attribution to the monk Tenkei follows standard Japanese scholarship; I could verify the edition and dated entries but not his biography.",
+   "bio": "A monk-scribe of the kind Japanese generals took along to handle written Chinese for diplomacy. His diary shows the occupation from inside the captured capital: magistrates arriving, storehouses counted, rumours of Korean uprisings. It is a dry administrative view of the same summer in which Yi was destroying Japanese fleets.",
+   "sources": [
+    {
+     "title": "Tani Tetsuya, Ritsumeikan Bungaku 677 (cites Seisei nikki entries, Tenshō 20/7)",
+     "url": "https://www.ritsumei.ac.jp/acd/cg/lt/rb/677/677PDF/tani_tetsuya.pdf"
+    }
+   ]
+  },
+  {
+   "id": "keinen",
+   "name": "Keinen",
+   "short": "Keinen",
+   "life": "c. 1534–1611",
+   "role": "Jōdo Shinshū priest of Anyōji temple, Usuki; physician-chaplain attached to the daimyo Ōta Kazuyoshi; in his sixties",
+   "side": "Toyotomi Japan (Ōta Kazuyoshi's contingent)",
+   "where": "Jeolla campaign and the siege of Namwon (1597); Ulsan (winter 1597–98)",
+   "lat": 35.41,
+   "lon": 127.39,
+   "waypoints": [
+    {
+     "lat": 33.12,
+     "lon": 131.8,
+     "label": "Usuki, Bungo: departs (mid-1597)"
+    },
+    {
+     "lat": 35.41,
+     "lon": 127.39,
+     "label": "Siege of Namwon (Sept 1597)"
+    },
+    {
+     "lat": 35.55,
+     "lon": 129.32,
+     "label": "Ulsan fortress (winter 1597–98)"
+    },
+    {
+     "lat": 33.12,
+     "lon": 131.8,
+     "label": "Home to Usuki (early 1598)"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "non-combatant inside the invading army",
+   "form": "diary",
+   "language": "Japanese, with a waka poem closing each day",
+   "authenticity": "Chōsen nichinichiki ('Korea day by day'), an autograph manuscript kept at his temple; little known until the 20th century and published with commentary in Japan (1965 onward). English excerpts in de Bary et al., Sources of Japanese Tradition.",
+   "bio": "An old priest who went to Korea against his wishes and recorded what the army did, then judged it as a Buddhist. He records burning villages, captives in chains and children taken from their parents, and he admits his own desire for loot. He is the closest thing in the record to a conscience inside the invading force.",
+   "sources": [
+    {
+     "title": "Listening to the Past: Keinen's Poetic Diary of the Korea Campaign (excerpts, from Sources of Japanese Tradition)",
+     "url": "https://digfir-published.macmillanusa.com/mckayworld10e/mckayworld10e_ch21_30.html"
+    },
+    {
+     "title": "Mimizuka (Wikipedia; cites Keinen and Ōkōchi)",
+     "url": "https://en.wikipedia.org/wiki/Mimizuka"
+    }
+   ]
+  },
+  {
+   "id": "okochi",
+   "name": "Ōkōchi Hidemoto",
+   "short": "Ōkōchi",
+   "life": "dates uncertain (fl. 1597)",
+   "role": "Samurai retainer of Ōta Kazuyoshi",
+   "side": "Toyotomi Japan (Ōta Kazuyoshi's contingent)",
+   "where": "Jeolla campaign; storming of Namwon (1597)",
+   "lat": 35.41,
+   "lon": 127.39,
+   "vantage": 1,
+   "vantage_label": "soldier in the assault",
+   "form": "memoir (written later)",
+   "language": "Japanese",
+   "authenticity": "Chōsen ki ('Record of Korea'), a war account compiled after his return and later copied and printed; it contains embellished, heroic passages, so read as memoir rather than daily record. Cited for Hideyoshi's orders to kill indiscriminately and send back trophies.",
+   "bio": "A fighting man in the same contingent as Keinen, so the two describe the same campaign from opposite sides of the conscience. Where Keinen grieves, Ōkōchi records orders and feats of arms. He is included with a flag: his account was shaped later.",
+   "sources": [
+    {
+     "title": "Mimizuka (Wikipedia; quotes Ōkōchi's Chōsen ki on Hideyoshi's orders)",
+     "url": "https://en.wikipedia.org/wiki/Mimizuka"
+    }
+   ]
+  },
+  {
+   "id": "kang",
+   "name": "Kang Hang",
+   "short": "Kang Hang",
+   "life": "1567–1618",
+   "role": "Confucian scholar-official, aged 30, on leave in his home district of Yeonggwang when the second invasion reached Jeolla",
+   "side": "Joseon Korea (captive)",
+   "where": "Captured off the Jeolla coast in 1597; prisoner at Ōzu (Iyo) and Fushimi, Japan, until 1600",
+   "lat": 33.51,
+   "lon": 132.54,
+   "waypoints": [
+    {
+     "lat": 35.28,
+     "lon": 126.51,
+     "label": "Yeonggwang coast, captured (autumn 1597)"
+    },
+    {
+     "lat": 33.51,
+     "lon": 132.54,
+     "label": "Ōzu, Iyo: captivity"
+    },
+    {
+     "lat": 34.93,
+     "lon": 135.77,
+     "label": "Fushimi / Kyoto (1598–1600)"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "captive taken to Japan",
+   "form": "memoir (written later)",
+   "language": "Literary Chinese (hanmun)",
+   "authenticity": "Ganyangnok ('Record of a Shepherd', a title alluding to the captive Su Wu), compiled from memorials and notes he smuggled out of Japan plus a narrative written after his return; published posthumously. English translation by JaHyun Kim Haboush and Kenneth R. Robinson (2013). Not a daily diary: dates here are approximate.",
+   "bio": "One of tens of thousands of Koreans carried off to Japan, and one of the very few who wrote about it. In captivity he tutored Japanese scholars in Neo-Confucian learning and watched Hideyoshi's regime from close by, then came home. He is the war's victim who crossed to the other side of the strait.",
+   "sources": [
+    {
+     "title": "Kang Hang (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Kang_Hang"
+    },
+    {
+     "title": "Haboush & Robinson, A Korean War Captive in Japan, 1597–1600 (review listing, Acta Koreana)",
+     "url": "https://actakoreana.org/digital-library/55287"
+    }
+   ]
+  },
+  {
+   "id": "cespedes",
+   "name": "Gregorio de Céspedes",
+   "short": "Céspedes",
+   "life": "1551–1611",
+   "role": "Spanish Jesuit priest, chaplain to Christian Japanese troops",
+   "side": "Society of Jesus, with Konishi Yukinaga's army",
+   "where": "Japanese coastal fort at Ungcheon (Jinhae), Gyeongsang, winter 1593–94",
+   "lat": 35.1,
+   "lon": 128.73,
+   "vantage": 2,
+   "vantage_label": "foreign chaplain in an invader's fort",
+   "form": "dated letters",
+   "language": "Spanish / Portuguese",
+   "authenticity": "Four letters from Korea survive in Jesuit correspondence and were used by Luís Fróis; usually counted the first Western writings from inside Korea. His departure is given variously as spring 1594 or early 1595.",
+   "bio": "Invited by the Christian general Konishi Yukinaga, Céspedes arrived on 27 December 1593 (Gregorian) to minister to Japanese Christian soldiers in the stalled war. He is the only European eye on the war and the only one writing in the new Gregorian calendar. He saw the war as a missionary in a frozen garrison, and Koreans mostly as distant figures.",
+   "sources": [
+    {
+     "title": "Gregorio Céspedes (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Gregorio_C%C3%A9spedes"
+    },
+    {
+     "title": "Korean Studies list discussion on Céspedes and Europeans in the Imjin War",
+     "url": "https://koreanstudies.com/pipermail/koreanstudies_koreanstudies.com/2007-April/006207.html"
+    },
+    {
+     "title": "Hendrick Hamel site: In the wake of the Portuguese",
+     "url": "https://www.hendrick-hamel.henny-savenije.pe.kr/holland3.htm"
+    }
+   ]
+  },
+  {
+   "id": "song",
+   "name": "Song Yingchang",
+   "short": "Song Yingchang",
+   "life": "1536–1606",
+   "role": "Ming Vice Minister of War and Military Superintendent (jinglüe) of the Korean relief campaign",
+   "side": "Ming China",
+   "where": "Liaodong command, directing the relief army from the rear (1592–93)",
+   "lat": 41.27,
+   "lon": 123.17,
+   "waypoints": [
+    {
+     "lat": 39.9,
+     "lon": 116.4,
+     "label": "Beijing: appointed (autumn 1592)"
+    },
+    {
+     "lat": 41.27,
+     "lon": 123.17,
+     "label": "Liaodong command (1592–93)"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "allied commander behind the lines",
+   "form": "dated letters",
+   "language": "Classical Chinese",
+   "authenticity": "His memorials and letters of 1592–93 were collected in the Jinglüe fuguo yaobian ('Essential documents of the Superintendent for restoring the state'), a major firsthand Ming source. Official correspondence, written to persuade the court; I could not check individual dated texts, so dates here are approximate.",
+   "bio": "The Ming official who organised the army that retook Pyongyang and Seoul, while staying behind in Liaodong. His papers show the war as a logistics and court-politics problem for Beijing. He gives the third great power in the war its voice.",
+   "sources": [
+    {
+     "title": "Song Yingchang (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Song_Yingchang"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1592-02-28",
+   "date_display": "Imjin year, 1st month, 16th day (Korean lunar)",
+   "precision": "day",
+   "eye": "yi",
+   "place": "Jeolla Left Navy HQ, Yeosu",
+   "headline": "Three months before the war, Yi flogs officers over neglected warships",
+   "digest": "Inspecting preparations, Yi found that the officers and clerks responsible for repairing warships at Bangdap had let the work slide, and he had them flogged. This is an entirely ordinary peacetime entry about a commander enforcing discipline. No one in it expects an invasion within three months.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nanjung Ilgi, 1592-01-16 (lunar), as cited by Seoul Mediahub; https://mediahub.seoul.go.kr/archives/2016775"
+  },
+  {
+   "date_iso": "1592-04-07",
+   "date_display": "Imjin year, 2nd month, 25th day",
+   "precision": "day",
+   "eye": "yi",
+   "place": "Bangdap fort, Jeolla",
+   "headline": "Bad arrows, good ships: Yi's mixed inspection",
+   "digest": "Arriving late, Yi finished his paperwork and then inspected the weapons. The long and short arrows were unusable, which worried him, but the warships were nearly ready, which pleased him. The entry shows how far his fleet's readiness depended on his own checks.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nanjung Ilgi 1592-02-25 (lunar), via Seoul Mediahub"
+  },
+  {
+   "date_iso": "1592-04-16",
+   "date_display": "Imjin year, 3rd month, 5th day",
+   "precision": "day",
+   "eye": "yi",
+   "place": "Yeosu",
+   "headline": "A strategy book arrives from Minister Ryu Seong-ryong",
+   "digest": "A courier brought a military manual sent by Ryu Seong-ryong, the minister who had recommended him. Yi read it and judged it outstanding. It is a small entry, but it records the working tie between the court's chief planner and its most important admiral before either knew what was coming.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nanjung Ilgi 1592-03-05 (lunar), via Seoul Mediahub"
+  },
+  {
+   "date_iso": "1592-05-23",
+   "date_display": "Imjin year, 4th month, 13th day (Korean); Japanese records date the landing to the 12th day",
+   "precision": "day",
+   "eye": "ryu",
+   "place": "Seoul (retrospective)",
+   "headline": "The Japanese fleet appears off Busan: Ryu's retrospective account",
+   "digest": "Writing years later, Ryu opens the war with the Japanese ships appearing off Busan and the garrison commander Jeong Bal unprepared, then the fall of Busan and Dongnae within days. His point throughout is that Korea had been warned and had not acted. The date he gives is the Korean one, which is a day later than the date in Japanese records.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Jingbirok (Book of Corrections), opening narrative; date per Korean records. Memoir written after 1598."
+  },
+  {
+   "date_iso": "1592-06-09",
+   "date_display": "Imjin year, 4th month, 30th day",
+   "precision": "day",
+   "eye": "ryu",
+   "place": "Seoul, then the road north",
+   "headline": "The king leaves Seoul at night in the rain",
+   "digest": "Ryu describes the court abandoning the capital before dawn in heavy rain, with officials and guards slipping away and crowds left behind. He presents it as the low point of royal authority. He was on the road with the king, and he writes as one of the leaders responsible for what happened.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Jingbirok, account of the court's flight (event dated 4/30 lunar in Korean records). Memoir."
+  },
+  {
+   "date_iso": "1592-06-09",
+   "date_display": "Imjin year, 4th month (day not given in source)",
+   "precision": "month",
+   "eye": "oh",
+   "place": "Jangsu, Jeolla",
+   "headline": "A stranded scholar condemns the king for fleeing",
+   "digest": "Cut off from his family in Jeolla, Oh heard that the king had abandoned the capital rather than defend it, and wrote that he was angry about it. In the same month he noted a report that Won Gyun had burned about ten Japanese ships. Both pieces of news reached him as rumour, and he could not check either.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Swaemirok, 4th month 1592, per Weekly Kyunghyang; https://weekly.khan.co.kr/article/202208261516291 (date_iso set to the court's flight, 4/30)"
+  },
+  {
+   "date_iso": "1592-06-13",
+   "date_display": "Imjin year, 5th month, 4th day",
+   "precision": "day",
+   "eye": "yi",
+   "place": "Leaving Yeosu",
+   "headline": "Yi's fleet sails east on its first sortie",
+   "digest": "After days of waiting for the Jeolla fleet to assemble, Yi took his ships out toward Gyeongsang waters, where the Japanese had landed. The surviving 1592 diary resumes in these first days of the 5th month and breaks off again before Hansan. Three days later he won his first victory at Okpo.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Nanjung Ilgi 1592 volume covers 5/1–5/4 (UNESCO nomination table); sortie date as commonly given; https://media.unesco.org/sites/default/files/webform/mow001/republic_of_korea_nanjung_ilgi.pdf"
+  },
+  {
+   "date_iso": "1592-06-27",
+   "date_display": "Tenshō 20, 5th month, 18th day (Japanese lunar)",
+   "precision": "day",
+   "eye": "hideyoshi",
+   "place": "Nagoya Castle, Hizen",
+   "headline": "Seoul has fallen; Hideyoshi plans to move the emperor to Beijing",
+   "digest": "In a memorandum to his nephew Hidetsugu, Hideyoshi announced that the Korean capital had fallen on the 2nd day of the month. He told Hidetsugu to prepare to cross over early the next year and govern China, assigned posts in Japan, Korea and Kyushu, and planned to move the Japanese emperor to the Chinese capital. He expected little resistance. Note that Korean records date the fall of Seoul to the 3rd day, so the two calendars differ by one day.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Memorandum to Hidetsugu, Tenshō 20/5/18, translated in https://www1.udel.edu/History-old/figal/Hist138/Text/er/hideyoshi.pdf (from Akiyama)"
+  },
+  {
+   "date_iso": "1592-07-08",
+   "date_display": "Imjin year, 5th month, 29th day",
+   "precision": "day",
+   "eye": "yi",
+   "place": "Sacheon, Gyeongsang coast",
+   "headline": "The turtle ship goes into battle; Yi is wounded",
+   "digest": "At Sacheon Yi used his armoured turtle ship in combat for the first time, sending it into the Japanese line. He was hit in the shoulder by a musket ball during the fighting and carried on in command. His diary for these days records the actions in a matter-of-fact way.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "1592 diary covers 5/29–6/10 (UNESCO table); battle dates per samurai-archives (https://samurai-archives.com/wiki/Yi_Sun-sin)"
+  },
+  {
+   "date_iso": "1592-07-09",
+   "date_display": "Imjin year, 5th month, 30th day (as cited)",
+   "precision": "day",
+   "eye": "oh",
+   "place": "Jangsu, Jeolla",
+   "headline": "Rumour credits Won Gyun with twenty-four ships",
+   "digest": "Oh wrote down a report that Won Gyun had destroyed 24 Japanese ships and taken seven heads. For him the hero of the naval war was Won Gyun, whose name reached his district first. Yi's diary of the same weeks is scathing about Won Gyun.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Swaemirok 1592-05-30 per Weekly Kyunghyang; conversion uncertain because modern tables give the 5th month 29 days"
+  },
+  {
+   "date_iso": "1592-08-09",
+   "date_display": "Imjin year, 7th month, 3rd day",
+   "precision": "day",
+   "eye": "oh",
+   "place": "Jangsu",
+   "headline": "A dream of his wife and daughter",
+   "digest": "A quiet entry: Oh dreamed of his wife and daughter, from whom the war had separated him, and woke unsettled. He had no way of knowing whether they were alive. Five days later the decisive sea battle of the year was fought a long way south of him.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Swaemirok 1592-07-03 per Weekly Kyunghyang"
+  },
+  {
+   "date_iso": "1592-08-14",
+   "date_display": "Imjin year, 7th month, 8th day",
+   "precision": "day",
+   "eye": "yi",
+   "place": "Off Hansan Island (Gyeonnaeryang strait)",
+   "headline": "Hansan: the trap in open water (battle report, not diary)",
+   "digest": "Yi's diary has no entries for this battle; it survives in his formal report to the court. He lured the Japanese fleet out of the narrow Gyeonnaeryang strait into open water off Hansan Island, then closed on it in a 'crane's wing' formation and destroyed most of it. With this defeat Japan lost the hope of supplying its northern armies by sea.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Battle date 7/8 per samurai-archives; diary gap confirmed by UNESCO volume table (no 7th-month entries in 1592). Content from his battle report (Imjin janggye)."
+  },
+  {
+   "date_iso": "1592-08-22",
+   "date_display": "Tenshō 20, 7th month, 16th day (Japanese lunar)",
+   "precision": "day",
+   "eye": "tenkei",
+   "place": "Hanseong (Seoul), occupied",
+   "headline": "Hideyoshi's three magistrates ride into the captured capital",
+   "digest": "The diarist records the arrival in Seoul of the three commissioners Hideyoshi had sent to oversee Korea: Ishida Mitsunari, Masuda Nagamori and Ōtani Yoshitsugu. From inside the occupied capital the campaign still looked like a victory. He wrote this eight days after Hansan, a defeat that went unrecorded here.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Seisei nikki, Tenshō 20/7/16, cited in Tani Tetsuya, Ritsumeikan Bungaku 677; https://www.ritsumei.ac.jp/acd/cg/lt/rb/677/677PDF/tani_tetsuya.pdf"
+  },
+  {
+   "date_iso": "1592-08-28",
+   "date_display": "Tenshō 20, 7th month, 22nd–23rd day",
+   "precision": "range",
+   "eye": "tenkei",
+   "place": "Hanseong",
+   "headline": "Counting the storehouses of a conquered city",
+   "digest": "Over two days the diarist notes Sō Yoshitoshi's people taking charge of Seoul's storehouses, and an inspection of stores and goods. He also records how many residents were still in the city and the rumours of Korean uprisings in the countryside. It reads as the paperwork of occupation.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Seisei nikki, 7/22–23, per Tani Tetsuya (Ritsumeikan Bungaku 677)"
+  },
+  {
+   "date_iso": "1592-09-01",
+   "date_display": "Imjin year, 7th month, 26th day",
+   "precision": "day",
+   "eye": "oh",
+   "place": "Jeolla, refuge",
+   "headline": "News of Hansan arrives, credited to the wrong man",
+   "digest": "Eighteen days after the battle, Oh recorded the great victory at Hansan, but he credited Won Gyun as the commander. The news was right about the result and wrong about who won it. This shows how a civilian three provinces away learned of the war.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Swaemirok 1592-07-26 per Weekly Kyunghyang"
+  },
+  {
+   "date_iso": "1593-01-27",
+   "date_display": "Wanli 20, 12th month, 25th day (Chinese lunar)",
+   "precision": "day",
+   "eye": "song",
+   "place": "Liaodong",
+   "headline": "The Ming relief army crosses into Korea without him",
+   "digest": "The expedition Song had spent months assembling, roughly 36,000 men under Li Rusong, set out from Liaodong toward Korea while Song stayed behind to run supply and correspondence. His letters of these weeks deal with grain, horses, and keeping the court in Beijing on side. Within weeks the army retook Pyongyang.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Song Yingchang (Wikipedia), departure on lunar 12/25; his letters collected in Jinglüe fuguo yaobian (individual letters not checked)"
+  },
+  {
+   "date_iso": "1593-02-08",
+   "date_display": "Wanli 21, 1st month, 8th day",
+   "precision": "day",
+   "eye": "song",
+   "place": "Liaodong (news from Pyongyang)",
+   "headline": "Pyongyang is retaken, and the reports to Beijing begin",
+   "digest": "Ming and Korean forces stormed Japanese-held Pyongyang, the first major reversal on land. As superintendent, Song was responsible for reporting the victory to the court and arguing about what should come next. His papers show the start of the disputes between generals, and between war and peace factions, that later ended his tenure.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Battle date standard (lunar 1/8 Wanli 21); Song's role per Wikipedia; specific memorial not verified"
+  },
+  {
+   "date_iso": "1593-06-02",
+   "date_display": "Gyesa year, 5th month, 4th day",
+   "precision": "day",
+   "eye": "yi",
+   "place": "Fleet anchorage, Gyeongsang waters",
+   "headline": "His mother's birthday, and he cannot be there",
+   "digest": "Yi noted that it was his mother's birthday and that the war kept him from offering her a cup of wine in person, which he called a lifelong regret. The next day a scout boat brought word that she was well, and he wrote that he was relieved. His mother appears in the diary often, and these entries show his private worries.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nanjung Ilgi 1593-05-04 and 05-05 (lunar), via Seoul Mediahub"
+  },
+  {
+   "date_iso": "1593-12-27",
+   "date_display": "27 December 1593 (Gregorian)",
+   "precision": "day",
+   "eye": "cespedes",
+   "place": "Japanese fort at Ungcheon, Gyeongsang",
+   "headline": "The first European arrives in war-torn Korea",
+   "digest": "Céspedes crossed from Japan and reached Konishi Yukinaga's camp, where he was to hear confessions and say Mass for thousands of Christian Japanese soldiers. The war had settled into a stalemate along the south coast while envoys negotiated. He dated everything in the Gregorian calendar, eleven years old at the time, which put him about a month ahead of the Korean and Japanese date.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Arrival date per Wikipedia and Korean Studies list (https://koreanstudies.com/pipermail/koreanstudies_koreanstudies.com/2007-April/006207.html)"
+  },
+  {
+   "date_iso": "1594-01-15",
+   "date_display": "Early 1594 (Gregorian; exact letter date not verified)",
+   "precision": "month",
+   "eye": "cespedes",
+   "place": "Ungcheon fort",
+   "headline": "Letters from a frozen garrison",
+   "digest": "In his letters Céspedes described the harsh Korean winter, far colder than Japan, the hardships of the troops, and his work among the Christian soldiers. He saw the country mainly from inside a Japanese fortification. Fróis later drew on these letters for his history of the mission.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Four letters known (Wikipedia); content summarised from standard accounts; exact dates not checked"
+  },
+  {
+   "date_iso": "1594-04-04",
+   "date_display": "Gabo year, 2nd month, 14th day",
+   "precision": "day",
+   "eye": "oh",
+   "place": "Imcheon district",
+   "headline": "Starving people and abandoned children on the roads",
+   "digest": "In the famine that followed two years of war, Oh recorded starving people on the move and children left without parents. He wrote as a neighbour who could do little for them. The entry belongs to the long stretch when there was little fighting but the country was still dying.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Swaemirok 1594-02-14 per Weekly Kyunghyang"
+  },
+  {
+   "date_iso": "1594-05-22",
+   "date_display": "Gabo year, 4th month, 3rd day",
+   "precision": "day",
+   "eye": "oh",
+   "place": "Imcheon district",
+   "headline": "Reports of people eating the dead",
+   "digest": "Oh recorded reports that starving people had turned to cannibalism, and he feared the population would not survive. He wrote this as rumour he believed and found horrifying, not as something he saw himself. Other Korean records of the famine years make similar reports.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Swaemirok 1594-04-03 per Weekly Kyunghyang; see also University Record (Michigan)"
+  },
+  {
+   "date_iso": "1597-03-18",
+   "date_display": "Jeongyu year, 2nd month, 1st day",
+   "precision": "day",
+   "eye": "oh",
+   "place": "Imcheon",
+   "headline": "His youngest daughter dies",
+   "digest": "Oh recorded the death of his youngest daughter, Dan-a. It is among the most personal entries in the diary, written just as the truce was collapsing and Japan was preparing to invade again. A few weeks later he noted, with pride, that his eldest son had passed the civil service examination.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Swaemirok 1597-02-01 and 03-19 per Weekly Kyunghyang"
+  },
+  {
+   "date_iso": "1597-04-07",
+   "date_display": "Keichō 2, 2nd month, 21st day (Japanese lunar)",
+   "precision": "day",
+   "eye": "hideyoshi",
+   "place": "Kyoto–Fushimi area (place not verified)",
+   "headline": "Hideyoshi's order of battle for the second invasion",
+   "digest": "Under his vermilion seal Hideyoshi issued the deployment list for the renewed campaign: 141,500 men in divisions, with Katō Kiyomasa and Konishi Yukinaga sharing the vanguard and alternating command every two days by lot. The scroll treats Korea as a parade ground to be allotted. Its targets would be Jeolla and the southern coast.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Vermilion-seal deployment order, Keichō 2/2/21, Nabeshima Hōkōkai; https://online.bunka.go.jp/heritages/detail/221794"
+  },
+  {
+   "date_iso": "1597-05-28",
+   "date_display": "Jeongyu year, 4th month, 13th day",
+   "precision": "day",
+   "eye": "yi",
+   "place": "On the road south after his release from prison",
+   "headline": "Stripped of rank, Yi learns his mother has died",
+   "digest": "Yi had been released from prison and ordered to serve as a common soldier under the man who had replaced him. A servant brought news that his mother had died on her way to see him, and he wrote that he was overwhelmed with grief. He could not even stay to mourn her properly before he was ordered on.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nanjung Ilgi 1597-04-13 (lunar), via Seoul Mediahub and samurai-archives"
+  },
+  {
+   "date_iso": "1597-09-02",
+   "date_display": "Jeongyu year, 7th month, 21st day",
+   "precision": "day",
+   "eye": "yi",
+   "place": "Jinju area, serving without rank",
+   "headline": "The fleet he built is gone",
+   "digest": "Yi learned that the Korean fleet under Won Gyun had been destroyed at Chilcheollyang and that Won Gyun had fled ashore. His men told him how furious they were at Won Gyun. Within weeks the court restored Yi to command of what was left: about a dozen ships.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nanjung Ilgi 1597-07-21 (lunar), via Seoul Mediahub; Chilcheollyang on 7/16 per KSQ abstract (https://www.accesson.kr/ksq/v.25/3/115/40383?lang=en)"
+  },
+  {
+   "date_iso": "1597-09-10",
+   "date_display": "Jeongyu year, 7th month, 29th day",
+   "precision": "day",
+   "eye": "oh",
+   "place": "Imcheon",
+   "headline": "News of the disaster and Won Gyun's death",
+   "digest": "Oh recorded the Chilcheollyang defeat and the death of Won Gyun, the commander he had praised for five years. Earlier entries had passed on rumours that Won Gyun was plotting against Yi. Now Oh's view of the navy turned toward Yi.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Swaemirok 1597-07-29 per Weekly Kyunghyang"
+  },
+  {
+   "date_iso": "1597-09-14",
+   "date_display": "Keichō 2, 8th month, 4th day (Japanese lunar)",
+   "precision": "day",
+   "eye": "keinen",
+   "place": "Southern Korea, with Ōta Kazuyoshi's troops",
+   "headline": "The army rushes ashore to plunder and kill",
+   "digest": "Keinen watched the soldiers race to seize goods and kill people as they came ashore and pushed inland, and he wrote that he could not bear to watch. He closed the day, as always, with a short poem. He had left his temple in Bungo about six weeks earlier.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Chōsen nichinichiki 8/4, in excerpt translated in Sources of Japanese Tradition; https://digfir-published.macmillanusa.com/mckayworld10e/mckayworld10e_ch21_30.html"
+  },
+  {
+   "date_iso": "1597-09-16",
+   "date_display": "Keichō 2, 8th month, 6th day",
+   "precision": "day",
+   "eye": "keinen",
+   "place": "Inland Jeolla",
+   "headline": "Burning hills, chained captives, families torn apart",
+   "digest": "Fields, hills and fortifications were set alight, and Keinen saw captives bound with ropes and chains, parents separated from their children. He called it the most pitiful sight of his life. Two days later he wrote that children whose parents had been killed were being carried off, and compared their anguish to the torments of hell.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Chōsen nichinichiki 8/6 and 8/8 (excerpts, Sources of Japanese Tradition)"
+  },
+  {
+   "date_iso": "1597-09-23",
+   "date_display": "Keichō 2, 8th month, 13th day",
+   "precision": "day",
+   "eye": "keinen",
+   "place": "Camp before Namwon",
+   "headline": "Before Namwon, the troops are eager for battle",
+   "digest": "The army camped near the walled town of Namwon, said to be held by tens of thousands of Ming soldiers. Keinen noted that the men were cheered by the prospect of a fight. The next night, in pouring rain under a leaking tent, he could not sleep and thought of a terrible night in the Heian classic Tales of Ise.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Chōsen nichinichiki 8/13–8/14 (excerpts, Sources of Japanese Tradition)"
+  },
+  {
+   "date_iso": "1597-09-25",
+   "date_display": "Keichō 2, 8th month, 15th day (Japanese lunar)",
+   "precision": "day",
+   "eye": "okochi",
+   "place": "Namwon",
+   "headline": "The storming of Namwon, from the attacker's side",
+   "digest": "Ōkōchi, serving in the same contingent as Keinen, describes the night assault on Namwon's walls in terms of feats of arms and orders. He also records Hideyoshi's instruction to spare no one and to send back proof of the dead. His account was written up after the war and includes heroic set pieces, so read it as memoir.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Chōsen ki (Ōkōchi Hidemoto), Namwon chapter; orders quoted via https://en.wikipedia.org/wiki/Mimizuka; siege dates per Wikipedia, Siege of Namwon (23–26 Sept 1597)"
+  },
+  {
+   "date_iso": "1597-09-25",
+   "date_display": "Keichō 2, 8th month, 15th day",
+   "precision": "day",
+   "eye": "keinen",
+   "place": "Namwon",
+   "headline": "Dawn assault, heavy losses, the castle falls at night",
+   "digest": "Keinen recorded the troops preparing to storm the fortress at dawn, the heavy casualties on both sides, and the castle falling during the night. He noted the praise for the lord whose men got in first. His account is sober and does not celebrate.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Chōsen nichinichiki 8/15 (excerpts, Sources of Japanese Tradition)"
+  },
+  {
+   "date_iso": "1597-09-26",
+   "date_display": "Keichō 2, 8th month, 16th day",
+   "precision": "day",
+   "eye": "keinen",
+   "place": "Namwon, after the fall",
+   "headline": "No one inside left alive",
+   "digest": "Keinen wrote that everyone in the fortress had been killed apart from a few kept as captives for exchange. He grieved over the cruelty and over how fleeting life is. The next day he was still turning it over: people who had not expected to die the day before were gone.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Chōsen nichinichiki 8/16–8/17 (excerpts, Sources of Japanese Tradition)"
+  },
+  {
+   "date_iso": "1597-10-24",
+   "date_display": "Jeongyu year, 9th month, 15th day",
+   "precision": "day",
+   "eye": "yi",
+   "place": "Usuyeong, at the mouth of the Myeongnyang strait",
+   "headline": "Thirteen ships against an armada: 'seek death and live'",
+   "digest": "With about thirteen ships left, Yi gathered his captains and told them that in a narrow strait one man could hold off many. He warned them that anyone who sought to live would die, and anyone ready to die would live, and that he would enforce military law without mercy. This phrase is one of the most quoted lines in Korean history.",
+   "quote": "必死則生 必生則死 (seek death and live; seek life and die)",
+   "confidence": "verified",
+   "source_note": "Nanjung Ilgi 1597-09-15 (lunar); Myeongnyang background per KSQ abstract"
+  },
+  {
+   "date_iso": "1597-10-25",
+   "date_display": "Jeongyu year, 9th month, 16th day",
+   "precision": "day",
+   "eye": "yi",
+   "place": "Myeongnyang strait (Uldolmok)",
+   "headline": "Myeongnyang: 'truly heaven's luck'",
+   "digest": "When more than 130 Japanese ships came through the strait, Yi's own ship at first fought almost alone while his other captains held back. He called them in by name and threatened them with execution. The fight turned when the tide changed and a Japanese commander was killed. He counted some thirty enemy ships destroyed and called it heaven's luck. That evening he moved his tiny fleet away, knowing the enemy's numbers had barely changed.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nanjung Ilgi 1597-09-16 (lunar); morning start and 13 vs 130+ ships per KSQ abstract (https://www.accesson.kr/ksq/v.25/3/115/40383?lang=en), which gives 25 October; Wikipedia gives 26 October"
+  },
+  {
+   "date_iso": "1597-10-25",
+   "date_display": "Jeongyu year, 9th month (day not verified)",
+   "precision": "month",
+   "eye": "kang",
+   "place": "Off the Yeonggwang coast, Jeolla",
+   "headline": "A scholar's family boat is taken at sea",
+   "digest": "In the same autumn weeks, as the Japanese swept the Jeolla coast, Kang Hang tried to get his family away by boat. Japanese ships captured them, and several of his relatives died in the chaos. He was taken to Japan as a prisoner. He wrote about it later, in memorials and an account compiled after his return.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Ganyangnok; capture in 1597 per Wikipedia (Kang Hang); month and details per Haboush & Robinson's translation (not directly checked)"
+  },
+  {
+   "date_iso": "1597-11-06",
+   "date_display": "Keichō 2, 9th month, 28th day (Japanese lunar)",
+   "precision": "day",
+   "eye": "hideyoshi",
+   "place": "Kyoto, Hōkōji",
+   "headline": "Noses from Korea entombed in Kyoto",
+   "digest": "The mound later called the Mimizuka ('ear mound', though it holds noses) was dedicated beside Hōkōji, near the great Buddha Hideyoshi had built. Hideyoshi had demanded noses as proof of kills, and Buddhist priests prayed over them. Keinen wrote that noses were taken because they showed how many heads there were. This is a dated act of his rule, not a letter.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Mimizuka dedication date per Wikipedia (given there as 28 September, i.e. the lunar date); https://en.wikipedia.org/wiki/Mimizuka"
+  },
+  {
+   "date_iso": "1597-11-22",
+   "date_display": "Jeongyu year, 10th month, 14th day",
+   "precision": "day",
+   "eye": "yi",
+   "place": "Fleet anchorage, southwest coast",
+   "headline": "A letter: his youngest son Myeon is dead",
+   "digest": "A letter from home told Yi that his youngest son, Myeon, had been killed fighting Japanese raiders near the family home in Asan. He wrote that heaven had it the wrong way round and that a parent should not outlive a child. Less than a month after Myeongnyang, this is the most heartbroken entry in the diary.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nanjung Ilgi 1597-10-14 (lunar), via Seoul Mediahub"
+  },
+  {
+   "date_iso": "1598-01-28",
+   "date_display": "Keichō 2, 12th month, c. 22nd day onward",
+   "precision": "range",
+   "eye": "keinen",
+   "place": "Ulsan fortress",
+   "headline": "Besieged at Ulsan in the winter",
+   "digest": "Keinen was inside the unfinished Japanese fort at Ulsan when Ming and Korean armies surrounded it. His diary records cold, hunger and thirst, and the fear of men trapped behind walls they had only just built. Relief came in early 1598, and soon afterwards he sailed home.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Keinen's presence at Ulsan with Ōta Kazuyoshi per standard accounts of the Chōsen nichinichiki; siege 26 Jan–19 Feb 1598 per Wikipedia (Siege of Ulsan); daily entries not checked"
+  },
+  {
+   "date_iso": "1598-09-05",
+   "date_display": "Keichō 3, 8th month, 5th day (Japanese lunar)",
+   "precision": "day",
+   "eye": "hideyoshi",
+   "place": "Fushimi Castle",
+   "headline": "A dying ruler begs his regents to protect his son",
+   "digest": "In his last letter to the regents he had appointed to govern after him, Hideyoshi asked them again and again to look after his small son Hideyori. Korea is not mentioned. He died on the 18th day of the month, and his council quietly began to bring the armies home.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Testament to the Five Elders, Keichō 3/8/5 (Mōri Museum); date from standard references, not rechecked in this search budget"
+  },
+  {
+   "date_iso": "1598-12-14",
+   "date_display": "Musul year, 11th month, 17th day",
+   "precision": "day",
+   "eye": "yi",
+   "place": "Off Noryang, Gyeongsang–Jeolla boundary",
+   "headline": "The last entry: hunting the retreating fleet",
+   "digest": "Yi's final entry briefly records naval operations against Japanese ships trying to get away along the coast. Like most of his diary it is short and practical, with no reflection. Two days later, in the battle at the Noryang strait, he was killed by a bullet.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Last entry 1598-11-17 (lunar) per UNESCO nomination and Seoul Mediahub"
+  },
+  {
+   "date_iso": "1598-12-16",
+   "date_display": "Musul year, 11th month, 19th day",
+   "precision": "day",
+   "eye": "ryu",
+   "place": "(retrospective, written at Hahoe)",
+   "headline": "Noryang: 'do not announce my death'",
+   "digest": "Ryu tells how Yi, hit during the battle at Noryang as the last Japanese fleet tried to escape, ordered that his death be hidden so the fighting would not falter. Ryu, dismissed from office that same winter, wrote this as part of his tribute to the commander he had recommended. It is a later account, not a dispatch.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Jingbirok, account of Yi's death (event 11/19 lunar). Memoir."
+  },
+  {
+   "date_iso": "1598-12-30",
+   "date_display": "Musul year, 12th month, 3rd day (and again on the 16th)",
+   "precision": "day",
+   "eye": "oh",
+   "place": "Pyeonggang",
+   "headline": "Two weeks late, the news of Yi's death",
+   "digest": "Oh recorded that Yi Sun-sin had been killed at Noryang. When he returned to it on the 16th, he grieved over what the loss meant for Korea's navy. The admiral he had barely mentioned in 1592 had become the one he mourned for the whole country.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Swaemirok 1598-12-03 and 12-16 per Weekly Kyunghyang"
+  },
+  {
+   "date_iso": "1599-06-01",
+   "date_display": "1598–1600 (in captivity)",
+   "precision": "range",
+   "eye": "kang",
+   "place": "Fushimi / Kyoto",
+   "headline": "A captive teaches the Japanese the Confucian classics",
+   "digest": "Moved to the Kyoto area, Kang lived as a prisoner but was sought out by Japanese scholars, above all Fujiwara Seika, to whom he explained Neo-Confucian texts. He also sent reports on Japanese politics back toward Korea. He saw the end of Hideyoshi's regime from the enemy's capital.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Kang Hang (Wikipedia): Neo-Confucian influence in Japan; Fujiwara Seika link per Haboush & Robinson (not directly checked)"
+  },
+  {
+   "date_iso": "1601-03-31",
+   "date_display": "Sinchuk year, 2nd month, 27th day",
+   "precision": "day",
+   "eye": "oh",
+   "place": "Seoul",
+   "headline": "Home again after ten years: the last entry",
+   "digest": "Back in Seoul at last, Oh closed the diary he had begun when he left the city in late 1591. He had expected a short family trip. He came home to a capital that had been burned and occupied, and to a country in which many people he knew had died.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Swaemirok final entry 1601-02-27 per Weekly Kyunghyang (return 02-26)"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1592-05-23",
+   "label": "The Japanese land at Busan (4th month, 12th/13th day)",
+   "eyes": [
+    "ryu",
+    "oh",
+    "hideyoshi"
+   ],
+   "note": "The calendars disagree from the first day: Japanese records give the 12th, Korean the 13th. Ryu writes years later as a minister blaming his own government, Oh hears only rumours in Jeolla and is angry at a fleeing king, and Hideyoshi in Hizen sees a timetable being kept."
+  },
+  {
+   "date": "1592-06-12",
+   "label": "Seoul falls (Korean 5th month, 3rd day; Hideyoshi says the 2nd)",
+   "eyes": [
+    "ryu",
+    "hideyoshi",
+    "yi"
+   ],
+   "note": "Ryu describes the court leaving in the rain, and Hideyoshi treats the fall of Seoul as the first step to Beijing. Meanwhile Yi's fleet has just sailed and will win at Okpo four days later. These are the court, the conqueror and the counterstroke in a single week."
+  },
+  {
+   "date": "1592-08-14",
+   "label": "Battle of Hansan Island (7th month, 8th day)",
+   "eyes": [
+    "yi",
+    "tenkei",
+    "oh"
+   ],
+   "note": "Yi's victory is missing from his own diary and survives only in his battle report. Eight days later a Japanese monk in Seoul records Hideyoshi's magistrates arriving as though the war were going well, and eighteen days later Oh hears of the victory but credits it to Won Gyun."
+  },
+  {
+   "date": "1597-09-25",
+   "label": "The storming of Namwon (8th month, 15th–16th day)",
+   "eyes": [
+    "keinen",
+    "okochi"
+   ],
+   "note": "Two men from the same contingent describe the same night. The samurai writes about orders and feats of arms, while the priest records heavy losses, a massacre, and his own sense of how fleeting life is."
+  },
+  {
+   "date": "1597-10-25",
+   "label": "Myeongnyang (9th month, 16th day)",
+   "eyes": [
+    "yi",
+    "kang",
+    "hideyoshi"
+   ],
+   "note": "Yi wins with thirteen ships while, on the same Jeolla coast that autumn, Kang Hang's family is taken at sea. Within two weeks, noses gathered in the campaign are buried in Kyoto. That one month holds Korea's most celebrated victory and its people's worst suffering."
+  },
+  {
+   "date": "1598-12-16",
+   "label": "Battle of Noryang and Yi's death (11th month, 19th day)",
+   "eyes": [
+    "yi",
+    "ryu",
+    "oh"
+   ],
+   "note": "Yi's last entry two days before is purely practical. Ryu later turns the death into a moral lesson, and Oh, two weeks behind the news as always, mourns for the whole country."
+  }
+ ],
+ "ties": [
+  {
+   "a": "yi",
+   "b": "ryu",
+   "kind": "influenced",
+   "note": "Ryu recommended Yi for the Jeolla naval command shortly before the war, sent him a strategy manual in the 3rd month of 1592, and checked on him after his release from prison in 1597."
+  },
+  {
+   "a": "yi",
+   "b": "oh",
+   "kind": "mentioned",
+   "note": "Oh's diary follows Yi's and Won Gyun's fortunes from a distance, crediting Won Gyun for Hansan in 1592 and grieving for Yi in 1598."
+  },
+  {
+   "a": "keinen",
+   "b": "okochi",
+   "kind": "same street",
+   "note": "Both served in the contingent of Ōta Kazuyoshi and describe the same 1597 campaign and the same assault on Namwon."
+  },
+  {
+   "a": "hideyoshi",
+   "b": "keinen",
+   "kind": "influenced",
+   "note": "Hideyoshi's 1597 orders, including his demand for noses as proof of kills, are what Keinen saw being carried out and grieved over."
+  },
+  {
+   "a": "hideyoshi",
+   "b": "yi",
+   "kind": "opposite sides",
+   "note": "Yi's victories at sea wrecked the supply route that Hideyoshi's 1592 plan to reach Beijing depended on."
+  },
+  {
+   "a": "kang",
+   "b": "hideyoshi",
+   "kind": "mentioned",
+   "note": "Kang Hang was a prisoner in the Kyoto–Fushimi area when Hideyoshi died there in 1598, and he wrote about the regime from inside Japan."
+  },
+  {
+   "a": "cespedes",
+   "b": "tenkei",
+   "kind": "same street",
+   "note": "Both were attached to Konishi Yukinaga's command, the monk during the advance of 1592 and the Jesuit in the coastal forts of 1593–94. They were two very different chaplains to the same army."
+  },
+  {
+   "a": "song",
+   "b": "ryu",
+   "kind": "mentioned",
+   "note": "As chief Korean minister, Ryu dealt with the Ming relief effort that Song organised, and his Jingbirok discusses the Ming command."
+  },
+  {
+   "a": "kang",
+   "b": "yi",
+   "kind": "same street",
+   "note": "Kang was captured off the same Jeolla coast in the same autumn of 1597 in which Yi fought at Myeongnyang."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v1:heian",
+   "note": "At Namwon in 1597, Keinen lay awake in a leaking tent and thought of a terrifying night in the Heian-period Tales of Ise. A Heian classic gave a 16th-century priest the words for an invasion."
+  },
+  {
+   "to": "v1:japan-1945",
+   "note": "The Nanjung Ilgi was first excerpted in print during Japan's colonial rule of Korea (1910–45), and the UNESCO nomination notes that its first modern Korean edition followed only in the 1960s. Japan's 1592 invasion and its 20th-century empire are often remembered together in Korea."
+  },
+  {
+   "to": "v1:nanjing-1937",
+   "note": "Keinen's diary of a Japanese army killing and taking captives on the mainland in 1597 is one of the rare records written from inside the invading force. The Nanjing chapter faces the same problem 340 years later: what soldiers and observers on the invading side chose to write down, and what was left out of print for a long time."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.busan.go.kr/cys_eng/artifacts/799463",
+   "title": "Busanjinsunjeoldo (Fighting at Busanjin Fortress)",
+   "caption": "The fall of Busan on the first day of the war, painted in 1760 as a memorial to the defenders, with the Japanese fleet filling the harbour.",
+   "date": "1760",
+   "credit": "Byeon Bak, commissioned by Dongnae governor Hong Myeong-han; Busan city collection"
+  },
+  {
+   "url": "https://www.worldhistory.org/image/10905",
+   "title": "Defence of Busanjin Fortress",
+   "caption": "Public-domain reproduction of the 18th-century scroll of the Busanjin siege.",
+   "date": "18th century",
+   "credit": "Unknown artist; via World History Encyclopedia (public domain)"
+  },
+  {
+   "url": "https://en.unesco.org/silkroad/silk-road-themes/documentary-heritage/nanjung-ilgi-war-diary-admiral-yi-sun-sin",
+   "title": "Nanjung Ilgi manuscript",
+   "caption": "Yi Sun-sin's autograph war diary, held at Hyeonchungsa Shrine, Asan, and inscribed on UNESCO's Memory of the World register.",
+   "date": "1592–1598",
+   "credit": "Hyeonchungsa Shrine / UNESCO"
+  },
+  {
+   "url": "https://online.bunka.go.jp/heritages/detail/221794",
+   "title": "Hideyoshi's vermilion-seal deployment order for the Keichō campaign",
+   "caption": "A three-metre scroll dated Keichō 2/2/21 (1597) setting out 141,500 men for the second invasion, with the Nabeshima division at 12,000.",
+   "date": "1597",
+   "credit": "Nabeshima Hōkōkai, Chōkōkan, Saga"
+  },
+  {
+   "url": "https://artsandculture.google.com/asset/letter-of-toyotomi-hideyoshi-to-his-wife-o-ne-toyotomi-hideyoshi/TAEQRWKCGzlWwQ",
+   "title": "Autograph letter of Hideyoshi to his wife O-ne",
+   "caption": "A 1592 letter in Hideyoshi's own hand, written while the invasion he had ordered was under way.",
+   "date": "1592",
+   "credit": "Tokugawa Art Museum, Nagoya"
+  }
+ ],
+ "further": [
+  {
+   "title": "UNESCO Memory of the World nomination: Nanjung Ilgi",
+   "url": "https://media.unesco.org/sites/default/files/webform/mow001/republic_of_korea_nanjung_ilgi.pdf"
+  },
+  {
+   "title": "Keinen's poetic diary (excerpts, from Sources of Japanese Tradition)",
+   "url": "https://digfir-published.macmillanusa.com/mckayworld10e/mckayworld10e_ch21_30.html"
+  },
+  {
+   "title": "Hideyoshi's letters and edicts in translation",
+   "url": "https://www1.udel.edu/History-old/figal/Hist138/Text/er/hideyoshi.pdf"
+  },
+  {
+   "title": "Kim Myeong-seop, 'Admiral Yi Sun-sin's naval battle at Myeongnyang', Korean Studies Quarterly 25:3 (2002)",
+   "url": "https://www.accesson.kr/ksq/v.25/3/115/40383?lang=en"
+  },
+  {
+   "title": "Weekly Kyunghyang on Oh Hui-mun's Swaemirok",
+   "url": "https://weekly.khan.co.kr/article/202208261516291"
+  },
+  {
+   "title": "The Book of Corrections (Jingbirok), IEAS edition",
+   "url": "https://ieas.directfrompublisher.com/node/162"
+  },
+  {
+   "title": "Haboush & Robinson, A Korean War Captive in Japan (Kang Hang)",
+   "url": "https://ingramacademic.com/products/a-korean-war-captive-in-japan-15971600-9780231163712"
+  },
+  {
+   "title": "Timeline of the Imjin War",
+   "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Imjin_War"
+  }
+ ],
+ "vantage_key": "0 = commander at the centre or a direct victim (Yi, Kang); 1 = eyewitness inside the campaign (Keinen, Ōkōchi, Tenkei); 2 = near the front or at the head of the state (Ryu, Céspedes); 3 = same country at a distance, by report (Oh, Song); 4 = across the sea, giving orders (Hideyoshi)."
+}

@@ -1,0 +1,1643 @@
+{
+  "id": "airships",
+  "title": "Airships, 1900–1937",
+  "short_title": "Airships",
+  "subtitle": "From LZ 1 over Lake Constance to the Hindenburg at Lakehurst, 1900–1937",
+  "span": "1900–1937",
+  "intro": [
+    "For thirty-seven years the airship was the way to fly far. Count Ferdinand von Zeppelin's first rigid ship lifted off Lake Constance on 2 July 1900 and stayed up for about twenty minutes. A year later a young Brazilian in Paris, Alberto Santos-Dumont, steered a small cigar-shaped balloon around the Eiffel Tower and back against the clock. By 1929 the Graf Zeppelin had circled the globe with paying passengers, a meteorologist, foreign naval officers and a woman reporter aboard. By 1936 the Hindenburg ran a timetable across the North Atlantic. Then on 6 May 1937 it burned at Lakehurst in about half a minute, and the age ended.",
+    "This chapter follows that arc from idea to trial to mastery to loss. Zeppelin's diary entry of 1874 sketches the first idea. Santos-Dumont's own book, My Airships (1904), records his trials and falls in Paris. Brigadier-General Edward Maitland's published log of R34 follows the first east-to-west flight across the Atlantic by air, in July 1919, with a stowaway aboard. Hearst's correspondents Lady Grace Drummond-Hay and Karl von Wiegand radioed dispatches from the Graf Zeppelin over Siberia and the Pacific. A Philadelphia lawyer's private diary of a 1936 Hindenburg crossing shows the ship as its passengers knew it: the catwalk, the smoking room, the slow circle over home.",
+    "The losses are told plainly. LZ 4 burned at Echterdingen in 1908, and a national collection rebuilt Zeppelin's enterprise. R101 struck a hillside near Beauvais in October 1930, and 48 of the 54 people aboard died. The Hindenburg fire killed 36. Two formal inquiries, Sir John Simon's into R101 and the paired American and German inquiries into the Hindenburg, are given here as findings, with the points where they differed. The wartime Zeppelin raids on Britain, Belgium and France from 1915 appear only briefly. Volume I's First World War chapter carries them.",
+    "Much of this record is not diary in the strict sense. It is published logs, wire dispatches, company flight logs, official reports, a radio recording and memoirs written decades later: Hugo Eckener's and Nevil Shute's, the latter from 1954. Each eye's form is tagged honestly. Twentieth-century texts are given as paraphrase only. Short quotations appear only from English texts published before 1929, from United States government reports, or as one world-famous phrase.",
+    "Read side by side, the eyes show the same craft from the inside and from below. There is the commander working out lift against heat and rain, the reporter asking for breakfast on the first morning, the engineer who built the rival ship, the inquiry judge weighing gasbags and down-currents, the passenger at the dining-salon window, and the radio man on the field."
+  ],
+  "calendar_note": "All dates are Gregorian. Times are local as the sources give them. R34's departure and return are in British Summer Time and its Mineola arrival is in US Eastern time, so the elapsed figures quoted (108 h 12 min out, about 75 h back) are the ones published at the time and do not simply subtract. The German Hindenburg report gives the fire at 18:25 Eastern Standard Time, which was 19:25 local daylight time at Lakehurst.",
+  "eyes": [
+    {
+      "id": "zeppelin",
+      "short": "Zeppelin",
+      "name": "Ferdinand Graf von Zeppelin",
+      "life": "1838–1917",
+      "role": "Retired Württemberg cavalry general, aged 62 at LZ 1's first flight; founder of the rigid airship enterprise",
+      "side": "Germany (Württemberg)",
+      "where": "Friedrichshafen and Manzell on Lake Constance; Echterdingen near Stuttgart, 1908",
+      "lat": 47.65,
+      "lon": 9.48,
+      "waypoints": [
+        {
+          "lat": 44.95,
+          "lon": -93.09,
+          "label": "St. Paul, Minnesota: first balloon ascent, 1863"
+        },
+        {
+          "lat": 47.65,
+          "lon": 9.48,
+          "label": "Manzell / Friedrichshafen: LZ 1, 1900"
+        },
+        {
+          "lat": 48.69,
+          "lon": 9.17,
+          "label": "Echterdingen: loss of LZ 4, 1908"
+        }
+      ],
+      "vantage": 0,
+      "vantage_label": "inventor and principal actor",
+      "form": "diary",
+      "language": "German",
+      "authenticity": "Zeppelin kept diaries throughout his life, held in the Zeppelin family and company archives at Friedrichshafen. The 1874 entry on large airships is cited by his biographers. They are mostly unpublished, and they are known here through biographies and secondary accounts, not a full edition.",
+      "bio": "A Württemberg officer who watched the American Civil War as an observer and first went up in a tethered balloon at St. Paul in 1863. He left the army in 1891 to build rigid airships, a project many ridiculed until 1908. He is the founder whose name became the generic word for the craft.",
+      "sources": [
+        {
+          "title": "Harry Vissering, Zeppelin: The Story of a Great Achievement (1922), Project Gutenberg",
+          "url": "https://gutenberg.org/files/32570/32570-h/32570-h.htm"
+        },
+        {
+          "title": "Deutsche Biographie: Zeppelin, Ferdinand Graf von",
+          "url": "https://www.deutsche-biographie.de/sfz107307.html"
+        },
+        {
+          "title": "Star Tribune: Balloon ride over St. Paul fueled Count Zeppelin's dream",
+          "url": "https://www.startribune.com/balloon-ride-over-st-paul-fueled-count-zeppelin-s-dream/505616692"
+        }
+      ]
+    },
+    {
+      "id": "santos-dumont",
+      "short": "Santos-Dumont",
+      "name": "Alberto Santos-Dumont",
+      "life": "1873–1932",
+      "role": "Brazilian aeronaut living in Paris, aged 28 at the Deutsch prize; designer and sole pilot of a numbered series of small airships",
+      "side": "Brazil / France (Paris)",
+      "where": "Paris: the Aéro-Club park at Saint-Cloud, the Bois de Boulogne, the Champs-Élysées",
+      "lat": 48.85,
+      "lon": 2.22,
+      "waypoints": [
+        {
+          "lat": 48.877,
+          "lon": 2.263,
+          "label": "Jardin d'Acclimatation: No. 1, September 1898"
+        },
+        {
+          "lat": 48.862,
+          "lon": 2.288,
+          "label": "Trocadéro hotels: No. 5 falls, August 1901"
+        },
+        {
+          "lat": 48.8584,
+          "lon": 2.2945,
+          "label": "Eiffel Tower: Deutsch prize turn, October 1901"
+        },
+        {
+          "lat": 48.873,
+          "lon": 2.299,
+          "label": "Champs-Élysées / rue Washington: No. 9 lands at his door, June 1903"
+        }
+      ],
+      "vantage": 0,
+      "vantage_label": "inventor-pilot",
+      "form": "memoir (written later)",
+      "language": "English (published edition; written by a Portuguese/French speaker)",
+      "authenticity": "My Airships (London: Grant Richards, 1904) is his own first-person account, written within one to six years of the events. It gives precise dates and clock times, and its letters and illustrations are period material. It is a memoir, not a day-book, but its dated detail is close to a log. Free on Project Gutenberg.",
+      "bio": "The son of a Brazilian coffee planter. He built his first powered airship in 1898 and flew it himself over Paris, often alone and often falling. His airships were small and personal, the opposite of Zeppelin's giants, and he treated the sky over Paris as a street.",
+      "sources": [
+        {
+          "title": "Alberto Santos-Dumont, My Airships (1904), Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/42344"
+        },
+        {
+          "title": "My Airships, HTML edition with illustrations",
+          "url": "https://gutenberg.org/files/42344/42344-h/42344-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "eckener",
+      "short": "Eckener",
+      "name": "Hugo Eckener",
+      "life": "1868–1954",
+      "role": "Journalist turned airship commander; chief of DELAG flight operations, later head of the Zeppelin company and commander of the Graf Zeppelin",
+      "side": "Germany (Zeppelin company)",
+      "where": "Friedrichshafen; the Graf Zeppelin's control car, 1929",
+      "lat": 47.65,
+      "lon": 9.48,
+      "waypoints": [
+        {
+          "lat": 47.65,
+          "lon": 9.48,
+          "label": "Friedrichshafen"
+        },
+        {
+          "lat": 40.03,
+          "lon": -74.35,
+          "label": "Lakehurst, August 1929"
+        },
+        {
+          "lat": 36.03,
+          "lon": 140.2,
+          "label": "Kasumigaura, Japan, 19 August 1929"
+        },
+        {
+          "lat": 33.94,
+          "lon": -118.4,
+          "label": "Los Angeles, 26 August 1929"
+        },
+        {
+          "lat": 40.03,
+          "lon": -74.35,
+          "label": "Lakehurst, 29 August 1929"
+        }
+      ],
+      "vantage": 0,
+      "vantage_label": "commander",
+      "form": "memoir (written later)",
+      "language": "German",
+      "authenticity": "His contemporary record is newspaper reporting for the Frankfurter Zeitung and the ships' logs kept under his command. His narrative account is the memoir Im Zeppelin über Länder und Meere (1949), written after the Second World War. Its recollections of 1900–1937 are retrospective. Sources disagree on whether he reported the 1900 LZ 1 trials or only later ships.",
+      "bio": "A trained psychologist and economist who reported on Zeppelin's early trials as a sceptical journalist and then joined the company around 1908. He became the best long-distance airship commander of his time. He commanded the 1929 world flight, disliked the Nazi regime, and was pushed aside from the company in the Hindenburg years.",
+      "sources": [
+        {
+          "title": "Airship Industry archive: Dr Hugo Eckener biography (PDF)",
+          "url": "https://www.blimpinfo.com/wp-content/uploads/2012/08/Dr-Hugo-Eckener-Bio.pdf"
+        },
+        {
+          "title": "Airships.net: Hindenburg Accident Report, German Investigation Commission",
+          "url": "https://www.airships.net/hindenburg/disaster/german-investigation/"
+        }
+      ]
+    },
+    {
+      "id": "maitland",
+      "short": "Maitland",
+      "name": "Edward Maitland",
+      "life": "1880–1921",
+      "role": "Brigadier-General, RAF; senior officer and Air Ministry representative aboard R34",
+      "side": "Britain (Royal Air Force)",
+      "where": "Aboard R34, East Fortune to Mineola and back to Pulham",
+      "lat": 55.999,
+      "lon": -2.72,
+      "waypoints": [
+        {
+          "lat": 55.999,
+          "lon": -2.72,
+          "label": "East Fortune, 2 July 1919"
+        },
+        {
+          "lat": 47.5,
+          "lon": -52.7,
+          "label": "Newfoundland sighted, 4 July 1919"
+        },
+        {
+          "lat": 40.74,
+          "lon": -73.6,
+          "label": "Mineola, Long Island, 6 July 1919"
+        },
+        {
+          "lat": 52.43,
+          "lon": 1.23,
+          "label": "Pulham, Norfolk, 13 July 1919"
+        }
+      ],
+      "vantage": 1,
+      "vantage_label": "aboard, senior observer",
+      "form": "log",
+      "language": "English",
+      "authenticity": "The Log of H.M.A. R 34: Journey to America and Back (London: Hodder and Stoughton, 1920) is Maitland's personal log of the flight, kept in his hammock and at the chart table and published within a year. English and pre-1929, so short quotation is permitted.",
+      "bio": "A pioneer of parachuting and lighter-than-air flight in the RAF. He flew the crossing as a passenger-officer with time to write, so his log records the crew's moods, the stowaway, and the arguments with headquarters. He died two years later in the R38 disaster over the Humber.",
+      "sources": [
+        {
+          "title": "HistoryNet: R34, a 1919 Atlantic airship exploit (quotes Maitland's log)",
+          "url": "https://historynet.com/r34-a-1919-atlantic-airship-exploit/"
+        },
+        {
+          "title": "Cradle of Aviation Museum: R-34 dirigible",
+          "url": "https://cradleofaviation.org/history/history/historical_events/r-34_dirigible.html"
+        }
+      ]
+    },
+    {
+      "id": "scott",
+      "short": "Scott",
+      "name": "George Herbert Scott",
+      "life": "1888–1930",
+      "role": "Major, RAF; captain of R34 in 1919; later Assistant Director of Airship Development (Flying) at Cardington",
+      "side": "Britain (RAF / Air Ministry)",
+      "where": "R34's control car, 1919; R100 to Canada, 1930; aboard R101, October 1930",
+      "lat": 52.11,
+      "lon": -0.42,
+      "waypoints": [
+        {
+          "lat": 55.999,
+          "lon": -2.72,
+          "label": "East Fortune, July 1919"
+        },
+        {
+          "lat": 40.74,
+          "lon": -73.6,
+          "label": "Mineola, July 1919"
+        },
+        {
+          "lat": 45.52,
+          "lon": -73.42,
+          "label": "St Hubert, Montreal, August 1930"
+        },
+        {
+          "lat": 52.11,
+          "lon": -0.42,
+          "label": "Cardington, 4 October 1930"
+        },
+        {
+          "lat": 49.4,
+          "lon": 2.11,
+          "label": "Allonne, near Beauvais, 5 October 1930"
+        }
+      ],
+      "vantage": 0,
+      "vantage_label": "captain",
+      "form": "log",
+      "language": "English",
+      "authenticity": "Scott's official report on the R34 flight went to the Air Ministry in 1919. His words also survive at second hand in Maitland's log. Later records are official flight logs and evidence given to the R101 inquiry about him. No private diary of his is published.",
+      "bio": "The most experienced British airship captain of his generation. He commanded R34 across the Atlantic and back and made the R100 flight to Canada. He was aboard R101 as the senior flying officer when it was lost, and he died there. His career spans the British programme from triumph to end.",
+      "sources": [
+        {
+          "title": "This Day in Aviation: George Herbert Scott",
+          "url": "https://www.thisdayinaviation.com/tag/george-herbert-scott-cbe-afc/"
+        },
+        {
+          "title": "Grace's Guide: R34",
+          "url": "https://gracesguide.co.uk/R34"
+        }
+      ]
+    },
+    {
+      "id": "drummond-hay",
+      "short": "Drummond-Hay",
+      "name": "Lady Grace Drummond-Hay",
+      "life": "1895–1946",
+      "role": "British journalist, aged 34; Hearst correspondent and the only woman aboard the 1929 world flight",
+      "side": "Britain / Hearst press (USA)",
+      "where": "Aboard the Graf Zeppelin, Lakehurst to Lakehurst",
+      "lat": 40.03,
+      "lon": -74.35,
+      "waypoints": [
+        {
+          "lat": 40.03,
+          "lon": -74.35,
+          "label": "Lakehurst, 7–8 August 1929"
+        },
+        {
+          "lat": 47.65,
+          "lon": 9.48,
+          "label": "Friedrichshafen, 10–15 August"
+        },
+        {
+          "lat": 36.03,
+          "lon": 140.2,
+          "label": "Kasumigaura, 19–23 August"
+        },
+        {
+          "lat": 33.94,
+          "lon": -118.4,
+          "label": "Los Angeles, 26–27 August"
+        },
+        {
+          "lat": 40.03,
+          "lon": -74.35,
+          "label": "Lakehurst, 29 August"
+        }
+      ],
+      "vantage": 1,
+      "vantage_label": "aboard, reporter",
+      "form": "dated dispatches",
+      "language": "English",
+      "authenticity": "Her wireless dispatches were syndicated in Hearst papers in August 1929. Because these are post-1928 publications, they are given here only in paraphrase. Some of her papers are catalogued in archival collections (SNAC record). Lines attributed to her in modern histories are cited second-hand.",
+      "bio": "The widow of a British diplomat. She became the best-known airship journalist of the era and flew on the Graf Zeppelin's first transatlantic flight in 1928 as well as the world flight. Her copy gave newspaper readers the cabin, the meals and the view rather than the engineering.",
+      "sources": [
+        {
+          "title": "SNAC: Drummond-Hay, Grace Marguerite Hay, Lady, 1895–1946",
+          "url": "https://snaccooperative.org/sources/88040500/12166610"
+        },
+        {
+          "title": "Time (1929): Aeronautics, Zeppelin Around the World",
+          "url": "https://time.com/archive/6743284/aeronautics-zeppelin-around-the-world"
+        },
+        {
+          "title": "Airships.net: Passengers and crew of the 1929 world flight",
+          "url": "https://www.airships.net/blog/lz127-graf-zeppelin/graf-zeppelin-weltfahrt"
+        }
+      ]
+    },
+    {
+      "id": "wiegand",
+      "short": "von Wiegand",
+      "name": "Karl von Wiegand",
+      "life": "1874–1961",
+      "role": "German-born American foreign correspondent for Hearst; organiser of the world flight's stopovers",
+      "side": "USA / Hearst press",
+      "where": "Aboard the Graf Zeppelin, Lakehurst to Lakehurst",
+      "lat": 40.03,
+      "lon": -74.35,
+      "waypoints": [
+        {
+          "lat": 40.03,
+          "lon": -74.35,
+          "label": "Lakehurst"
+        },
+        {
+          "lat": 50.07,
+          "lon": -5.71,
+          "label": "Land's End, 9–10 August 1929"
+        },
+        {
+          "lat": 47.65,
+          "lon": 9.48,
+          "label": "Friedrichshafen"
+        },
+        {
+          "lat": 36.03,
+          "lon": 140.2,
+          "label": "Kasumigaura"
+        },
+        {
+          "lat": 40.03,
+          "lon": -74.35,
+          "label": "Lakehurst"
+        }
+      ],
+      "vantage": 1,
+      "vantage_label": "aboard, reporter and organiser",
+      "form": "dated dispatches",
+      "language": "English",
+      "authenticity": "His wireless dispatches were syndicated by Hearst and quoted in the contemporary press, including Time. They are post-1928, so they are paraphrased here.",
+      "bio": "A veteran war correspondent. Time credited him with conceiving the world flight and arranging the Tokyo and Los Angeles stops. He and Drummond-Hay travelled and reported together for years, so their dispatches are a matched pair.",
+      "sources": [
+        {
+          "title": "Time (1929): Aeronautics, Zeppelin Around the World",
+          "url": "https://time.com/archive/6743284/aeronautics-zeppelin-around-the-world"
+        },
+        {
+          "title": "Airships.net: Passengers and crew of the 1929 world flight",
+          "url": "https://www.airships.net/blog/lz127-graf-zeppelin/graf-zeppelin-weltfahrt"
+        }
+      ]
+    },
+    {
+      "id": "shute",
+      "short": "Nevil Shute",
+      "name": "Nevil Shute Norway",
+      "life": "1899–1960",
+      "role": "Engineer (stress calculator, then Deputy Chief Engineer) on the privately built R100 at Howden; later the novelist Nevil Shute",
+      "side": "Britain (Airship Guarantee Company, Vickers)",
+      "where": "Howden, Yorkshire; Cardington; aboard R100 to Canada",
+      "lat": 53.75,
+      "lon": -0.87,
+      "waypoints": [
+        {
+          "lat": 53.75,
+          "lon": -0.87,
+          "label": "Howden: R100 built, first flight 16 December 1929"
+        },
+        {
+          "lat": 52.11,
+          "lon": -0.42,
+          "label": "Cardington"
+        },
+        {
+          "lat": 45.52,
+          "lon": -73.42,
+          "label": "St Hubert, Montreal, 1 August 1930"
+        },
+        {
+          "lat": 52.11,
+          "lon": -0.42,
+          "label": "Cardington, 16 August 1930"
+        }
+      ],
+      "vantage": 1,
+      "vantage_label": "builder of the rival ship",
+      "form": "memoir (written later)",
+      "language": "English",
+      "authenticity": "His account is the memoir Slide Rule (1954), written about twenty-five years after the events. It is strongly partisan for the private R100 and against the state-built R101 and its management. Dates here are fixed from the R100 flight log, not from the memoir.",
+      "bio": "An aeronautical engineer in his twenties who worked under Barnes Wallis on R100 and flew aboard it to Canada. His memoir is the most widely read insider's view of the R100/R101 rivalry. It is also the most combative, so it is given as one position, not a verdict.",
+      "sources": [
+        {
+          "title": "Nevil Shute Norway Foundation: PhotoLine 1921–1930",
+          "url": "https://www.nevilshute.org/PhotoLine/PLD-1921-1930/pl-1921-1930-07.php"
+        },
+        {
+          "title": "Airship Heritage Trust: Flight Log of H.M.A. R.100",
+          "url": "https://airshipsonline.com/airships/r100/R100%20Flight%20Log.htm"
+        }
+      ]
+    },
+    {
+      "id": "simon",
+      "short": "Simon inquiry",
+      "name": "Sir John Simon",
+      "life": "1873–1954",
+      "role": "Lawyer and Liberal politician; chairman of the R101 Court of Inquiry, with assessors J. T. C. Moore-Brabazon and Prof. C. E. Inglis",
+      "side": "Britain (Court of Inquiry)",
+      "where": "London; hearings 28 October to 5 December 1930",
+      "lat": 51.5,
+      "lon": -0.13,
+      "vantage": 3,
+      "vantage_label": "inquiry, after the event",
+      "form": "official report",
+      "language": "English",
+      "authenticity": "Report of the R.101 Inquiry, presented to Parliament in March 1931 (HMSO, Command paper). Unanimous. Crown copyright and post-1928, so it is paraphrased here.",
+      "bio": "A former Home Secretary appointed to find out why R101 fell. His court heard survivors, engineers and meteorologists and commissioned experiments. Its finding was reached by eliminating other causes, which is why later writers have argued over what it left open.",
+      "sources": [
+        {
+          "title": "Report of the R.101 Inquiry (Cranfield University repository)",
+          "url": "https://dspace.lib.cranfield.ac.uk/items/e4677a65-0183-4780-8277-ed992d8ea3ae/full"
+        },
+        {
+          "title": "The Spectator, 11 April 1931: The R101 Report",
+          "url": "https://archive.spectator.co.uk/article/11th-april-1931/3/the-r101-report-the-court-of-inquiry-under-sir"
+        },
+        {
+          "title": "Bedfordshire Archives: Causes of the R101 Disaster",
+          "url": "https://bedsarchives.bedford.gov.uk/CommunityArchives/Shortstown/CausesOfTheR101Disaster.aspx"
+        }
+      ]
+    },
+    {
+      "id": "hall",
+      "short": "C. E. Hall",
+      "name": "Clarence E. Hall",
+      "life": "fl. 1936",
+      "role": "Philadelphia lawyer travelling with his wife Dorothy, returning from the Berlin Olympics",
+      "side": "USA (passenger)",
+      "where": "Aboard LZ 129 Hindenburg, Frankfurt to Lakehurst, 5–8 August 1936",
+      "lat": 39.95,
+      "lon": -75.16,
+      "waypoints": [
+        {
+          "lat": 50.05,
+          "lon": 8.57,
+          "label": "Frankfurt, 5 August 1936"
+        },
+        {
+          "lat": 38.7,
+          "lon": -27.2,
+          "label": "Azores, 6–7 August"
+        },
+        {
+          "lat": 40.03,
+          "lon": -74.35,
+          "label": "Lakehurst, 8 August"
+        }
+      ],
+      "vantage": 1,
+      "vantage_label": "aboard, passenger",
+      "form": "diary",
+      "language": "English",
+      "authenticity": "A private diary, one of many bound volumes kept by Hall. It is reproduced on Airships.net with his family's permission. Written in 1936, so it is paraphrased here. The diary has no dated headings, so days are assigned from the known flight dates.",
+      "bio": "An ordinary well-off passenger in the Hindenburg's first season. He wrote down what the brochures did not: the size of the cabins, the catwalk tour, and the captain taking the ship over his own house. His is the passenger's-eye view of the craft at its height.",
+      "sources": [
+        {
+          "title": "Airships.net: A Flight on the Hindenburg, One Passenger's Account",
+          "url": "https://www.airships.net/hindenburg/flight-schedule/hindenburg-flight-passenger-diary/"
+        }
+      ]
+    },
+    {
+      "id": "mather",
+      "short": "M. Mather",
+      "name": "Margaret Graves Mather",
+      "life": "1878–1969",
+      "role": "American-born resident of Rome, aged 58; passenger on the Hindenburg's last flight",
+      "side": "USA (passenger)",
+      "where": "Aboard the Hindenburg, Frankfurt to Lakehurst, 3–6 May 1937",
+      "lat": 40.03,
+      "lon": -74.35,
+      "waypoints": [
+        {
+          "lat": 41.9,
+          "lon": 12.5,
+          "label": "Rome (home)"
+        },
+        {
+          "lat": 50.05,
+          "lon": 8.57,
+          "label": "Frankfurt, 3 May 1937"
+        },
+        {
+          "lat": 40.03,
+          "lon": -74.35,
+          "label": "Lakehurst, 6 May 1937"
+        }
+      ],
+      "vantage": 0,
+      "vantage_label": "survivor",
+      "form": "memoir (written later)",
+      "language": "English",
+      "authenticity": "Her first-person account, 'I Was on the Hindenburg', appeared in Harper's Magazine, November 1937, six months after the fire. It was written for publication, not as a diary, and it is post-1928, so it is paraphrased here.",
+      "bio": "A patron of artists who had lived in Rome for years. She was crossing to visit her brother, a Princeton art professor. She was in the dining salon when the fire began and walked out with burned hands. Hers is one of the few passenger accounts published that same year.",
+      "sources": [
+        {
+          "title": "Harper's Magazine, November 1937: I Was on the Hindenburg",
+          "url": "https://harpers.org/archive/1937/11/i-was-on-the-hindenburg/"
+        },
+        {
+          "title": "Faces of the Hindenburg: Margaret Mather",
+          "url": "https://facesofthehindenburg.blogspot.com/2008/10/margaret-mather.html"
+        }
+      ]
+    },
+    {
+      "id": "pruss",
+      "short": "Pruss",
+      "name": "Max Pruss",
+      "life": "1891–1960",
+      "role": "Captain of the Deutsche Zeppelin-Reederei; commander of the Hindenburg on its last flight",
+      "side": "Germany (Deutsche Zeppelin-Reederei)",
+      "where": "Hindenburg's control car, Lakehurst",
+      "lat": 40.03,
+      "lon": -74.35,
+      "waypoints": [
+        {
+          "lat": 50.05,
+          "lon": 8.57,
+          "label": "Frankfurt, 3 May 1937"
+        },
+        {
+          "lat": 40.03,
+          "lon": -74.35,
+          "label": "Lakehurst, 6 May 1937"
+        }
+      ],
+      "vantage": 0,
+      "vantage_label": "commander",
+      "form": "log",
+      "language": "German",
+      "authenticity": "His record is the ship's operational log and his testimony to the German commission and the American board. Both reports summarise it. No personal diary of his is published. His later public statements favouring sabotage are known from press interviews.",
+      "bio": "A naval airship man from the First World War who stayed with the Zeppelin line and rose to captain. He was in command when the ship burned, and he survived with severe burns. He spent the rest of his life arguing that rigid airships could fly again.",
+      "sources": [
+        {
+          "title": "Airships.net: German Investigation Commission report",
+          "url": "https://www.airships.net/hindenburg/disaster/german-investigation/"
+        },
+        {
+          "title": "Bureau of Air Commerce, A Comparative Digest of the German and American Reports of the Hindenburg Accident (1938), ROSA P",
+          "url": "https://rosap.ntl.bts.gov/view/dot/81236/dot_81236_DS1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "morrison",
+      "short": "Morrison",
+      "name": "Herbert Morrison",
+      "life": "1905–1989",
+      "role": "Radio announcer for WLS Chicago, recording on disc with engineer Charles Nehlsen",
+      "side": "USA (radio)",
+      "where": "On the landing field at Lakehurst Naval Air Station",
+      "lat": 40.03,
+      "lon": -74.35,
+      "vantage": 1,
+      "vantage_label": "on the field, broadcaster",
+      "form": "recording",
+      "language": "English",
+      "authenticity": "The recording was made on acetate discs and is preserved. Only its most famous phrase is quoted here.",
+      "bio": "Sent to Lakehurst to record a routine arrival for later broadcast. He kept speaking as the ship burned, and his recording became the sound of the disaster.",
+      "sources": [
+        {
+          "title": "Smithsonian Magazine: a firsthand account of the Hindenburg disaster",
+          "url": "https://www.smithsonianmag.com/history/document-deep-dive-a-firsthand-account-of-the-hindenburg-disaster-79086828/"
+        }
+      ]
+    },
+    {
+      "id": "trimble",
+      "short": "US Commerce bd",
+      "name": "South Trimble Jr. (US Department of Commerce accident board)",
+      "life": "fl. 1937",
+      "role": "Solicitor of the Department of Commerce; chairman of the board investigating the Hindenburg, with R. W. Schroeder and Denis Mulligan of the Bureau of Air Commerce",
+      "side": "USA (Department of Commerce)",
+      "where": "Hearings at Lakehurst; report in Washington",
+      "lat": 38.9,
+      "lon": -77.03,
+      "waypoints": [
+        {
+          "lat": 40.03,
+          "lon": -74.35,
+          "label": "Lakehurst hearings, May 1937"
+        },
+        {
+          "lat": 38.9,
+          "lon": -77.03,
+          "label": "Washington: report, 21 July 1937"
+        }
+      ],
+      "vantage": 3,
+      "vantage_label": "inquiry, after the event",
+      "form": "official report",
+      "language": "English",
+      "authenticity": "The board's report to the Secretary of Commerce is dated 21 July 1937. It was set beside the German report in the Bureau of Air Commerce Safety Division Bulletin No. 11 (August 1938). A US-government work, so it may be quoted within twelve words.",
+      "bio": "The American board heard crew, passengers, ground crew and engineers at Lakehurst within days of the fire. Its report is the main American finding, and it differs from the German commission on the most likely spark.",
+      "sources": [
+        {
+          "title": "A Comparative Digest of the German and American Reports of the Hindenburg Accident (1938), ROSA P",
+          "url": "https://rosap.ntl.bts.gov/view/dot/81236/dot_81236_DS1.pdf"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "date_iso": "1863-08-19",
+      "date_display": "19 August 1863",
+      "precision": "day",
+      "eye": "zeppelin",
+      "place": "St. Paul, Minnesota",
+      "headline": "A Prussian-style officer's first look down from a balloon",
+      "digest": "On leave as a foreign observer of the American Civil War, the 25-year-old Württemberg cavalry officer went up over St. Paul in a tethered gas balloon belonging to the aeronaut John Steiner. He saw at once how far an observer could see. He also saw how helpless a balloon was against the wind, and the problem of steering stayed with him for the rest of his life.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "Date from Zeppelin biographies (Deutsche Biographie; Wikipedia summary); Star Tribune account of the ascent."
+    },
+    {
+      "date_iso": "1874-03-25",
+      "date_display": "25 March 1874",
+      "precision": "day",
+      "eye": "zeppelin",
+      "place": "Württemberg",
+      "headline": "A diary page imagines a ship the size of a liner",
+      "digest": "After reading a lecture on world postal communications, Zeppelin set down in his diary the idea of a large, steerable airship. It would have a rigid frame divided into separate gas cells, and it would be big enough to carry people and goods over long distances. He was a serving officer and did nothing practical with the idea for years. The entry is the earliest dated trace of the design that would carry his name.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "Diary entry of 25 March 1874, cited in Zeppelin biographies; Vissering (1922)."
+    },
+    {
+      "date_iso": "1898-09-20",
+      "date_display": "Tuesday 20 September 1898",
+      "precision": "day",
+      "eye": "santos-dumont",
+      "place": "Jardin d'Acclimatation and Bagatelle, Paris",
+      "headline": "No. 1 climbs to 400 metres, then folds up",
+      "digest": "Two days after a first attempt drove his small airship into the trees, Santos-Dumont started again from a spot of his own choosing and rose to about 400 metres. Coming down, the hydrogen contracted, the envelope began to double up, and the ship fell. He called to boys flying kites on the lawns at Bagatelle to seize his trailing guide rope and run into the wind, and their pull softened his landing.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "Santos-Dumont, My Airships (1904), chapter on 'No. 1', Project Gutenberg 42344."
+    },
+    {
+      "date_iso": "1900-07-02",
+      "date_display": "Monday 2 July 1900, evening",
+      "precision": "day",
+      "eye": "zeppelin",
+      "place": "Manzell, Lake Constance",
+      "headline": "LZ 1 rises from its floating shed for twenty minutes",
+      "digest": "Before a crowd on the shore and on boats, LZ 1 was drawn out of its floating hangar on the lake and rose with five men aboard, Zeppelin among them. It stayed up for about seventeen to twenty minutes. The sliding weight that was meant to trim the ship jammed, and one of its two Daimler engines failed. The wind pushed it to an awkward landing on the water. It flew, but it could hardly be steered, and investors were not convinced.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "LZ 1 histories (Zeppelin Museum, Vissering 1922). Duration given as about 17–20 minutes in different sources."
+    },
+    {
+      "date_iso": "1900-10",
+      "date_display": "October 1900",
+      "precision": "month",
+      "eye": "eckener",
+      "place": "Friedrichshafen",
+      "headline": "A sceptical newspaperman watches the trial flights",
+      "digest": "LZ 1 made two more flights, on 17 and 24 October, and was somewhat faster than the French army airship. Eckener, a writer for the Frankfurter Zeitung, judged the ship too slow to be of real use, though he respected the old Count's persistence. Within weeks the company's money ran out and the ship was broken up.",
+      "quote": "",
+      "confidence": "approx",
+      "source_note": "October flight dates from LZ 1 histories. Eckener's role as reporter of the early trials comes from Eckener biographies (blimpinfo PDF), which disagree on whether he covered LZ 1 in 1900 or only later ships."
+    },
+    {
+      "date_iso": "1901-08-08",
+      "date_display": "Thursday 8 August 1901",
+      "precision": "day",
+      "eye": "santos-dumont",
+      "place": "Trocadéro, Paris",
+      "headline": "No. 5 deflates and lands on a hotel roof",
+      "digest": "Racing for the Deutsch prize, he pressed on toward the Eiffel Tower even though a weakened valve spring was letting hydrogen escape. The envelope sagged until the propeller cut suspension wires. He stopped the motor, and the ship came down on the roofs of the Trocadéro hotels and burst. He was left hanging in his basket on the wreck of the keel in a courtyard until firemen from Passy brought him down.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "My Airships (1904), chapter on 'No. 5' and the accident."
+    },
+    {
+      "date_iso": "1901-10-19",
+      "date_display": "Saturday 19 October 1901, 2:42–3:11 p.m.",
+      "precision": "day",
+      "eye": "santos-dumont",
+      "place": "Saint-Cloud – Eiffel Tower – Saint-Cloud",
+      "headline": "Round the Eiffel Tower and back for the Deutsch prize",
+      "digest": "No. 6 left the Aéro-Club ground at Saint-Cloud at 2:42 and rounded the Tower at 2:51. On the return the motor faltered over the Bois de Boulogne and then ran at full speed again over Auteuil, tipping the ship steeply nose-up while the crowd below cried out. He crossed the line at 3:11:30, twenty-nine and a half minutes after starting. The committee argued about whether the clock should stop at the crossing or when the guide rope was taken, and only later awarded him the prize. He kept none of it: 75,000 francs went to the Prefect of Police for the poor of Paris and the rest to his longest-serving mechanics.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "My Airships (1904), Deutsch prize chapter: start 2:42, turn 2:51, finish 3:11:30; official time 30 min 40 s argued by some members."
+    },
+    {
+      "date_iso": "1903-06-23",
+      "date_display": "Tuesday 23 June 1903",
+      "precision": "day",
+      "eye": "santos-dumont",
+      "place": "Avenue des Champs-Élysées at rue Washington, Paris",
+      "headline": "Parking an airship at his own front door",
+      "digest": "In the little No. 9, his 'runabout', he flew from Neuilly along the avenues and came down outside his flat at the corner of the Champs-Élysées and the rue Washington. Two servants caught the guide rope and held the ship while he went upstairs for coffee, and then he flew home. He used the moment to argue that a small airship could be handled like a motor car.",
+      "quote": "with no greater danger than one risks in any racing automobile",
+      "confidence": "verified",
+      "source_note": "My Airships (1904), chapter on No. 9. The quoted phrase is his general claim about No. 9's safety, from the same chapter."
+    },
+    {
+      "date_iso": "1903-07-14",
+      "date_display": "Tuesday 14 July 1903",
+      "precision": "day",
+      "eye": "santos-dumont",
+      "place": "Longchamp, Paris",
+      "headline": "A salute from the air over the Bastille Day review",
+      "digest": "He brought No. 9 over the troops drawn up for the national review at Longchamp and, opposite the President, fired a salute of twenty-one blank revolver cartridges. He kept the display under ten minutes so as not to disrupt the parade. Five days later the War Minister wrote that the airship might give real service in wartime. Santos-Dumont offered his fleet to France, except against the nations of the Americas.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "My Airships (1904), military review chapter; General André's letter of 19 July 1903 reproduced there."
+    },
+    {
+      "date_iso": "1908-07-01",
+      "date_display": "Wednesday 1 July 1908",
+      "precision": "day",
+      "eye": "zeppelin",
+      "place": "Over Switzerland, from Lake Constance",
+      "headline": "LZ 4 flies twelve hours over the Alps' foothills",
+      "digest": "The new LZ 4 made a twelve-hour flight across northern Switzerland, by way of Lucerne and Zurich, and came back to Lake Constance. It was a record for an airship, and crowds turned out in the towns below. The government had promised to buy the ship if it could stay up for twenty-four hours, and this flight made that test look possible.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "Airships.net, 'Today in History: the crash of LZ-4 and the Miracle at Echterdingen'."
+    },
+    {
+      "date_iso": "1908-08-05",
+      "date_display": "Wednesday 5 August 1908",
+      "precision": "day",
+      "eye": "zeppelin",
+      "place": "Echterdingen, near Stuttgart",
+      "headline": "A storm tears LZ 4 loose and it burns",
+      "digest": "More engine trouble brought LZ 4 down in a field at Echterdingen so that Daimler mechanics could work on it. That afternoon a squall tore the ship from its makeshift mooring. It was carried off and caught fire, and only twisted framework was left. Zeppelin, who had gone to rest in the village, came back to the wreck, aged seventy and with everything apparently lost.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "Airships.net Echterdingen article; aviation-safety.net record of the LZ 4 loss, 5 August 1908."
+    },
+    {
+      "date_iso": "1908-08-05",
+      "date_display": "5 August 1908 and after",
+      "precision": "day",
+      "eye": "eckener",
+      "place": "Echterdingen / Friedrichshafen",
+      "headline": "The 'Miracle of Echterdingen' wins over a sceptic",
+      "digest": "Spectators at the wreck began collecting money on the spot, and within weeks gifts from across Germany came to about six million marks. That paid for the Luftschiffbau Zeppelin company and the Zeppelin Foundation. In his memoir Eckener presents this wave of public feeling as the turning point for the enterprise and for his own decision to throw in his lot with the Count.",
+      "quote": "",
+      "confidence": "approx",
+      "source_note": "Six million marks from Airships.net and Zeppelin biographies. Eckener's reflection is from his 1949 memoir (retrospective)."
+    },
+    {
+      "date_iso": "1911",
+      "date_display": "1911",
+      "precision": "year",
+      "eye": "eckener",
+      "place": "Baden-Baden, Düsseldorf, Friedrichshafen",
+      "headline": "Learning to fly passengers: DELAG's Schwaben",
+      "digest": "DELAG, the airship passenger company founded in November 1909, lost its first ships to weather and handling. Eckener earned his airship licence and made himself into a careful weather pilot. With LZ 10 Schwaben in 1911 the company began a run of sightseeing flights between German cities. By 1914 DELAG had flown tens of thousands of passengers without a fatal accident.",
+      "quote": "",
+      "confidence": "approx",
+      "source_note": "Eckener biography (blimpinfo PDF): licence by 1911. DELAG totals vary by source (about 34,000–37,250 people on over 1,500 flights)."
+    },
+    {
+      "date_iso": "1915",
+      "date_display": "1915",
+      "precision": "year",
+      "eye": "eckener",
+      "place": "Germany",
+      "headline": "Passenger pilots become trainers of naval raiders",
+      "digest": "With the war, the Zeppelin works built for the army and navy, and Eckener trained naval airship crews. From January 1915 naval and army Zeppelins bombed towns in Britain, as well as targets in France and Belgium, at night. Over the whole war the airship raids killed several hundred people in Britain, and a large share of the airship crews were also killed. Zeppelin himself died in March 1917, before the war ended.",
+      "quote": "",
+      "confidence": "approx",
+      "source_note": "Eckener's training role from Eckener biographies. The raid toll (about 550 killed in Britain) is a standard figure, not re-verified here. See Volume I, First World War."
+    },
+    {
+      "date_iso": "1919-07-02",
+      "date_display": "Wednesday 2 July 1919, 1:42 a.m.",
+      "precision": "day",
+      "eye": "maitland",
+      "place": "East Fortune, East Lothian",
+      "headline": "R34 is walked out and starts west",
+      "digest": "In the early hours the ground crew held R34 at the shed door until the captain gave the order. The engines started at 1:42, and the ship climbed slowly, heavy with fuel, over the Firth of Forth and out across Scotland toward the Atlantic. Maitland settled into a hammock among the girders to keep his log.",
+      "quote": "Walk her out!",
+      "confidence": "verified",
+      "source_note": "Maitland, The Log of H.M.A. R 34 (1920), as quoted in HistoryNet, 'R34: a 1919 Atlantic airship exploit'."
+    },
+    {
+      "date_iso": "1919-07-02",
+      "date_display": "2 July 1919",
+      "precision": "day",
+      "eye": "scott",
+      "place": "Aboard R34, over the North Atlantic",
+      "headline": "A stowaway is found on a girder",
+      "digest": "Hours into the flight a crewman found William Ballantyne, a 22-year-old rigger who had been left off the crew list, hiding on a girder between gasbags 6 and 7. Scott came to Maitland's hammock with the news. With only ocean below, putting him off was impossible, so Ballantyne was set to work cooking and pumping oil for the rest of the crossing.",
+      "quote": "",
+      "confidence": "approx",
+      "source_note": "Maitland's log (1920), via HistoryNet. Exact hour of discovery not given; generally placed on the first day."
+    },
+    {
+      "date_iso": "1919-07-02",
+      "date_display": "2 July 1919",
+      "precision": "day",
+      "eye": "maitland",
+      "place": "Aboard R34",
+      "headline": "Sympathy for the stowaway, with a hard edge",
+      "digest": "Maitland wrote that he could not help understanding why the young man had stowed away. He added that if there had been land below instead of sea, Ballantyne would have been dropped off at once by parachute. The extra weight mattered on a ship whose fuel margin would turn out to be very thin.",
+      "quote": "cannot help sympathizing with his motive",
+      "confidence": "approx",
+      "source_note": "Maitland, Log of H.M.A. R 34 (1920), via HistoryNet."
+    },
+    {
+      "date_iso": "1919-07-04",
+      "date_display": "Friday 4 July 1919, 12:50 p.m.",
+      "precision": "day",
+      "eye": "maitland",
+      "place": "Off Newfoundland",
+      "headline": "Land after two days of fog and sea",
+      "digest": "After long hours in cloud, fog and headwinds, the islands off Newfoundland came into view a little before one in the afternoon. Maitland called it the high point of the voyage. But the headwinds had eaten into the fuel, and the ship still had a long way down the coast to go.",
+      "quote": "the most thrilling moment of our voyage",
+      "confidence": "verified",
+      "source_note": "Maitland, Log (1920), via HistoryNet."
+    },
+    {
+      "date_iso": "1919-07-06",
+      "date_display": "Sunday 6 July 1919, 9:50 a.m. (US Eastern)",
+      "precision": "day",
+      "eye": "maitland",
+      "place": "Roosevelt Field, Mineola, Long Island",
+      "headline": "First airship across the Atlantic lands on Long Island",
+      "digest": "R34 was sighted over Long Island at about nine. Because none of the American ground crew had handled a rigid airship, Major E. M. Pritchard dropped by parachute to direct the landing, the first man to arrive in America by air from Europe. The ship was down at 9:50, 108 hours and 12 minutes after leaving Scotland, with only about 140 gallons of fuel left.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "HistoryNet (from Maitland's log); Cradle of Aviation Museum, R-34 page."
+    },
+    {
+      "date_iso": "1919-07-06",
+      "date_display": "6 July 1919",
+      "precision": "day",
+      "eye": "scott",
+      "place": "Mineola",
+      "headline": "The captain's arithmetic: barely enough fuel",
+      "digest": "Scott's report recorded how near a thing it had been. Headwinds over the ocean and off Nova Scotia had forced him to ask for help to be ready in case R34 had to be towed in by sea. The ship arrived with less than two hours of fuel. The crossing proved that an airship could make the east-to-west passage, but with almost no margin.",
+      "quote": "",
+      "confidence": "approx",
+      "source_note": "Scott's report to the Air Ministry, summarised in R34 histories (This Day in Aviation; Grace's Guide). Wording of the report not seen directly."
+    },
+    {
+      "date_iso": "1919-07-13",
+      "date_display": "Sunday 13 July 1919, 6:57 a.m.",
+      "precision": "day",
+      "eye": "maitland",
+      "place": "Pulham, Norfolk",
+      "headline": "Home: the first double crossing of the Atlantic by air",
+      "digest": "R34 landed at Pulham early on a Sunday morning, about three days after leaving Long Island, to a small crowd of servicemen, not the expected welcome. In eleven days it had become the first aircraft to cross the Atlantic in both directions. Maitland's log closes the voyage there, and he had it in print the next year.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "HistoryNet (Maitland's log). Return time usually given as 75 h 3 min; the timestamps above reconcile only roughly once time zones are allowed for."
+    },
+    {
+      "date_iso": "1929-08-08",
+      "date_display": "Night of 7–8 August 1929",
+      "precision": "day",
+      "eye": "drummond-hay",
+      "place": "Lakehurst, New Jersey, and over New York",
+      "headline": "Starting the world flight over a lit-up Manhattan",
+      "digest": "The Graf Zeppelin left Lakehurst around midnight, and the clock for the circumnavigation started. Drummond-Hay, the only woman aboard, had insisted on a cabin to herself. Her first dispatch described New York at night from the air as a spread of silver and gold light, written for readers who had never seen a city from above.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "Time, 'Aeronautics: Zeppelin Around the World' (August 1929), quoting her departure dispatch."
+    },
+    {
+      "date_iso": "1929-08-08",
+      "date_display": "8 August 1929",
+      "precision": "day",
+      "eye": "wiegand",
+      "place": "Aboard the Graf Zeppelin, over the Atlantic",
+      "headline": "The commander bent over a chart at breakfast",
+      "digest": "Wiegand, who had pressed for the flight and lined up the Tokyo and Los Angeles stops, reported Eckener in good spirits and apparently unconcerned, studying a chart spread on the dining-room table. Before dawn he had run onto the bridge in his pyjamas, sure that something was happening. Drummond-Hay was first up that morning, announcing she was hungry.",
+      "quote": "",
+      "confidence": "approx",
+      "source_note": "Time (August 1929) quoting Wiegand's dispatches. Day assigned from the 'first morning' and 'second day' references."
+    },
+    {
+      "date_iso": "1929-08-10",
+      "date_display": "9–10 August 1929",
+      "precision": "range",
+      "eye": "wiegand",
+      "place": "Over Land's End, then Friedrichshafen",
+      "headline": "Land's End, then home to Lake Constance",
+      "digest": "About forty-two and a half hours out of Lakehurst the ship crossed the coast at Land's End, and Wiegand radioed that the Atlantic was behind them. It crossed England and passed over Paris in the morning. It landed at Friedrichshafen shortly after noon, 55 hours after leaving New Jersey, to refuel for the long leg across Asia.",
+      "quote": "",
+      "confidence": "approx",
+      "source_note": "Time (August 1929): 42 h 42 min to Land's End, 55 h to Friedrichshafen. Calendar days derived from the midnight departure."
+    },
+    {
+      "date_iso": "1929-08-19",
+      "date_display": "Monday 19 August 1929",
+      "precision": "day",
+      "eye": "eckener",
+      "place": "Kasumigaura Naval Air Station, near Tokyo",
+      "headline": "Friedrichshafen to Tokyo nonstop: 101 hours",
+      "digest": "The ship landed at Kasumigaura after about 101 hours 49 minutes in the air and some 11,000 kilometres without a stop, the longest nonstop airship flight to that date. A crowd reported at a quarter of a million came to see it. The crew then had to fit the ship into a hangar taken from Germany as war reparations.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "WorldHistory.org (6,980 miles; about 250,000 spectators); migflug (101 h 49 min, from Airships.net)."
+    },
+    {
+      "date_iso": "1929-08-19",
+      "date_display": "19 August 1929",
+      "precision": "day",
+      "eye": "drummond-hay",
+      "place": "Kasumigaura / Tokyo",
+      "headline": "A reporter's welcome in Japan",
+      "digest": "Drummond-Hay's dispatches from Japan told readers about the crowds, the receptions and the long days crossing Asia rather than the navigation. Modern historians attribute to her a line from the flight saying the ship had a soul and was more than metal and fabric. That line is known only second-hand.",
+      "quote": "",
+      "confidence": "approx",
+      "source_note": "General content of her Tokyo dispatches from contemporary press summaries. The 'soul' line is cited via Rick Archbold in the migflug article; original dispatch not seen."
+    },
+    {
+      "date_iso": "1929-08-26",
+      "date_display": "26–27 August 1929",
+      "precision": "range",
+      "eye": "eckener",
+      "place": "Mines Field, Los Angeles",
+      "headline": "Too heavy in the heat: clearing the wires",
+      "digest": "After the first nonstop airship crossing of the Pacific, by way of San Francisco, the ship landed at Los Angeles. In the warm air the hydrogen had expanded and vented, and the ship was too heavy to lift easily. Eckener had ballast, fuel and some crew sent ahead by other means. He took off at night in a steep run, and newspapers reported that the tail cleared power lines by a few feet.",
+      "quote": "",
+      "confidence": "approx",
+      "source_note": "WorldHistory.org and migflug articles (power-line clearance from local newspapers of the time)."
+    },
+    {
+      "date_iso": "1929-08-29",
+      "date_display": "Thursday 29 August 1929",
+      "precision": "day",
+      "eye": "drummond-hay",
+      "place": "Lakehurst",
+      "headline": "Back at Lakehurst after twenty-one days",
+      "digest": "The ship landed at Lakehurst after crossing the United States from Los Angeles. For the Lakehurst passengers the round trip had taken 21 days, 5 hours and 31 minutes, about 12 days of it in the air. Drummond-Hay came home as the first woman to travel round the world by air.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "Elapsed time 21 d 5 h 31 min and about 33,000 km from migflug; arrival date from WorldHistory.org."
+    },
+    {
+      "date_iso": "1929-12-16",
+      "date_display": "Monday 16 December 1929",
+      "precision": "day",
+      "eye": "shute",
+      "place": "Howden, Yorkshire – Cardington",
+      "headline": "R100 flies at last, and leaves Howden for good",
+      "digest": "The privately built R100 made its first flight, five hours and 47 minutes from Howden by way of York to the government station at Cardington, about 130 miles. For the engineers who had calculated every girder it was a vindication. The rival, the state-built R101, had already flown in October.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "Airship Heritage Trust, Flight Log of H.M.A. R.100, Flight 1. Shute's feelings from Slide Rule (1954), retrospective."
+    },
+    {
+      "date_iso": "1930-07-29",
+      "date_display": "Tuesday 29 July 1930, 2:48 a.m.",
+      "precision": "day",
+      "eye": "shute",
+      "place": "Cardington – Atlantic",
+      "headline": "R100 sets out for Canada",
+      "digest": "R100 left Cardington before three in the morning on the outbound proving flight to Canada, with Shute aboard as one of its engineers and Major Scott flying in charge of the operation. Over the St Lawrence the ship ran into squalls that tore fabric on its fins, and the crew made repairs in the air. It reached Montreal 78 hours 49 minutes and some 3,364 miles after leaving England.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "R100 flight log (Flight 8). Nevil Shute Norway Foundation PhotoLine. The fin damage is a standard detail of the flight, not in the log."
+    },
+    {
+      "date_iso": "1930-08-01",
+      "date_display": "Friday 1 August 1930, 5:37 a.m.",
+      "precision": "day",
+      "eye": "scott",
+      "place": "St Hubert, Montreal",
+      "headline": "Moored at Montreal before huge crowds",
+      "digest": "R100 moored to the mast at St Hubert, and for twelve days great crowds drove out to see it. It also made a flight over Ottawa, Toronto and Niagara. For Scott, eleven years after R34, it was proof that the British airship programme could reach the Dominions.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "R100 flight log (arrival 1 August 05:37). Nevil Shute Norway Foundation (Scott aboard)."
+    },
+    {
+      "date_iso": "1930-08-16",
+      "date_display": "Saturday 16 August 1930",
+      "precision": "day",
+      "eye": "shute",
+      "place": "Cardington",
+      "headline": "R100 home in 58 hours, then never flies again",
+      "digest": "R100 left Montreal on the evening of 13 August and landed at Cardington on 16 August after 57 hours 56 minutes. It was put back in its shed to wait for R101's flight to India. It never flew again.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "R100 flight log (Flight 10); Nevil Shute Norway Foundation PhotoLine."
+    },
+    {
+      "date_iso": "1930-10-04",
+      "date_display": "Saturday 4 October 1930, evening",
+      "precision": "day",
+      "eye": "scott",
+      "place": "Cardington",
+      "headline": "R101 leaves for India with the Air Minister aboard",
+      "digest": "R101 had been lengthened with an extra gas bay and had made only a short trial in its new form. It slipped from the Cardington mast in the early evening, bound for Karachi by way of Egypt, carrying the Secretary of State for Air, Lord Thomson, and the head of civil aviation, Sir Sefton Brancker. Scott was aboard as the senior flying officer. The weather over the Channel and France was worsening.",
+      "quote": "",
+      "confidence": "approx",
+      "source_note": "R101 histories and the Bedfordshire Archives page (Thomson; curtailed trials). Departure time usually given as about 18:36."
+    },
+    {
+      "date_iso": "1930-10-05",
+      "date_display": "Sunday 5 October 1930, about 2:09 a.m.",
+      "precision": "day",
+      "eye": "scott",
+      "place": "Allonne, near Beauvais, France",
+      "headline": "R101 noses down into a hillside and burns",
+      "digest": "Flying low into a strong wind over northern France, R101 went into a dive, recovered briefly, dived again, struck the ground at low speed near Allonne and caught fire. Of the 54 people aboard, 48 died, including Lord Thomson, Brancker, Scott and most of the ship's designers. The six survivors were mostly engineers and crewmen in the engine cars and the stern.",
+      "quote": "",
+      "confidence": "approx",
+      "source_note": "R101 histories (This Day in Aviation, 5 October 1930; Bedfordshire Archives). Time of impact usually given as about 02:09; 48 dead includes two who died later in hospital."
+    },
+    {
+      "date_iso": "1930-10-05",
+      "date_display": "5 October 1930 and following days",
+      "precision": "range",
+      "eye": "shute",
+      "place": "Howden / London",
+      "headline": "The rival ship is gone, and so is the programme",
+      "digest": "News of the crash reached the R100 team that Sunday. Shute later waited in London among huge crowds to see the coffins pass, and he noted bitterly that the R100 staff were not invited to the funeral. On 1 November he and his colleagues were given a month's notice. In his memoir, written a quarter-century later, he blamed the political rush and the official management of R101, a view that remains disputed.",
+      "quote": "",
+      "confidence": "approx",
+      "source_note": "Nevil Shute Norway Foundation PhotoLine (crowds, funeral, 1 November notice); Slide Rule (1954) for his later judgment."
+    },
+    {
+      "date_iso": "1930-10-28",
+      "date_display": "Tuesday 28 October 1930",
+      "precision": "day",
+      "eye": "simon",
+      "place": "London",
+      "headline": "The Court of Inquiry opens",
+      "digest": "Sir John Simon's court, with Moore-Brabazon and Professor Inglis as assessors, began public hearings that ran until 5 December. It heard the survivors, the meteorologists, the Cardington engineers and the testing staff. It also commissioned wind-tunnel and structural experiments at the National Physical Laboratory to test theories of the final dive.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "Bedfordshire Archives, 'Causes of the R101 Disaster' (hearings 28 October–5 December 1930)."
+    },
+    {
+      "date_iso": "1931-03",
+      "date_display": "March 1931 (published early April)",
+      "precision": "month",
+      "eye": "simon",
+      "place": "London",
+      "headline": "Finding: sudden gas loss forward and a down-current",
+      "digest": "The unanimous report concluded that the most probable cause was a sudden loss of gas in one or more forward gasbags in rough, bumpy weather, combined with a strong downward gust. That put the nose down beyond recovery at low height. The court reached this by ruling out other explanations, and it could not say exactly how the gas was lost. It noted the pressure to fly before trials were complete. Later critics argued for a torn forward bag or other causes the report had treated more generally.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "Report of the R.101 Inquiry (Cranfield repository, dated 1931-03); The Spectator, 11 April 1931; Bedfordshire Archives (Maurice Dean's later critique)."
+    },
+    {
+      "date_iso": "1936-03-26",
+      "date_display": "26 March 1936",
+      "precision": "day",
+      "eye": "eckener",
+      "place": "Löwental, Friedrichshafen",
+      "headline": "A propaganda flight damages the new ship",
+      "digest": "The new LZ 129 Hindenburg, first flown on 4 March, was ordered on a propaganda tour of Germany together with the Graf Zeppelin before the Rhineland plebiscite. A takeoff in gusty wind damaged its tail. Eckener publicly rebuked the risk, and the Propaganda Ministry then ordered that his name no longer appear in the press. The ship he had pushed for years now flew under a regime he disliked.",
+      "quote": "",
+      "confidence": "approx",
+      "source_note": "Standard Hindenburg histories (Airships.net). Exact day of the damaged takeoff and the press ban not re-verified here."
+    },
+    {
+      "date_iso": "1936-05-09",
+      "date_display": "6–9 May 1936",
+      "precision": "range",
+      "eye": "pruss",
+      "place": "Friedrichshafen – Lakehurst",
+      "headline": "The first scheduled crossing to North America",
+      "digest": "The Hindenburg opened its North Atlantic service with a flight from Friedrichshafen to Lakehurst of just over 61 hours. Pruss was one of the line's senior officers under Captain Ernst Lehmann. That season the ship made ten round trips to the United States as well as flights to Brazil, and its crossings became routine for passengers who could afford the fare.",
+      "quote": "",
+      "confidence": "approx",
+      "source_note": "Defensemaster, 'The Hindenburg's First Season – 1936' (61 h; ten US round trips). Pruss's exact post on this flight is not confirmed."
+    },
+    {
+      "date_iso": "1936-08-05",
+      "date_display": "Wednesday 5 August 1936",
+      "precision": "day",
+      "eye": "hall",
+      "place": "Frankfurt",
+      "headline": "Boarding: cameras and lighters handed in",
+      "digest": "The Halls boarded at Frankfurt at about eight in the evening. Stewards took passengers' cameras until the ship was out of sight of land and held every lighter for the whole flight. Hall measured his cabin at about five feet by eight and described the dining salon, the lounge with its aluminium piano, and the sealed smoking room. The ship rose gently to about 700 feet, and everyone was in bed by ten.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "Clarence E. Hall diary, Airships.net 'A Flight on the Hindenburg: One Passenger's Account' (day assigned from flight dates)."
+    },
+    {
+      "date_iso": "1936-08-06",
+      "date_display": "Thursday 6 August 1936",
+      "precision": "day",
+      "eye": "hall",
+      "place": "Over the eastern Atlantic toward the Azores",
+      "headline": "A walk along the catwalk and a visit to the bridge",
+      "digest": "After breakfast at about 1,000 feet, Hall toured the keel catwalk between the gas cells and visited the control car, where he was told the ship was making about 75 miles an hour through the air. Captain Lehmann explained that an airship could pick its weather by choosing its route, and he took the southern track by the Azores. Hall noted the long, many-course meals and the smoking room as the ship's social centre.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "Hall diary, Airships.net."
+    },
+    {
+      "date_iso": "1936-08-08",
+      "date_display": "Saturday 8 August 1936",
+      "precision": "day",
+      "eye": "hall",
+      "place": "Nova Scotia – Philadelphia – Lakehurst",
+      "headline": "Too gusty to land, so the captain flies over his house",
+      "digest": "Hall saw the lights of Nova Scotia at four in the morning and Cape Cod by eight. Lakehurst was reached around eleven, but gusty winds made a landing unsafe, so the ship cruised for hours over Atlantic City, Cape May, Washington and Baltimore. Lehmann invited the Halls into the control car, and Hall guided the ship over Philadelphia, his office and his own home. They landed at about seven in the evening.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "Hall diary, Airships.net."
+    },
+    {
+      "date_iso": "1937-05-03",
+      "date_display": "Monday 3 May 1937, evening",
+      "precision": "day",
+      "eye": "mather",
+      "place": "Frankfurt am Main",
+      "headline": "Fined for excess baggage, then a window cabin",
+      "digest": "Mather had flown from England to Frankfurt to catch the first North American flight of the season. It was her first trip home in eight years. She paid a fine for baggage fifteen kilos over the limit, boarded at about seven, and was given a cabin with a window. The ship cast off a little after eight with 36 passengers and 61 crew.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "Mather, Harper's (November 1937), summarised in Faces of the Hindenburg. Numbers aboard from the German commission report (Airships.net)."
+    },
+    {
+      "date_iso": "1937-05-03",
+      "date_display": "3 May 1937, 20:15 CET",
+      "precision": "day",
+      "eye": "pruss",
+      "place": "Frankfurt am Main",
+      "headline": "In command of the season's first crossing",
+      "digest": "Pruss, described in the German report as a captain who had commanded many earlier trips, took the Hindenburg out of Frankfurt at 20:15. Ernst Lehmann, the line's senior captain, rode along as an observer. Headwinds over the Atlantic put the ship about half a day behind schedule.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "German Investigation Commission report (Airships.net); Bureau of Air Commerce Comparative Digest (1938). Headwind delay from standard accounts."
+    },
+    {
+      "date_iso": "1937-05-06",
+      "date_display": "Thursday 6 May 1937, 15:00–18:25 EST",
+      "precision": "day",
+      "eye": "pruss",
+      "place": "Lakehurst Naval Air Station",
+      "headline": "Waiting out storms, then the landing approach",
+      "digest": "The ship passed over New York at about two and reached Lakehurst at three, but thunderstorms delayed the landing. Pruss cruised along the coast until Lakehurst advised landing as soon as possible. He made a sharp turn to line up with the mast, and the landing ropes were dropped. About four minutes later fire broke out near the stern. In about half a minute the ship was on the ground and burning. Pruss survived, badly burned. Lehmann died the next day.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "Times from the German commission report (Airships.net): New York 14:00, Lakehurst 15:00, advice to land 18:08, fire 18:25 EST (19:25 local daylight time)."
+    },
+    {
+      "date_iso": "1937-05-06",
+      "date_display": "6 May 1937, evening",
+      "precision": "day",
+      "eye": "mather",
+      "place": "Dining salon, portside window",
+      "headline": "A muffled boom, a lurch, and the coat over her face",
+      "digest": "Mather was at a dining-salon window watching the ground crew when she heard a muffled detonation and the floor tilted sharply, throwing her and others against the back wall. Flames came down past the windows. She pulled her heavy coat over her head. Rescuers outside shouted to the passengers to come out, and she was led down through the gangway with scorched hands. At the station infirmary she sat beside the mortally burned Captain Lehmann.",
+      "quote": "",
+      "confidence": "verified",
+      "source_note": "Mather, 'I Was on the Hindenburg', Harper's, November 1937 (via Faces of the Hindenburg summary)."
+    },
+    {
+      "date_iso": "1937-05-06",
+      "date_display": "6 May 1937, about 7:25 p.m. local",
+      "precision": "day",
+      "eye": "morrison",
+      "place": "Landing field, Lakehurst",
+      "headline": "Recording an arrival, and then a catastrophe",
+      "digest": "Morrison and his engineer were recording a description of the landing for WLS when the ship caught fire. He kept talking as it fell, through tears, telling listeners what he could see of passengers and crew escaping and the ground crew running in. Of the 97 people aboard, 62 survived. Thirteen passengers and 22 crew died, and so did one member of the ground crew: 36 in all.",
+      "quote": "Oh, the humanity",
+      "confidence": "verified",
+      "source_note": "WLS recording (preserved). Casualty breakdown from the American board's report via the Comparative Digest (1938)."
+    },
+    {
+      "date_iso": "1937-05-10",
+      "date_display": "From about 10 May 1937",
+      "precision": "range",
+      "eye": "trimble",
+      "place": "Lakehurst Naval Air Station",
+      "headline": "American hearings open on the field",
+      "digest": "The Department of Commerce board, chaired by its solicitor South Trimble Jr., held hearings at Lakehurst within days. It took testimony from surviving officers and crew, passengers, naval and civilian ground crew, and witnesses on the field. The German commission's members, Eckener among them, sat in, and the two inquiries traded evidence.",
+      "quote": "",
+      "confidence": "approx",
+      "source_note": "Comparative Digest (1938): board membership and ground crew of 92 naval and 139 civilian personnel. Opening date of hearings approximate."
+    },
+    {
+      "date_iso": "1937-07-21",
+      "date_display": "Wednesday 21 July 1937",
+      "precision": "day",
+      "eye": "trimble",
+      "place": "Washington, D.C.",
+      "headline": "American finding: leaked hydrogen, probably lit by brush discharge",
+      "digest": "The board reported to the Secretary of Commerce that hydrogen had leaked into the stern, near cells 4 and 5, and had most probably been ignited by brush discharge (St Elmo's fire) after the ship was grounded through its landing ropes. It found no proof of sabotage. It also cleared the landing crew of inexperience. It did not establish where the leak came from.",
+      "quote": "practically all of the ground crew had previous experience in landing airships",
+      "confidence": "verified",
+      "source_note": "Report dated 21 July 1937, summarised and quoted in Bureau of Air Commerce Safety Division Bulletin No. 11, A Comparative Digest (August 1938), ROSA P."
+    },
+    {
+      "date_iso": "1937",
+      "date_display": "1937 (German report)",
+      "precision": "year",
+      "eye": "eckener",
+      "place": "Berlin / Friedrichshafen",
+      "headline": "The German commission: a spark from a damp cover",
+      "digest": "The commission appointed by the Air Ministry included Eckener and Ludwig Dürr, the ship's designer. It agreed that a leak, perhaps from a snapped bracing wire, had let hydrogen escape near cells 4 and 5. It preferred a different spark from the American one: the outer cover, damp from rain and less well grounded than the frame, discharged to the framework. It rated brush discharge less likely, found no proof of sabotage, and said that could not be fully excluded.",
+      "quote": "",
+      "confidence": "approx",
+      "source_note": "German Investigation Commission report (Airships.net translation); Comparative Digest (1938). Exact date of the German report not established here."
+    }
+  ],
+  "claims": [
+    {
+      "date_iso": "1874-03-25",
+      "date_display": "25 March 1874",
+      "eye": "zeppelin",
+      "claim": "Diary entry sets out the idea of a large rigid airship with separate gas cells for long-distance transport",
+      "form": "conceived",
+      "evidence": "Zeppelin's diary, cited by biographers",
+      "confidence": "verified"
+    },
+    {
+      "date_iso": "1898-09-20",
+      "date_display": "20 September 1898",
+      "eye": "santos-dumont",
+      "claim": "Santos-Dumont No. 1 rises to about 400 m over Paris; the envelope folds on descent and boys on the guide rope break the fall",
+      "form": "tested",
+      "evidence": "My Airships (1904)",
+      "confidence": "verified"
+    },
+    {
+      "date_iso": "1900-07-02",
+      "date_display": "2 July 1900",
+      "eye": "zeppelin",
+      "claim": "LZ 1, the first Zeppelin rigid, flies about 17–20 minutes over Lake Constance with five aboard; trim weight jams, one engine fails",
+      "form": "first",
+      "evidence": "LZ 1 histories; Vissering (1922)",
+      "confidence": "verified"
+    },
+    {
+      "date_iso": "1901-10-19",
+      "date_display": "19 October 1901",
+      "eye": "santos-dumont",
+      "claim": "No. 6 flies Saint-Cloud – Eiffel Tower – Saint-Cloud (about 11 km) in 29 min 31 s; the official 30 min 40 s and the time limit are disputed, and the 100,000-franc Deutsch prize is awarded",
+      "form": "record",
+      "evidence": "My Airships (1904), Deutsch prize chapter",
+      "confidence": "verified"
+    },
+    {
+      "date_iso": "1908-08-05",
+      "date_display": "5 August 1908",
+      "eye": "zeppelin",
+      "claim": "LZ 4, after a 12-hour Swiss flight on 1 July, fails its 24-hour trial and burns at Echterdingen; a public collection raises about 6 million marks",
+      "form": "failed",
+      "evidence": "Airships.net; Zeppelin biographies",
+      "confidence": "verified"
+    },
+    {
+      "date_iso": "1909-11-16",
+      "date_display": "16 November 1909",
+      "eye": "eckener",
+      "claim": "DELAG, the first airline, is founded; by 1914 its Zeppelins have carried tens of thousands (figures vary, about 34,000–37,000) on 1,500+ flights without a passenger fatality",
+      "form": "opened",
+      "evidence": "Zeppelin and DELAG histories; figures vary by source",
+      "confidence": "approx"
+    },
+    {
+      "date_iso": "1915-01-19",
+      "date_display": "19 January 1915",
+      "eye": "eckener",
+      "claim": "First Zeppelin raid on Britain (Great Yarmouth and King's Lynn); airship raids through 1918 kill several hundred in Britain",
+      "form": "other",
+      "evidence": "Standard war histories; see Volume I, ww1",
+      "confidence": "approx"
+    },
+    {
+      "date_iso": "1919-07-06",
+      "date_display": "2–6 July 1919",
+      "eye": "maitland",
+      "claim": "R34 makes the first east-to-west air crossing of the Atlantic, East Fortune to Mineola, in 108 h 12 min with about 140 gallons of fuel left",
+      "form": "first",
+      "evidence": "Maitland, Log of H.M.A. R 34 (1920); HistoryNet",
+      "confidence": "verified"
+    },
+    {
+      "date_iso": "1919-07-13",
+      "date_display": "10–13 July 1919",
+      "eye": "scott",
+      "claim": "R34 returns Mineola to Pulham in about 75 hours, completing the first two-way crossing of the Atlantic by air",
+      "form": "record",
+      "evidence": "Maitland's log; Air Ministry report",
+      "confidence": "verified"
+    },
+    {
+      "date_iso": "1929-08-29",
+      "date_display": "7/8–29 August 1929",
+      "eye": "eckener",
+      "claim": "Graf Zeppelin circles the world Lakehurst–Friedrichshafen–Tokyo–Los Angeles–Lakehurst: 21 d 5 h 31 min elapsed, about 12 days aloft, about 33,000 km; Friedrichshafen–Tokyo 101 h 49 min nonstop",
+      "form": "record",
+      "evidence": "Contemporary press; Airships.net figures via migflug",
+      "confidence": "verified"
+    },
+    {
+      "date_iso": "1930-08-01",
+      "date_display": "29 July – 1 August 1930",
+      "eye": "shute",
+      "claim": "R100 flies Cardington to Montreal in 78 h 49 min (3,364 miles); returns 13–16 August in 57 h 56 min",
+      "form": "tested",
+      "evidence": "Flight Log of H.M.A. R.100",
+      "confidence": "verified"
+    },
+    {
+      "date_iso": "1930-10-05",
+      "date_display": "5 October 1930",
+      "eye": "scott",
+      "claim": "R101 crashes and burns near Allonne, Beauvais, on its India flight; 48 of 54 aboard die, including the Air Minister and Scott",
+      "form": "failed",
+      "evidence": "R101 histories; Report of the R.101 Inquiry",
+      "confidence": "verified"
+    },
+    {
+      "date_iso": "1931-03",
+      "date_display": "March 1931",
+      "eye": "simon",
+      "claim": "Simon inquiry finds the probable cause was sudden gas loss in forward gasbags in bumpy weather plus a down-current; exact origin not established",
+      "form": "inquiry",
+      "evidence": "Report of the R.101 Inquiry; The Spectator 11 April 1931",
+      "confidence": "verified"
+    },
+    {
+      "date_iso": "1936-05-09",
+      "date_display": "6–9 May 1936",
+      "eye": "pruss",
+      "claim": "Hindenburg opens scheduled North Atlantic service, Friedrichshafen–Lakehurst in just over 61 h; ten US round trips in the 1936 season",
+      "form": "opened",
+      "evidence": "Hindenburg first-season histories",
+      "confidence": "approx"
+    },
+    {
+      "date_iso": "1937-05-06",
+      "date_display": "6 May 1937",
+      "eye": "pruss",
+      "claim": "Hindenburg burns while landing at Lakehurst, about four minutes after ropes are dropped; 36 die (13 passengers, 22 crew, 1 ground crew), 62 of 97 aboard survive",
+      "form": "failed",
+      "evidence": "German commission report; American board report via Comparative Digest (1938)",
+      "confidence": "verified"
+    },
+    {
+      "date_iso": "1937-07-21",
+      "date_display": "21 July 1937",
+      "eye": "trimble",
+      "claim": "US board finds leaked hydrogen probably ignited by brush discharge; the German commission prefers a spark from the damp outer cover to the frame; neither finds proof of sabotage",
+      "form": "inquiry",
+      "evidence": "Bureau of Air Commerce, Comparative Digest of the German and American Reports (1938)",
+      "confidence": "verified"
+    }
+  ],
+  "convergences": [
+    {
+      "date": "1908-08-05",
+      "label": "LZ 4 burns at Echterdingen",
+      "eyes": [
+        "zeppelin",
+        "eckener"
+      ],
+      "note": "For Zeppelin it was the ruin of the trial that was meant to sell his ship to the state. For Eckener, looking back, it was the day the public decided to save the enterprise, and he joined it soon after. One records a loss, the other a turning point."
+    },
+    {
+      "date": "1919-07-02",
+      "label": "R34 leaves East Fortune; a stowaway is found",
+      "eyes": [
+        "maitland",
+        "scott"
+      ],
+      "note": "The captain's order and the stowaway reach us through Maitland's log. Scott's own report was the official record. The same ship is seen from the hammock and from the control car."
+    },
+    {
+      "date": "1919-07-06",
+      "label": "R34 lands at Mineola",
+      "eyes": [
+        "maitland",
+        "scott"
+      ],
+      "note": "Maitland's log records the parachutist and the crowd. Scott's report records the fuel. Together they show a triumph and how close it came to failure."
+    },
+    {
+      "date": "1929-08-08",
+      "label": "Graf Zeppelin leaves Lakehurst on the world flight",
+      "eyes": [
+        "drummond-hay",
+        "wiegand",
+        "eckener"
+      ],
+      "note": "The two Hearst reporters wrote for readers: the lit city, breakfast, the commander's mood. Eckener's concern was the weather over the Atlantic and the long Asian leg ahead."
+    },
+    {
+      "date": "1929-08-19",
+      "label": "Arrival at Kasumigaura after 101 hours nonstop",
+      "eyes": [
+        "eckener",
+        "drummond-hay"
+      ],
+      "note": "The commander counted hours, distance and hangar space. The reporter wrote of crowds, receptions and the long days over Asia."
+    },
+    {
+      "date": "1930-08-01",
+      "label": "R100 at Montreal",
+      "eyes": [
+        "shute",
+        "scott"
+      ],
+      "note": "The engineer flew aboard his own ship and the captain led the operation. Both were at the high point of the British programme, nine weeks before R101."
+    },
+    {
+      "date": "1930-10-05",
+      "label": "R101 lost near Beauvais",
+      "eyes": [
+        "scott",
+        "shute",
+        "simon"
+      ],
+      "note": "Scott died in the wreck. Shute, on the rival team, grieved and later blamed the management. Simon's court turned the night into findings. The three accounts differ on whether haste or weather is the larger cause."
+    },
+    {
+      "date": "1937-05-06",
+      "label": "The Hindenburg burns at Lakehurst",
+      "eyes": [
+        "pruss",
+        "mather",
+        "morrison"
+      ],
+      "note": "The captain had the approach, the turn and the ropes. The passenger had the window, the lurch and her coat. The broadcaster had the view from the field and the words that survived. All three come from within a few hundred metres of each other."
+    }
+  ],
+  "ties": [
+    {
+      "a": "zeppelin",
+      "b": "eckener",
+      "kind": "met",
+      "note": "Eckener moved from reporting on the Count's ships to working for him from about 1908, and he led the company after Zeppelin's death in 1917."
+    },
+    {
+      "a": "maitland",
+      "b": "scott",
+      "kind": "met",
+      "note": "Shipmates on R34. Scott's orders and his visit to Maitland's hammock about the stowaway are recorded in Maitland's log."
+    },
+    {
+      "a": "scott",
+      "b": "shute",
+      "kind": "met",
+      "note": "Both flew on R100's Canada flight in 1930. Scott then died in R101, the ship Shute's memoir criticised."
+    },
+    {
+      "a": "scott",
+      "b": "simon",
+      "kind": "mentioned",
+      "note": "Simon's court examined the decisions and the final flight of the ship on which Scott, its senior flying officer, died."
+    },
+    {
+      "a": "drummond-hay",
+      "b": "wiegand",
+      "kind": "met",
+      "note": "Fellow Hearst correspondents on the world flight, who travelled and reported together for many years."
+    },
+    {
+      "a": "drummond-hay",
+      "b": "eckener",
+      "kind": "met",
+      "note": "She flew on Eckener's Graf Zeppelin in 1928 and 1929 and made him a figure in her newspaper copy."
+    },
+    {
+      "a": "wiegand",
+      "b": "eckener",
+      "kind": "met",
+      "note": "Wiegand helped arrange the Hearst sponsorship and the Tokyo and Los Angeles stops that made Eckener's world flight possible."
+    },
+    {
+      "a": "pruss",
+      "b": "eckener",
+      "kind": "met",
+      "note": "Pruss was a captain in the line Eckener built. Eckener then sat on the German commission that investigated the loss of Pruss's ship."
+    },
+    {
+      "a": "pruss",
+      "b": "mather",
+      "kind": "met",
+      "note": "Mather dined with Captain Pruss during the final crossing, as her Harper's account records."
+    },
+    {
+      "a": "mather",
+      "b": "morrison",
+      "kind": "same street",
+      "note": "She came down the gangway onto the field from which Morrison was recording the fire."
+    },
+    {
+      "a": "hall",
+      "b": "mather",
+      "kind": "same street",
+      "note": "Passengers on the same ship nine months apart, with the same cabins, salon and Lakehurst field: one on a calm crossing, one on the last."
+    },
+    {
+      "a": "trimble",
+      "b": "eckener",
+      "kind": "opposite sides",
+      "note": "The American board and the German commission shared evidence but differed on the probable spark: brush discharge against a discharge from the damp outer cover."
+    },
+    {
+      "a": "trimble",
+      "b": "pruss",
+      "kind": "mentioned",
+      "note": "The American board heard the surviving officers and crew and examined the ship's handling under Pruss during the landing approach."
+    }
+  ],
+  "threads_out": [
+    {
+      "to": "balloons-1783",
+      "note": "The airship is the steerable descendant of the 1783 hydrogen balloon. Zeppelin's lifelong project began with a tethered gas-balloon ascent at St. Paul in 1863, and Santos-Dumont's first ships were small hydrogen balloons with a motor and a rudder."
+    },
+    {
+      "to": "kitty-hawk",
+      "note": "Santos-Dumont left airships for the aeroplane, and his 14-bis hops at Bagatelle in 1906 were hailed in Europe as the first powered flights. That priority claim set Paris against the Wrights' 1903 record."
+    },
+    {
+      "to": "channel-atlantic",
+      "note": "R34's crossing in July 1919 came two weeks after Alcock and Brown's nonstop west-to-east flight in a Vickers Vimy. It made the first east-to-west air crossing and the first round trip, and the airship and the aeroplane competed for the Atlantic through the 1930s."
+    },
+    {
+      "to": "v1:ww1",
+      "note": "From January 1915 naval and army Zeppelins bombed Britain, France and Belgium. The raids, the airship losses and the British defences are told by the diarists of Volume I's First World War chapter."
+    },
+    {
+      "to": "v1:ww2-europe",
+      "note": "After the Hindenburg fire no rigid airship carried passengers again. The surviving Graf Zeppelin and its sister LZ 130 were broken up in 1940 so their aluminium could go to the war economy."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://webarchive.library.unt.edu/eot2008/20080920024219/http:/centennialofflight.gov/essay/Lighter_than_air/Beginning_of_the_Dirigible/LTA6G6.htm",
+      "title": "Santos-Dumont's No. 6 rounds the Eiffel Tower",
+      "caption": "No. 6 turning the Eiffel Tower in the Deutsch prize flight. The small airship beside the 300-metre tower shows the scale of the early personal airships.",
+      "date": "19 October 1901",
+      "credit": "US Centennial of Flight Commission (archived by UNT Libraries)"
+    },
+    {
+      "url": "https://gutenberg.org/files/42344/42344-h/42344-h.htm",
+      "title": "My Airships, illustrated edition: 'No. 9—M. Santos-Dumont lands at his own Door'",
+      "caption": "The 1904 book's period photographs, including No. 9 landing at his Champs-Élysées door, the No. 5 wreck and the Longchamp review.",
+      "date": "1901–1903 (published 1904)",
+      "credit": "Alberto Santos-Dumont, My Airships (Grant Richards, 1904); Project Gutenberg"
+    },
+    {
+      "url": "https://www.thehenryford.org/collections-and-research/digital-collections/artifact/364761/",
+      "title": "Airship 'Graf Zeppelin' arriving at Lakehurst, New Jersey Naval Hangar",
+      "caption": "The Graf Zeppelin arriving at Lakehurst days before the world flight began there on the night of 7–8 August 1929.",
+      "date": "4 August 1929",
+      "credit": "The Henry Ford"
+    },
+    {
+      "url": "https://www.nevilshute.org/PhotoLine/PLD-1921-1930/pl-1921-1930-07.php",
+      "title": "Nevil Shute Norway and R100, 1929–1930",
+      "caption": "Photographs of R100 and its Canada flight, including Shute in the navigator's position, from the Nevil Shute Norway Foundation.",
+      "date": "1929–1930",
+      "credit": "Nevil Shute Norway Foundation"
+    },
+    {
+      "url": "https://www.airships.net/hindenburg/flight-schedule/hindenburg-flight-passenger-diary/",
+      "title": "A Flight on the Hindenburg: one passenger's account",
+      "caption": "Clarence Hall's August 1936 diary with period photographs of the Hindenburg's public rooms, the cabins Hall measured and the smoking room he described.",
+      "date": "August 1936",
+      "credit": "Clarence E. Hall diary; Airships.net (Dan Grossman)"
+    }
+  ],
+  "further": [
+    {
+      "title": "Alberto Santos-Dumont, My Airships (1904), Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/42344"
+    },
+    {
+      "title": "Harry Vissering, Zeppelin: The Story of a Great Achievement (1922), Project Gutenberg",
+      "url": "https://gutenberg.org/files/32570/32570-h/32570-h.htm"
+    },
+    {
+      "title": "Flight Log of H.M.A. R.100 (Airship Heritage Trust)",
+      "url": "https://airshipsonline.com/airships/r100/R100%20Flight%20Log.htm"
+    },
+    {
+      "title": "Report of the R.101 Inquiry (1931), Cranfield repository",
+      "url": "https://dspace.lib.cranfield.ac.uk/items/e4677a65-0183-4780-8277-ed992d8ea3ae/full"
+    },
+    {
+      "title": "Bedfordshire Archives: Causes of the R101 Disaster",
+      "url": "https://bedsarchives.bedford.gov.uk/CommunityArchives/Shortstown/CausesOfTheR101Disaster.aspx"
+    },
+    {
+      "title": "Bureau of Air Commerce, A Comparative Digest of the German and American Reports of the Hindenburg Accident (1938)",
+      "url": "https://rosap.ntl.bts.gov/view/dot/81236/dot_81236_DS1.pdf"
+    },
+    {
+      "title": "Airships.net: Hindenburg Accident Report, German Investigation Commission",
+      "url": "https://www.airships.net/hindenburg/disaster/german-investigation/"
+    },
+    {
+      "title": "Margaret Mather, 'I Was on the Hindenburg', Harper's Magazine, November 1937",
+      "url": "https://harpers.org/archive/1937/11/i-was-on-the-hindenburg/"
+    }
+  ],
+  "vantage_key": "0 = inventor, commander or survivor at the heart of the flight or loss; 1 = aboard or on the field as passenger, reporter, engineer or broadcaster; 2 = nearby; 3 = inquiry or report at a distance; 4 = abroad, news only."
+}

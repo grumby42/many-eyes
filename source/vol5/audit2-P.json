@@ -1,0 +1,424 @@
+[
+ {
+  "chapter": "florence-1504",
+  "where": "add_entries:9",
+  "severity": "style",
+  "problem": "Checked: the Archivio di Stato di Mantova catalogue confirms Isabella's two letters of 14 May 1504 (to Leonardo, asking for a young Christ of about twelve, and to Angelo del Tovaglia), Tovaglia's reply of 27 May 1504 deferring for the Anghiari work, and the letters of 27 March and 3/14 April 1501. No change needed.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified",
+  "patch": "florence-1504"
+ },
+ {
+  "chapter": "florence-1504",
+  "where": "add_entries:11",
+  "severity": "style",
+  "problem": "The Mantua catalogue lists Isabella's letter to Leonardo of 31 October 1504 as another request for the young Christ, so the date is confirmed even though the content is given only in outline.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Isabella d'Este to Leonardo, Mantua, 31 October 1504, Archivio Gonzaga (listed in the Archivio di Stato di Mantova catalogue as a further request for the young Christ; content given there only in outline)."
+  },
+  "confidence": "verified",
+  "patch": "florence-1504"
+ },
+ {
+  "chapter": "florence-1504",
+  "where": "add_entries:2",
+  "severity": "style",
+  "problem": "date_iso has month precision ('1504-05') but precision is 'range'.",
+  "fix": {
+   "precision": "month"
+  },
+  "confidence": "verified",
+  "patch": "florence-1504"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "add_entries:6",
+  "severity": "error",
+  "problem": "Jeffrey's Thalaba review is Article VIII of the first Edinburgh Review (October 1802), not the opening article; Article I is the review of Mounier. The quoted phrase is genuine pre-1929 English and may stay.",
+  "fix": {
+   "text_replace": {
+    "old": "The first number of the Edinburgh Review opened with Jeffrey's long notice of Southey's Thalaba.",
+    "new": "The first number of the Edinburgh Review carried, as its eighth article, Jeffrey's long notice of Southey's Thalaba."
+   }
+  },
+  "confidence": "verified",
+  "patch": "grasmere"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "add_entries:6",
+  "severity": "error",
+  "problem": "Source note repeats the 'opening article' error.",
+  "fix": {
+   "source_note": "Edinburgh Review, vol. 1, no. 1 (October 1802), Art. VIII, review of Southey's Thalaba."
+  },
+  "confidence": "verified",
+  "patch": "grasmere"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "add_eyes:2",
+  "severity": "error",
+  "problem": "The authenticity note says the Thalaba review opens the first number; it is Article VIII (Article I is on Mounier).",
+  "fix": {
+   "text_replace": {
+    "old": "The review of Southey's Thalaba opens the first number of the Edinburgh Review (vol. 1, no. 1, dated October 1802).",
+    "new": "The review of Southey's Thalaba is Article VIII of the first number of the Edinburgh Review (vol. 1, no. 1, dated October 1802)."
+   }
+  },
+  "confidence": "verified",
+  "patch": "grasmere"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "add_eyes:2",
+  "severity": "style",
+  "problem": "Source URL uses the wrong domain (en.wikipedia.com).",
+  "fix": {
+   "sources": [
+    {
+     "title": "Edinburgh Review (overview)",
+     "url": "https://en.wikipedia.org/wiki/Edinburgh_Review"
+    }
+   ]
+  },
+  "confidence": "verified",
+  "patch": "grasmere"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "add_eyes:2",
+  "severity": "style",
+  "problem": "Jeffrey was born on 23 October 1773, so he was 28 when the October 1802 number appeared and 29 only from late in the month.",
+  "fix": {
+   "text_replace": {
+    "old": "Edinburgh advocate, aged 29;",
+    "new": "Edinburgh advocate, aged 28–29;"
+   }
+  },
+  "confidence": "verified",
+  "patch": "grasmere"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "add_eyes:0",
+  "severity": "style",
+  "problem": "Thelwall was born on 27 July 1764, so he was 32 during the Stowey visit and turned 33 on the day of the Bridgwater lines.",
+  "fix": {
+   "text_replace": {
+    "old": "Radical lecturer and poet, aged 33;",
+    "new": "Radical lecturer and poet, aged 32 (33 on 27 July 1797);"
+   }
+  },
+  "confidence": "verified",
+  "patch": "grasmere"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "add_threads_out:0",
+  "severity": "style",
+  "problem": "Hardy, Horne Tooke and Thelwall were indicted together in 1794, but each was tried separately (Thelwall last) and each was acquitted. 'Tried with' suggests a single joint trial.",
+  "fix": {
+   "text_replace": {
+    "old": "Thelwall was tried for high treason in London in 1794 with Thomas Hardy and John Horne Tooke",
+    "new": "Thelwall was tried for high treason in London in 1794, separately but on the same indictment as Thomas Hardy and John Horne Tooke,"
+   }
+  },
+  "confidence": "verified",
+  "patch": "grasmere"
+ },
+ {
+  "chapter": "grasmere",
+  "where": "add_entries:4",
+  "severity": "doubt",
+  "problem": "Sara's lost letter and the Wordsworths' reply of 14 June 1802 are well attested in the Letters, but the web sources consulted (e.g. the Wikipedia article on the poem) say only that Mary and Sara reviewed it. 'Early June' for the lost letter is an inference and should stay approx.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx",
+  "patch": "grasmere"
+ },
+ {
+  "chapter": "ninth-1824",
+  "where": "add_entries:4",
+  "severity": "style",
+  "problem": "Wikipedia quotes the Harmonicon as saying the symphony 'is at least twice as long as it should be'. The leading 'it' in the quote field is not in the checked text, so trim the quote to the confirmed wording.",
+  "fix": {
+   "quote": "at least twice as long as it should be"
+  },
+  "confidence": "verified",
+  "patch": "ninth-1824"
+ },
+ {
+  "chapter": "ninth-1824",
+  "where": "add_eyes:3",
+  "severity": "style",
+  "problem": "Seyfried was born on 15 August 1776, so he was 47 at the time of the May 1824 concert and the June notice.",
+  "fix": {
+   "text_replace": {
+    "old": "Viennese Kapellmeister and composer, aged 48;",
+    "new": "Viennese Kapellmeister and composer, aged 47;"
+   }
+  },
+  "confidence": "verified",
+  "patch": "ninth-1824"
+ },
+ {
+  "chapter": "ninth-1824",
+  "where": "add_entries:6",
+  "severity": "doubt",
+  "problem": "The Beethoven-Haus pages confirm only that the directors met as soon as the letter arrived, voted £100, and that Rau paid it out in Vienna in early March 1827. The 28 February meeting date rests on Thayer and was not confirmed online; keeping it approx is right.",
+  "fix": {
+   "confidence": "approx",
+   "source_note": "Beethoven-Haus 'The Philharmonic Society' (immediate meeting, £100 sent) and Beethoven-Haus archive W 41 (money paid out by Rau in early March 1827); day of the meeting as given by Thayer vol. III, not checked against the minute book."
+  },
+  "confidence": "approx",
+  "patch": "ninth-1824"
+ },
+ {
+  "chapter": "ninth-1824",
+  "where": "add_claims:2",
+  "severity": "style",
+  "problem": "Claim is consistent with the entry; the day stays approx (see add_entries:6).",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx",
+  "patch": "ninth-1824"
+ },
+ {
+  "chapter": "impressionists-1874",
+  "where": "add_entries:2",
+  "severity": "doubt",
+  "problem": "The Degas catalogue raisonné gives 9 May 1874 for Montifaud's 'Exposition du boulevard des Capucines', and other bibliographies give L'Artiste, 1 May 1874. The conflict is still open, so the month-level date and approx confidence are right. Her dates (1849–1912) are confirmed by the Paris 1 critics' dictionary.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx",
+  "patch": "impressionists-1874"
+ },
+ {
+  "chapter": "impressionists-1874",
+  "where": "add_eyes:1",
+  "severity": "doubt",
+  "problem": "Nonsite names 'Jean Prouvaire' as the pseudonym of Pierre Toloza (spelled 'Tolova' there). The Ministère page mentions 'Mendès (Le Rappel, 20 avril 1874)' only in a parenthesis about Sisley, which is weak support for Mendès. The eye rightly calls the attribution unsettled. Name the Toloza attribution precisely.",
+  "fix": {
+   "text_replace": {
+    "old": "and to Pierre Toloza by others; the attribution is unsettled.",
+    "new": "and to Pierre Toloza by others (including the Nonsite study of Morisot's early criticism); the attribution is unsettled."
+   }
+  },
+  "confidence": "approx",
+  "patch": "impressionists-1874"
+ },
+ {
+  "chapter": "impressionists-1874",
+  "where": "add_entries:3",
+  "severity": "doubt",
+  "problem": "The James quote matches the wording cited from The Painter's Eye (p. 115) in Hannah (2007), and as 1876 English it is allowed. Hannah dates the piece to August 1876. The 13 May 1876 date and the title 'Parisian Festivity' come from the Parisian Sketches bibliography and could not be confirmed online. Keep approx.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx",
+  "patch": "impressionists-1874"
+ },
+ {
+  "chapter": "vienna-1900",
+  "where": "add_entries:3",
+  "severity": "error",
+  "problem": "The 6th exhibition (20 January – 25 February 1900, confirmed on the Secession's exhibitions page) was followed by the 7th, with Klimt's Philosophy, on 8 March 1900. That is seven weeks after the opening and under two weeks after the close, not 'six weeks later'.",
+  "fix": {
+   "text_replace": {
+    "old": "Six weeks later the same rooms held Klimt's Philosophy.",
+    "new": "On 8 March, less than two weeks after it closed, the same rooms held Klimt's Philosophy."
+   }
+  },
+  "confidence": "verified",
+  "patch": "vienna-1900"
+ },
+ {
+  "chapter": "vienna-1900",
+  "where": "add_convergences:0",
+  "severity": "style",
+  "problem": "Same timing slip: Philosophy went on show on 8 March 1900, seven weeks after the Japanese show opened.",
+  "fix": {
+   "text_replace": {
+    "old": "six weeks before Philosophy drew the largest storm",
+    "new": "seven weeks before Philosophy drew the largest storm"
+   }
+  },
+  "confidence": "verified",
+  "patch": "vienna-1900"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "add_entries:5",
+  "severity": "error",
+  "problem": "There were more than four Paris performances in 1913: the premiere was followed by five more at the Théâtre des Champs-Élysées, the last on 13 June.",
+  "fix": {
+   "text_replace": {
+    "old": "Readers who missed the four Paris performances",
+    "new": "Readers who missed the six Paris performances"
+   }
+  },
+  "confidence": "verified",
+  "patch": "rite-1913"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "add_eyes:0",
+  "severity": "style",
+  "problem": "Valentine Gross was born on 16 March 1887, so she was 26 in May 1913.",
+  "fix": {
+   "text_replace": {
+    "old": "Painter and illustrator, aged 25;",
+    "new": "Painter and illustrator, aged 26;"
+   }
+  },
+  "confidence": "approx",
+  "patch": "rite-1913"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "add_eyes:2",
+  "severity": "style",
+  "problem": "Pierre Lalo was born on 6 September 1866, so he was 46 in June 1913.",
+  "fix": {
+   "text_replace": {
+    "old": "Music critic of Le Temps, aged 47;",
+    "new": "Music critic of Le Temps, aged 46;"
+   }
+  },
+  "confidence": "approx",
+  "patch": "rite-1913"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "add_entries:0",
+  "severity": "doubt",
+  "problem": "Numeridanse confirms the caption 'Paris, 29 May 1913' and the June 1913 publication in Montjoie!. But the V&A says Gross worked many sketches up later, so that date alone does not show the sheet was drawn in the house that night. The 'made on the spot' claim should be hedged.",
+  "fix": {
+   "text_replace": {
+    "old": "Hers is the only record in this chapter made on the spot that shows the dance itself and not the audience.",
+    "new": "If it was drawn in the house that night, as its date suggests, it is the only record in this chapter made on the spot that shows the dance itself and not the audience."
+   }
+  },
+  "confidence": "approx",
+  "patch": "rite-1913"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "add_eyes:3",
+  "severity": "style",
+  "problem": "Casella's memoir first appeared in Italian in 1941 (I segreti della giara); 1955 is the date of the English translation (Music in My Time). Casella died in 1947.",
+  "fix": {
+   "text_replace": {
+    "old": "Casella's 1955 memoir",
+    "new": "Casella's memoir (Italian 1941; English translation 1955)"
+   }
+  },
+  "confidence": "verified",
+  "patch": "rite-1913"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "add_entries:1",
+  "severity": "style",
+  "problem": "Same dating of Casella's memoir: it was written by 1941, and 1955 is the translation.",
+  "fix": {
+   "date_display": "Thursday 29 May 1913 (recalled 1941 and 1962)",
+   "text_replace": {
+    "old": "By the later accounts of Casella (1955) and Stravinsky (1962)",
+    "new": "By the later accounts of Casella (memoir of 1941, translated 1955) and Stravinsky (1962)"
+   }
+  },
+  "confidence": "verified",
+  "patch": "rite-1913"
+ },
+ {
+  "chapter": "rite-1913",
+  "where": "add_entries:2",
+  "severity": "doubt",
+  "problem": "Wikipedia confirms that Puccini attended the second performance on 2 June and the 'work of a madman' verdict. The recipient (Tito Ricordi), the date and the Italian text are still unconfirmed, as the entry already says. No quote is used, which is right.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx",
+  "patch": "rite-1913"
+ },
+ {
+  "chapter": "bauhaus",
+  "where": "add_entries:0",
+  "severity": "doubt",
+  "problem": "December 1922, the 'Fourteenth Annual Exhibition', and Samavaya Bhavan, 17 Park Street are confirmed. But the bauhaus imaginista essay that supplies the scene calls itself a semi-fictional account, and the claim that Rabindranath Tagore attended is not supported by the non-fictional sources checked. That clause should go or be clearly hedged.",
+  "fix": {
+   "text_replace": {
+    "old": "Rabindranath Tagore is said to have attended, and the society printed",
+    "new": "The society printed"
+   }
+  },
+  "confidence": "approx",
+  "patch": "bauhaus"
+ },
+ {
+  "chapter": "bauhaus",
+  "where": "add_entries:1",
+  "severity": "doubt",
+  "problem": "Nothing checked shows that Ganguly's defence was written 'for Bengali readers'. The semi-fictional essay says only that Tagore entrusted him with interpreting the works, and Ganguly's main forum, Rupam, was in English.",
+  "fix": {
+   "text_replace": {
+    "old": "wrote in defence of the Bauhaus work for Bengali readers.",
+    "new": "wrote in defence of the Bauhaus work."
+   }
+  },
+  "confidence": "approx",
+  "patch": "bauhaus"
+ },
+ {
+  "chapter": "bauhaus",
+  "where": "add_eyes:2",
+  "severity": "style",
+  "problem": "Checked: bauhaus imaginista confirms the arranged marriage of 1928 and the change of name, the letters of 21 December 1930 and 24 March 1931, Report C of 4 September 1932 and Kokusai Kenchiku vol. 8 no. 12 (December 1932). Bauhaus Kooperation gives the return to Japan as 1932, after the closure. Waypoint labels 'from 1932–33' are acceptable. No change.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified",
+  "patch": "bauhaus"
+ },
+ {
+  "chapter": "harlem",
+  "where": "add_entries:6",
+  "severity": "style",
+  "problem": "Alice Dunbar-Nelson reviewed Passing in the Washington Eagle on 3 May 1929, which fits an April 1929 publication. The day is still unconfirmed, so it stays approx.",
+  "fix": {
+   "source_note": "Dedication and the letters about the working title: RSAJournal 25 (2014). April 1929 is consistent with Alice Dunbar-Nelson's review in the Washington Eagle, 3 May 1929 (Lehigh digital anthology); publication day not confirmed."
+  },
+  "confidence": "approx",
+  "patch": "harlem"
+ },
+ {
+  "chapter": "harlem",
+  "where": "add_entries:9",
+  "severity": "doubt",
+  "problem": "Garvey's Negro World review of Home to Harlem could not be dated from the online sources (the UCLA introduction does not mention it). The widely cited 29 September 1928 is still unconfirmed, so the month-level date and approx are right.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx",
+  "patch": "harlem"
+ },
+ {
+  "chapter": "harlem",
+  "where": "add_entries:7",
+  "severity": "style",
+  "problem": "Checked: the UCLA Garvey Papers introduction confirms deportation in December 1927, arrival in Jamaica on 10 December 1927, Haynes's statement of 14 January 1928, the end of Garvey's articles in fall 1931, his disowning of the paper in July 1932 and its closure in October 1933. No change.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified",
+  "patch": "harlem"
+ }
+]

@@ -1,0 +1,495 @@
+{
+ "id": "merer",
+ "title": "The Pyramid Logbook",
+ "subtitle": "The Wadi al-Jarf papyri: the last working year of Khufu's Great Pyramid, Egypt, c. 2560 BC",
+ "span": "c. 2560 BC (Khufu, regnal year 27)",
+ "intro": [
+  "Long before anyone kept a diary in the modern sense, someone kept a timetable. In 2013 a French-Egyptian mission led by Pierre Tallet, working with Gregory Marouard and Sayed Mahfouz at Wadi al-Jarf, an Old Kingdom harbour on the Gulf of Suez about 20–25 km south of modern Zafarana, found several hundred fragments of papyrus jammed into the rubble at the mouths of two storage galleries, G1 and G2. They are the oldest inscribed papyri yet found in Egypt, and one of them carries the date 'the year after the 13th cattle count' of King Khufu: the last known year of the king who built the Great Pyramid.",
+  "The centre of this prologue is the inspector Merer, a mid-level official whose team of roughly forty men (some early reports said about 200) spent part of that year moving fine white limestone by boat from the quarries of Tura, on the east bank of the Nile, to Akhet-Khufu, the 'Horizon of Khufu' — the Great Pyramid at Giza. His record is laid out like a ruled ledger: each day gets two columns, one for what the team did, one for where it slept, with red lines dividing the ten-day weeks. It is not a diary of feelings. It is something older and plainer: a working man's account of where he was on each day, kept because the state wanted to know.",
+  "This chapter is honest about its genre. Every 'eye' here is a log, an account sheet or an official inscription, not a personal diary, and the form tags say so. Merer's logbook (Papyrus Jarf A and B, published by Tallet in 2017) is the best preserved. Around it sit the much more fragmentary logbooks published in 2021 (Jarf C, D, E, F and Aa), including the record associated with the scribe Dedi, who oversaw all four sections of the same team; and the tabulated account papyri (Jarf G to L) in which harbour scribes tallied grain and bread arriving from the provinces, in red and black ink. The great noble Ankhhaf, Khufu's half-brother, appears only as Merer saw him: a name and a title at a canal-side office.",
+  "Read together they give a rare double view of the pyramid age: from the river deck, where a crew shuttles blocks between quarry and building site two or three times every ten days during the flood, and from the storeroom, where someone counts the sacks that feed them. The archive was buried, it seems, as the harbour was shut down at the end of Khufu's reign, and lay untouched for some four and a half thousand years. In July 2016 parts of it went on public display for the first time at the Egyptian Museum in Cairo.",
+  "What these documents do not tell us is just as important. They name no hardships, no opinions, no prayers. Merer never says what he thought of the pyramid. But they prove that the urge to set down 'today we did this, tonight we slept there' is as old as monumental building itself — the root from which the later diaries in this book grow."
+ ],
+ "calendar_note": "The papyri are dated in the Egyptian civil calendar: twelve 30-day months grouped into three seasons of four (Akhet, the flood; Peret, the emergence; Shemu, the harvest), each month split into three ten-day weeks, plus five epagomenal days at year's end. Years were counted by the king's reign — here 'the year after the 13th cattle count' (the count was then roughly biennial), usually taken as Khufu's year 27, though some scholars say 26. Converting that to an absolute date is uncertain by decades: proposed dates for Khufu's reign include c. 2589–2566 BC (a widely used museum chronology), c. 2633–2605 BC and c. 2509–2483 BC, and the Museum of Fine Arts, Boston, dates Ankhhaf's bust 2520–2494 BC. This chapter therefore sets every entry at the conventional c. 2560 BC, written as astronomical year -2559 with precision 'year'; the day and month shown are the papyri's own civil dates where they survive. Tallet reconstructs Merer's logbook as running from about the first month of Akhet to the second of Peret — roughly July to November in our terms — but in several sections the month heading is lost, and the order of the sections is a modern reconstruction.",
+ "eyes": [
+  {
+   "id": "merer",
+   "name": "Merer (inspector, sehedj)",
+   "short": "Merer",
+   "life": "fl. c. 2560 BC",
+   "role": "Inspector (sḥḏ) in charge of a team of about 40 men, probably also the scribe of his own logbook; described in 2016 reports as an official of Memphis",
+   "side": "Royal work-gangs of Khufu, Egypt (4th Dynasty)",
+   "where": "On the Nile and its canals between the Tura quarries, the staging post Ro-She Khufu and the pyramid site Akhet-Khufu (Giza)",
+   "vantage": 0,
+   "vantage_label": "at the centre — running the boats",
+   "form": "log",
+   "language": "Old Egyptian (hieratic script)",
+   "authenticity": "Original papyri excavated in situ in 2013 at Wadi al-Jarf (Papyrus Jarf A and B, over 100 fragments). Published by Pierre Tallet, Les papyrus de la mer Rouge I: Le 'journal de Merer' (IFAO, 2017). Fragmentary; the ordering of sections and some month headings are reconstructed by the editor.",
+   "bio": "Merer is the earliest person in this book whose day-by-day record survives in his own hand (or his scribe's). His team was a versatile royal crew: in this year it hauled and shipped casing-grade limestone, built a dyke, and at other times seems to have served at the Red Sea harbour, which is why its papers ended up there. He matters because he is ordinary — a foreman, not a king — and his log shows the pyramid as a logistics job.",
+   "lat": 29.93,
+   "lon": 31.28,
+   "waypoints": [
+    {
+     "lat": 29.93,
+     "lon": 31.28,
+     "label": "Tura quarries (Tura North / Tura South)"
+    },
+    {
+     "lat": 29.97,
+     "lon": 31.15,
+     "label": "Ro-She Khufu / She-Khufu basins (approx.)"
+    },
+    {
+     "lat": 29.979,
+     "lon": 31.134,
+     "label": "Akhet-Khufu, Giza"
+    },
+    {
+     "lat": 28.9,
+     "lon": 32.6,
+     "label": "Wadi al-Jarf, where the log was buried (approx.)"
+    }
+   ],
+   "sources": [
+    {
+     "title": "P. Tallet, Les papyrus de la mer Rouge I: Le 'journal de Merer' (Papyrus Jarf A et B), IFAO 2017 — publisher summary PDF",
+     "url": "https://www.orient-mediterranee.com/wp-content/uploads/2022/04/1705_tallet.pdf"
+    },
+    {
+     "title": "Diary of Merer (overview)",
+     "url": "https://en.wikipedia.org/wiki/Diary_of_Merer"
+    },
+    {
+     "title": "P. Tallet & G. Marouard, 'The Harbor of Khufu on the Red Sea Coast at Wadi al-Jarf, Egypt', Near Eastern Archaeology 77.1 (2014)",
+     "url": "https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/RedSea/WadiJarf-Tallet2014.pdf"
+    }
+   ]
+  },
+  {
+   "id": "ankhhaf",
+   "name": "Ankhhaf",
+   "short": "Ankhhaf",
+   "life": "fl. reigns of Khufu and/or Khafre",
+   "role": "Noble (iry-pat), half-brother of Khufu, vizier and overseer of the king's works; named in Merer's log as director of Ro-She Khufu",
+   "side": "Royal family and high administration, Egypt (4th Dynasty)",
+   "where": "The administrative centre at Ro-She Khufu, near the foot of the Giza plateau; buried in mastaba G 7510 at Giza",
+   "vantage": 0,
+   "vantage_label": "the man in charge — seen only through Merer",
+   "form": "log (as recorded by another)",
+   "language": "Old Egyptian (hieratic)",
+   "authenticity": "No writing by Ankhhaf survives in this archive. He appears as a name and title in Merer's logbook (Papyrus Jarf B, section BIV). Identification with the Ankhhaf of tomb G 7510 and the famous Boston bust is the standard view (Tallet); his exact family relation and whether he served as vizier under Khufu or Khafre is debated. Flagged: an eye through another's eye.",
+   "bio": "Ankhhaf is the senior figure behind the final phase of the Great Pyramid, but here he is visible only from below: Merer notes that the noble Ankhhaf directs Ro-She Khufu, the canal-side station where crews from Tura North stopped overnight. His painted limestone bust in Boston gives a face to a name that otherwise survives in this chapter only as an entry in a foreman's ledger.",
+   "lat": 29.97,
+   "lon": 31.15,
+   "sources": [
+    {
+     "title": "Tallet 2017 summary (section BIV, 'noble Ankhhaf, director of Ro-She Khufu')",
+     "url": "https://www.orient-mediterranee.com/wp-content/uploads/2022/04/1705_tallet.pdf"
+    },
+    {
+     "title": "Bust of Prince Ankhhaf, MFA Boston 27.442",
+     "url": "https://mfaboston6.emuseum.com/objects/45982/bust-of-prince-ankhhaf"
+    }
+   ]
+  },
+  {
+   "id": "dedi",
+   "name": "Dedi (scribe)",
+   "short": "Dedi",
+   "life": "fl. c. 2560 BC",
+   "role": "Scribe and senior official responsible for all four sections (phyles) of the team to which Merer's section belonged",
+   "side": "Royal work-gangs of Khufu, Egypt (4th Dynasty)",
+   "where": "Near the Giza plateau, around the valley temple (and perhaps palace) of Khufu",
+   "vantage": 1,
+   "vantage_label": "supervisor on the scene at Giza",
+   "form": "log",
+   "language": "Old Egyptian (hieratic)",
+   "authenticity": "Very fragmentary logbook (Papyrus Jarf D), published by Tallet in Les papyrus de la mer Rouge II: Le 'journal de Dedi' et autres fragments de journaux de bord (Papyrus Jarf C, D, E, F, Aa), MIFAO 145, IFAO 2021. In 2025 Zahi Hawass proposed (as probable, not certain) that a Giza tomb belongs to this same Dedi.",
+   "bio": "Dedi stands one rung above Merer. His surviving pages record not boat runs but the repetitive work of several phyles on guard and supply duty near the king's valley temple at Giza — the unglamorous side of a royal building site. If Hawass's identification of his tomb holds, he would be the first Egyptian scribe whose written work and burial place are both known.",
+   "lat": 29.976,
+   "lon": 31.14,
+   "sources": [
+    {
+     "title": "Les papyrus de la mer Rouge II (IFAO, MIFAO 145, 2021) — bookseller description",
+     "url": "https://www.librairie-arcanes.fr/livre/20091241-2-les-papyrus-de-la-mer-rouge-papyrus-jarf-c--pierre-tallet-ifao"
+    },
+    {
+     "title": "Z. Hawass, 'The Tomb of Dedi, Superior of Inspector Merer (Pap. Jarf D) (?)…', BIFAO 125 (2025)",
+     "url": "https://www.ifao.egnet.net/bifao/125/8"
+    }
+   ]
+  },
+  {
+   "id": "jarf-c",
+   "name": "Unnamed keeper of Papyrus Jarf C",
+   "short": "Papyrus C log",
+   "life": "fl. c. 2560 BC (or slightly earlier)",
+   "role": "Anonymous log-keeper of a work mission recorded in the same archive",
+   "side": "Royal work-gangs, Egypt (4th Dynasty)",
+   "where": "Probably near the Mediterranean coast of the Nile Delta",
+   "vantage": 3,
+   "vantage_label": "same team's world, far to the north",
+   "form": "log",
+   "language": "Old Egyptian (hieratic)",
+   "authenticity": "Fragmentary logbook from the 2013 Wadi al-Jarf deposit, published by Tallet in 2021 (MIFAO 145). Its writer is not named in the surviving fragments; its subject is the editor's interpretation ('probably').",
+   "bio": "This log shows that the same pool of royal crews could be sent far from Giza. It seems to concern building a harbour structure near the Mediterranean, in a Delta being opened up by royal estate foundations early in the 4th Dynasty. It is included to show the range of the team's work, not because its keeper is known.",
+   "lat": 31.0,
+   "lon": 31.2,
+   "sources": [
+    {
+     "title": "Les papyrus de la mer Rouge II (IFAO 2021) — bookseller description",
+     "url": "https://www.librairie-arcanes.fr/livre/20091241-2-les-papyrus-de-la-mer-rouge-papyrus-jarf-c--pierre-tallet-ifao"
+    }
+   ]
+  },
+  {
+   "id": "harbour-scribes",
+   "name": "The account scribes of Wadi al-Jarf",
+   "short": "Harbour scribes",
+   "life": "fl. reigns of Snofru–Khufu",
+   "role": "Unnamed scribes who kept tabulated accounts of food deliveries and marked jars, anchors and gallery blocks with ink",
+   "side": "Royal administration of the Red Sea harbour, Egypt (4th Dynasty)",
+   "where": "Wadi al-Jarf harbour, Gulf of Suez, base for expeditions to the Sinai copper and turquoise mines",
+   "vantage": 2,
+   "vantage_label": "administrative documents — the storeroom view",
+   "form": "administrative documents (accounts; ink control marks)",
+   "language": "Old Egyptian (hieratic)",
+   "authenticity": "Account papyri (Jarf G–L and other fragments) from the 2013 deposit, partly published; red-ink marks on blocks and jars recorded in situ by the excavators (Tallet & Marouard 2014). Individual scribes are not named. Dates of single sections of the bread register come from secondary discussion and are marked approximate.",
+   "bio": "These are not one person but the harbour's paperwork: grids of figures tracking grain and bread arriving from various provinces, including the Delta, with incoming revenue written in red and outgoing payments in black. Alongside them are the painted marks that teams and officials left on storage jars, boat anchors and the stones that sealed the galleries. They are the counterweight to Merer's log: the view from the people who fed his crew.",
+   "lat": 28.9,
+   "lon": 32.6,
+   "sources": [
+    {
+     "title": "Tallet & Marouard, Near Eastern Archaeology 77.1 (2014)",
+     "url": "https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/RedSea/WadiJarf-Tallet2014.pdf"
+    },
+    {
+     "title": "Archaeology Wiki: oldest Egyptian papyri on display (July 2016)",
+     "url": "https://www.archaeology.wiki/blog/2016/07/22/oldest-egyptian-papyri-display-egyptian-museum/"
+    },
+    {
+     "title": "Times of Israel / AP report on the July 2016 display",
+     "url": "https://www.timesofisrael.com/oldest-egyptian-writing-on-papyrus-displayed-for-first-time/"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "-2559",
+   "date_display": "Year after the 13th cattle count of Khufu (his 27th regnal year, c. 2560 BC); section A-I, days 1–10 (month heading damaged; read by some as 1st month of Akhet)",
+   "precision": "year",
+   "eye": "merer",
+   "place": "Between Tura and Akhet-Khufu (Giza)",
+   "headline": "A ten-day week of shuttling stone downriver",
+   "digest": "The earliest surviving week of Merer's log is a rhythm of river trips: on day 4 the boats go down from Tura toward Akhet-Khufu, on day 6 back upriver, on day 8 down again, on day 9 back, and on day 10 they cast off from Tura and tie up at the pyramid. The first days are badly damaged; one possibly mentions the royal palace. Each day has two columns — what the team did and where it spent the night — so even a gap leaves the outline of a working week.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Papyrus Jarf A, section AI, as summarised in Tallet 2017 and the arXiv study 2411.08061 (month reading uncertain)."
+  },
+  {
+   "date_iso": "-2559",
+   "date_display": "Year after the 13th cattle count of Khufu (his 27th regnal year, c. 2560 BC); section A-II, days 11–20",
+   "precision": "year",
+   "eye": "merer",
+   "place": "Ro-She Khufu, near the foot of the Giza plateau",
+   "headline": "The team turns builders on a dyke at Ro-She Khufu",
+   "digest": "For the middle ten days the boats seem to stop and the crew works on an embankment at Ro-She Khufu, the 'entrance to the basin of Khufu', alongside many other gangs — the log mentions '15' phyles of labour teams. Tallet reads Ro-She Khufu as a water-control point feeding the harbour basin at the foot of the plateau. The entry shows the same men who sailed the stone also shaped the waterways it travelled on.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Papyrus Jarf A, section AII (Tallet 2017 summary)."
+  },
+  {
+   "date_iso": "-2559",
+   "date_display": "Year after the 13th cattle count of Khufu (his 27th regnal year, c. 2560 BC); section B-I, days 25–26 (month not preserved)",
+   "precision": "year",
+   "eye": "merer",
+   "place": "Tura South quarry; night at She-Khufu",
+   "headline": "Hauling at Tura South, then loaded for the pyramid",
+   "digest": "On day 25 Merer spends the day with his section hauling stones at Tura South. On day 26 the boats leave Tura South loaded with limestone, bound for Akhet-Khufu, and the crew sleeps at She-Khufu, the 'basin of Khufu'. Trips from Tura South typically broke the journey here, those from Tura North at Ro-She Khufu.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Papyrus Jarf B, section BI (Tallet 2017; arXiv 2411.08061)."
+  },
+  {
+   "date_iso": "-2559",
+   "date_display": "Year after the 13th cattle count of Khufu (his 27th regnal year, c. 2560 BC); section B-I, days 27–30",
+   "precision": "year",
+   "eye": "merer",
+   "place": "Akhet-Khufu (Giza) and back to Tura South",
+   "headline": "Delivery at the Horizon of Khufu, then straight back",
+   "digest": "On day 27 the boats sail on from She-Khufu and reach Akhet-Khufu with their cargo; on day 28 they set off in the morning back upriver toward Tura South, and by days 29 and 30 the crew is hauling stone at the quarry again. A complete loop — quarry, overnight at the basin, pyramid, return — takes about four days. Tallet estimates two or three such runs per ten-day week, each with perhaps thirty blocks of about 2.5 tonnes.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Papyrus Jarf B, section BI; estimates from Tallet 2017 summary."
+  },
+  {
+   "date_iso": "-2559",
+   "date_display": "Year after the 13th cattle count of Khufu (his 27th regnal year, c. 2560 BC); section B-II, day 1 (the following month)",
+   "precision": "year",
+   "eye": "merer",
+   "place": "Tura, with a boat sent to Heliopolis",
+   "headline": "A boat goes to Heliopolis for food",
+   "digest": "The new month opens not with stone but with supplies: Idjeru, the 'director of six', casts off in a transport boat for Iunu (Heliopolis) to bring back food for the team, while the elite of the crew stays at Tura. It is one of the few entries that shows how the crew was fed — and it matches the account papyri, which track food moving from the provinces to the workforce.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Papyrus Jarf B, section BII, day 1 (Tallet 2017; overview at Wikipedia 'Diary of Merer')."
+  },
+  {
+   "date_iso": "-2559",
+   "date_display": "Year after the 13th cattle count of Khufu (his 27th regnal year, c. 2560 BC); section B-II, days 2–3",
+   "precision": "year",
+   "eye": "merer",
+   "place": "Tura North quarry, then sailing for Giza",
+   "headline": "A night at the quarry, then a loaded run",
+   "digest": "On day 2 Merer and his section spend the day hauling stones at Tura North and sleep there. On day 3 they leave Tura North with the boats loaded and head for Akhet-Khufu. The log's matter-of-fact pairing — work by day, a place to sleep by night — is the oldest surviving version of the day-book format later diarists would make personal.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Papyrus Jarf B, section BII, days 2–3 (Tallet 2017; arXiv 2411.08061)."
+  },
+  {
+   "date_iso": "-2559",
+   "date_display": "Year after the 13th cattle count of Khufu (his 27th regnal year, c. 2560 BC); section B-II, day 6",
+   "precision": "year",
+   "eye": "merer",
+   "place": "On the river",
+   "headline": "Sailing with the naval section of another phyle",
+   "digest": "On day 6 Merer notes that he sails with a boat belonging to the naval section of the Ta-ur phyle — a reminder that his team was one unit in a larger organisation of named, rotating sections. The detail is administrative, but it shows crews lending and sharing boats rather than working in isolation.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Papyrus Jarf B, section BII, day 6 (Tallet 2017 summary)."
+  },
+  {
+   "date_iso": "-2559",
+   "date_display": "Year after the 13th cattle count of Khufu (his 27th regnal year, c. 2560 BC); section B-III, days 13–20",
+   "precision": "year",
+   "eye": "merer",
+   "place": "Tura South",
+   "headline": "Eight days at the quarry; five craft loaded",
+   "digest": "Through the middle of the month the team is mostly at Tura South hauling stone. By day 20 five boats have been loaded. The bare count is typical of the log: Merer records outputs and positions, never effort, weather or mood.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Papyrus Jarf B, section BIII (Tallet 2017 summary)."
+  },
+  {
+   "date_iso": "-2559",
+   "date_display": "Year after the 13th cattle count of Khufu (his 27th regnal year, c. 2560 BC); section B-IV, days 21–25",
+   "precision": "year",
+   "eye": "merer",
+   "place": "Tura North; Ro-She Khufu",
+   "headline": "Loading at Tura North; a director at Ro-She Khufu",
+   "digest": "In the last week of the surviving sequence the boats load at Tura North. Hesi, a 'director of ten', is noted at Ro-She Khufu, the staging post and administrative centre where Tura North crews stopped for the night. On day 25 Merer is back working at Tura. The entries place named men in named places on named days — the backbone of what a logbook is for.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Papyrus Jarf B, section BIV (Tallet 2017 summary)."
+  },
+  {
+   "date_iso": "-2559",
+   "date_display": "Year after the 13th cattle count of Khufu (his 27th regnal year, c. 2560 BC); section B-IV, day 24",
+   "precision": "year",
+   "eye": "ankhhaf",
+   "place": "Ro-She Khufu",
+   "headline": "The noble Ankhhaf, director of Ro-She Khufu",
+   "digest": "On day 24 Merer's log names the noble Ankhhaf as director of Ro-She Khufu. To the inspector he is not a royal brother or a portrait bust but the authority who runs the canal station where the stone boats rest overnight. It is our only glimpse of the man in charge of the pyramid's final phase from within the workforce — and it comes from below.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Papyrus Jarf B, section BIV, day 24 (Tallet 2017 summary); Tallet & Marouard 2014 on Ankhhaf as 'chief for all the works of the king'."
+  },
+  {
+   "date_iso": "-2559",
+   "date_display": "Late in Khufu's reign, c. 2560 BC (Papyrus Jarf D; months fragmentary, perhaps beginning in the 1st month of Akhet)",
+   "precision": "year",
+   "eye": "dedi",
+   "place": "Near the valley temple of Khufu, Giza",
+   "headline": "Guard and supply rounds at the king's valley temple",
+   "digest": "Dedi's log follows several sections of the same team doing repeated watch and supply tasks, apparently around Khufu's valley temple and perhaps his palace at the foot of the pyramid complex. Where Merer's pages are about moving stone, Dedi's are about keeping a royal site provisioned and guarded day after day. As overseer of all four sections, he sees the team as a whole.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Papyrus Jarf D, as described for Tallet 2021 (MIFAO 145) and in Hawass, BIFAO 125 (2025)."
+  },
+  {
+   "date_iso": "-2559",
+   "date_display": "Late in Khufu's reign; opening section of Papyrus Jarf D (possibly 1st month of Akhet)",
+   "precision": "year",
+   "eye": "dedi",
+   "place": "Giza",
+   "headline": "A document that may authorise the team for a year",
+   "digest": "One reading of the start of Papyrus D suggests it mentions an official document — perhaps a royal decree — accrediting the team for the coming twelve months. If so, the logbooks were kept within a formal year-long commission, and the record-keeping itself was part of the job description. The interpretation is tentative.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "arXiv 2411.08061, citing Tallet; tentative reading."
+  },
+  {
+   "date_iso": "-2559",
+   "date_display": "Early 4th Dynasty, probably late Khufu (Papyrus Jarf C; date details not preserved in sources seen)",
+   "precision": "year",
+   "eye": "jarf-c",
+   "place": "Near the Mediterranean coast of the Delta (probable)",
+   "headline": "Building a harbour structure in the far north",
+   "digest": "The fragments of Papyrus C appear to concern a team building a harbour structure near the Mediterranean coast. Tallet links it to the royal estate foundations that were opening up the Nile Delta early in the 4th Dynasty. The same administrative habit that tracked Merer's stone boats was tracking construction at the other end of the country.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Papyrus Jarf C, as described for Tallet 2021 (MIFAO 145)."
+  },
+  {
+   "date_iso": "-2559",
+   "date_display": "Year after the 13th cattle count of Khufu (his 27th regnal year, c. 2560 BC) (date written on one well-preserved account)",
+   "precision": "year",
+   "eye": "harbour-scribes",
+   "place": "Wadi al-Jarf harbour, Gulf of Suez",
+   "headline": "A dated account sheet: the oldest dated papyrus",
+   "digest": "Among the account papyri is a well-preserved sheet dated to the year after the 13th cattle count, the date that anchors the whole archive. The accounts are laid out as tables recording daily or monthly deliveries of food from various regions, including the Delta. Reports from the 2016 display describe revenues in red ink and payments to workers in black — a double-entry habit of colour rather than columns.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Tallet & Marouard 2014 (fig. 13 caption and text); Archaeology Wiki and Times of Israel/AP, July 2016."
+  },
+  {
+   "date_iso": "-2559",
+   "date_display": "Late in Khufu's reign; Papyrus Jarf H, sections for the 3rd month of Akhet, the 4th month of Shemu, the five epagomenal days and the 1st month of Akhet",
+   "precision": "year",
+   "eye": "harbour-scribes",
+   "place": "Wadi al-Jarf (deliveries from a provincial nome)",
+   "headline": "A bread register that runs across the turn of the year",
+   "digest": "A bread register lists deliveries month by month and then across the five extra days at the end of the year, which are allotted one-sixth of a normal month's supply — showing the scribes treating them as five days of the same ration. It then continues into the first month of the new year. It is a dry document, but it shows the calendar of the Merer chapter working in practice.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Papyrus Jarf H as discussed in arXiv 2411.08061 (secondary; details not checked against the edition)."
+  },
+  {
+   "date_iso": "-2559",
+   "date_display": "End of Khufu's reign, c. 2560 BC (final occupation of the harbour)",
+   "precision": "year",
+   "eye": "harbour-scribes",
+   "place": "Galleries G1 and G2, Wadi al-Jarf",
+   "headline": "Galleries sealed, the archive laid in the rubble",
+   "digest": "In the harbour's last phase the storage galleries were closed with large limestone blocks set like portcullises, the joints packed with clay, and the blocks marked in red ink — one formula naming a quarry team after the king's birth name appears at least five times. The papyri were deposited among the blocking stones at the entrances of G1 and G2. Tallet's view is that the crew put its papers away when the site was shut down at the king's death; that reading is an inference from the find spot.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Tallet & Marouard 2014 (closure system, control marks, papyrus deposit)."
+  }
+ ],
+ "convergences": [
+  {
+   "date": "-2559",
+   "label": "Day 24 of section B-IV: Ro-She Khufu and its director",
+   "eyes": [
+    "merer",
+    "ankhhaf"
+   ],
+   "note": "The only meeting point between the foreman and the prince: Merer records the noble Ankhhaf as head of the canal station his boats pass through. One view, two ranks — and the higher rank survives only because the lower wrote it down."
+  },
+  {
+   "date": "-2559",
+   "label": "Feeding the crew",
+   "eyes": [
+    "merer",
+    "harbour-scribes"
+   ],
+   "note": "Merer sends a boat to Heliopolis for food; the account scribes tabulate grain and bread arriving from the provinces. Logbook and ledger describe the same supply chain from opposite ends."
+  },
+  {
+   "date": "-2559",
+   "label": "One team, four sections, one year",
+   "eyes": [
+    "merer",
+    "dedi",
+    "jarf-c"
+   ],
+   "note": "Merer's section ships stone, Dedi's records show sections guarding and supplying the Giza valley temple, and Papyrus C a mission in the Delta. Together they show a single royal team rotated through very different jobs within the same year."
+  }
+ ],
+ "ties": [
+  {
+   "a": "merer",
+   "b": "ankhhaf",
+   "kind": "mentioned",
+   "note": "Merer names the noble Ankhhaf as director of Ro-She Khufu (Papyrus Jarf B, section BIV)."
+  },
+  {
+   "a": "merer",
+   "b": "dedi",
+   "kind": "met",
+   "note": "Dedi was the scribe-official over all four sections of the team that included Merer's; Hawass calls him Merer's superior. Direct contact is implied by the organisation, not recorded in a surviving entry."
+  },
+  {
+   "a": "dedi",
+   "b": "jarf-c",
+   "kind": "same street",
+   "note": "Both logbooks come from the same 2013 deposit and were published together in Tallet's 2021 volume as records of the same team's missions."
+  },
+  {
+   "a": "merer",
+   "b": "harbour-scribes",
+   "kind": "same street",
+   "note": "Merer's logbook and the account papyri were buried together at the entrances of galleries G1 and G2 at Wadi al-Jarf."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v1:long-threads",
+   "note": "Merer's two-column day-book — what we did, where we slept — is the oldest surviving ancestor of the dated personal record traced in The Long Threads, from Ibn al-Banna's day-by-day notebook in 11th-century Baghdad to Mass Observation's collective logs. The form began as accountability to the state long before it became a private voice."
+  },
+  {
+   "to": "v1:heian",
+   "note": "Heian courtiers such as Fujiwara no Michinaga kept their diaries partly as official day-records of rites and duties — a later, independent example of the administrative log that Merer's papyri show at the very start of the written record."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://mfaboston6.emuseum.com/objects/45982/bust-of-prince-ankhhaf",
+   "title": "Bust of Prince Ankhhaf",
+   "caption": "Painted limestone bust excavated in 1925 from Ankhhaf's tomb G 7510 at Giza — the face of the noble whom Merer names as director of Ro-She Khufu.",
+   "date": "MFA dates it 2520–2494 BC",
+   "credit": "Museum of Fine Arts, Boston, 27.442; Harvard University–Boston Museum of Fine Arts Expedition"
+  },
+  {
+   "url": "https://giza.digitalhumanities.fas.harvard.edu/photos/52155/full/",
+   "title": "Bust of Ankh-haf from G 7510, excavation photograph",
+   "caption": "Expedition photograph of the same bust (field number 25-3-241) from the Giza Project archive, showing it as found-object record rather than museum piece.",
+   "date": "1925 expedition (photo date not stated)",
+   "credit": "Giza Project, Harvard University"
+  },
+  {
+   "url": "https://egymonuments.gov.eg/en/news/the-exhibition-of-the-production-of-the-excavations-of-the-french-missions-in-egypt-at-the-egyptian-museum/",
+   "title": "Exhibition of French missions' excavations, Egyptian Museum, Cairo",
+   "caption": "Ministry page for the 2019–2020 Egyptian Museum exhibition that again showed the Wadi al-Jarf papyri from the end of Khufu's reign, described as the oldest inscribed papyri found in Egypt.",
+   "date": "2019–2020",
+   "credit": "Egyptian Ministry of Tourism and Antiquities / Egyptian Museum, Cairo / IFAO"
+  }
+ ],
+ "further": [
+  {
+   "title": "Tallet 2017, Le 'journal de Merer' — IFAO summary (PDF)",
+   "url": "https://www.orient-mediterranee.com/wp-content/uploads/2022/04/1705_tallet.pdf"
+  },
+  {
+   "title": "Tallet & Marouard 2014, The Harbor of Khufu on the Red Sea Coast at Wadi al-Jarf (PDF)",
+   "url": "https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/RedSea/WadiJarf-Tallet2014.pdf"
+  },
+  {
+   "title": "Les papyrus de la mer Rouge II (Jarf C, D, E, F, Aa), IFAO 2021",
+   "url": "https://www.librairie-arcanes.fr/livre/20091241-2-les-papyrus-de-la-mer-rouge-papyrus-jarf-c--pierre-tallet-ifao"
+  },
+  {
+   "title": "Hawass 2025, The Tomb of Dedi, Superior of Inspector Merer (?), BIFAO 125",
+   "url": "https://www.ifao.egnet.net/bifao/125/8"
+  },
+  {
+   "title": "Timekeeping at Akhet Khufu, as shown by the Diary of Merer (arXiv preprint)",
+   "url": "https://arxiv.org/pdf/2411.08061"
+  },
+  {
+   "title": "Archaeology Wiki: the oldest Egyptian papyri on display, July 2016",
+   "url": "https://www.archaeology.wiki/blog/2016/07/22/oldest-egyptian-papyri-display-egyptian-museum/"
+  },
+  {
+   "title": "Archaeology magazine: World's Oldest Port (2014)",
+   "url": "https://archaeology.org/issues/january-february-2014/digs-discoveries/wadi-el-jarf-port-papyrus-khufu-cheops/"
+  },
+  {
+   "title": "The Red Sea Scrolls (Tallet & Lehner, 2021) — review",
+   "url": "https://the-past.com/review/books/the-red-sea-scrolls-how-ancient-papyri-reveal-the-secrets-of-the-pyramids-2/"
+  }
+ ],
+ "vantage_key": "0 = running the work or in charge of it (Merer, Ankhhaf as Merer saw him); 1 = supervising on site at Giza; 2 = the harbour storeroom's administrative view; 3 = the same team's operations far away in the Delta."
+}

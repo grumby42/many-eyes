@@ -1,0 +1,120 @@
+[
+ {
+  "chapter": "vienna-1683",
+  "where": "eye:starhemberg",
+  "severity": "error",
+  "problem": "Starhemberg was born 12 January 1638, so he was 45 throughout the 1683 siege, not 44.",
+  "fix": {
+   "role": "Commandant of Vienna, aged 45; led the garrison of about 11,000 soldiers and the burgher militia"
+  }
+ },
+ {
+  "chapter": "vienna-1683",
+  "where": "threads_out:0",
+  "severity": "error",
+  "problem": "Kara Mustafa brought no heavy siege artillery to Vienna in 1683; his guns were light field pieces and the siege was fought almost entirely by mining. 'Both chapters turn on giant siege guns' is true of 1453 only.",
+  "fix": {
+   "note": "Kara Mustafa marched under the sacred banner and seal of an empire whose capital Mehmed II had taken in 1453. Vienna was the long-promised 'red apple' beyond that conquest. When the Porte reclaimed the seal and banner in Belgrade on 25 December 1683, it closed the age of Ottoman expansion that 1453 had opened. Both chapters turn on mining under the walls, but where Mehmed II had giant bombards, Kara Mustafa came without heavy siege guns and had to rely on his miners."
+  }
+ },
+ {
+  "chapter": "vienna-1683",
+  "where": "intro:0",
+  "severity": "doubt",
+  "problem": "The epidemic inside Vienna in 1683 is recorded as dysentery ('rote Ruhr'). The great Vienna plague came in 1679. 'Plague' in 1683 is doubtful, and the Hocke entry itself names only dysentery.",
+  "fix": {
+   "text_replace": {
+    "old": "while plague, dysentery and fire spread inside",
+    "new": "while dysentery and fire spread inside"
+   },
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "lisbon-1755",
+  "where": "eye:bewicke",
+  "severity": "error",
+  "problem": "Cádiz is about 350 km (roughly 215 miles) from Lisbon in a straight line, not 300 miles.",
+  "fix": {
+   "vantage_label": "struck by the tsunami, about 200 miles away"
+  }
+ },
+ {
+  "chapter": "lisbon-1755",
+  "where": "eye:reimarus",
+  "severity": "error",
+  "problem": "Hamburg is about 2,200 km from Lisbon in a straight line, not 'nearly 2,000 km'.",
+  "fix": {
+   "bio": "Reimarus gives the view from a northern merchant city, some 2,200 km from Lisbon. Hamburg had heavy trading links with Portugal, so its merchants were about to lose fortunes there. On the morning itself, though, all anyone saw was church candlesticks swaying and canal water foaming."
+  }
+ },
+ {
+  "chapter": "tambora-1816",
+  "where": "eye:weare",
+  "severity": "doubt",
+  "problem": "Joseph Weare is given exactly the same life dates (1777–1856) as Rev. Thomas Robbins. That looks like a copy-paste from the Robbins eye. Robbins's dates (1777–1856) are right; Weare's could not be confirmed.",
+  "fix": {
+   "life": "fl. 1803–1856",
+   "role": "Farmer",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "krakatoa-1883",
+  "where": "threads_out:1",
+  "severity": "error",
+  "problem": "Lisbon's dead were mostly killed by the shock and the fire, with the tsunami taking a smaller share on the quays. Unlike Krakatoa, its victims did not die mostly by tsunami. The note contradicts the Lisbon chapter's own intro.",
+  "fix": {
+   "note": "Krakatoa killed most of its victims by tsunami; at Lisbon in 1755 the shock and the fire killed most, though the wave swept the quays. Both disasters drove a wave of systematic inquiry: Lisbon's parish questionnaires then, the Royal Society's worldwide call for timed observations in 1883."
+  }
+ },
+ {
+  "chapter": "krakatoa-1883",
+  "where": "calendar_note",
+  "severity": "error",
+  "problem": "In the calendar_note, Rodrigues (63.4°E) is about 42° of longitude west of Krakatoa (105.4°E). That is roughly 2.8 hours of local time, so about three time zones, not four.",
+  "fix": {
+   "text_replace": {
+    "old": "Rodrigues is about four time zones west of the strait",
+    "new": "Rodrigues is about three time zones west of the strait"
+   }
+  }
+ },
+ {
+  "chapter": "krakatoa-1883",
+  "where": "eye:hopkins",
+  "severity": "doubt",
+  "problem": "Hopkins wrote three letters to Nature in all (1882 and 1883 on shadow-beams and sky effects, January 1884 on the sunsets). Only 'The Remarkable Sunsets' is about the Krakatoa skies, so 'one of three he wrote on the Krakatoa skies' overstates it.",
+  "fix": {
+   "bio": "Hopkins brought a poet's eye and an observer's precision to the sunsets, timing the colours' changes and describing their unearthly quality. His letter is the best known of the many lay observations that flooded Nature that winter; it was one of three letters on sky phenomena that he sent to the journal.",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "krakatoa-1883",
+  "where": "entry:26",
+  "severity": "error",
+  "problem": "Munch was born on 12 December 1863, so on 30 November 1883 he was nineteen, not twenty.",
+  "fix": {
+   "digest": "Kristiania's daily newspaper described the extraordinary red twilight over the city. Munch, a nineteen-year-old art student, was living there; nothing in his own writings of the time records that he saw it. Glows were reported in Norway from late November 1883 to mid-February 1884."
+  }
+ },
+ {
+  "chapter": "krakatoa-1883",
+  "where": "eye:munch",
+  "severity": "doubt",
+  "problem": "Munch turned 20 only on 12 December 1883, so 'aged 20 ... in 1883' is off for the late-November afterglow.",
+  "fix": {
+   "role": "Norwegian painter; aged 19–20 and a young art student in Kristiania in 1883–84"
+  }
+ },
+ {
+  "chapter": "krakatoa-1883",
+  "where": "threads_out:0",
+  "severity": "doubt",
+  "problem": "Comma splice ('...and the red skies, Krakatoa, measured by...') garbles the sentence.",
+  "fix": {
+   "note": "Krakatoa and Tambora (1815) both lie on the Sunda volcanic arc of today's Indonesia. Tambora was far larger and brought the 'year without a summer'; Krakatoa's aerosols gave a smaller Northern Hemisphere cooling (around 0.4 °C the next summer) and the red skies. Krakatoa, measured by telegraph and barograph, is the eruption scientists use to make sense of what diarists described, without instruments, in 1815–16."
+  }
+ }
+]

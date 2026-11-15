@@ -1,0 +1,1371 @@
+{
+ "id": "nile-source",
+ "title": "Where the Nile Begins",
+ "short_title": "The Source of the Nile",
+ "subtitle": "Burton, Speke, Grant and their hosts in East Africa, 1857–1864",
+ "span": "1857–1864",
+ "intro": [
+  "In June 1857 two officers of the East India Company's armies, Richard Burton and John Hanning Speke, walked inland from the coast opposite Zanzibar to test what Arab and Swahili traders already knew: that great lakes lay beyond Unyamwezi. They reached Lake Tanganyika in February 1858, both sick, and on the way back Speke went north alone and stood on 3 August 1858 above the lake its shore-dwellers called Nyanza. He named it Victoria and declared it the source of the Nile. Burton disagreed, and the quarrel outlived one of them.",
+  "Speke returned in 1860 with James Augustus Grant. They spent months at the courts of Rumanika of Karagwe, Muteesa I of Buganda and Kamurasi of Bunyoro, and on 28 July 1862 Speke watched the lake pour out over the rocks he named Ripon Falls. In February 1863 they met Samuel and Florence Baker coming upriver at Gondokoro. A public debate with Burton was arranged for the British Association at Bath on 16 September 1864. On the afternoon of the 15th Speke died by his own gun.",
+  "This chapter sets the explorers' dated journals beside one another and beside the people who hosted, guided and judged them. Here the record is uneven, and the book says so. Burton's and Speke's books are edited narratives built from field journals; Speke's journal gives only day numbers, so months come from his running heads and the DNB itinerary. Grant's journals and dated watercolours survive in Edinburgh. The consul Rigby's journal survives only in a 1935 edition that could not be checked day by day.",
+  "The hosts' voices are the hardest to hear. Sidi Mubarak Bombay, the freed caravan leader who walked further than any of them, left no writing; Snay bin Amir, the Kazeh merchant who first pointed to the northern lake, survives only in Burton; Rumanika, Mutesa and Kamurasi are seen through interpreters and the travellers' prejudices. Each of these eyes is flagged. Ganda historians later wrote their own histories (Apolo Kaggwa's Basekabaka be Buganda, 1901; Ham Mukasa), and those writings remember the explorers with far less awe. They are later sources and are not used for dated entries here.",
+  "Read across, the clusters show what the source of the Nile looked like on the ground: two half-blind, lame officers on a hill above Tanganyika with Bombay telling them what they were looking at; Speke at Mwanza while Burton wrote ethnography at Kazeh; a young Kabaka testing a stranger's guns; men at the falls whose thoughts no one wrote down; and in 1864 a closed debate and a short paragraph in the week's news."
+ ],
+ "calendar_note": "All dates are Gregorian. The explorers kept European dates; Speke's 1863 Journal numbers days without months in the text, so months are taken from its running heads, from Grant's dated chapter headings and from the Dictionary of National Biography itinerary, and inferred months are marked approx. The Arab traders' Hijri calendar and the lake kingdoms' own reckonings are not represented in any dated source used here.",
+ "eyes": [
+  {
+   "id": "burton",
+   "name": "Richard Francis Burton",
+   "short": "Burton",
+   "life": "1821–1890",
+   "role": "Captain, Bombay Army, aged 36; commander of the RGS East African Expedition 1856–59",
+   "side": "British (Royal Geographical Society / East India Company service)",
+   "where": "With the caravan from the Mrima coast to Kazeh and Lake Tanganyika; later at Bath, Sept 1864",
+   "lat": -5.02,
+   "lon": 32.8,
+   "waypoints": [
+    {
+     "lat": -6.47,
+     "lon": 38.93,
+     "label": "Kaole, Jun 1857"
+    },
+    {
+     "lat": -5.02,
+     "lon": 32.8,
+     "label": "Kazeh, Nov 1857"
+    },
+    {
+     "lat": -4.91,
+     "lon": 29.68,
+     "label": "Ujiji, Feb 1858"
+    },
+    {
+     "lat": -3.4,
+     "lon": 29.14,
+     "label": "Uvira, Apr 1858"
+    },
+    {
+     "lat": -5.02,
+     "lon": 32.8,
+     "label": "Kazeh, Aug 1858"
+    },
+    {
+     "lat": 51.38,
+     "lon": -2.36,
+     "label": "Bath, Sep 1864"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "expedition commander; Speke's rival",
+   "form": "travel narrative built on dated field journals (published 1860); dated preface and memoir (1864)",
+   "language": "English",
+   "authenticity": "The Lake Regions of Central Africa (2 vols, Longman, 1860) was written up in England from his field notebooks and is laced with retrospective argument against Speke; its dated itinerary table and day-by-day marches are reliable for movements, less so for tone. Many of his original notebooks were burned by his widow Isabel after his death in 1890. The Nile Basin (Tinsley, 1864) carries his own dated account of the Bath week.",
+   "bio": "Linguist, soldier and orientalist, already famous for his disguised journey to Mecca. He was ill for much of this expedition, carried in a hammock for long stretches, and leaned heavily on Arab traders at Kazeh for geography. His pages are the sharpest observation of caravan life and the most partisan account of the quarrel.",
+   "sources": [
+    {
+     "title": "The Lake Regions of Central Africa, vol. 1 (1860), Project Gutenberg",
+     "url": "https://gutenberg.org/files/66812/66812-h/66812-h.htm"
+    },
+    {
+     "title": "The Lake Regions of Central Africa, vol. 2 (1860), Project Gutenberg",
+     "url": "https://gutenberg.org/files/66813/66813-h/66813-h.htm"
+    },
+    {
+     "title": "The Nile Basin (1864), Burtoniana",
+     "url": "https://www.burtoniana.org/books/1864-The%20Nile%20Basin/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "speke",
+   "name": "John Hanning Speke",
+   "short": "Speke",
+   "life": "1827–1864",
+   "role": "Captain, Bengal Army (46th Bengal Native Infantry); Burton's second in 1857–59, leader of the RGS expedition 1860–63",
+   "side": "British (Royal Geographical Society / Indian Army)",
+   "where": "Lake Tanganyika and the south shore of the Nyanza (1858); Karagwe, Buganda, Bunyoro and down the Nile (1861–63)",
+   "lat": 0.33,
+   "lon": 32.58,
+   "waypoints": [
+    {
+     "lat": -4.91,
+     "lon": 29.68,
+     "label": "Ujiji, Feb 1858"
+    },
+    {
+     "lat": -2.52,
+     "lon": 32.9,
+     "label": "Mwanza, Aug 1858"
+    },
+    {
+     "lat": -1.55,
+     "lon": 31.1,
+     "label": "Karagwe, Nov 1861"
+    },
+    {
+     "lat": 0.33,
+     "lon": 32.58,
+     "label": "Mutesa's court, 1862"
+    },
+    {
+     "lat": 0.42,
+     "lon": 33.19,
+     "label": "Ripon Falls, Jul 1862"
+    },
+    {
+     "lat": 4.91,
+     "lon": 31.67,
+     "label": "Gondokoro, Feb 1863"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "discoverer-claimant; the man at the falls",
+   "form": "journal (day-numbered, published 1863); earlier journal of 1858 published 1864",
+   "language": "English",
+   "authenticity": "Journal of the Discovery of the Source of the Nile (Blackwood, 1863) keeps his field journal's day-by-day form, but with only day numbers in the text, so months are fixed from running heads and the DNB itinerary. It was edited for publication and his Buganda pages were controversial in his lifetime. What Led to the Discovery of the Source of the Nile (1864) prints his 1858 Nyanza journal, first serialised in Blackwood's Magazine.",
+   "bio": "A Devon gentleman-officer and hunter who had served in the Punjab, Speke was half-blind with ophthalmia at Tanganyika and then, alone with his men, reached the Nyanza and declared it the Nile's source on intuition. His second journey proved him broadly right, without the continuous survey that would have silenced Burton. He died by his own gun the day before he was to defend his claim in public.",
+   "sources": [
+    {
+     "title": "Journal of the Discovery of the Source of the Nile (1863), Project Gutenberg",
+     "url": "https://gutenberg.org/files/3284/3284-h/3284-h.htm"
+    },
+    {
+     "title": "What Led to the Discovery of the Source of the Nile (1864), Project Gutenberg",
+     "url": "https://www.gutenberg.org/cache/epub/8417/pg8417-images.html"
+    },
+    {
+     "title": "Chapter-by-chapter text of the Journal (explorion)",
+     "url": "https://www.explorion.iovan.net/discovery-source-nile/chapter-xi-palace-uganda"
+    },
+    {
+     "title": "Dictionary of National Biography, vol. 53, 'Speke' (1898)",
+     "url": "https://kwx.liehendr.com/content/wikisource_en_all_maxi_2022-09/A/Page%3ADictionary_of_National_Biography_volume_53.djvu/332"
+    }
+   ]
+  },
+  {
+   "id": "grant",
+   "name": "James Augustus Grant",
+   "short": "Grant",
+   "life": "1827–1892",
+   "role": "Captain, Bengal Army, aged 33; Speke's companion, naturalist and artist 1860–63",
+   "side": "British (Royal Geographical Society / Indian Army)",
+   "where": "With Speke to Karagwe; left as an invalid with Rumanika; at Mutesa's court May–July 1862; then via Bunyoro to Gondokoro",
+   "lat": -1.55,
+   "lon": 31.1,
+   "waypoints": [
+    {
+     "lat": -6.44,
+     "lon": 38.9,
+     "label": "Bagamoyo, Oct 1860"
+    },
+    {
+     "lat": -5.02,
+     "lon": 32.8,
+     "label": "Kazeh, Jan 1861"
+    },
+    {
+     "lat": -1.55,
+     "lon": 31.1,
+     "label": "Karagwe, 1861-62"
+    },
+    {
+     "lat": 0.33,
+     "lon": 32.58,
+     "label": "Mutesa's court, May 62"
+    },
+    {
+     "lat": 1.65,
+     "lon": 32.35,
+     "label": "Bunyoro, Sep 1862"
+    },
+    {
+     "lat": 4.91,
+     "lon": 31.67,
+     "label": "Gondokoro, Feb 1863"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "companion, botanist, often left behind",
+   "form": "journals; dated sketchbook (watercolours); travel narrative (1864)",
+   "language": "English",
+   "authenticity": "His journals (six volumes, 1849–1891) and three albums of African sketches, chiefly watercolour, 1860–63, are at the National Library of Scotland (MSS.17919–17921); some sketches carry notes in Speke's hand and became woodcuts in Speke's Journal. A Walk Across Africa (1864) is his narrative, dated by chapter headings.",
+   "bio": "A Scottish officer who had been at the relief of Lucknow, Grant was loyal to Speke to the end and kept out of the quarrel. Disabled by a swollen leg for months, he spent long weeks as Rumanika's guest in Karagwe and was sent away from the Nile just before Speke reached the falls. His plant lists and sketches are the expedition's quietest and most careful record.",
+   "sources": [
+    {
+     "title": "National Library of Scotland: albums of Grant's African sketches, 1860–1863 (MSS.17919–17921)",
+     "url": "https://manuscripts.nls.uk/repositories/2/archival_objects/41102"
+    },
+    {
+     "title": "National Library of Scotland: Journals of James Augustus Grant, 1849–1891",
+     "url": "https://manuscripts.nls.uk/repositories/2/archival_objects/41094"
+    },
+    {
+     "title": "A Walk Across Africa (1864), Internet Archive text",
+     "url": "https://archive.org/stream/awalkacrossafri00grangoog/awalkacrossafri00grangoog_djvu.txt"
+    }
+   ]
+  },
+  {
+   "id": "bombay",
+   "name": "Sidi Mubarak Bombay (Mbarak Mombée)",
+   "short": "Bombay",
+   "life": "c.1820–1885",
+   "role": "Caravan headman, guide and interpreter; formerly enslaved, freed in western India",
+   "side": "Yao-born Zanzibari freedman, in the explorers' pay",
+   "where": "At the head of the porters on both expeditions",
+   "lat": -5.02,
+   "lon": 32.8,
+   "waypoints": [
+    {
+     "lat": -6.47,
+     "lon": 38.93,
+     "label": "Kaole, Jun 1857"
+    },
+    {
+     "lat": -4.91,
+     "lon": 29.68,
+     "label": "Ujiji, Feb 1858"
+    },
+    {
+     "lat": -2.52,
+     "lon": 32.9,
+     "label": "Mwanza, Aug 1858"
+    },
+    {
+     "lat": 0.33,
+     "lon": 32.58,
+     "label": "Mutesa's court, 1862"
+    },
+    {
+     "lat": 0.42,
+     "lon": 33.19,
+     "label": "Ripon Falls, Jul 1862"
+    },
+    {
+     "lat": 4.91,
+     "lon": 31.67,
+     "label": "Gondokoro, Feb 1863"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "caravan leader; the go-between (voice via others)",
+   "form": "no writings of his own; seen through Burton's and Speke's journals (flagged)",
+   "language": "(Hindustani with Speke; Swahili, Yao) — recorded only in English by others",
+   "authenticity": "FLAG: Bombay left no diary or letters that survive. Every word and act attributed to him here comes from Burton's or Speke's pages, coloured by their views of him and of each other. The RGS gave him an award in 1876.",
+   "bio": "Captured as a boy by slave traders, sold through Kilwa and taken to Gujarat, he returned free to Africa and joined the Sultan of Zanzibar's forces before Speke recruited him in 1857. He talked with Speke in Hindustani, kept the caravans together, and was at both lakes and the falls. He went on to lead Stanley's caravan in 1871 and to cross Africa with Cameron, becoming probably the most travelled man of his age on the continent.",
+   "sources": [
+    {
+     "title": "RGS factsheet: Sidi Mubarak Bombay",
+     "url": "https://www.rgs.org/media/xs0ksumf/exploringafricafactsheetsidimubarakbombay.pdf"
+    },
+    {
+     "title": "JSTOR Daily: Mbarak Mombee, an African explorer robbed of his name",
+     "url": "https://daily.jstor.org/mbarak-mombee-an-african-explorer-robbed-of-his-name"
+    }
+   ]
+  },
+  {
+   "id": "snay",
+   "name": "Snay bin Amir",
+   "short": "Snay bin Amir",
+   "life": "d. c.1860–61",
+   "role": "Omani Arab merchant and leading resident of Kazeh (Tabora), the ivory-and-slave trade's inland depot",
+   "side": "Swahili-Arab trading community of Unyanyembe",
+   "where": "His house at Kazeh",
+   "lat": -5.02,
+   "lon": 32.8,
+   "vantage": 0,
+   "vantage_label": "host and informant (voice via Burton)",
+   "form": "no writings survive; seen through Burton's and Speke's narratives (flagged)",
+   "language": "Arabic (recorded only in English by Burton)",
+   "authenticity": "FLAG: Snay's knowledge and hospitality are known only from Burton's Lake Regions and from Speke's later report of his death. The traders' own commercial letters and Arabic records of Kazeh are not known to survive for these months.",
+   "bio": "Burton found him the most learned and generous of the Kazeh merchants and drew on him for the routes to Ujiji, Karagwe and the northern lake. His information, not European survey, first pointed both Englishmen toward the Nyanza. He was killed in the war with Manwa Sera before Speke returned in 1861.",
+   "sources": [
+    {
+     "title": "The Lake Regions of Central Africa, vol. 1 (1860), Project Gutenberg",
+     "url": "https://gutenberg.org/files/66812/66812-h/66812-h.htm"
+    }
+   ]
+  },
+  {
+   "id": "rumanika",
+   "name": "Rumanyika I of Karagwe (Rumanika)",
+   "short": "Rumanika",
+   "life": "d. c.1878",
+   "role": "Omukama (king) of Karagwe, west of the Nyanza",
+   "side": "Kingdom of Karagwe",
+   "where": "His capital at Bweranyange, above Lake Rwenzo (Windermere)",
+   "lat": -1.55,
+   "lon": 31.1,
+   "vantage": 0,
+   "vantage_label": "host king (voice via Speke and Grant)",
+   "form": "no writings; seen through Speke's journal and Grant's narrative and sketches (flagged)",
+   "language": "Kinyambo (recorded only in English)",
+   "authenticity": "FLAG: Rumanika's words reach us only as rendered by Speke and Grant through interpreters. Karagwe's own remembered history was written down later and is not used for dated entries here.",
+   "bio": "Speke admired him above every other ruler he met: curious about the world, generous with food, and willing to send the strangers on to Buganda. He kept the invalid Grant for three months as a guest. His court is the calm before the storm of Mutesa's.",
+   "sources": [
+    {
+     "title": "Speke, Journal (1863), ch. 'Karague and Uganda' (explorion)",
+     "url": "https://www.explorion.iovan.net/discovery-source-nile/chapter-x-karague-and-uganda"
+    },
+    {
+     "title": "Speke, Journal (1863), Project Gutenberg",
+     "url": "https://gutenberg.org/files/3284/3284-h/3284-h.htm"
+    }
+   ]
+  },
+  {
+   "id": "mutesa",
+   "name": "Muteesa I, Kabaka of Buganda (Mutesa, 'Mtesa')",
+   "short": "Mutesa I",
+   "life": "c.1837–1884",
+   "role": "Kabaka (king) of Buganda, in his mid-twenties, early in his reign",
+   "side": "Kingdom of Buganda",
+   "where": "His palace on the hills near present-day Kampala",
+   "lat": 0.33,
+   "lon": 32.58,
+   "vantage": 0,
+   "vantage_label": "host king (voice via Speke and Grant)",
+   "form": "no record of his own for 1862; seen through Speke's and Grant's journals; later Ganda histories (flagged)",
+   "language": "Luganda (recorded only in English)",
+   "authenticity": "FLAG: For 1862 the Ganda court survives only through Speke and Grant, who understood little Luganda and depended on interpreters such as Bombay. Ganda historians later wrote their own histories, notably Apolo Kaggwa's Basekabaka be Buganda (1901; English tr. M. S. M. Kiwanuka, The Kings of Buganda, 1971) and Ham Mukasa's writings, which record, for instance, chiefs dismissing Speke, Grant and Stanley as mere commoners (bakopi) sent by European kings. Those are later works and are not used for dated entries. Mutesa's own letters date from the 1870s.",
+   "bio": "Mutesa ruled the most centralised state in the lakes region, with a vast court, a fleet of canoes and a ritual of royal power that Speke recorded day by day, executions included. He kept the Englishmen at court for months, tested their guns and their patience, and finally let them go north. He later received Stanley in 1875 and invited missionaries, playing Christian, Muslim and Egyptian interests against each other.",
+   "sources": [
+    {
+     "title": "Speke, Journal (1863), ch. 'Palace, Uganda' (explorion)",
+     "url": "https://www.explorion.iovan.net/discovery-source-nile/chapter-xi-palace-uganda"
+    },
+    {
+     "title": "Kagwa, The Kings of Buganda, tr. Kiwanuka (1971), eHRAF record",
+     "url": "https://ehrafworldcultures.yale.edu/cultures/fk07/documents/023"
+    },
+    {
+     "title": "J. A. Rowe, 'Okukkera ng'omuzungu' (Boston University, 1991), on Luganda historical writing",
+     "url": "https://open.bu.edu/server/api/core/bitstreams/6dc8da1d-329c-4ea7-8b41-5a03e9605f45/content"
+    }
+   ]
+  },
+  {
+   "id": "kamurasi",
+   "name": "Kamurasi, Omukama of Bunyoro (Kamrasi)",
+   "short": "Kamurasi",
+   "life": "d. 1869",
+   "role": "Omukama (king) of Bunyoro-Kitara, Buganda's rival to the north-west",
+   "side": "Kingdom of Bunyoro-Kitara",
+   "where": "His capital in northern Bunyoro, near the Kafu and the Nile",
+   "lat": 1.65,
+   "lon": 32.35,
+   "vantage": 0,
+   "vantage_label": "host king (voice via Speke, Grant and Baker)",
+   "form": "no writings; seen through Speke's and Grant's journals and Baker's narrative (flagged)",
+   "language": "Runyoro (recorded only in English)",
+   "authenticity": "FLAG: Kamurasi's view of these strangers survives only as filtered by Speke, Grant and Baker, all of whom resented his delays. Nyoro tradition, written down in the twentieth century, remembers him differently and is not used for dated entries here.",
+   "bio": "Wary of anyone arriving from his enemy Mutesa, Kamurasi made Speke and Grant wait for weeks, haggled hard for guns and goods, and let them pass. When Baker arrived in 1864 he had his brother stand in for him at first. His caution reads in the explorers' pages as greed; read from Bunyoro it looks like statecraft under pressure.",
+   "sources": [
+    {
+     "title": "Speke, Journal (1863), ch. 'Unyoro' (explorion)",
+     "url": "https://www.explorion.iovan.net/discovery-source-nile/chapter-xvii-unyoro"
+    },
+    {
+     "title": "Baker, The Albert N'yanza (1866), Project Gutenberg",
+     "url": "https://www.gutenberg.org/cache/epub/3668/pg3668.html"
+    }
+   ]
+  },
+  {
+   "id": "baker",
+   "name": "Samuel White Baker",
+   "short": "Baker",
+   "life": "1821–1893",
+   "role": "English traveller and big-game hunter, aged 41, travelling at his own expense with Florence (later Lady Baker)",
+   "side": "British private expedition, working from Egyptian Sudan",
+   "where": "Khartoum to Gondokoro (1862–63); Bunyoro and Lake Albert (1864)",
+   "lat": 4.91,
+   "lon": 31.67,
+   "waypoints": [
+    {
+     "lat": 15.6,
+     "lon": 32.53,
+     "label": "Khartoum, Dec 1862"
+    },
+    {
+     "lat": 4.91,
+     "lon": 31.67,
+     "label": "Gondokoro, Feb 1863"
+    },
+    {
+     "lat": 1.65,
+     "lon": 32.35,
+     "label": "Bunyoro, Feb 1864"
+    },
+    {
+     "lat": 1.8,
+     "lon": 31.3,
+     "label": "Lake Albert, Mar 1864"
+    },
+    {
+     "lat": 15.6,
+     "lon": 32.53,
+     "label": "Khartoum, May 1865"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the man coming upriver to meet them",
+   "form": "travel narrative from his journals (published 1866)",
+   "language": "English",
+   "authenticity": "The Albert N'yanza (Macmillan, 1866) was written up from his journals. Florence Baker (born Barbara Maria Szász) was beside him at Gondokoro, but her surviving diary covers only the later 1870–73 Nile expedition (published as Morning Star, ed. Anne Baker, 1972); no diary of hers for 1863 is known, so she appears here only through his pages.",
+   "bio": "Baker had come up the White Nile hoping to find the source himself and instead met Speke and Grant coming down. Using Speke's directions he went on to reach and name Lake Albert, the second great reservoir of the Nile. With Florence he is the chapter's outside witness to the expedition's end.",
+   "sources": [
+    {
+     "title": "The Albert N'yanza (1866), Project Gutenberg",
+     "url": "https://www.gutenberg.org/cache/epub/3668/pg3668.html"
+    },
+    {
+     "title": "Princeton University Library: Sir Samuel White Baker",
+     "url": "https://static-prod.lib.princeton.edu/visual_materials/maps/websites/africa/baker/baker.html"
+    },
+    {
+     "title": "Morning Star: Florence Baker's diary, 1870–1873 (Open Library)",
+     "url": "https://openlibrary.org/books/OL21554086M"
+    }
+   ]
+  },
+  {
+   "id": "rigby",
+   "name": "Christopher Palmer Rigby",
+   "short": "Rigby",
+   "life": "1820–1885",
+   "role": "Lieutenant-Colonel, Bombay Army; British consul and East India Company agent at Zanzibar 1858–61",
+   "side": "British consulate, Zanzibar",
+   "where": "Zanzibar town",
+   "lat": -6.16,
+   "lon": 39.19,
+   "vantage": 3,
+   "vantage_label": "the consul on the coast",
+   "form": "journal and dispatches (edited 1935)",
+   "language": "English",
+   "authenticity": "His journal, dispatches and letters were edited by his daughter, Lilian M. Russell, as General Rigby, Zanzibar and the Slave Trade (Allen & Unwin, 1935); the book prints his notes of visits by Burton, Speke and Grant and some of their letters. The original diary was reportedly sold in 2021. Exact day-dates of his entries could not be checked online, so his entries are given by month.",
+   "bio": "An abolitionist consul and gifted linguist who already disliked Burton from their Bombay Army days, Rigby refused to pay the porters Burton had left unpaid and became Speke's ally. His consulate was the expeditions' paymaster, post office and rumour mill. He is the coast's view of what happened inland.",
+   "sources": [
+    {
+     "title": "General Rigby, Zanzibar and the Slave Trade (1935), bookseller description",
+     "url": "https://www.forumrarebooks.com/item/rigby_colonel_christopher_palmer_lilian_m_russell_rigby_ed__general_rigby_zanzibar_and_the_slave_trade_with_journals_dispatches_.html?c=RECENT"
+    }
+   ]
+  },
+  {
+   "id": "press",
+   "name": "British and colonial newspapers, 1864",
+   "short": "The press",
+   "life": "1864",
+   "role": "Weekly and colonial papers reporting Speke's death and the Bath meeting",
+   "side": "British public; New Zealand colonial readers",
+   "where": "London and Bath; reprinted in Hawke's Bay, New Zealand",
+   "lat": 51.38,
+   "lon": -2.36,
+   "vantage": 4,
+   "vantage_label": "news at second hand",
+   "form": "newspaper reports (press; flagged)",
+   "language": "English",
+   "authenticity": "FLAG: Press reports, not a diary. One is a London weekly news column of 24 September 1864 (identified from its archive address as the Masonic Mirror); the other a 'Home News' reprint in the Hawke's Bay Times, 2 December 1864. Both repeat early, partly inaccurate details.",
+   "bio": "Newspapers carried the death of 'the discoverer' around the empire within weeks. They show how fast the quarrel became a legend and how loosely the facts travelled: one gives Speke's age wrongly, another misspells Corsham.",
+   "sources": [
+    {
+     "title": "'The Week', weekly news column, 24 Sept 1864 (Masonic Periodicals Online)",
+     "url": "https://masonicperiodicals.org/periodicals/mmr/issues/mmr_24091864/page/18/"
+    },
+    {
+     "title": "Hawke's Bay Times, 2 December 1864 (Papers Past)",
+     "url": "https://dynamic-rsnz.natlib.govt.nz/newspapers/HBT18641202.2.14.10"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1857-06-27",
+   "date_display": "Saturday 27 June 1857",
+   "precision": "day",
+   "eye": "burton",
+   "place": "Kaole, on the Mrima coast opposite Zanzibar",
+   "headline": "The caravan leaves the coast for the interior",
+   "digest": "Burton's itinerary table gives 27 June as the departure from Kaole, eleven days after the corvette Artémise landed the party from Zanzibar. Said bin Salim, appointed by the Sultan as caravan guide, had gone ahead to hire porters. The whole enterprise rests on borrowed men, hired donkeys and bales of cloth and beads as currency, and Burton is already uneasy about the consulate's promise to pay the porters.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lake Regions vol. 1, itinerary table and ch. I–II (Gutenberg 66812)."
+  },
+  {
+   "date_iso": "1857-06-27",
+   "date_display": "June 1857",
+   "precision": "month",
+   "eye": "bombay",
+   "place": "Kaole and the first marches inland",
+   "headline": "Bombay joins the expedition as a gun-carrier",
+   "digest": "Burton's personnel list names 'Seedy Mubarak Mombai (Bombay)' as one of two gun-carriers. Speke, who could talk with him in Hindustani, soon relies on him above everyone else. Nothing in his own words survives; even his name comes to us in Burton's spelling.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lake Regions vol. 1, list of personnel; RGS factsheet on Bombay."
+  },
+  {
+   "date_iso": "1857-11-07",
+   "date_display": "Saturday 7 November 1857",
+   "precision": "day",
+   "eye": "burton",
+   "place": "Kazeh (Tabora), Unyanyembe",
+   "headline": "Burton reaches Kazeh, the traders' town in Unyamwezi",
+   "digest": "After four months of fever, desertions and lost loads, the caravan reaches Kazeh, the inland base of the Zanzibar ivory and slave trade. The Arab merchants receive the sick Englishmen with houses, food and news. Burton treats the town as a library: here he gathers the routes, names and rumours of three great waters to the west and north.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lake Regions vol. 1, itinerary table ('7th November', arrival at Unyanyembe)."
+  },
+  {
+   "date_iso": "1857-11-15",
+   "date_display": "November–December 1857",
+   "precision": "range",
+   "eye": "snay",
+   "place": "Kazeh",
+   "headline": "Snay bin Amir tells Burton of the northern lake",
+   "digest": "In Burton's telling, Snay bin Amir is the best-informed of the Kazeh merchants, a man who has travelled to Karagwe and knows the routes to Ujiji. From him and his fellow traders comes the report of a great lake to the north, Ukerewe, as well as the one to the west. The information is what later sends Speke north; the merchants are, as Burton admits, the real geographers here.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Lake Regions vol. 1, chapter on Kazeh (Gutenberg 66812); Snay's own words are not preserved (FLAG)."
+  },
+  {
+   "date_iso": "1858-02-13",
+   "date_display": "Saturday 13 February 1858",
+   "precision": "day",
+   "eye": "burton",
+   "place": "Hill above the Tanganyika shore",
+   "headline": "Burton first sees Lake Tanganyika",
+   "digest": "Carried up a steep hill, Burton at first takes the glint below for a streak of light and is disappointed. Bombay tells him that this is the water; a few steps further the whole lake opens out, blue between mountains, and his disappointment turns to rapture. He is so lame he can barely walk.",
+   "quote": "the whole scene suddenly burst upon my view",
+   "confidence": "verified",
+   "source_note": "Lake Regions vol. 2, ch. XIII (Gutenberg 66813), entry for 13 February."
+  },
+  {
+   "date_iso": "1858-02-13",
+   "date_display": "13 February 1858",
+   "precision": "day",
+   "eye": "bombay",
+   "place": "Hill above the Tanganyika shore",
+   "headline": "Bombay names the lake for the half-blind Englishmen",
+   "digest": "Burton records that it was Bombay who told him the glimmer below was the lake itself. With Burton crippled and Speke nearly blind, the first confirmed sight of the lake belonged to the caravan's headman. The remark survives only in Burton's English.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lake Regions vol. 2, ch. XIII (Bombay's remark, 13 February). FLAG: voice via Burton."
+  },
+  {
+   "date_iso": "1858-02-13",
+   "date_display": "February 1858",
+   "precision": "month",
+   "eye": "speke",
+   "place": "Approach to Lake Tanganyika",
+   "headline": "Speke can scarcely see the lake he has walked to",
+   "digest": "Speke's eyes are inflamed with ophthalmia so badly that the lake is to him only a blur of mist and light. He later writes bitterly of reaching the goal without being able to see it. The illness will shape everything: Burton remembers a useless companion, Speke a commander who used his blindness against him.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "What Led to the Discovery (1864), Tanganyika chapters (Gutenberg 8417); Lake Regions vol. 2, ch. XIII."
+  },
+  {
+   "date_iso": "1858-02-14",
+   "date_display": "Sunday 14 February 1858",
+   "precision": "day",
+   "eye": "burton",
+   "place": "Kawele, Ujiji",
+   "headline": "By canoe along the shore to Ujiji",
+   "digest": "The party sails north-west along the eastern shore and lands at Kawele in Ujiji about eleven in the morning. Burton settles into a ruined house in the trading town and starts trying to hire boats. Ujiji, where Arab traders and the lake peoples meet, is the expedition's furthest base.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lake Regions vol. 2, ch. XIII, entry for 14 February."
+  },
+  {
+   "date_iso": "1858-03-03",
+   "date_display": "3 March 1858",
+   "precision": "day",
+   "eye": "speke",
+   "place": "Crossing from Kabogo to Kasenge island",
+   "headline": "Speke crosses the lake to look for a dhow",
+   "digest": "Sent to hire an Arab dhow, Speke crosses to Kasenge on the western side but fails to get a boat. During this trip a beetle crawls into his ear at night; trying to get it out with a knife, he wounds his own ear and is deaf and in pain for months. He returns empty-handed.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "DNB 'Speke' (crossing to Kasenge, 3 March 1858); What Led to the Discovery, ch. II ('Black beetles')."
+  },
+  {
+   "date_iso": "1858-03-31",
+   "date_display": "31 March 1858",
+   "precision": "day",
+   "eye": "speke",
+   "place": "Kawele, Ujiji",
+   "headline": "Speke rejoins Burton without a boat",
+   "digest": "Speke is back at Ujiji with nothing to show but a damaged ear. Burton, still unable to march, reads the failure as incompetence; Speke reads Burton's mood as contempt. They decide to go north together in hired canoes to find the river said to flow from the lake's head.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DNB 'Speke' (rejoined Burton 31 March 1858)."
+  },
+  {
+   "date_iso": "1858-04-26",
+   "date_display": "April–May 1858",
+   "precision": "range",
+   "eye": "burton",
+   "place": "Uvira, north end of Lake Tanganyika",
+   "headline": "At Uvira, the river flows the wrong way",
+   "digest": "Paddled to the northern end of the lake, the two men learn that the river there, the Rusizi, runs into Tanganyika rather than out of it. If true, the lake cannot be the Nile's head. Burton later tries to argue around the evidence; the canoe trip back to Ujiji is the last thing the partners do as a team.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Lake Regions vol. 2 (Uvira chapter); DNB 'Speke'. Exact days not checked."
+  },
+  {
+   "date_iso": "1858-07-09",
+   "date_display": "9 July 1858",
+   "precision": "day",
+   "eye": "speke",
+   "place": "Kazeh",
+   "headline": "Speke leaves Kazeh for the northern lake",
+   "digest": "With Burton too ill to travel, Speke sets out north with Bombay and a small party to check the traders' reports of Ukerewe. Burton later says he sent him to be rid of him for a while; Speke says he went to do the useful work. The detour takes under seven weeks.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DNB 'Speke' (left Kazé 9 July 1858)."
+  },
+  {
+   "date_iso": "1858-07-27",
+   "date_display": "July 1858",
+   "precision": "month",
+   "eye": "rigby",
+   "place": "Zanzibar",
+   "headline": "A new consul arrives at Zanzibar",
+   "digest": "Rigby takes up the consulate after Hamerton's death in 1857. He inherits the expedition's unpaid bills and the promise to its porters. His journal opens on a town of ivory, cloves and slave dhows, which he means to fight.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "General Rigby, Zanzibar and the Slave Trade (1935); month only."
+  },
+  {
+   "date_iso": "1858-07-30",
+   "date_display": "30 July 1858",
+   "precision": "day",
+   "eye": "speke",
+   "place": "Southern creek of the Nyanza",
+   "headline": "Speke reaches a creek of the great lake",
+   "digest": "Speke reaches a long creek at the southern end of the lake, the first open water of the Nyanza he sees. He is not yet sure how large it is. He hurries on to find a hill with a view.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DNB 'Speke' (reached southern point 30 July); Journal (1863), introduction."
+  },
+  {
+   "date_iso": "1858-08-03",
+   "date_display": "Tuesday 3 August 1858",
+   "precision": "day",
+   "eye": "speke",
+   "place": "Hill near Mwanza (Muanza), south shore",
+   "headline": "Speke sees the Nyanza and names it Victoria",
+   "digest": "From a hill near Mwanza the lake spreads to the horizon. Speke is convinced at once, without survey, that this water feeds the Nile, and names it after the Queen. Local people call it Nyanza, 'the lake'; he records their name too and asks how far it stretches.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DNB 'Speke' (first viewed full lake and named it, 3 August 1858); What Led to the Discovery, ch. IV ('First sight of the Victoria N'yanza')."
+  },
+  {
+   "date_iso": "1858-08-03",
+   "date_display": "3 August 1858",
+   "precision": "day",
+   "eye": "bombay",
+   "place": "Mwanza, south shore of the Nyanza",
+   "headline": "Bombay translates the lake's distances",
+   "digest": "Speke's questions about the lake's size and the countries round it pass through Bombay, who turns them into Swahili and the answers back into Hindustani. Speke's conviction depends on these relayed answers. Bombay's own view of the moment is nowhere recorded.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "What Led to the Discovery (1864), Nyanza journal; FLAG: Bombay's role known only from Speke."
+  },
+  {
+   "date_iso": "1858-08-03",
+   "date_display": "August 1858",
+   "precision": "month",
+   "eye": "burton",
+   "place": "Kazeh",
+   "headline": "Burton stays behind, writing up Unyamwezi",
+   "digest": "While Speke stands at the Nyanza, Burton is at Kazeh, recovering slowly and filling his notebooks with ethnography, vocabularies and the Arabs' itineraries. His later chapters on Unyamwezi, its trade, chiefs and disease, are among the richest he wrote. He records an earthquake shock felt there in June.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Lake Regions vol. 2, ch. XII (Unyamwezi)."
+  },
+  {
+   "date_iso": "1858-08-25",
+   "date_display": "25 August 1858",
+   "precision": "day",
+   "eye": "speke",
+   "place": "Kazeh",
+   "headline": "Speke returns: the source of the Nile, he says",
+   "digest": "Speke walks back into Kazeh and tells Burton, almost at breakfast, that he has found the source of the White Nile. Burton, who has the Arabs' route data and no faith in Speke's guesses, refuses to accept it. They agree to stop discussing it; the silence lasts until England.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DNB 'Speke' (rejoined Burton 25 August 1858); Lake Regions vol. 2."
+  },
+  {
+   "date_iso": "1859-03-04",
+   "date_display": "March 1859",
+   "precision": "month",
+   "eye": "rigby",
+   "place": "Zanzibar",
+   "headline": "Burton and Speke come back; Rigby takes sides",
+   "digest": "The explorers return to a Zanzibar troubled by cholera and a succession quarrel in the Sultan's family. Burton asks Rigby to honour Hamerton's commitment to pay the porters; Rigby refuses and later reports the matter against him. Speke, meanwhile, finds in Rigby a sympathetic listener.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "General Rigby (1935); Burton, Lake Regions vol. 1 itinerary; summaries of the porters' dispute."
+  },
+  {
+   "date_iso": "1859-05-09",
+   "date_display": "Monday 9 May 1859",
+   "precision": "day",
+   "eye": "speke",
+   "place": "London",
+   "headline": "Speke goes straight to Murchison",
+   "digest": "On his first day back in England, Speke calls on Sir Roderick Murchison of the Royal Geographical Society and is encouraged to plan a new expedition. Burton, who stayed behind at Aden to recover, arrives about twelve days later to find the public story already Speke's.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Journal (1863), ch. I (first day in England, call on Murchison); DNB 'Speke' (Speke in England 8 May, Burton 21 May)."
+  },
+  {
+   "date_iso": "1860-08-17",
+   "date_display": "17 August 1860",
+   "precision": "day",
+   "eye": "speke",
+   "place": "Zanzibar",
+   "headline": "Speke and Grant land and call on Rigby",
+   "digest": "Speke's journal says he called on Rigby 'without a moment's delay' on landing. The consul helps assemble porters, Hottentot soldiers from the Cape, mules and trade goods. Bombay is hired again as headman.",
+   "quote": "without a moment's delay",
+   "confidence": "verified",
+   "source_note": "Journal (1863), ch. I, entry for 17 August; year from DNB (left England 27 April 1860)."
+  },
+  {
+   "date_iso": "1860-08-17",
+   "date_display": "August 1860",
+   "precision": "month",
+   "eye": "rigby",
+   "place": "Zanzibar",
+   "headline": "Rigby welcomes Speke and Grant",
+   "digest": "Rigby's journal records the new expedition's visit. He backs Speke fully, smoothing his dealings with the Sultan's officials. He has no such kindness left for Burton.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "General Rigby (1935) — journal records visits of Speke and Grant; month only."
+  },
+  {
+   "date_iso": "1860-10-02",
+   "date_display": "2 October 1860",
+   "precision": "day",
+   "eye": "grant",
+   "place": "Bagamoyo and Ugeni, on the mainland",
+   "headline": "Grant's walk begins",
+   "digest": "Grant had sailed for the mainland on 25 September; on 2 October the assembled caravan leaves the coast for Kazeh. His narrative lists the party, with Bombay as 'factotum, interpreter'. He begins pressing plants and sketching almost at once.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "A Walk Across Africa (1864), ch. I–III; DNB 'Speke' (left Zanzibar 25 Sept 1860)."
+  },
+  {
+   "date_iso": "1861-01-24",
+   "date_display": "24 January 1861",
+   "precision": "day",
+   "eye": "speke",
+   "place": "Kazeh",
+   "headline": "Back at Kazeh, Speke hears Snay is dead",
+   "digest": "The second expedition reaches Kazeh to find the region at war between the Arab traders and Manwa Sera, a deposed local ruler. Snay bin Amir, Burton's old host, has been killed in the fighting. Porters desert, prices soar, and Speke falls seriously ill in the months that follow.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "DNB 'Speke' (reached Kazé 24 Jan 1861); Journal (1863), Unyanyembe chapter (Snay's death)."
+  },
+  {
+   "date_iso": "1861-01-24",
+   "date_display": "by January 1861",
+   "precision": "month",
+   "eye": "snay",
+   "place": "Unyanyembe",
+   "headline": "Snay bin Amir killed in the Manwa Sera war",
+   "digest": "Speke learns that Snay had led the traders against Manwa Sera and died in the war. The Kazeh community that had sheltered Burton is broken and fearful. Snay's death closes the one Arab voice in the story, and even that voice was always Burton's paraphrase.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Speke, Journal (1863), Unyanyembe chapter. FLAG: known only through Speke."
+  },
+  {
+   "date_iso": "1861-11-25",
+   "date_display": "November 1861",
+   "precision": "month",
+   "eye": "rumanika",
+   "place": "Bweranyange, Karagwe",
+   "headline": "Rumanika receives the strangers",
+   "digest": "Speke and Grant reach Karagwe and are welcomed by Rumanika, whom Speke describes as the most enlightened king he met. Rumanika questions them about their country and the world and supplies food freely. He sends word ahead to Mutesa, the powerful king to the north-east.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "DNB 'Speke' (Karagwe, November 1861); Grant, Walk (ch. VII heading to 25 November)."
+  },
+  {
+   "date_iso": "1862-01-10",
+   "date_display": "10 January 1862",
+   "precision": "day",
+   "eye": "grant",
+   "place": "Karagwe",
+   "headline": "Speke goes on; Grant is left with Rumanika",
+   "digest": "Grant's leg is so swollen he cannot walk, and Speke leaves him as Rumanika's guest. For three months he lies in a hut, sketching, pressing plants and receiving the king's visits. He is sent on to Buganda only in April.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DNB 'Speke' (left Grant with Rumanika, 10 Jan 1862); Grant, Walk (march to Uganda began 14 April 1862)."
+  },
+  {
+   "date_iso": "1862-01-10",
+   "date_display": "January–April 1862",
+   "precision": "range",
+   "eye": "rumanika",
+   "place": "Karagwe",
+   "headline": "Rumanika keeps the sick Englishman",
+   "digest": "Through Grant's pages Rumanika appears as patient host to an invalid guest for three months, sending food and coming to talk. What the king made of the lame stranger is not recorded in any Karagwe source used here.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Grant, A Walk Across Africa (1864), Karagwe chapter. FLAG: voice via Grant."
+  },
+  {
+   "date_iso": "1862-02-19",
+   "date_display": "19–20 February 1862",
+   "precision": "range",
+   "eye": "speke",
+   "place": "Mutesa's palace, Buganda",
+   "headline": "Speke enters Mutesa's court and refuses to sit in the sun",
+   "digest": "Arriving at the vast palace in his best clothes, Speke is told to wait on the ground in the sun. He refuses, puts on his hat, raises his umbrella and later brings his own iron stool, to the court's amusement. Mutesa sits on a red blanket on a grass dais, robed in bark cloth and beads.",
+   "quote": "a good-looking, well-figured, tall young man of twenty-five",
+   "confidence": "verified",
+   "source_note": "Journal (1863), ch. XI 'Palace, Uganda' (explorion); DNB 'Speke' (reached the palace 19 Feb 1862)."
+  },
+  {
+   "date_iso": "1862-02-19",
+   "date_display": "February 1862",
+   "precision": "month",
+   "eye": "mutesa",
+   "place": "His palace, Buganda",
+   "headline": "The Kabaka receives a stranger who will not kneel",
+   "digest": "As Speke records it, Mutesa watches the newcomer break court etiquette and chooses to be amused rather than offended. He studies the guns and gifts with keen interest. Every gesture of the king here is Speke's interpretation of a ritual he did not understand.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Journal (1863), ch. XI. FLAG: the Ganda court's view survives only through Speke for 1862."
+  },
+  {
+   "date_iso": "1862-02-23",
+   "date_display": "23 February 1862",
+   "precision": "day",
+   "eye": "speke",
+   "place": "Mutesa's palace",
+   "headline": "Shooting cows before the king",
+   "digest": "Mutesa asks Speke to shoot cows in front of him; with no bullets for his gun, Speke uses a revolver. The next day Bombay's men are made to do the same. Guns are what the king wants from the visitors, and Speke knows it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Journal (1863), ch. XI, entries for the 23rd and 24th (explorion)."
+  },
+  {
+   "date_iso": "1862-04-15",
+   "date_display": "March–May 1862",
+   "precision": "range",
+   "eye": "mutesa",
+   "place": "His palace",
+   "headline": "Court justice as Speke recorded it",
+   "digest": "Speke's journal records repeated executions ordered at levees, including women of the court, and the king firing a rifle among his officials. He says he did not intervene, not knowing the charges. These are the passages that shocked Victorian readers; Ganda tradition does not record Mutesa through Speke's eyes, and a stranger's daily list of punishments is not the whole picture of a state.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Journal (1863), ch. XII–XIII (explorion); days given by number only, months inferred. FLAG."
+  },
+  {
+   "date_iso": "1862-04-15",
+   "date_display": "March–May 1862",
+   "precision": "range",
+   "eye": "speke",
+   "place": "Queen mother's palace, Buganda",
+   "headline": "Days with the queen mother",
+   "digest": "Speke spends long afternoons at the palace of the king's mother, physicking her with quinine, drinking banana wine and arguing over his hut and his gifts. Bombay warns him that returning presents is a grave offence. The court's rival households play the visitor like a piece in their own game.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Journal (1863), ch. XII–XIII (explorion); days only."
+  },
+  {
+   "date_iso": "1862-05-27",
+   "date_display": "27 May 1862",
+   "precision": "day",
+   "eye": "grant",
+   "place": "Mutesa's palace",
+   "headline": "Grant reaches the court to the sound of guns",
+   "digest": "Grant's narrative dates his stay in Buganda from 27 May to 7 July. Speke hears his arrival announced by distant gunfire. Grant's sketches of the court and its people, some later engraved for Speke's book, begin here.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Grant, Walk (Uganda chapter, 'May 27 to July 7, 1862'); Speke, Journal ch. XIV (Grant arrives on the 27th)."
+  },
+  {
+   "date_iso": "1862-05-27",
+   "date_display": "27–29 May 1862",
+   "precision": "range",
+   "eye": "speke",
+   "place": "Mutesa's palace",
+   "headline": "Reunion, a levee and a compass for the king",
+   "digest": "With Grant at last arrived, Speke holds a levee with the king, who talks about the gun and iron chair he wants; next he gives Mutesa a compass and the queen mother a watch and other gifts. He is now pressing hard for leave to go north to the river.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Journal (1863), ch. XIV, entries for the 27th–29th (explorion)."
+  },
+  {
+   "date_iso": "1862-07-07",
+   "date_display": "7 July 1862",
+   "precision": "day",
+   "eye": "speke",
+   "place": "Mutesa's palace",
+   "headline": "Leave granted: farewell to Mutesa",
+   "digest": "After nearly five months, Mutesa provides escorts and lets the expedition go. Speke records a farewell at the palace and leaves for the Nile. He will not see Buganda again.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DNB 'Speke' (left Uganda capital 7 July); Journal (1863), ch. XIV (explorion)."
+  },
+  {
+   "date_iso": "1862-07-07",
+   "date_display": "July 1862",
+   "precision": "month",
+   "eye": "grant",
+   "place": "Road north from Buganda",
+   "headline": "Grant is sent away from the river",
+   "digest": "Soon after leaving the court, Speke sends Grant on the direct road toward Bunyoro while he himself turns east to the Nile. Grant thus never sees the falls. He accepts the arrangement without complaint, at least on paper.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Grant, Walk (Uganda chapter); Speke, Journal ch. XV. The parting day is not fixed here."
+  },
+  {
+   "date_iso": "1862-07-21",
+   "date_display": "21 July 1862",
+   "precision": "day",
+   "eye": "speke",
+   "place": "Urondogani, on the Nile",
+   "headline": "Speke strikes the Nile at Urondogani",
+   "digest": "On the morning of the 21st Speke reaches the river at Urondogani, broad and full. He resolves to follow it upstream to where it leaves the lake.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DNB 'Speke' (reached the Nile at Urondogani, 21 July); Journal (1863), ch. XV."
+  },
+  {
+   "date_iso": "1862-07-28",
+   "date_display": "Monday 28 July 1862",
+   "precision": "day",
+   "eye": "speke",
+   "place": "Ripon Falls, outlet of the Nyanza",
+   "headline": "At the falls: 'I now christened the stones Ripon Falls'",
+   "digest": "Speke watches the lake pour out over a reef of rocks, with fish leaping and people fishing below. He names the falls after Lord Ripon, president of the RGS when the expedition was planned, and the channel after Napoleon. He writes that old father Nile is solved, though he never surveyed the shore that would prove it.",
+   "quote": "I now christened the 'stones' Ripon Falls",
+   "confidence": "verified",
+   "source_note": "DNB 'Speke' (Ripon Falls 28 July); Journal (1863), ch. XV (explorion)."
+  },
+  {
+   "date_iso": "1862-07-28",
+   "date_display": "28 July 1862",
+   "precision": "day",
+   "eye": "bombay",
+   "place": "Ripon Falls",
+   "headline": "Bombay and the men at the falls",
+   "digest": "Speke's men stand with him at the outlet, as they had at Tanganyika and Mwanza. Whatever they made of the sight is lost: the journal tells only what Speke felt and what he named. The caravan's view of the great moment survives, at most, in his asides.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Journal (1863), ch. XV. FLAG: voice via Speke."
+  },
+  {
+   "date_iso": "1862-09-09",
+   "date_display": "9 September 1862",
+   "precision": "day",
+   "eye": "speke",
+   "place": "Kamurasi's capital, Bunyoro",
+   "headline": "Speke and Grant reach Kamurasi",
+   "digest": "Reunited with Grant, Speke reaches Kamurasi's palace after weeks of being held back by the king's officers. Kamurasi suspects anyone sent by Mutesa and demands guns and goods before allowing a meeting. Speke chafes at the delay while the season to reach the north runs on.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DNB 'Speke' (reached Kamrasi's palace 9 Sept); Grant, Walk (Unyoro chapter from 9 September)."
+  },
+  {
+   "date_iso": "1862-09-15",
+   "date_display": "September–November 1862",
+   "precision": "range",
+   "eye": "kamurasi",
+   "place": "His capital, Bunyoro",
+   "headline": "Kamurasi bargains with the travellers",
+   "digest": "As the explorers tell it, Kamurasi keeps them for weeks, taking presents and asking for more. Read from Bunyoro's side, he is dealing with armed strangers who came from his rival's court and who are expected by northern traders. He lets them go north at last.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Speke, Journal ch. XVI–XVII; Grant, Walk ch. XII. FLAG: voice via the travellers."
+  },
+  {
+   "date_iso": "1863-02-15",
+   "date_display": "Sunday 15 February 1863",
+   "precision": "day",
+   "eye": "baker",
+   "place": "Gondokoro",
+   "headline": "Baker sees two ragged Englishmen marching in",
+   "digest": "Waiting at Gondokoro for news, Baker sees Speke's men come in firing their guns and recognises Speke at a distance; he runs to meet him. He offers boats and supplies, and Speke gives him maps and the hint of another lake to the west. Baker is glad and disappointed at once: the prize he came for has been taken.",
+   "quote": "At a distance I recognised my old friend Speke",
+   "confidence": "verified",
+   "source_note": "The Albert N'yanza (1866), Gondokoro chapter, via The Baker Trail; DNB 'Speke' (Gondokoro 15 Feb 1863)."
+  },
+  {
+   "date_iso": "1863-02-15",
+   "date_display": "15 February 1863",
+   "precision": "day",
+   "eye": "speke",
+   "place": "Gondokoro",
+   "headline": "The expedition meets the Nile traffic",
+   "digest": "After two years and four months, Speke reaches the trading station and the Bakers' boats. His message home from the Nile trading route will announce the question settled. He had expected Petherick, the consul at Khartoum, and is angry he is not there.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Journal (1863), final chapters; DNB 'Speke'."
+  },
+  {
+   "date_iso": "1863-02-15",
+   "date_display": "February 1863",
+   "precision": "month",
+   "eye": "grant",
+   "place": "Gondokoro",
+   "headline": "Grant, gaunt, meets the Bakers",
+   "digest": "Grant's narrative closes its African walk at Gondokoro and the boats downriver. He has carried his plant specimens and sketch albums the whole way. Florence Baker, whom he meets here, leaves no diary of this moment.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Grant, A Walk Across Africa (1864), final chapters."
+  },
+  {
+   "date_iso": "1864-02-10",
+   "date_display": "February 1864",
+   "precision": "month",
+   "eye": "baker",
+   "place": "Bunyoro",
+   "headline": "Baker meets 'Kamurasi', who is his brother",
+   "digest": "Following Speke's directions, Baker reaches Bunyoro and is received by a man presented as the king. He later learns that Kamurasi had his brother stand in for him at first, to test the stranger's intentions. Baker resents the trick and the demands for goods that follow.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "The Albert N'yanza (1866), Unyoro chapters."
+  },
+  {
+   "date_iso": "1864-02-10",
+   "date_display": "February 1864",
+   "precision": "month",
+   "eye": "kamurasi",
+   "place": "Bunyoro",
+   "headline": "The king tests a second set of strangers",
+   "digest": "Kamurasi sends his brother to receive Baker in his place before meeting him in person. Within the king's own logic this is caution, not farce: a white man's party had come from the north with armed traders' men. Baker's narrative is the only record used here.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "The Albert N'yanza (1866). FLAG: voice via Baker."
+  },
+  {
+   "date_iso": "1864-03-14",
+   "date_display": "14 March 1864",
+   "precision": "day",
+   "eye": "baker",
+   "place": "Shore of Lake Albert",
+   "headline": "Baker reaches and names Lake Albert",
+   "digest": "Weak and with Florence barely recovered from sunstroke, Baker reaches the shore of a great lake to the west and names it after the late Prince Consort. It confirms Speke's hint and adds a second reservoir to the Nile. The source question becomes more complicated, not less.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Princeton University Library, 'Sir Samuel White Baker' (14 March 1864); The Albert N'yanza (1866)."
+  },
+  {
+   "date_iso": "1864-09-13",
+   "date_display": "Tuesday 13 September 1864",
+   "precision": "day",
+   "eye": "burton",
+   "place": "Bath",
+   "headline": "Burton goes down to Bath for the contest",
+   "digest": "Burton later writes that he went to Bath to seek the public debate with Speke, appointed for 16 September in the rooms of Section E of the British Association. He has prepared the case that Tanganyika, not the Nyanza, is the Nile's head.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "The Nile Basin (1864), Burton's prefatory remarks (Burtoniana)."
+  },
+  {
+   "date_iso": "1864-09-15",
+   "date_display": "Thursday 15 September 1864",
+   "precision": "day",
+   "eye": "burton",
+   "place": "Bath",
+   "headline": "Speke dies the day before the debate",
+   "digest": "Burton notes that he had seen Speke that day at the meeting. That afternoon Speke died from his own gun while out shooting on a relative's estate near Corsham. Burton writes that the news left him unable at first to speak of the subject, and that, though he differed with Speke on almost every point of geography, he did not count him an enemy.",
+   "quote": "the melancholy event of September 15th, 1864",
+   "confidence": "verified",
+   "source_note": "The Nile Basin (1864), prefatory remarks (Burtoniana)."
+  },
+  {
+   "date_iso": "1864-09-15",
+   "date_display": "15 September 1864",
+   "precision": "day",
+   "eye": "speke",
+   "place": "Neston Park, near Corsham, Wiltshire",
+   "headline": "The last day",
+   "digest": "Speke goes partridge shooting on the Neston estate with a relative, George Fuller. Crossing a field boundary, his gun discharges into his chest. The inquest finds the death accidental; whether he meant it was argued at once and has been ever since.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Hawke's Bay Times, 2 Dec 1864; Corsham Civic Society; inquest verdict as reported."
+  },
+  {
+   "date_iso": "1864-09-16",
+   "date_display": "Friday 16 September 1864",
+   "precision": "day",
+   "eye": "press",
+   "place": "Bath (British Association meeting)",
+   "headline": "Gloom over the British Association",
+   "digest": "The news reaches the meeting where the debate was to be held, and reports describe a gloom falling over the gathering. The 'Nile duel' never takes place. The press begins at once to frame the death as the end of a great quarrel.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Hawke's Bay Times, 2 Dec 1864 (reprinted 'Home News')."
+  },
+  {
+   "date_iso": "1864-09-24",
+   "date_display": "Saturday 24 September 1864",
+   "precision": "day",
+   "eye": "press",
+   "place": "London weekly news column",
+   "headline": "'Killed while beating up game in the west of England'",
+   "digest": "A weekly news column reports that the discoverer has been killed while shooting, his gun going off as he climbed through a hedge, and gives his age as about 34 (he was 37). In the same column the British Association's meeting is shown closing with a floral fête and excursions, with members parting for Birmingham. The death becomes a line in the week's news.",
+   "quote": "killed while beating up game in the west of England",
+   "confidence": "approx",
+   "source_note": "Masonic Periodicals Online, 'The Week', issue dated 24 Sept 1864 per archive address."
+  },
+  {
+   "date_iso": "1864-11-14",
+   "date_display": "Monday 14 November 1864",
+   "precision": "day",
+   "eye": "burton",
+   "place": "Royal Geographical Society, London",
+   "headline": "Burton reads his Tanganyika case to an empty duel",
+   "digest": "Burton reads the memoir he would have argued at Bath, claiming Tanganyika as Ptolemy's western reservoir of the Nile. Published within days in The Nile Basin, with an advertisement dated 21 November, it sets out five objections to Speke's Victoria Nyanza. His opponent is two months dead; the argument is left to Livingstone and Stanley.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "The Nile Basin (1864), Burtoniana (memoir read 14 Nov; advertisement dated 21 Nov 1864)."
+  },
+  {
+   "date_iso": "1864-12-02",
+   "date_display": "Friday 2 December 1864",
+   "precision": "day",
+   "eye": "press",
+   "place": "Hawke's Bay, New Zealand",
+   "headline": "The news reaches New Zealand",
+   "digest": "A 'Home News' column reprints the story: Captain Speke shot through the chest near the heart while out with his relative Mr Fuller, dying within minutes, aged 37 and unmarried; the jury's verdict was accidental. It recalls his visit to the 'Victoria' lake and the return with Grant 'last year'. The facts arrive eleven weeks late and slightly scrambled.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Hawke's Bay Times, vol. IV, issue 203, 2 Dec 1864, p. 2 (Papers Past)."
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1858-02-13",
+   "label": "First sight of Lake Tanganyika",
+   "eyes": [
+    "burton",
+    "speke",
+    "bombay"
+   ],
+   "note": "Burton, carried and lame, sees a streak of light; Speke, nearly blind, sees mist; Bombay tells them what it is. The 'discovery' is a relayed one."
+  },
+  {
+   "date": "1858-08-03",
+   "label": "Speke at the Nyanza; Burton at Kazeh",
+   "eyes": [
+    "speke",
+    "bombay",
+    "burton"
+   ],
+   "note": "On the same days Speke leaps to his conclusion at Mwanza through Bombay's interpreting, while Burton writes careful ethnography at Kazeh with the traders' route data. Each later accuses the other of guessing."
+  },
+  {
+   "date": "1859-03-04",
+   "label": "Return to Zanzibar and the porters' pay",
+   "eyes": [
+    "rigby",
+    "burton",
+    "speke"
+   ],
+   "note": "Rigby refuses Burton's request to honour the porters' pay and sides with Speke; the coast's politics seal the split before either man reaches London."
+  },
+  {
+   "date": "1862-02-19",
+   "label": "Speke enters Mutesa's court",
+   "eyes": [
+    "speke",
+    "mutesa",
+    "bombay"
+   ],
+   "note": "Speke's umbrella and iron stool are his idea of dignity; the court's reaction is known only through him. Bombay is the channel for everything said."
+  },
+  {
+   "date": "1862-05-27",
+   "label": "Grant reaches Buganda",
+   "eyes": [
+    "grant",
+    "speke",
+    "mutesa"
+   ],
+   "note": "Grant's dated chapter and Speke's day entry agree on the 27th; Grant begins sketching the court that Speke has been describing for three months."
+  },
+  {
+   "date": "1862-07-28",
+   "label": "Ripon Falls",
+   "eyes": [
+    "speke",
+    "bombay",
+    "grant"
+   ],
+   "note": "Speke christens the falls while his men's view goes unrecorded; Grant is already marching toward Bunyoro and never sees them."
+  },
+  {
+   "date": "1863-02-15",
+   "label": "Gondokoro meeting",
+   "eyes": [
+    "baker",
+    "speke",
+    "grant"
+   ],
+   "note": "Baker's joy and disappointment at once; Speke's anger that Petherick is absent; Grant's quiet arrival. Florence was there but kept no diary until 1870."
+  },
+  {
+   "date": "1864-09-15",
+   "label": "Bath: the duel that never happened",
+   "eyes": [
+    "burton",
+    "speke",
+    "press"
+   ],
+   "note": "Burton's dated preface, the inquest as reported, and newspaper columns that get Speke's age and the place wrong."
+  }
+ ],
+ "ties": [
+  {
+   "a": "burton",
+   "b": "speke",
+   "kind": "opposite sides",
+   "note": "Partners in 1857–59 and bitter rivals from 1859; the debate at Bath was to settle the quarrel."
+  },
+  {
+   "a": "speke",
+   "b": "grant",
+   "kind": "met",
+   "note": "Fellow Indian Army officers; Grant was Speke's loyal companion on the 1860–63 journey and defended him afterwards."
+  },
+  {
+   "a": "bombay",
+   "b": "speke",
+   "kind": "met",
+   "note": "Speke recruited Bombay in 1857 and they spoke Hindustani together; Bombay headed both of Speke's caravans."
+  },
+  {
+   "a": "snay",
+   "b": "burton",
+   "kind": "met",
+   "note": "Burton's host and chief informant at Kazeh in 1857–58."
+  },
+  {
+   "a": "rigby",
+   "b": "burton",
+   "kind": "opposite sides",
+   "note": "Old Bombay Army antagonists; Rigby refused to pay Burton's porters and reported against him."
+  },
+  {
+   "a": "rigby",
+   "b": "speke",
+   "kind": "met",
+   "note": "Rigby befriended Speke in 1859 and helped equip the 1860 expedition."
+  },
+  {
+   "a": "rumanika",
+   "b": "mutesa",
+   "kind": "mentioned",
+   "note": "Rumanika sent word to Mutesa and forwarded the strangers to Buganda."
+  },
+  {
+   "a": "mutesa",
+   "b": "kamurasi",
+   "kind": "opposite sides",
+   "note": "Rival kings; Kamurasi distrusted anyone arriving from Mutesa's court."
+  },
+  {
+   "a": "baker",
+   "b": "speke",
+   "kind": "met",
+   "note": "Met at Gondokoro on 15 Feb 1863; Speke gave Baker the clue that led him to Lake Albert."
+  },
+  {
+   "a": "baker",
+   "b": "kamurasi",
+   "kind": "met",
+   "note": "Baker's 1864 dealings with Kamurasi, who first sent his brother in his place."
+  },
+  {
+   "a": "grant",
+   "b": "rumanika",
+   "kind": "met",
+   "note": "Grant was Rumanika's invalid guest from January to April 1862."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "livingstone-1871",
+   "note": "The question Speke's death left open sent Livingstone back to Africa to look for the Nile's fountains west of Tanganyika. When Stanley set out to find him in 1871, his caravan was led by Sidi Mubarak Bombay, the same man who had guided Burton and Speke."
+  },
+  {
+   "to": "v2:delhi-1857",
+   "note": "All three British explorers were Indian Army officers. Grant served at the relief of Lucknow in 1857, while Burton and Speke had just left the East African coast that June as the uprising spread; Bombay himself had learned Hindustani as a slave in Gujarat."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.rgs.org/our-collections/stories-from-our-collections/explore-our-collections/portrait-of-john-hanning-speke",
+   "title": "Portrait of John Hanning Speke",
+   "caption": "Oil portrait of Speke standing with sextant, watch and rifle before a view of the Nyanza; the RGS notes he is painted alone although hundreds of Africans carried his expeditions.",
+   "date": "1860s",
+   "credit": "Royal Geographical Society"
+  },
+  {
+   "url": "https://manuscripts.nls.uk/repositories/2/archival_objects/41102",
+   "title": "Grant's albums of African sketches, 1860–1863",
+   "caption": "Grant's watercolour and pencil sketches of people, places and incidents of the journey, some annotated by Speke and used for the woodcuts in Speke's Journal.",
+   "date": "1860–1863",
+   "credit": "National Library of Scotland, MSS.17919–17921"
+  },
+  {
+   "url": "https://static-prod.lib.princeton.edu/visual_materials/maps/websites/africa/speke/speke-images.html",
+   "title": "The Ripon Falls — the Nile flowing out of Victoria N'yanza",
+   "caption": "Woodcuts from Speke's Journal (1863), including the Ripon Falls after Grant's sketch and 'Grant dancing with Ukulima'.",
+   "date": "1863",
+   "credit": "After J. A. Grant; Princeton University Library"
+  },
+  {
+   "url": "https://burtoniana.org/books/1860-The%20Lake%20Regions%20of%20Central%20Africa/color plates edition/vol2.pdf",
+   "title": "The Lake Regions of Central Africa, vol. 2 (colour plates edition)",
+   "caption": "Burton's 1860 volume with its chromolithograph plates of Ujiji and the lake country, drawn from his own sketches.",
+   "date": "1860",
+   "credit": "Burton; Burtoniana"
+  },
+  {
+   "url": "https://www.rgs.org/media/xs0ksumf/exploringafricafactsheetsidimubarakbombay.pdf",
+   "title": "Sidi Mubarak Bombay",
+   "caption": "Photograph of Bombay in the RGS factsheet on his life: the caravan leader who walked with Burton, Speke, Grant, Stanley and Cameron.",
+   "date": "19th century",
+   "credit": "Royal Geographical Society"
+  }
+ ],
+ "further": [
+  {
+   "title": "Princeton University Library: John Hanning Speke, 1827–1864",
+   "url": "https://static-prod.lib.princeton.edu/visual_materials/maps/websites/africa/speke/speke.html"
+  },
+  {
+   "title": "Dictionary of National Biography, vol. 53: Speke (p. 331)",
+   "url": "https://kwx.liehendr.com/content/wikisource_en_all_maxi_2022-09/A/Page%3ADictionary_of_National_Biography_volume_53.djvu/331"
+  },
+  {
+   "title": "The Albert N'yanza (Baker, 1866), Project Gutenberg",
+   "url": "https://www.gutenberg.org/cache/epub/3668/pg3668.html"
+  },
+  {
+   "title": "The Baker Trail: Gondokoro, 15 February 1863",
+   "url": "https://www.thebakertrail.com/pages/m_gondokoro.htm"
+  },
+  {
+   "title": "JSTOR Daily: Mbarak Mombee, an African explorer robbed of his name",
+   "url": "https://daily.jstor.org/mbarak-mombee-an-african-explorer-robbed-of-his-name"
+  },
+  {
+   "title": "Corsham Civic Society: John Hanning Speke",
+   "url": "https://www.corshamcivicsociety.co.uk/?p=4872"
+  }
+ ],
+ "vantage_key": "0 = principal actors and host rulers at the centre; 1 = eyewitness companions and guides; 2 = nearby; 3 = on the coast at a distance (the Zanzibar consul); 4 = newspapers reporting at second hand."
+}

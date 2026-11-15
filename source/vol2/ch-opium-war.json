@@ -1,0 +1,1207 @@
+{
+ "id": "opium-war",
+ "title": "Opium and Gunboats",
+ "short_title": "Opium and Gunboats",
+ "subtitle": "The First Opium War: Canton, Humen, Chusan, Zhenjiang and Nanjing, 1839–1842",
+ "span": "1838–1842",
+ "intro": [
+  "In March 1839 an imperial commissioner, Lin Zexu, reached Canton with orders to end a trade the Qing state had banned for decades and could no longer ignore. British and American merchants were importing thousands of chests of Indian opium a year, smuggled ashore with the help of Chinese dealers and officials, and silver was flowing out of China to pay for it. Within weeks Lin had the foreign factories surrounded, and Charles Elliot, Britain's Superintendent of Trade, had ordered more than twenty thousand chests surrendered to him in the Queen's name. In June Lin had the opium dissolved in trenches at Humen and let out to sea.",
+  "Elliot's decision turned a police action against smugglers into a dispute between governments. Skirmishes at Kowloon and Chuanbi in late 1839 were followed in 1840 by a British expedition from India. It seized Chusan, sailed north toward Beijing, returned to fight up the Pearl River in 1841, and in 1842 forced its way up the Yangtze. The storming of Zhenjiang that July cut the Grand Canal, and on 29 August 1842 the Treaty of Nanking was signed aboard HMS Cornwallis. It opened five ports, ceded Hong Kong and imposed an indemnity of 21 million dollars.",
+  "Most of the honest record here is not private diaries. Lin's diary survives; so does a townsman's diary from inside Zhenjiang. The rest are dated letters, official dispatches and edicts, missionary journalism, and officers' campaign narratives written up from journals within a year or two. Each eye is labelled with its form. Several entries are dated only to the month because I could not check the original pages, and they are marked approx.",
+  "Set side by side, these documents show how little each party could see. Lin's memorials turned skirmishes into victories for an emperor a thousand miles away. Elliot justified to London decisions he had taken alone. American merchants stayed neutral and profited. British officers wrote about fever at Chusan more than about battle. At Zhenjiang the Han townspeople feared their own Manchu garrison as much as the British, and that garrison chose death for whole families over capture. The chapter treats that ending soberly: it records what the witnesses wrote and the scale, without lingering on detail."
+ ],
+ "calendar_note": "Qing documents are dated by reign year and lunar month (for example Daoguang 19, 5th month). Every date_iso is Gregorian. The Chinese diaries are cited through modern scholarship (Waley for Lin; Mark Elliott for Zhenjiang), and I use their Western conversions. Where only the lunar month was secure, the entry is marked month or range.",
+ "eyes": [
+  {
+   "id": "lin",
+   "name": "Lin Zexu",
+   "short": "Lin Zexu",
+   "life": "1785–1850",
+   "role": "Imperial Commissioner sent to Canton to end the opium trade (aged 53 on arrival); later Governor-General of Liangguang; dismissed 1840 and exiled to Ili 1842",
+   "side": "Qing China",
+   "where": "Canton; the Humen (Bocca Tigris) works at Zhenkou/Chunhow; Macao (Sept 1839); later the road into exile",
+   "lat": 22.81,
+   "lon": 113.67,
+   "waypoints": [
+    {
+     "lat": 23.12,
+     "lon": 113.26,
+     "label": "Canton, arrives 10 March 1839"
+    },
+    {
+     "lat": 22.81,
+     "lon": 113.67,
+     "label": "Humen, opium destruction, June 1839"
+    },
+    {
+     "lat": 22.19,
+     "lon": 113.54,
+     "label": "Macao inspection, Sept 1839"
+    },
+    {
+     "lat": 44.05,
+     "lon": 80.87,
+     "label": "Exile at Ili (arrived late 1842)"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "principal actor: the Emperor's commissioner",
+   "form": "diary, plus memorials and an open letter",
+   "language": "Literary Chinese",
+   "authenticity": "Lin's daily diary (Lin Zexu riji) survives and has been published in modern Chinese editions; Arthur Waley's The Opium War Through Chinese Eyes (1958) translates long stretches of it alongside his memorials. His letter to Queen Victoria survives in several versions; an English translation was printed in the Chinese Repository and The Times in 1840, and it probably never reached the Queen. His memorials to the throne were official reports and sometimes repeated subordinates' inflated victory claims.",
+   "bio": "A celebrated, incorruptible official whom the Daoguang Emperor sent south with full powers. His diary records the routine of a great bureaucrat (callers, weather, poems) beside the drama of the opium seizure, and it shows him gathering foreign newspapers and books for translation. His later diary of the journey into exile, written while the treaty was being signed, completes the arc.",
+   "sources": [
+    {
+     "title": "Wikipedia: Destruction of opium at Humen (dates, references)",
+     "url": "https://en.wikipedia.org/wiki/Destruction_of_opium_at_Humen"
+    },
+    {
+     "title": "Wikipedia: Letter to Queen Victoria",
+     "url": "https://en.wikipedia.org/wiki/Letter_to_Queen_Victoria"
+    },
+    {
+     "title": "Lin Zexu letter (English text, Harvard ChinaDragon)",
+     "url": "https://cyber.harvard.edu/ChinaDragon/lin_xexu.html"
+    },
+    {
+     "title": "Arthur Waley, The Opium War Through Chinese Eyes (Routledge reissue)",
+     "url": "https://www.routledge.com/The-Opium-War-Through-Chinese-Eyes/Estate-Waley/p/book/9781138862227"
+    }
+   ]
+  },
+  {
+   "id": "elliot",
+   "name": "Charles Elliot",
+   "short": "Elliot",
+   "life": "1801–1875",
+   "role": "Captain RN, Chief Superintendent of British Trade in China (aged 37 in 1839); plenipotentiary until recalled in 1841",
+   "side": "Britain",
+   "where": "Macao; the British factory at Canton during the detention; aboard ships at Kowloon, Chuenpi and the Canton river",
+   "lat": 23.11,
+   "lon": 113.25,
+   "waypoints": [
+    {
+     "lat": 22.19,
+     "lon": 113.54,
+     "label": "Macao (base)"
+    },
+    {
+     "lat": 23.11,
+     "lon": 113.25,
+     "label": "British factory, Canton, Mar–May 1839"
+    },
+    {
+     "lat": 22.3,
+     "lon": 114.17,
+     "label": "Kowloon, 4 Sept 1839"
+    },
+    {
+     "lat": 22.79,
+     "lon": 113.63,
+     "label": "Chuenpi, Nov 1839 and Jan 1841"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "principal actor: British official on the spot",
+   "form": "dated dispatches and public notices",
+   "language": "English",
+   "authenticity": "His dispatches to Palmerston and his public notices to British merchants were printed in the Parliamentary Papers ('Correspondence relating to China', 1840) and are fully authentic official documents. They are written to justify his decisions, not as private reflection.",
+   "bio": "A naval officer who personally disliked the opium trade yet ended up making the British state responsible for it by ordering merchants to surrender their chests to him. That single act turned a dispute between Lin and smugglers into a quarrel between two governments. Recalled in 1841 for settling too cheaply, he later served in Texas.",
+   "sources": [
+    {
+     "title": "Elliot's notice to British subjects, Parliamentary Papers 1840 XXXVI (223), p. 374 (excerpt)",
+     "url": "https://worldhistory.hcps.org/pages/specialdoc4.html"
+    },
+    {
+     "title": "Chronology after Clowes, The Royal Navy (1903)",
+     "url": "https://pdavis.nl/China.htm"
+    }
+   ]
+  },
+  {
+   "id": "forbes",
+   "name": "Robert Bennet Forbes",
+   "short": "R. B. Forbes",
+   "life": "1804–1889",
+   "role": "Boston sea captain and merchant, head of Russell & Co. at Canton (aged 34–36)",
+   "side": "United States (merchant community)",
+   "where": "American factory, Canton; Whampoa and Macao",
+   "lat": 23.11,
+   "lon": 113.25,
+   "waypoints": [
+    {
+     "lat": 42.36,
+     "lon": -71.06,
+     "label": "Boston (wife Rose and family)"
+    },
+    {
+     "lat": 23.11,
+     "lon": 113.25,
+     "label": "American factory, Canton, 1838–40"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "detained neutral merchant",
+   "form": "dated letters (journal-letters to his wife)",
+   "language": "English",
+   "authenticity": "His letters to Rose Smith Forbes, written as a running journal, are in the Forbes Family Papers at the Massachusetts Historical Society and were edited by Phyllis Forbes Kerr as Letters from China: The Canton-Boston Correspondence of Robert Bennet Forbes, 1838–1840 (1996). His Personal Reminiscences (1876; enlarged 1882) is a later memoir. I could not open the letters themselves, so entries here are dated only to the month.",
+   "bio": "An American who had commanded the Lintin opium store-ship in his youth, Forbes returned to China in 1838 and sat through the detention of the factories. When the British withdrew, he kept Russell & Co. trading at Canton, carrying British goods in American bottoms, and grew rich on the neutral's position.",
+   "sources": [
+    {
+     "title": "Massachusetts Historical Society: Forbes letterbook, 1839 (journal-letters to Rose Smith Forbes)",
+     "url": "https://masshist.org/database/6622"
+    },
+    {
+     "title": "Letters from Robert Bennet Forbes in China to Rose Smith Forbes, 3 Jan–28 Jun 1840 (Adam Matthew catalogue)",
+     "url": "https://www.cap.amdigital.co.uk/Documents/Detail/letters-from-robert-bennet-forbes-in-china-to-rose-smith-forbes-3-jan-28-jun-1840/12528727"
+    },
+    {
+     "title": "Letters from China (1996), library record",
+     "url": "https://peabody.noblenet.org/GroupedWork/525d0864-311c-3bdd-683a-55142ff45034-eng/Home"
+    },
+    {
+     "title": "Personal Reminiscences (1876), Internet Archive",
+     "url": "https://archive.org/details/personalreminis01forbgoog"
+    }
+   ]
+  },
+  {
+   "id": "bridgman",
+   "name": "Elijah Coleman Bridgman",
+   "short": "Bridgman",
+   "life": "1801–1861",
+   "role": "American Board missionary at Canton (aged 38), founder-editor of the monthly Chinese Repository",
+   "side": "United States (missionary)",
+   "where": "American factory, Canton; visitor at the Humen works",
+   "lat": 23.11,
+   "lon": 113.25,
+   "waypoints": [
+    {
+     "lat": 23.11,
+     "lon": 113.25,
+     "label": "Canton factories (detained, 1839)"
+    },
+    {
+     "lat": 22.81,
+     "lon": 113.67,
+     "label": "Humen works, June 1839"
+    },
+    {
+     "lat": 22.19,
+     "lon": 113.54,
+     "label": "Macao (Repository later printed here)"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "eyewitness journalist",
+   "form": "dated journal reports (monthly periodical)",
+   "language": "English",
+   "authenticity": "His reports appeared in the Chinese Repository, a Canton monthly; his account of the Humen destruction is in vol. 8 (1839–40). Monthly issues are dated, though individual reports are sometimes dated only by the visit they describe.",
+   "bio": "The first American Protestant missionary in China, and one of very few foreigners who read Chinese well. Lin allowed him to inspect the destruction works, and his careful description of trenches, lime and salt is the best Western eyewitness record of what happened to the opium.",
+   "sources": [
+    {
+     "title": "Chinese Repository vol. 8 (1839), Princeton Theological Seminary record",
+     "url": "https://commons.ptsem.edu/id/chineserepositor8418unse"
+    },
+    {
+     "title": "Wikipedia: The Chinese Repository",
+     "url": "https://en.wikipedia.org/wiki/The_Chinese_Repository"
+    },
+    {
+     "title": "Paris Review: Bridgman's description of the destruction",
+     "url": "https://www.theparisreview.org/blog/?p=72142"
+    }
+   ]
+  },
+  {
+   "id": "king",
+   "name": "Charles W. King",
+   "short": "C. W. King",
+   "life": "c.1809–1845",
+   "role": "American merchant, partner in Olyphant & Co., a firm that refused to deal in opium",
+   "side": "United States (merchant)",
+   "where": "Canton; visitor at the Humen works with Bridgman",
+   "lat": 22.81,
+   "lon": 113.67,
+   "vantage": 1,
+   "vantage_label": "eyewitness, anti-opium merchant",
+   "form": "dated published letter and report",
+   "language": "English",
+   "authenticity": "King's account of the visit to Humen was published with Bridgman's in the Chinese Repository; he also published an open letter to Elliot, The Opium Crisis (1839). I did not see either text directly in this pass.",
+   "bio": "A devout merchant whose firm's office in Canton was nicknamed 'Zion's Corner' because it would not handle opium. He went to Humen to see whether the opium really was being destroyed rather than resold, and came away convinced Lin was in earnest.",
+   "sources": [
+    {
+     "title": "Wikipedia: Destruction of opium at Humen",
+     "url": "https://en.wikipedia.org/wiki/Destruction_of_opium_at_Humen"
+    }
+   ]
+  },
+  {
+   "id": "daoguang",
+   "name": "Daoguang Emperor (Minning)",
+   "short": "Daoguang",
+   "life": "1782–1850",
+   "role": "Qing emperor (r. 1820–1850), aged 56 in 1838",
+   "side": "Qing China",
+   "where": "The Forbidden City, Beijing",
+   "lat": 39.92,
+   "lon": 116.39,
+   "vantage": 3,
+   "vantage_label": "the throne, a thousand miles from the war",
+   "form": "dated edicts and vermilion rescripts",
+   "language": "Literary Chinese / Manchu",
+   "authenticity": "Edicts and his vermilion comments on memorials survive in the Qing archives and in the compilation Chouban yiwu shimo; selections are translated in Teng and Fairbank, China's Response to the West. They are state documents, not a diary; dates here are given to the month where I could not confirm the day.",
+   "bio": "A frugal, anxious emperor who wanted the opium drain stopped and the silver kept at home, but who knew almost nothing about Britain. His rescripts swing from praise of Lin to fury at him, then to reliance on negotiators he later punished.",
+   "sources": [
+    {
+     "title": "Wikipedia: Daoguang Emperor",
+     "url": "https://en.wikipedia.org/wiki/Daoguang_Emperor"
+    },
+    {
+     "title": "CHI Culture: Lin Zexu and the opium ban",
+     "url": "https://chiculture.org.hk/en/photo-story/107"
+    }
+   ]
+  },
+  {
+   "id": "jocelyn",
+   "name": "Robert Jocelyn, Viscount Jocelyn",
+   "short": "Jocelyn",
+   "life": "1816–1854",
+   "role": "Army officer, military secretary to the China expedition (aged 24)",
+   "side": "Britain",
+   "where": "Off and inside Dinghai (Tinghai), Chusan",
+   "lat": 30.02,
+   "lon": 122.1,
+   "vantage": 1,
+   "vantage_label": "staff officer at the first capture",
+   "form": "journal-based narrative (published 1841)",
+   "language": "English",
+   "authenticity": "Six Months with the Chinese Expedition, or Leaves from a Soldier's Note-Book (London, 1841), was written up from his notes within months; dates are those of the operations it describes.",
+   "bio": "A young aristocrat on Brigadier Burrell's staff, writing for a London audience. His pages on Dinghai record the abandoned beach, the empty city and the placards begging for mercy, and he also writes frankly about the sickness that followed.",
+   "sources": [
+    {
+     "title": "Six Months with the Chinese Expedition (1841), Google Books",
+     "url": "https://books.google.com/books?id=tsQGRQgIcP8C"
+    },
+    {
+     "title": "Wikipedia: Capture of Chusan (cites Jocelyn pp. 51–59)",
+     "url": "https://en.wikipedia.org/wiki/Capture_of_Chusan"
+    }
+   ]
+  },
+  {
+   "id": "macpherson",
+   "name": "Duncan MacPherson",
+   "short": "MacPherson",
+   "life": "1812–1867",
+   "role": "Surgeon, Madras Army, with the 37th Madras Native Infantry",
+   "side": "Britain (East India Company army)",
+   "where": "Chusan (1840); the heights above Canton (May 1841)",
+   "lat": 23.16,
+   "lon": 113.27,
+   "waypoints": [
+    {
+     "lat": 30.02,
+     "lon": 122.1,
+     "label": "Chusan, July 1840"
+    },
+    {
+     "lat": 23.16,
+     "lon": 113.27,
+     "label": "Heights north of Canton, May 1841"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "army surgeon",
+   "form": "narrative from journal (published 1842–43)",
+   "language": "English",
+   "authenticity": "Two Years in China: Narrative of the Chinese Expedition, from its Formation in April 1840 till April 1842 (London, 1842; 2nd ed. 1843) is a dated narrative written up from his service. My reading of his regimental attachment comes from the book's title page tradition and should be checked.",
+   "bio": "A doctor's-eye view of the war: men dying of fever and dysentery at Chusan far faster than any battle killed them, and Indian sepoys of his regiment caught in a downpour among the paddy fields at Sanyuanli.",
+   "sources": [
+    {
+     "title": "Two Years in China, Internet Archive",
+     "url": "https://archive.org/details/twoyearsinchinan00macprich"
+    }
+   ]
+  },
+  {
+   "id": "ouchterlony",
+   "name": "John Ouchterlony",
+   "short": "Ouchterlony",
+   "life": "1810–1863",
+   "role": "Lieutenant, Madras Engineers, with the China expedition",
+   "side": "Britain (East India Company army)",
+   "where": "Chusan; Canton (1841); the assault on Zhenjiang (1842)",
+   "lat": 32.2,
+   "lon": 119.43,
+   "waypoints": [
+    {
+     "lat": 30.02,
+     "lon": 122.1,
+     "label": "Chusan, 1840"
+    },
+    {
+     "lat": 23.13,
+     "lon": 113.26,
+     "label": "Canton, May 1841"
+    },
+    {
+     "lat": 32.2,
+     "lon": 119.43,
+     "label": "Zhenjiang, July 1842"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "engineer officer",
+   "form": "narrative (written soon after, published 1841 and 1844)",
+   "language": "English",
+   "authenticity": "A Statistical Sketch of the Island of Chusan (1841) and The Chinese War: An Account of all the Operations (1844), compiled from his own service and official records. Used by modern historians, including Mark Elliott, for the street fighting at Zhenjiang.",
+   "bio": "A surveying engineer who served from the first occupation of Chusan to the Yangtze. His Chinese War is the fullest British campaign history by a participant, more measured than most about Chinese courage.",
+   "sources": [
+    {
+     "title": "The Chinese War (1844), Internet Archive",
+     "url": "https://archive.org/details/chinesewaraccoun00ouchrich"
+    },
+    {
+     "title": "The Chinese War, Google Books",
+     "url": "https://books.google.com/books?id=eMS1_k4pM6AC"
+    }
+   ]
+  },
+  {
+   "id": "zhu",
+   "name": "Zhu Shiyun",
+   "short": "Zhu Shiyun",
+   "life": "fl. 1842",
+   "role": "Han Chinese townsman of Zhenjiang who stayed in the city through the siege",
+   "side": "Qing China (Han civilians)",
+   "where": "Inside Zhenjiang (Jingkou), Jiangsu",
+   "lat": 32.2,
+   "lon": 119.43,
+   "vantage": 0,
+   "vantage_label": "civilian trapped inside the city",
+   "form": "diary",
+   "language": "Literary Chinese",
+   "authenticity": "Caojian riji (Diary from the Grass Room), with a colophon dated 1852, so the text may have been tidied after the event. Used by Mark Elliott ('Bannerman and Townsman', 1990) alongside Fa Zhirui's Jingkou fencheng lu (preface 1843) and Yang Qi's memoir. I know it through Elliott's article, not the Chinese text; dates follow his Western conversions.",
+   "bio": "A rare voice from the people who were not supposed to matter: Han residents shut inside a city defended by Manchu and Mongol bannermen who suspected them of treachery. His diary records the closing of the gates, the arrests and public executions of supposed traitors, and the hunger before the British arrived.",
+   "sources": [
+    {
+     "title": "Mark C. Elliott, 'Bannerman and Townsman: Ethnic Tension in Nineteenth-Century Jiangnan' (PDF)",
+     "url": "https://scholar.harvard.edu/sites/scholar.harvard.edu/files/elliott/files/elliott_bannerman_and_townsman.pdf"
+    }
+   ]
+  },
+  {
+   "id": "yangqi",
+   "name": "Yang Qi",
+   "short": "Yang Qi",
+   "life": "fl. 1842",
+   "role": "Zhenjiang resident who escaped the besieged city",
+   "side": "Qing China (Han civilians)",
+   "where": "Zhenjiang, then outside the walls",
+   "lat": 32.21,
+   "lon": 119.45,
+   "vantage": 1,
+   "vantage_label": "townsman who got out",
+   "form": "memoir (written later)",
+   "language": "Literary Chinese",
+   "authenticity": "Cao weicheng ji (Getting Out of the Beleaguered City), with a colophon of 1891, nearly fifty years after the events; treat its details as recollection. Known here through Mark Elliott's article.",
+   "bio": "Where Zhu stayed, Yang left. His memoir is the story of the last morning the gates opened and the crush to get through them, and of what he heard of the city's fall from outside.",
+   "sources": [
+    {
+     "title": "Mark C. Elliott, 'Bannerman and Townsman' (PDF)",
+     "url": "https://scholar.harvard.edu/sites/scholar.harvard.edu/files/elliott/files/elliott_bannerman_and_townsman.pdf"
+    }
+   ]
+  },
+  {
+   "id": "loch",
+   "name": "Granville Gower Loch",
+   "short": "Loch",
+   "life": "1813–1853",
+   "role": "Captain RN, serving as extra aide-de-camp to General Sir Hugh Gough during the Yangtze campaign",
+   "side": "Britain",
+   "where": "With the army at Zhenjiang; aboard HMS Cornwallis off Nanjing",
+   "lat": 32.06,
+   "lon": 118.78,
+   "waypoints": [
+    {
+     "lat": 32.2,
+     "lon": 119.43,
+     "label": "Zhenjiang, 21 July 1842"
+    },
+    {
+     "lat": 32.09,
+     "lon": 118.74,
+     "label": "HMS Cornwallis off Nanjing, Aug 1842"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "staff officer at the final battles and the treaty",
+   "form": "dated campaign narrative (published 1843)",
+   "language": "English",
+   "authenticity": "The Closing Events of the Campaign in China: The Operations in the Yang-tze-kiang and Treaty of Nanking (John Murray, 1843), written from his journal. Chapter VII covers the storm of Zhenjiang and is headed in part 'Suicide of towns-people'; chapter XII includes the signing of the treaty. The online text I could reach stops in June 1842, so the July and August entries are dated from the book's structure and the operations.",
+   "bio": "A naval officer attached to the army, Loch walked through Zhenjiang the day it fell and afterwards watched the treaty signed in the Cornwallis's cabin. His book is unusual in admitting horror at what the victory looked like inside the Manchu quarter.",
+   "sources": [
+    {
+     "title": "The Closing Events of the Campaign in China (1843), Internet Archive text",
+     "url": "https://archive.org/stream/bub_gb_F_eyJPTERisC/bub_gb_F_eyJPTERisC_djvu.txt"
+    },
+    {
+     "title": "Wikipedia: Granville Gower Loch",
+     "url": "https://en.wikipedia.org/wiki/Granville_Gower_Loch"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1838-12-31",
+   "date_display": "31 December 1838 (Daoguang 18, 11th month)",
+   "precision": "day",
+   "eye": "daoguang",
+   "place": "Beijing",
+   "headline": "The Emperor names Lin imperial commissioner for Canton",
+   "digest": "After a long court debate over whether to legalise opium or suppress it, the Emperor chose suppression and gave Lin the seal of an imperial commissioner with authority over the Canton navy. Lin had several audiences before he left; the throne wanted the trade ended and the silver outflow stopped, with no clear plan for what to do if the foreigners resisted.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Appointment in December 1838 confirmed by CHI Culture; day as commonly cited in the literature, not checked in the edict itself. https://chiculture.org.hk/en/photo-story/107"
+  },
+  {
+   "date_iso": "1839-03-10",
+   "date_display": "10 March 1839 (Daoguang 19, 1st month, 25th day)",
+   "precision": "day",
+   "eye": "lin",
+   "place": "Canton",
+   "headline": "Lin enters Canton and promises to see the job through",
+   "digest": "After two months on the road from Beijing, Lin arrived at Canton and lodged in the Yuehua Academy. He announced at once that the opium trade was finished and began arrests among Chinese dealers. He set people to collect and translate foreign newspapers and books, an unusual step for a Qing official.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Arrival and proclamation dated 10 March 1839 in Chrastina, USC US-China Institute; translation work noted in Chinese sources. https://china.usc.edu/sites/default/files/forums/Emperor%20of%20China%20Declares%20War%20on%20Drugs%20%28Paul%20Chrastina%29%E2%80%A8Declares%20War%20on%20Drugs%5B1%5D.doc"
+  },
+  {
+   "date_iso": "1839-03-18",
+   "date_display": "18 March 1839",
+   "precision": "day",
+   "eye": "lin",
+   "place": "Canton",
+   "headline": "Ultimatum: surrender every chest and sign a bond",
+   "digest": "Lin summoned the Hong merchants and issued an edict to the foreigners demanding the surrender of all opium in their hands and bonds that they would never bring more, on pain of death. He gave three days. The foreign merchants offered a token 1,000 chests, which he treated as an insult.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "18 March 1839 summons of the Cohong and three-day deadline: https://en.wikipedia.org/wiki/Destruction_of_opium_at_Humen"
+  },
+  {
+   "date_iso": "1839-03-24",
+   "date_display": "24 March 1839",
+   "precision": "day",
+   "eye": "elliot",
+   "place": "British factory, Canton",
+   "headline": "Elliot runs the blockade and raises the flag",
+   "digest": "Hearing that Lin was moving against the merchants, Elliot came up from Macao in uniform, entered the factories and hoisted the British flag. That evening the Chinese servants, compradors and boatmen were withdrawn and the factories were ringed by guards and boats. About 350 foreigners, Elliot now among them, were shut in.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Date of Elliot's arrival and flag: Clowes chronology https://pdavis.nl/China.htm; Wikipedia Humen."
+  },
+  {
+   "date_iso": "1839-03-27",
+   "date_display": "27 March 1839",
+   "precision": "day",
+   "eye": "elliot",
+   "place": "British factory, Canton",
+   "headline": "Elliot orders the opium handed to him, for the Crown",
+   "digest": "Elliot issued a public notice requiring all British subjects in Canton to surrender their opium to him, on behalf of Her Majesty's Government, and to send him sealed lists of what they held. By nightfall about 20,000 chests had been pledged. The step relieved the merchants and transferred their loss to the British state, which would later demand compensation from China.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Notice in Parliamentary Papers 1840 XXXVI (223), p. 374, excerpt at worldhistory.hcps.org; deadline and totals: https://en.wikipedia.org/wiki/Destruction_of_opium_at_Humen"
+  },
+  {
+   "date_iso": "1839-04-15",
+   "date_display": "late March–April 1839",
+   "precision": "range",
+   "eye": "forbes",
+   "place": "American factory, Canton",
+   "headline": "Merchant princes cook their own dinners",
+   "digest": "Forbes kept his journal-letter to Rose going through the detention. With servants gone, the merchants of the richest trade in Asia were sweeping floors, fetching water and burning their attempts at cooking, and the letters treat it as a farce. Underneath runs real uncertainty about trade, about the Americans' standing, and about how long Lin would keep them penned in.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Forbes letterbook 1839 (MHS) and Letters from China (1996); the servant strike is a matter of record, but I could not open the letters to date individual passages. https://masshist.org/database/6622"
+  },
+  {
+   "date_iso": "1839-04-30",
+   "date_display": "April–May 1839",
+   "precision": "range",
+   "eye": "bridgman",
+   "place": "American factory, Canton",
+   "headline": "Inside the cordon, the Repository keeps its record",
+   "digest": "Bridgman was among the Americans confined with the British. The Chinese Repository printed Lin's edicts and Elliot's notices in translation month by month, with the editor's own comments that the opium trade had brought this on the foreign community. The magazine became the running documentary record of the crisis for foreign readers.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Chinese Repository vol. 8 (1839); PTSEM record https://commons.ptsem.edu/id/chineserepositor8418unse"
+  },
+  {
+   "date_iso": "1839-05-21",
+   "date_display": "by 21 May 1839",
+   "precision": "day",
+   "eye": "lin",
+   "place": "Chuanbi (Chuenpi) anchorage",
+   "headline": "The last of 20,283 chests comes ashore",
+   "digest": "Delivery from the receiving ships off Chuanbi took weeks; by 21 May all 20,283 chests had been handed over and stored under guard. Lin reported to the throne that the seizure was complete. He now had to decide how to destroy roughly 1,300 tons of opium so that none of it leaked back into the market.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "20,283 chests unloaded by 21 May 1839: https://en.wikipedia.org/wiki/Destruction_of_opium_at_Humen"
+  },
+  {
+   "date_iso": "1839-05-24",
+   "date_display": "24 May 1839",
+   "precision": "day",
+   "eye": "elliot",
+   "place": "Canton to Macao",
+   "headline": "Elliot leads the British out of Canton",
+   "digest": "With the surrender complete and the cordon lifted, Elliot declared that Canton was no longer a place where the British could live with safety or honour, and left for Macao, followed by the British merchants. Several named traders were expelled. He sent a fast ship from Macao on 30 May with the news for London.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Clowes chronology (23–30 May 1839), https://pdavis.nl/China.htm"
+  },
+  {
+   "date_iso": "1839-05-31",
+   "date_display": "late May–June 1839",
+   "precision": "range",
+   "eye": "forbes",
+   "place": "Canton",
+   "headline": "The Americans stay and trade",
+   "digest": "When the British left, Forbes kept Russell & Co. open at Canton, signing what was required and carrying British cargoes on American ships for heavy freight. His later memoir puts it bluntly: he had not come to China for health or pleasure and would stay at his post while there was business. It was the beginning of the most profitable years of his life.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Personal Reminiscences (1876), written later; Letters from China (1996). https://archive.org/details/personalreminis01forbgoog"
+  },
+  {
+   "date_iso": "1839-06-03",
+   "date_display": "3 June 1839",
+   "precision": "day",
+   "eye": "lin",
+   "place": "Humen (Zhenkou), Pearl River mouth",
+   "headline": "Destruction begins in three great trenches",
+   "digest": "Lin had offered a sacrifice to the spirit of the sea, apologising for the poison about to be sent into its waters. On 3 June the work began: opium balls were broken up, soaked in trenches of fresh water, mixed with salt and lime, and the slurry let out into a creek on the ebb tide. Officials watched the coolies closely; the work would take more than three weeks.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Start date and method: https://en.wikipedia.org/wiki/Destruction_of_opium_at_Humen; ritual address of 1 June in Chrastina https://china.usc.edu/sites/default/files/forums/Emperor%20of%20China%20Declares%20War%20on%20Drugs%20%28Paul%20Chrastina%29%E2%80%A8Declares%20War%20on%20Drugs%5B1%5D.doc"
+  },
+  {
+   "date_iso": "1839-06-17",
+   "date_display": "c. 15–17 June 1839",
+   "precision": "range",
+   "eye": "bridgman",
+   "place": "Humen works",
+   "headline": "An American missionary inspects the trenches",
+   "digest": "Bridgman, with Charles King, was allowed through the works and walked the trenches. He described the balls broken on planks and kicked into the water, the salt and lime, and the screened sluice draining to the creek, and judged the care and honesty of the operation far beyond what foreigners had expected. An official told him the work would end around the 23rd.",
+   "quote": "The opium in baskets was delivered into the hands of coolies.",
+   "confidence": "approx",
+   "source_note": "Bridgman's account, Chinese Repository vol. 8; extract and paraphrase in the Paris Review, https://www.theparisreview.org/blog/?p=72142; 'care and fidelity' remark cited in Wikipedia Humen. Exact visit day not confirmed in this pass."
+  },
+  {
+   "date_iso": "1839-06-17",
+   "date_display": "c. 15–17 June 1839",
+   "precision": "range",
+   "eye": "king",
+   "place": "Humen works",
+   "headline": "A merchant comes to see if it is really destroyed",
+   "digest": "King had gone to Humen to test the rumour that the opium was being quietly sold off. Watching the guards search workmen as they left, and the slurry run out to sea, he came away convinced the destruction was genuine. He and Bridgman were then received by the commissioner himself.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "King's report with Bridgman's in the Chinese Repository vol. 8; I did not see King's own text. https://en.wikipedia.org/wiki/Destruction_of_opium_at_Humen"
+  },
+  {
+   "date_iso": "1839-06-17",
+   "date_display": "c. 17 June 1839 (Daoguang 19, 5th month)",
+   "precision": "range",
+   "eye": "lin",
+   "place": "Humen",
+   "headline": "Lin receives the foreigners who came to watch",
+   "digest": "Lin noted the visit of the Americans in his diary. He questioned them about their countries and about which foreigners did and did not trade in opium, and he was pleased that outsiders could testify the destruction was honest. For him the visit was propaganda as much as courtesy.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Lin Zexu riji as translated in Waley, The Opium War Through Chinese Eyes (1958); date not checked against the Chinese edition in this pass."
+  },
+  {
+   "date_iso": "1839-06-25",
+   "date_display": "25 June 1839",
+   "precision": "day",
+   "eye": "lin",
+   "place": "Humen",
+   "headline": "The last chest goes into the sea",
+   "digest": "The destruction ended after 23 days. Lin reported to the throne the totals destroyed and kept back a small sample to send to Beijing. 26 June is still commemorated in China, and the UN's International Day against Drug Abuse falls on that date.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "End date and totals: https://en.wikipedia.org/wiki/Destruction_of_opium_at_Humen; CHI Culture (sample of eight boxes) https://chiculture.org.hk/en/photo-story/107"
+  },
+  {
+   "date_iso": "1839-08-15",
+   "date_display": "summer 1839",
+   "precision": "month",
+   "eye": "lin",
+   "place": "Canton",
+   "headline": "An open letter to the young Queen",
+   "digest": "With his advisers, Lin drafted a letter to Queen Victoria asking how a ruler who forbade opium at home could allow her subjects to sell it in China, and warning that ships carrying it would be seized. It was written in the language of tribute, assuming Britain was a lesser state that would obey moral reproof. The text circulated in Canton and was published in English in 1840; it probably never reached her.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia: Letter to Queen Victoria; Harvard ChinaDragon text https://cyber.harvard.edu/ChinaDragon/lin_xexu.html; Waley (1958)."
+  },
+  {
+   "date_iso": "1839-09-03",
+   "date_display": "3 September 1839",
+   "precision": "day",
+   "eye": "lin",
+   "place": "Macao",
+   "headline": "Lin tours Macao and looks hard at the foreigners",
+   "digest": "Lin made a formal inspection of Macao, where the British had retreated, and the Portuguese turned out troops in his honour. In his diary he described the houses, the dress of foreign men and women and their odd customs with the curiosity of an ethnographer, and a scholar's disdain. A Macao temple still commemorates the visit.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Lin Zexu riji (Waley 1958); visit noted by Macao Cultural Affairs Bureau, https://www.icm.gov.mo/rc/viewer/pdfPage/40063/3991. Day as commonly given; not checked in the Chinese text."
+  },
+  {
+   "date_iso": "1839-09-04",
+   "date_display": "4 September 1839",
+   "precision": "day",
+   "eye": "elliot",
+   "place": "Off Kowloon",
+   "headline": "Food, water and the first shots",
+   "digest": "Lin had cut off provisions to the British ships crowded in Hong Kong harbour. Elliot went in with armed boats to demand supplies, and when the war junks at Kowloon would not let them through, fire was exchanged with the frigate Volage's party and the Cambridge. Elliot reported it as an action forced on him to feed British families.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Clowes chronology for 4 Sept 1839, https://pdavis.nl/China.htm; Chrastina https://china.usc.edu/sites/default/files/forums/Emperor%20of%20China%20Declares%20War%20on%20Drugs%20%28Paul%20Chrastina%29%E2%80%A8Declares%20War%20on%20Drugs%5B1%5D.doc"
+  },
+  {
+   "date_iso": "1839-09-05",
+   "date_display": "September 1839",
+   "precision": "month",
+   "eye": "lin",
+   "place": "Canton",
+   "headline": "Lin's report turns a skirmish into a victory",
+   "digest": "Lin's memorial on Kowloon, based on the junk captains' reports, described the British as beaten off with losses. The throne was told what it wanted to hear. Distance and the wish to please made this pattern of inflated reports one of the war's quiet disasters for China.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Chrastina, USC ('Chinese captains falsely report a victory'), https://china.usc.edu/sites/default/files/forums/Emperor%20of%20China%20Declares%20War%20on%20Drugs%20%28Paul%20Chrastina%29%E2%80%A8Declares%20War%20on%20Drugs%5B1%5D.doc"
+  },
+  {
+   "date_iso": "1839-11-03",
+   "date_display": "3 November 1839",
+   "precision": "day",
+   "eye": "elliot",
+   "place": "Chuanbi (Chuenpi)",
+   "headline": "Two frigates against twenty-nine junks",
+   "digest": "Admiral Guan Tianpei's fleet came out at Chuanbi, and the frigates Volage and Hyacinth opened fire. Several junks were sunk or blown up in under an hour before Elliot called off the action. British casualties were trivial.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Clowes chronology, https://pdavis.nl/China.htm; Chrastina https://china.usc.edu/sites/default/files/forums/Emperor%20of%20China%20Declares%20War%20on%20Drugs%20%28Paul%20Chrastina%29%E2%80%A8Declares%20War%20on%20Drugs%5B1%5D.doc"
+  },
+  {
+   "date_iso": "1839-11-08",
+   "date_display": "November 1839",
+   "precision": "month",
+   "eye": "lin",
+   "place": "Canton",
+   "headline": "Six smashing blows that never happened",
+   "digest": "Lin's report to the Emperor on Chuanbi described a string of Chinese successes. The real lesson, that wooden junks could not stand up to a few sailing frigates, did not reach Beijing in that form. Lin went on buying foreign cannon and translating books on gunnery.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Chrastina, USC (Lin's report describing six invented 'smashing blows'), https://china.usc.edu/sites/default/files/forums/Emperor%20of%20China%20Declares%20War%20on%20Drugs%20%28Paul%20Chrastina%29%E2%80%A8Declares%20War%20on%20Drugs%5B1%5D.doc"
+  },
+  {
+   "date_iso": "1840-01-15",
+   "date_display": "January–June 1840",
+   "precision": "range",
+   "eye": "forbes",
+   "place": "Canton and Whampoa",
+   "headline": "Neutral profits in a blockaded river",
+   "digest": "Forbes's letters of the first half of 1840 are the letters of a man making money fast while expecting war: freights, tea, the nervous comings and goings of British agents and Chinese officials. He planned to go home with a fortune before the British fleet closed the river, and did so later that year.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Letters from R. B. Forbes to Rose Smith Forbes, 3 Jan–28 Jun 1840 (Adam Matthew catalogue entry); contents summarised from Letters from China (1996), not seen directly."
+  },
+  {
+   "date_iso": "1840-07-04",
+   "date_display": "4 July 1840",
+   "precision": "day",
+   "eye": "jocelyn",
+   "place": "Off Dinghai, Chusan",
+   "headline": "A Chinese admiral is told to surrender by sunrise",
+   "digest": "The British fleet anchored off Chusan and demanded the surrender of Dinghai. Admiral Zhang Chaofa and his officials came aboard the Wellesley, refused, and left at 8 pm. Jocelyn recorded their parting words: if no word came by sunrise, the consequences would be on their own heads.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Jocelyn, Six Months, p. 52, cited in Wikipedia: Capture of Chusan, https://en.wikipedia.org/wiki/Capture_of_Chusan"
+  },
+  {
+   "date_iso": "1840-07-05",
+   "date_display": "5 July 1840",
+   "precision": "day",
+   "eye": "jocelyn",
+   "place": "Dinghai, Chusan",
+   "headline": "Eight minutes of cannon, then a deserted beach",
+   "digest": "At 2.30 pm the Wellesley opened fire and the Chinese answered; after a few minutes the defenders fell back to the walls. Jocelyn landed with the troops on a beach strewn with wreckage of the defence. Admiral Zhang was mortally wounded.",
+   "quote": "a few dead bodies, bows and arrows, broken spears and guns",
+   "confidence": "verified",
+   "source_note": "Jocelyn p. 51 via Wikipedia: Capture of Chusan, https://en.wikipedia.org/wiki/Capture_of_Chusan"
+  },
+  {
+   "date_iso": "1840-07-06",
+   "date_display": "6 July 1840",
+   "precision": "day",
+   "eye": "jocelyn",
+   "place": "Dinghai, Chusan",
+   "headline": "Placards on the doors: spare our lives",
+   "digest": "A company of the 49th took the barricaded gate and raised the British flag. Inside, most people had fled; the houses that were still occupied had placards pleading for mercy, and kneeling townspeople burned incense. Jocelyn describes the city as largely abandoned.",
+   "quote": "Spare our lives",
+   "confidence": "verified",
+   "source_note": "Jocelyn p. 59 via Wikipedia: Capture of Chusan, https://en.wikipedia.org/wiki/Capture_of_Chusan"
+  },
+  {
+   "date_iso": "1840-08-15",
+   "date_display": "July–September 1840",
+   "precision": "range",
+   "eye": "macpherson",
+   "place": "Chusan",
+   "headline": "The garrison begins to die of fever",
+   "digest": "MacPherson's narrative turns quickly from the capture to the sick lists. Troops camped on low wet ground, drank the local spirit samshu and bad water, and fell to fever and dysentery in hundreds. Disease at Chusan killed far more British and Indian soldiers than Chinese fire did in the whole of 1840.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "MacPherson, Two Years in China, pp. 21–22 (cited in Wikipedia: Capture of Chusan); Ouchterlony's mortality figures, Statistical Sketch of Chusan. https://archive.org/details/twoyearsinchinan00macprich"
+  },
+  {
+   "date_iso": "1840-09-15",
+   "date_display": "September 1840",
+   "precision": "month",
+   "eye": "ouchterlony",
+   "place": "Chusan",
+   "headline": "An engineer counts the dead",
+   "digest": "Ouchterlony was surveying the island for his Statistical Sketch while the garrison sickened. He recorded the occupation's proclamations and the mortality, setting the island's harbours and population beside its hospital returns. The book was printed in 1841, while Chusan was still a bargaining chip.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Ouchterlony, A Statistical Sketch of the Island of Chusan (1841), pp. vi–xii, cited in Wikipedia: Capture of Chusan; https://books.google.com/books?id=JmkLAAAAIAAJ"
+  },
+  {
+   "date_iso": "1840-09-28",
+   "date_display": "autumn 1840",
+   "precision": "month",
+   "eye": "daoguang",
+   "place": "Beijing",
+   "headline": "The Emperor turns on his commissioner",
+   "digest": "With a British fleet off the Beihe in August and its demands in hand, the Emperor blamed Lin for provoking the crisis. His rescripts accused Lin of having stopped neither the trade nor the smuggling, only starting a war. Lin was dismissed and Qishan, who had talked the British back south, was sent to negotiate.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Dismissal after the August 1840 Tianjin crisis: CHI Culture https://chiculture.org.hk/en/photo-story/107; Chrastina gives 21 Aug 1840 for the dismissal, other sources September–October, so month only."
+  },
+  {
+   "date_iso": "1841-01-20",
+   "date_display": "20 January 1841",
+   "precision": "day",
+   "eye": "elliot",
+   "place": "Off Chuanbi / Macao",
+   "headline": "Elliot announces the Chuenpi terms",
+   "digest": "After the British stormed the Chuanbi forts on 7 January, Elliot and Qishan reached preliminary terms: Hong Kong ceded, an indemnity of six million dollars, and trade reopened. Elliot announced them in a circular. Neither government accepted the deal: Qishan was disgraced and Elliot was recalled.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Clowes chronology for 7 and 20 Jan 1841, https://pdavis.nl/China.htm"
+  },
+  {
+   "date_iso": "1841-05-27",
+   "date_display": "27 May 1841",
+   "precision": "day",
+   "eye": "elliot",
+   "place": "Before Canton",
+   "headline": "A truce on the heights, and a ransom",
+   "digest": "British troops had taken the forts on the heights north of Canton on 24–26 May and Gough was ready to storm the city. On the morning of the 27th Elliot halted the assault in return for a ransom of six million dollars and the withdrawal of Qing troops. The soldiers, idle in the paddy fields, resented losing the city.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Clowes chronology (21–27 May 1841), https://pdavis.nl/China.htm; Wikipedia: Sanyuanli incident"
+  },
+  {
+   "date_iso": "1841-05-30",
+   "date_display": "29–30 May 1841",
+   "precision": "range",
+   "eye": "macpherson",
+   "place": "North of Canton, near Sanyuanli",
+   "headline": "Muskets that would not fire in the rain",
+   "digest": "Villagers from around Sanyuanli, enraged by plundering and by an assault reported on a village woman, gathered in thousands. A company of Madras sepoys was cut off among flooded paddy fields in a thunderstorm, their flintlocks useless, until marines with percussion muskets reached them. MacPherson, with the Madras troops, records the confusion and the casualties, few on the British side.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "MacPherson, Two Years in China; event details from Wikipedia: Sanyuanli incident, https://en.wikipedia.org/wiki/Sanyuanli_incident"
+  },
+  {
+   "date_iso": "1841-05-31",
+   "date_display": "late May 1841",
+   "precision": "range",
+   "eye": "ouchterlony",
+   "place": "Heights north of Canton",
+   "headline": "Thousands on the hills, then a governor's appeal",
+   "digest": "Ouchterlony describes the irregular crowds massing around the British positions with banners and gongs. Gough threatened to resume the attack on Canton; the Prefect Yu Baochun went out and persuaded the gentry to disperse their militia. The British withdrew downriver, and in Canton the episode was soon retold as a people's victory the officials had thrown away.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Ouchterlony, The Chinese War (1844), cited in Wikipedia: Sanyuanli incident, https://en.wikipedia.org/wiki/Sanyuanli_incident"
+  },
+  {
+   "date_iso": "1842-07-09",
+   "date_display": "9 July 1842",
+   "precision": "day",
+   "eye": "zhu",
+   "place": "Zhenjiang",
+   "headline": "The garrison begins hunting traitors",
+   "digest": "Zhu recorded that the Manchu commander Hailing ordered bannermen to arrest suspected traitors and cut the hours the gates stood open. To the Han townspeople the defenders were becoming as frightening as the approaching British fleet.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Elliott, 'Bannerman and Townsman', citing Zhu, Fa and Yang; https://scholar.harvard.edu/sites/scholar.harvard.edu/files/elliott/files/elliott_bannerman_and_townsman.pdf"
+  },
+  {
+   "date_iso": "1842-07-15",
+   "date_display": "15 July 1842 (Daoguang 22, 6th month, 8th day)",
+   "precision": "day",
+   "eye": "yangqi",
+   "place": "Zhenjiang gates",
+   "headline": "The last two hours the gates were open",
+   "digest": "On the 15th the gates opened for the last time, from about seven to nine in the morning. Yang describes the crowds pushing to get out and people caught as the gates swung shut; food was requisitioned for the garrison. Roughly half the city had already fled.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Elliott, citing Yang Qi and Zhu Shiyun (memoir written 1891; treat details as recollection); https://scholar.harvard.edu/sites/scholar.harvard.edu/files/elliott/files/elliott_bannerman_and_townsman.pdf"
+  },
+  {
+   "date_iso": "1842-07-16",
+   "date_display": "16 July 1842",
+   "precision": "day",
+   "eye": "zhu",
+   "place": "Zhenjiang, public square",
+   "headline": "Public executions of suspected traitors",
+   "digest": "Detainees were tortured in the square and thirteen supposed traitors executed. Zhu recorded the arbitrariness: anyone on the street at night, or with an outsider's accent, could be seized. The terror was aimed at the city's own people.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Elliott, citing Zhu, Fa and Yang; https://scholar.harvard.edu/sites/scholar.harvard.edu/files/elliott/files/elliott_bannerman_and_townsman.pdf"
+  },
+  {
+   "date_iso": "1842-07-19",
+   "date_display": "19 July 1842",
+   "precision": "day",
+   "eye": "zhu",
+   "place": "Zhenjiang",
+   "headline": "Proclamations: gather bricks, expect victory",
+   "digest": "Two notices went up: one told civilians to gather bricks and jars for the defence of the walls, the other promised a victory. Zhu's diary sets the brave words against a city half empty, hungry and afraid.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Elliott, citing Zhu and Fa; https://scholar.harvard.edu/sites/scholar.harvard.edu/files/elliott/files/elliott_bannerman_and_townsman.pdf"
+  },
+  {
+   "date_iso": "1842-07-21",
+   "date_display": "21 July 1842",
+   "precision": "day",
+   "eye": "zhu",
+   "place": "Zhenjiang",
+   "headline": "The south gate opens for banner families only",
+   "digest": "On the day of the assault the bannermen opened the south gate to let their own families out, then turned back the Han crowd that tried to follow. British troops scaled the walls in the heat and the garrison fought street by street into the afternoon. The gate episode comes from Fa Zhirui's companion record; Zhu's diary covers the same day from inside the walls.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Elliott, citing Fa Zhirui and British accounts; https://scholar.harvard.edu/sites/scholar.harvard.edu/files/elliott/files/elliott_bannerman_and_townsman.pdf"
+  },
+  {
+   "date_iso": "1842-07-21",
+   "date_display": "21 July 1842",
+   "precision": "day",
+   "eye": "ouchterlony",
+   "place": "Zhenjiang walls",
+   "headline": "The hardest fight of the war",
+   "digest": "Ouchterlony describes the escalade and the bannermen's stubborn resistance, the hardest of the campaign. The British lost 34 killed and about 130 wounded, many of them from sunstroke. Several hundred bannermen died, among them most of the reinforcements from Qingzhou.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Ouchterlony, The Chinese War (1844), used by Elliott; casualty figures from Elliott; https://scholar.harvard.edu/sites/scholar.harvard.edu/files/elliott/files/elliott_bannerman_and_townsman.pdf"
+  },
+  {
+   "date_iso": "1842-07-22",
+   "date_display": "21–22 July 1842",
+   "precision": "range",
+   "eye": "loch",
+   "place": "Manchu quarter, Zhenjiang",
+   "headline": "Inside the Tartar city, whole families dead",
+   "digest": "Walking through the Manchu quarter after the fighting, Loch found houses where bannermen had killed their wives and children and then themselves rather than be captured. Commander Hailing had died the same way. Loch, who had come for a victory, wrote of the scene with shock and pity; his chapter heading names the suicides plainly.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Loch, Closing Events (1843), ch. VII ('Rally of Tartar troops... Suicide of towns-people'); Hailing's death from the official account cited by Elliott. Exact pages not seen. https://archive.org/stream/bub_gb_F_eyJPTERisC/bub_gb_F_eyJPTERisC_djvu.txt"
+  },
+  {
+   "date_iso": "1842-08-15",
+   "date_display": "August 1842",
+   "precision": "month",
+   "eye": "lin",
+   "place": "On the road west to Ili",
+   "headline": "The disgraced commissioner heads into exile",
+   "digest": "While the British fleet lay off Nanjing, Lin was travelling west into exile in Xinjiang, keeping a travel diary of the journey. He reached Ili toward the end of the year and threw himself into irrigation and frontier work. He would be recalled in 1845 and died in 1850 on his way to fight the Taiping.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Exile to Ili: CHI Culture https://chiculture.org.hk/en/photo-story/107; exile diary (Hege jicheng) dates not verified in this pass."
+  },
+  {
+   "date_iso": "1842-08-29",
+   "date_display": "29 August 1842",
+   "precision": "day",
+   "eye": "loch",
+   "place": "HMS Cornwallis, off Nanjing",
+   "headline": "The treaty is signed in the admiral's cabin",
+   "digest": "Loch was on board when Qiying, Yilibu and Niujian came to the Cornwallis and signed with Pottinger. China agreed to pay 21 million dollars, open five ports and cede Hong Kong. Loch describes the ceremony, the Chinese envoys' composure and the officers crowding the cabin.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Date and terms: Clowes chronology https://pdavis.nl/China.htm; Loch, Closing Events, ch. XII ('Signing of the treaty')."
+  },
+  {
+   "date_iso": "1842-09-15",
+   "date_display": "September 1842",
+   "precision": "month",
+   "eye": "daoguang",
+   "place": "Beijing",
+   "headline": "The throne accepts the treaty",
+   "digest": "The Emperor approved the Nanjing terms, unwilling to see the British move on the Grand Canal and Beijing. His edicts presented it as a gracious concession to soothe the barbarians. That same August, in Taiwan, prisoners from British ships wrecked there were executed on his orders.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia: Daoguang Emperor (Taiwan executions 10 Aug 1842; treaty); day of ratification not checked."
+  },
+  {
+   "date_iso": "1842-09-30",
+   "date_display": "autumn 1842",
+   "precision": "month",
+   "eye": "bridgman",
+   "place": "Macao / Hong Kong",
+   "headline": "The Repository prints the terms",
+   "digest": "The Chinese Repository printed the treaty and the reports of Zhenjiang. Bridgman, who would serve as interpreter at the American treaty of Wangxia in 1844, saw in the opening of China a door for missions. The opium trade itself went unmentioned in the treaty.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Chinese Repository vols 11 (1842); Bridgman's role at Wangxia is well documented; not checked page by page."
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1839-03-24",
+   "label": "The factories shut in",
+   "eyes": [
+    "elliot",
+    "forbes",
+    "bridgman",
+    "lin"
+   ],
+   "note": "Elliot sees an insult to the Crown; Forbes and Bridgman, neutrals locked in with the British, write about cooking and confinement; Lin sees the lever that will get the opium out."
+  },
+  {
+   "date": "1839-06-17",
+   "label": "Humen: the opium goes into the sea",
+   "eyes": [
+    "lin",
+    "bridgman",
+    "king"
+   ],
+   "note": "The commissioner and two American witnesses on the same ground on the same days: Lin wanted foreigners to see; Bridgman and King came half expecting fraud and left convinced."
+  },
+  {
+   "date": "1839-09-04",
+   "label": "Kowloon, the first shots",
+   "eyes": [
+    "elliot",
+    "lin"
+   ],
+   "note": "Elliot reports a forced action to get food; Lin's memorial reports a victory. Neither report is quite true."
+  },
+  {
+   "date": "1839-11-03",
+   "label": "Chuanbi: frigates against junks",
+   "eyes": [
+    "elliot",
+    "lin"
+   ],
+   "note": "The British record a one-sided action; Lin's report invents a run of successes."
+  },
+  {
+   "date": "1840-07-05",
+   "label": "Chusan taken",
+   "eyes": [
+    "jocelyn",
+    "macpherson",
+    "ouchterlony",
+    "daoguang"
+   ],
+   "note": "Jocelyn writes of the empty city, MacPherson and Ouchterlony of the sickness that followed. In Beijing, news of the loss helped turn the Emperor against Lin."
+  },
+  {
+   "date": "1841-05-30",
+   "label": "Canton and Sanyuanli",
+   "eyes": [
+    "elliot",
+    "macpherson",
+    "ouchterlony"
+   ],
+   "note": "A truce paid for by ransom, then villagers in the rain: the British remember a skirmish, Canton remembered a people's victory."
+  },
+  {
+   "date": "1842-07-21",
+   "label": "The fall of Zhenjiang",
+   "eyes": [
+    "zhu",
+    "yangqi",
+    "ouchterlony",
+    "loch"
+   ],
+   "note": "Inside the walls Zhu fears the bannermen as much as the British; Yang has fled; Ouchterlony records the hardest fight of the war; Loch finds the banner families dead."
+  },
+  {
+   "date": "1842-08-29",
+   "label": "Treaty of Nanking",
+   "eyes": [
+    "loch",
+    "lin",
+    "daoguang",
+    "bridgman"
+   ],
+   "note": "Loch watches the signing; Lin is on the road to exile; the Emperor accepts the terms; Bridgman sees missions opening."
+  }
+ ],
+ "ties": [
+  {
+   "a": "lin",
+   "b": "elliot",
+   "kind": "opposite sides",
+   "note": "They never met, but they corresponded through edicts and notices for two years; Elliot's surrender of the opium to the Crown answered Lin's ultimatum."
+  },
+  {
+   "a": "lin",
+   "b": "bridgman",
+   "kind": "met",
+   "note": "Lin received Bridgman at Humen in June 1839 and used his testimony that the destruction was honest."
+  },
+  {
+   "a": "bridgman",
+   "b": "king",
+   "kind": "met",
+   "note": "They travelled to Humen together and their reports were published together."
+  },
+  {
+   "a": "forbes",
+   "b": "bridgman",
+   "kind": "same street",
+   "note": "Both lived in the American quarter of the Canton factories and were shut in together in spring 1839."
+  },
+  {
+   "a": "daoguang",
+   "b": "lin",
+   "kind": "influenced",
+   "note": "The Emperor appointed Lin in 1838 and dismissed him in 1840; Lin's memorials and the rescripts on them are the record of that relationship."
+  },
+  {
+   "a": "macpherson",
+   "b": "ouchterlony",
+   "kind": "same street",
+   "note": "Both served with Madras units from Chusan to Canton and wrote competing campaign narratives."
+  },
+  {
+   "a": "zhu",
+   "b": "yangqi",
+   "kind": "same street",
+   "note": "Two Zhenjiang townsmen: one stayed inside the walls and kept a diary, one got out and wrote a memoir decades later."
+  },
+  {
+   "a": "loch",
+   "b": "zhu",
+   "kind": "opposite sides",
+   "note": "On 21 July 1842 one was with the attacking army and the other was trapped inside the city it stormed."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "ming-qing",
+   "note": "The Manchu bannermen who defended Zhenjiang, and killed their families rather than surrender, belonged to the garrison system the Qing set up after conquering Ming China in the 1640s. Two centuries later the Han townspeople still saw them as an occupying caste."
+  },
+  {
+   "to": "black-ships",
+   "note": "News of China's defeat reached Japan through Dutch and Chinese ships, and in 1842 the shogunate softened its order to drive off foreign ships. Wei Yuan's Haiguo tuzhi, built partly on translations Lin had commissioned at Canton, was read closely in Japan before Perry arrived in 1853."
+  },
+  {
+   "to": "v1:nanjing-1937",
+   "note": "The treaty signed off Nanjing in 1842 opened the era of unequal treaties that Chinese nationalists called the century of humiliation. The same city, as the Nationalist capital, fell to Japan in December 1937."
+  },
+  {
+   "to": "delhi-1857",
+   "note": "Madras and Bengal sepoys fought in China in 1840–42, and opium grown under the East India Company's monopoly in Bengal paid for the trade. In 1857 troops heading for the Second Opium War were diverted to India to put down the rising."
+  },
+  {
+   "to": "v1:long-threads",
+   "note": "Opium, silver and tea tied British India, China and Britain into a single trade loop. The treaty of 1842 created Hong Kong, which stayed British until 1997."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://rmg.co.uk/collections/objects/rmgc-object-148139",
+   "title": "Nemesis destroying the Chinese war junks in Anson's Bay, 7 January 1841",
+   "caption": "The East India Company's iron steamer Nemesis among burning junks near Chuanbi, the day the Chuanbi forts fell. An iron steamship that could work in shallow water was a new kind of power in the Pearl River.",
+   "date": "1843 (print after Edward Duncan)",
+   "credit": "Edward Duncan / Fores; National Maritime Museum, Greenwich, PAH8192"
+  },
+  {
+   "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-207243",
+   "title": "A View of the European Factories at Canton",
+   "caption": "The narrow waterfront of foreign 'factories' where Forbes, Bridgman and Elliot were shut in during spring 1839.",
+   "date": "late 18th–early 19th century",
+   "credit": "William Daniell; National Maritime Museum, Greenwich, ZBA1291"
+  },
+  {
+   "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-42086",
+   "title": "13 Factories in Canton",
+   "caption": "A Chinese export watercolour of the same waterfront, seen the way local artists painted it for foreign buyers.",
+   "date": "19th century",
+   "credit": "Chinese School; National Maritime Museum, Greenwich, MNT0138"
+  },
+  {
+   "url": "https://www.theparisreview.org/blog/?p=72142",
+   "title": "Commissioner Lin and the Destruction of the Opium in 1839",
+   "caption": "A Chinese painting of Lin overseeing the destruction at Humen, the scene Bridgman and King witnessed.",
+   "date": "19th century",
+   "credit": "Unknown Chinese artist (reproduced in the Paris Review)"
+  },
+  {
+   "url": "https://artcollection.culture.gov.uk/?p=298",
+   "title": "The Signing and Sealing of the Treaty of Nanking in the State Cabin of HMS Cornwallis, 29 August 1842",
+   "caption": "Officers and Qing envoys around the table in the Cornwallis's cabin, the scene Loch describes.",
+   "date": "published 20 April 1846",
+   "credit": "After Captain John Platt, engraved by John Burnet; Government Art Collection, GAC 18145"
+  },
+  {
+   "url": "https://rct.uk/collection/751141-a/the-signing-and-sealing-of-the-treaty-of-nanking-29-august-1842",
+   "title": "The Signing and Sealing of the Treaty of Nanking (Royal Collection copy)",
+   "caption": "The impression of the same engraving in the Royal Collection; it was dedicated to Queen Victoria, the reader Lin's letter never reached.",
+   "date": "1846",
+   "credit": "After John Platt; Royal Collection Trust"
+  }
+ ],
+ "further": [
+  {
+   "title": "MIT Visualizing Cultures: The First Opium War (essay)",
+   "url": "https://visualizingcultures.mit.edu/opium_wars_01/ow1_essay_04.pdf"
+  },
+  {
+   "title": "Mark C. Elliott, 'Bannerman and Townsman' (Zhenjiang 1842)",
+   "url": "https://scholar.harvard.edu/sites/scholar.harvard.edu/files/elliott/files/elliott_bannerman_and_townsman.pdf"
+  },
+  {
+   "title": "Duncan MacPherson, Two Years in China",
+   "url": "https://archive.org/details/twoyearsinchinan00macprich"
+  },
+  {
+   "title": "John Ouchterlony, The Chinese War (1844)",
+   "url": "https://archive.org/details/chinesewaraccoun00ouchrich"
+  },
+  {
+   "title": "John Elliot Bingham, Narrative of the Expedition to China",
+   "url": "https://www.archive.org/details/narrativeofexped01bing"
+  },
+  {
+   "title": "Chronology of naval operations after Clowes",
+   "url": "https://pdavis.nl/China.htm"
+  },
+  {
+   "title": "Wikipedia: Sanyuanli incident",
+   "url": "https://en.wikipedia.org/wiki/Sanyuanli_incident"
+  }
+ ],
+ "vantage_key": "0 = principal actors and civilians trapped at the centre (Lin, Elliot, the Zhenjiang diarist); 1 = eyewitnesses on the scene (merchants, missionaries, officers); 3 = the throne in Beijing; (no eye here stands at 2 or 4)."
+}

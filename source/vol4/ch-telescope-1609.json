@@ -1,0 +1,1352 @@
+{
+ "id": "telescope-1609",
+ "title": "The Telescope Turned Skyward",
+ "short_title": "The Telescope Turned Skyward",
+ "subtitle": "The Hague, Syon House, Padua, Ansbach, Prague and Rome, 1608–1611",
+ "span": "1608–1611",
+ "intro": [
+  "In the autumn of 1608 a spectacle-maker from Middelburg brought a tube with two lenses to The Hague, where the Dutch Republic was negotiating a truce with Spain and receiving, that same season, an embassy from the King of Siam. Within three years the same simple device had shown the Moon's mountains, four moons circling Jupiter, Saturn's strange shape, the phases of Venus and spots on the Sun, and Rome's leading astronomers had said in writing that these things were really there. This chapter follows the instrument from patent office to sky, and the race to see, record and claim what it showed.",
+  "Almost none of the record here is a diary in the ordinary sense. It is government minutes (Lipperhey and Metius), observing notebooks and dated drawings (Harriot, Galileo), letters that functioned as priority claims, including Galileo's ciphered anagrams, printed books with dated dedications (Sidereus Nuncius, Kepler's Dissertatio and Narratio, Marius's Mundus Iovialis), a hostile pamphlet (Horky), and a formal oration (Maelcote). Each eye's form is tagged honestly. Where only a month or a later account survives, the entry says so.",
+  "The heart of the chapter is who knew what, and when. Thomas Harriot, a mathematician living on the Earl of Northumberland's pension at Syon House, drew the Moon through a Dutch glass in July 1609 by English reckoning, months before Galileo; he published nothing. Galileo, in Padua, improved the tube fastest, saw what it implied, and printed within weeks of his Jupiter discovery. In Protestant Ansbach, Simon Marius watched the same moons and later claimed to have recorded them first, a claim that hinges partly on a ten-day calendar difference and partly on a log he never produced. The claims ledger sets out these positions with their evidence; it does not judge them.",
+  "Around the observers stand the people who carried the news, doubted it, and confirmed it: Paolo Sarpi in Venice, who read the Hague news-sheet; Giambattista della Porta in Naples, who thought it was his idea and no great thing; Kepler in Prague, who backed Galileo before he could look and then looked; Martin Horky, a student in Bologna who saw Galileo's own demonstration and declared it an illusion; William Lower in Wales, comparing the Moon to a tart; and the Jesuits of the Collegio Romano, Clavius and Maelcote, whose assent in April and May 1611 turned a contested claim into accepted fact.",
+  "The visible record in these years is almost entirely male and European. Lens-grinders, assistants such as Harriot's helper Christopher Tooke, and the unnamed workmen and pedlars who spread cheap spyglasses from the Netherlands to Paris and Milan by spring 1609 did much of the work but left little writing of their own; where they appear, it is through others' papers."
+ ],
+ "calendar_note": "Two calendars were in use, ten days apart. Italy (Venice, Padua, Florence, Rome), the Catholic Habsburg lands including Prague, and the Dutch provinces of Holland and Zeeland used the Gregorian (New Style) calendar introduced in 1582 under the guidance of Christoph Clavius. England and Wales, and Protestant German territories such as Ansbach, kept the Julian (Old Style) calendar. So Harriot's Moon of 26 July 1609 is 5 August 1609 in Galileo's reckoning, and Marius's 29 December 1609 is Galileo's 8 January 1610: Marius's '1609' and Galileo's 1610 are a night apart. England also began its legal year on 25 March, which is why Lower's letter dated 6 February 1610 is read as 6 February 1610/11 (16 February 1611 N.S.). Venice's official civil year began on 1 March (more veneto), though Galileo dated scientific letters by the common January year. All date_iso values here are Gregorian; original-calendar dates appear in date_display.",
+ "vantage_key": "0 = inventor, claimant or first observer; 1 = eyewitness to observations or demonstrations; 2 = in the same city as the news; 3 = same country or learned network at a distance; 4 = abroad, news only.",
+ "eyes": [
+  {
+   "id": "lipperhey",
+   "name": "Hans Lipperhey (Lippershey)",
+   "short": "Lipperhey",
+   "life": "c.1570–1619",
+   "role": "Spectacle-maker of Middelburg, Zeeland, about 38; German-born (Wesel), citizen of Middelburg since 1602",
+   "side": "Dutch Republic (Zeeland)",
+   "where": "Middelburg and The Hague",
+   "lat": 51.499,
+   "lon": 3.611,
+   "waypoints": [
+    {
+     "lat": 51.499,
+     "lon": 3.611,
+     "label": "Middelburg, 25 Sep 1608"
+    },
+    {
+     "lat": 52.08,
+     "lon": 4.313,
+     "label": "The Hague, 2 Oct 1608"
+    },
+    {
+     "lat": 51.499,
+     "lon": 3.611,
+     "label": "Middelburg, winter 1608–09"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the patent applicant",
+   "form": "administrative records (States-General minutes)",
+   "language": "Dutch",
+   "authenticity": "No diary or letter in his own hand survives; his voice reaches us through the resolutions of the States-General and the Zeeland letter of recommendation, published by Dutch historians (Van Helden and colleagues, The Origins of the Telescope, KNAW 2010). The 2 October 1608 minute is the earliest dated document naming a telescope.",
+   "bio": "A lens-grinder who carried a tube with two lenses from Middelburg to The Hague at the very moment peace talks with Spain filled the town with diplomats, among them Ambrogio Spinola. He asked for a thirty-year privilege; the Republic's rulers liked the instrument, paid him well, and refused the patent because the device was already too widely known. His is the paper trail that starts every story in this chapter.",
+   "sources": [
+    {
+     "title": "Linda Hall Library, Scientist of the Day: Hans Lipperhey",
+     "url": "https://www.lindahall.org/about/news/scientist-of-the-day/hans-lipperhey/"
+    },
+    {
+     "title": "Encyclopedia.com: Hans Lippershay (payments and committee dates)",
+     "url": "https://encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/hans-lippershay"
+    },
+    {
+     "title": "The invention of the telescope (Experimental Astronomy, 2009)",
+     "url": "https://link.springer.com/article/10.1007/s10686-009-9160-y"
+    }
+   ]
+  },
+  {
+   "id": "metius",
+   "name": "Jacob Metius (Jacob Adriaenszoon)",
+   "short": "Metius",
+   "life": "c.1571–c.1628",
+   "role": "Instrument-maker and lens-grinder of Alkmaar, brother of the mathematician Adriaan Metius",
+   "side": "Dutch Republic (Holland)",
+   "where": "Alkmaar; petition to The Hague",
+   "lat": 52.632,
+   "lon": 4.748,
+   "vantage": 0,
+   "vantage_label": "the rival claimant",
+   "form": "petition (States-General record)",
+   "language": "Dutch",
+   "authenticity": "Known from the States-General's record of his petition in October 1608 (usually cited as 17 October) and from later family tradition. He is said to have ordered his tools destroyed at his death, so no instrument or notebook survives.",
+   "bio": "Metius told the States-General he had been perfecting such a glass for about two years and that, with support, he could make it better than the one already shown. He received only a small award and retreated into secrecy. He is the first of the three Dutch claimants, and the reason the patent failed.",
+   "sources": [
+    {
+     "title": "Wikipedia: Jacob Metius",
+     "url": "https://en.wikipedia.org/wiki/Jacob_Metius"
+    },
+    {
+     "title": "Encyclopedia.com: Hans Lippershay (Metius's claim)",
+     "url": "https://encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/hans-lippershay"
+    }
+   ]
+  },
+  {
+   "id": "sarpi",
+   "name": "Fra Paolo Sarpi",
+   "short": "Sarpi",
+   "life": "1552–1623",
+   "role": "Servite friar, theologian and state counsellor to the Venetian Republic, 56; Galileo's close friend",
+   "side": "Republic of Venice",
+   "where": "Venice",
+   "lat": 45.434,
+   "lon": 12.338,
+   "vantage": 2,
+   "vantage_label": "the hub of the news network",
+   "form": "dated letters",
+   "language": "Italian / Latin",
+   "authenticity": "Sarpi's letters to French correspondents (notably Jacques Leschassier and Jérôme Groslot de l'Isle) survive in printed editions of his correspondence. His role in vetting a rival spyglass for the Senate in 1609 is reported by Galileo's circle and later biographers; exact days are not certain.",
+   "bio": "Sarpi read of the Dutch device in a printed newsletter in November 1608 and passed the news to Galileo. In summer 1609 the Venetian government asked his advice about a foreigner offering a spyglass for sale; his counsel left the field open for Galileo. He is the quiet link between The Hague's news-sheet and Padua's workshop.",
+   "sources": [
+    {
+     "title": "Museo Galileo: Paolo Sarpi",
+     "url": "https://catalogue.museogalileo.it/biography/PaoloSarpi.html"
+    },
+    {
+     "title": "Linda Hall Library: Paolo Sarpi",
+     "url": "https://lindahall.org/about/news/scientist-of-the-day/paolo-sarpi"
+    },
+    {
+     "title": "Museo Galileo: history of the telescope",
+     "url": "https://brunelleschi.imss.fi.it/esplora/cannocchiale/dswmedia/storia/estoria1_st.html"
+    }
+   ]
+  },
+  {
+   "id": "dellaporta",
+   "name": "Giambattista della Porta",
+   "short": "Della Porta",
+   "life": "c.1535–1615",
+   "role": "Neapolitan natural magician and playwright, about 74; author of Magia naturalis",
+   "side": "Kingdom of Naples (Spanish); friend of the Lincei",
+   "where": "Naples",
+   "lat": 40.852,
+   "lon": 14.268,
+   "vantage": 3,
+   "vantage_label": "the old master who thought he had thought of it first",
+   "form": "dated letter with sketch",
+   "language": "Italian",
+   "authenticity": "His letter to Federico Cesi with a sketch of the spyglass, dated 28 August 1609, survives among the Lincei papers and is reproduced in histories of the telescope.",
+   "bio": "Della Porta had written decades earlier about combining lenses, and when he saw the new device he drew it for Cesi and dismissed it as a trifle lifted from his own book. He stands for the learned world that saw the tube as a curiosity before anyone pointed it seriously at the sky.",
+   "sources": [
+    {
+     "title": "The invention of the telescope (Experimental Astronomy, 2009)",
+     "url": "https://link.springer.com/article/10.1007/s10686-009-9160-y"
+    }
+   ]
+  },
+  {
+   "id": "harriot",
+   "name": "Thomas Harriot",
+   "short": "Harriot",
+   "life": "c.1560–1621",
+   "role": "Mathematician and astronomer, about 49; pensioner of Henry Percy, 9th Earl of Northumberland (then a prisoner in the Tower)",
+   "side": "England (Northumberland's household)",
+   "where": "Syon House on the Thames, west of London",
+   "lat": 51.476,
+   "lon": -0.311,
+   "vantage": 0,
+   "vantage_label": "the first recorded telescopic observer of the sky",
+   "form": "notebook (dated drawings and observing notes)",
+   "language": "English / Latin",
+   "authenticity": "Harriot's manuscript papers survive at Petworth House (West Sussex Record Office) and in the British Library. They were never published by him; selections were printed in the nineteenth century and the drawings have been studied closely since the 1960s. His dates are Julian (Old Style).",
+   "bio": "Using a 'Dutch trunke' of about six power, Harriot sketched the crescent Moon on 26 July 1609 (Old Style), months before Galileo's lunar work, then went on to Jupiter's moons and sunspots once Sidereus Nuncius reached England. He published none of it. His lenses were reportedly ground with help from his assistant Christopher Tooke, and his telescopes went to friends in Wales, so his record is the work of a small circle rather than one man.",
+   "sources": [
+    {
+     "title": "Telescope400: Thomas Harriot's drawings",
+     "url": "https://telescope400.org.uk/harriot-maps.htm"
+    },
+    {
+     "title": "Telescope400: Thomas Harriot 1560–1621",
+     "url": "https://www.telescope400.org.uk/harriot.htm"
+    },
+    {
+     "title": "Biographical Encyclopedia of Astronomers: Harriot (St Andrews PDF)",
+     "url": "https://mathshistory.st-andrews.ac.uk/BEA/harriot_bea.pdf"
+    },
+    {
+     "title": "HAO: Thomas Harriot",
+     "url": "https://www2.hao.ucar.edu/education/scientists/thomas-harriot-1560-1621"
+    }
+   ]
+  },
+  {
+   "id": "lower",
+   "name": "Sir William Lower",
+   "short": "Lower",
+   "life": "c.1570–1615",
+   "role": "Welsh-based gentleman, former MP, amateur astronomer; Harriot's friend and correspondent",
+   "side": "England / Wales (Harriot's circle)",
+   "where": "Trefenty, Carmarthenshire, observing with his neighbour John Prothero",
+   "lat": 51.8,
+   "lon": -4.45,
+   "vantage": 3,
+   "vantage_label": "the friend in the provinces with a borrowed glass",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "His letters to Harriot survive among Harriot's papers; parts were printed in the nineteenth century (e.g. in Halliwell's Collection of Letters, 1841). The letter dated 6 February 1610 is Old Style, and because it discusses Galileo's published discoveries it is read as 6 February 1610/11.",
+   "bio": "Lower watched the Moon through a telescope Harriot sent him and compared what he saw to a tart his cook had made. Reading Galileo, he wrote to urge Harriot to publish, half-teasing that the Italian had stolen his friend's thunder. He is the honest outsider's voice of the English circle.",
+   "sources": [
+    {
+     "title": "Biographical Encyclopedia of Astronomers: Harriot (quotes Lower)",
+     "url": "https://mathshistory.st-andrews.ac.uk/BEA/harriot_bea.pdf"
+    },
+    {
+     "title": "Telescope400: Thomas Harriot",
+     "url": "https://www.telescope400.org.uk/harriot.htm"
+    }
+   ]
+  },
+  {
+   "id": "galileo",
+   "name": "Galileo Galilei",
+   "short": "Galileo",
+   "life": "1564–1642",
+   "role": "Professor of mathematics at Padua, 45; from September 1610 Chief Mathematician and Philosopher to the Grand Duke of Tuscany",
+   "side": "Republic of Venice, then Grand Duchy of Tuscany",
+   "where": "Padua and Venice; Florence from autumn 1610; Bologna (April 1610); Rome (spring 1611)",
+   "lat": 45.406,
+   "lon": 11.877,
+   "waypoints": [
+    {
+     "lat": 45.434,
+     "lon": 12.338,
+     "label": "Venice, Aug 1609"
+    },
+    {
+     "lat": 45.406,
+     "lon": 11.877,
+     "label": "Padua, Jan 1610"
+    },
+    {
+     "lat": 44.494,
+     "lon": 11.343,
+     "label": "Bologna, Apr 1610"
+    },
+    {
+     "lat": 43.769,
+     "lon": 11.256,
+     "label": "Florence, Sep 1610"
+    },
+    {
+     "lat": 41.898,
+     "lon": 12.48,
+     "label": "Rome, Apr 1611"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the observer who published",
+   "form": "observing notes, dated letters and printed book",
+   "language": "Italian / Latin",
+   "authenticity": "His observation notes for January 1610 survive in the Galilean manuscripts of the Biblioteca Nazionale Centrale, Florence; his letters are in the National Edition (Favaro). Caution: the University of Michigan's celebrated 'Galileo manuscript' (letter draft and Jupiter sketch) was shown in 2022 to be a twentieth-century forgery, probably by Tobia Nicotra; the authentic 24 August 1609 letter to the Doge is in the Venetian state archives.",
+   "bio": "Galileo did not invent the telescope and was not the first to point one upward, but he improved it fastest (to about twenty or thirty power), saw what it meant, and printed it within weeks. His dated sequence of Jupiter sketches in January 1610 is the most famous observing log in history. He guarded later discoveries with anagrams to fix priority without revealing them.",
+   "sources": [
+    {
+     "title": "The Sidereal Messenger of Galileo Galilei (tr. E. S. Carlos, 1880), Project Gutenberg",
+     "url": "https://gutenberg.org/cache/epub/46036/pg46036-images.html"
+    },
+    {
+     "title": "Museo Galileo: phases of Venus",
+     "url": "https://brunelleschi.imss.fi.it/esplora/cannocchiale/dswmedia/simula/esimula1_3_st.html"
+    },
+    {
+     "title": "Museum of the History of Science, Oxford: the uses of the telescope 1609–10",
+     "url": "https://www.cabinet.ox.ac.uk/uses-telescope-1609-10"
+    },
+    {
+     "title": "University of Michigan Library: the Galileo manuscript (forgery finding)",
+     "url": "https://www.lib.umich.edu/collections/collecting-areas/special-collections-and-archives/history-astronomy-and-mathematics/galileo-manuscript"
+    }
+   ]
+  },
+  {
+   "id": "marius",
+   "name": "Simon Marius (Simon Mayr)",
+   "short": "Marius",
+   "life": "1573–1625",
+   "role": "Court mathematician and physician to the Margraves of Brandenburg-Ansbach, 36",
+   "side": "Protestant Franconia (Holy Roman Empire)",
+   "where": "Ansbach",
+   "lat": 49.3,
+   "lon": 10.571,
+   "vantage": 0,
+   "vantage_label": "the rival who used the other calendar",
+   "form": "printed almanac and book (no surviving notebook)",
+   "language": "Latin / German",
+   "authenticity": "His claims rest on his own printed works (an almanac published in 1611 and Mundus Iovialis, 1614), not on a surviving manuscript log. Galileo accused him of plagiarism in Il Saggiatore (1623); a Dutch committee in 1903 (report published by J. Bosscha in 1907) judged his observations independent.",
+   "bio": "Marius's patron Fuchs von Bimbach learned of the Dutch glass at the Frankfurt fair in 1608, and Marius worked for about a year to make one good enough for the sky. He said he began watching Jupiter in late November 1609 and recorded the satellites from 29 December 1609, Julian style, which is 8 January 1610 in Galileo's calendar. The names we use for the moons (Io, Europa, Ganymede, Callisto) are his.",
+   "sources": [
+    {
+     "title": "MacTutor: Simon Mayr",
+     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Mayr/"
+    },
+    {
+     "title": "Wikipedia: Simon Marius",
+     "url": "https://en.wikipedia.org/wiki/Simon_Marius"
+    },
+    {
+     "title": "Linda Hall Library: Simon Marius",
+     "url": "https://www.lindahall.org/about/news/scientist-of-the-day/simon-marius/"
+    }
+   ]
+  },
+  {
+   "id": "kepler",
+   "name": "Johannes Kepler",
+   "short": "Kepler",
+   "life": "1571–1630",
+   "role": "Imperial Mathematician to Rudolf II, 38; author of Astronomia nova (1609)",
+   "side": "Holy Roman Empire (Lutheran at the Catholic imperial court)",
+   "where": "Prague",
+   "lat": 50.088,
+   "lon": 14.42,
+   "vantage": 1,
+   "vantage_label": "the theorist who vouched before he could see",
+   "form": "printed letters and observation report",
+   "language": "Latin",
+   "authenticity": "His Dissertatio cum Nuncio Sidereo (letter dated 19 April 1610, printed Prague 1610, reprinted Florence) and Narratio de observatis a se quatuor Iovis satellitibus erronibus (printed Frankfurt 1611) are contemporary printed texts; his correspondence is in the Gesammelte Werke. Prague (Catholic Bohemia) used the Gregorian calendar.",
+   "bio": "Kepler endorsed Galileo's claims within eleven days of seeing the book, with no telescope of his own, and was mocked for it. When the Elector Ernst of Cologne lent him a Galilean instrument in late summer 1610 he watched the moons himself and printed sworn-witness style notes. He also coined the word 'satellite' for them and spent weeks failing to crack Galileo's anagrams.",
+   "sources": [
+    {
+     "title": "Christie's lot note: Kepler, Narratio (Florence 1611)",
+     "url": "https://onlineonly.christies.com.cn/s/fine-printed-books-manuscripts-including-americana/narratio-de-observatis-se-quatuor-iouis-satellitibus-erronibus-103/247193"
+    },
+    {
+     "title": "Deutsche Digitale Bibliothek: Narratio (Frankfurt 1611)",
+     "url": "https://www.deutsche-digitale-bibliothek.de/item/IMXP4OA5SLJ2LKIGQ77M2HHNLXMEHE2R?lang=en"
+    },
+    {
+     "title": "The Sidereal Messenger ... and part of Kepler's Dioptrics preface (Project Gutenberg)",
+     "url": "https://gutenberg.org/cache/epub/46036/pg46036-images.html"
+    }
+   ]
+  },
+  {
+   "id": "horky",
+   "name": "Martin Horky (Martin Horký)",
+   "short": "Horky",
+   "life": "c.1590–after 1650",
+   "role": "Young Bohemian student of astronomy and medicine at Bologna, lodging with the astronomer Giovanni Antonio Magini",
+   "side": "Bohemia (student in the Papal States)",
+   "where": "Bologna; printed his attack at Modena",
+   "lat": 44.494,
+   "lon": 11.343,
+   "waypoints": [
+    {
+     "lat": 44.494,
+     "lon": 11.343,
+     "label": "Bologna, Apr 1610"
+    },
+    {
+     "lat": 44.647,
+     "lon": 10.925,
+     "label": "Modena, Jun 1610"
+    },
+    {
+     "lat": 50.088,
+     "lon": 14.42,
+     "label": "Prague, Oct 1610"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the hostile eyewitness",
+   "form": "dated letters and pamphlet",
+   "language": "Latin",
+   "authenticity": "His letters to Kepler are in Kepler's correspondence; his pamphlet Brevissima peregrinatio contra Nuncium Sidereum (Modena, 1610) survives and is transcribed on Italian Wikisource. Exact days of the April letters are given differently in secondary sources.",
+   "bio": "Horky was in the room when Galileo showed Jupiter to Magini's guests at Bologna in April 1610, and wrote to Kepler that the glass deceived everyone who looked at the stars. His pamphlet in June made him briefly notorious; Kepler broke with him, and by October he had recanted in Prague. He is the reminder that early telescopes were hard to use and the evidence was not self-evident.",
+   "sources": [
+    {
+     "title": "Martin Horký (Wikipedia mirror)",
+     "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Martin_Horky"
+    },
+    {
+     "title": "Museo Galileo: Martin Horky",
+     "url": "https://brunelleschi.imss.fi.it/itineraries/biography/MartinHorky.html"
+    },
+    {
+     "title": "Brevissima peregrinatio contra Nuncium Sidereum (Wikisource, Latin)",
+     "url": "https://it.wikisource.org/wiki/Martini_Horky_Brevissima_peregrinatio_contra_Nuncium_Sidereum"
+    }
+   ]
+  },
+  {
+   "id": "clavius",
+   "name": "Christoph Clavius SJ",
+   "short": "Clavius",
+   "life": "1538–1612",
+   "role": "Senior Jesuit mathematician of the Collegio Romano, 72; architect of the Gregorian calendar reform of 1582",
+   "side": "Society of Jesus, Rome",
+   "where": "Collegio Romano, Rome",
+   "lat": 41.898,
+   "lon": 12.48,
+   "vantage": 1,
+   "vantage_label": "the calendar-maker who checked the sky",
+   "form": "dated letters (expert opinion)",
+   "language": "Latin / Italian",
+   "authenticity": "His letter to Galileo of December 1610 and the Jesuit mathematicians' joint reply to Cardinal Bellarmine (dated 24 April 1611) are printed in Galileo's National Edition. One modern survey gives the reply's date as 24 March 1611; the April date, after Bellarmine's query of 19 April, is the usual one.",
+   "bio": "Clavius, whose reform had put Italy ten days ahead of England, was at first doubtful of the new stars. After his colleagues built a good enough instrument they saw the Medicean planets and the odd shape of Saturn, and he told Galileo so. When Bellarmine asked in April 1611 whether the claims were true, the Jesuit mathematicians answered largely yes, with careful reserve about what the Moon's roughness meant.",
+   "sources": [
+    {
+     "title": "Museo Galileo: Roberto Bellarmino",
+     "url": "https://brunelleschi.imss.fi.it/itineraries/biography/RobertoBellarmino.html"
+    },
+    {
+     "title": "Wikipedia: Odo Van Maelcote (the Jesuit reply)",
+     "url": "https://en.wikipedia.org/wiki/Odo_Van_Maelcote"
+    }
+   ]
+  },
+  {
+   "id": "maelcote",
+   "name": "Odo van Maelcote SJ",
+   "short": "Maelcote",
+   "life": "1572–1615",
+   "role": "Flemish Jesuit, 38, teacher of mathematics and Hebrew at the Collegio Romano, assistant to Christoph Grienberger",
+   "side": "Society of Jesus, Rome (from the Spanish Netherlands)",
+   "where": "Collegio Romano, Rome",
+   "lat": 41.898,
+   "lon": 12.48,
+   "vantage": 1,
+   "vantage_label": "the orator of confirmation",
+   "form": "oration (printed later) and co-signed letter",
+   "language": "Latin",
+   "authenticity": "His oration Nuncius Sidereus Collegii Romani, delivered 18 May 1611 with Galileo present, survives in manuscript and was printed in the National Edition of Galileo's works.",
+   "bio": "A Brussels-born Jesuit from the same Low Countries where the instrument began, Maelcote co-signed the reply to Bellarmine and then gave the College's formal oration praising the discoveries. His speech is the moment the new sky was declared, publicly and by Rome's leading astronomers, to be real.",
+   "sources": [
+    {
+     "title": "Wikipedia: Odo Van Maelcote",
+     "url": "https://en.wikipedia.org/wiki/Odo_Van_Maelcote"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1608-09-25",
+   "date_display": "Thursday 25 September 1608 (N.S.)",
+   "precision": "day",
+   "eye": "lipperhey",
+   "place": "Middelburg, Zeeland",
+   "headline": "Zeeland's councillors send the spectacle-maker to The Hague",
+   "digest": "Lipperhey has shown the Zeeland committee a tube that makes far things look near, and they give him a letter of introduction to their delegate at the States-General asking for an audience with Prince Maurice. He leaves for The Hague, where the peace talks with Spain have brought the Spanish commander Spinola to town. A public showing in The Hague around this date is later remembered by observers of the Archdukes' court.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Experimental Astronomy 2009 (Lipperhey leaves Middelburg 25 Sept 1608); Encyclopedia.com; arXiv 0908.2696 on Spinola at the Hague demonstration"
+  },
+  {
+   "date_iso": "1608-10-02",
+   "date_display": "Thursday 2 October 1608 (N.S.)",
+   "precision": "day",
+   "eye": "lipperhey",
+   "place": "The Hague, States-General",
+   "headline": "First dated document naming a telescope: a patent request",
+   "digest": "The minutes of the States-General record Lipperhey's request for a thirty-year privilege on an instrument for seeing things far away as if nearby. The deputies form a committee to test it from a tower of Prince Maurice's quarters and ask whether he can make one for both eyes. It is the earliest dated written record of the device anywhere.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "States-General resolution of 2 Oct 1608, as cited by Linda Hall Library and Experimental Astronomy 2009"
+  },
+  {
+   "date_iso": "1608-10-05",
+   "date_display": "Sunday 5 October 1608 (N.S.)",
+   "precision": "day",
+   "eye": "lipperhey",
+   "place": "The Hague",
+   "headline": "An advance of 300 guilders for a binocular version",
+   "digest": "Rather than a patent, the States-General give Lipperhey 300 guilders on account to build an instrument to their specification, of rock crystal and for two eyes. The government wants the device for war at sea and on land and wants it kept secret. The secrecy will not last a month.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Encyclopedia.com: Hans Lippershay (5 Oct 1608 advance)"
+  },
+  {
+   "date_iso": "1608-10-17",
+   "date_display": "about 17 October 1608 (N.S.)",
+   "precision": "day",
+   "eye": "metius",
+   "place": "Alkmaar / The Hague",
+   "headline": "A second claimant: Metius says he has worked on it for two years",
+   "digest": "Within about two weeks of Lipperhey's application, Jacob Metius of Alkmaar petitions the States-General for his own privilege, saying he has spent two years on such a glass and could improve on the one already shown. The deputies give him a small sum and encourage him to keep working. The existence of two claimants convinces them the secret is already out.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Experimental Astronomy 2009 ('within 2 weeks'); Wikipedia: Jacob Metius (October 1608). The day 17 Oct is the date usually cited for the States-General record; not confirmed here."
+  },
+  {
+   "date_iso": "1608-11",
+   "date_display": "November 1608",
+   "precision": "month",
+   "eye": "sarpi",
+   "place": "Venice",
+   "headline": "A Hague news-sheet reaches the friar in Venice",
+   "digest": "A printed newsletter from The Hague, which had reported the Siamese embassy to Prince Maurice and, in passing, the Middelburg spectacle-maker's glass, reaches Venice. Sarpi reads it and passes the news to Galileo in Padua. For months it is a rumour rather than an object; Sarpi writes to friends in France asking whether anyone has seen one.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Experimental Astronomy 2009 (Sarpi receives the newsletter Nov 1608); Museo Galileo telescope history (Sarpi had heard by Nov 1608)"
+  },
+  {
+   "date_iso": "1608-12-15",
+   "date_display": "Monday 15 December 1608 (N.S.)",
+   "precision": "day",
+   "eye": "lipperhey",
+   "place": "The Hague",
+   "headline": "Binocular approved, patent refused",
+   "digest": "The committee examines Lipperhey's two-eyed instrument and finds it good. But the patent is refused on the ground that others already know how to make such glasses. He is nonetheless paid a further 300 guilders and ordered to make two more binoculars.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Encyclopedia.com: Hans Lippershay (15 Dec 1608)"
+  },
+  {
+   "date_iso": "1609-02-13",
+   "date_display": "13 February 1609 (N.S.)",
+   "precision": "day",
+   "eye": "lipperhey",
+   "place": "The Hague",
+   "headline": "Two more binoculars delivered; 900 guilders in all",
+   "digest": "Lipperhey hands over the two further instruments and receives his final payment, 900 guilders in total for his work. By now cheap spyglasses are leaving the Netherlands with soldiers, diplomats and pedlars; by April they are on sale in Paris and by May in Milan. The inventor is paid; the invention is free.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Encyclopedia.com (13 Feb 1609); Museo Galileo telescope history (Paris April 1609, Milan May 1609)"
+  },
+  {
+   "date_iso": "1609-08",
+   "date_display": "summer 1609",
+   "precision": "month",
+   "eye": "sarpi",
+   "place": "Venice",
+   "headline": "Sarpi advises the Senate not to buy a foreigner's glass",
+   "digest": "A traveller arrives offering the Venetian government a Dutch-style spyglass for a high price. Sarpi, consulted as state counsellor, advises against the purchase, judging the instrument ordinary; Galileo's own improved instrument arrives in its place. The friar's counsel is the pivot by which the Venetian reward went to Padua rather than to an itinerant seller.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Museo Galileo and Linda Hall Library biographies of Sarpi; exact date not established"
+  },
+  {
+   "date_iso": "1609-08-05",
+   "date_display": "26 July 1609 (O.S.) = 5 August 1609 (N.S.)",
+   "precision": "day",
+   "eye": "harriot",
+   "place": "Syon House, Middlesex",
+   "headline": "Harriot sketches the five-day Moon through a Dutch trunke",
+   "digest": "At about nine in the evening Harriot turns a six-power tube on the crescent Moon and makes a quick ink sketch: the bright limb, a ragged terminator, a few dark patches he does not try to interpret. It is the earliest known drawing of anything in the sky made through a telescope. He files it among his papers and tells no one in print.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Telescope400 (26 July 1609 Julian = 5 Aug 1609 Gregorian, footnote 5); BEA (6x telescope)"
+  },
+  {
+   "date_iso": "1609-08-24",
+   "date_display": "24 August 1609 (N.S.)",
+   "precision": "day",
+   "eye": "galileo",
+   "place": "Venice",
+   "headline": "Galileo offers his spyglass to the Doge",
+   "digest": "Having heard of the Dutch instrument in the summer and worked out its lenses, Galileo writes to Doge Leonardo Donà presenting a glass of about eight or nine power, stressing that it lets the Republic see enemy sails hours before they are seen from the ships. He promises to keep its making secret. The authentic letter is in the Venetian state archive.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Museum of the History of Science, Oxford (final draft sent 24 Aug 1609)"
+  },
+  {
+   "date_iso": "1609-08-25",
+   "date_display": "25 August 1609 (N.S.)",
+   "precision": "day",
+   "eye": "galileo",
+   "place": "Venice",
+   "headline": "The Senate doubles his salary for life",
+   "digest": "After senators have climbed the Campanile of San Marco and watched distant ships through the glass, the Signoria accepts Galileo's gift. His Padua professorship is confirmed for life at a doubled salary. Some Venetians grumble when they learn spyglasses are already cheap in the north.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "British Astronomical Association chronology (x8 instrument shown to the Venetian government 25 Aug 1609)"
+  },
+  {
+   "date_iso": "1609-08-28",
+   "date_display": "28 August 1609 (N.S.)",
+   "precision": "day",
+   "eye": "dellaporta",
+   "place": "Naples",
+   "headline": "Della Porta sketches the tube and calls it a trifle",
+   "digest": "Writing to his patron Federico Cesi in Rome, the old Neapolitan magus draws the spyglass, a tube with a convex and a concave lens, and remarks that he has seen its secret and that it is nothing much, taken from his own Magia naturalis. He shows no interest in the sky. A year later, after Sidereus Nuncius, the same instrument will look very different.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Experimental Astronomy 2009 (della Porta's drawing dated 28 Aug 1609)"
+  },
+  {
+   "date_iso": "1609-11",
+   "date_display": "late November 1609 (O.S.)",
+   "precision": "month",
+   "eye": "marius",
+   "place": "Ansbach",
+   "headline": "Marius begins watching Jupiter with a home-made glass",
+   "digest": "After a year of effort since his patron reported the Frankfurt fair spyglass, Marius has an instrument good enough to use at night. He later says he started observing Jupiter around the end of November 1609 and noticed small stars near it. He keeps no published record of these first nights.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "MacTutor: Simon Mayr (began late November 1609, per Mundus Iovialis)"
+  },
+  {
+   "date_iso": "1609-12-01",
+   "date_display": "30 November – mid-December 1609",
+   "precision": "range",
+   "eye": "galileo",
+   "place": "Padua",
+   "headline": "Galileo watercolours the rough, mountainous Moon",
+   "digest": "With a new glass of about twenty power, Galileo paints a series of washes of the Moon at different phases, showing the terminator broken by bright points that he reads as mountain-tops catching the dawn and dark hollows like the valleys of Bohemia. The dating is reconstructed: E. Whitaker put them between 30 November and 18 December 1609, while others argue some belong to November. These drawings become the engravings in Sidereus Nuncius.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "British Astronomical Association chronology (discusses Whitaker 1978 and later re-dating)"
+  },
+  {
+   "date_iso": "1610-01-07",
+   "date_display": "Thursday 7 January 1610 (N.S.)",
+   "precision": "day",
+   "eye": "galileo",
+   "place": "Padua",
+   "headline": "Three small stars in a line beside Jupiter",
+   "digest": "In the first hour of night Galileo sees Jupiter with three small bright stars near it, two to the east and one to the west, strung along the ecliptic. He takes them for fixed stars but is struck that they are in a straight line and brighter than others of their size. The same evening he drafts a letter about his lunar findings.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sidereus Nuncius, Jupiter section (Carlos tr. 1880, Project Gutenberg)"
+  },
+  {
+   "date_iso": "1610-01-08",
+   "date_display": "29 December 1609 (O.S.) = 8 January 1610 (N.S.)",
+   "precision": "day",
+   "eye": "marius",
+   "place": "Ansbach",
+   "headline": "Marius first records the companions of Jupiter",
+   "digest": "By his own later account, Marius on this night first wrote down the small stars accompanying Jupiter. In Ansbach's Julian calendar it was still 1609, which let him title his book on the discovery as of 'the year 1609'. In Galileo's calendar it was the night after Galileo's first sighting.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia: Simon Marius (29 Dec 1609 Julian = 8 Jan 1610 Gregorian); MacTutor: Mayr"
+  },
+  {
+   "date_iso": "1610-01-08",
+   "date_display": "Friday 8 January 1610 (N.S.)",
+   "precision": "day",
+   "eye": "galileo",
+   "place": "Padua",
+   "headline": "All three stars have jumped to the west",
+   "digest": "Returning to Jupiter, Galileo finds all three small stars west of the planet and closer together. If they were fixed, Jupiter would have to be moving the wrong way. He waits anxiously for the next clear night; the 9th is cloudy.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sidereus Nuncius (Carlos tr. 1880)"
+  },
+  {
+   "date_iso": "1610-01-13",
+   "date_display": "Wednesday 13 January 1610 (N.S.)",
+   "precision": "day",
+   "eye": "galileo",
+   "place": "Padua",
+   "headline": "Four companions for the first time",
+   "digest": "Galileo now sees four small stars close to Jupiter, three to the west and one to the east. Over the next nights, through 15 January, he concludes that they are not fixed but wander around Jupiter as Venus and Mercury go around the Sun. He begins plotting their positions nightly, the record that becomes the core of his book.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sidereus Nuncius (Carlos tr. 1880)"
+  },
+  {
+   "date_iso": "1610-03-12",
+   "date_display": "Friday 12 March 1610 (N.S.)",
+   "precision": "day",
+   "eye": "galileo",
+   "place": "Padua; printed at Venice",
+   "headline": "Sidereus Nuncius dedicated to Cosimo II de' Medici",
+   "digest": "Galileo signs the dedication of his short Latin book, naming the four moons the Medicean Stars after the Grand Duke and his brothers. Printed in Venice by Baglioni within days, about 550 copies sell out quickly. Its evidence is the dated log of Jupiter's configurations from 7 January to 2 March and engraved Moon views.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sidereus Nuncius dedication dated Padua 12 March 1610 (Carlos tr. 1880, Project Gutenberg)"
+  },
+  {
+   "date_iso": "1610-04-19",
+   "date_display": "Monday 19 April 1610 (N.S.)",
+   "precision": "day",
+   "eye": "kepler",
+   "place": "Prague",
+   "headline": "Kepler's open letter backs Galileo without a telescope",
+   "digest": "Having been shown the book by the Tuscan ambassador Giuliano de' Medici and asked for his opinion, Kepler writes a long open letter in about eleven days. He accepts the discoveries on Galileo's word, notes that his own Optics and Della Porta had foreseen such instruments, and speculates about inhabitants of Jupiter. It is printed in Prague within weeks as the Dissertatio cum Nuncio Sidereo.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Christie's lot note (Dissertatio, Prague edition); Carlos 1880 introduction (Discussion, 1610)"
+  },
+  {
+   "date_iso": "1610-04-25",
+   "date_display": "24–25 April 1610 (N.S.)",
+   "precision": "range",
+   "eye": "horky",
+   "place": "Bologna",
+   "headline": "At Magini's party the glass shows nothing to the sceptics",
+   "digest": "Galileo, travelling to Florence, stops at Bologna and spends two nights showing Jupiter's companions to Magini and some twenty learned guests. Horky, Magini's young lodger, writes to Kepler that the instrument works wonders on earthly things but deceives on the heavens, that the guests confessed they saw nothing convincing, and that Galileo left early the next morning. He also gossips cruelly about Galileo's health.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Horký biography (Bologna demonstration April 1610; letters to Kepler); exact day of Horky's letter not confirmed"
+  },
+  {
+   "date_iso": "1610-06",
+   "date_display": "June 1610",
+   "precision": "month",
+   "eye": "horky",
+   "place": "Modena",
+   "headline": "Horky prints a pamphlet against the Starry Messenger",
+   "digest": "Horky's Brevissima peregrinatio contra Nuncium Sidereum appears at Modena in some five hundred copies, arguing that the 'Medicean planets' are optical illusions or reflections. Galileo's supporters, including John Wedderburn and Giovanni Antonio Roffeni, reply in print. Magini distances himself and turns Horky out.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Horký biography (drafted by May, printed at Modena June 1610)"
+  },
+  {
+   "date_iso": "1610-07-30",
+   "date_display": "about 30 July 1610 (N.S.)",
+   "precision": "day",
+   "eye": "galileo",
+   "place": "Padua",
+   "headline": "Saturn is three bodies, and he hides it in an anagram",
+   "digest": "Galileo finds that Saturn appears not as one star but as a large one flanked by two smaller ones that never move, and reports it privately to the Tuscan secretary Belisario Vinta. To claim priority without revealing it, he sends abroad, by way of Giuliano de' Medici in Prague, a string of 37 scrambled letters. Kepler will spend weeks on it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "MathPages (anagram sent c. 25 July 1610); Experimental Astronomy 2009 (Saturn, July 1610); the day of the Vinta letter is from memory of Favaro, not confirmed here"
+  },
+  {
+   "date_iso": "1610-08-19",
+   "date_display": "Thursday 19 August 1610 (N.S.)",
+   "precision": "day",
+   "eye": "galileo",
+   "place": "Padua",
+   "headline": "To Kepler: almost the only one who believed at first sight",
+   "digest": "Answering Kepler, Galileo thanks him for crediting the discoveries after a brief look at the book. He complains that the leading philosophers of Padua and Pisa refused to look through his glass even when offered, and that one tried to argue the new planets out of the sky with logic before the Grand Duke. He promises the truth will outlast them.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Galileo to Kepler 19 Aug 1610 (famous-trials.com, from von Gebler 1879)"
+  },
+  {
+   "date_iso": "1610-09",
+   "date_display": "September 1610",
+   "precision": "month",
+   "eye": "kepler",
+   "place": "Prague",
+   "headline": "Kepler misreads the Saturn anagram as moons of Mars",
+   "digest": "Working on Galileo's scrambled letters, Kepler produces a Latin line that he takes to greet the twin offspring of Mars, which fitted his own guess that Mars should have two moons. He prints his attempt with the Narratio. He is wrong about the message, though Mars does have two small moons, found in 1877.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "MathPages: Kepler's solution 'Salve umbistineum geminatum Martia proles'"
+  },
+  {
+   "date_iso": "1610-09-04",
+   "date_display": "30 August – 9 September 1610 (N.S.)",
+   "precision": "range",
+   "eye": "kepler",
+   "place": "Prague",
+   "headline": "Kepler sees the moons for himself with a borrowed glass",
+   "digest": "Elector Ernst of Cologne, passing through Prague, lends Kepler a telescope made by Galileo. Over about ten nights Kepler and friends observe Jupiter, each drawing in chalk on a board what he sees without consulting the others, then comparing. Three, sometimes four, companions are visible; Kepler prints the results as his Narratio, calling them satellites.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Christie's lot note (observations 30 Aug – 9 Sept 1610; telescope lent by Ernst of Cologne); DDB record of Narratio, Frankfurt 1611"
+  },
+  {
+   "date_iso": "1610-09-06",
+   "date_display": "27 August 1610 (O.S.) = 6 September 1610 (N.S.)",
+   "precision": "day",
+   "eye": "harriot",
+   "place": "Syon House",
+   "headline": "Harriot's waning Moon, with a 'Caspian' sea",
+   "digest": "A year after his first sketch, Harriot draws the waning gibbous Moon in much more detail, labelling a dark patch by analogy with earthly geography and noting how much of it is visible. He has now read Sidereus Nuncius and is looking with sharper instruments. In the same week, in Prague, Kepler is confirming Jupiter's moons.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Telescope400: Harriot's drawing of 27 Aug 1610 (Julian), 'about 1/3 of ye Caspian was seene'"
+  },
+  {
+   "date_iso": "1610-10",
+   "date_display": "October 1610",
+   "precision": "month",
+   "eye": "horky",
+   "place": "Prague",
+   "headline": "Horky meets Kepler and retracts",
+   "digest": "The pamphleteer travels to Prague, where Kepler, who had already written to Galileo condemning the attack, receives him and persuades him to withdraw his claims. The episode ends Horky's brief fame. The sceptics' case now rests on the difficulty of seeing, not on argument.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Horký biography (met Kepler in Prague, October 1610)"
+  },
+  {
+   "date_iso": "1610-10-27",
+   "date_display": "17 October 1610 (O.S.) = 27 October 1610 (N.S.)",
+   "precision": "day",
+   "eye": "harriot",
+   "place": "Syon House",
+   "headline": "Harriot's first observations of 'the new found planets'",
+   "digest": "Harriot opens a run of Jupiter observations, headed in his papers as his first of the newly found planets about Jupiter. He follows them over the coming months with the aim of measuring their periods, a project Galileo was pursuing too. His notes stay in manuscript.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Jupiter2014 astronomers page (Harriot, 17 Oct 1610, quoting his heading)"
+  },
+  {
+   "date_iso": "1610-11-13",
+   "date_display": "Saturday 13 November 1610 (N.S.)",
+   "precision": "day",
+   "eye": "galileo",
+   "place": "Florence",
+   "headline": "Galileo unlocks the Saturn anagram",
+   "digest": "Now settled in Florence as the Grand Duke's philosopher, and told that the Emperor himself wants to know, Galileo sends the solution of his Saturn cipher through Giuliano de' Medici. It reads that he has observed the highest planet as threefold.",
+   "quote": "Altissimum planetam tergeminum observavi",
+   "confidence": "verified",
+   "source_note": "Galileo's letter of 13 Nov 1610 (Carlos 1880 appendix, Project Gutenberg)"
+  },
+  {
+   "date_iso": "1610-12-11",
+   "date_display": "Saturday 11 December 1610 (N.S.)",
+   "precision": "day",
+   "eye": "galileo",
+   "place": "Florence",
+   "headline": "A second cipher: something new about Venus",
+   "digest": "Galileo sends Giuliano another scrambled Latin line, announcing only that he has a new observation that supports the Copernican and Pythagorean system. He has been watching Venus shrink and change from round toward half and crescent over the autumn. This is the observation that most directly contradicts a Ptolemaic arrangement.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Museo Galileo (anagram letter to Giuliano de' Medici 11 Dec 1610); Carlos 1880 appendix"
+  },
+  {
+   "date_iso": "1610-12-17",
+   "date_display": "17 December 1610 (N.S.)",
+   "precision": "day",
+   "eye": "clavius",
+   "place": "Collegio Romano, Rome",
+   "headline": "Clavius: the Jesuits have seen the Medicean stars",
+   "digest": "Clavius writes to Galileo that his colleagues at the College, once they had a good enough instrument, saw the four companions of Jupiter and Saturn's odd elongated shape. The senior astronomer of Catholic Europe, who had been doubtful, now accepts the observations while leaving their meaning open. Galileo treats the letter as a decisive endorsement.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Clavius to Galileo, December 1610 (National Edition, vol. X); day from memory of the edition, not confirmed by a fetched source"
+  },
+  {
+   "date_iso": "1610-12-18",
+   "date_display": "8 December 1610 (O.S.) = 18 December 1610 (N.S.)",
+   "precision": "day",
+   "eye": "harriot",
+   "place": "Syon House",
+   "headline": "The earliest dated drawing of sunspots",
+   "digest": "Looking at the low Sun through haze, Harriot draws dark spots on its disc. It is the earliest known dated pictorial record of sunspots seen by telescope, a year before Fabricius, Scheiner and Galileo publish on them. He goes on to make nearly two hundred sunspot drawings through 1612.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "HAO: Thomas Harriot (earliest dated entry 8 Dec 1610; nearly 200 drawings)"
+  },
+  {
+   "date_iso": "1610-12-24",
+   "date_display": "14 December 1610 (O.S.) = 24 December 1610 (N.S.)",
+   "precision": "day",
+   "eye": "harriot",
+   "place": "Syon House",
+   "headline": "Four of Jupiter's moons, all clear",
+   "digest": "Harriot notes that for the first time he has seen all four satellites distinctly. Better lenses and practice have made the moons routine objects. In Florence, a fortnight earlier, Galileo has already moved on to Venus.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Jupiter2014 astronomers page (14 Dec 1610, 'the first time I saw 4 all clere')"
+  },
+  {
+   "date_iso": "1611",
+   "date_display": "1611",
+   "precision": "year",
+   "eye": "marius",
+   "place": "Ansbach",
+   "headline": "Marius announces the moons in a local almanac",
+   "digest": "In his yearly prognostication Marius publishes, briefly, that he too has observed Jupiter's companions and has been working on their periods. It is a modest local print, after Galileo's book and with no observation log attached. It will become a weapon later on both sides.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia: Simon Marius (almanac published 1611)"
+  },
+  {
+   "date_iso": "1611",
+   "date_display": "c. 1611",
+   "precision": "year",
+   "eye": "harriot",
+   "place": "Syon House",
+   "headline": "Harriot's full-Moon map with numbered features",
+   "digest": "Harriot produces a full-disc map of the Moon with features keyed by letters and numbers, far more accurate than Galileo's engravings, which were meant to show texture rather than geography. It is unsurpassed for decades and unpublished for centuries.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Telescope400 (moon map c.1611, about two years after the first drawing)"
+  },
+  {
+   "date_iso": "1611-01-01",
+   "date_display": "Saturday 1 January 1611 (N.S.)",
+   "precision": "day",
+   "eye": "galileo",
+   "place": "Florence",
+   "headline": "The Venus cipher solved: Venus imitates the Moon",
+   "digest": "After Kepler begged not to be kept in suspense, Galileo sends Giuliano the solution: the mother of loves imitates the shapes of Cynthia, that is, Venus shows phases like the Moon. Venus must therefore circle the Sun. He has his priority locked by the December cipher.",
+   "quote": "Cynthiae figuras aemulatur mater amorum",
+   "confidence": "verified",
+   "source_note": "Museo Galileo (solution 1 Jan 1611); MathPages"
+  },
+  {
+   "date_iso": "1611-02-16",
+   "date_display": "6 February 1610 (O.S., i.e. 1610/11) = 16 February 1611 (N.S.)",
+   "precision": "day",
+   "eye": "lower",
+   "place": "Carmarthenshire, Wales",
+   "headline": "Lower: the Moon looked like a tart, and Galileo got there first",
+   "digest": "Writing to Harriot, Lower describes watching the Moon through the telescope Harriot sent him, with his neighbour Prothero: bright and dark patches mixed like pastry, and a coastline like those in Dutch voyage books. Having now read Galileo, he marvels at the Italian's discoveries and nudges Harriot about all he had seen and not published. The letter is the clearest record of the English circle's observing culture.",
+   "quote": "a tart that my cook made me last week",
+   "confidence": "approx",
+   "source_note": "BEA: Harriot (Lower's letter dated 6 Feb 1610 O.S.); the reading as 1610/11 follows from its discussion of Galileo's published work (Sidereus Nuncius appeared March 1610)"
+  },
+  {
+   "date_iso": "1611-04-14",
+   "date_display": "14 April 1611 (N.S.)",
+   "precision": "day",
+   "eye": "galileo",
+   "place": "Rome",
+   "headline": "A banquet on the Janiculum names the 'telescopium'",
+   "digest": "In Rome since late March to show his discoveries, Galileo is feasted by Federico Cesi and the Accademia dei Lincei at a vineyard on the Janiculum, where guests view distant inscriptions and, at night, Jupiter. Around this time the Greek-derived name telescope is proposed in Cesi's circle and adopted. Galileo is made a Lincean.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Lincei banquet date from standard accounts; not confirmed by a fetched source in this research"
+  },
+  {
+   "date_iso": "1611-04-24",
+   "date_display": "Sunday 24 April 1611 (N.S.)",
+   "precision": "day",
+   "eye": "clavius",
+   "place": "Collegio Romano, Rome",
+   "headline": "The Jesuit mathematicians answer Cardinal Bellarmine",
+   "digest": "Asked by Bellarmine on 19 April whether Galileo's claims were true, Clavius, Grienberger, Maelcote and Lembo reply that they have seen the many fixed stars, Saturn's odd form, Venus's phases and the four companions of Jupiter. On the Moon's unevenness they are more guarded, noting that Clavius thinks the appearance may come from uneven density rather than mountains. Observation is confirmed; interpretation is left open.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia: Odo Van Maelcote (reply on Bellarmine's question); Museo Galileo: Bellarmino. One survey dates the letter 24 March 1611; 24 April is the date in the National Edition as usually cited"
+  },
+  {
+   "date_iso": "1611-04-24",
+   "date_display": "Sunday 24 April 1611 (N.S.)",
+   "precision": "day",
+   "eye": "maelcote",
+   "place": "Collegio Romano, Rome",
+   "headline": "Maelcote co-signs the Jesuit opinion",
+   "digest": "As one of the four College mathematicians, Maelcote puts his name to the opinion for Bellarmine. He has been among the observers using the College's instrument. Within a month he will speak for them in public.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia: Odo Van Maelcote (one of the four consulted)"
+  },
+  {
+   "date_iso": "1611-05-18",
+   "date_display": "Wednesday 18 May 1611 (N.S.)",
+   "precision": "day",
+   "eye": "maelcote",
+   "place": "Collegio Romano, Rome",
+   "headline": "The Roman College's own 'Starry Messenger'",
+   "digest": "With Galileo in the audience, Maelcote delivers a formal Latin oration at the College praising the new discoveries one by one: the Milky Way resolved into stars, the Moon, Jupiter's satellites, Saturn and Venus. It is a public, institutional confirmation in Rome, five years before the Copernican book is placed on the Index.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia: Odo Van Maelcote (18 May 1611 eulogy, Galileo present)"
+  },
+  {
+   "date_iso": "1614",
+   "date_display": "1614",
+   "precision": "year",
+   "eye": "marius",
+   "place": "Ansbach / Nuremberg",
+   "headline": "Mundus Iovialis: 'discovered in the year 1609'",
+   "digest": "Marius publishes his book on the Jovian world, with a frontispiece showing him beside a telescope, tables of the moons' motions, and the names Io, Europa, Ganymede and Callisto suggested to him by Kepler. Its title dates the discovery to 1609, true only in the Julian calendar. Galileo, in Il Saggiatore (1623), will call him a plagiarist; a Dutch committee in 1903 will judge him independent.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "MacTutor: Mayr (Mundus Iovialis 1614, 'discovered in 1609'); Wikipedia: Simon Marius (1903 committee)"
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1608-10-02",
+   "date_display": "2 Oct 1608 (N.S.)",
+   "eye": "lipperhey",
+   "claim": "Patent sought for an instrument to see far things as if near",
+   "form": "other",
+   "evidence": "States-General minutes, The Hague (patent petition)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1608-10-17",
+   "date_display": "c. 17 Oct 1608 (N.S.)",
+   "eye": "metius",
+   "claim": "Rival petition: has worked two years on such a glass",
+   "form": "other",
+   "evidence": "States-General record of petition (October 1608)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1608-12-15",
+   "date_display": "15 Dec 1608 (N.S.)",
+   "eye": "lipperhey",
+   "claim": "Patent refused: the device is already known to others",
+   "form": "other",
+   "evidence": "States-General committee resolution",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1609-08-05",
+   "date_display": "26 Jul 1609 (O.S.) = 5 Aug 1609",
+   "eye": "harriot",
+   "claim": "First known telescopic drawing of the Moon",
+   "form": "notebook",
+   "evidence": "Harriot papers, Petworth House (West Sussex Record Office)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1609-08-24",
+   "date_display": "24 Aug 1609 (N.S.)",
+   "eye": "galileo",
+   "claim": "Offers an improved spyglass to Venice as his own work",
+   "form": "letter",
+   "evidence": "Letter to Doge Donà, Venetian state archives",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1610-01-07",
+   "date_display": "7 Jan 1610 (N.S.)",
+   "eye": "galileo",
+   "claim": "Three small stars beside Jupiter, first of a dated nightly series",
+   "form": "notebook",
+   "evidence": "Observation notes (BNCF, Florence); Sidereus Nuncius",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1610-01-08",
+   "date_display": "29 Dec 1609 (O.S.) = 8 Jan 1610",
+   "eye": "marius",
+   "claim": "First recorded the companions of Jupiter (claimed later)",
+   "form": "paper published",
+   "evidence": "Mundus Iovialis (1614); no surviving log",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1610-03-12",
+   "date_display": "12–13 Mar 1610 (N.S.)",
+   "eye": "galileo",
+   "claim": "Moon's mountains, many new stars, four 'Medicean' planets of Jupiter",
+   "form": "paper published",
+   "evidence": "Sidereus Nuncius, Venice 1610",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1610-04-19",
+   "date_display": "19 Apr 1610 (N.S.)",
+   "eye": "kepler",
+   "claim": "Endorses Galileo's discoveries in print, before observing them",
+   "form": "letter",
+   "evidence": "Dissertatio cum Nuncio Sidereo, Prague 1610",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1610-07-30",
+   "date_display": "late Jul – Aug 1610",
+   "eye": "galileo",
+   "claim": "Saturn is threefold (sent as an anagram)",
+   "form": "sealed note",
+   "evidence": "Anagram letters via Giuliano de' Medici; solved 13 Nov 1610",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1610-09-04",
+   "date_display": "30 Aug – 9 Sep 1610 (N.S.)",
+   "eye": "kepler",
+   "claim": "Independent confirmation of Jupiter's satellites",
+   "form": "paper published",
+   "evidence": "Narratio de observatis ... satellitibus, Frankfurt 1611",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1610-10-27",
+   "date_display": "17 Oct 1610 (O.S.) = 27 Oct 1610",
+   "eye": "harriot",
+   "claim": "Begins systematic observation of Jupiter's satellites",
+   "form": "notebook",
+   "evidence": "Harriot papers (heading 'my first observations')",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1610-12-11",
+   "date_display": "11 Dec 1610 (N.S.)",
+   "eye": "galileo",
+   "claim": "Venus shows phases (sent as an anagram)",
+   "form": "sealed note",
+   "evidence": "Letter to Giuliano de' Medici; solved 1 Jan 1611",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1610-12-18",
+   "date_display": "8 Dec 1610 (O.S.) = 18 Dec 1610",
+   "eye": "harriot",
+   "claim": "Earliest dated telescopic drawing of sunspots",
+   "form": "notebook",
+   "evidence": "Harriot papers; c. 200 sunspot drawings 1610–12",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1611-04-24",
+   "date_display": "24 Apr 1611 (N.S.)",
+   "eye": "clavius",
+   "claim": "Collegio Romano confirms the observations to Bellarmine",
+   "form": "letter",
+   "evidence": "Jesuit mathematicians' reply (Galileo, National Edition)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1614",
+   "date_display": "1614",
+   "eye": "marius",
+   "claim": "Jovian world 'discovered in 1609'; names Io, Europa, Ganymede, Callisto",
+   "form": "paper published",
+   "evidence": "Mundus Iovialis, Nuremberg 1614",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1608-10",
+   "label": "October 1608: two Dutch claimants in two weeks",
+   "eyes": [
+    "lipperhey",
+    "metius"
+   ],
+   "note": "Lipperhey's 2 October petition and Metius's mid-October one sink each other: the States-General decides that what two men can make, many can, and pays for instruments instead of granting a monopoly."
+  },
+  {
+   "date": "1609-08-25",
+   "label": "Late summer 1609: the tube in three countries",
+   "eyes": [
+    "harriot",
+    "galileo",
+    "sarpi",
+    "dellaporta"
+   ],
+   "note": "Within three weeks Harriot quietly sketches the Moon at Syon, Galileo sells his glass to Venice as a naval tool, Sarpi steers the Senate's reward, and Della Porta in Naples dismisses the thing as his own old idea. Only the Englishman is looking up."
+  },
+  {
+   "date": "1610-01-08",
+   "label": "7–8 January 1610: Jupiter's companions, one night apart, ten days apart",
+   "eyes": [
+    "galileo",
+    "marius"
+   ],
+   "note": "Galileo's first Jupiter night is 7 January; Marius's first recorded night is 29 December 1609 in Ansbach's Julian calendar, which is 8 January in Galileo's. Marius's '1609' and Galileo's '1610' describe almost the same moment; the quarrel lives in the calendar gap and in the absence of Marius's log."
+  },
+  {
+   "date": "1610-04-25",
+   "label": "April 1610: the book meets its first readers",
+   "eyes": [
+    "kepler",
+    "horky",
+    "galileo"
+   ],
+   "note": "On 19 April Kepler endorses the Messenger from Prague without having looked; within a week Horky in Bologna watches Galileo's own demonstration and reports the glass deceives. The believer did not see; the eyewitness did not believe."
+  },
+  {
+   "date": "1610-09-04",
+   "label": "Early September 1610: confirmations east and west",
+   "eyes": [
+    "kepler",
+    "harriot"
+   ],
+   "note": "Kepler and his friends chalk Jupiter's moons on a board in Prague (30 Aug – 9 Sep N.S.) while Harriot, on 6 September by the same reckoning, draws a detailed waning Moon at Syon. Neither knows the other is at the eyepiece."
+  },
+  {
+   "date": "1610-12-18",
+   "label": "Mid-December 1610: Venus, sunspots and Jesuit assent",
+   "eyes": [
+    "galileo",
+    "clavius",
+    "harriot"
+   ],
+   "note": "Galileo sends his Venus cipher on 11 December; Clavius writes from Rome that the Jesuits have seen the Medicean stars; and on 18 December (8 December in England) Harriot draws sunspots. A week later he sees all four Jovian moons clearly."
+  },
+  {
+   "date": "1611-04-24",
+   "label": "April–May 1611: Rome confirms",
+   "eyes": [
+    "clavius",
+    "maelcote",
+    "galileo"
+   ],
+   "note": "The Lincei feast Galileo, Bellarmine asks the Jesuits, and Clavius, Maelcote and their colleagues confirm what they saw while reserving judgement on the Moon's mountains; on 18 May Maelcote's oration makes it public."
+  },
+  {
+   "date": "1611-02-16",
+   "label": "February 1611: the English circle reads the Italian",
+   "eyes": [
+    "lower",
+    "harriot",
+    "galileo"
+   ],
+   "note": "Lower's letter (6 February 1610 in English style) sets Galileo's printed triumph beside the unpublished drawings of his friend, the plainest contemporary statement of what not publishing cost Harriot."
+  }
+ ],
+ "ties": [
+  {
+   "a": "lipperhey",
+   "b": "metius",
+   "kind": "opposite sides",
+   "note": "Rival petitioners before the States-General in October 1608; the existence of both claims was the stated reason no patent was granted."
+  },
+  {
+   "a": "sarpi",
+   "b": "galileo",
+   "kind": "met",
+   "note": "Close friends in the Veneto; Sarpi passed on the Hague newsletter in November 1608 and advised the Senate in 1609."
+  },
+  {
+   "a": "galileo",
+   "b": "marius",
+   "kind": "opposite sides",
+   "note": "Galileo accused Marius of plagiarism in 1607 (the Capra affair, through Marius's pupil) and again in Il Saggiatore (1623) over Jupiter's moons."
+  },
+  {
+   "a": "kepler",
+   "b": "galileo",
+   "kind": "read each other",
+   "note": "Kepler's Dissertatio answered Sidereus Nuncius; Galileo's 19 August 1610 letter thanked him; anagrams passed between them via Giuliano de' Medici."
+  },
+  {
+   "a": "horky",
+   "b": "kepler",
+   "kind": "met",
+   "note": "Horky wrote to Kepler from Bologna, attacked Galileo in print, and recanted after meeting Kepler in Prague in October 1610."
+  },
+  {
+   "a": "horky",
+   "b": "galileo",
+   "kind": "opposite sides",
+   "note": "Horky watched Galileo's April 1610 Bologna demonstration and published against him in June."
+  },
+  {
+   "a": "harriot",
+   "b": "lower",
+   "kind": "read each other",
+   "note": "Harriot sent Lower telescopes and Galileo's book; Lower's letters back are the main record of their shared observing."
+  },
+  {
+   "a": "kepler",
+   "b": "marius",
+   "kind": "influenced",
+   "note": "Marius said the mythological names for Jupiter's moons were suggested by Kepler; both worked in the Protestant German world."
+  },
+  {
+   "a": "clavius",
+   "b": "maelcote",
+   "kind": "same street",
+   "note": "Colleagues at the Collegio Romano who co-signed the April 1611 reply to Bellarmine."
+  },
+  {
+   "a": "clavius",
+   "b": "galileo",
+   "kind": "read each other",
+   "note": "Clavius's December 1610 letter and the Jesuits' 1611 confirmation were Galileo's most valued endorsements; Galileo had known Clavius since the 1580s."
+  },
+  {
+   "a": "dellaporta",
+   "b": "kepler",
+   "kind": "mentioned",
+   "note": "Kepler's Dissertatio cites Della Porta's Magia naturalis among the earlier hints of a lens combination."
+  },
+  {
+   "a": "harriot",
+   "b": "galileo",
+   "kind": "mentioned",
+   "note": "Harriot read Sidereus Nuncius in 1610 and then took up Jupiter and the Sun; Galileo never knew of Harriot's work."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "transits-of-venus",
+   "note": "The phases of Venus that Galileo locked in his December 1610 anagram made Venus a body circling the Sun; Kepler's Rudolphine Tables (1627) then predicted the transit of 1631, and Jeremiah Horrocks watched the 1639 transit by projecting the Sun through a telescope, the same method Harriot's circle used on sunspots."
+  },
+  {
+   "to": "v2:babylon-331",
+   "note": "Babylonian astronomical diaries were the ancient world's dated sky-logs, written night by night by temple scribes; Galileo's and Harriot's 1610 Jupiter tables are the same genre of record, transformed by an instrument that showed what no naked-eye scribe could see."
+  },
+  {
+   "to": "v1:thirty-years",
+   "note": "Kepler's Prague of 1610, with its Lutheran Imperial Mathematician at a Catholic court and the Elector of Cologne lending him a telescope, was the world that broke open in 1618; Kepler was soon exiled from Linz, defended his mother against witchcraft charges, and ended as Wallenstein's astrologer."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://planetarymapping.elte.hu/thomas-harriots-moon-drawings/",
+   "title": "Thomas Harriot's Moon drawing and map",
+   "caption": "Harriot's sketch of 26 July 1609 (Old Style) and his later full-Moon map with numbered features, the English record that predates Galileo's lunar work but stayed in manuscript.",
+   "date": "1609; c. 1611",
+   "credit": "Thomas Harriot; Petworth House papers (West Sussex Record Office)"
+  },
+  {
+   "url": "https://planetarymapping.elte.hu/galileos-moon-drawing/",
+   "title": "Galileo's Moon watercolours",
+   "caption": "Galileo's washes of the Moon from late 1609, showing the broken terminator he read as mountains; their exact nights are reconstructed, not recorded.",
+   "date": "Nov–Dec 1609",
+   "credit": "Galileo Galilei; Biblioteca Nazionale Centrale, Florence"
+  },
+  {
+   "url": "https://digital.archives.caltech.edu/islandora/object/image%3A9242",
+   "title": "Two Moon illustrations from Sidereus Nuncius",
+   "caption": "Engraved Moon phases as printed in Venice in March 1610, the first published telescopic images of the sky.",
+   "date": "1610",
+   "credit": "Galileo Galilei, Sidereus Nuncius (Venice, 1610); Caltech Archives"
+  },
+  {
+   "url": "https://www.astronomy2009.org/resources/multimedia/images/detail/galileo_14/index.html",
+   "title": "Title page of Sidereus Nuncius",
+   "caption": "The title page announcing the Medicean Stars, dedicated to Cosimo II de' Medici on 12 March 1610.",
+   "date": "1610",
+   "credit": "Galileo Galilei; IYA2009 image archive"
+  },
+  {
+   "url": "https://chapin.williams.edu/pasachoff/galileo.html",
+   "title": "Sidereus Nuncius: Jupiter's moons",
+   "caption": "Pages of Galileo's dated diagrams of Jupiter and its companions, night by night from January 1610: the printed observing log.",
+   "date": "1610",
+   "credit": "Chapin Library, Williams College"
+  },
+  {
+   "url": "https://www.lindahall.org/about/news/scientist-of-the-day/simon-marius/",
+   "title": "Simon Marius with his telescope",
+   "caption": "Marius's portrait from Mundus Iovialis (1614), among the earliest printed images of an astronomer with a telescope, from the book that dated his discovery to 'the year 1609'.",
+   "date": "1614",
+   "credit": "Simon Marius, Mundus Iovialis; Linda Hall Library"
+  },
+  {
+   "url": "https://www.lib.umich.edu/collections/collecting-areas/special-collections-and-archives/history-astronomy-and-mathematics/galileo-manuscript",
+   "title": "The University of Michigan 'Galileo manuscript' (a forgery)",
+   "caption": "Long displayed as Galileo's draft to the Doge with his first Jupiter notes, the leaf was shown in 2022 to be a twentieth-century forgery, a reminder that priority documents attract forgers.",
+   "date": "20th century (forgery)",
+   "credit": "University of Michigan Library"
+  }
+ ],
+ "further": [
+  {
+   "title": "The Sidereal Messenger of Galileo Galilei, tr. E. S. Carlos (1880), Project Gutenberg",
+   "url": "https://gutenberg.org/cache/epub/46036/pg46036-images.html"
+  },
+  {
+   "title": "The invention of the telescope (Experimental Astronomy, 2009)",
+   "url": "https://link.springer.com/article/10.1007/s10686-009-9160-y"
+  },
+  {
+   "title": "Museo Galileo: the telescope, history",
+   "url": "https://brunelleschi.imss.fi.it/esplora/cannocchiale/dswmedia/storia/estoria1_st.html"
+  },
+  {
+   "title": "Telescope400: Thomas Harriot",
+   "url": "https://www.telescope400.org.uk/harriot.htm"
+  },
+  {
+   "title": "MacTutor: Simon Mayr",
+   "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Mayr/"
+  },
+  {
+   "title": "British Astronomical Association: a chronology of Galileo's lunar drawings",
+   "url": "https://britastro.org/?p=619416"
+  },
+  {
+   "title": "Museum of the History of Science, Oxford: the uses of the telescope 1609–10",
+   "url": "https://www.cabinet.ox.ac.uk/uses-telescope-1609-10"
+  },
+  {
+   "title": "Horky, Brevissima peregrinatio contra Nuncium Sidereum (Latin text, Wikisource)",
+   "url": "https://it.wikisource.org/wiki/Martini_Horky_Brevissima_peregrinatio_contra_Nuncium_Sidereum"
+  },
+  {
+   "title": "The mystery of the telescopes in Jan Brueghel the Elder's paintings (arXiv)",
+   "url": "https://arxiv.org/pdf/0908.2696"
+  }
+ ]
+}

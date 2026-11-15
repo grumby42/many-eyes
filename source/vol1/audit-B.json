@@ -1,0 +1,199 @@
+[
+ {
+  "chapter": "russia-1812",
+  "where": "intro:3",
+  "severity": "error",
+  "problem": "The French entered Moscow on 14 September; Napoleon moved into the Kremlin on 15 September, the day Louisa Adams died.",
+  "fix": {
+   "text": "Far away, in the capital Napoleon never reached, the American minister John Quincy Adams reads the bulletins and the rumours and tries to work out the truth. On 15 September, the day Napoleon moved into the Kremlin, his baby daughter died. The scale of the two events could hardly be more different, but they share a date."
+  }
+ },
+ {
+  "chapter": "russia-1812",
+  "where": "eye:jqa",
+  "severity": "error",
+  "problem": "Bio says the French entered Moscow on 15 September; they entered on the 14th, and Napoleon took up residence in the Kremlin on the 15th.",
+  "fix": {
+   "bio": "An American watching the war from the enemy capital Napoleon never reached. His letters weigh Russian bulletins against rumour. On 15 September, the day Napoleon moved into the Kremlin, his infant daughter died, and his letters join private grief to public catastrophe."
+  }
+ },
+ {
+  "chapter": "russia-1812",
+  "where": "entry:16",
+  "severity": "error",
+  "problem": "Digest presents 15 September as the day the French entered Moscow. They entered on the 14th; Napoleon entered the Kremlin on the 15th. If Adams himself wrote 15 September, say it was his belief.",
+  "fix": {
+   "digest": "Far from the front, the Adams household lost its baby daughter Louisa. Adams later called it the hardest blow of his life. Writing to his father, he noted that the French had reached Moscow at the same moment (Napoleon entered the Kremlin on 15 September): two catastrophes of very different size, joined by a date."
+  }
+ },
+ {
+  "chapter": "russia-1812",
+  "where": "eye:rostopchin",
+  "severity": "error",
+  "problem": "Rostopchin was appointed governor-general (commander-in-chief) of Moscow in May 1812, not 1810.",
+  "fix": {
+   "role": "Governor-general of Moscow (1812–14), aged 49"
+  }
+ },
+ {
+  "chapter": "russia-1812",
+  "where": "entry:15",
+  "severity": "error",
+  "problem": "In Ségur the officers wake to the great wind-driven fire around midnight after Napoleon had entered the Kremlin, which he did on 15 September. So this is the night of 15–16 September, not 14–15. The night of 14–15 had only the bazaar fire.",
+  "fix": {
+   "date_display": "night of 15–16 September 1812 (N.S.) / 3–4 September (O.S.)",
+   "date_iso": "1812-09-15"
+  }
+ },
+ {
+  "chapter": "russia-1812",
+  "where": "entry:45",
+  "severity": "error",
+  "problem": "Beyle left Paris on 23 July 1812 and caught up with the army in August, so he could not have seen Vilna in June.",
+  "fix": {
+   "digest": "Beyle reached Vilna on the evening of the 6th and wrote to his sister Pauline on the 7th before moving on toward Gumbinnen. The city where he had first seen the army's misery that summer was now filling with frozen survivors. Its hospitals soon became places of horror he described years later."
+  }
+ },
+ {
+  "chapter": "russia-1812",
+  "where": "entry:8",
+  "severity": "doubt",
+  "problem": "On 5 September Ney's III Corps was in front of the Shevardino/Borodino position, about 40 km beyond Gzhatsk, which the French had taken on 1 September. A plate placing Faber at Gzhatsk on 5 September is doubtful: check the caption date, which may be 3 or 4 September.",
+  "fix": {
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "us-civil-war",
+  "where": "eye:fremantle",
+  "severity": "error",
+  "problem": "Fremantle was born on 11 November 1835, so he was 27 at Gettysburg in July 1863.",
+  "fix": {
+   "role": "27-year-old lieutenant-colonel, Coldstream Guards, on leave as a private observer"
+  }
+ },
+ {
+  "chapter": "us-civil-war",
+  "where": "entry:11",
+  "severity": "quote",
+  "problem": "Forten's journal was first published in 1953 (Billington), not before 1929. The phrase is quoted often in exhibits but is arguably not a famous phrase. Keep it only if the book treats it as famous; otherwise drop it.",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "ww1",
+  "where": "eye:kollwitz",
+  "severity": "error",
+  "problem": "The Grieving Parents were installed in 1932 at Roggevelde German cemetery near Esen. They moved to Vladslo only in 1956, when Peter's grave was moved there. threads_out 'long-threads' has the same slip ('installed in 1932 at what became Vladslo'). The 'ww2-europe' thread says she 'responded' to grandson Peter's death (September 1942) with the 'Seed corn' lithograph, but that print is dated 1941, before his death.",
+  "fix": {
+   "bio": "Kollwitz's younger son Peter volunteered in 1914 and was killed near Diksmuide in Flanders in the night of 22–23 October 1914, aged eighteen. Her diary follows her through grief, through a long struggle to make a memorial to him (the kneeling parents, installed in 1932 at Roggevelde cemetery near Esen and moved with his grave to Vladslo in 1956), and towards pacifism. Hers is the war seen from the place the telegrams went."
+  }
+ },
+ {
+  "chapter": "ww1",
+  "where": "entry:3",
+  "severity": "doubt",
+  "problem": "The passage 'nothing but pettiness, indecision, envy and hatred against those who are fighting' is normally dated 6 August 1914 (with the artillery parade), not 5 August. Check it against the critical edition.",
+  "fix": {
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "ww1",
+  "where": "entry:17",
+  "severity": "doubt",
+  "problem": "Karl Kollwitz stayed in Berlin as a physician throughout the war. The claim that her husband was 'away in the war effort' looks wrong; only Hans was away serving.",
+  "fix": {
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "ww1",
+  "where": "entry:48",
+  "severity": "doubt",
+  "problem": "Kessler went to Magdeburg on 8 November to fetch Piłsudski. On 7 November he was most likely still in Berlin, so the place is doubtful.",
+  "fix": {
+   "place": "Berlin",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "ww1",
+  "where": "entry:45",
+  "severity": "quote",
+  "problem": "'a sunlit picture of Hell' is from the diary, published 1983. Its first print appearance was Memoirs of an Infantry Officer (1930), not before 1929. It is widely quoted, so it is borderline acceptable as a famous phrase. Editorial call.",
+  "fix": null
+ },
+ {
+  "chapter": "russia-1917",
+  "where": "intro:0",
+  "severity": "error",
+  "problem": "From the October Revolution (7 November 1917) to the Ekaterinburg murders (17 July 1918) is about eight months, not fifteen.",
+  "fix": {
+   "text": "In the last week of February 1917 by the Russian calendar — the second week of March by everyone else's — women queuing for bread in Petrograd started a strike, the strike turned into a march, and the soldiers sent to stop it joined in. Within eight days the Romanov dynasty, which had ruled for three centuries, was gone. Eight months later a second revolution put the Bolsheviks in the Winter Palace. Eight months after that, the former Tsar, his wife and their five children were shot in a cellar in the Urals."
+  }
+ },
+ {
+  "chapter": "russia-1917",
+  "where": "intro:3",
+  "severity": "doubt",
+  "problem": "'Learned of October about three weeks late' conflicts with entry 49, where Gilliard has the news reaching Tobolsk around 15 November N.S., about eight days later. The three-week gap fits only Nicholas reading detailed accounts on 30 November. 'The same week' for the snow-clearing entry (17 November) is also loose.",
+  "fix": null
+ },
+ {
+  "chapter": "russia-1917",
+  "where": "eye:alexandra",
+  "severity": "error",
+  "problem": "All five children caught measles in February–March 1917: Olga, Tatiana and Alexei first, then Anastasia and Maria (Maria's case is mentioned in entry 24).",
+  "fix": {
+   "role": "Empress consort, aged 44 in 1917; mother of five children, all of them down with measles in March 1917"
+  }
+ },
+ {
+  "chapter": "russia-1917",
+  "where": "eye:paleologue",
+  "severity": "error",
+  "problem": "Paléologue was born on 13 January 1859, so he was 58 in 1917.",
+  "fix": {
+   "role": "French Ambassador to Russia, aged 58"
+  }
+ },
+ {
+  "chapter": "russia-1917",
+  "where": "eye:gilliard",
+  "severity": "error",
+  "problem": "Gilliard was born on 16 May 1879, so he was 37 during the February Revolution and 38 from May 1917.",
+  "fix": {
+   "role": "Swiss French-language tutor to the imperial children, aged 37–38"
+  }
+ },
+ {
+  "chapter": "russia-1917",
+  "where": "entry:2",
+  "severity": "error",
+  "problem": "Nicholas left Tsarskoe Selo for Mogilev on 22 February O.S. (Wednesday 7 March N.S.) and arrived on the 23rd/8th. The departure therefore happened the day before International Women's Day. If Gilliard's text dates it 8 March, note that he misdated it. Convergence 0 ('both record the same train leaving' on 8 March) needs the same nuance.",
+  "fix": {
+   "date_iso": "1917-03-07",
+   "date_display": "Wednesday 22 February 1917 O.S. / 7 March 1917 N.S."
+  }
+ },
+ {
+  "chapter": "russia-1917",
+  "where": "convergence:0",
+  "severity": "doubt",
+  "problem": "The Tsar's train left on 7 March N.S. (22 February O.S.), the day before the Women's Day strike. Neither eye recorded it leaving on 8 March.",
+  "fix": {
+   "note": "Paléologue sees crowds chanting for bread and peace and a dinner party talking about a ball. Gilliard sees a worried wife and a sick child. Both note that the Emperor left for Headquarters the day before, and neither treats it as the fatal mistake it turned out to be."
+  }
+ },
+ {
+  "chapter": "russia-1917",
+  "where": "entry:63",
+  "severity": "doubt",
+  "problem": "The Germans took Reval on 24–25 February 1918, after this 20 February entry, though Rovno fell around then. Check that Gilliard's 20 February text really names Reval, or whether the entry merges later days.",
+  "fix": {
+   "confidence": "approx"
+  }
+ }
+]

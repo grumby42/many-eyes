@@ -1,0 +1,1151 @@
+{
+ "id": "embassies-1403",
+ "title": "Embassies to Samarkand and Beijing",
+ "short_title": "Embassies to Samarkand & Beijing",
+ "subtitle": "The Castilian embassy to Timur and the Timurid embassies to the Ming, 1402–1422",
+ "span": "1402–1422",
+ "intro": [
+  "In the summer of 1402 Timur broke the Ottoman army at Ankara and captured its sultan. Kings in the far west took notice: Enrique III of Castile sent envoys east, and in May 1403 a second embassy under his chamberlain Ruy González de Clavijo sailed from Cádiz for Samarkand. At the other end of Asia, the usurping Yongle Emperor had just taken the Ming throne, and Timur, who had imprisoned Ming envoys for years, was preparing to invade China.",
+  "This chapter follows the same two empires seen from opposite directions. Clavijo reached Samarkand in September 1404, in the last autumn of Timur's life, and watched Ming ambassadors humiliated at a reception before Timur marched east in midwinter and died at Otrar in February 1405. A decade later the direction reversed: under Timur's son Shahrukh, ambassadors went back and forth. The Ming official Chen Cheng logged his road to Herat day by day in 1414, and in 1419–22 the Herat painter Ghiyath al-Din Naqqash kept a diary of Shahrukh's embassy to Yongle's new palace in Beijing.",
+  "The honest record here is mixed, and the forms say so. Clavijo, Chen Cheng and Naqqash kept true travel diaries, though Naqqash's survives only inside a court chronicle. The hosts speak through official histories (Shami, written for Timur; Yazdi, two decades later), the terse Ming Veritable Records, and chancery letters between Yongle and Shahrukh preserved only in Persian. Two captives, Ibn Arabshah from Damascus and Johann Schiltberger from Bavaria, wrote memoirs decades later; one is openly hostile and the other often repeats rumour.",
+  "The encounters pair up. Clavijo describes Ming envoys at Timur's court; the Ming record is almost silent about Timur until the survivors of its detained missions come home. Naqqash describes the bowing, the prisoners, the emperor's fall from a Timurid horse and the lightning that burned the new halls; the Veritable Records log the tribute and the same fire. Read together, they show two courts each sure it stood at the centre of the world, and travellers working out how to bow, how far and to whom."
+ ],
+ "calendar_note": "All Western dates before 1582 are Julian, as historians cite them (date_iso uses the proleptic Julian calendar). Timurid sources date by the Islamic Hijri calendar and Chinese ones by Ming reign year, lunar month and sexagenary day; these are given in date_display where a source supplies them. Clavijo's weekday-and-date entries agree with the Julian calendar (for example, Monday 8 September 1404). Encyclopaedia Iranica prints the Hijri year of Clavijo's arrival as 804; autumn 1404 actually fell in 807 AH. Where a Western date has been calculated from a lunar date rather than read in a source, the entry is marked approx.",
+ "eyes": [
+  {
+   "id": "clavijo",
+   "name": "Ruy González de Clavijo",
+   "short": "Clavijo",
+   "life": "d. 1412",
+   "role": "Chamberlain of King Enrique III of Castile, leader of the second Castilian embassy to Timur",
+   "side": "Castile (Latin Christendom)",
+   "where": "On the road from Cádiz to Samarkand and back; at Timur's camps and gardens around Samarkand, Sept–Nov 1404",
+   "lat": 39.654,
+   "lon": 66.96,
+   "waypoints": [
+    {
+     "lat": 36.59,
+     "lon": -6.23,
+     "label": "Cádiz coast, May 1403"
+    },
+    {
+     "lat": 41.01,
+     "lon": 28.98,
+     "label": "Constantinople 1403–04"
+    },
+    {
+     "lat": 41.0,
+     "lon": 39.72,
+     "label": "Trebizond, Apr 1404"
+    },
+    {
+     "lat": 38.08,
+     "lon": 46.29,
+     "label": "Tabriz, Jun 1404"
+    },
+    {
+     "lat": 39.654,
+     "lon": 66.96,
+     "label": "Samarkand, Sep–Nov"
+    },
+    {
+     "lat": 40.48,
+     "lon": -3.36,
+     "label": "Alcalá, Mar 1406"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "foreign envoy at Timur's court",
+   "form": "journal",
+   "language": "Castilian Spanish",
+   "authenticity": "A day-dated narrative of the embassy, almost certainly kept on the road by Clavijo and his companions (Fray Alonso Páez de Santa María and others) and written up on return. Fifteenth-century manuscripts survive in Madrid (BNE MSS/9218) and London (BL Add. 16613); first printed by Argote de Molina, Seville 1582. English translations by Markham (1859) and Le Strange (1928) are translations, so no quotations are used here.",
+   "bio": "Clavijo was sent by Enrique III after an earlier Castilian embassy had witnessed Timur's crushing victory over the Ottomans at Ankara in 1402. His party spent fifteen months reaching Samarkand, arrived in the last autumn of Timur's life, and watched the old conqueror feast, build and prepare to invade China. He is the only western European eyewitness of Timur's court, and he saw the Ming ambassadors there through Timurid eyes.",
+   "sources": [
+    {
+     "title": "Le Strange translation (1928), excerpts at the Silk Road Seattle site",
+     "url": "https://depts.washington.edu/silkroad/texts/clavijo/cltxt1.html"
+    },
+    {
+     "title": "Encyclopaedia Iranica: Clavijo",
+     "url": "https://www.iranicaonline.org/?p=7662"
+    },
+    {
+     "title": "Markham translation, Hakluyt Society 1859 (HathiTrust record)",
+     "url": "https://catalog.hathitrust.org/Record/002809414"
+    }
+   ]
+  },
+  {
+   "id": "shami",
+   "name": "Nizam al-Din Shami",
+   "short": "Shami",
+   "life": "d. before 1411",
+   "role": "Scholar from Tabriz commissioned by Timur in 1401 to write his official history",
+   "side": "Timurid court",
+   "where": "With Timur's court in western Asia; the history was presented to Timur in 1404",
+   "lat": 38.08,
+   "lon": 46.29,
+   "vantage": 0,
+   "vantage_label": "the conqueror's commissioned historian",
+   "form": "chronicle",
+   "language": "Persian",
+   "authenticity": "Official court history (Zafarnama), commissioned in 1401 and finished in 1404, within Timur's lifetime; written in deliberately plain Persian on Timur's instruction. It is triumphal and selective, and later served as the base for Yazdi's grander version.",
+   "bio": "Shami had been caught in Baghdad when Timur took it and entered his service; Timur ordered him to write a history that ordinary readers could follow. His work is the nearest the record comes to Timur's own version of events, written while the man was alive and listening.",
+   "sources": [
+    {
+     "title": "Encyclopaedia Iranica: Clavijo (context on Timurid sources)",
+     "url": "https://www.iranicaonline.org/?p=7662"
+    }
+   ]
+  },
+  {
+   "id": "yazdi",
+   "name": "Sharaf al-Din Ali Yazdi",
+   "short": "Yazdi",
+   "life": "d. 1454",
+   "role": "Persian scholar and poet writing for Timur's grandson Ibrahim Sultan at Shiraz",
+   "side": "Timurid court (official history, written later)",
+   "where": "Shiraz, writing c. 1419–1425 from court records and Shami",
+   "lat": 29.61,
+   "lon": 52.53,
+   "vantage": 3,
+   "vantage_label": "official history, written two decades later",
+   "form": "chronicle",
+   "language": "Persian",
+   "authenticity": "The Zafarnama (completed 828/1424–25) is the polished official history of Timur's reign, built on Shami and on court diaries now lost. It is the source for Timur's 1404 festivities and his death, but it is panegyric and late; flagged as later/official. Its sumptuous illustrated copies (Shiraz 1436) are among the period images used here.",
+   "bio": "Yazdi did not see the events he describes, but he had access to Timurid court records and witnesses. His history is the Timurid dynasty's own memory of its founder: the feasts of autumn 1404 as a crowning festival, and the China campaign as the last act of a world conqueror.",
+   "sources": [
+    {
+     "title": "Zafarnama folio, Conquest of Baghdad (Metropolitan Museum)",
+     "url": "https://www.metmuseum.org/art/collection/search/451304"
+    },
+    {
+     "title": "Timur's entry into Samarkand, Zafarnama page (Smarthistory)",
+     "url": "https://smarthistory.org/?p=73645"
+    }
+   ]
+  },
+  {
+   "id": "ibn-arabshah",
+   "name": "Ahmad ibn Arabshah",
+   "short": "Ibn Arabshah",
+   "life": "1389–1450",
+   "role": "Damascene boy deported to Samarkand after Timur sacked Damascus in 1401; later scholar and secretary",
+   "side": "Mamluk Syria (Timur's captive and enemy)",
+   "where": "A captive student in Samarkand during Timur's last years",
+   "lat": 39.654,
+   "lon": 66.96,
+   "waypoints": [
+    {
+     "lat": 33.51,
+     "lon": 36.29,
+     "label": "Damascus, 1401"
+    },
+    {
+     "lat": 39.654,
+     "lon": 66.96,
+     "label": "Samarkand, captive"
+    },
+    {
+     "lat": 41.68,
+     "lon": 26.56,
+     "label": "Edirne, Ottoman court"
+    },
+    {
+     "lat": 33.51,
+     "lon": 36.29,
+     "label": "Damascus, 1422"
+    },
+    {
+     "lat": 30.04,
+     "lon": 31.24,
+     "label": "Cairo, 1436"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "captive in the capital, hostile biographer",
+   "form": "memoir (written later)",
+   "language": "Arabic",
+   "authenticity": "Aja'ib al-maqdur fi nawa'ib Timur, completed 17 Muharram 839 / 12 July 1435: a biography in ornate rhymed Arabic prose, bitterly hostile to Timur. Not a diary; written three decades later. Flagged as hostile and literary, though based on what he saw and heard in Samarkand. Translated into French (Vattier 1658) and English (Sanders 1936).",
+   "bio": "Taken from Damascus as a boy of about twelve, Ibn Arabshah grew up in the conqueror's capital, learned Persian, Turkish and Mongolian, and spent the rest of his life writing against the man who had uprooted him. He is the voice of Timur's victims living inside Timur's city.",
+   "sources": [
+    {
+     "title": "Encyclopaedia Iranica: Aja'ib al-maqdur",
+     "url": "https://www.iranicaonline.org/articles/ajaeb-al-maqdur"
+    }
+   ]
+  },
+  {
+   "id": "schiltberger",
+   "name": "Johann Schiltberger",
+   "short": "Schiltberger",
+   "life": "1381–c. 1440",
+   "role": "Bavarian squire captured at Nicopolis (1396), slave of the Ottoman sultan, then of Timur after Ankara",
+   "side": "Captive (Bavarian, Latin Christian)",
+   "where": "In the Ottoman army at Ankara, then in Timur's following",
+   "lat": 39.93,
+   "lon": 32.85,
+   "waypoints": [
+    {
+     "lat": 43.7,
+     "lon": 24.9,
+     "label": "Nicopolis, 1396"
+    },
+    {
+     "lat": 39.93,
+     "lon": 32.85,
+     "label": "Ankara, July 1402"
+    },
+    {
+     "lat": 39.654,
+     "lon": 66.96,
+     "label": "Timur's lands"
+    },
+    {
+     "lat": 48.14,
+     "lon": 11.58,
+     "label": "Bavaria, 1427"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "slave in the conqueror's train",
+   "form": "memoir (written later)",
+   "language": "Early New High German",
+   "authenticity": "Reisebuch written after his return home in 1427, from memory, with much hearsay and borrowed geography; first printed c. 1475. English translation by J. Buchan Telfer (Hakluyt Society, 1879), a translation, so no quotations. Flagged: later memoir, events compressed and sometimes garbled.",
+   "bio": "Schiltberger was a teenager when the Ottomans captured him; after Ankara he passed into Timur's hands and stayed with Timur's family for years. He gives a common soldier's view of the battle that broke Bayezid and of the story told in the camp about why Timur turned on China.",
+   "sources": [
+    {
+     "title": "The Bondage and Travels of Johann Schiltberger (Telfer 1879), National Library of Armenia digital copy",
+     "url": "https://dspace.nla.am/items/56eecebb-ef45-400d-94c1-b07a0baa0cde"
+    },
+    {
+     "title": "Cambridge reissue (introduction)",
+     "url": "https://www.cambridge.org/core/books/bondage-and-travels-of-johann-schiltberger/introduction/6B685BC21D87FB397D5C95E4A8B303BF"
+    }
+   ]
+  },
+  {
+   "id": "chen-cheng",
+   "name": "Chen Cheng",
+   "short": "Chen Cheng",
+   "life": "1365–1457",
+   "role": "Ming civil official and envoy, leader of Yongle's embassy to Shahrukh at Herat",
+   "side": "Ming China",
+   "where": "On the road from Gansu through Moghulistan to Herat, 1414; in Herat, Oct 1414",
+   "lat": 34.35,
+   "lon": 62.2,
+   "waypoints": [
+    {
+     "lat": 39.74,
+     "lon": 98.49,
+     "label": "Suzhou (Jiuquan), 1414"
+    },
+    {
+     "lat": 42.95,
+     "lon": 89.19,
+     "label": "Turfan region, Mar"
+    },
+    {
+     "lat": 43.9,
+     "lon": 81.3,
+     "label": "Ili River, Jun 1414"
+    },
+    {
+     "lat": 37.3,
+     "lon": 65.8,
+     "label": "Amu Darya, Aug 1414"
+    },
+    {
+     "lat": 34.35,
+     "lon": 62.2,
+     "label": "Herat, Oct 1414"
+    },
+    {
+     "lat": 39.91,
+     "lon": 116.4,
+     "label": "Beijing, Nov 1415"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "Ming envoy in the Timurid capital",
+   "form": "diary",
+   "language": "Classical Chinese",
+   "authenticity": "Xiyu xingcheng ji ('Record of a Journey to the Western Regions') is a daily itinerary kept on the march (with Li Xian as main note-taker) and finished at Herat; its companion Xiyu fanguo zhi describes the peoples and states. Presented to the throne on return in 1415. One extant copy; studied by Sally K. Church.",
+   "bio": "Chen Cheng spent nine months crossing deserts and the steppe of Moghulistan to reach Shahrukh's Herat. His diary is spare, about weather, wells and camps; his treatise is the first close Chinese description of Timurid life, from vaulted palaces without beams to silver coins and court titles. He made further missions in 1416–17 and 1420.",
+   "sources": [
+    {
+     "title": "S. K. Church, 'Timurid Regions and Moghulistan through the Eyes of a Ming Diplomat' (UChicago)",
+     "url": "https://knowledge.uchicago.edu/record/11274/files/Timurid-Regions-and-Moghulistan-through-the-Eyes-of-a-Ming-Diplomat.pdf"
+    },
+    {
+     "title": "Xiang Da's 1934 transcription of Chen Cheng's diary and treatise (Contact History)",
+     "url": "https://contacthistory.com/?p=726"
+    },
+    {
+     "title": "M. Rossabi, essay on Ming–Timurid relations (Crossroads 2010)",
+     "url": "https://www.ostasien-verlag.de/zeitschriften/crossroads/cr/pdf/CR_01-02_2010_023-031_Rossabi.pdf"
+    }
+   ]
+  },
+  {
+   "id": "naqqash",
+   "name": "Ghiyath al-Din Naqqash",
+   "short": "Naqqash",
+   "life": "fl. 1419–1430",
+   "role": "Court painter of Prince Baysunghur, ordered to keep a daily record of Shahrukh's embassy to the Ming",
+   "side": "Timurid Herat",
+   "where": "With the embassy from Herat to Beijing and back, 1419–1422; at the Ming court Dec 1420 – May 1421",
+   "lat": 39.91,
+   "lon": 116.4,
+   "waypoints": [
+    {
+     "lat": 34.35,
+     "lon": 62.2,
+     "label": "Herat, Nov 1419"
+    },
+    {
+     "lat": 39.654,
+     "lon": 66.96,
+     "label": "Samarkand, Feb 1420"
+    },
+    {
+     "lat": 39.8,
+     "lon": 98.21,
+     "label": "Jiayuguan, Aug 1420"
+    },
+    {
+     "lat": 38.15,
+     "lon": 114.57,
+     "label": "Zhengding, Dec 1420"
+    },
+    {
+     "lat": 39.91,
+     "lon": 116.4,
+     "label": "Beijing, Dec–May"
+    },
+    {
+     "lat": 34.35,
+     "lon": 62.2,
+     "label": "Herat, Aug 1422"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "Timurid envoy at the Ming court",
+   "form": "diary",
+   "language": "Persian",
+   "authenticity": "Naqqash's day-by-day report to Baysunghur survives only as incorporated by Hafiz-i Abru in Zubdat al-tawarikh (critical edition 1993) and copied by Abd al-Razzaq Samarqandi (Quatremère 1843); English versions by Maitra (1934) and Thackston (1989), with an abstract in Yule's Cathay and the Way Thither (1866). His sketches are lost.",
+   "bio": "Naqqash was a painter, and he looked like one: he counted arches, measured courtyards, described the colours of banners, acrobats and lanterns. He saw the Yongle Emperor in his brand-new Beijing palace and recorded the moments when the court's favour nearly turned to disaster for the envoys.",
+   "sources": [
+    {
+     "title": "Encyclopaedia Iranica: Ghiyath al-Din Naqqash",
+     "url": "https://www.iranicaonline.org/?p=2679"
+    },
+    {
+     "title": "Yule, Cathay and the Way Thither vol. 1 (Toyo Bunko digital copy), Shah Rukh embassy",
+     "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-b-2/V-1/page/0226.html.ja"
+    },
+    {
+     "title": "Wikipedia: Ghiyath al-Din Naqqash (itinerary dates)",
+     "url": "https://en.wikipedia.org/wiki/Ghiyath_al-Din_Naqqash"
+    }
+   ]
+  },
+  {
+   "id": "ming-shilu",
+   "name": "Ming Veritable Records (Taizong shilu)",
+   "short": "Ming Shilu",
+   "life": "compiled 1424–1430",
+   "role": "Day-dated court annals of the Yongle reign, compiled from court diaries after the emperor's death",
+   "side": "Ming court",
+   "where": "Beijing (and earlier Nanjing) court",
+   "lat": 39.916,
+   "lon": 116.397,
+   "vantage": 0,
+   "vantage_label": "the host court's own annals",
+   "form": "chronicle",
+   "language": "Classical Chinese",
+   "authenticity": "Official annals compiled by historians after 1424 from daily court records; terse and dated by sexagenary day. They frame every foreign mission as tribute. Entries here are cited through modern scholars (Church, Rossabi) and Beijing municipal history pages, not read directly.",
+   "bio": "The Shilu is the hosts' voice: what the Ming court chose to record about the people arriving from Samarkand and Herat. Its silences matter as much as its entries; it says little about Timur's planned invasion before his death ended it.",
+   "sources": [
+    {
+     "title": "S. K. Church on Taizong shilu entries for Chen Cheng",
+     "url": "https://knowledge.uchicago.edu/record/11274/files/Timurid-Regions-and-Moghulistan-through-the-Eyes-of-a-Ming-Diplomat.pdf"
+    },
+    {
+     "title": "Beijing Daily history page on the 1421 palace fire (quotes Taizong shilu)",
+     "url": "https://news.bjd.com.cn/2022/06/30/10110474.shtml"
+    }
+   ]
+  },
+  {
+   "id": "yongle",
+   "name": "Zhu Di, the Yongle Emperor",
+   "short": "Yongle",
+   "life": "1360–1424",
+   "role": "Third Ming emperor (r. 1402/3–1424), builder of the new capital at Beijing",
+   "side": "Ming China",
+   "where": "Nanjing and Beijing",
+   "lat": 39.916,
+   "lon": 116.397,
+   "vantage": 0,
+   "vantage_label": "emperor, writing to a rival sovereign",
+   "form": "dated letters",
+   "language": "Chinese (preserved in Persian versions)",
+   "authenticity": "Yongle's letters to Shahrukh survive in Persian translation embedded in Hafiz-i Abru and Abd al-Razzaq Samarqandi; Chinese originals are lost or unlocated. Wording comes to us through Timurid translators, so tone may have been adjusted.",
+   "bio": "Yongle had seized the throne from his nephew in the same years Timur was planning to invade China. With Timur dead, he cultivated Timur's son Shahrukh, first as a supposed vassal and then, after an angry reply, as something closer to an equal.",
+   "sources": [
+    {
+     "title": "Aramco World, 'The Diplomacy of the Sons' (2006)",
+     "url": "https://archive.aramcoworld.com/issue/200603/the.diplomacy.of.the.sons.htm"
+    },
+    {
+     "title": "M. Rossabi, Crossroads 2010",
+     "url": "https://www.ostasien-verlag.de/zeitschriften/crossroads/cr/pdf/CR_01-02_2010_023-031_Rossabi.pdf"
+    }
+   ]
+  },
+  {
+   "id": "shahrukh",
+   "name": "Shahrukh Mirza",
+   "short": "Shahrukh",
+   "life": "1377–1447",
+   "role": "Timur's youngest son, ruler of the Timurid realm from Herat (from c. 1409)",
+   "side": "Timurid Herat",
+   "where": "Herat",
+   "lat": 34.35,
+   "lon": 62.2,
+   "vantage": 0,
+   "vantage_label": "sovereign, answering the emperor",
+   "form": "dated letters",
+   "language": "Persian (with Arabic)",
+   "authenticity": "Shahrukh's reply to Yongle is preserved in the Timurid chronicles (Hafiz-i Abru, Abd al-Razzaq); it is a chancery letter, not a diary, and was recorded by his own court historians, who may have sharpened it.",
+   "bio": "Shahrukh rejected his father's plan of war with China in favour of trade and embassies, but he would not be anyone's vassal. His letters answer the Ming claim of universal rule with an Islamic one, and his embassy of 1419 carried Naqqash to Beijing.",
+   "sources": [
+    {
+     "title": "Aramco World, 'The Diplomacy of the Sons' (2006)",
+     "url": "https://archive.aramcoworld.com/issue/200603/the.diplomacy.of.the.sons.htm"
+    },
+    {
+     "title": "Hafiz-i Abru, Majma' al-tawarikh page (Cleveland Museum of Art)",
+     "url": "https://www.clevelandart.org/art/1931.452"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1402-07-28",
+   "date_display": "Friday 28 July 1402 (19 Dhu'l-hijja 804)",
+   "precision": "day",
+   "eye": "shami",
+   "place": "Plain of Çubuk, near Ankara",
+   "headline": "Timur's army destroys Bayezid's Ottoman host at Ankara",
+   "digest": "Shami's history, presented to Timur himself, tells the battle as a sign of divine favour: the Ottoman sultan's army breaks, his Tatar contingents change sides, and Bayezid is taken. The account is a victory bulletin, not a reckoning of the dead.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Shami, Zafarnama (completed 1404); battle date standard (Iranica: Clavijo, 'July 1402')."
+  },
+  {
+   "date_iso": "1402-07-28",
+   "date_display": "July 1402 (recalled after 1427)",
+   "precision": "day",
+   "eye": "schiltberger",
+   "place": "Ankara",
+   "headline": "A captive fights for the sultan and changes masters",
+   "digest": "Schiltberger, then about twenty-one and a slave in Bayezid's army, remembers the sultan's defeat and capture at Ankara and his own passage into Timur's hands. He writes as a survivor carried along by the battle, not as one who understood it, and his figures are inflated camp talk.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Schiltberger, Reisebuch, Telfer trans. (1879), Tamerlane chapters; memoir written after 1427."
+  },
+  {
+   "date_iso": "1403-05-22",
+   "date_display": "Tuesday 22 May 1403",
+   "precision": "day",
+   "eye": "clavijo",
+   "place": "Puerto de Santa María, near Cádiz",
+   "headline": "The Castilian embassy sails for Timur",
+   "digest": "Clavijo, the friar Alonso Páez and their companions put to sea with gifts and the king's letters, answering Timur's own envoy who had come to Castile after Ankara. The first months are storms, Mediterranean islands and long waits for ships.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Iranica: Clavijo (22 May 1403); Wikipedia concurs."
+  },
+  {
+   "date_iso": "1403-10-24",
+   "date_display": "24 October 1403",
+   "precision": "day",
+   "eye": "clavijo",
+   "place": "Constantinople",
+   "headline": "Winter in the shrunken Byzantine capital",
+   "digest": "The embassy reaches Constantinople and is shown its churches and relics by the emperor's people. Too late in the season to cross the Black Sea, they wait out the winter there until March.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Iranica: Clavijo (arr. 24 Oct 1403, left 20 Mar 1404)."
+  },
+  {
+   "date_iso": "1404-04-11",
+   "date_display": "11 April 1404",
+   "precision": "day",
+   "eye": "clavijo",
+   "place": "Trebizond",
+   "headline": "Landing on the edge of Timur's world",
+   "digest": "After a dangerous crossing the party lands at Trebizond and begins the long overland march east, now under the protection of Timur's officers and his post system of relay horses.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Iranica: Clavijo."
+  },
+  {
+   "date_iso": "1404-08-28",
+   "date_display": "Thursday 28 August 1404",
+   "precision": "day",
+   "eye": "clavijo",
+   "place": "Kesh (Shahrisabz)",
+   "headline": "The conqueror's birthplace and an unfinished palace",
+   "digest": "At Kesh, Timur's home town, the Castilians tour the mosque and tombs he built for his father and son, and next day the vast palace still under construction after some twenty years, with tiled arches and a great water tank. Clavijo is impressed by the scale and by the gold-and-blue tilework.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Le Strange trans., Silk Road Seattle text (Thursday 28 August; Friday 29 August)."
+  },
+  {
+   "date_iso": "1404-09-04",
+   "date_display": "4 September 1404 (27 Safar 807)",
+   "precision": "day",
+   "eye": "clavijo",
+   "place": "Outskirts of Samarkand",
+   "headline": "Held in a garden outside the city",
+   "digest": "The embassy reaches the gardens outside Samarkand and is told to wait until Timur is ready to receive it. Clavijo notes the orchards, vineyards and pleasure gardens ringing the city.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Iranica: Clavijo (4 Sept 1404). Iranica prints the Hijri year as 804; 807 is the correct year for Sept 1404."
+  },
+  {
+   "date_iso": "1404-09-08",
+   "date_display": "Monday 8 September 1404 (2 Rabi' I 807)",
+   "precision": "day",
+   "eye": "clavijo",
+   "place": "Timur's garden palace, Samarkand",
+   "headline": "Audience with an old, half-blind conqueror",
+   "digest": "The Castilians are led through gardens to Timur, seated under a portal beside a fountain; he is so old that his eyelids droop and he asks them to come close to see them. He asks after his 'son' the king of Castile. At a reception the envoys find themselves placed below the ambassador of the Chinese emperor, and Timur orders them moved above, saying the Chinese ruler is a thief and his enemy.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Iranica: letters presented 8 Sept 1404. Seating incident from Le Strange trans. (Silk Road Seattle); its exact day is not fixed in the excerpt, so read as part of the reception sequence. Audience details (failing eyesight, greeting for the king) from Clavijo's narrative, not re-read in this research pass."
+  },
+  {
+   "date_iso": "1404-09-15",
+   "date_display": "September 1404",
+   "precision": "month",
+   "eye": "clavijo",
+   "place": "Samarkand",
+   "headline": "What the Chinese envoys wanted, as Clavijo heard it",
+   "digest": "Clavijo records that the Ming envoys had come to demand seven years of overdue tribute and that Timur answered with scorn. He also hears a garbled version of Yongle's seizure of the throne and that an 800-camel caravan from China had been seized in June, its drivers not allowed home. He gets Chinese politics partly wrong but Timur's intent right.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Le Strange trans., Silk Road Seattle text (undated passages on the Chinese embassy)."
+  },
+  {
+   "date_iso": "1404-09-20",
+   "date_display": "September–October 1404 (Rabi' I–II 807)",
+   "precision": "range",
+   "eye": "yazdi",
+   "place": "Kan-i Gil meadow, Samarkand",
+   "headline": "The great festival of autumn 1404",
+   "digest": "Yazdi's official history describes weeks of feasting, weddings of Timur's grandsons and displays of tents and treasure on the meadows outside Samarkand, presented as the crowning celebration of a world conqueror before his last campaign. He does not mention foreign envoys' complaints.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Yazdi, Zafarnama (1424–25); festivities also noted in Wikipedia: Clavijo ('celebrations'); exact days not verified here."
+  },
+  {
+   "date_iso": "1404-10-06",
+   "date_display": "Monday 6 October 1404",
+   "precision": "day",
+   "eye": "clavijo",
+   "place": "The Royal Camp (the Horde) outside Samarkand",
+   "headline": "A feast among the silk pavilions",
+   "digest": "Timur gives a great feast for his wives, sons, grandsons and chiefs, and the Castilians are shown the tent city, including a vast pavilion. They are served mutton and horse meat in quantity and watch the court drink heavily. Clavijo describes everything as a catalogue of wonders and costs.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Le Strange trans., Silk Road Seattle text (Monday 6 October)."
+  },
+  {
+   "date_iso": "1404-10-30",
+   "date_display": "Thursday 30 October 1404",
+   "precision": "day",
+   "eye": "clavijo",
+   "place": "Samarkand, tomb of Muhammad Sultan",
+   "headline": "A rebuilt tomb and a conqueror carried in a litter",
+   "digest": "Timur returns to the city to consecrate the mausoleum of his grandson Muhammad Sultan, which he had ordered torn down as too low and rebuilt within days. Clavijo also watches him force a new street of shops through the city and order the great mosque's gateway pulled down, now too weak to walk and directing work from a litter until snow stops it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Le Strange trans., Silk Road Seattle text (Thursday 30 October; Bibi Khanum passages undated)."
+  },
+  {
+   "date_iso": "1404-11-18",
+   "date_display": "18 November 1404 (14 Jumada I 807)",
+   "precision": "day",
+   "eye": "clavijo",
+   "place": "Samarkand",
+   "headline": "Told to leave without a farewell",
+   "digest": "Officials announce that the envoys must depart at once, without a final audience, because Timur is ill and the court is preparing for war. Clavijo suspects the courtiers of hiding how sick their master is.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Iranica: Clavijo (18 Nov 1404); Persian sources suggest Timur did dismiss them formally."
+  },
+  {
+   "date_iso": "1404-11-21",
+   "date_display": "Friday 21 November 1404 (17 Jumada I 807)",
+   "precision": "day",
+   "eye": "clavijo",
+   "place": "Leaving Samarkand",
+   "headline": "Westward with the Egyptian ambassador",
+   "digest": "The Castilians ride out with the envoy of the Mamluk sultan and others, reaching Bukhara on the 27th and resting there a week before crossing the Oxus in December.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Le Strange trans. (Friday 21 Nov; Thursday 27 Nov Bukhara); Iranica."
+  },
+  {
+   "date_iso": "1404-11-27",
+   "date_display": "late November 1404 (Jumada I 807)",
+   "precision": "range",
+   "eye": "yazdi",
+   "place": "Samarkand",
+   "headline": "Timur marches against China in winter",
+   "digest": "Yazdi frames the campaign as holy war against the infidel emperor of China and records the army setting out from Samarkand in the cold season, about six days after the Castilians left. The court history presents winter as an obstacle overcome by will.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Iranica: Clavijo (left six days before Timur set out); Yazdi, Zafarnama."
+  },
+  {
+   "date_iso": "1404-12-15",
+   "date_display": "winter 1404–05 (recalled after 1427)",
+   "precision": "range",
+   "eye": "schiltberger",
+   "place": "Timur's lands",
+   "headline": "The camp's story of why Timur turned on China",
+   "digest": "Schiltberger repeats what he heard: that the 'great Khan' of Cathay had demanded tribute and that Timur gathered an enormous army to answer him, only to die on the road. He did not march with it himself; he passes on camp rumour, with the numbers swollen.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Schiltberger, Telfer trans. (1879), Tamerlane chapters; hearsay."
+  },
+  {
+   "date_iso": "1405-02-18",
+   "date_display": "18 February 1405 (17 Sha'ban 807)",
+   "precision": "day",
+   "eye": "yazdi",
+   "place": "Otrar, on the Syr Darya",
+   "headline": "The world conqueror dies at Otrar",
+   "digest": "In the official history Timur falls ill at Otrar in the bitter cold, gives his last commands and dies, and the China campaign dissolves. Yazdi gives the death a pious, orderly shape, with a named heir and calm counsel.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Date standard (Aramco World: 18 Feb 1405 at Otrar); Yazdi, Zafarnama."
+  },
+  {
+   "date_iso": "1405-02-18",
+   "date_display": "February 1405 (807 AH; written 1435)",
+   "precision": "month",
+   "eye": "ibn-arabshah",
+   "place": "Samarkand (as captive)",
+   "headline": "Ibn Arabshah's version: the frost wins",
+   "digest": "Writing thirty years later in rhymed Arabic, Ibn Arabshah makes the cold itself Timur's enemy: the winter that froze men and horses is cast as judgement on the conqueror, who dies at Otrar on the road to China. He relishes the scene and does not pretend to neutrality.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Iranica: Aja'ib al-maqdur (death 807/1405 at Otrar en route to China); Sanders trans. 1936."
+  },
+  {
+   "date_iso": "1405-03-01",
+   "date_display": "late winter 1405",
+   "precision": "range",
+   "eye": "clavijo",
+   "place": "Persia, on the road west",
+   "headline": "News of Timur's death overtakes the embassy",
+   "digest": "Snowbound on the road through northern Persia, the Castilians learn that Timur is dead and the empire is breaking into quarrels among his heirs. Their safe-conducts suddenly mean little, and they spend months in danger before reaching the coast.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Le Strange trans., return-journey passages (Qazvin 3 Feb, Tabriz late Feb–Mar 1405); exact day news arrived not verified."
+  },
+  {
+   "date_iso": "1406-03-24",
+   "date_display": "24 March 1406",
+   "precision": "day",
+   "eye": "clavijo",
+   "place": "Alcalá de Henares, Castile",
+   "headline": "Home to report to the king",
+   "digest": "After sailing from Constantinople via Genoa, Clavijo reaches Enrique III's court and delivers his account of a ruler who is already dead. The king himself would die that December.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Iranica: Clavijo (arrival at court 24 Mar 1406)."
+  },
+  {
+   "date_iso": "1407-06-01",
+   "date_display": "1407 (Yongle 5)",
+   "precision": "year",
+   "eye": "ming-shilu",
+   "place": "Nanjing court",
+   "headline": "The detained envoys come home",
+   "digest": "The Ming record notes the return of envoys whom Timur had held since the 1390s, among them Fu An and Chen Dewen: of about 1,500 men in the missions, only a handful survive. Timur's grandson Khalil Sultan sends them back as a gesture toward peace.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Church (UChicago) on Chen Dewen and Fu An's 1407 return; Aramco World (Khalil Sultan returned survivors, 1407)."
+  },
+  {
+   "date_iso": "1412-06-01",
+   "date_display": "c. 1411–1412",
+   "precision": "year",
+   "eye": "yongle",
+   "place": "Nanjing",
+   "headline": "Yongle orders Shahrukh to keep the peace",
+   "digest": "In a letter preserved in Persian, the emperor styles himself lord of all realms on earth and tells Shahrukh, as a vassal, to stop fighting his nephew Khalil Sultan. His information is out of date: Khalil Sultan is already beaten. The tone is the old Mongol one of universal command.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Aramco World 2006 (letter of 1411); preserved in Hafiz-i Abru and Abd al-Razzaq."
+  },
+  {
+   "date_iso": "1413-01-01",
+   "date_display": "c. 1412–1413",
+   "precision": "year",
+   "eye": "shahrukh",
+   "place": "Herat",
+   "headline": "Shahrukh answers with a call to Islam",
+   "digest": "Shahrukh's reply, kept by his court historians, refuses the language of vassalage and urges the emperor to adopt Islam and the sharia, while welcoming trade. It treats the Ming claim of universal rule as an error to be corrected by faith.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Aramco World 2006 (rejoinder after 1411); date of the reply not fixed."
+  },
+  {
+   "date_iso": "1414-02-03",
+   "date_display": "3 February 1414 (Yongle 12, 1st month)",
+   "precision": "day",
+   "eye": "chen-cheng",
+   "place": "Leaving for the Western Regions",
+   "headline": "Chen Cheng sets out for Herat",
+   "digest": "Chen Cheng's party, escorting returning Timurid envoys, begins a journey he and Li Xian will log day by day: wells, grasslands, snow, and the camps of nomad chiefs. The diary skips only days spent in camp.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Rossabi, Crossroads 2010 (departure 3 Feb 1414); Church (UChicago) says they left Suzhou early in 1414."
+  },
+  {
+   "date_iso": "1414-05-05",
+   "date_display": "early May 1414",
+   "precision": "range",
+   "eye": "chen-cheng",
+   "place": "Tele-hala, Moghulistan",
+   "headline": "Thirteen days with a steppe prince",
+   "digest": "The embassy stays some thirteen days at the camp of Prince Muhammad of Moghulistan, among felt tents and herds. Chen notes the customs plainly and moves on west toward the Ili River, reached in early June.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Church (UChicago), itinerary summary of the Xiyu xingcheng ji."
+  },
+  {
+   "date_iso": "1414-08-30",
+   "date_display": "15th day, 8th month, Yongle 12 (c. late Aug 1414)",
+   "precision": "day",
+   "eye": "chen-cheng",
+   "place": "Bank of the Amu Darya",
+   "headline": "Mid-Autumn night by the Oxus",
+   "digest": "Camped on the Amu River at the Mid-Autumn Festival, Chen writes a poem about the moon over a foreign river, far from home. It is one of the few personal moments in an otherwise terse log.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Church (UChicago): camp by the Amu River on 8/15 with Chen's poem; Western date estimated from the leap-9th-month equation."
+  },
+  {
+   "date_iso": "1414-10-27",
+   "date_display": "14th day, leap 9th month, Yongle 12 (27 October 1414)",
+   "precision": "day",
+   "eye": "chen-cheng",
+   "place": "Herat",
+   "headline": "A Ming envoy reaches Shahrukh's capital",
+   "digest": "After nine months on the road the party enters Herat. Chen's treatise describes the ruler's residence of vaulted chambers without beams, floors spread with felt carpets, court titles such as sultan and mirza, the bazaar and the silver coinage. He sees a court that runs on household officers rather than a Chinese-style bureaucracy.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Church (UChicago): arrival equated with 27 Oct 1414; Xiyu fanguo zhi observations."
+  },
+  {
+   "date_iso": "1415-11-30",
+   "date_display": "guisi day, 10th month, Yongle 13 (30 November 1415)",
+   "precision": "day",
+   "eye": "ming-shilu",
+   "place": "Beijing",
+   "headline": "Chen Cheng reports to the throne",
+   "digest": "The Veritable Records note Chen Cheng's return with Timurid envoys and the presentation of his account of the Western Regions. The entry treats the journey as the extension of imperial virtue to distant tributaries.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Taizong shilu juan 169, cited by Church (UChicago) and Rossabi (30 Nov 1415)."
+  },
+  {
+   "date_iso": "1415-11-30",
+   "date_display": "30 November 1415",
+   "precision": "day",
+   "eye": "chen-cheng",
+   "place": "Beijing",
+   "headline": "The diary becomes a state document",
+   "digest": "Chen presents the itinerary and the treatise to Yongle. He kept no copy himself, and the work survives in a single edition.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Church (UChicago); Rossabi."
+  },
+  {
+   "date_iso": "1417-04-01",
+   "date_display": "April 1417 (letter of 1417)",
+   "precision": "month",
+   "eye": "yongle",
+   "place": "Sent to Herat",
+   "headline": "A gentler letter, and a portrait of a horse",
+   "digest": "Carried by Chen Cheng's second mission, Yongle's new letter drops the language of command and asks that the veil of difference between the two realms be lifted so that merchants and envoys can come and go. With it comes a painting of the white horse Shahrukh had sent.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Rossabi (Chen reached Herat Apr 1417 with a less haughty letter); Aramco World (1417 letter, white-horse painting)."
+  },
+  {
+   "date_iso": "1419-11-24",
+   "date_display": "6 Dhu'l-qa'da 822 (24 November 1419)",
+   "precision": "day",
+   "eye": "naqqash",
+   "place": "Herat",
+   "headline": "The painter is told to write everything down",
+   "digest": "Shahrukh's embassy under Shadi Khwaja leaves Herat; Baysunghur sends Sultan Ahmad and Naqqash with orders to record each day's road, buildings and customs. Merchants attach themselves until the party numbers about 500.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Iranica: Naqqash; Wikipedia itinerary."
+  },
+  {
+   "date_iso": "1420-08-29",
+   "date_display": "29 August 1420",
+   "precision": "day",
+   "eye": "naqqash",
+   "place": "Jiayuguan, western gate of the Great Wall",
+   "headline": "Counted in at the Great Wall",
+   "digest": "At the Ming frontier the party is registered by name and numbers, and from Suzhou onward travels by the imperial post: food, horses and lodging at each station. Naqqash admires the order of it and the size of the official hostels.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia: Ghiyath al-Din Naqqash (entered at Jiayuguan 29 Aug 1420)."
+  },
+  {
+   "date_iso": "1420-12-14",
+   "date_display": "8 Dhu'l-hijja 823 (14 December 1420); Yongle 18, 11th month",
+   "precision": "day",
+   "eye": "naqqash",
+   "place": "Beijing",
+   "headline": "Brought before the throne in the new palace",
+   "digest": "Rushed into the capital, the envoys are led before dawn into the palace, placed some fifteen ells from the throne, and told to touch their heads to the ground; they bow but stop short. Yongle glances at the letters wrapped in yellow satin and asks a few questions about their journey. Around them the emperor passes sentence on several hundred prisoners.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Rossabi (arrival 14 Dec 1420); Yule, Cathay vol. 1 p. 222 and p. 221 (audience; timing of the first audience relative to arrival is approximate)."
+  },
+  {
+   "date_iso": "1420-12-14",
+   "date_display": "Yongle 18, 11th month (December 1420)",
+   "precision": "month",
+   "eye": "ming-shilu",
+   "place": "Beijing",
+   "headline": "Envoys of Shahrukh enter the register as tributaries",
+   "digest": "In the court's terms the embassy from Herat and Samarkand arrives with horses and local products, one of some twenty Timurid missions of the reign. The record is formulaic: who came, what they brought, what was given in return.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Rossabi, Crossroads 2010 (twenty Timurid delegations in the Yongle reign; arrival date); exact Shilu entry not read."
+  },
+  {
+   "date_iso": "1420-12-23",
+   "date_display": "17 Dhu'l-hijja 823 (23 December 1420)",
+   "precision": "day",
+   "eye": "naqqash",
+   "place": "Beijing",
+   "headline": "Witness to imperial justice",
+   "digest": "Naqqash records criminals being led out to execution and notes, with interest, that provincial governors cannot put anyone to death without the emperor's sentence. He also describes a death by slicing; he reports it flatly, as a custom of the country.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Yule, Cathay vol. 1 p. 222 (17 Dhulhajja); Wikipedia (lingchi witnessed)."
+  },
+  {
+   "date_iso": "1421-02-02",
+   "date_display": "1st day, 1st month, Yongle 19 (c. 2 February 1421)",
+   "precision": "day",
+   "eye": "ming-shilu",
+   "place": "Fengtian Hall, Beijing",
+   "headline": "The new capital is formally opened",
+   "digest": "On New Year's Day Yongle holds a grand court in the Hall of Worshipping Heaven to inaugurate the newly completed palace and Beijing as primary capital. The Timurid envoys were in the city for the celebrations.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Beijing Daily history page (New Year court in Fengtian Hall, Yongle 19); Western date calculated from the lunar calendar."
+  },
+  {
+   "date_iso": "1421-04-01",
+   "date_display": "spring 1421",
+   "precision": "range",
+   "eye": "naqqash",
+   "place": "Beijing, hunting ground",
+   "headline": "The emperor falls from Shahrukh's horse",
+   "digest": "Riding one of the horses sent by the Timurid princes, Yongle is thrown during a hunt and hurts his hand. In fury he orders the envoys put in irons and sent to the eastern provinces, until his officials and the interpreter Hajji Yusuf kneel and argue that envoys cannot answer for their masters' gifts. He relents; Shadi Khwaja explains the old horse had been Timur's own, offered as an honour.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Yule, Cathay vol. 1 pp. 225–226; date within the stay not fixed."
+  },
+  {
+   "date_iso": "1421-05-09",
+   "date_display": "Yongle 19, 4th month, gengzi (9 May 1421)",
+   "precision": "day",
+   "eye": "naqqash",
+   "place": "Beijing",
+   "headline": "Lightning burns the new halls",
+   "digest": "Naqqash records that lightning set the new palace ablaze and notes that the court astrologers' warning had come true. Soon after, a favourite consort of the emperor dies and Yongle falls ill; the envoys' supplies stop and they are dismissed by the heir.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Fire date: Beijing Daily (Taizong shilu: Yongle 19, 4th month, 8th day = 9 May 1421); Naqqash via Yule, Cathay vol. 1 p. 226."
+  },
+  {
+   "date_iso": "1421-05-09",
+   "date_display": "Yongle 19, 4th month, 8th day (9 May 1421)",
+   "precision": "day",
+   "eye": "ming-shilu",
+   "place": "Forbidden City, Beijing",
+   "headline": "Fire in the three great halls",
+   "digest": "The Veritable Records note disaster striking the Fengtian, Huagai and Jinshen halls, barely months after they were opened. The fire was read as a warning from Heaven, and the emperor invited criticism of his government.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Beijing Daily, quoting Taizong shilu."
+  },
+  {
+   "date_iso": "1421-05-18",
+   "date_display": "mid-Jumada I 824 (18 May 1421)",
+   "precision": "day",
+   "eye": "naqqash",
+   "place": "Leaving Beijing",
+   "headline": "Homeward with the same courtesies",
+   "digest": "The envoys leave the capital and are passed back along the post road with the same provisions they had on the way in. Mongol raids later hold them for months in Ganzhou.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Yule, Cathay vol. 1 p. 226 (c. 18 May); Wikipedia itinerary."
+  },
+  {
+   "date_iso": "1422-01-13",
+   "date_display": "13 January 1422",
+   "precision": "day",
+   "eye": "naqqash",
+   "place": "Jiayuguan",
+   "headline": "Checked out against the register",
+   "digest": "Leaving China, the party is counted again at the frontier and the names compared with the list made on entry sixteen months earlier.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia: Ghiyath al-Din Naqqash."
+  },
+  {
+   "date_iso": "1422-08-29",
+   "date_display": "11 Ramadan 825 (29 August 1422)",
+   "precision": "day",
+   "eye": "naqqash",
+   "place": "Herat",
+   "headline": "Back in Herat with the report",
+   "digest": "The embassy returns to Herat after nearly three years. Naqqash's record is handed to Baysunghur and taken into Hafiz-i Abru's history, which is how it survives.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Iranica: Naqqash (11 Ramadan 825 / 29 Aug 1422)."
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1402-07-28",
+   "label": "Battle of Ankara",
+   "eyes": [
+    "shami",
+    "schiltberger"
+   ],
+   "note": "Timur's commissioned historian writes a triumph; a Bavarian slave in the losing army remembers being handed from one master to another. Ankara is why Castile sent envoys at all."
+  },
+  {
+   "date": "1404-09-08",
+   "label": "Clavijo's audience: Castilians placed above the Chinese envoy",
+   "eyes": [
+    "clavijo",
+    "ming-shilu"
+   ],
+   "note": "Clavijo sees Ming envoys humiliated as tribute-demanders; the Ming record says little about Timur until his envoys' survivors come home in 1407. The same meeting, told only from one side."
+  },
+  {
+   "date": "1404-11-21",
+   "label": "The Castilians leave; Timur prepares to march on China",
+   "eyes": [
+    "clavijo",
+    "yazdi",
+    "schiltberger"
+   ],
+   "note": "Clavijo is hurried away without farewell; Yazdi turns the winter march into holy war; Schiltberger repeats the camp story of a tribute quarrel."
+  },
+  {
+   "date": "1405-02-18",
+   "label": "Death of Timur at Otrar",
+   "eyes": [
+    "yazdi",
+    "ibn-arabshah",
+    "clavijo"
+   ],
+   "note": "An orderly, pious death in the court history; a frozen judgement in the captive's; and for Clavijo, the news that his letters of safe-conduct no longer protected him."
+  },
+  {
+   "date": "1414-10-27",
+   "label": "Chen Cheng reaches Herat",
+   "eyes": [
+    "chen-cheng",
+    "yongle",
+    "shahrukh"
+   ],
+   "note": "The envoy sees vaulted palaces and silver coins; behind him stand two sovereigns who had just traded claims of universal rule by letter."
+  },
+  {
+   "date": "1420-12-14",
+   "label": "Shahrukh's embassy reaches Beijing",
+   "eyes": [
+    "naqqash",
+    "ming-shilu"
+   ],
+   "note": "The guest records bowing that stops short of the floor and hundreds of prisoners judged; the host records tribute received."
+  },
+  {
+   "date": "1421-05-09",
+   "label": "Lightning fire in the new palace",
+   "eyes": [
+    "naqqash",
+    "ming-shilu"
+   ],
+   "note": "Both record the same disaster as an omen: the Persian painter credits the astrologers, the Chinese annal treats it as Heaven's reproach to the throne."
+  }
+ ],
+ "ties": [
+  {
+   "a": "clavijo",
+   "b": "shami",
+   "kind": "mentioned",
+   "note": "Clavijo's embassy was a response to the victory at Ankara that Shami recorded; Timur had sent his own envoy to Castile with the news."
+  },
+  {
+   "a": "clavijo",
+   "b": "ibn-arabshah",
+   "kind": "same street",
+   "note": "Both were in Samarkand in autumn 1404, one as honoured guest, the other as a boy captive from Damascus."
+  },
+  {
+   "a": "schiltberger",
+   "b": "clavijo",
+   "kind": "opposite sides",
+   "note": "Both Latin Christians among Timur's people at the same time: one an ambassador, one a slave."
+  },
+  {
+   "a": "yazdi",
+   "b": "shami",
+   "kind": "influenced",
+   "note": "Yazdi reworked Shami's history into the grand official Zafarnama."
+  },
+  {
+   "a": "chen-cheng",
+   "b": "shahrukh",
+   "kind": "met",
+   "note": "Chen Cheng was received by Shahrukh at Herat in 1414 and again in 1417."
+  },
+  {
+   "a": "naqqash",
+   "b": "yongle",
+   "kind": "met",
+   "note": "Naqqash stood before Yongle in December 1420 and saw his anger after the fall from the horse."
+  },
+  {
+   "a": "yongle",
+   "b": "shahrukh",
+   "kind": "opposite sides",
+   "note": "The two sovereigns exchanged letters claiming, in turn, universal rule and the superiority of their faith."
+  },
+  {
+   "a": "naqqash",
+   "b": "ming-shilu",
+   "kind": "opposite sides",
+   "note": "Guest and host records of the same 1420–21 embassy and the same palace fire."
+  },
+  {
+   "a": "chen-cheng",
+   "b": "ming-shilu",
+   "kind": "mentioned",
+   "note": "The Veritable Records note Chen's return and the presentation of his account in 1415."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "treasure-fleets",
+   "note": "The same Yongle Emperor who exchanged envoys with Herat overland sent Zheng He's fleets west by sea from 1405, the year Timur died marching on China; Hormuz and other Timurid-world ports appear on both routes."
+  },
+  {
+   "to": "v2:constantinople-1453",
+   "note": "Timur's victory at Ankara in 1402 captured Sultan Bayezid and threw the Ottomans into a decade of civil war, giving Byzantine Constantinople, which Clavijo toured in 1403–04, another half-century before Mehmed II took it."
+  },
+  {
+   "to": "v2:ming-qing",
+   "note": "The palace whose new halls Naqqash saw opened and burned in 1421 is the Forbidden City that rebels and then the Qing took in 1644."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://smarthistory.org/?p=73645",
+   "title": "Timur's entry into Samarkand",
+   "caption": "A page from the Zafarnama copy made at Shiraz for Timur's grandson: the city as the Timurid dynasty wished it remembered, with crowds at the walls. Clavijo saw the real city a few months before Timur's death.",
+   "date": "c. 1436",
+   "credit": "Unknown painter; Freer Gallery of Art, Smithsonian (via Smarthistory)"
+  },
+  {
+   "url": "https://www.metmuseum.org/art/collection/search/451304",
+   "title": "Conquest of Baghdad by Timur, folio from a Zafarnama",
+   "caption": "Yazdi's text with a Shiraz painting of Timur's 1401 siege of Baghdad, the campaign that brought Shami into his service.",
+   "date": "Dhu'l-hijja 839 / June–July 1436",
+   "credit": "Metropolitan Museum of Art"
+  },
+  {
+   "url": "https://www.clevelandart.org/art/1931.452",
+   "title": "Page from Hafiz-i Abru's Majma' al-tawarikh",
+   "caption": "A page from the history made for Shahrukh's library in Herat. Hafiz-i Abru's chronicles are where Naqqash's diary and the Ming letters survive.",
+   "date": "early 1400s",
+   "credit": "Cleveland Museum of Art"
+  },
+  {
+   "url": "https://www.worldhistory.org/image/10048/yongle-emperor/",
+   "title": "Portrait of the Yongle Emperor",
+   "caption": "Official silk portrait of Zhu Di, the emperor who received Chen Cheng's report and Naqqash's embassy.",
+   "date": "15th century",
+   "credit": "Unknown court artist; National Palace Museum, Taipei (via World History Encyclopedia)"
+  },
+  {
+   "url": "https://www.schoyencollection.com/palaeography-collection-introduction/arabic-script/naskhi-script/ms-4599",
+   "title": "Hafiz-i Abru, History of the World (manuscript)",
+   "caption": "A manuscript of Hafiz-i Abru's universal history, the work that took in Naqqash's day-by-day report from Beijing.",
+   "date": "15th century",
+   "credit": "Schøyen Collection"
+  }
+ ],
+ "further": [
+  {
+   "title": "Encyclopaedia Iranica: Clavijo",
+   "url": "https://www.iranicaonline.org/?p=7662"
+  },
+  {
+   "title": "Encyclopaedia Iranica: Ghiyath al-Din Naqqash",
+   "url": "https://www.iranicaonline.org/?p=2679"
+  },
+  {
+   "title": "Encyclopaedia Iranica: Aja'ib al-maqdur (Ibn Arabshah)",
+   "url": "https://www.iranicaonline.org/articles/ajaeb-al-maqdur"
+  },
+  {
+   "title": "Clavijo, Embassy to Tamerlane (Le Strange trans.), Silk Road Seattle",
+   "url": "https://depts.washington.edu/silkroad/texts/clavijo/cltxt1.html"
+  },
+  {
+   "title": "Sally K. Church on Chen Cheng's diary and treatise",
+   "url": "https://knowledge.uchicago.edu/record/11274/files/Timurid-Regions-and-Moghulistan-through-the-Eyes-of-a-Ming-Diplomat.pdf"
+  },
+  {
+   "title": "Morris Rossabi on Ming–Timurid relations (Crossroads 2010)",
+   "url": "https://www.ostasien-verlag.de/zeitschriften/crossroads/cr/pdf/CR_01-02_2010_023-031_Rossabi.pdf"
+  },
+  {
+   "title": "Aramco World: The Diplomacy of the Sons",
+   "url": "https://archive.aramcoworld.com/issue/200603/the.diplomacy.of.the.sons.htm"
+  },
+  {
+   "title": "Yule, Cathay and the Way Thither, vol. 1: Shah Rukh's embassy (Toyo Bunko scan)",
+   "url": "https://dsr.nii.ac.jp/toyobunko/III-2-F-b-2/V-1/page/0226.html.ja"
+  }
+ ],
+ "vantage_key": "0 = a sovereign or his court's own record; 1 = an envoy in the room; 2 = a captive inside the empire; 3 = a court historian writing later; 4 = news from afar."
+}

@@ -1,0 +1,1026 @@
+{
+ "id": "apollo-11",
+ "title": "One Small Step",
+ "short_title": "One Small Step",
+ "subtitle": "Apollo 11 and Luna 15, from the Moon, Houston, Moscow, the tracking stations and the world, 16–24 July 1969",
+ "span": "1968–1969",
+ "intro": [
+  "Between 16 and 24 July 1969 three men flew to the Moon and back, and two of them walked on it. Few events in history were recorded so completely as they happened: every word on the radio was taped and transcribed, every heartbeat sent down as telemetry, and hundreds of millions watched live. Even so, no single record shows the whole event. The crew saw boulders Houston could not see, Houston saw numbers the crew had no time to read, and the pictures reached the world through the hands of technicians on the other side of the planet.",
+  "This chapter is honest about its forms. The crew and Mission Control are heard through NASA's air-to-ground transcripts and loop recordings, which are US-government records and in the public domain, so a few of their words are quoted exactly. The Australian tracking stations are reconstructed from station records and later histories; Jodrell Bank from tapes made in its control room; Walter Cronkite from his broadcast. True diaries come from the White House (H. R. Haldeman), from Moscow (Nikolai Kamanin, the general who trained the cosmonauts), and from two English diarists who watched on television.",
+  "Running underneath the American story is a Soviet one. Luna 15, a robot launched three days before Apollo 11, was meant to land, scoop up lunar soil and fly it home first. It circled the Moon while Eagle landed and crashed into the Sea of Crises two hours before Armstrong and Aldrin lifted off. Soviet television showed nothing of the landing live. The fullest account of the losing side is in Kamanin's diary, which stayed secret until the 1990s.",
+  "The clusters are where to read across. On the afternoon of 20 July (UTC), Houston weighs computer alarms, Collins listens from orbit, and Australians wake to the landing with the Moon below their horizon. At 02:56 UTC on 21 July the first step happens at once late evening in Washington, the middle of the night in England and early afternoon in New South Wales. On 21 July Jodrell Bank hears Luna 15 fall silent. On 24 July a President watches the capsule come home from a ship's bridge."
+ ],
+ "calendar_note": "All date_iso values are in Coordinated Universal Time (UTC, then called GMT), which is how NASA timed the mission; date_display adds local time where it matters: Houston CDT (UTC−5), Washington and the Cape EDT (UTC−4), Moscow MSK (UTC+3), Britain BST (UTC+1), eastern Australia AEST (UTC+10). Mission times are also given in Ground Elapsed Time (GET) from liftoff at 13:32:00 UTC on 16 July. So the first step, at 02:56 UTC on 21 July, was still Sunday 20 July in the Americas and already Monday afternoon in Australia.",
+ "eyes": [
+  {
+   "id": "armstrong",
+   "name": "Neil A. Armstrong",
+   "short": "Armstrong",
+   "life": "1930–2012",
+   "role": "Commander of Apollo 11, aged 38; civilian test pilot",
+   "side": "United States (NASA)",
+   "where": "Lunar Module Eagle, Tranquility Base, Sea of Tranquillity (0.67°N 23.47°E on the Moon); map pin shows the launch pad",
+   "lat": 28.6083,
+   "lon": -80.6041,
+   "waypoints": [
+    {
+     "lat": 28.6083,
+     "lon": -80.6041,
+     "label": "Launch Complex 39A, 16 July"
+    },
+    {
+     "lat": 13.32,
+     "lon": -169.15,
+     "label": "Splashdown, Pacific, 24 July"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "commander, on the Moon",
+   "form": "log (air-to-ground and onboard voice transcripts)",
+   "language": "English",
+   "authenticity": "Words spoken on the radio loop, recorded and transcribed by NASA at the time and annotated in the Apollo Lunar Surface Journal; US-government work, public domain. Armstrong always said he meant 'one small step for a man'; the 'a' is not clearly audible on the tape.",
+   "bio": "A former X-15 pilot who had nearly died in a 1968 training-vehicle crash, Armstrong flew the final minutes of the descent by hand, past a boulder field, with fuel running low. His transcript voice is famously flat: the drama lives in the numbers his crewmates read out.",
+   "sources": [
+    {
+     "title": "Apollo Lunar Surface Journal (annotated air-to-ground transcripts)",
+     "url": "https://apollojournals.org/alsj/main.html"
+    },
+    {
+     "title": "NASA History: Apollo journals landing page (Eric M. Jones, David Woods)",
+     "url": "https://www.nasa.gov/history/alsj/a11/a11.postland.html"
+    },
+    {
+     "title": "Nixon's call to Tranquility Base, Public Papers (UCSB American Presidency Project)",
+     "url": "https://www.presidency.ucsb.edu/documents/telephone-conversation-with-the-apollo-11-astronauts-the-moon"
+    }
+   ]
+  },
+  {
+   "id": "aldrin",
+   "name": "Edwin E. 'Buzz' Aldrin Jr.",
+   "short": "Aldrin",
+   "life": "b. 1930",
+   "role": "Lunar Module Pilot, aged 39; USAF colonel, MIT doctorate in orbital rendezvous",
+   "side": "United States (NASA)",
+   "where": "Lunar Module Eagle and the surface at Tranquility Base; map pin shows the launch pad",
+   "lat": 28.6083,
+   "lon": -80.6041,
+   "waypoints": [
+    {
+     "lat": 28.6083,
+     "lon": -80.6041,
+     "label": "Launch Complex 39A, 16 July"
+    },
+    {
+     "lat": 13.32,
+     "lon": -169.15,
+     "label": "Splashdown, Pacific, 24 July"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "second man on the Moon",
+   "form": "log (air-to-ground voice transcripts)",
+   "language": "English",
+   "authenticity": "NASA transcripts, public domain, annotated in the ALSJ. Aldrin also wrote memoirs later (Return to Earth, 1973; Magnificent Desolation, 2009); entries here rest on the transcript unless flagged.",
+   "bio": "Aldrin was the systems man in the cockpit: during the descent he called out altitude and speed while Armstrong flew. His 'magnificent desolation' is the only lyrical phrase either moonwalker allowed himself on the loop.",
+   "sources": [
+    {
+     "title": "Apollo Lunar Surface Journal (annotated air-to-ground transcripts)",
+     "url": "https://apollojournals.org/alsj/main.html"
+    },
+    {
+     "title": "NASA History: Apollo journals landing page (Eric M. Jones, David Woods)",
+     "url": "https://www.nasa.gov/history/alsj/a11/a11.postland.html"
+    }
+   ]
+  },
+  {
+   "id": "collins",
+   "name": "Michael Collins",
+   "short": "Collins",
+   "life": "1930–2021",
+   "role": "Command Module Pilot, aged 38; USAF lieutenant colonel",
+   "side": "United States (NASA)",
+   "where": "Command Module Columbia, alone in lunar orbit for about 28 hours; map pin shows the launch pad",
+   "lat": 28.6083,
+   "lon": -80.6041,
+   "waypoints": [
+    {
+     "lat": 28.6083,
+     "lon": -80.6041,
+     "label": "Launch Complex 39A, 16 July"
+    },
+    {
+     "lat": 13.32,
+     "lon": -169.15,
+     "label": "Splashdown, Pacific, 24 July"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "alone in orbit overhead",
+   "form": "log (onboard and air-to-ground transcripts); memoir (written later)",
+   "language": "English",
+   "authenticity": "Transcripts are NASA public-domain records (Apollo Flight Journal; Spacelog). His inner thoughts, including his fear of having to fly home alone, come from his memoir Carrying the Fire (1974), written five years later; entries that rely on it are flagged.",
+   "bio": "Collins was the only one of the three never to touch the Moon, and the one who wrote best about it. Each orbit he passed behind the Moon, out of radio contact with every human being, while his crewmates' lives depended on his rendezvous.",
+   "sources": [
+    {
+     "title": "Apollo Flight Journal (annotated transcripts, launch to splashdown)",
+     "url": "https://apollojournals.org/afj/index.html"
+    },
+    {
+     "title": "Spacelog: Apollo 11 transcript excerpt (21 July 1969)",
+     "url": "https://apollo11.spacelog.org/05:05:03:15/05:06:13:01"
+    }
+   ]
+  },
+  {
+   "id": "duke",
+   "name": "Charles M. 'Charlie' Duke Jr.",
+   "short": "Charlie Duke",
+   "life": "b. 1935",
+   "role": "Capsule Communicator (CAPCOM) for the landing, aged 33; USAF major and astronaut",
+   "side": "United States (NASA)",
+   "where": "Mission Operations Control Room, Manned Spacecraft Center, Houston",
+   "lat": 29.5597,
+   "lon": -95.089,
+   "vantage": 1,
+   "vantage_label": "the one voice that spoke to the Moon",
+   "form": "log (air-to-ground transcript)",
+   "language": "English",
+   "authenticity": "NASA air-to-ground transcript, public domain. Duke later flew to the Moon himself on Apollo 16 (1972).",
+   "bio": "By rule only the CAPCOM, an astronaut, talked to the crew; every decision in the room reached the Moon in Duke's South Carolina voice. His tongue-tied reply to the landing call is part of the transcript.",
+   "sources": [
+    {
+     "title": "Apollo Lunar Surface Journal (annotated air-to-ground transcripts)",
+     "url": "https://apollojournals.org/alsj/main.html"
+    },
+    {
+     "title": "NASA History: Apollo journals landing page (Eric M. Jones, David Woods)",
+     "url": "https://www.nasa.gov/history/alsj/a11/a11.postland.html"
+    }
+   ]
+  },
+  {
+   "id": "kranz",
+   "name": "Eugene F. 'Gene' Kranz",
+   "short": "Gene Kranz",
+   "life": "b. 1933",
+   "role": "Flight Director, White Team (landing shift), aged 36",
+   "side": "United States (NASA)",
+   "where": "Flight director's console, Mission Control, Houston",
+   "lat": 29.5597,
+   "lon": -95.089,
+   "vantage": 1,
+   "vantage_label": "flight director on the ground",
+   "form": "flight director loop (archival audio); memoir (written later)",
+   "language": "English",
+   "authenticity": "The internal 'flight loop' audio is preserved by NASA (published with the ALSJ). The 1202 calls were made by guidance officer Steve Bales, backed by Jack Garman; Kranz's own feelings come from his memoir Failure Is Not an Option (2000) and are flagged.",
+   "bio": "Kranz ran the room during the descent. His controllers, most in their twenties, had to decide in seconds whether alarms nobody had seen in flight meant abort; the answer came from a 26-year-old guidance officer and a younger software specialist.",
+   "sources": [
+    {
+     "title": "Apollo 11 EVA: Flight Director loop audio (ALSJ)",
+     "url": "https://www.nasa.gov/history/alsj/a11/Apollo11EVA_FD_Loop_Audio.html"
+    },
+    {
+     "title": "ALSJ: the 1201 and 1202 program alarms (Peter Adler)",
+     "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.1201-pa.html"
+    }
+   ]
+  },
+  {
+   "id": "haldeman",
+   "name": "H. R. (Harry Robbins) Haldeman",
+   "short": "Haldeman",
+   "life": "1926–1993",
+   "role": "White House Chief of Staff to President Nixon, aged 42",
+   "side": "United States (White House)",
+   "where": "White House and Executive Office Building, Washington; then USS Hornet, Pacific",
+   "lat": 38.8977,
+   "lon": -77.0365,
+   "waypoints": [
+    {
+     "lat": 38.8977,
+     "lon": -77.0365,
+     "label": "White House, 20 July"
+    },
+    {
+     "lat": 13.32,
+     "lon": -169.15,
+     "label": "USS Hornet, 24 July"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "beside the President",
+   "form": "diary (daily journal)",
+   "language": "English",
+   "authenticity": "Haldeman kept a nightly diary, partly handwritten and partly dictated, January 1969–April 1973. Transcripts and scans are published by the Richard Nixon Presidential Library; an abridged edition appeared as The Haldeman Diaries (1994).",
+   "bio": "Haldeman watched the moonwalk on a small set in a side office with Nixon and Apollo 8 commander Frank Borman, then flew with the President to the recovery ship. His diary also shows what else filled the White House that weekend, including the Chappaquiddick accident of 18 July involving Senator Edward Kennedy.",
+   "sources": [
+    {
+     "title": "Haldeman journal, 20 July 1969 (Nixon Library transcript)",
+     "url": "https://www.nixonlibrary.gov/sites/default/files/virtuallibrary/documents/haldeman-diaries/37-hrhd-journal-vol02-19690720.pdf"
+    },
+    {
+     "title": "Haldeman journal, 24–25 July 1969 (Nixon Library transcript)",
+     "url": "https://nixonlibrary.gov/sites/default/files/virtuallibrary/documents/haldeman-diaries/37-hrhd-journal-vol07-19690724-19690725.pdf"
+    },
+    {
+     "title": "Nixon Library almanac: 20 July 1969",
+     "url": "https://nixonlibrary.gov/research/almanac/july-20-1969"
+    },
+    {
+     "title": "Nixon Library almanac: 24 July 1969",
+     "url": "https://www.nixonlibrary.gov/research/almanac/july-24-1969"
+    }
+   ]
+  },
+  {
+   "id": "cronkite",
+   "name": "Walter Cronkite",
+   "short": "Cronkite",
+   "life": "1916–2009",
+   "role": "Anchor, CBS Evening News, aged 52",
+   "side": "United States (press)",
+   "where": "CBS booth at Cape Kennedy for the launch; CBS studio, New York, for the landing",
+   "lat": 40.7637,
+   "lon": -73.9918,
+   "waypoints": [
+    {
+     "lat": 28.58,
+     "lon": -80.65,
+     "label": "Cape Kennedy press site, 16 July"
+    },
+    {
+     "lat": 40.7637,
+     "lon": -73.9918,
+     "label": "CBS studio, New York, 20–21 July"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "the nation's narrator",
+   "form": "live broadcast (recorded)",
+   "language": "English",
+   "authenticity": "Not a diary: the CBS broadcast survives on tape and is described in CBS News retrospectives. Moments here are as CBS colleagues later described them.",
+   "bio": "Cronkite stayed on air for marathon stretches across the mission, with former astronaut Wally Schirra beside him. For many Americans his reactions, rather than the flat NASA voices, were the emotional record of the landing.",
+   "sources": [
+    {
+     "title": "CBS News: 'Say something, I'm speechless' — inside the CBS coverage of Apollo 11",
+     "url": "https://www.cbsnews.com/news/say-something-im-speechless-inside-the-cbs-news-coverage-of-apollo-11/?ftag=CNM-00-10aab4i"
+    }
+   ]
+  },
+  {
+   "id": "reid",
+   "name": "Tom Reid and the Honeysuckle Creek crew",
+   "short": "Tom Reid",
+   "life": "dates not verified here",
+   "role": "Director of Honeysuckle Creek Tracking Station, NASA's Manned Space Flight Network, near Canberra; with TV technician Ed von Renouard",
+   "side": "Australia (NASA tracking network)",
+   "where": "Honeysuckle Creek Tracking Station, ACT, Australia",
+   "lat": -35.5833,
+   "lon": 148.9775,
+   "vantage": 2,
+   "vantage_label": "tracking station that sent the first step",
+   "form": "station records and later interviews (reconstructed)",
+   "language": "English",
+   "authenticity": "No diary: the day is reconstructed from NASA network timings, station records and interviews by Andrew Tink, Honeysuckle Creek (UNSW Press, 2018). Times are AEST and approximate where noted. Reid's life dates not independently verified here.",
+   "bio": "Honeysuckle's 26-metre dish was the station NASA expected to rely on, and when the moonwalk came early its pictures were the ones the world saw for the first minutes. Reid's staff were also hosting the Australian Prime Minister that morning.",
+   "sources": [
+    {
+     "title": "Andrew Tink, 'Honeysuckle Creek: the little-known heroes of the Moon walk broadcast', Australian Geographic",
+     "url": "https://www.australiangeographic.com.au/nature-wildlife/2019/07/honeysuckle-creek-the-little-known-heroes-of-the-moon-walk-broadcast/"
+    },
+    {
+     "title": "Honeysuckle Creek: The Story of Tom Reid, a Little Dish, and Neil Armstrong's First Step (Macquarie University record)",
+     "url": "https://researchers.mq.edu.au/en/publications/honeysuckle-creek-the-story-of-tom-reid-a-little-dish-and-neil-ar/"
+    }
+   ]
+  },
+  {
+   "id": "parkes",
+   "name": "John Bolton and Neil 'Fox' Mason, Parkes Observatory",
+   "short": "Parkes",
+   "life": "Bolton 1922–1993",
+   "role": "Bolton: Director, CSIRO Parkes Radio Observatory; Mason: telescope driver at the control desk",
+   "side": "Australia (CSIRO, supporting NASA)",
+   "where": "Parkes 64-metre radio telescope, New South Wales",
+   "lat": -32.9983,
+   "lon": 148.2636,
+   "vantage": 2,
+   "vantage_label": "radio telescope in a gale",
+   "form": "station history (reconstructed from records)",
+   "language": "English",
+   "authenticity": "No diary: the account is John Sarkissian's history 'On Eagle's Wings' (CSIRO, 2000; refereed version in PASA vol. 18 no. 3, 2001), drawn from station records and staff testimony. Mason's dates not verified here.",
+   "bio": "Parkes was a radio-astronomy dish, not a NASA station, and was hired for its size. On the day it had to track the Moon in winds well beyond its safety limits; once its signal was locked, Houston used its pictures for the rest of the two-and-a-half-hour moonwalk.",
+   "sources": [
+    {
+     "title": "John Sarkissian, On Eagle's Wings: The Parkes Observatory's Support of the Apollo 11 Mission (CSIRO)",
+     "url": "https://www.parkes.atnf.csiro.au/news_events/apollo11/introduction.html"
+    },
+    {
+     "title": "Sky & Telescope: How Earth saw Apollo 11's first steps",
+     "url": "https://skyandtelescope.org/astronomy-news/how-earth-saw-apollo-11-first-steps/"
+    }
+   ]
+  },
+  {
+   "id": "lovell",
+   "name": "Sir Bernard Lovell",
+   "short": "Bernard Lovell",
+   "life": "1913–2012",
+   "role": "Director of Jodrell Bank Experimental Station, University of Manchester, aged 55",
+   "side": "United Kingdom (independent radio astronomy)",
+   "where": "Jodrell Bank control room, Cheshire, England",
+   "lat": 53.2366,
+   "lon": -2.3085,
+   "vantage": 4,
+   "vantage_label": "neutral listener tracking both sides",
+   "form": "control-room audio recordings and press statements",
+   "language": "English",
+   "authenticity": "Not a diary: tapes recorded in the Jodrell Bank control room over three days in July 1969, released by the University of Manchester in 2009, plus Lovell's statements reported by UPI on 21 July 1969. Lovell also wrote about the episode in later books.",
+   "bio": "Jodrell Bank was the one great dish in the West that routinely listened to Soviet probes. While Apollo 11 flew, Lovell's team followed Luna 15, a robot meant to scoop lunar soil and bring it home, and reported to the world what Moscow would not say.",
+   "sources": [
+    {
+     "title": "Jodrell Bank Centre for Astrophysics: Luna 15 and Apollo 11 recordings (2009)",
+     "url": "https://www.jb.man.ac.uk/news/2009/luna15-apollo11/"
+    },
+    {
+     "title": "University of Manchester: Recording of USSR's lunar gatecrash attempt released",
+     "url": "https://www.manchester.ac.uk/about/news/recording-of-ussrs-lunar-gatecrash-attempt-released/"
+    },
+    {
+     "title": "UPI, 21 July 1969: Believe Luna 15 hit moon hard",
+     "url": "https://www.upi.com/Archives/1969/07/21/Believe-Luna-15-hit-moon-hard/6271558398060/"
+    }
+   ]
+  },
+  {
+   "id": "kamanin",
+   "name": "Nikolai Petrovich Kamanin",
+   "short": "Kamanin",
+   "life": "1908–1982",
+   "role": "Lieutenant-General, Soviet Air Force; head of cosmonaut selection and training, aged 60",
+   "side": "Soviet Union",
+   "where": "Moscow and the cosmonaut centre at Star City",
+   "lat": 55.7558,
+   "lon": 37.6173,
+   "vantage": 4,
+   "vantage_label": "the rival programme",
+   "form": "diary",
+   "language": "Russian",
+   "authenticity": "Kept secretly 1960–1971; published in Russia only after the USSR's collapse as Skrytyi kosmos (Hidden Space), four volumes, 1995–2001; summarised in English by Bart Hendrickx in the Journal of the British Interplanetary Society. Entries here come from the English excerpts on PBS American Experience; his July 1969 entries could not be checked for this chapter.",
+   "bio": "A 1930s Arctic rescue hero who had picked Gagarin, Kamanin watched the Soviet lunar effort fall apart from inside: the N1 rocket exploded on its pad on 3 July 1969, and Luna 15 was the last throw. His diary is bitter about leaders, designers and automation, rarely about the Americans.",
+   "sources": [
+    {
+     "title": "PBS American Experience: Space Race Diary (Kamanin excerpts)",
+     "url": "https://www.pbs.org/wgbh/americanexperience/features/space-race-diary"
+    },
+    {
+     "title": "B. Hendrickx, 'The Kamanin Diaries 1969–1971', JBIS 55 (2002)",
+     "url": "https://bis-space.com/shop/product/the-kamanin-diaries-1969-1971/"
+    }
+   ]
+  },
+  {
+   "id": "beaton",
+   "name": "Cecil Beaton",
+   "short": "Cecil Beaton",
+   "life": "1904–1980",
+   "role": "Photographer and Oscar-winning stage and film designer, aged 65",
+   "side": "United Kingdom",
+   "where": "Reddish House, Broad Chalke, Wiltshire",
+   "lat": 51.0277,
+   "lon": -1.9536,
+   "vantage": 4,
+   "vantage_label": "watching on television abroad",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Published in The Parting Years: Diaries 1963–74 (1978; Sapere Books edition 2018). Entry known here through the excerpt posted by Diaries of Note.",
+   "bio": "A connoisseur of beauty and artifice, Beaton sat up with house guests to watch the landing, half thrilled and half dreading a disaster on live television. His is the view of a cultivated outsider for whom the event was both theatre and something beyond theatre.",
+   "sources": [
+    {
+     "title": "Diaries of Note: Cecil Beaton, 21 July 1969",
+     "url": "https://diariesofnote.com/2023/07/21/how-could-such-courage-be/"
+    }
+   ]
+  },
+  {
+   "id": "king",
+   "name": "Cecil Harmsworth King",
+   "short": "Cecil King",
+   "life": "1901–1987",
+   "role": "Former chairman of the International Publishing Corporation (Daily Mirror), aged 68",
+   "side": "United Kingdom",
+   "where": "London",
+   "lat": 51.5072,
+   "lon": -0.1276,
+   "vantage": 4,
+   "vantage_label": "sceptical observer abroad",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Published as The Cecil King Diary 1965–1970 (1972). Entry known here through the excerpt quoted in Prospect magazine.",
+   "bio": "A press baron ousted in 1968, King admired the achievement but doubted its value while America's cities, Vietnam and the arms race went unsolved. He gives the chapter its dissent.",
+   "sources": [
+    {
+     "title": "Prospect: Remembering the lunar landing (diary excerpt)",
+     "url": "https://prospectmagazine.co.uk/culture/53060/remembering-the-lunar-landing"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1968-12-21",
+   "date_display": "Saturday 21 December 1968 (Moscow)",
+   "precision": "day",
+   "eye": "kamanin",
+   "place": "Moscow",
+   "headline": "Kamanin watches Apollo 8 head for the Moon without him",
+   "digest": "As Apollo 8 leaves Earth orbit for the Moon, Kamanin writes that Soviet crews should be flying there instead. He blames the caution that set in after Komarov's death in 1967 and the slow pace of the Soviet programme. Seven months before Apollo 11, the race already feels lost.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "PBS American Experience, Space Race Diary, entry of 21 Dec 1968 (prologue to this chapter)."
+  },
+  {
+   "date_iso": "1969-07-16",
+   "date_display": "Wednesday 16 July 1969, 13:32 UTC (09:32 EDT at the Cape; 16:32 MSK; 23:32 AEST)",
+   "precision": "day",
+   "eye": "cronkite",
+   "place": "CBS booth, Cape Kennedy",
+   "headline": "Cronkite opens a marathon, the VIP crowd chanting his catchphrase",
+   "digest": "CBS went on air at six in the morning and stayed on, with a staff of more than a thousand. At the launch site several hundred VIPs chanted the anchor's own catchphrase as the Saturn V rose. After liftoff, coverage moved to the New York studio, where animated simulations explained an eight-day mission no audience had seen before.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "CBS News retrospective 'Say something, I'm speechless' (2019)."
+  },
+  {
+   "date_iso": "1969-07-16",
+   "date_display": "Wednesday 16 July 1969, 13:32 UTC (08:32 CDT Houston)",
+   "precision": "day",
+   "eye": "armstrong",
+   "place": "Columbia, atop the Saturn V, LC-39A",
+   "headline": "Liftoff: the crew reports the roll program and climbs",
+   "digest": "At 13:32 UTC the five F-1 engines lifted the 2,900-tonne Saturn V off Pad 39A. Armstrong's first reports are routine: the clock started, the roll and pitch program began. The crew were in Earth orbit within 12 minutes and left for the Moon about two and a half hours later.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Apollo Flight Journal, launch transcript (GET 000:00:00 = 13:32:00 UTC, 16 July 1969)."
+  },
+  {
+   "date_iso": "1969-07-17",
+   "date_display": "Thursday 17 July 1969 (BST)",
+   "precision": "range",
+   "eye": "lovell",
+   "place": "Jodrell Bank control room",
+   "headline": "Jodrell Bank listens as Luna 15 reaches the Moon",
+   "digest": "Launched three days ahead of Apollo 11, the Soviet probe Luna 15 went into lunar orbit on 17 July. Jodrell Bank, which had followed Soviet probes for a decade, picked up its signals. Moscow said only that it was a scientific mission; in the control room, Lovell's staff began to suspect it was meant to land, collect soil and fly it home before the Americans.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Luna 15 orbit insertion 17 July per Smithsonian Air & Space (Siddiqi); Jodrell Bank 2009 release on recordings made over three days in mid-July. Exact recording dates not given."
+  },
+  {
+   "date_iso": "1969-07-19",
+   "date_display": "Saturday 19 July 1969, 17:21 UTC (12:21 CDT)",
+   "precision": "day",
+   "eye": "collins",
+   "place": "Columbia, behind the Moon",
+   "headline": "Behind the Moon, the engine burn that puts them in orbit",
+   "digest": "On the far side, out of radio contact, the service module engine fired for about six minutes to slow the docked spacecraft into lunar orbit. Houston could only wait for the ship to reappear on time around the limb. When it did, the crew described the craters below and the earthshine on the dark side.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Apollo Flight Journal, Day 4: lunar orbit insertion burn at about GET 075:49:50."
+  },
+  {
+   "date_iso": "1969-07-20",
+   "date_display": "Saturday 19 – Sunday 20 July 1969",
+   "precision": "range",
+   "eye": "lovell",
+   "place": "Jodrell Bank control room",
+   "headline": "Luna 15 shifts its orbit toward the American landing zone",
+   "digest": "Lovell noted that Luna 15's orbit had changed, bringing it closer to the area where Eagle was to land. He later passed on a rumour from what he called a well-informed source in Moscow that the craft was about to touch down. For the first time two nations' spacecraft were circling the Moon at once, and nobody outside the USSR knew exactly why the Soviet one was there.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Jodrell Bank 2009 news release on the control-room recordings; Smithsonian Air & Space on the erratic altimeter readings that delayed the Soviet landing attempt by about 18 hours."
+  },
+  {
+   "date_iso": "1969-07-20",
+   "date_display": "Sunday 20 July 1969, morning (EDT)",
+   "precision": "day",
+   "eye": "haldeman",
+   "place": "White House, Washington",
+   "headline": "A Sunday service in the East Room, Borman reading Genesis",
+   "digest": "The day begins with a large worship service at the White House, cabinet and Congress present. Frank Borman, who had read Genesis from lunar orbit on Christmas Eve, reads it again. Haldeman spends the afternoon packing for the President's world trip while Nixon works alone in his EOB office, telephoning Haldeman about the evening's broadcast.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Haldeman journal, 20 July 1969 (Nixon Library transcript)."
+  },
+  {
+   "date_iso": "1969-07-20",
+   "date_display": "Sunday 20 July 1969, about 17:44 UTC (12:44 CDT)",
+   "precision": "day",
+   "eye": "collins",
+   "place": "Columbia, lunar orbit",
+   "headline": "Undocking: Collins watches Eagle drift away",
+   "digest": "On the 13th orbit the two craft separated behind the Moon. Collins inspected Eagle as Armstrong turned it around in front of his window, its legs now deployed, then backed off. From here he was alone, with a list of steps to follow if the lander could not reach him.",
+   "quote": "You cats take it easy on the lunar surface.",
+   "confidence": "verified",
+   "source_note": "Apollo Flight Journal, Day 5 undocking (about GET 100:12); CSM-LM separation shortly after. Quote from NASA transcript (public domain)."
+  },
+  {
+   "date_iso": "1969-07-20",
+   "date_display": "Sunday 20 July 1969, about 20:05 UTC (15:05 CDT)",
+   "precision": "day",
+   "eye": "duke",
+   "place": "Mission Control, Houston",
+   "headline": "Duke relays the GO for powered descent",
+   "digest": "Communication with Eagle kept dropping out, so Duke's GO for powered descent had to be relayed through Collins in Columbia. The descent engine lit on the near side at about 20:05 UTC. Mission Control could now only watch telemetry and talk.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ALSJ, 'The First Lunar Landing', PDI at about GET 102:33."
+  },
+  {
+   "date_iso": "1969-07-20",
+   "date_display": "Sunday 20 July 1969, about 20:10 UTC (15:10 CDT)",
+   "precision": "day",
+   "eye": "kranz",
+   "place": "Flight director's console, Houston",
+   "headline": "A 1202 alarm, and twenty seconds to decide",
+   "digest": "Five minutes into the descent Armstrong reported a program alarm, code 1202, and asked what it meant. Guidance officer Steve Bales, prompted by software specialist Jack Garman, judged that the computer was shedding low-priority work and still flying the lander; Kranz's loop carried his 'go'. Further 1202 and 1201 alarms followed, and each time the answer was the same. The cause, found later, was a radar switch setting that flooded the computer with useless jobs.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ALSJ: Peter Adler on the 1201/1202 alarms; first 1202 at about GET 102:38. Kranz's own account in Failure Is Not an Option (2000) flagged as memoir."
+  },
+  {
+   "date_iso": "1969-07-20",
+   "date_display": "Sunday 20 July 1969, 20:05–20:17 UTC",
+   "precision": "day",
+   "eye": "aldrin",
+   "place": "Eagle, descending to the Sea of Tranquillity",
+   "headline": "Aldrin calls the numbers; Armstrong takes it past the boulders",
+   "digest": "With Armstrong flying, Aldrin read out altitude, descent rate and forward speed in a near-continuous stream. Seeing the computer heading for a crater strewn with boulders, Armstrong took semi-manual control and flew on looking for a clear spot. As the probes under the footpads touched, Aldrin called it.",
+   "quote": "Contact light.",
+   "confidence": "verified",
+   "source_note": "ALSJ landing transcript, GET 102:45:40 touchdown. Quote from NASA transcript (public domain)."
+  },
+  {
+   "date_iso": "1969-07-20",
+   "date_display": "Sunday 20 July 1969, 20:17:40 UTC (15:17 CDT; 23:17 MSK; 06:17 AEST Mon 21 July)",
+   "precision": "day",
+   "eye": "armstrong",
+   "place": "Eagle, Tranquility Base",
+   "headline": "Touchdown at Tranquility Base",
+   "digest": "After the engine stopped and the crew ran through their checks, Armstrong announced the landing using the site's new name. They had only seconds of fuel margin left by Houston's count. The crew immediately began preparing to lift off in an emergency, in case the lander had been damaged.",
+   "quote": "Houston, Tranquility Base here. The Eagle has landed.",
+   "confidence": "verified",
+   "source_note": "ALSJ, touchdown at GET 102:45:40 = 20:17:40 UTC. Quote from NASA transcript (public domain)."
+  },
+  {
+   "date_iso": "1969-07-20",
+   "date_display": "Sunday 20 July 1969, 20:18 UTC (15:18 CDT)",
+   "precision": "day",
+   "eye": "duke",
+   "place": "Mission Control, Houston",
+   "headline": "Duke fumbles the reply as Mission Control exhales",
+   "digest": "Duke began to answer, tangled the new name, and recovered. He told the crew they had a room full of people who had been holding their breath. Then the controllers went straight back to work on whether Eagle could stay.",
+   "quote": "You got a bunch of guys about to turn blue.",
+   "confidence": "verified",
+   "source_note": "ALSJ landing transcript, about GET 102:45:58. Quote from NASA transcript (public domain)."
+  },
+  {
+   "date_iso": "1969-07-20",
+   "date_display": "Sunday 20 July 1969, about 20:18 UTC",
+   "precision": "day",
+   "eye": "collins",
+   "place": "Columbia, lunar orbit",
+   "headline": "Collins hears the landing through the relay",
+   "digest": "Collins had listened to the descent over the radio relay, unable to do anything but follow. When Houston told him Eagle was down at Tranquility Base, he answered that he had heard it all, delighted. On later passes Houston kept giving him possible coordinates for the lander, and he kept looking through his sextant without finding it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Apollo Flight Journal, Day 5 landing transcript (wording not rechecked for this chapter); Collins's sextant searches recur through later revolutions."
+  },
+  {
+   "date_iso": "1969-07-20",
+   "date_display": "Sunday 20 July 1969, about 20:17 UTC (16:17 EDT, New York)",
+   "precision": "day",
+   "eye": "cronkite",
+   "place": "CBS studio, New York",
+   "headline": "'Speechless' on the air",
+   "digest": "As the landing call came through, the studio erupted. A colleague saw a tear in Wally Schirra's eye and Cronkite rubbing his hands. Cronkite turned to Schirra and admitted he had nothing to say, asking him to fill the silence.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "CBS News retrospective (2019), quoting correspondent David Schoumacher."
+  },
+  {
+   "date_iso": "1969-07-20",
+   "date_display": "Monday 21 July 1969, just after 06:15 AEST (20:17 UTC Sunday)",
+   "precision": "day",
+   "eye": "reid",
+   "place": "Honeysuckle Creek Tracking Station",
+   "headline": "Over the network, the landing call reaches a station in the dark",
+   "digest": "Reid had stayed at the station overnight. Just after a quarter past six in the morning he heard the landing call over NASA's communications net. The Moon would not rise over the Brindabella Ranges for hours, and the moonwalk was not expected until mid-afternoon Australian time.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Andrew Tink, Australian Geographic (from his book Honeysuckle Creek, 2018)."
+  },
+  {
+   "date_iso": "1969-07-20",
+   "date_display": "Monday 21 July 1969, 06:17 AEST (20:17 UTC Sunday)",
+   "precision": "day",
+   "eye": "parkes",
+   "place": "Parkes Observatory, NSW",
+   "headline": "Eagle lands while the Moon is still below Parkes's horizon",
+   "digest": "At the moment of landing, the Moon was still about seven hours from being high enough for the Parkes dish. The plan called for a rest period before the moonwalk, which would have placed it squarely in Parkes's sky.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sarkissian, On Eagle's Wings (CSIRO), timeline."
+  },
+  {
+   "date_iso": "1969-07-20",
+   "date_display": "Monday 21 July 1969, about 08:00–10:00 AEST (22:00–00:00 UTC)",
+   "precision": "range",
+   "eye": "reid",
+   "place": "Honeysuckle Creek Tracking Station",
+   "headline": "The moonwalk moves up; the Prime Minister visits",
+   "digest": "Soon after 8 a.m. NASA agreed to the crew's request to go out early, with a new estimate of about 11 a.m. for the first step. Just before 9 Prime Minister John Gorton arrived for a tour that lasted almost an hour. Then the staff waited for moonrise.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Tink, Australian Geographic; times as given there (AEST), UTC converted at +10 h."
+  },
+  {
+   "date_iso": "1969-07-21",
+   "date_display": "Monday 21 July 1969, about 12:54 AEST (02:54 UTC)",
+   "precision": "day",
+   "eye": "parkes",
+   "place": "Parkes Observatory, NSW",
+   "headline": "A gale hits the dish as the Moon rises",
+   "digest": "The schedule change meant the Moon rose over Parkes only as the astronauts were climbing out. While the dish was tipped over waiting, gusts of about 110 km/h struck it, slamming it against its gears and shaking the control room. Bolton kept it operating outside its safety limits; Mason drove it. The first pictures came in on a weaker off-axis detector; within minutes the Moon entered the main beam.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sarkissian, On Eagle's Wings; Sky & Telescope gives Moon rising into range at 12:54:00 AEST."
+  },
+  {
+   "date_iso": "1969-07-21",
+   "date_display": "Monday 21 July 1969, 02:56 UTC (Sun 20 July 21:56 CDT; 05:56 MSK; 03:56 BST; 12:56 AEST)",
+   "precision": "day",
+   "eye": "armstrong",
+   "place": "Foot of Eagle's ladder, Tranquility Base",
+   "headline": "The first step",
+   "digest": "Armstrong described the lunar module footpads pressing only an inch or two into the surface and the fine, powdery soil. Then he stepped off the pad. He went on to describe how the dust clung to his boots in thin layers, and how easy it was to move.",
+   "quote": "That's one small step for man, one giant leap for mankind.",
+   "confidence": "verified",
+   "source_note": "ALSJ, first step at about GET 109:24 = 02:56 UTC, 21 July 1969. Quote from NASA transcript (public domain); Armstrong intended 'a man'."
+  },
+  {
+   "date_iso": "1969-07-21",
+   "date_display": "Monday 21 July 1969, 12:56 AEST (02:56 UTC)",
+   "precision": "day",
+   "eye": "reid",
+   "place": "Honeysuckle Creek Tracking Station",
+   "headline": "An upside-down picture, a flipped switch, and a leg on a ladder",
+   "digest": "Goldstone's pictures came in inverted and badly set, so Houston switched to Honeysuckle. Ed von Renouard saw a confusing image, realised the sky must belong at the top, and threw the reversing switch; Armstrong's leg appeared on the ladder. Honeysuckle's was the picture the world saw of the first step, until Parkes's stronger signal took over minutes later. Reid had ordered safety circuit-breakers bypassed so nothing would trip at the critical moment.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Tink, Australian Geographic; Sky & Telescope says Honeysuckle supplied the first 8 min 51 s of TV."
+  },
+  {
+   "date_iso": "1969-07-21",
+   "date_display": "Monday 21 July 1969, from about 03:05 UTC",
+   "precision": "day",
+   "eye": "parkes",
+   "place": "Parkes Observatory, NSW",
+   "headline": "Houston switches to Parkes and stays",
+   "digest": "Less than nine minutes into the broadcast the Moon was in the main beam, and NASA's TV controller chose Parkes's pictures, keeping them for the remaining two and a half hours of the moonwalk. The dish rode out the wind the whole time. Most of the world's surviving images of the moonwalk came through it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sarkissian, On Eagle's Wings; Sky & Telescope. Exact switch minute not given; time derived."
+  },
+  {
+   "date_iso": "1969-07-21",
+   "date_display": "Sunday 20 July 1969, about 10:56 p.m. EDT (02:56 UTC 21 July)",
+   "precision": "day",
+   "eye": "haldeman",
+   "place": "Small office, Executive Office Building, Washington",
+   "headline": "Nixon claps and says 'Hooray' in a side room",
+   "digest": "Because the Oval Office was full of TV equipment, Nixon met Haldeman in a small EOB office around 8:45 p.m. They talked over the Kennedy accident case before Borman came in to explain the lander preparations. The three watched on a small set; when Armstrong reached the surface, the President clapped. Haldeman calls Nixon elated all evening and the day a great one.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Haldeman journal, 20 July 1969; Nixon Library almanac."
+  },
+  {
+   "date_iso": "1969-07-21",
+   "date_display": "Monday 21 July 1969, about 03:15 UTC",
+   "precision": "day",
+   "eye": "aldrin",
+   "place": "Tranquility Base",
+   "headline": "Aldrin steps down and finds the words for it",
+   "digest": "About twenty minutes after Armstrong, Aldrin came down the ladder, carefully, checking he could get back up. Looking around at the grey, sunlit plain under a black sky, he gave a two-word description. Then they set to work: the flag, the experiments, the samples, and the photographs.",
+   "quote": "Magnificent desolation.",
+   "confidence": "approx",
+   "source_note": "ALSJ EVA transcript, about GET 109:43. Quote from NASA transcript (public domain)."
+  },
+  {
+   "date_iso": "1969-07-21",
+   "date_display": "Monday 21 July 1969, about 03:49 UTC (Sun 20 July, 11:49 p.m. EDT)",
+   "precision": "day",
+   "eye": "armstrong",
+   "place": "Tranquility Base",
+   "headline": "The President calls the Moon",
+   "digest": "Houston asked the two men to stand in view of the camera. Nixon, speaking from the Oval Office, called it the most historic telephone call ever made from the White House and spoke of peace on Earth. Armstrong answered that they represented not only the United States but men of peace of all nations. Nixon said he would see them on the Hornet on Thursday.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Public Papers of the Presidents, 'Telephone Conversation With the Apollo 11 Astronauts on the Moon', 20 July 1969, 11:49 p.m."
+  },
+  {
+   "date_iso": "1969-07-21",
+   "date_display": "Monday 21 July 1969 (BST)",
+   "precision": "day",
+   "eye": "beaton",
+   "place": "Reddish House, Wiltshire",
+   "headline": "Up all night with guests in front of the television",
+   "digest": "Beaton and his house guests watched the landing and the walk, thrilled and also afraid that something would go wrong in front of everyone. He calls it a great American triumph and admires how well the astronauts spoke. He is moved that they left mementoes for spacemen who had died, and says it will be hard to take in.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diaries of Note excerpt from The Parting Years (Sapere Books, 2018)."
+  },
+  {
+   "date_iso": "1969-07-21",
+   "date_display": "Monday 21 July 1969, 15:50 UTC (16:50 BST; 18:50 MSK; 11:50 EDT)",
+   "precision": "day",
+   "eye": "lovell",
+   "place": "Jodrell Bank control room",
+   "headline": "Luna 15 comes down 'much too fast'",
+   "digest": "Jodrell Bank detected what looked like a braking burn to bring Luna 15 out of orbit, and Lovell told reporters he thought it was landing. Voices on the control-room tape say it is landing, then that it is going down much too fast. The signal stopped. The probe had hit a mountainside in the Sea of Crises, a few hours before Armstrong and Aldrin lifted off.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Jodrell Bank 2009 release (crash at 15:50 on 21 July); UPI 21 July 1969 (11:50 a.m. EDT)."
+  },
+  {
+   "date_iso": "1969-07-21",
+   "date_display": "Monday 21 July 1969, 17:54 UTC (12:54 CDT)",
+   "precision": "day",
+   "eye": "aldrin",
+   "place": "Eagle ascent stage",
+   "headline": "Liftoff from the Moon",
+   "digest": "After about 21 and a half hours on the surface, the ascent engine — which had no backup — lit on schedule. Aldrin read out the climb as the stage rose off the descent stage, leaving the descent stage, its plaque and the flag behind; in later accounts Aldrin said he saw the exhaust blow the flag over. Houston followed every second through telemetry.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ALSJ/AFJ, lunar liftoff at GET 124:22:00 = 17:54 UTC. Toppled flag from Aldrin's later accounts (memoir), flagged."
+  },
+  {
+   "date_iso": "1969-07-21",
+   "date_display": "Monday 21 July 1969, about 21:35 UTC (16:35 CDT)",
+   "precision": "day",
+   "eye": "collins",
+   "place": "Columbia, lunar orbit",
+   "headline": "Docking: the three are together again",
+   "digest": "Collins tracked Eagle by sextant and VHF ranging, fixing a ranging failure on the way, and the two craft docked at about 21:35 UTC. He had flown the rendezvous calculations for every contingency, including a rescue and a return home alone. In his memoir he says he dreaded that last possibility more than anything.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "AFJ Day 6 rendezvous and docking (about GET 128:03); Spacelog excerpt for the VHF ranging exchange; feelings from Carrying the Fire (1974) — memoir, flagged."
+  },
+  {
+   "date_iso": "1969-07-22",
+   "date_display": "Tuesday 22 July 1969 (BST)",
+   "precision": "day",
+   "eye": "king",
+   "place": "London",
+   "headline": "Admiring, and asking what it is for",
+   "digest": "King records the landing as an immense technical feat and praises the foresight and the astronauts' courage. But he asks what it does for America's cities, race relations, Vietnam, inflation or the arms race. The real crisis, he decides, is moral and spiritual, and for him the Moon is an escape from it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Prospect magazine excerpt from The Cecil King Diary 1965–1970 (1972)."
+  },
+  {
+   "date_iso": "1969-07-24",
+   "date_display": "Thursday 24 July 1969, before dawn local time (splashdown 16:50 UTC)",
+   "precision": "day",
+   "eye": "haldeman",
+   "place": "USS Hornet, Pacific Ocean",
+   "headline": "Watching the capsule come home from the bridge",
+   "digest": "Up at 4 a.m. aboard the USS Arlington, Haldeman's party flew by helicopter in darkness to the Hornet. From the bridge they watched the pickup, through binoculars and then with the naked eye. He writes that the President was exuberant, like a child. Because splashdown was closer than planned, they made a stop at Johnston Island on the way to Guam.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Haldeman journal, 24–25 July 1969; Nixon Library almanac for 24 July."
+  },
+  {
+   "date_iso": "1969-07-24",
+   "date_display": "Thursday 24 July 1969, 16:50 UTC (11:50 CDT)",
+   "precision": "day",
+   "eye": "armstrong",
+   "place": "Pacific Ocean, then USS Hornet",
+   "headline": "Splashdown, and a President at the quarantine window",
+   "digest": "Columbia hit the Pacific south-west of Hawaii, about 195 hours after launch, and turned over before its balloons righted it. Swimmers handed the crew biological isolation garments for fear of lunar germs. Aboard the Hornet the three spoke with Nixon through the window of their quarantine trailer.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "AFJ, splashdown at GET 195:18:35; Public Papers, 'Remarks to Apollo 11 Astronauts Aboard the USS Hornet', 24 July 1969 (via Nixon Library almanac)."
+  },
+  {
+   "date_iso": "1969-12-31",
+   "date_display": "Wednesday 31 December 1969 (Moscow)",
+   "precision": "day",
+   "eye": "kamanin",
+   "place": "Moscow",
+   "headline": "Kamanin's year-end reckoning: Armstrong's Moon",
+   "digest": "Closing the year, Kamanin concedes that the landing belongs to Armstrong and that the Soviet lunar programme has lost. He blames himself as well: he had tried and failed to convince the country's leaders to change course. A few weeks later he notes how fast high-level interest in space has collapsed after the 'debacle'.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "PBS American Experience, Space Race Diary, entries of 31 Dec 1969 and 19 Jan 1970 (English excerpts)."
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1969-07-16",
+   "label": "Launch from Pad 39A",
+   "eyes": [
+    "armstrong",
+    "cronkite"
+   ],
+   "note": "Inside the noise, Armstrong's reports are a checklist; outside, a crowd of VIPs chants a TV anchor's catchphrase. Luna 15 had already been in flight three days."
+  },
+  {
+   "date": "1969-07-20",
+   "label": "The landing, 20:17:40 UTC — with Luna 15 still in orbit",
+   "eyes": [
+    "kranz",
+    "duke",
+    "aldrin",
+    "armstrong",
+    "collins",
+    "cronkite",
+    "reid",
+    "parkes",
+    "lovell"
+   ],
+   "note": "Houston decides on the alarms in seconds; the crew sees boulders Houston cannot; Collins can only listen; Australians hear it at dawn with the Moon below their horizon; Jodrell Bank meanwhile follows a Soviet robot circling the same Moon."
+  },
+  {
+   "date": "1969-07-21",
+   "label": "The first step, 02:56 UTC",
+   "eyes": [
+    "armstrong",
+    "aldrin",
+    "reid",
+    "parkes",
+    "haldeman",
+    "beaton"
+   ],
+   "note": "One moment, four clocks: late evening in Washington, early afternoon in Australia, near 4 a.m. in Wiltshire. The picture itself passed through a flipped switch at Honeysuckle and a wind-shaken dish at Parkes."
+  },
+  {
+   "date": "1969-07-21",
+   "label": "Luna 15 crashes; Eagle lifts off two hours later",
+   "eyes": [
+    "lovell",
+    "aldrin",
+    "collins"
+   ],
+   "note": "The Soviet probe hits the Sea of Crises at 15:50 UTC; Eagle leaves the Sea of Tranquillity at 17:54. Only an English radio observatory was placed to hear both."
+  },
+  {
+   "date": "1969-07-24",
+   "label": "Splashdown",
+   "eyes": [
+    "haldeman",
+    "armstrong"
+   ],
+   "note": "Haldeman sees a President 'like a little kid' on the bridge; the crew sees him through quarantine glass."
+  }
+ ],
+ "ties": [
+  {
+   "a": "armstrong",
+   "b": "aldrin",
+   "kind": "met",
+   "note": "Crewmates in Eagle; Armstrong flew while Aldrin called the numbers, and they walked the surface together."
+  },
+  {
+   "a": "collins",
+   "b": "armstrong",
+   "kind": "met",
+   "note": "Crewmates; Collins relayed messages between Houston and Eagle during the descent and flew the rendezvous that brought them back."
+  },
+  {
+   "a": "duke",
+   "b": "armstrong",
+   "kind": "met",
+   "note": "Duke was the voice of Houston for the landing; their exchange at touchdown is the most quoted in the transcript."
+  },
+  {
+   "a": "kranz",
+   "b": "duke",
+   "kind": "met",
+   "note": "Kranz's decisions on the flight loop reached the crew only through Duke at the CAPCOM console."
+  },
+  {
+   "a": "reid",
+   "b": "parkes",
+   "kind": "same street",
+   "note": "Two Australian dishes 250 km apart competing to carry the picture; Honeysuckle sent the first step, Parkes the rest."
+  },
+  {
+   "a": "haldeman",
+   "b": "armstrong",
+   "kind": "mentioned",
+   "note": "Haldeman watched Armstrong's first step on television beside Nixon; four days later he saw the crew's capsule recovered from the Hornet's bridge."
+  },
+  {
+   "a": "lovell",
+   "b": "kamanin",
+   "kind": "opposite sides",
+   "note": "Lovell's dish listened in on the Soviet lunar probe whose failure ended the hopes Kamanin's diary had been charting."
+  },
+  {
+   "a": "beaton",
+   "b": "king",
+   "kind": "same street",
+   "note": "Two Englishmen writing diaries the same week: one dazzled by the spectacle, one asking what it was for."
+  },
+  {
+   "a": "cronkite",
+   "b": "armstrong",
+   "kind": "mentioned",
+   "note": "Cronkite narrated the flight for most American viewers; his reaction to Armstrong's landing call became its own memory."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "babylon-331",
+   "note": "Astronomers keeping a dated record of the Moon: Babylon's scribes logged the lunar eclipse eleven nights before Gaugamela; in 1969 Jodrell Bank and Parkes radio astronomers logged a robot and two men on its surface."
+  },
+  {
+   "to": "v1:ww2-europe",
+   "note": "The Saturn V came from Wernher von Braun's Marshall team, whose leaders had built the V-2 at Peenemünde, assembled with concentration-camp labour at Mittelwerk. On the other side of the war, Bernard Lovell had spent it developing the airborne H2S radar before founding Jodrell Bank."
+  },
+  {
+   "to": "wall-1989",
+   "note": "The Moon race was a Cold War contest, and its losing side's record stayed secret: Kamanin's diaries, with their account of the N1 failures and Luna 15, could only be published in Russia after the Soviet Union collapsed, from 1995."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.nasa.gov/image-article/apollo-11-mission-officials-inside-launch-control-center/",
+   "title": "Apollo 11 mission officials in the Launch Control Center",
+   "caption": "Launch directors at the Cape watch the Saturn V go on 16 July 1969.",
+   "date": "16 July 1969",
+   "credit": "NASA"
+  },
+  {
+   "url": "https://www.nasa.gov/image-article/apollo-11-mission-officials-relax-after-liftoff",
+   "title": "Mission officials relax after liftoff",
+   "caption": "Launch officials at the Cape after the Saturn V cleared the tower.",
+   "date": "16 July 1969",
+   "credit": "NASA"
+  },
+  {
+   "url": "https://www.nasa.gov/image-article/dr-von-braun-relaxes-after-successful-launch-of-apollo-11/",
+   "title": "Dr. von Braun relaxes after the launch of Apollo 11",
+   "caption": "The designer of the Saturn V, and earlier of the V-2, after the launch.",
+   "date": "16 July 1969",
+   "credit": "NASA/MSFC"
+  },
+  {
+   "url": "https://www.presidency.ucsb.edu/node/239626",
+   "title": "President Nixon speaks to the astronauts on the Moon",
+   "caption": "Nixon in the Oval Office during the call to Tranquility Base, shortly before midnight EDT on 20 July 1969.",
+   "date": "20 July 1969",
+   "credit": "White House photograph, via the American Presidency Project"
+  },
+  {
+   "url": "https://catalog.archives.gov/id/415935991",
+   "title": "Haldeman's handwritten diary, 24 July 1969",
+   "caption": "The page where Haldeman records 'the day the men came back from the moon' aboard the Hornet.",
+   "date": "24 July 1969",
+   "credit": "National Archives / Nixon Presidential Library"
+  }
+ ],
+ "further": [
+  {
+   "title": "Apollo Lunar Surface Journal",
+   "url": "https://apollojournals.org/alsj/main.html"
+  },
+  {
+   "title": "Apollo Flight Journal",
+   "url": "https://apollojournals.org/afj/index.html"
+  },
+  {
+   "title": "John Sarkissian, On Eagle's Wings (Parkes and Apollo 11)",
+   "url": "https://www.parkes.atnf.csiro.au/news_events/apollo11/introduction.html"
+  },
+  {
+   "title": "Nixon Library almanac, 20 July 1969 (Daily Diary and Haldeman links)",
+   "url": "https://nixonlibrary.gov/research/almanac/july-20-1969"
+  },
+  {
+   "title": "PBS American Experience: Kamanin's Space Race Diary",
+   "url": "https://www.pbs.org/wgbh/americanexperience/features/space-race-diary"
+  },
+  {
+   "title": "Jodrell Bank: Luna 15 and Apollo 11 recordings",
+   "url": "https://www.jb.man.ac.uk/news/2009/luna15-apollo11/"
+  },
+  {
+   "title": "Smithsonian Air & Space: Luna 15, Russia's race for the rocks",
+   "url": "https://www.smithsonianmag.com/air-space-magazine/luna-15-russias-race-for-the-rocks-111205268/"
+  }
+ ],
+ "vantage_key": "0 = on the Moon; 1 = in lunar orbit or speaking to the crew from Mission Control; 2 = the tracking stations carrying the signal; 3 = elsewhere in the United States; 4 = abroad, including the Soviet rival and foreign listeners."
+}

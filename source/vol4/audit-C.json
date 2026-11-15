@@ -1,0 +1,344 @@
+[
+ {
+  "chapter": "transits-of-venus",
+  "where": "entry:22",
+  "severity": "error",
+  "problem": "Chappe did not sail from Cadiz in March 1768. Scientific American's account has him anchoring off Veracruz on 6 March 1769 after a 77-day crossing begun in December 1768. Fernie's 'March 8, 1768' appears to be a slip for the Veracruz arrival in March 1769.",
+  "fix": {
+   "date_iso": "1768-12",
+   "precision": "month",
+   "date_display": "December 1768",
+   "source_note": "Scientific American, 'Boats and the Baja Bring Astronomical Excitement' (77-day crossing begun December 1768; anchored off Veracruz 6 March 1769, landed two days later); IMCCE fiche 20c (party members). American Scientist IV prints 8 March 1768, which conflicts with that arrival date."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "eye:chappe",
+  "severity": "error",
+  "problem": "Waypoints repeat the wrong Cadiz date (8 Mar 1768) and an undated Veracruz stop. Corrected from the Scientific American chronology.",
+  "fix": {
+   "waypoints": [
+    {
+     "lat": 48.86,
+     "lon": 2.35,
+     "label": "Paris, Nov 1760"
+    },
+    {
+     "lat": 48.21,
+     "lon": 16.37,
+     "label": "Vienna, 31 Dec 1760"
+    },
+    {
+     "lat": 58.2,
+     "lon": 68.25,
+     "label": "Tobolsk, Apr–Jun 1761"
+    },
+    {
+     "lat": 36.53,
+     "lon": -6.29,
+     "label": "Cadiz, Dec 1768"
+    },
+    {
+     "lat": 19.18,
+     "lon": -96.14,
+     "label": "Veracruz, Mar 1769"
+    },
+    {
+     "lat": 23.06,
+     "lon": -109.7,
+     "label": "San José del Cabo, May–Aug 1769"
+    }
+   ]
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "eye:hell",
+  "severity": "error",
+  "problem": "Hell was born on 15 May 1720 (Hansen & Aspaas 2005), so at the June 1769 transit he was 49, not 48.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 48 in 1769",
+    "new": "aged 49 at the 1769 transit"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "eye:le-gentil",
+  "severity": "style",
+  "problem": "Le Gentil was born on 12 September 1725, so when he sailed in March 1760 he was 34, not 35.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 35 when he sailed",
+    "new": "aged 34 when he sailed"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "eye:lalande",
+  "severity": "style",
+  "problem": "Lalande was born on 11 July 1732, so at the 6 June 1761 transit he was still 28.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 29 in 1761",
+    "new": "aged 28 at the 1761 transit"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "claim:9",
+  "severity": "doubt",
+  "problem": "The value is right: the IMCCE fiche 20c table gives William Smith (1770) 8.6045\". But it is William Smith's reduction, and filing it under Rittenhouse's eye reads as if Rittenhouse computed it. The confidence can be raised to verified. date_display should note that it was printed in Trans. APS in 1771.",
+  "fix": {
+   "claim": "Published by William Smith from the Norriton and other Pennsylvania observations: solar parallax 8.6045\" (Rittenhouse's Norriton timings among the data)",
+   "confidence": "verified",
+   "evidence": "IMCCE fiche 20c parallax table (Smith 1770, 8.6045\"); Trans. American Philosophical Society 1 (1771)",
+   "date_display": "1770 (printed in Trans. APS, 1771)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "claim:5",
+  "severity": "doubt",
+  "problem": "IMCCE fiche 20b, the 1761 fiche, gives a spread of 8.5\" to 10.5\". The cited fiche 20c does not give the 8.3\"–10.6\" range. That range (8.28\"–10.60\") is common in the secondary literature, but its source should be cited correctly.",
+  "fix": {
+   "claim": "Russian 1761 results published; 1761 reductions overall gave solar parallaxes from about 8.3\" to 10.6\" (IMCCE gives 8.5\" to 10.5\")",
+   "evidence": "Brevis expositio (1762); IMCCE fiche 20b (1761 spread)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "claim:2",
+  "severity": "style",
+  "problem": "No notebook of Lomonosov's 1761 observation is cited. The observation is known from his printed pamphlet, so 'notebook' overstates the form.",
+  "fix": {
+   "form": "other"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "claim:3",
+  "severity": "doubt",
+  "problem": "The 'for' side of the debate is cited to arXiv 1206.3489. That is a translation with commentary and does not argue the telescope question; its commentary leaves comparisons for later work. The case for came from reconstruction observations with antique refractors at the 2012 transit (Koukarine, Nesterenko, Petrunin and Shiltsev). Other 1761 observers also reported a luminous ring, so 'first printed' is best given as the usual claim, not as the book's verdict.",
+  "fix": {
+   "claim": "Printed claim, usually cited as the first, that Venus has an atmosphere (Russian; German version August 1761). Contested: Pasachoff and Sheehan (2012) argue his telescope could not show the effect; Shiltsev and colleagues, reconstructing the observation with antique refractors at the 2012 transit, argue it could",
+   "evidence": "arXiv 1206.3489 (translation); Pasachoff & Sheehan, JAHH 15 (2012); Koukarine, Nesterenko, Petrunin & Shiltsev, 2012 reconstruction"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "entry:19",
+  "severity": "style",
+  "problem": "date_display gives only the Old Style date and leads with the submission. The calendar note says Russian entries should show the Gregorian date, with the O.S. date in date_display.",
+  "fix": {
+   "date_display": "28 July 1761 (17 July O.S.; submitted 4 July O.S.)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "entry:42",
+  "severity": "error",
+  "problem": "Evans encloses only the Cape Henlopen observations (Biddle and Bayley). He describes the Norriton and State House observations but does not send them, and says Franklin will probably receive the full reports from the observers themselves.",
+  "fix": {
+   "digest": "A week later Cadwalader Evans sends Franklin the Cape Henlopen observations, describes how the Norriton and State House parties signalled and recorded their contacts, and complains that the newspapers listed William Smith before Rittenhouse, the far better mathematician. The colonial transit is already a fight over credit."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "entry:45",
+  "severity": "error",
+  "problem": "Franklin says the observations he passed to Maskelyne were 'the only ones I have received from our Society'. The others went to Thomas Penn, who sent them on to Maskelyne. So he did not pass on 'the Pennsylvania observations' as a whole.",
+  "fix": {
+   "digest": "Franklin tells Evans he has passed the observations he received from the American Philosophical Society straight to Maskelyne, who will compare them with all the others and report to the Royal Society. The other Pennsylvania reports had gone to Thomas Penn instead, a sign of the colony's politics running through its science."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "tie:6",
+  "severity": "doubt",
+  "problem": "The Founders Online notes show that Franklin passed on only the APS observations he received. The Proprietary party's reports, which probably included Smith's Norriton account, went to Thomas Penn. IMCCE says Smith sent the Norriton account to the Royal Society through Maskelyne.",
+  "fix": {
+   "note": "Franklin handled part of the Pennsylvania results, the observations he received from the American Philosophical Society, and passed them to Maskelyne in September 1769; the Norriton account reached Maskelyne by another route, through Thomas Penn and William Smith."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "entry:34",
+  "severity": "doubt",
+  "problem": "Evans's letter confirms the order (Rittenhouse first, Lukens next, Smith 'sometime after') and that Smith 'set down for himself'. The origin of the fainting story in Barton's 1813 memoir could not be confirmed here. Wikipedia notes that Rittenhouse's own published account does not mention it.",
+  "fix": {
+   "digest": "At the farm observatory Rittenhouse sees the contact first, then John Lukens, then William Smith, who records his own time. A story told later, usually traced to his nephew William Barton's memoir (1813), says he fainted with the excitement; neither the contemporary letter nor the published account mentions it."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "entry:33",
+  "severity": "style",
+  "problem": "Real de Santa Ana lies about 90 km north of San José del Cabo by the chapter's own coordinates (23.8N 110.1W against 23.06N 109.7W), not 'a few dozen kilometres'.",
+  "fix": {
+   "digest": "Velázquez has climbed a hill near Santa Ana, because the town has no clear horizon. He records the first contact at 11h 55m 45s and the exit at 5h 53m 36s local time, an independent measurement roughly ninety kilometres north of Chappe's station."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "threads_out:2",
+  "severity": "style",
+  "problem": "Verified, with a nuance. Humboldt's Political Essay on New Spain (English edition 1811) discusses Velázquez's longitudes and latitudes at length and calls him 'the celebrated Mexican geometrician'. It recalculates his triangulation from manuscripts Humboldt held, and describes his 1769 observatory at Santa Ana. But Humboldt says he did not know Velázquez's work when he began his own observations, so 'worked with' should be softened.",
+  "fix": {
+   "text_replace": {
+    "old": "Humboldt, surveying New Spain in 1803–04, worked with the astronomical positions left by Velázquez de León and his colleagues",
+    "new": "Humboldt, surveying New Spain in 1803–04, later weighed and recalculated the positions and triangulations left by Velázquez de León, whom his Political Essay calls the celebrated Mexican geometer, and retold his 1769 observation at Santa Ana"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "calendar_note:0",
+  "severity": "doubt",
+  "problem": "It is not certain that Cook's Tahiti journal used the nautical (noon-to-noon) day. The entry headed 'Saturday 3rd' describes the whole civil day ('not a Clowd was to be seen the Whole day'). The safe claim is only that the heading matches the civil date.",
+  "fix": {
+   "text_replace": {
+    "old": "Cook's journal uses the nautical day, but its transit date matches the civil one.",
+    "new": "Ship's journals of the period often ran on the nautical day (noon to noon); Cook's transit entry, headed Saturday 3rd, matches the civil date."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "eye:cook",
+  "severity": "doubt",
+  "problem": "Same issue as the calendar note: the claim that the journal uses the nautical day is stated flatly but not verified.",
+  "fix": {
+   "text_replace": {
+    "old": "Uses the nautical day; the transit date matches the civil date here.",
+    "new": "The transit entry, headed Saturday 3rd, matches the civil date."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "eye:mason",
+  "severity": "doubt",
+  "problem": "No source cited in the chapter supports 'Mason's voyage journal is held at Pennsylvania State University', and it could not be verified. Mason's known journal is that of the Mason–Dixon line survey (1763–68).",
+  "fix": {
+   "text_replace": {
+    "old": " Mason's voyage journal is held at Pennsylvania State University.",
+    "new": ""
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "tie:2",
+  "severity": "doubt",
+  "problem": "Standard accounts say that after the Cape, Mason went on to St Helena to work with Maskelyne, while Dixon went back to the Cape with the clock. 'Mason and Dixon went on to St Helena' conflates the two.",
+  "fix": {
+   "note": "After the Cape, Mason went on to St Helena to join Maskelyne's work (Dixon returned to the Cape with the clock) before both observers came home in 1762; Maskelyne himself sailed in February 1762."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "entry:9",
+  "severity": "doubt",
+  "problem": "Rodrigues local history says the British ship Plassey, flying Dutch colours, attacked the French ships, burned the only ship in the harbour and destroyed the battery. 'Taken' may be wrong. No exact date was found, so approx is right.",
+  "fix": {
+   "digest": "Soon after the transit, a British warship attacks Rodrigues and destroys the French shipping and battery, leaving Pingré without a passage. His journal gives about a hundred pages to the raid and to his months as a stranded civilian, before he gets back to Isle de France."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "entry:21",
+  "severity": "style",
+  "problem": "Le Gentil never reached Pondicherry in 1761: his ship turned back at sea. In 1768 he arrives there, rather than 'returns'.",
+  "fix": {
+   "digest": "After mapping Madagascar's east coast and an unwelcoming stay at Spanish Manila, Le Gentil reaches Pondicherry, now French again under the 1763 peace. He builds a small observatory and has over a year to wait."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "entry:2",
+  "severity": "style",
+  "problem": "The Royal Society catalogue dates the letter at Portsmouth, but the Seahorse was forced back to Plymouth. The place field should not suggest the ship was at Portsmouth.",
+  "fix": {
+   "place": "Portsmouth (letter dated there); the Seahorse forced back to Plymouth"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "tie:1",
+  "severity": "style",
+  "problem": "It was the 2012 commentary on the pamphlet (Shiltsev et al.), not Lomonosov, that counted eight observers in Russia, Chappe among them.",
+  "fix": {
+   "note": "Both observed 1761 under the St Petersburg Academy's umbrella: Chappe at Tobolsk by imperial invitation, Lomonosov at home. The modern commentary on Lomonosov's pamphlet (Shiltsev et al., 2012) counts Chappe among the eight observers in Russia."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "image:2",
+  "severity": "doubt",
+  "problem": "No authentic portrait of Charles Mason or Jeremiah Dixon is known. A Granger Collection 'engraving of Mason and Dixon' is almost certainly a later imagined depiction, and the caption presents it as a likeness.",
+  "fix": {
+   "caption": "A later imagined engraving of Charles Mason and Jeremiah Dixon (no authentic portrait of either is known); they observed at the Cape in 1761 and later surveyed the Mason–Dixon line."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "image:1",
+  "severity": "doubt",
+  "problem": "IMCCE lists this only as 'Chappe at Tobolsk (paintwork)' from Rue des Archives, with no date or artist. The '18th century' date and the 'observing' description are unverified.",
+  "fix": {
+   "caption": "Picture of Chappe at Tobolsk, catalogued by IMCCE as a painting (Rue des Archives); its artist and date are not given.",
+   "date": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "image:6",
+  "severity": "doubt",
+  "problem": "IMCCE lists this only as 'Chappe's burial (engraving)' from RMN. That it comes from the 1772 Voyage en Californie is unverified.",
+  "fix": {
+   "caption": "Engraving of Chappe's burial at San José del Cabo in August 1769 (RMN collection, via IMCCE); its source volume is not stated.",
+   "date": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "transits-of-venus",
+  "where": "image:5",
+  "severity": "style",
+  "problem": "IMCCE describes the image as an engraving showing a portrait of Rittenhouse together with his Norriton observatory. Norriton was one of three APS stations (State House, Norriton, Cape Henlopen), not 'the main' one.",
+  "fix": {
+   "caption": "Engraving pairing a portrait of David Rittenhouse with his farm observatory at Norriton, one of the American Philosophical Society's three stations for the 1769 transit."
+  },
+  "confidence": "approx"
+ }
+]

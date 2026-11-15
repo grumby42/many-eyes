@@ -1,0 +1,517 @@
+[
+ {
+  "chapter": "yalta",
+  "where": "claim:10",
+  "severity": "error",
+  "problem": "Evidence cites the Avalon transcription, but Avalon's text of the Protocol of Proceedings prints the figure as '22 billion dollars'; the signed Protocol on German Reparation (FRUS doc. 502) and the GHDI text read '20 billion dollars and that 50% of it' to the USSR, taken 'as a basis for discussion' by the Moscow commission. The ledger's $20 billion / 50% is correct per FRUS but its cited evidence does not say so.",
+  "fix": {
+   "evidence": "Protocol on German Reparation, signed 11 Feb 1945, FRUS Malta and Yalta doc. 502 ('20 billion dollars', 50% to the USSR, a basis for discussion; British delegation against naming any figure). Avalon's online transcription of the Protocol of Proceedings prints '22 billion'.",
+   "claim": "Soviet proposal of a $20 billion total (50% to USSR) referred to the Moscow commission as a basis for discussion; British delegation opposes naming any figure"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:41",
+  "severity": "error",
+  "problem": "Source note cites Avalon for 'twenty billion', but Avalon's transcription prints '22 billion'; the signed reparation protocol (FRUS doc. 502) gives 20 billion and 50 per cent as the Soviet suggestion both Soviet and American delegations agreed to take as a basis for discussion. Maisky's complaint (per Preston) came at the foreign ministers' meeting on 10 Feb, not at the 4 p.m. plenary; it is secondhand.",
+  "fix": {
+   "date_display": "Saturday 10 February 1945",
+   "digest": "The Soviet side pressed for a total reparations figure. The protocol signed next day recorded that the Soviet and American delegations agreed that the Moscow commission should take as a basis for discussion the Soviet suggestion of twenty billion dollars, half of it to the Soviet Union, while the British delegation held that no figure should be named until the commission had studied the question. According to Diana Preston's later account, Maisky complained at the foreign ministers' meeting that the British wanted to take as little as possible from Germany.",
+   "source_note": "Protocol on German Reparation, 11 Feb 1945, FRUS doc. 502 (Avalon's online transcription of the Protocol of Proceedings prints '22 billion'). Maisky's complaint is secondhand, as reported in Preston, Eight Days at Yalta (2019), last-days excerpt (Lit Hub)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:15",
+  "severity": "error",
+  "problem": "The quote is verbatim but cut so that it reverses Roosevelt's meaning: the minutes say he 'did not believe that American troops would stay in Europe much more than two years'.",
+  "fix": {
+   "quote": "he did not believe that American troops would stay in Europe"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:9",
+  "severity": "error",
+  "problem": "Molotov was also present and spoke at the 4 Feb Roosevelt–Stalin meeting (FRUS doc. 328), so it was not Roosevelt and Stalin 'alone with the two interpreters'.",
+  "fix": {
+   "text_replace": {
+    "old": "Before the first plenary Roosevelt saw Stalin alone with the two interpreters.",
+    "new": "Before the first plenary Roosevelt saw Stalin, with Molotov and the two interpreters present."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:30",
+  "severity": "style",
+  "problem": "FRUS doc. 403 has Stalin calling Churchill 'the bravest governmental figure in the world', not 'statesman'.",
+  "fix": {
+   "text_replace": {
+    "old": "the bravest statesman in the world",
+    "new": "the bravest governmental figure in the world"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:8",
+  "severity": "error",
+  "problem": "Preston (Lit Hub day one) gives Sarah's description as 'a Scottish baronial hall inside and a Swiss Chalet plus Mosque outside'; the digest wrongly mixes Swiss-chalet into the rooms and calls the exterior Moorish. Secondhand via Preston.",
+  "fix": {
+   "digest": "Arriving at the Vorontsov Palace, built by a nineteenth-century governor who had been educated in England, Sarah found it Scottish-baronial inside and, from outside, a cross between a Swiss chalet and a mosque. (Known secondhand, from the passage printed in Preston, 2019.)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:13",
+  "severity": "doubt",
+  "problem": "Entry rests solely on Diana Preston's 2019 book (Lit Hub excerpts), not on the original letter or diary, yet is marked verified and not flagged as secondhand.",
+  "fix": {
+   "confidence": "approx",
+   "source_note": "Anna Boettiger to John Boettiger, 5 Feb 1945 (Anna Roosevelt Halsted Papers, FDR Library). Secondhand: known from the passage printed in Preston, Eight Days at Yalta (2019), day two excerpt (Lit Hub); original not seen."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:17",
+  "severity": "doubt",
+  "problem": "Entry rests solely on Diana Preston's 2019 book (Lit Hub excerpts), not on the original letter or diary, yet is marked verified and not flagged as secondhand.",
+  "fix": {
+   "confidence": "approx",
+   "source_note": "Secondhand: Preston (2019), day two excerpt (Lit Hub), which gives Churchill's words to his daughter at the Vorontsov Palace on the evening of 5 Feb; Sarah's original letter not seen."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:18",
+  "severity": "doubt",
+  "problem": "Entry rests solely on Diana Preston's 2019 book (Lit Hub excerpts), not on the original letter or diary, yet is marked verified and not flagged as secondhand.",
+  "fix": {
+   "confidence": "approx",
+   "source_note": "Secondhand: Sarah Churchill letter as printed in Preston (2019), day three excerpt (Lit Hub); original not seen."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:29",
+  "severity": "doubt",
+  "problem": "Entry rests solely on Diana Preston's 2019 book (Lit Hub excerpts), not on the original letter or diary, yet is marked verified and not flagged as secondhand.",
+  "fix": {
+   "confidence": "approx",
+   "source_note": "Secondhand: Sarah Churchill letter as printed in Preston (2019), days five and six excerpt (Lit Hub); the day (8 Feb) is inferred from the excerpt's arrangement; original not seen."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:45",
+  "severity": "doubt",
+  "problem": "Entry rests solely on Diana Preston's 2019 book (Lit Hub excerpts), not on the original letter or diary, yet is marked verified and not flagged as secondhand.",
+  "fix": {
+   "confidence": "approx",
+   "source_note": "Secondhand: Sarah Churchill letter as printed in Preston (2019), last-days excerpt (Lit Hub); Churchill left for Sevastopol at about 5:30 p.m. Original not seen."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:26",
+  "severity": "style",
+  "problem": "Preston/Lit Hub-derived entry should be explicitly flagged as secondhand.",
+  "fix": {
+   "source_note": "Secondhand: Reported in Preston (2019), day four excerpt (Lit Hub), without naming Maisky's source; the underlying diary entry was not checked."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:39",
+  "severity": "style",
+  "problem": "Preston/Lit Hub-derived entry should be explicitly flagged as secondhand.",
+  "fix": {
+   "source_note": "Secondhand: Moran (1966), entry for this day, as given in Preston (2019), days five and six excerpt. Text revised for publication."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:40",
+  "severity": "style",
+  "problem": "Preston/Lit Hub-derived entry should be explicitly flagged as secondhand.",
+  "fix": {
+   "source_note": "Secondhand: Anna Roosevelt Halsted Papers, FDR Library, Yalta diary, as given in Preston (2019), days five and six excerpt. Day approx."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:46",
+  "severity": "style",
+  "problem": "Preston/Lit Hub-derived entry should be explicitly flagged as secondhand.",
+  "fix": {
+   "source_note": "Secondhand: Preston (2019), last-days excerpt (Leahy's account of the departure); Anna's diary as printed in Katz (2020). Time of departure approx."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:12",
+  "severity": "style",
+  "problem": "The Eden diary line comes only via Preston (Lit Hub day one), which records it at midnight on 4 Feb; flag as secondhand.",
+  "fix": {
+   "text_replace": {
+    "old": "Eden diary for 4 Feb quoted in Preston (2019), day one excerpt.",
+    "new": "Eden diary for 4 Feb known secondhand from Preston (2019), day one excerpt (Lit Hub)."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:6",
+  "severity": "style",
+  "problem": "Asserting that this particular entry was 'later sharpened' is a verdict the sources cited do not establish for this entry; what is documented is that the book as a whole was reworked.",
+  "fix": {
+   "text_replace": {
+    "old": "The published entry is among those later sharpened: Moran was not Roosevelt's doctor and never examined him.",
+    "new": "Like the rest of the book (published 1966), the entry was reworked before publication; Moran was not Roosevelt's doctor and never examined him."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:25",
+  "severity": "style",
+  "problem": "Health should be stated only as the published record gives it; 'could not follow the talk' goes beyond the commonly cited wording of Moran's 7 Feb entry (a very sick man with only months to live).",
+  "fix": {
+   "text_replace": {
+    "old": "that Roosevelt was a very sick man who could not follow the talk, and that he had only months to live",
+    "new": "that Roosevelt was a very sick man with only a few months to live"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:43",
+  "severity": "style",
+  "problem": "The Far East agreement's terms should be stated as the Agreement Regarding Japan gives them (Avalon): Soviet entry two or three months after Germany's surrender; status quo in Outer Mongolia; southern Sakhalin returned; Dairen internationalised; lease of Port Arthur restored; Chinese Eastern and South Manchurian railways under a joint Soviet–Chinese company; Kuril Islands handed over; Chiang Kai-shek's concurrence required on Mongolia, ports and railways.",
+  "fix": {
+   "text_replace": {
+    "old": "signed the short agreement that the Soviet Union would enter the war against Japan two or three months after Germany's surrender.",
+    "new": "signed the short secret agreement that the Soviet Union would enter the war against Japan two or three months after Germany's surrender, in return for southern Sakhalin, the Kuril Islands, an internationalised Dairen, a restored lease of Port Arthur, joint Soviet–Chinese operation of the Manchurian railways and the status quo in Outer Mongolia; the clauses on Mongolia, the ports and the railways required Chiang Kai-shek's concurrence, which had not been sought."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "yalta",
+  "where": "claim:12",
+  "severity": "style",
+  "problem": "Ledger line omits the territorial and treaty terms of the Agreement Regarding Japan.",
+  "fix": {
+   "claim": "Signs the secret agreement: Soviet entry against Japan two or three months after Germany's surrender, for southern Sakhalin, the Kurils, Dairen internationalised, Port Arthur lease, joint Manchurian railways (Chinese concurrence required)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "yalta",
+  "where": "claim:14",
+  "severity": "style",
+  "problem": "Verified against Hansard (HC Deb 28 Feb 1945, Division No. 9, 5.55 p.m., Ayes 25, Noes 396, on the question that the Petherick amendment's words be added). Eye 'churchill' is acceptable as mover of the main motion; no change needed beyond noting the check.",
+  "fix": {
+   "evidence": "Hansard, HC Deb 28 Feb 1945, vol. 408, cc. 1416–519, Division No. 9, 5.55 p.m. (question 'That those words be there added': Ayes 25, Noes 396)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "yalta",
+  "where": "eye:maisky",
+  "severity": "error",
+  "problem": "Maisky was born in January 1884 and was therefore 61, not 60, in February 1945.",
+  "fix": {
+   "text_replace": {
+    "old": "Deputy People's Commissar for Foreign Affairs, aged 60",
+    "new": "Deputy People's Commissar for Foreign Affairs, aged 61"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "yalta",
+  "where": "entry:34",
+  "severity": "doubt",
+  "problem": "The 'within a month' answer on Polish elections is often attributed to Stalin in the Bohlen minutes of the 8 Feb plenary, not to Molotov; not checked here against FRUS. Keep as Byrnes's later account and note the possible discrepancy.",
+  "fix": {
+   "text_replace": {
+    "old": "Byrnes attributes the answer to Molotov.",
+    "new": "Byrnes attributes the answer to Molotov; other accounts give it to Stalin, and the FRUS minutes were not checked for this entry."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "yalta",
+  "where": "tie:9",
+  "severity": "style",
+  "problem": "'Influenced' is not supported; the two met at Yalta and Byrnes succeeded Stettinius.",
+  "fix": {
+   "kind": "met"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "yalta",
+  "where": "convergence:0",
+  "severity": "style",
+  "problem": "Sarah, Cadogan and Moran have no entries dated 2 Feb (Cadogan's is 1 Feb, Moran's 30 Jan); the convergence should list only eyes with entries on or about the day.",
+  "fix": {
+   "eyes": [
+    "roosevelt",
+    "anna",
+    "cadogan"
+   ]
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "yalta",
+  "where": "eye:moran",
+  "severity": "style",
+  "problem": "Make the form flag explicit that the diary text was published in 1966 and revised, not a contemporaneous diary.",
+  "fix": {
+   "form": "diary notes, reworked and published as a book in 1966 (later recollection mixed in)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bandung",
+  "where": "entry:10",
+  "severity": "error",
+  "problem": "Sukarno's speech text was first published in 1955 (Asia-Africa Speak from Bandung); under the volume's rules post-1928 non-government material may not be quoted unless world-famous.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bandung",
+  "where": "entry:18",
+  "severity": "error",
+  "problem": "The 'seek common ground' line is an English translation (Peking, 1955) of Zhou's Chinese; quotes from translations of non-English texts must go. The digest already carries the idea.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bandung",
+  "where": "entry:15",
+  "severity": "error",
+  "problem": "Kotelawala's opening address is dated 18 April 1955 by CVCE (Ceylon spoke third in the alphabetical order), and the British embassy summary gives his warning as the world standing 'on the brink of world abyss', not the conference on the edge of failure.",
+  "fix": {
+   "date_iso": "1955-04-18",
+   "date_display": "Monday 18 April 1955",
+   "headline": "Ceylon's opening: a world on the brink",
+   "digest": "Kotelawala's opening statement warned that the world stood on the brink of an abyss and that arguments of force should give way to spiritual power, and argued that Asian and African nations could act as mediators between the communist and anti-communist worlds. He asked for wider UN membership, more Asian and African weight on the Security Council and urgent help against poverty. The speech gave no hint of the attack on Soviet policy he would make later in the week.",
+   "source_note": "British Embassy Djakarta telegram, 26 Apr 1955, via CVCE; CVCE dates the opening address to 18 April 1955."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bandung",
+  "where": "eye:kotelawala",
+  "severity": "error",
+  "problem": "Kotelawala was born on 4 April 1897 and was 58, not 57, in April 1955.",
+  "fix": {
+   "text_replace": {
+    "old": "Prime Minister of Ceylon, aged 57",
+    "new": "Prime Minister of Ceylon, aged 58"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bandung",
+  "where": "entry:16",
+  "severity": "style",
+  "problem": "Headline 'Japan apologises' overstates: the apology in the speech was for Hatoyama's absence; on the war Takasaki said Japan had inflicted great damage on its neighbours (British embassy summary).",
+  "fix": {
+   "headline": "Japan admits wartime damage and talks trade"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bandung",
+  "where": "entry:9",
+  "severity": "doubt",
+  "problem": "The archived summary of the Zhou–Nehru–U Nu talk (dated 16 April) itself places the meeting at 'Premier Zhou's Villa, Bandung', 12–1 p.m.; since Zhou's plane was held at Singapore on 16 April and Zhang's cable has the Chinese reaching Bandung on the 17th, 17 April is the more probable date, but the conflict is unresolved.",
+  "fix": {
+   "text_replace": {
+    "old": "(Wilson Center; dated 16 Apr in the archive, which conflicts with the Singapore diversion that day).",
+    "new": "(Wilson Center; dated 16 Apr in the archive, but the text places the talk at Premier Zhou's villa in Bandung, 12–1 p.m., which fits 17 April better than 16 April, when Zhou's plane was held at Singapore)."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "bandung",
+  "where": "entry:4",
+  "severity": "style",
+  "problem": "Add the crash location given by the inquiry accounts (off the Natuna Islands) and attribute the bomb finding; positions on responsibility are correctly left open.",
+  "fix": {
+   "text_replace": {
+    "old": "caught fire after an explosion and came down in the sea;",
+    "new": "caught fire after an explosion and came down in the sea off the Natuna Islands;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bandung",
+  "where": "entry:4",
+  "severity": "style",
+  "problem": "First PRC statement is dated 12 April in available accounts, calling the crash 'a murder by the special service organizations of the United States and Chiang Kai-shek'; Hong Kong police's suspect, Chow Tse-ming, was a cleaner for Hong Kong Aircraft Engineering Co. who had flown to Taiwan. The source note's open question can be closed on the date.",
+  "fix": {
+   "text_replace": {
+    "old": "The date of the first PRC statement (generally given as 12 April) was not checked against the text.",
+    "new": "The PRC Foreign Ministry statement is dated 12 April 1955 in these accounts."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "bandung",
+  "where": "entry:7",
+  "severity": "style",
+  "problem": "Payne's account is a 1987 oral history; make the lateness explicit in the digest.",
+  "fix": {
+   "text_replace": {
+    "old": "On the way out Payne first saw",
+    "new": "Recalling the trip in 1987, Payne said she first saw"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bandung",
+  "where": "entry:11",
+  "severity": "style",
+  "problem": "Payne's account is a 1987 oral history; make the lateness explicit in the digest.",
+  "fix": {
+   "text_replace": {
+    "old": "Payne remembered Sukarno",
+    "new": "Payne, interviewed in 1987, remembered Sukarno"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bandung",
+  "where": "entry:23",
+  "severity": "doubt",
+  "problem": "The eye's authenticity note says the Kotelawala–Nehru exchange 'survives only in later retellings', while the digest attributes it to his 1956 memoir; and FRUS doc. 51 n. 3 places the speech in the Political Committee and refers only to Eastern European nations (not Central Asia).",
+  "fix": {
+   "text_replace": {
+    "old": "In the closed committee on colonialism Kotelawala asked why the Soviet-controlled states of Eastern Europe and Central Asia should not be counted",
+    "new": "In the closed Political Committee Kotelawala asked why the Soviet-controlled states of Eastern Europe should not be counted"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "bandung",
+  "where": "claim:13",
+  "severity": "style",
+  "problem": "For evenhandedness the ledger should note that the ten principles paired the right of collective self-defence with abstention from collective-defence arrangements serving the particular interests of any of the big powers.",
+  "fix": {
+   "claim": "Declaration on the Promotion of World Peace and Cooperation (ten principles) adopted, pairing the right of individual or collective self-defence under the UN Charter with abstention from collective-defence arrangements serving any big power's particular interests"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bandung",
+  "where": "intro:0",
+  "severity": "doubt",
+  "problem": "'Roughly half the delegations came from governments allied to the United States' overstates formal alliance: only a minority (e.g. Pakistan, Philippines, Thailand, Turkey, Iraq, Japan) had treaty ties; others were Western-leaning without alliances.",
+  "fix": {
+   "text_replace": {
+    "old": "Roughly half the delegations came from governments allied to the United States,",
+    "new": "Roughly half the delegations came from governments aligned with the West, several of them bound by treaty to the United States or Britain,"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "bandung",
+  "where": "tie:3",
+  "severity": "doubt",
+  "problem": "No source shown that Romulo 'drew on' Kotelawala's charge; FRUS doc. 216 does show both at the 23 April luncheon, where Kotelawala put the Taiwan question and Romulo relayed the answer to the US ambassador.",
+  "fix": {
+   "kind": "met",
+   "note": "Both sat at the informal luncheon with Zhou on 23 April; Kotelawala asked how tension over Taiwan might be eased, and Romulo relayed Zhou's answer to Ambassador Cumming that evening."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bandung",
+  "where": "threads_out:4",
+  "severity": "doubt",
+  "problem": "'The Kashmir dispute surfaced indirectly in the debates' rests on nothing cited in the chapter; the Nehru–Mohammad Ali link is real and documented in Nehru's note.",
+  "fix": {
+   "text_replace": {
+    "old": ", and the Kashmir dispute surfaced indirectly in the debates, eight years after partition.",
+    "new": ", eight years after partition."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "bandung",
+  "where": "image:4",
+  "severity": "doubt",
+  "problem": "The URL is a Wilson Center topic page, not an image record; the caption's claim that it shows a delegates' group photograph was not verifiable.",
+  "fix": {
+   "caption": "The Wilson Center Digital Archive's Bandung Conference collection page, which holds the Chinese delegation's cables used in this chapter; any photograph displayed there is the collection's illustration, not separately catalogued.",
+   "title": "Wilson Center Bandung Conference collection"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "bandung",
+  "where": "entry:3",
+  "severity": "style",
+  "problem": "FRUS doc. 40 says Dulles and Wisner agreed 'it was bad that Powell was going'; the digest's 'not helpful' is a softened paraphrase.",
+  "fix": {
+   "text_replace": {
+    "old": "both men agreed that Congressman Adam Clayton Powell's planned trip was not helpful",
+    "new": "both men agreed it was bad that Congressman Adam Clayton Powell was going"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bandung",
+  "where": "entry:46",
+  "severity": "style",
+  "problem": "FRUS doc. 51 records Malik calling Kotelawala's speech a 'bombshell' and saying Kotelawala appeared subdued the next day; the digest is accurate in substance. Minor wording alignment.",
+  "fix": {
+   "text_replace": {
+    "old": "Kotelawala's speech had been a great shock, he said,",
+    "new": "Kotelawala's speech had been a bombshell, he said,"
+   }
+  },
+  "confidence": "verified"
+ }
+]

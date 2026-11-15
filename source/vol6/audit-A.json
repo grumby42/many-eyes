@@ -1,0 +1,338 @@
+[
+ {
+  "chapter": "philadelphia-1787",
+  "where": "entry:44",
+  "severity": "error",
+  "problem": "Quote does not match Founders Online (diary, 17 Sept 1787): the text reads 'wk.' with a full stop.",
+  "fix": {
+   "quote": "retired to meditate on the momentous wk. which had been executed"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1787",
+  "where": "entry:24",
+  "severity": "error",
+  "problem": "Washington's letter (Founders Online, 10 July 1787) spells it 'dispair'; and he does not ask Hamilton to return, he writes 'I am sorry you went away—I wish you were back.'",
+  "fix": {
+   "quote": "I almost dispair of seeing a favourable issue",
+   "digest": "Writing to the absent Hamilton, Washington says matters are worse than when Hamilton left, blames narrow-minded politicians and local views for the opposition to a strong government, and repents having had any agency in the business. He says he is sorry Hamilton went away and wishes he were back. The same day Yates and Lansing go home, leaving New York without a vote."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1787",
+  "where": "tie:7",
+  "severity": "error",
+  "problem": "Washington's 10 July letter does not ask Hamilton back; it says he wishes he were back.",
+  "fix": {
+   "text_replace": {
+    "old": "Washington replied in near despair and asked him back.",
+    "new": "Washington replied in near despair and wished he were back."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1787",
+  "where": "entry:39",
+  "severity": "error",
+  "problem": "Madison's notes (Avalon, 12 Sept) record that Gerry moved for a committee to prepare a Bill of Rights and Mason seconded (Mason had first raised the wish); the vote was ten states no with Massachusetts absent, not 'every state present'.",
+  "fix": {
+   "text_replace": {
+    "old": "Mason moves for a committee to prepare a bill of rights; Gerry seconds. Every state present votes no.",
+    "new": "Mason wishes the plan had been prefaced with a bill of rights; Gerry moves for a committee to prepare one and Mason seconds. Ten states vote no; Massachusetts is recorded as absent."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1787",
+  "where": "entry:10",
+  "severity": "error",
+  "problem": "On 4 June the Convention sat as a committee of the whole, with Gorham in the chair; Madison's footnoted tally lists 'General Washington, aye' among the Virginia delegates (Randolph and Blair no). Washington was not in the chair.",
+  "fix": {
+   "text_replace": {
+    "old": "Madison notes that Washington, in the chair, voted with Virginia's majority.",
+    "new": "Madison notes that Washington, sitting with the Virginia delegation while the committee of the whole met, voted aye with McClurg and Madison against Randolph and Blair."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1787",
+  "where": "entry:43",
+  "severity": "error",
+  "problem": "The rising-sun remark is not the last line of Madison's notes: they continue with the signing by all but Randolph, Mason and Gerry and the adjournment sine die, followed by Madison's note on alterations made by John C. Payne.",
+  "fix": {
+   "text_replace": {
+    "old": "It is the last line of Madison's notes.",
+    "new": "It is the last speech Madison's notes record before the adjournment."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1787",
+  "where": "entry:36",
+  "severity": "error",
+  "problem": "Avalon (29 Aug) shows the motion failing 4–7 with South Carolina voting no alongside the northern states, while Maryland, Virginia, North Carolina and Georgia voted aye; 'the deep South splitting from Virginia' misdescribes it. Madison spells 'labor'.",
+  "fix": {
+   "digest": "Charles Pinckney's motion to require two-thirds of Congress for laws regulating commerce is defeated, four states to seven, with South Carolina voting with the northern states against it; General Pinckney says he accepts the result in view of the eastern states' liberal conduct, which Madison's later footnote ties to the slave-trade understanding. Later that day Butler's clause requiring the return of any person 'bound to service or labor' who escapes into another state is agreed without dissent."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1787",
+  "where": "entry:27",
+  "severity": "style",
+  "problem": "Madison records that the first motion to adjourn till the next day failed 5–5, and a renewed motion by Randolph and King then carried 7–2–1; 'adjourns anyway' obscures this.",
+  "fix": {
+   "text_replace": {
+    "old": "the motion fails on a tie, and the Convention adjourns anyway.",
+    "new": "the motion fails on a tie, and a renewed motion to adjourn then carries."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1787",
+  "where": "entry:18",
+  "severity": "style",
+  "problem": "Madison's text (Avalon, 28 June) prints 'God Governs in the affairs of men'; Randolph's proposal was a sermon on 4 July with prayers every morning afterwards, seconded by Franklin.",
+  "fix": {
+   "quote": "God Governs in the affairs of men"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1787",
+  "where": "entry:18",
+  "severity": "style",
+  "problem": "Randolph's proposal also included daily prayers thereafter, which Franklin seconded (Madison, 28 June).",
+  "fix": {
+   "text_replace": {
+    "old": "Randolph suggests a sermon on the Fourth of July instead, and the meeting adjourns with no vote.",
+    "new": "Randolph suggests a sermon on the Fourth of July with prayers each morning afterwards, which Franklin seconds, and the meeting adjourns with no vote."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1787",
+  "where": "entry:22",
+  "severity": "doubt",
+  "problem": "Hamilton's letter is dated '[3 July 1787]' by the editors (bracketed in Founders Online); it does not explicitly urge Washington, though it argues that 'Decision is true wisdom' and that no feeble measure will do. Hamilton says he will rejoin the Convention in ten or twelve days if his presence would be useful.",
+  "fix": {
+   "digest": "Away from the Convention, Hamilton writes to Washington that the informed men he has met in New Jersey and New York think opinion has shifted strongly in favour of a firm government and fear the Convention will not go far enough. He argues that no motley or feeble measure can succeed and says he may return in ten or twelve days. The date is supplied by the editors.",
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1787",
+  "where": "entry:40",
+  "severity": "doubt",
+  "problem": "Mason's Objections as printed (Encyclopedia Virginia, enclosed to Washington 7 Oct 1787) are unnumbered paragraphs; 'in a numbered list' is not supported, and the precise day of writing on the Committee of Style draft is inferred.",
+  "fix": {
+   "text_replace": {
+    "old": "Mason writes out his objections in a numbered list:",
+    "new": "Mason writes out his objections, probably about this day:"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "philadelphia-1787",
+  "where": "entry:15",
+  "severity": "doubt",
+  "problem": "In the printed Yates text (Avalon) Hamilton's speech, including the quoted line, stands under a heading 'Monday, June 19th' (19 June 1787 was a Tuesday); the speech was given on 18 June. Worth noting in the source note. Quote verified.",
+  "fix": {
+   "source_note": "Yates, Secret Proceedings (1821), where the speech is printed under a misdated heading 'Monday, June 19th'; five-version comparison in Papers of Alexander Hamilton"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1787",
+  "where": "convergence:2",
+  "severity": "error",
+  "problem": "Pierce's notes of debates end on 6 June (Avalon), so he did not record the speech of 18 June; the five versions are Hamilton's, Madison's, Yates's, Lansing's and King's.",
+  "fix": {
+   "text_replace": {
+    "old": "Five versions of one speech: Hamilton's outline, Madison's careful summary with the British model, Yates's sharper passage on the rich and well born, and Pierce's general verdict that Hamilton convinced rather than charmed.",
+    "new": "One speech in several versions: Hamilton's outline, Madison's careful summary with the British model and Yates's sharper passage on the rich and well born (Lansing and King made others), beside Pierce's general sketch of Hamilton, written apart from any one day."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1787",
+  "where": "eye:franklin",
+  "severity": "doubt",
+  "problem": "The bio states as fact that Franklin chose not to present the memorial; the record shows only that there is no evidence it was presented. Wording must not assert a decision or motive.",
+  "fix": {
+   "text_replace": {
+    "old": "As head of the Abolition Society he held its memorial against the slave trade and did not lay it before the Convention.",
+    "new": "As head of the Abolition Society he received its memorial against the slave trade; there is no record that it was laid before the Convention."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1787",
+  "where": "entry:9",
+  "severity": "doubt",
+  "problem": "The headline asserts the memorial 'stays in Franklin's hands', which the record does not show; only its non-presentation is attested.",
+  "fix": {
+   "headline": "The Abolition Society's memorial is written, with no record that it was presented"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1787",
+  "where": "threads_out:2",
+  "severity": "style",
+  "problem": "Congress passed the ban in March 1807, effective 1 January 1808; 'which it did that year' is loose. The closing phrase is an editorial judgement.",
+  "fix": {
+   "text_replace": {
+    "old": "which it did that year. In February 1815 the powers at Vienna issued a declaration condemning the Atlantic slave trade, another room putting off the ending it endorsed.",
+    "new": "which it did by an act of March 1807 taking effect on 1 January 1808. In February 1815 the powers at Vienna issued a declaration condemning the Atlantic slave trade while leaving the timing of abolition to each state."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1787",
+  "where": "threads_out:3",
+  "severity": "doubt",
+  "problem": "'That is why ... had to petition state legislatures first' asserts a single cause; the link to state-set qualifications is real (Art. I, s. 2) but the causal claim should be hedged.",
+  "fix": {
+   "text_replace": {
+    "old": "That is why the women's suffrage campaign launched at Seneca Falls in 1848 had to petition state legislatures first, before turning to a federal amendment.",
+    "new": "So the women's suffrage campaign launched at Seneca Falls in 1848 aimed much of its early effort at state legislatures and constitutions before turning to a federal amendment."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "worms-1521",
+  "where": "intro:1",
+  "severity": "error",
+  "problem": "CSP Venice no. 191 (Cornaro, 19 April) is a third-person summary of events at court; it does not say Cornaro saw the hearings. Contarini (nos. 197, 199) states he never saw or spoke to Luther.",
+  "fix": {
+   "text_replace": {
+    "old": "Francesco Cornaro, who saw the hearings,",
+    "new": "Francesco Cornaro, who was at court during the hearings,"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "worms-1521",
+  "where": "tie:9",
+  "severity": "error",
+  "problem": "Cornaro's dispatch (CSP Venice no. 191) does not claim he witnessed the hearings; he left Worms on 10 May (no. 209).",
+  "fix": {
+   "text_replace": {
+    "old": "Cornaro reported the hearings he witnessed;",
+    "new": "Cornaro, at court during the hearings, reported them;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "worms-1521",
+  "where": "eye:cornaro",
+  "severity": "doubt",
+  "problem": "Make clear the dispatch is not explicitly an eyewitness account.",
+  "fix": {
+   "text_replace": {
+    "old": "Cornaro wrote the most compact outsider's summary of the three days:",
+    "new": "Cornaro wrote the most compact outsider's summary of the three days, in the third person and without saying he was in the hall:"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "worms-1521",
+  "where": "entry:6",
+  "severity": "doubt",
+  "problem": "Preserved Smith, Luther's Correspondence i.446, ep. 383 (cited in J. Eccl. Hist., 'Henry VIII burns Luther's books') dates Tunstall's letter to Wolsey 'Worms, 21 January 1521', a week before the Diet opened; the chapter's 'about 29 January' rests on a secondary paraphrase. Day still unchecked against the manuscript.",
+  "fix": {
+   "date_iso": "1521-01-21",
+   "date_display": "21 January 1521 (as dated in P. Smith's Luther's Correspondence; some works give a later day)",
+   "source_note": "Tunstall to Wolsey, Worms, 21 January 1521 (P. Smith, Luther's Correspondence I, no. 383, p. 446; Ellis, Original Letters 3rd ser. I, 239f.); other works place it after the Diet opened.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "worms-1521",
+  "where": "entry:2",
+  "severity": "doubt",
+  "problem": "The usual account (cf. tie 5 in this chapter) is that the 28 November invitation was withdrawn by the emperor in December under Aleander's pressure, rather than simply declined by Frederick.",
+  "fix": {
+   "text_replace": {
+    "old": "Frederick declined to do so on those terms.",
+    "new": "Under pressure from Aleander the invitation was withdrawn in December."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "worms-1521",
+  "where": "threads_out:2",
+  "severity": "style",
+  "problem": "Savonarola was hanged and his body burned; 'executed' is sober and exact. The 1523 Wittenberg edition (Meditatio pia et erudita H. Savonarolae a Papa exusti super psalmos Miserere mei, et In te Domine speravi, VD16 S 1994) confirms the Psalms (51 and 31).",
+  "fix": {
+   "text_replace": {
+    "old": "burned in Florence in 1498 after defying a papal excommunication, as a forerunner. In 1523 he published Savonarola's prison meditations on the Psalms with his own preface.",
+    "new": "executed in Florence in 1498 after defying a papal excommunication, as a forerunner. In 1523 a Wittenberg edition of Savonarola's prison meditations on Psalms 51 and 31 appeared with Luther's preface."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "worms-1521",
+  "where": "entry:23",
+  "severity": "style",
+  "problem": "Quote verified on GHDI, but the GHDI text is taken from a modern anthology (Ploese and Vogler, Buch der Reformation, 1989) with normalised spelling; the source note should say so. Kept as a world-famous phrase.",
+  "fix": {
+   "source_note": "GHDI text of the speech, after Ploese and Vogler, Buch der Reformation (1989), pp. 245–53 (spelling normalised); Schaff VII §55. https://germanhistorydocs.org/de/von-den-reformationen-bis-zum-dreissigjaehrigen-krieg-1500-1648/luther-und-kaiser-karl-v-auf-dem-reichstag-zu-worms-1521.pdf"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "worms-1521",
+  "where": "claim:7",
+  "severity": "style",
+  "problem": "Positions confirmed in Schaff VII §55: Burkhardt (1869) and Schenkel (1870), also Maurenbrecher, against; Köstlin (1874), Ranke, Mönckeberg and Kolde for. Schaff says Luther's notes, Spalatin's notes and the original Acta Lutheri Wormatiae habita end with 'Gott helfe mir, Amen'. Adding Maurenbrecher and Kolde keeps both sides represented.",
+  "fix": {
+   "text_replace": {
+    "old": "(Burkhardt, Schenkel against; Köstlin, Ranke for)",
+    "new": "(Burkhardt, Schenkel, Maurenbrecher against; Köstlin, Ranke, Kolde for)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "worms-1521",
+  "where": "entry:5",
+  "severity": "style",
+  "problem": "The source note cites Wikipedia for an alternative opening date of 23 January that could not be confirmed; the Diet's formal opening is usually given as 27/28 January.",
+  "fix": {
+   "source_note": "Schaff VII §53 (28 Jan). https://ccel.org/ccel/schaff/hcc7.ii.iii.xxiii.html"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "worms-1521",
+  "where": "eye:tunstall",
+  "severity": "doubt",
+  "problem": "CSP Venice no. 209 (Contarini, 12 May) mentions the English ambassador accompanying Cornaro out of Worms on 10 May, so an English envoy was still at court after the hearings; Tunstall's own departure date is not established here. Hedge 'gone before the hearings'.",
+  "fix": {
+   "vantage_label": "English envoy, writing before the hearings"
+  },
+  "confidence": "approx"
+ }
+]

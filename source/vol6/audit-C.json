@@ -1,0 +1,386 @@
+[
+ {
+  "chapter": "vienna-1815",
+  "where": "entry:1",
+  "severity": "error",
+  "problem": "The 1891 English Memoirs (vol. II) print this first letter as dated Vienna, 25 September 1814 (letters follow on 27 and 29 Sept); no 28 September letter was found, so the parenthetical is wrong.",
+  "fix": {
+   "date_display": "25 September 1814",
+   "source_note": "Talleyrand Memoirs vol. II (1891), letter to Louis XVIII dated Vienna, 25 September 1814; he says he arrived on the 24th."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "vienna-1815",
+  "where": "calendar_note:0",
+  "severity": "error",
+  "problem": "The 25 vs 28 September example does not hold: the printed letter is dated 25 September. A real OCR/variant case in the same volume is the King's letter No. 15 B, printed 28 December 1814 with a variant reading of 30 December.",
+  "fix": {
+   "text_replace": {
+    "old": "(e.g. a 25 vs 28 September letter)",
+    "new": "(e.g. the King's letter No. 15 B, printed as 28 December 1814 with a variant reading of 30 December)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "vienna-1815",
+  "where": "eye:talleyrand",
+  "severity": "error",
+  "problem": "Same false example in the authenticity note: the first Vienna letter is printed as 25 September; the 28 vs 30 December variant is a documented case.",
+  "fix": {
+   "text_replace": {
+    "old": "(e.g. 25 vs 28 September)",
+    "new": "(e.g. a royal letter printed as 28 December 1814 with a variant reading of 30 December)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "vienna-1815",
+  "where": "entry:4",
+  "severity": "doubt",
+  "problem": "Arrigon's article, the chapter's own Gentz source, contains no Gentz entry for 30 Sept 1814; the diary wording here comes from secondary citation and has not been checked against the Tagebücher (in French in the original). Hedge it as reported.",
+  "fix": {
+   "text_replace": {
+    "old": "noted in his diary that the intervention",
+    "new": "noted in his diary, as historians quote the entry, that the intervention"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "vienna-1815",
+  "where": "entry:4",
+  "severity": "doubt",
+  "problem": "Arrigon's article, the chapter's own Gentz source, contains no Gentz entry for 30 Sept 1814; the diary wording here comes from secondary citation and has not been checked against the Tagebücher (in French in the original). Hedge it as reported.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "vienna-1815",
+  "where": "entry:12",
+  "severity": "doubt",
+  "problem": "Arrigon dates the copying of papers during the Thurn und Taxis dinner to 27 October but does not attribute it to a specific police report; the entry presents it as a dated police report.",
+  "fix": {
+   "source_note": "Arrigon, 'Talleyrand au Congrès de Vienne', describing the episode under 27 Oct 1814 without citing a specific police report.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "vienna-1815",
+  "where": "entry:14",
+  "severity": "error",
+  "problem": "Arrigon's source for the niece leading the quadrille (23 Nov 1814, redoute in the Burg) is the Paris Moniteur notice Talleyrand had inserted, not a police report; 'Police and society observers alike' is not supported.",
+  "fix": {
+   "text_replace": {
+    "old": "Police and society observers alike noted that Dorothée",
+    "new": "Dorothée"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "vienna-1815",
+  "where": "entry:14",
+  "severity": "error",
+  "problem": "Arrigon's source for the niece leading the quadrille (23 Nov 1814, redoute in the Burg) is the Paris Moniteur notice Talleyrand had inserted, not a police report; 'Police and society observers alike' is not supported.",
+  "fix": {
+   "source_note": "Arrigon, citing the Moniteur notice (not a police report)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "vienna-1815",
+  "where": "entry:37",
+  "severity": "error",
+  "problem": "Letter No. 34 (13 March 1815) sends copies to the prefects of specific eastern towns (Strasbourg, Besançon, Lyon, Nancy, Metz, Châlons-sur-Marne), not to every French prefect.",
+  "fix": {
+   "text_replace": {
+    "old": "ordered copies sent to every French prefect",
+    "new": "sent copies to the prefects of eastern French towns such as Strasbourg, Lyon and Metz"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "vienna-1815",
+  "where": "convergence:7",
+  "severity": "error",
+  "problem": "As in entry 37, Talleyrand sent the declaration to the prefects of named eastern towns, not every prefect.",
+  "fix": {
+   "text_replace": {
+    "old": "Talleyrand had it sent to every French prefect",
+    "new": "Talleyrand had it sent to the prefects of eastern French towns"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "vienna-1815",
+  "where": "entry:42",
+  "severity": "doubt",
+  "problem": "Letter No. 52 (23 April 1815) contains 'one cannot govern in opposition to the ideas of the times' and 'Buonaparte's overthrow is only half of the work' (quote verified), but the Orléans passage reads as the Duc d'Orléans being fitted to conciliate all parties, while 'a regency' refers to what might have been done the year before. 'Orléans regency' merges two ideas.",
+  "fix": {
+   "text_replace": {
+    "old": "floated an Orléans regency",
+    "new": "spoke of the Duc d'Orléans as a figure who might reconcile all parties"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "vienna-1815",
+  "where": "entry:42",
+  "severity": "doubt",
+  "problem": "Letter No. 52 (23 April 1815) contains 'one cannot govern in opposition to the ideas of the times' and 'Buonaparte's overthrow is only half of the work' (quote verified), but the Orléans passage reads as the Duc d'Orléans being fitted to conciliate all parties, while 'a regency' refers to what might have been done the year before. 'Orléans regency' merges two ideas.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "vienna-1815",
+  "where": "claim:14",
+  "severity": "doubt",
+  "problem": "The ledger notes a later Russian signature but omits that Spain's plenipotentiary, Labrador, declined to sign the Final Act; Spain acceded only in 1817.",
+  "fix": {
+   "text_replace": {
+    "old": "(Russian signature followed later in June)",
+    "new": "(Spain's Labrador refused to sign; Spain acceded in 1817)"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "vienna-1815",
+  "where": "claim:14",
+  "severity": "doubt",
+  "problem": "The ledger notes a later Russian signature but omits that Spain's plenipotentiary, Labrador, declined to sign the Final Act; Spain acceded only in 1817.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "vienna-1815",
+  "where": "eye:humboldt",
+  "severity": "style",
+  "problem": "Compiler's note in authenticity ('could not be consulted for this chapter').",
+  "fix": {
+   "text_replace": {
+    "old": "the Vienna letters (vol. IV) could not be consulted for this chapter, so entries rest on",
+    "new": "the Vienna letters (vol. IV) are not used here; entries rest on"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "vienna-1815",
+  "where": "entry:26",
+  "severity": "style",
+  "problem": "Talleyrand's letter No. 26 says Wellington 'arrived on the evening of the 1st'; Webster's 1919 chronology gives 3 February. Both are now stated; the evening detail sharpens the source.",
+  "fix": {
+   "text_replace": {
+    "old": "Talleyrand reported the arrival as 'on the 1st'; one later chronology gives 3 February.",
+    "new": "Talleyrand reported that he arrived on the evening of the 1st; Webster's chronology (1919) gives 3 February."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fatehpur-sikri",
+  "where": "entry:39",
+  "severity": "error",
+  "problem": "Calendar conversion error: Shawwal 989 AH ran from about 29 Oct to 27 Nov 1581 (tabular); early December 1581 falls in Dhu'l-Qa'da 989.",
+  "fix": {
+   "date_display": "early December 1581 (Dhu'l-Qa'da 989 AH)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fatehpur-sikri",
+  "where": "entry:45",
+  "severity": "error",
+  "problem": "The chapter's own cited source (Jainism in Gujarat AD 1100–1600, p. 283) gives the arrival as the 12th of the dark half of Jyeshtha VS 1639 = AD 1583, not 1582. With the Kartika-based Gujarati year that falls in May–June 1583 (Gregorian by the chapter's rule).",
+  "fix": {
+   "date_iso": "1583-06",
+   "date_display": "12th of the dark half of Jyeshtha, VS 1639 (May–June 1583, as the cited source gives it; some accounts put the visit in 1582)",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fatehpur-sikri",
+  "where": "eye:hiravijaya",
+  "severity": "style",
+  "problem": "The chapter's own cited Jain source dates the arrival to Jyeshtha VS 1639 = AD 1583 (see entry 45); the bio gives no date, so state the source's year.",
+  "fix": {
+   "text_replace": {
+    "old": "He spoke first with Abu'l Fazl and then with the emperor.",
+    "new": "He reached the court in 1583 by the reckoning of his followers' sources, and spoke first with Abu'l Fazl and then with the emperor."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fatehpur-sikri",
+  "where": "entry:7",
+  "severity": "error",
+  "problem": "Abu'l Fazl's 'Padre Radif/Radalf' is identified by Elliot & Dowson's translators (repr. Jackson, History of India vol. 6) as Rodolfo Aquaviva, not Julian Pereira; Abu'l Fazl sets the scene in the 24th regnal year, before the Jesuits' arrival in 1580, which is why some have looked for an earlier priest.",
+  "fix": {
+   "text_replace": {
+    "old": "Historians usually identify the priest as the Portuguese vicar of Bengal, Julian Pereira, who came to court before the Jesuits.",
+    "new": "Elliot and Dowson's translators identify him as Rodolfo Aquaviva, although Abu'l Fazl places the scene before the Jesuits arrived in 1580; others have suggested an earlier priest, such as the vicar of Bengal, Julian Pereira."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fatehpur-sikri",
+  "where": "entry:7",
+  "severity": "error",
+  "problem": "Abu'l Fazl's 'Padre Radif/Radalf' is identified by Elliot & Dowson's translators (repr. Jackson, History of India vol. 6) as Rodolfo Aquaviva, not Julian Pereira; Abu'l Fazl sets the scene in the 24th regnal year, before the Jesuits' arrival in 1580, which is why some have looked for an earlier priest.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fatehpur-sikri",
+  "where": "entry:40",
+  "severity": "doubt",
+  "problem": "Badauni blames Abu'l Fazl, Faizi and Birbal, but the familiar membership list of the discipleship (eighteen names, including Birbal) comes from the later Dabistan-i Mazahib, not from Badauni.",
+  "fix": {
+   "text_replace": {
+    "old": "He names its members, including Abu'l Fazl, Faizi and Birbal, and treats it as a new religion and an apostasy.",
+    "new": "He blames Abu'l Fazl, Faizi and Birbal among its promoters and treats it as a new religion and an apostasy; the usual list of its members comes from a later work, the Dabistan-i Mazahib."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fatehpur-sikri",
+  "where": "calendar_note:0",
+  "severity": "error",
+  "problem": "The Ilahi era was counted from the Persian New Year (Nauroz, 11 March 1556) following Akbar's accession; the accession itself was in February 1556.",
+  "fix": {
+   "text_replace": {
+    "old": "counted from his accession in March 1556",
+    "new": "counted from the Persian New Year of March 1556 that followed his accession (February 1556)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fatehpur-sikri",
+  "where": "entry:27",
+  "severity": "style",
+  "problem": "Hoyland's text (p. 37) gives 'On the 3rd of March' for the Bible presentation, so the date is confirmed by Monserrate himself, while the editors' introduction says Monserrate reached the city on 4 March, so the passage is reported, not seen.",
+  "fix": {
+   "text_replace": {
+    "old": "Goldie puts the first audience on the day after arrival. Monserrate himself, by the editors' reckoning, arrived on 4 March.",
+    "new": "Monserrate's text dates the presentation to 3 March, although by the editors' reckoning he himself arrived on 4 March, so he wrote it from his companions' report."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fatehpur-sikri",
+  "where": "entry:49",
+  "severity": "doubt",
+  "problem": "Monserrate's Commentary (p. 196) gives 15 July 1583; most later accounts give 25 July. The ten-day gap matches the Julian–Gregorian difference, but which calendar each writer used is an inference, so say so.",
+  "fix": {
+   "text_replace": {
+    "old": "The day is given as 15 or 25 July 1583 depending on the calendar.",
+    "new": "Monserrate gives the day as 15 July 1583 and most later accounts as 25 July; the ten-day gap matches the Julian–Gregorian difference, though which calendar each writer used is not certain."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fatehpur-sikri",
+  "where": "claim:4",
+  "severity": "doubt",
+  "problem": "date_iso 1579-08-24 is just the first day of Rajab 987 (tabular), but the claim is marked verified at day precision. Badauni gives only the month.",
+  "fix": {
+   "date_iso": "1579-09",
+   "date_display": "Rajab 987 AH (24 Aug – 22 Sept 1579, Julian)",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fatehpur-sikri",
+  "where": "claim:2",
+  "severity": "doubt",
+  "problem": "The Navsari summary dates Meherji Rana's court visit to Y.Z. 947 (1578) but gives no date for the 200-bigha madad-i ma'ash grant; the ledger dates the grant itself to 1578.",
+  "fix": {
+   "date_display": "grant undated in the sources used (visit Y.Z. 947, c. 1578)",
+   "claim": "A tax-free grant of about 200 bighas is made to Meherji Rana's family (Parsi tradition; date of grant not established)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fatehpur-sikri",
+  "where": "entry:9",
+  "severity": "doubt",
+  "problem": "The summary of the Navsari records gives 1579 for the priests' document recognising Meherji Rana; 'Y.Z. 948' is a derived figure not found there. This rests on community tradition and should say so.",
+  "fix": {
+   "text_replace": {
+    "old": "After his return from court, the priests of Navsari",
+    "new": "According to Navsari community records, after his return from court the priests of Navsari"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fatehpur-sikri",
+  "where": "entry:9",
+  "severity": "doubt",
+  "problem": "The summary of the Navsari records gives 1579 for the priests' document recognising Meherji Rana; 'Y.Z. 948' is a derived figure not found there. This rests on community tradition and should say so.",
+  "fix": {
+   "date_display": "1579 (as Navsari records are summarised)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fatehpur-sikri",
+  "where": "entry:6",
+  "severity": "style",
+  "problem": "The visit itself is known only from Parsi tradition and Navsari records; the Persian chronicles mention Navsari priests without naming him. The digest already says 'Parsi tradition records'; tie the court visit, not only the 1573 meeting, to tradition.",
+  "fix": {
+   "text_replace": {
+    "old": "There he explained Zoroastrian teaching and ritual.",
+    "new": "There, the tradition says, he explained Zoroastrian teaching and ritual."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fatehpur-sikri",
+  "where": "entry:28",
+  "severity": "style",
+  "problem": "Monserrate (Hoyland p. 37–41) places the ordeal-by-fire proposal in the third discussion, 'some days later'; this entry's 10 March third debate (Goldie's date, a Thursday by Julian reckoning) should mention that the fire challenge belongs to the same session in Monserrate's account, linking entry 20.",
+  "fix": {
+   "text_replace": {
+    "old": "The scholars, he says, left embarrassed and angry.",
+    "new": "The scholars, he says, left embarrassed and angry; in his account the proposal of an ordeal by fire arose in this same series of debates."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fatehpur-sikri",
+  "where": "claim:7",
+  "severity": "doubt",
+  "problem": "Monserrate gives no date for the fire ordeal (only 'some days later' after the first debates of March 1580). The challenge can be placed in spring 1580; keep it approximate.",
+  "fix": {
+   "date_display": "spring 1580 (Monserrate gives no date; 'some days later' after the first debates)"
+  },
+  "confidence": "approx"
+ }
+]

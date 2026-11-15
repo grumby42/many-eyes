@@ -1,0 +1,342 @@
+[
+ {
+  "chapter": "wireless-1901",
+  "where": "entry:10",
+  "severity": "error",
+  "problem": "The times (about noon to 1.45 pm), the two systems and the Slaby/Kaiser message all come from Kemp's expanded typed version of c. 1930; the contemporary pocket diary covers 10–14 May in a single line about signalling with the Marconi and parallel-wire systems to Lavernock Point. 'In both directions' is not in the cited source.",
+  "fix": {
+   "digest": "Kemp's contemporary pocket diary covers 10–14 May in a single line: signalling to Lavernock Point with Marconi's system and the Post Office's parallel-wire method. The fuller entry for 13 May, with good signals between about noon and 1.45 pm on both systems and a test message sent to the Kaiser through Professor Slaby, who was watching, comes from the expanded version he typed around 1930.",
+   "confidence": "approx",
+   "source_note": "Kemp diary as quoted from Garratt (The Diary Junction): one-line pocket-diary entry for 10–14 May; the 13 May detail is in the c. 1930 typed version only."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "claim:5",
+  "severity": "error",
+  "problem": "The times and the Kaiser message are from Kemp's c. 1930 typed version, not the contemporary diary; the quoted phrase comes from an unpublished diary first printed long after 1928, so it cannot be quoted.",
+  "fix": {
+   "date_display": "13 May 1897 (times from Kemp's c. 1930 typed version)",
+   "claim": "Flat Holm ↔ Lavernock Point across the Bristol Channel: good signals on Marconi and Post Office systems, about noon–1.45 pm, and a test message sent to the Kaiser through Slaby, both details from Kemp's typed version of c. 1930; the contemporary pocket diary has one line for 10–14 May.",
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "entry:27",
+  "severity": "error",
+  "problem": "The headline quotes Kemp's diary, which was unpublished before 1929 (known via Bussey 1999), so it may not be quoted; and the source does not say which version of the diary (contemporary or c. 1930 typed) is meant.",
+  "fix": {
+   "headline": "Kemp notes the S signal, repeated",
+   "confidence": "approx",
+   "source_note": "Bussey (1999), quoting Kemp's diary (version not stated); ETHW calls Kemp hardly an impartial observer."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "entry:31",
+  "severity": "doubt",
+  "problem": "The quoted cable wording is taken from Bussey (1999); no pre-1929 printing of the exact text was found, so under the quote rule it should be digested. The headline repeats the quote.",
+  "fix": {
+   "quote": "",
+   "headline": "Forced to stop the tests"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "claim:11",
+  "severity": "doubt",
+  "problem": "Same cable wording as entry 31, sourced only to Bussey (1999); digest rather than quote.",
+  "fix": {
+   "claim": "Marconi → London: cable reporting that he has been forced to stop the tests between England and Newfoundland."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "claim:12",
+  "severity": "doubt",
+  "problem": "Winter's letter is quoted from the Marconi papers via Bussey (1999); not shown to have been printed before 1929, so it should be digested.",
+  "fix": {
+   "claim": "Winter → company solicitors: Marconi will stop operations, at least for the time being."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "convergence:4",
+  "severity": "doubt",
+  "problem": "Quotes Winter's letter (known only via Bussey 1999).",
+  "fix": {
+   "text_replace": {
+    "old": "Winter's careful 'for the present' left",
+    "new": "Winter's careful wording, conceding only for the time being, left"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "claim:13",
+  "severity": "style",
+  "problem": "McClure's (April 1902) gives the departure as from Cherbourg at midnight on 22 February; the message log otherwise matches the printed account (captain A. R. Mills, chief officer Marsden). Bussey's 'Miles' is correctly noted on the eye.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "entry:16",
+  "severity": "doubt",
+  "problem": "27 March 1899 (a Monday) is the date given by the Oxford museum and most accounts, but the chapter's own source, The Spectator of 1 April 1899, reports the messages 'on Tuesday', i.e. 28 March. The day should be shown as uncertain.",
+  "fix": {
+   "date_display": "27 March 1899 (most accounts; The Spectator reported messages on Tuesday 28 March)",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "claim:7",
+  "severity": "doubt",
+  "problem": "Same 27 vs 28 March 1899 discrepancy as entry 16.",
+  "fix": {
+   "date_display": "27 or 28 March 1899",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "eye:slaby",
+  "severity": "error",
+  "problem": "Slaby was born on 18 April 1849, so he was 48, not 47, at Lavernock in May 1897.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 47 in 1897",
+    "new": "aged 48 in 1897"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "intro:4",
+  "severity": "style",
+  "problem": "'Probably sat at Marconi's ear' states a contested attribution as a near-verdict; the Science Museum says only that the Italian Navy detector 'may be' the one used.",
+  "fix": {
+   "text_replace": {
+    "old": "his 1899 detector probably sat at Marconi's ear",
+    "new": "some historians argue that a detector on his 1899 principle sat at Marconi's ear"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "eye:bose",
+  "severity": "style",
+  "problem": "The bio and authenticity present the Bose-detector attribution more firmly than the Science Museum record ('may be') supports.",
+  "fix": {
+   "text_replace": {
+    "old": "became, by a disputed route through the Italian Navy, very probably the detector Marconi listened through in Newfoundland.",
+    "new": "may have become, by a disputed route through the Italian Navy, the detector Marconi listened through in Newfoundland, as Bondyopadhyay argues."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "eye:bose",
+  "severity": "style",
+  "problem": "The Science Museum catalogue says the Italian Navy detector may be the one used, not that it is likely.",
+  "fix": {
+   "text_replace": {
+    "old": "accepted by the Science Museum's catalogue as likely",
+    "new": "described by the Science Museum's catalogue as possible"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "entry:17",
+  "severity": "style",
+  "problem": "The last sentence states as fact that a device on Bose's principle was the Signal Hill detector; this is a position (Bondyopadhyay; the Science Museum says 'may be').",
+  "fix": {
+   "text_replace": {
+    "old": "Two and a half years later, a device of exactly this principle sat at Marconi's ear.",
+    "new": "Two and a half years later, by Bondyopadhyay's argument, a device on this principle sat at Marconi's ear."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "convergence:3",
+  "severity": "style",
+  "problem": "Presents the Bose-principle detector as settled.",
+  "fix": {
+   "text_replace": {
+    "old": "the detector at their ear followed a principle Bose had published in 1899",
+    "new": "the detector at their ear, on one argued reading, followed a principle Bose had published in 1899"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "threads_out:3",
+  "severity": "doubt",
+  "problem": "The Telefunken–German wireless–Room 40 link is real, but the note can read as if the Zimmermann telegram itself went by wireless; it is usually said to have travelled by cable routes.",
+  "fix": {
+   "text_replace": {
+    "old": "the wireless route that British codebreakers watched in 1917.",
+    "new": "traffic that British codebreakers intercepted, although the Zimmermann telegram itself is usually said to have gone by cable."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "entry:26",
+  "severity": "style",
+  "problem": "The Diary Junction transcription of Raboy reads the second time as '1.1' followed by an unclear mark; ETHW and most accounts give 12.30, 1.10 and 2.20. The chapter's reading follows the common one; no change needed, but the ink-only point is confirmed (12 and 13 December are the only ink entries).",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "entry:30",
+  "severity": "style",
+  "problem": "Confirmed: Community Stories gives the letter as delivered on the evening of 16 December 1901, after the news was announced on 15 December (ETHW gives 16 December for the release).",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "wireless-1901",
+  "where": "entry:1",
+  "severity": "style",
+  "problem": "Confirmed: the Science Museum record gives the British Association meeting at Oxford on 14 August 1894 and says the signals did not form an intelligible message. The 55 m distance is not in that record and rests on the Lodge overview.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "arpanet-1969",
+  "where": "entry:29",
+  "severity": "error",
+  "problem": "The UCLA IMP log is a university/contractor notebook first reproduced long after 1928, not a US-government record, so under the twentieth-century rule its wording may not be quoted (only 'LO' is allowed as a world-famous phrase).",
+  "fix": {
+   "quote": "",
+   "digest": "Kline tried to log in to the SRI computer from UCLA's Sigma 7, talking to Duvall by telephone as each character went. The L arrived; the O arrived; then the system crashed. In the IMP log he made a terse entry at 22:30 against the session, recording that UCLA had made host-to-host contact with SRI, and added his initials."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "arpanet-1969",
+  "where": "entry:30",
+  "severity": "doubt",
+  "problem": "'Duvall traced a fault in his own code and fixed it' takes a side in the disputed question of which machine failed, and is not in the cited sources; the summarised accounts say only that SRI's SDS 940 failed (in most tellings) and that Duvall adjusted parameters before the successful login about an hour later.",
+  "fix": {
+   "text_replace": {
+    "old": "Later accounts disagree on whether the UCLA or the SRI side crashed; Duvall traced a fault in his own code and fixed it.",
+    "new": "Many later accounts place the failure at the SRI machine, while others do not say which end failed; by these accounts Duvall adjusted settings on his machine and the login worked about an hour later."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "arpanet-1969",
+  "where": "eye:scantlebury",
+  "severity": "doubt",
+  "problem": "No death date for Roger Scantlebury (born August 1936, Ealing) was found; Wikipedia gives none and says he retired in 2020. '1936–2022' appears unsupported.",
+  "fix": {
+   "life": "born 1936"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "arpanet-1969",
+  "where": "threads_out:2",
+  "severity": "error",
+  "problem": "The first IMP reached UCLA on 30 August 1969, 41 days after the Moon landing of 20 July: about six weeks, not five.",
+  "fix": {
+   "text_replace": {
+    "old": "five weeks after the Moon landing",
+    "new": "about six weeks after the Moon landing"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "arpanet-1969",
+  "where": "eye:baran",
+  "severity": "doubt",
+  "problem": "'His reports later reached the ARPA planners through the British' is one account; the History of Computer Communications notes that Roberts himself sent Davies a copy of Baran's report and that Roberts attended the November 1965 NPL seminar. Present as the usual account, not a fact.",
+  "fix": {
+   "text_replace": {
+    "old": "His reports later reached the ARPA planners through the British.",
+    "new": "By the usual account, the NPL team drew the ARPA planners' attention to his reports at Gatlinburg in 1967."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "arpanet-1969",
+  "where": "entry:11",
+  "severity": "doubt",
+  "problem": "Who sent Davies Baran's memoranda, and when, varies by account: the History of Computer Communications says Roberts sent it after seeing Davies's report; other accounts say a Ministry of Defence listener told him of Baran after the March 1966 lecture. The entry is non-committal, which is right; mark approx.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "arpanet-1969",
+  "where": "entry:38",
+  "severity": "style",
+  "problem": "RFC 371 speaks of delivering a TIP (Terminal Interface Processor) to the Hilton; 'terminal IMP' is an informal name. The list of demonstration programs was not confirmed in RFC 371.",
+  "fix": {
+   "text_replace": {
+    "old": "Terminals at the Hilton would connect directly to a terminal IMP",
+    "new": "Terminals at the Hilton would connect directly to a TIP (Terminal Interface Processor)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "arpanet-1969",
+  "where": "claim:13",
+  "severity": "style",
+  "problem": "Confirmed: Taylor's criticism was a New York Times letter of 22 November 2001; Davies's paper is 2001 (Computer Journal); McKenzie's comments 2009. Positions are set out evenly.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "arpanet-1969",
+  "where": "entry:27",
+  "severity": "style",
+  "problem": "Confirmed: a Raytheon/BBN release gives 1 October 1969 for the SRI IMP's arrival; another account gives 6 October for the first IMP-to-IMP message. 'approx' is right.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "arpanet-1969",
+  "where": "entry:23",
+  "severity": "style",
+  "problem": "Confirmed against RFC 1 (7 April 1969): IMPs split messages into packets of at most 1010 bits, a 16-bit message header, 32 logical links per host pair, and Duvall is named as being of SRI (supports tie 10).",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "arpanet-1969",
+  "where": "entry:7",
+  "severity": "style",
+  "problem": "Confirmed: the NPL seminar of 2–3 November 1965, the paper of 10 November 1965, the eight-page proposal of 8 December 1965, the lecture of 16 March 1966 and the 25-page June 1966 report all match the History of Computer Communications. The same source notes that Larry Roberts attended the November 1965 seminar.",
+  "fix": {},
+  "confidence": "verified"
+ }
+]

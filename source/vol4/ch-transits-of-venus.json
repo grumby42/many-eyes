@@ -1,0 +1,1694 @@
+{
+ "id": "transits-of-venus",
+ "title": "A Black Drop on the Sun: The Transits of Venus",
+ "short_title": "The Transits of Venus",
+ "subtitle": "The first world-wide scientific collaboration: 6 June 1761 and 3–4 June 1769, from Siberia to Tahiti",
+ "span": "1760–1771",
+ "intro": [
+  "On 6 June 1761 and again on 3–4 June 1769, Venus passed across the face of the sun, a pair of events that would not come again until 1874 and 1882. Edmond Halley had shown in 1716 that if observers far apart on the Earth timed the planet's entry and exit, the small differences in their times would give the distance to the sun, the unit by which the whole solar system is measured. To do it, astronomers had to be at the ends of the Earth at the same hour, with good clocks, known positions and clear skies.",
+  "What followed was the first planned world-wide scientific collaboration. In 1761, despite the Seven Years' War, about 120 observers at some 60 sites took part; in 1769, about 150 observations came from 77 stations, from Hudson Bay to Tahiti and from Vardø to Baja California. The convergence days in this chapter are the transit days themselves: on each, eight or more of these eyes are looking at the same small black disc from places thousands of kilometres apart.",
+  "The honest record is mostly not private diaries. It is observing logs and published reports, letters dated to establish what was sent when, travel journals written up afterwards (Chappe, Le Gentil), and a few true diaries (Sajnovics at Vardø, Wales's weather journal at Churchill, Cook's ship's journal). The form tags say which is which. Some eyes appear through letters about their work rather than their own words, and the Russian stations are thinly documented here.",
+  "Laid side by side, the entries show the race in an odd form. It was not a race between rivals for one discovery, but a race against weather, war, epidemic and the post. Chappe saw both transits and died of the second; Le Gentil waited eight years and saw neither; Mason and Dixon nearly turned back after a sea battle; Hell's late report led to an accusation of fraud that took a century to clear. One observer, Lomonosov, saw something no one asked him to look for and claimed an atmosphere around Venus, a claim still argued over.",
+  "The claims ledger follows the numbers. The 1761 results gave values for the solar parallax (the angle that fixes the sun's distance) ranging from about 8.3 to over 10 seconds of arc. The 1769 reductions published between 1770 and 1774, by William Smith, Hornsby, Lalande, Pingré, Lexell, Planman and Hell, narrowed it to 8.43–8.80 seconds. Encke's re-reduction of 1824 gave 8.58 seconds, and the modern value is about 8.794. The ledger reports these as each computer's claims, not as a verdict."
+ ],
+ "calendar_note": "All date_iso values are Gregorian. Britain had used the Gregorian calendar since 1752, as had France, Spain and the Habsburg lands; Russia still used the Julian calendar, eleven days behind, so Russian dates (Lomonosov, Rumovsky, Chappe in Russia) show the Old Style date in date_display. Times are local apparent or mean time at the observing station, as the observers recorded them. The 1769 transit straddled the date line: it fell on 3 June for observers in the Americas, the Pacific and Europe, but on the morning of 4 June in India, which is why Le Gentil's entry carries that date. Cook's journal uses the nautical day, but its transit date matches the civil one.",
+ "eyes": [
+  {
+   "id": "chappe",
+   "name": "Jean-Baptiste Chappe d'Auteroche",
+   "short": "Chappe",
+   "life": "1728–1769",
+   "role": "Abbé and astronomer of the Académie royale des sciences, aged 33 in 1761 and 41 in 1769",
+   "side": "France (Académie royale des sciences), hosted by Russia in 1761 and by Spain in 1769",
+   "where": "Tobolsk, Siberia (1761); mission of San José del Cabo, Baja California (1769)",
+   "lat": 58.2,
+   "lon": 68.25,
+   "waypoints": [
+    {
+     "lat": 48.86,
+     "lon": 2.35,
+     "label": "Paris, Nov 1760"
+    },
+    {
+     "lat": 48.21,
+     "lon": 16.37,
+     "label": "Vienna, 31 Dec 1760"
+    },
+    {
+     "lat": 58.2,
+     "lon": 68.25,
+     "label": "Tobolsk, Apr–Jun 1761"
+    },
+    {
+     "lat": 36.53,
+     "lon": -6.29,
+     "label": "Cadiz, 8 Mar 1768"
+    },
+    {
+     "lat": 19.18,
+     "lon": -96.14,
+     "label": "Veracruz, 1768"
+    },
+    {
+     "lat": 23.06,
+     "lon": -109.7,
+     "label": "San José del Cabo, 1769"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "expedition observer at the telescope, twice",
+   "form": "travel journal (published) and observing records",
+   "language": "French",
+   "authenticity": "Voyage en Sibérie (Paris, 1768) is his own edited account of the 1761 journey; a heavily abridged English version appeared in 1770. Voyage en Californie (Paris, 1772) was assembled after his death by César-François Cassini de Thury from his papers, which the engineer Pauly carried home. The California account mixes Chappe's own notes with Pauly's narrative of the epidemic.",
+   "bio": "The only astronomer to reach his station for both transits and to see both. In 1761 he raced by sledge across Russia and timed the whole transit at Tobolsk under Cossack guard; in 1769 he crossed to New Spain, made one of the best observations anywhere, and died of the epidemic he had refused to flee. His two journeys show the expeditions' real cost.",
+   "sources": [
+    {
+     "title": "Linda Hall Library, Scientist of the Day: Jean-Baptiste Chappe d'Auteroche",
+     "url": "https://www.lindahall.org/about/news/scientist-of-the-day/jean-baptiste-chappe-dauteroche/"
+    },
+    {
+     "title": "Chappe, Voyage en Californie (1772), scan on the IMCCE Venus-transit history CD",
+     "url": "https://vt2004.imcce.fr/CDs/CD-VT-histoire/scanparislite/20140/html/1.html"
+    },
+    {
+     "title": "Spanish edition with introduction by Marco A. Moreno Corral (UNAM, 2010)",
+     "url": "https://www.astrosen.unam.mx/divulgacion/libros/18-ABAD-CHAPPE-10abr12.pdf"
+    },
+    {
+     "title": "American Scientist, Transits, Travels and Tribulations III and IV",
+     "url": "https://www.americanscientist.org/node/2074"
+    }
+   ]
+  },
+  {
+   "id": "le-gentil",
+   "name": "Guillaume Le Gentil de la Galaisière",
+   "short": "Le Gentil",
+   "life": "1725–1792",
+   "role": "Astronomer of the Académie royale des sciences, aged 35 when he sailed",
+   "side": "France (Académie royale des sciences)",
+   "where": "At sea in the Indian Ocean (1761); Pondicherry, India (1769)",
+   "lat": 11.93,
+   "lon": 79.83,
+   "waypoints": [
+    {
+     "lat": 48.39,
+     "lon": -4.49,
+     "label": "Brest, Mar 1760"
+    },
+    {
+     "lat": -20.16,
+     "lon": 57.5,
+     "label": "Isle de France, Jul 1760"
+    },
+    {
+     "lat": 14.59,
+     "lon": 120.98,
+     "label": "Manila"
+    },
+    {
+     "lat": 11.93,
+     "lon": 79.83,
+     "label": "Pondicherry, Mar 1768"
+    },
+    {
+     "lat": -21.1,
+     "lon": 55.5,
+     "label": "Île Bourbon, 1770–71"
+    },
+    {
+     "lat": 48.86,
+     "lon": 2.35,
+     "label": "Paris, Oct 1771"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "expedition observer who saw nothing useful, twice",
+   "form": "memoir (written later), from his journals",
+   "language": "French",
+   "authenticity": "Voyage dans les mers de l'Inde, two volumes, Paris 1779 and 1781, written up from his journals after his return. It is a later, shaped account, not day-by-day entries.",
+   "bio": "Le Gentil left France in 1760 and did not return for eleven years. War kept him off his station in 1761, so he stayed in the Indian Ocean for the next transit, surveyed Madagascar, tried Manila, settled on Pondicherry, and was clouded out on the one morning that mattered. He came home to find himself declared dead, his seat taken and his estate divided.",
+   "sources": [
+    {
+     "title": "Le Gentil, Voyage dans les mers de l'Inde (1779), vol. 1, IMCCE scan",
+     "url": "https://vt2004.imcce.fr/CDs/CD-VT-histoire/scanparislite/2221_TOME_1/html/1.html"
+    },
+    {
+     "title": "Le Gentil, Voyage dans les mers de l'Inde, vol. 2, IMCCE scan",
+     "url": "https://vt2004.imcce.fr/CDs/CD-VT-histoire/scanparislite/2221_TOME_2/html/1.html"
+    },
+    {
+     "title": "Wikipedia: Guillaume Le Gentil",
+     "url": "https://en.wikipedia.org/wiki/Guillaume_Le_Gentil"
+    }
+   ]
+  },
+  {
+   "id": "mason",
+   "name": "Charles Mason",
+   "short": "Mason",
+   "life": "1728–1786",
+   "role": "Assistant at the Royal Observatory, Greenwich, aged 32; sent with the surveyor Jeremiah Dixon (1733–1779)",
+   "side": "Britain (Royal Society)",
+   "where": "HMS Seahorse in the Channel; then the Cape of Good Hope",
+   "lat": -33.92,
+   "lon": 18.42,
+   "waypoints": [
+    {
+     "lat": 50.37,
+     "lon": -4.14,
+     "label": "Plymouth, Jan 1761"
+    },
+    {
+     "lat": -33.92,
+     "lon": 18.42,
+     "label": "Cape of Good Hope, Apr–Oct 1761"
+    },
+    {
+     "lat": -15.96,
+     "lon": -5.71,
+     "label": "St Helena, late 1761"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "expedition observer, diverted by war",
+   "form": "dated letters and published observations",
+   "language": "English",
+   "authenticity": "His letters of 12 and 25 January 1761 to Charles Morton, Secretary of the Royal Society, are in the Society's archive (MM/10). The Cape results were printed in Philosophical Transactions vol. 52 (1762). Mason's voyage journal is held at Pennsylvania State University.",
+   "bio": "Mason and Dixon were bound for Bencoolen in Sumatra when a French frigate mauled their ship a day out. They begged to give up; the Society refused, and they ended up at the Cape, where they caught the end of the transit. The partnership led straight to their famous survey line in America.",
+   "sources": [
+    {
+     "title": "Royal Society archive: Mason to Morton, 12 January 1761",
+     "url": "https://catalogues.royalsociety.org/CalmView/rdf/catalog/MM/10/128"
+    },
+    {
+     "title": "Royal Society archive: Mason and Dixon to Morton, 25 January 1761",
+     "url": "https://catalogues.royalsociety.org/CalmView/rdf/catalog/MM/10/130"
+    },
+    {
+     "title": "Phil. Trans. 52 (1762) pp. 611–628, Cape observations (IMCCE scan)",
+     "url": "https://vt2004.imcce.fr/CDs/CD-VT-histoire/telech-txt-image/ILEJ/tome52/phil-tr-t52-p611-628/html/1.html"
+    }
+   ]
+  },
+  {
+   "id": "maskelyne",
+   "name": "Nevil Maskelyne",
+   "short": "Maskelyne",
+   "life": "1732–1811",
+   "role": "Clergyman-astronomer aged 28 in 1761; Astronomer Royal from 1765",
+   "side": "Britain (Royal Society)",
+   "where": "St Helena (1761); Greenwich, as planner and collector of results (1769)",
+   "lat": -15.96,
+   "lon": -5.71,
+   "waypoints": [
+    {
+     "lat": 51.51,
+     "lon": -0.13,
+     "label": "London, Jan 1761"
+    },
+    {
+     "lat": -15.96,
+     "lon": -5.71,
+     "label": "St Helena, Apr 1761–Feb 1762"
+    },
+    {
+     "lat": 51.48,
+     "lon": 0.0,
+     "label": "Greenwich, 1765 on"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "expedition observer (clouded out), later the organiser",
+   "form": "published observations, instructions and letters",
+   "language": "English",
+   "authenticity": "His St Helena work and the lunar-distance method are in Phil. Trans. and The British Mariner's Guide (1763). His 1768 printed instructions for observers and his letters to Franklin are documented in the Franklin Papers.",
+   "bio": "Maskelyne's 1761 expedition failed to see the transit, but the voyage let him test the lunar-distance method of finding longitude. As Astronomer Royal he became the clearing-house for the British 1769 effort, writing the instructions observers carried and receiving their results.",
+   "sources": [
+    {
+     "title": "MacTutor biography of Nevil Maskelyne",
+     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Maskelyne/"
+    },
+    {
+     "title": "Franklin to Winthrop, 2 July 1768 (notes on Maskelyne's instructions)",
+     "url": "https://founders.archives.gov/documents/Franklin/01-15-02-0091"
+    }
+   ]
+  },
+  {
+   "id": "pingre",
+   "name": "Alexandre-Guy Pingré",
+   "short": "Pingré",
+   "life": "1711–1796",
+   "role": "Canon of Sainte-Geneviève and astronomer, aged 49, with his assistant Denis Thuillier",
+   "side": "France (Académie royale des sciences)",
+   "where": "Rodrigues Island, Indian Ocean (1761); Cap-François, Saint-Domingue (1769)",
+   "lat": -19.72,
+   "lon": 63.42,
+   "waypoints": [
+    {
+     "lat": 47.75,
+     "lon": -3.37,
+     "label": "Lorient, late 1760"
+    },
+    {
+     "lat": -20.16,
+     "lon": 57.5,
+     "label": "Isle de France, 7 May 1761"
+    },
+    {
+     "lat": -19.72,
+     "lon": 63.42,
+     "label": "Rodrigues, 28 May 1761"
+    },
+    {
+     "lat": 19.76,
+     "lon": -72.2,
+     "label": "Cap-François, 1769"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "expedition observer, half clouded, then caught in a raid",
+   "form": "journal (manuscript) and published memoirs",
+   "language": "French",
+   "authenticity": "His Rodrigues journal survives as a long manuscript, including about a hundred pages on the British capture of the island; it was not printed in full in his lifetime. His later computations appeared in the Mémoires of the Académie.",
+   "bio": "An elderly canon who sailed through a war zone, Pingré saw only a cloudy half-hour of the 1761 transit, then watched British warships take the island. He went on to choose stations for 1769 and to compute one of the most-cited parallax values from the combined results.",
+   "sources": [
+    {
+     "title": "Chasing Venus: Pingré in Rodrigues (local history blog summarising his journal)",
+     "url": "https://insel-rodrigues.blogspot.com/2012/06/chasing-venuspingre-in-rodrigues.html"
+    },
+    {
+     "title": "Pingré 1767, Mémoire sur le choix des lieux… Vénus 1769 (IMCCE scan)",
+     "url": "https://vt2004.imcce.fr/CDs/CD-VT-histoire/scanparislite/1628_1/html/1.html"
+    }
+   ]
+  },
+  {
+   "id": "lomonosov",
+   "name": "Mikhail Vasilyevich Lomonosov",
+   "short": "Lomonosov",
+   "life": "1711–1765",
+   "role": "Polymath of the St Petersburg Imperial Academy of Sciences, aged 49",
+   "side": "Russia (Imperial Academy of Sciences)",
+   "where": "The roof of his own house on the Moika, St Petersburg",
+   "lat": 59.93,
+   "lon": 30.31,
+   "vantage": 2,
+   "vantage_label": "home observer who saw something no one else made sense of",
+   "form": "published observation (pamphlet)",
+   "language": "Russian (with his own German version)",
+   "authenticity": "Published as a pamphlet in July 1761 in 250 copies, with a German version distributed abroad. An English translation with commentary was posted by Shiltsev and colleagues (arXiv 1206.3489, 2012). Whether his small telescope could have shown the effect he described is debated (Pasachoff and Sheehan, 2012, against; reconstruction observers in 2012, for).",
+   "bio": "Lomonosov watched with a small refractor from home and saw, as Venus left the sun, a bright bulge on the solar edge ahead of the planet. He read it as sunlight bending through an atmosphere around Venus, the claim that has made his rooftop the most argued-about station of 1761.",
+   "sources": [
+    {
+     "title": "Shiltsev et al., Lomonosov's Discovery of Venus Atmosphere in 1761: English translation with commentaries (arXiv)",
+     "url": "https://arxiv.org/pdf/1206.3489"
+    },
+    {
+     "title": "Pasachoff & Sheehan, Lomonosov, the discovery of Venus's atmosphere, and eighteenth-century transits of Venus, JAHH 15 (2012)",
+     "url": "https://old.narit.or.th/files/JAHH/2012JAHHvol15/2012JAHH...15....3P.pdf"
+    }
+   ]
+  },
+  {
+   "id": "rumovsky",
+   "name": "Stepan Yakovlevich Rumovsky",
+   "short": "Rumovsky",
+   "life": "1734–1812",
+   "role": "Astronomer of the St Petersburg Academy, aged 26 in 1761; a former pupil of Euler",
+   "side": "Russia (Imperial Academy of Sciences)",
+   "where": "Selenginsk beyond Lake Baikal (1761); Kola on the Murman coast (1769)",
+   "lat": 51.1,
+   "lon": 106.65,
+   "waypoints": [
+    {
+     "lat": 59.93,
+     "lon": 30.31,
+     "label": "St Petersburg"
+    },
+    {
+     "lat": 51.1,
+     "lon": 106.65,
+     "label": "Selenginsk, 1761"
+    },
+    {
+     "lat": 68.88,
+     "lon": 33.02,
+     "label": "Kola, 1769"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "Russian expedition observer and coordinator",
+   "form": "published observations (Latin)",
+   "language": "Latin and Russian",
+   "authenticity": "His 1761 results were printed as Brevis expositio observationum… (St Petersburg, 1762). Day-by-day details of both journeys were not reachable for this chapter; his entries here are deliberately thin.",
+   "bio": "Rumovsky led Russia's own 1761 expedition into Siberia and in 1769 observed from Kola while helping coordinate the largest national network of that year, stretching from the Arctic to the Caspian and Yakutsk. He is the Russian Academy's working counterpart to the French stars.",
+   "sources": [
+    {
+     "title": "Rumovsky 1762, Brevis expositio (IMCCE scan)",
+     "url": "https://vt2004.imcce.fr/CDs/CD-VT-histoire/scanparislite/20269_05/html/1.html"
+    },
+    {
+     "title": "ESO VT-2004 Extended Information Sheet F6 (observing sites)",
+     "url": "https://eso.org/public/outreach/eduoff/vt-2004/Background/Infol2/EIS-F6.html"
+    }
+   ]
+  },
+  {
+   "id": "hell",
+   "name": "Maximilian Hell",
+   "short": "Hell",
+   "life": "1720–1792",
+   "role": "Jesuit, court astronomer in Vienna, aged 48 in 1769; invited by Christian VII of Denmark-Norway",
+   "side": "Habsburg Austria, working for Denmark-Norway",
+   "where": "Vienna (1761); the fortress island of Vardø, Finnmark (1769)",
+   "lat": 70.37,
+   "lon": 31.11,
+   "waypoints": [
+    {
+     "lat": 48.21,
+     "lon": 16.37,
+     "label": "Vienna, 28 Apr 1768"
+    },
+    {
+     "lat": 63.43,
+     "lon": 10.39,
+     "label": "Trondheim, Jul–Aug 1768"
+    },
+    {
+     "lat": 70.37,
+     "lon": 31.11,
+     "label": "Vardø, 11 Oct 1768"
+    },
+    {
+     "lat": 55.68,
+     "lon": 12.57,
+     "label": "Copenhagen, Oct 1769–May 1770"
+    },
+    {
+     "lat": 48.21,
+     "lon": 16.37,
+     "label": "Vienna, 12 Aug 1770"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "expedition observer, later accused of cooking his numbers",
+   "form": "observing records and published report",
+   "language": "Latin",
+   "authenticity": "His Vardø report was printed in Copenhagen in 1770. In 1835 Karl Ludwig Littrow published extracts of his manuscripts and accused him of altering them; Simon Newcomb re-examined the manuscripts and cleared him in 1883. His own Vardø diary materials and Sajnovics's diary survive in Vienna.",
+   "bio": "Hell spent nearly nine months at Vardø, above the Arctic Circle, measuring aurora, tides, magnetism and weather while waiting for one night. He got his observation through breaks in the cloud, then took more than a year to publish, a delay that turned into a suspicion that shadowed him for a century.",
+   "sources": [
+    {
+     "title": "Hansen & Aspaas, Maximilian Hell's geomagnetic observations in Norway 1769 (Tromsø Geophysical Observatory Reports 2, 2005)",
+     "url": "https://geo.phys.uit.no/tgor/Hell-text.pdf"
+    },
+    {
+     "title": "Aspaas & Kontler, Maximilian Hell (1720–92) and the Ends of Jesuit Science (open access, Austria-Forum)",
+     "url": "https://austria-forum.org/web-books/en/maximilianhell00en2020isds/000286"
+    },
+    {
+     "title": "Vatican Observatory: Maximilian Hell (2022)",
+     "url": "https://www.vaticanobservatory.org/wp-content/uploads/2022/05/Maximilian-Hell-2022-for-Vatican-Sacred-Space-Astronomy-Website.pdf"
+    }
+   ]
+  },
+  {
+   "id": "sajnovics",
+   "name": "János Sajnovics",
+   "short": "Sajnovics",
+   "life": "1733–1785",
+   "role": "Hungarian Jesuit, Hell's assistant, aged 35",
+   "side": "Habsburg Hungary, working for Denmark-Norway",
+   "where": "Vardø, Finnmark (1768–69); Copenhagen (1769–70)",
+   "lat": 70.37,
+   "lon": 31.11,
+   "waypoints": [
+    {
+     "lat": 48.21,
+     "lon": 16.37,
+     "label": "Vienna, Apr 1768"
+    },
+    {
+     "lat": 70.37,
+     "lon": 31.11,
+     "label": "Vardø, Oct 1768"
+    },
+    {
+     "lat": 55.68,
+     "lon": 12.57,
+     "label": "Copenhagen, 1769–70"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "assistant and diarist at the station",
+   "form": "diary",
+   "language": "Latin",
+   "authenticity": "His travel diary survives in manuscript (Vienna) and was used, partly published, by Littrow in 1835; it is a chatty travel account with brief notes on daily science and weather. His Demonstratio idioma Ungarorum et Lapponum idem esse was printed in Copenhagen in 1770.",
+   "bio": "Sajnovics is the assistant whose diary gives the hour-by-hour weather of the Vardø transit day. While there he noticed that the Sámi language resembled his own Hungarian, and his 1770 Demonstratio became a founding text of Finno-Ugric linguistics: a second discovery that came out of an astronomy trip.",
+   "sources": [
+    {
+     "title": "Aspaas, Standing on the shoulders of Scandinavian giants? Nordlit 50 (2022)",
+     "url": "https://septentrio.uit.no/index.php/nordlit/article/download/6553/6874/27148"
+    },
+    {
+     "title": "Hansen & Aspaas (2005), on Sajnovics's diary",
+     "url": "https://geo.phys.uit.no/tgor/Hell-text.pdf"
+    }
+   ]
+  },
+  {
+   "id": "cook",
+   "name": "James Cook",
+   "short": "Cook",
+   "life": "1728–1779",
+   "role": "Lieutenant RN, aged 40, commander of HM Bark Endeavour and appointed observer",
+   "side": "Britain (Royal Navy, Royal Society)",
+   "where": "Fort Venus, Point Venus, Tahiti",
+   "lat": -17.49,
+   "lon": -149.5,
+   "vantage": 0,
+   "vantage_label": "commander and observer at the station",
+   "form": "journal (ship's journal)",
+   "language": "English",
+   "authenticity": "Holograph journal in the National Library of Australia; printed by Wharton (1893) and Beaglehole (1955). Uses the nautical day; the transit date matches the civil date here.",
+   "bio": "Cook was chosen to carry Green and the Royal Society's instruments to Tahiti, a sealed second order sending him on to look for a southern continent. His journal shows the transit as the mission's fixed point, and his sketch of the planet's smeared edge became a famous image of the black drop.",
+   "sources": [
+    {
+     "title": "South Seas transcript of Cook's journal, 3 June 1769",
+     "url": "https://paulturnbull.org/project/southseas/journals/cook/17690603.html"
+    },
+    {
+     "title": "National Library of Australia: Transit of Venus",
+     "url": "https://www.library.gov.au/node/1447"
+    }
+   ]
+  },
+  {
+   "id": "green",
+   "name": "Charles Green",
+   "short": "Green",
+   "life": "1734–1771",
+   "role": "Former assistant at the Royal Observatory, aged 34, the Royal Society's astronomer on the Endeavour",
+   "side": "Britain (Royal Society)",
+   "where": "Fort Venus, Point Venus, Tahiti",
+   "lat": -17.49,
+   "lon": -149.5,
+   "vantage": 0,
+   "vantage_label": "chief observer at the station",
+   "form": "observing records and published observations",
+   "language": "English",
+   "authenticity": "His and Cook's observations were printed in Phil. Trans. 61 (1771); his own log is fragmentary. He died before the results were published.",
+   "bio": "A Greenwich assistant of humble background, Green was the professional astronomer of the Endeavour, teaching the officers lunar distances on the way. He timed the transit beside Cook and Solander and died of dysentery on the way home, so he never saw his numbers in print.",
+   "sources": [
+    {
+     "title": "Captain Cook Society: Charles Green, man without a face",
+     "url": "https://www.captaincooksociety.com/cooks-life/people/cooks-officers-and-crew-and-contemporaries/charles-green-man-without-a-face"
+    },
+    {
+     "title": "Phil. Trans. 61 (1771) pp. 397–405 (IMCCE scan)",
+     "url": "https://vt2004.imcce.fr/CDs/CD-VT-histoire/telech-txt-image/ILEJ/tome61/phil-tr-t61-p397-405/html/1.html"
+    }
+   ]
+  },
+  {
+   "id": "rittenhouse",
+   "name": "David Rittenhouse",
+   "short": "Rittenhouse",
+   "life": "1732–1796",
+   "role": "Self-taught clock- and instrument-maker, aged 37, observing for the American Philosophical Society",
+   "side": "British North America (Pennsylvania; American Philosophical Society)",
+   "where": "His farm observatory at Norriton, Pennsylvania",
+   "lat": 40.15,
+   "lon": -75.33,
+   "vantage": 0,
+   "vantage_label": "colonial observer at his own station",
+   "form": "published observations; dated letters about them",
+   "language": "English",
+   "authenticity": "The Norriton observations, with William Smith's account, were printed in Transactions of the American Philosophical Society vol. 1 (1771). The often-told story that Rittenhouse fainted at the crucial moment comes from later accounts, notably his nephew William Barton's memoir (1813); Cadwalader Evans's letter of 11 June 1769 says Rittenhouse saw the contact first.",
+   "bio": "Rittenhouse built his own observatory and clock for the transit, and the colonial observers, at Norriton, Philadelphia and Cape Henlopen, became the first big scientific effort of the American Philosophical Society. The quarrel over who was named first in the papers shows that credit mattered as much there as in Paris.",
+   "sources": [
+    {
+     "title": "Cadwalader Evans to Benjamin Franklin, 11 June 1769 (Founders Online)",
+     "url": "https://founders.archives.gov/documents/Franklin/01-16-02-0076"
+    },
+    {
+     "title": "IMCCE: Venus 1769, Rittenhouse",
+     "url": "https://vt2004.imcce.fr/CDs/CD-VT-histoire/html/venus-1769-rittenhouse.html"
+    }
+   ]
+  },
+  {
+   "id": "wales",
+   "name": "William Wales",
+   "short": "Wales",
+   "life": "c.1734–1798",
+   "role": "Mathematician and computer for the Nautical Almanac, aged about 34, sent with Joseph Dymond",
+   "side": "Britain (Royal Society, with the Hudson's Bay Company)",
+   "where": "Prince of Wales Fort, Churchill River, Hudson Bay",
+   "lat": 58.8,
+   "lon": -94.21,
+   "waypoints": [
+    {
+     "lat": 51.51,
+     "lon": -0.13,
+     "label": "London, 23 Jun 1768"
+    },
+    {
+     "lat": 58.8,
+     "lon": -94.21,
+     "label": "Churchill, 9 Aug 1768 – Sep 1769"
+    },
+    {
+     "lat": 51.51,
+     "lon": -0.13,
+     "label": "London, 19 Oct 1769"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "expedition observer who wintered for it",
+   "form": "journal (weather journal, published)",
+   "language": "English",
+   "authenticity": "Wales's journal of the voyage and wintering was printed in Phil. Trans. vol. 60 (1770). He says himself that from September 1768 to late August 1769 he kept no journal except of the weather, so his transit day survives in the observation report rather than in prose.",
+   "bio": "Wales and Dymond spent a sub-Arctic winter at the Hudson's Bay Company fort to catch a few hours of transit. His journal of brandy freezing in the observatory is the coldest page of the whole enterprise. He later sailed as astronomer on Cook's second voyage.",
+   "sources": [
+    {
+     "title": "Captain Cook Society: William Wales's journal of his first voyage, part 3",
+     "url": "https://www.captaincooksociety.com/cooks-life/people/cooks-officers-and-crew-and-contemporaries/william-wales-journal-of-his-first-voyage-part-3"
+    },
+    {
+     "title": "Dictionary of Canadian Biography: Wales, William",
+     "url": "https://www.biographi.ca/en/bio/wales_william_4E.html"
+    }
+   ]
+  },
+  {
+   "id": "velazquez",
+   "name": "Joaquín Velázquez Cárdenas de León",
+   "short": "Velázquez",
+   "life": "1732–1786",
+   "role": "Mexican-born lawyer, mathematician and astronomer, aged 36, attached to Visitor-General José de Gálvez",
+   "side": "New Spain (Spanish Empire)",
+   "where": "A hill above the mining camp of Real de Santa Ana, south-west of La Paz, Baja California",
+   "lat": 23.8,
+   "lon": -110.1,
+   "waypoints": [
+    {
+     "lat": 19.43,
+     "lon": -99.13,
+     "label": "Mexico City, 5 Apr 1768"
+    },
+    {
+     "lat": 23.8,
+     "lon": -110.1,
+     "label": "Santa Ana, 1769"
+    },
+    {
+     "lat": 23.06,
+     "lon": -109.7,
+     "label": "San José del Cabo, Nov 1769"
+    },
+    {
+     "lat": 19.43,
+     "lon": -99.13,
+     "label": "Mexico City, 11 Dec 1770"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "American-born observer at his own station",
+   "form": "observing report and dated letters",
+   "language": "Spanish and Latin",
+   "authenticity": "His observations were sent to Chappe and to Spanish officials on 4 June 1769 and were printed by Cassini in Voyage en Californie (1772), with a transcription error of about two minutes of arc in Santa Ana's position. English translation in Nunis (ed.), The 1769 Transit of Venus (Los Angeles, 1982).",
+   "bio": "A creole scholar from New Spain, Velázquez set up his own station on a hill near Santa Ana, a day's ride from Chappe, and timed the transit independently. When the French and Spanish party was destroyed by epidemic, he carried on their work with their instruments. He is the non-European-born observer whose numbers sit in the French record.",
+   "sources": [
+    {
+     "title": "Moreno Corral, introduction to the Spanish edition of Chappe's Viaje a Baja California (UNAM, 2010)",
+     "url": "https://www.astrosen.unam.mx/divulgacion/libros/18-ABAD-CHAPPE-10abr12.pdf"
+    },
+    {
+     "title": "Journal of San Diego History review of Nunis (ed.), The 1769 Transit of Venus",
+     "url": "https://sandiegohistory.org/journal/1983/july/br-venus"
+    },
+    {
+     "title": "EcuRed: Joaquín Velázquez de León",
+     "url": "https://www.ecured.cu/Joaqu%C3%ADn_Vel%C3%A1zquez_de_Le%C3%B3n"
+    }
+   ]
+  },
+  {
+   "id": "lalande",
+   "name": "Jérôme Lalande",
+   "short": "Lalande",
+   "life": "1732–1807",
+   "role": "Astronomer of the Académie royale des sciences, aged 29 in 1761",
+   "side": "France (Académie royale des sciences)",
+   "where": "Palais du Luxembourg, Paris (1761); observatory of the Collège Mazarin, Paris (1769)",
+   "lat": 48.85,
+   "lon": 2.34,
+   "vantage": 3,
+   "vantage_label": "home observer and the clearing-house for results",
+   "form": "published memoirs, letters",
+   "language": "French",
+   "authenticity": "His observations and reductions appeared in the Histoire et Mémoires de l'Académie royale des sciences (1769 volume and after); manuscripts of 1771 are reproduced on the IMCCE CD.",
+   "bio": "Lalande observed from Paris both times, but his real station was his desk: after Delisle he became the collector of the world's results, chasing late reports and turning them into a value for the sun's distance. His impatience with late senders helped feed the suspicion against Hell.",
+   "sources": [
+    {
+     "title": "IMCCE: Transit of Venus of 1769, observations made in Paris (Lalande)",
+     "url": "https://vt2004.imcce.fr/en/expeditions/venus-1769-lalande_eng.html"
+    },
+    {
+     "title": "Lalande 1771, manuscripts (IMCCE scan)",
+     "url": "https://vt2004.imcce.fr/CDs/CD-VT-histoire/scanparislite/C_5_29/html/1.html"
+    }
+   ]
+  },
+  {
+   "id": "franklin",
+   "name": "Benjamin Franklin",
+   "short": "Franklin",
+   "life": "1706–1790",
+   "role": "Colonial agent in London, Fellow of the Royal Society, aged 62",
+   "side": "British North America, in London",
+   "where": "Craven Street, London",
+   "lat": 51.51,
+   "lon": -0.12,
+   "vantage": 4,
+   "vantage_label": "correspondent and go-between in London",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Letters to and from Winthrop, Evans and Maskelyne are edited in The Papers of Benjamin Franklin and online at Founders Online, with editorial notes.",
+   "bio": "Franklin did not observe either transit, but his letters show the network at work: chasing instrument-makers for colonial observers, urging an American station, and passing Pennsylvania's results to the Astronomer Royal amid local quarrels over credit.",
+   "sources": [
+    {
+     "title": "Franklin to John Winthrop, 2 July 1768",
+     "url": "https://founders.archives.gov/documents/Franklin/01-15-02-0091"
+    },
+    {
+     "title": "Franklin to Cadwalader Evans, 7 September 1769",
+     "url": "https://founders.archives.gov/documents/Franklin/01-16-02-0113"
+    },
+    {
+     "title": "John Winthrop to Franklin: On Observing the Transit of Venus, 6 September 1769",
+     "url": "https://founders.archives.gov/documents/Franklin/01-16-02-0112"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1760-03",
+   "date_display": "March 1760",
+   "precision": "month",
+   "eye": "le-gentil",
+   "place": "Brest",
+   "headline": "Le Gentil sails for India, fifteen months early",
+   "digest": "Le Gentil leaves France for Pondicherry, a French post on the Coromandel coast, with more than a year in hand. Britain and France are at war, and the timetable assumes the sea lanes stay open. By July he is at Isle de France (Mauritius), where the war stops him going further.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Le Gentil, Voyage dans les mers de l'Inde (1779); Wikipedia and American Scientist summaries (sailed March 1760, Mauritius July 1760)."
+  },
+  {
+   "date_iso": "1760-12-31",
+   "date_display": "Wednesday 31 December 1760",
+   "precision": "day",
+   "eye": "chappe",
+   "place": "Vienna",
+   "headline": "Chappe reaches Vienna on the long road to Siberia",
+   "digest": "Chappe left Paris in late November with instruments packed for a winter journey of thousands of kilometres. He reaches Vienna on the last day of the year, leaves on 8 January, and by late January is in Warsaw, about to cross Russia by sledge before the spring thaw makes the roads impassable.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "American Scientist, Transits, Travels and Tribulations III (itinerary dates)."
+  },
+  {
+   "date_iso": "1761-01-12",
+   "date_display": "Monday 12 January 1761",
+   "precision": "day",
+   "eye": "mason",
+   "place": "Portsmouth (dated); HMS Seahorse back in port",
+   "headline": "A French frigate wrecks the plan for Sumatra",
+   "digest": "Mason writes to the Royal Society's secretary that a 34-gun French frigate, L'Grand, attacked the Seahorse in the Channel, killing eleven men and wounding thirty-seven. The ship has had to turn back for repairs. Shaken, he tells the Society that the Sumatra station is now out of reach.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Royal Society archive MM/10/128, catalogue description and quotation."
+  },
+  {
+   "date_iso": "1761-01-18",
+   "date_display": "Sunday 18 January 1761",
+   "precision": "day",
+   "eye": "maskelyne",
+   "place": "London / the Prince Henry",
+   "headline": "Maskelyne sails for St Helena",
+   "digest": "Maskelyne boards the East India ship Prince Henry for St Helena. He spends the voyage taking lunar distances with Tobias Mayer's tables, testing a way to find longitude at sea that will matter far beyond the transit.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "MacTutor biography of Maskelyne."
+  },
+  {
+   "date_iso": "1761-01-25",
+   "date_display": "Sunday 25 January 1761",
+   "precision": "day",
+   "eye": "mason",
+   "place": "Plymouth",
+   "headline": "Mason and Dixon argue for a different station",
+   "digest": "Replying to two letters from the Society's secretary, Mason and Dixon say they cannot now reach any place east of the Cape soon enough to give a useful comparison with Greenwich and St Helena. They propose Scanderoon (Iskenderun) in the Levant instead. The Society insists they sail; they end up at the Cape itself.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Royal Society archive MM/10/130, catalogue description."
+  },
+  {
+   "date_iso": "1761-03-17",
+   "date_display": "Tuesday 17 March 1761 (6 March O.S. in Russia)",
+   "precision": "day",
+   "eye": "chappe",
+   "place": "Moscow",
+   "headline": "Chappe leaves Moscow, racing the thaw",
+   "digest": "After St Petersburg, where the Academy has arranged his route, Chappe leaves Moscow eastward by sledge. Rivers are about to break up, and a wrecked sledge or a flooded crossing could cost him the transit. He reaches Tobolsk in mid-April and builds an observatory on a height above the town.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "American Scientist III (left Moscow 17 March, reached Tobolsk mid-April); Linda Hall Library."
+  },
+  {
+   "date_iso": "1761-04-06",
+   "date_display": "Monday 6 April 1761",
+   "precision": "day",
+   "eye": "maskelyne",
+   "place": "St Helena",
+   "headline": "Maskelyne lands with two months to spare",
+   "digest": "Maskelyne and his assistant Robert Waddington reach St Helena with time to choose a site and set up. The island was chosen as a southern station for comparison with Greenwich.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "MacTutor biography of Maskelyne."
+  },
+  {
+   "date_iso": "1761-05-18",
+   "date_display": "Monday 18 May 1761 (7 May O.S.)",
+   "precision": "day",
+   "eye": "chappe",
+   "place": "Tobolsk",
+   "headline": "A lunar eclipse fixes Tobolsk on the map",
+   "digest": "Chappe uses an eclipse of the moon to work out Tobolsk's longitude, without which his transit times would be useless for comparison. The spring floods have been severe, and some townspeople blame the foreign astronomer for interfering with the heavens; the governor provides a guard.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia, Chappe d'Auteroche (lunar eclipse of 18 May; floods; Cossack guard)."
+  },
+  {
+   "date_iso": "1761-05-28",
+   "date_display": "Thursday 28 May 1761",
+   "precision": "day",
+   "eye": "pingre",
+   "place": "Rodrigues Island",
+   "headline": "Pingré lands on Rodrigues nine days before",
+   "digest": "After an attack at sea in January and a forced stop at Isle de France, Pingré and Thuillier sight Rodrigues on 26 May and land on the 28th. They set up near the cove once used by the Huguenot castaway François Leguat.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Rodrigues local-history summary of Pingré's journal (26 May sighted, 28 May landed)."
+  },
+  {
+   "date_iso": "1761-06",
+   "date_display": "June 1761",
+   "precision": "month",
+   "eye": "pingre",
+   "place": "Rodrigues Island",
+   "headline": "British warships take the island",
+   "digest": "Soon after the transit, British ships capture Rodrigues, and the French ship meant to carry Pingré away is taken. His journal gives about a hundred pages to the capture and to his months as a stranded civilian, before he gets back to Isle de France.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Rodrigues summary of Pingré's manuscript (capture described at length); exact dates not verified here."
+  },
+  {
+   "date_iso": "1761-06-06",
+   "date_display": "Saturday 6 June 1761 (26 May O.S.)",
+   "precision": "day",
+   "eye": "chappe",
+   "place": "Tobolsk, Siberia",
+   "headline": "Clear sky in Siberia: the whole transit timed",
+   "digest": "The day before was overcast, but on the morning of the transit the sky clears. Chappe times the planet's entry and exit and watches the whole passage, one of the few complete observations of 1761. He publishes the results first in St Petersburg; more than a century later they were still used in calculations of the sun's distance.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Linda Hall Library; Wikipedia; American Scientist III."
+  },
+  {
+   "date_iso": "1761-06-06",
+   "date_display": "Saturday 6 June 1761",
+   "precision": "day",
+   "eye": "le-gentil",
+   "place": "At sea, Indian Ocean, aboard a French frigate",
+   "headline": "Perfect weather, and a rolling deck",
+   "digest": "Le Gentil's ship, blown off course for weeks and then turned back when the captain learned that the British held Pondicherry, is still at sea on the day. The sky is clear and he sees Venus on the sun, but without a steady deck or a known position his times have no scientific value.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Le Gentil, Voyage (1779); American Scientist III; Wikipedia."
+  },
+  {
+   "date_iso": "1761-06-06",
+   "date_display": "Saturday 6 June 1761",
+   "precision": "day",
+   "eye": "mason",
+   "place": "Cape of Good Hope",
+   "headline": "At the Cape, only the planet's exit",
+   "digest": "The transit has already begun when the sun rises at the Cape, so Mason and Dixon can time only the end. Their egress times, sent to London, were among the useful southern results of 1761 and were reported to the Royal Society by James Short.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "IMCCE page on Mason (egress only); Short, Phil. Trans. 52 (1762) 611–628."
+  },
+  {
+   "date_iso": "1761-06-06",
+   "date_display": "Saturday 6 June 1761",
+   "precision": "day",
+   "eye": "maskelyne",
+   "place": "St Helena",
+   "headline": "Clouds over St Helena",
+   "digest": "After months of preparation, the sky over St Helena is clouded and Maskelyne sees nothing useful. He stays on the island trying to measure the parallax of the star Sirius, until he concludes his instrument is faulty.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "MacTutor biography; IMCCE fiche 20b (bad weather at St Helena)."
+  },
+  {
+   "date_iso": "1761-06-06",
+   "date_display": "Saturday 6 June 1761",
+   "precision": "day",
+   "eye": "pingre",
+   "place": "Rodrigues Island",
+   "headline": "Half an hour of sun, and a strong wind",
+   "digest": "The weather is mostly bad. Between about eight and half past, local time, the clouds part, but a strong wind shakes the telescope and Pingré judges the observation far from satisfactory. He saves what he can for the computers in Paris.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Rodrigues summary of Pingré's journal."
+  },
+  {
+   "date_iso": "1761-06-06",
+   "date_display": "Saturday 6 June 1761 (26 May 1761 O.S.)",
+   "precision": "day",
+   "eye": "lomonosov",
+   "place": "His house on the Moika, St Petersburg",
+   "headline": "A bright rim around Venus",
+   "digest": "Watching through a small two-lens refractor with a lightly smoked glass, Lomonosov sees the sun's edge blur as Venus enters. As it leaves, a bright bulge forms on the solar edge ahead of the planet, grows and vanishes. He concludes that Venus has an atmosphere at least as large as Earth's, bending sunlight around its rim.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lomonosov's pamphlet in English translation with commentary, arXiv 1206.3489."
+  },
+  {
+   "date_iso": "1761-06-06",
+   "date_display": "Saturday 6 June 1761 (26 May O.S.)",
+   "precision": "day",
+   "eye": "rumovsky",
+   "place": "Selenginsk, beyond Lake Baikal",
+   "headline": "Russia's own expedition watches from beyond Baikal",
+   "digest": "Rumovsky observes at Selenginsk, with Nikita Popov at Irkutsk, the Russian Academy's answer to the French presence at Tobolsk. Their results are reduced in St Petersburg and published the next year.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Lomonosov translation commentary (arXiv 1206.3489) lists Rumovsky at Selenginsk and Popov at Irkutsk; the weather and his exact results were not verified here."
+  },
+  {
+   "date_iso": "1761-06-06",
+   "date_display": "Saturday 6 June 1761",
+   "precision": "day",
+   "eye": "hell",
+   "place": "Vienna",
+   "headline": "Hell watches from Vienna",
+   "digest": "Hell, the Habsburg court astronomer, observes the transit from Vienna, where Cassini de Thury has also come to observe with the young Archduke Joseph. For Hell it is a home-station observation; eight years later he will travel to the edge of the Arctic for the next one.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Vatican Observatory biography (observed 6 June 1761 in Vienna); IMCCE fiche 20b (Cassini at Vienna)."
+  },
+  {
+   "date_iso": "1761-06-06",
+   "date_display": "Saturday 6 June 1761",
+   "precision": "day",
+   "eye": "lalande",
+   "place": "Palais du Luxembourg, Paris",
+   "headline": "Lalande observes from the Luxembourg",
+   "digest": "Lalande watches from the Luxembourg palace in Paris, part of the home network against which the distant stations will be compared. Across Europe more than a hundred professional observers at about sixty sites are doing the same, many of them alerted by Delisle's map.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "IMCCE fiche 20b (Lalande at Luxembourg; Newcomb's count of 120 observers at 62 sites)."
+  },
+  {
+   "date_iso": "1761-07-28",
+   "date_display": "17 July 1761 (O.S.); submitted 4 July O.S.",
+   "precision": "day",
+   "eye": "lomonosov",
+   "place": "St Petersburg",
+   "headline": "Lomonosov prints his atmosphere of Venus",
+   "digest": "Lomonosov's pamphlet on the appearance of Venus on the sun is printed in 250 copies, followed in August by a German version for foreign readers. It is the first published claim that Venus has an atmosphere, set out with sketches of what he saw at entry and exit.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "arXiv 1206.3489 (submitted 4 July, published 17 July 1761, O.S. as used by the Academy; date_iso converted)."
+  },
+  {
+   "date_iso": "1762",
+   "date_display": "1762",
+   "precision": "year",
+   "eye": "rumovsky",
+   "place": "St Petersburg",
+   "headline": "Rumovsky publishes the Russian results",
+   "digest": "Rumovsky's Latin Brevis expositio presents the Russian observations of 1761 for the international community. Like the other first reductions, it shows how badly the scattered results agree: values for the sun's parallax from 1761 ran from about 8.3 to over 10 seconds of arc.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "IMCCE list of 1761 texts (Rumovsky 1762, Brevis Expositio); IMCCE fiche 20c (1761 spread)."
+  },
+  {
+   "date_iso": "1768-03",
+   "date_display": "March 1768",
+   "precision": "month",
+   "eye": "le-gentil",
+   "place": "Pondicherry",
+   "headline": "Le Gentil settles in for the second chance",
+   "digest": "After mapping Madagascar's east coast and an unwelcoming stay at Spanish Manila, Le Gentil returns to Pondicherry, now French again under the 1763 peace. He builds a small observatory and has over a year to wait.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia (arrived Pondicherry March 1768, built observatory)."
+  },
+  {
+   "date_iso": "1768-03-08",
+   "date_display": "Tuesday 8 March 1768",
+   "precision": "day",
+   "eye": "chappe",
+   "place": "Cadiz",
+   "headline": "Chappe sails for New Spain",
+   "digest": "The Spanish crown has allowed a French expedition into its Pacific coast only with Spanish officers attached. Chappe leaves Cadiz with an engineer, an artist, a clockmaker and the naval officers Vicente de Doz and Salvador de Medina. The Atlantic crossing takes 77 days.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "American Scientist IV (sailed from Cadiz 8 March 1768, 77 days); IMCCE fiche 20c (party members)."
+  },
+  {
+   "date_iso": "1768-04-28",
+   "date_display": "Thursday 28 April 1768",
+   "precision": "day",
+   "eye": "hell",
+   "place": "Vienna",
+   "headline": "Hell leaves Vienna for the Arctic",
+   "digest": "Invited by Christian VII of Denmark-Norway, Hell sets out with Sajnovics. They travel by way of Copenhagen and Christiania, spend three weeks in Trondheim and sail north along the coast, arriving at the fortress of Vardø on 11 October.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Hansen & Aspaas (2005); Aspaas, Nordlit 50 (2022)."
+  },
+  {
+   "date_iso": "1768-07-02",
+   "date_display": "Saturday 2 July 1768",
+   "precision": "day",
+   "eye": "franklin",
+   "place": "London",
+   "headline": "Franklin reports a run on instruments",
+   "digest": "Franklin tells John Winthrop at Harvard that the instrument-maker Bird is swamped: the Royal Society wants instruments for Siberia, the South Seas and Hudson's Bay, and France and Russia are ordering too. He passes on Maskelyne's wish for an astronomer at Lake Superior and urges Winthrop to go himself or send a pupil.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Founders Online, Franklin to Winthrop, 2 July 1768, with editorial notes."
+  },
+  {
+   "date_iso": "1768-10-11",
+   "date_display": "Tuesday 11 October 1768",
+   "precision": "day",
+   "eye": "sajnovics",
+   "place": "Vardø",
+   "headline": "The Jesuits reach Vardø for the long wait",
+   "digest": "Hell and Sajnovics reach Vardø, a fortress island off the Arctic coast near the Russian border. They will spend nearly nine months there observing aurora, tides, magnetism and weather. Sajnovics's diary reads like a travel book, with only brief notes on the science.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Hansen & Aspaas (2005); Nordlit 50 (2022)."
+  },
+  {
+   "date_iso": "1768-11-06",
+   "date_display": "Sunday 6 November 1768",
+   "precision": "day",
+   "eye": "wales",
+   "place": "Prince of Wales Fort, Churchill River",
+   "headline": "Brandy freezes inside the observatory",
+   "digest": "The river is frozen across, and Wales records that a half-pint glass of English brandy has frozen solid inside the observatory. He and Dymond have been at the Hudson's Bay Company fort since August with seven months still to wait.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wales's journal, Phil. Trans. 60 (1770), via Captain Cook Society extract."
+  },
+  {
+   "date_iso": "1769-01",
+   "date_display": "January 1769",
+   "precision": "month",
+   "eye": "wales",
+   "place": "Prince of Wales Fort",
+   "headline": "So cold the clock needs extra weight",
+   "digest": "In the depth of winter even the small alarm clock needs extra weight to keep running. Wales carries brandy outside and finds it thickened within minutes, and lies awake listening to the fort's beams crack in the frost.",
+   "quote": "as thick as treacle",
+   "confidence": "verified",
+   "source_note": "Wales's journal, Phil. Trans. 60 (1770), via Captain Cook Society extract."
+  },
+  {
+   "date_iso": "1769-05-18",
+   "date_display": "Thursday 18 May 1769",
+   "precision": "day",
+   "eye": "sajnovics",
+   "place": "Vardø",
+   "headline": "A pig upsets the magnetic instrument",
+   "digest": "With the transit two weeks away, Sajnovics notes that a pig has knocked over the set-up for measuring magnetic dip. A comic entry, but a reminder that this station was a working farmyard at the edge of the world.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sajnovics's diary as summarised in Hansen & Aspaas (2005)."
+  },
+  {
+   "date_iso": "1769-05-21",
+   "date_display": "about 21 May 1769",
+   "precision": "day",
+   "eye": "chappe",
+   "place": "San José del Cabo, Baja California",
+   "headline": "Landing into an epidemic with thirteen days left",
+   "digest": "After crossing Mexico and a slow voyage from San Blas, Chappe lands at the mission of San José del Cabo thirteen days before the transit. Local people warn of a terrible epidemic and advise him to go north, but there is no time to move the instruments. He sets up where he is.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "American Scientist IV (landed 13 days before the transit; epidemic warning). Day computed from that statement."
+  },
+  {
+   "date_iso": "1769-06-03",
+   "date_display": "Saturday 3 June 1769",
+   "precision": "day",
+   "eye": "cook",
+   "place": "Fort Venus, Point Venus, Tahiti",
+   "headline": "A cloudless day, and a blur no one expected",
+   "digest": "The day is perfectly clear, and Cook, Green and Solander follow the planet for about six hours from the fort. A dark haze clings to the planet's edge at the moments of contact, and their timings disagree by more than they should. Cook notes the heat was greater than anything they had yet felt.",
+   "quote": "not a Clowd was to be seen the Whole day",
+   "confidence": "verified",
+   "source_note": "Cook's journal, 3 June 1769 (South Seas transcript; NLA Transit of Venus page)."
+  },
+  {
+   "date_iso": "1769-06-03",
+   "date_display": "Saturday 3 June 1769",
+   "precision": "day",
+   "eye": "green",
+   "place": "Fort Venus, Point Venus, Tahiti",
+   "headline": "The astronomer times the contacts through the black drop",
+   "digest": "Green is the chief observer at the fort. As Venus enters, a dark band seems to tie the planet to the sun's edge, so the instant of contact cannot be fixed cleanly. Every station that day faced this black drop, which more than anything else limited the 1769 result.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Green & Cook, Phil. Trans. 61 (1771) 397–421; Captain Cook Society biography of Green."
+  },
+  {
+   "date_iso": "1769-06-03",
+   "date_display": "Saturday 3 June 1769",
+   "precision": "day",
+   "eye": "chappe",
+   "place": "San José del Cabo",
+   "headline": "One of the best observations of the day",
+   "digest": "Under a clear sky Chappe records the planet's entry just before noon local time and its exit in the late afternoon, describing the black drop as he sees it. Sick colleagues and townspeople are already dying around the mission. His times turned out to be among the best of 1769.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Moreno Corral's introduction (Chappe: ingress 11h 59m 17s, egress 5h 54m 50s); American Scientist IV; Wikipedia (black drop)."
+  },
+  {
+   "date_iso": "1769-06-03",
+   "date_display": "Saturday 3 June 1769",
+   "precision": "day",
+   "eye": "velazquez",
+   "place": "Hill above Real de Santa Ana, Baja California",
+   "headline": "A Mexican observer times it on his own hill",
+   "digest": "Velázquez has climbed a hill near Santa Ana, because the town has no clear horizon. He records the first contact at 11h 55m 45s and the exit at 5h 53m 36s local time, an independent measurement a few dozen kilometres from Chappe's station.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Moreno Corral's introduction to the 2010 Spanish edition of Chappe's Voyage."
+  },
+  {
+   "date_iso": "1769-06-03",
+   "date_display": "Saturday 3 June 1769",
+   "precision": "day",
+   "eye": "rittenhouse",
+   "place": "Norriton, Pennsylvania",
+   "headline": "Norriton sees the contact first",
+   "digest": "At the farm observatory Rittenhouse sees the contact first, then John Lukens, then William Smith, who signals and records. Rittenhouse's and Lukens's times nearly agree. A later family account says he fainted with the excitement; the contemporary letter about the observation does not mention it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Cadwalader Evans to Franklin, 11 June 1769 (Founders Online); fainting story from later accounts (Barton, 1813) flagged as such."
+  },
+  {
+   "date_iso": "1769-06-03",
+   "date_display": "Saturday 3 June 1769",
+   "precision": "day",
+   "eye": "wales",
+   "place": "Prince of Wales Fort, Hudson Bay",
+   "headline": "Cloud breaks at the right moments at Churchill",
+   "digest": "After the long winter, Wales and Dymond get good views of both the planet's entry and exit despite cloudy intervals. Their times go back to London on the company ship. The river ice does not break up until 16 June.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "American Scientist IV (good views at ingress and egress despite cloud; ice broke 16 June)."
+  },
+  {
+   "date_iso": "1769-06-03",
+   "date_display": "Saturday 3 June 1769 (to the small hours of 4 June)",
+   "precision": "day",
+   "eye": "sajnovics",
+   "place": "Vardø",
+   "headline": "A day of clouds, then Venus after nine",
+   "digest": "Sajnovics records a grey morning, brief sun around three, more cloud brought by a south-west breeze, and cover until about eight in the evening. After nine the sun breaks through at intervals, three telescopes are trained on it and the entry is caught. A merchant fires nine guns and the fortress flag goes up.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sajnovics's diary as summarised in Aspaas & Kontler, Maximilian Hell (2020), p. 272 (Austria-Forum page 000286)."
+  },
+  {
+   "date_iso": "1769-06-03",
+   "date_display": "Saturday 3 June 1769",
+   "precision": "day",
+   "eye": "hell",
+   "place": "Vardø",
+   "headline": "Under the midnight sun, Hell gets his contacts",
+   "digest": "With the sun never setting at Vardø, the transit runs from mid-evening into the small hours. Hell's party times the contacts through gaps in the cloud. The next day a solar eclipse saves the longitude measurement the winter's clouds had spoiled, without which the transit times could not be compared.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Hansen & Aspaas (2005) (transit 3 June; eclipse of 4 June rescued the longitude); Aspaas & Kontler (2020)."
+  },
+  {
+   "date_iso": "1769-06-03",
+   "date_display": "Saturday 3 June 1769",
+   "precision": "day",
+   "eye": "lalande",
+   "place": "Collège Mazarin observatory, Paris",
+   "headline": "Paris catches Venus at sunset",
+   "digest": "In Paris the transit begins only in the evening, so Lalande can see little before sunset at the Collège Mazarin. That hardly matters for his part. He is already collecting results that, by his count, will come from more than seventy stations.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "IMCCE page (Lalande observed at Collège Mazarin, 3 June 1769; Histoire de l'Académie 1769 pp. 417–425); 'little before sunset' follows from the transit timing and is not quoted from his memoir."
+  },
+  {
+   "date_iso": "1769-06-03",
+   "date_display": "Saturday 3 June 1769",
+   "precision": "day",
+   "eye": "rumovsky",
+   "place": "Kola, Murman coast",
+   "headline": "Russia's northern station at Kola",
+   "digest": "Rumovsky observes from Kola, one of a Russian network that stretches from Kola and Ponoi in the north to Guryev on the Caspian, Orsk, Orenburg and Yakutsk, with Euler's son, Lexell and Christian Mayer at St Petersburg. The empire is now an organiser of the enterprise, not just a host.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "ESO VT-2004 sheet F6 (sites and observers); Wikipedia (Rumovsky at Kola, coordinating). Weather and success at Kola not verified here."
+  },
+  {
+   "date_iso": "1769-06-04",
+   "date_display": "Sunday 4 June 1769 (morning, Pondicherry)",
+   "precision": "day",
+   "eye": "le-gentil",
+   "place": "Pondicherry",
+   "headline": "Eight years of waiting, and a cloud",
+   "digest": "In India the transit falls on the morning of 4 June. The mornings of the previous weeks have all been fine, but on this one the sky is overcast and Le Gentil sees nothing. He later wrote that the loss almost drove him out of his mind.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Le Gentil, Voyage (1779), as summarised by Wikipedia and Borders Sundials."
+  },
+  {
+   "date_iso": "1769-06-04",
+   "date_display": "Sunday 4 June 1769",
+   "precision": "day",
+   "eye": "velazquez",
+   "place": "Santa Ana",
+   "headline": "Velázquez sends his numbers to Chappe",
+   "digest": "The day after the transit, Velázquez sends a summary of his observations to Chappe in Latin and to the Spanish officials in Spanish. About 9 June Chappe replies that the figures are sound, a dated exchange that put the Mexican result on record next to the French one.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Moreno Corral's introduction to the 2010 Spanish edition."
+  },
+  {
+   "date_iso": "1769-06-11",
+   "date_display": "Sunday 11 June 1769",
+   "precision": "day",
+   "eye": "rittenhouse",
+   "place": "Philadelphia (letter of Cadwalader Evans)",
+   "headline": "A quarrel over who saw it first",
+   "digest": "A week later Cadwalader Evans sends Franklin the Norriton, Philadelphia and Cape Henlopen observations and complains that the newspapers have listed William Smith before Rittenhouse, the far better mathematician. The colonial transit is already a fight over credit.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Founders Online, Evans to Franklin, 11 June 1769."
+  },
+  {
+   "date_iso": "1769-06-18",
+   "date_display": "Sunday 18 June 1769",
+   "precision": "day",
+   "eye": "chappe",
+   "place": "San José del Cabo",
+   "headline": "A lunar eclipse, as the fever spreads",
+   "digest": "Chappe stays to observe an eclipse of the moon, needed to fix his longitude. The party is now falling sick one after another, and the plan to leave is put off as he nurses the sick.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "IMCCE fiche 20c (lunar eclipse of 18 June 1769); American Scientist IV."
+  },
+  {
+   "date_iso": "1769-08-01",
+   "date_display": "Tuesday 1 August 1769",
+   "precision": "day",
+   "eye": "chappe",
+   "place": "San José del Cabo",
+   "headline": "Chappe dies at the mission",
+   "digest": "Chappe dies of the epidemic, probably typhus, and is buried at the mission of San José del Cabo; the engineer Pauly closes his eyes. Medina dies too, and most of the party. Pauly sends the papers in a casket to the viceroy and sets out for home.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Moreno Corral introduction (death 1 August, buried at the mission); American Scientist IV (Pauly)."
+  },
+  {
+   "date_iso": "1769-09-07",
+   "date_display": "Thursday 7 September 1769",
+   "precision": "day",
+   "eye": "franklin",
+   "place": "London",
+   "headline": "Franklin forwards Philadelphia to the Astronomer Royal",
+   "digest": "Franklin tells Evans he has passed the Pennsylvania observations straight to Maskelyne, who will compare them with all the others and report to the Royal Society. Other copies had gone to Thomas Penn instead, a sign of the colony's politics running through its science.",
+   "quote": "compare and digest the whole",
+   "confidence": "verified",
+   "source_note": "Founders Online, Franklin to Evans, 7 September 1769."
+  },
+  {
+   "date_iso": "1769-10-19",
+   "date_display": "Thursday 19 October 1769",
+   "precision": "day",
+   "eye": "wales",
+   "place": "London",
+   "headline": "Wales and Dymond are home",
+   "digest": "Wales and Dymond reach London after sailing from Churchill in early September. They are paid only once the Society judges the work well done; their results go into the British pool that Maskelyne and Hornsby will reduce.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "American Scientist IV."
+  },
+  {
+   "date_iso": "1770",
+   "date_display": "1770",
+   "precision": "year",
+   "eye": "hell",
+   "place": "Copenhagen",
+   "headline": "Hell's report appears, late and long",
+   "digest": "Hell and Sajnovics stay in Copenhagen from October 1769 to May 1770, lecturing and editing. Hell's long, detailed report of the Vardø observations is printed under Danish royal auspices in 1770, well after other results had reached Paris, and the delay invites suspicion that he waited to see others' numbers.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Vatican Observatory biography (published Copenhagen 1770); Aspaas & Kontler (2020) on lateness; Hansen & Aspaas (2005)."
+  },
+  {
+   "date_iso": "1770-01-19",
+   "date_display": "Friday 19 January 1770",
+   "precision": "day",
+   "eye": "sajnovics",
+   "place": "Royal Danish Society of Sciences, Copenhagen",
+   "headline": "The assistant announces a different discovery",
+   "digest": "Sajnovics reads the first part of his paper arguing that Hungarian and Sámi are one language at root, built on words and grammar he collected in Finnmark. Two more sessions follow, and the first copy of the printed Demonstratio reaches him on 10 April.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Aspaas, Nordlit 50 (2022)."
+  },
+  {
+   "date_iso": "1770-03-18",
+   "date_display": "Sunday 18 March 1770",
+   "precision": "day",
+   "eye": "lalande",
+   "place": "Paris",
+   "headline": "Still waiting for the Russian numbers",
+   "digest": "Nine months after the transit, Lalande still has not received the Lowitz and Islenev observations from Guryev and Yakutsk. The world-wide experiment can only be finished at the speed of the slowest packet.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Aspaas & Kontler (2020), footnote on Austria-Forum page 000293."
+  },
+  {
+   "date_iso": "1771-01-29",
+   "date_display": "Tuesday 29 January 1771",
+   "precision": "day",
+   "eye": "cook",
+   "place": "Endeavour, off Java after Batavia",
+   "headline": "Cook records the death of Green",
+   "digest": "Among the many deaths from the dysentery and fever picked up at Batavia, Cook records that of the astronomer Charles Green. The transit times reach the Royal Society without the man who made them.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Captain Cook Society biography of Green; Cook's journal, 29 January 1771."
+  },
+  {
+   "date_iso": "1771-10",
+   "date_display": "October 1771",
+   "precision": "month",
+   "eye": "le-gentil",
+   "place": "Paris",
+   "headline": "Home after eleven years, declared dead",
+   "digest": "Delayed by dysentery and stranded by a storm at Île Bourbon, Le Gentil finally reaches Paris on a Spanish ship. He finds he has been declared legally dead, his seat in the Academy filled and his estate divided among relatives. It takes lawsuits and the king's intervention to restore him.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wikipedia; Borders Sundials."
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1761-06-06",
+   "label": "First transit of Venus: 6 June 1761",
+   "eyes": [
+    "chappe",
+    "le-gentil",
+    "mason",
+    "maskelyne",
+    "pingre",
+    "lomonosov",
+    "rumovsky",
+    "hell",
+    "lalande"
+   ],
+   "note": "The same few hours look completely different from each station. Chappe in Siberia gets a clear sky and the whole transit; Le Gentil sees it plainly from a rolling deck and can measure nothing; Maskelyne is clouded out; Pingré gets half an hour in a gale; Mason and Dixon at the Cape see only the end. In St Petersburg, Lomonosov, with no expedition at all, sees a glow on the planet's rim and comes away with a discovery rather than a measurement."
+  },
+  {
+   "date": "1769-06-03",
+   "label": "Second transit of Venus: 3–4 June 1769",
+   "eyes": [
+    "cook",
+    "green",
+    "chappe",
+    "velazquez",
+    "rittenhouse",
+    "wales",
+    "sajnovics",
+    "hell",
+    "lalande",
+    "rumovsky",
+    "le-gentil"
+   ],
+   "note": "The transit crosses the date line: noon in Baja California, morning in Tahiti, afternoon in Pennsylvania and Hudson Bay, evening at the Arctic's edge in Vardø and Kola, and the morning of 4 June in India. Tahiti, Baja and Pennsylvania have clear skies; Vardø and Churchill get through on cloud breaks; Le Gentil, who had waited longest, gets nothing. Almost everyone who does see it sees the same black drop, the blur that kept the result from the precision the planners had hoped for."
+  },
+  {
+   "date": "1769-06-04",
+   "label": "The morning after: data starts to move",
+   "eyes": [
+    "velazquez",
+    "chappe",
+    "hell",
+    "le-gentil"
+   ],
+   "note": "Velázquez sends his times to Chappe; at Vardø a solar eclipse rescues Hell's longitude; in Pondicherry Le Gentil faces the fact of his loss. The experiment now becomes a postal one."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1761-01-12",
+   "date_display": "12 January 1761",
+   "eye": "mason",
+   "claim": "Mason reports the Seahorse battle and that the Sumatra station cannot be reached in time",
+   "form": "letter",
+   "evidence": "Royal Society MM/10/128",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1761-06-06",
+   "date_display": "6 June 1761",
+   "eye": "chappe",
+   "claim": "Complete transit timed at Tobolsk, one of the few full observations of 1761",
+   "form": "notebook",
+   "evidence": "Chappe's observing record; published St Petersburg, then Voyage en Sibérie (1768)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1761-06-06",
+   "date_display": "6 June 1761 (26 May O.S.)",
+   "eye": "lomonosov",
+   "claim": "Bright bulge seen on the solar edge at egress; interpreted as refraction in an atmosphere of Venus",
+   "form": "notebook",
+   "evidence": "Lomonosov pamphlet (1761), English translation arXiv 1206.3489",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1761-07-28",
+   "date_display": "17 July 1761 (O.S.)",
+   "eye": "lomonosov",
+   "claim": "First printed claim that Venus has an atmosphere (Russian; German version August 1761). Contested: Pasachoff and Sheehan (2012) argue his telescope could not show it; Shiltsev and colleagues (2012) argue it could",
+   "form": "paper published",
+   "evidence": "arXiv 1206.3489; JAHH 15 (2012)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1762",
+   "date_display": "1762",
+   "eye": "mason",
+   "claim": "Cape egress times printed in the Royal Society's Philosophical Transactions, reported by James Short",
+   "form": "paper published",
+   "evidence": "Phil. Trans. 52 (1762) 611–628",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1762",
+   "date_display": "1762",
+   "eye": "rumovsky",
+   "claim": "Russian 1761 results published; values from 1761 overall range about 8.3\" to 10.6\"",
+   "form": "paper published",
+   "evidence": "Brevis expositio (1762); IMCCE fiche 20c",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1769-06-03",
+   "date_display": "3 June 1769",
+   "eye": "green",
+   "claim": "Contact times at Tahiti, with the 'black drop' blurring the moment of contact",
+   "form": "notebook",
+   "evidence": "Green & Cook, Phil. Trans. 61 (1771)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1769-06-03",
+   "date_display": "3 June 1769",
+   "eye": "velazquez",
+   "claim": "Independent times from Santa Ana: ingress 11h 55m 45s, egress 5h 53m 36s local",
+   "form": "notebook",
+   "evidence": "Printed in Chappe, Voyage en Californie (1772); Moreno Corral (2010)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1769-06-04",
+   "date_display": "4 June 1769",
+   "eye": "velazquez",
+   "claim": "Sends his observation summary to Chappe (Latin) and Spanish officials; Chappe confirms about 9 June",
+   "form": "letter",
+   "evidence": "Moreno Corral (2010)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1770",
+   "date_display": "1770",
+   "eye": "rittenhouse",
+   "claim": "William Smith's reduction of the Pennsylvania observations gives a solar parallax of 8.6045\"",
+   "form": "paper published",
+   "evidence": "IMCCE fiche 20c table; Trans. APS 1 (1771)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1770",
+   "date_display": "1770",
+   "eye": "hell",
+   "claim": "Vardø report printed in Copenhagen, after other results reached Paris; the delay prompts suspicion",
+   "form": "paper published",
+   "evidence": "Vatican Observatory biography; Aspaas & Kontler (2020)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1770-09-05",
+   "date_display": "5 September 1770",
+   "eye": "chappe",
+   "claim": "Pauly, the sole French survivor, delivers Chappe's posthumous observations to the Académie",
+   "form": "other",
+   "evidence": "American Scientist IV",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1771",
+   "date_display": "1771",
+   "eye": "lalande",
+   "claim": "Lalande's combined solar parallax of 8.55\" to 8.63\" (others in 1770–72: Hornsby 8.78\", Lexell 8.68\", Planman 8.43\")",
+   "form": "paper published",
+   "evidence": "IMCCE fiche 20c table",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1772",
+   "date_display": "1772",
+   "eye": "pingre",
+   "claim": "Pingré's solar parallax of 8.80\", at the top of the 1769 range of 8.43\" to 8.80\"",
+   "form": "paper published",
+   "evidence": "IMCCE fiche 20c table",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1773",
+   "date_display": "1773–74",
+   "eye": "hell",
+   "claim": "Hell's solar parallax of 8.70\"; Encke's 1824 reduction of both transits later gives 8.5776\"",
+   "form": "paper published",
+   "evidence": "IMCCE fiche 20c; ESO VT-2004 sheet F5",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1835",
+   "date_display": "1835 (rebutted 1883)",
+   "eye": "hell",
+   "claim": "Karl Ludwig Littrow publishes Hell's manuscripts and alleges altered figures; Simon Newcomb re-examines them and clears Hell in 1883",
+   "form": "other",
+   "evidence": "Hansen & Aspaas (2005); Vatican Observatory biography",
+   "confidence": "verified"
+  }
+ ],
+ "ties": [
+  {
+   "a": "chappe",
+   "b": "velazquez",
+   "kind": "met",
+   "note": "Observed a short distance apart in Baja California, exchanged results by letter on 4 and about 9 June 1769; Velázquez later used the French instruments after Chappe's death."
+  },
+  {
+   "a": "chappe",
+   "b": "lomonosov",
+   "kind": "mentioned",
+   "note": "Both observed 1761 under the St Petersburg Academy's umbrella: Chappe at Tobolsk by imperial invitation, Lomonosov at home. Lomonosov's commentary counts Chappe among the eight observers in Russia."
+  },
+  {
+   "a": "mason",
+   "b": "maskelyne",
+   "kind": "met",
+   "note": "After the Cape, Mason and Dixon went on to St Helena, where Maskelyne was observing, before sailing home in convoy in early 1762."
+  },
+  {
+   "a": "hell",
+   "b": "sajnovics",
+   "kind": "met",
+   "note": "Travelled and wintered together at Vardø; Sajnovics's diary is the day-by-day record of Hell's expedition and was later used against and for Hell in the forgery controversy."
+  },
+  {
+   "a": "cook",
+   "b": "green",
+   "kind": "met",
+   "note": "Observed side by side at Fort Venus and published jointly in 1771; Cook recorded Green's death in January 1771."
+  },
+  {
+   "a": "wales",
+   "b": "cook",
+   "kind": "met",
+   "note": "After Hudson Bay, Wales sailed as astronomer on Cook's second voyage (1772–75), carrying the transit generation's methods into the Pacific."
+  },
+  {
+   "a": "franklin",
+   "b": "rittenhouse",
+   "kind": "read each other",
+   "note": "Franklin received the Pennsylvania observations, including Rittenhouse's, and passed them to Maskelyne in September 1769."
+  },
+  {
+   "a": "franklin",
+   "b": "maskelyne",
+   "kind": "read each other",
+   "note": "Franklin relayed Maskelyne's call for an American station in 1768 and sent him the colonial results in 1769; Maskelyne wrote back in December 1769."
+  },
+  {
+   "a": "lalande",
+   "b": "hell",
+   "kind": "opposite sides",
+   "note": "Lalande ran the Paris collection of results; Hell, organised from Copenhagen without consulting him, published late, and the resulting suspicion lasted until Newcomb cleared him in 1883."
+  },
+  {
+   "a": "pingre",
+   "b": "lalande",
+   "kind": "read each other",
+   "note": "Both reduced the combined 1769 results for the Académie, and their parallax values (8.80\" and 8.55–8.63\") bracket the French debate."
+  },
+  {
+   "a": "le-gentil",
+   "b": "pingre",
+   "kind": "mentioned",
+   "note": "Both Académie astronomers sent to the Indian Ocean in 1761; both were caught by the British-French war at sea, one at Rodrigues and one off the Coromandel coast."
+  },
+  {
+   "a": "mason",
+   "b": "rittenhouse",
+   "kind": "influenced",
+   "note": "Mason and Dixon went on to survey the Pennsylvania–Maryland line (1763–68), and Rittenhouse was later one of the astronomers on the commissions that extended Pennsylvania's boundary west."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "telescope-1609",
+   "note": "The transit project rests on the telescope's first discoveries: Galileo's phases of Venus showed it orbits the sun, Kepler's tables predicted the 1631 transit, and Horrocks saw the 1639 one. Halley's 1716 plan to use transits to measure the sun's distance turned that line of work into a world-wide experiment."
+  },
+  {
+   "to": "v3:endeavour",
+   "note": "The Endeavour's public purpose was the 1769 transit: Cook and Green's observations at Fort Venus are the Tahiti station of this chapter, and the sealed second order that sent the ship on to New Zealand and Australia was opened only after it."
+  },
+  {
+   "to": "v3:humboldt",
+   "note": "Humboldt, surveying New Spain in 1803–04, worked with the astronomical positions left by Velázquez de León and his colleagues, the same Mexican tradition of measurement that put its own times beside Chappe's in 1769."
+  },
+  {
+   "to": "v2:lisbon-1755",
+   "note": "Six years before the first transit, the same correspondence networks, the Royal Society's Philosophical Transactions and the Paris Académie, gathered eyewitness reports of the Lisbon earthquake and sea wave from across Europe: practice for the collect-and-compare science of 1761."
+  },
+  {
+   "to": "v1:long-threads",
+   "note": "The epidemic, probably typhus, that killed Chappe and most of his party at San José del Cabo in 1769, and the Batavia fevers that killed Green in 1771, belong to the Long Threads chapter's story of disease moving along routes of empire and trade."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://vt2004.imcce.fr/CDs/CD-VT-histoire/telech-txt-image/OBSERVATOIREDEPARIS/Delisle-mappemonde-1761.jpg",
+   "title": "Delisle's world map for the transit of 1761",
+   "caption": "Joseph-Nicolas Delisle's map showing where the 1761 transit would be visible and how timings would vary, sent to more than a hundred correspondents to recruit observers.",
+   "date": "1760",
+   "credit": "Joseph-Nicolas Delisle; Observatoire de Paris, via IMCCE"
+  },
+  {
+   "url": "https://vt2004.imcce.fr/CDs/CD-VT-histoire/telech-txt-image/RUEDESARCHIVES/CHAPPE-00002701.jpg",
+   "title": "Chappe at Tobolsk",
+   "caption": "Painting of Chappe observing at Tobolsk, the clear-sky success of 1761.",
+   "date": "18th century",
+   "credit": "Rue des Archives, via IMCCE"
+  },
+  {
+   "url": "https://vt2004.imcce.fr/CDs/CD-VT-histoire/telech-txt-image/RUEDESARCHIVES/MASON-DIXON-00026772bd.jpg",
+   "title": "Mason and Dixon",
+   "caption": "Engraving of Charles Mason and Jeremiah Dixon, observers at the Cape in 1761 and later surveyors of the Mason–Dixon line.",
+   "date": "",
+   "credit": "Rue des Archives / The Granger Collection, via IMCCE"
+  },
+  {
+   "url": "https://vt2004.imcce.fr/CDs/CD-VT-histoire/telech-txt-image/NATIONALLIBRARYOFAUSTRALIA/FortVenus.jpg",
+   "title": "Fort Venus, Tahiti",
+   "caption": "Engraving of the stockade built at Matavai Bay to protect the instruments for the 1769 observation.",
+   "date": "1773",
+   "credit": "after Sydney Parkinson; National Library of Australia, via IMCCE"
+  },
+  {
+   "url": "https://vt2004.imcce.fr/CDs/CD-VT-histoire/telech-txt-image/LINDAHALLLIBRARY/contactsphiltranscook24_lg.jpg",
+   "title": "The black drop at Tahiti",
+   "caption": "Diagrams of Venus at the moments of contact from Green and Cook's paper, showing the dark ligament that made the contact times uncertain.",
+   "date": "1771",
+   "credit": "Phil. Trans. 61; Linda Hall Library, via IMCCE"
+  },
+  {
+   "url": "https://vt2004.imcce.fr/CDs/CD-VT-histoire/telech-txt-image/RITTENHOUSE/4ritobserv.jpg",
+   "title": "Rittenhouse's observatory at Norriton",
+   "caption": "Engraving of the farm observatory built for the 1769 transit, the main station of the American Philosophical Society.",
+   "date": "",
+   "credit": "via IMCCE"
+  },
+  {
+   "url": "https://vt2004.imcce.fr/CDs/CD-VT-histoire/telech-txt-image/RMN/CHAPPE-91227_cbd.jpg",
+   "title": "The burial of Chappe",
+   "caption": "Engraving of Chappe's burial at San José del Cabo in August 1769, from the posthumous Voyage en Californie.",
+   "date": "1772",
+   "credit": "RMN, via IMCCE"
+  }
+ ],
+ "further": [
+  {
+   "title": "IMCCE, Venus transits: history CD (texts and images by transit)",
+   "url": "https://vt2004.imcce.fr/CDs/CD-VT-histoire/html_english/ecritsetimagesparpassage.html"
+  },
+  {
+   "title": "IMCCE fiche: the 1761 transit",
+   "url": "https://vt2004.imcce.fr/en/fiches/fiche_n20b_eng.html"
+  },
+  {
+   "title": "IMCCE fiche: the 1769 transit (parallax table)",
+   "url": "https://vt2004.imcce.fr/en/fiches/fiche_n20c_eng.html"
+  },
+  {
+   "title": "ESO VT-2004: values of the solar parallax",
+   "url": "https://www.eso.org/public/outreach/eduoff/vt-2004/Background/Infol2/EIS-F5.html"
+  },
+  {
+   "title": "American Scientist: Transits, Travels and Tribulations IV",
+   "url": "https://www.americanscientist.org/node/2061"
+  },
+  {
+   "title": "Smithsonian Libraries: Chasing Venus",
+   "url": "https://www.sil.si.edu/Exhibitions/chasing-venus/measuring.htm"
+  },
+  {
+   "title": "Royal Society: Winthrop to Franklin, Of the transit of Venus",
+   "url": "https://makingscience.royalsociety.org/items/l-and-p_5_169"
+  }
+ ],
+ "vantage_key": "0 = observer at a distant expedition station; 1 = assistant or companion at a station; 2 = observer at home in a European capital; 3 = home observer who also collected and reduced the world's results; 4 = correspondent handling news and data at a distance."
+}

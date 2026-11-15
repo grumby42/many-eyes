@@ -1,0 +1,437 @@
+[
+ {
+  "chapter": "telescope-1609",
+  "where": "entry:20",
+  "severity": "doubt",
+  "problem": "The digest summarises Horky's letter to Kepler, but the entry is dated to the 24-25 April demonstration itself; Horky's letter describing it is usually dated 27 April 1610 (Bologna), after Galileo had left.",
+  "fix": {
+   "date_iso": "1610-04-27",
+   "date_display": "about 27 April 1610 (N.S.), describing the demonstration of 24–25 April",
+   "precision": "day",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "telescope-1609",
+  "where": "eye:horky",
+  "severity": "doubt",
+  "problem": "Horky's birth year is uncertain: a current encyclopedia text gives 1578 (not c.1590), with death after 1650/in the 1670s unclear.",
+  "fix": {
+   "text_replace": {
+    "old": "c.1590–after 1650",
+    "new": "c.1578 or c.1590 (sources differ) – after 1650"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "telescope-1609",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "Clavius's letter to Galileo of 17 December 1610 reporting that the Jesuits had seen Jupiter's four moons is confirmed (MacTutor 'This day' 17 Dec; National Edition); the entry can be upgraded and the 'from memory' note removed.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Clavius to Galileo, 17 Dec 1610 (National Edition, vol. X); MacTutor history 'messages' for 17 December"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "telescope-1609",
+  "where": "entry:24",
+  "severity": "doubt",
+  "problem": "No source cited says Kepler printed his misreading of the Saturn anagram 'with the Narratio'; his attempts are usually cited from the preface to his Dioptrice (1611). The place of printing should not be asserted.",
+  "fix": {
+   "digest": "Working on Galileo's scrambled letters, Kepler produces a Latin line that he takes to greet the twin offspring of Mars, which fitted his own guess that Mars should have two moons. He later prints his attempt. He is wrong about the message, though Mars does have two small moons, found in 1877."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "telescope-1609",
+  "where": "entry:37",
+  "severity": "doubt",
+  "problem": "The quote is a modernised paraphrase; the letter as printed from the manuscript reads roughly 'like a tarte that my cooke made me the last weeke'. A quote should follow the printed original's words. [Editor: quote dropped; wording not checked against the printed letter.]",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "telescope-1609",
+  "where": "entry:13",
+  "severity": "style",
+  "problem": "The comparison of a lunar cavity to Bohemia comes from the text of Sidereus Nuncius (1610), not from the watercolours themselves.",
+  "fix": {
+   "digest": "With a new glass of about twenty power, Galileo paints a series of washes of the Moon at different phases, showing the terminator broken by bright points that he reads as mountain-tops catching the dawn, and dark hollows; in the printed book he will compare one great hollow to Bohemia ringed by mountains. The dating is reconstructed: E. Whitaker put them between 30 November and 18 December 1609, while others argue some belong to November. These drawings become the engravings in Sidereus Nuncius."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "telescope-1609",
+  "where": "entry:30",
+  "severity": "doubt",
+  "problem": "The explicit statement that the Venus observation favours the Copernican/Pythagorean system is clearest in Galileo's letters around the 1 January 1611 solution and his 30 December 1610 letters; the 11 December letter announced the cipher of a new, important observation.",
+  "fix": {
+   "digest": "Galileo sends Giuliano another scrambled Latin line, announcing only that he has made a new observation of great consequence, without saying what it is. He has been watching Venus shrink and change from round toward half and crescent over the autumn. This is the observation that most directly contradicts a Ptolemaic arrangement, as his letters of the following weeks make plain.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "telescope-1609",
+  "where": "image:6",
+  "severity": "style",
+  "problem": "Caption already states plainly it is a forgery (good). It can name the probable forger so no reader mistakes the leaf for Galileo's hand.",
+  "fix": {
+   "caption": "Long displayed as Galileo's draft to the Doge with his first Jupiter notes, this leaf is a forgery: in 2022 the University of Michigan confirmed it was made in the twentieth century, probably by the forger Tobia Nicotra. It is not Galileo's hand; the authentic letter is in the Venetian state archives."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "edo-dissection",
+  "where": "entry:2",
+  "severity": "error",
+  "problem": "Two problems. (1) 30 March 1754 corresponds only to the intercalary 2nd month, 7th day (that month began c. 24 March 1754; the ordinary 2nd month's 7th day was c. 28 February), so the display should not hedge. (2) Yamawaki did not find a mismatch with the 'nine viscera': he took what he saw to agree with the ancient 'nine viscera' (九蔵) of the Zhouli rather than the later orthodox scheme of five viscera and six bowels.",
+  "fix": {
+   "date_display": "Hōreki 4, intercalary 2nd month, 7th day (30 March 1754)",
+   "digest": "After a petition he made with the Obama-domain physician Kosugi Genteki, Yamawaki is allowed to watch the opening of a man executed in Kyoto. The man was one of five beheaded, the one whose burial was delayed. Yamawaki studies the organs of the chest and abdomen and judges that they fit the ancient 'nine viscera' of the Zhou li better than the later orthodox scheme of five viscera and six bowels. Because there is no head, there is nothing to record about the brain."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "edo-dissection",
+  "where": "claim:0",
+  "severity": "style",
+  "problem": "Display date should name the intercalary month, which is the only reading consistent with 30 March 1754.",
+  "fix": {
+   "date_display": "Hōreki 4, intercalary 2nd month, 7th day"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "edo-dissection",
+  "where": "claim:1",
+  "severity": "error",
+  "problem": "Inverted: Zōshi presented the observed viscera as agreeing with the ancient 'nine viscera' (九蔵) of the Zhouli and challenging the later five-viscera-six-bowels doctrine, not as contradicting a nine-organ scheme.",
+  "fix": {
+   "claim": "Zōshi: the viscera seen fit the ancient 'nine viscera' of the Zhou li, not the later five-viscera-six-bowels doctrine",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "edo-dissection",
+  "where": "calendar_note:0",
+  "severity": "error",
+  "problem": "The Hōreki conversion is stated with a hedge it does not need (30 March fits only the intercalary 2nd month), and 'were not recomputed here' is a compiler note. Both conversions check against computed new moons (new moon 15 April 1771 begins Meiwa 8/3; new moon 24 March 1754 begins the intercalary 2nd month).",
+  "fix": {
+   "text_replace": {
+    "old": "The 1754 Kyoto dissection (Hōreki 4, 2nd month, 7th day; most Japanese accounts say it was the intercalary 2nd month) is given as 30 March 1754, following the Japanese source cited. Both conversions follow published equivalents and were not recomputed here.",
+    "new": "The 1754 Kyoto dissection (Hōreki 4, intercalary 2nd month, 7th day) falls on 30 March 1754; some modern accounts omit the word 'intercalary', but 30 March fits only the intercalary month. Both conversions agree with published equivalents and with computed new-moon dates."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "edo-dissection",
+  "where": "entry:6",
+  "severity": "error",
+  "problem": "Not an eye's record: the entry reports nothing the Dejima register says, only that the spring 1771 journey 'would have been' Armenault's, and it contains a compiler note ('This chapter has not checked'). Recommend deletion.",
+  "fix": {
+   "delete": true
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "edo-dissection",
+  "where": "eye:dagregister",
+  "severity": "style",
+  "problem": "Authenticity text uses compiler voice ('This chapter has NOT consulted', 'not confirmed here').",
+  "fix": {
+   "text_replace": {
+    "old": "This chapter has NOT consulted the 1771 register. That Armenault was opperhoofd for the spring 1771 journey follows from the published list of tenures. Whether Sugita's circle met that delegation is not confirmed here: Sugita's memoir only places the Dutch book's arrival in Edo that spring.",
+    "new": "The 1771 register is not drawn on in this chapter. That Armenault was opperhoofd for the spring 1771 journey follows from the published list of tenures; no cited record shows whether Sugita's circle met that delegation, and Sugita's memoir only places the Dutch book's arrival in Edo that spring."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "edo-dissection",
+  "where": "convergence:0",
+  "severity": "style",
+  "problem": "First-person compiler voice ('We see it only through Sugita').",
+  "fix": {
+   "text_replace": {
+    "old": "We see it only through Sugita, writing decades later.",
+    "new": "The scene is known only through Sugita, writing decades later."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "edo-dissection",
+  "where": "eye:maeno",
+  "severity": "error",
+  "problem": "Form tag is dishonest: Maeno wrote no memoir; his part is known only through Sugita's memoir, Yoshio's preface and a posthumous inscription draft.",
+  "fix": {
+   "form": "no writings of his own on these events; known through others (Sugita's 1815 memoir, Yoshio's preface, 1804 inscription draft)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "edo-dissection",
+  "where": "eye:gennai",
+  "severity": "error",
+  "problem": "Form tag is dishonest: Gennai left no memoir of the Kaitai Shinsho; his part is known from Sugita's later accounts and Akita-domain records, as the authenticity note itself says.",
+  "fix": {
+   "form": "known through others (Sugita's later memoir; Akita-domain records)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "edo-dissection",
+  "where": "eye:odano",
+  "severity": "doubt",
+  "problem": "Form 'sketchbook (dated drawings)' is not supported: the record cited is the printed woodblock plates and his signed postscript in the 1774 book; no dated sketchbook is cited.",
+  "fix": {
+   "form": "printed plates and signed postscript (Kaitai Shinsho, 1774)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "edo-dissection",
+  "where": "eye:thunberg",
+  "severity": "style",
+  "problem": "Authenticity contains an editorial instruction ('Flag the later writing-up.'), and 'language' gives the English translation as 1795 while authenticity says 1793–95.",
+  "fix": {
+   "text_replace": {
+    "old": "Flag the later writing-up.",
+    "new": "The account was written up for print years after the events."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "edo-dissection",
+  "where": "eye:thunberg",
+  "severity": "style",
+  "problem": "Language field dates the English translation to 1795; it appeared in four volumes 1793–95, as the authenticity note says.",
+  "fix": {
+   "language": "Swedish (English translation 1793–95)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "edo-dissection",
+  "where": "claim:10",
+  "severity": "style",
+  "problem": "English translation of Thunberg's Travels appeared 1793–95, not only 1795 (matches eye authenticity).",
+  "fix": {
+   "evidence": "Thunberg's Travels (1788–93; English 1793–95) as analysed in Ignis 3"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "edo-dissection",
+  "where": "entry:33",
+  "severity": "doubt",
+  "problem": "Per the Ignis 3 edition, the '11 March 1777' letter was addressed to Hoffman in Batavia, to be passed on to Thunberg, and asked for 'two large dictionaries' (Dutch and Latin, attributed to Marin, though Marin wrote no Latin dictionary).",
+  "fix": {
+   "digest": "Nakagawa writes in Dutch, addressing the letter to Hoffman in Batavia to be passed on to Thunberg. He thanks Thunberg for his teaching in herbal medicine and pharmacy, sends about a hundred kinds of seeds and dried plants through an interpreter, and asks for two large dictionaries, which he attributes to Pieter Marin. Six years after Kotsugahara, the lack of a proper dictionary is still the group's main problem."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "edo-dissection",
+  "where": "entry:34",
+  "severity": "style",
+  "problem": "Date checks: An'ei 8, 12th month began c. 7 January 1780, so the 18th day is 24 January 1780, matching standard biographies. The 'not checked' note can be dropped.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Standard biographies (An'ei 8.12.18 = 24 Jan 1780); conversion checked against computed new-moon dates"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "edo-dissection",
+  "where": "entry:9",
+  "severity": "style",
+  "problem": "The date Meiwa 8/3/4 = 18 April 1771 checks against computed new moons (the 3rd month began 15 April 1771). No change needed beyond noting it.",
+  "fix": {
+   "source_note": "Japan Society excerpt (Matsumoto tr.); Nagano Prefecture teaching material on the dissector's skill and status. Meiwa 8.3.4 = 18 April 1771 (checked against new-moon dates)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-wallace",
+  "where": "entry:24",
+  "severity": "error",
+  "problem": "Not an eye's own record: Henry Bates wrote nothing on 3 June 1858; the item is a postmark on Wallace's letter to Frederick Bates, already covered by entry 21 and the convergence. Recommend deletion.",
+  "fix": {
+   "delete": true
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-wallace",
+  "where": "convergence:1",
+  "severity": "style",
+  "problem": "After deleting the 3 June 'Bates' entry, Henry Bates is not an actor here; the two parties to the arrival question are Wallace and Darwin.",
+  "fix": {
+   "eyes": [
+    "wallace",
+    "darwin"
+   ]
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-wallace",
+  "where": "entry:28",
+  "severity": "style",
+  "problem": "Substance checked against DCP-LETT-2294: nothing in Wallace's sketch not in the 1844 sketch, would gladly publish a short sketch, would rather burn his book than be thought to act 'in a paltry spirit', and 'I enclose his letter'. Date is editorial (from Lyell's endorsement), so it should be bracketed; the follow-up of 26 June is a separate short letter.",
+  "fix": {
+   "date_display": "Friday [25 June 1858] (date from Lyell's endorsement)",
+   "confidence": "verified",
+   "source_note": "Darwin to Lyell, [25 June 1858] (DCP-LETT-2294; Darwin Correspondence Project transcript); follow-up letter of 26 June [1858]. Printed in Life and Letters (1887)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-wallace",
+  "where": "entry:1",
+  "severity": "error",
+  "problem": "Quote rule: Notebook D was not published until the 1960s (de Beer), so this phrase is not from an English original published before 1929; it is well known among historians but not a world-famous phrase. Remove the quote; the digest already paraphrases it.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-wallace",
+  "where": "entry:44",
+  "severity": "error",
+  "problem": "Quote must match the printed original, which uses 'revolutionize' (Proc. Linn. Soc., address of 24 May 1859, p. viii). The 24 May date is confirmed by citations of the printed address.",
+  "fix": {
+   "quote": "marked by any of those striking discoveries which at once revolutionize",
+   "confidence": "verified",
+   "source_note": "Bell, Presidential Address, Proceedings of the Linnean Society, 24 May 1859, p. viii (as cited by Today in Science History and the Linnean Society 2018 article)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-wallace",
+  "where": "eye:bell",
+  "severity": "error",
+  "problem": "First-person compiler note ('I did not see the printed page itself'); the day (24 May 1859) is in fact confirmed by citations of the printed address. Bio also gives a verdict ('the most famous misjudgement').",
+  "fix": {
+   "text_replace": {
+    "old": "The fragment quoted is as given by the Linnean Society's own account; I did not see the printed page itself, so the day is given as the Society's traditional 24 May anniversary and marked approximate.",
+    "new": "The address was delivered at the anniversary meeting of 24 May 1859 and printed in the Society's Proceedings (p. viii)."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-wallace",
+  "where": "eye:bell",
+  "severity": "style",
+  "problem": "Bio passes a verdict; neutral wording preferred.",
+  "fix": {
+   "text_replace": {
+    "old": "has become the most famous misjudgement in the history of science",
+    "new": "is often quoted as a famous misjudgement"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-wallace",
+  "where": "eye:emma",
+  "severity": "error",
+  "problem": "First-person compiler note in authenticity ('I could not read the 1858 diary pages directly').",
+  "fix": {
+   "text_replace": {
+    "old": "The 1858 entries used here are those cited by the Darwin Correspondence Project editors; I could not read the 1858 diary pages directly.",
+    "new": "The 1858 entries used here are those cited by the Darwin Correspondence Project editors."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-wallace",
+  "where": "eye:linnean",
+  "severity": "error",
+  "problem": "First-person compiler note in authenticity ('I worked from the printed paper').",
+  "fix": {
+   "text_replace": {
+    "old": "The manuscript minute book is held by the Society; I worked from the printed paper and the Society's own account, not the minute book.",
+    "new": "The manuscript minute book is held by the Society; entries here rest on the printed paper and the Society's own account."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-wallace",
+  "where": "tie:4",
+  "severity": "error",
+  "problem": "Darwin and Gray did meet: Gray met Darwin at Kew in spring 1851 (Darwin's first letter to Gray, 25 April 1855, opens by recalling it), and the Grays stayed at Down House in October 1868.",
+  "fix": {
+   "note": "Gray held Darwin's 1857 abstract, which served as dated proof in 1858. They had met briefly at Kew in 1851, and Gray and his wife stayed at Down in October 1868."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-wallace",
+  "where": "entry:51",
+  "severity": "error",
+  "problem": "Headline puts 'a masterpiece' in quotation marks, but the word does not occur in Wallace's letter of 24 December 1860; he wrote that he could never have approached the completeness of Darwin's book and that Darwin had created a new science and a new philosophy.",
+  "fix": {
+   "headline": "Epilogue: a book he could never have written",
+   "digest": "A year after the Origin, Wallace told Bates that he could not fully express his admiration for Darwin's book, that he could never have approached its completeness, evidence and argument, and that Darwin had created a new science and a new philosophy. He felt thankful the theory had not been left to him to give to the public. The rest of the letter is about where species boundaries run along the Amazon. There is no sign of grievance."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-wallace",
+  "where": "image:2",
+  "severity": "error",
+  "problem": "Caption contains a compiler instruction ('Check the item's own description...'). The Cambridge item MS-DAR-00114-00240 is the 29 June 1858 letter in which Darwin sends Wallace's paper, the Gray abstract and the 1844 sketch to Hooker.",
+  "fix": {
+   "title": "Darwin to Hooker, 29 June 1858 (DAR 114)",
+   "caption": "Darwin's letter to Hooker of 29 June 1858, the day after Charles Waring's death, sending Wallace's essay, the abstract of his 1857 letter to Asa Gray, and the 1844 sketch with Hooker's notes, for the Linnean reading."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-wallace",
+  "where": "entry:8",
+  "severity": "error",
+  "problem": "Contradiction: entries 3-4 show Darwin had shared the theory with Hooker (letter of 1844; Hooker read the 1844 essay in 1847). Lyell's 16 April 1856 notes are the earliest evidence that Darwin explained natural selection to Lyell, not to anyone at all.",
+  "fix": {
+   "digest": "On the last day of a four-day visit to Down, Lyell wrote notes headed with Darwin's theory and set out what Darwin had explained to him, along with talk of pigeon breeds. They are the earliest record that Darwin had explained natural selection to Lyell; Hooker had read the 1844 essay nine years earlier. Lyell was impressed but not converted."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-wallace",
+  "where": "claim:5",
+  "severity": "error",
+  "problem": "Same overstatement as entry 8: Hooker had read the 1844 essay in 1847, so this is the first evidence Darwin shared the theory with Lyell, not the first evidence he shared it at all.",
+  "fix": {
+   "claim": "Records Darwin's explanation of natural selection: the first evidence he told Lyell"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "darwin-wallace",
+  "where": "entry:13",
+  "severity": "style",
+  "problem": "Darwin's 'Journal' gives the day: 14 May 1856 ('began by Lyell's advice writing species sketch'). date_iso already holds the day; display/precision can match.",
+  "fix": {
+   "date_display": "Wednesday 14 May 1856",
+   "precision": "day"
+  },
+  "confidence": "approx"
+ }
+]

@@ -1,0 +1,359 @@
+[
+ {
+  "chapter": "nile-source",
+  "where": "intro:2",
+  "severity": "tone",
+  "problem": "Compiler process remark in reader-facing text ('could not be checked day by day').",
+  "fix": {
+   "text_replace": {
+    "old": "The consul Rigby's journal survives only in a 1935 edition that could not be checked day by day.",
+    "new": "The consul Rigby's journal survives only in a 1935 edition, and his entries are given here by month."
+   }
+  }
+ },
+ {
+  "chapter": "nile-source",
+  "where": "eye:rigby",
+  "severity": "tone",
+  "problem": "Process remark in authenticity note ('could not be checked online').",
+  "fix": {
+   "text_replace": {
+    "old": "Exact day-dates of his entries could not be checked online, so his entries are given by month.",
+    "new": "His entries are given here by month only."
+   }
+  }
+ },
+ {
+  "chapter": "nile-source",
+  "where": "eye:rigby",
+  "severity": "doubt",
+  "problem": "Unsourced claim that the original diary was 'reportedly sold in 2021'; hedged hearsay, not supported by any listed source.",
+  "fix": {
+   "text_replace": {
+    "old": " The original diary was reportedly sold in 2021.",
+    "new": ""
+   },
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "nile-source",
+  "where": "entry:10",
+  "severity": "tone",
+  "problem": "source_note contains process remark 'Exact days not checked.'",
+  "fix": {
+   "source_note": "Lake Regions vol. 2 (Uvira chapter); DNB 'Speke'. Exact days not fixed here."
+  }
+ },
+ {
+  "chapter": "nile-source",
+  "where": "entry:10",
+  "severity": "doubt",
+  "problem": "Calling the canoe trip back to Ujiji 'the last thing the partners do as a team' is inaccurate: Burton and Speke marched back to Kazeh together and then on to the coast and Zanzibar together (1858–59).",
+  "fix": {
+   "digest": "Paddled to the northern end of the lake, the two men learn that the river there, the Rusizi, runs into Tanganyika rather than out of it. If true, the lake cannot be the Nile's head. Burton later tries to argue around the evidence; the canoe trip back to Ujiji is the partners' last joint exploration."
+  }
+ },
+ {
+  "chapter": "nile-source",
+  "where": "entry:19",
+  "severity": "doubt",
+  "problem": "Entry is marked verified for 9 May as Speke's 'first day back', but its own source note gives Speke in England on 8 May; the day is uncertain.",
+  "fix": {
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "nile-source",
+  "where": "convergence:6",
+  "severity": "doubt",
+  "problem": "'kept no diary until 1870' overstates the evidence; the eye's own note says only that no diary of hers survives/is known before the 1870–73 one.",
+  "fix": {
+   "text_replace": {
+    "old": "Florence was there but kept no diary until 1870.",
+    "new": "Florence was there, but no diary of hers is known from before 1870."
+   }
+  }
+ },
+ {
+  "chapter": "livingstone-1871",
+  "where": "intro:0",
+  "severity": "error",
+  "problem": "Age: Livingstone (b. 19 March 1813) turned 58 in March 1871, before the Nyangwe months (March–July 1871) described here; the eye itself says 'aged 57–58'.",
+  "fix": {
+   "text_replace": {
+    "old": "By 1871 he was 57 and ill",
+    "new": "By mid-1871 he was 58 and ill"
+   }
+  }
+ },
+ {
+  "chapter": "livingstone-1871",
+  "where": "entry:34",
+  "severity": "error",
+  "problem": "Livingstone died at the beginning of May 1873, a month before the 5 June treaty; he was not 'in the swamps of Bangweulu' then.",
+  "fix": {
+   "digest": "Under heavy British pressure applied through Kirk, Sultan Barghash signs a treaty ending the seaborne slave trade and closing Zanzibar's public slave market. Livingstone's Nyangwe letter, printed in 1872, had helped build the public pressure. Livingstone had died about a month earlier and never learned of it."
+  }
+ },
+ {
+  "chapter": "livingstone-1871",
+  "where": "entry:34",
+  "severity": "tone",
+  "problem": "source_note contains process remark ('not checked against the treaty text here').",
+  "fix": {
+   "source_note": "Treaty of 1873 (R&D World: the consul pressured the sultan in 1873); date 5 June 1873 as usually given."
+  }
+ },
+ {
+  "chapter": "livingstone-1871",
+  "where": "entry:6",
+  "severity": "tone",
+  "problem": "source_note contains process remark ('Not checked against the Tervuren diary').",
+  "fix": {
+   "source_note": "Date as commonly given (History.com 'Stanley begins search for Livingstone', 21 March); How I Found Livingstone."
+  }
+ },
+ {
+  "chapter": "livingstone-1871",
+  "where": "entry:16",
+  "severity": "doubt",
+  "problem": "date_display says the date is 'probably about three weeks early by the true calendar', but the calendar_note says Livingstone ran about three weeks AHEAD (true dates earlier). The wording reverses or confuses the direction.",
+  "fix": {
+   "date_display": "23 October 1871 (Livingstone's dating; probably about three weeks ahead of the true calendar)"
+  }
+ },
+ {
+  "chapter": "livingstone-1871",
+  "where": "entry:12",
+  "severity": "doubt",
+  "problem": "The traders' estimate of '400 to 500 dead' does not match the familiar figure in Livingstone's published journal (the Arabs' estimate of 'between 330 and 400'). If the field diary gives 400–500, say so; otherwise align the figure.",
+  "fix": {
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "livingstone-1871",
+  "where": "eye:stanley",
+  "severity": "doubt",
+  "problem": "'deserted twice' is doubtful: Stanley was captured at Shiloh (Confederate), joined the Union army and was discharged sick, and later deserted from the Union Navy (as threads_out:1 correctly says).",
+  "fix": {
+   "text_replace": {
+    "old": "fought on both sides of the US Civil War and deserted twice",
+    "new": "fought on both sides of the US Civil War, later deserting from the Union Navy"
+   },
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "livingstone-1871",
+  "where": "eye:tippu-tip",
+  "severity": "error",
+  "problem": "Tippu Tip's memoir (written c. 1900, published 1902–03) belongs to the early colonial period, not 'late in the colonial period'.",
+  "fix": {
+   "text_replace": {
+    "old": "written for European readers late in the colonial period",
+    "new": "written for European readers early in the colonial period"
+   }
+  }
+ },
+ {
+  "chapter": "livingstone-1871",
+  "where": "intro:3",
+  "severity": "doubt",
+  "problem": "Inconsistent with the Wainwright eye: intro says his English pages were 'found and published only in 2019', while the eye's authenticity note mentions 'a further version ... edited for the Hakluyt Society (2007)'. One of the two needs reconciling; the 2007 Hakluyt edition could not be confirmed.",
+  "fix": {
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "intro:4",
+  "severity": "tone",
+  "problem": "First-person compiler remark ('I could read ... only in parts').",
+  "fix": {
+   "text_replace": {
+    "old": "I could read the 1897 and 1898 printed texts only in parts, so a few days rest on secondary summaries and are marked 'approx'.",
+    "new": "A few days rest on secondary summaries and are marked 'approx'."
+   }
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "intro:4",
+  "severity": "tone",
+  "problem": "First-person compiler remark ('that I could not consult').",
+  "fix": {
+   "text_replace": {
+    "old": "her own letters are in family papers that I could not consult, so she is not given entries of her own",
+    "new": "her own letters remain in family papers not used here, so she is not given entries of her own"
+   }
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "eye:scott-hansen",
+  "severity": "tone",
+  "problem": "First-person compiler remark ('known to me only through summaries').",
+  "fix": {
+   "text_replace": {
+    "old": "His own diary entries are known to me only through summaries, so his entries here rest on Nansen's and Sverdrup's dated records of his work.",
+    "new": "His entries here rest on Nansen's and Sverdrup's dated records of his work."
+   }
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "eye:blessing",
+  "severity": "tone",
+  "problem": "First-person compiler remark ('I did not see his entries').",
+  "fix": {
+   "text_replace": {
+    "old": "I did not see his entries for specific days, so his entries below are anchored on dates fixed by Nansen's diary.",
+    "new": "His entries below are anchored on dates fixed by Nansen's diary."
+   }
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "eye:nature",
+  "severity": "tone",
+  "problem": "First-person compiler remark ('I did not confirm the exact issue date').",
+  "fix": {
+   "text_replace": {
+    "old": " I did not confirm the exact issue date.",
+    "new": ""
+   }
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "eye:nordahl",
+  "severity": "tone",
+  "problem": "Process remark in role ('his exact shipboard duties are not confirmed here'); Nordahl served as the expedition's electrician (and stoker).",
+  "fix": {
+   "text_replace": {
+    "old": "Crew member, aged about 31–34 (his exact shipboard duties are not confirmed here)",
+    "new": "Crew member, electrician and stoker, aged about 31–34"
+   },
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "eye:nansen",
+  "severity": "error",
+  "problem": "Age: Nansen was born 10 October 1861, so he was 31 at departure (June 1893) and 34 at the return (September 1896); he turned 35 only in October 1896.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 31–35",
+    "new": "aged 31–34"
+   }
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "eye:jackson",
+  "severity": "error",
+  "problem": "Age: Jackson was born 28 April 1860, so he was 34 in March 1895 (entry 13) and 36 at the June 1896 meeting.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 35–36",
+    "new": "aged 34–36"
+   }
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "entry:17",
+  "severity": "quote",
+  "problem": "Headline puts translated words in quotation marks ('Farewell, farewell!'), from Framgutterne, a Norwegian book with no pre-1929 English edition.",
+  "fix": {
+   "headline": "Farewell on the ice"
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "entry:33",
+  "severity": "quote",
+  "problem": "Jackson's words in the 1897 English Farthest North are usually given as 'Aren't you Nansen?'; 'You are Nansen, aren't you?' seems to be a paraphrase taken from a modern summary (the source note says 'as given in Wikipedia's summary').",
+  "fix": {
+   "quote": "Aren't you Nansen?",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "entry:30",
+  "severity": "doubt",
+  "problem": "Headline 'sixty miles from the hut' conflicts with intro:3, which puts Nansen's hut about a hundred miles north of Elmwood (Cape Flora to Cape Norvegia is roughly 95–100 miles).",
+  "fix": {
+   "headline": "Jackson sets out again, not knowing who wintered to the north",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "entry:28",
+  "severity": "doubt",
+  "problem": "The source note says the chapter content was 'not read in detail', yet the digest adds specifics ('the usual drink and songs') not supported by the cited heading; also a process remark.",
+  "fix": {
+   "digest": "Nordahl's chapter 'From New Year 96 to spring' covers the same night on Fram, hundreds of miles from the hut. The crew marked their third New Year in the ice; his chapter moves on to the longing for spring and open water.",
+   "source_note": "Framgutterne, ch. XI heading (p. 166)."
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "entry:32",
+  "severity": "tone",
+  "problem": "source_note contains first-person process remark ('from my recollection ... not re-checked', 'via mirror').",
+  "fix": {
+   "source_note": "Wikipedia summary of Farthest North; Farthest North vol. II. Exact day approximate."
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "entry:1",
+  "severity": "tone",
+  "problem": "source_note contains process remark ('not checked').",
+  "fix": {
+   "source_note": "Farthest North vol. I (Khabarova chapters); Khabarova dogs per Wikipedia summary of the expedition. Exact arrival and departure days not fixed here."
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "entry:26",
+  "severity": "tone",
+  "problem": "source_note contains process remark ('Date not checked against Sverdrup's report').",
+  "fix": {
+   "source_note": "Fram Museum page (16 Oct 1895, 85°57′N); Nature 54 p. 392 gives 85°57′; Wikipedia gives 85°55′. Sources differ on the date."
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "entry:11",
+  "severity": "tone",
+  "problem": "source_note contains process remarks ('via mirror'; 'not an English original, so no quotation').",
+  "fix": {
+   "source_note": "Letter dated 17 Feb 1895, as given in Roland Huntford's biography of Nansen."
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "entry:23",
+  "severity": "tone",
+  "problem": "source_note contains process remark ('via mirror').",
+  "fix": {
+   "source_note": "Wikipedia summary of the expedition: first 'indisputable glimpse' 23 July; Nansen's diary entry of 24 July; stopped watches per hut report."
+  }
+ },
+ {
+  "chapter": "fram",
+  "where": "entry:25",
+  "severity": "tone",
+  "problem": "source_note contains process remark ('via mirror').",
+  "fix": {
+   "source_note": "Wikipedia summary of the expedition: hut ready 28 Sept 1895; Nansen's narrative."
+  }
+ }
+]

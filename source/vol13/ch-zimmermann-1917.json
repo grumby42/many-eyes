@@ -1,0 +1,1386 @@
+{
+ "id": "zimmermann-1917",
+ "title": "The Borrowed Wire",
+ "short_title": "The Zimmermann Telegram",
+ "subtitle": "The Zimmermann telegram: Berlin, Room 40, Washington, Mexico City and Tokyo, January–April 1917",
+ "span": "1917",
+ "intro": [
+  "On 16 January 1917 a long block of number groups left the German Foreign Office in Berlin. It was handed to the American embassy, which sent German diplomatic traffic over the State Department's own cable as a courtesy meant to help peace talks. The route ran through Copenhagen and London to Washington, where Ambassador Bernstorff was to pass the message to the German minister in Mexico City. In London, the Admiralty's codebreakers in Room 40 copied it as they copied everything on that cable. By the next morning Nigel de Grey and William Montgomery had a partial reading: unrestricted submarine war from 1 February and, if America came in, an alliance with Mexico, with Texas, New Mexico and Arizona as the prize and Japan invited to join.",
+  "This chapter follows that message from sender to relay, interceptor, receivers and public. Bernstorff re-enciphered it and sent it on by Western Union. Admiral Hall held the decrypt for a month and then found a second copy in a Mexico City telegraph office. That copy let him hide that Britain was reading American cables. Balfour handed the text to Ambassador Page. Page's cable reached Wilson the same night. Lansing gave it to the Associated Press, and on 1 March it was on front pages across the country. Two days later Zimmermann confirmed it was genuine.",
+  "The record here is mostly cables, letters and official memoranda rather than diaries, and the form tags say so. Page's cables, Lansing's and Polk's instructions, and Fletcher's reports from Mexico are printed in the State Department's Foreign Relations series, a US government record. Page's letters and diary notes were published in 1922. House's dictated diary is at Yale. The codebreakers' side survives as de Grey's manuscript worksheet and in accounts by de Grey and Hall written much later. Hall deliberately spread misleading stories about how the telegram was obtained, so those are given as positions.",
+  "The Mexican and Japanese ends are told mostly through other people's reports. Carranza's answers survive as Fletcher heard them, as Eckardt reported them to Berlin, and in the formal reply of 14 April 1917. The two diplomats did not hear the same thing. Japan's denial is known from Foreign Minister Motono's newspaper interview, cabled by the American ambassador on the day Zimmermann admitted authorship.",
+  "The message log sets out the timings: Page's cable leaving London at 1 p.m. and arriving at 8:30 p.m. Washington time, Fletcher's replies arriving before dawn, and Tokyo's denial crossing the Pacific overnight. The plan never came close to working. But its interception, the decision to reveal it, the cover story and the publication show nearly every part of signals intelligence that would follow: intercept, decrypt, protecting the source, verification and press management."
+ ],
+ "calendar_note": "All dates are Gregorian. Times are local where the record gives them: London on Greenwich time (five hours ahead of Washington), Berlin one hour ahead of London, Tokyo about fourteen hours ahead of Washington, and Mexico City on local time. The State Department logged each cable with its sending time at origin and its receiving time in Washington, so a 'received 4 March' Tokyo cable sent on 3 March reflects the time zones as much as the delay.",
+ "eyes": [
+  {
+   "id": "zimmermann",
+   "short": "Zimmermann",
+   "name": "Arthur Zimmermann",
+   "life": "1864–1940",
+   "role": "State Secretary of the German Foreign Office since November 1916, aged 52; the first non-noble career official in the post",
+   "side": "German Empire",
+   "where": "Foreign Office, Wilhelmstrasse, Berlin",
+   "lat": 52.512,
+   "lon": 13.382,
+   "vantage": 0,
+   "vantage_label": "the sender",
+   "form": "official telegrams, press statements and a Reichstag speech",
+   "language": "German",
+   "authenticity": "The telegram survives in German Foreign Office files and in the British and American decrypts. The draft came from his Mexico specialist Hans Arthur von Kemnitz and Zimmermann approved it. His public statements of March 1917 survive as press reports and the Reichstag record. He left no diary for these weeks.",
+   "bio": "A Foreign Office career official who backed unrestricted submarine warfare and looked for ways to keep the United States busy at home if it came into the war. His instruction to offer Mexico an alliance, with Japan invited to join, is the message at the centre of this chapter. His public admission in March removed the doubt that might otherwise have protected him.",
+   "sources": [
+    {
+     "title": "FRUS 1917 Supp. 1, Page's telegram 5747 carrying the text",
+     "url": "https://history.state.gov/historicaldocuments/frus1917Supp01v01/d158"
+    },
+    {
+     "title": "National Archives: telegram as received by the German minister in Mexico",
+     "url": "https://docsteach.org/documents/document/zimmermann-telegram-as-received"
+    }
+   ]
+  },
+  {
+   "id": "bernstorff",
+   "short": "Bernstorff",
+   "name": "Count Johann Heinrich von Bernstorff",
+   "life": "1862–1939",
+   "role": "German ambassador to the United States since 1908, aged 54",
+   "side": "German Empire",
+   "where": "German embassy, Washington; then at sea and back to Berlin",
+   "lat": 38.909,
+   "lon": -77.044,
+   "waypoints": [
+    {
+     "lat": 38.909,
+     "lon": -77.044,
+     "label": "Washington embassy, Jan–Feb 1917"
+    },
+    {
+     "lat": 44.65,
+     "lon": -63.57,
+     "label": "Halifax, ship held for inspection, Feb 1917"
+    },
+    {
+     "lat": 52.512,
+     "lon": 13.382,
+     "label": "Berlin, March 1917"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the relay station",
+   "form": "official telegrams; memoir (written later)",
+   "language": "German (memoir also published in English, 1920)",
+   "authenticity": "His forwarding telegram to Mexico survives in the US State Department files (obtained from Western Union in Washington) and in British decrypts. His memoir, published in 1920 in German and English (My Three Years in America), was written after the war and defends his own conduct, so it is used only for his stated views.",
+   "bio": "A diplomat who had worked for a negotiated peace and had warned Berlin that submarine warfare would bring America in. He was the human relay: he received Zimmermann's text over the Americans' own cable and passed it on to Mexico by commercial telegraph. That second copy was the one that gave Room 40 its cover story.",
+   "sources": [
+    {
+     "title": "FRUS 1917 Supp. 1, Polk to Fletcher, 26 February (forwarded by Bernstorff 19 January)",
+     "url": "https://history.state.gov/historicaldocuments/frus1917Supp01v01/d293"
+    }
+   ]
+  },
+  {
+   "id": "eckardt",
+   "short": "Eckardt",
+   "name": "Heinrich von Eckardt",
+   "life": "1861–1944",
+   "role": "German minister to Mexico, 1914–1918, aged 55",
+   "side": "German Empire",
+   "where": "German legation, Mexico City",
+   "lat": 19.427,
+   "lon": -99.163,
+   "vantage": 0,
+   "vantage_label": "the intended receiver",
+   "form": "official dispatches (as cited by historians)",
+   "language": "German",
+   "authenticity": "His reports to Berlin survive in German Foreign Office files and are cited by Friedrich Katz (The Secret War in Mexico, 1981) and Thomas Boghardt (2012). They are not published in full in a free edition, so his entries here are digests with dates set as the historians give them.",
+   "bio": "Born in Riga, Eckardt was the man meant to put the offer to Carranza. Berlin's later instructions told him to raise it at once, before any US declaration of war. His dispatches show him hopeful about Mexican interest even as the plan fell apart in public.",
+   "sources": [
+    {
+     "title": "Heinrich von Eckardt (biographical summary)",
+     "url": "https://en.wikipedia.org/wiki/Heinrich_von_Eckardt"
+    }
+   ]
+  },
+  {
+   "id": "degrey",
+   "short": "de Grey",
+   "name": "Nigel de Grey",
+   "life": "1886–1951",
+   "role": "Room 40 codebreaker, aged 30; a publisher in civilian life (Heinemann) and RNVR officer",
+   "side": "Britain; Admiralty Naval Intelligence",
+   "where": "Room 40, Admiralty Old Building, Whitehall, London",
+   "lat": 51.5055,
+   "lon": -0.1285,
+   "vantage": 0,
+   "vantage_label": "the codebreaker",
+   "form": "manuscript decrypt worksheets; account (written later)",
+   "language": "English",
+   "authenticity": "His manuscript decrypt of the telegram survives (GCHQ and The National Archives, HW 3/187). His narrative of the first reading, including the scene with Hall, is from an account written decades later (usually dated 1945) and is flagged as later recollection. He worked with William Montgomery, a Presbyterian minister and translator, who left no comparable account.",
+   "bio": "De Grey and Montgomery did the first partial reading on 17 January from a code (0075) that Room 40 had only partly reconstructed. Their gappy first text already showed the words that mattered: submarine war, Mexico, alliance. His worksheet is the physical trace of the intercept.",
+   "sources": [
+    {
+     "title": "GCHQ: de Grey's manuscript decrypt and the typed report",
+     "url": "https://www.gchq.gov.uk/features/century-how-work-gchqs-predecessors-contributed-us-entering-world-war-i"
+    },
+    {
+     "title": "The National Archives blog: the telegram and Room 40",
+     "url": "https://history.blog.gov.uk/2017/01/16/the-zimmermann-telegram-and-room-40"
+    }
+   ]
+  },
+  {
+   "id": "hall",
+   "short": "Hall",
+   "name": "Admiral William Reginald Hall",
+   "life": "1870–1943",
+   "role": "Director of Naval Intelligence, aged 46, in charge of Room 40; nicknamed 'Blinker'",
+   "side": "Britain; Admiralty",
+   "where": "Admiralty, Whitehall, London",
+   "lat": 51.5058,
+   "lon": -0.1278,
+   "vantage": 0,
+   "vantage_label": "the man who decided when to reveal it",
+   "form": "official papers; memoir (draft, written later, unpublished in his lifetime)",
+   "language": "English",
+   "authenticity": "Hall drafted an autobiography in the early 1930s that the Admiralty would not clear for publication. Parts were later used by biographers. It is a later and self-justifying account and is flagged as such. Hall also spread misleading stories about how the telegram was obtained, on purpose, to protect the source; some of these later passed into histories as fact. His remarks as recorded by Hendrick (1922) come from people around him.",
+   "bio": "Hall held the decrypt for weeks without telling even the Foreign Office. He had two problems: hiding that Britain was reading American diplomatic cables, and getting a version the Americans could check themselves. The Mexico City copy solved both. Few cases show more clearly how intelligence officers manage their sources.",
+   "sources": [
+    {
+     "title": "Hendrick, Life and Letters of Walter H. Page, vol. II (1922)",
+     "url": "https://gutenberg.org/files/17018/17018-h/17018-h.htm"
+    },
+    {
+     "title": "History.com: the secret history of the telegram",
+     "url": "https://www.history.com/articles/the-secret-history-of-the-zimmermann-telegram"
+    }
+   ]
+  },
+  {
+   "id": "page",
+   "short": "Page",
+   "name": "Walter Hines Page",
+   "life": "1855–1918",
+   "role": "US ambassador to Britain since 1913, aged 61; former editor and publisher",
+   "side": "United States; London embassy",
+   "where": "US Embassy, 4 Grosvenor Gardens, London",
+   "lat": 51.4975,
+   "lon": -0.1455,
+   "vantage": 0,
+   "vantage_label": "the American who received it",
+   "form": "dated letters, diary notes and official cables",
+   "language": "English",
+   "authenticity": "His cables are printed in FRUS (US government record). His letters and diary notes were edited by Burton J. Hendrick in The Life and Letters of Walter H. Page (vols I–II, 1922; vol. III, 1925), which selects and sometimes arranges material; the cables are the firmer record. Pre-1929 English, so short quotation is permitted.",
+   "bio": "Page had urged Wilson for two years to side with Britain. When Balfour handed him the telegram, it was the proof he had been waiting for. He spent the next day drafting the cable that carried it to Washington. His letters show both his relief and his impatience with the President.",
+   "sources": [
+    {
+     "title": "FRUS 1917 Supp. 1, telegram 5747 (24 February 1917)",
+     "url": "https://history.state.gov/historicaldocuments/frus1917Supp01v01/d158"
+    },
+    {
+     "title": "Hendrick, Life and Letters of Walter H. Page, vol. II (Gutenberg)",
+     "url": "https://gutenberg.org/files/17018/17018-h/17018-h.htm"
+    },
+    {
+     "title": "Hendrick, Life and Letters, vol. I (Gutenberg)",
+     "url": "https://www.gutenberg.org/ebooks/17017"
+    }
+   ]
+  },
+  {
+   "id": "lansing",
+   "short": "Lansing",
+   "name": "Robert Lansing",
+   "life": "1864–1928",
+   "role": "US Secretary of State since 1915, aged 52",
+   "side": "United States; State Department",
+   "where": "State, War and Navy Building, Washington",
+   "lat": 38.8976,
+   "lon": -77.0391,
+   "vantage": 1,
+   "vantage_label": "the department that held the evidence",
+   "form": "official telegrams; private memoranda and desk diary",
+   "language": "English",
+   "authenticity": "His telegrams are printed in FRUS 1917 Supp. 1. His private memoranda (for example on the cabinet of 20 March 1917) and desk diaries are held at the Library of Congress and Princeton. Some memoranda were published in his War Memoirs (1935), so they are digested here, not quoted. Wilson's reported 'Good Lord!' comes only from Lansing's later account.",
+   "bio": "Lansing was more ready for war than his President. He was out of Washington when the telegram arrived and returned to manage what followed: thanking London, protecting the British source, and finding the original in a Washington telegraph office. He chose the AP as the channel for publication.",
+   "sources": [
+    {
+     "title": "FRUS 1917 Supp. 1, Lansing to Page 4483 (27 Feb)",
+     "url": "https://history.state.gov/historicaldocuments/frus1917Supp01v01/d165"
+    },
+    {
+     "title": "FRUS 1917 Supp. 1, Lansing to Page 4494 (1 March)",
+     "url": "https://history.state.gov/historicaldocuments/frus1917Supp01v01/d170"
+    },
+    {
+     "title": "Lansing's memorandum of the cabinet meeting, 20 March 1917",
+     "url": "https://teachingamericanhistory.org/document/lansings-memorandum-of-the-cabinet-meeting/"
+    },
+    {
+     "title": "The Lansing Papers, 1914–1920 (FRUS)",
+     "url": "https://history.state.gov/historicaldocuments/frus1914-20v01"
+    }
+   ]
+  },
+  {
+   "id": "wilson",
+   "short": "Wilson",
+   "name": "Woodrow Wilson",
+   "life": "1856–1924",
+   "role": "President of the United States, aged 60, about to begin his second term (4–5 March 1917)",
+   "side": "United States",
+   "where": "White House and the Capitol, Washington",
+   "lat": 38.8977,
+   "lon": -77.0365,
+   "vantage": 1,
+   "vantage_label": "the reader at the top",
+   "form": "letters, addresses to Congress and official papers",
+   "language": "English",
+   "authenticity": "His letters to House are in the House Papers at Yale and in Arthur Link's Papers of Woodrow Wilson. His addresses to Congress are US government records. He kept no diary for these weeks. Reports of his private reactions come from Polk, Lansing and House.",
+   "bio": "Wilson had been re-elected on keeping the country out of the war and had asked for 'peace without victory' only a month earlier. The telegram arrived during his fight with the Senate over arming merchant ships. It turned the argument about submarines into one about a plot on America's own border.",
+   "sources": [
+    {
+     "title": "Yale: House Papers and the American entry into the war",
+     "url": "https://news.yale.edu/2017/04/03/archive-provides-vivid-picture-american-entry-wwi"
+    },
+    {
+     "title": "FRUS 1917 Supp. 1 (includes the 2 April address)",
+     "url": "https://history.state.gov/historicaldocuments/frus1917Supp01v01"
+    }
+   ]
+  },
+  {
+   "id": "house",
+   "short": "House",
+   "name": "Edward Mandell House",
+   "life": "1858–1938",
+   "role": "Wilson's closest adviser, aged 58, holding no office; usually in New York",
+   "side": "United States",
+   "where": "New York City; Washington on 2 April",
+   "lat": 40.759,
+   "lon": -73.973,
+   "waypoints": [
+    {
+     "lat": 40.759,
+     "lon": -73.973,
+     "label": "New York, Feb–Mar 1917"
+    },
+    {
+     "lat": 38.8977,
+     "lon": -77.0365,
+     "label": "White House, 2 April 1917"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "the confidant at a distance",
+   "form": "diary and dated letters",
+   "language": "English",
+   "authenticity": "House dictated a daily diary, now at Yale (Manuscripts and Archives, MS 466), digitised by the library. Charles Seymour edited selections as The Intimate Papers of Colonel House (1926–28). House writes himself into the centre of events, and his account of his influence should be read with that in mind.",
+   "bio": "House read the telegram as proof of what he had long suspected and urged the President to publish it. His diary of 2 April records Wilson's waiting hours before the war address, and is a counterweight to the public record of that night.",
+   "sources": [
+    {
+     "title": "Yale News: the House archive and America's entry into WWI",
+     "url": "https://news.yale.edu/2017/04/03/archive-provides-vivid-picture-american-entry-wwi"
+    },
+    {
+     "title": "Edward M. House Papers finding aid, Yale",
+     "url": "http://hdl.handle.net/10079/fa/mssa.ms.0466"
+    }
+   ]
+  },
+  {
+   "id": "fletcher",
+   "short": "Fletcher",
+   "name": "Henry Prather Fletcher",
+   "life": "1873–1959",
+   "role": "US ambassador to Mexico, aged 43, newly arrived in Mexico City in February 1917",
+   "side": "United States; Mexico City embassy",
+   "where": "US Embassy, Mexico City; Guadalajara in early March",
+   "lat": 19.43,
+   "lon": -99.14,
+   "waypoints": [
+    {
+     "lat": 19.43,
+     "lon": -99.14,
+     "label": "Mexico City, 26 Feb 1917"
+    },
+    {
+     "lat": 20.67,
+     "lon": -103.35,
+     "label": "Guadalajara, with Carranza, early March 1917"
+    },
+    {
+     "lat": 19.43,
+     "lon": -99.14,
+     "label": "Mexico City, 17 March 1917"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the American at the far end of the line",
+   "form": "official cables",
+   "language": "English",
+   "authenticity": "His telegrams to Washington are printed in FRUS 1917 Supp. 1, section on the Mexican government's attitude to the German proposal (US government record).",
+   "bio": "Fletcher reached Mexico weeks before the storm. He was ordered to read the German offer to the Mexican government before the American public saw it. His cables record what Mexican ministers said to an American face, which differs from what German dispatches say they said to Eckardt.",
+   "sources": [
+    {
+     "title": "FRUS 1917 Supp. 1, Fletcher's telegram of 26 February",
+     "url": "https://history.state.gov/historicaldocuments/frus1917Supp01v01/d294"
+    },
+    {
+     "title": "FRUS 1917 Supp. 1, Fletcher's telegram of 10 March",
+     "url": "https://history.state.gov/historicaldocuments/frus1917Supp01v01/d300"
+    },
+    {
+     "title": "FRUS 1917 Supp. 1, Fletcher's telegram of 17 March",
+     "url": "https://history.state.gov/historicaldocuments/frus1917Supp01v01/d307"
+    }
+   ]
+  },
+  {
+   "id": "carranza",
+   "short": "Carranza",
+   "name": "Venustiano Carranza (with Foreign Minister Cándido Aguilar)",
+   "life": "1859–1920 (Aguilar 1889–1960)",
+   "role": "First Chief of the Constitutionalist government, aged 57, elected president in March 1917; Aguilar, his son-in-law, was foreign minister",
+   "side": "Mexico (Constitutionalist government)",
+   "where": "Mexico City; Querétaro and Guadalajara on tour",
+   "lat": 19.4326,
+   "lon": -99.1332,
+   "waypoints": [
+    {
+     "lat": 20.588,
+     "lon": -100.389,
+     "label": "Querétaro, constitution, Jan–Feb 1917"
+    },
+    {
+     "lat": 20.67,
+     "lon": -103.35,
+     "label": "Guadalajara (Jalisco), late Feb–Mar 1917"
+    },
+    {
+     "lat": 19.4326,
+     "lon": -99.1332,
+     "label": "Mexico City, April 1917"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the government being courted",
+   "form": "official notes and statements (as positions, reported by both sides)",
+   "language": "Spanish",
+   "authenticity": "Mexico's side survives mainly as official notes, statements reported by Fletcher (FRUS) and by Eckardt (German files, via Katz), and the report of a military commission Carranza ordered. Mexican archival records are cited by historians but are not quoted here. The two diplomats' reports do not always agree, so Mexican positions are given as reported, with the reporter named.",
+   "bio": "Carranza had just had US troops in northern Mexico (the Punitive Expedition left in early February 1917) and wanted neither a war with the United States nor a public refusal of Germany. He used the German offer as leverage. Neutrality and a peace conference of neutrals were his stated line throughout.",
+   "sources": [
+    {
+     "title": "FRUS 1917 Supp. 1: attitude of the Mexican government to the German proposal",
+     "url": "https://history.state.gov/historicaldocuments/frus1917Supp01v01/ch5subch2"
+    },
+    {
+     "title": "Teaching American History: the note and its timeline (14 April reply)",
+     "url": "https://teachingamericanhistory.org/document/the-zimmerman-note-to-the-german-minister-to-mexico/"
+    }
+   ]
+  },
+  {
+   "id": "motono",
+   "short": "Motono",
+   "name": "Viscount Motono Ichirō",
+   "life": "1862–1918",
+   "role": "Japanese Minister for Foreign Affairs, aged 54, formerly ambassador to Russia",
+   "side": "Empire of Japan (Allied power)",
+   "where": "Foreign Ministry, Kasumigaseki, Tokyo",
+   "lat": 35.6745,
+   "lon": 139.7505,
+   "vantage": 4,
+   "vantage_label": "the third party named in the plot",
+   "form": "press interview (reported by the US ambassador)",
+   "language": "Japanese (reported in English)",
+   "authenticity": "His words are known from his interview with the editor of the English-language Japan Advertiser, confirmed by the Japanese Foreign Office and cabled by Ambassador George Guthrie on 3 March 1917 (FRUS 1917 Supp. 1, doc. 181). This is a second-hand report of a press statement, not a diary.",
+   "bio": "Japan was an ally of Britain and had taken Germany's Pacific and Chinese possessions. Zimmermann's plan to have Mexico bring Japan in was, to Tokyo, both insulting and dangerous for its relations with Washington. Motono's denial came on the same day Zimmermann confirmed the telegram.",
+   "sources": [
+    {
+     "title": "FRUS 1917 Supp. 1, Guthrie's telegram from Tokyo, 3 March 1917",
+     "url": "https://history.state.gov/historicaldocuments/frus1917Supp01v01/d181"
+    }
+   ]
+  },
+  {
+   "id": "hood",
+   "short": "AP / Hood",
+   "name": "Edwin M. Hood (Associated Press)",
+   "life": "fl. 1917",
+   "role": "Associated Press correspondent at the State Department; the AP wire as printed in US newspapers",
+   "side": "United States press",
+   "where": "Washington; wire copy printed across the country",
+   "lat": 38.8976,
+   "lon": -77.0391,
+   "waypoints": [
+    {
+     "lat": 38.8976,
+     "lon": -77.0391,
+     "label": "Washington, 28 Feb 1917"
+    },
+    {
+     "lat": 40.264,
+     "lon": -76.884,
+     "label": "Harrisburg Telegraph, 1 March 1917"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "the channel to the public",
+   "form": "wire dispatches (as printed in newspapers)",
+   "language": "English",
+   "authenticity": "The AP story is unsigned in print. That Lansing handed the text to Hood is the standard account (Tuchman; Boghardt), and House's letter of 1 March confirms the AP had it exclusively. The printed texts are read here from digitised newspapers, e.g. the Harrisburg Telegraph, 1 March 1917.",
+   "bio": "The administration chose the AP so the story would appear in every subscribing paper at once, without saying it came from the government. The press was the last relay in the chain: from Room 40's worksheets to the breakfast tables of the Midwest, where many had not taken the war seriously.",
+   "sources": [
+    {
+     "title": "Harrisburg Telegraph, 1 March 1917, front page (AP)",
+     "url": "https://panewsarchive.psu.edu/lccn/sn85038411/1917-03-01/ed-1/seq-1.pdf"
+    },
+    {
+     "title": "South Carolina paper, 3 March 1917, front page (AP follow-ups)",
+     "url": "https://historicnewspapers.sc.edu/lccn/sn93067846/1917-03-03/ed-1/seq-1.pdf"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1917-01-16",
+   "date_display": "Tuesday 16 January 1917",
+   "precision": "day",
+   "eye": "zimmermann",
+   "place": "Foreign Office, Berlin",
+   "headline": "An alliance offer to Mexico goes out on America's own wire",
+   "digest": "Zimmermann approved and dispatched telegram No. 1 to Bernstorff for forwarding to Eckardt. It said Germany would start unrestricted submarine warfare on 1 February and would try to keep the United States neutral. If that failed, Mexico was to be offered an alliance, money, and the recovery of Texas, New Mexico and Arizona, and invited to bring in Japan. To reach Washington the enciphered text was handed to the US embassy in Berlin, which carried German traffic over the State Department's cable as a courtesy for peace talks.",
+   "quote": "We intend to begin on the first of February unrestricted submarine warfare.",
+   "confidence": "verified",
+   "source_note": "Text as translated in Page's 5747 and the NARA translation (DocsTeach); route per History.com and GCHQ."
+  },
+  {
+   "date_iso": "1917-01-17",
+   "date_display": "Wednesday 17 January 1917",
+   "precision": "day",
+   "eye": "degrey",
+   "place": "Room 40, Admiralty, London",
+   "headline": "A half-read cable with 'Mexico' in it",
+   "digest": "Working with William Montgomery on the long code-0075 groups taken off the American cable, de Grey recovered only part of the text. Even with gaps it showed submarine war, Mexico and an alliance. In his much later account he took the sheets to Hall that morning. The manuscript worksheet, with gaps and guesses, survives.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "GCHQ feature (read 17 January by a team including de Grey); de Grey's later account for the scene with Hall."
+  },
+  {
+   "date_iso": "1917-01-17",
+   "date_display": "Wednesday 17 January 1917",
+   "precision": "day",
+   "eye": "hall",
+   "place": "Admiralty, London",
+   "headline": "Hall locks the secret in Room 40",
+   "digest": "Hall saw at once that the decrypt could bring America in. He also saw that using it would reveal Britain was reading neutral American diplomatic traffic. He ordered that no one outside the room be told, not even the Foreign Office, and waited to see whether the submarine announcement alone would bring the break.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "History.com account; TNA blog."
+  },
+  {
+   "date_iso": "1917-01-19",
+   "date_display": "Friday 19 January 1917",
+   "precision": "day",
+   "eye": "bernstorff",
+   "place": "German embassy, Washington",
+   "headline": "Passed on by commercial telegraph to Mexico City",
+   "digest": "Bernstorff received the text and re-enciphered it in an older code (13040) that the Mexico legation could read. He sent it to Eckardt by Western Union, with his own covering number. This second, commercial copy left a record in Washington and in Mexico City, and both copies later mattered more than the original.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Polk to Fletcher, 26 Feb (FRUS doc. 293) gives 19 January; NARA copy as received (DocsTeach)."
+  },
+  {
+   "date_iso": "1917-01-19",
+   "date_display": "about 19–20 January 1917",
+   "precision": "range",
+   "eye": "eckardt",
+   "place": "German legation, Mexico City",
+   "headline": "The offer reaches the man who must make it",
+   "digest": "Eckardt received the forwarded instruction and deciphered it. As written it told him to approach Carranza only once war with the United States was certain. He began asking when the First Chief would return from Querétaro.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Receipt date inferred from the 19 January dispatch; Aguilar's later remark that Eckardt kept asking about Carranza's return (FRUS doc. 294)."
+  },
+  {
+   "date_iso": "1917-01-31",
+   "date_display": "Wednesday 31 January 1917",
+   "precision": "day",
+   "eye": "bernstorff",
+   "place": "State Department, Washington",
+   "headline": "Delivering the submarine note in person",
+   "digest": "Late in the afternoon Bernstorff gave Lansing the note announcing unrestricted submarine warfare from the next day. He had warned Berlin against it. The Mexico instruction he had relayed twelve days earlier was conditional on just this breach.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Standard accounts (Tuchman; Boghardt); time of day not confirmed."
+  },
+  {
+   "date_iso": "1917-02-01",
+   "date_display": "Thursday 1 February 1917",
+   "precision": "day",
+   "eye": "degrey",
+   "place": "Room 40, Admiralty, London",
+   "headline": "Filling in the gaps",
+   "digest": "As intercepts piled up in late January and early February, de Grey and Montgomery filled in more of the 0075 text. The core of the message was clear, but the version Room 40 held was not something the Americans could easily check.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia summary of Room 40 work over three weeks; exact days not given."
+  },
+  {
+   "date_iso": "1917-02-03",
+   "date_display": "Saturday 3 February 1917",
+   "precision": "day",
+   "eye": "hall",
+   "place": "Admiralty, London",
+   "headline": "News of the break, and relief",
+   "digest": "When word came that Washington had broken relations with Germany, Hendrick records Hall's reaction as plain relief. The naval attaché in Washington, Captain Guy Gaunt, cabled that Bernstorff had been given his passports. A break was still not war, and Hall kept the decrypt in hand.",
+   "quote": "Thank God!",
+   "confidence": "verified",
+   "source_note": "Hendrick, Life and Letters of Page, vol. II (1922)."
+  },
+  {
+   "date_iso": "1917-02-03",
+   "date_display": "Saturday 3 February 1917",
+   "precision": "day",
+   "eye": "wilson",
+   "place": "Capitol, Washington",
+   "headline": "Breaking relations, not declaring war",
+   "digest": "Wilson told Congress that diplomatic relations with Germany were severed because of the submarine declaration, while hoping Germany would not act on it. He did not yet know of the Mexico offer.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "TNA blog; Mental Floss chronology."
+  },
+  {
+   "date_iso": "1917-02-03",
+   "date_display": "Saturday 3 February 1917",
+   "precision": "day",
+   "eye": "bernstorff",
+   "place": "German embassy, Washington",
+   "headline": "Passports handed over",
+   "digest": "Bernstorff was handed his passports and prepared to leave with his staff. He sailed from New York on the Danish liner Frederik VIII in mid-February, was held for inspection at Halifax, and reached Germany in March. He was at sea when the telegram he had forwarded became world news.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Hendrick vol. II for the passports; voyage details from standard accounts, dates not confirmed."
+  },
+  {
+   "date_iso": "1917-02-05",
+   "date_display": "Monday 5 February 1917",
+   "precision": "day",
+   "eye": "hall",
+   "place": "Admiralty and Foreign Office, London",
+   "headline": "Hall tells the Foreign Office",
+   "digest": "Hall brought the decrypt to the Foreign Office but argued against using it yet. He needed a version that could be passed off as obtained in Mexico. Without one, any disclosure would show the Americans that Britain read their cables.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia summary (date given there without citation)."
+  },
+  {
+   "date_iso": "1917-02-05",
+   "date_display": "Monday 5 February 1917",
+   "precision": "day",
+   "eye": "zimmermann",
+   "place": "Foreign Office, Berlin",
+   "headline": "Don't wait for war: raise it now",
+   "digest": "In a follow-up instruction Zimmermann told Eckardt to raise the alliance with Carranza now rather than wait for an American declaration of war. Katz and Boghardt give the date as 5 February. This change made the plan an active approach, not a contingency.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Katz, Secret War in Mexico (1981), and Boghardt (2012), as summarised in secondary sources."
+  },
+  {
+   "date_iso": "1917-02-10",
+   "date_display": "about 10 February 1917",
+   "precision": "range",
+   "eye": "hall",
+   "place": "Admiralty, London",
+   "headline": "The Mexico City copy arrives",
+   "digest": "A British agent in Mexico City, known in the record only as 'Mr H', got a copy of the Western Union telegram Bernstorff had sent to Eckardt. It was in the older code, which Room 40 could read more fully. It also gave Hall his cover: the leak could be made to look as if it came from Mexico.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia ('Mr. H'); TNA blog (version via the Washington embassy chosen to suggest a Mexican leak); day uncertain."
+  },
+  {
+   "date_iso": "1917-02-12",
+   "date_display": "about 12 February 1917",
+   "precision": "range",
+   "eye": "carranza",
+   "place": "Querétaro / Mexico City",
+   "headline": "Carranza proposes a neutrals' peace",
+   "digest": "Carranza's government sent a note to the neutral nations proposing joint mediation to end the European war and suggesting a stop to supplies to the belligerents. In March he would point to this note when asked what he would say to a German alliance.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Fletcher's telegram of 10 March (FRUS doc. 300) refers to the note; its exact date is taken from standard accounts."
+  },
+  {
+   "date_iso": "1917-02-19",
+   "date_display": "Monday 19 February 1917",
+   "precision": "day",
+   "eye": "hall",
+   "place": "Admiralty, London",
+   "headline": "Showing it to an American",
+   "digest": "Hall showed the telegram to Edward Bell, the embassy secretary who handled intelligence liaison. Bell at first thought it was a forgery. Some accounts date this to 22 February, the day before Balfour formally handed it over.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia (19 February); Mental Floss (22 February). Positions differ."
+  },
+  {
+   "date_iso": "1917-02-20",
+   "date_display": "about 20 February 1917",
+   "precision": "range",
+   "eye": "eckardt",
+   "place": "Mexico City",
+   "headline": "Eckardt sounds out Aguilar",
+   "digest": "Acting on the newer instruction, Eckardt raised the alliance with Foreign Minister Aguilar while Carranza was away. Eckardt's report describes Aguilar as interested. This comes from Eckardt's own dispatch as cited by historians, not a Mexican record.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Katz (1981), as summarised; Wikipedia (Eckardt) gives about a month after 16 January."
+  },
+  {
+   "date_iso": "1917-02-23",
+   "date_display": "Friday 23 February 1917",
+   "precision": "day",
+   "eye": "page",
+   "place": "Foreign Office, London",
+   "headline": "Balfour hands over the proof",
+   "digest": "Foreign Secretary Arthur Balfour gave Page the cipher text, the German text and an English translation. The British asked that their source and methods be kept secret but placed no limit on publishing the telegram itself.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Page's telegram 5747 (FRUS doc. 158) reports that Balfour handed him the text; date per multiple accounts."
+  },
+  {
+   "date_iso": "1917-02-24",
+   "date_display": "Saturday 24 February 1917",
+   "precision": "day",
+   "eye": "page",
+   "place": "US Embassy, London",
+   "headline": "A cable 'For the President'",
+   "digest": "Page had sent an 8 a.m. warning (No. 5746) that a message for the President was coming. At 1 p.m. London time he sent No. 5747: the full translation, how the British claimed to have it, a suggestion to thank Balfour, and a warning that Japan might speak out. Washington logged it received at 8:30 p.m.",
+   "quote": "For the President",
+   "confidence": "verified",
+   "source_note": "FRUS 1917 Supp. 1, doc. 158."
+  },
+  {
+   "date_iso": "1917-02-24",
+   "date_display": "Saturday 24 February 1917, evening",
+   "precision": "day",
+   "eye": "wilson",
+   "place": "White House, Washington",
+   "headline": "The President reads it at night",
+   "digest": "With Lansing away, Acting Secretary Frank Polk brought Page's cable to Wilson that evening. Polk recorded that the President showed much indignation and wanted to publish at once. He held back for several days while Congress debated arming merchant ships.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Link (1965) as cited in Wikipedia; Mental Floss chronology (late evening 24 February)."
+  },
+  {
+   "date_iso": "1917-02-26",
+   "date_display": "Monday 26 February 1917",
+   "precision": "day",
+   "eye": "wilson",
+   "place": "White House and Capitol, Washington",
+   "headline": "An 'astounding dispatch', and a request to arm ships",
+   "digest": "Wilson sent the telegram to House, calling it astounding and saying he planned to publish it that week. The same day he asked Congress for authority to arm American merchant ships, without mentioning Mexico. La Follette's filibuster began against the bill.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Yale News (Wilson to House, 26 Feb); Mental Floss (armed-ship bill, filibuster)."
+  },
+  {
+   "date_iso": "1917-02-26",
+   "date_display": "Monday 26 February 1917, evening",
+   "precision": "day",
+   "eye": "fletcher",
+   "place": "Foreign Ministry, Mexico City",
+   "headline": "Reading the offer to Mexico's foreign minister",
+   "digest": "Polk's 11 a.m. cable told Fletcher to see Carranza or the foreign minister and outline the German note before it was published. Carranza was in Jalisco, so that evening Fletcher read the substance to Aguilar. Aguilar said he knew of no such proposal and that it must have gone to Carranza directly. He mentioned that the German minister had asked several times when the First Chief would be back. He took a Spanish synopsis straight to the telegraph office to discuss it with Carranza.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FRUS docs. 293 and 294 (reply received 27 Feb, 5 a.m.)."
+  },
+  {
+   "date_iso": "1917-02-27",
+   "date_display": "Tuesday 27 February 1917",
+   "precision": "day",
+   "eye": "house",
+   "place": "New York",
+   "headline": "House: publish it",
+   "digest": "House wrote that the German proposal did not surprise him, since he had long believed Berlin meant to stir trouble to distract America. He urged the President to release it, predicting a strong effect on Congress and the country.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Yale News (House to Wilson, 27 Feb)."
+  },
+  {
+   "date_iso": "1917-02-27",
+   "date_display": "Tuesday 27 February 1917",
+   "precision": "day",
+   "eye": "lansing",
+   "place": "State Department, Washington",
+   "headline": "Thanks to London, and a promise of silence",
+   "digest": "Back in Washington, Lansing cabled Page at 4 p.m. to thank Balfour for information of the highest value and to pass on the President's appreciation. He reported that Fletcher had spoken to Mexico and that the German minister seemed not yet to have acted. He promised the source would be protected if the telegram was published. By Lansing's later account, Wilson reacted with open dismay on learning that the message had travelled over the State Department's own cable.",
+   "quote": "inestimable value",
+   "confidence": "verified",
+   "source_note": "FRUS 1917 Supp. 1, doc. 165; Wilson's reaction per Lansing's later account (History.com)."
+  },
+  {
+   "date_iso": "1917-02-28",
+   "date_display": "Wednesday 28 February 1917",
+   "precision": "day",
+   "eye": "lansing",
+   "place": "State Department, Washington",
+   "headline": "Choosing the AP",
+   "digest": "Lansing gave the text to the Associated Press's State Department correspondent for morning papers, without saying the government was the source. The same day he cabled Page asking for the German codebook so the Department could read other Bernstorff messages of 17 January, adding that the Mexico telegram would appear the next day.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FRUS doc. 168 (no. 4493); Dooley blog and standard accounts for the AP hand-over."
+  },
+  {
+   "date_iso": "1917-02-28",
+   "date_display": "Wednesday 28 February 1917, evening",
+   "precision": "day",
+   "eye": "hood",
+   "place": "Washington",
+   "headline": "An exclusive with no named source",
+   "digest": "The AP's man at the State Department received the text on the understanding that the story would not name its source. He filed it for release in the morning papers of 1 March. The United Press, left out, complained.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Standard accounts (Tuchman; Boghardt); House to Wilson, 1 March (Yale News) on the UP's grievance."
+  },
+  {
+   "date_iso": "1917-03-01",
+   "date_display": "Thursday 1 March 1917",
+   "precision": "day",
+   "eye": "hood",
+   "place": "Harrisburg, Pennsylvania (wire copy)",
+   "headline": "'German plot' on every front page",
+   "digest": "The AP story ran across the country. The Harrisburg Telegraph's evening edition headlined a German plot to invade the United States with Japan and Mexico as allies, under a Washington dateline. It said the revelation had stirred the capital deeply and hastened war measures.",
+   "quote": "stirred the capital to its depths",
+   "confidence": "verified",
+   "source_note": "Harrisburg Telegraph, 1 March 1917, p. 1 (Pennsylvania Newspaper Archive)."
+  },
+  {
+   "date_iso": "1917-03-01",
+   "date_display": "Thursday 1 March 1917",
+   "precision": "day",
+   "eye": "house",
+   "place": "New York",
+   "headline": "Press management",
+   "digest": "House wrote to Wilson about the fallout. The AP had the story exclusively, the United Press felt slighted, and House suggested giving the UP the next big story.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Yale News (House to Wilson, 1 March)."
+  },
+  {
+   "date_iso": "1917-03-01",
+   "date_display": "Thursday 1 March 1917",
+   "precision": "day",
+   "eye": "lansing",
+   "place": "State Department, Washington",
+   "headline": "Proving it ourselves",
+   "digest": "Some members of Congress were saying a belligerent had fed the message to the government. At 8 p.m. Lansing cabled Page, marking it most urgent, with the cipher text the Department had obtained from a Washington telegraph office. He asked that Page or an embassy officer be allowed to decode the original personally, so the government could say its own people had read it.",
+   "quote": "most urgent",
+   "confidence": "verified",
+   "source_note": "FRUS 1917 Supp. 1, doc. 170 (no. 4494)."
+  },
+  {
+   "date_iso": "1917-03-02",
+   "date_display": "about 2 March 1917",
+   "precision": "range",
+   "eye": "page",
+   "place": "US Embassy and Admiralty, London",
+   "headline": "Bell decodes it himself",
+   "digest": "Following Lansing's request, Edward Bell sat with Room 40 staff and decoded the Washington copy himself, using the reconstructed codebook. This let the US government say an American had read the telegram. The exact day and the wording of Page's report are not confirmed here.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Standard accounts (Tuchman; Hendrick vol. III, 1925); follows from FRUS doc. 170."
+  },
+  {
+   "date_iso": "1917-03-02",
+   "date_display": "about 1–2 March 1917",
+   "precision": "range",
+   "eye": "hood",
+   "place": "Washington (wire copy)",
+   "headline": "The Senate asks: is it real?",
+   "digest": "AP follow-ups reported that Senator Lodge had moved a resolution asking whether the note was authentic, and that the White House and State Department had confirmed the press account. Lansing said the government did not believe Japan knew of the proposal. A Mexican official dismissed related rumours about oil supplies as groundless.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "South Carolina paper, 3 March 1917, p. 1 (AP)."
+  },
+  {
+   "date_iso": "1917-03-03",
+   "date_display": "Saturday 3 March 1917",
+   "precision": "day",
+   "eye": "zimmermann",
+   "place": "Foreign Office, Berlin",
+   "headline": "'I cannot deny it'",
+   "digest": "At a press briefing, asked by an American correspondent whether the telegram was genuine, Zimmermann said it was. Later histories name the questioner as the Hearst correspondent William Bayard Hale. An unexplained denial would have let American sceptics call it a British forgery. He argued the offer applied only if the United States declared war.",
+   "quote": "I cannot deny it. It is true.",
+   "confidence": "verified",
+   "source_note": "History.com; Wikipedia summaries (3 March). Hale's identity per Tuchman; widely quoted words."
+  },
+  {
+   "date_iso": "1917-03-03",
+   "date_display": "Saturday 3 March 1917",
+   "precision": "day",
+   "eye": "motono",
+   "place": "Foreign Ministry, Tokyo",
+   "headline": "Tokyo: absurd and preposterous",
+   "digest": "Motono told the editor of the Japan Advertiser that Japan had received no such proposal from Mexico. He said it was absurd to think Japan would desert the Allies, and called the scheme a sign of German delusion. The Foreign Office confirmed the interview, and Ambassador Guthrie cabled it at 3 p.m. Tokyo time. Washington received it at 3:45 a.m. on 4 March.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FRUS 1917 Supp. 1, doc. 181."
+  },
+  {
+   "date_iso": "1917-03-10",
+   "date_display": "Saturday 10 March 1917",
+   "precision": "day",
+   "eye": "fletcher",
+   "place": "Mexico City (after days in Guadalajara)",
+   "headline": "Carranza won't say no",
+   "digest": "Back from several days with Carranza in Guadalajara, Fletcher reported at 10 a.m. Carranza had said Mexico had received no German alliance proposal and wanted the war kept out of the Americas. Asked directly, he would say only that Mexico wished to stay out, pointing to his peace note. Fletcher judged Mexico would not ally with Germany now but wanted to avoid a flat refusal. He sensed a lean toward Germany in both Carranza and Aguilar.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FRUS 1917 Supp. 1, doc. 300 (received 11 March, 2 a.m.)."
+  },
+  {
+   "date_iso": "1917-03-10",
+   "date_display": "about 10 March 1917",
+   "precision": "range",
+   "eye": "carranza",
+   "place": "Guadalajara, Jalisco",
+   "headline": "Step by step",
+   "digest": "As Fletcher reported, Aguilar said the government preferred to move step by step and that Carranza would see Fletcher again after a report on the note. Mexico's conduct, he said, would be correct whatever was said, and actions spoke better than words. The position kept both Washington and Berlin waiting.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FRUS 1917 Supp. 1, doc. 300 (Mexican position as reported by Fletcher)."
+  },
+  {
+   "date_iso": "1917-03-17",
+   "date_display": "Saturday 17 March 1917",
+   "precision": "day",
+   "eye": "fletcher",
+   "place": "Foreign Ministry, Mexico City",
+   "headline": "Mexico offers to mediate",
+   "digest": "Aguilar called Fletcher in and gave him a confidential, unofficial offer for Washington. Mexico would put its good offices at the service of the United States to restore relations with Germany or prevent war. He stressed that the German minister had not been told and that the offer was not meant to help Germany. Fletcher sent it at 10 p.m.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "FRUS 1917 Supp. 1, doc. 307 (received 18 March, 4:10 a.m.)."
+  },
+  {
+   "date_iso": "1917-03-20",
+   "date_display": "Tuesday 20 March 1917",
+   "precision": "day",
+   "eye": "lansing",
+   "place": "White House, Washington",
+   "headline": "A cabinet that agreed on war",
+   "digest": "In a memorandum written that evening, Lansing recorded every cabinet member saying war was inevitable and Congress should be called early. Wilson listened calmly, gave no sign of his own view, and said he would sleep on it. Lansing cited Germans moving to Mexico and Cuba among the signs of hostility. He and Burleson put 2 April as the earliest date for Congress to meet.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lansing's memorandum of 20 March 1917 (Teaching American History; published in his War Memoirs, 1935)."
+  },
+  {
+   "date_iso": "1917-03-25",
+   "date_display": "Sunday 25 March 1917",
+   "precision": "day",
+   "eye": "page",
+   "place": "London",
+   "headline": "'With both feet'",
+   "digest": "Page wrote to his son Arthur that Britain expected America to come in fully and wholeheartedly. He described the embassy staff collecting war information in preparation.",
+   "quote": "with both feet",
+   "confidence": "verified",
+   "source_note": "Hendrick, Life and Letters of Page, vol. II (1922)."
+  },
+  {
+   "date_iso": "1917-03-29",
+   "date_display": "Thursday 29 March 1917",
+   "precision": "day",
+   "eye": "zimmermann",
+   "place": "Reichstag, Berlin",
+   "headline": "Defending the plan in the Reichstag",
+   "digest": "Zimmermann defended the instruction before the Reichstag. He argued it was a lawful precaution that would only have taken effect if the United States made war on Germany, and blamed American hostility for its exposure. He did not explain how the British had read it. Some sources date the speech 30 March.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia summaries (29 March; bibliography gives 30 March)."
+  },
+  {
+   "date_iso": "1917-04-02",
+   "date_display": "Monday 2 April 1917",
+   "precision": "day",
+   "eye": "wilson",
+   "place": "Capitol, Washington",
+   "headline": "'Safe for democracy'",
+   "digest": "In the evening Wilson asked a joint session of Congress to declare that a state of war existed with Germany. Submarine warfare was his main charge, but he cited the intercepted note to the German minister in Mexico City as evidence that Germany meant to stir up enemies on America's borders.",
+   "quote": "The world must be made safe for democracy.",
+   "confidence": "verified",
+   "source_note": "Address of 2 April 1917 (US government record); Yale News."
+  },
+  {
+   "date_iso": "1917-04-02",
+   "date_display": "Monday 2 April 1917",
+   "precision": "day",
+   "eye": "house",
+   "place": "White House, Washington",
+   "headline": "The waiting hours",
+   "digest": "House arrived for breakfast and found the President about to play golf. He recorded that Wilson had shown the address to no one, read it to him, and was nervous through the long afternoon. After the Capitol they talked in the Oval Room, and House thought Wilson relieved. He also wondered whether the President knew how much of the speech was House's.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "House diary, 2 April 1917, as described by Yale News."
+  },
+  {
+   "date_iso": "1917-04-03",
+   "date_display": "Tuesday 3 April 1917",
+   "precision": "day",
+   "eye": "page",
+   "place": "London",
+   "headline": "'The Day'",
+   "digest": "In a diary note he headed 'The Day', Page recorded the London reaction to the President's address. Balfour came to him and called it a great day for the world. Page used the moment to press Lord Robert Cecil to drop the British blacklist that had irritated American firms.",
+   "quote": "It's a great day for the world.",
+   "confidence": "verified",
+   "source_note": "Hendrick, Life and Letters of Page, vol. II (1922) (Balfour's words as recorded by Page)."
+  },
+  {
+   "date_iso": "1917-04-06",
+   "date_display": "Friday 6 April 1917",
+   "precision": "day",
+   "eye": "wilson",
+   "place": "White House, Washington",
+   "headline": "War, signed",
+   "digest": "After the Senate (4 April) and the House (early on 6 April) passed the war resolution, Wilson signed it on 6 April, Good Friday. The Mexico offer had made no military difference, but it helped turn opinion in the West and South, where the war had seemed far away.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "TNA blog; DocsTeach (6 April declaration)."
+  },
+  {
+   "date_iso": "1917-04-14",
+   "date_display": "Saturday 14 April 1917",
+   "precision": "day",
+   "eye": "carranza",
+   "place": "Mexico City",
+   "headline": "Mexico declines",
+   "digest": "Carranza formally told the German minister that Mexico would not accept the alliance and would stay neutral. Historians cite a military commission's report that Mexico could not win such a war, that German money and arms could not reach it, and that the lost territories could not be governed. Carranza left the door open to closer ties after the war.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Teaching American History (14 April 1917); Mexico News Daily on the commission's findings."
+  },
+  {
+   "date_iso": "1917-04-14",
+   "date_display": "Saturday 14 April 1917",
+   "precision": "day",
+   "eye": "eckardt",
+   "place": "German legation, Mexico City",
+   "headline": "The answer Berlin did not want",
+   "digest": "Eckardt reported Carranza's refusal to Berlin. In his account the refusal was framed as a matter of timing and Mexican weakness, not hostility, and he stayed in Mexico City until 1918, still hoping for Mexican neutrality to favour Germany.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Katz (1981) as summarised in secondary sources; wording of Eckardt's report not seen."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1917-01-16",
+   "date_display": "16 January 1917",
+   "eye": "zimmermann",
+   "claim": "Berlin → Washington (for Mexico City): telegram No. 1 in code 0075, handed to the US embassy in Berlin and sent over the State Department's cable via Copenhagen and London. Content: submarine war from 1 February; if America enters, alliance with Mexico, money, Texas–New Mexico–Arizona; invite Japan.",
+   "form": "cable",
+   "evidence": "Page's 5747 (FRUS doc. 158); History.com; GCHQ",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1917-01-16",
+   "date_display": "16 January 1917 (route disputed)",
+   "eye": "zimmermann",
+   "claim": "Second route, position: Hall's own later accounts, and histories that followed him, say a copy also went by the 'Swedish roundabout' (Swedish diplomatic cables via Buenos Aires), and some add the Nauen–Sayville wireless. Position: later research (Peter Freeman, 2007) holds that only the American cable was used and that the 'three routes' story was Hall's own disinformation.",
+   "form": "cable",
+   "evidence": "Hall's accounts as followed by Tuchman (1958); Freeman, Intelligence and National Security (2007), cited by The National Archives blog",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1917-01-17",
+   "date_display": "17 January 1917",
+   "eye": "degrey",
+   "claim": "Intercept: Room 40 copies the American cable traffic; de Grey and Montgomery produce a partial decrypt the next day, with gaps, enough to show 'Mexico' and 'alliance'.",
+   "form": "decrypt",
+   "evidence": "GCHQ feature; de Grey's manuscript worksheet (HW 3/187)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1917-01-19",
+   "date_display": "19 January 1917",
+   "eye": "bernstorff",
+   "claim": "Washington → Mexico City by Western Union: Bernstorff re-enciphers the text in older code 13040 and forwards it to Eckardt. The State Department later gets this copy from the Washington telegraph office (file 862.20212/82A).",
+   "form": "telegraph",
+   "evidence": "FRUS docs. 293 and 170; NARA as-received copy",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1917-02-10",
+   "date_display": "about 10 February 1917",
+   "eye": "hall",
+   "claim": "Mexico City telegraph office → London: agent 'Mr H' obtains the Western Union copy delivered to Eckardt and sends it to Hall. In the older code it decrypts more fully and gives the cover story of a Mexican leak.",
+   "form": "intercept",
+   "evidence": "Wikipedia ('Mr. H'); TNA blog",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1917-02-23",
+   "date_display": "Friday 23 February 1917",
+   "eye": "page",
+   "claim": "Balfour → Page, Foreign Office, London: hands over the cipher text, the German text and an English translation; asks that source and methods stay secret, no limit on publishing the text.",
+   "form": "other",
+   "evidence": "FRUS doc. 158",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1917-02-24",
+   "date_display": "24 February 1917, 1 p.m. London → 8:30 p.m. Washington",
+   "eye": "page",
+   "claim": "London → Washington: Page's telegram 5747 'For the President', with the full translation. Sent 1 p.m. GMT, logged received 8:30 p.m. EST, about 2½ hours in transit once the 5-hour difference is allowed for. Preceded by warning cable 5746 at 8 a.m.",
+   "form": "cable",
+   "evidence": "FRUS 1917 Supp. 1, doc. 158",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1917-02-26",
+   "date_display": "26 February 1917, 11 a.m. Washington",
+   "eye": "fletcher",
+   "claim": "Polk → Fletcher, telegram No. 10: summarises the German note, orders him to tell Carranza or the foreign minister before publication. Fletcher's reply (No. 9) on Aguilar's denial is received 27 February, 5 a.m.",
+   "form": "cable",
+   "evidence": "FRUS docs. 293 and 294",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1917-02-27",
+   "date_display": "27 February 1917, 4 p.m. Washington",
+   "eye": "lansing",
+   "claim": "Lansing → Page, telegram 4483: thank Balfour for information of 'inestimable value'; the President's appreciation; source to be protected on publication.",
+   "form": "cable",
+   "evidence": "FRUS doc. 165",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1917-02-28",
+   "date_display": "28 February 1917, evening",
+   "eye": "lansing",
+   "claim": "Lansing → AP (State Department correspondent): text handed over unattributed for release in the morning papers of 1 March.",
+   "form": "other",
+   "evidence": "Standard accounts; FRUS doc. 168 (publication 'tomorrow'); House to Wilson, 1 March",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1917-03-01",
+   "date_display": "1 March 1917",
+   "eye": "hood",
+   "claim": "AP wire → US newspapers: front-page story, Washington dateline, e.g. Harrisburg Telegraph: 'stirred the capital to its depths'.",
+   "form": "report",
+   "evidence": "Harrisburg Telegraph, 1 March 1917, p. 1",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1917-03-01",
+   "date_display": "1 March 1917, 8 p.m. Washington",
+   "eye": "lansing",
+   "claim": "Lansing → Page, telegram 4494, 'most urgent': with the cipher text from a Washington telegraph office, asks that an American decode the original in London so the government can say its own people read it.",
+   "form": "cable",
+   "evidence": "FRUS doc. 170",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1917-03-03",
+   "date_display": "3 March 1917, Berlin",
+   "eye": "zimmermann",
+   "claim": "Zimmermann → American press in Berlin: confirms authorship, 'I cannot deny it. It is true.'",
+   "form": "report",
+   "evidence": "History.com; standard accounts",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1917-03-03",
+   "date_display": "3 March 1917, 3 p.m. Tokyo → received 4 March, 3:45 a.m. Washington",
+   "eye": "motono",
+   "claim": "Tokyo → Washington: Guthrie reports Motono's Japan Advertiser interview; Japan never received such proposals and calls the idea absurd and preposterous.",
+   "form": "cable",
+   "evidence": "FRUS doc. 181",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1917-04-02",
+   "date_display": "2 April 1917, evening",
+   "eye": "wilson",
+   "claim": "Wilson → joint session of Congress: asks for a declaration of a state of war; cites the intercepted note to the German minister at Mexico City.",
+   "form": "report",
+   "evidence": "Address of 2 April 1917 (US government record)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1917-04-14",
+   "date_display": "14 April 1917",
+   "eye": "carranza",
+   "claim": "Carranza → Eckardt: formal refusal of the alliance; Mexico to remain neutral.",
+   "form": "other",
+   "evidence": "Teaching American History timeline; Katz (1981)",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1917-01-17",
+   "label": "Sent from Berlin, read in London the next day",
+   "eyes": [
+    "zimmermann",
+    "degrey",
+    "hall"
+   ],
+   "note": "Zimmermann's office trusted the American cable because it was neutral. Room 40 read that cable routinely. The sender's security and the codebreakers' access were the same fact seen from either end."
+  },
+  {
+   "date": "1917-01-19",
+   "label": "Washington forwards to Mexico City",
+   "eyes": [
+    "bernstorff",
+    "eckardt"
+   ],
+   "note": "A commercial relay in an older code turned one secret message into two copies, one on each side of the US–Mexico border. The second copy is what made the British disclosure possible."
+  },
+  {
+   "date": "1917-02-03",
+   "label": "The break in relations",
+   "eyes": [
+    "hall",
+    "wilson",
+    "bernstorff"
+   ],
+   "note": "Wilson broke relations but did not declare war, Bernstorff packed, and Hall, relieved, kept his secret. Each read the same news as a halfway point."
+  },
+  {
+   "date": "1917-02-24",
+   "label": "London to Washington in an afternoon",
+   "eyes": [
+    "page",
+    "wilson",
+    "hall"
+   ],
+   "note": "Page's cable left at 1 p.m. GMT and was on Wilson's desk that night. Hall's weeks of waiting ended in a transfer of a few hours. The President's anger was immediate, but his public response waited on the Senate."
+  },
+  {
+   "date": "1917-02-26",
+   "label": "Two capitals learn it at once",
+   "eyes": [
+    "wilson",
+    "fletcher",
+    "carranza",
+    "house"
+   ],
+   "note": "In Washington, Wilson asked Congress to arm ships and sent House the text. In Mexico City, Fletcher read it to Aguilar, who denied any approach and went straight to the telegraph to consult Carranza. Eckardt's own dispatch says he had raised it with Aguilar days earlier."
+  },
+  {
+   "date": "1917-03-01",
+   "label": "Publication day",
+   "eyes": [
+    "hood",
+    "lansing",
+    "house"
+   ],
+   "note": "The AP story ran nationwide. House handled the press rivalry, and Lansing, facing doubt in Congress, cabled London that night asking for an American to decode the original. Publication left the government needing to prove the story it had planted."
+  },
+  {
+   "date": "1917-03-03",
+   "label": "Berlin confirms, Tokyo denies",
+   "eyes": [
+    "zimmermann",
+    "motono",
+    "hood"
+   ],
+   "note": "On the same day Zimmermann admitted the telegram in Berlin and Motono dismissed it in Tokyo. The admission ended the forgery theory, and the Japanese denial removed the threat in the Pacific. American papers carried both."
+  },
+  {
+   "date": "1917-04-02",
+   "label": "The war address",
+   "eyes": [
+    "wilson",
+    "house",
+    "page",
+    "lansing"
+   ],
+   "note": "Lansing's cabinet memo of 20 March set the date. House's diary records the waiting at the White House, and Page's 'The Day' records Balfour's joy in London. Wilson's address mentions the Mexico note in a single sentence."
+  },
+  {
+   "date": "1917-04-14",
+   "label": "Mexico's answer",
+   "eyes": [
+    "carranza",
+    "eckardt"
+   ],
+   "note": "The formal refusal came eight days after the American declaration of war. Carranza presented it as neutrality and a matter of timing, which kept options open with both Washington and Berlin."
+  }
+ ],
+ "ties": [
+  {
+   "a": "zimmermann",
+   "b": "bernstorff",
+   "kind": "mentioned",
+   "note": "Superior and ambassador; Bernstorff relayed the instruction he thought unwise and later criticised the submarine decision behind it in his memoir."
+  },
+  {
+   "a": "bernstorff",
+   "b": "eckardt",
+   "kind": "mentioned",
+   "note": "Linked only by the forwarding telegram of 19 January, the commercial copy that undid the secret."
+  },
+  {
+   "a": "degrey",
+   "b": "hall",
+   "kind": "met",
+   "note": "De Grey brought Hall the partial decrypt on 17 January; Hall decided when and how it would be used."
+  },
+  {
+   "a": "hall",
+   "b": "page",
+   "kind": "met",
+   "note": "Hall worked through Edward Bell and Balfour to put the text in Page's hands while hiding that Britain read American cables."
+  },
+  {
+   "a": "page",
+   "b": "lansing",
+   "kind": "read each other",
+   "note": "Cables 5747, 4483, 4493 and 4494 form a running exchange over four days on source protection, thanks and proof."
+  },
+  {
+   "a": "lansing",
+   "b": "wilson",
+   "kind": "met",
+   "note": "Lansing's memoranda are the source for Wilson's private reactions, from his dismay at the State Department route to his calm at the cabinet of 20 March."
+  },
+  {
+   "a": "wilson",
+   "b": "house",
+   "kind": "read each other",
+   "note": "Wilson sent House the 'astounding dispatch' on 26 February; House urged publication and recorded the night of the war address."
+  },
+  {
+   "a": "lansing",
+   "b": "hood",
+   "kind": "met",
+   "note": "Lansing chose the AP correspondent as the unattributed channel for publication."
+  },
+  {
+   "a": "fletcher",
+   "b": "carranza",
+   "kind": "met",
+   "note": "Fletcher read the German offer to Aguilar on 26 February and spent days with Carranza in Guadalajara; his cables are the US record of Mexican positions."
+  },
+  {
+   "a": "eckardt",
+   "b": "carranza",
+   "kind": "opposite sides",
+   "note": "Eckardt's dispatches and Fletcher's cables report different Mexican answers in the same weeks; Carranza gave each diplomat what he wanted to hear."
+  },
+  {
+   "a": "zimmermann",
+   "b": "motono",
+   "kind": "opposite sides",
+   "note": "Zimmermann's plan named Japan as a partner; on 3 March, the day he admitted it, Motono called it absurd."
+  },
+  {
+   "a": "eckardt",
+   "b": "fletcher",
+   "kind": "same street",
+   "note": "Rival envoys in Mexico City lobbying the same government over the same offer."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "cables-1858",
+   "note": "The telegram crossed the Atlantic on the submarine cable network that grew from the 1858 attempt. Britain had cut Germany's own cables in August 1914, which is why Berlin had to borrow the Americans' line through London."
+  },
+  {
+   "to": "wireless-1901",
+   "note": "German long-range wireless (Telefunken's Nauen station and its American partner at Sayville) was the route Berlin could still use alone. Hall's later accounts listed it among the telegram's possible paths."
+  },
+  {
+   "to": "midway-1942",
+   "note": "Room 40's methods of recovering codebooks from captured material and intercepts were inherited by the interwar codebreaking services, whose Pacific successors read Japanese naval traffic before Midway."
+  },
+  {
+   "to": "v1:ww1",
+   "note": "The telegram and the submarine campaign it announced brought the United States into the First World War in April 1917, a turning point in that chapter's final eighteen months."
+  },
+  {
+   "to": "v6:paris-1919",
+   "note": "Wilson, House and Lansing, the American readers of the telegram, went to Paris two years later to negotiate the peace that their entry into the war had made possible."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.gchq.gov.uk/features/century-how-work-gchqs-predecessors-contributed-us-entering-world-war-i",
+   "title": "Nigel de Grey's manuscript decrypt of the telegram",
+   "caption": "De Grey's handwritten worksheet of the first readings, with the typed formal report Room 40 produced. The gaps and guesses show how partial the first reading was. (GCHQ's page also captions one scan with Bletchley Park, which is wrong: Room 40 was at the Admiralty in 1917.)",
+   "date": "January–February 1917",
+   "credit": "GCHQ"
+  },
+  {
+   "url": "https://history.blog.gov.uk/2017/01/16/the-zimmermann-telegram-and-room-40",
+   "title": "The Zimmermann telegram in Room 40's files (HW 3/187)",
+   "caption": "The National Archives' image of the decrypted telegram from the Room 40 papers, with a short history of the codebreakers.",
+   "date": "1917",
+   "credit": "The National Archives, Kew, HW 3/187"
+  },
+  {
+   "url": "https://docsteach.org/documents/document/zimmermann-telegram-as-received",
+   "title": "Zimmermann telegram as received by the German minister to Mexico",
+   "caption": "The Western Union copy forwarded by Bernstorff from Washington, as filed by the State Department (NARA identifier 302025). This was the commercial copy that let the Americans prove the text themselves.",
+   "date": "January 1917",
+   "credit": "National Archives, RG 59"
+  },
+  {
+   "url": "https://docsteach.org/documents/document/translation-zimmermann-telegram",
+   "title": "Page's telegram conveying the translation",
+   "caption": "The State Department's received copy of Page's cable carrying the English translation, from the President's file. It is how Wilson first read the offer.",
+   "date": "24 February 1917",
+   "credit": "National Archives, RG 59"
+  },
+  {
+   "url": "https://panewsarchive.psu.edu/lccn/sn85038411/1917-03-01/ed-1/seq-1.pdf",
+   "title": "Harrisburg Telegraph, 1 March 1917",
+   "caption": "An evening front page carrying the AP story under a banner about a German plot with Japan and Mexico as allies, showing how fast the text went from Room 40's worksheets to local papers.",
+   "date": "1 March 1917",
+   "credit": "Pennsylvania Newspaper Archive (Penn State)"
+  },
+  {
+   "url": "https://www.archives.gov/historical-docs/zimmerman-telegram",
+   "title": "Zimmermann telegram (National Archives feature)",
+   "caption": "The National Archives' public feature on the coded telegram, filed under 862.20212/82A, the file number of Lansing's 1 March cable asking for an American decoding.",
+   "date": "1917",
+   "credit": "National Archives"
+  }
+ ],
+ "further": [
+  {
+   "title": "Papers Relating to the Foreign Relations of the United States, 1917, Supplement 1: The World War",
+   "url": "https://history.state.gov/historicaldocuments/frus1917Supp01v01"
+  },
+  {
+   "title": "The Lansing Papers, 1914–1920, vol. I (FRUS)",
+   "url": "https://history.state.gov/historicaldocuments/frus1914-20v01"
+  },
+  {
+   "title": "Burton J. Hendrick, The Life and Letters of Walter H. Page, vol. II (1922)",
+   "url": "https://gutenberg.org/files/17018/17018-h/17018-h.htm"
+  },
+  {
+   "title": "The National Archives (UK): The Zimmermann telegram and Room 40",
+   "url": "https://history.blog.gov.uk/2017/01/16/the-zimmermann-telegram-and-room-40"
+  },
+  {
+   "title": "GCHQ: How GCHQ's predecessors contributed to the US entering World War I",
+   "url": "https://www.gchq.gov.uk/features/century-how-work-gchqs-predecessors-contributed-us-entering-world-war-i"
+  },
+  {
+   "title": "Yale News: Archive provides a vivid picture of American entry into WWI (House papers)",
+   "url": "https://news.yale.edu/2017/04/03/archive-provides-vivid-picture-american-entry-wwi"
+  },
+  {
+   "title": "Review of Thomas Boghardt, The Zimmermann Telegram (2012), Studies in Intelligence",
+   "url": "https://cia.gov/resources/csi/static/The-Zimmermann-Telegram.pdf"
+  }
+ ],
+ "vantage_key": "0 = sender, relay, codebreaker or intended receiver of the telegram; 1 = handled the text or its consequences directly (Washington leaders, the envoys and government in Mexico City); 2 = same capital, carrying it to the public; 3 = same country at a distance; 4 = abroad, reacting to news."
+}

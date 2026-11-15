@@ -1,0 +1,1142 @@
+{
+ "id": "tambora-1816",
+ "title": "The Sun Grew Dim",
+ "subtitle": "Mount Tambora's eruption and the Year Without a Summer, Sumbawa to Geneva to Yunnan, 1815–1817",
+ "span": "1815–1817",
+ "intro": [
+  "On the evening of 5 April 1815, Mount Tambora on the island of Sumbawa began to erupt. Five days later it blew itself apart in the largest eruption in recorded history, burying the kingdoms on its slopes and sending a veil of sulphate high into the stratosphere. Tens of thousands died on Sumbawa and neighbouring Lombok, from the blast itself and then from famine and disease.",
+  "The veil drifted around the world. In 1816 Europe and North America had what New Englanders came to call 'eighteen-hundred-and-froze-to-death': snow in June, frost in August, ruined harvests, and in 1817 famine across central Europe and southwest China. Almost nobody connected the cold to a volcano they had never heard of. That link was made only in the twentieth century.",
+  "This chapter is honest about its sources. The eruption itself survives mostly through official reports: letters sent to Raffles by British residents and officers, and one survivor's testimony, the Raja of Sanggar's, written down by someone else. Those are compilations and relayed accounts, not diaries, and they are tagged that way. The aftermath has true diaries (a Maine farmer, a Connecticut parson, Byron's physician Polidori), alongside dated letters, a weather memorandum book, a village chronicle, poems, and one memoir written decades later.",
+  "Three clusters carry the chapter. The first is the eruption, 5–12 April 1815, seen from the mountain's foot, from a warship and from Java. The second is the New England cold snap of 6–10 June 1816, logged by three men who never met. The third is the ghost-story week at Villa Diodati, 16–18 June 1816, where rain kept a group of young English writers indoors and Frankenstein and The Vampyre began.",
+  "Set side by side, the eyes show a disaster that changed shape as it travelled: fire and whirlwind on Sumbawa, ash on Java, frozen washing in Connecticut, thunderstorms over Geneva, swollen feet in Württemberg, children sold in Yunnan. None of them could see the whole thing. Together they nearly do."
+ ],
+ "calendar_note": "All European, American and East Indies dates are Gregorian. Li Yuyang's poems would originally have been dated by the Chinese lunisolar calendar and Jiaqing reign years, but the English sources give only seasons or years, so they are placed approximately. Undated or season-only items are given a mid-point date_iso for sorting, with precision 'month', 'range' or 'year'.",
+ "eyes": [
+  {
+   "id": "raffles",
+   "name": "Thomas Stamford Raffles",
+   "short": "Raffles",
+   "life": "1781–1826",
+   "role": "Lieutenant-Governor of British-occupied Java, aged 33",
+   "side": "British East India Company administration",
+   "where": "Java (seat of government at Buitenzorg/Batavia), c. 800 miles west of Tambora",
+   "lat": -6.6,
+   "lon": 106.8,
+   "vantage": 3,
+   "vantage_label": "same region, collecting reports",
+   "form": "dated official narrative (compiled from residents' reports)",
+   "language": "English",
+   "authenticity": "Raffles' 'Narrative of the effects of the eruption from the Tomboro Mountain' was compiled in 1815 (completed September) from letters sent in by British residents and officers; it is a compilation, not a personal diary. Reprinted in Sophia Raffles' Memoir (1830); material also used in his History of Java (1817).",
+   "bio": "Raffles ran Java for the British between the 1811 conquest and 1816. When booms rolled across the island he first took them for gunfire; once ash fell, he did something unusual for a colonial governor and asked every resident to send in a written account. His narrative is the reason the eruption's timeline survives at all.",
+   "sources": [
+    {
+     "title": "Sophia Raffles, Memoir of the Life and Public Services of Sir Thomas Stamford Raffles (1830), Cornell digital copy",
+     "url": "https://digital.library.cornell.edu/catalog/sea147a"
+    },
+    {
+     "title": "Memoir of the Life... (Internet Archive)",
+     "url": "https://archive.org/details/memoiroflifepubl00raff"
+    },
+    {
+     "title": "Klingaman & Klingaman, '1816: The Year Without Summer' excerpt (Scientific American)",
+     "url": "https://www.scientificamerican.com/article/1816-the-year-without-summer-excerpt"
+    }
+   ]
+  },
+  {
+   "id": "benares",
+   "name": "Commander of the East India Company cruiser Benares",
+   "short": "Benares captain",
+   "life": "unknown",
+   "role": "Naval commander stationed at Makassar, Celebes (name not given in the sources consulted)",
+   "side": "British East India Company marine",
+   "where": "Makassar, Sulawesi, then at sea to Bima on Sumbawa",
+   "lat": -5.14,
+   "lon": 119.42,
+   "waypoints": [
+    {
+     "lat": -5.14,
+     "lon": 119.42,
+     "label": "Makassar, 5 April 1815"
+    },
+    {
+     "lat": -8.46,
+     "lon": 118.73,
+     "label": "Bima, 19 April 1815"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "at sea, sailing into the ash",
+   "form": "report from ship's log (as reprinted by Raffles)",
+   "language": "English",
+   "authenticity": "Known through the commander's report reproduced in Raffles' narrative/Memoir; the original logbook was not consulted. Dates follow the Klingamans' reading of Raffles.",
+   "bio": "The Benares was the nearest British warship. Its commander heard what he assumed was a naval engagement and put to sea to hunt pirates, then sailed on into darkness and a sea choked with pumice. His is the closest European sea-level view of the eruption's aftermath.",
+   "sources": [
+    {
+     "title": "Scientific American excerpt (Klingaman)",
+     "url": "https://www.scientificamerican.com/article/1816-the-year-without-summer-excerpt"
+    },
+    {
+     "title": "Raffles Memoir (Cornell)",
+     "url": "https://digital.library.cornell.edu/catalog/sea147a"
+    }
+   ]
+  },
+  {
+   "id": "raja-sanggar",
+   "name": "The Raja of Sanggar",
+   "short": "Raja of Sanggar",
+   "life": "fl. 1815",
+   "role": "Ruler of the small kingdom of Sanggar on the Sanggar peninsula, NE Sumbawa, beside Tambora",
+   "side": "Sumbawan kingdom of Sanggar",
+   "where": "Sanggar, on the flank of Mount Tambora",
+   "lat": -8.3,
+   "lon": 118.25,
+   "vantage": 0,
+   "vantage_label": "survivor at the foot of the volcano",
+   "form": "oral account (relayed in an officer's report)",
+   "language": "Malay or Sumbawan (recorded in English)",
+   "authenticity": "Not his own writing: he described the eruption to Lieutenant Owen Phillips, who wrote it up for Raffles. Treat as a relayed eyewitness testimony.",
+   "bio": "The Raja is the only named survivor from the volcano's own shoulder whose testimony reached print. His kingdom was devastated and, by Phillips' report, he later lost a daughter to the famine that followed.",
+   "sources": [
+    {
+     "title": "skullsinthestars, 'April 10, 1815: Mount Tambora blows up' (quotes Raffles' narrative)",
+     "url": "https://skullsinthestars.com/2013/04/10/april-10-1815-mount-tambora-blows-up/"
+    },
+    {
+     "title": "Scientific American excerpt",
+     "url": "https://www.scientificamerican.com/article/1816-the-year-without-summer-excerpt"
+    }
+   ]
+  },
+  {
+   "id": "phillips",
+   "name": "Lieutenant Owen Phillips",
+   "short": "Lt. Phillips",
+   "life": "fl. 1815",
+   "role": "British army officer sent by Raffles with rice to Sumbawa",
+   "side": "British administration of Java",
+   "where": "Dompu and Bima, Sumbawa, several weeks after the eruption",
+   "lat": -8.46,
+   "lon": 118.73,
+   "waypoints": [
+    {
+     "lat": -8.54,
+     "lon": 118.46,
+     "label": "Road to Dompu"
+    },
+    {
+     "lat": -8.46,
+     "lon": 118.73,
+     "label": "Bima"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "relief officer in the stricken island",
+   "form": "official report (letter to Raffles)",
+   "language": "English",
+   "authenticity": "Report included in Raffles' narrative; exact date of writing not confirmed in sources consulted (several weeks after April 1815).",
+   "bio": "Phillips was the first outsider to tour Sumbawa after the eruption. His report turned an astonishing natural event into a humanitarian one: starvation, disease and abandoned villages.",
+   "sources": [
+    {
+     "title": "Scientific American excerpt",
+     "url": "https://www.scientificamerican.com/article/1816-the-year-without-summer-excerpt"
+    },
+    {
+     "title": "skullsinthestars (Raffles narrative excerpts)",
+     "url": "https://skullsinthestars.com/2013/04/10/april-10-1815-mount-tambora-blows-up/"
+    }
+   ]
+  },
+  {
+   "id": "jefferson",
+   "name": "Thomas Jefferson",
+   "short": "Jefferson",
+   "life": "1743–1826",
+   "role": "Former US president, aged 73, planter and meticulous weather recorder",
+   "side": "United States",
+   "where": "Monticello, Virginia",
+   "lat": 38.01,
+   "lon": -78.45,
+   "vantage": 4,
+   "vantage_label": "abroad, measuring the effects",
+   "form": "weather memorandum book and dated letters",
+   "language": "English",
+   "authenticity": "Weather memorandum book and letters survive and are published in The Papers of Thomas Jefferson, Retirement Series (Founders Online).",
+   "bio": "Jefferson had logged temperature and rainfall for decades. He never knew of Tambora, but his numbers and letters give a precise farmer-scientist's measure of what the eruption did half a world away.",
+   "sources": [
+    {
+     "title": "Jefferson to Albert Gallatin, 8 Sept 1816 (Founders Online)",
+     "url": "https://founders.archives.gov/documents/Jefferson/03-10-02-0263"
+    },
+    {
+     "title": "Analysis of Weather Memorandum Book, Jan 1817 (Founders Online)",
+     "url": "https://founders.archives.gov/documents/Jefferson/03-11-02-0028"
+    },
+    {
+     "title": "Monticello: 'I shudder at the approach'",
+     "url": "https://www.monticello.org/stories/i-shudder-at-the-approach-jefferson-on-winter"
+    }
+   ]
+  },
+  {
+   "id": "robbins",
+   "name": "Rev. Thomas Robbins",
+   "short": "Robbins",
+   "life": "1777–1856",
+   "role": "Congregational minister, aged 38, keeper of a daily diary since 1796",
+   "side": "United States (Connecticut)",
+   "where": "East Windsor (now South Windsor), Connecticut",
+   "lat": 41.85,
+   "lon": -72.61,
+   "vantage": 4,
+   "vantage_label": "abroad, a parson's garden",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Diary of Thomas Robbins, D.D., 1796–1854, ed. Increase N. Tarbox, printed 1886–87.",
+   "bio": "Robbins tracked peas, asparagus and sermons with the same care. His entries let us watch the cold year arrive in a single garden and parish, ending in a public fast.",
+   "sources": [
+    {
+     "title": "Diary of Thomas Robbins, 1796–1854 (HathiTrust)",
+     "url": "https://catalog.hathitrust.org/Record/001593548"
+    },
+    {
+     "title": "ConnecticutHistory.org, 'Eighteen-hundred-and-froze-to-death'",
+     "url": "https://connecticuthistory.org/?p=42477"
+    }
+   ]
+  },
+  {
+   "id": "weare",
+   "name": "Joseph Weare",
+   "short": "Joseph Weare",
+   "life": "1777–1856",
+   "role": "Farmer, aged 39",
+   "side": "United States (Maine, then part of Massachusetts)",
+   "where": "Cape Neddick, York, Maine",
+   "lat": 43.18,
+   "lon": -70.62,
+   "vantage": 4,
+   "vantage_label": "abroad, a farmer's fields",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Diary kept 1803–1856; transcript published by the Cape Neddick historical site (per New England Historical Society).",
+   "bio": "Weare's diary is terse and practical: what he planted, what the wind did. That plainness makes his week of 1–9 June 1816 one of the best day-by-day records of the June cold.",
+   "sources": [
+    {
+     "title": "New England Historical Society, 'Joseph Weare, Cape Neddick Farmer'",
+     "url": "https://newenglandhistoricalsociety.com/june-9-1816-joseph-weare-york-maine/"
+    }
+   ]
+  },
+  {
+   "id": "jerome",
+   "name": "Chauncey Jerome",
+   "short": "Chauncey Jerome",
+   "life": "1793–1868",
+   "role": "Joiner aged 22, soon to become a clockmaker",
+   "side": "United States (Connecticut)",
+   "where": "Plymouth, Connecticut",
+   "lat": 41.67,
+   "lon": -73.05,
+   "vantage": 4,
+   "vantage_label": "abroad, at work on a house",
+   "form": "memoir (written later)",
+   "language": "English",
+   "authenticity": "History of the American Clock Business for the Past Sixty Years, and Life of Chauncey Jerome (1860); written 44 years after the events, though with specific dates.",
+   "bio": "Jerome later became one of America's great clock manufacturers and then went bankrupt. His autobiography preserves vivid, dated memories of the cold June he spent finishing a house for $85.",
+   "sources": [
+    {
+     "title": "History of the American Clock Business (Project Gutenberg)",
+     "url": "https://www.gutenberg.org/ebooks/12694"
+    }
+   ]
+  },
+  {
+   "id": "mary-shelley",
+   "name": "Mary Wollstonecraft Godwin (later Shelley)",
+   "short": "Mary Shelley",
+   "life": "1797–1851",
+   "role": "Writer aged 18, living with Percy Bysshe Shelley",
+   "side": "English expatriates",
+   "where": "Sécheron, then Maison Chapuis, Montalègre, Cologny, near Geneva",
+   "lat": 46.22,
+   "lon": 6.18,
+   "waypoints": [
+    {
+     "lat": 46.22,
+     "lon": 6.15,
+     "label": "Hôtel de Sécheron, May 1816"
+    },
+    {
+     "lat": 46.22,
+     "lon": 6.18,
+     "label": "Maison Chapuis, June 1816"
+    },
+    {
+     "lat": 45.92,
+     "lon": 6.87,
+     "label": "Chamonix, July 1816"
+    }
+   ],
+   "vantage": 4,
+   "vantage_label": "abroad, sheltering from storms",
+   "form": "dated letters; later introduction (memoir)",
+   "language": "English",
+   "authenticity": "Letters dated 17 May and 1 June 1816 printed in History of a Six Weeks' Tour (1817). Her journal for May–mid-July 1816 does not survive. Her account of conceiving Frankenstein comes from the 1831 introduction, written 15 years later and partly at odds with Polidori's dates.",
+   "bio": "Mary's letters record the weather itself, rain and thunderstorms over the lake, before she knew it would matter. Her 1831 recollection turned the wet June into literary legend.",
+   "sources": [
+    {
+     "title": "History of a Six Weeks' Tour (Project Gutenberg)",
+     "url": "https://gutenberg.org/files/52790/old/52790-h/52790-h.htm"
+    },
+    {
+     "title": "Romantic Circles Frankenstein edition note on the storms",
+     "url": "https://www.rc.umd.edu/editions/frankenstein/521.html"
+    }
+   ]
+  },
+  {
+   "id": "byron",
+   "name": "George Gordon, Lord Byron",
+   "short": "Byron",
+   "life": "1788–1824",
+   "role": "Poet aged 28, in self-exile after his separation scandal",
+   "side": "English expatriates",
+   "where": "Villa Diodati, Cologny, above Lake Geneva",
+   "lat": 46.218,
+   "lon": 6.176,
+   "vantage": 4,
+   "vantage_label": "abroad, writing the darkness",
+   "form": "poems (dated by composition)",
+   "language": "English",
+   "authenticity": "'Darkness' written at Diodati in July 1816 and published with The Prisoner of Chillon (Dec 1816). It is a poem, not a diary; included because it is the most famous imaginative record of the dim year.",
+   "bio": "Byron rented Villa Diodati and hosted the circle. He wrote no diary that summer, but the poem 'Darkness', a vision of a world where the sun has gone out, is the year's emotional weather report.",
+   "sources": [
+    {
+     "title": "Text of 'Darkness' (George Mason University)",
+     "url": "https://mason.gmu.edu/~rnanian/Byron-Darkness.html"
+    },
+    {
+     "title": "Science Museum blog, 'The year without summer'",
+     "url": "https://blog.sciencemuseum.org.uk/the-year-without-summer/"
+    }
+   ]
+  },
+  {
+   "id": "polidori",
+   "name": "John William Polidori",
+   "short": "Polidori",
+   "life": "1795–1821",
+   "role": "Byron's personal physician, aged 20",
+   "side": "English (of Italian parentage)",
+   "where": "Travelling with Byron; then Villa Diodati",
+   "lat": 46.218,
+   "lon": 6.176,
+   "waypoints": [
+    {
+     "lat": 50.94,
+     "lon": 6.96,
+     "label": "Cologne, 9 May 1816"
+    },
+    {
+     "lat": 46.22,
+     "lon": 6.15,
+     "label": "Sécheron, late May"
+    },
+    {
+     "lat": 46.218,
+     "lon": 6.176,
+     "label": "Villa Diodati, June"
+    }
+   ],
+   "vantage": 4,
+   "vantage_label": "abroad, inside the house of ghost stories",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Diary kept April–June 1816 (dropped after 30 June) and Sept–Dec 1816. The original was destroyed by his aunt Charlotte after she made an expurgated copy; W. M. Rossetti edited that copy in 1911.",
+   "bio": "Polidori is the only member of the Diodati circle with a real day-by-day diary for June 1816. Out of the ghost-story contest came his 'The Vampyre' (1819), the first modern vampire tale in English.",
+   "sources": [
+    {
+     "title": "The Diary of Dr. John William Polidori (Project Gutenberg)",
+     "url": "https://www.gutenberg.org/ebooks/55017"
+    },
+    {
+     "title": "BARS blog, 'On This Day in 1816: John Polidori finds a book'",
+     "url": "https://www.bars.ac.uk/blog/?p=1214"
+    }
+   ]
+  },
+  {
+   "id": "lederer",
+   "name": "David Friedrich Lederer",
+   "short": "Lederer",
+   "life": "fl. 1816–1817",
+   "role": "Mayor (Schultheiss) of Geradstetten, a wine village of about 1,600 people",
+   "side": "Kingdom of Württemberg",
+   "where": "Geradstetten in the Rems valley, Württemberg",
+   "lat": 48.8,
+   "lon": 9.42,
+   "vantage": 4,
+   "vantage_label": "abroad, in a hungry village",
+   "form": "chronicle (entry in the town record book)",
+   "language": "German",
+   "authenticity": "Report in the Geradstetten Bürger- und Notabilienbuch, dated 17 August 1817 (a closing note says written 20 December 1817); used here via a modern English translation.",
+   "bio": "Lederer wrote for future villagers rather than for himself, setting down prices, floods and what people ate. Württemberg was among the worst-hit places in Europe in the Hungerjahr.",
+   "sources": [
+    {
+     "title": "Report of the Famine and Hyper-Inflation of 1816 and 1817 (translation, Ohio State)",
+     "url": "https://www.asc.ohio-state.edu/palmer.2/Geradstetten/Report%20of%20the%20Famine%20and%20Hhe%20Hyper-Inflation%20of%201816%20and%201817.pdf"
+    }
+   ]
+  },
+  {
+   "id": "li-yuyang",
+   "name": "Li Yuyang",
+   "short": "Li Yuyang",
+   "life": "fl. 1815–1817",
+   "role": "Confucian scholar and poet",
+   "side": "Qing China (Yunnan)",
+   "where": "Yunnan province, southwest China (exact town not confirmed)",
+   "lat": 25.04,
+   "lon": 102.71,
+   "vantage": 4,
+   "vantage_label": "abroad, in a famine province",
+   "form": "poems (some dated)",
+   "language": "Classical Chinese",
+   "authenticity": "Poems in the 'seven sorrows' tradition, known in English chiefly through Gillen D'Arcy Wood's Tambora (2014). Poems, not diary; most are undated.",
+   "bio": "Yunnan suffered cold, rain-ruined harvests from 1815 to 1817. Li Yuyang's poems record the famine from inside a household, including his own.",
+   "sources": [
+    {
+     "title": "Smith College Climate Lit, 'Poetry of the Seven Sorrows by Li Yuyang'",
+     "url": "https://www.science.smith.edu/climatelit/poetry-of-the-seven-sorrows/"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1815-04-05",
+   "date_display": "Wednesday 5 April 1815, evening",
+   "precision": "day",
+   "eye": "raffles",
+   "place": "Java",
+   "headline": "Booms across Java mistaken for distant cannon fire",
+   "digest": "As evening came on, a deep booming carried across Java from about 800 miles to the east. Raffles and his officers assumed a battle or a fort under attack, and troops and boats went out to look for it. Nobody yet thought of a volcano.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Klingaman excerpt, Scientific American; Raffles narrative"
+  },
+  {
+   "date_iso": "1815-04-05",
+   "date_display": "Wednesday 5 April 1815",
+   "precision": "day",
+   "eye": "benares",
+   "place": "Makassar, Celebes",
+   "headline": "Warship puts to sea after phantom gunfire",
+   "digest": "At Makassar the Benares heard heavy firing to the south. The commander took it for pirates or a ship in distress and sailed out to search, finding nothing. Another Company ship, the Teignmouth, chased the same noise near Ternate.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Klingaman excerpt, Scientific American"
+  },
+  {
+   "date_iso": "1815-04-06",
+   "date_display": "Thursday 6 April 1815, dawn",
+   "precision": "day",
+   "eye": "raffles",
+   "place": "Java",
+   "headline": "Ash at dawn reveals the noise was no battle",
+   "digest": "In the morning a fine ash began to fall, and the mystery of the gunfire turned into something stranger. Raffles' narrative records houses, streets and fields dusted grey. The idea of a distant eruption now took hold.",
+   "quote": "showers of ashes covered the houses, the streets, and the fields",
+   "confidence": "verified",
+   "source_note": "Klingaman excerpt quoting Raffles' narrative"
+  },
+  {
+   "date_iso": "1815-04-10",
+   "date_display": "Monday 10 April 1815, about 7 p.m.",
+   "precision": "day",
+   "eye": "raja-sanggar",
+   "place": "Sanggar, Sumbawa",
+   "headline": "Three columns of fire rise from Tambora's summit",
+   "digest": "At about seven in the evening, the Raja said, three columns of flame burst from near the top of the mountain and joined together in the air. Stones and ash then rained down on Sanggar. In the night a violent whirlwind tore up houses and trees and hurled people and animals about.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Raja's account as relayed by Lt. Phillips in Raffles' narrative (skullsinthestars excerpt)"
+  },
+  {
+   "date_iso": "1815-04-11",
+   "date_display": "Tuesday 11 April 1815",
+   "precision": "day",
+   "eye": "raja-sanggar",
+   "place": "Sanggar, Sumbawa",
+   "headline": "Explosions go on from midnight until evening",
+   "digest": "After the whirlwind, the explosions continued without a break from midnight until the evening of the 11th. The sea rose along the coast and swept into the low ground. Sanggar's fields and houses were left under ash.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Raffles' narrative via skullsinthestars"
+  },
+  {
+   "date_iso": "1815-04-11",
+   "date_display": "c. Tuesday 11 April 1815",
+   "precision": "day",
+   "eye": "benares",
+   "place": "At sea near Makassar",
+   "headline": "Daylight disappears under a sky of ash",
+   "digest": "As the explosions reached their peak, the sky around the Benares darkened and ash fell on the decks. The crew could see almost nothing in what should have been daytime. The commander now knew he was looking for a mountain, not a fleet.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Klingaman excerpt (ash darkening 'around April 11')"
+  },
+  {
+   "date_iso": "1815-04-12",
+   "date_display": "Wednesday 12 April 1815",
+   "precision": "day",
+   "eye": "raffles",
+   "place": "Java (reports from Gresik and Sumenep)",
+   "headline": "Residents' reports: candles needed at noon",
+   "digest": "Raffles' collected letters describe 12 April as a day without light: at Gresik it was pitch-black at half past eight in the morning, and a candle was still needed at five in the afternoon. Ash was measured in fractions of an inch on Java and in inches on Madura. He later stitched these reports into one narrative.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Klingaman excerpt; skullsinthestars excerpt of Raffles' narrative"
+  },
+  {
+   "date_iso": "1815-04-19",
+   "date_display": "Wednesday 19 April 1815",
+   "precision": "day",
+   "eye": "benares",
+   "place": "Bima Bay, Sumbawa",
+   "headline": "Arriving at Bima through floating rafts of pumice",
+   "digest": "The Benares finally reached Bima, east of the volcano. The commander found the anchorage changed, roofs collapsed under ash, and pumice floating on the sea in great mats. The resident's house had been badly damaged by the ashfall.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Klingaman excerpt, Scientific American"
+  },
+  {
+   "date_iso": "1815-05-01",
+   "date_display": "Spring 1815 (several weeks after the eruption)",
+   "precision": "month",
+   "eye": "phillips",
+   "place": "Road to Dompu and Bima, Sumbawa",
+   "headline": "Rice relief mission finds an island starving",
+   "digest": "Phillips landed with rice and travelled inland. He found villages emptied, bodies by the road, survivors weakened by hunger and by violent stomach illness from tainted water, and fields buried. The Raja of Sanggar told him what he had seen and said he had lost a daughter to hunger.",
+   "quote": "the extreme misery",
+   "confidence": "approx",
+   "source_note": "Klingaman excerpt; Raffles' narrative (date of report not confirmed)"
+  },
+  {
+   "date_iso": "1815-09-01",
+   "date_display": "September 1815",
+   "precision": "month",
+   "eye": "raffles",
+   "place": "Java",
+   "headline": "Raffles finishes his narrative of the eruption",
+   "digest": "Raffles completed his narrative, organising the residents' letters into a sequence from first booms to aftermath. It is the founding document of Tambora's history, and it was written before anyone connected the eruption to the coming cold years.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "skullsinthestars: narrative completed September 1815"
+  },
+  {
+   "date_iso": "1816-01-09",
+   "date_display": "Tuesday 9 January 1816",
+   "precision": "day",
+   "eye": "jefferson",
+   "place": "Monticello, Virginia",
+   "headline": "An old man complains of the winter cold",
+   "digest": "Writing to his old friend Charles Thomson, Jefferson said he was in good health but shivering. His thermometer had dropped to 12 degrees Fahrenheit. It is an ordinary winter grumble, with no hint of the summer to come.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Monticello.org, 'I shudder at the approach'"
+  },
+  {
+   "date_iso": "1816-03-12",
+   "date_display": "Tuesday 12 March 1816",
+   "precision": "day",
+   "eye": "robbins",
+   "place": "East Windsor, Connecticut",
+   "headline": "Peas planted early, then a cold wet spell",
+   "digest": "Robbins had put his peas in during early March, hopeful of a forward spring. On the 12th he recorded a cold, wet day. In April his asparagus beds were cleared but the shoots would not grow in the chill.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ConnecticutHistory.org summary of Robbins' diary"
+  },
+  {
+   "date_iso": "1816-05-09",
+   "date_display": "Thursday 9 May 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Cologne",
+   "headline": "A young doctor sightseeing in Cologne cathedral",
+   "digest": "Travelling south with Byron, Polidori toured Cologne cathedral, admired its stained glass, saw the shrine of the Three Kings, and broke a glass, which cost him three francs. He visited St Ursula's bone-lined chapel and a private picture collection. This is the tourist's diary of a man who does not yet know what the summer holds.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Polidori diary, Project Gutenberg 55017"
+  },
+  {
+   "date_iso": "1816-05-17",
+   "date_display": "Friday 17 May 1816",
+   "precision": "day",
+   "eye": "mary-shelley",
+   "place": "Hôtel de Sécheron, Geneva",
+   "headline": "After crossing the Jura in snow, sunshine on the lake",
+   "digest": "Mary wrote from the hotel at Sécheron that the lake was blue and sunlit and the Alps clear. The crossing of the Jura had been rough: wind and rain turned to snow, which pelted the carriage windows and lay heavy in the pine forests. Snow in mid-May on the road was the first hint of the strange season.",
+   "quote": "the snow pelting against the windows of our carriage",
+   "confidence": "verified",
+   "source_note": "History of a Six Weeks' Tour, Letter I (Gutenberg)"
+  },
+  {
+   "date_iso": "1816-06-01",
+   "date_display": "Saturday 1 June 1816",
+   "precision": "day",
+   "eye": "mary-shelley",
+   "place": "Maison Chapuis, near Cologny",
+   "headline": "Endless rain and the grandest thunderstorms she had seen",
+   "digest": "Now in a rented house by the lake, Mary reported almost constant rain that kept the household indoors, with sudden hot bursts of sun in between. The thunderstorms over the lake were the most dramatic she had ever witnessed, lightning lighting up the water and striking the Jura. She described the storms with an artist's delight rather than alarm.",
+   "quote": "An almost perpetual rain confines us principally to the house",
+   "confidence": "verified",
+   "source_note": "History of a Six Weeks' Tour, Letter II; Romantic Circles note"
+  },
+  {
+   "date_iso": "1816-06-01",
+   "date_display": "Saturday 1 June 1816",
+   "precision": "day",
+   "eye": "weare",
+   "place": "Cape Neddick, Maine",
+   "headline": "Warm and pleasant: an ordinary June morning",
+   "digest": "Weare's diary opens June with a plain note that the day was warm and pleasant. He was busy with the farm's usual spring work. Nothing suggests the week to come.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "New England Historical Society on Weare diary"
+  },
+  {
+   "date_iso": "1816-06-05",
+   "date_display": "Wednesday 5 June 1816",
+   "precision": "day",
+   "eye": "weare",
+   "place": "Cape Neddick, Maine",
+   "headline": "Replanting the corn",
+   "digest": "Weare noted that he was planting corn over again, a sign the first planting had failed in the cold ground. It was a setback that many New England farmers shared that spring. The worst was still a day away.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "New England Historical Society on Weare diary"
+  },
+  {
+   "date_iso": "1816-06-06",
+   "date_display": "Thursday 6 June 1816",
+   "precision": "day",
+   "eye": "weare",
+   "place": "Cape Neddick, Maine",
+   "headline": "A gale and sudden, deep cold",
+   "digest": "A gale blew in and the day turned very cold. Weare wrote little more than that, but across northern New England this was the start of the famous June snows. Young crops were exposed in the fields.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "New England Historical Society on Weare diary"
+  },
+  {
+   "date_iso": "1816-06-07",
+   "date_display": "Friday 7 June 1816",
+   "precision": "day",
+   "eye": "jerome",
+   "place": "Plymouth, Connecticut",
+   "headline": "Snow on the way to work; mittens in June",
+   "digest": "Walking to a house he was finishing about a mile from home, Jerome was dressed in thick wool and an overcoat yet his hands grew so cold he had to stop work and put on mittens. Snow fell for about an hour. Looking back, he called 1816 the year with ice and snow in every month.",
+   "quote": "ice and snow in every month in the year",
+   "confidence": "verified",
+   "source_note": "Jerome, History of the American Clock Business (1860), ch. I"
+  },
+  {
+   "date_iso": "1816-06-08",
+   "date_display": "Saturday 8 June 1816",
+   "precision": "day",
+   "eye": "weare",
+   "place": "Cape Neddick, Maine",
+   "headline": "Two days of wind and cold damage everything",
+   "digest": "Through the 7th and 8th the cold wind kept up. Weare wrote that it had done great harm to everything growing. His corn, already replanted once, was again at risk.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "New England Historical Society on Weare diary"
+  },
+  {
+   "date_iso": "1816-06-09",
+   "date_display": "Sunday 9 June 1816",
+   "precision": "day",
+   "eye": "weare",
+   "place": "Cape Neddick, Maine",
+   "headline": "Frost in the night, then rain",
+   "digest": "The wind was in the northwest, the day fair but cold, and there had been frost overnight. Later the sky clouded over and it rained. A hard frost on 9 June meant replanting again for many neighbours.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "New England Historical Society on Weare diary"
+  },
+  {
+   "date_iso": "1816-06-09",
+   "date_display": "Sunday 9 June 1816",
+   "precision": "day",
+   "eye": "robbins",
+   "place": "East Windsor, Connecticut",
+   "headline": "The parson calls the last three days extraordinary",
+   "digest": "Robbins noted that the cold and wind went on, and that the past three days had been extraordinary. He was writing on a Sunday, when he would have preached to a congregation worried about their fields.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ConnecticutHistory.org summary of Robbins' diary"
+  },
+  {
+   "date_iso": "1816-06-10",
+   "date_display": "Monday 10 June 1816",
+   "precision": "day",
+   "eye": "jerome",
+   "place": "Plymouth, Connecticut",
+   "headline": "Washing left out overnight comes in frozen solid",
+   "digest": "Jerome's wife had spread the household laundry on the grass to bleach and dry. In the morning she brought it in frozen stiff as in winter. For a young couple short of money, it was a domestic sign of a ruined season.",
+   "quote": "frozen stiff as in winter",
+   "confidence": "verified",
+   "source_note": "Jerome (1860), ch. I"
+  },
+  {
+   "date_iso": "1816-06-12",
+   "date_display": "Wednesday 12 June 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Geneva and Villa Diodati",
+   "headline": "Joining a circulating library in Geneva",
+   "digest": "Polidori rode into town and subscribed to a circulating library. Scholars think the volume of German ghost tales the circle read aloud a few days later may have come from there. A small errand that set off a famous week.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "BARS blog on Polidori's diary"
+  },
+  {
+   "date_iso": "1816-06-13",
+   "date_display": "Thursday 13 June 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Between Geneva and Cologny",
+   "headline": "Lost in a thunderstorm, sent back by police",
+   "digest": "Walking home through thunder and lightning, Polidori lost his way in the dark and was turned back to the inn by the police. The storms Mary admired from her window were, for him, a soaking nuisance.",
+   "quote": "in thunder and lightning",
+   "confidence": "verified",
+   "source_note": "BARS blog quoting Polidori's diary"
+  },
+  {
+   "date_iso": "1816-06-16",
+   "date_display": "c. 16–22 June 1816 (recalled in 1831)",
+   "precision": "range",
+   "eye": "mary-shelley",
+   "place": "Villa Diodati and Maison Chapuis",
+   "headline": "The ghost-story challenge and a waking dream",
+   "digest": "Mary later remembered a wet, ungenial summer when rain kept everyone indoors reading ghost stories, until Byron proposed that each write one. For days she could think of nothing, then after a night of talk about galvanism and reanimation she saw, half asleep, a student kneeling beside the thing he had made. That vision became Frankenstein. Her dating is loose and some scholars place the start a little later than Polidori's diary suggests.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Mary Shelley, Introduction to Frankenstein (1831); cross-checked against Polidori 17 June"
+  },
+  {
+   "date_iso": "1816-06-17",
+   "date_display": "Monday 17 June 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Villa Diodati",
+   "headline": "Everyone has begun a ghost story but him",
+   "digest": "Polidori noted that the ghost stories had been begun by everyone except himself. It is the only contemporary dated evidence for when the contest started. He would catch up: his tale grew into 'The Vampyre'.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "BARS blog quoting Polidori's diary"
+  },
+  {
+   "date_iso": "1816-06-17",
+   "date_display": "17 June 1816 (date on the manuscript)",
+   "precision": "day",
+   "eye": "byron",
+   "place": "Villa Diodati",
+   "headline": "Byron starts, and soon abandons, his own vampire tale",
+   "digest": "Byron's contribution to the contest was a prose fragment about two travellers in the East, one of whom dies mysteriously after extracting a promise of secrecy. He gave it up, but published it as 'A Fragment' in 1819. Polidori took its outline as the seed of 'The Vampyre'.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Byron's 'Fragment' (published 1819 with Mazeppa), dated by its manuscript; date not independently checked in this research"
+  },
+  {
+   "date_iso": "1816-06-18",
+   "date_display": "Tuesday 18 June 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Villa Diodati",
+   "headline": "Midnight talk turns ghostly; Shelley flees the room",
+   "digest": "At about midnight, Polidori wrote, they really began to talk of ghosts. Byron recited lines from Coleridge's 'Christabel' about a witch's body, and Shelley ran shrieking from the room; Polidori, the doctor, calmed him with ether and water. Shelley said he had suddenly imagined a woman with eyes in place of nipples.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "BARS blog (18 June 'talk ghostly'); Polidori diary, Gutenberg 55017"
+  },
+  {
+   "date_iso": "1816-06-30",
+   "date_display": "Sunday 30 June 1816",
+   "precision": "day",
+   "eye": "polidori",
+   "place": "Villa Diodati",
+   "headline": "The diary stops through neglect",
+   "digest": "Polidori's June diary runs to 30 June and then breaks off; he later admitted he dropped it through neglect and dissipation. He resumed with a summary in September, after Byron had dismissed him. The best day-by-day record of Diodati ends here.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Rossetti's introduction to the Polidori diary (Gutenberg 55017)"
+  },
+  {
+   "date_iso": "1816-06-30",
+   "date_display": "June 1816",
+   "precision": "month",
+   "eye": "jefferson",
+   "place": "Monticello, Virginia",
+   "headline": "A June with almost no rain",
+   "digest": "Jefferson's own figures, analysed the next January, show only about a third of an inch of rain at Monticello in June 1816, with a mean temperature of 70°F and a low of 51°F. Virginia's trouble was drought as much as cold. His tables make the season measurable.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Analysis of Weather Memorandum Book, Jan 1817 (Founders Online)"
+  },
+  {
+   "date_iso": "1816-07-04",
+   "date_display": "Thursday 4 July 1816",
+   "precision": "day",
+   "eye": "jerome",
+   "place": "Plymouth, Connecticut",
+   "headline": "Independence Day quoits played in overcoats",
+   "digest": "Jerome remembered men pitching quoits on the Fourth of July wearing thick overcoats, and the cold being uncomfortable even in the sun. Later that year he gave up house joinery for work in Eli Terry's clock factory.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Jerome (1860), ch. I"
+  },
+  {
+   "date_iso": "1816-07-15",
+   "date_display": "July 1816",
+   "precision": "month",
+   "eye": "byron",
+   "place": "Villa Diodati",
+   "headline": "'Darkness': a dream of the sun going out",
+   "digest": "Byron wrote 'Darkness', a blank-verse vision in which the sun is extinguished, people burn their homes for light, and humanity dies out. The summer's gloom, candlelit days and, in Europe, rumours that the sun was failing hang behind it. It is a poem, not a record, but it shows how the year felt.",
+   "quote": "I had a dream, which was not all a dream",
+   "confidence": "verified",
+   "source_note": "Science Museum blog (written July 1816 by Lake Geneva); text at GMU"
+  },
+  {
+   "date_iso": "1816-07-21",
+   "date_display": "21 July 1816",
+   "precision": "day",
+   "eye": "mary-shelley",
+   "place": "Geneva to Chamonix",
+   "headline": "Her surviving journal resumes on the road to Chamonix",
+   "digest": "Mary's journal for 1816 picks up as the Shelleys set off for Chamonix and the glaciers of Mont Blanc. Scenes of ice and mountains on this trip later became the setting where Victor Frankenstein meets his creature.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Mary Shelley's Journals (date of resumption not re-checked in this research)"
+  },
+  {
+   "date_iso": "1816-07-31",
+   "date_display": "Summer 1816",
+   "precision": "range",
+   "eye": "lederer",
+   "place": "Geradstetten, Württemberg",
+   "headline": "Floods, weeds and a drowned harvest",
+   "digest": "Lederer recorded a wet summer in which grass outgrew the grain, the Rems flooded again and again, and storms and lack of sun ruined a quarter to a third of the crop. Potatoes rotted and the grapes never ripened; an early winter left some unpicked.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Lederer report (translation), Ohio State PDF"
+  },
+  {
+   "date_iso": "1816-08-25",
+   "date_display": "22–28 August 1816",
+   "precision": "range",
+   "eye": "robbins",
+   "place": "East Windsor, Connecticut",
+   "headline": "August frosts, drought and a public fast",
+   "digest": "In late August Robbins recorded frost, then drought, a little rain, and frost again. He called it a melancholy time, and a fast day was held because of the season. Prayer was the public response to the failing crops.",
+   "quote": "melancholy time",
+   "confidence": "verified",
+   "source_note": "ConnecticutHistory.org summary of Robbins' diary"
+  },
+  {
+   "date_iso": "1816-09-05",
+   "date_display": "Thursday 5 September 1816",
+   "precision": "day",
+   "eye": "robbins",
+   "place": "East Windsor, Connecticut",
+   "headline": "The poorest corn crop he can remember",
+   "digest": "Robbins judged the corn crop the poorest in New England that he could recall. Corn fed people and livestock through the winter, so its failure meant hardship and, for many, emigration west to Ohio.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ConnecticutHistory.org summary of Robbins' diary"
+  },
+  {
+   "date_iso": "1816-09-08",
+   "date_display": "Sunday 8 September 1816",
+   "precision": "day",
+   "eye": "jefferson",
+   "place": "Monticello, Virginia",
+   "headline": "'The most extraordinary year of drought & cold'",
+   "digest": "Writing to Albert Gallatin, Jefferson said the summer had been as cold as a moderate winter, and that drought continued. August frost had killed much corn west of the mountains, and he expected the Atlantic states' corn crop to be under a third of normal. He had no idea of the cause.",
+   "quote": "the most extraordinary year of drought & cold",
+   "confidence": "verified",
+   "source_note": "Jefferson to Gallatin, 8 Sept 1816 (Founders Online)"
+  },
+  {
+   "date_iso": "1816-11-15",
+   "date_display": "November 1816",
+   "precision": "month",
+   "eye": "lederer",
+   "place": "Geradstetten and Winnenden",
+   "headline": "Wheat prices climb toward famine levels",
+   "digest": "Wheat that had sold for about 11 florins in early summer reached 14–15 at harvest and 16–18 at Winnenden market by November. Lederer recorded the climb carefully, as if to warn later generations.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lederer report (translation)"
+  },
+  {
+   "date_iso": "1816-12-31",
+   "date_display": "1816 (undated poems)",
+   "precision": "year",
+   "eye": "li-yuyang",
+   "place": "Yunnan",
+   "headline": "Endless rain brings the house down",
+   "digest": "In 'A Sigh for Autumn Rain' Li Yuyang describes rain that will not stop until houses fall, and a family digging through the ruins for its grain and coins. Yunnan had a run of cold, wet harvests from 1815. The poem is a rare view of the cold years from China.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Smith College Climate Lit (after Wood 2014); exact year not given"
+  },
+  {
+   "date_iso": "1817-01-15",
+   "date_display": "January 1817",
+   "precision": "month",
+   "eye": "jefferson",
+   "place": "Monticello, Virginia",
+   "headline": "Jefferson sums up seven years of weather",
+   "digest": "Jefferson drew up an analysis of his weather memorandum book for 1810–1816, with monthly means, extremes, rainfall and first and last frosts. The 1816 columns hold the cold year in numbers: annual mean 54.5°F and a very dry June and August.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Analysis of Weather Memorandum Book, Jan 1817 (Founders Online)"
+  },
+  {
+   "date_iso": "1817-07-15",
+   "date_display": "July 1817",
+   "precision": "month",
+   "eye": "lederer",
+   "place": "Geradstetten, Württemberg",
+   "headline": "Snails and weeds on the table; bread out of reach",
+   "digest": "By July 1817 wheat had reached 36–40 florins and eight pounds of bread cost about 2 florins. Villagers boiled snails and ate a weed called pig's ears, and many had swollen feet and faces. Lederer noted that a government price cap made grain harder to find, not cheaper.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lederer report (translation)"
+  },
+  {
+   "date_iso": "1817-08-17",
+   "date_display": "17 August 1817 (closing note: 20 December 1817)",
+   "precision": "day",
+   "eye": "lederer",
+   "place": "Geradstetten, Württemberg",
+   "headline": "The mayor writes the hunger year into the town book",
+   "digest": "Lederer dated his report 17 August 1817, though a closing note says it was written on 20 December. He set it down in the town's record book so that later generations would know what the village had suffered. He did not know about Tambora; to him it was weather and hardship.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lederer report (translation), with translator's note"
+  },
+  {
+   "date_iso": "1817-10-01",
+   "date_display": "Autumn 1817",
+   "precision": "range",
+   "eye": "li-yuyang",
+   "place": "Yunnan",
+   "headline": "'Bitter Famine': a mother's despair",
+   "digest": "In 'Bitter Famine', dated to autumn 1817, Li Yuyang tells of a starving young mother who takes her own life with her child. Other poems from the same cycle describe officials still collecting grain tax, thin relief porridge at the gate, and parents selling children for copper coins. In one he watches his own wife and two small children go hungry.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Smith College Climate Lit (after Wood 2014)"
+  },
+  {
+   "date_iso": "1817-12-31",
+   "date_display": "1817",
+   "precision": "year",
+   "eye": "raffles",
+   "place": "London",
+   "headline": "The History of Java goes to press",
+   "digest": "Back in England, Raffles published The History of Java (1817), a two-volume survey of the island that drew in part on the eruption material he had gathered. By then Europe and New England were coming out of the cold year without anyone linking it to his volcano.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "General record of publication; eruption content via Raffles Memoir"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1815-04-05",
+   "label": "First booms heard across the archipelago",
+   "eyes": [
+    "raffles",
+    "benares"
+   ],
+   "note": "Hundreds of miles apart, a governor and a naval commander both mistook the eruption for gunfire and sent men to find a battle that did not exist."
+  },
+  {
+   "date": "1815-04-11",
+   "label": "The great eruption and the darkness",
+   "eyes": [
+    "raja-sanggar",
+    "benares",
+    "raffles"
+   ],
+   "note": "The Raja sees fire and whirlwind at the foot of the mountain; the Benares sails into darkness at sea; Raffles' residents light candles at noon on Java. One event, three distances."
+  },
+  {
+   "date": "1816-06-07",
+   "label": "The June cold snap in New England",
+   "eyes": [
+    "weare",
+    "robbins",
+    "jerome"
+   ],
+   "note": "A Maine farmer, a Connecticut parson and a Connecticut joiner record the same 6–10 June cold wave: gale, frost, mittens, frozen laundry. Two wrote that week; Jerome wrote 44 years later yet matches their dates."
+  },
+  {
+   "date": "1816-06-17",
+   "label": "The ghost-story week at Villa Diodati",
+   "eyes": [
+    "polidori",
+    "mary-shelley",
+    "byron"
+   ],
+   "note": "Polidori's diary gives dates; Mary's 1831 memory gives the dream; Byron's fragment gives the seed of the vampire tale. Storm-bound evenings produced two founding works of modern horror."
+  },
+  {
+   "date": "1816-09-06",
+   "label": "The harvest verdict",
+   "eyes": [
+    "robbins",
+    "jefferson"
+   ],
+   "note": "Within three days a Connecticut minister and a Virginia ex-president independently judged the corn crop a disaster, one in religious terms, the other in fractions."
+  },
+  {
+   "date": "1817-07-15",
+   "label": "Famine's peak on two continents",
+   "eyes": [
+    "lederer",
+    "li-yuyang"
+   ],
+   "note": "A Württemberg mayor and a Yunnan poet, with no knowledge of each other or of Tambora, describe the same hunger: rising grain prices, wild foods, families breaking."
+  }
+ ],
+ "ties": [
+  {
+   "a": "raffles",
+   "b": "phillips",
+   "kind": "met",
+   "note": "Raffles sent Phillips to Sumbawa with rice and incorporated his report into his narrative."
+  },
+  {
+   "a": "phillips",
+   "b": "raja-sanggar",
+   "kind": "met",
+   "note": "Phillips interviewed the Raja; the Raja's account survives only through Phillips' writing."
+  },
+  {
+   "a": "raffles",
+   "b": "benares",
+   "kind": "mentioned",
+   "note": "The Benares commander's report is one of the documents Raffles compiled."
+  },
+  {
+   "a": "polidori",
+   "b": "byron",
+   "kind": "met",
+   "note": "Polidori was Byron's salaried physician and travelling companion until Byron dismissed him in September 1816."
+  },
+  {
+   "a": "polidori",
+   "b": "mary-shelley",
+   "kind": "met",
+   "note": "Both took part in the ghost-story contest; Polidori's diary dates are the main check on Mary's later recollection."
+  },
+  {
+   "a": "byron",
+   "b": "mary-shelley",
+   "kind": "influenced",
+   "note": "Byron proposed the contest that produced Frankenstein; Mary later fair-copied some of his work."
+  },
+  {
+   "a": "byron",
+   "b": "polidori",
+   "kind": "influenced",
+   "note": "Polidori built 'The Vampyre' on Byron's abandoned fragment; it was published in 1819 under Byron's name, to Byron's annoyance."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "krakatoa-1883",
+   "note": "Krakatoa (1883) erupted in the same Dutch/British East Indies arc that Raffles had governed. Its glowing sunsets and dip in global temperature made scientists reach back to Tambora, which had been far larger but had happened before the telegraph."
+  },
+  {
+   "to": "lisbon-1755",
+   "note": "In 1816 Byron and the Shelleys toured the Geneva shore where Voltaire had lived; Byron's Childe Harold canto III, written that summer, pays tribute to Ferney and Voltaire, whose poem on the Lisbon earthquake had asked the same question 'Darkness' asks: what does catastrophe say about providence?"
+  },
+  {
+   "to": "v1:long-threads",
+   "note": "The cold years are a climate thread linking volcano, harvest and migration: New England families heading for Ohio, Württemberg emigrants leaving for Russia and America, and Frankenstein, a myth about science out of control born in a storm-bound summer."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.britishmuseum.org/collection/object/P_1868-0822-4583",
+   "title": "Diodati",
+   "caption": "Villa Diodati above Lake Geneva, with Byron writing on a hillock; the house where the ghost-story contest of June 1816 took place.",
+   "date": "c. 1833",
+   "credit": "Edward Finden after William Purser, British Museum"
+  },
+  {
+   "url": "https://pdimagearchive.org/images/ee52f7dc-84c1-4cef-ba76-9badc8849309/",
+   "title": "Villa Diodati (hand-coloured)",
+   "caption": "A hand-coloured impression of the same Finden engraving, from the New York Public Library.",
+   "date": "c. 1833",
+   "credit": "Edward Finden after William Purser; NYPL via Public Domain Image Archive"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Chichester_Canal_(painting)",
+   "title": "Chichester Canal",
+   "caption": "Turner's luminous yellow sky is often linked to the volcanic haze of the 1810s, though this is debated and the painting dates from about 1828. A painting, not a record.",
+   "date": "c. 1828",
+   "credit": "J. M. W. Turner, Tate / Petworth"
+  }
+ ],
+ "further": [
+  {
+   "title": "Klingaman & Klingaman, 1816: The Year Without Summer (excerpt)",
+   "url": "https://www.scientificamerican.com/article/1816-the-year-without-summer-excerpt"
+  },
+  {
+   "title": "Raffles' narrative excerpts (skullsinthestars)",
+   "url": "https://skullsinthestars.com/2013/04/10/april-10-1815-mount-tambora-blows-up/"
+  },
+  {
+   "title": "Eighteen-hundred-and-froze-to-death (ConnecticutHistory.org)",
+   "url": "https://connecticuthistory.org/?p=42477"
+  },
+  {
+   "title": "Polidori diary (Project Gutenberg)",
+   "url": "https://www.gutenberg.org/ebooks/55017"
+  },
+  {
+   "title": "History of a Six Weeks' Tour (Project Gutenberg)",
+   "url": "https://gutenberg.org/files/52790/old/52790-h/52790-h.htm"
+  },
+  {
+   "title": "Chauncey Jerome autobiography (Project Gutenberg)",
+   "url": "https://www.gutenberg.org/ebooks/12694"
+  },
+  {
+   "title": "Lederer famine report, Geradstetten (translation)",
+   "url": "https://www.asc.ohio-state.edu/palmer.2/Geradstetten/Report%20of%20the%20Famine%20and%20Hhe%20Hyper-Inflation%20of%201816%20and%201817.pdf"
+  },
+  {
+   "title": "Li Yuyang poems (Smith College Climate Lit)",
+   "url": "https://www.science.smith.edu/climatelit/poetry-of-the-seven-sorrows/"
+  },
+  {
+   "title": "Jefferson to Gallatin, 8 Sept 1816",
+   "url": "https://founders.archives.gov/documents/Jefferson/03-10-02-0263"
+  },
+  {
+   "title": "Science Museum: The year without summer",
+   "url": "https://blog.sciencemuseum.org.uk/the-year-without-summer/"
+  }
+ ],
+ "vantage_key": "0 = survivor at the foot of the volcano; 1 = on Sumbawa or sailing into the ash; 2 = elsewhere in the archipelago; 3 = on Java collecting reports; 4 = far away, living through the 1816–17 cold and famine without knowing its cause."
+}
