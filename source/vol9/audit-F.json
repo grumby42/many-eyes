@@ -1,0 +1,270 @@
+[
+ {
+  "chapter": "polio-1954",
+  "where": "entry:4",
+  "severity": "error",
+  "problem": "Salk's first Time cover was the issue of 29 March 1954 (TIME's own cover history), not the day after the JAMA paper in 1953; the Post-Gazette's sequencing is wrong.",
+  "fix": {
+   "text_replace": {
+    "old": "Salk appeared on the cover of Time the following day.",
+    "new": "A year later, on 29 March 1954, he was on the cover of Time."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "entry:32",
+  "severity": "doubt",
+  "problem": "The cabinet-meeting wording reaches the chapter only via the Saturday Evening Post (2025); the Eisenhower Library minutes (salk-j) could not be opened to confirm it, and minutes are a secretary's summary. Reduce to a five-word phrase.",
+  "fix": {
+   "quote": "at the expense of quality",
+   "source_note": "Eisenhower Library (Cabinet minutes salk-j and paper CI-24, 29 April 1955); wording as given by the Saturday Evening Post (2025), not checked against the scan of the minutes."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "entry:26",
+  "severity": "doubt",
+  "problem": "The phrase is attributed to Hobby's prepared remarks (Eisenhower Library salk-e; DocsTeach NAID 12166301), a government record, but DocsTeach carries no transcription and the scan could not be opened; the wording comes via the Saturday Evening Post. Four words, so it may stand, but the source note should say so.",
+  "fix": {
+   "confidence": "approx",
+   "source_note": "Remarks of 22 April 1955 (Eisenhower Library salk-e; DocsTeach NAID 12166301); the four-word phrase as quoted by the Saturday Evening Post (2025), not checked against the scan."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "eye:hobby",
+  "severity": "doubt",
+  "problem": "Authenticity note implies her quoted words were read in the Eisenhower Library documents; the chapter's quotations of her actually come via a 2025 magazine article.",
+  "fix": {
+   "text_replace": {
+    "old": "US-government records: short quotation permitted.",
+    "new": "US-government records: short quotation permitted; the short phrases used here are taken as quoted in the Saturday Evening Post (2025), not checked against the scans."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "entry:12",
+  "severity": "error",
+  "problem": "Paraphrase overstates the source: the Polio Network page has Kerr saying the shot didn't hurt as much as a penicillin shot, not that he barely felt it. Time 9:35 a.m. and Dr Richard (J.) Mulvaney confirmed; Connection Newspapers confirms the cafeteria.",
+  "fix": {
+   "text_replace": {
+    "old": "Kerr told reporters he barely felt it, less than a penicillin shot.",
+    "new": "Kerr told reporters it hurt less than a penicillin shot."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "entry:20",
+  "severity": "error",
+  "problem": "The University of Michigan SPH page says the $7,500,000 in March of Dimes grants supported the field trials and the evaluation, not the evaluation alone.",
+  "fix": {
+   "text_replace": {
+    "old": "grants totalling $7.5 million for the evaluation alone",
+    "new": "grants totalling $7.5 million for the field trial and its evaluation"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "entry:0",
+  "severity": "doubt",
+  "problem": "Counts differ by source: the Post-Gazette gives a pilot group of 43; the Smithsonian NMAH catalogue for the Saukett vial gives thirty children inoculated in July 1952. Present both.",
+  "fix": {
+   "text_replace": {
+    "old": "The Post-Gazette puts the pilot group at 43.",
+    "new": "The Post-Gazette puts the pilot group at 43; the Smithsonian's catalogue says thirty children were inoculated in July 1952."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "claim:0",
+  "severity": "doubt",
+  "problem": "Same count dispute as entry 0 (43 per Post-Gazette; 30 per Smithsonian NMAH catalogue).",
+  "fix": {
+   "claim": "Pilot group of children and young adults already paralysed by polio injected at the D. T. Watson Home (43 per the Post-Gazette; 30 in July 1952 per the Smithsonian catalogue)",
+   "evidence": "Pittsburgh Post-Gazette polio interactive; Smithsonian NMAH object record, Salk polio vaccine, Saukett strain"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "claim:1",
+  "severity": "style",
+  "problem": "The Post-Gazette's 57,879 cases / 3,145 deaths figure is itself cited from Our World in Data (2017), not from national case reports directly. Numbers confirmed as the page gives them.",
+  "fix": {
+   "evidence": "Pittsburgh Post-Gazette polio interactive, citing Our World in Data (2017); other sources round to about 58,000 cases and over 3,000 deaths"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "image:0",
+  "severity": "error",
+  "problem": "The NMAH record describes a glass vial containing residue of Type III (Saukett strain) vaccine from Salk's first human tests, made in Pittsburgh in 1952; the caption and date should say so.",
+  "fix": {
+   "caption": "A small glass vial holding residue of Salk's Type III (Saukett strain) vaccine from his first human tests in 1952, given to the Smithsonian's National Museum of American History by the National Foundation for Infantile Paralysis.",
+   "date": "1952"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "eye:murrow",
+  "severity": "error",
+  "problem": "Murrow was born 25 April 1908, so he was 46 on 12 April 1955.",
+  "fix": {
+   "text_replace": {
+    "old": "CBS broadcaster, aged 47;",
+    "new": "CBS broadcaster, aged 46;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "eye:nathanson",
+  "severity": "error",
+  "problem": "Neal Nathanson died in 2022 aged 94 (Philadelphia Inquirer and Becker's obituaries); life span is incomplete.",
+  "fix": {
+   "life": "1927–2022"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "entry:42",
+  "severity": "doubt",
+  "problem": "The House Interstate and Foreign Commerce hearings 'Poliomyelitis Vaccine, Part 2' were held 22 and 23 June 1955 (library catalogue record); Time (4 July 1955) confirms Sabin, Enders, Hammon, Paul's 8–3 poll with four abstentions, and Scheele. The day of Sabin's own testimony is not fixed.",
+  "fix": {
+   "date_display": "22–23 June 1955 (hearing days; Sabin's day not fixed)",
+   "source_note": "Time, 'Vaccine Safety', 4 July 1955 (reprinted online); hearing dates from the catalogue record of Poliomyelitis Vaccine, Part 2 (84th Congress), 22–23 June 1955."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "calendar_note:0",
+  "severity": "style",
+  "problem": "Sabin's testimony can now be fixed to the two hearing days.",
+  "fix": {
+   "text_replace": {
+    "old": ", Eddy's monkey tests, Sabin's June 1955 testimony)",
+    "new": ", Eddy's monkey tests; Sabin's testimony is fixed only to the hearings of 22–23 June 1955)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "entry:17",
+  "severity": "doubt",
+  "problem": "The monkey tests, the report to Workman and the setting-aside of her findings are known only through later accounts (chiefly Offit, The Cutter Incident, 2005, via Wikipedia); the digest states the first three sentences as fact before hedging.",
+  "fix": {
+   "text_replace": {
+    "old": "Testing vaccine lots from the manufacturers, Eddy injected",
+    "new": "According to later accounts, chiefly Paul Offit's (2005), when testing vaccine lots from the manufacturers Eddy injected"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "eye:eddy",
+  "severity": "doubt",
+  "problem": "Bio states Offit-derived claims as settled fact; they are secondhand and contested in emphasis.",
+  "fix": {
+   "text_replace": {
+    "old": "She reported this to the laboratory's head, William Workman;",
+    "new": "According to later accounts, chiefly Paul Offit's, she reported this to the laboratory's head, William Workman;"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "claim:15",
+  "severity": "doubt",
+  "problem": "The 40,000 abortive / 200 paralysed / 10 deaths totals are later estimates (Offit's, repeated by CDC), not a 1955 CDC count; the American Association of Immunologists' history gives a different breakdown (56 paralytic cases and 5 deaths among recipients; 113 paralysed and 5 deaths among contacts). Present as estimates.",
+  "fix": {
+   "claim": "Later estimates of Cutter's toll: about 40,000 abortive cases, some 200 paralysed and 10 deaths (figures repeated by CDC from Offit 2005); another tally gives 56 paralysed and 5 dead among recipients, 113 paralysed and 5 dead among contacts",
+   "evidence": "CDC, Historical Vaccine Safety Concerns: Cutter Incident; American Association of Immunologists, 'Polio: Part III—The Vaccine'; Nathanson and Langmuir (1963) is the original epidemiological analysis",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "entry:8",
+  "severity": "doubt",
+  "problem": "The PubMed Central article summarises the 29 December 1953 letter as Francis agreeing to direct the evaluation; the digest's 'had not yet committed' is not supported by the source as read.",
+  "fix": {
+   "text_replace": {
+    "old": "Francis wrote that he thought he would take on the evaluation, though he had not yet committed.",
+    "new": "Francis wrote that he would take on the evaluation, on conditions; his formal appointment came only in February."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "entry:25",
+  "severity": "doubt",
+  "problem": "The 14 April request is stated by the Saturday Evening Post without a source; not otherwise confirmed. Marked verified.",
+  "fix": {
+   "confidence": "approx",
+   "source_note": "Saturday Evening Post (2025), which gives no source for the date."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "entry:18",
+  "severity": "style",
+  "problem": "Confirmed against the UMich SPH page: 33 vs 115 (placebo areas), 38 vs 330 (observed areas), 80–90 per cent, over 500 scientists and physicians at Rackham, and the press release opening 'The vaccine works. It is safe, effective, and potent.' The quote stands as a world-famous phrase.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "entry:23",
+  "severity": "style",
+  "problem": "'Could you patent the sun?' stands as a world-famous phrase. The broadcast date of 12 April 1955 is as commonly cited and could not be pinned to a primary listing; the existing hedge is adequate.",
+  "fix": {},
+  "confidence": "approx"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "entry:37",
+  "severity": "style",
+  "problem": "Report No. 8 confirmed: 'Accepted cases total 52 at 12:00 A.M. today (5-9-55)'; first Wyeth case a seven-year-old Pennsylvania boy; Montgomery County, Maryland suspect 'not polio'; signed Neal Nathanson. 'Use of Cutter vaccine discontinued April 28.' (entry 31) is exact.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "entry:38",
+  "severity": "style",
+  "problem": "Special Report No. 2 confirmed: 59 accepted cases and 9 contact cases to 13 May; quote 'wholly consistent with the pattern of a common source epidemic' is exact (sentence continues 'with Cutter vaccine as the vehicle of infection'); first phase 27 April with 6 cases; first parent case Tennessee 7 May.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "polio-1954",
+  "where": "entry:27",
+  "severity": "style",
+  "problem": "Quote 'the countless thousands of American parents and grandparents' confirmed verbatim on the American Presidency Project; 164 million confirmed. The record contains no reply by Salk (entry 28 correct).",
+  "fix": {},
+  "confidence": "verified"
+ }
+]

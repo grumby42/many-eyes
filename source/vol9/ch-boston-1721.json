@@ -1,0 +1,1377 @@
+{
+ "id": "boston-1721",
+ "title": "The Speckled Monster and the Scar on Onesimus's Arm",
+ "short_title": "Boston Inoculation, 1721",
+ "subtitle": "The Boston smallpox epidemic and inoculation controversy, with the London trials, 1716–1726",
+ "span": "1716–1726",
+ "intro": [
+  "Smallpox came back to Boston in the spring of 1721 after nineteen years away, probably with the ship Seahorse from the West Indies. By the following February about 5,800 people, more than half the town, had caught it, and about 844 had died. In the same months, a few physicians on both sides of the Atlantic tried something that most of their colleagues considered reckless: deliberately giving healthy people smallpox through a cut in the skin, in the hope of a milder disease and lifelong protection.",
+  "The knowledge did not come from European medicine. In Boston, Cotton Mather learned it from Onesimus, a West African man enslaved in his household, who showed him the scar of the operation; Mather also read the reports of Timoni and Pylarini from Constantinople. In Turkey, Lady Mary Wortley Montagu watched the practice and had her son inoculated. Onesimus left no account of his own, and nor did Jack and his little son Jackey, whom Zabdiel Boylston inoculated with his own son on 26 June 1721, or the six condemned prisoners whom Charles Maitland inoculated at Newgate that August in return for their lives. They are given eyes here and flagged as known only through others.",
+  "The record is mostly not diaries. Mather's and Samuel Sewall's diaries are set beside newspaper letters, pamphlets, a surgeon's case book, a letter of invitation, edited embassy letters and statistical papers, and each is tagged by form. Boston's argument was fought in print: the Boston News-Letter, the Boston Gazette, and from August 1721 James Franklin's New-England Courant, where the young Benjamin Franklin was an apprentice. The two sides argued both medicine and religion. Opponents such as the physician William Douglass said the method was untried, spread infection and was the clergy's business only by usurpation; others said that to give a disease on purpose was to defy God. Supporters said that Providence had shown a means of safety and that refusing it was the real presumption.",
+  "London ran a parallel experiment by other means: royal patronage, invited witnesses, trials on prisoners and parish orphans, and then the inoculation of two princesses in April 1722. James Jurin, Secretary of the Royal Society, then turned the argument into numbers, comparing deaths after natural and after inoculated smallpox, and Boylston's Boston table entered his reckoning. Later evidence confirmed that inoculation greatly reduced the individual's risk of death but could spread smallpox to others, which is why it was eventually replaced by vaccination. Both of those points were made in 1721 by people who disagreed bitterly with each other."
+ ],
+ "calendar_note": "Boston and London both used the Julian (Old Style) calendar in 1721, which then ran eleven days behind the Gregorian. The legal year began on 25 March, so dates from 1 January to 24 March were written with a double year, as in '15 February 1721/22'. Every date_iso here is converted to the Gregorian calendar with the year starting on 1 January (so Boylston's 26 June 1721 O.S. is 7 July 1721 N.S.), while date_display keeps the date as written. Lady Mary dated her Turkish letters 'O.S.' herself. Boston newspapers were dated by week (e.g. '14–21 August'); the last day is taken as the issue date. Month-only dates are left in their Old Style month.",
+ "eyes": [
+  {
+   "id": "mather",
+   "short": "Cotton Mather",
+   "name": "Cotton Mather",
+   "life": "1663–1728",
+   "role": "Minister of Boston's Second (Old North) Church, aged 58; Fellow of the Royal Society since 1713; prolific author",
+   "side": "Boston; the pro-inoculation ministers",
+   "where": "His house in the North End of Boston",
+   "lat": 42.366,
+   "lon": -71.053,
+   "vantage": 0,
+   "vantage_label": "the minister who proposed the experiment",
+   "form": "diary, dated letters and pamphlets",
+   "language": "English",
+   "authenticity": "His diary survives in manuscript and was published by the Massachusetts Historical Society (Collections, 7th series, vols. 7–8, 1911–12, ed. W. C. Ford); vol. 2 covers 1709–1724. The 1716 letter on inoculation went to London as part of his 'Curiosa Americana' series. Some 1721 newspaper pieces are only probably his and are flagged as such.",
+   "bio": "Mather had read the Constantinople reports in the Royal Society's Transactions and had heard a fuller account from Onesimus, the man enslaved in his household. When smallpox returned to Boston after nineteen years he urged the town's practitioners to try inoculation, and only Zabdiel Boylston agreed. His diary records both his conviction and the hatred it drew, down to a bomb thrown into his house.",
+   "sources": [
+    {
+     "title": "Diary of Cotton Mather, vol. 2, 1709–1724 (MHS 1912), Internet Archive",
+     "url": "https://archive.org/details/diarycotton02math"
+    },
+    {
+     "title": "Some Account of What is said of Inoculating or Transplanting the Small Pox (Boston 1721), Harvard Contagion collection",
+     "url": "https://curiosity.lib.harvard.edu/contagion/catalog/36-990023289740203941"
+    },
+    {
+     "title": "Houghton Library: Three Bostonians and the Smallpox Epidemic of 1721",
+     "url": "https://sites.harvard.edu/houghton-library/2020/06/04/three-bostonians-and-the-smallpox-epidemic-of-1721"
+    }
+   ]
+  },
+  {
+   "id": "onesimus",
+   "short": "Onesimus",
+   "name": "Onesimus (later Onesimus Mather)",
+   "life": "fl. 1706–1716 and after",
+   "role": "West African man enslaved in Cotton Mather's household from about 1706; later partly purchased his own freedom",
+   "side": "Boston; enslaved African (Mather recorded him as 'Guramantee', usually read as Coromantee, Gold Coast)",
+   "where": "Mather's household, North End, Boston",
+   "lat": 42.366,
+   "lon": -71.053,
+   "vantage": 0,
+   "vantage_label": "the African source of the knowledge, seen only through Mather",
+   "form": "no writings of his own; known through Mather's diary, letters and pamphlets",
+   "language": "unrecorded (record in English)",
+   "authenticity": "No surviving firsthand account found. Everything known of Onesimus comes from Cotton Mather: the diary, the 1716 letter to London, the 1721 pamphlet and an undated memorandum of the terms of his freedom (Mather Family Papers, American Antiquarian Society). Mather's renderings of African speech are his own, and Douglass mocked them.",
+   "bio": "Asked whether he had had smallpox, Onesimus told Mather that he had undergone an operation in Africa that gave him a mild form of it and protected him for life, and showed the scar on his arm. His testimony, and that of other Africans in Boston, is the root of the Boston experiment. He left the household before 1721 and almost nothing is known of his later life.",
+   "sources": [
+    {
+     "title": "Paul Revere House: Onesimus Mather and the Origins of Inoculation in Boston",
+     "url": "https://www.paulreverehouse.org/onesimus-mather-and-the-origins-of-inoculation-in-boston/"
+    },
+    {
+     "title": "J. L. Bell, 'First instructed in it, by a Guramantee-Servant' (Boston 1775)",
+     "url": "https://boston1775.blogspot.com/2020/04/first-instructed-in-it-by-guramantee.html"
+    }
+   ]
+  },
+  {
+   "id": "boylston",
+   "short": "Boylston",
+   "name": "Zabdiel Boylston",
+   "life": "1679–1766",
+   "role": "Boston surgeon-apothecary without a university degree, aged 42; had survived smallpox as a boy",
+   "side": "Boston; the inoculators",
+   "where": "His house and shop near Dock Square, Boston; London 1724–26",
+   "lat": 42.36,
+   "lon": -71.056,
+   "waypoints": [
+    {
+     "lat": 42.36,
+     "lon": -71.056,
+     "label": "Boston, inoculations 1721–22"
+    },
+    {
+     "lat": 51.5148,
+     "lon": -0.1083,
+     "label": "London, Royal Society, 1724–26"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the inoculator",
+   "form": "case notes published as a book; newspaper letters",
+   "language": "English",
+   "authenticity": "An Historical Account of the Small-Pox Inoculated in New England (London: S. Chandler, 1726; 2nd ed. 1730, reprinted Boston) sets out his cases in date order with a mortality comparison. It was written after the event from his notes, partly to answer critics. Modern summaries give his inoculation total variously (244, 247, 282, 286), depending on whether cases by Thomas Robie and others are counted.",
+   "bio": "Boylston inoculated his own six-year-old son and two enslaved people on 26 June 1721 and went on through the epidemic in the face of a town order, threats of hanging and street abuse; one account has him hiding for fourteen days in his own house. His published case list, with its comparison of deaths after inoculation and after natural smallpox, is among the earliest numerical evaluations of a medical procedure.",
+   "sources": [
+    {
+     "title": "Boylston, Historical Account (1726), Wellcome Collection",
+     "url": "https://wellcomecollection.org/works/gzx6c5qv"
+    },
+    {
+     "title": "James Lind Library: Zabdiel Boylston's evaluation of inoculation",
+     "url": "https://www.jameslindlibrary.org/articles/zabdiel-boylstons-evaluation-of-inoculation-against-smallpox/"
+    },
+    {
+     "title": "Mass Moments: Dr. Boylston experiments with smallpox inoculation",
+     "url": "https://www.massmoments.org/moment-details/dr-boylston-experiments-with-smallpox-inoculation.html"
+    }
+   ]
+  },
+  {
+   "id": "jack",
+   "short": "Jack & Jackey",
+   "name": "Jack and his son Jackey",
+   "life": "Jack born c. 1685; Jackey born c. 1718–19",
+   "role": "A man of about 36 and his son of about two and a half, both enslaved by Zabdiel Boylston",
+   "side": "Boston; enslaved Africans",
+   "where": "Boylston's household, Boston",
+   "lat": 42.36,
+   "lon": -71.056,
+   "vantage": 0,
+   "vantage_label": "among the first three people inoculated in Boston",
+   "form": "no writings of their own; known through Boylston's case notes",
+   "language": "unrecorded (record in English)",
+   "authenticity": "No surviving firsthand account found. Their names and ages come from Boylston's Historical Account (1726) and later summaries of it. Whether they consented, or could have refused, is not recorded.",
+   "bio": "Jack and Jackey were inoculated on the same day as Boylston's son Thomas, in the first trial of the method in Boston. They are given an eye here because the experiment was performed on their bodies; the record holds only their ages, the course of their fevers and their recovery.",
+   "sources": [
+    {
+     "title": "Mass Moments: Dr. Boylston experiments with smallpox inoculation",
+     "url": "https://www.massmoments.org/moment-details/dr-boylston-experiments-with-smallpox-inoculation.html"
+    },
+    {
+     "title": "Zabdiel Boylston (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Zabdiel_Boylston"
+    }
+   ]
+  },
+  {
+   "id": "douglass",
+   "short": "Douglass",
+   "name": "William Douglass",
+   "life": "c. 1691–1752",
+   "role": "Scottish physician, aged about 30; the only Boston practitioner with a university MD (Utrecht, 1712)",
+   "side": "Boston; the medical opposition",
+   "where": "Boston",
+   "lat": 42.358,
+   "lon": -71.058,
+   "vantage": 1,
+   "vantage_label": "the leading medical opponent",
+   "form": "newspaper letters and pamphlets",
+   "language": "English",
+   "authenticity": "His 1721 newspaper letters were signed with pseudonyms ('W. Philanthropos') or left unsigned; attribution rests on contemporaries and modern editors. His pamphlets Inoculation of the Small Pox as practised in Boston (letter to Alexander Stuart, FRS) and The Abuses and Scandals of some late Pamphlets in Favour of Inoculation (Boston: J. Franklin, 1722) survive and are digitised by the National Library of Medicine.",
+   "bio": "Douglass had come to Boston with letters of introduction to the Mathers and turned against them over inoculation. He argued that the method was untested, that it spread infection through a crowded town, that ministers had no business directing medicine, and that the African and Levantine testimonies were unreliable. In later years he accepted inoculation and practised it himself.",
+   "sources": [
+    {
+     "title": "The Abuses and Scandals of some late Pamphlets (1722), NLM Digital Collections",
+     "url": "https://digirepo.nlm.nih.gov/catalog/nlm:nlmuid-2552019R-bk"
+    },
+    {
+     "title": "Inoculation of the small pox as practised in Boston (1722), NLM Digital Collections",
+     "url": "https://digirepo.nlm.nih.gov/catalog/nlm:nlmuid-2552020R-bk"
+    },
+    {
+     "title": "William Douglass (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/William_Douglass_(physician)"
+    }
+   ]
+  },
+  {
+   "id": "courant",
+   "short": "Courant",
+   "name": "The New-England Courant (James Franklin, printer)",
+   "life": "published 1721–1726; James Franklin 1697–1735",
+   "role": "Weekly Boston newspaper founded by the printer James Franklin, aged 24; his brother Benjamin, 15, was his apprentice",
+   "side": "Boston; the anti-inoculation press",
+   "where": "James Franklin's printing house, Queen Street, Boston",
+   "lat": 42.359,
+   "lon": -71.059,
+   "vantage": 2,
+   "vantage_label": "the town's argument in print",
+   "form": "newspaper (weekly issues)",
+   "language": "English",
+   "authenticity": "Surviving issues are held by the American Antiquarian Society and others; selections are reprinted with modernised spelling by the National Humanities Center. Issues are dated by week (e.g. 14–21 August); the last date is taken here as the issue date. Benjamin Franklin's own account of these years is in his Autobiography, written decades later.",
+   "bio": "The Courant was launched in August 1721 partly as a vehicle for the opponents of inoculation, and it gave space to Douglass and to satirists who mocked the 'Inoculation Ministers'. It also printed letters on the other side and published the town's house-by-house count. Benjamin Franklin learned his trade setting its type and in 1722 began writing for it as 'Silence Dogood'.",
+   "sources": [
+    {
+     "title": "National Humanities Center, The Paper War over Smallpox Inoculation in Boston, 1721 (selections)",
+     "url": "https://nationalhumanitiescenter.org/pds/becomingamer/ideas/text7/smallpoxinoculation.pdf"
+    }
+   ]
+  },
+  {
+   "id": "sewall",
+   "short": "Sewall",
+   "name": "Samuel Sewall",
+   "life": "1652–1730",
+   "role": "Judge of the Superior Court and member of the Governor's Council, aged 69",
+   "side": "Boston; Council and congregation",
+   "where": "His house in Boston, near the Town House",
+   "lat": 42.3587,
+   "lon": -71.0575,
+   "vantage": 2,
+   "vantage_label": "the judge who carried the coffins",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Sewall's diary (1674–1729) survives in manuscript at the Massachusetts Historical Society and was published in its Collections, 5th series, vols. 5–7 (1878–82). Entries for 1721 are short records of council business, funerals and sermons.",
+   "bio": "Sewall, the judge who had publicly repented his part in the Salem witch trials, kept a terse daily record. In the autumn of 1721 it becomes a list of funerals at which he walked as a bearer. It is the epidemic seen not from the sickroom or the press but from the church door and the burying ground.",
+   "sources": [
+    {
+     "title": "New England Historical Society: Judge Samuel Sewall survives the 1721 Boston smallpox epidemic",
+     "url": "https://newenglandhistoricalsociety.com/samuel-sewall-survives-boston-smallpox-epidemic-1721/"
+    }
+   ]
+  },
+  {
+   "id": "colman",
+   "short": "Colman",
+   "name": "Benjamin Colman",
+   "life": "1673–1747",
+   "role": "Minister of the Brattle Street Church, Boston, aged 48",
+   "side": "Boston; the pro-inoculation ministers",
+   "where": "Brattle Street, Boston",
+   "lat": 42.3597,
+   "lon": -71.0589,
+   "vantage": 2,
+   "vantage_label": "the minister who signed for Boylston",
+   "form": "newspaper letter and pamphlets",
+   "language": "English",
+   "authenticity": "He co-signed the ministers' letter in the Boston Gazette of 27–31 July 1721 and wrote pro-inoculation pamphlets in 1721–22. Excerpts are reprinted with modernised spelling by the National Humanities Center.",
+   "bio": "Colman was the most liberal of Boston's ministers and Mather's sometime rival, yet he joined him in defending Boylston in print. His writings put the argument in terms of Providence: a merciful God had shown a means of safety, and refusing it was the greater presumption.",
+   "sources": [
+    {
+     "title": "National Humanities Center, The Paper War over Smallpox Inoculation (selections)",
+     "url": "https://nationalhumanitiescenter.org/pds/becomingamer/ideas/text7/smallpoxinoculation.pdf"
+    }
+   ]
+  },
+  {
+   "id": "williams",
+   "short": "John Williams",
+   "name": "John Williams",
+   "life": "fl. 1721",
+   "role": "Boston pamphleteer against inoculation (described in some modern compilations as a minister, in others as a tradesman)",
+   "side": "Boston; religious opposition",
+   "where": "Boston",
+   "lat": 42.36,
+   "lon": -71.06,
+   "vantage": 2,
+   "vantage_label": "the religious objector",
+   "form": "pamphlet",
+   "language": "English",
+   "authenticity": "Author of Several Arguments proving That Inoculating the Small Pox Is not Contained in the Law of Physick (Boston 1721; 2nd ed. 1721). His occupation is reported inconsistently in modern sources.",
+   "bio": "Williams set out the religious case against inoculation: that deliberately giving a disease to a healthy person broke the law of God and of physic, and that the practice was a delusion of the Devil. His pamphlet is the clearest surviving statement of a view many Bostonians held.",
+   "sources": [
+    {
+     "title": "National Humanities Center, The Paper War over Smallpox Inoculation (selections)",
+     "url": "https://nationalhumanitiescenter.org/pds/becomingamer/ideas/text7/smallpoxinoculation.pdf"
+    }
+   ]
+  },
+  {
+   "id": "montagu",
+   "short": "Lady Mary",
+   "name": "Lady Mary Wortley Montagu",
+   "life": "1689–1762",
+   "role": "Writer and wife of the British ambassador to the Ottoman Porte, aged 28 in 1717; scarred by smallpox in 1715",
+   "side": "England; the embassy at Constantinople, then London society",
+   "where": "Adrianople (Edirne) and Constantinople 1717–18; London from 1718",
+   "lat": 51.51,
+   "lon": -0.14,
+   "waypoints": [
+    {
+     "lat": 41.677,
+     "lon": 26.556,
+     "label": "Adrianople, April 1717"
+    },
+    {
+     "lat": 41.034,
+     "lon": 28.977,
+     "label": "Pera, Constantinople, March 1718"
+    },
+    {
+     "lat": 51.51,
+     "lon": -0.14,
+     "label": "London, 1721–22"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the patron who brought it from Turkey",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Her 'Embassy Letters' were revised by her from the originals and published posthumously in 1763 (Letters of the Right Honourable Lady M—y W—y M—e). The text used here is a 1790 edition on Project Gutenberg. As edited letters, they may differ from what was actually sent.",
+   "bio": "Lady Mary had lost her brother to smallpox and her own face had been marked by it. In Turkey she watched the practice of engrafting and had her son inoculated; back in London in 1721 she had her daughter inoculated before witnesses. Her letter of April 1717 is the best-known European description of the practice.",
+   "sources": [
+    {
+     "title": "Letters of the Right Honourable Lady M—y W—y M—e (1790 ed.), Project Gutenberg",
+     "url": "https://gutenberg.org/cache/epub/17520/pg17520-images.html"
+    },
+    {
+     "title": "History of Parliament: Lady Mary Wortley Montagu and an early experiment in immunology",
+     "url": "https://historyofparliament.com/2021/01/07/mary-wortley-montagu/"
+    }
+   ]
+  },
+  {
+   "id": "maitland",
+   "short": "Maitland",
+   "name": "Charles Maitland",
+   "life": "c. 1668–1748",
+   "role": "Scottish surgeon, aged about 53 in 1721; formerly surgeon to the British embassy at Constantinople",
+   "side": "London; the inoculators",
+   "where": "London; Newgate Prison",
+   "lat": 51.5155,
+   "lon": -0.1018,
+   "waypoints": [
+    {
+     "lat": 41.034,
+     "lon": 28.977,
+     "label": "Pera, March 1718"
+    },
+    {
+     "lat": 51.51,
+     "lon": -0.14,
+     "label": "London, April 1721"
+    },
+    {
+     "lat": 51.5155,
+     "lon": -0.1018,
+     "label": "Newgate, August 1721"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the surgeon who ran the London trials",
+   "form": "dated letters and a published account",
+   "language": "English",
+   "authenticity": "His letter to Sloane of 8 August 1721 survives (British Library, Sloane MS 4076, f. 96). Mr Maitland's Account of Inoculating the Small Pox (London 1722) describes the trials. One modern summary misdates the Newgate trial to 1722; the letter fixes it to 1721.",
+   "bio": "Maitland inoculated the Montagus' son in Turkey and their daughter in London, insisting on medical witnesses the second time. In August 1721 he carried out the trial on six condemned prisoners at Newgate under royal sponsorship, then further trials on parish orphans, and in April 1722 the inoculation of two of the Prince of Wales's daughters.",
+   "sources": [
+    {
+     "title": "Maitland to Sloane, 8 August 1721 (Sloane Letters Project)",
+     "url": "https://sloaneletters.com/?p=43724"
+    },
+    {
+     "title": "A. W. Boylston, JRSM 2010 (James Lind Library)",
+     "url": "https://www.jameslindlibrary.org/wp-data/uploads/2016/08/J-R-Soc-Med-2010-08-Boylston-335-9.pdf"
+    }
+   ]
+  },
+  {
+   "id": "newgate",
+   "short": "Newgate six",
+   "name": "The six Newgate prisoners: Mary North, Ann Tompion, Elizabeth Harrison, John Alcock, John Cawthery, Richard Evans",
+   "life": "fl. 1720–1721",
+   "role": "Three women and three men under sentence of death at the Old Bailey, offered a pardon if they underwent inoculation and survived",
+   "side": "London; condemned prisoners",
+   "where": "Newgate Prison, London",
+   "lat": 51.5155,
+   "lon": -0.1018,
+   "vantage": 0,
+   "vantage_label": "the condemned people experimented on",
+   "form": "no writings of their own; known through Maitland's account, letters and Old Bailey records",
+   "language": "English (record)",
+   "authenticity": "No surviving firsthand account found. Their names come from contemporary accounts and are matched to Old Bailey Proceedings by J. L. Carrell; some identifications (e.g. which Elizabeth Harrison) remain uncertain.",
+   "bio": "The six were chosen because they could be offered their lives in return for the risk. The trial was watched by physicians, surgeons and Fellows of the Royal Society and paid for by the Crown. They are named here plainly because the method's acceptance in England rested on what was done to them.",
+   "sources": [
+    {
+     "title": "J. L. Carrell, New Light on the Newgate Six",
+     "url": "https://jenniferleecarrell.com/new-evidence"
+    },
+    {
+     "title": "A. W. Boylston, JRSM 2010 (James Lind Library)",
+     "url": "https://www.jameslindlibrary.org/wp-data/uploads/2016/08/J-R-Soc-Med-2010-08-Boylston-335-9.pdf"
+    }
+   ]
+  },
+  {
+   "id": "sloane",
+   "short": "Sloane",
+   "name": "Sir Hans Sloane",
+   "life": "1660–1753",
+   "role": "Physician, aged 61; President of the Royal College of Physicians and physician to the royal family",
+   "side": "London; medical establishment",
+   "where": "Bloomsbury, London",
+   "lat": 51.519,
+   "lon": -0.122,
+   "vantage": 1,
+   "vantage_label": "the establishment physician invited to watch",
+   "form": "correspondence received",
+   "language": "English",
+   "authenticity": "His vast correspondence is in the British Library's Sloane manuscripts and is calendared by the Sloane Letters Project. His own later account of the early London inoculations was published long afterwards and is not used here.",
+   "bio": "Sloane's approval mattered more than anyone's to whether the Court would allow inoculation. Maitland wrote to invite him to the Newgate operation the night before it took place. He is the eye of the establishment that had to be persuaded.",
+   "sources": [
+    {
+     "title": "Maitland to Sloane, 8 August 1721 (Sloane Letters Project)",
+     "url": "https://sloaneletters.com/?p=43724"
+    }
+   ]
+  },
+  {
+   "id": "jurin",
+   "short": "Jurin",
+   "name": "James Jurin",
+   "life": "1684–1750",
+   "role": "Physician and mathematician, Secretary of the Royal Society from 1721, aged about 38",
+   "side": "London; the Royal Society",
+   "where": "London (Royal Society, Crane Court)",
+   "lat": 51.5148,
+   "lon": -0.1083,
+   "vantage": 2,
+   "vantage_label": "the man who counted",
+   "form": "printed letters and annual statistical accounts",
+   "language": "English",
+   "authenticity": "His paper comparing deaths from natural and inoculated smallpox was read on 17 January 1722/23 and printed as A Letter to the learned Dr. Caleb Cotesworth (1723); annual Accounts of the Success of Inoculating followed for 1723–1727. He openly counted every death after inoculation against the method.",
+   "bio": "Jurin turned an argument about Providence and testimony into one about numbers. Using the London Bills of Mortality and a network of correspondents, including Nettleton in Yorkshire and Boylston and Mather in Boston, he compared the risk of dying of smallpox caught naturally with the risk of dying after inoculation.",
+   "sources": [
+    {
+     "title": "A. W. Boylston, JRSM 2010 (James Lind Library)",
+     "url": "https://www.jameslindlibrary.org/wp-data/uploads/2016/08/J-R-Soc-Med-2010-08-Boylston-335-9.pdf"
+    },
+    {
+     "title": "James Lind Library: Boylston's evaluation of inoculation",
+     "url": "https://www.jameslindlibrary.org/articles/zabdiel-boylstons-evaluation-of-inoculation-against-smallpox/"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1706-12",
+   "date_display": "December 1706 (O.S.; some accounts give 1707)",
+   "precision": "month",
+   "eye": "onesimus",
+   "place": "Mather's house, Boston",
+   "headline": "A man given to Mather by his congregation",
+   "digest": "Members of Mather's church bought a young West African man and gave him to their minister, who named him Onesimus after the runaway slave in St Paul's letter to Philemon. Mather recorded the gift in his diary and set about instructing him in Christianity. Onesimus's own name, age and home are not recorded.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Mather's diary as summarised by the Paul Revere House (which dates the gift to 1707) and Mass Moments (1706)."
+  },
+  {
+   "date_iso": "1716-07-23",
+   "date_display": "12 July 1716 (O.S.), as usually cited",
+   "precision": "day",
+   "eye": "mather",
+   "place": "Boston",
+   "headline": "A letter to London: a servant's account from Africa",
+   "digest": "In one of his 'Curiosa Americana' letters to the Royal Society, Mather reported that he had learned from a servant of his own that inoculation was practised in Africa. He asked why the method described from Constantinople had not been tried in England and said he would urge it in Boston if smallpox returned.",
+   "quote": "I had from a servant of my own an account",
+   "confidence": "approx",
+   "source_note": "Mather to John Woodward, 1716, as quoted by the Paul Revere House (which calls the recipient the Royal Society); day as commonly cited, not checked against the manuscript."
+  },
+  {
+   "date_iso": "1716-09-11",
+   "date_display": "31 August 1716 (O.S.)",
+   "precision": "day",
+   "eye": "onesimus",
+   "place": "Mather's house, Boston",
+   "headline": "Mather turns against Onesimus",
+   "digest": "Mather's diary complains that Onesimus had become wicked, useless and ungovernable. Soon afterwards, under an undated memorandum, Onesimus paid a sum toward the purchase of another enslaved youth to replace him and left the household on conditions. Nothing he said about it survives.",
+   "quote": "proves wicked, and grows useless",
+   "confidence": "verified",
+   "source_note": "Diary of Cotton Mather, 31 Aug 1716, and the freedom memorandum (AAS), as quoted by the Paul Revere House."
+  },
+  {
+   "date_iso": "1717-04-12",
+   "date_display": "Adrianople, 1 April 1717 (O.S., her own dating)",
+   "precision": "day",
+   "eye": "montagu",
+   "place": "Adrianople (Edirne)",
+   "headline": "Engrafting described for a friend in England",
+   "digest": "Writing to her friend Sarah Chiswell, Lady Mary described how old women in Turkey opened a vein and put in smallpox matter each autumn, and how the children had a light illness and were protected. She resolved to try it on her son and to promote it in England, though she expected the physicians to resent losing so profitable a disease.",
+   "quote": "to bring this useful invention into fashion in England",
+   "confidence": "verified",
+   "source_note": "Letter XXXI 'To Mrs S. C.', Letters (1763; 1790 ed., Project Gutenberg). The letters were revised by her before posthumous publication."
+  },
+  {
+   "date_iso": "1718-03",
+   "date_display": "March 1718 (O.S.)",
+   "precision": "month",
+   "eye": "montagu",
+   "place": "Pera, Constantinople",
+   "headline": "Her son is engrafted",
+   "digest": "With her husband away, Lady Mary had her five-year-old son Edward inoculated at the embassy in Constantinople. The embassy surgeon, Charles Maitland, was present. The boy had a mild case and recovered.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "History of Parliament article (March 1718, son aged five); Maitland's presence from his 1722 account as summarised in secondary sources."
+  },
+  {
+   "date_iso": "1721-04",
+   "date_display": "April 1721 (O.S.)",
+   "precision": "month",
+   "eye": "maitland",
+   "place": "London",
+   "headline": "A daughter inoculated before witnesses",
+   "digest": "During a smallpox outbreak in London, Lady Mary asked Maitland to inoculate her daughter Mary, born early in 1718. He agreed only if physicians watched. One observer, Dr James Keith, then asked him to inoculate his only surviving son. It was the first documented inoculation in England.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "A. W. Boylston, JRSM 2010; History of Parliament. Exact day not established."
+  },
+  {
+   "date_iso": "1721-04-26",
+   "date_display": "15 April 1721 (O.S.)",
+   "precision": "day",
+   "eye": "sewall",
+   "place": "Council chamber, Boston",
+   "headline": "A ship from the Tortugas waits for leave",
+   "digest": "Sewall noted council business about letting a ship from Salt Tortuga come up to the town. Smallpox was raging in the West Indies, and the Boston News-Letter had reported 20 to 30 deaths a day in Barbados. Whether this ship had any connection with the outbreak is not stated in the entry.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sewall, as quoted by R. H. Fitz (1911) and New England Historical Society; compiled at usdeadlyevents.com. The ship usually blamed, the Seahorse, arrived on 22 April."
+  },
+  {
+   "date_iso": "1721-06-06",
+   "date_display": "26 May 1721 (O.S.)",
+   "precision": "day",
+   "eye": "mather",
+   "place": "Boston",
+   "headline": "'The grievous Calamity of the Small-Pox'",
+   "digest": "Mather recorded that smallpox had entered the town and that many were fleeing. He resolved to lay before the physicians what he had learned about inoculation from Africa and the Levant, reckoning how many lives it might save. The entry is the first in his diary of the epidemic.",
+   "quote": "The grievous Calamity of the Small-Pox has now entered the Town",
+   "confidence": "verified",
+   "source_note": "Diary of Cotton Mather, vol. 2 (1912), 26 May 1721, as cited by Wikipedia and S. B. Woodward (1932)."
+  },
+  {
+   "date_iso": "1721-06-17",
+   "date_display": "6 June 1721 (O.S.)",
+   "precision": "day",
+   "eye": "mather",
+   "place": "Boston",
+   "headline": "An address to the town's practitioners",
+   "digest": "Mather sent the Boston practitioners an address with abstracts of the Timoni and Pylarini reports, asking them to meet and consider inoculation. None of them would try it; Douglass was angered that a minister had taken up the question.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Woodward (1932) via usdeadlyevents.com; Massachusetts State House 'Did you know' (6 June)."
+  },
+  {
+   "date_iso": "1721-07-05",
+   "date_display": "24 June 1721 (O.S.), as usually cited",
+   "precision": "day",
+   "eye": "mather",
+   "place": "Boston",
+   "headline": "A private letter to Boylston",
+   "digest": "Mather wrote to Boylston on his own, urging him to try the method and saying it might save many lives that they valued. Boylston had read Mather's abstracts and was willing to test it in his own family.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Mather to Boylston, quoted by Woodward (1932). One account dates the letter 26 June; the day is uncertain."
+  },
+  {
+   "date_iso": "1721-07-07",
+   "date_display": "Monday 26 June 1721 (O.S.)",
+   "precision": "day",
+   "eye": "boylston",
+   "place": "Boylston's house, Boston",
+   "headline": "Three people inoculated: his son, Jack and Jackey",
+   "digest": "Boylston made small incisions and put in matter from a smallpox pustule on his son Thomas, aged six, and on Jack, a man of 36, and his son Jackey, aged about two and a half, both enslaved by him. On about the sixth day they fell feverish and by the ninth the pocks came out, about a hundred on each. All three recovered.",
+   "quote": "a kind and favourable Small-Pox came out",
+   "confidence": "verified",
+   "source_note": "Boylston, Historical Account (1726), as quoted by Mass Moments; date confirmed by Massachusetts State House and City of Boston accounts."
+  },
+  {
+   "date_iso": "1721-07-07",
+   "date_display": "Monday 26 June 1721 (O.S.)",
+   "precision": "day",
+   "eye": "jack",
+   "place": "Boylston's house, Boston",
+   "headline": "Jack and Jackey are inoculated",
+   "digest": "Jack and his little son were inoculated alongside the doctor's own child. Boylston's notes record their ages and the course of their illness, not anything they said. Whether they agreed to it is not recorded.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Boylston, Historical Account (1726), via Mass Moments; Wikipedia 'Zabdiel Boylston'."
+  },
+  {
+   "date_iso": "1721-07-15",
+   "date_display": "by 4 July 1721 (O.S.)",
+   "precision": "day",
+   "eye": "jack",
+   "place": "Boylston's house, Boston",
+   "headline": "Recovered within the fortnight",
+   "digest": "All three first patients were reported well again by early July. The trial's success on an enslaved man and child, as well as on a white boy, became part of Boylston's argument that the method was safe for all sorts of persons.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "todayinsci.com summary of Boylston (recovered by 4 July); title of Boylston's book ('upon all Sorts of Persons, Whites, Blacks')."
+  },
+  {
+   "date_iso": "1721-07",
+   "date_display": "July 1721",
+   "precision": "month",
+   "eye": "onesimus",
+   "place": "Boston (in Mather's pamphlet)",
+   "headline": "His testimony printed",
+   "digest": "Mather's pamphlet Some Account of What is said of Inoculating or Transplanting the Small Pox, issued as by a 'Learned Gentleman of Boston', printed the testimony of Africans in Boston, Onesimus first among them. Mather wrote that Onesimus had shown him the scar of the operation. The testimony is in Mather's words and in a mock African English that later readers have criticised.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Houghton Library blog (1721 pamphlet); Christian History Institute (quotation on the scar). Month of publication approximate."
+  },
+  {
+   "date_iso": "1721-08-04",
+   "date_display": "Boston News-Letter, 17–24 July 1721 (O.S.)",
+   "precision": "day",
+   "eye": "douglass",
+   "place": "Boston",
+   "headline": "'W. Philanthropos' attacks the experiment",
+   "digest": "Under a pseudonym, Douglass told readers that inoculation came from Thessaly by way of Constantinople, that it was unproven, and that Boylston was acting rashly by spreading the infection. He called on the magistrates to act. In 1722 he referred back to this letter in Campbell's paper as a mere caution.",
+   "quote": "Its Origin was in Thessaly in Greece",
+   "confidence": "verified",
+   "source_note": "NHC selections (modernised spelling); Douglass, Abuses and Scandals (1722) referring to his letter of 24 July."
+  },
+  {
+   "date_iso": "1721-08-01",
+   "date_display": "21 July 1721 (O.S.)",
+   "precision": "day",
+   "eye": "boylston",
+   "place": "Town House, Boston",
+   "headline": "Summoned and told to stop",
+   "digest": "The selectmen and justices summoned Boylston after a meeting of the practitioners condemned the practice. He was ordered to stop inoculating. He resumed within days, and the order was not enforced.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "JSTOR Daily (Kass 2012); Massachusetts State House; American Heritage."
+  },
+  {
+   "date_iso": "1721-08-11",
+   "date_display": "Boston Gazette, 27–31 July 1721 (O.S.)",
+   "precision": "day",
+   "eye": "colman",
+   "place": "Boston",
+   "headline": "Six ministers defend Boylston",
+   "digest": "Increase and Cotton Mather, Colman, Thomas Prince, John Webb and William Cooper wrote that they were grieved to see Boylston abused for an act of charity. They praised him as a son of the town with uncommon gifts and asked readers to judge the method by its results.",
+   "quote": "It was a grief to us, the Subscribers",
+   "confidence": "verified",
+   "source_note": "NHC selections, Boston Gazette 27–31 July 1721."
+  },
+  {
+   "date_iso": "1721-08-18",
+   "date_display": "Monday 7 August 1721 (O.S.)",
+   "precision": "day",
+   "eye": "courant",
+   "place": "Queen Street, Boston",
+   "headline": "A new paper against the 'Inoculation Ministers'",
+   "digest": "James Franklin's New-England Courant appeared for the first time, giving Boston a third newspaper. From its first weeks it attacked inoculation and the ministers who backed it. His fifteen-year-old brother Benjamin was apprenticed in the shop.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "American Heritage (early August); first-issue date as commonly cited, not checked against the issue."
+  },
+  {
+   "date_iso": "1721-08-19",
+   "date_display": "8 August 1721 (O.S.)",
+   "precision": "day",
+   "eye": "maitland",
+   "place": "London",
+   "headline": "An invitation to Sloane for the next morning",
+   "digest": "Maitland wrote to Sir Hans Sloane that the operation on the prisoners in Newgate would take place the following morning at about nine, and said Sloane's presence would be welcome. The letter fixes the date of the trial.",
+   "quote": "your presence there will be very acceptable",
+   "confidence": "verified",
+   "source_note": "Maitland to Sloane, 8 Aug 1721, BL Sloane MS 4076 f. 96 (Sloane Letters Project)."
+  },
+  {
+   "date_iso": "1721-08-19",
+   "date_display": "8 August 1721 (O.S.)",
+   "precision": "day",
+   "eye": "sloane",
+   "place": "Bloomsbury, London",
+   "headline": "The College's president is asked to watch",
+   "digest": "The letter reached Sloane on the eve of the trial. His attendance, and that of other physicians and Fellows of the Royal Society, was meant to make the result credible. What Sloane himself thought that day is not recorded in the letter.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sloane MS 4076 f. 96 (Sloane Letters Project)."
+  },
+  {
+   "date_iso": "1721-08-20",
+   "date_display": "9 August 1721 (O.S.)",
+   "precision": "day",
+   "eye": "maitland",
+   "place": "Newgate Prison, London",
+   "headline": "The Newgate trial",
+   "digest": "Maitland inoculated six condemned prisoners in Newgate before an audience of physicians, surgeons, apothecaries and Fellows of the Royal Society; the Crown had promised them pardons. Five developed mild, distinct smallpox. The sixth produced no pustules and admitted he had had smallpox some months before.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Maitland to Sloane, 8 Aug 1721 (date); A. W. Boylston, JRSM 2010 (outcomes); American Heritage (9 August)."
+  },
+  {
+   "date_iso": "1721-08-20",
+   "date_display": "9 August 1721 (O.S.)",
+   "precision": "day",
+   "eye": "newgate",
+   "place": "Newgate Prison, London",
+   "headline": "Six prisoners take the bargain",
+   "digest": "Mary North, Ann Tompion, Elizabeth Harrison, John Alcock, John Cawthery and Richard Evans, all under sentence of death, were inoculated in exchange for the promise of their lives. They left no account of the fever, the watching physicians, or the choice. All six survived.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Carrell, New Light on the Newgate Six (names, Old Bailey refs); JRSM 2010 (outcomes)."
+  },
+  {
+   "date_iso": "1721-08",
+   "date_display": "August 1721",
+   "precision": "month",
+   "eye": "mather",
+   "place": "Boston",
+   "headline": "His own son Samuel inoculated",
+   "digest": "Samuel Mather, home from Harvard, asked to be inoculated, and his father, afraid of the town's anger, had it done privately by Boylston. Accounts drawn from Mather's diary describe the boy falling dangerously ill for a time before recovering, and his father's fear of what the town would say if he died.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Bill of Rights Institute narrative; Patch.com (Sammy among survivors). Diary wording and dates not seen."
+  },
+  {
+   "date_iso": "1721-09-01",
+   "date_display": "New-England Courant, 14–21 August 1721 (O.S.)",
+   "precision": "day",
+   "eye": "douglass",
+   "place": "Boston",
+   "headline": "An unsigned letter: a 'rash' and 'dubious' practice",
+   "digest": "In the Courant, Douglass argued that a disease as desperate as smallpox needed cautious, regular practitioners, not experiments. He called inoculation rash, sometimes hazardous and always dubious. He had now carried his campaign to the new paper.",
+   "quote": "always dubious Practice",
+   "confidence": "verified",
+   "source_note": "NHC selections, New-England Courant 14–21 Aug 1721 (unsigned, attributed to Douglass)."
+  },
+  {
+   "date_iso": "1721-09-01",
+   "date_display": "New-England Courant, 14–21 August 1721 (O.S.)",
+   "precision": "day",
+   "eye": "courant",
+   "place": "Queen Street, Boston",
+   "headline": "A denial in the name of the anti-inoculators",
+   "digest": "The same issue printed a notice from the opponents of inoculation calling a report about them utterly false. The paper had become the meeting place for physicians and laymen against the practice.",
+   "quote": "the Report is utterly false",
+   "confidence": "verified",
+   "source_note": "NHC selections, New-England Courant 14–21 Aug 1721."
+  },
+  {
+   "date_iso": "1721-09-04",
+   "date_display": "24 August 1721 (O.S.)",
+   "precision": "day",
+   "eye": "mather",
+   "place": "Boston",
+   "headline": "'An Hell upon Earth'",
+   "digest": "As burials rose, Mather wrote that the town had become a city full of lies, murders and blasphemies. He believed Satan had taken possession of the people who railed at inoculation. He felt himself the target of their hatred.",
+   "quote": "The Town is become almost an Hell upon Earth",
+   "confidence": "verified",
+   "source_note": "Diary of Cotton Mather, 24 Aug 1721, as quoted in American Heritage."
+  },
+  {
+   "date_iso": "1721-09-08",
+   "date_display": "New-England Courant, 21–28 August 1721 (O.S.)",
+   "precision": "day",
+   "eye": "courant",
+   "place": "Queen Street, Boston",
+   "headline": "'Frank Scammony': unlawful for the healthy",
+   "digest": "A letter and poem signed 'Frank Scammony' argued that it was unlawful for a person in health to take in even a lesser infection. Satire and theology ran together in the paper's columns.",
+   "quote": "I affirm it unlawful for a Person in Health",
+   "confidence": "verified",
+   "source_note": "NHC selections, New-England Courant 21–28 Aug 1721."
+  },
+  {
+   "date_iso": "1721",
+   "date_display": "1721 (2nd ed. late 1721)",
+   "precision": "year",
+   "eye": "williams",
+   "place": "Boston",
+   "headline": "'A Delusion of the Devil'",
+   "digest": "In Several Arguments proving That Inoculating the Small Pox Is not Contained in the Law of Physick, Williams argued that smallpox was in God's hands and that deliberately infecting the healthy was against divine and natural law. He wrote that he seriously believed the practice a delusion of the Devil. In a second edition he answered a letter in the Courant, asking whether the writer was Boylston's champion.",
+   "quote": "a Delusion of the Devil",
+   "confidence": "approx",
+   "source_note": "NHC selections (Several Arguments, 2nd ed., 1721); exact publication months not established."
+  },
+  {
+   "date_iso": "1721-10-20",
+   "date_display": "New-England Courant, 2–9 October 1721 (O.S.)",
+   "precision": "day",
+   "eye": "courant",
+   "place": "Boston",
+   "headline": "The house-by-house count",
+   "digest": "On the town's order the Courant printed the results of a count: 2,757 people had had smallpox so far, of whom 203 were buried, listed as 174 whites, 14 Indians and fifteen Africans. The epidemic was then approaching its worst month.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "NHC selections, Courant 2–9 Oct 1721; Wikipedia (2,757 cases, 1,499 recovered, 203 deaths)."
+  },
+  {
+   "date_iso": "1721-10-26",
+   "date_display": "Lord's Day, 15 October 1721 (O.S.)",
+   "precision": "day",
+   "eye": "sewall",
+   "place": "Boston",
+   "headline": "Church shortened for the funerals",
+   "digest": "At noon notice was given that the congregation would return at half past one, to leave time for the many funerals. Sewall went to the funeral of Mr Colson's daughter.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sewall's diary, 15 Oct 1721, as quoted by New England Historical Society."
+  },
+  {
+   "date_iso": "1721-10-29",
+   "date_display": "18 October 1721 (O.S.)",
+   "precision": "day",
+   "eye": "sewall",
+   "place": "Boston",
+   "headline": "'Madam Checkley dyes of the Small Pox'",
+   "digest": "Sewall noted the death of Madam Checkley from smallpox, among a run of deaths of neighbours and acquaintances that week. Two days later he would walk at her funeral.",
+   "quote": "Madam Checkley dyes of the Small Pox",
+   "confidence": "verified",
+   "source_note": "Sewall's diary, 18 Oct 1721 (NEHS)."
+  },
+  {
+   "date_iso": "1721-10-31",
+   "date_display": "20 October 1721 (O.S.)",
+   "precision": "day",
+   "eye": "sewall",
+   "place": "Boston",
+   "headline": "Five funerals in one day",
+   "digest": "Sewall attended five funerals, including those of Elizabeth Vivien and Mrs Checkley, acting as a bearer. Several daughters of different families were buried at the same hour. October 1721 was the deadliest month of the epidemic.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Sewall's diary, 20 Oct 1721 (NEHS)."
+  },
+  {
+   "date_iso": "1721-11-06",
+   "date_display": "Thanksgiving, 26 October 1721 (O.S.)",
+   "precision": "day",
+   "eye": "sewall",
+   "place": "Boston",
+   "headline": "One sermon instead of two",
+   "digest": "On the Thanksgiving day most congregations held only one service because of the distress of the smallpox. Sewall objected that so great an alteration should not have been made without the knowledge of the Council and the justices.",
+   "quote": "I think so great an Alteration should not have been made",
+   "confidence": "verified",
+   "source_note": "Sewall's diary, 26 Oct 1721 (NEHS)."
+  },
+  {
+   "date_iso": "1721-11-10",
+   "date_display": "Boston Gazette, 23–30 October 1721 (O.S.)",
+   "precision": "day",
+   "eye": "mather",
+   "place": "Boston",
+   "headline": "'Not so much as One miscarried'",
+   "digest": "A letter probably by Mather reported that more than sixty people had undergone inoculation in the past four months and that not one had died. He set this beside the burials in the town. The claim would not hold for long: deaths after inoculation were recorded later in the epidemic.",
+   "quote": "there has Not so much as One miscarried",
+   "confidence": "verified",
+   "source_note": "NHC selections, Boston Gazette 23–30 Oct 1721 (attributed to Mather as probable author)."
+  },
+  {
+   "date_iso": "1721-11-25",
+   "date_display": "Tuesday 14 November 1721 (O.S.)",
+   "precision": "day",
+   "eye": "mather",
+   "place": "Mather's house, Boston",
+   "headline": "A bomb through the window",
+   "digest": "At about three in the morning someone threw a lit grenade into the room where Mather's kinsman, the minister of Roxbury, lay recovering from inoculation. The fuse was knocked loose as it came through the window and it did not explode. Tied to it was a note cursing Mather. He wrote that the angel of God had stood by him that night.",
+   "quote": "COTTON MATHER, You Dog, Dam you: I'l inoculate you with this",
+   "confidence": "verified",
+   "source_note": "Diary of Cotton Mather, 14 Nov 1721 (as quoted by The Diary Review and JSTOR Daily)."
+  },
+  {
+   "date_iso": "1721-12-01",
+   "date_display": "New-England Courant, 13–20 November 1721 (O.S.)",
+   "precision": "day",
+   "eye": "courant",
+   "place": "Queen Street, Boston",
+   "headline": "Both sides in one issue",
+   "digest": "The week after the bomb, the Courant printed an anti-inoculation essay by 'Hortensius' and an unsigned letter for inoculation which said hundreds of lives had been lost because people refused it. The paper was still taking attacks on its own conduct.",
+   "quote": "Hundreds of Lives are lost, I say, Lost!",
+   "confidence": "verified",
+   "source_note": "NHC selections, Courant 13–20 Nov 1721."
+  },
+  {
+   "date_iso": "1721-12-10",
+   "date_display": "29 November 1721 (O.S.)",
+   "precision": "day",
+   "eye": "boylston",
+   "place": "A house in Boston",
+   "headline": "A crowded sickroom: the Dorr family",
+   "digest": "Boylston inoculated a father and three children, aged about nine, seven and eighteen months, in a house where others already lay sick. He described the room full of patients in his book. It shows how far into the epidemic he went on working.",
+   "quote": "Here was a melancholy Sight indeed!",
+   "confidence": "verified",
+   "source_note": "Boylston, Historical Account (1726), pp. 28–30, as quoted by todayinsci.com."
+  },
+  {
+   "date_iso": "1721-12-15",
+   "date_display": "New-England Courant, 27 Nov – 4 Dec 1721 (O.S.)",
+   "precision": "day",
+   "eye": "courant",
+   "place": "Queen Street, Boston",
+   "headline": "James Franklin: 'never design'd for a Party Paper'",
+   "digest": "Answering charges that his paper was a mouthpiece for one side, James Franklin wrote that the Courant was never designed as a party paper. He promised to print letters for inoculation as well as against.",
+   "quote": "The Courant was never design'd for a Party Paper",
+   "confidence": "verified",
+   "source_note": "NHC selections, Courant 27 Nov–4 Dec 1721."
+  },
+  {
+   "date_iso": "1722-02",
+   "date_display": "February 1721/22 (O.S.)",
+   "precision": "month",
+   "eye": "maitland",
+   "place": "London",
+   "headline": "Maitland publishes his account",
+   "digest": "Maitland's account of the Newgate trial and his earlier cases appeared in print. He then carried out two further trials on parish orphans, orphans in the care of the parish, to show the method safe for the young before the royal children were risked.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "A. W. Boylston, JRSM 2010 (published February 1722; two further trials on parish orphans)."
+  },
+  {
+   "date_iso": "1722-02-26",
+   "date_display": "15 February 1721/22 (O.S.)",
+   "precision": "day",
+   "eye": "douglass",
+   "place": "Boston",
+   "headline": "The Abuses and Scandals: a pamphlet against the ministers",
+   "digest": "Douglass's long letter, printed by James Franklin, charged that inoculation had spread infection: about 760 people had been buried in the three months it was most practised, and October's burials alone exceeded all the smallpox deaths of 1702. He said the practitioners had opposed it unanimously and that ministers should not meddle in physic. He reckoned two or three hundred had been inoculated.",
+   "quote": "detestable Wickedness of spreading Infection",
+   "confidence": "verified",
+   "source_note": "Douglass, The Abuses and Scandals of some late Pamphlets (Boston: J. Franklin, 1722), NLM OCR text; letter dated 15 Feb 1721/22."
+  },
+  {
+   "date_iso": "1722-04-28",
+   "date_display": "17 April 1722 (O.S.)",
+   "precision": "day",
+   "eye": "maitland",
+   "place": "St James's, London",
+   "headline": "Two princesses inoculated",
+   "digest": "After the prisoner and orphan trials, Caroline, Princess of Wales, had her daughters Amelia and Caroline inoculated. They suffered no ill effects. Royal example did more than any argument to make the practice fashionable in England.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "History of Parliament (17 April 1722); JRSM 2010. Maitland's role as operator from standard accounts."
+  },
+  {
+   "date_iso": "1722",
+   "date_display": "1722 (published in Philosophical Transactions)",
+   "precision": "year",
+   "eye": "jurin",
+   "place": "London (from Halifax, Yorkshire)",
+   "headline": "Nettleton's numbers reach the Royal Society",
+   "digest": "Jurin received from Thomas Nettleton, a physician in Halifax, figures showing that of 1,245 people with natural smallpox, 270 had died, nearly 22 in every hundred, while none of 55 he had inoculated died. Later Nettleton reported 636 deaths in 3,405 natural cases and none in 60 inoculated. This was the kind of evidence Jurin set out to gather.",
+   "quote": "nearly 22 out of every hundred",
+   "confidence": "approx",
+   "source_note": "A. W. Boylston, JRSM 2010 (Nettleton to Jurin, Phil Trans 1722). Month of receipt not established."
+  },
+  {
+   "date_iso": "1723-01-28",
+   "date_display": "17 January 1722/23 (O.S.)",
+   "precision": "day",
+   "eye": "jurin",
+   "place": "Royal Society, London",
+   "headline": "Counting the risk",
+   "digest": "Jurin's paper, read to the Royal Society, compared 2,351 deaths among 14,559 cases of natural smallpox (about 16 per cent) with 9 deaths among 440 people inoculated (about 2 per cent). He counted every death after inoculation against it, whatever the attending physicians thought the cause. He warned that a firm judgement needed more time and many more cases.",
+   "quote": "much greater Number of Experiments than have yet been made",
+   "confidence": "verified",
+   "source_note": "A. W. Boylston, JRSM 2010; printed as A Letter to the learned Dr. Caleb Cotesworth (1723)."
+  },
+  {
+   "date_iso": "1724",
+   "date_display": "1724",
+   "precision": "year",
+   "eye": "boylston",
+   "place": "London",
+   "headline": "To London with a letter for Jurin",
+   "digest": "Boylston sailed for England carrying Mather's letter of introduction to Jurin. In London he wrote up his Boston cases at the Royal Society's encouragement, and in 1726 he was elected a Fellow.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Wikipedia 'Zabdiel Boylston' (1724 trip; letter from Mather to Jurin; FRS two years later)."
+  },
+  {
+   "date_iso": "1726",
+   "date_display": "1726 (London: S. Chandler)",
+   "precision": "year",
+   "eye": "boylston",
+   "place": "London",
+   "headline": "The Historical Account and its table",
+   "digest": "Boylston's book listed his cases in order and compared outcomes. Of 282 people inoculated in and around Boston, 6 died, about 1 in 47; of 5,759 who caught smallpox naturally, 844 died, about 1 in 7.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Boylston (1726) table as reproduced by the James Lind Library; ratios computed from those figures."
+  },
+  {
+   "date_iso": "1726-07",
+   "date_display": "July 1726",
+   "precision": "month",
+   "eye": "jurin",
+   "place": "Royal Society, London",
+   "headline": "England's cumulative figures, with Newton in the chair",
+   "digest": "Jurin's accumulated English figures, presented to the Royal Society at a meeting chaired by Sir Isaac Newton, counted 13 deaths among 624 inoculated against 2,848 deaths among 22,151 natural cases. Boylston's Boston data were set beside them.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "James Lind Library (Jurin 1726; meeting July 1726, Newton presiding)."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1716-07-23",
+   "date_display": "12 July 1716 (O.S.), as usually cited",
+   "eye": "mather",
+   "claim": "A servant from Africa (Onesimus) described inoculation as practised there and showed its scar; Mather proposed trying it if smallpox returned",
+   "form": "letter",
+   "evidence": "Mather to the Royal Society (John Woodward), 1716; Paul Revere House",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1717-04-12",
+   "date_display": "1 April 1717 (O.S.)",
+   "eye": "montagu",
+   "claim": "In Turkey, engrafting gave children a mild smallpox and lasting protection; she resolved to try it on her son",
+   "form": "letter",
+   "evidence": "Letters (1763), Letter XXXI to Mrs S. C.",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1721-07-07",
+   "date_display": "26 June 1721 (O.S.)",
+   "eye": "boylston",
+   "claim": "Three inoculated (Thomas, 6; Jack, 36; Jackey, about 2½); fever about day 6, about 100 pocks each by day 9; all recovered",
+   "form": "case note",
+   "evidence": "Boylston, Historical Account (1726), via Mass Moments",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1721-08-01",
+   "date_display": "21 July 1721 (O.S.)",
+   "eye": "boylston",
+   "claim": "Selectmen and justices order Boylston to stop inoculating; he resumes within days",
+   "form": "decree",
+   "evidence": "Kass 2012 via JSTOR Daily; Massachusetts State House",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1721-08-20",
+   "date_display": "9 August 1721 (O.S.)",
+   "eye": "maitland",
+   "claim": "Six condemned prisoners inoculated at Newgate for a pardon: five had mild smallpox, one no pustules (had had smallpox before); all six survived",
+   "form": "trial result",
+   "evidence": "Maitland to Sloane, 8 Aug 1721 (Sloane MS 4076 f. 96); JRSM 2010",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1721-10-20",
+   "date_display": "Courant, 2–9 October 1721 (O.S.)",
+   "eye": "courant",
+   "claim": "Town count: 2,757 smallpox cases so far, 203 buried (174 whites, 14 Indians, 15 Africans)",
+   "form": "newspaper",
+   "evidence": "New-England Courant, NHC selections",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1721-10",
+   "date_display": "October 1721",
+   "eye": "douglass",
+   "claim": "Burials in October exceeded 400 (often given as 411), the epidemic's peak; Douglass blamed inoculation for spreading infection",
+   "form": "bill of mortality",
+   "evidence": "Douglass, Abuses and Scandals (1722); Wikipedia (411); American Heritage (26 Aug, 101 Sept, over 400 Oct)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1721-11-10",
+   "date_display": "Gazette, 23–30 October 1721 (O.S.)",
+   "eye": "mather",
+   "claim": "More than 60 inoculated in four months, not one died (probably Mather's letter)",
+   "form": "newspaper",
+   "evidence": "Boston Gazette, NHC selections",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1722-02-26",
+   "date_display": "15 February 1721/22 (O.S.)",
+   "eye": "douglass",
+   "claim": "About 760 buried in the three months inoculation was most practised; two or three hundred inoculated; practice called a spreading of infection",
+   "form": "report",
+   "evidence": "Douglass, The Abuses and Scandals (Boston 1722), NLM",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1722-04-28",
+   "date_display": "17 April 1722 (O.S.)",
+   "eye": "maitland",
+   "claim": "Princesses Amelia and Caroline inoculated after prisoner and orphan trials; no ill effects",
+   "form": "other",
+   "evidence": "History of Parliament; JRSM 2010",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1722",
+   "date_display": "1722",
+   "eye": "jurin",
+   "claim": "Nettleton (Halifax): 270 of 1,245 natural cases died (nearly 22%); 0 of 55 inoculated died",
+   "form": "letter",
+   "evidence": "Phil Trans 1722, as summarised in JRSM 2010",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1723-01-28",
+   "date_display": "17 January 1722/23 (O.S.)",
+   "eye": "jurin",
+   "claim": "Natural smallpox: 2,351 deaths in 14,559 cases (16%); inoculated: 9 deaths in 440 (2%)",
+   "form": "report",
+   "evidence": "Jurin, Letter to Caleb Cotesworth (1723); JRSM 2010",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1726",
+   "date_display": "1726",
+   "eye": "boylston",
+   "claim": "Boston: 6 deaths in 282 inoculated (about 1 in 47) against 844 deaths in 5,759 natural cases (about 1 in 7)",
+   "form": "report",
+   "evidence": "Boylston, Historical Account (1726), table via James Lind Library",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1726-07",
+   "date_display": "July 1726",
+   "eye": "jurin",
+   "claim": "England cumulative: 13 deaths in 624 inoculated against 2,848 in 22,151 natural cases",
+   "form": "report",
+   "evidence": "Jurin 1726, via James Lind Library",
+   "confidence": "approx"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1716-07-23",
+   "label": "Two routes to the same knowledge: Africa via Onesimus, Turkey via the embassy",
+   "eyes": [
+    "mather",
+    "onesimus",
+    "montagu"
+   ],
+   "note": "Within nine months, Mather in Boston reported an African man's account and Lady Mary in Adrianople described Turkish engrafting. One source was enslaved and left no words; the other was an ambassador's wife whose letters were printed. Both proposed bringing the practice home."
+  },
+  {
+   "date": "1721-07-07",
+   "label": "The first Boston inoculations",
+   "eyes": [
+    "boylston",
+    "jack",
+    "mather"
+   ],
+   "note": "Boylston tested the method on his own son and on two people he enslaved, at Mather's urging. Boylston's notes record fevers and pocks; Jack and Jackey's own experience is not recorded."
+  },
+  {
+   "date": "1721-08-04",
+   "label": "The paper war opens",
+   "eyes": [
+    "douglass",
+    "boylston",
+    "colman",
+    "mather"
+   ],
+   "note": "Within a fortnight, Douglass attacked inoculation in the News-Letter, the town ordered Boylston to stop, and six ministers defended him in the Gazette. Medicine and divinity lined up on opposite sides, with the physician arguing caution and the ministers arguing Providence."
+  },
+  {
+   "date": "1721-08-20",
+   "label": "One week, two cities: the Courant begins and Newgate is tried",
+   "eyes": [
+    "courant",
+    "maitland",
+    "newgate",
+    "sloane"
+   ],
+   "note": "As the Courant opened in Boston (18 August N.S.), Maitland inoculated six condemned prisoners in London before the medical establishment. London tested the method on people who could be offered their lives; Boston argued it out in print."
+  },
+  {
+   "date": "1721-09-01",
+   "label": "The Courant issue of 21 August (O.S.)",
+   "eyes": [
+    "douglass",
+    "courant"
+   ],
+   "note": "Douglass's unsigned letter and the anti-inoculators' notice appeared together, and Mather's diary soon called the town a hell upon earth. Opposition now had its own newspaper."
+  },
+  {
+   "date": "1721-10-29",
+   "label": "The deadliest weeks",
+   "eyes": [
+    "sewall",
+    "courant",
+    "mather"
+   ],
+   "note": "The Courant printed the town count while Sewall walked at funeral after funeral and Mather claimed in the Gazette that no inoculated patient had died. A judge's list of burials stands beside a minister's statistics and a newspaper's census."
+  },
+  {
+   "date": "1721-11-25",
+   "label": "The bomb and its aftermath",
+   "eyes": [
+    "mather",
+    "courant",
+    "williams"
+   ],
+   "note": "A grenade with a note cursing Mather was thrown into his house; the next Courant printed both a hostile essay and a letter blaming refusers for lost lives. Williams's religious objection and Mather's sense of persecution were at their sharpest."
+  },
+  {
+   "date": "1723-01-28",
+   "label": "From testimony to numbers",
+   "eyes": [
+    "jurin",
+    "boylston",
+    "douglass"
+   ],
+   "note": "Jurin's London figures, Boylston's Boston table and Douglass's burial counts used numbers for different ends: to measure risk, to show safety, and to show spread. The later argument over inoculation turned on which numbers counted."
+  }
+ ],
+ "ties": [
+  {
+   "a": "mather",
+   "b": "onesimus",
+   "kind": "met",
+   "note": "Mather enslaved Onesimus from about 1706 and learned of African inoculation from him; everything known of Onesimus is in Mather's writings."
+  },
+  {
+   "a": "mather",
+   "b": "boylston",
+   "kind": "influenced",
+   "note": "Mather urged Boylston to inoculate and later gave him a letter of introduction to Jurin in London."
+  },
+  {
+   "a": "boylston",
+   "b": "jack",
+   "kind": "met",
+   "note": "Boylston enslaved Jack and Jackey and made them two of his first three patients."
+  },
+  {
+   "a": "mather",
+   "b": "douglass",
+   "kind": "opposite sides",
+   "note": "Douglass arrived in Boston with letters of introduction to the Mathers and became the leading opponent of their experiment."
+  },
+  {
+   "a": "douglass",
+   "b": "courant",
+   "kind": "influenced",
+   "note": "Douglass supplied letters to the Courant, and James Franklin printed his 1722 pamphlet."
+  },
+  {
+   "a": "courant",
+   "b": "mather",
+   "kind": "opposite sides",
+   "note": "The Courant mocked the 'Inoculation Ministers'; Mather's nephew Thomas Walter attacked the paper in the News-Letter."
+  },
+  {
+   "a": "colman",
+   "b": "mather",
+   "kind": "met",
+   "note": "Colman and both Mathers co-signed the ministers' letter of July 1721 in defence of Boylston."
+  },
+  {
+   "a": "williams",
+   "b": "mather",
+   "kind": "opposite sides",
+   "note": "Williams's religious arguments were aimed at the ministers who backed inoculation, Mather above all."
+  },
+  {
+   "a": "sewall",
+   "b": "mather",
+   "kind": "same street",
+   "note": "Judge and minister were long acquaintances in the same small town; Sewall's diary records the funerals while Mather's records the controversy."
+  },
+  {
+   "a": "montagu",
+   "b": "maitland",
+   "kind": "met",
+   "note": "Maitland inoculated Lady Mary's son in Turkey in 1718 and her daughter in London in 1721."
+  },
+  {
+   "a": "maitland",
+   "b": "sloane",
+   "kind": "met",
+   "note": "Maitland invited Sloane to witness the Newgate trial the night before it took place."
+  },
+  {
+   "a": "maitland",
+   "b": "newgate",
+   "kind": "met",
+   "note": "Maitland inoculated the six condemned prisoners at Newgate on 9 August 1721 (O.S.)."
+  },
+  {
+   "a": "jurin",
+   "b": "boylston",
+   "kind": "read each other",
+   "note": "Boylston brought Mather's introduction to Jurin in 1724, and his Boston figures entered Jurin's comparisons."
+  },
+  {
+   "a": "mather",
+   "b": "montagu",
+   "kind": "mentioned",
+   "note": "Both were drawing on the same Ottoman practice reported to the Royal Society by Timoni and Pylarini; Mather knew it from the Transactions, Lady Mary at first hand."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "tenochtitlan-1520",
+   "note": "The same disease. Smallpox that killed so many in Tenochtitlan in 1520 had become, two centuries later, an epidemic that Boston and London tried to prevent by deliberate infection."
+  },
+  {
+   "to": "balmis-1803",
+   "note": "Inoculation with smallpox matter (variolation), tested in 1721 on prisoners and parish orphans, was replaced after 1796 by Jenner's cowpox vaccine, which the Balmis expedition carried across the Spanish empire in a chain of orphan boys."
+  },
+  {
+   "to": "v1:london-1666",
+   "note": "Jurin's comparisons rested on the London Bills of Mortality, the same weekly parish returns that Londoners read through the plague of 1665."
+  },
+  {
+   "to": "v6:philadelphia-1787",
+   "note": "Benjamin Franklin, apprentice at the Courant during the 1721 controversy, sat in the Constitutional Convention of 1787. His Autobiography recalls the Courant and regrets that he did not have his son inoculated before smallpox killed the boy in 1736."
+  },
+  {
+   "to": "broad-street-1854",
+   "note": "Jurin's practice of counting deaths in two groups and comparing rates is an early form of the numerical method that William Farr and John Snow used in London's cholera epidemics."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://curiosity.lib.harvard.edu/contagion/catalog/36-990023289740203941",
+   "title": "Some Account of What is said of Inoculating or Transplanting the Small Pox (Boston, 1721)",
+   "caption": "Digitised copy of Mather's 1721 pamphlet, which printed the testimony of Onesimus and other Africans in Boston. Houghton Library's copy carries a contemporary annotation naming Cotton Mather as the author.",
+   "date": "1721",
+   "credit": "Houghton Library, Harvard University"
+  },
+  {
+   "url": "https://sites.harvard.edu/houghton-library/files/2020/06/Document2-1024x298.jpg",
+   "title": "Marginal note by an inoculated reader",
+   "caption": "Detail of a handwritten note in Houghton's copy of the 1721 pamphlet, by a reader who said he had been inoculated five times, three of them needlessly. The writer and date of the note are not established.",
+   "date": "18th century (undated)",
+   "credit": "Houghton Library, Harvard University"
+  },
+  {
+   "url": "https://wellcomecollection.org/works/gzx6c5qv",
+   "title": "Boylston, An Historical Account of the Small-Pox Inoculated in New England (London, 1726)",
+   "caption": "Digitised first edition of Boylston's case-by-case account, with his comparison of deaths after inoculation and after natural smallpox.",
+   "date": "1726",
+   "credit": "Wellcome Collection"
+  },
+  {
+   "url": "https://digirepo.nlm.nih.gov/catalog/nlm:nlmuid-2552019R-bk",
+   "title": "Douglass, The Abuses and Scandals of some late Pamphlets in Favour of Inoculation (Boston, 1722)",
+   "caption": "Digitised copy of Douglass's pamphlet, printed by James Franklin, arguing that inoculation spread infection through the town.",
+   "date": "1722",
+   "credit": "National Library of Medicine"
+  },
+  {
+   "url": "https://digirepo.nlm.nih.gov/catalog/nlm:nlmuid-2552020R-bk",
+   "title": "Douglass, Inoculation of the Small Pox as practised in Boston (1722)",
+   "caption": "Digitised copy of Douglass's letter to Alexander Stuart, FRS, in London, carrying the Boston opposition's case to the Royal Society's circle.",
+   "date": "1722",
+   "credit": "National Library of Medicine"
+  }
+ ],
+ "further": [
+  {
+   "title": "National Humanities Center: The Paper War over Smallpox Inoculation in Boston, 1721 (selections)",
+   "url": "https://nationalhumanitiescenter.org/pds/becomingamer/ideas/text7/smallpoxinoculation.pdf"
+  },
+  {
+   "title": "James Lind Library: Zabdiel Boylston's evaluation of inoculation against smallpox",
+   "url": "https://www.jameslindlibrary.org/articles/zabdiel-boylstons-evaluation-of-inoculation-against-smallpox/"
+  },
+  {
+   "title": "A. W. Boylston, 'Thomas Nettleton and the dawn of quantitative assessments...', JRSM 2010",
+   "url": "https://www.jameslindlibrary.org/wp-data/uploads/2016/08/J-R-Soc-Med-2010-08-Boylston-335-9.pdf"
+  },
+  {
+   "title": "Houghton Library: Three Bostonians and the Smallpox Epidemic of 1721",
+   "url": "https://sites.harvard.edu/houghton-library/2020/06/04/three-bostonians-and-the-smallpox-epidemic-of-1721"
+  },
+  {
+   "title": "Paul Revere House: Onesimus Mather and the Origins of Inoculation in Boston",
+   "url": "https://www.paulreverehouse.org/onesimus-mather-and-the-origins-of-inoculation-in-boston/"
+  },
+  {
+   "title": "Diary of Cotton Mather, vol. 2 (1709–1724), Internet Archive",
+   "url": "https://archive.org/details/diarycotton02math"
+  },
+  {
+   "title": "Lady Mary Wortley Montagu, Letters (1790 ed.), Project Gutenberg",
+   "url": "https://gutenberg.org/cache/epub/17520/pg17520-images.html"
+  },
+  {
+   "title": "J. L. Carrell, New Light on the Newgate Six",
+   "url": "https://jenniferleecarrell.com/new-evidence"
+  }
+ ],
+ "vantage_key": "0 = principals and the people inoculated in Boston or London; 1 = eyewitnesses to the trials or the opposition at close quarters; 2 = in the same city following the dispute in print or at the funerals; 3 = elsewhere in the same country; 4 = abroad, news only."
+}

@@ -1,0 +1,1208 @@
+{
+ "id": "tenochtitlan-1520",
+ "title": "The Great Rash: Smallpox in the Valley of Mexico",
+ "short_title": "Smallpox in Mexico, 1520–21",
+ "subtitle": "The smallpox epidemic from Cempoala to Tenochtitlan, 1520–1521, in Nahua annals and Spanish letters",
+ "span": "1520–1585",
+ "intro": [
+  "In the spring of 1520 a fleet under Pánfilo de Narváez reached the Gulf coast of Mexico, sent from Cuba to arrest Hernán Cortés. Spanish chroniclers later said that a man aboard one of those ships was ill with smallpox, and that the disease, never seen before on the mainland, began at Cempoala and travelled inland. By the late summer and autumn of 1520, after the Spaniards had been driven out of Tenochtitlan, it reached the Mexica capital and its neighbours. Among those it killed were Cuitláhuac, the ruler who had led the expulsion, and the Tlaxcalan lord Maxixcatzin, Cortés's ally. When the Spaniards and their Indigenous allies besieged the island city in 1521, they fought a population that had just lived through a great epidemic.",
+  "Almost nothing here is a diary. The honest record is made of letters written for a king, Nahuatl annals kept by year, encyclopaedic histories compiled from the testimony of elders, and Spanish chronicles written decades later by men who had been there and by men who had not. The Nahua accounts that survive were written down after the conquest, in the Latin alphabet, often under Franciscan direction; the Spanish accounts were written to win favour, defend reputations or argue a theology. Each eye is labelled with its form and its distance in time from the events.",
+  "Laid side by side, they show a striking split. The Nahua annals and Sahagún's informants put the sickness at the centre of 1520: its months, its sixty days, the people who could not move, the hunger in households where everyone lay ill, the faces left pitted, the ruler who died. Cortés, writing to Charles V on 30 October 1520 while the epidemic was at its height, says nothing of it; in his next letter, of May 1522, it occupies a few lines. The Spanish chroniclers who did tell the story fixed it on a single man, an enslaved African in Narváez's company, whose name later tradition gives as Francisco de Eguía or Baguía. That attribution is secondhand, repeated from writer to writer, and is treated here as a contested story, not a fact.",
+  "How many died is unknowable with precision. Motolinía wrote that in most provinces more than half the people died (in the version printed as his Historia) or that in some provinces half died (in his Memoriales); the conquistador Bernardino Vázquez de Tapia wrote of more than a quarter. Modern scholars have defended estimates across a wide range: some once argued for an attack milder than the chroniclers claimed, while the historical demographer Robert McCaa argued in 1995 that the toll lay somewhere between a tenth and a half of the population, perhaps near the middle. The 1520 epidemic was also the first of several: later witnesses, Sahagún among them, judged the cocoliztli of 1545 and 1576 even deadlier. The numbers below are each witness's own, with whose count it is.",
+  "The mass death of 1520 changed the course of the war, but no account here treats it only as a military fact. The annalists recorded who died, the Franciscans saw grief and divine judgement, the Tlaxcalan historian Muñoz Camargo wrote of fatalism among the sick, and Durán recorded that survivors blamed the Spaniards for bringing it. These pages give those positions as positions, and keep the suffering in plain words."
+ ],
+ "calendar_note": "Spanish dates in this chapter are Julian, as historians of the conquest cite them (Mexico City fell on 13 August 1521 Julian, which is 23 August in the proleptic Gregorian calendar); date_iso uses the Julian date. Nahua sources count by the 365-day xiuhpohualli of eighteen twenty-day 'months' (veintenas) plus five nemontemi days, named by year-bearers: 1 Acatl (1 Reed) is 1519, 2 Tecpatl (2 Flint) is 1520 and 3 Calli (3 House) is 1521, and days within the 260-day tonalpohualli (the city fell on the day 1 Coatl, 1 Serpent). Correlating veintenas with Julian dates is disputed by several weeks among scholars; Sahagún's Spanish gloss puts Tepeilhuitl, when the sickness began, at the end of September, and McCaa places Quecholli, when Cuitláhuac died, in late November or early December 1520. Entries dated only by Nahua month or year are marked approx.",
+ "vantage_key": "0 = struck by or accused over the disease itself; 1 = in the war zone in 1520–21 (later written down); 2 = Nahua communities recording their own losses at a generation's remove; 3 = in New Spain afterwards, reporting from survivors; 4 = in Spain, writing from others' papers.",
+ "eyes": [
+  {
+   "id": "florentine",
+   "short": "Sahagún's elders",
+   "name": "The Tlatelolca elders who informed Sahagún (Florentine Codex, Book XII)",
+   "life": "fl. 1520s–1550s",
+   "role": "Nahua men of Tlatelolco who had lived through the conquest, interviewed in Nahuatl in the 1550s",
+   "side": "Mexica of Tlatelolco",
+   "where": "Tlatelolco and Tenochtitlan, 1520–21; interviewed at Tlatelolco c. 1555",
+   "lat": 19.451,
+   "lon": -99.137,
+   "vantage": 1,
+   "vantage_label": "survivors inside the stricken city, telling it a generation later",
+   "form": "later Nahua account (oral testimony written down c. 1555, revised 1585)",
+   "language": "Nahuatl, with Sahagún's Spanish gloss",
+   "authenticity": "Book XII of the Historia general (the Florentine Codex, Biblioteca Medicea Laurenziana, finished c. 1577–79) gives the Nahuatl account in one column and a Spanish version, not a literal translation, in the other. The informants are unnamed. Modern English translations (Anderson and Dibble; Lockhart) are recent, so only digests appear here.",
+   "bio": "These anonymous elders, probably from Tlatelolco's merchant and warrior families, gave the fullest Nahua description of the 1520 epidemic: when it began, how long it lasted, what it did to the body and to households. Their account is a later Nahua testimony, shaped by Franciscan questions, but in their own language. Chapter 29 of Book XII is the single most cited Indigenous record of the epidemic.",
+   "sources": [
+    {
+     "title": "Florentine Codex Book 12, ch. 29: Nahuatl, Spanish and Lockhart's English (Early Nahuatl Library)",
+     "url": "https://enl.wired-humanities.org/FCBk12Ch29"
+    }
+   ]
+  },
+  {
+   "id": "sahagun",
+   "short": "Sahagún",
+   "name": "Fray Bernardino de Sahagún",
+   "life": "c. 1499–1590",
+   "role": "Franciscan friar and ethnographer, in New Spain from 1529; teacher at the Colegio de Santa Cruz de Tlatelolco",
+   "side": "Spanish Franciscan",
+   "where": "Tlatelolco, Mexico City",
+   "lat": 19.451,
+   "lon": -99.137,
+   "vantage": 3,
+   "vantage_label": "compiler, arrived nine years after",
+   "form": "encyclopaedic history and later revision",
+   "language": "Spanish and Nahuatl",
+   "authenticity": "Directed the compilation of the Nahuatl Book XII c. 1555; added a Spanish gloss before 1586 and wrote a revised conquest account in 1585, which survives in a later copy. His 1576 note on epidemics appears in the Historia general.",
+   "bio": "Sahagún did not see the 1520 epidemic but lived through those of 1545 and 1576 and gathered the testimony of those who had. His comments set the first epidemic against the later ones, which he judged worse. His 1585 revision of the conquest book reworded the Nahua account in a more pro-Spanish frame.",
+   "sources": [
+    {
+     "title": "McCaa 1995, 'Spanish and Nahuatl Views on Smallpox' (section on Sahagún)",
+     "url": "https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm"
+    }
+   ]
+  },
+  {
+   "id": "tlatelolco",
+   "short": "Tlat. Annals",
+   "name": "The anonymous annalists of Tlatelolco (Annals of Tlatelolco)",
+   "life": "fl. mid-16th century",
+   "role": "Unnamed Nahua scribes of Tlatelolco",
+   "side": "Mexica of Tlatelolco",
+   "where": "Tlatelolco",
+   "lat": 19.451,
+   "lon": -99.137,
+   "vantage": 2,
+   "vantage_label": "Tlatelolca annalists writing within a generation",
+   "form": "annals (later Nahua account; dating debated)",
+   "language": "Nahuatl",
+   "authenticity": "Two manuscripts survive in the Bibliothèque nationale de France (Fonds Mexicain 22 and 22bis). Lockhart dated MS 22 to about 1560 and 22bis to the mid-seventeenth century; an older view held they copy a lost text of 1528. McCaa cites one copy as of the 1540s. The date is a matter of scholarly position, not settled fact.",
+   "bio": "The Annals of Tlatelolco give the conquest from the side of Tlatelolco, Tenochtitlan's twin city, where the last resistance held out. Of roughly four thousand words on the conquest, the epidemic receives about two lines, a sign that for these writers the war, not the sickness, was the story. Their account of hunger in the siege is among the most quoted Nahua texts.",
+   "sources": [
+    {
+     "title": "Anales de Tlatelolco, USC Scalar project page",
+     "url": "https://scalar.usc.edu/works/space-place-mapping/anales-de-tlatelolco"
+    }
+   ]
+  },
+  {
+   "id": "aubin",
+   "short": "Codex Aubin",
+   "name": "The scribes of the Codex Aubin (Annals of Tenochtitlan)",
+   "life": "fl. 1576–1608",
+   "role": "Several Nahuatl-writing annalists of Mexico City",
+   "side": "Mexica of Tenochtitlan",
+   "where": "Mexico City (former Tenochtitlan)",
+   "lat": 19.435,
+   "lon": -99.133,
+   "vantage": 2,
+   "vantage_label": "Tenochca year-count, written two generations later",
+   "form": "pictorial and alphabetic annals (later Nahua account)",
+   "language": "Nahuatl, with glyphs",
+   "authenticity": "British Museum; frontispiece dated 1576, latest entries 1607–08; covers 1168–1607. Its 1520 entry pairs a glyph of a shrouded body surrounded by small circles, read since Orozco y Berra as the sign of smallpox, with a Nahuatl note on Cuitláhuac.",
+   "bio": "The Codex Aubin keeps the Tenochca habit of recording each year by its sign and its notable events. For 2 Flint it gives the length of Cuitláhuac's reign and the month and cause of his death, the most precise Nahua dating of that event. It is late, compiled from earlier year-counts.",
+   "sources": [
+    {
+     "title": "Aubin Codex (overview)",
+     "url": "https://en.wikipedia.org/wiki/Aubin_Codex"
+    },
+    {
+     "title": "McCaa 1995 on the Codex Aubin entry",
+     "url": "https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm"
+    }
+   ]
+  },
+  {
+   "id": "chimalpahin",
+   "short": "Chimalpahin",
+   "name": "Domingo Francisco de San Antón Muñón Chimalpahin Quauhtlehuanitzin",
+   "life": "1579–1660",
+   "role": "Nahua historian from Amaquemecan (Chalco), working at the church of San Antonio Abad, Mexico City",
+   "side": "Chalca nobility",
+   "where": "Mexico City, writing of Chalco",
+   "lat": 19.42,
+   "lon": -99.13,
+   "waypoints": [
+    {
+     "lat": 19.124,
+     "lon": -98.766,
+     "label": "Amaquemecan, home altepetl"
+    },
+    {
+     "lat": 19.42,
+     "lon": -99.13,
+     "label": "San Antonio Abad, Mexico City"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "Chalca annalist, born sixty years later",
+   "form": "annals (later Nahua account)",
+   "language": "Nahuatl",
+   "authenticity": "His 'Relaciones' were written in the early seventeenth century from older Chalca records and informants. The Seventh Relation's entry for 2 Flint 1520 is cited by McCaa.",
+   "bio": "Chimalpahin wrote the history of the Chalco region, south-east of the lake, and recorded which of its lords died in 1520. His annals show the epidemic as a loss of rulers and lineages, named one by one. He also made an annotated copy of Gómara's conquest history.",
+   "sources": [
+    {
+     "title": "McCaa 1995 (section on Chimalpahin)",
+     "url": "https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm"
+    }
+   ]
+  },
+  {
+   "id": "cortes",
+   "short": "Cortés",
+   "name": "Hernán Cortés",
+   "life": "1485–1547",
+   "role": "Captain-general of the Spanish expedition, aged about 35",
+   "side": "Spanish, with Tlaxcalan and other Indigenous allies",
+   "where": "Cempoala, Tenochtitlan, Tlaxcala, Segura de la Frontera, Coyoacán",
+   "lat": 19.317,
+   "lon": -98.238,
+   "waypoints": [
+    {
+     "lat": 19.441,
+     "lon": -96.408,
+     "label": "Cempoala, May 1520"
+    },
+    {
+     "lat": 19.435,
+     "lon": -99.133,
+     "label": "Tenochtitlan, June 1520"
+    },
+    {
+     "lat": 19.317,
+     "lon": -98.238,
+     "label": "Tlaxcala, July and Dec 1520"
+    },
+    {
+     "lat": 18.966,
+     "lon": -97.9,
+     "label": "Segura de la Frontera, Oct 1520"
+    },
+    {
+     "lat": 19.514,
+     "lon": -98.882,
+     "label": "Texcoco, 1521"
+    },
+    {
+     "lat": 19.35,
+     "lon": -99.162,
+     "label": "Coyoacán, May 1522"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "commander, writing to the emperor",
+   "form": "dated letters (cartas de relación)",
+   "language": "Spanish",
+   "authenticity": "The second letter is dated Segura de la Frontera, 30 October 1520, printed Seville 1522; the third is dated Coyoacán, 15 May 1522, printed 1523. Both are self-justifying reports. English translations by Folsom (1843) and MacNutt (1908) are public domain.",
+   "bio": "Cortés's letters are the only contemporary, dated narrative from the Spanish side. Their near-silence on smallpox is itself evidence: the second letter, written while the epidemic was at its height, does not mention it, and the third gives it a few lines.",
+   "sources": [
+    {
+     "title": "MacNutt (1908), Five Letters of Relation, vol. I (text)",
+     "url": "https://distantreader.org/stacks/trust/uc2/uc2_ark+=13960=t9086fc9z.txt"
+    },
+    {
+     "title": "Second letter, excerpt (Fordham Modern History Sourcebook)",
+     "url": "https://sourcebooks.web.fordham.edu/mod/1520cortes.asp"
+    }
+   ]
+  },
+  {
+   "id": "diaz",
+   "short": "Bernal Díaz",
+   "name": "Bernal Díaz del Castillo",
+   "life": "c. 1496–1584",
+   "role": "Foot soldier with Cortés, in his twenties; later encomendero in Guatemala",
+   "side": "Spanish",
+   "where": "With Cortés throughout 1520–21; wrote in Santiago de Guatemala",
+   "lat": 19.435,
+   "lon": -99.133,
+   "waypoints": [
+    {
+     "lat": 19.441,
+     "lon": -96.408,
+     "label": "Cempoala, May 1520"
+    },
+    {
+     "lat": 19.317,
+     "lon": -98.238,
+     "label": "Tlaxcala, Dec 1520"
+    },
+    {
+     "lat": 19.514,
+     "lon": -98.882,
+     "label": "Texcoco, Jan 1521"
+    },
+    {
+     "lat": 19.435,
+     "lon": -99.133,
+     "label": "Siege, 1521"
+    },
+    {
+     "lat": 14.557,
+     "lon": -90.733,
+     "label": "Santiago de Guatemala, writing 1550s–68"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "soldier in the ranks, writing forty years later",
+   "form": "memoir (written later)",
+   "language": "Spanish",
+   "authenticity": "Written in the 1550s to 1568 and revised afterwards; printed in an altered edition in Madrid in 1632; the Guatemala manuscript was published in 1904. Abridged English translations often omit the smallpox passages; Keatinge (1800) and Maudslay (1908–16) are public domain.",
+   "bio": "Díaz wrote to correct Gómara and to claim credit for the common soldiers. He mentions smallpox five times, more than any other Spanish witness, including the deaths of Maxixcatzin, Cuitláhuac and a lord of Chalco. As a firsthand account written decades later, it mixes vivid memory with hindsight.",
+   "sources": [
+    {
+     "title": "McCaa 1995 (section on Díaz)",
+     "url": "https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm"
+    },
+    {
+     "title": "McCaa, Table 2: smallpox anecdotes in Motolinía, Gómara and Díaz",
+     "url": "https://users.pop.umn.edu/~rmccaa/vircatas/virtab2.htm"
+    }
+   ]
+  },
+  {
+   "id": "vazquez",
+   "short": "Vázquez de Tapia",
+   "name": "Bernardino Vázquez de Tapia",
+   "life": "c. 1490s–1559",
+   "role": "Conquistador with Cortés; later a regidor (councillor) of Mexico City",
+   "side": "Spanish",
+   "where": "Mexico City",
+   "lat": 19.433,
+   "lon": -99.133,
+   "vantage": 1,
+   "vantage_label": "veteran, writing twenty years later",
+   "form": "relación of services (written later)",
+   "language": "Spanish",
+   "authenticity": "His relación de méritos, written in the early 1540s to claim reward, is cited by McCaa for its mortality estimate.",
+   "bio": "Vázquez de Tapia served through the conquest and became a hostile witness against Cortés in the residencia proceedings. His short estimate of the epidemic's toll is one of the few numbers given by a participant.",
+   "sources": [
+    {
+     "title": "McCaa 1995 (cites Vázquez de Tapia's estimate)",
+     "url": "https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm"
+    }
+   ]
+  },
+  {
+   "id": "motolinia",
+   "short": "Motolinía",
+   "name": "Fray Toribio de Benavente, 'Motolinía'",
+   "life": "c. 1482–1569",
+   "role": "Franciscan friar, one of the 'Twelve' who arrived in 1524",
+   "side": "Spanish Franciscan",
+   "where": "Mexico, Tlaxcala, Tehuacán",
+   "lat": 19.317,
+   "lon": -98.238,
+   "vantage": 3,
+   "vantage_label": "friar arriving four years after, recording survivors",
+   "form": "history (secondhand on 1520)",
+   "language": "Spanish",
+   "authenticity": "Two versions: the Historia de los indios de la Nueva España (dedicatory letter 1541, printed 1858) and the Memoriales (printed 1903). McCaa argues the Historia is a mutilated version of the Memoriales; their numbers differ. Foster's English translation (1950; reissued 1973) is modern, so only digests appear.",
+   "bio": "Motolinía framed the epidemic as the first of ten 'plagues' on New Spain, likening them to those of Egypt. He gives the classic description of households struck all at once, bathing as a vain remedy, and the dead left in houses. He is secondhand for 1520 and writes inside a theological scheme, which some historians take as reason for doubt.",
+   "sources": [
+    {
+     "title": "Motolinía, first plague (Virginia Tech DHR module, Foster translation excerpt)",
+     "url": "https://dhr.history.vt.edu/modules/us/mod01_pop/evidence_detail_05.html"
+    }
+   ]
+  },
+  {
+   "id": "gomara",
+   "short": "Gómara",
+   "name": "Francisco López de Gómara",
+   "life": "1511–c. 1566",
+   "role": "Priest and humanist, Cortés's chaplain in Spain; never visited Mexico",
+   "side": "Spanish",
+   "where": "Spain",
+   "lat": 41.652,
+   "lon": -0.881,
+   "vantage": 4,
+   "vantage_label": "in Spain, writing from Cortés's papers",
+   "form": "chronicle (secondhand)",
+   "language": "Spanish",
+   "authenticity": "Historia de la conquista de México, printed Zaragoza 1552. A royal order of 1553 restricted its circulation; it was widely read and translated regardless. He acknowledged a debt to Motolinía.",
+   "bio": "Gómara wrote the first published history of the conquest, from Cortés's papers and conversations. He reports smallpox beginning in one house at Cempoala and Cuitláhuac's death from it, and helped fix the story of the African carrier in print. Díaz wrote his own book largely to answer him.",
+   "sources": [
+    {
+     "title": "McCaa 1995 (section on Gómara)",
+     "url": "https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm"
+    }
+   ]
+  },
+  {
+   "id": "duran",
+   "short": "Durán",
+   "name": "Fray Diego Durán",
+   "life": "c. 1537–1588",
+   "role": "Dominican friar raised in Texcoco and Mexico City",
+   "side": "Spanish Dominican, Nahuatl-speaking",
+   "where": "Mexico City",
+   "lat": 19.433,
+   "lon": -99.133,
+   "vantage": 3,
+   "vantage_label": "friar working from Nahua sources, sixty years after",
+   "form": "history (later, secondhand)",
+   "language": "Spanish",
+   "authenticity": "Historia de las Indias de Nueva España, completed 1581, draws on a lost Nahua chronicle; unpublished until the nineteenth century. Heyden and Horcasitas's English translation (1964) is modern.",
+   "bio": "Durán's history leans on Mexica sources and records their view that the Spaniards brought the sickness. His chronology is confused: he places the epidemic after the fall of the city rather than before it.",
+   "sources": [
+    {
+     "title": "Durán on smallpox (Virginia Tech DHR module)",
+     "url": "https://dhr.history.vt.edu/modules/us/mod01_pop/evidence_detail_06.html"
+    }
+   ]
+  },
+  {
+   "id": "munoz",
+   "short": "Muñoz Camargo",
+   "name": "Diego Muñoz Camargo",
+   "life": "c. 1529–1599",
+   "role": "Mestizo historian and interpreter of Tlaxcala, son of a conquistador and a Nahua mother",
+   "side": "Tlaxcalan (allied with the Spaniards)",
+   "where": "Tlaxcala",
+   "lat": 19.317,
+   "lon": -98.238,
+   "vantage": 3,
+   "vantage_label": "Tlaxcalan historian, sixty years after",
+   "form": "relación geográfica and history (later)",
+   "language": "Spanish",
+   "authenticity": "His description of Tlaxcala for the royal relaciones geográficas was drafted in the 1580s and published in 1981; a Historia de Tlaxcala survives separately.",
+   "bio": "Writing for Tlaxcala, the Spaniards' most important ally, Muñoz Camargo repeats the African-carrier story and ranks 1520 as the worst of three great epidemics because the population was then largest. He attributes some deaths to the sick giving up hope.",
+   "sources": [
+    {
+     "title": "McCaa 1995 (section on Muñoz Camargo)",
+     "url": "https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm"
+    }
+   ]
+  },
+  {
+   "id": "eguia",
+   "short": "Eguía (attrib.)",
+   "name": "The enslaved African man in Narváez's company (named in later tradition Francisco de Eguía or Baguía)",
+   "life": "fl. 1520",
+   "role": "Enslaved African member of Narváez's expedition, said to have been ill with smallpox",
+   "side": "Narváez's expedition (unfree)",
+   "where": "Cempoala, Gulf coast",
+   "lat": 19.441,
+   "lon": -96.408,
+   "vantage": 0,
+   "vantage_label": "the man blamed",
+   "form": "no firsthand record (mentioned by others)",
+   "language": "none surviving",
+   "authenticity": "No surviving firsthand account found. The story that a Black man in Narváez's fleet carried smallpox appears in Motolinía, Gómara, Díaz, Durán, Muñoz Camargo, Ixtlilxóchitl and the Codex Ramírez, but not in Cortés or Sahagún. The personal name appears only in later tellings and its origin is uncertain. Historians such as Rosario Nava Román note that the story also served to stigmatise Africans.",
+   "bio": "Whoever he was, he was unfree, and he is remembered only as the vehicle of a catastrophe. Smallpox had reached Hispaniola in 1518–19, so any member of a Caribbean fleet could have carried it; the single-carrier story is a chroniclers' tradition, not a demonstrated fact. He stands here so that the accusation has a face and a caveat.",
+   "sources": [
+    {
+     "title": "Nava Román, 'Los africanos como “portadores” de la viruela' (Noticonquista)",
+     "url": "https://www.noticonquista.unam.mx/sites/default/files/2020-05/nava_-_los_africanos_-_final.pdf"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1520-04-22",
+   "date_display": "22 April 1520 (Julian)",
+   "precision": "day",
+   "eye": "cortes",
+   "place": "Tenochtitlan, receiving news from the coast",
+   "headline": "News of a rival fleet on the Gulf coast",
+   "digest": "Cortés, then holding Moctezuma in Tenochtitlan, learned that a large fleet from Cuba had anchored off the coast under Pánfilo de Narváez, with orders to arrest him. His second letter presents the arrival as a threat to the whole enterprise, and gives no hint that the newcomers carried anything worse than soldiers.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Landing date 22 April per modern summaries of the Battle of Cempoala (https://en.wikipedia.org/wiki/Battle_of_Cempoala); Cortés's own account in the second letter (MacNutt 1908, vol. I)."
+  },
+  {
+   "date_iso": "1520-04",
+   "date_display": "April–May 1520",
+   "precision": "range",
+   "eye": "eguia",
+   "place": "Narváez's ships and camp, Cempoala",
+   "headline": "A sick man among the newcomers (as later told)",
+   "digest": "According to later Spanish and mestizo chroniclers, a Black man among Narváez's people was ill with smallpox when the fleet landed. He left no account of his own, and no contemporary letter names him. What is told of him is told by others, decades later, to explain the origin of the epidemic.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Motolinía, Gómara, Díaz, Durán, Muñoz Camargo (McCaa Table 2, https://users.pop.umn.edu/~rmccaa/vircatas/virtab2.htm); Nava Román (https://www.noticonquista.unam.mx/sites/default/files/2020-05/nava_-_los_africanos_-_final.pdf)."
+  },
+  {
+   "date_iso": "1520-05-27",
+   "date_display": "Night of 27–28 May 1520 (Julian)",
+   "precision": "day",
+   "eye": "cortes",
+   "place": "Cempoala",
+   "headline": "Night attack on Narváez's camp",
+   "digest": "Cortés marched to the coast with a small force and fell on Narváez's quarters at Cempoala in darkness and rain. Narváez was wounded and captured, and most of his men joined Cortés. The second letter tells it as a nearly bloodless triumph; in later accounts, this merging of the two forces is how smallpox entered the army that returned inland.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Date per https://en.wikipedia.org/wiki/Battle_of_Cempoala; second letter (MacNutt 1908). Some accounts put the attack on 28–29 May."
+  },
+  {
+   "date_iso": "1520-05",
+   "date_display": "May 1520 (recalled c. 1560s)",
+   "precision": "month",
+   "eye": "diaz",
+   "place": "Cempoala",
+   "headline": "The disease begins in one house at Cempoala",
+   "digest": "Díaz recalled that Narváez brought a Black man who was full of smallpox, and that the illness spread to the people of Cempoala, beginning in the house where he lodged. He added that the people of that land had never had the disease before, and that it then spread through New Spain. He wrote this forty years later, already knowing what followed.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Historia verdadera, Cempoala episode (Díaz I, 373 in the edition cited by McCaa, https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm). No quote: the PD English wording could not be checked here."
+  },
+  {
+   "date_iso": "1520-07-01",
+   "date_display": "Night of 30 June–1 July 1520 (Julian)",
+   "precision": "day",
+   "eye": "cortes",
+   "place": "Tenochtitlan causeways",
+   "headline": "Driven out of the city",
+   "digest": "After Moctezuma's death the Spaniards and their allies fled the island city by night along the causeway, losing many men, horses and much of the gold. Cortés's second letter records the losses and the retreat to Tlaxcala. The Mexica, now led by Cuitláhuac, had won; within weeks of this victory the epidemic would reach them.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Second letter (MacNutt 1908, vol. I); standard chronology of the Noche Triste."
+  },
+  {
+   "date_iso": "1520-07",
+   "date_display": "July 1520",
+   "precision": "month",
+   "eye": "cortes",
+   "place": "Tlaxcala",
+   "headline": "Wounded and sheltered by Tlaxcalan allies",
+   "digest": "Cortés reached Tlaxcala with his survivors, himself injured, and was received by the Tlaxcalan lords, among them Maxixcatzin. The letter stresses the allies' loyalty, on which everything now depended. Six months later he would write that Maxixcatzin had died of smallpox.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Second letter (MacNutt 1908, vol. I)."
+  },
+  {
+   "date_iso": "1520-09",
+   "date_display": "Tepeilhuitl, year 2 Flint (c. late September 1520)",
+   "precision": "month",
+   "eye": "florentine",
+   "place": "Tenochtitlan and Tlatelolco",
+   "headline": "A great sickness begins in Tepeilhuitl",
+   "digest": "The elders said that before the Spaniards came back against the city, a great sickness spread among the people, beginning in the month of Tepeilhuitl, which the Spanish gloss puts at the end of September. Pustules spread over faces, heads and bodies. It came after the Spaniards had left Mexico, so the Mexica fought it alone.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Florentine Codex XII, ch. 29, Nahuatl and Spanish columns (https://enl.wired-humanities.org/FCBk12Ch29). Month-to-Julian correlation approximate."
+  },
+  {
+   "date_iso": "1520-10",
+   "date_display": "October 1520 (Tepeilhuitl to Quecholli, 2 Flint)",
+   "precision": "range",
+   "eye": "florentine",
+   "place": "Tenochtitlan",
+   "headline": "Lying still, and hunger in sick households",
+   "digest": "The sick, the elders recalled, could not move or turn over and lay helpless where they were. Many died of the disease, and many others died of hunger, because everyone in the household was ill and no one could prepare food or care for the rest. Those who survived were left with pitted skin; some lost the sight of an eye or became blind.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Florentine Codex XII, ch. 29 (Lockhart's translation summarised from https://enl.wired-humanities.org/FCBk12Ch29)."
+  },
+  {
+   "date_iso": "1520",
+   "date_display": "Year 2 Flint (1520)",
+   "precision": "year",
+   "eye": "tlatelolco",
+   "place": "Tlatelolco",
+   "headline": "Two lines in a long war narrative",
+   "digest": "The Tlatelolca annalists set down the year's sickness briefly: a plague with coughing, fever and pox. The note sits inside a long account of the Spaniards' arrival, the fighting and the expulsion. In their telling, the epidemic is a passing event in the story of the war.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Annals of Tlatelolco, as cited by McCaa (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm); manuscript dating debated (https://scalar.usc.edu/works/space-place-mapping/anales-de-tlatelolco)."
+  },
+  {
+   "date_iso": "1520",
+   "date_display": "Year 2 Flint (1520)",
+   "precision": "year",
+   "eye": "chimalpahin",
+   "place": "Writing of Chalco",
+   "headline": "'Year 2 Flint, 1520': the pox and great mortality",
+   "digest": "Chimalpahin opened his entry for the year by recording that there was a pox that caused great mortality. He then named the Chalca nobles who died of it, including the ruler of Amaquemecan, who had held power for thirty-three years, his adviser, a noblewoman, and the lord of Itzcahuacan with his son.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Chimalpahin, Seventh Relation, entry for 2 Flint, as cited by McCaa (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm)."
+  },
+  {
+   "date_iso": "1520-10-30",
+   "date_display": "30 October 1520 (Julian)",
+   "precision": "day",
+   "eye": "cortes",
+   "place": "Segura de la Frontera (Tepeaca)",
+   "headline": "A long letter to the emperor, with no word of smallpox",
+   "digest": "Cortés signed his second letter at the new Spanish town of Segura de la Frontera, after a campaign against Tepeaca. It recounts the march inland, Moctezuma, Narváez, the flight from the city and the plans to retake it. It does not mention smallpox at all, though by this time, on the Nahua accounts, the epidemic was spreading through the Valley of Mexico.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Second letter dated 30 Oct 1520; McCaa notes its silence on smallpox (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm)."
+  },
+  {
+   "date_iso": "1520-12",
+   "date_display": "End of Quecholli, year 2 Flint (c. late Nov–early Dec 1520)",
+   "precision": "month",
+   "eye": "aubin",
+   "place": "Tenochtitlan",
+   "headline": "Cuitláhuac dies of the pustules after eighty days",
+   "digest": "The Tenochca annal records that Cuitlahuatzin ruled for eighty days and died at the end of the month Quecholli, of the pustules. Beside the note, the painter drew a shrouded body ringed with small circles, the sign later read as smallpox. The ruler who had driven the Spaniards from the city was dead before they returned.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Codex Aubin, 1520 entry, as translated and dated by McCaa (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm); Quecholli correlation late Nov–early Dec 1520 is McCaa's."
+  },
+  {
+   "date_iso": "1520-12",
+   "date_display": "December 1520 (Panquetzaliztli, year 2 Flint)",
+   "precision": "month",
+   "eye": "florentine",
+   "place": "Tenochtitlan, then Chalco",
+   "headline": "The sickness wanes after sixty days and moves on",
+   "digest": "The elders said the disease lasted a full sixty days and lost its force in the month of Panquetzaliztli. When it eased in the city it moved toward Chalco. They linked its end to the Spaniards' return: the Mexica warriors were weakened when the enemy came back.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Florentine Codex XII, ch. 29 (https://enl.wired-humanities.org/FCBk12Ch29)."
+  },
+  {
+   "date_iso": "1520-12",
+   "date_display": "Before Christmas 1520",
+   "precision": "month",
+   "eye": "diaz",
+   "place": "Tlaxcala / Valley of Mexico (news)",
+   "headline": "The lord who drove us out has died",
+   "digest": "Díaz recorded that the ruler who had ejected the Spaniards from Mexico, whom he calls Cuitláhuac, died of smallpox before Christmas, and that the Mexica raised Moctezuma's nephew Cuauhtémoc in his place. He mentions it as war news: a change of enemy commander.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Historia verdadera, as cited by McCaa (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm)."
+  },
+  {
+   "date_iso": "1520-12",
+   "date_display": "December 1520",
+   "precision": "month",
+   "eye": "diaz",
+   "place": "Tlaxcala",
+   "headline": "Maxixcatzin dead of smallpox",
+   "digest": "Back in Tlaxcala, Díaz recalled, the Spaniards found that their ally Maxixcatzin had died of smallpox. He remembered Cortés's grief and the mourning that followed, and that many other leaders in the land had died of the same disease. For the Spaniards, the deaths of allies and enemies alike meant new lords to confirm.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Historia verdadera (Díaz I, 425 or 438 in McCaa's citations, https://users.pop.umn.edu/~rmccaa/vircatas/virtab2.htm); the detail of mourning is from memory of the passage, not checked against the text."
+  },
+  {
+   "date_iso": "1520-12",
+   "date_display": "December 1520 (recorded May 1522)",
+   "precision": "month",
+   "eye": "cortes",
+   "place": "Tlaxcala",
+   "headline": "Confirming an heir for Maxixcatzin",
+   "digest": "In his third letter Cortés wrote that, on returning to Tlaxcala, he found that Maxixcatzin had died of smallpox, and that he confirmed the dead lord's young son as successor, at the request of the Tlaxcalans. It is the only ruler's death from the disease that he names.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Third letter, 15 May 1522; McCaa notes Maxixcatzin is the only leader Cortés names as dying (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm). Day not given in the letter."
+  },
+  {
+   "date_iso": "1520-12",
+   "date_display": "c. 1520 (written 1585)",
+   "precision": "year",
+   "eye": "sahagun",
+   "place": "Tlatelolco",
+   "headline": "Cuitláhuac among the victims, retold",
+   "digest": "In his 1585 revision of the conquest book, Sahagún wrote that Cuitláhuac died among the many Mexica killed by the pestilence. The revision reframed the elders' account for Spanish readers and laid more stress on Providence and Spanish good faith.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sahagún, Conquest of New Spain, 1585 revision, as cited by McCaa (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm)."
+  },
+  {
+   "date_iso": "1520-12",
+   "date_display": "c. December 1520 (written early 17th c.)",
+   "precision": "month",
+   "eye": "chimalpahin",
+   "place": "Writing of Tenochtitlan",
+   "headline": "Blisters and sores of the pox",
+   "digest": "Chimalpahin also recorded the death of Cuitlahuatzin, the Tenochca ruler, describing its cause as the blisters and sores of smallpox. Writing a century on, he placed it beside the deaths of the Chalca lords, as one more lineage broken in the same year.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Chimalpahin, Seventh Relation, as cited by McCaa (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm)."
+  },
+  {
+   "date_iso": "1521-01",
+   "date_display": "January 1521",
+   "precision": "month",
+   "eye": "diaz",
+   "place": "Near Texcoco",
+   "headline": "Warriors too weak to fight",
+   "digest": "After the Spaniards moved their base to Texcoco at the end of December 1520, Díaz recalled that many Indigenous warriors in the region were too weakened by smallpox to fight. He records it in passing, as one reason the advance around the lake met less resistance.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Historia verdadera, as cited by McCaa (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm)."
+  },
+  {
+   "date_iso": "1521-01",
+   "date_display": "Early 1521",
+   "precision": "month",
+   "eye": "diaz",
+   "place": "Chalco province",
+   "headline": "A Chalca lord dies of smallpox",
+   "digest": "Díaz wrote that a lord of Chalco had died of smallpox and that before dying he asked that his sons be placed under Cortés's protection. Díaz is the only Spanish writer to give the cause of this death, which Chimalpahin's Chalca annals also record among their dead.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Historia verdadera, as cited by McCaa (Díaz alone on the Chalco lord's smallpox, https://users.pop.umn.edu/~rmccaa/vircatas/virtab2.htm)."
+  },
+  {
+   "date_iso": "1521-07",
+   "date_display": "July–August 1521",
+   "precision": "range",
+   "eye": "tlatelolco",
+   "place": "Tlatelolco, under siege",
+   "headline": "Hunger at the end of the siege",
+   "digest": "The Tlatelolca annalists recorded what the besieged ate when food ran out and the water they drank had turned brackish. They wrote of grief and of the price set on people. Their account of the siege is long and specific, in contrast with their two lines on the epidemic.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Annals of Tlatelolco, conquest section (folios 15r–20v per Tena; https://scalar.usc.edu/works/space-place-mapping/anales-de-tlatelolco). Digest only; modern translations."
+  },
+  {
+   "date_iso": "1521-08-13",
+   "date_display": "Day 1 Serpent, year 3 House (13 August 1521, Julian)",
+   "precision": "day",
+   "eye": "florentine",
+   "place": "Tlatelolco",
+   "headline": "The end, in the year 3 House",
+   "digest": "The elders dated the final surrender to the year 3 House, day 1 Serpent. They described people leaving the city by water and over the causeways, searched by the victors, and the capture of Cuauhtémoc. Their story of the siege follows directly on their story of the epidemic, which they had placed first.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Florentine Codex XII, closing chapters; Nahua date as usually given in modern editions. Digest only."
+  },
+  {
+   "date_iso": "1521-08-13",
+   "date_display": "13 August 1521 (Julian), St Hippolytus' day",
+   "precision": "day",
+   "eye": "cortes",
+   "place": "Tenochtitlan / Tlatelolco",
+   "headline": "The city taken",
+   "digest": "Cortés reported to the emperor that the city was won and Cuauhtémoc captured. He describes the scale of the dead in the last quarter of the city in general terms, and attributes the deaths to the fighting and to the allies' vengeance; he does not tie them to the earlier epidemic.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Third letter, 15 May 1522 (MacNutt 1908, vol. II)."
+  },
+  {
+   "date_iso": "1521-08-13",
+   "date_display": "13 August 1521 (Julian; recalled c. 1560s)",
+   "precision": "day",
+   "eye": "diaz",
+   "place": "Tlatelolco",
+   "headline": "The silence after the fighting",
+   "digest": "Díaz remembered that when the fighting stopped the soldiers felt as if they had been in a belfry whose bells had all ceased ringing at once. He recalled the dead in the houses and in the water of the last quarter and the long lines of people leaving the city for three days. He writes soberly here, as of a thing he did not want to see again.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Historia verdadera, chapter on the fall of the city (standard editions). Digest only."
+  },
+  {
+   "date_iso": "1522-05-15",
+   "date_display": "15 May 1522 (Julian)",
+   "precision": "day",
+   "eye": "cortes",
+   "place": "Coyoacán",
+   "headline": "Smallpox 'as in the islands'",
+   "digest": "Signing his third letter at Coyoacán, Cortés wrote that smallpox had struck the people of these lands as it had those of the Caribbean islands. It is a few lines in a long report, used to explain why he had to confirm new lords in allied towns. The comparison shows he knew the disease from Hispaniola and Cuba.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Third letter, 15 May 1522; McCaa quotes the passage via Early Accounts (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm)."
+  },
+  {
+   "date_iso": "1524-06",
+   "date_display": "June 1524",
+   "precision": "month",
+   "eye": "motolinia",
+   "place": "Mexico City",
+   "headline": "The Twelve arrive, four years after",
+   "digest": "Motolinía arrived in Mexico City with the first group of twelve Franciscans, walking barefoot from the coast. He took his name from a Nahuatl word for 'poor one' that he heard people say of the friars. Everything he later wrote about the 1520 epidemic came from those who had survived it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Standard biography of Motolinía; arrival in Mexico City in June 1524."
+  },
+  {
+   "date_iso": "1541",
+   "date_display": "1541 (dedicatory letter)",
+   "precision": "year",
+   "eye": "motolinia",
+   "place": "Tehuacán / Tlaxcala",
+   "headline": "The first of ten plagues",
+   "digest": "In his Historia, Motolinía named smallpox the first of the plagues that struck New Spain and traced it to a Black man in Narváez's fleet. He wrote that in most provinces more than half the people died; that, not knowing the remedy, the sick bathed and died in great numbers; that many starved because whole households were ill at once; and that where the dead could not be buried, houses were pulled down over them. People called it the great leprosy.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Historia de los indios, Tratado I, ch. 1 (Foster's translation, excerpt at https://dhr.history.vt.edu/modules/us/mod01_pop/evidence_detail_05.html); McCaa on Historia vs Memoriales (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm)."
+  },
+  {
+   "date_iso": "1541",
+   "date_display": "c. 1540s (Memoriales)",
+   "precision": "year",
+   "eye": "motolinia",
+   "place": "New Spain",
+   "headline": "A smaller figure in the other version",
+   "digest": "In the Memoriales, the fuller draft of the same work, Motolinía wrote that in some provinces half the people died, and that the poor and children were the main victims, rather than the lords. The difference between 'most provinces, more than half' and 'some provinces, half' is the root of much later argument about the death toll.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Memoriales, as compared by McCaa (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm)."
+  },
+  {
+   "date_iso": "1542",
+   "date_display": "Early 1540s",
+   "precision": "year",
+   "eye": "vazquez",
+   "place": "Mexico City",
+   "headline": "More than a quarter of the people",
+   "digest": "Bernardino Vázquez de Tapia, who had served with Cortés, wrote in his account of services that more than a fourth of the people died of the smallpox. It is a veteran's estimate, given in passing, but it is one of the few numbers from a man who was in the land in 1520.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Vázquez de Tapia, relación, cited by McCaa (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm). Exact year not established."
+  },
+  {
+   "date_iso": "1552",
+   "date_display": "1552",
+   "precision": "year",
+   "eye": "gomara",
+   "place": "Zaragoza (printed)",
+   "headline": "One house in Cempoala, and Cuitláhuac's death",
+   "digest": "Gómara's printed history told that smallpox struck one house in Cempoala through a Black man of Narváez's and then passed from person to person and town to town. He reported that Cuitláhuac died of it before Christmas 1520, and noted the death of the lord of Chalco without giving its cause. He wrote from Cortés's papers and from Motolinía, never having seen Mexico.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Historia de la conquista de México (1552), I, 278 in McCaa's citation (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm)."
+  },
+  {
+   "date_iso": "1555",
+   "date_display": "c. 1555",
+   "precision": "year",
+   "eye": "sahagun",
+   "place": "Tlatelolco",
+   "headline": "Recording the elders in Nahuatl",
+   "digest": "Around 1555 Sahagún and his Nahua collaborators at Tlatelolco took down the elders' account of the conquest in Nahuatl, the text that became Book XII. The epidemic chapter was placed between the Spaniards' expulsion and their return. Sahagún later added a Spanish version that summarises rather than translates.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Dating of Book XII per McCaa (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm) and the Early Nahuatl Library edition (https://enl.wired-humanities.org/FCBk12Ch29)."
+  },
+  {
+   "date_iso": "1568",
+   "date_display": "1568",
+   "precision": "year",
+   "eye": "diaz",
+   "place": "Santiago de Guatemala",
+   "headline": "Finishing the 'true history'",
+   "digest": "In his seventies, Díaz brought his manuscript to a close in Guatemala, writing to set the record straight against Gómara. He would go on revising it. The smallpox passages are scattered through it as asides to the story of battles.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Standard dating of the Guatemala manuscript (published 1904)."
+  },
+  {
+   "date_iso": "1576",
+   "date_display": "1576",
+   "precision": "year",
+   "eye": "sahagun",
+   "place": "Tlatelolco",
+   "headline": "Comparing the epidemics",
+   "digest": "Writing during the great cocoliztli of 1576, Sahagún looked back on the three epidemics he knew of. He judged that the 1520 smallpox had killed almost beyond counting, but that the epidemic of 1545 had been deadlier still. His Colegio at Tlatelolco was itself emptied by the sickness of 1576.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sahagún's 1576 note in the Historia general, cited by McCaa (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm)."
+  },
+  {
+   "date_iso": "1576",
+   "date_display": "1576 (frontispiece)",
+   "precision": "year",
+   "eye": "aubin",
+   "place": "Mexico City",
+   "headline": "Starting a long year-count",
+   "digest": "The Codex Aubin's frontispiece carries the date 1576, and its scribes continued to add years into the early 1600s. Its 1520 entry was therefore written down more than fifty years after the event, from older Tenochca records.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Aubin Codex overview (https://en.wikipedia.org/wiki/Aubin_Codex)."
+  },
+  {
+   "date_iso": "1581",
+   "date_display": "1581",
+   "precision": "year",
+   "eye": "duran",
+   "place": "Mexico City",
+   "headline": "Survivors blamed the strangers",
+   "digest": "Durán, completing his history, wrote that the previous ruler died of smallpox and that this was why Cuauhtémoc became king. He told that the disease came with a Black man among the Spaniards, that there were no physicians and the illness was new, so thousands died, and that the survivors blamed the Spaniards for it. He placed the epidemic after the fall of the city, a chronological error.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Durán, Historia (Heyden and Horcasitas translation summarised at https://dhr.history.vt.edu/modules/us/mod01_pop/evidence_detail_06.html)."
+  },
+  {
+   "date_iso": "1585",
+   "date_display": "1580s",
+   "precision": "year",
+   "eye": "munoz",
+   "place": "Tlaxcala",
+   "headline": "The greatest of three epidemics",
+   "digest": "Muñoz Camargo repeated the story of the enslaved carrier and wrote that of the three great epidemics, 1520 ought to be counted the greatest, because the people were then most numerous. He added that many Tlaxcalans died because, once sick, they gave themselves up for lost.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Muñoz Camargo, Descripción (relación geográfica) of Tlaxcala, as cited by McCaa (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm)."
+  },
+  {
+   "date_iso": "1585",
+   "date_display": "1585",
+   "precision": "year",
+   "eye": "sahagun",
+   "place": "Tlatelolco",
+   "headline": "Rewriting the conquest book",
+   "digest": "Sahagún completed a revised Spanish account of the conquest, saying the earlier version had faults. The revision kept the epidemic but recast parts of the Nahua telling. Book XII therefore reaches readers in two layers: the elders' Nahuatl of the 1550s and the friar's later reframing.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Sahagún, 1585 revision (later copy), per McCaa (https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm)."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1520-05",
+   "date_display": "May 1520",
+   "eye": "diaz",
+   "claim": "Smallpox began at Cempoala with a Black man of Narváez's company; local people had never had it",
+   "form": "other",
+   "evidence": "Díaz, Historia verdadera (memoir, written 1550s–68), Cempoala episode",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1520-09",
+   "date_display": "Tepeilhuitl 2 Flint (c. late Sept 1520)",
+   "eye": "florentine",
+   "claim": "The sickness began in Tepeilhuitl and lasted sixty days, waning in Panquetzaliztli",
+   "form": "other",
+   "evidence": "Florentine Codex XII, ch. 29 (Nahuatl, c. 1555)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1520-10-30",
+   "date_display": "30 October 1520",
+   "eye": "cortes",
+   "claim": "Second letter to Charles V makes no mention of smallpox",
+   "form": "letter",
+   "evidence": "Second letter, Segura de la Frontera; McCaa 1995",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1520-12",
+   "date_display": "End of Quecholli 2 Flint (c. late Nov–early Dec 1520)",
+   "eye": "aubin",
+   "claim": "Cuitláhuac ruled 80 days and died of the pustules",
+   "form": "other",
+   "evidence": "Codex Aubin, 1520 entry (annals, from 1576)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1520",
+   "date_display": "2 Flint (1520)",
+   "eye": "chimalpahin",
+   "claim": "Pox caused great mortality; the ruler of Amaquemecan (33 years in power) and other Chalca lords died",
+   "form": "other",
+   "evidence": "Chimalpahin, Seventh Relation (early 17th c.)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1520-12",
+   "date_display": "December 1520",
+   "eye": "cortes",
+   "claim": "Maxixcatzin of Tlaxcala found dead of smallpox; his son confirmed as heir",
+   "form": "letter",
+   "evidence": "Third letter, 15 May 1522",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1521-01",
+   "date_display": "January 1521",
+   "eye": "diaz",
+   "claim": "Many warriors near Texcoco too weak from smallpox to fight",
+   "form": "other",
+   "evidence": "Díaz, Historia verdadera (memoir)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1522-05-15",
+   "date_display": "15 May 1522",
+   "eye": "cortes",
+   "claim": "Smallpox struck the people of New Spain as it had those of the islands",
+   "form": "letter",
+   "evidence": "Third letter, Coyoacán",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1541",
+   "date_display": "1541",
+   "eye": "motolinia",
+   "claim": "In most provinces more than half the people died (Historia); in some provinces half (Memoriales)",
+   "form": "report",
+   "evidence": "Motolinía, Historia de los indios, Tratado I ch. 1; Memoriales",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1542",
+   "date_display": "Early 1540s",
+   "eye": "vazquez",
+   "claim": "More than one-fourth of the people died of smallpox",
+   "form": "report",
+   "evidence": "Vázquez de Tapia, relación de méritos",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1552",
+   "date_display": "1552",
+   "eye": "gomara",
+   "claim": "Smallpox began in one house at Cempoala and killed Cuitláhuac before Christmas 1520",
+   "form": "other",
+   "evidence": "López de Gómara, Historia de la conquista de México (printed chronicle)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1576",
+   "date_display": "1576",
+   "eye": "sahagun",
+   "claim": "The 1520 epidemic killed nearly beyond counting, but the 1545 epidemic killed more",
+   "form": "report",
+   "evidence": "Sahagún, note in the Historia general",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1581",
+   "date_display": "1581",
+   "eye": "duran",
+   "claim": "Thousands died with no physicians; survivors blamed the Spaniards for the disease",
+   "form": "other",
+   "evidence": "Durán, Historia de las Indias de Nueva España",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1585",
+   "date_display": "1580s",
+   "eye": "munoz",
+   "claim": "1520 was the greatest of three epidemics because the population was then largest",
+   "form": "report",
+   "evidence": "Muñoz Camargo, relación geográfica of Tlaxcala",
+   "confidence": "approx"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1520-05",
+   "label": "Cempoala: the epidemic's origin story",
+   "eyes": [
+    "eguia",
+    "diaz",
+    "motolinia",
+    "gomara",
+    "duran",
+    "munoz"
+   ],
+   "note": "Every Spanish and mestizo writer who tells the origin fixes it on one enslaved African man; the man himself left nothing, Cortés never mentions him, and Sahagún's Nahua informants do not tell the story at all. The agreement among chroniclers is partly the result of their copying one another."
+  },
+  {
+   "date": "1520-10",
+   "label": "The epidemic in the city, autumn 1520",
+   "eyes": [
+    "florentine",
+    "tlatelolco",
+    "chimalpahin"
+   ],
+   "note": "Three Nahua records of the same season: the Tlatelolca elders give the fullest picture of suffering, the Tlatelolco annals two lines, and Chimalpahin a list of Chalca lords who died. Each community remembered what mattered to its own story."
+  },
+  {
+   "date": "1520-10-30",
+   "label": "Cortés writes, the city sickens",
+   "eyes": [
+    "cortes",
+    "florentine"
+   ],
+   "note": "On the day Cortés signed a long letter with no word of disease, the Nahua account places the city in the middle of its sixty days of sickness. The juxtaposition shows how little the epidemic registered in the commander's report to the crown."
+  },
+  {
+   "date": "1520-12",
+   "label": "Death of Cuitláhuac",
+   "eyes": [
+    "aubin",
+    "diaz",
+    "gomara",
+    "chimalpahin",
+    "sahagun",
+    "duran"
+   ],
+   "note": "Nahua annals give the length of his reign and the month of his death; Spanish chroniclers record it as news of a change of enemy leader before Christmas. Durán links it to Cuauhtémoc's accession. Cortés never reports it."
+  },
+  {
+   "date": "1520-12",
+   "label": "Death of Maxixcatzin, Tlaxcala",
+   "eyes": [
+    "cortes",
+    "diaz"
+   ],
+   "note": "The one smallpox death Cortés names is an ally's, and he tells it through the act of confirming an heir. Díaz remembers the mourning."
+  },
+  {
+   "date": "1521-01",
+   "label": "Chalco and Texcoco after the epidemic",
+   "eyes": [
+    "diaz",
+    "chimalpahin",
+    "florentine"
+   ],
+   "note": "The Florentine elders say the sickness moved toward Chalco; Chimalpahin records the Chalca lords who died; Díaz recalls a Chalca lord's death and warriors too weak to fight. Three angles on the region the Spaniards crossed to reach the lake."
+  },
+  {
+   "date": "1521-08-13",
+   "label": "Fall of Tenochtitlan–Tlatelolco",
+   "eyes": [
+    "florentine",
+    "tlatelolco",
+    "cortes",
+    "diaz"
+   ],
+   "note": "The Nahua accounts date it by the year 3 House and day 1 Serpent and dwell on hunger and departure; Cortés reports victory to the emperor; Díaz remembers the sudden quiet. None of the Spanish accounts connects the end of the siege to the epidemic of the previous autumn."
+  },
+  {
+   "date": "1541",
+   "label": "Counting the dead, 1540s–1580s",
+   "eyes": [
+    "motolinia",
+    "vazquez",
+    "sahagun",
+    "munoz"
+   ],
+   "note": "More than half, half in some provinces, more than a quarter, the greatest of three: the figures differ by kind as well as size, and none rests on a count. Sahagún, alone, judged a later epidemic worse."
+  }
+ ],
+ "ties": [
+  {
+   "a": "cortes",
+   "b": "diaz",
+   "kind": "met",
+   "note": "Díaz served under Cortés through the whole campaign and wrote, decades later, partly to give the soldiers the credit Cortés's letters claimed for himself."
+  },
+  {
+   "a": "gomara",
+   "b": "cortes",
+   "kind": "influenced",
+   "note": "Gómara was Cortés's chaplain in Spain and wrote his history from Cortés's papers and conversation."
+  },
+  {
+   "a": "diaz",
+   "b": "gomara",
+   "kind": "read each other",
+   "note": "Díaz read Gómara's printed history and wrote his own to correct it, often naming Gómara's errors."
+  },
+  {
+   "a": "gomara",
+   "b": "motolinia",
+   "kind": "read each other",
+   "note": "Gómara acknowledged a debt to Motolinía, from whom the African-carrier story probably passed into print."
+  },
+  {
+   "a": "sahagun",
+   "b": "florentine",
+   "kind": "met",
+   "note": "Sahagún directed the recording of the elders' testimony at Tlatelolco and wrote the Spanish column beside their Nahuatl."
+  },
+  {
+   "a": "florentine",
+   "b": "tlatelolco",
+   "kind": "same street",
+   "note": "Both accounts come from Tlatelolco, the twin city where the last resistance held out, yet one makes the epidemic a chapter and the other gives it two lines."
+  },
+  {
+   "a": "aubin",
+   "b": "tlatelolco",
+   "kind": "same street",
+   "note": "Tenochca and Tlatelolca year-counts from neighbouring halves of one island city, each favouring its own altepetl's story."
+  },
+  {
+   "a": "chimalpahin",
+   "b": "gomara",
+   "kind": "read each other",
+   "note": "Chimalpahin made an annotated copy of Gómara's conquest history, setting Nahua knowledge beside the Spanish account."
+  },
+  {
+   "a": "cortes",
+   "b": "eguia",
+   "kind": "opposite sides",
+   "note": "The man later blamed for the disease came with Narváez, whose expedition Cortés attacked at Cempoala; Cortés never mentions him."
+  },
+  {
+   "a": "diaz",
+   "b": "eguia",
+   "kind": "mentioned",
+   "note": "Díaz describes the sick Black man of Narváez's company without naming him."
+  },
+  {
+   "a": "vazquez",
+   "b": "cortes",
+   "kind": "opposite sides",
+   "note": "Vázquez de Tapia served under Cortés but later testified against him in the residencia, the official inquiry into his conduct."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "balmis-1803",
+   "note": "Smallpox, which arrived in Mexico in 1520, was the target of the Royal Philanthropic Vaccine Expedition, which carried cowpox vaccine to New Spain in 1804, using orphan boys as living carriers."
+  },
+  {
+   "to": "boston-1721",
+   "note": "The same disease, two centuries later in another colonial port, prompted the first large public trial of inoculation in British America."
+  },
+  {
+   "to": "v2:first-contact",
+   "note": "Cortés's remark that smallpox struck Mexico as it had 'the islands' points back to the outbreak on Hispaniola and Cuba in 1518–19, part of the wider exchange of disease after 1492."
+  },
+  {
+   "to": "v6:worms-1521",
+   "note": "Cortés's letters were addressed to Charles V, who presided at the Diet of Worms in April 1521, a month before the siege of Tenochtitlan began; the second letter was printed in Seville in 1522."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://artsandculture.google.com/asset/panel-from-the-florentine-codex-depicting-smallpox-outbreaks-in-the-americas-bernardino-de-sahagún/FQG1uvpBon90sQ",
+   "title": "Florentine Codex, Book XII, folio 54 (detail)",
+   "caption": "Painted panel from the chapter on the 1520 epidemic: sick figures lying covered with pustules, tended by others. Painted by Nahua artists for Sahagún's Historia general about half a century after the event; a later image, not an eyewitness drawing.",
+   "date": "c. 1575–1577",
+   "credit": "Bernardino de Sahagún and Nahua artists; Biblioteca Medicea Laurenziana, Florence; via Google Arts & Culture (Canada Science and Technology Museum)"
+  },
+  {
+   "url": "https://smarthistory.org/introduction-to-the-spanish-viceroyalties-in-the-americas/florentine_smallpox/",
+   "title": "Smallpox in the Florentine Codex (teaching reproduction)",
+   "caption": "The same Book XII smallpox scene as reproduced for teaching, showing how the codex sets painted images beside the Nahuatl text.",
+   "date": "c. 1575–1577",
+   "credit": "Biblioteca Medicea Laurenziana, Florence; via Smarthistory"
+  },
+  {
+   "url": "https://www.loc.gov/item/2021667849",
+   "title": "Florentine Codex, Book IV: The Art of Divination",
+   "caption": "Book IV explains the 260-day ritual count (tonalpohualli) by which Nahua writers named days such as 1 Serpent, the day the city fell. Digitised by the Library of Congress/World Digital Library from the manuscript in Florence.",
+   "date": "1577",
+   "credit": "Biblioteca Medicea Laurenziana; Library of Congress"
+  },
+  {
+   "url": "https://worldhistorycommons.org/florentine-codex",
+   "title": "Florentine Codex (World History Commons primary source)",
+   "caption": "Primary-source page on the Florentine Codex, the encyclopaedic Nahuatl–Spanish manuscript that contains the elders' account of the epidemic.",
+   "date": "c. 1575–1577",
+   "credit": "World History Commons"
+  }
+ ],
+ "further": [
+  {
+   "title": "Robert McCaa, 'Spanish and Nahuatl Views on Smallpox and Demographic Catastrophe in the Conquest of Mexico' (Journal of Interdisciplinary History, 1995; web version)",
+   "url": "https://users.pop.umn.edu/~rmccaa/vircatas/vir6.htm"
+  },
+  {
+   "title": "McCaa, Table 2: Smallpox anecdotes in Motolinía, Gómara and Díaz",
+   "url": "https://users.pop.umn.edu/~rmccaa/vircatas/virtab2.htm"
+  },
+  {
+   "title": "Florentine Codex Book 12, ch. 29: Nahuatl, Spanish and English (Early Nahuatl Library)",
+   "url": "https://enl.wired-humanities.org/FCBk12Ch29"
+  },
+  {
+   "title": "Rosario Nava Román, 'Los africanos como “portadores” de la viruela' (Noticonquista, UNAM)",
+   "url": "https://www.noticonquista.unam.mx/sites/default/files/2020-05/nava_-_los_africanos_-_final.pdf"
+  },
+  {
+   "title": "Noticonquista: La expedición de Pánfilo de Narváez (Brokmann)",
+   "url": "https://www.noticonquista.unam.mx/sites/default/files/2020-05/brokmann_-_la_expedicion_de_panfilo_de_narvaez_-_final.pdf"
+  },
+  {
+   "title": "Plague strikes Tenochtitlan (American Historical Association teaching resource)",
+   "url": "https://www.historians.org/resource/plague-strikes-tenochtitlan/"
+  },
+  {
+   "title": "Cortés's second letter, excerpt (Fordham Modern History Sourcebook)",
+   "url": "https://sourcebooks.web.fordham.edu/mod/1520cortes.asp"
+  }
+ ]
+}

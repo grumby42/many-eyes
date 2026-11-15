@@ -1,0 +1,435 @@
+[
+ {
+  "chapter": "influenza-1918",
+  "where": "eye:grist",
+  "severity": "error",
+  "problem": "The letter-writer's surname is not Grist. N. R. Grist, professor of infectious diseases at Glasgow, was the BMJ author who printed a copy he had received in 1959 from Thomas Francis Jr. of the University of Michigan. The writer signed only 'Roy' and his surname is unknown. The BMJ article's title was 'Pandemic influenza 1918'.",
+  "fix": {
+   "name": "'Roy', Camp Devens ward physician (surname unknown)",
+   "short": "Roy"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "eye:grist",
+  "severity": "error",
+  "problem": "Same misattribution in the authenticity text. The BMJ article title and the provenance need correcting.",
+  "fix": {
+   "text_replace": {
+    "old": "first printed in the British Medical Journal, 22–29 December 1979, under the title 'Camp Devens letter'; the surname Grist comes from that publication. The original is reported to be held in University of Michigan archives.",
+    "new": "first printed in the British Medical Journal, 22–29 December 1979 (pp. 1632–33), inside the article 'Pandemic influenza 1918' by N. R. Grist of the University of Glasgow. Grist had been given a copy in 1959 by Thomas Francis Jr. of the University of Michigan's epidemiology department, among papers found in a trunk in Detroit. Grist edited it and did not write it; the writer's surname is unknown."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "image:3",
+  "severity": "style",
+  "problem": "The caption should not imply the letter is the whole article. The letter was printed within N. R. Grist's article.",
+  "fix": {
+   "text_replace": {
+    "old": "The British Medical Journal pages that first printed the Camp Devens letter",
+    "new": "The British Medical Journal pages (N. R. Grist, 'Pandemic influenza 1918') that first printed the Camp Devens letter"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "entry:13",
+  "severity": "doubt",
+  "problem": "The sources only say Vaughan went to Devens in September 1918, with two other physicians, on a cold, drizzly morning, and that 63 men died that day. The day 23 September is not supported by any fetched source. PBS gives the quoted words but names no book; Michigan Medicine lists A Doctor's Memories (1926) among its sources.",
+  "fix": {
+   "source_note": "Quote as given by PBS American Experience ('I saw hundreds of young stalwart men in uniform coming into the wards of the hospital'); Michigan Medicine (cold, drizzly September morning; two other physicians; 63 deaths that day) lists A Doctor's Memories (1926) as a source. The day 23 September is the conventional date in secondary accounts and is not confirmed by these sources.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "entry:20",
+  "severity": "error",
+  "problem": "The Influenza Encyclopedia does not report 5,500 new cases in a single day; it says cases had grown to 5,561. It does date Krusen's 'crest' statement, citing the Philadelphia Inquirer of 8 October 1918.",
+  "fix": {
+   "date_display": "Tuesday 8 October 1918 (Philadelphia Inquirer)",
+   "confidence": "verified",
+   "digest": "With reported cases past 5,500, Krusen announced that the epidemic had peaked. It had not: deaths kept rising for nearly two weeks, and trucks were soon carrying bodies from the city morgue to a potter's field.",
+   "source_note": "Influenza Encyclopedia (University of Michigan), Philadelphia essay, quoting the Philadelphia Inquirer, 8 October 1918; cases had grown to 5,561 by about 7 October."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "entry:40",
+  "severity": "error",
+  "problem": "The report does not use the phrase 'major secondary invader'. Andrewes's view, as transcribed, is that the bacillus was 'a secondary infection of the highest importance and significance' rather than the primary cause.",
+  "fix": {
+   "text_replace": {
+    "old": "Sir Frederick Andrewes called it a major secondary invader",
+    "new": "Sir Frederick Andrewes judged it a secondary infection of the highest importance rather than the primary cause"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "entry:29",
+  "severity": "error",
+  "problem": "The report says the second wave reached its summit 'early in November', not in the first week. The Armistice-week claim and the 'three-quarters' share are not supported by the transcription consulted.",
+  "fix": {
+   "digest": "The 1920 report dated the second English wave from October, with deaths reaching their summit early in November and falling slowly to the end of December. It was by far the deadliest of the three waves."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "convergence:5",
+  "severity": "error",
+  "problem": "The peak was 'early in November', not specifically the first week.",
+  "fix": {
+   "text_replace": {
+    "old": "England's deaths peaked in the first week of November",
+    "new": "England's deaths reached their summit early in November"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "image:2",
+  "severity": "doubt",
+  "problem": "The page count of 577 is not confirmed by any source consulted.",
+  "fix": {
+   "text_replace": {
+    "old": "The British Ministry of Health's 577-page report",
+    "new": "The British Ministry of Health's report"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "eye:rosenau",
+  "severity": "error",
+  "problem": "No source consulted says the volunteers were men held in naval custody. GG Archives (from Public Health Reports) says they came from the US Naval Detention Training Camp. The custody and brig framing echoes the unsupported pardon story the entry itself rejects.",
+  "fix": {
+   "text_replace": {
+    "old": "from a naval detention camp in Boston Harbor (men held in naval custody)",
+    "new": "from the US Naval Detention Training Camp in Boston Harbor"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "entry:31",
+  "severity": "error",
+  "problem": "Same unsupported 'naval custody' framing. Public Health Reports, via GG Archives, also includes close exposure to patients and injections of filtered secretions and blood.",
+  "fix": {
+   "text_replace": {
+    "old": "The men, held in naval custody, were",
+    "new": "The men were"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "entry:33",
+  "severity": "doubt",
+  "problem": "The cited National Guard article gives about 45,000 influenza and pneumonia deaths against 53,402 combat deaths (about 84%). It does not say that most died in US camps.",
+  "fix": {
+   "text_replace": {
+    "old": " Most died in camps in the United States, not in France.",
+    "new": ""
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "threads_out:3",
+  "severity": "style",
+  "problem": "45,000 against 53,402 is 'nearly as many', not 'about as many'.",
+  "fix": {
+   "text_replace": {
+    "old": "about as many American soldiers died of influenza and pneumonia as in battle",
+    "new": "nearly as many American soldiers died of influenza and pneumonia (about 45,000) as in battle (53,402)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "threads_out:1",
+  "severity": "error",
+  "problem": "Bombay's municipal Health Department was not created during the plague years. Its Health Officer was already keeping the weekly death returns in 1896, as the Bombay chapter itself records.",
+  "fix": {
+   "text_replace": {
+    "old": "Bombay's municipal health department, created and strengthened during the plague years from 1896, was the office that counted",
+    "new": "Bombay's municipal health department, which had counted the city's plague dead from 1896, was the office that counted"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "entry:4",
+  "severity": "doubt",
+  "problem": "The Madrid municipal blog gives the nicknames 'la epidemia del día', 'la enfermedad de moda' and 'el soldado de Nápoles'. It gives no share of Madrid's population that was ill, so that sentence is unsupported.",
+  "fix": {
+   "digest": "Madrid newspapers reported a fast-spreading illness in the capital in May 1918 and gave it nicknames: 'the soldier of Naples', because it was as catchy as a tune from a popular zarzuela, 'the epidemic of the day' and 'the fashionable illness'. Unlike the warring countries, Spain had no military censorship suppressing the news."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "entry:5",
+  "severity": "doubt",
+  "problem": "No exact day is found. Royal Central says the king's illness made headlines in Madrid in late May 1918 and that Prime Minister Antonio Maura and other ministers were also infected. The range is acceptable, but the source note should cite this.",
+  "fix": {
+   "source_note": "Royal Central (2020): news of the king's illness made Madrid headlines in late May 1918; Prime Minister Maura and other ministers also ill. El Español (2020). Exact days not verified."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "entry:26",
+  "severity": "error",
+  "problem": "The note to Gerti and the 'morning' timing come from an unidentified 'R. H. Carpenter' account and are not supported by the Wellcome or Leopold sources. Wellcome confirms only that Edith, who was pregnant, died the day after the 27 October drawing.",
+  "fix": {
+   "digest": "Edith died the day after the drawings, pregnant with their first child. Schiele was already ill himself. That day Czechoslovakia declared independence in Prague; the empire around Vienna was breaking apart.",
+   "source_note": "Wellcome Collection (drawing dated 27 October 1918; death the next day; pregnancy). The commonly given six months of pregnancy is from standard biographies."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "entry:27",
+  "severity": "error",
+  "problem": "The visit by his mother and his sister Melanie is unsupported by the sources consulted. Visiting Vienna places his death at Hietzinger Hauptstraße 114, his parents-in-law's home.",
+  "fix": {
+   "place": "Hietzinger Hauptstraße 114, Vienna (his parents-in-law's home)",
+   "digest": "Schiele died of the same illness, aged 28, three days after his wife, at the home of his parents-in-law in Hietzing. He left no further writing.",
+   "source_note": "Wellcome Collection (death 31 October 1918, aged 28); visitingvienna.com (Hietzinger Hauptstraße 114)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "eye:schiele",
+  "severity": "doubt",
+  "problem": "The studio address is uncertain. One source places his studio at Hietzinger Hauptstraße 101 until his death and his death at his in-laws' home at no. 114, not at Wattmanngasse 6. The bio claim about 'his few lines to friends' rests only on the Koller-Pinell letter.",
+  "fix": {
+   "where": "Hietzing, Vienna (studio and his parents-in-law's home at Hietzinger Hauptstraße 114)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "entry:30",
+  "severity": "doubt",
+  "problem": "The '90 Fijian labourers' and 'cursory check' details rest on Wikipedia (not reachable). DigitalNZ confirms only that the Talune had been quarantined in Fiji, that Samoa imposed no restrictions and that sick passengers disembarked. Corpus.nz confirms the port health officer was faulted for granting pratique.",
+  "fix": {
+   "digest": "The Talune reached Apia on 7 November, carrying passengers sick with pneumonic influenza; she had been held in quarantine in Fiji. The port health officer, not warned of the Auckland epidemic, granted pratique, and passengers disembarked. Within days the disease spread through the islands.",
+   "source_note": "DigitalNZ; corpus.nz (commission findings). Further details of the Fiji call are given in Wikipedia 'SS Talune' and were not checked."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "entry:32",
+  "severity": "doubt",
+  "problem": "DigitalNZ gives 'later estimated' at 8,500 (about 22%) without naming the commission, and corpus.nz gives at least 24%. These are estimates and should be given as such. 'Without orders from Washington' is not supported by the sources consulted; corpus.nz says Poyer's quarantine was carried out through traditional chiefs and lasted, with changes, until late 1921.",
+  "fix": {
+   "digest": "By the end of December at least 7,542 people had died in Western Samoa. Later estimates put the toll at about 8,500, around 22 per cent of the population (some historians give at least 24 per cent), falling heavily on adults aged 18 to 50 and on chiefs and pastors. Administrator Robert Logan had declined an offer of medical help from American Samoa, under 50 km away. There, Governor John Poyer imposed a strict quarantine, enforced through the chiefs, and no deaths from influenza were reported.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "claim:12",
+  "severity": "doubt",
+  "problem": "The death toll is an estimate, and sources differ (about 22% vs at least 24%). It should be stated as an estimate.",
+  "fix": {
+   "claim": "Talune granted pratique at Apia; later estimates of about 8,500 deaths (about 22% of Western Samoa; some give at least 24%) followed, against none reported in quarantined American Samoa",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "entry:37",
+  "severity": "style",
+  "problem": "As written, the headline attributes the missionary's words to the inquiry itself. Corpus.nz says a senior missionary said them in testimony to the commission.",
+  "fix": {
+   "headline": "A missionary to the inquiry: 'a blunder which amounts to a crime'"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "tie:4",
+  "severity": "doubt",
+  "problem": "No source shows the circular was distributed in Philadelphia; only that a copy is held in a Philadelphia collection.",
+  "fix": {
+   "text_replace": {
+    "old": "was distributed in Philadelphia; a copy survives in a Philadelphia collection.",
+    "new": "survives in a copy held by a Philadelphia collection (the Catholic Historical Research Center)."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "entry:3",
+  "severity": "style",
+  "problem": "The source note can cite a government source. The CDC 1918 timeline also gives 18 severe cases and three deaths in Haskell in the 5 April weekly report.",
+  "fix": {
+   "source_note": "Public Health Reports, 5 April 1918, as summarised by Historydraft and by the CDC 1918 pandemic timeline ('18 severe cases and three deaths in Haskell, Kansas'). Exact wording not checked against the issue."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "influenza-1918",
+  "where": "entry:6",
+  "severity": "doubt",
+  "problem": "Ramanna confirms Turner's words 'came like a thief at night, its onset rapid and insidious' and that he blamed a ship's crew docking in late May. She does not name the document. Pre-1929 official English publication is likely but not confirmed. She calls him 'Health Officer, Bombay city'.",
+  "fix": {
+   "source_note": "Turner (Health Officer, Bombay city) as quoted by Ramanna (Scroll.in, 5 July 2020); the document quoted is not named there but is presumably his 1918 official report. Ship's arrival date given only as late May."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "bombay-1896",
+  "where": "entry:7",
+  "severity": "error",
+  "problem": "The Gandhi digest misstates the comparison. In Part II ch. 28 'Poona and Madras' he writes that Pherozeshah Mehta had seemed like the Himalaya and Tilak like the ocean, 'But Gokhale was as the Ganges'. The 'inviting one to bathe' gloss is not verified. The source note should cite the right chapter. The chapter does not mention plague.",
+  "fix": {
+   "digest": "On the same Indian journey Gandhi went to Poona to win support for a public meeting on the grievances of Indians in South Africa, wanting help from people of every shade of opinion, and called first on Tilak and then on Gokhale at Fergusson College. In his memoir he contrasts the leaders he met: Pherozeshah Mehta had seemed to him like the Himalaya, Tilak like the ocean, Gokhale like the Ganges. Plague was then only beginning in western India.",
+   "source_note": "An Autobiography, Part II ch. 28 'Poona and Madras' (Desai translation, 1927–29; Pritchett online text), written about 30 years later; no date given. The chapter does not mention plague."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bombay-1896",
+  "where": "entry:16",
+  "severity": "error",
+  "problem": "Sarkar describes the 10 May 1897 Times of India item as a press interview, not a meeting. The quoted phrase is verified in Sarkar: 'the unenviable position of employees'.",
+  "fix": {
+   "text_replace": {
+    "old": "Tata told a meeting reported in the Times of India that",
+    "new": "Tata said in a press interview reported in the Times of India that"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bombay-1896",
+  "where": "entry:19",
+  "severity": "error",
+  "problem": "Sarkar cites a paper titled 'Imported Labour for the Bombay Mills', dated 26 May 1897, from the Millowners' Association's annual report, not a private letter. Calling it 'a plan to break the wage rise' is editorial. The Millowners' Association resolved on 1 June to help import labour from the north.",
+  "fix": {
+   "digest": "In a paper dated 26 May 1897, 'Imported Labour for the Bombay Mills', laid before the Millowners' Association, Tata proposed bringing in workers from outside the usual Konkan recruiting grounds to replace the millhands who had fled. On 1 June the Association resolved to help import labour from the north.",
+   "source_note": "Sarkar (IRSH 2014), n. 72 (Annual Report of the Bombay Millowners' Association, 1896, p. 156) and text on the 1 June resolution; original not consulted.",
+   "headline": "A proposal to import labour"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bombay-1896",
+  "where": "eye:tata",
+  "severity": "style",
+  "problem": "The 26 May item is a paper, not a letter. There is also a Tata & Sons letter of 11 May 1897.",
+  "fix": {
+   "text_replace": {
+    "old": "his letter of 26 May 1897 is cited from Bombay millowners' records",
+    "new": "his paper of 26 May 1897 ('Imported Labour for the Bombay Mills') is cited from Bombay millowners' records"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bombay-1896",
+  "where": "entry:27",
+  "severity": "error",
+  "problem": "Hansard shows that the Governor telegraphed on 2 August to report a telegram from Gokhale. Gokhale's own telegram is undated there, and it was sent to the Governor, not by him.",
+  "fix": {
+   "text_replace": {
+    "old": "A telegram of 2 August told the Governor that the full statement had been posted.",
+    "new": "He also telegraphed the Governor that a full statement had been posted, and the Governor relayed this to London on 2 August."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bombay-1896",
+  "where": "entry:28",
+  "severity": "error",
+  "problem": "Hamilton read the Governor's telegram of 2 August quoting Gokhale. Hansard records an 'extra allowance' for Ayerst's widow and consideration for both widows, not 'extra pensions'.",
+  "fix": {
+   "digest": "Answering Sir Mancherjee Bhownaggree, Hamilton read the Governor's telegram of 2 August quoting Gokhale's message. He also gave the result of the Governor's check on the memorial: of 1,699 signatures, 721 examined, only 144 signers found, and 14 of these denied signing. The same day, answering another member, he said recommendations in favour of the widows of Rand and Ayerst would receive careful consideration."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bombay-1896",
+  "where": "entry:35",
+  "severity": "doubt",
+  "problem": "The 'hotel room' setting and the apparatus details are from unnamed 'standard histories'. The Institut Pasteur page confirms only the date, Karachi, the rat-to-rat result via fleas and the later recollection.",
+  "fix": {
+   "text_replace": {
+    "old": "In a makeshift experiment in a Karachi hotel room, Simond",
+    "new": "In a makeshift experiment in Karachi, Simond"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "bombay-1896",
+  "where": "threads_out:3",
+  "severity": "doubt",
+  "problem": "Calling Bombay 'India's public-health centre' because of Haffkine's laboratory is an unsupported generalisation. The specific link is the city and Haffkine's laboratory there.",
+  "fix": {
+   "text_replace": {
+    "old": "Bombay, which Haffkine's laboratory and the plague measures had made India's public-health centre, was the port",
+    "new": "Bombay, where Haffkine's plague laboratory had been set up in 1896 and the plague measures first applied, was the port"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bombay-1896",
+  "where": "entry:26",
+  "severity": "style",
+  "problem": "ThePrint's excerpt of Purandare confirms the arrest at about 10 p.m. on 27 July 1897 at the Girgaum home of Daji Abaji Khare, Bombay. The source note can say so.",
+  "fix": {
+   "source_note": "ThePrint excerpt of Purandare's Tilak (arrest about 10 p.m., 27 July 1897, at Daji Abaji Khare's house, Girgaum, Bombay); ThePrint opinion on the Epidemic Diseases Act."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bombay-1896",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "The Indian History Collective confirms 40 minutes, 6–3 and 18 months' rigorous imprisonment, and that printer K. M. Bal was acquitted. Bar & Bench confirms the Privy Council refused leave. The trial's last sitting was 14 September, so the verdict date is well supported.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Indian History Collective (trial sat 8–11 and 13–14 September 1897; jury out forty minutes; printer K. M. Bal acquitted); Bar & Bench (6–3, 18 months, Privy Council declined leave)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "bombay-1896",
+  "where": "entry:10",
+  "severity": "style",
+  "problem": "Mainstream Weekly says Rand 'assumed charge' on 19 February. That is consistent with a 10 February appointment, so the two dates need not be in conflict.",
+  "fix": {
+   "source_note": "Poona Plague Committee section, p. 89 (NLS) gives 10 February; The Plague in India 1896–97 vol. II, as cited in Mainstream Weekly, says Rand assumed charge on 19 February. The two may be appointment and assumption of charge."
+  },
+  "confidence": "approx"
+ }
+]

@@ -1,0 +1,442 @@
+[
+ {
+  "chapter": "broad-street-1854",
+  "where": "entry:22",
+  "severity": "error",
+  "problem": "The quote 'upwards of five hundred fatal attacks of cholera in ten days' is not in the 23 Sept 1854 Medical Times and Gazette letter (checked against the John Snow Archive transcription); it comes from the 1855 second edition, which the intro already cites.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "entry:7",
+  "severity": "style",
+  "problem": "The 23 Sept 1854 letter gives Snow's own words on the 3 Sept sample; a short verified quote is available.",
+  "fix": {
+   "quote": "so little impurity in it of an organic nature"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "entry:11",
+  "severity": "error",
+  "problem": "Snow's letter and book say 89 deaths were registered in the three subdistricts that week; the 83 he investigated in detail were those registered in the last three days of the week, not the whole week's list.",
+  "fix": {
+   "text_replace": {
+    "old": "the names and addresses of the cholera deaths registered in the three Soho subdistricts during the week ending 2 September, 83 in his copy",
+    "new": "the list of cholera deaths registered in the three Soho subdistricts during the week ending 2 September: 89 in all, of which he examined in detail the 83 registered in the last three days of the week"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "claim:2",
+  "severity": "style",
+  "problem": "Clarify what the 83 are (deaths registered in the last three days of the week, per Snow's 23 Sept 1854 letter).",
+  "fix": {
+   "text_replace": {
+    "old": "(Snow's copy of the list for the last days: 83)",
+    "new": "(83 of them registered in the last three days of the week, which Snow examined in detail)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "entry:14",
+  "severity": "doubt",
+  "problem": "The investigators' report says their instructions were issued on 8 September and its earliest dated visit is 7 September (Marshall Street slaughterhouse); no start on 6 September is stated there.",
+  "fix": {
+   "date_iso": "1854-09-07",
+   "date_display": "From early September 1854 (first dated visit 7 Sept; instructions dated 8 Sept)",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "convergence:1",
+  "severity": "style",
+  "problem": "The Board's inspectors' first dated visit is 7 September, not 6 September.",
+  "fix": {
+   "text_replace": {
+    "old": "the Board's inspectors begin surveying drains and basements.",
+    "new": "within a day or two the Board's inspectors begin surveying drains and basements."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "eye:stewart",
+  "severity": "error",
+  "problem": "Stewart's own byline and the John Snow Archive study describe him as assistant physician to the Middlesex Hospital.",
+  "fix": {
+   "text_replace": {
+    "old": "Physician to the Middlesex Hospital, which took many of the Soho sick",
+    "new": "Assistant physician to the Middlesex Hospital, which took many of the Soho sick"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "entry:4",
+  "severity": "style",
+  "problem": "Stewart dates the start of the influx to late Friday morning, 1 September (the archive summary says midday).",
+  "fix": {
+   "text_replace": {
+    "old": "Around midday the Middlesex Hospital",
+    "new": "From late on the Friday morning the Middlesex Hospital"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "entry:26",
+  "severity": "error",
+  "problem": "The John Snow Archive study does not conclude the letter is mere family report: it notes that F. B. Smith found no trace of Nightingale in the hospital's outbreak report and called the story a fabrication, while the archive study itself finds Gaskell credible and proposes that Nightingale stood in for a ward sister on leave. This is a dispute and should be presented as positions.",
+  "fix": {
+   "text_replace": {
+    "old": "Historians who have checked the hospital's records find no trace of her in its staff lists, so the letter is read as family report rather than a record.",
+    "new": "Her name does not appear among staff or volunteers in the hospital's report on the outbreak. One historian, F. B. Smith, has called the story a fabrication; the John Snow Archive study judges Gaskell credible and suggests Nightingale stood in for a head ward nurse on leave. The letter remains second-hand family report."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "entry:27",
+  "severity": "doubt",
+  "problem": "The archive study cites the 27 Oct letter (Chapple and Pollard p. 318) for Gaskell's description of prostitutes who came to the hospital; its exact content beyond that was not seen. The digest's 'poor of Soho' wording goes beyond what was checked.",
+  "fix": {
+   "text_replace": {
+    "old": "Gaskell returned to Nightingale's hospital work among the poor of Soho.",
+    "new": "Gaskell returned to Nightingale's cholera nursing at the Middlesex, including her care of women from the streets who came in sick."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "entry:36",
+  "severity": "doubt",
+  "problem": "Chave 1958 does not give 3 April as the day of discovery: it quotes Whitehead's report ('One day last week, however, I happened to be studying the Registrar's Returns') and says he was that day (3 April 1855) about to present his report. The discovery fell on or shortly before 3 April.",
+  "fix": {
+   "date_display": "On or shortly before Tuesday 3 April 1855",
+   "source_note": "Chave 1958 (Whitehead 'about to present his report' on 3 April 1855; his own words: 'one day last week'); Whitehead, Special Investigation of Broad Street, CIC Report pp. 121–69; John Snow Archive Doc 30-II"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "entry:1",
+  "severity": "style",
+  "problem": "The 28 August onset is confirmed in Whitehead's report both from the mother and from Dr Rogers, who was called to the infant on the morning of Monday 28 August; only the UCLA site gives conflicting dates.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "entry:40",
+  "severity": "doubt",
+  "problem": "The issue date 23 June 1855 is not supported by any source cited; the History Blog gives only '1855'. Snow's evidence on offensive trades was given to the select committee on the Public Health and Nuisances Removal bills on 5 March 1855 (John Snow Archive), so the leader followed that.",
+  "fix": {
+   "date_iso": "1855",
+   "precision": "year",
+   "date_display": "1855 (after Snow's evidence of 5 March 1855; issue date not established)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "eye:lancet",
+  "severity": "style",
+  "problem": "Add the date of the evidence the leader attacked.",
+  "fix": {
+   "text_replace": {
+    "old": "in 1855 mocked Snow when he told a parliamentary committee",
+    "new": "in 1855 mocked Snow after he told a parliamentary committee (on 5 March 1855)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "entry:41",
+  "severity": "doubt",
+  "problem": "No source cited gives July 1855 for the Committee for Scientific Inquiries' report; Dean (2016) and PMC1121911 cite it only as Parliamentary Papers 1854–55/1855. The month should not be implied.",
+  "fix": {
+   "date_iso": "1855",
+   "precision": "year",
+   "date_display": "1855 (month not established)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "claim:13",
+  "severity": "doubt",
+  "problem": "As for entry 41: the report's month is not established.",
+  "fix": {
+   "date_iso": "1855",
+   "date_display": "1855 (month not established)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "convergence:7",
+  "severity": "style",
+  "problem": "The Lancet leader and the Board's report cannot be dated to July 1855 from the sources; avoid implying a sequence.",
+  "fix": {
+   "text_replace": {
+    "old": "the Lancet has just mocked Snow.",
+    "new": "the Lancet, the same year, mocked Snow."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "entry:44",
+  "severity": "doubt",
+  "problem": "Dating of 'The Broad Street Pump' varies: Chave 1958 gives Macmillan's Magazine, December 1865, p. 113; the UCLA Snow site gives November 1865 (vol. 13, pp. 113–22); the Wellcome copy is catalogued 1862. Present these as positions.",
+  "fix": {
+   "date_display": "December 1865 (Chave; UCLA gives November 1865) (written later)",
+   "source_note": "Macmillan's Magazine vol. 13, pp. 113–22: December 1865 per Chave 1958, November 1865 per UCLA Snow site; Wellcome copy catalogued as 1862"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "eye:whitehead",
+  "severity": "style",
+  "problem": "Note the second dating for the Macmillan's article.",
+  "fix": {
+   "text_replace": {
+    "old": "(Macmillan's Magazine, Dec 1865; one library record dates its copy 1862)",
+    "new": "(Macmillan's Magazine, Dec 1865 per Chave; Nov 1865 per the UCLA Snow site; one library record dates its copy 1862)"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "entry:45",
+  "severity": "doubt",
+  "problem": "PMC1121911 cites Farr's words from the cholera report in Parliamentary Papers 1867–68, i.e. the report on the 1866 epidemic printed later; the full sentence ends 'a glass of the waters of the Lea'.",
+  "fix": {
+   "date_display": "1866–68 (report on the 1866 epidemic, printed in Parliamentary Papers 1867–68; later)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "entry:46",
+  "severity": "doubt",
+  "problem": "The quote 'the pump was closed nevertheless and the plague was stayed' is taken from Wikipedia and its exact wording was not checked against Lankester's 1866 book. Chave 1958 quotes a verified line from the same work (p. 34). Chave also notes this passage fed the popular story that closing the pump ended the outbreak, which Whitehead later rebutted.",
+  "fix": {
+   "quote": "not an individual in the parish believed that Snow was right",
+   "source_note": "Lankester, Cholera: What It Is and How to Prevent It (1866), p. 34, as quoted in Chave 1958",
+   "digest": "Writing in 1866, Lankester, by then Medical Officer of Health, recalled that in 1854 neither Snow's own profession nor anyone in the parish had believed him, yet the pump had been closed and the deaths had stopped. Chave notes that this account helped fix the popular story that the closure ended the outbreak, a story Whitehead himself later qualified."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "entry:48",
+  "severity": "style",
+  "problem": "Date, venue and the recalled words are confirmed in Chave 1958 and on the UCLA site.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "threads_out:3",
+  "severity": "doubt",
+  "problem": "The link to Philadelphia 1793 rests only on a general resemblance between debates, not on a specific person, institution or documented connection.",
+  "fix": {
+   "to": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "broad-street-1854",
+  "where": "image:0",
+  "severity": "error",
+  "problem": "The URL host 'commons.wikipedia.com' is not Wikimedia Commons; the file page lives at commons.wikimedia.org.",
+  "fix": {
+   "url": "https://commons.wikimedia.org/wiki/File:Snow-cholera-map-1.jpg"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "scutari-1854",
+  "where": "entry:5",
+  "severity": "error",
+  "problem": "The quote 'delicate and worn out' comes from p. 33 of Terrot's Reminiscences, not from her first meeting with Nightingale on 21 Oct 1854 (p. 6), which is what this entry describes. Her verified words for that day are available.",
+  "fix": {
+   "quote": "an impulse to love, trust, and respect her"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "scutari-1854",
+  "where": "entry:35",
+  "severity": "error",
+  "problem": "Neither Cook (1913) nor HistoryNet says Soyer superseded Nightingale's kitchens; Cook says the two planned extra-diet kitchens together, and HistoryNet describes their work as complementary.",
+  "fix": {
+   "text_replace": {
+    "old": "Nightingale welcomed him, and he partly superseded the extra-diet kitchens she had set up.",
+    "new": "Nightingale welcomed him, and the two planned extra-diet kitchens together."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "scutari-1854",
+  "where": "entry:35",
+  "severity": "style",
+  "problem": "Fix source note accordingly.",
+  "fix": {
+   "source_note": "HistoryNet, A celebrity chef in Crimea; Cook, Life, vol. 1 (on the extra-diet kitchens planned with Soyer)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "scutari-1854",
+  "where": "entry:25",
+  "severity": "style",
+  "problem": "HistoryNet says Soyer read the Times report on 2 February 1855; the report's own date is not given.",
+  "fix": {
+   "text_replace": {
+    "old": "After reading the Times report of 2 February on the hospitals,",
+    "new": "After reading a Times report on the hospitals on 2 February,"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "scutari-1854",
+  "where": "entry:42",
+  "severity": "error",
+  "problem": "The Tchernaya (16 August 1855) and the Russian officer's ring are in chapter XVI of Wonderful Adventures ('Under Fire at the Battle of the Tchernaya'), not chapter XVII.",
+  "fix": {
+   "source_note": "Wonderful Adventures (1857), ch. XVI"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "scutari-1854",
+  "where": "entry:48",
+  "severity": "doubt",
+  "problem": "Seacole's text gives no departure date; 16 June 1856 is the date of a testimonial letter printed in the book. She says only that she left a few days after a last visit to Cathcart's Hill, about three weeks before the evacuation was complete.",
+  "fix": {
+   "date_display": "Summer 1856 (no date given in the text)",
+   "precision": "month"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "scutari-1854",
+  "where": "claim:10",
+  "severity": "error",
+  "problem": "Per the Collected Works page, mortality fell to one half in three weeks, to one third after three more (six in all) and to less than a tenth after a further six weeks, i.e. about twelve weeks, not fifteen.",
+  "fix": {
+   "text_replace": {
+    "old": "under a tenth within about fifteen weeks",
+    "new": "under a tenth within about twelve weeks"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "scutari-1854",
+  "where": "entry:14",
+  "severity": "doubt",
+  "problem": "In Hapgood's 1888 translation of 'Sevastopol in December, 1854' the Sisters of Mercy are not named; 'Sisters of charity' appears only in the May 1855 sketch. The clause about the sisters is not supported by the quoted translation.",
+  "fix": {
+   "text_replace": {
+    "old": ", and the sisters calm and practical.",
+    "new": "."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "scutari-1854",
+  "where": "entry:43",
+  "severity": "doubt",
+  "problem": "The often-cited remark that Tolstoy wept to see the city given up may come from a letter rather than his diary; the source note itself says diary wording was not checked.",
+  "fix": {
+   "text_replace": {
+    "old": "and later recorded in his diary that he wept to see the city given up.",
+    "new": "and later wrote that he wept to see the city given up (diary or letter; wording not checked)."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "scutari-1854",
+  "where": "entry:39",
+  "severity": "doubt",
+  "problem": "The completion date of 25 April 1855 (O.S.) could not be confirmed in the sources reached (Fantlab gives only 1855, Sovremennik no. 6). Keep as approximate and say so.",
+  "fix": {
+   "date_display": "25 April 1855 (O.S.) (completion date from the Jubilee edition; not independently confirmed)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "scutari-1854",
+  "where": "entry:28",
+  "severity": "doubt",
+  "problem": "Cook prints 'tear their meat like wild beasts' in a letter to Herbert, but the date 19 February could not be pinned to that passage in the checked text.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "scutari-1854",
+  "where": "entry:3",
+  "severity": "style",
+  "problem": "Household Narrative says '30 more medical officers' (with 15 more awaiting embarkation) and that Smith 'believes' there are 21 at Scutari; neither statement is dated on the page.",
+  "fix": {
+   "text_replace": {
+    "old": "thirty more surgeons were on their way",
+    "new": "thirty more medical officers were on their way"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "scutari-1854",
+  "where": "entry:1",
+  "severity": "style",
+  "problem": "The quote and the '28th ultimo' date are confirmed in the Leader, 14 Oct 1854 (NCSE); only the authorship stays approximate.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "scutari-1854",
+  "where": "entry:30",
+  "severity": "style",
+  "problem": "Bostridge (HNN) confirms the ILN of 24 Feb 1855 and that it showed a Grecian lamp, not the folding Turkish lantern; Cook confirms Macdonald's 'ministering angel' and 'little lamp', but neither gives the date of Macdonald's Times report, so the note stands.",
+  "fix": {
+   "source_note": "Mark Bostridge, 'Florence Nightingale's Secret War' (HNN, 2004) for the ILN date and lamp; Cook, Life, vol. 1 (Macdonald's 'ministering angel' and 'little lamp'); date of Macdonald's Times report not established"
+  },
+  "confidence": "verified"
+ }
+]

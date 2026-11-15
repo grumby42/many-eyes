@@ -1,0 +1,624 @@
+[
+ {
+  "chapter": "philadelphia-1793",
+  "where": "intro:0",
+  "severity": "error",
+  "problem": "Carey's 4,041 is the total of his burial table (1 August to 9 November 1793), not a count of names; his separate list of names runs to mid-December.",
+  "fix": {
+   "text_replace": {
+    "old": "Mathew Carey had counted 4,041 named dead",
+    "new": "Mathew Carey's burial table counted 4,041 dead from 1 August to 9 November"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "eye:carey",
+  "severity": "error",
+  "problem": "The 4,041 figure is the burial-table total, not the number of names in the list.",
+  "fix": {
+   "text_replace": {
+    "old": "carries a list of 4,041 names of the dead",
+    "new": "carries a burial table totalling 4,041 deaths (1 August–9 November 1793) and a list of names of the dead to mid-December"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:48",
+  "severity": "error",
+  "problem": "In the 4th edition 4,041 is the total of the burial table for 1 Aug–9 Nov; the list of names is separate and runs to mid-December. Potter's Field 1,334 and Lutherans 641 confirmed.",
+  "fix": {
+   "digest": "The fourth edition added a list of names of the dead from 1 August to the middle of December, compiled from church books and house-to-house inquiry, which Carey said was not complete and accurate. Its burial table, from 1 August to 9 November, totalled 4,041; the largest figures were the Potter's Field, including the new ground, 1,334, and the German Lutherans, 641."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "claim:13",
+  "severity": "error",
+  "problem": "4,041 is the burial-table total for 1 Aug–9 Nov, not named dead to mid-December. Monthly figures confirmed.",
+  "fix": {
+   "claim": "Burial table totals 4,041 dead, 1 Aug–9 Nov 1793; by month 325 Aug, 1,442 Sept, 1,993 Oct, 118 Nov; later estimates about 5,000 of some 50,000",
+   "evidence": "Carey, 4th ed., burial table and summary"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:6",
+  "severity": "error",
+  "problem": "The Drinker entry is dated 23 August 1793 in Biddle's 1889 Extracts, and the wording there differs from the 1991 edition's text used here; the quote now follows the 1889 print.",
+  "fix": {
+   "date_display": "Friday 23 August 1793",
+   "precision": "day",
+   "confidence": "verified",
+   "quote": "A Fever prevails in the City, particularly in Water St.",
+   "source_note": "Extracts from the Journal of Elizabeth Drinker, ed. H. D. Biddle (Philadelphia: Lippincott, 1889), entry of 23 Aug 1793, as transcribed by PBS Africans in America https://www.pbs.org/wgbh/aia/part3/3h454t.html"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "claim:2",
+  "severity": "error",
+  "problem": "Entry date established as 23 August 1793 (Biddle 1889).",
+  "fix": {
+   "date_display": "23 August 1793",
+   "confidence": "verified",
+   "evidence": "Drinker journal, 23 Aug 1793 (Biddle, Extracts, 1889)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:11",
+  "severity": "doubt",
+  "problem": "In the 1892 printing the 'Thirty eight persons' passage belongs to a letter headed 30 August, with a date line 'Septem: 1.' falling in the middle of it; the sentence may have been written on 30 August.",
+  "fix": {
+   "date_display": "30 August–1 September 1793",
+   "precision": "range",
+   "confidence": "approx",
+   "source_note": "Old Family Letters Relating to the Yellow Fever (Philadelphia: Lippincott, 1892), NLM digitised text; letter begun 30 Aug, continued 1 Sept."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:14",
+  "severity": "error",
+  "problem": "The sentence is not in a postscript: it stands in the 7 September continuation of a letter headed 6 September, which settles the date.",
+  "fix": {
+   "date_display": "Saturday 7 September 1793",
+   "precision": "day",
+   "confidence": "verified",
+   "source_note": "Old Family Letters Relating to the Yellow Fever (Philadelphia: Lippincott, 1892), NLM digitised text (letter headed 6 Sept, continuation dated 7 Sept)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:14",
+  "severity": "style",
+  "problem": "The digest calls it a postscript; it is the next day's continuation.",
+  "fix": {
+   "text_replace": {
+    "old": "In a postscript Rush told Julia",
+    "new": "In the continuation of a letter begun the day before, Rush told Julia"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "claim:5",
+  "severity": "error",
+  "problem": "The Rush sentence is dated 7 September (continuation of the 6 Sept letter).",
+  "fix": {
+   "date_display": "7 September 1793"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:28",
+  "severity": "error",
+  "problem": "Alston's death is recorded in the letter headed 24 September ('This day at 2 o'clock my dear boy Alston expired'), the day after Stall's, not two days after.",
+  "fix": {
+   "text_replace": {
+    "old": "Two days later another pupil, Alston, was dead.",
+    "new": "The next day another pupil, Alston, died."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:44",
+  "severity": "style",
+  "problem": "The 1892 text says the contagion was 'lodged in a surtout coat which her son brought into the house', not an old coat.",
+  "fix": {
+   "text_replace": {
+    "old": "from an old coat",
+    "new": "from a surtout (overcoat) her son had brought into the house"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "claim:11",
+  "severity": "style",
+  "problem": "The two-fifths statement is confirmed in Rush's letter of 3 November 1793; it is his own assertion, not a count.",
+  "fix": {
+   "claim": "Asserts that two-fifths of all the sick sent to Bush Hill have died (his claim, not a hospital count)",
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:2",
+  "severity": "error",
+  "problem": "Helmuth says the man was a corpse on the 20th and that a man of the same family was buried on the 21st, not that he died on the 21st.",
+  "fix": {
+   "text_replace": {
+    "old": "and another death followed in the same family on the 21st",
+    "new": "and a man of the same family was buried on the 21st"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:30",
+  "severity": "error",
+  "problem": "Helmuth says the usual gravediggers could not manage the twenty to twenty-six graves needed each day; the digest reverses the sense.",
+  "fix": {
+   "text_replace": {
+    "old": "Gravediggers could make twenty to twenty-six graves a day, so some burials were done at night, often followed only by the hearse driver.",
+    "new": "The usual gravediggers could not keep up with twenty to twenty-six graves a day, so some burials were made at night, and often only the driver and the inviter followed the coffin."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:10",
+  "severity": "error",
+  "problem": "Founders Online text reads 'every body, who can, is flying from the city'; the quote had been modernised from a secondary page.",
+  "fix": {
+   "quote": "every body, who can, is flying from the city",
+   "source_note": "Jefferson to Madison, 1 Sept 1793, Founders Online https://founders.archives.gov/documents/Jefferson/01-27-02-0005"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "claim:3",
+  "severity": "error",
+  "problem": "Jefferson wrote that about 70 had died 'two days ago' (on one day), not over two days; the mortality ratio is 'At first 3. out of 4. died. Now about 1. out of 3.'",
+  "fix": {
+   "claim": "About 70 died of it on a single day two days earlier, as many more ill; at first 3 in 4 of the sick died, now about 1 in 3"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "convergence:1",
+  "severity": "error",
+  "problem": "Jefferson's figure is seventy dead on one day, not over two days.",
+  "fix": {
+   "text_replace": {
+    "old": "Jefferson's seventy dead in two days",
+    "new": "Jefferson's seventy dead in a single day"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:43",
+  "severity": "error",
+  "problem": "The Founders Online text of 9 Nov 1793 reads 'The fever has almost disappeared.' The longer wording quoted by Poplar Forest is not in the letter.",
+  "fix": {
+   "quote": "The fever has almost disappeared.",
+   "headline": "Almost disappeared",
+   "confidence": "verified",
+   "digest": "From Germantown, Jefferson told Madison that the fever had almost disappeared, that refugees were returning to Philadelphia, and that the Baltimore stage would resume the next day. He had reserved beds for Madison and Monroe at a Germantown tavern.",
+   "source_note": "Jefferson to Madison, 9 Nov 1793, Founders Online https://founders.archives.gov/documents/Jefferson/01-27-02-0299"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:17",
+  "severity": "error",
+  "problem": "Washington's letter to Lear says Martha was unwilling to leave him amid the fever and he would not expose her and the children by staying longer; the digest's reason is not in the letter.",
+  "fix": {
+   "text_replace": {
+    "old": "Washington left with Martha and the children, who would not stay in a house the fever nearly surrounded, and reached Mount Vernon on the 14th.",
+    "new": "Washington left with Martha and the children: she had been unwilling to leave him amid the fever, and he would not keep her and the children there any longer. They reached Mount Vernon on the 14th."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:17",
+  "severity": "style",
+  "problem": "Source upgraded to Founders Online, where the sentence reads 'We remained in Philadelphia until the 10th instt.'",
+  "fix": {
+   "source_note": "Washington to Lear, 25 Sept 1793, Founders Online https://founders.archives.gov/documents/Washington/05-14-02-0095"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "eye:washington",
+  "severity": "error",
+  "problem": "The letter to Lear gives Martha's unwillingness to leave him, not her urging, as the reason for the timing.",
+  "fix": {
+   "text_replace": {
+    "old": "at Martha's urging",
+    "new": "when Martha would not leave without him"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:36",
+  "severity": "doubt",
+  "problem": "The Founders Online letter to Madison of 14 Oct 1793 does ask whether the Executive could lawfully change Congress's meeting place and lists possible towns; letters of the same day to Randolph and Wolcott were not confirmed.",
+  "fix": {
+   "digest": "Washington wrote to Madison asking whether the Executive had any legal power to change the place where Congress met, and weighing Germantown, Wilmington, Trenton, Annapolis, Lancaster, New York and Reading. He put the same question to other advisers. The epidemic had become a constitutional problem.",
+   "confidence": "verified",
+   "source_note": "Washington to Madison, 14 Oct 1793, Founders Online https://founders.archives.gov/documents/Washington/05-14-02-0146"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:9",
+  "severity": "error",
+  "problem": "Carey says Bush Hill belonged to William Hamilton and was occupied by a tenant who opposed its use; it was not empty.",
+  "fix": {
+   "text_replace": {
+    "old": "an empty mansion once rented by Vice-President Adams",
+    "new": "William Hamilton's mansion, once rented by Vice-President Adams, against opposition from the tenant then living there"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:46",
+  "severity": "error",
+  "problem": "The printed Minutes confirm the 14 November 1793 communication that people 'may safely come to the city, without danger from the late prevailing disorder'. The stagecoach detail is not confirmed; Jefferson's 9 Nov letter puts the Baltimore stage's resumption on the 10th.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Minutes of the Proceedings of the Committee (Philadelphia, 1794), session of 14 Nov 1793, NLM digitised text https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2567003R-bk"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:46",
+  "severity": "doubt",
+  "problem": "Stagecoach date unconfirmed and probably wrong.",
+  "fix": {
+   "text_replace": {
+    "old": "Stagecoaches had resumed the day before.",
+    "new": "On 27 October it had still advised absent citizens to wait a week or ten days."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:41",
+  "severity": "doubt",
+  "problem": "The white flag and its date are not found in the printed committee minutes, which record Bush Hill's daily burials into November; the episode rests on unnamed secondary summaries.",
+  "fix": {
+   "date_display": "late October 1793",
+   "precision": "range",
+   "digest": "By the end of October admissions at Bush Hill had fallen sharply; on 27 October Rush reported not one admission or death there that day. Secondary accounts say a white flag was raised over the hospital to show the danger was passing; the printed minutes seen do not record it. Rush wrote on 3 November that two-fifths of all the sick sent there had died.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "convergence:6",
+  "severity": "doubt",
+  "problem": "The white flag is not confirmed in the minutes.",
+  "fix": {
+   "text_replace": {
+    "old": "Bush Hill flew its white flag",
+    "new": "Bush Hill's admissions dwindled"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:24",
+  "severity": "doubt",
+  "problem": "The staffing figures (nine women nurses, ten men, a matron) are from unnamed secondary accounts; the November staff list in the printed Minutes gives a matron, 6 men and 7 women nurses, among others.",
+  "fix": {
+   "text_replace": {
+    "old": "Within days the managers had hired nine women nurses, ten men attendants and a matron.",
+    "new": "They engaged nurses, attendants and a matron; by November the hospital's staff list in the committee minutes named a matron, Mary Saville, with six men and seven women nurses."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "eye:breck",
+  "severity": "error",
+  "problem": "Breck wrote that 'a smart frost came and checked its ravages' on 12 October, not that a hard frost ended the epidemic.",
+  "fix": {
+   "text_replace": {
+    "old": "a hard frost on 12 October ending the epidemic, which the contemporary records do not support",
+    "new": "a 'smart frost' on 12 October that checked the epidemic, which Rush's letters do not bear out (on 11 November he wrote that no frost had yet touched the gardens)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:35",
+  "severity": "error",
+  "problem": "Breck's words are that a smart frost on the 12th 'checked its ravages', after about a thousand deaths from 1 to 12 October; he did not say it ended the epidemic.",
+  "fix": {
+   "digest": "Breck remembered that about a thousand people died between 1 and 12 October, and that a frost on the 12th checked the fever. Carey's tables show the peak on the 11th and a slow decline after it, and Rush wrote on 11 November that no frost had yet touched the gardens; the memory is vivid but compressed.",
+   "headline": "A frost in memory"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "entry:49",
+  "severity": "style",
+  "problem": "'I will not sell my life for money' is Caesar Cranchal's saying as reported by Jones and Allen; the digest should attribute it.",
+  "fix": {
+   "text_replace": {
+    "old": "such as the widow Sarah Bass and Caesar Cranchal,",
+    "new": "such as the widow Sarah Bass and Caesar Cranchal, whose refusal of pay in his own words they quoted,"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "eye:jefferson",
+  "severity": "style",
+  "problem": "Neutral voice: 'a sneer' is the compiler's judgement.",
+  "fix": {
+   "text_replace": {
+    "old": "including a sneer at Hamilton's illness",
+    "new": "including scornful remarks about Hamilton's alarm at his illness"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "philadelphia-1793",
+  "where": "eye:jefferson",
+  "severity": "style",
+  "problem": "On 12 Sept Jefferson planned to leave in three or four days; the departure is about 17 September.",
+  "fix": {
+   "text_replace": {
+    "old": "He left for Virginia in mid-September.",
+    "new": "He left for Virginia in mid-September, a few days after writing on the 12th that he would go in three or four days."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balmis-1803",
+  "where": "intro:2",
+  "severity": "error",
+  "problem": "The roll of 30 November 1803 printed in the aeped study lists 21 boys, Benito Vélez last; other accounts give 22 (or 20 foundlings). The number should be hedged.",
+  "fix": {
+   "text_replace": {
+    "old": "with twenty-two boys aged about three to nine",
+    "new": "with twenty-one boys on the roll of that day (other accounts count twenty-two), aged about three to nine"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balmis-1803",
+  "where": "intro:2",
+  "severity": "error",
+  "problem": "The aeped study of the expedition papers records the purchase in Havana of three enslaved women (and the enlisting of a drummer boy) to carry the vaccine to Yucatán; another reading of the Archivo de Indias file counts four enslaved people bought. Neither supports 'enslaved children'.",
+  "fix": {
+   "text_replace": {
+    "old": "and children taken from Venezuela, Cartagena and Cuba, including enslaved children.",
+    "new": "children taken from Venezuela and Cartagena, and in Havana a drummer boy and enslaved people bought for the purpose (three women, by one reading of the papers)."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "balmis-1803",
+  "where": "entry:14",
+  "severity": "error",
+  "problem": "The roll of 30 Nov 1803 lists 21 boys including Benito Vélez.",
+  "fix": {
+   "headline": "The María Pita sails with the boy carriers",
+   "source_note": "aeped (roll of 30 Nov 1803: 21 boys, Benito Vélez last; contract of the María Pita 8 Oct 1803) https://www.aeped.es/sites/default/files/documentos/5.pdf; other sources count 22 or 20."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balmis-1803",
+  "where": "claim:6",
+  "severity": "error",
+  "problem": "The aeped roll has 21 names including Benito Vélez (20 foundlings plus Benito), not 22.",
+  "fix": {
+   "claim": "Roll of 21 boys aged 3–9 (20 foundlings plus Benito Vélez) as living carriers; other accounts give 22"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balmis-1803",
+  "where": "entry:24",
+  "severity": "error",
+  "problem": "The aeped study records that in Havana three enslaved women were bought and a drummer boy, Miguel José Romero, was enlisted to carry the vaccine to Yucatán (250 pesos); a 2023 Gaceta Sanitaria letter quotes the file as 'we bought four slaves'. 'Enslaved children' is not supported.",
+  "fix": {
+   "text_replace": {
+    "old": "accounts of the Havana stage record enslaved children among them.",
+    "new": "the expedition papers record that enslaved people were bought for the purpose (three women, by the aeped reading; four slaves, in a letter quoted in Gaceta Sanitaria, 2023), with a drummer boy of the Cuba regiment, Miguel José Romero."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balmis-1803",
+  "where": "entry:24",
+  "severity": "style",
+  "problem": "Replace the Wikipedia citation for the enslaved carriers with the studies of the archive file.",
+  "fix": {
+   "source_note": "aeped (date news received; purchase of three enslaved women and the drummer boy) https://www.aeped.es/sites/default/files/documentos/5.pdf; El Tiempo (Balmis's report) https://www.eltiempo.com/salud/la-desagradable-noticia-de-haber-encallado-3437711; Gaceta Sanitaria letter 2023 https://scielosp.org/article/gs/2023.v37/102258"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balmis-1803",
+  "where": "entry:11",
+  "severity": "error",
+  "problem": "A contemporary account quoted by History of Vaccines confirms vaccination 'effected by Dr. Scott, on the 14th of June, 1802' on a child of three, with the matter routed via Vienna, Constantinople, Baghdad and Basra.",
+  "fix": {
+   "date_display": "Monday 14 June 1802",
+   "confidence": "verified",
+   "source_note": "Contemporary account quoted by History of Vaccines https://historyofvaccines.org/blog/an-early-account-of-smallpox-vaccination-in-1803-in-bengal/ (Dr Scott, 14 June 1802, child of three); ThePrint excerpt of Yadav (twenty children, five onward) https://theprint.in/pageturner/excerpt/indias-first-vaccine-producers-werent-labs-they-were-children-cows-buffaloes-goats/1118187"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balmis-1803",
+  "where": "eye:dusthall",
+  "severity": "error",
+  "problem": "The 14 June 1802 date and Dr Scott as vaccinator are confirmed in a contemporary account quoted by History of Vaccines.",
+  "fix": {
+   "text_replace": {
+    "old": "The day, 14 June 1802, is the date usually given and has not been checked against the original report here.",
+    "new": "The day, 14 June 1802, and 'Dr. Scott' as vaccinator are given in an early account quoted by History of Vaccines."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balmis-1803",
+  "where": "claim:4",
+  "severity": "style",
+  "problem": "Date confirmed to the day.",
+  "fix": {
+   "date_iso": "1802-06-14",
+   "date_display": "14 June 1802",
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balmis-1803",
+  "where": "entry:32",
+  "severity": "doubt",
+  "problem": "The sentence about a personnel list of 15 April 1805 naming 'doña Isabel Zendala y Gómez' was not confirmed in the aeped study, which spells her 'Sendales y Gómez' and places her mention in the Canton documents.",
+  "fix": {
+   "text_replace": {
+    "old": " Balmis's list of personnel dated this day names 'doña Isabel Zendala y Gómez'.",
+    "new": ""
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "balmis-1803",
+  "where": "eye:zendal",
+  "severity": "doubt",
+  "problem": "The roll of 15 April 1805 is not confirmed in the sources cited.",
+  "fix": {
+   "text_replace": {
+    "old": "Balmis's rolls (30 November 1803; 15 April 1805)",
+    "new": "Balmis's roll of 30 November 1803 and later papers"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "balmis-1803",
+  "where": "entry:18",
+  "severity": "style",
+  "problem": "Galenus gives 9 February 1804 as the date the child carriers reached San Juan; the aeped study's Puerto Rico section runs from 6 January (leaving the Canaries) to 12 March. Date stands.",
+  "fix": {
+   "source_note": "Galenus (9 Feb 1804) https://galenusrevista.com//wp-content/uploads/2013/09/El_Dr-_Francisco_Oller.pdf; aeped (Puerto Rico stage 6 Jan–12 Mar 1804, including the crossing) https://www.aeped.es/sites/default/files/documentos/5.pdf"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balmis-1803",
+  "where": "entry:13",
+  "severity": "style",
+  "problem": "Galenus confirms vaccination 'se inició con éxito el 28 de noviembre de 1803' under Oller and Tomás Prieto on the governor's orders; Prieto should be named.",
+  "fix": {
+   "text_replace": {
+    "old": "His first successful vaccinations date from 28 November 1803",
+    "new": "His first successful vaccinations, with Dr Tomás Prieto on the governor's orders, date from 28 November 1803"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balmis-1803",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "aeped confirms boarding the Magallanes on 8 February 1805 with 26 children; it does not call them all Mexican.",
+  "fix": {
+   "text_replace": {
+    "old": "with Zendal and 26 Mexican boys gathered as new carriers",
+    "new": "with Zendal and 26 boys gathered in New Spain as new carriers"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balmis-1803",
+  "where": "entry:44",
+  "severity": "style",
+  "problem": "aeped gives 7 September 1806 at San Ildefonso and the 14 August Lisbon arrival; the 17 September alternative remains noted. Confidence can rise for the date used.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "balmis-1803",
+  "where": "entry:7",
+  "severity": "style",
+  "problem": "The phrase matches the widely printed closing sentence of the 1801 Origin ('the annihilation of the Small Pox, the most dreadful scourge of the human species, must be the final result of this practice'); the original page images were not read, so confidence stays approx.",
+  "fix": {
+   "source_note": "Jenner, The Origin of the Vaccine Inoculation (London: D. N. Shury, 1801), James Lind Library https://www.jameslindlibrary.org/jenner-e-1801/ (page images); month of publication not given."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "balmis-1803",
+  "where": "entry:1",
+  "severity": "style",
+  "problem": "Jenner's six weeks from 14 May would be about 25 June; the date of 1 July is not confirmed in the summaries seen, so the month-level date and the 'approx' tag are right.",
+  "fix": {
+   "text_replace": {
+    "old": "(usually given as 1 and 19 July 1796) not checked here.",
+    "new": "(usually given as 1 and 19 July 1796) not confirmed from the sources seen."
+   }
+  },
+  "confidence": "approx"
+ }
+]

@@ -20,15 +20,16 @@ V6ORDER = ["worms-1521", "fatehpur-sikri", "philadelphia-1787", "vienna-1815", "
 V7ORDER = ["balloons-1783", "steam-water", "rainhill-1830", "oceans-1869", "the-road", "kitty-hawk", "channel-atlantic", "airships", "rockets", "jet-age", "shinkansen"]
 _pf = pathlib.Path(__file__).resolve().parent.parent / "pron" / f"pron-v{os.environ.get('VOL', '1')}.json"
 PRON = json.loads(_pf.read_text(encoding="utf-8")) if _pf.exists() else {}
+V9ORDER = ["tenochtitlan-1520", "boston-1721", "philadelphia-1793", "balmis-1803", "cholera-1832", "broad-street-1854", "scutari-1854", "bombay-1896", "influenza-1918", "polio-1954"]
 V15ORDER = ["clean-slates", "dream-books", "hildegard-1141", "missing-days", "diodati-1816", "darwin-1837", "hidden-christians-1865", "waking-ideas", "inflation-1923", "jerusalem-1948", "everett-1957", "berlin-1961", "gold-1971", "private-books"]
 V13ORDER = ["chappe-1794", "morse-1844", "cables-1858", "telephone-1876", "wireless-1901", "titanic-1912", "zimmermann-1917", "midway-1942", "arpanet-1969"]
 V8ORDER = ["supernova-1054", "halley-1066", "eclipse-1715", "leonids-1833", "carrington-1859", "tunguska-1908", "halley-1910", "eclipse-1919"]
-ORDER = {"1": V1ORDER, "2": V2ORDER, "3": V3ORDER, "4": V4ORDER, "5": V5ORDER, "6": V6ORDER, "7": V7ORDER, "8": V8ORDER, "13": V13ORDER, "15": V15ORDER}[VOL]
-ROOT = {"1": SP, "2": SP / "vol2", "3": SP / "vol3", "4": SP / "vol4", "5": SP / "vol5", "6": SP / "vol6", "7": SP / "vol7", "8": SP / "vol8", "13": SP / "vol13", "15": SP / "vol15"}[VOL]
+ORDER = {"1": V1ORDER, "2": V2ORDER, "3": V3ORDER, "4": V4ORDER, "5": V5ORDER, "6": V6ORDER, "7": V7ORDER, "8": V8ORDER, "13": V13ORDER, "15": V15ORDER, "9": V9ORDER}[VOL]
+ROOT = {"1": SP, "2": SP / "vol2", "3": SP / "vol3", "4": SP / "vol4", "5": SP / "vol5", "6": SP / "vol6", "7": SP / "vol7", "8": SP / "vol8", "13": SP / "vol13", "15": SP / "vol15", "9": SP / "vol9"}[VOL]
 out_path = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else SP / "build" / "many-eyes.html"
 stamp = sys.argv[2] if len(sys.argv) > 2 else datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 dt = datetime.datetime.strptime(stamp, "%Y-%m-%dT%H:%M:%SZ")
-build = {"1": "EYES-", "2": "EYES2-", "3": "EYES3-", "4": "EYES4-", "5": "EYES5-", "6": "EYES6-", "7": "EYES7-", "8": "EYES8-", "13": "EYES13-", "15": "EYES15-"}[VOL] + dt.strftime("%Y%m%d-%H%MZ")
+build = {"1": "EYES-", "2": "EYES2-", "3": "EYES3-", "4": "EYES4-", "5": "EYES5-", "6": "EYES6-", "7": "EYES7-", "8": "EYES8-", "13": "EYES13-", "15": "EYES15-", "9": "EYES9-"}[VOL] + dt.strftime("%Y%m%d-%H%MZ")
 
 SHORT = {"Murasaki Shikibu": "Murasaki", "Sei Shōnagon": "Sei Shōnagon"}
 SHORTS = json.loads((SP / "build" / "shorts.json").read_text(encoding="utf-8"))
@@ -99,12 +100,12 @@ def _roman(n):
     for k, sym in ((10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")):
         while n >= k: out += sym; n -= k
     return out
-if VOL in ("2", "3", "4", "5", "6", "7", "8", "13", "15"):
+if VOL in ("2", "3", "4", "5", "6", "7", "8", "9", "13", "15"):
     for i, cid0 in enumerate(V1ORDER):
         fp = SP / f"ch-{cid0}.json"
         if fp.exists():
             EXTERNAL["v1:" + cid0] = {"volume": "Volume I", "num": _roman(i + 1), "title": json.loads(fp.read_text(encoding="utf-8")).get("title", cid0)}
-for _v, _vo, _vd, _vn in (("2", V2ORDER, "vol2", "Volume II"), ("3", V3ORDER, "vol3", "Volume III"), ("4", V4ORDER, "vol4", "Volume IV"), ("5", V5ORDER, "vol5", "Volume V"), ("6", V6ORDER, "vol6", "Volume VI"), ("7", V7ORDER, "vol7", "Volume VII"), ("8", V8ORDER, "vol8", "Volume VIII"), ("13", V13ORDER, "vol13", "Volume XIII")):
+for _v, _vo, _vd, _vn in (("2", V2ORDER, "vol2", "Volume II"), ("3", V3ORDER, "vol3", "Volume III"), ("4", V4ORDER, "vol4", "Volume IV"), ("5", V5ORDER, "vol5", "Volume V"), ("6", V6ORDER, "vol6", "Volume VI"), ("7", V7ORDER, "vol7", "Volume VII"), ("8", V8ORDER, "vol8", "Volume VIII"), ("13", V13ORDER, "vol13", "Volume XIII"), ("15", V15ORDER, "vol15", "Volume XV")):
     if int(VOL) <= int(_v): continue
     for i, cid0 in enumerate(_vo):
         fp = SP / _vd / f"ch-{cid0}.json"
@@ -119,7 +120,13 @@ OUTLINE_TITLE_OF = {"merer": "The Pyramid Logbook", "black-death": "The Great Mo
     "opium-war": "Opium and Gunboats", "irish-famine": "The Great Hunger", "black-ships": "The Black Ships", "delhi-1857": "Delhi, 1857",
     "vesuvius-79": "Ash at Misenum", "spain-1936": "Spain Divided", "moscow-1937": "Moscow, 1937", "partition-1947": "The Sixth River",
     "apollo-11": "One Small Step", "wall-1989": "The Wall Opens"}
-if VOL == "15":
+if VOL == "9":
+    META = {"html_title": "Many Eyes, Volume IX — The Ward", "kicker": "A synoptic reader", "volume": "Volume IX · The Ward",
+        "sub": "Medicine and epidemics, from bedside to inquiry: the sick, the people who nursed them, the doctors and their rivals, and the officials who counted",
+        "preface": "Volume IX goes into the ward. Each chapter takes an epidemic or a turning point in medicine and lays side by side the people who lived through it: the sick and the bereaved, the nurses, the physicians and their opponents, the clerks who kept the bills of mortality, and the inquiries that came after. The chapters run from smallpox in Tenochtitlan in 1520, told by Nahua survivors and Spanish soldiers, through Boston's quarrel over inoculation in 1721, Philadelphia's yellow fever summer of 1793, the expedition that carried the smallpox vaccine around the world in the arms of orphan boys, the first cholera pandemic to reach Europe and America, the Broad Street pump, the hospitals of the Crimean War, plague in Bombay, the influenza of 1918, and the field trial of the polio vaccine in 1954. Each chapter adds a case ledger: what was observed, counted, tried or concluded, when, by whom, and in what kind of record. Arguments about cause and cure are set out as the people of the time held them, with what later evidence showed beside them. People used in experiments are named plainly. Illness and death are told soberly, without clinical detail beyond what the record needs. Most of the twentieth-century material is still in copyright, so it is told in digests; official United States records and English texts printed before 1929 are quoted sparingly. Nothing here is medical advice.",
+        "outline_title": "The series plan", "ledger_title": "The case ledger", "ledger_col": "Observed or concluded",
+        "ledger_blurb": "What was observed, counted, tried or concluded, when, by whom, and in what kind of record. Disputes about cause and cure are shown as positions with their evidence; the book does not rule."}
+elif VOL == "15":
     META = {"html_title": "Many Eyes, Volume XV — Hidden Worlds", "kicker": "A synoptic reader", "volume": "Volume XV · Hidden Worlds",
         "sub": "Dreams, agreements and other realities: the dated records of people who saw a new idea of reality arrive, or watched a society's shared agreement change",
         "preface": "This volume began with a dream: the same world and the same people became a different society simply because they agreed to live differently. Debts were forgotten, care was given freely, and the new way could last only if the people outside it never found out. The chapters that follow do not prove or test that dream. They lay beside it the dated records of people who lived through something like its parts. Some watched a shared agreement change: debts cancelled by decree, ten or eleven days removed from the calendar, money that stopped meaning anything, a currency cut loose from gold. Some lived in a city cut in two, or kept a forbidden faith hidden for two and a half centuries. Others woke with a new idea of the world, in a dream, a vision or a private notebook, and then had to decide whom to tell. Very old thinkers asked the same questions without leaving a dated record, so they stand here rather than on a timeline. Zhuangzi, writing in China in the fourth century BC, told of dreaming he was a butterfly and waking unsure whether he was a man who had dreamed of being a butterfly or a butterfly now dreaming it was a man. The Upanishads and later Vedanta teachers called the world of appearances maya, a real experience that is not the final reality. Aboriginal Australian peoples speak of the Dreaming, a living law and history that holds the land, the people and their ancestors together; it is theirs to tell, and this volume does not try to tell it. Aboriginal authors have described it in their own published words, among them the Ngarrindjeri writer David Unaipon in the 1920s, and a later edition of this volume will add a chapter only from such public records. Several novels have imagined these questions, among them Le Guin's The Lathe of Heaven and The Ones Who Walk Away from Omelas, Miéville's The City & the City, Crouch's Dark Matter and the series Counterpart. They appear here only in the short seam notes, never as evidence. Every entry names its record. Each chapter's record ledger shows when something happened and when it was first written down, because many of these stories were told years after the night they describe. Secondhand, reconstructed and legendary accounts carry a label, and where a voice is missing the book says so.",
@@ -234,8 +241,8 @@ for cid in ORDER:
                         tr = f.get("text_replace")
                         if tr:
                             hit = False
-                            for fld in ("name", "bio", "role", "authenticity", "where", "life", "vantage_label", "side", "short"):
-                                if tr["old"] in str(e.get(fld, "")): e[fld] = e[fld].replace(tr["old"], tr["new"]); hit = True
+                            for fld, val in list(e.items()):
+                                if isinstance(val, str) and tr["old"] in val: e[fld] = val.replace(tr["old"], tr["new"]); hit = True
                             if not hit: raise ValueError("eye text_replace old not found")
                         e.update({k: v for k, v in f.items() if k != "text_replace"})
             elif kind == "intro":
@@ -422,7 +429,7 @@ if VOL == "2" and V2:
     V2["intro"] = ["These chapters from the Volume II outline are still to come. The names under each are leads chosen because the records are known to exist; none of it has been verified yet, and every date and claim will be checked the way the chapters in this book were."]
     if not V2["parts"]:
         V2 = None
-if VOL in ("3", "4", "5", "6", "7", "8", "13", "15"):
+if VOL in ("3", "4", "5", "6", "7", "8", "9", "13", "15"):
     SER = json.loads((SP / "build" / "series.json").read_text(encoding="utf-8"))
     built = {c["id"] for c in chapters}
     for pt in SER["parts"]:
@@ -433,8 +440,10 @@ if VOL in ("3", "4", "5", "6", "7", "8", "13", "15"):
             elif int(VOL) >= 6 and c.get("id") in V5ORDER and (SP / "vol5" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume V"
             elif int(VOL) >= 7 and c.get("id") in V6ORDER and (SP / "vol6" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume VI"
             elif int(VOL) >= 8 and c.get("id") in V7ORDER and (SP / "vol7" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume VII"
-            elif int(VOL) >= 13 and c.get("id") in V8ORDER and (SP / "vol8" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume VIII"
+            elif VOL != "8" and int(VOL) >= 9 and c.get("id") in V8ORDER and (SP / "vol8" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume VIII"
             elif int(VOL) >= 15 and c.get("id") in V13ORDER and (SP / "vol13" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume XIII"
+            elif c.get("id") in V13ORDER and VOL in ("9",) and (SP / "vol13" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume XIII"
+            elif c.get("id") in V15ORDER and VOL in ("9",) and (SP / "vol15" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume XV"
     V2 = SER
 data = json.dumps({"chapters": chapters, "volume2": V2, "meta": META, "external": EXTERNAL}, ensure_ascii=False)
 data = data.replace("</", "<\\/").replace("<!--", "<\\!--")

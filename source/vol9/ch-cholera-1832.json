@@ -1,0 +1,1384 @@
+{
+ "id": "cholera-1832",
+ "title": "King Cholera Crosses the World",
+ "short_title": "Cholera, 1830–1832",
+ "subtitle": "The first cholera pandemic in Europe and North America: Moscow, St Petersburg, Sunderland, London, Leith, Paris, Quebec, Montreal, New York, 1830–1832",
+ "span": "1830–1832",
+ "intro": [
+  "Cholera had spread out of Bengal in 1817. In the late summer of 1830 it reached Moscow, and over the next two years it crossed the Russian Empire, the Baltic, Britain, France and the Atlantic. This chapter follows one disease along that road on one timeline: Moscow and the Russian cordons in 1830, the St Petersburg riots of 1831, Sunderland in October 1831, London in February 1832, Paris in March and April, Quebec and Montreal in June, New York from late June to the autumn.",
+  "No one at the time knew what caused it. Contagionists held that it passed from person to person and called for quarantines, cordons and isolation hospitals; anticontagionists blamed foul air and local filth and pointed to the harm cordons did to trade and the poor. Both positions are recorded here as the witnesses held them. The evidence that cholera spreads chiefly through contaminated water came later, from 1849 to the 1880s.",
+  "The record is uneven, and the chapter says so. Pushkin's letters show the epidemic as quarantine and distance; Greville's diary shows the government's desk, where every order had a cost in trade. Heine reported from inside Paris in its worst weeks, when the prime minister Casimir Perier fell ill (he died on 16 May) and the funeral of General Lamarque, another victim, set off the rising of 5–6 June. In Leith, Thomas Latta tried something new: large injections of salt solution into the veins of the dying, following O'Shaughnessy's analysis of their blood. Months later the same treatment was being tried in a Devon village whose parson kept a diary.",
+  "Across the Atlantic the disease came with emigrant ships through the new quarantine station at Grosse Île. Two English sisters, Catharine Parr Traill and Susanna Moodie, passed it that summer; Traill caught cholera in Montreal and recovered. In New York the merchant Philip Hone watched the news come south, and an ordinary letter-writer described crowds reading the Board of Health's daily count.",
+  "Several eyes here are institutions (the London Central Board of Health and the New York Board of Health), known through their orders and posted returns, and one is an emperor known largely through other people's memoirs. The poorest victims, among them the Irish poor of London's riverside, the emigrants at Grosse Île and the rioters of St Petersburg, left no firsthand writing that has been found; they appear through others' records, which often blamed them."
+ ],
+ "calendar_note": "Russia used the Julian (Old Style) calendar, twelve days behind the Gregorian in the nineteenth century. Russian dates are shown in Old Style in date_display and converted to the Gregorian calendar in date_iso (so 30 September 1830 O.S. sorts as 12 October 1830). All British, French and North American dates are Gregorian.",
+ "eyes": [
+  {
+   "id": "pushkin",
+   "short": "Pushkin",
+   "name": "Alexander Sergeyevich Pushkin",
+   "life": "1799–1837",
+   "role": "Poet, aged 31, newly engaged to Natalia Goncharova; on a short trip to settle the family estate before the wedding",
+   "side": "Russian Empire; literary nobility",
+   "where": "Bolshoye Boldino, Nizhny Novgorod province, cut off from Moscow by quarantine cordons",
+   "lat": 55.003,
+   "lon": 45.312,
+   "waypoints": [
+    {
+     "lat": 55.756,
+     "lon": 37.617,
+     "label": "Leaves Moscow, 31 Aug 1830 (O.S.)"
+    },
+    {
+     "lat": 55.003,
+     "lon": 45.312,
+     "label": "Boldino, 3 Sep – late Nov 1830 (O.S.)"
+    },
+    {
+     "lat": 55.756,
+     "lon": 37.617,
+     "label": "Back in Moscow, 5 Dec 1830 (O.S.)"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "in the countryside, held behind the cordons",
+   "form": "dated letters and dated manuscripts",
+   "language": "Russian",
+   "authenticity": "Letters to Pyotr Pletnev and to his fiancée survive and are printed in the academic editions of his works; manuscripts of the Boldino works carry his own completion dates. English versions are modern translations, so entries here are digests only.",
+   "bio": "Pushkin went to Boldino for a few weeks in September 1830 and stayed about three months, because cholera cordons closed the roads to Moscow, where his fiancée was. The confinement became the most productive season of his life, including a short verse drama about a feast held during a plague. He is the eye who experienced the epidemic chiefly as quarantine, distance and waiting.",
+   "sources": [
+    {
+     "title": "RBTH: What great Russians did in isolation (Boldino dates, letter of 30 September 1830)",
+     "url": "https://www.rbth.com/history/331903-what-great-russians-did-in-isolation"
+    },
+    {
+     "title": "Znanie: Boldinskaya osen (dates of works and letters)",
+     "url": "https://znanierussia.ru/articles/%D0%91%D0%BE%D0%BB%D0%B4%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D1%81%D0%B5%D0%BD%D1%8C"
+    }
+   ]
+  },
+  {
+   "id": "nicholas",
+   "short": "Nicholas I",
+   "name": "Emperor Nicholas I of Russia",
+   "life": "1796–1855",
+   "role": "Emperor of All the Russias, aged 34–35; head of the state that imposed the cholera cordons",
+   "side": "Russian imperial government",
+   "where": "St Petersburg; travelled to cholera-stricken Moscow in autumn 1830",
+   "lat": 59.94,
+   "lon": 30.314,
+   "waypoints": [
+    {
+     "lat": 55.752,
+     "lon": 37.617,
+     "label": "Moscow, autumn 1830"
+    },
+    {
+     "lat": 59.927,
+     "lon": 30.318,
+     "label": "Sennaya Square, St Petersburg, June 1831 (O.S.)"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the state that drew the cordons",
+   "form": "dated letters and official acts (his words at Sennaya known only from others' memoirs)",
+   "language": "Russian",
+   "authenticity": "His own letters on the epidemic survive in published correspondence; his address to the crowd at Sennaya Square is known only from later memoirs and a biographer's version, which differ (one account in particular is regarded as doubtful).",
+   "bio": "Nicholas I governed through the first cholera years by military-style cordons, quarantines and hospitals. The measures halted trade and were met by riots in several places, among them St Petersburg in June 1831 and the military colonies near Staraya Russa in July 1831. He appears here as the principal actor of official Russia; the poor who rioted left almost no firsthand writing of their own.",
+   "sources": [
+    {
+     "title": "Novaya Gazeta (2020): chronicle of the 1831 cholera riots, with memoir sources",
+     "url": "https://novayagazeta.ru/articles/2020/09/05/86970-besposchadnye-hroniki"
+    },
+    {
+     "title": "Arcadia: The St Petersburg cholera riot of 1831",
+     "url": "https://www.environmentandsociety.org/arcadia/st-petersburg-cholera-riot-1831-water-pollution-and-social-tension"
+    }
+   ]
+  },
+  {
+   "id": "nikitenko",
+   "short": "Nikitenko",
+   "name": "Aleksandr Vasilyevich Nikitenko",
+   "life": "1804–1877",
+   "role": "Born a serf, freed in 1824; aged 27 in 1831, a young teacher and official in St Petersburg, later a censor and professor",
+   "side": "Russian Empire; educated commoners",
+   "where": "St Petersburg",
+   "lat": 59.934,
+   "lon": 30.335,
+   "vantage": 2,
+   "vantage_label": "in the capital during the riots",
+   "form": "diary",
+   "language": "Russian",
+   "authenticity": "Diary kept from 1826 to 1877, published posthumously (Russian editions 1889–92 and 1955); an abridged English translation, The Diary of a Russian Censor, is modern, so digests only. Individual 1831 entries are not checked to the day here.",
+   "bio": "Nikitenko's long diary is one of the main private records of Nicholas I's Russia, written by a man who had himself been a serf. In 1831 he was in the capital when cholera arrived in mid-June and the city's poor turned on hospitals and doctors. His angle is that of an educated outsider watching both the crowd and the state.",
+   "sources": [
+    {
+     "title": "Arcadia: The first cholera epidemic in St Petersburg (lists Nikitenko's Dnevnik)",
+     "url": "https://www.environmentandsociety.org/arcadia/first-cholera-epidemic-st-petersburg"
+    }
+   ]
+  },
+  {
+   "id": "greville",
+   "short": "Greville",
+   "name": "Charles Cavendish Fulke Greville",
+   "life": "1794–1865",
+   "role": "Clerk of the Privy Council, aged 37; the council office handled the cholera orders and boards of health",
+   "side": "Britain; Whitehall",
+   "where": "London (Council Office, Whitehall), with racing trips to Newmarket",
+   "lat": 51.504,
+   "lon": -0.127,
+   "waypoints": [
+    {
+     "lat": 52.245,
+     "lon": 0.405,
+     "label": "Newmarket, Oct 1831"
+    },
+    {
+     "lat": 51.504,
+     "lon": -0.127,
+     "label": "London, Nov 1831 –"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "at the desk where the orders were issued",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Journal published as The Greville Memoirs (ed. Henry Reeve, 1874–87); Reeve cut some passages, later restored by the 1938 Strachey–Fulford edition. The 1874 text is public domain.",
+   "bio": "Greville's diary is the inside view of the British response: boards of health formed and re-formed, doctors' quarrels, merchants' anger at trade restrictions, and the gap between the fear of the name 'cholera' and the far greater, unremarked mortality of poverty. He is sceptical, often sardonic, and closely informed.",
+   "sources": [
+    {
+     "title": "The Greville Memoirs, vol. 2, chs. 16–18 (historyhome.co.uk transcription)",
+     "url": "https://historyhome.co.uk/greville/16.htm"
+    },
+    {
+     "title": "Greville Memoirs, chapter 17 (Feb 1832)",
+     "url": "https://historyhome.co.uk/greville/17.htm"
+    },
+    {
+     "title": "Greville Memoirs, chapter 18 (Apr–Aug 1832)",
+     "url": "https://historyhome.co.uk/greville/18.htm"
+    }
+   ]
+  },
+  {
+   "id": "central-board",
+   "short": "Central Board",
+   "name": "Central Board of Health, London (institution)",
+   "life": "1831–1832",
+   "role": "Temporary board of physicians and officials set up by the Privy Council to direct local boards of health",
+   "side": "British government",
+   "where": "London, Council Office, Whitehall",
+   "lat": 51.505,
+   "lon": -0.128,
+   "vantage": 0,
+   "vantage_label": "the official counter of cases",
+   "form": "official orders, reports and bulletins",
+   "language": "English",
+   "authenticity": "An institution, not a person. Its orders and returns were printed in the London Gazette and the medical press; here its acts are dated mainly through Greville's diary and secondary studies, and are marked accordingly.",
+   "bio": "The Central Board was created in 1831 as cholera neared Britain, re-formed when the disease reached Sunderland, and directed local boards to report cases, open cholera hospitals and bury the dead quickly. It sent Dr (later Sir) David Barry to Sunderland to confirm the diagnosis and received Latta's report on saline injection.",
+   "sources": [
+    {
+     "title": "Newcastle University: Cholera in the North East, the spread",
+     "url": "https://cholera.ncl.ac.uk/the-spread"
+    }
+   ]
+  },
+  {
+   "id": "oshaughnessy",
+   "short": "O'Shaughnessy",
+   "name": "William Brooke O'Shaughnessy",
+   "life": "1809–1889",
+   "role": "Irish physician and chemist, aged 22, recently qualified in Edinburgh",
+   "side": "Britain; London medical world",
+   "where": "Sunderland and Newcastle, then London",
+   "lat": 54.906,
+   "lon": -1.383,
+   "waypoints": [
+    {
+     "lat": 54.906,
+     "lon": -1.383,
+     "label": "Sunderland, Dec 1831"
+    },
+    {
+     "lat": 51.507,
+     "lon": -0.128,
+     "label": "London, 1832"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "analysing the blood of the sick",
+   "form": "letters to the Lancet and a printed report",
+   "language": "English",
+   "authenticity": "His Lancet communications of 1831–32 and his Report on the Chemical Pathology of the Malignant Cholera (London, 1832) are public domain. The exact day of each communication is not checked here.",
+   "bio": "O'Shaughnessy analysed the blood of cholera patients in the north-east and reported that it had lost much of its water and salts, proposing that the lost salts be restored by injection into the veins. He later went to India, where he worked on telegraphy and medicine.",
+   "sources": [
+    {
+     "title": "Hektoen International: Leith in the time of cholera (O'Shaughnessy and Latta)",
+     "url": "https://hekint.org/2017/02/01/leith-in-the-time-of-cholera-the-story-of-thomas-latta/"
+    }
+   ]
+  },
+  {
+   "id": "latta",
+   "short": "Latta",
+   "name": "Thomas Latta",
+   "life": "c. 1796–1833",
+   "role": "General practitioner in Leith, near Edinburgh",
+   "side": "Scotland; Leith and Edinburgh medical men",
+   "where": "Leith and the Edinburgh cholera hospital, Drummond Street",
+   "lat": 55.975,
+   "lon": -3.17,
+   "vantage": 0,
+   "vantage_label": "at the bedside, trying a new treatment",
+   "form": "letter (published in the Lancet)",
+   "language": "English",
+   "authenticity": "His letter to the Central Board of Health dated 23 May 1832 was printed in the Lancet in June 1832 and is public domain. He died of tuberculosis on 19 October 1833.",
+   "bio": "Latta took up O'Shaughnessy's proposal and injected large volumes of warm salt solution into the veins of patients in the collapsed stage of cholera. His reports are counted among the first of intravenous saline therapy. The method was abandoned for decades after his death and the epidemic's end.",
+   "sources": [
+    {
+     "title": "Hektoen International: Leith in the time of cholera",
+     "url": "https://hekint.org/2017/02/01/leith-in-the-time-of-cholera-the-story-of-thomas-latta/"
+    }
+   ]
+  },
+  {
+   "id": "coppard",
+   "short": "Coppard",
+   "name": "Rev. William Isaac Coppard",
+   "life": "fl. 1832–1848",
+   "role": "Incumbent of Plympton St Mary, Devon; treasurer and secretary of the parish Board of Health",
+   "side": "England; Church of England parish",
+   "where": "Plympton St Mary, about four miles from Plymouth",
+   "lat": 50.39,
+   "lon": -4.05,
+   "vantage": 1,
+   "vantage_label": "visiting the cottages of the sick",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Written in July and August 1832; published as Cottage Scenes during the Cholera (London: Rivington, 1848). Public domain; the published text may have been shaped for devotional readers.",
+   "bio": "Coppard's diary is the record of a parish: who fell ill, who nursed whom, which families were left without help, and how doctors tried saline injections and in one case a blood transfusion from a neighbour. It is one of the rare day-by-day accounts of cholera from a village rather than a city.",
+   "sources": [
+    {
+     "title": "Cottage Scenes during the Cholera (Project Gutenberg)",
+     "url": "https://gutenberg.org/cache/epub/67063/pg67063-images.html"
+    }
+   ]
+  },
+  {
+   "id": "heine",
+   "short": "Heine",
+   "name": "Heinrich Heine",
+   "life": "1797–1856",
+   "role": "German poet, aged 34, Paris correspondent of the Augsburg Allgemeine Zeitung",
+   "side": "German exile in France",
+   "where": "Paris",
+   "lat": 48.857,
+   "lon": 2.352,
+   "vantage": 1,
+   "vantage_label": "reporter inside the stricken city",
+   "form": "dated newspaper reports (collected 1833)",
+   "language": "German",
+   "authenticity": "Dispatches for the Allgemeine Zeitung were collected as Französische Zustände (1833); the cholera report carries the date line 'Paris, 19. April 1832'. German original public domain; no quote used here.",
+   "bio": "Heine stayed in Paris when many foreigners left, explaining that a close friend was gravely ill. His dispatch combines the carnival on the day cholera was announced, the street killings of suspected 'poisoners', the flight of the rich, and the resentment of the poor that money could buy escape.",
+   "sources": [
+    {
+     "title": "Französische Zustände, article VI (Projekt Gutenberg-DE)",
+     "url": "https://projekt-gutenberg.org/authors/heinrich-heine/books/franzoesische-zustaende/chapter/8"
+    }
+   ]
+  },
+  {
+   "id": "traill",
+   "short": "Traill",
+   "name": "Catharine Parr Traill",
+   "life": "1802–1899",
+   "role": "English emigrant, aged 30, newly married to a half-pay officer, sailing to Upper Canada",
+   "side": "British emigrants",
+   "where": "Aboard the brig Laurel on the St Lawrence; Montreal; then Cobourg",
+   "lat": 45.508,
+   "lon": -73.554,
+   "waypoints": [
+    {
+     "lat": 47.026,
+     "lon": -70.664,
+     "label": "Grosse Île quarantine, 12 Aug 1832"
+    },
+    {
+     "lat": 46.813,
+     "lon": -71.208,
+     "label": "Off Quebec, mid-Aug 1832"
+    },
+    {
+     "lat": 45.508,
+     "lon": -73.554,
+     "label": "Montreal, Aug 1832"
+    },
+    {
+     "lat": 43.96,
+     "lon": -78.168,
+     "label": "Cobourg, 29 Aug 1832"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "emigrant who caught the disease",
+   "form": "dated letters (edited for publication)",
+   "language": "English",
+   "authenticity": "The Backwoods of Canada (London, 1836) is presented as her letters home with place and date lines; the text was edited for publication. Public domain.",
+   "bio": "Traill arrived during the epidemic and passed the Grosse Île quarantine, Quebec and Montreal in August 1832. She fell ill with cholera on the morning she was due to leave Montreal and recovered, nursed by fellow travellers. She is the patient's eye in this chapter.",
+   "sources": [
+    {
+     "title": "The Backwoods of Canada (online text)",
+     "url": "https://litbit.ru/en/catharine-parr-strickland-traill/the-backwoods-of-canada-being-letters-from-the-wife-of-an-emigrant-officer-illustrative-of-the-domestic-economy-of-british-america"
+    }
+   ]
+  },
+  {
+   "id": "moodie",
+   "short": "Moodie",
+   "name": "Susanna Moodie (née Strickland)",
+   "life": "1803–1885",
+   "role": "English emigrant writer, aged 29, Traill's younger sister, sailing with her husband and infant",
+   "side": "British emigrants",
+   "where": "Aboard the Anne at the Grosse Île quarantine station, then Quebec",
+   "lat": 47.026,
+   "lon": -70.664,
+   "vantage": 1,
+   "vantage_label": "at the quarantine island",
+   "form": "memoir (written later)",
+   "language": "English",
+   "authenticity": "Roughing It in the Bush (1852) was written twenty years after the events, partly from memory; its opening chapter on Grosse Île is a later literary account, not a diary. Exact day of arrival is not checked here.",
+   "bio": "Moodie reached Grosse Île in late August 1832, weeks after her sister. Her later book describes the crowded quarantine island and the fear of Quebec. Her account adds the immigrants' view of the quarantine that officials designed for them.",
+   "sources": [
+    {
+     "title": "Roughing It in the Bush (London, 1852), chapter 1",
+     "url": ""
+    }
+   ]
+  },
+  {
+   "id": "hone",
+   "short": "Hone",
+   "name": "Philip Hone",
+   "life": "1780–1851",
+   "role": "Retired auctioneer and former mayor of New York (1826–27), aged 51",
+   "side": "New York merchant elite",
+   "where": "Broadway, New York City",
+   "lat": 40.712,
+   "lon": -74.007,
+   "vantage": 2,
+   "vantage_label": "merchant diarist in the city",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Twenty-eight manuscript volumes at the New-York Historical Society; selections published 1889 (ed. Bayard Tuckerman) and 1927 (ed. Allan Nevins). Public domain.",
+   "bio": "Hone followed the disease's approach from Quebec and Montreal through news reports, then recorded the city's cancelled Fourth of July and the stories of sudden deaths. His diary is the comfortable citizen's view of an epidemic that fell hardest on the poor of the lower wards.",
+   "sources": [
+    {
+     "title": "The Diary of Philip Hone (1889), vol. 1 (Internet Archive PDF)",
+     "url": "https://bookserver.archive.org/acquire/diaryofphiliphon01honeuoft.pdf"
+    }
+   ]
+  },
+  {
+   "id": "bayley",
+   "short": "Bayley",
+   "name": "William S. Bayley",
+   "life": "fl. 1832",
+   "role": "New York resident writing to relatives on Long Island",
+   "side": "New York households",
+   "where": "Near Walker Street, lower Manhattan",
+   "lat": 40.718,
+   "lon": -74.003,
+   "vantage": 2,
+   "vantage_label": "neighbour of infected houses",
+   "form": "dated letter",
+   "language": "English",
+   "authenticity": "A single letter of 23 July 1832 held and published online by the New-York Historical Society. Little else is known of the writer.",
+   "bio": "Bayley's letter records what ordinary New Yorkers did each day of the epidemic: crowd City Hall Park to read the Board of Health's posted count. He noted cases in houses on his own street.",
+   "sources": [
+    {
+     "title": "New-York Historical Society cholera blog: Bayley letter and the daily reports",
+     "url": "https://cholerablog.nyhistory.org/?p=66"
+    }
+   ]
+  },
+  {
+   "id": "ny-board",
+   "short": "NY Board",
+   "name": "New York City Board of Health (institution)",
+   "life": "1832",
+   "role": "The mayor and aldermen sitting as a Board of Health, with a medical commission issuing daily reports",
+   "side": "City of New York",
+   "where": "City Hall, New York",
+   "lat": 40.7128,
+   "lon": -74.006,
+   "vantage": 0,
+   "vantage_label": "the official count",
+   "form": "daily printed reports (broadsides)",
+   "language": "English",
+   "authenticity": "An institution, not a person. Its daily reports listing new cases and deaths with addresses were posted in public places; surviving broadsides are held by the New-York Historical Society. Totals given here are approximate.",
+   "bio": "The city's Board of Health set up temporary cholera hospitals and a commission that posted daily figures. Its counts became the city's shared news: people gathered to read them, and merchants watched them for signs of the end.",
+   "sources": [
+    {
+     "title": "New-York Historical Society cholera blog",
+     "url": "https://cholerablog.nyhistory.org/?p=66"
+    },
+    {
+     "title": "Virtual New York (CUNY): cholera 1832",
+     "url": "https://virtualny.ashp.cuny.edu/cholera/1832/cholera_1832_4new.html"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1830-09-21",
+   "date_display": "9 September 1830 (O.S.)",
+   "precision": "day",
+   "eye": "pushkin",
+   "place": "Boldino",
+   "headline": "Delighted with the steppe village; cholera all around",
+   "digest": "Six days after arriving, Pushkin wrote to his friend Pletnev with a mixture of delight and dread: the village and its empty steppe enchanted him, he could write undisturbed, and yet the disease he called 'cholera morbus' was spreading in the province around him. He joked darkly that it might carry him off before his wedding.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Letter to P. A. Pletnev from Boldino, 9 September 1830 (O.S.), in the academic edition of Pushkin's letters; RBTH summarises an undated Pletnev letter of this kind. Day from standard editions, not re-checked against the text."
+  },
+  {
+   "date_iso": "1830-10-11",
+   "date_display": "29 September 1830 (O.S.)",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Moscow",
+   "headline": "The emperor travels into cholera-stricken Moscow",
+   "digest": "With cholera spreading in Moscow and the city being ringed by cordons, Nicholas I came to the old capital in person, a visit later celebrated as a gesture of courage. He then had to observe a quarantine himself on leaving. Official Russia's answer to the disease was military: cordons, inspection posts and cholera hospitals.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Standard histories of the 1830 Moscow epidemic (e.g. R. E. McGrew, Russia and the Cholera, 1965); exact date not re-checked here."
+  },
+  {
+   "date_iso": "1830-10-12",
+   "date_display": "30 September 1830 (O.S.)",
+   "precision": "day",
+   "eye": "pushkin",
+   "place": "Boldino",
+   "headline": "Five quarantines between Boldino and Moscow",
+   "digest": "Writing to his fiancée, Pushkin complained that five quarantine posts now stood between Boldino and Moscow, each requiring about fourteen days' detention. He was low in spirits and unsure when, or whether, he could reach her. The cordons turned a planned stay of weeks into an indefinite confinement.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Letter to N. N. Goncharova, 30 September 1830 (O.S.), as summarised by RBTH."
+  },
+  {
+   "date_iso": "1830-11-18",
+   "date_display": "6 November 1830 (O.S.)",
+   "precision": "day",
+   "eye": "pushkin",
+   "place": "Boldino",
+   "headline": "Completes a verse play set at a plague feast",
+   "digest": "Pushkin finished 'A Feast in the Time of Plague', a short dramatic scene adapted from John Wilson's play about the London plague of 1665. Young people feast in a street of the dying while their host sings a hymn in praise of the plague; a priest rebukes them. He wrote it while cholera kept him behind the cordons.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Completion date on the manuscript as given in standard editions of the Little Tragedies; not re-checked here."
+  },
+  {
+   "date_iso": "1830-12-17",
+   "date_display": "5 December 1830 (O.S.)",
+   "precision": "day",
+   "eye": "pushkin",
+   "place": "Moscow",
+   "headline": "Through the cordons at last, back in Moscow",
+   "digest": "After failed attempts to pass the quarantine posts, Pushkin finally reached Moscow in early December, about three months after setting out for a stay of one. His fiancée's family had stayed in the city through the epidemic.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "RBTH gives 5 December; Znanie notes the earlier failed attempt to cross the cordons."
+  },
+  {
+   "date_iso": "1830-12-21",
+   "date_display": "9 December 1830 (O.S.)",
+   "precision": "day",
+   "eye": "pushkin",
+   "place": "Moscow",
+   "headline": "Tallying what the quarantine autumn produced",
+   "digest": "From Moscow Pushkin wrote to Pletnev listing his Boldino work: the last chapters of Eugene Onegin ready for print, five prose tales, the short dramas, and some thirty lyric poems. The letter reads as an inventory of an enforced isolation turned to use.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Letter to Pletnev, 9 December 1830 (O.S.), as summarised by Znanie."
+  },
+  {
+   "date_iso": "1831-07",
+   "date_display": "Late June 1831 (O.S.)",
+   "precision": "range",
+   "eye": "nikitenko",
+   "place": "St Petersburg",
+   "headline": "Cholera reaches the capital; rumours of poisoning",
+   "digest": "Nikitenko's diary for the summer of 1831 records the arrival of cholera in St Petersburg in mid-June, the fear in the streets, and the rumours among the poor that doctors and foreigners were poisoning them. He wrote of the crowd's attacks on the cholera hospital and of the emperor's appearance before them, viewing both the panic and the state's harshness with unease.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Nikitenko, Dnevnik (1955 edition), entries for June–July 1831; individual entry dates not checked here. Outbreak start of 14 June from Arcadia (Barabanova)."
+  },
+  {
+   "date_iso": "1831-07-05",
+   "date_display": "23 June 1831 (O.S.)",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Sennaya Square, St Petersburg",
+   "headline": "The emperor confronts the crowd at the Haymarket",
+   "digest": "The day after a crowd stormed the central cholera hospital at Sennaya Square, Nicholas I drove to the square and addressed a crowd estimated at about 5,000. Memoirists later gave different versions: that he ordered them to their knees, that he scolded them for disorder, or (in an account regarded as doubtful) that he drank a cholera remedy himself. Troops were in the city and the unrest spread to other districts.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Novaya Gazeta (2020) chronicle of memoir sources; Arcadia article on the riot. The words attributed to the emperor come only from later memoirs."
+  },
+  {
+   "date_iso": "1831-07-23",
+   "date_display": "11 July 1831 (O.S.)",
+   "precision": "day",
+   "eye": "nicholas",
+   "place": "Military colonies near Staraya Russa, Novgorod province",
+   "headline": "Mutiny in the military colonies over cholera",
+   "digest": "In the military settlements around Staraya Russa, where cholera had broken out, soldier-colonists rose against their officers and doctors amid rumours of poisoning. The rising was suppressed by force; one later historian put the dead among officers and officials at over a hundred. Nicholas went to the colonies afterwards and punishments followed.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Novaya Gazeta (2020), citing A. A. Kersnovsky; start date 11 July (O.S.) from standard histories, not re-checked."
+  },
+  {
+   "date_iso": "1831-10-01",
+   "date_display": "1 October 1831",
+   "precision": "day",
+   "eye": "greville",
+   "place": "Newmarket",
+   "headline": "Off to the races to escape Reform and cholera",
+   "digest": "Greville left London for the Newmarket races, glad to get away from 'Reform and cholera and politics'. At this point cholera was a distant threat moving across Europe, and the Reform Bill crisis filled his days.",
+   "quote": "Reform and cholera and politics",
+   "confidence": "verified",
+   "source_note": "Greville Memoirs, entry of 1 October 1831 (historyhome ch. 16)."
+  },
+  {
+   "date_iso": "1831-11-11",
+   "date_display": "11 November 1831",
+   "precision": "day",
+   "eye": "greville",
+   "place": "London",
+   "headline": "Called back to town: cholera at Sunderland",
+   "digest": "Greville had returned on 8 November because cholera had broken out at Sunderland a few days before. The government formed another Board of Health without dissolving the first, and Greville recorded the confusion of overlapping authorities.",
+   "quote": "formed another Board of Health, but without dissolving the first",
+   "confidence": "verified",
+   "source_note": "Greville Memoirs, 11 November 1831 (historyhome ch. 16)."
+  },
+  {
+   "date_iso": "1831-11-14",
+   "date_display": "14 November 1831",
+   "precision": "day",
+   "eye": "greville",
+   "place": "London",
+   "headline": "Sunderland's crowded houses and angry merchants",
+   "digest": "Reports from Sunderland were still uncertain. Merchants complained bitterly about the restrictions placed on an infected port. Greville noted the conditions of the poor there: houses holding 150 people, five and six to a bed.",
+   "quote": "houses with 150 inmates",
+   "confidence": "verified",
+   "source_note": "Greville Memoirs, 14 November 1831 (historyhome ch. 16)."
+  },
+  {
+   "date_iso": "1831-11-22",
+   "date_display": "22 November 1831",
+   "precision": "day",
+   "eye": "central-board",
+   "place": "London, Council Office",
+   "headline": "An order to compel doctors to report cases",
+   "digest": "With the disease slowly spreading at Sunderland, the Central Board of Health pressed its measures and a strong order was issued requiring medical men to report cases. Local practitioners and merchants had resisted naming the disease, fearing quarantine of the port.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Recorded in Greville Memoirs, 22 November 1831 (historyhome ch. 16)."
+  },
+  {
+   "date_iso": "1831-11-23",
+   "date_display": "23 November 1831",
+   "precision": "day",
+   "eye": "greville",
+   "place": "London",
+   "headline": "Dr Barry confirms it is cholera",
+   "digest": "Dr David Barry's first letter from Sunderland reached Whitehall declaring the disease identical with the Asiatic cholera seen abroad. He recorded that £200 was sent to relieve the most pressing distress in the town.",
+   "quote": "declares the identity of the disease",
+   "confidence": "verified",
+   "source_note": "Greville Memoirs, 23 November 1831 (historyhome ch. 16)."
+  },
+  {
+   "date_iso": "1831-12",
+   "date_display": "December 1831",
+   "precision": "month",
+   "eye": "oshaughnessy",
+   "place": "Sunderland and Newcastle",
+   "headline": "The blood has lost its water and salts",
+   "digest": "O'Shaughnessy went north to analyse the blood and evacuations of cholera patients. He reported that the blood was thick and dark and had lost a large share of its water and its saline matter, and proposed that the lost salts be restored by injection into the veins.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "His Lancet communications of December 1831 and the Report on the Chemical Pathology of the Malignant Cholera (1832); exact dates not re-checked. Hektoen International dates his 'Experiments on the Blood in Cholera' in the Lancet to March 1832."
+  },
+  {
+   "date_iso": "1831-12-08",
+   "date_display": "8 December 1831",
+   "precision": "day",
+   "eye": "greville",
+   "place": "London",
+   "headline": "Cholera declines, but trade restrictions throw men out of work",
+   "digest": "The disease was on the decline at Sunderland, but the restrictions on its trade were doing their own damage: Manchester firms cut orders and Coventry asked for an answer on prohibitions. Greville expected many workmen to be thrown out of work, a cost of the measures that the cholera returns did not count.",
+   "quote": "The cholera is on the decline at Sunderland",
+   "confidence": "verified",
+   "source_note": "Greville Memoirs, 8 December 1831 (historyhome ch. 16)."
+  },
+  {
+   "date_iso": "1832-01-25",
+   "date_display": "25 January 1832",
+   "precision": "day",
+   "eye": "greville",
+   "place": "London",
+   "headline": "Cholera near Edinburgh; precautions doubted",
+   "digest": "The disease had come within three miles of Edinburgh. Greville noted a place where about one in five of the inhabitants had been attacked despite having enough food, warmth and clothing, and concluded that the official precautions seemed useless. The disease, he wrote, escaped all speculation.",
+   "quote": "within three miles of Edinburgh",
+   "confidence": "verified",
+   "source_note": "Greville Memoirs, 25 January 1832 (historyhome ch. 17)."
+  },
+  {
+   "date_iso": "1832-02-14",
+   "date_display": "14 February 1832",
+   "precision": "day",
+   "eye": "greville",
+   "place": "London",
+   "headline": "Seven cases: Rotherhithe, Limehouse, a ship off Greenwich",
+   "digest": "Cholera reached London: seven cases in all, among very poor people, most of them Irish. Greville described a local board of health meeting held in a public house that ended in drunkenness with nothing done. Members of the Central Board were sent out to organise local boards. Later that day he wrote simply that the cholera was established.",
+   "quote": "The cholera is established",
+   "confidence": "verified",
+   "source_note": "Greville Memoirs, two entries of 14 February 1832 (historyhome ch. 17)."
+  },
+  {
+   "date_iso": "1832-02-14",
+   "date_display": "14 February 1832",
+   "precision": "day",
+   "eye": "central-board",
+   "place": "London",
+   "headline": "Notice that London is no longer healthy",
+   "digest": "Formal notice was given to the Lord Mayor and the Foreign Secretary that London was no longer a healthy port, a declaration with immediate consequences for shipping and foreign trade. From this point the boards issued regular returns of cases and deaths.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Recorded in Greville Memoirs, second entry of 14 February 1832 (historyhome ch. 17)."
+  },
+  {
+   "date_iso": "1832-02-17",
+   "date_display": "17 February 1832",
+   "precision": "day",
+   "eye": "greville",
+   "place": "London",
+   "headline": "More alertness than alarm",
+   "digest": "After three days with twenty-eight cases, Greville judged that the cholera had caused more alertness than alarm. He called the numbers a trifle beside the diseases that killed the poor every year unnoticed, and put the fear down to the disease's name and its frightening symptoms.",
+   "quote": "more alertness than alarm",
+   "confidence": "verified",
+   "source_note": "Greville Memoirs, 17 February 1832 (historyhome ch. 17)."
+  },
+  {
+   "date_iso": "1832-03-29",
+   "date_display": "Thursday 29 March 1832 (Mi-Carême), as recalled on 19 April",
+   "precision": "day",
+   "eye": "heine",
+   "place": "Paris boulevards",
+   "headline": "Cholera announced on carnival day",
+   "digest": "Heine later described the day the cholera was officially announced: a sunny Mi-Carême, crowds on the boulevards, some revellers in masks that mocked the disease. That night the masked balls were fuller than ever, until dancers collapsed and carriages carried them to the Hôtel-Dieu. He wrote that some were buried in their costumes.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Französische Zustände, article VI, dated Paris, 19 April 1832; describes events of 29 March."
+  },
+  {
+   "date_iso": "1832-04-01",
+   "date_display": "1 April 1832",
+   "precision": "day",
+   "eye": "greville",
+   "place": "London",
+   "headline": "Mobs, vestries and disputes over whether it exists",
+   "digest": "Cholera was spreading while people argued over whether it existed at all and whether it was contagious. Vestries resisted the boards of health. In Marylebone a crowd seized a patient's chair and attacked the bearers and the surgeon. Greville wrote angrily that London's crowds were no less barbarous than Russia's serfs.",
+   "quote": "not a whit less barbarous than the serfs in Russia",
+   "confidence": "verified",
+   "source_note": "Greville Memoirs, 1 April 1832 (historyhome ch. 18)."
+  },
+  {
+   "date_iso": "1832-04-08",
+   "date_display": "8 April 1832",
+   "precision": "day",
+   "eye": "greville",
+   "place": "London",
+   "headline": "The first wave fades in London",
+   "digest": "Greville recorded that the cholera was disappearing in London and in the country. The spring outbreak in the capital had been far smaller than the one now raging in Paris.",
+   "quote": "The cholera is disappearing here and in the country.",
+   "confidence": "verified",
+   "source_note": "Greville Memoirs, 8 April 1832 (historyhome ch. 18)."
+  },
+  {
+   "date_iso": "1832-04-14",
+   "date_display": "14 April 1832",
+   "precision": "day",
+   "eye": "greville",
+   "place": "London",
+   "headline": "Awful news from Paris",
+   "digest": "Accounts from Paris told of about 1,300 cases in a day and around 1,000 on average, with many deaths among the upper classes, while London had seldom averaged more than fifty. He noted that Casimir Perier, the prime minister, had fallen ill after visiting the Hôtel-Dieu with the Duke of Orléans.",
+   "quote": "The accounts from Paris of the cholera are awful",
+   "confidence": "verified",
+   "source_note": "Greville Memoirs, 14 April 1832 (historyhome ch. 18)."
+  },
+  {
+   "date_iso": "1832-04-19",
+   "date_display": "19 April 1832",
+   "precision": "day",
+   "eye": "heine",
+   "place": "Paris",
+   "headline": "Poisoning rumours, street killings and the flight of the rich",
+   "digest": "Heine's dispatch described rumours that people were being poisoned in their food and drink, made worse by a police notice; mobs killed several suspects, and he saw one man beaten to death in the rue de Vaugirard. The newspapers later admitted about 2,000 deaths on 10 April alone, and some 120,000 passports were issued as the rich fled. He stayed, he said, because a close friend was gravely ill, not out of bravado.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Französische Zustände, article VI, dated Paris, 19 April 1832 (Projekt Gutenberg-DE)."
+  },
+  {
+   "date_iso": "1832-05-23",
+   "date_display": "23 May 1832",
+   "precision": "day",
+   "eye": "latta",
+   "place": "Leith",
+   "headline": "Report to the Board: salt water into the veins",
+   "digest": "Latta wrote to the Central Board of Health describing how he had injected warm saline solution into the veins of patients in the last stage of collapse. His first subject, an elderly woman, revived for a time but died; later patients recovered. He claimed that about a third of those treated survived who would otherwise have died.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Latta's letter of 23 May 1832 to the Central Board of Health, printed in the Lancet, June 1832; Hektoen International summary."
+  },
+  {
+   "date_iso": "1832-06",
+   "date_display": "June 1832",
+   "precision": "month",
+   "eye": "latta",
+   "place": "Leith / London",
+   "headline": "The Lancet prints Latta's letter",
+   "digest": "The Lancet published Latta's communication and its editor thanked him for his zeal and courage in pursuing the method. Other practitioners began to try saline injection, with mixed results, and the debate over it ran through the medical journals that summer.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Lancet, June 1832 (vol. 2 of 1831–32, p. 274), as cited by Hektoen International; the exact issue date is given differently by different sources."
+  },
+  {
+   "date_iso": "1832-06-15",
+   "date_display": "Friday 15 June 1832",
+   "precision": "day",
+   "eye": "hone",
+   "place": "New York",
+   "headline": "News from Quebec: the Carricks and its emigrants",
+   "digest": "Hone recorded that cholera had reached Quebec with the Carricks, a ship of Irish emigrants. First reports gave fifteen cases and eight deaths, then seventy cases; he was struck by how deadly it seemed. The mayor had barred steamboats carrying sick passengers from the city.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary of Philip Hone (1889), vol. 1, p. 56."
+  },
+  {
+   "date_iso": "1832-06-18",
+   "date_display": "Monday 18 June 1832",
+   "precision": "day",
+   "eye": "hone",
+   "place": "New York",
+   "headline": "Montreal's dead and prayers in New York churches",
+   "digest": "The churches held special prayers and sermons to prepare the city. Montreal's deaths were reported at about 250, and officials were working to keep emigrants from Canada out of New York State.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary of Philip Hone (1889), vol. 1, pp. 56–57."
+  },
+  {
+   "date_iso": "1832-06-27",
+   "date_display": "Late June 1832",
+   "precision": "range",
+   "eye": "ny-board",
+   "place": "New York, lower wards",
+   "headline": "First cases in the city",
+   "digest": "The first cases in New York were reported in late June, among them an Irish family on Cherry Street, the first to fall ill on the night of Monday 26 June. The medical men and the Board argued at first over whether to announce cholera at all, fearing panic and ruin to trade.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Early America Review account of the Fitzgerald family (26 June); Board's announcement date not checked here."
+  },
+  {
+   "date_iso": "1832-07-04",
+   "date_display": "Wednesday 4 July 1832",
+   "precision": "day",
+   "eye": "hone",
+   "place": "New York",
+   "headline": "No Fourth of July",
+   "digest": "The cholera alarm cancelled Independence Day: no parade, no corporation dinner. Hone wrote that the disease was now in the city in full force.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary of Philip Hone (1889), vol. 1, pp. 57–58."
+  },
+  {
+   "date_iso": "1832-07-12",
+   "date_display": "12 July 1832",
+   "precision": "day",
+   "eye": "greville",
+   "place": "London",
+   "headline": "Cholera returns to London",
+   "digest": "A second wave had reached London. Greville observed that the deaths of servants in known households frightened people far more than any number of distant deaths. The Irish leader O'Connell was said to be avoiding Parliament for fear of it.",
+   "quote": "The cholera is here, and diffuses a certain degree of alarm.",
+   "confidence": "verified",
+   "source_note": "Greville Memoirs, 12 July 1832 (historyhome ch. 18)."
+  },
+  {
+   "date_iso": "1832-07-13",
+   "date_display": "13 July 1832",
+   "precision": "day",
+   "eye": "coppard",
+   "place": "Plympton St Mary",
+   "headline": "The parish's first case",
+   "digest": "A woman who had come from Plymouth in good health died of cholera within hours, the first case in the parish. Coppard recorded dismay and confusion among the neighbours. The next day only two mourners besides the bearers followed her coffin, as the health advice of the time urged.",
+   "quote": "greatest dismay and confusion prevailed",
+   "confidence": "verified",
+   "source_note": "Cottage Scenes during the Cholera (1848), entries of 13–14 July 1832."
+  },
+  {
+   "date_iso": "1832-07-22",
+   "date_display": "Sunday 22 July 1832",
+   "precision": "day",
+   "eye": "ny-board",
+   "place": "City Hall, New York",
+   "headline": "The day's report posted to a waiting crowd",
+   "digest": "The Board's medical commission posted its daily report of new cases and deaths since the previous morning, with street addresses, in public places. City Hall Park filled with people waiting to read it. By mid-July the city was losing around a hundred people a day.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "New-York Historical Society cholera blog (daily reports; Bayley letter); Early America Review for deaths in mid-July."
+  },
+  {
+   "date_iso": "1832-07-23",
+   "date_display": "Monday 23 July 1832",
+   "precision": "day",
+   "eye": "bayley",
+   "place": "New York, near Walker Street",
+   "headline": "The Park black with people",
+   "digest": "Bayley wrote to his relatives on Long Island that the day before the Park had been 'black with persons' waiting for the report. Cholera had been at No. 5 Walker Street and, the day before, at No. 9. He could think of no street except Park Place that had escaped it.",
+   "quote": "the Park was black with persons",
+   "confidence": "verified",
+   "source_note": "Letter of 23 July 1832, New-York Historical Society cholera blog."
+  },
+  {
+   "date_iso": "1832-07-23",
+   "date_display": "Monday 23 July 1832",
+   "precision": "day",
+   "eye": "hone",
+   "place": "New York",
+   "headline": "Dreadful stories; livelier streets than expected",
+   "digest": "Hone recorded a man who died of cholera at Harlem and reported that, of the twenty people at the coroner's inquest, nine had since died. He heard many dreadful stories, yet found the streets livelier than he had expected.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Diary of Philip Hone (1889), vol. 1, p. 58."
+  },
+  {
+   "date_iso": "1832-07-25",
+   "date_display": "25 July 1832",
+   "precision": "day",
+   "eye": "greville",
+   "place": "London",
+   "headline": "A sudden death and the flight from town",
+   "digest": "The death within hours of a young, healthy woman known in society caused widespread fear, and people left London. Greville noted that the disease spread gradually in every direction, unevenly between town and country, and that dread of it absorbed everyone.",
+   "quote": "the dread of cholera absorbs everybody",
+   "confidence": "verified",
+   "source_note": "Greville Memoirs, 25 July 1832 (historyhome ch. 18)."
+  },
+  {
+   "date_iso": "1832-08-05",
+   "date_display": "Sunday 5 August 1832",
+   "precision": "day",
+   "eye": "coppard",
+   "place": "Plympton St Mary",
+   "headline": "A crowded, silent church",
+   "digest": "Church attendance was unusually high and about double the usual number took Communion. Coppard noted a deathlike stillness and solemnity in the congregation. Two new cases were reported at Underwood the same day.",
+   "quote": "a death-like stillness, and a marked solemnity of deportment",
+   "confidence": "verified",
+   "source_note": "Cottage Scenes during the Cholera (1848), 5 August 1832."
+  },
+  {
+   "date_iso": "1832-08-11",
+   "date_display": "11 August 1832",
+   "precision": "day",
+   "eye": "coppard",
+   "place": "Plympton St Mary and Ridgeway",
+   "headline": "A saline injection in a cottage parish",
+   "digest": "A soldier's widow passing through the parish died in the temporary hospital at Ridgeway, and another man died. One patient was treated with a saline injection into a vein, the method reported by Latta in Leith three months before.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Cottage Scenes during the Cholera (1848), 11 August 1832."
+  },
+  {
+   "date_iso": "1832-08-12",
+   "date_display": "12 August 1832",
+   "precision": "day",
+   "eye": "traill",
+   "place": "Grosse Île, St Lawrence",
+   "headline": "The cholera hospital behind palisades",
+   "digest": "Traill's brig stopped at the Grosse Île quarantine station. She described the cholera hospital enclosed by palisades and guarded by soldiers, and groups of emigrants on the shore. The pilot had already brought the Board of Health regulations and word that the disease was raging in Quebec and Montreal.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "The Backwoods of Canada (1836), letter II, dated brig Laurel, 6 August 1832, with continuing entries to 12 August."
+  },
+  {
+   "date_iso": "1832-08-15",
+   "date_display": "14–15 August 1832",
+   "precision": "range",
+   "eye": "traill",
+   "place": "Off Quebec",
+   "headline": "The surgeon warns against landing",
+   "digest": "Off Quebec the visiting surgeon advised that the mortality still raging in the town made landing dangerous. Traill called Quebec the city of the pestilence and the passengers stayed aboard.",
+   "quote": "the city of the pestilence",
+   "confidence": "verified",
+   "source_note": "The Backwoods of Canada (1836), letters II–III."
+  },
+  {
+   "date_iso": "1832-08-16",
+   "date_display": "16 August 1832",
+   "precision": "day",
+   "eye": "coppard",
+   "place": "Plympton St Mary",
+   "headline": "Saline, then a neighbour's blood",
+   "digest": "The parish Board of Health met over food and relief for the poor. A woman who had been close to death revived after a saline injection and a transfusion of blood from a neighbour; Coppard praised her steady courage throughout.",
+   "quote": "Her conduct throughout was heroic and cool to admiration.",
+   "confidence": "verified",
+   "source_note": "Cottage Scenes during the Cholera (1848), 16 August 1832."
+  },
+  {
+   "date_iso": "1832-08-21",
+   "date_display": "21 August 1832",
+   "precision": "day",
+   "eye": "traill",
+   "place": "Nelson Hotel, Montreal",
+   "headline": "Mourning dress in every street",
+   "digest": "In Montreal Traill saw the marks of the epidemic: shuttered houses, mourning clothes in every class, some streets almost emptied by people who had fled to the villages. Poor emigrants had suffered most; in one house eleven had died, in another seventeen. Nuns had taken in a seven-year-old orphan.",
+   "quote": "The cholera had made awful ravages.",
+   "confidence": "verified",
+   "source_note": "The Backwoods of Canada (1836), letter IV, headed Nelson Hotel, Montreal, 21 August."
+  },
+  {
+   "date_iso": "1832-08-29",
+   "date_display": "29 August 1832",
+   "precision": "day",
+   "eye": "traill",
+   "place": "Cobourg, Upper Canada",
+   "headline": "Struck down on the morning of departure",
+   "digest": "Writing from Cobourg, Traill described falling ill an hour before sunrise on the day she was to leave Montreal. She was bled and given opium, calomel pills and salts; a physician came four times a day for the first two days. Fellow travellers, including the Irish servants, nursed her through.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "The Backwoods of Canada (1836), letter IV continued, Cobourg, 29 August 1832."
+  },
+  {
+   "date_iso": "1832-08-30",
+   "date_display": "Late August 1832",
+   "precision": "range",
+   "eye": "moodie",
+   "place": "Grosse Île",
+   "headline": "Anchoring at the quarantine island",
+   "digest": "Moodie's ship anchored at Grosse Île while cholera was emptying Quebec and Montreal. Writing two decades later, she described the island crowded with emigrants washing and shouting on the shore, and her own dread of the city ahead.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Roughing It in the Bush (1852), ch. 1; a memoir written later. Arrival day not checked here."
+  },
+  {
+   "date_iso": "1832-08-31",
+   "date_display": "31 August 1832",
+   "precision": "day",
+   "eye": "coppard",
+   "place": "Plympton St Mary",
+   "headline": "No new cases",
+   "digest": "Coppard recorded no new cases and wrote that the disease had nearly subsided in the parish. The diary ends soon after, with the deaths of the summer listed by name.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Cottage Scenes during the Cholera (1848), 31 August 1832."
+  },
+  {
+   "date_iso": "1832-10",
+   "date_display": "Autumn 1832",
+   "precision": "range",
+   "eye": "ny-board",
+   "place": "New York",
+   "headline": "The epidemic ends; more than 3,000 dead",
+   "digest": "By September and October the daily reports had dwindled. Counts for Manhattan gave more than 3,500 cholera deaths in the summer, in a city of about 250,000 from which perhaps a third had fled. The deaths fell most heavily on the crowded lower wards.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Virtual New York (CUNY): 'more than 3500 victims'; Early America Review: 'well over three thousand', up to 80,000 fled. Final official total not checked here."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1830-10-12",
+   "date_display": "30 September 1830 (O.S.)",
+   "eye": "pushkin",
+   "claim": "Five quarantine posts between Boldino and Moscow, about 14 days' detention at each",
+   "form": "letter",
+   "evidence": "Letter to N. N. Goncharova (RBTH summary)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1831-07-04",
+   "date_display": "22 June 1831 (O.S.)",
+   "eye": "nicholas",
+   "claim": "Crowd attacks the central cholera hospital at Sennaya Square, believing doctors and quarantines meant to harm the poor (a position held by the rioters; later evidence showed no poisoning)",
+   "form": "other",
+   "evidence": "Memoir sources summarised by Novaya Gazeta (2020); Arcadia",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1831-07-05",
+   "date_display": "23 June 1831 (O.S.)",
+   "eye": "nicholas",
+   "claim": "Emperor addresses a crowd of about 5,000 at Sennaya Square; his words survive only in differing memoirs",
+   "form": "other",
+   "evidence": "Novaya Gazeta (2020), citing Panaeva, Leikin, Fredericks, Schilder",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1831-10-23",
+   "date_display": "23 October 1831",
+   "eye": "central-board",
+   "claim": "First recorded cholera death in Britain, at Sunderland (the keelman William Sproat in most accounts)",
+   "form": "report",
+   "evidence": "Newcastle University cholera project; victim's name from standard accounts",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1831-11",
+   "date_display": "14 June – 5 November 1831",
+   "eye": "nicholas",
+   "claim": "St Petersburg epidemic: 12,540 cases and 6,449 deaths (official figures)",
+   "form": "report",
+   "evidence": "Arcadia, Barabanova, 'The first cholera epidemic in St Petersburg'",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1831-11-22",
+   "date_display": "22 November 1831",
+   "eye": "central-board",
+   "claim": "Order issued compelling medical men to report cases",
+   "form": "decree",
+   "evidence": "Greville Memoirs, 22 November 1831",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1831-11-23",
+   "date_display": "23 November 1831",
+   "eye": "central-board",
+   "claim": "Dr Barry reports the Sunderland disease identical with Asiatic cholera; some local doctors and merchants had disputed it",
+   "form": "report",
+   "evidence": "Greville Memoirs, 23 November 1831",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1831-12",
+   "date_display": "December 1831 – March 1832",
+   "eye": "oshaughnessy",
+   "claim": "Cholera blood found to have lost much of its water and salts; injection of salts into the veins proposed",
+   "form": "report",
+   "evidence": "Lancet communications; Report on the Chemical Pathology of the Malignant Cholera (1832)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1832-02-14",
+   "date_display": "14 February 1832",
+   "eye": "greville",
+   "claim": "Seven cases in London (Rotherhithe, Limehouse, a ship off Greenwich)",
+   "form": "diary",
+   "evidence": "Greville Memoirs, 14 February 1832",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1832-02-17",
+   "date_display": "17 February 1832",
+   "eye": "greville",
+   "claim": "Twenty-eight London cases in three days; judged a trifle beside the yearly toll of poverty",
+   "form": "diary",
+   "evidence": "Greville Memoirs, 17 February 1832",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1832-04-01",
+   "date_display": "1 April 1832",
+   "eye": "greville",
+   "claim": "Dispute over whether cholera exists and whether it is contagious; vestries resist the boards of health (contagionists favoured quarantine; anticontagionists blamed local filth and air; later work from 1854 onward showed transmission by contaminated water)",
+   "form": "diary",
+   "evidence": "Greville Memoirs, 1 April 1832",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1832-04-14",
+   "date_display": "14 April 1832",
+   "eye": "greville",
+   "claim": "Paris reported at about 1,300 cases in a day, about 1,000 on average; London seldom above 50",
+   "form": "diary",
+   "evidence": "Greville Memoirs, 14 April 1832",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1832-04-19",
+   "date_display": "19 April 1832",
+   "eye": "heine",
+   "claim": "About 2,000 deaths in Paris on 10 April as newspapers later admitted; some 120,000 passports issued; suspected 'poisoners' killed by mobs (Heine's figures)",
+   "form": "newspaper",
+   "evidence": "Französische Zustände, article VI",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1832-05-23",
+   "date_display": "23 May 1832",
+   "eye": "latta",
+   "claim": "Intravenous saline injection in collapsed cholera patients; about a third of those treated said to recover",
+   "form": "letter",
+   "evidence": "Letter to the Central Board of Health, printed in the Lancet, June 1832",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1832-08-16",
+   "date_display": "16 August 1832",
+   "eye": "coppard",
+   "claim": "Village patient revived after saline injection and a transfusion of a neighbour's blood",
+   "form": "diary",
+   "evidence": "Cottage Scenes during the Cholera (1848)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1832-10",
+   "date_display": "Summer–autumn 1832",
+   "eye": "ny-board",
+   "claim": "More than 3,000 (about 3,500) cholera deaths in Manhattan",
+   "form": "report",
+   "evidence": "Virtual New York (CUNY); Early America Review",
+   "confidence": "approx"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1830-10-11",
+   "label": "Russia closes its roads",
+   "eyes": [
+    "pushkin",
+    "nicholas"
+   ],
+   "note": "Within a day of each other the emperor entered cordoned Moscow and Pushkin, held in Boldino, counted the five quarantines that the same system placed between him and his fiancée. One saw the cordon as the state's answer; the other lived it as weeks of detention."
+  },
+  {
+   "date": "1831-07-04",
+   "label": "The Sennaya Square riot, St Petersburg",
+   "eyes": [
+    "nicholas",
+    "nikitenko"
+   ],
+   "note": "The emperor's confrontation with the crowd survives only in others' memoirs; Nikitenko, a former serf, wrote of the same days from inside the frightened capital, with sympathy for neither panic nor repression."
+  },
+  {
+   "date": "1831-11-23",
+   "label": "Sunderland confirmed as cholera",
+   "eyes": [
+    "greville",
+    "central-board"
+   ],
+   "note": "The Board's order and Barry's confirmation, as seen from the Council Office: Greville records both the official measures and the merchants' anger that a diagnosis could close a port."
+  },
+  {
+   "date": "1832-02-14",
+   "label": "Cholera reaches London",
+   "eyes": [
+    "greville",
+    "central-board"
+   ],
+   "note": "Seven cases among the poor of the riverside; the official notice that London was no longer healthy went out the same day. Greville soon judged the alarm out of proportion to the numbers."
+  },
+  {
+   "date": "1832-04-14",
+   "label": "Paris in its worst weeks",
+   "eyes": [
+    "greville",
+    "heine"
+   ],
+   "note": "Greville read the Paris figures in London; Heine, five days later, wrote from inside the city about the carnival, the killings of supposed poisoners and the flight of the rich. Both noted Perier's visit to the Hôtel-Dieu."
+  },
+  {
+   "date": "1832-07-13",
+   "label": "The summer wave in England",
+   "eyes": [
+    "greville",
+    "coppard"
+   ],
+   "note": "In London Greville saw fear move through households when servants died; in a Devon parish Coppard buried the first victim with two mourners. The same weeks look very different from Whitehall and from a cottage."
+  },
+  {
+   "date": "1832-07-23",
+   "label": "New York reads the daily count",
+   "eyes": [
+    "ny-board",
+    "bayley",
+    "hone"
+   ],
+   "note": "The Board's posted report, the crowd in City Hall Park that Bayley described, and Hone's stories of sudden deaths all fall on 22–23 July, near the city's peak."
+  },
+  {
+   "date": "1832-08-11",
+   "label": "Salt water in the veins, from Leith to Devon",
+   "eyes": [
+    "latta",
+    "oshaughnessy",
+    "coppard"
+   ],
+   "note": "O'Shaughnessy's chemistry, Latta's trial in May and the Plympton surgeons' injections in August are one line of reasoning carried from a laboratory to a cottage within a year."
+  },
+  {
+   "date": "1832-08-21",
+   "label": "Emigrants at Grosse Île and Montreal",
+   "eyes": [
+    "traill",
+    "moodie"
+   ],
+   "note": "Two sisters passed the same quarantine island weeks apart: Traill in letters written at the time, Moodie in a book written twenty years later."
+  }
+ ],
+ "ties": [
+  {
+   "a": "pushkin",
+   "b": "nicholas",
+   "kind": "met",
+   "note": "Nicholas I had met Pushkin in 1826 and made himself the poet's personal censor; the emperor's cordons were what held Pushkin at Boldino."
+  },
+  {
+   "a": "pushkin",
+   "b": "nikitenko",
+   "kind": "met",
+   "note": "Nikitenko, later a censor, knew Pushkin in St Petersburg literary circles and wrote about him in his diary."
+  },
+  {
+   "a": "nikitenko",
+   "b": "nicholas",
+   "kind": "mentioned",
+   "note": "Nikitenko's diary records the emperor's acts in 1831, including his appearance before the crowd."
+  },
+  {
+   "a": "greville",
+   "b": "central-board",
+   "kind": "same street",
+   "note": "As Clerk of the Privy Council Greville worked in the office that created and directed the Central Board; much of what is known of its daily acts comes from his diary."
+  },
+  {
+   "a": "oshaughnessy",
+   "b": "latta",
+   "kind": "influenced",
+   "note": "Latta's saline injections put into practice O'Shaughnessy's proposal to restore the salts lost from the blood."
+  },
+  {
+   "a": "latta",
+   "b": "central-board",
+   "kind": "mentioned",
+   "note": "Latta addressed his report of 23 May 1832 to the Central Board of Health, urged by Dr Lewins."
+  },
+  {
+   "a": "coppard",
+   "b": "latta",
+   "kind": "influenced",
+   "note": "Surgeons in Coppard's parish used saline injection in August 1832, the method Latta had reported in the Lancet that June; the diary does not say whether they read his letter."
+  },
+  {
+   "a": "greville",
+   "b": "heine",
+   "kind": "mentioned",
+   "note": "Both wrote of Paris in mid-April 1832 and both noted Perier's visit to the Hôtel-Dieu, one from London news, the other from inside the city."
+  },
+  {
+   "a": "hone",
+   "b": "ny-board",
+   "kind": "mentioned",
+   "note": "Hone, a former mayor, followed the Board's measures; the Board itself was the mayor and aldermen."
+  },
+  {
+   "a": "bayley",
+   "b": "ny-board",
+   "kind": "read each other",
+   "note": "Bayley's letter is built on the Board's posted daily report of 22 July."
+  },
+  {
+   "a": "traill",
+   "b": "moodie",
+   "kind": "relative",
+   "note": "Catharine Parr Traill and Susanna Moodie were sisters, born Strickland, who emigrated to Upper Canada in the same summer."
+  },
+  {
+   "a": "hone",
+   "b": "traill",
+   "kind": "mentioned",
+   "note": "The Quebec and Montreal deaths that Hone read about in June were the epidemic Traill found still raging when she arrived in August."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "broad-street-1854",
+   "note": "The 1831–32 epidemic set the British pattern of boards of health and contagion-versus-miasma argument that John Snow challenged in 1854; Snow himself, as a young apprentice near Newcastle, attended cholera cases in this first epidemic."
+  },
+  {
+   "to": "v1:london-1666",
+   "note": "Pushkin's 'A Feast in the Time of Plague', written behind the cholera cordons at Boldino, is adapted from John Wilson's play 'The City of the Plague' (1816), set in the London plague of 1665."
+  },
+  {
+   "to": "v2:irish-famine",
+   "note": "The Grosse Île quarantine station, opened for the cholera of 1832, received the famine emigrants of 1847, when thousands of Irish emigrants died there of typhus."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://wellcomecollection.org/works/qccmq8fe",
+   "title": "John Bull examined by eight doctors",
+   "caption": "London caricature in which politicians of the Reform crisis, dressed as doctors, diagnose John Bull with cholera; it shows how the epidemic and the Reform Bill were bound together in public talk, as in Greville's diary.",
+   "date": "c. 1832",
+   "credit": "Wellcome Collection; artist not named in the catalogue"
+  },
+  {
+   "url": "https://wellcomecollection.org/works/p7hx4397",
+   "title": "Doctors parade a cholera dummy",
+   "caption": "Coloured lithograph mocking doctors as alarmists who profit from cholera hospitals; a flag reads 'the humbugs of old England'. It records the popular suspicion of the medical response that also drove riots in Britain and Russia.",
+   "date": "1832",
+   "credit": "Henry Heath; published by S. W. Fores, London; Wellcome Collection"
+  },
+  {
+   "url": "https://www.ncl.ac.uk/library/special-collections/teaching-research-and-engagement/research/cabinet-of-curiosities/a-cholera-outbreak-satirized",
+   "title": "A cholera patient",
+   "caption": "Satirical cartoon of a starving, blue-skinned patient on a stool labelled 'starvation', with a Board of Health table on legs of bone; companion to 'A Cholera Doctor' of about 1832. It satirises the doctors' disagreements and the link between poverty and disease.",
+   "date": "c. 1832 (undated in the catalogue)",
+   "credit": "Robert Cruikshank; Newcastle University Special Collections"
+  },
+  {
+   "url": "https://co-curate.ncl.ac.uk/resources/view/34609",
+   "title": "Cholera poster concerning Dr William Clanny, 1831",
+   "caption": "Catalogue page for an 1831 Sunderland cholera poster concerning Dr William Reid Clanny, one of the local physicians in the dispute over naming the disease.",
+   "date": "1831",
+   "credit": "Co-Curate, Newcastle University"
+  }
+ ],
+ "further": [
+  {
+   "title": "Cottage Scenes during the Cholera (Coppard, 1848), Project Gutenberg",
+   "url": "https://gutenberg.org/cache/epub/67063/pg67063-images.html"
+  },
+  {
+   "title": "The Greville Memoirs, vol. 2, chapter 18 (1832)",
+   "url": "https://historyhome.co.uk/greville/18.htm"
+  },
+  {
+   "title": "Heine, Französische Zustände, article VI (Paris, 19 April 1832)",
+   "url": "https://projekt-gutenberg.org/authors/heinrich-heine/books/franzoesische-zustaende/chapter/8"
+  },
+  {
+   "title": "The Diary of Philip Hone (1889), vol. 1",
+   "url": "https://bookserver.archive.org/acquire/diaryofphiliphon01honeuoft.pdf"
+  },
+  {
+   "title": "The Cholera Gazette, 1 August 1832 (Project Gutenberg)",
+   "url": "https://gutenberg.org/ebooks/52858"
+  },
+  {
+   "title": "Hektoen International: Leith in the time of cholera, the story of Thomas Latta",
+   "url": "https://hekint.org/2017/02/01/leith-in-the-time-of-cholera-the-story-of-thomas-latta/"
+  },
+  {
+   "title": "Arcadia: The first cholera epidemic in St Petersburg",
+   "url": "https://www.environmentandsociety.org/arcadia/first-cholera-epidemic-st-petersburg"
+  },
+  {
+   "title": "New-York Historical Society: cholera in 1832",
+   "url": "https://cholerablog.nyhistory.org/?p=66"
+  }
+ ],
+ "vantage_key": "0 = principal actor, patient or bedside physician; 1 = eyewitness in the stricken place; 2 = same city, at one remove; 3 = same country but cut off at a distance; 4 = abroad, news only."
+}

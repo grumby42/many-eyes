@@ -1,0 +1,1388 @@
+{
+ "id": "broad-street-1854",
+ "title": "The Pump at Broad Street",
+ "short_title": "Broad Street, 1854",
+ "subtitle": "The Soho cholera outbreak and the argument over its cause, London, 1854–1855",
+ "span": "1854–1855 (with later recollections to 1874)",
+ "intro": [
+  "In the night between 31 August and 1 September 1854 cholera broke out in the streets around Broad Street, Soho, with a speed nobody in London had seen. John Snow, who lived a few streets away, counted upwards of five hundred fatal attacks within about 250 yards in ten days; his day-by-day table runs to 616 deaths between 19 August and 30 September. Three quarters of the residents fled within a week. The handle of the street pump was removed on 8 September, and the outbreak, already falling, ended.",
+  "The outbreak is famous now as the moment the water theory was proved, but the record shows something slower and more contested. In 1854–55 most physicians and officials held that cholera rose from a local atmosphere fouled by sewers, filth and crowding, acting on bodies weakened by poverty or fear. Snow held that it passed in swallowed matter from the sick, mainly through drinking water. Both were positions with evidence. The national General Board of Health's committee weighed his Broad Street case and rejected it; the parish's own inquiry, by a single casting vote, endorsed it. The organism itself, seen under the microscope by Pacini in Italy in 1854, would not be widely accepted as the cause until after Koch's work in 1883–84.",
+  "The honest record here is mostly letters to journals, official returns, inspectors' reports and a parish inquiry, not diaries; their dates are firm, and most are in public-domain print. They are laid out here as a case file: the physician who mapped the deaths, the curate who tried to prove him wrong, the statistician whose weekly lists both sides used, the Board's inspectors who blamed the drains, the hospital physician counting beds, a critic reviewing the evidence, and a newspaper reaching for a plague pit. Later recollections, chiefly Whitehead's from 1865 to 1874, are labelled as written later.",
+  "Two households stand at the centre and left no words of their own. At 40 Broad Street, five-month-old Frances Lewis fell ill on 28 August and died on 2 September; her father, a police constable, fell ill on the day the pump was closed and died eleven days later. Her mother's account of washing the napkins survives only in the curate's report. In Hampstead, Susannah Eley, who had water carted from the Broad Street pump because she liked its taste, died on 2 September. They are given eyes so that the arithmetic has names; what they felt is not recorded."
+ ],
+ "calendar_note": "",
+ "vantage_key": "0 = the stricken households themselves; 1 = on the Soho streets, investigating, ministering or digging; 2 = same city: hospital, press, parish and national officials; 3 = at a distance or reviewing the evidence in print; 4 = abroad (none here).",
+ "eyes": [
+  {
+   "id": "snow",
+   "short": "John Snow",
+   "name": "John Snow",
+   "life": "1813–1858",
+   "role": "London physician and anaesthetist, aged 41, already arguing since 1849 that cholera spread through swallowed matter, chiefly water",
+   "side": "contagion-by-water position",
+   "where": "His home at 18 Sackville Street, Piccadilly, a few minutes' walk from Broad Street; out in Soho house to house; South London for the water-company study",
+   "lat": 51.5093,
+   "lon": -0.1378,
+   "waypoints": [
+    {
+     "lat": 51.5093,
+     "lon": -0.1378,
+     "label": "Sackville Street, home"
+    },
+    {
+     "lat": 51.5133,
+     "lon": -0.1367,
+     "label": "Broad Street pump, 3 Sept 1854"
+    },
+    {
+     "lat": 51.509,
+     "lon": -0.1365,
+     "label": "St James's vestry, 7 Sept"
+    },
+    {
+     "lat": 51.4793,
+     "lon": -0.0263,
+     "label": "Deptford, 12 Sept"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "investigator on the street",
+   "form": "published letter, monograph and committee report (dated)",
+   "language": "English",
+   "authenticity": "Snow's letter to the Medical Times and Gazette (23 Sept 1854), the second edition of On the Mode of Communication of Cholera (preface signed 11 Dec 1854, published Jan 1855, public domain) and his report to the St James's Cholera Inquiry Committee (dated 12 Dec 1854, printed July 1855) survive in print. His manuscript case books (ed. R. H. Ellis, 1994) record mainly anaesthetic cases and are not used for entries here. The story that Snow removed the handle himself is a later legend: his own text says the Guardians had it removed.",
+   "bio": "A Yorkshire-born physician who had first met cholera as an apprentice in the Newcastle coalfield in 1831–32, Snow was best known in 1854 for giving chloroform, including to Queen Victoria in 1853. He lived close to the outbreak and treated it as a test of a theory he had published five years earlier. His dated steps, from a pump-water sample on 3 September to the map and tables of 1855, make him the chapter's spine.",
+   "sources": [
+    {
+     "title": "On the Mode of Communication of Cholera, 2nd ed. (1855), Project Gutenberg",
+     "url": "https://gutenberg.org/cache/epub/72894/pg72894-images.html"
+    },
+    {
+     "title": "Snow, 'The Cholera near Golden Square, and at Deptford', Medical Times and Gazette, 23 Sept 1854 (John Snow Archive transcription)",
+     "url": "https://johnsnow.matrix.msu.edu/documentUploads/15-78-2CE/15-78-2CE-22-Doc19-JS-CholGolSq1854-09-23.pdf"
+    },
+    {
+     "title": "Dr Snow's Report to the Cholera Inquiry Committee (12 Dec 1854)",
+     "url": "https://johnsnow.matrix.msu.edu/documentUploads/15-78-2BD/15-78-2BD-22-Doc26-IV-RprtToCIC.pdf"
+    }
+   ]
+  },
+  {
+   "id": "whitehead",
+   "short": "Whitehead",
+   "name": "Rev. Henry Whitehead",
+   "life": "1825–1896",
+   "role": "Curate of St Luke's, Berwick Street, aged 29, in his first curacy",
+   "side": "Church of England parish clergy; at first a sceptic of the water theory",
+   "where": "His parish streets around Berwick Street and Broad Street, visiting the sick and, in 1855, nearly every house in Broad Street",
+   "lat": 51.5135,
+   "lon": -0.135,
+   "vantage": 1,
+   "vantage_label": "parish curate among the sick, later house-to-house investigator",
+   "form": "pamphlet and committee report (dated); later magazine articles and speeches (written later)",
+   "language": "English",
+   "authenticity": "Whitehead's pamphlet The Cholera in Berwick Street (1854) and his 'Special Investigation of Broad Street' (dated 5 June 1855, in the Cholera Inquiry Committee Report, pp. 121–69) are contemporary. 'The Broad Street Pump' (Macmillan's Magazine, Dec 1865; one library record dates its copy 1862), the 1867 'Remarks' to the Epidemiological Society and his 1874 farewell speech are later recollections and labelled as such.",
+   "bio": "Whitehead stayed in the stricken streets through the outbreak and wrote a plain account of it within weeks, with no mention of the pump. Appointed to the parish inquiry in early 1855, he set out to disprove Snow, interviewed 497 of the 896 people living in Broad Street, and instead found the evidence that convinced him, including the case at No. 40 that is still taken as the probable starting point. He and Snow became friends.",
+   "sources": [
+    {
+     "title": "Whitehead's Report of his Special Investigation of Broad Street (1855), John Snow Archive",
+     "url": "https://johnsnow.matrix.msu.edu/documentUploads/15-78-2AD/15-78-2AD-22-Doc30-II-HW.pdf"
+    },
+    {
+     "title": "Whitehead, The Broad Street pump: an episode in the cholera epidemic of 1854 (Macmillan's), Wellcome Collection",
+     "url": "https://content.www.wellcomecollection.org/works/pv2k6z8x"
+    },
+    {
+     "title": "S. P. W. Chave, 'Henry Whitehead and cholera in Broad Street', Medical History (1958)",
+     "url": "https://core-cms.cambridgecore.org/core/services/aop-cambridge-core/content/view/A8A932F788DB7A519D832F49AEA69C76/S0025727300023504a.pdf/henry-whitehead-and-cholera-in-broad-street.pdf"
+    }
+   ]
+  },
+  {
+   "id": "lewis",
+   "short": "Sarah Lewis",
+   "name": "Sarah Lewis (and the Lewis household, 40 Broad Street)",
+   "life": "fl. 1854",
+   "role": "Wife of police constable Thomas Lewis and mother of Frances, aged five months, the probable first case",
+   "side": "Broad Street household",
+   "where": "40 Broad Street, beside the pump",
+   "lat": 51.5134,
+   "lon": -0.1366,
+   "vantage": 0,
+   "vantage_label": "bereaved household at the source",
+   "form": "testimony recorded by others (no surviving firsthand account found)",
+   "language": "English",
+   "authenticity": "No surviving firsthand account found. What Sarah Lewis said survives only as Whitehead reported it in June 1855; the baby's death is in the General Register Office returns. The family's names and dates come from Whitehead's report and later scholarship (UCLA Snow site; Chave 1958).",
+   "bio": "Frances Lewis was born at No. 40 in March 1854 and fell ill on 28 August; her mother soaked the soiled napkins in pails and emptied the water partly into the cesspool at the front of the house, a few feet from the well. The baby died on 2 September. Her father Thomas fell ill on 8 September and died on 19 September, leaving Sarah with two older children. She is included because her household stood at the centre of the case, though she left no words of her own.",
+   "sources": [
+    {
+     "title": "Whitehead's Special Investigation of Broad Street (1855)",
+     "url": "https://johnsnow.matrix.msu.edu/documentUploads/15-78-2AD/15-78-2AD-22-Doc30-II-HW.pdf"
+    },
+    {
+     "title": "UCLA Department of Epidemiology, John Snow site: Whitehead and the index case",
+     "url": "https://epi-snow.ph.ucla.edu/Stream2_BSPoutbreak_e.html"
+    }
+   ]
+  },
+  {
+   "id": "eley",
+   "short": "Mrs Eley",
+   "name": "Susannah Eley",
+   "life": "c. 1795–1854",
+   "role": "Widow of a percussion-cap maker, aged 59, living at West End, Hampstead; her sons ran the cap factory in Broad Street",
+   "side": "Hampstead household",
+   "where": "West End, Hampstead, about four miles from the pump",
+   "lat": 51.5474,
+   "lon": -0.191,
+   "vantage": 0,
+   "vantage_label": "victim far from the outbreak",
+   "form": "case described by others (no surviving firsthand account found)",
+   "language": "English",
+   "authenticity": "No surviving firsthand account found. Snow describes her case from the death register and her family without naming her; the name comes from the editors of the John Snow Archive. Her niece, who drank the same water and died in Islington, is not named in Snow's text.",
+   "bio": "She had left Broad Street but liked its pump water so much that a cart from her sons' factory brought her a large bottle of it each day. Water fetched on 31 August was drunk that evening and the next day; she was taken ill on the evening of 1 September and died on 2 September. Her case, and her niece's, were the outlying deaths Snow used to argue that the water itself, not the local air, carried the disease.",
+   "sources": [
+    {
+     "title": "Snow, On the Mode of Communication of Cholera (1855), Broad Street section",
+     "url": "https://gutenberg.org/cache/epub/72894/pg72894-images.html"
+    },
+    {
+     "title": "Snow's account of the Broad Street investigations, with editors' notes (John Snow Archive)",
+     "url": "https://johnsnow.matrix.msu.edu/documentUploads/15-78-2BB/15-78-2BB-22-Doc26-II-MCC2.pdf"
+    }
+   ]
+  },
+  {
+   "id": "farr",
+   "short": "William Farr",
+   "name": "William Farr",
+   "life": "1807–1883",
+   "role": "Compiler of Abstracts (statistical superintendent) at the General Register Office, author of the Registrar General's Weekly Return; member of the Medical Council from September 1854",
+   "side": "official statistics; in 1854 inclined to an atmospheric (elevation) explanation",
+   "where": "General Register Office, Somerset House",
+   "lat": 51.511,
+   "lon": -0.1172,
+   "vantage": 2,
+   "vantage_label": "official who counted the dead",
+   "form": "official weekly return and reports",
+   "language": "English",
+   "authenticity": "The Weekly Return of Births and Deaths was a printed government series; the appendix listing the deaths in the Soho subdistricts appeared in the issue for 9 Sept 1854 (pp. 337–40). Farr's 1866 remarks on the East London outbreak are later and labelled.",
+   "bio": "Farr's 1852 report on the 1848–49 epidemic linked cholera deaths to low elevation above the Thames, yet called Snow's theory among the most important yet put forward. His office's lists of who died, where and of what were the raw material for Snow's house-to-house checking. He moved toward the water explanation after the 1866 epidemic.",
+   "sources": [
+    {
+     "title": "GRO list of deaths in the week ending 2 Sept 1854 (Weekly Return appendix), John Snow Archive",
+     "url": "https://johnsnow.matrix.msu.edu/documentUploads/15-78-2B1/15-78-2B1-22-GRO-WR-2Sept-JS.pdf"
+    },
+    {
+     "title": "Middlesex Hospital cholera deaths, Weekly Return 1854",
+     "url": "https://johnsnow.matrix.msu.edu/documentUploads/15-78-2B4/15-78-2B4-22-GRO-WR-MiddlesexHosp-rev.pdf"
+    }
+   ]
+  },
+  {
+   "id": "gboh",
+   "short": "Board of Health",
+   "name": "General Board of Health under Sir Benjamin Hall (and its Committee for Scientific Inquiries)",
+   "life": "Hall 1802–1867; Board reconstituted 1854",
+   "role": "Hall, MP, became President of the reconstituted Board on 12 Aug 1854; its Medical Council (chair John Ayrton Paris) set up a Committee for Scientific Inquiries",
+   "side": "national health authority; atmospheric (miasma) position",
+   "where": "The Board's offices, Whitehall",
+   "lat": 51.5045,
+   "lon": -0.126,
+   "vantage": 2,
+   "vantage_label": "national authority, same city",
+   "form": "circulars and official report",
+   "language": "English",
+   "authenticity": "Hall's first circular appeared in The Times on 4 Sept 1854; the Medical Council first met on 6 Sept 1854. The Committee for Scientific Inquiries' report was printed as a Parliamentary Paper in 1855; its exact day of signing is not established here.",
+   "bio": "Hall replaced the Chadwick-era Board in August 1854 and moved fast: new medical inspectors, a Medical Council, and a scientific inquiry into the epidemic. The Board's committee weighed Snow's Broad Street argument, Hassall's microscope findings and the inspectors' house survey, and in 1855 rejected the idea that the pump water explained the outbreak. Its view is set here as a position with evidence, as it was held at the time.",
+   "sources": [
+    {
+     "title": "John Snow Archive: Hall's first circular, medical inspectors and first Medical Council meeting",
+     "url": "https://johnsnow.matrix.msu.edu/documentUploads/15-78-2C0/15-78-2C0-22-Doc17-III-CWS-GBoH-EarlyDays.pdf"
+    },
+    {
+     "title": "Dean, 'The cholera treatment evaluation by the General Board of Health, 1854', J R Soc Med 2016 (PMC)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4872209"
+    }
+   ]
+  },
+  {
+   "id": "fhl",
+   "short": "Fraser & co.",
+   "name": "Donald Fraser, Thomas Hughes and John M. Ludlow (special investigators)",
+   "life": "fl. 1854",
+   "role": "Special investigators of the General Board of Health assigned to a house-to-house inquiry in the outbreak area",
+   "side": "General Board of Health; atmospheric and sanitary explanation",
+   "where": "About 800 houses in the Berwick Street, Golden Square and St Anne's subdistricts",
+   "lat": 51.5128,
+   "lon": -0.1358,
+   "vantage": 1,
+   "vantage_label": "official inspectors on the street",
+   "form": "official report",
+   "language": "English",
+   "authenticity": "Their report, filed October 1854 after inspections ended in late September, was printed in 1855 with the Board's reports on the epidemic; their survey tables appear in the appendix to the Committee for Scientific Inquiries' report (pp. 323–52).",
+   "bio": "The three went through some 800 houses noting cesspools, untrapped gullies, damp basements, slaughterhouse waste and the still, close air of late August. They did not deny the pump a part but would not make it the cause, concluding instead that the outbreak arose mainly from foul air escaping from the drains. Their survey is the most detailed contemporary picture of the streets themselves.",
+   "sources": [
+    {
+     "title": "Report by the special investigators to Benjamin Hall (John Snow Archive)",
+     "url": "https://johnsnow.matrix.msu.edu/documentUploads/15-78-2B3/15-78-2B3-22-Doc28-F,H,L-RptToHall.pdf"
+    },
+    {
+     "title": "GBoH house-inspection tables, St James (Cholera in St James site)",
+     "url": "https://johnsnow.matrix.msu.edu/broadstpump/documents/775-2/"
+    }
+   ]
+  },
+  {
+   "id": "lankester",
+   "short": "Lankester",
+   "name": "Edwin Lankester",
+   "life": "1814–1874",
+   "role": "Physician and naturalist, St James's vestryman; moved the parish inquiry and chaired the sub-committee that wrote its report",
+   "side": "St James's Vestry; Cholera Inquiry Committee",
+   "where": "St James's vestry, Piccadilly",
+   "lat": 51.509,
+   "lon": -0.1365,
+   "vantage": 2,
+   "vantage_label": "parish official who ran the inquiry",
+   "form": "vestry minutes and official report",
+   "language": "English",
+   "authenticity": "The Vestry proceedings and the Cholera Inquiry Committee's Report on the Cholera Outbreak in the Parish of St James, Westminster (Churchill, 1855) are contemporary; his 1866 remark is later and labelled.",
+   "bio": "Lankester pushed the vestry to investigate its own outbreak when the Board of Guardians thought it a waste of money, and the committee he steered brought Snow and Whitehead together. Its 1855 report weighed atmosphere, sewers and water and leaned, by the narrowest of votes, toward the well. He later became the parish's first Medical Officer of Health.",
+   "sources": [
+    {
+     "title": "Cholera Inquiry Committee, General Report (1855), John Snow Archive",
+     "url": "https://johnsnow.matrix.msu.edu/documentUploads/15-78-2AE/15-78-2AE-22-Doc30-IV-GeneralRpt.pdf"
+    }
+   ]
+  },
+  {
+   "id": "york",
+   "short": "J. York",
+   "name": "Jehoshaphat York",
+   "life": "fl. 1855",
+   "role": "Secretary and surveyor to the St James's Cholera Inquiry Committee",
+   "side": "St James's Vestry inquiry",
+   "where": "Excavating at 40 Broad Street and the pump well",
+   "lat": 51.5133,
+   "lon": -0.1367,
+   "vantage": 1,
+   "vantage_label": "surveyor digging at the source",
+   "form": "official report",
+   "language": "English",
+   "authenticity": "His report on the drain, cesspool and well (dated 1 May 1855) is printed in the Cholera Inquiry Committee Report (1855).",
+   "bio": "York opened the ground in front of No. 40 and found a decayed cesspool and a badly built drain lying within about three feet of the pump well, with signs that liquid could seep from one to the other. An earlier inspection of the well had reported no hole or crevice in its brickwork. His physical evidence supplied the route that Snow's statistics lacked.",
+   "sources": [
+    {
+     "title": "Chave, 'Henry Whitehead and cholera in Broad Street' (1958)",
+     "url": "https://core-cms.cambridgecore.org/core/services/aop-cambridge-core/content/view/A8A932F788DB7A519D832F49AEA69C76/S0025727300023504a.pdf/henry-whitehead-and-cholera-in-broad-street.pdf"
+    },
+    {
+     "title": "UCLA John Snow site: the surveyor's report",
+     "url": "https://epi-snow.ph.ucla.edu/Stream2_BSPoutbreak_e.html"
+    }
+   ]
+  },
+  {
+   "id": "stewart",
+   "short": "A. P. Stewart",
+   "name": "Alexander Patrick Stewart",
+   "life": "1813–1883",
+   "role": "Physician to the Middlesex Hospital, which took many of the Soho sick",
+   "side": "hospital medicine",
+   "where": "Middlesex Hospital, Mortimer Street, a short walk north of Broad Street",
+   "lat": 51.5195,
+   "lon": -0.1385,
+   "vantage": 2,
+   "vantage_label": "hospital physician receiving the sick",
+   "form": "published clinical report (dated)",
+   "language": "English",
+   "authenticity": "'Cholera in the Middlesex Hospital', Medical Times and Gazette, 7 Oct 1854, pp. 363–65; known here through the John Snow Archive's study of the hospital's response.",
+   "bio": "Stewart described the rush of patients that began around midday on 1 September and lasted about two days, with beds cleared of other patients to make room. His count of admissions and deaths in the first fifty hours is one of the few hospital-side records of the outbreak. Florence Nightingale's brief service at the same hospital that week is known only from others' letters.",
+   "sources": [
+    {
+     "title": "John Snow Archive: historiography of Nightingale's sojourn at the Middlesex Hospital (cites Stewart 1854)",
+     "url": "https://johnsnow.matrix.msu.edu/documentUploads/15-78-29F/15-78-29F-22-FNSojourn-HU-01indd.pdf"
+    }
+   ]
+  },
+  {
+   "id": "gaskell",
+   "short": "Mrs Gaskell",
+   "name": "Elizabeth Gaskell",
+   "life": "1810–1865",
+   "role": "Novelist, aged 44, a guest of the Nightingale family at Lea Hurst while finishing North and South",
+   "side": "letter-writer outside London",
+   "where": "Lea Hurst, Derbyshire",
+   "lat": 53.1137,
+   "lon": -1.5295,
+   "vantage": 3,
+   "vantage_label": "at a distance, hearing from the Nightingale family",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Her letters to Catherine Winkworth of 11 and 27 Oct 1854 are in Chapple and Pollard, The Letters of Mrs Gaskell (1966); because that edition is recent, they appear here as digests only. They are the main evidence for Nightingale's service at the Middlesex; no letter of Nightingale's own about it is known.",
+   "bio": "Gaskell met Florence Nightingale's family in the autumn of 1854 and wrote down what she heard of the daughter's weeks among the cholera patients just before Scutari. Her letters give the outbreak a domestic, second-hand echo far from Soho. Historians now read them cautiously on the exact dates.",
+   "sources": [
+    {
+     "title": "John Snow Archive: Nightingale at the Middlesex Hospital, 1854 (analysis of the Gaskell letters)",
+     "url": "https://johnsnow.matrix.msu.edu/documentUploads/15-78-29F/15-78-29F-22-FNSojourn-HU-01indd.pdf"
+    }
+   ]
+  },
+  {
+   "id": "parkes",
+   "short": "E. A. Parkes",
+   "name": "Edmund Alexander Parkes",
+   "life": "1819–1876",
+   "role": "Physician and hygienist, former army surgeon in India, editor of the British and Foreign Medico-Chirurgical Review",
+   "side": "sanitarian; multi-factor, atmospheric position",
+   "where": "London, writing as a reviewer",
+   "lat": 51.5246,
+   "lon": -0.134,
+   "vantage": 3,
+   "vantage_label": "critic reviewing the evidence",
+   "form": "published review (dated)",
+   "language": "English",
+   "authenticity": "Review of Snow's second edition, British and Foreign Medico-Chirurgical Review, April 1855 (vol. 15, pp. 449–63); reprinted in the International Journal of Epidemiology.",
+   "bio": "Parkes knew cholera at first hand from India and took Snow seriously enough to give him a long, careful review. He accepted that the Broad Street deaths ringed the pump but argued Snow had never shown the water to be contaminated and had not ruled out air, crowding or elevation. His verdict, that the theory was unproven but deserved official inquiry, was the fair-minded form of the majority view.",
+   "sources": [
+    {
+     "title": "John Snow Archive: Parkes's review of Snow (1855)",
+     "url": "https://johnsnow.matrix.msu.edu/work.php/id=15-78-C1/"
+    },
+    {
+     "title": "Commentary on Parkes's review (PMC)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7108616"
+    }
+   ]
+  },
+  {
+   "id": "lancet",
+   "short": "The Lancet",
+   "name": "The Lancet (editorial voice, under Thomas Wakley)",
+   "life": "journal founded 1823; Wakley 1795–1862",
+   "role": "Weekly medical journal and its unsigned leader-writers",
+   "side": "medical press; sanitary reform",
+   "where": "The Lancet's office, Strand",
+   "lat": 51.51,
+   "lon": -0.123,
+   "vantage": 2,
+   "vantage_label": "medical press, same city",
+   "form": "newspaper (journal editorial)",
+   "language": "English",
+   "authenticity": "The 1855 editorial attacking Snow's evidence on 'offensive trades' is unsigned; the issue date given here is approximate. The journal's 2013 note acknowledging the error is a modern editorial, given as a digest only.",
+   "bio": "The Lancet had backed sanitary reform for decades and in 1855 mocked Snow when he told a parliamentary committee that bad smells from trades did not themselves cause epidemic disease. Its sarcasm shows how far outside medical common sense the water theory still seemed a year after Broad Street.",
+   "sources": [
+    {
+     "title": "The History Blog: The Lancet admits: You knew something, John Snow (2013)",
+     "url": "https://www.thehistoryblog.com/archives/24665"
+    }
+   ]
+  },
+  {
+   "id": "observer",
+   "short": "The Observer",
+   "name": "The Observer (London Sunday newspaper)",
+   "life": "founded 1791",
+   "role": "Unsigned news reporters",
+   "side": "popular press",
+   "where": "London; reporting from the Soho streets",
+   "lat": 51.5115,
+   "lon": -0.118,
+   "vantage": 2,
+   "vantage_label": "newspaper in the same city",
+   "form": "newspaper",
+   "language": "English",
+   "authenticity": "Reports of 3 and 10 Sept 1854, transcribed in the John Snow Archive's online companion. Authors unnamed.",
+   "bio": "The Sunday paper recorded the first week as the street saw it: the sudden night attacks, coffins running short, residents afraid to go indoors, shops shut. Its reporter's favoured explanation, that sewer digging had disturbed an old plague burial ground, shows the range of causes being argued before any inquiry began.",
+   "sources": [
+    {
+     "title": "The Observer, 10 Sept 1854, 'The Cholera. Progress.' (John Snow Archive)",
+     "url": "https://johnsnow.matrix.msu.edu/documentUploads/15-78-2BE/15-78-2BE-22-Doc17-IV-CWS-Observer-FirstWeek.pdf"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1854-08-12",
+   "date_display": "Saturday 12 August 1854",
+   "precision": "day",
+   "eye": "gboh",
+   "place": "Whitehall",
+   "headline": "Benjamin Hall takes charge of a rebuilt Board of Health",
+   "digest": "With London already in its third cholera epidemic, Parliament replaced the Chadwick-era Board with a one-year body and Sir Benjamin Hall assumed its presidency. He began at once to organise a medical and scientific response to the epidemic across the capital.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "John Snow Archive Doc 17-III; Dean, J R Soc Med 2016 (PMC4872209)"
+  },
+  {
+   "date_iso": "1854-08-28",
+   "date_display": "Monday 28 August 1854",
+   "precision": "day",
+   "eye": "lewis",
+   "place": "40 Broad Street",
+   "headline": "A five-month-old falls ill at No. 40",
+   "digest": "Frances Lewis, born at the house in March, was taken ill with diarrhoea; her mother later told Whitehead the attack began on this Monday. Sarah Lewis soaked the soiled napkins in pails and emptied the water partly into a sink at the back and partly into the cesspool at the front of the house, a few feet from the public well.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Whitehead 1855 (mother's account as he recorded it); UCLA Snow site notes conflicting onset dates in the sources"
+  },
+  {
+   "date_iso": "1854-08-31",
+   "date_display": "Thursday 31 August 1854",
+   "precision": "day",
+   "eye": "eley",
+   "place": "West End, Hampstead",
+   "headline": "The daily bottle of Broad Street water arrives",
+   "digest": "As usual, a cart from her sons' cap factory in Broad Street brought Mrs Eley a large bottle of water from the pump, which she preferred to her local supply. She drank some that evening and more the next day; a visiting niece drank it too. Nobody in her part of Hampstead was ill with cholera.",
+   "quote": "as she preferred it",
+   "confidence": "verified",
+   "source_note": "Snow, On the Mode of Communication of Cholera (1855), Broad Street section; name from John Snow Archive editors' note"
+  },
+  {
+   "date_iso": "1854-08-31",
+   "date_display": "Night of 31 August – 1 September 1854",
+   "precision": "day",
+   "eye": "snow",
+   "place": "Broad Street and Golden Square",
+   "headline": "The outbreak bursts out overnight",
+   "digest": "Snow later fixed the start as the night between 31 August and 1 September, when people in the streets around Broad Street began to be struck in large numbers. His table counts 56 fatal attacks beginning on 31 August and 143 on 1 September, the worst day.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Snow 1855, Table I and text (Project Gutenberg)"
+  },
+  {
+   "date_iso": "1854-09-01",
+   "date_display": "Friday 1 September 1854",
+   "precision": "day",
+   "eye": "stewart",
+   "place": "Middlesex Hospital",
+   "headline": "The hospital clears beds for a sudden rush",
+   "digest": "Around midday the Middlesex Hospital began to receive cholera patients from the Soho streets in a rush that lasted about two days. Other patients well enough to go were discharged to free beds. Stewart, one of the physicians, kept count for a report he published a month later.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Stewart, Medical Times and Gazette, 7 Oct 1854, as cited in John Snow Archive, Nightingale study"
+  },
+  {
+   "date_iso": "1854-09-02",
+   "date_display": "Saturday 2 September 1854",
+   "precision": "day",
+   "eye": "eley",
+   "place": "West End, Hampstead",
+   "headline": "Mrs Eley dies; her niece will follow",
+   "digest": "Taken ill on the evening of 1 September, she died on the Saturday; the register gave diarrhoea for two hours and cholera for sixteen. Her niece went home to a high, healthy part of Islington and also died of cholera. Snow later called these the cases that most clearly separated the water from the local air.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Snow 1855; death register entry quoted there"
+  },
+  {
+   "date_iso": "1854-09-02",
+   "date_display": "Saturday 2 September 1854",
+   "precision": "day",
+   "eye": "lewis",
+   "place": "40 Broad Street",
+   "headline": "Frances Lewis dies at eleven in the morning",
+   "digest": "The baby whose illness had begun on the Monday died at about eleven o'clock. The registrar entered a daughter, five months, exhaustion after diarrhoea four days before death; the entry lay unread in the returns until the following spring. By then the street around the house had lost scores of people.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Whitehead, Special Investigation of Broad Street (dated 5 June 1855), CIC Report pp. 121–69; John Snow Archive Doc 30-II"
+  },
+  {
+   "date_iso": "1854-09-03",
+   "date_display": "Sunday 3 September 1854",
+   "precision": "day",
+   "eye": "snow",
+   "place": "Broad Street pump",
+   "headline": "Snow samples the pump water and finds it nearly clear",
+   "digest": "On the Sunday evening Snow examined water from the Broad Street pump and found only a little organic impurity, which left him uncertain. He suspected it might have been fouler when the outbreak began, and kept going.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Snow, MTG 23 Sept 1854; Snow 1855"
+  },
+  {
+   "date_iso": "1854-09-03",
+   "date_display": "Sunday 3 September 1854",
+   "precision": "day",
+   "eye": "stewart",
+   "place": "Middlesex Hospital",
+   "headline": "Nearly ninety admitted in fifty hours; forty dead",
+   "digest": "By one o'clock on the Sunday the hospital had admitted close to ninety cholera cases in fifty hours, and forty of them had already died. Stewart judged the worst over by the following Tuesday.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Stewart 1854, p. 364, as cited in John Snow Archive Nightingale study"
+  },
+  {
+   "date_iso": "1854-09-03",
+   "date_display": "Sunday 3 September 1854",
+   "precision": "day",
+   "eye": "observer",
+   "place": "London",
+   "headline": "First press notice of an unusual outbreak in St James's",
+   "digest": "The Sunday paper carried an early report of a sudden and unusual cholera outbreak in the parish of St James, Westminster. It was the first public sign beyond the parish that something exceptional was happening.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Observer, 3 Sept 1854 (listed as John Snow Archive Doc 17-I; text not seen)"
+  },
+  {
+   "date_iso": "1854-09-04",
+   "date_display": "Monday 4 September 1854",
+   "precision": "day",
+   "eye": "gboh",
+   "place": "Whitehall",
+   "headline": "Hall's first circular appears in The Times",
+   "digest": "Hall's circular asked London's boards of guardians to prepare for cholera, announced extra medical inspectors, a medical council and a scientific inquiry, and listed ten precautions, among them avoiding tainted food and limewashing rooms. Water from particular pumps was not among the warnings.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "John Snow Archive Doc 17-III"
+  },
+  {
+   "date_iso": "1854-09-05",
+   "date_display": "Tuesday 5 September 1854",
+   "precision": "day",
+   "eye": "snow",
+   "place": "General Register Office",
+   "headline": "Snow copies the list of the dead",
+   "digest": "Snow obtained from the General Register Office the names and addresses of the cholera deaths registered in the three Soho subdistricts during the week ending 2 September, 83 in his copy. He then went to the addresses, asking where each household got its water.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "John Snow Archive Doc 20 (GRO list, week ending 2 Sept 1854)"
+  },
+  {
+   "date_iso": "1854-09-06",
+   "date_display": "Wednesday 6 September 1854",
+   "precision": "day",
+   "eye": "gboh",
+   "place": "Whitehall",
+   "headline": "The Medical Council meets for the first time",
+   "digest": "Hall's Medical Council of twelve, chaired by John Ayrton Paris, President of the Royal College of Physicians, met at the Board's office; William Farr was among the members. It set up committees on scientific inquiry, treatment and foreign correspondence. The same week the Board sent investigators house to house through St James's.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "John Snow Archive Doc 17-III; PMC4872209"
+  },
+  {
+   "date_iso": "1854-09-06",
+   "date_display": "Wednesday 6 September 1854",
+   "precision": "day",
+   "eye": "snow",
+   "place": "Broad Street",
+   "headline": "A coffee-shop keeper counts nine dead customers",
+   "digest": "The keeper of a coffee shop near the pump told Snow she already knew of nine customers who had died; the shop served pump water with meals. It was one of many small cases he gathered linking the dead to the well.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Snow 1855 (John Snow Archive Doc 26-II)"
+  },
+  {
+   "date_iso": "1854-09-06",
+   "date_display": "From Wednesday 6 September 1854",
+   "precision": "range",
+   "eye": "fhl",
+   "place": "Berwick Street, Golden Square and St Anne's",
+   "headline": "Inspectors begin a survey of some 800 houses",
+   "digest": "Fraser, Hughes and Ludlow began going house to house for the Board, recording cesspools, untrapped drains, dark crowded basements, uncleaned cisterns and slaughterhouse waste. They noted how still and close the air had been in the days before the outbreak.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Report by the special investigators (Doc 28); GBoH tables dated from 6 Sept 1854"
+  },
+  {
+   "date_iso": "1854-09-07",
+   "date_display": "Thursday 7 September 1854",
+   "precision": "day",
+   "eye": "snow",
+   "place": "St James's vestry",
+   "headline": "Snow puts his case to the Board of Guardians",
+   "digest": "On the Thursday evening Snow asked to speak to the parish Board of Guardians, who were meeting about the outbreak, and laid out what he had found: nearly all the deaths were near the pump or among people who drank from it. The Guardians agreed to act.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Snow 1855, Broad Street section"
+  },
+  {
+   "date_iso": "1854-09-08",
+   "date_display": "Friday 8 September 1854",
+   "precision": "day",
+   "eye": "snow",
+   "place": "Broad Street",
+   "headline": "The pump handle comes off",
+   "digest": "The Guardians had the handle removed the next day. Snow himself noted that the attacks had already fallen sharply, from 143 on 1 September to 12 on the 8th, and that the flight of residents may have helped; he did not claim the removal ended the outbreak. The picture of Snow wrenching off the handle himself is a later legend.",
+   "quote": "the handle of the pump was removed on the following day",
+   "confidence": "verified",
+   "source_note": "Snow 1855; daily table"
+  },
+  {
+   "date_iso": "1854-09-08",
+   "date_display": "Friday 8 September 1854",
+   "precision": "day",
+   "eye": "lewis",
+   "place": "40 Broad Street",
+   "headline": "On the day the handle goes, the father falls ill",
+   "digest": "Police constable Thomas Lewis was taken ill on the same day the pump was closed. Whitehead later realised that the cesspool beside the well was again receiving the household's waste water.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Whitehead, Special Investigation of Broad Street (dated 5 June 1855), CIC Report pp. 121–69; John Snow Archive Doc 30-II; UCLA Snow site"
+  },
+  {
+   "date_iso": "1854-09-09",
+   "date_display": "Saturday 9 September 1854",
+   "precision": "day",
+   "eye": "farr",
+   "place": "General Register Office",
+   "headline": "The Weekly Return prints the Soho death list",
+   "digest": "Farr's Weekly Return carried an appendix listing every cholera death registered in the Soho subdistricts in the week ending 2 September, with ages, occupations, addresses and the hours of illness, together with a list of Middlesex Hospital deaths. These lists were the raw material Snow and later Whitehead worked from.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Weekly Return, 9 Sept 1854, pp. 337–40 (John Snow Archive Docs 16-I, 20)"
+  },
+  {
+   "date_iso": "1854-09-10",
+   "date_display": "Sunday 10 September 1854",
+   "precision": "day",
+   "eye": "observer",
+   "place": "London",
+   "headline": "Coffins on the hearse roofs, and an old plague pit",
+   "digest": "The paper described the first week: people struck down from about ten at night on 31 August, some eighty bodies carried to the workhouse over a weekend, coffins short, hearses overloaded, residents standing in the streets afraid to go in, and over 320 dead. It floated the idea that sewer works had disturbed a plague burial ground, but called the whole matter a mystery.",
+   "quote": "the old plague of London may have generated the new",
+   "confidence": "verified",
+   "source_note": "Observer, 10 Sept 1854, pp. 5–6 (John Snow Archive Doc 17-IV)"
+  },
+  {
+   "date_iso": "1854-09-12",
+   "date_display": "Tuesday 12 September 1854",
+   "precision": "day",
+   "eye": "snow",
+   "place": "Deptford",
+   "headline": "Snow turns to a second outbreak in Deptford",
+   "digest": "Snow went to Deptford, where some ninety had died in a few streets, and traced the trouble to leaking water pipes in ground with no sewers; residents had noticed foul, frothy water. He then went back to his larger study of the South London water companies.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Snow, MTG 23 Sept 1854; John Snow Archive companion"
+  },
+  {
+   "date_iso": "1854-09-19",
+   "date_display": "Tuesday 19 September 1854",
+   "precision": "day",
+   "eye": "lewis",
+   "place": "40 Broad Street",
+   "headline": "Thomas Lewis dies after eleven days",
+   "digest": "The constable died after eleven days' illness, leaving Sarah Lewis with two older children, Thomas and Anne. Within three weeks the household had lost both the youngest child and the father.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "UCLA Snow site (Whitehead and the index case)"
+  },
+  {
+   "date_iso": "1854-09-23",
+   "date_display": "Saturday 23 September 1854",
+   "precision": "day",
+   "eye": "snow",
+   "place": "Medical Times and Gazette",
+   "headline": "Snow publishes his case against the pump",
+   "digest": "In a letter to the Medical Times and Gazette Snow set out the clustering of deaths around the pump, the drinkers who died far away and the sudden fall in new cases, alongside his Deptford findings. Eighty-nine cholera deaths had been registered in the three subdistricts in the week ending 2 September.",
+   "quote": "upwards of five hundred fatal attacks of cholera in ten days",
+   "confidence": "verified",
+   "source_note": "Snow, 'The Cholera near Golden Square, and at Deptford', MTG 23 Sept 1854, pp. 321–22"
+  },
+  {
+   "date_iso": "1854-10",
+   "date_display": "October 1854",
+   "precision": "month",
+   "eye": "fhl",
+   "place": "Board of Health",
+   "headline": "The inspectors blame foul air from the drains",
+   "digest": "With the survey finished at the end of September, the investigators reported 609 September deaths in their districts, 539 of them between 1 and 13 September, and five of 535 inmates dead in the Poland Street workhouse. They concluded the outbreak arose mainly from sewer air escaping through badly trapped street drains, with impure water, crowding and fear as aids; they did not make the pump the cause.",
+   "quote": "untrapped and imperfectly trapped gullies and ventilating shafts",
+   "confidence": "verified",
+   "source_note": "Report by the special investigators (Doc 28), printed 1855"
+  },
+  {
+   "date_iso": "1854-10",
+   "date_display": "Autumn 1854",
+   "precision": "month",
+   "eye": "whitehead",
+   "place": "St Luke's, Berwick Street",
+   "headline": "Whitehead's pamphlet on his parish's ordeal",
+   "digest": "Within weeks of the epidemic Whitehead published The Cholera in Berwick Street, a plain account of what the parish had suffered. It said nothing about the pump: like most of his neighbours, he did not yet think water was the key.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Chave 1958; UCLA Snow site"
+  },
+  {
+   "date_iso": "1854-10-07",
+   "date_display": "Saturday 7 October 1854",
+   "precision": "day",
+   "eye": "stewart",
+   "place": "Medical Times and Gazette",
+   "headline": "Stewart's report on the hospital's week",
+   "digest": "Stewart published his account of the cholera at the Middlesex: the rush of patients from 1 September, the beds cleared, and the counts of admissions and deaths. It is the principal published record of the hospital's side of the outbreak.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Stewart, 'Cholera in the Middlesex Hospital', MTG 7 Oct 1854, pp. 363–65"
+  },
+  {
+   "date_iso": "1854-10-11",
+   "date_display": "Wednesday 11 October 1854",
+   "precision": "day",
+   "eye": "gaskell",
+   "place": "Lea Hurst, Derbyshire",
+   "headline": "Gaskell hears how Florence Nightingale nursed the cholera",
+   "digest": "Writing to Catherine Winkworth, Gaskell passed on that Florence Nightingale had gone to the Middlesex Hospital on 31 August to superintend the cholera patients and had stayed with them through the crisis. Historians who have checked the hospital's records find no trace of her in its staff lists, so the letter is read as family report rather than a record.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Gaskell to Winkworth, 11 Oct 1854 (Chapple and Pollard 1966), discussed in John Snow Archive Nightingale study"
+  },
+  {
+   "date_iso": "1854-10-27",
+   "date_display": "Friday 27 October 1854",
+   "precision": "day",
+   "eye": "gaskell",
+   "place": "Lea Hurst / Manchester",
+   "headline": "A second letter, as Nightingale prepares for the East",
+   "digest": "In a further letter Gaskell returned to Nightingale's hospital work among the poor of Soho. By then Nightingale had been asked to take nurses to the military hospitals at Scutari, and the London cholera became a prelude in the family's story of her.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Gaskell, 27 Oct 1854 (Chapple and Pollard 1966, p. 318), as cited in John Snow Archive Nightingale study"
+  },
+  {
+   "date_iso": "1854-11-23",
+   "date_display": "Thursday 23 November 1854",
+   "precision": "day",
+   "eye": "lankester",
+   "place": "St James's vestry",
+   "headline": "The vestry votes to investigate its own outbreak",
+   "digest": "Lankester had given notice on 2 November of a motion for a parish inquiry; on 23 November it was carried and a committee of nine formed, including him and the churchwardens. The committee began work on 25 November.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Chave 1958; CIC General Report (Doc 30-IV)"
+  },
+  {
+   "date_iso": "1854-12-11",
+   "date_display": "Monday 11 December 1854",
+   "precision": "day",
+   "eye": "snow",
+   "place": "18 Sackville Street",
+   "headline": "Snow signs the preface to his second edition",
+   "digest": "Snow dated the preface to the enlarged On the Mode of Communication of Cholera from his home. The book set the Broad Street outbreak, his dot map and his South London water-company comparison side by side as one argument.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Snow 1855, preface (Project Gutenberg)"
+  },
+  {
+   "date_iso": "1854-12-12",
+   "date_display": "Tuesday 12 December 1854",
+   "precision": "day",
+   "eye": "snow",
+   "place": "St James's",
+   "headline": "Snow's report to the parish inquiry",
+   "digest": "Snow gave the vestry's committee a statement of his investigation, ruling out the public water companies and arguing that the evacuations of one or more patients had probably reached the well. He conceded that some local cases had spread without water.",
+   "quote": "the evacuations of one or more cholera patients found their way",
+   "confidence": "verified",
+   "source_note": "Dr Snow's Report, CIC Report pp. 97–120 (Doc 26-IV)"
+  },
+  {
+   "date_iso": "1854-12-14",
+   "date_display": "Thursday 14 December 1854",
+   "precision": "day",
+   "eye": "lankester",
+   "place": "St James's vestry",
+   "headline": "The inquiry survives a challenge over cost",
+   "digest": "The Board of Guardians objected that the inquiry was an expense the parish need not bear; a motion to stop the work was defeated. Early in 1855 the committee added members, among them Snow and Whitehead.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Chave 1958"
+  },
+  {
+   "date_iso": "1855-01",
+   "date_display": "January 1855",
+   "precision": "month",
+   "eye": "snow",
+   "place": "London (John Churchill, publisher)",
+   "headline": "The book and the map are published",
+   "digest": "The second edition appeared, with its map of Soho marking each death as a bar at the house and its table of 616 deaths between 19 August and 30 September. Its South London chapter set the Southwark and Vauxhall Company's customers against Lambeth's: 315 deaths per 10,000 houses against 37 in the first seven weeks.",
+   "quote": "The most terrible outbreak of cholera which ever occurred in this kingdom",
+   "confidence": "verified",
+   "source_note": "Snow 1855, Broad Street section and Table IX"
+  },
+  {
+   "date_iso": "1855-01",
+   "date_display": "Early 1855",
+   "precision": "month",
+   "eye": "whitehead",
+   "place": "St Luke's, Berwick Street",
+   "headline": "The curate sets out to disprove Snow",
+   "digest": "Asked to join the inquiry, Whitehead told a medical friend he expected a careful investigation to overturn the pump theory. He had seen people recover after drinking the water and thought that told against it. Over about four months he reached 497 of Broad Street's 896 residents, asking each who drank what and when.",
+   "quote": "my belief that a careful investigation would disprove that theory",
+   "confidence": "approx",
+   "source_note": "Whitehead, Special Investigation of Broad Street (dated 5 June 1855), CIC Report pp. 121–69; John Snow Archive Doc 30-II; Chave 1958"
+  },
+  {
+   "date_iso": "1855-04",
+   "date_display": "April 1855",
+   "precision": "month",
+   "eye": "parkes",
+   "place": "British and Foreign Medico-Chirurgical Review",
+   "headline": "Parkes: the theory is unproven but worth official inquiry",
+   "digest": "Parkes granted that the Broad Street deaths ringed the pump but argued Snow had never shown the water contaminated, and that air, crowding or elevation could explain the pattern as well. He judged Snow had not proved that cholera was spread by water even once, yet called the idea worth serious government-funded study.",
+   "quote": "an hypothesis worthy of inquiry",
+   "confidence": "verified",
+   "source_note": "Parkes, Review XIII, BFMCR April 1855, pp. 449–63 (John Snow Archive)"
+  },
+  {
+   "date_iso": "1855-04",
+   "date_display": "April 1855",
+   "precision": "month",
+   "eye": "lewis",
+   "place": "40 Broad Street",
+   "headline": "Sarah Lewis tells the curate what she did",
+   "digest": "As Whitehead recorded it, she said the baby fell ill on 28 August, that the soiled napkins were steeped in pails at once, and that she emptied the water partly into the front cesspool. It is the only account of her words, and it survives in his report rather than her own.",
+   "quote": "were immediately steeped in pails",
+   "confidence": "approx",
+   "source_note": "Whitehead, Special Investigation of Broad Street (dated 5 June 1855), CIC Report pp. 121–69; John Snow Archive Doc 30-II"
+  },
+  {
+   "date_iso": "1855-04-03",
+   "date_display": "Tuesday 3 April 1855",
+   "precision": "day",
+   "eye": "whitehead",
+   "place": "St Luke's, Berwick Street",
+   "headline": "An overlooked entry: a baby at No. 40",
+   "digest": "Going back over the Registrar General's returns, Whitehead found the death of a five-month-old girl at 40 Broad Street on 2 September after four days' diarrhoea, an illness that began before the outbreak. He went to the house and heard from her mother how the napkins had been washed and where the water was poured.",
+   "quote": "attack of diarrhoea four days previous to death",
+   "confidence": "approx",
+   "source_note": "Chave 1958 gives 3 April; Whitehead, Special Investigation of Broad Street (dated 5 June 1855), CIC Report pp. 121–69; John Snow Archive Doc 30-II"
+  },
+  {
+   "date_iso": "1855-05-01",
+   "date_display": "Tuesday 1 May 1855",
+   "precision": "day",
+   "eye": "york",
+   "place": "40 Broad Street",
+   "headline": "Digging finds the cesspool almost touching the well",
+   "digest": "York's excavation found the cesspool in front of No. 40 decayed and its drain badly built, lying about 2 feet 8 inches from the brickwork of the well, with signs that liquid could pass from one to the other. An earlier look at the well itself had reported no hole or crevice.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "York's report in CIC Report 1855; UCLA Snow site; Chave 1958"
+  },
+  {
+   "date_iso": "1855-06-05",
+   "date_display": "Tuesday 5 June 1855",
+   "precision": "day",
+   "eye": "whitehead",
+   "place": "St Luke's, Berwick Street",
+   "headline": "Whitehead's report: the water kept the outbreak going",
+   "digest": "Whitehead set out his figures: of the residents he traced, 80 who drank the pump water were attacked and 57 were not, while among non-drinkers 20 were attacked and 279 were not. He concluded that the pump water was connected with the continuation of the outbreak, and noted that the father at No. 40 had fallen ill on the day the handle came off.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Whitehead, Special Investigation of Broad Street (dated 5 June 1855), CIC Report pp. 121–69; John Snow Archive Doc 30-II; Chave 1958"
+  },
+  {
+   "date_iso": "1855-06-14",
+   "date_display": "Thursday 14 June 1855",
+   "precision": "day",
+   "eye": "snow",
+   "place": "St James's",
+   "headline": "Snow's note on the Cambridge Street inquiry",
+   "digest": "Snow signed a short note, 'J.S., June 14, 1855', on a house-to-house inquiry in Cambridge Street for the parish committee. He also redrew his map for the committee's report, adding a line marking the points nearer to the Broad Street pump than to any other.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "John Snow Archive companion (VJ commentary); UCLA Snow site maps"
+  },
+  {
+   "date_iso": "1855-06-23",
+   "date_display": "June 1855",
+   "precision": "month",
+   "eye": "lancet",
+   "place": "The Lancet",
+   "headline": "The Lancet mocks Snow's sanitary evidence",
+   "digest": "After Snow told a parliamentary committee that offensive trades' smells did not themselves breed epidemics, a Lancet leader scoffed that, riding his hobby too hard, he had fallen through a gully-hole and never climbed out. It asked whether he had any facts to prove his case and answered that he had none.",
+   "quote": "fallen down through a gully-hole",
+   "confidence": "approx",
+   "source_note": "The Lancet 1855 (issue date approximate), as quoted in The History Blog, 2013"
+  },
+  {
+   "date_iso": "1855-07",
+   "date_display": "Mid-1855",
+   "precision": "month",
+   "eye": "gboh",
+   "place": "Whitehall",
+   "headline": "The Board's committee rejects the water theory for Broad Street",
+   "digest": "The Committee for Scientific Inquiries considered Snow's suggestion that the Broad Street well was the source and turned it down, favouring an atmospheric cause acting with local filth. It also rejected Hassall's microscope findings of vibrios as a cause, treating them as products of decay, and dismissed transmission through water or food fouled with excrement.",
+   "quote": "After careful enquiry we see no reason to adopt this belief",
+   "confidence": "approx",
+   "source_note": "Report of the Committee for Scientific Inquiries, Parliamentary Papers 1855 (quoted in PMC1121911; PMC4872209)"
+  },
+  {
+   "date_iso": "1855-07-25",
+   "date_display": "Wednesday 25 July 1855",
+   "precision": "day",
+   "eye": "lankester",
+   "place": "St James's vestry",
+   "headline": "The parish committee adopts its report",
+   "digest": "The Cholera Inquiry Committee adopted a report that estimated not less than 700 fatal attacks in the parish over the seventeen weeks ending 4 November 1854. It found the hot, still weather of late August had given the unknown cause temporary activity, but said the atmosphere alone could not explain the outbreak, and pointed to the well.",
+   "quote": "fails, by itself, to explain the apparent anomalies",
+   "confidence": "verified",
+   "source_note": "CIC General Report (Doc 30-IV); Chave 1958"
+  },
+  {
+   "date_iso": "1855-08-09",
+   "date_display": "Thursday 9 August 1855",
+   "precision": "day",
+   "eye": "lankester",
+   "place": "St James's vestry",
+   "headline": "A casting vote publishes the verdict",
+   "digest": "Lankester presented the report to the full vestry, which approved its publication only on the chairman's casting vote. Five hundred copies of the 175-page report were printed, Snow's and Whitehead's reports and York's survey among its contents.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Chave 1958; UCLA Snow site"
+  },
+  {
+   "date_iso": "1865-12",
+   "date_display": "December 1865 (written later)",
+   "precision": "month",
+   "eye": "whitehead",
+   "place": "London",
+   "headline": "Whitehead retells the story in Macmillan's Magazine",
+   "digest": "Eleven years on, as cholera again threatened, Whitehead wrote 'The Broad Street Pump' for a general readership, recounting his own turn from scepticism. He urged that the lessons of 1854 not be neglected. This is a later recollection, written with the outcome known.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Macmillan's Magazine, Dec 1865, pp. 113–22 (Wellcome copy catalogued as 1862); Chave 1958"
+  },
+  {
+   "date_iso": "1866",
+   "date_display": "1866 (later)",
+   "precision": "year",
+   "eye": "farr",
+   "place": "General Register Office",
+   "headline": "Farr, after East London, accepts the water",
+   "digest": "Investigating the 1866 East London epidemic, Farr concluded that water from one company's supply, not the air, had carried it, and wrote that only a very robust scientific witness would have drunk it. It was a public change of view by the statistician whose returns had fed both sides of the 1854 argument.",
+   "quote": "Only a very robust scientific witness would have dared to drink",
+   "confidence": "approx",
+   "source_note": "Farr 1866 report, quoted in PMC1121911"
+  },
+  {
+   "date_iso": "1866",
+   "date_display": "1866 (later)",
+   "precision": "year",
+   "eye": "lankester",
+   "place": "London",
+   "headline": "Lankester's later summary of the pump",
+   "digest": "Writing in 1866, Lankester, by then Medical Officer of Health, summed up the episode in a single line: whatever the doubts of the experts, the pump was shut and the dying stopped.",
+   "quote": "the pump was closed nevertheless and the plague was stayed",
+   "confidence": "approx",
+   "source_note": "Lankester 1866, as quoted in Wikipedia, 1854 Broad Street cholera outbreak"
+  },
+  {
+   "date_iso": "1867-05",
+   "date_display": "May 1867 (written later)",
+   "precision": "month",
+   "eye": "whitehead",
+   "place": "Epidemiological Society, London",
+   "headline": "Whitehead's caution: the outbreak had already peaked",
+   "digest": "In 'Remarks on the Outbreak of Cholera in Broad Street', read to the Epidemiological Society, Whitehead stressed that the outbreak had reached its climax before the handle was removed. He still held that the closure stopped a second wave from the Lewis household.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Chave 1958; UCLA Snow site"
+  },
+  {
+   "date_iso": "1874-01-16",
+   "date_display": "Friday 16 January 1874 (recalled later)",
+   "precision": "day",
+   "eye": "whitehead",
+   "place": "Rainbow Tavern, Fleet Street",
+   "headline": "At his farewell dinner, Whitehead remembers Snow",
+   "digest": "Leaving London for a parish in Cumberland, Whitehead spoke at length about his friend Snow, dead since 1858. He recalled Snow telling him that great outbreaks of cholera would one day be things of the past.",
+   "quote": "great outbreaks of cholera will be things of the past",
+   "confidence": "approx",
+   "source_note": "Whitehead's speech, 16 Jan 1874, as given in Chave 1958 and UCLA Snow site"
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1854-08-31",
+   "date_display": "31 Aug – 1 Sept 1854",
+   "eye": "snow",
+   "claim": "Fatal attacks began on 31 Aug (56) and peaked on 1 Sept (143); 616 deaths from 19 Aug to 30 Sept in Snow's table",
+   "form": "report",
+   "evidence": "Snow 1855, Table I",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1854-09-02",
+   "date_display": "2 Sept 1854",
+   "eye": "eley",
+   "claim": "Widow in Hampstead, aged 59, died after drinking water carted from the Broad Street pump; her niece died in Islington",
+   "form": "bill of mortality",
+   "evidence": "Death register entry quoted in Snow 1855",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1854-09-02",
+   "date_display": "Week ending 2 Sept 1854",
+   "eye": "farr",
+   "claim": "Cholera deaths registered in the three Soho subdistricts that week: 89 (Snow's copy of the list for the last days: 83)",
+   "form": "bill of mortality",
+   "evidence": "GRO Weekly Return appendix, 9 Sept 1854; Snow, MTG 23 Sept 1854",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1854-09-03",
+   "date_display": "3 Sept 1854",
+   "eye": "stewart",
+   "claim": "Middlesex Hospital admitted nearly 90 cholera cases in 50 hours; 40 had died",
+   "form": "case note",
+   "evidence": "Stewart, MTG 7 Oct 1854, p. 364",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1854-09-07",
+   "date_display": "7–8 Sept 1854",
+   "eye": "snow",
+   "claim": "Board of Guardians heard Snow on 7 Sept; pump handle removed 8 Sept, when new attacks were already down to 12 a day",
+   "form": "report",
+   "evidence": "Snow 1855, text and Table I",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1854-09-10",
+   "date_display": "10 Sept 1854",
+   "eye": "observer",
+   "claim": "More than 320 dead in the two districts within ten days; cause proposed: disturbed plague burial ground",
+   "form": "newspaper",
+   "evidence": "Observer, 10 Sept 1854",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1854-10",
+   "date_display": "October 1854",
+   "eye": "fhl",
+   "claim": "609 deaths in September in the three subdistricts (539 on 1–13 Sept); cause attributed mainly to foul air from untrapped gullies",
+   "form": "report",
+   "evidence": "Fraser, Hughes and Ludlow, report to Hall (printed 1855)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1854-10",
+   "date_display": "Autumn 1854",
+   "eye": "snow",
+   "claim": "Poland Street workhouse: 5 deaths among 535 inmates (own well); Broad Street brewery: no serious cases among 70-odd workmen, who did not use the pump",
+   "form": "report",
+   "evidence": "Snow 1855; workhouse figure also in Fraser, Hughes and Ludlow",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1854-10",
+   "date_display": "Autumn 1854",
+   "eye": "snow",
+   "claim": "Percussion-cap factory at 37–38 Broad Street: 18 workers died at their homes (16 men, 2 women)",
+   "form": "report",
+   "evidence": "Snow 1855",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1855-01",
+   "date_display": "January 1855",
+   "eye": "snow",
+   "claim": "'Grand experiment': Southwark & Vauxhall houses 315 deaths per 10,000 vs Lambeth 37 (first 7 weeks to 26 Aug 1854; rest of London 59)",
+   "form": "report",
+   "evidence": "Snow 1855, Table IX",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1855-04",
+   "date_display": "April 1855",
+   "eye": "parkes",
+   "claim": "Snow had not shown the pump water contaminated nor excluded air, crowding or elevation; hypothesis unproven but worth inquiry",
+   "form": "other",
+   "evidence": "Parkes, BFMCR April 1855, pp. 449–63",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1855-05-01",
+   "date_display": "1 May 1855",
+   "eye": "york",
+   "claim": "Cesspool and drain at 40 Broad Street decayed, about 2 ft 8 in from the well; seepage into the well possible",
+   "form": "report",
+   "evidence": "York's report, CIC Report 1855",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1855-06-05",
+   "date_display": "5 June 1855",
+   "eye": "whitehead",
+   "claim": "Broad Street residents: pump drinkers 80 attacked / 57 not; non-drinkers 20 attacked / 279 not; index case at No. 40 from 28 Aug",
+   "form": "report",
+   "evidence": "Whitehead, Special Investigation, CIC Report pp. 121–69",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1855-07",
+   "date_display": "1855",
+   "eye": "gboh",
+   "claim": "Committee for Scientific Inquiries rejected the Broad Street water explanation in favour of atmospheric causes; London hospital treatment trial found 46% of treated cases died",
+   "form": "report",
+   "evidence": "CSI Report, Parliamentary Papers 1855; Dean, J R Soc Med 2016",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1855-07-25",
+   "date_display": "25 July 1855",
+   "eye": "lankester",
+   "claim": "Not less than 700 fatal attacks in St James's parish in 17 weeks to 4 Nov 1854 (484 registered); atmosphere alone insufficient; the well implicated",
+   "form": "report",
+   "evidence": "CIC General Report, adopted 25 July 1855",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1854-09-02",
+   "label": "The worst forty-eight hours: 1–2 September",
+   "eyes": [
+    "snow",
+    "eley",
+    "lewis",
+    "stewart",
+    "observer"
+   ],
+   "note": "Snow's later table puts 143 and 116 attacks on these two days; at the Middlesex Stewart watches the beds fill; in Hampstead Mrs Eley dies of water from the same pump; at No. 40 the Lewis baby dies of the illness that probably began it. The newspaper can only call it a mystery."
+  },
+  {
+   "date": "1854-09-06",
+   "label": "Three inquiries start in the same week",
+   "eyes": [
+    "snow",
+    "gboh",
+    "fhl",
+    "farr"
+   ],
+   "note": "Snow collects the GRO list and a coffee-shop keeper's count; the new Medical Council, with Farr on it, meets in Whitehall; the Board's inspectors begin surveying drains and basements. The same streets are read as a water problem by one and an air problem by the others."
+  },
+  {
+   "date": "1854-09-08",
+   "label": "The handle comes off",
+   "eyes": [
+    "snow",
+    "lewis",
+    "whitehead"
+   ],
+   "note": "Snow records the removal and, carefully, that cases had already fallen; on the same day Thomas Lewis falls ill at No. 40, a fact Whitehead later sets beside the closure to argue it prevented a second wave."
+  },
+  {
+   "date": "1854-09-10",
+   "label": "Counting and explaining in public",
+   "eyes": [
+    "farr",
+    "observer",
+    "snow"
+   ],
+   "note": "Farr's Weekly Return prints the bare list of the dead; the Observer offers a plague pit; within a fortnight Snow's letter puts the pump before the profession."
+  },
+  {
+   "date": "1854-10",
+   "label": "October: the first written verdicts",
+   "eyes": [
+    "fhl",
+    "stewart",
+    "gaskell",
+    "whitehead"
+   ],
+   "note": "The Board's inspectors blame sewer air; Stewart publishes the hospital's counts; Gaskell passes on the story of Nightingale at the Middlesex; Whitehead writes his parish account without a word about water."
+  },
+  {
+   "date": "1854-12-12",
+   "label": "December: the parish inquiry takes Snow in",
+   "eyes": [
+    "snow",
+    "lankester"
+   ],
+   "note": "Snow signs his preface and gives his report to the vestry's committee, while Lankester fights off the Guardians' attempt to stop the inquiry on cost."
+  },
+  {
+   "date": "1855-04",
+   "label": "Spring 1855: evidence and its critics",
+   "eyes": [
+    "whitehead",
+    "lewis",
+    "york",
+    "parkes",
+    "snow"
+   ],
+   "note": "Whitehead finds the entry for the baby at No. 40 and hears Sarah Lewis's account; York digs out the cesspool beside the well; in the same month Parkes argues in print that Snow has still not proved the water guilty."
+  },
+  {
+   "date": "1855-07",
+   "label": "Two official verdicts on the same well",
+   "eyes": [
+    "gboh",
+    "lankester",
+    "lancet",
+    "snow"
+   ],
+   "note": "The national Board's committee rejects the water explanation; the parish committee, by a casting vote, endorses it; the Lancet has just mocked Snow. The disagreement is between bodies looking at overlapping evidence with different expectations."
+  }
+ ],
+ "ties": [
+  {
+   "a": "snow",
+   "b": "whitehead",
+   "kind": "met",
+   "note": "They probably first met on the parish inquiry in early 1855; Whitehead set out to refute Snow, became his ally and friend, and recalled him in 1874."
+  },
+  {
+   "a": "whitehead",
+   "b": "lewis",
+   "kind": "met",
+   "note": "Whitehead interviewed Sarah Lewis in spring 1855; her account survives only in his report."
+  },
+  {
+   "a": "snow",
+   "b": "eley",
+   "kind": "mentioned",
+   "note": "Snow learned her case from the register and her family and made it the most cited outlying death of the outbreak."
+  },
+  {
+   "a": "snow",
+   "b": "farr",
+   "kind": "read each other",
+   "note": "Snow worked from Farr's Weekly Return lists; Farr had praised Snow's theory in 1852 while preferring an elevation explanation, and moved toward water in 1866."
+  },
+  {
+   "a": "snow",
+   "b": "gboh",
+   "kind": "opposite sides",
+   "note": "The Board's scientific committee weighed Snow's Broad Street argument and rejected it in 1855."
+  },
+  {
+   "a": "fhl",
+   "b": "gboh",
+   "kind": "influenced",
+   "note": "The three investigators reported to Hall; their sewer-air conclusion fed the Board's position."
+  },
+  {
+   "a": "lankester",
+   "b": "snow",
+   "kind": "met",
+   "note": "Lankester's committee brought Snow onto the parish inquiry and printed his report."
+  },
+  {
+   "a": "lankester",
+   "b": "whitehead",
+   "kind": "met",
+   "note": "Both sat on the Cholera Inquiry Committee; Whitehead's report was part of the volume Lankester presented."
+  },
+  {
+   "a": "york",
+   "b": "whitehead",
+   "kind": "influenced",
+   "note": "York's excavation of the cesspool at No. 40 gave physical support to the index case Whitehead had found."
+  },
+  {
+   "a": "parkes",
+   "b": "snow",
+   "kind": "read each other",
+   "note": "Parkes reviewed Snow's second edition at length in April 1855; the two had already disagreed in print in 1849."
+  },
+  {
+   "a": "lancet",
+   "b": "snow",
+   "kind": "opposite sides",
+   "note": "The Lancet ridiculed Snow's 1855 evidence on offensive trades; it acknowledged its error in 2013."
+  },
+  {
+   "a": "stewart",
+   "b": "gaskell",
+   "kind": "same street",
+   "note": "Stewart's hospital is the one where, by Gaskell's account, Florence Nightingale nursed cholera patients that week."
+  },
+  {
+   "a": "farr",
+   "b": "gboh",
+   "kind": "met",
+   "note": "Farr sat on Hall's Medical Council, whose committee issued the 1855 report."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "scutari-1854",
+   "note": "Florence Nightingale's reported service among cholera patients at the Middlesex Hospital in September 1854 came weeks before she led nurses to the military hospitals at Scutari, where cholera and other infections again filled the wards."
+  },
+  {
+   "to": "cholera-1832",
+   "note": "Snow first saw cholera as a young apprentice at Killingworth colliery near Newcastle in the 1831–32 epidemic; Broad Street was the same disease's third visit to London."
+  },
+  {
+   "to": "v1:london-1666",
+   "note": "The Observer's theory that sewer works had stirred up a plague burial ground in Soho looked back to the London plague of 1665–66; investigators in 1854 weighed and rejected it."
+  },
+  {
+   "to": "philadelphia-1793",
+   "note": "The quarrel over whether an epidemic came from local foul air or was carried by something passed between people ran through the 1793 yellow fever debates in Philadelphia, as it did at Broad Street."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://commons.wikipedia.com/wiki/File:Snow-cholera-map-1.jpg",
+   "title": "Snow's map of cholera deaths around Broad Street",
+   "caption": "The map from the second edition of On the Mode of Communication of Cholera: each death is a black bar at the house, with the pumps marked; the bars stack thickest around the Broad Street pump.",
+   "date": "1854–55",
+   "credit": "John Snow; drawn and lithographed by C. F. Cheffins; via Wikimedia Commons"
+  },
+  {
+   "url": "https://epi-snow.ph.ucla.edu/graphics/Map1_CIC_1854.jpg",
+   "title": "Snow's revised map for the Cholera Inquiry Committee",
+   "caption": "The version Snow prepared for the St James's parish report of 1855, adding a boundary of the points nearer to the Broad Street pump than to any other.",
+   "date": "1855",
+   "credit": "John Snow; reproduced by UCLA Department of Epidemiology"
+  },
+  {
+   "url": "https://epi-snow.ph.ucla.edu/graphics/snowbook2_table1.jpg",
+   "title": "Snow's Table I: fatal attacks and deaths by day",
+   "caption": "Snow's day-by-day count, which shows attacks peaking on 1 September and already falling before the handle came off on 8 September; he drew attention to that himself.",
+   "date": "1855",
+   "credit": "John Snow, On the Mode of Communication of Cholera, 2nd ed.; via UCLA"
+  },
+  {
+   "url": "https://epi-snow.ph.ucla.edu/graphics/onthemodeofCommunicationofCholera_1855_350px.jpg",
+   "title": "Title page, On the Mode of Communication of Cholera (1855)",
+   "caption": "The enlarged second edition, published by John Churchill, which joined the Broad Street study to the South London water-company comparison.",
+   "date": "1855",
+   "credit": "John Snow; via UCLA Department of Epidemiology"
+  },
+  {
+   "url": "https://content.www.wellcomecollection.org/works/pv2k6z8x",
+   "title": "Whitehead, 'The Broad Street pump: an episode in the cholera epidemic of 1854'",
+   "caption": "Whitehead's later account for Macmillan's Magazine, digitised from a Royal College of Surgeons copy; written with the outcome known.",
+   "date": "1865 (catalogued 1862)",
+   "credit": "Henry Whitehead; Wellcome Collection, Public Domain Mark"
+  },
+  {
+   "url": "https://artsci.case.edu/dittrick/2014/06/16/morbid-matter-public-health-and-public-opinion/l0063431-map-showing-deaths-from-cholera-in-broad-street",
+   "title": "Map showing deaths from cholera in Broad Street (Wellcome L0063431)",
+   "caption": "A Wellcome Library photograph of Snow's Broad Street map, shown in a Dittrick Museum feature on public health and public opinion.",
+   "date": "1854–55",
+   "credit": "John Snow; Wellcome Library; via Dittrick Medical History Center"
+  }
+ ],
+ "further": [
+  {
+   "title": "Snow, On the Mode of Communication of Cholera, 2nd ed. (1855), Project Gutenberg",
+   "url": "https://gutenberg.org/cache/epub/72894/pg72894-images.html"
+  },
+  {
+   "title": "John Snow Archive and Research Companion: supplementary documents (Michigan State University)",
+   "url": "https://johnsnow.matrix.msu.edu/cws_docs.php/"
+  },
+  {
+   "title": "UCLA Department of Epidemiology: John Snow site, the Broad Street outbreak",
+   "url": "https://epi-snow.ph.ucla.edu/Stream2_BSPoutbreak_a.html"
+  },
+  {
+   "title": "Chave, 'Henry Whitehead and cholera in Broad Street', Medical History 2 (1958)",
+   "url": "https://core-cms.cambridgecore.org/core/services/aop-cambridge-core/content/view/A8A932F788DB7A519D832F49AEA69C76/S0025727300023504a.pdf/henry-whitehead-and-cholera-in-broad-street.pdf"
+  },
+  {
+   "title": "Dean, 'The cholera treatment evaluation by the General Board of Health, London 1854', J R Soc Med (2016)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4872209"
+  },
+  {
+   "title": "Nightingale's sojourn at the Middlesex Hospital: the evidence (John Snow Archive)",
+   "url": "https://johnsnow.matrix.msu.edu/documentUploads/15-78-29F/15-78-29F-22-FNSojourn-HU-01indd.pdf"
+  }
+ ]
+}

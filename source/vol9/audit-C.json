@@ -1,0 +1,355 @@
+[
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:0",
+  "severity": "doubt",
+  "problem": "No fetched source confirms that the 9 Sept 1830 letter to Pletnev joked about dying before the wedding; the cited passages (azbyka.ru) confirm 'cholera morbus', the steppe and undisturbed writing only.",
+  "fix": {
+   "text_replace": {
+    "old": "He joked darkly that it might carry him off before his wedding.",
+    "new": "He joked darkly about the danger."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:1",
+  "severity": "doubt",
+  "problem": "Date of Nicholas I's arrival in Moscow not confirmed: one Russian source (Profile.ru) gives 12 October 1830 with no calendar stated, close to but not matching 29 Sept O.S. = 11 Oct N.S. Keep approx and say so.",
+  "fix": {
+   "source_note": "Standard histories give 29 September 1830 (O.S.); one Russian popular source gives 12 October 1830 (calendar unstated). Exact day not confirmed."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:3",
+  "severity": "style",
+  "problem": "Completion date 6 November 1830 and the source in Wilson's 'City of the Plague' are confirmed by culture.ru.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Completion date 6 November 1830 (O.S.) as given by standard editions; confirmed by culture.ru ('Гимн в честь чумы! Послушаем его!')."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:6",
+  "severity": "error",
+  "problem": "The digest gives specific content (attacks on the hospital, the emperor's appearance, Nikitenko's unease at both sides) that no consulted source confirms; Arcadia lists the diary only under further reading and the Novaya Gazeta chronicle does not cite it. Content must be hedged to the general.",
+  "fix": {
+   "digest": "Nikitenko's diary for the summer of 1831 covers the weeks when cholera reached St Petersburg in mid-June and fear and rumours of poisoning spread among the poor, ending in the riot at Sennaya Square. The content of his individual entries for these weeks is not checked here, and his views are not summarised.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:7",
+  "severity": "error",
+  "problem": "The digest marks the 'drank a cholera remedy' story as the doubtful account, but the cited Novaya Gazeta chronicle casts doubt on Leikin's kneeling version (the tsar's voice could hardly reach the crowd) and does not single out Fredericks' remedy story. Present all versions as unconfirmed memoir.",
+  "fix": {
+   "text_replace": {
+    "old": "Memoirists later gave different versions: that he ordered them to their knees, that he scolded them for disorder, or (in an account regarded as doubtful) that he drank a cholera remedy himself.",
+    "new": "Memoirists later gave different versions: that he ordered them to their knees, that he shamed them for disorder, or that he drank a cholera remedy before them. None is a firsthand record, and a modern chronicle doubts that his words could have been heard by most of the crowd."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:8",
+  "severity": "error",
+  "problem": "Novaya Gazeta (citing Kersnovsky) gives more than a hundred dead among officers, doctors and medical staff, not 'officers and officials'. Start date 23 July 1831 (= 11 July O.S.) is given by a further Russian source (teletype.in), consistent with the entry.",
+  "fix": {
+   "text_replace": {
+    "old": "one later historian put the dead among officers and officials at over a hundred",
+    "new": "one later historian (A. A. Kersnovsky) put the dead among officers, doctors and medical staff at over a hundred"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:13",
+  "severity": "style",
+  "problem": "Greville says Barry declared the disease identical 'with the cholera he had seen in Russia', not 'seen abroad'.",
+  "fix": {
+   "text_replace": {
+    "old": "identical with the Asiatic cholera seen abroad",
+    "new": "identical with the cholera he had seen in Russia"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:14",
+  "severity": "doubt",
+  "problem": "O'Shaughnessy's 'Proposal of a New Method of Treating the Blue Epidemic Cholera by the Injection of Highly-Oxygenised Salts into the Venous System' is dated 1 December 1831 (Zenodo record), so the proposal came before or alongside the north-east blood analysis, not after it as the digest implies. 'Thick and dark' is not confirmed by any fetched source.",
+  "fix": {
+   "digest": "O'Shaughnessy published in the Lancet a proposal to treat the blue stage of cholera by injecting salts into the veins (a digitised record dates it 1 December 1831), and went north to analyse the blood and evacuations of cholera patients. He reported that the blood had lost a large share of its water and its saline matter, and urged that the lost salts be restored.",
+   "source_note": "'Proposal of a New Method of Treating the Blue Epidemic Cholera by the Injection of Highly-Oxygenised Salts into the Venous System' (Lancet, dated 1 December 1831 in the Zenodo record); Report on the Chemical Pathology of the Malignant Cholera (1832). Hektoen International dates his 'Experiments on the Blood in Cholera' to March 1832; exact issue dates not re-checked."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:24",
+  "severity": "style",
+  "problem": "Heine says he saw one of the victims in the rue de Vaugirard; 'beaten to death' adds clinical-violent detail beyond what the digest needs.",
+  "fix": {
+   "text_replace": {
+    "old": "he saw one man beaten to death in the rue de Vaugirard",
+    "new": "he witnessed one such killing in the rue de Vaugirard"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:26",
+  "severity": "error",
+  "problem": "Hektoen gives the Lancet editor's words as thanks for 'the intrepidity, scientific zeal and assiduity' Latta displayed; 'courage' is not in the source. Hektoen's reference II, 274 is the letter; the editorial is II, 284. One reference work dates the Lancet printing to 23 June 1832, so the issue day stays unstated.",
+  "fix": {
+   "digest": "The Lancet published Latta's communication and its editor praised the intrepidity, scientific zeal and assiduity he had shown. Other practitioners began to try saline injection, with mixed results, and the debate over it ran through the medical journals that summer.",
+   "source_note": "Lancet 1831–32, vol. 2, p. 274 (Latta's letter via the Central Board) and p. 284 (editorial), as cited by Hektoen International; the exact issue date is given differently by different sources."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:29",
+  "severity": "error",
+  "problem": "26 June 1832 was a Tuesday, not a Monday (4 July 1832, which Hone dates Wednesday, fixes the calendar).",
+  "fix": {
+   "text_replace": {
+    "old": "on the night of Monday 26 June",
+    "new": "on the night of 26 June"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:38",
+  "severity": "error",
+  "problem": "Coppard records the sergeant's widow (taken ill in a waggon at the George Inn, Ridgeway) under 10 August, with her burial on 11 August; no man is recorded dying on 11 August. The saline injection that day was given to William Gully, who had relapsed and revived for a time.",
+  "fix": {
+   "digest": "A sergeant's widow, taken ill in a waggon at the George Inn, Ridgeway, had died in the temporary hospital there and was buried this day. William Gully, who had relapsed, was given a saline injection into a vein, the method Latta had reported from Leith that spring, and revived for a time; the next day he was injected again and given blood from a neighbour."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:39",
+  "severity": "style",
+  "problem": "Traill's text puts arrival at Grosse Isle on the evening of 11 August, written up in the 12 August entry; the pilot boarded on 11 August.",
+  "fix": {
+   "text_replace": {
+    "old": "Traill's brig stopped at the Grosse Île quarantine station.",
+    "new": "Traill's brig had anchored at the Grosse Île quarantine station the evening before."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:40",
+  "severity": "error",
+  "problem": "Quote is not exact: the text reads 'this city of the pestilence'.",
+  "fix": {
+   "quote": "this city of the pestilence"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:41",
+  "severity": "error",
+  "problem": "'Her conduct throughout was heroic and cool to admiration' refers to the blood donor Mary Chapman, not the patient (Susan Taylor). The digest attributes the praise ambiguously to the patient's courage.",
+  "fix": {
+   "digest": "The parish Board of Health met at Coppard's house over food and relief for the poor. Susan Taylor, close to death, was given a large saline injection and then a transfusion of blood offered by a neighbour, Mary Chapman; she revived and later recovered. Coppard praised the donor's steady courage."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:43",
+  "severity": "error",
+  "problem": "Traill names 'blue pill', not calomel; she was nursed by the landlady's sister, Jane Taylor, and two Irish servant girls at the hotel, not by fellow travellers. The day of onset is not stated; the sequence of entries points to 23 August.",
+  "fix": {
+   "digest": "Writing from Cobourg, Traill described falling ill an hour before sunrise on the morning she was to leave Montreal (probably 23 August, from the sequence of her entries). She was bled and given opium, blue pill and salts; a physician came four times a day for the first two days. The landlady's sister, Jane Taylor, stayed with her, and two Irish servant girls also nursed her."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:44",
+  "severity": "error",
+  "problem": "Roughing It in the Bush gives the date: the Anne 'cast anchor off Grosse Isle, on the 30th of August 1832'. The day can be stated, as the book's date.",
+  "fix": {
+   "date_display": "30 August 1832 (date given in her 1852 book)",
+   "precision": "day",
+   "source_note": "Roughing It in the Bush (1852), ch. 1 ('A Visit to Grosse Isle'), which dates the brig Anne's anchoring to 30 August 1832; a memoir written later."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "entry:45",
+  "severity": "error",
+  "problem": "The diary does not end with the summer's deaths listed by name; a closing summary records the Board of Health adjourning on 3 October and the Conclusion gives totals (30 deaths at Underwood) and burial-register tables.",
+  "fix": {
+   "text_replace": {
+    "old": "The diary ends soon after, with the deaths of the summer listed by name.",
+    "new": "The dated entries end here; a closing summary records the Board of Health adjourning in October, and the conclusion gives the parish's deaths as totals and tables."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "claim:4",
+  "severity": "style",
+  "problem": "Russian dates (14 June – 5 November 1831) are Old Style; the display should say so, per the calendar note.",
+  "fix": {
+   "date_display": "14 June – 5 November 1831 (O.S.)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "eye:coppard",
+  "severity": "error",
+  "problem": "The diary records two transfusions from neighbours (William Gully, 12 August; Susan Taylor, 16 August), not one.",
+  "fix": {
+   "text_replace": {
+    "old": "in one case a blood transfusion from a neighbour",
+    "new": "in at least two cases blood transfusions from neighbours"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "eye:traill",
+  "severity": "error",
+  "problem": "Traill was nursed by the landlady's sister and servants at her Montreal hotel, not by fellow travellers.",
+  "fix": {
+   "text_replace": {
+    "old": "nursed by fellow travellers",
+    "new": "nursed by the landlady's sister and servants at her Montreal hotel"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "eye:moodie",
+  "severity": "style",
+  "problem": "The book gives the arrival date (30 August 1832), and a public text is available.",
+  "fix": {
+   "authenticity": "Roughing It in the Bush (1852) was written twenty years after the events, partly from memory; its opening chapter on Grosse Île is a later literary account, not a diary. It dates the arrival of the brig Anne at Grosse Isle to 30 August 1832.",
+   "sources": [
+    {
+     "title": "Roughing It in the Bush (London, 1852), chapter 1 (Toronto Metropolitan University Pressbooks)",
+     "url": "https://pressbooks.library.torontomu.ca/roughingitinthebush/chapter/chapter-i-a-visit-to-grosse-isle/"
+    }
+   ]
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "eye:bayley",
+  "severity": "error",
+  "problem": "The N-YHS post describes Bayley as a printer and places a case in 'our block in Church Street'; his own street is Church Street, not Walker Street.",
+  "fix": {
+   "text_replace": {
+    "old": "New York resident writing to relatives on Long Island",
+    "new": "New York printer writing to relatives then on Long Island"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "eye:bayley",
+  "severity": "error",
+  "problem": "Where: his block was in Church Street (near Walker Street).",
+  "fix": {
+   "text_replace": {
+    "old": "Near Walker Street, lower Manhattan",
+    "new": "Church Street, near Walker Street, lower Manhattan"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "eye:bayley",
+  "severity": "style",
+  "problem": "Bio overstates: the cases he named were at Walker Street addresses and in his block of Church Street.",
+  "fix": {
+   "text_replace": {
+    "old": "He noted cases in houses on his own street.",
+    "new": "He noted cases at Walker Street addresses and in his own block of Church Street."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "convergence:1",
+  "severity": "error",
+  "problem": "Nikitenko's views of the Sennaya events are not checked against his diary; the characterisation must go.",
+  "fix": {
+   "text_replace": {
+    "old": "Nikitenko, a former serf, wrote of the same days from inside the frightened capital, with sympathy for neither panic nor repression.",
+    "new": "Nikitenko, a former serf, kept his diary in the frightened capital through the same weeks; its individual entries are not checked here."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "tie:2",
+  "severity": "doubt",
+  "problem": "No consulted source confirms that Nikitenko's diary records the emperor's appearance before the crowd.",
+  "fix": {
+   "text_replace": {
+    "old": "Nikitenko's diary records the emperor's acts in 1831, including his appearance before the crowd.",
+    "new": "Nikitenko's diary, kept in St Petersburg through Nicholas's reign, records the emperor's government; its entries on the 1831 events are not checked here."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "image:2",
+  "severity": "style",
+  "problem": "The Newcastle page does not say the cartoon satirises doctors' disagreements; it points to the treatments (blue pill, emetic) and poverty.",
+  "fix": {
+   "text_replace": {
+    "old": "It satirises the doctors' disagreements and the link between poverty and disease.",
+    "new": "It satirises the treatments of the day (the patient holds a blue pill) and the link between poverty and disease."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cholera-1832",
+  "where": "image:3",
+  "severity": "style",
+  "problem": "Co-Curate says the poster was produced by the 'anti cholera party' against Clanny and Kell, who maintained the town had cholera.",
+  "fix": {
+   "text_replace": {
+    "old": "one of the local physicians in the dispute over naming the disease.",
+    "new": "one of the local physicians who held that the town had cholera; the poster was produced by the party that denied it."
+   }
+  },
+  "confidence": "verified"
+ }
+]

@@ -8,7 +8,7 @@ SRC = pathlib.Path("/home/claude")
 VOLS = [("I", "many-eyes.html", "Diaries Across History"), ("II", "many-eyes-volume-2.html", "Diaries Across History, continued"),
         ("III", "many-eyes-volume-3.html", "Edges of the Map"), ("IV", "many-eyes-volume-4.html", "The Notebook"),
         ("V", "many-eyes-volume-5.html", "The Studio"), ("VI", "many-eyes-volume-6.html", "The Room"),
-        ("VII", "many-eyes-volume-7.html", "Getting There"), ("VIII", "many-eyes-volume-8.html", "The Same Sky"), ("XIII", "many-eyes-volume-13.html", "Signals"), ("XV", "many-eyes-volume-15.html", "Hidden Worlds")]
+        ("VII", "many-eyes-volume-7.html", "Getting There"), ("VIII", "many-eyes-volume-8.html", "The Same Sky"), ("IX", "many-eyes-volume-9.html", "The Ward"), ("XIII", "many-eyes-volume-13.html", "Signals"), ("XV", "many-eyes-volume-15.html", "Hidden Worlds")]
 OUT.mkdir(parents=True, exist_ok=True)
 cards, rows = [], []
 for num, fn, name in VOLS:
