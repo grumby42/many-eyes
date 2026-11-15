@@ -60,7 +60,7 @@ h2{{margin:0 0 4px;font-size:24px}}h2 a{{color:inherit;text-decoration:none;bord
 <p class="kicker">A synoptic reader</p><h1>Many Eyes</h1>
 <p class="lede">Each chapter takes one event and lays real diaries, letters, notebooks, minutes and dated records from many people side by side on a shared timeline: who saw what, where, and on which day. Every volume is a single offline HTML file; open it in any browser, or save it for reading without a connection.</p>
 <ol>{compcard}{"".join(cards)}</ol>
-<p class="note">All sources are real. Entries are digests in the editors' words; short quotations appear only from English texts published before 1929, world-famous phrases and official United States records. Images are public domain. Contested questions are presented as positions with their evidence, not verdicts. Compiled by Ted Gransbury with Claude. Site generated {STAMP}.</p>
+<p class="note">All sources are real. Entries are digests in the editors' words; short quotations appear only from English texts published before 1929, world-famous phrases and official United States records. Images are public domain. Contested questions are presented as positions with their evidence, not verdicts. Compiled by Ted Gransbury with Claude. Text licensed CC BY 4.0; code MIT. Site generated {STAMP}.</p>
 </main></body></html>'''
 (OUT / "index.html").write_text(page, encoding="utf-8")
 readme = f"""# Many Eyes
@@ -76,6 +76,8 @@ Each volume is one self-contained offline HTML file. Read online via GitHub Page
 **Sourcing rules.** All sources are real. Entries are digests; quotations are short and limited to English texts published before 1929, world-famous phrases and official US records. Memoirs written later, forgeries and legends are flagged. Contested questions are given as positions with evidence. Each volume was checked by independent fact-check passes before publication.
 
 Compiled by Ted Gransbury with Claude. Generated {STAMP}.
+
+**Licence.** Book text: CC BY 4.0 (see `LICENSE-CONTENT.md`). Build scripts: MIT (see `LICENSE`). Quotations and images are public domain or short quotations for commentary, and keep their own status.
 """
 (OUT / "README.md").write_text(readme, encoding="utf-8")
 (OUT / ".nojekyll").write_text("")
