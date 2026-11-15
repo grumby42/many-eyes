@@ -14,7 +14,8 @@ Each volume is one self-contained offline HTML file. Read online via GitHub Page
 | VI | [The Room](many-eyes-volume-6.html) | 8 | 105 | 399 | `EYES6-20261114-2158Z` |
 | VII | [Getting There](many-eyes-volume-7.html) | 11 | 153 | 512 | `EYES7-20261114-2158Z` |
 | VIII | [The Same Sky](many-eyes-volume-8.html) | 8 | 113 | 330 | `EYES8-20261114-2158Z` |
+| XIII | [Signals](many-eyes-volume-13.html) | 9 | 119 | 408 | `EYES13-20261115-0631Z` |
 
 **Sourcing rules.** All sources are real. Entries are digests; quotations are short and limited to English texts published before 1929, world-famous phrases and official US records. Memoirs written later, forgeries and legends are flagged. Contested questions are given as positions with evidence. Each volume was checked by independent fact-check passes before publication.
 
-Compiled by Ted Gransbury with Claude. Generated 2026-11-14T22:54:49Z.
+Compiled by Ted Gransbury with Claude. Generated 2026-11-15T06:31:21Z.
