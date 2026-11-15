@@ -1,0 +1,769 @@
+[
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:0",
+  "severity": "style",
+  "problem": "Checked against Acosta's Spanish text (IV.6): Gualpa 'de nación Chumbibilca', Guanca 'natural del valle de Jauja', Villarroel, registration at Porco on 21 April 1545 all confirmed. No change needed beyond confirming confidence.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:9",
+  "severity": "style",
+  "problem": "Acosta's 'eight feet wide' (ocho pies de ancho) describes the adits (socavones) in general, not the Venino specifically.",
+  "fix": {
+   "text_replace": {
+    "old": "the Venino adit, a horizontal tunnel about eight feet wide driven into the hill",
+    "new": "the Venino adit, a horizontal tunnel driven into the hill (Acosta gives such adits a width of about eight feet)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "eye:santo-tomas",
+  "severity": "style",
+  "problem": "The waypoint label places the 1550 letter in Lima, but the letter as edited and translated does not state where it was written (the eye's own 'where' field says so).",
+  "fix": {
+   "waypoints": [
+    {
+     "lat": -12.046,
+     "lon": -77.043,
+     "label": "Lima area, 1550 (place of the letter not stated)"
+    },
+    {
+     "lat": 41.652,
+     "lon": -4.724,
+     "label": "Valladolid, Quechua grammar printed 1560"
+    },
+    {
+     "lat": -19.047,
+     "lon": -65.26,
+     "label": "La Plata, bishop of Charcas, 1560s"
+    }
+   ]
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:6",
+  "severity": "style",
+  "problem": "Kris Lane's translation gives parties of '50, 60, 100 and 200' people; the digest drops the 60. Otherwise the 180 leagues, six leagues without plants, prices and the slaves/condemned comparison are confirmed.",
+  "fix": {
+   "text_replace": {
+    "old": "in parties of 50, 100, 200 and more",
+    "new": "in parties of 50, 60, 100, 200 and more"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "eye:charcas-lords",
+  "severity": "error",
+  "problem": "The authenticity note leaves the date and signatories unchecked. The 53-chapter memorial is undated; Espinoza Soriano published it as a 'Crónica inédita de 1582' from AGI Charcas 45 (Cantuta 4, 1969, pp. 117–152; corrected ed. 2003); it is signed by 24 curacas of four nations, headed by Fernando Ayavire y Velasco. A related memoria by Ayavire is dated 6 and 20 December 1582.",
+  "fix": {
+   "text_replace": {
+    "old": "The Memorial de Charcas is usually dated to about 1582; it was published by Waldemar Espinoza Soriano (1969) and re-edited in T. Platt, T. Bouysse-Cassagne and O. Harris, Qaraqara-Charka (La Paz, 2006). The precise date and the full list of signatories should be checked against that edition.",
+    "new": "The 53-chapter Memorial de Charcas is undated; Waldemar Espinoza Soriano found it in the Archivo General de Indias (Charcas 45) and published it as a 'Crónica inédita de 1582' (Cantuta 4, 1969; corrected ed. 2003); it was re-edited in T. Platt, T. Bouysse-Cassagne and O. Harris, Qaraqara-Charka (La Paz, 2006). It is signed by 24 curacas of four nations, headed by Fernando Ayavire y Velasco. A related memoria of Ayavire is dated 6 and 20 December 1582."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:22",
+  "severity": "doubt",
+  "problem": "The memorial itself is undated; the c. 1582 date rests on its editor and on a related Ayavire document of December 1582. Signatories (24 curacas) can now be stated. The review consulted does not mention the mita, so the closing clause should be framed as context.",
+  "fix": {
+   "date_display": "c. 1582 (undated; dated by its editor)",
+   "digest": "Twenty-four hereditary lords (curacas) of four nations of Charcas, the Qaraqara and Charka among them, headed by Fernando Ayavire y Velasco, signed a memorial to the king. They recounted how they and their ancestors had served the Inca and then the Spanish crown, in war and in labour, and asked to be treated with the honours of Spanish nobles. They sought remedies for the condition of their people after the Toledan reforms, of which the annual draft of their men to Potosí was a part."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:27",
+  "severity": "error",
+  "problem": "Loaysa's memorial is dated Madrid, 5 May 1586 (addressed via Mateo Vázquez), per the Augustinian archive study; it was not written in Peru. The wording also varies by source: Gil Montero (citing Cook) gives twenty healthy men in on Monday, half crippled by Sunday; the 1992 study's rendering has twenty-two entering on Monday, leaving on Saturday, half crippled.",
+  "fix": {
+   "place": "Madrid, memorial to the king (dated 5 May 1586)",
+   "digest": "Loaysa, an Augustinian who had professed in Lima and knew Peru, addressed a memorial to the king from Madrid. In a passage on the mines he wrote that of the men who entered on Monday, half might come out crippled by the end of the week; modern quotations give the number as twenty (Cook, cited by Gil Montero) or twenty-two. His memorial describes the mita as a ruin of the drafted communities. It is a judgement of what he had seen and heard, not a count of deaths, and it has been quoted ever since by critics of the system.",
+   "source_note": "Loaysa, Memorial de las cosas del Perú tocantes a los indios (Madrid, 5 May 1586), CODOIN vol. 94, pp. 554–605; as quoted in Gil Montero (2011), citing Cook, Demographic Collapse, p. 238; Archivo Agustiniano (1992) study of the memorial."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "claim:12",
+  "severity": "doubt",
+  "problem": "Figure varies by transcription (twenty vs twenty-two men; Sunday vs Saturday).",
+  "fix": {
+   "claim": "Of the men entering the mines on Monday (twenty in one modern quotation, twenty-two in another), half may come out crippled by the week's end (a judgement, not a count)",
+   "evidence": "Loaysa, Memorial (Madrid, 5 May 1586), CODOIN 94; quoted in Gil Montero (2011) via Cook; Archivo Agustiniano (1992)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "eye:loaysa",
+  "severity": "style",
+  "problem": "Order (Augustinian) confirmed; he professed in Lima in 1558 and the memorial was signed in Madrid in 1586. 'Where' should not imply he wrote in Peru.",
+  "fix": {
+   "text_replace": {
+    "old": "Peru and Upper Peru",
+    "new": "Peru (professed in Lima, 1558); memorial signed in Madrid, 1586"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:24",
+  "severity": "doubt",
+  "problem": "No page of Capoche was seen; Gil Montero's 45 kg sacks and 25-a-day quota are not attributed to Capoche (they sit in a section on a 1603 description of Potosí, without citation). The digest says more than the cited source supports.",
+  "fix": {
+   "digest": "Capoche's report, written from inside the industry, treats the labour of the drafted men as well as the mines and mills. Modern summaries draw on it for the work of carrying ore up hide ladders by candlelight, for pay below that of free workers, and for abuses he acknowledged. His concern is partly humane and partly practical: a workforce destroyed could not be replaced.",
+   "source_note": "Capoche, Relación general (1585), ed. Hanke (1959), not consulted page by page. Gil Montero (2011) gives 45 kg sacks at 25 a day in a passage on a 1603 description of Potosí, not as Capoche's figures."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:23",
+  "severity": "style",
+  "problem": "Gil Montero quotes Capoche (p. 75) as describing 'cold, snow-covered, sterile, fruitless and almost uninhabitable high lands'; the potatoes detail is not in that quotation.",
+  "fix": {
+   "text_replace": {
+    "old": "a cold, sterile, almost uninhabitable place where little grew but some potatoes, and yet",
+    "new": "a cold, snow-covered, sterile and almost uninhabitable place, and yet"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:28",
+  "severity": "error",
+  "problem": "Blair & Robertson's text of Salazar's 27 June 1588 letter does not name a Mexican merchant buyer, and it does not explicitly ask for direct trade to be stopped. It criticises the viceroy at length, reports a rumour that the Santa Ana was sold for 30,000 pesos and ordered to Macao, and says ships going from Mexico to Macao destroy both kingdoms.",
+  "fix": {
+   "headline": "The bishop warns against ships from Mexico to Macao",
+   "digest": "Salazar complained to Philip II at length about the viceroy of New Spain, who had sent no troops or supplies and had raised the taxes on Manila's trade. He reported a rumour that the ship Santa Ana had been sold for thirty thousand pesos and ordered to Macao, and that the San Martín had been sent there too. Ships going from Mexico to Macao, he wrote, would ruin both those kingdoms and the Philippines, since the trade and the American silver that paid for it would bypass Manila."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:29",
+  "severity": "style",
+  "problem": "Ayala letter checked in Blair & Robertson: 'a ship from Panama or Piru, prepared to lay out a large sum of money, has arrived at Macan'; 'this country will be depopulated and ruined'; forty or fifty thousand pesos yearly. He signs as licentiate and calls his office fiscal. Quote verified.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "Blair & Robertson confirm 3,000–4,000 Sangleys in the Parián plus 2,000 and more on the ships, the real a day, the trades and the quote. The final clause about Sangleys raising prices when buyers had silver goes slightly beyond the text, which says the price fluctuates according to the money that comes from Mexico.",
+  "fix": {
+   "text_replace": {
+    "old": "prices rose and fell with the money that arrived from Mexico, and the Sangleys raised them when buyers had silver.",
+    "new": "prices were not fixed but rose and fell according to the money that came from Mexico."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:3",
+  "severity": "style",
+  "problem": "Markham's chapter CIX title confirmed: '...how, as the metal does not run, the Indians get it by the invention of the huayras'; Markham's introduction gives 1549. Quote is from a pre-1929 (1864) translation.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:4",
+  "severity": "doubt",
+  "problem": "Chapter CX title confirmed ('There was the richest market in the world at this hill of Potosi, at the time when these mines were prosperous'), but the chapter body was not seen; 'many of them women' and coca are not confirmed.",
+  "fix": {
+   "text_replace": {
+    "old": "where Andean traders, many of them women, sold food, coca, clothing and goods brought from great distances",
+    "new": "where Andean traders sold food, clothing and goods brought from great distances"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:32",
+  "severity": "doubt",
+  "problem": "Correo del Sur gives the 'eighth wonder' and 8,000 Indians with tallow candles as Ocaña's words, but the rescue of five Indians buried five days comes from the book of miracles of the Virgin cited by Arturo Álvarez, not clearly from Ocaña's own account.",
+  "fix": {
+   "text_replace": {
+    "old": "He recorded a collapse in which five Indians were buried for five days and came out alive, which the faithful credited to the Virgin.",
+    "new": "A book of miracles of the Virgin of Guadalupe, cited by his editor, records a collapse in which five Indians were buried for five days and came out alive."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:33",
+  "severity": "style",
+  "problem": "Correo del Sur: Ocaña was asked in October 1600 and the image was painted 'en Potosí en el año 1601'; date_display should show the request date, not the painting.",
+  "fix": {
+   "date_display": "October 1600 (request); image painted 1601"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:36",
+  "severity": "error",
+  "problem": "The Royal Danish Library transcription of drawing 370 (p. 1047 [1055]) has a label 'Guayna Potocí, minas de plata' ('Young Potosí', silver mines) on the Huancavelica scene; it does not name silver mines near Potosí.",
+  "fix": {
+   "text_replace": {
+    "old": "a marginal note also names silver mines near Potosí",
+    "new": "a label names silver mines called 'Guayna Potocí' (Young Potosí) in the same scene"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "image:1",
+  "severity": "error",
+  "problem": "Same error as entry 36: the label 'Guayna Potocí, minas de plata' is part of the Huancavelica drawing, not a note about mines near Potosí.",
+  "fix": {
+   "text_replace": {
+    "old": "a margin note names silver mines near Potosí",
+    "new": "a label names silver mines called 'Guayna Potocí' (Young Potosí)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:37",
+  "severity": "doubt",
+  "problem": "The Royal Danish Library titles the drawing (p. 1065) 'The rich imperial town of Potosí, where the crown and the church are defended by the Inka and his four kings'. The digest's 'under the arms of the Spanish monarchy' is not what that caption says; the page can now be given.",
+  "fix": {
+   "digest": "Guaman Poma's drawing of the rich imperial town of Potosí, which the Royal Danish Library describes as showing the crown and the church defended by the Inca and his four kings, carries Latin and Quechua inscriptions, and his text presents the mountain as what sustained Castile. Elsewhere in the chronicle he condemns the mita and its abuses by Spanish officials, priests and Andean lords alike. It is a later Andean judgement on the sixteenth century, not a firsthand account of the 1570s.",
+   "source_note": "Nueva corónica y buen gobierno, p. 1065, 'La villa rica enperial de Potocí' (Royal Danish Library GKS 2232 4º; Linkgua visual archive). Text paraphrased from the drawing's caption and context."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "image:2",
+  "severity": "style",
+  "problem": "Caption can name what the central figures are, per the Royal Danish Library title for p. 1065.",
+  "fix": {
+   "text_replace": {
+    "old": "with a crowned central figure and Latin and Quechua texts, presenting the silver town as a pillar of the Spanish monarchy.",
+    "new": "with a crowned central figure and Latin and Quechua texts; the Royal Danish Library describes it as the crown and the church defended by the Inca and his four kings (p. 1065)."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "claim:7",
+  "severity": "style",
+  "problem": "DIA (UPenn) confirms 'around 13,500' men a year, 16 mita captaincies and three groups working one week in three; it does not give the one-seventh share or ages specifically for the mita. The one-seventh share is from the LOC blog. Positions are correctly presented.",
+  "fix": {
+   "evidence": "DIA (UPenn), 'Mita' (c. 13,500; 16 captaincies; thirds); LOC blog (2022) (one-seventh share); Encyclopedia of Latin American History and Culture, 'Mita'; Gil Montero (2011) (14,181 in 1578)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:21",
+  "severity": "style",
+  "problem": "Gil Montero gives 14,181 as 'the fixed total of migrants' in 1578, with later totals 12,354 (1633), 5,658 (1688), 4,101 (1692); confirmed.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "claim:4",
+  "severity": "style",
+  "problem": "Positions confirmed: Acosta (IV.11) credits Enrique Garcés, Portuguese, 'el año de sesenta y seis y sesenta y siete' under licenciado Castro; the Encyclopedia of Latin American History and Culture credits Amador Cabrera in 1563, told of it by the kuraka Gonzalo Ñavincopa, and notes pre-Hispanic working.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:18",
+  "severity": "doubt",
+  "problem": "DIA ties the 18–50 age range to tribute owed by registered originarios, not specifically to the mita; it is widely given for the mita but should be hedged.",
+  "fix": {
+   "text_replace": {
+    "old": "Men aged roughly 18 to 50 from the highland provinces",
+    "new": "Men of working age (usually given as 18 to 50) from the highland provinces"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:16",
+  "severity": "doubt",
+  "problem": "No source seen gives Toledo's arrival at Potosí by month; general sources give only 1572. Already marked approx; display should not imply a confirmed month.",
+  "fix": {
+   "date_display": "1572 (late in the year, by standard histories)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:19",
+  "severity": "doubt",
+  "problem": "No source seen dates the Potosí mining ordinances to February 1574 (one cited Toledo provision from La Plata is dated 7 November 1573, on reductions). Month unconfirmed; precision should drop to year.",
+  "fix": {
+   "date_iso": "1574",
+   "precision": "year",
+   "date_display": "1574 (month not confirmed)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "threads_out:3",
+  "severity": "doubt",
+  "problem": "The link from Mercado's 1571 observation to the 1923 hyperinflation chapter is thematic only (money losing value), with no specific person, place, institution or consequence connecting them.",
+  "fix": {
+   "to": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "potosi-1545",
+  "where": "entry:15",
+  "severity": "style",
+  "problem": "Encyclopedia confirms 1572 expropriation, fixed-price contracts and cheap forced mita labour, and mercury dust poisoning (no ventilation shaft until the Belén adit of 1642); 'vapour' is not in the source.",
+  "fix": {
+   "text_replace": {
+    "old": "Its miners breathed mercury dust and vapour,",
+    "new": "Its miners breathed mercury dust in an unventilated mine,"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "calendar_note:0",
+  "severity": "error",
+  "problem": "The two recut figures are not one weight in two units: if 186 old carats equal about 190.3 metric (old carat about 205 mg), then 108.93 old carats would be about 111 metric, not 105.6. The 108.93-carat figure (Encyclopaedia Iranica, Britannica) is the nineteenth-century reported weight; 105.6 metric carats is the modern figure.",
+  "fix": {
+   "text_replace": {
+    "old": "The recut stone is variously given as 108.93 old carats or 105.6 metric carats. These describe one result in two units; they are not rival measurements.",
+    "new": "The recut stone is given as 108.93 carats in nineteenth-century reports and as 105.6 metric carats in modern ones. These two figures do not convert exactly into each other and are best read as two reported weights, not as one weight in two units."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "claim:10",
+  "severity": "error",
+  "problem": "Same unit problem as the calendar note; also Iranica gives 108.93 carats and a 43 per cent loss without calling them old carats.",
+  "fix": {
+   "claim": "Recutting by Coster's men at Garrard's: about 38 days, cost reported as £8,000; weight from 186 carats (c. 190.3 metric) to 108.93 carats as reported in the nineteenth century, given today as 105.6 metric carats; a loss usually stated as about 43 per cent."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:0",
+  "severity": "style",
+  "problem": "Gujrat was fought on 21 February 1849, about five weeks before 29 March, not six. Article III wording confirmed in Dalrymple and Anand's preview and The Conversation.",
+  "fix": {
+   "text_replace": {
+    "old": "Six weeks after the Sikh defeat at Gujrat",
+    "new": "Five weeks after the Sikh defeat at Gujrat"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:1",
+  "severity": "doubt",
+  "problem": "The Conversation quotes the letter as 'just, politic, and necessary' and 'Do not think I unduly exult'; the digest's 'prudent and unavoidable' and 'dared his critics to it' are not in the quoted text. Place 'Ferozepur' not confirmed (The Conversation says only 'from Punjab').",
+  "fix": {
+   "digest": "The day after the signing, Dalhousie wrote to his friend Sir George Couper. He had annexed the Punjab without waiting for authority from London, and said so plainly. He took the responsibility and called the step just, politic and necessary. He wrote with pride of adding four million subjects to the empire and placing the Mughal emperors' historic jewel in his sovereign's crown, while protesting that he did not unduly exult.",
+   "place": "Punjab (camp; Ferozepur by secondary accounts)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:3",
+  "severity": "doubt",
+  "problem": "The argument that a gift direct from the conquered prince honoured the Queen more than one from 'a joint-stock company' comes, in The Conversation, from Dalhousie's written defence against Lord Ellenborough (undated), not from the 16 August letter. The digest merges the two.",
+  "fix": {
+   "text_replace": {
+    "old": "Dalhousie answered at length. In his view the stone, as a symbol of conquest, belonged to the sovereign, and a gift direct from the Maharaja honoured her more than one passed through the Company.",
+    "new": "Dalhousie answered at length. In a written defence of the same period he argued that it was more for the Queen's honour to receive the stone directly from the conquered prince than as a gift from a joint-stock company among her subjects."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:4",
+  "severity": "error",
+  "problem": "Dalrymple and Anand's preview says Lady Dalhousie made a small soft kid-leather bag for the stone; it does not say she sewed it into a belt. The receipt wording ('I have received this day the Koh-i-Noor diamond') is confirmed; the belt is a separate later-retold detail.",
+  "fix": {
+   "text_replace": {
+    "old": "Lady Dalhousie sewed it into a belt for him, and he wore it on his journey south.",
+    "new": "It went into a small kid-leather bag made by Lady Dalhousie; in later accounts he carried it sewn into a belt on his journey south."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:7",
+  "severity": "doubt",
+  "problem": "Dalrymple and Anand record that Metcalfe himself called his results 'very meagre and imperfect'; the claim that most later popular histories, including the curse tales, draw on what he collected is their interpretation and should be framed as such.",
+  "fix": {
+   "text_replace": {
+    "old": "The work went to Theophilus Metcalfe at Delhi, who gathered court traditions and bazaar stories. Most later popular histories of the stone, including the tales of its curse, draw on what he collected.",
+    "new": "The work went to Theophilus Metcalfe, a junior magistrate at Delhi, who gathered court traditions and bazaar stories and himself called the results meagre and imperfect. Dalrymple and Anand argue that much of the stone's later popular history, including talk of a curse, goes back to what he collected."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:8",
+  "severity": "style",
+  "problem": "The Royal Collection cites the letter only for carrying the stone from Lahore and depositing it that day in the Bombay treasury; the secrecy sentence is not in the cited source.",
+  "fix": {
+   "text_replace": {
+    "old": " He kept the plan secret and told almost no one when the stone would sail.",
+    "new": ""
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:13",
+  "severity": "doubt",
+  "problem": "Arrival date varies: Victorian Web (Dalrymple and Anand) gives 30 June 1850; the National Archives of India story gives 29 June. NVLI says the escorts were met at Plymouth by Mr Onslow, secretary to the Company's chairman.",
+  "fix": {
+   "confidence": "approx",
+   "date_display": "29 or 30 June 1850 (sources differ)",
+   "digest": "The Medea reached Plymouth, where the escorts were met by Mr Onslow, secretary to the Company's chairman, who was to accompany them to London. The box was taken on via Portsmouth to London."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:15",
+  "severity": "doubt",
+  "problem": "Who presented the stone differs: the Royal Collection says it was delivered to the Queen by the President of the Board of Control; the Household Narrative (1850) says the Company's chairman and deputy chairman presented it at the levee on the 3rd. Present both as positions.",
+  "fix": {
+   "text_replace": {
+    "old": "The Company's chairman and deputy chairman presented the diamond to the Queen at the palace, in the Company's 250th year.",
+    "new": "The diamond was presented to the Queen at the palace, in the Company's 250th year: by the President of the Board of Control according to the Royal Collection, by the Company's chairman and deputy chairman according to the press of the day."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:16",
+  "severity": "doubt",
+  "problem": "DJO's date list marks 29 June 1850 for the page, which cannot contain a report of 3 July; the issue/month is uncertain, so 'verified' overstates it. Text and 'two millions sterling' valuation confirmed.",
+  "fix": {
+   "confidence": "approx",
+   "date_display": "Summer 1850 (monthly number; issue date uncertain)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "claim:6",
+  "severity": "style",
+  "problem": "As entry 16: the valuation 'two millions sterling' is confirmed but the issue date is uncertain.",
+  "fix": {
+   "date_display": "1850 (monthly number, issue uncertain)",
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:17",
+  "severity": "style",
+  "problem": "Victorian Web quotes the journal as 'one of the greatest and most glorious [days] in our lives', not 'proudest days of her life'.",
+  "fix": {
+   "text_replace": {
+    "old": "wrote of it as one of the proudest days of her life, the triumph of her husband's project",
+    "new": "wrote of it as one of the greatest and most glorious days of their lives, the triumph of her husband's project"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:27",
+  "severity": "style",
+  "problem": "The Times (19 July 1852) names 'Professor Tennant and Mr. Mitchell' and does not name the cutters (only 'two Dutch artists' of Messrs M. & G. Coster); Tennant's role as 'Queen's mineralogist' attending the work is not in the article.",
+  "fix": {
+   "text_replace": {
+    "old": "Tennant and Professor Mitchell had warned",
+    "new": "Professor Tennant and Mr Mitchell, asked to report, had warned"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "eye:tennant",
+  "severity": "style",
+  "problem": "The Times gives 'Mr. Mitchell', not Professor.",
+  "fix": {
+   "text_replace": {
+    "old": "With Professor Mitchell he warned",
+    "new": "With Mr Mitchell he warned"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:28",
+  "severity": "style",
+  "problem": "Times text confirmed ('imbedded in lead, with the exception of one small salient angle'; 'the first facet of the new cutting was effected'; 186 carats; some months; Garrard fell through an aperture and broke a small bone of his leg). Encyclopaedia Iranica gives Thursday 15 July; The Times of Monday 19 July says 'Friday afternoon', so 16 July stands.",
+  "fix": {
+   "text_replace": {
+    "old": "broken his leg",
+    "new": "broken one of the small bones of his leg"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "eye:lawrence",
+  "severity": "error",
+  "problem": "Form tag 'memoir' is wrong: Lawrence wrote nothing about it; the story is a later anecdote in tradition and biography. The Week (2022) states there is no historical evidence and that the story does not appear in Bosworth Smith's Life of Lord Lawrence, which the eye cites as a source; whether Bosworth Smith tells it is therefore disputed and not checked here.",
+  "fix": {
+   "form": "later anecdote (tradition, retold in popular histories)",
+   "authenticity": "Lawrence left no diary entry or letter about the stone that this chapter found. The waistcoat-pocket story is a later anecdote passed down in Anglo-Indian tradition and retold in popular histories. The Week (2022) says there is no historical evidence for it and that it is not in Bosworth Smith's Life of Lord Lawrence (1883); others attribute it to that biography; the point was not checked here. It also does not fit the documented December 1849 handover to Dalhousie."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:6",
+  "severity": "doubt",
+  "problem": "The source note says it is 'retold in Anglo-Indian biography'; The Week says it is absent from Bosworth Smith. Hedge.",
+  "fix": {
+   "source_note": "Later anecdote, labelled as such: passed down in tradition and retold in popular histories; The Week (2022) finds no historical evidence and says it is not in Bosworth Smith's Life of Lord Lawrence."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:11",
+  "severity": "doubt",
+  "problem": "The popular source (famouskohinoordiamond blog) says islanders refused supplies and asked their Governor to open fire; it does not say coal was supplied, and Dalrymple via Victorian Web says only that the authorities were reluctant to accept the ship. Keep as hedged secondary.",
+  "fix": {
+   "text_replace": {
+    "old": "Lockyer refused to leave, and in the popular account the local authorities threatened to fire on the ship. Coal was finally supplied and she sailed on.",
+    "new": "In the popular account the islanders refused to sell supplies and, when the ship did not leave, asked the Governor to open fire on her. After some days she sailed on."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:32",
+  "severity": "doubt",
+  "problem": "The Tribune summary confirms the Queen entering with the stone and Beefeaters, Lady Login's fear he would throw it from the window, his bow and his words of pleasure; 'turned it over at the window for long minutes' is not in the sources consulted.",
+  "fix": {
+   "text_replace": {
+    "old": "He turned it over at the window for long minutes.",
+    "new": "He examined it at length."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:33",
+  "severity": "doubt",
+  "problem": "The Tribune presents the remark that the stone was smaller and brighter as part of 'a tale that is now famous', not clearly from Lady Login; the Victorian Web review consulted does not describe the 1854 scene, so its citation here is unsupported.",
+  "fix": {
+   "digest": "In later tellings of the scene, the boy noticed that the stone was smaller and brighter than the one he had known in Lahore; it was the first time he had held it since the surrender. He handed it back with courtly words. Whatever he felt was not written down by him at the time, and his later letters suggest it was not simple gratitude.",
+   "source_note": "Lady Login (1890) via The Tribune; the smaller-and-brighter remark is part of the later retold story. His own words in 1854 known only through her."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:38",
+  "severity": "error",
+  "problem": "The News Minute says Bhutto cited the stone's 'immense sentimental value'; it does not mention Lahore in the letter, nor a British reply citing the 1849 treaty and rival claims. It cites instead a senior civil servant's memo in the National Archives.",
+  "fix": {
+   "text_replace": {
+    "old": "He cited the stone's great sentimental value and its history in Lahore. The British government declined, and the reply referred to the 1849 treaty and the competing claims of other states.",
+    "new": "He cited the stone's great sentimental value to Pakistan and presented its return as in keeping with Britain's voluntary end of empire. Britain did not return it; later press reports of released government papers quote an official memo noting simply that Britain had the diamond, whether or not its possession was legally justified."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:36",
+  "severity": "style",
+  "problem": "HRP source booklet confirms August 1882 (no day) and the quoted sentence ('I have been most unjustly deprived of my kingdom.'), and the phrase about Dalhousie finding 'only a helpless child'.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "RCT quotes the journal of 10 July 1854: Winterhalter 'in ecstasies' (digest says 'raptures' - fine as paraphrase) and the sitting of upwards of two hours. Confirmed; digest-only treatment correct.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "image:1",
+  "severity": "style",
+  "problem": "RCT says the diamond was shown to him 'during one of the sittings', not necessarily the 10 July sitting.",
+  "fix": {
+   "text_replace": {
+    "old": "This is the sitting at which, by Lady Login's account, the Queen put the recut diamond in his hand.",
+    "new": "During one of the sittings for it, by Lady Login's account and the Royal Collection's, the Queen put the recut diamond in his hand."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "image:0",
+  "severity": "style",
+  "problem": "RCT says the rock crystals 'represent the original form' of the diamond; 'replicas' of 'the uncut' stone slightly overstates (the stone was cut, in an old Mughal form).",
+  "fix": {
+   "text_replace": {
+    "old": "Rock-crystal replicas now show the original shape of the uncut Koh-i-Noor.",
+    "new": "Rock crystals now in the armlet represent the form in which the Koh-i-Noor arrived from India."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "threads_out:3",
+  "severity": "error",
+  "problem": "The cholera of 1850 belongs to the third pandemic (c. 1846–1860), not the second; the link to the 1832 chapter should not misassign it.",
+  "fix": {
+   "text_replace": {
+    "old": "belong to the second cholera pandemic and the quarantine fears traced in that chapter.",
+    "new": "came in a later wave of the cholera pandemics whose earlier passage, and the quarantine fears it raised, that chapter traces."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "tie:9",
+  "severity": "doubt",
+  "problem": "No source seen shows that Brewster's findings shaped Tennant's caution; The Times reports Tennant and Mitchell's own report on lateral cutting. 'Influenced' is an inference.",
+  "fix": {
+   "kind": "same street",
+   "note": "Both were consulted on the stone before the recutting of 1852: Brewster examined its flaws under polarised light, and Tennant, with Mitchell, reported on the risk of cutting it from the side."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "convergence:5",
+  "severity": "doubt",
+  "problem": "'Brewster's cavities are what Coster's men had to cut around' is an inference not stated in the sources consulted.",
+  "fix": {
+   "text_replace": {
+    "old": "; Brewster's cavities are what Coster's men had to cut around.",
+    "new": "."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:25",
+  "severity": "style",
+  "problem": "Cole's diary entry confirmed verbatim on V&A blog (17 Oct 1851: removed, examined carefully, 'had it in my pocket for a moment!'); 'in a crowded day's entry' is not shown by the transcription.",
+  "fix": {
+   "text_replace": {
+    "old": " and he noted this with obvious delight in a crowded day's entry.",
+    "new": " and he noted this with an exclamation mark."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:19",
+  "severity": "style",
+  "problem": "Quote confirmed on V&A blog (The Times, 13 June 1851): 'many people find a difficulty in bringing themselves to believe, from its external appearance'.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:21",
+  "severity": "style",
+  "problem": "Quote confirmed (The Times, 16 June 1851) and display of six gas lamps and twelve small mirrors in a small tent confirmed by the V&A.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:34",
+  "severity": "style",
+  "problem": "Cole diary 21 June 1860 confirmed (Female School, Koh-i-Noor exhibited, '1200 persons or more'; Hope diamond shown, per V&A). Note the entry sits out of chronological order in the array (1860 before the 1854 Tennant entry); sorting by date_iso will correct it.",
+  "fix": {},
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kohinoor-1849",
+  "where": "entry:22",
+  "severity": "style",
+  "problem": "DJO marks the page as the 2 August 1851 issue; quote 'a thief of the very highest genius' and the bell-glass, cage, clockwork and policeman confirmed.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ }
+]

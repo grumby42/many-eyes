@@ -1,0 +1,1352 @@
+{
+ "id": "davy-1807",
+ "title": "The Metals Hidden in the Ashes",
+ "short_title": "Davy and the New Metals",
+ "subtitle": "Volta's pile, the Royal Institution and the electrochemical elements, Como, London, Paris and Stockholm, 1800–1814",
+ "span": "1800–1815",
+ "intro": [
+  "On 20 March 1800 Alessandro Volta, a professor at Pavia writing from Como, sent Sir Joseph Banks a long letter in French describing a stack of paired metal discs and brine-soaked card that gave a steady electric current. Before the Royal Society heard the letter on 26 June, two Londoners who had seen it, the surgeon Anthony Carlisle and the journal editor William Nicholson, built their own pile. They watched bubbles of gas rise from a wire dipped in a tube of water. Within a few weeks chemistry had a new tool that could pull compounds apart.",
+  "Seven years later, in the basement laboratory of the Royal Institution in Albemarle Street, Humphry Davy turned the largest batteries he could gather on moistened potash. Small globules of a metal that looked like quicksilver broke through the crust. Some caught fire as they formed. Soda gave up a second metal a few days later. Davy called them potassium and sodium and announced them in the Bakerian Lecture of 19 November 1807. He then fell seriously ill for weeks. In 1808, helped by a method sent from Stockholm by Jöns Jacob Berzelius and Magnus Pontin, he took barium, strontium, calcium and magnesium (which he first called 'magnium') from the alkaline earths. In June of the same year he reached boron at almost the same moment as Joseph Louis Gay-Lussac and Louis Jacques Thénard in Paris.",
+  "The record here is mostly papers, laboratory notes, institutional minutes and letters, not diaries, and the form tags say so. The famous scene of the discovery, Davy dancing about the room, comes from his cousin and assistant Edmund Davy, but only as his brother John Davy printed it in 1836, almost thirty years later. The laboratory register itself was read differently by Davy's first biographer, John Ayrton Paris, who in 1831 dated the great result to 19 October, not 6 October. Both readings are given here as positions.",
+  "Two priority contests run through the chapter. In Paris, Gay-Lussac and Thénard made potassium in quantity by chemistry alone, heating potash with iron. They argued that Davy's metal might be a compound containing hydrogen, and they announced the decomposition of boracic acid nine days before Davy read his own, more tentative account. The other contest is a strange one: Napoleon's Institut awarded Davy its galvanism prize while Britain and France were at war. Davy is reported to have said that the countries might be at war but the men of science were not, while English newspapers argued he should refuse it.",
+  "The chapter closes with a journey. In October 1813 Davy, newly married to Jane Apreece, crossed to France with a passport from the enemy government. With him went a young assistant, Michael Faraday, who kept a journal. In Paris Davy worked on the new substance later named iodine, and the Institut elected him a corresponding member. In June 1814 Faraday met Volta in person, and so the chapter ends with the man who began it."
+ ],
+ "calendar_note": "All dates are Gregorian. The French Republican date on the Institut's 1802 prize report (11 Messidor, year X) converts to 30 June 1802. The Royal Society met on Thursdays and the Institut's First Class on Mondays, and the dates given here fit those weekdays. The main dating problem is not the calendar but the potassium day itself: John Davy's 1836 Memoirs give 6 October 1807, while J. A. Paris's 1831 Life reads the laboratory register as recording the start of the work on 16 October and the 'great result' on 19 October.",
+ "eyes": [
+  {
+   "id": "volta",
+   "name": "Alessandro Volta",
+   "short": "Volta",
+   "life": "1745–1827",
+   "role": "Professor of natural philosophy at Pavia, aged 54 in 1800",
+   "side": "Lombardy (Austrian, then French-dominated Italy)",
+   "where": "Como, writing to London; later Paris (1801) and Milan (1814)",
+   "lat": 45.808,
+   "lon": 9.085,
+   "waypoints": [
+    {
+     "lat": 45.808,
+     "lon": 9.085,
+     "label": "Como, letter to Banks, March 1800"
+    },
+    {
+     "lat": 48.857,
+     "lon": 2.352,
+     "label": "Paris, demonstrations at the Institut, late 1801"
+    },
+    {
+     "lat": 45.464,
+     "lon": 9.19,
+     "label": "Milan, meets Davy and Faraday, June 1814"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "inventor of the instrument",
+   "form": "dated letters",
+   "language": "French",
+   "authenticity": "The manuscript letter of 20 March 1800 (21 pages in French, with an English translation) survives in the Royal Society archives as L&P/11/137; it was printed in Philosophical Transactions for 1800.",
+   "bio": "Volta had argued with Galvani for a decade over whether frog legs twitched from 'animal electricity' or from the contact of two metals. The pile was his answer: electricity from contact alone, with no animal in it. He saw it as a physical instrument. Others took it up at once as a chemical tool.",
+   "sources": [
+    {
+     "title": "Royal Society, L&P/11/137: Volta to Banks, 20 March 1800 (catalogue record)",
+     "url": "https://makingscience.royalsociety.org/items/l-and-p_11_137"
+    }
+   ]
+  },
+  {
+   "id": "banks",
+   "name": "Sir Joseph Banks",
+   "short": "Banks",
+   "life": "1743–1820",
+   "role": "President of the Royal Society, aged 57 in 1800",
+   "side": "Britain; Royal Society",
+   "where": "Soho Square, London",
+   "lat": 51.5154,
+   "lon": -0.1322,
+   "vantage": 1,
+   "vantage_label": "gatekeeper of the letter",
+   "form": "official record (society minutes) and correspondence",
+   "language": "English",
+   "authenticity": "His part is known from the Royal Society's archive record of the letter (received, read 26 June 1800) and from later accounts that he showed its first part to Carlisle before the reading; no diary entry of his for these days has been located.",
+   "bio": "Banks ran the Royal Society for over forty years and kept his scientific contacts with the Continent open through the wars. Volta's letter came to him by name, and it reached the London experimenters through him before the Society formally heard it.",
+   "sources": [
+    {
+     "title": "Royal Society, L&P/11/137 (catalogue record)",
+     "url": "https://makingscience.royalsociety.org/items/l-and-p_11_137"
+    }
+   ]
+  },
+  {
+   "id": "nicholson",
+   "name": "William Nicholson",
+   "short": "Nicholson",
+   "life": "1753–1815",
+   "role": "Editor of the Journal of Natural Philosophy, Chemistry and the Arts; ran a school in Soho Square; aged 46",
+   "side": "Britain",
+   "where": "Soho, London",
+   "lat": 51.5154,
+   "lon": -0.1322,
+   "vantage": 0,
+   "vantage_label": "experimenter at the bench",
+   "form": "journal article (dated experimental account)",
+   "language": "English",
+   "authenticity": "His account of Volta's apparatus and the experiments with Carlisle appeared in his own Journal, vol. 4, pp. 179–191 (1800). Secondary accounts disagree on the day of the first water experiment (2 May or 7 May 1800).",
+   "bio": "Nicholson was an inventor and translator who founded Britain's first monthly scientific journal. That gave him a way to publish the decomposition of water within weeks, before Volta's own letter was in print. Davy, then in Bristol, read it at once.",
+   "sources": [
+    {
+     "title": "Nicholson's Journal (project site)",
+     "url": "https://nicholsonsjournal.co.uk/about.html"
+    },
+    {
+     "title": "William Nicholson (chemist), Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/William_Nicholson_(chemist)"
+    }
+   ]
+  },
+  {
+   "id": "carlisle",
+   "name": "Anthony Carlisle",
+   "short": "Carlisle",
+   "life": "1768–1840",
+   "role": "London surgeon, aged 31",
+   "side": "Britain",
+   "where": "Soho, London",
+   "lat": 51.5145,
+   "lon": -0.135,
+   "vantage": 0,
+   "vantage_label": "co-experimenter",
+   "form": "joint experimental account (published by Nicholson)",
+   "language": "English",
+   "authenticity": "No separate notebook of Carlisle's for these days has been located; his part is recorded in Nicholson's published account.",
+   "bio": "Carlisle was a surgeon and anatomist who had seen the first part of Volta's letter. He built the first pile with Nicholson and noticed gas at the wire. His view is known only as Nicholson wrote it down.",
+   "sources": [
+    {
+     "title": "Nicholson's Journal (project site)",
+     "url": "https://nicholsonsjournal.co.uk/about.html"
+    }
+   ]
+  },
+  {
+   "id": "hdavy",
+   "name": "Humphry Davy",
+   "short": "Davy",
+   "life": "1778–1829",
+   "role": "Professor of chemistry at the Royal Institution; secretary of the Royal Society from January 1807; aged 29 in 1807",
+   "side": "Britain; Royal Institution",
+   "where": "Laboratory of the Royal Institution, Albemarle Street, London",
+   "lat": 51.5097,
+   "lon": -0.1426,
+   "waypoints": [
+    {
+     "lat": 51.4545,
+     "lon": -2.5879,
+     "label": "Bristol, Pneumatic Institution, 1800"
+    },
+    {
+     "lat": 51.5097,
+     "lon": -0.1426,
+     "label": "Royal Institution, London, 1801–1813"
+    },
+    {
+     "lat": 50.3755,
+     "lon": -4.1427,
+     "label": "Plymouth, sails for France, October 1813"
+    },
+    {
+     "lat": 48.5775,
+     "lon": -3.8278,
+     "label": "Morlaix, held for passport checks, October 1813"
+    },
+    {
+     "lat": 48.857,
+     "lon": 2.352,
+     "label": "Paris, October–December 1813"
+    },
+    {
+     "lat": 45.464,
+     "lon": 9.19,
+     "label": "Milan, June 1814"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "discoverer",
+   "form": "notebook, papers and dated letters",
+   "language": "English",
+   "authenticity": "His laboratory notebooks are held at the Royal Institution; the October 1807 entry is known through published transcriptions by J. A. Paris (1831) and John Davy (1836), which date it differently. The Bakerian Lectures are printed in Philosophical Transactions 1807–1809. His notebooks are now being transcribed by the Davy Notebooks Project (Lancaster University and partners).",
+   "bio": "Davy was a woodcarver's son from Penzance. He made his name with nitrous oxide in Bristol and became the most celebrated lecturer in London. He treated the battery as a chemical knife and pushed it further than anyone. His notebooks show how fast he worked and how excited he got, and his papers show how carefully he argued.",
+   "sources": [
+    {
+     "title": "Davy, Bakerian Lecture 1807 (Phil. Trans. 1808), OCR text",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-107280/"
+    },
+    {
+     "title": "Davy, Electro-chemical researches on the decomposition of the earths (Phil. Trans. 1808), OCR text",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-107302/"
+    },
+    {
+     "title": "Davy's 1808 paper on potassium and sodium (ChemTeam excerpt)",
+     "url": "https://chemteam.info/Chem-History/Davy-Na&K-1808.html"
+    },
+    {
+     "title": "Davy Notebooks Project, About",
+     "url": "https://wp.lancs.ac.uk/davynotebooks/?p=39"
+    }
+   ]
+  },
+  {
+   "id": "edavy",
+   "name": "Edmund Davy",
+   "short": "Edmund Davy",
+   "life": "1785–1857",
+   "role": "Humphry's cousin and laboratory assistant at the Royal Institution, aged 22",
+   "side": "Britain; Royal Institution",
+   "where": "Royal Institution laboratory, London",
+   "lat": 51.5097,
+   "lon": -0.1426,
+   "vantage": 1,
+   "vantage_label": "assistant in the room",
+   "form": "recollection (written later, printed secondhand)",
+   "language": "English",
+   "authenticity": "His account survives only as quoted in John Davy's Memoirs of the Life of Sir Humphry Davy (1836; reprinted in the Collected Works, 1839–40, vol. 1, p. 109). It is a later recollection relayed by a third person, not a contemporary record.",
+   "bio": "Edmund Davy later became a professor of chemistry in Cork and Dublin. In October 1807 he was the young cousin who handled the apparatus. His is the only description from inside the room of what the discovery looked and felt like.",
+   "sources": [
+    {
+     "title": "Edmund Davy quotation with citation (Today in Science History)",
+     "url": "https://todayinsci.com/D/Davy_Edmund/DavyEdmund-Quotations.htm"
+    }
+   ]
+  },
+  {
+   "id": "jdavy",
+   "name": "John Davy",
+   "short": "John Davy",
+   "life": "1790–1868",
+   "role": "Humphry's younger brother, physician and chemist; later his biographer",
+   "side": "Britain",
+   "where": "Brother and family biographer, writing in 1836",
+   "lat": 51.5097,
+   "lon": -0.1426,
+   "vantage": 2,
+   "vantage_label": "family biographer, decades later",
+   "form": "memoir (written later)",
+   "language": "English",
+   "authenticity": "Memoirs of the Life of Sir Humphry Davy (2 vols, 1836), reprinted in the Collected Works (1839–40). Written partly as a family answer to Paris's 1831 Life; it gives 6 October 1807 for potassium.",
+   "bio": "John Davy was eleven years younger and had a long career as an army medical officer. He wrote with family papers in hand and wanted the record to be his. His date for potassium, 6 October 1807, is the one most later accounts repeat.",
+   "sources": [
+    {
+     "title": "Edmund Davy quotation citing J. Davy, Memoirs (Today in Science History)",
+     "url": "https://todayinsci.com/D/Davy_Edmund/DavyEdmund-Quotations.htm"
+    }
+   ]
+  },
+  {
+   "id": "paris",
+   "name": "John Ayrton Paris",
+   "short": "J. A. Paris",
+   "life": "1785–1856",
+   "role": "Physician, Davy's first biographer",
+   "side": "Britain",
+   "where": "London, writing in 1831 from Davy's papers and the Royal Institution's records",
+   "lat": 51.513,
+   "lon": -0.13,
+   "vantage": 2,
+   "vantage_label": "biographer reading the register",
+   "form": "biography (written later) quoting notebook and minutes",
+   "language": "English",
+   "authenticity": "The Life of Sir Humphry Davy (2 vols, 1831). Paris quotes the laboratory register and the Royal Institution managers' minutes; his reading of the October dates differs from John Davy's.",
+   "bio": "Paris had known Davy since his days in Penzance. He wrote the first full biography only two years after Davy's death, with the Royal Institution's papers open to him. He is included because he printed the notebook words and the managers' minutes, and because his dating is one side of the date question.",
+   "sources": [
+    {
+     "title": "Paris, Life of Sir Humphry Davy, vol. 1 (Project Gutenberg)",
+     "url": "https://www.gutenberg.org/cache/epub/45394/pg45394.txt"
+    },
+    {
+     "title": "Paris, Life of Sir Humphry Davy, vol. 2 (Project Gutenberg)",
+     "url": "https://gutenberg.org/cache/epub/45395/pg45395.txt"
+    }
+   ]
+  },
+  {
+   "id": "ri-managers",
+   "name": "Managers of the Royal Institution",
+   "short": "RI Managers",
+   "life": "body founded 1799",
+   "role": "Governing committee of the Royal Institution of Great Britain",
+   "side": "Britain; Royal Institution",
+   "where": "Albemarle Street, London",
+   "lat": 51.5097,
+   "lon": -0.1426,
+   "vantage": 1,
+   "vantage_label": "the employer's ledger",
+   "form": "official minutes",
+   "language": "English",
+   "authenticity": "Managers' minutes and reports held at the Royal Institution; the 1807–08 entries used here are as quoted by Paris (1831). The 1813 engagement of Faraday is as given by J. H. Gladstone (1872).",
+   "bio": "The managers paid for the laboratory and the lectures that funded it, and they worried about money. Their minutes show the discoveries from the employer's side: a professor sick in bed, lectures postponed, spending over budget.",
+   "sources": [
+    {
+     "title": "Paris, Life of Sir Humphry Davy, vol. 1 (Project Gutenberg)",
+     "url": "https://www.gutenberg.org/cache/epub/45394/pg45394.txt"
+    }
+   ]
+  },
+  {
+   "id": "gaylussac",
+   "name": "Joseph Louis Gay-Lussac",
+   "short": "Gay-Lussac",
+   "life": "1778–1850",
+   "role": "Chemist and physicist at the École polytechnique, aged 29–30",
+   "side": "France (Napoleonic Empire)",
+   "where": "École polytechnique and the Arcueil circle, Paris",
+   "lat": 48.8462,
+   "lon": 2.3488,
+   "vantage": 0,
+   "vantage_label": "rival discoverer",
+   "form": "papers and announcements",
+   "language": "French",
+   "authenticity": "Joint notes with Thénard were read at the Institut and printed in the Moniteur and Annales de chimie in 1808; collected in their Recherches physico-chimiques (1811).",
+   "bio": "Gay-Lussac was the same age as Davy. He had already gone up in a balloon to 7,000 metres and found the law of combining gas volumes. With Thénard he answered Davy's battery with a furnace, and they matched him at almost every step in 1808.",
+   "sources": [
+    {
+     "title": "Elementymology: Boron",
+     "url": "https://vanderkrogt.net/elements/element.php?num=5"
+    }
+   ]
+  },
+  {
+   "id": "thenard",
+   "name": "Louis Jacques Thénard",
+   "short": "Thénard",
+   "life": "1777–1857",
+   "role": "Chemist, professor at the Collège de France and École polytechnique, aged 30–31",
+   "side": "France (Napoleonic Empire)",
+   "where": "Paris",
+   "lat": 48.8462,
+   "lon": 2.3488,
+   "vantage": 0,
+   "vantage_label": "rival discoverer",
+   "form": "papers and announcements (joint with Gay-Lussac)",
+   "language": "French",
+   "authenticity": "Joint publications with Gay-Lussac, 1808–1811; no separate dated notebook of his has been located for these events.",
+   "bio": "Thénard was a peasant's son from Champagne who rose to the top of French chemistry. He was the cautious chemical analyst of the pair. Their joint papers spoke with one voice, so his own view can only be followed through them.",
+   "sources": [
+    {
+     "title": "Elementymology: Boron",
+     "url": "https://vanderkrogt.net/elements/element.php?num=5"
+    }
+   ]
+  },
+  {
+   "id": "berzelius",
+   "name": "Jöns Jacob Berzelius",
+   "short": "Berzelius",
+   "life": "1779–1848",
+   "role": "Professor of medicine and pharmacy in Stockholm, aged 28–29",
+   "side": "Sweden",
+   "where": "Stockholm",
+   "lat": 59.3326,
+   "lon": 18.0649,
+   "vantage": 3,
+   "vantage_label": "correspondent abroad",
+   "form": "dated letters (known here through Davy's paper)",
+   "language": "Swedish / French",
+   "authenticity": "His letter of spring 1808 describing the amalgam experiments with Magnus Pontin is known from Davy's acknowledgement in the paper read 30 June 1808; the original letter has not been consulted here.",
+   "bio": "Berzelius had been doing battery chemistry since 1803 with a pile far weaker than Davy's. He found a way around that: use mercury as the negative pole, so the earth metals were caught as amalgams instead of burning away. He sent the method to London, and Davy used it within weeks.",
+   "sources": [
+    {
+     "title": "Davy, Electro-chemical researches (Phil. Trans. 1808), OCR text",
+     "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-107302/"
+    }
+   ]
+  },
+  {
+   "id": "institut",
+   "name": "Institut de France (First Class) and Napoleon Bonaparte",
+   "short": "Institut",
+   "life": "Institut founded 1795; Napoleon 1769–1821",
+   "role": "The national academy of sciences in Paris and its imperial patron",
+   "side": "France (Consulate, then Empire)",
+   "where": "Paris",
+   "lat": 48.8573,
+   "lon": 2.3373,
+   "vantage": 3,
+   "vantage_label": "the enemy's academy",
+   "form": "official reports and election records",
+   "language": "French",
+   "authenticity": "The 1802 committee report containing Bonaparte's prize letter, and the 1813 election result, are as printed by Paris (1831). The exact date of the 1807–08 award decision has not been verified here.",
+   "bio": "Bonaparte had watched Volta demonstrate in Paris. He then founded a prize of 3,000 francs for the year's best galvanic experiment, open to all nations. The Institut gave it to an Englishman while their two countries were at war. Six years later it elected that Englishman a corresponding member while he was in Paris.",
+   "sources": [
+    {
+     "title": "Paris, Life of Sir Humphry Davy, vol. 1 (Project Gutenberg)",
+     "url": "https://www.gutenberg.org/cache/epub/45394/pg45394.txt"
+    },
+    {
+     "title": "Paris, Life of Sir Humphry Davy, vol. 2 (Project Gutenberg)",
+     "url": "https://gutenberg.org/cache/epub/45395/pg45395.txt"
+    }
+   ]
+  },
+  {
+   "id": "faraday",
+   "name": "Michael Faraday",
+   "short": "Faraday",
+   "life": "1791–1867",
+   "role": "Bookbinder's apprentice, then laboratory assistant at the Royal Institution (from March 1813), aged 21–23",
+   "side": "Britain",
+   "where": "Royal Institution; then France and Italy with Davy, 1813–1815",
+   "lat": 51.5097,
+   "lon": -0.1426,
+   "waypoints": [
+    {
+     "lat": 51.5097,
+     "lon": -0.1426,
+     "label": "Royal Institution, 1812–1813"
+    },
+    {
+     "lat": 48.5775,
+     "lon": -3.8278,
+     "label": "Morlaix, October 1813"
+    },
+    {
+     "lat": 48.857,
+     "lon": 2.352,
+     "label": "Paris, autumn 1813"
+    },
+    {
+     "lat": 45.464,
+     "lon": 9.19,
+     "label": "Milan, meets Volta, June 1814"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the apprentice, coming late",
+   "form": "journal and dated letters",
+   "language": "English",
+   "authenticity": "His Continental journal and letters were printed by Bence Jones in The Life and Letters of Faraday (1870), and excerpted by J. H. Gladstone (1872) and in the Dictionary of National Biography.",
+   "bio": "Faraday was a bookbinder's apprentice who heard Davy's last lectures in 1812 and sent him the notes, bound. He came to the Royal Institution after the great discoveries were made. His journal of the 1813 tour is the plainest firsthand account of Davy at work abroad.",
+   "sources": [
+    {
+     "title": "J. H. Gladstone, Michael Faraday (1872), Project Gutenberg",
+     "url": "https://gutenberg.org/files/47396/old/47396-h/47396-h.htm"
+    },
+    {
+     "title": "Dictionary of National Biography: Faraday, Michael (Wikisource)",
+     "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Faraday,_Michael"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1800-03-20",
+   "date_display": "Thursday 20 March 1800",
+   "precision": "day",
+   "eye": "volta",
+   "place": "Como",
+   "headline": "Volta describes a pile of metal discs to Banks",
+   "digest": "Volta wrote to the President of the Royal Society, in French, to describe a column of alternating discs of two metals separated by card or cloth soaked in salt water. Touching its two ends gave a shock again and again, with no need to recharge, like an artificial electric fish. He presented it as proof that contact between different metals alone produces electricity.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Royal Society L&P/11/137, dated 20 March 1800, read 26 June 1800 (makingscience.royalsociety.org)."
+  },
+  {
+   "date_iso": "1800-04-30",
+   "date_display": "late April 1800",
+   "precision": "range",
+   "eye": "banks",
+   "place": "Soho Square, London",
+   "headline": "The first pages of the letter circulate before the reading",
+   "digest": "Before the Society had heard the letter, its first part was shown to Anthony Carlisle, who passed it on to William Nicholson. This let two London amateurs repeat Volta's device weeks before it was officially announced, and publish results before Volta's own paper was printed.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Standard secondary accounts of the Nicholson–Carlisle experiments; exact day not verified."
+  },
+  {
+   "date_iso": "1800-04-30",
+   "date_display": "c. 30 April 1800",
+   "precision": "day",
+   "eye": "carlisle",
+   "place": "Soho, London",
+   "headline": "Carlisle and Nicholson build a pile of coins and zinc",
+   "digest": "Working from Volta's description, Carlisle and Nicholson stacked silver coins and zinc discs with wet pasteboard between them. They felt the shocks Volta described. Carlisle noticed a little gas where a drop of water touched a wire at the top of the stack, and that detail started everything that followed.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Nicholson's Journal vol. 4 (1800), pp. 179–191, as summarised in secondary accounts; day not independently verified."
+  },
+  {
+   "date_iso": "1800-05-02",
+   "date_display": "early May 1800 (accounts give 2 or 7 May)",
+   "precision": "range",
+   "eye": "nicholson",
+   "place": "Soho, London",
+   "headline": "Bubbles rise from a wire in New River water",
+   "digest": "Nicholson and Carlisle dipped two brass wires from the pile into a tube of ordinary London tap water. A stream of tiny bubbles rose from one wire while the other tarnished. In about two and a half hours they collected a small quantity of gas that exploded when mixed with air and lit, as hydrogen does. They had split water with a current.",
+   "quote": "A fine stream of minute bubbles immediately began to flow",
+   "confidence": "approx",
+   "source_note": "Nicholson's account in his Journal vol. 4 (1800), quoted at cosmovisions.com (which gives 7 May); Wikipedia gives May 1800."
+  },
+  {
+   "date_iso": "1800-06-26",
+   "date_display": "Thursday 26 June 1800",
+   "precision": "day",
+   "eye": "banks",
+   "place": "Royal Society, Somerset House, London",
+   "headline": "Volta's letter is read to the Royal Society",
+   "digest": "The Society formally heard Volta's account at its Thursday meeting, three months after it was written. By then the London experimenters had already moved past it, from shocks to chemistry. The paper was printed in Philosophical Transactions for 1800 under the title 'On the electricity excited by the mere contact of conducting substances of different kinds'.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Royal Society catalogue L&P/11/137: read 26 June 1800."
+  },
+  {
+   "date_iso": "1800-07-01",
+   "date_display": "July 1800",
+   "precision": "month",
+   "eye": "nicholson",
+   "place": "London",
+   "headline": "Nicholson prints the decomposition of water",
+   "digest": "Nicholson published his account of Volta's apparatus and the water experiments in his own monthly Journal. Readers across Britain and Europe could now repeat them, and in a few months piles were being built in laboratories everywhere.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Journal of Natural Philosophy, Chemistry and the Arts, vol. 4 (1800), pp. 179–191; issue month not verified."
+  },
+  {
+   "date_iso": "1800-08-01",
+   "date_display": "summer 1800",
+   "precision": "range",
+   "eye": "hdavy",
+   "place": "Pneumatic Institution, Bristol",
+   "headline": "In Bristol, young Davy sees a field opening",
+   "digest": "Davy, aged 21 and still at the Pneumatic Institution in Bristol, read of the London experiments and wrote to his patron Davies Giddy. He said the discovery opened an enormous new area of research. He was soon publishing his own short papers on galvanism in Nicholson's Journal.",
+   "quote": "An immense field of investigation seems opened by this discovery.",
+   "confidence": "approx",
+   "source_note": "Davy to Davies Giddy, 1800, quoted at nicholsonsjournal.co.uk; exact letter date not verified."
+  },
+  {
+   "date_iso": "1801-04-25",
+   "date_display": "Saturday 25 April 1801",
+   "precision": "day",
+   "eye": "hdavy",
+   "place": "Royal Institution, London",
+   "headline": "Davy's first Royal Institution lecture is on galvanism",
+   "digest": "A few weeks after arriving in London, Davy gave his first public lecture at the new Royal Institution, on the new branch of philosophy, galvanism. Its success launched the lecturing career that paid for his laboratory.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Science History Institute, Distillations, 'Science and Celebrity: Humphry Davy's Rising Star'."
+  },
+  {
+   "date_iso": "1801-11-07",
+   "date_display": "November 1801",
+   "precision": "month",
+   "eye": "volta",
+   "place": "Institut national, Paris",
+   "headline": "Volta demonstrates the pile in Paris before Bonaparte",
+   "digest": "Volta travelled to Paris and showed his pile to the Institut, with the First Consul attending. Bonaparte was impressed, and the episode led directly to the galvanism prize that would later go to Davy.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Standard biographical accounts of Volta; exact session dates not verified in this research."
+  },
+  {
+   "date_iso": "1802-06-30",
+   "date_display": "11 Messidor, year X (30 June 1802)",
+   "precision": "day",
+   "eye": "institut",
+   "place": "Paris",
+   "headline": "Bonaparte's galvanism prize is set up",
+   "digest": "A committee report of the Institut printed a letter from Bonaparte, sent through the Minister of the Interior. It offered a prize of 3,000 francs each year for the best experiment on galvanism, and a larger sum for a discovery comparable to Franklin's or Volta's. Entries from any nation were welcome. The deadline was set by the Republican calendar.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Paris, Life of Davy (1831), vol. 1, prints the report dated 'Messidor 11, year 10'; conversion to 30 June 1802."
+  },
+  {
+   "date_iso": "1806-11-20",
+   "date_display": "Thursday 20 November 1806",
+   "precision": "day",
+   "eye": "hdavy",
+   "place": "Royal Society, London",
+   "headline": "First Bakerian Lecture: 'On some chemical agencies of electricity'",
+   "digest": "Davy set out a general theory: chemical attraction and electrical attraction might be the same force. He showed how the battery drove acids to one pole and alkalis to the other, even through living tissue and across vessels. The paper won him the French prize. It also hinted that the fixed alkalis, never yet decomposed, might give way to a strong enough battery.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Phil. Trans. 1807; Paris (1831) gives November 1806; the day is from the printed heading as commonly cited, not checked directly."
+  },
+  {
+   "date_iso": "1807-10-06",
+   "date_display": "Tuesday 6 October 1807 (date as given by John Davy)",
+   "precision": "day",
+   "eye": "hdavy",
+   "place": "Royal Institution laboratory, London",
+   "headline": "Notebook: 'Capital experiment proving the decomposition of potash'",
+   "digest": "Davy put slightly moistened potash on a platinum plate between the poles of the Institution's combined batteries. Small globules like quicksilver appeared at the negative side, and some burst into flame. He wrote the result in his laboratory register in a hurry, with the words running across the page. Paris printed them in capitals.",
+   "quote": "Capital experiment proving the decomposition of potash",
+   "confidence": "verified",
+   "source_note": "Royal Institution laboratory notebook as transcribed by Paris (1831), vol. 1; date 6 October from John Davy, Memoirs (1836) and the Collected Works footnote ('discovered Potassium on the 6th October 1807')."
+  },
+  {
+   "date_iso": "1807-10-06",
+   "date_display": "6 October 1807 (recollected later)",
+   "precision": "day",
+   "eye": "edavy",
+   "place": "Royal Institution laboratory, London",
+   "headline": "Edmund watches his cousin dance about the room",
+   "digest": "Edmund remembered that when Humphry saw the tiny globules break through the crust of potash and catch fire, he could not contain his joy and bounded about the room in delight. It took him some time to calm down enough to go on with the experiment. This comes from a recollection printed by John Davy decades later, not from a note made that day.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Edmund Davy's account in John Davy, Memoirs of the Life of Sir Humphry Davy (1836), in Collected Works vol. 1, p. 109 (cited at todayinsci.com)."
+  },
+  {
+   "date_iso": "1807-10-10",
+   "date_display": "a few days after 6 October 1807",
+   "precision": "range",
+   "eye": "hdavy",
+   "place": "Royal Institution laboratory, London",
+   "headline": "Soda yields a second, silvery metal",
+   "digest": "Soda resisted more stubbornly and needed more battery power or smaller pieces. Then it gave a metal that set solid on cooling and shone like silver. Davy now had two new substances, both lighter than water and both so eager for oxygen that he stored them under naphtha.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Davy, Phil. Trans. 1808, and the Collected Works footnote ('a few days after', citing a manuscript lecture); ChemTeam excerpt."
+  },
+  {
+   "date_iso": "1807-10-19",
+   "date_display": "16–19 October 1807 (date as read by Paris)",
+   "precision": "range",
+   "eye": "paris",
+   "place": "London (reading the register in 1831)",
+   "headline": "The biographer reads the register as 19 October",
+   "digest": "Paris examined Davy's laboratory register and concluded that the work on potash began on 16 October and the great result came on 19 October 1807. He saw the excitement in the handwriting itself, describing the entry as a hasty record of success. His dating disagrees with the 6 October given by the Davy family.",
+   "quote": "this hasty record of his success",
+   "confidence": "verified",
+   "source_note": "Paris, Life of Davy (1831), vol. 1 (Project Gutenberg 45394)."
+  },
+  {
+   "date_iso": "1807-11-19",
+   "date_display": "Thursday 19 November 1807",
+   "precision": "day",
+   "eye": "hdavy",
+   "place": "Royal Society, London",
+   "headline": "Bakerian Lecture: the fixed alkalies decomposed",
+   "digest": "Davy described to the Royal Society his combined batteries and the globules with a high metallic lustre. He listed the properties of the new metals: they swam on water, burned on it, and one was the lightest liquid known. He argued they were true metals, the bases of potash and soda, and gave them names. The paper was printed in Philosophical Transactions for 1808.",
+   "quote": "Potassium and Sodium are the names by which I have ventured",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 98 (1808): 'Read November 19, 1807' (jimclifford.ca OCR, jstor 107280)."
+  },
+  {
+   "date_iso": "1807-11-19",
+   "date_display": "19 November 1807",
+   "precision": "day",
+   "eye": "hdavy",
+   "place": "Royal Society, London",
+   "headline": "The battery that did it, in plates and inches",
+   "digest": "In the lecture Davy said exactly what he had used: the Royal Institution's batteries combined, with 24 copper and zinc plates twelve inches square, 100 of six inches and 150 of four inches. He gave the figures so that others could repeat the work. He also explained that his first attempts on alkali dissolved in water had given only gas.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 98 (1808), jstor 107280 OCR."
+  },
+  {
+   "date_iso": "1807-11-23",
+   "date_display": "late November 1807",
+   "precision": "range",
+   "eye": "hdavy",
+   "place": "Royal Institution, London",
+   "headline": "Davy collapses into a long illness",
+   "digest": "Days after the lecture Davy fell seriously ill and stayed in bed for weeks, attended by three leading physicians. He blamed infection picked up while advising on fumigating a prison. His doctor Babington blamed overwork and an overexcited brain. The illness lasted about eleven weeks.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Paris, Life of Davy (1831), vol. 1."
+  },
+  {
+   "date_iso": "1807-12-07",
+   "date_display": "Monday 7 December 1807",
+   "precision": "day",
+   "eye": "ri-managers",
+   "place": "Royal Institution, London",
+   "headline": "Managers postpone the lectures: Davy confined to bed",
+   "digest": "The managers recorded that their professor had been in bed for a fortnight with a severe illness and postponed the season's lectures. The discoveries that had made Europe talk appear in the minutes as a staffing problem.",
+   "quote": "confined to his bed for the last fortnight by a severe illness",
+   "confidence": "verified",
+   "source_note": "Managers' minute of 7 December 1807, as quoted by Paris (1831), vol. 1."
+  },
+  {
+   "date_iso": "1807-12-15",
+   "date_display": "late 1807 (about twelve months after the 1806 lecture)",
+   "precision": "range",
+   "eye": "institut",
+   "place": "Paris",
+   "headline": "The Institut gives Napoleon's prize to an Englishman",
+   "digest": "Although Britain and France were at war, the Institut awarded Davy the 3,000-franc galvanism prize for his 1806 lecture on the chemical agencies of electricity. The award followed Bonaparte's rule that the prize was open to every nation.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Paris (1831), vol. 1: awarded 'twelve months after' the first Bakerian Lecture; exact date of the decision not verified."
+  },
+  {
+   "date_iso": "1807-12-20",
+   "date_display": "late 1807 or 1808 (remark reported later)",
+   "precision": "range",
+   "eye": "hdavy",
+   "place": "London",
+   "headline": "'The men of science are not' at war",
+   "digest": "Davy noted that some people said he should refuse the prize and that newspapers had printed paragraphs to that effect. He took it anyway. His friend Thomas Poole later reported him saying that the two governments might be at war, but the men of science were not. The remark was spoken, not written, and comes to us through Poole's later account.",
+   "quote": "the men of science are not",
+   "confidence": "approx",
+   "source_note": "Paris (1831), vol. 1, quoting Davy's letter and Poole's 'late communication'."
+  },
+  {
+   "date_iso": "1808-01-25",
+   "date_display": "Monday 25 January 1808",
+   "precision": "day",
+   "eye": "ri-managers",
+   "place": "Royal Institution, London",
+   "headline": "Managers' report: the laboratory has overspent",
+   "digest": "The managers' report noted that expenditure had run beyond receipts, partly because of the laboratory's costs. Plates, acids and assistants were not cheap, and the Institution's finances depended on fashionable audiences who had just lost their season of lectures.",
+   "quote": "there has been an excess of expenditure beyond the receipts",
+   "confidence": "verified",
+   "source_note": "Managers' Report of 25 January 1808, as quoted by Paris (1831), vol. 1."
+  },
+  {
+   "date_iso": "1808-02-22",
+   "date_display": "Monday 22 February 1808",
+   "precision": "day",
+   "eye": "ri-managers",
+   "place": "Royal Institution, London",
+   "headline": "Davy, recovered, fixes 12 March for his lectures",
+   "digest": "Davy came before the committee and said he could begin a course on electro-chemical science on Saturday 12 March. The minute set the restart of the lecture theatre that paid for the research.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Managers' minute of 22 February 1808, as quoted by Paris (1831), vol. 1."
+  },
+  {
+   "date_iso": "1808-03-07",
+   "date_display": "early 1808 (announced c. March)",
+   "precision": "range",
+   "eye": "thenard",
+   "place": "Paris",
+   "headline": "Paris makes potassium in a gun-barrel, no battery needed",
+   "digest": "Gay-Lussac and Thénard found that potash heated strongly with iron turnings in a gun-barrel gave potassium in far larger amounts than any battery could. Davy's rare metal became a reagent French chemists could use in quantity. They soon used it as a tool against boracic acid.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Paris (1831), vol. 1 (gun-barrel method, 1808); announcement month not verified."
+  },
+  {
+   "date_iso": "1808-03-15",
+   "date_display": "March 1808",
+   "precision": "month",
+   "eye": "hdavy",
+   "place": "London",
+   "headline": "'My health is re-established'",
+   "digest": "Davy wrote that he had recovered and was going back to experiment. A week of rest had turned into almost three months, and in Paris and Stockholm others had been using the time.",
+   "quote": "my health is re-established",
+   "confidence": "verified",
+   "source_note": "Davy's letter dated March 1808, as quoted by Paris (1831), vol. 1."
+  },
+  {
+   "date_iso": "1808-05-15",
+   "date_display": "May 1808",
+   "precision": "month",
+   "eye": "hdavy",
+   "place": "Royal Institution laboratory, London",
+   "headline": "A new battery of five hundred double plates",
+   "digest": "With the old batteries worn out by April, the Institution built a new one of 500 pairs of double plates six inches square. Davy turned it on the earths, which were thought to be metallic calxes. Lime, barytes and strontites gave hints of metal but would not let it go.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Davy, Phil. Trans. 1808, read 30 June 1808 (jstor 107302 OCR)."
+  },
+  {
+   "date_iso": "1808-05-27",
+   "date_display": "late May 1808",
+   "precision": "range",
+   "eye": "gaylussac",
+   "place": "Paris",
+   "headline": "Gay-Lussac and Thénard: is potassium a hydride?",
+   "digest": "Heating potassium in ammonia gas, the two Frenchmen got back hydrogen and suggested that Davy's metal might really be a compound of potash and hydrogen. If they were right, potassium was not an element. Davy saw the claim in the Moniteur and rejected it in a footnote.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Davy, Phil. Trans. 1808 (jstor 107302), footnote citing the Moniteur, No. 148 (1808); date inferred from issue number."
+  },
+  {
+   "date_iso": "1808-06-03",
+   "date_display": "spring 1808 (received in London early June)",
+   "precision": "range",
+   "eye": "berzelius",
+   "place": "Stockholm",
+   "headline": "Berzelius and Pontin catch the earth metals in mercury",
+   "digest": "Berzelius wrote to Davy that he and the physician Magnus Pontin had made the negative pole of a battery from mercury touching barytes or lime. The metal released at the pole dissolved into the mercury as an amalgam instead of burning. Their battery was weak, but the method worked, and Davy acknowledged it fully.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Davy, Phil. Trans. 1808 (jstor 107302): letter from 'Professor Berzelius of Stockholm' received 'the beginning of June'."
+  },
+  {
+   "date_iso": "1808-06-21",
+   "date_display": "Tuesday 21 June 1808",
+   "precision": "day",
+   "eye": "gaylussac",
+   "place": "Paris",
+   "headline": "Paris announces boracic acid decomposed and recomposed",
+   "digest": "Gay-Lussac and Thénard announced that heating boracic acid with potassium gave a dark substance which could be burned back to boracic acid. They had broken it down and built it up again. They called the new element 'bore', and most languages still use their name.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Elementymology: Boron (vanderkrogt.net), citing Weeks, Discovery of the Elements."
+  },
+  {
+   "date_iso": "1808-06-30",
+   "date_display": "Thursday 30 June 1808",
+   "precision": "day",
+   "eye": "hdavy",
+   "place": "Royal Society, London",
+   "headline": "Barium, strontium, calcium, 'magnium' named",
+   "digest": "Using Berzelius's mercury method with his 500-pair battery, Davy got amalgams of the earth metals and distilled off the mercury to leave traces of grey metal. He proposed names for four new metals. He admitted that 'magnium' was a poor choice, because 'magnesium' was already being used for manganese. His amounts were tiny, and the work depended on the Swedish method.",
+   "quote": "undoubtedly objectionable",
+   "confidence": "verified",
+   "source_note": "Davy, 'Electro-chemical researches on the decomposition of the earths', read 30 June 1808; Royal Society MS PT/2/23; Phil. Trans. 1808 (jstor 107302)."
+  },
+  {
+   "date_iso": "1808-06-30",
+   "date_display": "30 June 1808",
+   "precision": "day",
+   "eye": "hdavy",
+   "place": "Royal Society, London",
+   "headline": "A black substance from boracic acid, cautiously reported",
+   "digest": "In the same paper Davy said that heating boracic acid with potassium in a gold tube gave a little gas, borate of potash and a black substance. He judged the amounts too small to study fully. A later footnote went further back: purified boracic acid might contain soda, so the result could perhaps be explained without decomposing the acid at all.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Phil. Trans. 1808 (jstor 107302 OCR)."
+  },
+  {
+   "date_iso": "1808-12-15",
+   "date_display": "Thursday 15 December 1808",
+   "precision": "day",
+   "eye": "hdavy",
+   "place": "Royal Society, London",
+   "headline": "Third Bakerian Lecture proposes 'boracium'",
+   "digest": "Davy returned to boracic acid, now with more potassium and more confidence, and proposed the name 'boracium' for its base. He also reported attacks on phosphorus, sulphur, charcoal, diamond and ammonia, with mixed success. English later settled on 'boron', by analogy with carbon.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Elementymology: Boron (vanderkrogt.net); DNB on the December 1808 lecture."
+  },
+  {
+   "date_iso": "1809-06-01",
+   "date_display": "1808–1809",
+   "precision": "range",
+   "eye": "ri-managers",
+   "place": "Royal Institution, London",
+   "headline": "Subscribers pay for a 'great battery'",
+   "digest": "To keep up with the French, who had state support, the Royal Institution raised a public subscription for a far larger battery. It was the first time named private patrons pledged money for apparatus for electrochemical research. Not every pledge was paid in full, and the episode strained the Institution's finances and governance.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "British Journal for the History of Science (2007), 'Devotion to the experimental sciences and arts: the subscription to the great battery at the Royal Institution 1808–9' (abstract)."
+  },
+  {
+   "date_iso": "1812-04-10",
+   "date_display": "29 February – 10 April 1812",
+   "precision": "range",
+   "eye": "faraday",
+   "place": "Royal Institution, London",
+   "headline": "A bookbinder's apprentice hears Davy's last lectures",
+   "digest": "On tickets from a customer, Mr Dance, Faraday attended Davy's last four lectures at the Institution. He wrote up his notes carefully, bound them in a quarto volume and sent them to Davy, asking to leave his trade for science.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DNB, 'Faraday, Michael' (Wikisource): lectures of 29 Feb, 14 Mar, 8 and 10 Apr 1812."
+  },
+  {
+   "date_iso": "1812-12-24",
+   "date_display": "Thursday 24 December 1812",
+   "precision": "day",
+   "eye": "hdavy",
+   "place": "London",
+   "headline": "Davy answers the young bookbinder",
+   "digest": "Davy, now knighted and married to the wealthy widow Jane Apreece, replied kindly to Faraday's letter and bound notes. The reply led to a meeting and, within months, to a job in the laboratory where potassium had been found.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DNB, 'Faraday, Michael' (Wikisource)."
+  },
+  {
+   "date_iso": "1813-03-01",
+   "date_display": "Monday 1 March 1813",
+   "precision": "day",
+   "eye": "ri-managers",
+   "place": "Royal Institution, London",
+   "headline": "Faraday engaged at 25 shillings a week",
+   "digest": "Faraday was taken on as an assistant at twenty-five shillings a week with rooms in the house. Seven months later Davy offered to take him abroad.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "J. H. Gladstone, Michael Faraday (1872), Project Gutenberg: 'His engagement dates from March 1, 1813'."
+  },
+  {
+   "date_iso": "1813-10-13",
+   "date_display": "Wednesday 13 October 1813",
+   "precision": "day",
+   "eye": "faraday",
+   "place": "London, bound for Plymouth",
+   "headline": "Faraday leaves London as Davy's assistant",
+   "digest": "Faraday set out with Sir Humphry and Lady Davy on a tour of the Continent, as amanuensis and chemical assistant, and began his journal. He had hardly been outside London before. They were going into the country Britain was at war with, on a passport granted by Napoleon's government.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DNB, 'Faraday, Michael'; Paris (1831), vol. 2 ('quitted London on the 13th of October 1813')."
+  },
+  {
+   "date_iso": "1813-10-20",
+   "date_display": "c. 19–26 October 1813",
+   "precision": "range",
+   "eye": "faraday",
+   "place": "Morlaix, Brittany",
+   "headline": "Held at Morlaix while passports are checked",
+   "digest": "After crossing from Plymouth on a cartel ship, the party was detained for six or seven days at Morlaix while French officials checked their papers. Faraday was shocked by the poverty he saw, and in a later letter to his friend Abbott he still called the people there the most wretched he had ever seen.",
+   "quote": "such wretched beings as at Morlaix",
+   "confidence": "approx",
+   "source_note": "Paris (1831), vol. 2 (six or seven days at Morlaix); Gladstone (1872) quoting Faraday's letter to Abbott."
+  },
+  {
+   "date_iso": "1813-10-27",
+   "date_display": "Wednesday 27 October 1813",
+   "precision": "day",
+   "eye": "hdavy",
+   "place": "Paris",
+   "headline": "The English chemist reaches the enemy capital",
+   "digest": "Davy, Lady Davy and Faraday arrived in Paris in the evening. Davy was soon received by the chemists he had competed with for six years, Gay-Lussac and Thénard among them.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Paris (1831), vol. 2: 'reached the French capital on the evening of the 27th'."
+  },
+  {
+   "date_iso": "1813-11-23",
+   "date_display": "Tuesday 23 November 1813",
+   "precision": "day",
+   "eye": "hdavy",
+   "place": "Paris",
+   "headline": "Ampère hands Davy the mysterious substance X",
+   "digest": "André-Marie Ampère gave Davy a small sample of the violet-vapoured substance that Courtois had found in seaweed ash and the French called X. Davy began testing it in his hotel with a portable chest of apparatus, with Faraday assisting. This was the start of another priority quarrel, this time with Gay-Lussac over iodine.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Paris (1831), vol. 2: 'the morning of the 23rd of November'."
+  },
+  {
+   "date_iso": "1813-12-10",
+   "date_display": "Friday 10 December 1813",
+   "precision": "day",
+   "eye": "hdavy",
+   "place": "Paris",
+   "headline": "Davy dates his iodine paper from Paris",
+   "digest": "Davy finished a paper arguing that the substance was a new element, similar to chlorine. He dated it from Paris and sent it to London, where it was read to the Royal Society on 20 January 1814. A letter of his on the same subject went to Cuvier at the Institut.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Paris (1831), vol. 2."
+  },
+  {
+   "date_iso": "1813-12-13",
+   "date_display": "Monday 13 December 1813",
+   "precision": "day",
+   "eye": "institut",
+   "place": "Institut, Paris",
+   "headline": "Institut elects Davy, 47 votes of 48",
+   "digest": "The First Class of the Imperial Institute elected Davy a corresponding member with 47 of 48 votes. The only vote against was Guyton de Morveau's. Davy's letter to Cuvier on iodine was read at the same session.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Paris (1831), vol. 2."
+  },
+  {
+   "date_iso": "1814-06-17",
+   "date_display": "Friday 17 June 1814",
+   "precision": "day",
+   "eye": "faraday",
+   "place": "Milan",
+   "headline": "Faraday meets Volta",
+   "digest": "In Milan Faraday's journal records meeting Volta, by then an elderly man, who came to see Davy. The inventor of the pile and the young assistant who would go on to build the theory of electrochemistry met once.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DNB, 'Faraday, Michael' (Wikisource): journal entry of Friday 17 June 1814, when he saw Volta."
+  },
+  {
+   "date_iso": "1815-03-07",
+   "date_display": "Tuesday 7 March 1815",
+   "precision": "day",
+   "eye": "faraday",
+   "place": "Italy, on the tour",
+   "headline": "News that Bonaparte is free again",
+   "digest": "Faraday's journal notes the news that Napoleon had escaped from Elba. The tour soon turned for home, and the scientific truce that had let an Englishman work in Paris was ending.",
+   "quote": "I heard for news that Bonaparte was again at liberty",
+   "confidence": "verified",
+   "source_note": "Faraday's journal as quoted by J. H. Gladstone, Michael Faraday (1872), Project Gutenberg."
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1800-06-26",
+   "label": "Volta's letter is read at the Royal Society",
+   "eyes": [
+    "volta",
+    "banks",
+    "nicholson",
+    "carlisle"
+   ],
+   "note": "Volta saw the pile as a physical device proving contact electricity. By the day it was officially read, Nicholson and Carlisle, who had seen it early through Banks, were already using it to split water and turn it into a chemical tool."
+  },
+  {
+   "date": "1807-10-06",
+   "label": "Potassium appears at the negative pole",
+   "eyes": [
+    "hdavy",
+    "edavy",
+    "jdavy",
+    "paris"
+   ],
+   "note": "The laboratory notebook gives the hurried words; Edmund's later recollection gives the dance; John Davy gives 6 October; Paris, reading the same register, gives 19 October. One moment reaches us through four records, and two of them disagree on the date."
+  },
+  {
+   "date": "1807-11-19",
+   "label": "Triumph in the lecture room, then collapse",
+   "eyes": [
+    "hdavy",
+    "ri-managers",
+    "paris"
+   ],
+   "note": "The Bakerian Lecture shows Davy at his height. Within days the managers' minutes record him confined to bed and the lectures postponed. Paris sets the patient's theory of jail infection beside the doctor's diagnosis of overwork."
+  },
+  {
+   "date": "1807-12-15",
+   "label": "An enemy academy rewards Davy",
+   "eyes": [
+    "institut",
+    "hdavy"
+   ],
+   "note": "The Institut kept to Bonaparte's rule that the prize was open to all nations. In London Davy took it despite newspaper criticism, and was later reported to have said that men of science were not at war."
+  },
+  {
+   "date": "1808-06-30",
+   "label": "The June race: earths and boracic acid",
+   "eyes": [
+    "hdavy",
+    "gaylussac",
+    "thenard",
+    "berzelius"
+   ],
+   "note": "Within a single month Berzelius's mercury method reached London, the French announced boracic acid decomposed and recomposed (21 June), and Davy read his earths paper with a cautious boracic acid result (30 June). Each camp held a different piece of the method: battery, mercury, or furnace and potassium."
+  },
+  {
+   "date": "1813-10-13",
+   "label": "Davy and Faraday cross into France",
+   "eyes": [
+    "hdavy",
+    "faraday"
+   ],
+   "note": "Davy was the celebrated discoverer travelling with his new wife; Faraday was the assistant recording passports, poverty and new sights. Their accounts of the same journey are very different."
+  },
+  {
+   "date": "1813-12-13",
+   "label": "Iodine and election at the Institut",
+   "eyes": [
+    "institut",
+    "hdavy",
+    "faraday"
+   ],
+   "note": "On the day the Institut elected Davy nearly unanimously, his letter on substance X was read there. That started a dispute with Gay-Lussac over who had understood iodine first, while Faraday assisted in the hotel laboratory."
+  },
+  {
+   "date": "1814-06-17",
+   "label": "Volta meets Davy's assistant",
+   "eyes": [
+    "faraday",
+    "volta",
+    "hdavy"
+   ],
+   "note": "The man whose letter opened the chapter meets the young man who would carry electrochemistry into the next generation."
+  }
+ ],
+ "ties": [
+  {
+   "a": "volta",
+   "b": "banks",
+   "kind": "read each other",
+   "note": "Volta addressed the pile letter to Banks as President of the Royal Society, and Banks passed it to the Society and, early, to London experimenters."
+  },
+  {
+   "a": "banks",
+   "b": "carlisle",
+   "kind": "met",
+   "note": "Carlisle is reported to have seen the first part of Volta's letter through Banks before the formal reading."
+  },
+  {
+   "a": "nicholson",
+   "b": "carlisle",
+   "kind": "met",
+   "note": "They worked together, built the first London pile and split water with it in spring 1800."
+  },
+  {
+   "a": "hdavy",
+   "b": "nicholson",
+   "kind": "influenced",
+   "note": "Davy read Nicholson's account in Bristol, called it an immense new field and published his own first galvanic papers in Nicholson's Journal."
+  },
+  {
+   "a": "hdavy",
+   "b": "edavy",
+   "kind": "relative",
+   "note": "Cousins; Edmund was Humphry's laboratory assistant at the Royal Institution in 1807."
+  },
+  {
+   "a": "hdavy",
+   "b": "jdavy",
+   "kind": "relative",
+   "note": "Brothers; John wrote the 1836 Memoirs that fix 6 October and preserve Edmund's account."
+  },
+  {
+   "a": "jdavy",
+   "b": "paris",
+   "kind": "opposite sides",
+   "note": "Rival biographers: Paris published first (1831) and John Davy's Memoirs (1836) answered him, with differences including the date of potassium."
+  },
+  {
+   "a": "hdavy",
+   "b": "gaylussac",
+   "kind": "opposite sides",
+   "note": "Competitors over potassium's nature (element or hydride), boron (June 1808) and later iodine (1813)."
+  },
+  {
+   "a": "gaylussac",
+   "b": "thenard",
+   "kind": "met",
+   "note": "Close collaborators who published jointly throughout 1808–1811."
+  },
+  {
+   "a": "hdavy",
+   "b": "berzelius",
+   "kind": "read each other",
+   "note": "Berzelius's letter of 1808 gave Davy the mercury-cathode method, which Davy acknowledged in print."
+  },
+  {
+   "a": "institut",
+   "b": "hdavy",
+   "kind": "mentioned",
+   "note": "The Institut awarded Davy Napoleon's galvanism prize in wartime and elected him a corresponding member in Paris in December 1813."
+  },
+  {
+   "a": "hdavy",
+   "b": "faraday",
+   "kind": "met",
+   "note": "Davy hired Faraday in 1813 and took him across Europe as assistant, 1813–1815."
+  },
+  {
+   "a": "faraday",
+   "b": "volta",
+   "kind": "met",
+   "note": "Faraday's journal records meeting Volta in Milan on 17 June 1814."
+  },
+  {
+   "a": "institut",
+   "b": "volta",
+   "kind": "met",
+   "note": "Volta's demonstrations before Bonaparte at the Institut in 1801 led to the galvanism prize."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "mendeleev-1869",
+   "note": "The alkali metals and alkaline-earth metals Davy isolated in 1807–08 became two whole columns of Mendeleev's table, and their regular step in properties was part of the evidence for periodicity."
+  },
+  {
+   "to": "argon-1894",
+   "note": "The Royal Institution, where potassium was isolated, was still a research laboratory in the 1890s. Lord Rayleigh held its professorship of natural philosophy while he and Ramsay worked on argon."
+  },
+  {
+   "to": "v13:morse-1844",
+   "note": "The voltaic battery that came from Volta's 1800 letter powered the electric telegraph. Every early telegraph line ran on chemical cells descended from the pile."
+  },
+  {
+   "to": "v6:vienna-1815",
+   "note": "Davy and Faraday's tour was cut short by the news, recorded in Faraday's journal in March 1815, that Napoleon had escaped from Elba. That collapse of the peace interrupted the Congress of Vienna."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://makingscience.royalsociety.org/items/l-and-p_11_137",
+   "title": "Volta's letter to Banks, 20 March 1800 (Royal Society L&P/11/137)",
+   "caption": "Royal Society archive record of the manuscript letter in French, with its English translation, in which Volta described the pile; read 26 June 1800.",
+   "date": "1800",
+   "credit": "The Royal Society"
+  },
+  {
+   "url": "https://makingscience.royalsociety.org/items/PT_2_23",
+   "title": "Davy's manuscript on the decomposition of the earths (Royal Society PT/2/23)",
+   "caption": "Royal Society archive record of the 106-page manuscript of the paper read on 30 June 1808, in which Davy named barium, strontium, calcium and 'magnium'.",
+   "date": "1808",
+   "credit": "The Royal Society"
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1800-03-20",
+   "date_display": "20 March 1800",
+   "eye": "volta",
+   "claim": "A pile of paired dissimilar metal discs separated by brine-soaked card gives continuous electricity from contact alone",
+   "form": "letter",
+   "evidence": "Volta to Banks, Royal Society L&P/11/137; Phil. Trans. 1800",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1800-05-02",
+   "date_display": "early May 1800",
+   "eye": "nicholson",
+   "claim": "Water decomposed by the pile: about two-thirtieths of a cubic inch of inflammable gas collected in two and a half hours",
+   "form": "paper",
+   "evidence": "Nicholson's Journal vol. 4 (1800), pp. 179–191, as quoted at cosmovisions.com",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1802-06-30",
+   "date_display": "11 Messidor an X (30 June 1802)",
+   "eye": "institut",
+   "claim": "Bonaparte's annual prize of 3,000 francs for the best galvanic experiment, open to all nations",
+   "form": "official report",
+   "evidence": "Institut committee report printed in Paris, Life of Davy (1831), vol. 1",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1807-10-06",
+   "date_display": "6 October 1807 (J. Davy) or 19 October 1807 (Paris)",
+   "eye": "hdavy",
+   "claim": "'Capital experiment proving the decomposition of potash': metallic globules at the negative pole. Position A (John Davy, 1836): 6 October; Position B (Paris, 1831, reading the register): begun 16, achieved 19 October",
+   "form": "notebook",
+   "evidence": "Royal Institution laboratory register as transcribed by Paris (1831) and John Davy (1836)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1807-11-19",
+   "date_display": "19 November 1807",
+   "eye": "hdavy",
+   "claim": "Potassium and sodium announced and named; batteries of 24 plates (12 in), 100 (6 in) and 150 (4 in); potassium 'the lightest fluid body known'",
+   "form": "paper",
+   "evidence": "Bakerian Lecture, Phil. Trans. 98 (1808), read 19 November 1807",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1807-12-15",
+   "date_display": "late 1807",
+   "eye": "institut",
+   "claim": "Galvanism prize of 3,000 francs awarded to Davy for his 1806 Bakerian Lecture, in wartime",
+   "form": "official report",
+   "evidence": "Paris, Life of Davy (1831), vol. 1",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1808-03-07",
+   "date_display": "early 1808",
+   "eye": "thenard",
+   "claim": "Potassium made chemically in quantity by heating potash with iron turnings in a gun-barrel (Gay-Lussac and Thénard)",
+   "form": "paper",
+   "evidence": "Paris (1831), vol. 1; Recherches physico-chimiques (1811)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1808-05-15",
+   "date_display": "May 1808",
+   "eye": "hdavy",
+   "claim": "New Royal Institution battery of 500 pairs of double plates, six inches square",
+   "form": "paper",
+   "evidence": "Davy, Phil. Trans. 1808 (read 30 June 1808)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1808-05-27",
+   "date_display": "late May 1808",
+   "eye": "gaylussac",
+   "claim": "Position (Gay-Lussac and Thénard): potassium may be a compound of hydrogen and potash. Counter-position (Davy): it is an element",
+   "form": "newspaper",
+   "evidence": "Moniteur No. 148 (1808), cited and answered in Davy, Phil. Trans. 1808",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1808-06-03",
+   "date_display": "spring 1808 (received early June)",
+   "eye": "berzelius",
+   "claim": "Barytes and lime decomposed at a mercury cathode, giving amalgams of their metals (Berzelius and Pontin)",
+   "form": "letter",
+   "evidence": "Acknowledged in Davy, Phil. Trans. 1808",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1808-06-21",
+   "date_display": "21 June 1808",
+   "eye": "gaylussac",
+   "claim": "Boracic acid decomposed by potassium and recomposed; new element named 'bore' (Gay-Lussac and Thénard). Priority position: first to announce boron",
+   "form": "paper",
+   "evidence": "Elementymology: Boron, citing Weeks, Discovery of the Elements",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1808-06-30",
+   "date_display": "30 June 1808",
+   "eye": "hdavy",
+   "claim": "Barium, strontium, calcium and 'magnium' named from earth amalgams; a black substance from boracic acid reported tentatively. Priority position: independent work on boron nine days after the French announcement",
+   "form": "paper",
+   "evidence": "Royal Society MS PT/2/23; Phil. Trans. 1808",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1808-12-15",
+   "date_display": "15 December 1808",
+   "eye": "hdavy",
+   "claim": "Name 'boracium' proposed for the base of boracic acid",
+   "form": "paper",
+   "evidence": "Bakerian Lecture 1808 (Phil. Trans. 1809); Elementymology: Boron",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1809-06-01",
+   "date_display": "1808–1809",
+   "eye": "ri-managers",
+   "claim": "Public subscription for a 'great battery' at the Royal Institution, the first named private funding of electrochemical apparatus; sums pledged exceeded sums paid",
+   "form": "other",
+   "evidence": "BJHS (2007) article on the subscription to the great battery (abstract)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1813-12-10",
+   "date_display": "10 December 1813",
+   "eye": "hdavy",
+   "claim": "Substance X (iodine) argued to be a new element analogous to chlorine; priority contested with Gay-Lussac",
+   "form": "paper",
+   "evidence": "Paris (1831), vol. 2; read to the Royal Society 20 January 1814",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1813-12-13",
+   "date_display": "13 December 1813",
+   "eye": "institut",
+   "claim": "Davy elected corresponding member of the First Class by 47 votes of 48",
+   "form": "official report",
+   "evidence": "Paris (1831), vol. 2",
+   "confidence": "verified"
+  }
+ ],
+ "further": [
+  {
+   "title": "J. A. Paris, The Life of Sir Humphry Davy, vol. 1 (1831), Project Gutenberg",
+   "url": "https://www.gutenberg.org/ebooks/45394"
+  },
+  {
+   "title": "J. A. Paris, The Life of Sir Humphry Davy, vol. 2 (1831), Project Gutenberg",
+   "url": "https://gutenberg.org/cache/epub/45395/pg45395.txt"
+  },
+  {
+   "title": "Davy, Bakerian Lecture on the decomposition of the fixed alkalies (Phil. Trans. 1808), OCR text",
+   "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-107280/"
+  },
+  {
+   "title": "Davy, Electro-chemical researches on the decomposition of the earths (Phil. Trans. 1808), OCR text",
+   "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-107302/"
+  },
+  {
+   "title": "The subscription to the great battery at the Royal Institution 1808–9 (British Journal for the History of Science)",
+   "url": "https://cambridge.org/core/journals/british-journal-for-the-history-of-science/article/devotion-to-the-experimental-sciences-and-arts-the-subscription-to-the-great-battery-at-the-royal-institution-18089/EF0A0C2D36677704EAEB87C7311CCF42"
+  },
+  {
+   "title": "Davy Notebooks Project (Lancaster University)",
+   "url": "https://wp.lancs.ac.uk/davynotebooks/?p=39"
+  },
+  {
+   "title": "J. H. Gladstone, Michael Faraday (1872), Project Gutenberg",
+   "url": "https://gutenberg.org/files/47396/old/47396-h/47396-h.htm"
+  },
+  {
+   "title": "Elementymology: Boron",
+   "url": "https://vanderkrogt.net/elements/element.php?num=5"
+  }
+ ],
+ "vantage_key": "0 = the experimenters who made the discoveries; 1 = people in the room or the institution (assistant, managers, the Society's president, the apprentice); 2 = biographers writing later from the papers; 3 = correspondents and academies in other countries; 4 = news only."
+}

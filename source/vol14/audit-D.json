@@ -1,0 +1,530 @@
+[
+ {
+  "chapter": "argon-1894",
+  "where": "entry:9",
+  "severity": "error",
+  "problem": "The Comptes Rendus Chimie 2004 account of sealed packet no. 5038 transcribes the proposed name as 'Ekazote' (symbol Ez) and the alternative as an allotrope 'peut-être Az3'. It calls the document a short letter, gives the deposit as July 1894, and says the covering letter was registered on 13 August 1894.",
+  "fix": {
+   "headline": "A sealed note to Paris: Az3 or 'Ekazote'",
+   "digest": "As his residue grew denser, Ramsay wrote a short note in French, 'Expériences sur l'azote de l'air', and lodged it, sealed, with the French Academy of Sciences to protect his priority. It described a heavy, inert gas and weighed two possibilities: an allotrope of nitrogen, perhaps Az3 (N3), like ozone, or a new element he proposed to call Ekazote, symbol Ez. The covering letter was registered on 13 August 1894, and the packet stayed shut for 110 years.",
+   "source_note": "Comptes Rendus Chimie 2004 (doi 10.1016/j.crci.2004.11.018): packet no. 5038, 'posé' in July 1894, covering letter registered 13 Aug 1894, opened 10 June 2004; Chemistry World feature. Day of deposit not given."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "claim:4",
+  "severity": "error",
+  "problem": "The name in the transcribed note is 'Ekazote', not 'eikazote'.",
+  "fix": {
+   "text_replace": {
+    "old": "new element 'eikazote' (Ez)",
+    "new": "new element 'Ekazote' (Ez); nitrogen form written 'Az3'"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "convergence:5",
+  "severity": "error",
+  "problem": "The sealed note put N3 (Az3) forward as one of two open possibilities. It did not reject it.",
+  "fix": {
+   "text_replace": {
+    "old": "had raised it before rejecting it",
+    "new": "had already weighed it as one of two possibilities"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "entry:0",
+  "severity": "doubt",
+  "problem": "In the Giunta transcription the leftover oxygen was absorbed with 'liver of sulphur'. 'For days on end' is not supported by the text that was checked. The quote matches the transcription ('only a small bubble of air remained unabsorbed').",
+  "fix": {
+   "text_replace": {
+    "old": "absorbing the nitrous acid as it formed, for days on end. When no more would shrink, a small bubble was left.",
+    "new": "absorbing the nitrous acid as it formed, until no further shrinking took place; he then absorbed the leftover oxygen with liver of sulphur, and a small bubble was left."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "entry:4",
+  "severity": "doubt",
+  "problem": "The cited Marshall 'Helium' article confirms that both sets of letters were read on 26 October 1868 but does not mention the commemorative medal. The source note should not attribute the medal to it.",
+  "fix": {
+   "source_note": "Marshall, 'Helium' (Hexagon), for the 26 Oct reading (Janssen's letters of 19 Sept reached Paris 24 Oct). The medal is not in Marshall; it is reported in other histories."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "entry:16",
+  "severity": "error",
+  "problem": "Nature (7 Feb 1895) says only that at least 800 people met in the theatre of the University of London, Burlington Gardens. It does not say the Society moved because of crowding.",
+  "fix": {
+   "text_replace": {
+    "old": "was read to a meeting so crowded the Society moved to a larger hall.",
+    "new": "was read to an audience of at least eight hundred in the theatre of the University of London."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "entry:10",
+  "severity": "style",
+  "problem": "date_iso '1894-08' sorts before Ramsay's letter of 4 August, but the reply is placed two days after that letter.",
+  "fix": {
+   "date_iso": "1894-08-06"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "entry:13",
+  "severity": "doubt",
+  "problem": "The APS account says H. G. Madan proposed the name but does not call him chairman of the session. The chairmanship is unverified.",
+  "fix": {
+   "text_replace": {
+    "old": "The chairman of the session, H. G. Madan, is credited",
+    "new": "H. G. Madan is credited (APS account)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "entry:23",
+  "severity": "doubt",
+  "problem": "Nature 51, 543 reports the meeting 'on March 14'. 14 March 1895 (New Style) was a Thursday and equals 2 March Old Style. 14 March Old Style (26 March New Style) was a Tuesday. Nature printed the report within weeks. The assumption that Nature's date is Old Style is therefore doubtful, and the reported date should be kept with the uncertainty stated.",
+  "fix": {
+   "date_iso": "1895-03-14",
+   "date_display": "14 March 1895 as reported by Nature (Old/New Style not stated)",
+   "confidence": "approx",
+   "source_note": "Nature 51, 543 (1895): 'At the meeting of the Russian Chemical Society, on March 14'. Nature does not say which calendar; 14 March N.S. (= 2 March O.S.) was a Thursday, 14 March O.S. (= 26 March N.S.) a Tuesday. N3 position per Rayleigh, 'Argon' (1895)."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "claim:8",
+  "severity": "doubt",
+  "problem": "This claim uses the same assumed Old Style conversion; it should be placed at the date Nature reports.",
+  "fix": {
+   "date_iso": "1895-03-14",
+   "date_display": "14 March 1895 (as reported; calendar not stated)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "calendar_note:0",
+  "severity": "doubt",
+  "problem": "Nature does not say that the 14 March date is Old Style. The weekdays point toward New Style (see entry 23).",
+  "fix": {
+   "text_replace": {
+    "old": "Mendeleev's Russian Chemical Society meeting is reported as 14 March 1895; Russian societies then used the Julian (Old Style) calendar, so it is placed here at about 26 March 1895 (New Style) with confidence 'approx'.",
+    "new": "Mendeleev's Russian Chemical Society meeting is reported by Nature as 14 March 1895 without saying which calendar; Russia then used the Julian (Old Style) calendar, but 14 March New Style (2 March Old Style) fell on a Thursday, so it is placed here at the reported date with confidence 'approx'."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "eye:mendeleev",
+  "severity": "error",
+  "problem": "Mendeleev was born on 8 February 1834 (New Style), so in March 1895 he was 61, not 60.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 60 in 1895",
+    "new": "aged 61 in 1895"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "eye:rayleigh",
+  "severity": "style",
+  "problem": "Rayleigh was born on 12 November 1842, so he was 49 when the Nature letter appeared in September 1892.",
+  "fix": {
+   "text_replace": {
+    "old": "Physicist, aged 50 in 1892",
+    "new": "Physicist, aged 49 in September 1892"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "eye:langlet",
+  "severity": "error",
+  "problem": "No source checked gives Langlet a figure of 'about 4'. Wikipedia says only that he was first to measure helium's atomic weight correctly. Marshall gives the density value 2.02 to Cleve and credits Langlet with the specific-heat measurement showing that helium is monatomic. These should be given as positions, without the unverified figure.",
+  "fix": {
+   "text_replace": {
+    "old": "he carried on, and is credited with the first correct measurement of helium's density and atomic weight, about 4.",
+    "new": "he carried on. Wikipedia credits him with the first correct measurement of helium's atomic weight; the Marshalls' history credits Cleve with the density (2.02, H = 1) and Langlet with the specific-heat measurement showing helium is monatomic."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "entry:27",
+  "severity": "error",
+  "problem": "The atomic weight of 'about 4' credited to Langlet is unverified, and Marshall credits Cleve with the density figure.",
+  "fix": {
+   "digest": "Langlet, who had just begun on the cleveite gas when Ramsay's news arrived, carried on with it. Accounts divide the credit: one credits him with the first correct measurement of helium's atomic weight; another gives the density (2.02, hydrogen = 1) to Cleve and credits Langlet with measuring the specific heat that showed helium to be monatomic. Ramsay's early density was higher because of argon contamination.",
+   "source_note": "Öfversigt KVA Förhandlingar 1895, pp. 211–213 and 371–377 (not read); Langlet article (Wikipedia); Marshall, 'Helium' (Cleve's 2.02; Langlet's specific heat). Ramsay's density 3.89 in Nature 16 May 1895."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "claim:10",
+  "severity": "error",
+  "problem": "The 'about 4' figure is unverified. Credit for the measurement is divided between Cleve and Langlet in the sources.",
+  "fix": {
+   "claim": "Helium measured in Uppsala: density 2.02 (H = 1) credited to Cleve by the Marshalls; Langlet credited (Wikipedia) with the first correct atomic weight and (Marshall) with the specific heat showing it monatomic. Discovery credited to Ramsay, with Cleve's independent confirmation: positions.",
+   "evidence": "Öfversigt KVA Förhandlingar 1895, 371–377; Marshall, 'Helium'; Langlet (Wikipedia)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "entry:43",
+  "severity": "error",
+  "problem": "The prizes were presented on 10 December 1904; 12 December is the date of the lectures. Ramsay's lecture says he had 'written' the words 'look into this'; it does not say he pencilled them.",
+  "fix": {
+   "text_replace": {
+    "old": "Receiving the chemistry prize the same day, Ramsay recalled that years earlier he had pencilled 'look into this'",
+    "new": "Lecturing the same day as the chemistry laureate, Ramsay recalled that years earlier he had written 'look into this'"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "entry:42",
+  "severity": "style",
+  "problem": "The physics prize was presented on 10 December. The lecture was given on 12 December.",
+  "fix": {
+   "text_replace": {
+    "old": "Rayleigh received the physics prize and lectured on",
+    "new": "Having received the physics prize on 10 December, Rayleigh lectured on"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "entry:6",
+  "severity": "style",
+  "problem": "The APS account says only that no suggestions were 'forthcoming', which is stronger than 'none settled it'. The letter itself is signed 'Terling Place, Witham, September 24'.",
+  "fix": {
+   "text_replace": {
+    "old": "A later APS account notes that no reader sent in an explanation that settled it.",
+    "new": "The letter was signed at Terling Place on 24 September; a later APS account says that no suggestions were forthcoming."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "image:2",
+  "severity": "error",
+  "problem": "The Science Museum description reads 'First vacuum tube filled with argon, 8360 with others, used by Sir William Ramsay…'. '8360' is not a count of tubes; it is probably a number in the original label. The caption misreads it.",
+  "fix": {
+   "caption": "The first vacuum tube filled with argon, used by Ramsay in his researches on the rare gases (Science Museum description)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "image:4",
+  "severity": "error",
+  "problem": "The Linda Hall page captions the Milbanke portrait 'no date (University College London via ArtUK)'. No 1914 ceremony is mentioned.",
+  "fix": {
+   "caption": "Undated portrait of Ramsay by Mark Richard Milbanke (University College London, via Art UK), as shown on the Linda Hall Library page.",
+   "date": "undated"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "argon-1894",
+  "where": "entry:24",
+  "severity": "style",
+  "problem": "Ramsay's 'The discovery of helium' in Chemical News is dated 29 March 1895 in the Linda Hall Library's caption, which supports the date.",
+  "fix": {
+   "source_note": "Marshall, 'Noble gases' (29 March 1895); Chem. News 71 (1895), 151, dated 29 March 1895 (Linda Hall Library caption)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "intro:0",
+  "severity": "error",
+  "problem": "The stones were set in the regalia in 1909 and 1910, four to five years after the find of January 1905, not within three years.",
+  "fix": {
+   "text_replace": {
+    "old": "Within three years it had been bought",
+    "new": "Within five years it had been bought"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "intro:3",
+  "severity": "doubt",
+  "problem": "Hansard (11 March 1908) does not say recruiting was stopped because so many died. Churchill said that no recruiting had taken place since the end of 1906 and that resuming it 'cannot be authorised in existing circumstances', since the 'conditions which prevail in regard to mortality would not warrant it'.",
+  "fix": {
+   "text_replace": {
+    "old": "Recruiting there was stopped because so many died.",
+    "new": "Recruiting there was not resumed after 1906; the Colonial Office said the mortality among the men would not warrant it."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "entry:7",
+  "severity": "error",
+  "problem": "Hansard does not support 'some 1,500 km south', and no other cited source gives the distance.",
+  "fix": {
+   "text_replace": {
+    "old": " They were brought some 1,500 km south on contracts.",
+    "new": " They were brought south to the Transvaal on contracts."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "entry:8",
+  "severity": "style",
+  "problem": "Hansard says no recruiting had taken place since the end of 1906 and that resumption was refused on grounds of mortality. 'From the tropical north' adds a gloss that is not in the source.",
+  "fix": {
+   "text_replace": {
+    "old": "Recruiting had stopped after 1906, and the deaths among such men from the tropical north were the stated reason it was not renewed.",
+    "new": "No recruiting had taken place since the end of 1906, and the mortality among the men was the stated reason it would not be resumed."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "convergence:6",
+  "severity": "style",
+  "problem": "Hansard says resumption was refused because of mortality. It does not say recruiting was 'stopped because too many died'.",
+  "fix": {
+   "text_replace": {
+    "old": "recruiting for the same mine had been stopped because too many of the men died.",
+    "new": "recruiting for the same mine would not be resumed because of the mortality among the men."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "entry:1",
+  "severity": "error",
+  "problem": "The attribution to a white miner in 'a modern encyclopedia account' rests on an unverified mirror source (the Powell attribution) and should be removed. Helme's statement is confirmed by the Heritage Portal and is a later (1974) biography.",
+  "fix": {
+   "text_replace": {
+    "old": "Helme's 1974 biography of Cullinan says an African worker led Wells to the stone; a modern encyclopedia account instead names a white miner.",
+    "new": "Helme's later biography of Cullinan (1974) says Wells was led to the stone by an African worker; Wells's daughter's 1946 account credits her father alone."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "claim:2",
+  "severity": "error",
+  "problem": "The 'another account names a white miner' attribution is unverified (a Wikipedia-mirror source) and should be removed.",
+  "fix": {
+   "text_replace": {
+    "old": "Helme (1974) says an African worker led him to the stone; another account names a white miner.",
+    "new": "Helme (1974, a later biography) says an African worker led him to the stone; Wells's daughter (1946) credits Wells alone."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "entry:0",
+  "severity": "doubt",
+  "problem": "The date is disputed. The Heritage Portal favours 25 January, citing the April 1905 pamphlet, the daughter's 1946 account and a Burns Supper that night. Scarratt and Shor and an unsigned De Beers archive note give 26 January. A contested date should not be marked 'verified'.",
+  "fix": {
+   "confidence": "approx",
+   "source_note": "Scarratt and Shor (2006) and an unsigned De Beers archive note give 26 Jan; the Heritage Portal argues for 25 Jan (Hatch–Corstorphine pamphlet of April 1905, Wells's daughter's 1946 magazine account, McHardy family memory of a Burns Supper that night). Both dates are positions."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "eye:hatch",
+  "severity": "error",
+  "problem": "No company record giving 26 January was found. The Heritage Portal cites an unsigned De Beers archive note and later books for that date.",
+  "fix": {
+   "text_replace": {
+    "old": "against the company's 26 January.",
+    "new": "against the 26 January given by an unsigned De Beers archive note and most later accounts."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "entry:5",
+  "severity": "error",
+  "problem": "As in the Hatch eye, the 26 January date comes from a De Beers archive note and later books, not from documented company records.",
+  "fix": {
+   "text_replace": {
+    "old": "one day earlier than the company's records.",
+    "new": "one day earlier than the 26 January of a De Beers archive note and most later accounts."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "claim:0",
+  "severity": "style",
+  "problem": "Same issue: 'the company's date' is not documented.",
+  "fix": {
+   "text_replace": {
+    "old": "one day before the company's date: a position, not settled.",
+    "new": "one day before the 26 January of later accounts: a position, not settled."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "entry:2",
+  "severity": "style",
+  "problem": "The Heritage Portal says Cullinan was photographed watching Wells hand the stone to McHardy. The photographs show the handover, not Cullinan holding the stone.",
+  "fix": {
+   "text_replace": {
+    "old": "and Cullinan was photographed with it.",
+    "new": "and Cullinan was photographed watching the handover."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "entry:12",
+  "severity": "doubt",
+  "problem": "The quote 'pocket patriotism' could not be checked against Guest or the printed Debates. The digest does not say who used the phrase or how, so it could be misattributed to Botha.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "entry:23",
+  "severity": "error",
+  "problem": "The cable printed in the Gisborne Times of 13 November 1907 is datelined 'London, Nov. 10', not 11 November. The quoted words are confirmed.",
+  "fix": {
+   "date_iso": "1907-11-10",
+   "date_display": "10 November 1907 (London cable)",
+   "source_note": "United Press Association cable, London 10 Nov 1907, printed in Gisborne Times 13 Nov 1907 (Papers Past)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "entry:29",
+  "severity": "style",
+  "problem": "The nephew's denial of the fainting story is a later statement, not a contemporary one. It should be marked as such, beside the 1908 account by Joseph's brother Louis.",
+  "fix": {
+   "text_replace": {
+    "old": "his nephew Louis said no Asscher would ever faint over a diamond.",
+    "new": "his nephew Louis later said that no Asscher would ever faint over a diamond."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "entry:33",
+  "severity": "error",
+  "problem": "Scarratt and Shor give the unpolished fragments as 9.5 ct, not about 9 ct.",
+  "fix": {
+   "text_replace": {
+    "old": "about nine carats of unpolished fragments",
+    "new": "about 9.5 carats of unpolished fragments"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "claim:11",
+  "severity": "error",
+  "problem": "Scarratt and Shor give the fragments as 9.5 ct and the 96 small brilliants as 7.55 ct in total.",
+  "fix": {
+   "text_replace": {
+    "old": "96 small brilliants, about 9 ct of fragments.",
+    "new": "96 small brilliants (7.55 ct in all), about 9.5 ct of unpolished fragments."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "image:5",
+  "severity": "error",
+  "problem": "RCT now catalogues RCIN 31704 as 'Queen Camilla's Crown' (1911–2023). Cullinan III and IV were later worn as a brooch and were reset in the crown for the 2023 coronation, so 'later replaced by replicas' is incomplete.",
+  "fix": {
+   "title": "Queen Mary's Crown (now catalogued as Queen Camilla's Crown)",
+   "caption": "Made for Queen Mary's coronation in 1911, when it held Cullinan III and IV in a detachable setting (and the Koh-i-Noor); the Cullinans were later worn as a brooch, with crystal replicas in the crown, and were set in it again for the 2023 coronation.",
+   "date": "1911 (altered 2023)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "entry:38",
+  "severity": "style",
+  "problem": "RCT records that the real Cullinan III and IV went back into the crown for Queen Camilla in 2023.",
+  "fix": {
+   "text_replace": {
+    "old": "she later had them replaced by replicas.",
+    "new": "she later had them replaced by replicas, and the real stones were set in it again for the 2023 coronation."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "entry:36",
+  "severity": "style",
+  "problem": "RCT 31701 dates the change by the move of the Stuart Sapphire to the rear in 1909 'to make way for the newly acquired Cullinan II'. The wording is fine; the source note could say so.",
+  "fix": {
+   "source_note": "Royal Collection Trust, RCIN 31701 (Stuart Sapphire moved to the rear of the band in 1909 to make way for Cullinan II)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "cullinan-1905",
+  "where": "eye:workers",
+  "severity": "style",
+  "problem": "Hansard says that resuming recruitment was refused on grounds of mortality. It does not say recruiting was 'halted over deaths'.",
+  "fix": {
+   "text_replace": {
+    "old": "with recruiting halted over deaths.",
+    "new": "with renewed recruiting refused because of the mortality."
+   }
+  },
+  "confidence": "verified"
+ }
+]

@@ -1,0 +1,478 @@
+[
+ {
+  "chapter": "davy-1807",
+  "where": "calendar_note:0",
+  "severity": "error",
+  "problem": "The note says all dates fit the Royal Society's Thursdays and the Institut's Mondays, but 21 June 1808 (the French boron announcement) was a Tuesday.",
+  "fix": {
+   "text_replace": {
+    "old": "and the dates given here fit those weekdays",
+    "new": "and most dates given here fit those weekdays; the exception is the boron announcement usually dated 21 June 1808, a Tuesday, which does not match a Monday session of the First Class"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "eye:volta",
+  "severity": "error",
+  "problem": "Volta was born 18 February 1745, so he was 55, not 54, when he wrote on 20 March 1800.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 54 in 1800",
+    "new": "aged 55 in 1800"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "eye:carlisle",
+  "severity": "error",
+  "problem": "Carlisle was born in February 1768 and was 32 in spring 1800, not 31.",
+  "fix": {
+   "text_replace": {
+    "old": "London surgeon, aged 31",
+    "new": "London surgeon, aged 32"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "eye:hdavy",
+  "severity": "style",
+  "problem": "Davy was born 17 December 1778, so he was 28 during the October–November 1807 discoveries.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 29 in 1807",
+    "new": "aged 28 in 1807 (29 from 17 December)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "eye:paris",
+  "severity": "doubt",
+  "problem": "Paris did not know Davy in Davy's Penzance youth; Paris practised in Penzance only from 1813, long after Davy had left. The wording suggests a boyhood acquaintance that is not supported.",
+  "fix": {
+   "text_replace": {
+    "old": "Paris had known Davy since his days in Penzance.",
+    "new": "Paris had practised as a physician in Penzance, Davy's home town, and knew him personally in later life."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "eye:gaylussac",
+  "severity": "style",
+  "problem": "The law of combining volumes was read only on 31 December 1808, so in the 1808 race he had not 'already' found it.",
+  "fix": {
+   "text_replace": {
+    "old": "He had already gone up in a balloon to 7,000 metres and found the law of combining gas volumes.",
+    "new": "He had already gone up in a balloon to 7,000 metres (1804), and at the end of 1808 he announced the law of combining gas volumes."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "entry:5",
+  "severity": "style",
+  "problem": "The Linda Hall Library states that electrolysis was first announced in the July 1800 issue of Nicholson's Journal, so the month is confirmed.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Journal of Natural Philosophy, Chemistry and the Arts, vol. 4 (1800), pp. 179–191; July 1800 issue per Linda Hall Library, Scientist of the Day: William Nicholson."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "entry:10",
+  "severity": "style",
+  "problem": "The Royal Society catalogue (PT/1/2) confirms this Bakerian Lecture was read on 20 November 1806 and printed in Phil. Trans. for 1807.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Royal Society MS PT/1/2 (makingscience.royalsociety.org): read 20 November 1806; Phil. Trans. 1807. Davy Notebooks Project chronology gives the same date."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "entry:11",
+  "severity": "doubt",
+  "problem": "The notebook words are verified, but the day is one of two positions (6 vs 19 October), so the confidence of a dated entry should not read as settled.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "entry:14",
+  "severity": "style",
+  "problem": "Paris's text confirms 16 and 19 October and the 'hasty record' wording, and it also mentions 6 October, but as the date of a different 'beautiful experiment' in the same register. That detail bears directly on the dating question.",
+  "fix": {
+   "text_replace": {
+    "old": "His dating disagrees with the 6 October given by the Davy family.",
+    "new": "His dating disagrees with the 6 October given by the Davy family; in Paris's reading, 6 October appears in the register as the date of a different, earlier experiment."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "entry:17",
+  "severity": "doubt",
+  "problem": "Paris records Davy's own belief in jail contagion and Babington's view that there was 'not the slightest ground' for the opinions about its cause. The digest's attribution of an overwork diagnosis to Babington was not found in the text. The eleven-week figure is Paris's report of the housekeeper's nursing, not a clinical duration.",
+  "fix": {
+   "text_replace": {
+    "old": "His doctor Babington blamed overwork and an overexcited brain. The illness lasted about eleven weeks.",
+    "new": "Paris reports that his physician Dr Babington saw no ground for the explanations put about. Paris says the housekeeper nursed him for eleven weeks."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "convergence:2",
+  "severity": "doubt",
+  "problem": "This rests on the same unconfirmed attribution of an overwork diagnosis to Babington.",
+  "fix": {
+   "text_replace": {
+    "old": "Paris sets the patient's theory of jail infection beside the doctor's diagnosis of overwork.",
+    "new": "Paris sets the patient's theory of jail infection beside his physician's doubt about it."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "entry:19",
+  "severity": "doubt",
+  "problem": "Paris (and the DNB) say word of the prize came twelve months after the first Bakerian Lecture was published, not after it was delivered. The day of the award decision is still not verified.",
+  "fix": {
+   "date_display": "late 1807 or early 1808 (twelve months after the 1806 lecture was published)",
+   "source_note": "Paris (1831), vol. 1: 'It was not until twelve months after the publication of his first Bakerian Lecture' that word of the prize came; DNB says the same. Exact date of the decision not verified."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "entry:20",
+  "severity": "style",
+  "problem": "The wording is confirmed in Paris (1831): 'if the two countries or governments are at war, the men of science are not', reported in Poole's 'late communication', with Davy's own letter on 'foolish paragraphs in the papers'. Keep the secondhand flag.",
+  "fix": {
+   "source_note": "Paris (1831), vol. 1: Davy's letter to Poole ('foolish paragraphs in the papers'); the remark as reported by Poole 'in a late communication' to Paris, i.e. secondhand and recalled years later."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "entry:23",
+  "severity": "style",
+  "problem": "The 1808 date is supported by a letter of 10 May 1808 from Hassenfratz (Annales des mines) reporting tests of 'fer potassé' and citing Annales de chimie t. 65, p. 325, so the method was public by spring 1808. The exact announcement day is still unseen.",
+  "fix": {
+   "source_note": "Paris (1831), vol. 1 ('In the year 1808 ... heat iron turnings to whiteness in a curved gun-barrel'); Annales de chimie t. 65, p. 325, cited in Hassenfratz's letter of 10 May 1808 (annales.org). Announcement day not verified."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "entry:32",
+  "severity": "style",
+  "problem": "The DNB confirms that the managers raised a fund for a larger battery (2,000 double plates), which supports the entry. Adding it makes the evidence more than an abstract.",
+  "fix": {
+   "source_note": "BJHS (2007), 'Devotion to the experimental sciences and arts: the subscription to the great battery at the Royal Institution 1808–9' (abstract); DNB, 'Davy, Humphry' (fund for a battery of 2,000 double plates)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "entry:42",
+  "severity": "style",
+  "problem": "'Met once' is not supported. The DNB records only that Volta came to see Davy on 17 June 1814, and the DNB does not name the place.",
+  "fix": {
+   "text_replace": {
+    "old": "The inventor of the pile and the young assistant who would go on to build the theory of electrochemistry met once.",
+    "new": "The inventor of the pile and the young assistant who would go on to build the theory of electrochemistry were in the same room."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "entry:42",
+  "severity": "doubt",
+  "problem": "The DNB gives the date of the journal entry (Friday 17 June 1814) but not the place. Milan is the usual reading of the itinerary but was not seen in the cited source.",
+  "fix": {
+   "source_note": "DNB, 'Faraday, Michael' (Wikisource): journal entry of Friday 17 June 1814, 'saw M. Volta, who came to Sir H. Davy'; place (Milan) from the tour itinerary, not stated in the DNB."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "davy-1807",
+  "where": "threads_out:3",
+  "severity": "error",
+  "problem": "Napoleon's return did not interrupt the Congress of Vienna, which kept sitting and signed its Final Act on 9 June 1815.",
+  "fix": {
+   "text_replace": {
+    "old": "That collapse of the peace interrupted the Congress of Vienna.",
+    "new": "His return, the Hundred Days, ran alongside the last months of the Congress of Vienna, which signed its Final Act on 9 June 1815."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "eye:foster",
+  "severity": "error",
+  "problem": "The Chemical News report of 9 March 1866 (vol. 13, pp. 113–114) names the questioner: 'Professor G. C. Foster humorously inquired' whether Newlands had examined the elements by their initial letters. The attribution is in the report itself, not only in later histories.",
+  "fix": {
+   "text_replace": {
+    "old": "FLAG: the question about alphabetical order is known from the Chemical News report of 9 March 1866. Standard histories attribute it to Carey Foster; the Linda Hall Library summary of the report leaves the speaker unnamed. The attribution is therefore shown as approximate.",
+    "new": "The question about the order of initial letters is recorded in the Chemical News report of 9 March 1866 (vol. 13, pp. 113–114), which names 'Professor G. C. Foster' as asking it humorously. It is reported speech, not Foster's own account."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "eye:foster",
+  "severity": "style",
+  "problem": "Foster was born on 1 March 1835, so he turned 31 on the day of the meeting.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 30 in 1866",
+    "new": "aged 31 on the day of the meeting (born 1 March 1835)"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "entry:8",
+  "severity": "error",
+  "problem": "The report itself names Foster, so the hedge is unnecessary. A short verbatim phrase from the 1866 English report can be quoted.",
+  "fix": {
+   "digest": "The Chemical News account of the meeting records that Professor G. C. Foster humorously asked Newlands whether he had ever examined the elements in the order of their initial letters, since any arrangement might throw up coincidences. The jibe captured the room's view that the octaves were numerology.",
+   "quote": "according to the order of their initial letters",
+   "confidence": "verified",
+   "source_note": "Chemical News 13, 113–114 (9 March 1866), as transcribed in Giunta, Elements and Atoms, ch. 11 (web.lemoyne.edu/GIUNTA/EA/NEWLANDSann.HTML)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "tie:7",
+  "severity": "style",
+  "problem": "The report names Foster.",
+  "fix": {
+   "text_replace": {
+    "old": "a listener, usually identified as Foster, mocked Newlands's arrangement",
+    "new": "Foster, named in the Chemical News report, mocked Newlands's arrangement"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "eye:newlands",
+  "severity": "style",
+  "problem": "Newlands was born 26 November 1837, so between February 1863 and August 1865 he was 25 to 27.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 25–28 in 1863–65",
+    "new": "aged 25–27 in 1863–65"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "entry:4",
+  "severity": "style",
+  "problem": "The quote is confirmed: 'the eighth element starting from a given one is a kind of repetition of the first' (Chemical News 10, 94–95, 20 Aug 1864, as transcribed by Giunta). This only adds the primary citation.",
+  "fix": {
+   "source_note": "Chemical News 10, 94–95 (20 Aug 1864), transcribed in Giunta, Elements and Atoms, ch. 11; Chemistry World."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "eye:hinrichs",
+  "severity": "doubt",
+  "problem": "Hinrichs was born 2 December 1836, so for most of 1867 he was 30.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 31 in 1867",
+    "new": "aged 30 in 1867 (31 from December)"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "entry:0",
+  "severity": "style",
+  "problem": "A bookseller's record of the 1862 offprint is titled with an addition to the memoir 'du 7 avril', which supports 7 April 1862 for the first note.",
+  "fix": {
+   "source_note": "Comptes rendus 54 (1862), pp. 757–761, 840–843, 967–971 (Linda Hall Library; Wikipedia); offprint title refers to the memoir 'du 7 avril' (AbeBooks record). Session day supported but not seen in CR."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "entry:17",
+  "severity": "style",
+  "problem": "Girolami (Bull. Hist. Chem. 44, 2019) states that Meyer's paper was submitted in December 1869 and published in March 1870, and KIT's '100 objects' page gives December 1869.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Annalen der Chemie und Pharmacie, Suppl. VII (1870), pp. 354–364; submitted December 1869, published March 1870 (G. Girolami, Bull. Hist. Chem. 44 (2019) 100; KIT 100 Objekte no. 011)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "eye:meyer",
+  "severity": "style",
+  "problem": "The December 1869 submission date is now supported by a published history.",
+  "fix": {
+   "text_replace": {
+    "old": "it is usually cited as dated December 1869, which was not seen this session",
+    "new": "it was submitted in December 1869 and published in March 1870 (Girolami, Bull. Hist. Chem. 2019)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "claim:8",
+  "severity": "style",
+  "problem": "The submission month is supported (see entry 17).",
+  "fix": {
+   "confidence": "verified",
+   "evidence": "Annalen der Chemie und Pharmacie, Suppl. VII (1870) 354–364, plate; submitted Dec 1869, published Mar 1870 (Girolami 2019)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "eye:nilson",
+  "severity": "doubt",
+  "problem": "Sources disagree on who first linked scandium to eka-boron. The Linda Hall Library says Nilson knew nothing of Mendeleev and that Cleve made the link (Wikipedia says Cleve notified Mendeleev later in 1879); Knowino says Nilson reported the equivalence. This should be a position, not a statement.",
+  "fix": {
+   "text_replace": {
+    "old": "He reported the match with Mendeleev's eka-boron.",
+    "new": "Who first linked it to Mendeleev's eka-boron is told differently: some accounts credit Nilson, others his colleague Cleve later in 1879."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "entry:29",
+  "severity": "doubt",
+  "problem": "The same conflict applies: the Linda Hall Library says Nilson had not heard of Mendeleev and that Cleve made the match.",
+  "fix": {
+   "text_replace": {
+    "old": "He pointed to the agreement with Mendeleev's eka-boron.",
+    "new": "Accounts differ on whether Nilson himself noted the agreement with Mendeleev's eka-boron or left that to his colleague Cleve later in the year."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "entry:28",
+  "severity": "style",
+  "problem": "Wikipedia ('Mendeleev's predicted elements') says Cleve recognised the correspondence and notified Mendeleev later in 1879. This supports the entry but still needs Cleve's note itself.",
+  "fix": {
+   "source_note": "Linda Hall Library, Nilson (Cleve made the link); Wikipedia, 'Mendeleev's predicted elements' (Cleve notified Mendeleev later in 1879); Campbell & Pulkkinen Table 1. Cleve's note not seen."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "entry:34",
+  "severity": "error",
+  "problem": "Winkler's own 1886 account, as translated, dates the find of the ore to summer 1885 at the Himmelsfürst Fundgrube and says A. Weisbach recognised it as a new species and named it argyrodite. It also says the most careful analysis always showed a loss of 6 to 7 per cent.",
+  "fix": {
+   "date_iso": "1885-07",
+   "date_display": "summer 1885 (ore found); analysed 1885–86",
+   "precision": "month",
+   "confidence": "approx",
+   "digest": "In the summer of 1885 a rich silver ore of unusual appearance was raised at the Himmelsfürst mine near Freiberg. The mineralogist A. Weisbach recognised it as a new species and named it argyrodite. Winkler's careful analysis found silver, sulphur and traces of other metals, but the total always fell 6 to 7 per cent short. No account by the miners themselves was found.",
+   "source_note": "Winkler, Berichte 19 (1886) 210–211 and J. prakt. Chem. (1886), English translation at ChemTeam ('In the summer of 1885 ... found at Himmelsfurst Fundgrube'; loss of 6 to 7 per cent; Weisbach). 'Summer' given as July for sorting only."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "entry:19",
+  "severity": "doubt",
+  "problem": "Figures for the eka-aluminium density vary: tables after Mendeleev 1871 give 6.0, while his 1875 note on gallium (entry 25, claim 11) gives 5.9. The difference should be shown, not left as two silent figures.",
+  "fix": {
+   "text_replace": {
+    "old": "a specific gravity near 6.0;",
+    "new": "a specific gravity near 6.0 (5.9 in his 1875 note on gallium);"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "entry:26",
+  "severity": "style",
+  "problem": "The ChemTeam translation of Lecoq (1877) confirms the values 5.90 and 5.97 (mean 5.935 at 23°) and his statement that Mendeleev's prevision was 'exactly verified'. The translation is modern, so no quote. The year 1876 for the remeasurement stays approximate.",
+  "fix": {
+   "source_note": "Lecoq 1877, Annales de chimie (5) 10 (ChemTeam English translation): 5.90 and 5.97, mean 5.935 at 23°; 'prevision of Mendeleev is thus exactly verified'. Year of remeasurement approximate."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "claim:14",
+  "severity": "doubt",
+  "problem": "The citations are verified (1882: 'For their discovery of the periodic relations of the atomic weights'; 1887: 'For his discovery of the periodic law of the chemical elements'), but the day is assumed from the custom of a 30 November anniversary meeting. Girolami also notes a reference dating the 1882 award's printed record to 1883.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "entry:32",
+  "severity": "style",
+  "problem": "The citation wording is confirmed (Davy Medal list; Girolami 2019). Only the day is assumed, and the entry already says so.",
+  "fix": {
+   "source_note": "Davy Medal list (Wikipedia); Girolami, Bull. Hist. Chem. 44 (2019) (citation wording). Day assumed from the customary 30 November anniversary meeting."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "threads_out:1",
+  "severity": "style",
+  "problem": "Alkali metals do not anchor every row: the first period begins with hydrogen.",
+  "fix": {
+   "text_replace": {
+    "old": "had supplied the alkali metals that anchor every row of the table",
+    "new": "had supplied the alkali metals that open every row of the table after the first"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mendeleev-1869",
+  "where": "entry:30",
+  "severity": "style",
+  "problem": "The 1880 exchange is confirmed in part: Mendeleev's 'Zur Geschichte des periodischen Gesetzes', Ber. Deut. Chem. Ges. 13 (1880) 1796–1804, is cited by Girolami (2019).",
+  "fix": {
+   "source_note": "Mendeleev, 'Zur Geschichte des periodischen Gesetzes', Berichte 13 (1880) 1796–1804 (cited in Girolami 2019); Science History Institute ('long, drawn-out' dispute). Meyer's side of the 1880 exchange not seen."
+  },
+  "confidence": "verified"
+ }
+]

@@ -1,0 +1,1317 @@
+{
+ "id": "argon-1894",
+ "title": "The Last Place of Decimals",
+ "short_title": "Argon and the Noble Gases",
+ "subtitle": "Argon, helium, krypton, neon and xenon — London, Oxford, Uppsala, St Petersburg, 1892–1898",
+ "span": "1892–1898 (with 1785, 1868 and 1904)",
+ "intro": [
+  "In 1892 the most careful weigher of gases in Britain admitted in print that he was puzzled. Nitrogen taken from the air was heavier, by about one part in a thousand, than nitrogen made from chemicals. Lord Rayleigh asked Nature's readers for help. Two years later the difference had a name, argon, and within six years five new elements had been added to a column of the periodic table that nobody had drawn.",
+  "This is a laboratory chapter, and its record is mostly letters, papers, lectures and a few labelled objects rather than diaries. The closest thing to a daybook is Morris Travers's laboratory notebooks of 1898, which he turned into a book in 1928; the rest is a correspondence between a physicist in Essex and a chemist in Gower Street, the minutes of learned societies, and the weekly columns of Nature. One document was not read by anyone for 110 years: a sealed note Ramsay lodged in Paris in 1894.",
+  "The eyes span a century. Henry Cavendish's bubble of 1785 is the first sighting; Janssen in India and Lockyer in Hampstead saw helium's yellow line in the sun in 1868; Rayleigh and Ramsay worked out argon in 1894–95; Crookes checked the spectra; Cleve and his student Langlet in Uppsala confirmed and weighed helium; Mendeleev in St Petersburg and Dewar across the corridor at the Royal Institution doubted that argon was an element at all, and suggested it was a dense nitrogen, N3.",
+  "The assay here is a balance and a spectroscope rather than a crucible: densities to four decimal places, a ratio of specific heats that showed the gas was monatomic, wavelengths matched to the sun. Priority was guarded by sealed notes and telegrams, and disputes are given here as positions with their evidence.",
+  "Some voices are missing. Ramsay's letters to his wife Margaret, often quoted in later biographies, were not available for this chapter, and the laboratory assistants, glassblowers and liquid-air workers left no accounts of their own that were found."
+ ],
+ "calendar_note": "All dates are Gregorian. Mendeleev's Russian Chemical Society meeting is reported as 14 March 1895; Russian societies then used the Julian (Old Style) calendar, so it is placed here at about 26 March 1895 (New Style) with confidence 'approx'.",
+ "eyes": [
+  {
+   "id": "rayleigh",
+   "short": "Rayleigh",
+   "name": "John William Strutt, 3rd Baron Rayleigh",
+   "life": "1842–1919",
+   "role": "Physicist, aged 50 in 1892; Professor of Natural Philosophy at the Royal Institution, working mainly in his private laboratory at Terling Place, Essex",
+   "side": "Britain; physics, the Royal Institution and the Royal Society",
+   "where": "Terling Place, Essex; London (Royal Institution, Royal Society)",
+   "lat": 51.8,
+   "lon": 0.56,
+   "waypoints": [
+    {
+     "lat": 51.8,
+     "lon": 0.56,
+     "label": "Terling laboratory, 1892–94"
+    },
+    {
+     "lat": 51.752,
+     "lon": -1.257,
+     "label": "British Association, Oxford, Aug 1894"
+    },
+    {
+     "lat": 51.51,
+     "lon": -0.142,
+     "label": "Royal Institution / Burlington Gardens, 1895"
+    },
+    {
+     "lat": 59.33,
+     "lon": 18.07,
+     "label": "Stockholm Nobel lecture, Dec 1904"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the weigher who found the anomaly",
+   "form": "published letter, papers, lectures",
+   "language": "English",
+   "authenticity": "His Nature letter (vol. 46, 1892), Royal Society papers and Royal Institution lecture are printed and reprinted in his Scientific Papers vol. IV (Cambridge, 1903). His letters with Ramsay survive and are quoted by later biographers; the exact wording of his August 1894 reply is known here only secondhand.",
+   "bio": "Rayleigh set out to test Prout's hypothesis by weighing gases with extreme care and instead found that nitrogen taken from the air was persistently heavier than nitrogen made from chemicals. A physicist by temperament, he published the puzzle rather than burying it, then spent two years ruling out every dull explanation. His angle is that of the balance-pan: the discovery came out of the last decimal place.",
+   "sources": [
+    {
+     "title": "'Density of Nitrogen', Nature 46 (29 Sept 1892)",
+     "url": "https://www.nature.com/articles/046512c0.pdf"
+    },
+    {
+     "title": "'Argon', Royal Institution Proceedings 14 (1895), annotated by C. Giunta",
+     "url": "https://web.lemoyne.edu/GIUNTA/EA/RAYLEIGHann.HTML"
+    },
+    {
+     "title": "Nobel Lecture, 12 Dec 1904",
+     "url": "https://www.nobelprize.org/prizes/physics/1904/strutt/lecture/"
+    }
+   ]
+  },
+  {
+   "id": "ramsay",
+   "short": "Ramsay",
+   "name": "William Ramsay",
+   "life": "1852–1916",
+   "role": "Professor of general chemistry at University College London, aged 41 in 1894",
+   "side": "Britain (Scottish-born); chemistry, University College London",
+   "where": "University College London, Gower Street",
+   "lat": 51.5246,
+   "lon": -0.134,
+   "waypoints": [
+    {
+     "lat": 51.5246,
+     "lon": -0.134,
+     "label": "UCL laboratory, 1894–98"
+    },
+    {
+     "lat": 51.752,
+     "lon": -1.257,
+     "label": "British Association, Oxford, Aug 1894"
+    },
+    {
+     "lat": 43.66,
+     "lon": -79.39,
+     "label": "British Association, Toronto, Aug 1897"
+    },
+    {
+     "lat": 51.454,
+     "lon": -2.597,
+     "label": "British Association, Bristol, Sept 1898"
+    },
+    {
+     "lat": 59.33,
+     "lon": 18.07,
+     "label": "Stockholm Nobel lecture, Dec 1904"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the chemist who isolated the gases",
+   "form": "dated letters, sealed note, papers, lecture",
+   "language": "English (sealed note in French)",
+   "authenticity": "Letters to Rayleigh are held with the Rayleigh and Ramsay papers and quoted by Tilden (1918) and Travers (1956); this chapter digests them. A sealed note deposited with the French Academy of Sciences in 1894 was opened only on 10 June 2004. Papers appear in Proc. Roy. Soc., Phil. Trans. and Chemical News; the Nobel lecture is published by the Nobel Foundation.",
+   "bio": "A gifted experimental chemist, Ramsay read Rayleigh's anomaly as a sign of something heavy hiding in the air, not something light contaminating chemical nitrogen. Over four years he isolated argon, found terrestrial helium and, with Travers, krypton, neon and xenon. His view is the chemist's: a new column for the periodic table, and a scramble to fill it.",
+   "sources": [
+    {
+     "title": "Nobel Lecture 'The Rare Gases of the Atmosphere', 12 Dec 1904",
+     "url": "https://www.nobelprize.org/prizes/chemistry/1904/ramsay/lecture/"
+    },
+    {
+     "title": "M. Sutton, 'Getting the measure of the noble gases', Chemistry World",
+     "url": "https://www.chemistryworld.com/features/history-of-noble-gases/1017385.article"
+    },
+    {
+     "title": "UCL Chemistry history: argon",
+     "url": "https://www.chem.ucl.ac.uk/resources/history/chemhistucl/hist14.html"
+    }
+   ]
+  },
+  {
+   "id": "travers",
+   "short": "Travers",
+   "name": "Morris William Travers",
+   "life": "1872–1961",
+   "role": "Ramsay's assistant at UCL, aged 26 in 1898",
+   "side": "Britain; University College London",
+   "where": "UCL laboratory, Gower Street",
+   "lat": 51.5246,
+   "lon": -0.134,
+   "vantage": 0,
+   "vantage_label": "the assistant at the spectroscope",
+   "form": "laboratory notebooks; memoir (written later, 1928)",
+   "language": "English",
+   "authenticity": "Travers kept laboratory notebooks during the 1898 work and drew on them for The Discovery of the Rare Gases (London, 1928) and his Life of Sir William Ramsay (1956). The 1928 book is a retrospective account; dates below follow the reconstruction in the Dictionary of Scientific Biography.",
+   "bio": "Travers did much of the bench work of 1898: fractionating liquid air and argon and watching the discharge tubes. His 1928 book is the closest thing to a diary of that summer, written by the person who saw the crimson glow of neon first-hand. He later built his own hydrogen liquefier and in 1906 went to found the Indian Institute of Science in Bangalore.",
+   "sources": [
+    {
+     "title": "Dictionary of Scientific Biography: Travers",
+     "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/travers-morris-william"
+    }
+   ]
+  },
+  {
+   "id": "cavendish",
+   "short": "Cavendish",
+   "name": "Henry Cavendish",
+   "life": "1731–1810",
+   "role": "Wealthy, reclusive natural philosopher, Fellow of the Royal Society, aged 53 in 1785",
+   "side": "Britain; Royal Society",
+   "where": "his house and laboratory, London",
+   "lat": 51.535,
+   "lon": -0.143,
+   "vantage": 1,
+   "vantage_label": "the experiment a century early",
+   "form": "published paper",
+   "language": "English",
+   "authenticity": "'Experiments on Air', Philosophical Transactions 75 (1785), 372; reprinted in his Scientific Papers (1921). Text transcribed on Giunta's Classic Chemistry site.",
+   "bio": "Cavendish sparked 'phlogisticated air' (nitrogen) with extra oxygen over alkali to see whether all of it could be turned into nitrous acid. A small bubble always refused to go. He reported it honestly and moved on; Rayleigh and Ramsay later read his paper as the first sighting of argon.",
+   "sources": [
+    {
+     "title": "'Experiments on Air', Phil. Trans. 75 (1785)",
+     "url": "https://web.lemoyne.edu/GIUNTA/CAVENDISH.HTML"
+    }
+   ]
+  },
+  {
+   "id": "nature",
+   "short": "Nature eds",
+   "name": "The editors of Nature",
+   "life": "founded 1869",
+   "role": "Weekly scientific journal, London; founded and edited by Norman Lockyer",
+   "side": "Britain; the scientific press",
+   "where": "Macmillan & Co., London",
+   "lat": 51.513,
+   "lon": -0.12,
+   "vantage": 2,
+   "vantage_label": "the press that spread the puzzle",
+   "form": "newspaper (weekly journal)",
+   "language": "English",
+   "authenticity": "Issues are digitised by Nature (Springer Nature); unsigned editorials and notes are institutional voices, not one named diarist.",
+   "bio": "Nature printed Rayleigh's appeal in 1892, reported the great argon meeting of 1895, hedged its first helium notice with a question mark, and printed the krypton paper in 1898. Its weekly columns are the public timeline against which the private letters can be read.",
+   "sources": [
+    {
+     "title": "Nature 51 (7 Feb 1895): 'Argon'",
+     "url": "https://www.nature.com/articles/051337a0.pdf"
+    },
+    {
+     "title": "Nature 52 (2 May 1895): 'Terrestrial Helium (?)'",
+     "url": "https://nature.com/articles/052007a0.pdf"
+    }
+   ]
+  },
+  {
+   "id": "crookes",
+   "short": "Crookes",
+   "name": "William Crookes",
+   "life": "1832–1919",
+   "role": "Chemist and physicist, editor of Chemical News, master of spectroscopy and vacuum tubes; aged 62 in 1895",
+   "side": "Britain; independent laboratory, Kensington Park Gardens",
+   "where": "his private laboratory, Notting Hill, London",
+   "lat": 51.512,
+   "lon": -0.204,
+   "vantage": 1,
+   "vantage_label": "the spectroscopist who checked the lines",
+   "form": "papers",
+   "language": "English",
+   "authenticity": "His argon spectra paper was read at the Royal Society on 31 January 1895 and published in Phil. Trans. 186A; his helium wavelength measurement appeared in Chemical News 1895. The wording of his March 1895 telegram to Ramsay is known only from later accounts.",
+   "bio": "Crookes mapped argon's two spectra, red and blue, and in March 1895 measured the yellow line of Ramsay's cleveite gas, finding it matched the solar D3 line. He was both a referee and, as editor of Chemical News, a publisher of the debate.",
+   "sources": [
+    {
+     "title": "Rayleigh, 'Argon' (1895), on Crookes's spectra",
+     "url": "https://web.lemoyne.edu/GIUNTA/EA/RAYLEIGHann.HTML"
+    },
+    {
+     "title": "J. L. & V. R. Marshall, 'Rediscovery of the elements: Helium'",
+     "url": "https://sites.itservices.cas.unt.edu/~jimm/rediscovery%206-10-2021/Hexagon%20Articles/helium.pdf"
+    }
+   ]
+  },
+  {
+   "id": "lockyer",
+   "short": "Lockyer",
+   "name": "Joseph Norman Lockyer",
+   "life": "1836–1920",
+   "role": "Astronomer and solar spectroscopist; founder-editor of Nature; aged 32 in 1868 and 58 in 1895",
+   "side": "Britain; solar physics",
+   "where": "24 Fairfax Road, Hampstead (1868); South Kensington (1895)",
+   "lat": 51.545,
+   "lon": -0.181,
+   "waypoints": [
+    {
+     "lat": 51.545,
+     "lon": -0.181,
+     "label": "Hampstead observatory, Oct 1868"
+    },
+    {
+     "lat": 51.497,
+     "lon": -0.176,
+     "label": "South Kensington, 1895"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "the man who had named a sun-element",
+   "form": "papers and letters to learned societies",
+   "language": "English",
+   "authenticity": "His 1868 communication to the Royal Society and Académie des sciences and his 1895 Royal Society notes on gas from uraninite are printed in Proc. Roy. Soc. and summarised in Nature.",
+   "bio": "In 1868 Lockyer saw the unexplained yellow solar line without an eclipse and, with Edward Frankland, attributed it to an element known only in the sun, helium. In 1895 he examined gas from uranium minerals himself, seeing his solar element arrive on earth through someone else's laboratory.",
+   "sources": [
+    {
+     "title": "Marshall, 'Helium' (Hexagon)",
+     "url": "https://sites.itservices.cas.unt.edu/~jimm/rediscovery%206-10-2021/Hexagon%20Articles/helium.pdf"
+    },
+    {
+     "title": "Nature 52 (16 May 1895): Ramsay and Lockyer",
+     "url": "https://nature.com/articles/052055d0.pdf"
+    }
+   ]
+  },
+  {
+   "id": "janssen",
+   "short": "Janssen",
+   "name": "Pierre Jules César Janssen",
+   "life": "1824–1907",
+   "role": "French astronomer, aged 44 in 1868, on an eclipse expedition",
+   "side": "France; Académie des sciences",
+   "where": "Guntur, India",
+   "lat": 16.3,
+   "lon": 80.44,
+   "vantage": 1,
+   "vantage_label": "the eclipse observer",
+   "form": "dated letters",
+   "language": "French",
+   "authenticity": "His letters of 19 September 1868 were read to the Académie on 26 October 1868 and printed in the Comptes rendus.",
+   "bio": "At the total eclipse of 18 August 1868 Janssen saw that the prominences were glowing gas and noted a yellow line close to sodium's D lines; next day he observed the prominences without an eclipse. His letters reached Paris the same week as Lockyer's, the origin of the solar 'helium' this chapter's chemists later bottled.",
+   "sources": [
+    {
+     "title": "Marshall, 'Helium' (Hexagon)",
+     "url": "https://sites.itservices.cas.unt.edu/~jimm/rediscovery%206-10-2021/Hexagon%20Articles/helium.pdf"
+    }
+   ]
+  },
+  {
+   "id": "dewar",
+   "short": "Dewar",
+   "name": "James Dewar",
+   "life": "1842–1923",
+   "role": "Fullerian Professor of Chemistry at the Royal Institution, low-temperature pioneer; aged 52 in 1894",
+   "side": "Britain; Royal Institution",
+   "where": "Royal Institution, Albemarle Street, London",
+   "lat": 51.5098,
+   "lon": -0.1424,
+   "vantage": 2,
+   "vantage_label": "the rival in the same building",
+   "form": "papers and public statements",
+   "language": "English",
+   "authenticity": "Dewar's objections are recorded in contemporary journals and summarised by later historians; no Dewar diary is used here. His positions are given as positions.",
+   "bio": "Dewar shared the Royal Institution with Rayleigh but was Ramsay's sharpest critic, suggesting argon might be a dense form of nitrogen rather than a new element. In 1898 he liquefied hydrogen first, while Ramsay and Travers had to buy liquid air from William Hampson.",
+   "sources": [
+    {
+     "title": "Marshall, 'Noble gases' (Hexagon)",
+     "url": "https://sites.chemistry.unt.edu/~jimm/rediscovery%207-09-2018/Hexagon%20Articles/noble gases.pdf"
+    },
+    {
+     "title": "'A heated spat about cooling air', Chemistry World",
+     "url": "https://www.chemistryworld.com/opinion/hampsons-air-liquefier/4015106.article"
+    }
+   ]
+  },
+  {
+   "id": "mendeleev",
+   "short": "Mendeleev",
+   "name": "Dmitri Ivanovich Mendeleev",
+   "life": "1834–1907",
+   "role": "Author of the periodic system, aged 60 in 1895; recently director of the Chief Bureau of Weights and Measures",
+   "side": "Russia; Russian Chemical Society",
+   "where": "St Petersburg",
+   "lat": 59.94,
+   "lon": 30.31,
+   "vantage": 4,
+   "vantage_label": "abroad, defending the table",
+   "form": "society address (reported)",
+   "language": "Russian",
+   "authenticity": "His remarks to the Russian Chemical Society (March 1895) are known through the society's journal and a Nature summary (vol. 51, p. 543); his N3 view is also reported by Rayleigh in 1895.",
+   "bio": "An element of atomic weight about 40 with no chemistry did not fit Mendeleev's table, and he considered that argon might be triatomic nitrogen, N3, as ozone is O3. His is the theorist's eye on the evidence, from St Petersburg; he later accepted a zero group for the inert gases.",
+   "sources": [
+    {
+     "title": "'Professor Mendeléeff on Argon', Nature 51, 543 (1895)",
+     "url": "https://www.nature.com/articles/051543a0"
+    }
+   ]
+  },
+  {
+   "id": "cleve",
+   "short": "Cleve",
+   "name": "Per Teodor Cleve",
+   "life": "1840–1905",
+   "role": "Professor of chemistry at Uppsala, aged 55 in 1895; the mineral cleveite was named after him",
+   "side": "Sweden; Uppsala University",
+   "where": "Uppsala chemistry laboratory",
+   "lat": 59.858,
+   "lon": 17.639,
+   "vantage": 1,
+   "vantage_label": "the rival laboratory in Uppsala",
+   "form": "papers",
+   "language": "French and Swedish",
+   "authenticity": "Notes in Comptes rendus 120 (1895), 834 and 1212, and Chemical News 71 (1895), 212.",
+   "bio": "Cleve and his student Langlet were already planning to re-examine the gas from cleveite when Ramsay's news arrived. Cleve reported helium from the mineral within weeks, with spectral readings by Tobias Thalén; his notes are the independent Swedish confirmation and the basis of a minor priority question.",
+   "sources": [
+    {
+     "title": "Marshall, 'Helium' (Hexagon), Uppsala section",
+     "url": "https://sites.itservices.cas.unt.edu/~jimm/rediscovery%206-10-2021/Hexagon%20Articles/helium.pdf"
+    }
+   ]
+  },
+  {
+   "id": "langlet",
+   "short": "Langlet",
+   "name": "Nils Abraham Langlet",
+   "life": "1868–1936",
+   "role": "Doctoral student under Cleve at Uppsala, aged 26 in 1895",
+   "side": "Sweden; Uppsala University",
+   "where": "Uppsala chemistry laboratory",
+   "lat": 59.858,
+   "lon": 17.639,
+   "vantage": 1,
+   "vantage_label": "the student who weighed helium",
+   "form": "papers",
+   "language": "Swedish",
+   "authenticity": "'Om förekomsten af helium i cleveit' and 'Om heliums atomvigt', Öfversigt af Kongl. Vetenskaps-Akademiens Förhandlingar 1895, pp. 211–213 and 371–377.",
+   "bio": "Langlet had just begun on the cleveite gas when word came that Ramsay had found helium in it; he carried on, and is credited with the first correct measurement of helium's density and atomic weight, about 4.",
+   "sources": [
+    {
+     "title": "Abraham Langlet (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Abraham_Langlet"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1785-06-02",
+   "date_display": "2 June 1785 (read)",
+   "precision": "day",
+   "eye": "cavendish",
+   "place": "London, Royal Society",
+   "headline": "Sparking nitrogen until a stubborn bubble remains",
+   "digest": "Cavendish passed electric sparks through 'phlogisticated air' mixed with dephlogisticated air (oxygen) over soap-lees, absorbing the nitrous acid as it formed, for days on end. When no more would shrink, a small bubble was left. He concluded that if any part of the atmosphere's nitrogen differed from the rest, it could not exceed about one part in 120.",
+   "quote": "a small bubble of air remained unabsorbed",
+   "confidence": "approx",
+   "source_note": "Phil. Trans. 75 (1785), 372, transcribed by Giunta. Reading date from the Phil. Trans. heading as commonly cited; not seen on the transcription."
+  },
+  {
+   "date_iso": "1868-08-18",
+   "date_display": "Tuesday 18 August 1868",
+   "precision": "day",
+   "eye": "janssen",
+   "place": "Guntur, India",
+   "headline": "Eclipse prominences show a puzzling yellow line",
+   "digest": "During the total eclipse Janssen turned his spectroscope on the red prominences and saw bright lines: they were glowing gas. A yellow line lay close to, but not on, the sodium D lines. The lines were so bright that he resolved to watch the prominences again in daylight without an eclipse.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Marshall, 'Helium' (Hexagon), citing Comptes rendus 1868."
+  },
+  {
+   "date_iso": "1868-09-19",
+   "date_display": "19 September 1868",
+   "precision": "day",
+   "eye": "janssen",
+   "place": "Guntur, India",
+   "headline": "Letters to Paris on seeing prominences in daylight",
+   "digest": "Janssen wrote up his method of observing prominences outside an eclipse and posted the letters to the Académie. They took five weeks to reach Paris, arriving on 24 October.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Marshall, 'Helium' (Hexagon)."
+  },
+  {
+   "date_iso": "1868-10-20",
+   "date_display": "Tuesday 20 October 1868",
+   "precision": "day",
+   "eye": "lockyer",
+   "place": "Hampstead, 24 Fairfax Road",
+   "headline": "Seeing the prominence spectrum from a London garden",
+   "digest": "Working alone with a new spectroscope, Lockyer saw the prominence lines without an eclipse, an idea he had proposed two years earlier. He noted the yellow line near D and sent his results to the Royal Society and to Paris. With Frankland he would attribute it to an element found only in the sun, helium.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Marshall, 'Helium' (Hexagon), citing Proc. Roy. Soc."
+  },
+  {
+   "date_iso": "1868-10-26",
+   "date_display": "Monday 26 October 1868",
+   "precision": "day",
+   "eye": "janssen",
+   "place": "Paris, Académie des sciences (letters read)",
+   "headline": "Two discoveries read in Paris on one day",
+   "digest": "Janssen's letters from India and Lockyer's from London were read to the Académie at the same session. The coincidence was later commemorated with a medal bearing both their portraits.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Marshall, 'Helium' (Hexagon)."
+  },
+  {
+   "date_iso": "1892-09-29",
+   "date_display": "Thursday 29 September 1892",
+   "precision": "day",
+   "eye": "rayleigh",
+   "place": "Terling Place, Essex (letter printed in Nature, London)",
+   "headline": "A public plea: why is air's nitrogen heavier?",
+   "digest": "Rayleigh told Nature's readers that nitrogen made by passing air over hot copper weighed about one part in a thousand more than nitrogen made by a method Ramsay had suggested, using ammonia. He had ruled out leftover oxygen and hydrogen. He asked chemists for suggestions and wondered aloud whether nitrogen itself might sometimes be in a different, dissociated state.",
+   "quote": "I am much puzzled by some recent results as to the density",
+   "confidence": "verified",
+   "source_note": "Nature 46, 512–513, issue 1196 (PDF on nature.com); Giunta transcription."
+  },
+  {
+   "date_iso": "1892-09-29",
+   "date_display": "Thursday 29 September 1892",
+   "precision": "day",
+   "eye": "nature",
+   "place": "London",
+   "headline": "Printing a physicist's open question",
+   "digest": "Nature carried Rayleigh's short letter under the title 'Density of Nitrogen' in its correspondence pages. A later APS account notes that no reader sent in an explanation that settled it.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nature 46, 512, issue 1196; APS News, Aug 2013."
+  },
+  {
+   "date_iso": "1894-04-19",
+   "date_display": "Thursday 19 April 1894",
+   "precision": "day",
+   "eye": "rayleigh",
+   "place": "London, Royal Society",
+   "headline": "Royal Society paper on 'an anomaly' in nitrogen",
+   "digest": "Rayleigh reported to the Royal Society that atmospheric nitrogen, by several methods, was about half a per cent heavier than nitrogen from nitric oxide, nitrous oxide, urea and ammonium compounds. He still inclined to suspect the chemical nitrogen, as if something light had got in.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "UCL Chemistry history page (hist14) gives the lecture date and the figures 1.2572 vs 1.2505 g/L; Proc. Roy. Soc. 55 (1894)."
+  },
+  {
+   "date_iso": "1894-04-19",
+   "date_display": "Thursday 19 April 1894",
+   "precision": "day",
+   "eye": "ramsay",
+   "place": "London, Royal Society",
+   "headline": "In the audience, reading the anomaly the other way",
+   "digest": "Ramsay heard Rayleigh's paper and drew the opposite conclusion: the air's nitrogen was carrying something heavy. Soon afterwards he began passing atmospheric nitrogen again and again over red-hot magnesium, which absorbs nitrogen, to see what would be left.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "UCL Chemistry history page (hist14); Chemistry World feature. Exact start of Ramsay's experiments not dated."
+  },
+  {
+   "date_iso": "1894-07",
+   "date_display": "July 1894",
+   "precision": "month",
+   "eye": "ramsay",
+   "place": "University College London",
+   "headline": "A sealed note to Paris: N3 or 'eikazote'",
+   "digest": "As his residue grew denser, Ramsay wrote a one-page note in French and lodged it, sealed, with the French Academy of Sciences to protect his priority. It described a heavy, inert gas and weighed two possibilities: a triatomic nitrogen like ozone, or a new element he proposed to call eikazote, symbol Ez. The packet stayed shut for 110 years.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Chemistry World feature (sealed packet no. 5038, opened 10 June 2004); Comptes Rendus Chimie 2004 account. Day of deposit not verified."
+  },
+  {
+   "date_iso": "1894-08",
+   "date_display": "c. 6 August 1894",
+   "precision": "range",
+   "eye": "rayleigh",
+   "place": "Terling Place, Essex",
+   "headline": "Replying that his own method has the same gas",
+   "digest": "Rayleigh wrote back that, by repeating and scaling up Cavendish's sparking experiment, he believed he too had isolated the unknown residue. The two lines of attack, chemical (magnesium) and electrical (oxygen and spark), were now converging.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Marshall, 'Noble gases' (Hexagon), dates the reply two days after Ramsay's letter; wording not seen."
+  },
+  {
+   "date_iso": "1894-08-04",
+   "date_display": "Saturday 4 August 1894",
+   "precision": "day",
+   "eye": "ramsay",
+   "place": "University College London",
+   "headline": "Writing to Rayleigh: the gas is isolated",
+   "digest": "Ramsay told Rayleigh that his residue no longer reacted with magnesium and that its density, about 19 to 20 times hydrogen, was far above nitrogen's 14. The phrase that opens the letter became the standard short version of the discovery.",
+   "quote": "I have isolated the gas",
+   "confidence": "verified",
+   "source_note": "Letter quoted in Chemistry World feature and UCL hist14 (figure given there as 19.4; other accounts differ slightly)."
+  },
+  {
+   "date_iso": "1894-08-06",
+   "date_display": "Monday 6 August 1894",
+   "precision": "day",
+   "eye": "ramsay",
+   "place": "University College London",
+   "headline": "First sparkings of the new gas",
+   "digest": "Ramsay ran an electric discharge through a small glass tube of the residue to see its spectrum. The tube was kept and labelled as the one in which the first sparkings of argon were done on this day; it is now in the Science Museum.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Science Museum Group object 1931-1143 label."
+  },
+  {
+   "date_iso": "1894-08-13",
+   "date_display": "Monday 13 August 1894",
+   "precision": "day",
+   "eye": "rayleigh",
+   "place": "Oxford, British Association (Section A/B)",
+   "headline": "Preliminary announcement at Oxford",
+   "digest": "Rayleigh and Ramsay gave a short joint account at the British Association of a new gaseous constituent of air. The official report printed only a few lines. The chairman of the session, H. G. Madan, is credited with proposing the name argon, from the Greek for idle or lazy.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "APS News 'This Month in Physics History', Aug 2013; Marshall, 'Noble gases'."
+  },
+  {
+   "date_iso": "1894-08-13",
+   "date_display": "Monday 13 August 1894",
+   "precision": "day",
+   "eye": "ramsay",
+   "place": "Oxford, British Association",
+   "headline": "Announcing before the work is finished",
+   "digest": "Ramsay shared the platform. Neither discoverer yet called the gas an element; they had a density and a spectrum but no measure of how many atoms made a molecule. UCL's later account says Ramsay chose the name argon with advice from a classical colleague.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "APS News; UCL hist14 (naming account differs from the Madan account; both given as positions)."
+  },
+  {
+   "date_iso": "1895",
+   "date_display": "1895",
+   "precision": "year",
+   "eye": "dewar",
+   "place": "London, Royal Institution",
+   "headline": "Suspecting a heavy nitrogen",
+   "digest": "Dewar argued that the new gas might be an allotrope of nitrogen, possibly N3, rather than an element, and opposed Ramsay's interpretation vigorously. Anonymous attacks in Chemical News, probably by his friend Henry Armstrong, kept the quarrel going.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Marshall, 'Noble gases' (Dewar N3, 1895); Chemistry World feature. Exact date and venue not verified."
+  },
+  {
+   "date_iso": "1895-01-31",
+   "date_display": "Thursday 31 January 1895",
+   "precision": "day",
+   "eye": "rayleigh",
+   "place": "London, theatre of the University of London, Burlington Gardens",
+   "headline": "Argon laid before the Royal Society",
+   "digest": "Rayleigh and Ramsay's joint paper, 'Argon, a new constituent of the atmosphere', was read to a meeting so crowded the Society moved to a larger hall. They gave a density near 19.9, a ratio of specific heats near 1.66 that marked the gas as monatomic, and an atomic weight near 40, which had no obvious place in the periodic table.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nature 51 (7 Feb 1895), 'Argon' ('Thursday last'); Phil. Trans. 186A (1895)."
+  },
+  {
+   "date_iso": "1895-01-31",
+   "date_display": "Thursday 31 January 1895",
+   "precision": "day",
+   "eye": "ramsay",
+   "place": "London, Burlington Gardens",
+   "headline": "Defending an element that will not react",
+   "digest": "Ramsay described the magnesium method and the gas's refusal to combine with anything tried. The paper conceded that a monatomic element of weight 40 strained Mendeleev's table, but judged that the balance of evidence favoured a single element.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nature 51 (7 Feb 1895) summary of the paper."
+  },
+  {
+   "date_iso": "1895-01-31",
+   "date_display": "Thursday 31 January 1895",
+   "precision": "day",
+   "eye": "crookes",
+   "place": "London, Burlington Gardens",
+   "headline": "Two spectra, red and blue",
+   "digest": "Crookes's paper on the spectra was read at the same meeting. Depending on the discharge, argon gave a red or a blue glow, each with many lines; Arthur Schuster confirmed that samples made by the two methods matched. Karol Olszewski's paper from Cracow gave its boiling and freezing points.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nature 51 (7 Feb 1895); Rayleigh, 'Argon' (1895)."
+  },
+  {
+   "date_iso": "1895-02",
+   "date_display": "February 1895",
+   "precision": "month",
+   "eye": "ramsay",
+   "place": "University College London",
+   "headline": "A mineralogist's tip about cleveite",
+   "digest": "Henry Miers of the British Museum pointed Ramsay to W. F. Hillebrand's report that uranium minerals such as cleveite gave off a gas on heating with acid, which Hillebrand had taken for nitrogen. Ramsay, looking for chemical sources of argon, ordered a sample.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Chemistry World feature (Feb 1895); Nature 11 July 1918 review of Tilden."
+  },
+  {
+   "date_iso": "1895-02-07",
+   "date_display": "Thursday 7 February 1895",
+   "precision": "day",
+   "eye": "nature",
+   "place": "London",
+   "headline": "'The triumph of the last place of decimals'",
+   "digest": "Nature's leading article on the meeting counted at least eight hundred in the audience and declared argon proved beyond doubt to be part of the air. It credited the find to the precision of Rayleigh's weighing, and noted Olszewski's figures and the strain on the periodic system.",
+   "quote": "the triumph of the last place of decimals",
+   "confidence": "verified",
+   "source_note": "Nature 51, no. 1319, p. 337 (PDF on nature.com)."
+  },
+  {
+   "date_iso": "1895-03",
+   "date_display": "mid-March 1895",
+   "precision": "month",
+   "eye": "ramsay",
+   "place": "University College London",
+   "headline": "A yellow line where argon should be",
+   "digest": "Boiling cleveite with acid, Ramsay collected a gas whose spectrum showed a brilliant yellow line that was not sodium. Unsure of his spectroscope, he sent tubes to Crookes and, soon after, to Lockyer.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Nature 1918 review of Tilden; webelements and Atomistry helium histories. Exact days not verified."
+  },
+  {
+   "date_iso": "1895-03",
+   "date_display": "March 1895",
+   "precision": "month",
+   "eye": "crookes",
+   "place": "London, Notting Hill",
+   "headline": "Measuring the line: it is the sun's D3",
+   "digest": "Crookes measured the wavelength of the yellow line in Ramsay's gas and found it agreed with the solar D3 line, about 587.5 nanometres. Later accounts say he let Ramsay know by telegram; the wording is given differently in different retellings.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Marshall, 'Helium' (Hexagon) (587.45 nm, Chem. News 1895); telegram wording not verified."
+  },
+  {
+   "date_iso": "1895-03-26",
+   "date_display": "c. 26 March 1895 (Russian society 14 March, Old Style)",
+   "precision": "day",
+   "eye": "mendeleev",
+   "place": "St Petersburg, Russian Chemical Society",
+   "headline": "Argon and the periodic system: perhaps N3",
+   "digest": "Mendeleev spoke on argon's relation to his table. An element of weight 40 with no valence fitted nowhere obvious; he considered that the gas might be a condensed, triatomic nitrogen, N3, comparable to ozone. Rayleigh later noted that Mendeleev, unlike most chemists consulted, thought N3 might be stable.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Nature 51, 543 (1895) reports a 14 March meeting; conversion to New Style assumes the Russian date is Old Style. N3 position per Rayleigh, 'Argon' (1895)."
+  },
+  {
+   "date_iso": "1895-03-29",
+   "date_display": "c. 29 March 1895",
+   "precision": "day",
+   "eye": "ramsay",
+   "place": "London, Chemical Society / Chemical News",
+   "headline": "Announcing helium on earth",
+   "digest": "Ramsay announced that the gas from cleveite contained helium, until then known only in the sun, and that it was not argon. The note appeared in Chemical News. His remaining doubt was whether some argon was mixed in.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Marshall, 'Noble gases' (date 29 March 1895); Chem. News 71 (1895), 151."
+  },
+  {
+   "date_iso": "1895-04",
+   "date_display": "April 1895",
+   "precision": "month",
+   "eye": "rayleigh",
+   "place": "London, Royal Institution",
+   "headline": "Answering the accusers in a Friday lecture",
+   "digest": "In a Royal Institution lecture titled 'Argon' Rayleigh went through the weighings, the Cavendish repetition and the specific-heat result. He rejected nitrous oxide and N3 as explanations while declining to be dogmatic, and remarked that argon's oddities were being brought against the discoverers like a charge.",
+   "quote": "brought as a kind of accusation",
+   "confidence": "approx",
+   "source_note": "Royal Institution Proceedings 14, 524 (1895), Giunta annotated transcript; exact lecture date not verified."
+  },
+  {
+   "date_iso": "1895-04",
+   "date_display": "April 1895",
+   "precision": "month",
+   "eye": "cleve",
+   "place": "Uppsala",
+   "headline": "Helium in cleveite, confirmed in Sweden",
+   "digest": "Cleve reported to the Paris Academy that the gas from cleveite showed helium's line, with spectral measurements by Tobias Thalén. He had earlier suggested to Langlet that the cleveite gas might be argon.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Comptes rendus 120 (1895), 834; Marshall, 'Helium'; Langlet article."
+  },
+  {
+   "date_iso": "1895-04",
+   "date_display": "spring 1895",
+   "precision": "range",
+   "eye": "langlet",
+   "place": "Uppsala",
+   "headline": "Weighing the new gas",
+   "digest": "Langlet, who had just begun on the cleveite gas when Ramsay's news arrived, carried on and measured its density. His figure gave helium an atomic weight of about 4, the first correct value; Ramsay's early figures were higher because of argon contamination.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Öfversigt KVA Förhandlingar 1895, pp. 211–213 and 371–377; Langlet article. Ramsay's density 3.89 in Nature 16 May 1895."
+  },
+  {
+   "date_iso": "1895-04-25",
+   "date_display": "Thursday 25 April 1895",
+   "precision": "day",
+   "eye": "lockyer",
+   "place": "London, Royal Society",
+   "headline": "His sun-element, in a London tube",
+   "digest": "Lockyer read notes on the gas from uraninite at the Royal Society. He described the yellow glow from his capillary tube with evident delight and argued the mineral gas was more complex than a single element.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nature 52, 7 (2 May 1895) reports the 25 April meeting; Marshall, 'Helium', on Proc. Roy. Soc. text."
+  },
+  {
+   "date_iso": "1895-05-02",
+   "date_display": "Thursday 2 May 1895",
+   "precision": "day",
+   "eye": "nature",
+   "place": "London",
+   "headline": "A headline with a question mark",
+   "digest": "Nature summarised the two Royal Society papers on the gas from uraninite under the heading 'Terrestrial Helium (?)', a typographical sign of how unsettled the identification still was.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nature 52, 7–8 (2 May 1895)."
+  },
+  {
+   "date_iso": "1895-05-16",
+   "date_display": "Thursday 16 May 1895",
+   "precision": "day",
+   "eye": "nature",
+   "place": "London",
+   "headline": "Ramsay and Lockyer side by side",
+   "digest": "Nature printed an abstract of Ramsay's 'Helium, a gaseous constituent of certain minerals', giving a density of 3.89 and a monatomic gas, beside Lockyer's further notes counting helium lines absent from argon.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nature 52, 55 (16 May 1895)."
+  },
+  {
+   "date_iso": "1897-08-19",
+   "date_display": "August 1897",
+   "precision": "range",
+   "eye": "ramsay",
+   "place": "Toronto, British Association",
+   "headline": "'An Undiscovered Gas'",
+   "digest": "As president of the chemistry section in Toronto, Ramsay argued that the gap between helium and argon in the new column implied an element of atomic weight about 20, and set out to look for it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Marshall, 'Noble gases' (date given as 19 Aug 1897, with an internal discrepancy); Ramsay Nobel lecture."
+  },
+  {
+   "date_iso": "1898-05-10",
+   "date_display": "Tuesday 10 May 1898",
+   "precision": "day",
+   "eye": "dewar",
+   "place": "London, Royal Institution",
+   "headline": "Liquid hydrogen first",
+   "digest": "Dewar produced liquid hydrogen at the Royal Institution, the low-temperature prize Ramsay's team would have needed to separate the lightest gases quickly. He did not offer the means to UCL, which bought liquid air from William Hampson instead.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Marshall, 'Noble gases'; Chemistry World 'A heated spat about cooling air'."
+  },
+  {
+   "date_iso": "1898-05-30",
+   "date_display": "night of 30–31 May 1898",
+   "precision": "range",
+   "eye": "travers",
+   "place": "University College London",
+   "headline": "Krypton: the last drops of liquid air",
+   "digest": "Travers and Ramsay let a supply of Hampson's liquid air boil almost away and sparked the small heavy residue. New lines, a bright yellow and a green, appeared that matched nothing known. They named the gas krypton, the hidden one.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "DSB Travers (new lines on 31 May); brief and Travers 1928 notebook account give 30 May; Ramsay Nobel lecture for name."
+  },
+  {
+   "date_iso": "1898-06-03",
+   "date_display": "Friday 3 June 1898",
+   "precision": "day",
+   "eye": "ramsay",
+   "place": "University College London",
+   "headline": "Krypton sent to the Royal Society",
+   "digest": "Ramsay and Travers sent their communication 'On a new constituent of atmospheric air' to the Royal Society. It opened with negative results from experiments with Emily Aston on magnesium nitride and then described the residue of liquid air.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Ramsay Nobel lecture (3 June 1898); DSB Travers."
+  },
+  {
+   "date_iso": "1898-06-09",
+   "date_display": "Thursday 9 June 1898",
+   "precision": "day",
+   "eye": "nature",
+   "place": "London",
+   "headline": "Printing the krypton paper",
+   "digest": "Nature carried the paper 'On a New Constituent of Atmospheric Air', beginning with the account of the magnesium-nitride trials that had come out negative.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nature 58, 127–128 (9 June 1898)."
+  },
+  {
+   "date_iso": "1898-06-12",
+   "date_display": "c. 12–13 June 1898",
+   "precision": "range",
+   "eye": "travers",
+   "place": "University College London",
+   "headline": "A blaze of crimson in the tube",
+   "digest": "Travers prepared the most volatile fraction of solidified argon and put it in a discharge tube. It glowed a brilliant crimson that neither man had seen before. In 1928 he wrote that the sight was one never to forget.",
+   "quote": "The blaze of crimson light from the tube told its own story",
+   "confidence": "approx",
+   "source_note": "Travers, The Discovery of the Rare Gases (1928), as quoted on nyneon blog; DSB gives 11–12 June; Ramsay's Nobel lecture gives 13 June."
+  },
+  {
+   "date_iso": "1898-06-12",
+   "date_display": "June 1898",
+   "precision": "month",
+   "eye": "ramsay",
+   "place": "London, Ramsay's home and laboratory",
+   "headline": "Naming the new gas 'new'",
+   "digest": "Ramsay called the gas neon, Greek for new. A later family story, told secondhand, credits his son Willie, then about thirteen, with suggesting a name meaning 'new', which Ramsay put into Greek.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Secondhand: later accounts (e.g. nyneon blog); Ramsay Nobel lecture gives only the meaning 'new'."
+  },
+  {
+   "date_iso": "1898-07-12",
+   "date_display": "c. 12 July 1898",
+   "precision": "day",
+   "eye": "travers",
+   "place": "University College London",
+   "headline": "Xenon: the stranger behind krypton",
+   "digest": "Refractionating crude krypton, Travers and Ramsay found a still heavier gas with its own blue spectral lines. They called it xenon, the stranger. It made up only about one part in ten million of air.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "DSB Travers (about 12 July); Ramsay Nobel lecture (name)."
+  },
+  {
+   "date_iso": "1898-09-08",
+   "date_display": "Thursday 8 September 1898",
+   "precision": "day",
+   "eye": "ramsay",
+   "place": "Bristol, British Association",
+   "headline": "Xenon announced",
+   "digest": "Ramsay announced xenon at the British Association in Bristol, completing a summer that had added three elements to the column he had proposed after argon.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "DSB Travers (8 September 1898); Ramsay Nobel lecture (September 1898)."
+  },
+  {
+   "date_iso": "1900-07-07",
+   "date_display": "Saturday 7 July 1900",
+   "precision": "day",
+   "eye": "travers",
+   "place": "University College London",
+   "headline": "Separating neon from helium with liquid hydrogen",
+   "digest": "With a hydrogen liquefier of his own building working at last, Travers condensed about 15 millilitres of neon. Three days later the team gave its atomic weight as 19.98, close to the 20 Ramsay had predicted in Toronto.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Marshall, 'Noble gases' (7 and 10 July 1900)."
+  },
+  {
+   "date_iso": "1902",
+   "date_display": "1902",
+   "precision": "year",
+   "eye": "mendeleev",
+   "place": "St Petersburg",
+   "headline": "A zero group for the inert gases",
+   "digest": "In his essay on a chemical conception of the ether Mendeleev gave the inert gases a group of their own, group zero, ahead of the alkali metals, and speculated about still lighter unknown members.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Mendeleev, 'An attempt towards a chemical conception of the ether' (Russian 1902, English 1904); not independently re-checked in this research."
+  },
+  {
+   "date_iso": "1904-12-12",
+   "date_display": "Monday 12 December 1904",
+   "precision": "day",
+   "eye": "rayleigh",
+   "place": "Stockholm",
+   "headline": "Nobel lecture on the density of gases",
+   "digest": "Rayleigh received the physics prize and lectured on 'The density of gases in the air and the discovery of argon', returning to the weighings that had started it all.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Nobel Foundation, lecture page (title and date)."
+  },
+  {
+   "date_iso": "1904-12-12",
+   "date_display": "Monday 12 December 1904",
+   "precision": "day",
+   "eye": "ramsay",
+   "place": "Stockholm",
+   "headline": "'Look into this': Ramsay's Nobel lecture",
+   "digest": "Receiving the chemistry prize the same day, Ramsay recalled that years earlier he had pencilled 'look into this' beside Cavendish's account of the unabsorbed bubble. He listed the family he had found: argon, helium, krypton, neon, xenon, and the radioactive emanation, and credited Travers by name.",
+   "quote": "look into this",
+   "confidence": "verified",
+   "source_note": "Nobel lecture 'The Rare Gases of the Atmosphere', 12 Dec 1904 (Ramsay gives Cavendish's residue as 1/125)."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1785-06-02",
+   "date_display": "1785",
+   "eye": "cavendish",
+   "claim": "Residue left after sparking nitrogen with oxygen: not more than 1/120 of the bulk",
+   "form": "paper",
+   "evidence": "Phil. Trans. 75 (1785), 372",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1868-10-26",
+   "date_display": "26 Oct 1868",
+   "eye": "janssen",
+   "claim": "Yellow solar line near sodium D observed in prominences (later D3, ~587.5 nm); Janssen and Lockyer read the same day",
+   "form": "letter",
+   "evidence": "Comptes rendus 1868; Marshall, 'Helium'",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1892-09-29",
+   "date_display": "29 Sept 1892",
+   "eye": "rayleigh",
+   "claim": "Nitrogen from air ~1/1000 heavier than nitrogen made via ammonia",
+   "form": "newspaper",
+   "evidence": "Nature 46, 512",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1894-04-19",
+   "date_display": "19 Apr 1894",
+   "eye": "rayleigh",
+   "claim": "Atmospheric vs chemical nitrogen, ~0.5% difference (2.3102 vs 2.2990 g per globe; 1.2572 vs 1.2505 g/L)",
+   "form": "paper",
+   "evidence": "Proc. Roy. Soc. 55 (1894); Rayleigh 'Argon' (1895); UCL hist14",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1894-07",
+   "date_display": "July 1894",
+   "eye": "ramsay",
+   "claim": "Sealed note: heavy inert gas, either N3 or new element 'eikazote' (Ez) — priority deposit",
+   "form": "other",
+   "evidence": "French Academy sealed packet no. 5038, opened 10 June 2004",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1894-08-04",
+   "date_display": "4 Aug 1894",
+   "eye": "ramsay",
+   "claim": "Gas isolated; density about 19–20 (H=1), not absorbed by magnesium",
+   "form": "letter",
+   "evidence": "Ramsay to Rayleigh, quoted in Chemistry World and UCL hist14",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1894-08-13",
+   "date_display": "13 Aug 1894",
+   "eye": "rayleigh",
+   "claim": "New gaseous constituent of air announced at British Association, Oxford; name 'argon' (Madan's proposal per one account, Ramsay with a classicist per another)",
+   "form": "official report",
+   "evidence": "BA Report 1894; APS News; UCL hist14",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1895-01-31",
+   "date_display": "31 Jan 1895",
+   "eye": "rayleigh",
+   "claim": "Argon: density ~19.9, Cp/Cv ~1.66 (monatomic), atomic weight ~40, ~1% of atmospheric nitrogen; audience at least 800",
+   "form": "paper",
+   "evidence": "Phil. Trans. 186A (1895); Nature 51, 337",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1895-03-26",
+   "date_display": "March 1895",
+   "eye": "mendeleev",
+   "claim": "Position: argon may be triatomic nitrogen N3, given its weight of ~40",
+   "form": "other",
+   "evidence": "Russian Chemical Society meeting; Nature 51, 543; Rayleigh 'Argon' (1895)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1895-03-29",
+   "date_display": "late March 1895",
+   "eye": "ramsay",
+   "claim": "Helium found in cleveite; D3 line confirmed by Crookes at ~587.45 nm",
+   "form": "paper",
+   "evidence": "Chem. News 71 (1895), 151; Marshall, 'Helium'",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1895-04",
+   "date_display": "spring 1895",
+   "eye": "langlet",
+   "claim": "Helium atomic weight about 4 — Uppsala's independent measurement (priority for the weight credited to Langlet; discovery credited to Ramsay, with Cleve's confirmation)",
+   "form": "paper",
+   "evidence": "Öfversigt KVA Förhandlingar 1895, 371–377",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1895-05-16",
+   "date_display": "16 May 1895",
+   "eye": "ramsay",
+   "claim": "Helium density 3.89 (H=1), monatomic — early figure raised by argon contamination",
+   "form": "paper",
+   "evidence": "Nature 52, 55",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1897-08-19",
+   "date_display": "Aug 1897",
+   "eye": "ramsay",
+   "claim": "Prediction of an undiscovered gas of atomic weight ~20 between helium and argon",
+   "form": "paper",
+   "evidence": "BA Report, Toronto 1897",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1898-06-03",
+   "date_display": "3 June 1898",
+   "eye": "ramsay",
+   "claim": "Krypton announced from liquid-air residue",
+   "form": "paper",
+   "evidence": "Proc. Roy. Soc. 63; Nature 58, 127; Ramsay Nobel lecture",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1898-09-08",
+   "date_display": "8 Sept 1898",
+   "eye": "ramsay",
+   "claim": "Xenon announced; about 1 part in 10^7–10^8 of air",
+   "form": "paper",
+   "evidence": "BA Bristol 1898; DSB Travers; UCL hist15",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1900-07-10",
+   "date_display": "10 July 1900",
+   "eye": "travers",
+   "claim": "Neon atomic weight 19.98 after liquid-hydrogen separation",
+   "form": "notebook",
+   "evidence": "Marshall, 'Noble gases'",
+   "confidence": "verified"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1868-10-26",
+   "label": "Two letters, one yellow line, read in Paris",
+   "eyes": [
+    "janssen",
+    "lockyer"
+   ],
+   "note": "Janssen in India and Lockyer in Hampstead reached the same method weeks apart and were read the same day; the solar line they recorded becomes the 'helium' Ramsay bottled 27 years later."
+  },
+  {
+   "date": "1892-09-29",
+   "label": "The puzzle goes public",
+   "eyes": [
+    "rayleigh",
+    "nature",
+    "ramsay"
+   ],
+   "note": "Rayleigh's appeal named Ramsay's ammonia method as the source of the lighter nitrogen; the weekly journal that printed it would report every turn of the story that followed."
+  },
+  {
+   "date": "1894-08-04",
+   "label": "Ten days in August: isolation, sparking, announcement",
+   "eyes": [
+    "ramsay",
+    "rayleigh"
+   ],
+   "note": "Between Ramsay's letter of 4 August, his first sparking on the 6th and the Oxford announcement on the 13th, the physicist's anomaly and the chemist's residue became one gas, still unnamed as an element."
+  },
+  {
+   "date": "1895-01-31",
+   "label": "Argon before the Royal Society",
+   "eyes": [
+    "rayleigh",
+    "ramsay",
+    "crookes",
+    "nature"
+   ],
+   "note": "Weighing, chemistry and spectroscopy were presented together to at least 800 people; Nature called it the triumph of the last decimal place, while the paper itself admitted the periodic table could not yet hold the result."
+  },
+  {
+   "date": "1895-03-29",
+   "label": "Helium comes down to earth; argon doubted abroad",
+   "eyes": [
+    "ramsay",
+    "crookes",
+    "mendeleev",
+    "cleve",
+    "langlet",
+    "lockyer"
+   ],
+   "note": "Within a few weeks London announced terrestrial helium, Uppsala confirmed and weighed it, Lockyer examined his solar element in a tube, and in St Petersburg Mendeleev still weighed whether argon was N3."
+  },
+  {
+   "date": "1895-04",
+   "label": "The N3 argument",
+   "eyes": [
+    "rayleigh",
+    "mendeleev",
+    "dewar"
+   ],
+   "note": "Rayleigh answered the N3 suggestion in public; Mendeleev considered it stable, Dewar pressed it, and Ramsay's own sealed note of 1894 had raised it before rejecting it."
+  },
+  {
+   "date": "1898-06-12",
+   "label": "The summer of 1898",
+   "eyes": [
+    "travers",
+    "ramsay",
+    "dewar",
+    "nature"
+   ],
+   "note": "Dewar had liquid hydrogen from 10 May; Ramsay and Travers, working with bought liquid air, found krypton, neon and xenon in about six weeks while Nature printed the first paper."
+  },
+  {
+   "date": "1904-12-12",
+   "label": "Two Nobel lectures in Stockholm",
+   "eyes": [
+    "rayleigh",
+    "ramsay",
+    "cavendish"
+   ],
+   "note": "The physicist spoke about densities and the chemist about a new family of elements; Ramsay credited the bubble Cavendish left in 1785."
+  }
+ ],
+ "ties": [
+  {
+   "a": "rayleigh",
+   "b": "ramsay",
+   "kind": "met",
+   "note": "Collaborators by letter and in joint papers from 1894; their methods (spark and magnesium) ran in parallel and met in the 1895 paper."
+  },
+  {
+   "a": "cavendish",
+   "b": "rayleigh",
+   "kind": "read each other",
+   "note": "Rayleigh repeated Cavendish's 1785 sparking experiment on a larger scale and cited his 1/120 residue."
+  },
+  {
+   "a": "cavendish",
+   "b": "ramsay",
+   "kind": "read each other",
+   "note": "Ramsay said he had written 'look into this' in the margin of Cavendish's account."
+  },
+  {
+   "a": "ramsay",
+   "b": "travers",
+   "kind": "met",
+   "note": "Professor and assistant at UCL; Travers later wrote Ramsay's biography and succeeded him at Bristol."
+  },
+  {
+   "a": "ramsay",
+   "b": "dewar",
+   "kind": "opposite sides",
+   "note": "Dewar opposed Ramsay's reading of argon and would not help with liquid air; their rivalry ran through the 1890s."
+  },
+  {
+   "a": "crookes",
+   "b": "ramsay",
+   "kind": "met",
+   "note": "Ramsay sent Crookes his argon and cleveite gases for spectroscopic judgement."
+  },
+  {
+   "a": "lockyer",
+   "b": "nature",
+   "kind": "influenced",
+   "note": "Lockyer founded Nature in 1869 and edited it throughout these years."
+  },
+  {
+   "a": "janssen",
+   "b": "lockyer",
+   "kind": "opposite sides",
+   "note": "Independent observers of the same solar line whose letters were read in Paris on the same day in 1868."
+  },
+  {
+   "a": "cleve",
+   "b": "langlet",
+   "kind": "met",
+   "note": "Teacher and doctoral student in the same Uppsala laboratory."
+  },
+  {
+   "a": "langlet",
+   "b": "ramsay",
+   "kind": "opposite sides",
+   "note": "Uppsala's measurement of helium's atomic weight ran alongside Ramsay's; priority for discovery and for the weight are positions held on each side."
+  },
+  {
+   "a": "mendeleev",
+   "b": "rayleigh",
+   "kind": "read each other",
+   "note": "Rayleigh discussed Mendeleev's view that N3 could be stable in his 1895 lecture."
+  },
+  {
+   "a": "dewar",
+   "b": "rayleigh",
+   "kind": "same street",
+   "note": "Both held chairs at the Royal Institution, Albemarle Street, while disagreeing about what argon was."
+  },
+  {
+   "a": "lockyer",
+   "b": "ramsay",
+   "kind": "met",
+   "note": "Ramsay sent Lockyer cleveite gas; Lockyer then made his own from uraninite and broggerite."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "mendeleev-1869",
+   "note": "Argon's atomic weight of about 40 and lack of chemistry did not fit the 1869 periodic system; the answer was a new column, which Mendeleev himself later accepted as group zero."
+  },
+  {
+   "to": "davy-1807",
+   "note": "Dewar and Rayleigh worked at the Royal Institution, the laboratory where Davy had isolated potassium and sodium; the same lecture theatre heard Rayleigh's 'Argon' in 1895."
+  },
+  {
+   "to": "v4:curies",
+   "note": "In 1903 Ramsay and Soddy showed that radium gives off helium, tying the noble gases to radioactivity; Ramsay's 1907 transmutation claims were challenged by Marie Curie and Ellen Gleditsch."
+  },
+  {
+   "to": "v7:airships",
+   "note": "Helium, found on earth in 1895, became the non-flammable lifting gas of later airships once natural-gas sources were developed."
+  },
+  {
+   "to": "v7:balloons-1783",
+   "note": "Cavendish's earlier work on 'inflammable air' (hydrogen) lay behind the hydrogen balloons of 1783; his 1785 sparking experiment left the bubble that was argon."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/objects/co13218/tube-where-first-sparkings-of-argon-were-done",
+   "title": "Tube where first sparkings of argon were done",
+   "caption": "Small glass tube used by Ramsay; its label records the first sparking of argon on 6 August 1894, two days after his letter to Rayleigh.",
+   "date": "1894",
+   "credit": "Science Museum Group (object 1931-1143)"
+  },
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/objects/co13215/argon-circulating-apparatus-and-mercury-reservoir",
+   "title": "Argon circulating apparatus and mercury reservoir",
+   "caption": "Apparatus made for preparing argon in quantity; two original gas holders were given by Travers, other parts are replicas.",
+   "date": "1894",
+   "credit": "Science Museum Group (object 1931-1140)"
+  },
+  {
+   "url": "https://collection.sciencemuseumgroup.org.uk/objects/co13217/the-first-vacuum-tube-filled-with-argon",
+   "title": "The first vacuum tube filled with argon",
+   "caption": "One of the 8,360 tubes Ramsay used in his rare-gas research.",
+   "date": "c. 1894",
+   "credit": "Science Museum Group (object 1931-1142), from UCL Chemistry"
+  },
+  {
+   "url": "https://www.nature.com/articles/046512c0.pdf",
+   "title": "Rayleigh, 'Density of Nitrogen', Nature 46",
+   "caption": "The page of Nature carrying Rayleigh's 1892 appeal to chemists.",
+   "date": "29 September 1892",
+   "credit": "Nature / Springer Nature"
+  },
+  {
+   "url": "https://www.lindahall.org/about/news/scientist-of-the-day/william-ramsay",
+   "title": "Portrait of William Ramsay",
+   "caption": "Portrait of Ramsay by Mark Milbanke (University College London, via Art UK), shown on the Linda Hall Library page; presented at a ceremony in 1914.",
+   "date": "before 1914",
+   "credit": "Mark Richard Milbanke; UCL; Linda Hall Library page"
+  }
+ ],
+ "further": [
+  {
+   "title": "Lord Rayleigh, 'Argon' (Royal Institution, 1895), annotated by Carmen Giunta",
+   "url": "https://web.lemoyne.edu/GIUNTA/EA/RAYLEIGHann.HTML"
+  },
+  {
+   "title": "Henry Cavendish, 'Experiments on Air' (1785), Classic Chemistry",
+   "url": "https://web.lemoyne.edu/GIUNTA/CAVENDISH.HTML"
+  },
+  {
+   "title": "William Ramsay, Nobel Lecture 'The Rare Gases of the Atmosphere' (1904)",
+   "url": "https://www.nobelprize.org/prizes/chemistry/1904/ramsay/lecture/"
+  },
+  {
+   "title": "Mike Sutton and Alwyn Davies, the hunt for the noble gases (Chemistry World)",
+   "url": "https://www.chemistryworld.com/features/history-of-noble-gases/1017385.article"
+  },
+  {
+   "title": "J. L. and V. R. Marshall, 'Rediscovery of the elements: the noble gases' (The Hexagon)",
+   "url": "https://sites.chemistry.unt.edu/~jimm/rediscovery%207-09-2018/Hexagon%20Articles/noble gases.pdf"
+  },
+  {
+   "title": "J. L. and V. R. Marshall, 'Rediscovery of the elements: helium' (The Hexagon)",
+   "url": "https://sites.itservices.cas.unt.edu/~jimm/rediscovery%206-10-2021/Hexagon%20Articles/helium.pdf"
+  },
+  {
+   "title": "APS News, 'Lord Rayleigh and the discovery of argon, August 13, 1894'",
+   "url": "https://aps.org/publications/apsnews/201308/physicshistory.cfm"
+  }
+ ],
+ "vantage_key": "0 = the discoverers at the bench; 1 = specialists who handled or checked the gases, or saw the line first-hand; 2 = London rivals and the press; 3 = elsewhere in the same country; 4 = abroad, judging by report."
+}

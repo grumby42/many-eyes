@@ -1,0 +1,276 @@
+[
+ {
+  "chapter": "california-1848",
+  "where": "entry:2",
+  "severity": "error",
+  "problem": "The Society of California Pioneers' transcription of the manuscript (OAC finding aid) shows the line continuing, after an abrupt change of ink, with words crediting 'James Martial, the boss of the Mill' as first discoverer; the digest's claim that it credits no one by name is wrong as stated.",
+  "fix": {
+   "text_replace": {
+    "old": "He spelled it as he spoke it and credited no one by name in this line.",
+    "new": "He spelled it as he spoke it. In the manuscript, after an abrupt change of ink, the line goes on to credit 'James Martial', the boss of the mill, as first discoverer; those words may have been added afterwards."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "california-1848",
+  "where": "eye:azariah",
+  "severity": "error",
+  "problem": "Azariah Smith was born 1 August 1828 (Dialogue review of The Gold Discovery Journal), so he was 19, not 21, in January 1848.",
+  "fix": {
+   "text_replace": {
+    "old": "1826–1912",
+    "new": "1828–1912"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "california-1848",
+  "where": "eye:azariah",
+  "severity": "error",
+  "problem": "Age follows from the 1828 birth date.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 21",
+    "new": "aged 19"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "california-1848",
+  "where": "entry:5",
+  "severity": "doubt",
+  "problem": "A Dialogue review of the Smith edition cites the 'as we all suppose' entry at p. 108 under Monday 24 January rather than Sunday 30 January; the edition itself was not checked. Keep approx.",
+  "fix": {
+   "source_note": "Gold Discovery Journal of Azariah Smith (ed. D. L. Bigler, 1990), p. 108; usually cited as the entry of Sunday 30 Jan 1848, though one review places it under 24 Jan. Not checked against the edition."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "california-1848",
+  "where": "entry:10",
+  "severity": "error",
+  "problem": "Kemble's trip to the mill was in the last week of March or first week of April 1848 (Encyclopedia.com, 'Kemble, Edward'); BYU RSC dates the Star's 'sham … takein' item to 20 May 1848 and does not attribute it to Kemble by name. 'May (before mid-month)' fits neither.",
+  "fix": {
+   "date_iso": "1848-04",
+   "date_display": "April–May 1848",
+   "precision": "range",
+   "digest": "Edward Kemble, who ran the Star for Brannan, went up to Coloma with a party in late March or early April and came back unconvinced; Reading's panning there had produced almost nothing. The Star then dismissed the gold reports, and an item dated 20 May called them a sham and a take-in got up to fool the gullible. Events overtook the paper within weeks.",
+   "source_note": "Encyclopedia.com, 'Kemble, Edward' (visit, late March/early April 1848); BYU RSC 'Saints and Gold: 1848' (Star item, 20 May 1848)."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "california-1848",
+  "where": "entry:11",
+  "severity": "style",
+  "problem": "The day is not fixed (meeting 10 May; cry 'shortly afterward' per BYU, 12 May per Kamiya); precision should be range, not day.",
+  "fix": {
+   "precision": "range"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "california-1848",
+  "where": "entry:1",
+  "severity": "error",
+  "problem": "Radin's introduction says Clear Lake men had been dragged along 'virtually as slaves' by gold-seekers and that few came back, linking this to a failed expedition led by Kelsey; it gives no year, so '1848' is not in the source.",
+  "fix": {
+   "text_replace": {
+    "old": "Max Radin's introduction adds that Clear Lake men were taken on one rancher's 1848 expedition to the diggings almost as slaves, and few returned.",
+    "new": "Max Radin's introduction adds that Clear Lake men had been dragged along to the diggings virtually as slaves by gold-seekers, in an expedition he links to Kelsey, and that very few returned."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "california-1848",
+  "where": "entry:1",
+  "severity": "style",
+  "problem": "Source note claims the trip is dated 1848 in Radin; it is not.",
+  "fix": {
+   "source_note": "Benson, CHSQ 11:3 (1932), pp. 266–273, with Radin's introduction; the diggings expedition is in Radin's introduction, undated there (secondary histories place Kelsey's expedition in 1848)."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "california-1848",
+  "where": "entry:37",
+  "severity": "style",
+  "problem": "Neither Benson nor Radin gives a month (Radin: 'nearly a year later, in 1850'); the date display should say where 15 May comes from.",
+  "fix": {
+   "date_display": "15 May 1850 (date from military and secondary sources; Benson gives none; recalled in 1932)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "california-1848",
+  "where": "entry:40",
+  "severity": "error",
+  "problem": "Governor Bigler's special message on Chinese immigration is dated 25 April 1852 (CAAM, 'Governor Bigler v.s. Chinese merchant Asing', citing the Daily Alta California's 'Governor's Special Address').",
+  "fix": {
+   "date_iso": "1852-04-25",
+   "date_display": "25 April 1852",
+   "precision": "day"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "california-1848",
+  "where": "entry:39",
+  "severity": "doubt",
+  "problem": "'Triumphant entry into Rich Bar' comes from the contents summary heading of the letter in the Gutenberg edition, not from Clappe's own letter text, and such synopses may be the editor's.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "california-1848",
+  "where": "eye:perez-rosales",
+  "severity": "style",
+  "problem": "Memoria Chilena: his notes first appeared as articles ('Algo sobre California') in the Revista de Santiago in 1850, were revised in 1878, became chapters of Recuerdos del pasado, and had a standalone edition in 1949. The authenticity note should say this.",
+  "fix": {
+   "text_replace": {
+    "old": "His Diario de un viaje a California (1848–1849) survives and is published in Chile (Memoria Chilena holds it); he later reworked the material into his memoir Recuerdos del pasado.",
+    "new": "His travel notes first appeared as articles ('Algo sobre California') in the Revista de Santiago in 1850, were revised in 1878 and reworked into his memoir Recuerdos del pasado; the standalone Diario de un viaje a California (1848–1849) was published in 1949 (Memoria Chilena)."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "california-1848",
+  "where": "entry:27",
+  "severity": "style",
+  "problem": "Departure 28 December 1848 confirmed by Memoria Chilena (French ship Stauelli); the source note can cite it directly.",
+  "fix": {
+   "source_note": "Memoria Chilena, Diario de un viaje a California (sailed 28 Dec 1848 on the French ship Stauelli); PBS American Experience profile."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "witwatersrand-1886",
+  "where": "entry:46",
+  "severity": "error",
+  "problem": "Per Mining Weekly ('And the official discoverer is…', 2016), the government's four-man fact-finding committee, appointed December 1938, reported to Parliament in February 1941 that Walker should have first place as discoverer, probably in association with Harrison. It did reach a conclusion, though the dispute went on.",
+  "fix": {
+   "text_replace": {
+    "old": "A government inquiry opened in the late 1930s; its report, in 1941, did not settle who found the reef.",
+    "new": "A government fact-finding committee appointed in December 1938 reported in February 1941 that Walker should have first place as discoverer, probably in association with Harrison; the finding did not end the dispute."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "witwatersrand-1886",
+  "where": "claim:15",
+  "severity": "error",
+  "problem": "The 1941 body was a government fact-finding committee, and it favoured Walker (probably with Harrison); it did not leave the question unresolved.",
+  "fix": {
+   "claim": "Walker claims to have found and panned the outcrop himself; a government fact-finding committee (appointed 1938) reported in February 1941 that Walker should have first place as discoverer, probably with Harrison, a finding still disputed.",
+   "evidence": "Sunday Times, 6 April 1924, via Mining Weekly (2016); Mining Weekly, 'And the official discoverer is…' (2016)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "witwatersrand-1886",
+  "where": "entry:21",
+  "severity": "error",
+  "problem": "Gold Fields of South Africa Ltd was registered on 9 February 1887 with a capital of £250,000 (230,000 £1 ordinary shares and 200 £100 founders' shares), per Scripoworld's company record. Date and capital can be firmed up.",
+  "fix": {
+   "date_display": "9 February 1887",
+   "precision": "day",
+   "confidence": "verified",
+   "source_note": "Scripoworld company record (registered 9 Feb 1887, capital £250,000); Phimister, 'Rhodes, Rhodesia and the Rand' (test crushing)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "witwatersrand-1886",
+  "where": "claim:11",
+  "severity": "error",
+  "problem": "Registration day confirmed as 9 February 1887, capital £250,000.",
+  "fix": {
+   "date_display": "9 February 1887",
+   "confidence": "verified",
+   "evidence": "Scripoworld company record; Phimister, 'Rhodes, Rhodesia and the Rand'"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "witwatersrand-1886",
+  "where": "entry:32",
+  "severity": "error",
+  "problem": "Levy does not say the Volksraad formally refused. He says the republic's farmers and landholders were not prepared to release control of the labour supply, and he calls the office the Native Registry Department.",
+  "fix": {
+   "text_replace": {
+    "old": "The Volksraad, protective of farmers' labour, refused;",
+    "new": "The request failed because the republic's farmers and landholders would not give up that control of the labour supply;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "witwatersrand-1886",
+  "where": "entry:41",
+  "severity": "error",
+  "problem": "Levy cites The Star of 21 December 1895 only as 'Cf.' for the roughly 18-month delay in promulgating the pass regulations the Chamber drafted in 1894. He does not say what The Star reported that day. The digest says more than the source.",
+  "fix": {
+   "digest": "Norman Levy cites The Star of 21 December 1895 on the pass regulations for African mineworkers that the Chamber had drafted in 1894 and that the government promulgated only after a delay of about eighteen months. The regulations, backed by the Master and Servant law, were meant to tighten the owners' control over the movement of African workers. Eight days later Jameson's force crossed the border.",
+   "confidence": "approx",
+   "source_note": "Levy, 'The state, mineowners and labour regulation', note 20 (cites The Star, 21.12.1895, as 'Cf.'); SAHO timeline (29 December 1895). The Star's own report was not consulted."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "witwatersrand-1886",
+  "where": "entry:33",
+  "severity": "style",
+  "problem": "Heritage Portal (node 1421) gives the Salisbury pilot plant as June–August 1890 with about 90% recovery against about 70% for amalgamation of oxidised ore. The date range is supported.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "witwatersrand-1886",
+  "where": "entry:30",
+  "severity": "style",
+  "problem": "The Hansard question of 6 March 1890 asks about a 'disturbance' at Johannesburg 'yesterday' and does not mention the flag; the flag detail is Kruger's own (Memoirs, ch. 10).",
+  "fix": {
+   "text_replace": {
+    "old": "The incident was raised in the House of Commons on 6 March as having happened the day before.",
+    "new": "A 'disturbance' at Johannesburg 'yesterday' was raised in the House of Commons on 6 March; the question does not mention the flag, which is Kruger's detail."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "witwatersrand-1886",
+  "where": "threads_out:0",
+  "severity": "doubt",
+  "problem": "The Rand largely used open compounds rather than Kimberley's closed compounds, so 'closed-compound model … came straight from Kimberley' overstates the link.",
+  "fix": {
+   "text_replace": {
+    "old": "and its closed-compound model of African labour came straight from the Kimberley diamond fields.",
+    "new": "and its compound system for African labour (in a looser, mostly open form on the Rand) came from the Kimberley diamond fields."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "witwatersrand-1886",
+  "where": "entry:5",
+  "severity": "style",
+  "problem": "In the City of Johannesburg account Honeyball calls the house his aunt's, and says Walker borrowed his aunt's frying pan. That ties Honeyball's version to Walker's frying-pan story and is worth stating.",
+  "fix": {
+   "text_replace": {
+    "old": "Honeyball remembered the morning precisely: Walker came to the Oosthuizen house with a piece of rock from his outcrop.",
+    "new": "Honeyball remembered the morning precisely: Walker came to the Oosthuizen house, the home of Honeyball's aunt, with a piece of rock from his outcrop and crushed it in her frying pan."
+   }
+  },
+  "confidence": "approx"
+ }
+]

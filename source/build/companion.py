@@ -16,11 +16,11 @@ HTML = r"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name
 <title>Many Eyes Companion</title>
 <style>
 :root{--bg:#f4eee3;--card:#fbf8f1;--ink:#2a2420;--ink2:#5b5148;--ink3:#8b7f72;--rule:#e1d5c2;--acc:#9a6a2a;--hi:#efe3cc;
---v1:#8c3b2e;--v2:#2f6f5e;--v3:#2d5a8c;--v4:#7a4c9a;--v5:#b5602b;--v6:#5c6b2e;--v7:#2b7a8a;--v8:#3c4f8f;--v9:#2f7a6a;--v13:#8a6a1f;--v15:#6b4f8a}
+--v1:#8c3b2e;--v2:#2f6f5e;--v3:#2d5a8c;--v4:#7a4c9a;--v5:#b5602b;--v6:#5c6b2e;--v7:#2b7a8a;--v8:#3c4f8f;--v9:#2f7a6a;--v13:#8a6a1f;--v14:#9a5b2e;--v15:#6b4f8a}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1815;--card:#24201b;--ink:#ece4d6;--ink2:#c3b8a6;--ink3:#93887a;--rule:#3a342c;--acc:#d7a65e;--hi:#33291c;
---v1:#d9826f;--v2:#6cc0a6;--v3:#7fb0e6;--v4:#bf96e0;--v5:#eaa06c;--v6:#b3c470;--v7:#6fc6d6;--v8:#9fb0ee;--v9:#7fd1bf;--v13:#e0bf6a;--v15:#c2a6e6}}
+--v1:#d9826f;--v2:#6cc0a6;--v3:#7fb0e6;--v4:#bf96e0;--v5:#eaa06c;--v6:#b3c470;--v7:#6fc6d6;--v8:#9fb0ee;--v9:#7fd1bf;--v13:#e0bf6a;--v14:#e3a477;--v15:#c2a6e6}}
 :root[data-theme="dark"]{--bg:#1b1815;--card:#24201b;--ink:#ece4d6;--ink2:#c3b8a6;--ink3:#93887a;--rule:#3a342c;--acc:#d7a65e;--hi:#33291c;
---v1:#d9826f;--v2:#6cc0a6;--v3:#7fb0e6;--v4:#bf96e0;--v5:#eaa06c;--v6:#b3c470;--v7:#6fc6d6;--v8:#9fb0ee;--v9:#7fd1bf;--v13:#e0bf6a;--v15:#c2a6e6}
+--v1:#d9826f;--v2:#6cc0a6;--v3:#7fb0e6;--v4:#bf96e0;--v5:#eaa06c;--v6:#b3c470;--v7:#6fc6d6;--v8:#9fb0ee;--v9:#7fd1bf;--v13:#e0bf6a;--v14:#e3a477;--v15:#c2a6e6}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 Georgia,"Iowan Old Style",serif}
 .sans{font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
 header.bar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--rule);display:flex;gap:10px;align-items:center;padding:8px 16px}

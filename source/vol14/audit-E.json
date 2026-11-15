@@ -1,0 +1,405 @@
+[
+ {
+  "chapter": "kimberley-1867",
+  "where": "entry:3",
+  "severity": "error",
+  "problem": "The 'rock' wording is a later tradition; Wilmot's 1904 life records the diamond laid on the table of the House but not this wording, so it cannot stand as a quote attributed to Southey.",
+  "fix": {
+   "quote": "",
+   "headline": "Southey lays a diamond on the table of the House (the 'rock' remark is tradition)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kimberley-1867",
+  "where": "entry:8",
+  "severity": "error",
+  "problem": "Hansard (HC 19 May 1871) shows the despatch of 28 March 1871 was Barkly's, reporting Brand's reply as summarised by the under-secretary Knatchbull-Hugessen; the words are not Brand's own and his reply's date is not given.",
+  "fix": {
+   "date_display": "By 28 March 1871 (reported in Barkly's despatch of that date)",
+   "confidence": "approx",
+   "quote": "",
+   "digest": "Brand refused to submit the Free State's title to the Bloemhof arbitration, and Free State forces had moved into part of the disputed territory. Barkly's despatch of 28 March 1871, as summarised in the Commons, reported Brand's reply that the forces had entered to protect the rights of Free State subjects in certain contingencies, and that he would lay the matter before the Volksraad on 3 April. Brand's own text is not quoted in the record used here.",
+   "source_note": "Barkly's despatch of 28 March 1871 reporting Brand's reply, as summarised by E. Knatchbull-Hugessen in the House of Commons, 19 May 1871 (Hansard)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kimberley-1867",
+  "where": "claim:5",
+  "severity": "error",
+  "problem": "The 28 March 1871 document is Barkly's despatch reporting Brand's position, not a letter by Brand.",
+  "fix": {
+   "date_display": "By 28 March 1871 (reported by Barkly)",
+   "evidence": "Barkly's despatch of 28 March 1871 summarising Brand's reply, as reported in Hansard, 19 May 1871",
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kimberley-1867",
+  "where": "eye:brand",
+  "severity": "error",
+  "problem": "Source title calls the 28 March 1871 despatch Brand's; Hansard shows it was Barkly's.",
+  "fix": {
+   "sources": [
+    {
+     "title": "Hansard, House of Commons, 19 May 1871 (Barkly's despatch of 28 March 1871 reporting Brand's reply)",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1871/may/19/question"
+    }
+   ]
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kimberley-1867",
+  "where": "eye:gregory",
+  "severity": "doubt",
+  "problem": "Gregory's letter of 20 May 1869 (Cambridge Core PDF) does not mention ostriches; the ostrich explanation is a later story attached to him and should not be presented as his recorded view.",
+  "fix": {
+   "text_replace": {
+    "old": "suggesting the stones had been carried in by ostriches or planted",
+    "new": "and, in a story told about him later, that the stones had been carried in by ostriches or planted (the ostrich idea does not appear in his letter of 20 May 1869)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kimberley-1867",
+  "where": "claim:2",
+  "severity": "doubt",
+  "problem": "Kimberley City Info dates the Star's arrival at Hopetown to 19 March 1869; the closing sentence about ownership is an unsourced compiler comment.",
+  "fix": {
+   "date_iso": "1869-03-19",
+   "date_display": "March 1869 (the stone reached Hopetown on 19 March)",
+   "claim": "Star of South Africa: 83.5 carats rough, obtained from a Griqua shepherd (named in some accounts as Swartbooi) by Schalk van Niekerk for 500 sheep, 10 oxen and a horse; sold at Hopetown to the Lilienfeld brothers for £11,200.",
+   "evidence": "The Solomon, Star of South Africa; Kimberley City Info, 19 March; Meredith (2007)",
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kimberley-1867",
+  "where": "entry:30",
+  "severity": "doubt",
+  "problem": "The remark about men from almost every people comes from Tyamzashe's letter of 30 November 1872 (as cited by Sieborger), not from his arrival.",
+  "fix": {
+   "text_replace": {
+    "old": " He found men from almost every people of southern Africa crowded into the camps.",
+    "new": ""
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kimberley-1867",
+  "where": "entry:31",
+  "severity": "doubt",
+  "problem": "Sieborger (1975, n. 6) gives the letter's opening remark that nearly all the peoples of South Africa were to be found there; the letter was unpublished before the thesis, so a digest only.",
+  "fix": {
+   "text_replace": {
+    "old": "The letter is cited by historians of labour on the fields; its text was not available for this chapter.",
+    "new": "As cited by R. F. Sieborger, the letter opens by remarking that nearly all the different peoples of South Africa could be found at the fields; the full text was not consulted."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kimberley-1867",
+  "where": "entry:37",
+  "severity": "doubt",
+  "problem": "The detail on which peoples were and were not present (Zulu, Venda) is not checked against the 1874 article; it should be marked as a historian's summary.",
+  "fix": {
+   "text_replace": {
+    "old": "He wrote of the mixture of peoples there, noting that within a year of the mines opening almost every society of the subcontinent except the Zulu and Venda was represented, and of the drinking, gambling and Sunday labour that troubled him as a minister.",
+    "new": "As later historians summarise it, he wrote of the mixture of peoples there, almost every society of the subcontinent, and of the drinking, gambling and Sunday labour that troubled him as a minister. The article's own text was not checked."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "kimberley-1867",
+  "where": "entry:29",
+  "severity": "doubt",
+  "problem": "Reitz's translated extract has the Diamond News say Arnot claimed half the country and object to the surveyor Orpen having sole control of surveying; it does not put the land titles in Orpen's hands.",
+  "fix": {
+   "text_replace": {
+    "old": "with land titles concentrated in the hands of Waterboer's agent David Arnot and the surveyor Francis Orpen",
+    "new": "saying that Waterboer's agent David Arnot claimed half the country and objecting that the surveyor Francis Orpen had sole control of surveying"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kimberley-1867",
+  "where": "entry:23",
+  "severity": "doubt",
+  "problem": "Sieborger cites the Diamond Field of 6 June 1872 for the 900 departures. The digest puts them after the wage-cut meetings, but the De Beers meeting was on 8 June.",
+  "fix": {
+   "text_replace": {
+    "old": "Reports said about 900 Africans left the fields in two days.",
+    "new": "The Diamond Field reported on 6 June that about 900 Africans had left for home in two days, while the cuts were being pressed."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kimberley-1867",
+  "where": "entry:0",
+  "severity": "style",
+  "problem": "The source note contains a compiler note ('from the brief'). The stone was posted to Atherstone on 12 March 1867, so March is supported.",
+  "fix": {
+   "text_replace": {
+    "old": "month from the brief and from the Cape Argus report of 18 April 1867.",
+    "new": "month from the posting of the stone to Atherstone on 12 March 1867 (Grahamstown local history; Mining Weekly 2017) and the Cape Argus report of 18 April 1867."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "kimberley-1867",
+  "where": "entry:40",
+  "severity": "doubt",
+  "problem": "SAHO confirms the £90,000 compensation in 1876 but gives no month; 'July 1876' is not supported by the sources checked.",
+  "fix": {
+   "date_display": "1876 (month not confirmed)",
+   "precision": "year"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "kimberley-1867",
+  "where": "intro:0",
+  "severity": "doubt",
+  "problem": "'Deepest hand-dug hole in the world' is a contested local superlative; Kimberley's own claim is usually 'largest hand-dug hole'.",
+  "fix": {
+   "text_replace": {
+    "old": "then the deepest hand-dug hole in the world",
+    "new": "then what Kimberley calls the largest hand-dug hole in the world"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "kimberley-1867",
+  "where": "threads_out:4",
+  "severity": "doubt",
+  "problem": "The Livingstone link rests on a coincidence of year and a general missionary road, not a specific connection to the diamond fields.",
+  "fix": {
+   "to": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "entry:0",
+  "severity": "doubt",
+  "problem": "The DCB entry on Keish gives no 'late July 1896' date for the meeting at the Klondike mouth; the date is unconfirmed.",
+  "fix": {
+   "confidence": "approx",
+   "source_note": "Late July 1896 is a conventional date; DCB, Keish does not give it. Patsy Henderson's 1950 account is the family source."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "entry:6",
+  "severity": "doubt",
+  "problem": "Ogilvie's text says Carmack's long association with the Indians had created a prejudice against him; the second half of the sentence goes beyond Ogilvie. Another account says Carmack told Keish that Indians could not hold the right of discovery, and that is a position.",
+  "fix": {
+   "text_replace": {
+    "old": "By Ogilvie's reckoning, the community's prejudice against Carmack's Indigenous partners weighed against Carmack's word, but it also meant that the documents went in a white man's name.",
+    "new": "Ogilvie wrote that Carmack's long association with the Indians had created a prejudice against him in the community. A later account holds that Carmack told Keish the regulations did not allow an Indian the right of discovery, which is why the claim went in Carmack's name; that is one position, not a finding."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "eye:carmack",
+  "severity": "style",
+  "problem": "Carmack was born on 24 September 1860, so he was 35 at the strike in August 1896.",
+  "fix": {
+   "text_replace": {
+    "old": "36 in 1896",
+    "new": "35 at the strike (born September 1860)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "eye:steele",
+  "severity": "style",
+  "problem": "Steele was born on 5 January 1848, so he was 50 in 1898.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 49",
+    "new": "aged 50"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "entry:30",
+  "severity": "doubt",
+  "problem": "Forty Years in Canada (1915), ch. XV, has Belcher's post begin collecting customs on 25 February and gives no exact date for raising the flag at the Chilkoot. The White Pass flag and customs on 27 February are confirmed.",
+  "fix": {
+   "text_replace": {
+    "old": "Inspector Belcher hoisted the flag at the Chilkoot summit and began collecting customs;",
+    "new": "Inspector Belcher's post at the Chilkoot summit began collecting customs on 25 February, the flag going up about then;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "claim:9",
+  "severity": "doubt",
+  "problem": "The memoir dates the start of customs at the Chilkoot to 25 February, but not the flag-raising.",
+  "fix": {
+   "text_replace": {
+    "old": "Customs and the flag at the Chilkoot (25 Feb)",
+    "new": "Customs at the Chilkoot from 25 Feb (flag raised about then)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "entry:31",
+  "severity": "doubt",
+  "problem": "An issue dated 9 April cannot count deaths 'by 10 April'. Steele's memoir (written later) says one slide buried sixty-three people; that is his figure, not a death count. NPS gives 'probably over 65' and lists of 48, 51, 65 and 70.",
+  "fix": {
+   "text_replace": {
+    "old": "The Dyea paper counted forty-nine dead by 10 April and",
+    "new": "The Dyea paper counted forty-nine dead in its report and"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "Add Steele's own figure, labelled as later memoir.",
+  "fix": {
+   "text_replace": {
+    "old": "Steele's memoir has a section on the fatal avalanches;",
+    "new": "Steele's memoir, written later, says one slide buried sixty-three people;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "claim:10",
+  "severity": "doubt",
+  "problem": "An issue dated 9 April cannot count deaths 'by 10 April'.",
+  "fix": {
+   "text_replace": {
+    "old": "49 dead counted by The Trail (Dyea) by 10 April",
+    "new": "49 dead counted by The Trail (Dyea)"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "eye:thompson",
+  "severity": "doubt",
+  "problem": "The NPS Gold Rush Writers page gives the dates of London's journey but does not mention or cite Thompson's diary, so the match to the diary is unchecked.",
+  "fix": {
+   "text_replace": {
+    "old": "The dates below are those given by the National Park Service's account of London's journey, which follows this diary.",
+    "new": "The dates below are those given by the National Park Service's account of London's journey; that page does not cite the diary, so the match to Thompson's own entries is unchecked."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "entry:19",
+  "severity": "doubt",
+  "problem": "NPS confirms that the party sailed from San Francisco on 25 July 1897 but does not name the ship or describe the diary's opening. The date should be hedged as NPS's.",
+  "fix": {
+   "confidence": "approx",
+   "text_replace": {
+    "old": "Thompson's diary opens as the party sailed from San Francisco on the Umatilla.",
+    "new": "The party sailed from San Francisco on 25 July, the date the National Park Service gives (the ship is usually named as the Umatilla); Thompson's diary covers the journey from July."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "entry:21",
+  "severity": "doubt",
+  "problem": "The date matches NPS, Gold Rush Writers, but that page does not cite Thompson's diary. Hedge it as NPS's date.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "entry:22",
+  "severity": "doubt",
+  "problem": "The date matches NPS, Gold Rush Writers, but that page does not cite Thompson's diary. Hedge it as NPS's date.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "entry:23",
+  "severity": "doubt",
+  "problem": "The date matches NPS, Gold Rush Writers, but that page does not cite Thompson's diary. Hedge it as NPS's date.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "entry:26",
+  "severity": "doubt",
+  "problem": "The date matches NPS, Gold Rush Writers, but that page does not cite Thompson's diary. Hedge it as NPS's date.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "entry:25",
+  "severity": "doubt",
+  "problem": "Adney's dates come only from a 2018 newspaper review of the reissue, not from his text. Hedge.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "entry:27",
+  "severity": "doubt",
+  "problem": "Adney's dates come only from a 2018 newspaper review of the reissue, not from his text. Hedge.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "klondike-1896",
+  "where": "claim:7",
+  "severity": "style",
+  "problem": "ExploreNorth gives the Excelsior's arrival at San Francisco as 14 July 1897, with about $500,000 and 30 passengers. Confirmed.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ }
+]
