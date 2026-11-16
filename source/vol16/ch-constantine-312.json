@@ -1,0 +1,1270 @@
+{
+ "id": "constantine-312",
+ "title": "The Sign Before the Milvian Bridge",
+ "short_title": "The Sign Before the Milvian Bridge",
+ "subtitle": "Constantine's vision and the battle at the Tiber: Gaul, Rome and the East, 310–337",
+ "span": "310–337",
+ "intro": [
+  "On 28 October 312 Constantine's army broke the army of Maxentius on the Tiber north of Rome, and Maxentius drowned when the bridge behind him gave way. Within a generation the victory was being told as the moment the Roman emperor turned to the Christian God, after a sign from heaven. This chapter lays out how that story was told, by whom, and when.",
+  "There are no diaries here. The record is made of court speeches delivered before the emperor (the Latin panegyrics of 310, 313 and 321), a Christian pamphlet history (Lactantius, c. 314–315), a church history and a biography by the same bishop written some twenty-five years apart (Eusebius), an inscription in stone, coins and medallions, laws and an imperial letter, and a hostile pagan history written nearly two centuries later (Zosimus). Each entry carries a form and a source-kind tag; most are secondhand, and the gap between event and writing is given where it matters.",
+  "Set side by side by date, the accounts form a sequence. In 310 an orator at Trier says Constantine saw Apollo, with Victory, offering laurel wreaths at a temple in Gaul. In 313 a second orator says a divine mind urged him on against the soothsayers, but mentions no sign. About 314–315 Lactantius, the earliest Christian witness, says Constantine was told in a dream on the eve of battle to put the heavenly sign of God on his soldiers' shields. Eusebius's Church History (c. 313–316 or later) describes the battle with no vision at all. Only in the Life of Constantine, written after the emperor's death in 337, does a cross of light appear above the noon sun with the words 'Conquer by this', seen by the army and sworn to by Constantine himself, who, Eusebius says, told him long afterwards.",
+  "Around those texts stand the official records: the Senate's arch of 315, which credits 'the prompting of the divinity' without naming a god; a silver medallion with a tiny chi-rho on the emperor's helmet; coins that went on honouring the Unconquered Sun for years; and the letter of 313, issued by Licinius in Nicomedia, that granted Christians and all others freedom of worship. Licinius has his own heaven-sent victory, an angel's prayer reported by Lactantius. Maxentius, the defeated emperor, is known only through his enemies and his coins; both a Christian and a pagan writer say he trusted the Sibylline books.",
+  "The book takes no position on what, if anything, Constantine saw. Scholars have read the accounts as a religious experience, a natural sky phenomenon such as a solar halo, a political story shaped after the fact, or several of these at once; those readings are reported here as positions. What can be dated is how the story grew, and what followed: toleration in 313, the Council of Nicaea in 325, a new capital in 330, and an emperor baptised on his deathbed in 337."
+ ],
+ "calendar_note": "All dates are AD and in the Julian calendar, as historians cite them; date_iso uses the proleptic Julian form. The ancient sources date by Roman reckoning, which has been converted: Lactantius places the battle on the sixth day before the kalends of November (28 October) and the posting of Licinius's letter on the ides of June (13 June) in the year when Constantine and Licinius were consuls for the third time (313). Speeches, histories and coin types are often datable only to a year or a range; those entries carry precision 'year' or 'range'.",
+ "eyes": [
+  {
+   "id": "pan310",
+   "short": "Panegyrist 310",
+   "name": "Anonymous orator of Panegyrici Latini VI(7)",
+   "life": "fl. 310",
+   "role": "A Gallic professional orator, probably from Autun, speaking before Constantine at the imperial court",
+   "side": "Constantine's court in Gaul",
+   "where": "Trier, the imperial residence on the Moselle",
+   "lat": 49.756,
+   "lon": 6.641,
+   "waypoints": [
+    {
+     "lat": 43.296,
+     "lon": 5.37,
+     "label": "Massilia: Maximian's revolt ends, 310"
+    },
+    {
+     "lat": 48.384,
+     "lon": 5.483,
+     "label": "the temple of Apollo (often identified as Grand, Vosges)"
+    },
+    {
+     "lat": 49.756,
+     "lon": 6.641,
+     "label": "Trier: speech delivered, c. 310"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "court orator, speaking within weeks of the reported vision",
+   "form": "panegyric (speech delivered aloud, later collected)",
+   "language": "Latin",
+   "authenticity": "Survives in the Panegyrici Latini collection, known from a single manuscript found at Mainz in 1433 and copied in Italy. Conventionally dated to the summer of 310 and delivered at Trier during the city's anniversary celebrations. The orator's name is lost. The passage on Apollo (ch. 21) is the only contemporary report of a vision seen by Constantine before 312.",
+   "bio": "The orator speaks only months after Maximian, Constantine's father-in-law, revolted and died at Massilia. He gives Constantine a new ancestor, the emperor Claudius II, and a new divine patron, Apollo, instead of the Tetrarchic Hercules. His Constantine sees Apollo, with Victory, offering laurel wreaths marked with the numeral thirty: a pagan vision that has nothing Christian in it.",
+   "sources": [
+    {
+     "title": "C. Ware, A Literary Commentary on Panegyrici Latini VI(7) (Cambridge, 2021), excerpt",
+     "url": "https://assets.cambridge.org/97811071/23694/excerpt/9781107123694_excerpt.pdf"
+    },
+    {
+     "title": "C. E. V. Nixon and B. S. Rodgers, In Praise of Later Roman Emperors: The Panegyrici Latini (Berkeley, 1994)",
+     "url": ""
+    }
+   ]
+  },
+  {
+   "id": "constantine",
+   "short": "Constantine",
+   "name": "Flavius Valerius Constantinus (Constantine I)",
+   "life": "c. 272/273–337",
+   "role": "Son of the emperor Constantius I; acclaimed emperor at York in 306, aged about 33; sole ruler of the empire from 324",
+   "side": "His own army in Gaul and Britain; later the whole Roman empire",
+   "where": "Gaul and the Rhine (306–312), Rome (October 312), then Milan, the Balkans, Nicomedia and Constantinople",
+   "lat": 41.935,
+   "lon": 12.467,
+   "waypoints": [
+    {
+     "lat": 53.96,
+     "lon": -1.08,
+     "label": "York: acclaimed, July 306"
+    },
+    {
+     "lat": 49.756,
+     "lon": 6.641,
+     "label": "Trier, 306–312"
+    },
+    {
+     "lat": 41.935,
+     "lon": 12.467,
+     "label": "Milvian Bridge, 28 Oct 312"
+    },
+    {
+     "lat": 45.464,
+     "lon": 9.19,
+     "label": "Milan, early 313"
+    },
+    {
+     "lat": 41.008,
+     "lon": 28.98,
+     "label": "Constantinople, dedicated 330"
+    },
+    {
+     "lat": 40.77,
+     "lon": 29.5,
+     "label": "near Nicomedia, died 337"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the man who said he saw the sign",
+   "form": "laws, letters and edicts; his vision known only through others",
+   "language": "Latin (some letters issued in Greek)",
+   "authenticity": "No account of the vision in Constantine's own hand survives. His version is known through Eusebius, who says Constantine told it to him under oath many years later. Constantine's own words survive in laws preserved in the Theodosian and Justinian Codes and in letters quoted by Eusebius, Lactantius and Optatus; some of the letters in the Life of Constantine have been questioned, though most scholars now accept them.",
+   "bio": "Constantine owed his throne to his father's army, not to the Tetrarchic system, and had to explain his power to soldiers, senators and provincials who worshipped different gods. Between 310 and 312 the divine companion named in his court speeches moves from Apollo and the Sun to an unnamed supreme deity and then, in Christian writers, to the God of the Christians. He kept the pagan title of chief priest (pontifex maximus) and was baptised only on his deathbed.",
+   "sources": [
+    {
+     "title": "Eusebius, Life of Constantine I.28 (NPNF 2nd ser. vol. 1, trans. E. C. Richardson, 1890)",
+     "url": "https://www.ccel.org/ccel/schaff/npnf201.iv.vi.i.xxviii.html"
+    },
+    {
+     "title": "Lactantius, On the Deaths of the Persecutors 48 (letter of 313)",
+     "url": "https://bkv.unifr.ch/works/cpl-91/compare/of-the-manner-in-which-the-persecutors-died/49/de-mortibus-persecutorum"
+    }
+   ]
+  },
+  {
+   "id": "maxentius",
+   "short": "Maxentius",
+   "name": "Marcus Aurelius Valerius Maxentius",
+   "life": "c. 278–312",
+   "role": "Son of the retired emperor Maximian; proclaimed emperor in Rome on 28 October 306; ruled Italy and, for a time, Africa",
+   "side": "Rome and Italy; the Praetorian Guard and Roman people who raised him",
+   "where": "Rome, inside the Aurelian walls",
+   "lat": 41.902,
+   "lon": 12.496,
+   "vantage": 0,
+   "vantage_label": "the loser, known only through his enemies and his coins",
+   "form": "coins and buildings; his acts reported by hostile writers",
+   "language": "Latin",
+   "authenticity": "Nothing Maxentius wrote survives. His side of 312 is reconstructed from his coinage (which styles him 'conservator' of his city), his buildings in Rome, and the accounts of Lactantius, the panegyrists, Eusebius and Zosimus, all written after his defeat and most of them hostile.",
+   "bio": "Maxentius was the emperor of the city of Rome itself, restoring its monuments and courting its people. Christian writers call him a tyrant and a sorcerer, yet he had ended persecution in his territory and returned church property in Rome. His reliance on the Sibylline books before the battle, reported by both a Christian and a pagan writer, makes him the other half of the story of divine signs in October 312.",
+   "sources": [
+    {
+     "title": "Lactantius, On the Deaths of the Persecutors 44 (ANF vol. 7, trans. W. Fletcher, 1886)",
+     "url": "https://bkv.unifr.ch/works/cpl-91/versions/of-the-manner-in-which-the-persecutors-died/divisions/45"
+    },
+    {
+     "title": "Zosimus, New History 2.16 (anonymous English translation, London, 1814)",
+     "url": "https://www.livius.org/sources/content/zosimus/zosimus-new-history-2/zosimus-new-history-2.16"
+    }
+   ]
+  },
+  {
+   "id": "pan313",
+   "short": "Panegyrist 313",
+   "name": "Anonymous orator of Panegyrici Latini XII(9)",
+   "life": "fl. 313",
+   "role": "A Gallic orator, perhaps a veteran of earlier court speeches; sometimes, probably wrongly, identified with Nazarius",
+   "side": "Constantine's court in Gaul",
+   "where": "Trier",
+   "lat": 49.756,
+   "lon": 6.641,
+   "vantage": 2,
+   "vantage_label": "court orator a year after the battle",
+   "form": "panegyric (speech delivered aloud, later collected)",
+   "language": "Latin",
+   "authenticity": "Preserved in the Panegyrici Latini collection. Delivered at Trier in 313, after Constantine's return from Italy. The orator was not at the battle and relies on court reports. Differences of style and a more cautiously monotheistic tone have been used to argue it is not by Nazarius.",
+   "bio": "The first surviving account of the campaign of 312 by a non-Christian speaker. He says Constantine marched on Rome against the warnings of the soothsayers and human advice, prompted by a divine power, and ends with a prayer to a supreme creator of many names. He mentions no sign in the sky and no mark on shields.",
+   "sources": [
+    {
+     "title": "Nixon and Rodgers, In Praise of Later Roman Emperors (1994), Pan. Lat. XII(9)",
+     "url": ""
+    },
+    {
+     "title": "Panegyrici Latini (overview)",
+     "url": "https://wikipedia.com/wiki/Latin_Panegyric"
+    }
+   ]
+  },
+  {
+   "id": "lactantius",
+   "short": "Lactantius",
+   "name": "Lucius Caecilius Firmianus Lactantius",
+   "life": "c. 250–c. 325",
+   "role": "North African rhetorician, once a teacher of Latin rhetoric at Diocletian's court in Nicomedia; a Christian convert; in old age tutor to Constantine's son Crispus in Gaul",
+   "side": "Christian; close to Constantine's court",
+   "where": "Nicomedia and later Gaul (where he wrote is debated)",
+   "lat": 40.765,
+   "lon": 29.94,
+   "waypoints": [
+    {
+     "lat": 40.765,
+     "lon": 29.94,
+     "label": "Nicomedia, during the persecution"
+    },
+    {
+     "lat": 49.756,
+     "lon": 6.641,
+     "label": "Trier, tutor to Crispus (date debated)"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "Christian writer within about three years of the battle",
+   "form": "pamphlet history (De mortibus persecutorum)",
+   "language": "Latin",
+   "authenticity": "De mortibus persecutorum survives in a single manuscript (Paris, BnF lat. 2627, from Moissac), first printed in 1679. Its attribution to Lactantius is now generally accepted. Written c. 314–315. It preserves the Latin text of the letter of Licinius of 13 June 313 and Galerius's edict of 311.",
+   "bio": "Lactantius had lived through the Great Persecution in Nicomedia and wrote to show that every persecuting emperor died badly. His is the earliest surviving account linking Constantine's victory to the Christian God: a dream on the eve of battle commanding a heavenly sign on the shields. He tells a matching story of Licinius receiving a prayer from an angel in 313.",
+   "sources": [
+    {
+     "title": "Of the Manner in Which the Persecutors Died, ch. 44 (ANF vol. 7, trans. W. Fletcher, 1886), BKV Fribourg",
+     "url": "https://bkv.unifr.ch/works/cpl-91/versions/of-the-manner-in-which-the-persecutors-died/divisions/45"
+    },
+    {
+     "title": "Ch. 46, CCEL",
+     "url": "https://ccel.org/ccel/schaff/anf07.iii.v.xlvi.html"
+    },
+    {
+     "title": "Ch. 48, BKV Fribourg (Latin and English)",
+     "url": "https://bkv.unifr.ch/works/cpl-91/compare/of-the-manner-in-which-the-persecutors-died/49/de-mortibus-persecutorum"
+    }
+   ]
+  },
+  {
+   "id": "licinius",
+   "short": "Licinius",
+   "name": "Valerius Licinianus Licinius",
+   "life": "c. 265–325",
+   "role": "Galerius's old comrade, made Augustus in 308; Constantine's ally and brother-in-law from 313, later his rival",
+   "side": "The eastern half of the empire (Balkans, then Asia Minor and the East)",
+   "where": "Milan (Feb 313), Thrace (April 313), Nicomedia (June 313)",
+   "lat": 40.765,
+   "lon": 29.94,
+   "waypoints": [
+    {
+     "lat": 45.464,
+     "lon": 9.19,
+     "label": "Milan, meeting with Constantine, early 313"
+    },
+    {
+     "lat": 41.677,
+     "lon": 26.556,
+     "label": "near Adrianople, battle with Daia, 313"
+    },
+    {
+     "lat": 40.765,
+     "lon": 29.94,
+     "label": "Nicomedia, letter posted 13 June 313"
+    },
+    {
+     "lat": 41.025,
+     "lon": 29.03,
+     "label": "Chrysopolis, defeated 324"
+    },
+    {
+     "lat": 40.64,
+     "lon": 22.94,
+     "label": "Thessalonica, put to death 325"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "co-emperor; issuer of the 'Edict of Milan'",
+   "form": "imperial letter (rescript) and others' reports",
+   "language": "Latin (Greek version in Eusebius)",
+   "authenticity": "The so-called Edict of Milan is a letter Licinius issued to provincial governors in the East after he and Constantine met at Milan. It survives in Latin in Lactantius (ch. 48) and in Greek in Eusebius, Church History X.5. It was not an edict issued at Milan. Licinius's dream is reported only by Lactantius.",
+   "bio": "Licinius is the other emperor of 313, and his story mirrors Constantine's: Lactantius says an angel gave him a prayer to a supreme God before his battle with Maximinus Daia. He is the one who posted the toleration letter in Nicomedia, the city where persecution had begun ten years before. Christian writers who praised him in 313 later treated him as a persecutor after Constantine destroyed him.",
+   "sources": [
+    {
+     "title": "Lactantius, ch. 46 (Licinius's dream), CCEL",
+     "url": "https://ccel.org/ccel/schaff/anf07.iii.v.xlvi.html"
+    },
+    {
+     "title": "Lactantius, ch. 48 (the letter), BKV Fribourg",
+     "url": "https://bkv.unifr.ch/works/cpl-91/compare/of-the-manner-in-which-the-persecutors-died/49/de-mortibus-persecutorum"
+    }
+   ]
+  },
+  {
+   "id": "senate",
+   "short": "Senate of Rome",
+   "name": "The Senate and People of Rome (SPQR)",
+   "life": "institution",
+   "role": "The Roman Senate, which voted honours to the victor and dedicated the arch beside the Colosseum",
+   "side": "The traditional, largely pagan aristocracy of Rome",
+   "where": "Rome, between the Palatine and the Colosseum",
+   "lat": 41.8898,
+   "lon": 12.4906,
+   "vantage": 1,
+   "vantage_label": "the city that received the victor, speaking in stone",
+   "form": "inscription (official record)",
+   "language": "Latin",
+   "authenticity": "The dedicatory inscription survives on both faces of the attic of the Arch of Constantine (CIL VI 1139). The arch reuses sculpture from monuments of Trajan, Hadrian and Marcus Aurelius and adds a Constantinian frieze showing the campaign and the battle at the bridge.",
+   "bio": "The senators had to praise a conqueror who had just killed their emperor. Their inscription says Constantine acted 'instinctu divinitatis' (by the prompting of the divinity) and by greatness of mind. It names no god. Christians and pagans could each read their own deity into the phrase, which may have been the point.",
+   "sources": [
+    {
+     "title": "World History Encyclopedia, 'The Arch of Constantine, Rome' (inscription text)",
+     "url": "https://www.worldhistory.org/article/497/the-arch-of-constantine-rome"
+    },
+    {
+     "title": "The Arch of Constantine, Judaism and Rome database",
+     "url": "https://heurist.huma-num.fr/heurist/judaism_and_rome/view/90"
+    }
+   ]
+  },
+  {
+   "id": "ticinum",
+   "short": "Ticinum mint",
+   "name": "The imperial mint at Ticinum (Pavia)",
+   "life": "mint active 274–327",
+   "role": "One of the imperial mints of northern Italy, striking coins and presentation medallions in Constantine's name",
+   "side": "Constantine's administration",
+   "where": "Ticinum (modern Pavia), northern Italy",
+   "lat": 45.185,
+   "lon": 9.155,
+   "vantage": 1,
+   "vantage_label": "official images, struck under the emperor's authority",
+   "form": "coins and medallions (dated by type)",
+   "language": "Latin legends; images",
+   "authenticity": "The silver medallion of Ticinum showing Constantine in a crested helmet bearing a small chi-rho badge is generally dated c. 315 (the decennalia). Only a few specimens survive; the best known is in the Staatliche Münzsammlung, Munich. Dates of coin types rest on numismatic catalogues (RIC VI–VII), not on dated documents.",
+   "bio": "Coins were the government's most widely seen statements. The Ticinum medallion carries what is often called the earliest chi-rho on an official image of Constantine, yet the same mints went on striking coins to the Unconquered Sun as his companion for years. Together they show a public image that did not choose between the two.",
+   "sources": [
+    {
+     "title": "Silver medallion of Constantine I (bavarikon, Staatliche Münzsammlung München)",
+     "url": "https://www.bavarikon.de/object/SMM-DDD-00000B3D00000008?lang=en"
+    },
+    {
+     "title": "Ticinum nummus with labarum, 319–320 (Judaism and Rome database)",
+     "url": "https://heurist.huma-num.fr/heurist/judaism_and_rome/view/382"
+    }
+   ]
+  },
+  {
+   "id": "eusebius",
+   "short": "Eusebius",
+   "name": "Eusebius of Caesarea (Eusebius Pamphili)",
+   "life": "c. 260/265–339",
+   "role": "Bishop of Caesarea in Palestine from c. 313; scholar, historian and apologist; attended the Council of Nicaea in 325",
+   "side": "Christian; an eastern bishop who met Constantine only after 324",
+   "where": "Caesarea Maritima in Palestine; Nicaea (325); Constantinople (335–336)",
+   "lat": 32.5,
+   "lon": 34.892,
+   "waypoints": [
+    {
+     "lat": 32.5,
+     "lon": 34.892,
+     "label": "Caesarea, writing the Church History"
+    },
+    {
+     "lat": 40.43,
+     "lon": 29.72,
+     "label": "Nicaea, council of 325"
+    },
+    {
+     "lat": 41.008,
+     "lon": 28.98,
+     "label": "Constantinople, tricennalia, 336"
+    }
+   ],
+   "vantage": 3,
+   "vantage_label": "distant historian in 312; the emperor's confidant later",
+   "form": "church history and biography (written later)",
+   "language": "Greek",
+   "authenticity": "The Church History went through several editions; book IX, with the battle at the Milvian Bridge, belongs to an edition usually dated c. 313–316 (some argue later, up to c. 325). The Life of Constantine was written after the emperor's death in May 337 and left unfinished at Eusebius's death in 339. Its account of the vision is the only one said to come from Constantine himself.",
+   "bio": "Eusebius gives two accounts of 312, and they differ. In the Church History the victory is God's answer to prayer and Maxentius drowns like Pharaoh, but there is no vision. A quarter of a century later, in the Life, a cross of light appears in the noon sky with the words 'Conquer by this', seen by the whole army, followed by a dream of Christ; Eusebius says Constantine swore to it when telling him long afterwards.",
+   "sources": [
+    {
+     "title": "Life of Constantine I.28 (NPNF 2nd ser. vol. 1, trans. E. C. Richardson, 1890), CCEL",
+     "url": "https://www.ccel.org/ccel/schaff/npnf201.iv.vi.i.xxviii.html"
+    },
+    {
+     "title": "Fordham Internet Medieval Sourcebook: Eusebius on the conversion of Constantine",
+     "url": "https://sourcebooks.web.fordham.edu/source/conv-const.asp"
+    },
+    {
+     "title": "Life of Constantine record, Judaism and Rome database",
+     "url": "https://heurist.huma-num.fr/heurist/judaism_and_rome/view/1135"
+    }
+   ]
+  },
+  {
+   "id": "nazarius",
+   "short": "Nazarius",
+   "name": "Nazarius",
+   "life": "fl. 321",
+   "role": "Celebrated rhetorician of Bordeaux; his daughter was also known as a speaker",
+   "side": "Constantine's court and the Gallic schools",
+   "where": "Rome (speech given in the emperor's absence)",
+   "lat": 41.902,
+   "lon": 12.496,
+   "vantage": 3,
+   "vantage_label": "orator nine years after the battle",
+   "form": "panegyric (speech delivered aloud, later collected)",
+   "language": "Latin",
+   "authenticity": "Panegyrici Latini IV(10), delivered in 321 for the fifteenth year of Constantine's reign and the fifth of his sons Crispus and Constantine as Caesars. The place (Rome) and month (probably March) rest on the speech's content and modern commentary.",
+   "bio": "Nazarius adds a new marvel: armies sent from heaven, said to be talked about across Gaul, led by Constantine's deified father Constantius, came to help in 312. Like the earlier orators he names no Christian sign, which shows that in 321 the official miracle of the campaign could still be told in a non-Christian way.",
+   "sources": [
+    {
+     "title": "Nazarius (rhetorician)",
+     "url": "https://en.wikipedia.org/wiki/Nazarius_(rhetorician)"
+    },
+    {
+     "title": "Nixon and Rodgers, In Praise of Later Roman Emperors (1994), Pan. Lat. IV(10)",
+     "url": ""
+    }
+   ]
+  },
+  {
+   "id": "zosimus",
+   "short": "Zosimus",
+   "name": "Zosimus",
+   "life": "fl. c. 490–510",
+   "role": "Retired treasury official (advocatus fisci) in Constantinople; a pagan historian",
+   "side": "Pagan, hostile to Constantine",
+   "where": "Constantinople, writing nearly two centuries later",
+   "lat": 41.008,
+   "lon": 28.98,
+   "vantage": 4,
+   "vantage_label": "hostile pagan historian, nearly 200 years later",
+   "form": "history (written long after)",
+   "language": "Greek",
+   "authenticity": "The New History survives in a single Vatican manuscript (Vat. gr. 156). Zosimus wrote c. 498–518, drawing on the lost pagan history of Eunapius (c. 400). The English translation quoted here was printed in London in 1814 (W. Green and T. Chaplin), probably by J. Davis.",
+   "bio": "Zosimus blamed Constantine and Christianity for Rome's decline. His account of 312 contains no Christian sign at all; instead Maxentius reads the Sibylline oracle as favouring himself and a flock of owls settles on the wall. He also tells a hostile story of why Constantine turned Christian, which Christian writers rejected.",
+   "sources": [
+    {
+     "title": "Zosimus, New History 2.16 (1814 translation), Livius.org",
+     "url": "https://www.livius.org/sources/content/zosimus/zosimus-new-history-2/zosimus-new-history-2.16"
+    },
+    {
+     "title": "Zosimus, New History book 2, Livius.org",
+     "url": "https://livius.org/sources/content/zosimus/zosimus-new-history-2/"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "0306-07-25",
+   "date_display": "25 July 306",
+   "precision": "day",
+   "eye": "constantine",
+   "place": "Eboracum (York), Britain",
+   "headline": "His father's army acclaims him emperor at York",
+   "digest": "Constantius I died at York, and his soldiers at once proclaimed his son emperor. Constantine had been raised at the eastern court of Diocletian and Galerius and had only just rejoined his father. Galerius, the senior emperor, grudgingly accepted him as a junior Caesar. 25 July became his imperial anniversary, the date from which every later jubilee was counted.",
+   "quote": "",
+   "source_kind": "secondhand",
+   "confidence": "verified",
+   "source_note": "Lactantius, De mort. pers. 24–25; Eusebius, Life of Constantine I.21–22. The day is the anniversary celebrated in later years."
+  },
+  {
+   "date_iso": "0306-10-28",
+   "date_display": "28 October 306",
+   "precision": "day",
+   "eye": "maxentius",
+   "place": "Rome",
+   "headline": "Rome's guard proclaims Maxentius, six years to the day before the bridge",
+   "digest": "Angered by new taxes and plans to disband them, the Praetorian Guard and the people of Rome proclaimed Maxentius, son of the retired emperor Maximian. Lactantius later noted that the battle at the Milvian Bridge fell on the anniversary of this day, when Maxentius was completing his sixth year of rule.",
+   "quote": "",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Lactantius, De mort. pers. 26 and 44; standard modern dating of the proclamation to 28 October 306."
+  },
+  {
+   "date_iso": "0310",
+   "date_display": "310 (before the summer)",
+   "precision": "year",
+   "eye": "constantine",
+   "place": "Massilia (Marseille), southern Gaul",
+   "headline": "Maximian's revolt in Gaul ends in his death",
+   "digest": "While Constantine was campaigning on the Rhine, his father-in-law Maximian, the old emperor, seized the treasury at Arles and declared himself emperor again. Constantine marched south and besieged him in Massilia. Maximian was captured and soon died; the court said he hanged himself. The orator of 310 speaks against this background.",
+   "quote": "",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Pan. Lat. VI(7) 14–20; Lactantius, De mort. pers. 29–30. Exact months uncertain."
+  },
+  {
+   "date_iso": "0310",
+   "date_display": "310 (summer, on the march back to the Rhine)",
+   "precision": "year",
+   "eye": "pan310",
+   "place": "A temple of Apollo in Gaul, often identified as Grand (Vosges)",
+   "headline": "Apollo appears to Constantine at 'the most beautiful temple'",
+   "digest": "On his way back from Massilia, the orator says, Constantine turned aside to a temple of Apollo, 'the most beautiful in the world'. There he saw his Apollo, with Victory, offering him laurel wreaths, each marked with the numeral XXX, a promise of thirty years of rule. The orator adds that Constantine recognised himself in the god, the young ruler of the world foretold by poets. This is the only vision attributed to Constantine by a source written within months of it, and it is pagan.",
+   "quote": "",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Pan. Lat. VI(7) 21.3–7 (Nixon and Rodgers 1994). The temple's identification with Grand rests on modern scholarship. Peter Weiss (1993) argued that the experience was a solar halo, later retold in Christian form; others reject the link."
+  },
+  {
+   "date_iso": "0310-08",
+   "date_display": "c. August 310",
+   "precision": "month",
+   "eye": "pan310",
+   "place": "Trier, imperial palace",
+   "headline": "A speech gives Constantine a new grandfather and a new god",
+   "digest": "Before the emperor and court at Trier, the orator announced what he called a fact unknown to most: Constantine descended from the emperor Claudius II, so his rule was inherited, not granted by other emperors. He passed lightly over Maximian's death, praised the new building at Trier and Autun, and set the vision of Apollo near his close.",
+   "quote": "",
+   "source_kind": "firsthand",
+   "confidence": "approx",
+   "source_note": "Pan. Lat. VI(7) 2 and 21–22; Ware 2021 (excerpt): delivered at Trier during the city's anniversary, conventionally August 310."
+  },
+  {
+   "date_iso": "0311-04-30",
+   "date_display": "30 April 311",
+   "precision": "day",
+   "eye": "lactantius",
+   "place": "Nicomedia (as preserved by Lactantius)",
+   "headline": "The chief persecutor, dying, ends persecution in his name",
+   "digest": "Lactantius preserved the text of the edict in which the gravely ill emperor Galerius allowed Christians to exist again and to rebuild their meeting-places, asking them to pray for him. Lactantius reports that it was posted in Nicomedia on the day before the kalends of May. Galerius died within days. For Lactantius this was the first proof of his theme: persecutors die badly.",
+   "quote": "",
+   "source_kind": "official record",
+   "confidence": "approx",
+   "source_note": "Lactantius, De mort. pers. 33–35; Eusebius, Church History VIII.17."
+  },
+  {
+   "date_iso": "0312",
+   "date_display": "312 (before the campaign; place not given)",
+   "precision": "year",
+   "eye": "constantine",
+   "place": "On a march, place unstated",
+   "headline": "A cross of light above the noonday sun",
+   "digest": "As told to Eusebius many years later, Constantine, preparing for war against Maxentius, decided to seek the help of the God his father had honoured, and prayed for a sign. Around midday he saw above the sun a cross of light with writing joined to it: 'Conquer by this'. He and the whole army that was with him on the march were struck with amazement. The account gives no date or place, and some scholars connect it with the experience in Gaul reported in 310.",
+   "quote": "CONQUER BY THIS",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Eusebius, Life of Constantine I.27–28 (written 337–339), NPNF trans. Richardson 1890. Earliest form of this version: c. 337; told to Eusebius after 325."
+  },
+  {
+   "date_iso": "0312",
+   "date_display": "312 (the night after the sky-sign)",
+   "precision": "year",
+   "eye": "constantine",
+   "place": "In camp, place unstated",
+   "headline": "Christ in a dream, and the making of the labarum",
+   "digest": "According to the Life, Constantine was unsure what the sign meant until he slept, when Christ appeared with the same sign and told him to make a likeness of it as protection in battle. At dawn he called goldsmiths and had a standard made: a tall gilded spear with a crossbar, topped by a wreath of gold and gems holding the letters chi and rho. In this version the dream follows the sky-sign, and the result is a standard, not shield marks.",
+   "quote": "",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Eusebius, Life of Constantine I.29–31 (after 337)."
+  },
+  {
+   "date_iso": "0312",
+   "date_display": "Spring–summer 312",
+   "precision": "range",
+   "eye": "pan313",
+   "place": "Susa, Turin, Verona, northern Italy",
+   "headline": "He marches on Italy against the soothsayers' advice",
+   "digest": "The orator of 313 says Constantine crossed the Alps with perhaps a quarter of his army, against the counsel of his officers and the warnings of the haruspices, and took Susa, defeated Maxentius's heavy cavalry near Turin, and besieged Verona. He asks what god, what present power, urged him on, and answers that the divine mind spoke to Constantine alone.",
+   "quote": "",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Pan. Lat. XII(9) 2–4, 5–13 (Nixon and Rodgers 1994). Dates of Susa, Turin and Verona are inferred."
+  },
+  {
+   "date_iso": "0312-10-27",
+   "date_display": "Night of 27–28 October 312 (on the eve of battle)",
+   "precision": "day",
+   "eye": "lactantius",
+   "place": "Constantine's camp north of Rome",
+   "headline": "The dream command: mark the heavenly sign on the shields",
+   "digest": "Writing two or three years later, Lactantius says Constantine was warned in his sleep to put the heavenly sign of God on his soldiers' shields and then join battle. He did as commanded, marking them with a letter X turned, its top bent round: a monogram of Christ. Lactantius mentions no sign in the sky and no standard. This is the earliest surviving Christian account.",
+   "quote": "the heavenly sign to be delineated on the shields of his soldiers",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Lactantius, De mort. pers. 44.5 (ANF trans. Fletcher 1886). 'On the eve' is implied by the narrative; the night is not dated in the text. Written c. 314–315."
+  },
+  {
+   "date_iso": "0312-10-28",
+   "date_display": "28 October 312",
+   "precision": "day",
+   "eye": "maxentius",
+   "place": "Rome",
+   "headline": "Maxentius consults the Sibylline books",
+   "digest": "Lactantius says that while Maxentius stayed in the city, a riot broke out at the games, with the crowd shouting that Constantine could not be beaten. Maxentius ordered the Sibylline books inspected, and they replied that on that day the enemy of the Romans would perish. Taking this as a promise of victory, he left the city to join his army.",
+   "quote": "On the same day the enemy of the Romans should perish",
+   "source_kind": "secondhand",
+   "confidence": "verified",
+   "source_note": "Lactantius, De mort. pers. 44.7–9 (ANF trans. Fletcher 1886), BKV Fribourg."
+  },
+  {
+   "date_iso": "0312-10-28",
+   "date_display": "28 October 312",
+   "precision": "day",
+   "eye": "constantine",
+   "place": "Milvian Bridge and Saxa Rubra, north of Rome",
+   "headline": "Battle at the bridge; Maxentius drowns in the Tiber",
+   "digest": "Maxentius's army crossed the Tiber to meet Constantine on the Via Flaminia, with the river at its back. Constantine's cavalry broke them, and in the retreat the temporary bridge of boats gave way; Maxentius fell into the river and drowned, with many of his men. His body was recovered the next day. The victory made Constantine master of the western empire.",
+   "quote": "",
+   "source_kind": "secondhand",
+   "confidence": "verified",
+   "source_note": "Lactantius, De mort. pers. 44; Pan. Lat. XII(9) 16–18; Eusebius, Church History IX.9; Zosimus 2.16. The date follows Lactantius (sixth day before the kalends of November)."
+  },
+  {
+   "date_iso": "0312-10-28",
+   "date_display": "28 October 312 (written c. 498–518)",
+   "precision": "day",
+   "eye": "zosimus",
+   "place": "Constantinople, writing about Rome",
+   "headline": "Owls on the wall, and a Sibyl misread",
+   "digest": "Zosimus says Maxentius sacrificed and consulted the Sibylline oracles, which warned that whoever harmed the Romans would die miserably; he took it as a threat to his attacker. As his army crossed the bridge, owls in great numbers settled on the walls, and Constantine, seeing it, ordered his men forward. The beams of the bridge broke and Maxentius was swept away. There is no Christian sign in this pagan account.",
+   "quote": "an infinite number of owls flew down and covered the wall",
+   "source_kind": "legend",
+   "confidence": "verified",
+   "source_note": "Zosimus, New History 2.16 (London, 1814 translation), Livius.org. Written nearly two centuries after the battle."
+  },
+  {
+   "date_iso": "0312-10-29",
+   "date_display": "29 October 312",
+   "precision": "day",
+   "eye": "constantine",
+   "place": "Rome",
+   "headline": "The victor enters Rome",
+   "digest": "The day after the battle Constantine entered Rome in procession. The orator of 313 describes crowds pressing round him and says the head of Maxentius was carried on a spear. He disbanded the Praetorian Guard that had made Maxentius emperor. Later writers say he did not go up to the Capitol to sacrifice to Jupiter, a point still argued.",
+   "quote": "",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Pan. Lat. XII(9) 18–19; Nazarius, Pan. Lat. IV(10) 31–32. Date from the Roman calendar's commemoration of his entry."
+  },
+  {
+   "date_iso": "0312-11",
+   "date_display": "November 312",
+   "precision": "month",
+   "eye": "senate",
+   "place": "Rome, Senate house",
+   "headline": "The Senate votes him 'Maximus', the senior emperor",
+   "digest": "Lactantius says the Senate, in recognition of his merits, granted Constantine the title of first and greatest emperor, Maximus, which Maximinus Daia in the East had claimed for himself. Daia was furious when he heard. The Senate also dedicated to Constantine the great basilica Maxentius had built near the Forum.",
+   "quote": "",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Lactantius, De mort. pers. 44.11–12; Aurelius Victor 40.26 for the basilica."
+  },
+  {
+   "date_iso": "0312-11",
+   "date_display": "Late 312 or 313",
+   "precision": "range",
+   "eye": "eusebius",
+   "place": "Rome (statue), described from Caesarea",
+   "headline": "A statue in Rome holding the saving sign",
+   "digest": "Eusebius writes that Constantine ordered a statue of himself set up in a public place in Rome, holding in its right hand a tall cross-shaped standard, with a Latin inscription saying that by this saving sign he had freed the city from the tyrant and restored the Senate and people. Eusebius is the only source for this statue and its text; he was far away in Palestine.",
+   "quote": "",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Eusebius, Church History IX.9.10–11 (edition of c. 313–316); repeated in Life of Constantine I.40."
+  },
+  {
+   "date_iso": "0313",
+   "date_display": "313 (probably late summer or autumn)",
+   "precision": "year",
+   "eye": "pan313",
+   "place": "Trier",
+   "headline": "A prayer to the supreme creator of many names",
+   "digest": "Back in Gaul, the orator closes his speech by addressing the supreme creator of things, whose names are as many as the languages of men, whether a power spread through the world or one above the heavens. He calls Constantine's victory the work of a divine mind that communicated with him alone, leaving the lesser gods to others. There is no cross, chi-rho or shield sign in the speech.",
+   "quote": "",
+   "source_kind": "firsthand",
+   "confidence": "approx",
+   "source_note": "Pan. Lat. XII(9) 2.4–5 and 26 (Nixon and Rodgers 1994). Date within 313 debated."
+  },
+  {
+   "date_iso": "0313-02",
+   "date_display": "February 313",
+   "precision": "month",
+   "eye": "licinius",
+   "place": "Milan",
+   "headline": "Two emperors meet at Milan; a marriage seals the alliance",
+   "digest": "Licinius came to Milan and married Constantine's half-sister Constantia. The two Augusti agreed on a common policy toward the Christians and the restoration of their property. Nothing was published at Milan itself: the 'Edict of Milan' is the name later given to the letter Licinius sent out in the East after this meeting.",
+   "quote": "",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Lactantius, De mort. pers. 45 and 48; month from the modern chronology."
+  },
+  {
+   "date_iso": "0313-04-30",
+   "date_display": "30 April 313 (or 1 May)",
+   "precision": "day",
+   "eye": "licinius",
+   "place": "Campus Serenus, near Adrianople, Thrace",
+   "headline": "An angel gives Licinius a prayer before battle",
+   "digest": "Lactantius says that as Maximinus Daia advanced, an angel stood by the sleeping Licinius and told him to rise and pray with his whole army to the supreme God, promising victory. Licinius had the prayer written out and distributed. On the battlefield his soldiers laid down their shields, took off their helmets, raised their hands and repeated it three times after the emperor. Daia's larger army was routed. The prayer names no Christ and no particular god.",
+   "quote": "Supreme God, we beseech Thee; Holy God, we beseech Thee",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Lactantius, De mort. pers. 46–47 (ANF trans. Fletcher 1886), CCEL. Licinius planned to fight on the kalends of May and Daia on the day before; modern accounts usually give 30 April."
+  },
+  {
+   "date_iso": "0313-06-13",
+   "date_display": "13 June 313",
+   "precision": "day",
+   "eye": "licinius",
+   "place": "Nicomedia",
+   "headline": "The toleration letter is posted where persecution began",
+   "digest": "Licinius had his letter to the governors posted in Nicomedia. It opens with the meeting of the two emperors at Milan and grants Christians and all others the freedom to follow whatever religion each preferred, so that whatever divinity dwells in heaven might be favourable to the emperors and their subjects. Churches, cemeteries and property taken in the persecution were to be returned without payment.",
+   "quote": "liberty to follow that mode of religion",
+   "source_kind": "official record",
+   "confidence": "verified",
+   "source_note": "Lactantius, De mort. pers. 48 (posted on the ides of June, Constantine and Licinius consuls for the third time), BKV Fribourg; Greek version in Eusebius, Church History X.5."
+  },
+  {
+   "date_iso": "0313-06-13",
+   "date_display": "13 June 313",
+   "precision": "day",
+   "eye": "lactantius",
+   "place": "Nicomedia",
+   "headline": "A survivor of the persecution copies the letter",
+   "digest": "Lactantius, who had been in Nicomedia when Diocletian's persecution opened in 303, gave the Latin text of Licinius's letter in full. He presents it as the restoration of the church after ten years and four months of persecution. The letter never names Christ and uses careful, neutral words for God; Lactantius does not comment on that.",
+   "quote": "",
+   "source_kind": "official record",
+   "confidence": "verified",
+   "source_note": "Lactantius, De mort. pers. 48, BKV Fribourg."
+  },
+  {
+   "date_iso": "0313-08",
+   "date_display": "Summer 313",
+   "precision": "range",
+   "eye": "lactantius",
+   "place": "Tarsus, Cilicia (as reported)",
+   "headline": "The last persecutor dies at Tarsus",
+   "digest": "Lactantius describes the death of Maximinus Daia at Tarsus after his defeat by Licinius, presenting it as divine punishment and recording that Daia, in his final illness, confessed the Christian God and begged for mercy. He also reports Licinius's killing of the families of earlier emperors. These pages complete his argument that the gods of the persecutors had failed them.",
+   "quote": "",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Lactantius, De mort. pers. 49–51. Month approximate."
+  },
+  {
+   "date_iso": "0314",
+   "date_display": "c. 314–315",
+   "precision": "range",
+   "eye": "lactantius",
+   "place": "Gaul or Nicomedia (debated)",
+   "headline": "Lactantius finishes 'On the Deaths of the Persecutors'",
+   "digest": "Lactantius dedicated the work to a confessor named Donatus who had been imprisoned for six years. It is the source closest in time to the battle that tells the story of a Christian sign, written within about three years of it. It is a polemic, built to show God's judgement on persecutors, and its dream story is short and practical: a command, a sign, a victory.",
+   "quote": "",
+   "source_kind": "later firsthand",
+   "confidence": "approx",
+   "source_note": "De mort. pers. 1 and 52; date c. 314–315 rests on internal evidence (it knows Licinius as a friend of the Christians and nothing of the war of 316)."
+  },
+  {
+   "date_iso": "0315",
+   "date_display": "c. 315",
+   "precision": "year",
+   "eye": "ticinum",
+   "place": "Ticinum mint",
+   "headline": "The chi-rho on the emperor's helmet",
+   "digest": "A silver presentation medallion struck at Ticinum shows Constantine facing forward in a high crested helmet. A small badge with the chi-rho monogram sits on the helmet bowl; he holds a horse's bridle and a shield showing the wolf and twins. The medallion was probably given to officers at the decennalia. It is often called the earliest official image that carries the Christian monogram, though the badge is tiny.",
+   "quote": "",
+   "source_kind": "official record",
+   "confidence": "approx",
+   "source_note": "Ticinum silver medallion, c. 315, Staatliche Münzsammlung Munich (bavarikon record); dating by numismatic convention (RIC VII Ticinum 36)."
+  },
+  {
+   "date_iso": "0315-07",
+   "date_display": "July 315 (decennalia, 25 July)",
+   "precision": "month",
+   "eye": "senate",
+   "place": "Rome, beside the Colosseum",
+   "headline": "The arch says: 'by the prompting of the divinity'",
+   "digest": "For Constantine's tenth anniversary the Senate and People of Rome dedicated a triple arch. Its inscription says he avenged the state on the tyrant and his whole faction with just arms, 'instinctu divinitatis, mentis magnitudine' (by the prompting of the divinity and by the greatness of his mind). The god is not named. A frieze shows the march and the battle at the bridge, with the Sun god among the roundels and Victories in the spandrels, but no Christian sign.",
+   "quote": "",
+   "source_kind": "official record",
+   "confidence": "verified",
+   "source_note": "Arch inscription, CIL VI 1139 (text in World History Encyclopedia). Dedication usually placed at the decennalia of 25 July 315."
+  },
+  {
+   "date_iso": "0318",
+   "date_display": "c. 310–c. 320",
+   "precision": "range",
+   "eye": "ticinum",
+   "place": "Ticinum and other western mints",
+   "headline": "The Unconquered Sun stays on the coins",
+   "digest": "For years after 312 the mints of Ticinum, Rome, Trier and London went on striking coins with the reverse SOLI INVICTO COMITI, 'to the Unconquered Sun, companion', often showing Sol raising his hand. Constantine's public image thus kept the god of the 310 speech alongside the new monogram. The Sun types fade out around 320, before the war with Licinius.",
+   "quote": "",
+   "source_kind": "official record",
+   "confidence": "approx",
+   "source_note": "Roman Imperial Coinage VI–VII; end date of Sol types debated (c. 318–325)."
+  },
+  {
+   "date_iso": "0321-03",
+   "date_display": "Probably March 321",
+   "precision": "month",
+   "eye": "nazarius",
+   "place": "Rome",
+   "headline": "Heavenly armies led by the deified Constantius",
+   "digest": "Nazarius tells his audience that all Gaul talks of armies seen in the sky in 312, shining, saying they had come to help Constantine, led by his father Constantius, now among the gods. He presents this as a marvel already widely told. In 321, nine years after the battle, the official speech still describes the divine help without any Christian sign.",
+   "quote": "",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Nazarius, Pan. Lat. IV(10) 14 (Nixon and Rodgers 1994); occasion: fifteenth year of Constantine and fifth of the Caesars, 321."
+  },
+  {
+   "date_iso": "0321-03-07",
+   "date_display": "7 March 321",
+   "precision": "day",
+   "eye": "constantine",
+   "place": "Imperial chancery (law sent to Helpidius)",
+   "headline": "The 'venerable day of the Sun' made a day of rest",
+   "digest": "Constantine ordered that on the day of the Sun judges, city people and craftsmen should rest, though farmers might work their fields if weather required. The law uses the traditional name of the day and no Christian term. Christians already met on that day, as the Lord's Day; the law served both readings.",
+   "quote": "",
+   "source_kind": "official record",
+   "confidence": "approx",
+   "source_note": "Codex Justinianus 3.12.2; date as transmitted in the Code."
+  },
+  {
+   "date_iso": "0324-09-18",
+   "date_display": "18 September 324",
+   "precision": "day",
+   "eye": "licinius",
+   "place": "Chrysopolis, opposite Byzantium",
+   "headline": "Licinius is defeated; one emperor rules again",
+   "digest": "After a first war in 316 and years of tension, Constantine defeated Licinius at Adrianople and then at Chrysopolis. Licinius surrendered on the plea of his wife Constantia and was sent to Thessalonica, where he was put to death in 325. Eusebius, who had praised him in earlier editions of the Church History, now recast him as a persecutor.",
+   "quote": "",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Eusebius, Life of Constantine II.1–18; Church History X.8–9 (revised edition); Zosimus 2.22–28. Date of Chrysopolis as usually given."
+  },
+  {
+   "date_iso": "0325-06",
+   "date_display": "May–June 325",
+   "precision": "range",
+   "eye": "eusebius",
+   "place": "Nicaea, Bithynia",
+   "headline": "At Nicaea, the historian meets the emperor",
+   "digest": "Eusebius attended the council that Constantine summoned to Nicaea and later described the emperor entering the hall in robes that flashed like light. The council agreed a creed and a rule for keeping Easter. Some scholars think it was around this time, or at his later visits to court, that Eusebius heard Constantine tell the story of the sign.",
+   "quote": "",
+   "source_kind": "later firsthand",
+   "confidence": "approx",
+   "source_note": "Eusebius, Life of Constantine III.6–14 (written after 337); the time of the conversation about the vision is not stated in the text."
+  },
+  {
+   "date_iso": "0326",
+   "date_display": "326",
+   "precision": "year",
+   "eye": "constantine",
+   "place": "Pola, Istria, and Rome",
+   "headline": "The execution of Crispus",
+   "digest": "In 326 Constantine had his eldest son Crispus, Lactantius's former pupil and the victor of the naval war against Licinius, put to death at Pola; his wife Fausta died soon after. No contemporary explains why. Eusebius's Life passes over both deaths in silence.",
+   "quote": "",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Ammianus Marcellinus 14.11.20; Zosimus 2.29; Eutropius 10.6. Causes unknown."
+  },
+  {
+   "date_iso": "0326",
+   "date_display": "326 (story written c. 498–518)",
+   "precision": "year",
+   "eye": "zosimus",
+   "place": "Constantinople, writing about Rome",
+   "headline": "A hostile story of why Constantine turned Christian",
+   "digest": "Zosimus says that after killing Crispus and Fausta, Constantine sought purification; pagan priests refused, and an Egyptian from Spain told him that the Christian faith could wash away any sin. Only then, in this version, did he abandon the ancestral rites. The story contradicts every earlier account, which put his turn in 312, and Christian writers rejected it.",
+   "quote": "",
+   "source_kind": "legend",
+   "confidence": "approx",
+   "source_note": "Zosimus, New History 2.29, Livius.org (book 2)."
+  },
+  {
+   "date_iso": "0330-05-11",
+   "date_display": "11 May 330",
+   "precision": "day",
+   "eye": "constantine",
+   "place": "Byzantium, renamed Constantinople",
+   "headline": "The new city is dedicated",
+   "digest": "Constantine dedicated the refounded city of Byzantium as his capital, with a column carrying his statue in the new forum. Later sources describe both Christian churches and the old civic cults in the new city, and disagree on how far it was meant to be Christian. The city kept his name until the Ottoman conquest of 1453 and after.",
+   "quote": "",
+   "source_kind": "official record",
+   "confidence": "approx",
+   "source_note": "Chronicon Paschale for the date; Eusebius, Life of Constantine III.48."
+  },
+  {
+   "date_iso": "0336-07-25",
+   "date_display": "25 July 336",
+   "precision": "day",
+   "eye": "eusebius",
+   "place": "Constantinople, imperial palace",
+   "headline": "A speech for the thirty years the vision promised",
+   "digest": "Eusebius spoke at court for Constantine's thirtieth year of rule (tricennalia). He portrayed the emperor as the image of the divine Word on earth, ruling under the saving sign. Constantine had now reached the thirty years that the orator of 310 said Apollo's wreaths foretold; Eusebius, of course, gives the credit to Christ.",
+   "quote": "",
+   "source_kind": "firsthand",
+   "confidence": "approx",
+   "source_note": "Eusebius, In Praise of Constantine (Tricennial Oration); delivery usually placed on 25 July 336."
+  },
+  {
+   "date_iso": "0337-05-22",
+   "date_display": "22 May 337 (Pentecost)",
+   "precision": "day",
+   "eye": "constantine",
+   "place": "Achyron, near Nicomedia",
+   "headline": "Baptised on his deathbed, Constantine dies",
+   "digest": "Falling ill after Easter, Constantine went to the baths near Helenopolis, then to a villa outside Nicomedia, where bishops (led by Eusebius of Nicomedia) baptised him. He put off the purple and died in white robes at noon on Pentecost. His body was taken to Constantinople and buried in the Church of the Holy Apostles.",
+   "quote": "",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Eusebius, Life of Constantine IV.61–71."
+  },
+  {
+   "date_iso": "0337-06",
+   "date_display": "337–339",
+   "precision": "range",
+   "eye": "eusebius",
+   "place": "Caesarea",
+   "headline": "Writing the Life: 'he confirmed it by an oath'",
+   "digest": "In the Life, Eusebius introduces the vision with care. If anyone else had told it, he writes, it would not be easy to believe; but the emperor himself told it long afterwards, when Eusebius was honoured with his acquaintance, and swore to it. Eusebius adds that the army saw it too. It is the latest of the three main accounts, the only one claiming to come from Constantine, and the only one with a sign in the sky.",
+   "quote": "confirmed his statement by an oath",
+   "source_kind": "secondhand",
+   "confidence": "verified",
+   "source_note": "Eusebius, Life of Constantine I.28 (NPNF trans. Richardson 1890), CCEL and Fordham Sourcebook. Gap: about 25 years between the event and the written account."
+  },
+  {
+   "date_iso": "0337-06",
+   "date_display": "337–339",
+   "precision": "range",
+   "eye": "eusebius",
+   "place": "Caesarea",
+   "headline": "'I have seen it': the labarum described",
+   "digest": "Eusebius describes the jewelled standard made after the dream in detail and says he himself had seen it, with a banner and portraits of the emperor and his sons beneath the wreath. He adds that Constantine used copies of it as a protection at the head of all his armies. The standard he saw was a later object; whether it matched the first one is unknown.",
+   "quote": "",
+   "source_kind": "later firsthand",
+   "confidence": "approx",
+   "source_note": "Eusebius, Life of Constantine I.30–31 and II.7–9."
+  },
+  {
+   "date_iso": "0339-05",
+   "date_display": "c. 339",
+   "precision": "year",
+   "eye": "eusebius",
+   "place": "Caesarea",
+   "headline": "Eusebius dies with the Life unfinished",
+   "digest": "Eusebius died about two years after Constantine, leaving the Life without its final revision; scholars see unfinished joins in it. His two accounts, the visionless one of the Church History and the cross of light of the Life, were both passed down and copied side by side.",
+   "quote": "",
+   "source_kind": "secondhand",
+   "confidence": "approx",
+   "source_note": "Date of death traditional (c. 339); Cameron and Hall's commentary on the Life."
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "0310",
+   "date_display": "310",
+   "eye": "pan310",
+   "claim": "Constantine saw Apollo with Victory offering laurel wreaths marked XXX at a temple in Gaul; reported within months, in a speech before him",
+   "form": "other",
+   "evidence": "Pan. Lat. VI(7) 21 (panegyric)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "0311-04-30",
+   "date_display": "30 April 311",
+   "eye": "lactantius",
+   "claim": "Galerius's edict ends persecution and asks Christians to pray for the emperor",
+   "form": "report",
+   "evidence": "Lactantius, De mort. pers. 34–35; Eusebius, Church History VIII.17",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "0312-10-27",
+   "date_display": "Eve of 28 October 312",
+   "eye": "lactantius",
+   "claim": "Constantine was told in a dream to mark the heavenly sign of God on his shields; event 312, first written c. 314–315 (earliest Christian account)",
+   "form": "report",
+   "evidence": "Lactantius, De mort. pers. 44.5",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "0312-10-28",
+   "date_display": "28 October 312",
+   "eye": "maxentius",
+   "claim": "Maxentius took the Sibylline answer that 'the enemy of the Romans' would perish as favourable, and marched out",
+   "form": "report",
+   "evidence": "Lactantius, De mort. pers. 44.8–9; Zosimus 2.16 (c. 500)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "0313-04-30",
+   "date_display": "30 April 313",
+   "eye": "licinius",
+   "claim": "An angel gave Licinius a prayer to the supreme God before his battle with Maximinus Daia; reported by Lactantius c. 314–315",
+   "form": "report",
+   "evidence": "Lactantius, De mort. pers. 46",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "0313-06-13",
+   "date_display": "13 June 313",
+   "eye": "licinius",
+   "claim": "Freedom of religion for Christians and all others; confiscated church property returned",
+   "form": "other",
+   "evidence": "Letter of Licinius, Lactantius 48 (Latin) and Eusebius, Church History X.5 (Greek)",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "0313",
+   "date_display": "313",
+   "eye": "pan313",
+   "claim": "Constantine marched against the soothsayers' warnings, prompted by a divine mind that spoke to him alone; no sign mentioned",
+   "form": "other",
+   "evidence": "Pan. Lat. XII(9) 2 and 26",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "0315",
+   "date_display": "c. 315 (date of edition debated)",
+   "eye": "eusebius",
+   "claim": "God answered Constantine's prayer and drowned Maxentius like Pharaoh; no vision mentioned",
+   "form": "other",
+   "evidence": "Eusebius, Church History IX.9",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "0315-07",
+   "date_display": "July 315",
+   "eye": "senate",
+   "claim": "Constantine won 'by the prompting of the divinity' (instinctu divinitatis); no god named",
+   "form": "other",
+   "evidence": "Arch of Constantine inscription, CIL VI 1139",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "0315",
+   "date_display": "c. 315",
+   "eye": "ticinum",
+   "claim": "Official image of Constantine with a chi-rho badge on his helmet",
+   "form": "other",
+   "evidence": "Ticinum silver medallion, Staatliche Münzsammlung Munich",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "0321-03",
+   "date_display": "321",
+   "eye": "nazarius",
+   "claim": "All Gaul spoke of heavenly armies, led by the deified Constantius, that came to help Constantine in 312",
+   "form": "other",
+   "evidence": "Pan. Lat. IV(10) 14",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "0337-06",
+   "date_display": "337–339",
+   "eye": "eusebius",
+   "claim": "A cross of light above the noon sun with 'Conquer by this', seen by the army, then Christ in a dream; told by Constantine on oath 'long afterwards'; event 312 (or earlier), written c. 337–339",
+   "form": "vision account",
+   "evidence": "Eusebius, Life of Constantine I.28–31",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "0500",
+   "date_display": "c. 498–518",
+   "eye": "zosimus",
+   "claim": "Owls covered the wall before the battle; Constantine turned Christian only in 326, seeking forgiveness for killing his son and wife",
+   "form": "other",
+   "evidence": "Zosimus, New History 2.16 and 2.29",
+   "confidence": "approx"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "0310",
+   "label": "The vision in Gaul and the vision on the march",
+   "eyes": [
+    "pan310",
+    "constantine",
+    "eusebius"
+   ],
+   "note": "The orator of 310 places a vision of Apollo at a Gallic temple; Eusebius's Life, nearly thirty years later, places a cross in the sky 'on a march' with no date or place. Some scholars, beginning with Peter Weiss, think both describe one sky phenomenon told in two religious languages; others treat them as separate stories."
+  },
+  {
+   "date": "0312-10-27",
+   "label": "The eve of battle",
+   "eyes": [
+    "lactantius",
+    "constantine",
+    "pan313"
+   ],
+   "note": "Lactantius (c. 315) gives a dream and a shield sign on the eve of the battle. Eusebius's Life gives a sky-sign and a dream at an unnamed earlier moment, with a standard as the result. The orator of 313 gives neither, only a divine prompting."
+  },
+  {
+   "date": "0312-10-28",
+   "label": "The battle at the Milvian Bridge",
+   "eyes": [
+    "maxentius",
+    "constantine",
+    "zosimus",
+    "lactantius",
+    "eusebius"
+   ],
+   "note": "Every source agrees that Maxentius drowned when the bridge failed. They disagree on the signs: a Christian monogram (Lactantius), a cross in the sky (Eusebius's Life), divine prompting (the panegyrists), owls and a misread Sibyl (Zosimus)."
+  },
+  {
+   "date": "0313",
+   "label": "Two emperors, two heaven-sent victories",
+   "eyes": [
+    "licinius",
+    "lactantius",
+    "pan313"
+   ],
+   "note": "Within months of each other, Lactantius credits Licinius's victory to an angel's prayer to a nameless supreme God, and the orator at Trier prays to a supreme creator of many names. Both kept Christian and pagan listeners in view."
+  },
+  {
+   "date": "0313-06-13",
+   "label": "The letter of toleration posted in Nicomedia",
+   "eyes": [
+    "licinius",
+    "lactantius",
+    "eusebius"
+   ],
+   "note": "The same letter survives in Latin in Lactantius and in Greek in Eusebius, the only two copies. 'Edict of Milan' is a later name; it was a letter issued in Nicomedia."
+  },
+  {
+   "date": "0315",
+   "label": "Official words and images of 315",
+   "eyes": [
+    "senate",
+    "ticinum",
+    "eusebius"
+   ],
+   "note": "The Senate's arch names 'the divinity' and shows no Christian sign; the Ticinum medallion puts a small chi-rho on the emperor's helmet; Eusebius describes a statue in Rome holding the saving sign. Three official records of the same year, three degrees of explicitness."
+  },
+  {
+   "date": "0321-03",
+   "label": "Nine years on: heavenly armies and the day of the Sun",
+   "eyes": [
+    "nazarius",
+    "constantine",
+    "ticinum"
+   ],
+   "note": "In 321 an orator still tells the divine help of 312 as armies of the deified Constantius, a law names 'the day of the Sun', and Sun coins are only just leaving the mints."
+  },
+  {
+   "date": "0336-07-25",
+   "label": "The thirty years fulfilled",
+   "eyes": [
+    "eusebius",
+    "pan310",
+    "constantine"
+   ],
+   "note": "Constantine celebrated thirty years of rule in 336, as the wreaths marked XXX in the 310 vision had promised. A Christian bishop gave the jubilee speech and credited it to Christ."
+  }
+ ],
+ "ties": [
+  {
+   "a": "eusebius",
+   "b": "constantine",
+   "kind": "met",
+   "note": "Eusebius met Constantine at Nicaea in 325 and at court later, and says he heard the story of the vision from him in person, sworn on oath."
+  },
+  {
+   "a": "lactantius",
+   "b": "constantine",
+   "kind": "met",
+   "note": "Jerome records that Lactantius in extreme old age was tutor to Constantine's son Crispus in Gaul; his Divine Institutes were addressed to Constantine."
+  },
+  {
+   "a": "constantine",
+   "b": "maxentius",
+   "kind": "opposite sides",
+   "note": "Brothers-in-law (Constantine married Maxentius's sister Fausta in 307) who met as enemies at the Milvian Bridge."
+  },
+  {
+   "a": "constantine",
+   "b": "licinius",
+   "kind": "relative",
+   "note": "Licinius married Constantine's half-sister Constantia at Milan in 313; the allies of 313 fought in 316 and 324, and Licinius was put to death in 325."
+  },
+  {
+   "a": "pan310",
+   "b": "pan313",
+   "kind": "influenced",
+   "note": "Both orators spoke at Trier within three years; the patron of 310 is Apollo, the god of 313 an unnamed supreme mind. The change in court language is the clearest dated record of the shift."
+  },
+  {
+   "a": "pan313",
+   "b": "nazarius",
+   "kind": "influenced",
+   "note": "The 313 speech has sometimes been attributed to Nazarius; most scholars now separate them. Nazarius in 321 adds the heavenly army to the story the earlier orator told."
+  },
+  {
+   "a": "zosimus",
+   "b": "eusebius",
+   "kind": "opposite sides",
+   "note": "Zosimus's pagan history answers the Christian narrative: no sign in 312, and a conversion in 326 out of guilt."
+  },
+  {
+   "a": "senate",
+   "b": "maxentius",
+   "kind": "opposite sides",
+   "note": "The Senate that had lived under Maxentius dedicated an arch calling him 'the tyrant', and gave his basilica to Constantine."
+  },
+  {
+   "a": "ticinum",
+   "b": "constantine",
+   "kind": "influenced",
+   "note": "The mints spoke for the emperor; their images of Sol and the chi-rho, side by side for years, are the dated public record of his religious image."
+  },
+  {
+   "a": "maxentius",
+   "b": "zosimus",
+   "kind": "mentioned",
+   "note": "Zosimus is the only source for the owls and gives a pagan version of Maxentius's consultation of the Sibylline oracles."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v2:constantinople-1453",
+   "note": "The city Constantine dedicated on 11 May 330 kept his name for more than eleven centuries. Its last emperor, Constantine XI, died when it fell to Mehmed II on 29 May 1453."
+  },
+  {
+   "to": "v6:worms-1521",
+   "note": "The 'Donation of Constantine', a forged grant of the West to Pope Sylvester, was shown to be a later forgery by Lorenzo Valla in 1440. Ulrich von Hutten printed Valla's treatise c. 1519, Luther read it in 1520, and it hardened his view of the papacy before the Diet of Worms."
+  },
+  {
+   "to": "v15:missing-days",
+   "note": "The Council of Nicaea, which Constantine called and Eusebius attended in 325, set the rule for calculating Easter. The Gregorian reform of 1582, which dropped ten days, was designed to bring the spring equinox back to where it had been in the Council's time."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.worldhistory.org/article/497/the-arch-of-constantine-rome",
+   "title": "The Arch of Constantine, Rome",
+   "caption": "The triple arch dedicated by the Senate and People of Rome for Constantine's tenth anniversary in 315. Its attic inscription credits the victory to 'the prompting of the divinity' without naming any god.",
+   "date": "315",
+   "credit": "World History Encyclopedia"
+  },
+  {
+   "url": "https://heurist.huma-num.fr/heurist/judaism_and_rome/view/90",
+   "title": "The Arch of Constantine (database record)",
+   "caption": "Scholarly record of the arch and its inscription (CIL VI 1139). The Constantinian frieze shows the march from Gaul and the battle at the bridge.",
+   "date": "315",
+   "credit": "Judaism and Rome project"
+  },
+  {
+   "url": "https://www.bavarikon.de/object/SMM-DDD-00000B3D00000008?lang=en",
+   "title": "Silver medallion of Constantine I",
+   "caption": "Record for the silver medallion of Constantine in Munich, the type struck at Ticinum c. 315 that shows a small chi-rho badge on the emperor's helmet. The date of the type rests on numismatic convention.",
+   "date": "c. 315",
+   "credit": "Staatliche Münzsammlung München, via bavarikon"
+  },
+  {
+   "url": "https://heurist.huma-num.fr/heurist/judaism_and_rome/view/382",
+   "title": "Ticinum nummus with labarum-like standard, 319–320",
+   "caption": "A bronze coin from Ticinum with captives under a standard inscribed VOT XX. The record notes the standard may echo the one Eusebius described, but whether it is Christian is uncertain.",
+   "date": "319–320",
+   "credit": "Judaism and Rome project"
+  },
+  {
+   "url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello/sala-di-costantino/stanza-di-costantino.html",
+   "title": "Hall of Constantine, Vatican",
+   "caption": "Fresco cycle painted by Raphael's workshop (chiefly Giulio Romano and Gianfrancesco Penni), 1520–24, including the Vision of the Cross and the Battle of the Milvian Bridge. It follows Eusebius's sky-sign version, 1,200 years later.",
+   "date": "1520–1524",
+   "credit": "Vatican Museums"
+  }
+ ],
+ "further": [
+  {
+   "title": "Lactantius, Of the Manner in Which the Persecutors Died (Latin and English), BKV Fribourg",
+   "url": "https://bkv.unifr.ch/works/cpl-91/versions/of-the-manner-in-which-the-persecutors-died/divisions/45"
+  },
+  {
+   "title": "Eusebius, Life of Constantine I.28 (NPNF), CCEL",
+   "url": "https://www.ccel.org/ccel/schaff/npnf201.iv.vi.i.xxviii.html"
+  },
+  {
+   "title": "Fordham Internet Medieval Sourcebook: Eusebius on the conversion of Constantine",
+   "url": "https://sourcebooks.web.fordham.edu/source/conv-const.asp"
+  },
+  {
+   "title": "Zosimus, New History book 2 (1814 translation), Livius.org",
+   "url": "https://livius.org/sources/content/zosimus/zosimus-new-history-2/"
+  },
+  {
+   "title": "C. Ware, A Literary Commentary on Panegyrici Latini VI(7) (Cambridge, 2021), excerpt",
+   "url": "https://assets.cambridge.org/97811071/23694/excerpt/9781107123694_excerpt.pdf"
+  },
+  {
+   "title": "Christian History Institute: Constantine's vision",
+   "url": "https://christianhistoryinstitute.org/study/module/constantine"
+  },
+  {
+   "title": "Vatican Museums: Hall of Constantine",
+   "url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello/sala-di-costantino/stanza-di-costantino.html"
+  }
+ ],
+ "vantage_key": "0 = emperors who acted on the signs (Constantine, Maxentius, Licinius); 1 = court orators and official records made close to the events; 2 = writers within a few years; 3 = later or distant writers; 4 = hostile historian two centuries later."
+}

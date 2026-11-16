@@ -1,0 +1,507 @@
+[
+ {
+  "chapter": "waitangi-1840",
+  "where": "entry:24",
+  "severity": "error",
+  "problem": "Te Ara (1966) quotes 'full and clear recognition of the sovereign-rights of Her Majesty over the northern parts of this land' from Hobson's dispatch of 25 May 1840 (reporting the proclamations), not from a report of 6 February. The words 'must be deemed' were not confirmed.",
+  "fix": {
+   "date_iso": "1840-05-25",
+   "date_display": "Monday 25 May 1840",
+   "precision": "day",
+   "place": "Bay of Islands",
+   "headline": "Hobson reports a full recognition of sovereignty",
+   "digest": "Sending his proclamations to London, Hobson described the chiefs' signatures as a full and clear recognition of the Queen's sovereign rights over the northern parts of the country. The dispatch said little about the conditions the rangatira had spoken of at Waitangi and Hokianga.",
+   "quote": "full and clear recognition of the sovereign-rights of Her Majesty",
+   "confidence": "verified",
+   "source_note": "Te Ara 1966 'Waitangi, Treaty of', quoting Hobson's dispatch of 25 May 1840."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "calendar_note:0",
+  "severity": "error",
+  "problem": "The dispatch with the 'full and clear recognition' phrase is dated 25 May 1840 (Te Ara 1966), so it is no longer dated approximately.",
+  "fix": {
+   "text_replace": {
+    "old": "Hobson's dispatch reporting the Waitangi signing is dated here only approximately.",
+    "new": "Hobson's dispatch describing the signatures as a full recognition of sovereignty is dated 25 May 1840."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "convergence:2",
+  "severity": "error",
+  "problem": "The 'full recognition of sovereignty' report is from Hobson's dispatch of 25 May 1840, not from 6 February.",
+  "fix": {
+   "text_replace": {
+    "old": "; Hobson reports a full recognition of sovereignty.",
+    "new": "."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "entry:5",
+  "severity": "doubt",
+  "problem": "Buick (1914, p. 7 of the online reader) has Taylor answer that he would 'never consent to follow Rome', after which he and the other Protestant clergy withdrew from the procession. It does not say they then placed themselves beside or behind the governor. The quote is confirmed exactly.",
+  "fix": {
+   "text_replace": {
+    "old": "Richard Taylor replied that he would never follow Rome. The Protestant clergy then placed themselves beside or behind the governor so as not to be seen ranked below the bishop.",
+    "new": "Richard Taylor replied that he would never consent to follow Rome, and he and the other Protestant clergy withdrew from the procession."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "entry:8",
+  "severity": "error",
+  "problem": "NZHistory says Busby told the meeting the Crown would acquire land and would return any 'improperly taken'. The Spinoff article has no speech by Busby, and the sources name missionaries, not Busby, as the ones accused of taking land. The digest says more than its sources.",
+  "fix": {
+   "digest": "Busby addressed the meeting on land, the sorest point. Some speakers accused the missionaries present of taking their land; Busby said the Crown would acquire land and would return any land improperly taken from Māori.",
+   "source_note": "NZHistory: Waitangi, 6 February 1840 (Busby on land; accusations against missionaries)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "entry:13",
+  "severity": "doubt",
+  "problem": "The Spinoff summary has Nene ask Hobson to stay as father, judge and peacemaker. It does not have him ask Hobson to keep the promises made.",
+  "fix": {
+   "text_replace": {
+    "old": " a judge and a peacemaker, and to keep the promises made.",
+    "new": " a judge and a peacemaker."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "entry:9",
+  "severity": "style",
+  "problem": "The Spinoff summary says Te Kēmara feared the governor could have him arrested or hanged, and that he also asked for his lands back.",
+  "fix": {
+   "text_replace": {
+    "old": "complained that the governor could have him seized.",
+    "new": "complained that the governor could have him arrested or hanged, and he asked for his lands back."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "entry:18",
+  "severity": "style",
+  "problem": "The Spinoff summary does not say the statement was read again in Māori (it says Hobson wrote a decree, which Williams translated). It also does not use the label 'fourth article', though that label is standard in the literature.",
+  "fix": {
+   "text_replace": {
+    "old": "Hobson agreed, and Williams read a statement in Māori",
+    "new": "Hobson agreed and wrote a statement, which Williams translated and read in Māori,"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "entry:22",
+  "severity": "error",
+  "problem": "The NZACL Yearbook (2004) says Clendon witnessed the first signing. It does not say he signed the sheet as a witness.",
+  "fix": {
+   "headline": "The American consul watches the first signatures",
+   "digest": "Clendon was present to witness the first signatures at Waitangi. As consul of a rival power he had a direct interest in what Britain was acquiring and how firmly."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "entry:33",
+  "severity": "error",
+  "problem": "Clendon's letter of 18 March 1840 (the original is lost; a photocopy survives) asked to be furnished with 'a copy of any existing Treaty'. The word 'authenticated' is not in it, and a note of 6 April records that he was to get a copy and translation.",
+  "fix": {
+   "digest": "Clendon wrote to Shortland asking to be furnished with a copy of any treaty made with the chiefs, to send to the United States government. A note of 6 April records that he was to receive a copy and a translation."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "entry:27",
+  "severity": "doubt",
+  "problem": "NZHistory's Māngungu page does not describe Nene's part in the 12 February meeting. It says only that he later led Hokianga signatories, among them Taonui and Mohi Tāwhai, against Heke and Kawiti in 1845–46.",
+  "fix": {
+   "text_replace": {
+    "old": "Those who signed there, led by Nene, Āperahama Taonui and Mohi Tāwhai, became the Crown's firmest Māori allies in the north.",
+    "new": "Among those who signed there were Nene's Hokianga allies; in 1845–46 Nene led Hokianga signatories, among them Taonui and Mohi Tāwhai, on the Crown's side against Heke and Kawiti."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "entry:28",
+  "severity": "style",
+  "problem": "NZHistory places the feast at Hōreke on 13 February. On the 14th the hapū that withdrew threw its blankets back, backed by a letter of 50 signatures.",
+  "fix": {
+   "text_replace": {
+    "old": "another hapū sent back its blankets with a letter of 50 names.",
+    "new": "another hapū, backed by a letter bearing 50 names, threw its blankets back."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "entry:36",
+  "severity": "doubt",
+  "problem": "NZHistory gives no date for Hobson's 'principal object' instruction. Williams had to have it before he sailed south (he was taking signatures at Port Nicholson by the end of April), so 'May' is unlikely.",
+  "fix": {
+   "date_iso": "1840-04",
+   "precision": "month",
+   "date_display": "April 1840 (before Williams sailed south; exact date not known)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "claim:8",
+  "severity": "doubt",
+  "problem": "Mathew's words come from his journal as cited by NZHistory, which ties them to the 5 February meeting but gives no entry date. The 1940 edition was not seen.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "eye:hobson",
+  "severity": "error",
+  "problem": "NZHistory gives Hobson's dates as 1792–1842 (born 26 September 1792), so he was 47 in early 1840.",
+  "fix": {
+   "life": "1792–1842",
+   "role": "Naval officer, aged 47; consul and Lieutenant-Governor-designate under the Governor of New South Wales"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "eye:busby",
+  "severity": "doubt",
+  "problem": "Busby is usually given as born 7 February 1802, which would make him 37 at the 5–6 February meeting (38 the next day).",
+  "fix": {
+   "text_replace": {
+    "old": "since 1833, aged 38;",
+    "new": "since 1833, aged 37;"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "eye:heke",
+  "severity": "error",
+  "problem": "Heke first cut down the Kororāreka flagstaff in July 1844, four years after the treaty, and felled it again in 1845.",
+  "fix": {
+   "text_replace": {
+    "old": "five years later he cut down the flagstaff at Kororāreka.",
+    "new": "from July 1844 he repeatedly cut down the flagstaff at Kororāreka."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "eye:hwilliams",
+  "severity": "style",
+  "problem": "Williams took the Cook Strait sheet south in April 1840 (Port Nicholson signatures came before Kāpiti) and took Te Rauparaha's signature on 14 May.",
+  "fix": {
+   "text_replace": {
+    "old": "In May 1840 he carried a sheet south and took Te Rauparaha's signature.",
+    "new": "In April–May 1840 he carried a sheet south, taking Te Rauparaha's signature at Kāpiti on 14 May."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "image:0",
+  "severity": "error",
+  "problem": "The image URL uses an odd 'Www.Wikipedia.org' host. The file name is a Wikimedia Commons file (an Archives NZ Flickr upload), so the canonical Commons host is used instead.",
+  "fix": {
+   "url": "https://commons.wikimedia.org/wiki/File:Reconstruction_of_the_Signing_of_the_Treaty_of_Waitangi,_Marcus_King_(16044258961).jpg"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "image:2",
+  "severity": "style",
+  "problem": "The Waikato–Manukau sheet also carries signatures taken later at Manukau, so the caption should not imply the 32 Waikato Heads names are all of them.",
+  "fix": {
+   "text_replace": {
+    "old": "signed by 32 rangatira at Waikato Heads in 1840.",
+    "new": "signed by 32 rangatira at Waikato Heads in 1840 and later also at Manukau."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "entry:11",
+  "severity": "style",
+  "problem": "The Spinoff summary, the stated source, does not mention Colenso; it relies on Salmond's 2010 compilation of missionaries' and officials' accounts. The source note should not say the summary draws on Colenso.",
+  "fix": {
+   "source_note": "The Spinoff (2025) summary of Salmond's 2010 report for the Waitangi Tribunal, which compiled missionaries' and officials' accounts (Colenso's among them); sequence of speakers from that summary."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "waitangi-1840",
+  "where": "entry:20",
+  "severity": "doubt",
+  "problem": "No source cited here (the NZHistory pages) mentions Marupō and Ruhe. Their conduct on 6 February is known mainly from Colenso (1890), which was not opened.",
+  "fix": {
+   "source_note": "NZHistory: Signing the Treaty and 6 February 1840 (43 signatures, number disputed; Te Ara 1966 gives 45). Marupō and Ruhe from Colenso (1890), not seen directly."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "entry:26",
+  "severity": "error",
+  "problem": "Labilliere prints the 23 October 1835 letter. In it Batman says he proposed to move to Port Phillip with his family, asks Arthur to inform Bourke of the Association's plans, complains of settlers ignoring the treaty and asks for authority to control them, and reports 80 to 100 Aboriginal people fed and clothed. The digest did not report its contents and mixed in the tribute claim, which rests on Knapman alone.",
+  "fix": {
+   "digest": "Batman wrote to Arthur that, now the New South Wales governor claimed jurisdiction, he hoped Arthur would tell Bourke of the Association's plans. He complained of men settling on the land without regard to the treaty, asked for authority to control settlers, reported eighty to a hundred Aboriginal people being fed and clothed, and said he meant to move to Port Phillip with his family at once.",
+   "quote": "I propose immediately to proceed with my family to Port Phillip",
+   "confidence": "verified",
+   "source_note": "Batman to Arthur, Launceston, 23 October 1835, in Labilliere (1878)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "entry:30",
+  "severity": "error",
+  "problem": "Gellibrand's 'kindness and conciliation' remark is about Buckley's own nervous, irritable temperament ('he can only be acted upon by kindness and conciliation'), not Buckley's view of the people.",
+  "fix": {
+   "text_replace": {
+    "old": "He recorded Buckley's view that the people could only be moved by kindness and conciliation.",
+    "new": "He judged Buckley nervous and easily annoyed, which he put down to his long isolation, and concluded that Buckley himself could only be handled with kindness."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "entry:19",
+  "severity": "error",
+  "problem": "This rests only on a Wikipedia mirror. The State Library Victoria timeline has Wedge leading the Indented Head party to the Yarra on 2 September 1835 and finding the Fawkner party already there. Labilliere does not describe Wedge telling them of the purchase.",
+  "fix": {
+   "date_iso": "1835-09-02",
+   "date_display": "About 2 September 1835",
+   "precision": "day",
+   "digest": "Wedge led the men from the Indented Head camp to the Yarra and found Fawkner's party already settled on the site. Later accounts say the Association's men told them the land had been bought from the chiefs; Fawkner's party stayed, and Fawkner treated the deed as worthless.",
+   "confidence": "approx",
+   "source_note": "SLV, Victoria's early colonial history timeline (Wedge, 2 September 1835); the warning to Fawkner's men rests on secondary summaries only."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "convergence:3",
+  "severity": "error",
+  "problem": "Wedge landed at Indented Head on 7 August and reached the Yarra only about 2 September (SLV timeline), so he had not been on the Yarra for three weeks when Fawkner's party moored there.",
+  "fix": {
+   "text_replace": {
+    "old": "on 29–30 August Fawkner's party moored on the Yarra, where Wedge had been for three weeks.",
+    "new": "on 29–30 August Fawkner's party moored on the Yarra, while Wedge, at Port Phillip since 7 August, was still based at Indented Head."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "entry:18",
+  "severity": "error",
+  "problem": "The digest describes the journal's opening entries, but only the manuscript's date range was seen (NLA MS 3224, from 18 July 1835).",
+  "fix": {
+   "digest": "Fawkner's manuscript journal of preparations for Port Phillip begins on 18 July 1835, as he readied his party and the Enterprize for the crossing. It is the rival settlers' running record, kept outside the Association.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "entry:24",
+  "severity": "error",
+  "problem": "The digest describes what the journal records after Fawkner arrived, but the journal entries were not read. Only the arrival (10 or 16 October; SLV gives 16 October) is sourced.",
+  "fix": {
+   "text_replace": {
+    "old": "Fawkner reached the Yarra and joined his party, beginning the journal's record of building, trading and quarrelling with Batman's men over who had the right to the riverbank.",
+    "new": "Fawkner reached the Yarra and joined his party, whose settlement stood beside the Association's men on the riverbank."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "entry:37",
+  "severity": "error",
+  "problem": "The digest characterises the journal's last year, and adds an interpretive judgement of the compilers' own, but only the closing date of the manuscript (8 August 1836) was seen.",
+  "fix": {
+   "digest": "Fawkner's manuscript journal closes on 8 August 1836, a year after his party first reached the Yarra; the published edition (Billot, 1982) is the place to read its entries."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "entry:6",
+  "severity": "doubt",
+  "problem": "Only the journal's span (8 June–15 November 1835) was seen. The description of its early entries as food, weather and visitors is not sourced, and the journal opens on 8 June while Batman's journal puts his leaving Indented Head on 9 June.",
+  "fix": {
+   "text_replace": {
+    "old": "Todd's journal opens as Batman's boat leaves, and records the small party building shelter and trading with Wadawurrung (Wathaurong) people who came to the camp. The entries are plain and practical: food, weather, visitors.",
+    "new": "Todd's journal opens on 8 June, as Batman prepared to leave the small party at Indented Head, and runs to 15 November 1835: the daily record of a camp in contact with Wadawurrung (Wathaurong) people."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "entry:2",
+  "severity": "doubt",
+  "problem": "Bonwick's narrative says the Rebecca 'was forced on Tuesday to put into Port Sorell'. Tuesday was 19 May 1835, not Wednesday 20 May.",
+  "fix": {
+   "date_iso": "1835-05-19",
+   "date_display": "Tuesday 19 May 1835"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "entry:11",
+  "severity": "doubt",
+  "problem": "The journal entry reads 'This will be the place for a Village — The natives on shore', with the boat going up the river; it is not clear that Batman himself rowed. eMelbourne notes some historians place the entry on the Maribyrnong, not the Yarra. Bonwick dates the passage to 7 June; SLV and Carmody give Monday 8 June.",
+  "fix": {
+   "text_replace": {
+    "old": "Rowing up the Yarra, Batman found deep fresh water above the falls and marked the spot in his journal as the site for a settlement, with people on the bank watching.",
+    "new": "Batman's boat went up the river and found deep fresh water, and he marked the spot in his journal as the site for a settlement, noting Aboriginal people on the shore. The river is usually taken to be the Yarra, though some historians argue for the Maribyrnong."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "entry:14",
+  "severity": "doubt",
+  "problem": "Batman's report does say 'I quitted Port Phillip on the 14th day of June', but Campbell and Scurfield place him with Wedge at Kingston on 14–15 June, and his journal ends on 11 June. Like the report's other dates (12 May, 26 May), this one seems to run a few days late.",
+  "fix": {
+   "text_replace": {
+    "old": "He said he had left Port Phillip on 14 June.",
+    "new": "He gave 14 June as the day he left Port Phillip, which is hard to square with Wedge's mapping at Kingston on 14–15 June; like the report's other dates, it may be a few days out."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "entry:17",
+  "severity": "doubt",
+  "problem": "The ergo pages seen confirm the 1852 quote but not that Buckley went in fearing he would be taken as an escaped convict. They do quote him on the suspicion with which influential white men later viewed him.",
+  "fix": {
+   "text_replace": {
+    "old": "went to the camp uncertain whether he would be taken as an escaped convict.",
+    "new": "went to the camp."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "claim:15",
+  "severity": "error",
+  "problem": "Knapman attributes the claim that tribute was paid until 1838 to James Boyce (pp. 70–1), not to Attwood.",
+  "fix": {
+   "evidence": "Knapman 2022, citing Boyce"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "intro:1",
+  "severity": "doubt",
+  "problem": "Bischoff (2023) argues that Batman's Sydney-district companions probably knew the tanderrum protocol and helped convey it, so the flat statement that no one could translate should be set out as a position.",
+  "fix": {
+   "text_replace": {
+    "old": "and no one at the creek could translate between Woiwurrung and English; Batman's interpreters were Aboriginal men from the Sydney district who spoke another language.",
+    "new": "and no one at the creek is known to have spoken both Woiwurrung and English; Batman's interpreters were Aboriginal men from the Sydney district who spoke another language, though Eva Bischoff argues they may have known the Kulin protocol and helped convey it."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "eye:barak",
+  "severity": "style",
+  "problem": "The authenticity note uses compiler voice ('here'). The 2025 St Albans compilation says Barak always held that the signing was at Brushy Creek.",
+  "fix": {
+   "text_replace": {
+    "old": "the date on which this particular memory was first recorded has not been established here.",
+    "new": "the date on which this memory was first recorded is not known from the sources used. A 2025 local-history compilation says he always maintained the signing took place at Brushy Creek."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "threads_out:1",
+  "severity": "style",
+  "problem": "Bischoff dates Backhouse's letter to T. F. Buxton to 22 October 1834. It urged the government, not colonists, to follow Penn's example.",
+  "fix": {
+   "text_replace": {
+    "old": "In October 1834 the Quaker James Backhouse urged that Australian colonists follow William Penn's example of treaty before settlement;",
+    "new": "On 22 October 1834 the Quaker James Backhouse wrote to T. F. Buxton urging that the government follow William Penn's example of treaty before settlement in Australia;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "eye:bourke",
+  "severity": "style",
+  "problem": "Bourke was born on 4 May 1777, so he was 58 when he issued the August 1835 proclamation.",
+  "fix": {
+   "text_replace": {
+    "old": "Governor of New South Wales, aged 57",
+    "new": "Governor of New South Wales, aged 58"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "entry:21",
+  "severity": "style",
+  "problem": "Proclamation date: SLV ergo gives 6 August 1835, but Labilliere's printed text and the SLV timeline give 26 August, which is kept. The 'void and of no effect against the rights of the Crown' wording is confirmed in Labilliere. 'Plainly' is an editorial judgement.",
+  "fix": {
+   "text_replace": {
+    "old": "The deeds were not named but were plainly the target.",
+    "new": "The deeds were not named, though they were the occasion for it."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "batman-1835",
+  "where": "entry:38",
+  "severity": "doubt",
+  "problem": "Only the month of Bourke's naming of Melbourne (March 1837) is confirmed (SLV timeline; La Trobe Society). The SLV cites the NSW Government Gazette of 12 April 1837 for the naming. Month precision is right; no change to the date.",
+  "fix": {
+   "source_note": "La Trobe Society 'During this month: March'; SLV early-history timeline (naming gazetted in NSW Government Gazette, 12 April 1837)."
+  },
+  "confidence": "verified"
+ }
+]

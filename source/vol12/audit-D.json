@@ -1,0 +1,431 @@
+[
+ {
+  "chapter": "treaty-six-1876",
+  "where": "entry:17",
+  "severity": "error",
+  "problem": "Jackes's narrative puts Poundmaker's 'clothe my children' line under the Fourth Day, 23 August (after Ahtahkakoop's call for a show of hands), not 22 August. His 22 August speech thanked the commissioners for telling them how they might live by their own work.",
+  "fix": {
+   "date_iso": "1876-08-23",
+   "date_display": "Wednesday 23 August 1876",
+   "confidence": "verified",
+   "digest": "Poundmaker had spoken on 22 August of being glad to hear how the people might live by their own work, and of needing help in settling. On 23 August, after the show of hands for the terms, he said in the interpreter's English that he could not understand how the offer would let him clothe and feed his children, and asked again for help.",
+   "source_note": "Jackes's narrative, Fourth Day (23 Aug), in Morris (1880), UVic Confederation edition; quoted in DCB (Dempsey)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "entry:23",
+  "severity": "error",
+  "problem": "Jackes's narrative does not name Erasmus: it says only that 'the interpreter' read the chiefs' list of requests on 23 August. The digest's claim that Jackes names him is not supported.",
+  "fix": {
+   "text_replace": {
+    "old": "Jackes's narrative names him as the reader, which confirms his central place.",
+    "new": "Jackes's narrative says only that 'the interpreter' read the list; it does not name him, so identifying the reader as Erasmus rests on later accounts."
+   },
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "eye:erasmus",
+  "severity": "error",
+  "problem": "Authenticity note says Jackes confirms Erasmus read the requests; Jackes says only 'the interpreter'.",
+  "fix": {
+   "text_replace": {
+    "old": "Jackes's contemporary narrative confirms that he read out the chiefs' requests on 23 August.",
+    "new": "Jackes's contemporary narrative records that 'the interpreter' read out the chiefs' requests on 23 August, without naming him."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "eye:erasmus",
+  "severity": "doubt",
+  "problem": "Neither DCB nor the Encyclopedia of Saskatchewan speaks of 'divided loyalty'; Cottrell's entry says his hiring by Morris as well as the chiefs 'left him open to charges of sharp dealing'.",
+  "fix": {
+   "text_replace": {
+    "old": "His later work for the commission exposed him to charges of divided loyalty.",
+    "new": "His later work for the commission as well, his Encyclopedia of Saskatchewan entry notes, left him open to charges of sharp dealing."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "tie:3",
+  "severity": "doubt",
+  "problem": "Same wording issue: source says 'charges of sharp dealing', not divided loyalty.",
+  "fix": {
+   "text_replace": {
+    "old": "which brought him charges of divided loyalty.",
+    "new": "which, the Encyclopedia of Saskatchewan notes, left him open to charges of sharp dealing."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "claim:7",
+  "severity": "error",
+  "problem": "The ledger cites Jackes as evidence that Erasmus read the list, but Jackes names only 'the interpreter'.",
+  "fix": {
+   "evidence": "Jackes's narrative, in Morris (1880), which names the reader only as 'the interpreter'",
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "convergence:4",
+  "severity": "style",
+  "problem": "Jackes does not name Erasmus as the reader of the chiefs' list.",
+  "fix": {
+   "text_replace": {
+    "old": "Erasmus reads the chiefs' list;",
+    "new": "The interpreter, probably Erasmus, reads the chiefs' list;"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "entry:7",
+  "severity": "style",
+  "problem": "The judgement that the commission's interpreters lacked his skill is the DCB author's (Payne), not stated as Erasmus's own words in that source; attribute it.",
+  "fix": {
+   "text_replace": {
+    "old": "seemingly lacked his command of the language",
+    "new": "seemingly lacked his command of the language, in his biographer's judgement"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "entry:15",
+  "severity": "doubt",
+  "problem": "The source note cites DCB and the Encyclopedia of Saskatchewan, but neither credits Mistawāsis's speech with persuading the doubters (ESask confirms only that Poundmaker and The Badger 'spoke strongly against signing'). The memoir summary is second-hand.",
+  "fix": {
+   "source_note": "Erasmus, Buffalo Days and Nights (1976), as summarised in secondary accounts; Encyclopedia of Saskatchewan (Cottrell) confirms Poundmaker and The Badger spoke against signing; the credit to Mistawāsis's speech is not in DCB or ESask; date inferred from the adjournments"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "entry:0",
+  "severity": "error",
+  "problem": "The 1871 message (printed in Morris) does not ask for men to be sent 'to treat'; it invites the governor to come and speak with them, asks for provision against starvation, cattle, tools and implements, and states that the land is their property and no one has a right to sell it. The digest omits the land statement.",
+  "fix": {
+   "digest": "In the first years after Canada took over the Hudson's Bay Company lands, Sweet Grass and other chiefs sent word to Lieutenant Governor Archibald through W. J. Christie. Their country was being ruined of the fur-bearing animals they lived on; they were poor and wanted help: provision against years of starvation, cattle, tools and implements. They invited the governor to come and speak with them, and said the land was their property and no one had a right to sell it. Morris later printed the message as part of the case that the Cree wanted a treaty.",
+   "quote": "Make provision for us against years of starvation (as interpreted)",
+   "source_note": "Message printed in Morris (1880), ch. IX memoranda (AccessGenealogy transcription); DCB, Wikaskokiseyin (year 1871)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "entry:2",
+  "severity": "style",
+  "problem": "McDougall's report names the camps on the South Saskatchewan and Red Deer rivers (and Buffalo Lake); Battle River appears only in an anecdote.",
+  "fix": {
+   "text_replace": {
+    "old": "from Carlton to the Battle and Red Deer rivers",
+    "new": "from Carlton to the South Saskatchewan and Red Deer rivers"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "eye:gmcdougall",
+  "severity": "style",
+  "problem": "Same route correction for the eye's 'where'.",
+  "fix": {
+   "text_replace": {
+    "old": "Travelling the Cree camps from Carlton to the Battle and Red Deer rivers",
+    "new": "Travelling the Cree camps from Carlton to the South Saskatchewan and Red Deer rivers"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "entry:39",
+  "severity": "error",
+  "problem": "DCB (Wiebe) says the October 1878 survey stoppage near Medicine Hat followed objections by Little Pine's band, not Big Bear's refusal.",
+  "fix": {
+   "text_replace": {
+    "old": "His refusal stopped survey work near Medicine Hat that autumn.",
+    "new": "That October, surveyors near Medicine Hat were stopped after Little Pine's band objected."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "entry:26",
+  "severity": "doubt",
+  "problem": "Jackes's text for Joseph Thoma (spelled 'Joseph Thomas') records demands of twenty-five dollars for each chief, twenty for headmen and a gun each; 'ten miles of land around the reserves' was not found in the fetched text.",
+  "fix": {
+   "text_replace": {
+    "old": "including ten miles of land around the reserves",
+    "new": "including twenty-five dollars for each chief, twenty for headmen and a gun for each"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "entry:21",
+  "severity": "style",
+  "problem": "Digest says McKay spoke 'not through an interpreter' while the quote is labelled 'as interpreted' — contradictory. Jackes's English is what survives either way.",
+  "fix": {
+   "text_replace": {
+    "old": "He spoke as a Cree-speaking Métis, not through an interpreter.",
+    "new": "He could address the chiefs in Cree himself; Jackes's English is the record that survives."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "entry:34",
+  "severity": "style",
+  "problem": "Jackes's narrative does not give a signing order and its wording of the prayer is 'May this earth here never see the white man's blood spilt on it'; the quoted wording appears in Morris's own account. DCB confirms Sweet Grass was the first signatory at Fort Pitt on 9 September. No change to the facts; note the source for 'first'.",
+  "fix": {
+   "source_note": "Morris (1880), ch. IX (UVic Confederation edition; Jackes's wording differs slightly); DCB, Wikaskokiseyin (first signatory at Fort Pitt, 9 Sept 1876)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "entry:36",
+  "severity": "style",
+  "problem": "Date confirmed: DCB says Big Bear appeared at Fort Pitt on 13 September, the day after the official ceremonies ended, and Jackes's speech falls under the September 13th heading; rope wording 'the rope to be about my neck (hanging)' confirmed. Note the date check in the source note.",
+  "fix": {
+   "source_note": "Jackes's narrative, September 13th heading, in Morris (1880); DCB, Mistahimaskwa (arrived 13 Sept, the day after the ceremonies ended)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "entry:45",
+  "severity": "style",
+  "problem": "Confirmed by Allison Bamford, CP24/CTV News, 22 Aug 2026: the 10-page manuscript was shown inside Fort Carlton's walls, brought back through Chief Edwin Ananas's efforts, with showings planned at Beardy's campsite and Fort Pitt. The 'spirit and intent' remarks were by Eli Worme of the Office of the Treaty Commissioner; keep, but the speaker can be named.",
+  "fix": {
+   "text_replace": {
+    "old": "Speakers described the treaty's spirit and intent",
+    "new": "Speakers, among them Eli Worme of the Office of the Treaty Commissioner, described the treaty's spirit and intent"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "treaty-six-1876",
+  "where": "entry:42",
+  "severity": "style",
+  "problem": "Herald item of 8 March 1884 confirmed in Hildebrandt (1978), n. 15, and the 9 Dec 1882 item in n. 13. Digest repeats itself in its last sentence.",
+  "fix": {
+   "text_replace": {
+    "old": " His biographer reports that he would deal with no one below the head of the Indian Department.",
+    "new": ""
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1884",
+  "where": "entry:17",
+  "severity": "doubt",
+  "problem": "No source was found for Malet's remark at the opening session that the inhabitants were not represented; the claim that 'historians often cite' it is unsupported. Hedge as a secondary report.",
+  "fix": {
+   "digest": "At the opening Malet stated Britain's position on the agenda. His instructions of 7 November told him to keep the welfare of the natives in view, and some secondary accounts report that he reminded the conference that the inhabitants affected by its decisions were not represented there. The protocol's wording has not been checked for this chapter.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "berlin-1884",
+  "where": "convergence:1",
+  "severity": "doubt",
+  "problem": "Malet's remark is unverified, and Stanley did not speak in the sessions, so 'All four spoke of Africans' interests' overstates the record.",
+  "fix": {
+   "text_replace": {
+    "old": "Malet, on instructions, raised the welfare of the absent inhabitants.",
+    "new": "Malet came with instructions to keep the natives' welfare in view."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "berlin-1884",
+  "where": "convergence:1",
+  "severity": "style",
+  "problem": "Stanley was an adviser, not a speaker in the sessions.",
+  "fix": {
+   "text_replace": {
+    "old": "All four spoke of Africans' interests, and no African was in the room to state them.",
+    "new": "Africans' interests were invoked, and no African was in the room to state them."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "berlin-1884",
+  "where": "entry:15",
+  "severity": "error",
+  "problem": "Germany's convention recognising the Association is dated 8 November 1884 (Statesman's Year-Book 1899 lists 'treaties with Germany, November 8, 1884'; Britain 16 Dec 1884, France 5 Feb, Portugal 14 Feb 1885). The 'c.' and approx can go.",
+  "fix": {
+   "date_display": "Saturday 8 November 1884",
+   "confidence": "verified",
+   "source_note": "Statesman's Year-Book 1899 (Congo Free State: treaties with Germany, 8 November 1884); Wiley (Colenbrander) thesis"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1884",
+  "where": "entry:37",
+  "severity": "error",
+  "problem": "The cited source (Odinkalu & Sambu, 24 Nov 2024) dates the editorial only to 'the week before' the Act was signed; no source for 19 February was found. Day precision overstates.",
+  "fix": {
+   "date_iso": "1885-02",
+   "date_display": "February 1885 (the week before the Act was signed)",
+   "precision": "month",
+   "source_note": "Lagos Observer, February 1885, as quoted by Odinkalu & Sambu (Peoples Gazette, 24 Nov 2024), who date it to the week before the signing; issue date not checked against the paper."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1884",
+  "where": "claim:12",
+  "severity": "error",
+  "problem": "Same date issue: no source for 19 February.",
+  "fix": {
+   "date_iso": "1885-02",
+   "date_display": "February 1885 (week before the signing)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1884",
+  "where": "entry:12",
+  "severity": "doubt",
+  "problem": "The only source is one 2024 opinion article; the added inference that Barghash was 'the one African sovereign with a European-style foreign ministry and consular corps' is not in any cited source.",
+  "fix": {
+   "text_replace": {
+    "old": " If so, the one African sovereign with a European-style foreign ministry and consular corps was also kept out.",
+    "new": ""
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1884",
+  "where": "entry:35",
+  "severity": "doubt",
+  "problem": "Kasson's statement on native consent was not found in the fetched sources (the Biographie Belge entry has nothing on it); date and wording remain unverified. Entry is already hedged and has no quote; keep as approx.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "berlin-1884",
+  "where": "entry:28",
+  "severity": "style",
+  "problem": "AfroLegends says the tangué was taken from Kum'a Mbape's canoe ('ship'), not his town; it is a canoe prow ornament.",
+  "fix": {
+   "text_replace": {
+    "old": "the seizure of objects from Kum'a Mbape's town, one of which later went",
+    "new": "the seizure of Kum'a Mbape's tangué (a carved canoe-prow ornament), which later went"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1884",
+  "where": "eye:buchner",
+  "severity": "style",
+  "problem": "Same: tangué was taken from his canoe.",
+  "fix": {
+   "text_replace": {
+    "old": "taken from Kum'a Mbape's town",
+    "new": "taken from Kum'a Mbape's canoe"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1884",
+  "where": "entry:4",
+  "severity": "doubt",
+  "problem": "AfricAvenir says Kum'a Mbape was the only king who refused and denounced the signers' corruption, but gives no specific date for his refusal; it does not mention his wish to continue talks with the British.",
+  "fix": {
+   "confidence": "approx",
+   "date_display": "July 1884 (around the 12 July signing)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1884",
+  "where": "claim:2",
+  "severity": "doubt",
+  "problem": "Refusal date and the 'talks with the British' point are not in the cited source.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1884",
+  "where": "entry:47",
+  "severity": "doubt",
+  "problem": "Imperial Incarceration ch. 6 says that 'in early 1887, Jaja reminded' Salisbury of the promise; it does not call it a letter or give a month.",
+  "fix": {
+   "text_replace": {
+    "old": "Jaja wrote to the Foreign Secretary, Lord Salisbury, reminding him",
+    "new": "Jaja reminded the Foreign Secretary, Lord Salisbury,"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1884",
+  "where": "entry:43",
+  "severity": "style",
+  "problem": "Confirmed: Europe and Africa (1927), p. 117 dates the protest to the German government 27 April and the protest to Britain through Kirk 11 May 1885, naming Usagara, Nguru, Useguha and Ukami. No change needed beyond noting it is a 1927 secondary account.",
+  "fix": {
+   "source_note": "Europe and Africa (Houghton Mifflin, 1927), p. 117, a secondary diplomatic history (protest of 27 April); EB1911 on the telegram and its rejection. Arabic wording not seen."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "berlin-1884",
+  "where": "threads_out:0",
+  "severity": "error",
+  "problem": "Articles 34–35 applied only to new occupations on the African coasts, and Hewett's and Peters's papers predate the Act, so the Rudd Concession (an inland mining concession) was not 'gathered under those rules'. Keep the link but state it accurately.",
+  "fix": {
+   "text_replace": {
+    "old": "The Rudd Concession that Lobengula's mark was put to in 1888 was gathered under those rules, as Hewett's and Peters's papers had been in 1884.",
+    "new": "The Rudd Concession that Lobengula's mark was put to in 1888 belongs to the same scramble for signed papers, though Articles 34–35 formally covered only the coasts."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "berlin-1884",
+  "where": "entry:2",
+  "severity": "style",
+  "problem": "Entry is about Bimbia and Deido (Jim Ekwalla), not King Bell, yet sits under the 'bell' eye; the AfricAvenir source confirms 11 July and promised kroo (400 for Deido). Consider noting that the eye is used as the Duala-side record.",
+  "fix": {
+   "text_replace": {
+    "old": "Each Duala lineage was dealt with separately",
+    "new": "Deido was promised 400 kroo; each Duala lineage was dealt with separately"
+   }
+  },
+  "confidence": "verified"
+ }
+]

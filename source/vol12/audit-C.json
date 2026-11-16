@@ -1,0 +1,440 @@
+[
+ {
+  "chapter": "fort-laramie-1851",
+  "where": "entry:0",
+  "severity": "doubt",
+  "problem": "The NPS Fort Union page says Crazy Bear volunteered alone to attend the council, with two others joining after his pledge. It does not frame this as De Smet recruiting, and the fetched summary does not mention the route through Lakota and Blackfeet country as the reason others held back.",
+  "fix": {
+   "digest": "When upper Missouri leaders were sought for the council at Laramie, Crazy Bear was at first the only Assiniboine to volunteer. Two more agreed to go only once he had pledged himself. He later rode south with De Smet's party."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fort-laramie-1851",
+  "where": "eye:lowe",
+  "severity": "error",
+  "problem": "The eScholarship review is by Robert L. Munkres in American Indian Culture and Research Journal 15:4 (1991), not the Western Historical Quarterly. The review confirms the quote 'Every dragoon felt an interest in that tribe' (p. 67).",
+  "fix": {
+   "sources": [
+    {
+     "title": "Robert L. Munkres, review of the 1991 University of Oklahoma Press edition, American Indian Culture and Research Journal 15:4 (1991), via eScholarship",
+     "url": "https://escholarship.org/uc/item/0w42v595"
+    }
+   ]
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fort-laramie-1851",
+  "where": "entry:15",
+  "severity": "error",
+  "problem": "The transcription spells the Yankton speaker 'Pointed Bear', not Painted Bear (a different person, whose camp De Smet names). His words, as rendered, were that the Sioux did not understand the whites' manners or words, though they knew the proposals were meant for their good. The writer applied 'mere begging speeches' to 'several other Sioux' who spoke after these three, not to these three.",
+  "fix": {
+   "digest": "Mitchell asked for answers to his proposals and heard the Sioux first. A Brulé chief (rendered 'Terre Blue') said each band wanted its own chief and that his people were poor. Big Yankton said the travellers on the roads had destroyed the grass and timber and asked why the whites were not given grass of their own. Pointed Bear (so spelled), a Yankton, said they did not understand the whites' manners or words, though they knew the proposals were meant for their good. The writer dismissed several other Sioux speeches as 'mere begging speeches'."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fort-laramie-1851",
+  "where": "entry:39",
+  "severity": "error",
+  "problem": "The words 'as usual, broken immediately' are part of Dakota count No. III's own year explanation as printed by Mallery, not a note by Mallery. Mallery's added note is only that the Fort Laramie treaty was in 1851.",
+  "fix": {
+   "text_replace": {
+    "old": "Mallery's note adds that the peace was, as usual, broken almost at once.",
+    "new": "The explanation printed with the third count adds that the peace was, as usual, broken almost at once; Mallery notes that the Fort Laramie treaty was in 1851."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fort-laramie-1851",
+  "where": "entry:34",
+  "severity": "error",
+  "problem": "NMAI gives the source of this quotation as the Annual Report of the Secretary of the Interior, 2 December 1851. That volume prints the Commissioner's and the superintendents' reports, so 2 December is the date of the volume, not of Mitchell's own letter.",
+  "fix": {
+   "date_display": "late 1851 (printed in the Secretary of the Interior's Annual Report of 2 December 1851)",
+   "source_note": "Annual Report of the Secretary of the Interior, 2 December 1851 (with the Commissioner of Indian Affairs' report), as quoted by NMAI; the date of Mitchell's own report was not seen"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fort-laramie-1851",
+  "where": "entry:35",
+  "severity": "doubt",
+  "problem": "The University of Utah OCR page shows no author, recipient or date. The writer reports what Mitchell and Fitzpatrick recommended to 'the department' and speaks for the whole Utah superintendency, so the letter could equally be the superintendent's own (Governor Brigham Young's). Giving it to Holeman is a guess and should be stated as one.",
+  "fix": {
+   "digest": "A Utah superintendency report, whose writer is not named on the surviving page, said the Shoshone who went to Laramie had been well received by the other nations and came home trusting the government more. The writer regretted that the Utah nations had not been made parties to the treaty, and backed Mitchell and Fitzpatrick's recommendation of a similar council in the territory the next year.",
+   "source_note": "Utah superintendency letter, OCR page (University of Utah); author, recipient and date not shown. Attributed here to Holeman's office; it may be the superintendent's own report"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fort-laramie-1851",
+  "where": "entry:41",
+  "severity": "doubt",
+  "problem": "None of the fetched sources gives the date of the Senate vote. Kappler's note and the Forest Service's reference copy say only that the Senate ratified 'with an amendment changing the annuity in Article 7 from fifty to ten years, subject to acceptance by the tribes'. The amended article as printed allows continuation 'for a period not exceeding five years thereafter', so sources that give fifteen years are counting the discretionary extension. 24 May 1852 is plausible but was not seen in a fetched source. The statement that the next payment was held back until assent is not in Kappler.",
+  "fix": {
+   "confidence": "approx",
+   "digest": "Ratifying the treaty, the Senate amended Article 7 so that the $50,000 a year in goods would run for ten years instead of fifty, with the President free to continue it for up to five more (hence the 'fifteen years' in some accounts). The change was made subject to the nations' acceptance, and the task of getting it fell to the agents, Fitzpatrick for the Platte.",
+   "source_note": "Kappler amendment note (fifty to ten years, subject to acceptance by the tribes; Art. 7 as amended, up to five further years); Senate date as given in the Commissioner's Report, not seen in a fetched source"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fort-laramie-1851",
+  "where": "claim:13",
+  "severity": "doubt",
+  "problem": "The date of the Senate vote (24 May 1852) was not confirmed in any fetched source. Kappler gives no date.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fort-laramie-1851",
+  "where": "intro:4",
+  "severity": "doubt",
+  "problem": "The 24 May 1852 Senate date is unconfirmed (see entry 41), and the epilogue states it as fact.",
+  "fix": {
+   "text_replace": {
+    "old": "On 24 May 1852 the Senate cut",
+    "new": "In May 1852 (24 May by the Commissioner's account) the Senate cut"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fort-laramie-1851",
+  "where": "entry:23",
+  "severity": "style",
+  "problem": "Kappler's printed Article 7 is the Senate's amended text, which reads ten years. The fifty-year figure is the text as signed, and the digest should say that, since its cited source shows ten.",
+  "fix": {
+   "text_replace": {
+    "old": "Article 7 promised $50,000 a year in goods for fifty years.",
+    "new": "As signed, Article 7 promised $50,000 a year in goods for fifty years (Kappler prints the Senate's amended ten-year text)."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fort-laramie-1851",
+  "where": "entry:45",
+  "severity": "style",
+  "problem": "The last sentence is the compiler's interpretation. NMAI reports that Bulltail said the treaty was supposed to protect Crow land and that outsiders came in and ravaged it instead.",
+  "fix": {
+   "text_replace": {
+    "old": "He framed the treaty as a boundary the Crow meant to enforce.",
+    "new": "He said the treaty was supposed to protect Crow land, and that outsiders came in and ravaged it instead."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fort-laramie-1851",
+  "where": "entry:36",
+  "severity": "doubt",
+  "problem": "The transcription gives no date beyond 'On Monday', does not name Fillmore and gives no length of the evening visit. Fillmore was President, so naming him is a fair inference. 'An hour' is not supported. The delegation was the Arapaho, Cheyenne, Oto and 'most westerly Sioux', with 'two or three Iowa' whom the writer called interlopers.",
+  "fix": {
+   "text_replace": {
+    "old": "and they spent an hour in full dress at the Commissioner's house at Mrs Lea's invitation.",
+    "new": "and that evening they visited the Commissioner's house at Mrs Lea's request."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fort-laramie-1851",
+  "where": "eye:press",
+  "severity": "doubt",
+  "problem": "The fmoran.com transcription has no byline and does not name its source newspaper or book. The site's webmaster posted it in 1999. Which correspondent wrote which dispatch (Chambers or Brown) cannot be settled from it. The eye already hedges this, but the source title should say the transcription is unattributed.",
+  "fix": {
+   "sources": [
+    {
+     "title": "Unattributed online transcription of 1851 dispatches, 'Treaty Ground, near Fort Laramie, September 9, 1851' (source paper not named on the page)",
+     "url": "https://fmoran.com/ppcounc.html"
+    },
+    {
+     "title": "Treaty witnesses list (Kappler)",
+     "url": "https://accessgenealogy.com/?p=20107"
+    }
+   ]
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "fort-laramie-1851",
+  "where": "entry:44",
+  "severity": "style",
+  "problem": "NMAI quotes Wolf Chief and Red Bear from the 1930 Indian Court of Claims record, and the eye's form tag says sworn testimony. The digest should also say what kind of record it is, in line with the oral-history labelling rule.",
+  "fix": {
+   "text_replace": {
+    "old": "Testifying in the claims case, Wolf Chief",
+    "new": "Testifying in the claims case in 1930 (oral testimony recorded in the Court of Claims record, given through an interpreter), Wolf Chief"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "fort-laramie-1851",
+  "where": "entry:29",
+  "severity": "style",
+  "problem": "The Denig preface (BAE 46th Report) quotes Kurz's 24 September entry: he began a life-size portrait of Mr Denig, to be finished before Culbertson's return from Fort Laramie. The date is confirmed. The digest can name the sitter.",
+  "fix": {
+   "text_replace": {
+    "old": "Kurz noted that a portrait was to be finished",
+    "new": "Kurz noted that he had begun a life-size portrait of Edwin Denig, to be finished"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "intro:2",
+  "severity": "style",
+  "problem": "This is a compiler's note ('could not be read directly for this chapter') written inside the text.",
+  "fix": {
+   "text_replace": {
+    "old": "; it could not be read directly for this chapter, so the council days are reconstructed from",
+    "new": ". The council days below are reconstructed from"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "eye:eaton",
+  "severity": "style",
+  "problem": "This is a compiler's note in the authenticity field ('this chapter could not open the transcription').",
+  "fix": {
+   "text_replace": {
+    "old": "this chapter could not open the transcription and relies on",
+    "new": "the account here relies on"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "entry:9",
+  "severity": "error",
+  "problem": "The rootsweb summary of Halbert says other chiefs recited the wars they had fought for the United States and the injustice of the demand. It does not name the Creeks or the British, so the digest says more than its cited source.",
+  "fix": {
+   "text_replace": {
+    "old": "other chiefs recited the wars they had fought alongside the United States, against the Creeks and the British, as proof",
+    "new": "other chiefs recited the wars they had fought alongside the United States, and the injustice of the demand, as proof"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "entry:11",
+  "severity": "error",
+  "problem": "The Encyclopedia of Alabama says 'a group of seven women elders' sat at the front of the negotiations and refused to allow the ancestral lands to be sold. It does not say 'at the centre' or that the chiefs 'twice refused'. Iti Fabvssa names only one elder woman. The final sentence is an authorial judgement.",
+  "fix": {
+   "digest": "A modern account (Encyclopedia of Alabama) places a group of seven women elders at the front of the negotiations, refusing to allow the sale of ancestral lands; in a matrilineal society women traditionally controlled access to land. The Chahta testimony Halbert collected, as excerpted by the Choctaw Nation, names one elder woman in the council. The number and the day rest on later accounts."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "claim:3",
+  "severity": "error",
+  "problem": "'The chiefs twice refused the terms' is not in the Encyclopedia of Alabama, the claim's only cited evidence.",
+  "fix": {
+   "claim": "A group of seven women elders at the front of the council would not allow the ancestral land to be sold."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "entry:13",
+  "severity": "error",
+  "problem": "In Iti Fabvssa (from Halbert), the revised treaty was read to those present, who talked loudly among themselves, on the following day (25 September), not on the 24th.",
+  "fix": {
+   "text_replace": {
+    "old": " When the revised treaty was read to those still present, they talked loudly among themselves and showed no sign of signing.",
+    "new": ""
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "entry:14",
+  "severity": "error",
+  "problem": "Iti Fabvssa puts the reading of the revised treaty and the vote in LeFlore's district on the same day, the day after LeFlore's conditions (25 September). It gives no 26 September event. The day is inferred from 'the following day' and 'later that day'.",
+  "fix": {
+   "date_display": "Saturday 25 September 1830",
+   "precision": "day",
+   "confidence": "approx",
+   "digest": "The revised treaty was read and translated to those still present, who talked loudly among themselves and showed no sign of signing. Later that day the commissioners put it to LeFlore's district alone. There too it failed, by about two to one, and those who voted against it went home thinking the business was finished. A newspaper correspondent heard that the vote in LeFlore's camp had been unanimous for holding on to the country."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "entry:23",
+  "severity": "error",
+  "problem": "The Phoenix reprint of LeFlore's letter has no date and supports only the claim that the Chahta were eager to go and would leave in large bodies before ratification. The added sentence about organising early parties within months rests on no cited source.",
+  "fix": {
+   "digest": "In a letter to the Secretary of War, published in the United States Telegraph, LeFlore wrote that the Chahta were eager to remove and would go in large bodies without waiting for ratification."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "entry:27",
+  "severity": "error",
+  "problem": "The Phoenix editor wrote that LeFlore 'was an efficient individual in bringing about the treaty', was 'highly interested in its issue', and was 'not a disinterested testimony'. 'Profited by it' goes beyond the source. The editor also said the Senate 'would do well to reject it at once', which is stronger than 'send it back'.",
+  "fix": {
+   "text_replace": {
+    "old": "and suggested the Senate send it back. It also printed LeFlore's letter to the Secretary of War claiming the Chahta were eager to go, and answered that LeFlore had made the treaty and profited by it, so his word was not impartial.",
+    "new": "and said that, if the copy was accurate, the Senate would do well to reject it. It also printed LeFlore's letter to the Secretary of War claiming the Chahta were eager to go, and answered that LeFlore had helped bring the treaty about and had a strong interest in its outcome, so his word was not impartial."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "entry:30",
+  "severity": "error",
+  "problem": "Davis (1932) says Ward 'was especially harsh and abusive' to applicants and that 'some were driven away and others were refused registration'. He reports that only 143 heads of families (276 persons) received land, and gives the acts of 3 March 1837, 22 February 1838 and 23 August 1842. He does not say the register was incomplete. Since this is a judgement of conduct, it should be attributed.",
+  "fix": {
+   "text_replace": {
+    "old": "later testified that he turned some away, refused others and kept an incomplete register;",
+    "new": "later complained, in the account of the historian Edward Davis (1932), that he was harsh to applicants, drove some away and refused to register others;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "eye:ward",
+  "severity": "style",
+  "problem": "The judgement of Ward's conduct should be attributed to its source rather than to 'the records' in general.",
+  "fix": {
+   "text_replace": {
+    "old": "he is described in the records as harsh toward applicants.",
+    "new": "the historian Edward Davis (1932), summarising the claims record, described him as harsh and abusive toward applicants, and the Encyclopedia of Alabama calls the land agents, especially Ward, corrupt and incompetent."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "entry:46",
+  "severity": "error",
+  "problem": "House Report 719 describes Joseph Dukes, then about twenty-one, as 'a Choctaw head of a family' with 'a small family' at the time of the treaty. He fell outside Article 14 because, living in the Mayhew mission household, he had no improvements of his own, not because he was too young to head a family.",
+  "fix": {
+   "text_replace": {
+    "old": "who had been too young to be a head of a family with his own improvements in 1830 and so fell outside Article 14.",
+    "new": "who in 1830 was about twenty-one and head of a small family but, having lived in the mission household, had no improvements of his own, and so fell outside Article 14."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "eye:dukes",
+  "severity": "error",
+  "problem": "Same error as entry 46: the report calls Dukes a head of a family who had no improvements of his own.",
+  "fix": {
+   "text_replace": {
+    "old": "Dukes did not fit the fourteenth article because he was not yet a head of a family with his own improvements.",
+    "new": "Dukes did not fit the fourteenth article because, though head of a small family, he had lived in the mission household and had no improvements of his own."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "entry:38",
+  "severity": "error",
+  "problem": "In the Duffy translation of the 25 December 1831 letter, the horses took fright and threw themselves into the river, and the dogs refused to board, howling, until their masters brought them aboard by force. The letter's comparison with the Spaniards concerns the belief that God had given the New World to the conquerors. The 'more humane and more destructive' judgement belongs to Democracy in America, not this letter. The excerpt does not name the boat or say where the letter was written.",
+  "fix": {
+   "digest": "Writing to his mother, Tocqueville described the boarding: horses that took fright and plunged into the river, dogs that howled and had to be carried aboard, a girl whose arm had been broken a week before, and a woman said to be 110 years old. He asked an English-speaking man why they were leaving and was told it was to be free. He likened the Americans' conviction that the New World was theirs by right to that of the Spanish conquerors."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "eye:cushman",
+  "severity": "doubt",
+  "problem": "The Phoenix reprint dates Cushman's letter only 'Sept. 30th', with no year. 1830 is inferred from context, which is reasonable but should be stated.",
+  "fix": {
+   "text_replace": {
+    "old": "Known here from a letter dated 30 September 1830,",
+    "new": "Known here from a letter dated 'Sept. 30th' (year 1830 from context),"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "entry:21",
+  "severity": "doubt",
+  "problem": "The letter's year is not printed in the reprint, so the date rests on context.",
+  "fix": {
+   "source_note": "Cushman letter, Hebron, dated 'Sept. 30th' (year inferred as 1830 from context), reprinted Cherokee Phoenix 1 Jan 1831."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "entry:24",
+  "severity": "style",
+  "problem": "The Phoenix reprint does not name Mayhew for the 11 October letter. Kingsbury was based there, so the place is an inference.",
+  "fix": {
+   "source_note": "Kingsbury letter of '11th of October' (1830 from context; place inferred as Mayhew, his station), reprinted Cherokee Phoenix 1 Jan 1831."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "entry:18",
+  "severity": "doubt",
+  "problem": "The rootsweb summary does not say the Lincecum statement comes from Halbert; it gives no source for it. It is also a claim about the commissioners' assurances, not a description of the turmoil.",
+  "fix": {
+   "text_replace": {
+    "old": "One account preserved by Halbert has a settler witness insisting",
+    "new": "A statement by the settler Gideon Lincecum, quoted in a summary of these events without a named source, insists"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "threads_out:3",
+  "severity": "error",
+  "problem": "This link is generic: every ratified treaty passed through the Senate's two-thirds rule. The claim that the Chahta 'appealed to' the same machinery is not specific and has no source.",
+  "fix": {
+   "to": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "entry:31",
+  "severity": "doubt",
+  "problem": "The Encyclopedia of Alabama gives 25 February 1831 as the Senate ratification date. Kappler and the Statutes header give the proclamation as 24 February 1831, and a Senate vote cannot follow the proclamation, so 25 February is probably an error in that reference. The entry's approx label and the calendar_note already present both dates as positions, so the entry can stay as it is. The source note should record that the two dates cannot both be right as stated.",
+  "fix": {
+   "source_note": "Statutes at Large / Kappler header (proclamation 24 Feb 1831); Encyclopedia of Alabama gives Senate ratification as 25 Feb 1831, which would post-date the proclamation and is likely an error; Kingsbury letter of 11 April 1831 on the news arriving."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dancing-rabbit-1830",
+  "where": "entry:6",
+  "severity": "style",
+  "problem": "Rootsweb (from Halbert) gives Gaines, as commissary, collecting provisions for 3,000 for one week. The Encyclopedia of Alabama gives the supply contract to Gaines and Allen Glover. The digest is supported; the wording 'which is why the commissioners would call on him later' is an inference.",
+  "fix": {
+   "text_replace": {
+    "old": ", which is why the commissioners would call on him later.",
+    "new": "; by later accounts the commissioners called on him after the signing to calm the camp."
+   }
+  },
+  "confidence": "verified"
+ }
+]

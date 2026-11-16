@@ -1,0 +1,509 @@
+[
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "entry:18",
+  "severity": "error",
+  "problem": "The Ten Bears quote is taken from a 1927 Barber County Index reprint; no 1867 printing of this wording was located (the 23 Oct 1867 Tribune dispatch predates the speeches), and reprints differ ('on'/'upon the prairie'). Quote must be blanked.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "entry:27",
+  "severity": "doubt",
+  "problem": "The Buffalo Chief quote reaches the chapter via NPS summarising Jones (1966); its 1867 printing (and wording) was not confirmed, so it does not meet the intro's own rule of 1867 wording only.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "entry:18",
+  "severity": "doubt",
+  "problem": "Interpreter for Ten Bears is inferred: McCusker is the commission's Comanche interpreter (treaty witness; Taylor 1924 p.107), but no source consulted names him as interpreting this speech; Taylor does not.",
+  "fix": {
+   "text_replace": {
+    "old": "interpreter Philip McCusker per treaty witness list and Taylor 1924",
+    "new": "interpreter probably Philip McCusker, the commission's Comanche interpreter (Kiowa-Comanche treaty witness list; Taylor 1924, p. 107), though no source consulted names the interpreter of this speech; wording follows a 1927 reprint"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "eye:tenbears",
+  "severity": "doubt",
+  "problem": "States as fact that McCusker interpreted Ten Bears; this is an inference from his role as Comanche interpreter.",
+  "fix": {
+   "text_replace": {
+    "old": "the Comanche interpreter at the council was Philip McCusker, who also witnessed the treaty.",
+    "new": "the commission's Comanche interpreter was Philip McCusker, who also witnessed the treaty, and he probably rendered this speech, though no source consulted says so."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "entry:35",
+  "severity": "error",
+  "problem": "Stanley did not report a new war on the Plains within a year: after Medicine Lodge he joined the New York Herald and covered the British expedition to Abyssinia (1868).",
+  "fix": {
+   "text_replace": {
+    "old": "Within a year he was reporting a new war on the same plains.",
+    "new": "Within months he had left the Plains to report the British expedition to Abyssinia for the New York Herald."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "entry:5",
+  "severity": "error",
+  "problem": "The Tribune dispatch says Howland shot the buffalo 'with the permission of Gen. Sanborn', despite the general order against firing, not simply in defiance of orders. The Rattlesnake Creek meeting is not dated in the dispatch (placed after the 12th by sequence).",
+  "fix": {
+   "text_replace": {
+    "old": "the artist Jack Howland shot one in defiance of orders against firing",
+    "new": "the artist Jack Howland, despite standing orders against firing, shot one with General Sanborn's permission"
+   },
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "entry:6",
+  "severity": "doubt",
+  "problem": "The dispatch does not date the Rattlesnake Creek visit; 12 Oct is inferred from its sequence (Larned on the 11th, 'the next day' buffalo, Medicine Lodge on the 13th).",
+  "fix": {
+   "confidence": "approx",
+   "date_display": "about 12 October 1867"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "entry:7",
+  "severity": "doubt",
+  "problem": "The dispatch gives no date or place for Satanta's buffalo complaint: it says only that Satanta 'was with us' on the march after the buffalo shooting; '13 Oct, Medicine Lodge Creek' is inferred.",
+  "fix": {
+   "confidence": "approx",
+   "date_display": "about 12–13 October 1867",
+   "place": "On the march from Rattlesnake Creek to Medicine Lodge Creek"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "claim:1",
+  "severity": "doubt",
+  "problem": "Date of Satanta's buffalo complaint is inferred from the dispatch's sequence, not stated.",
+  "fix": {
+   "confidence": "approx",
+   "date_display": "about 12–13 October 1867"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "entry:16",
+  "severity": "style",
+  "problem": "Source note contains a compiler note ('per brief'), and American Heritage (1978) does not discuss Henderson's speech, so the content attribution overstates that source. The day itself is consistent with AH, which places the main speeches on the day after the opening (19 Oct).",
+  "fix": {
+   "text_replace": {
+    "old": "Day per brief and secondary accounts (Jones 1966); content per treaty text and Stanley's reports as summarised in American Heritage (1978)",
+    "new": "Day follows secondary accounts (Jones 1966; American Heritage 1978 places the main speeches the day after the 19 Oct opening); content summarised from the treaty terms, the speech text in the commission journal not consulted"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "entry:17",
+  "severity": "style",
+  "problem": "Date of 20 Oct is supported only indirectly: American Heritage says 'The talks continued the next day, when Satanta spoke' after the opening on the 19th. Note this in the source.",
+  "fix": {
+   "text_replace": {
+    "old": "the date of 20 Oct follows secondary accounts",
+    "new": "the date of 20 Oct follows secondary accounts (American Heritage: the day after the council opened)"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "entry:12",
+  "severity": "error",
+  "problem": "Taylor (1924, p.110) says the silk hat belonged 'to the president of the Commission', his father, not to himself.",
+  "fix": {
+   "text_replace": {
+    "old": "gave his silk hat to the Kiowa second chief Kicking Bird",
+    "new": "saw a silk hat belonging to his father, the commission's president, go to the Kiowa second chief Kicking Bird"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "entry:25",
+  "severity": "error",
+  "problem": "Taylor (pp.107–109) has McCusker leading the white party back to camp; the firing was a Cheyenne salute, not a call to arms.",
+  "fix": {
+   "text_replace": {
+    "old": "led the white party to arms",
+    "new": "led the white party back to camp, the firing turning out to be a Cheyenne salute"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "entry:2",
+  "severity": "error",
+  "problem": "Bent gives no month (only 'the fall') and his stated reason was that false reports about him during the war made it unsafe to go among whites; 'after the summer's fighting' and 'among the soldiers' go beyond the text.",
+  "fix": {
+   "date_display": "autumn 1867 (before the council)",
+   "text_replace": {
+    "old": "and that, after the summer's fighting, it was not safe for him among the soldiers, but he went",
+    "new": "and that so many false reports had been spread about him during the war that it was not safe for him among the whites, but he went"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "entry:32",
+  "severity": "style",
+  "problem": "Bent says he 'acted as interpreter' at the council, not specifically at the signing; his name is on the treaty as interpreter.",
+  "fix": {
+   "text_replace": {
+    "old": "Bent interpreted at the signing",
+    "new": "Bent, by his own account, acted as interpreter at the council"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "entry:15",
+  "severity": "style",
+  "problem": "The closing sentence is the compiler's interpretation, not in the NPS source; NPS names the other Cheyenne chief present as White Head.",
+  "fix": {
+   "text_replace": {
+    "old": "Correspondents read his silence as weakness; it was the position of a man who could not speak for bands that had not yet arrived.",
+    "new": "The other Cheyenne chief present was White Head."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "entry:39",
+  "severity": "error",
+  "problem": "Mooney says two of the three taíme images were captured by the Ute, not 'the taíme'.",
+  "fix": {
+   "text_replace": {
+    "old": "in which the taíme, a sacred image, was captured",
+    "new": "in which two of the three taíme images were captured"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "entry:0",
+  "severity": "style",
+  "problem": "Mooney's text for Summer 1867 says the Kâitséñko members 'made new sashes for themselves'; the contents line reads 'Kâitséñko initiated'. The Navajo stole a herd of ponies including a white racer (Black-ear) during the Sun Dance.",
+  "fix": {
+   "text_replace": {
+    "old": "horses stolen by the Navajo and the initiation of new members into the Kâitséñko, the Kiowa's highest warrior society",
+    "new": "a herd of ponies, among them the racer Black-ear, stolen by the Navajo (Diné) during the Sun Dance, and for the Kâitséñko, the Kiowa's highest warrior society, making new sashes (Mooney's contents: 'Kâitséñko initiated')"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "eye:ntaylor",
+  "severity": "error",
+  "problem": "N. G. Taylor was born 29 December 1819, so he was 47 in October 1867.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 48",
+    "new": "aged 47"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "eye:henderson",
+  "severity": "error",
+  "problem": "Henderson was born 16 November 1826, so he was 40 at the October 1867 council (41 only from mid-November).",
+  "fix": {
+   "text_replace": {
+    "old": "aged 41",
+    "new": "aged 40"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "threads_out:3",
+  "severity": "error",
+  "problem": "The Treaty 6 link is a general parallel (buffalo collapse), with no specific person, institution or consequence connecting the two councils; the southern and northern herd collapses were separate.",
+  "fix": {
+   "to": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "intro:0",
+  "severity": "doubt",
+  "problem": "The 23 Oct 1867 Tribune dispatch used in the chapter says the train grew to '175 wagons and ambulances' after being joined by 60 wagons; the intro's 165 comes from secondary accounts.",
+  "fix": {
+   "text_replace": {
+    "old": "with a train of 165 wagons",
+    "new": "with a train that one correspondent put at 175 wagons and ambulances"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "eye:satanta",
+  "severity": "style",
+  "problem": "Compiler-voice phrasing ('could not be placed ... for this chapter').",
+  "fix": {
+   "text_replace": {
+    "old": "could not be placed in an 1867 text for this chapter.",
+    "new": "has not been found in any 1867 report and is left out."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "eye:fayel",
+  "severity": "doubt",
+  "problem": "The NPS page cited does not name Fayel's newspaper; 'Missouri Republican' rests on Jones (1966), which was not consulted.",
+  "fix": {
+   "text_replace": {
+    "old": "Known here through Douglas C. Jones's",
+    "new": "His paper is given as the Missouri Republican on the authority of Jones; he is known here through Douglas C. Jones's"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "eye:stanley",
+  "severity": "doubt",
+  "problem": "American Heritage (1978) says Stanley wrote 'for the Weekly Missouri Democrat'; Taylor (1924) says he was a correspondent of the New York Tribune. The 15 Oct Tribune dispatch is unsigned ('From our Special Correspondent'), so the entries ascribed to Stanley from it (entries 4–10) should be read as the Tribune correspondent's, attribution to Stanley uncertain. Existing hedge is adequate; no change beyond noting.",
+  "fix": {
+   "text_replace": {
+    "old": "is attributed to him only on Taylor's word.",
+    "new": "is attributed to him only on Taylor's word; its byline reads only 'From our Special Correspondent'."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "medicine-lodge-1867",
+  "where": "image:4",
+  "severity": "style",
+  "problem": "The image URL is the whole Gutenberg HTML book, not the figure itself; caption should say where the figure is.",
+  "fix": {
+   "url": "https://www.gutenberg.org/files/46479/46479-h/46479-h.htm",
+   "caption": "The Kiowa 'Timber-hill winter': a soldier clasping an Indian's hand below a wooded hill, from the Set-t'an calendar as reproduced by James Mooney in 1898 (fig. 142, p. 320, in the linked Project Gutenberg edition)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rudd-1888",
+  "where": "entry:19",
+  "severity": "error",
+  "problem": "The Hansard wording is 'Her Majesty's Government have not thought it necessary to express any opinion as to its validity or merits'; the quote as given is not verbatim.",
+  "fix": {
+   "quote": "have not thought it necessary to express any opinion"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rudd-1888",
+  "where": "claim:8",
+  "severity": "style",
+  "problem": "Hansard is a parliamentary record, not council minutes; the ledger's form list has 'other'.",
+  "fix": {
+   "form": "other"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rudd-1888",
+  "where": "claim:9",
+  "severity": "style",
+  "problem": "Hansard is a parliamentary record, not council minutes.",
+  "fix": {
+   "form": "other"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rudd-1888",
+  "where": "entry:45",
+  "severity": "error",
+  "problem": "The source (Zimbabwe Field Guide node 447) identifies the reporter: James G. McDonald, Rhodes: A Life (1927); Babayane told the story at Rhodes's camp after the first Matopos indaba. The digest should name the source and mark it as a later report.",
+  "fix": {
+   "digest": "Seven years after Windsor, near the end of the 1896 rising and after the first indaba in the Matopos, Babayane told the story of his London journey at Rhodes's camp, including the gold bangle he had been given. The account survives only as reported by Rhodes's associate James G. McDonald in 'Rhodes: A Life' (1927), written three decades later. By then the kingdom whose eyes he had been had fallen.",
+   "source_note": "Zimbabwe Field Guide node 447, citing J. G. McDonald, Rhodes: A Life (1927)."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "rudd-1888",
+  "where": "eye:envoys",
+  "severity": "style",
+  "problem": "Babayane's 1896 account: the reporter is known (J. G. McDonald, 1927).",
+  "fix": {
+   "text_replace": {
+    "old": "survives only as reported by others.",
+    "new": "survives only as reported by James G. McDonald in 'Rhodes: A Life' (1927)."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rudd-1888",
+  "where": "entry:16",
+  "severity": "error",
+  "problem": "Scribe of the 18 Jan 1889 suspension notice is recorded: the Zimbabwe Field Guide states the trader William Tainton wrote down the dictated notice published on 2 February. The digest should name him, since he had an interest (he had embellished the concession's terms to the king).",
+  "fix": {
+   "text_replace": {
+    "old": "It was printed in the Bechuanaland News",
+    "new": "It was written down by the trader William Tainton, the same man who had been embellishing the press reports to the king. It was printed in the Bechuanaland News"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "rudd-1888",
+  "where": "entry:33",
+  "severity": "doubt",
+  "problem": "Cary records that the 23 April letter was witnessed by three traders, Fairbairn, Usher and Cohen, and does not name the scribe; that should be stated, since Moffat later rebuked those traders.",
+  "fix": {
+   "text_replace": {
+    "old": "In a letter to the Queen, written down for him in English, the king",
+    "new": "In a letter to the Queen, written down for him in English by an unnamed scribe and witnessed by the traders Fairbairn, Usher and Cohen, the king"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rudd-1888",
+  "where": "entry:37",
+  "severity": "error",
+  "problem": "Cary (citing C.5918 encl. in no.131) gives the content of Moffat's 28 Aug letter: he reported rebuking the three traders who witnessed the 23 April letter, who 'humbled themselves', and held that communications to the Queen ought to go through him. The digest is vaguer than the source.",
+  "fix": {
+   "digest": "Moffat wrote to Shippard from Bulawayo in the weeks after the envoys' return. He reported that he had rebuked the three traders, Fairbairn, Usher and Cohen, who had witnessed the king's April letter to the Queen, and that they had humbled themselves; he held that the king's communications to the Queen ought always to go through him. The letter went into the Blue Book laid before Parliament in 1890.",
+   "confidence": "verified",
+   "source_note": "Moffat to Shippard, 28 August 1889, C.5918, enclosure in no. 131, as cited and summarised by Cary, 'Jameson and Lobengula', pp. 4–5."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rudd-1888",
+  "where": "entry:41",
+  "severity": "doubt",
+  "problem": "Cary says only that at the 18 Oct meeting the original was produced and compared with the copy and Lobengula acknowledged them the same; the izinduna's promise to return the paper 'soon' comes from the king's April letter, and 'two months later it still had not come back' is not supported by the source.",
+  "fix": {
+   "text_replace": {
+    "old": "The izinduna said they would return the original soon. Two months later it still had not come back.",
+    "new": "The king acknowledged that the two were the same."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "rudd-1888",
+  "where": "entry:28",
+  "severity": "error",
+  "problem": "Plaut lists Woolwich, Chatham, Portsmouth and Birmingham, not Shoeburyness; the Illustrated London News spread of 16 March covered the envoys generally, and the Aldershot remark is cited from the Daily Telegraph of 26 March.",
+  "fix": {
+   "text_replace": {
+    "old": "and to see the guns at Shoeburyness and the dockyards. The display was meant to impress on them the power behind the Queen. The Illustrated London News reported the visit on 16 March.",
+    "new": "and to Woolwich, Chatham and Portsmouth. The display was meant to impress on them the power behind the Queen. The Illustrated London News gave the envoys a full page on 16 March, and the Daily Telegraph reported the Aldershot visit on 26 March."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rudd-1888",
+  "where": "entry:14",
+  "severity": "doubt",
+  "problem": "The Zimbabwe Field Guide adds that after Maund wrote the letter down it was passed to Helm, who struck out a clause asking for a protectorate; this bears directly on who held the pen. Departure date: Plaut gives 1 Nov, the Field Guide 'late November' — existing approx is right.",
+  "fix": {
+   "text_replace": {
+    "old": "The English was taken down by Maund.",
+    "new": "The English was taken down by Maund; according to the Field Guide, Helm then struck out a clause asking for a protectorate."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "rudd-1888",
+  "where": "eye:vaughnw",
+  "severity": "style",
+  "problem": "1947 is some 58 years after 1889, not 57.",
+  "fix": {
+   "text_replace": {
+    "old": "some 57 years after the events",
+    "new": "some 58 years after the events"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "rudd-1888",
+  "where": "image:2",
+  "severity": "doubt",
+  "problem": "Plaut reproduces a period photograph whose reverse reads 'Chiefs ‘Babyon’ & ‘Omjaam’'; the article does not establish that it was taken in England.",
+  "fix": {
+   "text_replace": {
+    "old": "a contemporary photograph of the two envoys in England",
+    "new": "a period photograph of the two envoys"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "rudd-1888",
+  "where": "threads_out:0",
+  "severity": "doubt",
+  "problem": "The claim that the Berlin Act's notification and effective-occupation rules 'set off' the concession hunting is a contested causal judgement (the effective-occupation rule applied to coasts); the specific link is the 'sphere of influence' language pressed in the Commons.",
+  "fix": {
+   "text_replace": {
+    "old": "The Berlin General Act's rules on notification and effective authority set off the concession-hunting of the late 1880s.",
+    "new": "The concession race at Bulawayo was part of the partition of Africa that the Berlin conference of 1884–85 had set rules for."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "rudd-1888",
+  "where": "entry:43",
+  "severity": "doubt",
+  "problem": "The 'price of my blood' wording reaches the chapter only via Millin (first published 1933; 1952 ed. cited) through a wiki mirror; the date 13 Aug 1893 and wording were not confirmed in a contemporary record. Digest already hedges; keep as approx and say it is a later biographer's report.",
+  "fix": {
+   "text_replace": {
+    "old": "saying it was paid for his blood.",
+    "new": "saying, as a later biographer reported it, that it was paid for his blood."
+   }
+  },
+  "confidence": "approx"
+ }
+]

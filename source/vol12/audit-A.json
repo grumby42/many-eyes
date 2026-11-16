@@ -1,0 +1,516 @@
+[
+ {
+  "chapter": "lancaster-1744",
+  "where": "entry:9",
+  "severity": "error",
+  "problem": "The minutes of 22 June record only Canasatego answering the Governor (thanking him for time to rest); Tachanoontia first speaks on 27 June.",
+  "fix": {
+   "text_replace": {
+    "old": "Canasatego and Tachanoontia replied.",
+    "new": "Canasatego replied, thanking him for time to rest."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "entry:24",
+  "severity": "error",
+  "problem": "The Maryland deed as entered in Archives of Maryland vol. 28 p. 336 lists 'Swadaany alias Schikeling' (Shikellamy) among the signers, contradicting Walton's statement that he never signed; both should be given as positions.",
+  "fix": {
+   "text_replace": {
+    "old": "Shikellamy, by Walton's account, never signed.",
+    "new": "Walton says Shikellamy never signed, but the deed as entered in the Maryland council records lists 'Swadaany alias Schikeling' among the signers."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "entry:22",
+  "severity": "error",
+  "problem": "The minutes record Canasatego and thirteen other chiefs executing the Maryland deed on the afternoon of 30 June with no objection noted, so 'the business stalled for the day' overstates; Walton also says the 24 chiefs sat at two of the five tables laid, not 'at five tables with the commissioners'.",
+  "fix": {
+   "digest": "Marshe noted that five tables were laid, with the twenty-four invited chiefs at two of them; they used no forks and seemed hugely pleased with the feast. When the company gave three huzzas after the naming, the noise startled them. When the deed was brought out, the Oneida leader Shikellamy objected to signing, which Marshe blamed on underhanded dealing by Pennsylvania; the minutes record fourteen chiefs signing that afternoon and the rest on 2 July."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "entry:25",
+  "severity": "error",
+  "problem": "The minutes say only that the chiefs had Weiser sign 'as well with his Indian, as with his own proper Name ... as a Witness and Interpreter'; that he signed on behalf of the absent Mohawks comes from the Conrad Weiser Homestead timeline, not the minutes. Set out as positions.",
+  "fix": {
+   "headline": "The interpreter signs with his Haudenosaunee name",
+   "digest": "At Sanderson's the chiefs had Weiser sign the Maryland deed with both his Haudenosaunee name and his own, as witness and interpreter, so the minutes record. The Conrad Weiser Homestead timeline states that he signed for the Kanien'kehá:ka (Mohawk), who had sent no delegation, under the name Tarachiawagon, rendered as Holder of the Heavens; the minutes do not say so. Either way the same man was translator and witness on the deed."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "eye:weiser",
+  "severity": "error",
+  "problem": "Two bio statements overstate the sources: the minutes do not say Weiser signed for the Mohawks (only the Homestead timeline does), and the May 1744 letter quoted by Walton is the Virginia commissioners reporting that the Maryland commissioners suspected Weiser and would not rely solely on him, not both colonies doubting his loyalty.",
+  "fix": {
+   "text_replace": {
+    "old": "the Virginia and Maryland commissioners privately doubted his loyalty before the council. At Lancaster he advised the chiefs on valuing Maryland's goods, persuaded holdouts to sign, and signed for the absent Mohawks under his Haudenosaunee name.",
+    "new": "in May 1744 the Virginia commissioners reported that Maryland's commissioners were suspicious of him and would not rely on him alone. At Lancaster he advised the chiefs on valuing Maryland's goods, persuaded holdouts to sign, and signed the Maryland deed with his Haudenosaunee name as witness and interpreter (the Conrad Weiser Homestead says on behalf of the absent Mohawks)."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "tie:1",
+  "severity": "doubt",
+  "problem": "Walton quotes the Virginia commissioners (Annapolis, 20 May 1744) reporting the Maryland commissioners' 'great suspicion' of Weiser; the tie should not attribute the doubt to both colonies.",
+  "fix": {
+   "text_replace": {
+    "old": "though the Maryland and Virginia commissioners had privately doubted Weiser's reliability in May 1744.",
+    "new": "though in May 1744 the Virginia commissioners had reported the Maryland commissioners' suspicion of him."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "entry:0",
+  "severity": "style",
+  "problem": "The 1742 minutes place Canasatego's complaint about settlers 'to the South of this Province' on unpurchased land west of the Susquehanna firmly in the 7 July Meeting-House session; the date can be marked verified.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "The Treaty Held with the Indians of the Six Nations at Philadelphia, in July 1742, council in the Meeting-House, 7 July (speech as interpreted by Conrad Weiser); the Pennsylvania council's resolution of 8 July names Maryland. https://gutenberg.org/files/18635/18635-h/18635-h.htm"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "claim:0",
+  "severity": "style",
+  "problem": "Date confirmed by the 1742 minutes (council of 7 July 1742).",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "entry:42",
+  "severity": "error",
+  "problem": "Franklin's 9 May 1753 letter to Collinson (text reprinted by Teaching American History) already contains a counter-offer: the Indians proposed that the English send 'a dozen or two of their Children to Onondago'. The letter names neither Virginia nor Lancaster, and its content can now be described directly.",
+  "fix": {
+   "digest": "Writing to Peter Collinson, Franklin told of a treaty between one of the colonies and the Six Nations at which the commissioners offered to educate half a dozen of the Haudenosaunee's brightest boys at a college. In his telling the deputies declined, saying former students had come home good for nothing, and countered that the English should send a dozen or two of their own children to Onondaga to be educated. He names neither Virginia nor Lancaster; the editors of his papers note that this and the 1784 version both differ from the official record.",
+   "confidence": "verified",
+   "source_note": "Franklin to Peter Collinson, 9 May 1753 (text at Teaching American History; Papers of Benjamin Franklin vol. 4); editors' note 5 to 'Remarks concerning the Savages of North America'. https://teachingamericanhistory.org/document/letter-to-peter-collinson/"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "intro:4",
+  "severity": "error",
+  "problem": "The counter-offer first appears in Franklin's 1753 letter to Collinson, not only in the 1784 'Remarks'. The 1751 Parker letter also does not mention Canasatego or Lancaster, so 'echoed' states as fact a connection historians infer.",
+  "fix": {
+   "text_replace": {
+    "old": "was printed by Franklin and echoed in his 1751 letter on colonial union;",
+    "new": "was printed by Franklin, whose 1751 letter on colonial union argues from the Six Nations' union without naming Lancaster;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "intro:4",
+  "severity": "error",
+  "problem": "Counter-offer already present in the 1753 Collinson letter.",
+  "fix": {
+   "text_replace": {
+    "old": "became in Franklin's 1784 retelling a celebrated story with a counter-offer that the minutes do not contain.",
+    "new": "became in Franklin's retellings of 1753 and 1784 a celebrated story with a counter-offer that the minutes do not contain."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "entry:39",
+  "severity": "doubt",
+  "problem": "The Parker letter (20 March 1750/1) argues from the Six Nations' long-lasting union but does not mention Lancaster or Canasatego's advice; the headline asserts a direct derivation the letter does not state.",
+  "fix": {
+   "headline": "Franklin holds up the Six Nations' union"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "eye:franklin",
+  "severity": "doubt",
+  "problem": "'Carried Canasatego's advice on union into his own arguments' is an inference; the 1751 letter does not cite Lancaster.",
+  "fix": {
+   "text_replace": {
+    "old": "and carried Canasatego's advice on union into his own arguments for a colonial union in 1751.",
+    "new": "and in 1751 argued for a colonial union from the example of the Six Nations' union, a passage often linked to Canasatego's advice though it does not cite Lancaster."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "tie:4",
+  "severity": "doubt",
+  "problem": "The 1751 letter does not cite Canasatego; 'adapted his advice' states as fact a link that is inferred.",
+  "fix": {
+   "text_replace": {
+    "old": "and adapted his advice on union in 1751;",
+    "new": "and in 1751 argued from the Six Nations' union, as Canasatego had urged at Lancaster;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "convergence:6",
+  "severity": "doubt",
+  "problem": "Franklin's 1751 letter uses the Six Nations' union as a rhetorical comparison rather than a stated model.",
+  "fix": {
+   "text_replace": {
+    "old": "within seven years he would use the Confederacy's union as his model in arguing for a colonial one.",
+    "new": "within seven years he would cite the Confederacy's union in arguing for a colonial one."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "threads_out:1",
+  "severity": "error",
+  "problem": "Geographic error: the lands Virginia read the Lancaster deed as covering, and which were argued over at Logstown, lay south-east of the Ohio (the instrument of 13 June 1752 consents to settlement there); the Greenville cession of 1795 lay north-west of the Ohio. The link via the contest for the Ohio country is real, but the note must not equate the two tracts.",
+  "fix": {
+   "note": "Virginia's broad reading of the Lancaster deed, argued at Logstown in 1752, opened the contest for the Ohio country; north of the river that contest ended in the cessions by the Western Confederacy nations at Greenville in 1795."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "threads_out:0",
+  "severity": "style",
+  "problem": "The 1988 concurrent resolution (H. Con. Res. 331, 102 Stat. 4932) acknowledges the Confederacy's 'contribution' to the development of the Constitution; use its own framing.",
+  "fix": {
+   "text_replace": {
+    "old": "acknowledging the Confederacy's influence.",
+    "new": "acknowledging the Iroquois Confederacy's contribution to the development of the Constitution."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "image:1",
+  "severity": "error",
+  "problem": "The caption's claim that Virginia's copies of the minutes 'mattered to its later land claims' is unsupported; the UVA record shows only the 1744 Franklin imprint (call number A 1744 .P455 T7, acquired 1943).",
+  "fix": {
+   "caption": "Another copy of Franklin's 1744 printing of the minutes (Philadelphia: B. Franklin, 1744), shown in the University of Virginia Library's online exhibits (call number A 1744 .P455 T7)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "image:5",
+  "severity": "style",
+  "problem": "The HSP record lists Stratford under 'Address' and gives conflicting dates; 'written from Stratford' is not certain.",
+  "fix": {
+   "text_replace": {
+    "old": "written from Stratford a few weeks after the council",
+    "new": "addressed from Stratford a few weeks after the council"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "eye:tachanoontia",
+  "severity": "doubt",
+  "problem": "The printed minutes do not give Tachanoontia's nation (he first speaks 27 June, addressing 'Brother Assaragoa'); the Onondaga identification comes from later historians and should be hedged.",
+  "fix": {
+   "text_replace": {
+    "old": "Onondaga chief and speaker at Lancaster;",
+    "new": "Haudenosaunee chief and speaker at Lancaster, usually identified as Onondaga (the minutes do not name his nation);"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "tie:10",
+  "severity": "doubt",
+  "problem": "Levering says Weiser joined Zinzendorf's autumn 1742 party at Tulpehocken and went with them for part of the journey (to Shamokin and the Wyoming Valley); that he went into the Wyoming Valley itself is not stated.",
+  "fix": {
+   "text_replace": {
+    "old": "and Weiser travelled with him into the Wyoming Valley that autumn.",
+    "new": "and Weiser travelled with him for part of his autumn journey toward Shamokin and the Wyoming Valley."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "entry:8",
+  "severity": "doubt",
+  "problem": "The Heisey (Lancaster County Historical Society) PDF cited as the source now redirects to a catalogue page and could not be checked; the quote and details of the arrival rest on Marshe's 1801 text as reported second-hand.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "entry:15",
+  "severity": "doubt",
+  "problem": "Sole cited source (Heisey PDF) redirects and could not be checked; the ball's date and the remarks about the town's women are unconfirmed here.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "entry:12",
+  "severity": "style",
+  "problem": "Quote renders a Haudenosaunee speaker in the interpreter's English; label it as interpreted in the quote field, as the Greenville chapter does.",
+  "fix": {
+   "quote": "a Silver Chain, which would be much stronger (as interpreted by Weiser)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "entry:14",
+  "severity": "style",
+  "problem": "Quote renders a Haudenosaunee speaker in the interpreter's English; label it as interpreted in the quote field, as the Greenville chapter does.",
+  "fix": {
+   "quote": "All the World knows we conquered (as interpreted by Weiser)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "entry:19",
+  "severity": "style",
+  "problem": "Quote renders a Haudenosaunee speaker in the interpreter's English; label it as interpreted in the quote field, as the Greenville chapter does.",
+  "fix": {
+   "quote": "We are willing to renounce all Right to Lord Baltimore (as interpreted)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "entry:26",
+  "severity": "style",
+  "problem": "Quote renders a Haudenosaunee speaker in the interpreter's English; label it as interpreted in the quote field, as the Greenville chapter does.",
+  "fix": {
+   "quote": "are under our Power (as interpreted by Weiser)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "entry:30",
+  "severity": "style",
+  "problem": "Quote renders a Haudenosaunee speaker in the interpreter's English; label it as interpreted in the quote field, as the Greenville chapter does.",
+  "fix": {
+   "quote": "OUR wise Forefathers established Union and Amity (as interpreted by Weiser)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "Quote renders a Haudenosaunee speaker in the interpreter's English; label it as interpreted in the quote field, as the Greenville chapter does.",
+  "fix": {
+   "quote": "we love our Children too well (as interpreted)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "lancaster-1744",
+  "where": "entry:40",
+  "severity": "style",
+  "problem": "Quote renders a Haudenosaunee speaker in the interpreter's English; label it as interpreted in the quote field, as the Greenville chapter does.",
+  "fix": {
+   "quote": "the Lands then sold were to extend further to the Sun setting (as interpreted)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "greenville-1795",
+  "where": "entry:9",
+  "severity": "error",
+  "problem": "Order reversed: Wilkinson writes that Wayne first said the British post was too strong to attack, then after reconnoitring called it weak and wanted to take it (Wilkinson says he talked him out of it).",
+  "fix": {
+   "text_replace": {
+    "old": "and Wayne first calling the fort weak, then too strong to attack.",
+    "new": "and Wayne first calling the fort too strong to attack, then, after looking it over, weak enough to take."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "greenville-1795",
+  "where": "eye:precise-journal",
+  "severity": "error",
+  "problem": "Knopf suspects the journal was heavily (not lightly) edited before printing.",
+  "fix": {
+   "text_replace": {
+    "old": "and the text lightly edited before printing.",
+    "new": "and the text possibly heavily edited before printing."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "greenville-1795",
+  "where": "eye:precise-journal",
+  "severity": "doubt",
+  "problem": "In Knopf's edition the first entry reads 28 July 1794 (Greenville headquarters); '25 July' appears to be an error.",
+  "fix": {
+   "text_replace": {
+    "old": "The journal covers 25 July to 2 November 1794",
+    "new": "The journal covers 28 July to 2 November 1794"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "greenville-1795",
+  "where": "entry:38",
+  "severity": "error",
+  "problem": "The Myaamia Center article (1 Oct 2025) says the medal was 'recently re-acquired by the Miami Nation' without giving a year; '2025' is not stated.",
+  "fix": {
+   "text_replace": {
+    "old": "was re-acquired by the Miami Tribe in 2025.",
+    "new": "has recently been re-acquired by the Miami Tribe, as the Myaamia Center reported in 2025."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "greenville-1795",
+  "where": "image:4",
+  "severity": "doubt",
+  "problem": "The article gives no year for the re-acquisition and does not say the photographs record an examination by Myaamia citizens.",
+  "fix": {
+   "caption": "Myaamia Center article (October 2025) with photographs of the large silver oval medal Wayne gave Mihšihkinaahkwa at Greenville, which left Myaamia hands in the 1820s and has recently been re-acquired by the Miami Tribe."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "greenville-1795",
+  "where": "threads_out:2",
+  "severity": "error",
+  "problem": "No source shows Mihšihkinaahkwa arguing against a Six Nations treaty at Greenville; the Fort Harmar treaty at issue was the 1789 treaty with the Wyandot, Lenape, Odawa, Ojibwe, Potawatomi and Sauk, to which the Myaamia were not party.",
+  "fix": {
+   "text_replace": {
+    "old": "that treaties made by others, including the Six Nations at Fort Harmar, could not give away Myaamia land.",
+    "new": "that treaties made by others, such as the 1789 Fort Harmar treaty to which the Myaamia were not party, could not give away Myaamia land."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "greenville-1795",
+  "where": "threads_out:0",
+  "severity": "doubt",
+  "problem": "Greenville was not the first Senate-ratified US treaty with Indigenous nations (e.g. Treaty of New York, 1790); 'the pattern for every later' overstates.",
+  "fix": {
+   "text_replace": {
+    "old": "whose consent in December 1795 made it law, the pattern for every later US treaty with the western nations.",
+    "new": "whose consent in December 1795 made it law, as the Constitution required of every US treaty with Indigenous nations."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "greenville-1795",
+  "where": "entry:41",
+  "severity": "doubt",
+  "problem": "The War Department catalogue dates De Butts's minutes 10 August 1795, the day they end; a farewell recorded in the minutes would fall on or before that date, so Young's (1917) 12 August is doubtful.",
+  "fix": {
+   "date_display": "c. 10–12 August 1795 (the minutes end on 10 August)",
+   "source_note": "Minutes, as summarised in Myaamia Center Part II ('stayed a day or two longer'); 12 Aug date from C. M. Young, Little Turtle (1917); the minutes are dated to 10 Aug 1795 (Papers of the War Department doc. 51086)."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "greenville-1795",
+  "where": "claim:13",
+  "severity": "doubt",
+  "problem": "As for the entry: the minutes end on 10 August 1795.",
+  "fix": {
+   "date_display": "c. 10–12 August 1795"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "greenville-1795",
+  "where": "intro:4",
+  "severity": "style",
+  "problem": "Compiler-process note in the narrative voice.",
+  "fix": {
+   "text_replace": {
+    "old": "but it could not be consulted for this chapter.",
+    "new": "but it is not drawn on here."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "greenville-1795",
+  "where": "entry:7",
+  "severity": "style",
+  "problem": "'Between the lines of this entry lies...' is editorial; state plainly that the journal entry omits what Wayne reported.",
+  "fix": {
+   "text_replace": {
+    "old": "Between the lines of this entry lies the army's burning of the towns and cornfields near the fort, which Wayne reported to Knox.",
+    "new": "The entry does not mention the army's burning of the towns and cornfields near the fort, which Wayne reported to Knox."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "greenville-1795",
+  "where": "eye:little-turtle",
+  "severity": "style",
+  "problem": "Myaamia Center Part I calls the boundary line 'indicative of Mihšihkinaahkwa's collaboration' with Wells; use its wording rather than 'likely shaped'.",
+  "fix": {
+   "text_replace": {
+    "old": "The Myaamia Center reads his boundary speech as unusual in form and likely shaped with his son-in-law and interpreter, Wells.",
+    "new": "The Myaamia Center reads his boundary speech as unusual in form and as indicative of his collaboration with his son-in-law and interpreter, Wells."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "greenville-1795",
+  "where": "eye:carmichael",
+  "severity": "doubt",
+  "problem": "'The only known diarist inside the council' is not stated in the cited Myaamia Center article; hedge.",
+  "fix": {
+   "text_replace": {
+    "old": "Carmichael is the only known diarist inside the council.",
+    "new": "Carmichael is one of the very few known diarists inside the council."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "greenville-1795",
+  "where": "entry:28",
+  "severity": "style",
+  "problem": "Quote renders Mihšihkinaahkwa through the interpreter; label it as interpreted, as other Greenville quotes are.",
+  "fix": {
+   "quote": "The print of my ancestors' houses are every where to be seen (as interpreted)"
+  },
+  "confidence": "verified"
+ }
+]

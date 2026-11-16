@@ -1,0 +1,1393 @@
+{
+ "id": "greenville-1795",
+ "title": "The Council at Greenville",
+ "short_title": "The Council at Greenville",
+ "subtitle": "Fallen Timbers and the Treaty of Greenville, Ohio country, 1794–1795",
+ "span": "August 1794 – October 1795",
+ "intro": [
+  "On 20 August 1794, in a tangle of storm-felled trees beside the Maumee River, General Anthony Wayne's Legion broke the army of the western confederacy: Shaawanwaki (Shawnee), Lenape (Delaware), Wendat (Wyandot), Odawa (Ottawa), Anishinaabe (Ojibwe), Bodéwadmi (Potawatomi), Myaamia (Miami) and others, with Canadian volunteers. The retreat ran past Fort Miamis, a new British post on land the United States claimed. Later accounts, Indigenous and British, remembered its gates staying shut; the commandant's own letters record only a two-day argument with Wayne about whose soil the fort stood on.",
+  "The defeat, and the plain evidence that Britain would not fight for its allies, sent leaders one by one to Wayne's headquarters at Fort Greenville over the winter. In January 1795 preliminary articles fixed a meeting for mid-June. From 16 June to early August, more than a thousand people from a dozen nations gathered there. Eleven languages were spoken; the record of what was said survives almost entirely in English.",
+  "That is the central problem of this chapter. The fullest source is the official minutes kept by Wayne's secretary, Henry De Butts, and printed by Congress in 1832. Every Indigenous speech in them is an interpreter's English written down by the American side: Mihšihkinaahkwa (Little Turtle) through his son-in-law William Wells, Tarhe through Isaac Zane. Beside the minutes stand a surgeon's diary, a British spy's report, letters between Philadelphia and Greenville, and an anonymous soldier's journal of the 1794 campaign. There are few true diaries here, and the chapter is built mostly from minutes, letters and reports, labelled as such.",
+  "The argument at Greenville was about which earlier paper counted. Wayne proposed the 1789 Treaty of Fort Harmar as the basis. Mihšihkinaahkwa said the Myaamia had never been party to it and set out their country by boundaries; Masass said the Ojibwe had been misinterpreted; Tarhe, who had signed it, defended its line as fair. Wayne answered with French forts, British treaties and conquest. The treaty signed on 3 August took most of present-day Ohio and declared the earlier treaties void, a point the Myaamia Center reads as a partial win for Mihšihkinaahkwa, though the line itself largely followed the old one.",
+  "Some voices are missing. The Shawnee Tecumseh is said by his nineteenth-century biographers to have refused to attend, but no 1795 record of his refusal is known. The Moravian missionary David Zeisberger, then at Fairfield on the Thames in Upper Canada, kept a dated diary through these years (published 1885), but it could not be consulted for this chapter. Modern Myaamia scholarship, especially the Myaamia Center at Miami University, has reread the minutes from the Myaamia side and found other versions of Mihšihkinaahkwa's words; this chapter draws on that work."
+ ],
+ "calendar_note": "All dates are Gregorian, the calendar used by both the American and British records; no conversion is needed. Several council days are given only loosely in the secondary summaries ('two days later', 'a Thursday in July'); those entries carry a probable date and are marked approximate.",
+ "eyes": [
+  {
+   "id": "wayne",
+   "short": "Wayne",
+   "name": "Anthony Wayne",
+   "life": "1745–1796",
+   "role": "Major General commanding the Legion of the United States, aged 49–50; sole US commissioner at Greenville",
+   "side": "United States (War Department)",
+   "where": "With the Legion on the Maumee in August 1794; Fort Greenville, Ohio country, from late 1794 through the council",
+   "lat": 40.1028,
+   "lon": -84.633,
+   "waypoints": [
+    {
+     "lat": 41.545,
+     "lon": -83.69,
+     "label": "Fallen Timbers / camp below Fort Miamis, 20–23 Aug 1794"
+    },
+    {
+     "lat": 41.288,
+     "lon": -84.361,
+     "label": "Grand Glaize (Fort Defiance), 28 Aug 1794"
+    },
+    {
+     "lat": 40.1028,
+     "lon": -84.633,
+     "label": "Fort Greenville, Jan–Aug 1795"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the commissioner who dictated the terms",
+   "form": "dated letters and speeches recorded in council minutes",
+   "language": "English",
+   "authenticity": "His official letters to the Secretaries of War Henry Knox and Timothy Pickering survive in War Department and Wayne family papers and are catalogued by the Papers of the War Department project; his council speeches survive in the official minutes printed in American State Papers, Indian Affairs, vol. 1 (1832). Wayne's casualty figures for Fallen Timbers were disputed by his own subordinate James Wilkinson.",
+   "bio": "A Pennsylvania Revolutionary War general recalled to command after the defeats of Harmar (1790) and St. Clair (1791). He won at Fallen Timbers on 20 August 1794, then spent the winter drawing the nations to Greenville. At the council he spoke as the voice of the 'Fifteen Fires' and controlled the record, the interpreters and the supply of goods.",
+   "sources": [
+    {
+     "title": "Wayne to Knox, Grand Glaize, 28 Aug 1794 (Clements Library exhibit)",
+     "url": "https://clements.umich.edu/exhibit/american-encounters/nah-case-9/letter-wayne-knox-1794/"
+    },
+    {
+     "title": "Wayne to Pickering, 17 June 1795 (Papers of the War Department)",
+     "url": "https://wardepartmentpapers.org/document/50517/"
+    },
+    {
+     "title": "Wayne to Pickering, 9 Aug 1795 (Papers of the War Department)",
+     "url": "https://wardepartmentpapers.org/document/51082/"
+    }
+   ]
+  },
+  {
+   "id": "debutts",
+   "short": "The minutes",
+   "name": "Henry De Butts (secretary) — the official minutes",
+   "life": "fl. 1790s",
+   "role": "Captain and aide-de-camp to Wayne; secretary of the treaty council who kept and certified the minutes",
+   "side": "United States",
+   "where": "Council house at Fort Greenville",
+   "lat": 40.1028,
+   "lon": -84.633,
+   "vantage": 1,
+   "vantage_label": "the official pen in the council house",
+   "form": "council minutes",
+   "language": "English",
+   "authenticity": "The 'Minutes of a treaty with the tribes of Indians called the Wyandots, Delawares, Shawanese, Ottawas, Chippewas, Pattawatamies, Miamies, Eel River, Kickapoos, and Kaskaskias' were sent to Philadelphia with Wayne's letter of 20 September 1795 and printed in American State Papers, Indian Affairs, vol. 1, pp. 564–583. Every Indigenous speech in them is the English of a sworn interpreter as written down by US staff. De Butts also certified copies of the treaty (one dated 9 August 1795 survives in the Lewis Cass Papers at the Clements Library) and drew up a return of the nations present on 7 August.",
+   "bio": "De Butts was the clerk behind the most complete record of the council. The minutes are indispensable, and they are also one-sided: they record what the interpreters chose to render and what the secretary chose to write.",
+   "sources": [
+    {
+     "title": "Minutes of a Treaty … (Papers of the War Department catalogue entry)",
+     "url": "https://wardepartmentpapers.org/document/51086/"
+    },
+    {
+     "title": "Return of nations present, 7 Aug 1795",
+     "url": "https://wardepartmentpapers.org/document/51054/"
+    },
+    {
+     "title": "Excerpts of the minutes, History Matters",
+     "url": "https://historymatters.gmu.edu/d/6525"
+    }
+   ]
+  },
+  {
+   "id": "little-turtle",
+   "short": "Mihšihkinaahkwa",
+   "name": "Mihšihkinaahkwa (Little Turtle)",
+   "life": "c. 1747–1812",
+   "role": "Myaamia (Miami) war leader of the Kineepikwameekwa Siipiiwi (Eel River) area, victor over Harmar and St. Clair, chief speaker for the Myaamia at Greenville",
+   "side": "Myaamia (Miami) Nation",
+   "where": "Fort Greenville council ground, from 23 June 1795",
+   "lat": 40.1028,
+   "lon": -84.633,
+   "waypoints": [
+    {
+     "lat": 41.08,
+     "lon": -85.13,
+     "label": "Kiihkayonki (Kekionga), Myaamia homeland"
+    },
+    {
+     "lat": 42.33,
+     "lon": -83.05,
+     "label": "Detroit, winter 1794–95"
+    },
+    {
+     "lat": 40.1028,
+     "lon": -84.633,
+     "label": "Greenville, June–Aug 1795"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the principal Indigenous objector",
+   "form": "speeches (as interpreted by William Wells)",
+   "language": "Myaamia (Miami-Illinois), rendered in English",
+   "authenticity": "His speeches survive only in English. The fullest version is the official minutes (interpreter William Wells); others are a surgeon's diary (John F. Carmichael), a British intelligence paraphrase (John Askin Jr.), and a Myaamia-language retranslation by Gabriel Godfroy elicited around 1890. The often-repeated line that he was 'the last to sign' and would be the last to break the treaty comes from later local histories, not the minutes.",
+   "bio": "Having led the confederacy's greatest victories, Mihšihkinaahkwa came to Greenville arguing for peace but against the old treaties. He rejected the 1789 Fort Harmar treaty as one his people had never been party to, and he set out the Myaamia country by boundaries. The Myaamia Center reads his boundary speech as unusual in form and likely shaped with his son-in-law and interpreter, Wells.",
+   "sources": [
+    {
+     "title": "Myaamia Center: The Treaty of Greenville 1795, Part I",
+     "url": "https://aacimotaatiiyankwi.org/2016/07/29/the-treaty-of-greenville-1795-part-i/"
+    },
+    {
+     "title": "Myaamia Center: Part II",
+     "url": "https://aacimotaatiiyankwi.org/2021/03/01/the-treaty-of-greenville-1795-part-ii/"
+    },
+    {
+     "title": "Four versions of a Little Turtle speech",
+     "url": "https://aacimotaatiiyankwi.org/2021/04/13/four-versions-of-a-little-turtle-speech-at-greenville-1795/"
+    }
+   ]
+  },
+  {
+   "id": "wells",
+   "short": "Wells",
+   "name": "Eepiihkaanita (William Wells)",
+   "life": "c. 1770–1812",
+   "role": "Sworn interpreter for the Myaamia at Greenville, aged about 25; formerly a scout for Wayne",
+   "side": "Between: Myaamia by adoption and marriage, employed by the United States",
+   "where": "Council house, Fort Greenville",
+   "lat": 40.1028,
+   "lon": -84.633,
+   "vantage": 1,
+   "vantage_label": "the interpreter in the middle",
+   "form": "interpretations recorded in council minutes",
+   "language": "Myaamia and English",
+   "authenticity": "No diary by Wells for 1795 is known; his work survives as the English renderings in the minutes, where he is named among the sworn interpreters (others included Isaac Zane, Abraham Williams, Jacques Lasselle, Christopher Miller, Robert Wilson, Sans Crainte and Morin).",
+   "bio": "Born in Kentucky, Wells was captured as a boy in 1784 and adopted into an Eel River Myaamia family; he married Weenakapita, Mihšihkinaahkwa's daughter, and fought against St. Clair before switching to Wayne's side as a scout. At Greenville his voice carried his father-in-law's arguments into English. He died at Fort Dearborn in 1812.",
+   "sources": [
+    {
+     "title": "Myaamia Center: Part I (on Eepiihkaanita)",
+     "url": "https://aacimotaatiiyankwi.org/2016/10/03/the-treaty-of-greenville-1795-part-1/"
+    },
+    {
+     "title": "Return naming the interpreters, 7 Aug 1795",
+     "url": "https://wardepartmentpapers.org/document/51054/"
+    }
+   ]
+  },
+  {
+   "id": "tarhe",
+   "short": "Tarhe",
+   "name": "Tarhe (the Crane)",
+   "life": "1742–1818",
+   "role": "Wendat (Wyandot) leader of the Sandusky Wyandot; a signer of the 1789 Fort Harmar treaty",
+   "side": "Wendat (Wyandot) of Sandusky",
+   "where": "Fort Greenville, from 12 July 1795",
+   "lat": 40.1028,
+   "lon": -84.633,
+   "waypoints": [
+    {
+     "lat": 40.85,
+     "lon": -83.27,
+     "label": "Sandusky Wyandot towns"
+    },
+    {
+     "lat": 40.1028,
+     "lon": -84.633,
+     "label": "Greenville, July–Aug 1795"
+    }
+   ],
+   "vantage": 0,
+   "vantage_label": "the elder brother who defended the old line",
+   "form": "speeches (as interpreted by Isaac Zane)",
+   "language": "Wendat (Wyandot), rendered in English",
+   "authenticity": "His Greenville speeches survive in English in the official minutes; the Wyandot Nation of Kansas republishes his 22 July address, naming Isaac Zane as interpreter.",
+   "bio": "The Wyandot held a ceremonial seniority among the confederated nations, and Tarhe used it. Where Mihšihkinaahkwa rejected Fort Harmar, Tarhe argued that its line should stand as the basis of peace, and he performed the condolence that cleared the way for settlement.",
+   "sources": [
+    {
+     "title": "Address of Tarhe at the Treaty of Greenville (Wyandot Nation of Kansas)",
+     "url": "https://www.wyandot.org/wyandotKS/address-of-tarhe-grand-sachem-of-the-wyandot-nation-to-the-assemblage-at-the-treaty-of-greenville"
+    }
+   ]
+  },
+  {
+   "id": "blue-jacket",
+   "short": "Blue Jacket",
+   "name": "Weyapiersenwaw (Blue Jacket)",
+   "life": "c. 1743–c. 1808",
+   "role": "Shaawanwaki (Shawnee) war leader, a commander of the confederacy at Fallen Timbers",
+   "side": "Shaawanwaki (Shawnee)",
+   "where": "Arrived at Greenville 18 July 1795 with thirteen Shawnee",
+   "lat": 40.1028,
+   "lon": -84.633,
+   "vantage": 0,
+   "vantage_label": "the defeated war leader who came to make peace",
+   "form": "speeches (as interpreted) and signature",
+   "language": "Shawnee, rendered in English",
+   "authenticity": "His words survive only in the interpreted minutes; his mark is on the treaty, and Pickering singled him out among the signers.",
+   "bio": "Blue Jacket had been the most prominent Shawnee commander of the war. Wayne's agents reported in spring 1795 that he was working to bring the nations in. At Greenville he admitted his own people were divided and then moved to sit with the Wyandot and Lenape, backing Tarhe's line rather than the Myaamia claim.",
+   "sources": [
+    {
+     "title": "Myaamia Center: Part I",
+     "url": "https://aacimotaatiiyankwi.org/2016/07/29/the-treaty-of-greenville-1795-part-i/"
+    },
+    {
+     "title": "Myaamia Center: Part II",
+     "url": "https://aacimotaatiiyankwi.org/2021/03/01/the-treaty-of-greenville-1795-part-ii/"
+    },
+    {
+     "title": "Pickering to Washington, 28 Sept 1795 (Founders Online)",
+     "url": "https://founders.archives.gov/documents/Washington/05-18-02-0487"
+    }
+   ]
+  },
+  {
+   "id": "masass",
+   "short": "Masass",
+   "name": "Masass",
+   "life": "fl. 1795",
+   "role": "Anishinaabe (Ojibwe, 'Chippewa') leader",
+   "side": "Anishinaabe (Ojibwe)",
+   "where": "Arrived at Greenville 18 July 1795 with twenty Ojibwe",
+   "lat": 40.1028,
+   "lon": -84.633,
+   "vantage": 0,
+   "vantage_label": "a signer who said the last treaty was mistranslated",
+   "form": "speeches (as interpreted)",
+   "language": "Anishinaabemowin, rendered in English",
+   "authenticity": "Known for Greenville only through the interpreted minutes.",
+   "bio": "Masass's contribution was a charge about language itself: that the Fort Harmar interpreters had been poor and the Ojibwe had not understood they were ceding land. It is one of the clearest statements in the record of how treaties could mean different things on each side of an interpreter.",
+   "sources": [
+    {
+     "title": "Myaamia Center: Part I",
+     "url": "https://aacimotaatiiyankwi.org/2016/10/03/the-treaty-of-greenville-1795-part-1/"
+    }
+   ]
+  },
+  {
+   "id": "mashipinashiwish",
+   "short": "Mashipinashiwish",
+   "name": "Mashipinashiwish",
+   "life": "fl. 1795",
+   "role": "Anishinaabe (Ojibwe) leader; among the chiefs named in the January 1795 preliminary articles",
+   "side": "Anishinaabe (Ojibwe)",
+   "where": "Fort Greenville",
+   "lat": 40.1028,
+   "lon": -84.633,
+   "vantage": 0,
+   "vantage_label": "early peacemaker, then Mihšihkinaahkwa's ally in council",
+   "form": "speeches (as interpreted)",
+   "language": "Anishinaabemowin, rendered in English",
+   "authenticity": "Speeches in the minutes; a closing speech is also printed in Jacob Burnet's Notes on the Early Settlement of the North-Western Territory (1847), dated there with a question mark.",
+   "bio": "Named in the preliminary articles of January 1795 that first brought Ojibwe, Odawa, Potawatomi and Myaamia leaders to Greenville. In July he backed Mihšihkinaahkwa's challenge that Wayne say plainly whether peace was the object; by the close he declared himself satisfied.",
+   "sources": [
+    {
+     "title": "Preliminary articles, 21 Jan 1795 (Papers of the War Department)",
+     "url": "https://wardepartmentpapers.org/document/49208/"
+    },
+    {
+     "title": "Burnet's Notes excerpt (blog transcription)",
+     "url": "https://indiantraderinterpreter.blogspot.com/2009/05/burnets-notes.html"
+    }
+   ]
+  },
+  {
+   "id": "carmichael",
+   "short": "Carmichael",
+   "name": "John F. Carmichael",
+   "life": "fl. 1795",
+   "role": "Army surgeon with the Legion at Greenville",
+   "side": "United States (army medical staff)",
+   "where": "Fort Greenville, June–December 1795",
+   "lat": 40.1028,
+   "lon": -84.633,
+   "vantage": 1,
+   "vantage_label": "a surgeon listening from the benches",
+   "form": "diary",
+   "language": "English",
+   "authenticity": "Manuscript diary at the Huntington Library, San Marino (HM 827), covering June–December 1795; unpublished, transcribed in part by Cameron Shriver of the Myaamia Center (2021). Contains blanks and struck words where the writer could not catch a name.",
+   "bio": "Carmichael is the only known diarist inside the council. His version of Mihšihkinaahkwa's boundary speech tracks the official minutes closely but leaves gaps where Odawa and Ojibwe place names should be, the trace of a listener who could follow the interpreter's English but not the geography.",
+   "sources": [
+    {
+     "title": "Four versions of a Little Turtle speech (Myaamia Center)",
+     "url": "https://aacimotaatiiyankwi.org/2021/04/13/four-versions-of-a-little-turtle-speech-at-greenville-1795/"
+    }
+   ]
+  },
+  {
+   "id": "askin",
+   "short": "Askin Jr.",
+   "name": "John Askin Jr.",
+   "life": "c. 1762–1820",
+   "role": "Detroit trader's son working for the British Indian Department; reported on the council to Colonel Richard England, commanding at Detroit",
+   "side": "Great Britain (Indian Department, Detroit)",
+   "where": "Sent from Detroit to Greenville",
+   "lat": 42.33,
+   "lon": -83.05,
+   "waypoints": [
+    {
+     "lat": 42.33,
+     "lon": -83.05,
+     "label": "Detroit"
+    },
+    {
+     "lat": 40.1028,
+     "lon": -84.633,
+     "label": "Greenville, summer 1795"
+    }
+   ],
+   "vantage": 2,
+   "vantage_label": "the British listener",
+   "form": "report (dated letter)",
+   "language": "English",
+   "authenticity": "'Report to Colonel England on Mission to Greenville', printed in The John Askin Papers, vol. 1 (Burton Historical Records, Detroit, 1928), p. 564. Its exact date is not confirmed here.",
+   "bio": "Detroit was still in British hands in 1795, and the Indian Department wanted to know what Wayne was getting. Askin's report squeezes Mihšihkinaahkwa's long boundary speech into a few sentences about the Miami claim, which shows what a British official thought worth passing up the chain.",
+   "sources": [
+    {
+     "title": "Four versions of a Little Turtle speech (Myaamia Center)",
+     "url": "https://aacimotaatiiyankwi.org/2021/04/13/four-versions-of-a-little-turtle-speech-at-greenville-1795/"
+    }
+   ]
+  },
+  {
+   "id": "campbell",
+   "short": "Maj. Campbell",
+   "name": "Major William Campbell",
+   "life": "fl. 1794",
+   "role": "Major, 24th Regiment of Foot; commandant of the British post Fort Miamis at the foot of the Maumee rapids",
+   "side": "Great Britain",
+   "where": "Inside Fort Miamis, August 1794",
+   "lat": 41.5636,
+   "lon": -83.6458,
+   "vantage": 1,
+   "vantage_label": "behind the British walls",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "His exchange of letters with Wayne, 21–22 August 1794, survives and is catalogued by the Papers of the War Department.",
+   "bio": "Campbell held a new British fort on land the United States claimed, at the heart of the confederacy's towns. After the battle he faced an American army at his walls and a commander demanding that he leave. Later accounts, Indigenous and British, held that the fort had kept its gates shut to the retreating warriors; his surviving letters deal only with the Americans.",
+   "sources": [
+    {
+     "title": "Campbell to Wayne, 21 Aug 1794",
+     "url": "https://wardepartmentpapers.org/document/47696/"
+    },
+    {
+     "title": "Campbell to Wayne, 22 Aug 1794",
+     "url": "https://wardepartmentpapers.org/document/47711/"
+    }
+   ]
+  },
+  {
+   "id": "precise-journal",
+   "short": "Precise Journal",
+   "name": "Anonymous ('Randolph'), A Precise Journal of General Wayne's Last Campaign",
+   "life": "fl. 1794",
+   "role": "Unidentified member of Wayne's army, probably not an officer",
+   "side": "United States (Legion)",
+   "where": "On the march to the Maumee rapids and back, July–November 1794",
+   "lat": 41.545,
+   "lon": -83.69,
+   "waypoints": [
+    {
+     "lat": 41.288,
+     "lon": -84.361,
+     "label": "Grand Glaize"
+    },
+    {
+     "lat": 41.545,
+     "lon": -83.69,
+     "label": "Fallen Timbers / Fort Miamis"
+    }
+   ],
+   "vantage": 1,
+   "vantage_label": "in the ranks",
+   "form": "journal (printed 1795)",
+   "language": "English",
+   "authenticity": "Printed at Hagerstown by John Gruber in 1795; the only known copy is at the American Antiquarian Society. Edited by Richard C. Knopf (Proceedings of the AAS, October 1954), who judged the author probably not an officer, the name 'Randolph' possibly assumed, and the text lightly edited before printing.",
+   "bio": "The journal covers 25 July to 2 November 1794 in a day-by-day voice with an eye for the men rather than for policy. It is one of the few dated, near-daily records of the battle and of the strange days afterwards beside the British fort.",
+   "sources": [
+    {
+     "title": "Knopf, 'A Precise Journal of General Wayne's Last Campaign' (PAAS 1954)",
+     "url": "https://americanantiquarian.org/sites/default/files/proceedings/44524998.pdf"
+    }
+   ]
+  },
+  {
+   "id": "wilkinson",
+   "short": "Wilkinson",
+   "name": "James Wilkinson",
+   "life": "1757–1825",
+   "role": "Brigadier General, second in command of the Legion, commanding its right wing",
+   "side": "United States (Legion), hostile to Wayne",
+   "where": "Fallen Timbers; camp at the Auglaize–Maumee confluence",
+   "lat": 41.288,
+   "lon": -84.361,
+   "vantage": 1,
+   "vantage_label": "the rival second-in-command",
+   "form": "dated letter",
+   "language": "English",
+   "authenticity": "Private letter of 28 August 1794 to a friend in Frankfort, Kentucky (the editor names John Brown; the endorsement suggests James Brown); edited by M. M. Quaife in the Mississippi Valley Historical Review 16 (June 1929). A partisan account by Wayne's bitter rival.",
+   "bio": "Wilkinson wrote on the same day as Wayne's victory report and contradicted it almost point by point. Because he was intriguing against Wayne (and, it later emerged, in Spanish pay), the letter is a lesson in how one battle produced two incompatible official stories.",
+   "sources": [
+    {
+     "title": "General James Wilkinson's Narrative of the Fallen Timbers Campaign (MVHR 1929, Thayer transcription)",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Journals/MVHR/16/1/General_James_Wilkinsons_Narrative_of_the_Fallen_Timbers_Campaign*.html"
+    }
+   ]
+  },
+  {
+   "id": "pickering",
+   "short": "Pickering",
+   "name": "Timothy Pickering",
+   "life": "1745–1829",
+   "role": "US Secretary of War (1795), formerly a commissioner at the failed 1793 talks; Wayne's superior",
+   "side": "United States (War Office, Philadelphia)",
+   "where": "War Office, Philadelphia",
+   "lat": 39.95,
+   "lon": -75.15,
+   "vantage": 4,
+   "vantage_label": "the capital, reading the dispatches",
+   "form": "dated letters",
+   "language": "English",
+   "authenticity": "Letters to Wayne and to President Washington survive in War Department records and the Washington Papers (Founders Online, with editorial notes).",
+   "bio": "Pickering received the council at a distance of weeks. His letters show how Greenville looked from Philadelphia: a question of land acreage, of which chiefs had signed, and of whether the British would at last give up Detroit and the other posts.",
+   "sources": [
+    {
+     "title": "Pickering to Washington, 28 Sept 1795",
+     "url": "https://founders.archives.gov/documents/Washington/05-18-02-0487"
+    },
+    {
+     "title": "Pickering to Wayne, 3 Oct 1795",
+     "url": "https://wardepartmentpapers.org/document/51618/"
+    },
+    {
+     "title": "Pickering to Washington, 23 Oct 1795",
+     "url": "https://founders.archives.gov/documents/Washington/05-19-02-0050"
+    }
+   ]
+  }
+ ],
+ "entries": [
+  {
+   "date_iso": "1794-08-20",
+   "date_display": "Wednesday 20 August 1794",
+   "precision": "day",
+   "eye": "precise-journal",
+   "place": "Fallen Timbers, Maumee River",
+   "headline": "Rain, a four-mile march, then the charge",
+   "digest": "After rain held up the start, the army marched about four miles before the advance guard was struck. The journal describes Wayne combining his lines and ordering a charge that drove the warriors back about a mile. It mourns the cavalry captain Robert Campbell, killed early, notes a Canadian trader captured in war paint, and ends with the army camped within half a mile of the British fort, receiving a flag.",
+   "quote": "the Enemy were routed and compelled to retire one Mile",
+   "confidence": "verified",
+   "source_note": "Precise Journal, entry for 20 Aug 1794, as edited by Knopf, PAAS 1954"
+  },
+  {
+   "date_iso": "1794-08-21",
+   "date_display": "Thursday 21 August 1794",
+   "precision": "day",
+   "eye": "campbell",
+   "place": "Fort Miamis",
+   "headline": "The British commandant asks what the army intends",
+   "digest": "With American troops gathered outside his post for a day, Campbell wrote to Wayne asking in what light he should regard their approach. The letter is formal and short; it is the opening of a two-day exchange conducted by flags of truce across a few hundred yards of ground.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Campbell to Wayne, 21 Aug 1794, Papers of the War Department doc. 47696"
+  },
+  {
+   "date_iso": "1794-08-21",
+   "date_display": "Thursday 21 August 1794",
+   "precision": "day",
+   "eye": "wayne",
+   "place": "Camp below Fort Miamis, Maumee River",
+   "headline": "Wayne answers that he is fighting Indians, not Britain",
+   "digest": "Wayne replied the same day that his army was there because of the hostile nations, implying that the battle of the day before answered Campbell's question. He did not yet challenge the fort's right to be there.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wayne to Campbell, 21 Aug 1794, Papers of the War Department doc. 47697"
+  },
+  {
+   "date_iso": "1794-08-21",
+   "date_display": "Thursday 21 August 1794",
+   "precision": "day",
+   "eye": "precise-journal",
+   "place": "Camp below Fort Miamis, Maumee River",
+   "headline": "A British drummer deserts; flags pass all day",
+   "digest": "The army stayed encamped beside the garrison. The journal records a drummer coming over from the British and the constant traffic of truce flags between the two commanders.",
+   "quote": "Flags continually passing.",
+   "confidence": "verified",
+   "source_note": "Precise Journal, entry for 21 Aug 1794 (Knopf, PAAS 1954)"
+  },
+  {
+   "date_iso": "1794-08-22",
+   "date_display": "Friday 22 August 1794",
+   "precision": "day",
+   "eye": "wayne",
+   "place": "Camp below Fort Miamis, Maumee River",
+   "headline": "Wayne calls the fort an act of aggression",
+   "digest": "Wayne hardened his tone. The British post, he wrote, stood well inside the boundary Britain had acknowledged in 1783 and among the towns of nations at war with the United States, and he called on Campbell to withdraw and stop fortifying.",
+   "quote": "act of the highest aggression",
+   "confidence": "verified",
+   "source_note": "Wayne to Campbell, 22 Aug 1794, Papers of the War Department doc. 47710"
+  },
+  {
+   "date_iso": "1794-08-22",
+   "date_display": "Friday 22 August 1794",
+   "precision": "day",
+   "eye": "campbell",
+   "place": "Fort Miamis",
+   "headline": "Campbell refuses, and takes offence for his King",
+   "digest": "Campbell answered that he wished no quarrel with the United States but would not abandon his post without orders, and he called Wayne's language an insult to the British flag and Crown. The fort stayed; so did the stand-off, for one more day.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Campbell to Wayne, 22 Aug 1794, Papers of the War Department doc. 47711; Wilkinson's letter of 28 Aug also reports the refusal"
+  },
+  {
+   "date_iso": "1794-08-22",
+   "date_display": "Friday 22 August 1794",
+   "precision": "day",
+   "eye": "precise-journal",
+   "place": "Camp below Fort Miamis, Maumee River",
+   "headline": "Light companies ring the fort while Wayne inspects",
+   "digest": "At nine in the morning four light companies and four troops of dragoons moved through thick woods to within about a hundred yards of the walls while Wayne looked over the works; then they were marched back and dismissed. A further flag came from Major Campbell afterwards.",
+   "quote": "Flag was received from Major Campbell",
+   "confidence": "verified",
+   "source_note": "Precise Journal, entry for 22 Aug 1794 (Knopf, PAAS 1954)"
+  },
+  {
+   "date_iso": "1794-08-23",
+   "date_display": "Saturday 23 August 1794",
+   "precision": "day",
+   "eye": "precise-journal",
+   "place": "Camp below Fort Miamis, Maumee River",
+   "headline": "A salute for the dead, and the march back",
+   "digest": "The howitzers fired in honour of the men killed on the 20th, and the army gave up any further advance, marching back to its fortified depot. Between the lines of this entry lies the army's burning of the towns and cornfields near the fort, which Wayne reported to Knox.",
+   "quote": "in Honor of those Heroes who fell in the Action",
+   "confidence": "verified",
+   "source_note": "Precise Journal, entry for 23 Aug 1794; Wayne to Knox, 28 Aug 1794"
+  },
+  {
+   "date_iso": "1794-08-28",
+   "date_display": "Thursday 28 August 1794",
+   "precision": "day",
+   "eye": "wayne",
+   "place": "Headquarters, Grand Glaize",
+   "headline": "Wayne announces victory to the Secretary of War",
+   "digest": "Back at the Grand Glaize, Wayne reported to Henry Knox that fewer than 900 of his men had routed about 2,000 warriors and Detroit militia in roughly an hour, with enemy losses more than double his own. He described three days spent destroying villages and fields under the British guns and warned of a possible counter-attack, which he hoped would make the peace more certain.",
+   "quote": "the brilliant success of the Federal Army",
+   "confidence": "verified",
+   "source_note": "Wayne to Knox, No. 83, 28 Aug 1794, Wayne Family Papers (Clements Library exhibit)"
+  },
+  {
+   "date_iso": "1794-08-28",
+   "date_display": "Thursday 28 August 1794",
+   "precision": "day",
+   "eye": "wilkinson",
+   "place": "Camp at the Auglaize–Maumee confluence",
+   "headline": "Wayne's second-in-command writes a very different battle",
+   "digest": "On the same day, Wilkinson told a Kentucky friend that Wayne had given no orders during the action, left the dead and wounded unattended, misjudged distances and inflated the enemy's losses; he put the warriors killed on the field at under thirty, against Wayne's claim of hundreds. He also described the British commandant refusing to leave and Wayne first calling the fort weak, then too strong to attack.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wilkinson to (John or James) Brown, 28 Aug 1794, MVHR 16 (1929), Thayer transcription"
+  },
+  {
+   "date_iso": "1795-01-21",
+   "date_display": "Wednesday 21 January 1795",
+   "precision": "day",
+   "eye": "wayne",
+   "place": "Fort Greenville",
+   "headline": "Preliminary articles: hostilities cease, meet in June",
+   "digest": "Wayne signed preliminary articles with leaders including Mashipinashiwish and the Myaamia speakers Pinšiwa (Jean Baptiste Richardville) and Kiilhswa. All hostilities were to stop until a permanent peace, and the nations' sachems and war chiefs agreed to come to Greenville on or about 15 June. The Myaamia Center notes that these articles took the 1789 Fort Harmar treaty as the basis, the point that would be fought over all summer.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Preliminary articles and agreement to meet, 21 Jan 1795, Papers of the War Department docs. 49208, 49210; Myaamia Center Part I"
+  },
+  {
+   "date_iso": "1795-05-07",
+   "date_display": "Thursday 7 May 1795",
+   "precision": "day",
+   "eye": "pickering",
+   "place": "War Office, Philadelphia",
+   "headline": "Pickering warns Wayne to stay on guard",
+   "digest": "Approving the preliminary steps, Pickering cautioned Wayne to keep watch over the large numbers of Indians who would gather, and reached back thirty years to Pontiac's attacks on the British posts as a warning. He dealt too with clothing for the chiefs, while declining to give them commissions.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pickering to Wayne, 7 May 1795, Papers of the War Department doc. 50037"
+  },
+  {
+   "date_iso": "1795-06-16",
+   "date_display": "Tuesday 16 June 1795",
+   "precision": "day",
+   "eye": "debutts",
+   "place": "Council house, Fort Greenville",
+   "headline": "A council fire lit, then covered to wait",
+   "digest": "The minutes open with Wayne kindling a new council fire, offering the calumet and addressing the first arrivals as brothers. Because most nations had not yet come, the fire was formally covered until they did. Delegations had been trickling in since early June.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ASP Indian Affairs 1; summarised in Myaamia Center Part I"
+  },
+  {
+   "date_iso": "1795-06-17",
+   "date_display": "Wednesday 17 June 1795",
+   "precision": "day",
+   "eye": "wayne",
+   "place": "Fort Greenville",
+   "headline": "Waiting for goods, and for the nations",
+   "digest": "Wayne told Pickering where each nation was and expected British agents at a rival council to exaggerate Indian hostility. Only part of the treaty goods had arrived, and he asked for troops as quickly as possible.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wayne to Pickering, 17 June 1795, Papers of the War Department doc. 50517"
+  },
+  {
+   "date_iso": "1795-06-23",
+   "date_display": "Tuesday 23 June 1795",
+   "precision": "day",
+   "eye": "little-turtle",
+   "place": "Fort Greenville",
+   "headline": "The Myaamia delegation arrives with Le Gris",
+   "digest": "The main Myaamia party came in, led by the civil leader Neekakwanka (Le Gris) and by Mihšihkinaahkwa, with Pinšiwa, Cochkepoghtogh and Waapimaankwa. Le Gris spoke the greeting, saying the Myaamia shared Wayne's wish for peace. Over the winter Mihšihkinaahkwa had taken the leader Pakaana to Detroit to see for himself that the British would not fight.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "ASP Indian Affairs 1 minutes as summarised by Myaamia Center Part I (both versions)"
+  },
+  {
+   "date_iso": "1795-06-24",
+   "date_display": "Wednesday 24 June 1795",
+   "precision": "day",
+   "eye": "debutts",
+   "place": "Fort Greenville",
+   "headline": "An explosion, and the Myaamia flee into the woods",
+   "digest": "A blast in the fort's armoury sent the Myaamia and their allies from Taawaawa Siipiiwi (the Maumee River) running into the woods, fearing a trap. They came back once it was clear it had been an accident; the next day all agreed to wait for the other nations. On 26 June thirty-four Ojibwe and Potawatomi arrived.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Minutes, 24–26 June 1795, as summarised in Myaamia Center Part I"
+  },
+  {
+   "date_iso": "1795-07-12",
+   "date_display": "Sunday 12 July 1795",
+   "precision": "day",
+   "eye": "tarhe",
+   "place": "Fort Greenville",
+   "headline": "The Sandusky Wyandot arrive",
+   "digest": "The Wendat (Wyandot) of Sandusky reached Greenville, Tarhe among them. The Wyandot of Detroit, still close to the British, and most of the Shawnee had not yet come.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Minutes as summarised in Myaamia Center Part I; Tarhe's presence from his speeches of 18 and 22 July"
+  },
+  {
+   "date_iso": "1795-07-15",
+   "date_display": "Wednesday 15 July 1795",
+   "precision": "day",
+   "eye": "debutts",
+   "place": "Council house, Fort Greenville",
+   "headline": "The fire uncovered; interpreters sworn",
+   "digest": "The full council opened. Wayne had every interpreter sworn, naming the Great Spirit, and passed the calumet to the Myaamia leader Šimaakanehsia, honouring the Eel River Myaamia who had first taken his hand. He then laid out the old treaties, above all Fort Harmar (1789), as the basis of peace and adjourned the council to the 18th.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Minutes, 15 July 1795, as summarised in Myaamia Center Part I (both versions)"
+  },
+  {
+   "date_iso": "1795-07-15",
+   "date_display": "Wednesday 15 July 1795",
+   "precision": "day",
+   "eye": "wells",
+   "place": "Council house, Fort Greenville",
+   "headline": "Eepiihkaanita sworn in for the Myaamia",
+   "digest": "Among the interpreters sworn was Wells, Mihšihkinaahkwa's son-in-law and a former scout for Wayne. Eleven languages were in use at the council; from this day Myaamia arguments reached the record only through his English.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Myaamia Center Part I; return of 7 Aug 1795 naming interpreters"
+  },
+  {
+   "date_iso": "1795-07-18",
+   "date_display": "Saturday 18 July 1795",
+   "precision": "day",
+   "eye": "little-turtle",
+   "place": "Council house, Fort Greenville",
+   "headline": "'You have not said peace': the first challenge",
+   "digest": "In a short pointed speech Mihšihkinaahkwa observed that Wayne had not yet used the word peace, and said the Myaamia knew nothing of what had been done at Fort Harmar. The Myaamia Center notes it was unusual for the Myaamia to speak first.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Minutes, 18 July 1795 (interpreter Wells), as summarised in Myaamia Center Part I"
+  },
+  {
+   "date_iso": "1795-07-18",
+   "date_display": "Saturday 18 July 1795",
+   "precision": "day",
+   "eye": "mashipinashiwish",
+   "place": "Council house, Fort Greenville",
+   "headline": "An Ojibwe leader backs the challenge",
+   "digest": "Mashipinashiwish rose to support Mihšihkinaahkwa's demand that Wayne state the purpose of the council. The two would receive Wayne's wampum together two days later.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Minutes, 18 July 1795, as summarised in Myaamia Center Part I"
+  },
+  {
+   "date_iso": "1795-07-18",
+   "date_display": "Saturday 18 July 1795",
+   "precision": "day",
+   "eye": "tarhe",
+   "place": "Council house, Fort Greenville",
+   "headline": "Tarhe asks that each nation speak in turn",
+   "digest": "Tarhe, who had signed at Fort Harmar, objected to any one nation speaking for all and asked that each be given its own day. It was a procedural move with a point to it: it kept the Myaamia objection from standing as the voice of the council.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Minutes, 18 July 1795, as summarised in Myaamia Center Part I"
+  },
+  {
+   "date_iso": "1795-07-18",
+   "date_display": "Saturday 18 July 1795",
+   "precision": "day",
+   "eye": "blue-jacket",
+   "place": "Fort Greenville",
+   "headline": "Blue Jacket arrives: 'my people are divided'",
+   "digest": "That evening Blue Jacket came in with thirteen Shawnee. He said frankly that his nation was split, with many still unwilling to come.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Minutes, 18 July 1795, as summarised in Myaamia Center Part I"
+  },
+  {
+   "date_iso": "1795-07-18",
+   "date_display": "Saturday 18 July 1795",
+   "precision": "day",
+   "eye": "masass",
+   "place": "Fort Greenville",
+   "headline": "Masass comes in with twenty Ojibwe",
+   "digest": "Masass arrived with twenty Ojibwe on the same evening as the Shawnee, swelling the council toward the more than a thousand people who would finally assent.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Minutes, 18 July 1795, as summarised in Myaamia Center Part I"
+  },
+  {
+   "date_iso": "1795-07-20",
+   "date_display": "Monday 20 July 1795",
+   "precision": "day",
+   "eye": "wayne",
+   "place": "Council house, Fort Greenville",
+   "headline": "Peace like the sun, and Fort Harmar read aloud",
+   "digest": "Wayne answered the challenge by saying his purpose was as plain as the sun, and gave wampum to Mihšihkinaahkwa and Mashipinashiwish. Then he had the whole Fort Harmar treaty read out, article by article.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Minutes, 20 July 1795, as summarised in Myaamia Center Part I"
+  },
+  {
+   "date_iso": "1795-07-20",
+   "date_display": "Monday 20 July 1795",
+   "precision": "day",
+   "eye": "little-turtle",
+   "place": "Council house, Fort Greenville",
+   "headline": "'Totally unacquainted' with Fort Harmar",
+   "digest": "After hearing the treaty read, Mihšihkinaahkwa said the Myaamia and the Wabash nations had never known it and so could not be bound by it; peace had to be made on new ground.",
+   "quote": "totally unacquainted (as interpreted by Wells)",
+   "confidence": "verified",
+   "source_note": "Minutes, 20 July 1795, ASP Indian Affairs 1; phrase as quoted by Myaamia Center Part I"
+  },
+  {
+   "date_iso": "1795-07-21",
+   "date_display": "Tuesday 21 July 1795",
+   "precision": "day",
+   "eye": "masass",
+   "place": "Council house, Fort Greenville",
+   "headline": "'The interpreters were bad': Fort Harmar disowned",
+   "digest": "In a day given over to the Fort Harmar treaty, Masass said its interpreters had been poor and that the Ojibwe had not understood that they were giving up land. The Wyandot asked for time to reply.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Minutes, 21 July 1795, as summarised in Myaamia Center Part I"
+  },
+  {
+   "date_iso": "1795-07-21",
+   "date_display": "Tuesday 21 July 1795",
+   "precision": "day",
+   "eye": "little-turtle",
+   "place": "Council house, Fort Greenville",
+   "headline": "No cession without Myaamia consent",
+   "digest": "Speaking last, Mihšihkinaahkwa argued that the land in question was at least partly Myaamia, so no one else could cede it, and rejected any American claim resting on the 1783 Treaty of Paris, since the French and British had never owned the Ohio and Wabash valleys.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Minutes, 21 July 1795, as summarised in Myaamia Center Part I"
+  },
+  {
+   "date_iso": "1795-07-22",
+   "date_display": "Wednesday 22 July 1795",
+   "precision": "day",
+   "eye": "little-turtle",
+   "place": "Council house, Fort Greenville",
+   "headline": "The boundaries of the Myaamia country",
+   "digest": "Mihšihkinaahkwa traced the Myaamia country by its edges, from Detroit to the Ohio and the Wabash to Lake Michigan, and said the proposed line cut off land his ancestors had always used. He closed by telling Wayne he had come expecting good words and had not yet heard them.",
+   "quote": "The print of my ancestors' houses are every where to be seen",
+   "confidence": "verified",
+   "source_note": "Minutes, ASP Indian Affairs 1, pp. 570–71 (interpreter Wells); History Matters excerpt; Myaamia Center Part I"
+  },
+  {
+   "date_iso": "1795-07-22",
+   "date_display": "Wednesday 22 July 1795",
+   "precision": "day",
+   "eye": "wells",
+   "place": "Council house, Fort Greenville",
+   "headline": "Carrying a father-in-law's map into English",
+   "digest": "Wells rendered the boundary speech. The Myaamia Center suggests that its unusual form, a territory defined by lines rather than by towns and shared use, may reflect the two men working together, and credits Wells with much of Mihšihkinaahkwa's effectiveness in council.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Myaamia Center Part I and 'Four versions' (2021); interpretation is the Center's, not the minutes'"
+  },
+  {
+   "date_iso": "1795-07-22",
+   "date_display": "Wednesday 22 July 1795",
+   "precision": "day",
+   "eye": "tarhe",
+   "place": "Council house, Fort Greenville",
+   "headline": "Burying the hatchet, and defending the old line",
+   "digest": "Tarhe spoke as elder brother: removing the hatchet and burying it beyond finding, washing away blood, reburying the dead and clearing throats so words would be true. He called the Muskingum (Fort Harmar) treaty fair, noted the United States had not taken everything, and urged that its line be the foundation of a lasting peace, adding that the ground belonged to all.",
+   "quote": "none in particular can justly claim this ground (as interpreted by Isaac Zane)",
+   "confidence": "verified",
+   "source_note": "Address of Tarhe, 22 July 1795, Wyandot Nation of Kansas; minutes as summarised in Myaamia Center Part I and II"
+  },
+  {
+   "date_iso": "1795-07-22",
+   "date_display": "July 1795",
+   "precision": "range",
+   "eye": "carmichael",
+   "place": "Fort Greenville",
+   "headline": "A surgeon writes the boundary speech down",
+   "digest": "Carmichael copied his own version of Mihšihkinaahkwa's boundary speech into his diary. It follows the official text closely but leaves blanks where Odawa and Ojibwe places should be and mixes a centred description of the country with the line-by-line one.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Carmichael diary, Huntington HM 827, as transcribed by C. Shriver, Myaamia Center 'Four versions' (2021); exact diary date not confirmed"
+  },
+  {
+   "date_iso": "1795-07-23",
+   "date_display": "c. 22–23 July 1795",
+   "precision": "range",
+   "eye": "blue-jacket",
+   "place": "Council house, Fort Greenville",
+   "headline": "Blue Jacket moves to sit with the Wyandot",
+   "digest": "After Tarhe's condolence, Blue Jacket went over to sit with the Wyandot and Lenape (Delaware), endorsed Tarhe's position and urged the Myaamia to do likewise. The Potawatomi, Ojibwe and Odawa speakers who followed steered clear of the Myaamia land claim.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Minutes as summarised in Myaamia Center Part II; day not given there"
+  },
+  {
+   "date_iso": "1795-07-24",
+   "date_display": "Friday 24 July 1795",
+   "precision": "day",
+   "eye": "wayne",
+   "place": "Council house, Fort Greenville",
+   "headline": "Wayne answers with French forts and British treaties",
+   "digest": "Two days after the boundary speech, Wayne repeated Mihšihkinaahkwa's line back to him and argued that it took in land already ceded or held by others. He listed the French and British posts across the country, had the 1783 Treaty of Paris and the 1794 Jay Treaty read, and rested the American claim on those treaties and on conquest.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Minutes, ASP Indian Affairs 1 (History Matters excerpt); 'two days later' per Myaamia Center Part II, date inferred"
+  },
+  {
+   "date_iso": "1795-07-27",
+   "date_display": "late July 1795",
+   "precision": "range",
+   "eye": "little-turtle",
+   "place": "Council house, Fort Greenville",
+   "headline": "Rebuttal: forts are not land, and land is only lent",
+   "digest": "Mihšihkinaahkwa took Wayne's posts one by one, among them Fort Miamis, Pickawillany and Loramie's store, denying that a trading post carried title to the country around it. He said the Wea leader at Ouiatenon could only lend land, not give it.",
+   "quote": "to any white man who wore a hat (as interpreted)",
+   "confidence": "approx",
+   "source_note": "Minutes, ASP Indian Affairs 1; Myaamia Center Part II and 'Four versions'; exact day not confirmed"
+  },
+  {
+   "date_iso": "1795-07-30",
+   "date_display": "Thursday 30 July 1795 (probable)",
+   "precision": "range",
+   "eye": "wayne",
+   "place": "Council house, Fort Greenville",
+   "headline": "A straight line, a 'tender father', and assent",
+   "digest": "On a Thursday late in July Wayne defended a straight boundary, promised hunting rights on ceded ground and insisted that European forts carried land with them. Calling the United States a tender father, he declared the negotiation over. The Ojibwe assented first, then the other nations, unanimously.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Minutes, as summarised in Myaamia Center Part II ('a Thursday in July'); 30 July inferred from the sequence"
+  },
+  {
+   "date_iso": "1795-08",
+   "date_display": "summer 1795",
+   "precision": "month",
+   "eye": "askin",
+   "place": "Detroit",
+   "headline": "The British get a few sentences",
+   "digest": "Askin reported to Colonel England on what he had learned at Greenville. Mihšihkinaahkwa's long speech on the boundary became a brief paraphrase about the Miami claim to their lands: a measure of how little of the council's argument reached British Detroit.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Askin, 'Report to Colonel England on Mission to Greenville', John Askin Papers vol. 1 (1928) p. 564, per Myaamia Center 'Four versions'; exact date not confirmed"
+  },
+  {
+   "date_iso": "1795-08-03",
+   "date_display": "Monday 3 August 1795",
+   "precision": "day",
+   "eye": "debutts",
+   "place": "Fort Greenville",
+   "headline": "The treaty signed",
+   "digest": "The treaty was signed by Wayne and by leaders of the Wyandot, Lenape, Shawnee, Odawa, Ojibwe, Potawatomi, Myaamia, Eel River, Wea, Kickapoo, Piankashaw and Kaskaskia. It ceded most of present-day Ohio and sixteen tracts beyond the line, promised $20,000 in goods and $9,500 a year, made the United States the only lawful buyer of the nations' remaining land, and declared earlier treaties void.",
+   "quote": "peace is hereby established, and shall be perpetual",
+   "confidence": "verified",
+   "source_note": "Treaty of Greenville, 3 Aug 1795, Art. 1 (7 Stat. 49; Kappler 2:39–45); Clements Library copy certified by De Butts 9 Aug 1795"
+  },
+  {
+   "date_iso": "1795-08-07",
+   "date_display": "Friday 7 August 1795",
+   "precision": "day",
+   "eye": "debutts",
+   "place": "Fort Greenville",
+   "headline": "Exchange, return of nations, medals",
+   "digest": "The signed copies were exchanged and De Butts drew up a return of the nations present, naming the interpreters. Wayne distributed silver medals as gifts of the Fifteen Fires; the large oval medal given to Mihšihkinaahkwa was re-acquired by the Miami Tribe in 2025.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Return of 7 Aug 1795 (Papers of the War Department doc. 51054); Founders note to Pickering, 28 Sept 1795 (signed 3rd, exchanged 7th); Myaamia Center '1795 peace medal' (2025)"
+  },
+  {
+   "date_iso": "1795-08-09",
+   "date_display": "Sunday 9 August 1795",
+   "precision": "day",
+   "eye": "wayne",
+   "place": "Fort Greenville",
+   "headline": "'Signed': the report to Philadelphia",
+   "digest": "Wayne told Pickering the treaty had been signed on the 3rd and exchanged on the 7th, enclosed a copy and promised the engrossed original and minutes once ready. In the same letter he turned at once to the army's unpaid clothing, late supplies and the quarrel over Jay's Treaty.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wayne to Pickering, 9 Aug 1795, Papers of the War Department doc. 51082; Founders note"
+  },
+  {
+   "date_iso": "1795-08-10",
+   "date_display": "10 August 1795 (date queried in source)",
+   "precision": "day",
+   "eye": "mashipinashiwish",
+   "place": "Fort Greenville",
+   "headline": "'My heart will never change'",
+   "digest": "Before the council broke up, Mashipinashiwish told Wayne he had heard and understood everything and was satisfied with every part of it. He added that no prisoners remained in Ojibwe hands near Michilimackinac, meeting the treaty's demand for the return of captives.",
+   "quote": "My heart will never change. (as interpreted)",
+   "confidence": "approx",
+   "source_note": "Speech printed in Jacob Burnet, Notes on the Early Settlement of the North-Western Territory (1847), dated 'Aug 10th?'; transcription at indiantraderinterpreter blog"
+  },
+  {
+   "date_iso": "1795-08-12",
+   "date_display": "c. 12 August 1795",
+   "precision": "range",
+   "eye": "little-turtle",
+   "place": "Fort Greenville",
+   "headline": "A last word: opposition was duty",
+   "digest": "Staying on a day or two after most delegations had gone, Mihšihkinaahkwa, with Myaamia, Eel River and Kickapoo colleagues, told Wayne that his resistance in council had come from duty to his country, and asked that Wayne not think the worse of him for it.",
+   "quote": "",
+   "confidence": "approx",
+   "source_note": "Minutes, as summarised in Myaamia Center Part II; 12 Aug date from C. M. Young, Little Turtle (1917)"
+  },
+  {
+   "date_iso": "1795-09-20",
+   "date_display": "Sunday 20 September 1795",
+   "precision": "day",
+   "eye": "wayne",
+   "place": "Fort Greenville",
+   "headline": "Minutes sent, with a complaint about land jobbers",
+   "digest": "Wayne forwarded the treaty, proceedings and minutes to the War Office, and complained that speculators in western land were working on the Indians and threatening the peace he had just made.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Wayne to Pickering, 20 Sept 1795, cited in Founders note to Pickering to Washington, 23 Oct 1795"
+  },
+  {
+   "date_iso": "1795-09-28",
+   "date_display": "Monday 28 September 1795",
+   "precision": "day",
+   "eye": "pickering",
+   "place": "War Office, Philadelphia",
+   "headline": "'More land than was expected'",
+   "digest": "Sending Washington the treaty copy that had arrived the night before, Pickering noted that Wayne had obtained more land than expected and that few chiefs had signed. He picked out the names he knew: Blue Jacket and the Shawnee speaker Misquacoonacaw, the Lenape war leader Buckongahelas, and the Odawa Augooshaway, wounded at Fallen Timbers.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pickering to Washington, 28 Sept 1795, Founders Online; Papers of the War Department doc. 51553"
+  },
+  {
+   "date_iso": "1795-10-03",
+   "date_display": "Saturday 3 October 1795",
+   "precision": "day",
+   "eye": "pickering",
+   "place": "War Office, Philadelphia",
+   "headline": "Now the British posts",
+   "digest": "Pickering wrote Wayne that a lasting peace with the western nations depended on getting possession of the posts Britain still held, and that with peace made, the government could no longer afford a full legion at Greenville.",
+   "quote": "",
+   "confidence": "verified",
+   "source_note": "Pickering to Wayne, 3 Oct 1795, Papers of the War Department doc. 51618"
+  }
+ ],
+ "convergences": [
+  {
+   "date": "1794-08-22",
+   "label": "Two armies' letters across a few hundred yards: the stand-off at Fort Miamis",
+   "eyes": [
+    "wayne",
+    "campbell",
+    "precise-journal",
+    "wilkinson"
+   ],
+   "note": "Wayne and Campbell argue sovereignty by letter; the ranks see only flags passing and a march to the walls and back; Wilkinson, a week later, calls the whole manoeuvre muddled. None of the four records what the retreating warriors met at the British gate."
+  },
+  {
+   "date": "1794-08-28",
+   "label": "Same day, two victories",
+   "eyes": [
+    "wayne",
+    "wilkinson"
+   ],
+   "note": "Wayne's report and Wilkinson's private letter were written the same Thursday by the army's two senior generals and disagree on orders, casualties and the enemy's losses."
+  },
+  {
+   "date": "1795-07-18",
+   "label": "The first challenge and the evening arrivals",
+   "eyes": [
+    "little-turtle",
+    "mashipinashiwish",
+    "tarhe",
+    "blue-jacket",
+    "masass"
+   ],
+   "note": "The Myaamia and an Ojibwe ally demand Wayne say 'peace'; Tarhe asks that no nation speak for all; that evening the Shawnee and more Ojibwe arrive, Blue Jacket admitting his people are split."
+  },
+  {
+   "date": "1795-07-21",
+   "label": "Fort Harmar on trial",
+   "eyes": [
+    "masass",
+    "little-turtle"
+   ],
+   "note": "One leader disowns the old treaty because of its interpreters, the other because his nation never signed it; both arguments turn on who had the right to speak and in what words."
+  },
+  {
+   "date": "1795-07-22",
+   "label": "Two maps of one country",
+   "eyes": [
+    "little-turtle",
+    "wells",
+    "tarhe",
+    "carmichael"
+   ],
+   "note": "Mihšihkinaahkwa draws Myaamia boundaries through his son-in-law's English; Tarhe answers that the ground belongs to all and the old line should stand; an army surgeon copies the speech with blanks where the place names should be."
+  },
+  {
+   "date": "1795-08-03",
+   "label": "The marks on the parchment",
+   "eyes": [
+    "debutts",
+    "wayne",
+    "little-turtle",
+    "blue-jacket"
+   ],
+   "note": "The treaty text promises perpetual peace and annuities; Wayne reports success within the week; the men who had fought him in 1791 and 1794 sign it."
+  },
+  {
+   "date": "1795-09-28",
+   "label": "Read in Philadelphia",
+   "eyes": [
+    "pickering",
+    "wayne"
+   ],
+   "note": "Seven weeks after the signing the council has become an acreage and a short list of famous names; the argument over boundaries survives only in the minutes Wayne sent after."
+  }
+ ],
+ "ties": [
+  {
+   "a": "wayne",
+   "b": "campbell",
+   "kind": "opposite sides",
+   "note": "Exchanged letters under flags of truce on 21–22 August 1794 over the British fort's right to stand on the Maumee."
+  },
+  {
+   "a": "wayne",
+   "b": "wilkinson",
+   "kind": "opposite sides",
+   "note": "Commander and second-in-command in the same army, bitter rivals whose accounts of Fallen Timbers contradict each other."
+  },
+  {
+   "a": "wayne",
+   "b": "little-turtle",
+   "kind": "met",
+   "note": "Principal antagonists in council from 18 July to the signing; Mihšihkinaahkwa had defeated Wayne's predecessors in 1790 and 1791."
+  },
+  {
+   "a": "wells",
+   "b": "little-turtle",
+   "kind": "relative",
+   "note": "Wells was married to Weenakapita, Mihšihkinaahkwa's daughter, and interpreted his speeches at Greenville."
+  },
+  {
+   "a": "wells",
+   "b": "wayne",
+   "kind": "met",
+   "note": "Wells had scouted for Wayne in 1793–94 and was sworn as one of his interpreters on 15 July 1795."
+  },
+  {
+   "a": "tarhe",
+   "b": "little-turtle",
+   "kind": "opposite sides",
+   "note": "Tarhe defended the Fort Harmar line that Mihšihkinaahkwa rejected; both claimed to speak for peace."
+  },
+  {
+   "a": "masass",
+   "b": "little-turtle",
+   "kind": "influenced",
+   "note": "Both disowned Fort Harmar on 21 July, on different grounds."
+  },
+  {
+   "a": "mashipinashiwish",
+   "b": "little-turtle",
+   "kind": "met",
+   "note": "Backed Mihšihkinaahkwa's opening challenge on 18 July and received Wayne's wampum with him on 20 July."
+  },
+  {
+   "a": "blue-jacket",
+   "b": "tarhe",
+   "kind": "met",
+   "note": "Blue Jacket moved to sit with the Wyandot and Lenape and endorsed Tarhe's position."
+  },
+  {
+   "a": "carmichael",
+   "b": "little-turtle",
+   "kind": "mentioned",
+   "note": "Carmichael's diary preserves a version of the 22 July boundary speech."
+  },
+  {
+   "a": "askin",
+   "b": "little-turtle",
+   "kind": "mentioned",
+   "note": "Askin condensed the boundary speech into a few lines for the British commandant at Detroit."
+  },
+  {
+   "a": "pickering",
+   "b": "wayne",
+   "kind": "read each other",
+   "note": "Secretary of War and commissioner; Pickering read Greenville entirely through Wayne's dispatches."
+  },
+  {
+   "a": "pickering",
+   "b": "blue-jacket",
+   "kind": "mentioned",
+   "note": "Pickering named Blue Jacket first among the signers he recognised."
+  },
+  {
+   "a": "precise-journal",
+   "b": "campbell",
+   "kind": "mentioned",
+   "note": "The journal records the flag received from Major Campbell on 22 August 1794."
+  }
+ ],
+ "threads_out": [
+  {
+   "to": "v6:philadelphia-1787",
+   "note": "Greenville was made and ratified under the treaty power written at the 1787 Convention: Washington sent it to the Senate, whose consent in December 1795 made it law, the pattern for every later US treaty with the western nations."
+  },
+  {
+   "to": "v3:corps-of-discovery",
+   "note": "William Clark fought at Fallen Timbers as an officer of Wayne's Legion, and Meriwether Lewis served in the same army in 1795, briefly in Clark's company; the acquaintance made under Wayne became the partnership of 1804–06."
+  },
+  {
+   "to": "lancaster-1744",
+   "note": "At Lancaster the Haudenosaunee claimed by conquest a right to speak for lands far to the west; at Greenville Mihšihkinaahkwa argued the reverse, that treaties made by others, including the Six Nations at Fort Harmar, could not give away Myaamia land."
+  }
+ ],
+ "images": [
+  {
+   "url": "https://www.ohiostatehouse.org/galleries/media/capitol-ohio-113-treaty-of-greenville-126979",
+   "title": "The Treaty of Greenville",
+   "caption": "A 1945 imagining, not a record: Howard Chandler Christy's large oil in the Ohio Statehouse rotunda gathers Wayne, Little Turtle, Wells, Tarhe, Blue Jacket, Harrison, Clark and Lewis into one scene. It shows how Ohio later chose to remember the council.",
+   "date": "1945",
+   "credit": "Howard Chandler Christy; Ohio Statehouse"
+  },
+  {
+   "url": "https://ohiopix.org/record-display/p267401coll34/1784",
+   "title": "Treaty of Greeneville facsimile",
+   "caption": "Photographic copy of the treaty document with the signatories' marks, via Ohio Memory / Ohio History Connection.",
+   "date": "1795 (copy undated)",
+   "credit": "Ohio History Connection (Ohio Memory)"
+  },
+  {
+   "url": "https://clements.umich.edu/?p=14801",
+   "title": "Treaty of Greenville, certified copy",
+   "caption": "A manuscript copy of the treaty certified by H. De Butts, secretary, at headquarters on 9 August 1795, in the Lewis Cass Papers.",
+   "date": "9 August 1795",
+   "credit": "William L. Clements Library, University of Michigan"
+  },
+  {
+   "url": "https://clements.umich.edu/exhibit/american-encounters/nah-case-9/letter-wayne-knox-1794/",
+   "title": "Wayne to Knox, 28 August 1794",
+   "caption": "Exhibit page for Wayne's victory report from Grand Glaize, eight days after Fallen Timbers.",
+   "date": "28 August 1794",
+   "credit": "William L. Clements Library (Wayne Family Papers)"
+  },
+  {
+   "url": "https://aacimotaatiiyankwi.org/2025/10/01/1795-peace-metal/",
+   "title": "The 1795 peace medal",
+   "caption": "Myaamia Center article with photographs of the large silver oval medal Wayne gave Mihšihkinaahkwa at Greenville, re-acquired by the Miami Tribe and examined by Myaamia citizens in 2025.",
+   "date": "1795; photographed 2025",
+   "credit": "Myaamia Center, Miami University (photos Karen Baldwin)"
+  },
+  {
+   "url": "https://ohiopix.org/record-display/p267401coll34/1799",
+   "title": "Treaty of Greeneville",
+   "caption": "Ohio Memory record on the treaty and its boundary line from the Cuyahoga to the Ohio.",
+   "date": "1795",
+   "credit": "Ohio History Connection (Ohio Memory)"
+  }
+ ],
+ "further": [
+  {
+   "title": "Myaamia Center: The Treaty of Greenville 1795, Part I (G. Ironstrack, 2016)",
+   "url": "https://aacimotaatiiyankwi.org/2016/07/29/the-treaty-of-greenville-1795-part-i/"
+  },
+  {
+   "title": "Myaamia Center: The Treaty of Greenville 1795, Part II (C. Shriver, 2021)",
+   "url": "https://aacimotaatiiyankwi.org/2021/03/01/the-treaty-of-greenville-1795-part-ii/"
+  },
+  {
+   "title": "Myaamia Center: Four versions of a Little Turtle speech (2021)",
+   "url": "https://aacimotaatiiyankwi.org/2021/04/13/four-versions-of-a-little-turtle-speech-at-greenville-1795/"
+  },
+  {
+   "title": "History Matters: Little Turtle and Wayne at Greenville (excerpts of the minutes)",
+   "url": "https://historymatters.gmu.edu/d/6525"
+  },
+  {
+   "title": "Knopf, 'A Precise Journal of General Wayne's Last Campaign' (PAAS 1954)",
+   "url": "https://americanantiquarian.org/sites/default/files/proceedings/44524998.pdf"
+  },
+  {
+   "title": "Wilkinson's narrative of the Fallen Timbers campaign (MVHR 1929)",
+   "url": "https://penelope.uchicago.edu/Thayer/E/Journals/MVHR/16/1/General_James_Wilkinsons_Narrative_of_the_Fallen_Timbers_Campaign*.html"
+  },
+  {
+   "title": "Treaty of Greenville text (Avalon Project)",
+   "url": "https://avalon.law.yale.edu/18th_Century/greenvil.asp"
+  },
+  {
+   "title": "Papers of the War Department: Minutes of the treaty (catalogue)",
+   "url": "https://wardepartmentpapers.org/document/51086/"
+  }
+ ],
+ "claims": [
+  {
+   "date_iso": "1795-01-21",
+   "date_display": "21 January 1795",
+   "eye": "wayne",
+   "claim": "Hostilities to cease; the nations' chiefs to meet Wayne at Greenville on or about 15 June to conclude a peace",
+   "form": "treaty text",
+   "evidence": "Preliminary articles and agreement, Papers of the War Department docs. 49208, 49210",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1795-06-16",
+   "date_display": "16 June 1795",
+   "eye": "debutts",
+   "claim": "Wayne kindles a council fire, presents the calumet, then covers the fire until all nations arrive",
+   "form": "council minutes",
+   "evidence": "ASP Indian Affairs 1, as summarised by the Myaamia Center",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1795-07-15",
+   "date_display": "15 July 1795",
+   "eye": "wayne",
+   "claim": "The 1789 Fort Harmar treaty proposed as the basis of the new peace",
+   "form": "speech (as interpreted)",
+   "evidence": "Minutes, 15 July 1795; Myaamia Center Part I",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1795-07-18",
+   "date_display": "18 July 1795",
+   "eye": "little-turtle",
+   "claim": "Wayne has not said 'peace'; the Myaamia knew nothing of Fort Harmar",
+   "form": "speech (as interpreted)",
+   "evidence": "Minutes, 18 July 1795 (interpreter Wells); Myaamia Center Part I",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1795-07-21",
+   "date_display": "21 July 1795",
+   "eye": "masass",
+   "claim": "The Fort Harmar interpreters were poor; the Ojibwe did not understand they were ceding land",
+   "form": "speech (as interpreted)",
+   "evidence": "Minutes, 21 July 1795; Myaamia Center Part I",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1795-07-21",
+   "date_display": "21 July 1795",
+   "eye": "little-turtle",
+   "claim": "The land is at least partly Myaamia and cannot be ceded without Myaamia consent; the Treaty of Paris gives no title",
+   "form": "speech (as interpreted)",
+   "evidence": "Minutes, 21 July 1795; Myaamia Center Part I",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1795-07-22",
+   "date_display": "22 July 1795",
+   "eye": "little-turtle",
+   "claim": "The Myaamia country set out by boundaries; the proposed line cuts off ancestral land",
+   "form": "speech (as interpreted)",
+   "evidence": "ASP Indian Affairs 1, pp. 570–71; Carmichael diary; Askin report",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1795-07-22",
+   "date_display": "22 July 1795",
+   "eye": "tarhe",
+   "claim": "The Muskingum (Fort Harmar) treaty was fair and its line should be the foundation of lasting peace",
+   "form": "speech (as interpreted)",
+   "evidence": "Address of Tarhe (interpreter Isaac Zane), Wyandot Nation of Kansas; Myaamia Center Part I",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1795-07-24",
+   "date_display": "c. 24 July 1795",
+   "eye": "wayne",
+   "claim": "French and British posts, the Treaty of Paris, Jay's Treaty and conquest give the United States title to the disputed land",
+   "form": "speech (as interpreted)",
+   "evidence": "Minutes (History Matters excerpt); Myaamia Center Part II",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1795-07-27",
+   "date_display": "late July 1795",
+   "eye": "little-turtle",
+   "claim": "Trading posts carry no title to surrounding land; the Wea leader can only lend land at Ouiatenon",
+   "form": "speech (as interpreted)",
+   "evidence": "Minutes; Myaamia Center Part II",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1795-07-30",
+   "date_display": "late July 1795 (a Thursday)",
+   "eye": "wayne",
+   "claim": "Hunting rights to continue on ceded land; a straight boundary; negotiation declared concluded and unanimously assented to",
+   "form": "council minutes",
+   "evidence": "Minutes; Myaamia Center Part II",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1795-08-03",
+   "date_display": "3 August 1795",
+   "eye": "debutts",
+   "claim": "Peace 'perpetual'; most of Ohio and sixteen tracts ceded; $20,000 in goods and $9,500 yearly; land saleable only to the United States; earlier treaties void",
+   "form": "treaty text",
+   "evidence": "Treaty of Greenville, 7 Stat. 49; Kappler 2:39–45",
+   "confidence": "verified"
+  },
+  {
+   "date_iso": "1795-08-10",
+   "date_display": "10 August 1795 (queried)",
+   "eye": "mashipinashiwish",
+   "claim": "Satisfied with every part of the treaty; no prisoners remain near Michilimackinac",
+   "form": "speech (as interpreted)",
+   "evidence": "Burnet, Notes (1847)",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1795-08-12",
+   "date_display": "c. 12 August 1795",
+   "eye": "little-turtle",
+   "claim": "His opposition came from duty to his country; asks Wayne not to think unkindly of him",
+   "form": "speech (as interpreted)",
+   "evidence": "Minutes; Myaamia Center Part II",
+   "confidence": "approx"
+  },
+  {
+   "date_iso": "1795-09-28",
+   "date_display": "28 September 1795",
+   "eye": "pickering",
+   "claim": "Wayne obtained more land than expected; few chiefs signed",
+   "form": "letter",
+   "evidence": "Pickering to Washington, Founders Online",
+   "confidence": "verified"
+  }
+ ],
+ "vantage_key": "0 = a principal in the negotiation; 1 = in the council house or on the battlefield; 2 = a British listener reporting from Detroit; 3 = elsewhere in the western country; 4 = the federal capital, reading dispatches."
+}

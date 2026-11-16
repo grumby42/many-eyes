@@ -17,12 +17,13 @@ Each volume is one self-contained offline HTML file. Read online via GitHub Page
 | IX | [The Ward](many-eyes-volume-9.html) | 10 | 133 | 454 | `EYES9-20261115-1730Z` |
 | X | [The Return Gaze](many-eyes-volume-10.html) | 10 | 130 | 471 | `EYES10-20261116-0318Z` |
 | XI | [The Courtroom](many-eyes-volume-11.html) | 10 | 140 | 476 | `EYES11-20261116-0318Z` |
+| XII | [The Treaty Ground](many-eyes-volume-12.html) | 10 | 135 | 452 | `EYES12-20261116-0428Z` |
 | XIII | [Signals](many-eyes-volume-13.html) | 9 | 119 | 408 | `EYES13-20261115-0631Z` |
 | XIV | [The Assay](many-eyes-volume-14.html) | 10 | 138 | 435 | `EYES14-20261115-1938Z` |
 | XV | [Hidden Worlds](many-eyes-volume-15.html) | 14 | 184 | 603 | `EYES15-20261115-1512Z` |
 
 **Sourcing rules.** All sources are real. Entries are digests; quotations are short and limited to English texts published before 1929, world-famous phrases and official US records. Memoirs written later, forgeries and legends are flagged. Contested questions are given as positions with evidence. Each volume was checked by independent fact-check passes before publication.
 
-Compiled by Ted Gransbury with Claude. Generated 2026-11-16T03:18:43Z.
+Compiled by Ted Gransbury with Claude. Generated 2026-11-16T04:28:16Z.
 
 **Licence.** Book text: CC BY 4.0 (see `LICENSE-CONTENT.md`). Build scripts: MIT (see `LICENSE`). Quotations and images are public domain or short quotations for commentary, and keep their own status.

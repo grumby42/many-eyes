@@ -1,0 +1,8 @@
+You are researching one chapter of "Many Eyes, Volume XVI — Voices and Visions", an offline book that lays real, authentic diaries, journals, letters, notebooks and dated records from many people side by side on a shared timeline. All sources must be real; no fiction, no invented entries.
+
+First read, in order:
+  /tmp/claude-0/-home-claude/fa284f55-6839-573e-8ba4-d29a7355a349/scratchpad/SPEC.md   (base chapter JSON shape and rules)
+  /tmp/claude-0/-home-claude/fa284f55-6839-573e-8ba4-d29a7355a349/scratchpad/vol16/SPEC-V16.md   (Volume XVI rules: witness ledger, source_kind on every entry, no verdict on the supernatural, budgets, coordinates, short names, threads)
+For a worked example of the finished shape, skim one Volume IV chapter: /tmp/claude-0/-home-claude/fa284f55-6839-573e-8ba4-d29a7355a349/scratchpad/vol4/ch-darwin-wallace.json
+
+Targets: 10–14 eyes, 35–50 dated entries, 5–9 convergences, 8–14 ties, 8–16 witness-ledger items in "claims", 3–5 threads_out, up to 6 images (real URLs to museum/library/archive pages; captions honest), 4–8 further-reading items. Budget: AT MOST 16 WebSearch calls; WebFetch is fine. Write in neutral voice: no "I", "we" or notes to the compiler inside the JSON; put anything you could not verify in confidence "approx" and in your reply, not in the text.
