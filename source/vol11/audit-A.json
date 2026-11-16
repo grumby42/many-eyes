@@ -1,0 +1,296 @@
+[
+ {
+  "chapter": "galileo-1633",
+  "where": "entry:17",
+  "severity": "error",
+  "problem": "At the first deposition (12 April) Galileo presented a copy of Bellarmine's certificate; the original in Bellarmine's hand was produced only on 10 May.",
+  "fix": {
+   "text_replace": {
+    "old": "He produced the certificate and said",
+    "new": "He produced a copy of the certificate and said"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "galileo-1633",
+  "where": "entry:30",
+  "severity": "style",
+  "problem": "Digest breaks off mid-sentence (',.'). Favaro XV no. 2550 (Niccolini to Cioli, 19 June 1633) reports a morning audience in which the Pope said the case was decided, the opinion would be declared erroneous and contrary to Scripture, Galileo would likely be held for a time, and the penalty eased for the Grand Duke's sake.",
+  "fix": {
+   "digest": "In an audience that morning Urban VIII told Niccolini that the case was already decided and that Galileo would be called to the Holy Office within the week to hear the ruling. He said the opinion of the Earth's motion would be prohibited as erroneous and contrary to Scripture. Galileo would probably be kept in custody for a time, but the penalty would be softened out of regard for the Grand Duke."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "galileo-1633",
+  "where": "entry:32",
+  "severity": "style",
+  "problem": "The pre-1929 English version (Popular Science Monthly 1905) reads 'vehemently suspected of heresy'; the quote should match the published English wording.",
+  "fix": {
+   "quote": "vehemently suspected of heresy"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "galileo-1633",
+  "where": "entry:43",
+  "severity": "error",
+  "problem": "Favaro XV no. 2813 is addressed to Galileo 'in Siena' on 10 December 1633; he left Siena only in mid-December, so he was not yet on the road home.",
+  "fix": {
+   "text_replace": {
+    "old": "Maria Celeste's last surviving letter was written while her father was on the road home.",
+    "new": "Maria Celeste's last surviving letter was addressed to her father in Siena, a few days before he set out for home."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "galileo-1633",
+  "where": "entry:47",
+  "severity": "doubt",
+  "problem": "The date 25 July 1634 is confirmed by Favaro XVI no. 2970, and the letter does report Grienberger's remark about the Jesuits. The English wording 'in disgrace with the Jesuits' attributed to Gebler (1879) could not be checked, so the quote should not stand on memory.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "galileo-1633",
+  "where": "entry:48",
+  "severity": "style",
+  "problem": "Stray punctuation (',.') at the end of a sentence.",
+  "fix": {
+   "text_replace": {
+    "old": "held against the pontificate by posterity,.",
+    "new": "held against the pontificate by posterity."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "galileo-1633",
+  "where": "entry:13",
+  "severity": "style",
+  "problem": "Maria Celeste's letters to her father run from 1623, so this was not the first of the series. In Favaro XV, no. 2404 (5 Feb 1633) is her first surviving letter of 1633.",
+  "fix": {
+   "text_replace": {
+    "old": "The letter is the first of the weekly series she kept up through the whole trial.",
+    "new": "It is her first surviving letter of 1633, opening the weekly series she kept up through the whole trial."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "galileo-1633",
+  "where": "entry:6",
+  "severity": "style",
+  "problem": "Favaro XIV no. 2305 confirms an audience on the morning of 18 September 1632. The Popular Science Monthly article cited with 'cf.' dates the same notice to 15 September, so the source note should say so.",
+  "fix": {
+   "source_note": "Niccolini to Cioli, Rome 18 Sept 1632, audience 'questa mattina' (Favaro XIV no. 2305); Popular Science Monthly 67 (1905) dates this notice to 15 September"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "galileo-1633",
+  "where": "entry:4",
+  "severity": "style",
+  "problem": "Checked: Favaro XIV no. 2298 (5 Sept 1632) places the audience on the previous morning (4 September), and the quote matches Popular Science Monthly 1905 exactly. No change needed beyond the source note.",
+  "fix": {
+   "source_note": "Niccolini to Cioli, Rome 5 Sept 1632, audience 'hiermattina' (Favaro XIV no. 2298); English in Popular Science Monthly 67 (1905), 'Galileo IV', which dates the remark 4 September"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "galileo-1633",
+  "where": "claim:4",
+  "severity": "doubt",
+  "problem": "The physicians' certificate is dated 17 December 1632 and signed by Vettorio de' Rossi, Giovanni Ronconi and Pietro Cervieri (Famous Trials document page). The 30 December rejection decree rests on the standard chronology and was not checked here, so 'approx' is right. The evidence line should name the sources.",
+  "fix": {
+   "evidence": "Physicians' certificate of 17 Dec 1632 (de' Rossi, Ronconi, Cervieri; Famous Trials, 'December 17, 1632'); Holy Office decree of 30 Dec 1632 (standard chronology, not checked)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "galileo-1633",
+  "where": "eye:peiresc",
+  "severity": "style",
+  "problem": "Peiresc was born on 1 December 1580, so he was 52 in summer 1633 and 54 by December 1634.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 53–54",
+    "new": "aged 52–54"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "galileo-1633",
+  "where": "entry:45",
+  "severity": "style",
+  "problem": "'The rawest letter of his confinement' is the compiler's own judgement, not something the record shows.",
+  "fix": {
+   "text_replace": {
+    "old": " It is the rawest letter of his confinement.",
+    "new": ""
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "galileo-1633",
+  "where": "image:2",
+  "severity": "style",
+  "problem": "Museo Galileo's caption reads 'Present location of the work unknown' and its page lists 'Collezione privata'. The credit is acceptable but could say both.",
+  "fix": {
+   "credit": "attributed to Bartolomé Esteban Murillo; private collection, present location unknown (via Museo Galileo)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "galileo-1633",
+  "where": "image:4",
+  "severity": "style",
+  "problem": "The Museo Galileo image page credits the Biblioteca Nazionale Centrale di Firenze.",
+  "fix": {
+   "credit": "Index librorum prohibitorum (Rome, 1664); Biblioteca Nazionale Centrale di Firenze (via Museo Galileo)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "charles-1649",
+  "where": "entry:1",
+  "severity": "style",
+  "problem": "Verified in the Commons Journal (BHO node 18696, 23 Dec 1648). The committee was 'to consider how to proceed in a way of Justice against the King, and other capital Offenders', and 38 entries are named.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Commons Journal vol. 6, 23 Dec 1648 (British History Online node 18696): committee 'to consider how to proceed in a way of Justice against the King, and other capital Offenders'; 38 names"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "charles-1649",
+  "where": "claim:0",
+  "severity": "style",
+  "problem": "Confirmed in the Commons Journal itself, 23 Dec 1648.",
+  "fix": {
+   "confidence": "verified",
+   "evidence": "Commons Journal vol. 6, 23 Dec 1648 (BHO node 18696)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "charles-1649",
+  "where": "entry:7",
+  "severity": "doubt",
+  "problem": "The DNB (1886) has the commissioners electing Bradshaw in his absence at their second meeting, two days after 8 January (so 10 January), with Bradshaw summoned to attend on 12 January. The entry can be dated 10 January, keeping a note on the 12th.",
+  "fix": {
+   "date_display": "Wednesday 10 January 1648/9 (elected in his absence; summoned to attend on 12 January)",
+   "precision": "day",
+   "source_note": "Dictionary of National Biography vol. 6 (1886), 'Bradshaw, John': elected at the meeting two days after 8 Jan, summoned for 12 Jan; The National Archives blog gives 12 January for his appointment"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "charles-1649",
+  "where": "eye:henry",
+  "severity": "error",
+  "problem": "Philip Henry was no longer a Westminster School pupil in January 1649. He had been elected to a Christ Church, Oxford studentship in May 1647 and went into residence on 15 December 1647, and he was home on leave when he saw the King (DNB).",
+  "fix": {
+   "text_replace": {
+    "old": "Westminster School pupil, aged 17, son of a Whitehall household servant; later a nonconformist minister",
+    "new": "Student of Christ Church, Oxford (formerly at Westminster School), aged 17, home on leave; son of a Whitehall household servant; later a nonconformist minister"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "charles-1649",
+  "where": "intro:3",
+  "severity": "error",
+  "problem": "Philip Henry was an Oxford undergraduate in January 1649, not a schoolboy. Pepys's 1660 entry does not say he was in the crowd, only what he said that day.",
+  "fix": {
+   "text_replace": {
+    "old": "a schoolboy in the crowd remembers a sound; another schoolboy, grown into a naval official,",
+    "new": "a young Oxford student in the crowd remembers a sound; a schoolboy of 1649, grown into a naval official,"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "charles-1649",
+  "where": "eye:pepys",
+  "severity": "doubt",
+  "problem": "The 1 November 1660 diary entry records words Pepys said 'the day the King was beheaded'. It does not say he watched the execution or stood in the Whitehall crowd, so placing him there is an inference.",
+  "fix": {
+   "text_replace": {
+    "old": "Whitehall crowd (1649); Navy Office, Seething Lane (1660)",
+    "new": "London, a pupil at St Paul's School (1649; the diary does not say whether he saw the execution); Navy Office, Seething Lane (1660)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "charles-1649",
+  "where": "eye:pepys",
+  "severity": "doubt",
+  "problem": "The vantage label claims he was at the execution, which the source does not state.",
+  "fix": {
+   "vantage_label": "schoolboy in 1649, remembering what he said that day"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "charles-1649",
+  "where": "claim:10",
+  "severity": "style",
+  "problem": "Elizabeth's account is a memorandum written within days, not a memoir written later. The form tag 'memoir' implies later recollection.",
+  "fix": {
+   "form": "other"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "charles-1649",
+  "where": "entry:12",
+  "severity": "doubt",
+  "problem": "Whether the clerks' journal mentions the gallery interruption at all is not established (claim:6 itself says it is 'not established in the clerks' minutes'). The digest should not imply that the journal records it.",
+  "fix": {
+   "text_replace": {
+    "old": "During the roll call a voice from a gallery interrupted when Fairfax's name was called; the journal itself names no speaker.",
+    "new": "Trial narratives, not the minutes, report that during the roll call a voice from a gallery interrupted when Fairfax's name was called; the speaker is identified only in later accounts."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "charles-1649",
+  "where": "entry:43",
+  "severity": "style",
+  "problem": "In the online Bray text the original entry is dated 5 March, and the editor notes that the executions were on 9 March. date_display should show Evelyn's own date.",
+  "fix": {
+   "date_display": "9 March 1648/9 (entry dated 5 March in Evelyn's text; the executions were on 9 March)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "charles-1649",
+  "where": "entry:24",
+  "severity": "style",
+  "problem": "The CSP Venice item for this report (no. 233, Münster, 5 Feb 1649 N.S.) is addressed to Michiel Morosini, Contarini's colleague in France, not to the Doge and Senate. The source note should give the recipient and number.",
+  "fix": {
+   "source_note": "CSP Venice vol. 28, no. 233: Contarini to Michiel Morosini in France, Münster, 5 Feb 1649 N.S. (Pauw to go 'by way of Calais'); enclosed advices not separately checked"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "charles-1649",
+  "where": "entry:0",
+  "severity": "style",
+  "problem": "Checked: CSP Venice vol. 28, nos. 228–229 (Münster, 22 Jan 1649 N.S.) enclose 'Advices from London, the 15th December, 1648', saying the King 'is merely called Charles Stuart'. The digest is accurate.",
+  "fix": {
+   "source_note": "CSP Venice vol. 28, nos. 228–229 (Contarini to the Doge and Senate, Münster, 22 Jan 1649 N.S., enclosing 'Advices from London, the 15th December, 1648'; calendar of the advices' date uncertain)"
+  },
+  "confidence": "verified"
+ }
+]

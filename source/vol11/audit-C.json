@@ -1,0 +1,588 @@
+[
+ {
+  "chapter": "caroline-1820",
+  "where": "entry:49",
+  "severity": "error",
+  "problem": "No Creevey letter of 28 Sept 1821 is in The Creevey Papers (1903); the 1821 run ends with Sefton's Paris letter of 13 Sept. The inquest verdict of wilful murder against Life Guards appears only as Maxwell's editorial note after Brougham's letter of 14 Aug 1821, so the entry is not Creevey's record.",
+  "fix": {
+   "delete": true
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "claim:15",
+  "severity": "error",
+  "problem": "The ledger item rests on the same letter, which does not exist; the inquest verdict is the editor's note (1903), not Creevey's letter.",
+  "fix": {
+   "delete": true
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "entry:40",
+  "severity": "error",
+  "problem": "Eldon's 'Not content' and Clarence's 'Content' are in Creevey's letter headed York Street, 11 Nov 1820, which describes the previous night. The Brooks's letter of 10 Nov covers the division and abandonment but not this scene.",
+  "fix": {
+   "date_iso": "1820-11-11",
+   "date_display": "Saturday 11 November 1820",
+   "place": "York Street, London",
+   "digest": "Writing the next morning, Creevey described the scene when Liverpool moved to put the bill off: the Lord Chancellor Eldon's audible 'Not content', the Duke of Clarence yelling 'Content', and the confusion of a House undoing its own work.",
+   "source_note": "Creevey Papers (1903), letter headed York Street, 11 Nov 1820, describing the sitting of 10 Nov."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "convergence:6",
+  "severity": "style",
+  "problem": "Creevey's account of Eldon's 'Not content' was written the next morning (11 Nov), not on 10 Nov.",
+  "fix": {
+   "text_replace": {
+    "old": "the Whig records Eldon's lone 'Not content'",
+    "new": "the Whig, writing next morning, records Eldon's lone 'Not content'"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "entry:30",
+  "severity": "error",
+  "problem": "'As good as I expected' is in Creevey's letter headed House of Lords, 3 Oct 1820 (1 o'clock), written about two and a half hours into the speech, not a verdict across two days. On 4 Oct he wrote much higher praise.",
+  "fix": {
+   "date_iso": "1820-10-03",
+   "date_display": "Tuesday 3 October 1820",
+   "precision": "day",
+   "digest": "Writing from the House about two and a half hours into Brougham's speech, Creevey gave Miss Ord a measured verdict: it was as good as he had expected. Next day, as the speech ended, he wrote that he had never heard Brougham reach such perfection.",
+   "confidence": "verified",
+   "source_note": "Creevey Papers (1903), letters headed House of Lords, 3 Oct (1 o'clock) and 4 Oct (a quarter past 1) 1820."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "entry:29",
+  "severity": "doubt",
+  "problem": "Hansard HL 4 Oct 1820 (preamble) confirms that Brougham resumed and finished with the peroration 'Save the country, my lords…save the Crown, which is in jeopardy'. But the next speaker was his junior, Mr. Williams; the defence witnesses did not come straight after. The entry can be upgraded and given a short quote from the 1820 text.",
+  "fix": {
+   "quote": "save the Crown, which is in jeopardy",
+   "confidence": "verified",
+   "source_note": "Hansard HL 4 Oct 1820 (preamble), peroration at c. 210; Williams follows at c. 211."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "entry:29",
+  "severity": "style",
+  "problem": "Companion text fix to the item above: the speaker after Brougham was Williams.",
+  "fix": {
+   "text_replace": {
+    "old": "the defence witnesses followed.",
+    "new": "his junior, Mr. Williams, spoke next for the Queen."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "entry:34",
+  "severity": "error",
+  "problem": "Hansard shows the Nero and Octavia parallel came on 24 Oct, not at the close; the record of that day ends with Denman's speech adjourned to the next morning. The 'Go and sin no more' close is attested at the time in C. C. Western's letter to Creevey from Brighton, 29 Oct 1820, printed in The Creevey Papers. It is not only in later accounts.",
+  "fix": {
+   "headline": "Denman's close: 'go and sin no more'",
+   "digest": "Resuming on 25 October, Denman ended his summing-up with Christ's words to the woman taken in adultery. To many hearers the words seemed to concede guilt: C. C. Western, writing to Creevey from Brighton four days later, criticised the close, and it was mocked in verse and print for weeks after. His comparison of the King to Nero, which Creevey praised, had come the day before.",
+   "source_note": "Hansard HL 24 Oct 1820 (speech adjourned 'to-morrow morning'; Nero and Octavia passage); Creevey Papers (1903): Creevey, Brooks's, 24 Oct (Nero), and C. C. Western to Creevey, Brighton, 29 Oct 1820 (the close). The 25 Oct Hansard text itself not checked.",
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "entry:33",
+  "severity": "style",
+  "problem": "The Nero and Octavia passage belongs to this day's text (Hansard 24 Oct), and Creevey praised it in his letter of the same evening.",
+  "fix": {
+   "text_replace": {
+    "old": "and told the peers that the Queen was the victim of a conspiracy.",
+    "new": "and told the peers that the Queen was the victim of a conspiracy. He also drew a parallel with Nero's repudiation of Octavia on a false pretext, a passage Creevey that evening called perfect in all its parts."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "eye:denman",
+  "severity": "doubt",
+  "problem": "The closing 'Go, and sin no more' is attested at the time in C. C. Western's letter to Creevey of 29 Oct 1820, not only in the lampoons; the summing-up ran over 24 and 25 Oct.",
+  "fix": {
+   "text_replace": {
+    "old": "The line most remembered from it, his use of 'Go, and sin no more', is best known through the lampoons that followed and is treated here as reported rather than checked against the text.",
+    "new": "The line most remembered from it, his closing 'Go, and sin no more', is attested at the time in C. C. Western's letter to Creevey of 29 October 1820 and was then widely lampooned; the 25 October Hansard text was not checked."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "entry:47",
+  "severity": "error",
+  "problem": "Creevey (Cantley, 11 Aug 1821) says the Queen wished to leave diamonds to 'Victorine, the child of Bergami', not to a servant.",
+  "fix": {
+   "text_replace": {
+    "old": "her wish to leave jewels to her servant Victorine",
+    "new": "her wish to leave diamonds to Victorine, the child of Bergami (Pergami),"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "entry:1",
+  "severity": "doubt",
+  "problem": "The Diary Junction summary shows the Whig vote was what Fred Ponsonby and Charles Greville told her, not her own note of fact. Also 9 Feb is eleven days after George III's death, not ten.",
+  "fix": {
+   "text_replace": {
+    "old": "The Cabinet had refused, and she noted that the Whigs would vote solidly against any divorce.",
+    "new": "The Cabinet had refused, and she recorded Fred Ponsonby's and Charles Greville's assurance that the Whigs would vote in a body against any divorce."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "entry:1",
+  "severity": "style",
+  "problem": "Date arithmetic: George III died 29 Jan 1820, so 9 Feb is eleven days into the reign.",
+  "fix": {
+   "text_replace": {
+    "old": "Ten days into the new reign,",
+    "new": "Less than a fortnight into the new reign,"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "entry:35",
+  "severity": "doubt",
+  "problem": "The museum page cites the 27 Oct 1820 letter for the £700,000 cost; it does not say the letter leaves out the Queen, and the chandelier figure is not tied to that letter on the page. The closing claim goes beyond the source.",
+  "fix": {
+   "text_replace": {
+    "old": " The letter does not mention the Queen at all.",
+    "new": ""
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "entry:12",
+  "severity": "doubt",
+  "problem": "The De Gruyter study confirms the 5 Aug letter to Lord Liverpool (Register vol. xxxvii 143). It describes the letter as asking the public to consider that anyone could face the same procedure, not as 'persecution dressed up as law'.",
+  "fix": {
+   "text_replace": {
+    "old": "attacking the proceeding as a political persecution dressed up as law",
+    "new": "asking the public to consider that the procedure being used against the Queen could be turned on anyone"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "entry:39",
+  "severity": "style",
+  "problem": "In Plumer Ward's 2 Nov entry the bleak verdict is Wellesley Pole's, recorded by Ward ('Insolence and insubordination out of doors; weakness and wickedness within').",
+  "fix": {
+   "text_replace": {
+    "old": "Days earlier he had written of weakness and bad conduct on every side;",
+    "new": "On 2 November he had recorded Wellesley Pole's verdict of insolence out of doors and weakness within;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "entry:0",
+  "severity": "doubt",
+  "problem": "Hone's bibliography and the Morgan give only the year 1820; 'autumn' is not established. The pamphlet must post-date Majocchi's evidence of 21–22 Aug.",
+  "fix": {
+   "date_display": "1820 (after Majocchi's evidence of 21–22 August)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "eye:greville",
+  "severity": "error",
+  "problem": "Greville was born 2 April 1794, so he was 26 throughout the 1820 proceedings.",
+  "fix": {
+   "text_replace": {
+    "old": "Aged 25;",
+    "new": "Aged 26;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "eye:lieven",
+  "severity": "error",
+  "problem": "Dorothea Lieven was born 17 December 1785, so she was 34 during the 1820 trial.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 35;",
+    "new": "aged 34;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "image:0",
+  "severity": "error",
+  "problem": "The NPG says Hayter's painting shows the House of Lords on the sixth day, with Lord Grey questioning Majocchi; it does not confirm 'the Queen seated before the bar' or 'sittings'.",
+  "fix": {
+   "caption": "Sir George Hayter's large group painting of the House of Lords during the proceedings: the NPG describes it as the sixth day, with Lord Grey questioning the witness Majocchi, and the Queen, Brougham and Wellington among the figures. Worked up afterwards with many portrait studies, it is a composed record rather than a snapshot."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "image:2",
+  "severity": "style",
+  "problem": "The caption does not say what the tailpiece shows. The Morgan describes the King sawing off the beam of 'the Crown' with a saw marked 'Self' while ministers drink inside.",
+  "fix": {
+   "caption": "Cruikshank's tailpiece for Hone's 'Non mi ricordo!': the King, astride a sign reading 'the Crown', saws through its beam with a saw marked 'Self' while Eldon, Castlereagh, Liverpool and other ministers carouse inside, as the Morgan Library catalogues it."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "image:5",
+  "severity": "error",
+  "problem": "The Princeton blog describes the item as a [1821] volume, 'The Attorney-General's Charges against the Late Queen… August 19th, 1820', published by George Humphrey with 50 hand-coloured caricature plates attributed to Theodore Lane and the Cruikshanks: a satirical picture book hostile to the Queen, not a neutral 'period publication of the Crown's charges'.",
+  "fix": {
+   "caption": "A volume published by George Humphrey about 1821, setting the Attorney General's opening of 19 August 1820 beside fifty hand-coloured caricatures of Caroline and Bergami (attributed to Theodore Lane and the Cruikshanks): satire against the Queen, not a neutral record."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "tie:9",
+  "severity": "style",
+  "problem": "The kind 'opposite sides' contradicts the note (both Tory insiders on the same side). Arbuthnot also records 'Charles Greville' as a source, though whether this is the diarist is not certain.",
+  "fix": {
+   "kind": "same street"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "caroline-1820",
+  "where": "entry:19",
+  "severity": "style",
+  "problem": "Hansard 22 Aug shows Majocchi 'again called in' and refers to his evidence 'yesterday', which confirms 21 Aug as his first day. The Queen's walk-out still rests on secondary accounts.",
+  "fix": {
+   "source_note": "Wikipedia (Pains and Penalties Bill 1820); Hansard HL 22 Aug 1820 confirms he was first examined the day before. The Queen's leaving rests on secondary accounts."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "intro:0",
+  "severity": "error",
+  "problem": "Brown had twenty-one men, but three (Owen Brown, Barclay Coppoc, Francis Meriam) stayed at the Kennedy farm as rear guard; eighteen went into Harpers Ferry with him.",
+  "fix": {
+   "text_replace": {
+    "old": "John Brown led twenty-one men into Harpers Ferry, Virginia, and seized",
+    "new": "John Brown led eighteen of his twenty-one men into Harpers Ferry, Virginia (three stayed behind as a rear guard), and seized"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "entry:0",
+  "severity": "error",
+  "problem": "Same point: three of the twenty-one stayed at the farm; eighteen crossed with Brown, including all five Black raiders.",
+  "fix": {
+   "text_replace": {
+    "old": "Brown led a party of about twenty-one men, five of them Black, from the Maryland farm across the Potomac bridge.",
+    "new": "Brown led eighteen of his twenty-one men, five of them Black, from the Maryland farm across the Potomac bridge, leaving three to guard the farm."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "entry:9",
+  "severity": "error",
+  "problem": "Lee's report lists five killed by the insurgents: four men of the town (Beckham, Turner, Boerly, Shepherd) and Private Quinn of the Marines. That makes four townsmen and a Marine, not five townsmen and a Marine. Nine were wounded.",
+  "fix": {
+   "text_replace": {
+    "old": "five townsmen and a Marine dead; nine wounded",
+    "new": "four townsmen and a Marine killed and nine wounded"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "entry:11",
+  "severity": "error",
+  "problem": "The National Era extract of Wise's 21 Oct speech does not blame Northern agitators; it only ties Brown to Northern churches and his emancipation creed. The digest says more than the source.",
+  "fix": {
+   "text_replace": {
+    "old": " He spoke with admiration of his calm under questioning, while blaming Northern agitators for the raid.",
+    "new": " He spoke with admiration of his calm under questioning and his humanity to his prisoners."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "eye:wise",
+  "severity": "error",
+  "problem": "Henry A. Wise was born 3 Dec 1806, so he was 52 in October 1859.",
+  "fix": {
+   "text_replace": {
+    "old": "Governor of Virginia, aged 53;",
+    "new": "Governor of Virginia, aged 52;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "eye:mason",
+  "severity": "error",
+  "problem": "James M. Mason was born 3 Nov 1798, so he was 60 when he questioned Brown on 18 Oct 1859.",
+  "fix": {
+   "text_replace": {
+    "old": "US senator from Virginia, aged 61;",
+    "new": "US senator from Virginia, aged 60;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "eye:court",
+  "severity": "error",
+  "problem": "Arraignment (25 Oct) came a week after the capture (18 Oct), not nine days, and the verdict (31 Oct) came six days after arraignment, not a fortnight.",
+  "fix": {
+   "text_replace": {
+    "old": "arraignment nine days after the capture, a verdict a fortnight later.",
+    "new": "arraignment a week after the capture, a verdict six days after that."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "eye:anderson",
+  "severity": "error",
+  "problem": "Anderson's is not the only account by a surviving raider: Owen Brown's narrative of his escape was published in the Atlantic Monthly in 1874. Anderson's 1861 book is the first.",
+  "fix": {
+   "text_replace": {
+    "old": "his book is the only account by a raider who was neither hanged nor writing under sentence.",
+    "new": "his book was the first published account by a raider who escaped."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "entry:46",
+  "severity": "doubt",
+  "problem": "Whether Anderson served in the Union army is reported in varying ways: he is usually described as a recruiter of Black soldiers, and his enlistment is not established. Hedge it.",
+  "fix": {
+   "text_replace": {
+    "old": "He later served in the Union army.",
+    "new": "He is said to have later recruited Black soldiers for the Union army."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "entry:6",
+  "severity": "doubt",
+  "problem": "In A Voice from Harper's Ferry (chs. XIII–XVI) Anderson himself places the storming of the engine house and his escape on Monday 17 Oct, though the Marines' assault was on the 18th. The book's own chronology is confused, and that should be said.",
+  "fix": {
+   "source_note": "Anderson, A Voice from Harper's Ferry (1861), chs. XIII–XVI; he dates the engine-house storming to Monday, though the Marines' assault was on Tuesday 18 Oct, so his escape chronology is uncertain."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "entry:22",
+  "severity": "style",
+  "problem": "The four were sentenced on 10 Nov 1859 (NYT, 10 Nov, via House Divided), and WV Archives notes Coppoc alone was also convicted of treason; Cook was acquitted on that count.",
+  "fix": {
+   "text_replace": {
+    "old": "All four were sentenced to hang on 16 December.",
+    "new": "Coppoc was also convicted of treason and Cook acquitted of it. On 10 November all four were sentenced to hang on 16 December."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "claim:10",
+  "severity": "doubt",
+  "problem": "date_iso 1859-11-11 has no basis; the Green–Copeland trial day is not fixed and the display already says November.",
+  "fix": {
+   "date_iso": "1859-11",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "entry:30",
+  "severity": "style",
+  "problem": "The Senate Historical Office says the Senate set up the inquiry when it convened on 5 Dec 1859, while the Senate's investigations page gives the resolution as passed on 14 (or 15) Dec 1859. The source_note should give both and keep month precision.",
+  "fix": {
+   "source_note": "Senate Historical Office (inquiry set up when the Senate convened, 5 Dec 1859); senate.gov investigations page (resolution passed 14 Dec 1859, also given as 15 Dec); WV Archives Mason report (members)."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "entry:43",
+  "severity": "doubt",
+  "problem": "The cited WV Archives 'leemasontestimony' page is Lee's 19 Oct report as printed in the committee's report, not testimony; no date or text of Lee testifying in person was found. Reframe so it claims only what the source shows.",
+  "fix": {
+   "headline": "Lee's report enters the Senate record",
+   "digest": "Lee's report of 19 October was printed among the documents of the Senate committee, beside the testimony of hostages and officers. It gave the inquiry its official military account of the raid.",
+   "source_note": "WV Archives (leemasontestimony page: Lee's report as printed in Senate Rep. 278); whether and when Lee testified in person not established here."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "eye:lee",
+  "severity": "doubt",
+  "problem": "Same point: the source shows Lee's report printed in the committee's record, not his in-person testimony.",
+  "fix": {
+   "text_replace": {
+    "old": "Lee later testified before the Senate committee.",
+    "new": "His report was printed in the Senate committee's 1860 record."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "tie:11",
+  "severity": "doubt",
+  "problem": "Same point: the tie rests on in-person testimony that is not established.",
+  "fix": {
+   "text_replace": {
+    "old": "Lee testified before Mason's select committee; his report was printed with its findings.",
+    "new": "Lee's report was printed in the record of Mason's select committee, which pursued the questions Lee's operation had raised."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "convergence:2",
+  "severity": "error",
+  "problem": "Thoreau repeated the plea in Boston on 1 November, the day after the verdict, not on 31 October.",
+  "fix": {
+   "text_replace": {
+    "old": "Thoreau's plea of the day before is being repeated in Boston.",
+    "new": "Thoreau, who read his plea in Concord the night before, would repeat it in Boston the next day."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "entry:32",
+  "severity": "doubt",
+  "problem": "'Before nightfall' is unsupported: the Famous Trials chronology gives only a last meal on 1 Dec. Accounts generally have her escorted back to Harpers Ferry that evening.",
+  "fix": {
+   "text_replace": {
+    "old": "She left before nightfall and was not permitted to stay.",
+    "new": "She was not permitted to stay the night and was taken back to Harpers Ferry that evening."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "entry:35",
+  "severity": "style",
+  "problem": "The Civil War Monitor says Ruffin did not speculate in his diary about Brown's fate after death. 'Offers no reflection on Brown's fate beyond it' overstates this, and the article cites Mary Anna Jackson, not 'his editors', for the point.",
+  "fix": {
+   "text_replace": {
+    "old": "but, as his editors and historians note, offers no reflection on Brown's fate beyond it.",
+    "new": "but, as the historian cited here notes, does not speculate on Brown's fate after death."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "entry:28",
+  "severity": "style",
+  "problem": "The Civil War Monitor dates the departure to 26 Nov 1859, citing Diary vol. 1, p. 362, so the page is now known.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Ruffin, Diary, vol. 1 (Scarborough ed., 1972), p. 362, as cited in Civil War Monitor."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "The article says Ruffin ordered the fifteen pikes from the arsenal superintendent Alfred Barbour while staying with Senator Clement Clay, and asked Clay to send them to slaveholding governors with a letter asking that they be displayed. The 'labelled as a sample' wording is not in the cited article.",
+  "fix": {
+   "text_replace": {
+    "old": "each labelled as a sample of what the North intended.",
+    "new": "with a letter asking that they be put on display."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "image:5",
+  "severity": "doubt",
+  "problem": "Hugo's hanged-man drawing ('Le Pendu') is generally dated 1854, before the raid; in 1860 it circulated as an engraving by Paul Chenay dedicated to Brown. 'Made in exile… used as a frontispiece in 1860' blurs this.",
+  "fix": {
+   "caption": "Victor Hugo's drawing of a hanged man, issued in 1860 as an engraving in John Brown's name; the drawing itself is generally dated to Hugo's Guernsey exile before the raid. A work of protest, not of observation.",
+   "date": "1860 (engraving)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "intro:3",
+  "severity": "style",
+  "problem": "Stray comma breaks the sentence.",
+  "fix": {
+   "text_replace": {
+    "old": "Thoreau in Concord and Lydia Maria Child in Wayland, saw a man of principle;",
+    "new": "Thoreau in Concord and Lydia Maria Child in Wayland saw a man of principle;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "john-brown-1859",
+  "where": "entry:26",
+  "severity": "style",
+  "problem": "Transcriptions differ: Civil War Notebook prints 'Woe unto you, hypocrites', while the American Yawp reader prints 'Wo'. The 1860 pamphlet spelling is not checked; keep the quote but note the variant.",
+  "fix": {
+   "source_note": "Mrs. M. J. C. Mason to Child, Alto, King George's Co., 11 Nov 1859, in the 1860 pamphlet, pp. 16–19 (Civil War Notebook; American Yawp prints 'Wo')."
+  },
+  "confidence": "approx"
+ }
+]

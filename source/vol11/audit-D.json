@@ -1,0 +1,443 @@
+[
+ {
+  "chapter": "amistad-1839",
+  "where": "eye:judson",
+  "severity": "error",
+  "problem": "Judson's decision (13 Jan 1840) came about four and a half months after the shipboard hearing of 29 Aug 1839, not sixteen months.",
+  "fix": {
+   "text_replace": {
+    "old": "Sixteen months later he found",
+    "new": "Four and a half months later he found"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "entry:16",
+  "severity": "error",
+  "problem": "The digest says more than the cited source: Yale's description of the 4 Oct 1839 deposition says Covey described his conversations with the captives (including their mention of Lomboko) and swore from their language, manner and appearance that they were native Africans; it does not describe his own life story. The deposition is in another person's hand.",
+  "fix": {
+   "digest": "James Covey gave a sworn deposition, written out in another person's hand. He described his conversations with the captives in their own language, including what they said about Lomboko, the slave factory on the African coast. From their language, manner and appearance, he swore, he was sure they were native Africans. He was the first witness who could speak to the question from inside the language."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "entry:35",
+  "severity": "error",
+  "problem": "Kale's letter asks for a missionary to be sent with them, not teachers (TeachIt CT transcription of the 1888 printing).",
+  "fix": {
+   "text_replace": {
+    "old": "They wanted freedom, teachers and a way home.",
+    "new": "They wanted freedom, a missionary and a way home."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "entry:43",
+  "severity": "doubt",
+  "problem": "Story's letter to his wife has not been seen and its date is unknown. It may have been written before the 9 March decision, so the digest should not say it reported the decision. The description of Adams's argument (power, bitter sarcasm, ranging beyond the record) matches what is widely cited.",
+  "fix": {
+   "digest": "In a letter home Story told his wife about Adams's argument. As the letter is widely cited, he called it extraordinary for its power and its bitter sarcasm, but said it had ranged far beyond the record and the questions before the Court. Admiration and judicial disapproval sit together in the letter. Its exact date is not established here.",
+   "date_display": "late February or early March 1841 (date not confirmed)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "entry:36",
+  "severity": "doubt",
+  "problem": "The Tulane/NJSBF transcription of the 29 Feb letter gives no note that someone helped write it. Help is likely, but the digest states it as fact.",
+  "fix": {
+   "text_replace": {
+    "old": "These were written in English with help.",
+    "new": "They are in English and were probably written with help."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "eye:cinque",
+  "severity": "doubt",
+  "problem": "Same point as entry 36: help with the February 1841 letters is likely but not documented in the sources cited.",
+  "fix": {
+   "text_replace": {
+    "old": "were written in English with help.",
+    "new": "were written in English, probably with help."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "entry:48",
+  "severity": "doubt",
+  "problem": "The farewell date conflicts. Yale's collection holds Tappan's letter to Gibbs of 1 Dec 1841 about the departure, and Tappan wrote that they had left 'last Saturday', which fits Saturday 27 Nov (NPS). Linder's 4 Dec date for the farewell in quarantine off Staten Island is therefore doubtful. The display should not join the farewell to 27 Nov as certain.",
+  "fix": {
+   "date_display": "Saturday 27 November 1841 (per NPS; one account dates Tappan's farewell on board to 4 December)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "entry:48",
+  "severity": "style",
+  "problem": "The source note can cite the supporting evidence for the 27 Nov sailing.",
+  "fix": {
+   "text_replace": {
+    "old": "The two dates are not reconciled here.",
+    "new": "Tappan's letter to Gibbs of 1 Dec 1841 about the departure (Yale; Yale News 2016) supports the earlier date."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "entry:14",
+  "severity": "doubt",
+  "problem": "MHS describes the 1 Oct 1839 diary entry only as Adams recording his interest in the case. The digest's details of what he wrote go beyond the cited description.",
+  "fix": {
+   "text_replace": {
+    "old": "In his diary Adams took up the story of the African captives who had risen at sea and been brought into Connecticut by a US vessel.",
+    "new": "In his diary Adams recorded his interest in the case of the African captives brought into Connecticut after the revolt."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "entry:40",
+  "severity": "doubt",
+  "problem": "The MHS Amistad selected-topic page lists no 1 March 1841 diary entry (it lists 1 Oct 1839, 17 Nov and 12 Dec 1840, and 24 Feb, 9, 18 and 29 Mar 1841). The source note cites it as if it were listed. The closing passage comes only from the printed Argument, Adams's revised text, and may differ from what he said in court.",
+  "fix": {
+   "text_replace": {
+    "old": "MHS selected diary entries: 1 Mar 1841, diary 41 p. 264; ",
+    "new": "JQA diary 1 Mar 1841 (not among the MHS selected entries); "
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "entry:40",
+  "severity": "style",
+  "problem": "The digest should say the closing is known from the revised printed text.",
+  "fix": {
+   "text_replace": {
+    "old": "He closed by recalling",
+    "new": "In the printed version of his argument, which he revised, he closed by recalling"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "entry:32",
+  "severity": "doubt",
+  "problem": "MHS Beehive quotes only 'it being a case of life and death'. The continuation 'that I yielded' is not confirmed in the wording given.",
+  "fix": {
+   "quote": "it being a case of life and death"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "entry:15",
+  "severity": "style",
+  "problem": "NPS dates the finding of Covey and Pratt and their trip to New Haven to 9 Sept 1839. That conflicts with Covey's deposition (4 Oct) and Grabeau's narrative (7 Oct). The entry handles this correctly as approximate, and the NPS date looks too early. Noted for the record; no change needed beyond the existing flag.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "eye:story",
+  "severity": "doubt",
+  "problem": "The opinion does not clearly 'hold' that the Africans could lawfully resist. Its holdings were that they were kidnapped free men and not property, that the treaty did not bind them, and that, having arrived in possession of the ship rather than as imported slaves, they were not to be delivered to the President.",
+  "fix": {
+   "text_replace": {
+    "old": "He also held they could lawfully resist and could not be handed to the executive.",
+    "new": "He also held that, having arrived in possession of the ship rather than as imported slaves, they could not be handed to the executive."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "eye:kale",
+  "severity": "style",
+  "problem": "From October 1839 to January 1841 is about fifteen months of lessons, not sixteen.",
+  "fix": {
+   "text_replace": {
+    "old": "Over sixteen months of lessons",
+    "new": "Over some fifteen months of lessons"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "entry:28",
+  "severity": "style",
+  "problem": "Quote checked. 'natives of Africa, and were born free' appears in the decree text as given by Famous Trials, which dates the decree 23 Jan. The source note already says this.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "entry:8",
+  "severity": "style",
+  "problem": "Quote checked against Famous Trials. The letter's newspaper and date are not given there, so 'approx' is correct.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "entry:9",
+  "severity": "style",
+  "problem": "LOC catalogue checked. The quoted words are in the speech as catalogued, the print was advertised in the Sun of 31 Aug 1839, and it is probably drawn by James or Isaac Sheffield. The attribution flag is appropriate. LOC gives the publisher as [Boston: Joseph A. Arnold].",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "amistad-1839",
+  "where": "image:0",
+  "severity": "style",
+  "problem": "LOC records the published imprint as [Boston: Joseph A. Arnold], with Beach as lithographer and copyright holder.",
+  "fix": {
+   "text_replace": {
+    "old": "Moses Yale Beach, lithographer (probably drawn by James or Isaac Sheffield)",
+    "new": "Moses Yale Beach, lithographer (probably drawn by James or Isaac Sheffield; imprint [Boston: Joseph A. Arnold])"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "entry:34",
+  "severity": "error",
+  "problem": "Five Years of My Life (Cinq années de ma vie) dates the chief warder's note to Monday 5 June 1899, about 12.30 p.m. He was taken off Devil's Island to the Sfax on Friday 9 June, not 'the next morning'.",
+  "fix": {
+   "date_iso": "1899-06-05",
+   "date_display": "Monday 5 June 1899",
+   "digest": "Shortly after noon the chief warder gave him a note announcing that the Cour de cassation had annulled the judgment and sent him before a new court-martial, and that he was no longer under the convict regime. Four days later, on 9 June, he was taken out to the cruiser Sfax, anchored well offshore, to sail for France.",
+   "source_note": "Five Years of My Life (1901) / Cinq années de ma vie, narrative of 5 and 9 June 1899"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "entry:11",
+  "severity": "error",
+  "problem": "Twain's note was not published before 1929; it is a manuscript known through the Shapell collection's modern catalogue, so it cannot be quoted under the rules (and Twain's unpublished writings are separately protected).",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "entry:23",
+  "severity": "error",
+  "problem": "'The question will not be put.' is the 1898 English translation (Tucker) of a French ruling, not an English original. The base spec allows quotes only from English originals.",
+  "fix": {
+   "quote": ""
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "entry:9",
+  "severity": "error",
+  "problem": "Herzl's 1899 statement, in the essay 'On Zionism' written for the North American Review, was that the Dreyfus trial made him a Zionist. In it he recalled the crowd crying 'Death to the Jews'. The dispatch dated 6 Jan 1895 reported cries against the traitor. The digest should keep the two documents apart in that detail.",
+  "fix": {
+   "digest": "Herzl stood among the journalists for the degradation and sent a report, dated 6 January, describing the ritual, the condemned man's protest of innocence and the crowd's cries against the traitor. In 1899, in an essay on Zionism written for an American review, he wrote that the Dreyfus trial had made him a Zionist and recalled the mob as shouting against the Jews. The 1895 dispatch and the 1899 reinterpretation are separate documents, and historians treat the later version as dramatised."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "eye:drumont",
+  "severity": "error",
+  "problem": "Le Soir named Dreyfus in its evening issue of 31 Oct 1894, the day before La Libre Parole's 1 Nov headline, so La Libre Parole was not the first paper to publish his name.",
+  "fix": {
+   "text_replace": {
+    "old": "It was the first paper to publish Dreyfus's name, using information leaked from within the War Ministry;",
+    "new": "It named Dreyfus as a Jewish officer arrested for treason on 1 November 1894, a day after the evening Le Soir first printed his name, using information leaked from within the War Ministry;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "entry:1",
+  "severity": "doubt",
+  "problem": "Le Soir had already named Dreyfus on the evening of 31 Oct. The claim that the War Ministry had announced nothing is not supported by the sources cited.",
+  "fix": {
+   "text_replace": {
+    "old": "The War Ministry had not yet announced anything; the leak placed the case in public before any evidence was tested.",
+    "new": "The evening Le Soir had printed his name the day before; the leak placed the case in public before any evidence was tested."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "eye:drumont",
+  "severity": "style",
+  "problem": "The paper's 1 Nov 1894 special edition was not the first to give the name, so the bio should match.",
+  "fix": {
+   "text_replace": {
+    "old": "because it shaped what the public believed before any trial began",
+    "new": "because it shaped what the public believed before any trial began, giving the arrest its antisemitic framing"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "image:1",
+  "severity": "style",
+  "problem": "1 Nov to 10 Nov 1894 is nine days, not ten.",
+  "fix": {
+   "text_replace": {
+    "old": "ten days after the paper named the prisoner",
+    "new": "nine days after the paper named the prisoner"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "convergence:0",
+  "severity": "doubt",
+  "problem": "This states as fact what entry 4 calls disputed among scholars, whether Herzl doubted the verdict at the time.",
+  "fix": {
+   "text_replace": {
+    "old": "and a foreign reporter who, like most of Paris, assumed the verdict was sound.",
+    "new": "and a foreign reporter whose doubts at the time, if any, scholars still debate."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "entry:10",
+  "severity": "doubt",
+  "problem": "Shapell describes the 14 Jan 1895 letter to the Valabrègues as protesting innocence, vowing to clear his name, saying little about himself and expressing confidence that 'we will manage to discover the truth'. The digest's 'suffered horribly from the disgrace' wording is not supported by that description.",
+  "fix": {
+   "text_replace": {
+    "old": "that he suffered horribly from the disgrace fastened to his name, but that a pure conscience gave him strength and he would clear it.",
+    "new": "protesting his innocence and vowing to clear his name; he said little about himself, as prison rules confined him to family matters, and was confident the truth would be found."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "entry:24",
+  "severity": "style",
+  "problem": "Verified against the Tucker edition: 'Sixth Day—February 12', where Henry says Picquart 'has lied'.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "The Trial of Emile Zola (Tucker, 1898), Sixth Day, 12 Feb 1898"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "entry:44",
+  "severity": "style",
+  "problem": "Cinq années de ma vie confirms that Mathieu came to the cell at 6 a.m. on 12 September with Galliffet's authorisation, and that Dreyfus agreed to withdraw his appeal while keeping his intention to seek revision. The Famous Trials chronology also dates the withdrawal to 12 Sept.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "entry:45",
+  "severity": "style",
+  "problem": "Spectator 16 Sept 1899, p. 1, checked: the item opens 'All civilised men outside France were shocked to [hear] on Saturday evening last…', so the quote is genuine English of 1899.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "entry:16",
+  "severity": "doubt",
+  "problem": "The case literature dates the 'faux Henry' to the end of October or start of November 1896. The Jewish Encyclopedia and the Georgetown chronology have Henry bring it to Gonse on 31 Oct, and others give 1–2 Nov.",
+  "fix": {
+   "date_display": "Late October – early November 1896 (31 October in some chronologies)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "entry:31",
+  "severity": "style",
+  "problem": "The Georgetown chronology dates the start of La Libre Parole's subscription for Henry's widow (for her suit against Joseph Reinach) to 14 Dec 1898.",
+  "fix": {
+   "date_iso": "1898-12-14",
+   "date_display": "From 14 December 1898 into January 1899",
+   "digest": "From 14 December La Libre Parole ran a public subscription for Henry's widow to fund her libel suit against the Dreyfusard writer Joseph Reinach. Day after day it printed the lists of donors with their messages, many of them hostile to Jews, and the 'Monument Henry' became an anti-Dreyfusard rallying cause."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "eye:steevens",
+  "severity": "doubt",
+  "problem": "Steevens was born on 10 December 1869, so he was 29, not 30, during the Rennes trial (August–September 1899). This is from memory and not checked this session.",
+  "fix": {
+   "text_replace": {
+    "old": "Special correspondent of the London Daily Mail, aged 30",
+    "new": "Special correspondent of the London Daily Mail, aged 29"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "entry:42",
+  "severity": "style",
+  "problem": "Checked in The Tragedy of Dreyfus ch. XIX: 'half gasp, half sob', and 'Demange and Labori were both in tears'.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "entry:38",
+  "severity": "style",
+  "problem": "Checked: 'There came in a little old man an old, old man of thirty-nine' (ch. IV).",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "dreyfus-1894",
+  "where": "entry:12",
+  "severity": "style",
+  "problem": "Cinq années confirms arrival in the roadstead on 12 March 1895 and landing on 15 March.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ }
+]
