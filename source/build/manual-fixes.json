@@ -1,0 +1,107 @@
+[
+ {
+  "chapter": "japan-1945",
+  "where": "entry:10",
+  "severity": "quote",
+  "problem": "quote from post-1929 publication",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "nanjing-1937",
+  "where": "entry:40",
+  "severity": "quote",
+  "problem": "quote from 1998 translation",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "entry:9",
+  "severity": "quote",
+  "problem": "quote from 1966 publication",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "entry:18",
+  "severity": "quote",
+  "problem": "modern translation",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "entry:41",
+  "severity": "quote",
+  "problem": "modern translation",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "ww2-europe",
+  "where": "entry:48",
+  "severity": "quote",
+  "problem": "modern translation",
+  "fix": {
+   "quote": ""
+  }
+ },
+ {
+  "chapter": "heian",
+  "where": "entry:17",
+  "severity": "error",
+  "problem": "episode is from Murasaki's diary",
+  "fix": {
+   "eye": "murasaki",
+   "headline": "Murasaki watches Sanesuke count the ladies' sleeves",
+   "confidence": "approx"
+  }
+ },
+ {
+  "chapter": "heian",
+  "where": "entry:38",
+  "severity": "doubt",
+  "problem": "Shōyūki entry unchecked",
+  "fix": {
+   "confidence": "approx",
+   "source_note": "Attribution to Sanesuke's diary unconfirmed. Dates per a published chronology of Teishi; the specific Shōyūki entry was not checked."
+  }
+ },
+ {
+  "chapter": "russia-1917",
+  "where": "intro:3",
+  "severity": "doubt",
+  "problem": "news delay conflicts with entry",
+  "fix": {
+   "text_replace": {
+    "old": "about three weeks late",
+    "new": "about a week late"
+   }
+  }
+ },
+ {
+  "chapter": "ww1",
+  "where": "threads_out:1",
+  "severity": "error",
+  "problem": "Seed corn print was 1941, before grandson's death",
+  "fix": {
+   "note": "Käthe Kollwitz's grandson, also named Peter, was killed in Russia in 1942. The year before, her lithograph 'Seed corn must not be ground' had repeated the phrase she used against Dehmel in 1918. Kessler went into exile when the Nazis took power in 1933, and Jünger served again as an officer in occupied Paris."
+  }
+ },
+ {
+  "chapter": "ww1",
+  "where": "threads_out:3",
+  "severity": "error",
+  "problem": "memorial installed at Roggevelde 1932, moved to Vladslo 1956",
+  "fix": {
+   "note": "Kollwitz spent eighteen years on her kneeling parents for Peter's grave, installed in 1932 at Roggevelde and moved in 1956 to the nearby Vladslo German war cemetery; Barthas wished for a monument to fraternisation, and France built one at Neuville-Saint-Vaast in 2015. Both show diaries shaping memorials long after the event."
+  }
+ }
+]

@@ -1,0 +1,561 @@
+[
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:5",
+  "severity": "error",
+  "problem": "The sentence about judging every sail 'friend or foe' is a compiler's flourish; no source cited records it.",
+  "fix": {
+   "text_replace": {
+    "old": " In wartime every sail sighted had to be judged friend or foe.",
+    "new": ""
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:7",
+  "severity": "error",
+  "problem": "In the 1814 text (TOTA reprint) 'resembling a terrestrial paradise' describes gardens and orchards on the opposite side of the river, not Captain Baker's estate. The reprint has Baker visit them at their hotel; the estate 'a few miles from the city' is not in the checked text. The quote itself is exact.",
+  "fix": {
+   "digest": "His first European landfall was Cork. Captain Baker, whom he had known in Rohilkhand during the Rohilla war, called on him and Richardson at their hotel, and Baker's cook-room was 'the first regular kitchen' he had seen. Across the river, he wrote, the ground was laid out in gardens and orchards 'resembling a terrestrial paradise'. He also wrote that the Irish villages much resembled those of India."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:8",
+  "severity": "error",
+  "problem": "The checked chapter does not compare the road with Rohilkhand and Murshidabad. Rohilkhand comes up because he had met Captain Baker there, and Murshidabad as the birthplace of the servant Deen Mohammed. The date, fare and stages (Fermoy, Clonmel, Kilkenny, Carlow; Dublin on the third evening) are confirmed.",
+  "fix": {
+   "text_replace": {
+    "old": "The chapter compares what he saw with places in India, Rohilkhand and Murshidabad among them.",
+    "new": "They breakfasted at Fermoy and slept at Clonmel, breakfasted at Kilkenny and slept at Carlow, and entered Dublin on the following evening."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:9",
+  "severity": "doubt",
+  "problem": "The quote and the Leinster House, Wombell and Astley details come only from a 2006 blog review (Dominus), which could not be reached. The quote has not been checked word for word against Stewart's text, so it is blanked and confidence lowered. Banglapedia confirms the Cornwallis purpose and Richardson going ahead.",
+  "fix": {
+   "quote": "",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:10",
+  "severity": "doubt",
+  "problem": "The quote and the comparison with the English and Scots come only from the unreachable Dominus blog. They have not been checked against Stewart's text.",
+  "fix": {
+   "quote": "",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:11",
+  "severity": "doubt",
+  "problem": "No source shows that a 'letter of recommendation' from Cornwallis opened doors 'to ministers'. Sen (2008) says only that Cornwallis introduced him to the Queen. Gresse Street rests on Williamson via Pritchett's notes, which could not be reached.",
+  "fix": {
+   "text_replace": {
+    "old": "Cornwallis's letter of recommendation opened doors at court and to ministers, and he soon took lodgings.",
+    "new": "Cornwallis's introduction later brought him to the Queen's notice, and he took lodgings."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:12",
+  "severity": "doubt",
+  "problem": "Sen (2008) confirms that Cornwallis introduced him to the Queen and gives the phrase 'frequently to court', but the phrase was not checked against Stewart's text itself. The King and the 'within weeks' competition between households are not in the sources checked.",
+  "fix": {
+   "quote": "",
+   "digest": "Through Cornwallis he was introduced to Queen Charlotte, who, he records, commanded him to come frequently to court."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:13",
+  "severity": "doubt",
+  "problem": "Sen (2008, citing p. 96) confirms that the public named him the 'Persian Prince' and that he says he never sought the title. The Vauxhall crowd detail was not visible in the checked text of Sen. Season inferred.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:20",
+  "severity": "style",
+  "problem": "The Royal Academy record gives only 'mezzotint after Northcote, 1801?', with no description of the pose. 'Half-length' is unsupported.",
+  "fix": {
+   "text_replace": {
+    "old": "The portrait shows him half-length in turban and robes. ",
+    "new": "The portrait shows him in turban and robes. "
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:21",
+  "severity": "error",
+  "problem": "Sen (2008, citing p. 144) quotes only her request that he promise to publish an account of his travels. Asking him to state frankly what he disliked is not in the source. The translation spells her 'Lady Spenser', so identifying her as Lavinia, Countess Spencer is an inference.",
+  "fix": {
+   "digest": "Lady Spencer ('Spenser' in the translation), one of his attentive hostesses, particularly requested him, and made him promise, to publish an account of his travels."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:26",
+  "severity": "error",
+  "problem": "Scroll.in, the cited source, does not contain the 'paradise into hell' comparison. It says instead that signs of decay began once he reached French soil. The rest of the digest matches Scroll.in.",
+  "fix": {
+   "text_replace": {
+    "old": " Leaving London, he said, felt like falling from paradise into hell.",
+    "new": ""
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:27",
+  "severity": "style",
+  "problem": "Scroll.in has him call London's museums 'child's playthings' beside the Louvre. It does not name the British Museum.",
+  "fix": {
+   "headline": "The Grand Gallery outshines London's museums"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:31",
+  "severity": "error",
+  "problem": "The route across Anatolia and Kurdistan and the stop at Baghdad are not in the cited sources. Live History India and Wikipedia say only that he travelled overland from Constantinople and visited the shrines of Karbala and Najaf.",
+  "fix": {
+   "place": "Karbala and Najaf (Ottoman Iraq)",
+   "digest": "Travelling overland from Constantinople, he made the pilgrimage to the shrines of Husain at Karbala and Ali at Najaf. For a Shi'i traveller this was the religious heart of the journey, after Europe."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:32",
+  "severity": "error",
+  "problem": "The cited source says only that he returned to Calcutta via Bombay. Basra and the Gulf passage are unsupported.",
+  "fix": {
+   "place": "Bombay",
+   "headline": "Back in India by way of Bombay",
+   "digest": "He came back into the Company's India at Bombay, before the last passage round to Bengal."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:35",
+  "severity": "style",
+  "problem": "Iranica names the London 1807 edition of his poems as edited and translated by G. Swinton. That editor can be added.",
+  "fix": {
+   "text_replace": {
+    "old": "His Persian poems were published in London with English renderings,",
+    "new": "His Persian poems were published in London in 1807, edited and translated by G. Swinton,"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:36",
+  "severity": "doubt",
+  "problem": "The 'intelligent Foreigner' wording matches Sen's (2008) quotation of the preface (p. xxxiii) but was not checked against Stewart's printed preface. The quote is blanked under the word-for-word rule. 'Neither flatterer nor enemy' is not in the quoted passage. The May 1810 date (BnF) stands.",
+  "fix": {
+   "quote": "",
+   "digest": "Stewart dated his dedication and preface in May 1810. He presented the free remarks of an intelligent foreigner, and especially of an Asiatic, on English laws, customs and manners as an object of liberal curiosity. He also smoothed and abridged the text he was introducing."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:38",
+  "severity": "doubt",
+  "problem": "The Vade-Mecum's contents list (Gutenberg 53400) confirms the section 'Mirza Alu Taaleb Khan, his ingratitude and vanity, comparison of his poetry with that of Hafiz and Yuqueen', pp. 503–509. The passage itself, and Pritchett's notes, could not be reached, so the quote is unchecked and blanked.",
+  "fix": {
+   "quote": "",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:39",
+  "severity": "doubt",
+  "problem": "The contents list confirms a comparison of his poetry with Hafiz and 'Yuqueen' (Yaqin). 'Rhodomontade' and the imagery details could not be checked in the text.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:2",
+  "severity": "doubt",
+  "problem": "Williamson's claim to have sailed in the same ship could not be checked: the Vade-Mecum passage and Pritchett's notes were unreachable. Abu Taleb's own account names Richardson as his companion. The entry and convergence 0 already present it as Williamson's claim, which is right, but it remains unverified.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "entry:42",
+  "severity": "doubt",
+  "problem": "Sen (2008) quotes the 1814 advertisement only on the Bengal government ordering the Persian original printed. That French and German versions are mentioned in the advertisement is not shown. Iranica says the German version was made from a French one, without a date.",
+  "fix": {
+   "text_replace": {
+    "old": "which was done at Calcutta in 1812, and that French and German versions had appeared. The Mirza, dead since 1805–06, now had readers in four languages.",
+    "new": "which was done at Calcutta in 1812. A French version had appeared in 1811, and a German one, made from the French, followed."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "claim:1",
+  "severity": "doubt",
+  "problem": "This claim rests only on the unreachable Dominus blog review.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "claim:11",
+  "severity": "doubt",
+  "problem": "The preface wording comes via Sen (2008) and was not checked in Stewart's book; the 'intelligent Foreigner' quote marks should not be treated as checked.",
+  "fix": {
+   "claim": "Presents the Mirza's free remarks on English laws, customs and manners as those of an intelligent foreigner, worth liberal curiosity",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "claim:12",
+  "severity": "doubt",
+  "problem": "The section heading ('ingratitude and vanity') is confirmed by the contents list, but the 'empty title', peeresses and Gresse Street details could not be checked.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "abutaleb-1799",
+  "where": "claim:13",
+  "severity": "doubt",
+  "problem": "The contents list confirms a comparison of his poetry with Hafiz; the 'rhodomontade' wording is unchecked.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "entry:0",
+  "severity": "style",
+  "problem": "Silvera reports only France against Italy; 'British' options are not in the cited source.",
+  "fix": {
+   "text_replace": {
+    "old": "British and Italian options had their advocates at court",
+    "new": "Italy also had its advocates at court"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "entry:4",
+  "severity": "doubt",
+  "problem": "Silvera gives 13 April 1826 and a month's voyage, and Louca gives 32 days at sea, which fits a 15 May landing. Newman (Chronos 2002) says he sailed 'in March 1826'. The April date is better supported and is kept, but the discrepancy should be noted.",
+  "fix": {
+   "source_note": "Silvera (1980) (13 April; month-long voyage); Louca (La Truite; 32 days at sea). Newman, Chronos 6 (2002) gives March 1826."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "entry:6",
+  "severity": "error",
+  "problem": "Louca says Tahtawi asked whether quarantine was an impious way of escaping fate and reported the controversy 'sans se prononcer', without taking a side. The digest's claim that he argued it was lawful is contradicted.",
+  "fix": {
+   "text_replace": {
+    "old": "Tahtawi used the confinement to discuss whether quarantine was lawful for Muslims who believed in divine decree, and argued that it was.",
+    "new": "Tahtawi recorded the debate over whether quarantine was a lawful precaution or an impious attempt to escape divine decree, setting out the controversy without deciding it himself."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "claim:1",
+  "severity": "error",
+  "problem": "Louca: Tahtawi reported the quarantine controversy without taking a position.",
+  "fix": {
+   "claim": "Traveller: is quarantine a lawful precaution or an attempt to escape divine decree? He reports the debate without deciding it",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "entry:8",
+  "severity": "error",
+  "problem": "Silvera says the first Paris lodging was a hotel on the rue de Clichy. The Hijri gloss is also off: late July 1826 fell in Dhu al-Hijja 1241, and Muharram 1242 began about 5 August.",
+  "fix": {
+   "date_display": "Late July–August 1826 (Dhu al-Hijja 1241 – Muharram 1242 AH)",
+   "digest": "After a journey by diligence of about a week, with a stop at Lyon, the mission reached Paris and was lodged first in a hotel in the rue de Clichy. Tahtawi began a description of the city's site, the Seine and its bridges, its climate and its water supply, written as an Arab geographer would describe any new country."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "entry:21",
+  "severity": "doubt",
+  "problem": "Silvera confirms the oral examination on 28 February and 1 March 1828 at the rue de Lille, with Sidney Smith and Morier present. 'A week after written tests' was not found in the checked text.",
+  "fix": {
+   "text_replace": {
+    "old": ", a week after written tests",
+    "new": ""
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "entry:28",
+  "severity": "doubt",
+  "problem": "The detailed claims ('adl/insaf, Newman p. 208) rest on Muench's WPSA paper, which could not be reached. Newman (Chronos 2002) confirms only that the book translates and comments on the 1814 Charter. Downgraded.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "entry:29",
+  "severity": "error",
+  "problem": "The Revue des Deux Mondes extracts contain no Dieppe entry for July 1830. Apponyi mentions being at Dieppe when the news arrived only in retrospect, in the entries of 30 October and 12 December 1830, so there is no 'diary of the three days'.",
+  "fix": {
+   "digest": "Apponyi was at Dieppe when news of the ordinances and the fighting reached the coast. He mentions this only in later entries (30 October and 12 December 1830); the published extracts contain no journal written during the three days.",
+   "source_note": "Revue des Deux Mondes extracts, part II (entries of 30 Oct and 12 Dec 1830)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "intro:2",
+  "severity": "style",
+  "problem": "Apponyi's presence at Dieppe is known only from his later entries.",
+  "fix": {
+   "text_replace": {
+    "old": "was waiting in Dieppe for news",
+    "new": "was, by his own later account, at Dieppe waiting for news"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "convergence:4",
+  "severity": "style",
+  "problem": "Apponyi wrote no entry from Dieppe during the fighting; he recalled it later.",
+  "fix": {
+   "text_replace": {
+    "old": "Apponyi waits for news in Dieppe",
+    "new": "Apponyi, by his later account, was waiting for news in Dieppe"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "entry:31",
+  "severity": "doubt",
+  "problem": "The royalist/liberal division and the blame on Charles X and Polignac come via Muench's WPSA paper, which could not be reached. Downgraded to approx.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "entry:33",
+  "severity": "error",
+  "problem": "The Hijri gloss is off: August 1830 was mostly Safar 1246, with Rabi' I beginning about 20 August. The hadith, Shaykh Hammam and jumhuriyya details rest on the unreachable Muench paper; Newman (Chronos) mentions only the concept of a republic.",
+  "fix": {
+   "date_display": "August 1830 (Safar–Rabi' I 1246 AH)",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "entry:37",
+  "severity": "error",
+  "problem": "Louca dates the final examination to 1831 ('L'examen final de Rifa'a à Paris (1831)'). Silvera cites the report in the Revue encyclopédique XLVIII (November 1831) and puts the examination in November 1831, which cannot be right if Tahtawi was writing from Cairo on 16 August 1831. 1831, before his return, is the defensible date.",
+  "fix": {
+   "date_iso": "1831",
+   "precision": "range",
+   "date_display": "1831, before his return (sources differ on the month)",
+   "source_note": "Louca (final examination, 1831); Silvera (1980) n. 72 (Revue encyclopédique XLVIII, November 1831, pp. 521–23). Silvera's 'November 1831' conflicts with the Cairo letter of 16 August 1831."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "entry:39",
+  "severity": "error",
+  "problem": "Apponyi's 23 December entry describes the king leading a march through the faubourgs, escorted by National Guards, not riding through the crowds. The statement about what was feared is not in the extracts.",
+  "fix": {
+   "text_replace": {
+    "old": "and Louis-Philippe riding through the crowds to a triumphant reception. The fear was of a massacre of the ministers, not of a new revolution.",
+    "new": "and Louis-Philippe leading a march through the poorer quarters that Apponyi called a triumphal procession."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "entry:40",
+  "severity": "error",
+  "problem": "Silvera says half a dozen students 'had returned immediately after the outbreak of the July Revolution'. 'Recalled' overstates this.",
+  "fix": {
+   "date_display": "1831 (before August)",
+   "digest": "Tahtawi left Paris in 1831 with his translations and his manuscript. About half a dozen of his fellow students had already gone home immediately after the revolution broke out."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "entry:41",
+  "severity": "doubt",
+  "problem": "Louca says Ibrahim Pasha first set him to compile an Arabic–French dictionary in Alexandria, and that he was then attached to the medical school as a translator at Clot Bey's request. 'First post ... at Abu Za'bal' is therefore uncertain. The Routledge document's contents were not checked.",
+  "fix": {
+   "text_replace": {
+    "old": "his first post was as a translator in the new state schools, beginning with the medical school at Abu Za'bal.",
+    "new": "according to Louca he was first set to an Arabic–French dictionary in Alexandria, then attached to the medical school as a translator at Clot Bey's request."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "threads_out:3",
+  "severity": "style",
+  "problem": "Abu Za'bal was not certainly his first post (Louca: an Arabic–French dictionary came first).",
+  "fix": {
+   "text_replace": {
+    "old": "Tahtawi's first post was at the Abu Za'bal medical school",
+    "new": "One of Tahtawi's first posts was at the Abu Za'bal medical school"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "entry:43",
+  "severity": "doubt",
+  "problem": "The IMA dossier confirms de Sacy's annotation that the claim that the French have no religion and are Christians only in name 'est à réviser'. That he praised the account as 'faithful and useful' was not found in any reachable source.",
+  "fix": {
+   "text_replace": {
+    "old": "De Sacy praised the account as faithful and useful, while flagging a few judgements",
+    "new": "De Sacy commented on the manuscript, flagging judgements"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "entry:38",
+  "severity": "style",
+  "problem": "Hijri gloss: 15 December 1830 = 29 Jumada II 1246; Rajab began on 16 December.",
+  "fix": {
+   "date_display": "15–21 December 1830 (Jumada II–Rajab 1246 AH)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "entry:45",
+  "severity": "error",
+  "problem": "Louca reports the letter's content: it was printed in the Nouveau Journal asiatique (November 1831), and in it he says his uncle, now his father-in-law, is the Mufti and that the ulama welcomed him, several coming to see him of their own accord. The digest's 'reported on his work, keeping open the line ...' is unsupported.",
+  "fix": {
+   "digest": "Writing from Cairo to his old headmaster, Tahtawi reported that the ulama had welcomed him home, several coming to see him of their own accord, and that his uncle, now his father-in-law, was the Mufti. The letter was printed in the Nouveau Journal asiatique that November.",
+   "source_note": "Letter dated 'Kaire, le 16 août 1831', printed in Nouveau Journal asiatique (Nov 1831), cited by Louca."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "eye:jomard",
+  "severity": "style",
+  "problem": "Jomard was born on 20 November 1777, so he was 48 for most of 1826.",
+  "fix": {
+   "text_replace": {
+    "old": "aged 49 in 1826",
+    "new": "aged 48 in 1826"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "claim:9",
+  "severity": "doubt",
+  "problem": "This rests on the unreachable Muench paper (Newman p. 208).",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "claim:10",
+  "severity": "doubt",
+  "problem": "This rests on the unreachable Muench paper (Newman pp. 306–309).",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "claim:7",
+  "severity": "doubt",
+  "problem": "This rests on Louca's summary, which the checked extract does not cover.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "tahtawi-1826",
+  "where": "claim:13",
+  "severity": "doubt",
+  "problem": "Only the annotation is confirmed (IMA). The 'account is faithful' part is not.",
+  "fix": {
+   "claim": "Hosts: the claim that the French are Christians only in name should be revised"
+  },
+  "confidence": "approx"
+ }
+]

@@ -1,0 +1,375 @@
+[
+ {
+  "chapter": "guo-1877",
+  "where": "entry:0",
+  "severity": "style",
+  "problem": "The closing sentence is compiler commentary not in the entry; the entry itself names the staff nominated (two counsellors, two interpreters, four secretaries) and says only 'the Empress Dowager' (太后).",
+  "fix": {
+   "text_replace": {
+    "old": "The diary shows how small and improvised the first legation was.",
+    "new": "His memorial named two counsellors, two interpreters and four secretaries for the mission."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:2",
+  "severity": "error",
+  "problem": "Frodsham's translation says the ship was held at Hong Kong to repair damage from a collision with a merchant paddle-steamer, not storm damage; the school passage describes halls arranged so one master could oversee about a hundred pupils, not a 'strict timetable'. School on 6 Dec, gaol on 7 Dec.",
+  "fix": {
+   "digest": "While the Travancore was repaired after a paddle-steamer struck her in the harbour, Guo toured the Government Central School, noting how its halls were laid out so that one master could watch about a hundred pupils, and next day the gaol, whose cleanliness, chapel, hospital and equal treatment of prisoners of every nationality he praised. He also noted how fast the colony had grown."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:3",
+  "severity": "error",
+  "problem": "Days are swapped. Per Frodsham and BiblioAsia, on 13 Dec Guo met Governor Jervois, visited Whampoa's house and garden and inspected Fort Canning (fortifications, barracks, guns); the Yangwu salute and drill were on 14 Dec. No source seen says the fort's layout struck him as unlike a Chinese fort.",
+  "fix": {
+   "headline": "Whampoa's garden and Fort Canning",
+   "digest": "The ship docked about eleven in the morning in rain. Guo was taken to the house and garden of the merchant Hoo Ah Kay (Whampoa), who would become the first Qing consul in Singapore, met Governor Jervois at Government House, and inspected the fortifications, barracks and guns of Fort Canning."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:4",
+  "severity": "error",
+  "problem": "Whampoa's garden belongs to 13 Dec; the 14th was the day of the Yangwu salute and drill, the Botanic Gardens, Judge Ford's court and a second call on Jervois (Frodsham; BiblioAsia).",
+  "fix": {
+   "headline": "A Qing corvette and a colonial court",
+   "digest": "In rain and thunder Guo boarded the Fuzhou-built corvette Yangwu, whose crew manned the yards, fired a salute and drilled; he visited the Botanic Gardens, sat beside Judge Theodore Ford at a hearing, and called again on Governor Jervois before sailing. Liu, by contrast, left no impression of the town."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:5",
+  "severity": "error",
+  "problem": "In Frodsham the sightseeing (prison, Buddhist temples, a sold former royal palace), the reflection on how Europeans hold such countries, and the change to the Peshawur all fall on 22 Dec (GX 2/11/7); 21 Dec is only the arrival.",
+  "fix": {
+   "date_iso": "1876-12-22",
+   "date_display": "Friday 22 December 1876 (GX 2/11/7)",
+   "digest": "After visiting a prison, Buddhist temples and a former royal palace that had been sold, Guo reflected that Europeans held countries like Ceylon less by soldiers than by planning, settlement and trade, taking control without overthrowing the local ruling house. The same day the party changed to the P&O Peshawur."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "claim:0",
+  "severity": "error",
+  "problem": "The Ceylon reflection is in the 22 Dec entry (GX 2/11/7), per Frodsham.",
+  "fix": {
+   "date_iso": "1876-12-22",
+   "date_display": "22 Dec 1876",
+   "evidence": "Shi xi jicheng, Ceylon entry of 22 Dec (Frodsham 1967)"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:6",
+  "severity": "error",
+  "problem": "The 28 Dec entry praises accurate published shipping timetables; the praise of British rules for ships (Board of Trade inspection, licensed captains, logs) is in the 27 Dec entry.",
+  "fix": {
+   "text_replace": {
+    "old": "and admired the orderly commercial rules of the ports.",
+    "new": "and praised the accurate published timetables of the steamers; the day before he had admired British rules for inspecting ships, licensing captains and keeping logs."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:8",
+  "severity": "doubt",
+  "problem": "Frodsham has the ship reach Malta 'by the second watch', i.e. in the night hours (二更 is the evening watch), not necessarily the small hours.",
+  "fix": {
+   "text_replace": {
+    "old": "Arriving in the small hours,",
+    "new": "Arriving at night,"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:10",
+  "severity": "doubt",
+  "problem": "Frodsham's last entry, as read here, has carriages ordered by Mr Campbell; the mode of travel to London (train vs carriage) could not be confirmed, though the lit towns named (Basingstoke, Woking) lie on the railway. Neutral wording avoids asserting either.",
+  "fix": {
+   "text_replace": {
+    "old": "came up by train to London",
+    "new": "travelled up to London"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:12",
+  "severity": "doubt",
+  "problem": "No fetched source gives the audience date: Li Jiaqi (2020) cites only the North-China Herald review mentioning the audience. The GX 2/12/25 conversion of 7 Feb is correct, but the day itself remains as commonly given; 'approx' is right.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:13",
+  "severity": "doubt",
+  "problem": "Li Jiaqi gives 8 Feb 1877 as the date of Guo's first official dispatches and treats it as the earliest date by which the diary was finished, not as a confirmed date of sending; the entry should not assert the diary went with it.",
+  "fix": {
+   "confidence": "approx",
+   "text_replace": {
+    "old": "The fair copy of the voyage diary, finished in early February, went to the Zongli Yamen, which had ordered envoys to record what they saw.",
+    "new": "The voyage diary had been finished by early February and was sent to the Zongli Yamen, which had ordered envoys to record what they saw; the exact day it left is not recorded."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:14",
+  "severity": "doubt",
+  "problem": "BiblioAsia's caption describes the item as a Victorian poem whose illustration shows Guo as a monkey in Chinese dress gazing at the British lion; the 'errand of apology' theme is not in the source seen. Report the stereotype plainly as what was printed.",
+  "fix": {
+   "digest": "Punch ran a comic poem on the Chinese envoy's arrival; as reproduced by BiblioAsia, its illustration showed Guo as a monkey in Chinese dress gazing fondly at the British lion. It was the satirical frame through which many readers first met Guo."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:19",
+  "severity": "style",
+  "problem": "Zhang wrote that the earl's second son and the late eldest son's children, 'one of each', were all eight or nine; Wang Ding notes the girl Zhang calls the earl's granddaughter is unidentified. Wording can follow the source more closely.",
+  "fix": {
+   "text_replace": {
+    "old": "a granddaughter asking the guests to sign her album. He recorded the grandchildren as a boy and a girl, though both were boys.",
+    "new": "a girl he called the earl's granddaughter asking the guests to sign a book. He recorded the grandchildren as a boy and a girl of eight or nine, though they were two boys of about twelve and four."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:23",
+  "severity": "style",
+  "problem": "Li Jiaqi quotes the letter: Li had heard from Zhou Xiaotang that He Jinshou had memorialised asking that the book be destroyed, and notes the Yamen had printed it in movable type.",
+  "fix": {
+   "digest": "Writing to his elder brother Li Hanzhang, Li reported news that He Jinshou had memorialised asking for the envoy's book to be destroyed, after the Zongli Yamen had printed it in movable type. The editors of his letters misdated this one to 1878."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:24",
+  "severity": "error",
+  "problem": "Li Jiaqi says Li Ciming copied two passages of the diary matching those He Jinshou cited and blamed the Zongli Yamen for publishing it; the phrase 'praised the barbarians beyond all measure' as the diarist's words is not in the source.",
+  "fix": {
+   "digest": "Li Ciming copied into his diary two passages of Guo's book, the same ones He Jinshou's memorial had cited, and blamed the Zongli Yamen for having it printed. The private diary shows the official objection taken up by literati opinion."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:25",
+  "severity": "doubt",
+  "problem": "The Paper says the cloak was the brown cloak of the British admiral (提督) guiding the tour of 甲敦炮台 in southern England (fort unidentified), and, as read here, that the cloak, Brazil and concert complaints were raised in Liu's earlier quarrels rather than listed in the formal ten-count memorial. Hedge the link to the formal charges.",
+  "fix": {
+   "digest": "On a tour of a fort (甲敦炮台) in southern England, the British admiral guiding the party draped his own cloak over Guo against the cold; Liu objected that an envoy should not wear foreign clothes even if he froze, and the two quarrelled. Liu later used the cloak against him.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:27",
+  "severity": "error",
+  "problem": "The Wikisource entry (GX 3/8/2) says Li Shuchang (Li Chunzhai) and others described two days of questioning with Liu, whose accusations Guo called wildly absurd; questioning of Liu's servant Sheng Kui (盛奎) some days earlier had shown that an anonymous letter was Liu's forgery. The 8/4 entry calls Liu a 'false envoy' (伪使) and says Guo had suffered much from him without any help; the phrase 'harm and no benefit' is not in the text.",
+  "fix": {
+   "digest": "Li Shuchang and others described two days of confrontation with Liu, whose accusations, built on Beijing gossip, Guo called wildly absurd; and questioning of Liu's servant Sheng Kui had shown that an anonymous letter was Liu's own forgery. Two days later Guo called his deputy a false envoy from whom he had suffered much and gained no help at all."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:29",
+  "severity": "style",
+  "problem": "The GX 3/8/16 entry reports, through Li Shuchang, that Liu had failed to answer a summons the previous evening; Liu He-bo (刘和伯) answered that there had been no anonymous letter.",
+  "fix": {
+   "text_replace": {
+    "old": "Liu declined a summons, resentful",
+    "new": "Guo heard that Liu had refused a summons the evening before, resentful"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:30",
+  "severity": "doubt",
+  "problem": "Li Jiaqi gives the 12 Oct 1877 memorial (辦理洋務橫被構陷瀝情上陳疏) but does not say it names Liu and He; the collusion charge (勾通构陷) comes from The Paper's account of a GX 3/9 memorial. Present it as the later source's account.",
+  "fix": {
+   "text_replace": {
+    "old": "and charged that Liu and He Jinshou had acted together.",
+    "new": "and, according to The Paper's account of his memorials of that month, charged that Liu and He Jinshou had colluded against him."
+   },
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:34",
+  "severity": "doubt",
+  "problem": "The telephone trial date is disputed: The World of Chinese (2019) and an IT Home feature give 1877 (Guangxu 3), the anthology title gives 1878; the host is named as the electrical works owner 毕谛. Display should show the uncertainty.",
+  "fix": {
+   "date_display": "1877 or 1878 (sources differ)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:35",
+  "severity": "doubt",
+  "problem": "The World of Chinese says only that Zhang 'later' rendered telephone as 德律风; no date is given, so 1878 is a placeholder.",
+  "fix": {
+   "date_display": "1877–78 (undated; sources say only 'later')"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "claim:12",
+  "severity": "error",
+  "problem": "Li Jiaqi summarises Gundry's letter as attributing the denunciation to Liu, arguing that Guo changed his views abroad and feared Liu would denounce him; 'victim of jealous reactionaries' is the compiler's rhetoric.",
+  "fix": {
+   "claim": "Hosts: the envoy changed his views abroad and was denounced at home at his own deputy's instigation"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:40",
+  "severity": "style",
+  "problem": "Li Jiaqi adds that Gundry's letter followed the North-China Daily News report almost word for word and argued that Guo had changed his views only after going abroad.",
+  "fix": {
+   "text_replace": {
+    "old": "explaining the banning of Guo's diary to British readers and attributing the impeachment to Liu.",
+    "new": "explaining the banning of Guo's diary to British readers, attributing the denunciation to Liu, and arguing that Guo had changed his views only after going abroad; it followed the North-China Daily News report almost word for word."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:41",
+  "severity": "style",
+  "problem": "Li Jiaqi summarises the letter (signed 'H. M.') as arguing that the diary could only show the notions Guo held before he reached England. Adding that keeps the digest specific.",
+  "fix": {
+   "text_replace": {
+    "old": "Macartney wrote to The Times to clarify the account of the affair, speaking for the legation he served.",
+    "new": "Macartney, signing 'H. M.', wrote to The Times to clarify the account of the affair, arguing that the voyage diary showed only the views Guo had held before he reached England."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:43",
+  "severity": "style",
+  "problem": "Guo's diary (as quoted by Li Jiaqi) describes Gundry as 《字林日報》總辦, head of the North-China Daily News, not as a Times man.",
+  "fix": {
+   "headline": "Gundry calls",
+   "text_replace": {
+    "old": "Guo recorded a visit from Gundry, the correspondent",
+    "new": "Guo recorded a visit from Gundry, whom he described as head of the North-China Daily News: the writer"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:45",
+  "severity": "doubt",
+  "problem": "The Zurich chronology says Guo attended Hamlet 'as arranged for the stage by Henry Irving' at the Lyceum on 30 Dec 1878 as the first Chinese to see a Shakespeare play; it does not say 'opening night', and it places the diary note of the invitation in January 1879, leaving the diary day unsettled.",
+  "fix": {
+   "digest": "Guo saw Hamlet, as arranged for the stage by Henry Irving, at the Lyceum; the Zurich China–West chronology calls him the first Chinese to see a Shakespeare play. His diary notes that he was invited to the theatre to see a Shakespeare production.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:47",
+  "severity": "doubt",
+  "problem": "No source was checked for what Zeng's diary records of the handover; the clause about the diary's contents goes beyond the cited material.",
+  "fix": {
+   "text_replace": {
+    "old": "Zeng reached Europe and took over the legation from Guo, recording in his diary the handover and his first calls.",
+    "new": "Zeng reached Europe and took over the legation from Guo."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "entry:48",
+  "severity": "error",
+  "problem": "The Globe piece ('Chinese Progress', p. 3) is reprinted from The Times with no date or 'leader' label, and it treats Zeng as the coming minister replacing Guo, regretting Guo's dismissal. Quote checked: exact substring, pre-1929 English, ≤12 words.",
+  "fix": {
+   "digest": "The Globe reprinted a Times article on the appointment of Zeng Jize, the young marquis just out of mourning, regretting Guo's dismissal and that Zeng, like Guo, would be shared with Paris."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "claim:14",
+  "severity": "style",
+  "problem": "The reprinted piece is not identified as a leader in the Globe.",
+  "fix": {
+   "evidence": "Times article reprinted in Globe 24 Jan 1879"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "threads_out:0",
+  "severity": "doubt",
+  "problem": "No source seen confirms that Guo's diary refers to the Shah's visit; keep the thread on the verifiable precedent only.",
+  "fix": {
+   "text_replace": {
+    "old": "Naser al-Din Shah's London visit of 1873 was still talked of when Guo arrived; Guo's diary refers to the recent visit of the Persian king, the obvious precedent",
+    "new": "Naser al-Din Shah's London visit of 1873, less than four years before Guo arrived, was the obvious recent precedent"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "eye:he",
+  "severity": "style",
+  "problem": "Li Jiaqi gives He Jinshou's dates as 1834–1882.",
+  "fix": {
+   "life": "1834–1882"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "guo-1877",
+  "where": "eye:guo",
+  "severity": "style",
+  "problem": "The authenticity note cites only the 1974 book, though the chapter draws on Frodsham's 1967 journal translation of Shi xi jicheng; both are modern translations (digest only, correctly). Calendar check: GX 2/10/17 = 2 Dec 1876 is correct and matches the diary's first entry, though Frodsham's introduction says 1 December.",
+  "fix": {
+   "text_replace": {
+    "old": "English: J. D. Frodsham, The First Chinese Embassy to the West (Oxford, 1974).",
+    "new": "English: J. D. Frodsham, 'Record of an Envoy's Voyage to the West' (Asian Studies, 1967) and The First Chinese Embassy to the West (Oxford, 1974), both modern translations."
+   }
+  },
+  "confidence": "verified"
+ }
+]

@@ -1,0 +1,655 @@
+[
+ {
+  "chapter": "siam-1686",
+  "where": "calendar_note:0",
+  "severity": "error",
+  "problem": "The Cape letters are dated in an era year 2231 that the contemporary French versions themselves equate with 24 June 1687, and the treaty of December 1687 uses the same year (2231/32). So the one-year excess over BE = CE + 543 reflects an older count of the Buddhist era (Coedès's documents also pair BE 2227 with CS 1045, i.e. CE + 544), not the April new year, which would lower the year rather than raise it.",
+  "fix": {
+   "text_replace": {
+    "old": "Coedès read the date of Kosa Pan's Cape letters as the second waning day of the eighth month of BE 2231, equated with 24 June 1687 — one year higher than the modern BE = CE + 543 rule, reflecting older Siamese reckoning and the April new year.",
+    "new": "Kosa Pan's Cape letters are dated the second waning day of the eighth month of the year 2231 (a year of the Hare), which their contemporary French versions equate with 24 June 1687; the treaty of December 1687 is dated in the same era year. This Buddhist-era count runs one year higher than the modern Thai rule (BE = CE + 543): it follows an older reckoning, about CE + 544, that also appears elsewhere in the documents Coedès published (BE 2227 = CS 1045)."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "siam-1686",
+  "where": "calendar_note:0",
+  "severity": "doubt",
+  "problem": "The 3 September date appears in the Château de Versailles 'Kosa Pan' long-read, which the château itself labels a fictional narrative. The reader should know that this is where the alternative date comes from.",
+  "fix": {
+   "text_replace": {
+    "old": "while some modern summaries give 3 September; this chapter follows Dangeau.",
+    "new": "while some modern texts give 3 September (among them the Château de Versailles' own fictional 'notebook' narrative); the château's key-dates page also gives 1 September. This chapter follows Dangeau."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "siam-1686",
+  "where": "entry:26",
+  "severity": "error",
+  "problem": "The source note relies on the château's 'Kosa Pan' long-read, which is a labelled fictional narrative. The farewell date is in fact confirmed by a contemporary imprint: 'Harangue faite a Sa Majesté par les Ambassadeurs du Roy de Siam Le Mardi 14. Janvier 1687, à leur Audience de Congé'. The claim about Louis XIV's reply was not found in the Wikipedia article cited, so it is hedged.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Contemporary imprint: Harangue faite a Sa Majesté par les Ambassadeurs du Roy de Siam le mardi 14 janvier 1687, à leur audience de congé (Paris, 1687; bookseller record). The château's 'Kosa Pan' long-read, which gives the same date, is a labelled fictional narrative. The content of Louis XIV's reply has not been checked here.",
+   "text_replace": {
+    "old": "Louis XIV's reply to Narai praised the ambassador's conduct and credibility.",
+    "new": "Louis XIV's reply to Narai is said in modern accounts to have praised the ambassador's conduct."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "siam-1686",
+  "where": "image:4",
+  "severity": "error",
+  "problem": "The claim that Le Brun 'guided him through the Hall of Mirrors' seems to come from the château's fictional notebook narrative. It is not supported by any source cited.",
+  "fix": {
+   "text_replace": {
+    "old": ", who also drew Kosa Pan's portrait and guided him through the Hall of Mirrors.",
+    "new": ", who also drew Kosa Pan's portrait in 1686. The attribution is the agency's."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "siam-1686",
+  "where": "entry:46",
+  "severity": "style",
+  "problem": "The date_iso '1690-06' claims month precision, but the entry has precision 'year', its display reads '1690' and the source note says the month was not verified.",
+  "fix": {
+   "date_iso": "1690"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "siam-1686",
+  "where": "entry:28",
+  "severity": "style",
+  "problem": "Quote checked against the 1693 English text (Bodleian OTA A48403): 'we set Sail from Brest on the First of March, Anno 1687.' It is exact and within the 12-word limit. No change needed; logged for the record.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "siam-1686",
+  "where": "entry:33",
+  "severity": "style",
+  "problem": "Quote checked against the 1693 English text: 'yet they presently apprehended that they alone were handsom, and that the Siameses were not.' The quoted wording is exact. The doll is valued there at 'an hundred Catis, or fifteen thousand Livres'.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "siam-1686",
+  "where": "entry:34",
+  "severity": "style",
+  "problem": "Quote checked against the 1693 text: 'less out of curiosity for the Show, than out of respect to his Majesties Letter.' It is exact.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "siam-1686",
+  "where": "entry:39",
+  "severity": "style",
+  "problem": "The Mergui quote is exact in the EarlyPrint text, but the pamphlet spells the place 'Morgen'. The imprint year is damaged ('16●●'), so c.1689–90 rightly stays approximate.",
+  "fix": {
+   "source_note": "A Full and True Relation… (London, for Randal Taylor, 16[89–90?]; imprint year damaged), appended officer's diary, 25 and 29 June 1688; the diary spells Mergui 'Morgen'."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "siam-1686",
+  "where": "entry:34",
+  "severity": "style",
+  "problem": "Coedès (JSS 14) confirms the Siamese date of the treaty: the 8th waxing day of the 1st month of 2231/32, a Thursday, equated with 11 December 1687 (a Thursday in the Gregorian calendar).",
+  "fix": {
+   "source_note": "Coedès, JSS 14 (1921): Siamese text dated 8th waxing day of the 1st month, year 2231/32, a Thursday = 11 December 1687; copies in French colonial archives. Céberet (Wikipedia)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "siam-1686",
+  "where": "entry:41",
+  "severity": "style",
+  "problem": "Narai's death is correctly given as a disagreement of positions (10 vs 11 July 1688). The chronicle wording has not been checked, and the confidence stays approx. No change needed.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "siam-1686",
+  "where": "entry:47",
+  "severity": "style",
+  "problem": "Wikipedia's Kosa Pan article gives 15 November 1699, 'according to the Dutch', and says Phetracha had his nose cut off. The digest matches this, and approx is right because the date rests on a single Dutch report.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "siam-1686",
+  "where": "eye:kosa-pan",
+  "severity": "style",
+  "problem": "IRFA confirms the details: archive no. 1081, a copy brought from Ayutthaya by an MEP missionary, rediscovered in the 1980s, covering 20 June–4 July 1686, published by Silkworm in 2002. The château's long-read itself states that its notebook text is 'a fictional narrative, constructed from fragments and testimonies'. The authenticity note is accurate.",
+  "fix": {
+   "text_replace": {
+    "old": "are an acknowledged modern fiction, not his words.",
+    "new": "are an acknowledged modern fiction (the château calls it 'a fictional narrative, constructed from fragments and testimonies'), not his words."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "entry:25",
+  "severity": "error",
+  "problem": "1 February 1721 (Gregorian) was a Saturday, not a Sunday. The Toulouse thesis gives the date without a weekday.",
+  "fix": {
+   "date_display": "1 February 1721"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "entry:41",
+  "severity": "error",
+  "problem": "The sources really do disagree: Aramco World (1993) says the party left Paris on 25 July 1721, and other works give 3 August. A Hijri equivalent in the display makes one of these positions look like the traveller's own dated statement.",
+  "fix": {
+   "date_display": "late July or early August 1721 (25 July or 3 August in different sources)",
+   "precision": "range",
+   "text_replace": {
+    "old": "set out for the south in early August",
+    "new": "set out for the south in late July or early August"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "intro:1",
+  "severity": "doubt",
+  "problem": "Paris departure date: the sources differ (Aramco World gives 25 July 1721).",
+  "fix": {
+   "text_replace": {
+    "old": "and stayed until early August,",
+    "new": "and stayed until late July or early August (sources differ),"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "entry:44",
+  "severity": "doubt",
+  "problem": "Aramco World confirms the sailing from Sète on 7 September and the arrival home about a month later, but names no stops. Tunis and Malta rest only on an unchecked review, and that detail should be hedged.",
+  "fix": {
+   "text_replace": {
+    "old": "returning by way of Tunis and Malta.",
+    "new": "returning, according to one modern review, by way of Tunis and Malta."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "entry:20",
+  "severity": "doubt",
+  "problem": "On the tabular calendar, 12 Rebiülevvel 1133 is Saturday 11 January 1721, so the night of the feast (its eve) is 10/11 January, ±1 day. The display's 'night of 11/12 January' is one day late on this reckoning, unless the French supply record gives its own date.",
+  "fix": {
+   "date_display": "12 Rebiülevvel 1133 AH (about 11 January 1721 by the tabular calendar, ±1 day)",
+   "date_iso": "1721-01-11"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "calendar_note:0",
+  "severity": "doubt",
+  "problem": "The same tabular computation gives 11 January for 12 Rebiülevvel 1133. The feast night is its eve.",
+  "fix": {
+   "text_replace": {
+    "old": "≈ 11/12 January 1721;",
+    "new": "≈ 11 January 1721 by the tabular calendar (the festive night is its eve, ±1 day);"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "entry:3",
+  "severity": "error",
+  "problem": "Gezer (2024) puts the report that the appointment was confirmed but would not be announced until the Habsburg envoy left in Stanyan's dispatch of 4/15 April 1720, not that of 6/17 May. The May dispatch concerns talk of a Franco-Ottoman alliance encouraged by Bonnac.",
+  "fix": {
+   "text_replace": {
+    "old": "The appointment, he had heard, was confirmed but kept quiet until the Habsburg envoy left.",
+    "new": "A month earlier (4/15 April) he had reported that the appointment was confirmed but would not be announced until the Habsburg envoy left."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "entry:7",
+  "severity": "error",
+  "problem": "In Gezer's summary, Sutton's 13 October 1720 dispatch records that he encouraged Dubois to limit the mission and suspected Bonnac's self-interest. The plan to receive the envoy at Toulon and send him back is in his dispatch of 19 October.",
+  "fix": {
+   "digest": "Sutton told London that he had encouraged Dubois to keep the mission small, and suggested Bonnac had arranged it for his own credit. In a dispatch of 19 October he added that Dubois planned to receive the envoy at Toulon and send him home from there. The British ambassador treated it as a French embarrassment rather than a threat."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "entry:34",
+  "severity": "error",
+  "problem": "In Gezer's summary, Pentenriedter's report of 27 April 1721 concerns the envoy's delayed return and costs of about 1,000 livres a day. The French offers of engineers and officers appear in his report of 26 May 1721.",
+  "fix": {
+   "text_replace": {
+    "old": "He spoke of renewing the Polish–Ottoman peace through Vienna and hinted at French offers of engineers and retired officers; Pentenriedter suspected that the envoy's real aim was intelligence.",
+    "new": "He spoke of renewing the Polish–Ottoman peace through Vienna, and Pentenriedter suspected that the envoy's real aim was intelligence. The same report noted that the embassy was costing France about 1,000 livres a day; the envoy's hints at French offers of engineers and officers were reported a month later, on 26 May."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "entry:38",
+  "severity": "error",
+  "problem": "In Gezer's summary, the point that Dubois hoped to renew the capitulations although the envoy had no power to negotiate comes from Sutton's dispatch of 14 May 1721. The 18 June dispatch concerns the Malta talks.",
+  "fix": {
+   "text_replace": {
+    "old": "Sutton reported that Dubois was treating the envoy with special courtesy in the hope of renewing the capitulations, though Mehmed had no power to negotiate.",
+    "new": "Sutton had reported on 14 May that Dubois hoped to use the visit to renew the capitulations, though Mehmed had no power to negotiate."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "entry:48",
+  "severity": "error",
+  "problem": "The digest turns the point around. Gezer reports Dirling's 24 May 1722 dispatch as saying the atlas translation reflected Mehmed's complaints about Ottoman ignorance of European political and military matters, not European ignorance of the Ottoman world. The opposition to the capitulations is in the 3 May report.",
+  "fix": {
+   "date_iso": "1722-05",
+   "date_display": "May 1722 (reports of 3 and 24 May)",
+   "digest": "Dirling reported on 24 May that the Porte had an atlas being translated into Turkish, prompted by Mehmed's complaints about how little the Ottomans knew of European political and military affairs, and that the envoy had also recommended a printing press; on 3 May he had reported Mehmed's opposition to renewing the French capitulations. Historians differ on how much the later Müteferrika press owed to the embassy."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "entry:46",
+  "severity": "doubt",
+  "problem": "Gezer's summary of Dirling's 30 October 1721 report covers only Dubois sounding Mehmed about Habsburg intentions. The Jacobite claim was not found; the next report (17 November) concerns Rákóczi. The sentence should be removed unless it is confirmed.",
+  "fix": {
+   "text_replace": {
+    "old": " He also reported that Mehmed had urged the Porte to take up the Jacobite cause.",
+    "new": ""
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "entry:5",
+  "severity": "doubt",
+  "problem": "Gezer puts the claim about the Rákóczi aim in Dirling's report of 31 August 1720, from a third-party source. The October reports concern rumours of alliances with France and Russia (8 Oct) and an interpreter's statement that the mission was only to gather information (19 Oct). The dates and framing should be widened.",
+  "fix": {
+   "date_iso": "1720-08-31",
+   "date_display": "31 August–19 October 1720",
+   "text_replace": {
+    "old": "Dirling's informant in the ambassador's household claimed the mission had three goals, one of them reviving the cause of the Hungarian exile Rákóczi.",
+    "new": "Dirling's reports relayed claims (the August one from a third-party source) that the mission had several goals, one of them reviving the cause of the Hungarian exile Rákóczi, and in October rumours of alliances with France and Russia."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "entry:0",
+  "severity": "doubt",
+  "problem": "Gezer places Virmondt's statement that Bonnac was behind the choice of envoy in his report of 28 February 1720. The 6 March report says that the instructions were oral and that cost and purpose were uncertain. The reading of the mission as a 'probe of the Habsburg–French alliance' was not found in the summary.",
+  "fix": {
+   "digest": "Virmondt told Vienna that the envoy's real instructions would be given by word of mouth and that the mission's cost and purpose were still uncertain. A week earlier (28 February) he had reported that the Marquis de Bonnac was behind the choice of Mehmed Efendi."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "claim:0",
+  "severity": "doubt",
+  "problem": "The claim of a 'probe of the Habsburg–French alliance' is not supported in Gezer's summary of the 6 March report.",
+  "fix": {
+   "claim": "Habsburg envoy sees the French ambassador behind the choice of envoy and the mission's real aims kept oral and uncertain",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "image:0",
+  "severity": "error",
+  "problem": "The Joconde record (MV 177) dates the canvas only to the second quarter of the 18th century. Its listed owners are Parrocel (1739), then Louis XV and the Crown, so 'painted for the crown' is not supported. The record does list a Paris exhibition of 1727.",
+  "fix": {
+   "date": "second quarter of the 18th century (shown 1727; event 21 March 1721)",
+   "text_replace": {
+    "old": "painted in the 1720s for the crown and shown at the 1727 Salon,",
+    "new": "shown in Paris in 1727 and later acquired from the painter for Louis XV's collection,"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "tie:4",
+  "severity": "style",
+  "problem": "The tie kind is 'relative' but the note says they were not kin. 'same street' (successive envoys at the same post) fits better.",
+  "fix": {
+   "kind": "same street"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "eye:michon",
+  "severity": "style",
+  "problem": "The Toulouse thesis names him as Léonard Michon, échevin of Lyon, who kept a journal and recorded the ceremony of a visit on 22 August 1721.",
+  "fix": {
+   "text_replace": {
+    "old": "Michon (Lyon chronicler)",
+    "new": "Léonard Michon (Lyon chronicler)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "eye:michon",
+  "severity": "style",
+  "problem": "Role: add his office.",
+  "fix": {
+   "text_replace": {
+    "old": "Lyon diarist whose journal",
+    "new": "Lyon échevin (alderman) and diarist whose journal"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "entry:19",
+  "severity": "style",
+  "problem": "Aramco World quotes Saint-Simon on the envoy's manner ('as if he were the master of the world') and connects printing with a visit to the royal printing works rather than with Saint-Simon. Gezer reports Saint-Simon as saying the envoy was interested in books and printing. Both readings exist, and the digest should credit the printing remark to Gezer's reading.",
+  "fix": {
+   "text_replace": {
+    "old": "and as interested in books and printing, about which he already knew something.",
+    "new": "and, as Gezer (2024) reads the passage, as interested in books and printing, about which he already knew something."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "entry:47",
+  "severity": "doubt",
+  "problem": "Gezer's summary of the 21 Oct/1 Nov 1721 dispatch mentions Mehmed's enthusiasm for France and his fear of being called a 'Frank'. The cost to the French treasury and the turn against Bonnac were not found there; Mehmed's grudge against Bonnac appears in Dirling's report of 8 January 1722.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mehmed-1720",
+  "where": "entry:39",
+  "severity": "style",
+  "problem": "Aramco World dates the royal library visit to 18 July (year implied, 1721). It mentions no Qur'an copies, so the detail rests on the Doha review.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "intro:2",
+  "severity": "error",
+  "problem": "'to carry Mr. Omai home' is quoted from Solander's 1775 letter, which is known from modern transcription (SLNSW) and modern editions, not from a pre-1929 printing. Under the quote rule it should be paraphrased.",
+  "fix": {
+   "text_replace": {
+    "old": "Solander's note that a ship was promised 'to carry Mr. Omai home',",
+    "new": "Solander's note that a ship had been promised to carry Mai home,"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:6",
+  "severity": "error",
+  "problem": "The headline quotes 'our friend Omai' from Sandwich's letter, a manuscript known from the modern SLNSW transcription, so it is not quotable under the rule. The transcription also does not mention inoculation, which the digest already notes as inferred.",
+  "fix": {
+   "headline": "Relief that Omai is out of danger"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "intro:4",
+  "severity": "error",
+  "problem": "Bligh's Voyage to the South Sea (1792), under 26 October 1788, gives no interval for the deaths. The Pacific Studies article attributes 'some thirty months after the expedition left Huahine' to 'somewhat confused accounts', not to Bligh.",
+  "fix": {
+   "text_replace": {
+    "old": "had died of natural causes, about thirty months after Cook sailed.",
+    "new": "had died a natural death; other, somewhat confused, reports put the deaths about thirty months after Cook sailed."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "threads_out:2",
+  "severity": "error",
+  "problem": "Variolation was introduced to the English-speaking world in 1721 in both London (Lady Mary Wortley Montagu) and Boston. Calling it 'the method introduced in Boston' overstates the Boston link. Dimsdale's inoculation of Catherine the Great in 1768 is correct.",
+  "fix": {
+   "text_replace": {
+    "old": "used variolation, the method introduced in Boston in 1721;",
+    "new": "used variolation, the method whose 1721 trial in Boston (alongside London's) is the subject of that chapter;"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:25",
+  "severity": "doubt",
+  "problem": "Gilbert's journal (published 1982) is cited only through Captain Cook Society summaries, so 'verified' overstates the evidence.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:29",
+  "severity": "doubt",
+  "problem": "Samwell's journal is cited only through Captain Cook Society summaries.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:31",
+  "severity": "doubt",
+  "problem": "Gilbert's remark is cited only through Captain Cook Society summaries.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:35",
+  "severity": "doubt",
+  "problem": "Burney's unpublished third-voyage journal is cited only through Captain Cook Society summaries.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:42",
+  "severity": "doubt",
+  "problem": "Williamson's journal entry is cited only through a Captain Cook Society summary.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "claim:11",
+  "severity": "doubt",
+  "problem": "Gilbert's judgement rests on a modern summary.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:13",
+  "severity": "doubt",
+  "problem": "The Captain Cook Society page puts Boswell's dinner with Cook at Sir John Pringle's 'the day before' Johnson's conversation of Wednesday 3 April 1776. The Pacific Studies article quotes Boswell's journal from that dinner: Omai loved port and would be 'a man of great consequence'. The date can be narrowed, with the hedge kept.",
+  "fix": {
+   "date_iso": "1776-04-02",
+   "date_display": "about 2 April 1776",
+   "precision": "day",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:16",
+  "severity": "style",
+  "problem": "Quote checked: Boswell's Life has Johnson saying 'there was so little of the savage in Omai, that I was afraid to speak to either' (Captain Cook Society reproduction). It is exact, and so is the Streatham setting.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:7",
+  "severity": "style",
+  "problem": "Quote checked against Dobson, Fanny Burney (1903): 'He makes remarkable good bows—not for him but for anybody, however long under a Dancing Master's care.' It is exact. Dobson also confirms the Manchester velvet suit and the King's sword. Dobson gives no day or month for the visit, so the month dating rests on Troide.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:11",
+  "severity": "style",
+  "problem": "Quote checked against Dobson (1903): 'His song is the only thing that is savage about him.' It is exact.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:40",
+  "severity": "style",
+  "problem": "Quote checked against the 1784 text (1821 reprint): 'He sustained himself with a manly resolution, till he came to me.' It is exact. The inscription reads 'Georgius Tertius, Rex, 2 Novembris, 1777', and the ships sailed 'On the second of November'.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:41",
+  "severity": "style",
+  "problem": "The quote is exact in the 1784 text, but the words are Cook's report of what King told him: 'Mr. King, who went in the boat, told me, that he wept all the time in going ashore.' The source note should say so.",
+  "fix": {
+   "source_note": "1784 official account (1821 reprint), Cook's report: 'Mr. King, who went in the boat, told me…'; King's own journal not checked."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:38",
+  "severity": "style",
+  "problem": "Quote checked: 'Omai, from being much caressed in England, lost sight of his original condition' (1784 text). It is exact.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:24",
+  "severity": "style",
+  "problem": "Quote checked: 'Omai put on his suit of armour, mounted a stage in one of the canoes' (1784 text). It is exact.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:21",
+  "severity": "doubt",
+  "problem": "The Forster quote is exact ('His judgement was in its infant state, and therefore, like a child, he coveted almost every thing he saw'). The 'darkest hue of the common people' remark was not found in the portion checked and rests only on the Burney Journal article.",
+  "fix": {
+   "text_replace": {
+    "old": "He also described his skin as the darkest hue of the common people, reading class into colour.",
+    "new": "He is also cited as describing Mai's complexion as that of the common people, reading class into colour."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:44",
+  "severity": "style",
+  "problem": "Bligh's 1792 text, under Sunday 26 October 1788, reads 'Every one agreed in their information that they died a natural death.' The quote is exact and the date is verified.",
+  "fix": {
+   "confidence": "verified"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:3",
+  "severity": "style",
+  "problem": "Pacific Studies: Furneaux 'reached Spithead on 14 July 1774'. 14 July stands as the main date, and the 11 July alternative is rightly noted in the calendar note and source note.",
+  "fix": {
+   "confidence": "approx"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "mai-1774",
+  "where": "entry:39",
+  "severity": "style",
+  "problem": "Pacific Studies quotes the message: his goat 'had died in kidding and [he] desired I would send him another and two axes'. 'All was well' was not found there.",
+  "fix": {
+   "text_replace": {
+    "old": "Mai sent word to the ships at Raiatea that all was well, asking for a replacement goat and two axes, which Cook sent.",
+    "new": "Mai sent word to the ships at Raiatea that his goat had died in kidding, asking for a replacement and two axes, which Cook sent."
+   }
+  },
+  "confidence": "verified"
+ }
+]

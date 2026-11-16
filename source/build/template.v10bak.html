@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="build-id" content="__BUILD__">
+<meta name="generated-utc" content="__STAMP__">
+<title>__TITLE__</title>
+<style>
+:root{
+  --paper:#f5efe3; --paper2:#ece3d1; --card:#fbf7ef; --ink:#2b2420; --ink2:#5b4f45; --ink3:#857565;
+  --rule:#d8ccb6; --accent:#8a2f1d; --accent2:#2f5d62; --gold:#9a7429; --shadow:0 1px 2px rgba(60,40,20,.08),0 6px 18px rgba(60,40,20,.06);
+  --lane:#e7dcc8; --hl:#f3dfa8; --sea:#e6dccb; --land:#faf5ec;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,"Times New Roman",serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --eyeL:40%; --eyeS:52%;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#1d1a17; --paper2:#26221e; --card:#24201c; --ink:#ece3d3; --ink2:#c3b6a3; --ink3:#968877;
+    --rule:#3d362f; --accent:#e08a6d; --accent2:#7fb7bb; --gold:#d6b25e; --shadow:0 1px 2px rgba(0,0,0,.4);
+    --lane:#2f2a25; --hl:#5a4a22; --eyeL:68%; --eyeS:55%; --sea:#171512; --land:#2c2722;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#1d1a17; --paper2:#26221e; --card:#24201c; --ink:#ece3d3; --ink2:#c3b6a3; --ink3:#968877;
+  --rule:#3d362f; --accent:#e08a6d; --accent2:#7fb7bb; --gold:#d6b25e; --shadow:0 1px 2px rgba(0,0,0,.4);
+  --lane:#2f2a25; --hl:#5a4a22; --eyeL:68%; --eyeS:55%; --sea:#171512; --land:#2c2722;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:18px;line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--accent2)}
+a:hover{color:var(--accent)}
+button{font:inherit;color:inherit}
+.sans{font-family:var(--sans)}
+/* top bar */
+#bar{position:sticky;top:0;z-index:40;display:flex;align-items:center;gap:10px;padding:8px 16px;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--rule);font-family:var(--sans);font-size:14px}
+#bar .brand{font-family:var(--serif);font-weight:700;letter-spacing:.04em;white-space:nowrap}
+#bar .grow{flex:1}
+#bar input{width:min(280px,40vw);padding:6px 10px;border:1px solid var(--rule);border-radius:6px;background:var(--card);color:var(--ink);font:inherit}
+@media (max-width:560px){#bar .brand,#bar .grow{display:none}#bar input{flex:1;width:auto;min-width:0}}
+.iconbtn{border:1px solid var(--rule);background:var(--card);border-radius:6px;padding:5px 10px;cursor:pointer;white-space:nowrap}
+.iconbtn:hover{border-color:var(--accent)}
+/* layout */
+#wrap{display:grid;grid-template-columns:280px minmax(0,1fr);max-width:1400px;margin:0 auto}
+#toc{position:sticky;top:49px;align-self:start;height:calc(100vh - 49px);overflow:auto;padding:20px 14px 40px 20px;border-right:1px solid var(--rule);font-family:var(--sans);font-size:14px}
+#toc h4{font-family:var(--serif);margin:.4em 0 .6em;font-size:15px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3)}
+#toc a{display:block;text-decoration:none;color:var(--ink2);padding:5px 8px;border-radius:5px;line-height:1.3}
+#toc a:hover,#toc a.on{background:var(--paper2);color:var(--ink)}
+#toc a .n{display:inline-block;min-width:2.2em;color:var(--gold);font-family:var(--serif)}
+#toc a small{display:block;color:var(--ink3);margin-left:2.6em;font-size:12px}
+main{padding:0 clamp(16px,4vw,56px) 80px;min-width:0}
+.page{max-width:860px;margin:0 auto}
+@media (max-width:900px){
+  #wrap{grid-template-columns:1fr}
+  #toc{position:fixed;left:0;top:49px;width:min(320px,86vw);z-index:50;background:var(--paper);transform:translateX(-105%);transition:transform .2s;box-shadow:var(--shadow)}
+  body.tocopen #toc{transform:none}
+  body{font-size:17px}
+}
+@media (min-width:901px){#tocbtn{display:none}}
+/* title page */
+.titlepage{min-height:78vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:48px 0;border-bottom:1px solid var(--rule)}
+.titlepage h1{font-size:clamp(44px,8vw,86px);line-height:1;margin:.2em 0 .1em;letter-spacing:.02em;font-weight:600}
+.titlepage .sub{font-size:clamp(18px,2.4vw,24px);color:var(--ink2);font-style:italic;max-width:640px}
+.titlepage .orn{color:var(--gold);margin:22px 0}
+.titlepage .meta{font-family:var(--sans);font-size:13px;color:var(--ink3);margin-top:26px}
+/* prose */
+h2.chap{font-size:clamp(34px,5vw,52px);line-height:1.08;margin:.15em 0 .1em;font-weight:600}
+.chapnum{font-family:var(--sans);letter-spacing:.24em;text-transform:uppercase;font-size:13px;color:var(--gold)}
+.chapsub{font-style:italic;color:var(--ink2);font-size:20px;margin:0 0 6px}
+h3{font-size:24px;margin:2.2em 0 .6em;font-weight:600;border-bottom:1px solid var(--rule);padding-bottom:.25em}
+h3 .h3n{font-family:var(--sans);font-size:12px;letter-spacing:.18em;color:var(--ink3);text-transform:uppercase;margin-right:.6em}
+.prose p{margin:0 0 1em;text-align:justify;hyphens:auto}
+.prose p:first-child::first-letter{float:left;font-size:3.4em;line-height:.9;padding:.06em .08em 0 0;color:var(--accent);font-weight:600}
+.note{background:var(--paper2);border-left:3px solid var(--gold);padding:12px 16px;border-radius:0 6px 6px 0;font-size:16px;margin:1.2em 0}
+.note b{font-family:var(--sans);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:2px}
+section.chapter{padding-top:56px;border-top:1px solid var(--rule);margin-top:56px}
+.chaphead{display:grid;grid-template-columns:1fr 150px;gap:20px;align-items:center}
+.chaphead svg{width:150px;height:150px}
+@media (max-width:600px){.chaphead{grid-template-columns:1fr}.chaphead svg{width:96px;height:96px;order:-1}}
+/* vantage ring */
+.ringwrap{display:grid;grid-template-columns:minmax(0,420px) 1fr;gap:20px;align-items:start;margin:10px 0 18px}
+@media (max-width:760px){.ringwrap{grid-template-columns:1fr}}
+.ring svg{width:100%;height:auto;display:block}
+.ring text{font-family:var(--sans)}
+.ringkey{font-family:var(--sans);font-size:13px;color:var(--ink2)}
+.ringkey ol{padding-left:1.4em;margin:.4em 0}
+/* eye cards */
+.eyes{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(250px,100%),1fr));gap:12px}
+.eye{background:var(--card);border:1px solid var(--rule);border-top:4px solid var(--c);border-radius:8px;padding:12px 14px;box-shadow:var(--shadow);font-size:15.5px;line-height:1.45;scroll-margin-top:70px}
+.eye.flash{animation:flash 1.4s}
+@keyframes flash{0%{background:var(--hl)}100%{background:var(--card)}}
+.eye h5{margin:0;font-size:18px;line-height:1.2}
+.eye .life{font-family:var(--sans);font-size:12px;color:var(--ink3)}
+.eye .role{color:var(--ink2);font-style:italic;margin:4px 0}
+.eye .row{font-family:var(--sans);font-size:12.5px;color:var(--ink2);margin:3px 0}
+.eye .row b{color:var(--ink3);font-weight:600;text-transform:uppercase;font-size:10.5px;letter-spacing:.1em;margin-right:4px}
+.eye details{margin-top:6px;font-size:14.5px}
+.eye summary{cursor:pointer;font-family:var(--sans);font-size:12.5px;color:var(--accent2)}
+.eye .acts{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.badge{display:inline-block;font-family:var(--sans);font-size:11px;letter-spacing:.04em;padding:1px 7px;border-radius:20px;border:1px solid var(--rule);background:var(--paper);color:var(--ink2);white-space:normal;max-width:100%;overflow-wrap:anywhere}
+.badge.warn{border-color:var(--gold);color:var(--gold)}
+.badge.v{background:var(--c);border-color:var(--c);color:var(--paper)}
+.chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--sans);font-size:12.5px;padding:3px 9px 3px 7px;border-radius:20px;border:1px solid var(--rule);background:var(--card);cursor:pointer;color:var(--ink);text-decoration:none;line-height:1.3}
+.chip i{width:10px;height:10px;border-radius:50%;background:var(--c);display:inline-block;flex:none}
+.chip.off{opacity:.38}
+.chip:hover{border-color:var(--c)}
+/* swimlanes */
+.lanes{overflow-x:auto;border:1px solid var(--rule);border-radius:8px;background:var(--card);margin:10px 0}
+.lanes svg{display:block}
+.lanes text{font-family:var(--sans)}
+.lanes .tick{cursor:pointer}
+.lanes .tick:hover{stroke:var(--ink);stroke-width:2}
+/* convergences */
+.conv{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(260px,100%),1fr));gap:12px}
+.cv{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:12px 14px;font-size:15.5px;line-height:1.45;box-shadow:var(--shadow)}
+.cv .d{font-family:var(--sans);font-size:12px;color:var(--gold);letter-spacing:.08em;text-transform:uppercase}
+.cv h6{font-size:17px;margin:2px 0 6px}
+.cv .chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+/* timeline */
+.tl-controls{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:10px 0 14px;font-family:var(--sans);font-size:13px}
+.tl-controls .lbl{color:var(--ink3);margin-right:4px}
+.day{display:grid;grid-template-columns:132px minmax(0,1fr);gap:16px;padding:16px 0;border-top:1px dashed var(--rule)}
+.day.multi{background:linear-gradient(90deg,color-mix(in srgb,var(--gold) 10%,transparent),transparent 60%);border-radius:6px;padding-left:8px}
+.day .when{font-family:var(--sans);font-size:13px;color:var(--ink2);position:sticky;top:60px;align-self:start}
+.day .when b{display:block;font-family:var(--serif);font-size:20px;color:var(--ink);line-height:1.1}
+.day .when .cnt{display:inline-block;margin-top:6px}
+.day .stack{display:grid;gap:12px}
+.day .stack,.day .when{min-width:0}
+.day.multi .stack{grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr))}
+@media (max-width:640px){.day{grid-template-columns:1fr;gap:6px}.day .when{position:static}.day .when b{display:inline;margin-right:8px}}
+.entry{min-width:0;overflow-wrap:anywhere;background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--c);border-radius:6px;padding:12px 14px;box-shadow:var(--shadow);scroll-margin-top:70px}
+.entry.flash{animation:flash 1.6s}
+.entry .who{display:flex;justify-content:space-between;gap:8px;align-items:baseline;flex-wrap:wrap}
+.entry .who a{font-family:var(--sans);font-size:13px;font-weight:600;color:var(--c);text-decoration:none}
+.entry .who .pl{font-family:var(--sans);font-size:12px;color:var(--ink3)}
+.entry h6{font-size:18px;margin:4px 0 6px;line-height:1.25}
+.entry p{margin:0 0 .5em;font-size:16.5px;line-height:1.55}
+.entry blockquote{margin:.4em 0 .6em;padding:0 0 0 12px;border-left:2px solid var(--gold);font-style:italic;color:var(--ink2)}
+.entry .foot{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-family:var(--sans);font-size:11.5px;color:var(--ink3)}
+.entry .disp{font-family:var(--sans);font-size:12px;color:var(--ink3)}
+/* threads, plates */
+.threads{display:grid;gap:10px}
+.thr{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:start;background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:10px 14px;font-size:16px}
+.thr a.go{font-family:var(--sans);font-size:12.5px;text-decoration:none;border:1px solid var(--rule);border-radius:20px;padding:2px 10px;white-space:nowrap}
+.thr .go.ext{font-family:var(--sans);font-size:12.5px;border:1px dashed var(--rule);border-radius:20px;padding:2px 10px;white-space:nowrap;color:var(--ink2)}
+@media (max-width:640px){.thr{grid-template-columns:minmax(0,1fr)}.thr a.go,.thr .go,.thr .go.ext{white-space:normal;justify-self:start}}
+.plates{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(230px,100%),1fr));gap:14px}
+.plate{background:var(--card);border:1px solid var(--rule);border-radius:8px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.plate .art{aspect-ratio:4/3;background:var(--paper2);display:block}
+.plate .art svg{width:100%;height:100%;display:block}
+.plate .cap{padding:10px 12px;font-size:14.5px;line-height:1.4;flex:1}
+.plate .cap b{display:block;font-size:15.5px;margin-bottom:3px}
+.plate .cap small{display:block;font-family:var(--sans);font-size:11.5px;color:var(--ink3);margin-top:4px}
+.plate a.view{display:block;text-align:center;font-family:var(--sans);font-size:13px;padding:8px;border-top:1px solid var(--rule);text-decoration:none}
+figure.map,figure.fig{margin:14px 0 6px;border:1px solid var(--rule);border-radius:8px;overflow:hidden;background:var(--sea)}
+figure.map svg,figure.fig svg{display:block;width:100%;height:auto}
+figure.map svg text,figure.fig svg text{font-family:var(--sans);pointer-events:none}
+.ring svg text{pointer-events:none}
+figure.map figcaption,figure.fig figcaption{background:var(--card);border-top:1px solid var(--rule);padding:8px 12px;font-size:14.5px;line-height:1.45}
+figure.fig figcaption b{display:block;font-size:16px}
+.plate .art img{width:100%;height:100%;object-fit:contain;display:block;cursor:zoom-in;background:var(--paper2)}
+.plate.real .art{aspect-ratio:auto;height:260px;overflow:hidden}
+#lightbox{position:fixed;inset:0;background:rgba(10,8,6,.9);z-index:90;display:none;align-items:center;justify-content:center;flex-direction:column;padding:20px;cursor:zoom-out}
+#lightbox.on{display:flex}
+#lightbox img{max-width:96vw;max-height:84vh;object-fit:contain;box-shadow:0 10px 40px rgba(0,0,0,.5)}
+#lightbox p{color:#eee;font-family:var(--sans);font-size:13.5px;max-width:900px;text-align:center;margin:12px 0 0}
+.v2part{margin:30px 0 8px;font-family:var(--sans);letter-spacing:.18em;text-transform:uppercase;font-size:13px;color:var(--gold)}
+.v2ch{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:14px 16px;margin:10px 0;box-shadow:var(--shadow)}
+.v2ch h6{font-size:20px;margin:0}
+.v2ch .sp{font-family:var(--sans);font-size:12.5px;color:var(--ink3);margin:2px 0 8px}
+.v2ch ul{margin:.4em 0 .2em;padding-left:1.2em;font-size:15.5px}
+.v2ch li{margin:.2em 0}
+.v2ch .why{font-size:15.5px;color:var(--ink2);font-style:italic;margin-top:6px}
+ul.further{padding-left:1.2em}
+ul.further li{margin:.25em 0}
+/* on this day */
+#otd .otdbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-family:var(--sans);font-size:14px;margin:10px 0}
+#otd select{padding:5px 8px;border:1px solid var(--rule);border-radius:6px;background:var(--card);color:var(--ink);font:inherit}
+.otd-item{display:grid;grid-template-columns:92px 1fr;gap:12px;padding:12px 0;border-top:1px dashed var(--rule)}
+.otd-item .y{font-size:26px;color:var(--gold);line-height:1}
+.otd-item .y small{display:block;font-family:var(--sans);font-size:11px;color:var(--ink3);margin-top:4px}
+/* index */
+table.idx{width:100%;border-collapse:collapse;font-size:15px}
+table.idx th,table.idx td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--rule);vertical-align:top}
+table.idx th{font-family:var(--sans);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);cursor:pointer;position:sticky;top:49px;background:var(--paper)}
+table.idx td .chip{font-size:12px}
+table.ledger th{position:static}
+.ledger .wlbl{display:none}
+@media (max-width:700px){.ledger .wlbl{display:inline;color:var(--ink3)}}
+.pron{font:italic 500 .82em/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink3);letter-spacing:.02em;overflow-wrap:anywhere}
+details.sayit{margin:14px 0;border:1px solid var(--rule);border-radius:10px;padding:10px 14px;background:var(--card,transparent)}
+details.sayit summary{cursor:pointer;font:600 14px system-ui,sans-serif;color:var(--ink2)}
+.sayk{font-size:12.5px;color:var(--ink3);margin:8px 0}
+.sayg{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(260px,100%),1fr));gap:6px 18px;font-size:15px}
+.sayg .pron{white-space:normal}.sayl{display:block;font-size:11.5px;color:var(--ink3)}
+table.ledger .badge{white-space:nowrap}
+@media (max-width:700px){table.ledger thead{display:none}table.ledger,table.ledger tbody,table.ledger tr,table.ledger td{display:block;width:100%}table.ledger tr{padding:10px 0;border-bottom:1px solid var(--rule)}table.ledger td{border:0;padding:3px 0}table.ledger td:first-child{white-space:normal!important;font-family:var(--sans);font-size:13px;color:var(--ink3)}}
+.tablewrap{overflow-x:auto}
+/* threads map */
+#tmap svg{width:100%;height:auto;max-width:980px;display:block;margin:0 auto}
+#tmap text{font-family:var(--sans)}
+#tmap .node{cursor:pointer}
+#tmap .edge{cursor:pointer}
+#tmap .edge:hover{stroke:var(--accent);stroke-opacity:1}
+#tmapnote{min-height:3em;font-size:16px;background:var(--paper2);padding:10px 14px;border-radius:6px;margin:10px 0}
+/* search results */
+#results{position:fixed;top:52px;right:12px;width:min(520px,94vw);max-height:70vh;overflow:auto;background:var(--card);border:1px solid var(--rule);border-radius:8px;box-shadow:0 10px 30px rgba(0,0,0,.18);z-index:60;display:none;font-size:15px}
+#results.on{display:block}
+#results a{display:block;padding:9px 12px;border-bottom:1px solid var(--rule);text-decoration:none;color:var(--ink)}
+#results a:hover{background:var(--paper2)}
+#results small{display:block;font-family:var(--sans);font-size:11.5px;color:var(--ink3)}
+mark{background:var(--hl);color:inherit;padding:0 1px}
+.colophon{font-family:var(--sans);font-size:13px;color:var(--ink3);text-align:center;padding:40px 0 10px;border-top:1px solid var(--rule);margin-top:60px}
+.colophon code{font-size:12.5px;color:var(--ink2)}
+.hidden{display:none!important}
+.backtop{font-family:var(--sans);font-size:12.5px;text-align:right;margin-top:24px}
+@media print{
+  #bar,#toc,.tl-controls,.lanes,#results,.backtop{display:none!important}
+  #wrap{display:block} body{background:#fff;color:#000;font-size:11.5pt}
+  section.chapter{break-before:page}
+  .entry,.eye,.cv{box-shadow:none;break-inside:avoid}
+  .day .when{position:static}
+}
+</style>
+</head>
+<body>
+<div id="bar">
+  <button class="iconbtn" id="tocbtn" aria-label="Contents">☰ Contents</button>
+  <span class="brand">MANY EYES</span>
+  <span class="grow"></span>
+  <input id="q" type="search" placeholder="Search names, places, events…" aria-label="Search the book">
+  <button class="iconbtn" id="theme" title="Toggle day / night reading">☾ Night</button>
+</div>
+<div id="results" role="listbox"></div>
+<div id="lightbox" role="dialog" aria-label="Image viewer"><img alt=""><p></p></div>
+<div id="wrap">
+  <nav id="toc" aria-label="Table of contents"></nav>
+  <main id="main"></main>
+</div>
+<script id="book-data" type="application/json">__DATA__</script>
+<script>
+"use strict";
+const BOOK = JSON.parse(document.getElementById('book-data').textContent);
+const BUILD = "__BUILD__", STAMP = "__STAMP__";
+const META = Object.assign({ kicker: 'A synoptic reader', volume: '', sub: '', preface: '', outline_title: 'Volume II — in preparation' }, BOOK.meta || {});
+const $ = (s, r=document) => r.querySelector(s);
+const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const ROMAN = (() => { const r = ['']; const v = [[10,'X'],[9,'IX'],[5,'V'],[4,'IV'],[1,'I']]; for (let i = 1; i <= 60; i++) { let n = i, out = ''; for (const [k, sym] of v) while (n >= k) { out += sym; n -= k; } r.push(out); } return r; })();
+const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const store = { get(k){ try{ return localStorage.getItem('manyeyes:'+k); }catch(e){ return null; } }, set(k,v){ try{ localStorage.setItem('manyeyes:'+k,v); }catch(e){} } };
+const safeUrl = u => /^https?:\/\//i.test(u||'') ? u : '';
+
+/* ---------- theme ---------- */
+(function(){ const t = store.get('theme'); if (t) document.documentElement.dataset.theme = t; const dk = (t || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')) === 'dark'; $('#theme').textContent = dk ? '☀ Day' : '☾ Night'; })();
+$('#theme').onclick = () => {
+  const cur = document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  const nxt = cur === 'dark' ? 'light' : 'dark';
+  document.documentElement.dataset.theme = nxt; store.set('theme', nxt); $('#theme').textContent = nxt === 'dark' ? '☀ Day' : '☾ Night';
+};
+$('#tocbtn').onclick = () => document.body.classList.toggle('tocopen');
+
+/* ---------- eye colours ---------- */
+function eyeColor(i, n){ const h = Math.round((i * 137.508 + 12) % 360); return `hsl(${h} var(--eyeS) var(--eyeL))`; }
+const EYES = {}; // key chap:eye -> {eye, chap, color}
+BOOK.chapters.forEach(ch => {
+  ch.eyes.forEach((e, i) => { EYES[ch.id + ':' + e.id] = { e, ch, color: eyeColor(i, ch.eyes.length) }; });
+});
+const eyeOf = (ch, id) => EYES[ch.id + ':' + id];
+const chapById = id => BOOK.chapters.find(c => c.id === id);
+
+/* ---------- date helpers ---------- */
+function parseISO(s){ // supports negative / pre-1000 years loosely
+  const m = /^(-?\d{1,4})(?:-(\d{2}))?(?:-(\d{2}))?/.exec(s || '');
+  if (!m) return null;
+  return { y: +m[1], m: m[2] ? +m[2] : null, d: m[3] ? +m[3] : null };
+}
+const yr = y => (y <= 0 ? `${1 - y} BC` : `${y}`);
+function dayNum(s){ const p = parseISO(s); if (!p) return null; return p.y * 372 + ((p.m || 1) - 1) * 31 + ((p.d || 1) - 1); }
+const stitle = c => (c.short_title && c.title.length > 34 ? c.short_title : c.title);
+function prettyDate(s){
+  const p = parseISO(s); if (!p) return esc(s);
+  if (!p.m) return yr(p.y);
+  if (!p.d) return `${MONTHS[p.m-1].slice(0,3)} ${yr(p.y)}`;
+  return `${p.d} ${MONTHS[p.m-1].slice(0,3)} ${yr(p.y)}`;
+}
+function fmtKey(s, prec){
+  const p = parseISO(s); if (!p) return esc(s);
+  if (prec === 'year' || !p.m) return `<b>${yr(p.y)}</b>`;
+  if (prec === 'month' || prec === 'range' || !p.d) return `<b>${MONTHS[p.m-1].slice(0,3)}</b>${yr(p.y)}`;
+  return `<b>${p.d} ${MONTHS[p.m-1].slice(0,3)}</b>${yr(p.y)}`;
+}
+
+/* ---------- emblems (hand-drawn line art) ---------- */
+const EMB = {
+  heian: `<circle cx="75" cy="52" r="26" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 112c14-10 22-10 36 0s22 10 36 0 22-10 38 0M20 126c14-10 22-10 36 0s22 10 36 0 22-10 38 0" fill="none" stroke="currentColor" stroke-width="2"/><path d="M38 96h74M50 96V82h50v14" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  'thirty-years': `<path d="M30 130L120 20M120 130L30 20" stroke="currentColor" stroke-width="2.4"/><path d="M114 18l10-4-4 10M36 18l-10-4 4 10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M45 92c18-14 42-14 60 0v26H45z" fill="none" stroke="currentColor" stroke-width="1.8"/>`,
+  'london-1666': `<path d="M14 130h122M24 130v-34h14v34M44 130V84h10v46M62 130V60l8-14 8 14v70M86 130V90h16v40M108 130v-28h20v28" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M40 70c4-14 14-12 10-28 12 8 14 22 8 30M80 46c2-14 12-14 8-30 12 10 12 24 6 32M104 78c4-12 12-10 10-24 10 8 10 18 4 26" fill="none" stroke="currentColor" stroke-width="1.8"/>`,
+  'french-rev': `<path d="M40 128h70V60H40zM40 60l-6-10h82l-6 10M48 128V90h16v38M86 128V90h16v38" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M58 50c-6-22 10-36 30-30 14 4 18 16 10 30" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="96" cy="26" r="4" fill="currentColor"/>`,
+  'russia-1812': `<g stroke="currentColor" stroke-width="2" fill="none"><path d="M75 20v70M45 37l60 36M45 73l60-36"/><path d="M75 30l-8-8M75 30l8-8M75 80l-8 8M75 80l8 8"/></g><path d="M14 128c30-14 60-18 122-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-dasharray="5 5"/>`,
+  'us-civil-war': `<path d="M75 22l9 26h27l-22 16 9 27-23-17-23 17 9-27-22-16h27z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M28 124h30M92 124h30M58 124c4-8 8-8 12 0M80 124c4 8 8 8 12 0" fill="none" stroke="currentColor" stroke-width="2"/>`,
+  ww1: `<g fill="none" stroke="currentColor" stroke-width="2"><circle cx="75" cy="60" r="10"/><path d="M75 50c-6-22-30-22-30-2 0 12 18 14 30 12M75 50c6-22 30-22 30-2 0 12-18 14-30 12M66 66c-18 6-24 26-6 30 10 2 14-14 15-26M84 66c18 6 24 26 6 30-10 2-14-14-15-26"/><path d="M75 96v36"/></g><path d="M18 132h114" stroke="currentColor" stroke-width="1.6" stroke-dasharray="3 6"/>`,
+  'russia-1917': `<path d="M75 18l8 24h25l-20 15 8 24-21-15-21 15 8-24-20-15h25z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 130h118M24 130v-26h102v26M34 104v-8h82v8M44 130v-16M60 130v-16M76 130v-16M92 130v-16M108 130v-16" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  'nanjing-1937': `<path d="M18 128h114M26 128V74h98v54M26 74l-8-10h114l-8 10M58 128V100a17 17 0 0 1 34 0v28M38 56h74M48 56l-6-12h66l-6 12" fill="none" stroke="currentColor" stroke-width="1.8"/>`,
+  'ww2-europe': `<path d="M18 130h114" stroke="currentColor" stroke-width="2"/><path d="M40 130L62 20M110 130L84 22" stroke="currentColor" stroke-width="1.4" opacity=".7"/><path d="M30 130v-20h16v20M52 130V96h14v34M90 130v-26h14v26M110 130v-16h14v16" fill="none" stroke="currentColor" stroke-width="1.8"/>`,
+  'japan-1945': `<path d="M30 92l45-56 45 56-45-14z M75 36v42M30 92l45 30 45-30" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>`,
+  merer: `<path d="M75 26L128 112H22z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M40 82h70M31 97h88" stroke="currentColor" stroke-width="1.2" opacity=".7"/><path d="M14 126c20-8 30-8 44 0s24 8 40 0 24-8 38 0" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M60 118h30l-4 6H64z" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  'black-death': `<path d="M75 22c-22 0-34 16-34 34 0 12 6 20 12 26v18h44v-18c6-6 12-14 12-26 0-18-12-34-34-34z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="62" cy="58" r="7" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="88" cy="58" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M75 68l-5 10h10z" fill="currentColor"/><path d="M60 100v8M70 100v8M80 100v8M90 100v8" stroke="currentColor" stroke-width="1.6"/><path d="M22 128h106" stroke="currentColor" stroke-width="1.6"/>`,
+  'constantinople-1453': `<path d="M20 128V70h18v58M38 128V86h74v42M112 128V70h18v58" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M20 70v-8h6v8M32 70v-8h6v8M112 70v-8h6v8M124 70v-8h6v8" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M58 128v-22a17 17 0 0 1 34 0v22" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M96 30a16 16 0 1 0 6 28 13 13 0 1 1-6-28z" fill="none" stroke="currentColor" stroke-width="2"/>`,
+  'imjin-war': `<path d="M24 96h102l-12 16H36z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M38 96c4-22 22-32 37-32s33 10 37 32" fill="none" stroke="currentColor" stroke-width="2"/><path d="M50 82l6 6M64 72l4 8M86 72l-4 8M100 82l-6 6" stroke="currentColor" stroke-width="1.6"/><path d="M126 98c6-4 10-10 10-16" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M14 128c18-8 28-8 42 0s26 8 42 0 24-8 38 0" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  'vienna-1683': `<path d="M75 20v24M66 30h18" stroke="currentColor" stroke-width="2"/><path d="M58 128V70l17-26 17 26v58" fill="none" stroke="currentColor" stroke-width="2"/><path d="M68 128v-18h14v18M66 86h18" stroke="currentColor" stroke-width="1.6" fill="none"/><path d="M18 128c10-18 22-24 30-24M132 128c-10-18-22-24-30-24" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M22 128h106" stroke="currentColor" stroke-width="1.6"/>`,
+  'lisbon-1755': `<path d="M18 112c10-6 14-14 18-6s10 14 18 2 10-18 18-6 12 12 20 0 12-10 20 0 10 8 20 2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M34 98V64h18v34M60 98V50l10-12 10 12v48M90 98V70h22v28" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M70 38l-6 14M84 60l8 10M44 64l6-10" stroke="currentColor" stroke-width="1.6"/><path d="M14 130c18-10 30-10 44 0s28 10 44 0 22-10 34 0" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  'tambora-1816': `<path d="M18 118l40-46h34l40 46z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M60 70c-10-14 0-26 14-22 4-14 22-14 26 0 14-2 18 16 6 22" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M38 40l4 4M30 52h5M112 40l-4 4M120 52h-5" stroke="currentColor" stroke-width="1.4"/><path d="M50 130l3-6M64 132l3-6M78 130l3-6M92 132l3-6" stroke="currentColor" stroke-width="1.4"/>`,
+  'krakatoa-1883': `<path d="M30 112l30-40h30l30 40z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M75 70V50" stroke="currentColor" stroke-width="2"/><circle cx="75" cy="44" r="7" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="75" cy="44" r="17" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".7"/><circle cx="75" cy="44" r="27" fill="none" stroke="currentColor" stroke-width="1" opacity=".45"/><path d="M14 126c18-8 30-8 44 0s28 8 44 0 22-8 34 0" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  'babylon-331': `<path d="M28 124h94M36 124v-16h78v16M44 108V92h62v16M54 92V76h42v16M64 76V62h22v14" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="102" cy="34" r="12" fill="none" stroke="currentColor" stroke-width="2"/><path d="M96 26a12 12 0 0 1 0 16" fill="currentColor" opacity=".5"/><path d="M36 30l3 6 6 1-5 4 2 6-6-3-5 3 1-6-4-4 6-1z" fill="none" stroke="currentColor" stroke-width="1.2"/>`,
+  'first-contact': `<path d="M44 108h62l-8 14H52z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M75 108V30M75 34l26 18-26 6M75 62l22 14-22 6" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M50 44l25-8" stroke="currentColor" stroke-width="1.2"/><path d="M14 130c18-8 30-8 44 0s28 8 44 0 22-8 34 0" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  'ming-qing': `<path d="M28 68h94l-10-14H38zM40 68v44M110 68v44M28 112h94" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M36 54l-10-10M114 54l10-10" stroke="currentColor" stroke-width="1.6"/><path d="M56 112V82h38v30M75 82v30" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M48 46h54l-8-10H56z" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  'opium-war': `<path d="M24 96h86l16-14" fill="none" stroke="currentColor" stroke-width="2"/><path d="M36 96V40M70 96V30M36 44l24 20H36M70 34l28 26H70" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="114" cy="56" r="8" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M106 48c-6-6-4-14 4-16" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M14 124c18-8 30-8 44 0s28 8 44 0 22-8 34 0" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  'irish-famine': `<path d="M30 122h90" stroke="currentColor" stroke-width="1.8"/><path d="M44 122V86l31-24 31 24v36" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M66 122v-20h18v20" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M36 54c6-10 16-12 22-6M92 48c8-8 20-6 24 4" fill="none" stroke="currentColor" stroke-width="1.6"/><ellipse cx="46" cy="40" rx="7" ry="5" fill="none" stroke="currentColor" stroke-width="1.4"/><ellipse cx="104" cy="36" rx="7" ry="5" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
+  'black-ships': `<path d="M24 100h102l-14 16H38z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M50 100V54M88 100V46M50 58h20M88 50h20" stroke="currentColor" stroke-width="1.8"/><circle cx="70" cy="88" r="8" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M62 40c-8-6-6-16 4-16 2-8 14-8 16 0" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M14 128c18-8 30-8 44 0s28 8 44 0 22-8 34 0" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  'delhi-1857': `<path d="M26 124h98M34 124V78h82v46" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M50 78c0-20 10-34 25-40 15 6 25 20 25 40" fill="none" stroke="currentColor" stroke-width="2"/><path d="M75 38v-12M71 26h8" stroke="currentColor" stroke-width="1.6"/><path d="M34 78V56M116 78V56M30 56h8M112 56h8" stroke="currentColor" stroke-width="1.6"/><path d="M64 124v-26a11 11 0 0 1 22 0v26" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  'vesuvius-79': `<path d="M16 120l42-52h34l42 52z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M62 68c-6-12 2-24 12-20 2-12 18-14 22-2 12-4 18 10 8 18" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M40 126h70M48 126v-14h10v14M70 126v-14h10v14M92 126v-14h10v14M44 112h62" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
+  'spain-1936': `<path d="M28 120h94M40 120V66h70v54" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M40 66l10-12h50l10 12" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M54 120v-24h14v24M82 120v-24h14v24" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M75 54V22M75 24h26v14H75" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M75 31h26" stroke="currentColor" stroke-width="1"/>`,
+  'moscow-1937': `<path d="M30 124h90M42 124V76h66v48" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M75 76V44M66 52c0-10 4-16 9-20 5 4 9 10 9 20z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M75 30l2 5 5 0-4 3 2 5-5-3-5 3 2-5-4-3 5 0z" fill="currentColor"/><path d="M52 124V98M64 124V98M86 124V98M98 124V98" stroke="currentColor" stroke-width="1.4"/><rect x="58" y="84" width="34" height="8" fill="none" stroke="currentColor" stroke-width="1.2"/>`,
+  'partition-1947': `<path d="M75 18v114" stroke="currentColor" stroke-width="2" stroke-dasharray="6 5"/><path d="M24 116c12-6 22-6 34 0M92 116c12-6 22-6 34 0M24 126c12-6 22-6 34 0M92 126c12-6 22-6 34 0" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M30 98V72l11-10 11 10v26zM98 98V72l11-10 11 10v26z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M37 98v-12h8v12M105 98v-12h8v12" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="41" cy="38" r="8" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="109" cy="38" r="8" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
+  'apollo-11': `<circle cx="102" cy="40" r="14" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M96 34a6 6 0 0 0 6 10" fill="none" stroke="currentColor" stroke-width="1"/><path d="M14 120c30-14 92-14 122 0" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M56 106l8-16h22l8 16M64 90l-4-14h30l-4 14M60 76h30" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M52 106h10M88 106h10" stroke="currentColor" stroke-width="1.6"/><path d="M36 112l4-2 2 3-4 2zM112 116l3-2 2 3-3 2z" fill="currentColor" opacity=".7"/>`,
+  'wall-1989': `<path d="M14 118h122M18 118V70h20v48M40 118V70h20v48M62 118V70h20v48M106 118V70h26v48" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M84 118V96l10-6 10 6v22" fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="3 3"/><path d="M84 70l6-8 4 6 6-10 4 12" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M28 50l4 4M40 42l2 6M110 46l-4 4M120 54l-6 2" stroke="currentColor" stroke-width="1.4"/>`,
+  'treasure-fleets': `<path d="M22 96h106l-12 18H34z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M48 96V40M75 96V28M102 96V44" stroke="currentColor" stroke-width="1.6"/><path d="M48 44h-16v34h16zM75 32H55v48h20zM102 48h16v30h-16z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M36 50h12M36 62h12M59 42h16M59 56h16M59 70h16M104 58h14" stroke="currentColor" stroke-width=".9" opacity=".7"/><path d="M14 128c18-8 30-8 44 0s28 8 44 0 22-8 34 0" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  'embassies-1403': `<path d="M40 120V76c0-22 16-36 35-36s35 14 35 36v44" fill="none" stroke="currentColor" stroke-width="2"/><path d="M28 120h94M56 120V92a19 19 0 0 1 38 0v28" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M75 40V22" stroke="currentColor" stroke-width="1.6"/><path d="M71 22a4 4 0 1 1 8 0" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M20 120V64M130 120V64M16 64h8M126 64h8" stroke="currentColor" stroke-width="1.4"/>`,
+  'narrow-road': `<path d="M18 120c30-4 40-30 62-38s34-26 52-52" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="4 5"/><path d="M42 98c-6-10 2-18 10-14M98 54c-6-10 2-18 10-14" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="100" cy="98" r="12" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M34 50c10-14 26-14 36 0" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M52 50v12" stroke="currentColor" stroke-width="1.4"/>`,
+  endeavour: `<path d="M26 98h98l-12 16H38z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M52 98V32M82 98V26M108 98V46" stroke="currentColor" stroke-width="1.6"/><path d="M52 36c14 6 14 22 0 28M82 30c16 6 16 26 0 34M108 50c10 4 10 16 0 20" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="28" cy="34" r="6" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="31" cy="34" r="1.8" fill="currentColor"/><path d="M14 128c18-8 30-8 44 0s28 8 44 0 22-8 34 0" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  humboldt: `<path d="M14 118l38-58 18 22 22-46 44 82z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M84 52l8-16 8 16-8-4z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M30 118c4-10 8-14 12-16M110 118c-2-12 2-18 8-22" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M30 34l6 4M24 44h6M40 26l2 6" stroke="currentColor" stroke-width="1.4"/>`,
+  'corps-of-discovery': `<path d="M14 92c26-10 44 10 66-2s32-24 56-14" fill="none" stroke="currentColor" stroke-width="2"/><path d="M40 112h70l-8 8H48z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M58 112l-8-14M92 112l8-14" stroke="currentColor" stroke-width="1.4"/><path d="M28 60l16-22 16 22M86 54l14-18 14 18" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="75" cy="32" r="6" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
+  'nile-source': `<path d="M75 20c-6 20 10 30 0 48s-14 30-2 56" fill="none" stroke="currentColor" stroke-width="2"/><ellipse cx="75" cy="22" rx="24" ry="8" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M34 100c8-12 14-12 18 0M98 92c8-12 14-12 18 0" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M28 116h20M102 108h20" stroke="currentColor" stroke-width="1.4"/>`,
+  'livingstone-1871': `<rect x="40" y="38" width="70" height="80" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M52 56h46M52 68h46M52 80h40M52 92h46M52 104h30" stroke="currentColor" stroke-width="1.2" opacity=".6"/><path d="M50 60c20-6 30 20 50 10M50 86c18 8 32-10 50 2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M75 38V24" stroke="currentColor" stroke-width="1.6"/>`,
+  fram: `<path d="M30 92h90l-10 16H40z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M75 92V34M60 92V52M90 92V52" stroke="currentColor" stroke-width="1.6"/><path d="M14 112l24-8 18 10 22-12 20 8 22-6 16 8" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M110 36l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" fill="currentColor"/>`,
+  'north-pole': `<path d="M75 26v96" stroke="currentColor" stroke-width="2"/><path d="M75 30h30l-8 10 8 10H75" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M14 122l26-14 20 8 30-16 22 10 24-8" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M32 70l4 4M28 82h6M118 72l-4 4M122 84h-6" stroke="currentColor" stroke-width="1.4"/>`,
+  'south-pole': `<circle cx="75" cy="80" r="40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="3 5"/><path d="M75 80V30M75 34h22l-6 8 6 8H75" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M58 80c0-6 34-6 34 0" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M40 120l8-10 6 6 8-8" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
+  'everest-1953': `<path d="M12 122l40-52 14 14 22-50 50 88z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M88 34v-14M88 22h14l-4 4 4 4H88" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M76 60l12-26 12 26" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".6"/><path d="M40 122l12-20M100 122l-8-24" stroke="currentColor" stroke-width="1" opacity=".5"/>`,
+  'supernova-1054': `<circle cx="75" cy="70" r="8" fill="currentColor"/><path d="M75 30v24M75 86v24M35 70h24M91 70h24M50 45l14 14M86 81l14 14M100 45L86 59M64 81L50 95" stroke="currentColor" stroke-width="1.6"/><circle cx="75" cy="70" r="30" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="2 4"/><circle cx="30" cy="26" r="2" fill="currentColor"/><circle cx="122" cy="30" r="1.6" fill="currentColor"/><circle cx="120" cy="118" r="2" fill="currentColor"/>`,
+  'halley-1066': `<circle cx="104" cy="44" r="9" fill="currentColor"/><path d="M98 50C80 66 54 84 18 104M100 54C84 74 62 96 32 120M96 46C76 58 48 70 14 80" fill="none" stroke="currentColor" stroke-width="1.4" opacity=".8"/><circle cx="34" cy="30" r="1.8" fill="currentColor"/><circle cx="128" cy="96" r="1.8" fill="currentColor"/>`,
+  'eclipse-1715': `<circle cx="75" cy="70" r="30" fill="currentColor"/><circle cx="75" cy="70" r="34" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".6"/><path d="M75 26v-12M75 126v-12M31 70H19M131 70h-12M44 39l-8-8M106 101l8 8M106 39l8-8M44 101l-8 8" stroke="currentColor" stroke-width="1.4" opacity=".7"/>`,
+  'leonids-1833': `<path d="M120 20L84 56M132 44l-30 30M100 16L72 44M126 72l-24 24M86 22l-18 18" stroke="currentColor" stroke-width="1.6"/><circle cx="84" cy="56" r="2.6" fill="currentColor"/><circle cx="102" cy="74" r="2.6" fill="currentColor"/><circle cx="72" cy="44" r="2.2" fill="currentColor"/><circle cx="102" cy="96" r="2.2" fill="currentColor"/><path d="M14 126c20-12 42-16 62-16s40 6 60 16" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M40 118v-14l8-6 8 6v14" fill="none" stroke="currentColor" stroke-width="1.2"/>`,
+  'carrington-1859': `<circle cx="46" cy="50" r="24" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M38 44c4-3 8-3 10 0M50 56c3-2 6-1 7 2" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M14 110c20-20 40-24 60-14s40 8 62-18" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".7"/><path d="M14 122c20-16 40-20 60-10s40 6 62-14" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/><path d="M96 30v40M120 30v40M96 40h24M96 60h24" stroke="currentColor" stroke-width="1.4"/><path d="M104 30l4-8 4 8" fill="none" stroke="currentColor" stroke-width="1.2"/>`,
+  'tunguska-1908': `<circle cx="75" cy="58" r="6" fill="currentColor"/><path d="M75 58L22 112M75 58l-28 62M75 58v66M75 58l28 62M75 58l53 54M75 58L18 92M75 58l57 34" stroke="currentColor" stroke-width="1.3" opacity=".75"/><path d="M110 18L82 50" stroke="currentColor" stroke-width="1.8"/><path d="M14 126h122" stroke="currentColor" stroke-width="1.4"/>`,
+  'halley-1910': `<circle cx="36" cy="40" r="8" fill="currentColor"/><path d="M42 44c30 14 60 30 94 56M40 48c26 20 50 40 76 70M44 40c32 6 64 16 96 34" fill="none" stroke="currentColor" stroke-width="1.3" opacity=".8"/><circle cx="96" cy="108" r="14" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M84 104c6 4 18 4 24 0" stroke="currentColor" stroke-width="1" fill="none"/>`,
+  'eclipse-1919': `<circle cx="75" cy="70" r="20" fill="currentColor"/><circle cx="75" cy="70" r="26" fill="none" stroke="currentColor" stroke-width="1" opacity=".6"/><path d="M14 34c40 10 50 20 56 26M136 34c-40 10-50 20-56 26" fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 3"/><circle cx="14" cy="34" r="2.4" fill="currentColor"/><circle cx="136" cy="34" r="2.4" fill="currentColor"/><path d="M14 30l6 6M136 30l-6 6" stroke="currentColor" stroke-width="1"/><path d="M28 120h94" stroke="currentColor" stroke-width="1.2"/>`,
+  'balloons-1783': `<path d="M75 16c-26 0-40 20-40 40 0 22 22 38 32 50h16c10-12 32-28 32-50 0-20-14-40-40-40z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M75 16c-10 0-16 20-16 40s8 38 16 50M75 16c10 0 16 20 16 40s-8 38-16 50M37 50h76M41 70h68" fill="none" stroke="currentColor" stroke-width="1" opacity=".6"/><path d="M67 106l-2 12h20l-2-12" fill="none" stroke="currentColor" stroke-width="1.4"/><rect x="65" y="118" width="20" height="10" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  'steam-water': `<path d="M16 104h118l-12 16H30z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M70 104V62h10v42" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M75 62c-4-8 4-12 0-20s4-12 0-18" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".7"/><circle cx="104" cy="96" r="14" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M104 82v28M90 96h28M94 86l20 20M114 86l-20 20" stroke="currentColor" stroke-width=".9"/><path d="M14 130c14-4 26 4 40 0s26-4 40 0 26 4 40 0" fill="none" stroke="currentColor" stroke-width="1.1" opacity=".6"/>`,
+  'rainhill-1830': `<circle cx="104" cy="104" r="20" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="46" cy="114" r="10" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M30 78h60v26H30zM40 78V40h10v38M34 40h22" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M90 92l14 12M104 84v40M84 104h40" stroke="currentColor" stroke-width="1"/><path d="M14 132h122" stroke="currentColor" stroke-width="1.6"/><path d="M45 34c-4-8 6-10 2-18" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".7"/>`,
+  'oceans-1869': `<path d="M14 80c20-8 30 8 50 0M86 80c20-8 30 8 50 0" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M64 80h22" stroke="currentColor" stroke-width="2.4"/><path d="M75 24v42M70 30h10" stroke="currentColor" stroke-width="2"/><path d="M75 66l-4 8h8z" fill="currentColor"/><path d="M20 112h110M26 104v16M44 104v16M62 104v16M80 104v16M98 104v16M116 104v16" stroke="currentColor" stroke-width="1.4"/><path d="M20 120h110" stroke="currentColor" stroke-width="1.4"/>`,
+  'the-road': `<circle cx="42" cy="98" r="24" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="108" cy="98" r="24" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M42 98l26-34h30l10 34M68 64l14 34h-40M62 54h14M98 64l-6-12h12" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="82" cy="98" r="3" fill="currentColor"/>`,
+  'kitty-hawk': `<path d="M14 64h122M14 80h122" stroke="currentColor" stroke-width="2"/><path d="M24 64v16M44 64v16M64 64v16M86 64v16M106 64v16M126 64v16" stroke="currentColor" stroke-width="1"/><path d="M14 72h-6l-4-8M14 72H8l-4 8" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M136 66v12l10-6z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M10 124c30-14 60-20 130-8" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".6"/><path d="M75 80l4 30" stroke="currentColor" stroke-width="1" stroke-dasharray="3 3"/>`,
+  'channel-atlantic': `<path d="M30 66h90M75 46v40M60 86h30" fill="none" stroke="currentColor" stroke-width="2"/><path d="M75 40c-6 0-8 4-8 6h16c0-2-2-6-8-6z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M66 52h18" stroke="currentColor" stroke-width="1.4"/><path d="M14 118c14-6 24 6 38 0s24-6 38 0 24 6 38 0" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".7"/><path d="M14 104l28-8M108 96l28 8" stroke="currentColor" stroke-width="1" stroke-dasharray="4 4"/>`,
+  airships: `<ellipse cx="75" cy="62" rx="58" ry="20" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M27 62h96M40 48v28M58 43v38M76 42v40M94 43v38M112 48v28" stroke="currentColor" stroke-width=".9" opacity=".55"/><path d="M128 54l10-8v32l-10-8" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M60 82h30v10H60z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M75 118v-14M66 124h18" stroke="currentColor" stroke-width="1.4"/>`,
+  rockets: `<path d="M75 14c12 14 16 34 14 62H61c-2-28 2-48 14-62z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M61 64l-12 20h12M89 64l12 20H89" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="75" cy="44" r="6" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M68 80l-4 18M75 80v24M82 80l4 18" stroke="currentColor" stroke-width="1.2" opacity=".7"/><circle cx="118" cy="30" r="5" fill="currentColor"/><path d="M118 30l10-10M118 30l12 2M118 30l2-12M118 30l-8 8" stroke="currentColor" stroke-width="1"/>`,
+  'jet-age': `<path d="M18 76l40-6 50-4c12 0 20 4 24 10-4 6-12 10-24 10l-50-4z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M60 70l18-34h10l-6 32M60 82l18 34h10l-6-32M24 74l-8-20h8l12 18" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M128 56c8 10 8 30 0 40" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".6"/><path d="M138 50c12 14 12 38 0 52" fill="none" stroke="currentColor" stroke-width="1" opacity=".4"/>`,
+  shinkansen: `<path d="M14 98h104c10 0 22-12 22-24 0-6-4-10-12-10H48c-14 0-26 6-34 14z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M110 70c8 0 16 2 20 6" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M30 76h12v8H30zM52 76h12v8H52zM74 76h12v8H74z" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M14 88h112" stroke="currentColor" stroke-width="1.2" opacity=".6"/><path d="M10 112h130" stroke="currentColor" stroke-width="1.6"/><circle cx="114" cy="34" r="10" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M98 34h-16M100 26l-12-4M100 42l-12 4" stroke="currentColor" stroke-width="1" opacity=".6"/>`,
+  'worms-1521': `<path d="M40 24h70v100H40z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M52 40h46M52 52h46M52 64h40M52 76h46M52 88h30" stroke="currentColor" stroke-width="1" opacity=".6"/><circle cx="96" cy="108" r="10" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M90 117l-4 12M102 117l4 12" stroke="currentColor" stroke-width="1.4"/><path d="M75 12v12M64 18h22" stroke="currentColor" stroke-width="1.6"/>`,
+  'fatehpur-sikri': `<path d="M30 124V70h90v54" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M48 70c0-22 54-22 54 0" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M75 44V30M75 30c-4-4-4-8 0-12 4 4 4 8 0 12" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M44 124V94c0-8 12-8 12 0v30M94 124V94c0-8 12-8 12 0v30M68 124v-26h14v26" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M22 70h106" stroke="currentColor" stroke-width="1.2"/>`,
+  'philadelphia-1787': `<path d="M44 124V58h62v66M60 124V96h30v28" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M62 58V38h26v20M68 38V24h14v14M75 24V12" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="75" cy="47" r="5" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M50 70h10M90 70h10M50 82h10M90 82h10" stroke="currentColor" stroke-width="1.2"/><path d="M30 124h90" stroke="currentColor" stroke-width="1.4"/>`,
+  'vienna-1815': `<ellipse cx="75" cy="80" rx="48" ry="22" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="35" cy="56" r="5" fill="currentColor"/><circle cx="58" cy="50" r="5" fill="currentColor"/><circle cx="92" cy="50" r="5" fill="currentColor"/><circle cx="115" cy="56" r="5" fill="currentColor"/><circle cx="35" cy="104" r="5" fill="currentColor"/><circle cx="75" cy="110" r="5" fill="currentColor"/><circle cx="115" cy="104" r="5" fill="currentColor"/><path d="M60 80h30M66 74h18" stroke="currentColor" stroke-width="1.2" opacity=".7"/><path d="M124 24c-4 6-10 6-14 0" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="117" cy="18" r="3" fill="none" stroke="currentColor" stroke-width="1"/>`,
+  'seneca-falls': `<path d="M36 124V58l39-28 39 28v66" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M56 124V98h38v26M60 66h30v20H60z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M75 30V14M68 20h14" stroke="currentColor" stroke-width="1.2"/><path d="M24 124h102" stroke="currentColor" stroke-width="1.4"/>`,
+  'paris-1919': `<path d="M24 32h102M24 32v86M126 32v86M24 118h102" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M42 32v86M60 32v86M78 32v86M96 32v86M114 32v86" stroke="currentColor" stroke-width="1" opacity=".45"/><path d="M40 92h70v8H40z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M60 92l4-10h22l4 10" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="75" cy="78" r="3" fill="currentColor"/>`,
+  yalta: `<path d="M26 112h98" stroke="currentColor" stroke-width="1.6"/><circle cx="44" cy="62" r="11" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="75" cy="58" r="11" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="106" cy="62" r="11" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M30 112V86c0-10 28-10 28 0v26M61 112V82c0-10 28-10 28 0v30M92 112V86c0-10 28-10 28 0v26" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M20 130c20-6 40 6 60 0s36-6 52 0" fill="none" stroke="currentColor" stroke-width="1" opacity=".6"/>`,
+  bandung: `<circle cx="75" cy="72" r="44" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M75 28v88M31 72h88" stroke="currentColor" stroke-width="1" opacity=".5"/><circle cx="75" cy="72" r="6" fill="currentColor"/><path d="M75 72l-28-30M75 72l30-26M75 72l34 18M75 72l-32 26M75 72l4 40M75 72l-40-4" stroke="currentColor" stroke-width="1.2"/><circle cx="47" cy="42" r="3" fill="currentColor"/><circle cx="105" cy="46" r="3" fill="currentColor"/><circle cx="109" cy="90" r="3" fill="currentColor"/><circle cx="43" cy="98" r="3" fill="currentColor"/><circle cx="79" cy="112" r="3" fill="currentColor"/><circle cx="35" cy="68" r="3" fill="currentColor"/>`,
+  'jahangir-1615': `<rect x="40" y="24" width="70" height="96" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="50" y="34" width="50" height="62" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="75" cy="58" r="10" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M62 92c4-12 22-12 26 0" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M75 44v-6M68 40l7-4 7 4" stroke="currentColor" stroke-width="1.2" fill="none"/><path d="M50 106h50" stroke="currentColor" stroke-width="1" opacity=".6"/>`,
+  'exposition-1889': `<path d="M75 14v8M75 22l-6 30h12zM69 52l-10 34h32l-10-34M59 86l-14 40M91 86l14 40M45 126h60" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M62 70h26M56 100c8-10 30-10 38 0" fill="none" stroke="currentColor" stroke-width="1.2"/>`,
+  'benin-1897': `<path d="M75 22c-16 0-24 14-24 30 0 18 8 32 24 32s24-14 24-32c0-16-8-30-24-30z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M55 34c6-10 34-10 40 0M53 46h44M53 58h44" stroke="currentColor" stroke-width="1.2" fill="none" opacity=".75"/><path d="M66 66h18M70 74c3 2 7 2 10 0" stroke="currentColor" stroke-width="1.2" fill="none"/><path d="M56 84l-6 20h50l-6-20M44 118h62" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  'gitanjali-1912': `<path d="M30 40c16-8 30-8 45 0v80c-15-8-29-8-45 0z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M75 40c15-8 29-8 45 0v80c-16-8-30-8-45 0z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M40 58h26M40 70h26M40 82h20M84 58h26M84 70h26M84 82h20" stroke="currentColor" stroke-width="1" opacity=".6"/><path d="M75 18c-6 8-6 14 0 18 6-4 6-10 0-18z" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
+  'murals-1922': `<rect x="18" y="30" width="114" height="80" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M18 110l28-40 22 26 20-30 44 44" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="104" cy="52" r="8" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M28 124v-14M122 124v-14M22 124h106" stroke="currentColor" stroke-width="1.4"/><path d="M40 44h26M40 52h18" stroke="currentColor" stroke-width="1" opacity=".6"/>`,
+  'mei-lanfang-1935': `<path d="M75 20c-18 0-28 16-28 34 0 22 12 40 28 40s28-18 28-40c0-18-10-34-28-34z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M58 46c5-4 11-4 14 0M78 46c3-4 9-4 14 0M66 72c5 4 13 4 18 0" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M47 40c-10-14-10-22 0-26M103 40c10-14 10-22 0-26" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M60 94l-14 30M90 94l14 30M52 112c14 6 32 6 46 0" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
+  'florence-1504': `<path d="M75 18c-8 0-12 6-12 13 0 6 4 10 6 12l-6 4c-6 4-8 12-6 22l4 18 4 34h20l4-34 4-18c2-10 0-18-6-22l-6-4c2-2 6-6 6-12 0-7-4-13-12-13z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M34 124h82M42 124v8h66v-8" stroke="currentColor" stroke-width="1.6" fill="none"/><path d="M63 31c4-3 20-3 24 0" stroke="currentColor" stroke-width="1" fill="none"/>`,
+  grasmere: `<path d="M14 104l32-40 18 20 22-34 50 54" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M14 112c20-6 40 6 60 0s40-6 62 0" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".7"/><rect x="52" y="88" width="34" height="22" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M48 90l21-14 21 14" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M104 30c2 6 8 8 14 6M110 24v12" stroke="currentColor" stroke-width="1.2" fill="none"/><circle cx="66" cy="99" r="3" fill="currentColor"/>`,
+  'ninth-1824': `<path d="M20 48h110M20 58h110M20 68h110M20 78h110M20 88h110" stroke="currentColor" stroke-width="1" opacity=".6"/><ellipse cx="46" cy="83" rx="7" ry="5" fill="currentColor" transform="rotate(-20 46 83)"/><path d="M52 81V40" stroke="currentColor" stroke-width="1.6"/><ellipse cx="78" cy="73" rx="7" ry="5" fill="currentColor" transform="rotate(-20 78 73)"/><path d="M84 71V30" stroke="currentColor" stroke-width="1.6"/><ellipse cx="108" cy="78" rx="7" ry="5" fill="currentColor" transform="rotate(-20 108 78)"/><path d="M114 76V35M52 40l32-10M84 30l30 5" stroke="currentColor" stroke-width="1.6" fill="none"/><path d="M30 112c10-8 22-8 30 0" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M40 118c4-4 8-4 12 0" fill="none" stroke="currentColor" stroke-width="1.2"/>`,
+  'impressionists-1874': `<circle cx="96" cy="46" r="13" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 86c14-3 22 3 34 0s20-3 34 0 22 3 34 0M24 98c12-3 18 3 30 0s18-3 30 0 18 3 30 0" stroke="currentColor" stroke-width="1.4" fill="none" opacity=".75"/><path d="M90 72h12M86 80h20M92 88h10" stroke="currentColor" stroke-width="2.2"/><path d="M48 66v40M40 92c4 6 12 8 16 0M48 66l-10 22h20z" fill="none" stroke="currentColor" stroke-width="1.5"/>`,
+  'vienna-1900': `<circle cx="75" cy="48" r="24" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M57 48c6-8 30-8 36 0M55 40c8-10 32-10 40 0M57 56c6 6 30 6 36 0" stroke="currentColor" stroke-width="1" fill="none"/><path d="M40 124V76h70v48M50 124V86h50v38M70 104h10" stroke="currentColor" stroke-width="1.8" fill="none"/><path d="M40 76h70" stroke="currentColor" stroke-width="2.4"/>`,
+  'rite-1913': `<path d="M75 22v18M75 40c-14 6-26 2-34-8M75 40c14 6 26 2 34-8M75 40l-6 34-14 30M75 74l10 30 14 18" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="75" cy="16" r="7" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M14 126c20-10 40-10 60 0s40 10 62 0" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="30" cy="110" r="3" fill="currentColor"/><circle cx="120" cy="104" r="3" fill="currentColor"/>`,
+  bauhaus: `<circle cx="48" cy="52" r="22" fill="none" stroke="currentColor" stroke-width="2"/><rect x="78" y="32" width="42" height="42" fill="none" stroke="currentColor" stroke-width="2"/><path d="M75 82l26 44H49z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 126h118" stroke="currentColor" stroke-width="1.2"/>`,
+  harlem: `<path d="M30 124V54h28v70M58 124V36h34v88M92 124V64h28v60" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M38 66h12M38 80h12M38 94h12M66 48h18M66 62h18M66 76h18M66 90h18M100 76h12M100 90h12" stroke="currentColor" stroke-width="1.2" opacity=".7"/><path d="M106 22c0 8-6 12-6 12M112 18l2 18" stroke="currentColor" stroke-width="1.4" fill="none"/><circle cx="99" cy="36" r="3.5" fill="currentColor"/><circle cx="114" cy="38" r="3.5" fill="currentColor"/><path d="M18 124h114" stroke="currentColor" stroke-width="1.4"/>`,
+  'telescope-1609': `<path d="M30 104l78-44 8 14-78 44z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M108 60l10-6 8 14-10 6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M60 100l-14 26M66 98l10 28M40 126h46" stroke="currentColor" stroke-width="1.6"/><circle cx="104" cy="30" r="12" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M98 26a4 4 0 1 0 4 6M106 36a2 2 0 1 0 2-2" fill="none" stroke="currentColor" stroke-width="1"/>`,
+  'transits-of-venus': `<circle cx="75" cy="72" r="40" fill="none" stroke="currentColor" stroke-width="2"/><path d="M44 46l62 52" stroke="currentColor" stroke-width="1" stroke-dasharray="3 4"/><circle cx="60" cy="58" r="5" fill="currentColor"/><circle cx="96" cy="88" r="5" fill="currentColor" opacity=".5"/><path d="M75 26v-10M75 128v-10M29 72H19M131 72h-10" stroke="currentColor" stroke-width="1.4"/>`,
+  'edo-dissection': `<rect x="36" y="28" width="78" height="96" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M75 28v96" stroke="currentColor" stroke-width="1.2"/><path d="M48 48h18M48 58h18M48 68h14M84 48h18M84 58h18M84 68h14" stroke="currentColor" stroke-width="1" opacity=".6"/><circle cx="93" cy="96" r="9" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M93 105v10M86 110h14" stroke="currentColor" stroke-width="1.2"/><path d="M50 92c6-8 12-8 16 0s-10 18-16 18" fill="none" stroke="currentColor" stroke-width="1.2"/>`,
+  'darwin-wallace': `<path d="M75 124V84M75 84c-14-6-22-20-24-38M75 84c12-8 18-22 18-40M51 46c-8-6-10-14-8-20M51 46c6-6 12-6 16-2M93 44c-4-8-2-16 4-20M93 44c8-2 14 2 16 8" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="43" cy="26" r="3" fill="currentColor"/><circle cx="67" cy="44" r="3" fill="currentColor"/><circle cx="97" cy="24" r="3" fill="currentColor"/><circle cx="109" cy="52" r="3" fill="currentColor"/><path d="M30 124h90" stroke="currentColor" stroke-width="1.4"/>`,
+  curies: `<path d="M60 26h30M66 26v34l-26 52c-3 6 1 12 8 12h54c7 0 11-6 8-12L84 60V26" fill="none" stroke="currentColor" stroke-width="2"/><path d="M48 100h54" stroke="currentColor" stroke-width="1.2"/><circle cx="68" cy="110" r="3" fill="currentColor"/><circle cx="82" cy="106" r="2.4" fill="currentColor"/><path d="M75 82l0-10M75 82l9-5M75 82l-9-5M75 82l9 5M75 82l-9 5" stroke="currentColor" stroke-width="1.2" opacity=".7"/>`,
+  fission: `<circle cx="58" cy="70" r="20" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="96" cy="76" r="16" fill="none" stroke="currentColor" stroke-width="2"/><path d="M14 72h22" stroke="currentColor" stroke-width="1.6"/><circle cx="16" cy="72" r="3" fill="currentColor"/><path d="M110 64l18-16M112 86l18 14M78 96l-4 26" stroke="currentColor" stroke-width="1.4" stroke-dasharray="3 3"/><circle cx="128" cy="48" r="3" fill="currentColor"/><circle cx="130" cy="100" r="3" fill="currentColor"/><circle cx="74" cy="122" r="3" fill="currentColor"/>`,
+  'double-helix': `<path d="M54 18c40 20 40 38 0 58s-40 38 0 58M96 18c-40 20-40 38 0 58s40 38 0 58" fill="none" stroke="currentColor" stroke-width="2"/><path d="M60 30h30M68 44h14M60 58h30M60 92h30M68 106h14M60 120h30" stroke="currentColor" stroke-width="1.2" opacity=".7"/>`,
+  'chappe-1794': `<path d="M75 128V52M62 128h26" stroke="currentColor" stroke-width="2"/><path d="M40 52h70" stroke="currentColor" stroke-width="3"/><path d="M40 52l-14-20M110 52l14 20" stroke="currentColor" stroke-width="2.4"/><circle cx="75" cy="52" r="4" fill="currentColor"/><path d="M30 128l12-30M120 128l-12-30" stroke="currentColor" stroke-width="1.2" opacity=".6"/>`,
+  'morse-1844': `<path d="M22 60h106" stroke="currentColor" stroke-width="1.4"/><path d="M34 60v64M116 60v64" stroke="currentColor" stroke-width="1.8"/><path d="M30 84h28M64 84h8M78 84h28M112 84h8" stroke="currentColor" stroke-width="5" stroke-linecap="round"/><path d="M40 104h6M54 104h6M68 104h24M100 104h6" stroke="currentColor" stroke-width="5" stroke-linecap="round" opacity=".6"/><circle cx="34" cy="56" r="3" fill="currentColor"/><circle cx="116" cy="56" r="3" fill="currentColor"/>`,
+  'cables-1858': `<path d="M14 54c20-8 40 8 60 0s40-8 62 0" fill="none" stroke="currentColor" stroke-width="1.4" opacity=".6"/><path d="M18 40v18M132 40v18" stroke="currentColor" stroke-width="2"/><path d="M18 58c14 30 34 54 57 58s45-26 57-58" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M40 104c10 6 20 8 35 8s25-2 35-8" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="3 4"/>`,
+  'telephone-1876': `<path d="M48 40h54v26H48z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M75 66v22" stroke="currentColor" stroke-width="2"/><path d="M52 88h46l-6 28H58z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M102 52c14 0 22 10 22 24M102 44c20 0 32 14 32 32" fill="none" stroke="currentColor" stroke-width="1.4" opacity=".7"/>`,
+  'wireless-1901': `<path d="M75 130V40M60 130l15-60 15 60" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M58 42a24 24 0 0 1 34 0M48 32a38 38 0 0 1 54 0M38 22a52 52 0 0 1 74 0" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="46" cy="110" r="3" fill="currentColor"/><circle cx="58" cy="110" r="3" fill="currentColor"/><circle cx="70" cy="110" r="3" fill="currentColor"/>`,
+  'titanic-1912': `<path d="M16 96h118l-12 18H30z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M44 96V78h62v18M56 78V62h10v16M80 78V62h10v16" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M30 60L120 56" stroke="currentColor" stroke-width="1"/><path d="M122 46a10 10 0 0 1 0 20M126 40a18 18 0 0 1 0 32" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".7"/><path d="M10 124c20-6 40 6 65 0s45-6 65 0" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".5"/>`,
+  'zimmermann-1917': `<rect x="30" y="34" width="90" height="82" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M42 52h24M72 52h18M96 52h12M42 66h14M62 66h28M96 66h12M42 80h30M78 80h14M98 80h10M42 94h18M66 94h24" stroke="currentColor" stroke-width="2" opacity=".75"/><path d="M98 104l14 14M112 104l-14 14" stroke="currentColor" stroke-width="1.6"/>`,
+  'midway-1942': `<circle cx="75" cy="75" r="44" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".6"/><path d="M75 31v88M31 75h88" stroke="currentColor" stroke-width="1" opacity=".5"/><path d="M58 86c6-8 22-8 30 0" fill="none" stroke="currentColor" stroke-width="2"/><path d="M64 60h22M70 50h10M60 70h30" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>`,
+  'arpanet-1969': `<circle cx="38" cy="50" r="10" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="112" cy="50" r="10" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="46" cy="110" r="10" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="104" cy="110" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M48 50h54M40 60l4 40M110 60l-4 40M56 110h38M44 58l52 46" stroke="currentColor" stroke-width="1.4"/><text x="75" y="88" text-anchor="middle" font-size="16" font-family="monospace" fill="currentColor">LO</text>`,
+  'clean-slates': `<rect x="40" y="38" width="70" height="80" rx="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M52 58h46M52 72h40M52 86h46M52 100h30" stroke="currentColor" stroke-width="1.6" opacity=".45"/><path d="M36 112L114 44" stroke="currentColor" stroke-width="2.6"/>`,
+  'dream-books': `<path d="M36 112V44c14-6 26-6 39 2 13-8 25-8 39-2v68c-14-6-26-6-39 2-13-8-25-8-39-2z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M75 46v66" stroke="currentColor" stroke-width="1.4"/><path d="M98 60a10 10 0 1 1-8-12 8 8 0 0 0 8 12z" fill="currentColor" opacity=".8"/>`,
+  'hildegard-1141': `<circle cx="75" cy="80" r="16" fill="none" stroke="currentColor" stroke-width="2"/><path d="M75 30v26M75 104v26M25 80h26M99 80h26M40 45l18 18M92 97l18 18M110 45L92 63M58 97l-18 18" stroke="currentColor" stroke-width="1.6" opacity=".75"/><path d="M60 22c6 6 6 14 0 20" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".5"/>`,
+  'missing-days': `<rect x="34" y="40" width="82" height="78" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M34 58h82M52 32v16M98 32v16" stroke="currentColor" stroke-width="2"/><path d="M46 72h10M64 72h10M82 72h10M100 72h8M46 88h10M100 88h8M46 104h10M64 104h10" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M62 86h34" stroke="currentColor" stroke-width="1.4" stroke-dasharray="3 3"/>`,
+  'diodati-1816': `<path d="M30 112h90M44 112V70h62v42M40 72l35-24 35 24" fill="none" stroke="currentColor" stroke-width="2"/><path d="M64 112V92h22v20" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M118 34l-8 18h8l-10 20" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M20 124c18-5 36 5 55 0s38-5 55 0" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".5"/>`,
+  'darwin-1837': `<path d="M75 128V84" stroke="currentColor" stroke-width="2"/><path d="M75 84L50 58M75 84l24-30M50 58L38 40M50 58l8-22M99 54l-6-22M99 54l16-14" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="38" cy="40" r="3" fill="currentColor"/><circle cx="58" cy="36" r="3" fill="currentColor"/><circle cx="93" cy="32" r="3" fill="currentColor"/><circle cx="115" cy="40" r="3" fill="currentColor"/>`,
+  'hidden-christians-1865': `<circle cx="75" cy="76" r="40" fill="none" stroke="currentColor" stroke-width="1.4" opacity=".5"/><path d="M75 52v48M60 66h30" stroke="currentColor" stroke-width="2.4"/><path d="M38 92c12 8 26 12 37 12s25-4 37-12" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  'waking-ideas': `<circle cx="75" cy="78" r="30" fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="4 4" opacity=".7"/><path d="M75 52l22 13v26L75 104 53 91V65z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M60 69v18M90 69v18" stroke="currentColor" stroke-width="1.2" opacity=".6"/>`,
+  'inflation-1923': `<rect x="30" y="44" width="80" height="42" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="40" y="58" width="80" height="42" rx="2" fill="none" stroke="currentColor" stroke-width="1.6" opacity=".8"/><rect x="50" y="72" width="80" height="42" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><text x="90" y="99" text-anchor="middle" font-size="13" font-family="serif" fill="currentColor">10¹²</text>`,
+  'jerusalem-1948': `<path d="M28 108h94M40 108V72h20v36M66 108V60h18v48M90 108V76h20v32" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M75 50a9 9 0 0 1 9 9H66a9 9 0 0 1 9-9z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M75 30v100" stroke="currentColor" stroke-width="1.4" stroke-dasharray="5 4"/>`,
+  'everett-1957': `<path d="M75 128V96" stroke="currentColor" stroke-width="2"/><path d="M75 96C75 80 50 76 44 56M75 96c0-16 25-20 31-40M75 96V48M44 56c-2-10-10-14-14-22M44 56c2-10 8-14 6-24M106 56c2-10 10-14 14-22M106 56c-2-10-8-14-6-24" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  'berlin-1961': `<path d="M20 98h110" stroke="currentColor" stroke-width="2"/><path d="M28 98V74h94v24" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M26 66l8 6 8-6 8 6 8-6 8 6 8-6 8 6 8-6 8 6 8-6 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M75 46v76" stroke="currentColor" stroke-width="1" opacity=".4"/>`,
+  'gold-1971': `<path d="M40 100h70l-10-22H50z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M50 78h50l-8-18H58z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M28 50l94 64" stroke="currentColor" stroke-width="2.4"/><text x="75" y="42" text-anchor="middle" font-size="18" font-family="serif" fill="currentColor">$</text>`,
+  'private-books': `<rect x="44" y="34" width="62" height="86" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M54 34v86" stroke="currentColor" stroke-width="1.4"/><path d="M96 76h20v30h-20z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M100 76v-8a6 6 0 0 1 12 0v8" fill="none" stroke="currentColor" stroke-width="1.6"/>`,
+  'tenochtitlan-1520': `<path d="M48 120V58l27-18 27 18v62" fill="none" stroke="currentColor" stroke-width="2"/><path d="M48 76h54M48 94h54M48 112h54" stroke="currentColor" stroke-width="1.4" opacity=".6"/><path d="M68 40V28h14v12" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M18 124c18-6 38 6 57 0s39-6 57 0" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".5"/>`,
+  'boston-1721': `<path d="M40 106l58-58" stroke="currentColor" stroke-width="2.4"/><path d="M98 48l12-12M92 42l14 14" stroke="currentColor" stroke-width="2"/><path d="M40 106l-8 8" stroke="currentColor" stroke-width="1.4"/><circle cx="58" cy="88" r="3" fill="currentColor" opacity=".6"/><circle cx="76" cy="70" r="3" fill="currentColor" opacity=".6"/>`,
+  'philadelphia-1793': `<path d="M30 116h90M40 116V66h70v50" fill="none" stroke="currentColor" stroke-width="2"/><path d="M75 66V44M68 50h14" stroke="currentColor" stroke-width="1.8"/><path d="M52 82h12v14H52zM86 82h12v14H86z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M68 116v-18h14v18" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
+  'balmis-1803': `<path d="M22 100h106l-14 18H36z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M75 100V36" stroke="currentColor" stroke-width="1.8"/><path d="M75 40l30 30H75zM75 48L52 72h23z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="50" cy="94" r="3" fill="currentColor"/><circle cx="62" cy="94" r="3" fill="currentColor"/><circle cx="88" cy="94" r="3" fill="currentColor"/><circle cx="100" cy="94" r="3" fill="currentColor"/>`,
+  'cholera-1832': `<circle cx="75" cy="78" r="44" fill="none" stroke="currentColor" stroke-width="1.4" opacity=".5"/><path d="M34 70c14-10 26-4 36 4s24 10 46-4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="46" cy="66" r="3" fill="currentColor"/><circle cx="72" cy="76" r="3" fill="currentColor"/><circle cx="96" cy="78" r="3" fill="currentColor"/><circle cx="112" cy="68" r="3" fill="currentColor"/>`,
+  'broad-street-1854': `<path d="M62 120V58h26v62" fill="none" stroke="currentColor" stroke-width="2"/><path d="M88 66h18v8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M62 70L40 54" stroke="currentColor" stroke-width="2.4"/><path d="M106 80v6" stroke="currentColor" stroke-width="1.6" stroke-dasharray="2 3"/><path d="M50 120h50" stroke="currentColor" stroke-width="2"/>`,
+  'scutari-1854': `<path d="M58 112h34l-6-16H64z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M75 96V82" stroke="currentColor" stroke-width="1.8"/><path d="M75 82c-6 0-8-6-8-10 4 2 8 2 8-6 0 8 4 8 8 6 0 4-2 10-8 10z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M60 48c10-6 20-6 30 0" fill="none" stroke="currentColor" stroke-width="1" opacity=".6"/>`,
+  'bombay-1896': `<path d="M28 116h94M38 116V74l18-14 18 14v42M76 116V60l22-18 22 18v56" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M34 48c8 4 10 10 8 16" fill="none" stroke="currentColor" stroke-width="1.4" opacity=".6"/><path d="M90 116V96h16v20" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
+  'influenza-1918': `<path d="M50 60c0-12 12-20 25-20s25 8 25 20v20c0 14-12 24-25 24S50 94 50 80z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M50 66l-16-6M100 66l16-6M50 82l-16 8M100 82l16 8" stroke="currentColor" stroke-width="1.6"/><path d="M60 70h30M60 80h30" stroke="currentColor" stroke-width="1.2" opacity=".6"/>`,
+  'polio-1954': `<path d="M58 30h34M66 30v20h18V30" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M62 50h26v62a6 6 0 0 1-6 6H68a6 6 0 0 1-6-6z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M62 78h26" stroke="currentColor" stroke-width="1.4" opacity=".6"/><path d="M75 118v14" stroke="currentColor" stroke-width="1.6"/>`,
+  'potosi-1545': `<path d="M20 120L75 34l55 86z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M58 92h6v8h-6zM84 80h6v8h-6zM70 66h6v8h-6z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M14 124h122" stroke="currentColor" stroke-width="1.4"/>`,
+  'davy-1807': `<rect x="22" y="70" width="18" height="40" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="46" y="70" width="18" height="40" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="70" y="70" width="18" height="40" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M31 70V50h86M112 50v30" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M104 86h16l-3 22h-10z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="112" cy="96" r="2.5" fill="currentColor"/>`,
+  'kohinoor-1849': `<path d="M40 64h70l-35 56z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M40 64l14-18h42l14 18M54 46l21 18 21-18M75 64v56M54 64l21 56M96 64l-21 56" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
+  'california-1848': `<path d="M28 100c10-14 84-14 94 0-10 12-84 12-94 0z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="62" cy="96" r="3" fill="currentColor"/><circle cx="80" cy="99" r="2" fill="currentColor"/><circle cx="92" cy="94" r="2.5" fill="currentColor"/><path d="M40 60l30 20M54 44l10 26" stroke="currentColor" stroke-width="1.6" opacity=".6"/>`,
+  'kimberley-1867': `<ellipse cx="75" cy="58" rx="50" ry="14" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M25 58c4 30 18 56 50 62 32-6 46-32 50-62" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M40 70h70M48 86h54M58 102h34" stroke="currentColor" stroke-width="1.2" opacity=".55"/>`,
+  'mendeleev-1869': `<path d="M26 40h98M26 58h98M26 76h98M26 94h98M26 112h98M26 40v72M46 40v72M66 40v72M86 40v72M106 40v72M124 40v72" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".75"/><rect x="66" y="76" width="20" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="3 3"/><text x="76" y="89" text-anchor="middle" font-size="11" font-family="serif" fill="currentColor">?</text>`,
+  'witwatersrand-1886': `<path d="M16 64c30-10 58 8 118-6" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M16 74c30-10 58 8 118-6" fill="none" stroke="currentColor" stroke-width="3.2"/><path d="M60 30v84M50 30h20M60 44l14 10" stroke="currentColor" stroke-width="1.8"/><path d="M52 114h16" stroke="currentColor" stroke-width="2"/>`,
+  'argon-1894': `<path d="M58 34h34M66 34v30l-24 46a6 6 0 0 0 6 8h54a6 6 0 0 0 6-8L84 64V34" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="68" cy="96" r="4" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="84" cy="104" r="3" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="90" cy="90" r="2" fill="none" stroke="currentColor" stroke-width="1.2"/>`,
+  'klondike-1896': `<path d="M14 116l40-60 18 22 22-40 42 78z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M40 116l12-14 10 8 14-18 12 10 12-6" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".6"/><path d="M90 38l-8 8M90 38l8 8" stroke="currentColor" stroke-width="1.4"/>`,
+  'cullinan-1905': `<path d="M48 40h54l18 24-45 58-45-58z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M30 64h90M48 40l12 24 15-24 15 24 12-24M60 64l15 58 15-58" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".75"/>`,
+  'long-threads': `<rect x="48" y="30" width="54" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><rect x="48" y="104" width="54" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M56 46v58M94 46v58M56 54h38M56 62h38M56 70h38M56 78h38M56 86h38M56 94h38" stroke="currentColor" stroke-width="1.4"/><path d="M102 82c20 4 22 30 34 38" fill="none" stroke="currentColor" stroke-width="1.6"/>`
+};
+const emblem = id => `<svg viewBox="0 0 150 150" style="color:var(--gold)" aria-hidden="true"><circle cx="75" cy="75" r="72" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/>${EMB[id] || EMB['long-threads']}</svg>`;
+
+/* plate art: a framed engraving-like vignette made of the chapter emblem */
+function plateArt(ch, i){
+  return `<svg viewBox="0 0 160 120" aria-hidden="true"><rect x="6" y="6" width="148" height="108" fill="none" stroke="var(--rule)" stroke-width="2"/><rect x="12" y="12" width="136" height="96" fill="none" stroke="var(--rule)"/>
+  <g transform="translate(50 30) scale(.4)" style="color:var(--ink3)">${EMB[ch.id] || ''}</g>
+  <text x="80" y="102" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="var(--ink3)" letter-spacing="2">PLATE ${ROMAN[ch.n]}.${i+1}</text></svg>`;
+}
+
+/* ---------- vantage ring ---------- */
+function ringSVG(ch){
+  const W = 420, cx = 210, cy = 210, R = [34, 74, 114, 154, 194];
+  const labels = ['centre', 'on the scene', 'near', 'same country', 'abroad'];
+  let s = `<svg viewBox="0 0 ${W} 420" role="img" aria-label="Vantage ring for ${esc(ch.title)}">`;
+  for (let k = 4; k >= 0; k--) s += `<circle cx="${cx}" cy="${cy}" r="${R[k]}" fill="${k===0?'var(--paper2)':'none'}" stroke="var(--rule)" stroke-dasharray="${k?'3 4':''}"/>`;
+  for (let k = 0; k < 5; k++) s += `<text x="${cx}" y="${cy - R[k] + 13}" text-anchor="middle" font-size="9.5" fill="var(--ink3)" letter-spacing="1">${k}·${labels[k].toUpperCase()}</text>`;
+  const byV = [[],[],[],[],[]];
+  ch.eyes.forEach(e => { const v = Math.max(0, Math.min(4, +e.vantage || 0)); byV[v].push(e); });
+  byV.forEach((arr, v) => {
+    const rr = v === 0 ? 0 : (R[v] + R[v-1]) / 2 + 2;
+    arr.forEach((e, j) => {
+      const a = (-Math.PI/2) + (2*Math.PI) * (j + (v % 2 ? .5 : 0)) / Math.max(arr.length, 1) + .2;
+      const r0 = v === 0 ? (arr.length > 1 ? 16 : 0) : rr + (arr.length > 6 ? (j % 2 ? 9 : -9) : 0);
+      const x = cx + Math.cos(a) * r0, y = cy + Math.sin(a) * r0;
+      const col = eyeOf(ch, e.id).color;
+      const short = e.short || e.name;
+      const lx = x + (Math.cos(a) >= 0 ? 9 : -9), anchor = Math.cos(a) >= 0 ? 'start' : 'end';
+      s += `<g class="ringdot" data-eye="${esc(e.id)}" style="cursor:pointer"><title>${esc(e.name)} — ${esc(e.vantage_label || '')}</title>
+      <circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="7" fill="${col}" stroke="var(--card)" stroke-width="2"/>
+      <text x="${lx.toFixed(1)}" y="${(y+4).toFixed(1)}" text-anchor="${anchor}" font-size="11.5" font-weight="600" fill="${col}" paint-order="stroke" stroke="var(--paper)" stroke-width="3">${esc(short)}</text></g>`;
+    });
+  });
+  return s + `</svg>`;
+}
+
+/* ---------- swimlanes ---------- */
+function lanesSVG(ch){
+  const ents = ch.entries.filter(e => dayNum(e.date_iso) != null);
+  if (!ents.length) return '';
+  const nums = ents.map(e => dayNum(e.date_iso));
+  let lo = Math.min(...nums), hi = Math.max(...nums); if (hi === lo) hi = lo + 31;
+  const L = 150, Wd = Math.max(820, Math.min(1500, ents.length * 18 + 200)), H = 26 * ch.eyes.length + 46;
+  const X = n => L + (n - lo) / (hi - lo) * (Wd - L - 20);
+  let s = `<svg width="${Wd}" height="${H}" viewBox="0 0 ${Wd} ${H}" role="img" aria-label="When each diarist wrote">`;
+  // year/month axis
+  const p0 = parseISO(ents.reduce((a,b)=>dayNum(a.date_iso)<dayNum(b.date_iso)?a:b).date_iso), p1 = parseISO(ents.reduce((a,b)=>dayNum(a.date_iso)>dayNum(b.date_iso)?a:b).date_iso);
+  const spanYears = p1.y - p0.y;
+  if (spanYears >= 2){
+    const step = spanYears > 40 ? 10 : spanYears > 12 ? 5 : 1;
+    for (let y = Math.ceil(p0.y/step)*step; y <= p1.y; y += step){ const x = X(y*372); s += `<line x1="${x}" x2="${x}" y1="18" y2="${H-6}" stroke="var(--rule)"/><text x="${x+3}" y="13" font-size="10.5" fill="var(--ink3)">${yr(y)}</text>`; }
+  } else {
+    for (let y = p0.y; y <= p1.y; y++) for (let m = 0; m < 12; m++){ const n = y*372 + m*31; if (n < lo - 31 || n > hi) continue; const x = X(Math.max(n, lo)); s += `<line x1="${x}" x2="${x}" y1="18" y2="${H-6}" stroke="var(--rule)" stroke-dasharray="${m?'2 4':''}"/><text x="${x+3}" y="13" font-size="10.5" fill="var(--ink3)">${m===0||n<=lo?MONTHS[m].slice(0,3)+' '+yr(y):MONTHS[m].slice(0,3)}</text>`; }
+  }
+  ch.eyes.forEach((e, i) => {
+    const y = 34 + i * 26, col = eyeOf(ch, e.id).color;
+    s += `<rect x="${L}" y="${y-8}" width="${Wd-L-14}" height="16" rx="8" fill="var(--lane)" opacity=".55"/>`;
+    s += `<text x="${L-8}" y="${y+4}" text-anchor="end" font-size="11.5" fill="${col}" font-weight="600">${esc(e.name.length > 22 ? (e.short || e.name) : e.name)}</text>`;
+    ch.entries.forEach((en, k) => { if (en.eye !== e.id) return; const n = dayNum(en.date_iso); if (n == null) return; const x = X(n);
+      s += `<line class="tick" data-entry="${ch.id}-${k}" x1="${x.toFixed(1)}" x2="${x.toFixed(1)}" y1="${y-8}" y2="${y+8}" stroke="${col}" stroke-width="${en.precision==='day'?3:6}" stroke-linecap="round" opacity="${en.precision==='day'?1:.55}"><title>${esc(en.date_display)} — ${esc(en.headline)}</title></line>`; });
+  });
+  return s + `</svg>`;
+}
+
+/* ---------- renderers ---------- */
+function eyeCard(ch, e){
+  const ref = eyeOf(ch, e.id), n = ch.entries.filter(x => x.eye === e.id).length;
+  const ties = (ch.ties || []).filter(t => t.a === e.id || t.b === e.id);
+  const formWarn = /memoir|later|revised|chronicle|letter|press|reportage/i.test(e.form || '') ? ' warn' : '';
+  const srcs = (e.sources || []).map(s => safeUrl(s.url) ? `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)} ↗</a></li>` : `<li>${esc(s.title)}</li>`).join('');
+  const tieHTML = ties.map(t => { const o = eyeOf(ch, t.a === e.id ? t.b : t.a); if (!o) return ''; return `<li><a class="chip" style="--c:${o.color}" href="#eye-${ch.id}-${o.e.id}"><i></i>${esc(o.e.name)}</a> <span class="badge">${esc(t.kind)}</span> ${esc(t.note)}</li>`; }).join('');
+  return `<article class="eye" id="eye-${ch.id}-${esc(e.id)}" style="--c:${ref.color}">
+    <h5>${esc(e.name)}${e.pron ? ` <span class="pron" title="How to say it${e.pron_conf === 'check' ? ' (approximate)' : ''}">${esc(e.pron)}</span>` : ''}</h5><div class="life">${esc(e.life)} · ${esc(e.language || '')}</div>
+    <div class="role">${esc(e.role)}</div>
+    <div class="row"><b>Side</b>${esc(e.side)}</div>
+    <div class="row"><b>Stood</b>${esc(e.where)}</div>
+    <div class="row"><span class="badge v" style="--c:${ref.color}">vantage ${esc(e.vantage)}</span> <span class="badge">${esc(e.vantage_label || '')}</span> <span class="badge${formWarn}">${esc(e.form)}</span></div>
+    <details><summary>Who, and how we know</summary><p>${esc(e.bio)}</p><p><em>Authenticity:</em> ${esc(e.authenticity)}</p>${srcs ? `<p><em>Read the original:</em></p><ul>${srcs}</ul>` : ''}</details>
+    ${tieHTML ? `<details><summary>Ties to other eyes (${ties.length})</summary><ul>${tieHTML}</ul></details>` : ''}
+    <div class="acts"><button class="chip" style="--c:${ref.color}" data-solo="${ch.id}|${esc(e.id)}"><i></i>Read only ${esc(e.short || e.name)} (${n})</button></div>
+  </article>`;
+}
+
+function entryHTML(ch, en, k){
+  const ref = eyeOf(ch, en.eye) || { color: 'var(--ink3)', e: { name: en.eye } };
+  const conf = en.confidence === 'verified' ? '' : `<span class="badge warn" title="Exact date or wording could not be pinned down">approximate</span>`;
+  return `<article class="entry" id="en-${ch.id}-${k}" data-eye="${esc(en.eye)}" style="--c:${ref.color}">
+    <div class="who"><a href="#eye-${ch.id}-${esc(en.eye)}">${esc(ref.e.name)}</a><span class="pl">${esc(en.place)}</span></div>
+    <div class="disp">${esc(en.date_display)}</div>
+    <h6>${esc(en.headline)}</h6>
+    <p>${esc(en.digest)}</p>
+    ${en.quote ? `<blockquote>“${esc(en.quote)}”</blockquote>` : ''}
+    <div class="foot">${conf}${en.source_kind && en.source_kind !== 'firsthand' ? `<span class="badge${/secondhand|legend/.test(en.source_kind) ? ' warn' : ''}">${esc(en.source_kind)}</span>` : ''}<span class="badge">digest</span><span>${esc(en.source_note || '')}</span></div>
+  </article>`;
+}
+
+function timelineHTML(ch){
+  const idx = ch.entries.map((e, k) => ({ e, k })).sort((a, b) => (dayNum(a.e.date_iso) ?? 0) - (dayNum(b.e.date_iso) ?? 0));
+  const groups = []; let cur = null;
+  idx.forEach(o => { const key = (o.e.date_iso || '').slice(0, o.e.precision === 'day' ? 10 : 7);
+    if (!cur || cur.key !== key) { cur = { key, items: [] }; groups.push(cur); } cur.items.push(o); });
+  return groups.map(g => {
+    const eyesIn = new Set(g.items.map(o => o.e.eye));
+    const multi = eyesIn.size > 1;
+    return `<div class="day${multi ? ' multi' : ''}" data-eyes="${esc([...eyesIn].join(' '))}">
+      <div class="when">${fmtKey(g.items[0].e.date_iso, g.items[0].e.precision)}${multi ? `<span class="badge cnt">${eyesIn.size} eyes</span>` : ''}</div>
+      <div class="stack">${g.items.map(o => entryHTML(ch, o.e, o.k)).join('')}</div></div>`;
+  }).join('');
+}
+
+function chapterHTML(ch){
+  const intro = (ch.intro || []).map(p => `<p>${esc(p)}</p>`).join('');
+  const conv = (ch.convergences || []).map(c => `<div class="cv"><div class="d">${prettyDate(c.date)}</div><h6>${esc(c.label)}</h6><div>${esc(c.note)}</div>
+     <div class="chips">${(c.eyes || []).map(id => { const o = eyeOf(ch, id); return o ? `<a class="chip" style="--c:${o.color}" href="#eye-${ch.id}-${esc(id)}"><i></i>${esc(o.e.name)}</a>` : ''; }).join('')}</div>
+     <div class="chips"><button class="chip" data-jump="${ch.id}|${esc(c.date)}">Read that day on the timeline ↓</button></div></div>`).join('');
+  const thr = (ch.threads_out || []).map(t => { const to = chapById(t.to);
+     const ext = !to && BOOK.external && BOOK.external[t.to];
+     if (ext) return `<div class="thr"><span class="go ext">→ ${esc(ext.volume)}, ${esc(ext.num)}. ${esc(ext.title)}</span><div>${esc(t.note)}</div></div>`;
+     if (!to) return '';
+     return `<div class="thr"><a class="go" href="#ch-${to.id}">→ ${ROMAN[to.n]}. ${esc(stitle(to))}</a><div>${esc(t.note)}</div></div>`; }).join('');
+  const inbound = [];
+  BOOK.chapters.forEach(o => (o.threads_out || []).forEach(t => { if (t.to === ch.id && o.id !== ch.id) inbound.push({ o, t }); }));
+  const inHTML = inbound.map(({o, t}) => `<div class="thr"><a class="go" href="#ch-${o.id}">← ${ROMAN[o.n]}. ${esc(stitle(o))}</a><div>${esc(t.note)}</div></div>`).join('');
+  const figs = (ch.figures || []).map(f => `<figure class="fig">${f.svg}<figcaption><b>${esc(f.title)}</b>${esc(f.caption)}</figcaption></figure>`).join('');
+  const plates = (ch.images || []).map((im, i) => `<figure class="plate${im.embed ? ' real' : ''}" style="margin:0"><span class="art">${im.embed ? `<img src="${im.embed}" alt="${esc(im.title)}" loading="lazy" data-cap="${esc(im.title + ' — ' + (im.caption || '') + ' ' + [im.date, im.credit].filter(Boolean).join(' · '))}">` : plateArt(ch, i)}</span>
+     <figcaption class="cap"><b>${esc(im.title)}</b>${esc(im.caption)}<small>${esc([im.date, im.credit].filter(Boolean).join(' · '))}</small></figcaption>
+     ${safeUrl(im.url) ? `<a class="view" href="${esc(im.url)}" target="_blank" rel="noopener">View the original ↗</a>` : ''}</figure>`).join('');
+  const further = (ch.further || []).map(f => safeUrl(f.url) ? `<li><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.title)} ↗</a></li>` : `<li>${esc(f.title)}</li>`).join('');
+  const eyeChips = ch.eyes.map(e => { const o = eyeOf(ch, e.id); return `<button class="chip" style="--c:${o.color}" data-toggle="${ch.id}|${esc(e.id)}"><i></i>${esc(e.name)}</button>`; }).join('');
+  return `<section class="chapter page" id="ch-${ch.id}" data-ch="${ch.id}">
+    <div class="chaphead"><div><div class="chapnum">Chapter ${ROMAN[ch.n]} · ${esc(ch.span)}</div><h2 class="chap">${esc(ch.title)}</h2><p class="chapsub">${esc(ch.subtitle)}</p>
+      <div class="sans" style="font-size:13px;color:var(--ink3)">${ch.eyes.length} eyes · ${ch.entries.length} dated entries · ${(ch.convergences||[]).length} convergences</div></div>${emblem(ch.id)}</div>
+    <div class="prose">${intro}</div>
+    ${ch.calendar_note ? `<div class="note"><b>A note on the calendar</b>${esc(ch.calendar_note)}</div>` : ''}
+    ${(ch.pron || []).length ? `<details class="sayit"><summary>Say it · ${ch.pron.length} names and terms in this chapter</summary>
+      <p class="sans sayk">Stressed syllable in capitals; ə as in <i>about</i>, ah as in <i>father</i>, ay as in <i>day</i>, ee as in <i>see</i>, eye as in <i>my</i>, oh as in <i>go</i>, oo as in <i>food</i>, uu as in <i>book</i>, aw as in <i>law</i>, zh as in <i>vision</i>, kh as in <i>loch</i>; ew is German ü or French u (say ee with rounded lips); ur for German ö or French eu is said with rounded lips and no r; (h) after a vowel marks a French-style nasal; Mandarin names are given without stress, since tone carries the weight. ≈ marks an approximate rendering.</p>
+      <div class="sayg">${ch.pron.map(x => `<div><b>${esc(x.t)}</b> <span class="pron">${esc(x.p)}</span>${x.conf === 'check' ? ' <span class="sans" title="approximate">≈</span>' : ''}<span class="sans sayl">${esc(x.lang || '')}${x.note ? ' · ' + esc(x.note) : ''}</span></div>`).join('')}</div></details>` : ''}
+    <h3><span class="h3n">${ROMAN[ch.n]}.1</span>The eyes</h3>
+    <div class="ringwrap"><div class="ring">${ringSVG(ch)}</div><div class="ringkey"><p>${esc(ch.vantage_key || 'Distance from the event: 0 at the centre, 4 abroad.')}</p>
+      <p>Each dot is a diarist, placed by how close they stood to the heart of events. Click a dot to open their card.</p>
+      <ol start="0"><li>At the centre — a principal actor or direct victim</li><li>On the scene — eyewitness</li><li>Nearby — same city, near the front</li><li>Same country, at a distance</li><li>Abroad, or by news only</li></ol></div></div>
+    ${ch.map_svg ? `<figure class="map">${ch.map_svg}<figcaption>Where each of them stood. Click a dot to open that diarist's card; dashed lines trace the journeys some of them made.</figcaption></figure>` : ''}
+    <div class="eyes">${ch.eyes.map(e => eyeCard(ch, e)).join('')}</div>
+    <h3><span class="h3n">${ROMAN[ch.n]}.2</span>When each of them wrote</h3>
+    <p class="sans" style="font-size:13px;color:var(--ink3)">One lane per diarist; each mark is an entry (thick, faded marks are month- or range-level dates). Click a mark to jump to it. Scroll sideways on small screens.</p>
+    <div class="lanes">${lanesSVG(ch)}</div>
+    ${conv ? `<h3><span class="h3n">${ROMAN[ch.n]}.3</span>Where the eyes converge</h3><div class="conv">${conv}</div>` : ''}
+    ${(ch.claims || []).length ? `<h3>${esc(BOOK.meta.ledger_title || 'The priority ledger')}</h3>
+    <p class="sans" style="font-size:13px;color:var(--ink3)">${esc(BOOK.meta.ledger_blurb || 'Who claimed or first recorded what, when, and in what form. Where credit was disputed, the entries show the evidence each side relied on; the book does not rule.')}</p>
+    <div class="tablewrap"><table class="idx ledger"><thead><tr><th>Date</th><th>Who</th><th>${BOOK.meta.ledger_col || (BOOK.meta.ledger_title ? 'The work' : 'Claim or first record')}</th>${(ch.claims||[]).some(c=>c.written)?'<th>First written down</th>':''}<th>Form</th><th>Where recorded</th></tr></thead><tbody>
+    ${ch.claims.slice().sort((a,b)=>(dayNum(a.date_iso)??0)-(dayNum(b.date_iso)??0)).map(c => { const o = eyeOf(ch, c.eye); return `<tr><td style="white-space:nowrap">${esc(c.date_display || prettyDate(c.date_iso))}${c.confidence === 'verified' ? '' : ' <span class="badge warn">approx</span>'}</td><td>${o ? `<a class="chip" style="--c:${o.color}" href="#eye-${ch.id}-${esc(c.eye)}"><i></i>${esc(o.e.short || o.e.name)}</a>` : ''}</td><td>${esc(c.claim)}</td>${(ch.claims||[]).some(x=>x.written)?`<td style="font-size:13.5px"><span class="wlbl">First written down: </span>${esc(c.written||'')}</td>`:''}<td><span class="badge">${esc(c.form || '')}</span></td><td style="font-size:13.5px;color:var(--ink2)">${esc(c.evidence || '')}</td></tr>`; }).join('')}
+    </tbody></table></div>` : ''}
+    <h3><span class="h3n">${ROMAN[ch.n]}.4</span>The timeline</h3>
+    <div class="tl-controls"><span class="lbl">Show:</span>${eyeChips}<button class="iconbtn" data-all="${ch.id}">All</button><button class="iconbtn" data-multi="${ch.id}">Only shared days</button></div>
+    <div class="timeline" id="tl-${ch.id}">${timelineHTML(ch)}</div>
+    ${(plates || figs) ? `<h3><span class="h3n">${ROMAN[ch.n]}.5</span>Plates &amp; figures</h3>${figs}${plates ? `<p class="sans" style="font-size:13px;color:var(--ink3)">Period images. Pictures shown here are embedded public-domain copies (tap to enlarge); framed placeholders mark images held by museums and archives that you can open online.</p><div class="plates">${plates}</div>` : ''}` : ''}
+    ${(thr || inHTML) ? `<h3><span class="h3n">${ROMAN[ch.n]}.6</span>Threads to other chapters</h3><div class="threads">${thr}${inHTML}</div>` : ''}
+    ${ch.seam ? `<div class="note seam"><b>The seam</b>${esc(ch.seam)}<span class="sans" style="display:block;margin-top:6px;font-size:12px;color:var(--ink3)">An editor's reflection linking these records to the volume's theme. It is not evidence.</span></div>` : ''}
+    ${further ? `<h3><span class="h3n">${ROMAN[ch.n]}.7</span>Further reading</h3><ul class="further">${further}</ul>` : ''}
+    <div class="backtop"><a href="#top">↑ Contents</a></div>
+  </section>`;
+}
+
+/* ---------- front & back matter ---------- */
+function frontHTML(){
+  const nE = Object.keys(EYES).length, nEn = BOOK.chapters.reduce((a, c) => a + c.entries.length, 0);
+  return `<section class="page titlepage" id="top"><div class="chapnum">${esc(META.kicker)}</div><h1>Many Eyes</h1>${META.volume ? `<div class="chapnum" style="font-size:16px;margin-top:6px">${esc(META.volume)}</div>` : ''}
+    <div class="sub">${esc(META.sub)}</div>
+    <div class="orn"><svg width="180" height="20" viewBox="0 0 180 20"><path d="M0 10h70M110 10h70" stroke="currentColor"/><circle cx="90" cy="10" r="6" fill="none" stroke="currentColor"/><circle cx="90" cy="10" r="2" fill="currentColor"/></svg></div>
+    <div class="sans" style="color:var(--ink2)">${BOOK.chapters.length} chapters · ${nE} diarists · ${nEn} dated entries</div>
+    <div class="meta">Build <code>${esc(BUILD)}</code> · generated ${esc(STAMP)} UTC</div></section>
+  <section class="page" id="preface" style="padding-top:48px"><div class="chapnum">Before you begin</div><h2 class="chap" style="font-size:38px">How to read this book</h2>
+   <div class="prose"><p>${esc(META.preface)}</p>
+   <p>The rule throughout is authenticity. Every voice here is a real person whose diary, journal, notebook, log or dated letters survive. Where a famous text is really a memoir written later, a revised diary, a chronicle or a set of letters, the eye card says so with an amber tag. Forgeries and fictions are named only to warn you off them.</p>
+   <p>The entries are digests: paraphrases in this book's words of what each diarist recorded, sometimes with a short phrase in their own. They are a map, not a substitute. Each eye card links to editions and archives where you can read the diarist's own words, and the plates link to period images held by museums and libraries. Dates marked <span class="badge warn">approximate</span> could only be fixed to a month or range. Treat this as a well-sourced guide, and check the originals before you quote anything.</p></div>
+   <div class="note"><b>Reading tools</b>The <em>vantage ring</em> in each chapter shows how close each diarist stood to the centre of events, and the <em>map</em> beneath it shows where on earth they were. The <em>lanes</em> show when each one was writing. <em>Convergences</em> collect the days that several eyes recorded. Filter any timeline by diarist, or show only shared days. At the back, <a href="#otd">On this day</a> pulls every entry with the same calendar date from across all ${BOOK.chapters.length} chapters, <a href="#tmap">The web of threads</a> maps the links between chapters, and the <a href="#idx">Index of eyes</a> lists everyone.</div></section>`;
+}
+
+function otdHTML(){
+  const opts = MONTHS.map((m, i) => `<option value="${i+1}">${m}</option>`).join('');
+  return `<section class="page chapter" id="otd"><div class="chapnum">Back matter</div><h2 class="chap">On this day, across history</h2>
+   <p class="chapsub">Every entry in the book written on the same calendar day, in any year</p>
+   <div class="otdbar"><label>Month <select id="otdm">${opts}</select></label><label>Day <select id="otdd"></select></label><button class="iconbtn" id="otdtoday">Today</button><button class="iconbtn" id="otdnext">Next day with entries →</button></div>
+   <p class="sans" style="font-size:12.5px;color:var(--ink3)">Dates are matched as given in each chapter's timeline (New Style / Gregorian where the chapter converts them). Only day-level entries are included.</p>
+   <div id="otdlist"></div></section>`;
+}
+function vol2HTML(){
+  const v = BOOK.volume2; if (!v) return '';
+  return `<section class="page chapter" id="vol2"><div class="chapnum">Back matter</div><h2 class="chap">${esc(META.outline_title)}</h2><p class="chapsub">${esc(v.subtitle || '')}</p>
+   <div class="prose">${(v.intro || []).map(p => `<p>${esc(p)}</p>`).join('')}</div>
+   ${(v.parts || []).map(pt => `<div class="v2part">${esc(pt.title)}</div>${(pt.chapters || []).map((c, i) => `<div class="v2ch"><h6>${esc(c.title)}</h6><div class="sp">${esc(c.span)}${c.status ? ' · ' + esc(c.status) : ''}</div><div>${esc(c.premise)}</div><ul>${(c.eyes || []).map(e => `<li>${esc(e)}</li>`).join('')}</ul>${c.caution ? `<div class="why">${esc(c.caution)}</div>` : ''}</div>`).join('')}`).join('')}
+  </section>`;
+}
+function tmapHTML(){ return `<section class="page chapter" id="tmap"><div class="chapnum">Back matter</div><h2 class="chap">The web of threads</h2><p class="chapsub">Real links running between the chapters — people, places, consequences, ideas</p><div id="tmapsvg"></div><div id="tmapnote" class="sans">Hover or tap a line to read the link; tap a chapter to go there.</div></section>`; }
+function idxHTML(){
+  const rows = [];
+  BOOK.chapters.forEach(ch => ch.eyes.forEach(e => { const o = eyeOf(ch, e.id); rows.push({ ch, e, o, n: ch.entries.filter(x => x.eye === e.id).length }); }));
+  rows.sort((a, b) => a.e.name.split(' ').slice(-1)[0].localeCompare(b.e.name.split(' ').slice(-1)[0]));
+  return `<section class="page chapter" id="idx"><div class="chapnum">Back matter</div><h2 class="chap">Index of eyes</h2><p class="chapsub">${rows.length} diarists, letter-writers and chroniclers</p>
+   <div class="tablewrap"><table class="idx"><thead><tr><th>Name</th><th>Chapter</th><th>Role</th><th>Vantage</th><th>Form</th><th>Entries</th></tr></thead><tbody>
+   ${rows.map(r => `<tr><td><a class="chip" style="--c:${r.o.color}" href="#eye-${r.ch.id}-${esc(r.e.id)}"><i></i>${esc(r.e.name)}</a><div class="sans" style="font-size:11.5px;color:var(--ink3)">${esc(r.e.life)}</div></td><td><a href="#ch-${r.ch.id}">${ROMAN[r.ch.n]}. ${esc(r.ch.title)}</a></td><td>${esc(r.e.role)}</td><td>${esc(r.e.vantage)} · ${esc(r.e.vantage_label || '')}</td><td>${esc(r.e.form)}</td><td>${r.n}</td></tr>`).join('')}
+   </tbody></table></div></section>`;
+}
+function colophonHTML(){ return `<div class="colophon page">Many Eyes · build <code>${esc(BUILD)}</code> · generated <code>${esc(STAMP)}</code> UTC · one self-contained offline file; external links open the original sources when you are online.<br>Digests are paraphrases. Verify against the originals before quoting.</div>`; }
+
+/* ---------- assemble ---------- */
+BOOK.chapters.forEach((c, i) => c.n = i + 1);
+$('#main').innerHTML = frontHTML() + BOOK.chapters.map(chapterHTML).join('') + otdHTML() + tmapHTML() + idxHTML() + vol2HTML() + colophonHTML();
+$('#toc').innerHTML = `<h4>Contents</h4><a href="#preface"><span class="n">·</span>How to read this book</a>` +
+  BOOK.chapters.map(c => `<a href="#ch-${c.id}" data-ch="${c.id}"><span class="n">${ROMAN[c.n]}</span>${esc(c.short_title && c.title.length > 34 ? c.short_title : c.title)}<small>${esc(c.span)} · ${c.eyes.length} eyes</small></a>`).join('') +
+  `<h4 style="margin-top:18px">Back matter</h4><a href="#otd"><span class="n">·</span>On this day</a><a href="#tmap"><span class="n">·</span>The web of threads</a><a href="#idx"><span class="n">·</span>Index of eyes</a>` + (BOOK.volume2 ? `<a href="#vol2"><span class="n">·</span>${esc(META.outline_title)}</a>` : '');
+$$('#toc a').forEach(a => a.addEventListener('click', () => document.body.classList.remove('tocopen')));
+
+/* ---------- interactions ---------- */
+function flash(el){ if (!el) return; el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash'); }
+function goTo(id){ const el = document.getElementById(id); if (!el) return; showAllAround(el); el.scrollIntoView({ behavior: 'smooth', block: 'start' }); flash(el); }
+function showAllAround(el){ const day = el.closest('.day'); if (day) day.classList.remove('hidden'); const en = el.closest('.entry'); if (en) en.classList.remove('hidden'); }
+document.addEventListener('click', ev => {
+  const im = ev.target.closest('.plate .art img');
+  if (im) { const lb = $('#lightbox'); $('img', lb).src = im.src; $('p', lb).textContent = im.dataset.cap || ''; lb.classList.add('on'); return; }
+  if (ev.target.closest('#lightbox')) { $('#lightbox').classList.remove('on'); return; }
+  const md = ev.target.closest('.mapdot');
+  if (md) { const ch = md.closest('section.chapter').dataset.ch; goTo(`eye-${ch}-${md.dataset.eye}`); return; }
+  const t = ev.target.closest('[data-solo],[data-toggle],[data-all],[data-multi],[data-jump],.ringdot,.tick');
+  if (!t) return;
+  if (t.classList.contains('ringdot')) { const ch = t.closest('section.chapter').dataset.ch; goTo(`eye-${ch}-${t.dataset.eye}`); return; }
+  if (t.classList.contains('tick')) { goTo('en-' + t.dataset.entry); return; }
+  if (t.dataset.solo) { const [ch, id] = t.dataset.solo.split('|'); setFilter(ch, new Set([id]), false); $(`#tl-${ch}`).scrollIntoView({ behavior: 'smooth' }); return; }
+  if (t.dataset.toggle) { const [ch, id] = t.dataset.toggle.split('|'); const st = filt(ch); if (st.on.has(id)) st.on.delete(id); else st.on.add(id); if (!st.on.size) allOn(ch, st); apply(ch); return; }
+  if (t.dataset.all) { const st = filt(t.dataset.all); allOn(t.dataset.all, st); st.multi = false; apply(t.dataset.all); return; }
+  if (t.dataset.multi) { const st = filt(t.dataset.multi); st.multi = !st.multi; apply(t.dataset.multi); return; }
+  if (t.dataset.jump) { const [ch, d] = t.dataset.jump.split('|'); const st = filt(ch); allOn(ch, st); st.multi = false; apply(ch);
+    const c = chapById(ch); const target = dayNum(d); let best = null, bd = 1e12;
+    c.entries.forEach((e, k) => { const dd = Math.abs((dayNum(e.date_iso) ?? 1e12) - target); if (dd < bd) { bd = dd; best = k; } });
+    if (best != null) goTo(`en-${ch}-${best}`); }
+});
+const FILT = {};
+function filt(ch){ if (!FILT[ch]) { FILT[ch] = { on: new Set(), multi: false }; allOn(ch, FILT[ch]); } return FILT[ch]; }
+function allOn(ch, st){ st.on = new Set(chapById(ch).eyes.map(e => e.id)); }
+function setFilter(ch, set, multi){ const st = filt(ch); st.on = set; st.multi = multi; apply(ch); }
+function apply(ch){
+  const st = filt(ch), tl = $(`#tl-${ch}`);
+  $$('.entry', tl).forEach(en => en.classList.toggle('hidden', !st.on.has(en.dataset.eye)));
+  $$('.day', tl).forEach(d => { const vis = $$('.entry:not(.hidden)', d).length; const multi = d.classList.contains('multi');
+    d.classList.toggle('hidden', vis === 0 || (st.multi && !multi)); });
+  $$(`[data-toggle^="${ch}|"]`).forEach(b => b.classList.toggle('off', !st.on.has(b.dataset.toggle.split('|')[1])));
+  const mb = $(`[data-multi="${ch}"]`); if (mb) mb.style.borderColor = st.multi ? 'var(--accent)' : '';
+}
+
+/* ---------- on this day ---------- */
+const DAYIDX = {}; // "MM-DD" -> [{ch,k,en,y}]
+BOOK.chapters.forEach(ch => ch.entries.forEach((en, k) => { if (en.precision !== 'day') return; const p = parseISO(en.date_iso); if (!p || !p.m || !p.d) return;
+  const key = String(p.m).padStart(2,'0') + '-' + String(p.d).padStart(2,'0'); (DAYIDX[key] = DAYIDX[key] || []).push({ ch, k, en, y: p.y }); }));
+function fillDays(){ const m = +$('#otdm').value; const dim = [31,29,31,30,31,30,31,31,30,31,30,31][m-1]; const cur = +$('#otdd').value || 1;
+  $('#otdd').innerHTML = Array.from({ length: dim }, (_, i) => { const key = String(m).padStart(2,'0') + '-' + String(i+1).padStart(2,'0'); const n = (DAYIDX[key] || []).length; return `<option value="${i+1}">${i+1}${n ? ' • ' + n : ''}</option>`; }).join('');
+  $('#otdd').value = Math.min(cur, dim); }
+function renderOTD(){ const m = +$('#otdm').value, d = +$('#otdd').value; const key = String(m).padStart(2,'0') + '-' + String(d).padStart(2,'0');
+  const items = (DAYIDX[key] || []).slice().sort((a, b) => a.y - b.y);
+  $('#otdlist').innerHTML = items.length ? items.map(o => { const r = eyeOf(o.ch, o.en.eye) || { color: 'var(--ink3)', e: { name: o.en.eye } };
+    return `<div class="otd-item"><div class="y">${yr(o.y)}<small>${ROMAN[o.ch.n]}. ${esc(o.ch.title)}</small></div><div class="entry" style="--c:${r.color}"><div class="who"><a href="#eye-${o.ch.id}-${esc(o.en.eye)}">${esc(r.e.name)}</a><span class="pl">${esc(o.en.place)}</span></div><div class="disp">${esc(o.en.date_display)}</div><h6>${esc(o.en.headline)}</h6><p>${esc(o.en.digest)}</p><div class="foot"><a href="#en-${o.ch.id}-${o.k}" data-otdgo="1">Read it in its chapter →</a></div></div></div>`; }).join('')
+    : `<p class="sans" style="color:var(--ink3)">No day-level entries fall on ${d} ${MONTHS[m-1]}. Try “Next day with entries”.</p>`; }
+$('#otdm').onchange = () => { fillDays(); renderOTD(); };
+$('#otdd').onchange = renderOTD;
+$('#otdtoday').onclick = () => { const t = new Date(); $('#otdm').value = t.getMonth() + 1; fillDays(); $('#otdd').value = t.getDate(); renderOTD(); };
+$('#otdnext').onclick = () => { let m = +$('#otdm').value, d = +$('#otdd').value;
+  for (let i = 0; i < 366; i++) { d++; const dim = [31,29,31,30,31,30,31,31,30,31,30,31][m-1]; if (d > dim) { d = 1; m = m % 12 + 1; }
+    const key = String(m).padStart(2,'0') + '-' + String(d).padStart(2,'0'); if (DAYIDX[key]) { $('#otdm').value = m; fillDays(); $('#otdd').value = d; renderOTD(); return; } } };
+document.addEventListener('click', ev => { const a = ev.target.closest('[data-otdgo]'); if (!a) return; ev.preventDefault(); goTo(a.getAttribute('href').slice(1)); });
+$('#otdtoday').click();
+
+/* ---------- threads map ---------- */
+(function(){
+  const n = BOOK.chapters.length, W = 980, H = 640, cx = W/2, cy = H/2 + 6, R = 238;
+  const pos = BOOK.chapters.map((c, i) => { const a = -Math.PI/2 + 2*Math.PI*i/n; return { c, x: cx + Math.cos(a)*R, y: cy + Math.sin(a)*R, a }; });
+  const P = id => pos.find(p => p.c.id === id);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Links between chapters">`;
+  const edges = [];
+  BOOK.chapters.forEach(c => (c.threads_out || []).forEach(t => { const a = P(c.id), b = P(t.to); if (a && b && a !== b) edges.push({ a, b, t, from: c }); }));
+  edges.forEach((e, i) => { const mx = (e.a.x + e.b.x)/2, my = (e.a.y + e.b.y)/2; const qx = cx + (mx - cx)*.35, qy = cy + (my - cy)*.35;
+    s += `<path class="edge" data-i="${i}" d="M${e.a.x.toFixed(1)} ${e.a.y.toFixed(1)} Q${qx.toFixed(1)} ${qy.toFixed(1)} ${e.b.x.toFixed(1)} ${e.b.y.toFixed(1)}" fill="none" stroke="var(--accent2)" stroke-opacity=".35" stroke-width="6"/>`; });
+  pos.forEach(p => { const lx = p.x + Math.cos(p.a)*22, ly = p.y + Math.sin(p.a)*22 + 4; const anchor = Math.abs(Math.cos(p.a)) < .2 ? 'middle' : Math.cos(p.a) > 0 ? 'start' : 'end';
+    s += `<g class="node" data-ch="${p.c.id}"><circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="15" fill="var(--card)" stroke="var(--gold)" stroke-width="2"/><text x="${p.x.toFixed(1)}" y="${(p.y+4).toFixed(1)}" text-anchor="middle" font-size="11" font-weight="700" fill="var(--gold)" font-family="Georgia,serif">${ROMAN[p.c.n]}</text>
+      <text x="${lx.toFixed(1)}" y="${ly.toFixed(1)}" text-anchor="${anchor}" font-size="12.5" fill="var(--ink)" paint-order="stroke" stroke="var(--paper)" stroke-width="3">${esc(p.c.title.length > 30 ? p.c.title.slice(0, 29) + '…' : p.c.title)}</text>
+      <text x="${lx.toFixed(1)}" y="${(ly+14).toFixed(1)}" text-anchor="${anchor}" font-size="10.5" fill="var(--ink3)">${esc(p.c.span)}</text></g>`; });
+  $('#tmapsvg').innerHTML = s + `</svg>`;
+  const note = $('#tmapnote');
+  const show = e => { note.innerHTML = `<b>${ROMAN[e.from.n]}. ${esc(e.from.title)} → ${ROMAN[e.b.c.n]}. ${esc(e.b.c.title)}</b><br>${esc(e.t.note)} <a href="#ch-${e.b.c.id}">Go →</a>`; };
+  $$('#tmapsvg .edge').forEach(el => { el.addEventListener('mouseenter', () => show(edges[+el.dataset.i])); el.addEventListener('click', () => show(edges[+el.dataset.i])); });
+  $$('#tmapsvg .node').forEach(el => el.addEventListener('click', () => goTo('ch-' + el.dataset.ch)));
+})();
+
+/* ---------- index sort ---------- */
+$$('table.idx th').forEach((th, ci) => th.addEventListener('click', () => { const tb = th.closest('table').tBodies[0]; const rows = Array.from(tb.rows); const dir = th.dataset.dir === 'a' ? -1 : 1; th.dataset.dir = dir === 1 ? 'a' : 'd';
+  rows.sort((a, b) => { const x = a.cells[ci].innerText.trim(), y = b.cells[ci].innerText.trim(); const nx = parseFloat(x), ny = parseFloat(y); return (!isNaN(nx) && !isNaN(ny) ? nx - ny : x.localeCompare(y)) * dir; });
+  rows.forEach(r => tb.appendChild(r)); }));
+
+/* ---------- search ---------- */
+const SIDX = [];
+BOOK.chapters.forEach(ch => {
+  ch.eyes.forEach(e => SIDX.push({ id: `eye-${ch.id}-${e.id}`, title: e.name, sub: `${ROMAN[ch.n]}. ${ch.title} · ${e.role}`, text: [e.name, e.role, e.side, e.where, e.bio].join(' ') }));
+  ch.entries.forEach((en, k) => { const o = eyeOf(ch, en.eye); SIDX.push({ id: `en-${ch.id}-${k}`, title: en.headline, sub: `${o ? o.e.name : en.eye} · ${en.date_display} · ${ROMAN[ch.n]}`, text: [en.headline, en.digest, en.place, en.date_display, o ? o.e.name : ''].join(' ') }); });
+});
+let qt; $('#q').addEventListener('input', () => { clearTimeout(qt); qt = setTimeout(runSearch, 120); });
+$('#q').addEventListener('keydown', e => { if (e.key === 'Escape') { $('#q').value = ''; runSearch(); } });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') $('#lightbox').classList.remove('on'); });
+function runSearch(){ const q = $('#q').value.trim().toLowerCase(); const box = $('#results');
+  if (q.length < 2) { box.classList.remove('on'); return; }
+  const terms = q.split(/\s+/); const hits = SIDX.filter(x => { const t = x.text.toLowerCase(); return terms.every(w => t.includes(w)); }).slice(0, 60);
+  const hl = s => { let h = esc(s); terms.forEach(w => { if (w.length > 1) h = h.replace(new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig'), '<mark>$1</mark>'); }); return h; };
+  box.innerHTML = hits.length ? hits.map(h => `<a href="#${h.id}" data-go="${h.id}">${hl(h.title)}<small>${esc(h.sub)}</small></a>`).join('') : `<a>No matches</a>`;
+  box.classList.add('on'); }
+$('#results').addEventListener('click', e => { const a = e.target.closest('[data-go]'); if (!a) return; e.preventDefault(); $('#results').classList.remove('on'); goTo(a.dataset.go); });
+document.addEventListener('click', e => { if (!e.target.closest('#results,#q')) $('#results').classList.remove('on'); });
+
+/* ---------- toc highlight & resume ---------- */
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { const id = e.target.dataset.ch; $$('#toc a').forEach(a => a.classList.toggle('on', a.dataset.ch === id)); store.set('last', id); } }), { rootMargin: '-40% 0px -55% 0px' });
+$$('section.chapter[data-ch]').forEach(s => io.observe(s));
+</script>
+</body>
+</html>

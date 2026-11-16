@@ -1,0 +1,847 @@
+[
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:1",
+  "severity": "error",
+  "problem": "Fessler (ch. 2) dates Muragaki's farewell entry to the 18th day of the 1st month (9 February 1860) and records that many came to see him off that morning; the poems at a farewell party and the description of the warship are not in the source.",
+  "fix": {
+   "date_iso": "1860-02-09",
+   "date_display": "Thursday 9 February 1860 (Ansei 7, 1st month, 18th day)",
+   "precision": "day",
+   "confidence": "verified",
+   "digest": "On the morning he left Edo, Muragaki writes, many people came to see him off. He admits the leave-taking was heavy: had he not put on a show of courage, his children would have been despondent. The embassy then boarded the American frigate Powhatan, which sailed from Yokohama on 13 February.",
+   "source_note": "Fessler, Musashino in Tuscany, ch. 2: Muragaki's entry for the 18th day of the 1st month (9 February 1860). Powhatan sailing date 13 February from Fessler and the Library of Congress."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:2",
+  "severity": "error",
+  "problem": "The NDL column quotes Brooke's 14 February entry as saying the Japanese need a nautical language of their own; the 'no stations no watches' complaint is in the 20 February entry, not this one.",
+  "fix": {
+   "headline": "A marine language of their own",
+   "digest": "Four days out, Brooke wrote that he thought it absolutely necessary for the Japanese to have a nautical vocabulary of their own. The officers had learned seamanship through Dutch, and orders on deck mixed Japanese with borrowed Dutch terms, which he saw as a handicap for a navy in the making.",
+   "source_note": "National Diet Library column 'Nikki no sekai' 1, quoting Brooke's journal for 14 February 1860; the Dutch loan-words are documented in Akamatsu's log on the same page."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "convergence:0",
+  "severity": "error",
+  "problem": "Brooke's 'no stations no watches' complaint is dated 20 February in the NDL column; his 14 February entry is about nautical language.",
+  "fix": {
+   "text_replace": {
+    "old": "Brooke's journal (14 and 20 February) complains that no watches are set",
+    "new": "Brooke's journal (20 February) complains that no stations or watches are set"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:4",
+  "severity": "style",
+  "problem": "The NDL column says watches had apparently not been fixed and that Akamatsu began naming the watch officers the day before; it does not say duties were formally assigned then.",
+  "fix": {
+   "text_replace": {
+    "old": "that regular watch duties had been assigned only the day before, the fourteenth day of the voyage",
+    "new": "that watches had apparently not been fixed until then: Akamatsu began naming the officers of the watch only the day before, the fourteenth day of the voyage"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:5",
+  "severity": "style",
+  "problem": "In Warinner's extracts Manjirō's report of the threat ('last night') follows the 1 March passage rather than preceding it.",
+  "fix": {
+   "text_replace": {
+    "old": "Earlier, Manjirō had reported",
+    "new": "In the same stretch of the journal Brooke noted that Manjirō had reported"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:6",
+  "severity": "error",
+  "problem": "Fessler's text has mirrors, flowers and beds (no fruit), an unseen rooster heard at dusk (not dawn), and a poem 'On Honolulu' comparing a bird's song to a spring dawn, not a poem about the song being the same in the East. Fessler's 7–8 March equals the Japanese date; by the chapter's own date-line rule local dates were a day earlier (Keio confirms the rule: Kanrin Maru at Honolulu 23 May = Man'en 1, 4th month, 4th day).",
+  "fix": {
+   "date_iso": "1860-03-06",
+   "date_display": "Ansei 7, 2nd month, 15th–16th days (7–8 March by Japan's count; 6–7 March local)",
+   "precision": "range",
+   "digest": "In Honolulu, where the Powhatan put in after storm damage, Muragaki describes the king's public hall with its mirrors, flowers and beds, and a carriage ride through the town. Little there pleased him, but at dusk the crow of an unseen rooster sounded no different from one in his home village, and he wrote a poem 'On Honolulu' likening a bird's song to a spring dawn. The envoys were also received by King Kamehameha IV and Queen Emma.",
+   "source_note": "Fessler, Musashino in Tuscany, ch. 2 (entries of the 15th and 16th days of the 2nd month); Samurai Archives for the royal audience. Local Gregorian dates computed by the date-line rule in calendar_note.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "claim:1",
+  "severity": "error",
+  "problem": "Same corrections as entry 6: the rooster is heard at dusk, and the 'same in the East' idea is not in the source; local date one day earlier than Fessler's conversion.",
+  "fix": {
+   "date_iso": "1860-03-06",
+   "date_display": "c. 6–7 March 1860",
+   "claim": "Finds little to like in Honolulu, but hears an unseen rooster crow at dusk exactly as in his home village"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:8",
+  "severity": "error",
+  "problem": "No accessible source supports this entry: the ABAA and University of Michigan descriptions of Tamamushi's diary do not mention a sailor's death or relations between ranks, and the source note admits the entry and date were not confirmed.",
+  "fix": {
+   "delete": true
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:10",
+  "severity": "error",
+  "problem": "In Fukuzawa's story (as excerpted by samurai-revolution.com) it was the captain, Katsu, who doubted and the gunnery officer Sasakura who insisted; Katsu offered his head if Sasakura succeeded, and Akamatsu timed the guns with an hourglass. The entry reverses the roles.",
+  "fix": {
+   "text_replace": {
+    "old": "some officers doubted the ship's gunners could answer it properly, but the senior officer insisted that if Americans saluted Japan, Japan must return the honour. The guns were fired and timed with an hourglass, and the reply went off correctly.",
+    "new": "the captain, Katsu Kaishū, feared the small ship could not manage it and told the gunnery officer Sasakura Kiritarō to let it alone, offering his head if Sasakura succeeded. Sasakura insisted, the junior officer Akamatsu timed the intervals with an hourglass, and the reply went off correctly; Sasakura then told Katsu, to general laughter, that his head was forfeit."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:14",
+  "severity": "error",
+  "problem": "Harding attributes the butter and sugared rice to the delegates generally, not to Muragaki, and nothing supports 'no brush could describe', the open laughter, or the permission to cook their own food. The mice simile and the skirts are Muragaki's.",
+  "fix": {
+   "digest": "In America the envoys found their rice cooked in butter or blended with sugar. At a reception Muragaki watched couples dancing and likened them to the frolicking of mice, while the women's skirts seemed to swell to enormous proportions as they turned.",
+   "source_note": "Harding, 'When the Samurai came to America' (Engelsberg Ideas), paraphrasing the delegates on food and Muragaki on dancing; the city and day of the reception are not given there, so the San Francisco placing is approximate."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "claim:4",
+  "severity": "doubt",
+  "problem": "Harding reports the mice simile and the skirts but not open laughter.",
+  "fix": {
+   "claim": "Likens American ballroom dancing to the frolicking of mice and the women's skirts to things swelling to enormous size"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:16",
+  "severity": "doubt",
+  "problem": "Doan cites the Daily Dispatch of 17 April 1860 only for the phrase; the claim that it placed the visitors above peoples Americans habitually disparaged is the compiler's interpretation, not the source's.",
+  "fix": {
+   "text_replace": {
+    "old": "The praise used the period's physiognomic language of racial ranking, placing the visitors well above the peoples Americans habitually disparaged, and the paper went on",
+    "new": "The praise used the period's physiognomic habit of reading character from heads and faces, and the paper went on"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:20",
+  "severity": "style",
+  "problem": "Samurai Archives gives Muragaki's remark on restraint as a general comment on the journey, not on the Washington landing; the digest should not imply it was written that day.",
+  "fix": {
+   "text_replace": {
+    "old": "In his diary Muragaki wrote that the samurai had to hold themselves in check",
+    "new": "Elsewhere in his diary, not tied to this day, Muragaki wrote that the samurai had to hold themselves in check"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:21",
+  "severity": "error",
+  "problem": "Only 'silver-haired' and 'a most genial manner without losing noble dignity' are supported (WHHA via Ghosts of DC). The remarks about no ceremony, plain black clothes and a strange mixed crowd are not. The poem is supported by Gowen (c. 1924), who says the envoys wrote it after the ceremony and renders its opening 'Behold the savageries, glory of the Eastern land, land of the Rising Sun'. Women standing on chairs is from WHHA as a fact, not from Muragaki.",
+  "fix": {
+   "digest": "The envoys, in full court robes, delivered the shogun's letter to Buchanan before his cabinet and a crowd so dense that women stood on chairs to see. Muragaki remembered the president as a silver-haired man of genial manner who did not lose his dignity. After the ceremony a poem was written bidding even the foreigners, whom it called barbarians or savages, to behold the glory of the land of the Rising Sun.",
+   "source_note": "Audience date and crowd: White House Historical Association. Muragaki on Buchanan: WHHA as quoted by Ghosts of DC. Poem: Gowen, 'The First Japanese Mission to America' (Washington Historical Quarterly, c. 1924), paraphrasing the diary in English translation; its exact wording and authorship are not checked against a Japanese edition."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "claim:7",
+  "severity": "error",
+  "problem": "The 'strangely lacking in ceremony' judgement is not in any source found; the poem is attested by Gowen as written after the ceremony.",
+  "fix": {
+   "claim": "Finds Buchanan silver-haired, genial and dignified; after the audience a poem bids the foreign 'barbarians' behold the glory of the Rising Sun",
+   "evidence": "Muragaki's diary, via WHHA (Ghosts of DC) and Gowen, Washington Historical Quarterly (c. 1924)"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "convergence:3",
+  "severity": "error",
+  "problem": "'Plain clothes' is not supported; the supported description is silver-haired, genial and dignified.",
+  "fix": {
+   "text_replace": {
+    "old": "Muragaki sees a pleasant old man in plain clothes and writes a poem calling his hosts barbarians",
+    "new": "Muragaki sees a silver-haired, genial and dignified president, and a poem written afterwards calls the hosts barbarians"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:22",
+  "severity": "doubt",
+  "problem": "The US Diplomacy Center wording (via Ghosts of DC) is 'I trust that this will be the harbinger of perpetual peace and friendship between the two countries'; the quote is a correct substring, but 'welcomed the first embassy Japan had sent to any Western nation' and the gold watch are not supported by the sources found (Ghosts of DC mentions only medals).",
+  "fix": {
+   "text_replace": {
+    "old": "Buchanan welcomed the first embassy Japan had sent to any Western nation and said he trusted the treaty would be the forerunner of lasting friendship between the two countries. A gold watch with his likeness was later sent to the shogun, and Secretary",
+    "new": "Buchanan said he trusted the occasion would be the harbinger of lasting friendship between the two countries. Secretary"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "eye:buchanan",
+  "severity": "doubt",
+  "problem": "The gold watch for the shogun is not supported by the sources consulted.",
+  "fix": {
+   "text_replace": {
+    "old": ", and sent a gold watch with his portrait to the shogun",
+    "new": ""
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:26",
+  "severity": "error",
+  "problem": "Harding (Engelsberg Ideas) describes a Senate session and gives the fish-market comparison to an unnamed delegate, not to Muragaki; Stambler does not mention it. Refusing to ask about the debate is unsupported.",
+  "fix": {
+   "headline": "The Senate like a fish market at home",
+   "digest": "Taken to see Congress in session, the envoys watched senators shout and gesture while the presiding officer sat on a raised platform. One of the delegates likened the scene to a fish market back home. Popular accounts attribute the remark, with the Nihonbashi market of Edo, to Muragaki's diary; that attribution is not confirmed here.",
+   "source_note": "Harding, 'When the Samurai came to America' (Engelsberg Ideas): the comparison is made by an unnamed delegate. Attribution to Muragaki not checked against an edition. Day not established.",
+   "confidence": "approx"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "claim:10",
+  "severity": "error",
+  "problem": "The source gives the remark to an unnamed delegate, not Muragaki.",
+  "fix": {
+   "claim": "A delegate compares the US Senate in session to a fish market at home (often attributed to Muragaki)",
+   "evidence": "Harding (Engelsberg Ideas); attribution to Muragaki's diary unconfirmed"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "intro:2",
+  "severity": "error",
+  "problem": "The fish-market comparison is not reliably Muragaki's (see entry 26).",
+  "fix": {
+   "text_replace": {
+    "old": "Muragaki laughed at ballroom dancing, compared the Senate to a fish market, and privately thought",
+    "new": "Muragaki likened ballroom dancing to frolicking mice, a delegate compared the Senate to a fish market, and Muragaki privately thought"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "intro:2",
+  "severity": "doubt",
+  "problem": "No source found for the quoted phrase 'wonderful people'; it is set in quotation marks as if from the press.",
+  "fix": {
+   "text_replace": {
+    "old": "praised them as a 'wonderful people', worried",
+    "new": "praised them, worried"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:27",
+  "severity": "style",
+  "problem": "Fessler supports the music and bared heads at Washington's grave; the closing judgement ('one of the few American rituals he recorded with respect') is the compiler's, not the source's.",
+  "fix": {
+   "text_replace": {
+    "old": "It was one of the few American rituals he recorded with respect rather than amusement.",
+    "new": "The passage gives no date for the visit."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:30",
+  "severity": "error",
+  "problem": "Doan cites the Times of 12 June 1860 ('The Japanese in Philadelphia', p. 1) for the colonisation phrase and the Tribune of 12 June (p. 5) for the 'little maid in blue'; no source found supports the Tycoon-death rumour or its route by Pony Express.",
+  "fix": {
+   "text_replace": {
+    "old": "The Times reported the embassy's arrival in Philadelphia together with a rumour that the 'Tycoon' had died, a garbled echo of the assassination of Ii Naosuke that had reached America by sea, telegraph and Pony Express. Another item voiced",
+    "new": "The Times's report of the embassy's first day of sightseeing in Philadelphia ('The Japanese in Philadelphia') voiced"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:30",
+  "severity": "style",
+  "problem": "Source note should give the specific citations.",
+  "fix": {
+   "source_note": "New York Times, 12 June 1860, p. 1, and New-York Daily Tribune, 12 June 1860, p. 5, as cited in Doan, Civil War Samurai, introduction."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "convergence:4",
+  "severity": "error",
+  "problem": "The 'rumours from Edo' rest on the unsupported Tycoon item removed from entry 30.",
+  "fix": {
+   "text_replace": {
+    "old": "Tommy's romances, rumours from Edo and fears of colonisation",
+    "new": "Tommy's romances and fears of colonisation"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:31",
+  "severity": "error",
+  "problem": "Du Bois (as quoted by DVIDS and E-Sylum) says Oguri promised to lay the whole matter before his government; no written account taken home is mentioned. Leslie's dated the Mint visit 13 June 1860.",
+  "fix": {
+   "text_replace": {
+    "old": "the envoys took home a written account to use in exchange negotiations.",
+    "new": "Oguri promised to lay the whole matter before his government so that a rate of exchange could be arranged."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "eye:dubois",
+  "severity": "doubt",
+  "problem": "E-Sylum describes Patterson Du Bois as an assistant assayer present at the visit, but he was born in 1847 and so about thirteen in 1860. The eye should note the claim and the doubt.",
+  "fix": {
+   "text_replace": {
+    "old": "Whether he witnessed the assay himself is not established here.",
+    "new": "A numismatic newsletter (E-Sylum) calls him an assistant assayer present at the visit, but he was about thirteen in 1860, so whether he witnessed the assay himself is not established."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:35",
+  "severity": "error",
+  "problem": "The 23 June 1860 entry (Civil War Notebook transcription of the 1952 edition) has attachés 'buying largely at Appleton's new store', with books on industrial arts, geographies, atlases, high-coloured lithographs and children's books, and calls them intelligent and observant. It says nothing of two visits or of children's books as a way to learn a language. Digest only (1952 edition).",
+  "fix": {
+   "digest": "Strong noted that attachés of the embassy were buying heavily at Appleton's new bookstore. Books on the industrial arts, geographies, atlases and brightly coloured lithographs interested them most, and they bought many children's books too. He thought them intelligent and observant. Of the grand ball for the embassy on Monday night, for which tickets were scarce, he wrote that neither he nor his wife cared to go.",
+   "source_note": "Diary of George Templeton Strong, ed. Nevins and Thomas (1952), entry of 23 June 1860, as transcribed by Civil War Notebook (2026). Digest only."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "intro:4",
+  "severity": "doubt",
+  "problem": "No source found for the San Francisco press describing local Chinese as 'despised and overtaxed'. Doan's book also frames the African American papers as engaging with the embassy in 'transnational solidarity' against racial prejudice, which is not the same as proving an argument against racial ranking.",
+  "fix": {
+   "text_replace": {
+    "old": "were the same press that, in San Francisco that very spring, described local Chinese residents as despised and overtaxed, and historians have since shown that African American papers used the embassy to argue against the racial ranking the white press applied.",
+    "new": "wrote within the racial hierarchies of their day, and historians have since examined how African American papers used the embassy as a story of solidarity against the white press's racial prejudice."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "threads_out:1",
+  "severity": "doubt",
+  "problem": "No source found for the envoys calling on Perry's widow; the Roanoke officer is supported by Gowen (c. 1924).",
+  "fix": {
+   "text_replace": {
+    "old": "in New York the envoys called on Perry's widow, and on the Roanoke",
+    "new": "on the Roanoke"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "image:3",
+  "severity": "style",
+  "problem": "The University of Michigan record says the manuscript 'appears to be' a copy and catalogues it as Edo, 1861; the ABAA description of another copy says such copies can only be dated before 1868. The caption states the date too firmly.",
+  "fix": {
+   "text_replace": {
+    "old": "A manuscript copy, made in Edo in 1861, of",
+    "new": "A manuscript copy, catalogued by the University of Michigan as Edo, 1861, of"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "eye:tamamushi",
+  "severity": "style",
+  "problem": "As image 3: the copy is catalogued as 1861, not dated in the manuscript as far as the record shows.",
+  "fix": {
+   "text_replace": {
+    "old": "(one dated 1861 is digitised by the University of Michigan)",
+    "new": "(one catalogued as Edo, 1861, is digitised by the University of Michigan)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "embassy-1860",
+  "where": "entry:24",
+  "severity": "style",
+  "problem": "Gowen (c. 1924) confirms the first interview with Cass on 16 May and the exchange of treaties at Cass's office on 22 May.",
+  "fix": {
+   "confidence": "verified",
+   "source_note": "Exchange on 22 May at the Secretary of State's office and Cass interview of 16 May: Gowen, Washington Historical Quarterly (c. 1924); House Divided (Vincent's Register, 1860). Japanese date computed."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "intro:4",
+  "severity": "error",
+  "problem": "Grant's 4 March words and Kume's 'no guards in ranks' are not supported by any fetched text (see entries 13–14).",
+  "fix": {
+   "text_replace": {
+    "old": "On 4 March 1872 Grant welcomed a nation coming to learn, while Kume wondered at a head of state with no guards in ranks.",
+    "new": "On 4 March 1872 Iwakura presented the Emperor's letter to Grant at the White House."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "intro:4",
+  "severity": "doubt",
+  "problem": "Krebs (DIJ) says, citing Tanaka, that Kido and Ōkubo shared Kume's view of Prussia as a model; Ōkubo's own Berlin letters were not checked.",
+  "fix": {
+   "text_replace": {
+    "old": "which Kume summarised and Ōkubo seems to have taken home",
+    "new": "which Kume summarised and which, historians argue, Kido and Ōkubo took home as a model"
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:13",
+  "severity": "error",
+  "problem": "The wording and content of Grant's 4 March reply ('praising Japan's wish to learn', 'closer trade') are not checked against any printing; the Lanman text reached covers only San Francisco.",
+  "fix": {
+   "digest": "Grant received the ambassadors with his cabinet and made a short formal reply, printed in the press at the time; its wording is not checked here. An engraving of the scene, with the cabinet ranged behind the president, appeared in the illustrated press the next month.",
+   "source_note": "Audience date: standard chronology. Grant's reply not checked against a contemporary printing. Engraving: Bridgeman Images listing (April 1872)."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:14",
+  "severity": "error",
+  "problem": "The specific observations (no guards in ranks, no prostrations, black coat) are not supported by any fetched source; the source note says only 'summarised'.",
+  "fix": {
+   "delete": true
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "claim:3",
+  "severity": "error",
+  "problem": "Rests on entry 14, which has no verifiable source.",
+  "fix": {
+   "delete": true
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "convergence:2",
+  "severity": "error",
+  "problem": "With entry 14 removed and Grant's words unverified, the convergence should not attribute these remarks.",
+  "fix": {
+   "eyes": [
+    "iwakura",
+    "grant"
+   ],
+   "note": "The ambassador in court dress presents the Emperor's letter of credence; the president answers with a brief formal reply that the press printed. The first Japanese embassy since 1860 is received as a state visit."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:15",
+  "severity": "doubt",
+  "problem": "Mayo's visible footnotes cite Fish's diary for 6 March without describing it; the point that the Japanese had given out that revision would wait comes from Fish's remark of 18 January (Mayo n. 23).",
+  "fix": {
+   "source_note": "Fish, Diary, 6 March 1872, cited in Mayo (1967), nn. 14 and 17 (content not described there); the earlier report that revision would be postponed is Fish's remark of 18 January to the Austrian minister (Mayo n. 23). Digest summarised from Mayo, not from the diary."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:16",
+  "severity": "doubt",
+  "problem": "The phrase attributed to Mayo ('a stickler for tradition') could not be checked; the diary entry of 12 March is cited by Mayo (n. 29) without its content in the accessible footnotes.",
+  "fix": {
+   "text_replace": {
+    "old": "Fish, in Mayo's phrase a stickler for tradition, would not bend the rule.",
+    "new": "In Mayo's account Fish would not bend the rule; the diary's own wording is not checked here."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:19",
+  "severity": "error",
+  "problem": "No source found for Kido blaming Itō's haste or studying the constitution in these weeks. Mayo's accessible notes (n. 36) say Kido was tense and nervous during the talks and accused Fish, wrongly in her view, of taking all and giving nothing.",
+  "fix": {
+   "headline": "Kido sours on the talks",
+   "digest": "As the talks dragged on, Kido's diary shows him tense and nervous. He accused the Americans of taking everything and giving nothing, a charge Mayo, reading Fish's side, considers unjust. Studies of the embassy also describe his relations with the younger Itō cooling over the credentials gamble.",
+   "source_note": "Kido's diary (Brown and Hirota trans., vol. 2), as cited in Mayo (1967), n. 36; exact days and wording not checked."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "claim:5",
+  "severity": "error",
+  "problem": "Replace the unsupported claim with the one Mayo documents from Kido's diary.",
+  "fix": {
+   "date_display": "spring–summer 1872",
+   "claim": "Kido accuses the Americans of taking everything and giving nothing in the treaty talks",
+   "evidence": "Kido's diary, cited in Mayo (1967), n. 36"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:18",
+  "severity": "doubt",
+  "problem": "The statement about Ōkubo's letters is not tied to any letter found.",
+  "fix": {
+   "text_replace": {
+    "old": "Ōkubo's letters show a finance minister suddenly absent from the work of state while the talks waited.",
+    "new": "The errand took the finance minister away from the work of state for months while the talks waited."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:20",
+  "severity": "doubt",
+  "problem": "Mayo cites the 10 July diary entry (pp. 339–40) and letters to Grant without the content being visible; the digest's account of the decision is a summary of her study.",
+  "fix": {
+   "text_replace": {
+    "old": "His diary and letters to Grant record the administration deciding to let the negotiations end politely.",
+    "new": "Mayo, citing his diary for this day and his letters to Grant, describes the administration deciding to let the negotiations end politely; the diary's wording is not checked here."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:22",
+  "severity": "style",
+  "problem": "The MHS page gives the line but no gloss tying it to the late hour of Japan's opening; that reading is the compiler's.",
+  "fix": {
+   "text_replace": {
+    "old": "He also told the guests, in a line that played on the late hour of Japan's opening, that they had come a little late.",
+    "new": "One line told the guests that they were welcome but had come a little too late."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "claim:7",
+  "severity": "doubt",
+  "problem": "The interpretation 'to the company of nations' is not in the source.",
+  "fix": {
+   "claim": "Tells the guests in verse that they are welcome but 'a little too late'"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:26",
+  "severity": "style",
+  "problem": "The Spectator calls Iwakura a 'keen diplomatist of the European school' and says tailoring was the one area where he took American advice; it does not say he was no one's protégé.",
+  "fix": {
+   "text_replace": {
+    "old": "and judged Iwakura a shrewd diplomat, not anyone's protégé.",
+    "new": "and judged that Iwakura acted and observed like a keen diplomatist of the European school, taking American advice only in his tailoring."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "claim:8",
+  "severity": "style",
+  "problem": "In the Spectator the 'worth studying' sentence is about Iwakura, not the envoys collectively.",
+  "fix": {
+   "claim": "The Spectator calls Iwakura worth studying as well as conciliating, a keen diplomatist of the European school"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:27",
+  "severity": "error",
+  "problem": "The Kansai University study cites two Times reports: 29 August (Portsmouth dockyard and the gunnery-instruction ship Excellent) and 30 August (Channel Squadron at Spithead, flagship Minotaur, with Sir Harry Parkes).",
+  "fix": {
+   "digest": "The Times reported the embassy's visit to Portsmouth dockyard and the gunnery-instruction ship Excellent, and on 30 August its tour of the Channel Squadron at Spithead, beginning with the flagship Minotaur. The visitors were accompanied by Sir Harry Parkes, the British minister to Japan, then home on leave and the embassy's guide in Britain.",
+   "source_note": "The Times, 29 and 30 August 1872, as cited in Huang Yi, Kansai University study (KU-0400)."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:29",
+  "severity": "style",
+  "problem": "The Kansai study gives the ILN item's content: 'The Japanese Embassy', 12 October 1872, p. 342. It names two aims (preliminary treaty talks and study of Western administration, industry and trade), mentions the Shimonoseki indemnity and a week in the Manchester mills before Edinburgh. The digest can be made specific and verified.",
+  "fix": {
+   "digest": "Under the heading 'The Japanese Embassy', the Illustrated London News told its readers that the mission had two aims: preliminary talks on revising the treaties, and the study of Christian nations' administration, industry and trade with a view to reform at home. It also mentioned the question of the Shimonoseki indemnity, and reported that the members had spent a week in the Manchester cotton mills before going on to Edinburgh.",
+   "confidence": "verified",
+   "source_note": "Illustrated London News, 12 October 1872, p. 342, as summarised and cited in Huang Yi, Kansai University study (KU-0400), n. 80."
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:30",
+  "severity": "doubt",
+  "problem": "The Keio lecture places factory visits in Manchester on 17 October; nothing found supports the claim that Kido's entries dwell on schooling of the workers.",
+  "fix": {
+   "digest": "The embassy toured factories in the Manchester district on this day, and Kido's diary for the British weeks records visits of this kind. What he wrote about this particular day is not checked here.",
+   "source_note": "Keio University lecture (Manchester factories, 17 October 1872); diary content not checked."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:32",
+  "severity": "error",
+  "problem": "The phrase 'model for promoting industry' is the Saltaire Collection author's own sentence, not Kume's. Kume does record that Salt was away that day.",
+  "fix": {
+   "text_replace": {
+    "old": "and judged the town a deliberate model for promoting industry.",
+    "new": "and recorded that Titus Salt was away from Bradford that day, so the visitors could not meet him."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "claim:11",
+  "severity": "error",
+  "problem": "Kume's recorded points are the former moor and the half-day schooling; the 'model' judgement belongs to the modern study.",
+  "fix": {
+   "claim": "Notes that Saltaire was open moor twenty years before, and that its children spend half of each day in school and half in the mill",
+   "evidence": "Jikki, quoted in the Saltaire Collection study"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:33",
+  "severity": "style",
+  "problem": "Kido's diary as quoted mentions the superb scenery, England's most famous woollen mill and Salt's absence; nothing about the school.",
+  "fix": {
+   "text_replace": {
+    "old": "His entries on the village show more interest in the setting and the school than in the looms.",
+    "new": "He adds that the most famous woollen mill in England is here."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:34",
+  "severity": "doubt",
+  "problem": "The Bradford Daily Telegraph also reported that the party lunched with Sir Titus Salt (also in The Times, 28 October); Kume and Kido both record him as absent, and the Saltaire study doubts the report.",
+  "fix": {
+   "text_replace": {
+    "old": "noting that few men were there to watch because most were at work.",
+    "new": "noting that few men were there to watch because most were at work. It also reported that the party lunched with Sir Titus Salt, which both Kume and Kido, who record him as absent, contradict."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:35",
+  "severity": "doubt",
+  "problem": "No accessible source was found for the letter's date or wording; the specific content should not be stated as Ōkubo's words.",
+  "fix": {
+   "digest": "Ōkubo's letters home from Britain, printed in Ōkubo Toshimichi monjo, are cited by historians as recording how strongly the scale of British factories and trade impressed him, and as an early sign of his later policy of state-led industry. The particular letter, its date and its wording are not checked here.",
+   "source_note": "Ōkubo Toshimichi monjo (1927–29), as cited in secondary studies; not checked."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:37",
+  "severity": "error",
+  "problem": "Keio gives Kido's words as 'Rather than a slum, it is a den of villains ... beyond words' and Ōkubo's as 'the world has become wretched', with no date; nothing supports 'incognito' or 'without escort'.",
+  "fix": {
+   "headline": "Kido and Ōkubo see the East End",
+   "digest": "Kido and Ōkubo went to see London's East End. Kido called it not so much a slum as a den of villains whose state was beyond words; Ōkubo said the sight made him feel the world had become wretched. Their remarks are undated, but belong to the London months.",
+   "source_note": "Keio University lecture, quoting Kido and Ōkubo in translation (undated); month approximate."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "claim:12",
+  "severity": "error",
+  "problem": "Keio's wording is 'den of villains', not thieves.",
+  "fix": {
+   "claim": "London's East End is not so much a slum as a den of villains, beyond words"
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:39",
+  "severity": "error",
+  "problem": "The journal's content (Granville and Parkes present, the letter through an interpreter) was not checked against any text, and the source note says so. Keio states only that neither the Queen nor the Foreign Secretary attended the luncheon.",
+  "fix": {
+   "digest": "The Queen received the Japanese ambassadors at Windsor and accepted the Emperor's letter. Neither she nor the Foreign Secretary attended the luncheon the British side gave for them afterwards. Her journal for the day survives in the Royal Archives; its wording is not checked here.",
+   "source_note": "Date: Wikipedia, Keio lecture, Saltaire Collection. Luncheon: Keio lecture. Journal not checked."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "eye:victoria",
+  "severity": "error",
+  "problem": "For 1872 the Queen's journal survives only in Princess Beatrice's edited transcript; her own manuscript volumes survive only for her early years.",
+  "fix": {
+   "text_replace": {
+    "old": "partly in her own hand and partly in Princess Beatrice's later transcript",
+    "new": "for 1872 only in Princess Beatrice's edited transcript (the Queen's own manuscript survives only for her early years)"
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:41",
+  "severity": "error",
+  "problem": "Krebs paraphrases Kume's report as: international law as debated in the West would not help the Japanese, and Bismarck advised military strength so that they could assert their rights. 'Respected only when it suits them' goes beyond that.",
+  "fix": {
+   "text_replace": {
+    "old": "the great powers respect international law only when it suits them, so a small nation must build its own strength.",
+    "new": "international law as debated in the West would not protect Japan, so it should build military strength to assert its rights."
+   }
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "claim:14",
+  "severity": "error",
+  "problem": "Align with Krebs's summary.",
+  "fix": {
+   "claim": "Records Bismarck's advice that Western international law will not protect Japan without military strength of its own"
+  },
+  "confidence": "verified"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:42",
+  "severity": "error",
+  "problem": "No Berlin letter of Ōkubo was found. Krebs says only, citing Tanaka, that Kido and Ōkubo shared Kume's view of Prussia as a model.",
+  "fix": {
+   "digest": "Historians, among them Tanaka as cited by Krebs, hold that Ōkubo, like Kido, came away from Berlin sharing Kume's view of Prussia, a state that had made itself strong in a generation, as a closer model for Japan than Britain or America. His letters from Berlin are not checked here.",
+   "source_note": "Krebs, 'Die Iwakura-Mission in Preußen' (DIJ Tokyo), citing Tanaka; Ōkubo's letters not checked."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "convergence:7",
+  "severity": "doubt",
+  "problem": "No Ōkubo letter was verified; the German side's record is not checked either.",
+  "fix": {
+   "note": "Kume records Bismarck's lesson in summary; historians argue that Ōkubo and Kido shared Kume's view of Prussia as a model for Japan."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "eye:okubo",
+  "severity": "doubt",
+  "problem": "The bio presents the content of letters that were not checked as established.",
+  "fix": {
+   "text_replace": {
+    "old": "His letters show a man less interested in parliaments than in factories, and most impressed, in Berlin, by a state that had made itself strong quickly.",
+    "new": "Historians read his letters as those of a man more interested in factories than in parliaments, and see him, with Kido and Kume, drawn in Berlin to Prussia as a model."
+   }
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:47",
+  "severity": "doubt",
+  "problem": "The contents of the opening letters in The Attic Letters (1991) are summarised from secondary accounts that were not identified or checked.",
+  "fix": {
+   "digest": "From her return to Japan in late 1882 Tsuda wrote regularly to Adeline Lanman. The letters, published in 1991, are the main record of how a girl sent abroad by the embassy at six came home at seventeen to a country and language she had to learn again. Their particular contents are not checked here.",
+   "source_note": "The Attic Letters (1991); contents not checked against the edition."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:4",
+  "severity": "doubt",
+  "problem": "The details (a city built on gold, gaslight, carriages, crowds) are not checked against the Jikki; only the lodging at the Grand Hotel is supported (Lanman, banquet there).",
+  "fix": {
+   "digest": "Kume's record begins its account of America in San Francisco, where the embassy was lodged at the Grand Hotel. His description of the city is summarised from the translation and its details are not checked here."
+  },
+  "confidence": "approx"
+ },
+ {
+  "chapter": "iwakura-1871",
+  "where": "entry:10",
+  "severity": "doubt",
+  "problem": "No source checked supports Kume's remark on Chicago's rebuilding.",
+  "fix": {
+   "text_replace": {
+    "old": "Passing through Chicago, still marked by the great fire of October 1871, Kume noted the speed of rebuilding as a sign of American energy.",
+    "new": "The route east ran through Chicago, rebuilding after the great fire of October 1871; Kume's comments on the city are not checked here."
+   }
+  },
+  "confidence": "approx"
+ }
+]

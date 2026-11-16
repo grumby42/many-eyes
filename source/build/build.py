@@ -20,17 +20,18 @@ V6ORDER = ["worms-1521", "fatehpur-sikri", "philadelphia-1787", "vienna-1815", "
 V7ORDER = ["balloons-1783", "steam-water", "rainhill-1830", "oceans-1869", "the-road", "kitty-hawk", "channel-atlantic", "airships", "rockets", "jet-age", "shinkansen"]
 _pf = pathlib.Path(__file__).resolve().parent.parent / "pron" / f"pron-v{os.environ.get('VOL', '1')}.json"
 PRON = json.loads(_pf.read_text(encoding="utf-8")) if _pf.exists() else {}
+V10ORDER = ["siam-1686", "mehmed-1720", "mai-1774", "abutaleb-1799", "tahtawi-1826", "embassy-1860", "iwakura-1871", "naser-1873", "guo-1877", "vivekananda-1893"]
 V14ORDER = ["potosi-1545", "davy-1807", "kohinoor-1849", "california-1848", "kimberley-1867", "mendeleev-1869", "witwatersrand-1886", "argon-1894", "klondike-1896", "cullinan-1905"]
 V9ORDER = ["tenochtitlan-1520", "boston-1721", "philadelphia-1793", "balmis-1803", "cholera-1832", "broad-street-1854", "scutari-1854", "bombay-1896", "influenza-1918", "polio-1954"]
 V15ORDER = ["clean-slates", "dream-books", "hildegard-1141", "missing-days", "diodati-1816", "darwin-1837", "hidden-christians-1865", "waking-ideas", "inflation-1923", "jerusalem-1948", "everett-1957", "berlin-1961", "gold-1971", "private-books"]
 V13ORDER = ["chappe-1794", "morse-1844", "cables-1858", "telephone-1876", "wireless-1901", "titanic-1912", "zimmermann-1917", "midway-1942", "arpanet-1969"]
 V8ORDER = ["supernova-1054", "halley-1066", "eclipse-1715", "leonids-1833", "carrington-1859", "tunguska-1908", "halley-1910", "eclipse-1919"]
-ORDER = {"1": V1ORDER, "2": V2ORDER, "3": V3ORDER, "4": V4ORDER, "5": V5ORDER, "6": V6ORDER, "7": V7ORDER, "8": V8ORDER, "13": V13ORDER, "15": V15ORDER, "9": V9ORDER, "14": V14ORDER}[VOL]
-ROOT = {"1": SP, "2": SP / "vol2", "3": SP / "vol3", "4": SP / "vol4", "5": SP / "vol5", "6": SP / "vol6", "7": SP / "vol7", "8": SP / "vol8", "13": SP / "vol13", "15": SP / "vol15", "9": SP / "vol9", "14": SP / "vol14"}[VOL]
+ORDER = {"1": V1ORDER, "2": V2ORDER, "3": V3ORDER, "4": V4ORDER, "5": V5ORDER, "6": V6ORDER, "7": V7ORDER, "8": V8ORDER, "13": V13ORDER, "15": V15ORDER, "9": V9ORDER, "14": V14ORDER, "10": V10ORDER}[VOL]
+ROOT = {"1": SP, "2": SP / "vol2", "3": SP / "vol3", "4": SP / "vol4", "5": SP / "vol5", "6": SP / "vol6", "7": SP / "vol7", "8": SP / "vol8", "13": SP / "vol13", "15": SP / "vol15", "9": SP / "vol9", "14": SP / "vol14", "10": SP / "vol10"}[VOL]
 out_path = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else SP / "build" / "many-eyes.html"
 stamp = sys.argv[2] if len(sys.argv) > 2 else datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 dt = datetime.datetime.strptime(stamp, "%Y-%m-%dT%H:%M:%SZ")
-build = {"1": "EYES-", "2": "EYES2-", "3": "EYES3-", "4": "EYES4-", "5": "EYES5-", "6": "EYES6-", "7": "EYES7-", "8": "EYES8-", "13": "EYES13-", "15": "EYES15-", "9": "EYES9-", "14": "EYES14-"}[VOL] + dt.strftime("%Y%m%d-%H%MZ")
+build = {"1": "EYES-", "2": "EYES2-", "3": "EYES3-", "4": "EYES4-", "5": "EYES5-", "6": "EYES6-", "7": "EYES7-", "8": "EYES8-", "13": "EYES13-", "15": "EYES15-", "9": "EYES9-", "14": "EYES14-", "10": "EYES10-"}[VOL] + dt.strftime("%Y%m%d-%H%MZ")
 
 SHORT = {"Murasaki Shikibu": "Murasaki", "Sei Shōnagon": "Sei Shōnagon"}
 SHORTS = json.loads((SP / "build" / "shorts.json").read_text(encoding="utf-8"))
@@ -101,12 +102,12 @@ def _roman(n):
     for k, sym in ((10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")):
         while n >= k: out += sym; n -= k
     return out
-if VOL in ("2", "3", "4", "5", "6", "7", "8", "9", "13", "14", "15"):
+if VOL in ("2", "3", "4", "5", "6", "7", "8", "9", "10", "13", "14", "15"):
     for i, cid0 in enumerate(V1ORDER):
         fp = SP / f"ch-{cid0}.json"
         if fp.exists():
             EXTERNAL["v1:" + cid0] = {"volume": "Volume I", "num": _roman(i + 1), "title": json.loads(fp.read_text(encoding="utf-8")).get("title", cid0)}
-for _v, _vo, _vd, _vn in (("2", V2ORDER, "vol2", "Volume II"), ("3", V3ORDER, "vol3", "Volume III"), ("4", V4ORDER, "vol4", "Volume IV"), ("5", V5ORDER, "vol5", "Volume V"), ("6", V6ORDER, "vol6", "Volume VI"), ("7", V7ORDER, "vol7", "Volume VII"), ("8", V8ORDER, "vol8", "Volume VIII"), ("13", V13ORDER, "vol13", "Volume XIII"), ("15", V15ORDER, "vol15", "Volume XV"), ("9", V9ORDER, "vol9", "Volume IX")):
+for _v, _vo, _vd, _vn in (("2", V2ORDER, "vol2", "Volume II"), ("3", V3ORDER, "vol3", "Volume III"), ("4", V4ORDER, "vol4", "Volume IV"), ("5", V5ORDER, "vol5", "Volume V"), ("6", V6ORDER, "vol6", "Volume VI"), ("7", V7ORDER, "vol7", "Volume VII"), ("8", V8ORDER, "vol8", "Volume VIII"), ("13", V13ORDER, "vol13", "Volume XIII"), ("15", V15ORDER, "vol15", "Volume XV"), ("9", V9ORDER, "vol9", "Volume IX"), ("14", V14ORDER, "vol14", "Volume XIV")):
     if int(VOL) <= int(_v): continue
     for i, cid0 in enumerate(_vo):
         fp = SP / _vd / f"ch-{cid0}.json"
@@ -121,7 +122,13 @@ OUTLINE_TITLE_OF = {"merer": "The Pyramid Logbook", "black-death": "The Great Mo
     "opium-war": "Opium and Gunboats", "irish-famine": "The Great Hunger", "black-ships": "The Black Ships", "delhi-1857": "Delhi, 1857",
     "vesuvius-79": "Ash at Misenum", "spain-1936": "Spain Divided", "moscow-1937": "Moscow, 1937", "partition-1947": "The Sixth River",
     "apollo-11": "One Small Step", "wall-1989": "The Wall Opens"}
-if VOL == "14":
+if VOL == "10":
+    META = {"html_title": "Many Eyes, Volume X — The Return Gaze", "kicker": "A synoptic reader", "volume": "Volume X · The Return Gaze",
+        "sub": "Travellers from Asia, Africa and the Pacific looking at Europe and America, and their hosts looking back at them",
+        "preface": "Most of the earlier volumes watch Europeans and Americans looking out at the world. Volume X turns the gaze around. Each chapter follows a traveller or an embassy from Siam, the Ottoman Empire, the Pacific, India, Egypt, Japan, Persia or China into Europe or America, and lays beside their own record the record their hosts kept of them: court journals, newspapers, scientists' notes, society diaries and cartoons. The chapters run from the Siamese envoys in the Hall of Mirrors in 1686, through an Ottoman ambassador touring the France of the boy king Louis XV, Mai of Raiatea in Georgian London, a Persian-speaking Indian gentleman in the drawing rooms of 1800, an Egyptian scholar watching the July Revolution of 1830, the first Japanese embassy to the United States, the Iwakura Mission, the Shah of Persia on his first European tour, China's first minister in London, and Vivekananda at the Parliament of the World's Religions in Chicago. Each chapter adds a gaze ledger: what each side saw, admired, criticised or misunderstood about the other, when, and in what kind of record. Prejudice on both sides is reported plainly as what was written, without repeating slurs. Many of the travellers' books exist only in modern translations, so they are told in digests; English texts printed before 1929 are quoted sparingly. Islamic, Thai, Japanese, Chinese and Persian dates are converted to the Western calendar, and each chapter's calendar note explains how.",
+        "outline_title": "The series plan", "ledger_title": "The gaze ledger", "ledger_col": "Seen or remarked",
+        "ledger_blurb": "What each side saw, admired, criticised or misunderstood about the other, when, and in what kind of record. Both directions are mixed on one timeline; the book does not judge between them."}
+elif VOL == "14":
     META = {"html_title": "Many Eyes, Volume XIV — The Assay", "kicker": "A synoptic reader", "volume": "Volume XIV · The Assay",
         "sub": "Precious metals, gems and elements: the strike, the rush, the stone and the laboratory, seen by finders, workers, owners, chemists and the people whose land it was",
         "preface": "Volume XIV follows the things people dig for and the things chemists pull out of the world. Each chapter takes a strike, a rush, a famous stone or a laboratory discovery and lays side by side the people who lived it: the finders and prospectors, the labourers who did the digging, many of them conscripted, enslaved or driven off their own land, the owners and officials, the assayers and chemists, the rulers who lost or gained the treasure, and the newspapers that spread the news. The chapters run from the silver mountain of Potosí and the Andean men drafted to work it, through Humphry Davy pulling potassium out of potash with a great battery, the Koh-i-Noor taken from a boy maharaja and cut down in London, the California gold rush, the Kimberley diamond fields, Mendeleev's table and its rivals, the Witwatersrand gold reef, the discovery of argon and the other noble gases, the Klondike, and the Cullinan diamond. Each chapter adds an assay ledger: what was found, weighed, valued, claimed or announced, when, by whom, and in what kind of record. Disputes over who found something first, and over whose land and whose stone it was, are set out as positions with each side's evidence. Forced labour and dispossession are named plainly. English texts printed before 1929 and United States government records are quoted sparingly; later material is told in digests.",
@@ -436,7 +443,7 @@ if VOL == "2" and V2:
     V2["intro"] = ["These chapters from the Volume II outline are still to come. The names under each are leads chosen because the records are known to exist; none of it has been verified yet, and every date and claim will be checked the way the chapters in this book were."]
     if not V2["parts"]:
         V2 = None
-if VOL in ("3", "4", "5", "6", "7", "8", "9", "13", "14", "15"):
+if VOL in ("3", "4", "5", "6", "7", "8", "9", "10", "13", "14", "15"):
     SER = json.loads((SP / "build" / "series.json").read_text(encoding="utf-8"))
     built = {c["id"] for c in chapters}
     for pt in SER["parts"]:
@@ -449,9 +456,10 @@ if VOL in ("3", "4", "5", "6", "7", "8", "9", "13", "14", "15"):
             elif int(VOL) >= 8 and c.get("id") in V7ORDER and (SP / "vol7" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume VII"
             elif VOL != "8" and int(VOL) >= 9 and c.get("id") in V8ORDER and (SP / "vol8" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume VIII"
             elif int(VOL) >= 15 and c.get("id") in V13ORDER and (SP / "vol13" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume XIII"
-            elif c.get("id") in V13ORDER and VOL in ("9", "14") and (SP / "vol13" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume XIII"
-            elif c.get("id") in V15ORDER and VOL in ("9", "14") and (SP / "vol15" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume XV"
-            elif c.get("id") in V9ORDER and VOL in ("14",) and (SP / "vol9" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume IX"
+            elif c.get("id") in V13ORDER and VOL in ("9", "10", "14") and (SP / "vol13" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume XIII"
+            elif c.get("id") in V15ORDER and VOL in ("9", "10", "14") and (SP / "vol15" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume XV"
+            elif c.get("id") in V9ORDER and VOL in ("10", "14") and (SP / "vol9" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume IX"
+            elif c.get("id") in V14ORDER and VOL in ("10",) and (SP / "vol14" / f"ch-{c['id']}.json").exists(): c["status"] = "published in Volume XIV"
     V2 = SER
 data = json.dumps({"chapters": chapters, "volume2": V2, "meta": META, "external": EXTERNAL}, ensure_ascii=False)
 data = data.replace("</", "<\\/").replace("<!--", "<\\!--")
